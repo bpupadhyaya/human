@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "EGFR activates ERK1/2 via RAS-RAF-MEK; ERK1/2 drives proliferation in NSCLC, CRC, and HNSCC downstream of EGFR; KRAS mutation and ERK1/2 reactivation are the dominant resistance mechanisms to EGFR inhibitors (erlotinib, osimertinib, cetuximab)."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "BRAF V600E in ~50% of melanoma → constitutive MEK-ERK1/2; BRAF+MEK combinations (dabrafenib+trametinib, encorafenib+binimetinib) approved for BRAF V600E/K melanoma; 5-year OS ~34% (COMBI-D); paradoxical ERK1/2 activation by BRAF monotherapy requires mandatory MEK co-blockade."
+  - target: 01-human/03-molecular/nf1
+    relation: connects-to
+    note: "NF1 (neurofibromin) is a RAS-GAP; NF1 LOF → prolonged RAS-GTP → constitutive RAF-MEK-ERK1/2; NF1-mutant tumors include MPNST, plexiform neurofibroma, and glioma; selumetinib (Koselugo) is FDA-approved for NF1-associated plexiform neurofibromas in pediatric patients ≥2 years."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "ERK1/2 stabilizes c-MYC at Ser62 → prevents GSK-3β Thr58 phosphorylation → blocks β-TrCP ubiquitination; ERK1/2 → RSK → CREB → cyclin D1 → E2F1 cooperate with MYC in cell cycle entry; ERK1/2-MYC axis is central to KRAS-driven oncogenesis in pancreatic and colorectal cancer."
 ---
 
 # ERK1/2
@@ -133,6 +142,13 @@ A critical challenge in oncology is adaptive reactivation of ERK1/2 following ta
 - `connects-to` → **[KRAS](../kras/README.md)** — KRAS activates ERK1/2 via RAF-MEK; KRAS-driven ERK1/2 promotes proliferation in pancreatic, colorectal, and lung adenocarcinoma; direct KRAS inhibitors (sotorasib, adagrasib) suppress ERK1/2 output as the key efficacy readout.
 - `connects-to` → **[mTOR](../mtor/README.md)** — ERK1/2 activates mTOR via RSK → TSC2 inhibition; ERK1/2 and mTOR co-regulate protein synthesis and growth; MEK + mTOR inhibitor combinations overcome adaptive feedback resistance in KRAS-mutant and BRAF-mutant cancers.
 - `connects-to` → **[EGFR](../egfr/README.md)** — EGFR activates ERK1/2 via RAS-RAF-MEK; ERK1/2 drives proliferation in NSCLC, CRC, and HNSCC downstream of EGFR; KRAS mutation and ERK1/2 reactivation are the dominant resistance mechanisms to EGFR inhibitors (erlotinib, osimertinib, cetuximab).
+- `connects-to` → **[Melanoma](../../07-system/melanoma/README.md)** — BRAF V600E in ~50% of melanoma → constitutive MEK-ERK1/2; BRAF+MEK combinations (dabrafenib+trametinib, encorafenib+binimetinib) approved for BRAF V600E/K melanoma; 5-year OS ~34% (COMBI-D); paradoxical ERK1/2 activation by BRAF monotherapy requires mandatory MEK co-blockade.
+- `connects-to` → **[NF1](../nf1/README.md)** — NF1 (neurofibromin) is a RAS-GAP; NF1 LOF → prolonged RAS-GTP → constitutive RAF-MEK-ERK1/2; NF1-mutant tumors include MPNST, plexiform neurofibroma, and glioma; selumetinib (Koselugo) is FDA-approved for NF1-associated plexiform neurofibromas in pediatric patients ≥2 years.
+- `connects-to` → **[Myc](../myc/README.md)** — ERK1/2 stabilizes c-MYC at Ser62 → prevents GSK-3β Thr58 phosphorylation → blocks β-TrCP ubiquitination; ERK1/2 → RSK → CREB → cyclin D1 → E2F1 cooperate with MYC in cell cycle entry; ERK1/2-MYC axis is central to KRAS-driven oncogenesis in pancreatic and colorectal cancer.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^robinson-1997-mapk-review]: Robinson MJ, Cobb MH. Mitogen-activated protein kinase pathways. *Curr Opin Cell Biol.* 1997;9(2):180-186. [doi:10.1016/S0955-0674(97)80061-0](https://doi.org/10.1016/S0955-0674(97)80061-0) · [PubMed 9069255](https://pubmed.ncbi.nlm.nih.gov/9069255/)
 [^wellbrock-2004-raf-review]: Wellbrock C, Karasarides M, Marais R. The RAF proteins take centre stage. *Nat Rev Mol Cell Biol.* 2004;5(11):875-885. [doi:10.1038/nrm1498](https://doi.org/10.1038/nrm1498) · [PubMed 15520807](https://pubmed.ncbi.nlm.nih.gov/15520807/)

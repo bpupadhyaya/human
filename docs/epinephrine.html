@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Epinephrine (adrenaline) — catecholamine (MW 183.21) synthesised from norepinephrine by PNMT in adrenal medulla. Activates α1/α2/β1/β2/β3 receptors mediating fight-or-flight. First-line for anaphylaxis and cardiac arrest. Phaeochromocytoma pathophysiology.">
-  <meta property="og:title" content="Epinephrine (Adrenaline) — Molecular Atlas · Human Engineering">
+  <meta name="description" content="Catecholamine (MW 183.21) synthesised from norepinephrine by PNMT in adrenal medulla chromaffin cells. Activates α₁, α₂, β₁, β₂, β₃ adrenergic receptors mediati">
+  <meta property="og:title" content="Epinephrine — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Epinephrine (Adrenaline) — Molecular Atlas · Human Engineering</title>
+  <title>Epinephrine — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #9f1239;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(159,18,57,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #9f1239, #7f1d1d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .principle-box { background: rgba(159,18,57,0.05); border: 1px solid rgba(159,18,57,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -94,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -106,269 +119,65 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
-    <h1>Epinephrine (Adrenaline)</h1>
-    <p class="tagline">The fight-or-flight hormone — secreted from adrenal medulla chromaffin cells within seconds of stress, orchestrating cardiovascular, metabolic, and pulmonary responses via all five adrenergic receptor subtypes (α1, α2, β1, β2, β3).</p>
-    <p class="subtagline">MW 183.21 g/mol. Terminal product of the Blaschko catecholamine pathway — NE methylated to Epi by PNMT (induced by cortisol). Plasma t½ ~2 min (MAO + COMT degradation). Broader β₂ activity than NE — bronchodilation, muscle vasodilation, glycogenolysis. First-line treatment for anaphylaxis (IM 0.3–0.5 mg) and cardiac arrest (IV 1 mg). Phaeochromocytoma = excess Epi/NE secretion → paroxysmal hypertension.</p>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
+    <h1>Epinephrine</h1>
+    <p class="tagline">Catecholamine (MW 183.21) synthesised from norepinephrine by PNMT in adrenal medulla chromaffin cells. Activates α₁, α₂, β₁, β₂, β₃ adrenergic receptors mediating fight-or-flight response. First-line treatment for anaphylaxis. Phaeochromocytoma causes paroxysmal hypertension.</p>
+    <p class="aliases">Also known as: adrenaline, Epi, epinephrin, 4-(1-hydroxy-2-(methylamino)ethyl)-1,2-benzenediol</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">183.21</span><span class="stat-label">MW (g/mol)</span></div>
-      <div class="stat"><span class="stat-num">~2 min</span><span class="stat-label">Plasma half-life</span></div>
-      <div class="stat"><span class="stat-num">α1/α2/β1/β2/β3</span><span class="stat-label">Receptor subtypes activated</span></div>
-      <div class="stat"><span class="stat-num">PNMT</span><span class="stat-label">Biosynthetic enzyme (cortisol-induced)</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Catecholamine Hormone / Adrenergic</div>
-        <h2>Epinephrine (Adrenaline)</h2>
-        <div class="drug-class">Class: Catecholamine hormone &nbsp;&middot;&nbsp; Adrenergic agonist &nbsp;&middot;&nbsp; Neurotransmitter (minor) &nbsp;|&nbsp; Source: Adrenal medulla chromaffin cells (~80%) &nbsp;|&nbsp; Synthesis: PNMT (cortisol-regulated) &nbsp;|&nbsp; Degradation: MAO + COMT → metanephrine → VMA</div>
-        <p class="summary">Epinephrine (adrenaline; MW 183.21 Da) is the principal circulating catecholamine hormone of the stress response, secreted by adrenal medulla chromaffin cells within seconds of sympathetic splanchnic nerve activation. It is the terminal product of the Blaschko catecholamine biosynthetic pathway — norepinephrine methylated by PNMT (phenylethanolamine-N-methyltransferase), an enzyme uniquely induced by glucocorticoids from the adjacent adrenal cortex. Epinephrine's N-methyl group confers greater β₂ affinity than norepinephrine, explaining its unique combination of cardiac stimulation (β₁), bronchodilation (β₂), selective vasoconstriction (α₁ in skin/gut) + vasodilation (β₂ in muscle), and potent metabolic effects (hepatic glycogenolysis, adipose lipolysis). Pharmacologically, it is the first-line emergency drug for anaphylaxis and cardiac arrest, exploiting these wide-ranging adrenergic effects to simultaneously reverse vasodilation, bronchoconstriction, and cardiac arrest.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">adrenaline</span>
-          <span class="alias-pill">Epi</span>
-          <span class="alias-pill">N-methylnorepinephrine</span>
-          <span class="alias-pill">epinephrin</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">epinephrine</div>
+        <h2>Epinephrine</h2>
+        <p class="summary">Catecholamine (MW 183.21) synthesised from norepinephrine by PNMT in adrenal medulla chromaffin cells. Activates α₁, α₂, β₁, β₂, β₃ adrenergic receptors mediating fight-or-flight response. First-line treatment for anaphylaxis. Phaeochromocytoma causes paroxysmal hypertension.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Structure &amp; Chemistry</h3>
-          <p>Epinephrine is a <strong>catechol</strong> (3,4-dihydroxybenzene) with an aminoethanol side chain bearing an <strong>N-methyl group</strong> — hence N-methylnorepinephrine. Key structural features: (1) catechol ring essential for adrenergic receptor binding, O-methylated by COMT at 3-OH → metanephrine; (2) <strong>chiral centre</strong> at the benzylic carbon (C-1 of side chain): natural L-(R)-isomer is ~10–100× more potent than D-(S)-isomer; (3) <strong>secondary amine</strong> (N-methyl) confers higher β₂ affinity than NE (primary amine) — explaining different adrenergic pharmacology at clinical doses.</p>
-          <p>Stored in <strong>chromaffin granules</strong> at ~0.5 M concentration (80% Epi, 20% NE in most human adrenal medullae), complexed with chromogranins A/B, ATP, enkephalins, and NPY. Cortisol from the intra-adrenal portal circulation (at 10–100× systemic concentration) induces PNMT expression — maintaining high Epi/NE ratio in chromaffin cells.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Blaschko Biosynthesis Pathway &amp; Secretion</h3>
-          <div class="pathway-block">
-<pre>
-  L-Phenylalanine
-       │  PAH (phenylalanine hydroxylase; liver, mainly)
-       ▼
-  L-Tyrosine
-       │  TH (tyrosine hydroxylase) — RATE-LIMITING
-       │  Fe²⁺ / BH4 / O₂; inhibited by catecholamine products
-       ▼
-  L-DOPA
-       │  AADC (aromatic L-amino acid decarboxylase; PLP cofactor)
-       ▼
-  Dopamine   [transported into vesicle by VMAT2 / SLC18A2]
-       │
-       │  DβH (dopamine β-hydroxylase) — INTRA-VESICULAR
-       │  Cu²⁺/ascorbate/O₂ cofactors
-       ▼
-  Norepinephrine   [exits vesicle into cytosol]
-       │
-       │  PNMT (phenylethanolamine-N-methyltransferase) — CYTOSOLIC
-       │  SAM (S-adenosyl-methionine) methyl donor
-       │  INDUCED by glucocorticoids (cortisol → GR activation in chromaffin cells)
-       ▼
-  Epinephrine   [re-enters storage in chromaffin granule]
-
-  SECRETION:
-  Splanchnic nerve AP → nAChR (α3β4) on chromaffin cell
-        │  Na⁺ influx → depolarisation → VGCCs open → Ca²⁺ influx
-        ▼
-  Chromaffin granule exocytosis → Epi into adrenal vein → systemic circulation
-  Plasma t½ ~2 min (rapid tissue uptake + MAO/COMT degradation)
-
-  CATABOLISM:
-  ├─ MAO (mitochondrial, MAO-A &gt; B): Epi → deaminated → DOPGAL
-  ├─ COMT (cytosolic, SAM-dependent): Epi → metanephrine (3-OH methylation)
-  └─ Sequential MAO + COMT → VMA (vanillylmandelic acid) + metanephrine
-     [Plasma/24h-urine fractionated metanephrines: most sensitive phaeochromocytoma test]
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Adrenergic Receptor Pharmacology &amp; Fight-or-Flight Effects</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Receptor</th><th>G-protein / 2nd messenger</th><th>Primary Tissue</th><th>Epinephrine Effect</th></tr>
-            <tr>
-              <td><strong>α₁AR</strong></td>
-              <td>Gq → PLC → IP3/DAG → ↑Ca²⁺</td>
-              <td>Vascular smooth muscle (skin, gut, kidney), iris dilator, GI sphincters</td>
-              <td>Vasoconstriction in non-essential tissues → redirects blood to muscles/heart/brain; mydriasis; ↑sphincter tone</td>
-            </tr>
-            <tr>
-              <td><strong>α₂AR</strong></td>
-              <td>Gi → ↓cAMP; GIRK</td>
-              <td>Presynaptic sympathetic terminals, pancreatic β-cells, platelets</td>
-              <td>↓NE release (presynaptic feedback); ↓insulin secretion (→ ↑blood glucose); platelet aggregation</td>
-            </tr>
-            <tr>
-              <td><strong>β₁AR</strong></td>
-              <td>Gs → ↑cAMP → PKA</td>
-              <td>SA node, AV node, ventricular myocardium, kidney JGA</td>
-              <td>↑HR (chronotropy), ↑contractility (inotropy), ↑AV conduction (dromotropy), ↑renin; ↑cardiac output</td>
-            </tr>
-            <tr>
-              <td><strong>β₂AR</strong></td>
-              <td>Gs → ↑cAMP → PKA</td>
-              <td>Bronchi, skeletal muscle vasculature, hepatocytes, uterus, mast cells</td>
-              <td>Bronchodilation (key for anaphylaxis rescue), vasodilation in muscles, hepatic glycogenolysis; stabilises mast cells</td>
-            </tr>
-            <tr>
-              <td><strong>β₃AR</strong></td>
-              <td>Gs → ↑cAMP → PKA</td>
-              <td>Adipose (brown + white), urinary bladder detrusor</td>
-              <td>Lipolysis (↑FFA) + thermogenesis in brown adipose; bladder relaxation</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>epinephrine</td></tr>
+            <tr><td>Name</td><td>Epinephrine</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Mechanism of Action — Signal Transduction (β₁ and β₂ examples)</h3>
-          <div class="pathway-block">
-<pre>
-  β₁AR CARDIAC PATHWAY  (↑Contractility + ↑HR)
-  ──────────────────────────────────────────────
-  Epi + β₁AR → Gαs → Adenylyl cyclase (AC5/AC6) → ↑cAMP → PKA
-        │
-        ├─ Cav1.2 (L-type Ca²⁺ channel, β-subunit Ser1928) → ↑ICaL → ↑Ca²⁺ transient
-        ├─ RyR2 (Ser2808) → ↑SR Ca²⁺ release → ↑contractility (positive inotropy)
-        ├─ Phospholamban (PLN, Ser16) → ↓PLN inhibition of SERCA2a → faster SR reuptake
-        │   → ↑relaxation rate (positive lusitropy) + ↑SR Ca²⁺ loading
-        ├─ Troponin I (Ser23/24) → ↓myofilament Ca²⁺ sensitivity → faster relaxation
-        └─ HCN4 (CNBD Ser) → cAMP shifts If activation +10 mV → faster diastolic depol → ↑HR
-
-  β₂AR BRONCHIAL PATHWAY  (Bronchodilation)
-  ──────────────────────────────────────────
-  Epi + β₂AR → Gαs → ↑cAMP → PKA
-        │
-        ├─ MLCK phosphorylation + inactivation → smooth muscle relaxation
-        ├─ BKCa (large-conductance Ca²⁺-activated K⁺ channels) → K⁺ efflux → hyperpolarisation
-        ├─ PKA → β₂AR GRK2/3 phosphorylation → β-arrestin → receptor desensitisation
-        └─ Mast cell β₂AR → ↑cAMP → ↓IgE-triggered degranulation (anti-allergic)
-
-  α₁AR METABOLIC PATHWAY  (Hepatic glycogenolysis)
-  ──────────────────────────────────────────────────
-  Epi + α₁AR (hepatocyte) → Gq → IP3 → ↑Ca²⁺
-  [or via β₂AR → ↑cAMP → PKA on same hepatocyte]
-        │
-        ▼
-  PKA / Ca²⁺-CaM → phosphorylase kinase → glycogen phosphorylase (active form)
-        │
-        ▼  Glycogen → glucose-1-P → glucose-6-P → glucose → blood → ↑glycaemia
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Physiological Roles — Fight-or-Flight Organ System Table</h3>
-          <table class="data-table">
-            <tr><th>System</th><th>Epi Effect</th><th>Receptor</th><th>Survival Purpose</th></tr>
-            <tr><td><strong>Heart</strong></td><td>↑HR, ↑contractility, ↑CO, ↑conduction velocity</td><td>β₁AR</td><td>↑Blood delivery to muscles and brain</td></tr>
-            <tr><td><strong>Lungs</strong></td><td>Bronchodilation, ↓mucus, ↓mast cell degranulation</td><td>β₂AR</td><td>Maximise O₂ intake; critical in anaphylaxis</td></tr>
-            <tr><td><strong>Vascular (skin/gut)</strong></td><td>Vasoconstriction</td><td>α₁AR</td><td>Redirect blood to muscles/brain; ↑MAP</td></tr>
-            <tr><td><strong>Vascular (muscle)</strong></td><td>Vasodilation at low Epi concentrations</td><td>β₂AR</td><td>↑Skeletal muscle perfusion for fight/flight</td></tr>
-            <tr><td><strong>Liver</strong></td><td>Glycogenolysis → ↑blood glucose</td><td>α₁AR + β₂AR</td><td>Energy substrate mobilisation</td></tr>
-            <tr><td><strong>Adipose</strong></td><td>Lipolysis → ↑FFA + glycerol</td><td>β₁AR / β₃AR</td><td>Alternative energy substrate; glucose sparing</td></tr>
-            <tr><td><strong>Pancreas</strong></td><td>↓Insulin (α₂), ↑Glucagon (β₂)</td><td>α₂AR (β-cells), β₂AR (α-cells)</td><td>Maintain hyperglycaemia for extended stress</td></tr>
-            <tr><td><strong>Eyes</strong></td><td>Mydriasis (pupil dilation)</td><td>α₁AR (iris dilator)</td><td>Improve visual field in threat response</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pharmacology — Clinical Uses of Epinephrine</h3>
-          <table class="data-table">
-            <tr><th>Indication</th><th>Route / Dose</th><th>Mechanism Exploited</th><th>Rationale</th></tr>
-            <tr>
-              <td><strong>Anaphylaxis</strong></td>
-              <td>IM 0.3–0.5 mg (1:1000) anterior thigh; auto-injector (EpiPen)</td>
-              <td>β₂ bronchodilation; α₁ vasoconstriction → ↑BP; β₁ ↑HR + contractility; β₂ mast cell stabilisation → ↓further mediator release</td>
-              <td>Must be given BEFORE antihistamines and corticosteroids — Epi reverses all four major components of anaphylaxis; delay increases mortality</td>
-            </tr>
-            <tr>
-              <td><strong>Cardiac arrest (ACLS)</strong></td>
-              <td>IV 1 mg q3–5 min during CPR</td>
-              <td>α₁ peripheral vasoconstriction → ↑diastolic BP → ↑coronary and cerebral perfusion pressure during CPR compressions</td>
-              <td>Primary mechanism is NOT cardiac stimulation but α₁-mediated aortic diastolic pressure elevation; β effects may be harmful after ROSC</td>
-            </tr>
-            <tr>
-              <td><strong>Severe asthma / status asthmaticus</strong></td>
-              <td>SC 0.3 mg (1:1000); or nebulised adrenaline (croup)</td>
-              <td>β₂ bronchodilation + ↓mucosal oedema (α₁)</td>
-              <td>Second-line after SABA nebulisers; IM/SC route in extremis</td>
-            </tr>
-            <tr>
-              <td><strong>Local anaesthesia adjunct</strong></td>
-              <td>Added to lignocaine (1:100,000–1:200,000)</td>
-              <td>α₁ local vasoconstriction → ↓anaesthetic absorption → prolonged/intense block + haemostasis</td>
-              <td>Contraindicated in digits, penis, ear — end arteries → risk of ischaemic necrosis</td>
-            </tr>
-            <tr>
-              <td><strong>Cardiogenic shock (refractory)</strong></td>
-              <td>IV infusion 0.01–1 mcg/kg/min</td>
-              <td>Low dose: β₁/β₂ dominates → ↑CO; high dose: α₁ adds vasoconstriction → ↑MAP but ↑afterload</td>
-              <td>Used when NE + dobutamine insufficient; risk: arrhythmia, ↑myocardial O₂ demand, organ ischaemia</td>
-            </tr>
-            <tr>
-              <td><strong>Glaucoma (as dipivefrin prodrug)</strong></td>
-              <td>Topical eye drops</td>
-              <td>Penetrates cornea → hydrolysed → Epi; ↑aqueous outflow (β₂) + ↓production (α₂)</td>
-              <td>Largely superseded by prostaglandin analogues and β-blockers (timolol)</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Condition</th><th>Epi Perturbation</th><th>Mechanism</th><th>Diagnosis / Treatment</th></tr>
-            <tr><td><strong>Phaeochromocytoma</strong></td><td>↑Epi ± NE (paroxysmal or sustained)</td><td>Adrenal medullary chromaffin tumour (90% benign); constitutive or paroxysmal Epi/NE secretion; "rule of 10s" — 10% bilateral, 10% extra-adrenal, 10% malignant, 10% paediatric</td><td>Dx: plasma/24h urine fractionated metanephrines (metanephrine + normetanephrine, most sensitive test); imaging CT/MRI; Tx: phenoxybenzamine (irreversible α-block) FIRST, then add β-blocker; surgical adrenalectomy (never β-block first — unopposed α → hypertensive crisis)</td></tr>
-            <tr><td><strong>Anaphylaxis</strong></td><td>Epi is the antidote, not the cause</td><td>IgE → mast cell → histamine, leukotrienes, tryptase → vasodilation, bronchospasm, laryngeal oedema; Epi reverses all components</td><td>IM epinephrine 0.3–0.5 mg (1:1000) anterior thigh; repeat q5-15 min if needed; IV fluids; adjuncts: H1+H2 antihistamines, corticosteroids, β₂ inhaler</td></tr>
-            <tr><td><strong>Hypoglycaemia counter-regulation</strong></td><td>↓Blood glucose triggers Epi release → glycogenolysis + gluconeogenesis</td><td>Hypothalamus → splanchnic nerve → chromaffin cells → Epi surge → hepatic glucose output + glucagon (β₂ on α-cells)</td><td>HAAF (hypoglycaemia-associated autonomic failure) in T1DM: repeated hypos → blunted Epi counter-regulatory response → hypoglycaemia unawareness → dangerous episodes</td></tr>
-            <tr><td><strong>Takotsubo (Stress) Cardiomyopathy</strong></td><td>Acute massive Epi surge → apical stunning</td><td>Intense psychological or physical stress → massive sympathetic activation → β₁/β₂ AR-mediated apical cardiomyocyte toxicity (direct cAMP/Ca²⁺ overload); apical sparing of β-AR density plays role</td><td>Supportive care; β-blockers; usually reversible; recurrence ~10%/year; not benign — acute heart failure, arrhythmia</td></tr>
-          </table>
-
-          <div class="principle-box">
-            <p><strong>Phaeochromocytoma — alpha-before-beta rule:</strong> Tumours secreting predominantly Epi cause both ↑HR and ↑BP. NE-secreting tumours cause ↑BP + reflex bradycardia (baroreflex). In both, <strong>NEVER start a β-blocker first</strong> — blocking β₂-mediated vasodilation without α₁ block leaves unopposed α₁ vasoconstriction → extreme ↑↑ BP → hypertensive crisis. <strong>Alpha-block (phenoxybenzamine, irreversible) first</strong> — wait ~10–14 days for full effect + volume expansion (as α-block allows volume to expand) — then add β-blocker. Surgical resection is definitive treatment.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="norepinephrine.html" class="conn-pill acts">
-              <span class="rel">Synthesised from</span>
-              Norepinephrine (PNMT)
-            </a>
-            <a href="dopamine.html" class="conn-pill acts">
-              <span class="rel">Upstream precursor</span>
-              Dopamine (Blaschko)
-            </a>
-            <a href="beta1-adrenergic-receptor.html" class="conn-pill targets">
-              <span class="rel">Activates</span>
-              β1-Adrenergic Receptor
-            </a>
-            <a href="histamine.html" class="conn-pill targets">
-              <span class="rel">Physiological antagonist of</span>
-              Histamine (anaphylaxis)
-            </a>
-            <a href="cortisol.html" class="conn-pill acts">
-              <span class="rel">Induced by</span>
-              Cortisol (PNMT expression)
-            </a>
-            <a href="cardiovascular-system.html" class="conn-pill acts">
-              <span class="rel">Fight-or-flight in</span>
-              Cardiovascular System
-            </a>
+            <a class="conn-pill" href="beta1-adrenergic-receptor.html" title="Epinephrine binds β₁AR (Gs) on SA node and ventricular cardiomyocytes → ↑cAMP → PKA phosphorylates L-type Ca channel, RyR2, phospholamban, troponin I → ↑HR, ↑contractility, faster relaxation."><span class="rel">modulates</span>Beta1 Adrenergic Receptor</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Epinephrine drives fight-or-flight CV response: ↑HR (β₁), ↑contractility (β₁), selective vasoconstriction (α₁ skin/gut) and vasodilation (β₂ muscle) → ↑cardiac output and ↑BP."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="hepatocyte.html" title="Epinephrine via β₂/α₁ in hepatocytes activates glycogen phosphorylase (cAMP→PKA or IP3→Ca²⁺ pathways) → glycogenolysis → ↑blood glucose; also activates gluconeogenic enzymes."><span class="rel">modulates</span>Hepatocyte</a>
+            <a class="conn-pill" href="glucocorticoid-receptor.html" title="PNMT (Epi-synthesising enzyme in adrenal medulla) is induced by cortisol from portal blood of the adrenal cortex — GR activation in chromaffin cells maintains high epinephrine:norepinephrine ratio."><span class="rel">modulated-by</span>Glucocorticoid Receptor</a>
+            <a class="conn-pill" href="norepinephrine.html" title="Epinephrine is synthesised from norepinephrine by PNMT in adrenal chromaffin cells; NE is the primary sympathetic neurotransmitter while Epi predominates in adrenal medullary secretion (~80% Epi, ~20% NE); both catecholamines are degraded by MAO/COMT to urinary metanephrines."><span class="rel">connects-to</span>Norepinephrine</a>
+            <a class="conn-pill" href="cortisol.html" title="Cortisol from adrenal cortex reaches chromaffin cells via intra-adrenal portal circulation at 10-100× systemic levels → GR activation → PNMT induction → Epi synthesis; stress co-activates HPA (cortisol) and sympathoadrenal (Epi) axes; hypophysectomy reduces PNMT → ↓Epi/NE ratio."><span class="rel">connects-to</span>Cortisol</a>
+            <a class="conn-pill" href="dopamine.html" title="Dopamine is the immediate precursor to norepinephrine in the Blaschko pathway; TH (tyrosine hydroxylase) is the rate-limiting step for all catecholamines; dopamine β-hydroxylase converts dopamine to NE in chromaffin granules; PNMT methylates NE to epinephrine using SAM."><span class="rel">connects-to</span>Dopamine</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019. <a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X">Macmillan Learning</a></li>
-            <li>Blaschko H. The specific action of L-DOPA decarboxylase. <em>J Physiol.</em> 1939;96(1):50-51. <a href="https://doi.org/10.1113/jphysiol.1939.sp003748">doi:10.1113/jphysiol.1939.sp003748</a> — classic Blaschko pathway paper</li>
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/">NCBI Bookshelf</a></li>
-            <li>Kemp SF, Lockey RF, Simons FE. Epinephrine: the drug of choice for anaphylaxis — a statement of the World Allergy Organization. <em>Allergy.</em> 2008;63(8):1061-1070. <a href="https://doi.org/10.1111/j.1398-9995.2008.01716.x">doi:10.1111/j.1398-9995.2008.01716.x</a></li>
-            <li>Lenders JW et al. Phaeochromocytoma. <em>Lancet.</em> 2005;366(9486):665-675. <a href="https://doi.org/10.1016/S0140-6736(05)67139-5">doi:10.1016/S0140-6736(05)67139-5</a> — diagnosis and management review</li>
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li><a href="https://doi.org/10.1113/jphysiol.1939.sp003748" target="_blank" rel="noopener noreferrer">Blaschko H. The specific action of L-DOPA decarboxylase. J Physiol. 1939;96(1):50-51.</a></li>
           </ul>
         </div>
 
@@ -377,19 +186,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="norepinephrine.html">Norepinephrine</a>
-      <a href="dopamine.html">Dopamine</a>
-      <a href="beta1-adrenergic-receptor.html">β1-AR</a>
-      <a href="histamine.html">Histamine</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
-  <script>document.getElementById('year') && (document.getElementById('year').textContent = new Date().getFullYear());</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: modulated-by
     note: "PNMT (Epi-synthesising enzyme in adrenal medulla) is induced by cortisol from portal blood of the adrenal cortex — GR activation in chromaffin cells maintains high epinephrine:norepinephrine ratio."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Epinephrine is synthesised from norepinephrine by PNMT in adrenal chromaffin cells; NE is the primary sympathetic neurotransmitter while Epi predominates in adrenal medullary secretion (~80% Epi, ~20% NE); both catecholamines are degraded by MAO/COMT to urinary metanephrines."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol from adrenal cortex reaches chromaffin cells via intra-adrenal portal circulation at 10-100× systemic levels → GR activation → PNMT induction → Epi synthesis; stress co-activates HPA (cortisol) and sympathoadrenal (Epi) axes; hypophysectomy reduces PNMT → ↓Epi/NE ratio."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine is the immediate precursor to norepinephrine in the Blaschko pathway; TH (tyrosine hydroxylase) is the rate-limiting step for all catecholamines; dopamine β-hydroxylase converts dopamine to NE in chromaffin granules; PNMT methylates NE to epinephrine using SAM."
 ---
 
 # Epinephrine
@@ -124,10 +133,13 @@ Sequential action → **vanillylmandelic acid (VMA)** + **metanephrine** (and no
 
 ## Connections
 
-- **Modulates beta1-adrenergic-receptor** — Epinephrine binds β₁AR (Gs) on SA node and ventricular cardiomyocytes → ↑cAMP → PKA phosphorylates L-type Ca channel, RyR2, phospholamban, troponin I → ↑HR, ↑contractility, faster relaxation. See [beta1-adrenergic-receptor](../beta1-adrenergic-receptor/README.md).
-- **Modulates cardiovascular system** — Epinephrine drives fight-or-flight CV response: ↑HR (β₁), ↑contractility (β₁), selective vasoconstriction (α₁ skin/gut) and vasodilation (β₂ muscle) → ↑cardiac output and ↑BP. See [cardiovascular-system](../../07-system/cardiovascular-system/README.md).
-- **Modulates hepatocyte** — Epinephrine via β₂/α₁ in hepatocytes activates glycogen phosphorylase (cAMP→PKA or IP3→Ca²⁺ pathways) → glycogenolysis → ↑blood glucose; also activates gluconeogenic enzymes. See [hepatocyte](../../04-cellular/hepatocyte/README.md).
-- **Modulated by glucocorticoid-receptor** — PNMT (Epi-synthesising enzyme in adrenal medulla) is induced by cortisol from portal blood of the adrenal cortex — GR activation in chromaffin cells maintains high epinephrine:norepinephrine ratio. See [glucocorticoid-receptor](../glucocorticoid-receptor/README.md).
+- `modulates` → **[β₁-Adrenergic Receptor](../../03-molecular/beta1-adrenergic-receptor/README.md)** — Epinephrine binds β₁AR (Gs) on SA node and ventricular cardiomyocytes → ↑cAMP → PKA phosphorylates L-type Ca channel, RyR2, phospholamban, troponin I → ↑HR, ↑contractility, faster relaxation.
+- `modulates` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Epinephrine drives fight-or-flight CV response: ↑HR (β₁), ↑contractility (β₁), selective vasoconstriction (α₁ skin/gut) and vasodilation (β₂ muscle) → ↑cardiac output and ↑BP.
+- `modulates` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Epinephrine via β₂/α₁ in hepatocytes activates glycogen phosphorylase (cAMP→PKA or IP3→Ca²⁺ pathways) → glycogenolysis → ↑blood glucose; also activates gluconeogenic enzymes.
+- `modulated-by` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — PNMT (Epi-synthesising enzyme in adrenal medulla) is induced by cortisol from portal blood of the adrenal cortex — GR activation in chromaffin cells maintains high epinephrine:norepinephrine ratio.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Epinephrine is synthesised from norepinephrine by PNMT in adrenal chromaffin cells; NE is the primary sympathetic neurotransmitter while Epi predominates in adrenal medullary secretion (~80% Epi, ~20% NE); both catecholamines are degraded by MAO/COMT to urinary metanephrines.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol from adrenal cortex reaches chromaffin cells via intra-adrenal portal circulation at 10-100× systemic levels → GR activation → PNMT induction → Epi synthesis; stress co-activates HPA (cortisol) and sympathoadrenal (Epi) axes; hypophysectomy reduces PNMT → ↓Epi/NE ratio.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine is the immediate precursor to norepinephrine in the Blaschko pathway; TH (tyrosine hydroxylase) is the rate-limiting step for all catecholamines; dopamine β-hydroxylase converts dopamine to NE in chromaffin granules; PNMT methylates NE to epinephrine using SAM.
 
 ## Pathology
 
@@ -143,16 +155,9 @@ Epinephrine IV (low dose: β₁/β₂ predominate; high dose: α₁ adds vasocon
 ### Hypoglycaemia Response
 Falling blood glucose → hypothalamic → splanchnic nerve → Epi release → glycogenolysis + gluconeogenesis + ↑glucagon → glucose recovery. **Hypoglycaemia unawareness** in type 1 DM: repeated hypoglycaemia blunts this counter-regulatory Epi response (hypoglycaemia-associated autonomic failure, HAAF).
 
-## See Also
+---
 
-- [Norepinephrine](../norepinephrine/README.md) — immediate precursor; primary sympathetic neurotransmitter
-- [Dopamine](../dopamine/README.md) — upstream catecholamine biosynthetic precursor
-- [Beta1-Adrenergic Receptor](../beta1-adrenergic-receptor/README.md) — primary cardiac receptor for Epi/NE
-- [Glucocorticoid Receptor](../glucocorticoid-receptor/README.md) — regulates PNMT expression, links adrenocortical and medullary function
-- [Cortisol](../cortisol/README.md) — induces PNMT; co-secreted in stress response
-- [Hepatocyte](../../04-cellular/hepatocyte/README.md) — site of glycogenolysis/gluconeogenesis
-- [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — primary target organ system
-- [Beta-blockers](../../../03-medicine/01-modern/04-cardio/beta-blockers/README.md) — pharmacologically block β₁/β₂AR effects of Epi/NE
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry*. 9th ed. W.H. Freeman; 2019.
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell*. 7th ed. W.W. Norton; 2022.
