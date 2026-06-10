@@ -60,6 +60,9 @@ cross_links:
   - target: 01-human/03-molecular/g6pd
     relation: connects-to
     note: "G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: infected-by
+    note: "P. falciparum merozoites invade RBCs via MSP1, AMA1/RON2, and EBA175; 48h intra-erythrocytic development with hemoglobin digestion and hemozoin formation; synchronous schizont rupture produces 16-32 merozoites; RBC remodelling enables PfEMP1 cytoadherence and cytolysis."
 ---
 
 # Erythrocyte
@@ -111,6 +114,7 @@ Erythrocytes are produced in red bone marrow at a rate of ~2 million per second 
 - **Downstream physiological effects:** Tissue oxygenation; CO₂ removal; NO and vascular tone modulation; haemostasis (erythrocytes contribute to platelet activation and thrombus formation at high shear); acid-base buffering (HbA as an intracellular buffer, pKa ~6.8).
 - **Pathological associations:** Anaemia (iron-deficiency, B12/folate deficiency, haemolytic, aplastic); sickle-cell disease (HbS β-Glu6Val mutation → polymerisation under hypoxia → vaso-occlusion); thalassaemia (α or β globin chain imbalance); hereditary spherocytosis (spectrin/ankyrin mutations); malaria (Plasmodium falciparum obligate intraerythrocytic parasite exploiting host haemoglobin as nutrient source); polycythaemia vera (JAK2 V617F mutation → EPO-independent RBC overproduction).
 - `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — G6PD is the sole NADPH source in erythrocytes; NADPH → glutathione reductase → GSH regeneration → quenches ROS and H₂O₂; G6PD deficiency → Heinz bodies, bite cells, extravascular haemolysis; RBC lifespan is the primary clinical battleground of G6PD deficiency.
+- `infected-by` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — P. falciparum merozoites invade RBCs via MSP1, AMA1/RON2, and EBA175; 48h intra-erythrocytic development with haemoglobin digestion and hemozoin formation; synchronous schizont rupture releases 16-32 merozoites; progressive haemolysis → severe anaemia (Hb <7 g/dL).
 
 ---
 

@@ -41,6 +41,12 @@ cross_links:
     relation: damages
     evidence: miller-2002-pf-biology
     note: "P. falciparum evades adaptive immunity by extensive antigenic variation (PfEMP1/var gene family — ~60 var genes per parasite; expression switching); GPI anchors on parasite surface activate TLR2/TLR4 (systemic inflammation); rosetting (P. falciparum-infected RBCs binding uninfected RBCs) prevents complement-mediated clearance; splenomegaly and repeated episodes cause progressive immune exhaustion."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: infects
+    note: "P. falciparum merozoites invade RBCs via MSP1, AMA1/RON2, and EBA175; 48h cycle of hemoglobin digestion and hemozoin formation; synchronous schizont rupture releases 16-32 merozoites; GPI toxins drive fever spikes; progressive hemolysis → severe anemia (Hb <7 g/dL)."
+  - target: 01-human/06-organ/brain
+    relation: damages
+    note: "PfEMP1-expressing parasitized RBCs sequester in brain microvessels via ICAM-1/CD36 binding; mechanical microvascular obstruction + BBB disruption + cytokines cause cerebral malaria (coma, seizures, intracranial hypertension); 15-20% case fatality even with IV artesunate."
 ---
 
 # Plasmodium falciparum
@@ -109,8 +115,10 @@ After 12–16 hours of intra-erythrocytic development, infected RBCs (iRBCs) exp
 
 ## Connections
 
-- **Infects** → [Hepatocyte](../../../01-human/04-cellular/hepatocyte/README.md): Sporozoites invade hepatocytes in the clinically silent hepatic phase, undergoing massive asexual amplification (up to 30,000 merozoites per cell) before releasing into the bloodstream.
-- **Damages** → [Immune System](../../../01-human/07-system/immune-system/README.md): PfEMP1 antigenic variation prevents sustained adaptive immunity; GPI-mediated TLR activation drives systemic inflammation; repeated infections cause progressive immune exhaustion and splenomegaly.
+- `infects` → **[Hepatocyte](../../../01-human/04-cellular/hepatocyte/README.md)** — Sporozoites invade hepatocytes in the clinically silent hepatic phase; hepatic schizogony produces 10,000–30,000 merozoites per cell (5–7 days); massive asexual amplification before bloodstream release.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — PfEMP1/var gene antigenic variation (~60 genes per parasite) prevents sustained adaptive immunity; GPI-mediated TLR2/TLR4 activation drives systemic inflammation; repeated infections cause progressive immune exhaustion and splenomegaly.
+- `infects` → **[Erythrocyte](../../../01-human/04-cellular/erythrocyte/README.md)** — Merozoites invade RBCs via MSP1, AMA1/RON2, and EBA175; 48h cycle of hemoglobin digestion and hemozoin formation; synchronous schizont rupture releases 16-32 merozoites; progressive hemolysis → severe anemia (Hb <7 g/dL).
+- `damages` → **[Brain](../../../01-human/06-organ/brain/README.md)** — PfEMP1-expressing parasitized RBCs sequester in brain microvessels via ICAM-1/CD36 binding; mechanical obstruction + BBB disruption + cytokines cause cerebral malaria (coma, seizures, intracranial hypertension); 15-20% case fatality even with IV artesunate.
 
 ## Pathology
 
@@ -121,3 +129,6 @@ After 12–16 hours of intra-erythrocytic development, infected RBCs (iRBCs) exp
 **Blackwater fever:** Rare; massive intravascular hemolysis (cause unclear; associated with quinine/primaquine use and G6PD deficiency) → hemoglobinuria (black urine) → acute kidney injury.
 
 **Treatment:** Artemisinin-based combination therapy (ACT) — artesunate + amodiaquine/lumefantrine/mefloquine. IV artesunate for severe malaria. Partial artemisinin resistance emerging in Southeast Asia (*kelch13* mutations) and spreading to Africa — current major threat.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

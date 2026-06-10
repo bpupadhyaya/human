@@ -175,6 +175,9 @@ cross_links:
   - target: 03-medicine/02-traditional/st-johns-wort
     relation: modulated-by
     note: "Modulated by St. John's Wort (Hypericum perforatum)."
+  - target: 02-pathogen/05-prions/prion-protein
+    relation: damaged-by
+    note: "PrPSc propagates via axonal transport along synaptic networks; spongiform degeneration (vacuolation, neuronal dropout) spreads anatomically through the nervous system; thalamus in FFI, cerebellar cortex in GSS, cerebral cortex/basal ganglia in sCJD; uniformly fatal."
 ---
 
 # Nervous System
@@ -263,6 +266,7 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `contains` → **[glutamate](../../03-molecular/glutamate/README.md)** — glutamate is the CNS's dominant excitatory transmitter
 - `contains` → **[gaba](../../03-molecular/gaba/README.md)** — GABA is the CNS's dominant inhibitory transmitter
 - `connects-to` → **[cardiovascular-system](../../07-system/cardiovascular-system/README.md)** — autonomic nervous system governs cardiac rate, contractility, and vascular tone; the baroreceptor reflex and cerebral autoregulation link the two systems bidirectionally
+- `damaged-by` → **[Prion Protein (PrP)](../../../02-pathogen/05-prions/prion-protein/README.md)** — PrPSc spreads via axonal transport along synaptic networks; spongiform vacuolation propagates through thalamus (FFI), cerebellar cortex (GSS), and cerebral cortex + basal ganglia (sCJD); no disease-modifying treatment exists.
 
 ## Pathology
 
@@ -283,3 +287,7 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
 [^who-neurological-2006]: World Health Organization. *Neurological Disorders: Public Health Challenges.* WHO Press; 2006. [who.int/publications/i/item/9241563362](https://www.who.int/publications/i/item/9241563362)
 [^purves-neuroscience-ns]: Purves D, Augustine GJ, Fitzpatrick D, et al. *Neuroscience.* 6th ed. Sinauer Associates; 2018. [ncbi.nlm.nih.gov/books/NBK10792/](https://www.ncbi.nlm.nih.gov/books/NBK10792/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

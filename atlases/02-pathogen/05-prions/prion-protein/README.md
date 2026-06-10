@@ -34,6 +34,12 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: damages
     note: "Progressive spongiform degeneration, reactive astrogliosis, and neuronal loss throughout the brain — particularly cerebral cortex, basal ganglia, thalamus, and cerebellum — lead to universally fatal dementia and motor failure. Distribution of lesions varies by prion strain and disease subtype."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "PrPSc is a self-protein (same sequence as PrPC); the immune system mounts no antibody or T-cell response; lymphoid FDCs amplify prions peripherally before neuroinvasion; silent propagation for months-to-decades enables disease progression without immune clearance."
+  - target: 01-human/07-system/nervous-system
+    relation: damages
+    note: "PrPSc spreads via axonal transport along synaptic networks; spongiform vacuolation (neuronal swelling and dropout) propagates anatomically; thalamus in FFI, cerebellar cortex in GSS, cerebral cortex + basal ganglia in sCJD; no disease-modifying treatment exists."
 ---
 
 # Prion Protein
@@ -149,9 +155,10 @@ The **species barrier** (or transmission barrier) determines cross-species prion
 
 ## Connections
 
-**Damages** → [Neuron](../../../01-human/04-cellular/neuron/README.md): PrP^Sc accumulates in neuronal cytoplasm and extracellular space as amyloid plaques (in GSS and vCJD with florid plaques) and intraneuronal aggregates. Vacuolation (spongiform change) is the pathological hallmark at the neuronal level — swollen neuronal processes and cell bodies progress to neuronal dropout, leaving sponge-like voids in grey matter. This process is 100% lethal within the affected neuron population.
-
-**Damages** → [Brain](../../../01-human/06-organ/brain/README.md): Progressive spongiform degeneration spreads through anatomically connected brain regions. In sCJD the cortex, basal ganglia, and cerebellum are most affected; in FFI the thalamus is selectively devastated (fatal insomnia); in vCJD the posterior thalamus and pulvinar show florid plaques. Reactive astrogliosis is universal; macroscopic brain atrophy develops in surviving patients with longer disease courses (GSS).
+- `damages` → **[Neuron](../../../01-human/04-cellular/neuron/README.md)** — PrP^Sc accumulates in neuronal cytoplasm and extracellular space; vacuolation (spongiform change) is the pathological hallmark — swollen neuronal processes progress to dropout, leaving sponge-like voids; 100% lethal within the affected neuron population.
+- `damages` → **[Brain](../../../01-human/06-organ/brain/README.md)** — Progressive spongiform degeneration spreads via anatomically connected regions: cortex/basal ganglia in sCJD, thalamus in FFI, pulvinar in vCJD; reactive astrogliosis universal; macroscopic atrophy in longer-course GSS.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — PrP^Sc is a self-protein; the immune system mounts no antibody or T-cell response; lymphoid FDCs amplify prions peripherally before neuroinvasion; silent propagation for months-to-decades enables disease progression without immune clearance.
+- `damages` → **[Nervous System](../../../01-human/07-system/nervous-system/README.md)** — PrP^Sc spreads via axonal transport along synaptic networks; spongiform vacuolation propagates anatomically; thalamus in FFI, cerebellar cortex in GSS, cerebral cortex + basal ganglia in sCJD; no disease-modifying treatment exists.
 
 ## Pathology
 
@@ -186,3 +193,6 @@ As of 2026, there is **no disease-modifying treatment** for any human prion dise
 [^prusiner-1998-nobel]: Prusiner SB. Nobel lecture: prions. *Proc Natl Acad Sci USA.* 1998;95(23):13363-83. [doi:10.1073/pnas.95.23.13363](https://doi.org/10.1073/pnas.95.23.13363) · [PubMed 9811807](https://pubmed.ncbi.nlm.nih.gov/9811807/)
 [^collinge-2001-prion-disease]: Collinge J. Prion diseases of humans and animals: their causes and molecular basis. *Annu Rev Neurosci.* 2001;24:519-50. [doi:10.1146/annurev.neuro.24.1.519](https://doi.org/10.1146/annurev.neuro.24.1.519) · [PubMed 11283320](https://pubmed.ncbi.nlm.nih.gov/11283320/)
 [^aguzzi-2009-prion-aggregation]: Aguzzi A, Calella AM. Prions: protein aggregation and infectious diseases. *Physiol Rev.* 2009;89(4):1105-52. [doi:10.1152/physrev.00006.2009](https://doi.org/10.1152/physrev.00006.2009) · [PubMed 19789378](https://pubmed.ncbi.nlm.nih.gov/19789378/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

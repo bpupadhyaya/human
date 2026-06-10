@@ -220,6 +220,9 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Liver-derived IGF-1 crosses the BBB via choroid plexus transport; IGF-1 → neuronal IGF-1R → PI3K/Akt → adult hippocampal neurogenesis and BDNF synergy; aerobic exercise raises circulating IGF-1 → cognitive benefit; IGF-1 improves cognition in animal models."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: damaged-by
+    note: "PfEMP1+ iRBCs sequester in brain microvessels via ICAM-1/CD36; mechanical obstruction + BBB disruption + cytokines → cerebral malaria (coma, seizures, intracranial hypertension); 15-20% fatality even with IV artesunate."
 ---
 
 # Brain
@@ -337,6 +340,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 - `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — nuclear TDP-43 loss in motor cortex and hippocampal neurons → cryptic exon de-repression in STMN2 (axon regeneration) and UNC13A (synaptic vesicle release); cytoplasmic inclusions in motor cortex (ALS), entorhinal cortex (LATE), and hippocampus (FTLD-TDP) are regionally and subtype-distinct.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R in hypothalamic ARC/PVN neurons → reduced appetite and food cue reactivity; brainstem area postrema GLP-1R → nausea and gastric emptying delay; GLP-1R in VTA/NAcc reward circuits reduces motivation for high-fat food; semaglutide reduces food reward in human fMRI studies.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — liver-derived IGF-1 crosses the BBB via choroid plexus transport; IGF-1 → neuronal IGF-1R → PI3K/Akt → adult hippocampal neurogenesis and BDNF synergy; aerobic exercise raises circulating IGF-1 → cognitive benefit; IGF-1 improves cognition in animal models.
+- `damaged-by` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — PfEMP1-expressing parasitized RBCs sequester in brain microvessels via ICAM-1/CD36 binding; mechanical obstruction and BBB disruption cause cerebral malaria (coma, seizures, intracranial hypertension); 15-20% case fatality even with IV artesunate.
 
 ## Pathology
 
@@ -355,3 +359,7 @@ The corticospinal tract carries voluntary motor commands from M1 (layer V Betz c
 [^azevedo-2009-brain-cells]: Azevedo FA, Carvalho LR, Grinberg LT, et al. Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. *J Comp Neurol.* 2009;513(5):532-541. [doi:10.1002/cne.21974](https://doi.org/10.1002/cne.21974) · [PubMed 19226510](https://pubmed.ncbi.nlm.nih.gov/19226510/)
 [^openstax-brain-ch13]: OpenStax. *Anatomy and Physiology 2e.* Chapter 13. Rice University; 2022. [openstax.org](https://openstax.org/books/anatomy-and-physiology-2e/pages/13-1-the-embryologic-perspective)
 [^herculano-houzel-2009-human-brain]: Herculano-Houzel S. The human brain in numbers: a linearly scaled-up primate brain. *Front Hum Neurosci.* 2009;3:31. [doi:10.3389/neuro.09.031.2009](https://doi.org/10.3389/neuro.09.031.2009) · [PubMed 19915731](https://pubmed.ncbi.nlm.nih.gov/19915731/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

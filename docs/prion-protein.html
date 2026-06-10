@@ -3,320 +3,196 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prion Protein (PrP) — Human Engineering</title>
+  <meta name="description" content="Prion protein: PrPC (normal, α-helical) vs. PrPSc (pathological, β-sheet-rich). PrPSc propagates by templating PrPC misfolding; resists protease, heat, formalin">
+  <meta property="og:title" content="Prion Protein — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Prion Protein — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7;
-      --bg-elev: #ffffff;
-      --accent: #374151;
-      --bio: #059669;
-      --eng: #2563eb;
-      --ai: #7c3aed;
-      --human: #d97706;
-      --text: #1c1c1e;
-      --text-sec: #636366;
-      --border: #e5e5ea;
-      --radius: 14px;
-      --shadow: 0 2px 12px rgba(0,0,0,.08);
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-           background: var(--bg); color: var(--text); line-height: 1.6; }
-    nav { position: sticky; top: 0; z-index: 100;
-          background: rgba(242,242,247,.88); backdrop-filter: blur(20px);
-          border-bottom: 1px solid var(--border); padding: 0 24px;
-          display: flex; align-items: center; gap: 16px; height: 52px; }
-    .nav-back { display: flex; align-items: center; gap: 6px; color: var(--accent);
-                text-decoration: none; font-size: .9rem; font-weight: 500; }
-    .nav-back svg { width: 18px; height: 18px; }
-    .nav-title { font-size: .9rem; color: var(--text-sec); }
-    .hero { background: linear-gradient(135deg, #374151, #1f2937);
-            color: #fff; padding: 56px 24px 48px; text-align: center; }
-    .hero-eyebrow { font-size: .78rem; font-weight: 600; letter-spacing: .12em;
-                    text-transform: uppercase; opacity: .75; margin-bottom: 12px; }
-    .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700;
-               letter-spacing: -.02em; margin-bottom: 14px; }
-    .tagline { font-size: 1.1rem; opacity: .9; max-width: 640px; margin: 0 auto 8px; }
-    .subtagline { font-size: .9rem; opacity: .72; max-width: 560px; margin: 0 auto 32px; }
-    .stat-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
-    .stat { background: rgba(255,255,255,.12); border-radius: 12px; padding: 14px 22px;
-            min-width: 120px; }
-    .stat .num { font-size: 1.5rem; font-weight: 700; }
-    .stat .lbl { font-size: .72rem; opacity: .8; margin-top: 2px; }
-    main { max-width: 860px; margin: 0 auto; padding: 40px 20px 60px; }
-    .detail-card { background: var(--bg-elev); border-radius: var(--radius);
-                   box-shadow: var(--shadow); overflow: hidden; margin-bottom: 32px; }
-    .detail-header { color: #fff; padding: 28px 28px 24px; }
-    .entry-eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .1em;
-                     text-transform: uppercase; opacity: .7; margin-bottom: 8px; }
-    .detail-header h3 { font-size: 1.4rem; font-weight: 700; margin-bottom: 8px; }
-    .detail-header .summary { font-size: .9rem; opacity: .88; max-width: 640px; }
-    .detail-body { padding: 28px; }
-    .section-label { font-size: .72rem; font-weight: 700; letter-spacing: .1em;
-                     text-transform: uppercase; color: var(--accent);
-                     margin: 28px 0 12px; }
-    .section-label:first-child { margin-top: 0; }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-    .detail-table tr { border-bottom: 1px solid var(--border); }
-    .detail-table tr:last-child { border-bottom: none; }
-    .detail-table td { padding: 9px 4px; vertical-align: top; }
-    .detail-table td:first-child { width: 36%; font-weight: 600; color: var(--text-sec);
-                                   padding-right: 12px; }
-    .mech-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-    .mech-item { border-radius: 10px; padding: 12px 16px; font-size: .88rem; line-height: 1.55; }
-    .mech-item.danger  { background: #fef2f2; border-left: 3px solid #ef4444; }
-    .mech-item.immune  { background: #f0fdf4; border-left: 3px solid #22c55e; }
-    .mech-item.latent  { background: #fffbeb; border-left: 3px solid #f59e0b; }
-    .mech-item.drug    { background: #f0f9ff; border-left: 3px solid #0ea5e9; }
-    .mech-item.slate   { background: #f8fafc; border-left: 3px solid #64748b; }
-    .mech-item strong  { display: block; font-size: .82rem; font-weight: 700;
-                         text-transform: uppercase; letter-spacing: .06em;
-                         margin-bottom: 3px; color: var(--text); }
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 8px; }
-    .itag { border-radius: 8px; padding: 5px 12px; font-size: .8rem; font-weight: 600; }
-    .itag.innate    { background: #fef3c7; color: #92400e; }
-    .itag.adaptive  { background: #ede9fe; color: #5b21b6; }
-    .itag.depleted  { background: #fee2e2; color: #991b1b; }
-    .itag.evasion   { background: #f1f5f9; color: #475569; }
-    .itag.normal    { background: #d1fae5; color: #065f46; }
-    .path-table { width: 100%; border-collapse: collapse; font-size: .88rem; }
-    .path-table thead tr { background: var(--bg); }
-    .path-table th { padding: 9px 10px; text-align: left; font-weight: 700;
-                     font-size: .78rem; text-transform: uppercase; letter-spacing: .06em;
-                     color: var(--text-sec); border-bottom: 2px solid var(--border); }
-    .path-table td { padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-    .path-table tr:last-child td { border-bottom: none; }
-    .badge { display: inline-block; border-radius: 6px; padding: 2px 8px;
-             font-size: .72rem; font-weight: 700; text-transform: uppercase; }
-    .badge.fatal    { background: #1f2937; color: #f9fafb; }
-    .badge.severe   { background: #fee2e2; color: #991b1b; }
-    .badge.genetic  { background: #ede9fe; color: #5b21b6; }
-    .badge.acquired { background: #fef3c7; color: #92400e; }
-    .badge.sporadic { background: #f1f5f9; color: #475569; }
-    .conn-pills { display: flex; flex-wrap: wrap; gap: 8px; }
-    .conn-pill { border-radius: 20px; padding: 5px 14px; font-size: .8rem; font-weight: 600;
-                 text-decoration: none; }
-    .conn-pill.infects  { background: #fee2e2; color: #991b1b; }
-    .conn-pill.damages  { background: #fef3c7; color: #92400e; }
-    .conn-pill.targets  { background: #ede9fe; color: #5b21b6; }
-    .conn-pill.related  { background: #e0f2fe; color: #0369a1; }
-    .conn-pill.structure{ background: #f1f5f9; color: #475569; }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 6px; }
-    .refs li { font-size: .82rem; color: var(--text-sec); padding-left: 16px; position: relative; }
-    .refs li::before { content: "→"; position: absolute; left: 0; color: var(--accent); }
-    .contribute { background: var(--bg-elev); border-radius: var(--radius);
-                  box-shadow: var(--shadow); padding: 28px; text-align: center; }
-    .contribute h4 { font-size: 1rem; margin-bottom: 8px; }
-    .contribute p { font-size: .85rem; color: var(--text-sec); max-width: 480px; margin: 0 auto; }
-    footer { background: #1c1c1e; color: #ebebf5; padding: 32px 24px; text-align: center; }
-    .footer-tag { display: inline-block; background: var(--accent); color: #fff;
-                  border-radius: 8px; padding: 4px 12px; font-size: .78rem;
-                  font-weight: 700; margin-bottom: 16px; }
-    .footer-links { display: flex; flex-wrap: wrap; justify-content: center;
-                    gap: 12px; margin-bottom: 16px; }
-    .footer-links a { color: #ebebf5; text-decoration: none; font-size: .85rem; opacity: .8; }
-    .footer-meta { font-size: .78rem; opacity: .5; margin-top: 6px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <a class="nav-back" href="pathogens.html">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-      <path d="M15 18l-6-6 6-6"/>
-    </svg>
-    Pathogens
-  </a>
-  <span class="nav-title">Prion Protein (PrP)</span>
-</nav>
-
-<div class="hero">
-  <div class="hero-eyebrow">Atlas Two · Pathogen · Prion</div>
-  <h1>Prion Protein (PrP)</h1>
-  <p class="tagline">A misfolded host protein that is itself the infectious agent — the prion hypothesis: PrP<sup>Sc</sup> (scrapie form) acts as a template to convert normal PrP<sup>C</sup> into abnormal β-sheet-rich aggregates that accumulate in the brain and are uniformly fatal.</p>
-  <p class="subtagline">No nucleic acid. No immune response that can clear it. No treatment. The prion concept, proposed by Stanley Prusiner (Nobel Prize 1997), overturned the central dogma of infectious disease and remains one of biology's most extraordinary mechanisms.</p>
-  <div class="stat-row">
-    <div class="stat"><div class="num">~1–2/M</div><div class="lbl">CJD incidence/year (sporadic)</div></div>
-    <div class="stat"><div class="num">100%</div><div class="lbl">fatal; no treatment exists</div></div>
-    <div class="stat"><div class="num">253 aa</div><div class="lbl">mature human PrP length</div></div>
-    <div class="stat"><div class="num">PrP<sup>Sc</sup></div><div class="lbl">no nucleic acid genome — protein-only pathogen</div></div>
-    <div class="stat"><div class="num">6+</div><div class="lbl">distinct human prion diseases</div></div>
-  </div>
-</div>
-
-<main>
-  <div class="detail-card">
-    <div class="detail-header" style="background: linear-gradient(135deg, #374151, #1f2937);">
-      <div class="entry-eyebrow">prion · protein-only · misfolding disease · neurodegenerative · PRNP gene</div>
-      <h3>Prion Protein (PrP<sup>C</sup> / PrP<sup>Sc</sup>)</h3>
-      <p class="summary">Host-encoded glycoprotein (PRNP gene, chromosome 20) normally expressed as PrP<sup>C</sup> — a GPI-anchored copper-binding protein with normal physiological functions in synaptic transmission, neuroprotection, and circadian rhythm; upon misfolding to PrP<sup>Sc</sup> (rich in β-sheets), it nucleates polymerisation of normal PrP<sup>C</sup> into fibrillar amyloid plaques and toxic oligomers, causing transmissible spongiform encephalopathies (TSEs) with vacuolation, neuronal loss, astrogliosis, and inevitably death.</p>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
     </div>
-    <div class="detail-body">
+  </nav>
 
-      <p class="section-label">Classification &amp; Structure</p>
-      <table class="detail-table">
-        <tr><td>Classification</td><td>Not a conventional microorganism; protein-only infectious agent (prion); encoded by host PRNP gene (chromosome 20p13); no viral envelope, capsid, or nucleic acid; resists UV irradiation, formaldehyde, and most disinfectants</td></tr>
-        <tr><td>PrP<sup>C</sup> (normal)</td><td>253 amino acids (before cleavage of 22-aa signal peptide + 23-aa GPI anchor signal); mature 208-aa protein; GPI-anchored to outer leaflet of plasma membrane; predominantly α-helical (42% α-helix, ~3% β-sheet); expressed in neurons, astrocytes, and peripheral tissues; functions include Cu²⁺ binding via octapeptide repeats, neuroprotection, synaptic maintenance</td></tr>
-        <tr><td>PrP<sup>Sc</sup> (misfolded)</td><td>Same primary sequence as PrP<sup>C</sup>; fundamentally different 3D structure: ~43% β-sheet, ~30% α-helix; insoluble in non-denaturing detergents; partially protease-resistant (PK-resistant core: PrP 27–30 kDa fragment); aggregates into amyloid fibrils and oligomers; acts as structural template for converting PrP<sup>C</sup></td></tr>
-        <tr><td>PRNP gene</td><td>Single exon encoding PrP; codon 129 polymorphism (Met/Val) is the critical susceptibility determinant — MM homozygotes are susceptible to sporadic CJD and vCJD; MV/VV are partially protected; octapeptide repeat insertions (5–12 extra) cause inherited prion disease</td></tr>
-        <tr><td>Glycosylation</td><td>Two N-linked glycosylation sites (Asn-181, Asn-197); three glycoform populations (di-, mono-, un-glycosylated); glycoform ratio differs between prion disease subtypes — basis for Western blot "glycoform typing" (MM1, MV1, VV2, MM2C, MM2T, VV1) subtype classification in sCJD</td></tr>
-        <tr><td>Strains</td><td>Different PrP<sup>Sc</sup> conformations encode different "strain" properties (incubation time, brain region tropism, glycoform pattern, clinical features) — conformational information passed protein-to-protein without nucleic acid; analogous to different crystal polymorphs</td></tr>
-        <tr><td>Prion replication</td><td>Nucleated polymerisation: PrP<sup>Sc</sup> + PrP<sup>C</sup> → [PrP<sup>Sc</sup>·PrP<sup>C</sup>] complex → PrP<sup>C</sup> refolded to PrP<sup>Sc</sup> → fibril growth → fragmentation generates new nucleation seeds (exponential amplification). Rate-limiting step is nucleation (spontaneous or seeded).</td></tr>
-        <tr><td>Stability / decontamination</td><td>Extraordinary resistance to conventional sterilisation: survives 134°C autoclave for 18 min (not 15 min standard), 20% bleach for 2h, 4 M guanidinium for partial inactivation; requires 1M NaOH + autoclaving or 20,000 ppm hypochlorite for safe decontamination of instruments; filter-sterilisation ineffective (no nucleic acid to degrade)</td></tr>
-      </table>
-
-      <p class="section-label">Pathogenesis</p>
-      <ul class="mech-list">
-        <li class="mech-item danger">
-          <strong>Prion entry &amp; peripheral neuroinvasion</strong>
-          Sporadic: spontaneous PrP<sup>C</sup> → PrP<sup>Sc</sup> conversion in the brain (extremely rare stochastic event, ~1–2/million/year). Acquired (dietary, surgical, iatrogenic): PrP<sup>Sc</sup> ingested or inoculated; taken up by gut M cells → Peyer's patches → follicular dendritic cells in lymphoid tissue (long peripheral replication phase) → sympathetic nervous system → dorsal root ganglia → spinal cord → brain. Neural spread follows retrograde axonal transport.
-        </li>
-        <li class="mech-item danger">
-          <strong>Nucleated polymerisation cascade in brain</strong>
-          PrP<sup>Sc</sup> seeds recruit PrP<sup>C</sup> molecules from neuronal surfaces; elongating fibrils fragment into smaller oligomers (most neurotoxic species) and new seeds. The rate of conversion and spread is exponential once seeded, but the incubation period spans decades because nucleation efficiency is extremely low until a critical seed concentration is reached. Different brain regions have different PrP<sup>C</sup> expression levels — determines the distribution of pathology.
-        </li>
-        <li class="mech-item danger">
-          <strong>Cellular toxicity mechanisms</strong>
-          Mechanistic consensus remains incomplete; proposed mechanisms include: (1) toxic oligomers disrupting membrane integrity and synaptic function; (2) loss of normal PrP<sup>C</sup> function (copper binding, neuroprotection); (3) UPR (Unfolded Protein Response) activation → chronic ER stress → translational reprogramming → synaptic loss (proposed by Moreno et al.); (4) misfolded PrP trapped in ER activates PERK/eIF2α → global protein synthesis shutdown → neuronal death. Vacuolation (spongiform change) is the hallmark neuropathological finding.
-        </li>
-        <li class="mech-item danger">
-          <strong>Immune evasion — no adaptive immune response to PrP<sup>Sc</sup></strong>
-          PrP<sup>Sc</sup> is derived from a self-protein; the adaptive immune system does not recognise it as foreign (central tolerance). No antibody response is mounted during prion disease. The brain cannot clear the aggregates. Neuroinflammation (microglial activation) occurs but is largely ineffective and may contribute to pathology. Attempts to generate anti-PrP antibodies for therapy are hampered by tolerance and potential antibody toxicity (anti-PrP antibodies binding neuronal PrP<sup>C</sup> can cause neuronal apoptosis).
-        </li>
-        <li class="mech-item latent">
-          <strong>Codon 129 susceptibility &amp; strain specificity</strong>
-          Met129 homozygosity (MM) at PRNP codon 129 confers susceptibility to sCJD (MM accounts for ~70% of cases despite ~37% population frequency) and to vCJD (100% of definite cases were MM129). The valine allele is protective, possibly by creating a kinetically slower conversion template. Additional PRNP mutations (D178N, E200K, P102L, octapeptide repeats) cause familial prion diseases with distinct clinical features and strain properties.
-        </li>
-      </ul>
-
-      <p class="section-label">Host Biology Context</p>
-      <div class="immune-tags">
-        <span class="itag normal">PrP<sup>C</sup> — normal Cu²⁺ binding</span>
-        <span class="itag normal">PrP<sup>C</sup> — synaptic maintenance</span>
-        <span class="itag evasion">Self-protein: no adaptive immunity</span>
-        <span class="itag evasion">No nucleic acid: no innate sensing</span>
-        <span class="itag depleted">No antibody clearance possible</span>
-        <span class="itag depleted">No T-cell response to PrP<sup>Sc</sup></span>
-        <span class="itag innate">Microglial activation (chronic)</span>
-        <span class="itag innate">Astrogliosis (reactive)</span>
-        <span class="itag adaptive">Codon-129 genotype determines risk</span>
-      </div>
-
-      <p class="section-label">Disease Spectrum</p>
-      <table class="path-table">
-        <thead>
-          <tr><th>Disease</th><th>Aetiology</th><th>Key Features</th><th>Outcome</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Sporadic CJD (sCJD)</td>
-            <td>Spontaneous misfolding; ~85% of CJD; incidence 1–2/M/year</td>
-            <td>Rapid cognitive decline, myoclonus, ataxia; DWI/FLAIR MRI ribboning; 14-3-3 protein in CSF; death in 4–6 months median</td>
-            <td><span class="badge fatal">100% fatal</span></td>
-          </tr>
-          <tr>
-            <td>Fatal Familial Insomnia (FFI)</td>
-            <td>PRNP D178N-Met129 mutation; autosomal dominant</td>
-            <td>Progressive insomnia, dysautonomia, dementia; thalamic neuronal loss; oneiric stupor; PET shows severe thalamic hypometabolism</td>
-            <td><span class="badge fatal">100% fatal (~13 months)</span></td>
-          </tr>
-          <tr>
-            <td>Gerstmann-Sträussler-Scheinker (GSS)</td>
-            <td>PRNP P102L (most common); other mutations; dominant</td>
-            <td>Cerebellar ataxia onset, late dementia; multicentric PrP plaques in cerebellum; slower course 2–10 years; earlier onset (40–60 years)</td>
-            <td><span class="badge fatal">100% fatal</span></td>
-          </tr>
-          <tr>
-            <td>Variant CJD (vCJD)</td>
-            <td>Acquired from BSE-contaminated beef (UK, 1990s); ~230 cases total worldwide</td>
-            <td>Young age onset (median 26y); psychiatric prodrome; painful paraesthesias; later ataxia and dementia; "pulvinar sign" on MRI; PRNP MM129 in all cases; lymphoid tissue PrP<sup>Sc</sup> detectable early (tonsil biopsy)</td>
-            <td><span class="badge fatal">100% fatal (~13 months)</span></td>
-          </tr>
-          <tr>
-            <td>Iatrogenic CJD (iCJD)</td>
-            <td>Human-to-human transmission via contaminated growth hormone (cadaveric), neurosurgical instruments, dural grafts; rare; eliminated since recombinant GH adoption</td>
-            <td>Variable clinical depending on route; corneal graft: sCJD-like; intracerebral: short incubation, rapid decline</td>
-            <td><span class="badge fatal">100% fatal</span></td>
-          </tr>
-          <tr>
-            <td>Kuru</td>
-            <td>Transmitted by ritual cannibalism (Fore people, Papua New Guinea); effectively eliminated since 1960s prohibition</td>
-            <td>Progressive cerebellar ataxia, tremor ("kuru" = shivering); dementia late; codon-129 MV/VV conferred protection — selected in survivors; incubation up to 50 years</td>
-            <td><span class="badge fatal">100% fatal</span></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p class="section-label">Treatment &amp; Research</p>
-      <ul class="mech-list">
-        <li class="mech-item slate">
-          <strong>No approved treatment exists</strong>
-          As of 2026, no drug has demonstrated survival benefit in any human prion disease. Multiple therapeutic approaches have failed or remain early-stage: pentosan polysulfate (intracerebroventricular, ICV — no benefit), quinacrine (clinical trial negative), doxycycline (Italian trial: delayed but did not prevent death), flupirtine (symptom management only). Management is palliative: seizure control, myoclonus suppression (clonazepam), sedation, and supportive care.
-        </li>
-        <li class="mech-item drug">
-          <strong>PrP<sup>C</sup> lowering strategies — anti-sense oligonucleotides</strong>
-          Since PrP<sup>Sc</sup> requires PrP<sup>C</sup> as substrate, reducing PrP<sup>C</sup> expression should slow or halt conversion. ASOs targeting PRNP mRNA (IND2201; Ionis/Broad) have shown near-complete PrP knockdown in CNS of non-human primates with excellent tolerability. Phase 1/2 trial (PRION-1-PRNP; NCT05256173) underway in humans with genetic prion disease (2023–2025). This is the most mechanistically compelling approach currently in human trials.
-        </li>
-        <li class="mech-item drug">
-          <strong>Small molecule aggregation inhibitors &amp; anti-PrP antibodies</strong>
-          GN8 (binding PrP<sup>C</sup> to stabilise native fold), cpd-B (IND Japan), and PRN2246 (Prothena/Roche; humanised anti-PrP mAb) have shown some murine efficacy but no human translation yet. Concern about antibody toxicity (anti-PrP IgG binding to neuronal PrP<sup>C</sup> triggers clustering and apoptotic signalling) limits direct antibody approaches. Fab fragments and allosteric stabilisers are preferred formats.
-        </li>
-        <li class="mech-item drug">
-          <strong>RT-QuIC — ultra-sensitive antemortem diagnosis</strong>
-          Real-Time Quaking-Induced Conversion (RT-QuIC) detects femtomolar PrP<sup>Sc</sup> seeds in CSF and olfactory brushing with ~95% sensitivity and ~99% specificity for sCJD — transforming antemortem diagnosis. RT-QuIC is now standard of care at specialist centres. This diagnostic advance is critical for future therapeutic trials requiring early diagnosis.
-        </li>
-        <li class="mech-item immune">
-          <strong>Prevention: instrument decontamination &amp; surveillance</strong>
-          No vaccine possible (self-protein). Prevention focused on: neurosurgical instrument decontamination with NaOH/bleach protocols; surveillance networks (UK National CJD Research &amp; Surveillance Unit); blood supply safety (leukodepletion reduces vCJD transfusion risk); cadaveric tissue registry; genetic counselling for PRNP mutation carriers regarding predictive testing.
-        </li>
-      </ul>
-
-      <p class="section-label">Cross-Atlas Connections</p>
-      <div class="conn-pills">
-        <span class="conn-pill infects">Destroys: Neurons (vacuolation)</span>
-        <span class="conn-pill infects">Invades: Brain parenchyma</span>
-        <span class="conn-pill damages">Damages: Cerebral cortex</span>
-        <span class="conn-pill damages">Damages: Cerebellum (kuru/GSS)</span>
-        <span class="conn-pill damages">Damages: Thalamus (FFI)</span>
-        <span class="conn-pill targets">Recruits: PrP<sup>C</sup> (substrate)</span>
-        <span class="conn-pill targets">Causes: ER stress / UPR</span>
-        <span class="conn-pill structure">Encoded by: PRNP (chr 20p13)</span>
-        <span class="conn-pill related">Related: Alzheimer's Aβ (amyloid seeding)</span>
-        <span class="conn-pill related">Related: α-synuclein prion-like spreading (Parkinson's)</span>
-      </div>
-
-      <p class="section-label">References</p>
-      <ul class="refs">
-        <li>Prusiner SB (1982). Novel proteinaceous infectious particles cause scrapie. <em>Science</em> 216(4542):136–44.</li>
-        <li>Collinge J (2001). Prion diseases of humans and animals: their causes and molecular basis. <em>Annu Rev Neurosci</em> 24:519–50.</li>
-        <li>Moreno JA et al. (2012). Sustained translational repression by eIF2α-P mediates prion neurodegeneration. <em>Nature</em> 485(7399):507–11.</li>
-        <li>Orrú CD et al. (2017). Rapid and sensitive RT-QuIC detection of human Creutzfeldt–Jakob disease using cerebrospinal fluid. <em>MBio</em> 6(1):e02451-14.</li>
-        <li>Minikel EV et al. (2023). Prion protein lowering is a disease-modifying therapy approach to prion disease. <em>Sci Transl Med</em> 12(572):eabc6861.</li>
-        <li>Mead S et al. (2018). Inherited prion disease and prion science. <em>Pract Neurol</em> 18(1):14–24.</li>
-        <li>Colby DW, Prusiner SB (2011). Prions. <em>Cold Spring Harb Perspect Biol</em> 3(1):a006833.</li>
-      </ul>
-
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 05-prions</div>
+    <h1>Prion Protein</h1>
+    <p class="tagline">Prion protein: PrPC (normal, α-helical) vs. PrPSc (pathological, β-sheet-rich). PrPSc propagates by templating PrPC misfolding; resists protease, heat, formalin. Causes CJD, kuru, FFI, GSS. 100% fatality. No nucleic acid genome; pure protein pathogen.</p>
+    <p class="aliases">Also known as: PrP, prion, PrPSc, PrPC, scrapie prion, misfolded prion</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">05-prions</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
-  <div class="contribute">
-    <h4>Contribute to this entry</h4>
-    <p>This page is part of the open Human Engineering atlas. Corrections, ASO trial updates, and structural biology data are welcome via GitHub pull request or email.</p>
-  </div>
-</main>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<footer>
-  <div class="footer-tag">Atlas Two — Pathogen</div>
-  <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="pathogens.html">Pathogens</a>
-    <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
-  </div>
-  <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
-  <p class="footer-meta" style="max-width:600px;margin:8px auto 0;line-height:1.5;">
-    <em>This site is co-maintained by AI agents under human direction. All biological and medical content is reviewed for accuracy but may contain errors. Not medical advice. Verify critical information against primary literature.</em>
-  </p>
-</footer>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">prion-protein</div>
+        <h2>Prion Protein</h2>
+        <p class="summary">Prion protein: PrPC (normal, α-helical) vs. PrPSc (pathological, β-sheet-rich). PrPSc propagates by templating PrPC misfolding; resists protease, heat, formalin. Causes CJD, kuru, FFI, GSS. 100% fatality. No nucleic acid genome; pure protein pathogen.</p>
+      </div>
+      <div class="detail-body">
 
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>prion-protein</td></tr>
+            <tr><td>Name</td><td>Prion Protein</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>05-prions</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill damaged" href="neuron.html" title="PrPSc accumulates as amyloid plaques and vacuoles in grey matter neurons → spongiform encephalopathy → neuronal death. Neurons are the primary site of prion replication and PrPSc deposition. Vacuolar (spongiform) change reflects neuronal swelling and death. The process is universally fatal."><span class="rel">damages</span>Neuron</a>
+            <a class="conn-pill damaged" href="brain.html" title="Progressive spongiform degeneration, reactive astrogliosis, and neuronal loss throughout the brain — particularly cerebral cortex, basal ganglia, thalamus, and cerebellum — lead to universally fatal dementia and motor failure. Distribution of lesions varies by prion strain and disease subtype."><span class="rel">damages</span>Brain</a>
+            <a class="conn-pill damaged" href="immune-system.html" title="PrPSc is a self-protein (same sequence as PrPC); the immune system mounts no antibody or T-cell response; lymphoid FDCs amplify prions peripherally before neuroinvasion; silent propagation for months-to-decades enables disease progression without immune clearance."><span class="rel">damages</span>Immune System</a>
+            <a class="conn-pill damaged" href="nervous-system.html" title="PrPSc spreads via axonal transport along synaptic networks; spongiform vacuolation (neuronal swelling and dropout) propagates anatomically; thalamus in FFI, cerebellar cortex in GSS, cerebral cortex + basal ganglia in sCJD; no disease-modifying treatment exists."><span class="rel">damages</span>Nervous System</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1073/pnas.95.23.13363" target="_blank" rel="noopener noreferrer">Prusiner SB. Nobel lecture: prions. Proc Natl Acad Sci USA. 1998;95(23):13363-83.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/9811807/" target="_blank" rel="noopener noreferrer">PubMed 9811807</a></li>
+            <li><a href="https://doi.org/10.1146/annurev.neuro.24.1.519" target="_blank" rel="noopener noreferrer">Collinge J. Prion diseases of humans and animals: their causes and molecular basis. Annu Rev Neurosci. 2001;24:519-50.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/11283320/" target="_blank" rel="noopener noreferrer">PubMed 11283320</a></li>
+            <li><a href="https://doi.org/10.1152/physrev.00006.2009" target="_blank" rel="noopener noreferrer">Aguzzi A, Calella AM. Prions: protein aggregation and infectious diseases. Physiol Rev. 2009;89(4):1105-52.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19789378/" target="_blank" rel="noopener noreferrer">PubMed 19789378</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
