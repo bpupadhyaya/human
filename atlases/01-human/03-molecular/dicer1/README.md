@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "Multinodular goiter occurs in ~75% of DICER1 germline carriers; differentiated thyroid carcinoma (papillary, follicular) risk is modestly elevated; DICER1 somatic hotspot mutations identified in a subset of poorly differentiated and anaplastic thyroid cancer."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "PPB (pleuropulmonary blastoma) is the sentinel DICER1 syndrome tumor arising in the lung; type I cystic (best prognosis) → type II mixed → type III solid (5-year OS ~53%); all types arise under age 8 in germline DICER1 LOF carriers; treatment: lung resection + chemotherapy."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Advanced DICER1 tumors acquire TP53 mutations during high-grade progression; DICER1 5p miRNA loss derepresses MYC/MYCN → replicative stress → p53 activation → TP53 selection; TP53 mutation is the most unfavorable prognostic marker in DICER1-related tumor progression."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "DICER1 somatic RNase IIIb hotspot mutations occur in ~5-10% of Wilms tumors; cystic nephroma (DICER1 syndrome manifestation) can progress to nephroblastoma; germline DICER1 carriers have modestly elevated Wilms tumor risk; DICER1-mutant Wilms tumor may have favorable histology."
 ---
 
 # DICER1
@@ -157,6 +166,13 @@ In DICER1-null cells (second allele also lost via LOH), essentially no mature mi
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYCN amplification occurs as a somatic driver in PPB type III (solid, high-grade); DICER1 5p miRNA loss (let-7, miR-17 family) derepresses MYCN/MYC oncoproteins → RB pathway bypass; MYCN-amplified PPB type III has the worst prognosis (5-year OS ~53%) among PPB types.
 - `connects-to` → **[Ovarian Cancer](../../07-system/ovarian-cancer/README.md)** — DICER1 RNase IIIb hotspot mutations drive ~60% of ovarian Sertoli-Leydig cell tumors (SLCT); somatic hotspot in most SLCT; germline DICER1 carriers have elevated SLCT risk; SLCT is androgenic (virilization); BEP chemotherapy (bleomycin-etoposide-cisplatin) for advanced SLCT.
 - `connects-to` → **[Thyroid Cancer](../../07-system/thyroid-cancer/README.md)** — Multinodular goiter occurs in ~75% of DICER1 germline carriers; differentiated thyroid carcinoma (papillary, follicular) risk is modestly elevated; DICER1 somatic hotspot mutations identified in a subset of poorly differentiated and anaplastic thyroid cancer.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — PPB (pleuropulmonary blastoma) is the sentinel DICER1 syndrome tumor arising in the lung; type I cystic → type II mixed → type III solid (5-year OS ~53%); all types arise under age 8 in germline DICER1 LOF carriers; lung resection + chemotherapy is primary treatment.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — advanced DICER1 tumors acquire TP53 mutations during high-grade progression; DICER1 5p miRNA loss derepresses MYC/MYCN → replicative stress → p53 activation → TP53 selection; TP53 mutation is the most unfavorable prognostic marker in DICER1-related tumors.
+- `connects-to` → **[Wilms Tumor](../../07-system/wilms-tumor/README.md)** — DICER1 somatic RNase IIIb hotspot mutations occur in ~5-10% of Wilms tumors; cystic nephroma (DICER1 syndrome manifestation) can progress to nephroblastoma; germline DICER1 carriers have modestly elevated Wilms tumor risk.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^hill-2009-dicer1]: Hill DA, Ivanovich J, Priest JR, et al. DICER1 mutations in familial pleuropulmonary blastoma. *Science.* 2009;325(5943):965. [doi:10.1126/science.1174334](https://doi.org/10.1126/science.1174334) · [PubMed 19556464](https://pubmed.ncbi.nlm.nih.gov/19556464/)
 [^foulkes-2014-dicer1]: Foulkes WD, Priest JR, Duchaine TF. DICER1: mutations, microRNAs and mechanisms. *Nat Rev Cancer.* 2014;14(10):662-672. [doi:10.1038/nrc3802](https://doi.org/10.1038/nrc3802) · [PubMed 25176334](https://pubmed.ncbi.nlm.nih.gov/25176334/)

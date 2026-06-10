@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "p53 represses CCND1 transcription directly and via p21 (CDKN1A) induction → CDK4/6 inhibition → cyclin D1-CDK4/6 complex dissociation; loss of p53 → cyclin D1 derepression → accelerated G1-S; p53-null tumors depend on cyclin D1-CDK4/6 for unchecked proliferation."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Rb is the direct substrate of cyclin D1-CDK4/6; phosphorylation at Ser780/795/807 converts Rb → E2F release → S-phase gene induction (DHFR, thymidylate synthase, PCNA); CDK4/6 inhibitors restore Rb hypophosphorylation → G1 arrest in cancer cells."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "CCND1 amplified in ~15-25% of breast cancer (especially luminal B); cyclin D1-CDK4/6 drives HR+ proliferation; palbociclib, ribociclib, abemaciclib approved for HR+/HER2- advanced breast cancer (PALOMA-3, MONALEESA, MONARCH trials) — CDK4/6 inhibitors are standard of care."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "t(11;14)(q13;q32) translocation places CCND1 under IGH enhancer → constitutive cyclin D1 expression in mantle cell lymphoma; CCND1 IHC/FISH is the defining MCL test; venetoclax, ibrutinib, zanubrutinib, and brexucabtagene autoleucel (KTE-X19) are standard MCL therapies."
 ---
 
 # Cyclin D1
@@ -134,6 +143,13 @@ cross_links:
 - `connects-to` → **[MYC](../myc/README.md)** — MYC transcriptionally activates CCND1; cyclin D1 feeds back to stabilize MYC Ser62 via CDK4-RSK; MYC and cyclin D1 amplification rarely co-occur (functional redundancy); both drive G1-S progression via Rb hyperphosphorylation and E2F target gene induction.
 - `connects-to` → **[Wnt/beta-catenin](../wnt-beta-catenin/README.md)** — Wnt-beta-catenin directly activates CCND1 transcription via beta-catenin-TCF at the CCND1 promoter — a primary oncogenic effector; cyclin D1 is a canonical Wnt target gene and downstream readout; APC-mutant CRC overexpresses cyclin D1.
 - `connects-to` → **[p53](../p53/README.md)** — p53 represses CCND1 transcription directly and via p21 induction → CDK4/6 inhibition → cyclin D1-CDK4/6 dissociation; p53 loss → cyclin D1 derepression; p53-null tumors depend on cyclin D1-CDK4/6 for unchecked proliferation.
+- `connects-to` → **[RB1](../rb1/README.md)** — Rb is the direct substrate of cyclin D1-CDK4/6; phosphorylation at Ser780/795/807 converts Rb → E2F release → S-phase gene induction (DHFR, thymidylate synthase, PCNA); CDK4/6 inhibitors restore Rb hypophosphorylation → G1 arrest in cancer cells.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — CCND1 amplified in ~15-25% of breast cancer (especially luminal B); CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) are standard of care for HR+/HER2- advanced breast cancer (PALOMA-3, MONALEESA, MONARCH trials).
+- `connects-to` → **[Mantle Cell Lymphoma](../../07-system/mantle-cell-lymphoma/README.md)** — t(11;14)(q13;q32) places CCND1 under IGH enhancer → constitutive cyclin D1 expression; CCND1 IHC/FISH is the defining MCL test; venetoclax, ibrutinib, zanubrutinib, and brexucabtagene autoleucel (KTE-X19) are standard MCL therapies.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sherr-1994-cyclins-review]: Sherr CJ. G1 phase progression: cycling on cue. *Cell.* 1994;79(4):551-555. [doi:10.1016/0092-8674(94)90540-1](https://doi.org/10.1016/0092-8674(94)90540-1) · [PubMed 7954821](https://pubmed.ncbi.nlm.nih.gov/7954821/)
 [^weinberg-1995-rb-review]: Weinberg RA. The retinoblastoma protein and cell cycle control. *Cell.* 1995;81(3):323-330. [doi:10.1016/0092-8674(95)90385-2](https://doi.org/10.1016/0092-8674(95)90385-2) · [PubMed 7736585](https://pubmed.ncbi.nlm.nih.gov/7736585/)
