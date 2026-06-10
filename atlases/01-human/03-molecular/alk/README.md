@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "ALK and EGFR fusions are mutually exclusive in NSCLC; EGFR pathway reactivation (via SOS1, ERBB3) mediates resistance to ALK TKIs; alectinib + erlotinib studied in ALK+ NSCLC; combined EGFR+ALK targeting investigated in rare EGFR-co-mutated ALK+ cases."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "EML4-ALK fusions in ~3-5% of lung adenocarcinoma; enriched in never-smokers; mutually exclusive with KRAS/EGFR mutations; sequential TKI therapy (alectinib → lorlatinib on progression) achieves median OS >7 years, transforming ALK+ NSCLC into a chronic manageable disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "ALK+ NSCLC has high propensity for brain metastases (~50% on crizotinib within 1-2 years); lorlatinib achieves 72% intracranial ORR (highest CNS penetrance); CNS progression is the primary failure mode of 1st/2nd-gen ALK TKIs; brain-penetrant TKI selection is critical."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "ALK fusions activate PI3K via p85 binding → PIP3 → AKT → mTOR; PI3K-AKT-mTOR is the most common bypass pathway for acquired ALK TKI resistance; PIK3CA co-mutations occasionally co-occur in ALK+ NSCLC; combined ALK+PI3K inhibition is under preclinical investigation."
 ---
 
 # ALK
@@ -162,6 +171,13 @@ EML4-ALK activates multiple oncogenic pathways simultaneously:
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — NPM-ALK fusion in ALCL directly phosphorylates STAT3 → BCL-XL, MYC, survivin → T-cell lymphoma growth and immune evasion; STAT3 is more prominently activated in ALK+ ALCL than in ALK+ NSCLC; JAK inhibitors (ruxolitinib) studied in STAT3-driven ALCL.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ALK → PI3K-AKT → mTOR → S6K and 4EBP1 → ribosome biogenesis; mTOR activation is a major ALK effector in NSCLC; mTOR inhibition synergizes with ALK TKIs in preclinical models; PI3K-AKT-mTOR pathway is activated as a bypass mechanism during ALK TKI resistance.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — ALK and EGFR fusions are mutually exclusive in NSCLC; EGFR pathway reactivation (via SOS1, ERBB3) mediates resistance to ALK TKIs; alectinib + erlotinib studied in ALK+ NSCLC; combined EGFR+ALK targeting investigated in rare EGFR-co-mutated ALK+ cases.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — EML4-ALK fusions in ~3-5% of lung adenocarcinoma; enriched in never-smokers; mutually exclusive with KRAS/EGFR mutations; sequential TKI therapy (alectinib → lorlatinib on progression) achieves median OS >7 years, transforming ALK+ NSCLC into a chronic manageable disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — ALK+ NSCLC has high propensity for brain metastases (~50% on crizotinib within 1-2 years); lorlatinib achieves 72% intracranial ORR (highest CNS penetrance); CNS progression is the primary failure mode of 1st/2nd-gen ALK TKIs; brain-penetrant TKI selection is critical.
+- `connects-to` → **[PIK3CA](../pik3ca/README.md)** — ALK fusions activate PI3K via p85 binding → PIP3 → AKT → mTOR; PI3K-AKT-mTOR is the most common bypass pathway for acquired ALK TKI resistance; PIK3CA co-mutations occasionally co-occur in ALK+ NSCLC; combined ALK+PI3K inhibition is under preclinical investigation.
 
 [^shaw-2013-crizotinib]: Shaw AT, Kim DW, Nakagawa K, et al. Crizotinib versus chemotherapy in advanced ALK-positive lung cancer. *N Engl J Med.* 2013;368(25):2385-2394. [doi:10.1056/NEJMoa1214886](https://doi.org/10.1056/NEJMoa1214886) · [PubMed 23724913](https://pubmed.ncbi.nlm.nih.gov/23724913/)
 [^peters-2017-alectinib]: Peters S, Camidge DR, Shaw AT, et al. Alectinib versus crizotinib in untreated ALK-positive non-small-cell lung cancer. *N Engl J Med.* 2017;377(9):829-838. [doi:10.1056/NEJMoa1704795](https://doi.org/10.1056/NEJMoa1704795) · [PubMed 28586279](https://pubmed.ncbi.nlm.nih.gov/28586279/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "AKT phosphorylates MDM2 at Ser166 → MDM2 nuclear translocation → p53 ubiquitination and degradation; p53 activates PTEN transcription creating a negative feedback loop; AKT-MDM2-p53 axis is disrupted in most cancers with PIK3CA mutation, PTEN loss, or AKT amplification."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "PIK3CA mutations (H1047R, E545K) in 35-40% of HR+ breast cancer activate AKT; AKT1 E17K in ~5%; PTEN loss predicts trastuzumab resistance; capivasertib (pan-AKT) FDA approved 2023 for PIK3CA/AKT/PTEN-altered HR+/HER2- breast cancer (CAPItello-291 PFS 7.3 vs 3.1 months)."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN converts PIP3→PIP2 → terminates AKT activation; PTEN loss (40% endometrial, 30% GBM, 20% prostate) → constitutive AKT activation; PTEN is the second most commonly altered tumor suppressor after TP53; germline PTEN mutations → Cowden syndrome with multi-organ cancer risk."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "AKT2 mediates insulin-stimulated GLUT4 vesicle translocation in adipocytes and muscle via AS160/TBC1D4 phosphorylation; AKT2 loss-of-function mutations → autosomal dominant severe insulin resistance and T2DM; PPARγ agonists (TZDs) activate PI3K-AKT during adipogenesis."
 ---
 
 # AKT
@@ -149,7 +158,14 @@ AKT hyperactivation is a pan-cancer resistance mechanism:
 - `connects-to` → **[PIK3CA](../pik3ca/README.md)** — PIK3CA generates PIP3 → activates AKT via PH domain membrane recruitment and PDK1-mediated Thr308 phosphorylation; PIK3CA gain-of-function mutations (H1047R, E545K) are the primary upstream AKT activators in breast, CRC, and ovarian cancer.
 - `connects-to` → **[BCL-2](../bcl-2/README.md)** — AKT phosphorylates BAD → releases BCL-2/BCL-XL from BAD complex → anti-apoptotic survival signal; AKT hyperactivation in cancer creates BCL-2 dependence, providing rationale for combining AKT inhibitors with venetoclax (BCL-2 inhibitor) in hematologic malignancies.
 - `connects-to` → **[p53](../p53/README.md)** — AKT phosphorylates MDM2 → nuclear translocation → p53 ubiquitination and degradation; p53 activates PTEN transcription → reduces PIP3 → negative AKT feedback; AKT-MDM2-p53 axis is disrupted in most PIK3CA-mutant or PTEN-null cancers, and AKT inhibition can reactivate p53 in WT-p53 tumors.
+- `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — PIK3CA mutations in 35-40% of HR+ breast cancer activate AKT; AKT1 E17K in ~5%; PTEN loss predicts trastuzumab resistance; capivasertib (pan-AKT) FDA approved 2023 for PIK3CA/AKT/PTEN-altered HR+/HER2- breast cancer (CAPItello-291 PFS 7.3 vs 3.1 months).
+- `connects-to` → **[PTEN](../pten/README.md)** — PTEN phosphatase converts PIP3→PIP2 → terminates AKT activation; PTEN loss (40% endometrial, 30% GBM, 20% prostate) → constitutive AKT; PTEN is the second most commonly altered tumor suppressor after TP53; germline PTEN mutations cause Cowden syndrome.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — AKT2 mediates insulin-stimulated GLUT4 translocation in adipocytes and muscle via AS160/TBC1D4 phosphorylation; AKT2 loss-of-function → autosomal dominant severe insulin resistance and T2DM; PPARγ agonists (TZDs) activate PI3K-AKT during adipogenesis.
 
 [^bellacosa-1991-akt-oncogene]: Bellacosa A, Testa JR, Staal SP, Tsichlis PN. A retroviral oncogene, akt, encoding a serine-threonine kinase containing an SH2-like region. *Science.* 1991;254(5029):274-277. [doi:10.1126/science.254.5029.274](https://doi.org/10.1126/science.254.5029.274) · [PubMed 1833819](https://pubmed.ncbi.nlm.nih.gov/1833819/)
 [^manning-2007-akt-review]: Manning BD, Cantley LC. AKT/PKB Signaling: Navigating Downstream. *Cell.* 2007;129(7):1261-1274. [doi:10.1016/j.cell.2007.06.009](https://doi.org/10.1016/j.cell.2007.06.009) · [PubMed 17604717](https://pubmed.ncbi.nlm.nih.gov/17604717/)
 [^turner-2023-capivasertib]: Turner NC, Oliveira M, Howell SJ, et al. Capivasertib in Hormone Receptor-Positive Advanced Breast Cancer. *N Engl J Med.* 2023;388(22):2058-2070. [doi:10.1056/NEJMoa2214131](https://doi.org/10.1056/NEJMoa2214131) · [PubMed 37256976](https://pubmed.ncbi.nlm.nih.gov/37256976/)
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
