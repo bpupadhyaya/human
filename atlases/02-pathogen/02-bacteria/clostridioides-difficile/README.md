@@ -41,6 +41,9 @@ cross_links:
   - target: 03-medicine/01-modern/06-antimicrobial/amoxicillin
     relation: connects-to
     note: "Amoxicillin is a common precipitant of C. diff colitis via disruption of colonization resistance; risk lower than fluoroquinolones or clindamycin; patients on amoxicillin >7 days have ~3-fold increased C. diff risk."
+  - target: 02-pathogen/06-microbiome/lactobacillus-rhamnosus
+    relation: modulated-by
+    note: "L. rhamnosus GG (LGG) competes with C. difficile for intestinal mucin-binding sites via SpaCBA pili, acidifies the lumen via lactic acid, and prevents antibiotic-associated C. difficile colonisation and diarrhoea (NNT ~7 for AAD prevention)."
 ---
 
 # Clostridioides difficile
@@ -160,6 +163,7 @@ TcdA is the primary driver of mucosal inflammation:
 - **Connects-to** → [Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md): PPIs are a C. diff risk factor (OR ~1.7×): suppressed gastric acid → C. diff spores survive stomach transit and germinate in small bowel; meta-analyses confirm PPI-C. diff association in hospitals; dose-dependent; consider PPI deprescription in low-risk patients.
 - **Treated-by** → [Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md): Oral vancomycin 125 mg QDS × 10 days is first-line for severe/severe-complicated C. diff (IDSA 2021); fidaxomicin preferred for recurrence; IV vancomycin does NOT reach colon — oral route only; oral vancomycin disrupts gut anaerobes and increases VRE colonization risk.
 - **Connects-to** → [Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md): Amoxicillin is a common precipitant of C. diff colitis via disruption of colonization resistance; risk lower than fluoroquinolones or clindamycin; patients on amoxicillin >7 days have ~3-fold increased C. diff risk.
+- `modulated-by` → **[Lactobacillus rhamnosus](../../../../02-pathogen/06-microbiome/lactobacillus-rhamnosus/README.md)** — *L. rhamnosus* GG (LGG) competes with *C. difficile* for intestinal mucin-binding sites via SpaCBA pili, acidifies the lumen via lactic acid, and prevents antibiotic-associated *C. difficile* colonisation and diarrhoea (NNT ~7 for AAD prevention).
 
 ## Pathology
 

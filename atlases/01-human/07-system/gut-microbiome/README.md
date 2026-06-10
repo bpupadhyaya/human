@@ -49,6 +49,9 @@ cross_links:
   - target: 03-medicine/01-modern/06-antimicrobial/amoxicillin
     relation: modulated-by
     note: "Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis."
+  - target: 02-pathogen/06-microbiome/lactobacillus-rhamnosus
+    relation: modulated-by
+    note: "L. rhamnosus GG is the most-studied probiotic modulator of gut microbiome composition: lactic acid cross-feeds butyrate producers (Faecalibacterium prausnitzii); SpaCBA pili exclude pathogens from mucus; reduces AAD and infantile eczema risk."
 ---
 
 # Gut Microbiome
@@ -137,6 +140,7 @@ The microbiome influences CNS function via multiple pathways:
 - `modulated-by` → **[Omeprazole](../../../03-medicine/01-modern/08-gi/omeprazole/README.md)** — Chronic PPI → suppressed gastric acid → altered upper GI microbiome: ↑ Streptococcus/Rothia/Veillonella colonize stomach; ↑ SIBO; disrupts lower GI microbiome; reversible on discontinuation; contributes to pneumonia and C. diff risk.
 - `modulated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — Oral vancomycin dramatically disrupts gut anaerobes (Bacteroidetes, Bifidobacterium, Lactobacillus) while sparing gram-positive cocci; microbiome recovery takes 3–6 months; vancomycin-driven dysbiosis increases VRE and C. diff colonization risk in hospital settings.
 - `modulated-by` → **[Amoxicillin](../../../03-medicine/01-modern/06-antimicrobial/amoxicillin/README.md)** — Amoxicillin reduces gram-positive and gram-negative gut microbiota diversity; Enterobacteriaceae bloom during treatment; microbiome recovery takes 1–2 months post-course; repeated courses associate with persistent dysbiosis.
+- `modulated-by` → **[Lactobacillus rhamnosus](../../../../02-pathogen/06-microbiome/lactobacillus-rhamnosus/README.md)** — *L. rhamnosus* GG is the most-studied probiotic modulator of gut microbiome composition: lactic acid cross-feeds butyrate producers (*Faecalibacterium prausnitzii*); SpaCBA pili exclude pathogens from mucus; reduces AAD and infantile eczema risk.
 
 ## Pathology
 

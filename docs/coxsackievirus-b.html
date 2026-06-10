@@ -3,134 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Coxsackievirus B — Enterovirus B, +ssRNA. CAR/DAF receptors, myocarditis, dilated cardiomyopathy, protease 2A dystrophin cleavage, type 1 diabetes, herpangina, HFMD. Part of the Human Engineering project.">
-  <meta property="og:title" content="Coxsackievirus B — Human Engineering Pathogen Atlas">
+  <meta name="description" content="Non-enveloped +ssRNA enterovirus (Picornaviridae), 6 serotypes. Leading infectious cause of acute myocarditis; major antecedent of dilated cardiomyopathy. Repli">
+  <meta property="og:title" content="Coxsackievirus B — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Coxsackievirus B — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7;
-      --bg-elev: #ffffff;
-      --bg-soft: #e5e5ea;
-      --fg: #1c1c1e;
-      --fg-soft: #3a3a3c;
-      --muted: #6e6e73;
-      --muted-2: #8e8e93;
-      --border: #d1d1d6;
-      --border-soft: #e5e5ea;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #9f1239;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg); color: var(--fg);
-      line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
-    }
-    a { color: var(--bio); text-decoration: none; transition: color .15s ease; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav {
-      position: sticky; top: 0; z-index: 50;
-      backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
-      background: rgba(242, 242, 247, 0.85); border-bottom: 1px solid var(--border-soft);
-    }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.4rem 0.9rem;
-      background: rgba(159, 18, 57, 0.1); color: var(--accent);
-      border-radius: 999px; font-size: 0.75rem; font-weight: 700;
-      letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem;
-    }
-    .hero h1 { font-size: clamp(2.5rem, 6.5vw, 4.5rem); font-weight: 800; letter-spacing: -0.035em; color: var(--fg); line-height: 1.04; margin-bottom: 1.25rem; max-width: 20ch; }
-    .hero .tagline { font-size: clamp(1.1rem, 1.7vw, 1.3rem); color: var(--fg-soft); max-width: 720px; margin-bottom: 0.85rem; font-weight: 500; }
-    .hero .subtagline { font-size: 1rem; color: var(--muted); max-width: 720px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2.25rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
-    .stat-num { font-size: 1.6rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.35rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 1.75rem 2rem; }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.6rem; }
-    .detail-header h3 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); font-weight: 800; color: white; letter-spacing: -0.025em; margin-bottom: 0.65rem; line-height: 1.1; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .detail-body { padding: 1.75rem 2rem; display: flex; flex-direction: column; gap: 1.75rem; }
-    .detail-section h4 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h5 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin: 0.8rem 0 0.35rem; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.93rem; line-height: 1.65; margin-bottom: 0.55rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
-    .detail-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
-    .detail-table tr:not(:first-child) td { border-top: 1px solid var(--border-soft); }
-    .detail-table td { padding: 0.55rem 0.5rem; color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .detail-table td:first-child { font-weight: 600; color: var(--fg); width: 30%; padding-right: 1rem; }
-
-    .mech-list { display: flex; flex-direction: column; gap: 0.6rem; }
-    .mech-item { padding: 0.9rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); }
-    .mech-item h5 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .mech-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.55; margin: 0; }
-    .mech-item.danger  { border-left-color: #dc2626; }
-    .mech-item.immune  { border-left-color: var(--ai); }
-    .mech-item.latent  { border-left-color: var(--accent); }
-    .mech-item.drug    { border-left-color: var(--bio); }
-    .mech-item.neuro   { border-left-color: #d97706; }
-
-    .path-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .path-table th { text-align: left; padding: 0.45rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .path-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.45; }
-    .path-table td:first-child { font-weight: 600; color: var(--fg); }
-
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .itag { padding: 0.3rem 0.75rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.8rem; color: var(--fg-soft); }
-    .itag.innate   { border-color: var(--human); color: var(--human); background: rgba(217,119,6,0.07); }
-    .itag.adaptive { border-color: var(--ai); color: var(--ai); background: rgba(124,58,237,0.07); }
-    .itag.auto     { border-color: #dc2626; color: #dc2626; background: rgba(220,38,38,0.07); }
-
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.1rem; }
-    .conn-pill.infects .rel { color: var(--ai); }
-    .conn-pill.damages .rel { color: #dc2626; }
-    .conn-pill.targets .rel { color: var(--accent); }
-
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '\2197'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.08rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-    .refs li a:hover { color: var(--human); }
-
-    .contribute { margin-top: 4rem; padding: 2.2rem 2rem 2rem; background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .contribute h2 { font-size: clamp(1.4rem, 2vw, 1.65rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.6rem; color: var(--fg); }
-    .contribute p { color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
-    .btn-row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.75rem 1.3rem; border-radius: 999px; font-weight: 700; font-size: 0.92rem; border: 1px solid transparent; cursor: pointer; transition: transform .15s ease, filter .15s ease, background .15s ease, color .15s ease; }
-    .btn-primary { background: linear-gradient(135deg, var(--bio), var(--eng)); color: white; }
-    .btn-primary:hover { color: white; transform: translateY(-1px); filter: brightness(1.05); }
-    .btn-ghost { background: var(--bg); color: var(--fg); border-color: var(--border); }
-    .btn-ghost:hover { background: var(--bg-soft); color: var(--fg); transform: translateY(-1px); }
-    .btn svg { width: 16px; height: 16px; }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -149,268 +108,89 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="pathogens.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Pathogens
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Two &middot; Pathogen &middot; Virus</div>
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 01-viruses</div>
     <h1>Coxsackievirus B</h1>
-    <p class="tagline">The leading infectious cause of acute myocarditis &mdash; a picornavirus whose protease 2A cleaves cardiac dystrophin, triggering a cascade that can progress to dilated cardiomyopathy and heart failure long after the virus is gone.</p>
-    <p class="subtagline">Coxsackievirus B (CVB, serotypes B1&ndash;B6) is a non-enveloped +ssRNA enterovirus transmitted faecal-orally that, in a subset of infections, spreads from the gut to the heart, pancreas, and CNS. Its greatest clinical significance is as the major infectious antecedent of myocarditis and dilated cardiomyopathy, with an additional hypothesised role as a trigger for autoimmune type 1 diabetes via pancreatic beta-cell tropism. No approved antiviral treatment exists; management is supportive with guideline-directed medical therapy for cardiac sequelae.</p>
+    <p class="tagline">Non-enveloped +ssRNA enterovirus (Picornaviridae), 6 serotypes. Leading infectious cause of acute myocarditis; major antecedent of dilated cardiomyopathy. Replicates cytolytically in cardiomyocytes via CAR; protease 2A cleaves dystrophin.</p>
+    <p class="aliases">Also known as: CVB, Coxsackie B virus, enterovirus B</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">6 serotypes</span><span class="stat-label">CVB1&ndash;CVB6</span></div>
-      <div class="stat"><span class="stat-num">~7.4 kb</span><span class="stat-label">(+) ssRNA genome</span></div>
-      <div class="stat"><span class="stat-num">20&ndash;40%</span><span class="stat-label">Myocarditis cases (biopsy series)</span></div>
-      <div class="stat"><span class="stat-num">~30%</span><span class="stat-label">Progression to DCM after myocarditis</span></div>
-      <div class="stat"><span class="stat-num">28&ndash;30 nm</span><span class="stat-label">Icosahedral particle</span></div>
+        <div class="stat"><span class="stat-num">01-viruses</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-    <div class="detail-card" id="coxsackievirus-b">
-      <div class="detail-header" style="background: linear-gradient(135deg, #9f1239, #4c0519);">
-        <div class="entry-eyebrow">Picornaviridae &middot; Enterovirus B &middot; (+)ssRNA, Non-enveloped &middot; ~28&ndash;30 nm icosahedral</div>
-        <h3>Coxsackievirus B (CVB)</h3>
-        <p class="summary">Non-enveloped positive-sense single-stranded RNA virus, 6 serotypes (B1&ndash;B6), genus Enterovirus, family Picornaviridae. CAR (coxsackievirus-adenovirus receptor) is the primary internalisation receptor, concentrated at cardiomyocyte intercalated discs; DAF/CD55 is the attachment receptor. A single polyprotein is translated via cap-independent IRES-driven initiation and autocleaved by viral proteases 2Apro and 3Cpro. Protease 2Apro cleaves human cardiac dystrophin at the hinge-3 domain, disrupting the cytoskeletal-sarcolemmal link and creating a mechanistically DMD-like lesion. Adaptive immune molecular mimicry between CVB VP1 and cardiac myosin generates autoreactive T cells and antibodies that persist after viral clearance, perpetuating myocardial injury. No approved antiviral exists. Supportive care is the standard; IVIG is used in fulminant myocarditis. ~30% of severe cases progress to dilated cardiomyopathy requiring long-term heart failure therapy.</p>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">coxsackievirus-b</div>
+        <h2>Coxsackievirus B</h2>
+        <p class="summary">Non-enveloped +ssRNA enterovirus (Picornaviridae), 6 serotypes. Leading infectious cause of acute myocarditis; major antecedent of dilated cardiomyopathy. Replicates cytolytically in cardiomyocytes via CAR; protease 2A cleaves dystrophin.</p>
       </div>
-
       <div class="detail-body">
 
         <div class="detail-section">
-          <h4>Structure &mdash; Picornavirus Icosahedral Capsid</h4>
-          <table class="detail-table">
-            <tr><td>Genome</td><td>~7.4 kb (+)ssRNA; single open reading frame flanked by 5&prime; IRES and 3&prime; poly-A tail; VPg (3B) covalently attached to 5&prime; end; no 5&prime; cap (IRES-dependent translation)</td></tr>
-            <tr><td>Capsid architecture</td><td>T=1 icosahedral; 60 protomers; each protomer = VP1+VP2+VP3 (external) + VP4 (internal, N-terminus of VP0 precursor). VP1&ndash;VP3 have beta-barrel jelly-roll topology; VP1 canyon is the receptor binding site and antiviral pocket.</td></tr>
-            <tr><td>CAR receptor</td><td>Coxsackievirus-adenovirus receptor (CXADR / CAR); type I transmembrane protein at intercalated discs and tight junctions; internalisation receptor. IgV domain binds VP1/VP2 interface canyon. CVB B3/B5 serotypes most cardiotropic.</td></tr>
-            <tr><td>DAF/CD55</td><td>Decay-accelerating factor; GPI-anchored; acts as attachment/co-receptor concentrating CVB at cell surface before CAR-mediated internalisation. Present on intestinal epithelium, cardiomyocytes, erythrocytes (ABO blood group regulation).</td></tr>
-            <tr><td>Viral proteases</td><td>2Apro (serine protease): cleaves VP1-2A junction (polyprotein processing) + host eIF4GI (host cap-dependent translation shutdown) + dystrophin (cardiac pathology). 3Cpro (cysteine protease): cleaves all other junctions in polyprotein; also cleaves MAVS (innate immune evasion).</td></tr>
-            <tr><td>RdRp</td><td>3Dpol (RNA-dependent RNA polymerase): synthesises negative-sense intermediate then multiple positive-sense genomes in membrane-associated replication organelles (derived from ER); error-prone (no proofreading) but lower diversity than RNA viruses with longer genomes</td></tr>
-            <tr><td>Stability</td><td>Acid-stable (gut transit at pH 1.5&ndash;3); thermal inactivation above 50&deg;C; chlorine-sensitive (water treatment); stable in environment for weeks at room temperature</td></tr>
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>coxsackievirus-b</td></tr>
+            <tr><td>Name</td><td>Coxsackievirus B</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
+            <tr><td>Class</td><td>01-viruses</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h4>Entry, Replication, and Dystrophin Cleavage</h4>
-          <div class="mech-list">
-            <div class="mech-item danger">
-              <h5>1 &middot; Receptor Engagement at Intercalated Discs</h5>
-              <p>CAR is concentrated at cardiac intercalated discs &mdash; the cell-cell junctions that also mediate gap junction-based electrical coupling between cardiomyocytes. This anatomical localisation means CVB infection preferentially disrupts electrical conduction pathways. DAF/CD55 first captures CVB at the cell surface, presenting it to CAR for tight binding and internalisation via a CAR-mediated, actin-dependent endocytic pathway distinct from classical clathrin-coated pit internalisation in some cell types.</p>
-            </div>
-            <div class="mech-item danger">
-              <h5>2 &middot; Cytoplasmic Replication and Polyprotein Processing</h5>
-              <p>The (+)ssRNA genome is directly translated as a single polyprotein (~250 kDa) via the 5&prime; IRES. 2Apro cleaves in cis at the VP1-2A junction, separating structural from non-structural regions; subsequent 3Cpro cleavage at 9 additional sites generates all mature structural and non-structural proteins. RNA replication occurs on ER-derived double-membrane vesicles. Progeny virions accumulate until lysosome-independent lytic release kills the cell. 2Apro also cleaves eIF4GI, shutting down host cap-dependent mRNA translation and redirecting ribosomes to viral IRES.</p>
-            </div>
-            <div class="mech-item danger">
-              <h5>3 &middot; Protease 2A Cleavage of Cardiac Dystrophin &mdash; The Mechanical Lesion</h5>
-              <p>A cardinal cardiac-specific pathomechanism: viral 2Apro cleaves human dystrophin at the hinge-3 region (between spectrin-like repeats 15&ndash;17), separating the N-terminal actin-binding domain from the C-terminal dystrophin-associated glycoprotein complex (DGC). Dystrophin is the 427 kDa structural linker between intracellular F-actin and the sarcolemmal DGC, essential for mechanical coupling during cardiac contraction. Cleavage consequences: sarcolemmal membrane fragility during contraction; increased Ca2+ influx and ionic imbalance; cardiomyocyte necrosis independent of direct viral cytolysis. Mechanistically identical to the cardiomyocyte lesion in Duchenne muscular dystrophy (dystrophin-null). This explains why post-myocarditis dilated cardiomyopathy can persist and worsen long after viral clearance &mdash; the structural lesion (ongoing dystrophin deficiency due to inflammation-mediated inhibition of dystrophin repair) outlasts the virus.</p>
-            </div>
-          </div>
-
-          <div class="pathway-block">
-<pre>
-CVB CARDIAC PATHOLOGY TIMELINE
-
-  CVB infects cardiomyocyte via CAR at intercalated disc
-       |
-       v
-  PHASE 1 -- ACUTE (Days 1-14)
-  Direct cytolysis by lytic replication
-  2Apro cleaves dystrophin --> sarcolemmal fragility
-  2Apro cleaves eIF4GI --> host translation shutdown
-  3Cpro cleaves MAVS --> IFN-beta response partially impaired
-  Innate immune: RIG-I/MDA5 --> IFN-alpha/beta (despite MAVS cleavage)
-  NK cells, macrophages infiltrate myocardium
-  Cardiomyocyte necrosis + neutrophil infiltration + edema
-       |
-       v
-  PHASE 2 -- SUBACUTE (Weeks 2-8)
-  Adaptive immunity: CD8+ CTL target infected cardiomyocytes
-  CD4+ Th1 support cytotoxic response
-  MOLECULAR MIMICRY:
-    CVB VP1 epitope cross-reacts with cardiac myosin heavy chain (MHC-alpha)
-    --> autoreactive CD4+ T cells and anti-myosin antibodies
-    --> myocyte damage continues after viral clearance (Dallas criteria myocarditis)
-  Lymphocytic infiltrate + ongoing cell death
-       |
-       v
-  PHASE 3 -- CHRONIC / HEALED (Months-Years)
-  Viral cleared (or persistent RNA in some cases)
-  Interstitial fibrosis, myocyte hypertrophy
-  Ventricular remodeling: LV dilation, wall thinning
-  Progressive systolic dysfunction (EF decline)
-  Dilated cardiomyopathy (DCM) -- ~30% of symptomatic cases
-  Heart failure with reduced EF (HFrEF)
-  --> Guideline-directed medical therapy (beta-blocker, ACEi/ARB,
-      MRA, SGLT2i, ICD if EF <35%)
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Clinical Manifestations &mdash; Multi-Organ Tropism</h4>
-          <table class="path-table">
-            <tr><th>Syndrome</th><th>CVB serotypes</th><th>Mechanism / pathology</th><th>Key features</th></tr>
-            <tr>
-              <td><strong>Myocarditis / DCM</strong></td>
-              <td>CVB3, CVB5 (most); CVB2, CVB4</td>
-              <td>CAR-mediated cardiomyocyte entry; 2Apro dystrophin cleavage; immune-mediated molecular mimicry; fibrosis</td>
-              <td>Chest pain, dyspnoea, palpitations, arrhythmia. Troponin rise, ECG changes (ST elevation, heart block). CMR: late gadolinium enhancement (mid-myocardial, non-ischaemic pattern). Endomyocardial biopsy (Dallas criteria): lymphocytic infiltration + necrosis. Fulminant myocarditis: cardiogenic shock requiring inotropes, ECMO. ~30% progress to DCM</td>
-            </tr>
-            <tr>
-              <td><strong>Pleurodynia (Bornholm disease)</strong></td>
-              <td>CVB3, CVB5</td>
-              <td>Myositis of intercostal and diaphragmatic muscles; self-limited</td>
-              <td>Paroxysmal severe pleuritic chest and upper abdominal pain; "devil's grip"; fever; 1&ndash;2 weeks duration. Often misdiagnosed as pulmonary embolism or acute abdomen</td>
-            </tr>
-            <tr>
-              <td><strong>Aseptic meningitis / encephalitis</strong></td>
-              <td>CVB1&ndash;B6</td>
-              <td>CNS tropism via haematogenous seeding; lymphocytic pleocytosis</td>
-              <td>CSF: lymphocytic pleocytosis, normal glucose, mildly elevated protein. RT-PCR CSF for enterovirus is diagnostic. Usually benign and self-limiting; neonatal CVB encephalitis can be severe (perinatal transmission)</td>
-            </tr>
-            <tr>
-              <td><strong>Herpangina</strong></td>
-              <td>CVB1&ndash;B5 (also CVA)</td>
-              <td>Mucosal tropism of oropharyngeal epithelium; vesicular ulceration of anterior tonsillar pillars and soft palate</td>
-              <td>Sudden high fever, sore throat, dysphagia; small (1&ndash;2 mm) grey-white vesicles/ulcers on anterior tonsillar pillars, soft palate, uvula. 3&ndash;5 days duration. Supportive only. Distinct from herpes stomatitis (more anterior, gingivodental)</td>
-            </tr>
-            <tr>
-              <td><strong>Hand-Foot-Mouth Disease (HFMD) variant</strong></td>
-              <td>CVB (less common than CVA16, EV-A71)</td>
-              <td>Mucosal and cutaneous tropism via haematogenous spread</td>
-              <td>Oral ulcers + maculopapular/vesicular rash on palms, soles, and buttocks; fever. CVB-related HFMD tends to be milder than EV-A71-associated disease. Supportive only</td>
-            </tr>
-            <tr>
-              <td><strong>Pancreatitis / T1DM association</strong></td>
-              <td>CVB4 (primary); CVB2, CVB5</td>
-              <td>CVB4 replicates in islet beta-cells; direct cytolysis; autoimmune triggering (molecular mimicry: CVB VP1 vs. GAD65/insulin)</td>
-              <td>CVB4 was isolated from the pancreas of a child who died of fulminant T1DM (Yoon 1979). Epidemiological studies show enteroviral RNA in islets of T1DM patients at autopsy. CVB infection during fetal/early childhood period may trigger beta-cell autoimmunity in genetically susceptible individuals (HLA-DR3/DR4). Causal relationship remains debated; clinical trials of enteroviral vaccines in T1DM prevention (ENVAR trial) are ongoing</td>
-            </tr>
-            <tr>
-              <td><strong>Neonatal sepsis-like illness</strong></td>
-              <td>CVB1&ndash;B5</td>
-              <td>Vertical transmission intrapartum or postpartum; multiorgan viral dissemination</td>
-              <td>Neonates (&lt;2 weeks): fever, lethargy, myocarditis, hepatitis, coagulopathy; high mortality. Maternal IgG may be protective if present. IV IVIG (15&ndash;20 g/kg) used empirically in severe cases</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h4>Host Immune Response</h4>
-          <div class="immune-tags">
-            <span class="itag innate">RIG-I / MDA5 detection of CVB dsRNA intermediate</span>
-            <span class="itag innate">IFN-alpha/beta (type I) -- restricted by 3Cpro MAVS cleavage</span>
-            <span class="itag innate">NK cells -- early cytotoxic response (Days 1-7)</span>
-            <span class="itag innate">Macrophage infiltration -- TNF-alpha, IL-6</span>
-            <span class="itag adaptive">CD4+ Th1 -- cytokine support for CD8+ CTL</span>
-            <span class="itag adaptive">CD8+ CTL -- primary effectors against infected cardiomyocytes (Perforin/granzyme B)</span>
-            <span class="itag adaptive">Neutralising antibodies -- anti-VP1 (serotype-specific); protective in subsequent exposures</span>
-            <span class="itag auto">Molecular mimicry: anti-cardiac myosin antibodies (30-50% DCM patients)</span>
-            <span class="itag auto">Autoreactive CD4+ T cells (VP1 cross-react with MHC-alpha)</span>
-            <span class="itag auto">Regulatory T cell failure -- insufficient Treg suppression allows persistent autoimmunity</span>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>Treatment &mdash; Supportive Only (No Approved Antiviral)</h4>
-          <div class="mech-list">
-            <div class="mech-item drug">
-              <h5>Supportive Care &mdash; Standard Management</h5>
-              <p>The cornerstone. Rest (physical activity restriction for 3&ndash;6 months in myocarditis; exercise precipitates arrhythmia and sudden death). NSAIDs avoided in first 2 weeks of myocarditis (may impair healing). Haemodynamic support for fulminant myocarditis: IV inotropes (dobutamine, milrinone); in refractory cardiogenic shock, mechanical circulatory support (intra-aortic balloon pump, Impella, or ECMO as bridge to recovery or transplant). Arrhythmia management: beta-blockers, amiodarone, ICD if spontaneous or inducible VT with EF &lt;35% after 3 months of optimal therapy.</p>
-            </div>
-            <div class="mech-item drug">
-              <h5>Guideline-Directed Medical Therapy (GDMT) for Post-Myocarditis DCM</h5>
-              <p>Once DCM with EF &lt;40% is established, GDMT for HFrEF is indicated: ACE inhibitors or ARBs (reduce afterload, reverse remodelling); beta-blockers (carvedilol, metoprolol succinate, bisoprolol &mdash; reduce sympathetic drive, improve survival); mineralocorticoid receptor antagonists (spironolactone/eplerenone &mdash; reduce fibrosis, aldosterone effects); SGLT2 inhibitors (dapagliflozin/empagliflozin &mdash; new addition to HFrEF GDMT with survival benefit regardless of diabetes status); ICD for primary prevention if EF &lt;35% despite &ge;3 months of GDMT.</p>
-            </div>
-            <div class="mech-item latent">
-              <h5>IVIG in Fulminant and Neonatal Myocarditis</h5>
-              <p>Intravenous immunoglobulin (IVIG, 2 g/kg over 24 h) is used in fulminant myocarditis and neonatal CVB sepsis-like illness despite limited RCT evidence. Proposed mechanisms: passive neutralising antibodies against CVB; Fc receptor modulation of inflammatory macrophages; anti-idiotype antibodies blocking autoreactive lymphocytes. Retrospective series suggest benefit in children; adult data from the IMAC trial (randomised, placebo-controlled) showed no significant improvement in EF at 1 year but possible trend toward better recovery in subgroups. Clinical practice varies; generally reasonable to use in fulminant cases where mortality risk is high.</p>
-            </div>
-            <div class="mech-item latent">
-              <h5>Immunosuppression &mdash; Biopsy-Proven Cases</h5>
-              <p>For biopsy-confirmed lymphocytic myocarditis not improving with standard therapy, particularly giant-cell myocarditis (GCM) or eosinophilic myocarditis, immunosuppression (corticosteroids + azathioprine or cyclosporine) may be considered. The TIMIC trial showed benefit of prednisone + azathioprine in biopsy-confirmed inflammatory cardiomyopathy with absence of active viral genomes (PCR-negative biopsy). Immunosuppression with active viral infection risks viral reactivation. Therefore, PCR testing of biopsy samples for enteroviral RNA is recommended before initiating immunosuppression.</p>
-            </div>
-            <div class="mech-item drug">
-              <h5>Investigational Antivirals</h5>
-              <p>Pleconaril (a capsid binder occupying the VP1 antiviral pocket; blocks receptor attachment and uncoating) showed antiviral activity against CVB in vitro and in phase 2 neonatal enteroviral meningitis trials but was not approved due to CYP3A4 drug interactions and marginal clinical benefit. Pocapavir (V-073) is a newer capsid inhibitor with improved resistance profile; orphan designation for neonatal enteroviral sepsis. Interferon-beta has antiviral effects in CVB3 cell and animal models; a small European trial showed potential benefit in biopsy-confirmed viral myocarditis. No agent is currently approved specifically for CVB infection.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h4>CVB and Type 1 Diabetes &mdash; The Autoimmune Trigger Hypothesis</h4>
-          <p>The molecular link between CVB and type 1 diabetes is one of the most investigated virology-autoimmunity hypotheses in medicine. Key evidence:</p>
-          <p><strong>Direct isolation:</strong> In 1979, Yoon et al. isolated a CVB4 strain from the pancreas of a child who died of new-onset T1DM; the isolated strain induced diabetes when injected into susceptible mouse strains. Subsequent direct viral detection in human islets at autopsy has been variable.</p>
-          <p><strong>Enteroviral RNA in islets:</strong> In situ hybridisation and RT-PCR studies have detected enteroviral RNA in pancreatic islets of T1DM patients at autopsy and in biopsy samples, suggesting persistent or recurrent low-level CVB replication in beta-cells. This finding has been reproduced in multiple centres.</p>
-          <p><strong>Molecular mimicry:</strong> CVB VP1 shares a T-cell epitope with glutamate decarboxylase-65 (GAD65), the dominant autoantigen in early T1DM. CVB3 2C protein shares peptide sequences with anti-islet tyrosine phosphatase (IA-2). Cross-reactive T cells against these epitopes have been identified in T1DM patients.</p>
-          <p><strong>Epidemiological evidence:</strong> Multiple prospective cohorts (DIPP, DiPiS, TEDDY) have shown associations between enteroviral infections in early childhood and subsequent development of islet autoantibodies and T1DM, particularly in HLA-DR3/DR4 carriers. The temporal relationship (infection months before seroconversion) is consistent with a triggering role.</p>
-          <p><strong>ENVAR clinical trial:</strong> A CVB vaccine trial (VP1 protein-based, in adjuvant) is underway in Finland to test whether preventing CVB infection in high-risk children can reduce T1DM incidence &mdash; the definitive causal test of this hypothesis.</p>
-        </div>
-
-        <div class="detail-section">
-          <h4>Cross-Atlas Connections</h4>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill infects" href="cardiovascular-system.html"><span class="rel">Infects</span>Cardiomyocytes (via CAR at intercalated discs)</a>
-            <a class="conn-pill damages" href="cardiovascular-system.html"><span class="rel">Damages</span>Myocardium (myocarditis, DCM)</a>
-            <a class="conn-pill infects" href="#"><span class="rel">Infects</span>Pancreatic beta-cells (T1DM association)</a>
-            <a class="conn-pill targets" href="#"><span class="rel">No approved</span>Antiviral treatment</a>
-            <a class="conn-pill damages" href="#"><span class="rel">Triggers</span>Autoimmune myosin antibodies (molecular mimicry)</a>
+            <a class="conn-pill" href="cardiomyocyte.html" title="CVB3/B5 enter cardiomyocytes via CAR (coxsackievirus-adenovirus receptor) and CD55; cytolytic replication destroys the cell."><span class="rel">infects</span>Cardiomyocyte</a>
+            <a class="conn-pill damaged" href="myocardium.html" title="Cardiomyocyte lysis, inflammatory infiltrate, and immune-mediated injury produce myocarditis and subsequent fibrosis."><span class="rel">damages</span>Myocardium</a>
+            <a class="conn-pill damaged" href="immune-system.html" title="CVB triggers innate RIG-I/MDA5 IFN-α/β sensing and adaptive CD8+ T-cell responses; molecular mimicry between VP1 capsid and cardiac myosin generates autoreactive T cells and anti-cardiac-myosin antibodies causing immune-mediated myocarditis after viral clearance."><span class="rel">damages</span>Immune System</a>
+            <a class="conn-pill damaged" href="heart.html" title="CVB myocarditis causes acute ventricular dysfunction (reduced EF, dilation), arrhythmias, and progression to dilated cardiomyopathy (DCM) in ~30% of severe cases; protease 2A cleavage of dystrophin creates mechanical failure independent of direct cytolysis."><span class="rel">damages</span>Heart</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h4>References</h4>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Cooper LT Jr. Myocarditis. <em>N Engl J Med.</em> 2009;360(15):1526-38. <a href="https://doi.org/10.1056/NEJMra0800028">doi:10.1056/NEJMra0800028</a> &middot; PubMed 19357408</li>
-            <li>Kindermann I, Barth C, Mahfoud F, et al. Update on myocarditis. <em>J Am Coll Cardiol.</em> 2012;59(9):779-92. <a href="https://doi.org/10.1016/j.jacc.2011.09.074">doi:10.1016/j.jacc.2011.09.074</a> &middot; PubMed 22361396</li>
-            <li>Rose NR. Viral myocarditis. <em>Curr Opin Rheumatol.</em> 2016;28(4):383-9. <a href="https://doi.org/10.1097/BOR.0000000000000303">doi:10.1097/BOR.0000000000000303</a> &middot; PubMed 27166925</li>
-            <li>Yang D, Itagaki M, Buja LM, Garg NJ. Coxsackievirus B3 replication, apoptosis, and persistence in the heart. <em>Cell Microbiol.</em> 2009;11(11):1658-71. <a href="https://doi.org/10.1111/j.1462-5822.2009.01359.x">doi:10.1111/j.1462-5822.2009.01359.x</a> &middot; PubMed 19575749</li>
-            <li>Yoon JW, Austin M, Onodera T, Notkins AL. Isolation of a virus from the pancreas of a child with diabetic ketoacidosis. <em>N Engl J Med.</em> 1979;300(21):1173-9. <a href="https://doi.org/10.1056/NEJM197905243002102">doi:10.1056/NEJM197905243002102</a> &middot; PubMed 219563</li>
-            <li>Hyoty H. Viruses in type 1 diabetes. <em>Pediatr Diabetes.</em> 2016;17(Suppl 22):56-64. <a href="https://doi.org/10.1111/pedi.12370">doi:10.1111/pedi.12370</a> &middot; PubMed 27411444</li>
+            <li><a href="https://doi.org/10.1056/NEJMra0800028" target="_blank" rel="noopener noreferrer">Cooper LT Jr. Myocarditis. N Engl J Med. 2009;360(15):1526-38.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19357408/" target="_blank" rel="noopener noreferrer">PubMed 19357408</a></li>
+            <li><a href="https://doi.org/10.1016/j.jacc.2011.09.074" target="_blank" rel="noopener noreferrer">Kindermann I, Barth C, Mahfoud F, et al. Update on myocarditis. J Am Coll Cardiol. 2012;59(9):779-92.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22361396/" target="_blank" rel="noopener noreferrer">PubMed 22361396</a></li>
+            <li><a href="https://doi.org/10.1097/BOR.0000000000000303" target="_blank" rel="noopener noreferrer">Rose NR. Viral myocarditis. Curr Opin Rheumatol. 2016;28(4):383-9.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27166925/" target="_blank" rel="noopener noreferrer">PubMed 27166925</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138948" target="_blank" rel="noopener noreferrer">NCBI Taxonomy — Enterovirus B, species; Coxsackievirus B1-B6, serotypes.</a></li>
+            <li><a href="https://doi.org/10.1111/j.1462-5822.2009.01359.x" target="_blank" rel="noopener noreferrer">Yang D, Itagaki M, Buja LM, Garg NJ. Coxsackievirus B3 replication, apoptosis, and persistence in the heart. Cell Microbiol. 2009;11(11):1658-71.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19575749/" target="_blank" rel="noopener noreferrer">PubMed 19575749</a></li>
           </ul>
         </div>
 
       </div>
     </div>
-
-    <div class="contribute">
-      <h2>Contribute to the Pathogen Atlas</h2>
-      <p>This entry covers CVB structure, dystrophin cleavage mechanism, myocarditis&ndash;DCM continuum, T1DM hypothesis, clinical syndromes, and treatment. Planned expansions: CVB3 crystal structure, pleconaril/pocapavir clinical update, ENVAR vaccine trial outcomes, and cardiomyocyte single-cell RNA-seq response to CVB infection.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.78-1.34-1.78-1.09-.75.08-.74.08-.74 1.2.08 1.83 1.23 1.83 1.23 1.07 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.47-1.34-5.47-5.95 0-1.32.47-2.39 1.23-3.23-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.23 1.91 1.23 3.23 0 4.62-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5z"/></svg>
-          Contribute on GitHub
-        </a>
-        <a class="btn btn-ghost" href="mailto:bpupadhyaya@gmail.com?subject=Coxsackievirus%20B%20Atlas%20entry">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Get in touch
-        </a>
-      </div>
-    </div>
-
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology and every pathogen that interacts with it &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#mission">Mission</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="hiv-1.html">HIV-1</a>
-      <a href="rabies-virus.html">Rabies Virus</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>

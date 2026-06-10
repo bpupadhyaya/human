@@ -34,6 +34,12 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: modulates
     note: "L. rhamnosus GG colonises the intestinal mucosa (transiently in adults, more persistently in infants); produces lactic acid and bacteriocins (including rhamnosin A) that competitively exclude pathogenic bacteria; strengthens intestinal tight junctions (ZO-1, occludin upregulation); and stimulates mucin production from goblet cells."
+  - target: 01-human/07-system/gut-microbiome
+    relation: modulates
+    note: "L. rhamnosus GG is a transient but high-impact gut microbiome contributor; lactic acid production cross-feeds butyrate-producing Faecalibacterium prausnitzii; SpaCBA pili enable mucus colonisation; competitive exclusion of C. difficile, Salmonella, and E. coli."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: modulates
+    note: "L. rhamnosus GG prevents C. difficile colonisation via lactic acid-mediated pH reduction, steric mucus exclusion by SpaCBA pili, and biofilm formation competing for mucin-binding sites; reduces antibiotic-associated diarrhoea risk (NNT ~7)."
 ---
 
 # Lactobacillus rhamnosus
@@ -147,9 +153,10 @@ The most clinically significant adaptive immune effects of *L. rhamnosus* GG are
 
 ## Connections
 
-**Modulates** → [Immune system](../../../01-human/07-system/immune-system/README.md): *L. rhamnosus* GG is a model organism for understanding how commensal bacteria educate and balance the mucosal immune system. Its TLR2-mediated NF-κB suppression, Treg-inducing DC conditioning, and sIgA stimulation collectively maintain immune homeostasis — preventing both under-response to pathogens and over-response to commensals and food antigens.
-
-**Modulates** → [Digestive system](../../../01-human/07-system/digestive-system/README.md): *L. rhamnosus* GG colonises the intestinal mucosa, acidifies the gut lumen through lactic acid production, strengthens epithelial tight junctions, stimulates mucin secretion, and competitively excludes enteropathogens. These actions collectively protect intestinal barrier integrity and reduce the incidence and duration of GI infections and antibiotic-associated dysbiosis.
+- `modulates` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — *L. rhamnosus* GG activates TLR2/TLR9 on intestinal immune cells, promotes Treg expansion via IL-10 and TGF-β, suppresses NF-κB signalling in intestinal epithelium, and reduces IgE-mediated allergic responses via tolerogenic DC conditioning.
+- `modulates` → **[Digestive System](../../../01-human/07-system/digestive-system/README.md)** — *L. rhamnosus* GG colonises intestinal mucosa; produces lactic acid and bacteriocins that competitively exclude pathogens; strengthens tight junctions (ZO-1, occludin); stimulates MUC2/MUC3 mucin production from goblet cells.
+- `modulates` → **[Gut Microbiome](../../../01-human/07-system/gut-microbiome/README.md)** — *L. rhamnosus* GG is a transient but high-impact gut microbiome contributor; lactic acid production cross-feeds butyrate-producing *Faecalibacterium prausnitzii*; SpaCBA pili enable mucus colonisation; competitive exclusion of *C. difficile*, *Salmonella*, and *E. coli*.
+- `modulates` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — *L. rhamnosus* GG prevents *C. difficile* colonisation via lactic acid-mediated pH reduction, steric mucus exclusion by SpaCBA pili, and biofilm formation competing for mucin-binding sites; reduces antibiotic-associated diarrhoea risk (NNT ~7).
 
 ## Pathology
 
@@ -177,3 +184,6 @@ Probiotics containing *L. rhamnosus* are widely available as over-the-counter di
 [^szajewska-2015-lgg-diarrhea]: Szajewska H, Kolodziej M. Systematic review with meta-analysis: *Lactobacillus rhamnosus* GG in the prevention of antibiotic-associated diarrhoea in children and adults. *Aliment Pharmacol Ther.* 2015;42(10):1149-57. [doi:10.1111/apt.13404](https://doi.org/10.1111/apt.13404) · [PubMed 26365389](https://pubmed.ncbi.nlm.nih.gov/26365389/)
 [^salminen-2021-postbiotics-isapp]: Salminen S, Collado MC, Endo A, et al. The ISAPP consensus statement on the definition and scope of postbiotics. *Nat Rev Gastroenterol Hepatol.* 2021;18(9):649-67. [doi:10.1038/s41575-021-00440-6](https://doi.org/10.1038/s41575-021-00440-6) · [PubMed 33948935](https://pubmed.ncbi.nlm.nih.gov/33948935/)
 [^rautava-2012-lgg-eczema]: Rautava S, Kainonen E, Salminen S, et al. Maternal probiotic supplementation during pregnancy and breast-feeding reduces the risk of eczema in the infant. *J Allergy Clin Immunol.* 2012;130(6):1355-60. [doi:10.1016/j.jaci.2012.09.003](https://doi.org/10.1016/j.jaci.2012.09.003) · [PubMed 23083673](https://pubmed.ncbi.nlm.nih.gov/23083673/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

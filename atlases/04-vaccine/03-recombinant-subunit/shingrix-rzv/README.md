@@ -55,6 +55,12 @@ cross_links:
     relation: immunizes-against
     evidence: lal-2015-zoe50
     note: "Shingrix prevents herpes zoster (shingles) — the reactivation disease of latent VZV from dorsal root ganglia. gE antigen is the dominant surface glycoprotein and primary target of VZV-neutralizing antibodies; 97% efficacy in ZOE-50 vs 51% for live-attenuated Zostavax."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "RZV AS01B adjuvant (MPL + QS-21) drives strong Th1-biased CD4+ polyfunctional T cells (IFN-γ + CD40L + IL-2 + TNF-α) and memory B-cell responses even in immunosenescent elderly; superior CD4+ response explains >97% VE (ZOE-50) vs 51% for Zostavax."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Shingrix generates anti-gE IgG geometric mean concentrations >10× baseline after 2 doses; high-titer anti-gE IgG plus polyfunctional CD4+ T cells are dual correlates of protection; seroprotection sustained ≥9 years in long-term follow-up of ZOE-50 cohort."
 ---
 
 # Shingrix (RZV)
@@ -117,7 +123,12 @@ gE (gene 68) is the **most abundant envelope glycoprotein** of VZV, expressed on
 ## Connections
 
 - `immunizes-against` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Shingrix prevents herpes zoster (shingles), the reactivation disease of latent VZV; gE antigen is the dominant target of VZV-neutralizing antibodies and memory T cells.
+- `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — RZV AS01B adjuvant (MPL + QS-21) drives strong Th1-biased CD4⁺ polyfunctional T cells (IFN-γ + CD40L + IL-2 + TNF-α) and memory B-cell responses even in immunosenescent elderly; superior CD4⁺ response explains >97% VE (ZOE-50) vs 51% for Zostavax.
+- `connects-to` → **[Immunoglobulin G](../../../../01-human/03-molecular/immunoglobulin-g/README.md)** — Shingrix generates anti-gE IgG geometric mean concentrations >10× baseline after 2 doses; high-titer anti-gE IgG plus polyfunctional CD4⁺ T cells are dual correlates of protection; seroprotection sustained ≥9 years in long-term follow-up of ZOE-50 cohort.
 
 [^lal-2015-zoe50]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. *N Engl J Med.* 2015;372(22):2087-2096. [doi:10.1056/NEJMoa1501184](https://doi.org/10.1056/NEJMoa1501184) · [PubMed 25981865](https://pubmed.ncbi.nlm.nih.gov/25981865/)
 [^cunningham-2016-zoe70]: Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. *N Engl J Med.* 2016;375(11):1019-1032. [doi:10.1056/NEJMoa1603800](https://doi.org/10.1056/NEJMoa1603800) · [PubMed 27626517](https://pubmed.ncbi.nlm.nih.gov/27626517/)
 [^dagnew-2019-immunocompromised]: Dagnew AF, Ilhan O, Lee WS, et al. Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies. *Lancet Infect Dis.* 2019;19(9):988-1000. [doi:10.1016/S1473-3099(19)30163-X](https://doi.org/10.1016/S1473-3099(19)30163-X) · [PubMed 31285139](https://pubmed.ncbi.nlm.nih.gov/31285139/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

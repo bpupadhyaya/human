@@ -45,6 +45,12 @@ cross_links:
   - target: 01-human/05-tissue/myocardium
     relation: damages
     note: "Cardiomyocyte lysis, inflammatory infiltrate, and immune-mediated injury produce myocarditis and subsequent fibrosis."
+  - target: 01-human/07-system/immune-system
+    relation: damages
+    note: "CVB triggers innate RIG-I/MDA5 IFN-α/β sensing and adaptive CD8+ T-cell responses; molecular mimicry between VP1 capsid and cardiac myosin generates autoreactive T cells and anti-cardiac-myosin antibodies causing immune-mediated myocarditis after viral clearance."
+  - target: 01-human/06-organ/heart
+    relation: damages
+    note: "CVB myocarditis causes acute ventricular dysfunction (reduced EF, dilation), arrhythmias, and progression to dilated cardiomyopathy (DCM) in ~30% of severe cases; protease 2A cleavage of dystrophin creates mechanical failure independent of direct cytolysis."
 ---
 
 # Coxsackievirus B
@@ -115,10 +121,10 @@ Approximately 30% of patients with symptomatic CVB myocarditis develop **dilated
 
 ## Connections
 
-- **Infects** → [Cardiomyocyte](../../../01-human/04-cellular/cardiomyocyte/README.md): CVB enters cardiomyocytes via CAR at intercalated discs; cytolytic replication and 2A^pro^-mediated dystrophin cleavage destroy the cell.
-- **Damages** → [Myocardium](../../../01-human/05-tissue/myocardium/README.md): Acute myocarditis (lymphocytic infiltration, necrosis) followed by fibrotic remodeling and, in ~30% of severe cases, dilated cardiomyopathy.
-- **Indirectly affects** → [Heart](../../../01-human/06-organ/heart/README.md): Reduced contractility, chamber dilation, arrhythmia risk, and heart failure phenotype at the organ scale.
-- **Medicine Atlas (planned):** Immunosuppression (corticosteroids, azathioprine) in biopsy-proven myocarditis; antiviral research (pleconaril, interferon-β); guideline-directed medical therapy for post-myocarditis DCM.
+- `infects` → **[Cardiomyocyte](../../../01-human/04-cellular/cardiomyocyte/README.md)** — CVB enters cardiomyocytes via CAR at intercalated discs; cytolytic replication and 2A^pro^-mediated dystrophin cleavage destroy the cell.
+- `damages` → **[Myocardium](../../../01-human/05-tissue/myocardium/README.md)** — Acute myocarditis (lymphocytic infiltration, necrosis) followed by fibrotic remodeling and, in ~30% of severe cases, dilated cardiomyopathy.
+- `damages` → **[Heart](../../../01-human/06-organ/heart/README.md)** — CVB myocarditis causes acute ventricular dysfunction (reduced EF, dilation), arrhythmias, and progression to dilated cardiomyopathy (DCM) in ~30% of severe cases; protease 2A cleavage of dystrophin creates mechanical failure independent of direct cytolysis.
+- `damages` → **[Immune System](../../../01-human/07-system/immune-system/README.md)** — CVB triggers innate RIG-I/MDA5 IFN-α/β sensing and adaptive CD8⁺ T-cell responses; molecular mimicry between VP1 capsid and cardiac myosin generates autoreactive T cells and anti-cardiac-myosin antibodies causing immune-mediated myocarditis after viral clearance.
 
 ## Open Questions
 
@@ -136,3 +142,6 @@ Approximately 30% of patients with symptomatic CVB myocarditis develop **dilated
 [^kindermann-2012-myocarditis-circulation]: Kindermann I, Barth C, Mahfoud F, et al. Update on myocarditis. *J Am Coll Cardiol.* 2012;59(9):779-92. [doi:10.1016/j.jacc.2011.09.074](https://doi.org/10.1016/j.jacc.2011.09.074) · [PubMed 22361396](https://pubmed.ncbi.nlm.nih.gov/22361396/)
 [^rose-2016-inflammatory-cardiomyopathy-nejm]: Rose NR. Viral myocarditis. *Curr Opin Rheumatol.* 2016;28(4):383-9. [doi:10.1097/BOR.0000000000000303](https://doi.org/10.1097/BOR.0000000000000303) · [PubMed 27166925](https://pubmed.ncbi.nlm.nih.gov/27166925/)
 [^yang-2009-dystrophin-cleavage]: Yang D, Itagaki M, Buja LM, Garg NJ. Coxsackievirus B3 replication, apoptosis, and persistence in the heart. *Cell Microbiol.* 2009;11(11):1658-71. [doi:10.1111/j.1462-5822.2009.01359.x](https://doi.org/10.1111/j.1462-5822.2009.01359.x) · [PubMed 19575749](https://pubmed.ncbi.nlm.nih.gov/19575749/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

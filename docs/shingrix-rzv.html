@@ -3,237 +3,202 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Shingrix (RZV) — recombinant zoster vaccine by GSK. AS01B adjuvant system, gE antigen, 97.2% efficacy (ZOE-50), immunocompromised approval, comparison with Zostavax. Human Engineering Atlas.">
-  <meta property="og:title" content="Shingrix (RZV) — Vaccine Atlas · Human Engineering">
+  <meta name="description" content="Adjuvanted recombinant subunit zoster vaccine; VZV glycoprotein E antigen + AS01B adjuvant (MPL + QS-21 liposomes). Two IM doses 2–6 months apart. ZOE-50: 97% e">
+  <meta property="og:title" content="Shingrix (RZV) — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Shingrix (RZV) — Vaccine Atlas · Human Engineering</title>
+  <title>Shingrix (RZV) — Human Engineering</title>
   <style>
-    :root{--bg:#f2f2f7;--bg-3:#e8e8ed;--surface:#ffffff;--fg:#1c1c1e;--fg-soft:#3a3a3c;--muted:#6e6e73;--muted-2:#8e8e93;--border:rgba(0,0,0,0.08);--border-strong:rgba(0,0,0,0.16);--accent:#7c3aed;--accent-soft:rgba(124,58,237,0.10);--bio:#00a878;--eng:#0071e3;--radius-sm:8px;--radius:14px;--maxw:860px}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
-    a{color:var(--accent);text-decoration:none;transition:color .15s}a:hover{color:var(--bio)}
-    nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:rgba(242,242,247,0.88);border-bottom:1px solid var(--border)}
-    .nav-inner{max-width:var(--maxw);margin:0 auto;padding:.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:.96rem;color:var(--fg)}
-    .brand-mark{width:24px;height:24px;border-radius:7px;background:conic-gradient(from 140deg,#00a878,#0071e3,#7c3aed,#c84b00,#00a878);box-shadow:0 0 0 1px rgba(0,0,0,.06),0 4px 16px rgba(0,168,120,.18)}
-    .nav-links{display:flex;align-items:center;gap:1.2rem;font-size:.88rem;flex-wrap:wrap}
-    .nav-links a{color:var(--muted);font-weight:500}.nav-links a:hover{color:var(--fg)}
-    .hero{background:linear-gradient(135deg,#f5f0ff 0%,#ede9fe 40%,#ffffff 100%);border-bottom:1px solid var(--border);padding:3rem 1.5rem 2rem}
-    .hero-inner{max-width:var(--maxw);margin:0 auto}
-    .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.65rem}
-    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--fg);margin-bottom:1rem}
-    .hero h1 span{color:var(--accent)}
-    .hero-lead{color:var(--fg-soft);font-size:1.05rem;max-width:680px;line-height:1.75}
-    .meta-strip{max-width:var(--maxw);margin:0 auto;padding:.8rem 1.5rem;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.8rem;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface)}
-    .content{max-width:var(--maxw);margin:0 auto;padding:2rem 1.5rem 3rem}
-    .section{margin-bottom:2.5rem}
-    .section h2{font-size:1.35rem;font-weight:700;letter-spacing:-.02em;color:var(--fg);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--accent-soft)}
-    .section h3{font-size:1.05rem;font-weight:700;color:var(--fg);margin:1.2rem 0 .6rem}
-    .section p{color:var(--fg-soft);margin-bottom:.9rem}
-    .section ul,.section ol{padding-left:1.5rem;color:var(--fg-soft);margin-bottom:.9rem}
-    .section li{margin-bottom:.35rem}
-    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.9rem}
-    th{background:var(--bg-3);padding:.55rem .8rem;text-align:left;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:2px solid var(--border-strong)}
-    td{padding:.5rem .8rem;border-bottom:1px solid var(--border);color:var(--fg-soft);vertical-align:top}
-    tr:last-child td{border-bottom:none}
-    .callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:.9rem 1.1rem;margin:1rem 0;font-size:.93rem;color:var(--fg-soft)}
-    .callout strong{color:var(--accent)}
-    .conn-list{list-style:none;padding:0}
-    .conn-list li{padding:.55rem 0;border-bottom:1px solid var(--border);display:flex;gap:.6rem;align-items:baseline;font-size:.93rem}
-    .conn-list li:last-child{border-bottom:none}
-    .conn-rel{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);min-width:90px}
-    .references ol{padding-left:1.4rem;color:var(--fg-soft);font-size:.88rem;line-height:1.75}
-    .references ol li{margin-bottom:.6rem}
-    footer{border-top:1px solid var(--border);text-align:center;padding:2rem 1.5rem 1.5rem;font-size:.82rem;color:var(--muted-2)}
-    footer a{color:var(--muted)}footer a:hover{color:var(--bio)}
+    :root {
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a href="../index.html" class="brand">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Human Engineering
-    </a>
-    <div class="nav-links">
-      <a href="../index.html">Home</a>
-      <a href="vaccines.html">Vaccines</a>
-      <a href="medicine.html">Medicine</a>
-      <a href="herpesvirus.html">Herpesviridae</a>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 03 — Recombinant Subunit</div>
+    <h1>Shingrix (RZV)</h1>
+    <p class="tagline">Adjuvanted recombinant subunit zoster vaccine; VZV glycoprotein E antigen + AS01B adjuvant (MPL + QS-21 liposomes). Two IM doses 2–6 months apart. ZOE-50: 97% efficacy in adults ≥50; ZOE-70: 91% in ≥70. Preferred over live-attenuated Zostavax; approved for immunocompromised.</p>
+    
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">03 — Recombinant Subunit</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">2–8°C; do not freeze; store in original packaging to protect from light; reconstituted vaccine must be used within 6 hours</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
     </div>
   </div>
-</nav>
 
-<div class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">L02 Molecular &middot; Vaccine &middot; Recombinant Subunit &middot; Adjuvanted</p>
-    <h1><span>Shingrix (RZV)</span></h1>
-    <p class="hero-lead">Shingrix (RZV, recombinant zoster vaccine; GSK) is the most efficacious vaccine against herpes zoster (shingles) ever developed. By pairing a recombinant VZV glycoprotein E (gE) antigen with the AS01<sub>B</sub> adjuvant system, it achieves 97.2% efficacy against shingles in adults &ge;50 years and sustains durable protection &ge;10 years &mdash; a dramatic advance over the earlier live-attenuated Zostavax.</p>
-  </div>
-</div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<div class="meta-strip">
-  <span>Scale: L02 Molecular</span>
-  <span>Type: Recombinant subunit + adjuvant</span>
-  <span>Developer: GSK</span>
-  <span>FDA approval: Oct 20, 2017</span>
-  <span>Schedule: 2 doses (0, 2&ndash;6 months)</span>
-</div>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">shingrix-rzv</div>
+        <h2>Shingrix (RZV)</h2>
+        <p class="summary">Adjuvanted recombinant subunit zoster vaccine; VZV glycoprotein E antigen + AS01B adjuvant (MPL + QS-21 liposomes). Two IM doses 2–6 months apart. ZOE-50: 97% efficacy in adults ≥50; ZOE-70: 91% in ≥70. Preferred over live-attenuated Zostavax; approved for immunocompromised.</p>
+      </div>
+      <div class="detail-body">
 
-<div class="content">
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>shingrix-rzv</td></tr>
+            <tr><td>Name</td><td>Shingrix (RZV)</td></tr>
+            <tr><td>Status</td><td>active</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Platform</td><td>03 — Recombinant Subunit</td></tr>
+            <tr><td>Delivery system</td><td>lyophilized antigen reconstituted with liquid AS01B adjuvant system (MPL + QS-21 in liposome formulation)</td></tr>
+            <tr><td>Adjuvants</td><td>AS01B (monophosphoryl lipid A [MPL] + QS-21 saponin in liposomes)</td></tr>
+            <tr><td>Route</td><td>intramuscular</td></tr>
+            <tr><td>Dose schedule</td><td>2-dose series: dose 1 at election, dose 2 two to six months later; no booster currently recommended</td></tr>
+            <tr><td>Manufacturer</td><td>GlaxoSmithKline (GSK)</td></tr>
+            <tr><td>Cold chain</td><td>2–8°C; do not freeze; store in original packaging to protect from light; reconstituted vaccine must be used within 6 hours</td></tr>
+          </table>
+        </div>
 
-  <div class="section" id="overview">
-    <h2>Overview</h2>
-    <p>Shingrix (RZV; recombinant zoster vaccine) is a non-live adjuvanted subunit vaccine manufactured by GlaxoSmithKline (GSK). It was approved by the FDA on <strong>October 20, 2017</strong> for prevention of herpes zoster (shingles) in adults aged &ge;50 years, superseding the older live-attenuated Zostavax (ZVL) for this indication. A subsequent FDA approval on <strong>July 23, 2021</strong> extended the indication to immunocompromised adults aged &ge;18 years, including those with hematologic malignancies, HIV, and solid organ or autologous stem cell transplant recipients.</p>
-    <p>The vaccine is administered as a <strong>two-dose intramuscular series</strong> (deltoid), with dose 2 given 2&ndash;6 months after dose 1. For immunocompromised individuals, an accelerated schedule of 1&ndash;2 months between doses is permissible. The Advisory Committee on Immunization Practices (ACIP) recommends Shingrix for all immunocompetent adults &ge;50 years, regardless of prior episode of zoster or prior receipt of Zostavax. Prior vaccination with Zostavax is not a contraindication; a minimum 2-month interval is recommended before transitioning.</p>
-    <p>Because Shingrix contains no live virus, it is safe to administer in immunocompromised patients &mdash; a population for whom Zostavax is absolutely contraindicated.</p>
-  </div>
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="varicella-zoster-virus.html" title="Shingrix prevents herpes zoster (shingles) — the reactivation disease of latent VZV from dorsal root ganglia. gE antigen is the dominant surface glycoprotein and primary target of VZV-neutralizing antibodies; 97% efficacy in ZOE-50 vs 51% for live-attenuated Zostavax."><span class="rel">immunizes-against</span>Varicella Zoster Virus</a>
+            <a class="conn-pill" href="immune-system.html" title="RZV AS01B adjuvant (MPL + QS-21) drives strong Th1-biased CD4+ polyfunctional T cells (IFN-γ + CD40L + IL-2 + TNF-α) and memory B-cell responses even in immunosenescent elderly; superior CD4+ response explains &gt;97% VE (ZOE-50) vs 51% for Zostavax."><span class="rel">connects-to</span>Immune System</a>
+            <a class="conn-pill" href="immunoglobulin-g.html" title="Shingrix generates anti-gE IgG geometric mean concentrations &gt;10× baseline after 2 doses; high-titer anti-gE IgG plus polyfunctional CD4+ T cells are dual correlates of protection; seroprotection sustained ≥9 years in long-term follow-up of ZOE-50 cohort."><span class="rel">connects-to</span>Immunoglobulin G</a>
+          </div>
+        </div>
 
-  <div class="section" id="antigen-adjuvant">
-    <h2>Antigen and Adjuvant System</h2>
-    <h3>VZV Glycoprotein E (gE) Antigen</h3>
-    <p>The antigen component is a recombinant form of <strong>VZV glycoprotein E (gE)</strong> &mdash; specifically the ectodomain of gE, produced in Chinese hamster ovary (CHO) cells and delivered at <strong>50 &mu;g per dose</strong>. gE is the most abundant glycoprotein on the surface of VZV-infected cells and virions. It is the dominant target of both humoral and T-cell immunity during natural VZV infection and reactivation. gE is highly conserved across clinical VZV strains, making it an ideal vaccine antigen with minimal escape potential.</p>
-    <p>gE forms a heterodimer with gI on the viral envelope and is expressed on the surface of latently infected dorsal root ganglion (DRG) neurons during viral reactivation, making it accessible to immune effectors. CD4<sup>+</sup> T cells recognizing gE-derived peptides presented by MHC class II are the principal correlate of protection against zoster progression.</p>
-    <h3>AS01<sub>B</sub> Adjuvant System</h3>
-    <p>The AS01<sub>B</sub> adjuvant system is the defining pharmacological innovation of Shingrix. It consists of two immunostimulatory components co-formulated in a <strong>liposome bilayer</strong>:</p>
-    <ul>
-      <li><strong>MPL (3-O-desacyl-4&prime;-monophosphoryl lipid A)</strong> &mdash; a chemically detoxified derivative of <em>Salmonella minnesota</em> R595 lipopolysaccharide; acts as a <strong>TLR4 agonist</strong>; activates innate immune cells (dendritic cells, macrophages) via the MyD88/TRIF signaling pathways; drives IL-12 production → CD4<sup>+</sup> Th1 polarization; quantity: 50 &mu;g per dose</li>
-      <li><strong>QS-21</strong> &mdash; a purified saponin fraction derived from the bark of <em>Quillaja saponaria</em> Molina; activates antigen-presenting cells and promotes cross-presentation to CD8<sup>+</sup> T cells; quantity: 50 &mu;g per dose; co-formulation in liposomes reduces QS-21&rsquo;s intrinsic hemolytic activity while preserving its adjuvant potency</li>
-    </ul>
-    <p>Together, MPL and QS-21 within the liposome create a synergistic immunostimulatory environment that simultaneously promotes <strong>antigen-specific humoral immunity</strong> (high-titer, class-switched anti-gE IgG) and robust <strong>CD4<sup>+</sup> Th1 T-cell responses</strong> (IFN-&gamma;, TNF-&alpha;, IL-2, CD107a co-expression). The AS01<sub>B</sub> system drives approximately 30-fold greater gE-specific CD4<sup>+</sup> T-cell responses compared to unadjuvanted gE alone, and is responsible for the unique durability of the Shingrix immune response.</p>
-    <div class="callout"><strong>Why AS01<sub>B</sub> matters:</strong> The VZV-specific CD4<sup>+</sup> T-cell pool declines with age &mdash; exactly the demographic at highest risk for shingles. AS01<sub>B</sub> compensates for this immunosenescence by dramatically amplifying both T-cell and antibody responses even in older and immunocompromised adults, explaining why Shingrix maintains &gt;90% efficacy in individuals &ge;70 years old where Zostavax falls to ~38%.</div>
-  </div>
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1056/NEJMoa1501184" target="_blank" rel="noopener noreferrer">Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. N Engl J Med. 2015;372(22):2087-2096.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25981865/" target="_blank" rel="noopener noreferrer">PubMed 25981865</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1603800" target="_blank" rel="noopener noreferrer">Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. N Engl J Med. 2016;375(11):1019-1032.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27626517/" target="_blank" rel="noopener noreferrer">PubMed 27626517</a></li>
+            <li><a href="https://doi.org/10.1016/S1473-3099(19)30163-X" target="_blank" rel="noopener noreferrer">Dagnew AF, Ilhan O, Lee WS, et al. Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies: a phase 3, randomised, clinical trial and post-hoc efficacy analysis. Lancet Infect Dis. 2019;19(9):988-1000.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/31285139/" target="_blank" rel="noopener noreferrer">PubMed 31285139</a></li>
+          </ul>
+        </div>
 
-  <div class="section" id="immunogenicity">
-    <h2>Immunogenicity</h2>
-    <h3>Humoral Response</h3>
-    <p>Following the two-dose series, anti-gE IgG titers are <strong>11&ndash;12-fold higher</strong> than those induced by Zostavax and approximately 4-fold higher than titers seen following natural VZV primary infection in adults. The anti-gE antibody response is predominantly IgG1 and IgG3, consistent with Th1 polarization. Antibody titers peak at approximately 1 month post-dose 2 and decline gradually thereafter but remain substantially elevated above pre-vaccination baseline.</p>
-    <p>Long-term follow-up from the ZOE-50 trial demonstrates that anti-gE IgG titers remain &ge;6-fold above pre-vaccination levels at <strong>10 years post-vaccination</strong> (Cunningham et al., <em>JID</em> 2022), providing serological evidence supporting the durability of protection observed in ongoing efficacy follow-up studies.</p>
-    <h3>Cellular (T-cell) Response</h3>
-    <p>The CD4<sup>+</sup> T-cell response is particularly critical for zoster protection and is the primary mechanistic differentiator from Zostavax. Shingrix induces gE-specific CD4<sup>+</sup> T cells expressing <strong>two or more of the functional markers IFN-&gamma;, IL-2, TNF-&alpha;, and CD107a</strong> (a degranulation marker, surrogate for cytotoxic activity) &mdash; a polyfunctional Th1 phenotype associated with durable protective immunity. These multifunctional CD4<sup>+</sup> T cells are detected in &gt;97% of vaccine recipients at 1 month post-dose 2 and persist above pre-vaccination levels at &ge;9 years of follow-up.</p>
-    <p>CD8<sup>+</sup> cytotoxic T lymphocyte responses are also induced, though of smaller magnitude than CD4<sup>+</sup> responses. CTLs contribute to direct killing of VZV-reactivating neurons, complementing the CD4<sup>+</sup> Th1-mediated protective mechanisms.</p>
-    <table>
-      <thead><tr><th>Immune Parameter</th><th>Shingrix (RZV)</th><th>Zostavax (ZVL)</th></tr></thead>
-      <tbody>
-        <tr><td>Anti-gE IgG fold-rise post-vaccine</td><td>11&ndash;12&times; above Zostavax levels</td><td>~2&times; above pre-vaccination</td></tr>
-        <tr><td>gE-specific CD4<sup>+</sup> T cells</td><td>~30&times; greater than unadjuvanted gE; polyfunctional Th1</td><td>Modest CD4<sup>+</sup> increase</td></tr>
-        <tr><td>Duration of antibody response</td><td>&ge;10 years (ZOE-50 follow-up)</td><td>Wanes to pre-vaccination by year 5&ndash;7</td></tr>
-        <tr><td>Efficacy &ge;70 years</td><td>91.3% (ZOE-70)</td><td>~38% (SPS; Oxman 2005)</td></tr>
-      </tbody>
-    </table>
-  </div>
+      </div>
+    </div>
+  </main>
 
-  <div class="section" id="efficacy">
-    <h2>Efficacy Trials</h2>
-    <h3>ZOE-50 (Lal et al., <em>N Engl J Med</em> 2015)</h3>
-    <p>The pivotal efficacy trial enrolled <strong>15,411 adults &ge;50 years</strong> at 18 countries in a randomized, double-blind, placebo-controlled design. The primary endpoint was confirmed herpes zoster by PCR and/or Tzanck preparation. Among evaluable participants, Shingrix demonstrated <strong>97.2% vaccine efficacy</strong> against herpes zoster (95% CI 93.7&ndash;99.0%; 6 cases in vaccine vs. 210 in placebo, median follow-up 3.2 years). Efficacy against postherpetic neuralgia (PHN) was 100% in the ZOE-50 population (0 cases vs. 18 in placebo).</p>
-    <h3>ZOE-70 (Cunningham et al., <em>N Engl J Med</em> 2016)</h3>
-    <p>A companion trial enrolling <strong>13,900 adults &ge;70 years</strong> demonstrated <strong>91.3% vaccine efficacy</strong> against herpes zoster (95% CI 86.8&ndash;94.5%). Efficacy against PHN was 88.8%. The pooled ZOE-50/ZOE-70 analysis confirmed <strong>89.8% efficacy against PHN</strong> and demonstrated that efficacy did not wane materially across the five-year follow-up period.</p>
-    <h3>Immunocompromised Populations</h3>
-    <p>Several trials evaluated Shingrix in high-risk immunocompromised individuals, populations for whom shingles risk is dramatically elevated and Zostavax is contraindicated:</p>
-    <ul>
-      <li><strong>ZOSTER-006 (autologous SCT recipients):</strong> 1,846 patients post-autologous hematopoietic stem cell transplant; 68.2% efficacy against herpes zoster (95% CI 55.7&ndash;77.5%; Bastidas et al., <em>JAMA</em> 2019)</li>
-      <li><strong>ZOSTER-015 (HIV patients):</strong> 94.0% CD4 response rate; vaccine efficacy 74.5% in HIV-positive patients with CD4 &ge;200 cells/&mu;L (Berkowitz et al., <em>JID</em> 2015)</li>
-      <li><strong>ZOSTER-039 (renal transplant recipients):</strong> 68.4% efficacy (Bastidas 2019 follow-up data)</li>
-      <li><strong>Hematologic malignancy studies:</strong> &ge;70% reduction in confirmed zoster in NHL and CLL patients receiving chemotherapy</li>
-    </ul>
-    <table>
-      <thead><tr><th>Trial</th><th>Population</th><th>N</th><th>VE against HZ</th><th>Key Author / Year</th></tr></thead>
-      <tbody>
-        <tr><td>ZOE-50</td><td>Adults &ge;50 years</td><td>15,411</td><td>97.2%</td><td>Lal et al., <em>NEJM</em> 2015</td></tr>
-        <tr><td>ZOE-70</td><td>Adults &ge;70 years</td><td>13,900</td><td>91.3%</td><td>Cunningham et al., <em>NEJM</em> 2016</td></tr>
-        <tr><td>ZOE-50/70 pooled (&ge;70 yrs)</td><td>Pooled older adults</td><td>~8,250</td><td>91.3%</td><td>Pooled ZOE analysis 2016</td></tr>
-        <tr><td>ZOSTER-006</td><td>Post-autologous SCT</td><td>1,846</td><td>68.2%</td><td>Bastidas et al., <em>JAMA</em> 2019</td></tr>
-        <tr><td>ZOSTER-015</td><td>HIV (CD4 &ge;200)</td><td>~280</td><td>74.5%</td><td>Berkowitz et al., <em>JID</em> 2015</td></tr>
-      </tbody>
-    </table>
-  </div>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-  <div class="section" id="comparison">
-    <h2>Comparison with Zostavax (ZVL)</h2>
-    <p>Zostavax (live attenuated varicella zoster vaccine, ZVL; Merck) was the first licensed zoster vaccine (FDA 2006). It is a high-potency (~19,400 PFU) formulation of the same Oka-strain live-attenuated VZV used in Varivax (varicella vaccine), intended to boost waning VZV-specific immunity. However, its performance characteristics differ substantially from Shingrix in every relevant dimension:</p>
-    <table>
-      <thead><tr><th>Feature</th><th>Shingrix (RZV)</th><th>Zostavax (ZVL)</th></tr></thead>
-      <tbody>
-        <tr><td>Type</td><td>Recombinant subunit + AS01<sub>B</sub> adjuvant; non-live</td><td>Live attenuated VZV (Oka strain); high-potency</td></tr>
-        <tr><td>Doses</td><td>2 (IM, 0 and 2&ndash;6 months)</td><td>1 (SC)</td></tr>
-        <tr><td>Efficacy &ge;50 years</td><td>97.2% (ZOE-50)</td><td>~51% (SPS, Oxman 2005)</td></tr>
-        <tr><td>Efficacy &ge;70 years</td><td>91.3% (ZOE-70)</td><td>~38% (SPS subgroup)</td></tr>
-        <tr><td>Duration of protection</td><td>&ge;10 years; no signal of waning</td><td>Wanes to &lt;35% by year 5; not statistically significant by years 7&ndash;8</td></tr>
-        <tr><td>Efficacy against PHN</td><td>89.8% (pooled ZOE)</td><td>~67% (SPS; Oxman 2005)</td></tr>
-        <tr><td>Safe in immunocompromised?</td><td>Yes (FDA-approved; no live virus)</td><td>No &mdash; absolutely contraindicated</td></tr>
-        <tr><td>Storage</td><td>2&ndash;8&deg;C (component A lyophilised gE reconstituted with AS01<sub>B</sub> suspension)</td><td>Frozen (&minus;15&deg;C); cold chain requirements</td></tr>
-      </tbody>
-    </table>
-    <p>ZVL is no longer recommended by ACIP; Shingrix is the preferred and only routinely recommended zoster vaccine in the United States. For adults who have previously received Zostavax, the ACIP recommends Shingrix at least 2 months after ZVL administration.</p>
-  </div>
-
-  <div class="section" id="mechanism">
-    <h2>Mechanism of Protection</h2>
-    <p>VZV establishes lifelong latency in the cell bodies of sensory neurons of dorsal root ganglia (DRG) after primary varicella infection. Reactivation &mdash; herpes zoster &mdash; occurs when VZV-specific cell-mediated immunity declines below a threshold, typically with advancing age, immunosuppression, or physiological stress. Shingrix intervenes in this process at multiple immunological levels:</p>
-    <ol>
-      <li><strong>CD4<sup>+</sup> Th1 cells:</strong> Recognize gE peptides presented by MHC class II on antigen-presenting cells and VZV-infected keratinocytes. Polyfunctional CD4<sup>+</sup> T cells secreting IFN-&gamma; + TNF-&alpha; + IL-2 simultaneously are the strongest immunological correlate of zoster protection. These cells provide both direct cytokine-mediated antiviral activity and helper function for CD8<sup>+</sup> CTLs and B cells.</li>
-      <li><strong>CD8<sup>+</sup> CTLs:</strong> Kill VZV-reactivating neuronal or epithelial cells displaying gE peptides on MHC class I. CTL activity is critical for limiting viral spread within ganglia and preventing centrifugal virion transport to skin.</li>
-      <li><strong>Antibody (anti-gE IgG):</strong> Neutralizes cell-free virions and mediates antibody-dependent cellular cytotoxicity (ADCC) against gE-expressing infected cells. Anti-gE IgG concentrations correlate with protection in epidemiological studies, but the cellular immune response is considered the primary protective mechanism for control of established latency.</li>
-      <li><strong>AS01<sub>B</sub> amplification:</strong> TLR4 signaling via MPL in draining lymph node dendritic cells drives IL-12 production, polarizing naive CD4<sup>+</sup> T cells to Th1. QS-21 promotes cross-presentation, activating CTLs. The liposomal co-delivery maximizes local innate stimulation while containing QS-21 toxicity.</li>
-    </ol>
-  </div>
-
-  <div class="section" id="safety">
-    <h2>Adverse Effects</h2>
-    <p>Shingrix is notable for a higher rate of local and systemic reactogenicity compared to Zostavax &mdash; a direct consequence of the potent AS01<sub>B</sub> adjuvant. However, since no live virus is present, there is no risk of vaccine-strain infection in immunocompromised recipients.</p>
-    <table>
-      <thead><tr><th>Adverse Effect</th><th>Frequency</th><th>Notes</th></tr></thead>
-      <tbody>
-        <tr><td>Injection-site pain</td><td>&gt;80% any grade; &gt;17% grade 3 (limits daily activity)</td><td>Most common AE; peaks 24&ndash;48 h; resolves in 2&ndash;3 days</td></tr>
-        <tr><td>Myalgia</td><td>&gt;45% any grade; ~10% grade 3</td><td>Driven by systemic MPL + QS-21 activation; more pronounced after dose 2 in some recipients</td></tr>
-        <tr><td>Fatigue</td><td>&gt;50% any grade; ~7% grade 3</td><td>Same mechanism; typically 1&ndash;2 days</td></tr>
-        <tr><td>Headache</td><td>&gt;38% any grade; ~5% grade 3</td><td>Self-limiting</td></tr>
-        <tr><td>Shivering/fever</td><td>&gt;25%/&gt;17% respectively</td><td>Low-grade; systemic innate activation</td></tr>
-        <tr><td>GI symptoms (nausea, diarrhea)</td><td>&gt;20%</td><td>Mild; self-limiting</td></tr>
-        <tr><td>Serious adverse events (SAEs)</td><td>~1.3% (vaccine) vs. 1.4% (placebo); ZOE-50/70</td><td>No vaccine-attributable serious events identified in phase 3 trials</td></tr>
-        <tr><td>Myopericarditis signal</td><td>Not established</td><td>No excess signal vs. placebo in ZOE trials; monitoring ongoing in post-marketing</td></tr>
-      </tbody>
-    </table>
-    <div class="callout"><strong>Pre-counseling patients:</strong> Grade 3 systemic reactions (temporarily limiting daily activities) occur in approximately 10&ndash;17% of recipients, particularly after dose 2. Patients should be warned that substantial fatigue, myalgia, and injection-site pain are expected and are indicative of a robust immune response, not an adverse outcome. Most reactions resolve within 1&ndash;3 days.</div>
-  </div>
-
-  <div class="section" id="connections">
-    <h2>Connections</h2>
-    <ul class="conn-list">
-      <li><span class="conn-rel">same virus</span><span><a href="varivax.html">Varivax (live-attenuated VZV)</a> &mdash; Varivax prevents primary varicella in children; Shingrix targets zoster reactivation in adults &mdash; two vaccines targeting different disease phases of the same pathogen, VZV</span></li>
-      <li><span class="conn-rel">virus biology</span><span><a href="herpesvirus.html">Herpesviridae</a> &mdash; VZV is a &alpha;-herpesvirus (HHV-3); latency in DRG; gE-gI envelope heterodimer; gE is the vaccine antigen and the most abundant envelope glycoprotein</span></li>
-      <li><span class="conn-rel">antiviral</span><span><a href="acyclovir.html">Acyclovir</a> &mdash; nucleoside analogue antiviral for HSV and VZV; Shingrix prevents reactivation while acyclovir/valacyclovir treat breakthrough zoster episodes; complementary strategies</span></li>
-      <li><span class="conn-rel">vaccine hub</span><span><a href="vaccines.html">Vaccine Atlas</a> &mdash; Shingrix is catalogued under recombinant subunit vaccines; other adjuvanted subunit vaccines (e.g., HepB-CpG, RTS,S/AS01) share design principles</span></li>
-      <li><span class="conn-rel">immune response</span><span><a href="antibody.html">Antibody (Immunoglobulin)</a> &mdash; anti-gE IgG (IgG1/IgG3) is a secondary correlate of protection; antibody mediates ADCC against gE-expressing VZV-infected cells</span></li>
-      <li><span class="conn-rel">immune response</span><span><a href="mhc-ii.html">MHC Class II</a> &mdash; gE-derived peptides are presented by MHC II on DCs to prime the polyfunctional CD4<sup>+</sup> Th1 response that is the primary correlate of Shingrix efficacy</span></li>
-      <li><span class="conn-rel">immune response</span><span><a href="germinal-center.html">Germinal Center</a> &mdash; anti-gE IgG is generated through germinal center reactions in draining lymph nodes; AS01<sub>B</sub> enhances germinal center formation and affinity maturation</span></li>
-    </ul>
-  </div>
-
-  <div class="section references" id="references">
-    <h2>References</h2>
-    <ol>
-      <li>Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an adjuvanted herpes zoster subunit vaccine in older adults. <em>N Engl J Med.</em> 2015;372(22):2087&ndash;2096. doi:10.1056/NEJMoa1501184</li>
-      <li>Cunningham AL, Lal H, Kovac M, et al. Efficacy of the herpes zoster subunit vaccine in adults 70 years of age or older. <em>N Engl J Med.</em> 2016;375(11):1019&ndash;1032. doi:10.1056/NEJMoa1603800</li>
-      <li>Bastidas A, de la Serna J, El Idrissi M, et al. Effect of recombinant zoster vaccine on incidence of herpes zoster after autologous stem cell transplantation: a randomized clinical trial. <em>JAMA.</em> 2019;322(2):123&ndash;133. doi:10.1001/jama.2019.9053</li>
-      <li>Cunningham AL, Heineman T, Lal H, et al. Immune responses to a recombinant glycoprotein E herpes zoster vaccine in adults aged &ge;50 years. <em>J Infect Dis.</em> 2018;217(11):1750&ndash;1760. doi:10.1093/infdis/jiy095</li>
-      <li>Berkowitz EM, Moyle G, Stellbrink HJ, et al. Safety and immunogenicity of an adjuvanted herpes zoster subunit candidate vaccine in HIV-infected adults: a phase 1/2a randomized, placebo-controlled study. <em>J Infect Dis.</em> 2015;211(8):1279&ndash;1287. doi:10.1093/infdis/jiu606</li>
-      <li>Didierlaurent AM, Laupeze B, Di Pasquale A, Hergli N, Collignon C, Garcon N. Adjuvant system AS01: helping to overcome the challenges of modern vaccines. <em>Expert Rev Vaccines.</em> 2017;16(1):55&ndash;63. doi:10.1080/14760584.2016.1213632</li>
-      <li>Oxman MN, Levin MJ, Johnson GR, et al. A vaccine to prevent herpes zoster and postherpetic neuralgia in older adults. <em>N Engl J Med.</em> 2005;352(22):2271&ndash;2284. doi:10.1056/NEJMoa051016</li>
-      <li>Cunningham AL, Lal H, Levin MJ, et al. Persistence of immune responses to the adjuvanted recombinant zoster vaccine for 10 years following initial vaccination. <em>J Infect Dis.</em> 2022;226(10):1753&ndash;1762. doi:10.1093/infdis/jiac177</li>
-    </ol>
-  </div>
-
-</div>
-
-<footer>
-  <p>Human Engineering &mdash; Open knowledge atlas at <a href="https://equalinformation.com/human">equalinformation.com/human</a>.<br>
-  Contact: <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-  <p style="margin-top:.6rem">This page is maintained with AI assistance. Content is reviewed for accuracy but may contain errors. <strong>Not medical advice.</strong> For research and educational use only.</p>
-  <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
-</footer>
-
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -62,6 +62,9 @@ cross_links:
     relation: treated-by
     evidence: openstax-anatomy-19-1
     note: "EPA/DHA reduce cardiovascular mortality; REDUCE-IT trial showed icosapentaenoic acid 4 g/day reduced major cardiovascular events by 25% in statin-treated high-risk patients"
+  - target: 02-pathogen/01-viruses/coxsackievirus-b
+    relation: damaged-by
+    note: "Coxsackievirus B (CVB3/B5) is the leading infectious cause of acute myocarditis; viral protease 2A^pro cleaves dystrophin → sarcolemmal disruption and DCM-like phenotype; ~30% of severe CVB myocarditis progresses to dilated cardiomyopathy and heart failure."
 taxonomy:
   uberon: "UBERON:0000948"
   fma: "FMA:7088"
@@ -138,7 +141,7 @@ Cardiac output (CO = HR × SV) is tuned moment-to-moment by:
 
 - **Down (constituent tissue):** the heart `contains` the **[myocardium](../../05-tissue/myocardium/README.md)** — and, in entries to come, the endocardium, epicardium, valve tissue, and the conduction-system tissue.
 - **Up (containing system):** the heart is `part-of` the **[cardiovascular system](../../07-system/cardiovascular-system/README.md)**, which integrates the heart with the systemic and pulmonary vasculature and the blood itself.
-- **Cross-atlas (planned in Phase 3):** entries in the Pathogen Atlas and Medicine Atlas will link into the heart at the appropriate scale — for example, **Coxsackievirus B** damages the heart at the cellular scale (cardiomyocyte cytolysis) and **metoprolol** modulates the heart at the molecular scale (β1-adrenergic blockade).
+- `damaged-by` → **[Coxsackievirus B](../../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — CVB3/B5 is the leading infectious cause of acute myocarditis; protease 2A^pro cleaves dystrophin → sarcolemmal disruption and DCM-like phenotype; ~30% of severe CVB myocarditis progresses to dilated cardiomyopathy and heart failure.
 
 ## Pathology
 

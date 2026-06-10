@@ -50,6 +50,12 @@ cross_links:
     relation: immunizes-against
     evidence: weibel-1984-varivax
     note: "Varivax prevents primary varicella (chickenpox) — VZV infection in susceptible individuals; 2-dose series provides 98-100% protection against severe varicella and reduces breakthrough infections by 85-90%."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Varivax (Oka/Merck VZV) elicits CD4+ and CD8+ VZV-specific T cells and anti-gB/gE/gC IgG; 2-dose schedule achieves >99% seroconversion; VZV-specific T-cell immunity prevents shingles reactivation; subcutaneous injection drives limited viraemia and DC antigen presentation."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Anti-VZV IgG (FAMA titer ≥1:4) is the primary seroprotection correlate for Varivax; gB, gE, gC, and gH/gL are immunodominant targets; 2-dose schedule generates durable IgG titers detectable ≥20 years post-vaccination via bone marrow plasma cells."
 ---
 
 # Varivax
@@ -104,7 +110,12 @@ ACIP 2008: For dose 1 at 12–15 months, prefer giving MMR and Varivax as separa
 ## Connections
 
 - `immunizes-against` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Varivax prevents primary varicella infection (chickenpox); 2-dose schedule provides ~98-99% protection against disease; also reduces zoster risk by maintaining VZV-specific T-cell immunity.
+- `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — Varivax (Oka/Merck VZV) elicits CD4⁺ and CD8⁺ VZV-specific T cells and anti-gB/gE/gC IgG; 2-dose schedule achieves >99% seroconversion; VZV-specific T-cell immunity prevents shingles reactivation; subcutaneous injection drives limited viraemia and DC antigen presentation.
+- `connects-to` → **[Immunoglobulin G](../../../../01-human/03-molecular/immunoglobulin-g/README.md)** — Anti-VZV IgG (FAMA titer ≥1:4) is the primary seroprotection correlate for Varivax; gB, gE, gC, and gH/gL are immunodominant targets; 2-dose schedule generates durable IgG titers detectable ≥20 years post-vaccination via bone marrow plasma cells.
 
 [^weibel-1984-varivax]: Weibel RE, Neff BJ, Kuter BJ, et al. Live attenuated varicella virus vaccine: efficacy trial in healthy children. *N Engl J Med.* 1984;310(22):1409-1415. [doi:10.1056/NEJM198405313102201](https://doi.org/10.1056/NEJM198405313102201) · [PubMed 6325883](https://pubmed.ncbi.nlm.nih.gov/6325883/)
 [^vazquez-1996-varivax-efficacy]: Vazquez M, LaRussa PS, Gershon AA, et al. The effectiveness of the varicella vaccine in clinical practice. *N Engl J Med.* 2001;344(13):955-960. [doi:10.1056/NEJM200103293441302](https://doi.org/10.1056/NEJM200103293441302) · [PubMed 11274621](https://pubmed.ncbi.nlm.nih.gov/11274621/)
 [^marin-2007-2dose-acip]: Marin M, Güris D, Chaves SS, Schmid S, Seward JF. Prevention of varicella: recommendations of the ACIP. *MMWR Recomm Rep.* 2007;56(RR-4):1-40. [PubMed 17585291](https://pubmed.ncbi.nlm.nih.gov/17585291/)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
