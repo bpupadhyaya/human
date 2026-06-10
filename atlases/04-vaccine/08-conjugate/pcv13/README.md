@@ -77,6 +77,16 @@ cross_links:
     relation: immunizes-against
     evidence: pilishvili-2010-JID-pcv7-impact
     note: ">80% reduction in vaccine-type invasive pneumococcal disease in children <5 after universal PCV introduction; herd protection extends to unvaccinated elderly."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "PCV13 generates T-cell-dependent anti-capsular polysaccharide IgG via CRM197 conjugation; opsonophagocytic IgG ≥0.35 μg/mL (ELISA) or OPKA ≥1:8 correlates with protection; second-dose boosting (vs. PPSV23 hyporesponsiveness) confirms TD mechanism."
+  - target: 01-human/07-system/respiratory-system
+    relation: prevents
+    evidence: mahon-2019-NEJM-CAPITA
+    note: "CAPiTA trial (N=84,496): PCV13 achieved 45.6% VE against vaccine-type community-acquired pneumonia in adults ≥65; 75% VE against vaccine-type invasive pneumococcal disease; first RCT demonstrating pneumococcal vaccine prevents pneumonia in elderly adults."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "CRM197 conjugation converts T-independent (TI-2) CPS antigen to T-dependent; triggers germinal center reaction, affinity maturation, class-switch to IgG2/IgG1; enables infant immunization from 6 weeks; herd protection via carriage reduction extends to unvaccinated elderly."
 ---
 
 # PCV13 (Prevnar 13)
@@ -226,7 +236,10 @@ Repeated high doses of CRM197 across multiple conjugate vaccines (Hib, meningoco
 
 ## Connections
 
-- **Immunizes against** → [`02-pathogen/02-bacteria/streptococcus-pneumoniae`](../../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md) — 13 capsular serotypes; >80% reduction in vaccine-type IPD in children
+- `immunizes-against` → **[Streptococcus pneumoniae](../../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — 13 capsular serotypes; >80% reduction in vaccine-type IPD in children <5; herd protection extends to unvaccinated elderly.
+- `connects-to` → **[Immunoglobulin G](../../../../01-human/03-molecular/immunoglobulin-g/README.md)** — PCV13 generates T-cell-dependent anti-capsular polysaccharide IgG via CRM197 conjugation; OPKA ≥1:8 or anti-CPS IgG ≥0.35 μg/mL is the seroprotection threshold; memory B cells and LLPCs sustain titers vs. PPSV23 hyporesponsiveness.
+- `prevents` → **[Respiratory System](../../../../01-human/07-system/respiratory-system/README.md)** — CAPiTA trial (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type community-acquired pneumonia and 75% VE against invasive pneumococcal disease; first RCT demonstrating pneumococcal vaccine prevents pneumonia in the elderly.
+- `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — CRM197 conjugation converts T-independent (TI-2) CPS antigen to T-dependent; triggers germinal center reaction, affinity maturation, class-switch to IgG2/IgG1; enables infant immunization from 6 weeks; herd protection via carriage reduction extends to unvaccinated elderly.
 - **Platform evolution** → PCV7 (Prevnar, 2000) → PCV13 (Prevnar 13, 2010) → PCV15/PCV20 (2021–2023); each expansion driven by serotype replacement epidemiology
 - **Platform contrast** → PPSV23 (Pneumovax23) — 23-valent plain polysaccharide; TI-2 response; no infant efficacy; no memory; recommended in adults as complementary to PCV; herd protection not conferred
 - **Conjugation platform comparison** → Hib conjugate (HbOC, PRP-T, PRP-OMP); meningococcal conjugate (MenACWY-CRM, MenB-FHbp) — all use CRM197 or other protein carriers; PCV13 is the most complex conjugate vaccine in terms of valency
@@ -235,3 +248,6 @@ Repeated high doses of CRM197 across multiple conjugate vaccines (Hib, meningoco
 ---
 
 **[← Platform 08 (Conjugate)](../README.md)** · **[← Vaccine Atlas](../../README.md)** · **[Schema](../../../../schemas/vaccine-entry.schema.md)**
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

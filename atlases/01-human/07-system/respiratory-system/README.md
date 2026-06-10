@@ -60,6 +60,9 @@ cross_links:
   - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
     relation: damaged-by
     note: "Damaged by Pneumocystis jirovecii (formerly carinii)."
+  - target: 03-medicine/01-modern/05-antiviral/oseltamivir
+    relation: treated-by
+    note: "Oseltamivir reduces influenza A/B symptom duration by ~17 hours (Dobson meta-analysis, Lancet 2015); reduces hospitalization in high-risk patients (elderly, immunocompromised, pregnant); must be started within 48h of symptom onset for maximal benefit."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -161,6 +164,8 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Part-of** → [Human body](../../08-whole-body/human-body/README.md): The respiratory system is one of eleven major organ systems, interdependent with all others — cardiovascular, nervous, endocrine, immune.
 - **Connects-to** → [Cardiovascular system](../../07-system/cardiovascular-system/README.md): The pulmonary circuit is the anatomical link: deoxygenated blood from the right heart passes through pulmonary capillaries for gas exchange, then oxygenated blood returns to the left heart for systemic distribution. The two systems share the alveolar-capillary interface and cannot be studied or treated in isolation.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
+- **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
+- `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
 
@@ -184,3 +189,6 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 [^west-respiratory-physiology]: West JB, Luks AM. *West's Respiratory Physiology: The Essentials.* 10th ed. Wolters Kluwer; 2016. [lww.com/Product/9781496310118](https://www.lww.com/Product/9781496310118)
 [^weibel-2017-alveolar-dimensions]: Weibel ER. Lung morphometry: the link between structure and function. *Cell Tissue Res.* 2017;367(3):413-26. [doi:10.1007/s00441-016-2541-4](https://doi.org/10.1007/s00441-016-2541-4) · [PubMed 27981371](https://pubmed.ncbi.nlm.nih.gov/27981371/)
 [^openstax-anatomy-ch22]: OpenStax. *Anatomy & Physiology 2e*, Ch. 22: The Respiratory System. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction)
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

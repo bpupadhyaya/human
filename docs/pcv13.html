@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="PCV13 (Prevnar 13) — 13-valent pneumococcal conjugate vaccine. CRM197 carrier protein, T-cell-dependent immunity, CAPiTA trial, serotype replacement. Human Engineering project.">
-  <meta property="og:title" content="PCV13 (Prevnar 13) — Vaccine Atlas · Human Engineering">
+  <meta name="description" content="13-valent pneumococcal conjugate vaccine (Prevnar 13); CPS from 13 S. pneumoniae serotypes conjugated to CRM197 toxoid. Enables T-cell-dependent infant immuniza">
+  <meta property="og:title" content="PCV13 (Prevnar 13) — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>PCV13 (Prevnar 13) — Vaccine Atlas · Human Engineering</title>
+  <title>PCV13 (Prevnar 13) — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,59 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #1d4ed8, #1e3a8a); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-    .trial-result { font-weight: 700; color: var(--bio); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -109,239 +110,78 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="vaccines.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Vaccines
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Four &middot; Vaccine Atlas &middot; Platform 08 &middot; Conjugate</div>
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 08-conjugate</div>
     <h1>PCV13 (Prevnar 13)</h1>
-    <p class="tagline">13-valent pneumococcal conjugate vaccine — polysaccharide capsular antigens from 13 <em>Streptococcus pneumoniae</em> serotypes individually conjugated to the CRM197 carrier protein, converting T-independent polysaccharide into T-cell-dependent vaccine antigen.</p>
-    <p class="subtagline">Pfizer (formerly Wyeth) &middot; Licensed 2010 (pediatric) &middot; CAPiTA trial: 75% VE vs. IPD &middot; &gt;80% reduction in vaccine-type IPD in children after universal vaccination &middot; Herd protection extends to unvaccinated elderly</p>
+    <p class="tagline">13-valent pneumococcal conjugate vaccine (Prevnar 13); CPS from 13 S. pneumoniae serotypes conjugated to CRM197 toxoid. Enables T-cell-dependent infant immunization with memory. Reduced invasive pneumococcal disease &gt;80% in children &lt;5.</p>
+    
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">&gt;80%</span><span class="stat-label">Reduction in Vaccine-Type IPD (Children)</span></div>
-      <div class="stat"><span class="stat-num">75%</span><span class="stat-label">VE vs. IPD (CAPiTA, Adults &ge;65)</span></div>
-      <div class="stat"><span class="stat-num">13</span><span class="stat-label">Serotypes Covered</span></div>
-      <div class="stat"><span class="stat-num">2010</span><span class="stat-label">FDA Approval (Pediatric)</span></div>
+        <div class="stat"><span class="stat-num">08-conjugate</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">intramuscular</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">2–8°C; do not freeze (freezing denatures protein-polysaccharide conjugate)</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Vaccine Atlas &middot; Conjugate &middot; Pneumococcal</div>
-        <h2>PCV13 &mdash; Prevnar 13</h2>
-        <div class="drug-class">Platform: Polysaccharide-protein conjugate (CRM197) &nbsp;|&nbsp; Route: IM &nbsp;|&nbsp; Manufacturer: Pfizer &nbsp;|&nbsp; Schedule: 3+1 (2, 4, 6 months + 12–15 months)</div>
-        <p class="summary">PCV13 contains capsular polysaccharide (CPS) antigens from 13 <em>Streptococcus pneumoniae</em> serotypes (1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 23F) individually conjugated to CRM197 — a non-toxic G52E diphtheria toxin mutant. Conjugation converts the T-cell-independent polysaccharide antigens to T-cell-dependent, enabling germinal center formation, affinity maturation, memory B-cell generation, and effective immunisation of infants. Replaced PCV7 (2010–2012) in most national programs, adding critical serotypes 3, 6A, and 19A (then dominant post-PCV7 replacement serotype). CAPiTA RCT (n=84,496): 75% VE against vaccine-type IPD in adults ≥65; first RCT demonstrating pneumococcal vaccine efficacy against pneumonia.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">Prevnar 13</span>
-          <span class="alias-pill">PCV13</span>
-          <span class="alias-pill">13vPnC</span>
-          <span class="alias-pill">Apexxnar (PCV20, successor)</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">pcv13</div>
+        <h2>PCV13 (Prevnar 13)</h2>
+        <p class="summary">13-valent pneumococcal conjugate vaccine (Prevnar 13); CPS from 13 S. pneumoniae serotypes conjugated to CRM197 toxoid. Enables T-cell-dependent infant immunization with memory. Reduced invasive pneumococcal disease &gt;80% in children &lt;5.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p><em>Streptococcus pneumoniae</em> encases itself in a polysaccharide capsule that is the primary virulence factor — resisting phagocytosis — and the principal target of protective antibodies. There are &gt;100 serotypes, defined by capsular polysaccharide chemistry. The <strong>13 serotypes</strong> in PCV13 (1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 23F) accounted for the majority of invasive pneumococcal disease (IPD — bacteraemia, meningitis, bacteraemic pneumonia) in the pre-vaccine era.</p>
-          <p>The key innovation of PCV13 versus earlier 23-valent polysaccharide vaccine (PPSV23 / Pneumovax) is <strong>conjugation to CRM197</strong>. Plain polysaccharides are T-cell-independent (TI-2) antigens — they cross-link B-cell receptors without T-cell help, generating limited affinity maturation, no long-lived memory B cells, and completely failing to immunise infants under 2 years (whose TI-2 B-cell signalling is immature). Conjugation to CRM197 recruits carrier-specific CD4&sup+ T-helper cells, enabling germinal center reactions, class-switch recombination, and robust immunological memory from 6 weeks of age.</p>
-          <p>The addition of <strong>serotype 19A</strong> over PCV7 was critically important — 19A had expanded dramatically through serotype replacement after PCV7 introduction, becoming the dominant invasive serotype in the US and Europe. PCV13's inclusion of 19A led to a measurable additional reduction in 19A IPD, validating the serotype expansion strategy.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Platform &amp; Conjugation Chemistry</h3>
-          <h4>From T-cell-independent to T-cell-dependent — the conjugate vaccine principle</h4>
-          <div class="pathway-block">
-<pre>
-  PLAIN POLYSACCHARIDE (PPSV23 — T-cell INDEPENDENT):
-  CPS → direct BCR cross-linking (TI-2)
-        │  No T-cell help required
-        │  Marginal zone B cells respond
-        ▼
-  IgM → limited IgG2 class-switch
-  No germinal center → no affinity maturation
-  No memory B cells → no booster response
-  Fails under age 2 → NOT usable in infants
-
-  POLYSACCHARIDE-PROTEIN CONJUGATE (PCV13 — T-cell DEPENDENT):
-  CPS–CRM197 conjugate → APC uptake
-        │
-        ├─ CPS binds BCR → B cell activated
-        │
-        └─ CRM197 processed via MHC II → CD4⁺ T helper
-                    │  CD40L · IL-4 · IL-21 costimulation
-                    ▼
-           Germinal center reaction
-                    │  Affinity maturation (somatic hypermutation)
-                    │  Class-switch: IgG1 / IgG2
-                    ▼
-           High-affinity anti-CPS IgG
-           Long-lived plasma cells (bone marrow)
-           Memory B cells (rapid re-call)
-           Effective from 6 weeks of age in infants
-
-  CRM197 CARRIER PROTEIN:
-  Non-toxic diphtheria toxin G52E point mutant
-  Highly immunogenic (prior diphtheria vaccination primes CRM197-specific T cells)
-  Produced in Corynebacterium diphtheriae or Pseudomonas fluorescens
-  Same carrier used in Hib-CRM197, MenACWY-CRM (Menveo)
-</pre>
-          </div>
-          <ol class="step-list" style="margin-top:1rem;">
-            <li><strong>13 individual conjugates:</strong> Each of the 13 pneumococcal CPS serotypes is individually grown from pneumococcal culture, purified, and separately conjugated to CRM197 via reductive amination chemistry. The 13 conjugates are then blended into the final formulation — the most complex conjugate vaccine manufacturing process of any licensed vaccine.</li>
-            <li><strong>Aluminium phosphate adjuvant:</strong> Adsorbed on aluminium phosphate (not aluminium hydroxide); enhances antigen uptake at injection site, activates NLRP3 inflammasome-mediated innate signalling (IL-1&beta;, IL-18), promotes DC maturation and migration to draining lymph nodes.</li>
-            <li><strong>Opsonophagocytic killing:</strong> Anti-CPS IgG opsonises pneumococci, enabling Fc-receptor-mediated phagocytosis by neutrophils and macrophages. The <strong>Opsonophagocytic Killing Assay (OPKA)</strong> is the functional correlate of protection (titre &ge;1:8; anti-CPS IgG &ge;0.35 &micro;g/mL by ELISA).</li>
-            <li><strong>Herd protection:</strong> PCV13 prevents nasopharyngeal carriage of vaccine-type pneumococci, interrupting transmission and creating herd protection for unvaccinated elderly and immunocompromised individuals — a critical indirect effect confirmed by US ABCs surveillance.</li>
-            <li><strong>Infant efficacy:</strong> Unlike PPSV23, PCV13 generates protective immunity from 6 weeks of age via the T-cell-dependent mechanism — the primary public health advantage, since the highest-risk period for IPD is the first 2 years of life.</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Immunogenicity</h3>
-          <div class="pleiotropic-grid">
-            <div class="pleio-item">
-              <h4>Anti-CPS IgG (Primary)</h4>
-              <p>Type-specific anti-capsular polysaccharide IgG is the primary correlate of protection. Threshold: &ge;0.35 &micro;g/mL (ELISA) or &ge;1:8 OPKA titre. High-affinity IgG1 and IgG2 generated after germinal center reaction; affinity maturation driven by T-cell help from CRM197-primed CD4&sup+ cells.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Opsonophagocytic Function</h4>
-              <p>OPKA titre is the most clinically relevant functional measure — tests whether anti-CPS antibodies enable neutrophil-mediated killing of pneumococci in vitro. Higher OPKA titres correlate with protection against IPD. PCV13 OPKA responses exceed PPSV23 for all 7 shared serotypes in infants; similar in adults.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Memory B Cells &amp; Durability</h4>
-              <p>Germinal center-derived memory B cells persist for years after PCV13 primary series; robust anamnestic (booster) response on re-exposure or booster dose. Contrast with PPSV23: repeat dosing causes hyporesponsiveness (tolerance), not boosting. PCV13 booster (PCV20 or PPSV23 after PCV13) gives additive coverage without hyporesponsiveness.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>T-Cell Responses</h4>
-              <p>CRM197-specific CD4&sup+ T cells are primed by PCV13; these cells provide carrier-mediated T-cell help for anti-CPS B cells. Prior diphtheria vaccination (universal) pre-primes CRM197-specific T cells, potentially enhancing conjugate responses. Antigen-specific pneumococcal T cells contribute to memory maintenance but are not the primary protective correlate.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Clinical Efficacy</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Study</th><th>Design</th><th>n</th><th>Endpoint</th><th>VE</th></tr>
-            <tr>
-              <td><strong>US ABCs Surveillance (Pilishvili 2010)</strong></td>
-              <td>Active Bacterial Core surveillance; pre/post PCV7 then PCV13</td>
-              <td>Population-wide</td>
-              <td>Vaccine-type IPD, children &lt;5</td>
-              <td class="trial-result">&gt;80% reduction</td>
-            </tr>
-            <tr>
-              <td><strong>CAPiTA RCT (Bonten, NEJM 2015)</strong></td>
-              <td>RCT, double-blind, placebo-controlled; adults &ge;65, Netherlands</td>
-              <td>84,496</td>
-              <td>Vaccine-type community-acquired pneumonia</td>
-              <td class="trial-result">45.6% (95% CI 21.8–62.5%)</td>
-            </tr>
-            <tr>
-              <td><strong>CAPiTA — IPD endpoint</strong></td>
-              <td>Same RCT</td>
-              <td>84,496</td>
-              <td>Vaccine-type invasive pneumococcal disease</td>
-              <td class="trial-result">75.0% (95% CI 41.4–91.0%)</td>
-            </tr>
-            <tr>
-              <td><strong>Herd protection (US elderly, unvaccinated)</strong></td>
-              <td>ABCs passive surveillance; adults &ge;65 before adult recommendation</td>
-              <td>Population-wide</td>
-              <td>PCV13-type IPD in unvaccinated elderly</td>
-              <td class="trial-result">&gt;70% reduction (attributable to pediatric vaccination)</td>
-            </tr>
-            <tr>
-              <td><strong>Canadian IMPACT (Kellner 2009)</strong></td>
-              <td>Active surveillance; PCV7 era; informs PCV13 serotype extrapolation</td>
-              <td>Children &lt;16</td>
-              <td>PCV7-type IPD</td>
-              <td class="trial-result">&gt;80% within 3 years of universal recommendation</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>pcv13</td></tr>
+            <tr><td>Name</td><td>PCV13 (Prevnar 13)</td></tr>
+            <tr><td>Status</td><td>active</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Platform</td><td>08-conjugate</td></tr>
+            <tr><td>Delivery system</td><td>protein-polysaccharide conjugate in aluminium phosphate adjuvant</td></tr>
+            <tr><td>Adjuvants</td><td>aluminium phosphate</td></tr>
+            <tr><td>Route</td><td>intramuscular</td></tr>
+            <tr><td>Dose schedule</td><td>3+1 schedule (doses at 2, 4, 6 months + booster at 12–15 months); 2+1 acceptable in some programs</td></tr>
+            <tr><td>Manufacturer</td><td>Pfizer (formerly Wyeth)</td></tr>
+            <tr><td>Cold chain</td><td>2–8°C; do not freeze (freezing denatures protein-polysaccharide conjugate)</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Pneumococcal Conjugate Vaccine Evolution</h3>
-          <table class="data-table">
-            <tr><th>Vaccine</th><th>Serotypes</th><th>Licensed</th><th>Key Development</th></tr>
-            <tr>
-              <td><strong>PCV7 (Prevnar)</strong></td>
-              <td>4, 6B, 9V, 14, 18C, 19F, 23F</td>
-              <td>2000 (US)</td>
-              <td>Proof of principle for conjugate pneumococcal vaccine; serotype replacement followed</td>
-            </tr>
-            <tr>
-              <td><strong>PCV10 (Synflorix)</strong></td>
-              <td>PCV7 + 1, 5, 7F</td>
-              <td>2009 (EU)</td>
-              <td>GSK; expanded LMIC coverage; carrier: protein D + TT + DT</td>
-            </tr>
-            <tr>
-              <td><strong>PCV13 (Prevnar 13)</strong></td>
-              <td>PCV10 + 3, 6A, 19A</td>
-              <td>2010 (US)</td>
-              <td>Added 19A (dominant post-PCV7 replacement serotype) — CRM197 carrier</td>
-            </tr>
-            <tr>
-              <td><strong>PCV15 (Vaxneuvance)</strong></td>
-              <td>PCV13 + 22F, 33F</td>
-              <td>2021 (US)</td>
-              <td>Merck; broader adult coverage; aluminium phosphate adjuvant</td>
-            </tr>
-            <tr>
-              <td><strong>PCV20 (Prevnar 20 / Apexxnar)</strong></td>
-              <td>PCV13 + 8, 10A, 11A, 12F, 15B</td>
-              <td>2021 (US)</td>
-              <td>Pfizer; broadest coverage; adult indication; may replace sequential PCV13+PPSV23</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Safety Profile</h3>
-          <ul class="se-list">
-            <li><span class="badge badge-mod">Very Common</span> <strong>Injection-site reactions</strong> — pain, redness, swelling in &gt;60% of doses. Alum depot; resolves 24–48 hours. Warm compress as needed. More pronounced in adults than infants.</li>
-            <li><span class="badge badge-mod">Common</span> <strong>Fever, irritability, drowsiness (infants)</strong> — low-grade fever (&lt;38.5 &deg;C) in ~25–40% of infant doses; irritability and drowsiness common; resolve within 24–48 hours.</li>
-            <li><span class="badge badge-lo">Very Rare</span> <strong>Febrile seizure</strong> — marginally elevated risk (~1:3,000) when co-administered with some inactivated influenza vaccines in children; not observed at elevated rates with standard EPI co-administration (DTaP, Hib, IPV, HepB).</li>
-            <li><span class="badge badge-lo">Very Rare</span> <strong>Anaphylaxis</strong> — &lt;1 per million doses. No association with: autism, SIDS, asthma, atopy, Crohn's disease, or autoimmune disorders.</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="pathogens.html" class="conn-pill targets">
-              <span class="rel">Immunizes vs.</span>
-              Streptococcus pneumoniae
-            </a>
-            <a href="immune-system.html" class="conn-pill">
-              <span class="rel">Elicits</span>
-              T-Cell-Dependent B-Cell Response
-            </a>
-            <a href="tetanus-toxoid.html" class="conn-pill acts">
-              <span class="rel">Carrier Protein</span>
-              CRM197 (diphtheria toxin mutant)
-            </a>
-            <a href="gardasil-9.html" class="conn-pill acts">
-              <span class="rel">Platform Comparison</span>
-              Gardasil-9 (VLP conjugate)
-            </a>
+            <a class="conn-pill" href="streptococcus-pneumoniae.html" title="&gt;80% reduction in vaccine-type invasive pneumococcal disease in children &lt;5 after universal PCV introduction; herd protection extends to unvaccinated elderly."><span class="rel">immunizes-against</span>Streptococcus Pneumoniae</a>
+            <a class="conn-pill" href="immunoglobulin-g.html" title="PCV13 generates T-cell-dependent anti-capsular polysaccharide IgG via CRM197 conjugation; opsonophagocytic IgG ≥0.35 μg/mL (ELISA) or OPKA ≥1:8 correlates with protection; second-dose boosting (vs. PPSV23 hyporesponsiveness) confirms TD mechanism."><span class="rel">connects-to</span>Immunoglobulin G</a>
+            <a class="conn-pill" href="respiratory-system.html" title="CAPiTA trial (N=84,496): PCV13 achieved 45.6% VE against vaccine-type community-acquired pneumonia in adults ≥65; 75% VE against vaccine-type invasive pneumococcal disease; first RCT demonstrating pneumococcal vaccine prevents pneumonia in elderly adults."><span class="rel">prevents</span>Respiratory System</a>
+            <a class="conn-pill" href="immune-system.html" title="CRM197 conjugation converts T-independent (TI-2) CPS antigen to T-dependent; triggers germinal center reaction, affinity maturation, class-switch to IgG2/IgG1; enables infant immunization from 6 weeks; herd protection via carriage reduction extends to unvaccinated elderly."><span class="rel">connects-to</span>Immune System</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Bonten MJM, Huijts SM, Bolkenbaas M, et al. Polysaccharide Conjugate Vaccine against Pneumococcal Pneumonia in Adults. <em>N Engl J Med.</em> 2015;372(12):1114-1125. <a href="https://doi.org/10.1056/NEJMoa1408544" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMoa1408544</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25785969/" target="_blank" rel="noopener noreferrer">PMID 25785969</a> — CAPiTA trial</li>
-            <li>Pilishvili T, Lexau C, Farley MM, et al. Sustained Reductions in Invasive Pneumococcal Disease in the Era of Conjugate Vaccine. <em>J Infect Dis.</em> 2010;201(1):32-41. <a href="https://doi.org/10.1086/648593" target="_blank" rel="noopener noreferrer">doi:10.1086/648593</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19947881/" target="_blank" rel="noopener noreferrer">PMID 19947881</a></li>
-            <li>Kellner JD, et al. Changing epidemiology of invasive pneumococcal disease in Canada after the introduction of the 7-valent conjugate vaccine. <em>CMAJ.</em> 2009;180(2):E28-E37. <a href="https://doi.org/10.1503/cmaj.081499" target="_blank" rel="noopener noreferrer">doi:10.1503/cmaj.081499</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19153394/" target="_blank" rel="noopener noreferrer">PMID 19153394</a> — Canadian IMPACT</li>
-            <li>Pfizer. Prevnar 13 (pneumococcal 13-valent conjugate vaccine) package insert. Philadelphia, PA: Pfizer Inc; 2023. <a href="https://www.fda.gov/vaccines-blood-biologics/vaccines/prevnar-13" target="_blank" rel="noopener noreferrer">FDA label</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1408544" target="_blank" rel="noopener noreferrer">Bonten MJM, Huijts SM, Bolkenbaas M, et al. Polysaccharide Conjugate Vaccine against Pneumococcal Pneumonia in Adults. N Engl J Med. 2015;372(12):1114-1125.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/25785969/" target="_blank" rel="noopener noreferrer">PubMed 25785969</a></li>
+            <li><a href="https://doi.org/10.1503/cmaj.081499" target="_blank" rel="noopener noreferrer">Kellner JD, Vanderkooi OG, MacDonald J, Church DL, Tyrrell GJ, Scheifele DW. Changing epidemiology of invasive pneumococcal disease in Canada after the introduction of the 7-valent conjugate vaccine. CMAJ. 2009;180(2):E28-E37.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19153394/" target="_blank" rel="noopener noreferrer">PubMed 19153394</a></li>
+            <li><a href="https://doi.org/10.1086/648593" target="_blank" rel="noopener noreferrer">Pilishvili T, Lexau C, Farley MM, et al. Sustained Reductions in Invasive Pneumococcal Disease in the Era of Conjugate Vaccine. J Infect Dis. 2010;201(1):32-41.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/19947881/" target="_blank" rel="noopener noreferrer">PubMed 19947881</a></li>
+            <li><a href="https://www.fda.gov/vaccines-blood-biologics/vaccines/prevnar-13" target="_blank" rel="noopener noreferrer">Pfizer. Prevnar 13 (pneumococcal 13-valent conjugate vaccine) package insert. Philadelphia, PA: Pfizer Inc; 2023.</a></li>
           </ul>
         </div>
 
@@ -350,18 +190,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="vaccines.html">Vaccine Atlas</a>
-      <a href="pathogens.html">Pathogen Atlas</a>
-      <a href="tetanus-toxoid.html">Tetanus Toxoid</a>
-      <a href="gardasil-9.html">Gardasil-9</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

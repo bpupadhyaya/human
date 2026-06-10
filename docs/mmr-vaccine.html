@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MMR Vaccine (M-M-R II / Priorix) — combined live-attenuated measles, mumps, rubella vaccine. Edmonston, Jeryl Lynn, RA27/3 strains. Wakefield retraction, autism studies, herd immunity. Human Engineering project.">
-  <meta property="og:title" content="MMR Vaccine — Vaccine Atlas · Human Engineering">
+  <meta name="description" content="Live-attenuated measles-mumps-rubella vaccine. Two-dose schedule achieves &gt;97% seroconversion; 95% coverage required for measles herd immunity. Wakefield 1998 p">
+  <meta property="og:title" content="MMR Vaccine (M-M-R II / Priorix) — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>MMR Vaccine (M-M-R II / Priorix) — Vaccine Atlas · Human Engineering</title>
+  <title>MMR Vaccine (M-M-R II / Priorix) — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,64 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #d97706, #78350f); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-    .badge-hi { background: rgba(185,28,28,0.12); color: #b91c1c; }
-    .badge-mod { background: rgba(37,99,235,0.12); color: #2563eb; }
-    .badge-lo { background: rgba(110,110,115,0.12); color: var(--muted); }
-    .badge-retracted { background: rgba(239,68,68,0.15); color: #dc2626; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .pleiotropic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; }
-    @media (max-width: 640px) { .pleiotropic-grid { grid-template-columns: 1fr; } }
-    .pleio-item { background: var(--bg); border-radius: var(--radius-sm); padding: 0.85rem 1rem; border-left: 3px solid var(--accent); }
-    .pleio-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.25rem; margin-top: 0; }
-    .pleio-item p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin: 0; }
-    .trial-result { font-weight: 700; color: var(--bio); }
-    .se-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
-    .se-list li { font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .se-list li strong { color: var(--fg); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
-    .conn-pill.acts .rel { color: var(--eng); }
-    .fraud-box { background: rgba(239,68,68,0.06); border: 1px solid rgba(239,68,68,0.25); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; margin-top: 0.5rem; }
-    .fraud-box h4 { font-size: 0.9rem; font-weight: 700; color: #dc2626; margin-bottom: 0.6rem; margin-top: 0; }
-    .fraud-box p { font-size: 0.88rem; color: var(--fg-soft); margin-bottom: 0.4rem; line-height: 1.6; }
-    .fraud-box p:last-child { margin-bottom: 0; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -114,229 +110,79 @@
         <a href="index.html#mission">Mission</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
-        <a href="vaccines.html" class="nav-back">
+        <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-          Vaccines
+          Home
         </a>
       </div>
     </div>
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas Four &middot; Vaccine Atlas &middot; Platform 05 &middot; Live-Attenuated</div>
+    <div class="hero-eyebrow" style="background: rgba(8,145,178,0.1); color: #0891b2;">Atlas Four &middot; Vaccine Atlas &middot; Platform 05 — Live-Attenuated</div>
     <h1>MMR Vaccine (M-M-R II / Priorix)</h1>
-    <p class="tagline">Combined live-attenuated vaccine against measles (Edmonston B), mumps (Jeryl Lynn), and rubella (RA 27/3) — three separately propagated attenuated viruses lyophilized into a single dose.</p>
-    <p class="subtagline">Merck (M-M-R II) &middot; GSK (Priorix) &middot; First licensed 1971 &middot; &gt;97% seroconversion (2-dose) &middot; 95% coverage threshold for measles herd immunity &middot; Wakefield 1998 Lancet: RETRACTED 2010</p>
+    <p class="tagline">Live-attenuated measles-mumps-rubella vaccine. Two-dose schedule achieves &gt;97% seroconversion; 95% coverage required for measles herd immunity. Wakefield 1998 paper (retracted 2010) falsely linked MMR to autism — refuted by &gt;15 large cohort studies.</p>
+    
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">&gt;97%</span><span class="stat-label">Measles Seroconversion (2-dose)</span></div>
-      <div class="stat"><span class="stat-num">95%</span><span class="stat-label">Coverage for Measles Herd Immunity</span></div>
-      <div class="stat"><span class="stat-num">2000</span><span class="stat-label">Measles Eliminated (US)</span></div>
-      <div class="stat"><span class="stat-num">650K</span><span class="stat-label">Hviid 2019 Cohort — No ASD Link</span></div>
+        <div class="stat"><span class="stat-num">05 — Live-Attenuated</span><span class="stat-label">Platform</span></div>
+        <div class="stat"><span class="stat-num">subcutaneous</span><span class="stat-label">Route</span></div>
+        <div class="stat"><span class="stat-num">2–8°C (in dark); reconstituted vaccine must be used within 8 hours; discard unused reconstituted vaccine</span><span class="stat-label">Cold Chain</span></div>
+        <div class="stat"><span class="stat-num">active</span><span class="stat-label">Status</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Vaccine Atlas &middot; Live-Attenuated &middot; Triple Combination</div>
-        <h2>MMR Vaccine &mdash; M-M-R II / Priorix</h2>
-        <div class="drug-class">Platform: Three live-attenuated viruses (measles + mumps + rubella) &nbsp;|&nbsp; Route: Subcutaneous &nbsp;|&nbsp; Schedule: Dose 1 at 12–15 months; Dose 2 at 4–6 years</div>
-        <p class="summary">Triple live-attenuated combination vaccine containing independently developed, separately propagated attenuated strains: <strong>measles (Edmonston B / Schwarz-Moraten)</strong>, <strong>mumps (Jeryl Lynn B)</strong>, and <strong>rubella (RA 27/3)</strong>. First licensed in 1971; current M-M-R II formulation in 1978. Two-dose series achieves &gt;97% seroconversion for all three components. Measles eliminated from the US in 2000; congenital rubella syndrome eliminated from the Americas in 2015. The MMR-autism claim (Wakefield, <em>Lancet</em> 1998) was fraudulent; the paper was fully retracted in 2010. More than 15 large cohort studies including Hviid 2019 (n=650,172, RR=0.93) show <strong>no association between MMR and autism spectrum disorder</strong>.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">M-M-R II (Merck)</span>
-          <span class="alias-pill">Priorix (GSK)</span>
-          <span class="alias-pill">Tresivac (Serum Institute)</span>
-          <span class="alias-pill">MMRV (+ Oka VZV: ProQuad / Priorix-Tetra)</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #0891b2, #164e63);">
+        <div class="entry-eyebrow">mmr-vaccine</div>
+        <h2>MMR Vaccine (M-M-R II / Priorix)</h2>
+        <p class="summary">Live-attenuated measles-mumps-rubella vaccine. Two-dose schedule achieves &gt;97% seroconversion; 95% coverage required for measles herd immunity. Wakefield 1998 paper (retracted 2010) falsely linked MMR to autism — refuted by &gt;15 large cohort studies.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The MMR vaccine contains three live-attenuated viruses each with its own origin story:</p>
-          <p><strong>Measles (Edmonston B / Schwarz-Moraten):</strong> Wild measles virus isolated by John Enders and Thomas Peebles in 1954 from David Edmonston (Fay School, Massachusetts). The Edmonston strain was serially passaged through human kidney cells, amnion cells, and chick embryo fibroblasts over years to produce attenuated variants. Merck M-M-R II uses Edmonston B; Priorix uses the Schwarz or Moraten derivatives — related strains with slightly different passage histories but equivalent immunogenicity.</p>
-          <p><strong>Mumps (Jeryl Lynn B):</strong> Isolated by <strong>Maurice Hilleman</strong> in 1963 from his daughter Jeryl Lynn's throat swab during her mumps illness. Passaged in embryonated eggs and chick embryo fibroblast cells. The vaccine actually contains two genetic subpopulations (JL1 and JL2 at ~80:20 ratio). Jeryl Lynn remains the most widely used mumps strain globally with the strongest safety record.</p>
-          <p><strong>Rubella (RA 27/3):</strong> Developed by <strong>Stanley Plotkin</strong> at the Wistar Institute, Philadelphia, from a fetal specimen during the 1964–65 rubella pandemic (RA = Rubella Abortus; 27/3 = 27th specimen, 3rd passage), passaged in WI-38 human diploid cells. The 1964–65 pandemic caused &gt;11,000 fetal deaths and 20,000 infants born with congenital rubella syndrome (CRS) in the US alone. RA 27/3 replaced earlier rubella strains due to superior immunogenicity — high-titre IgG and mucosal sIgA against the E1 glycoprotein.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Platform &amp; Antigen Design</h3>
-          <h4>Attenuation and immunisation mechanism (three viruses, one dose)</h4>
-          <div class="pathway-block">
-<pre>
-  SUBCUTANEOUS INJECTION (MMR — 3 live-attenuated viruses)
-        │
-        ▼
-  Replication in local lymphoid tissue + draining lymph nodes
-  (limited viraemia; no clinical disease in immunocompetent hosts)
-        │
-        ├─ MEASLES (Edmonston B / Schwarz-Moraten)
-        │    Paramyxovirus; attenuated via loss of neurovirulence + reduced
-        │    lymphoid tropism; replicates in resp. epithelium + lymphoid tissue
-        │    Antigens: H (hemagglutinin), F (fusion protein), N (nucleoprotein)
-        │    → Th1-biased CD4⁺ + CD8⁺ CTL + anti-H/F neutralising IgG
-        │
-        ├─ MUMPS (Jeryl Lynn B)
-        │    Paramyxovirus; reduced parotid + neural tropism
-        │    Antigens: HN (hemagglutinin-neuraminidase), F protein
-        │    → Anti-HN/F neutralising IgG + cellular immunity
-        │
-        └─ RUBELLA (RA 27/3)
-             Togavirus; replicates in pharyngeal lymphoid tissue + nodes
-             Antigens: E1 (envelope glycoprotein — primary neutralisation target)
-             → Anti-E1 IgG + sIgA; rubella IgG ≥15 IU/mL protective vs. CRS
-
-  Three components replicate at similar kinetics;
-  viral interference between strains is minimal with standard dose ratios.
-
-  Memory formation (all three):
-        Germinal center → affinity maturation → high-affinity IgG
-        CD8⁺ memory CTL (especially measles — CD8 critical for viral clearance)
-        Memory B cells (decades of persistence)
-        Long-lived plasma cells → sustained serum Ab titres
-</pre>
-          </div>
-          <ol class="step-list" style="margin-top:1rem;">
-            <li><strong>Manufacturing:</strong> Each virus is independently propagated in cell culture (chick embryo fibroblasts for measles and mumps; WI-38 or MRC-5 human diploid cells for rubella); clarified and concentrated separately; quality-controlled for titer, identity, sterility, and absence of adventitious agents.</li>
-            <li><strong>Lyophilization:</strong> The three viral bulks are blended with stabiliser (sorbitol, hydrolyzed gelatin, mannitol) and lyophilized (freeze-dried) into powder; this extends shelf life and allows reconstitution immediately before use.</li>
-            <li><strong>Subcutaneous injection:</strong> Reconstituted with supplied diluent; 0.5 mL SC (not IM); outer upper arm or anterolateral thigh; SC avoids muscle inflammation and maximises lymphoid uptake via draining axillary/inguinal lymph nodes.</li>
-            <li><strong>Replication and antigen presentation:</strong> Attenuated viruses undergo limited replication for 5–14 days post-injection; sustained antigen presentation to DCs → MHC I (CD8&sup+ CTL) and MHC II (CD4&sup+ T helper) → germinal centers in draining lymph nodes.</li>
-            <li><strong>Protective immunity:</strong> Neutralising IgG against measles H/F proteins, mumps HN/F proteins, and rubella E1 glycoprotein; CD8&sup+ CTL memory (critical for measles clearance); CD4&sup+ Th1/Th2 memory providing B-cell help on re-encounter.</li>
-          </ol>
-        </div>
-
-        <div class="detail-section">
-          <h3>Immunogenicity &amp; Herd Immunity</h3>
-          <div class="pleiotropic-grid">
-            <div class="pleio-item">
-              <h4>Measles — Neutralising IgG</h4>
-              <p>Anti-measles IgG (anti-H + anti-F) &ge;120 mIU/mL (ELISA) correlates with protection; &ge;1:8 PRNT. Dose 1: 90–95% seroconversion; Dose 2: &gt;97%. CD8&sup+ CTL memory is critical for viral clearance — measles drives strong Th1 + CTL responses. Memory persists for decades.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Mumps — Serological Response</h4>
-              <p>Anti-mumps neutralising Ab &ge;1:4 (approximate protective threshold; no WHO standard). Dose 1: 85–95% seroconversion; Dose 2: &gt;90%. Mumps provides the most modest protection of the three components; waning immunity has contributed to mumps outbreaks in highly vaccinated college populations.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Rubella — Anti-E1 IgG</h4>
-              <p>Anti-rubella IgG &ge;10 IU/mL (HAI or ELISA) for CRS protection; &ge;15 IU/mL (WHO recommendation). Dose 1: 95–99%; Dose 2: ~99%. RA 27/3 also induces mucosal sIgA — may explain superior protection vs. earlier rubella strains. Immunity durable; CRS eliminated from vaccinated populations.</p>
-            </div>
-            <div class="pleio-item">
-              <h4>Herd Immunity — Measles (R<sub>0</sub> = 12–18)</h4>
-              <p>Measles R<sub>0</sub> is 12–18 — one of the highest of any human pathogen. Herd immunity threshold: <strong>≥95% population immunity</strong>. Even pockets of 85–90% coverage can sustain transmission. The 2019 US outbreak (1,282 cases, largest since 1992) occurred in communities with coverage below 95% following Wakefield-driven hesitancy.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Clinical Efficacy</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Endpoint</th><th>Design / Source</th><th>Outcome</th></tr>
-            <tr>
-              <td><strong>Measles seroconversion (2-dose)</strong></td>
-              <td>Multiple immunogenicity RCTs</td>
-              <td class="trial-result">&gt;97%; measles US eliminated 2000</td>
-            </tr>
-            <tr>
-              <td><strong>Mumps VE (2-dose)</strong></td>
-              <td>Case-control studies, US outbreak investigations</td>
-              <td class="trial-result">85–92% against clinical mumps disease</td>
-            </tr>
-            <tr>
-              <td><strong>Rubella seroconversion</strong></td>
-              <td>Multiple RCTs</td>
-              <td class="trial-result">99%; CRS eliminated Americas 2015</td>
-            </tr>
-            <tr>
-              <td><strong>CRS prevention — US</strong></td>
-              <td>National surveillance pre/post MMR</td>
-              <td class="trial-result">0–9 CRS cases/year (all imported or unvaccinated) vs. 20,000 in 1964–65 pandemic</td>
-            </tr>
-            <tr>
-              <td><strong>Measles mortality reduction, global</strong></td>
-              <td>WHO surveillance, 1980–2023</td>
-              <td class="trial-result">&gt;99% reduction in mortality in regions with &ge;95% coverage</td>
-            </tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>mmr-vaccine</td></tr>
+            <tr><td>Name</td><td>MMR Vaccine (M-M-R II / Priorix)</td></tr>
+            <tr><td>Status</td><td>active</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-06</td></tr>
+            <tr><td>Platform</td><td>05 — Live-Attenuated</td></tr>
+            <tr><td>Delivery system</td><td>lyophilized live attenuated viruses</td></tr>
+            <tr><td>Adjuvants</td><td>None</td></tr>
+            <tr><td>Route</td><td>subcutaneous</td></tr>
+            <tr><td>Dose schedule</td><td>Dose 1: 12–15 months; Dose 2: 4–6 years. Minimum interval: 4 weeks between doses.</td></tr>
+            <tr><td>Manufacturer</td><td>Merck (M-M-R II); GSK (Priorix); Serum Institute of India (Tresivac); sanofi (discontinued)</td></tr>
+            <tr><td>Cold chain</td><td>2–8°C (in dark); reconstituted vaccine must be used within 8 hours; discard unused reconstituted vaccine</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>The Wakefield Fraud — Scientific Record</h3>
-          <div class="fraud-box">
-            <h4>Wakefield 1998 Lancet: RETRACTED February 2010</h4>
-            <p>In February 1998, Andrew Wakefield et al. published a case series in <em>The Lancet</em> (n=12 children) claiming MMR vaccination caused bowel inflammation leading to autism. The paper was <strong>fraudulent</strong>:</p>
-            <p><strong>Data fabrication:</strong> Investigative journalist Brian Deer demonstrated through medical records that Wakefield misrepresented 11 of the 12 children's clinical data — altering dates of symptom onset, diagnoses, and clinical findings to create a false temporal association with MMR.</p>
-            <p><strong>Undisclosed conflicts:</strong> Wakefield had received £55,000 (equivalent to ~£450,000 today) from plaintiff attorneys seeking evidence against vaccine manufacturers, without disclosing this to <em>The Lancet</em> or co-authors.</p>
-            <p><strong>Ethics violations:</strong> The lumbar punctures and colonoscopies performed on the children were not clinically indicated and lacked proper ethical approval.</p>
-            <p>The Lancet issued a <strong>full retraction on February 2, 2010</strong>. The UK General Medical Council struck Wakefield from the medical register on May 24, 2010 (findings of serious professional misconduct). The BMJ published Deer's full investigation in 2011, calling it an "elaborate fraud."</p>
-            <p><strong>The scientific evidence:</strong> More than 15 large epidemiological studies involving &gt;1.5 million children have found no association between MMR and autism. The 2019 Danish cohort (Hviid et al., <em>Ann Intern Med</em>, n=650,172) — the definitive study — found RR=0.93 (95% CI 0.85–1.02) for autism among vaccinated vs. unvaccinated children: no increased risk.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Safety Profile</h3>
-          <ul class="se-list">
-            <li><span class="badge badge-mod">Common</span> <strong>Low-grade fever + mild measles-like rash</strong> — Fever in 5–15% at days 5–12 post-dose (measles component replication); transient maculopapular rash in ~5%. Not contagious. Self-limiting &lt;3 days.</li>
-            <li><span class="badge badge-mod">Common (adult women)</span> <strong>Rubella arthralgia / arthritis</strong> — Transient joint pain and stiffness in 10–25% of post-pubertal women (RA 27/3 rubella component); onset days 10–21; resolves &lt;1 week; no long-term joint sequelae.</li>
-            <li><span class="badge badge-mod">Uncommon</span> <strong>Immune thrombocytopenia (ITP)</strong> — Transient platelet reduction at ~1:30,000–40,000 doses; self-limiting (platelets typically &gt;50,000/&micro;L); treatment rarely needed; no chronic ITP attributable to MMR. The risk from wild measles infection (1:6,000) vastly exceeds vaccine-related risk.</li>
-            <li><span class="badge badge-mod">Uncommon</span> <strong>Febrile seizure</strong> — ~1:3,000 doses; associated with fever from measles component (days 5–12); no long-term neurological sequelae; higher with MMRV (~1:1,250) vs. MMR+V separately.</li>
-            <li><span class="badge badge-lo">Very Rare</span> <strong>Anaphylaxis</strong> — ~1–2 per million doses; gelatin or neomycin allergy most likely (not egg allergy — MMR is safe in egg-allergic individuals).</li>
-            <li><span class="badge badge-hi">Serious (immunocompromised)</span> <strong>Vaccine virus disease</strong> — Live viruses can cause severe progressive disease (measles inclusion body encephalitis, progressive rubella panencephalitis) in severely immunocompromised individuals. Contraindicated in SCID, hematologic malignancy with severe lymphopenia, high-dose immunosuppression.</li>
-            <li><span class="badge badge-lo">No association</span> <strong>Autism, IBD, Crohn's disease, SIDS, asthma, atopy</strong> — All definitively refuted by Cochrane review (57 studies), Hviid 2019 (n=650,172), and IOM 2011 causality review. Wild measles encephalitis (1:1,000 cases) and SSPE (1:25,000 cases; caused by persistent wild-type measles) are far more common and serious — MMR prevents both.</li>
-          </ul>
-        </div>
-
-        <div class="detail-section">
-          <h3>Administration</h3>
-          <table class="data-table">
-            <tr><th>Parameter</th><th>Details</th></tr>
-            <tr><td>Dose 1</td><td>12–15 months; 0.5 mL SC; outer upper arm (deltoid region) or anterolateral thigh</td></tr>
-            <tr><td>Dose 2</td><td>4–6 years (school entry); &ge;4 weeks minimum interval after dose 1 (catch-up)</td></tr>
-            <tr><td>Catch-up / outbreak</td><td>Any unvaccinated individual &ge;12 months may receive 2 doses &ge;4 weeks apart; 3rd dose recommended in outbreak settings for those with prior 2 doses</td></tr>
-            <tr><td>Storage</td><td>Lyophilized powder: 2–8&deg;C; protect from light (UV degrades live virus). Reconstituted vaccine: use within 8 hours at 2–8&deg;C in dark. Discard unused reconstituted vaccine. Do not freeze reconstituted vaccine.</td></tr>
-            <tr><td>Contraindications</td><td>Severe immunodeficiency (SCID, malignancy with severe lymphopenia, &gt;2 mg/kg/day prednisone &ge;14 days); pregnancy (avoid for 4 weeks post-MMR); prior anaphylaxis to MMR component. Egg allergy: NOT a contraindication.</td></tr>
-            <tr><td>Special situations</td><td>HIV: can receive if CD4 &ge;200/&micro;L; routine MMR in asymptomatic HIV. Post-exposure prophylaxis: MMR within 72h of measles exposure provides protection. Pregnant contacts: give MMR to non-immune contacts (not the pregnant person), provide measles IG if pregnant and unvaccinated.</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="pathogens.html" class="conn-pill targets">
-              <span class="rel">Immunizes vs.</span>
-              Measles Virus
-            </a>
-            <a href="pathogens.html" class="conn-pill targets">
-              <span class="rel">Immunizes vs.</span>
-              Mumps Virus
-            </a>
-            <a href="varicella-zoster-virus.html" class="conn-pill acts">
-              <span class="rel">MMRV Platform</span>
-              Varicella-Zoster Virus (Oka)
-            </a>
-            <a href="bcg.html" class="conn-pill acts">
-              <span class="rel">Platform Peer</span>
-              BCG (Live-Attenuated)
-            </a>
-            <a href="oral-polio-vaccine.html" class="conn-pill acts">
-              <span class="rel">Platform Peer</span>
-              OPV (Live-Attenuated Oral)
-            </a>
-            <a href="immune-system.html" class="conn-pill">
-              <span class="rel">Elicits</span>
-              Th1 + CD8 CTL + IgG Memory
-            </a>
+            <a class="conn-pill" href="measles-virus.html" title="Edmonston B or Schwarz/Moraten strain; 97%+ seroconversion after 2 doses; measles herd immunity threshold 95% coverage (R0=12–18)."><span class="rel">immunizes-against</span>Measles Virus</a>
+            <a class="conn-pill" href="varicella-zoster-virus.html" title="Both live-attenuated herpesvirus / paramyxovirus vaccines; both combined as MMRV (ProQuad / Priorix-Tetra) with VZV Oka strain; MMRV has slightly higher febrile seizure rate vs. MMR+V separately in first dose."><span class="rel">platform-peer</span>Varicella Zoster Virus</a>
+            <a class="conn-pill" href="immune-system.html" title="Live-attenuated MMR stimulates Th1-biased cellular immunity (CD8+ CTL + CD4+ Th1) and germinal center B-cell responses; mimics natural infection without sustained viraemia; generates more durable IgG than inactivated vaccines without adjuvant."><span class="rel">connects-to</span>Immune System</a>
+            <a class="conn-pill" href="immunoglobulin-g.html" title="Serum anti-measles/mumps/rubella IgG is the primary correlate of protection for all three MMR components; measles threshold ≥120 mIU/mL; rubella ≥10 IU/mL; second dose seroconversion &gt;97% for measles; IgG persists decades via bone marrow plasma cells."><span class="rel">connects-to</span>Immunoglobulin G</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hviid A, Hansen JV, Frisch M, Melbye M. Measles, Mumps, Rubella Vaccination and Autism: A Nationwide Cohort Study. <em>Ann Intern Med.</em> 2019;170(8):513-520. <a href="https://doi.org/10.7326/M18-2101" target="_blank" rel="noopener noreferrer">doi:10.7326/M18-2101</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30831578/" target="_blank" rel="noopener noreferrer">PMID 30831578</a> — Danish cohort n=650,172; RR=0.93; definitive refutation</li>
-            <li>Madsen KM, Hviid A, Vestergaard M, et al. A Population-Based Study of Measles, Mumps, and Rubella Vaccination and Autism. <em>N Engl J Med.</em> 2002;347(19):1477-1482. <a href="https://doi.org/10.1056/NEJMoa021134" target="_blank" rel="noopener noreferrer">doi:10.1056/NEJMoa021134</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12421889/" target="_blank" rel="noopener noreferrer">PMID 12421889</a></li>
-            <li>Demicheli V, Rivetti A, Debalini MG, Di Pietrantonj C. Vaccines for measles, mumps and rubella in children. <em>Cochrane Database Syst Rev.</em> 2012;2:CD004407. <a href="https://doi.org/10.1002/14651858.CD004407.pub3" target="_blank" rel="noopener noreferrer">doi:10.1002/14651858.CD004407.pub3</a> — 57 studies; confirms MMR safety and efficacy</li>
-            <li>Wakefield AJ, et al. Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children. <em>Lancet.</em> 1998;351:637-641. <strong>RETRACTED February 2, 2010.</strong> <a href="https://doi.org/10.1016/S0140-6736(97)11096-0" target="_blank" rel="noopener noreferrer">Retraction notice</a></li>
-            <li>WHO. Global Measles and Rubella Strategic Plan 2012–2020. Geneva: WHO; 2012. <a href="https://apps.who.int/iris/handle/10665/44855" target="_blank" rel="noopener noreferrer">WHO report</a> — 95% coverage threshold and regional elimination criteria</li>
+            <li><a href="https://doi.org/10.1056/NEJMoa021134" target="_blank" rel="noopener noreferrer">Madsen KM, Hviid A, Vestergaard M, et al. A Population-Based Study of Measles, Mumps, and Rubella Vaccination and Autism. N Engl J Med. 2002;347(19):1477-1482.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/12421889/" target="_blank" rel="noopener noreferrer">PubMed 12421889</a></li>
+            <li><a href="https://doi.org/10.7326/M18-2101" target="_blank" rel="noopener noreferrer">Hviid A, Hansen JV, Frisch M, Melbye M. Measles, Mumps, Rubella Vaccination and Autism: A Nationwide Cohort Study. Ann Intern Med. 2019;170(8):513-520.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/30831578/" target="_blank" rel="noopener noreferrer">PubMed 30831578</a></li>
+            <li><a href="https://doi.org/10.1016/S0140-6736(97)11096-0" target="_blank" rel="noopener noreferrer">Wakefield AJ, et al. Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children. Lancet. 1998;351(9103):637-641. RETRACTED February 2010.</a></li>
+            <li><a href="https://doi.org/10.1002/14651858.CD004407.pub3" target="_blank" rel="noopener noreferrer">Demicheli V, Rivetti A, Debalini MG, Di Pietrantonj C. Vaccines for measles, mumps and rubella in children. Cochrane Database Syst Rev. 2012;2:CD004407.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22336803/" target="_blank" rel="noopener noreferrer">PubMed 22336803</a></li>
+            <li><a href="https://apps.who.int/iris/handle/10665/44855" target="_blank" rel="noopener noreferrer">World Health Organization. Global Measles and Rubella: Strategic Plan 2012–2020. Geneva: WHO; 2012.</a></li>
           </ul>
         </div>
 
@@ -345,19 +191,17 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project &mdash; an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="vaccines.html">Vaccine Atlas</a>
-      <a href="pathogens.html">Pathogen Atlas</a>
-      <a href="bcg.html">BCG</a>
-      <a href="oral-polio-vaccine.html">Oral Polio Vaccine</a>
-      <a href="rotarix.html">Rotarix</a>
-      <a href="https://github.com/bpupadhyaya/human-engineering" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

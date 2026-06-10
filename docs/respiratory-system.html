@@ -3,98 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Respiratory system — airways, lungs, chest wall, and diaphragm. Gas exchange, ventilatory control, acid-base regulation. Scale 07 of the Human Atlas. Part of the Human Engineering project.">
-  <meta property="og:title" content="Respiratory System — Human Engineering">
+  <meta name="description" content="Airways, lungs, chest wall, and diaphragm forming the gas-exchange apparatus: ~6 L/min ventilation to 300 million alveoli. Coupled to the cardiovascular system ">
+  <meta property="og:title" content="Respiratory system — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Respiratory System — Human Engineering</title>
+  <title>Respiratory system — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #0369a1;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
     .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
-
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(3,105,161,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
-
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #0369a1, #082f49); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
-
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
-
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
-
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
-
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
@@ -113,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -125,224 +119,72 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Host Biology &middot; Scale 07 &mdash; System</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Respiratory system</h1>
-    <p class="tagline">Airways, lungs, chest wall, and diaphragm — the integrated gas-exchange apparatus that moves O₂ from ambient air into the bloodstream and removes CO₂, maintaining PaO₂ ~100 mmHg, PaCO₂ ~40 mmHg, pH ~7.40.</p>
-    <p class="subtagline">Tightly coupled to the cardiovascular system via the pulmonary circuit. Rhythm driven by medullary respiratory centres and chemoreceptors detecting PaO₂, PaCO₂, and arterial pH.</p>
+    <p class="tagline">Airways, lungs, chest wall, and diaphragm forming the gas-exchange apparatus: ~6 L/min ventilation to 300 million alveoli. Coupled to the cardiovascular system via the pulmonary circuit. Controlled by medullary respiratory centres and chemoreceptors.</p>
+    <p class="aliases">Also known as: respiratory system, pulmonary system, ventilatory system</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~70 m²</span><span class="stat-label">Alveolar Surface</span></div>
-      <div class="stat"><span class="stat-num">500 million</span><span class="stat-label">Alveoli</span></div>
-      <div class="stat"><span class="stat-num">12–20</span><span class="stat-label">Breaths / min</span></div>
-      <div class="stat"><span class="stat-num">4.5 L</span><span class="stat-label">Vital Capacity (adult male)</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-03</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0001004 &middot; FMA:7161 &middot; Atlas One / Scale 07</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">respiratory-system</div>
         <h2>Respiratory system</h2>
-        <p class="summary">Airways, lungs, chest wall, and diaphragm forming the gas-exchange apparatus: ~6–8 L/min ventilation delivered to 300–500 million alveoli across ~70 m² of surface. Coupled to the cardiovascular system via the pulmonary circuit. Controlled by medullary respiratory centres (pre-Bötzinger complex) and chemoreceptors responding to PaCO₂, PaO₂, and arterial pH. Regulates acid-base balance and participates in voice production and immune defense.</p>
+        <p class="summary">Airways, lungs, chest wall, and diaphragm forming the gas-exchange apparatus: ~6 L/min ventilation to 300 million alveoli. Coupled to the cardiovascular system via the pulmonary circuit. Controlled by medullary respiratory centres and chemoreceptors.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The respiratory system is the body's <strong>gas-exchange apparatus</strong> — the integrated set of structures that moves O₂ from ambient air into the bloodstream and removes CO₂ in the opposite direction, maintaining the arterial blood gas tensions (PaO₂ ~100 mmHg, PaCO₂ ~40 mmHg, pH ~7.40) essential for normal cellular function. It comprises five integrated components:</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Upper airway</h4>
-              <p>Nose, mouth, pharynx, larynx: filter, warm, and humidify inspired air before it reaches the gas-exchange surface.</p>
-            </div>
-            <div class="info-block">
-              <h4>Conducting airways</h4>
-              <p>Trachea → bronchi → bronchioles (generations 0–16): transport air; no gas exchange; anatomical dead space ~150 mL.</p>
-            </div>
-            <div class="info-block">
-              <h4>Lungs and alveoli</h4>
-              <p>The gas-exchange parenchyma: ~300–500 million alveoli, ~70 m² surface area. Covered in the <a href="lung.html">Lung</a> entry.</p>
-            </div>
-            <div class="info-block">
-              <h4>Chest wall and diaphragm</h4>
-              <p>The mechanical pump: inspiratory muscles generate negative intrapleural pressure to drive air inward. Diaphragm: ~70% of resting inspiratory effort (phrenic nerve C3–C5).</p>
-            </div>
-          </div>
-          <p style="margin-top:0.75rem;">The respiratory system cannot function in isolation — it is tightly coupled to the <strong>cardiovascular system</strong> via the pulmonary circuit, and its rhythm is driven by medullary and pontine <strong>respiratory centres</strong> modulated by chemoreceptors detecting PaO₂, PaCO₂, and arterial pH.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Upper Respiratory Tract</h3>
-          <p>The upper airway filters (nasal turbinates), warms (&gt;33°C by the nasopharynx), and humidifies (&gt;95% RH) inspired air. Key structures and functions:</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Structure</th><th>Function</th><th>Pathological relevance</th></tr>
-            <tr><td>Nasal cavity / turbinates</td><td>Mucociliary filtration; warming; humidification; olfaction</td><td>Allergic rhinitis, sinusitis, nasal polyps; mouth-breathing bypasses filtration</td></tr>
-            <tr><td>Nasopharynx / oropharynx</td><td>Convergence of nasal and oral airstreams; tonsils/adenoids</td><td>Tonsillar hypertrophy → obstructive sleep apnea in children</td></tr>
-            <tr><td>Larynx (glottis)</td><td>Narrowest adult upper airway; phonation (vocal cords); airway protection during swallowing</td><td>Croup (children), epiglottitis; intubation site; laryngeal cancer (smoking)</td></tr>
-            <tr><td>Eustachian tubes, sinuses</td><td>Connected mucosal cavities; pressure equalization</td><td>Otitis media (Eustachian dysfunction), sinusitis — both frequently caused by respiratory viruses</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>respiratory-system</td></tr>
+            <tr><td>Name</td><td>Respiratory system</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-03</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+            <tr><td>Uberon</td><td>UBERON:0001004</td></tr>
+            <tr><td>Fma</td><td>FMA:7161</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lower Respiratory Tract — Conducting Airways</h3>
-          <p>The conducting zone (generations 0–16) transports air without gas exchange. Its wall structure evolves from cartilage-reinforced (trachea, bronchi) to pure smooth muscle (terminal bronchioles):</p>
-          <table class="data-table">
-            <tr><th>Segment</th><th>Key features</th><th>Clinical notes</th></tr>
-            <tr><td>Trachea (gen. 0)</td><td>~11 cm, 18 mm diameter; 16–20 C-shaped cartilage rings; pseudostratified ciliated epithelium + goblet cells</td><td>Tracheomalacia; compression by mediastinal masses; intubation landmark</td></tr>
-            <tr><td>Main bronchi (gen. 1)</td><td>Right bronchus more vertical (25°) — aspirated objects preferentially enter right lower lobe</td><td>Right-sided foreign body aspiration; lobar atelectasis</td></tr>
-            <tr><td>Segmental bronchi (gen. 2–4)</td><td>10 right, 8–9 left segments; cartilage present; autonomic smooth muscle</td><td>Segmentectomy for early lung cancer; bronchiectasis (irreversible dilation)</td></tr>
-            <tr><td>Bronchioles (gen. 5–16)</td><td>No cartilage; smooth muscle predominant; β2-AR (bronchodilation) + M3 (bronchoconstriction)</td><td>Asthma: bronchospasm here; small airways disease: silent initially ("quiet zone")</td></tr>
-            <tr><td>Terminal bronchioles (gen. 16)</td><td>~0.5 mm; last purely conducting segment; Clara (Club) cells (no goblet cells)</td><td>Last site without gas exchange; distal to this: respiratory bronchioles begin alveolar outpouchings</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Mechanics of Breathing — Pressure and Volume</h3>
-          <p>Breathing is driven by pressure gradients generated by the respiratory muscles. At rest, inspiration is <strong>active</strong> (diaphragm and external intercostals contract → chest volume expands → intrapleural pressure falls from −5 to −8 cmH₂O → alveolar pressure falls below atmospheric → air flows in). Expiration at rest is <strong>passive</strong> — elastic recoil of lung and chest wall restores FRC.</p>
-          <div class="circuit-diagram">
-<pre>
-  Inspiration (active)                Expiration (passive at rest)
-  ─────────────────────────           ──────────────────────────────
-  Diaphragm contracts                 Diaphragm relaxes
-  ↓                                   ↓
-  Thoracic volume ↑                   Thoracic volume ↓
-  ↓                                   ↓
-  Intrapleural pressure ↓             Lung elastic recoil
-  (−5 → −8 cmH₂O)                    drives air out
-  ↓                                   ↓
-  Alveolar pressure ↓                 Alveolar pressure ↑
-  (~−1 cmH₂O)                         (~+1 cmH₂O)
-  ↓                                   ↓
-  Air flows in                        Air flows out
-</pre>
-          </div>
-          <p style="margin-top:0.75rem;">The <strong>work of breathing</strong> has two components: overcoming elastic recoil (compliance work) and overcoming airway resistance (resistance work). In COPD (↑airway resistance, ↑air trapping, ↓elastic recoil) and pulmonary fibrosis (↓compliance, ↑elastic work), the work of breathing rises substantially, contributing to dyspnea and respiratory muscle fatigue.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Respiratory Muscles</h3>
-          <table class="data-table">
-            <tr><th>Muscle</th><th>Role</th><th>Innervation</th></tr>
-            <tr><td>Diaphragm</td><td>Primary inspiratory muscle; ~70% of resting inspiratory effort; descends 1–2 cm (tidal), up to 10 cm (deep breath)</td><td>Phrenic nerve (C3–C5); bilateral failure → apnea</td></tr>
-            <tr><td>External intercostals</td><td>Elevate ribs (bucket-handle + pump-handle) → increase chest volume → inspiration</td><td>Intercostal nerves T1–T11</td></tr>
-            <tr><td>Accessory muscles (SCM, scalenes)</td><td>Recruited in exercise and respiratory distress; visible use = sign of severe distress</td><td>Cranial and cervical nerves</td></tr>
-            <tr><td>Internal intercostals / abdominals</td><td>Active expiration: during exercise, coughing, forced maneuvers; normally expiration is passive</td><td>Intercostal and lumbar nerves</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Diaphragm failure</strong> (phrenic nerve injury in high cervical SCI at C3–C5, or demyelination in Guillain-Barré syndrome) requires mechanical ventilation. Inspiratory muscle weakness is assessed by maximal inspiratory pressure (MIP) — values &lt;−30 cmH₂O suggest impending respiratory failure.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Respiratory Control — Medullary Centres and Chemoreceptors</h3>
-          <p>The respiratory rhythm originates in brainstem centres and is continuously modulated by chemical feedback:</p>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Pre-Bötzinger complex (VRG)</h4>
-              <p>Ventral respiratory group in the medulla — the respiratory rhythm generator. Produces the ~12–20/min oscillatory inspiratory drive via pacemaker neurons. Output to phrenic and intercostal motor neurons.</p>
-            </div>
-            <div class="info-block">
-              <h4>Pneumotaxic centre (pontine)</h4>
-              <p>Modulates breath timing; limits inspiratory duration; coordinates the switch between inspiration and expiration. Lesion → apneustic breathing (prolonged inspiratory effort).</p>
-            </div>
-            <div class="info-block">
-              <h4>Central chemoreceptors (medullary)</h4>
-              <p>Respond to PCO₂/pH in CSF. Most powerful ventilatory driver — a 1 mmHg rise in PaCO₂ increases minute ventilation by ~2–3 L/min. CO₂ crosses blood-brain barrier; CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻ → detected as pH change.</p>
-            </div>
-            <div class="info-block">
-              <h4>Peripheral chemoreceptors (carotid/aortic body)</h4>
-              <p>Respond to PaO₂ (&lt;60 mmHg triggers significant activation), PaCO₂, and pH. Primary O₂ sensors. Important in altitude acclimatization and chronic hypercapnia (COPD: dependence on hypoxic drive — controversial but clinically relevant).</p>
-            </div>
-          </div>
-          <p style="margin-top:0.75rem;">The ventilatory control loop maintains PACO₂ at ~40 mmHg across a 20–30-fold change in metabolic rate (rest → maximal exercise) — a remarkable regulatory achievement accomplished primarily by increasing both respiratory rate and tidal volume.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Ventilation and Gas Exchange</h3>
-          <p>At rest, the respiratory system delivers ~5–6 L/min of alveolar ventilation to maintain normal blood gas tensions:</p>
-          <table class="data-table">
-            <tr><th>Parameter</th><th>Rest</th><th>Maximal exercise</th></tr>
-            <tr><td>Respiratory rate (RR)</td><td>12–16 breaths/min</td><td>40–60 breaths/min</td></tr>
-            <tr><td>Tidal volume (VT)</td><td>~500 mL</td><td>~3,000 mL</td></tr>
-            <tr><td>Minute ventilation (V̇E)</td><td>~6–8 L/min</td><td>100–200 L/min</td></tr>
-            <tr><td>Alveolar ventilation (V̇A)</td><td>~5.25 L/min</td><td>~80+ L/min</td></tr>
-            <tr><td>O₂ uptake (VO₂)</td><td>~250 mL/min</td><td>3,000–6,000 mL/min (trained)</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;">Alveolar ventilation drives alveolar PCO₂:</p>
-          <div class="formula-block">
-            PACO₂ = (VCO₂ / V&#775;A) &times; 0.863
-            <div class="formula-note">VCO₂ = CO₂ production (mL/min), V&#775;A = alveolar ventilation (L/min). Hypoventilation → ↑PACO₂ → respiratory acidosis</div>
-          </div>
-          <p>The alveolar gas equation determines the maximum achievable PaO₂:</p>
-          <div class="formula-block">
-            PAO₂ = FiO₂ &times; (Patm &minus; PH₂O) &minus; PACO₂ / RQ
-            <div class="formula-note">FiO₂ = 0.21 (room air); PH₂O = 47 mmHg at 37°C; RQ = respiratory quotient (~0.8). A-a gradient = PAO₂ &minus; PaO₂; normal &lt;15 mmHg in young adults</div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Acid-Base Regulation</h3>
-          <p>The respiratory system is the fastest acid-base regulator — it can change PaCO₂ within seconds to minutes (renal compensation takes hours to days). The Henderson-Hasselbalch relationship:</p>
-          <div class="formula-block">
-            pH = 6.1 + log([HCO₃⁻] / (0.0306 &times; PaCO₂))
-            <div class="formula-note">Normal: pH 7.35–7.45; PaCO₂ 35–45 mmHg; HCO₃⁻ 22–26 mEq/L</div>
-          </div>
-          <table class="data-table" style="margin-top:0.75rem;">
-            <tr><th>Disorder</th><th>Primary change</th><th>Compensation</th><th>Example</th></tr>
-            <tr><td>Respiratory acidosis</td><td>↑PaCO₂</td><td>Renal HCO₃⁻ retention (chronic: +3.5 mEq/L per 10 mmHg ↑PaCO₂)</td><td>COPD exacerbation, opioid overdose, respiratory failure</td></tr>
-            <tr><td>Respiratory alkalosis</td><td>↓PaCO₂</td><td>Renal HCO₃⁻ excretion</td><td>Anxiety, altitude, pulmonary embolism, early sepsis</td></tr>
-            <tr><td>Metabolic acidosis</td><td>↓HCO₃⁻</td><td>Hyperventilation → ↓PaCO₂ (Kussmaul: Winter's formula: expected PaCO₂ = 1.5×[HCO₃⁻]+8±2)</td><td>DKA, lactic acidosis, renal failure</td></tr>
-            <tr><td>Metabolic alkalosis</td><td>↑HCO₃⁻</td><td>Hypoventilation → ↑PaCO₂ (limited by hypoxic drive)</td><td>Vomiting, diuretics, contraction alkalosis</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>COPD</h4>
-            <p>Smoke-induced airway inflammation (neutrophils, macrophages) + emphysema (alveolar wall destruction → ↓surface area → ↓DLCO → airflow obstruction from ↓elastic recoil + dynamic collapse) + mucus hypersecretion (chronic bronchitis component). Spirometry: FEV₁/FVC &lt;0.70; ↑RV/TLC (air trapping). 3.2 million deaths/year globally. Management: bronchodilators (LABA/LAMA), ICS in high-risk, smoking cessation, pulmonary rehab, supplemental O₂ (if PaO₂ &lt;55 mmHg), lung volume reduction or transplant in selected severe cases.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Asthma</h4>
-            <p>Eosinophilic airway inflammation (Th2 cytokines: IL-4, IL-5, IL-13) + mast cell activation → bronchospasm + mucus plugging → <strong>reversible</strong> airflow obstruction (FEV₁ improves &gt;12% with bronchodilator). Triggers: aeroallergens, exercise, cold, infections, aspirin/NSAIDs, occupational sensitizers. Treatment: ICS + SABA (reliever); add LABA, LAMA, LTRA in step-up; biologics (anti-IgE, anti-IL-5/5R, anti-IL-4Rα, anti-TSLP) for severe eosinophilic or allergic phenotypes.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Pneumonia</h4>
-            <p>Pathogen-induced alveolar consolidation → V/Q mismatch → hypoxemia. Community-acquired: <em>S. pneumoniae</em> (most common), <em>H. influenzae</em>, atypicals (<em>Mycoplasma</em>, <em>Legionella</em>), viruses (SARS-CoV-2, influenza). Hospital-acquired and ventilator-associated pneumonia (VAP): Gram-negatives (<em>Pseudomonas</em>, <em>Klebsiella</em>), <em>S. aureus</em> (MRSA). PSI/PORT or CURB-65 score guides outpatient vs. inpatient vs. ICU decision.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>ARDS</h4>
-            <p>Diffuse alveolar damage from any systemic or pulmonary insult (sepsis, pneumonia, aspiration, trauma, pancreatitis): cytokine storm → capillary leak → alveolar flooding → bilateral infiltrates → severe refractory hypoxemia (PaO₂/FiO₂ &lt;300). Berlin definition: bilateral infiltrates; non-hydrostatic; onset within 7 days. Mortality: mild 27%, moderate 32%, severe 45%. Lung-protective ventilation (6 mL/kg IBW, Pplat &lt;30 cmH₂O) is the only intervention with robust mortality benefit; prone positioning reduces mortality in severe ARDS.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Lung Cancer</h4>
-            <p>Leading cause of cancer death (~1.8 million deaths/year). Staging drives management: early (IA-IIA) → surgical resection (lobectomy or segmentectomy); locally advanced (IIIA/B) → concurrent chemoradiation ± durvalumab; metastatic (IV) → systemic therapy guided by molecular profiling (EGFR, ALK, ROS1, BRAF, KRAS G12C, MET exon 14, NTRK, PD-L1). Low-dose CT screening in high-risk smokers reduces lung cancer mortality 20% (NLST).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Obstructive Sleep Apnea (OSA)</h4>
-            <p>Repetitive upper airway collapse during sleep → cyclical hypoxemia, hypercapnia, arousal → fragmented sleep → daytime somnolence (Epworth Sleepiness Scale), morning headaches. Cardiovascular sequelae: systemic hypertension (most common, ~50% of OSA patients), AF, heart failure (HFpEF), pulmonary hypertension. Diagnosis: polysomnography (AHI &gt;5/h). Treatment: CPAP (first-line); mandibular advancement devices; positional therapy; weight loss; upper airway surgery in selected cases.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Pulmonary Fibrosis</h4>
-            <p>Progressive fibrotic replacement of alveolar parenchyma → restriction (↓TLC, ↓FVC, normal or ↑FEV₁/FVC) + ↓DLCO + progressive hypoxemia. IPF (UIP pattern): median survival 3–5 years; anti-fibrotics (nintedanib, pirfenidone) slow FVC decline; lung transplant for eligible patients. Secondary causes: connective tissue disease (RA, SSc, myositis-ILD), drug toxicity (amiodarone, bleomycin, methotrexate), hypersensitivity pneumonitis, radiation.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="lung.html"><span class="rel">Contains</span>Lung (Scale 06)</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Coupled to</span>Cardiovascular System</a>
-            <a class="conn-pill part" href="index.html#scales"><span class="rel">Part of</span>Immune System (defense)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Type II Pneumocyte (Scale 04)</a>
-            <a class="conn-pill damaged" href="pathogens.html#influenza-a"><span class="rel">Damaged by</span>Influenza A</a>
-            <a class="conn-pill damaged" href="pathogens.html#sars-cov-2"><span class="rel">Damaged by</span>SARS-CoV-2</a>
+            <a class="conn-pill part" href="lung.html" title="The paired lungs are the gas-exchange organs of the respiratory system, containing ~300 million alveoli and a ~70 m² surface area for O₂–CO₂ exchange."><span class="rel">contains</span>Lung</a>
+            <a class="conn-pill part" href="human-body.html" title="The respiratory system is one of the eleven major organ systems of the human body; it interacts most closely with the cardiovascular system via the pulmonary circuit."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="The respiratory and cardiovascular systems are functionally inseparable: the pulmonary circuit carries deoxygenated blood to the alveolar capillaries and returns oxygenated blood to the left heart, coupling gas exchange to systemic O₂ delivery."><span class="rel">connects-to</span>Cardiovascular System</a>
+            <a class="conn-pill damaged" href="influenza-a.html" title="Influenza A is primarily a respiratory pathogen; severe disease causes viral pneumonitis, ARDS, and respiratory failure through destruction of the alveolar-capillary interface."><span class="rel">damaged-by</span>Influenza A</a>
+            <a class="conn-pill" href="streptococcus-pneumoniae.html" title="S. pneumoniae colonizes the nasopharynx asymptomatically in 5–70% of children; lower respiratory tract invasion causes lobar pneumonia, bacteremia (20–30% of CAP), and meningitis; the respiratory system is its primary site of pathology."><span class="rel">infected-by</span>Streptococcus Pneumoniae</a>
+            <a class="conn-pill damaged" href="streptococcus-pneumoniae.html" title="Pneumococcal pneumonia causes acute alveolar consolidation, fibrinopurulent exudate, impaired gas exchange, and — in severe disease — respiratory failure; pneumolysin contributes to alveolar epithelial damage."><span class="rel">damaged-by</span>Streptococcus Pneumoniae</a>
+            <a class="conn-pill" href="corticosteroids.html" title="Inhaled corticosteroids (ICS) are the cornerstone maintenance therapy for persistent asthma, reducing airway inflammation and exacerbation frequency by 50–60%; systemic corticosteroids are first-line for COPD exacerbations and acute severe asthma."><span class="rel">treated-by</span>Corticosteroids</a>
+            <a class="conn-pill damaged" href="aspergillus-fumigatus.html" title="A. fumigatus conidia inhaled into the respiratory system germinate in the bronchi and alveoli of immunocompromised hosts, causing invasive pulmonary aspergillosis with angioinvasion and haemoptysis."><span class="rel">damaged-by</span>Aspergillus Fumigatus</a>
+            <a class="conn-pill" href="smooth-muscle-cell.html" title="Modulated by Smooth Muscle Cell."><span class="rel">modulated-by</span>Smooth Muscle Cell</a>
+            <a class="conn-pill damaged" href="respiratory-syncytial-virus.html" title="Damaged by Respiratory Syncytial Virus."><span class="rel">damaged-by</span>Respiratory Syncytial Virus</a>
+            <a class="conn-pill damaged" href="pneumocystis-jirovecii.html" title="Damaged by Pneumocystis jirovecii (formerly carinii)."><span class="rel">damaged-by</span>Pneumocystis Jirovecii</a>
+            <a class="conn-pill" href="oseltamivir.html" title="Oseltamivir reduces influenza A/B symptom duration by ~17 hours (Dobson meta-analysis, Lancet 2015); reduces hospitalization in high-risk patients (elderly, immunocompromised, pregnant); must be started within 48h of symptom onset for maximal benefit."><span class="rel">treated-by</span>Oseltamivir</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>West JB, Luks AM. <em>West's Respiratory Physiology: The Essentials.</em> 10th ed. Wolters Kluwer; 2016. <a href="https://www.lww.com/Product/9781496310118" target="_blank" rel="noopener">lww.com</a></li>
-            <li>Weibel ER. Lung morphometry: the link between structure and function. <em>Cell Tissue Res.</em> 2017;367(3):413-26. <a href="https://doi.org/10.1007/s00441-016-2541-4" target="_blank" rel="noopener">doi:10.1007/s00441-016-2541-4</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27981371/" target="_blank" rel="noopener">PubMed 27981371</a></li>
-            <li>OpenStax. <em>Anatomy &amp; Physiology 2e</em>, Ch. 22: The Respiratory System. <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction" target="_blank" rel="noopener">openstax.org</a></li>
+            <li><a href="https://www.lww.com/Product/9781496310118" target="_blank" rel="noopener noreferrer">West JB, Luks AM. West's Respiratory Physiology: The Essentials. 10th ed. Wolters Kluwer; 2016. ISBN 978-1-4963-1011-1.</a></li>
+            <li><a href="https://doi.org/10.1007/s00441-016-2541-4" target="_blank" rel="noopener noreferrer">Weibel ER. Lung morphometry: the link between structure and function. Cell Tissue Res. 2017;367(3):413-26.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27981371/" target="_blank" rel="noopener noreferrer">PubMed 27981371</a></li>
+            <li><a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction" target="_blank" rel="noopener noreferrer">OpenStax. Anatomy &amp; Physiology 2e, Ch. 22: The Respiratory System.</a></li>
           </ul>
         </div>
 
@@ -354,11 +196,9 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="lung.html">Lung</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>

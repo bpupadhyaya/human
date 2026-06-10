@@ -76,6 +76,12 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: platform-peer
     note: "Both live-attenuated herpesvirus / paramyxovirus vaccines; both combined as MMRV (ProQuad / Priorix-Tetra) with VZV Oka strain; MMRV has slightly higher febrile seizure rate vs. MMR+V separately in first dose."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Live-attenuated MMR stimulates Th1-biased cellular immunity (CD8+ CTL + CD4+ Th1) and germinal center B-cell responses; mimics natural infection without sustained viraemia; generates more durable IgG than inactivated vaccines without adjuvant."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Serum anti-measles/mumps/rubella IgG is the primary correlate of protection for all three MMR components; measles threshold ≥120 mIU/mL; rubella ≥10 IU/mL; second dose seroconversion >97% for measles; IgG persists decades via bone marrow plasma cells."
 ---
 
 # MMR Vaccine (M-M-R II / Priorix)
@@ -239,12 +245,17 @@ MMR is also available combined with live-attenuated varicella zoster virus (VZV 
 
 ## Connections
 
-- **Immunizes against** → [`02-pathogen/01-virus/measles-virus`](../../../../02-pathogen/01-virus/measles-virus/README.md) — Edmonston B / Schwarz-Moraten; 97%+ seroconversion after 2 doses; measles herd immunity threshold 95% (R0 12–18)
-- **MMRV platform** → [`02-pathogen/01-virus/varicella-zoster-virus`](../../../../02-pathogen/01-virus/varicella-zoster-virus/README.md) — Oka strain VZV is combined with MMR in ProQuad/Priorix-Tetra; modestly higher febrile seizure risk with MMRV vs. separate MMR+V
-- **Platform peers** → [`04-vaccine/05-live-attenuated/bcg`](../bcg/README.md) and [`04-vaccine/05-live-attenuated/oral-polio-vaccine`](../oral-polio-vaccine/README.md) — all live-attenuated vaccines; BCG and OPV are single-pathogen; MMR is the most complex live-attenuated combination vaccine in widespread use
-- **Historical context** → Wakefield 1998 Lancet (retracted 2010): foundational fraudulent paper claiming MMR-autism link; its legacy continues to suppress vaccine coverage globally; definitively refuted by Hviid 2019 (n=650,172, RR 0.93)
-- **Congenital rubella** → Rubella component of MMR eliminates CRS — once a leading cause of congenital deafness and CHD globally; Americas region declared rubella-free 2015
+- `immunizes-against` → **[Measles Virus](../../../../02-pathogen/01-viruses/measles-virus/README.md)** — Edmonston B / Schwarz-Moraten strain; 97%+ seroconversion after 2 doses; measles herd immunity threshold 95% (R0 12–18).
+- `platform-peer` → **[Varicella-Zoster Virus](../../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Oka strain VZV combined with MMR in MMRV (ProQuad/Priorix-Tetra); modestly higher febrile seizure risk with MMRV vs. separate MMR+V.
+- `connects-to` → **[Immune System](../../../../01-human/07-system/immune-system/README.md)** — Live-attenuated MMR stimulates Th1-biased cellular immunity (CD8+ CTL + CD4+ Th1) and germinal center B-cell responses; mimics natural infection without sustained viraemia; generates more durable IgG than inactivated vaccines without adjuvant.
+- `connects-to` → **[Immunoglobulin G](../../../../01-human/03-molecular/immunoglobulin-g/README.md)** — Serum anti-measles/mumps/rubella IgG is the primary correlate of protection for all three MMR components; measles threshold ≥120 mIU/mL; rubella ≥10 IU/mL; second dose seroconversion >97% for measles; IgG persists decades via bone marrow plasma cells.
+- **Platform peers** → [BCG](../bcg/README.md) and [Oral Polio Vaccine](../oral-polio-vaccine/README.md) — all live-attenuated vaccines; BCG and OPV are single-pathogen; MMR is the most complex live-attenuated combination vaccine in widespread use.
+- **Historical context** → Wakefield 1998 Lancet (retracted 2010): foundational fraudulent paper claiming MMR-autism link; its legacy continues to suppress vaccine coverage globally; definitively refuted by Hviid 2019 (n=650,172, RR 0.93).
+- **Congenital rubella** → Rubella component of MMR eliminates CRS — once a leading cause of congenital deafness and CHD globally; Americas region declared rubella-free 2015.
 
 ---
 
 **[← Platform 05 (Live-Attenuated)](../README.md)** · **[← Vaccine Atlas](../../README.md)** · **[Schema](../../../../schemas/vaccine-entry.schema.md)**
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
