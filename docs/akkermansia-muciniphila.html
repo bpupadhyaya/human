@@ -3,301 +3,200 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gram-negative anaerobe (Verrucomicrobia); mucin-degrading specialist in the inner mucus layer. Amuc_1100 outer membrane protein signals TLR2 → tight junctions +">
+  <meta property="og:title" content="Akkermansia muciniphila — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
   <title>Akkermansia muciniphila — Human Engineering</title>
   <style>
     :root {
-      --bg: #f2f2f7;
-      --bg-elev: #ffffff;
-      --accent: #059669;
-      --bio: #059669;
-      --eng: #2563eb;
-      --ai: #7c3aed;
-      --human: #d97706;
-      --text: #1c1c1e;
-      --text-sec: #636366;
-      --border: #e5e5ea;
-      --radius: 14px;
-      --shadow: 0 2px 12px rgba(0,0,0,.08);
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-           background: var(--bg); color: var(--text); line-height: 1.6; }
-    nav { position: sticky; top: 0; z-index: 100;
-          background: rgba(242,242,247,.88); backdrop-filter: blur(20px);
-          border-bottom: 1px solid var(--border); padding: 0 24px;
-          display: flex; align-items: center; gap: 16px; height: 52px; }
-    .nav-back { display: flex; align-items: center; gap: 6px; color: var(--accent);
-                text-decoration: none; font-size: .9rem; font-weight: 500; }
-    .nav-back svg { width: 18px; height: 18px; }
-    .nav-title { font-size: .9rem; color: var(--text-sec); }
-    .hero { background: linear-gradient(135deg, #059669, #065f46);
-            color: #fff; padding: 56px 24px 48px; text-align: center; }
-    .hero-eyebrow { font-size: .78rem; font-weight: 600; letter-spacing: .12em;
-                    text-transform: uppercase; opacity: .75; margin-bottom: 12px; }
-    .hero h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700;
-               font-style: italic; letter-spacing: -.02em; margin-bottom: 14px; }
-    .tagline { font-size: 1.1rem; opacity: .9; max-width: 640px; margin: 0 auto 8px; }
-    .subtagline { font-size: .9rem; opacity: .72; max-width: 560px; margin: 0 auto 32px; }
-    .stat-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
-    .stat { background: rgba(255,255,255,.15); border-radius: 12px; padding: 14px 22px;
-            min-width: 120px; }
-    .stat .num { font-size: 1.5rem; font-weight: 700; }
-    .stat .lbl { font-size: .72rem; opacity: .8; margin-top: 2px; }
-    main { max-width: 860px; margin: 0 auto; padding: 40px 20px 60px; }
-    .detail-card { background: var(--bg-elev); border-radius: var(--radius);
-                   box-shadow: var(--shadow); overflow: hidden; margin-bottom: 32px; }
-    .detail-header { color: #fff; padding: 28px 28px 24px; }
-    .entry-eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .1em;
-                     text-transform: uppercase; opacity: .7; margin-bottom: 8px; }
-    .detail-header h3 { font-size: 1.4rem; font-weight: 700; font-style: italic;
-                        margin-bottom: 8px; }
-    .detail-header .summary { font-size: .9rem; opacity: .88; max-width: 640px; }
-    .detail-body { padding: 28px; }
-    .section-label { font-size: .72rem; font-weight: 700; letter-spacing: .1em;
-                     text-transform: uppercase; color: var(--accent);
-                     margin: 28px 0 12px; }
-    .section-label:first-child { margin-top: 0; }
-    .detail-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-    .detail-table tr { border-bottom: 1px solid var(--border); }
-    .detail-table tr:last-child { border-bottom: none; }
-    .detail-table td { padding: 9px 4px; vertical-align: top; }
-    .detail-table td:first-child { width: 36%; font-weight: 600; color: var(--text-sec);
-                                   padding-right: 12px; }
-    .mech-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
-    .mech-item { border-radius: 10px; padding: 12px 16px; font-size: .88rem; line-height: 1.55; }
-    .mech-item.danger  { background: #fef2f2; border-left: 3px solid #ef4444; }
-    .mech-item.immune  { background: #f0fdf4; border-left: 3px solid #22c55e; }
-    .mech-item.latent  { background: #fffbeb; border-left: 3px solid #f59e0b; }
-    .mech-item.drug    { background: #f0f9ff; border-left: 3px solid #0ea5e9; }
-    .mech-item strong  { display: block; font-size: .82rem; font-weight: 700;
-                         text-transform: uppercase; letter-spacing: .06em;
-                         margin-bottom: 3px; color: var(--text); }
-    .immune-tags { display: flex; flex-wrap: wrap; gap: 8px; }
-    .itag { border-radius: 8px; padding: 5px 12px; font-size: .8rem; font-weight: 600; }
-    .itag.innate    { background: #fef3c7; color: #92400e; }
-    .itag.adaptive  { background: #ede9fe; color: #5b21b6; }
-    .itag.protective{ background: #d1fae5; color: #065f46; }
-    .itag.metabolic { background: #e0f2fe; color: #0369a1; }
-    .path-table { width: 100%; border-collapse: collapse; font-size: .88rem; }
-    .path-table thead tr { background: var(--bg); }
-    .path-table th { padding: 9px 10px; text-align: left; font-weight: 700;
-                     font-size: .78rem; text-transform: uppercase; letter-spacing: .06em;
-                     color: var(--text-sec); border-bottom: 2px solid var(--border); }
-    .path-table td { padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
-    .path-table tr:last-child td { border-bottom: none; }
-    .badge { display: inline-block; border-radius: 6px; padding: 2px 8px;
-             font-size: .72rem; font-weight: 700; text-transform: uppercase; }
-    .badge.beneficial  { background: #d1fae5; color: #065f46; }
-    .badge.inverse     { background: #fef3c7; color: #92400e; }
-    .badge.research    { background: #e0f2fe; color: #0369a1; }
-    .badge.depleted    { background: #fee2e2; color: #991b1b; }
-    .conn-pills { display: flex; flex-wrap: wrap; gap: 8px; }
-    .conn-pill { border-radius: 20px; padding: 5px 14px; font-size: .8rem; font-weight: 600;
-                 text-decoration: none; }
-    .conn-pill.protects { background: #d1fae5; color: #065f46; }
-    .conn-pill.targets  { background: #ede9fe; color: #5b21b6; }
-    .conn-pill.related  { background: #e0f2fe; color: #0369a1; }
-    .conn-pill.produces { background: #fef3c7; color: #92400e; }
-    .refs { list-style: none; display: flex; flex-direction: column; gap: 6px; }
-    .refs li { font-size: .82rem; color: var(--text-sec); padding-left: 16px; position: relative; }
-    .refs li::before { content: "→"; position: absolute; left: 0; color: var(--accent); }
-    .contribute { background: var(--bg-elev); border-radius: var(--radius);
-                  box-shadow: var(--shadow); padding: 28px; text-align: center; }
-    .contribute h4 { font-size: 1rem; margin-bottom: 8px; }
-    .contribute p { font-size: .85rem; color: var(--text-sec); max-width: 480px; margin: 0 auto; }
-    footer { background: #1c1c1e; color: #ebebf5; padding: 32px 24px; text-align: center; }
-    .footer-tag { display: inline-block; background: var(--accent); color: #fff;
-                  border-radius: 8px; padding: 4px 12px; font-size: .78rem;
-                  font-weight: 700; margin-bottom: 16px; }
-    .footer-links { display: flex; flex-wrap: wrap; justify-content: center;
-                    gap: 12px; margin-bottom: 16px; }
-    .footer-links a { color: #ebebf5; text-decoration: none; font-size: .85rem; opacity: .8; }
-    .footer-meta { font-size: .78rem; opacity: .5; margin-top: 6px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav>
-  <a class="nav-back" href="pathogens.html">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-      <path d="M15 18l-6-6 6-6"/>
-    </svg>
-    Pathogens
-  </a>
-  <span class="nav-title">Akkermansia muciniphila</span>
-</nav>
-
-<div class="hero">
-  <div class="hero-eyebrow">Atlas Two · Pathogen · Microbiome</div>
-  <h1>Akkermansia muciniphila</h1>
-  <p class="tagline">Mucus-layer specialist of the human gut microbiome; a next-generation probiotic candidate whose abundance inversely correlates with obesity, type 2 diabetes, and metabolic syndrome.</p>
-  <p class="subtagline">Gram-negative Verrucomicrobia living at the mucus–epithelium interface; maintains gut barrier integrity via mucin turnover and anti-inflammatory signalling through Amuc_1100.</p>
-  <div class="stat-row">
-    <div class="stat"><div class="num">1–3%</div><div class="lbl">of gut microbiome in healthy adults</div></div>
-    <div class="stat"><div class="num">~2 µm</div><div class="lbl">cell diameter (oval)</div></div>
-    <div class="stat"><div class="num">&gt;50</div><div class="lbl">mucinase-related enzymes encoded</div></div>
-    <div class="stat"><div class="num">2004</div><div class="lbl">year of discovery (Derrien et al.)</div></div>
-    <div class="stat"><div class="num">↑ BMI</div><div class="lbl">inversely correlated with abundance</div></div>
-  </div>
-</div>
-
-<main>
-  <div class="detail-card">
-    <div class="detail-header" style="background: linear-gradient(135deg, #059669, #065f46);">
-      <div class="entry-eyebrow">verrucomicrobia · akkermansiaceae · gram-negative · commensal</div>
-      <h3>Akkermansia muciniphila</h3>
-      <p class="summary">Beneficial commensal bacterium residing specifically in the colonic mucus layer; degrades mucins to harvest nutrients while stimulating fresh mucus production; activates TLR2 via Amuc_1100 outer membrane protein, promoting gut barrier integrity, reducing metabolic endotoxaemia, and improving insulin sensitivity.</p>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
     </div>
-    <div class="detail-body">
+  </nav>
 
-      <p class="section-label">Structure &amp; Biochemistry</p>
-      <table class="detail-table">
-        <tr><td>Taxonomy</td><td>Domain Bacteria → Phylum Verrucomicrobia → Class Verrucomicrobiae → Order Verrucomicrobiales → Family Akkermansiaceae → <em>Akkermansia muciniphila</em></td></tr>
-        <tr><td>Cell morphology</td><td>Oval to short rod, ~1–2 µm; Gram-negative outer membrane; non-motile; non-spore-forming; strictly anaerobic; grows embedded in or adjacent to mucus layer</td></tr>
-        <tr><td>Amuc_1100</td><td>Heat-stable outer membrane protein; major TLR2/TLR4 ligand; mediates interaction with gut epithelium; pasteurised (non-live) form retains full biological activity — basis for pasteurised probiotic formulations</td></tr>
-        <tr><td>Mucin degradation arsenal</td><td>&gt;50 predicted mucinases and glycosyl hydrolases (GH families 2, 18, 20, 25, 29, 33, 95); cleave O-glycan chains; harvest sugars and amino acids; by-products include propionate, acetate, formate</td></tr>
-        <tr><td>Short-chain fatty acid output</td><td>Primary products: propionate + acetate (from mucin fermentation); propionate activates GPR41/GPR43 on enteroendocrine cells → GLP-1 / PYY secretion → satiety signalling and insulin secretion</td></tr>
-        <tr><td>Pili / adhesins</td><td>Outer membrane proteins mediate mucin gel attachment; Amuc_1434 involved in mucus adhesion; specific S-layer absent (unlike some commensals)</td></tr>
-        <tr><td>Oxygen tolerance</td><td>Strictly anaerobic but more oxygen-tolerant than many gut anaerobes; survives briefly at oxic–anoxic interface near epithelium; 10⁻³ atm O₂ tolerated briefly</td></tr>
-        <tr><td>Genome</td><td>~2.7 Mb; ~2,136 predicted ORFs; large proportion encoding carbohydrate-active enzymes (CAZymes); GC content ~55.8%; single circular chromosome</td></tr>
-      </table>
-
-      <p class="section-label">Mechanisms of Benefit</p>
-      <ul class="mech-list">
-        <li class="mech-item drug">
-          <strong>Mucus layer maintenance &amp; gut barrier reinforcement</strong>
-          Paradoxically, A. muciniphila degradation of mucins stimulates host goblet cells to increase MUC2 production, thickening the protective mucus layer. Amuc_1100 binding to TLR2 on colonocytes activates NF-κB and AP-1 modestly, upregulating claudin-3 and occludin — tight junction proteins — thereby reducing paracellular permeability and translocation of LPS into blood (metabolic endotoxaemia).
-        </li>
-        <li class="mech-item drug">
-          <strong>Amuc_1100 → TLR2 → anti-inflammatory signalling</strong>
-          Amuc_1100 is a potent TLR2 agonist (and moderate TLR4 agonist). Signalling through TLR2/TLR6 heterodimer shifts macrophage polarisation toward M2-like anti-inflammatory phenotype (IL-10↑, IL-12↓); promotes Treg induction via IL-10; reduces pro-inflammatory cytokines (TNF-α, IL-6) in adipose tissue — mechanistically explaining metabolic benefits observed in mouse and human studies.
-        </li>
-        <li class="mech-item drug">
-          <strong>Metabolic axis: propionate → GLP-1 → insulin sensitivity</strong>
-          Propionate produced from mucin/fibre fermentation activates free fatty acid receptors FFAR2 (GPR43) and FFAR3 (GPR41) on L-cells and enteroendocrine cells → GLP-1 and PYY secretion. GLP-1 enhances glucose-stimulated insulin secretion and promotes satiety. Obese and T2D patients consistently show &lt;10-fold lower A. muciniphila abundance vs healthy controls; restoration by diet/berberine/metformin correlates with metabolic improvement.
-        </li>
-        <li class="mech-item drug">
-          <strong>Outer membrane vesicles (OMVs) as paracrine signals</strong>
-          A. muciniphila constitutively releases OMVs carrying Amuc_1100 and lipopolysaccharide-like structures (lacking classical endotoxic lipid A); OMVs enter the lamina propria and are taken up by macrophages and DCs, modulating cytokine milieu without evoking septic responses. OMV-mediated signalling active even at low bacterial abundance.
-        </li>
-        <li class="mech-item immune">
-          <strong>Immunotherapy response potentiation</strong>
-          Retrospective and prospective studies in cancer patients on checkpoint inhibitors (anti-PD-1) show that A. muciniphila-enriched microbiomes correlate with improved clinical response in NSCLC, RCC, and melanoma. Proposed mechanisms: IL-12 production from DCs, improved CD4+ T-cell infiltration of tumour, reduced regulatory T-cell suppression. Faecal microbiota transplant (FMT) from responders partially transfers the benefit in mouse models.
-        </li>
-      </ul>
-
-      <p class="section-label">Microbiome Context &amp; Host Associations</p>
-      <div class="immune-tags">
-        <span class="itag protective">Gut barrier integrity</span>
-        <span class="itag protective">Reduced endotoxaemia</span>
-        <span class="itag protective">GLP-1 induction</span>
-        <span class="itag protective">Anti-inflammatory (IL-10)</span>
-        <span class="itag metabolic">Propionate producer</span>
-        <span class="itag metabolic">Mucin cross-feeder</span>
-        <span class="itag metabolic">Insulin sensitisation</span>
-        <span class="itag adaptive">TLR2 / Amuc_1100 signalling</span>
-        <span class="itag innate">OMV-mediated DC modulation</span>
-      </div>
-
-      <p class="section-label">Clinical Associations</p>
-      <table class="path-table">
-        <thead>
-          <tr><th>Condition</th><th>Association with A. muciniphila</th><th>Evidence Level</th><th>Direction</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Type 2 Diabetes / Obesity</td>
-            <td>Reduced abundance in metabolic syndrome; supplementation improves insulin sensitivity and reduces adiposity markers in humans (RCT, 2019)</td>
-            <td><span class="badge research">Phase 2 RCT</span></td>
-            <td><span class="badge beneficial">Beneficial</span></td>
-          </tr>
-          <tr>
-            <td>Inflammatory Bowel Disease</td>
-            <td>Depleted in active Crohn's and UC; whether this is cause or consequence of inflammation is debated; reduced mucus layer may increase bacterial translocation</td>
-            <td><span class="badge research">Observational</span></td>
-            <td><span class="badge inverse">Inverse</span></td>
-          </tr>
-          <tr>
-            <td>Colorectal Cancer</td>
-            <td>Lower abundance in CRC tissue vs healthy mucosa; potential protective via barrier effects; data inconsistent across cohorts</td>
-            <td><span class="badge research">Observational</span></td>
-            <td><span class="badge inverse">Inverse (tentative)</span></td>
-          </tr>
-          <tr>
-            <td>Checkpoint inhibitor response (cancer)</td>
-            <td>Higher A. muciniphila abundance associated with improved PFS in anti-PD-1 treated NSCLC and RCC; causal evidence from FMT mouse models</td>
-            <td><span class="badge research">Human cohorts + mouse</span></td>
-            <td><span class="badge beneficial">Beneficial</span></td>
-          </tr>
-          <tr>
-            <td>Multiple Sclerosis</td>
-            <td>Elevated A. muciniphila in some MS cohorts; potential pro-inflammatory role in neuroinflammatory context; requires further study</td>
-            <td><span class="badge research">Observational</span></td>
-            <td><span class="badge inverse">Complex / unclear</span></td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p class="section-label">Research Status &amp; Therapeutic Potential</p>
-      <ul class="mech-list">
-        <li class="mech-item drug">
-          <strong>Pasteurised A. muciniphila (WB-STR-0001) — next-generation probiotic</strong>
-          Pasteurisation preserves Amuc_1100 and OMV activity while eliminating live-bacteria safety concerns. Phase 2 RCT (Plovier et al. concept; Cani group, 2019; n=32): pasteurised A. muciniphila 10¹⁰ CFU-equivalent/day reduced insulin resistance (HOMA-IR), visceral fat, and cardiometabolic risk factors. Pending Phase 3; EFSA novel food approval pathway underway in EU.
-        </li>
-        <li class="mech-item drug">
-          <strong>Dietary modulation to increase abundance</strong>
-          Dietary fibre (inulin, pectin, FOS), polyphenols (resveratrol, cranberry extracts, pomegranate), omega-3 fatty acids, and intermittent fasting all increase A. muciniphila in rodents and humans. Metformin and berberine also raise abundance; this contributes to their pleiotropic metabolic effects beyond direct pharmacological mechanisms.
-        </li>
-        <li class="mech-item immune">
-          <strong>FMT and microbiome reconstitution context</strong>
-          A. muciniphila abundance is used as a quality metric for FMT donor stools in metabolic disease trials. Transfer from healthy, A. muciniphila-rich donors to obese recipients shows transient engraftment and associated short-term metabolic improvement in some studies.
-        </li>
-      </ul>
-
-      <p class="section-label">Cross-Atlas Connections</p>
-      <div class="conn-pills">
-        <span class="conn-pill protects">Protects: Gut epithelium</span>
-        <span class="conn-pill protects">Protects: Metabolic homeostasis</span>
-        <span class="conn-pill protects">Potentiates: Checkpoint immunotherapy</span>
-        <span class="conn-pill targets">Signals via: TLR2 / TLR4</span>
-        <span class="conn-pill targets">Signals via: GPR41 / GPR43</span>
-        <span class="conn-pill produces">Produces: Propionate</span>
-        <span class="conn-pill produces">Produces: Acetate</span>
-        <span class="conn-pill related">Ecosystem: Colonic mucus layer</span>
-        <span class="conn-pill related">Related: Faecalibacterium prausnitzii</span>
-        <span class="conn-pill related">Related: Bacteroides fragilis (NTBF)</span>
-      </div>
-
-      <p class="section-label">References</p>
-      <ul class="refs">
-        <li>Derrien M et al. (2004). Akkermansia muciniphila gen. nov., sp. nov., a human intestinal mucin-degrading bacterium. <em>Int J Syst Evol Microbiol</em> 54(5):1469–76.</li>
-        <li>Plovier H et al. (2017). A purified membrane protein from Akkermansia muciniphila or the pasteurized bacterium improves metabolism in obese and diabetic mice. <em>Nat Med</em> 23(1):107–13.</li>
-        <li>Depommier C et al. (2019). Supplementation with Akkermansia muciniphila in overweight and obese human volunteers: a proof-of-concept exploratory study. <em>Nat Med</em> 25(7):1096–103.</li>
-        <li>Routy B et al. (2018). Gut microbiome influences efficacy of PD-1–based immunotherapy against epithelial tumors. <em>Science</em> 359(6371):91–7.</li>
-        <li>Cani PD, de Vos WM (2017). Next-generation beneficial microbes: the case of Akkermansia muciniphila. <em>Front Microbiol</em> 8:1765.</li>
-      </ul>
-
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(220,38,38,0.1); color: #dc2626;">Atlas Two &middot; Pathogen Atlas &middot; 06-microbiome</div>
+    <h1>Akkermansia muciniphila</h1>
+    <p class="tagline">Gram-negative anaerobe (Verrucomicrobia); mucin-degrading specialist in the inner mucus layer. Amuc_1100 outer membrane protein signals TLR2 → tight junctions + IL-10. Produces propionate/acetate; inversely correlated with obesity, T2DM, and IBD.</p>
+    <p class="aliases">Also known as: A. muciniphila, Akkermansia, AKK, MucT, ATCC BAA-835</p>
+    <div class="stat-row">
+        <div class="stat"><span class="stat-num">06-microbiome</span><span class="stat-label">Class</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
-  <div class="contribute">
-    <h4>Contribute to this entry</h4>
-    <p>This page is part of the open Human Engineering atlas. Corrections, new mechanisms, and updated research findings are welcome via GitHub pull request or email.</p>
-  </div>
-</main>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
-<footer>
-  <div class="footer-tag">Atlas Two — Microbiome</div>
-  <div class="footer-links">
-    <a href="index.html">Home</a>
-    <a href="pathogens.html">Pathogens</a>
-    <a href="https://github.com/bpupadhyaya/human-engineering">GitHub</a>
-  </div>
-  <p class="footer-meta">Open source · CC BY 4.0 · bpupadhyaya@gmail.com</p>
-  <p class="footer-meta" style="max-width:600px;margin:8px auto 0;line-height:1.5;">
-    <em>This site is co-maintained by AI agents under human direction. All biological and medical content is reviewed for accuracy but may contain errors. Not medical advice. Verify critical information against primary literature.</em>
-  </p>
-</footer>
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #dc2626, #7f1d1d);">
+        <div class="entry-eyebrow">akkermansia-muciniphila</div>
+        <h2>Akkermansia muciniphila</h2>
+        <p class="summary">Gram-negative anaerobe (Verrucomicrobia); mucin-degrading specialist in the inner mucus layer. Amuc_1100 outer membrane protein signals TLR2 → tight junctions + IL-10. Produces propionate/acetate; inversely correlated with obesity, T2DM, and IBD.</p>
+      </div>
+      <div class="detail-body">
 
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>akkermansia-muciniphila</td></tr>
+            <tr><td>Name</td><td>Akkermansia muciniphila</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Class</td><td>06-microbiome</td></tr>
+          </table>
+        </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="digestive-system.html" title="A. muciniphila degrades and renews the colonic mucus layer, maintaining its thickness and glycan composition. Propionate and acetate produced from mucin fermentation lower luminal pH, feed colonocytes, and cross-feed butyrate producers, sustaining overall gut barrier and epithelial metabolic health."><span class="rel">modulates</span>Digestive System</a>
+            <a class="conn-pill" href="immune-system.html" title="Amuc_1100 outer membrane protein activates TLR2 on intestinal immune cells, inducing IL-10 secretion and reducing systemic LPS-driven endotoxemia. Pasteurized A. muciniphila retains full TLR2-mediated immune-modulatory activity, suppressing low-grade metabolic inflammation linked to obesity."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="macrophage.html" title="A. muciniphila-derived Amuc_1100 and outer membrane vesicles (OMVs) shift intestinal macrophage polarisation toward M2-like (anti-inflammatory) phenotype, reducing TNF-α and IL-6 production. Propionate signals via GPR43 on macrophages to further suppress NF-κB-driven pro-inflammatory responses."><span class="rel">modulates</span>Macrophage</a>
+            <a class="conn-pill" href="large-intestine.html" title="A. muciniphila colonises the inner mucus layer of the large intestine exclusively, degrading MUC2 O-glycans to release monosaccharides for energy. This mucin turnover stimulates goblet cell MUC2 resynthesis, increases mucus layer thickness, and reduces epithelial exposure to luminal LPS."><span class="rel">modulates</span>Large Intestine</a>
+            <a class="conn-pill" href="intestinal-epithelium.html" title="Amuc_1100 activates TLR2 on intestinal epithelial cells → upregulates claudin-3 and ZO-1 → reinforces tight junctions → reduces permeability; pasteurized A. muciniphila retains this activity; Amuc_1100 reduces FITC-dextran gut permeability in obese/diabetic mouse models."><span class="rel">modulates</span>Intestinal Epithelium</a>
+            <a class="conn-pill" href="gut-microbiome.html" title="A. muciniphila is the dominant Verrucomicrobia in healthy gut microbiome (1-4%); produces acetate and propionate from mucin fermentation → cross-feeds butyrate-producing Faecalibacterium; inversely correlated with Firmicutes:Bacteroidetes dysbiosis in obesity, T2DM, and IBD."><span class="rel">modulates</span>Gut Microbiome</a>
+            <a class="conn-pill" href="metformin.html" title="Metformin increases A. muciniphila 2-3× in T2DM patients (Wu 2017 Nature); A. muciniphila mediates microbiome-dependent glucose-lowering effects of metformin; combined supplementation may reduce required metformin dose; metformin-induced bile acid changes support akkermansia growth."><span class="rel">connects-to</span>Metformin</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1038/nm.4236" target="_blank" rel="noopener noreferrer">Plovier H, Everard A, Druart C, et al. A purified membrane protein from Akkermansia muciniphila or the pasteurised bacterium improves metabolism in obese and diabetic mice. Nat Med. 2017;23(1):107-13.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27892954/" target="_blank" rel="noopener noreferrer">PubMed 27892954</a></li>
+            <li><a href="https://doi.org/10.1038/s41591-019-0495-2" target="_blank" rel="noopener noreferrer">Depommier C, Everard A, Druart C, et al. Supplementation with Akkermansia muciniphila in overweight and obese human volunteers: a proof-of-concept exploratory study. Nat Med. 2019;25(7):1096-103.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/31263284/" target="_blank" rel="noopener noreferrer">PubMed 31263284</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

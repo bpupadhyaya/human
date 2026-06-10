@@ -3,28 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Albumin — plasma oncotic pressure, Sudlow drug-binding sites, FcRn recycling, hypoalbuminaemia, nephrotic syndrome. Part of the Human Engineering molecular atlas.">
-  <meta property="og:title" content="Albumin — Molecular Atlas · Human Engineering">
+  <meta name="description" content="Most abundant plasma protein (~35–50 g/L); 66.5 kDa, 585 aa, 3 α-helical domains; synthesised by hepatocytes (~12–14 g/day, t½ ~20 days). Provides ~80% of oncot">
+  <meta property="og:title" content="Albumin — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
-  <title>Albumin — Molecular Atlas · Human Engineering</title>
+  <title>Albumin — Human Engineering</title>
   <style>
     :root {
       --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #6b7280;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,53 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(107,114,128,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #6b7280, #374151); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
-    .detail-header .drug-class { font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
-    .alias-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
-    .alias-pill { padding: 0.2rem 0.65rem; background: rgba(255,255,255,0.15); border-radius: 999px; font-size: 0.75rem; color: rgba(255,255,255,0.85); }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section h4 { font-size: 0.93rem; font-weight: 700; color: var(--fg); margin-bottom: 0.5rem; margin-top: 1rem; }
-    .detail-section h4:first-child { margin-top: 0; }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
     .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
-    .pathway-block { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .pathway-block pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; counter-reset: steps; }
-    .step-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.9rem; color: var(--fg-soft); padding: 0.5rem 0.75rem; background: var(--bg); border-radius: var(--radius-sm); line-height: 1.5; }
-    .step-list li::before { content: counter(steps); counter-increment: steps; flex-shrink: 0; width: 1.4rem; height: 1.4rem; background: var(--accent); color: white; border-radius: 50%; font-size: 0.72rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.05rem; }
-    .step-list li strong { color: var(--fg); }
-    .principle-box { background: rgba(107,114,128,0.06); border: 1px solid rgba(107,114,128,0.18); border-radius: var(--radius-sm); padding: 1rem 1.1rem; margin-top: 0.5rem; }
-    .principle-box p { font-size: 0.9rem; color: var(--fg-soft); line-height: 1.6; margin: 0; }
-    .principle-box strong { color: var(--accent); }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
-    .conn-pill.targets .rel { color: var(--accent); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
     .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
@@ -96,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -108,173 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Molecular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 03 — Molecular</div>
     <h1>Albumin</h1>
-    <p class="tagline">The most abundant plasma protein — a 66.5 kDa hepatocyte-derived transporter providing ~80% of plasma oncotic pressure while ferrying fatty acids, drugs, bilirubin, and hormones through the circulation.</p>
-    <p class="subtagline">Synthesised exclusively by hepatocytes at ~12–14 g/day; circulates for ~20 days via FcRn-mediated endosomal recycling. Its serum concentration is among the most commonly measured clinical values: hypoalbuminaemia (&lt;35 g/L) predicts morbidity and mortality across virtually every disease category and critically alters the pharmacokinetics of hundreds of drugs.</p>
+    <p class="tagline">Most abundant plasma protein (~35–50 g/L); 66.5 kDa, 585 aa, 3 α-helical domains; synthesised by hepatocytes (~12–14 g/day, t½ ~20 days). Provides ~80% of oncotic pressure; transports FAs, bilirubin, drugs, hormones. Hypoalbuminaemia → oedema, ascites.</p>
+    <p class="aliases">Also known as: serum albumin, HSA, human serum albumin, ALB</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">585 aa</span><span class="stat-label">Mature residues</span></div>
-      <div class="stat"><span class="stat-num">66.5 kDa</span><span class="stat-label">Molecular weight</span></div>
-      <div class="stat"><span class="stat-num">P02768</span><span class="stat-label">UniProt ID</span></div>
-      <div class="stat"><span class="stat-num">~20 days</span><span class="stat-label">Plasma half-life</span></div>
+        <div class="stat"><span class="stat-num">Scale 03 — Molecular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
-    <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">Atlas One &middot; Molecular &middot; Plasma Protein / Transport / Oncotic Agent</div>
-        <h2>Albumin</h2>
-        <div class="drug-class">Class: Plasma transport protein &nbsp;&middot;&nbsp; Negative acute-phase reactant &nbsp;|&nbsp; Gene: ALB (chr 4q13.3) &nbsp;|&nbsp; UniProt: P02768 &nbsp;|&nbsp; Produced in: Hepatocytes (~12–14 g/day)</div>
-        <p class="summary">Albumin (human serum albumin, HSA) is the archetypal multifunctional plasma protein — simultaneously the principal determinant of colloid osmotic pressure (~80% of plasma oncotic pressure), a molecular taxi for lipophilic ligands at two high-affinity Sudlow sites, the primary plasma antioxidant via its unique free Cys34 thiol, and a circulating hormone reservoir for cortisol, T4, testosterone, and oestradiol. It is a negative acute-phase reactant: IL-6 redirects hepatic synthesis toward CRP and fibrinogen during inflammation, making hypoalbuminaemia a sensitive marker of chronic disease, malnutrition, and hepatic synthetic failure across virtually every clinical context.</p>
-        <div class="alias-pills">
-          <span class="alias-pill">HSA</span>
-          <span class="alias-pill">serum albumin</span>
-          <span class="alias-pill">ALB</span>
-          <span class="alias-pill">Sudlow sites I &amp; II</span>
-        </div>
-      </div>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
 
+    <div class="detail-card">
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">albumin</div>
+        <h2>Albumin</h2>
+        <p class="summary">Most abundant plasma protein (~35–50 g/L); 66.5 kDa, 585 aa, 3 α-helical domains; synthesised by hepatocytes (~12–14 g/day, t½ ~20 days). Provides ~80% of oncotic pressure; transports FAs, bilirubin, drugs, hormones. Hypoalbuminaemia → oedema, ascites.</p>
+      </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Albumin circulates at <strong>35–50 g/L</strong> in healthy adults, constituting roughly 25% of total hepatic protein synthesis output. Unlike most other secreted plasma proteins it is <strong>non-glycosylated</strong>, which simplifies industrial production of recombinant albumin-based fusion therapeutics. Its extraordinary plasma half-life of ~20 days — far longer than its ~19-hour mRNA half-life would predict — is maintained by the <strong>FcRn (neonatal Fc receptor)</strong>-mediated recycling pathway. In acidic endosomes (pH ~6.0) of vascular endothelial cells, albumin binds FcRn with high affinity; this complex is transcytosed back to the cell surface where, at pH 7.4, affinity drops and albumin is released back into circulation, escaping lysosomal degradation. This salvage mechanism is shared with IgG (see <a href="immunoglobulin-g.html">IgG entry</a>) and is exploited industrially to extend the half-life of therapeutic peptides fused to albumin-binding domains.</p>
-          <p><strong>Negative acute-phase reactant:</strong> During systemic inflammation, IL-6, IL-1&beta;, and TNF-&alpha; redirect hepatocyte translation toward positive acute-phase proteins (CRP, fibrinogen, SAA). Albumin synthesis falls 40–60% within 12–24 hours. Concurrent volume expansion and capillary leak further dilute albumin. As a result, serum albumin in acute illness is an unreliable nutritional marker — it primarily reflects inflammatory load and vascular permeability rather than nutritional status per se. Chronic hypoalbuminaemia (&lt;35 g/L) in non-acute settings, however, strongly reflects reduced hepatic synthetic capacity, protein malnutrition, or ongoing urinary/enteric protein losses.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure</h3>
-          <p>Albumin is synthesised as <strong>pre-proalbumin</strong> (609 aa): a signal peptide (18 aa) co-translationally cleaved in the ER, and a propeptide (6 aa) removed in the Golgi, yield the 585-aa mature protein. Its three-dimensional structure consists of three homologous &alpha;-helical domains (I, II, III), each subdivided into two subdomains (A and B), giving a heart-shaped molecule with <strong>17 disulfide bridges</strong> stabilising the fold and one <strong>free cysteine at Cys34</strong>.</p>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Domain</th><th>Subdomains</th><th>Principal binding function</th></tr>
-            <tr><td>Domain I (IA/IB)</td><td>IA, IB</td><td>Metal binding — Cu²⁺, Ni²⁺ via N-terminal ATCUN (Asp-Thr-His) motif at Asp1-Thr2-His3</td></tr>
-            <tr><td>Domain II (IIA/IIB)</td><td>IIA, IIB</td><td><strong>Sudlow site I</strong> — warfarin, phenytoin, furosemide, NSAIDs (salicylate), bilirubin; bulky heterocyclic compounds with negative charge</td></tr>
-            <tr><td>Domain III (IIIA/IIIB)</td><td>IIIA, IIIB</td><td><strong>Sudlow site II</strong> — benzodiazepines (diazepam), ibuprofen, digitoxin, aromatic carboxylates; medium-chain fatty acids</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Cys34:</strong> The only free thiol in albumin (~0.5 mM in plasma); the single largest plasma antioxidant pool; scavenges HOCl (from neutrophil myeloperoxidase), ONOO⁻ (peroxynitrite), and reactive oxygen species; site of S-nitrosylation to form <em>SNO-albumin</em> — a circulating NO reservoir that can transfer NO to erythrocyte haemoglobin-Cys93&beta; for delivery to hypoxic tissues.</p>
-          <p><strong>Fatty acid binding:</strong> 6–8 high-affinity FA binding sites distributed across all three domains. FA binding induces the N&rarr;B conformational transition, allosterically modulating drug-binding affinities at Sudlow sites — a basis of clinically important drug–FA displacement interactions. Albumin maintains plasma free fatty acid concentrations in the nanomolar range, preventing membrane disruption by unbound long-chain FAs.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Mechanism — Oncotic Pressure and FcRn Recycling</h3>
-          <div class="pathway-block">
-<pre>
-  HEPATOCYTE
-       │  Pre-proalbumin (609 aa) synthesised at ribosomes
-       │  Signal peptide (18 aa) cleaved in ER → proalbumin
-       │  Propeptide (6 aa) cleaved in Golgi → mature albumin (585 aa)
-       ▼
-  Secreted directly into hepatic sinusoid
-
-  PLASMA: Albumin at 35-50 g/L
-       │
-       ├──► ONCOTIC PRESSURE (Starling equation)
-       │      πc (oncotic) ≈ 21 mmHg   [albumin ~80% contribution]
-       │      Pc (hydrostatic) ≈ 32 mmHg
-       │      Net filtration into interstitium = minimal → no oedema
-       │      Hypoalbuminaemia → ↓πc → Starling imbalance → OEDEMA / ASCITES
-       │
-       ├──► DRUG TRANSPORT (Sudlow sites I and II)
-       │      Only FREE (unbound) drug fraction is pharmacologically active
-       │      Hypoalbuminaemia → ↑free fraction → toxicity at standard doses
-       │
-       └──► FcRn RECYCLING (t½ ~20 days)
-              Endocytosis into vascular endothelial cells
-              Acidic endosome (pH 6.0): albumin-FcRn HIGH affinity binding
-              Transcytosis to cell surface
-              pH 7.4: albumin released → returns to circulation
-              Albumin not rescued → lysosomal degradation
-</pre>
-          </div>
-          <h4>Drug transport — free-fraction pharmacology</h4>
-          <p>Only the <strong>free (unbound) fraction</strong> of a drug is pharmacologically active, crosses membranes, and is available for hepatic/renal clearance. In hypoalbuminaemia (cirrhosis, nephrotic syndrome, critical illness), drugs with normally high protein binding have dramatically increased free fractions, increasing both efficacy and toxicity at standard doses. Clinically critical examples: warfarin (~99% bound — free fraction doubles with 10 g/L fall in albumin); phenytoin (~90% bound — use corrected level: measured level / [0.2 × albumin g/dL + 0.1]); furosemide (~97% bound — reduced tubular secretion in hypoalbuminaemia).</p>
-          <p><strong>Bilirubin transport:</strong> Unconjugated bilirubin (UCB) binds Sudlow site I with K<sub>D</sub> ~50 nM, maintaining virtually all circulating UCB in bound form at physiological concentrations. When albumin-binding capacity is overwhelmed (severe haemolysis, severe hypoalbuminaemia, or drugs competing for site I such as sulfonamides), free UCB crosses the blood-brain barrier, causing <strong>kernicterus</strong> — bilirubin encephalopathy — in neonates.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Physiological Roles</h3>
-          <table class="data-table">
-            <tr><th>Role</th><th>Mechanism</th><th>Clinical significance</th></tr>
-            <tr><td><strong>Oncotic pressure</strong></td><td>High plasma concentration (~35–50 g/L) + relatively low MW compared to globulins → ~80% of colloid osmotic pressure</td><td>Critical for Starling equilibrium; each 10 g/L decrease in albumin reduces πc by ~2–4 mmHg, tipping toward oedema/ascites formation</td></tr>
-            <tr><td><strong>Fatty acid transport</strong></td><td>6–8 FA binding sites; ferries FFA from adipose to liver and muscle during fasting, exercise, and lipolysis</td><td>Maintains plasma FFA in nanomolar range; unbound long-chain FAs are detergent-like and disrupt membranes at micromolar concentrations</td></tr>
-            <tr><td><strong>Drug transport</strong></td><td>Sudlow sites I and II bind hundreds of clinical drugs with high affinity; only free fraction is active</td><td>Determines Vd and t½ of warfarin, phenytoin, furosemide, benzodiazepines, NSAIDs, antibiotics; hypoalbuminaemia alters dosing requirements</td></tr>
-            <tr><td><strong>Bilirubin binding</strong></td><td>Sudlow site I; KD ~50 nM for UCB; essentially all UCB is albumin-bound under normal conditions</td><td>Prevents kernicterus; UCB–albumin binding capacity overwhelmed in haemolytic disease of newborn or prematurity with hypoalbuminaemia</td></tr>
-            <tr><td><strong>Hormone reservoir</strong></td><td>Secondary binding of cortisol (~10%), T4 (~15%), testosterone (~38%), oestradiol (~40%) — rapidly equilibrating reservoir</td><td>Rapidly releasing (unlike TBG/SHBG); albumin-bound hormone is bioavailable; familial dysalbuminaemia (R218H) → spurious ↑total T4</td></tr>
-            <tr><td><strong>Antioxidant / NO reservoir</strong></td><td>Cys34 free thiol scavenges HOCl, ONOO⁻; S-nitrosylation → SNO-albumin → transfers NO to Hb-Cys93β</td><td>Major plasma antioxidant pool; SNO-albumin may contribute to hypoxic vasodilation by releasing NO in poorly oxygenated tissues</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>albumin</td></tr>
+            <tr><td>Name</td><td>Albumin</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>03-molecular</td></tr>
           </table>
         </div>
 
         <div class="detail-section">
-          <h3>Pathology</h3>
-          <table class="data-table">
-            <tr><th>Condition</th><th>Core mechanism</th><th>Consequences / clinical features</th></tr>
-            <tr><td><strong>Hypoalbuminaemia (&lt;35 g/L)</strong></td><td>↓synthesis (liver failure), ↑urinary loss (nephrotic), protein-losing enteropathy, burns, critical illness, dilution (IV fluids)</td><td>Peripheral oedema, ascites, pulmonary oedema, pleural effusions; dramatically altered drug pharmacokinetics (↑free drug fractions); malnutrition marker in chronic settings</td></tr>
-            <tr><td><strong>Nephrotic syndrome</strong></td><td>Glomerular barrier failure → albumin loss &gt;3.5 g/day in urine (massive urinary albumin loss outpaces hepatic synthesis even at upregulated rates)</td><td>Severe hypoalbuminaemia, anasarca, hyperlipidaemia (↑hepatic VLDL synthesis compensating ↓oncotic pressure), ↑DVT risk (loss of antithrombin III, protein C, protein S)</td></tr>
-            <tr><td><strong>Liver cirrhosis</strong></td><td>Progressive hepatocyte loss + fibrosis → ↓albumin synthetic capacity</td><td>Portal hypertension + hypoalbuminaemia → ascites; Child-Pugh score includes albumin (&lt;2.8 g/dL = 3 points); serum albumin inversely correlates with MELD score and mortality</td></tr>
-            <tr><td><strong>Kwashiorkor</strong></td><td>Selective protein deficiency → ↓albumin synthesis despite adequate caloric intake (marasmus: both protein and calorie deficient, oedema less prominent)</td><td>Peripheral oedema (pitting), "potbelly" (ascites), depigmented hair ("flag sign"), fatty liver; serum albumin &lt;20 g/L in severe cases</td></tr>
-            <tr><td><strong>Acute-phase dilution</strong></td><td>IL-6 → ↓ALB transcription; capillary leak → albumin redistribution to extravascular space; IV fluid dilution</td><td>Transient hypoalbuminaemia in sepsis/surgery; not a nutritional marker acutely; resolves as inflammation resolves; CRP often inversely correlates</td></tr>
-            <tr><td><strong>Kernicterus</strong></td><td>↑UCB overwhelms albumin-binding capacity in neonates (prematurity, haemolysis, drugs competing for site I)</td><td>Bilirubin encephalopathy — acute: lethargy, hypotonia, opisthotonus; chronic: choreoathetoid cerebral palsy, sensorineural deafness, upward gaze palsy</td></tr>
-            <tr><td><strong>Familial dysalbuminaemia</strong></td><td>R218H albumin mutation (autosomal dominant) → abnormally high T4 binding affinity → falsely elevated total T4</td><td>Spurious hyperthyroxinaemia; free T4 and TSH are normal; patient is euthyroid; diagnose by albumin T4-binding assay or genetic testing</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pharmacology / Clinical Use</h3>
-          <p><strong>IV Albumin solutions</strong> (4–5% isooncotic; 20–25% hyperoncotic) have evidence-based indications in cirrhosis: spontaneous bacterial peritonitis (SBP prophylaxis with antibiotics reduces hepatorenal syndrome incidence and mortality — Sort et al., NEJM 1999, NNT ~8 to prevent death); large-volume paracentesis (&gt;5 L, 6–8 g albumin per litre removed prevents post-paracentesis circulatory dysfunction); hepatorenal syndrome type 1 (with terlipressin). Routine use in hypoalbuminaemia in the ICU did not improve mortality in the SAFE trial (albumin vs. saline, n=6,997).</p>
-          <p><strong>Albumin as pharmaceutical platform:</strong> The FcRn recycling pathway is exploited to extend the half-life of therapeutic proteins. Key examples: <em>semaglutide</em> has a C18 fatty diacid modification enabling reversible albumin binding in plasma (albumin acts as the circulating depot, slowing renal clearance) — t½ ~165 hours enabling once-weekly dosing; <em>insulin detemir</em> (C14 myristoyl chain) binds albumin at the SC injection site and in plasma, extending basal insulin action to ~24 hours; albiglutide (GLP-1 fused to albumin) was developed on the same principle.</p>
-          <div class="principle-box">
-            <p><strong>Clinical pearl — corrected drug levels in hypoalbuminaemia:</strong> For highly protein-bound drugs with narrow therapeutic windows, reported "total drug level" may be falsely low or normal while free (active) drug is elevated. Standard correction for phenytoin: <strong>Corrected phenytoin = Reported level / (0.2 × albumin [g/dL] + 0.1)</strong>. In renal failure, use: Corrected = Reported / (0.1 × albumin [g/dL] + 0.1). Always prefer measurement of free (unbound) drug level when available in CKD, cirrhosis, or critically ill patients.</p>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Connections</h3>
+          <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a href="#" class="conn-pill">
-              <span class="rel">Produced by</span>
-              Hepatocyte (~12–14 g/day)
-            </a>
-            <a href="cardiovascular-system.html" class="conn-pill">
-              <span class="rel">Oncotic pressure</span>
-              Cardiovascular System
-            </a>
-            <a href="#" class="conn-pill">
-              <span class="rel">Filtered by</span>
-              Glomerulus (charge barrier)
-            </a>
-            <a href="insulin.html" class="conn-pill targets">
-              <span class="rel">Half-life partner</span>
-              Detemir / Semaglutide (albumin binding)
-            </a>
-            <a href="cortisol.html" class="conn-pill">
-              <span class="rel">Secondary carrier</span>
-              Cortisol (~10% albumin-bound)
-            </a>
-            <a href="thyroid-hormones.html" class="conn-pill">
-              <span class="rel">Secondary carrier</span>
-              T4 (~15% albumin-bound)
-            </a>
-            <a href="fibrinogen.html" class="conn-pill">
-              <span class="rel">Co-negative APR</span>
-              Fibrinogen (positive APR — inverse regulation)
-            </a>
-            <a href="nitric-oxide.html" class="conn-pill">
-              <span class="rel">NO reservoir</span>
-              SNO-albumin (Cys34)
-            </a>
+            <a class="conn-pill" href="hepatocyte.html" title="Albumin is synthesised exclusively by hepatocytes at ~12–14 g/day; albumin mRNA is among the most highly expressed in liver; serum albumin is a key surrogate marker of hepatic synthetic function."><span class="rel">expresses</span>Hepatocyte</a>
+            <a class="conn-pill" href="glomerulus.html" title="Albumin is excluded from filtrate by the glomerular charge barrier; microalbuminuria (≥30 mg/day) indicates glomerular injury in diabetic or hypertensive nephropathy and is the earliest marker of CKD."><span class="rel">modulates</span>Glomerulus</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Albumin generates ~80% of plasma oncotic pressure (~21 mmHg), opposing hydrostatic pressure in Starling equilibrium; hypoalbuminaemia → ↓oncotic pressure → interstitial oedema and ascites."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="kidney.html" title="Only free (albumin-unbound) drugs and hormones are filtered by glomeruli; albumin binding prolongs drug t½; urinary albumin excretion (ACR) is the earliest marker of diabetic nephropathy and CKD progression."><span class="rel">modulates</span>Kidney</a>
+            <a class="conn-pill" href="liver.html" title="Albumin synthesised exclusively by hepatocytes (~12-14 g/day); serum albumin is the key clinical surrogate for hepatic synthetic function; in cirrhosis, hypoalbuminaemia (≤30 g/L) causes ascites; Child-Pugh score uses albumin to grade liver disease severity."><span class="rel">connects-to</span>Liver</a>
+            <a class="conn-pill" href="immune-system.html" title="Albumin is a negative acute-phase protein: IL-6/TNF-α/IL-1β suppress hepatic albumin transcription via STAT3-HNF4α competition; hypoalbuminaemia in sepsis predicts mortality; serum albumin &lt;25 g/L is a WHO criterion for severe acute malnutrition and inflammatory cachexia."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="ards.html" title="Hypoalbuminaemia → reduced oncotic pressure → worsened pulmonary oedema in ARDS; albumin is the predominant protein in alveolar exudate; albumin infusion does not improve ARDS outcomes (SAFE trial); serum albumin &lt;30 g/L at ARDS onset independently predicts 28-day mortality."><span class="rel">connects-to</span>Ards</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Berg JM, Tymoczko JL, Stryer L. <em>Biochemistry.</em> 9th ed. W.H. Freeman; 2019.</li>
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022.</li>
-            <li>Fanali G, et al. Human serum albumin: from bench to bedside. <em>Mol Aspects Med.</em> 2012;33(3):209-90. <a href="https://doi.org/10.1016/j.mam.2011.12.002">doi:10.1016/j.mam.2011.12.002</a></li>
-            <li>Ward ES, Bhatt DL, et al. The role of FcRn in immunity and its therapeutic implications. <em>Nat Rev Immunol.</em> 2020;20:399–407. <a href="https://doi.org/10.1038/s41577-019-0260-y">doi:10.1038/s41577-019-0260-y</a></li>
-            <li>Sort P, et al. Effect of intravenous albumin on renal impairment and mortality in patients with cirrhosis and spontaneous bacterial peritonitis. <em>N Engl J Med.</em> 1999;341:403-9. <a href="https://doi.org/10.1056/NEJM199908053410603">doi:10.1056/NEJM199908053410603</a></li>
-            <li>SAFE Study Investigators. A comparison of albumin and saline for fluid resuscitation in the intensive care unit. <em>N Engl J Med.</em> 2004;350:2247-56. <a href="https://doi.org/10.1056/NEJMoa040232">doi:10.1056/NEJMoa040232</a></li>
+            <li><a href="https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X" target="_blank" rel="noopener noreferrer">Berg JM, Tymoczko JL, Stryer L. Biochemistry. 9th ed. W.H. Freeman; 2019.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
           </ul>
         </div>
 
@@ -283,19 +185,14 @@
   </main>
 
   <footer>
-    <p class="footer-tag">Part of the <a href="index.html">Human Engineering</a> project — an open, free, multi-scale model of human biology and medicine.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="insulin.html">Insulin</a>
-      <a href="hemoglobin.html">Hemoglobin</a>
-      <a href="cholesterol.html">Cholesterol</a>
-      <a href="https://github.com/bpupadhyaya/human">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
-    <p class="footer-meta" style="margin-top:0.5rem;">&copy; <span id="year"></span> Bhim Upadhyaya</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

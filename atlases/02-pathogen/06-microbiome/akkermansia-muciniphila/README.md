@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: modulates
     note: "A. muciniphila colonises the inner mucus layer of the large intestine exclusively, degrading MUC2 O-glycans to release monosaccharides for energy. This mucin turnover stimulates goblet cell MUC2 resynthesis, increases mucus layer thickness, and reduces epithelial exposure to luminal LPS."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: modulates
+    note: "Amuc_1100 activates TLR2 on intestinal epithelial cells → upregulates claudin-3 and ZO-1 → reinforces tight junctions → reduces permeability; pasteurized A. muciniphila retains this activity; Amuc_1100 reduces FITC-dextran gut permeability in obese/diabetic mouse models."
+  - target: 01-human/07-system/gut-microbiome
+    relation: modulates
+    note: "A. muciniphila is the dominant Verrucomicrobia in healthy gut microbiome (1-4%); produces acetate and propionate from mucin fermentation → cross-feeds butyrate-producing Faecalibacterium; inversely correlated with Firmicutes:Bacteroidetes dysbiosis in obesity, T2DM, and IBD."
+  - target: 03-medicine/01-modern/07-metabolic/metformin
+    relation: connects-to
+    note: "Metformin increases A. muciniphila 2-3× in T2DM patients (Wu 2017 Nature); A. muciniphila mediates microbiome-dependent glucose-lowering effects of metformin; combined supplementation may reduce required metformin dose; metformin-induced bile acid changes support akkermansia growth."
 ---
 
 # Akkermansia muciniphila
@@ -150,6 +159,12 @@ The most direct host interaction of *A. muciniphila* is maintenance of the colon
 
 **Modulates** → [Large intestine](../../../01-human/06-organ/large-intestine/README.md): *A. muciniphila* resides exclusively in the large intestine's inner mucus layer, metabolising colonic MUC2 glycoproteins, cross-feeding the broader microbiome, and providing propionate and acetate to colonocytes and the portal system. Its abundance correlates with colonic barrier integrity and local immune homeostasis.
 
+**Modulates** → [Intestinal Epithelium](../../../01-human/05-tissue/intestinal-epithelium/README.md): Amuc_1100 outer membrane protein activates TLR2 on intestinal epithelial cells, upregulating tight junction proteins claudin-3 and ZO-1 → reduces intestinal permeability; pasteurized *A. muciniphila* retains full Amuc_1100 activity, making heat-killed formulations viable for clinical translation.
+
+**Modulates** → [Gut Microbiome](../../../01-human/07-system/gut-microbiome/README.md): *A. muciniphila* (1–4% of healthy microbiome) produces acetate and propionate from mucin fermentation that cross-feed butyrate-producing Faecalibacterium prausnitzii and Roseburia; its abundance inversely correlates with dysbiosis across obesity, T2DM, IBD, and CRC.
+
+**Connects to** → [Metformin](../../../../03-medicine/01-modern/07-metabolic/metformin/README.md): Metformin increases *A. muciniphila* abundance 2–3× in T2DM patients (Wu 2017, Nature); *A. muciniphila* boom mediates microbiome-dependent glucose-lowering effects of metformin; combined *A. muciniphila* + metformin may reduce required drug dose and improve metabolic outcomes.
+
 ## Pathology
 
 ### Dysbiosis-Associated Conditions
@@ -183,4 +198,4 @@ Live *A. muciniphila* was equally effective; the pasteurized form offers superio
 [^depommier-2019-akkermansia-human-trial]: Depommier C, Everard A, Druart C, et al. Supplementation with *Akkermansia muciniphila* in overweight and obese human volunteers: a proof-of-concept exploratory study. *Nat Med.* 2019;25(7):1096-103. [doi:10.1038/s41591-019-0495-2](https://doi.org/10.1038/s41591-019-0495-2) · [PubMed 31263284](https://pubmed.ncbi.nlm.nih.gov/31263284/)
 
 ---
-*This page is co-maintained with AI assistance. Content is reviewed for accuracy but may not reflect the latest clinical guidelines. See the [project disclaimer](../../../../README.md) for details.*
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

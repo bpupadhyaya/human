@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: modulates
     note: "Only free (albumin-unbound) drugs and hormones are filtered by glomeruli; albumin binding prolongs drug t½; urinary albumin excretion (ACR) is the earliest marker of diabetic nephropathy and CKD progression."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Albumin synthesised exclusively by hepatocytes (~12-14 g/day); serum albumin is the key clinical surrogate for hepatic synthetic function; in cirrhosis, hypoalbuminaemia (≤30 g/L) causes ascites; Child-Pugh score uses albumin to grade liver disease severity."
+  - target: 01-human/07-system/immune-system
+    relation: modulates
+    note: "Albumin is a negative acute-phase protein: IL-6/TNF-α/IL-1β suppress hepatic albumin transcription via STAT3-HNF4α competition; hypoalbuminaemia in sepsis predicts mortality; serum albumin <25 g/L is a WHO criterion for severe acute malnutrition and inflammatory cachexia."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Hypoalbuminaemia → reduced oncotic pressure → worsened pulmonary oedema in ARDS; albumin is the predominant protein in alveolar exudate; albumin infusion does not improve ARDS outcomes (SAFE trial); serum albumin <30 g/L at ARDS onset independently predicts 28-day mortality."
 ---
 
 # Albumin
@@ -132,6 +141,9 @@ This recycling mechanism explains the ~20-day half-life of both albumin and IgG 
 - **Modulates** → [Glomerulus](../../05-tissue/glomerulus/README.md): Albumin is excluded from filtrate by the glomerular charge barrier (net negative charge at pH 7.4 repels the GBM polyanion layer); microalbuminuria indicates glomerular injury (diabetic/hypertensive nephropathy) [^alberts-mol-cell-biology].
 - **Modulates** → [Cardiovascular System](../../07-system/cardiovascular-system/README.md): Albumin generates ~80% of plasma oncotic pressure (~21 mmHg), opposing hydrostatic pressure in Starling equilibrium; hypoalbuminaemia reduces oncotic pressure, driving interstitial oedema and ascites [^stryer-biochemistry].
 - **Modulates** → [Kidney](../../06-organ/kidney/README.md): Only free (albumin-unbound) drugs and hormones are filtered by glomeruli; albumin binding prolongs drug t½; urinary albumin excretion (ACR) is the earliest marker of diabetic nephropathy and CKD progression [^alberts-mol-cell-biology].
+- **Connects to** → [Liver](../../06-organ/liver/README.md): Hepatocytes synthesise ~12–14 g albumin per day; serum albumin is the principal marker of hepatic synthetic function; in cirrhosis, hypoalbuminaemia causes ascites via reduced oncotic pressure; Child-Pugh score incorporates albumin to stratify severity.
+- **Modulates** → [Immune System](../../07-system/immune-system/README.md): Albumin is a negative acute-phase protein — IL-6, TNF-α, and IL-1β suppress hepatic albumin transcription via STAT3-HNF4α competition; hypoalbuminaemia in sepsis is an independent predictor of ICU mortality; albumin <25 g/L is the WHO threshold for severe acute malnutrition.
+- **Connects to** → [ARDS](../../06-organ/ards/README.md): Hypoalbuminaemia reduces plasma oncotic pressure, worsening transcapillary fluid leak into ARDS-injured lungs; albumin is the predominant protein in alveolar exudate; IV albumin infusion does not improve ARDS outcomes (SAFE trial data); albumin <30 g/L at ARDS onset predicts 28-day mortality.
 
 ## Pathology
 
@@ -157,3 +169,6 @@ This recycling mechanism explains the ~20-day half-life of both albumin and IgG 
 
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019.
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
