@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "CD4+ T cells (IL-2-dependent) drive macrophage recruitment and paranodal demyelination in CIDP; Treg dysfunction may predispose; low-dose IL-2 for Treg expansion is under investigation as adjunct therapy in refractory CIDP and other autoimmune neuropathies."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "CIDP and GBS share peripheral nerve demyelination but differ in course: CIDP is chronic (>8 weeks); GBS is acute monophasic triggered by Campylobacter or EBV; both respond to IVIG and PLEX acutely; CIDP requires chronic immunosuppression; early CIDP may be misdiagnosed as GBS."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages are primary effectors of myelin destruction in CIDP via paranodal myelin stripping and FcR-mediated phagocytosis; IVIG blocks macrophage FcγR; macrophage TNF-α drives oxidative myelin damage; endoneurial macrophage infiltration is the histological hallmark of CIDP."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-α elevated in CIDP endoneurium and serum; macrophage TNF-α drives oxidative myelin damage and Schwann cell apoptosis; anti-TNF agents (etanercept, infliximab) are CONTRAINDICATED in CIDP — they paradoxically worsen or trigger demyelinating neuropathy (FDA black box warning)."
 ---
 
 # CIDP
@@ -189,9 +198,16 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 ## Connections
 
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn recycles anti-paranodal IgG4 (anti-NF155, anti-CNTN1) sustaining pathogenic titers in CIDP; efgartigimod alfa SC (ADHERE: 67% vs 36% INCAT response; FDA Jun 2024) accelerates IgG catabolism and reduces IVIG requirements.
-- **Modulated by** → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — IVIG (2 g/kg; ICE trial Lancet Neurol 2008) is first-line CIDP therapy; pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal junctions; efgartigimod reduces total IgG catabolism.
+- `modulated-by` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — IVIG (2 g/kg; ICE trial Lancet Neurol 2008) is first-line CIDP therapy; pathogenic IgG4 anti-NF155 and anti-CNTN1 disrupt paranodal junctions; efgartigimod reduces total IgG catabolism.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — CIDP demyelinates peripheral nerves via macrophage-mediated paranodal stripping and anti-paranodal IgG4; NCS shows slowed conduction velocity, conduction blocks, and F-wave prolongation; axonal loss occurs secondary to chronic demyelination.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CD4+ T cells (IL-2-dependent) drive macrophage recruitment and paranodal demyelination in CIDP; Treg dysfunction may predispose; low-dose IL-2 Treg expansion under investigation as adjunct therapy.
+- `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — CIDP and GBS share peripheral nerve demyelination but differ in course: CIDP is chronic (>8 weeks); GBS is acute monophasic triggered by Campylobacter or EBV; both respond to IVIG and PLEX acutely; CIDP requires chronic immunosuppression; early CIDP may be misdiagnosed as GBS.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are primary effectors of myelin destruction in CIDP via paranodal myelin stripping and FcR-mediated phagocytosis; IVIG blocks macrophage FcγR; macrophage TNF-α drives oxidative myelin damage; endoneurial macrophage infiltration is the histological hallmark of CIDP.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α elevated in CIDP endoneurium and serum; macrophage TNF-α drives oxidative myelin damage and Schwann cell apoptosis; anti-TNF agents (etanercept, infliximab) are CONTRAINDICATED in CIDP — they paradoxically worsen or trigger demyelinating neuropathy (FDA black box warning).
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^vanlaar-2010-efns-cidp]: European Federation of Neurological Societies/Peripheral Nerve Society. Guideline on management of CIDP. *J Peripher Nerv Syst.* 2010;15(1):1-9. [doi:10.1111/j.1529-8027.2010.00238.x](https://doi.org/10.1111/j.1529-8027.2010.00238.x) · [PubMed 20433600](https://pubmed.ncbi.nlm.nih.gov/20433600/)
 [^merkies-2008-ivig-ice]: Hughes RA, et al. Intravenous immune globulin for CIDP (ICE study). *Lancet Neurol.* 2008;7(2):136-144. [doi:10.1016/S1474-4422(07)70329-0](https://doi.org/10.1016/S1474-4422(07)70329-0) · [PubMed 18178525](https://pubmed.ncbi.nlm.nih.gov/18178525/)

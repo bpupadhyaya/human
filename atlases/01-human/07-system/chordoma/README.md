@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGFRA/PDGFRB overexpressed in >80% chordomas; imatinib (PDGFR inhibitor) achieves stable disease in ~35-40% (Stacchiotti 2012, Phase 2); PDGF-BB autocrine loop in chordoma cells; erlotinib + imatinib combination achieves partial response in small Phase 2 series."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN loss in ~15-20% chordomas → AKT-mTOR hyperactivation + increased VEGF; PI3K inhibitors studied in PTEN-deficient chordoma; PTEN co-deletion with CDKN2A in ~8-10% → simultaneous CDK4/6 and mTOR hyperactivation; PTEN loss correlates with worse prognosis in chordoma."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDKN2A deletion in ~30-40% of chordomas → CDK4/6 hyperactivation → RB1 phosphorylation → S-phase entry; palbociclib Phase 2 (NCT03110744) in CDKN2A-deleted chordoma; dedifferentiated chordoma shows CDK4 amplification and MDM2 co-amplification as hallmarks."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A homozygous deletion in ~30-40% chordomas; eliminates both p16 (CDK4/6 checkpoint) and ARF (p53 stabilization); deletion at 9p21 is among the earliest molecular events in chordoma progression; CDKN2A loss correlates with worse prognosis and dedifferentiated transformation."
 ---
 
 # Chordoma
@@ -174,6 +183,13 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PTEN loss in ~15-20% chordomas → AKT/mTOR hyperactivation; mTOR pathway activated downstream of FGFR/PDGFR in chordoma; everolimus achieves stable disease in ~50% (Schwab 2015, Phase 2); mTOR + FGFR combinations under investigation; lapatinib + everolimus Phase 2 showed activity.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR1/2/3 overexpressed in ~50% chordomas; FGFR-driven MAPK/PI3K → tumor growth; erdafitinib (pan-FGFR) active in FGFR-altered chordoma (Phase 2); FGF4/FGF8 autocrine loop driven by TBXT transcription; FGFR inhibitors synergize with mTOR inhibitors in preclinical models.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGFRA/PDGFRB overexpressed in >80% chordomas; imatinib (PDGFR inhibitor) achieves stable disease in ~35-40% (Stacchiotti 2012, Phase 2); PDGF-BB autocrine loop in chordoma cells; erlotinib + imatinib combination achieves partial response in small Phase 2 series.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss in ~15-20% chordomas → AKT-mTOR hyperactivation + increased VEGF; PI3K inhibitors studied in PTEN-deficient chordoma; PTEN co-deletion with CDKN2A in ~8-10% → simultaneous CDK4/6 and mTOR hyperactivation; PTEN loss correlates with worse prognosis in chordoma.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A deletion in ~30-40% of chordomas → CDK4/6 hyperactivation → RB1 phosphorylation → S-phase entry; palbociclib Phase 2 (NCT03110744) in CDKN2A-deleted chordoma; dedifferentiated chordoma shows CDK4 amplification and MDM2 co-amplification as hallmarks.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A homozygous deletion in ~30-40% chordomas; eliminates both p16 (CDK4/6 checkpoint) and ARF (p53 stabilization); deletion at 9p21 is among the earliest molecular events in chordoma progression; CDKN2A loss correlates with worse prognosis and dedifferentiated transformation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stacchiotti-2012-imatinib-chordoma]: Stacchiotti S, Longhi A, Ferraresi V, et al. Phase II study of imatinib in advanced chordoma. *J Clin Oncol.* 2012;30(9):914-920. [doi:10.1200/JCO.2011.35.3656](https://doi.org/10.1200/JCO.2011.35.3656) · [PubMed 22330157](https://pubmed.ncbi.nlm.nih.gov/22330157/)
 [^yang-2009-tbxt-chordoma]: Yang XR, Ng D, Alcorta DA, et al. T (brachyury) gene duplication confers major susceptibility to familial chordoma. *Nat Genet.* 2009;41(11):1176-1178. [doi:10.1038/ng.454](https://doi.org/10.1038/ng.454) · [PubMed 19801977](https://pubmed.ncbi.nlm.nih.gov/19801977/)
