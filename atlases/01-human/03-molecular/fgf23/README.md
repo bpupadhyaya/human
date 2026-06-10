@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "FGF23 stimulates aldosterone secretion from the adrenal gland via FGFR1 independently of the RAAS; elevated FGF23 in CKD → hyperaldosteronism → volume expansion and hypertension; FGF23-aldosterone axis may amplify cardiovascular risk in CKD beyond RAAS blockade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "FGF23 signals via FGFR1c/αKlotho ternary complex in kidney and parathyroid; FGFR4 mediates cardiac hypertrophy at CKD-level FGF23; FGFR inhibitors (erdafitinib) block FGF23/FGFR1 → hyperphosphatemia as on-target toxicity requiring dietary phosphate restriction."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "FGF23 is the primary phosphate-regulating hormone; binds FGFR1/αKlotho → NaPi-IIa/IIc internalization → phosphaturia; genetic FGF23 excess (XLH, ADHR) → hypophosphatemic rickets/osteomalacia; burosumab (anti-FGF23) restores phosphate reabsorption and heals rickets."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "FGF23 directly suppresses PTH via FGFR1/αKlotho on parathyroid chief cells; in CKD, declining αKlotho causes FGF23 resistance → PTH escape → secondary hyperparathyroidism despite very high FGF23; calcimimetics (cinacalcet) reduce PTH and secondarily lower FGF23 in CKD-MBD."
 sources:
   - id: shimada-2004-fgf23-vitamin-d
     type: peer-reviewed
@@ -123,13 +132,17 @@ In CKD, phosphate retention is the earliest metabolic derangement (even when GFR
 
 ## Connections
 
-FGF23 rises 100-1000× in CKD → suppresses 1α-hydroxylase → reduced calcitriol → secondary hyperparathyroidism and CKD-MBD; very high FGF23 predicts LVH, heart failure, and mortality in dialysis patients independent of traditional risk factors.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — FGF23 rises 100-1000× in CKD → suppresses 1α-hydroxylase → reduced calcitriol → secondary hyperparathyroidism and CKD-MBD; very high FGF23 predicts LVH, heart failure, and mortality in dialysis patients independent of traditional risk factors.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — Elevated FGF23 in CKD activates cardiac FGFR4 independent of αKlotho → HDAC4 nuclear translocation → cardiac hypertrophic gene program → LVH and HF; FGF23 is an independent predictor of incident heart failure and cardiovascular death in CKD and the general population.
+- `connects-to` → **[Osteoporosis](../../07-system/osteoporosis/README.md)** — FGF23 inhibits 1α-hydroxylase → reduces calcitriol → decreases intestinal calcium absorption → bone demineralization; genetic FGF23 excess (XLH, ARHR) causes hypophosphatemic rickets; burosumab (anti-FGF23 mAb) corrects hypophosphatemia and heals rickets in XLH.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — FGF23 stimulates aldosterone secretion from the adrenal gland via FGFR1 independently of the RAAS; elevated FGF23 in CKD → hyperaldosteronism → volume expansion and hypertension; FGF23-aldosterone axis may amplify cardiovascular risk in CKD beyond RAAS blockade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGF23 signals via FGFR1c/αKlotho ternary complex in kidney and parathyroid; FGFR4 mediates cardiac hypertrophy at CKD-level FGF23; FGFR inhibitors (erdafitinib) block FGF23/FGFR1 → hyperphosphatemia as on-target toxicity requiring dietary phosphate restriction.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — FGF23 is the primary phosphate-regulating hormone; binds FGFR1/αKlotho → NaPi-IIa/IIc internalization → phosphaturia; genetic FGF23 excess (XLH, ADHR) → hypophosphatemic rickets/osteomalacia; burosumab (anti-FGF23) restores phosphate reabsorption and heals rickets.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — FGF23 directly suppresses PTH via FGFR1/αKlotho on parathyroid chief cells; in CKD, declining αKlotho causes FGF23 resistance → PTH escape → secondary hyperparathyroidism despite very high FGF23; calcimimetics (cinacalcet) reduce PTH and secondarily lower FGF23 in CKD-MBD.
 
-Elevated FGF23 in CKD activates cardiac FGFR4 independent of αKlotho → HDAC4 nuclear translocation → cardiac hypertrophic gene program → LVH and HF; FGF23 is an independent predictor of incident heart failure and cardiovascular death in CKD and the general population.
+---
 
-FGF23 inhibits 1α-hydroxylase → reduces calcitriol → decreases intestinal calcium absorption → bone demineralization; genetic FGF23 excess (XLH, ARHR) causes hypophosphatemic rickets; burosumab (anti-FGF23 mAb) corrects hypophosphatemia and heals rickets in XLH.
-
-FGF23 stimulates aldosterone secretion from the adrenal gland via FGFR1 independently of the RAAS; elevated FGF23 in CKD → hyperaldosteronism → volume expansion and hypertension; FGF23-aldosterone axis may amplify cardiovascular risk in CKD beyond RAAS blockade.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^shimada-2004-fgf23-vitamin-d]: Shimada T, Hasegawa H, Yamazaki Y, et al. FGF-23 is a potent regulator of vitamin D metabolism and phosphate homeostasis. *J Bone Miner Res.* 2004;19(3):429-435. [doi:10.1359/JBMR.0301264](https://doi.org/10.1359/JBMR.0301264) · [PubMed 15040830](https://pubmed.ncbi.nlm.nih.gov/15040830/)
 [^gutierrez-2008-fgf23-mortality]: Gutierrez OM, Mannstadt M, Isakova T, et al. Fibroblast growth factor 23 and mortality among patients undergoing hemodialysis. *N Engl J Med.* 2008;359(6):584-592. [doi:10.1056/NEJMoa0706130](https://doi.org/10.1056/NEJMoa0706130) · [PubMed 18687639](https://pubmed.ncbi.nlm.nih.gov/18687639/)

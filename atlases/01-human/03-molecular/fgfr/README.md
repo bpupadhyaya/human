@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "FGFR1/2/3 and EGFR share downstream RAS-MAPK and PI3K-AKT; FGF2-FGFR1 mediates resistance to EGFR TKIs in NSCLC and cetuximab in colorectal cancer; dual FGFR+EGFR inhibition restores TKI sensitivity in FGFR-driven EGFR-TKI-resistant NSCLC in preclinical models."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "FGF23 signals via FGFR1c/αKlotho in kidney (phosphate excretion) and parathyroid (PTH suppression); FGFR4 drives cardiac hypertrophy in CKD at high FGF23 concentrations; FGFR inhibitors (erdafitinib) block FGF23/FGFR1 → hyperphosphatemia requiring phosphate management."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "FGFR3 mutations (S249C, R248C, K652E) and FGFR3-TACC3 fusions drive ~25-35% of urothelial carcinoma; erdafitinib (pan-FGFR inhibitor) FDA-approved for FGFR3-altered metastatic bladder cancer (THOR: OS 12.1 vs. 7.8 months vs. pembrolizumab in FGFR-selected patients)."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "FGFR2 fusions/rearrangements in ~15-20% of intrahepatic cholangiocarcinoma; pemigatinib (FIGHT-202: ORR 36%) and futibatinib (FOENIX-CCA2: ORR 42%) are FDA-approved; covalent futibatinib overcomes gatekeeper V564F resistance to reversible pemigatinib."
 ---
 
 # FGFR
@@ -154,6 +163,13 @@ The 22 FGF ligands fall into 6 subfamilies with specific FGFR preferences:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — FGFR signals through PI3K-AKT → mTORC1 → protein synthesis and cell survival; mTOR inhibitors combined with FGFR inhibitors synergize in FGFR2-amplified gastric and breast cancer models; FGFR2 amplification activates mTORC1 independently of AKT in some gastric cancers.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — FGFR amplification and KRAS mutation co-occur in bladder and lung cancers; FGFR1 amplification can substitute for KRAS mutation in NSCLC; FGFR-KRAS converge on ERK → cyclin D1 → G1/S entry; FGFR3-KRAS co-alterations in bladder cancer portend worse prognosis.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — FGFR1/2/3 and EGFR share downstream RAS-MAPK and PI3K-AKT; FGF2-FGFR1 mediates resistance to EGFR TKIs in NSCLC and cetuximab in colorectal cancer; dual FGFR+EGFR inhibition restores TKI sensitivity in FGFR-driven EGFR-TKI-resistant NSCLC in preclinical models.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — FGF23 signals via FGFR1c/αKlotho in kidney (phosphate excretion) and parathyroid (PTH suppression); FGFR4 drives cardiac hypertrophy in CKD at high FGF23 concentrations; FGFR inhibitors (erdafitinib) block FGF23/FGFR1 → hyperphosphatemia requiring phosphate management.
+- `connects-to` → **[Bladder Cancer](../../07-system/bladder-cancer/README.md)** — FGFR3 mutations (S249C, R248C, K652E) and FGFR3-TACC3 fusions drive ~25-35% of urothelial carcinoma; erdafitinib (pan-FGFR inhibitor) FDA-approved for FGFR3-altered metastatic bladder cancer (THOR: OS 12.1 vs. 7.8 months vs. pembrolizumab in FGFR-selected patients).
+- `connects-to` → **[Cholangiocarcinoma](../../07-system/cholangiocarcinoma/README.md)** — FGFR2 fusions/rearrangements in ~15-20% of intrahepatic cholangiocarcinoma; pemigatinib (FIGHT-202: ORR 36%) and futibatinib (FOENIX-CCA2: ORR 42%) are FDA-approved; covalent futibatinib overcomes gatekeeper V564F resistance to reversible pemigatinib.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^loriot-2019-erdafitinib]: Loriot Y, Necchi A, Park SH, et al. Erdafitinib in locally advanced or metastatic urothelial carcinoma. *N Engl J Med.* 2019;381(4):338-348. [doi:10.1056/NEJMoa1817323](https://doi.org/10.1056/NEJMoa1817323) · [PubMed 31340094](https://pubmed.ncbi.nlm.nih.gov/31340094/)
 [^abou-alfa-2020-pemigatinib]: Abou-Alfa GK, Sahai V, Hollebecque A, et al. Pemigatinib for previously treated, locally advanced or metastatic cholangiocarcinoma. *Lancet Oncol.* 2020;21(5):671-684. [doi:10.1016/S1470-2045(20)30109-1](https://doi.org/10.1016/S1470-2045(20)30109-1) · [PubMed 32203698](https://pubmed.ncbi.nlm.nih.gov/32203698/)
