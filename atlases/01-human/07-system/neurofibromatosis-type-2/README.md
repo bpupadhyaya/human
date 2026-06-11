@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/mesothelioma
     relation: connects-to
     note: "NF2 somatic LOF in ~50% of mesothelioma → nuclear YAP1 → TEAD-driven survival; NF2 germline carriers have elevated mesothelioma risk (beyond asbestos exposure); TEAD inhibitors (K-975, VT3989) in clinical trials for NF2-deficient mesothelioma; merlin IHC loss in diagnosis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VS stromal cells secrete VEGF (driven by nuclear YAP1), producing edema and vascularity that compress the cochlear nerve; bevacizumab (anti-VEGF) shrinks ~55% of growing vestibular schwannomas and improves hearing in ~57% — a non-surgical option for failing hearing."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "Schwannomatosis is the key NF2 mimic: both cause multiple schwannomas, but bilateral vestibular schwannomas are pathognomonic for NF2 and absent in schwannomatosis (SMARCB1/LZTR1, chronic-pain-predominant); a gene panel and dedicated internal-auditory-canal MRI separate them."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "NF2 schwannomas arise from the Schwann-cell sheath of cranial and peripheral nerves — bilateral on the vestibular nerve (CN VIII), plus spinal nerve-root schwannomas in ~43% (string-of-pearls on MRI); each tumor needs an independent somatic second hit at the NF2 locus."
 ---
 
 # Neurofibromatosis Type 2
@@ -159,6 +168,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — YAP1 is the principal Hippo pathway effector released by NF2 LOF; nuclear YAP1-TEAD drives CTGF, CYR61, survivin target genes → schwannoma and meningioma proliferation; TEAD inhibitors (K-975, IK-930, VT3989) in clinical trials for NF2-deficient tumors.
 - `connects-to` → **[Meningioma](../../07-system/meningioma/README.md)** — Meningioma is the most common NF2 disease tumor; NF2 germline → bilateral and multiple meningiomas (and cranial nerve schwannomas); NF2 somatic LOF is the most common alteration in sporadic meningioma (~55%); RT avoided when possible in NF2 disease to prevent new tumor induction.
 - `connects-to` → **[Mesothelioma](../../07-system/mesothelioma/README.md)** — NF2 somatic LOF in ~50% of mesothelioma → nuclear YAP1 → TEAD-driven survival; NF2 germline carriers have elevated mesothelioma risk (beyond asbestos exposure); TEAD inhibitors (K-975, VT3989) in clinical trials for NF2-deficient mesothelioma; merlin IHC loss in diagnosis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VS stromal cells secrete VEGF (driven by nuclear YAP1), producing edema and vascularity that compress the cochlear nerve; bevacizumab (anti-VEGF) shrinks ~55% of growing vestibular schwannomas and improves hearing in ~57% — a non-surgical option for failing hearing.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Schwannomatosis is the key NF2 mimic: both cause multiple schwannomas, but bilateral vestibular schwannomas are pathognomonic for NF2 and absent in schwannomatosis (SMARCB1/LZTR1, chronic-pain-predominant); a gene panel and dedicated internal-auditory-canal MRI separate them.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — NF2 schwannomas arise from the Schwann-cell sheath of cranial and peripheral nerves — bilateral on the vestibular nerve (CN VIII), plus spinal nerve-root schwannomas in ~43% (string-of-pearls on MRI); each tumor needs an independent somatic second hit at the NF2 locus.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

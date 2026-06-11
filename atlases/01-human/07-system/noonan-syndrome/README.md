@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/nf1
     relation: connects-to
     note: "Noonan syndrome and neurofibromatosis type 1 (NF1) are both RASopathies with overlapping features (café-au-lait spots, pulmonary stenosis, learning differences, short stature); NF1 LOF → RAS-GTP accumulation via GAP loss; PTPN11 GOF → RAS-GTP accumulation via SHP2 activation."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Congenital heart disease affects ~80% of Noonan syndrome: a dysplastic, thickened pulmonary valve causes stenosis in ~50-60% (often balloon-resistant), while RAF1 mutations drive hypertrophic cardiomyopathy in ~20-30%, which MEK inhibitors can reverse."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Every Noonan gene — PTPN11, SOS1, RAF1, KRAS, RIT1, LZTR1 — converges on ERK1/2 hyperactivation during embryogenesis, and the degree of ERK activity grades severity; because MEK1/2 sits just upstream of ERK, MEK inhibitors (trametinib) can normalize signaling and reverse HCM."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "LZTR1 links Noonan syndrome to schwannomatosis through opposite effects of the same gene: dominant LZTR1 mutations cause Noonan (RAS accumulation, developmental phenotype), whereas biallelic LOF or dominant-negative LZTR1 causes schwannomatosis (multiple painful schwannomas)."
 ---
 
 # Noonan Syndrome
@@ -177,6 +186,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[LZTR1](../../03-molecular/lztr1/README.md)** — PTPN11 and LZTR1 are both RASopathy genes causing Noonan syndrome: PTPN11 GOF hyperactivates SHP2/RAS signaling; LZTR1 LOF prevents CUL3-mediated RAS ubiquitination → RAS accumulation; both disorders share short stature, pulmonary stenosis, and HCM features.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS mutations cause ~5% of Noonan syndrome; KRAS GOF → constitutive RAS-MAPK activation even without upstream SHP2 signal; Noonan syndrome with KRAS mutations tends to have more severe intellectual disability; KRAS G12D drives JMML in Noonan-associated leukemia.
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — Noonan syndrome and neurofibromatosis type 1 (NF1) are both RASopathies with overlapping features (café-au-lait spots, pulmonary stenosis, learning differences, short stature); NF1 LOF → RAS-GTP accumulation via GAP loss; PTPN11 GOF → RAS-GTP accumulation via SHP2 activation.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Congenital heart disease affects ~80% of Noonan syndrome: a dysplastic, thickened pulmonary valve causes stenosis in ~50-60% (often balloon-resistant), while RAF1 mutations drive hypertrophic cardiomyopathy in ~20-30%, which MEK inhibitors can reverse.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Every Noonan gene — PTPN11, SOS1, RAF1, KRAS, RIT1, LZTR1 — converges on ERK1/2 hyperactivation during embryogenesis, and the degree of ERK activity grades severity; because MEK1/2 sits just upstream of ERK, MEK inhibitors (trametinib) can normalize signaling and reverse HCM.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — LZTR1 links Noonan syndrome to schwannomatosis through opposite effects of the same gene: dominant LZTR1 mutations cause Noonan (RAS accumulation, developmental phenotype), whereas biallelic LOF or dominant-negative LZTR1 causes schwannomatosis (multiple painful schwannomas).
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
