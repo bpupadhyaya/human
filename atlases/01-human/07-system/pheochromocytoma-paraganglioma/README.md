@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "PHEO/PGL Cluster 1 (SDHx, VHL) activate HIF-1α by pseudohypoxia → VEGF, GLUT1 transcription; HIF-1α drives tumor angiogenesis; HIF-1α target expression predicts malignant behavior; 18F-FDG PET avidity in SDHB-mutant PHEO correlates with HIF-1α-driven metabolic reprogramming."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Pheochromocytomas arise in the adrenal medulla from chromaffin cells, pouring epinephrine and norepinephrine into the adrenal vein; surgery demands 10-14 days of alpha-adrenergic blockade first (beta only after) to prevent intraoperative hypertensive crisis."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Neurofibromatosis type 1 is a Cluster 2 (kinase-signaling) hereditary pheochromocytoma syndrome: ~3-4% of NF1 patients develop adrenal, epinephrine-secreting PHEO; loss of neurofibromin's RAS-GAP activity drives the chromaffin tumor, paralleling RET-driven MEN2 PHEO."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Chromaffin tumors synthesize epinephrine and norepinephrine but are best detected by their continuously produced O-methylated metabolites — plasma free metanephrines (~97-99% sensitive); paroxysmal catecholamine surges cause episodic hypertension, palpitations, and headache."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -181,6 +190,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — VHL-mutant PHEO/PGL: Cluster 1 pseudohypoxia; bilateral PHEO in ~10-20% VHL patients; VHL type 2C (missense): PHEO-only phenotype; VHL-mutant PHEO is predominantly norepinephrine-secreting; sunitinib active in VHL-mutant metastatic PHEO/PGL; 68Ga-DOTATATE PET for staging.
 - `connects-to` → **[RET](../../03-molecular/ret/README.md)** — RET mutations in PHEO/PGL: Cluster 2 kinase signaling; RET M918T (MEN2B, most aggressive) or C634F/Y (MEN2A) → PHEO in ~40-50% MEN2A/B; epinephrine-predominant secretion; bilateral adrenal PHEO; prophylactic adrenalectomy in MEN2B; vandetanib/cabozantinib active in MTC.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — PHEO/PGL Cluster 1 (SDHx, VHL) activate HIF-1α by pseudohypoxia → VEGF, GLUT1 transcription; HIF-1α drives tumor angiogenesis; HIF-1α target expression predicts malignant behavior; 18F-FDG PET avidity in SDHB-mutant PHEO correlates with HIF-1α-driven metabolic reprogramming.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Pheochromocytomas arise in the adrenal medulla from chromaffin cells, pouring epinephrine and norepinephrine into the adrenal vein; surgery demands 10-14 days of alpha-adrenergic blockade first (beta only after) to prevent intraoperative hypertensive crisis.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Neurofibromatosis type 1 is a Cluster 2 (kinase-signaling) hereditary pheochromocytoma syndrome: ~3-4% of NF1 patients develop adrenal, epinephrine-secreting PHEO; loss of neurofibromin's RAS-GAP activity drives the chromaffin tumor, paralleling RET-driven MEN2 PHEO.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Chromaffin tumors synthesize epinephrine and norepinephrine but are best detected by their continuously produced O-methylated metabolites — plasma free metanephrines (~97-99% sensitive); paroxysmal catecholamine surges cause episodic hypertension, palpitations, and headache.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

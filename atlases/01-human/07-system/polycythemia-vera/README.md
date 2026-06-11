@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "PV transforms to post-PV myelofibrosis (~10-15% at 10 years); megakaryocyte-derived TGF-β1 → collagen deposition → reticulin/collagen fibrosis; momelotinib and luspatercept address TGF-β-driven anemia in post-PV MF."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Polycythemia vera is the erythroid-dominant member of the BCR-ABL-negative myeloproliferative neoplasms (with ET and myelofibrosis), nearly always JAK2-driven (~99% V617F); it shares their thrombosis risk and capacity to evolve into post-PV myelofibrosis or AML."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "JAK2 V617F makes erythroid progenitors expand without EPO (endogenous erythroid colonies), raising red-cell mass and blood viscosity → arterial and venous thrombosis; phlebotomy to hematocrit <45% cuts cardiovascular events ~45% (CYTO-PV) by lowering that viscosity."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Splenomegaly affects ~70% of PV from extramedullary hematopoiesis, causing early satiety and, when massive, infarction risk; it worsens as disease evolves toward post-PV myelofibrosis, and the JAK1/2 inhibitor ruxolitinib reduces spleen volume in HU-resistant patients."
 ---
 
 # Polycythemia Vera
@@ -161,6 +170,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK2 V617F is present in ~99% PV; GOF in JH2 pseudokinase domain → constitutive JAK2/STAT5 → EPO-independent erythroid proliferation; ruxolitinib (RESPONSE: Hct control 21% vs 1%) FDA-approved for HU-resistant/intolerant PV.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Serum EPO is suppressed in PV (WHO minor criterion) due to constitutive JAK2 erythropoiesis; secondary erythrocytosis (hypoxia, VHL mutation) shows elevated EPO; EPO level distinguishes primary from secondary polycythemia; ropeginterferon reduces EPO-driven clonal expansion.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — PV transforms to post-PV myelofibrosis (~10-15% at 10 years); megakaryocyte-derived TGF-β1 → collagen deposition → reticulin/collagen fibrosis; momelotinib and luspatercept address TGF-β-driven anemia in post-PV MF.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Polycythemia vera is the erythroid-dominant member of the BCR-ABL-negative myeloproliferative neoplasms (with ET and myelofibrosis), nearly always JAK2-driven (~99% V617F); it shares their thrombosis risk and capacity to evolve into post-PV myelofibrosis or AML.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — JAK2 V617F makes erythroid progenitors expand without EPO (endogenous erythroid colonies), raising red-cell mass and blood viscosity → arterial and venous thrombosis; phlebotomy to hematocrit <45% cuts cardiovascular events ~45% (CYTO-PV) by lowering that viscosity.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly affects ~70% of PV from extramedullary hematopoiesis, causing early satiety and, when massive, infarction risk; it worsens as disease evolves toward post-PV myelofibrosis, and the JAK1/2 inhibitor ruxolitinib reduces spleen volume in HU-resistant patients.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
