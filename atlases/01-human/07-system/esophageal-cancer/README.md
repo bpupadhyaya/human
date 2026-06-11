@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Ramucirumab (VEGFR2 monoclonal) + paclitaxel is second-line standard for gastric/GEJ/EAC (REGARD, RAINBOW trials); bevacizumab studied but not approved for esophageal; VEGF overexpression common in ESCC (~40%) and EAC; angiogenesis contributes to poor prognosis."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "EGFR overexpression in ~70% of ESCC; EGFR amplification in ~10%; cetuximab (anti-EGFR) failed in unselected ESCC (SCOPE1, REAL3); anti-EGFR combinations being re-examined in EGFR-amplified ESCC; afatinib (pan-HER) showed modest activity in EGFR-overexpressing ESCC."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "FGFR2 amplification in ~5% of EAC/GEJ tumors; FGFR1 amplification in ~3-5% of ESCC; pemigatinib and futibatinib (FGFR2 inhibitors) explored in FGFR2-amplified EAC/GEJ; selective FGFR2 inhibitors showed ORR ~25% in FGFR2-amplified GEJ (FIGHT-101 trial)."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "EAC and gastric cancer share molecular features (HER2 amplification, MSI, VEGFR2); GEJ tumors classified/treated as both esophageal and gastric; ToGA regimen (trastuzumab+cisplatin/5-FU) applies to HER2+ GEJ and gastric; nivolumab (CheckMate 649) approved for gastric/GEJ."
 ---
 
 # Esophageal Cancer
@@ -177,6 +186,13 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Nivolumab + cisplatin/5-FU (CheckMate 648: OS 13.2 vs 10.7 months, CPS≥1; FDA 2022) and pembrolizumab + chemo (KEYNOTE-590) are first-line for ESCC; nivolumab monotherapy (ATTRACTION-3: OS 10.9 vs 8.4 months) is second-line; PD-L1 CPS≥10 enriches benefit.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 overexpression in ~15-20% of EAC; trastuzumab + cisplatin/5-FU (ToGA: OS 13.8 vs 11.1 months, FDA 2010) first-line; trastuzumab deruxtecan (T-DXd, DESTINY-Gastric02) for HER2+ 2nd-line; pembrolizumab+trastuzumab+chemo (KEYNOTE-811) also approved.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ramucirumab (VEGFR2 monoclonal) + paclitaxel is second-line standard for gastric/GEJ/EAC (REGARD, RAINBOW trials); bevacizumab studied but not approved for esophageal; VEGF overexpression common in ESCC (~40%) and EAC; angiogenesis contributes to poor prognosis.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR overexpression in ~70% of ESCC; EGFR amplification in ~10%; cetuximab (anti-EGFR) failed in unselected ESCC (SCOPE1, REAL3); anti-EGFR combinations being re-examined in EGFR-amplified ESCC; afatinib (pan-HER) showed modest activity in EGFR-overexpressing ESCC.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR2 amplification in ~5% of EAC/GEJ tumors; FGFR1 amplification in ~3-5% of ESCC; pemigatinib and futibatinib (FGFR2 inhibitors) explored in FGFR2-amplified EAC/GEJ; selective FGFR2 inhibitors showed ORR ~25% in FGFR2-amplified GEJ (FIGHT-101 trial).
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — EAC and gastric cancer share molecular features (HER2 amplification, MSI, VEGFR2); GEJ tumors classified/treated as both esophageal and gastric; ToGA regimen (trastuzumab+cisplatin/5-FU) applies to HER2+ GEJ and gastric; nivolumab (CheckMate 649) approved for gastric/GEJ.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^doki-2022-checkmate648]: Doki Y, Ajani JA, Kato K, et al. Nivolumab combination therapy in advanced esophageal squamous-cell carcinoma. *N Engl J Med.* 2022;386(5):449-462. [doi:10.1056/NEJMoa2111380](https://doi.org/10.1056/NEJMoa2111380) · [PubMed 35108470](https://pubmed.ncbi.nlm.nih.gov/35108470/)
 [^kato-2019-attraction3]: Kato K, Cho BC, Takahashi M, et al. Nivolumab versus chemotherapy in patients with advanced oesophageal squamous cell carcinoma refractory or intolerant to previous chemotherapy (ATTRACTION-3). *Lancet Oncol.* 2019;20(11):1506-1517. [doi:10.1016/S1470-2045(19)30626-6](https://doi.org/10.1016/S1470-2045(19)30626-6) · [PubMed 31582355](https://pubmed.ncbi.nlm.nih.gov/31582355/)

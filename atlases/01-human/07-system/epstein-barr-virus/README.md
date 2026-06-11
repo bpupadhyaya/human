@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "EBV LMP1 → NF-κB → TGF-β1 production in B cells; EBNA1 blocks Smad signaling → prevents TGF-β growth arrest; TGF-β maintains EBV latency (BZLF1 lytic switch suppression); TGF-β-high microenvironment in EBV+ Hodgkin lymphoma (Reed-Sternberg cells) is immunosuppressive."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "EBV infects B cells via CD21/CR2 → endocytic uptake → nuclear EBNA1 → episome maintenance; EBV drives B-cell immortalization in latency III (all EBNAs + LMP1/2); memory B cells are the long-term EBV reservoir; EBV-driven B-cell lymphomagenesis is CD21-dependent."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "EBV found in ~40% of classical Hodgkin lymphoma Reed-Sternberg cells (predominantly latency II: LMP1 + LMP2A + EBNA1); LMP1 → NF-κB → BCL-2, ICAM-1, CD30, IL-6 in HRS cells; EBV+ cHL has better prognosis in developing countries but similar outcomes in Western cohorts."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "EBV+ DLBCL: primarily in immunosenescent patients; latency II/III; LMP1 → NF-κB drives survival; poor prognosis (OS ~2 years); EBV PTLD in transplant recipients: rituximab ± reduced immunosuppression; adoptive EBV-specific CTL therapy effective in PTLD."
 ---
 
 # Epstein-Barr Virus
@@ -192,17 +201,18 @@ EBV has co-evolved with the human immune system for millions of years and employ
 
 ## Connections
 
-**→ [LMP1](../../../03-molecular/lmp1/)**: EBV LMP1 (latent membrane protein 1) is EBV's primary oncoprotein; 6 TM domains; CTAR1 → TRAF1/2/3 → NIK → NF-κB (alternative); CTAR2 → TRADD/TRAF6 → IKKβ → NF-κB (canonical); constitutively active CD40 mimic driving B cell immortalization, BCL-2 upregulation, and lymphomagenesis in latency II/III.
+- `connects-to` → **[LMP1](../../03-molecular/lmp1/README.md)** — EBV LMP1 (latent membrane protein 1) is EBV's primary oncoprotein; 6 TM domains; CTAR1 → TRAF1/2/3 → NIK → NF-κB (alternative); CTAR2 → TRADD/TRAF6 → IKKβ → NF-κB (canonical); constitutively active CD40 mimic driving B cell immortalization, BCL-2 upregulation, and lymphomagenesis in latency II/III.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — EBV LMP1 is the paradigmatic viral NF-κB activator: CTAR1 → TRAF1/2/3 → NIK → IKKα → p52/RelB (alternative NF-κB); CTAR2 → TRADD/TRAF6 → IKKβ → p65/p50 (canonical NF-κB); NF-κB drives BCL-2, ICAM-1, CD23, TRAF1, IL-6 → B cell survival and proliferation.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — EBNA3C recruits SCFSkp2 E3 ubiquitin ligase → p53 polyubiquitination and proteasomal degradation; LMP1 → MDM2 upregulation → additional p53 destabilization; EBV p53 antagonism enables infected B cells to bypass DNA damage checkpoints; TP53 mutations cooperate with EBV in Burkitt lymphoma and EBV+ DLBCL.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — EBV LMP1 → NF-κB → TGF-β1 production; EBNA1 suppresses Smad signaling → prevents TGF-β growth arrest in EBV-infected B cells; TGF-β maintains EBV latency (represses BZLF1 lytic switch); TGF-β-high immunosuppressive microenvironment in EBV+ Hodgkin lymphoma Reed-Sternberg cells.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — EBV infects B cells via CD21/CR2 → endocytic uptake → nuclear EBNA1 → episome maintenance; EBV drives B-cell immortalization in latency III (all EBNAs + LMP1/2); memory B cells are the long-term EBV reservoir; EBV-driven B-cell lymphomagenesis is CD21-dependent.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — EBV found in ~40% of classical Hodgkin lymphoma Reed-Sternberg cells (predominantly latency II: LMP1 + LMP2A + EBNA1); LMP1 → NF-κB → BCL-2, ICAM-1, CD30, IL-6 in HRS cells; EBV+ cHL has better prognosis in developing countries but similar outcomes in Western cohorts.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — EBV+ DLBCL: primarily in immunosenescent patients; latency II/III; LMP1 → NF-κB drives survival; poor prognosis (OS ~2 years); EBV PTLD in transplant recipients: rituximab ± reduced immunosuppression; adoptive EBV-specific CTL therapy effective in PTLD.
 
-**→ [NF-κB](../../../03-molecular/nf-kb/)**: EBV LMP1 is the paradigmatic viral NF-κB activator: CTAR1 → TRAF1/2/3 → NIK → IKKα → p52/RelB (alternative NF-κB); CTAR2 → TRADD/TRAF6 → IKKβ → p65/p50 (canonical NF-κB); NF-κB drives BCL-2, ICAM-1, CD23, TRAF1, IL-6 → B cell survival and proliferation.
+---
 
-**→ [p53](../../../03-molecular/p53/)**: EBNA3C recruits SCFSkp2 E3 ubiquitin ligase → p53 polyubiquitination and proteasomal degradation; LMP1 → MDM2 upregulation → additional p53 destabilization; EBV p53 antagonism enables infected B cells to bypass DNA damage checkpoints; TP53 mutations cooperate with EBV in Burkitt lymphoma and EBV+ DLBCL.
-
-**→ [TGF-β](../../../03-molecular/tgf-beta/)**: EBV LMP1 → NF-κB → TGF-β1 production; EBNA1 suppresses Smad signaling → prevents TGF-β growth arrest in EBV-infected B cells; TGF-β maintains EBV latency (represses BZLF1 lytic switch); TGF-β-high immunosuppressive microenvironment in EBV+ Hodgkin lymphoma Reed-Sternberg cells.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^cohen-2000-ebv-review]: Cohen JI. Epstein-Barr virus infection. *N Engl J Med.* 2000;343(7):481-492. [doi:10.1056/NEJM200008173430707](https://doi.org/10.1056/NEJM200008173430707) · [PubMed 10944566](https://pubmed.ncbi.nlm.nih.gov/10944566/)
 [^thorley-lawson-2004-ebv-latency]: Thorley-Lawson DA. Epstein-Barr virus: exploiting the immune system. *Nat Rev Immunol.* 2001;1(1):75-82. [doi:10.1038/35095556](https://doi.org/10.1038/35095556) · [PubMed 11905816](https://pubmed.ncbi.nlm.nih.gov/11905816/)
 [^nourse-2011-ebv-lymphoma]: Young LS, Rickinson AB. Epstein-Barr virus: 40 years on. *Nat Rev Cancer.* 2004;4(10):757-768. [doi:10.1038/nrc1452](https://doi.org/10.1038/nrc1452) · [PubMed 15510157](https://pubmed.ncbi.nlm.nih.gov/15510157/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
