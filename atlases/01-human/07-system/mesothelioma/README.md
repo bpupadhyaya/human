@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN loss in ~25% of peritoneal mesothelioma and ~10% of pleural; PI3K-AKT-mTOR activation downstream of PTEN loss → mTOR inhibitors studied in mesothelioma; PTEN-CDKN2A co-deletion confers aggressive phenotype; PTEN loss is more common in sarcomatoid subtype."
+  - target: 01-human/03-molecular/nf2
+    relation: connects-to
+    note: "NF2/merlin loss occurs in ~40% of mesothelioma (enriched in the sarcomatoid subtype) → Hippo pathway off → YAP/TAZ nuclear → TEAD-driven proliferation; this makes NF2-null mesothelioma the lead indication for TEAD and FAK inhibitors now in early-phase trials."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pleural mesothelioma grows as a rind encasing the lung after asbestos fibers inhaled decades earlier lodge in the pleura; it presents with dyspnea and a large exudative effusion, and lung-sparing pleurectomy/decortication has largely replaced extrapleural pneumonectomy."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Asbestos drives mesothelioma partly through frustrated phagocytosis of long, biopersistent fibers by mesothelial cells and macrophages → ROS and NLRP3 inflammasome activation → IL-1β-driven chronic inflammation over 30-50 years → the mutagenic milieu that seeds malignancy."
 ---
 
 # Mesothelioma
@@ -158,6 +167,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Nivolumab + ipilimumab (CheckMate 743: OS 18.1 vs 14.1 months, HR 0.74, FDA 2021) is first-line for unresectable pleural mesothelioma; benefit most pronounced in sarcomatoid/biphasic subtypes (OS 18.1 vs 8.8 months); PD-L1 expression enriched in sarcomatoid.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bevacizumab + cisplatin/pemetrexed (MAPS trial: OS 18.8 vs 16.1 months) is used in select European centers; VEGF overexpression is common in mesothelioma; ramucirumab (VEGFR2) under investigation; anti-VEGF + IO combinations in ongoing trials.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss in ~25% of peritoneal mesothelioma and ~10% of pleural; PI3K-AKT-mTOR activation downstream of PTEN loss → mTOR inhibitors studied in mesothelioma; PTEN-CDKN2A co-deletion confers aggressive phenotype; PTEN loss is more common in sarcomatoid subtype.
+- `connects-to` → **[NF2](../../03-molecular/nf2/README.md)** — NF2/merlin loss occurs in ~40% of mesothelioma (enriched in the sarcomatoid subtype) → Hippo pathway off → YAP/TAZ nuclear → TEAD-driven proliferation; this makes NF2-null mesothelioma the lead indication for TEAD and FAK inhibitors now in early-phase trials.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pleural mesothelioma grows as a rind encasing the lung after asbestos fibers inhaled decades earlier lodge in the pleura; it presents with dyspnea and a large exudative effusion, and lung-sparing pleurectomy/decortication has largely replaced extrapleural pneumonectomy.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Asbestos drives mesothelioma partly through frustrated phagocytosis of long, biopersistent fibers by mesothelial cells and macrophages → ROS and NLRP3 inflammasome activation → IL-1β-driven chronic inflammation over 30-50 years → the mutagenic milieu that seeds malignancy.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

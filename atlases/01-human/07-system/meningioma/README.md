@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "PTEN loss in ~10-15% meningioma; NF2 and PTEN both suppress PI3K/AKT/mTOR → NF2+PTEN co-loss is synergistic; AKT1 E17K (skull base meningioma, ~10-12%) activates PI3K/mTOR without PTEN loss; mTOR inhibitors target the convergent PI3K/mTOR axis in meningioma."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Meningioma is the most common intracranial tumor, arising not from brain but from arachnoid cap cells of the meninges; it compresses brain and cranial nerves, and location (convexity, skull base, parasagittal) dictates resectability and surgical morbidity more than grade."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "Germline NF2 loss (neurofibromatosis type 2) predisposes to multiple meningiomas alongside bilateral vestibular schwannomas and ependymomas; sporadic meningiomas carry biallelic NF2 loss in ~50-60%, making merlin/Hippo inactivation the central driver in both settings."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Grade 1 meningiomas show a 2-3:1 female predominance and express progesterone receptors, with growth during pregnancy and on medroxyprogesterone exposure; yet anti-progesterone mifepristone failed in Phase 3, so PR positivity does not predict hormone-blockade response."
 ---
 
 # Meningioma
@@ -156,6 +165,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — AKT1 E17K (~10-12% skull base meningioma, grade 1) directly activates mTORC1/mTORC2; NF2 loss → Hippo off → YAP/TAZ nuclear → upstream mTOR activators; mTOR inhibitors (everolimus/sirolimus) in NF2 syndrome VS (REACT trial, 2012): volumetric reduction of VS in 30-44% of patients.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — AKT1 E17K and NF2 loss both engage EGFR/ErbB signaling in meningioma; NF2-null → ErbB2 surface overexpression → sustained RAS/MAPK; erlotinib and gefitinib explored in recurrent meningioma with modest activity; ErbB2 amplification is rare in meningioma.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss in ~10-15% meningioma; NF2 and PTEN both suppress PI3K/AKT/mTOR → NF2+PTEN co-loss is synergistic; AKT1 E17K (skull base meningioma, ~10-12%) activates PI3K/mTOR without PTEN loss; mTOR inhibitors target the convergent PI3K/mTOR axis in meningioma.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Meningioma is the most common intracranial tumor, arising not from brain but from arachnoid cap cells of the meninges; it compresses brain and cranial nerves, and location (convexity, skull base, parasagittal) dictates resectability and surgical morbidity more than grade.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Germline NF2 loss (neurofibromatosis type 2) predisposes to multiple meningiomas alongside bilateral vestibular schwannomas and ependymomas; sporadic meningiomas carry biallelic NF2 loss in ~50-60%, making merlin/Hippo inactivation the central driver in both settings.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Grade 1 meningiomas show a 2-3:1 female predominance and express progesterone receptors, with growth during pregnancy and on medroxyprogesterone exposure; yet anti-progesterone mifepristone failed in Phase 3, so PR positivity does not predict hormone-blockade response.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
