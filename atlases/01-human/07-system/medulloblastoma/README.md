@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "SHH-activated/TP53-mutant MB: MYCN amplification + TP53 mutation → 5-year OS ~40%; TP53 mutations are germline in Li-Fraumeni syndrome → elevated MB risk; Group 3 MYC-amplified MB acquires TP53 at relapse; p53 IHC (>10% nuclear) is a surrogate marker in MB."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Medulloblastoma is the most common pediatric brain tumor, arising in the cerebellum (posterior fossa) where it obstructs the 4th ventricle → hydrocephalus; maximal safe resection risks cerebellar mutism syndrome, and craniospinal irradiation drives neurocognitive late effects."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Gorlin syndrome (germline PTCH1 loss) predisposes to SHH-activated medulloblastoma, typically the desmoplastic/nodular infant form; because these children are radiation-hypersensitive (PTCH1 carriers get RT-field basal cell carcinomas), radiation-sparing strategies are favored."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Germline TP53 (Li-Fraumeni) defines the SHH-activated/TP53-mutant subgroup — often MYCN-amplified, large-cell/anaplastic, ~40% 5-year OS; TP53 germline testing is mandatory for all SHH-MB aged 3-17, and craniospinal irradiation is avoided given LFS radiation sensitivity."
 ---
 
 # Medulloblastoma
@@ -169,6 +178,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification (~17%) defines the most aggressive Group 3 MB (5-year OS ~45%); MYCN amplification in SHH-MB + TP53 mutation = highest-risk SHH-MB; MYC drives extreme proliferative rate; BET inhibitors suppress MYC in Group 3/4 MB preclinically.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WNT-activated MB (~10%) carries CTNNB1 activating mutations + monosomy 6 + nuclear β-catenin; WNT-MB has near-universal cure (5-year OS ~95%); de-escalation trials (reduced CSI 18 Gy) ongoing; CTNNB1 mutations are absent in SHH/Group 3/Group 4 MB.
 - `connects-to` → **[P53](../../03-molecular/p53/README.md)** — SHH-activated/TP53-mutant MB: MYCN amplification + TP53 mutation → 5-year OS ~40%; TP53 mutations are germline in Li-Fraumeni syndrome → elevated MB risk; Group 3 MYC-amplified MB acquires TP53 at relapse; p53 IHC (>10% nuclear) is a surrogate marker in MB.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Medulloblastoma is the most common pediatric brain tumor, arising in the cerebellum (posterior fossa) where it obstructs the 4th ventricle → hydrocephalus; maximal safe resection risks cerebellar mutism syndrome, and craniospinal irradiation drives neurocognitive late effects.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Gorlin syndrome (germline PTCH1 loss) predisposes to SHH-activated medulloblastoma, typically the desmoplastic/nodular infant form; because these children are radiation-hypersensitive (PTCH1 carriers get RT-field basal cell carcinomas), radiation-sparing strategies are favored.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Germline TP53 (Li-Fraumeni) defines the SHH-activated/TP53-mutant subgroup — often MYCN-amplified, large-cell/anaplastic, ~40% 5-year OS; TP53 germline testing is mandatory for all SHH-MB aged 3-17, and craniospinal irradiation is avoided given LFS radiation sensitivity.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
