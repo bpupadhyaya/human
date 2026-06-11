@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/tdp-43
     relation: connects-to
     note: "TDP-43 co-pathology in ~50% of DLB brains drives hippocampal atrophy and memory impairment independent of Lewy body burden; TDP-43 inclusions in hippocampal CA1 and entorhinal cortex accelerate cognitive decline; co-pathology predicts faster dementia progression in DLB patients."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Lewy body dementia carries the most severe cholinergic deficit — ~80% loss of cortical choline acetyltransferase, worse than Alzheimer's — driving fluctuating attention and visual hallucinations, and explaining why cholinesterase inhibitors help DLB more than AD."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Treating the parkinsonism of Lewy body dementia with dopamine agonists can unleash impulse-control disorders (gambling, hypersexuality, compulsive shopping) by over-stimulating mesolimbic reward circuits; recognizing and dose-reducing is essential."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Lewy bodies are intraneuronal inclusions of misfolded alpha-synuclein; in DLB they fill cortical and limbic neurons, and selective loss of cholinergic, dopaminergic, and noradrenergic neurons produces the dementia, parkinsonism, and dysautonomia."
 ---
 
 # Lewy Body Dementia
@@ -185,6 +194,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[MAPT](../../03-molecular/mapt/README.md)** — tau co-pathology present in 50-70% of DLB brains; MAPT H1 haplotype is a risk factor; alpha-synuclein and tau cross-seed each other; high tau burden in DLB predicts faster cognitive decline and worse prognosis.
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — DLB Lewy bodies accumulate in limbic cortex, parahippocampal gyrus, cingulate, and occipital cortex → visual hallucinations and cognitive fluctuations; SNpc degeneration causes parkinsonism; diffuse cholinergic denervation (80% ChAT activity loss) underlies cognitive impairment responsive to rivastigmine.
 - `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — TDP-43 co-pathology in ~50% of DLB brains drives hippocampal atrophy and memory impairment independent of Lewy body burden; TDP-43 inclusions in hippocampal CA1 and entorhinal cortex accelerate cognitive decline; co-pathology predicts faster dementia progression in DLB.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Lewy body dementia carries the most severe cholinergic deficit — ~80% loss of cortical choline acetyltransferase, worse than Alzheimer's — driving fluctuating attention and visual hallucinations, and explaining why cholinesterase inhibitors help DLB more than AD.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Treating the parkinsonism of Lewy body dementia with dopamine agonists can unleash impulse-control disorders (gambling, hypersexuality, compulsive shopping) by over-stimulating mesolimbic reward circuits; recognizing and dose-reducing is essential.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Lewy bodies are intraneuronal inclusions of misfolded alpha-synuclein; in DLB they fill cortical and limbic neurons, and selective loss of cholinergic, dopaminergic, and noradrenergic neurons produces the dementia, parkinsonism, and dysautonomia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

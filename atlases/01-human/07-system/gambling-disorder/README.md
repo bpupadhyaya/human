@@ -27,6 +27,15 @@ cross_links:
   - target: 01-human/07-system/internet-gaming-disorder
     relation: connects-to
     note: "Gambling disorder and IGD share the behavioral addiction neurocircuit: VTA-NAcc dopamine dysregulation, OFC hyperactivation, vmPFC hypoactivation, D2R hypofunction on PET, and impaired inhibitory control; loot box mechanics in games are structurally equivalent to slot machines."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "Dopamine agonists used for the parkinsonism of Lewy body dementia (pramipexole, ropinirole) can trigger pathological gambling in 3-6% of patients by over-stimulating mesolimbic D3 receptors; it resolves when the dose is cut, proving dopamine drives gambling."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Gambling disorder and alcohol use disorder overlap heavily — about 73% of people with gambling disorder have a lifetime alcohol use disorder — reflecting shared addiction biology; those with a strong family history of alcoholism respond best to naltrexone."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Gambling disorder was the first behavioral addiction shown to share drug-addiction neurocircuitry — like stimulant use disorder, it shows the same dopamine surges, low striatal D2 receptors, and weak prefrontal control — so DSM-5 placed it beside the substance use disorders."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -173,6 +182,12 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — gambling disorder features OFC hyperactivation (overvaluation of gambling rewards), vmPFC hypoactivation, reduced ventral striatum response to wins, and diminished ACC conflict monitoring; impaired PFC-striatum inhibitory control is the neurobiological signature distinguishing disordered from recreational gambling.
 
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — gambling disorder and IGD share the behavioral addiction neurocircuit: VTA-NAcc dopamine dysregulation, OFC hyperactivation to reward cues, vmPFC hypoactivation, D2R hypofunction, and impaired PFC-striatum inhibitory control; loot box mechanics in video games are structurally and neurobiologically equivalent to slot machines, bridging both disorders.
+
+- `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — Dopamine agonists used for the parkinsonism of Lewy body dementia (pramipexole, ropinirole) can trigger pathological gambling in 3-6% of patients by over-stimulating mesolimbic D3 receptors; it resolves when the dose is cut, proving dopamine drives gambling.
+
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Gambling disorder and alcohol use disorder overlap heavily — about 73% of people with gambling disorder have a lifetime alcohol use disorder — reflecting shared addiction biology; those with a strong family history of alcoholism respond best to naltrexone.
+
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Gambling disorder was the first behavioral addiction shown to share drug-addiction neurocircuitry — like stimulant use disorder, it shows the same dopamine surges, low striatal D2 receptors, and weak prefrontal control — so DSM-5 placed it beside the substance use disorders.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
