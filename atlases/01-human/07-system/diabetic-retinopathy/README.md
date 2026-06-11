@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Diabetes impairs wound healing through AGE accumulation, pericyte dysfunction, impaired neutrophil function, and reduced HIF-1α/VEGF response; diabetic foot ulcers affect ~15% of people with diabetes and are the leading cause of non-traumatic amputation."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Diabetic retinopathy is the leading microvascular complication of type 1 diabetes, present in nearly all patients after 20 years; the DCCT proved that intensive glycemic control reduces retinopathy onset by 76% and progression by 54%, so screening begins 5 years after diagnosis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Diabetic retinopathy is fundamentally a failure of retinal vascular endothelial cells: hyperglycemia and pericyte dropout disrupt their inner blood-retinal-barrier tight junctions → leak and macular edema, then hypoxia drives them to proliferate into the vitreous."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "As diabetic capillary closure starves the retina of oxygen, HIF-1α stabilizes and transcribes VEGF (and EPO, Ang-2), triggering the neovascularization of proliferative DR; panretinal photocoagulation works by ablating ischemic retina to lower this HIF-driven VEGF output."
 ---
 
 # Diabetic Retinopathy
@@ -161,6 +170,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology.
 - `targets` → **[Eye](../../06-organ/eye/README.md)** — Diabetic retinopathy targets the retina: pericyte loss → microaneurysms → exudates → macular edema → neovascularization → vitreous hemorrhage → tractional retinal detachment; the retina is the primary organ affected, with foveal photoreceptors most critical for central vision.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Diabetes impairs wound healing through AGE accumulation, pericyte dysfunction, impaired neutrophil function, and reduced HIF-1α/VEGF response; diabetic foot ulcers affect ~15% of people with diabetes and are the leading cause of non-traumatic amputation.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetic retinopathy is the leading microvascular complication of type 1 diabetes, present in nearly all patients after 20 years; the DCCT proved that intensive glycemic control reduces retinopathy onset by 76% and progression by 54%, so screening begins 5 years after diagnosis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Diabetic retinopathy is fundamentally a failure of retinal vascular endothelial cells: hyperglycemia and pericyte dropout disrupt their inner blood-retinal-barrier tight junctions → leak and macular edema, then hypoxia drives them to proliferate into the vitreous.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — As diabetic capillary closure starves the retina of oxygen, HIF-1α stabilizes and transcribes VEGF (and EPO, Ang-2), triggering the neovascularization of proliferative DR; panretinal photocoagulation works by ablating ischemic retina to lower this HIF-driven VEGF output.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
