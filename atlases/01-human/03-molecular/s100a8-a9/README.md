@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Serum MRP8/14 (S100A8/A9) correlates with RA disease activity (DAS28) and predicts anti-TNF response; synovial fluid S100A8/A9 is 100-1000× serum levels; S100A8/A9 → TLR4 on synoviocytes → TNF and IL-6 → joint inflammation and cartilage destruction."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "S100A8/A9 → TLR4/RAGE → NF-κB → IL-6, TNF-α, IL-1β; IL-6 is a major downstream effector of S100A8/A9 signaling; elevated S100A8/A9 and IL-6 co-mark RA disease activity; in COVID-19, S100A8/A9-driven IL-6 cascade amplifies cytokine storm → ICU admission and mortality."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "S100A8/A9 is the primary neutrophil cytosolic protein (>60% of cytosol); neutrophil NETosis and necrosis release calprotectin into mucosal secretions → fecal calprotectin reflects gut neutrophilia; S100A8/A9 also activates adjacent neutrophils via TLR4 — autocrine amplification."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "S100A8/A9 among the most elevated plasma proteins in severe COVID-19 (up to 100× normal); SARS-CoV-2 → massive monocyte-neutrophil activation → S100A8/A9 → TLR4/RAGE → NF-κB → cytokine storm; serum S100A8/A9 correlates with ICU admission and 30-day mortality."
 sources:
   - id: foell-2007-s100-review
     type: peer-reviewed
@@ -135,13 +144,17 @@ Calprotectin was discovered in the 1980s as an abundant granulocyte protein with
 
 ## Connections
 
-Mucosal neutrophil infiltration in IBD releases calprotectin into the gut lumen; fecal calprotectin >150 μg/g distinguishes IBD from IBS (sensitivity >80%); FC >250 correlates with active endoscopy; serial FC monitors biologic response and predicts relapse.
+- `connects-to` → **[Inflammatory Bowel Disease](../../07-system/inflammatory-bowel-disease/README.md)** — Mucosal neutrophil infiltration in IBD releases calprotectin into the gut lumen; fecal calprotectin >150 μg/g distinguishes IBD from IBS (sensitivity >80%); FC >250 correlates with active endoscopy; serial FC monitors biologic response and predicts relapse.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — S100A8/A9 → TLR4/RAGE → NF-κB → NLRP3 priming; S100A9 also activates NLRP3 assembly via mitochondrial ROS; NLRP3-released IL-1β → further myeloid S100A8/A9 secretion — positive feedback amplifying sterile inflammation.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — S100A8/A9 binds RAGE at μM concentrations → DIAPH1 → Rac1/Cdc42 → cell migration; in cancer, MDSC-derived S100A8/A9 activates tumor RAGE → immunosuppression and metastasis; RAGE blockade reduces tumor-promoting S100A8/A9 signaling.
+- `connects-to` → **[Rheumatoid Arthritis](../../07-system/rheumatoid-arthritis/README.md)** — Serum MRP8/14 correlates with RA disease activity (DAS28) and predicts anti-TNF response; synovial fluid S100A8/A9 is 100-1000× serum; S100A8/A9 → TLR4 on synoviocytes → TNF and IL-6 → joint inflammation and cartilage destruction.
+- `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — S100A8/A9 → TLR4/RAGE → NF-κB → IL-6, TNF-α, IL-1β; IL-6 is a major downstream effector of S100A8/A9 signaling; elevated S100A8/A9 and IL-6 co-mark RA disease activity; in COVID-19, S100A8/A9-driven IL-6 cascade amplifies cytokine storm → ICU admission and mortality.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — S100A8/A9 is the primary neutrophil cytosolic protein (>60% of cytosol); neutrophil NETosis and necrosis release calprotectin into mucosal secretions → fecal calprotectin reflects gut neutrophilia; S100A8/A9 also activates adjacent neutrophils via TLR4 — autocrine amplification.
+- `connects-to` → **[COVID-19 Disease](../../07-system/covid-19-disease/README.md)** — S100A8/A9 among the most elevated plasma proteins in severe COVID-19 (up to 100× normal); SARS-CoV-2 → massive monocyte-neutrophil activation → S100A8/A9 → TLR4/RAGE → NF-κB → cytokine storm; serum S100A8/A9 correlates with ICU admission and 30-day mortality.
 
-S100A8/A9 → TLR4/RAGE → NF-κB → NLRP3 gene transcription (priming signal); S100A9 also activates NLRP3 assembly via mitochondrial ROS; IL-1β released by NLRP3 → further myeloid S100A8/A9 secretion — a positive feedback loop amplifying sterile inflammation.
+---
 
-S100A8/A9 binds RAGE at μM concentrations → DIAPH1 → Rac1/Cdc42 → cell migration; in cancer, tumor RAGE activated by S100A8/A9 from MDSCs promotes immunosuppression and metastasis; RAGE blockade reduces tumor-promoting S100A8/A9 signaling in solid tumors.
-
-Serum MRP8/14 (S100A8/A9) correlates with RA disease activity (DAS28) and predicts anti-TNF response; synovial fluid S100A8/A9 is 100-1000× serum levels; S100A8/A9 → TLR4 on synoviocytes → TNF and IL-6 → joint inflammation and cartilage destruction.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^foell-2007-s100-review]: Foell D, Wittkowski H, Vogl T, Roth J. S100 proteins expressed in phagocytes: a novel group of damage-associated molecular pattern molecules. *J Leukoc Biol.* 2007;81(1):28-37. [doi:10.1189/jlb.0306170](https://doi.org/10.1189/jlb.0306170) · [PubMed 16943388](https://pubmed.ncbi.nlm.nih.gov/16943388/)
 [^tibble-2002-fecal-calprotectin]: Tibble JA, Sigthorsson G, Bridger S, Fagerhol MK, Bjarnason I. Surrogate markers of intestinal inflammation are predictive of relapse in patients with inflammatory bowel disease. *Gastroenterology.* 2000;119(1):15-22. [doi:10.1053/gast.2000.8523](https://doi.org/10.1053/gast.2000.8523) · [PubMed 10889150](https://pubmed.ncbi.nlm.nih.gov/10889150/)

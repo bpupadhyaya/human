@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/mutyh-associated-polyposis
     relation: connects-to
     note: "Germline biallelic MUTYH pathogenic variants cause MAP; two founder variants (Y179C and G396D) account for ~80% of Western MAP; monoallelic MUTYH carriers have modestly elevated CRC risk (~1.5-2x); MAP surveillance mimics FAP but with 1-2 year colonoscopy intervals."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "MUTYH LOF → SBS18 G:C→T:A transversions → KRAS G12C at codon 12 (~70% of MAP-CRC); KRAS G12C is rare in sporadic CRC (~5%) but predominates in MAP-CRC; KRAS G12C in CRC should prompt MUTYH germline testing; sotorasib/adagrasib target KRAS G12C in advanced MAP-associated CRC."
+  - target: 01-human/03-molecular/msh2
+    relation: connects-to
+    note: "MUTYH (BER, oxidative G:C→T:A) and MSH2 (MMR, replication errors) are distinct CRC prevention pathways; MAP shows SBS18, not MSI-H (SBS6/15); MAP-CRC is microsatellite-stable → does not qualify for PD-1 blockade based on MMR deficiency — key distinction for immunotherapy."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "SBS18 G:C→T:A transversions from MUTYH LOF can target TP53 codon hotspots (R248: CGC→TGC = Arg248Cys missense) → p53 LOF in MAP adenoma-carcinoma progression; MUTYH-driven APC, KRAS, and TP53 somatic mutations cooperate in MAP-CRC tumorigenesis."
 ---
 
 # MUTYH
@@ -132,6 +141,13 @@ With SBS18 active:
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — Biallelic MUTYH germline variants cause ~1% of all CRC and ~5-15% of adenomatous polyposis not explained by APC; MUTYH-deficient CRC has a distinct SBS18 mutational signature (G:C→T:A transversions, often in an oxoG context); right-sided CRC predominates.
 - `connects-to` → **[FAP](../../07-system/fap/README.md)** — MAP (biallelic MUTYH) mimics attenuated FAP (APC germline) but has autosomal recessive inheritance, fewer adenomas (10-100 vs >100 in FAP), later CRC onset (40-60s), and includes serrated polyps; genetic testing distinguishes both syndromes in apparent de novo polyposis.
 - `connects-to` → **[MUTYH-Associated Polyposis](../../07-system/mutyh-associated-polyposis/README.md)** — Germline biallelic MUTYH pathogenic variants cause MAP; two founder variants (Y179C and G396D) account for ~80% of Western MAP; monoallelic MUTYH carriers have modestly elevated CRC risk (~1.5-2x); MAP surveillance mimics FAP but with 1-2 year colonoscopy intervals.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — MUTYH LOF → SBS18 G:C→T:A transversions → KRAS G12C at codon 12 (~70% of MAP-CRC); KRAS G12C is rare in sporadic CRC (~5%) but predominates in MAP-CRC; KRAS G12C in CRC should prompt MUTYH germline testing; sotorasib/adagrasib target KRAS G12C in advanced MAP-associated CRC.
+- `connects-to` → **[MSH2](../../03-molecular/msh2/README.md)** — MUTYH (BER, oxidative G:C→T:A) and MSH2 (MMR, replication errors) are distinct CRC prevention pathways; MAP shows SBS18, not MSI-H (SBS6/15); MAP-CRC is microsatellite-stable → does not qualify for PD-1 blockade based on MMR deficiency — key distinction for immunotherapy.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — SBS18 G:C→T:A transversions from MUTYH LOF can target TP53 codon hotspots (R248: CGC→TGC = Arg248Cys missense) → p53 LOF in MAP adenoma-carcinoma progression; MUTYH-driven APC, KRAS, and TP53 somatic mutations cooperate in MAP-CRC tumorigenesis.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^al-tassan-2002-mutyh]: Al-Tassan N, Chmiel NH, Maynard J, et al. Inherited variants of MYH associated with somatic G:C→T:A mutations in colorectal tumors. *Nat Genet.* 2002;30(2):227-232. [doi:10.1038/ng828](https://doi.org/10.1038/ng828) · [PubMed 11818965](https://pubmed.ncbi.nlm.nih.gov/11818965/)
 [^sieber-2003-mutyh-map]: Sieber OM, Lipton L, Crabtree M, et al. Multiple colorectal adenomas, classic adenomatous polyposis, and germ-line mutations in MYH. *N Engl J Med.* 2003;348(9):791-799. [doi:10.1056/NEJMoa025283](https://doi.org/10.1056/NEJMoa025283) · [PubMed 12606733](https://pubmed.ncbi.nlm.nih.gov/12606733/)
