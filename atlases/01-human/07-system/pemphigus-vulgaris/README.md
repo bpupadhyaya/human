@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/fcrn
     relation: connects-to
     note: "Efgartigimod (anti-FcRn; ADHERE-SC: 58% vs 23% CR; FDA Oct 2023) blocks FcRn → accelerates anti-Dsg3 IgG4 catabolism → rapid disease control; SC formulation; acts faster than rituximab for acute flares; IgG levels recover after stopping → combination strategies under study."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Dsg3-reactive IgG4-secreting B cells produce pathogenic anti-Dsg3 antibody; rituximab depletes CD20+ B cells → anti-Dsg3 IgG4 falls → remission; memory B cells are the relapse reservoir; anti-Dsg3 titer guides retreatment; plasma cells (CD20−) escape rituximab → residual disease."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Anti-Dsg3 IgG crosslinking → EGFR/ErbB2 transactivation → PLC-γ → p38 MAPK → desmoplakin phosphorylation → desmosome internalization; EGFR amplifies acantholysis beyond Dsg3 steric blockade; erlotinib reduced blistering in mice; p38 MAPK inhibitors in PV clinical trials."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Anti-Dsg3 IgG1 (complement-fixing) activates complement → C3 deposition on keratinocytes; MAC (C5b-9) amplifies keratinocyte injury; DIF shows IgG + C3 in intercellular pattern; C5a → neutrophil elastase → Dsg3 cleavage; complement amplifies acantholysis beyond IgG4 blockade."
 ---
 
 # Pemphigus Vulgaris
@@ -191,10 +200,14 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Anti-Dsg3 IgG4 (steric hindrance) and IgG1 (complement) are the pathogenic subclasses; IgG4 titer correlates with disease activity; FcRn recycles anti-Dsg3 IgG → prolonged blister induction; IVIG can dilute pathogenic antibodies acutely; anti-Dsg3 IgG4 falls after rituximab → remission.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20; Ritux 3: 90% vs. 28% CR at 24 months; FDA Jun 2018) depletes Dsg3-reactive B cells → sustained remission; 500 mg maintenance dosing at months 6 and 12 reduces relapse; now the standard first-line biologic replacing long-term high-dose corticosteroids in moderate-severe PV.
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn recycles anti-Dsg3 IgG4 prolonging pathogenic antibody half-life; efgartigimod (anti-FcRn; ADHERE-SC: 58% vs. 23% CR; FDA Oct 2023) accelerates IgG4 catabolism → rapid disease control without B-cell depletion; SC efgartigimod approved for PV/PF; batoclimab Phase 3 ongoing.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Dsg3-reactive IgG4-secreting B cells produce pathogenic anti-Dsg3 antibody; rituximab depletes CD20+ B cells → anti-Dsg3 IgG4 falls → remission; memory B cells are the relapse reservoir; anti-Dsg3 titer guides retreatment; plasma cells (CD20−) escape rituximab → residual disease.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Anti-Dsg3 IgG crosslinking → EGFR/ErbB2 transactivation → PLC-γ → p38 MAPK → desmoplakin phosphorylation → desmosome internalization; EGFR amplifies acantholysis beyond Dsg3 steric blockade; erlotinib reduced blistering in mice; p38 MAPK inhibitors in PV clinical trials.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-Dsg3 IgG1 (complement-fixing) activates complement → C3 deposition on keratinocytes; MAC (C5b-9) amplifies keratinocyte injury; DIF shows IgG + C3 in intercellular pattern; C5a → neutrophil elastase → Dsg3 cleavage; complement amplifies acantholysis beyond IgG4 blockade.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^joly-2017-rituximab-pemphix]: Joly P, Maho-Vaillant M, Prost-Squarcioni C, et al. First-line rituximab combined with short-term prednisone versus prednisone alone for the treatment of pemphigus (Ritux 3): a prospective, multicentre, parallel-group, open-label randomised trial. *Lancet.* 2017;389(10083):2031-2040. [doi:10.1016/S0140-6736(17)30070-3](https://doi.org/10.1016/S0140-6736(17)30070-3) · [PubMed 28342637](https://pubmed.ncbi.nlm.nih.gov/28342637/)
 [^murrell-2021-efgartigimod-adhere]: Murrell DF, Sprecher E, Maho-Vaillant M, et al. Efgartigimod alfa and hyaluronidase-qvfc in pemphigus vulgaris. *N Engl J Med.* 2024;390(5):419-430. [doi:10.1056/NEJMoa2302492](https://doi.org/10.1056/NEJMoa2302492) · [PubMed 38294978](https://pubmed.ncbi.nlm.nih.gov/38294978/)
 [^amagai-2006-dsg-compensation]: Amagai M, Tsunoda K, Zillikens D, Nagai T, Nishikawa T. The clinical phenotype of pemphigus is defined by the anti-desmoglein autoantibody profile. *J Am Acad Dermatol.* 1999;40(2 Pt 1):167-170. [doi:10.1016/S0190-9622(99)70183-0](https://doi.org/10.1016/S0190-9622(99)70183-0) · [PubMed 10025737](https://pubmed.ncbi.nlm.nih.gov/10025737/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
