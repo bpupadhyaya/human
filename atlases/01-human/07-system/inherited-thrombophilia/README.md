@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/antithrombin
     relation: connects-to
     note: "Antithrombin deficiency (0.02-0.04% prevalence; 25-50× VTE risk) is the highest-risk inherited thrombophilia; type IIa reactive-site mutations (Arg393His) most thrombogenic; UFH/LMWH require AT for efficacy; AT concentrate needed peri-surgery/delivery."
+  - target: 01-human/07-system/hemophilia-a
+    relation: connects-to
+    note: "Inherited thrombophilia is the mirror image of hemophilia — a clotting excess versus a bleeding deficiency; the contrast is mechanistic, since factor V Leiden makes FVa resist shutdown by activated protein C, whose downstream targets are missing or weak in hemophilia."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver synthesizes nearly all coagulation proteins, including the anticoagulants protein C, protein S, and antithrombin whose inherited deficiencies cause thrombophilia; hepatic failure causes a mixed coagulopathy, and warfarin blocks vitamin-K-dependent factor synthesis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Inherited thrombophilias (factor V Leiden, prothrombin G20210A) cause venous, not arterial, thrombosis — so they are not established risk factors for ischemic stroke or MI and do not warrant anticoagulation for arterial events; antiphospholipid syndrome is the exception."
 ---
 
 # Inherited Thrombophilia
@@ -210,6 +219,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — VTE (DVT/PE) is the primary manifestation of inherited thrombophilia; risk is multiplicative (FVL + OCP = 35× VTE risk); thrombophilia guides anticoagulation duration (indefinite for AT deficiency, homozygous FVL, compound heterozygous); do not test during acute VTE.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — APS is the most important acquired thrombophilia, causing indistinguishable VTE and arterial thrombosis to inherited thrombophilia; combined APS + inherited thrombophilia (e.g., FVL + triple-positive aPL) confers extreme thrombotic risk; APS is excluded by thrombophilia workup.
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Antithrombin deficiency (0.02-0.04% prevalence; 25-50× VTE risk) is the highest-risk inherited thrombophilia; type IIa reactive-site mutations (Arg393His) most thrombogenic; UFH/LMWH require AT for efficacy; AT concentrate needed peri-surgery/delivery.
+- `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Inherited thrombophilia is the mirror image of hemophilia — a clotting excess versus a bleeding deficiency; the contrast is mechanistic, since factor V Leiden makes FVa resist shutdown by activated protein C, whose downstream targets are missing or weak in hemophilia.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver synthesizes nearly all coagulation proteins, including the anticoagulants protein C, protein S, and antithrombin whose inherited deficiencies cause thrombophilia; hepatic failure causes a mixed coagulopathy, and warfarin blocks vitamin-K-dependent factor synthesis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Inherited thrombophilias (factor V Leiden, prothrombin G20210A) cause venous, not arterial, thrombosis — so they are not established risk factors for ischemic stroke or MI and do not warrant anticoagulation for arterial events; antiphospholipid syndrome is the exception.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

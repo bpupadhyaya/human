@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Gene therapy for hemophilia A delivers an AAV-packaged F8 transgene to hepatocytes, which then secrete factor VIII; valoctocogene roxaparvovec raised FVIII toward normal, but expression wanes ~50%/year as episomal AAV DNA dilutes with hepatocyte turnover."
+  - target: 01-human/03-molecular/antithrombin
+    relation: connects-to
+    note: "Fitusiran flips hemophilia A treatment around: instead of replacing factor VIII, this siRNA lowers antithrombin to rebalance hemostasis and restore clotting in FVIII- or FIX-deficient patients, including those with inhibitors; overcorrection risks thrombosis."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "Hemophilia A and inherited thrombophilia are mirror images — too little clotting versus too much; strikingly, co-inheriting factor V Leiden can soften a hemophiliac's bleeding because APC resistance keeps FVa active longer, compensating for the missing factor VIII amplification."
 ---
 
 # Hemophilia A
@@ -172,6 +181,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Thrombin cleaves FVIII at Arg372/Arg740/Arg1689 → generates FVIIIa cofactor for intrinsic tenase; APC (thrombomodulin-thrombin product) cleaves FVIIIa at Arg336/Arg562 → inactivation; in HA, extrinsic-pathway thrombin is intact but amplification (intrinsic tenase) fails.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — APC inactivates FVIIIa by cleavage at Arg336 and Arg562; APC + protein S → efficient FVIIIa proteolysis → limits thrombin amplification; FV Leiden co-inheritance with mild HA creates a clinical paradox — APC resistance partially counteracts the hemophilic bleeding tendency.
 - `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Gene therapy for hemophilia A delivers an AAV-packaged F8 transgene to hepatocytes, which then secrete factor VIII; valoctocogene roxaparvovec raised FVIII toward normal, but expression wanes ~50%/year as episomal AAV DNA dilutes with hepatocyte turnover.
+- `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Fitusiran flips hemophilia A treatment around: instead of replacing factor VIII, this siRNA lowers antithrombin to rebalance hemostasis and restore clotting in FVIII- or FIX-deficient patients, including those with inhibitors; overcorrection risks thrombosis.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Hemophilia A and inherited thrombophilia are mirror images — too little clotting versus too much; strikingly, co-inheriting factor V Leiden can soften a hemophiliac's bleeding because APC resistance keeps FVa active longer, compensating for the missing factor VIII amplification.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
