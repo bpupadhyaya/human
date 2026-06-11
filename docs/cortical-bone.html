@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cortical Bone — dense outer shell of bone: Haversian osteons, hydroxyapatite-mineralised type I collagen matrix, osteocyte lacunocanalicular mechanosensing, calcium homeostasis, and endocrine osteocalcin. Scale 05 of the Human Atlas.">
+  <meta name="description" content="Dense outer shell of bone (~80% of bone mass) composed of concentric Haversian osteons. Hydroxyapatite-mineralised type I collagen matrix provides compressive a">
   <meta property="og:title" content="Cortical Bone — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Cortical Bone — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #b45309;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,46 +39,52 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -81,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -95,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -107,96 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Tissue</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 05 — Tissue</div>
     <h1>Cortical Bone</h1>
-    <p class="tagline">Dense outer shell of the skeleton (~80% of bone mass) — concentric Haversian osteons of hydroxyapatite-mineralised type I collagen providing compressive and tensile strength.</p>
-    <p class="subtagline">Osteocytes in the lacunocanalicular network sense mechanical strain and orchestrate remodelling. Stores 99% of body calcium. Osteocalcin secreted by osteoblasts/osteocytes links bone to metabolic homeostasis.</p>
+    <p class="tagline">Dense outer shell of bone (~80% of bone mass) composed of concentric Haversian osteons. Hydroxyapatite-mineralised type I collagen matrix provides compressive and tensile strength; osteocytes in the lacunocanalicular network sense strain and orchestrate remodelling.</p>
+    <p class="aliases">Also known as: compact bone, lamellar bone, haversian bone, cortex, cortical bone tissue</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~80%</span><span class="stat-label">Of total bone mass</span></div>
-      <div class="stat"><span class="stat-num">~4–10%</span><span class="stat-label">Porosity (healthy adult)</span></div>
-      <div class="stat"><span class="stat-num">17–25 GPa</span><span class="stat-label">Young's modulus</span></div>
-      <div class="stat"><span class="stat-num">99%</span><span class="stat-label">Body Ca²⁺ stored in bone</span></div>
+        <div class="stat"><span class="stat-num">Scale 05 — Tissue</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0001001 &middot; Atlas One / Scale 05 &mdash; Tissue &middot; Bone</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">cortical-bone</div>
         <h2>Cortical Bone</h2>
-        <p class="summary">Compact bone tissue forming the outer shell of every bone and the entire diaphysis (shaft) of long bones. ~80% of total adult bone mass (~2 kg in a 70 kg adult). Porosity ~4–10%, enabling high stiffness (Young's modulus 17–25 GPa) and high compressive strength (~170–190 MPa). Hierarchical composite: hydroxyapatite platelets (Ca₁₀(PO₄)₆(OH)₂, 70% wet weight) templated on type I collagen fibrils (22% wet weight). Osteon (Haversian system) is the primary structural unit — concentric lamellae with alternating fibril orientations surrounding a central vascular Haversian canal. Osteocyte lacunocanalicular network (LCN) provides mechanosensing, remodelling control, and endocrine functions (SOST, FGF23).</p>
+        <p class="summary">Dense outer shell of bone (~80% of bone mass) composed of concentric Haversian osteons. Hydroxyapatite-mineralised type I collagen matrix provides compressive and tensile strength; osteocytes in the lacunocanalicular network sense strain and orchestrate remodelling.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Cortical bone (compact bone) is the dense, solid bone tissue forming the outer shell of every bone in the human skeleton and constituting the entire diaphysis of long bones. It accounts for approximately 80% of total adult bone mass (~2 kg in a 70 kg adult). Compared with cancellous/trabecular bone (spongy, 20% of bone mass, predominating in vertebrae and flat bones), cortical bone has low porosity (~4–10%), high stiffness, and high compressive and tensile strength — making it the principal load-bearing material of the skeleton.</p>
-          <p>Beyond its mechanical role, cortical bone is the body's largest mineral reservoir, storing 99% of total body calcium (~1 kg) and 85% of phosphate as hydroxyapatite crystals. It participates in mineral homeostasis through osteoclastic resorption (releasing Ca²⁺ and Pi under PTH stimulation) and osteoblastic deposition (under calcitriol, oestrogen, and mechanical stimuli). Osteocytes embedded throughout the matrix serve as mechanosensors and endocrine cells, secreting sclerostin (Wnt inhibitor) and FGF23 (phosphate regulator) to couple mechanical loading, bone mass, and mineral metabolism.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Anatomy — Hierarchical Architecture</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Level</th><th>Structure</th><th>Dimensions</th><th>Key features</th></tr>
-            <tr><td>Macro</td><td>Cortical shell (diaphysis)</td><td>1–10 mm thick</td><td>Encloses medullary canal; periosteum (outer) + endosteum (inner) cellular surfaces</td></tr>
-            <tr><td>Tissue</td><td>Osteon (Haversian system)</td><td>100–300 µm diameter, mm long</td><td>5–20 concentric lamellae surrounding Haversian canal; runs parallel to long axis; primary structural unit</td></tr>
-            <tr><td>Lamellar</td><td>Individual lamella</td><td>3–8 µm thick</td><td>Collagen fibrils alternating ~30° helical orientation between adjacent lamellae — analogous to plywood cross-lamination; resists multidirectional loads</td></tr>
-            <tr><td>Canal</td><td>Haversian canal</td><td>40–50 µm diameter</td><td>Arterioles, venules, unmyelinated nerve fibres, lymphatics; supplies nutrients/removes waste</td></tr>
-            <tr><td>Canal</td><td>Volkmann's canal</td><td>Transverse / oblique</td><td>Interconnects Haversian canals + periosteal/endosteal surfaces; nutrient highway across cortical thickness</td></tr>
-            <tr><td>Cellular</td><td>Osteocyte lacunocanalicular network (LCN)</td><td>~25,000 lacunae/mm³; 40–60 canaliculi/osteocyte</td><td>~42 billion osteocytes; Cx43 gap junctions; interstitial fluid shear → mechanosensing; SOST + FGF23 endocrine</td></tr>
-            <tr><td>Nano</td><td>Collagen-mineral composite</td><td>HA platelets: 60–70 nm × 2–4 nm</td><td>HA c-axis aligned along collagen fibril axis; 67 nm D-period banding; plywood architecture at lamellar scale</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>cortical-bone</td></tr>
+            <tr><td>Name</td><td>Cortical Bone</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>05-tissue</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Periosteum:</strong> Bi-layered outer membrane. Fibrous outer layer (type I collagen, Sharpey's fibres) + inner cambial layer (osteoprogenitor cells, fibroblasts, capillaries). Primary source of cortical appositional growth and fracture callus formation. Densely innervated — periosteal stretch is the dominant pain signal in fractures and bone metastases.</p>
-          <p><strong>Endosteum:</strong> Thin cellular layer lining the marrow canal and Haversian canal walls; contains bone-lining cells (quiescent osteoblasts), osteoclasts, and osteoprogenitors; site of cortical remodelling and the osteoblastic HSC niche.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function</h3>
-          <p><strong>Mechanical support.</strong> Cortical bone is anisotropic: ultimate compressive strength ~170–190 MPa (longitudinal axis), ultimate tensile strength ~100–130 MPa, fracture toughness 2–5 MPa·m^0.5. Hydroxyapatite provides stiffness (resists deformation); collagen fibril networks absorb crack energy (toughness). The femoral shaft sustains >3× body weight in running — this load-bearing orientation reflects habitual loading direction. Ageing reduces toughness: non-enzymatic collagen crosslinking by advanced glycation end-products (AGEs) → more brittle matrix; reduced water content also decreases fracture resistance.</p>
-          <p><strong>Calcium and phosphate homeostasis.</strong> Osteoclastic cortical resorption releases Ca²⁺ and Pi; regulated primarily by PTH (↑osteoclast recruitment via RANKL on osteoblasts/osteocytes → ↑serum Ca²⁺ + ↑calcitriol synthesis → ↑intestinal Ca²⁺ absorption), calcitriol (1,25-dihydroxyvitamin D₃: ↑intestinal Ca²⁺/Pi absorption, ↑osteoclastogenesis for mineral mobilisation), and calcitonin (thyroid C-cells: ↓osteoclast activity → ↓serum Ca²⁺).</p>
-          <p><strong>Mechanosensing and adaptive remodelling.</strong> Mechanical loading during locomotion drives interstitial fluid shear through canalicular channels (~2,000–4,000 microstrain) → osteocyte primary cilia and integrin mechanosensors activated → prostaglandin E₂, NO, ATP release → ↓sclerostin secretion → ↑Wnt/β-catenin in osteoblasts → ↑bone formation. Disuse (bed rest, paralysis, space flight) → ↑sclerostin → cortical thinning at ~1–2% per month in complete unloading.</p>
-          <p><strong>Endocrine function.</strong> Osteocalcin (secreted by osteoblasts/osteocytes, carboxylated by vitamin K → Gla residues bind HA in matrix) is released in undercarboxylated form (ucOC) during bone resorption → circulates → binds GPRC6A on pancreatic β-cells (↑insulin secretion), skeletal muscle (↑glucose uptake during exercise), and Leydig cells (↑testosterone synthesis). FGF23 from osteocytes suppresses renal phosphate reabsorption (↓NaPi2a/2c) and ↓calcitriol synthesis — preventing hyperphosphataemia from excessive resorption.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Osteoporosis (Cortical Component)</h4>
-            <p>Cortical porosity increases from ~4% at age 40 to ~15% by age 80 as Haversian canals enlarge from accelerated remodelling. Loss of oestrogen at menopause → ↑RANKL, ↓OPG → accelerated cortical thinning → hip and distal radius fracture risk (cortical bone loss predicts these sites more strongly than trabecular loss). Treatments: bisphosphonates, denosumab (↓resorption), teriparatide/romosozumab (↑formation).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Stress Fractures</h4>
-            <p>Fatigue failure when repetitive submaximal loading accumulates microcracks faster than osteocyte-directed remodelling can repair them. Common sites: metatarsal shafts (march fracture), tibial diaphysis, femoral neck (high-risk — complete fracture risk), navicular, sacrum. Risk factors: abrupt training intensity increase, low BMD, relative energy deficiency in sport (RED-S), vitamin D deficiency. High-risk fractures (femoral neck, anterior tibia) may require internal fixation.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Osteonecrosis (Avascular Necrosis, AVN)</h4>
-            <p>Interruption of cortical/subchondral blood supply → osteocyte death within 12–48 h → structural failure → articular collapse. Most common site: femoral head (lateral femoral circumflex artery — vulnerable to intracapsular fracture or dislocation). Risk factors: corticosteroids (most common non-traumatic cause → ↓osteoblast proliferation, fat emboli to subchondral vessels), alcohol, sickle cell disease, decompression illness. Bisphosphonate-related osteonecrosis of the jaw (BRONJ): exposed, devitalised jaw cortex after dental extraction in patients on bisphosphonate or denosumab.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Osteosarcoma</h4>
-            <p>Primary malignant bone tumour arising from osteoblastic progenitors in cortical bone; distal femur, proximal tibia, proximal humerus (adolescents); second peak in elderly (Paget's-associated). Radiographic features: Codman's triangle (elevated periosteum), sunburst pattern (mineralised tumour matrix), mixed lytic/sclerotic cortical lesion. Neoadjuvant chemotherapy (cisplatin, doxorubicin, methotrexate) + limb-salvage surgery; 5-year survival ~60–70% for localised disease.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="osteoblast.html"><span class="rel">Formed by</span>Osteoblast</a>
-            <a class="conn-pill" href="osteoclast.html"><span class="rel">Resorbed by</span>Osteoclast</a>
-            <a class="conn-pill part" href="bone-marrow.html"><span class="rel">Encloses</span>Bone Marrow</a>
-            <a class="conn-pill" href="collagen.html"><span class="rel">Composed of</span>Type I Collagen</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Endocrine link</span>Cardiovascular System</a>
-            <a class="conn-pill" href="insulin.html"><span class="rel">Osteocalcin →</span>Insulin axis</a>
+            <a class="conn-pill part" href="human-body.html" title="Cortical bone forms the dense shell of all bones (~80% of bone mass); provides mechanical support for locomotion and organ protection; stores 99% of body Ca²⁺ and 85% of phosphate in hydroxyapatite crystals."><span class="rel">part-of</span>Human Body</a>
+            <a class="conn-pill" href="bone-marrow.html" title="Cortical bone forms the rigid casing of the medullary canal; the endosteal surface provides the HSC niche via osteoblast-secreted CXCL12, SCF/Kit-L, and angiopoietin-1; Haversian canals supply vasculature to the cortex."><span class="rel">modulates</span>Bone Marrow</a>
+            <a class="conn-pill part" href="collagen.html" title="Type I collagen (~90% of bone organic matrix) forms D-banded fibrils that template hydroxyapatite mineralisation; collagen mutation (osteogenesis imperfecta) or degradation (scurvy, MMPs) destabilises the cortical bone composite."><span class="rel">part-of</span>Collagen</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Osteocalcin (VitK-carboxylated for HA binding) circulates in decarboxylated form → binds GPRC6A → ↑insulin secretion and ↑muscle glucose uptake during exercise; links bone to metabolic and cardiovascular homeostasis."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="osteoblast.html" title="Osteoblasts deposit cortical bone matrix (collagen → HA mineralisation); form lamellar osteons in Haversian remodelling; PTH (intermittent) → osteoblast anabolism → cortical apposition; osteoblast density on endosteal/periosteal surfaces determines cortical bone mass."><span class="rel">connects-to</span>Osteoblast</a>
+            <a class="conn-pill" href="fgf23.html" title="Osteocytes in cortical bone lacunae secrete FGF23 in response to high phosphate and 1,25-OH₂D₃; FGF23 → renal FGFR1+Klotho → ↓NaPi2a/2c → phosphaturia; excess FGF23 (tumour-induced osteomalacia, CKD-MBD) → hypophosphataemia → cortical bone demineralisation."><span class="rel">connects-to</span>Fgf23</a>
+            <a class="conn-pill" href="insulin.html" title="Osteocalcin released during osteoclastic resorption → decarboxylation → ucOC binds GPRC6A on pancreatic β-cells → ↑insulin secretion; ucOC also promotes β-cell proliferation; bone-pancreas endocrine loop links skeletal mineral metabolism to glycaemic control."><span class="rel">connects-to</span>Insulin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov/books/NBK26880</a></li>
-            <li>Karsenty G, Ferron M. The contribution of bone to whole-organism physiology. <em>Nature.</em> 2012;481:314–20. <a href="https://doi.org/10.1038/nature10763" target="_blank" rel="noopener">doi:10.1038/nature10763</a></li>
-            <li>Weiner S, Wagner HD. The material bone: structure-mechanical function relations. <em>Annu Rev Mater Sci.</em> 1998;28:271–98. <a href="https://doi.org/10.1146/annurev.matsci.28.1.271" target="_blank" rel="noopener">doi:10.1146/annurev.matsci.28.1.271</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
           </ul>
         </div>
 
@@ -208,15 +188,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="osteoblast.html">Osteoblast</a>
-      <a href="osteoclast.html">Osteoclast</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

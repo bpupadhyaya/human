@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "Osteocalcin (VitK-carboxylated for HA binding) circulates in decarboxylated form → binds GPRC6A → ↑insulin secretion and ↑muscle glucose uptake during exercise; links bone to metabolic and cardiovascular homeostasis."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Osteoblasts deposit cortical bone matrix (collagen → HA mineralisation); form lamellar osteons in Haversian remodelling; PTH (intermittent) → osteoblast anabolism → cortical apposition; osteoblast density on endosteal/periosteal surfaces determines cortical bone mass."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Osteocytes in cortical bone lacunae secrete FGF23 in response to high phosphate and 1,25-OH₂D₃; FGF23 → renal FGFR1+Klotho → ↓NaPi2a/2c → phosphaturia; excess FGF23 (tumour-induced osteomalacia, CKD-MBD) → hypophosphataemia → cortical bone demineralisation."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Osteocalcin released during osteoclastic resorption → decarboxylation → ucOC binds GPRC6A on pancreatic β-cells → ↑insulin secretion; ucOC also promotes β-cell proliferation; bone-pancreas endocrine loop links skeletal mineral metabolism to glycaemic control."
 ---
 
 # Cortical Bone
@@ -72,10 +81,13 @@ Beyond its mechanical role, cortical bone is the body's largest mineral reservoi
 
 ## Connections
 
-- **part-of** [human-body](../../08-whole-body/human-body/README.md): Cortical bone forms the dense shell of all bones (~80% of bone mass); provides mechanical support for locomotion and organ protection; stores 99% of body Ca²⁺ and 85% of phosphate in hydroxyapatite crystals.
-- **modulates** [bone-marrow](../../05-tissue/bone-marrow/README.md): Cortical bone forms the rigid casing of the medullary canal; the endosteal surface provides the HSC niche via osteoblast-secreted CXCL12, SCF/Kit-L, and angiopoietin-1; Haversian canals supply vasculature to the cortex.
-- **part-of** [collagen](../../03-molecular/collagen/README.md): Type I collagen (~90% of bone organic matrix) forms D-banded fibrils that template hydroxyapatite mineralisation; collagen mutation (osteogenesis imperfecta) or degradation (scurvy, MMPs) destabilises the cortical bone composite.
-- **modulates** [cardiovascular-system](../../07-system/cardiovascular-system/README.md): Osteocalcin (VitK-carboxylated for HA binding) circulates in decarboxylated form → binds GPRC6A → ↑insulin secretion and ↑muscle glucose uptake during exercise; links bone to metabolic and cardiovascular homeostasis.
+- `part-of` → **[Human Body](../../08-whole-body/human-body/README.md)** — Cortical bone forms the dense shell of all bones (~80% of bone mass); provides mechanical support for locomotion and organ protection; stores 99% of body Ca²⁺ and 85% of phosphate in hydroxyapatite crystals.
+- `modulates` → **[Bone Marrow](../bone-marrow/README.md)** — Cortical bone forms the rigid casing of the medullary canal; the endosteal surface provides the HSC niche via osteoblast-secreted CXCL12, SCF/Kit-L, and angiopoietin-1; Haversian canals supply vasculature to the cortex.
+- `part-of` → **[Collagen](../../03-molecular/collagen/README.md)** — Type I collagen (~90% of bone organic matrix) forms D-banded fibrils that template hydroxyapatite mineralisation; collagen mutation (osteogenesis imperfecta) or degradation (scurvy, MMPs) destabilises the cortical bone composite.
+- `modulates` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Osteocalcin (VitK-carboxylated for HA binding) circulates in decarboxylated form → binds GPRC6A → ↑insulin secretion and ↑muscle glucose uptake during exercise; links bone to metabolic and cardiovascular homeostasis.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteoblasts deposit cortical bone matrix (collagen → HA mineralisation); form lamellar osteons in Haversian remodelling; PTH (intermittent) → osteoblast anabolism → cortical apposition; osteoblast density on endosteal/periosteal surfaces determines cortical bone mass.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Osteocytes in cortical bone lacunae secrete FGF23 in response to high phosphate and 1,25-OH₂D₃; FGF23 → renal FGFR1+Klotho → ↓NaPi2a/2c → phosphaturia; excess FGF23 (tumour-induced osteomalacia, CKD-MBD) → hypophosphataemia → cortical bone demineralisation.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Osteocalcin released during osteoclastic resorption → decarboxylation → ucOC binds GPRC6A on pancreatic β-cells → ↑insulin secretion; ucOC also promotes β-cell proliferation; bone-pancreas endocrine loop links skeletal mineral metabolism to glycaemic control.
 
 ## Pathology
 
@@ -96,3 +108,7 @@ Beyond its mechanical role, cortical bone is the body's largest mineral reservoi
 - [human-body](../../08-whole-body/human-body/README.md) — whole-body mineral reservoir and mechanical scaffold context
 - [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — osteocalcin endocrine link to metabolic homeostasis
 - [insulin](../../03-molecular/insulin/README.md) — osteocalcin-stimulated β-cell secretion connects bone to glycaemic control
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

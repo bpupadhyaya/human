@@ -33,6 +33,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Endocardial ECs secrete ET-1 in response to shear stress, thrombin, and hypoxia → ETA/ETB on cardiomyocytes → positive inotropy and coronary vasoconstriction; ET-1 promotes cardiac hypertrophy; endotheliins amplify myocardial remodeling in heart failure."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Endocardial eNOS → NO → cGMP → PKG → negative inotropy and positive lusitropy in cardiomyocytes; NO modulates L-type Ca²⁺ channels and RyR2; endocardial NO contributes to the Frank-Starling response; eNOS uncoupling in inflammation reduces NO → impaired cardiac relaxation."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β drives EndMT during cardiac valve formation; TGF-β → SMAD2/3 → endothelial cells gain mesenchymal invasion → endocardial cushion remodelling into valve leaflets; pathological EndMT reactivation contributes to calcific aortic valve disease and myxomatous mitral degeneration."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Endocardial endothelium lies ≤5 µm from cardiomyocytes; ET-1, NO, NRG-1, and PGI₂ regulate cardiomyocyte contractility via paracrine signalling; Loeffler endocarditis → endocardial damage → restrictive cardiomyopathy; NRG-1 activates ErbB4 on cardiomyocytes → survival."
 ---
 
 # Endocardium
@@ -99,6 +108,9 @@ During cardiac development, specialized regions of the endocardium undergo **end
 - `connects-to` → **[Myocardium](../myocardium/README.md)** — Endocardial endothelium sits directly above the subendocardial layer and myocardium; paracrine mediators (NO, ET-1, NRG-1) cross the short distance to regulate cardiomyocyte contractility and lusitropy; endocardial injury (eosinophils, inflammation) → myocardial dysfunction.
 - `contains` → **[Cardiac Conduction System](../cardiac-conduction-system/README.md)** — Purkinje fibers run through the subendocardial layer — the inner connective tissue zone of the endocardium; Purkinje cells deliver the cardiac impulse to working cardiomyocytes; endocardium is the anatomical housing of the distal conduction network.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endocardial ECs secrete ET-1 in response to shear stress, thrombin, and hypoxia → ETA/ETB on cardiomyocytes → positive inotropy and coronary vasoconstriction; ET-1 promotes cardiac hypertrophy; endotheliins amplify myocardial remodeling in heart failure.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Endocardial eNOS → NO → cGMP → PKG → negative inotropy and positive lusitropy in cardiomyocytes; NO modulates L-type Ca²⁺ channels and RyR2; endocardial NO contributes to the Frank-Starling response; eNOS uncoupling in inflammation reduces NO → impaired cardiac relaxation.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β drives EndMT during cardiac valve formation; TGF-β → SMAD2/3 → endothelial cells gain mesenchymal invasion → endocardial cushion remodelling into valve leaflets; pathological EndMT reactivation contributes to calcific aortic valve disease and myxomatous mitral degeneration.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Endocardial endothelium lies ≤5 µm from cardiomyocytes; ET-1, NO, NRG-1, and PGI₂ regulate cardiomyocyte contractility via paracrine signalling; Loeffler endocarditis → endocardial damage → restrictive cardiomyopathy; NRG-1 activates ErbB4 on cardiomyocytes → survival.
 
 ## Pathology
 
@@ -121,9 +133,9 @@ During cardiac development, specialized regions of the endocardium undergo **end
 - [Myocardium](../myocardium/README.md)
 - [Cardiac Conduction System](../cardiac-conduction-system/README.md)
 
-[^brutsaert-2003-endocardial-endothelium]: Brutsaert DL. Cardiac endothelial-myocardial signaling. *Physiol Rev.* 2003;83(1):59-115. [doi:10.1152/physrev.00017.2002](https://doi.org/10.1152/physrev.00017.2002) · [PubMed 12506127](https://pubmed.ncbi.nlm.nih.gov/12506127/)
-[^openstax-anatomy-19-1]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.1: Heart Anatomy. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)
-
 ---
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
+
+[^brutsaert-2003-endocardial-endothelium]: Brutsaert DL. Cardiac endothelial-myocardial signaling. *Physiol Rev.* 2003;83(1):59-115. [doi:10.1152/physrev.00017.2002](https://doi.org/10.1152/physrev.00017.2002) · [PubMed 12506127](https://pubmed.ncbi.nlm.nih.gov/12506127/)
+[^openstax-anatomy-19-1]: OpenStax. *Anatomy & Physiology 2e*, Ch. 19.1: Heart Anatomy. [Read online →](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)
