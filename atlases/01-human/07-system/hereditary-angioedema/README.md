@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "Trauma/surgery → thrombin generation → FXII activation → contact cascade → kallikrein → bradykinin → HAE attack; surgical trauma triggers ~25-50% of HAE attacks; short-term C1-INH concentrate or icatibant before high-risk procedures prevents peri-operative attacks."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Every HAE attack ends at the endothelial cell: bradykinin binds its B2 receptor on postcapillary venule endothelium → Gαq/Ca²⁺ → eNOS-derived NO loosens inter-endothelial junctions → plasma leaks into tissue as non-urticarial swelling; icatibant blocks B2R to abort this."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "HAE swelling is subcutaneous or submucosal and looks unlike allergic hives: ~50% of attacks are tense, non-pitting, non-urticarial skin swelling that lasts 2-5 days and does not itch or respond to antihistamines — reflecting its bradykinin (not histamine) mechanism."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen worsens HAE by upregulating prekallikrein, boosting bradykinin generation; estrogen-containing contraceptives and pregnancy trigger attacks, and FXII (type III) HAE is largely a disease of women on the pill — so progestin-only contraception is advised."
 ---
 
 # Hereditary Angioedema
@@ -186,6 +195,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — HAE is the paradigmatic bradykinin-excess disease: C1-INH deficiency → uncontrolled FXII/kallikrein → bradykinin generation from HMWK; bradykinin binds B2R on postcapillary venules → Gαq/Ca²⁺ → eNOS/NO → vascular permeability; icatibant (B2R antagonist) aborts HAE attacks.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ACE (kininase II) degrades bradykinin; ACEi block catabolism → bradykinin accumulation → angioedema (~0.1-0.7% of users); ACEi contraindicated in HAE; Ang-II and bradykinin are both ACE substrates → RAAS and kinin-kallikrein systems are mechanistically linked.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Trauma/surgery → thrombin generation → FXII activation → contact cascade → kallikrein → bradykinin → HAE attack; surgical trauma triggers ~25-50% of HAE attacks; short-term C1-INH concentrate or icatibant before high-risk procedures prevents peri-operative attacks.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Every HAE attack ends at the endothelial cell: bradykinin binds its B2 receptor on postcapillary venule endothelium → Gαq/Ca²⁺ → eNOS-derived NO loosens inter-endothelial junctions → plasma leaks into tissue as non-urticarial swelling; icatibant blocks B2R to abort this.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HAE swelling is subcutaneous or submucosal and looks unlike allergic hives: ~50% of attacks are tense, non-pitting, non-urticarial skin swelling that lasts 2-5 days and does not itch or respond to antihistamines — reflecting its bradykinin (not histamine) mechanism.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen worsens HAE by upregulating prekallikrein, boosting bradykinin generation; estrogen-containing contraceptives and pregnancy trigger attacks, and FXII (type III) HAE is largely a disease of women on the pill — so progestin-only contraception is advised.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

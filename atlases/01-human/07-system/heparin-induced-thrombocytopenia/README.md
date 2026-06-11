@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/antithrombin
     relation: connects-to
     note: "UFH and LMWH anticoagulate via AT (heparin binds AT → 1000× accelerated thrombin/FXa inhibition); AT is bypassed by direct thrombin inhibitors (argatroban, bivalirudin) used in HIT; fondaparinux (FXa inhibitor via AT) is an alternative in HIT."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "HIT is driven by a transient IgG against the PF4-heparin complex; this antibody cross-links FcγRIIA on platelets to activate them, so detection rests on an anti-PF4/heparin IgG ELISA confirmed by a serotonin-release assay — and the IgG typically fades within 3-6 months."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Beyond platelets, anti-PF4/heparin IgG activates endothelial cells: PF4 binds endothelial heparan sulfate, and immune-complex engagement induces tissue factor expression, amplifying thrombin generation — why HIT is so intensely prothrombotic despite falling platelet counts."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "HIT is a severe acquired thrombophilia that, unlike most inherited thrombophilias, threatens arteries as well as veins and can take limbs; co-existing inherited thrombophilia or recent VTE further raises the risk of HIT-associated thrombosis."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -195,6 +204,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — HIT causes paradoxical thrombosis: activated platelets generate procoagulant microparticles → thrombin generation; argatroban (DTI) and bivalirudin block thrombin in HIT; warfarin is contraindicated initially (protein C drops first → warfarin-induced limb gangrene risk).
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — HIT causes paradoxical DVT/PE (venous) and arterial thrombosis (HITT); occurs 5-10 days after heparin exposure; anti-PF4/heparin IgG → platelet activation → thrombin; argatroban, bivalirudin, and fondaparinux replace heparin in HIT; DOACs used for bridging to warfarin.
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — UFH and LMWH anticoagulate via AT (heparin binds AT → 1000× accelerated thrombin/FXa inhibition); AT is bypassed by direct thrombin inhibitors (argatroban, bivalirudin) used in HIT; fondaparinux (FXa inhibitor via AT) is an alternative in HIT.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — HIT is driven by a transient IgG against the PF4-heparin complex; this antibody cross-links FcγRIIA on platelets to activate them, so detection rests on an anti-PF4/heparin IgG ELISA confirmed by a serotonin-release assay — and the IgG typically fades within 3-6 months.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Beyond platelets, anti-PF4/heparin IgG activates endothelial cells: PF4 binds endothelial heparan sulfate, and immune-complex engagement induces tissue factor expression, amplifying thrombin generation — why HIT is so intensely prothrombotic despite falling platelet counts.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — HIT is a severe acquired thrombophilia that, unlike most inherited thrombophilias, threatens arteries as well as veins and can take limbs; co-existing inherited thrombophilia or recent VTE further raises the risk of HIT-associated thrombosis.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
