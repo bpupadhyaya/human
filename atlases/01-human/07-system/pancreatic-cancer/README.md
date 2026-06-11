@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "EGFR is overexpressed in ~60% of PDAC; erlotinib + gemcitabine modestly improves OS vs. gemcitabine alone (NCIC PA.3: OS 6.24 vs. 5.91 months; HR 0.82) — the only approved targeted therapy before KRAS inhibitors; anti-EGFR antibodies (cetuximab) are ineffective in PDAC."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A (p16/INK4a) deleted/silenced in ~95% of PDAC; second earliest driver after KRAS; p16 loss → CDK4/6-RB hyperphosphorylation → unrestricted S-phase entry; ARF co-deletion → MDM2 unchecked → p53 suppressed; CDK4/6 inhibitors (palbociclib) evaluated in p16-null PDAC."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutations in ~70-75% of PDAC; p53 LOF → G2/M checkpoint failure and apoptosis evasion; late PanIN-3→PDAC transition event (vs KRAS = early); gain-of-function mutants (R175H, R248W) promote invasion; APR-246 (mutant p53 reactivator) in early PDAC trials."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "SMAD4 (DPC4) loss in ~55% of PDAC switches TGF-β from tumor suppressor to pro-invasive driver; SMAD4 loss predicts systemic metastasis vs local recurrence in SMAD4-intact; TGF-β → non-SMAD (RAS-ERK, PI3K) → EMT; SMAD4 IHC predicts spread in resected PDAC."
 ---
 
 # Pancreatic Cancer
@@ -167,6 +176,13 @@ cross_links:
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta drives pancreatic desmoplasia via stellate cell activation → dense stroma limits chemo delivery; SMAD4 loss (~50% of PDAC) → TGF-beta loses tumor suppression; TGF-beta becomes pro-invasive and immune-exclusionary in SMAD4-null PDAC; anti-TGF-beta combinations under study.
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1/2 germline mutations occur in ~5-10% of PDAC; olaparib maintenance (POLO trial) improved PFS in BRCA-mutant platinum-responsive mPDAC (7.4 vs. 3.8 months); somatic BRCA mutations in ~3%; homologous recombination deficiency testing guides PARP inhibitor selection.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR is overexpressed in ~60% of PDAC; erlotinib + gemcitabine modestly improves OS vs. gemcitabine alone (NCIC PA.3: OS 6.24 vs. 5.91 months; HR 0.82) — the only approved targeted therapy before KRAS inhibitors; anti-EGFR monoclonal antibodies (cetuximab) are ineffective in PDAC.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A (p16/INK4a) deleted/silenced in ~95% of PDAC; second earliest driver after KRAS; p16 loss → CDK4/6-RB hyperphosphorylation → unrestricted S-phase entry; ARF co-deletion → MDM2 unchecked → p53 suppressed; CDK4/6 inhibitors (palbociclib) evaluated in p16-null PDAC.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~70-75% of PDAC; p53 LOF → G2/M checkpoint failure and apoptosis evasion; late PanIN-3→PDAC transition event (vs KRAS = early); gain-of-function mutants (R175H, R248W) promote invasion; APR-246 (mutant p53 reactivator) in early PDAC trials.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SMAD4 (DPC4) loss in ~55% of PDAC switches TGF-β from tumor suppressor to pro-invasive driver; SMAD4 loss predicts systemic metastasis vs local recurrence in SMAD4-intact; TGF-β → non-SMAD (RAS-ERK, PI3K) → EMT; SMAD4 IHC predicts spread in resected PDAC.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^conroy-2011-folfirinox]: Conroy T, Desseigne F, Ychou M, et al. FOLFIRINOX versus gemcitabine for metastatic pancreatic cancer. *N Engl J Med.* 2011;364(19):1817-1825. [doi:10.1056/NEJMoa1011923](https://doi.org/10.1056/NEJMoa1011923) · [PubMed 21561347](https://pubmed.ncbi.nlm.nih.gov/21561347/)
 [^golan-2019-polo]: Golan T, Hammel P, Reni M, et al. Maintenance olaparib for germline BRCA-mutated metastatic pancreatic cancer. *N Engl J Med.* 2019;381(4):317-327. [doi:10.1056/NEJMoa1903387](https://doi.org/10.1056/NEJMoa1903387) · [PubMed 31157963](https://pubmed.ncbi.nlm.nih.gov/31157963/)

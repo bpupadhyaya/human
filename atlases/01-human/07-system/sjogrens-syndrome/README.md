@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "Rituximab (anti-CD20) depletes B cells in pSS; Phase 3 TEARS/TRACTISS had mixed results; used off-label for severe extraglandular pSS (vasculitis, cryoglobulinemia); CD20+ ectopic GC B cells are the key pathogenic and lymphoma-risk population in salivary glands."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "pSS B-cell hyperactivation (BAFF-driven) → anti-Ro/SSA, anti-La/SSB autoantibodies; ectopic germinal center formation in salivary glands; CD27+ memory B cells expanded; rituximab (anti-CD20) targets B cells in refractory pSS; 40× lymphoma risk from chronic B-cell stimulation."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Treg frequency and suppressive function reduced in pSS; Treg/Th17 imbalance drives salivary gland inflammation; impaired peripheral tolerance permits autoreactive B- and T-cell activation; low FoxP3+ Tregs in minor salivary gland biopsies correlate with disease activity scores."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "pSS carries 15-40× population-level NHL risk; MALT lymphoma most common (parotid gland), progressing to DLBCL in ~10-15%; cryoglobulinemia, low C4, parotid swelling predict lymphoma transformation; R-CHOP for DLBCL; pSS-associated lymphoma has better prognosis than de novo DLBCL."
 ---
 
 # Sjögren's Syndrome
@@ -177,10 +186,14 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I IFN signature (~75% of pSS) is driven by TLR7/9 sensing of anti-Ro RNA complexes in pDCs; IFN-α upregulates BAFF and MHC class II → B- and T-cell activation loop; IFN signature correlates with anti-Ro/SSA positivity and systemic disease activity.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 from salivary gland epithelial cells drives plasma cell differentiation → anti-Ro/SSA and RF production; supports ectopic GC formation; serum IL-6 correlates with hypergammaglobulinemia and RF titer in pSS.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20) depletes B cells in pSS; Phase 3 TEARS/TRACTISS did not meet primary ESSPRI endpoint but improved objective salivary/lacrimal parameters; used for severe extraglandular pSS (cryoglobulinemic vasculitis, lymphoma); CD20+ ectopic GC B cells are the key pathogenic and lymphoma-risk population.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — pSS B-cell hyperactivation (BAFF-driven) → anti-Ro/SSA, anti-La/SSB autoantibodies; ectopic germinal center formation in salivary glands; CD27+ memory B cells expanded; rituximab (anti-CD20) targets B cells in refractory pSS; 40× lymphoma risk from chronic B-cell stimulation.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Treg frequency and suppressive function reduced in pSS; Treg/Th17 imbalance drives salivary gland inflammation; impaired peripheral tolerance permits autoreactive B- and T-cell activation; low FoxP3+ Tregs in minor salivary gland biopsies correlate with disease activity scores.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — pSS carries 15-40× population-level NHL risk; MALT lymphoma most common (parotid gland), progressing to DLBCL in ~10-15%; cryoglobulinemia, low C4, parotid swelling predict lymphoma transformation; R-CHOP for DLBCL; pSS-associated lymphoma has better prognosis than de novo DLBCL.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^shiboski-2017-sjogrens-criteria]: Shiboski CH, Shiboski SC, Seror R, et al. 2016 American College of Rheumatology/European League Against Rheumatism classification criteria for primary Sjögren's syndrome. *Arthritis Rheumatol.* 2017;69(1):35-45. [doi:10.1002/art.39859](https://doi.org/10.1002/art.39859) · [PubMed 27785888](https://pubmed.ncbi.nlm.nih.gov/27785888/)
 [^dorner-2023-ianalumab-twinss]: Dörner T, Bowman SJ, Fox R, et al. Ianalumab (VAY736) in patients with primary Sjögren's syndrome: a multicentre, randomised, double-blind, placebo-controlled, phase 3 trial (TWINSS). *Lancet.* 2023;402(10400):477-489. [doi:10.1016/S0140-6736(23)00454-4](https://doi.org/10.1016/S0140-6736(23)00454-4) · [PubMed 37499657](https://pubmed.ncbi.nlm.nih.gov/37499657/)
 [^seror-2019-eular-sjogrens]: Seror R, Ravaud P, Mariette X, et al. EULAR Sjögren's Syndrome Disease Activity Index and Patient Reported Index. *Ann Rheum Dis.* 2019;78(11):1554-1560. [doi:10.1136/annrheumdis-2019-215024](https://doi.org/10.1136/annrheumdis-2019-215024) · [PubMed 31462415](https://pubmed.ncbi.nlm.nih.gov/31462415/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
