@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/snare-complex
     relation: connects-to
     note: "The SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Myasthenia gravis and multiple sclerosis are both autoimmune neurological diseases on opposite sides of the synapse and the immune system: MG is an antibody-and-complement attack on the neuromuscular junction (peripheral), while MS is T-cell demyelination of central myelin."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Antibody subclass dictates myasthenia gravis: AChR+ MG runs on complement-fixing IgG1/IgG3 (so eculizumab works), whereas MuSK+ MG is driven by non-complement IgG4 that blocks MuSK signaling; FcRn inhibitors like efgartigimod treat both by speeding IgG breakdown."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Myasthenia gravis is a postsynaptic disease: the motor neuron terminal releases acetylcholine normally, but antibody-mediated loss of muscle AChRs blunts the endplate response — distinguishing it from Lambert-Eaton syndrome, where antibodies block presynaptic calcium channels."
 ---
 
 # Myasthenia Gravis
@@ -166,6 +175,9 @@ cross_links:
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — thymic hyperplasia (germinal centers with AChR-reactive Th cells) in ~70% of AChR+ MG; thymoma (10-15%) produces AChR-reactive T cells escaping tolerance; MGTX trial (NEJM 2016) showed thymectomy + prednisone reduces disability in non-thymomatous AChR+ gMG.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells differentiate into plasma cells that secrete anti-AChR IgG1/IgG3; rituximab (anti-CD20) depletes B cells → durable remission especially in MuSK+ MG; plasmablast-derived anti-AChR IgG levels guide treatment decisions in AChR+ vs. MuSK+ subsets.
 - `connects-to` → **[SNARE Complex](../../03-molecular/snare-complex/README.md)** — the SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Myasthenia gravis and multiple sclerosis are both autoimmune neurological diseases on opposite sides of the synapse and the immune system: MG is an antibody-and-complement attack on the neuromuscular junction (peripheral), while MS is T-cell demyelination of central myelin.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antibody subclass dictates myasthenia gravis: AChR+ MG runs on complement-fixing IgG1/IgG3 (so eculizumab works), whereas MuSK+ MG is driven by non-complement IgG4 that blocks MuSK signaling; FcRn inhibitors like efgartigimod treat both by speeding IgG breakdown.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Myasthenia gravis is a postsynaptic disease: the motor neuron terminal releases acetylcholine normally, but antibody-mediated loss of muscle AChRs blunts the endplate response — distinguishing it from Lambert-Eaton syndrome, where antibodies block presynaptic calcium channels.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

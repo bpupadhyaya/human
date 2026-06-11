@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/ccr5
     relation: connects-to
     note: "CCR5+ Th1 cells are recruited to CNS white matter lesions in MS; CCR5-Δ32 carriers have modestly reduced MS severity in some cohorts; CCR5 ligands (CCL3/CCL4/CCL5) are elevated in MS CSF; CCR5 antagonism (maraviroc) is being explored in neuroinflammation trials."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Epstein-Barr virus is now considered a necessary cause of multiple sclerosis: a 10-million-person cohort showed MS risk jumps ~32-fold after EBV seroconversion, and EBV's EBNA-1 protein cross-reacts with the myelin protein GlialCAM — making EBV a leading target for MS prevention."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Multiple sclerosis and myasthenia gravis are both autoimmune neurological diseases: MS is a T-cell-driven demyelination of central myelin, whereas MG is an antibody attack on the neuromuscular junction — CNS versus peripheral, T-cell versus B-cell/complement."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Low vitamin D is a consistent, modifiable multiple-sclerosis risk factor: the latitude gradient of MS tracks sunlight, a vitamin-D-response element sits in the HLA-DRB1*15:01 promoter, and supplementation is being studied for prevention."
 ---
 
 # Multiple Sclerosis
@@ -165,6 +174,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — reactive astrocytes form glial scar in MS lesions, impeding OPC remyelination; astrocytes also sustain BBB integrity and produce neuroprotective factors (CNTF, LIF); astrocyte dysfunction is a primary driver of progressive MS and lesion repair failure.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is elevated in MS lesions and CSF; Th17 cells breach the blood-brain barrier via CXCR6 → demyelination; secukinumab (anti-IL-17A) paradoxically worsened MS relapse rates in phase 2 trials — suggesting complex compensatory roles of IL-17A/Treg balance in CNS disease.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5⁺ Th1 cells are recruited to CNS white matter MS lesions via CCL3/CCL4/CCL5 chemokines; CCR5-Δ32 heterozygosity is associated with modestly reduced MS severity in some epidemiological cohorts; CCR5 antagonism (maraviroc) is being explored as adjunct anti-inflammatory therapy in neuroinflammation.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus is now considered a necessary cause of multiple sclerosis: a 10-million-person cohort showed MS risk jumps ~32-fold after EBV seroconversion, and EBV's EBNA-1 protein cross-reacts with the myelin protein GlialCAM — making EBV a leading target for MS prevention.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Multiple sclerosis and myasthenia gravis are both autoimmune neurological diseases: MS is a T-cell-driven demyelination of central myelin, whereas MG is an antibody attack on the neuromuscular junction — CNS versus peripheral, T-cell versus B-cell/complement.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Low vitamin D is a consistent, modifiable multiple-sclerosis risk factor: the latitude gradient of MS tracks sunlight, a vitamin-D-response element sits in the HLA-DRB1*15:01 promoter, and supplementation is being studied for prevention.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
