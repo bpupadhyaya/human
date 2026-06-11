@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A homozygous deletion occurs in ~50-70% of IDH-mutant astrocytoma Grade 4; CDK4/6 hyperactivation → RB1 → E2F proliferation; CDKN2A deletion defines WHO Grade 4 IDH-mutant astrocytoma (from Grade 3); ATRX LOF + CDKN2A deletion → worst IDH-mutant glioma prognosis."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "IDH-mutant gliomas are diffuse, infiltrative brain tumors (astrocytoma favors frontal lobe, oligodendroglioma frontotemporal) that cannot be fully excised; maximal safe resection — often via awake craniotomy with cortical mapping — improves PFS and delays transformation."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "IDH status is the great divide in adult diffuse glioma: IDH-mutant tumors run a far more indolent course (median OS ~10-15 years) than IDH-wildtype glioblastoma (~15 months); WHO 2021 reserves the name 'glioblastoma' for IDH-wildtype tumors only."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "IDH-mutant astrocytoma is the glial-lineage arm of the family (ATRX LOF + TP53, 1p/19q intact), as opposed to oligodendroglioma; IDH mutation creates a neural-progenitor-like epigenetic state (G-CIMP) that blocks normal astrocytic differentiation."
 ---
 
 # IDH-Mutant Glioma
@@ -171,6 +180,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 R132H mutation (>90% of IDH-mutant gliomas) → 2-hydroxyglutarate → TET2/KDM inhibition → G-CIMP; vorasidenib (IDH1/2 inhibitor) FDA-approved August 2024 for IDH-mutant Grade 2 glioma (INDIGO trial: PFS HR 0.39); IDH1 IHC (anti-R132H) is the initial diagnostic test.
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — ATRX LOF + IDH1 → 2-HG → TET2 inhibition → DNA hypermethylation (G-CIMP); ATRX-DAXX deposits H3.3 at telomeric chromatin; ATRX LOF impairs H3.3 telomeric deposition → ALT mechanism → telomere lengthening independent of TERT; ATRX and TET2 cooperate in chromatin maintenance.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A homozygous deletion occurs in ~50-70% of IDH-mutant astrocytoma Grade 4; CDK4/6 hyperactivation → RB1 → E2F proliferation; CDKN2A deletion defines WHO Grade 4 IDH-mutant astrocytoma (from Grade 3); ATRX LOF + CDKN2A deletion → worst IDH-mutant glioma prognosis.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — IDH-mutant gliomas are diffuse, infiltrative brain tumors (astrocytoma favors frontal lobe, oligodendroglioma frontotemporal) that cannot be fully excised; maximal safe resection — often via awake craniotomy with cortical mapping — improves PFS and delays transformation.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — IDH status is the great divide in adult diffuse glioma: IDH-mutant tumors run a far more indolent course (median OS ~10-15 years) than IDH-wildtype glioblastoma (~15 months); WHO 2021 reserves the name 'glioblastoma' for IDH-wildtype tumors only.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — IDH-mutant astrocytoma is the glial-lineage arm of the family (ATRX LOF + TP53, 1p/19q intact), as opposed to oligodendroglioma; IDH mutation creates a neural-progenitor-like epigenetic state (G-CIMP) that blocks normal astrocytic differentiation.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

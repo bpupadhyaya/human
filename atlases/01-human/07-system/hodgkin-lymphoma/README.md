@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/jak2
     relation: connects-to
     note: "9p24.1 amplification co-amplifies JAK2 with PD-L1/PD-L2 and CD30 in RS cells; JAK2 → constitutive STAT6 → IL-13 autocrine + PD-L1 transcription; ruxolitinib studied in R/R cHL; JAK2 amplification is a primary oncogenic driver in cHL."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Reed-Sternberg cells arise from germinal-center B cells that acquired crippling Ig V-gene mutations and should have died during negative selection; they survive via CD30/CD40/NF-κB and EBV rescue while shedding the B-cell program (no surface Ig, loss of OCT2/BOB1)."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "EBV is found in 30-50% of classical HL (up to 80-90% in lymphocyte-depleted and HIV-associated cases); its LMP1 protein mimics a constitutively active CD40 receptor → NF-κB survival signaling in RS cells; prior infectious mononucleosis roughly triples HL risk."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20 status splits Hodgkin lymphoma: RS cells of classical HL are CD20-negative, whereas the popcorn (L&H) cells of NLPHL retain the B-cell program and are CD20-positive — making rituximab effective in NLPHL but not classical HL."
 ---
 
 # Hodgkin Lymphoma
@@ -161,6 +170,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — 9p24.1 amplification in RS cells drives PD-L1/PD-L2 overexpression → profound T-cell exhaustion in tumor microenvironment; nivolumab (CheckMate 205) and pembrolizumab (KEYNOTE-087) show ORR ~65-70% in R/R cHL; KEYNOTE-204 (pembrolizumab vs BV): PFS 13.2 vs 8.3 months.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB is constitutively active in RS cells via CD30, CD40, EBV-LMP1, and CARD11 signaling; NF-κB drives RS cell survival by upregulating BCL-2, BCL-XL, and cFLIP; microenvironmental TNF-α further activates NF-κB; NF-κB inhibition is a preclinical therapeutic target in R/R cHL.
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — 9p24.1 amplification co-amplifies JAK2 with PD-L1/PD-L2 and CD30 in RS cells; JAK2 → constitutive STAT6 → IL-13 autocrine + PD-L1 transcription; ruxolitinib studied in R/R cHL; JAK2 amplification is a primary oncogenic driver in cHL.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Reed-Sternberg cells arise from germinal-center B cells that acquired crippling Ig V-gene mutations and should have died during negative selection; they survive via CD30/CD40/NF-κB and EBV rescue while shedding the B-cell program (no surface Ig, loss of OCT2/BOB1).
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV is found in 30-50% of classical HL (up to 80-90% in lymphocyte-depleted and HIV-associated cases); its LMP1 protein mimics a constitutively active CD40 receptor → NF-κB survival signaling in RS cells; prior infectious mononucleosis roughly triples HL risk.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 status splits Hodgkin lymphoma: RS cells of classical HL are CD20-negative, whereas the popcorn (L&H) cells of NLPHL retain the B-cell program and are CD20-positive — making rituximab effective in NLPHL but not classical HL.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
