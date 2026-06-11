@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCR4 gain-of-function mutations (WHIM-type S338X, C1013G) in 30-40% of WM → impaired receptor desensitization → enhanced CXCL12/CXCR4 bone marrow retention and resistance to BTK inhibitor ibrutinib; CXCR4 mutation status predicts ibrutinib response and PFS in WM."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Waldenström macroglobulinemia is a lymphoplasmacytic lymphoma — a clonal B-cell neoplasm frozen midway between a memory B cell and an IgM-secreting plasma cell; this dual identity gives it both surface CD20 and cytoplasmic IgM and shapes its B-cell-directed therapy."
+  - target: 01-human/03-molecular/myd88
+    relation: connects-to
+    note: "MYD88 L265P, present in ~90% of WM, is the defining and diagnostic mutation: it assembles a constitutive myddosome that fires NF-κB, JAK-STAT3, and BTK to keep the tumor alive, and its presence predicts response to BTK inhibitors — while MYD88-wildtype WM responds poorly."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "About half of WM patients with neuropathy have IgM anti-MAG antibodies that attack peripheral-nerve myelin, producing a distal, symmetric, sensory-predominant demyelinating neuropathy; lowering IgM with rituximab improves it in some, and titer tracks severity."
 ---
 
 # Waldenström Macroglobulinemia
@@ -161,6 +170,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — MYD88 L265P drives JAK1-STAT3 → BCL-XL survival in WM independent of cytokine receptor signaling; ruxolitinib (JAK1/2 inhibitor) shows activity in MYD88 L265P WM; combined BTK+JAK inhibition studied in ibrutinib-resistant WM; JAK2 V617F absent in WM (unlike MPN).
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 overexpression is driven by MYD88/NF-κB → IRF4 in WM; venetoclax (BCL-2 inhibitor) shows activity in R/R WM; combined ibrutinib+venetoclax achieves deep responses in R/R WM; BCL-2 is an anti-apoptotic target complementary to BTK inhibition in WM.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab ± bendamustine or cyclophosphamide is first-line for WM; rituximab monotherapy causes IgM flare (~40%) before response; ofatumumab and obinutuzumab are alternatives for rituximab-refractory WM; CD20 is uniformly expressed (CD19+/CD20+/sIgM+).
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Waldenström macroglobulinemia is a lymphoplasmacytic lymphoma — a clonal B-cell neoplasm frozen midway between a memory B cell and an IgM-secreting plasma cell; this dual identity gives it both surface CD20 and cytoplasmic IgM and shapes its B-cell-directed therapy.
+- `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — MYD88 L265P, present in ~90% of WM, is the defining and diagnostic mutation: it assembles a constitutive myddosome that fires NF-κB, JAK-STAT3, and BTK to keep the tumor alive, and its presence predicts response to BTK inhibitors — while MYD88-wildtype WM responds poorly.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — About half of WM patients with neuropathy have IgM anti-MAG antibodies that attack peripheral-nerve myelin, producing a distal, symmetric, sensory-predominant demyelinating neuropathy; lowering IgM with rituximab improves it in some, and titer tracks severity.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

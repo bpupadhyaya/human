@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Activin A/B → ActRIIB on erythroid progenitors → SMAD2/3 → suppression of late erythroid maturation → ineffective erythropoiesis in MDS and beta-thalassemia; luspatercept (MEDALIST trial: 38% transfusion independence vs. 13% placebo) traps activin A/B to restore erythropoiesis."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Myelodysplastic syndromes are clonal disorders defined by marrow dysplasia (≥10% in a lineage), ring sideroblasts, and rising blasts; the signature paradox is a hypercellular marrow yielding peripheral cytopenias, because dysplastic progenitors die in the marrow before maturing."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "MDS is a pre-leukemic clonal disorder on a continuum with AML: rising marrow blasts (≥20% defines AML) and new driver mutations mark transformation, ranging from ~10%/year in low-risk to ~50% over 2 years in MDS-EB2; shared biology drives shared therapy (azacitidine, venetoclax)."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Ineffective erythropoiesis is the core lesion of lower-risk MDS — erythroid progenitors mature abnormally and die before producing red cells, causing transfusion-dependent anemia; luspatercept traps activin/GDF11 to release late erythroid maturation."
 ---
 
 # Myelodysplastic Syndromes
@@ -154,6 +163,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 loss-of-function mutations in ~6% of MDS; EZH2 and DNMT3A/TET2 mutations co-occur in MDS, compounding epigenetic deregulation; EZH2 deletion/mutation is an adverse prognostic factor in MDS; tazemetostat is not currently approved for MDS.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 biallelic mutations define ultra-high risk MDS (WHO 2022: MDS-biTP53); monosomal karyotype; median OS <1 year; venetoclax+azacitidine has limited activity in TP53-mutant MDS; eprenetapopt (p53 reactivator)+azacitidine showed CR ~35% in Phase 2.
 - `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH1/2 mutations in ~10% of MDS (IDH1 ~5%, IDH2 ~5%); 2-HG → TET2 inhibition → hypermethylation amplifies DNMT3A epigenetic dysfunction; ivosidenib (IDH1) and enasidenib (IDH2) active in IDH-mutant MDS; FDA-approved in AML, under investigation in MDS.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Myelodysplastic syndromes are clonal disorders defined by marrow dysplasia (≥10% in a lineage), ring sideroblasts, and rising blasts; the signature paradox is a hypercellular marrow yielding peripheral cytopenias, because dysplastic progenitors die in the marrow before maturing.
+- `connects-to` → **[AML](../aml/README.md)** — MDS is a pre-leukemic clonal disorder on a continuum with AML: rising marrow blasts (≥20% defines AML) and new driver mutations mark transformation, ranging from ~10%/year in low-risk to ~50% over 2 years in MDS-EB2; shared biology drives shared therapy (azacitidine, venetoclax).
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Ineffective erythropoiesis is the core lesion of lower-risk MDS — erythroid progenitors mature abnormally and die before producing red cells, causing transfusion-dependent anemia; luspatercept traps activin/GDF11 to release late erythroid maturation.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
