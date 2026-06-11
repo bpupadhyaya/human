@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: modulates
     note: "Hippocampus expresses high GR and MR levels; acute cortisol → ↑synaptic plasticity; chronic cortisol → ↓BDNF, ↓neurogenesis, CA3 dendritic atrophy, hippocampal volume reduction — basis of stress-induced depression and PTSD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF/TrkB drives L-LTP and dentate gyrus neurogenesis; antidepressants ↑BDNF/CREB → neurogenesis required for antidepressant efficacy (Santarelli 2003); chronic cortisol ↓BDNF → hippocampal atrophy in depression/PTSD; ketamine → rapid BDNF release → rapid antidepressant action."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin (5-HT1A/5-HT4) modulates hippocampal neuroplasticity; 5-HT1A in DG granule cells and CA1 pyramidal neurons; SSRIs ↑5-HT → ↑BDNF/TrkB → ↑SGZ neurogenesis → antidepressant effect delayed 2-4 weeks; 5-HT depletion impairs pattern separation and memory consolidation."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Hippocampus and entorhinal cortex are earliest sites of NFT deposition (Braak I-II) and Aβ synaptic failure; hippocampal MRI atrophy is the earliest AD biomarker; CA1 Sommer sector is selectively vulnerable; lecanemab (anti-Aβ) slows hippocampal atrophy and memory decline."
 ---
 
 # Hippocampus
@@ -96,10 +105,13 @@ The critical importance of the hippocampus in human memory was established by th
 
 ## Connections
 
-- **part-of** [brain](../../06-organ/brain/README.md): Hippocampus is a bilateral archicortical structure in the medial temporal lobe; CA1/CA3 pyramidal neurons and dentate gyrus granule cells form the trisynaptic circuit for declarative memory encoding and spatial navigation.
-- **modulates** [neuron](../../04-cellular/neuron/README.md): CA1 pyramidal neurons exhibit LTP at Schaffer collateral synapses via NMDAR-dependent Ca²⁺/CaMKII → AMPAR insertion; place cells encode spatial location; dentate gyrus neurogenesis contributes to pattern separation and episodic memory.
-- **modulates** [glutamate](../../03-molecular/glutamate/README.md): Schaffer collateral and perforant path synapses are glutamatergic (AMPAR+NMDAR); NMDAR is the coincidence detector for LTP; excitotoxic glutamate release in ischaemia selectively kills CA1 pyramidal neurons (Sommer sector).
-- **modulates** [cortisol](../../03-molecular/cortisol/README.md): Hippocampus expresses high GR and MR levels; acute cortisol → ↑synaptic plasticity; chronic cortisol → ↓BDNF, ↓neurogenesis, CA3 dendritic atrophy, hippocampal volume reduction — basis of stress-induced depression and PTSD.
+- `part-of` → **[Brain](../../06-organ/brain/README.md)** — Hippocampus is a bilateral archicortical structure in the medial temporal lobe; CA1/CA3 pyramidal neurons and dentate gyrus granule cells form the trisynaptic circuit for declarative memory encoding and spatial navigation.
+- `modulates` → **[Neuron](../../04-cellular/neuron/README.md)** — CA1 pyramidal neurons exhibit LTP at Schaffer collateral synapses via NMDAR-dependent Ca²⁺/CaMKII → AMPAR insertion; place cells encode spatial location; dentate gyrus neurogenesis contributes to pattern separation and episodic memory.
+- `modulates` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Schaffer collateral and perforant path synapses are glutamatergic (AMPAR+NMDAR); NMDAR is the coincidence detector for LTP; excitotoxic glutamate release in ischaemia selectively kills CA1 pyramidal neurons (Sommer sector).
+- `modulates` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Hippocampus expresses high GR and MR levels; acute cortisol → ↑synaptic plasticity; chronic cortisol → ↓BDNF, ↓neurogenesis, CA3 dendritic atrophy, hippocampal volume reduction — basis of stress-induced depression and PTSD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF/TrkB drives L-LTP and dentate gyrus neurogenesis; antidepressants ↑BDNF/CREB → neurogenesis required for antidepressant efficacy (Santarelli 2003); chronic cortisol ↓BDNF → hippocampal atrophy in depression/PTSD; ketamine → rapid BDNF release → rapid antidepressant action.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin (5-HT1A/5-HT4) modulates hippocampal neuroplasticity; 5-HT1A in DG granule cells and CA1 pyramidal neurons; SSRIs ↑5-HT → ↑BDNF/TrkB → ↑SGZ neurogenesis → antidepressant effect delayed 2-4 weeks; 5-HT depletion impairs pattern separation and memory consolidation.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — Hippocampus and entorhinal cortex are earliest sites of NFT deposition (Braak I-II) and Aβ synaptic failure; hippocampal MRI atrophy is the earliest AD biomarker; CA1 Sommer sector is selectively vulnerable; lecanemab (anti-Aβ) slows hippocampal atrophy and memory decline.
 
 ## Pathology
 
@@ -126,3 +138,7 @@ All forms: ↑CSF protein, limbic hyperintensity on FLAIR MRI (hippocampus/amygd
 - [cortisol](../../03-molecular/cortisol/README.md) — stress hormone mediating hippocampal atrophy and neurogenesis suppression
 - [serotonin](../../03-molecular/serotonin/README.md) — antidepressant-mediated hippocampal neurogenesis and plasticity
 - [nervous-system](../../07-system/nervous-system/README.md) — systems context for hippocampal limbic function
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

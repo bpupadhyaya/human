@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: modulates
     note: "Cortisol activates GR in β-cells → impairs GLP-1R signalling and Ca²⁺ entry; GR in hepatocytes → ↑gluconeogenesis; GR in skeletal muscle → ↑insulin resistance; β-cell reserve determines steroid-induced DM risk."
+  - target: 01-human/03-molecular/glucagon
+    relation: expresses
+    note: "α-cells (~15-20%) secrete glucagon when glucose <4 mmol/L; glucagon → hepatic glycogenolysis + gluconeogenesis → ↑blood glucose; β-cell insulin and Zn²⁺ suppress α-cell output; disrupted in T1DM → glucagon excess → ketoacidosis; glucagonoma → necrolytic migratory erythema."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "GLP-1 from intestinal L-cells → GLP-1R on β-cells → Gs → ↑cAMP → PKA + Epac2 → potentiates GSIS and β-cell survival; basis of semaglutide/liraglutide; GLP-1 also suppresses glucagon, delays gastric emptying, and promotes satiety; blunted incretin effect in T2DM."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "CD4+ Th1 cells autoreactive to GAD65, IA-2, ZnT8 drive CD8+ T cell expansion → β-cell killing in T1DM; HLA-DR3/DR4-DQ2/DQ8 present islet antigens to autoreactive T cells; regulatory T cell failure → loss of peripheral tolerance → autoimmune insulitis."
 ---
 
 # Islet of Langerhans
@@ -86,10 +95,13 @@ The five cell types of the islet act as a paracrine community, integrating signa
 
 ## Connections
 
-- **part-of** [pancreas](../../06-organ/pancreas/README.md): ~1 million islets dispersed within exocrine pancreatic tissue (~1–2% of mass); islets receive 5–10× higher blood flow per unit weight; paracrine and neural signals within islets coordinate β/α/δ cell function.
-- **expresses** [insulin](../../03-molecular/insulin/README.md): β-cells are the exclusive source of insulin; GLUT2/glucokinase sensing → KATP channel closure → Ca²⁺ influx → exocytosis; first-phase (pre-formed granules) and second-phase secretion; first-phase loss is an early T2DM marker.
-- **modulates** [liver](../../06-organ/liver/README.md): Portal vein delivers insulin (~5× peripheral concentration) to hepatocytes; 50% extracted in first pass; portal insulin suppresses hepatic glucose output (glycogenolysis + gluconeogenesis); absent in T1DM → fasting hyperglycaemia.
-- **modulates** [glucocorticoid-receptor](../../03-molecular/glucocorticoid-receptor/README.md): Cortisol activates GR in β-cells → impairs GLP-1R signalling and Ca²⁺ entry; GR in hepatocytes → ↑gluconeogenesis; GR in skeletal muscle → ↑insulin resistance; β-cell reserve determines steroid-induced DM risk.
+- `part-of` → **[Pancreas](../../06-organ/pancreas/README.md)** — ~1 million islets dispersed within exocrine pancreatic tissue (~1–2% of mass); islets receive 5–10× higher blood flow per unit weight; paracrine and neural signals within islets coordinate β/α/δ cell function.
+- `expresses` → **[Insulin](../../03-molecular/insulin/README.md)** — β-cells are the exclusive source of insulin; GLUT2/glucokinase sensing → KATP channel closure → Ca²⁺ influx → exocytosis; first-phase (pre-formed granules) and second-phase secretion; first-phase loss is an early T2DM marker.
+- `modulates` → **[Liver](../../06-organ/liver/README.md)** — Portal vein delivers insulin (~5× peripheral concentration) to hepatocytes; 50% extracted in first pass; portal insulin suppresses hepatic glucose output (glycogenolysis + gluconeogenesis); absent in T1DM → fasting hyperglycaemia.
+- `modulates` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Cortisol activates GR in β-cells → impairs GLP-1R signalling and Ca²⁺ entry; GR in hepatocytes → ↑gluconeogenesis; GR in skeletal muscle → ↑insulin resistance; β-cell reserve determines steroid-induced DM risk.
+- `expresses` → **[Glucagon](../../03-molecular/glucagon/README.md)** — α-cells (~15-20%) secrete glucagon when glucose <4 mmol/L; glucagon → hepatic glycogenolysis + gluconeogenesis → ↑blood glucose; β-cell insulin and Zn²⁺ suppress α-cell output; disrupted in T1DM → glucagon excess → ketoacidosis; glucagonoma → necrolytic migratory erythema.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 from intestinal L-cells → GLP-1R on β-cells → Gs → ↑cAMP → PKA + Epac2 → potentiates GSIS and β-cell survival; basis of semaglutide/liraglutide; GLP-1 also suppresses glucagon, delays gastric emptying, and promotes satiety; blunted incretin effect in T2DM.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — CD4+ Th1 cells autoreactive to GAD65, IA-2, ZnT8 drive CD8+ T cell expansion → β-cell killing in T1DM; HLA-DR3/DR4-DQ2/DQ8 present islet antigens to autoreactive T cells; regulatory T cell failure → loss of peripheral tolerance → autoimmune insulitis.
 
 ## Pathology
 
@@ -111,3 +123,7 @@ The five cell types of the islet act as a paracrine community, integrating signa
 - [glucocorticoid-receptor](../../03-molecular/glucocorticoid-receptor/README.md) — links stress axis to β-cell dysfunction
 - [liver](../../06-organ/liver/README.md) — primary target of portal insulin for glucose homeostasis
 - [t-helper-cell](../../04-cellular/t-helper-cell/README.md) — mediates autoimmune β-cell destruction in T1DM
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
