@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "Cowden/PHTS thyroid cancer risk ~35% lifetime (follicular carcinoma predominates; NOT medullary thyroid cancer — MTC is RET/MEN2); multinodular goiter and thyroid adenomas are common benign features; annual thyroid ultrasound surveillance from diagnosis."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PTEN LOF → PI3K-AKT → mTOR hyperactivation in all PHTS tumors; mTORC1 drives S6K1/4EBP1 → protein synthesis and cell growth; everolimus (mTORC1 inhibitor) active in HR+/HER2- BC, RCC, and PHTS-associated lesions; mTOR is the canonical PHTS therapeutic target."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PTEN LOF → constitutive AKT phosphorylation (Ser473/Thr308) → survival, proliferation, and cell cycle entry; capivasertib and ipatasertib active in PTEN-deficient BC; capivasertib + fulvestrant approved (CAPItello-291) for HR+/HER2- BC with PI3K/AKT/PTEN alterations."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Cowden/PHTS endometrial cancer risk ~28% lifetime; endometrioid adenocarcinoma predominates; PTEN is most frequently mutated in sporadic endometrioid EC (~65%); often early-stage, well-differentiated; annual TVU/biopsy from age 35; prophylactic hysterectomy after childbearing."
 ---
 
 # Cowden Syndrome
@@ -218,7 +227,14 @@ cross_links:
 - `connects-to` → **[KLLN](../../03-molecular/klln/README.md)** — KLLN promoter CpG hypermethylation silences KLLN in ~30-35% of PTEN-mutation-negative Cowden patients; KLLN and PTEN are co-located at 10q23 and regulate overlapping tumor suppressor functions; KLLN LOF → replication stress → genomic instability → PHTS tumors.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN germline pathogenic variants (~80% of classic Cowden) are the primary molecular driver; PTEN dephosphorylates PIP3 → reduced PI3K-AKT → cell cycle arrest and apoptosis; PTEN LOF → PI3K-AKT-mTOR hyperactivation → breast, thyroid, endometrial, renal tumors.
 - `connects-to` → **[Breast Cancer](../../07-system/breast-cancer/README.md)** — Cowden/PHTS female lifetime breast cancer risk is ~77-85% (vs 12% population); annual MRI + mammogram from age 30-35; prophylactic mastectomy is an option; molecular subtype: predominantly HR+/HER2- (similar to BRCA1/2-related BC); PTEN LOF → PI3K-AKT → BC growth.
-- `connects-to` → **[Thyroid Cancer](../../07-system/thyroid-cancer/README.md)** — Cowden/PHTS thyroid cancer risk ~35% lifetime (follicular carcinoma predominates; NOT medullary thyroid cancer — MTC is RET/MEN2); multinodular goiter and thyroid adenomas are common benign features; annual thyroid ultrasound surveillance from diagnosis.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Cowden/PHTS thyroid cancer risk ~35% lifetime (follicular carcinoma predominates; NOT medullary thyroid cancer — MTC is RET/MEN2); multinodular goiter and thyroid adenomas are common benign features; annual thyroid ultrasound surveillance from diagnosis.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PTEN LOF → PI3K-AKT → mTOR hyperactivation in all PHTS tumors; mTORC1 drives S6K1/4EBP1 → protein synthesis and cell growth; everolimus (mTORC1 inhibitor) active in HR+/HER2- BC, RCC, and PHTS-associated lesions; mTOR is the canonical PHTS therapeutic target.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PTEN LOF → constitutive AKT phosphorylation (Ser473/Thr308) → survival, proliferation, and cell cycle entry; capivasertib and ipatasertib active in PTEN-deficient BC; capivasertib + fulvestrant approved (CAPItello-291) for HR+/HER2- BC with PI3K/AKT/PTEN alterations.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Cowden/PHTS endometrial cancer risk ~28% lifetime; endometrioid adenocarcinoma predominates; PTEN is most frequently mutated in sporadic endometrioid EC (~65%); often early-stage, well-differentiated; annual TVU/biopsy from age 35; prophylactic hysterectomy after childbearing.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^bubien-2013-cowden-cancer-risk]: Bubien V, Bonnet F, Brouste V, et al. High cumulative risks of cancer in patients with PTEN hamartoma tumour syndrome. *J Med Genet.* 2013;50(4):255-263. [doi:10.1136/jmedgenet-2012-101339](https://doi.org/10.1136/jmedgenet-2012-101339) · [PubMed 23335809](https://pubmed.ncbi.nlm.nih.gov/23335809/)
 [^bennett-2010-klln-cowden]: Bennett KL, Mester J, Eng C. Germline epigenetic regulation of KILLIN in Cowden and Cowden-like syndrome. *JAMA.* 2010;304(24):2724-2731. [doi:10.1001/jama.2010.1877](https://doi.org/10.1001/jama.2010.1877) · [PubMed 21177507](https://pubmed.ncbi.nlm.nih.gov/21177507/)

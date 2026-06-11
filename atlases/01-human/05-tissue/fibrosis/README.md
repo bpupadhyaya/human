@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/surfactant
     relation: connects-to
     note: "SFTPC mutations (L188Q, Δexon4) cause SP-C misfolding → ER stress → type II pneumocyte apoptosis → IPF; TGF-β1 (the master fibrosis driver) suppresses SFTPB/SFTPC transcription; surfactant dysfunction is an early feature of SFTPC-mutation familial IPF."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Fibrosis is pathological collagen I/III accumulation (5-15-fold in IPF; 10-fold in cirrhosis); LOX cross-links collagen → stiff matrix → FAK-YAP/TAZ → TGF-β amplification (fibrogenic positive feedback); Sirius Red staining is the gold standard for fibrosis staging."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Galectin-3 (secreted by macrophages and myofibroblasts) promotes fibrogenesis by activating TGF-β receptor signalling, binding fibronectin/collagen, and amplifying myofibroblast survival; galectin-3 serum levels are FDA-cleared as a prognostic biomarker for cardiac fibrosis."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "IL-13 from Th2 cells and ILC2s drives M2 macrophage polarisation and myofibroblast activation in Type 2 inflammatory fibrosis (IPF, EoE, schistosomal hepatic fibrosis); IL-13 → STAT6 → TGF-β1 upregulation; tralokinumab/lebrikizumab (anti-IL-13) assessed in IPF and EoE."
 ---
 
 # Fibrosis
@@ -103,8 +112,13 @@ Physiological fibrosis is an essential component of normal tissue repair. After 
 - `modulated-by` → **[Macrophage](../../04-cellular/macrophage/README.md)** — primary source of TGF-β1, PDGF, and IL-13 that initiate and sustain myofibroblast activation
 - `contains` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — resident fibroblasts are the primary precursors of activated myofibroblasts and the principal collagen-secreting cells in fibrotic tissue
 - `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — SFTPC mutations cause SP-C misfolding → type II pneumocyte apoptosis → IPF; TGF-β1 suppresses SFTPB/SFTPC transcription; surfactant dysfunction is an early feature of SFTPC-mutation familial IPF.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Fibrosis is pathological collagen I/III accumulation (5-15-fold in IPF; 10-fold in cirrhosis); LOX cross-links collagen → stiff matrix → FAK-YAP/TAZ → TGF-β amplification (fibrogenic positive feedback); Sirius Red staining is the gold standard for fibrosis staging.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Galectin-3 (secreted by macrophages and myofibroblasts) promotes fibrogenesis by activating TGF-β receptor signalling, binding fibronectin/collagen, and amplifying myofibroblast survival; galectin-3 serum levels are FDA-cleared as a prognostic biomarker for cardiac fibrosis.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — IL-13 from Th2 cells and ILC2s drives M2 macrophage polarisation and myofibroblast activation in Type 2 inflammatory fibrosis (IPF, EoE, schistosomal hepatic fibrosis); IL-13 → STAT6 → TGF-β1 upregulation; tralokinumab/lebrikizumab (anti-IL-13) assessed in IPF and EoE.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^wynn-2008-fibrosis]: Wynn TA. Cellular and molecular mechanisms of fibrosis. *J Pathol.* 2008;214(2):199-210. [doi:10.1002/path.2277](https://doi.org/10.1002/path.2277) · [PubMed 18161745](https://pubmed.ncbi.nlm.nih.gov/18161745/)
 [^henderson-2020-fibrosis-review]: Henderson NC, Rieder F, Wynn TA. Fibrosis: from mechanisms to medicines. *Nature.* 2020;587(7835):555-566. [doi:10.1038/s41586-020-2938-9](https://doi.org/10.1038/s41586-020-2938-9) · [PubMed 33239795](https://pubmed.ncbi.nlm.nih.gov/33239795/)
-
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
