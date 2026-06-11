@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "GAD involves amygdala hyperreactivity, PFC hypoactivity (impaired worry regulation), and reduced hippocampal volume; fMRI shows increased amygdala-insula connectivity and failure of ventromedial PFC to suppress amygdala fear responses during worry provocation."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Generalized and social anxiety disorders share amygdala hyperreactivity and serotonergic biology but differ in focus: GAD is diffuse, future-oriented worry across many life domains, whereas social anxiety is fear of being judged in specific social situations."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "GAD has the highest depression comorbidity of any anxiety disorder (~67% lifetime), reflecting shared monoamine, HPA-axis, and amygdala-PFC substrates; the two are typically treated together with the same SSRIs/SNRIs, and duloxetine covers both plus comorbid pain."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Generalized anxiety and panic disorder are distinct anxiety syndromes: GAD is sustained, free-floating worry with muscle tension, whereas panic disorder is discrete attacks of intense fear with autonomic surge and situational avoidance."
 ---
 
 # Generalized Anxiety Disorder
@@ -197,6 +206,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — excessive amygdala glutamatergic activity drives hypervigilance and threat anticipation in GAD; pregabalin reduces glutamate release via α2δ VGCC subunit blockade; NMDA receptor involvement in fear extinction underlies D-cycloserine augmentation strategies.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — HPA axis hyperactivation in GAD → elevated cortisol → hippocampal volume reduction and impaired extinction of conditioned fear; morning cortisol is elevated in GAD and normalizes with SSRI treatment; chronic cortisol elevation perpetuates amygdala sensitization.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — GAD involves amygdala hyperreactivity, vmPFC hypoactivity, and hippocampal volume reduction; fMRI shows increased amygdala-insula connectivity and failure of vmPFC to suppress amygdala fear responses; effective treatment (SSRIs or CBT) normalizes amygdala reactivity.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Generalized and social anxiety disorders share amygdala hyperreactivity and serotonergic biology but differ in focus: GAD is diffuse, future-oriented worry across many life domains, whereas social anxiety is fear of being judged in specific social situations.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — GAD has the highest depression comorbidity of any anxiety disorder (~67% lifetime), reflecting shared monoamine, HPA-axis, and amygdala-PFC substrates; the two are typically treated together with the same SSRIs/SNRIs, and duloxetine covers both plus comorbid pain.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Generalized anxiety and panic disorder are distinct anxiety syndromes: GAD is sustained, free-floating worry with muscle tension, whereas panic disorder is discrete attacks of intense fear with autonomic surge and situational avoidance.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

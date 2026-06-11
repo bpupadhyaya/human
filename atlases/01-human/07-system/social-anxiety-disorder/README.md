@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Reduced OTR in BLA in SAD decreases OT-mediated social threat dampening; low OT tone associates with gaze avoidance and social approach deficits; intranasal OT (24 IU) enhances social salience and attention to eyes and is in Phase 2 trials as CBT augmentation for SAD."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Social and generalized anxiety disorders overlap (~35-45% comorbid) but differ in scope: social anxiety is fear of scrutiny in specific situations, while GAD is broad, multi-domain worry — and only social anxiety shows a striatal dopamine deficit."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression complicates over half of social anxiety disorder and usually follows it: years of social avoidance and isolation breed hopelessness, so SAD-driven loss of relationships is a route into MDD; treating the social anxiety early can head off the depression."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol is the classic self-medication for social anxiety — it acutely blunts amygdala social-threat reactivity — so 20-25% of people with social anxiety disorder develop an alcohol use disorder, a reinforcing trap where drinking eases anxiety while worsening its course."
 ---
 
 # Social Anxiety Disorder
@@ -182,6 +191,12 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — SAD features BLA hyperreactivity to social threat cues and reduced amygdala habituation; striatal hypoactivation during social reward; reduced vmPFC-amygdala inhibition; CBT with behavioral experiments normalizes amygdala-vmPFC connectivity on task-based fMRI.
 
 - `connects-to` → **[Oxytocin](../../../03-molecular/oxytocin/README.md)** — reduced OTR expression in the BLA and CeA in SAD diminishes OT-mediated dampening of amygdala social threat responses; low endogenous OT associates with gaze avoidance, reduced eye contact, and social approach motivation deficits; intranasal OT (24 IU) enhances social salience, attention to eye regions, and reduces skin conductance to angry faces; in Phase 2 trials as CBT augmentation.
+
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Social and generalized anxiety disorders overlap (~35-45% comorbid) but differ in scope: social anxiety is fear of scrutiny in specific situations, while GAD is broad, multi-domain worry — and only social anxiety shows a striatal dopamine deficit.
+
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression complicates over half of social anxiety disorder and usually follows it: years of social avoidance and isolation breed hopelessness, so SAD-driven loss of relationships is a route into MDD; treating the social anxiety early can head off the depression.
+
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is the classic self-medication for social anxiety — it acutely blunts amygdala social-threat reactivity — so 20-25% of people with social anxiety disorder develop an alcohol use disorder, a reinforcing trap where drinking eases anxiety while worsening its course.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
