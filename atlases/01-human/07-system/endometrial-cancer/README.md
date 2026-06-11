@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Progesterone drives endometrial secretory transformation opposing estrogen proliferation; mifepristone (PR/GR antagonist) blocks P4 receptor → decidual breakdown → pregnancy termination; progesterone supplementation treats luteal phase deficiency and recurrent miscarriage."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Endometrial cancer is the sentinel cancer of Lynch syndrome: about half of female carriers present with it before any colorectal cancer, so a young or dMMR endometrial tumour should prompt germline testing — and these MSI-H cancers respond well to PD-1 immunotherapy."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity is the dominant modifiable driver of endometrial cancer: adipose aromatase converts androgens to estrogen, and this unopposed estrogen pushes endometrium through hyperplasia to type-1 endometrioid cancer — roughly tripling risk at BMI >30 and fueling rising incidence."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation defines the most aggressive endometrial cancers: near-universal (~90%) in uterine serous carcinoma, it marks the copy-number-high TCGA group with the worst prognosis, unlike the estrogen-driven endometrioid tumours — a split that now guides adjuvant therapy."
 ---
 
 # Endometrial Cancer
@@ -172,6 +181,9 @@ cross_links:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K/AKT/mTOR pathway activated in ~70% of endometrioid endometrial cancer via PTEN loss, PIK3CA mutation (~40%), or AKT1 E17K (~5%); everolimus + letrozole showed 32% clinical benefit rate in ER+ endometrial cancer; lenvatinib + pembrolizumab (KEYNOTE-146) active in non-MSI-H recurrent endometrial cancer.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Unopposed estrogen drives endometrial hyperplasia → EIN → type 1 endometrioid cancer; obesity → adipose aromatase → androgen-to-estrogen conversion → ~3× EC risk at BMI >30; aromatase inhibitors active in ER+ endometrial cancer; combined HRT (with progestogen) prevents EC risk.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Progesterone drives endometrial secretory transformation opposing estrogen proliferation; mifepristone (PR/GR antagonist) blocks P4 receptor → decidual breakdown → pregnancy termination; progesterone supplementation treats luteal phase deficiency and recurrent miscarriage.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Endometrial cancer is the sentinel cancer of Lynch syndrome: about half of female carriers present with it before any colorectal cancer, so a young or dMMR endometrial tumour should prompt germline testing — and these MSI-H cancers respond well to PD-1 immunotherapy.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is the dominant modifiable driver of endometrial cancer: adipose aromatase converts androgens to estrogen, and this unopposed estrogen pushes endometrium through hyperplasia to type-1 endometrioid cancer — roughly tripling risk at BMI >30 and fueling rising incidence.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation defines the most aggressive endometrial cancers: near-universal (~90%) in uterine serous carcinoma, it marks the copy-number-high TCGA group with the worst prognosis, unlike the estrogen-driven endometrioid tumours — a split that now guides adjuvant therapy.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

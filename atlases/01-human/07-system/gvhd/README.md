@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Gut microbiome diversity at transplant predicts GvHD severity; Akkermansia muciniphila and Blautia spp. are protective — loss of butyrate-producing bacteria reduces Treg support; antibiotic dysbiosis → loss of SCFAs → increased GvHD risk; FMT is investigational for GvHD rescue."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Skin is the first and most common target of acute graft-versus-host disease: donor CD8 T cells kill basal keratinocytes, producing a maculopapular rash that can progress to bullae, while chronic GvHD turns the skin lichenoid and sclerodermatous."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Ruxolitinib, a JAK1/JAK2 inhibitor, is the approved treatment for steroid-refractory graft-versus-host disease, both acute and chronic: by blocking JAK-STAT signaling downstream of IL-6, IFN-γ, and IL-12 it suppresses Th1/Th17 effectors while sparing regulatory T cells."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Donor regulatory T cells are the protective counterweight in GvHD: through IL-10 and TGF-β they restrain alloreactive effector T cells, and the graft's Treg-to-conventional-T ratio predicts tolerance versus disease — the rationale behind post-transplant cyclophosphamide."
 ---
 
 # Graft-Versus-Host Disease
@@ -193,6 +202,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[T-Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Alloreactive donor CD4+ Th1 cells are the central drivers of acute GvHD: IL-12+IFN-γ drives Th1 polarization; IL-6+TGF-β drives Th17; recognize host alloantigens via direct (host MHC mismatch) and indirect (host peptides on donor APCs) pathways.
 - `connects-to` → **[T-Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Donor CD8+ CTLs are the primary effectors of target organ damage: recognize host MHC-I mismatch → perforin/granzyme-mediated killing of skin keratinocytes, GI crypt ISCs, and biliary epithelium → grade III/IV GvHD is the leading cause of non-relapse mortality.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Gut microbiome diversity at transplant predicts GvHD severity; Akkermansia muciniphila and Blautia spp. are protective — loss of butyrate-producing bacteria reduces Treg support; antibiotic dysbiosis → loss of SCFAs → increased GvHD risk; FMT is investigational for GvHD rescue.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Skin is the first and most common target of acute graft-versus-host disease: donor CD8 T cells kill basal keratinocytes, producing a maculopapular rash that can progress to bullae, while chronic GvHD turns the skin lichenoid and sclerodermatous.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Ruxolitinib, a JAK1/JAK2 inhibitor, is the approved treatment for steroid-refractory graft-versus-host disease, both acute and chronic: by blocking JAK-STAT signaling downstream of IL-6, IFN-γ, and IL-12 it suppresses Th1/Th17 effectors while sparing regulatory T cells.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Donor regulatory T cells are the protective counterweight in GvHD: through IL-10 and TGF-β they restrain alloreactive effector T cells, and the graft's Treg-to-conventional-T ratio predicts tolerance versus disease — the rationale behind post-transplant cyclophosphamide.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
