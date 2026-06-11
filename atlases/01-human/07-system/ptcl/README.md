@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-1 is a TFH cell surface marker expressed in AITL tumor cells; anti-PD-1 (pembrolizumab, nivolumab) has activity in relapsed PTCL (ORR ~15-30%) but risk of paradoxical lymphoma acceleration in AITL; PD-L1 overexpressed on ALK- ALCL via DUSP22/IRF4 rearrangements."
+  - target: 01-human/03-molecular/idh2
+    relation: connects-to
+    note: "IDH2 R172K (distinct from MDS R140Q) occurs in ~20-30% of AITL/nTFHL; IDH2 → 2-HG → TET2 + KDM competitive inhibition → epigenetic reprogramming; enasidenib (IDH2 inhibitor, approved AML) explored in IDH2-mutant AITL; IDH2+TET2 co-mutation drives extreme hypermethylation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Constitutive STAT3 activation in ALK+ ALCL (NPM1-ALK → JAK3 → STAT3), ALK- ALCL (STAT3 activating mutations ~15%), and HSTCL (STAT3/STAT5b mutations); STAT3 drives CD30, BCL-2, MCL-1, and VEGF → lymphoma survival; ruxolitinib (JAK1/2→STAT3) has activity in PTCL trials."
+  - target: 01-human/03-molecular/cd30
+    relation: connects-to
+    note: "CD30 (TNFRSF8) is the primary PTCL therapeutic target; brentuximab vedotin (anti-CD30 ADC) FDA-approved for ALCL and CD30+ PTCL; ECHELON-2: BV+CHP vs CHOP → PFS HR 0.71; CD30 in ALCL (~100%), PTCL-NOS (~30-50%); CD30 signals via TRAF1/2/3 → NF-κB → lymphoma survival."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -184,6 +193,13 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A R882H/C mutations occur in ~20-30% of AITL and ~15% PTCL-NOS, co-mutating with TET2 in the pre-malignant TFH clone; DNMT3A+TET2 co-loss → genome-wide hypermethylation; therapy-related T-cell lymphomas from DNMT3A CHIP clones have been reported.
 - `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — NPM1-ALK t(2;5)(p23;q35) defines ALK+ ALCL (~7% of PTCL); ALK fusion drives JAK-STAT3 constitutive activation; crizotinib, alectinib, brigatinib active in ALK+ ALCL; ALK+ ALCL is the most favorable PTCL subtype (5-year OS ~70-80% with A+CHP).
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 is a TFH cell surface marker expressed in AITL tumor cells; anti-PD-1 (pembrolizumab, nivolumab) has activity in relapsed PTCL (ORR ~15-30%) but risk of paradoxical lymphoma acceleration in AITL; PD-L1 overexpressed on ALK- ALCL via DUSP22/IRF4 rearrangements.
+- `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2 R172K (distinct from MDS R140Q) occurs in ~20-30% of AITL/nTFHL; IDH2 → 2-HG → TET2 + KDM competitive inhibition → epigenetic reprogramming; enasidenib (IDH2 inhibitor, approved AML) explored in IDH2-mutant AITL; IDH2+TET2 co-mutation drives extreme hypermethylation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — constitutive STAT3 activation in ALK+ ALCL (NPM1-ALK → JAK3 → STAT3), ALK- ALCL (STAT3 activating mutations ~15%), and HSTCL (STAT3/STAT5b mutations); STAT3 drives CD30, BCL-2, MCL-1, and VEGF → lymphoma survival; ruxolitinib (JAK1/2→STAT3) has activity in PTCL trials.
+- `connects-to` → **[CD30](../../03-molecular/cd30/README.md)** — CD30 (TNFRSF8) is the primary PTCL therapeutic target; brentuximab vedotin (anti-CD30 ADC) FDA-approved for ALCL and CD30+ PTCL; ECHELON-2: BV+CHP vs CHOP → PFS HR 0.71; CD30 in ALCL (~100%), PTCL-NOS (~30-50%); CD30 signals via TRAF1/2/3 → NF-κB → lymphoma survival.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^horwitz-2019-echelon2]: Horwitz S, O'Connor OA, Pro B, et al. Brentuximab vedotin with chemotherapy for CD30-positive peripheral T-cell lymphoma (ECHELON-2): a global, double-blind, randomised, phase 3 trial. *Lancet.* 2019;393(10168):229-240. [doi:10.1016/S0140-6736(18)32984-2](https://doi.org/10.1016/S0140-6736(18)32984-2) · [PubMed 30522922](https://pubmed.ncbi.nlm.nih.gov/30522922/)
 [^palomero-2014-ptcl-epigenetics]: Palomero T, Couronné L, Khiabanian H, et al. Recurrent mutations in epigenetic regulators, RHOA and FYN kinase in peripheral T cell lymphomas. *Nat Genet.* 2014;46(2):166-170. [doi:10.1038/ng.2872](https://doi.org/10.1038/ng.2872) · [PubMed 24413734](https://pubmed.ncbi.nlm.nih.gov/24413734/)
