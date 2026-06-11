@@ -53,6 +53,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "OCD is a CSTC circuit disorder: OFC and ACC hyperactivity → excessive error detection; caudate nucleus fail to suppress OFC-thalamus loop → repetitive behaviors; SSRI treatment and ERP both normalize caudate hypermetabolism on PET imaging."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Major depression is the most common comorbidity of OCD (~65% lifetime), usually arising secondary to the burden of obsessions and compulsions; the two share serotonergic dysfunction and both respond to SSRIs, though OCD needs higher doses and 8-12 weeks to respond."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "OCD is distinguished from generalized anxiety disorder by the form of the thoughts: OCD obsessions are intrusive, ego-dystonic, and trigger stereotyped compulsions, whereas GAD worry is about realistic everyday concerns, ego-syntonic, and not ritualized."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "PANDAS links Group A Streptococcus to abrupt-onset pediatric OCD: anti-streptococcal antibodies cross-react with basal-ganglia neurons to inflame the CSTC circuit, producing sudden obsessions and tics that may respond to antibiotics and immunotherapy."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -189,6 +198,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — glutamatergic hyperactivity in OFC-striatum projections drives compulsive symptom circuits; CSF glutamate elevated in OCD; riluzole and memantine reduce OCD symptoms in RCTs; ketamine produces rapid anti-compulsive effects in treatment-resistant OCD.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — reduced GABAergic inhibitory tone in OFC and striatum (MRS studies) contributes to CSTC hyperactivity; benzodiazepines provide short-term relief but not disease modification; D-cycloserine (NMDA partial agonist) augments ERP via fear extinction learning.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — OCD is a CSTC circuit disorder: OFC/ACC hyperactivity drives excessive error detection; caudate nucleus hyperactivity disinhibits thalamocortical drive back to OFC; SSRIs and ERP both normalize caudate hypermetabolism on PET — converging on the same circuit.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Major depression is the most common comorbidity of OCD (~65% lifetime), usually arising secondary to the burden of obsessions and compulsions; the two share serotonergic dysfunction and both respond to SSRIs, though OCD needs higher doses and 8-12 weeks to respond.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — OCD is distinguished from generalized anxiety disorder by the form of the thoughts: OCD obsessions are intrusive, ego-dystonic, and trigger stereotyped compulsions, whereas GAD worry is about realistic everyday concerns, ego-syntonic, and not ritualized.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — PANDAS links Group A Streptococcus to abrupt-onset pediatric OCD: anti-streptococcal antibodies cross-react with basal-ganglia neurons to inflame the CSTC circuit, producing sudden obsessions and tics that may respond to antibiotics and immunotherapy.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

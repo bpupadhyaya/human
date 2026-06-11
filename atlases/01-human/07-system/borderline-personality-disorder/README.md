@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Intranasal oxytocin shows complex effects in BPD — may increase social salience (both positive and negative) rather than uniformly reduce anxiety; trust and cooperation deficits in BPD relate to OTR dysfunction in amygdala and nucleus accumbens; oxytocin research ongoing."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "PTSD is among the most frequent BPD comorbidities (~30-60%), reflecting shared roots in childhood trauma and overlapping amygdala/HPA-axis sensitization; complex PTSD overlaps heavily with BPD, and trauma-focused work often must accompany DBT."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression coexists with BPD in ~40-75% and usually drives help-seeking, but the mood states differ: BPD dysphoria is reactive and shifts within hours to interpersonal triggers, whereas an MDD episode is sustained over weeks and more autonomous."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine dysregulation contributes to the impulsivity, reward-seeking, and transient stress-related paranoia of BPD; this rationale underlies adjunctive low-dose atypical antipsychotics (which block D2), used symptom-by-symptom since no drug is FDA-approved for BPD."
 ---
 
 # Borderline Personality Disorder
@@ -188,6 +197,12 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — BPD features amygdala hyperreactivity to social threat and rejection cues, reduced vmPFC-amygdala inhibitory connectivity, and impaired PFC regulation; effective DBT treatment normalizes amygdala reactivity and increases PFC activation on fMRI over 12 months.
 
 - `connects-to` → **[Oxytocin](../../../03-molecular/oxytocin/README.md)** — intranasal oxytocin shows complex effects in BPD — may increase social salience including threat rather than uniformly reducing anxiety; trust and cooperation deficits in BPD relate to OTR dysfunction in amygdala and NAcc; oxytocin research in BPD is ongoing.
+
+- `connects-to` → **[PTSD](../ptsd/README.md)** — PTSD is among the most frequent BPD comorbidities (~30-60%), reflecting shared roots in childhood trauma and overlapping amygdala/HPA-axis sensitization; complex PTSD overlaps heavily with BPD, and trauma-focused work often must accompany DBT.
+
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression coexists with BPD in ~40-75% and usually drives help-seeking, but the mood states differ: BPD dysphoria is reactive and shifts within hours to interpersonal triggers, whereas an MDD episode is sustained over weeks and more autonomous.
+
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine dysregulation contributes to the impulsivity, reward-seeking, and transient stress-related paranoia of BPD; this rationale underlies adjunctive low-dose atypical antipsychotics (which block D2), used symptom-by-symptom since no drug is FDA-approved for BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
