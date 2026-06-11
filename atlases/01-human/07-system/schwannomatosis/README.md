@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
     relation: connects-to
     note: "SMARCB1 biallelic somatic LOF causes AT/RT; germline monoallelic SMARCB1 + somatic NF2 LOH second hit → schwannomatosis (NOT AT/RT); AT/RT risk is not elevated in schwannomatosis carriers; SMARCB1 LOF mechanism is distinct between these two tumor types."
+  - target: 01-human/03-molecular/nf2
+    relation: connects-to
+    note: "Somatic NF2 LOH (22q loss) is the typical second hit in SMARCB1-schwannomatosis schwannomas — the 3-hit model: germline SMARCB1 LOF, then somatic NF2 loss yields the tumor; NF2, SMARCB1, and LZTR1 all cluster on chromosome 22q, so 22q loss inactivates them together."
+  - target: 01-human/07-system/noonan-syndrome
+    relation: connects-to
+    note: "LZTR1 is shared: dominant heterozygous LOF causes Noonan syndrome (a RASopathy), while biallelic LOF or dominant-negative missense variants cause LZTR1-schwannomatosis; some D-N carriers show overlapping Noonan features plus schwannomas — same gene, different dose and mechanism."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Schwannomas arise from the Schwann-cell sheath of peripheral and spinal nerves; spinal nerve roots are the most common site in schwannomatosis; chronic neuropathic pain comes from intraneural growth and nerve compression; fascicle-sparing excision preserves nerve function."
 ---
 
 # Schwannomatosis
@@ -141,6 +150,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — SMARCB1 (INI1) germline monoallelic LOF with somatic NF2 LOH as second hit → SMARCB1-schwannomatosis; SMARCB1 acts via Cullin3-RING ligase E3 pathway to regulate SWI/SNF complex; distinct from biallelic SMARCB1 LOF in AT/RT; no increased rhabdoid tumor risk in schwannomatosis.
 - `connects-to` → **[Neurofibromatosis Type 2](../../07-system/neurofibromatosis-type-2/README.md)** — NF2 and schwannomatosis both cause multiple schwannomas; NF2 = bilateral VS (pathognomonic) + meningiomas; schwannomatosis = no bilateral VS, peripheral schwannomas, chronic pain; gene panel (NF2/SMARCB1/LZTR1) required for diagnosis; audiogram helps distinguish.
 - `connects-to` → **[Atypical Teratoid Rhabdoid Tumor](../../07-system/atypical-teratoid-rhabdoid-tumor/README.md)** — SMARCB1 biallelic somatic LOF causes AT/RT; germline monoallelic SMARCB1 + somatic NF2 LOH second hit → schwannomatosis (NOT AT/RT); AT/RT risk is not elevated in schwannomatosis carriers; SMARCB1 LOF mechanism is distinct between these two tumor types.
+- `connects-to` → **[NF2](../../03-molecular/nf2/README.md)** — Somatic NF2 LOH (22q loss) is the typical second hit in SMARCB1-schwannomatosis schwannomas — the 3-hit model: germline SMARCB1 LOF, then somatic NF2 loss yields the tumor; NF2, SMARCB1, and LZTR1 all cluster on chromosome 22q, so 22q loss inactivates them together.
+- `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — LZTR1 is shared: dominant heterozygous LOF causes Noonan syndrome (a RASopathy), while biallelic LOF or dominant-negative missense variants cause LZTR1-schwannomatosis; some D-N carriers show overlapping Noonan features plus schwannomas — same gene, different dose and mechanism.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Schwannomas arise from the Schwann-cell sheath of peripheral and spinal nerves; spinal nerve roots are the most common site in schwannomatosis; chronic neuropathic pain comes from intraneural growth and nerve compression; fascicle-sparing excision preserves nerve function.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

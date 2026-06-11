@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 mutations are rare at NB diagnosis (~1-2%) but acquired in ~80% of relapsed NB; MDM2 amplification (~4%) functionally inactivates p53; MYCN drives MDM2-dependent p53 suppression; MDM2 inhibitors (idasanutlin) explored in relapsed MYCN-amplified NB."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "TRKA (NTRK1) drives NGF-induced differentiation/apoptosis in Stage MS NB, enabling spontaneous regression; MYCN-amplified NB loses TRKA so NGF cannot trigger regression, yielding aggressive disease; rare ETV6-NTRK3 and other NTRK fusions respond to larotrectinib/entrectinib."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal medulla is the single most common NB primary site (~40%); NB arises from arrested sympathoadrenal chromaffin/neuroblast precursors of neural-crest origin; it presents as an MIBG-avid adrenal mass secreting catecholamine metabolites (urine VMA/HVA)."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Dinutuximab (anti-GD2) kills NB via NK-cell ADCC and complement-dependent cytotoxicity; GM-CSF enhances NK/monocyte effector function; IL-2 expands NK cells in COG ANBL0032 maintenance; NK-mediated immunotherapy improved high-risk NB event-free survival."
 ---
 
 # Neuroblastoma
@@ -176,6 +185,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — ALK GOF mutations (F1174L, R1275Q) in ~10-14% NB; ALK amplification in ~4%; ALK and MYCN co-amplification → double-hit worst prognosis; lorlatinib in Phase 3 ANBL2232; PHOX2B and ALK co-mutated in familial NB predisposition.
 - `connects-to` → **[RET](../../03-molecular/ret/README.md)** — Neural crest-derived NB cells co-express RET during sympathoadrenal development; GDNF-RET signaling is required for sympathetic ganglion formation; retinoic acid-induced differentiation upregulates RET; RET mutations are not primary NB drivers.
 - `connects-to` → **[P53](../../03-molecular/p53/README.md)** — TP53 mutations are rare at NB diagnosis (~1-2%) but acquired in ~80% of relapsed NB; MDM2 amplification (~4%) functionally inactivates p53; MYCN drives MDM2-dependent p53 suppression; MDM2 inhibitors (idasanutlin) explored in relapsed MYCN-amplified NB.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — TRKA (NTRK1) drives NGF-induced differentiation/apoptosis in Stage MS NB, enabling spontaneous regression; MYCN-amplified NB loses TRKA so NGF cannot trigger regression, yielding aggressive disease; rare ETV6-NTRK3 and other NTRK fusions respond to larotrectinib/entrectinib.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal medulla is the single most common NB primary site (~40%); NB arises from arrested sympathoadrenal chromaffin/neuroblast precursors of neural-crest origin; it presents as an MIBG-avid adrenal mass secreting catecholamine metabolites (urine VMA/HVA).
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Dinutuximab (anti-GD2) kills NB via NK-cell ADCC and complement-dependent cytotoxicity; GM-CSF enhances NK/monocyte effector function; IL-2 expands NK cells in COG ANBL0032 maintenance; NK-mediated immunotherapy improved high-risk NB event-free survival.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
