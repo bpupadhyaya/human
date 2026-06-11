@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "DLBCL expresses PD-L1 in ~20-40%; pembrolizumab approved for relapsed/refractory primary mediastinal large B-cell lymphoma (PMBCL) — a CD20+/PD-L1-high subtype with 9p24 amplification; PD-1 blockade + rituximab combinations under study in follicular and DLBCL histologies."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2 gain-of-function mutations (Y641F/N, ~20% GCB-DLBCL) silence differentiation genes via H3K27me3; tazemetostat (EZH2i) FDA-approved for R/R follicular lymphoma; EZH2-mutant DLBCL shows activity with tazemetostat+R-CHOP; CREBBP co-mutation reduces tazemetostat sensitivity."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "DLBCL arises from FL transformation (~3%/year); transformed FL-DLBCL shares t(14;18)/BCL-2 and KMT2D with FL but acquires MYC rearrangement, CDKN2A deletion, or TP53 mutation → worse prognosis than de novo DLBCL; CAR-T consolidation is preferred after induction."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20 is the essential rituximab target in R-CHOP; CD20 loss (mutation, methylation, shedding) → rituximab resistance; bispecifics (epcoritamab, glofitamab) bind CD3×CD20 at low CD20 expression; CD19-directed ADCs (loncastuximab) and CAR-T are CD20-loss-resistant alternatives."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -161,6 +170,12 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — GCB-DLBCL: t(14;18) → BCL-2 overexpression → apoptosis block; venetoclax + R-CHOP (POLARIX data secondary) in BCL-2-high GCB-DLBCL under study; double-hit lymphoma (MYC + BCL-2) → venetoclax + dose-adjusted EPOCH-R; BCL-2 IHC ≥50% correlates with inferior R-CHOP outcome.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC rearrangement in ~10% of DLBCL; MYC + BCL-2 rearrangement = double-hit (HGBL-DH) → R-CHOP inferior; DA-EPOCH-R or consolidative CAR-T preferred; MYC protein >40% by IHC is independent prognostic marker; c-MYC amplification (without rearrangement) has intermediate prognosis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — DLBCL expresses PD-L1 in ~20-40%; pembrolizumab approved for relapsed/refractory primary mediastinal large B-cell lymphoma (PMBCL) — a CD20+/PD-L1-high subtype with 9p24 amplification; PD-1 blockade + rituximab combinations under study in follicular and DLBCL histologies.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 gain-of-function mutations (Y641F/N, ~20% GCB-DLBCL) silence differentiation genes via H3K27me3; tazemetostat (EZH2i) FDA-approved for R/R follicular lymphoma; EZH2-mutant DLBCL shows activity with tazemetostat+R-CHOP; CREBBP co-mutation reduces tazemetostat sensitivity.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — DLBCL arises from FL transformation (~3%/year); transformed FL-DLBCL shares t(14;18)/BCL-2 and KMT2D with FL but acquires MYC rearrangement, CDKN2A deletion, or TP53 mutation → worse prognosis than de novo DLBCL; CAR-T consolidation is preferred after induction.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 is the essential rituximab target in R-CHOP; CD20 loss (mutation, methylation, shedding) → rituximab resistance; bispecifics (epcoritamab, glofitamab) bind CD3×CD20 at low CD20 expression; CD19-directed ADCs (loncastuximab) and CAR-T are CD20-loss-resistant alternatives.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^coiffier-2002-rchop]: Coiffier B, Lepage E, Brière J, et al. CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma. *N Engl J Med.* 2002;346(4):235-242. [doi:10.1056/NEJMoa011795](https://doi.org/10.1056/NEJMoa011795) · [PubMed 11807147](https://pubmed.ncbi.nlm.nih.gov/11807147/)
 [^neelapu-2017-axicel]: Neelapu SS, Locke FL, Bartlett NL, et al. Axicabtagene ciloleucel CAR T-cell therapy in refractory large B-cell lymphoma. *N Engl J Med.* 2017;377(26):2531-2544. [doi:10.1056/NEJMoa1707447](https://doi.org/10.1056/NEJMoa1707447) · [PubMed 29226797](https://pubmed.ncbi.nlm.nih.gov/29226797/)

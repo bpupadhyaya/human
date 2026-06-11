@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "Galectin-3 activates macrophage NLRP3 inflammasome via lysosomal damage → IL-1β secretion; conversely, IL-1β promotes galectin-3 secretion — positive feedback loop; galectin-3 integrates DAMP sensing with fibrosis in chronic inflammatory organ damage."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Galectin-3 activates macrophage NF-κB → TNF-α secretion; TNF-α induces galectin-3 transcription → feedforward amplification in chronic inflammatory fibrosis; galectin-3+TNF-α co-elevation predicts worse HF and NASH outcomes; galectin-3 inhibitors reduce TNF-α in fibrosis models."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Galectin-3 promotes adipose macrophage crown-like structures → chronic inflammation → insulin resistance, opposing adiponectin; galectin-3 KO mice are protected from high-fat diet-induced adipose fibrosis; galectin-3:adiponectin ratio tracks metabolic syndrome and NASH severity."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Galectin-3 drives cross-organ fibrosis: macrophage-secreted galectin-3 → integrin αvβ6 → TGF-β activation → myofibroblast → ECM deposition; drives cardiac, hepatic, renal, and pulmonary fibrosis; galectin-3 KO mice show reduced fibrosis across multiple organ injury models."
 sources:
   - id: de-boer-2011-galectin3-hf
     type: peer-reviewed
@@ -118,13 +127,16 @@ Galectin-3 is the only **chimeric galectin** with a unique bipartite structure:
 
 ## Connections
 
-Galectin-3 secreted by cardiac macrophages activates cardiac fibroblasts → collagen synthesis → myocardial fibrosis and diastolic dysfunction; serum galectin-3 ≥17.8 ng/mL is an FDA-approved HF biomarker predicting mortality; galectin-3 predicts incident HFpEF.
+- `connects-to` → **[Heart Failure](../../07-system/heart-failure/README.md)** — Galectin-3 secreted by cardiac macrophages activates cardiac fibroblasts → collagen synthesis → myocardial fibrosis and diastolic dysfunction; serum galectin-3 ≥17.8 ng/mL is an FDA-approved HF biomarker predicting mortality; galectin-3 predicts incident HFpEF.
+- `connects-to` → **[NASH](../../07-system/nash/README.md)** — Galectin-3 is secreted by activated Kupffer cells and hepatic macrophages → activates stellate cells and promotes TGF-β-driven fibrosis; serum galectin-3 correlates with NASH fibrosis stage (F2-F4); galectin-3 inhibition (GR-MD-02) reduced fibrosis in Phase 2 NASH trials.
+- `connects-to` → **[TGF-β](../tgf-beta/README.md)** — Galectin-3 amplifies TGF-β fibrogenic signaling: galectin-3 binds TGF-β receptors → enhances SMAD2/3 phosphorylation; galectin-3-knockout mice show reduced TGF-β-driven fibrosis; galectin-3 also promotes myofibroblast differentiation independently of canonical TGF-β/SMAD.
+- `connects-to` → **[NLRP3 Inflammasome](../nlrp3-inflammasome/README.md)** — Galectin-3 activates macrophage NLRP3 inflammasome via lysosomal damage → IL-1β secretion; conversely, IL-1β promotes galectin-3 secretion — positive feedback loop; galectin-3 integrates DAMP sensing with fibrosis in chronic inflammatory organ damage.
+- `connects-to` → **[TNF-α](../tnf-alpha/README.md)** — Galectin-3 activates macrophage NF-κB → TNF-α secretion; TNF-α induces galectin-3 transcription → feedforward amplification in chronic inflammatory fibrosis; galectin-3+TNF-α co-elevation predicts worse HF and NASH outcomes; galectin-3 inhibitors reduce TNF-α in fibrosis models.
+- `connects-to` → **[Adiponectin](../adiponectin/README.md)** — Galectin-3 promotes adipose macrophage crown-like structures → chronic inflammation → insulin resistance, opposing adiponectin; galectin-3 KO mice are protected from high-fat diet-induced adipose fibrosis; galectin-3:adiponectin ratio tracks metabolic syndrome and NASH severity.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Galectin-3 drives cross-organ fibrosis: macrophage-secreted galectin-3 → integrin αvβ6 → TGF-β activation → myofibroblast → ECM deposition; drives cardiac, hepatic, renal, and pulmonary fibrosis; galectin-3 KO mice show reduced fibrosis across multiple organ injury models.
 
-Galectin-3 is secreted by activated Kupffer cells and hepatic macrophages → activates stellate cells and promotes TGF-β-driven fibrosis; serum galectin-3 correlates with NASH fibrosis stage (F2-F4); galectin-3 inhibition (GR-MD-02) reduced fibrosis in Phase 2 NASH trials.
-
-Galectin-3 amplifies TGF-β fibrogenic signaling: galectin-3 binds TGF-β receptors → enhances SMAD2/3 phosphorylation; galectin-3-knockout mice show reduced TGF-β-driven fibrosis; galectin-3 also promotes myofibroblast differentiation independently of canonical TGF-β/SMAD.
-
-Galectin-3 activates macrophage NLRP3 inflammasome via lysosomal damage → IL-1β secretion; conversely, IL-1β promotes galectin-3 secretion — positive feedback loop; galectin-3 integrates DAMP sensing with fibrosis in chronic inflammatory organ damage.
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^de-boer-2011-galectin3-hf]: de Boer RA, Lok DJ, Jaarsma T, et al. Predictive value of plasma galectin-3 levels in heart failure with reduced and preserved ejection fraction. *Ann Med.* 2011;43(1):60-68. [doi:10.3109/07853890.2010.538080](https://doi.org/10.3109/07853890.2010.538080) · [PubMed 21189092](https://pubmed.ncbi.nlm.nih.gov/21189092/)
 [^sharma-2004-galectin3-fibrosis]: Sharma UC, Pokharel S, van Brakel TJ, et al. Galectin-3 marks activated macrophages in failure-prone hypertrophied hearts and contributes to cardiac dysfunction. *Circulation.* 2004;110(19):3121-3128. [doi:10.1161/01.CIR.0000147181.65298.4D](https://doi.org/10.1161/01.CIR.0000147181.65298.4D) · [PubMed 15520318](https://pubmed.ncbi.nlm.nih.gov/15520318/)
