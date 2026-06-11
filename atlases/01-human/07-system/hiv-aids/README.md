@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/leishmaniasis
     relation: connects-to
     note: "HIV-VL co-infection: CD4+ Th1 cell depletion → loss of IFN-γ → Leishmania escapes macrophage control → disseminated VL; Mediterranean Europe, East Africa, and Indian subcontinent are co-endemic zones; ART partially restores anti-Leishmania Th1 immunity; L-AmB prophylaxis needed."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "AIDS is defined by the loss of CD4+ T helper cells: as HIV drives their count below 200/μL, cell-mediated immunity collapses, opening the door to the opportunistic infections and cancers that define the syndrome; ART restores ~100-150 cells/μL per year."
+  - target: 02-pathogen/03-fungi/pneumocystis-jirovecii
+    relation: connects-to
+    note: "Pneumocystis jirovecii pneumonia (PCP) is the classic AIDS-defining infection, striking once CD4 falls below 200/μL: this fungus causes a diffuse interstitial pneumonia, treated and prevented with trimethoprim-sulfamethoxazole — prophylaxis started at that CD4 threshold."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Primary CNS lymphoma is an AIDS-defining malignancy of profound immunosuppression (CD4 <50/μL): unchecked Epstein-Barr virus drives a brain B-cell lymphoma, and restoring immunity with ART is central to treatment alongside methotrexate or radiation."
 ---
 
 # HIV/AIDS
@@ -162,6 +171,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — HIV drives ACD through sustained immune activation → IL-6 + IFN-γ → hepcidin elevation; AZT-related bone marrow suppression adds a direct aplastic component; anemia severity tracks viral load and CD4 count; ART suppression improves ACD within months.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12/IFN-γ axis is profoundly impaired in HIV-AIDS: CD4⁺ Th1 depletion → ↓IFN-γ; HIV-infected DCs produce less IL-12; the resulting Th1 deficiency explains susceptibility to TB, NTM, Leishmania, and dimorphic fungi; ART partially restores IL-12 pathway function.
 - `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — HIV-VL co-infection: CD4+ Th1 cell depletion → loss of IFN-γ → Leishmania escapes macrophage control → disseminated VL; Mediterranean Europe, East Africa, and Indian subcontinent are co-endemic zones; ART partially restores anti-Leishmania Th1 immunity; L-AmB prophylaxis needed.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — AIDS is defined by the loss of CD4+ T helper cells: as HIV drives their count below 200/μL, cell-mediated immunity collapses, opening the door to the opportunistic infections and cancers that define the syndrome; ART restores ~100-150 cells/μL per year.
+- `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Pneumocystis jirovecii pneumonia (PCP) is the classic AIDS-defining infection, striking once CD4 falls below 200/μL: this fungus causes a diffuse interstitial pneumonia, treated and prevented with trimethoprim-sulfamethoxazole — prophylaxis started at that CD4 threshold.
+- `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Primary CNS lymphoma is an AIDS-defining malignancy of profound immunosuppression (CD4 <50/μL): unchecked Epstein-Barr virus drives a brain B-cell lymphoma, and restoring immunity with ART is central to treatment alongside methotrexate or radiation.
 
 ## See Also
 

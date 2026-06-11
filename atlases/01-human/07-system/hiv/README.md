@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "HIV-infected macrophages and Tregs produce TGF-β1 → CD8+ T cell suppression and NK dysfunction; TGF-β maintains latent HIV in quiescent memory CD4+ T cells; TGF-β-driven lymph node fibrosis (collagen deposition) disrupts T cell zones → progressive CD4+ T cell depletion."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "HIV is, at its core, a disease of the CD4+ T helper cell: gp120 docks on CD4, the provirus integrates, and the cell is killed by viral budding or by pyroptosis of bystanders — while a pool of resting memory CD4 cells harbours the latent reservoir that makes HIV incurable."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages are a durable HIV reservoir and a route to the brain: long-lived and resistant to the cytopathic killing that destroys T cells, they support replication (HIV-2's Vpx degrades SAMHD1 to permit reverse transcription) and seed CNS infection and neurocognitive disorder."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8+ cytotoxic T cells are the main brake on HIV: in elite controllers, HLA-B*57/B*27-restricted CD8 cells kill infected cells and force viral escape, but chronic antigen and type-I interferon exhaust them over time, and they cannot reach the latent reservoir."
 ---
 
 # HIV
@@ -193,6 +202,10 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 **→ [NF-κB](../../../03-molecular/nf-kb/)**: HIV-1 LTR has two κB sites; NF-κB p65/p50 drives transcription from integrated provirus; T cell activation (TCR/CD28 → IKKβ → NF-κB) reactivates latent HIV; Tat cooperates with NF-κB at LTR → high-level virion production; NF-κB inhibition explored for latency reversal.
 
 **→ [TGF-β](../../../03-molecular/tgf-beta/)**: HIV-infected macrophages and Tregs produce TGF-β1 → CD8+ T cell suppression and NK dysfunction; TGF-β maintains latent HIV in quiescent memory CD4+ T cells; TGF-β-driven lymph node fibrosis (collagen deposition) disrupts T cell zones → progressive CD4+ T cell depletion.
+
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — HIV is, at its core, a disease of the CD4+ T helper cell: gp120 docks on CD4, the provirus integrates, and the cell is killed by viral budding or by pyroptosis of bystanders — while a pool of resting memory CD4 cells harbours the latent reservoir that makes HIV incurable.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are a durable HIV reservoir and a route to the brain: long-lived and resistant to the cytopathic killing that destroys T cells, they support replication (HIV-2's Vpx degrades SAMHD1 to permit reverse transcription) and seed CNS infection and neurocognitive disorder.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8+ cytotoxic T cells are the main brake on HIV: in elite controllers, HLA-B*57/B*27-restricted CD8 cells kill infected cells and force viral escape, but chronic antigen and type-I interferon exhaust them over time, and they cannot reach the latent reservoir.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
