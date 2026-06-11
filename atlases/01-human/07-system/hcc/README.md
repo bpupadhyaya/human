@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "HBV causes ~50-55% of global HCC; integration near TERT/CCND1 → insertional mutagenesis; HBx transactivation → p53 inactivation, NF-κB, Wnt/β-catenin activation; HBsAg-positive cirrhosis has ~3-5%/year HCC incidence; antivirals reduce but do not eliminate HCC risk."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hepatocellular carcinoma is almost unique among cancers in arising on a diseased organ: it grows from cirrhotic liver, so BCLC staging and treatment weigh tumour burden against residual liver function — from resection and ablation to transplant, TACE, and systemic therapy."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "HCC is a cancer of hepatocytes: the HGF-MET signaling that regenerates the liver after injury, running chronically in cirrhosis, drives the proliferation and accumulating mutations that transform hepatocytes into carcinoma."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "A TERT promoter mutation is the most common and earliest genetic event in hepatocellular carcinoma (~60%); the C228T/C250T hotspots reactivate telomerase, granting the replicative immortality that turns a dysplastic cirrhotic nodule into cancer."
 ---
 
 # Hepatocellular Carcinoma
@@ -185,6 +194,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Atezolizumab (anti-PD-L1) + bevacizumab → first-line HCC (IMbrave150): OS 19.2 vs. 13.4 months; preferred over sorafenib in most patients without autoimmune contraindications; pembrolizumab (KEYNOTE-240) and nivolumab (CheckMate 459) also active in second-line HCC.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — HCV cirrhosis → HCC incidence 1-5%/year; HCV Core activates Wnt/β-catenin; chronic HCV inflammation → NF-κB/STAT3 → hepatocyte proliferation under oxidative DNA damage → driver mutations (TP53, TERT, CTNNB1); DAA cure reduces HCC risk ~70% but established cirrhosis retains HCC surveillance requirement.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HBV is the leading viral cause of HCC (~50-55% of global cases); mechanisms include insertional mutagenesis near TERT/CCND1 → telomerase activation; HBx transactivation → p53 inactivation, NF-κB and Wnt/β-catenin activation; aflatoxin B1 co-exposure → TP53 R249S; HBsAg-positive cirrhosis carries ~3-5%/year HCC incidence; antiviral therapy reduces but does not eliminate HCC risk.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatocellular carcinoma is almost unique among cancers in arising on a diseased organ: it grows from cirrhotic liver, so BCLC staging and treatment weigh tumour burden against residual liver function — from resection and ablation to transplant, TACE, and systemic therapy.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — HCC is a cancer of hepatocytes: the HGF-MET signaling that regenerates the liver after injury, running chronically in cirrhosis, drives the proliferation and accumulating mutations that transform hepatocytes into carcinoma.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — A TERT promoter mutation is the most common and earliest genetic event in hepatocellular carcinoma (~60%); the C228T/C250T hotspots reactivate telomerase, granting the replicative immortality that turns a dysplastic cirrhotic nodule into cancer.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Familial hypercholesterolemia is defined by its toll on the heart: lifelong high LDL drives premature coronary disease — heterozygotes infarct in their 40s-50s while homozygotes can have MIs and aortic-valve stenosis in childhood; early intensive LDL lowering is lifesaving."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Atherosclerosis in FH starts at the endothelium: the lifelong excess of LDL infiltrates and is retained in the subendothelial intima, where oxidation activates endothelial cells to recruit monocytes — repeated for decades at FH's LDL levels, this builds plaque far earlier."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Vascular smooth muscle cells shape the FH atheroma: they migrate from the media into the intima, take up modified LDL to become foam cells, and lay down the collagen fibrous cap whose stability — or rupture — determines whether a plaque stays silent or causes infarction."
 ---
 
 # Familial Hypercholesterolemia
@@ -163,6 +172,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — hepatocytes express >90% of plasma LDLR; LDLR-mediated LDL endocytosis is the primary clearance route; SREBP-2 upregulates LDLR after statin treatment; liver transplant in HoFH normalizes LDL-C — confirming hepatocytic LDLR as the disease driver.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — in FH, chronically elevated LDL-C → macrophage scavenger receptor (SR-A, CD36) uptake of oxidized LDL → foam cell formation; foam cells are the histological hallmark of the atheromatous plaque; FH macrophages exhibit exaggerated ox-LDL uptake vs. normolipidemic controls.
 - `connects-to` → **[Stroke](../stroke/README.md)** — FH accelerates carotid and cerebrovascular atherosclerosis; HeFH patients have elevated carotid intima-media thickness (cIMT) and higher stroke risk vs. general population; statin + PCSK9 inhibitor reduces cIMT progression and ischemic stroke incidence in FH cohorts.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Familial hypercholesterolemia is defined by its toll on the heart: lifelong high LDL drives premature coronary disease — heterozygotes infarct in their 40s-50s while homozygotes can have MIs and aortic-valve stenosis in childhood; early intensive LDL lowering is lifesaving.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Atherosclerosis in FH starts at the endothelium: the lifelong excess of LDL infiltrates and is retained in the subendothelial intima, where oxidation activates endothelial cells to recruit monocytes — repeated for decades at FH's LDL levels, this builds plaque far earlier.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Vascular smooth muscle cells shape the FH atheroma: they migrate from the media into the intima, take up modified LDL to become foam cells, and lay down the collagen fibrous cap whose stability — or rupture — determines whether a plaque stays silent or causes infarction.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
