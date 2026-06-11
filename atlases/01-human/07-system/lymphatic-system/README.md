@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "Thoracic duct returns 2–4 L lymph/day to the left subclavian vein, essential for plasma volume maintenance; lymphatic dysfunction → oedema and chylothorax; collecting vessels have intrinsic smooth muscle and valves for unidirectional flow."
+  - target: 01-human/04-cellular/b-cell
+    relation: contains
+    note: "Lymph node GCs drive B cell affinity maturation: FDC antigen selection → SHM + class switch → plasma cells or memory B cells; Peyer's patch GCs → sIgA class switching; splenic MZ B cells mount T-independent IgM responses to polysaccharide antigens."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: contains
+    note: "Naive T cells enter via HEV → cognate DC-T cell interaction in paracortex → Th1/Th2/Th17/Tfh differentiation; Tfh cells migrate to GC border → provide CD40L/IL-21 help to B cells → affinity maturation and CSR; the paracortex is the primary site of naive T cell activation."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone marrow is the lymphopoiesis site: HSC → CLP → pro-B cells (VDJ → μ chain → pre-BCR → naive B cell export); NK cells, ILC progenitors, and DC precursors also originate in bone marrow; T cell progenitors exit bone marrow and migrate to thymus for positive/negative selection."
 ---
 
 # Lymphatic System
@@ -142,10 +151,13 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 
 ## Connections
 
-- **Contains:** [spleen](../../06-organ/spleen/README.md) — largest secondary lymphoid organ; RBC quality control and adaptive immune responses to blood-borne antigens
-- **Contains:** [thymus](../../06-organ/thymus/README.md) — primary lymphoid organ for T-cell education (positive and negative selection)
-- **Modulates:** [immune-system](../../07-system/immune-system/README.md) — lymph nodes are the hubs of adaptive immune activation; HEV enable lymphocyte trafficking; germinal centres drive antibody affinity maturation
-- **Modulates:** [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — returns 2–4 L/day lymph to venous circulation; collecting lymphatics are active pumps essential for plasma volume homeostasis
+- `contains` → **[Spleen](../../06-organ/spleen/README.md)** — largest secondary lymphoid organ; RBC quality control and adaptive immune responses to blood-borne antigens
+- `contains` → **[Thymus](../../06-organ/thymus/README.md)** — primary lymphoid organ for T-cell education (positive and negative selection)
+- `modulates` → **[Immune System](../immune-system/README.md)** — lymph nodes are the hubs of adaptive immune activation; HEV enable lymphocyte trafficking; germinal centres drive antibody affinity maturation
+- `modulates` → **[Cardiovascular System](../cardiovascular-system/README.md)** — returns 2–4 L/day lymph to venous circulation; collecting lymphatics are active pumps essential for plasma volume homeostasis
+- `contains` → **[B Cell](../../04-cellular/b-cell/README.md)** — Lymph node GCs drive B cell affinity maturation: FDC antigen selection → SHM + class switch → plasma cells or memory B cells; Peyer's patch GCs → sIgA class switching; splenic MZ B cells mount T-independent IgM responses to polysaccharide antigens.
+- `contains` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Naive T cells enter via HEV → cognate DC-T cell interaction in paracortex → Th1/Th2/Th17/Tfh differentiation; Tfh cells migrate to GC border → provide CD40L/IL-21 help to B cells → affinity maturation and CSR; the paracortex is the primary site of naive T cell activation.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow is the lymphopoiesis site: HSC → CLP → pro-B cells (VDJ → μ chain → pre-BCR → naive B cell export); NK cells, ILC progenitors, and DC precursors also originate in bone marrow; T cell progenitors exit bone marrow and migrate to thymus for positive/negative selection.
 
 ## Pathology
 
@@ -212,6 +224,10 @@ Wuchereria bancrofti (and Brugia malayi/timori) are filarial nematodes transmitt
 - [bone-marrow](../../05-tissue/bone-marrow/README.md) — origin of all lymphoid and myeloid cells
 - [b-cell](../../04-cellular/b-cell/README.md) — germinal centre reactions in lymph nodes and MALT
 - [t-helper-cell](../../04-cellular/t-helper-cell/README.md) — T cell activation in lymph node paracortex
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021.
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022.

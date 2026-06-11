@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/basal-cell-carcinoma
     relation: connects-to
     note: "Gorlin patients develop BCCs early (teens-20s in sun-exposed skin); ionizing and UV radiation dramatically accelerate BCC; vismodegib reduces BCC from 2-4/month to near-zero (STEVIE/BOLT trials); radiation avoidance is critical to prevent radiation field BCC induction."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Gorlin syndrome confers ~5% medulloblastoma risk (SHH desmoplastic/nodular subtype); median age 2-3 years vs 7-8 for sporadic SHH-MB; EBRT contraindicated (radiation-induced BCC proliferation); SMO inhibitors active in relapsed PTCH1-mutant SHH-MB; chemotherapy-only standard."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "GLI1/2 transcribe VEGF-A in BCC → tumour angiogenesis; BCC is among the most vascularised skin tumours; vismodegib (SMO inhibitor) reduces GLI → ↓VEGF-A → ↓tumour vascularity; bevacizumab shows limited single-agent BCC activity; VEGF-C/D also upregulated in BCC microenvironment."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "BCCs arise from basal keratinocytes (hair follicle bulge stem cells) with PTCH1-constrained hedgehog; UV/radiation exposure → PTCH1 somatic second hits → BCC induction at highest rates in sun-exposed skin; rigorous sun protection is primary prevention in Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -149,7 +158,14 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — Germline SUFU causes Gorlin-like syndrome: desmoplastic/nodular medulloblastoma risk (SHH subgroup, age <5) is higher than PTCH1-Gorlin; BCC and OKC are less penetrant; radiation avoidance is critical; SUFU loss releases GLI constitutively in cerebellar granule progenitors.
 - `connects-to` → **[PTCH1](../../03-molecular/ptch1/README.md)** — Germline PTCH1 loss causes Gorlin syndrome via constitutive Hedgehog pathway activation; PTCH1 normally inhibits SMO; loss → SMO constitutively active → GLI1/2 nuclear → BCC, OKC, calcified falx, rib anomalies; somatic PTCH1 mutation is the most common driver of sporadic BCC.
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Vismodegib and sonidegib (SMO inhibitors) are FDA-approved for Gorlin-syndrome BCC; SMO constitutively active in PTCH1/SUFU-mutant tumors; GLI1 suppression → BCC regression; acquired SMO resistance mutations (D473H) occur with extended vismodegib therapy.
-- `connects-to` → **[Basal Cell Carcinoma](../../07-system/basal-cell-carcinoma/README.md)** — Gorlin patients develop BCCs early (teens-20s in sun-exposed skin); ionizing and UV radiation dramatically accelerate BCC; vismodegib reduces BCC from 2-4/month to near-zero (STEVIE/BOLT trials); radiation avoidance is critical to prevent radiation field BCC induction.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Gorlin patients develop BCCs early (teens-20s in sun-exposed skin); ionizing and UV radiation dramatically accelerate BCC; vismodegib reduces BCC from 2-4/month to near-zero (STEVIE/BOLT trials); radiation avoidance is critical to prevent radiation field BCC induction.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Gorlin syndrome confers ~5% medulloblastoma risk (SHH desmoplastic/nodular subtype); median age 2-3 years vs 7-8 for sporadic SHH-MB; EBRT contraindicated (radiation-induced BCC proliferation); SMO inhibitors active in relapsed PTCH1-mutant SHH-MB; chemotherapy-only standard.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GLI1/2 transcribe VEGF-A in BCC → tumour angiogenesis; BCC is among the most vascularised skin tumours; vismodegib (SMO inhibitor) reduces GLI → ↓VEGF-A → ↓tumour vascularity; bevacizumab shows limited single-agent BCC activity; VEGF-C/D also upregulated in BCC microenvironment.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — BCCs arise from basal keratinocytes (hair follicle bulge stem cells) with PTCH1-constrained hedgehog; UV/radiation exposure → PTCH1 somatic second hits → BCC induction at highest rates in sun-exposed skin; rigorous sun protection is primary prevention in Gorlin syndrome.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^hahn-1996-gorlin-ptch1]: Hahn H, Wicking C, Zaphiropoulos PG, et al. Mutations of the human homolog of Drosophila patched in the nevoid basal cell carcinoma syndrome. *Cell.* 1996;85(6):841-851. [doi:10.1016/S0092-8674(00)81268-4](https://doi.org/10.1016/S0092-8674(00)81268-4) · [PubMed 8681379](https://pubmed.ncbi.nlm.nih.gov/8681379/)
 [^bree-2011-gorlin-guidelines]: Bree AF, Shah MR; BCNS Colloquium Group. Consensus statement from the first international colloquium on basal cell nevus syndrome (BCNS). *Am J Med Genet A.* 2011;155A(9):2091-2097. [doi:10.1002/ajmg.a.34128](https://doi.org/10.1002/ajmg.a.34128) · [PubMed 21834026](https://pubmed.ncbi.nlm.nih.gov/21834026/)
