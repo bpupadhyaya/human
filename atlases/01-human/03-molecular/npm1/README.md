@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tet2
     relation: connects-to
     note: "TET2 mutations co-occur with NPM1c AML in ~20%; DNMT3A+TET2+NPM1c co-mutation is a recognized AML cluster; TET2 impairs 5mC oxidation → hypermethylation; azacitidine+venetoclax active in TET2+NPM1c AML; NPM1 MRD tracks response to azacitidine."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A is the most frequent NPM1c co-mutation in AML (~40%); DNMT3A+NPM1c = the pre-AML dyad (clonal hematopoiesis → AML; DNMT3A persists at remission as residual CH); DNMT3A+NPM1c+FLT3-ITD is the classical triple-hit NPM1c AML; DNMT3A R882H dominates in NPM1c co-mutant AML."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "IDH1 R132H co-occurs with NPM1c in ~15% AML; IDH1 produces 2-HG → TET2 inhibition → hypermethylation synergizing with NPM1c HOX activation; ivosidenib+venetoclax+azacitidine in IDH1+NPM1c AML → very high CR rates; IDH inhibitors may be redundant to Ven+Aza alone."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "NPM1c AML is among the most venetoclax-sensitive genotypes: HOX program → MCL-1/BCL-2 dependence; venetoclax+azacitidine: CR+CRi 60-70% in NPM1c (best genotype); NPM1 MRD by RT-qPCR tracks depth of BCL-2 inhibition response; NPM1c without FLT3-ITD is the top-responding genotype."
 ---
 
 # NPM1
@@ -120,6 +129,12 @@ NPM1 exons 1-4 (encoding the oligomerization pentameric domain) fused in-frame t
 - `connects-to` → **[P53](../../03-molecular/p53/README.md)** — NPM1c sequesters ARF (p14ARF) in cytoplasm → prevents ARF from inhibiting MDM2 → attenuated p53 tumor suppression; NPM1 wild-type co-activates p53 via ARF in the nucleolus; MDM2 inhibitors (idasanutlin) restore p53 in NPM1c AML.
 - `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — NPM1-ALK t(2;5)(p23;q35) fusion in ALK+ ALCL: NPM1 N-terminal oligomerization domain drives ALK homodimerization → constitutive ALK kinase; NPM1-ALK is distinct from NPM1c AML mutation; ALK inhibitors (crizotinib, alectinib) active in NPM1-ALK ALCL.
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — TET2 mutations co-occur with NPM1c AML in ~20%; DNMT3A+TET2+NPM1c co-mutation is a recognized AML cluster; TET2 impairs 5mC oxidation → hypermethylation; azacitidine+venetoclax active in TET2+NPM1c AML; NPM1 MRD tracks response to azacitidine.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — DNMT3A is the most frequent NPM1c co-mutation in AML (~40%); DNMT3A+NPM1c = the pre-AML dyad (clonal hematopoiesis → AML; DNMT3A persists at remission as residual CH); DNMT3A+NPM1c+FLT3-ITD is the classical triple-hit NPM1c AML; DNMT3A R882H dominates in NPM1c co-mutant AML.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 R132H co-occurs with NPM1c in ~15% AML; IDH1 produces 2-HG → TET2 inhibition → hypermethylation synergizing with NPM1c HOX activation; ivosidenib+venetoclax+azacitidine in IDH1+NPM1c AML → very high CR rates; IDH inhibitors may be redundant to Ven+Aza alone.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — NPM1c AML is among the most venetoclax-sensitive genotypes: HOX program → MCL-1/BCL-2 dependence; venetoclax+azacitidine: CR+CRi 60-70% in NPM1c (best genotype); NPM1 MRD by RT-qPCR tracks depth of BCL-2 inhibition response; NPM1c without FLT3-ITD is the top-responding genotype.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^falini-2005-npm1c-aml]: Falini B, Mecucci C, Tiacci E, et al. Cytoplasmic nucleophosmin in acute myelogenous leukemia with a normal karyotype. *N Engl J Med.* 2005;352(3):254-266. [doi:10.1056/NEJMoa041974](https://doi.org/10.1056/NEJMoa041974) · [PubMed 15659725](https://pubmed.ncbi.nlm.nih.gov/15659725/)
 [^ivey-2016-npm1-mrd]: Ivey A, Hills RK, Simpson MA, et al. Assessment of minimal residual disease in standard-risk AML. *N Engl J Med.* 2016;374(5):422-433. [doi:10.1056/NEJMoa1507471](https://doi.org/10.1056/NEJMoa1507471) · [PubMed 26789727](https://pubmed.ncbi.nlm.nih.gov/26789727/)

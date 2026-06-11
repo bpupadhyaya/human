@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/myasthenia-gravis
     relation: connects-to
     note: "The SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG."
+  - target: 01-human/03-molecular/dopamine
+    relation: modulates
+    note: "SNARE complex at dopaminergic terminals mediates Ca²⁺-triggered dopamine vesicle exocytosis; α-synuclein (SNCA) inhibits VAMP2 → impairs dopamine SNARE fusion in Parkinson disease; stimulants and VMAT2 modulators (tetrabenazine) converge on dopamine SNARE exocytosis."
+  - target: 01-human/03-molecular/glutamate
+    relation: modulates
+    note: "SNARE-driven exocytosis releases glutamate at excitatory synapses; SNARE zippering triggered by CaV2.1/2.2 Ca²⁺ within 0.2 ms of action potential; tetanus toxin cleaves synaptobrevin-2 → blocks glutamate and GABA release → spastic paralysis from disinhibition."
+  - target: 01-human/03-molecular/insulin
+    relation: modulates
+    note: "Pancreatic β-cell insulin granule exocytosis requires a parallel SNARE: SNAP-23 + syntaxin-4 + VAMP2; glucose → Ca²⁺ (via KATP closure) → synaptotagmin-4 → SNARE-mediated insulin release; T2D islets show reduced SNARE expression; GLP-1R agonists enhance β-cell SNARE priming."
 ---
 
 # SNARE Complex
@@ -115,13 +124,16 @@ BoNT/A is the basis of **botulinum toxin (Botox)** medical applications: cosmeti
 
 ## Connections
 
-- `expressed-by` → **[Neuron](../../04-cellular/neuron/README.md)** — neuronal SNAREs are the presynaptic vesicle fusion engine at every chemical synapse
-- `acts-on` → **[Synapse](../../05-tissue/synapse/README.md)** — drives millisecond-timescale vesicle exocytosis underlying synaptic transmission
-- `acts-on` → **[Acetylcholine](../acetylcholine/README.md)** — SNARE machinery releases acetylcholine vesicles at NMJs and cholinergic synapses; BoNT blockade of SNAREs causes flaccid paralysis by silencing ACh release
+- `expressed-by` → **[Neuron](../../04-cellular/neuron/README.md)** — neuronal SNAREs are the presynaptic vesicle fusion engine at every chemical synapse.
+- `modulates` → **[Synapse](../../05-tissue/synapse/README.md)** — drives millisecond-timescale vesicle exocytosis underlying synaptic transmission.
+- `modulates` → **[Acetylcholine](../acetylcholine/README.md)** — SNARE machinery releases acetylcholine vesicles at NMJs and cholinergic synapses; BoNT blockade of SNAREs causes flaccid paralysis by silencing ACh release.
 - `connects-to` → **[Myasthenia Gravis](../../07-system/myasthenia-gravis/README.md)** — the SNARE complex (VAMP2/synaptobrevin + SNAP-25 + syntaxin-1) at the motor nerve terminal mediates ACh vesicle fusion; ACh release via SNARE is intact in MG (disease is postsynaptic); BoNT cleaves SNARE → NMJ blockade that mimics but differs mechanistically from MG.
-
-[^sudhof-rothman-2009-snare]: Sudhof TC, Rothman JE. Membrane fusion: grappling with SNARE and SM proteins. *Science.* 2009;323(5913):474-477. [doi:10.1126/science.1161748](https://doi.org/10.1126/science.1161748) · [PubMed 19164740](https://pubmed.ncbi.nlm.nih.gov/19164740/)
-[^hanson-1997-nsf-snare]: Hanson PI et al. Structure and conformational changes in NSF and its membrane receptor complexes. *Cell.* 1997;90(3):523-535. [doi:10.1016/s0092-8674(00)80512-7](https://doi.org/10.1016/s0092-8674(00)80512-7) · [PubMed 9267031](https://pubmed.ncbi.nlm.nih.gov/9267031/)
+- `modulates` → **[Dopamine](../dopamine/README.md)** — SNARE complex at dopaminergic terminals mediates Ca²⁺-triggered dopamine vesicle exocytosis; α-synuclein (SNCA) inhibits VAMP2 → impairs dopamine SNARE fusion in Parkinson disease; stimulants and VMAT2 modulators (tetrabenazine) converge on dopamine SNARE exocytosis.
+- `modulates` → **[Glutamate](../glutamate/README.md)** — SNARE-driven exocytosis releases glutamate at excitatory synapses; SNARE zippering triggered by CaV2.1/2.2 Ca²⁺ within 0.2 ms of action potential; tetanus toxin cleaves synaptobrevin-2 → blocks glutamate and GABA release → spastic paralysis from disinhibition.
+- `modulates` → **[Insulin](../insulin/README.md)** — Pancreatic β-cell insulin granule exocytosis requires a parallel SNARE: SNAP-23 + syntaxin-4 + VAMP2; glucose → Ca²⁺ (via KATP closure) → synaptotagmin-4 → SNARE-mediated insulin release; T2D islets show reduced SNARE expression; GLP-1R agonists enhance β-cell SNARE priming.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
+
+[^sudhof-rothman-2009-snare]: Sudhof TC, Rothman JE. Membrane fusion: grappling with SNARE and SM proteins. *Science.* 2009;323(5913):474-477. [doi:10.1126/science.1161748](https://doi.org/10.1126/science.1161748) · [PubMed 19164740](https://pubmed.ncbi.nlm.nih.gov/19164740/)
+[^hanson-1997-nsf-snare]: Hanson PI et al. Structure and conformational changes in NSF and its membrane receptor complexes. *Cell.* 1997;90(3):523-535. [doi:10.1016/s0092-8674(00)80512-7](https://doi.org/10.1016/s0092-8674(00)80512-7) · [PubMed 9267031](https://pubmed.ncbi.nlm.nih.gov/9267031/)
