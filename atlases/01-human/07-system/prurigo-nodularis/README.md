@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Prurigo nodularis is a skin disease built by scratching: relentless itch drives mechanical trauma that, over weeks, raises firm hyperkeratotic nodules with thickened epidermis, dense dermal fibrosis, and — distinctively — a proliferation of nerve fibers within the skin."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Prurigo nodularis is as much a neural as an inflammatory disease: sensory neurons proliferate in the nodules and their itch channels (TRPV1/TRPA1) are sensitized by IL-31, TSLP, and NGF, while repeated firing drives spinal central sensitization so that even light touch itches."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells sit at the heart of the prurigo-nodularis itch loop: substance P from dermal nerves triggers them through NK1R to release histamine, tryptase, and TSLP, and they are a source of IL-31 — feeding the sensory neurons that drive scratching."
 ---
 
 # Prurigo Nodularis
@@ -130,6 +139,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP from stressed keratinocytes activates ILC2 and mast cells → IL-31, IL-4, IL-13 → Th2 polarization in PN; TSLP directly gates TRPA1 on C-fiber pruriceptors → immediate itch; tezepelumab (anti-TSLP) is under investigation for PN; TSLP is elevated in PN nodule biopsies.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P (SP) from CGRP+/SP+ dermal nerve fibers in PN nodules → NK1R on mast cells and keratinocytes → histamine/tryptase release and TSLP secretion → itch amplification; aprepitant (oral NK1R antagonist) reduces PN pruritus in open-label studies.
 - `connects-to` → **[CKD](../ckd/README.md)** — CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Prurigo nodularis is a skin disease built by scratching: relentless itch drives mechanical trauma that, over weeks, raises firm hyperkeratotic nodules with thickened epidermis, dense dermal fibrosis, and — distinctively — a proliferation of nerve fibers within the skin.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Prurigo nodularis is as much a neural as an inflammatory disease: sensory neurons proliferate in the nodules and their itch channels (TRPV1/TRPA1) are sensitized by IL-31, TSLP, and NGF, while repeated firing drives spinal central sensitization so that even light touch itches.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells sit at the heart of the prurigo-nodularis itch loop: substance P from dermal nerves triggers them through NK1R to release histamine, tryptase, and TSLP, and they are a source of IL-31 — feeding the sensory neurons that drive scratching.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

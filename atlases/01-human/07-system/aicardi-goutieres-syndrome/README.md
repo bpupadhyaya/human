@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "STING → TBK1 activates both IRF3 (IFN-β) and IKKβ/NF-κB; chronic NF-κB in AGS drives TNF-α/IL-6 from microglia independent of IFN; NF-κB upregulation amplifies neuroinflammation; baricitinib (JAK1/2 inhibitor) reduces ISG and NF-κB-driven inflammation in AGS."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "In Aicardi-Goutières syndrome the chronic type I interferon flooding the brain activates microglia, which attack neurons and cerebral vessels — producing the progressive encephalopathy, white-matter disease, and basal-ganglia calcification of AGS."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Aicardi-Goutières syndrome is driven by type I interferon through the IFNAR-JAK-STAT pathway, so JAK1/2 inhibitors like baricitinib are the leading treatment: they lower the interferon signature and can stabilize disease, but rarely reverse established neurological damage."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "AGS is fundamentally a brain disease: constitutive interferon causes an inflammatory encephalopathy with intracranial calcifications and acquired microcephaly that mimics congenital TORCH infection — but with sterile CSF lymphocytosis and high CSF interferon-α."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -143,6 +152,10 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 **→ [HIV-1](../../../../02-pathogen/01-viruses/hiv-1/)**: SAMHD1 (AGS gene) is the principal HIV-1 restriction factor: dNTP hydrolase depletes viral dNTP pool → inhibits reverse transcription; HIV-2/SIVsm Vpx degrades SAMHD1; SAMHD1-LOF in AGS links innate antiviral immunity to monogenic neuroinflammation.
 
 **→ [NF-κB](../../../03-molecular/nf-kb/)**: STING → TBK1 activates both IRF3 (IFN-β) and IKKβ/NF-κB; chronic NF-κB in AGS drives TNF-α/IL-6 from microglia independent of IFN; NF-κB upregulation amplifies neuroinflammation; baricitinib (JAK1/2 inhibitor) reduces ISG and NF-κB-driven inflammation in AGS.
+
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — In Aicardi-Goutières syndrome the chronic type I interferon flooding the brain activates microglia, which attack neurons and cerebral vessels — producing the progressive encephalopathy, white-matter disease, and basal-ganglia calcification of AGS.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Aicardi-Goutières syndrome is driven by type I interferon through the IFNAR-JAK-STAT pathway, so JAK1/2 inhibitors like baricitinib are the leading treatment: they lower the interferon signature and can stabilize disease, but rarely reverse established neurological damage.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AGS is fundamentally a brain disease: constitutive interferon causes an inflammatory encephalopathy with intracranial calcifications and acquired microcephaly that mimics congenital TORCH infection — but with sterile CSF lymphocytosis and high CSF interferon-α.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
