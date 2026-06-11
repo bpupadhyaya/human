@@ -24,6 +24,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonin dysregulation contributes to impulsivity and compulsivity in IGD; 5-HT2C hypofunction reduces satiety signaling after game play; SSRIs show modest evidence for IGD with comorbid OCD or depression; impulsivity is a shared serotonin-related risk trait."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Internet gaming disorder is the behavioral mirror of substance addictions like cannabis use disorder: variable-ratio game rewards drive the same VTA-NAcc dopamine and D2-receptor hypofunction seen with drugs, with shared OFC cue-reactivity and prefrontal control deficits."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression is the most common IGD comorbidity (~50%), and most patients game largely to escape low mood, anxiety, or loneliness; this negative-reinforcement (escape) pattern predicts more severe disorder and worse outcomes, and SSRIs help mainly when depression is the driver."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Bupropion, a norepinephrine-dopamine reuptake inhibitor, reduced gaming in small controlled trials, fitting IGD's hypodopaminergic reward biology; noradrenergic tone also supports the prefrontal attention and impulse control weakened in gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -197,6 +206,12 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — IGD is associated with altered BDNF expression in prefrontal circuits, mirroring BDNF changes in substance use disorders and gambling disorder; BDNF Val66Met SNP has been associated with IGD vulnerability; BDNF-TrkB signaling in VTA-PFC circuits mediates the neuroplasticity that sustains compulsive gaming behavior.
 
 - `connects-to` → **[Serotonin](../../../03-molecular/serotonin/README.md)** — serotonin hypofunction contributes to impulsivity and compulsivity in IGD; 5-HT modulates impulse control in OFC-PFC circuits; SSRIs have modest evidence for IGD when driven by comorbid depression or OCD; impulsivity — a core serotonin-linked trait — is a robust predictor of IGD onset and severity.
+
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Internet gaming disorder is the behavioral mirror of substance addictions like cannabis use disorder: variable-ratio game rewards drive the same VTA-NAcc dopamine and D2-receptor hypofunction seen with drugs, with shared OFC cue-reactivity and prefrontal control deficits.
+
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is the most common IGD comorbidity (~50%), and most patients game largely to escape low mood, anxiety, or loneliness; this negative-reinforcement (escape) pattern predicts more severe disorder and worse outcomes, and SSRIs help mainly when depression is the driver.
+
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Bupropion, a norepinephrine-dopamine reuptake inhibitor, reduced gaming in small controlled trials, fitting IGD's hypodopaminergic reward biology; noradrenergic tone also supports the prefrontal attention and impulse control weakened in gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
