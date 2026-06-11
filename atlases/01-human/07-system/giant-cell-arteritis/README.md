@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "IFN-γ from Th1 CD4+ T cells drives macrophage activation → multinucleated giant cell formation and intimal hyperplasia in GCA; high IFN-γ in arterial tissue correlates with GCA activity and distinguishes GCA from Takayasu arteritis histologically."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "GCA is named for the multinucleated giant cells formed when IFN-γ-activated M1 macrophages fuse at the intima-media junction; these macrophages secrete IL-6, VEGF, PDGF, and IGF-1, driving the acute-phase response, neovascularization, and intimal hyperplasia."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Adventitial CD4+ T cells drive the adaptive phase of GCA: Th1 cells secrete IFN-γ (macrophage activation, giant cells) and Th17 cells secrete IL-17A (constitutional symptoms); both arms resist steroids, motivating IL-6R (tocilizumab) and JAK (upadacitinib) blockade."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Macrophage-derived PDGF and IGF-1 drive vascular smooth muscle cell migration from media to intima with myofibroblast proliferation → intimal hyperplasia → luminal occlusion → the ischemia behind headache, jaw claudication, and irreversible anterior ischemic optic neuropathy."
 ---
 
 # Giant Cell Arteritis
@@ -154,6 +163,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 is the dominant systemic effector in GCA — drives CRP/ESR elevation, fever, and constitutional symptoms; tocilizumab (anti-IL-6R; GiACTA: 56% vs 18% sustained remission at 52 weeks; FDA May 2017) is the cornerstone biologic for GCA.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — GCA involves Th17 (IL-17A) and Th1 (IFN-γ) CD4+ T cell infiltrate in the arterial adventitia; IL-17A amplifies macrophage/neutrophil recruitment and intimal hyperplasia; secukinumab (anti-IL-17A) and upadacitinib (JAK1 inhibitor; SELECT-GCA) are under investigation.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — IFN-γ from Th1 CD4+ T cells drives macrophage activation → multinucleated giant cell formation and intimal hyperplasia in GCA; high IFN-γ in arterial tissue correlates with GCA activity and distinguishes GCA from Takayasu arteritis histologically.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — GCA is named for the multinucleated giant cells formed when IFN-γ-activated M1 macrophages fuse at the intima-media junction; these macrophages secrete IL-6, VEGF, PDGF, and IGF-1, driving the acute-phase response, neovascularization, and intimal hyperplasia.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Adventitial CD4+ T cells drive the adaptive phase of GCA: Th1 cells secrete IFN-γ (macrophage activation, giant cells) and Th17 cells secrete IL-17A (constitutional symptoms); both arms resist steroids, motivating IL-6R (tocilizumab) and JAK (upadacitinib) blockade.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Macrophage-derived PDGF and IGF-1 drive vascular smooth muscle cell migration from media to intima with myofibroblast proliferation → intimal hyperplasia → luminal occlusion → the ischemia behind headache, jaw claudication, and irreversible anterior ischemic optic neuropathy.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

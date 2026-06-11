@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "EGFR overexpression in ~30-40% of gastric cancer but EGFR-targeted therapy (cetuximab, panitumumab) failed in unselected gastric cancer trials; EGFR amplification in a subset → potential biomarker; FGFR2 amplification (~5-10%) responds to bemarituzumab (anti-FGFR2b)."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "H. pylori is the dominant cause of non-cardia intestinal-type gastric cancer via the Correa cascade (gastritis → atrophy → metaplasia → dysplasia → carcinoma); CagA hijacks SHP-2/RAS-ERK and disrupts E-cadherin/β-catenin; eradication cuts GC incidence ~35-40%."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "EBV defines a distinct ~9% gastric cancer subtype (TCGA) with viral integration, near-universal PIK3CA mutation, CDKN2A silencing, and amplified CD274/PDCD1LG2 → very high PD-L1 → strong response to PD-1 blockade; EBER in-situ hybridization confirms it."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "Germline CDH1 (E-cadherin) loss causes hereditary diffuse gastric cancer — signet-ring/poorly cohesive tumors with ~70% lifetime diffuse-GC risk plus elevated lobular breast cancer risk; prophylactic total gastrectomy is recommended for CDH1 carriers aged 18-40."
 ---
 
 # Gastric Cancer
@@ -186,6 +195,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ramucirumab (anti-VEGFR2) + paclitaxel is standard second-line for advanced gastric cancer (RAINBOW trial: OS 9.6 vs. 7.4 months); ramucirumab monotherapy also approved; bevacizumab failed to improve OS in AVAGAST; VEGFR2 is the validated antiangiogenic target in gastric cancer.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pembrolizumab + chemotherapy is first-line for PD-L1 CPS ≥5 advanced gastric/GEJ adenocarcinoma (KEYNOTE-590/811); nivolumab + chemotherapy approved in many regions (CheckMate 649); MSI-H/dMMR gastric cancer (~10-15%) has particularly high response to PD-1 blockade (ORR >40%).
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR overexpression in ~30-40% of gastric cancer but EGFR-targeted therapy (cetuximab, panitumumab) failed in unselected gastric cancer trials; EGFR amplification in a subset → potential biomarker; FGFR2 amplification (~5-10%) responds to bemarituzumab (anti-FGFR2b).
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — H. pylori is the dominant cause of non-cardia intestinal-type gastric cancer via the Correa cascade (gastritis → atrophy → metaplasia → dysplasia → carcinoma); CagA hijacks SHP-2/RAS-ERK and disrupts E-cadherin/β-catenin; eradication cuts GC incidence ~35-40%.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV defines a distinct ~9% gastric cancer subtype (TCGA) with viral integration, near-universal PIK3CA mutation, CDKN2A silencing, and amplified CD274/PDCD1LG2 → very high PD-L1 → strong response to PD-1 blockade; EBER in-situ hybridization confirms it.
+- `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — Germline CDH1 (E-cadherin) loss causes hereditary diffuse gastric cancer — signet-ring/poorly cohesive tumors with ~70% lifetime diffuse-GC risk plus elevated lobular breast cancer risk; prophylactic total gastrectomy is recommended for CDH1 carriers aged 18-40.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
