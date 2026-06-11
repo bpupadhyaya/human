@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
     relation: connects-to
     note: "TTP (ADAMTS13 <10%) is the primary differential diagnosis of aHUS; both cause TMA (MAHA + thrombocytopenia + AKI) but TTP is treated with plasma exchange + caplacizumab and aHUS with eculizumab; TTP tends to spare the kidneys more; aHUS tends to dominate with AKI over neuro."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is aHUS's main target: uncontrolled alternative complement strikes the glomerular endothelium, seeding microthrombi that occlude capillaries → acute kidney injury and, over repeated episodes, CKD and ESRD; aHUS recurs in transplants unless C5 inhibition continues."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "aHUS is a disease of the glomerular endothelial cell: because mutant Factor H cannot be recruited to the cell surface, the alternative pathway runs unchecked there → MAC sublytically injures the endothelium → VWF release and platelet adhesion → the microthrombi of TMA."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "aHUS must be separated from typical HUS caused by Shiga-toxin-producing E. coli: STEC-HUS follows bloody diarrhoea, hits young children, is usually self-limited, and does not respond to eculizumab — whereas complement-driven aHUS does, making the stool toxin test a key fork."
 ---
 
 # Atypical HUS
@@ -217,6 +226,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — aHUS causes progressive CKD from repeated TMA episodes; ~50% of untreated patients reach ESRD within 1 year; eculizumab/ravulizumab prevent and partially reverse renal injury; renal transplant in aHUS requires continued C5 inhibition to prevent TMA recurrence in the allograft.
 - `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — ADAMTS13 activity is the first test to exclude TTP from the aHUS differential; in TMA workup, ADAMTS13 <10% = TTP → plasma exchange + caplacizumab, NOT eculizumab; ADAMTS13 ≥10% + complement workup → aHUS; the distinction is critical since treatments are non-interchangeable.
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — TTP (ADAMTS13 <10%) is the primary differential diagnosis of aHUS; both cause TMA (MAHA + thrombocytopenia + AKI) but TTP is treated with plasma exchange + caplacizumab and aHUS with eculizumab; TTP tends to spare the kidneys more; aHUS tends to dominate with AKI over neuro.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is aHUS's main target: uncontrolled alternative complement strikes the glomerular endothelium, seeding microthrombi that occlude capillaries → acute kidney injury and, over repeated episodes, CKD and ESRD; aHUS recurs in transplants unless C5 inhibition continues.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — aHUS is a disease of the glomerular endothelial cell: because mutant Factor H cannot be recruited to the cell surface, the alternative pathway runs unchecked there → MAC sublytically injures the endothelium → VWF release and platelet adhesion → the microthrombi of TMA.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — aHUS must be separated from typical HUS caused by Shiga-toxin-producing E. coli: STEC-HUS follows bloody diarrhoea, hits young children, is usually self-limited, and does not respond to eculizumab — whereas complement-driven aHUS does, making the stool toxin test a key fork.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

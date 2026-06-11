@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/inherited-thrombophilia
     relation: connects-to
     note: "APS and inherited thrombophilias (FV Leiden, prothrombin G20210A, protein C/S or AT deficiency) both cause recurrent VTE in young adults; co-existing aPL with thrombophilic mutations compounds risk multiplicatively; test for both in young patients with unexplained DVT/PE."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Antiphospholipid antibodies turn the endothelium prothrombotic: anti-β2GPI immune complexes engage endothelial TLR4 → NF-κB → tissue factor, converting the vessel lining from anticoagulant to clot-promoting — one of three converging hits driving APS thrombosis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Antiphospholipid syndrome is a leading cause of stroke in the young: arterial APS produces ischemic stroke and TIA, so aPL testing is mandatory in stroke under 50, and arterial APS is anticoagulated to a higher INR (2.5-3.5), with warfarin beating DOACs."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Half of APS is obstetric: antiphospholipid antibodies injure the placenta through both decidual-vessel thrombosis and direct, complement-(C5a)-mediated trophoblast damage, causing recurrent miscarriage, fetal loss, and pre-eclampsia — treated with LMWH plus low-dose aspirin."
 ---
 
 # Antiphospholipid Syndrome
@@ -193,6 +202,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Systemic Lupus Erythematosus](../../07-system/systemic-lupus-erythematosus/README.md)** — Secondary APS occurs in ~30% of SLE patients with persistent aPL; SLE+APS patients have higher stroke/DVT risk than either condition alone; hydroxychloroquine is recommended in all SLE+aPL patients; the 2023 ACR/EULAR APS classification criteria incorporate SLE as a risk modifier.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — APS causes recurrent DVT/PE in young adults; triple-positive aPL (LA + aCL + anti-B2GPI) confers >10% annual VTE risk; warfarin INR 2-3 is superior to DOACs in APS (TRAPS: rivaroxaban doubled arterial event risk vs. warfarin in triple-positive patients); indefinite anticoagulation recommended.
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — APS and inherited thrombophilias (FV Leiden, prothrombin G20210A, protein C/S or AT deficiency) both cause recurrent VTE in young adults; co-existing aPL with thrombophilic mutations compounds risk multiplicatively; test for both in young patients with unexplained DVT/PE.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Antiphospholipid antibodies turn the endothelium prothrombotic: anti-β2GPI immune complexes engage endothelial TLR4 → NF-κB → tissue factor, converting the vessel lining from anticoagulant to clot-promoting — one of three converging hits driving APS thrombosis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Antiphospholipid syndrome is a leading cause of stroke in the young: arterial APS produces ischemic stroke and TIA, so aPL testing is mandatory in stroke under 50, and arterial APS is anticoagulated to a higher INR (2.5-3.5), with warfarin beating DOACs.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Half of APS is obstetric: antiphospholipid antibodies injure the placenta through both decidual-vessel thrombosis and direct, complement-(C5a)-mediated trophoblast damage, causing recurrent miscarriage, fetal loss, and pre-eclampsia — treated with LMWH plus low-dose aspirin.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
