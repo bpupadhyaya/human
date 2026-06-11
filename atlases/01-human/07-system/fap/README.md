@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/desmoid-tumor
     relation: connects-to
     note: "APC germline mutations (codons 1310-2011) → FAP-associated mesenteric desmoid; more aggressive than sporadic CTNNB1-mutant desmoid; post-colectomy FAP mesenteric desmoid is a leading mortality cause in FAP; nirogacestat FDA-approved for all desmoid including FAP-associated"
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "Biallelic MUTYH mutations cause an autosomal-recessive phenocopy of attenuated FAP (10-100 adenomas) with no germline APC mutation; defective 8-oxoG base-excision repair drives G:C→T:A transversions in APC and KRAS; ~30% of APC-negative AFAP is actually MAP."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "KRAS activating mutations (G12D/V, ~50% of large FAP adenomas) are a key step in the Fearon-Vogelstein adenoma-carcinoma sequence after biallelic APC loss; the same APC→KRAS→SMAD4→TP53 progression as sporadic CRC, but compressed and universal because APC LOF is pre-present."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "FAP carpets the colorectal mucosa with hundreds-to-thousands of adenomas; every colonocyte carries the germline APC first hit, so independent somatic second hits seed many foci; prophylactic proctocolectomy removes the at-risk mucosa and is curative for colorectal risk."
 ---
 
 # Familial Adenomatous Polyposis
@@ -179,6 +188,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — APC LOF → insufficient β-catenin destruction complex → nuclear β-catenin → TCF/LEF → Wnt-ON; FAP tumors show nuclear β-catenin by IHC; FAP desmoid (APC codons 1310-2011) driven by APC LOF, not CTNNB1 mutation; functionally equivalent outcome via distinct mechanisms
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — FAP: 100% CRC penetrance by age 40 without colectomy; proctocolectomy (IPAA or ileostomy) is definitive prevention; annual colonoscopy from age 10-12; celecoxib FDA-approved for FAP adenoma reduction; sulindac reduces polyp burden; duodenal surveillance required
 - `connects-to` → **[Desmoid Tumor](../../07-system/desmoid-tumor/README.md)** — APC germline mutations (codons 1310-2011) → FAP-associated mesenteric desmoid; more aggressive than sporadic CTNNB1-mutant desmoid; post-colectomy FAP mesenteric desmoid is a leading mortality cause in FAP; nirogacestat FDA-approved for all desmoid including FAP-associated
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Biallelic MUTYH mutations cause an autosomal-recessive phenocopy of attenuated FAP (10-100 adenomas) with no germline APC mutation; defective 8-oxoG base-excision repair drives G:C→T:A transversions in APC and KRAS; ~30% of APC-negative AFAP is actually MAP.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS activating mutations (G12D/V, ~50% of large FAP adenomas) are a key step in the Fearon-Vogelstein adenoma-carcinoma sequence after biallelic APC loss; the same APC→KRAS→SMAD4→TP53 progression as sporadic CRC, but compressed and universal because APC LOF is pre-present.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — FAP carpets the colorectal mucosa with hundreds-to-thousands of adenomas; every colonocyte carries the germline APC first hit, so independent somatic second hits seed many foci; prophylactic proctocolectomy removes the at-risk mucosa and is curative for colorectal risk.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

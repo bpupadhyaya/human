@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "ET transforms to post-ET MF (~1-2% at 10 years); megakaryocyte-derived TGF-β1 → reticulin → collagen fibrosis; co-mutations (ASXL1, EZH2, SRSF2) accelerate MF transformation; momelotinib targets ACVR1 to address anemia in post-ET MF."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "At platelet counts >1,500 ×10⁹/L, ET causes acquired von Willebrand syndrome — platelet GPIb adsorbs high-molecular-weight VWF multimers and depletes them, impairing primary hemostasis → paradoxical bleeding; aspirin is contraindicated until cytoreduction normalizes the count."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "PV and ET are both JAK2-driven MPNs on a phenotypic continuum; PV (JAK2 nearly 100%, often homozygous) skews erythroid while ET skews megakaryocytic; JAK2 V617F-ET can drift toward a PV phenotype; ET has lower post-MF and AML transformation risk than PV."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Clonal megakaryocytic hyperplasia drives sustained thrombocytosis; JAK2 V617F platelets are constitutively activated (resting P-selectin) → platelet-leukocyte aggregates and thrombosis; erythromelalgia from platelet microvascular occlusion responds rapidly to aspirin."
 ---
 
 # Essential Thrombocythemia
@@ -157,6 +166,9 @@ Management:
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK2 V617F (~55-60% ET) causes constitutive erythroid/megakaryocytic/granulocytic proliferation; JAK2-positive ET has higher thrombosis risk than CALR-mutant ET; ruxolitinib is active in JAK2 V617F ET but is not FDA-approved for ET.
 - `connects-to` → **[CALR](../../03-molecular/calr/README.md)** — CALR mutations (~20-25% ET); type 2 ins5bp is predominant in ET (vs type 1 del52bp in PMF); CALR-mutant ET has lower thrombosis risk, younger age, and longer OS than JAK2-mutant ET; JAK2/CALR/MPL mutations are mutually exclusive.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ET transforms to post-ET MF (~1-2% at 10 years); megakaryocyte-derived TGF-β1 → reticulin → collagen fibrosis; co-mutations (ASXL1, EZH2, SRSF2) accelerate MF transformation; momelotinib targets ACVR1 to address anemia in post-ET MF.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — At platelet counts >1,500 ×10⁹/L, ET causes acquired von Willebrand syndrome — platelet GPIb adsorbs high-molecular-weight VWF multimers and depletes them, impairing primary hemostasis → paradoxical bleeding; aspirin is contraindicated until cytoreduction normalizes the count.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — PV and ET are both JAK2-driven MPNs on a phenotypic continuum; PV (JAK2 nearly 100%, often homozygous) skews erythroid while ET skews megakaryocytic; JAK2 V617F-ET can drift toward a PV phenotype; ET has lower post-MF and AML transformation risk than PV.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Clonal megakaryocytic hyperplasia drives sustained thrombocytosis; JAK2 V617F platelets are constitutively activated (resting P-selectin) → platelet-leukocyte aggregates and thrombosis; erythromelalgia from platelet microvascular occlusion responds rapidly to aspirin.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
