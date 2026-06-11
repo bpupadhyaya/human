@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Allopregnanolone (progesterone metabolite) is a potent GABA-A PAM via delta subunit extrasynaptic receptors → sedation, anxiolysis, anticonvulsant; progesterone withdrawal → allopregnanolone decline → GABA-A downregulation → seizure threshold reduction in catamenial epilepsy."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Epilepsy and migraine are comorbid disorders of cortical hyperexcitability that share genetics: gain-of-function SCN1A causes familial hemiplegic migraine while loss-of-function causes Dravet epilepsy, and valproate and topiramate treat both."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Seizures are an excitation-inhibition imbalance, and glutamate is the excitatory side: AMPA/NMDA over-activity drives synchronous bursting, and the AMPA antagonist perampanel is an antiseizure drug — the counterpart to GABA's brake."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "A seizure is hypersynchronous neuronal firing: bursting pyramidal neurons and recurrent excitatory collaterals overwhelm GABAergic interneurons → a paroxysmal depolarizing shift; most genetic epilepsies are neuronal ion-channelopathies that tip this balance."
 ---
 
 # Epilepsy
@@ -211,6 +220,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — epilepsy arises from focal or generalized cortical networks; hippocampal sclerosis in MTLE causes the most common adult focal epilepsy; EEG captures ictal/interictal cortical discharges; epilepsy surgery (temporal lobectomy) directly resects the epileptogenic zone.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — epilepsy risk is 2-3× elevated in AD; amyloid-driven cortical hyperexcitability precedes clinical dementia; anti-NMDAR and LGI1 autoimmune encephalitides present with epilepsy and cognitive decline, mimicking rapid-onset dementia and requiring different treatment.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Allopregnanolone (progesterone metabolite) is a potent GABA-A PAM via delta subunit extrasynaptic receptors → sedation, anxiolysis, anticonvulsant; progesterone withdrawal → allopregnanolone decline → GABA-A downregulation → seizure threshold reduction in catamenial epilepsy.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Epilepsy and migraine are comorbid disorders of cortical hyperexcitability that share genetics: gain-of-function SCN1A causes familial hemiplegic migraine while loss-of-function causes Dravet epilepsy, and valproate and topiramate treat both.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Seizures are an excitation-inhibition imbalance, and glutamate is the excitatory side: AMPA/NMDA over-activity drives synchronous bursting, and the AMPA antagonist perampanel is an antiseizure drug — the counterpart to GABA's brake.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A seizure is hypersynchronous neuronal firing: bursting pyramidal neurons and recurrent excitatory collaterals overwhelm GABAergic interneurons → a paroxysmal depolarizing shift; most genetic epilepsies are neuronal ion-channelopathies that tip this balance.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
