@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/nlrp3-inflammasome
     relation: connects-to
     note: "NLRP3 inflammasome is constitutively activated in CF airway: CFTR LOF → abnormal mitochondrial reactive oxygen species → NLRP3 priming and activation → IL-1β/IL-18 release → neutrophilic airway inflammation; IL-1β inhibitors (canakinumab) explored in CF lung disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "CF airway dominated by massive neutrophil recruitment (IL-8-driven); neutrophil elastase → proteolysis → bronchiectasis; NETs provide extracellular DNA that increases sputum viscoelasticity; dornase alfa (DNase I) cleaves NET-derived DNA → improved mucus clearance."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "NLRP3 inflammasome activation in CF airway → IL-1β/IL-18 release → amplifies airway inflammation; CFTR LOF → oxidative stress → NLRP3 priming; IL-1β drives CXCL8 production by airway epithelium → neutrophil recruitment loop; canakinumab (anti-IL-1β) explored as CF lung adjunct."
+  - target: 01-human/07-system/hereditary-pancreatitis
+    relation: connects-to
+    note: "CFTR mutations (5T, R117H) are second-hit modifiers in hereditary pancreatitis (PRSS1/SPINK1 mutations); compound heterozygosity → idiopathic chronic pancreatitis; CFTR LOF → reduced pancreatic duct bicarbonate → trypsinogen aggregation and premature activation → acinar injury."
 ---
 
 # Cystic Fibrosis
@@ -167,6 +176,13 @@ AND
 - `connects-to` → **[PRSS1](../../03-molecular/prss1/README.md)** — CFTR mutations act as disease modifiers in hereditary pancreatitis: CFTR LOF → reduced pancreatic duct bicarbonate → acidic duct fluid → enhanced trypsinogen activation → pancreatitis risk; compound heterozygosity with PRSS1 or SPINK1 mutations worsens disease severity.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 is a major modifier of CF lung disease severity: TGF-β1 promoter polymorphisms (codon 10/25) correlate with lung function decline in CF; airway TGF-β1 signaling promotes fibrosis and reduces CFTR modulator efficacy; TGF-β1 blockade is explored as CF adjunct therapy.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NLRP3 inflammasome is constitutively activated in CF airway: CFTR LOF → abnormal mitochondrial reactive oxygen species → NLRP3 priming and activation → IL-1β/IL-18 release → neutrophilic airway inflammation; IL-1β inhibitors (canakinumab) explored in CF lung disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CF airway dominated by massive neutrophil recruitment (IL-8-driven); neutrophil elastase → proteolysis → bronchiectasis; NETs provide extracellular DNA that increases sputum viscoelasticity; dornase alfa (DNase I) cleaves NET-derived DNA → improved mucus clearance.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — NLRP3 inflammasome activation in CF airway → IL-1β/IL-18 release → amplifies airway inflammation; CFTR LOF → oxidative stress → NLRP3 priming; IL-1β drives CXCL8 production by airway epithelium → neutrophil recruitment loop; canakinumab (anti-IL-1β) explored as CF lung adjunct.
+- `connects-to` → **[Hereditary Pancreatitis](../hereditary-pancreatitis/README.md)** — CFTR mutations (5T, R117H) are second-hit modifiers in hereditary pancreatitis (PRSS1/SPINK1 mutations); compound heterozygosity → idiopathic chronic pancreatitis; CFTR LOF → reduced pancreatic duct bicarbonate → trypsinogen aggregation and premature activation → acinar injury.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^riordan-1989-cftr-cloning]: Riordan JR, Rommens JM, Kerem B, et al. Identification of the cystic fibrosis gene: cloning and characterization of complementary DNA. *Science.* 1989;245(4922):1066-1073. [doi:10.1126/science.2475911](https://doi.org/10.1126/science.2475911) · [PubMed 2475911](https://pubmed.ncbi.nlm.nih.gov/2475911/)
 [^heijerman-2019-etd-cf]: Heijerman HGM, McKone EF, Downey DG, et al. Efficacy and safety of the elexacaftor plus tezacaftor plus ivacaftor combination regimen in people with cystic fibrosis homozygous for the F508del mutation. *Lancet.* 2019;394(10212):1940-1948. [doi:10.1016/S0140-6736(19)32597-8](https://doi.org/10.1016/S0140-6736(19)32597-8) · [PubMed 31679946](https://pubmed.ncbi.nlm.nih.gov/31679946/)
