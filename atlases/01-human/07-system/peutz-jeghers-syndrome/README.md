@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "PJS lifetime pancreatic cancer risk ~36% by age 70; EUS + MRI surveillance from age 30-35; STK11 LOF co-mutation with KRAS in pancreatic cancer → mTOR + MAPK dual activation; PJS pancreatic cancer prognosis poor; resectability rate ~40% at detection"
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "STK11 LOF → AMPK loss → mTORC1 unrestrained → S6K1/4EBP1 → epithelial and smooth muscle proliferation → PJ hamartoma formation; rapamycin reduces polyp burden ~50-80% in STK11+/− mice; sirolimus + metformin pilot trial ongoing in PJS patients (NCT03943992)."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "PJS breast cancer lifetime risk ~45-54% by age 70 (BRCA1/2-equivalent); breast MRI + mammogram from age 25; STK11 LOF → mTOR hyperactivation in breast epithelium; HR+ predominant; no PJS-specific breast cancer histology; risk-reducing bilateral mastectomy discussed."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "STK11/LKB1 somatic mutations in ~15-20% of KRAS-mutant lung adenocarcinoma; STK11 loss → PD-L1 downregulation + CXCL7 secretion → neutrophilic immunosuppressive TME → primary ICB resistance; STK11-mutant KRAS+ NSCLC is the poorest immunotherapy responder subgroup."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -162,7 +171,14 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — Germline STK11 mutations cause ~94% of PJS; STK11 encodes LKB1 (AMPK activator); haploinsufficiency → polyp formation (second hit in polyp epithelium); truncating STK11 mutations associate with higher cancer risk than missense; STK11 germline panel + deletion analysis required
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — STK11 LOF → AMPK inactivation → mTOR unrestrained → hamartoma growth in PJS; rapamycin reduces polyp burden in STK11+/− mouse models; mTORC1 is the primary growth driver in PJS hamartomas; AMPK activators (metformin) explored as chemoprevention in PJS pilot studies
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — PJS lifetime CRC risk ~39% by age 70 (Hearle 2006); PJS CRC arises through hamartoma-adenoma-carcinoma sequence; proximal colon predominance; colonoscopy with polypectomy every 1-3 years from age 15-20; CRC is the third most common PJS cancer after breast and pancreatic
-- `connects-to` → **[Pancreatic Cancer](../../07-system/pancreatic-cancer/README.md)** — PJS lifetime pancreatic cancer risk ~36% by age 70; EUS + MRI surveillance from age 30-35; STK11 LOF co-mutation with KRAS in pancreatic cancer → mTOR + MAPK dual activation; PJS pancreatic cancer prognosis poor; resectability rate ~40% at detection
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — PJS lifetime pancreatic cancer risk ~36% by age 70; EUS + MRI surveillance from age 30-35; STK11 LOF co-mutation with KRAS in pancreatic cancer → mTOR + MAPK dual activation; PJS pancreatic cancer prognosis poor; resectability rate ~40% at detection
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — STK11 LOF → AMPK loss → mTORC1 unrestrained → S6K1/4EBP1 → epithelial and smooth muscle proliferation → PJ hamartoma formation; rapamycin reduces polyp burden ~50-80% in STK11+/− mice; sirolimus + metformin pilot trial ongoing in PJS patients (NCT03943992).
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — PJS breast cancer lifetime risk ~45-54% by age 70 (BRCA1/2-equivalent); breast MRI + mammogram from age 25; STK11 LOF → mTOR hyperactivation in breast epithelium; HR+ predominant; no PJS-specific breast cancer histology; risk-reducing bilateral mastectomy discussed.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — STK11/LKB1 somatic mutations in ~15-20% of KRAS-mutant lung adenocarcinoma; STK11 loss → PD-L1 downregulation + CXCL7 secretion → neutrophilic immunosuppressive TME → primary ICB resistance; STK11-mutant KRAS+ NSCLC is the poorest immunotherapy responder subgroup.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^hearle-2006-pjs-cancer]: Hearle N, Schumacher V, Menko FH, et al. Frequency and spectrum of cancers in the Peutz-Jeghers syndrome. *Clin Cancer Res.* 2006;12(10):3209-3215. [doi:10.1158/1078-0432.CCR-06-0083](https://doi.org/10.1158/1078-0432.CCR-06-0083) · [PubMed 16707622](https://pubmed.ncbi.nlm.nih.gov/16707622/)
 [^skoulidis-2018-stk11-nsclc]: Skoulidis F, Goldberg ME, Greenawalt DM, et al. STK11/LKB1 mutations and PD-1 inhibitor resistance in KRAS-mutant lung adenocarcinoma. *Cancer Cell.* 2018;34(3):412-424. [doi:10.1016/j.ccell.2018.08.013](https://doi.org/10.1016/j.ccell.2018.08.013) · [PubMed 30174241](https://pubmed.ncbi.nlm.nih.gov/30174241/)

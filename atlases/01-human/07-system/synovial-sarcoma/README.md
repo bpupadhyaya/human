@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "Homozygous CDKN2A deletion in ~10-15% synovial sarcoma predicts poor prognosis; EZH2/H3K27me3 epigenetically silences CDKN2A even without deletion → absent p16 → CDK4/6 hyperactivation → E2F-driven S-phase; CDK4/6 inhibitors (palbociclib) under evaluation in CDKN2A-deleted SS."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "SS18-SSX QPGY activation domain drives VEGF transcription → angiogenesis; pazopanib (VEGFR2 inhibitor, PALETTE trial: PFS HR 0.35) FDA-approved for advanced STS post-chemo including SS; VEGF overexpression correlates with tumor grade and metastatic potential in synovial sarcoma."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "SS has low TMB (~1-2 mut/Mb) and variable PD-L1 → limited single-agent ICB ORR (~10-15%); tazemetostat + pembrolizumab (Phase 1/2) under investigation; EZH2 inhibition may restore IFN-γ response; TMB-high/MSI-H SS (<5%) most likely ICB responders."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "TLE1 (most specific SS IHC marker) is a Groucho-family WNT/β-catenin co-repressor (binds TCF/LEF); SS18-SSX recruits TLE1 into the oncogenic complex; ~30% of SS show nuclear β-catenin; CTNNB1 mutations in <5%; WNT pathway modulation is part of SS epigenetic de-regulation."
 ---
 
 # Synovial Sarcoma
@@ -165,6 +174,13 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — SS18-SSX displaces SMARCB1 from BAF → PRC2/EZH2 unrestricted → H3K27me3 at CDKN2A, KLF4, and differentiation loci; synovial sarcoma is EZH2-dependent; tazemetostat (EZH2 inhibitor, SARC057): ORR 22% in pretreated SS; FDA breakthrough therapy designation granted for SS.
 - `connects-to` → **[SMARCB1](../../03-molecular/smarcb1/README.md)** — SS18-SSX displaces SMARCB1 from canonical BAF without SMARCB1 mutation → SMARCB1 degraded → BAF destabilized → PRC2 access; SMARCB1 IHC remains intact in SS (contrast AT/RT where SMARCB1 is lost); SS18-SSX knockdown → SMARCB1 re-occupies BAF → G1 arrest; shared EZH2 dependency.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Homozygous CDKN2A deletion in ~10-15% synovial sarcoma predicts poor prognosis; EZH2/H3K27me3 epigenetically silences CDKN2A even without deletion → absent p16 → CDK4/6 hyperactivation → E2F-driven S-phase; CDK4/6 inhibitors (palbociclib) under evaluation in CDKN2A-deleted SS.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SS18-SSX QPGY activation domain drives VEGF transcription → angiogenesis; pazopanib (VEGFR2 inhibitor, PALETTE trial: PFS HR 0.35) FDA-approved for advanced STS post-chemo including SS; VEGF overexpression correlates with tumor grade and metastatic potential in synovial sarcoma.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SS has low TMB (~1-2 mut/Mb) and variable PD-L1 → limited single-agent ICB ORR (~10-15%); tazemetostat + pembrolizumab (Phase 1/2) under investigation; EZH2 inhibition may restore IFN-γ response; TMB-high/MSI-H SS (<5%) most likely ICB responders.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TLE1 (most specific SS IHC marker) is a Groucho-family WNT/β-catenin co-repressor (binds TCF/LEF); SS18-SSX recruits TLE1 into the oncogenic complex; ~30% of SS show nuclear β-catenin; CTNNB1 mutations in <5%; WNT pathway modulation is part of SS epigenetic de-regulation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^kadoch-2013-ss18-ssx-baf]: Kadoch C, Crabtree GR. Reversible disruption of mSWI/SNF (BAF) complexes by the SS18-SSX oncogenic fusion in synovial sarcoma. *Cell.* 2013;153(1):71-85. [doi:10.1016/j.cell.2013.02.036](https://doi.org/10.1016/j.cell.2013.02.036) · [PubMed 23540691](https://pubmed.ncbi.nlm.nih.gov/23540691/)
 [^kawai-2015-trabectedin-synovial]: Kawai A, Araki N, Sugiura H, et al. Trabectedin monotherapy after standard chemotherapy versus best supportive care in patients with advanced, translocation-related sarcoma: a randomised, open-label, phase 2 study. *Lancet Oncol.* 2015;16(4):406-416. [doi:10.1016/S1470-2045(15)70098-7](https://doi.org/10.1016/S1470-2045(15)70098-7) · [PubMed 25795407](https://pubmed.ncbi.nlm.nih.gov/25795407/)
