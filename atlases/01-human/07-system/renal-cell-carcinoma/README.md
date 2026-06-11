@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "VHL loss → constitutive HIF-1α/HIF-2α stabilization → VEGF, GLUT1, EPO, PDGF transcription in ccRCC; HIF-2α (EPAS1) is the primary oncogenic HIF isoform; belzutifan (HIF-2α inhibitor) FDA approved 2021 for VHL disease and 2023 for 3rd-line ccRCC."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Most RCCs arise from the kidney's proximal tubule; small T1a tumors are often found incidentally on CT and cured by nephron-sparing partial nephrectomy, while VHL-null tumor cells secrete EPO, renin, or PTHrP — causing paraneoplastic polycythemia, hypertension, or hypercalcemia."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Von Hippel-Lindau disease (germline VHL loss) predisposes to bilateral, multifocal, early-onset clear-cell RCC alongside hemangioblastomas and pheochromocytomas; the same VHL→HIF-2α pseudohypoxia drives both hereditary and the >90% of sporadic ccRCC, and belzutifan targets it."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "Type 1 papillary RCC is driven by MET activation (amplification or germline mutation in hereditary papillary RCC), distinct from VHL-driven clear-cell disease; these tumors respond poorly to VEGFR TKIs, so the MET/VEGFR2 inhibitor cabozantinib is the preferred targeted agent."
 ---
 
 # Renal Cell Carcinoma
@@ -158,6 +167,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Nivolumab+ipilimumab (CheckMate 214) improved OS in intermediate/poor-risk RCC; pembrolizumab+axitinib (KEYNOTE-426) improved OS vs. sunitinib; nivolumab+cabozantinib (CheckMate 9ER) PFS 16.6 vs. 8.3 months; ICI combinations are standard first-line for advanced RCC.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Everolimus (mTOR inhibitor) approved for 2nd-line RCC after VEGFR TKI failure (RECORD-1: PFS 4.9 vs. 1.9 months); temsirolimus improved OS vs. IFN-α in poor-risk RCC; lenvatinib+everolimus approved 2nd-line; mTOR inhibitors largely displaced by ICI+VEGFR combinations.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — VHL loss → constitutive HIF-1α/HIF-2α stabilization → VEGF, GLUT1, EPO, PDGF transcription in ccRCC; HIF-2α (EPAS1) is the primary oncogenic HIF isoform; belzutifan (HIF-2α inhibitor) FDA approved 2021 for VHL disease and 2023 for 3rd-line ccRCC.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Most RCCs arise from the kidney's proximal tubule; small T1a tumors are often found incidentally on CT and cured by nephron-sparing partial nephrectomy, while VHL-null tumor cells secrete EPO, renin, or PTHrP — causing paraneoplastic polycythemia, hypertension, or hypercalcemia.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Von Hippel-Lindau disease (germline VHL loss) predisposes to bilateral, multifocal, early-onset clear-cell RCC alongside hemangioblastomas and pheochromocytomas; the same VHL→HIF-2α pseudohypoxia drives both hereditary and the >90% of sporadic ccRCC, and belzutifan targets it.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — Type 1 papillary RCC is driven by MET activation (amplification or germline mutation in hereditary papillary RCC), distinct from VHL-driven clear-cell disease; these tumors respond poorly to VEGFR TKIs, so the MET/VEGFR2 inhibitor cabozantinib is the preferred targeted agent.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

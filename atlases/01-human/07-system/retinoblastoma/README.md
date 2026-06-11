@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "Hereditary RB1 carriers have 30-50× risk of osteosarcoma as a second malignancy; radiation exposure dramatically amplifies this risk — external beam RT now avoided in hereditary RB; germline RB1 is found in ~3-5% of sporadic osteosarcomas."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Retinoblastoma is the most common intraocular tumor of childhood, presenting as leukocoria (white pupillary reflex) or strabismus; globe-sparing therapy — intra-arterial and intravitreal chemotherapy — salvages most eyes, reserving enucleation for advanced (Group E) disease."
+  - target: 01-human/03-molecular/mycn
+    relation: connects-to
+    note: "A small (~2%) RB1-wildtype subset of retinoblastoma is instead driven by massive MYCN amplification, which raises CCNE1/CDK2 to hyperphosphorylate Rb and release E2F1 despite intact RB1; these aggressive, non-hereditary tumors are harder to salvage than RB1-mutant ones."
+  - target: 01-human/03-molecular/mdm2
+    relation: connects-to
+    note: "Retinoblastoma must neutralize the p53 apoptosis that RB1 loss would otherwise trigger: MDM2 amplification (~4%) and MDM4 overexpression (~65%) degrade or inhibit p53, so TP53 itself is rarely mutated — making MDM2/MDM4 antagonists a rational therapeutic strategy."
 ---
 
 # Retinoblastoma
@@ -152,6 +161,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Biallelic RB1 loss is the universal initiating event in retinoblastoma; hereditary (bilateral) = germline RB1 + somatic LOH; sporadic (unilateral) = two somatic RB1 hits; MYCN amplification is an alternative RB-independent driver in a rare subset.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 pathway is bypassed in retinoblastoma via MDM2 amplification, MDM4 overexpression, or MYCN amplification; p53 pathway loss allows retinal progenitors to survive RB1 LOF-driven E2F1 pro-apoptotic signaling; TP53 mutations are rare in primary retinoblastoma.
 - `connects-to` → **[Osteosarcoma](../../07-system/osteosarcoma/README.md)** — Hereditary RB1 carriers have 30-50× risk of osteosarcoma as a second malignancy; radiation exposure dramatically amplifies this risk — external beam RT now avoided in hereditary RB; germline RB1 is found in ~3-5% of sporadic osteosarcomas.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Retinoblastoma is the most common intraocular tumor of childhood, presenting as leukocoria (white pupillary reflex) or strabismus; globe-sparing therapy — intra-arterial and intravitreal chemotherapy — salvages most eyes, reserving enucleation for advanced (Group E) disease.
+- `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — A small (~2%) RB1-wildtype subset of retinoblastoma is instead driven by massive MYCN amplification, which raises CCNE1/CDK2 to hyperphosphorylate Rb and release E2F1 despite intact RB1; these aggressive, non-hereditary tumors are harder to salvage than RB1-mutant ones.
+- `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Retinoblastoma must neutralize the p53 apoptosis that RB1 loss would otherwise trigger: MDM2 amplification (~4%) and MDM4 overexpression (~65%) degrade or inhibit p53, so TP53 itself is rarely mutated — making MDM2/MDM4 antagonists a rational therapeutic strategy.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
