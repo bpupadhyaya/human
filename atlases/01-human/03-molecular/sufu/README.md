@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/gorlin-syndrome
     relation: connects-to
     note: "Germline SUFU causes Gorlin-like syndrome: desmoplastic/nodular medulloblastoma risk (SHH subgroup, age <5) is higher than PTCH1-Gorlin; BCC and OKC are less penetrant; radiation avoidance is critical; SUFU loss releases GLI constitutively in cerebellar granule progenitors."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "GLI1/2 (released from SUFU in SUFU-null tumors) transcriptionally activate MYCN → drives SHH medulloblastoma proliferation; MYCN amplification + SUFU LOF in infant SHH-MB = highest-risk; GLI-MYCN axis targeted by GLI inhibitors (arsenic trioxide, GANT61) in SHH-MB."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation co-occurring with PTCH1/SUFU LOF in SHH-MB → worst prognosis (SHHtp53); 5-year OS ~40%; SUFU germline patients: radiation avoidance critical — RT induces secondary BCCs; p53 pathway intact in most SUFU-null tumors but TP53 co-mutation drives catastrophic outcome."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "SUFU and β-catenin degradation share CK1/GSK-3β kinase signaling at the primary cilia base; SPOP ubiquitinates both SUFU-bound GLI and β-catenin; HH-Wnt crosstalk in medulloblastoma; ATO (arsenic trioxide) inhibits GLI1 downstream of SUFU and blocks Wnt-driven CK1ε signaling."
 ---
 
 # SUFU
@@ -145,6 +154,12 @@ SUFU germline tumors are resistant to SMO inhibitors (SUFU is downstream of SMO)
 - `connects-to` → **[PTCH1](../../03-molecular/ptch1/README.md)** — PTCH1 normally inhibits SMO; SHH binding to PTCH1 relieves SMO inhibition → SMO activates SUFU release of GLI; germline PTCH1 = Gorlin syndrome (more BCCs, OKC, and less medulloblastoma than SUFU-associated Gorlin); somatic PTCH1 loss is the most common BCC driver.
 - `connects-to` → **[Basal Cell Carcinoma](../../07-system/basal-cell-carcinoma/README.md)** — SUFU-GLI axis drives BCC: SUFU LOF → constitutive GLI1/2 nuclear → PTCH1/CCND1/HHIP upregulation → BCC; vismodegib/sonidegib target SMO upstream of SUFU; SUFU germline has lower BCC risk than PTCH1 but higher desmoplastic medulloblastoma risk.
 - `connects-to` → **[Gorlin Syndrome](../../07-system/gorlin-syndrome/README.md)** — Germline SUFU causes Gorlin-like syndrome: desmoplastic/nodular medulloblastoma risk (SHH subgroup, age <5) is higher than PTCH1-Gorlin; BCC and OKC are less penetrant; radiation avoidance is critical; SUFU loss releases GLI constitutively in cerebellar granule progenitors.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — GLI1/2 (released from SUFU in SUFU-null tumors) transcriptionally activate MYCN → drives SHH medulloblastoma proliferation; MYCN amplification + SUFU LOF in infant SHH-MB = highest-risk; GLI-MYCN axis targeted by GLI inhibitors (arsenic trioxide, GANT61) in SHH-MB.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation co-occurring with PTCH1/SUFU LOF in SHH-MB → worst prognosis (SHHtp53); 5-year OS ~40%; SUFU germline patients: radiation avoidance critical — RT induces secondary BCCs; p53 pathway intact in most SUFU-null tumors but TP53 co-mutation drives catastrophic outcome.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SUFU and β-catenin degradation share CK1/GSK-3β kinase signaling at the primary cilia base; SPOP ubiquitinates both SUFU-bound GLI and β-catenin; HH-Wnt crosstalk in medulloblastoma; ATO (arsenic trioxide) inhibits GLI1 downstream of SUFU and blocks Wnt-driven CK1ε signaling.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^taylor-2002-sufu-medulloblastoma]: Taylor MD, Liu L, Raffel C, et al. Mutations in SUFU predispose to medulloblastoma. *Nat Genet.* 2002;31(3):306-310. [doi:10.1038/ng916](https://doi.org/10.1038/ng916) · [PubMed 12068298](https://pubmed.ncbi.nlm.nih.gov/12068298/)
 [^brugiere-2010-sufu-gorlin]: Brugières L, Pierron G, Chompret A, et al. Incomplete penetrance of the predisposition to medulloblastoma associated with germ-line SUFU mutations. *J Med Genet.* 2010;47(2):142-144. [doi:10.1136/jmg.2009.067504](https://doi.org/10.1136/jmg.2009.067504) · [PubMed 19903819](https://pubmed.ncbi.nlm.nih.gov/19903819/)

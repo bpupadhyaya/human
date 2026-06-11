@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "GLI1/2 transcriptionally activate BCL2 → resistance to apoptosis in Hh-driven tumors (BCC, SHH-MB); BCL2 overexpression in vismodegib-resistant BCC correlates with acquired resistance; venetoclax explored in combination with SMO inhibitors in preclinical BCC models."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Gorlin syndrome (BCNS) is caused by germline PTCH1 LOF (haploinsufficiency); autosomal dominant; manifests as hundreds of BCCs, odontogenic keratocysts, calcified falx, bifid ribs, and ~5% SHH medulloblastoma; vismodegib reduces new BCC formation in Gorlin (Tang 2012 trial)."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "PTCH1 somatic LOF occurs in ~85-90% of sporadic BCC via UV-induced C→T transitions at dipyrimidines; BCC is the most common human cancer; vismodegib (FDA 2012) and sonidegib target SMO downstream of PTCH1 LOF; cemiplimab (anti-PD-1) approved for SMO inhibitor-refractory BCC."
+  - target: 01-human/03-molecular/sufu
+    relation: connects-to
+    note: "PTCH1 → SMO → KIF7 → SUFU-GLI dissociation at primary cilium tip → GLI2/GLI1 nuclear; PTCH1 LOF = constitutive SMO activity = constitutive SUFU-GLI dissociation; SUFU LOF mimics downstream PTCH1 LOF but is SMO-inhibitor-resistant; SUFU germline predisposes to desmoplastic MB."
 ---
 
 # PTCH1
@@ -119,6 +128,12 @@ SMO inhibitor; locally advanced BCC (BOLT trial: ORR 56% at 200 mg/day; simpler 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — SHH-activated medulloblastoma with MYCN amplification and TP53 mutation → highest-risk SHH-MB (5-year OS ~40%); MYCN is a downstream GLI1/2 target; MYC amplification in Group 3 MB is distinct from MYCN in SHH-MB; GLI1 transcriptionally activates MYC in Hh-driven tumors.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — PTCH1 LOF → GLI1/2 → CCND1 upregulation → CDK4/6 phosphorylation of RB1 → E2F release → S-phase entry; CDK4/6 inhibitors explored in SHH-MB and Gorlin syndrome BCCs; RB1 mutation is rare in BCC/MB but CDK→Rb mediates Hh proliferative signals.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — GLI1/2 transcriptionally activate BCL2 → resistance to apoptosis in Hh-driven tumors (BCC, SHH-MB); BCL2 overexpression in vismodegib-resistant BCC correlates with acquired resistance; venetoclax explored in combination with SMO inhibitors in preclinical BCC models.
+- `connects-to` → **[Gorlin Syndrome](../../07-system/gorlin-syndrome/README.md)** — Gorlin syndrome (BCNS) is caused by germline PTCH1 LOF (haploinsufficiency); autosomal dominant; manifests as hundreds of BCCs, odontogenic keratocysts, calcified falx, bifid ribs, and ~5% SHH medulloblastoma; vismodegib reduces new BCC formation in Gorlin (Tang 2012 trial).
+- `connects-to` → **[Basal Cell Carcinoma](../../07-system/basal-cell-carcinoma/README.md)** — PTCH1 somatic LOF occurs in ~85-90% of sporadic BCC via UV-induced C→T transitions at dipyrimidines; BCC is the most common human cancer; vismodegib (FDA 2012) and sonidegib target SMO downstream of PTCH1 LOF; cemiplimab (anti-PD-1) approved for SMO inhibitor-refractory BCC.
+- `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — PTCH1 → SMO → KIF7 → SUFU-GLI dissociation at primary cilium tip → GLI2/GLI1 nuclear; PTCH1 LOF = constitutive SMO activity = constitutive SUFU-GLI dissociation; SUFU LOF mimics downstream PTCH1 LOF but is SMO-inhibitor-resistant; SUFU germline predisposes to desmoplastic MB.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^johnson-1996-ptch1-gorlin]: Johnson RL, Rothman AL, Xie J, et al. Human homolog of patched, a candidate gene for the basal cell nevus syndrome. *Science.* 1996;272(5268):1668-1671. [doi:10.1126/science.272.5268.1668](https://doi.org/10.1126/science.272.5268.1668) · [PubMed 8658145](https://pubmed.ncbi.nlm.nih.gov/8658145/)
 [^tang-2012-vismodegib-gorlin]: Tang JY, Mackay-Wiggan JM, Aszterbaum M, et al. Inhibiting the hedgehog pathway in patients with the basal-cell nevus syndrome. *N Engl J Med.* 2012;366(23):2180-2188. [doi:10.1056/NEJMoa1113538](https://doi.org/10.1056/NEJMoa1113538) · [PubMed 22670901](https://pubmed.ncbi.nlm.nih.gov/22670901/)
