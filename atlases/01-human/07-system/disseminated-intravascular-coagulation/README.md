@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/antithrombin
     relation: connects-to
     note: "AT is consumed in DIC by ongoing thrombin generation; AT levels <60% correlate with DIC severity (ISTH DIC score); AT concentrate studied in sepsis-DIC (KyberSept trial: no mortality benefit); low AT + prolonged PT + thrombocytopenia = DIC triad."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "DIC causes platelet consumption → thrombocytopenia; platelet count is a key ISTH DIC score parameter (score 1 if <100K, score 2 if <50K); platelet transfusion if <50K + active bleeding, or <10K; platelet activation by thrombin amplifies DIC microthrombus formation."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "Protein C is consumed in DIC → loss of anticoagulant brake; PC deficiency → purpura fulminans (limb gangrene in septic DIC); protein C concentrate explored in severe sepsis-DIC; drotrecogin alfa (APC) withdrawn after PROWESS-SHOCK failed to show mortality benefit in sepsis-DIC."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Gram-negative sepsis is the most common DIC trigger: LPS → TLR4 → NF-κB → TF on monocytes/endothelium → systemic thrombin → fibrin microthrombi; 25-50% of severe sepsis develops overt DIC; sepsis-DIC mortality ~40-60%; antibiotics + source control are the primary treatment."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -178,10 +187,14 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Systemic TF/thrombin activation is the central mechanism of DIC: infection → cytokines → TF upregulation → FVIIa/TF → FX → thrombin → fibrin microthrombi; thrombin also exhausts natural anticoagulants (protein C/S, antithrombin) → feedback amplification of coagulopathy.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Sepsis-induced DIC: endotoxin/DAMPs → NLRP3 inflammasome → IL-1β + IL-18 → endothelial TF expression → thrombin generation → fibrin; IL-1β amplifies NF-κB → PAI-1 upregulation → hypofibrinolysis → fibrin microthrombus persistence in septic DIC.
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — AT is consumed in DIC by ongoing thrombin generation; AT levels <60% correlate with DIC severity (ISTH DIC score); AT concentrate studied in sepsis-DIC (KyberSept trial: no mortality benefit); low AT + prolonged PT + thrombocytopenia = DIC triad.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — DIC causes platelet consumption → thrombocytopenia; platelet count is a key ISTH DIC score parameter (score 1 if <100K, score 2 if <50K); platelet transfusion if <50K + active bleeding, or <10K; platelet activation by thrombin amplifies DIC microthrombus formation.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Protein C is consumed in DIC → loss of anticoagulant brake; PC deficiency → purpura fulminans (limb gangrene in septic DIC); protein C concentrate explored in severe sepsis-DIC; drotrecogin alfa (APC) withdrawn after PROWESS-SHOCK failed to show mortality benefit in sepsis-DIC.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Gram-negative sepsis is the most common DIC trigger: LPS → TLR4 → NF-κB → TF on monocytes/endothelium → systemic thrombin → fibrin microthrombi; 25-50% of severe sepsis develops overt DIC; sepsis-DIC mortality ~40-60%; antibiotics + source control are the primary treatment.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^levi-2009-dic-review]: Levi M, Toh CH, Thachil J, Watson HG. Guidelines for the diagnosis and management of disseminated intravascular coagulation. *Br J Haematol.* 2009;145(1):24-33. [doi:10.1111/j.1365-2141.2009.07600.x](https://doi.org/10.1111/j.1365-2141.2009.07600.x) · [PubMed 19222477](https://pubmed.ncbi.nlm.nih.gov/19222477/)
 [^levi-2018-dic-lancet]: Levi M, Scully M. How I treat disseminated intravascular coagulation. *Blood.* 2018;131(8):845-854. [doi:10.1182/blood-2017-10-804096](https://doi.org/10.1182/blood-2017-10-804096) · [PubMed 29255070](https://pubmed.ncbi.nlm.nih.gov/29255070/)
 [^taylor-2001-isth-dic-score]: Taylor FB Jr, Toh CH, Hoots WK, et al. Towards definition, clinical and laboratory criteria, and a scoring system for disseminated intravascular coagulation. *Thromb Haemost.* 2001;86(5):1327-1330. [doi:10.1055/s-0037-1616068](https://doi.org/10.1055/s-0037-1616068) · [PubMed 11816725](https://pubmed.ncbi.nlm.nih.gov/11816725/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

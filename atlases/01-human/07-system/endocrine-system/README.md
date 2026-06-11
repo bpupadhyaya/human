@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: modulates
     note: "ANP/BNP (heart), aldosterone (adrenal), ADH (posterior pituitary), EPO (kidney), and catecholamines (adrenal medulla) together regulate blood pressure, volume, and cardiac output; hyperthyroidism, Cushing's, and phaeochromocytoma cause CVD."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin (β-cell peptide) coordinates fed-state metabolism: ↑GLUT4 in muscle/adipose, ↑glycogen synthesis, ↓hepatic gluconeogenesis, ↑lipogenesis; GLP-1 agonists (semaglutide, tirzepatide) amplify insulin secretion; insulin resistance drives T2DM, metabolic syndrome, and NAFLD."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol (adrenal glucocorticoid, HPA axis: CRH→ACTH→cortisol) is the key stress hormone: ↑gluconeogenesis, ↑lipolysis, anti-inflammatory (↓NF-κB, ↓COX-2), permissive for catecholamine action; Cushing's syndrome = chronic cortisol excess; Addison's disease = cortisol deficiency."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Glucagon (α-cell peptide) opposes insulin in fasting: ↑hepatic glycogenolysis and gluconeogenesis via PKA/CREB; hypersecretion amplifies hyperglycemia in T2DM; GLP-1 agonists (semaglutide) suppress glucagon release; glucagon receptor antagonists in clinical trials for T2DM."
 ---
 
 # Endocrine System
@@ -193,10 +202,13 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 
 ## Connections
 
-- **Contains:** [pancreas](../../06-organ/pancreas/README.md) — islets of Langerhans (insulin, glucagon, somatostatin) are the central regulators of glucose homeostasis.
-- **Modulates:** [nervous-system](../nervous-system/README.md) — hypothalamus integrates neural and endocrine signals; glucocorticoids, thyroid hormones, and sex steroids modulate CNS function, mood, and cognition.
-- **Modulates:** [immune-system](../immune-system/README.md) — cortisol (HPA axis), sex steroids (gonadal/adrenal), and thymic hormones regulate immunity; stress-driven cortisol suppresses inflammation; thymic involution reduces T-cell output.
-- **Modulates:** [cardiovascular-system](../cardiovascular-system/README.md) — ANP/BNP, aldosterone, ADH, EPO, and catecholamines regulate blood pressure, blood volume, and cardiac output; endocrine pathology (hyperthyroidism, Cushing's, phaeochromocytoma) causes secondary CVD.
+- `contains` → **[Pancreas](../../06-organ/pancreas/README.md)** — Islets of Langerhans (insulin [β-cells], glucagon [α-cells], somatostatin [δ-cells]) are central glucose regulators; T1DM = autoimmune β-cell destruction; T2DM = insulin resistance + progressive β-cell failure.
+- `modulates` → **[Nervous System](../nervous-system/README.md)** — Hypothalamus integrates nervous and endocrine systems; CRH, TRH, GnRH, GHRH control anterior pituitary; glucocorticoids, thyroid hormones, and sex steroids feed back to regulate CNS and behaviour.
+- `modulates` → **[Immune System](../immune-system/README.md)** — Cortisol, oestrogens, and androgens regulate immune cell trafficking, cytokine production, and lymphocyte apoptosis; HPA-axis cortisol → immunosuppression; thymic involution driven by sex steroids reduces T-cell output with age.
+- `modulates` → **[Cardiovascular System](../cardiovascular-system/README.md)** — ANP/BNP (heart), aldosterone (adrenal), ADH (posterior pituitary), EPO (kidney), and catecholamines (adrenal medulla) regulate blood pressure, volume, and cardiac output; hyperthyroidism, Cushing's, and phaeochromocytoma cause CVD.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin (β-cell peptide) coordinates fed-state metabolism: ↑GLUT4 in muscle/adipose, ↑glycogen synthesis, ↓hepatic gluconeogenesis, ↑lipogenesis; GLP-1 agonists (semaglutide, tirzepatide) amplify insulin secretion; insulin resistance drives T2DM, metabolic syndrome, and NAFLD.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol (adrenal glucocorticoid, HPA axis: CRH→ACTH→cortisol) is the key stress hormone: ↑gluconeogenesis, ↑lipolysis, anti-inflammatory (↓NF-κB, ↓COX-2), permissive for catecholamine action; Cushing's syndrome = chronic cortisol excess; Addison's disease = cortisol deficiency.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Glucagon (α-cell peptide) opposes insulin in fasting: ↑hepatic glycogenolysis and gluconeogenesis via PKA/CREB; hypersecretion amplifies hyperglycemia in T2DM; GLP-1 agonists (semaglutide) suppress glucagon release; glucagon receptor antagonists in clinical trials for T2DM.
 
 ## Pathology
 
@@ -263,7 +275,7 @@ Cluster of insulin resistance-driven metabolic abnormalities (WHO/NCEP-ATP III c
 
 ---
 
-> **AI co-maintenance notice:** This entry is maintained with AI assistance. Content reflects standard textbook and peer-reviewed sources as cited; verify critical details against primary literature before clinical or research application.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [Publisher →](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
 [^stryer-biochemistry]: Berg JM, Tymoczko JL, Stryer L. *Biochemistry.* 9th ed. W.H. Freeman; 2019. [Publisher →](https://www.macmillanlearning.com/college/us/product/Biochemistry/p/131911467X)
