@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Reproductive System — gonads, ducts, and glands governed by the pulsatile HPG axis mediating gametogenesis, sexual development, and systemic endocrine effects on bone, CVD, immunity, and CNS. Scale 07 of the Human Atlas.">
+  <meta name="description" content="Gonads, ducts, and accessory glands governed by the pulsatile HPG axis (kisspeptin→GnRH→LH/FSH→sex steroids) mediating gametogenesis, sexual development, and en">
   <meta property="og:title" content="Reproductive System — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Reproductive System — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #db2777;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,48 +39,52 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(219,39,119,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #db2777, #831843); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -97,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -109,159 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 07 &mdash; System</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Reproductive System</h1>
-    <p class="tagline">Gonads, ducts, and accessory glands governed by the pulsatile HPG axis — kisspeptin → GnRH → LH/FSH → sex steroids — mediating gametogenesis, sexual development, and pervasive endocrine effects on bone, cardiovascular risk, immunity, and CNS function.</p>
-    <p class="subtagline">UBERON:0000990. Both sexes use the same HPG axis architecture with sex-specific feedback dynamics. Oestrogen and testosterone affect virtually every organ system — making reproductive endocrinology central to longevity medicine.</p>
+    <p class="tagline">Gonads, ducts, and accessory glands governed by the pulsatile HPG axis (kisspeptin→GnRH→LH/FSH→sex steroids) mediating gametogenesis, sexual development, and endocrine modulation of bone, CVD, immunity, and CNS.</p>
+    <p class="aliases">Also known as: gonadal system, genital system, male reproductive system, female reproductive system, HPG axis</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">~1,500/s</span><span class="stat-label">Spermatozoa produced</span></div>
-      <div class="stat"><span class="stat-num">~400</span><span class="stat-label">Ovulations per lifetime</span></div>
-      <div class="stat"><span class="stat-num">74 days</span><span class="stat-label">Spermatogenesis cycle</span></div>
-      <div class="stat"><span class="stat-num">~51 yrs</span><span class="stat-label">Mean menopause age</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0000990 &middot; Atlas One / Scale 07</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">reproductive-system</div>
         <h2>Reproductive System</h2>
-        <p class="summary">The reproductive system encompasses organs, ducts, glands, and the HPG axis governing gametogenesis, fertilisation, gestation, and parturition. Its hormonal products — oestrogens, androgens, progestins — exert pervasive effects on bone (OPG/RANKL axis), the cardiovascular system (oestrogenic atheroprotection via eNOS and LDL-R), the immune system (sex-dimorphic autoimmunity), and the CNS (neuroprotection, mood, thermoregulation, libido). Both sexes use the same architecture (GnRH → LH/FSH → gonadal steroids) with sex-specific feedback dynamics, gametogenic rates, and anatomical implementations.</p>
+        <p class="summary">Gonads, ducts, and accessory glands governed by the pulsatile HPG axis (kisspeptin→GnRH→LH/FSH→sex steroids) mediating gametogenesis, sexual development, and endocrine modulation of bone, CVD, immunity, and CNS.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The reproductive system is unique in two ways. First, it is the <strong>only system whose primary function is explicitly interindividual</strong> rather than individual survival — its products govern the continuation of the species. Second, it is the only system with distinct male and female anatomical configurations converging on a <strong>shared endocrine regulatory architecture</strong>.</p>
-          <p>The systemic effects of sex steroids extend far beyond reproduction. Oestradiol is atheroprotective (↑eNOS → ↑NO → vasodilation, ↑LDL receptor, ↑HDL-C, ↓ICAM-1/VCAM-1 → ↓monocyte adhesion). Its loss at menopause explains the equalisation of male-female cardiovascular risk post-menopause. Testosterone drives erythropoiesis (↑EPO → ↑haematocrit — explaining normal sex differences in haemoglobin). Both steroids are essential for bone density via the OPG/RANKL axis. Understanding these systemic effects is prerequisite to understanding ageing, HRT decisions, androgen deprivation therapy toxicity, and oral contraceptive risks.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>HPG Axis — Shared Architecture</h3>
-          <div class="circuit-diagram">
-<pre>
-  KISSPEPTIN NEURONS (hypothalamus)
-  ├── Arcuate nucleus: pulse generator (both sexes)
-  └── AVPV nucleus: LH surge generator (females only)
-  KISS1 → Kp-10/Kp-13/Kp-54 → GPR54 on GnRH neurons
-  Suppressed in childhood by MKRN3 (maternally imprinted)
-  → puberty onset when MKRN3 falls + kisspeptin rises
-       │
-       ▼
-  GnRH (decapeptide, arcuate + preoptic neurons)
-  → pulsatile release into hypophyseal portal blood
-  → anterior pituitary gonadotrophs
-  (Pulse ~60–120 min males; varies by cycle phase females)
-       │
-       ▼
-  LH → Leydig cells (males): testosterone synthesis
-       (CYP11A1 → pregnenolone → CYP17A1 → DHEA →
-        androstenedione → 17β-HSD3 → testosterone)
-  LH → theca cells (females): androstenedione
-       granulosa corpus luteum: progesterone (luteal phase)
-  FSH → Sertoli cells (males): spermatogenesis support
-  FSH → granulosa cells (females): aromatase → oestradiol
-       │ Negative feedback
-       └─ Testosterone/oestradiol + inhibin B → suppress
-          GnRH pulse frequency + LH/FSH amplitude
-       │ Positive feedback (females ONLY)
-       └─ E2 >200 pg/mL for >36h → AVPV kisspeptin →
-          GnRH surge → 10× LH surge → ovulation (day ~14)
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Key Components</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Structure</th><th>Key biology</th></tr>
-            <tr><td><strong>Testes</strong></td><td>Seminiferous tubules (~250 m/testis): spermatogonial stem cells → spermatogenesis (74 days, ~1,500 spermatozoa/s). Blood-testis barrier (Sertoli cell tight junctions: claudin-11, occludin). Leydig cells between tubules: LH → testosterone synthesis (~7 mg/day)</td></tr>
-            <tr><td><strong>Epididymis</strong></td><td>~6 m coiled; 12–21 days transit; sperm acquire progressive motility (CatSper Ca²⁺ channel, CRISP proteins); storage in cauda</td></tr>
-            <tr><td><strong>Seminal vesicles</strong></td><td>70% of ejaculate volume: fructose (sperm carbon source), prostaglandins, semenogelin I/II (coagulation)</td></tr>
-            <tr><td><strong>Prostate</strong></td><td>30% of ejaculate volume: PSA (kallikrein-3 → liquefies semenogelin), zinc (bacteriostatic), citric acid. DHT-driven growth (5α-reductase → DHT → AR → EGF/IGF-1/FGF-7)</td></tr>
-            <tr><td><strong>Ovaries</strong></td><td>~400,000 primordial follicles at puberty; ~400 ovulate lifetime; folliculogenesis under FSH + LH; ovarian cycle: follicular phase → ovulation (LH surge) → luteal phase (corpus luteum → progesterone)</td></tr>
-            <tr><td><strong>Uterus</strong></td><td>Endometrium: proliferative (E2) → secretory (P4) → menstruation (P4/E2 withdrawal → PGF2α → spiral artery vasoconstriction → shedding). Myometrium: quiescent (P4 ↓gap junctions); parturition: ↑oxytocin receptors + PGE2/PGF2α</td></tr>
-            <tr><td><strong>Fallopian tubes</strong></td><td>Ciliated columnar epithelium + peristaltic smooth muscle; fertilisation in ampulla; cilia frequency modulated by E2 (↑)/P4 (↓); ectopic pregnancy if transport fails (tubal PID damage)</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>reproductive-system</td></tr>
+            <tr><td>Name</td><td>Reproductive System</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Oestrogen — Systemic Actions</h3>
-          <p>Oestradiol (E2) binds ERα (ESR1) and ERβ (ESR2) — nuclear receptors dimerising on EREs; also rapid non-genomic signalling via membrane-associated ERα/GPER. The breadth of oestrogen action explains both its atheroprotective role and its contribution to breast cancer risk and thrombosis:</p>
-          <table class="data-table">
-            <tr><th>System</th><th>Oestrogen effect</th></tr>
-            <tr><td><strong>Bone</strong></td><td>↑OPG → ↓RANKL → ↓osteoclastogenesis; ↑type I collagen. Deficiency → postmenopausal osteoporosis (rapid bone loss in first 5 years after menopause)</td></tr>
-            <tr><td><strong>Cardiovascular</strong></td><td>↑eNOS → NO → vasodilation; ↑LDL-R → ↓LDL-C; ↑ApoA1 → ↑HDL-C; ↓ICAM-1/VCAM-1 → anti-atherogenic; coronary vasodilation. Loss at menopause → CVD risk equalises with males.</td></tr>
-            <tr><td><strong>CNS</strong></td><td>Neuroprotection (↑BDNF, ↑BCL-2); ↑serotonin synthesis/reuptake inhibition → mood; VMH thermostat disruption at menopause → vasomotor symptoms (hot flushes); memory, executive function</td></tr>
-            <tr><td><strong>Immune</strong></td><td>↑Th1/Th17, ↑B cell survival, ↑autoantibody → female autoimmune predominance (SLE, RA, MS ~3:1 F:M); ↑IFN-γ production; ↑NK cytotoxicity</td></tr>
-            <tr><td><strong>Coagulation</strong></td><td>↑FVII, FVIII, fibrinogen, vWF; ↓protein S → net pro-thrombotic. Pharmacological doses (OCP/HRT) → 3–5× ↑VTE risk</td></tr>
-            <tr><td><strong>Liver</strong></td><td>↑SHBG (↓free androgens), ↑angiotensinogen (→ ↑BP on OCP), ↑TBG (↑T4 requirement in hypothyroid women on OCP)</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Regulatory Mechanisms</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Testosterone metabolism</h4>
-              <p>5α-reductase (SRD5A1/2; skin, prostate, liver) → DHT (2–3× higher AR affinity → dominant in prostate, skin/scalp → androgenetic alopecia). Aromatase (CYP19A1; adipose, brain, bone) → oestradiol (in males: essential for negative feedback on HPG, bone density, libido; in females: follicular oestradiol).</p>
-            </div>
-            <div class="info-block">
-              <h4>Menstrual cycle dynamics</h4>
-              <p>28-day cycle: follicular phase (FSH → dominant follicle → ↑E2 → endometrial proliferation) → ovulation (E2 &gt;200 pg/mL → LH surge) → luteal phase (CL → P4 peak ~20 ng/mL day 21 → secretory endometrium) → luteolysis → ↓P4/E2 → PGF2α → menses. Implantation: hCG from trophoblast rescues CL → sustains P4.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Polycystic Ovary Syndrome (PCOS)</h4>
-            <p>Most common endocrine disorder in reproductive-age females (~10–15%). Rotterdam criteria (2 of 3): oligo/anovulation, clinical/biochemical hyperandrogenism, PCOM on ultrasound. Pathophysiology: ↑GnRH pulse frequency → ↑LH:FSH → ↑theca androgen (androstenedione, T) → partial aromatisation → anovulation. Insulin resistance (70%) → ↑insulin → ↑theca LHR sensitivity → further ↑androgens. Treatment: OCP (↑SHBG → ↓free androgens), metformin (↓IR → ↓androgen drive), clomiphene/letrozole (ovulation induction), weight loss, spironolactone (AR antagonism → ↓hirsutism).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Endometriosis</h4>
-            <p>Ectopic endometrial glands and stroma (ovaries, peritoneum, uterosacral ligaments). Oestrogen-dependent: lesions express aromatase → local E2 production. PGE2 → ↑aromatase (vicious cycle). Dysmenorrhoea, dyspareunia, chronic pelvic pain, infertility (30–50% of infertile women). Diagnosis: laparoscopy (gold standard). Treatment: NSAIDs (↓PGF2α + ↓aromatase), combined OCP, progestins (dienogest), GnRH agonists (leuprolide → medical menopause + add-back HRT), GnRH antagonists (elagolix), surgery (laparoscopic excision/ablation).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Prostate Cancer (PCa)</h4>
-            <p>Most common non-skin cancer in males. Androgen-dependent: AR + TMPRSS2:ERG fusion (AR-driven promoter → ERG oncogene), PTEN loss → ↑PI3K/AKT. Localised: active surveillance (low-risk), RP, or RT. Metastatic hormone-sensitive (mCSPC): ADT (GnRH agonist/antagonist) + abiraterone (CYP17A1 inhibitor) or enzalutamide/apalutamide (AR antagonists). Castration-resistant (mCRPC): abiraterone, enzalutamide, taxanes (docetaxel/cabazitaxel), PARP inhibitors (olaparib for BRCA1/2), ¹⁷⁷Lu-PSMA-617 (radioligand therapy).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Benign Prostatic Hyperplasia (BPH)</h4>
-            <p>DHT (5α-reductase → AR → ↑EGF/IGF-1/FGF-7) drives periurethral transition zone proliferation. Affects &gt;50% of men &gt;60 years. LUTS: obstructive (poor stream, hesitancy) + irritative (urgency, frequency). Treatment: α1-blockers (tamsulosin → prostate smooth muscle relaxation), 5α-reductase inhibitors (finasteride/dutasteride → ↓DHT → gland shrinkage), combination superior; surgery (TURP, HoLEP) for refractory disease.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Turner Syndrome (45,X0) and Klinefelter Syndrome (47,XXY)</h4>
-            <p>Turner: X monosomy → streak gonads → oestrogen deficiency → ↑FSH/LH (hypergonadotropic hypogonadism) → absent puberty without HRT; short stature (SHOX haploinsufficiency); coarctation of aorta (15%), bicuspid aortic valve (30%). Treatment: oestrogen + progesterone replacement; GH therapy. Klinefelter: most common sex chromosome aneuploidy (~1:550 males); supernumerary X → progressive seminiferous tubule fibrosis → azoospermia; Leydig cells partially preserved → low-normal testosterone + ↑LH (compensated hypogonadism) + gynaecomastia. Treatment: testosterone replacement; fertility via TESE + ICSI possible even with Klinefelter.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Ovarian and Cervical Cancer</h4>
-            <p>High-grade serous ovarian carcinoma (HGSOC, ~70%): arises from fallopian tube fimbriae (STIC precursor); TP53 mutation universal; BRCA1/2 mutations ~15% hereditary; HRD tumours respond to PARP inhibitors (olaparib, niraparib) + carboplatin/paclitaxel + bevacizumab. Cervical cancer: HPV-16 (SCC) + HPV-18 (adenocarcinoma) responsible for ~70%; E6 degrades p53; E7 degrades pRb → uncontrolled cell cycle. Prevention: Gardasil-9 (nonavalent VLP vaccine) &gt;90% efficacy against targeted types. Screening: cervical cytology + HPV co-testing.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="human-body.html"><span class="rel">Part of</span>Human Body</a>
-            <a class="conn-pill" href="endocrine-system.html"><span class="rel">Part of</span>Endocrine System (HPG axis)</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Modulates</span>Cardiovascular System (oestrogen atheroprotection)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Immune System (sex-dimorphic autoimmunity)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Nervous System (neuroprotection, mood)</a>
-            <a class="conn-pill" href="musculoskeletal-system.html"><span class="rel">Modulates</span>Bone (OPG/RANKL axis)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Liver (sex hormone metabolism, SHBG)</a>
+            <a class="conn-pill" href="immune-system.html" title="Sex hormones modulate immunity: oestrogen ↑Th1/Th17 → female predominance of autoimmunity (SLE, RA, MS ~3:1 F:M); testosterone is immunosuppressive; oestrogen promotes B-cell survival and antibody production."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Oestrogen is atheroprotective (↑eNOS, ↑HDL-C, ↑LDL-R); menopause → ↓E2 → ↑CVD risk; testosterone drives erythropoiesis → ↑haematocrit; both sex steroids modulate RAAS and blood pressure."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="nervous-system.html" title="E2 and progesterone receptors are in hypothalamus, limbic system, and cortex; E2 promotes synaptogenesis, neuroprotection, and serotonin turnover; E2 deficiency causes vasomotor symptoms, cognitive changes; testosterone promotes dopaminergic tone."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="liver.html" title="Liver metabolises sex hormones (CYP3A4 oxidation, conjugation); hepatocytes produce SHBG and angiotensinogen; oestrogen ↑SHBG → ↓free testosterone; combined OCP ↑SHBG → ↓free androgens in women with hyperandrogenism."><span class="rel">modulates</span>Liver</a>
+            <a class="conn-pill" href="estrogen.html" title="Oestradiol (E2; CYP19A1 aromatase from ovarian granulosa cells) binds ERα/ERβ → bone protection (↑OPG→↓RANKL), cardioprotection (↑eNOS/HDL-C), CNS neuroprotection; menopause E2 deficiency → osteoporosis + ↑CVD; OCP suppresses HPG axis; HRT restores systemic effects of E2."><span class="rel">connects-to</span>Estrogen</a>
+            <a class="conn-pill" href="testosterone.html" title="Testosterone (Leydig cells → CYP11A1/CYP17A1/17β-HSD3; ~7 mg/day) binds AR → anabolic (muscle, erythropoiesis) + androgenic (virilisation, spermatogenesis); 5α-reductase → DHT (prostate/skin/scalp); aromatase → E2 (bone, HPG feedback); PCOS: excess theca-cell testosterone via LH."><span class="rel">connects-to</span>Testosterone</a>
+            <a class="conn-pill" href="insulin.html" title="Hyperinsulinaemia in PCOS sensitises ovarian LH receptors → ↑theca androgen synthesis → ↑testosterone → anovulation + hirsutism; insulin directly stimulates IGF-1R on ovary; metformin reduces hepatic insulin resistance → ↓insulin → ↓androgen production → improved ovulation rates."><span class="rel">connects-to</span>Insulin</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">NCBI Bookshelf</a></li>
-            <li>Rotterdam ESHRE/ASRM-Sponsored PCOS Consensus Workshop Group. Revised 2003 consensus on diagnostic criteria and long-term health risks related to polycystic ovary syndrome. <em>Fertil Steril.</em> 2004;81(1):19-25. <a href="https://doi.org/10.1016/j.fertnstert.2003.10.004" target="_blank" rel="noopener">doi:10.1016/j.fertnstert.2003.10.004</a></li>
-            <li>Swerdlow AJ, et al. Mortality in patients with Klinefelter syndrome in Britain. <em>J Clin Endocrinol Metab.</em> 2005;90(12):6516-6522. <a href="https://doi.org/10.1210/jc.2005-1287" target="_blank" rel="noopener">doi:10.1210/jc.2005-1287</a></li>
-            <li>de Bono JS, et al. Abiraterone and Increased Survival in Metastatic Prostate Cancer. <em>N Engl J Med.</em> 2011;364(21):1995-2005. <a href="https://doi.org/10.1056/NEJMoa1014618" target="_blank" rel="noopener">doi:10.1056/NEJMoa1014618</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
           </ul>
         </div>
 
@@ -273,13 +188,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="endocrine-system.html">Endocrine System</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: modulates
     note: "Liver metabolises sex hormones (CYP3A4 oxidation, conjugation); hepatocytes produce SHBG and angiotensinogen; oestrogen ↑SHBG → ↓free testosterone; combined OCP ↑SHBG → ↓free androgens in women with hyperandrogenism."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Oestradiol (E2; CYP19A1 aromatase from ovarian granulosa cells) binds ERα/ERβ → bone protection (↑OPG→↓RANKL), cardioprotection (↑eNOS/HDL-C), CNS neuroprotection; menopause E2 deficiency → osteoporosis + ↑CVD; OCP suppresses HPG axis; HRT restores systemic effects of E2."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Testosterone (Leydig cells → CYP11A1/CYP17A1/17β-HSD3; ~7 mg/day) binds AR → anabolic (muscle, erythropoiesis) + androgenic (virilisation, spermatogenesis); 5α-reductase → DHT (prostate/skin/scalp); aromatase → E2 (bone, HPG feedback); PCOS: excess theca-cell testosterone via LH."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Hyperinsulinaemia in PCOS sensitises ovarian LH receptors → ↑theca androgen synthesis → ↑testosterone → anovulation + hirsutism; insulin directly stimulates IGF-1R on ovary; metformin reduces hepatic insulin resistance → ↓insulin → ↓androgen production → improved ovulation rates."
 ---
 
 # Reproductive System
@@ -148,10 +157,13 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 
 ## Connections
 
-- **Modulates:** [immune-system](../../07-system/immune-system/README.md) — sex steroids profoundly regulate immune cell populations; oestrogen promotes B-cell survival and Th1/Th17 dominance (autoimmunity); testosterone is broadly immunosuppressive
-- **Modulates:** [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — oestrogen is atheroprotective; menopause → ↑CVD risk; testosterone drives erythropoiesis and modulates RAAS; sex hormone fluctuation across the menstrual cycle alters BP, platelet activity, and endothelial function
-- **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — sex hormones act throughout the hypothalamus, limbic system, and cortex; E2 neuroprotects and stabilises mood; vasomotor symptoms in menopause reflect hypothalamic thermoregulatory disruption; testosterone promotes motivation and dopaminergic tone
-- **Modulates:** [liver](../../06-organ/liver/README.md) — liver metabolises sex hormones (CYP3A4/CYP3A5; glucuronidation; sulfation); hepatocytes are the source of SHBG, IGF-1, and angiotensinogen — all modulated by sex steroids
+- `modulates` → **[Immune System](../immune-system/README.md)** — sex steroids profoundly regulate immune cell populations; oestrogen promotes B-cell survival and Th1/Th17 dominance (autoimmunity); testosterone is broadly immunosuppressive
+- `modulates` → **[Cardiovascular System](../cardiovascular-system/README.md)** — oestrogen is atheroprotective; menopause → ↑CVD risk; testosterone drives erythropoiesis and modulates RAAS; sex hormone fluctuation across the menstrual cycle alters BP, platelet activity, and endothelial function
+- `modulates` → **[Nervous System](../nervous-system/README.md)** — sex hormones act throughout the hypothalamus, limbic system, and cortex; E2 neuroprotects and stabilises mood; vasomotor symptoms in menopause reflect hypothalamic thermoregulatory disruption; testosterone promotes motivation and dopaminergic tone
+- `modulates` → **[Liver](../../06-organ/liver/README.md)** — liver metabolises sex hormones (CYP3A4/CYP3A5; glucuronidation; sulfation); hepatocytes are the source of SHBG, IGF-1, and angiotensinogen — all modulated by sex steroids
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Oestradiol (E2; CYP19A1 aromatase from ovarian granulosa cells) binds ERα/ERβ → bone protection (↑OPG→↓RANKL), cardioprotection (↑eNOS/HDL-C), CNS neuroprotection; menopause E2 deficiency → osteoporosis + ↑CVD; OCP suppresses HPG axis; HRT restores systemic effects of E2.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone (Leydig cells → CYP11A1/CYP17A1/17β-HSD3; ~7 mg/day) binds AR → anabolic (muscle, erythropoiesis) + androgenic (virilisation, spermatogenesis); 5α-reductase → DHT (prostate/skin/scalp); aromatase → E2 (bone, HPG feedback); PCOS: excess theca-cell testosterone via LH.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hyperinsulinaemia in PCOS sensitises ovarian LH receptors → ↑theca androgen synthesis → ↑testosterone → anovulation + hirsutism; insulin directly stimulates IGF-1R on ovary; metformin reduces hepatic insulin resistance → ↓insulin → ↓androgen production → improved ovulation rates.
 
 ## Pathology
 
@@ -221,6 +233,10 @@ Most common sex chromosome aneuploidy (~1:500–1:600 males). Mechanism: meiotic
 - [musculoskeletal-system](../../07-system/musculoskeletal-system/README.md) — oestrogen and testosterone in bone remodelling; sex differences in BMD and fracture risk
 - [insulin](../../03-molecular/insulin/README.md) — insulin resistance in PCOS; androgen-insulin crosstalk
 - [cortisol](../../03-molecular/cortisol/README.md) — HPA-HPG axis crosstalk; chronic stress → GnRH suppression → amenorrhoea
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021.
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022.

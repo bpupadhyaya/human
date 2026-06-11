@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/atm
     relation: connects-to
     note: "ATM deletion/mutation in ~40-50% of MCL (del(11q22.3)) → impaired DNA double-strand break repair → genomic instability; ATM-deficient MCL is more aggressive and shows ibrutinib resistance; PARP inhibitors + BTK inhibitors studied in ATM-mutant MCL; biallelic ATM loss in ~15%."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "BCR-BTK-NF-κB axis is constitutively active in MCL; ibrutinib (FDA 2013 R/R MCL: ORR 68%), zanubrutinib (FDA 2019: ORR 83%), acalabrutinib (FDA 2017: ORR 81%) are approved; BTK C481S (acquired ibrutinib resistance) → pirtobrutinib (non-covalent BTK inhibitor, FDA 2023: ORR 57%)."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB constitutively active in MCL via BCR-BTK → BCL-2, cyclin D1, XIAP → apoptosis resistance and proliferation; bortezomib (↑IκB → ↓NF-κB) active in MCL; BTK inhibitors block NF-κB upstream; NF-κB target MALT1 (CBM complex) active in MCL and under therapeutic investigation."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "MCL and CLL are both CD5+ B-cell lymphomas with frequent BM/blood involvement; key distinctions: MCL (cyclin D1+, SOX11+, CD23−, t(11;14)) vs CLL (CD23+, ZAP70+, no cyclin D1); both respond to BTK inhibitors; MCL prognosis worse; different IGHV mutation significance or histology."
 ---
 
 # Mantle Cell Lymphoma
@@ -161,6 +170,13 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 overexpression in MCL cells → apoptosis resistance; venetoclax (BCL-2 inhibitor) ORR ~75% in R/R MCL (AIM trial: ibrutinib+venetoclax); combined ibrutinib+venetoclax achieves complete MRD negativity in ~50% of R/R MCL; BCL-2 inhibition + BTK inhibition is synergistic.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation in blastoid/pleomorphic MCL → most aggressive MCL subtype (TP53 mutations ~80%); TP53-mutant MCL → ibrutinib resistance and dismal prognosis; strategies include venetoclax+BTK, CAR-T, allo-SCT; TP53 del(17p) is the highest-risk molecular feature in MCL.
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — ATM deletion/mutation in ~40-50% of MCL (del(11q22.3)) → impaired DNA double-strand break repair → genomic instability; ATM-deficient MCL is more aggressive and shows ibrutinib resistance; PARP inhibitors + BTK inhibitors studied in ATM-mutant MCL; biallelic ATM loss in ~15%.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BCR-BTK-NF-κB axis is constitutively active in MCL; ibrutinib (FDA 2013 R/R MCL: ORR 68%), zanubrutinib (FDA 2019: ORR 83%), acalabrutinib (FDA 2017: ORR 81%) are approved; BTK C481S (acquired ibrutinib resistance) → pirtobrutinib (non-covalent BTK inhibitor, FDA 2023: ORR 57%).
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB constitutively active in MCL via BCR-BTK → BCL-2, cyclin D1, XIAP → apoptosis resistance and proliferation; bortezomib (↑IκB → ↓NF-κB) active in MCL; BTK inhibitors block NF-κB upstream; NF-κB target MALT1 (CBM complex) active in MCL and under therapeutic investigation.
+- `connects-to` → **[CLL](../cll/README.md)** — MCL and CLL are both CD5+ B-cell lymphomas with frequent BM/blood involvement; key distinctions: MCL (cyclin D1+, SOX11+, CD23−, t(11;14)) vs CLL (CD23+, ZAP70+, no cyclin D1); both respond to BTK inhibitors; MCL prognosis worse; different IGHV mutation significance or histology.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^wang-2013-ibrutinib-mcl]: Wang ML, Rule S, Martin P, et al. Targeting BTK with ibrutinib in relapsed or refractory mantle-cell lymphoma. *N Engl J Med.* 2013;369(6):507-516. [doi:10.1056/NEJMoa1306220](https://doi.org/10.1056/NEJMoa1306220) · [PubMed 23782157](https://pubmed.ncbi.nlm.nih.gov/23782157/)
 [^wang-2020-brexu-zuma2]: Wang M, Munoz J, Goy A, et al. KTE-X19 CAR T-cell therapy in relapsed or refractory mantle-cell lymphoma. *N Engl J Med.* 2020;382(14):1331-1342. [doi:10.1056/NEJMoa1914347](https://doi.org/10.1056/NEJMoa1914347) · [PubMed 32242358](https://pubmed.ncbi.nlm.nih.gov/32242358/)
