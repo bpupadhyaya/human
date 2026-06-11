@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "PI3K pathway mutations (PIK3CA, PTEN, AKT1) in ~50% of clear cell and endometrioid ovarian cancer → mTOR activation; everolimus + letrozole studied in ER+ endometrioid ovarian cancer; mTOR inhibitors + PARP inhibitors studied to overcome PARP resistance via AKT pathway."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Hereditary breast and ovarian cancer (germline BRCA1/2) causes ~15-20% of HGSOC and raises lifetime ovarian-cancer risk to ~40-60% (BRCA1) or ~10-30% (BRCA2); risk-reducing salpingo-oophorectomy is the best prevention, and BRCA status guides PARP-inhibitor maintenance."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation is near-universal in high-grade serous ovarian carcinoma (~96%) and is the defining, initiating event — a TP53 signature appears in Fallopian-tube secretory cells (STIC lesions) decades before invasion; its ubiquity is why HGSOC lacks a single targetable hotspot."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "BRCA2 loss (germline or somatic in ~8% of HGSOC) cripples homologous-recombination repair, creating the synthetic-lethal vulnerability PARP inhibitors exploit; BRCA2-mutant tumors are especially platinum-sensitive with the best maintenance outcomes."
 ---
 
 # Ovarian Cancer
@@ -155,6 +164,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pembrolizumab active in MSI-H/dMMR ovarian cancer (~5%); atezolizumab + bevacizumab + chemotherapy (IMagyn050) failed to show OS benefit vs. bevacizumab + chemotherapy; PD-L1 expression enriched in clear cell and mucinous ovarian cancer; mirvetuximab-soravtansine + pembro under study.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bevacizumab (anti-VEGF) + carboplatin/paclitaxel → maintenance bevacizumab (GOG-0218, ICON7 trials) → PFS improvement ~4 months; bevacizumab approved for frontline and platinum-resistant ovarian cancer; lenvatinib+pembrolizumab active in platinum-resistant ovarian cancer.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PI3K pathway mutations (PIK3CA, PTEN, AKT1) in ~50% of clear cell and endometrioid ovarian cancer → mTOR activation; everolimus + letrozole studied in ER+ endometrioid ovarian cancer; mTOR inhibitors + PARP inhibitors studied to overcome PARP resistance via AKT pathway.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Hereditary breast and ovarian cancer (germline BRCA1/2) causes ~15-20% of HGSOC and raises lifetime ovarian-cancer risk to ~40-60% (BRCA1) or ~10-30% (BRCA2); risk-reducing salpingo-oophorectomy is the best prevention, and BRCA status guides PARP-inhibitor maintenance.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is near-universal in high-grade serous ovarian carcinoma (~96%) and is the defining, initiating event — a TP53 signature appears in Fallopian-tube secretory cells (STIC lesions) decades before invasion; its ubiquity is why HGSOC lacks a single targetable hotspot.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 loss (germline or somatic in ~8% of HGSOC) cripples homologous-recombination repair, creating the synthetic-lethal vulnerability PARP inhibitors exploit; BRCA2-mutant tumors are especially platinum-sensitive with the best maintenance outcomes.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

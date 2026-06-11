@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "MYD88 L265P drives IL-6 and IL-10 autocrine in PCNSL; vitreous IL-10 >10 pg/mL and IL-10:IL-6 ratio >1 are pathognomonic for PCNSL/vitreoretinal lymphoma; IL-10 drives JAK1-STAT3 survival in tumor cells; CSF IL-10 elevation correlates with PCNSL disease burden and response."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "PCNSL is non-Hodgkin lymphoma confined to the CNS (periventricular, basal ganglia, corpus callosum) as homogeneously enhancing masses with restricted diffusion; the blood-brain barrier blocks most lymphoma drugs, making BBB-penetrant high-dose methotrexate the backbone."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "PCNSL is an aggressive B-cell lymphoma (ABC-DLBCL): CD20+ neoplastic B cells with MYD88 L265P and CD79B mutations driving NF-κB; they home to the CNS via CXCR4/CXCR5 and evade immunity by downregulating MHC — rituximab penetrates the BBB poorly, limiting anti-CD20 benefit."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "In immunosuppressed patients (HIV with CD4 <50, transplant), PCNSL is typically EBV-driven and EBER-positive — a distinct entity from the EBV-negative, MYD88-mutant immunocompetent form; restoring immunity with HAART can induce regression of EBV-associated CNS lymphoma."
 ---
 
 # Primary CNS Lymphoma
@@ -153,6 +162,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PCNSL tumor cells express PD-L1 driven by MYD88-NF-κB and JAK-STAT3 signaling; CNS immune privilege maintains low T-cell surveillance; nivolumab and pembrolizumab show modest activity in R/R PCNSL (ORR ~35%); PD-L1 blockade combined with HDMTX is under investigation.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK is the downstream effector of BCR and MYD88 signaling in PCNSL; ibrutinib (BTK covalent inhibitor) achieves ~50-75% of plasma levels in CSF and shows ORR ~50-60% in R/R PCNSL; ibrutinib+MTX+rituximab (TEDDi-R) studied as frontline; zanubrutinib also CNS-penetrant.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — MYD88 L265P drives IL-6 and IL-10 autocrine in PCNSL; vitreous IL-10 >10 pg/mL and IL-10:IL-6 ratio >1 are pathognomonic for PCNSL/vitreoretinal lymphoma; IL-10 drives JAK1-STAT3 survival in tumor cells; CSF IL-10 elevation correlates with PCNSL disease burden and response.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — PCNSL is non-Hodgkin lymphoma confined to the CNS (periventricular, basal ganglia, corpus callosum) as homogeneously enhancing masses with restricted diffusion; the blood-brain barrier blocks most lymphoma drugs, making BBB-penetrant high-dose methotrexate the backbone.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — PCNSL is an aggressive B-cell lymphoma (ABC-DLBCL): CD20+ neoplastic B cells with MYD88 L265P and CD79B mutations driving NF-κB; they home to the CNS via CXCR4/CXCR5 and evade immunity by downregulating MHC — rituximab penetrates the BBB poorly, limiting anti-CD20 benefit.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — In immunosuppressed patients (HIV with CD4 <50, transplant), PCNSL is typically EBV-driven and EBER-positive — a distinct entity from the EBV-negative, MYD88-mutant immunocompetent form; restoring immunity with HAART can induce regression of EBV-associated CNS lymphoma.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
