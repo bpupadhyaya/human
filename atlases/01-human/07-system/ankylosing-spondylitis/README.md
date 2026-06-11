@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/psoriatic-arthritis
     relation: connects-to
     note: "Axial PsA and AS share HLA-B27, sacroiliitis imaging, and IL-17A/TNF-α pathobiology; distinguished by concurrent psoriasis, DIP involvement, and asymmetric periostitis; anti-IL-17A and anti-TNF are effective in both; IL-23 inhibitors diverge in efficacy."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Acute anterior uveitis is the most common extra-articular manifestation of ankylosing spondylitis, affecting 20-30% over a lifetime and tracking with HLA-B27; it presents as a painful, red, photophobic eye that recurs and alternates between eyes."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Ankylosing spondylitis and IBD are two faces of the gut-joint axis: ~60% of AS patients have subclinical gut inflammation and 5-10% develop overt Crohn's or colitis, reflecting shared IL-23R genetics; anti-TNF treats both, but IL-17 blockade can flare IBD."
+  - target: 01-human/03-molecular/il-23
+    relation: connects-to
+    note: "HLA-B27 misfolding in the ER triggers an unfolded-protein response that ramps up IL-23, driving entheseal ILC3 and Th17 cells to pour out IL-17A; paradoxically, IL-23 blockade fails in AS despite this upstream role — likely because ILC3s make IL-17A independently of IL-23."
 ---
 
 # Ankylosing Spondylitis
@@ -160,6 +169,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Entheseal IL-17A + TNF-α → RANKL on stromal cells → osteoclast activation → bone erosion at sacroiliac joints and vertebral corners; new bone formation (syndesmophytes) follows via WNT pathway; denosumab (anti-RANKL) reduces erosion but does not halt new bone formation.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α drives entheseal and synovial inflammation in AS; anti-TNF biologics (adalimumab, etanercept, infliximab, certolizumab, golimumab) achieve ASAS40 ~50-60% in active AS; TNF inhibition reduces MRI inflammation but does not halt radiographic progression (new bone).
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Axial PsA and AS share HLA-B27, sacroiliitis imaging, and IL-17A/TNF-α pathobiology; distinguished by concurrent psoriasis, DIP involvement, and asymmetric periostitis; anti-IL-17A and anti-TNF are effective in both; IL-23 inhibitors diverge in efficacy.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Acute anterior uveitis is the most common extra-articular manifestation of ankylosing spondylitis, affecting 20-30% over a lifetime and tracking with HLA-B27; it presents as a painful, red, photophobic eye that recurs and alternates between eyes.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Ankylosing spondylitis and IBD are two faces of the gut-joint axis: ~60% of AS patients have subclinical gut inflammation and 5-10% develop overt Crohn's or colitis, reflecting shared IL-23R genetics; anti-TNF treats both, but IL-17 blockade can flare IBD.
+- `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — HLA-B27 misfolding in the ER triggers an unfolded-protein response that ramps up IL-23, driving entheseal ILC3 and Th17 cells to pour out IL-17A; paradoxically, IL-23 blockade fails in AS despite this upstream role — likely because ILC3s make IL-17A independently of IL-23.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

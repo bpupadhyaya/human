@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Tacrolimus (calcineurin inhibitor) is steroid-sparing DM therapy; particularly effective in anti-MDA5+ DM-ILD where rapid IFN-driven fibrosis requires aggressive immunosuppression; calcineurin·NFAT pathway drives CD4+/Th-mediated muscle inflammation."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Interstitial lung disease complicates 20-40% of dermatomyositis: anti-MDA5+ DM can cause rapidly progressive ILD reaching respiratory failure within weeks (high ferritin flags the risk), demanding aggressive immunosuppression — tacrolimus triple therapy or JAK inhibitors."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Dermatomyositis is a microangiopathy: complement MAC on muscle capillaries causes capillary dropout → ischemia at fascicle edges, producing the pathognomonic perifascicular atrophy; this complement mechanism distinguishes DM from the T-cell muscle injury of polymyositis."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Dermatomyositis and lupus are both type I interferonopathies with photosensitive rashes, and their cutaneous signs are contrasted: Gottron's papules sit ON the knuckles whereas lupus spares them; both are now treated with anifrolumab, reflecting the shared interferon axis."
 ---
 
 # Dermatomyositis
@@ -184,6 +193,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Baricitinib (JAK1/2) showed efficacy in refractory DM (TRiMM-2 Phase 3); tofacitinib (JAK1/3) used for anti-MDA5-associated rapidly progressive ILD; ruxolitinib in refractory MDA5+ DM-ILD; JAK inhibition reduces type I IFN-driven ISG expression.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — DM features pathognomonic skin findings: heliotrope rash (periorbital), Gottron's papules (dorsal MCP/PIP), V-sign, shawl sign, periungual telangiectasias, and mechanic's hands in antisynthetase syndrome.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Tacrolimus (calcineurin inhibitor) is steroid-sparing DM therapy; particularly effective in anti-MDA5+ DM-ILD requiring aggressive immunosuppression; calcineurin·NFAT pathway drives CD4+/Th-mediated muscle inflammation.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Interstitial lung disease complicates 20-40% of dermatomyositis: anti-MDA5+ DM can cause rapidly progressive ILD reaching respiratory failure within weeks (high ferritin flags the risk), demanding aggressive immunosuppression — tacrolimus triple therapy or JAK inhibitors.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Dermatomyositis is a microangiopathy: complement MAC on muscle capillaries causes capillary dropout → ischemia at fascicle edges, producing the pathognomonic perifascicular atrophy; this complement mechanism distinguishes DM from the T-cell muscle injury of polymyositis.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Dermatomyositis and lupus are both type I interferonopathies with photosensitive rashes, and their cutaneous signs are contrasted: Gottron's papules sit ON the knuckles whereas lupus spares them; both are now treated with anifrolumab, reflecting the shared interferon axis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
