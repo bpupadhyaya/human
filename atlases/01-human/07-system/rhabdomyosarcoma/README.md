@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/met
     relation: connects-to
     note: "PAX3-FOXO1 transcriptionally activates MET (HGF receptor) → invasion in alveolar RMS; MET overexpression in >50% ARMS; crizotinib active in MET-expressing pediatric solid tumors; MET amplification is an additional adverse prognostic factor in fusion-positive ARMS."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Rhabdomyosarcoma — especially embryonal, in young children — is one of the sentinel soft-tissue sarcomas of Li-Fraumeni syndrome; germline TP53 should be considered in any child with RMS under 3 or with a suggestive family history, as it also signals radiation-sparing caution."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Embryonal RMS is driven by an IGF2/IGF1R autocrine loop: 11p15.5 loss of imprinting unleashes biallelic IGF2, which signals through IGF1R → PI3K-AKT-mTOR for proliferation and survival; IGF1R antibodies have been tried but show limited single-agent activity."
+  - target: 01-human/03-molecular/dicer1
+    relation: connects-to
+    note: "DICER1 syndrome predisposes to embryonal rhabdomyosarcoma, classically of the uterine cervix and in pleuropulmonary blastoma–associated tumors; biallelic DICER1 disrupts miRNA processing, so a young woman's cervical botryoid RMS should prompt germline DICER1 testing."
 ---
 
 # Rhabdomyosarcoma
@@ -167,6 +176,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — PAX3-FOXO1 drives MYCN expression in ARMS; MYCN amplification in fusion-negative RMS → poor prognosis; MYC amplification in pleomorphic RMS; BET inhibitors suppress MYC/MYCN in RMS preclinically; CDK4 is also a downstream PAX3-FOXO1 target.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT is constitutively active in most RMS subtypes via PTEN deletion (~10%), PIK3CA mutation, or IGF2 overexpression; AKT inactivates FOXO1 → removes cell cycle arrest; CDK4/6 inhibitors and PI3K inhibitors are explored in combination for RMS.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — PAX3-FOXO1 transcriptionally activates MET (HGF receptor) → invasion in alveolar RMS; MET overexpression in >50% ARMS; crizotinib active in MET-expressing pediatric solid tumors; MET amplification is an additional adverse prognostic factor in fusion-positive ARMS.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Rhabdomyosarcoma — especially embryonal, in young children — is one of the sentinel soft-tissue sarcomas of Li-Fraumeni syndrome; germline TP53 should be considered in any child with RMS under 3 or with a suggestive family history, as it also signals radiation-sparing caution.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Embryonal RMS is driven by an IGF2/IGF1R autocrine loop: 11p15.5 loss of imprinting unleashes biallelic IGF2, which signals through IGF1R → PI3K-AKT-mTOR for proliferation and survival; IGF1R antibodies have been tried but show limited single-agent activity.
+- `connects-to` → **[DICER1](../../03-molecular/dicer1/README.md)** — DICER1 syndrome predisposes to embryonal rhabdomyosarcoma, classically of the uterine cervix and in pleuropulmonary blastoma–associated tumors; biallelic DICER1 disrupts miRNA processing, so a young woman's cervical botryoid RMS should prompt germline DICER1 testing.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

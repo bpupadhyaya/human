@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/werner-syndrome
     relation: connects-to
     note: "Rothmund-Thomson syndrome (RECQL4 LOF) and Werner syndrome (WRN LOF) are both RecQ helicase disorders: Rothmund-Thomson presents in infancy with poikiloderma and osteosarcoma risk; Werner syndrome presents in the 3rd decade with progeroid features, sarcomas, and atherosclerosis."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Rothmund-Thomson type II carries a ~30% lifetime osteosarcoma risk peaking at age 11-14; RECQL4 replication stress accelerates the same RB1 and TP53 loss that causes sporadic OS, so whole-body MRI surveillance runs through skeletal maturity."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Poikiloderma is the defining feature of Rothmund-Thomson, beginning at 3-6 months as cheek erythema then evolving into mottled pigmentation, telangiectasia, and atrophy; it is photo-exacerbated (sun protection) but, unlike xeroderma pigmentosum, does not cause skin cancer."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "RECQL4 loss inflicts replication stress on the rapidly dividing osteoblast precursors of the adolescent growth plate → double-strand breaks → biallelic RB1 and TP53 inactivation → osteosarcoma, the same transformation as sporadic OS but reached one to two decades early."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -176,6 +185,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[WRN](../../03-molecular/wrn/README.md)** — RECQL4 and WRN are both RecQ helicases with distinct mechanisms: WRN has exonuclease activity and resolves G-quadruplex structures; RECQL4 initiates DNA replication via CMG complex; WRN LOF → Werner syndrome (progeroid, sarcomas); RECQL4 LOF → Rothmund-Thomson (osteosarcoma).
 - `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — RECQL4 and BLM are both RecQ helicases: BLM dissolves Holliday junctions and suppresses crossover (SCE ~10x elevated in BLM LOF); RECQL4 initiates replication; both cause cancer predisposition — BLM LOF pan-cancer, RECQL4 LOF predominantly osteosarcoma.
 - `connects-to` → **[Werner Syndrome](../../07-system/werner-syndrome/README.md)** — Rothmund-Thomson syndrome (RECQL4 LOF) and Werner syndrome (WRN LOF) are both RecQ helicase disorders: Rothmund-Thomson presents in infancy with poikiloderma and osteosarcoma risk; Werner syndrome presents in the 3rd decade with progeroid features, sarcomas, and atherosclerosis.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Rothmund-Thomson type II carries a ~30% lifetime osteosarcoma risk peaking at age 11-14; RECQL4 replication stress accelerates the same RB1 and TP53 loss that causes sporadic OS, so whole-body MRI surveillance runs through skeletal maturity.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Poikiloderma is the defining feature of Rothmund-Thomson, beginning at 3-6 months as cheek erythema then evolving into mottled pigmentation, telangiectasia, and atrophy; it is photo-exacerbated (sun protection) but, unlike xeroderma pigmentosum, does not cause skin cancer.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — RECQL4 loss inflicts replication stress on the rapidly dividing osteoblast precursors of the adolescent growth plate → double-strand breaks → biallelic RB1 and TP53 inactivation → osteosarcoma, the same transformation as sporadic OS but reached one to two decades early.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
