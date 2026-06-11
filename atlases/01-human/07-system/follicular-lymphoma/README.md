@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "CREBBP mutations in ~60% and EP300 mutations in ~15% of FL → loss of HAT activity → decreased H3K18/K27 acetylation; CREBBP/EZH2 co-mutations in ~30% of FL → dual epigenetic reprogramming; EZH2 silences TNFAIP3/A20 (NF-κB inhibitor) → enhanced NF-κB in FL cells."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "EZH2 Y641F/N gain-of-function in ~25% of FL → H3K27me3 → silences tumor suppressor and differentiation genes; tazemetostat (EZH2i) approved for R/R EZH2-mutant FL (ORR 69%) and EZH2-WT FL (ORR 35%); CREBBP co-mutation in ~30% creates dual epigenetic dysregulation."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Histologic transformation from FL to DLBCL occurs in ~30% at 10 years; requires MYC rearrangement, TP53 mutation, or CDKN2A loss on top of BCL-2-IGH; transformed FL is treated as de novo DLBCL; CAR-T (axi-cel) or auto-SCT preferred after induction."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "FL tumor microenvironment is immune-rich (Tfh, Tregs, FDC); mosunetuzumab (CD20×CD3 bispecific, approved R/R FL) redirects T-cells to kill FL B-cells; PD-1 blockade + rituximab has modest single-agent activity; lenalidomide → NK-cell ADCC and immune reprogramming in R/R FL."
 ---
 
 # Follicular Lymphoma
@@ -165,6 +174,12 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20 mAb) is the backbone of FL therapy; R-CHOP and R-bendamustine are first-line options; obinutuzumab (glycoengineered anti-CD20) + chemotherapy (GALLIUM trial) improved PFS vs. rituximab; anti-CD20 maintenance improves PFS after induction.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — Histologic transformation of FL to DLBCL occurs in ~30% at 10 years; POD24 (progression within 24 months) is associated with MYC acquisition and poor prognosis; double-hit lymphoma (MYC+BCL-2 rearrangement) arising from FL is treated as aggressive lymphoma.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — CREBBP mutations in ~60% and EP300 mutations in ~15% of FL → loss of HAT activity → decreased H3K18/K27 acetylation; CREBBP/EZH2 co-mutations in ~30% of FL → dual epigenetic reprogramming; EZH2 silences TNFAIP3/A20 (NF-κB inhibitor) → enhanced NF-κB in FL cells.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 Y641F/N gain-of-function in ~25% of FL → H3K27me3 → silences tumor suppressor and differentiation genes; tazemetostat (EZH2i) approved for R/R EZH2-mutant FL (ORR 69%) and EZH2-WT FL (ORR 35%); CREBBP co-mutation in ~30% creates dual epigenetic dysregulation.
+- `connects-to` → **[DLBCL](../dlbcl/README.md)** — Histologic transformation from FL to DLBCL occurs in ~30% at 10 years; requires MYC rearrangement, TP53 mutation, or CDKN2A loss on top of BCL-2-IGH; transformed FL is treated as de novo DLBCL; CAR-T (axi-cel) or auto-SCT preferred after induction.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — FL tumor microenvironment is immune-rich (Tfh, Tregs, FDC); mosunetuzumab (CD20×CD3 bispecific, approved R/R FL) redirects T-cells to kill FL B-cells; PD-1 blockade + rituximab has modest single-agent activity; lenalidomide → NK-cell ADCC and immune reprogramming in R/R FL.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^marcus-2017-gallium]: Marcus R, Davies A, Ando K, et al. Obinutuzumab for the first-line treatment of follicular lymphoma. *N Engl J Med.* 2017;377(14):1331-1344. [doi:10.1056/NEJMoa1614598](https://doi.org/10.1056/NEJMoa1614598) · [PubMed 28976863](https://pubmed.ncbi.nlm.nih.gov/28976863/)
 [^morschhauser-2020-tazemetostat]: Morschhauser F, Tilly H, Chaidos A, et al. Tazemetostat for patients with relapsed or refractory follicular lymphoma (E7438-G-003). *Lancet Oncol.* 2020;21(11):1433-1442. [doi:10.1016/S1470-2045(20)30441-1](https://doi.org/10.1016/S1470-2045(20)30441-1) · [PubMed 33035457](https://pubmed.ncbi.nlm.nih.gov/33035457/)

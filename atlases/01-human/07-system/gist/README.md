@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/src-kinase
     relation: connects-to
     note: "SRC kinase is activated downstream of KIT Tyr568/570 → FAK-SRC complex → invasion in GIST; SRC mediates KIT-independent survival in imatinib-resistant GIST; dasatinib (KIT+SRC) studied in imatinib-resistant GIST; SRC contributes to resistance to selective KIT inhibitors."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "KIT gain-of-function mutations in ~85% of GIST (exon 11 ~70%, exon 9 ~10%); constitutive KIT → PI3K-AKT-mTOR and RAS-ERK → ICC immortalization; imatinib achieves ORR ~80% in exon 11 GIST; dose escalation to 800 mg for exon 9; GIST is the paradigm of KIT-targeted therapy."
+  - target: 01-human/03-molecular/nf1
+    relation: connects-to
+    note: "NF1-associated GIST (~2%): germline NF1 LOF → constitutive RAS-GTP → RAS-MAPK-driven GIST; KIT/PDGFRA-WT; small intestinal, multifocal, spindle cell; imatinib ineffective; MEK inhibitors (trametinib) under investigation; distinct from KIT-mutant and SDH-deficient GIST subtypes."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "BRAF V600E mutations in ~1% of KIT/PDGFRA-WT GIST; constitutive BRAF → MAPK → GIST proliferation; vemurafenib/dabrafenib active in BRAF V600E GIST; imatinib ineffective; molecular testing distinguishes BRAF V600E from SDH-deficient and NF1 WT-GIST requiring distinct approaches."
 ---
 
 # GIST
@@ -170,6 +179,12 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Sunitinib (VEGFR1/2/3+KIT+PDGFR inhibitor) approved second-line for GIST after imatinib failure (SU11248 trial: PFS 27.3 vs. 6.4 weeks vs. placebo); regorafenib (VEGFR1-3+PDGFR+KIT) approved third-line (GRID trial); ripretinib (pan-KIT/PDGFRA) approved fourth-line.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — KIT-driven PI3K-AKT-mTOR pathway mediates GIST cell survival; KIT exon 17 resistance mutations → secondary resistance to imatinib; PI3K/mTOR inhibitors studied in combination with KIT inhibitors for refractory GIST; mTOR is activated independently of KIT via RAS feedback loops.
 - `connects-to` → **[SRC kinase](../../03-molecular/src-kinase/README.md)** — SRC kinase is activated downstream of KIT Tyr568/570 → FAK-SRC complex → invasion in GIST; SRC mediates KIT-independent survival in imatinib-resistant GIST; dasatinib (KIT+SRC inhibitor) studied in imatinib-resistant GIST; SRC contributes to resistance to selective KIT inhibitors.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT gain-of-function mutations in ~85% of GIST (exon 11 ~70%, exon 9 ~10%); constitutive KIT → PI3K-AKT-mTOR and RAS-ERK → ICC immortalization; imatinib achieves ORR ~80% in exon 11 GIST; dose escalation to 800 mg for exon 9; GIST is the paradigm of KIT-targeted therapy.
+- `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1-associated GIST (~2%): germline NF1 LOF → constitutive RAS-GTP → RAS-MAPK-driven GIST; KIT/PDGFRA-WT; small intestinal, multifocal, spindle cell; imatinib ineffective; MEK inhibitors (trametinib) under investigation; distinct from KIT-mutant and SDH-deficient GIST subtypes.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E mutations in ~1% of KIT/PDGFRA-WT GIST; constitutive BRAF → MAPK → GIST proliferation; vemurafenib/dabrafenib active in BRAF V600E GIST; imatinib ineffective; molecular testing distinguishes BRAF V600E from SDH-deficient and NF1 WT-GIST requiring distinct approaches.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^demetri-2002-imatinib-gist]: Demetri GD, von Mehren M, Blanke CD, et al. Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors. *N Engl J Med.* 2002;347(7):472-480. [doi:10.1056/NEJMoa020461](https://doi.org/10.1056/NEJMoa020461) · [PubMed 12181401](https://pubmed.ncbi.nlm.nih.gov/12181401/)
 [^joensuu-2012-ssg18]: Joensuu H, Eriksson M, Sundby Hall K, et al. One vs three years of adjuvant imatinib for operable gastrointestinal stromal tumor: a randomized trial. *JAMA.* 2012;307(12):1265-1272. [doi:10.1001/jama.2012.347](https://doi.org/10.1001/jama.2012.347) · [PubMed 22453568](https://pubmed.ncbi.nlm.nih.gov/22453568/)
