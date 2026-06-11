@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "TERT promoter mutations in ~85% of IDH-wt GBM and ~90% of oligodendrogliomas → telomere maintenance → replicative immortality; TERT promoter mutation is a diagnostic criterion for IDH-wt GBM in WHO 2021; G-CIMP-positive IDH-mutant gliomas have TERT mutations via separate pathway."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "IDH-wildtype GBM is defined by IDH-WT; IDH-mutant gliomas (grades 2-4) are distinct entities with better prognosis; vorasidenib (IDH1/2 inhibitor) approved 2024 for grade 2 IDH-mutant glioma (INDIGO trial: 27.7 vs 11.1 months PFS); IDH1 IHC distinguishes IDH-mutant from wt GBM."
+  - target: 01-human/03-molecular/nf1
+    relation: connects-to
+    note: "NF1 mutations in ~15% of GBM define the mesenchymal subtype; NF1 LOF → constitutive RAS-GTP → RAF-MEK-ERK → GBM invasion; NF1-mutant GBM has highest macrophage/microglia infiltration; MEK inhibitors (selumetinib, cobimetinib) under investigation in NF1-mutant recurrent GBM."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "GBM is highly angiogenic; hypoxia → HIF-1α → VEGF → neovascularization; bevacizumab (anti-VEGF) approved for recurrent GBM (2009): improves PFS and reduces edema/steroid use but no OS benefit; bevacizumab+lomustine no better than lomustine alone (EORTC 26101)."
 ---
 
 # Glioblastoma
@@ -169,6 +178,13 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN deletion in ~30-40% of GBM → unrestrained PI3K-AKT-mTOR → proliferation and survival; PTEN loss co-occurs with EGFRvIII → redundant RTK-independent PI3K activation; PTEN loss is a major driver of EGFR-targeted therapy resistance in GBM; PI3K inhibitors under clinical investigation.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — GBM is among the most angiogenic solid tumors; intratumoral hypoxia → HIF-1alpha → VEGF, PDGF, and SDF-1 → neovascularization and invasion; bevacizumab (anti-VEGF) improves PFS but not OS in newly diagnosed or recurrent GBM; HIF-1alpha also drives GBM stem cell self-renewal.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations (C228T, C250T) in ~85% of IDH-wt GBM and ~90% of oligodendrogliomas → telomere maintenance → replicative immortality; TERT promoter mutation is a diagnostic criterion for IDH-wt GBM in WHO 2021; G-CIMP-positive IDH-mutant gliomas have TERT mutations via separate pathway.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH-wildtype GBM is defined by IDH-WT; IDH-mutant gliomas (grades 2-4) are distinct entities with better prognosis; vorasidenib (IDH1/2 inhibitor) approved 2024 for grade 2 IDH-mutant glioma (INDIGO trial: 27.7 vs 11.1 months PFS); IDH1 IHC distinguishes IDH-mutant from wt GBM.
+- `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 mutations in ~15% of GBM define the mesenchymal subtype; NF1 LOF → constitutive RAS-GTP → RAF-MEK-ERK → GBM invasion; NF1-mutant GBM has highest macrophage/microglia infiltration; MEK inhibitors (selumetinib, cobimetinib) under investigation in NF1-mutant recurrent GBM.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GBM is highly angiogenic; hypoxia → HIF-1α → VEGF → neovascularization; bevacizumab (anti-VEGF) approved for recurrent GBM (2009): improves PFS and reduces edema/steroid use but no OS benefit; bevacizumab+lomustine no better than lomustine alone (EORTC 26101).
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stupp-2005-temozolomide]: Stupp R, Mason WP, van den Bent MJ, et al. Radiotherapy plus concomitant and adjuvant temozolomide for glioblastoma. *N Engl J Med.* 2005;352(10):987-996. [doi:10.1056/NEJMoa043330](https://doi.org/10.1056/NEJMoa043330) · [PubMed 15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/)
 [^chinot-2014-bevacizumab]: Chinot OL, Wick W, Mason W, et al. Bevacizumab plus radiotherapy-temozolomide for newly diagnosed glioblastoma. *N Engl J Med.* 2014;370(8):709-722. [doi:10.1056/NEJMoa1308345](https://doi.org/10.1056/NEJMoa1308345) · [PubMed 24552318](https://pubmed.ncbi.nlm.nih.gov/24552318/)

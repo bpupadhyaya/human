@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "EWSR1-FLI1 activates IGF1R/RAS → ERK1/2 → Ewing survival and NKX2-2 transcription; RAS/MAPK pathway mutations (KRAS, NRAS, NF1) are acquired at relapse in ~30% Ewing; MEK inhibitors explored in refractory disease; ERK1/2 co-activates the neuroectodermal blast program."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN loss enhances IGF1R→PI3K-AKT signaling in Ewing; PTEN deletions uncommon at diagnosis but acquired at relapse; mTOR inhibitors + IGF1R antibodies show synergy in preclinical Ewing; PI3K/AKT/mTOR inhibitors (temsirolimus) explored in R/R Ewing and pediatric solid tumors."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A/ARF deletion in ~15% of primary Ewing sarcoma; ARF loss → MDM2 unchecked → p53 suppressed → apoptosis evasion; CDKN2A deletion co-occurs with poor histologic response; MDM2 inhibitors (idasanutlin) + VDC/IE under study; CDKN2A deletion acquired in ~25% at relapse."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Ewing sarcoma is angiogenic; cabozantinib (VEGFR2+MET+RET) showed ORR ~20% in R/R Ewing; EWSR1-FLI1 upregulates VEGF expression; regorafenib (VEGFR+KIT) active in some R/R pediatric sarcomas; anti-angiogenic strategies combined with VEGFR inhibition under investigation."
 ---
 
 # Ewing Sarcoma
@@ -162,6 +171,13 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — EWSR1-FLI1 transcriptionally activates IGF1R → autocrine IGF loop → PI3K-AKT-mTOR → survival; mTOR inhibitors have modest single-agent activity in Ewing; dual IGF1R+mTOR inhibition explored; IGF1R antibodies (ganitumab) had ~10-15% ORR in R/R Ewing.
 - `connects-to` → **[P53](../../03-molecular/p53/README.md)** — TP53 mutations are rare at Ewing diagnosis (<5%) but acquired in ~20-30% at relapse; CDKN2A/ARF deletion in ~15% primary Ewing; MDM2 amplification ~3%; idasanutlin (MDM2 inhibitor) + chemotherapy explored in pediatric solid tumors including R/R Ewing.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EWSR1-FLI1 activates IGF1R/RAS → ERK1/2 → Ewing survival and NKX2-2 transcription; RAS/MAPK pathway mutations (KRAS, NRAS, NF1) are acquired at relapse in ~30% Ewing; MEK inhibitors explored in refractory disease; ERK1/2 co-activates the neuroectodermal blast program.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss enhances IGF1R→PI3K-AKT signaling in Ewing; PTEN deletions uncommon at diagnosis but acquired at relapse; mTOR inhibitors + IGF1R antibodies show synergy in preclinical Ewing; PI3K/AKT/mTOR inhibitors (temsirolimus) explored in R/R Ewing and pediatric solid tumors.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/ARF deletion in ~15% of primary Ewing sarcoma; ARF loss → MDM2 unchecked → p53 suppressed → apoptosis evasion; CDKN2A deletion co-occurs with poor histologic response; MDM2 inhibitors (idasanutlin) + VDC/IE under study; CDKN2A deletion acquired in ~25% at relapse.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ewing sarcoma is angiogenic; cabozantinib (VEGFR2+MET+RET) showed ORR ~20% in R/R Ewing; EWSR1-FLI1 upregulates VEGF expression; regorafenib (VEGFR+KIT) active in some R/R pediatric sarcomas; anti-angiogenic strategies combined with VEGFR inhibition under investigation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^grier-2003-ewing-vdc-ie]: Grier HE, Krailo MD, Tarbell NJ, et al. Addition of ifosfamide and etoposide to standard chemotherapy for Ewing's sarcoma and primitive neuroectodermal tumor of bone. *N Engl J Med.* 2003;348(8):694-701. [doi:10.1056/NEJMoa020890](https://doi.org/10.1056/NEJMoa020890) · [PubMed 12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/)
 [^ladenstein-2010-euro-ewing99-r3]: Ladenstein R, Potschger U, Le Deley MC, et al. Primary disseminated multifocal Ewing sarcoma: results of the Euro-EWING 99 trial. *J Clin Oncol.* 2010;28(20):3284-3291. [doi:10.1200/JCO.2009.22.9864](https://doi.org/10.1200/JCO.2009.22.9864) · [PubMed 20498398](https://pubmed.ncbi.nlm.nih.gov/20498398/)
