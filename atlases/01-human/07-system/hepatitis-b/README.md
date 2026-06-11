@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "HBV causes ~50-55% of global HCC; mechanism: HBV integration near TERT/CCND1 → insertional mutagenesis; HBx transactivation → p53 inactivation, NF-κB, Wnt/β-catenin; HBsAg-positive cirrhosis has ~3-5%/year HCC incidence; antiviral therapy reduces but does not eliminate HCC risk."
+  - target: 02-pathogen/01-viruses/hepatitis-b-virus
+    relation: connects-to
+    note: "Hepatitis B virus, a hepadnavirus, enters hepatocytes via NTCP and forms a nuclear cccDNA minichromosome that nucleoside analogs suppress but cannot clear; its HBx protein drives immune evasion and oncogenesis, and a recombinant HBsAg vaccine prevents infection."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Chronic hepatitis B inflames the liver — immune-mediated hepatocyte killing drives fibrosis and cirrhosis and makes HBV the leading infectious cause of hepatocellular carcinoma; antivirals cut but don't abolish HCC risk, mandating 6-monthly surveillance in cirrhosis."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "HBV is hepatotropic, entering hepatocytes through the bile-acid transporter NTCP; inside, RC-DNA becomes the persistent nuclear cccDNA that templates all viral RNAs, while HBx inactivates p53 and degrades the Smc5/6 restriction complex to keep the infected hepatocyte alive."
 ---
 
 # Hepatitis B
@@ -180,3 +189,7 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 **→ [TGF-β](../../../03-molecular/tgf-beta/)**: Chronic HBV hepatitis activates hepatic stellate cells via TGF-β1 from Kupffer cells and hepatocytes → myofibroblast transdifferentiation → collagen I/III deposition → progressive fibrosis → cirrhosis → HCC risk; TGF-β also suppresses HBV-specific CD8+ T cells → immune exhaustion → viral persistence; TGF-β receptor inhibitors (galunisertib) reduce HBV-induced hepatic fibrosis in preclinical models.
 
 **→ [HCC](../hcc/)**: HBV is the leading viral cause of HCC (~50-55% of global cases); mechanisms include insertional mutagenesis near TERT/CCND1, HBx transactivation activating p53 inactivation and Wnt/β-catenin, and aflatoxin B1 co-exposure generating TP53 R249S hotspot; HBsAg-positive cirrhosis carries ~3-5%/year HCC incidence; tenofovir/entecavir reduce HCC risk ~70% but do not eliminate it, requiring continued 6-monthly surveillance.
+
+- `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Hepatitis B virus, a hepadnavirus, enters hepatocytes via NTCP and forms a nuclear cccDNA minichromosome that nucleoside analogs suppress but cannot clear; its HBx protein drives immune evasion and oncogenesis, and a recombinant HBsAg vaccine prevents infection.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Chronic hepatitis B inflames the liver — immune-mediated hepatocyte killing drives fibrosis and cirrhosis and makes HBV the leading infectious cause of hepatocellular carcinoma; antivirals cut but don't abolish HCC risk, mandating 6-monthly surveillance in cirrhosis.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — HBV is hepatotropic, entering hepatocytes through the bile-acid transporter NTCP; inside, RC-DNA becomes the persistent nuclear cccDNA that templates all viral RNAs, while HBx inactivates p53 and degrades the Smc5/6 restriction complex to keep the infected hepatocyte alive.

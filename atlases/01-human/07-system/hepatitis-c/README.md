@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "HCV cirrhosis → HCC incidence 1-5%/year (surveillance required); chronic HCV inflammation → NF-κB/STAT3 → hepatocyte proliferation under oxidative DNA damage → driver mutations (TP53, TERT, CTNNB1); DAA cure reduces HCC risk ~70% but established cirrhosis retains HCC risk."
+  - target: 02-pathogen/01-viruses/hepatitis-c-virus
+    relation: connects-to
+    note: "Hepatitis C virus is a positive-sense RNA flavivirus whose NS3/4A protease cleaves MAVS to silence interferon, persisting in ~80% of those infected; unlike HBV it makes no nuclear reservoir, so direct-acting antivirals cure >95% — yet no vaccine exists."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Chronic hepatitis C smolders in the liver, activating stellate cells via TGF-β and driving fibrosis to cirrhosis; DAA cure (SVR) cuts hepatocellular carcinoma risk ~70% but established cirrhosis still needs surveillance, and FibroScan has largely replaced biopsy for staging."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "HCV chronically stimulates B cells by binding CD81, driving type II mixed cryoglobulinemia (purpura, vasculitis, MPGN, neuropathy) and a raised risk of marginal-zone and other B-cell lymphomas; antiviral cure resolves cryoglobulinemia in ~80%."
 ---
 
 # Hepatitis C
@@ -171,3 +180,7 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 **→ [STAT1](../../../03-molecular/stat1/)**: Chronic HCV establishes a state of ISG pre-activation via low-grade IFN-α: baseline STAT1/STAT2 signaling saturates the ISGF3 pathway → pegIFN-α/ribavirin fails to induce additional antiviral ISGs; elevated pretreatment ISG expression (IL28B genotype CC) predicts pegIFN non-response; DAA therapy bypasses STAT1-dependent IFN resistance.
 
 **→ [HCC](../hcc/)**: HCV cirrhosis → HCC incidence 1-5% per year; HCV-driven HCC: chronic inflammation → NF-κB, TGF-β, IL-6/STAT3 → hepatocyte regeneration under oxidative stress → driver mutations; DAA cure reduces HCC risk by ~70% but does not eliminate it in established cirrhosis — surveillance continues.
+
+- `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Hepatitis C virus is a positive-sense RNA flavivirus whose NS3/4A protease cleaves MAVS to silence interferon, persisting in ~80% of those infected; unlike HBV it makes no nuclear reservoir, so direct-acting antivirals cure >95% — yet no vaccine exists.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Chronic hepatitis C smolders in the liver, activating stellate cells via TGF-β and driving fibrosis to cirrhosis; DAA cure (SVR) cuts hepatocellular carcinoma risk ~70% but established cirrhosis still needs surveillance, and FibroScan has largely replaced biopsy for staging.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — HCV chronically stimulates B cells by binding CD81, driving type II mixed cryoglobulinemia (purpura, vasculitis, MPGN, neuropathy) and a raised risk of marginal-zone and other B-cell lymphomas; antiviral cure resolves cryoglobulinemia in ~80%.
