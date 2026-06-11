@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Insulin → IRS-1/2 → PI3K → AKT → FOXO1 phosphorylation → nuclear exclusion → glucose homeostasis; hepatic FOXO1 drives PEPCK/G6Pase → gluconeogenesis; FOXO1 deregulation contributes to fasting hyperglycemia in type 2 diabetes; GLP-1 agonists suppress FOXO1 via AKT."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "FOXO1 is the most studied FOXO member: PAX3-FOXO1 t(2;13) defines alveolar RMS; nuclear FOXO1 = tumor suppressor (p27, FasL, apoptosis); AKT-driven cytoplasmic FOXO1 = loss of arrest; FOXO1 and FOXO3 share AKT phosphorylation sites, target genes, and tumor suppressor programs."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "AMPK phosphorylates FOXO3a at Thr179/Ser399/Ser413/Ser555 → FOXO3 nuclear → stress resistance genes (MnSOD, p27, GADD45); AMPK-FOXO axis links energy stress to cell cycle arrest; metformin → AMPK → FOXO3 → anti-proliferative and anti-aging effects in cancer and metabolic disease."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN dephosphorylates PIP3 → reduces PI3K-AKT → FOXO remains nuclear; PTEN loss → constitutive AKT → FOXO cytoplasmic sequestration → loss of tumor suppressor function; PTEN-null cancers (prostate, endometrial, GBM) have lowest nuclear FOXO and worst PI3K inhibitor outcomes."
 ---
 
 # FOXO
@@ -134,6 +143,12 @@ cross_links:
 - `connects-to` → **[p53](../p53/README.md)** — FOXO3 and p53 co-activate overlapping programs (PUMA, p21, BIM, GADD45) → apoptosis and arrest; FOXO3 competes with MDM2 for p53 binding → p53 stabilization; combined FOXO + p53 inactivation is required for full oncogenic transformation downstream of PI3K-RAS.
 - `connects-to` → **[mTOR](../mtor/README.md)** — mTORC1 suppresses FOXO via S6K → IRS-1 degradation → reduced AKT → partial FOXO nuclear entry (negative feedback); mTORC2 phosphorylates AKT Ser473 → FOXO phosphorylation; mTOR inhibitors → FOXO re-activation → cell cycle arrest and partial tumor suppression.
 - `connects-to` → **[Insulin Receptor](../insulin-receptor/README.md)** — Insulin → IRS-1/2 → PI3K → AKT → FOXO1 phosphorylation → nuclear exclusion → glucose homeostasis; hepatic FOXO1 drives PEPCK/G6Pase → gluconeogenesis; FOXO1 deregulation contributes to fasting hyperglycemia in type 2 diabetes.
+- `connects-to` → **[FOXO1](../foxo1/README.md)** — FOXO1 is the most studied FOXO member: PAX3-FOXO1 t(2;13) defines alveolar RMS; nuclear FOXO1 = tumor suppressor (p27, FasL, apoptosis); AKT-driven cytoplasmic FOXO1 = loss of arrest; FOXO1 and FOXO3 share AKT phosphorylation sites, target genes, and tumor suppressor programs.
+- `connects-to` → **[AMPK](../ampk/README.md)** — AMPK phosphorylates FOXO3a at Thr179/Ser399/Ser413/Ser555 → FOXO3 nuclear → stress resistance genes (MnSOD, p27, GADD45); AMPK-FOXO axis links energy stress to cell cycle arrest; metformin → AMPK → FOXO3 → anti-proliferative and anti-aging effects in cancer and metabolic disease.
+- `connects-to` → **[PTEN](../pten/README.md)** — PTEN dephosphorylates PIP3 → reduces PI3K-AKT → FOXO remains nuclear; PTEN loss → constitutive AKT → FOXO cytoplasmic sequestration → loss of tumor suppressor function; PTEN-null cancers (prostate, endometrial, GBM) have lowest nuclear FOXO and worst PI3K inhibitor outcomes.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^brunet-1999-foxo-akt]: Brunet A, Bonni A, Zigmond MJ, et al. Akt promotes cell survival by phosphorylating and inhibiting a Forkhead transcription factor. *Cell.* 1999;96(6):857-868. [doi:10.1016/S0092-8674(00)80595-4](https://doi.org/10.1016/S0092-8674(00)80595-4) · [PubMed 10102273](https://pubmed.ncbi.nlm.nih.gov/10102273/)
 [^calnan-2008-foxo-review]: Calnan DR, Brunet A. The FoxO code. *Oncogene.* 2008;27(16):2276-2288. [doi:10.1038/onc.2008.21](https://doi.org/10.1038/onc.2008.21) · [PubMed 18391970](https://pubmed.ncbi.nlm.nih.gov/18391970/)

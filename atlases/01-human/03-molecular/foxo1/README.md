@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pten
     relation: connects-to
     note: "FOXO1 is the primary tumor suppressor target of the PTEN-PI3K-AKT axis; PTEN loss → AKT → FOXO1 cytoplasmic sequestration → proliferation; PTEN mutations in ~10% RMS activate AKT; PI3K inhibitors (BKM120) restore FOXO1 nuclear activity in PTEN-null cancer cells."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "FOXO1 is one of four FOXO members (FOXO1/3/4/6); FOXO1 dominates in muscle, liver, and immune cells; FOXO3 dominates in CNS and longevity; both share AKT phosphorylation regulation and target genes (p21, BIM, PUMA); PAX3-FOXO1 exploits the FOXO1 TAD conserved across all FOXOs."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "PAX3-FOXO1 t(2;13) and PAX7-FOXO1 t(1;13) define alveolar RMS; PAX3-FOXO1: ~55% of ARMS, 5-year OS ~50-55%; PAX7-FOXO1: ~20%, 5-year OS ~75%; FOXO1 FISH status is the key molecular risk stratifier; CDK4/6 and BET inhibitors target PAX3-FOXO1 downstream transcriptional program."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "PAX3-FOXO1 activates CDK4 → CDK4-cyclin D1 phosphorylates RB → E2F → cell cycle entry in alveolar RMS; palbociclib/abemaciclib (CDK4/6 inhibitors) reduce pRb in ARMS; CDK4 is an oncogenic target alongside MYCN; cyclin D1 amplification also co-occurs in fusion-negative RMS."
 ---
 
 # FOXO1
@@ -123,6 +132,12 @@ FOXO1 FISH (PAX3::FOXO1 or PAX7::FOXO1 break-apart): essential for all histologi
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — PAX3-FOXO1 transcriptionally activates MYCN in alveolar RMS (MYCN detected in ~50% ARMS); MYC and MYCN amplification in fusion-negative RMS correlate with poor prognosis; BET inhibitors suppress MYC/MYCN in ARMS preclinically; CDK4 is also a PAX3-FOXO1 target.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — PAX3-FOXO1 transcriptionally activates MET (HGF receptor) → invasion and metastasis in alveolar RMS; MET overexpression in >50% ARMS; crizotinib active in MET-expressing pediatric solid tumors including ARMS; MET expression correlates with PAX3-FOXO1 status.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — FOXO1 is the primary tumor suppressor target of the PTEN-PI3K-AKT axis; PTEN loss → AKT → FOXO1 cytoplasmic sequestration → proliferation; PTEN mutations in ~10% RMS activate AKT; PI3K inhibitors (BKM120) restore FOXO1 nuclear activity in PTEN-null cancer cells.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — FOXO1 is one of four FOXO members (FOXO1/3/4/6); FOXO1 dominates in muscle, liver, and immune cells; FOXO3 dominates in CNS and longevity; both share AKT phosphorylation regulation and target genes (p21, BIM, PUMA); PAX3-FOXO1 exploits the FOXO1 TAD conserved across all FOXOs.
+- `connects-to` → **[Rhabdomyosarcoma](../../07-system/rhabdomyosarcoma/README.md)** — PAX3-FOXO1 t(2;13) and PAX7-FOXO1 t(1;13) define alveolar RMS; PAX3-FOXO1: ~55% of ARMS, 5-year OS ~50-55%; PAX7-FOXO1: ~20%, 5-year OS ~75%; FOXO1 FISH status is the key molecular risk stratifier; CDK4/6 and BET inhibitors target PAX3-FOXO1 downstream transcriptional program.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — PAX3-FOXO1 activates CDK4 → CDK4-cyclin D1 phosphorylates RB → E2F → cell cycle entry in alveolar RMS; palbociclib/abemaciclib (CDK4/6 inhibitors) reduce pRb in ARMS; CDK4 is an oncogenic target alongside MYCN; cyclin D1 amplification also co-occurs in fusion-negative RMS.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^galili-1993-pax3-foxo1]: Galili N, Davis RJ, Fredericks WJ, et al. Fusion of a fork head domain gene to PAX3 in the solid tumour alveolar rhabdomyosarcoma. *Nat Genet.* 1993;5(3):230-235. [doi:10.1038/ng1193-230](https://doi.org/10.1038/ng1193-230) · [PubMed 8275086](https://pubmed.ncbi.nlm.nih.gov/8275086/)
 [^missiaglia-2012-foxo1-rms-prognosis]: Missiaglia E, Williamson D, Chisholm J, et al. PAX3/FOXO1 fusion gene status is the key prognostic molecular marker in rhabdomyosarcoma and significantly improves current risk stratification. *J Clin Oncol.* 2012;30(14):1670-1677. [doi:10.1200/JCO.2011.38.5591](https://doi.org/10.1200/JCO.2011.38.5591) · [PubMed 22454413](https://pubmed.ncbi.nlm.nih.gov/22454413/)
