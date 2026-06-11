@@ -35,6 +35,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hpv-16
     relation: infected-by
     note: "HPV-16 infects basal keratinocytes of stratified squamous epithelium at the cervical transformation zone; L1 binds heparan sulphate proteoglycans at microtrauma sites; viral replication is stratification-coupled — L1/L2 expressed only in terminally differentiated keratinocytes."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin is the principal organ of the integumentary system — a ~2 m² epidermis-over-dermis barrier renewed every ~28 days that, with hair, nails, and glands, handles physical and immune defense, thermoregulation, sensation, and vitamin D synthesis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Skin is the body's sole site of vitamin D₃ synthesis: UVB photons (290-320 nm) convert 7-dehydrocholesterol in the epidermis to pre-vitamin D₃; melanin, ageing, high latitude, and sunscreen all cut this output, linking skin pigmentation to systemic calcium and bone health."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Collagen is the structural backbone of the dermis: type I bundles along Langer's lines give skin its tensile strength, and the ordered swap of type III for type I collagen during wound remodeling sets scar quality — with overactive TGF-β-driven deposition producing keloids."
 ---
 
 # Integumentary System
@@ -146,6 +155,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — ~1 million cutaneous sensory receptors transduce touch, pain, temperature, itch; central processing via dorsal horn → thalamus → somatosensory cortex
 - **Modulates:** [cardiovascular-system](../../07-system/cardiovascular-system/README.md) — cutaneous vasodilation/vasoconstriction controls up to 60% of cardiac output for thermoregulation
 - `infected-by` → **[HPV-16](../../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV-16 infects basal keratinocytes of stratified squamous epithelium at the cervical transformation zone; L1 binds heparan sulphate proteoglycans at microtrauma sites; viral replication is stratification-coupled — L1/L2 expressed only in terminally differentiated keratinocytes.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is the principal organ of the integumentary system — a ~2 m² epidermis-over-dermis barrier renewed every ~28 days that, with hair, nails, and glands, handles physical and immune defense, thermoregulation, sensation, and vitamin D synthesis.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Skin is the body's sole site of vitamin D₃ synthesis: UVB photons (290-320 nm) convert 7-dehydrocholesterol in the epidermis to pre-vitamin D₃; melanin, ageing, high latitude, and sunscreen all cut this output, linking skin pigmentation to systemic calcium and bone health.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the structural backbone of the dermis: type I bundles along Langer's lines give skin its tensile strength, and the ordered swap of type III for type I collagen during wound remodeling sets scar quality — with overactive TGF-β-driven deposition producing keloids.
 
 ## Pathology
 

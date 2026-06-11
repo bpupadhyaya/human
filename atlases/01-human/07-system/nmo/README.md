@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — clinical trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG; this differentiates NMOSD from MS (where IFN-β is first-line)."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "NMOSD is an astrocytopathy: AQP4-IgG binds the aquaporin-4 channels clustered on astrocyte endfeet → classical complement → membrane-attack complex → astrocyte lysis, and only then does secondary demyelination follow — unlike multiple sclerosis, where myelin is hit first."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "NMOSD was long mistaken for multiple sclerosis until AQP4-IgG split them apart; NMOSD brings more severe, longitudinally extensive cord lesions and complete optic neuritis, lacks CSF oligoclonal bands, and crucially is worsened by the interferon-β and natalizumab that treat MS."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Optic neuritis is a defining NMOSD attack and is far more destructive than in MS: patients lose vision often to light-perception or worse, recover poorly, and show severe retinal nerve fiber layer thinning on OCT; bilateral or chiasmal involvement favours NMOSD over MS."
 ---
 
 # NMOSD
@@ -205,6 +214,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Satralizumab (anti-IL-6R; SAkuraStar; FDA Aug 2020) reduced ARR ~55% vs placebo; IL-6 promotes plasmablast expansion → AQP4-IgG production; IL-6 also amplifies Th17 responses; tocilizumab used off-label.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab (anti-CD20) depletes B cells → reduces AQP4-IgG; widely used off-label as first-line NMOSD prevention (~70-80% ARR reduction); inebilizumab (anti-CD19; N-MOmentum: 88% vs 63% attack-free; FDA Jun 2020) also approved.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — IFN-β is CONTRAINDICATED in AQP4-IgG+ NMOSD — trials showed IFN-β increases attack frequency; IFN-β may promote plasmablast differentiation → higher AQP4-IgG; this differentiates NMOSD from MS where IFN-β is first-line.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — NMOSD is an astrocytopathy: AQP4-IgG binds the aquaporin-4 channels clustered on astrocyte endfeet → classical complement → membrane-attack complex → astrocyte lysis, and only then does secondary demyelination follow — unlike multiple sclerosis, where myelin is hit first.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — NMOSD was long mistaken for multiple sclerosis until AQP4-IgG split them apart; NMOSD brings more severe, longitudinally extensive cord lesions and complete optic neuritis, lacks CSF oligoclonal bands, and crucially is worsened by the interferon-β and natalizumab that treat MS.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Optic neuritis is a defining NMOSD attack and is far more destructive than in MS: patients lose vision often to light-perception or worse, recover poorly, and show severe retinal nerve fiber layer thinning on OCT; bilateral or chiasmal involvement favours NMOSD over MS.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
