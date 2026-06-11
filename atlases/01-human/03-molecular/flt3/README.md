@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "FLT3-ITD and KRAS/NRAS mutations activate RAS-MAPK from different points; RAS mutations in ~12% of AML; co-occurrence of FLT3-ITD + RAS mutations drives high ERK activation; acquired RAS mutations are a mechanism of gilteritinib resistance in relapsed FLT3-mutant AML."
+  - target: 01-human/03-molecular/npm1
+    relation: connects-to
+    note: "FLT3-ITD co-occurs with NPM1c in ~40% of NPM1c AML; FLT3-ITD+NPM1c+DNMT3A is the classical triple-hit AML; ELN intermediate-risk if NPM1c+FLT3-ITD low AR; midostaurin+7+3 → alloSCT for high-AR FLT3-ITD±NPM1c; FLT3-ITD drives HOXA9 synergizing with NPM1c mislocalization."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "DNMT3A R882H co-occurs with FLT3-ITD in ~25% of FLT3-ITD AML; FLT3-ITD → nuclear ERK → DNMT3A mislocalization → SPI1/PU.1 hypermethylation → differentiation block; DNMT3A+FLT3-ITD is the pre-AML CH-to-AML dyad; DNMT3A persists at remission after FLT3 inhibitor therapy."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "FLT3-ITD → STAT5 → MCL-1 and BCL-XL → anti-apoptosis; venetoclax + gilteritinib highly active in R/R FLT3-mutant AML (ORR ~70%); FLT3 inhibition reduces STAT5-driven MCL-1 → increases BCL-2 dependence → venetoclax synergy; gilteritinib+venetoclax in frontline FLT3-mutant AML."
 ---
 
 # FLT3
@@ -139,6 +148,12 @@ FLT3 is a 993-amino-acid type III RTK with the classic class III architecture (s
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — FLT3-ITD activates MYC via STAT5 → MYC target gene induction (CDK4, cyclin D2, RNR) → cell cycle acceleration; FLT3 inhibition reduces MYC protein; MYC is a co-driver of FLT3-ITD AML self-renewal; combined FLT3 + BET bromodomain inhibition downregulates MYC more potently.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — FLT3-ITD → PI3K → AKT → mTORC1 → protein synthesis and leukemic stem cell (LSC) maintenance; mTOR pathway activation is a resistance mechanism to FLT3 inhibitors; combined FLT3 + mTOR dual inhibition synergizes in FLT3-ITD AML models and may target LSC quiescence.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — FLT3-ITD and KRAS/NRAS mutations activate RAS-MAPK from different points; RAS mutations in ~12% of AML (KRAS G12D/V, NRAS Q61); co-occurrence of FLT3-ITD + RAS mutations drives high ERK activation; acquired RAS mutations are a mechanism of gilteritinib resistance in relapsed FLT3-mutant AML.
+- `connects-to` → **[NPM1](../npm1/README.md)** — FLT3-ITD co-occurs with NPM1c in ~40% of NPM1c AML; FLT3-ITD+NPM1c+DNMT3A is the classical triple-hit AML; ELN intermediate-risk if NPM1c+FLT3-ITD low AR; midostaurin+7+3 → alloSCT for high-AR FLT3-ITD±NPM1c; FLT3-ITD drives HOXA9 synergizing with NPM1c mislocalization.
+- `connects-to` → **[DNMT3A](../dnmt3a/README.md)** — DNMT3A R882H co-occurs with FLT3-ITD in ~25% of FLT3-ITD AML; FLT3-ITD → nuclear ERK → DNMT3A mislocalization → SPI1/PU.1 hypermethylation → differentiation block; DNMT3A+FLT3-ITD is the pre-AML CH-to-AML dyad; DNMT3A persists at remission after FLT3 inhibitor therapy.
+- `connects-to` → **[BCL-2](../bcl-2/README.md)** — FLT3-ITD → STAT5 → MCL-1 and BCL-XL → anti-apoptosis; venetoclax + gilteritinib highly active in R/R FLT3-mutant AML (ORR ~70%); FLT3 inhibition reduces STAT5-driven MCL-1 → increases BCL-2 dependence → venetoclax synergy; gilteritinib+venetoclax in frontline FLT3-mutant AML.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
 [^perl-2019-gilteritinib]: Perl AE, Martinelli G, Cortes JE, et al. Gilteritinib or chemotherapy for relapsed or refractory FLT3-mutated AML. *N Engl J Med.* 2019;381(18):1728-1740. [doi:10.1056/NEJMoa1902688](https://doi.org/10.1056/NEJMoa1902688) · [PubMed 31665578](https://pubmed.ncbi.nlm.nih.gov/31665578/)

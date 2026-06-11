@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "BHD-associated RCC: chromophobe + hybrid oncocytic histology; bilateral multifocal; annual MRI from age 20; nephron-sparing surgery when >3 cm; sunitinib/cabozantinib for metastatic BHD RCC; chromophobe RCC 5-year OS ~88%"
+  - target: 01-human/03-molecular/stk11
+    relation: connects-to
+    note: "STK11-AMPK and FLCN-FNIP-AMPK are parallel tumor suppressor pathways converging on mTORC1; both link energy sensing (AMPK) to growth suppression via mTOR; STK11 LOF (Peutz-Jeghers) and FLCN LOF (BHD) cause distinct hereditary tumor syndromes both exploitable with mTOR inhibitors."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "FLCN-deficient BHD RCC is not HIF-1α-driven unlike VHL ccRCC; FLCN LOF → mTOR/4EBP1 → HIF-2α translation → partial HIF activity; belzutifan (HIF-2α inhibitor, FDA for VHL) explored in BHD chromophobe RCC; HIF-1α and HIF-2α share some but not all transcriptional targets."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "AKT and FLCN-FNIP-AMPK converge on mTORC1: AKT → TSC2 Ser939 → Rheb-GTP → mTOR on; AMPK → TSC2 Ser1387 → Rheb-GDP → mTOR off; FLCN modulates the RagC/D arm; in BHD RCC, PI3K/AKT inhibitors complement mTOR inhibitors; AKT S473 is elevated in FLCN-deficient RCC cell lines."
 ---
 
 # FLCN
@@ -132,6 +141,12 @@ Given bilateral, multifocal RCC in BHD, nephron preservation is critical — lif
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — FNIP1/FNIP2 (FLCN-interacting proteins) co-bind AMPK β-subunit; FLCN-FNIP-AMPK complex links folliculin to energy sensing; FLCN LOF → altered AMPK activity; AMPK-FLCN axis controls energy sensing at the lysosome; metformin explored in FLCN-deficient RCC
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — VHL LOF (ccRCC) and FLCN LOF (chromophobe/hybrid RCC) cause hereditary RCC by distinct mechanisms; VHL → HIF-1α pseudohypoxia; FLCN → mTOR/Rag dysregulation; BHD-associated RCC is NOT HIF-1α-driven unlike VHL ccRCC; chromophobe RCC has distinct perinuclear halo histology
 - `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — BHD-associated RCC: chromophobe + hybrid oncocytic histology; bilateral multifocal; annual MRI from age 20; nephron-sparing surgery when >3 cm; sunitinib/cabozantinib for metastatic BHD RCC; chromophobe RCC 5-year OS ~88%
+- `connects-to` → **[STK11](../stk11/README.md)** — STK11-AMPK and FLCN-FNIP-AMPK are parallel tumor suppressor pathways converging on mTORC1; both link energy sensing (AMPK) to growth suppression via mTOR; STK11 LOF (Peutz-Jeghers) and FLCN LOF (BHD) cause distinct hereditary tumor syndromes both exploitable with mTOR inhibitors.
+- `connects-to` → **[HIF-1α](../hif-1alpha/README.md)** — FLCN-deficient BHD RCC is not HIF-1α-driven unlike VHL ccRCC; FLCN LOF → mTOR/4EBP1 → HIF-2α translation → partial HIF activity; belzutifan (HIF-2α inhibitor, FDA for VHL) explored in BHD chromophobe RCC; HIF-1α and HIF-2α share some but not all transcriptional targets.
+- `connects-to` → **[Akt](../akt/README.md)** — AKT and FLCN-FNIP-AMPK converge on mTORC1: AKT → TSC2 Ser939 → Rheb-GTP → mTOR on; AMPK → TSC2 Ser1387 → Rheb-GDP → mTOR off; FLCN modulates the RagC/D arm; in BHD RCC, PI3K/AKT inhibitors complement mTOR inhibitors; AKT S473 is elevated in FLCN-deficient RCC cell lines.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^nickerson-2002-flcn-bhd]: Nickerson ML, Warren MB, Toro JR, et al. Mutations in a novel gene lead to kidney tumors, lung wall defects, and benign tumors of the hair follicle in patients with the Birt-Hogg-Dubé syndrome. *Cancer Cell.* 2002;2(2):157-164. [doi:10.1016/s1535-6108(02)00104-6](https://doi.org/10.1016/s1535-6108(02)00104-6) · [PubMed 12204536](https://pubmed.ncbi.nlm.nih.gov/12204536/)
 [^tsun-2013-flcn-rag]: Tsun ZY, Bar-Peled L, Chantranupong L, et al. The folliculin tumor suppressor is a GAP for the RagC/D GTPases that signal amino acid levels to mTORC1. *Mol Cell.* 2013;52(4):495-505. [doi:10.1016/j.molcel.2013.09.016](https://doi.org/10.1016/j.molcel.2013.09.016) · [PubMed 24095279](https://pubmed.ncbi.nlm.nih.gov/24095279/)
