@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "Ovarian Sertoli-Leydig cell tumors (SLCT) are the most common ovarian manifestation of DICER1 syndrome; DICER1 hotspot mutations drive ~60% of all SLCT; DICER1 germline carriers: pelvic US surveillance from age 8; BEP chemotherapy for advanced/recurrent SLCT."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Let-7 miRNA family (depleted by DICER1 RNase IIIb hotspot) is the primary KRAS 3'UTR suppressor; DICER1 hotspot → let-7-5p loss → KRAS mRNA derepression → constitutive RAS-MAPK; KRAS upregulated in PPB via this axis; KRAS can be oncogenic without mutation when let-7 is depleted."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "DICER1 syndrome carriers have elevated DTC risk; DICER1 somatic hotspot mutations in ~10-15% of follicular and poorly differentiated thyroid carcinoma; thyroid US surveillance from age 8 in DICER1 carriers; DICER1-mutant thyroid cancer often arises in multinodular goiter."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "DICER1 hotspot mutations found in ~5% of Wilms tumor; cystic nephroma (benign DICER1 renal tumor) can contain Wilms-like blastemal elements (partially differentiated nephroblastoma); renal US surveillance in DICER1 carriers aged 0-8 detects cystic nephroma before transformation."
 ---
 
 # DICER1 Syndrome
@@ -154,6 +163,13 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYCN amplification is the most common cooperating somatic event in PPB type III (solid, high-grade); DICER1 5p miRNA loss → let-7/miR-17 family derepression → MYCN upregulation → RB bypass; PPB type III with MYCN amplification has ~53% 5-year OS.
 - `connects-to` → **[Rhabdomyosarcoma](../../07-system/rhabdomyosarcoma/README.md)** — Cervical embryonal rhabdomyosarcoma (ERMS) is a rare but sentinel DICER1 syndrome tumor; DICER1 hotspot mutations found in ~20% of cervical ERMS; DICER1 syndrome RMS is distinct from sporadic RMS; conservative surgery preferred in pediatric cervical ERMS.
 - `connects-to` → **[Ovarian Cancer](../../07-system/ovarian-cancer/README.md)** — Ovarian Sertoli-Leydig cell tumors (SLCT) are the most common ovarian manifestation of DICER1 syndrome; DICER1 hotspot mutations drive ~60% of all SLCT; DICER1 germline carriers: pelvic US surveillance from age 8; BEP chemotherapy for advanced/recurrent SLCT.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Let-7 miRNA family (depleted by DICER1 RNase IIIb hotspot) is the primary KRAS 3'UTR suppressor; DICER1 hotspot → let-7-5p loss → KRAS mRNA derepression → constitutive RAS-MAPK; KRAS upregulated in PPB via this axis; KRAS can be oncogenic without mutation when let-7 is depleted.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — DICER1 syndrome carriers have elevated DTC risk; DICER1 somatic hotspot mutations in ~10-15% of follicular and poorly differentiated thyroid carcinoma; thyroid US surveillance from age 8 in DICER1 carriers; DICER1-mutant thyroid cancer often arises in multinodular goiter.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — DICER1 hotspot mutations found in ~5% of Wilms tumor; cystic nephroma (benign DICER1 renal tumor) can contain Wilms-like blastemal elements (partially differentiated nephroblastoma); renal US surveillance in DICER1 carriers aged 0-8 detects cystic nephroma before transformation.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^schultz-2018-dicer1-surveillance]: Schultz KAP, Williams GM, Kamihara J, et al. DICER1 and Associated Conditions: Identification of At-risk Individuals and Recommended Surveillance Strategies. *Clin Cancer Res.* 2018;24(10):2251-2261. [doi:10.1158/1078-0432.CCR-17-3089](https://doi.org/10.1158/1078-0432.CCR-17-3089) · [PubMed 29343557](https://pubmed.ncbi.nlm.nih.gov/29343557/)
 [^hill-2009-dicer1]: Hill DA, Ivanovich J, Priest JR, et al. DICER1 mutations in familial pleuropulmonary blastoma. *Science.* 2009;325(5943):965. [doi:10.1126/science.1174334](https://doi.org/10.1126/science.1174334) · [PubMed 19556464](https://pubmed.ncbi.nlm.nih.gov/19556464/)

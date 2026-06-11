@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGFRA point mutations and amplification occur in ~25-35% of H3K27M DMG; PDGFRA → MAPK/PI3K → glioma proliferation; PDGFRA co-mutation with H3K27M accelerates malignancy; avapritinib and imatinib explored in PDGFRA-mutant DMG subsets."
+  - target: 01-human/03-molecular/nf1
+    relation: connects-to
+    note: "NF1 mutations in ~10% of H3K27M DMG, enriched at spinal cord location; NF1 LOF → constitutive RAS-MAPK → MEK-ERK proliferation; NF1+H3K27M spinal DMG shows high macrophage infiltration; selumetinib and trametinib (MEK inhibitors) explored in NF1-mutant H3K27M spinal DMG."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PIK3CA/PIK3R1 mutations in ~15% of H3K27M DMG; PI3K-AKT-mTOR cooperates with H3K27M epigenetic reprogramming; alpelisib (PI3Kα inhibitor) and copanlisib in combination with ONC201 under investigation; PTEN loss is an alternative PI3K pathway activation mechanism in DMG."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "H3K27M DMG and IDH-wildtype GBM are both WHO Grade 4 but molecularly distinct; GBM shows EGFR amplification/EGFRvIII, TERT promoter mutation, CDK4/6 amplification absent in DMG; ONC201 active in DMG but not GBM; bevacizumab benefits GBM (PFS) but not H3K27M DMG."
 ---
 
 # Diffuse Midline Glioma
@@ -178,6 +187,13 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — H3K27M inhibits EZH2/PRC2 activity in trans → global H3K27me3 loss; this dominant-negative epigenetic mechanism is the oncogenic hallmark of DMG; paradoxically, EZH2 protein is intact and overexpressed in H3K27M DMG; panobinostat (HDAC inhibitor) partially restores H3K27me3.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion in ~15-25% H3K27M DMG (higher in DIPG/thalamic subtypes); NF1+H3K27M co-alteration common in spinal DMG; CDKN2A loss → CDK4/6 → RB1 → E2F proliferation; palbociclib + ONC201 combination being explored in H3K27M+CDKN2A-deleted DMG.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGFRA point mutations and amplification occur in ~25-35% of H3K27M DMG; PDGFRA → MAPK/PI3K → glioma proliferation; PDGFRA co-mutation with H3K27M accelerates malignancy; avapritinib and imatinib explored in PDGFRA-mutant DMG subsets.
+- `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 mutations in ~10% of H3K27M DMG, enriched at spinal cord location; NF1 LOF → constitutive RAS-MAPK → MEK-ERK proliferation; NF1+H3K27M spinal DMG shows high macrophage infiltration; selumetinib and trametinib (MEK inhibitors) explored in NF1-mutant H3K27M spinal DMG.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA/PIK3R1 mutations in ~15% of H3K27M DMG; PI3K-AKT-mTOR cooperates with H3K27M epigenetic reprogramming; alpelisib (PI3Kα inhibitor) and copanlisib in combination with ONC201 under investigation; PTEN loss is an alternative PI3K pathway activation mechanism in DMG.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — H3K27M DMG and IDH-wildtype GBM are both WHO Grade 4 but molecularly distinct; GBM shows EGFR amplification/EGFRvIII, TERT promoter mutation, CDK4/6 amplification absent in DMG; ONC201 active in DMG but not GBM; bevacizumab benefits GBM (PFS) but not H3K27M DMG.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^schwartzentruber-2012-h3f3a-glioma]: Schwartzentruber J, Korshunov A, Liu XY, et al. Driver mutations in histone H3.3 and chromatin remodelling genes in paediatric glioblastoma. *Nature.* 2012;482(7384):226-231. [doi:10.1038/nature10833](https://doi.org/10.1038/nature10833) · [PubMed 22286061](https://pubmed.ncbi.nlm.nih.gov/22286061/)
 [^khuong-quang-2012-h3k27m-dipg]: Khuong-Quang DA, Buczkowicz P, Rakopoulos P, et al. K27M mutation in histone H3.3 defines clinically and biologically distinct subgroups of pediatric diffuse intrinsic pontine gliomas. *Acta Neuropathol.* 2012;124(3):439-447. [doi:10.1007/s00401-012-0998-0](https://doi.org/10.1007/s00401-012-0998-0) · [PubMed 22661320](https://pubmed.ncbi.nlm.nih.gov/22661320/)
