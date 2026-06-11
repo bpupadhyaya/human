@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/zika-virus
     relation: connects-to
     note: "WNV and ZIKV are neurotropic flaviviruses with serological cross-reactivity; prior WNV immunity may partially protect against ZIKV and vice versa; unlike ZIKV, WNV lacks sexual transmission and does not cause congenital brain malformations; both NS5 proteins evade STAT1."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "About 1 in 150 symptomatic West Nile infections becomes neuroinvasive disease — the leading cause of viral encephalitis in North America — as meningitis, encephalitis with Parkinsonian signs, or poliomyelitis-like flaccid paralysis; the elderly are most at risk."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "West Nile virus is neurotropic, replicating in neurons after crossing the blood-brain barrier; its tropism for anterior-horn motor neurons produces an asymmetric flaccid paralysis resembling polio, while hippocampal infection drives encephalitis."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Once West Nile virus reaches the CNS, microglia and astrocytes mount the neuroinflammatory response that limits viral spread but also contributes to encephalitic injury; CCR5-dependent leukocyte recruitment is protective, and CCR5Δ32 homozygotes fare worse."
 ---
 
 # West Nile Virus
@@ -165,3 +174,7 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 **→ [Dengue Fever](../dengue-fever/)**: WNV and DENV share Aedes aegypti + Culex vectors, flavivirus structure, and flaviviral biology; anti-DENV antibodies cross-react with WNV but provide variable protection; WNV neuroinvasive disease has no DENV equivalent; both evade STAT1 via NS5.
 
 **→ [Zika Virus](../zika-virus/)**: WNV and ZIKV are neurotropic flaviviruses with serological cross-reactivity; prior WNV immunity may partially protect against ZIKV and vice versa; unlike ZIKV, WNV lacks sexual transmission and does not cause congenital brain malformations; both NS5 proteins evade STAT1.
+
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — About 1 in 150 symptomatic West Nile infections becomes neuroinvasive disease — the leading cause of viral encephalitis in North America — as meningitis, encephalitis with Parkinsonian signs, or poliomyelitis-like flaccid paralysis; the elderly are most at risk.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — West Nile virus is neurotropic, replicating in neurons after crossing the blood-brain barrier; its tropism for anterior-horn motor neurons produces an asymmetric flaccid paralysis resembling polio, while hippocampal infection drives encephalitis.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Once West Nile virus reaches the CNS, microglia and astrocytes mount the neuroinflammatory response that limits viral spread but also contributes to encephalitic injury; CCR5-dependent leukocyte recruitment is protective, and CCR5Δ32 homozygotes fare worse.

@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "RSV NS1/NS2 cooperatively block type I IFN: NS1 targets TRIM25/IRF3; NS2 prevents STAT2 nuclear translocation → ISG suppression; IFN-λ (type III) dominates innate mucosal defense against RSV; preterm infants with immature IFN response have more severe RSV bronchiolitis."
+  - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
+    relation: connects-to
+    note: "Respiratory syncytial virus, a negative-sense RNA pneumovirus, fuses airway cells into syncytia and blunts interferon with NS1/NS2; it reinfects throughout life because the G protein varies and memory is short, yet prefusion-F antibodies and vaccines now prevent severe disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "RSV is the top cause of infant bronchiolitis and a major cause of pneumonia in the elderly and immunocompromised: it infects ciliated airway epithelium, sloughing cells and plugging small airways with mucus → air trapping, hypoxia, and wheeze; care is supportive."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Severe RSV bronchiolitis in infancy is the strongest environmental risk factor for childhood asthma: epithelial damage releases IL-33 and TSLP that activate ILC2s toward type-2 inflammation, biasing the developing airway toward allergic sensitization and recurrent wheeze."
 ---
 
 # RSV
@@ -189,3 +198,7 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 **→ [TSLP](../../../03-molecular/tslp/)**: RSV-induced airway epithelial damage and dsRNA replication intermediates trigger TSLP release from airway epithelium → TSLP receptor on ILC2 and basophils → IL-4/IL-13 → Th2 polarization and IgE class switching; neonatal RSV-driven TSLP sensitization during a critical early developmental window may explain the epidemiological RSV-asthma link; tezepelumab (anti-TSLP) is being investigated in RSV-triggered wheeze.
 
 **→ [Type I Interferon](../../../03-molecular/type-i-interferon/)**: RSV NS1/NS2 cooperatively suppress type I IFN at multiple levels: NS1 targets TRIM25 and IRF3, preventing IFN-β transcription; NS2 blocks STAT2 nuclear translocation, preventing ISG induction; premature infants with immature IFN signaling systems have more severe RSV bronchiolitis; IFN-λ (type III IFN at mucosal surfaces) is less susceptible to NS1/NS2 and represents the dominant innate mucosal defense.
+
+- `connects-to` → **[Respiratory Syncytial Virus](../../../02-pathogen/01-viruses/respiratory-syncytial-virus/README.md)** — Respiratory syncytial virus, a negative-sense RNA pneumovirus, fuses airway cells into syncytia and blunts interferon with NS1/NS2; it reinfects throughout life because the G protein varies and memory is short, yet prefusion-F antibodies and vaccines now prevent severe disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — RSV is the top cause of infant bronchiolitis and a major cause of pneumonia in the elderly and immunocompromised: it infects ciliated airway epithelium, sloughing cells and plugging small airways with mucus → air trapping, hypoxia, and wheeze; care is supportive.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Severe RSV bronchiolitis in infancy is the strongest environmental risk factor for childhood asthma: epithelial damage releases IL-33 and TSLP that activate ILC2s toward type-2 inflammation, biasing the developing airway toward allergic sensitization and recurrent wheeze.
