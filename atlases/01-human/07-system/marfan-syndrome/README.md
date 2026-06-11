@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "FBN1 fibrillin-1 microfibrils and collagen fibers are the two major structural components of the arterial wall ECM; fibrillin-1 provides elastic recoil; collagen provides tensile strength; Marfan syndrome (FBN1) and OI (COL1A1/2) both affect connective tissue integrity."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Losartan (AT1R blocker) reduces angiotensin II → attenuated TGF-β signaling in aortic SMCs → slower aortic root growth in MFS (COMPARE trial); AT1R-TGF-β crosstalk: angiotensin II stimulates TGF-β1 production and SMAD2/3 activation → MMP-mediated ECM degradation in aortic wall."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Fibronectin and fibrillin-1 are both major aortic ECM scaffolding proteins; fibronectin provides SMC adhesion substrate; fibrillin-1 provides elastic recoil; fibronectin deposition increases in Marfan aortic tissue as a compensatory response to fibrillin-1 microfibril failure."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Hypertension management is critical in Marfan syndrome: elevated SBP increases aortic wall shear stress → accelerated root aneurysm growth; beta-blockers (atenolol) reduce HR + BP + aortic pulsatility; losartan provides additional AT1R/TGF-β inhibition; target SBP <120 mmHg."
 ---
 
 # Marfan Syndrome
@@ -178,6 +187,13 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — FBN1 microfibrils bind LTBP (latent TGF-β binding protein) → sequester TGF-β in ECM; FBN1 LOF → reduced TGF-β sequestration → excess TGF-β → ERK and SMAD2/3 activation in aortic SMCs → MMP production → elastic lamina fragmentation → aneurysm formation.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — FBN1 LOF → excess TGF-β signaling → SMAD2/3 phosphorylation → nuclear translocation → aortic gene expression changes driving aneurysm; SMAD4 is the common SMAD that co-activates SMAD2/3 transcription; SMAD4 mutations in juvenile polyposis syndrome also cause aortic aneurysm.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — FBN1 fibrillin-1 microfibrils and collagen fibers are the two major structural components of the arterial wall ECM; fibrillin-1 provides elastic recoil; collagen provides tensile strength; Marfan syndrome (FBN1) and OI (COL1A1/2) both affect connective tissue integrity.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — losartan (AT1R blocker) reduces angiotensin II → attenuated TGF-β signaling in aortic SMCs → slower aortic root growth in MFS (COMPARE trial); AT1R-TGF-β crosstalk: angiotensin II stimulates TGF-β1 production and SMAD2/3 activation → MMP-mediated ECM degradation in aortic wall.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — fibronectin and fibrillin-1 are both major aortic ECM scaffolding proteins; fibronectin provides SMC adhesion substrate; fibrillin-1 provides elastic recoil; fibronectin deposition increases in Marfan aortic tissue as a compensatory response to fibrillin-1 microfibril failure.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — hypertension management is critical in Marfan syndrome: elevated SBP increases aortic wall shear stress → accelerated root aneurysm growth; beta-blockers (atenolol) reduce HR + BP + aortic pulsatility; losartan provides additional AT1R/TGF-β inhibition; target SBP <120 mmHg.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^dietz-1991-fbn1-marfan]: Dietz HC, Cutting GR, Pyeritz RE, et al. Marfan syndrome caused by a recurrent de novo missense mutation in the fibrillin gene. *Nature.* 1991;352(6333):337-339. [doi:10.1038/352337a0](https://doi.org/10.1038/352337a0) · [PubMed 1852208](https://pubmed.ncbi.nlm.nih.gov/1852208/)
 [^loeys-2010-ghent-criteria]: Loeys BL, Dietz HC, Braverman AC, et al. The revised Ghent nosology for the Marfan syndrome. *J Med Genet.* 2010;47(7):476-485. [doi:10.1136/jmg.2009.072785](https://doi.org/10.1136/jmg.2009.072785) · [PubMed 20591885](https://pubmed.ncbi.nlm.nih.gov/20591885/)

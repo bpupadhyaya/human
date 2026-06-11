@@ -50,6 +50,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: targets
     note: "Norovirus infects enterocytes and tuft cells in the small intestinal mucosa via HBGA-mediated attachment; duodenal villous blunting, crypt hyperplasia, and transient absorptive deficiency cause osmotic diarrhea; normal jejunal biopsy histology can be preserved despite symptoms."
+  - target: 01-human/03-molecular/secretory-iga
+    relation: connects-to
+    note: "Anti-VP1 sIgA blocks HBGA-VP1 binding → prevents attachment; sIgA is the primary norovirus protective response and efficacy endpoint of vaccine trials (TAK-214, mRNA-1403); mucosal sIgA half-life is short → boosters needed; mucosal IgA is distinct from serum IgG in protection."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Norovirus NS3/4/6 antagonize type I IFN signaling; IFN-λ (type III IFN) is more protective than IFN-α/β at intestinal epithelium; immunocompromised patients with chronic norovirus have impaired IFN-λ responses; IFN-λ treatment reduces viral load in murine norovirus models."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Chronic norovirus in HSCT mimics GVHD — persistent diarrhea, villous atrophy; stool RT-PCR distinguishes; concurrent norovirus + GVHD occurs; calcineurin inhibitor reduction clears norovirus in ~35% but may exacerbate GVHD; immune reconstitution required for viral clearance."
 ---
 
 # Norovirus
@@ -152,6 +161,13 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — enteric bacteria display HBGA-like carbohydrates facilitating norovirus VP1 attachment and B cell infection; microbiome composition influences norovirus susceptibility; antibiotic depletion alters microbial HBGA presentation and norovirus replication efficiency.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — norovirus infects B cells via surface HBGA-like carbohydrates (Jones 2014); B cell tropism enables systemic dissemination; anti-VP1 mucosal IgA is the primary protective immune response against reinfection and the endpoint of all norovirus vaccine trials.
 - `targets` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — norovirus infects enterocytes and tuft cells in the small intestinal mucosa; duodenal villous blunting, crypt hyperplasia, and transient brush-border enzyme loss cause osmotic diarrhea; histology can be preserved despite severe symptoms, creating diagnostic confusion.
+- `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — anti-VP1 sIgA blocks HBGA-VP1 binding → prevents attachment; sIgA is the primary norovirus protective response and efficacy endpoint of vaccine trials (TAK-214, mRNA-1403); mucosal sIgA half-life is short → boosters needed; mucosal IgA is distinct from serum IgG in protection.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — norovirus NS3/4/6 antagonize type I IFN signaling; IFN-λ (type III IFN) is more protective than IFN-α/β at intestinal epithelium; immunocompromised patients with chronic norovirus have impaired IFN-λ responses; IFN-λ treatment reduces viral load in murine norovirus models.
+- `connects-to` → **[GVHD](../gvhd/README.md)** — chronic norovirus in HSCT mimics GVHD — persistent diarrhea, villous atrophy; stool RT-PCR distinguishes; concurrent norovirus + GVHD occurs; calcineurin inhibitor reduction clears norovirus in ~35% but may exacerbate GVHD; immune reconstitution required for viral clearance.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^ahmed-2014-norovirus-meta-analysis]: Ahmed SM, Hall AJ, Robinson AE, et al. Global prevalence of norovirus in cases of gastroenteritis: a systematic review and meta-analysis. *Lancet Infect Dis.* 2014;14(8):725-730. [doi:10.1016/S1473-3099(14)70767-4](https://doi.org/10.1016/S1473-3099(14)70767-4) · [PubMed 24981041](https://pubmed.ncbi.nlm.nih.gov/24981041/)
 [^robilotti-2015-norovirus-review]: Robilotti E, Deresiewicz RL, Bhatt S. Norovirus. *Clin Microbiol Rev.* 2015;28(1):134-164. [doi:10.1128/CMR.00075-14](https://doi.org/10.1128/CMR.00075-14) · [PubMed 25567225](https://pubmed.ncbi.nlm.nih.gov/25567225/)
