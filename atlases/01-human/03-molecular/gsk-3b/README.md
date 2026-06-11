@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "In the Wnt OFF state, GSK-3β phosphorylates β-catenin (Ser33/37/Thr41) → β-TrCP ubiquitination → proteasomal degradation; Wnt ligand → Dishevelled → GSK-3β inactivation → β-catenin nuclear accumulation → TCF/LEF target gene transcription."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin → IR → IRS-1 → PI3K → Akt → Ser9 phosphorylation → GSK-3β inhibited → glycogen synthase active → glycogen synthesis; in insulin resistance, reduced Akt → GSK-3β constitutively active → impaired glycogen synthesis + tau hyperphosphorylation (mechanistic T2D-AD risk link)."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "GSK-3β phosphorylates cyclin D1 at Thr286 → CRM1-mediated nuclear export → SCF/Fbxw4 ubiquitination → proteasomal degradation; cancer cells escape by inhibiting GSK-3β via Wnt/β-catenin or PI3K/Akt; cyclin D1 overexpression in cancer requires concurrent GSK-3β suppression."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Akt phosphorylates GSK-3β at Ser9 → pseudo-substrate blocks active site → GSK-3β inhibited; PI3K/Akt → GSK-3β inhibition → β-catenin stabilization; insulin, IGF-1, and EGF all inhibit GSK-3β via Akt; GSK-3β Ser9 phosphorylation status is a cancer biomarker of Akt activity."
 ---
 
 # GSK-3β
@@ -147,17 +156,17 @@ In type 2 diabetes and metabolic syndrome:
 
 ## Connections
 
-**→ [Bipolar Disorder](../../07-system/bipolar-disorder/)**: lithium directly inhibits GSK-3β (uncompetitive Mg²⁺ site), explaining its mood stabilization; GSK-3β hyperactivity in bipolar drives circadian dysregulation and BDNF suppression; lithium-induced β-catenin stabilization promotes neuroprotective gene expression and hippocampal neurogenesis.
+- `connects-to` → **[Bipolar Disorder](../../07-system/bipolar-disorder/README.md)** — lithium directly inhibits GSK-3β (uncompetitive Mg²⁺ site), explaining its mood stabilization; GSK-3β hyperactivity in bipolar drives circadian dysregulation and BDNF suppression; lithium-induced β-catenin stabilization promotes neuroprotective gene expression and hippocampal neurogenesis.
+- `connects-to` → **[MAPT](../mapt/README.md)** — GSK-3β is the dominant tau kinase — phosphorylates PHF-1 (Ser396/404) and AT8 (Ser202/Thr205) epitopes after CDK5/CK1 priming; GSK-3β-driven tau hyperphosphorylation triggers microtubule dissociation, axonal transport failure, and neurofibrillary tangle formation.
+- `connects-to` → **[Alzheimer's Disease](../../07-system/alzheimers-disease/README.md)** — GSK-3β is overactive in AD hippocampus and drives both tau pathology and amyloid-β production; insulin resistance activates GSK-3β; GSK-3β inhibitors (tideglusib) reached Phase 2 trials for AD but did not demonstrate significant cognitive benefit.
+- `connects-to` → **[Wnt/β-catenin](../wnt-beta-catenin/README.md)** — GSK-3β is the effector kinase of the Wnt destruction complex — phosphorylating β-catenin for proteasomal degradation in the Wnt OFF state; Wnt activation inactivates GSK-3β, releasing β-catenin for nuclear TCF/LEF target gene transcription.
+- `connects-to` → **[Insulin](../insulin/README.md)** — Insulin → IR → IRS-1 → PI3K → Akt → Ser9 phosphorylation → GSK-3β inhibited → glycogen synthase active → glycogen synthesis; in insulin resistance, reduced Akt → GSK-3β constitutively active → impaired glycogen synthesis + tau hyperphosphorylation (mechanistic T2D-AD risk link).
+- `connects-to` → **[Cyclin D1](../cyclin-d1/README.md)** — GSK-3β phosphorylates cyclin D1 at Thr286 → CRM1-mediated nuclear export → SCF/Fbxw4 ubiquitination → proteasomal degradation; cancer cells escape by inhibiting GSK-3β via Wnt/β-catenin or PI3K/Akt; cyclin D1 overexpression in cancer requires concurrent GSK-3β suppression.
+- `connects-to` → **[Akt](../akt/README.md)** — Akt phosphorylates GSK-3β at Ser9 → pseudo-substrate blocks active site → GSK-3β inhibited; PI3K/Akt → GSK-3β inhibition → β-catenin stabilization; insulin, IGF-1, and EGF all inhibit GSK-3β via Akt; GSK-3β Ser9 phosphorylation status is a cancer biomarker of Akt activity.
 
-**→ [MAPT](../mapt/)**: GSK-3β is the dominant tau kinase — phosphorylates PHF-1 (Ser396/404) and AT8 (Ser202/Thr205) epitopes after CDK5/CK1 priming; GSK-3β-driven tau hyperphosphorylation triggers microtubule dissociation, axonal transport failure, and neurofibrillary tangle formation.
-
-**→ [Alzheimer's Disease](../../07-system/alzheimers-disease/)**: GSK-3β is overactive in AD hippocampus and drives both tau pathology and amyloid-β production; insulin resistance activates GSK-3β; GSK-3β inhibitors (tideglusib) reached Phase 2 trials for AD but did not demonstrate significant cognitive benefit.
-
-**→ [Wnt/β-catenin](../wnt-beta-catenin/)**: GSK-3β is the effector kinase of the Wnt destruction complex — phosphorylating β-catenin for proteasomal degradation in the Wnt OFF state; Wnt activation inactivates GSK-3β, releasing β-catenin for nuclear TCF/LEF target gene transcription.
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^woodgett-1990-gsk3-cloning]: Woodgett JR. Molecular cloning and expression of glycogen synthase kinase-3/factor A. *EMBO J.* 1990;9(8):2431-2438. [doi:10.1002/j.1460-2075.1990.tb07420.x](https://doi.org/10.1002/j.1460-2075.1990.tb07420.x) · [PubMed 2164468](https://pubmed.ncbi.nlm.nih.gov/2164468/)
 [^klein-1996-lithium-gsk3]: Klein PS, Melton DA. A molecular mechanism for the effect of lithium on development. *Proc Natl Acad Sci USA.* 1996;93(16):8455-8459. [doi:10.1073/pnas.93.16.8455](https://doi.org/10.1073/pnas.93.16.8455) · [PubMed 8710892](https://pubmed.ncbi.nlm.nih.gov/8710892/)
 [^beurel-2015-gsk3-review]: Beurel E, Grieco SF, Jope RS. Glycogen synthase kinase-3 (GSK3): regulation, actions, and diseases. *Pharmacol Ther.* 2015;148:114-131. [doi:10.1016/j.pharmthera.2014.11.016](https://doi.org/10.1016/j.pharmthera.2014.11.016) · [PubMed 25435019](https://pubmed.ncbi.nlm.nih.gov/25435019/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

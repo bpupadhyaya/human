@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "HER2-amplified tumors upregulate PD-L1 via PI3K-Akt-NF-κB and IFN-γ → adaptive immune resistance; trastuzumab + anti-PD-1 (pembrolizumab) in HER2+ gastric cancer (KEYNOTE-811): improved ORR and PFS; HER2 amplification and PD-L1 expression are complementary therapeutic targets."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PIK3CA mutations co-occur with HER2 amplification in ~30% of HER2+ breast cancer → PI3K reactivated downstream of HER2 blockade → trastuzumab resistance; alpelisib (PI3Kα inhibitor) + trastuzumab in PIK3CA-mutant HER2+ BC; PIK3CA is the dominant anti-HER2 resistance co-mutation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "HER2 activates STAT3 via JAK2 and Src → STAT3 nuclear → MYC, cyclin D1, BCL-XL, VEGF transcription; STAT3 activation correlates with trastuzumab resistance in HER2+ breast cancer; tumor-associated macrophage IL-6 → STAT3 → HER2+ TME immunosuppression and treatment resistance."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN loss → constitutive PI3K-Akt → bypasses HER2 blockade → trastuzumab resistance; PTEN loss (~30% HER2+ tumors) predicts reduced trastuzumab benefit; HER2 amplification + PTEN loss cooperate — dual PI3Kα (alpelisib) + HER2 (trastuzumab) blockade improves PTEN-null resistance."
 ---
 
 # HER2
@@ -146,6 +155,12 @@ Trastuzumab is a humanized IgG1 anti-HER2 monoclonal antibody binding HER2 domai
 - `connects-to` → **[mTOR](../mtor/README.md)** — HER2-HER3 heterodimer strongly activates PI3K→Akt→mTOR via HER3's 6 PI3K docking sites; mTOR is a major survival pathway in HER2+ tumors; everolimus + trastuzumab overcomes some trastuzumab resistance.
 - `connects-to` → **[KRAS](../kras/README.md)** — HER2 drives RAS-ERK via Grb2-SOS1; RAS mutations co-occurring with HER2 amplification in gastric cancer confer trastuzumab resistance; RAS pathway status influences HER2-targeted therapy response.
 - `connects-to` → **[PD-1](../pd-1/README.md)** — HER2-amplified tumors upregulate PD-L1 via PI3K-Akt-NF-κB; anti-HER2 + anti-PD-1 (trastuzumab + pembrolizumab, KEYNOTE-811) improve outcomes in HER2+ gastric cancer; combined blockade addresses both oncogenic and immune evasion mechanisms.
+- `connects-to` → **[PIK3CA](../pik3ca/README.md)** — PIK3CA mutations co-occur with HER2 amplification in ~30% of HER2+ breast cancer → PI3K reactivated downstream of HER2 blockade → trastuzumab resistance; alpelisib (PI3Kα inhibitor) + trastuzumab in PIK3CA-mutant HER2+ BC; PIK3CA is the dominant anti-HER2 resistance co-mutation.
+- `connects-to` → **[STAT3](../stat3/README.md)** — HER2 activates STAT3 via JAK2 and Src → STAT3 nuclear → MYC, cyclin D1, BCL-XL, VEGF transcription; STAT3 activation correlates with trastuzumab resistance in HER2+ breast cancer; tumor-associated macrophage IL-6 → STAT3 → HER2+ TME immunosuppression and treatment resistance.
+- `connects-to` → **[PTEN](../pten/README.md)** — PTEN loss → constitutive PI3K-Akt → bypasses HER2 blockade → trastuzumab resistance; PTEN loss (~30% HER2+ tumors) predicts reduced trastuzumab benefit; HER2 amplification + PTEN loss cooperate — dual PI3Kα (alpelisib) + HER2 (trastuzumab) blockade improves PTEN-null resistance.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^slamon-1987-her2]: Slamon DJ, Clark GM, Wong SG, Levin WJ, Ullrich A, McGuire WL. Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene. *Science.* 1987;235(4785):177-182. [doi:10.1126/science.3798106](https://doi.org/10.1126/science.3798106) · [PubMed 3798106](https://pubmed.ncbi.nlm.nih.gov/3798106/)
 [^slamon-2001-trastuzumab]: Slamon DJ, Leyland-Jones B, Shak S, et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. *N Engl J Med.* 2001;344(11):783-792. [doi:10.1056/NEJM200103153441101](https://doi.org/10.1056/NEJM200103153441101) · [PubMed 11248153](https://pubmed.ncbi.nlm.nih.gov/11248153/)
