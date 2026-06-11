@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PIK3CA mutation/amplification in ~20-30% of HNSCC; especially HPV+ oropharyngeal HNSCC (HPV E7 → RB disruption → CDK activation; higher PI3K pathway activity); PI3K inhibitors (copanlisib, alpelisib) studied in HNSCC; AKT inhibitors in clinical trials."
+  - target: 04-vaccine/07-vhp/gardasil-9
+    relation: connects-to
+    note: "Rising HPV16/18-driven oropharyngeal HNSCC is preventable: the nonavalent HPV vaccine (Gardasil 9) blocks the infections whose E6/E7 oncoproteins inactivate p53 and RB; vaccinating before exposure should cut future HPV+ head-and-neck cancer as it has cervical cancer."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "HPV16 E7 binds and inactivates RB1, releasing E2F to drive S-phase entry without mitogens — the RB arm of HPV oncogenesis that pairs with E6-mediated p53 degradation; because RB is disabled by protein, HPV+ HNSCC rarely carries RB1 or CDKN2A mutations."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A/p16 behaves oppositely by HPV status: deleted in ~40% of tobacco-driven HPV-negative HNSCC, but strongly overexpressed in HPV+ tumors (RB loss removes feedback), making p16 immunostaining the practical surrogate marker for HPV-positive oropharyngeal cancer."
 ---
 
 # HNSCC
@@ -154,6 +163,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pembrolizumab (KEYNOTE-048) improved OS vs. EXTREME in PD-L1 CPS≥20 (14.9 vs. 10.7 months) and CPS≥1 (13.6 vs. 10.4 months); pembrolizumab+chemotherapy improved OS for CPS≥1; nivolumab (CheckMate 141) improved OS vs. chemotherapy in platinum-refractory R/M HNSCC.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~80% of HPV-negative HNSCC (UV and tobacco mutational signatures; R175H, R248W hotspots); HPV-positive HNSCC has WT TP53 (HPV E6 degrades p53 via E6AP ubiquitin ligase); TP53 mutation correlates with poor prognosis and cisplatin resistance in HNSCC.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutation/amplification in ~20-30% of HNSCC; especially HPV-positive oropharyngeal HNSCC (HPV E7 → retinoblastoma pathway disruption → CDK activation; HPV-positive HNSCC has higher PI3K pathway activation); PI3K inhibitors (copanlisib, alpelisib) studied in HNSCC; AKT inhibitors in clinical trials.
+- `connects-to` → **[Gardasil 9 (HPV9)](../../../04-vaccine/07-vhp/gardasil-9/README.md)** — Rising HPV16/18-driven oropharyngeal HNSCC is preventable: the nonavalent HPV vaccine (Gardasil 9) blocks the infections whose E6/E7 oncoproteins inactivate p53 and RB; vaccinating before exposure should cut future HPV+ head-and-neck cancer as it has cervical cancer.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — HPV16 E7 binds and inactivates RB1, releasing E2F to drive S-phase entry without mitogens — the RB arm of HPV oncogenesis that pairs with E6-mediated p53 degradation; because RB is disabled by protein, HPV+ HNSCC rarely carries RB1 or CDKN2A mutations.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 behaves oppositely by HPV status: deleted in ~40% of tobacco-driven HPV-negative HNSCC, but strongly overexpressed in HPV+ tumors (RB loss removes feedback), making p16 immunostaining the practical surrogate marker for HPV-positive oropharyngeal cancer.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

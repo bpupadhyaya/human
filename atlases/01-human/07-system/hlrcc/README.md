@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "HLRCC-associated RCC: most aggressive hereditary RCC; collecting duct-like/papillary type 2B; often metastatic at diagnosis; FH IHC loss + 2SC positivity diagnostic; bevacizumab + erlotinib standard (NCI Phase 2, ORR ~64%, mPFS 21 months); sunitinib/pazopanib insufficient"
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "HLRCC produces multiple smooth muscle tumors (leiomyomas): painful cutaneous nodules from arrector pili muscle and early-onset, large, multiple uterine fibroids; biallelic FH loss drives them, and FH-/2SC+ immunostaining distinguishes HLRCC leiomyomas from sporadic ones."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Fumarate accumulation stabilizes HIF-1α (pseudohypoxia) → VEGF transcription → tumor angiogenesis; this is the therapeutic handle in FH-deficient RCC — bevacizumab (anti-VEGF) plus erlotinib (anti-EGFR) achieves ~65% response, far exceeding VEGFR-TKIs like sunitinib."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "HLRCC causes the most aggressive hereditary kidney cancer — collecting-duct-like/type-2B papillary RCC that can metastasize even at 1-2 cm; radical (not partial) nephrectomy with lymphadenectomy is preferred, and annual renal MRI surveillance starts at genetic diagnosis."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -171,6 +180,9 @@ Cutaneous:
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — HLRCC-associated RCC driven by HIF-1α pseudohypoxia (FH LOF → PHD inhibition → HIF-1α stabilized); VEGF/HIF-1α pathway active; bevacizumab (anti-VEGF) + erlotinib standard for HLRCC RCC; HIF-2α inhibitor belzutifan being explored in FH-deficient RCC
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — HLRCC-associated RCC is pseudohypoxic similar to VHL-mutant ccRCC (both have HIF-1α and VEGF overexpression); histologically distinct (type 2B papillary/collecting duct-like, NOT clear cell); anti-VEGF therapies active in both; belzutifan explored in FH-deficient RCC
 - `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — HLRCC-associated RCC: most aggressive hereditary RCC; collecting duct-like/papillary type 2B; often metastatic at diagnosis; FH IHC loss + 2SC positivity diagnostic; bevacizumab + erlotinib standard (NCI Phase 2, ORR ~64%, mPFS 21 months); sunitinib/pazopanib insufficient
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — HLRCC produces multiple smooth muscle tumors (leiomyomas): painful cutaneous nodules from arrector pili muscle and early-onset, large, multiple uterine fibroids; biallelic FH loss drives them, and FH-/2SC+ immunostaining distinguishes HLRCC leiomyomas from sporadic ones.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Fumarate accumulation stabilizes HIF-1α (pseudohypoxia) → VEGF transcription → tumor angiogenesis; this is the therapeutic handle in FH-deficient RCC — bevacizumab (anti-VEGF) plus erlotinib (anti-EGFR) achieves ~65% response, far exceeding VEGFR-TKIs like sunitinib.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — HLRCC causes the most aggressive hereditary kidney cancer — collecting-duct-like/type-2B papillary RCC that can metastasize even at 1-2 cm; radical (not partial) nephrectomy with lymphadenectomy is preferred, and annual renal MRI surveillance starts at genetic diagnosis.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
