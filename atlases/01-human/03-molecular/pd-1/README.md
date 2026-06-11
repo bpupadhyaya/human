@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-κB directly drives PD-L1 (CD274) transcription in tumors and inflammatory contexts; KRAS, EGFR, and PI3K pathways converge on NF-κB to upregulate PD-L1 — adaptive immune resistance mechanism that allows tumors to suppress tumor-infiltrating CTL attack."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "CTLA-4 and PD-1 are complementary checkpoints: CTLA-4 acts at the priming phase (lymph node; competes with CD28 for B7-1/B7-2); PD-1 acts at the effector phase (tumor); ipilimumab+nivolumab dual blockade: 5-year OS 52% in melanoma; sequential resistance mechanisms exist."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "IFN-γ from tumor-infiltrating CTLs → JAK1/2 → STAT1 → IRF1 → CD274 promoter → PD-L1 — termed adaptive immune resistance; IFN-γ is both anti-tumor (killing, macrophage activation) and pro-evasion (PD-L1 induction); JAK1/2 LOF → resistance to IFN-γ → anti-PD-1 resistance."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC directly drives CD274 (PD-L1) transcription via E-box elements; MYC amplification correlates with high PD-L1 in TNBC, lymphoma, and NSCLC; BET inhibitors (JQ1) target MYC → reduce PD-L1; MYC-PD-L1 axis links oncogene amplification to adaptive immune checkpoint upregulation."
 ---
 
 # PD-1
@@ -145,6 +154,12 @@ Anti-PD-1 therapy can rescue **progenitor exhausted T cells** (PD-1+TCF1+; stem-
 - `modulated-by` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — PD-1 on follicular Th (Tfh) and effector CD4+ cells suppresses GC reactions and Th-dependent immunity; anti-PD-1 also restores helper T cell function, augmenting tumor-specific B cell and CTL responses.
 - `connects-to` → **[KRAS](../kras/README.md)** — oncogenic KRAS upregulates PD-L1 via MEK→ERK and NF-κB; KRAS inhibition reduces PD-L1 — rationale for combining KRAS and PD-1 pathway inhibitors in NSCLC and CRC trials.
 - `connects-to` → **[NF-κB](../nf-kb/README.md)** — NF-κB directly transcribes PD-L1 in tumors; KRAS, PI3K, and EGFR pathways converge on NF-κB to drive adaptive immune resistance through PD-L1 upregulation.
+- `connects-to` → **[CTLA-4](../ctla-4/README.md)** — CTLA-4 and PD-1 are complementary checkpoints: CTLA-4 acts at the priming phase (lymph node; competes with CD28 for B7-1/B7-2); PD-1 acts at the effector phase (tumor); ipilimumab+nivolumab dual blockade: 5-year OS 52% in melanoma; sequential resistance mechanisms exist.
+- `connects-to` → **[IFN-γ](../ifn-gamma/README.md)** — IFN-γ from tumor-infiltrating CTLs → JAK1/2 → STAT1 → IRF1 → CD274 promoter → PD-L1 — termed adaptive immune resistance; IFN-γ is both anti-tumor (killing, macrophage activation) and pro-evasion (PD-L1 induction); JAK1/2 LOF → resistance to IFN-γ → anti-PD-1 resistance.
+- `connects-to` → **[MYC](../myc/README.md)** — MYC directly drives CD274 (PD-L1) transcription via E-box elements; MYC amplification correlates with high PD-L1 in TNBC, lymphoma, and NSCLC; BET inhibitors (JQ1) target MYC → reduce PD-L1; MYC-PD-L1 axis links oncogene amplification to adaptive immune checkpoint upregulation.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^ishida-1992-pd1]: Ishida Y, Agata Y, Shibahara K, Honjo T. Induced expression of PD-1, a novel member of the immunoglobulin gene superfamily, upon programmed cell death. *EMBO J.* 1992;11(11):3887-3895. [doi:10.1002/j.1460-2075.1992.tb05481.x](https://doi.org/10.1002/j.1460-2075.1992.tb05481.x) · [PubMed 1396582](https://pubmed.ncbi.nlm.nih.gov/1396582/)
 [^dong-2002-pdl1-tumor]: Dong H, Strome SE, Salomao DR, et al. Tumor-associated B7-H1 promotes T-cell apoptosis: a potential mechanism of immune evasion. *Nat Med.* 2002;8(8):793-800. [doi:10.1038/nm730](https://doi.org/10.1038/nm730) · [PubMed 12091876](https://pubmed.ncbi.nlm.nih.gov/12091876/)

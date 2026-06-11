@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "GLI1/GLI2 transcription factors directly bind and activate the BCL-2 promoter → resistance to apoptosis in BCC; BCL-2 overexpression in BCC (~90%) contributes to resistance to vismodegib; BCL-2 inhibitors (venetoclax) under study in vismodegib-resistant or advanced BCC."
+  - target: 01-human/03-molecular/ptch1
+    relation: connects-to
+    note: "PTCH1 inhibits SMO by depleting cholesterol from the ciliary membrane; HH binding to PTCH1 → PTCH1 internalized → SMO accumulates in cilium; PTCH1 LOF (germline Gorlin, somatic BCC) = constitutive SMO; PTCH1 and SMO are the dominant BCC driver genes (~90% and ~40% respectively)."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "SMO activating mutations (D473H, W535L, V321M) in ~40-50% sporadic BCC; PTCH1 LOF in ~85-90% of BCC; vismodegib and sonidegib target the 7TM allosteric pocket of SMO; cemiplimab (anti-PD-1) approved after SMO inhibitor failure in advanced BCC; BCC is the most common human cancer."
+  - target: 01-human/03-molecular/sufu
+    relation: connects-to
+    note: "SMO activation → SUFU-GLI targeted to cilium tip → SUFU-GLI dissociation → GLI2/3 full-length activators released to nucleus; SUFU LOF mimics constitutive SMO (both yield GLI nuclear) but is SMO-inhibitor-resistant; SMO → KIF7 kinase → promotes SUFU-GLI separation at cilium."
 ---
 
 # SMO
@@ -161,6 +170,12 @@ Most cancer cells lose primary cilia during dedifferentiation → may lose canon
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Hedgehog and Notch pathways interact during embryonic development and cancer; SMO → GLI → activates NOTCH target genes (HES1, HEY1) → cooperative self-renewal in Hh/Notch-active tumor stem cells; both pathways activated in medulloblastoma SHH subgroup and basal cell carcinoma.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — SMO → GLI → direct transcription of MYC at the GLI-binding site in the MYC promoter; GLI-MYC axis drives proliferation in BCC and medulloblastoma; MYC amplification in medulloblastoma SHH-high-risk subgroup; cyclin D1 is also a GLI target → CDK4/6-RB pathway engagement.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — GLI1/GLI2 transcription factors directly bind and activate the BCL-2 promoter → resistance to apoptosis in BCC; BCL-2 overexpression in BCC (~90%) contributes to resistance to vismodegib; BCL-2 inhibitors (venetoclax) under study in vismodegib-resistant or advanced BCC.
+- `connects-to` → **[PTCH1](../../03-molecular/ptch1/README.md)** — PTCH1 inhibits SMO by depleting cholesterol from the ciliary membrane; HH binding to PTCH1 → PTCH1 internalized → SMO accumulates in cilium; PTCH1 LOF (germline Gorlin, somatic BCC) = constitutive SMO; PTCH1 and SMO are the dominant BCC driver genes (~90% and ~40% respectively).
+- `connects-to` → **[Basal Cell Carcinoma](../../07-system/basal-cell-carcinoma/README.md)** — SMO activating mutations (D473H, W535L, V321M) in ~40-50% sporadic BCC; PTCH1 LOF in ~85-90% of BCC; vismodegib and sonidegib target the 7TM allosteric pocket of SMO; cemiplimab (anti-PD-1) approved after SMO inhibitor failure in advanced BCC; BCC is the most common human cancer.
+- `connects-to` → **[SUFU](../../03-molecular/sufu/README.md)** — SMO activation → SUFU-GLI targeted to cilium tip → SUFU-GLI dissociation → GLI2/3 full-length activators released to nucleus; SUFU LOF mimics constitutive SMO (both yield GLI nuclear) but is SMO-inhibitor-resistant; SMO → KIF7 kinase → promotes SUFU-GLI separation at cilium.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sekulic-2012-vismodegib]: Sekulic A, Migden MR, Oro AE, et al. Efficacy and safety of vismodegib in advanced basal-cell carcinoma. *N Engl J Med.* 2012;366(23):2171-2179. [doi:10.1056/NEJMoa1113600](https://doi.org/10.1056/NEJMoa1113600) · [PubMed 22670902](https://pubmed.ncbi.nlm.nih.gov/22670902/)
 [^tang-2012-vismodegib]: Tang JY, Mackay-Wiggan JM, Aszterbaum M, et al. Inhibiting the hedgehog pathway in patients with the basal-cell nevus syndrome. *N Engl J Med.* 2012;366(23):2180-2188. [doi:10.1056/NEJMoa1113538](https://doi.org/10.1056/NEJMoa1113538) · [PubMed 22670904](https://pubmed.ncbi.nlm.nih.gov/22670904/)
