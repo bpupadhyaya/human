@@ -27,6 +27,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "2-AG is elevated in striatum during high-palatability food consumption; CB1R hyperactivation drives palatability-motivated binge eating; rimonabant (CB1R inverse agonist) reduced binge eating but caused psychiatric adverse events; eCB-dopamine interaction drives food craving."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Binge eating disorder and anorexia sit at opposite ends of the eating-disorder spectrum — loss-of-control overeating without compensation versus rigid restriction; unlike anorexia, BED affects men nearly as often and usually presents with obesity."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Half to two-thirds of people with binge eating disorder have obesity, from the recurrent caloric excess of binges; this links BED to diabetes, hypertension, and sleep apnea, and is why treatment targets the binge behavior rather than weight alone."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "GLP-1 agonists like semaglutide are emerging BED treatments: by enhancing satiety and dampening food reward, they cut binge frequency and weight, complementing lisdexamfetamine — the only FDA-approved BED drug, which instead targets dopamine/norepinephrine salience."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -188,6 +197,12 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — BED features OFC hyperactivation to food cues (paralleling drug cue reactivity in substance use disorders), impaired vmPFC inhibitory control over binge impulses, insula hyperactivation during food craving, and dorsal striatum hypoactivation reflecting a shift from goal-directed to habitual eating patterns.
 
 - `connects-to` → **[Endocannabinoid System](../../../03-molecular/endocannabinoid/README.md)** — 2-AG is elevated in striatum during high-palatability food consumption → CB1R → enhanced dopamine release → increased palatability and continued eating; CB1R in hypothalamus signals energy deficit and drives feeding; rimonabant (CB1R inverse agonist) reduced binge eating and weight but caused psychiatric adverse effects leading to withdrawal worldwide.
+
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Binge eating disorder and anorexia sit at opposite ends of the eating-disorder spectrum — loss-of-control overeating without compensation versus rigid restriction; unlike anorexia, BED affects men nearly as often and usually presents with obesity.
+
+- `connects-to` → **[Obesity](../obesity/README.md)** — Half to two-thirds of people with binge eating disorder have obesity, from the recurrent caloric excess of binges; this links BED to diabetes, hypertension, and sleep apnea, and is why treatment targets the binge behavior rather than weight alone.
+
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 agonists like semaglutide are emerging BED treatments: by enhancing satiety and dampening food reward, they cut binge frequency and weight, complementing lisdexamfetamine — the only FDA-approved BED drug, which instead targets dopamine/norepinephrine salience.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

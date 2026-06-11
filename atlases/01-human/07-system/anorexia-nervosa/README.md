@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "AN shows gray matter reduction in OFC, insular cortex, and cingulate; fMRI reveals altered insula processing of food cues and reduced striatal reward responses; OFC hyperactivation drives cognitive rigidity; much gray matter recovers with weight restoration over 1-2 years."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Anorexia and binge eating disorder are opposite poles of the eating-disorder spectrum — restriction versus loss-of-control overeating — yet share reward-circuit dysregulation; AN's binge-purge subtype blurs the line, and unlike BED, AN carries the highest psychiatric mortality."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart drives much of anorexia's lethality: starvation lowers catecholamines and electrolyte loss prolongs the QT interval → fatal arrhythmia, while refeeding can precipitate acute heart failure — which is why cardiac monitoring and slow refeeding are central to AN care."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Severe anorexia transforms the bone marrow: fat is replaced by gelatinous ground substance (serous atrophy) and haematopoiesis shuts down, producing the anaemia, leukopenia, and thrombocytopenia of advanced AN; like most AN complications it reverses with weight restoration."
 ---
 
 # Anorexia Nervosa
@@ -197,6 +206,12 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[BDNF](../../../03-molecular/bdnf/README.md)** — BDNF Val66Met SNP associated with severe early-onset AN; hypothalamic BDNF regulates appetite via PVN-TrkB signaling; serum BDNF is reduced in acute AN and partially normalizes with weight restoration; BDNF dysregulation may contribute to AN's appetite circuit dysfunction.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — AN shows gray matter reduction (OFC, insula, cingulate); fMRI reveals altered insula processing of food cues, reduced striatal reward responses, and OFC hyperactivation driving cognitive rigidity; much gray matter recovers with weight restoration over 1-2 years.
+
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Anorexia and binge eating disorder are opposite poles of the eating-disorder spectrum — restriction versus loss-of-control overeating — yet share reward-circuit dysregulation; AN's binge-purge subtype blurs the line, and unlike BED, AN carries the highest psychiatric mortality.
+
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart drives much of anorexia's lethality: starvation lowers catecholamines and electrolyte loss prolongs the QT interval → fatal arrhythmia, while refeeding can precipitate acute heart failure — which is why cardiac monitoring and slow refeeding are central to AN care.
+
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Severe anorexia transforms the bone marrow: fat is replaced by gelatinous ground substance (serous atrophy) and haematopoiesis shuts down, producing the anaemia, leukopenia, and thrombocytopenia of advanced AN; like most AN complications it reverses with weight restoration.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
