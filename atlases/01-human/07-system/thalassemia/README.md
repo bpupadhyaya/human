@@ -45,6 +45,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Activin A/B → ActRIIB on late erythroblasts → SMAD2/3 → maturation block → ineffective erythropoiesis in beta-thalassemia; luspatercept (BELIEVE trial: 21% achieved ≥33% transfusion reduction vs. 4.5% placebo) traps activin A/B → accelerates terminal erythroid differentiation."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "In thalassemia the imbalance of α and β globin leaves unpaired chains that precipitate inside red cells, so most erythroblasts die in the marrow before maturing (ineffective erythropoiesis) and survivors are microcytic, hypochromic target cells that haemolyse."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Thalassemia causes iron overload despite anaemia: ineffective erythropoiesis releases erythroferrone that suppresses hepcidin, so dietary iron pours in unchecked and transfusions add more; the excess poisons heart, liver, and endocrine glands, making chelation lifesaving."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Iron-loaded cardiomyocytes make the heart the leading killer in undertreated thalassaemia major: NTBI enters via calcium channels → Fenton free radicals → arrhythmia and cardiomyopathy; cardiac MRI T2* (<10 ms = severe) guides chelation before heart failure."
 ---
 
 # Thalassemia
@@ -198,6 +207,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — HbSβ-thalassemia (HbS + β-thal allele) is a common SCD genotype; severity depends on β-thal allele type (β⁰ = severe SCA-like; β⁺ = milder); gene therapy approaches (Zynteglo, Casgevy) target both SCD and β-thal major as overlapping haemoglobinopathies.
 - `connects-to` → **[G6PD](../../03-molecular/g6pd/README.md)** — Thalassaemia (HbE/β-thal most common in SEA) co-occurs with G6PD Mahidol/Viangchan; G6PD deficiency + beta-thalassaemia → additive oxidant haemolysis; G6PD screening is recommended in thalassaemia; both adaptations cluster in malaria-endemic regions by balanced selection.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Activin A/B → ActRIIB on late erythroblasts → SMAD2/3 → maturation block → ineffective erythropoiesis in beta-thalassemia; luspatercept (BELIEVE trial: 21% achieved ≥33% transfusion reduction vs. 4.5% placebo) traps activin A/B → accelerates terminal erythroid differentiation.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — In thalassemia the imbalance of α and β globin leaves unpaired chains that precipitate inside red cells, so most erythroblasts die in the marrow before maturing (ineffective erythropoiesis) and survivors are microcytic, hypochromic target cells that haemolyse.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Thalassemia causes iron overload despite anaemia: ineffective erythropoiesis releases erythroferrone that suppresses hepcidin, so dietary iron pours in unchecked and transfusions add more; the excess poisons heart, liver, and endocrine glands, making chelation lifesaving.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Iron-loaded cardiomyocytes make the heart the leading killer in undertreated thalassaemia major: NTBI enters via calcium channels → Fenton free radicals → arrhythmia and cardiomyopathy; cardiac MRI T2* (<10 ms = severe) guides chelation before heart failure.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

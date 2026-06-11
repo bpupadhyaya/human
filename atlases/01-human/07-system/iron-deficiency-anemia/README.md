@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "Iron deficiency partially protective against P. falciparum (iron-restricted parasites grow less vigorously); iron supplementation in endemic areas should follow malaria treatment to avoid feeding parasites; IDA and malaria co-exist in sub-Saharan Africa."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency anaemia is, at root, a shortage of the element iron: each haemoglobin tetramer needs four iron atoms, so when absorbed iron (~1-2 mg/day) cannot keep up with loss or demand, stores empty (low ferritin) and haem synthesis stalls, yielding small, pale red cells."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "In a man or postmenopausal woman, unexplained iron deficiency anaemia is colorectal cancer until proven otherwise: a slow-bleeding right-sided tumour drips occult blood into the gut, so guidelines mandate colonoscopy to find the source before treating the anaemia."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "Helicobacter pylori is an under-recognised cause of refractory iron deficiency: chronic gastritis lowers the stomach acid needed to reduce Fe³⁺ for absorption and the bacterium competes for iron, so eradicating H. pylori can reverse a deficiency that resisted oral iron."
 ---
 
 # Iron Deficiency Anemia
@@ -166,6 +175,9 @@ Iron is essential for:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Iron deficiency limits erythropoiesis despite adequate EPO: iron-restricted erythroid progenitors cannot synthesize haem → EPO-resistant microcytic anemia; elevated EPO in IDA reflects compensatory drive; IV iron + ESA combined is more effective than either alone.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — IDA's defining feature is microcytic hypochromic anemia from insufficient haem synthesis; iron depletion → reduced haem → smaller, paler RBCs (↓MCV, ↓MCH); Hgb electrophoresis may show elevated HbA₂ if concurrent β-thalassaemia trait makes IDA appear milder.
 - `connects-to` → **[Malaria](../malaria/README.md)** — Iron deficiency partially protective against P. falciparum (iron-restricted parasites grow less vigorously); iron supplementation in endemic areas should follow malaria treatment to avoid feeding parasites; IDA and malaria co-exist in sub-Saharan Africa.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency anaemia is, at root, a shortage of the element iron: each haemoglobin tetramer needs four iron atoms, so when absorbed iron (~1-2 mg/day) cannot keep up with loss or demand, stores empty (low ferritin) and haem synthesis stalls, yielding small, pale red cells.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — In a man or postmenopausal woman, unexplained iron deficiency anaemia is colorectal cancer until proven otherwise: a slow-bleeding right-sided tumour drips occult blood into the gut, so guidelines mandate colonoscopy to find the source before treating the anaemia.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Helicobacter pylori is an under-recognised cause of refractory iron deficiency: chronic gastritis lowers the stomach acid needed to reduce Fe³⁺ for absorption and the bacterium competes for iron, so eradicating H. pylori can reverse a deficiency that resisted oral iron.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
