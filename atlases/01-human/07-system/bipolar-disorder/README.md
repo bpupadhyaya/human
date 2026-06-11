@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "Bipolar disorder features amygdala hyperreactivity and reduced vmPFC regulation; hippocampal volume is reduced ~6% (BD-I); DLPFC shows reduced activation during working memory tasks; lithium partially reverses hippocampal atrophy with long-term use."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Bipolar disorder shares neurodevelopmental genetics with autism: risk loci including SHANK2 and the CACNA1C calcium channel span both (and schizophrenia), and BD occurs more often in autistic people — recasting it as partly a neurodevelopmental, not purely mood, disorder."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Bipolar disorder and schizophrenia share ~70% of their GWAS risk loci and a neurodevelopmental origin: BD-I mania is psychotic in ~60% of episodes, and the two lie on a continuum — a major reason the boundaries between mood and psychotic disorders are blurred."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Bipolar disorder is repeatedly misdiagnosed as major depressive disorder because depressive episodes usually come first — a 7-10 year delay — and treating that depression with an SSRI alone risks flipping into mania, so every depression should be screened for past hypomania."
 ---
 
 # Bipolar Disorder
@@ -186,6 +195,12 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[GABA](../../../03-molecular/gaba/README.md)** — valproate potentiates GABA-A function and blocks voltage-gated Na⁺/Ca²⁺ channels; GABA deficiency in PFC is associated with bipolar depression; benzodiazepines provide acute antimanic sedation via GABA-A agonism.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — bipolar disorder features amygdala hyperreactivity and reduced vmPFC regulation; hippocampal volume is reduced ~6% (BD-I); DLPFC shows reduced working memory activation; long-term lithium partially reverses hippocampal volume loss.
+
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Bipolar disorder shares neurodevelopmental genetics with autism: risk loci including SHANK2 and the CACNA1C calcium channel span both (and schizophrenia), and BD occurs more often in autistic people — recasting it as partly a neurodevelopmental, not purely mood, disorder.
+
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Bipolar disorder and schizophrenia share ~70% of their GWAS risk loci and a neurodevelopmental origin: BD-I mania is psychotic in ~60% of episodes, and the two lie on a continuum — a major reason the boundaries between mood and psychotic disorders are blurred.
+
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Bipolar disorder is repeatedly misdiagnosed as major depressive disorder because depressive episodes usually come first — a 7-10 year delay — and treating that depression with an SSRI alone risks flipping into mania, so every depression should be screened for past hypomania.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

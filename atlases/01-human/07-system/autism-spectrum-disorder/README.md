@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "AVPR1A promoter microsatellites (RS1, RS3) associate with ASD social behavior; V1aR in lateral septum mediates social recognition memory; V1aR-KO mice show impaired social memory; intranasal vasopressin is in Phase 2 trials for ASD social communication deficits."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Autism is in large part a disorder of the synapse: de novo mutations in scaffold proteins that organize the postsynaptic density tip neurons toward an excitation-inhibition imbalance, and ASD brains show early cortical neuron overgrowth then reduced long-range connectivity."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Autism and epilepsy frequently co-occur (roughly 20-30%), both reflecting cortical excitation-inhibition imbalance and often the same genes — SCN, GABA-receptor, and mTOR-pathway mutations cause both; shared E/I biology makes epilepsy one of ASD's key medical comorbidities."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Autism, bipolar disorder, and schizophrenia sit on an overlapping neurodevelopmental and genetic continuum: risk loci such as SHANK2 and the CACNA1C calcium channel are shared across all three, and bipolar disorder is a notable comorbidity in autistic people."
 ---
 
 # Autism Spectrum Disorder
@@ -193,6 +202,12 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — ASD features amygdala hyperreactivity to faces, atypical gaze processing via STS, reduced DMN connectivity, early cortical overgrowth followed by reduced long-range white matter connectivity, and consistent local-over-global processing bias.
 - `connects-to` → **[Vasopressin](../../../03-molecular/vasopressin/README.md)** — AVPR1A promoter microsatellites (RS1, RS3) associate with ASD social behavior; V1aR in lateral septum mediates social recognition memory; V1aR-KO mice show impaired social memory; intranasal vasopressin is in Phase 2 trials for ASD social communication deficits.
+
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Autism is in large part a disorder of the synapse: de novo mutations in scaffold proteins that organize the postsynaptic density tip neurons toward an excitation-inhibition imbalance, and ASD brains show early cortical neuron overgrowth then reduced long-range connectivity.
+
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Autism and epilepsy frequently co-occur (roughly 20-30%), both reflecting cortical excitation-inhibition imbalance and often the same genes — SCN, GABA-receptor, and mTOR-pathway mutations cause both; shared E/I biology makes epilepsy one of ASD's key medical comorbidities.
+
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Autism, bipolar disorder, and schizophrenia sit on an overlapping neurodevelopmental and genetic continuum: risk loci such as SHANK2 and the CACNA1C calcium channel are shared across all three, and bipolar disorder is a notable comorbidity in autistic people.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
