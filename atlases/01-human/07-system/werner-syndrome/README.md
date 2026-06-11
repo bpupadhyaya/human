@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Werner syndrome causes early-onset osteoporosis from ~30s (generalized cortical bone loss, vertebral compression fractures); mechanism: premature osteoblast senescence via WRN LOF → reduced bone formation; managed with bisphosphonates, calcium, vitamin D supplementation."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Werner syndrome fibroblasts are a classic cellular model of aging: lacking WRN helicase they senesce after only ~20 population doublings (vs ~60 normal), accumulate chromosomal rearrangements, and pour out a senescence-associated secretory phenotype that ages surrounding tissue."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Bilateral posterior subcapsular cataracts develop in nearly all Werner patients by their 30s — decades before age-related cataracts — and are often the presenting sign that should trigger WRN testing; they are managed with routine phacoemulsification and lens implantation."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Accelerated atherosclerosis is the leading killer in Werner syndrome, producing myocardial infarction and stroke roughly 30 years early, compounded by the syndrome's diabetes and dyslipidemia; aggressive statins, antihypertensives, and antiplatelet therapy begin in the 30s."
 ---
 
 # Werner Syndrome
@@ -202,6 +211,9 @@ cross_links:
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Accelerated telomere attrition in Werner syndrome fibroblasts due to WRN LOF → TERT cannot elongate G-quadruplex-obstructed telomeres → critically short telomeres → replicative senescence → progeroid cell behavior; WRN and TERT cooperate at telomeres to enable their maintenance.
 - `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — Werner syndrome features early-onset type 2 diabetes (~50-75% of patients) due to adipose redistribution and insulin resistance; dyslipidemia (hypertriglyceridemia, low HDL) is also characteristic; T2DM is treated with standard glucose-lowering agents and lifestyle modification.
 - `connects-to` → **[Osteoporosis](../../07-system/osteoporosis/README.md)** — Werner syndrome causes early-onset osteoporosis from ~30s (generalized cortical bone loss, vertebral compression fractures); mechanism: premature osteoblast senescence via WRN LOF → reduced bone formation; managed with bisphosphonates, calcium, vitamin D supplementation.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Werner syndrome fibroblasts are a classic cellular model of aging: lacking WRN helicase they senesce after only ~20 population doublings (vs ~60 normal), accumulate chromosomal rearrangements, and pour out a senescence-associated secretory phenotype that ages surrounding tissue.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Bilateral posterior subcapsular cataracts develop in nearly all Werner patients by their 30s — decades before age-related cataracts — and are often the presenting sign that should trigger WRN testing; they are managed with routine phacoemulsification and lens implantation.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Accelerated atherosclerosis is the leading killer in Werner syndrome, producing myocardial infarction and stroke roughly 30 years early, compounded by the syndrome's diabetes and dyslipidemia; aggressive statins, antihypertensives, and antiplatelet therapy begin in the 30s.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

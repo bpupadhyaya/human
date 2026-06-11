@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "IGF2 overexpression (~75% Wilms tumor via 11p15 imprinting loss) → IGF1R → PI3K-AKT-mTOR → proliferation; everolimus explored in relapsed Wilms; DROSHA/DGCR8 mutations impair miRNA biogenesis → mTOR derepression."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Wilms tumor (nephroblastoma) is the most common childhood kidney cancer, arising at age 3-4 from persistent, undifferentiated metanephric blastema; radical nephrectomy is the backbone, with nephron-sparing surgery reserved for bilateral disease to preserve renal function."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "WT1 is essential for podocyte function, so the WT1 mutations that cause Wilms tumor also cause glomerular disease: Denys-Drash (missense) brings diffuse mesangial sclerosis and infantile nephrotic syndrome, while Frasier (KTS splice) causes focal segmental glomerulosclerosis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "The commonest molecular change in Wilms tumor (~75%) is loss of imprinting at 11p15 that doubles IGF2 dosage; excess IGF2 signals through IGF1R to PI3K-AKT-mTOR, driving nephroblast proliferation — the same locus whose disruption underlies Beckwith-Wiedemann overgrowth."
 ---
 
 # Wilms Tumor
@@ -168,6 +177,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CTNNB1 activating mutations occur in ~15-20% Wilms tumor, co-occurring with WT1 mutations; nuclear β-catenin marks the blastemal component; WNT activation promotes blastema self-renewal and prevents epithelial differentiation; WNT inhibitors studied preclinically.
 - `connects-to` → **[P53](../../03-molecular/p53/README.md)** — TP53 mutations occur in ~70% of diffuse anaplastic Wilms (unfavorable histology); anaplasia is the strongest adverse prognostic factor; TP53 drives resistance to standard chemotherapy; anaplastic WT requires alkylator-based intensification (cyclophosphamide/etoposide).
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — IGF2 overexpression (~75% Wilms tumor via 11p15 imprinting loss) → IGF1R → PI3K-AKT-mTOR → proliferation; everolimus explored in relapsed Wilms; DROSHA/DGCR8 mutations impair miRNA biogenesis → mTOR derepression.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Wilms tumor (nephroblastoma) is the most common childhood kidney cancer, arising at age 3-4 from persistent, undifferentiated metanephric blastema; radical nephrectomy is the backbone, with nephron-sparing surgery reserved for bilateral disease to preserve renal function.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — WT1 is essential for podocyte function, so the WT1 mutations that cause Wilms tumor also cause glomerular disease: Denys-Drash (missense) brings diffuse mesangial sclerosis and infantile nephrotic syndrome, while Frasier (KTS splice) causes focal segmental glomerulosclerosis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The commonest molecular change in Wilms tumor (~75%) is loss of imprinting at 11p15 that doubles IGF2 dosage; excess IGF2 signals through IGF1R to PI3K-AKT-mTOR, driving nephroblast proliferation — the same locus whose disruption underlies Beckwith-Wiedemann overgrowth.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
