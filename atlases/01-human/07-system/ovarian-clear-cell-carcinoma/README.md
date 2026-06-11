@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "ARID1A LOF in OCCC → PD-L1 upregulation via MLH1 suppression and IFN-γ signaling pathway enhancement; OCCC has higher PD-L1 expression than high-grade serous ovarian cancer; pembrolizumab + bevacizumab shows activity in PD-L1+ OCCC; durvalumab combination trials ongoing."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "PIK3CA mutations (~40-50%) in OCCC → PI3K/AKT → mTOR activation; temsirolimus Phase 2 in OCCC: ORR ~10-15%; alpelisib (PIK3CA inhibitor) explored in PIK3CA-mutant OCCC; PI3K/mTOR dual inhibitors studied; ARID1A LOF + PIK3CA → synthetic vulnerability to PI3K/mTOR inhibition."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "KRAS G12D/V mutations in ~15% of OCCC, enriched in endometriosis-associated OCCC; KRAS + ARID1A co-mutation in ~8-10%; MEK pathway activated in KRAS-mutant OCCC → MEK inhibitors explored; KRAS mutation is more prevalent in OCCC than HGSOC or endometrioid ovarian cancer."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "OCCC is distinct from HGSOC: OCCC (ARID1A/PIK3CA-driven, platinum-resistant, stage I-II at ~35-40%) vs HGSOC (TP53-universal, platinum-sensitive, stage III-IV at ~75%); OCCC lacks HRD enrichment; 5-year OS in advanced OCCC is worse than HGSOC despite identical chemotherapy."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -181,6 +190,13 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — ARID1A LOF disrupts cBAF → EZH2/PRC2 accesses ARID1A-target loci → H3K27me3 accumulation; OCCC with ARID1A LOF shows EZH2 dependency in preclinical models; tazemetostat under investigation in ARID1A-mutant OCCC; EZH2 + PARP inhibitor combination explored.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — ARID1A + PIK3CA co-mutation defines ~25-30% of ovarian clear cell carcinomas; PIK3CA → PI3K/AKT/mTOR → OCCC proliferation; ARID1A LOF + PIK3CA creates synthetic vulnerability to dual PI3K/mTOR inhibition; temsirolimus active in PIK3CA-mutant OCCC Phase 2.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ARID1A LOF in OCCC → PD-L1 upregulation via MLH1 suppression and IFN-γ signaling pathway enhancement; OCCC has higher PD-L1 expression than high-grade serous ovarian cancer; pembrolizumab + bevacizumab shows activity in PD-L1+ OCCC; durvalumab combination trials ongoing.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PIK3CA mutations (~40-50%) in OCCC → PI3K/AKT → mTOR activation; temsirolimus Phase 2 in OCCC: ORR ~10-15%; alpelisib (PIK3CA inhibitor) explored in PIK3CA-mutant OCCC; PI3K/mTOR dual inhibitors studied; ARID1A LOF + PIK3CA → synthetic vulnerability to PI3K/mTOR inhibition.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS G12D/V mutations in ~15% of OCCC, enriched in endometriosis-associated OCCC; KRAS + ARID1A co-mutation in ~8-10%; MEK pathway activated in KRAS-mutant OCCC → MEK inhibitors explored; KRAS mutation is more prevalent in OCCC than HGSOC or endometrioid ovarian cancer.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — OCCC is distinct from HGSOC: OCCC (ARID1A/PIK3CA-driven, platinum-resistant, stage I-II at ~35-40%) vs HGSOC (TP53-universal, platinum-sensitive, stage III-IV at ~75%); OCCC lacks HRD enrichment; 5-year OS in advanced OCCC is worse than HGSOC despite identical chemotherapy.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^jones-2010-arid1a-occc]: Jones S, Wang TL, Shih IeM, et al. Frequent mutations of chromatin remodeling gene ARID1A in ovarian clear cell carcinoma. *Science.* 2010;330(6001):228-231. [doi:10.1126/science.1196333](https://doi.org/10.1126/science.1196333) · [PubMed 20826764](https://pubmed.ncbi.nlm.nih.gov/20826764/)
 [^kim-2015-arid1a-ezh2]: Kim KH, Kim W, Howard TP, et al. SWI/SNF-mutant cancers depend on catalytic and non-catalytic activity of EZH2. *Nat Med.* 2015;21(12):1491-1496. [doi:10.1038/nm.3968](https://doi.org/10.1038/nm.3968) · [PubMed 26552009](https://pubmed.ncbi.nlm.nih.gov/26552009/)

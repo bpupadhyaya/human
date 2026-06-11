@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "MEN1 pNETs are classified and treated as well-differentiated NETs, not PDAC; surgical threshold is >2 cm for non-functioning pNETs; CLARINET trial: lanreotide autogel extended PFS vs placebo (HR 0.47) in G1/G2 gastroenteropancreatic NETs."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Everolimus (mTOR inhibitor, RADIANT-3) improved PFS from 4.6 to 11.0 months vs placebo in advanced pNET; mTOR constitutively activated by menin LOF via CDK4/6 → mTORC1; everolimus FDA-approved for non-functioning progressive pNET; sunitinib is the alternative VEGFR/PDGFR option."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulinoma occurs in ~10-20% of MEN1; autonomous insulin → hypoglycemia (Whipple's triad); often multifocal, small (<2 cm); diazoxide suppresses insulin secretion; EUS is most sensitive for small insulinoma localization; everolimus is anti-secretory in MEN1 insulinoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactinoma is the most common pituitary adenoma in MEN1 (~60% of pituitary lesions); hyperprolactinaemia → hypogonadism + galactorrhea; cabergoline/bromocriptine first-line; MEN1 prolactinomas are more cabergoline-resistant; transsphenoidal surgery for resistant cases."
 ---
 
 # MEN1 Syndrome
@@ -158,7 +167,14 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[MEN1](../../03-molecular/men1/README.md)** — Germline MEN1 mutations cause MEN1 syndrome by haploinsufficiency; somatic second-hit (LOH at 11q13) confirms two-hit model; menin LOF depletes H3K4me3 at CDKN1B/CDKN2C → CDK4/6 activation → neuroendocrine proliferation.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Somatostatin analogs (octreotide LAR, lanreotide autogel) are first-line for functional MEN1-associated NETs; Ga-68 DOTATATE PET/CT is preferred for staging; SSTR2 expression guides peptide receptor radionuclide therapy (PRRT) eligibility.
 - `connects-to` → **[Neuroendocrine Tumors](../../07-system/neuroendocrine-tumors/README.md)** — MEN1-associated pNETs are multifocal, arise earlier than sporadic NETs, and include functioning (insulinoma, gastrinoma) and non-functioning tumors; RADIANT-3 trial: everolimus (mTOR inhibitor) improved PFS from 4.6 to 11.0 months vs placebo in pNET.
-- `connects-to` → **[Pancreatic Cancer](../../07-system/pancreatic-cancer/README.md)** — MEN1 pNETs are classified and treated as well-differentiated NETs, not PDAC; surgical threshold is >2 cm for non-functioning pNETs; CLARINET trial: lanreotide autogel extended PFS vs placebo (HR 0.47) in G1/G2 gastroenteropancreatic NETs.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — MEN1 pNETs are classified and treated as well-differentiated NETs, not PDAC; surgical threshold is >2 cm for non-functioning pNETs; CLARINET trial: lanreotide autogel extended PFS vs placebo (HR 0.47) in G1/G2 gastroenteropancreatic NETs.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Everolimus (mTOR inhibitor, RADIANT-3) improved PFS from 4.6 to 11.0 months vs placebo in advanced pNET; mTOR constitutively activated by menin LOF via CDK4/6 → mTORC1; everolimus FDA-approved for non-functioning progressive pNET; sunitinib is the alternative VEGFR/PDGFR option.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulinoma occurs in ~10-20% of MEN1; autonomous insulin → hypoglycemia (Whipple's triad); often multifocal, small (<2 cm); diazoxide suppresses insulin secretion; EUS is most sensitive for small insulinoma localization; everolimus is anti-secretory in MEN1 insulinoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactinoma is the most common pituitary adenoma in MEN1 (~60% of pituitary lesions); hyperprolactinaemia → hypogonadism + galactorrhea; cabergoline/bromocriptine first-line; MEN1 prolactinomas are more cabergoline-resistant; transsphenoidal surgery for resistant cases.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^thakker-2012-men1-guidelines]: Thakker RV, Newey PJ, Walls GV, et al. Clinical practice guidelines for multiple endocrine neoplasia type 1 (MEN1). *J Clin Endocrinol Metab.* 2012;97(9):2990-3011. [doi:10.1210/jc.2012-1174](https://doi.org/10.1210/jc.2012-1174) · [PubMed 22392070](https://pubmed.ncbi.nlm.nih.gov/22392070/)
 [^chandrasekharappa-1997-men1]: Chandrasekharappa SC, Guru SC, Manickam P, et al. Positional cloning of the gene for multiple endocrine neoplasia-type 1. *Science.* 1997;276(5311):404-407. [doi:10.1126/science.276.5311.404](https://doi.org/10.1126/science.276.5311.404) · [PubMed 9103196](https://pubmed.ncbi.nlm.nih.gov/9103196/)
