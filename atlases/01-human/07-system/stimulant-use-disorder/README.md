@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Stimulant use disorders remodel VTA-NAcc circuits (ΔFosB, D2R loss), PFC (gray matter thinning, ↓ inhibitory control), and amygdala (cue craving); PET shows reduced DAT and D2R in striatum; meth causes DAT terminal destruction detectable on transporter imaging."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Cocaine is directly cardiotoxic: by blocking norepinephrine reuptake and triggering α1-adrenergic coronary vasospasm it can cause myocardial infarction even in young people, plus arrhythmia and aortic dissection — cocaine chest pain is a leading drug-related ED visit."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Stimulant and opioid use disorders engage the same VTA-NAcc dopamine reward system from opposite ends, and the two increasingly overlap: 'speedball' co-use and fentanyl-adulterated cocaine/meth now drive tens of thousands of stimulant-involved overdose deaths a year."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Heavy methamphetamine or cocaine use can produce a psychosis clinically indistinguishable from schizophrenia, reflecting shared excess striatal dopamine; the paranoid delusions and hallucinations may persist for weeks after the drug stops and are treated with antipsychotics."
 ---
 
 # Stimulant Use Disorder
@@ -173,6 +182,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — repeated cocaine/amphetamine drives ΔFosB accumulation in NAcc → altered BDNF/TrkB expression; BDNF in VTA sensitizes stimulant reward; withdrawal-phase BDNF changes contribute to depression and craving; BDNF dysregulation is a therapeutic target for relapse prevention.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — chronic stimulant use disrupts glutamate homeostasis in NAcc via reduced system Xc activity; drug cues trigger PFC→NAcc glutamate surges that drive craving; N-acetylcysteine (restores system Xc) and mGluR2/3 agonists (reduce prefrontal glutamate release) are in clinical trials for stimulant relapse prevention.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — stimulant use disorders remodel VTA-NAcc circuits (ΔFosB, D2R loss), PFC (gray matter thinning, impaired inhibitory control), amygdala (cue-conditioned craving), and LC-NE arousal circuits; PET shows reduced DAT and D2R in striatum of chronic users; meth causes DAT terminal destruction detectable by TRODAT/FP-CIT imaging.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cocaine is directly cardiotoxic: by blocking norepinephrine reuptake and triggering α1-adrenergic coronary vasospasm it can cause myocardial infarction even in young people, plus arrhythmia and aortic dissection — cocaine chest pain is a leading drug-related ED visit.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Stimulant and opioid use disorders engage the same VTA-NAcc dopamine reward system from opposite ends, and the two increasingly overlap: 'speedball' co-use and fentanyl-adulterated cocaine/meth now drive tens of thousands of stimulant-involved overdose deaths a year.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Heavy methamphetamine or cocaine use can produce a psychosis clinically indistinguishable from schizophrenia, reflecting shared excess striatal dopamine; the paranoid delusions and hallucinations may persist for weeks after the drug stops and are treated with antipsychotics.
 
 ## Treatment
 

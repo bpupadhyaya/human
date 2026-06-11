@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "OUD remodels VTA-NAcc reward circuits (MOR disinhibition), LC (NE rebound withdrawal), PFC control circuits (craving-driven approach), and amygdala (conditioned fear of withdrawal); buprenorphine and naltrexone normalize these circuit abnormalities over months of treatment."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Opioid use disorder centers on the μ-opioid receptor: on VTA GABA interneurons it disinhibits dopamine, on the locus coeruleus it sets up rebound withdrawal, and in the brainstem it drives respiratory depression — the target of buprenorphine, methadone, and naloxone."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Injecting opioids seeds the bloodstream with skin and needle bacteria, which lodge on heart valves — classically the tricuspid — to cause infective endocarditis, a high-mortality complication of injection drug use that may need valve surgery alongside OUD treatment."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Opioid and stimulant use disorders share the VTA-NAcc dopamine reward circuitry but pull in opposite directions, and are increasingly fatal together: 'speedball' combinations and fentanyl-contaminated stimulants drive a rising share of overdose deaths."
 ---
 
 # Opioid Use Disorder
@@ -211,6 +220,12 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Norepinephrine](../../../03-molecular/norepinephrine/README.md)** — μ-opioid receptors on LC suppress NE during opioid use; abrupt cessation → LC rebound → excess NE → withdrawal (diaphoresis, piloerection, tachycardia, diarrhea, anxiety); clonidine and lofexidine (α2 agonists) reduce LC hyperactivation and are FDA-approved for opioid withdrawal.
 
 - `targets` → **[Brain](../../../06-organ/brain/README.md)** — OUD remodels VTA-NAcc reward circuits (MOR disinhibition), LC (NE rebound withdrawal), PFC control circuits (craving-driven approach behavior), and amygdala (conditioned fear of withdrawal); buprenorphine and naltrexone normalize these circuit abnormalities over months of treatment.
+
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Opioid use disorder centers on the μ-opioid receptor: on VTA GABA interneurons it disinhibits dopamine, on the locus coeruleus it sets up rebound withdrawal, and in the brainstem it drives respiratory depression — the target of buprenorphine, methadone, and naloxone.
+
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Injecting opioids seeds the bloodstream with skin and needle bacteria, which lodge on heart valves — classically the tricuspid — to cause infective endocarditis, a high-mortality complication of injection drug use that may need valve surgery alongside OUD treatment.
+
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Opioid and stimulant use disorders share the VTA-NAcc dopamine reward circuitry but pull in opposite directions, and are increasingly fatal together: 'speedball' combinations and fentanyl-contaminated stimulants drive a rising share of overdose deaths.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
