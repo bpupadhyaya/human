@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "FN-integrin α5β1/αvβ3 signaling drives EMT in CRC → vimentin, N-cadherin, MMP production → invasion and liver metastasis; EDB-FN is overexpressed in CRC stroma; tumor FN correlates with lymph node metastasis and worse prognosis in stage II-III CRC."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Most colorectal cancers arise in the large intestine via the adenoma-carcinoma sequence, so colonoscopy with polypectomy is preventive; right-sided tumors bleed occultly (→ anemia) while left-sided ones obstruct, and rectal cancer is resected by total mesorectal excision."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Lynch syndrome (germline MMR loss) causes ~3% of colorectal cancer, producing dMMR/MSI-H tumors that are hypermutated and exquisitely sensitive to PD-1 blockade — pembrolizumab is now first-line for MSI-H metastatic CRC; universal MMR/MSI testing of all CRC is recommended."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 loss (~75% of CRC) is the rate-limiting step that converts an advanced adenoma into invasive carcinoma: 17p loss plus TP53 mutation removes the DNA-damage checkpoint, unleashing the chromosomal instability that lets cells breach the muscularis mucosae."
 ---
 
 # Colorectal Cancer
@@ -167,6 +176,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR is overexpressed in >80% of CRC; cetuximab and panitumumab improve OS in RAS-wild-type mCRC (CRYSTAL: cetuximab + FOLFIRI, PFS 9.9 vs. 8.4 months); RAS/RAF-wild-type status required for EGFR inhibitor benefit; left-sided primary strongly predicts EGFR inhibitor response.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E mutations (~8-10% of CRC) confer poor prognosis and EGFR inhibitor resistance; BEACON CRC: encorafenib + cetuximab → OS 9.3 vs. 5.9 months in BRAF V600E mCRC; single-agent BRAF inhibition is ineffective in CRC due to EGFR-driven feedback reactivation.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FN-integrin α5β1/αvβ3 signaling drives EMT in CRC → vimentin, N-cadherin, MMP production → invasion and liver metastasis; EDB-FN is overexpressed in CRC stroma; tumor FN correlates with lymph node metastasis and worse prognosis in stage II-III CRC.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Most colorectal cancers arise in the large intestine via the adenoma-carcinoma sequence, so colonoscopy with polypectomy is preventive; right-sided tumors bleed occultly (→ anemia) while left-sided ones obstruct, and rectal cancer is resected by total mesorectal excision.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome (germline MMR loss) causes ~3% of colorectal cancer, producing dMMR/MSI-H tumors that are hypermutated and exquisitely sensitive to PD-1 blockade — pembrolizumab is now first-line for MSI-H metastatic CRC; universal MMR/MSI testing of all CRC is recommended.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss (~75% of CRC) is the rate-limiting step that converts an advanced adenoma into invasive carcinoma: 17p loss plus TP53 mutation removes the DNA-damage checkpoint, unleashing the chromosomal instability that lets cells breach the muscularis mucosae.
 
 ---
 

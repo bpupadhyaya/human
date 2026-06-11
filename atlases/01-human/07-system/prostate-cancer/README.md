@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Testosterone fuels AR-driven prostate cancer; ADT (GnRH agonists/antagonists) is first-line for advanced disease; castration resistance arises via AR amplification, AR-V7, and adrenal androgen synthesis; abiraterone (CYP17A1 inhibitor) blocks residual androgens in CRPC."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The prostate is a male reproductive accessory gland encircling the urethra; ~70% of cancers arise in its peripheral zone (palpable on DRE) while benign hyperplasia crowds the transitional zone; localized disease may be watched, irradiated, or removed by radical prostatectomy."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "BRCA2 is the most important inherited prostate-cancer gene: germline BRCA2 raises risk 4-6× and predicts higher Gleason grade, and BRCA2/HRR deficiency makes tumors PARP-inhibitor-sensitive (olaparib PROfound); germline testing is recommended for all metastatic disease."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Over 85% of prostate-cancer metastases go to bone, where tumor cells drive osteoblasts to overproduce RANKL → osteoclast activation → a vicious cycle of bone destruction and growth-factor release; the anti-RANKL antibody denosumab reduces skeletal-related events."
 ---
 
 # Prostate Cancer
@@ -178,6 +187,9 @@ cross_links:
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1/2 and ATM mutations occur in ~25% of mCRPC (germline + somatic); HRR deficiency → PARP inhibitor sensitivity; olaparib (PROfound) and rucaparib (TRITON2) approved for BRCA-mutant mCRPC; germline testing recommended for all mCRPC patients.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — mTOR is activated downstream of PTEN loss in prostate cancer; mTOR inhibitors showed modest activity alone; combinations with AR-pathway inhibitors under study; TORC1/2 dual inhibitors with enzalutamide in trials for PTEN-null CRPC.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone fuels AR-driven prostate cancer; ADT (GnRH agonists/antagonists) is first-line for advanced disease; castration resistance arises via AR amplification, AR-V7, and adrenal androgen synthesis; abiraterone (CYP17A1 inhibitor) blocks residual androgens in CRPC.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The prostate is a male reproductive accessory gland encircling the urethra; ~70% of cancers arise in its peripheral zone (palpable on DRE) while benign hyperplasia crowds the transitional zone; localized disease may be watched, irradiated, or removed by radical prostatectomy.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 is the most important inherited prostate-cancer gene: germline BRCA2 raises risk 4-6× and predicts higher Gleason grade, and BRCA2/HRR deficiency makes tumors PARP-inhibitor-sensitive (olaparib PROfound); germline testing is recommended for all metastatic disease.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Over 85% of prostate-cancer metastases go to bone, where tumor cells drive osteoblasts to overproduce RANKL → osteoclast activation → a vicious cycle of bone destruction and growth-factor release; the anti-RANKL antibody denosumab reduces skeletal-related events.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
