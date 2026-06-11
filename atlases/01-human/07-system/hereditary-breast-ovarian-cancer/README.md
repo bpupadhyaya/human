@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "HBOC-associated ovarian cancer is predominantly high-grade serous carcinoma (HGSOC); BRCA1 germline: 44% lifetime risk; BRCA2: 17%; PALB2/RAD51C/D: 5-10%; bilateral salpingo-oophorectomy (BSO) at age 35-40 reduces ovarian cancer mortality; PARP inhibitors in maintenance."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "Germline ATM pathogenic variants confer ~20-30% lifetime breast cancer risk; elevated prostate (~6%) and pancreatic risk; biallelic ATM = ataxia-telangiectasia; ATM-germline BC is often ER+/luminal; NCCN recommends breast MRI from age 40 for ATM heterozygotes with family history."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "BRCA2 loads RAD51 monomers onto ssDNA at DSBs via eight BRC repeats → RAD51 filament → strand invasion (HR repair); BRCA2 LOF → RAD51 loading failure → error-prone NHEJ/MMEJ → tumorigenesis; RAD51 paralogs (RAD51C, RAD51D) each confer ~10-15% lifetime ovarian cancer risk in HBOC."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "HBOC causes ~5-10% of breast cancer; BRCA1-associated BC is predominantly TNBC (~60-80%) with peak onset at 30-40 years; BRCA2-associated BC is predominantly ER+ (~60-70%); olaparib (OlympiAD) and talazoparib (EMBRACA) are FDA-approved for germline BRCA1/2 HER2-neg metastatic BC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -174,7 +183,14 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[PALB2](../../03-molecular/palb2/README.md)** — Germline PALB2 pathogenic variants confer ~35-65% lifetime breast cancer risk (second after BRCA1/2); ~5-10% ovarian cancer risk (primarily HGSOC); biallelic PALB2 = Fanconi anemia FA-N; PARP inhibitors are active in PALB2-germline breast and pancreatic cancer.
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — BRCA1 germline variants confer the highest hereditary breast cancer risk (~55-72% lifetime) and ovarian cancer risk (~44%); BRCA1-mutant tumors are often triple-negative (ER-/PR-/HER2-) and high-grade; risk-reducing BSO at age 35 and bilateral mastectomy are standard options.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 germline variants confer ~45-69% lifetime breast cancer risk and ~17% ovarian cancer risk (lower than BRCA1); BRCA2-mutant breast cancer is often ER+/HER2-; olaparib and niraparib FDA-approved for BRCA-mutant metastatic breast cancer; risk-reducing BSO at age 40-45.
-- `connects-to` → **[Ovarian Cancer](../../07-system/ovarian-cancer/README.md)** — HBOC-associated ovarian cancer is predominantly high-grade serous carcinoma (HGSOC); BRCA1 germline: 44% lifetime risk; BRCA2: 17%; PALB2/RAD51C/D: 5-10%; bilateral salpingo-oophorectomy (BSO) at age 35-40 reduces ovarian cancer mortality; PARP inhibitors in maintenance.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — HBOC-associated ovarian cancer is predominantly high-grade serous carcinoma (HGSOC); BRCA1 germline: 44% lifetime risk; BRCA2: 17%; PALB2/RAD51C/D: 5-10%; bilateral salpingo-oophorectomy (BSO) at age 35-40 reduces ovarian cancer mortality; PARP inhibitors in maintenance.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Germline ATM pathogenic variants confer ~20-30% lifetime breast cancer risk; elevated prostate (~6%) and pancreatic risk; biallelic ATM = ataxia-telangiectasia; ATM-germline BC is often ER+/luminal; NCCN recommends breast MRI from age 40 for ATM heterozygotes with family history.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BRCA2 loads RAD51 monomers onto ssDNA at DSBs via eight BRC repeats → RAD51 filament → strand invasion (HR repair); BRCA2 LOF → RAD51 loading failure → error-prone NHEJ/MMEJ → tumorigenesis; RAD51 paralogs (RAD51C, RAD51D) each confer ~10-15% lifetime ovarian cancer risk in HBOC.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — HBOC causes ~5-10% of breast cancer; BRCA1-associated BC is predominantly TNBC (~60-80%) with peak onset at 30-40 years; BRCA2-associated BC is predominantly ER+ (~60-70%); olaparib (OlympiAD) and talazoparib (EMBRACA) are FDA-approved for germline BRCA1/2 HER2-neg metastatic BC.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^kuchenbaecker-2017-brca-risks]: Kuchenbaecker KB, Hopper JL, Barnes DR, et al. Risks of Breast, Ovarian, and Contralateral Breast Cancer for BRCA1 and BRCA2 Mutation Carriers. *JAMA.* 2017;317(23):2402-2416. [doi:10.1001/jama.2017.7112](https://doi.org/10.1001/jama.2017.7112) · [PubMed 28632853](https://pubmed.ncbi.nlm.nih.gov/28632853/)
 [^antoniou-2014-palb2-risk]: Antoniou AC, Casadei S, Heikkinen T, et al. Breast-cancer risk in families with mutations in PALB2. *N Engl J Med.* 2014;371(6):497-506. [doi:10.1056/NEJMoa1400382](https://doi.org/10.1056/NEJMoa1400382) · [PubMed 25099575](https://pubmed.ncbi.nlm.nih.gov/25099575/)

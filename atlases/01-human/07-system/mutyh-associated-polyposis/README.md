@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/fap
     relation: connects-to
     note: "MAP (biallelic MUTYH) mimics attenuated FAP (APC germline) but has autosomal recessive inheritance, fewer adenomas (10-100 vs >100 in FAP), later CRC onset (40-60s), and includes serrated polyps; genetic testing distinguishes both syndromes in apparent de novo polyposis."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "MUTYH-induced SBS18 (G:C→T:A transversions) drives KRAS G12C in ~70% of MAP-CRC; KRAS G12C is rare in sporadic CRC (~2-5%) but prevalent in NSCLC; G12C in CRC should prompt MUTYH germline testing; sotorasib and adagrasib (KRAS G12C inhibitors) show modest activity in CRC G12C."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MAP adenomas harbor somatic APC G→T transversions (SBS18) → APC loss → Wnt/β-catenin activation → adenoma initiation; MAP APC transversions create the same Wnt dysregulation as FAP germline truncations via MUTYH oxidative load; CTNNB1 G→T transversions also occur in MAP adenomas."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "MAP and Lynch are key non-FAP hereditary CRC syndromes: MAP (biallelic MUTYH, recessive, MSS, KRAS G12C) vs Lynch (MMR, dominant, MSI-H, extracolonic cancers); MAP is MSS → anti-PD-1 ICB inactive; Lynch MSI-H → pembrolizumab-responsive; germline testing distinguishes both."
 ---
 
 # MUTYH-Associated Polyposis
@@ -155,7 +164,14 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[MUTYH](../../03-molecular/mutyh/README.md)** — Germline biallelic MUTYH pathogenic variants cause MAP; two founder variants (Y179C and G396D) account for ~80% of Western MAP; monoallelic MUTYH carriers have modestly elevated CRC risk (~1.5-2x); MAP surveillance mimics FAP but with 1-2 year colonoscopy intervals.
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — MAP adenomas harbor somatic APC mutations driven by MUTYH-induced G:C→T:A transversions (SBS18); APC germline (FAP) and MUTYH biallelic (MAP) cause polyposis via distinct mechanisms (Wnt dysregulation vs oxidative mutational load); germline testing distinguishes both.
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — MAP-associated CRC is predominantly right-sided; MUTYH SBS18 signature drives KRAS G12C transversions in MAP-CRC; overall CRC risk ~40-75% lifetime by age 60; annual colonoscopy with polypectomy from age 25 is the primary prevention strategy.
-- `connects-to` → **[FAP](../../07-system/fap/README.md)** — MAP (biallelic MUTYH) mimics attenuated FAP (APC germline) but has autosomal recessive inheritance, fewer adenomas (10-100 vs >100 in FAP), later CRC onset (40-60s), and includes serrated polyps; genetic testing distinguishes both syndromes in apparent de novo polyposis.
+- `connects-to` → **[FAP](../fap/README.md)** — MAP (biallelic MUTYH) mimics attenuated FAP (APC germline) but has autosomal recessive inheritance, fewer adenomas (10-100 vs >100 in FAP), later CRC onset (40-60s), and includes serrated polyps; genetic testing distinguishes both syndromes in apparent de novo polyposis.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — MUTYH-induced SBS18 (G:C→T:A transversions) drives KRAS G12C in ~70% of MAP-CRC; KRAS G12C is rare in sporadic CRC (~2-5%) but prevalent in NSCLC; G12C in CRC should prompt MUTYH germline testing; sotorasib and adagrasib (KRAS G12C inhibitors) show modest activity in CRC G12C.
+- `connects-to` → **[Wnt/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MAP adenomas harbor somatic APC G→T transversions (SBS18) → APC loss → Wnt/β-catenin activation → adenoma initiation; MAP APC transversions create the same Wnt dysregulation as FAP germline truncations via MUTYH oxidative load; CTNNB1 G→T transversions also occur in MAP adenomas.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — MAP and Lynch are key non-FAP hereditary CRC syndromes: MAP (biallelic MUTYH, recessive, MSS, KRAS G12C) vs Lynch (MMR, dominant, MSI-H, extracolonic cancers); MAP is MSS → anti-PD-1 ICB inactive; Lynch MSI-H → pembrolizumab-responsive; germline testing distinguishes both.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sieber-2003-mutyh-map]: Sieber OM, Lipton L, Crabtree M, et al. Multiple colorectal adenomas, classic adenomatous polyposis, and germ-line mutations in MYH. *N Engl J Med.* 2003;348(9):791-799. [doi:10.1056/NEJMoa025283](https://doi.org/10.1056/NEJMoa025283) · [PubMed 12606733](https://pubmed.ncbi.nlm.nih.gov/12606733/)
 [^al-tassan-2002-mutyh]: Al-Tassan N, Chmiel NH, Maynard J, et al. Inherited variants of MYH associated with somatic G:C→T:A mutations in colorectal tumors. *Nat Genet.* 2002;30(2):227-232. [doi:10.1038/ng828](https://doi.org/10.1038/ng828) · [PubMed 11818965](https://pubmed.ncbi.nlm.nih.gov/11818965/)
