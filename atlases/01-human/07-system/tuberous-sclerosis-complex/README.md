@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "TSC-associated renal tumors: angiomyolipoma (AML; fat+muscle+vessels; embolization or everolimus) and rarely clear cell RCC; everolimus FDA-approved for AML >3 cm at risk of hemorrhage; TSC2 somatic mutation in sporadic RCC = mTOR-sensitive subset"
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "TSC epilepsy affects 80-90% of patients; infantile spasms treated with vigabatrin (~70% ORR); everolimus adjunctive (EXIST-3: 40% vs 22% ≥50% seizure reduction); cannabidiol (Epidiolex; GWPCARE 6: 49% vs 26% reduction); cortical tuber resection for refractory focal seizures."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "~50% of TSC patients have ASD, primarily TSC2 mutations with early severe epilepsy; mTOR hyperactivation → excess synaptic protein translation → abnormal synaptogenesis; rapalogue reverses autism-like behaviors in TSC2+/− mice; ASD severity correlates with cortical tuber burden."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PI3K→AKT→TSC2 phosphorylation is the canonical RTK-to-mTORC1 signal; TSC2 integrates PI3K/AKT, ERK, and AMPK inputs into mTORC1 control; PIK3CA activating mutations in sporadic tumors phenocopy TSC LOF for mTOR; PI3K + mTOR dual inhibitors studied in TSC tumor models."
 ---
 
 # Tuberous Sclerosis Complex
@@ -178,7 +187,14 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[TSC1-TSC2](../../03-molecular/tsc1-tsc2/README.md)** — Germline TSC1 or TSC2 mutations cause TSC; TSC2 mutations more common (~2/3) and associated with more severe phenotype than TSC1; TSC1-TSC2 complex is the GTPase-activating protein for Rheb; TSC2 is phosphorylated by AKT and AMPK; somatic second hit required in each hamartoma
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — TSC1/TSC2 LOF → mTORC1 hyperactivation → S6K1/4EBP1 → hamartoma growth; everolimus FDA-approved for TSC-associated renal AML, SEGA, and pulmonary LAM; sirolimus used in TSC-LAM (off-label); mTOR inhibitor side effects: stomatitis, infections, hyperlipidemia
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — AMPK phosphorylates TSC2 Thr1462 → TSC1-TSC2 GTPase activated → Rheb inhibited → mTORC1 OFF; in TSC, this energy-sensing brake is removed → mTORC1 constitutively ON; AMPK activators (metformin) have theoretical benefit in TSC (downstream AMPK activation bypasses TSC2 LOF)
-- `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — TSC-associated renal tumors: angiomyolipoma (AML; fat+muscle+vessels; embolization or everolimus) and rarely clear cell RCC; everolimus FDA-approved for AML >3 cm at risk of hemorrhage; TSC2 somatic mutation in sporadic RCC = mTOR-sensitive subset
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — TSC-associated renal tumors: angiomyolipoma (AML; fat+muscle+vessels; embolization or everolimus) and rarely clear cell RCC; everolimus FDA-approved for AML >3 cm at risk of hemorrhage; TSC2 somatic mutation in sporadic RCC = mTOR-sensitive subset
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — TSC epilepsy affects 80-90% of patients; infantile spasms treated with vigabatrin (~70% ORR); everolimus adjunctive (EXIST-3: 40% vs 22% ≥50% seizure reduction); cannabidiol (Epidiolex; GWPCARE 6: 49% vs 26% reduction); cortical tuber resection for refractory focal seizures.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — ~50% of TSC patients have ASD, primarily TSC2 mutations with early severe epilepsy; mTOR hyperactivation → excess synaptic protein translation → abnormal synaptogenesis; rapalogue reverses autism-like behaviors in TSC2+/− mice; ASD severity correlates with cortical tuber burden.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K→AKT→TSC2 phosphorylation is the canonical RTK-to-mTORC1 signal; TSC2 integrates PI3K/AKT, ERK, and AMPK inputs into mTORC1 control; PIK3CA activating mutations in sporadic tumors phenocopy TSC LOF for mTOR; PI3K + mTOR dual inhibitors studied in TSC tumor models.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^crino-2006-tsc-review]: Crino PB, Nathanson KL, Henske EP. The tuberous sclerosis complex. *N Engl J Med.* 2006;355(13):1345-1356. [doi:10.1056/NEJMra055323](https://doi.org/10.1056/NEJMra055323) · [PubMed 17005952](https://pubmed.ncbi.nlm.nih.gov/17005952/)
 [^northrup-2013-tsc-consensus]: Northrup H, Krueger DA. Tuberous sclerosis complex diagnostic criteria update: recommendations of the 2012 International Tuberous Sclerosis Complex Consensus Conference. *Pediatr Neurol.* 2013;49(4):243-254. [doi:10.1016/j.pediatrneurol.2013.08.001](https://doi.org/10.1016/j.pediatrneurol.2013.08.001) · [PubMed 24053982](https://pubmed.ncbi.nlm.nih.gov/24053982/)

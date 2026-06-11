@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-1/PD-L1 checkpoint inhibitors have very low activity in uveal melanoma (ORR <5%) due to low tumor mutational burden and immunosuppressive tumor microenvironment; tebentafusp bypasses checkpoint resistance by directly recruiting T cells via gp100-TCR×CD3 bispecific mechanism."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Uveal melanoma is biologically distinct from cutaneous melanoma: GNAQ/GNA11 (not BRAF V600E) → MEK inhibitors only partial activity; very low TMB vs UV-mutational burden; ICB ORR <5% in uveal vs 30-60% in cutaneous; liver-dominant metastasis vs lung/brain tropism."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "GNAQ/GNA11 → PLCβ → PKC → Rho → YAP/TAZ nuclear entry (Hippo-independent); YAP/TAZ drive CTGF, CYR61, BIRC5 → uveal melanoma proliferation and survival; verteporfin (YAP inhibitor) active in preclinical uveal models; YAP-TEAD inhibitors (IAG933, VT3989) in Phase 1/2 trials."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "BRAF V600E absent in uveal melanoma (0%); GNAQ/GNA11 → PLCβ/PKC → MEK (RAS-independent) → BRAF inhibitors ineffective; MEK inhibitors (selumetinib): ORR ~15% (SUMIT trial) but no OS benefit; MEK + PKC combinations overcome adaptive resistance in preclinical uveal melanoma models."
 ---
 
 # Uveal Melanoma
@@ -176,6 +185,13 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — BAP1 biallelic loss → Class 2 uveal melanoma (~45%; high metastatic risk, early liver relapse); BAP1 IHC nuclear loss is the primary prognostic marker; BAP1-TPDS germline → uveal melanoma lifetime risk ~30-45%; EZH2 inhibition studied in BAP1-null disease.
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss occurs in ~15-20% of metastatic uveal melanoma; PI3K-AKT-mTOR activation drives progression; PI3K/mTOR + MEK inhibitor combinations overcome GNAQ-driven resistance in preclinical uveal melanoma models; everolimus studied in metastatic disease.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1/PD-L1 checkpoint inhibitors have very low activity in uveal melanoma (ORR <5%) due to low tumor mutational burden and immunosuppressive tumor microenvironment; tebentafusp bypasses checkpoint resistance by directly recruiting T cells via gp100-TCR×CD3 bispecific mechanism.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Uveal melanoma is biologically distinct from cutaneous melanoma: GNAQ/GNA11 (not BRAF V600E) → MEK inhibitors only partial activity; very low TMB vs UV-mutational burden; ICB ORR <5% in uveal vs 30-60% in cutaneous; liver-dominant metastasis vs lung/brain tropism.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — GNAQ/GNA11 → PLCβ → PKC → Rho → YAP/TAZ nuclear entry (Hippo-independent); YAP/TAZ drive CTGF, CYR61, BIRC5 → uveal melanoma proliferation and survival; verteporfin (YAP inhibitor) active in preclinical uveal models; YAP-TEAD inhibitors (IAG933, VT3989) in Phase 1/2 trials.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E absent in uveal melanoma (0%); GNAQ/GNA11 → PLCβ/PKC → MEK (RAS-independent) → BRAF inhibitors ineffective; MEK inhibitors (selumetinib): ORR ~15% (SUMIT trial) but no OS benefit; MEK + PKC combinations overcome adaptive resistance in preclinical uveal melanoma models.
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^nathan-2021-tebentafusp]: Nathan P, Hassel JC, Rutkowski P, et al. Overall survival benefit with tebentafusp in metastatic uveal melanoma. *N Engl J Med.* 2021;385(13):1196-1206. [doi:10.1056/NEJMoa2103485](https://doi.org/10.1056/NEJMoa2103485) · [PubMed 34551229](https://pubmed.ncbi.nlm.nih.gov/34551229/)
 [^harbour-2010-bap1-uveal]: Harbour JW, Onken MD, Roberson ED, et al. Frequent mutation of BAP1 in metastasizing uveal melanomas. *Science.* 2010;330(6009):1410-1413. [doi:10.1126/science.1194472](https://doi.org/10.1126/science.1194472) · [PubMed 21051595](https://pubmed.ncbi.nlm.nih.gov/21051595/)
