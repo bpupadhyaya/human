@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-L1 expressed in ~30-50% of papillary and ~50-70% of anaplastic thyroid carcinoma → T cell exclusion; pembrolizumab studied with lenvatinib for RAI-refractory DTC and ATC; spartalizumab + dabrafenib+trametinib in BRAF+ ATC; anti-PD-1 active in radioiodine-refractory DTC."
+  - target: 01-human/03-molecular/ret
+    relation: connects-to
+    note: "RET drives the C-cell lineage of thyroid cancer: germline RET mutations cause MEN2 medullary thyroid carcinoma, somatic RET ~40% of sporadic MTC, and RET/PTC fusions ~20% of papillary cancer; selective RET inhibitors selpercatinib and pralsetinib are highly active."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Differentiated thyroid cancers retain the sodium-iodide symporter (NIS), letting them concentrate radioiodine (I-131) whose beta emission ablates tumor — a targeted therapy; BRAF V600E silences NIS, causing radioiodine refractoriness that MEK inhibitors can partly reverse."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Medullary thyroid carcinoma arises from calcitonin-secreting C cells, so serum calcitonin (and CEA) is both a screen before thyroid surgery and the key tumor marker afterward; a calcitonin doubling time under 6 months signals aggressive disease and prompts early systemic therapy."
 ---
 
 # Thyroid Cancer
@@ -183,6 +192,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Differentiated thyroid cancer is highly vascular; VEGF and VEGFR2 overexpressed in PTC and FTC → promotes metastasis; lenvatinib (multikinase: VEGFR1-3, RET, FGFR, PDGFRβ) approved for RAI-refractory DTC; sorafenib (VEGFR2/3 + BRAF + RET) also approved for RAI-refractory DTC.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PTEN loss and PIK3CA mutations activate mTOR in follicular thyroid carcinoma and ATC; everolimus (mTORC1 inhibitor) studied in RAI-refractory DTC; mTOR pathway activation mediates resistance to VEGFR-targeted TKIs (lenvatinib, sorafenib) in DTC → mTOR combination strategies.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-L1 expressed in ~30-50% of papillary and ~50-70% of anaplastic thyroid carcinoma → T cell exclusion; pembrolizumab studied with lenvatinib for RAI-refractory DTC and ATC; spartalizumab + dabrafenib+trametinib in BRAF+ ATC; anti-PD-1 active in radioiodine-refractory DTC.
+- `connects-to` → **[RET](../../03-molecular/ret/README.md)** — RET drives the C-cell lineage of thyroid cancer: germline RET mutations cause MEN2 medullary thyroid carcinoma, somatic RET ~40% of sporadic MTC, and RET/PTC fusions ~20% of papillary cancer; selective RET inhibitors selpercatinib and pralsetinib are highly active.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Differentiated thyroid cancers retain the sodium-iodide symporter (NIS), letting them concentrate radioiodine (I-131) whose beta emission ablates tumor — a targeted therapy; BRAF V600E silences NIS, causing radioiodine refractoriness that MEK inhibitors can partly reverse.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Medullary thyroid carcinoma arises from calcitonin-secreting C cells, so serum calcitonin (and CEA) is both a screen before thyroid surgery and the key tumor marker afterward; a calcitonin doubling time under 6 months signals aggressive disease and prompts early systemic therapy.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

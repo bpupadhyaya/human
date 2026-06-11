@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "VHL disease type 2 (missense variants) carries pheochromocytoma risk (~8-20%); VHL pheo is typically bilateral, benign, adrenal, and normetanephrine-secreting; VHL-pheo driven by HIF-2α pseudohypoxia → catecholamine biosynthesis upregulation; resection curative."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "VHL disease is fundamentally a HIF disease: without functional pVHL, HIF-1α/2α escape degradation and constitutively switch on VEGF, EPO, PDGF, and GLUT1, producing the hypervascular hemangioblastomas, clear-cell RCC, and pheochromocytomas; belzutifan blocks HIF-2α directly."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Hemangioblastomas — benign but hypervascular cystic tumors with a HIF-2α-driven mural nodule — are the hallmark CNS lesions of VHL, clustering in cerebellum (~55%), spinal cord (~44%), and brainstem; annual brain and spine MRI from age 11 catches them."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Retinal hemangioblastoma is often the earliest VHL tumor, appearing around age 25 and frequently bilateral; peripheral lesions are treated with laser or cryotherapy and intravitreal anti-VEGF, so dilated fundus screening begins in the first year of life."
 ---
 
 # VHL Disease
@@ -161,6 +170,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[EGLN1](../../03-molecular/egln1/README.md)** — EGLN1 (PHD2) hydroxylates HIF-1α/2α under normoxia for VHL-mediated degradation; in VHL disease, VHL LOF renders HIF constitutively stable regardless of EGLN1 activity; EGLN1 inhibitors (PHD inhibitors) activate HIF for CKD anemia treatment by the same mechanism as VHL LOF.
 - `connects-to` → **[Renal Cell Carcinoma](../../07-system/renal-cell-carcinoma/README.md)** — Clear cell RCC (ccRCC) is the most common VHL disease tumor (~25-45% lifetime risk); VHL LOF → HIF-2α/VEGF → neovascularization → ccRCC; NSS (nephron-sparing surgery) for ≤3 cm tumors; belzutifan (HIF-2α inhibitor) FDA-approved for VHL disease-associated ccRCC since 2021.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../../07-system/pheochromocytoma-paraganglioma/README.md)** — VHL disease type 2 (missense variants) carries pheochromocytoma risk (~8-20%); VHL pheo is typically bilateral, benign, adrenal, and normetanephrine-secreting; VHL-pheo driven by HIF-2α pseudohypoxia → catecholamine biosynthesis upregulation; resection curative.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — VHL disease is fundamentally a HIF disease: without functional pVHL, HIF-1α/2α escape degradation and constitutively switch on VEGF, EPO, PDGF, and GLUT1, producing the hypervascular hemangioblastomas, clear-cell RCC, and pheochromocytomas; belzutifan blocks HIF-2α directly.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Hemangioblastomas — benign but hypervascular cystic tumors with a HIF-2α-driven mural nodule — are the hallmark CNS lesions of VHL, clustering in cerebellum (~55%), spinal cord (~44%), and brainstem; annual brain and spine MRI from age 11 catches them.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Retinal hemangioblastoma is often the earliest VHL tumor, appearing around age 25 and frequently bilateral; peripheral lesions are treated with laser or cryotherapy and intravitreal anti-VEGF, so dilated fundus screening begins in the first year of life.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
