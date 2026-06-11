@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-1/PD-L1 blockade transformed NSCLC: pembrolizumab is standard-of-care in PD-L1 ≥50% first-line (KEYNOTE-024: OS 26.3 vs. 13.8 months) and + chemotherapy in all-comers (KEYNOTE-189); atezolizumab, nivolumab, and durvalumab (post-CRT consolidation) are also approved."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "NSCLC is ~85% of lung cancer: squamous tumors arise centrally near the hilum (cough, hemoptysis) while adenocarcinomas arise peripherally and are often found incidentally; annual low-dose CT screening of heavy smokers cuts lung-cancer mortality ~20% (NLST)."
+  - target: 01-human/03-molecular/alk
+    relation: connects-to
+    note: "ALK rearrangements (EML4-ALK, ~5-7%) define a distinct NSCLC of young never-smokers that is exquisitely targetable: alectinib and lorlatinib far outperform chemotherapy with strong CNS penetration for brain metastases; lorlatinib covers the G1202R resistance mutation."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Lung adenocarcinoma arises from alveolar type II pneumocytes (and club cells), retaining their TTF-1 and napsin-A markers; it progresses through adenocarcinoma-in-situ → minimally invasive → invasive adenocarcinoma, the peripheral lepidic-to-solid sequence."
 ---
 
 # NSCLC
@@ -148,6 +157,9 @@ cross_links:
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR mutations (exon 19 del, L858R) drive 15-20% of NSCLC; osimertinib (FLAURA: PFS 18.9 vs. 10.2 months vs. erlotinib) is first-line standard; acquired resistance via C797S and MET amplification drives second-line decisions.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E occurs in ~2% of NSCLC adenocarcinoma; dabrafenib + trametinib is approved for BRAF V600E-mutant NSCLC (ORR ~64%, PFS 14.6 months); non-V600E BRAF mutations require pan-RAF or ERK-directed approaches.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1/PD-L1 blockade transformed NSCLC: pembrolizumab is standard-of-care in PD-L1 ≥50% first-line (KEYNOTE-024: OS 26.3 vs. 13.8 months) and + chemotherapy in all-comers; atezolizumab, nivolumab, and durvalumab are also approved.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — NSCLC is ~85% of lung cancer: squamous tumors arise centrally near the hilum (cough, hemoptysis) while adenocarcinomas arise peripherally and are often found incidentally; annual low-dose CT screening of heavy smokers cuts lung-cancer mortality ~20% (NLST).
+- `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — ALK rearrangements (EML4-ALK, ~5-7%) define a distinct NSCLC of young never-smokers that is exquisitely targetable: alectinib and lorlatinib far outperform chemotherapy with strong CNS penetration for brain metastases; lorlatinib covers the G1202R resistance mutation.
+- `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Lung adenocarcinoma arises from alveolar type II pneumocytes (and club cells), retaining their TTF-1 and napsin-A markers; it progresses through adenocarcinoma-in-situ → minimally invasive → invasive adenocarcinoma, the peripheral lepidic-to-solid sequence.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

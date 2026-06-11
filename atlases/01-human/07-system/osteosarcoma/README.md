@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "MDM2 amplification (~6-8% osteosarcoma, ~90% well-differentiated liposarcoma) functionally mimics ARF loss → rapid p53 ubiquitination; MDM2 amplification and TP53 mutation are mutually exclusive in OS; MDM2 inhibitors (idasanutlin) in trials for MDM2-amplified sarcomas."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Osteosarcoma arises from osteoblast progenitors that produce malignant osteoid — its diagnostic hallmark; loss of RB1 and TP53 checkpoints lets these RUNX2/Osterix-lineage cells proliferate, and the growth spurt's high osteoprogenitor turnover explains the adolescent peak."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Hereditary retinoblastoma (germline RB1 loss) is the prototypical osteosarcoma predisposition, raising OS risk ~500-1000-fold as the classic second malignancy — especially within prior radiation fields; this mirrors the somatic RB1 loss in ~70-75% of sporadic high-grade OS."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "The pubertal IGF-1 surge drives osteoprogenitor proliferation via IGF1R → PI3K/AKT and MEK/ERK, helping explain why osteosarcoma peaks during the adolescent growth spurt at the fast-growing metaphyses of the distal femur and proximal tibia; ~40% of OS overexpress IGF1R."
 ---
 
 # Osteosarcoma
@@ -170,6 +179,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 biallelic inactivation in ~70-75% high-grade osteosarcoma via deletion, mutation, or methylation; RB1 LOF → E2F-driven proliferation → CCND1/CDK4 upregulation; germline RB1 (hereditary retinoblastoma) increases osteosarcoma risk ~1,000-fold.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations/deletions in ~30-40% high-grade osteosarcoma; MDM2 amplification is mutually exclusive with TP53 mutation as both de-repress MDM2 → p53 degradation; Li-Fraumeni syndrome (germline TP53) confers ~15-fold excess OS risk; TP53 loss predicts poor histologic response.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification (~6-8% osteosarcoma, ~90% well-differentiated liposarcoma) functionally mimics ARF loss → rapid p53 ubiquitination; MDM2 amplification and TP53 mutation are mutually exclusive in OS; MDM2 inhibitors (idasanutlin) in trials for MDM2-amplified sarcomas.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteosarcoma arises from osteoblast progenitors that produce malignant osteoid — its diagnostic hallmark; loss of RB1 and TP53 checkpoints lets these RUNX2/Osterix-lineage cells proliferate, and the growth spurt's high osteoprogenitor turnover explains the adolescent peak.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Hereditary retinoblastoma (germline RB1 loss) is the prototypical osteosarcoma predisposition, raising OS risk ~500-1000-fold as the classic second malignancy — especially within prior radiation fields; this mirrors the somatic RB1 loss in ~70-75% of sporadic high-grade OS.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The pubertal IGF-1 surge drives osteoprogenitor proliferation via IGF1R → PI3K/AKT and MEK/ERK, helping explain why osteosarcoma peaks during the adolescent growth spurt at the fast-growing metaphyses of the distal femur and proximal tibia; ~40% of OS overexpress IGF1R.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
