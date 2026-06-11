@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "Osteosarcoma is one of the three sentinel cancers of LFS (sarcoma, brain, breast/ACC); TP53 germline present in ~3-5% of osteosarcoma; somatic TP53 LOH at 17p13 in ~60-70% of sporadic osteosarcoma; LFS osteosarcomas present at younger age and may be multifocal."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Breast cancer is the most common adult LFS tumor (~54% lifetime risk in women), typically premenopausal and often HER2-positive or triple-negative; because TP53 carriers are radiation-sensitive, bilateral mastectomy is favored over lumpectomy-plus-radiation."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Adrenocortical carcinoma is a sentinel LFS cancer: ~80% of childhood ACC carries germline TP53, and the Brazilian R337H founder variant (~1/375 in the south) drives regional ACC clusters; LFS surveillance includes abdominal ultrasound from birth to catch early adrenal tumors."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Germline TP53 underlies the SHH-activated subgroup of medulloblastoma, one of LFS's childhood brain tumors; it carries a dismal prognosis and contraindicates craniospinal irradiation in TP53 carriers, who rely instead on radiation-sparing surgery, chemotherapy, and brain MRI."
 ---
 
 # Li-Fraumeni Syndrome
@@ -190,6 +199,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Germline TP53 pathogenic variants are the sole cause of LFS; TP53 is the most commonly mutated gene in somatic cancer (~50%); somatic TP53 hotspots (R175H, R248W, R273H) are often gain-of-function; MDM2 amplification phenocopies TP53 loss without mutation.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — MDM2 amplification (~7% of all tumors; liposarcoma ~90%, osteosarcoma ~20%) phenocopies LFS by inactivating p53; MDM2 inhibitors (nutlin-3, AMG-232, milademetan) being explored in LFS-associated tumors and MDM2-amplified cancers as p53-reactivating agents.
 - `connects-to` → **[Osteosarcoma](../../07-system/osteosarcoma/README.md)** — Osteosarcoma is one of the three sentinel cancers of LFS (sarcoma, brain, breast/ACC); TP53 germline present in ~3-5% of osteosarcoma; somatic TP53 LOH at 17p13 in ~60-70% of sporadic osteosarcoma; LFS osteosarcomas present at younger age and may be multifocal.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Breast cancer is the most common adult LFS tumor (~54% lifetime risk in women), typically premenopausal and often HER2-positive or triple-negative; because TP53 carriers are radiation-sensitive, bilateral mastectomy is favored over lumpectomy-plus-radiation.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Adrenocortical carcinoma is a sentinel LFS cancer: ~80% of childhood ACC carries germline TP53, and the Brazilian R337H founder variant (~1/375 in the south) drives regional ACC clusters; LFS surveillance includes abdominal ultrasound from birth to catch early adrenal tumors.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Germline TP53 underlies the SHH-activated subgroup of medulloblastoma, one of LFS's childhood brain tumors; it carries a dismal prognosis and contraindicates craniospinal irradiation in TP53 carriers, who rely instead on radiation-sparing surgery, chemotherapy, and brain MRI.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Lynch CRC: most common Lynch-associated cancer; lifetime risk with MLH1/MSH2: ~40-80%; proximal colon predominance, mucinous histology, tumor-infiltrating lymphocytes; Lynch CRC has good prognosis; colonoscopy from age 25-30 recommended"
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Endometrial cancer is the second most common Lynch cancer and the sentinel tumor in many women (54% with MLH1); usually dMMR/MSI-H endometrioid; risk-reducing hysterectomy plus BSO after childbearing is offered, and dostarlimab (RUBY) is approved for advanced dMMR disease."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Lynch confers a ~13% lifetime gastric cancer risk (MLH1/MSH2) — the main hereditary cause of intestinal-type (not diffuse) gastric cancer; these dMMR/MSI-H tumors have high TIL density, contrasting with CDH1-driven diffuse HDGC; upper endoscopy is offered to carriers."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Colorectal mucosa is the highest-turnover epithelium, so its microsatellites accumulate the most replication errors when MMR fails — why CRC is the commonest Lynch cancer; Lynch CRC favors the proximal colon, is mucinous with brisk lymphocytic infiltrate, screened from age 20-25."
 ---
 
 # Lynch Syndrome
@@ -179,6 +188,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — MLH1 germline mutation causes ~50% of Lynch syndrome; MLH1-PMS2 (MutLα) recruited by MutS complexes → MMR strand excision; MLH1 promoter methylation causes sporadic MSI-H CRC (not Lynch); MLH1 + PMS2 IHC co-loss indicates MLH1 mutation or methylation
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — dMMR Lynch tumors are highly immunogenic → MSI-H → elevated TMB → PD-L1 high; pembrolizumab FDA-approved for dMMR/MSI-H solid tumors (KEYNOTE-158, 2020); dostarlimab for dMMR endometrial; Lynch tumors were the first tissue-agnostic immunotherapy indication
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — Lynch CRC: most common Lynch-associated cancer; lifetime risk with MLH1/MSH2: ~40-80%; proximal colon predominance, mucinous histology, tumor-infiltrating lymphocytes; Lynch CRC has good prognosis; colonoscopy from age 25-30 recommended
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Endometrial cancer is the second most common Lynch cancer and the sentinel tumor in many women (54% with MLH1); usually dMMR/MSI-H endometrioid; risk-reducing hysterectomy plus BSO after childbearing is offered, and dostarlimab (RUBY) is approved for advanced dMMR disease.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Lynch confers a ~13% lifetime gastric cancer risk (MLH1/MSH2) — the main hereditary cause of intestinal-type (not diffuse) gastric cancer; these dMMR/MSI-H tumors have high TIL density, contrasting with CDH1-driven diffuse HDGC; upper endoscopy is offered to carriers.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Colorectal mucosa is the highest-turnover epithelium, so its microsatellites accumulate the most replication errors when MMR fails — why CRC is the commonest Lynch cancer; Lynch CRC favors the proximal colon, is mucinous with brisk lymphocytic infiltrate, screened from age 20-25.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
