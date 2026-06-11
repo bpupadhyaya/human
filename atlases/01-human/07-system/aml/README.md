@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "AML LSCs exploit CXCL12/CXCR4 for bone marrow niche retention and chemotherapy protection; plerixafor (CXCR4 antagonist) disrupts niche retention → sensitizes LSC to chemotherapy; high CXCR4 expression is an adverse prognostic feature in AML and correlates with relapse."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "AML chokes the bone marrow with ≥20% immature myeloid blasts that arrest differentiation and crowd out normal hematopoiesis → anemia, bleeding, and infection; chemo-resistant leukemic stem cells hide in hypoxic, CXCL12-rich endosteal niches, seeding relapse."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Myelodysplastic syndromes are the main precursor of secondary AML (~30% of AML arises from MDS), sharing TP53 mutations, del(5q)/del(7q), and complex karyotypes; MDS-related and therapy-related AML are adverse-risk and treated differently (e.g., CPX-351)."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "IDH1 and IDH2 mutations (~20% of AML) produce the oncometabolite 2-hydroxyglutarate, which blocks myeloid differentiation; the inhibitors ivosidenib (IDH1) and enasidenib (IDH2) lower 2-HG and let blasts mature, though they can trigger a differentiation syndrome."
 ---
 
 # AML
@@ -162,6 +171,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — BCL-2 is overexpressed in ~80% of AML blasts; venetoclax (BCL-2 inhibitor) + azacitidine (VIALE-A) improved OS vs. azacitidine alone in untreated AML (14.7 vs. 9.6 months); venetoclax sensitivity correlates with BCL-2/MCL-1 ratio; MCL-1 upregulation is the primary venetoclax resistance mechanism.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~7% of de novo AML and ~30% of therapy-related AML; TP53-mutant AML is highly drug-resistant; decitabine/azacitidine + venetoclax modestly active; magrolimab (anti-CD47) + azacitidine showed activity; eprenetapopt (APR-246) refolded mutant p53 but phase 3 trials negative.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — AML LSCs exploit CXCL12/CXCR4 for bone marrow niche retention and chemotherapy protection; plerixafor (CXCR4 antagonist) disrupts niche retention → sensitizes LSC to chemotherapy; high CXCR4 expression is an adverse prognostic feature in AML and correlates with relapse.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — AML chokes the bone marrow with ≥20% immature myeloid blasts that arrest differentiation and crowd out normal hematopoiesis → anemia, bleeding, and infection; chemo-resistant leukemic stem cells hide in hypoxic, CXCL12-rich endosteal niches, seeding relapse.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Myelodysplastic syndromes are the main precursor of secondary AML (~30% of AML arises from MDS), sharing TP53 mutations, del(5q)/del(7q), and complex karyotypes; MDS-related and therapy-related AML are adverse-risk and treated differently (e.g., CPX-351).
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 and IDH2 mutations (~20% of AML) produce the oncometabolite 2-hydroxyglutarate, which blocks myeloid differentiation; the inhibitors ivosidenib (IDH1) and enasidenib (IDH2) lower 2-HG and let blasts mature, though they can trigger a differentiation syndrome.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

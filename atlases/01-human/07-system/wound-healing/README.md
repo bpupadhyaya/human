@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/diabetic-retinopathy
     relation: connects-to
     note: "Diabetes impairs wound healing through AGE accumulation, pericyte dysfunction, impaired neutrophil function, and reduced HIF-1α/VEGF response; diabetic foot ulcers affect ~15% of people with diabetes and are the leading cause of non-traumatic amputation."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages orchestrate wound healing's inflammatory-to-proliferative switch: M1 cells clear debris, then become M2 cells that secrete TGF-β1, PDGF, VEGF, and IGF-1 to drive fibroblasts, angiogenesis, and re-epithelialization; a failed M1→M2 switch defines chronic wounds."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Wound fibroblasts migrate along the fibronectin scaffold and lay down the type III collagen of granulation tissue; TGF-β1 plus tension converts them into α-SMA+ myofibroblasts that contract the wound and, failing to apoptose, produce hypertrophic scars and keloids."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous repair is the canonical wound-healing model — hemostasis, inflammation, proliferation, remodeling — restoring the skin barrier with a fibrotic scar rather than regeneration; chronic non-healing ulcers (diabetic, venous, pressure) carry a ~$31 billion annual US burden."
 ---
 
 # Wound Healing
@@ -166,6 +175,9 @@ cross_links:
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 from platelets and macrophages drives myofibroblast differentiation (α-SMA+ → wound contraction), collagen I synthesis, and re-epithelialization; excess TGF-β → hypertrophic scar and keloid; TGF-β3 promotes scarless fetal healing; pirfenidone inhibits fibrogenic signaling.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-A from keratinocytes and macrophages drives angiogenesis into the wound bed; HIF-1α (hypoxic wound center) → VEGF → new vessel formation in granulation tissue; anti-VEGF therapy impairs wound healing — a known adverse effect of bevacizumab and other anti-VEGF agents.
 - `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Diabetes impairs wound healing through AGE accumulation, pericyte dysfunction, impaired neutrophil function, and reduced HIF-1α/VEGF response; diabetic foot ulcers affect ~15% of people with diabetes and are the leading cause of non-traumatic amputation.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages orchestrate wound healing's inflammatory-to-proliferative switch: M1 cells clear debris, then become M2 cells that secrete TGF-β1, PDGF, VEGF, and IGF-1 to drive fibroblasts, angiogenesis, and re-epithelialization; a failed M1→M2 switch defines chronic wounds.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Wound fibroblasts migrate along the fibronectin scaffold and lay down the type III collagen of granulation tissue; TGF-β1 plus tension converts them into α-SMA+ myofibroblasts that contract the wound and, failing to apoptose, produce hypertrophic scars and keloids.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous repair is the canonical wound-healing model — hemostasis, inflammation, proliferation, remodeling — restoring the skin barrier with a fibrotic scar rather than regeneration; chronic non-healing ulcers (diabetic, venous, pressure) carry a ~$31 billion annual US burden.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
