@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Impaired pressure-natriuresis and reduced renal perfusion in CKD → RAAS overactivation → renin-dependent hypertension and sodium retention; ACE-I/ARBs reduce intraglomerular pressure and proteinuria; aliskiren added to ACE-I/ARB (ALTITUDE trial) increased adverse renal events."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "β1-adrenergic stimulation of JG cells by epinephrine/norepinephrine → cAMP → renin granule exocytosis; β-blockers (metoprolol, bisoprolol) reduce renin → lower Ang II and BP; β1-selectivity exploits JG cell β1-R dominance → renin suppression without β2-bronchospasm."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Excess cortisol (Cushing syndrome) → MR activation → sodium retention → renin suppression; Cushing HTN mimics primary aldosteronism (low renin, elevated BP) but distinguished by ACTH/cortisol excess; 11β-HSD2 deficiency similarly suppresses renin via RAAS volume inhibition."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF-1α is the transcriptional activator of renin: renal ischemia → HIF-1α binds HRE on REN promoter → renin upregulation in JG cells; ACE-I/ARBs do not suppress HIF-1α-driven renin upregulation in CKD — reactive renin rise is expected and represents a RAAS escape mechanism."
 sources:
   - id: atlas-2011-aliskiren-altitude
     type: peer-reviewed
@@ -115,13 +124,16 @@ Renal artery stenosis (atherosclerotic or fibromuscular dysplasia) → reduced p
 
 ## Connections
 
-Renin is the rate-limiting enzyme of the RAAS: released from JG cells in response to reduced perfusion, low macula densa NaCl, and β1-adrenergic stimulation → angiotensinogen → Ang I → Ang II; aliskiren (direct renin inhibitor) reduces BP; ARR screens for primary aldosteronism.
+- `connects-to` → **[Hypertension](../../07-system/hypertension/README.md)** — Renin is the rate-limiting enzyme of the RAAS: released from JG cells in response to reduced perfusion, low macula densa NaCl, and β1-adrenergic stimulation → angiotensinogen → Ang I → Ang II; aliskiren (direct renin inhibitor) reduces BP; ARR screens for primary aldosteronism.
+- `connects-to` → **[Angiotensin II](../angiotensin-ii/README.md)** — Renin catalyzes the first and rate-limiting step of Ang II synthesis: angiotensinogen → angiotensin I; ACE converts Ang I → Ang II; Ang II provides negative feedback to suppress renin at JG cells; aliskiren blocks renin → reduces Ang II and aldosterone.
+- `connects-to` → **[Aldosterone](../aldosterone/README.md)** — Renin → angiotensin II → adrenal zona glomerulosa → aldosterone; primary aldosteronism (autonomous aldosterone) suppresses renin → low PRA + high ARR is the diagnostic signature; plasma renin activity (PRA) distinguishes primary from secondary aldosteronism.
+- `connects-to` → **[CKD](../../07-system/ckd/README.md)** — Impaired pressure-natriuresis and reduced renal perfusion in CKD → RAAS overactivation → renin-dependent hypertension and sodium retention; ACE-I/ARBs reduce intraglomerular pressure and proteinuria; aliskiren added to ACE-I/ARB (ALTITUDE trial) increased adverse renal events.
+- `connects-to` → **[Epinephrine](../epinephrine/README.md)** — β1-adrenergic stimulation of JG cells by epinephrine/norepinephrine → cAMP → renin granule exocytosis; β-blockers (metoprolol, bisoprolol) reduce renin → lower Ang II and BP; β1-selectivity exploits JG cell β1-R dominance → renin suppression without β2-bronchospasm.
+- `connects-to` → **[Cortisol](../cortisol/README.md)** — Excess cortisol (Cushing syndrome) → MR activation → sodium retention → renin suppression; Cushing HTN mimics primary aldosteronism (low renin, elevated BP) but distinguished by ACTH/cortisol excess; 11β-HSD2 deficiency similarly suppresses renin via RAAS volume inhibition.
+- `connects-to` → **[HIF-1α](../hif-1alpha/README.md)** — HIF-1α is the transcriptional activator of renin: renal ischemia → HIF-1α binds HRE on REN promoter → renin upregulation in JG cells; ACE-I/ARBs do not suppress HIF-1α-driven renin upregulation in CKD — reactive renin rise is expected and represents a RAAS escape mechanism.
 
-Renin catalyzes the first and rate-limiting step of Ang II synthesis: angiotensinogen → angiotensin I; ACE converts Ang I → Ang II; Ang II provides negative feedback to suppress renin at JG cells; aliskiren blocks renin → reduces Ang II and aldosterone.
-
-Renin → angiotensin II → adrenal zona glomerulosa → aldosterone; primary aldosteronism (autonomous aldosterone) suppresses renin → low PRA + high ARR is the diagnostic signature; plasma renin activity (PRA) distinguishes primary from secondary aldosteronism.
-
-Impaired pressure-natriuresis and reduced renal perfusion in CKD → RAAS overactivation → renin-dependent hypertension and sodium retention; ACE-I/ARBs reduce intraglomerular pressure and proteinuria; aliskiren added to ACE-I/ARB (ALTITUDE trial) increased adverse renal events.
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^atlas-2011-aliskiren-altitude]: Parving HH, Brenner BM, McMurray JJV, et al. Cardiorenal end points in a trial of aliskiren for type 2 diabetes. *N Engl J Med.* 2012;367(23):2204-2213. [doi:10.1056/NEJMoa1208799](https://doi.org/10.1056/NEJMoa1208799) · [PubMed 23121378](https://pubmed.ncbi.nlm.nih.gov/23121378/)
 [^carey-2019-primary-aldosteronism]: Carey RM, Calhoun DA, Bakris GL, et al. Resistant hypertension: detection, evaluation, and management. *Hypertension.* 2018;72(5):e53-e90. [doi:10.1161/HYP.0000000000000084](https://doi.org/10.1161/HYP.0000000000000084) · [PubMed 30354828](https://pubmed.ncbi.nlm.nih.gov/30354828/)

@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk)."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "VWF A1 domain tethers platelet GPIbα under high arterial shear; VWF A3 anchors to subendothelial collagen I/III; DDAVP releases VWF from Weibel-Palade bodies → VWF-GPIb bridge → primary platelet plug; GPIb-VWF is dominant adhesion at arteriolar shear (>50 dyn/cm²)."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Fibrinogen and VWF are complementary hemostatic bridges: VWF-GPIb dominant at high arterial shear → primary platelet plug; activated αIIbβ3 then crosslinks fibrinogen → stable fibrin-reinforced clot; fibrinogen and VWF are both acute-phase reactants elevated in thrombotic states."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Thrombin cleaves VWF-FVIII complex → releases FVIIIa into intrinsic Xase; thrombin also activates PAR1 on endothelium → WPB exocytosis → ULVWF release; thrombin-VWF positive feedback amplifies platelet recruitment at arterial injury site."
 ---
 
 # Von Willebrand Factor
@@ -149,10 +158,13 @@ The VWF A1 domain is the target of **caplacizumab** (Sanofi/Ablynx) — a bivale
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../../07-system/thrombotic-thrombocytopenic-purpura/README.md)** — ULVWF from Weibel-Palade bodies accumulates in TTP (ADAMTS13 deficiency) → GPIb-mediated platelet aggregation → microthrombi; caplacizumab (anti-VWF A1 nanobody; FDA 2019) blocks ULVWF-platelet tethering → fastest reversal of acute microthrombus formation in iTTP.
 - `connects-to` → **[Hemophilia A](../../07-system/hemophilia-a/README.md)** — VWF carries and protects FVIII from proteolytic degradation in plasma (t½ FVIII alone ~2 h vs. ~12 h bound to VWF); VWF deficiency → secondary FVIII deficiency (VWD type 3 = severe VWD with FVIII <10 IU/dL); emicizumab (bispecific FIXa/FX antibody) bypasses FVIII dependence on VWF.
 - `connects-to` → **[Venous Thromboembolism](../../07-system/venous-thromboembolism/README.md)** — Elevated VWF promotes venous thrombosis by augmenting platelet recruitment and fibrin network formation; VWF is an acute-phase protein elevated in surgery, infection, cancer → increased VTE risk; ABO blood group affects VWF level (type O ~25% lower VWF → lower baseline VTE risk).
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — VWF A1 domain tethers platelet GPIbα under high arterial shear; VWF A3 anchors to subendothelial collagen I/III; DDAVP releases VWF from Weibel-Palade bodies → VWF-GPIb bridge → primary platelet plug; GPIb-VWF is dominant adhesion at arteriolar shear (>50 dyn/cm²).
+- `connects-to` → **[Fibrinogen](../fibrinogen/README.md)** — Fibrinogen and VWF are complementary hemostatic bridges: VWF-GPIb dominant at high arterial shear → primary platelet plug; activated αIIbβ3 then crosslinks fibrinogen → stable fibrin-reinforced clot; fibrinogen and VWF are both acute-phase reactants elevated in thrombotic states.
+- `connects-to` → **[Thrombin](../thrombin/README.md)** — Thrombin cleaves VWF-FVIII complex → releases FVIIIa into intrinsic Xase; thrombin also activates PAR1 on endothelium → WPB exocytosis → ULVWF release; thrombin-VWF positive feedback amplifies platelet recruitment at arterial injury site.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^sadler-1998-vwf-review]: Sadler JE. Biochemistry and genetics of von Willebrand factor. *Annu Rev Biochem.* 1998;67:395-424. [doi:10.1146/annurev.biochem.67.1.395](https://doi.org/10.1146/annurev.biochem.67.1.395) · [PubMed 9759493](https://pubmed.ncbi.nlm.nih.gov/9759493/)
 [^lillicrap-2013-vwf-review]: Lillicrap D. von Willebrand disease: advances in pathogenetic understanding, diagnosis, and therapy. *Blood.* 2013;122(23):3735-3740. [doi:10.1182/blood-2013-06-498303](https://doi.org/10.1182/blood-2013-06-498303) · [PubMed 24100444](https://pubmed.ncbi.nlm.nih.gov/24100444/)
 [^federici-2006-vwd-treatment]: Federici AB, Mannucci PM, Castaman G, et al. Clinical and molecular predictors of thrombocytopenia and risk of bleeding in patients with von Willebrand disease type 2B. *Blood.* 2009;113(3):526-534. [doi:10.1182/blood-2008-04-152280](https://doi.org/10.1182/blood-2008-04-152280) · [PubMed 18805967](https://pubmed.ncbi.nlm.nih.gov/18805967/)
-
----
-*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
