@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Oligodendrocyte — CNS myelin-forming glia. Saltatory conduction, MCT1 lactate shuttle, myelination process, MBP/PLP/MOG, remyelination failure in MS. Scale 04 (Cellular) of the Human Atlas.">
+  <meta name="description" content="CNS myelin-forming glia; one cell myelinates 15–40 axon segments, boosting conduction from ~0.5 to ≥70 m/s via saltatory conduction. OPCs (NG2+PDGFRα+) persist ">
   <meta property="og:title" content="Oligodendrocyte — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Oligodendrocyte — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #7c3aed;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,52 +39,56 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(124,58,237,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #7c3aed, #4c1d95); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.85rem; color: var(--fg); white-space: pre; overflow-x: auto; line-height: 1.7; }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
-    .refs li::before { content: '&#8599;'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
     .refs li a { color: var(--eng); }
     footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
@@ -97,9 +108,8 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
-        <a href="neuron.html">Neuron</a>
-        <a href="brain.html">Brain</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
           Home
@@ -109,183 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Oligodendrocyte</h1>
-    <p class="tagline">The myelin-forming glial cells of the CNS &mdash; one cell myelinates 15&ndash;40 axon internodal segments, boosting conduction velocity from ~0.5 m/s to &ge;70 m/s via saltatory conduction.</p>
-    <p class="subtagline">Beyond insulation, oligodendrocytes supply critical metabolic support to ensheathed axons via the MCT1 lactate shuttle. Demyelination (MS, MOGAD, PML) causes conduction block; OPC remyelination partially restores function but fails in chronic MS lesions due to inhibitory signals including LINGO-1, CSPG, and Semaphorin 3A.</p>
+    <p class="tagline">CNS myelin-forming glia; one cell myelinates 15–40 axon segments, boosting conduction from ~0.5 to ≥70 m/s via saltatory conduction. OPCs (NG2+PDGFRα+) persist as adult progenitors. MCT1-derived lactate provides metabolic support to axons independent of insulation.</p>
+    <p class="aliases">Also known as: OL, myelinating glia, CNS myelin-forming cell, OPC, oligodendrocyte precursor cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">15&ndash;40</span><span class="stat-label">Axon segments/cell</span></div>
-      <div class="stat"><span class="stat-num">&ge;70 m/s</span><span class="stat-label">Myelinated conduction</span></div>
-      <div class="stat"><span class="stat-num">~70% lipid</span><span class="stat-label">Myelin composition</span></div>
-      <div class="stat"><span class="stat-num">MBP / PLP1 / MOG</span><span class="stat-label">Key myelin proteins</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">CL:0000128 &middot; Atlas One / Scale 04 / Cellular</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">oligodendrocyte</div>
         <h2>Oligodendrocyte</h2>
-        <p class="summary">CNS myelin-forming glia; one mature oligodendrocyte myelinates 15&ndash;40 axon segments at conduction velocities &ge;70 m/s via saltatory conduction. OPCs (NG2&#8314;/PDGFR&alpha;&#8314;) persist as adult progenitors. MCT1-derived lactate provides metabolic support to axons independent of insulation. Remyelination by OPCs fails in chronic MS lesions due to inhibitory microenvironment (LINGO-1, CSPG, Sema3A) and OPC senescence.</p>
+        <p class="summary">CNS myelin-forming glia; one cell myelinates 15–40 axon segments, boosting conduction from ~0.5 to ≥70 m/s via saltatory conduction. OPCs (NG2+PDGFRα+) persist as adult progenitors. MCT1-derived lactate provides metabolic support to axons independent of insulation.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Oligodendrocytes are the <strong>myelin-forming glial cells of the central nervous system</strong>. Unlike Schwann cells (PNS &mdash; one cell per one axon segment), a single oligodendrocyte extends processes to myelinate 15&ndash;40 distinct axon internodal segments, each spanning 100&ndash;1500 &micro;m in length and wrapped by approximately 150 compacted membrane layers. This architecture is highly efficient &mdash; a single oligodendrocyte can insulate hundreds of metres of axonal surface area in total.</p>
-          <p>The functional consequence of myelin is profound. Unmyelinated axons conduct at ~0.5&ndash;2 m/s via continuous propagation; myelinated axons conduct via <strong>saltatory conduction</strong> (action potentials jump between nodes of Ranvier where Nav channels cluster) at speeds of &ge;70 m/s for large-diameter fibres. Myelination is therefore not merely insulation &mdash; it is a conduction velocity amplifier that makes the rapid sensorimotor integration, language, and cognitive functions of the large mammalian brain possible.</p>
-          <p>Two functionally distinct oligodendrocyte-lineage populations exist in the adult CNS: <strong>OPCs (oligodendrocyte precursor cells, NG2&#8314;/PDGFR&alpha;&#8314;/OLIG2&#8314;)</strong> &mdash; cycling or quiescent progenitors (~5% of adult CNS cells); and <strong>mature oligodendrocytes (MO, CC1&#8314;/MBP&#8314;/PLP1&#8314;/MOG&#8314;)</strong> &mdash; terminally differentiated, post-mitotic myelin-forming cells.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure &mdash; OPC vs. Mature Oligodendrocyte</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>OPC (Oligodendrocyte Precursor Cell)</h4>
-              <p>Bipolar/stellate soma (8&ndash;15 &micro;m); NG2 (CSPG4) pericellular matrix; PDGFR&alpha; responds to PDGF-AA (main proliferative signal). Express functional AMPA and NMDA receptors &mdash; activity-dependent myelination (active axons &rarr; glutamate &rarr; OPC Ca&#178;&#8314; &rarr; mTOR &rarr; MBP translation). Cycle slowly or quiescently; respond to demyelinating injury by rapid proliferation. Inhibitory signals: LINGO-1, Nogo-A, CSPGs, PSA-NCAM.</p>
-            </div>
-            <div class="info-block">
-              <h4>Mature Oligodendrocyte</h4>
-              <p>Larger soma (15&ndash;20 &micro;m); processes extend to axons (up to 200&ndash;300 &micro;m away), spiral ~150 times around the internode, and compact into myelin. Post-mitotic, long-lived (years). Required TFs: YY1, ZEB2, MYRF (master OL differentiation TF &mdash; cleaves from ER membrane &rarr; nucleus &rarr; drives MBP, PLP, MOG transcription). Thyroid hormone (T3) is a potent pro-myelination signal; deficiency in neonates &rarr; hypomyelination &rarr; intellectual disability.</p>
-            </div>
-          </div>
-          <table class="data-table" style="margin-top:0.75rem;">
-            <tr><th>Myelin protein</th><th>Abundance</th><th>Location / Function</th></tr>
-            <tr><td><strong>PLP1/DM20</strong></td><td>~50% myelin protein</td><td>4-pass transmembrane; most abundant CNS myelin protein; stabilises extracellular intraperiod line; PLP1 mutation &rarr; PMD/SPG2</td></tr>
-            <tr><td><strong>MBP</strong></td><td>~30% myelin protein</td><td>Positively charged; bridges adjacent cytoplasmic leaflets via electrostatic interactions &rarr; compacts the major dense line; target of MS autoimmune response</td></tr>
-            <tr><td><strong>MOG</strong></td><td>~0.01&ndash;0.05%</td><td>Outermost lamella only; target of anti-MOG IgG in MOGAD; expressed exclusively on external myelin surface; activates complement</td></tr>
-            <tr><td><strong>MAG</strong></td><td>Minor</td><td>Inner periaxonal space; mediates axon-OL contact via axonal NgR1; inhibits axon regeneration after demyelination</td></tr>
-            <tr><td><strong>CNP</strong></td><td>Minor</td><td>Non-compact regions (paranodes, inner tongue); 2&prime;,3&prime;-cyclic nucleotide 3&prime;-phosphodiesterase; may maintain non-compact myelin structure</td></tr>
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>oligodendrocyte</td></tr>
+            <tr><td>Name</td><td>Oligodendrocyte</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function &mdash; Myelination Process and Saltatory Conduction</h3>
-          <div class="formula-block">MYELINATION PROCESS
-  Step 1 — OPC specification: OLIG2 + NKX2.2 --> OPC identity (ventral VZ/MGE origin)
-  Step 2 — Contact: OPC process contacts myelination-competent axon
-  Step 3 — Inhibitory signal clearance:
-    - LINGO-1 (NgR1 complex) block lifted
-    - PSA-NCAM removed (ST8Sia2/4 sialylation cleared)
-    - CSPG degraded (by metalloproteinases)
-  Step 4 — Differentiation signals: Akt/mTOR activation (PI3K --> PIP3 --> Akt --> mTOR)
-    + MYRF nuclear translocation --> MBP, PLP1, MOG, MAG transcription
-  Step 5 — Membrane wrapping: OL process broadens into flat sheet --> spirals ~150x around axon
-  Step 6 — Compaction: cytoplasm excluded; MBP electrostatic interactions --> major dense line
-    ZO-1, 14-3-3 excluded from compact myelin --> CNP retained in non-compact regions
-
-SALTATORY CONDUCTION (NODE OF RANVIER)
-  Node (1-2 um gap, unmyelinated):
-    Nav1.6 + AnkyrinG + betaIV-spectrin + NrCAM + neurofascin-186
-    --> Action potential regenerated here
-  Paranode (axo-glial junction):
-    Caspr1 + contactin (axon) <--> neurofascin-155 (myelin paranodal loops)
-    --> High-resistance junction; prevents current leak across internode
-  Juxtaparanode: Kv1.1/1.2 (KCNA1/2) + Caspr2 + TAG-1 --> repolarisation support
-  Internode (compact myelin):
-    Axonal membrane capacitance reduced ~100-fold
-    --> Current jumps node-to-node; velocity scales ~6x diameter (um) m/s</div>
-          <p class="formula-note">Remyelinated internodes are shorter and thinner than original &mdash; partially restoring conduction but with lower safety factor than original myelin.</p>
-          <table class="data-table" style="margin-top:0.75rem;">
-            <tr><th>Axon type</th><th>Diameter</th><th>Conduction velocity</th><th>Myelinated?</th></tr>
-            <tr><td>A&alpha; (motor, proprioception)</td><td>13&ndash;20 &micro;m</td><td>70&ndash;120 m/s</td><td>Yes (thick)</td></tr>
-            <tr><td>A&beta; (tactile)</td><td>6&ndash;12 &micro;m</td><td>33&ndash;75 m/s</td><td>Yes</td></tr>
-            <tr><td>A&delta; (pain, temperature)</td><td>1&ndash;5 &micro;m</td><td>3&ndash;30 m/s</td><td>Lightly</td></tr>
-            <tr><td>C fibres (pain, autonomic)</td><td>0.2&ndash;1.5 &micro;m</td><td>0.5&ndash;2 m/s</td><td>No</td></tr>
-          </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function &mdash; MCT1 Metabolic Support of Axons</h3>
-          <p>Beyond insulation, oligodendrocytes provide critical metabolic support to ensheathed axons via the <strong>monocarboxylate transporter 1 (MCT1)</strong> expressed in compact myelin &mdash; an OL function independent of myelin insulation itself:</p>
-          <div class="formula-block">Oligodendrocyte: Glucose --> Aerobic glycolysis --> Lactate
-  MCT1 (compact myelin) --> export to periaxonal space
-                                    |
-                                    v
-  Axon: Lactate uptake (MCT2) --> Pyruvate --> Oxidative phosphorylation
-  --> ATP for Na+/K+-ATPase during sustained high-frequency firing
-
-Evidence: Heterozygous MCT1 deletion (in OLs only, no demyelination)
-  --> Axonal degeneration in mice  [Funfschilling et al. 2012]
-  --> Demonstrates metabolic support is independent of myelin insulation
-  --> Loss alone is sufficient to cause neurodegeneration</div>
-          <p class="formula-note">This is analogous to the astrocyte-neuron lactate shuttle (ANLS), but delivered directly through the myelin sheath to ensheathed axons. MCT1 is encoded by <em>SLC16A1</em>.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle &mdash; OPC Differentiation and Remyelination Failure in MS</h3>
-          <p><strong>OPC specification and migration.</strong> OPCs originate from ventral ventricular zone progenitors co-expressing OLIG2 + NKX2.2 in three waves (mouse: E12.5 from MGE, E15.5 from LGE/CGE, postnatally from cortex). OPCs proliferate in response to PDGF-AA, FGF2, and EGF; migrate along axon tracts guided by semaphorin and netrin gradients; populate both white and grey matter. Adult OPCs are the only mitotically active CNS cells under homeostatic conditions.</p>
-          <p><strong>Adult remyelination.</strong> After demyelinating injury, resident OPCs proliferate (within days), migrate to the lesion (weeks), and differentiate into new myelinating OLs (weeks&ndash;months). In MS chronic lesions, OPCs are often present but <strong>fail to differentiate</strong> &mdash; "remyelination failure" &mdash; due to:</p>
-          <div class="formula-block">REMYELINATION FAILURE IN MS (Chronic Lesions)
-  Inhibitory signals present:
-    LINGO-1 (NgR1 complex) -- upregulated in lesion [therapeutic target: opicinumab]
-    CSPG (from reactive astrocyte glial scar) -- inhibits OPC migration and differentiation
-    Semaphorin 3A (from astrocytes/meningeal fibroblasts) -- repels OPC processes
-    PSA-NCAM -- not fully cleared on demyelinated axons
-    Nogo-A -- upregulated on demyelinated axon surface
-
-  Pro-differentiation signals absent:
-    BDNF, IGF-1 (absent in inflammatory microenvironment)
-    Thyroid hormone (T3) [promoter of OPC differentiation]
-
-  OPC senescence: Accumulation of p16/INK4a+ senescent OPCs in aged/chronic MS lesions
-    --> Impaired proliferative and differentiation capacity
-
-  Therapeutic remyelination approaches:
-    Anti-LINGO-1 (opicinumab, Phase 2)
-    Clemastine (M1/M3 mAChR antagonist --> promotes OPC differentiation, Phase 2)
-    Bexarotene (RXR-gamma agonist --> MYRF upregulation)
-    Biotin (promotes MBP/PLP synthesis via acetyl-CoA carboxylase)</div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Multiple Sclerosis (MS)</h4>
-            <p>CNS-infiltrating CD4&#8314; Th1/Th17 cells (recognising myelin peptides in HLA-DRB1*15:01 context), CD8&#8314; T cells, B cells, and macrophages destroy oligodendrocytes and myelin via TRAIL, perforin/granzyme, Fas-FasL, and complement. Axons degenerate in chronic disease (Wallerian degeneration) &mdash; substrate of irreversible disability. DMTs target the adaptive immune infiltrate: natalizumab (anti-&alpha;4-integrin), ocrelizumab (anti-CD20), siponimod (S1PR1/5).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>MOGAD (MOG Antibody Disease)</h4>
-            <p>Anti-MOG IgG1 targets the outermost myelin lamella &rarr; complement activation + ADCC &rarr; OL and myelin destruction. Presents as ADEM, bilateral optic neuritis, or transverse myelitis. Distinguished from MS by bilateral optic involvement, absence of OCBs, good response to steroids and rituximab.</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>PML (Progressive Multifocal Leukoencephalopathy)</h4>
-            <p>JC virus specifically infects OPCs and mature OLs (using 5-HT&#8322;A as entry receptor) &rarr; OL lysis &rarr; widespread demyelination. Occurs in immunosuppressed individuals (natalizumab: ~1:1000; rituximab; HIV/AIDS). No antiviral therapy; treatment is immune reconstitution (IRIS may paradoxically worsen initial outcome).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Pelizaeus-Merzbacher Disease (PMD)</h4>
-            <p>X-linked recessive <em>PLP1</em> mutations (duplications, point mutations, deletions) &rarr; hypomyelination/dysmyelination &rarr; nystagmus (infancy), hypotonia, ataxia, dysarthria, progressive spastic quadriplegia. A242V point mutation &rarr; ER retention of PLP1 &rarr; oligodendrocyte ER stress (UPR) &rarr; apoptosis. Fatal in early adulthood (severe PMD); milder SPG2 allelic variant.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Vanishing White Matter Disease</h4>
-            <p>AR mutations in <em>EIF2B1&ndash;5</em> (eIF2B subunits &mdash; GEF recycling eIF2-GDP to eIF2-GTP) &rarr; constitutive ISR activation &rarr; astrocyte dysfunction &rarr; secondary OL failure and white matter vanishing on MRI. Precipitated by febrile illness, head trauma, or fright (&rarr; eIF2&alpha;-P &rarr; worsens already-impaired eIF2B function).</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Adrenoleukodystrophy (X-ALD)</h4>
-            <p>X-linked mutations in <em>ABCD1</em> (peroxisomal VLCFA transporter) &rarr; very long chain fatty acid accumulation in CNS myelin &rarr; demyelination (cerebral ALD in boys) or slowly progressive myelopathy (AMN in adults). Lorenzo&rsquo;s oil may slow progression; haematopoietic stem cell transplantation is treatment of choice for early cerebral ALD.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="brain.html"><span class="rel">Part of</span>Brain (white matter)</a>
-            <a class="conn-pill part" href="nervous-system.html"><span class="rel">Part of</span>Nervous System</a>
-            <a class="conn-pill" href="neuron.html"><span class="rel">Myelinates / Supports</span>Neuron (MCT1 lactate)</a>
-            <a class="conn-pill" href="synapse.html"><span class="rel">Enables speed to</span>Synapse</a>
-            <a class="conn-pill" href="microglia.html"><span class="rel">Debris cleared by</span>Microglia (remyelination)</a>
-            <a class="conn-pill" href="astrocyte.html"><span class="rel">Neighbours</span>Astrocyte (scar inhibition)</a>
-            <a class="conn-pill" href="atp.html"><span class="rel">Uses</span>ATP (myelin synthesis)</a>
+            <a class="conn-pill part" href="brain.html" title="Oligodendrocytes form myelin sheaths across all CNS white matter tracts; corpus callosum, corona radiata, cerebellar peduncles, and optic nerves have the highest OL density; OL loss disrupts saltatory conduction throughout the CNS."><span class="rel">part-of</span>Brain</a>
+            <a class="conn-pill" href="neuron.html" title="Oligodendrocytes myelinate 15–40 axon segments each (saltatory conduction → ≥70 m/s); provide metabolic lactate via MCT1→axonal MCT2; axonal glutamate activates OPC NMDA receptors → mTOR → MBP translation."><span class="rel">modulates</span>Neuron</a>
+            <a class="conn-pill" href="nervous-system.html" title="White matter integrity (OL myelination) determines conduction velocity, neural synchrony, and cognition; demyelination (MS, MOGAD, PML) causes conduction block, sensory/motor deficits; OPC remyelination partially restores function."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="synapse.html" title="Myelinated axons propagate action potentials rapidly to synaptic terminals; OL metabolic support via MCT1-derived lactate sustains high-frequency firing; demyelination disrupts temporal precision of synaptic transmission."><span class="rel">modulates</span>Synapse</a>
+            <a class="conn-pill" href="multiple-sclerosis.html" title="MS is the paradigmatic OL/OPC demyelinating disease; CD4+ Th1/Th17 and CD8+ T cells + B cells destroy myelin; OPC remyelination fails in chronic MS (inhibitory LINGO-1, CSPG, Sema3A); anti-LINGO-1 (opicinumab) and clemastine target OPC differentiation failure."><span class="rel">connects-to</span>Multiple Sclerosis</a>
+            <a class="conn-pill" href="mtor.html" title="Akt/mTOR is the central node for OPC differentiation → myelin synthesis; axonal glutamate → OPC NMDA receptors → Ca2+ → mTOR → MBP/PLP translation; PDGF-AA → Akt → mTOR → OPC survival; mTOR hyperactivation causes megalencephaly via OL expansion."><span class="rel">connects-to</span>Mtor</a>
+            <a class="conn-pill" href="bdnf.html" title="BDNF promotes OPC differentiation via TrkB → Akt/mTOR → myelin gene expression; active axons release BDNF → OPC TrkB → pro-myelination; BDNF-TrkB signalling required for activity-dependent myelination; BDNF deficiency in MS lesions contributes to OPC differentiation failure."><span class="rel">connects-to</span>Bdnf</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">NCBI Bookshelf</a></li>
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">Elsevier</a></li>
-            <li>Funfschilling U, Supplie LM, Mahad D, et al. Glycolytic oligodendrocytes maintain myelin and long-term axonal integrity. <em>Nature.</em> 2012;485(7399):517&ndash;521. <a href="https://doi.org/10.1038/nature11007" target="_blank" rel="noopener">doi:10.1038/nature11007</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/22622581/" target="_blank" rel="noopener">PubMed 22622581</a></li>
-            <li>Nave KA. Myelination and support of axonal integrity by glia. <em>Nature.</em> 2010;468(7321):244&ndash;252. <a href="https://doi.org/10.1038/nature09614" target="_blank" rel="noopener">doi:10.1038/nature09614</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/21068833/" target="_blank" rel="noopener">PubMed 21068833</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
           </ul>
         </div>
 
@@ -294,18 +185,17 @@ Evidence: Heterozygous MCT1 deletion (in OLs only, no demyelination)
   </main>
 
   <footer>
-    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end &mdash; in the service of all of humanity.</p>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="neuron.html">Neuron</a>
-      <a href="astrocyte.html">Astrocyte</a>
-      <a href="microglia.html">Microglia</a>
-      <a href="brain.html">Brain</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a></p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

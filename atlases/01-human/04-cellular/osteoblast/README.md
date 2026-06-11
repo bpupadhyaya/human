@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: modulates
     note: "Osteoblast RANKL:OPG ratio controls osteoclastogenesis; immune cells (T cells, macrophages) producing RANKL, TNF-α, IL-17 stimulate osteoblast RANKL → bone erosion in RA, spondylitis, and bone metastasis."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Osteoblasts are the master regulators of osteoclastogenesis via RANKL:OPG ratio; RANKL on osteoblast surface → RANK on osteoclast precursors → osteoclast differentiation; OPG (decoy receptor) blocks RANKL; denosumab mimics OPG; oestrogen withdrawal shifts ratio toward bone loss."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β is the most abundant cytokine in bone matrix; resorbing osteoclasts release latent TGF-β → active TGF-β → osteoblast recruitment; TGF-β → SMAD2/3 → OPG upregulation → anti-osteoclastic; excess TGF-β in bone metastasis drives osteoblastic suppression and vicious cycle."
+  - target: 01-human/05-tissue/cortical-bone
+    relation: connects-to
+    note: "Osteoblasts form both cortical and trabecular bone; cortical osteoblasts lay lamellar collagen in Haversian systems; PTH (intermittent) → cortical bone anabolism; bisphosphonate therapy preferentially preserves cortical bone by reducing osteoclast-driven resorption."
 ---
 
 # Osteoblast
@@ -81,10 +90,13 @@ Beyond their structural role, osteoblasts are central regulators of skeletal hom
 
 ## Connections
 
-- **Part-of bone-marrow [^alberts-mol-cell-biology]:** Osteoblasts arise from MSCs in the bone marrow stromal compartment; bone marrow stromal cells also serve as HSC niche cells; osteoblast CXCL12 and SCF retain HSCs in the endosteal niche.
-- **Modulates whole-body physiology [^guyton-hall]:** Osteoblasts are the sole source of bone matrix synthesis; type I collagen, ALP, osteocalcin, and matrix vesicle-driven mineralisation are exclusively osteoblastic; circulating decarboxylated osteocalcin promotes insulin secretion, muscle function, and cognitive function as an endocrine hormone.
-- **Modulates IL-6 [^guyton-hall]:** IL-6 stimulates osteoblast RANKL expression via STAT3 and gp130-JAK-STAT signalling, shifting the RANKL/OPG balance toward osteoclastogenesis; excess IL-6 in rheumatoid arthritis drives periarticular bone erosion via this mechanism.
-- **Modulates immune-system [^alberts-mol-cell-biology]:** The osteoblast RANKL:OPG ratio controls osteoclastogenesis; T cells, macrophages, and Th17 cells producing RANKL, TNF-α, and IL-17 stimulate osteoblast RANKL → bone erosion in RA, ankylosing spondylitis, and cancer bone metastasis.
+- `part-of` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Osteoblasts arise from MSCs in the bone marrow stromal compartment; bone marrow stromal cells also serve as HSC niche cells; osteoblast CXCL12 and SCF retain HSCs in the endosteal niche.
+- `modulates` → **[Human Body](../../08-whole-body/human-body/README.md)** — Osteoblasts are the sole source of bone matrix synthesis; they produce type I collagen, ALP, osteocalcin, and initiate mineralisation; circulating decarboxylated osteocalcin promotes insulin secretion and muscle function.
+- `modulates` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 stimulates osteoblast RANKL expression via STAT3/gp130-JAK-STAT, shifting the RANKL/OPG balance toward osteoclastogenesis; excess IL-6 in rheumatoid arthritis drives periarticular bone erosion.
+- `modulates` → **[Immune System](../../07-system/immune-system/README.md)** — Osteoblast RANKL:OPG ratio controls osteoclastogenesis; immune cells (T cells, macrophages) producing RANKL, TNF-α, IL-17 stimulate osteoblast RANKL → bone erosion in RA, spondylitis, and bone metastasis.
+- `connects-to` → **[Osteoclast](../osteoclast/README.md)** — Osteoblasts are the master regulators of osteoclastogenesis via RANKL:OPG ratio; RANKL on osteoblast surface → RANK on osteoclast precursors → osteoclast differentiation; OPG (decoy receptor) blocks RANKL; denosumab mimics OPG; oestrogen withdrawal shifts ratio toward bone loss.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β is the most abundant cytokine in bone matrix; resorbing osteoclasts release latent TGF-β → active TGF-β → osteoblast recruitment; TGF-β → SMAD2/3 → OPG upregulation → anti-osteoclastic; excess TGF-β in bone metastasis drives osteoblastic suppression and vicious cycle.
+- `connects-to` → **[Cortical Bone](../../05-tissue/cortical-bone/README.md)** — Osteoblasts form both cortical and trabecular bone; cortical osteoblasts lay lamellar collagen in Haversian systems; PTH (intermittent) → cortical bone anabolism; bisphosphonate therapy preferentially preserves cortical bone by reducing osteoclast-driven resorption.
 
 ## Pathology
 
@@ -105,3 +117,7 @@ Beyond their structural role, osteoblasts are central regulators of skeletal hom
 - `../../03-molecular/il-6/README.md` — cytokine regulation of RANKL/OPG ratio
 - `../../07-system/immune-system/README.md` — osteoimmunology, T-cell driven bone erosion
 - `../../08-whole-body/human-body/README.md` — osteocalcin as endocrine hormone
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Osteoblast — mesenchymal bone-forming cell: Runx2 signalling, type I collagen matrix synthesis, hydroxyapatite mineralisation via ALP matrix vesicles, and RANKL/OPG axis. Scale 04 of the Human Atlas.">
+  <meta name="description" content="Mesenchymal-derived bone-forming cells that synthesise type I collagen matrix and initiate mineralisation via alkaline phosphatase-rich matrix vesicles. Master ">
   <meta property="og:title" content="Osteoblast — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Osteoblast — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #b45309;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
-    a { color: var(--accent); text-decoration: none; transition: color .15s; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,49 +39,51 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(180,83,9,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #b45309, #78350f); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
     .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
@@ -85,7 +94,7 @@
     .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
     .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
     .footer-links a { color: var(--muted); }
-    .footer-links a:hover { color: var(--accent); }
+    .footer-links a:hover { color: var(--bio); }
     .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
@@ -99,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -111,133 +119,64 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Cellular</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 04 — Cellular</div>
     <h1>Osteoblast</h1>
-    <p class="tagline">Mesenchymal bone-forming cell — synthesises type I collagen osteoid and initiates hydroxyapatite mineralisation via alkaline phosphatase–rich matrix vesicles.</p>
-    <p class="subtagline">Master regulator Runx2 integrates BMP, Wnt, and PTH signals. RANKL/OPG ratio couples osteoblasts to osteoclast activity, linking skeletal homeostasis to the immune and endocrine systems.</p>
+    <p class="tagline">Mesenchymal-derived bone-forming cells that synthesise type I collagen matrix and initiate mineralisation via alkaline phosphatase-rich matrix vesicles. Master regulator Runx2 integrates BMP, Wnt, and PTH signals; RANKL/OPG ratio couples osteoblasts to osteoclast activity.</p>
+    <p class="aliases">Also known as: bone-forming cell, osteoprogenitor, osteocyte precursor, bone lining cell</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">20–30 µm</span><span class="stat-label">Cell diameter</span></div>
-      <div class="stat"><span class="stat-num">~100 days</span><span class="stat-label">Active lifespan</span></div>
-      <div class="stat"><span class="stat-num">10–15 days</span><span class="stat-label">Osteoid mineralisation lag</span></div>
-      <div class="stat"><span class="stat-num">~20%</span><span class="stat-label">Become osteocytes</span></div>
+        <div class="stat"><span class="stat-num">Scale 04 — Cellular</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">CL:0000062 &middot; Atlas One / Scale 04 &mdash; Cellular &middot; Bone</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">osteoblast</div>
         <h2>Osteoblast</h2>
-        <p class="summary">Mononucleated mesenchymal-derived cells arrayed on bone-forming surfaces. Synthesise &gt;90% of bone organic matrix as type I collagen, initiate mineralisation through ALP-enriched matrix vesicles generating hydroxyapatite (Ca₁₀(PO₄)₆(OH)₂), and govern osteoclastogenesis through the RANKL:OPG ratio. Master transcription factor Runx2 (CBFA1) integrates BMP-2/4, Wnt/β-catenin, PTH, and mechanical loading into the osteoblast programme. Osteocalcin secreted exclusively by osteoblasts acts as an endocrine hormone promoting insulin secretion and muscle glucose uptake.</p>
+        <p class="summary">Mesenchymal-derived bone-forming cells that synthesise type I collagen matrix and initiate mineralisation via alkaline phosphatase-rich matrix vesicles. Master regulator Runx2 integrates BMP, Wnt, and PTH signals; RANKL/OPG ratio couples osteoblasts to osteoclast activity.</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>Osteoblasts are mononucleated, mesenchymal-derived cells responsible for bone formation (osteogenesis). They synthesise and secrete the organic bone matrix (osteoid), composed predominantly of <strong>type I collagen</strong>, and initiate its mineralisation to produce hydroxyapatite (HA) — the structural basis of bone mechanical strength. Differentiation from multipotent mesenchymal stromal cells (MSCs) is orchestrated by the master transcription factor <strong>Runx2 (CBFA1/OSF2)</strong>, which integrates signals from BMP, Wnt/β-catenin, PTH, insulin, and mechanical loading.</p>
-          <p>Beyond their structural role, osteoblasts regulate skeletal homeostasis through the <strong>RANKL/OPG axis</strong>, coupling bone formation and resorption in the remodelling cycle. They also maintain the haematopoietic stem cell (HSC) niche through secretion of CXCL12, SCF/KIT-L, and Angiopoietin-1. Osteocalcin (BGLAP), secreted exclusively by osteoblasts, functions as an endocrine hormone in its undercarboxylated form, promoting insulin secretion, muscle function, and memory consolidation — linking bone to whole-body metabolic physiology.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Structure</h3>
-          <p><strong>Morphology.</strong> Active osteoblasts are cuboidal to columnar (20–30 µm diameter), arrayed in a single layer on bone-forming surfaces (periosteum, endosteum, trabecular surfaces). Their cytoplasm is characteristically basophilic on H&amp;E staining, reflecting abundant rough ER for high-volume collagen synthesis. The Golgi apparatus is prominent; mitochondria are abundant to supply ATP for matrix synthesis and mineralisation.</p>
-          <p><strong>Nucleus.</strong> Single, large, eccentric nucleus with prominent nucleolus — indicating high transcriptional and translational activity. Key transcription factors Runx2, Osterix (SP7), ATF4, and β-catenin localise to the nucleus during active differentiation.</p>
-          <p><strong>Surface molecules.</strong> PTH receptor 1 (PTH1R, Gs-coupled); Wnt co-receptors LRP5/6 + Frizzled; BMP receptors BMPRIA/IB (→ phospho-SMAD1/5/8); IGF-1R; integrins α₁β₁/α₂β₁ (collagen-binding); RANKL (TNFSF11) on osteoblast surface — controls osteoclast formation.</p>
-          <p><strong>Secretory products.</strong> Type I collagen (α₁[I]₂α₂[I] heterotrimer, >90% of organic matrix); alkaline phosphatase (ALP/TNAP, on matrix vesicles — canonical serum marker of bone formation); osteocalcin (BGLAP); osteopontin (OPN); bone sialoprotein (BSP); osteonectin (SPARC); matrix Gla protein; MMP-13 (collagenase 3, for matrix remodelling).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Function — Matrix Mineralisation Pathway</h3>
-          <div class="circuit-diagram">
-<pre>MSC (CD73+ CD90+ CD105+, multipotent)
-  │
-  │  BMP-2/7 ──► SMAD1/5/8 ──► Runx2 activation
-  │  Wnt ──────► β-catenin ──► Runx2 + ↑OPG (anti-osteoclastic)
-  │  PTH (intermittent) ──► PKA ──► CREB ──► Runx2 (anabolic)
-  ▼
-Pre-osteoblast  (ALP+, low collagen secretion, proliferative)
-  │
-  ▼
-Mature Osteoblast  (ALP++, Col1a1++, osteocalcin+, RANKL+)
-  │
-  ├─ Type I collagen synthesis ──► ER: prolyl hydroxylase (Vit C required)
-  │                                  → triple-helix assembly
-  │                                  → Golgi: BMP-1/tolloid propeptide cleavage
-  │                                  → extracellular fibril self-assembly (67 nm D-banding)
-  │
-  ├─ Matrix vesicle (MV) release ──► ALP/TNAP: PPi → 2 Pi  (removes mineralisation inhibitor)
-  │                                   Ca²⁺ + Pi → HA nuclei inside MV
-  │                                   HA crystals propagate through MV membrane
-  │                                   → template on adjacent collagen fibrils
-  │                                   Mineralisation lag: ~10–15 days in humans
-  │
-  └─ RANKL/OPG output ─────────────► ↑RANKL/OPG → ↑osteoclastogenesis (resorption)
-                                       ↑OPG/RANKL → ↓osteoclastogenesis (bone mass ↑)
-
-Terminal fate (~100 days):
-  ~20%  → Osteocyte  (encased in matrix; LCN mechanosensor; SOST + FGF23 endocrine)
-  ~70%  → Bone lining cell  (quiescent; reactivatable by PTH or mechanical load)
-  ~10%  → Apoptosis  (↑by glucocorticoids → mechanism of steroid-induced osteoporosis)</pre>
-          </div>
-          <p style="margin-top:0.75rem;"><strong>Negative feedback:</strong> Osteocyte-secreted sclerostin (SOST) binds LRP5/6 → blocks Wnt → inhibits osteoblast activity. Romosozumab (anti-sclerostin mAb) removes this brake → potent anabolic effect. Disuse/space flight → ↑sclerostin → cortical thinning at ~1–2% per month.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Lifecycle — MSC to Osteocyte</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Stage</th><th>Markers</th><th>Key events</th></tr>
-            <tr><td>MSC</td><td>CD73⁺ CD90⁺ CD105⁺; CD45⁻ CD34⁻</td><td>Multipotent (osteoblast, adipocyte, chondrocyte); commits under BMP-2/7 + Wnt → Runx2/Osterix</td></tr>
-            <tr><td>Pre-osteoblast</td><td>ALP⁺, Runx2 moderate</td><td>Proliferative; low collagen secretion; committed but not yet cuboidal</td></tr>
-            <tr><td>Mature osteoblast</td><td>ALP⁺⁺, Col1⁺⁺, osteocalcin⁺, RANKL⁺</td><td>Active osteoid secretion; aligned on osteoid seams; ~100-day lifespan</td></tr>
-            <tr><td>Osteocyte (~20%)</td><td>E11⁺, DMP1⁺, PHEX⁺, SOST⁺, FGF23⁺</td><td>Embedded in mineralised matrix; lacunocanalicular network; mechanosensor via cilia + Cx43 gap junctions; SOST/FGF23 endocrine</td></tr>
-            <tr><td>Bone lining cell (~70%)</td><td>Flat, quiescent</td><td>Cover resting bone surfaces; reactivatable by PTH, mechanical load, or BMU (basic multicellular unit) signals</td></tr>
-            <tr><td>Apoptosis (~10%)</td><td>—</td><td>Glucocorticoids → ↑osteoblast apoptosis; mechanism of glucocorticoid-induced osteoporosis</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>osteoblast</td></tr>
+            <tr><td>Name</td><td>Osteoblast</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>04-cellular</td></tr>
           </table>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Osteoporosis</h4>
-            <p>Oestrogen withdrawal at menopause → ↑RANKL/OPG → osteoclast activity exceeds osteoblast output → net bone loss → microarchitectural deterioration → fragility fractures (hip, vertebral compression, Colles'). DEXA BMD T-score ≤ −2.5. Anabolic therapies: teriparatide/abaloparatide (PTHrP analogues → ↑Runx2/osteoblast), romosozumab (anti-sclerostin mAb → dual anabolic + anti-resorptive). Anti-resorptives: bisphosphonates, denosumab (anti-RANKL mAb).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Osteogenesis Imperfecta (OI)</h4>
-            <p>Autosomal dominant COL1A1/COL1A2 mutations → defective type I collagen triple helix assembly → blue sclerae, dentinogenesis imperfecta, recurrent fractures, hearing loss, short stature. Severity ranges from perinatally lethal (type II) to mild (type I). Treatment: bisphosphonates (↓osteoclast resorption of fragile bone); gene therapy under investigation.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Rickets / Osteomalacia</h4>
-            <p>Vitamin D deficiency (→ ↓Ca²⁺/Pi absorption) or phosphate deficit (X-linked hypophosphataemic rickets: PHEX mutation → FGF23 excess → ↓renal phosphate reabsorption, ↓calcitriol) → impaired HA mineralisation → unmineralised osteoid accumulation. Children: rickets (bowing, growth plate widening). Adults: diffuse bone pain, fractures. Treat: calcitriol + phosphate supplementation; burosumab (anti-FGF23 mAb) in XLH.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Paget's Disease of Bone</h4>
-            <p>Focal dysregulation of bone remodelling (SQSTM1/p62 mutations affecting NF-κB signalling; paramyxoviral inclusions in osteoclast nuclei) → lytic phase (↑ALP, ↑CTX) → compensatory ↑osteoblast → disorganised woven bone (cotton-wool skull, blade-of-grass lesion). Complications: bone pain, deformity, skull base compression, high-output cardiac failure, osteosarcomatous degeneration (<1%). Treatment: zoledronate 5 mg IV single dose.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Osteosarcoma</h4>
-            <p>Malignant osteoblast-like cells producing tumour osteoid; peak in adolescents at distal femur, proximal tibia, proximal humerus; second peak in elderly (Paget's-associated). Driver mutations: RB1, TP53, DLG2; complex chromosomal instability. Radiograph: Codman's triangle (periosteal reaction), sunburst pattern. Treatment: neoadjuvant MAP chemotherapy (methotrexate, doxorubicin, cisplatin) + limb-salvage surgery; mifamurtide for high-risk localised disease.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill" href="osteoclast.html"><span class="rel">Coupled to</span>Osteoclast</a>
-            <a class="conn-pill part" href="cortical-bone.html"><span class="rel">Produces</span>Cortical Bone</a>
-            <a class="conn-pill part" href="bone-marrow.html"><span class="rel">Arises from</span>Bone Marrow MSC</a>
-            <a class="conn-pill" href="immune-system.html"><span class="rel">Modulates</span>Immune System</a>
-            <a class="conn-pill" href="insulin.html"><span class="rel">Endocrine link</span>Osteocalcin → Insulin</a>
-            <a class="conn-pill" href="il-6.html"><span class="rel">Responds to</span>IL-6</a>
+            <a class="conn-pill part" href="bone-marrow.html" title="Osteoblasts arise from MSCs in the bone marrow stromal compartment; bone marrow stromal cells also serve as HSC niche cells; osteoblast CXCL12 and SCF retain HSCs in the endosteal niche."><span class="rel">part-of</span>Bone Marrow</a>
+            <a class="conn-pill" href="human-body.html" title="Osteoblasts are the sole source of bone matrix synthesis; they produce type I collagen, ALP, osteocalcin, and initiate mineralisation; circulating decarboxylated osteocalcin promotes insulin secretion and muscle function."><span class="rel">modulates</span>Human Body</a>
+            <a class="conn-pill" href="il-6.html" title="IL-6 stimulates osteoblast RANKL expression via STAT3/gp130-JAK-STAT, shifting the RANKL/OPG balance toward osteoclastogenesis; excess IL-6 in rheumatoid arthritis drives periarticular bone erosion."><span class="rel">modulates</span>Il 6</a>
+            <a class="conn-pill" href="immune-system.html" title="Osteoblast RANKL:OPG ratio controls osteoclastogenesis; immune cells (T cells, macrophages) producing RANKL, TNF-α, IL-17 stimulate osteoblast RANKL → bone erosion in RA, spondylitis, and bone metastasis."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="osteoclast.html" title="Osteoblasts are the master regulators of osteoclastogenesis via RANKL:OPG ratio; RANKL on osteoblast surface → RANK on osteoclast precursors → osteoclast differentiation; OPG (decoy receptor) blocks RANKL; denosumab mimics OPG; oestrogen withdrawal shifts ratio toward bone loss."><span class="rel">connects-to</span>Osteoclast</a>
+            <a class="conn-pill" href="tgf-beta.html" title="TGF-β is the most abundant cytokine in bone matrix; resorbing osteoclasts release latent TGF-β → active TGF-β → osteoblast recruitment; TGF-β → SMAD2/3 → OPG upregulation → anti-osteoclastic; excess TGF-β in bone metastasis drives osteoblastic suppression and vicious cycle."><span class="rel">connects-to</span>Tgf Beta</a>
+            <a class="conn-pill" href="cortical-bone.html" title="Osteoblasts form both cortical and trabecular bone; cortical osteoblasts lay lamellar collagen in Haversian systems; PTH (intermittent) → cortical bone anabolism; bisphosphonate therapy preferentially preserves cortical bone by reducing osteoclast-driven resorption."><span class="rel">connects-to</span>Cortical Bone</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">ncbi.nlm.nih.gov/books/NBK26880</a></li>
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
-            <li>Karsenty G, Ferron M. The contribution of bone to whole-organism physiology. <em>Nature.</em> 2012;481:314–20. <a href="https://doi.org/10.1038/nature10763" target="_blank" rel="noopener">doi:10.1038/nature10763</a></li>
-            <li>Komori T. Regulation of bone development and extracellular matrix protein genes by RUNX2. <em>Cell Tissue Res.</em> 2010;339(1):189–95. <a href="https://doi.org/10.1007/s00441-009-0832-8" target="_blank" rel="noopener">doi:10.1007/s00441-009-0832-8</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
           </ul>
         </div>
 
@@ -249,15 +188,11 @@ Terminal fate (~100 days):
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
-      <a href="osteoclast.html">Osteoclast</a>
-      <a href="cortical-bone.html">Cortical Bone</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-    <p class="footer-meta" style="margin-top:0.4rem;">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Built in the open.</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

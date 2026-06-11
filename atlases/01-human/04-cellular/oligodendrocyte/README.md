@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: modulates
     note: "Myelinated axons propagate action potentials rapidly to synaptic terminals; OL metabolic support via MCT1-derived lactate sustains high-frequency firing; demyelination disrupts temporal precision of synaptic transmission."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "MS is the paradigmatic OL/OPC demyelinating disease; CD4+ Th1/Th17 and CD8+ T cells + B cells destroy myelin; OPC remyelination fails in chronic MS (inhibitory LINGO-1, CSPG, Sema3A); anti-LINGO-1 (opicinumab) and clemastine target OPC differentiation failure."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Akt/mTOR is the central node for OPC differentiation → myelin synthesis; axonal glutamate → OPC NMDA receptors → Ca2+ → mTOR → MBP/PLP translation; PDGF-AA → Akt → mTOR → OPC survival; mTOR hyperactivation causes megalencephaly via OL expansion."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF promotes OPC differentiation via TrkB → Akt/mTOR → myelin gene expression; active axons release BDNF → OPC TrkB → pro-myelination; BDNF-TrkB signalling required for activity-dependent myelination; BDNF deficiency in MS lesions contributes to OPC differentiation failure."
 ---
 
 # Oligodendrocyte
@@ -124,10 +133,13 @@ This is analogous to the astrocyte-neuron lactate shuttle, but delivered directl
 
 ## Connections
 
-- **Part of:** [brain](../../06-organ/brain/README.md) — form myelin sheaths across all CNS white matter; corpus callosum, corona radiata, and optic nerves have highest OL density.
-- **Modulates:** [neuron](../neuron/README.md) — saltatory conduction (≥70 m/s); MCT1 lactate → MCT2 axon metabolic support; activity-dependent myelination via OPC NMDA receptors → mTOR → MBP synthesis.
-- **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — white matter integrity determines conduction velocity and cognitive function; demyelination (MS, MOGAD, PML) causes conduction block; OPC remyelination partially restores function.
-- **Modulates:** [synapse](../../05-tissue/synapse/README.md) — myelination enables rapid propagation of action potentials to terminals; MCT1 lactate sustains high-frequency axonal firing; demyelination disrupts temporal precision and neural computation.
+- `part-of` → **[Brain](../../06-organ/brain/README.md)** — Oligodendrocytes form myelin sheaths across all CNS white matter tracts; corpus callosum, corona radiata, cerebellar peduncles, and optic nerves have the highest OL density; OL loss disrupts saltatory conduction throughout the CNS.
+- `modulates` → **[Neuron](../neuron/README.md)** — Oligodendrocytes myelinate 15–40 axon segments each (saltatory conduction → ≥70 m/s); provide metabolic lactate via MCT1→axonal MCT2; axonal glutamate activates OPC NMDA receptors → mTOR → MBP translation.
+- `modulates` → **[Nervous System](../../07-system/nervous-system/README.md)** — White matter integrity (OL myelination) determines conduction velocity, neural synchrony, and cognition; demyelination (MS, MOGAD, PML) causes conduction block, sensory/motor deficits; OPC remyelination partially restores function.
+- `modulates` → **[Synapse](../../05-tissue/synapse/README.md)** — Myelinated axons propagate action potentials rapidly to synaptic terminals; OL metabolic support via MCT1-derived lactate sustains high-frequency firing; demyelination disrupts temporal precision of synaptic transmission.
+- `connects-to` → **[Multiple Sclerosis](../../07-system/multiple-sclerosis/README.md)** — MS is the paradigmatic OL/OPC demyelinating disease; CD4+ Th1/Th17 and CD8+ T cells + B cells destroy myelin; OPC remyelination fails in chronic MS (inhibitory LINGO-1, CSPG, Sema3A); anti-LINGO-1 (opicinumab) and clemastine target OPC differentiation failure.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Akt/mTOR is the central node for OPC differentiation → myelin synthesis; axonal glutamate → OPC NMDA receptors → Ca2+ → mTOR → MBP/PLP translation; PDGF-AA → Akt → mTOR → OPC survival; mTOR hyperactivation causes megalencephaly via OL expansion.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF promotes OPC differentiation via TrkB → Akt/mTOR → myelin gene expression; active axons release BDNF → OPC TrkB → pro-myelination; BDNF-TrkB signalling required for activity-dependent myelination; BDNF deficiency in MS lesions contributes to OPC differentiation failure.
 
 ## Pathology
 
@@ -170,7 +182,7 @@ Autosomal recessive mutations in *EIF2B1–5* (subunits of eukaryotic initiation
 
 ---
 
-> **AI co-maintenance notice:** This entry is maintained with AI assistance. Content reflects standard textbook and peer-reviewed sources as cited; verify critical details against primary literature before clinical or research application.
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^alberts-mol-cell-biology]: Alberts B, Johnson A, Lewis J, et al. *Molecular Biology of the Cell.* 7th ed. W.W. Norton; 2022. [NCBI Bookshelf →](https://www.ncbi.nlm.nih.gov/books/NBK26880/)
 [^guyton-hall]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2021. [Publisher →](https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8)
