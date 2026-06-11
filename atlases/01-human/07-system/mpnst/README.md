@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/erk1-2
     relation: connects-to
     note: "NF1 LOF → RAS → MEK/ERK1/2 hyperactivation drives MPNST proliferation; MEK inhibitors (trametinib, binimetinib) explored in preclinical MPNST — less active than in neurofibroma; MPNST MEK resistance via PI3K bypass; MEK + mTOR or MEK + CDK4/6 dual inhibition being studied."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Neurofibromatosis type 1 (germline NF1 loss) carries a ~10% lifetime MPNST risk, arising when a plexiform neurofibroma transforms via CDKN2A deletion then PRC2 inactivation; sudden growth or pain in a stable plexiform lesion demands urgent FDG-PET and biopsy."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "MPNST is a high-grade sarcoma of the Schwann-cell sheath that grows from a major peripheral nerve trunk, often requiring en bloc nerve sacrifice; perineural spread mandates wide (≥2 cm) margins, and S100/SOX10 are only focally positive unlike benign schwannoma."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "MPNST and AT/RT sit at opposite poles of PRC2 biology: MPNST inactivates PRC2 (SUZ12/EED loss) so H3K27me3 is LOST, whereas AT/RT (SMARCB1 loss) leaves PRC2 hyperactive with H3K27me3 retained — so H3K27me3 IHC separates them and EZH2 inhibitors help AT/RT but not MPNST."
 ---
 
 # MPNST
@@ -171,6 +180,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A homozygous deletion in ~70-80% high-grade MPNST; NF1+CDKN2A loss → CDK4/6 → RB1 phosphorylation → E2F proliferation; ARF loss → MDM2 unrestricted → p53 inactivation without TP53 mutation; CDK4/6 inhibitors (palbociclib) active in preclinical MPNST.
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — PRC2/EZH2 is inactivated in ~70-90% high-grade MPNST by SUZ12 or EED mutations → H3K27me3 LOST (contrast AT/RT/SS where H3K27me3 accumulates); H3K27me3 loss by IHC is a diagnostic marker for high-grade MPNST; EZH2 inhibitors are NOT active in MPNST (PRC2 already lost).
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — NF1 LOF → RAS → MEK/ERK1/2 hyperactivation drives MPNST proliferation; MEK inhibitors (trametinib, binimetinib) explored in preclinical MPNST — less active than in neurofibroma; MPNST MEK resistance via PI3K bypass; MEK + mTOR or MEK + CDK4/6 dual inhibition being studied.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Neurofibromatosis type 1 (germline NF1 loss) carries a ~10% lifetime MPNST risk, arising when a plexiform neurofibroma transforms via CDKN2A deletion then PRC2 inactivation; sudden growth or pain in a stable plexiform lesion demands urgent FDG-PET and biopsy.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — MPNST is a high-grade sarcoma of the Schwann-cell sheath that grows from a major peripheral nerve trunk, often requiring en bloc nerve sacrifice; perineural spread mandates wide (≥2 cm) margins, and S100/SOX10 are only focally positive unlike benign schwannoma.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — MPNST and AT/RT sit at opposite poles of PRC2 biology: MPNST inactivates PRC2 (SUZ12/EED loss) so H3K27me3 is LOST, whereas AT/RT (SMARCB1 loss) leaves PRC2 hyperactive with H3K27me3 retained — so H3K27me3 IHC separates them and EZH2 inhibitors help AT/RT but not MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

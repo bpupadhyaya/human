@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β1 secreted by MPN megakaryocytes drives collagen deposition → bone marrow fibrosis in MF; TGF-β/SMAD pathway activation is central to MF fibrosis; luspatercept (activin receptor ligand trap targeting SMAD2/3) approved for MF-associated anemia (INDEPENDENCE trial)."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Polycythemia vera is the erythroid-predominant MPN — JAK2 V617F (often homozygous via 9p uniparental disomy) drives EPO-independent erythrocytosis, raising thrombosis risk; managed with phlebotomy to HCT <45% and aspirin, and it can evolve to post-PV myelofibrosis."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "The JAK2 V617F mutation in the JH2 pseudokinase domain unifies the MPNs — present in ~95% of PV and ~55-60% of ET and MF — by removing autoinhibition for constitutive JAK-STAT signaling; allele burden tracks phenotype (heterozygous→ET, homozygous→PV)."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "MPNs are clonal stem-cell diseases of the bone marrow: panmyeloid hypercellularity in PV, megakaryocytic hyperplasia in ET, and progressive reticulin/collagen fibrosis (MF-0 to MF-3) in myelofibrosis that drives marrow failure and extramedullary hematopoiesis with splenomegaly."
 ---
 
 # Myeloproliferative Neoplasms
@@ -183,6 +192,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK2 V617F → constitutive STAT5 phosphorylation → EPO-independent erythropoiesis in PV; STAT5 is the primary effector of JAK2 → BCL-XL, CCND1, MYC → erythroid survival; STAT3 mediates inflammatory cytokine production in MF (IL-6, IL-8).
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO → EPOR → JAK2 → STAT5 is the normal erythropoiesis axis; JAK2 V617F bypasses EPO requirement → autonomous red cell production → polycythemia in PV; serum EPO is suppressed in PV (EPO-independent erythropoiesis) and elevated in secondary polycythemia.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 secreted by MPN megakaryocytes drives collagen deposition → bone marrow fibrosis in MF; TGF-β/SMAD pathway activation is central to MF fibrosis; luspatercept (activin receptor ligand trap targeting SMAD2/3) approved for MF-associated anemia (INDEPENDENCE trial).
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Polycythemia vera is the erythroid-predominant MPN — JAK2 V617F (often homozygous via 9p uniparental disomy) drives EPO-independent erythrocytosis, raising thrombosis risk; managed with phlebotomy to HCT <45% and aspirin, and it can evolve to post-PV myelofibrosis.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — The JAK2 V617F mutation in the JH2 pseudokinase domain unifies the MPNs — present in ~95% of PV and ~55-60% of ET and MF — by removing autoinhibition for constitutive JAK-STAT signaling; allele burden tracks phenotype (heterozygous→ET, homozygous→PV).
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MPNs are clonal stem-cell diseases of the bone marrow: panmyeloid hypercellularity in PV, megakaryocytic hyperplasia in ET, and progressive reticulin/collagen fibrosis (MF-0 to MF-3) in myelofibrosis that drives marrow failure and extramedullary hematopoiesis with splenomegaly.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
