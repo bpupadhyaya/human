@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: contains
     note: "Each Peyer's patch contains multiple B-cell follicles with germinal centers; antigen-driven GC reactions in Peyer's patches are the primary source of IgA-committed B cells populating the intestinal lamina propria."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β is the dominant cytokine driving IgA class switch recombination in Peyer's patch GCs; TGF-β + IL-10 + APRIL/BAFF convert naive B cells to IgA-committed cells; TGF-β also drives Foxp3+ iTreg generation → oral tolerance; produced by Tfh cells, macrophages, and stromal cells."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: contains
+    note: "Peyer's patches are inductive sites for Foxp3+ iTregs; retinoic acid from CD103+ DCs + TGF-β converts naive CD4+ T cells to iTregs; PP iTregs suppress responses to dietary antigens and commensal bacteria → oral tolerance; IL-10 from iTregs suppresses mucosal inflammation."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "IL-10 from PP regulatory T cells and DCs promotes IgA class switching in GCs; IL-10 + TGF-β + APRIL/BAFF drive IgA isotype switching; IL-10 suppresses inflammatory responses to luminal antigens; IL-10 deficiency → spontaneous colitis via loss of PP-mediated oral tolerance."
 ---
 
 # Peyer's Patches
@@ -97,11 +106,14 @@ Each Peyer's patch contains multiple (**B-cell follicles**) arranged in a cresce
 - `contains` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — subepithelial dome DCs capture M-cell-transcytosed antigens and drive IgA class switching via retinoic acid and BAFF/APRIL.
 - `contains` → **[Germinal Center](../germinal-center/README.md)** — B-cell follicles within Peyer's patches contain active germinal centers driving IgA affinity maturation and class switch recombination.
 - `connects-to` → **[OPV (Oral Polio Vaccine)](../../../../04-vaccine/05-live-attenuated/oral-polio-vaccine/README.md)** — OPV poliovirus binds CD155 on M cells in Peyer's patches; GALT replication drives lamina propria B cells → sIgA via pIgR transcytosis; mucosal sIgA blocks gut re-infection — the eradication-critical response absent from injected IPV.
-
-[^cornes-1965-peyers-patches]: Cornes JS. Number, size, and distribution of Peyer's patches in the human small intestine. *Gut.* 1965;6(3):225-233. [doi:10.1136/gut.6.3.225](https://doi.org/10.1136/gut.6.3.225) · [PubMed 5826791](https://pubmed.ncbi.nlm.nih.gov/5826791/)
-[^neutra-1996-m-cells]: Neutra MR, Frey A, Kraehenbuhl JP. Epithelial M cells: gateways for mucosal infection and immunization. *Cell.* 1996;86(3):345-348. [doi:10.1016/S0092-8674(00)80106-3](https://doi.org/10.1016/S0092-8674(00)80106-3) · [PubMed 8756715](https://pubmed.ncbi.nlm.nih.gov/8756715/)
-[^fagarasan-2003-iga]: Fagarasan S, Honjo T. Intestinal IgA synthesis: regulation of front-line body defences. *Nat Rev Immunol.* 2003;3(1):63-72. [doi:10.1038/nri982](https://doi.org/10.1038/nri982) · [PubMed 12511876](https://pubmed.ncbi.nlm.nih.gov/12511876/)
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β is the dominant cytokine driving IgA class switch recombination in Peyer's patch GCs; TGF-β + IL-10 + APRIL/BAFF convert naive B cells to IgA-committed cells; TGF-β also drives Foxp3+ iTreg generation → oral tolerance; produced by Tfh cells, macrophages, and stromal cells.
+- `contains` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Peyer's patches are inductive sites for Foxp3+ iTregs; retinoic acid from CD103+ DCs + TGF-β converts naive CD4+ T cells to iTregs; PP iTregs suppress responses to dietary antigens and commensal bacteria → oral tolerance; IL-10 from iTregs suppresses mucosal inflammation.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — IL-10 from PP regulatory T cells and DCs promotes IgA class switching in GCs; IL-10 + TGF-β + APRIL/BAFF drive IgA isotype switching; IL-10 suppresses inflammatory responses to luminal antigens; IL-10 deficiency → spontaneous colitis via loss of PP-mediated oral tolerance.
 
 ---
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
+
+[^cornes-1965-peyers-patches]: Cornes JS. Number, size, and distribution of Peyer's patches in the human small intestine. *Gut.* 1965;6(3):225-233. [doi:10.1136/gut.6.3.225](https://doi.org/10.1136/gut.6.3.225) · [PubMed 5826791](https://pubmed.ncbi.nlm.nih.gov/5826791/)
+[^neutra-1996-m-cells]: Neutra MR, Frey A, Kraehenbuhl JP. Epithelial M cells: gateways for mucosal infection and immunization. *Cell.* 1996;86(3):345-348. [doi:10.1016/S0092-8674(00)80106-3](https://doi.org/10.1016/S0092-8674(00)80106-3) · [PubMed 8756715](https://pubmed.ncbi.nlm.nih.gov/8756715/)
+[^fagarasan-2003-iga]: Fagarasan S, Honjo T. Intestinal IgA synthesis: regulation of front-line body defences. *Nat Rev Immunol.* 2003;3(1):63-72. [doi:10.1038/nri982](https://doi.org/10.1038/nri982) · [PubMed 12511876](https://pubmed.ncbi.nlm.nih.gov/12511876/)

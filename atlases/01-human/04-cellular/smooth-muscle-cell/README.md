@@ -32,6 +32,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: modulates
     note: "Airway SMCs in tracheal/bronchial walls control airway calibre; β2-AR agonists → cAMP → PKA → ↓MLCK → bronchodilation; muscarinic M3 → contraction → bronchoconstriction in asthma."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial cells regulate SMC tone via paracrine signals: NO → cGMP → PKG → relaxation; PGI₂ → cAMP → PKA → relaxation; ET-1 → ETA → contraction; EDHF via gap junctions → hyperpolarisation; endothelial dysfunction in atherosclerosis impairs these vasodilatory signals."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF-BB → PDGFR-β on SMCs → ERK/Akt → phenotype switching from contractile to synthetic; synthetic SMCs migrate to intima and proliferate; PDGF-BB is the master driver of neointimal hyperplasia after vascular injury; imatinib blocks PDGFR-β, inhibiting SMC proliferation in PAH."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "SMC phenotype switching (contractile → synthetic) is central to plaque formation; synthetic SMCs migrate to intima, produce collagen fibrous cap, and ~50% become foam cells; SMC apoptosis thins the cap → plaque vulnerability; PDGF-BB and ox-LDL drive the switch."
 ---
 
 # Smooth Muscle Cell
@@ -83,10 +92,13 @@ SMCs are derived from multiple developmental origins depending on location: neur
 
 ## Connections
 
-- **Part-of cardiovascular system [^guyton-hall]:** Vascular SMCs in the tunica media of arteries regulate vascular tone and blood pressure via MLC₂₀ phosphorylation/MLCK; phenotype switching from contractile to synthetic drives atherosclerotic plaque formation and neointimal hyperplasia.
-- **Modulates nitric oxide [^alberts-mol-cell-biology]:** eNOS-derived NO diffuses from endothelial cells to vascular SMCs, activating sGC → cGMP → PKG → MLCP activation → MLC₂₀ dephosphorylation → relaxation; NO is the primary endothelium-derived vasodilatory signal.
-- **Modulated-by calcium-channel-blockers [^guyton-hall]:** Dihydropyridine CCBs (amlodipine, nifedipine) block L-type Cav1.2 on vascular SMCs → ↓Ca²⁺ entry → ↓MLCK activation → vasodilation → ↓TPR → ↓BP; vascular selectivity arises from tissue-specific splicing of Cav1.2.
-- **Modulates respiratory system [^alberts-mol-cell-biology]:** Airway SMCs in tracheal and bronchial walls control airway calibre; β₂-AR agonists (salbutamol) → cAMP → PKA → ↓MLCK activity → relaxation → bronchodilation; muscarinic M₃ receptor activation → IP₃ → Ca²⁺ → contraction → bronchoconstriction in asthma.
+- `part-of` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Vascular SMCs in the tunica media regulate vascular tone via MLC₂₀ phosphorylation/MLCK; phenotype switching from contractile to synthetic drives atherosclerotic plaque formation and neointimal hyperplasia.
+- `modulates` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — eNOS-derived NO diffuses from endothelial cells to vascular SMCs → sGC → cGMP → PKG → MLCP activation → MLC₂₀ dephosphorylation → relaxation; NO is the primary endothelium-derived vasodilatory signal.
+- `modulated-by` → **[Calcium Channel Blockers](../../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md)** — Dihydropyridine CCBs (amlodipine, nifedipine) block L-type Cav1.2 on vascular SMCs → ↓Ca²⁺ entry → ↓MLCK activation → vasodilation → ↓TPR → ↓BP; vascular selectivity via tissue-specific splicing.
+- `modulates` → **[Respiratory System](../../07-system/respiratory-system/README.md)** — Airway SMCs control airway calibre; β₂-AR agonists → cAMP → PKA → ↓MLCK → bronchodilation; muscarinic M₃ → contraction → bronchoconstriction in asthma.
+- `connects-to` → **[Endothelial Cell](../endothelial-cell/README.md)** — Endothelial cells regulate SMC tone via paracrine signals: NO → cGMP → PKG → relaxation; PGI₂ → cAMP → PKA → relaxation; ET-1 → ETA → contraction; EDHF via gap junctions → hyperpolarisation; endothelial dysfunction in atherosclerosis impairs these vasodilatory signals.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF-BB → PDGFR-β on SMCs → ERK/Akt → phenotype switching from contractile to synthetic; synthetic SMCs migrate to intima and proliferate; PDGF-BB is the master driver of neointimal hyperplasia after vascular injury; imatinib blocks PDGFR-β, inhibiting SMC proliferation in PAH.
+- `connects-to` → **[Atherosclerosis](../../07-system/atherosclerosis/README.md)** — SMC phenotype switching (contractile → synthetic) is central to plaque formation; synthetic SMCs migrate to intima, produce collagen fibrous cap, and ~50% become foam cells; SMC apoptosis thins the cap → plaque vulnerability; PDGF-BB and ox-LDL drive the switch.
 
 ## Pathology
 
@@ -109,3 +121,7 @@ SMCs are derived from multiple developmental origins depending on location: neur
 - `../../03-molecular/nitric-oxide/README.md` — NO–sGC–cGMP–PKG relaxation pathway
 - `../endothelial-cell/README.md` — endothelial-SMC crosstalk (eNOS, EDHF, ET-1, PGI₂)
 - `../../../03-medicine/01-modern/04-cardio/calcium-channel-blockers/README.md` — pharmacological vascular SMC relaxation
+
+---
+
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
