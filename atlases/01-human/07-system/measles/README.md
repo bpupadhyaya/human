@@ -47,6 +47,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections after measles."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Measles erases immune memory by destroying memory B cells: these cells carry the most SLAM/CD150 (3-10× naive B cells), exactly the receptor measles H protein binds, so the virus preferentially infects and deletes them — wiping out 20-70% of a child's antibody repertoire."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Measles attacks the brain in several ways: acute post-infectious encephalitis and ADEM, and — years to decades later — SSPE, a fatal degeneration driven by hypermutated measles virus persisting in neurons; the MMR vaccine essentially eliminates all of these."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Measles induces a profound, lasting immunosuppression that can reactivate latent tuberculosis: measles-infected dendritic cells make less IL-12, crippling the Th1 response that contains TB — one way post-measles immune amnesia raises susceptibility to other infections for years."
 ---
 
 # Measles
@@ -201,6 +210,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Measles Virus](../../../02-pathogen/01-viruses/measles-virus/README.md)** — MV (Morbillivirus; negative-sense ssRNA; R₀ 12-18) is the causative agent; SLAM/CD150-binding H glycoprotein mediates systemic lymphoid spread; F protein drives syncytia (Warthin-Finkeldey cells); persistent MV with hypermutated genome causes SSPE.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — MV-H binds SLAM/CD150 on DCs → productive DC infection → impaired IL-12/IFN-α production and reduced T cell priming; MV-infected DCs poorly present antigens; DC dysfunction is a core driver of measles immune amnesia lasting 2-3 years.
 - `connects-to` → **[Immune System](../../immune-system/README.md)** — Measles immune amnesia (Mina 2019): MV SLAM/CD150 tropism infects SLAM-high memory B cells → erases 20-70% of pre-existing antibody diversity; naive B cells cannot reconstitute pathogen-specific memory → 2-3 years re-susceptibility to other infections.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Measles erases immune memory by destroying memory B cells: these cells carry the most SLAM/CD150 (3-10× naive B cells), exactly the receptor measles H protein binds, so the virus preferentially infects and deletes them — wiping out 20-70% of a child's antibody repertoire.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Measles attacks the brain in several ways: acute post-infectious encephalitis and ADEM, and — years to decades later — SSPE, a fatal degeneration driven by hypermutated measles virus persisting in neurons; the MMR vaccine essentially eliminates all of these.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Measles induces a profound, lasting immunosuppression that can reactivate latent tuberculosis: measles-infected dendritic cells make less IL-12, crippling the Th1 response that contains TB — one way post-measles immune amnesia raises susceptibility to other infections for years.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

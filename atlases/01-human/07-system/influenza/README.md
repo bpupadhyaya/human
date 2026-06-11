@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/influenza-ha
     relation: connects-to
     note: "HA is the primary influenza vaccine antigen; HA1 head antigenic sites A-E undergo annual drift requiring reformulation; HA2 stalk BNAbs are the basis of universal influenza vaccine strategies; α2,6-SA vs α2,3-SA receptor binding specificity determines human transmissibility."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Severe influenza is a disease of the lung: the virus infects alveolar epithelium → diffuse alveolar damage and ARDS (primary viral pneumonia), and by stripping mucociliary defenses it opens the door to the secondary bacterial pneumonia that caused most 1918 deaths."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Influenza infects alveolar type I and type II pneumocytes; killing surfactant-producing type II cells collapses alveoli and slashes lung compliance → the diffuse alveolar damage and hyaline membranes of influenza ARDS, most severe with H5N1 and the 1918 strain."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Influenza paves the way for Streptococcus pneumoniae: viral damage to airway epithelium and mucociliary clearance lets pneumococcus colonize the lung, producing the secondary bacterial pneumonia that peaks 5-10 days in and drives much influenza mortality."
 ---
 
 # Influenza
@@ -182,3 +191,7 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 **→ [RIG-I](../../../03-molecular/rig-i/)**: Influenza A 5′ppp genomic ssRNA and dsRNA replication intermediates are the canonical RIG-I ligands; NS1 blocks RIG-I by sequestering dsRNA and inhibiting TRIM25-mediated K63-ubiquitination of RIG-I CARDs; NS1 IFN antagonism strength correlates with pandemic potential.
 
 **→ [Influenza Hemagglutinin](../../../03-molecular/influenza-ha/)**: HA1 head antigenic sites A-E undergo annual drift requiring vaccine reformulation; HA2 stalk BNAbs (CR6261, MEDI8852, FI6v3) are the basis of universal influenza vaccine strategies; α2,6-SA vs α2,3-SA receptor binding specificity determines human transmissibility and pandemic potential.
+
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Severe influenza is a disease of the lung: the virus infects alveolar epithelium → diffuse alveolar damage and ARDS (primary viral pneumonia), and by stripping mucociliary defenses it opens the door to the secondary bacterial pneumonia that caused most 1918 deaths.
+- `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Influenza infects alveolar type I and type II pneumocytes; killing surfactant-producing type II cells collapses alveoli and slashes lung compliance → the diffuse alveolar damage and hyaline membranes of influenza ARDS, most severe with H5N1 and the 1918 strain.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Influenza paves the way for Streptococcus pneumoniae: viral damage to airway epithelium and mucociliary clearance lets pneumococcus colonize the lung, producing the secondary bacterial pneumonia that peaks 5-10 days in and drives much influenza mortality.
