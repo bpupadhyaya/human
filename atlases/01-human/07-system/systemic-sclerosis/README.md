@@ -40,6 +40,15 @@ cross_links:
   - target: 01-human/03-molecular/type-i-interferon
     relation: connects-to
     note: "Type I IFN signature elevated in ~50% of SSc, especially anti-RNA pol III+ dcSSc; IFN-α activates plasmacytoid DCs → amplifies anti-nuclear antibodies; type I IFN + TGF-β cooperate to drive SSc fibroblast activation and ILD progression."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Skin fibrosis names systemic sclerosis: TGF-β-activated myofibroblasts deposit collagen, producing taut, hide-bound dermis graded by the modified Rodnan skin score; limited cutaneous SSc spares the trunk while diffuse SSc thickens proximal limbs, predicting organ involvement."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The effector cell of systemic sclerosis is the myofibroblast (α-SMA+, contractile), driven by TGF-β/SMAD2-3 to oversecrete collagen; in SSc it becomes autonomously fibrogenic through epigenetic FLI1 silencing and persists even without ongoing TGF-β, sustaining fibrosis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Scleroderma renal crisis strikes ~10-15% of diffuse SSc (especially anti-RNA-pol-III+) as malignant hypertension with onion-skin arterioles and hemolytic anemia; ACE inhibitors are the only proven therapy, and corticosteroids must be avoided as they can precipitate it."
 ---
 
 # Systemic Sclerosis
@@ -161,6 +170,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — PAH occurs in 10-15% of SSc (especially lcSSc with anti-centromere antibodies); SSc-PAH is treated identically to IPAH with ERAs + PDE5i; macitentan, ambrisentan, and tadalafil are first-line; SSc-PAH has worse prognosis than IPAH due to concurrent cardiac and pulmonary fibrosis.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — IL-6 is elevated in SSc serum and drives fibrosis via STAT3 → ↑TGF-β and connective tissue growth factor; tocilizumab (anti-IL-6R) slowed FVC decline in SSc-ILD in the focuSSed trial; IL-6 levels correlate with skin score and ILD activity.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I IFN signature elevated in ~50% of SSc, especially anti-RNA pol III+ dcSSc; IFN-α activates plasmacytoid DCs → amplifies anti-nuclear antibodies; type I IFN + TGF-β cooperate to drive SSc fibroblast activation and ILD progression.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Skin fibrosis names systemic sclerosis: TGF-β-activated myofibroblasts deposit collagen, producing taut, hide-bound dermis graded by the modified Rodnan skin score; limited cutaneous SSc spares the trunk while diffuse SSc thickens proximal limbs, predicting organ involvement.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The effector cell of systemic sclerosis is the myofibroblast (α-SMA+, contractile), driven by TGF-β/SMAD2-3 to oversecrete collagen; in SSc it becomes autonomously fibrogenic through epigenetic FLI1 silencing and persists even without ongoing TGF-β, sustaining fibrosis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Scleroderma renal crisis strikes ~10-15% of diffuse SSc (especially anti-RNA-pol-III+) as malignant hypertension with onion-skin arterioles and hemolytic anemia; ACE inhibitors are the only proven therapy, and corticosteroids must be avoided as they can precipitate it.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

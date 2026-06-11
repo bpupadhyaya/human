@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 biallelic mutation co-occurs with RB1 loss in >90% of SCLC; p53 loss → unchecked DNA damage response → rapid proliferation; platinum/etoposide sensitivity partly attributable to p53-null apoptotic priming; SCLC lacks targetable TP53 restoration options."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Small cell lung cancer (~13-15% of lung cancer) is the most aggressive subtype, smoking-driven, arising centrally as a bulky hilar mass that often causes superior vena cava syndrome; it disseminates early, so ~70% present extensive-stage with brain, liver, or bone metastases."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "SCLC and NSCLC are the two divisions of lung cancer with opposite therapeutic logic: NSCLC is rich in targetable drivers, whereas SCLC has near-universal RB1 and TP53 loss with no actionable oncogene, relying on platinum-etoposide, immunotherapy, and DLL3-directed tarlatamab."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "SCLC is the poorly differentiated, high-grade end of the pulmonary neuroendocrine spectrum (Ki-67 >50%, synaptophysin/INSM1+), unlike indolent carcinoid NETs; whereas SSTR2-high NETs use somatostatin analogs and PRRT, SCLC is treated as a chemo-driven carcinoma."
 ---
 
 # Small Cell Lung Cancer
@@ -149,6 +158,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 biallelic loss in >90% of SCLC is the defining molecular event; RB1 loss releases E2F → ASCL1 → neuroendocrine program (DLL3, synaptophysin, chromogranin); RB1 loss also confers vulnerability to CDK4/6 inhibitor combinations in experimental models.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Atezolizumab (PD-L1) + carboplatin/etoposide (IMpower133: OS 12.3 vs 10.3 months) and durvalumab + platinum/etoposide (CASPIAN: OS 12.9 vs 10.5 months) are approved first-line regimens; PD-L1 expression does not predict benefit in SCLC; SCLC is immunologically cold.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 biallelic mutation co-occurs with RB1 loss in >90% of SCLC; p53 loss → unchecked DNA damage response → rapid proliferation; platinum/etoposide sensitivity partly attributable to p53-null apoptotic priming; SCLC lacks targetable TP53 restoration options.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Small cell lung cancer (~13-15% of lung cancer) is the most aggressive subtype, smoking-driven, arising centrally as a bulky hilar mass that often causes superior vena cava syndrome; it disseminates early, so ~70% present extensive-stage with brain, liver, or bone metastases.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — SCLC and NSCLC are the two divisions of lung cancer with opposite therapeutic logic: NSCLC is rich in targetable drivers, whereas SCLC has near-universal RB1 and TP53 loss with no actionable oncogene, relying on platinum-etoposide, immunotherapy, and DLL3-directed tarlatamab.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — SCLC is the poorly differentiated, high-grade end of the pulmonary neuroendocrine spectrum (Ki-67 >50%, synaptophysin/INSM1+), unlike indolent carcinoid NETs; whereas SSTR2-high NETs use somatostatin analogs and PRRT, SCLC is treated as a chemo-driven carcinoma.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
