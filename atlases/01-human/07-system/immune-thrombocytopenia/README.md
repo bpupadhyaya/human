@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Anti-GPIIb/IIIa and anti-GPIb/IX IgG opsonize platelets for FcγR-mediated splenic destruction and CD8+ T-cell lysis; resulting thrombocytopenia causes mucocutaneous bleeding; ITP management targets platelet count >50×10⁹/L (safe for most activities) or >100×10⁹/L (surgery)."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is the engine of ITP: red-pulp macrophages phagocytose IgG-opsonized platelets via FcγRIII, and splenic autoreactive B cells are a primary antibody source; splenectomy removes both and gives durable remission in ~60-70%, though now used later given effective TPO-RAs."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Splenic macrophages drive platelet destruction in ITP — FcγRIII (CD16) on red-pulp macrophages binds IgG-opsonized platelets → phagocytosis; IVIG works by Fc-receptor blockade and fostamatinib by inhibiting macrophage SYK signaling downstream of FcγR, both sparing platelets."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "H. pylori is a cause of secondary ITP (~40-60% seropositive in endemic regions); eradication normalizes platelets in ~half of seropositive patients, likely by removing molecular-mimicry antigens and polyclonal B-cell stimulation, so ASH advises testing all ITP patients."
 ---
 
 # Immune Thrombocytopenia
@@ -185,6 +194,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — FcRn recycles anti-GPIIb/IIIa IgG sustaining pathogenic titers; efgartigimod (ADVANCE-SC: ~22% vs ~5% sustained platelet response; FDA Jun 2023) accelerates IgG catabolism → lower anti-platelet antibody levels; rozanolixizumab under investigation.
 - **Modulated by** → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Pathogenic anti-GPIIb/IIIa IgG1/IgG3 opsonizes platelets for FcγRIII-mediated splenic phagocytosis; IVIG blocks Fc receptors; rituximab depletes anti-platelet IgG-secreting B cells.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Anti-GPIIb/IIIa and anti-GPIb/IX IgG opsonize platelets for destruction; CD8+ T cells directly lyse platelets; thrombocytopenia causes mucocutaneous bleeding; ITP treatment targets platelet count >50–100×10⁹/L.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is the engine of ITP: red-pulp macrophages phagocytose IgG-opsonized platelets via FcγRIII, and splenic autoreactive B cells are a primary antibody source; splenectomy removes both and gives durable remission in ~60-70%, though now used later given effective TPO-RAs.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Splenic macrophages drive platelet destruction in ITP — FcγRIII (CD16) on red-pulp macrophages binds IgG-opsonized platelets → phagocytosis; IVIG works by Fc-receptor blockade and fostamatinib by inhibiting macrophage SYK signaling downstream of FcγR, both sparing platelets.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — H. pylori is a cause of secondary ITP (~40-60% seropositive in endemic regions); eradication normalizes platelets in ~half of seropositive patients, likely by removing molecular-mimicry antigens and polyclonal B-cell stimulation, so ASH advises testing all ITP patients.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

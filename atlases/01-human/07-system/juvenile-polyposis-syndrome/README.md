@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/apc
     relation: connects-to
     note: "JPS hamartomas differ from FAP (APC-mutant) adenomas: hamartomas have a complex stroma with muscle fibers and cysts (not pure epithelial dysplasia); however, adenomatous foci within JPS polyps carry CRC risk; colonoscopic polypectomy controls burden in both syndromes."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "PTEN ties JPS to the overlapping hamartoma syndromes: contiguous 10q22-23 deletions can remove both BMPR1A and PTEN → a severe combined JPS/Cowden phenotype, and the BMP→SMAD4→PTEN→mTOR axis is the rationale for rapamycin chemoprevention being explored in JPS."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Peutz-Jeghers is the main hamartomatous-polyposis differential: STK11-driven polyps have an arborizing smooth-muscle core (vs JPS's edematous, cyst-rich juvenile stroma) plus mucocutaneous melanotic macules absent in JPS; both carry high GI cancer risk via different pathways."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "JPS studs the colorectum with hamartomatous polyps (5-200) from which adenomatous foci drive a ~40-50% lifetime colorectal cancer risk; annual colonoscopy with polypectomy from age 15 controls burden, and colectomy is indicated when polyps become unmanageable."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -169,6 +178,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — JPS polyps arise from TGF-β/BMP pathway disruption (SMAD4 or BMPR1A LOF) → stromal hamartomatous growth; wild-type epithelium overgrows abnormal stroma; TGF-β loss promotes adenomatous transformation within JPS polyps → elevated CRC risk.
 - `connects-to` → **[Colorectal Cancer](../../07-system/colorectal-cancer/README.md)** — JPS confers ~40-50% lifetime CRC risk by age 60 (vs ~5% population risk); CRC arises from adenomatous foci within JPS hamartomas; SMAD4-JPS has the highest CRC risk; annual colonoscopy from age 15 with polypectomy; colectomy if polyp burden unmanageable.
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — JPS hamartomas differ from FAP (APC-mutant) adenomas: hamartomas have a complex stroma with muscle fibers and cysts (not pure epithelial dysplasia); however, adenomatous foci within JPS polyps carry CRC risk; colonoscopic polypectomy controls burden in both syndromes.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN ties JPS to the overlapping hamartoma syndromes: contiguous 10q22-23 deletions can remove both BMPR1A and PTEN → a severe combined JPS/Cowden phenotype, and the BMP→SMAD4→PTEN→mTOR axis is the rationale for rapamycin chemoprevention being explored in JPS.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers is the main hamartomatous-polyposis differential: STK11-driven polyps have an arborizing smooth-muscle core (vs JPS's edematous, cyst-rich juvenile stroma) plus mucocutaneous melanotic macules absent in JPS; both carry high GI cancer risk via different pathways.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — JPS studs the colorectum with hamartomatous polyps (5-200) from which adenomatous foci drive a ~40-50% lifetime colorectal cancer risk; annual colonoscopy with polypectomy from age 15 controls burden, and colectomy is indicated when polyps become unmanageable.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
