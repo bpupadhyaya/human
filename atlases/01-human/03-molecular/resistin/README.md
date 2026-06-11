@@ -21,6 +21,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Resistin is markedly elevated in synovial fluid and blood in RA; drives synovial macrophage NF-κB → TNF-α and IL-6 → joint inflammation and destruction; correlates with RA disease activity (DAS28) and joint damage scores."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Resistin and adiponectin are opposing adipokines: adiponectin activates AMPK → insulin sensitivity; resistin suppresses adiponectin expression and impairs AMPK → insulin resistance; resistin:adiponectin ratio is a composite marker of metabolic and inflammatory disease severity."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Resistin → CAP1/NF-κB → TNF-α from macrophages; TNF-α induces resistin → feedforward inflammation; both signal via IRS-1 Ser307 phosphorylation → insulin resistance; anti-TNF (infliximab) reduces serum resistin in RA — confirming TNF drives resistin production in inflammation."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Resistin activates Kupffer cell NF-κB → IL-6; IL-6 → STAT3 → hepatic stellate cells → TGF-β → fibrosis in NASH; resistin-IL-6 axis correlates with NASH fibrosis stage; IL-6 induces resistin from monocytes → feedforward loop; IL-6 + resistin co-elevation predicts CVD events."
 sources:
   - id: steppan-2001-resistin-discovery
     type: peer-reviewed
@@ -124,13 +133,16 @@ Resistin is a **108-amino acid (mature protein)** with:
 
 ## Connections
 
-Resistin (primarily monocyte/macrophage-derived in humans) activates NF-κB in Kupffer cells → TNF-α and IL-6 → NASH inflammation; resistin correlates with NASH histological severity; resistin inhibits adiponectin → impairs hepatic AMPK → steatosis and fibrosis.
+- `connects-to` → **[NASH](../../07-system/nash/README.md)** — Resistin (primarily monocyte/macrophage-derived in humans) activates NF-κB in Kupffer cells → TNF-α and IL-6 → NASH inflammation; resistin correlates with NASH histological severity; resistin inhibits adiponectin → impairs hepatic AMPK → steatosis and fibrosis.
+- `connects-to` → **[Type 2 Diabetes](../../07-system/type-2-diabetes/README.md)** — Resistin impairs insulin signaling via IKK activation → IRS-1 Ser307 phosphorylation → insulin resistance; resistin inhibits AMPK in liver → increased gluconeogenesis; serum resistin is inversely correlated with adiponectin and positively correlated with insulin resistance.
+- `connects-to` → **[Cardiovascular System](../../07-system/cardiovascular-system/README.md)** — Elevated resistin promotes endothelial VCAM-1 and endothelin-1 → monocyte adhesion and foam cell formation; resistin activates hepatic VLDL production → atherogenic dyslipidemia; serum resistin predicts incident coronary heart disease and heart failure in prospective cohorts.
+- `connects-to` → **[Rheumatoid Arthritis](../../07-system/rheumatoid-arthritis/README.md)** — Resistin is markedly elevated in synovial fluid and blood in RA; drives synovial macrophage NF-κB → TNF-α and IL-6 → joint inflammation and destruction; correlates with RA disease activity (DAS28) and joint damage scores.
+- `connects-to` → **[Adiponectin](../adiponectin/README.md)** — Resistin and adiponectin are opposing adipokines: adiponectin activates AMPK → insulin sensitivity; resistin suppresses adiponectin expression and impairs AMPK → insulin resistance; resistin:adiponectin ratio is a composite marker of metabolic and inflammatory disease severity.
+- `connects-to` → **[TNF-α](../tnf-alpha/README.md)** — Resistin → CAP1/NF-κB → TNF-α from macrophages; TNF-α induces resistin → feedforward inflammation; both signal via IRS-1 Ser307 phosphorylation → insulin resistance; anti-TNF (infliximab) reduces serum resistin in RA — confirming TNF drives resistin production in inflammation.
+- `connects-to` → **[IL-6](../il-6/README.md)** — Resistin activates Kupffer cell NF-κB → IL-6; IL-6 → STAT3 → hepatic stellate cells → TGF-β → fibrosis in NASH; resistin-IL-6 axis correlates with NASH fibrosis stage; IL-6 induces resistin from monocytes → feedforward loop; IL-6 + resistin co-elevation predicts CVD events.
 
-Resistin impairs insulin signaling via IKK activation → IRS-1 Ser307 phosphorylation → insulin resistance; resistin inhibits AMPK in liver → increased gluconeogenesis; serum resistin is inversely correlated with adiponectin and positively correlated with insulin resistance.
-
-Elevated resistin promotes endothelial VCAM-1 and endothelin-1 → monocyte adhesion and foam cell formation; resistin activates hepatic VLDL production → atherogenic dyslipidemia; serum resistin predicts incident coronary heart disease and heart failure in prospective cohorts.
-
-Resistin is markedly elevated in synovial fluid and blood in RA; drives synovial macrophage NF-κB → TNF-α and IL-6 → joint inflammation and destruction; correlates with RA disease activity (DAS28) and joint damage scores.
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^steppan-2001-resistin-discovery]: Steppan CM, Bailey ST, Bhat S, et al. The hormone resistin links obesity to diabetes. *Nature.* 2001;409(6818):307-312. [doi:10.1038/35053000](https://doi.org/10.1038/35053000) · [PubMed 11201732](https://pubmed.ncbi.nlm.nih.gov/11201732/)
 [^lehrke-2004-resistin-human]: Lehrke M, Reilly MP, Millington SC, Iqbal N, Rader DJ, Lazar MA. An inflammatory cascade leading to hyperresistinemia in humans. *PLoS Med.* 2004;1(2):e45. [doi:10.1371/journal.pmed.0010045](https://doi.org/10.1371/journal.pmed.0010045) · [PubMed 15526055](https://pubmed.ncbi.nlm.nih.gov/15526055/)

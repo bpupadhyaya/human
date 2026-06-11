@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "NF1 LOF → excess EGFR at cell surface (neurofibromin promotes EGFR endocytosis, similar to NF2/merlin); NF1 LOF + EGFR amplification co-occur in GBM; EGFR inhibitors have limited activity in NF1-mutant tumors; EGFR/RAS dual blockade explored in GBM."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "NF1 LOF → constitutive RAS-GTP → RAF1/CRAF and BRAF activation → MEK-ERK; triple-WT melanoma (BRAF-WT, NRAS-WT) is defined by NF1 mutation (~50% of triple-WT) → RAS pathway active; BRAF/MEK inhibitors are ineffective in NF1-LOF melanoma because BRAF itself is not mutated."
+  - target: 01-human/03-molecular/nf2
+    relation: connects-to
+    note: "NF1 and NF2 are the two neurofibromatosis genes: NF1 (17q11.2, neurofibromin RasGAP) → café-au-lait macules, plexiform neurofibromas, MPNST; NF2 (22q12, merlin ERM) → bilateral vestibular schwannomas, meningiomas; both are tumor suppressors; distinct mechanisms and tumor spectra."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "NF1 LOF + TP53 mutation → high-risk MPNST: MPNST with TP53 mutation has 5-year OS <10%; TP53 detected in ~25% sporadic MPNST and ~10% NF1-MPNST; NF1 + CDKN2A + TP53 triple-loss defines ultra-high-risk MPNST; p53 loss drives apoptosis resistance to DNA-damaging chemotherapy."
 ---
 
 # NF1
@@ -143,6 +152,12 @@ Neurofibromin promotes EGFR internalization and lysosomal degradation (independe
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — NF1 LOF → RAS hyperactivation → MEK1/2 → ERK1/2 hyperphosphorylation in NF1 syndrome tumors (neurofibromas, MPNST, glioma, PHEO); selumetinib (MEK inhibitor): FDA-approved for NF1 plexiform neurofibromas (SPRINT Phase 2); ERK-dependent transcription drives neurofibroma growth.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — NF1 LOF → RAS → PI3K → AKT → mTORC1; neurofibromin also binds TORC1 directly (RAS-independent); mTOR inhibitors (everolimus/sirolimus) active in NF1 optic pathway glioma; rapamycin prevents neurofibroma growth in NF1 mouse models; NF1-driven tumors are mTOR-dependent.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — NF1 LOF → excess EGFR at cell surface (neurofibromin promotes EGFR endocytosis, similar to NF2/merlin); NF1 LOF + EGFR amplification co-occur in GBM; EGFR inhibitors have limited activity in NF1-mutant tumors; EGFR/RAS dual blockade explored in GBM.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — NF1 LOF → constitutive RAS-GTP → RAF1/CRAF and BRAF activation → MEK-ERK; triple-WT melanoma (BRAF-WT, NRAS-WT) is defined by NF1 mutation (~50% of triple-WT) → RAS pathway active; BRAF/MEK inhibitors are ineffective in NF1-LOF melanoma because BRAF itself is not mutated.
+- `connects-to` → **[NF2](../../03-molecular/nf2/README.md)** — NF1 and NF2 are the two neurofibromatosis genes: NF1 (17q11.2, neurofibromin RasGAP) → café-au-lait macules, plexiform neurofibromas, MPNST; NF2 (22q12, merlin ERM) → bilateral vestibular schwannomas, meningiomas; both are tumor suppressors; distinct mechanisms and tumor spectra.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — NF1 LOF + TP53 mutation → high-risk MPNST: MPNST with TP53 mutation has 5-year OS <10%; TP53 detected in ~25% sporadic MPNST and ~10% NF1-MPNST; NF1 + CDKN2A + TP53 triple-loss defines ultra-high-risk MPNST; p53 loss drives apoptosis resistance to DNA-damaging chemotherapy.
+
+---
+*This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
 [^legius-2021-nf1-consensus]: Legius E, Messiaen L, Wolkenstein P, et al. Revised diagnostic criteria for neurofibromatosis type 1 and Legius syndrome: an international consensus recommendation. *Genet Med.* 2021;23(8):1506-1513. [doi:10.1038/s41436-021-01170-5](https://doi.org/10.1038/s41436-021-01170-5) · [PubMed 33976407](https://pubmed.ncbi.nlm.nih.gov/33976407/)
 [^dombi-2016-selumetinib-nf1]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
