@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombopoietin
     relation: connects-to
     note: "MPL W515L/K activates JAK2 constitutively independent of TPO → megakaryocyte dysplasia and marrow fibrosis; ruxolitinib suppresses JAK-STAT; thrombocytopenia in high-risk MF limits JAK inhibitor dosing; pacritinib/momelotinib approved for MF with thrombocytopenia."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Myelofibrosis fills the bone marrow with reticulin then collagen fibrosis (MF-0 to MF-3), driven paracrine by TGF-β from mutant megakaryocytes onto polyclonal fibroblasts; as fibrosis evicts hematopoietic stem cells the blood shows teardrop cells and leukoerythroblastosis."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Displaced from the fibrotic marrow, hematopoiesis relocates to the spleen (extramedullary hematopoiesis), producing the massive splenomegaly that defines myelofibrosis; cutting spleen volume (the SVR35 endpoint) is the main benefit of ruxolitinib."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Myelofibrosis is the most aggressive classic myeloproliferative neoplasm, arising de novo (primary MF) or evolving from polycythemia vera or essential thrombocythemia; like its siblings it is JAK2/CALR/MPL-driven, but only MF shows marrow fibrosis and only allo-SCT cures it."
 ---
 
 # Myelofibrosis
@@ -171,6 +180,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[JAK1-2](../../03-molecular/jak1-2/README.md)** — Ruxolitinib is first-line standard of care for intermediate-2 and high-risk MF; momelotinib inhibits JAK1/JAK2 plus ACVR1 → reduces hepcidin → anemia benefit; JAK1 inhibition reduces inflammatory cytokine burden (IL-6, TNF-α) driving constitutional symptoms.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TGF-β1 secreted by CALR/JAK2-mutant megakaryocytes is the primary driver of BM fibrosis in MF; TGF-β activates fibroblasts → collagen/reticulin deposition; serum TGF-β1 correlates with MF grade; TGF-β pathway inhibition is a therapeutic target in preclinical MF models.
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — MPL W515L/K activates JAK2 constitutively independent of TPO → megakaryocyte dysplasia and marrow fibrosis; ruxolitinib suppresses JAK-STAT; thrombocytopenia in high-risk MF limits JAK inhibitor dosing; pacritinib/momelotinib approved for MF with thrombocytopenia.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Myelofibrosis fills the bone marrow with reticulin then collagen fibrosis (MF-0 to MF-3), driven paracrine by TGF-β from mutant megakaryocytes onto polyclonal fibroblasts; as fibrosis evicts hematopoietic stem cells the blood shows teardrop cells and leukoerythroblastosis.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Displaced from the fibrotic marrow, hematopoiesis relocates to the spleen (extramedullary hematopoiesis), producing the massive splenomegaly that defines myelofibrosis; cutting spleen volume (the SVR35 endpoint) is the main benefit of ruxolitinib.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myelofibrosis is the most aggressive classic myeloproliferative neoplasm, arising de novo (primary MF) or evolving from polycythemia vera or essential thrombocythemia; like its siblings it is JAK2/CALR/MPL-driven, but only MF shows marrow fibrosis and only allo-SCT cures it.
 
 ---
 

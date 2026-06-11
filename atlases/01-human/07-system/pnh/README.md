@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Both PNH and aHUS involve alternative complement pathway dysregulation; PNH erythrocytes lack GPI-anchored CD55/CD59 → complement-mediated hemolysis; CFH deficiency drives aHUS endotheliopathy; eculizumab and ravulizumab treat both; iptacopan (Factor B inhibitor) for PNH."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "PNH red cells, made by a PIGA-mutant clone, lack the GPI-anchored complement brakes CD55 and CD59, so the membrane attack complex lyses them → chronic intravascular hemolysis; anti-C5 drugs stop the lysis but C3-opsonized cells may still be cleared extravascularly."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "PNH is among the most thrombophilic diseases — 40-50% of untreated patients clot, classically in the hepatic veins; free hemoglobin scavenges nitric oxide while C5a and the MAC activate platelets, and complement inhibition (not anticoagulation alone) cuts thrombotic events ~90%."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The hepatic and portal veins are the signature thrombosis sites in PNH: Budd-Chiari syndrome presents with abdominal pain, hepatomegaly, and ascites; extravascular clearance of C3-opsonized cells also occurs in the liver."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -135,6 +144,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — AA and PNH are closely related: immune destruction of normal HSCs in AA allows PIGA-mutant GPI-deficient clone to expand; 25-40% of AA patients have PNH clones at diagnosis; some AA patients evolve to overt PNH; both conditions are treated at specialized hemato-oncology centers.
 - `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — In PNH, uncontrolled terminal complement generates C5a alongside C5b-9 (MAC); C5a engages C5aR1 on GPI-deficient neutrophils → thrombosis; eculizumab blocks C5 → prevents both MAC-mediated hemolysis and C5a–C5aR1 signaling; avacopan (C5aR1 blockade) under investigation in PNH.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Both PNH and aHUS involve alternative complement pathway dysregulation; PNH erythrocytes lack GPI-anchored CD55/CD59 → complement-mediated hemolysis; CFH deficiency drives aHUS endotheliopathy; eculizumab and ravulizumab treat both; iptacopan (Factor B inhibitor) for PNH.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — PNH red cells, made by a PIGA-mutant clone, lack the GPI-anchored complement brakes CD55 and CD59, so the membrane attack complex lyses them → chronic intravascular hemolysis; anti-C5 drugs stop the lysis but C3-opsonized cells may still be cleared extravascularly.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — PNH is among the most thrombophilic diseases — 40-50% of untreated patients clot, classically in the hepatic veins; free hemoglobin scavenges nitric oxide while C5a and the MAC activate platelets, and complement inhibition (not anticoagulation alone) cuts thrombotic events ~90%.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The hepatic and portal veins are the signature thrombosis sites in PNH: Budd-Chiari syndrome presents with abdominal pain, hepatomegaly, and ascites; extravascular clearance of C3-opsonized cells also occurs in the liver.
 
 ---
 
