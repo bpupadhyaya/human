@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/07-system/mpnst
     relation: connects-to
     note: "MPNST arises in ~10% of NF1 patients from plexiform neurofibromas; NF1-MPNST is more aggressive than sporadic MPNST; NF1 LOF → RAS-MAPK/CDK4 → malignant transformation; selumetinib shrinks plexiform precursors; surgical resection primary for overt MPNST."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "NF1 neurofibromas — cutaneous, subcutaneous, and plexiform — grow from Schwann cells of peripheral nerves after a somatic second hit knocks out the remaining NF1 allele; plexiform neurofibromas are the precursor lesion that can transform into MPNST in ~10-15%."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Neurofibroma growth depends on its microenvironment: NF1-haploinsufficient mast cells and fibroblasts secrete stem-cell factor (SCF/KIT ligand) that drives proliferation of the NF1-null Schwann cells — a paracrine loop explored therapeutically with imatinib (anti-KIT)."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "GIST occurs in ~3-5% of NF1 patients but is biologically distinct from sporadic GIST: NF1-associated GISTs are KIT/PDGFRA wild-type (driven instead by NF1 loss → RAS-MAPK), so they respond poorly to imatinib, with sunitinib or regorafenib used in later lines."
 ---
 
 # Neurofibromatosis Type 1
@@ -152,6 +161,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — Neurofibromin (NF1) is a RAS-GAP; NF1 LOF → sustained RAS-GTP → MAPK/PI3K/mTOR activation → NF1 syndrome manifestations including neurofibromas, MPNST, optic gliomas; selumetinib (MEK1/2 inhibitor) FDA-approved for NF1-associated plexiform neurofibromas in children.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — NF1 LOF activates the same RAS-MAPK pathway as oncogenic KRAS mutations; both result in sustained RAS-GTP → MEK/ERK activation → proliferation; MEK inhibitors (selumetinib, trametinib) are active in NF1-deficient and KRAS-mutant tumors via the shared MAPK pathway.
 - `connects-to` → **[MPNST](../../07-system/mpnst/README.md)** — MPNST arises in ~10% of NF1 patients from plexiform neurofibromas; NF1-MPNST is more aggressive than sporadic MPNST; NF1 LOF → RAS-MAPK/CDK4 → malignant transformation; selumetinib shrinks plexiform precursors; surgical resection primary for overt MPNST.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — NF1 neurofibromas — cutaneous, subcutaneous, and plexiform — grow from Schwann cells of peripheral nerves after a somatic second hit knocks out the remaining NF1 allele; plexiform neurofibromas are the precursor lesion that can transform into MPNST in ~10-15%.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Neurofibroma growth depends on its microenvironment: NF1-haploinsufficient mast cells and fibroblasts secrete stem-cell factor (SCF/KIT ligand) that drives proliferation of the NF1-null Schwann cells — a paracrine loop explored therapeutically with imatinib (anti-KIT).
+- `connects-to` → **[GIST](../gist/README.md)** — GIST occurs in ~3-5% of NF1 patients but is biologically distinct from sporadic GIST: NF1-associated GISTs are KIT/PDGFRA wild-type (driven instead by NF1 loss → RAS-MAPK), so they respond poorly to imatinib, with sunitinib or regorafenib used in later lines.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

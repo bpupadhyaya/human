@@ -34,6 +34,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "Functioning pNETs include glucagonoma (necrolytic migratory erythema, diabetes), insulinoma (most common pNET), gastrinoma (Zollinger-Ellison), and VIPoma; SSTR2 agonists (octreotide) control glucagonoma and other secretory syndromes via α-cell glucagon inhibition."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Germline MEN1 mutations underlie ~10% of pancreatic NETs, which in MEN1 are typically multifocal and non-functioning alongside parathyroid and pituitary tumors; menin loss (H3K4me3 at target promoters) is also the most common somatic event (~44%) in sporadic pNET."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Midgut carcinoids secrete serotonin that, once liver metastases bypass portal clearance, causes carcinoid syndrome — flushing, secretory diarrhea, and carcinoid heart disease; urinary 5-HIAA tracks it and telotristat (a tryptophan hydroxylase inhibitor) curbs refractory diarrhea."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The pancreas is a leading NET site: functioning pNETs (insulinoma, gastrinoma, glucagonoma, VIPoma) cause hormone syndromes while non-functioning pNETs grow silently; everolimus and sunitinib are pNET-specific approvals, and DAXX/ATRX-mutant pNETs use the ALT telomere pathway."
 ---
 
 # Neuroendocrine Tumors
@@ -144,6 +153,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Everolimus (RADIANT-3: PFS 11.0 vs 4.6 months in pNET; RADIANT-4: PFS 11.0 vs 3.9 months in non-functional NET) is approved for progressive/metastatic NET; mTOR inhibition reduces HIF-1α, VEGF, and cell cycle progression; resistance via AKT rebound.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Sunitinib (VEGFR1/2/3/PDGFRA/B; A6181111 trial: PFS 11.4 vs 5.5 months) is approved for pancreatic NET; NETs are hypervascular tumors with high VEGF expression; bevacizumab studied in midgut NET; cabozantinib (VEGFR2+MET) under investigation.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Functioning pNETs include glucagonoma (necrolytic migratory erythema, diabetes), insulinoma (most common pNET), gastrinoma (Zollinger-Ellison), and VIPoma; SSTR2 agonists (octreotide) control glucagonoma and other secretory syndromes via α-cell glucagon inhibition.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Germline MEN1 mutations underlie ~10% of pancreatic NETs, which in MEN1 are typically multifocal and non-functioning alongside parathyroid and pituitary tumors; menin loss (H3K4me3 at target promoters) is also the most common somatic event (~44%) in sporadic pNET.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Midgut carcinoids secrete serotonin that, once liver metastases bypass portal clearance, causes carcinoid syndrome — flushing, secretory diarrhea, and carcinoid heart disease; urinary 5-HIAA tracks it and telotristat (a tryptophan hydroxylase inhibitor) curbs refractory diarrhea.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is a leading NET site: functioning pNETs (insulinoma, gastrinoma, glucagonoma, VIPoma) cause hormone syndromes while non-functioning pNETs grow silently; everolimus and sunitinib are pNET-specific approvals, and DAXX/ATRX-mutant pNETs use the ALT telomere pathway.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
