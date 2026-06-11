@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Iron deficiency partially protective against P. falciparum (iron-restricted parasites grow less vigorously); iron supplementation in endemic areas should follow malaria treatment to avoid feeding parasites; IDA and malaria co-exist in sub-Saharan Africa."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: connects-to
+    note: "Plasmodium falciparum, spread by Anopheles mosquitoes, is the deadliest malaria parasite: it cytoadheres infected red cells to brain endothelium via PfEMP1, evades immunity by var-gene switching, and is treated with artemisinin combinations now threatened by kelch13 resistance."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Malaria's blood stage runs in red cells: merozoites invade via AMA1/EBA-glycophorin, digest hemoglobin into haemozoin, and rupture every 48h triggering fever; haemolysis plus dyserythropoiesis causes severe anemia, while inherited RBC variants (HbS, G6PD) blunt parasite growth."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Cerebral malaria is the most lethal complication of P. falciparum: PfEMP1-coated red cells sequester on ICAM-1 in brain microvessels, obstructing flow and breaking the blood-brain barrier → coma; mortality is 15-25%, and ~25% of survivors retain neurological sequelae."
 ---
 
 # Malaria
@@ -208,6 +217,9 @@ cross_links:
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — HbAS (sickle cell trait) confers ~60% protection against severe and fatal malaria; the HbS allele frequency in sub-Saharan Africa (6-15%) is maintained by malaria selection (balanced polymorphism); HbSS patients exposed to malaria face increased sickling crises from fever + dehydration.
 - `connects-to` → **[CKD](../ckd/README.md)** — Severe falciparum malaria causes acute kidney injury (AKI) in 4-8% of cases (haemoglobinuria, parasite microvascular obstruction, cytokine storm); cerebral malaria + AKI → poor prognosis; malaria-endemic populations have higher CKD prevalence partly from repeated acute kidney insults.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron deficiency partially protective against P. falciparum (iron-restricted parasites grow less vigorously); iron supplementation in endemic areas should follow malaria treatment to avoid feeding parasites; IDA and malaria co-exist in sub-Saharan Africa.
+- `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Plasmodium falciparum, spread by Anopheles mosquitoes, is the deadliest malaria parasite: it cytoadheres infected red cells to brain endothelium via PfEMP1, evades immunity by var-gene switching, and is treated with artemisinin combinations now threatened by kelch13 resistance.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Malaria's blood stage runs in red cells: merozoites invade via AMA1/EBA-glycophorin, digest hemoglobin into haemozoin, and rupture every 48h triggering fever; haemolysis plus dyserythropoiesis causes severe anemia, while inherited RBC variants (HbS, G6PD) blunt parasite growth.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cerebral malaria is the most lethal complication of P. falciparum: PfEMP1-coated red cells sequester on ICAM-1 in brain microvessels, obstructing flow and breaking the blood-brain barrier → coma; mortality is 15-25%, and ~25% of survivors retain neurological sequelae.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

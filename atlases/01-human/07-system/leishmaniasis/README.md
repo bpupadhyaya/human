@@ -37,6 +37,15 @@ cross_links:
   - target: 01-human/03-molecular/ifn-gamma
     relation: connects-to
     note: "IFN-γ from Th1 T cells and NK cells is the key anti-Leishmania effector: IFN-γ → iNOS → nitric oxide → kills intracellular Leishmania in macrophages; IFNGR deficiency (MSMD) → VL; IFN-γ also upregulates MHC-II on macrophages for better T cell priming."
+  - target: 02-pathogen/04-parasites/leishmania-donovani
+    relation: connects-to
+    note: "Leishmania donovani, delivered by sand-fly bite, causes visceral leishmaniasis: promastigotes become amastigotes that survive inside macrophage phagolysosomes using LPG and gp63 to dodge the oxidative burst; single-dose liposomal amphotericin B now cures >95% in South Asia."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The macrophage is both Leishmania's hideout and its executioner: parasites enter via complement receptors without triggering the oxidative burst and suppress IL-12, but a Th1 IL-12→IFN-γ→iNOS response makes nitric oxide that kills the amastigotes."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Visceral leishmaniasis floods the spleen with parasitized macrophages, producing the massive splenomegaly of kala-azar; hypersplenism plus marrow infiltration drives pancytopenia, and splenic aspirate is the most sensitive diagnostic test despite bleeding risk."
 ---
 
 # Leishmaniasis
@@ -144,3 +153,7 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 **→ [Anemia of Chronic Disease](../anemia-of-chronic-disease/)**: Visceral leishmaniasis causes severe ACD: chronic Leishmania infection → IL-6 + IFN-γ + TNF-α → hepcidin elevation → profound hypoferraemia; VL anemia is compounded by direct parasite infiltration of bone marrow, hypersplenism, and haemolysis; L-AmB treatment resolves ACD.
 
 **→ [IFN-γ](../../../03-molecular/ifn-gamma/)**: IFN-γ from Th1 T cells and NK cells is the key anti-Leishmania effector: IFN-γ → iNOS → nitric oxide → kills intracellular Leishmania in macrophages; IFNGR deficiency (MSMD) → VL; IFN-γ also upregulates MHC-II on macrophages for better T cell priming.
+
+- `connects-to` → **[Leishmania donovani](../../../02-pathogen/04-parasites/leishmania-donovani/README.md)** — Leishmania donovani, delivered by sand-fly bite, causes visceral leishmaniasis: promastigotes become amastigotes that survive inside macrophage phagolysosomes using LPG and gp63 to dodge the oxidative burst; single-dose liposomal amphotericin B now cures >95% in South Asia.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The macrophage is both Leishmania's hideout and its executioner: parasites enter via complement receptors without triggering the oxidative burst and suppress IL-12, but a Th1 IL-12→IFN-γ→iNOS response makes nitric oxide that kills the amastigotes.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Visceral leishmaniasis floods the spleen with parasitized macrophages, producing the massive splenomegaly of kala-azar; hypersplenism plus marrow infiltration drives pancytopenia, and splenic aspirate is the most sensitive diagnostic test despite bleeding risk.
