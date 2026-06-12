@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/medulloblastoma
     relation: connects-to
     note: "Germline TP53 underlies the SHH-activated subgroup of medulloblastoma, one of LFS's childhood brain tumors; it carries a dismal prognosis and contraindicates craniospinal irradiation in TP53 carriers, who rely instead on radiation-sparing surgery, chemotherapy, and brain MRI."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Li-Fraumeni and HBOC are the two major hereditary breast cancer syndromes but differ in scope: LFS (germline TP53) causes early breast cancer plus sarcomas, brain tumors, and adrenocortical carcinoma, while HBOC (BRCA1/2) concentrates on breast and ovarian cancer."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Soft-tissue sarcomas including rhabdomyosarcoma are sentinel LFS cancers (the 'S' of the core sarcoma-brain-breast-ACC tetrad); childhood rhabdomyosarcoma, especially the embryonal/anaplastic type, can be the presenting cancer that prompts TP53 germline testing in a young family."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Leukemia, including ALL, is part of the LFS spectrum, and germline TP53 worsens its biology — hypodiploid ALL is enriched for TP53 mutations; because TP53 carriers tolerate genotoxic therapy and radiation poorly, treatment intensity and second-cancer risk must be weighed."
 ---
 
 # Li-Fraumeni Syndrome
@@ -202,6 +211,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Breast cancer is the most common adult LFS tumor (~54% lifetime risk in women), typically premenopausal and often HER2-positive or triple-negative; because TP53 carriers are radiation-sensitive, bilateral mastectomy is favored over lumpectomy-plus-radiation.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Adrenocortical carcinoma is a sentinel LFS cancer: ~80% of childhood ACC carries germline TP53, and the Brazilian R337H founder variant (~1/375 in the south) drives regional ACC clusters; LFS surveillance includes abdominal ultrasound from birth to catch early adrenal tumors.
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Germline TP53 underlies the SHH-activated subgroup of medulloblastoma, one of LFS's childhood brain tumors; it carries a dismal prognosis and contraindicates craniospinal irradiation in TP53 carriers, who rely instead on radiation-sparing surgery, chemotherapy, and brain MRI.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Li-Fraumeni and HBOC are the two major hereditary breast cancer syndromes but differ in scope: LFS (germline TP53) causes early breast cancer plus sarcomas, brain tumors, and adrenocortical carcinoma, while HBOC (BRCA1/2) concentrates on breast and ovarian cancer.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Soft-tissue sarcomas including rhabdomyosarcoma are sentinel LFS cancers (the 'S' of the core sarcoma-brain-breast-ACC tetrad); childhood rhabdomyosarcoma, especially the embryonal/anaplastic type, can be the presenting cancer that prompts TP53 germline testing in a young family.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Leukemia, including ALL, is part of the LFS spectrum, and germline TP53 worsens its biology — hypodiploid ALL is enriched for TP53 mutations; because TP53 carriers tolerate genotoxic therapy and radiation poorly, treatment intensity and second-cancer risk must be weighed.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

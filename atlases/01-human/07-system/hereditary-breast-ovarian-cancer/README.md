@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "HBOC causes ~5-10% of breast cancer; BRCA1-associated BC is predominantly TNBC (~60-80%) with peak onset at 30-40 years; BRCA2-associated BC is predominantly ER+ (~60-70%); olaparib (OlympiAD) and talazoparib (EMBRACA) are FDA-approved for germline BRCA1/2 HER2-neg metastatic BC."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "HBOC and Li-Fraumeni are the major hereditary breast cancer syndromes but differ in scope: HBOC (BRCA1/2) focuses on breast and ovarian cancer with PARP sensitivity, while LFS (germline TP53) spans sarcomas, brain tumors, and adrenocortical carcinoma — focused vs multi-cancer."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "BRCA2 (and to a lesser degree BRCA1, PALB2, ATM) raises pancreatic cancer risk ~3-7×, extending HBOC beyond breast and ovary; these HR-deficient pancreatic cancers respond to platinum and PARP-inhibitor maintenance (olaparib, POLO), so germline testing now guides therapy."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "BRCA2 carriers face ~2-6× prostate cancer risk with more aggressive, earlier-onset disease; HBOC thus affects men too, and BRCA/HR-deficient metastatic prostate cancer responds to PARP inhibitors (olaparib, PROfound) — making germline and tumor testing standard in advanced cases."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -187,6 +196,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Germline ATM pathogenic variants confer ~20-30% lifetime breast cancer risk; elevated prostate (~6%) and pancreatic risk; biallelic ATM = ataxia-telangiectasia; ATM-germline BC is often ER+/luminal; NCCN recommends breast MRI from age 40 for ATM heterozygotes with family history.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BRCA2 loads RAD51 monomers onto ssDNA at DSBs via eight BRC repeats → RAD51 filament → strand invasion (HR repair); BRCA2 LOF → RAD51 loading failure → error-prone NHEJ/MMEJ → tumorigenesis; RAD51 paralogs (RAD51C, RAD51D) each confer ~10-15% lifetime ovarian cancer risk in HBOC.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — HBOC causes ~5-10% of breast cancer; BRCA1-associated BC is predominantly TNBC (~60-80%) with peak onset at 30-40 years; BRCA2-associated BC is predominantly ER+ (~60-70%); olaparib (OlympiAD) and talazoparib (EMBRACA) are FDA-approved for germline BRCA1/2 HER2-neg metastatic BC.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — HBOC and Li-Fraumeni are the major hereditary breast cancer syndromes but differ in scope: HBOC (BRCA1/2) focuses on breast and ovarian cancer with PARP sensitivity, while LFS (germline TP53) spans sarcomas, brain tumors, and adrenocortical carcinoma — focused vs multi-cancer.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — BRCA2 (and to a lesser degree BRCA1, PALB2, ATM) raises pancreatic cancer risk ~3-7×, extending HBOC beyond breast and ovary; these HR-deficient pancreatic cancers respond to platinum and PARP-inhibitor maintenance (olaparib, POLO), so germline testing now guides therapy.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — BRCA2 carriers face ~2-6× prostate cancer risk with more aggressive, earlier-onset disease; HBOC thus affects men too, and BRCA/HR-deficient metastatic prostate cancer responds to PARP inhibitors (olaparib, PROfound) — making germline and tumor testing standard in advanced cases.
 
 ---
 
