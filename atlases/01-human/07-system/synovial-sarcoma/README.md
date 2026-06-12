@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "TLE1 (most specific SS IHC marker) is a Groucho-family WNT/β-catenin co-repressor (binds TCF/LEF); SS18-SSX recruits TLE1 into the oncogenic complex; ~30% of SS show nuclear β-catenin; CTNNB1 mutations in <5%; WNT pathway modulation is part of SS epigenetic de-regulation."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "Synovial sarcoma and AT/RT both derange the SWI/SNF (BAF) complex and depend on EZH2: SS18-SSX fusion ejects SMARCB1 from BAF (SMARCB1 stays detectable), while AT/RT deletes SMARCB1 entirely (INI1 lost on IHC) — yet both respond to the EZH2 inhibitor tazemetostat."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Synovial sarcoma is a soft-tissue sarcoma of adolescents and young adults arising near — not from — joints, typically in deep extremity soft tissue (around the knee); despite the name it is not of synovial origin, and wide resection plus radiation is standard."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is the dominant metastatic site in synovial sarcoma: it spreads hematogenously to the lungs even years after the primary is controlled, so long-term chest CT surveillance is essential and pulmonary metastasectomy is offered for limited disease."
 ---
 
 # Synovial Sarcoma
@@ -177,6 +186,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SS18-SSX QPGY activation domain drives VEGF transcription → angiogenesis; pazopanib (VEGFR2 inhibitor, PALETTE trial: PFS HR 0.35) FDA-approved for advanced STS post-chemo including SS; VEGF overexpression correlates with tumor grade and metastatic potential in synovial sarcoma.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SS has low TMB (~1-2 mut/Mb) and variable PD-L1 → limited single-agent ICB ORR (~10-15%); tazemetostat + pembrolizumab (Phase 1/2) under investigation; EZH2 inhibition may restore IFN-γ response; TMB-high/MSI-H SS (<5%) most likely ICB responders.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TLE1 (most specific SS IHC marker) is a Groucho-family WNT/β-catenin co-repressor (binds TCF/LEF); SS18-SSX recruits TLE1 into the oncogenic complex; ~30% of SS show nuclear β-catenin; CTNNB1 mutations in <5%; WNT pathway modulation is part of SS epigenetic de-regulation.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Synovial sarcoma and AT/RT both derange the SWI/SNF (BAF) complex and depend on EZH2: SS18-SSX fusion ejects SMARCB1 from BAF (SMARCB1 stays detectable), while AT/RT deletes SMARCB1 entirely (INI1 lost on IHC) — yet both respond to the EZH2 inhibitor tazemetostat.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Synovial sarcoma is a soft-tissue sarcoma of adolescents and young adults arising near — not from — joints, typically in deep extremity soft tissue (around the knee); despite the name it is not of synovial origin, and wide resection plus radiation is standard.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the dominant metastatic site in synovial sarcoma: it spreads hematogenously to the lungs even years after the primary is controlled, so long-term chest CT surveillance is essential and pulmonary metastasectomy is offered for limited disease.
 
 ---
 

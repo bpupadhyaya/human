@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/medulloblastoma
     relation: connects-to
     note: "AT/RT and medulloblastoma are the two most common pediatric malignant posterior fossa tumors; INI1 IHC loss (AT/RT) vs. intact INI1 (MB) is the key differentiator; SMARCB1 LOF never seen in MB; misdiagnosis as MB is a known pitfall; methylation profiling resolves ambiguous cases."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "AT/RT and synovial sarcoma are united by SWI/SNF (BAF) disruption and EZH2 dependence: AT/RT deletes SMARCB1 outright, while SS18-SSX fusion evicts SMARCB1 from BAF — both unleash PRC2/EZH2, so the EZH2 inhibitor tazemetostat is active in each despite different ages and sites."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "AT/RT has a renal twin: malignant rhabdoid tumor of the kidney shares the same biallelic SMARCB1 (INI1) loss and rhabdoid morphology, and germline SMARCB1 (rhabdoid predisposition) causes synchronous brain AT/RT and renal rhabdoid tumors in infants — one disease across organs."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "SMARCB1 links AT/RT and schwannomatosis at opposite doses: biallelic SMARCB1 loss in a child causes aggressive AT/RT, while a germline single-allele SMARCB1 variant causes schwannomatosis — multiple benign schwannomas in adults — same gene, very different tumors."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -170,6 +179,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — SMARCB1 LOF epigenetically silences ARF (CDKN2A p14) → MDM2 unrestricted → p53 degradation without TP53 mutation; CDKN2A homozygous deletion (~15-25% of AT/RT) adds permanent G1 bypass; CDKN2A deletion correlates with AT/RT-TYR and worst OS among molecular subgroups.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AT/RT is predominantly a CNS tumor; infratentorial (cerebellum, brainstem) in ~50-60%; the most common malignant brain tumor in infants <1 year; leptomeningeal dissemination in ~30-40%; proton CSI preferred in eligible patients to reduce long-term neurocognitive injury.
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — AT/RT and medulloblastoma are the two most common pediatric malignant posterior fossa tumors; INI1 IHC loss (AT/RT) vs. intact INI1 (MB) is the key differentiator; SMARCB1 LOF never seen in MB; misdiagnosis as MB is a known pitfall; methylation profiling resolves ambiguous cases.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — AT/RT and synovial sarcoma are united by SWI/SNF (BAF) disruption and EZH2 dependence: AT/RT deletes SMARCB1 outright, while SS18-SSX fusion evicts SMARCB1 from BAF — both unleash PRC2/EZH2, so the EZH2 inhibitor tazemetostat is active in each despite different ages and sites.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — AT/RT has a renal twin: malignant rhabdoid tumor of the kidney shares the same biallelic SMARCB1 (INI1) loss and rhabdoid morphology, and germline SMARCB1 (rhabdoid predisposition) causes synchronous brain AT/RT and renal rhabdoid tumors in infants — one disease across organs.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — SMARCB1 links AT/RT and schwannomatosis at opposite doses: biallelic SMARCB1 loss in a child causes aggressive AT/RT, while a germline single-allele SMARCB1 variant causes schwannomatosis — multiple benign schwannomas in adults — same gene, very different tumors.
 
 ---
 
