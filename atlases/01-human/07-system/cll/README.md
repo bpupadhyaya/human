@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20 is dimly expressed on CLL cells limiting anti-CD20 antibody efficacy; obinutuzumab (type II, glycoengineered; superior ADCC) + venetoclax (CLL14) achieves 57% MRD-undetectable CR; rituximab + ibrutinib (ECOG E1912) FDA-approved first-line for fit CLL patients."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "CLL accumulates clonal B cells in the bone marrow, where progressive infiltration causes the anemia and thrombocytopenia that mark treatment indication; the marrow and lymph-node niches supply the stromal CD40L and CXCL12 survival signals CLL cells depend on."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Splenomegaly is a common sign and a treatment trigger in CLL: clonal lymphocytes infiltrate the spleen and lymph nodes, and massive or progressive splenomegaly with cytopenias from hypersplenism is one of the Hallek criteria prompting therapy."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Richter transformation is the dreaded complication of CLL — in ~5-10% the indolent clone evolves into aggressive diffuse large B-cell lymphoma, often clonally related, with a poor median survival of about a year; it is even worse when it arises on BTK-inhibitor therapy."
 ---
 
 # CLL
@@ -164,6 +173,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BTK is the key BCR kinase downstream of LYN/SYK; ibrutinib covalently inhibits BTK at Cys481 → blocks BCR-NF-κB → CLL mobilization and apoptosis; BTK C481S mutation confers covalent BTK inhibitor resistance → switch to non-covalent pirtobrutinib or venetoclax.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — CLL is a clonal CD5+/CD19+/CD23+ B-cell malignancy arising from antigen-experienced B cells; IGHV mutation status (>2% = mutated M-CLL; indolent) is the most important prognostic factor; tonic BCR signaling drives CLL survival; CLL cells home to BM/LN niches via CXCR4/CXCR5.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 is dimly expressed on CLL cells limiting anti-CD20 antibody efficacy; obinutuzumab (type II, glycoengineered; superior ADCC) + venetoclax (CLL14) achieves 57% MRD-undetectable CR; rituximab + ibrutinib (ECOG E1912) FDA-approved first-line for fit CLL patients.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — CLL accumulates clonal B cells in the bone marrow, where progressive infiltration causes the anemia and thrombocytopenia that mark treatment indication; the marrow and lymph-node niches supply the stromal CD40L and CXCL12 survival signals CLL cells depend on.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly is a common sign and a treatment trigger in CLL: clonal lymphocytes infiltrate the spleen and lymph nodes, and massive or progressive splenomegaly with cytopenias from hypersplenism is one of the Hallek criteria prompting therapy.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Richter transformation is the dreaded complication of CLL — in ~5-10% the indolent clone evolves into aggressive diffuse large B-cell lymphoma, often clonally related, with a poor median survival of about a year; it is even worse when it arises on BTK-inhibitor therapy.
 
 ---
 

@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "RB1 inactivated in CML blast crisis via CDK4/6 hyperactivation; E2F release drives myeloid or lymphoid blast transformation; BCR-ABL accelerates CDK2-mediated RB1 inactivation; palbociclib (CDK4/6 inhibitor) re-engages RB1 and sensitizes TKI-resistant blast crisis to apoptosis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "CML is defined by uncontrolled expansion of the neutrophil lineage: BCR-ABL drives massive leukocytosis with granulocytes at all maturation stages and hallmark basophilia; unlike normal neutrophils they retain function early, so infection is not the initial problem."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The CML marrow is markedly hypercellular with a high myeloid:erythroid ratio and 'dwarf' megakaryocytes; the Philadelphia chromosome t(9;22) is detected here, and marrow blast percentage defines chronic phase (<10%), accelerated (10-19%), and blast crisis (≥20%)."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "CLL and CML are the two chronic adult leukemias from opposite lineages: CLL is a B-lymphoid accumulation of mature CD5+ cells driven by BCR/BTK signaling, while CML is a myeloid proliferation driven by the BCR-ABL fusion kinase — different cells, drivers, and targeted drugs."
 ---
 
 # Chronic Myeloid Leukemia
@@ -164,6 +173,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — BCR-ABL → PI3K → AKT → mTOR → S6K/4EBP1 → protein synthesis and cell survival; AKT phosphorylates BAD → prevents apoptosis in CML cells; imatinib resistance associated with PI3K/AKT activation independent of BCR-ABL; AKT inhibition synergizes with TKIs in blast crisis CML.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — BCR-ABL → STAT5/NF-κB → MYC transcription → G1/S acceleration; MYC amplification is common in blast crisis transformation; MYC overexpression promotes self-renewal of CML LSCs; BRD4 inhibitors (JQ1) reduce MYC expression and overcome TKI resistance in CML blast crisis models.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — RB1 inactivated in CML blast crisis via CDK4/6 hyperactivation; E2F release drives myeloid or lymphoid blast transformation; BCR-ABL accelerates CDK2-mediated RB1 inactivation; palbociclib (CDK4/6 inhibitor) re-engages RB1 and sensitizes TKI-resistant blast crisis to apoptosis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CML is defined by uncontrolled expansion of the neutrophil lineage: BCR-ABL drives massive leukocytosis with granulocytes at all maturation stages and hallmark basophilia; unlike normal neutrophils they retain function early, so infection is not the initial problem.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The CML marrow is markedly hypercellular with a high myeloid:erythroid ratio and 'dwarf' megakaryocytes; the Philadelphia chromosome t(9;22) is detected here, and marrow blast percentage defines chronic phase (<10%), accelerated (10-19%), and blast crisis (≥20%).
+- `connects-to` → **[CLL](../cll/README.md)** — CLL and CML are the two chronic adult leukemias from opposite lineages: CLL is a B-lymphoid accumulation of mature CD5+ cells driven by BCR/BTK signaling, while CML is a myeloid proliferation driven by the BCR-ABL fusion kinase — different cells, drivers, and targeted drugs.
 
 ---
 
