@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Prolactinoma is the most common pituitary adenoma in MEN1 (~60% of pituitary lesions); hyperprolactinaemia → hypogonadism + galactorrhea; cabergoline/bromocriptine first-line; MEN1 prolactinomas are more cabergoline-resistant; transsphenoidal surgery for resistant cases."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "MEN1 and MEN4 are clinically near-identical multiple endocrine neoplasia syndromes — both cause parathyroid, pituitary, and pancreatic neuroendocrine tumors — but differ in gene: MEN1 from menin loss, MEN4 from CDKN1B/p27 loss; CDKN1B testing follows a negative MEN1 result."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Primary hyperparathyroidism is the earliest and most penetrant MEN1 manifestation (~95% by age 50): menin loss drives multigland parathyroid hyperplasia → excess PTH → hypercalcemia, kidney stones, and bone loss; subtotal parathyroidectomy is standard as all glands are at risk."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The pancreas is the most dangerous MEN1 site: multifocal pancreatic neuroendocrine tumors — gastrinomas (Zollinger-Ellison), insulinomas, non-functioning pNETs — arise young and are the leading cause of MEN1 mortality; surveillance MRI and a >2 cm surgical threshold guide care."
 ---
 
 # MEN1 Syndrome
@@ -171,6 +180,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Everolimus (mTOR inhibitor, RADIANT-3) improved PFS from 4.6 to 11.0 months vs placebo in advanced pNET; mTOR constitutively activated by menin LOF via CDK4/6 → mTORC1; everolimus FDA-approved for non-functioning progressive pNET; sunitinib is the alternative VEGFR/PDGFR option.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulinoma occurs in ~10-20% of MEN1; autonomous insulin → hypoglycemia (Whipple's triad); often multifocal, small (<2 cm); diazoxide suppresses insulin secretion; EUS is most sensitive for small insulinoma localization; everolimus is anti-secretory in MEN1 insulinoma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactinoma is the most common pituitary adenoma in MEN1 (~60% of pituitary lesions); hyperprolactinaemia → hypogonadism + galactorrhea; cabergoline/bromocriptine first-line; MEN1 prolactinomas are more cabergoline-resistant; transsphenoidal surgery for resistant cases.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — MEN1 and MEN4 are clinically near-identical multiple endocrine neoplasia syndromes — both cause parathyroid, pituitary, and pancreatic neuroendocrine tumors — but differ in gene: MEN1 from menin loss, MEN4 from CDKN1B/p27 loss; CDKN1B testing follows a negative MEN1 result.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Primary hyperparathyroidism is the earliest and most penetrant MEN1 manifestation (~95% by age 50): menin loss drives multigland parathyroid hyperplasia → excess PTH → hypercalcemia, kidney stones, and bone loss; subtotal parathyroidectomy is standard as all glands are at risk.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is the most dangerous MEN1 site: multifocal pancreatic neuroendocrine tumors — gastrinomas (Zollinger-Ellison), insulinomas, non-functioning pNETs — arise young and are the leading cause of MEN1 mortality; surveillance MRI and a >2 cm surgical threshold guide care.
 
 ---
 

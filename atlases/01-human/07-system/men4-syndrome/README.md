@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "MEN4 produces pancreatic neuroendocrine tumors (~15-35%) like MEN1 but with less frequent gastrinoma/ZES; p27 loss derepresses islet-cell CDK2; surveillance uses annual chromogranin A and abdominal MRI, with octreotide/everolimus/sunitinib for advanced disease."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "MEN4 and Carney complex are both rare dominant multiple-endocrine-neoplasia syndromes with pituitary and other endocrine tumors, but via different genes: MEN4 from CDKN1B/p27 loss, Carney complex from PRKAR1A loss (PKA overactivity) plus cardiac myxomas and skin pigmentation."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "MEN4 is fundamentally a cell-cycle disease: loss of CDKN1B/p27 — a CDK inhibitor — releases CDK2-cyclin E (and CDK4/6) to drive G1/S transition in endocrine cells; this makes CDK4/6 inhibitors (palbociclib, ribociclib) a rational therapy for p27-deficient neuroendocrine tumors."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Pituitary adenomas occur in ~40-60% of MEN4, prolactinoma among the most common, causing hyperprolactinemia with hypogonadism and galactorrhea; p27 loss releases lactotroph proliferation, and these are managed like sporadic prolactinomas with dopamine agonists (cabergoline)."
 ---
 
 # MEN4 Syndrome
@@ -163,6 +172,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Primary hyperparathyroidism is the most common MEN4 manifestation (~60-80%): CDKN1B/p27 loss drives parathyroid chief-cell proliferation → excess PTH → hypercalcemia, nephrolithiasis, and bone loss; multigland disease prompts 3.5-gland parathyroidectomy, mirroring MEN1.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Pituitary adenomas occur in ~60% of MEN4, including GH-secreting tumors causing acromegaly; p27 haploinsufficiency releases somatotroph CDK2-CyclinE → proliferation; managed like sporadic adenomas with transsphenoidal surgery and somatostatin receptor ligands.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — MEN4 produces pancreatic neuroendocrine tumors (~15-35%) like MEN1 but with less frequent gastrinoma/ZES; p27 loss derepresses islet-cell CDK2; surveillance uses annual chromogranin A and abdominal MRI, with octreotide/everolimus/sunitinib for advanced disease.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — MEN4 and Carney complex are both rare dominant multiple-endocrine-neoplasia syndromes with pituitary and other endocrine tumors, but via different genes: MEN4 from CDKN1B/p27 loss, Carney complex from PRKAR1A loss (PKA overactivity) plus cardiac myxomas and skin pigmentation.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — MEN4 is fundamentally a cell-cycle disease: loss of CDKN1B/p27 — a CDK inhibitor — releases CDK2-cyclin E (and CDK4/6) to drive G1/S transition in endocrine cells; this makes CDK4/6 inhibitors (palbociclib, ribociclib) a rational therapy for p27-deficient neuroendocrine tumors.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Pituitary adenomas occur in ~40-60% of MEN4, prolactinoma among the most common, causing hyperprolactinemia with hypogonadism and galactorrhea; p27 loss releases lactotroph proliferation, and these are managed like sporadic prolactinomas with dopamine agonists (cabergoline).
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
