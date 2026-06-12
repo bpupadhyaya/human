@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "The pancreas is a leading NET site: functioning pNETs (insulinoma, gastrinoma, glucagonoma, VIPoma) cause hormone syndromes while non-functioning pNETs grow silently; everolimus and sunitinib are pNET-specific approvals, and DAXX/ATRX-mutant pNETs use the ALT telomere pathway."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Neuroendocrine tumors and neuroblastoma are both neural-crest-derived, amine-handling cancers at opposite ends of age and behavior: NETs are well-differentiated, slow-growing adult tumors, while neuroblastoma is an aggressive MYCN-driven embryonal cancer of children."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine (midgut) is a classic NET site: serotonin-secreting enterochromaffin-cell tumors of the ileum grow slowly but metastasize to the liver, producing carcinoid syndrome (flushing, diarrhea, carcinoid heart disease) and are SSTR2-positive."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "MEN4, like MEN1, is a hereditary cause of neuroendocrine tumors: germline CDKN1B/p27 loss predisposes to pancreatic NETs alongside parathyroid and pituitary tumors, so a young or multifocal NET prompts germline MEN1 and CDKN1B testing for syndromic disease."
 ---
 
 # Neuroendocrine Tumors
@@ -156,6 +165,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Germline MEN1 mutations underlie ~10% of pancreatic NETs, which in MEN1 are typically multifocal and non-functioning alongside parathyroid and pituitary tumors; menin loss (H3K4me3 at target promoters) is also the most common somatic event (~44%) in sporadic pNET.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Midgut carcinoids secrete serotonin that, once liver metastases bypass portal clearance, causes carcinoid syndrome — flushing, secretory diarrhea, and carcinoid heart disease; urinary 5-HIAA tracks it and telotristat (a tryptophan hydroxylase inhibitor) curbs refractory diarrhea.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is a leading NET site: functioning pNETs (insulinoma, gastrinoma, glucagonoma, VIPoma) cause hormone syndromes while non-functioning pNETs grow silently; everolimus and sunitinib are pNET-specific approvals, and DAXX/ATRX-mutant pNETs use the ALT telomere pathway.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Neuroendocrine tumors and neuroblastoma are both neural-crest-derived, amine-handling cancers at opposite ends of age and behavior: NETs are well-differentiated, slow-growing adult tumors, while neuroblastoma is an aggressive MYCN-driven embryonal cancer of children.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine (midgut) is a classic NET site: serotonin-secreting enterochromaffin-cell tumors of the ileum grow slowly but metastasize to the liver, producing carcinoid syndrome (flushing, diarrhea, carcinoid heart disease) and are SSTR2-positive.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — MEN4, like MEN1, is a hereditary cause of neuroendocrine tumors: germline CDKN1B/p27 loss predisposes to pancreatic NETs alongside parathyroid and pituitary tumors, so a young or multifocal NET prompts germline MEN1 and CDKN1B testing for syndromic disease.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

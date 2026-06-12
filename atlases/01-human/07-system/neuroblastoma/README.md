@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Dinutuximab (anti-GD2) kills NB via NK-cell ADCC and complement-dependent cytotoxicity; GM-CSF enhances NK/monocyte effector function; IL-2 expands NK cells in COG ANBL0032 maintenance; NK-mediated immunotherapy improved high-risk NB event-free survival."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Neuroblastoma and adult neuroendocrine tumors are both neural-crest/neuroendocrine cancers that secrete amines and take up amine tracers, but differ sharply: neuroblastoma is an aggressive embryonal tumor of young children (MYCN-driven), NETs mostly indolent tumors of adults."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone marrow is the most common metastatic site in high-risk neuroblastoma: small-round-blue-cell nests infiltrate the marrow (stage M), detected by bilateral biopsies and MIBG scan, and clearing marrow disease is a key goal of induction chemotherapy and anti-GD2 immunotherapy."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Neuroblastoma is a tumor of arrested sympathetic neuroblasts: its cells span a spectrum from neuroblastoma through ganglioneuroblastoma to benign ganglioneuroma, and retinoic acid pushes residual cells toward mature neurons — the basis of isotretinoin maintenance after therapy."
 ---
 
 # Neuroblastoma
@@ -188,6 +197,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — TRKA (NTRK1) drives NGF-induced differentiation/apoptosis in Stage MS NB, enabling spontaneous regression; MYCN-amplified NB loses TRKA so NGF cannot trigger regression, yielding aggressive disease; rare ETV6-NTRK3 and other NTRK fusions respond to larotrectinib/entrectinib.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal medulla is the single most common NB primary site (~40%); NB arises from arrested sympathoadrenal chromaffin/neuroblast precursors of neural-crest origin; it presents as an MIBG-avid adrenal mass secreting catecholamine metabolites (urine VMA/HVA).
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Dinutuximab (anti-GD2) kills NB via NK-cell ADCC and complement-dependent cytotoxicity; GM-CSF enhances NK/monocyte effector function; IL-2 expands NK cells in COG ANBL0032 maintenance; NK-mediated immunotherapy improved high-risk NB event-free survival.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Neuroblastoma and adult neuroendocrine tumors are both neural-crest/neuroendocrine cancers that secrete amines and take up amine tracers, but differ sharply: neuroblastoma is an aggressive embryonal tumor of young children (MYCN-driven), NETs mostly indolent tumors of adults.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow is the most common metastatic site in high-risk neuroblastoma: small-round-blue-cell nests infiltrate the marrow (stage M), detected by bilateral biopsies and MIBG scan, and clearing marrow disease is a key goal of induction chemotherapy and anti-GD2 immunotherapy.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuroblastoma is a tumor of arrested sympathetic neuroblasts: its cells span a spectrum from neuroblastoma through ganglioneuroblastoma to benign ganglioneuroma, and retinoic acid pushes residual cells toward mature neurons — the basis of isotretinoin maintenance after therapy.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
