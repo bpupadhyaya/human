@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "FAP carpets the colorectal mucosa with hundreds-to-thousands of adenomas; every colonocyte carries the germline APC first hit, so independent somatic second hits seed many foci; prophylactic proctocolectomy removes the at-risk mucosa and is curative for colorectal risk."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "FAP and hereditary diffuse gastric cancer are both dominant GI cancer syndromes but opposite in lesion: FAP carpets the colon with thousands of APC-driven adenomas, while HDGC seeds the stomach with CDH1-driven signet-ring foci that never form polyps — adenomatous versus diffuse."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "After colectomy the duodenum becomes FAP's most dangerous site: duodenal and ampullary adenomas (Spigelman-staged) progress to cancer in 3-5% and are the leading cause of cancer death in FAP, mandating lifelong upper-GI surveillance and sometimes pancreas-sparing duodenectomy."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "FAP confers a distinctive thyroid risk: cribriform-morular thyroid carcinoma, a rare papillary variant occurring almost exclusively in young women with FAP, can be the presenting sign of an undiagnosed APC mutation — prompting colonoscopy and germline testing when it appears."
 ---
 
 # Familial Adenomatous Polyposis
@@ -191,6 +200,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Biallelic MUTYH mutations cause an autosomal-recessive phenocopy of attenuated FAP (10-100 adenomas) with no germline APC mutation; defective 8-oxoG base-excision repair drives G:C→T:A transversions in APC and KRAS; ~30% of APC-negative AFAP is actually MAP.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS activating mutations (G12D/V, ~50% of large FAP adenomas) are a key step in the Fearon-Vogelstein adenoma-carcinoma sequence after biallelic APC loss; the same APC→KRAS→SMAD4→TP53 progression as sporadic CRC, but compressed and universal because APC LOF is pre-present.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — FAP carpets the colorectal mucosa with hundreds-to-thousands of adenomas; every colonocyte carries the germline APC first hit, so independent somatic second hits seed many foci; prophylactic proctocolectomy removes the at-risk mucosa and is curative for colorectal risk.
+- `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — FAP and hereditary diffuse gastric cancer are both dominant GI cancer syndromes but opposite in lesion: FAP carpets the colon with thousands of APC-driven adenomas, while HDGC seeds the stomach with CDH1-driven signet-ring foci that never form polyps — adenomatous versus diffuse.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — After colectomy the duodenum becomes FAP's most dangerous site: duodenal and ampullary adenomas (Spigelman-staged) progress to cancer in 3-5% and are the leading cause of cancer death in FAP, mandating lifelong upper-GI surveillance and sometimes pancreas-sparing duodenectomy.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — FAP confers a distinctive thyroid risk: cribriform-morular thyroid carcinoma, a rare papillary variant occurring almost exclusively in young women with FAP, can be the presenting sign of an undiagnosed APC mutation — prompting colonoscopy and germline testing when it appears.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
