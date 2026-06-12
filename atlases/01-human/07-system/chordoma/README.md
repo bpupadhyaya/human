@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A homozygous deletion in ~30-40% chordomas; eliminates both p16 (CDK4/6 checkpoint) and ARF (p53 stabilization); deletion at 9p21 is among the earliest molecular events in chordoma progression; CDKN2A loss correlates with worse prognosis and dedifferentiated transformation."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Chordoma and Ewing sarcoma are both rare bone tumors with one defining genetic lesion — chordoma's TBXT/brachyury overexpression versus Ewing's EWSR1-FLI1 fusion — but chordoma is a slow midline tumor of adults from notochord remnants, Ewing a small-cell tumor of children."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Chordoma arises along the axial skeleton from embryonic notochord remnants — ~50% sacrum, ~35% skull base (clivus), the rest mobile spine; this midline bony location, often diagnosed late and abutting critical structures, makes en-bloc resection the mainstay yet often incomplete."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Skull-base (clival) chordomas grow against the brainstem, cavernous sinus, and cranial nerves, causing diplopia, headache, and cranial-nerve palsies; their proximity to brain and vessels limits margins, making proton-beam radiotherapy central to controlling residual tumor."
 ---
 
 # Chordoma
@@ -186,6 +195,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss in ~15-20% chordomas → AKT-mTOR hyperactivation + increased VEGF; PI3K inhibitors studied in PTEN-deficient chordoma; PTEN co-deletion with CDKN2A in ~8-10% → simultaneous CDK4/6 and mTOR hyperactivation; PTEN loss correlates with worse prognosis in chordoma.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDKN2A deletion in ~30-40% of chordomas → CDK4/6 hyperactivation → RB1 phosphorylation → S-phase entry; palbociclib Phase 2 (NCT03110744) in CDKN2A-deleted chordoma; dedifferentiated chordoma shows CDK4 amplification and MDM2 co-amplification as hallmarks.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A homozygous deletion in ~30-40% chordomas; eliminates both p16 (CDK4/6 checkpoint) and ARF (p53 stabilization); deletion at 9p21 is among the earliest molecular events in chordoma progression; CDKN2A loss correlates with worse prognosis and dedifferentiated transformation.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Chordoma and Ewing sarcoma are both rare bone tumors with one defining genetic lesion — chordoma's TBXT/brachyury overexpression versus Ewing's EWSR1-FLI1 fusion — but chordoma is a slow midline tumor of adults from notochord remnants, Ewing a small-cell tumor of children.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Chordoma arises along the axial skeleton from embryonic notochord remnants — ~50% sacrum, ~35% skull base (clivus), the rest mobile spine; this midline bony location, often diagnosed late and abutting critical structures, makes en-bloc resection the mainstay yet often incomplete.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Skull-base (clival) chordomas grow against the brainstem, cavernous sinus, and cranial nerves, causing diplopia, headache, and cranial-nerve palsies; their proximity to brain and vessels limits margins, making proton-beam radiotherapy central to controlling residual tumor.
 
 ---
 

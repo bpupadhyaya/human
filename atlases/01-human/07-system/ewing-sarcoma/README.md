@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Ewing sarcoma is angiogenic; cabozantinib (VEGFR2+MET+RET) showed ORR ~20% in R/R Ewing; EWSR1-FLI1 upregulates VEGF expression; regorafenib (VEGFR+KIT) active in some R/R pediatric sarcomas; anti-angiogenic strategies combined with VEGFR inhibition under investigation."
+  - target: 01-human/07-system/chordoma
+    relation: connects-to
+    note: "Ewing sarcoma and chordoma are both fusion/lineage-defined bone tumors but opposites: Ewing a fast small-round-blue-cell tumor of children driven by EWSR1-FLI1, chordoma a slow midline notochordal tumor of adults driven by TBXT — one genetic lesion specifying an entire sarcoma."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is the most common metastatic site in Ewing sarcoma, and isolated pulmonary metastases carry a better prognosis than bone or marrow spread; whole-lung irradiation is added for lung-only metastatic disease, and metastasectomy of residual nodules is considered after chemo."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Ewing sarcoma and osteosarcoma are the two main pediatric bone cancers but differ fundamentally: osteosarcoma is an osteoid-producing tumor of the metaphysis, Ewing a small-round-cell tumor of the diaphysis driven by EWSR1-FLI1 — and unlike osteosarcoma, Ewing is radiosensitive."
 ---
 
 # Ewing Sarcoma
@@ -174,6 +183,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN loss enhances IGF1R→PI3K-AKT signaling in Ewing; PTEN deletions uncommon at diagnosis but acquired at relapse; mTOR inhibitors + IGF1R antibodies show synergy in preclinical Ewing; PI3K/AKT/mTOR inhibitors (temsirolimus) explored in R/R Ewing and pediatric solid tumors.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/ARF deletion in ~15% of primary Ewing sarcoma; ARF loss → MDM2 unchecked → p53 suppressed → apoptosis evasion; CDKN2A deletion co-occurs with poor histologic response; MDM2 inhibitors (idasanutlin) + VDC/IE under study; CDKN2A deletion acquired in ~25% at relapse.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ewing sarcoma is angiogenic; cabozantinib (VEGFR2+MET+RET) showed ORR ~20% in R/R Ewing; EWSR1-FLI1 upregulates VEGF expression; regorafenib (VEGFR+KIT) active in some R/R pediatric sarcomas; anti-angiogenic strategies combined with VEGFR inhibition under investigation.
+- `connects-to` → **[Chordoma](../chordoma/README.md)** — Ewing sarcoma and chordoma are both fusion/lineage-defined bone tumors but opposites: Ewing a fast small-round-blue-cell tumor of children driven by EWSR1-FLI1, chordoma a slow midline notochordal tumor of adults driven by TBXT — one genetic lesion specifying an entire sarcoma.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the most common metastatic site in Ewing sarcoma, and isolated pulmonary metastases carry a better prognosis than bone or marrow spread; whole-lung irradiation is added for lung-only metastatic disease, and metastasectomy of residual nodules is considered after chemo.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Ewing sarcoma and osteosarcoma are the two main pediatric bone cancers but differ fundamentally: osteosarcoma is an osteoid-producing tumor of the metaphysis, Ewing a small-round-cell tumor of the diaphysis driven by EWSR1-FLI1 — and unlike osteosarcoma, Ewing is radiosensitive.
 
 ---
 
