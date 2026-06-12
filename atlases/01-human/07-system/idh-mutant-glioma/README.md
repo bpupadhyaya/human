@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "IDH-mutant astrocytoma is the glial-lineage arm of the family (ATRX LOF + TP53, 1p/19q intact), as opposed to oligodendroglioma; IDH mutation creates a neural-progenitor-like epigenetic state (G-CIMP) that blocks normal astrocytic differentiation."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "IDH-mutant glioma and medulloblastoma are both molecularly classified brain tumors at opposite poles: IDH-mutant glioma is a slow, diffuse hemispheric tumor of adults driven by 2-HG epigenetics, while medulloblastoma is a fast embryonal cerebellar tumor of children (SHH/WNT/MYC)."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "IDH-mutant glioma and IDH-mutant AML share the same driver: IDH1/2 mutation produces 2-hydroxyglutarate that blocks TET/KDM demethylases, hypermethylating DNA and blocking differentiation; the same drugs cross over — ivosidenib (IDH1) and enasidenib treat both glioma and AML."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "IDH-mutant glioma and cholangiocarcinoma are distant cancers united by IDH1 mutation and 2-HG: ~15-20% of intrahepatic CCA carries IDH1 R132, and ivosidenib — first approved in IDH1-mutant AML — is now used in both IDH1-mutant cholangiocarcinoma and grade 2 IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -183,6 +192,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — IDH-mutant gliomas are diffuse, infiltrative brain tumors (astrocytoma favors frontal lobe, oligodendroglioma frontotemporal) that cannot be fully excised; maximal safe resection — often via awake craniotomy with cortical mapping — improves PFS and delays transformation.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — IDH status is the great divide in adult diffuse glioma: IDH-mutant tumors run a far more indolent course (median OS ~10-15 years) than IDH-wildtype glioblastoma (~15 months); WHO 2021 reserves the name 'glioblastoma' for IDH-wildtype tumors only.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — IDH-mutant astrocytoma is the glial-lineage arm of the family (ATRX LOF + TP53, 1p/19q intact), as opposed to oligodendroglioma; IDH mutation creates a neural-progenitor-like epigenetic state (G-CIMP) that blocks normal astrocytic differentiation.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — IDH-mutant glioma and medulloblastoma are both molecularly classified brain tumors at opposite poles: IDH-mutant glioma is a slow, diffuse hemispheric tumor of adults driven by 2-HG epigenetics, while medulloblastoma is a fast embryonal cerebellar tumor of children (SHH/WNT/MYC).
+- `connects-to` → **[AML](../aml/README.md)** — IDH-mutant glioma and IDH-mutant AML share the same driver: IDH1/2 mutation produces 2-hydroxyglutarate that blocks TET/KDM demethylases, hypermethylating DNA and blocking differentiation; the same drugs cross over — ivosidenib (IDH1) and enasidenib treat both glioma and AML.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — IDH-mutant glioma and cholangiocarcinoma are distant cancers united by IDH1 mutation and 2-HG: ~15-20% of intrahepatic CCA carries IDH1 R132, and ivosidenib — first approved in IDH1-mutant AML — is now used in both IDH1-mutant cholangiocarcinoma and grade 2 IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

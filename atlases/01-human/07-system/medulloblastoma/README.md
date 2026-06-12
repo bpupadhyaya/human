@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Germline TP53 (Li-Fraumeni) defines the SHH-activated/TP53-mutant subgroup — often MYCN-amplified, large-cell/anaplastic, ~40% 5-year OS; TP53 germline testing is mandatory for all SHH-MB aged 3-17, and craniospinal irradiation is avoided given LFS radiation sensitivity."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Medulloblastoma and IDH-mutant glioma are both molecularly classified brain tumors but opposite poles: medulloblastoma is a fast embryonal cerebellar tumor of children (SHH/WNT/MYC), while IDH-mutant glioma is a slow diffuse hemispheric tumor of adults driven by 2-HG epigenetics."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "Atypical teratoid/rhabdoid tumor is the key infant mimic of medulloblastoma: both are small-round-blue-cell posterior-fossa tumors, but ATRT is defined by SMARCB1 (INI1) loss and far more aggressive — INI1 immunostaining (kept in MB, lost in ATRT) distinguishes them."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "SHH-activated medulloblastoma arises from cerebellar granule neuron precursors of the external granular layer, whose normal proliferation depends on Sonic hedgehog from Purkinje neurons; a PTCH1/SMO lesion locks this hedgehog program on, driving the desmoplastic/nodular tumor."
 ---
 
 # Medulloblastoma
@@ -181,6 +190,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Medulloblastoma is the most common pediatric brain tumor, arising in the cerebellum (posterior fossa) where it obstructs the 4th ventricle → hydrocephalus; maximal safe resection risks cerebellar mutism syndrome, and craniospinal irradiation drives neurocognitive late effects.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Gorlin syndrome (germline PTCH1 loss) predisposes to SHH-activated medulloblastoma, typically the desmoplastic/nodular infant form; because these children are radiation-hypersensitive (PTCH1 carriers get RT-field basal cell carcinomas), radiation-sparing strategies are favored.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Germline TP53 (Li-Fraumeni) defines the SHH-activated/TP53-mutant subgroup — often MYCN-amplified, large-cell/anaplastic, ~40% 5-year OS; TP53 germline testing is mandatory for all SHH-MB aged 3-17, and craniospinal irradiation is avoided given LFS radiation sensitivity.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Medulloblastoma and IDH-mutant glioma are both molecularly classified brain tumors but opposite poles: medulloblastoma is a fast embryonal cerebellar tumor of children (SHH/WNT/MYC), while IDH-mutant glioma is a slow diffuse hemispheric tumor of adults driven by 2-HG epigenetics.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Atypical teratoid/rhabdoid tumor is the key infant mimic of medulloblastoma: both are small-round-blue-cell posterior-fossa tumors, but ATRT is defined by SMARCB1 (INI1) loss and far more aggressive — INI1 immunostaining (kept in MB, lost in ATRT) distinguishes them.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — SHH-activated medulloblastoma arises from cerebellar granule neuron precursors of the external granular layer, whose normal proliferation depends on Sonic hedgehog from Purkinje neurons; a PTCH1/SMO lesion locks this hedgehog program on, driving the desmoplastic/nodular tumor.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
