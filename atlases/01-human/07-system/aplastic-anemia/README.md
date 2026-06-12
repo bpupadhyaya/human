@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "AA patients have 10-15% risk of clonal evolution to MDS or AML; monosomy 7 is the most common cytogenetic abnormality (→ high MDS/AML risk); eltrombopag requires karyotype monitoring every 3 months; prior IST may select DNMT3A/ASXL1-mutant clones."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Aplastic anemia and ALL both present with pancytopenia but are mirror images: AA a hypocellular marrow emptied by autoreactive T cells, ALL a hypercellular marrow packed with lymphoblasts — the marrow biopsy distinguishes empty from blast-replaced, a critical fork in management."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutropenia is the most dangerous cytopenia in aplastic anemia: with the marrow unable to produce granulocytes, severe AA (ANC <500) leaves patients defenseless against bacterial and fungal infection, the leading cause of death; G-CSF gives little response in a depleted marrow."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thrombocytopenia in aplastic anemia reflects failed megakaryopoiesis despite high thrombopoietin; severe AA (platelets <20,000) risks spontaneous hemorrhage including intracranial bleeding, and the TPO-mimetic eltrombopag was developed to stimulate residual stem cells via c-Mpl."
 ---
 
 # Aplastic Anemia
@@ -164,6 +173,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[T Cytotoxic Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — autoreactive CD8+ CTL are the primary effectors in AA; oligoclonally expanded T cells infiltrate the marrow and kill HSCs via perforin/granzyme B → caspase-3 → apoptosis; Vβ TCR skewing documented; hATG + cyclosporine suppresses autoreactive CTL and restores hematopoiesis.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — activated T cells secrete IFN-γ in the AA marrow → STAT1 → ↑p21/WAF1 → HSC cell cycle arrest; IFN-γ also upregulates FasL on HSCs → autocrine apoptosis; IFN-γ levels correlate with AA severity and response to IST; ruxolitinib targets IFN-γ signaling in refractory AA.
 - `connects-to` → **[MDS](../mds/README.md)** — AA patients have 10-15% risk of clonal evolution to MDS or AML; monosomy 7 is the most common cytogenetic abnormality (→ high MDS/AML risk); eltrombopag requires karyotype monitoring every 3 months; prior IST may select DNMT3A/ASXL1-mutant clones.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Aplastic anemia and ALL both present with pancytopenia but are mirror images: AA a hypocellular marrow emptied by autoreactive T cells, ALL a hypercellular marrow packed with lymphoblasts — the marrow biopsy distinguishes empty from blast-replaced, a critical fork in management.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutropenia is the most dangerous cytopenia in aplastic anemia: with the marrow unable to produce granulocytes, severe AA (ANC <500) leaves patients defenseless against bacterial and fungal infection, the leading cause of death; G-CSF gives little response in a depleted marrow.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia in aplastic anemia reflects failed megakaryopoiesis despite high thrombopoietin; severe AA (platelets <20,000) risks spontaneous hemorrhage including intracranial bleeding, and the TPO-mimetic eltrombopag was developed to stimulate residual stem cells via c-Mpl.
 
 ---
 
