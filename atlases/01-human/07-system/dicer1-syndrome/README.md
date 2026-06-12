@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/wilms-tumor
     relation: connects-to
     note: "DICER1 hotspot mutations found in ~5% of Wilms tumor; cystic nephroma (benign DICER1 renal tumor) can contain Wilms-like blastemal elements (partially differentiated nephroblastoma); renal US surveillance in DICER1 carriers aged 0-8 detects cystic nephroma before transformation."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "DICER1 and Bloom are both childhood cancer-predisposition syndromes but mechanistically distinct: DICER1 is faulty microRNA processing (RNase IIIb hotspots depleting 5p miRNAs), Bloom genomic instability from a defective BLM helicase — gene dysregulation versus broken DNA repair."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pleuropulmonary blastoma is the sentinel DICER1 tumor: a rare embryonal lung cancer that begins as benign cystic lesions (type I) in infancy and can progress to solid high-grade sarcoma (type III); resecting it early is why chest imaging surveillance starts in the newborn period."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is a key DICER1 site: cystic nephroma, a benign multilocular renal cyst, can harbor Wilms-like blastemal elements and rarely progress to anaplastic sarcoma; renal ultrasound surveillance from birth to age 8 catches these before transformation."
 ---
 
 # DICER1 Syndrome
@@ -166,6 +175,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Let-7 miRNA family (depleted by DICER1 RNase IIIb hotspot) is the primary KRAS 3'UTR suppressor; DICER1 hotspot → let-7-5p loss → KRAS mRNA derepression → constitutive RAS-MAPK; KRAS upregulated in PPB via this axis; KRAS can be oncogenic without mutation when let-7 is depleted.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — DICER1 syndrome carriers have elevated DTC risk; DICER1 somatic hotspot mutations in ~10-15% of follicular and poorly differentiated thyroid carcinoma; thyroid US surveillance from age 8 in DICER1 carriers; DICER1-mutant thyroid cancer often arises in multinodular goiter.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — DICER1 hotspot mutations found in ~5% of Wilms tumor; cystic nephroma (benign DICER1 renal tumor) can contain Wilms-like blastemal elements (partially differentiated nephroblastoma); renal US surveillance in DICER1 carriers aged 0-8 detects cystic nephroma before transformation.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — DICER1 and Bloom are both childhood cancer-predisposition syndromes but mechanistically distinct: DICER1 is faulty microRNA processing (RNase IIIb hotspots depleting 5p miRNAs), Bloom genomic instability from a defective BLM helicase — gene dysregulation versus broken DNA repair.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pleuropulmonary blastoma is the sentinel DICER1 tumor: a rare embryonal lung cancer that begins as benign cystic lesions (type I) in infancy and can progress to solid high-grade sarcoma (type III); resecting it early is why chest imaging surveillance starts in the newborn period.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a key DICER1 site: cystic nephroma, a benign multilocular renal cyst, can harbor Wilms-like blastemal elements and rarely progress to anaplastic sarcoma; renal ultrasound surveillance from birth to age 8 catches these before transformation.
 
 ---
 

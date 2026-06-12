@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/mlh1
     relation: connects-to
     note: "BLM interacts with MLH1 (MMR) via its N-terminal region; BLM-MLH1 cooperation suppresses microsatellite instability; BLM unwinds heteroduplex DNA during MMR; some BS GI cancers show MSI-H — dual HR + MMR defect may contribute to extreme GI carcinoma risk."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Bloom and DICER1 are both childhood cancer-predisposition syndromes but mechanistically unrelated: Bloom is genomic instability from a defective BLM helicase (high sister-chromatid exchange), DICER1 faulty microRNA processing — broken DNA repair versus gene dysregulation."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The diagnostic hallmark of Bloom syndrome is a sun-sensitive facial rash: telangiectatic erythema in a butterfly distribution across the cheeks and nose that flares with UV exposure, reflecting cells that cannot properly repair replication-associated DNA damage."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Leukemia, especially acute lymphoblastic and myeloid, is the earliest and most common cancer in Bloom syndrome, often in childhood; the BLM-deficient genomic instability also makes these patients hypersensitive to chemotherapy, forcing substantial dose reductions."
 ---
 
 # Bloom Syndrome
@@ -189,6 +198,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Burkitt Lymphoma](../../07-system/burkitt-lymphoma/README.md)** — Burkitt lymphoma and NHL are among the most common lymphoid malignancies in Bloom syndrome; crossover-mediated LOH at 8q24 (MYC) contributes; BS patients have ~50-100× elevated lymphoma risk; chemotherapy hypersensitivity in BS requires dose reduction.
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC heterozygosity is vulnerable to crossover-mediated LOH in BLM-deficient cells → biallelic APC LOF without a second mutation → colorectal adenoma initiation; GI carcinomas dominate the adult BS cancer spectrum; colonoscopy from age 15 is a management cornerstone.
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — BLM interacts with MLH1 (MMR); BLM-MLH1 cooperation suppresses microsatellite instability; BLM unwinds heteroduplex DNA during MMR; some BS GI cancers show MSI-H — dual HR + MMR defect may contribute to extreme GI carcinoma risk.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Bloom and DICER1 are both childhood cancer-predisposition syndromes but mechanistically unrelated: Bloom is genomic instability from a defective BLM helicase (high sister-chromatid exchange), DICER1 faulty microRNA processing — broken DNA repair versus gene dysregulation.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The diagnostic hallmark of Bloom syndrome is a sun-sensitive facial rash: telangiectatic erythema in a butterfly distribution across the cheeks and nose that flares with UV exposure, reflecting cells that cannot properly repair replication-associated DNA damage.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Leukemia, especially acute lymphoblastic and myeloid, is the earliest and most common cancer in Bloom syndrome, often in childhood; the BLM-deficient genomic instability also makes these patients hypersensitive to chemotherapy, forcing substantial dose reductions.
 
 ---
 
