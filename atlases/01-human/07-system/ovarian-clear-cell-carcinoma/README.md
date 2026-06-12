@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "OCCC is distinct from HGSOC: OCCC (ARID1A/PIK3CA-driven, platinum-resistant, stage I-II at ~35-40%) vs HGSOC (TP53-universal, platinum-sensitive, stage III-IV at ~75%); OCCC lacks HRD enrichment; 5-year OS in advanced OCCC is worse than HGSOC despite identical chemotherapy."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma and endometrioid endometrial cancer are both endometriosis/endometrium-derived tumors driven by ARID1A and PIK3CA; clear-cell and endometrioid histologies recur across ovary and uterus, and both can arise in Lynch syndrome — unlike serous cancers."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma and clear-cell renal cell carcinoma are unrelated organs sharing a look and biology: both have glycogen-rich clear cytoplasm, both upregulate HIF/VEGF, and OCCC borrows RCC anti-angiogenics like sunitinib for this platinum-resistant tumor."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma is more immunogenic than high-grade serous cancer: ARID1A loss raises neoantigens and PD-L1, so it draws cytotoxic CD8+ T cells and responds better to PD-1 blockade — pembrolizumab + bevacizumab is studied in PD-L1+ OCCC."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -193,6 +202,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PIK3CA mutations (~40-50%) in OCCC → PI3K/AKT → mTOR activation; temsirolimus Phase 2 in OCCC: ORR ~10-15%; alpelisib (PIK3CA inhibitor) explored in PIK3CA-mutant OCCC; PI3K/mTOR dual inhibitors studied; ARID1A LOF + PIK3CA → synthetic vulnerability to PI3K/mTOR inhibition.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS G12D/V mutations in ~15% of OCCC, enriched in endometriosis-associated OCCC; KRAS + ARID1A co-mutation in ~8-10%; MEK pathway activated in KRAS-mutant OCCC → MEK inhibitors explored; KRAS mutation is more prevalent in OCCC than HGSOC or endometrioid ovarian cancer.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — OCCC is distinct from HGSOC: OCCC (ARID1A/PIK3CA-driven, platinum-resistant, stage I-II at ~35-40%) vs HGSOC (TP53-universal, platinum-sensitive, stage III-IV at ~75%); OCCC lacks HRD enrichment; 5-year OS in advanced OCCC is worse than HGSOC despite identical chemotherapy.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Ovarian clear cell carcinoma and endometrioid endometrial cancer are both endometriosis/endometrium-derived tumors driven by ARID1A and PIK3CA; clear-cell and endometrioid histologies recur across ovary and uterus, and both can arise in Lynch syndrome — unlike serous cancers.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Ovarian clear cell carcinoma and clear-cell renal cell carcinoma are unrelated organs sharing a look and biology: both have glycogen-rich clear cytoplasm, both upregulate HIF/VEGF, and OCCC borrows RCC anti-angiogenics like sunitinib for this platinum-resistant tumor.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Ovarian clear cell carcinoma is more immunogenic than high-grade serous cancer: ARID1A loss raises neoantigens and PD-L1, so it draws cytotoxic CD8+ T cells and responds better to PD-1 blockade — pembrolizumab + bevacizumab is studied in PD-L1+ OCCC.
 
 ---
 

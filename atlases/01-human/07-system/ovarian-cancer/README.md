@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/brca2
     relation: connects-to
     note: "BRCA2 loss (germline or somatic in ~8% of HGSOC) cripples homologous-recombination repair, creating the synthetic-lethal vulnerability PARP inhibitors exploit; BRCA2-mutant tumors are especially platinum-sensitive with the best maintenance outcomes."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Ovarian cancer is not one disease: high-grade serous carcinoma (TP53-universal, BRCA/HRD, platinum-sensitive) dominates, but ovarian clear cell carcinoma is a distinct subtype (ARID1A/PIK3CA, endometriosis-linked, platinum-resistant) — histotype guides treatment."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Ovarian cancer is the deadliest gynecologic cancer because it grows silently in the pelvis and spreads transcoelomically across the peritoneum before symptoms appear; most high-grade serous tumors originate in the fallopian tube fimbriae (STIC), making it a tubo-ovarian cancer."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Ovarian and endometrial cancers are linked: endometrioid and clear-cell ovarian cancers share histology and ARID1A mutations with their uterine counterparts and present synchronously, and Lynch syndrome raises the risk of both — so a dual primary prompts germline testing."
 ---
 
 # Ovarian Cancer
@@ -167,6 +176,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Hereditary breast and ovarian cancer (germline BRCA1/2) causes ~15-20% of HGSOC and raises lifetime ovarian-cancer risk to ~40-60% (BRCA1) or ~10-30% (BRCA2); risk-reducing salpingo-oophorectomy is the best prevention, and BRCA status guides PARP-inhibitor maintenance.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is near-universal in high-grade serous ovarian carcinoma (~96%) and is the defining, initiating event — a TP53 signature appears in Fallopian-tube secretory cells (STIC lesions) decades before invasion; its ubiquity is why HGSOC lacks a single targetable hotspot.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 loss (germline or somatic in ~8% of HGSOC) cripples homologous-recombination repair, creating the synthetic-lethal vulnerability PARP inhibitors exploit; BRCA2-mutant tumors are especially platinum-sensitive with the best maintenance outcomes.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Ovarian cancer is not one disease: high-grade serous carcinoma (TP53-universal, BRCA/HRD, platinum-sensitive) dominates, but ovarian clear cell carcinoma is a distinct subtype (ARID1A/PIK3CA, endometriosis-linked, platinum-resistant) — histotype guides treatment.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Ovarian cancer is the deadliest gynecologic cancer because it grows silently in the pelvis and spreads transcoelomically across the peritoneum before symptoms appear; most high-grade serous tumors originate in the fallopian tube fimbriae (STIC), making it a tubo-ovarian cancer.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Ovarian and endometrial cancers are linked: endometrioid and clear-cell ovarian cancers share histology and ARID1A mutations with their uterine counterparts and present synchronously, and Lynch syndrome raises the risk of both — so a dual primary prompts germline testing.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
