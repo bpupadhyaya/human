@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Clonal megakaryocytic hyperplasia drives sustained thrombocytosis; JAK2 V617F platelets are constitutively activated (resting P-selectin) → platelet-leukocyte aggregates and thrombosis; erythromelalgia from platelet microvascular occlusion responds rapidly to aspirin."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Essential thrombocythemia and DIC are opposite poles of platelet pathology: ET clonally overproduces platelets causing thrombosis (and, at extreme counts, acquired von Willebrand bleeding), while DIC systemically consumes platelets and clotting factors — too many versus too few."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Essential thrombocythemia is a clonal bone marrow disease: a JAK2, CALR, or MPL mutation drives autonomous megakaryocyte hyperplasia, so the marrow shows large, mature, clustered megakaryocytes without the dense fibrosis of primary myelofibrosis — a key WHO distinction."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Mild splenomegaly is common in essential thrombocythemia from extramedullary hematopoiesis and pooling; progressive splenic enlargement signals transformation to post-ET myelofibrosis, and prior splenectomy paradoxically raises platelet counts and thrombosis risk."
 ---
 
 # Essential Thrombocythemia
@@ -169,6 +178,9 @@ Management:
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — At platelet counts >1,500 ×10⁹/L, ET causes acquired von Willebrand syndrome — platelet GPIb adsorbs high-molecular-weight VWF multimers and depletes them, impairing primary hemostasis → paradoxical bleeding; aspirin is contraindicated until cytoreduction normalizes the count.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — PV and ET are both JAK2-driven MPNs on a phenotypic continuum; PV (JAK2 nearly 100%, often homozygous) skews erythroid while ET skews megakaryocytic; JAK2 V617F-ET can drift toward a PV phenotype; ET has lower post-MF and AML transformation risk than PV.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Clonal megakaryocytic hyperplasia drives sustained thrombocytosis; JAK2 V617F platelets are constitutively activated (resting P-selectin) → platelet-leukocyte aggregates and thrombosis; erythromelalgia from platelet microvascular occlusion responds rapidly to aspirin.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Essential thrombocythemia and DIC are opposite poles of platelet pathology: ET clonally overproduces platelets causing thrombosis (and, at extreme counts, acquired von Willebrand bleeding), while DIC systemically consumes platelets and clotting factors — too many versus too few.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Essential thrombocythemia is a clonal bone marrow disease: a JAK2, CALR, or MPL mutation drives autonomous megakaryocyte hyperplasia, so the marrow shows large, mature, clustered megakaryocytes without the dense fibrosis of primary myelofibrosis — a key WHO distinction.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Mild splenomegaly is common in essential thrombocythemia from extramedullary hematopoiesis and pooling; progressive splenic enlargement signals transformation to post-ET myelofibrosis, and prior splenectomy paradoxically raises platelet counts and thrombosis risk.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

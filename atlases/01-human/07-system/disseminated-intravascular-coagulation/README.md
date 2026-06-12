@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "Gram-negative sepsis is the most common DIC trigger: LPS → TLR4 → NF-κB → TF on monocytes/endothelium → systemic thrombin → fibrin microthrombi; 25-50% of severe sepsis develops overt DIC; sepsis-DIC mortality ~40-60%; antibiotics + source control are the primary treatment."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "DIC and essential thrombocythemia are mirror images: DIC consumes platelets and clotting factors in runaway thrombin activation (thrombocytopenia, bleeding), while ET clonally overproduces platelets causing thrombosis — yet both can bleed via acquired von Willebrand deficiency."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Cytokine storm is a major driver of DIC: TNF-α, IL-1β, and IL-6 induce tissue factor on monocytes and endothelium while suppressing anticoagulants and fibrinolysis, turning inflammation into systemic microthrombosis — the coagulopathy of sepsis, severe COVID, and CAR-T toxicity."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver makes nearly every coagulation factor consumed in DIC — fibrinogen, prothrombin, protein C, antithrombin — so acute liver failure produces a DIC-like consumptive coagulopathy that is the main diagnostic mimic; factor VIII stays normal in liver disease but falls in DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -190,6 +199,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — DIC causes platelet consumption → thrombocytopenia; platelet count is a key ISTH DIC score parameter (score 1 if <100K, score 2 if <50K); platelet transfusion if <50K + active bleeding, or <10K; platelet activation by thrombin amplifies DIC microthrombus formation.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — Protein C is consumed in DIC → loss of anticoagulant brake; PC deficiency → purpura fulminans (limb gangrene in septic DIC); protein C concentrate explored in severe sepsis-DIC; drotrecogin alfa (APC) withdrawn after PROWESS-SHOCK failed to show mortality benefit in sepsis-DIC.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Gram-negative sepsis is the most common DIC trigger: LPS → TLR4 → NF-κB → TF on monocytes/endothelium → systemic thrombin → fibrin microthrombi; 25-50% of severe sepsis develops overt DIC; sepsis-DIC mortality ~40-60%; antibiotics + source control are the primary treatment.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — DIC and essential thrombocythemia are mirror images: DIC consumes platelets and clotting factors in runaway thrombin activation (thrombocytopenia, bleeding), while ET clonally overproduces platelets causing thrombosis — yet both can bleed via acquired von Willebrand deficiency.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Cytokine storm is a major driver of DIC: TNF-α, IL-1β, and IL-6 induce tissue factor on monocytes and endothelium while suppressing anticoagulants and fibrinolysis, turning inflammation into systemic microthrombosis — the coagulopathy of sepsis, severe COVID, and CAR-T toxicity.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver makes nearly every coagulation factor consumed in DIC — fibrinogen, prothrombin, protein C, antithrombin — so acute liver failure produces a DIC-like consumptive coagulopathy that is the main diagnostic mimic; factor VIII stays normal in liver disease but falls in DIC.
 
 ---
 
