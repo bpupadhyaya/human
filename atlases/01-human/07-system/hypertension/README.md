@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/diabetic-retinopathy
     relation: connects-to
     note: "Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Hypertension and gout reinforce each other: elevated urate raises blood pressure by impairing endothelial NO and activating the RAAS, while thiazide and loop diuretics for hypertension reduce renal urate excretion and trigger gout flares — so drug choice must be coordinated."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Hypertension is the most important modifiable risk factor for stroke: chronic high pressure drives both ischemic stroke (atherosclerosis, small-vessel lipohyalinosis) and hemorrhagic stroke (Charcot-Bouchard microaneurysm rupture); each 10 mmHg drop cuts stroke risk by ~a third."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Dietary sodium is the leading modifiable driver of hypertension: excess salt expands extracellular volume and, in salt-sensitive people, raises blood pressure via impaired renal sodium handling; cutting intake toward <2 g/day lowers BP — the basis of DASH and salt-restriction."
 ---
 
 # Hypertension
@@ -142,6 +151,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `modulated-by` → **[Renin](../../03-molecular/renin/README.md)** — Renin is the rate-limiting enzyme of the RAAS: released from JG cells in response to reduced perfusion, low macula densa NaCl, and β1-adrenergic stimulation → angiotensinogen → Ang I → Ang II; aliskiren (direct renin inhibitor) reduces BP; ARR screens for primary aldosteronism.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — ET-1 is the most potent vasoconstrictor and is elevated in resistant hypertension, CKD-related hypertension, and preeclampsia; ETA receptor on vascular smooth muscle → vasoconstriction; ETB receptor on endothelium → NO and PGI2 (counterbalances); dual ERA bosentan lowers BP.
 - `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Hypertension accelerates DR through retinal arteriolar pressure, shear stress, and RAAS activation; BP control to <130/80 mmHg reduces DR progression by ~30% (UKPDS); hypertensive retinopathy and DR frequently coexist and share pathophysiology.
+- `connects-to` → **[Gout](../gout/README.md)** — Hypertension and gout reinforce each other: elevated urate raises blood pressure by impairing endothelial NO and activating the RAAS, while thiazide and loop diuretics for hypertension reduce renal urate excretion and trigger gout flares — so drug choice must be coordinated.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Hypertension is the most important modifiable risk factor for stroke: chronic high pressure drives both ischemic stroke (atherosclerosis, small-vessel lipohyalinosis) and hemorrhagic stroke (Charcot-Bouchard microaneurysm rupture); each 10 mmHg drop cuts stroke risk by ~a third.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Dietary sodium is the leading modifiable driver of hypertension: excess salt expands extracellular volume and, in salt-sensitive people, raises blood pressure via impaired renal sodium handling; cutting intake toward <2 g/day lowers BP — the basis of DASH and salt-restriction.
 
 ## Pathology
 
