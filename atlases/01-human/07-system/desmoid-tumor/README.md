@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Desmoid tumor arises from fibroblastic/myofibroblastic progenitors in CTNNB1-mutant cells triggered by trauma or surgery; desmoid myofibroblasts (αSMA+, nuclear β-catenin) secrete dense collagen and resist apoptosis; TGF-β amplifies myofibroblastic activation in desmoid stroma."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "Desmoid tumors and GISTs are intra-abdominal mesenchymal tumors often confused on imaging but molecularly opposite: desmoid is a non-metastasizing fibroblastic proliferation driven by CTNNB1/APC-Wnt, while GIST is a KIT/PDGFRA-driven Cajal-cell tumor that can metastasize."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Mesenteric desmoid tumors arise in the small-bowel mesentery, especially after abdominal surgery in FAP, encasing mesenteric vessels and bowel; this infiltrative, non-metastasizing growth causes obstruction, ischemia, and fistulae — a leading non-cancer cause of death in FAP."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Extra-abdominal desmoids (aggressive fibromatosis) of the shoulder, abdominal wall, and limbs are locally infiltrative soft-tissue tumors that recur after resection but never metastasize; since surgery often triggers regrowth, surveillance and systemic drugs are first-line."
 ---
 
 # Desmoid Tumor
@@ -185,6 +194,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC germline truncating mutations (codons 1310-2011) cause FAP; ~20% of desmoid tumors arise in FAP via APC LOF → insufficient β-catenin destruction → nuclear β-catenin → Wnt targets; FAP mesenteric desmoid is the leading non-cancer cause of death post-colectomy in FAP patients.
 - `connects-to` → **[FAP](../fap/README.md)** — FAP (germline APC) carries ~10-20% lifetime desmoid tumor risk; FAP mesenteric desmoid is the leading non-cancer cause of mortality in post-colectomy FAP; laparotomy wound triggers mesenteric desmoid; prophylactic sulindac and close surveillance are standard at FAP centers.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Desmoid tumor arises from fibroblastic/myofibroblastic progenitors in CTNNB1-mutant cells triggered by trauma or surgery; desmoid myofibroblasts (αSMA+, nuclear β-catenin) secrete dense collagen and resist apoptosis; TGF-β amplifies myofibroblastic activation in desmoid stroma.
+- `connects-to` → **[GIST](../gist/README.md)** — Desmoid tumors and GISTs are intra-abdominal mesenchymal tumors often confused on imaging but molecularly opposite: desmoid is a non-metastasizing fibroblastic proliferation driven by CTNNB1/APC-Wnt, while GIST is a KIT/PDGFRA-driven Cajal-cell tumor that can metastasize.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Mesenteric desmoid tumors arise in the small-bowel mesentery, especially after abdominal surgery in FAP, encasing mesenteric vessels and bowel; this infiltrative, non-metastasizing growth causes obstruction, ischemia, and fistulae — a leading non-cancer cause of death in FAP.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Extra-abdominal desmoids (aggressive fibromatosis) of the shoulder, abdominal wall, and limbs are locally infiltrative soft-tissue tumors that recur after resection but never metastasize; since surgery often triggers regrowth, surveillance and systemic drugs are first-line.
 
 ---
 

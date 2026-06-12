@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/braf
     relation: connects-to
     note: "BRAF V600E mutations in ~1% of KIT/PDGFRA-WT GIST; constitutive BRAF → MAPK → GIST proliferation; vemurafenib/dabrafenib active in BRAF V600E GIST; imatinib ineffective; molecular testing distinguishes BRAF V600E from SDH-deficient and NF1 WT-GIST requiring distinct approaches."
+  - target: 01-human/07-system/desmoid-tumor
+    relation: connects-to
+    note: "GIST and desmoid are the main intra-abdominal mesenchymal tumors that mimic each other on imaging but differ fundamentally: GIST is a KIT/PDGFRA-driven Cajal-cell tumor that responds to imatinib and can metastasize; desmoid is a CTNNB1/Wnt fibroblastic tumor that never spreads."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "About 60% of GISTs arise in the stomach (another ~30% in the small intestine), growing from the interstitial cells of Cajal in the muscularis as submucosal masses that can ulcerate and bleed; gastric GISTs are generally less aggressive than small-bowel GISTs of equal size."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Neurofibromatosis type 1 is a hereditary cause of GIST: germline NF1 loss drives RAS-MAPK in interstitial cells of Cajal, producing multifocal small-intestinal KIT/PDGFRA-wild-type GISTs that resist imatinib — a subtype needing MEK-directed strategies rather than KIT inhibition."
 ---
 
 # GIST
@@ -182,6 +191,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT gain-of-function mutations in ~85% of GIST (exon 11 ~70%, exon 9 ~10%); constitutive KIT → PI3K-AKT-mTOR and RAS-ERK → ICC immortalization; imatinib achieves ORR ~80% in exon 11 GIST; dose escalation to 800 mg for exon 9; GIST is the paradigm of KIT-targeted therapy.
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1-associated GIST (~2%): germline NF1 LOF → constitutive RAS-GTP → RAS-MAPK-driven GIST; KIT/PDGFRA-WT; small intestinal, multifocal, spindle cell; imatinib ineffective; MEK inhibitors (trametinib) under investigation; distinct from KIT-mutant and SDH-deficient GIST subtypes.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E mutations in ~1% of KIT/PDGFRA-WT GIST; constitutive BRAF → MAPK → GIST proliferation; vemurafenib/dabrafenib active in BRAF V600E GIST; imatinib ineffective; molecular testing distinguishes BRAF V600E from SDH-deficient and NF1 WT-GIST requiring distinct approaches.
+- `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — GIST and desmoid are the main intra-abdominal mesenchymal tumors that mimic each other on imaging but differ fundamentally: GIST is a KIT/PDGFRA-driven Cajal-cell tumor that responds to imatinib and can metastasize; desmoid is a CTNNB1/Wnt fibroblastic tumor that never spreads.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — About 60% of GISTs arise in the stomach (another ~30% in the small intestine), growing from the interstitial cells of Cajal in the muscularis as submucosal masses that can ulcerate and bleed; gastric GISTs are generally less aggressive than small-bowel GISTs of equal size.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Neurofibromatosis type 1 is a hereditary cause of GIST: germline NF1 loss drives RAS-MAPK in interstitial cells of Cajal, producing multifocal small-intestinal KIT/PDGFRA-wild-type GISTs that resist imatinib — a subtype needing MEK-directed strategies rather than KIT inhibition.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
