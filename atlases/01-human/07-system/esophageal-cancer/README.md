@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "EAC and gastric cancer share molecular features (HER2 amplification, MSI, VEGFR2); GEJ tumors classified/treated as both esophageal and gastric; ToGA regimen (trastuzumab+cisplatin/5-FU) applies to HER2+ GEJ and gastric; nivolumab (CheckMate 649) approved for gastric/GEJ."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Esophageal and head-and-neck squamous cell carcinomas share field cancerization from alcohol and tobacco: the whole aerodigestive squamous mucosa is mutagenized, so these cancers co-occur as second primaries, and both are TP53-driven tumors responsive to PD-1 blockade."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Esophageal adenocarcinoma blends into gastric cancer at the gastroesophageal junction, where Siewert-classified tumors are managed as one disease; chronic reflux drives Barrett metaplasia of the lower esophagus into adenocarcinoma, while the upper esophagus gives squamous cancer."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Both esophageal squamous and adenocarcinoma are immunotherapy-responsive: anti-PD-1 (nivolumab, pembrolizumab) reactivating cytotoxic CD8+ T cells is first-line with chemotherapy (CheckMate 648, KEYNOTE-590) and adjuvant after chemoradiation (CheckMate 577), per PD-L1 CPS."
 ---
 
 # Esophageal Cancer
@@ -189,6 +198,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR overexpression in ~70% of ESCC; EGFR amplification in ~10%; cetuximab (anti-EGFR) failed in unselected ESCC (SCOPE1, REAL3); anti-EGFR combinations being re-examined in EGFR-amplified ESCC; afatinib (pan-HER) showed modest activity in EGFR-overexpressing ESCC.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FGFR2 amplification in ~5% of EAC/GEJ tumors; FGFR1 amplification in ~3-5% of ESCC; pemigatinib and futibatinib (FGFR2 inhibitors) explored in FGFR2-amplified EAC/GEJ; selective FGFR2 inhibitors showed ORR ~25% in FGFR2-amplified GEJ (FIGHT-101 trial).
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — EAC and gastric cancer share molecular features (HER2 amplification, MSI, VEGFR2); GEJ tumors classified/treated as both esophageal and gastric; ToGA regimen (trastuzumab+cisplatin/5-FU) applies to HER2+ GEJ and gastric; nivolumab (CheckMate 649) approved for gastric/GEJ.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Esophageal and head-and-neck squamous cell carcinomas share field cancerization from alcohol and tobacco: the whole aerodigestive squamous mucosa is mutagenized, so these cancers co-occur as second primaries, and both are TP53-driven tumors responsive to PD-1 blockade.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Esophageal adenocarcinoma blends into gastric cancer at the gastroesophageal junction, where Siewert-classified tumors are managed as one disease; chronic reflux drives Barrett metaplasia of the lower esophagus into adenocarcinoma, while the upper esophagus gives squamous cancer.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Both esophageal squamous and adenocarcinoma are immunotherapy-responsive: anti-PD-1 (nivolumab, pembrolizumab) reactivating cytotoxic CD8+ T cells is first-line with chemotherapy (CheckMate 648, KEYNOTE-590) and adjuvant after chemoradiation (CheckMate 577), per PD-L1 CPS.
 
 ---
 

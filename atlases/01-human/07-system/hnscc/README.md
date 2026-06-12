@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cdkn2a
     relation: connects-to
     note: "CDKN2A/p16 behaves oppositely by HPV status: deleted in ~40% of tobacco-driven HPV-negative HNSCC, but strongly overexpressed in HPV+ tumors (RB loss removes feedback), making p16 immunostaining the practical surrogate marker for HPV-positive oropharyngeal cancer."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Head and neck and esophageal squamous cell carcinomas are linked by field cancerization: chronic alcohol and tobacco mutagenizes the whole aerodigestive squamous mucosa, so HNSCC patients carry elevated risk of esophageal SCC — both TP53-driven, immunotherapy-responsive tumors."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "HNSCC and cervical cancer are united by HPV: high-risk HPV16 drives oropharyngeal HNSCC as it drives cervical cancer, E6 degrading p53 and E7 inactivating RB; HPV-positive oropharyngeal cancer has a better prognosis than tobacco-driven HNSCC, and the same vaccine prevents both."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "HNSCC is one of the more immunogenic solid tumors — heavy tobacco or viral mutational load generates neoantigens — so anti-PD-1 (pembrolizumab, nivolumab) reactivating cytotoxic CD8+ T cells extended survival in recurrent/metastatic disease (KEYNOTE-048, CheckMate 141)."
 ---
 
 # HNSCC
@@ -166,6 +175,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus — not HPV — drives nasopharyngeal carcinoma, a distinct head-and-neck SCC: >95% of endemic undifferentiated NPC is EBV+; EBER in-situ hybridization confirms it and plasma EBV DNA tracks tumor burden; pembrolizumab and nivolumab are active in recurrent EBV+ NPC.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — HPV16 E7 binds and inactivates RB1, releasing E2F to drive S-phase entry without mitogens — the RB arm of HPV oncogenesis that pairs with E6-mediated p53 degradation; because RB is disabled by protein, HPV+ HNSCC rarely carries RB1 or CDKN2A mutations.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A/p16 behaves oppositely by HPV status: deleted in ~40% of tobacco-driven HPV-negative HNSCC, but strongly overexpressed in HPV+ tumors (RB loss removes feedback), making p16 immunostaining the practical surrogate marker for HPV-positive oropharyngeal cancer.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Head and neck and esophageal squamous cell carcinomas are linked by field cancerization: chronic alcohol and tobacco mutagenizes the whole aerodigestive squamous mucosa, so HNSCC patients carry elevated risk of esophageal SCC — both TP53-driven, immunotherapy-responsive tumors.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — HNSCC and cervical cancer are united by HPV: high-risk HPV16 drives oropharyngeal HNSCC as it drives cervical cancer, E6 degrading p53 and E7 inactivating RB; HPV-positive oropharyngeal cancer has a better prognosis than tobacco-driven HNSCC, and the same vaccine prevents both.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — HNSCC is one of the more immunogenic solid tumors — heavy tobacco or viral mutational load generates neoantigens — so anti-PD-1 (pembrolizumab, nivolumab) reactivating cytotoxic CD8+ T cells extended survival in recurrent/metastatic disease (KEYNOTE-048, CheckMate 141).
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
