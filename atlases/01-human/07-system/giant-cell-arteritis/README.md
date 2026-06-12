@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Macrophage-derived PDGF and IGF-1 drive vascular smooth muscle cell migration from media to intima with myofibroblast proliferation → intimal hyperplasia → luminal occlusion → the ischemia behind headache, jaw claudication, and irreversible anterior ischemic optic neuropathy."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Giant cell arteritis and ANCA vasculitis are vasculitides contrasted by vessel caliber: GCA strikes large arteries with granulomatous giant-cell inflammation, AAV small vessels with pauci-immune necrosis — poles of the vasculitis spectrum sharing IL-6-driven inflammation."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "GCA inflammation centers on the artery wall: macrophage VEGF drives neovascularization of the normally avascular media, while intimal endothelial and myofibroblast proliferation narrows the lumen, producing the ischemic optic neuropathy and jaw claudication that define it."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "GCA of the vertebral and carotid arteries can cause posterior-circulation (vertebrobasilar) stroke — distinct from the more common anterior ischemic optic neuropathy; prompt high-dose glucocorticoids reduce this risk, making GCA a treatable cause of stroke in the elderly."
 ---
 
 # Giant Cell Arteritis
@@ -166,6 +175,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — GCA is named for the multinucleated giant cells formed when IFN-γ-activated M1 macrophages fuse at the intima-media junction; these macrophages secrete IL-6, VEGF, PDGF, and IGF-1, driving the acute-phase response, neovascularization, and intimal hyperplasia.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Adventitial CD4+ T cells drive the adaptive phase of GCA: Th1 cells secrete IFN-γ (macrophage activation, giant cells) and Th17 cells secrete IL-17A (constitutional symptoms); both arms resist steroids, motivating IL-6R (tocilizumab) and JAK (upadacitinib) blockade.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Macrophage-derived PDGF and IGF-1 drive vascular smooth muscle cell migration from media to intima with myofibroblast proliferation → intimal hyperplasia → luminal occlusion → the ischemia behind headache, jaw claudication, and irreversible anterior ischemic optic neuropathy.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Giant cell arteritis and ANCA vasculitis are vasculitides contrasted by vessel caliber: GCA strikes large arteries with granulomatous giant-cell inflammation, AAV small vessels with pauci-immune necrosis — poles of the vasculitis spectrum sharing IL-6-driven inflammation.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — GCA inflammation centers on the artery wall: macrophage VEGF drives neovascularization of the normally avascular media, while intimal endothelial and myofibroblast proliferation narrows the lumen, producing the ischemic optic neuropathy and jaw claudication that define it.
+- `connects-to` → **[Stroke](../stroke/README.md)** — GCA of the vertebral and carotid arteries can cause posterior-circulation (vertebrobasilar) stroke — distinct from the more common anterior ischemic optic neuropathy; prompt high-dose glucocorticoids reduce this risk, making GCA a treatable cause of stroke in the elderly.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

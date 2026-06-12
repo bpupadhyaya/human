@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "AAV renal involvement progresses to CKD in up to 40% at 5 years; ESRD in 20-25% over 10 years; creatinine at diagnosis and % crescents on biopsy predict CKD trajectory; avacopan eGFR advantage at 52 weeks may translate to reduced long-term CKD progression."
+  - target: 01-human/07-system/giant-cell-arteritis
+    relation: connects-to
+    note: "ANCA vasculitis and giant cell arteritis sit at opposite ends of the vessel spectrum: AAV attacks small vessels with pauci-immune necrotizing inflammation, GCA the large arteries with granulomatous giant cells — contrasting poles classified by vessel caliber and histology."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells are the source of ANCA: they become plasma cells secreting IgG against PR3 or MPO, which is why anti-CD20 rituximab (RAVE trial) — depleting B cells and lowering autoantibody titers — is non-inferior to cyclophosphamide for induction and preferred for maintenance."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "AAV is a pulmonary-renal syndrome: small-vessel inflammation in the alveolar capillaries causes diffuse alveolar hemorrhage (hemoptysis, hypoxemia) alongside crescentic glomerulonephritis, and GPA additionally produces necrotizing granulomas of the upper and lower airways."
 ---
 
 # ANCA Vasculitis
@@ -199,6 +208,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — neutrophils are the primary effector cells in ANCA vasculitis; ANCA IgG crosslinks surface PR3/MPO on C5a-primed neutrophils → FcγRIIa → NETosis + respiratory burst → fibrinoid necrosis of small vessel walls and pauci-immune crescentic GN.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — crescentic pauci-immune GN in GPA/MPA causes rapidly progressive kidney failure; untreated AAV → ESRD within weeks-months; avacopan (ADVOCATE) preserves eGFR significantly better than prednisone at 52 weeks; ANCA GN is a leading cause of vasculitis-related dialysis.
 - `connects-to` → **[CKD](../../07-system/ckd/README.md)** — AAV renal involvement progresses to CKD in up to 40% at 5 years; ESRD in 20-25% over 10 years; creatinine at diagnosis and percentage crescents on biopsy predict CKD trajectory; avacopan eGFR advantage at 52 weeks may translate to reduced long-term CKD progression.
+- `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — ANCA vasculitis and giant cell arteritis sit at opposite ends of the vessel spectrum: AAV attacks small vessels with pauci-immune necrotizing inflammation, GCA the large arteries with granulomatous giant cells — contrasting poles classified by vessel caliber and histology.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are the source of ANCA: they become plasma cells secreting IgG against PR3 or MPO, which is why anti-CD20 rituximab (RAVE trial) — depleting B cells and lowering autoantibody titers — is non-inferior to cyclophosphamide for induction and preferred for maintenance.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — AAV is a pulmonary-renal syndrome: small-vessel inflammation in the alveolar capillaries causes diffuse alveolar hemorrhage (hemoptysis, hypoxemia) alongside crescentic glomerulonephritis, and GPA additionally produces necrotizing granulomas of the upper and lower airways.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
