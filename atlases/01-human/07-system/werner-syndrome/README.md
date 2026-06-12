@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Accelerated atherosclerosis is the leading killer in Werner syndrome, producing myocardial infarction and stroke roughly 30 years early, compounded by the syndrome's diabetes and dyslipidemia; aggressive statins, antihypertensives, and antiplatelet therapy begin in the 30s."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "Werner, Bloom, and Rothmund-Thomson are the three RecQ-helicase disorders — WRN, BLM, and RECQL4 loss — all causing genomic instability and cancer; but Werner is the 'adult progeria,' with premature aging, atherosclerosis, and diabetes from the third decade, unlike the others."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Werner syndrome cancers are characteristically mesenchymal: osteosarcoma and soft-tissue sarcomas occur at elevated rates (alongside thyroid cancer and acral melanoma), reflecting WRN-deficient replication stress in mesenchyme — a spectrum shared with Rothmund-Thomson."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Thyroid cancer is the most common malignancy in Werner syndrome (often follicular), part of its distinctive non-epithelial-skewed tumor spectrum (sarcomas, melanoma, meningioma); WRN-deficient genomic instability drives these, warranting thyroid surveillance from early adulthood."
 ---
 
 # Werner Syndrome
@@ -214,6 +223,9 @@ cross_links:
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Werner syndrome fibroblasts are a classic cellular model of aging: lacking WRN helicase they senesce after only ~20 population doublings (vs ~60 normal), accumulate chromosomal rearrangements, and pour out a senescence-associated secretory phenotype that ages surrounding tissue.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Bilateral posterior subcapsular cataracts develop in nearly all Werner patients by their 30s — decades before age-related cataracts — and are often the presenting sign that should trigger WRN testing; they are managed with routine phacoemulsification and lens implantation.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Accelerated atherosclerosis is the leading killer in Werner syndrome, producing myocardial infarction and stroke roughly 30 years early, compounded by the syndrome's diabetes and dyslipidemia; aggressive statins, antihypertensives, and antiplatelet therapy begin in the 30s.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Werner, Bloom, and Rothmund-Thomson are the three RecQ-helicase disorders — WRN, BLM, and RECQL4 loss — all causing genomic instability and cancer; but Werner is the 'adult progeria,' with premature aging, atherosclerosis, and diabetes from the third decade, unlike the others.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Werner syndrome cancers are characteristically mesenchymal: osteosarcoma and soft-tissue sarcomas occur at elevated rates (alongside thyroid cancer and acral melanoma), reflecting WRN-deficient replication stress in mesenchyme — a spectrum shared with Rothmund-Thomson.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Thyroid cancer is the most common malignancy in Werner syndrome (often follicular), part of its distinctive non-epithelial-skewed tumor spectrum (sarcomas, melanoma, meningioma); WRN-deficient genomic instability drives these, warranting thyroid surveillance from early adulthood.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
