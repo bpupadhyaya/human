@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "STK11/LKB1 somatic mutations in ~15-20% of KRAS-mutant lung adenocarcinoma; STK11 loss → PD-L1 downregulation + CXCL7 secretion → neutrophilic immunosuppressive TME → primary ICB resistance; STK11-mutant KRAS+ NSCLC is the poorest immunotherapy responder subgroup."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine is the danger zone of Peutz-Jeghers syndrome: large hamartomatous polyps in the jejunum and ileum become lead points for intussusception — the most common complication, often needing emergency surgery in childhood; surveillance and polypectomy prevent it."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The diagnostic clue to Peutz-Jeghers syndrome is on the skin and lips: mucocutaneous melanotic macules — dark freckle-like spots on the lips, buccal mucosa, and fingertips — appear in infancy and often fade with age, but with hamartomatous polyps they establish the diagnosis."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Peutz-Jeghers hamartomas have a unique histology: an arborizing (tree-like) core of bundled smooth muscle extending into the polyp, covered by normal epithelium — distinguishing them from the edematous juvenile polyps of JPS or the dysplastic adenomas of FAP."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -175,6 +184,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — STK11 LOF → AMPK loss → mTORC1 unrestrained → S6K1/4EBP1 → epithelial and smooth muscle proliferation → PJ hamartoma formation; rapamycin reduces polyp burden ~50-80% in STK11+/− mice; sirolimus + metformin pilot trial ongoing in PJS patients (NCT03943992).
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — PJS breast cancer lifetime risk ~45-54% by age 70 (BRCA1/2-equivalent); breast MRI + mammogram from age 25; STK11 LOF → mTOR hyperactivation in breast epithelium; HR+ predominant; no PJS-specific breast cancer histology; risk-reducing bilateral mastectomy discussed.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — STK11/LKB1 somatic mutations in ~15-20% of KRAS-mutant lung adenocarcinoma; STK11 loss → PD-L1 downregulation + CXCL7 secretion → neutrophilic immunosuppressive TME → primary ICB resistance; STK11-mutant KRAS+ NSCLC is the poorest immunotherapy responder subgroup.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine is the danger zone of Peutz-Jeghers syndrome: large hamartomatous polyps in the jejunum and ileum become lead points for intussusception — the most common complication, often needing emergency surgery in childhood; surveillance and polypectomy prevent it.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The diagnostic clue to Peutz-Jeghers syndrome is on the skin and lips: mucocutaneous melanotic macules — dark freckle-like spots on the lips, buccal mucosa, and fingertips — appear in infancy and often fade with age, but with hamartomatous polyps they establish the diagnosis.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Peutz-Jeghers hamartomas have a unique histology: an arborizing (tree-like) core of bundled smooth muscle extending into the polyp, covered by normal epithelium — distinguishing them from the edematous juvenile polyps of JPS or the dysplastic adenomas of FAP.
 
 ---
 

@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "SMAD4 (DPC4) loss in ~55% of PDAC switches TGF-β from tumor suppressor to pro-invasive driver; SMAD4 loss predicts systemic metastasis vs local recurrence in SMAD4-intact; TGF-β → non-SMAD (RAS-ERK, PI3K) → EMT; SMAD4 IHC predicts spread in resected PDAC."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Pancreatic ductal adenocarcinoma arises from the pancreas's exocrine ductal epithelium, growing silently until it obstructs the bile duct (painless jaundice) or invades vessels; deep location and early spread mean only ~20% are resectable, survival near 12% at 5 years."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Pancreatic cancer is defined by its stroma: KRAS-driven tumor cells activate stellate cells into cancer-associated fibroblasts that build a dense, hypovascular desmoplastic matrix starving the tumor of drugs and excluding T cells — why PDAC resists chemo and immunotherapy."
+  - target: 01-human/07-system/hereditary-pancreatitis
+    relation: connects-to
+    note: "Hereditary pancreatitis (germline PRSS1, SPINK1) is a major pancreatic cancer risk: decades of recurring autodigestion and inflammation create a field of injury that, with smoking, drives a ~40-50× lifetime risk of pancreatic adenocarcinoma — among the highest predispositions."
 ---
 
 # Pancreatic Cancer
@@ -179,6 +188,9 @@ cross_links:
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A (p16/INK4a) deleted/silenced in ~95% of PDAC; second earliest driver after KRAS; p16 loss → CDK4/6-RB hyperphosphorylation → unrestricted S-phase entry; ARF co-deletion → MDM2 unchecked → p53 suppressed; CDK4/6 inhibitors (palbociclib) evaluated in p16-null PDAC.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutations in ~70-75% of PDAC; p53 LOF → G2/M checkpoint failure and apoptosis evasion; late PanIN-3→PDAC transition event (vs KRAS = early); gain-of-function mutants (R175H, R248W) promote invasion; APR-246 (mutant p53 reactivator) in early PDAC trials.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SMAD4 (DPC4) loss in ~55% of PDAC switches TGF-β from tumor suppressor to pro-invasive driver; SMAD4 loss predicts systemic metastasis vs local recurrence in SMAD4-intact; TGF-β → non-SMAD (RAS-ERK, PI3K) → EMT; SMAD4 IHC predicts spread in resected PDAC.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Pancreatic ductal adenocarcinoma arises from the pancreas's exocrine ductal epithelium, growing silently until it obstructs the bile duct (painless jaundice) or invades vessels; deep location and early spread mean only ~20% are resectable, survival near 12% at 5 years.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Pancreatic cancer is defined by its stroma: KRAS-driven tumor cells activate stellate cells into cancer-associated fibroblasts that build a dense, hypovascular desmoplastic matrix starving the tumor of drugs and excluding T cells — why PDAC resists chemo and immunotherapy.
+- `connects-to` → **[Hereditary Pancreatitis](../hereditary-pancreatitis/README.md)** — Hereditary pancreatitis (germline PRSS1, SPINK1) is a major pancreatic cancer risk: decades of recurring autodigestion and inflammation create a field of injury that, with smoking, drives a ~40-50× lifetime risk of pancreatic adenocarcinoma — among the highest predispositions.
 
 ---
 
