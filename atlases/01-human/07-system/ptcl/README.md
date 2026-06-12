@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cd30
     relation: connects-to
     note: "CD30 (TNFRSF8) is the primary PTCL therapeutic target; brentuximab vedotin (anti-CD30 ADC) FDA-approved for ALCL and CD30+ PTCL; ECHELON-2: BV+CHP vs CHOP → PFS HR 0.71; CD30 in ALCL (~100%), PTCL-NOS (~30-50%); CD30 signals via TRAF1/2/3 → NF-κB → lymphoma survival."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Peripheral T-cell lymphoma and primary CNS lymphoma are aggressive non-Hodgkin lymphomas of opposite lineage: PTCL is a heterogeneous T-cell group (TET2/RHOA/STAT3-driven), PCNSL a CNS-confined B-cell (DLBCL) tumor driven by MYD88 — lineage and site reshape lymphoma biology."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Angioimmunoblastic T-cell lymphoma, a major PTCL subtype, arises from the follicular helper T cell (TFH): tumor cells keep TFH markers (PD-1, CXCL13, ICOS, BCL6) and recruit a reactive B-cell/EBV background, while TET2/DNMT3A/RHOA-G17V mutations drive the malignancy."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin is a defining PTCL site: primary cutaneous CD30+ T-cell lymphomas (cutaneous ALCL, lymphomatoid papulosis) and the mycosis fungoides/Sézary spectrum home to skin, often indolent — contrasting with the aggressive nodal PTCLs like AITL and systemic ALCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -196,6 +205,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2 R172K (distinct from MDS R140Q) occurs in ~20-30% of AITL/nTFHL; IDH2 → 2-HG → TET2 + KDM competitive inhibition → epigenetic reprogramming; enasidenib (IDH2 inhibitor, approved AML) explored in IDH2-mutant AITL; IDH2+TET2 co-mutation drives extreme hypermethylation.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — constitutive STAT3 activation in ALK+ ALCL (NPM1-ALK → JAK3 → STAT3), ALK- ALCL (STAT3 activating mutations ~15%), and HSTCL (STAT3/STAT5b mutations); STAT3 drives CD30, BCL-2, MCL-1, and VEGF → lymphoma survival; ruxolitinib (JAK1/2→STAT3) has activity in PTCL trials.
 - `connects-to` → **[CD30](../../03-molecular/cd30/README.md)** — CD30 (TNFRSF8) is the primary PTCL therapeutic target; brentuximab vedotin (anti-CD30 ADC) FDA-approved for ALCL and CD30+ PTCL; ECHELON-2: BV+CHP vs CHOP → PFS HR 0.71; CD30 in ALCL (~100%), PTCL-NOS (~30-50%); CD30 signals via TRAF1/2/3 → NF-κB → lymphoma survival.
+- `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Peripheral T-cell lymphoma and primary CNS lymphoma are aggressive non-Hodgkin lymphomas of opposite lineage: PTCL is a heterogeneous T-cell group (TET2/RHOA/STAT3-driven), PCNSL a CNS-confined B-cell (DLBCL) tumor driven by MYD88 — lineage and site reshape lymphoma biology.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Angioimmunoblastic T-cell lymphoma, a major PTCL subtype, arises from the follicular helper T cell (TFH): tumor cells keep TFH markers (PD-1, CXCL13, ICOS, BCL6) and recruit a reactive B-cell/EBV background, while TET2/DNMT3A/RHOA-G17V mutations drive the malignancy.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is a defining PTCL site: primary cutaneous CD30+ T-cell lymphomas (cutaneous ALCL, lymphomatoid papulosis) and the mycosis fungoides/Sézary spectrum home to skin, often indolent — contrasting with the aggressive nodal PTCLs like AITL and systemic ALCL.
 
 ---
 
