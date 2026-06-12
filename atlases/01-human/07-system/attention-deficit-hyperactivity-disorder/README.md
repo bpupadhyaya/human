@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Hippocampus is ~3-4% smaller in ADHD (meta-analysis); working memory deficits partly reflect hippocampal-PFC circuit dysfunction; stimulants normalize hippocampal-PFC connectivity on fMRI; episodic memory impairment is an underrecognized domain affecting academic performance."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "ADHD and bulimia nervosa are linked by impulsivity and reward dysregulation: childhood ADHD roughly doubles later bulimia risk, with shared deficits in prefrontal inhibitory control and dopaminergic reward driving both loss-of-control eating and impulsive behavior."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "ADHD and stimulant use disorder share a dopaminergic core: untreated ADHD raises later substance-use risk, yet properly prescribed stimulants lower it; still, the same drugs carry misuse and diversion potential, so prescribing balances benefit against addiction risk."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "ADHD and bipolar disorder overlap and are easily confused: both feature distractibility, impulsivity, and high energy, but ADHD is chronic and trait-like while bipolar elevation is episodic; they co-occur, and stimulants are used cautiously in bipolar ADHD to avoid mania."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -209,6 +218,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PFC layer III pyramidal neurons are the core ADHD substrate; they express DA D1 and NE α2A receptors maintaining persistent firing for working memory; D1 → cAMP → HCN/K⁺ channel closure → strengthened circuit; catecholamine deficiency → HCN open → signal noise → inattention.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — ADHD and ASD co-occur in 20-50% of cases; DSM-5 (2013) allows dual diagnosis; both share genetic architecture (CNVs at 16p13.11, 1q21.1; FOXP2, SHANK3) and PFC-striatal circuit dysfunction; methylphenidate has lower efficacy and more side effects in ASD+ADHD vs ADHD alone.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — hippocampus is ~3-4% smaller in ADHD (meta-analysis); working memory deficits partly reflect hippocampal-PFC circuit dysfunction; stimulants normalize hippocampal-PFC connectivity on fMRI; episodic memory impairment is an underrecognized domain affecting academic performance.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — ADHD and bulimia nervosa are linked by impulsivity and reward dysregulation: childhood ADHD roughly doubles later bulimia risk, with shared deficits in prefrontal inhibitory control and dopaminergic reward driving both loss-of-control eating and impulsive behavior.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — ADHD and stimulant use disorder share a dopaminergic core: untreated ADHD raises later substance-use risk, yet properly prescribed stimulants lower it; still, the same drugs carry misuse and diversion potential, so prescribing balances benefit against addiction risk.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — ADHD and bipolar disorder overlap and are easily confused: both feature distractibility, impulsivity, and high energy, but ADHD is chronic and trait-like while bipolar elevation is episodic; they co-occur, and stimulants are used cautiously in bipolar ADHD to avoid mania.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

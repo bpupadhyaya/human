@@ -45,6 +45,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "HPA dysregulation in BN → elevated cortisol during restriction/binge; stress cortisol drives emotional eating and binge triggers; cortisol elevates ghrelin and suppresses leptin → amplifies hunger drives; purging transiently reduces cortisol, reinforcing the cycle."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "Bulimia nervosa and ADHD share impulsivity and reward-circuit dysfunction: childhood ADHD roughly doubles later bulimia risk, with weak prefrontal inhibitory control and dysregulated striatal dopamine underlying both binge eating and impulsive behavior."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Bulimia nervosa and binge-eating disorder both feature recurrent loss-of-control binges but differ in the aftermath: BN includes compensatory purging (vomiting, laxatives, exercise) keeping weight near-normal, while BED has binges without purging and trends toward obesity."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Bulimia nervosa and borderline personality disorder frequently co-occur (~25-30%), sharing impulsivity, affect dysregulation, and self-harm; binge-purge cycles can serve the same emotion-regulation role as BPD impulsivity, and dialectical behavior therapy helps both."
 ---
 
 # Bulimia Nervosa
@@ -183,6 +192,9 @@ All of the following must be met:
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — BN and AN share dietary-restraint → binge/compensatory pathophysiology with body-image distortion; BMI distinguishes (normal in BN, low in AN); ~25% AN patients later develop BN; DSM-5 criterion E excludes BN if AN active; AN carries higher mortality (SMR 5-10x vs 1.5-2x).
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — leptin signals adipose energy stores to hypothalamus; binge-purge cycles blunt leptin fluctuation → impaired satiety sensing; purging reduces leptin acutely despite adequate caloric load; leptin-NPY arcuate axis dysregulation in BN impairs hunger-fullness signaling.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — HPA dysregulation in BN → elevated cortisol during restriction/binge; stress cortisol drives emotional eating and binge triggers; cortisol elevates ghrelin and suppresses leptin → amplifies hunger drives; purging transiently reduces cortisol, reinforcing the cycle.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Bulimia nervosa and ADHD share impulsivity and reward-circuit dysfunction: childhood ADHD roughly doubles later bulimia risk, with weak prefrontal inhibitory control and dysregulated striatal dopamine underlying both binge eating and impulsive behavior.
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Bulimia nervosa and binge-eating disorder both feature recurrent loss-of-control binges but differ in the aftermath: BN includes compensatory purging (vomiting, laxatives, exercise) keeping weight near-normal, while BED has binges without purging and trends toward obesity.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Bulimia nervosa and borderline personality disorder frequently co-occur (~25-30%), sharing impulsivity, affect dysregulation, and self-harm; binge-purge cycles can serve the same emotion-regulation role as BPD impulsivity, and dialectical behavior therapy helps both.
 
 ## Treatment
 
