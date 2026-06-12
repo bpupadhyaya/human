@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "CMML monocytes differentiate into patrolling and pro-inflammatory macrophages; GM-CSF/M-CSF autocrine loops drive monocyte survival; tumor-associated macrophages suppress NK killing in the marrow niche; monocytosis (AMC ≥0.5×10⁹/L, ≥10% of WBC) is the defining CMML criterion."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "CMML straddles the MDS and MPN categories in its own WHO class, MDS/MPN-overlap: it has MDS dysplasia and cytopenias plus proliferative monocytosis, splenomegaly, and JAK2/RAS features, sharing biology and JAK-inhibitor responses with the myeloproliferative neoplasms."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "CMML was historically classified with the myelodysplastic syndromes and shares their dysplastic, cytopenic marrow and AML transformation risk; the WHO now separates it as MDS/MPN-overlap for its peripheral monocytosis, but azacitidine remains a shared therapy."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "CMML is a clonal bone marrow stem-cell disease: SRSF2/TET2/ASXL1-mutant progenitors expand the monocyte lineage into a hypercellular dysplastic marrow with monocytosis; marrow blasts and cytogenetics define the CPSS prognostic groups, and allogeneic transplant is the only cure."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -177,6 +186,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — TET2 mutations in ~60% of CMML; TET2 catalyses 5-mC → 5-hmC → promoter demethylation; TET2 loss → hypermethylation of tumor suppressor promoters + monocyte progenitor expansion; TET2+SRSF2 doublet is the dominant CMML genotype; TET2 CHIP evolves to CMML at ~1% per year.
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK2 V617F in ~15-20% of CMML; enriched in MP-CMML (WBC >13×10⁹/L); JAK2 V617F → STAT5 → monocyte proliferation and splenomegaly; ruxolitinib (JAK1/2 inhibitor) achieves splenomegaly response ~30-50% in MP-CMML; JAK2-mutant CMML may overlap with MDS/MPN-SF3B1.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CMML monocytes differentiate into patrolling and pro-inflammatory macrophages; GM-CSF/M-CSF autocrine loops drive monocyte survival; tumor-associated macrophages suppress NK killing in the marrow niche; monocytosis (AMC ≥0.5×10⁹/L, ≥10% of WBC) is the defining CMML criterion.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — CMML straddles the MDS and MPN categories in its own WHO class, MDS/MPN-overlap: it has MDS dysplasia and cytopenias plus proliferative monocytosis, splenomegaly, and JAK2/RAS features, sharing biology and JAK-inhibitor responses with the myeloproliferative neoplasms.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — CMML was historically classified with the myelodysplastic syndromes and shares their dysplastic, cytopenic marrow and AML transformation risk; the WHO now separates it as MDS/MPN-overlap for its peripheral monocytosis, but azacitidine remains a shared therapy.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — CMML is a clonal bone marrow stem-cell disease: SRSF2/TET2/ASXL1-mutant progenitors expand the monocyte lineage into a hypercellular dysplastic marrow with monocytosis; marrow blasts and cytogenetics define the CPSS prognostic groups, and allogeneic transplant is the only cure.
 
 ---
 

@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "MPNs are clonal stem-cell diseases of the bone marrow: panmyeloid hypercellularity in PV, megakaryocytic hyperplasia in ET, and progressive reticulin/collagen fibrosis (MF-0 to MF-3) in myelofibrosis that drives marrow failure and extramedullary hematopoiesis with splenomegaly."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Chronic myelomonocytic leukemia is the MDS/MPN-overlap cousin of the classic myeloproliferative neoplasms: it shares their JAK2/RAS-driven proliferation, splenomegaly, and JAK-inhibitor responsiveness, but adds the peripheral monocytosis and dysplasia of MDS."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Myelofibrosis is the most aggressive classic MPN: JAK2/CALR/MPL-driven megakaryocytes secrete TGF-β that scars the marrow with reticulin and collagen, forcing extramedullary hematopoiesis (splenomegaly) and marrow failure; it arises de novo or evolves from PV or ET."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Splenomegaly is the clinical signature of the myeloproliferative neoplasms, most extreme in myelofibrosis where the spleen takes over blood production (extramedullary hematopoiesis) and can fill the abdomen; JAK inhibitors (ruxolitinib) shrink it, splenectomy a last resort."
 ---
 
 # Myeloproliferative Neoplasms
@@ -195,6 +204,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Polycythemia vera is the erythroid-predominant MPN — JAK2 V617F (often homozygous via 9p uniparental disomy) drives EPO-independent erythrocytosis, raising thrombosis risk; managed with phlebotomy to HCT <45% and aspirin, and it can evolve to post-PV myelofibrosis.
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — The JAK2 V617F mutation in the JH2 pseudokinase domain unifies the MPNs — present in ~95% of PV and ~55-60% of ET and MF — by removing autoinhibition for constitutive JAK-STAT signaling; allele burden tracks phenotype (heterozygous→ET, homozygous→PV).
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MPNs are clonal stem-cell diseases of the bone marrow: panmyeloid hypercellularity in PV, megakaryocytic hyperplasia in ET, and progressive reticulin/collagen fibrosis (MF-0 to MF-3) in myelofibrosis that drives marrow failure and extramedullary hematopoiesis with splenomegaly.
+- `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — Chronic myelomonocytic leukemia is the MDS/MPN-overlap cousin of the classic myeloproliferative neoplasms: it shares their JAK2/RAS-driven proliferation, splenomegaly, and JAK-inhibitor responsiveness, but adds the peripheral monocytosis and dysplasia of MDS.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myelofibrosis is the most aggressive classic MPN: JAK2/CALR/MPL-driven megakaryocytes secrete TGF-β that scars the marrow with reticulin and collagen, forcing extramedullary hematopoiesis (splenomegaly) and marrow failure; it arises de novo or evolves from PV or ET.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly is the clinical signature of the myeloproliferative neoplasms, most extreme in myelofibrosis where the spleen takes over blood production (extramedullary hematopoiesis) and can fill the abdomen; JAK inhibitors (ruxolitinib) shrink it, splenectomy a last resort.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
