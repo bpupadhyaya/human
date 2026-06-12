@@ -30,6 +30,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: targets
     note: "HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal volume loss and tracks disease progression by UHDRS total functional capacity."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Huntington's disease kills a specific neuron: the GABAergic medium spiny neurons of the striatum, especially indirect-pathway (D2) MSNs whose loss disinhibits movement and causes chorea; mutant huntingtin starves them of BDNF and sensitizes them to glutamate excitotoxicity."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Neuroinflammation is an early feature of Huntington's disease: microglia activate in the striatum and cortex years before symptoms (on PET), and mutant huntingtin acts cell-autonomously inside microglia to make them hyper-reactive — adding inflammation to the neurodegeneration."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Huntington's disease is an autosomal-dominant neurodegenerative disease of the CNS: a CAG-repeat expansion in HTT makes a toxic polyglutamine protein that destroys the striatum and cortex, causing chorea, cognitive decline, and psychiatric disturbance over 15-20 years."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -85,3 +94,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — mHTT disrupts REST/NRSF cytoplasmic sequestration → nuclear REST represses BDNF transcription; mHTT also impairs HAP1-mediated BDNF vesicle transport from cortex to striatum → MSN trophic deprivation; BDNF/TrkB signaling restoration is a key therapeutic goal.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — striatal MSNs receive massive glutamatergic input from cortex; mHTT sensitizes MSNs to NMDA excitotoxicity via NR2B dysregulation; riluzole and memantine reduce excitotoxic MSN death in HD models; E/I imbalance contributes to early cognitive symptoms.
 - `targets` → **[Brain](../../06-organ/brain/README.md)** — HD selectively atrophies striatum (caudate + putamen) detectable by MRI 15+ years pre-onset; cortical layer V and thalamic neurons also degenerate; lateral ventricle enlargement mirrors striatal atrophy and tracks disease progression by UHDRS-TFC.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Huntington's disease kills a specific neuron: the GABAergic medium spiny neurons of the striatum, especially indirect-pathway (D2) MSNs whose loss disinhibits movement and causes chorea; mutant huntingtin starves them of BDNF and sensitizes them to glutamate excitotoxicity.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation is an early feature of Huntington's disease: microglia activate in the striatum and cortex years before symptoms (on PET), and mutant huntingtin acts cell-autonomously inside microglia to make them hyper-reactive — adding inflammation to the neurodegeneration.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Huntington's disease is an autosomal-dominant neurodegenerative disease of the CNS: a CAG-repeat expansion in HTT makes a toxic polyglutamine protein that destroys the striatum and cortex, causing chorea, cognitive decline, and psychiatric disturbance over 15-20 years.
