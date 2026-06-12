@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "Cowden/PHTS endometrial cancer risk ~28% lifetime; endometrioid adenocarcinoma predominates; PTEN is most frequently mutated in sporadic endometrioid EC (~65%); often early-stage, well-differentiated; annual TVU/biopsy from age 35; prophylactic hysterectomy after childbearing."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "PTEN is a major autism gene: in Cowden/PTEN hamartoma syndrome, germline PTEN loss produces megalencephaly and, in 10-20% of macrocephalic carriers, autism spectrum disorder — and PTEN testing is recommended for any child with autism plus a very large head."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "Cowden and Birt-Hogg-Dubé syndromes are hereditary tumour syndromes that converge on mTOR: Cowden loses PTEN (over-activating PI3K-AKT-mTOR) while BHD loses folliculin (a RagC/D GAP feeding mTORC1), and both produce skin hamartomas and an elevated risk of renal cell carcinoma."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Cowden syndrome leaves two brain signatures: megalencephaly (≥97th-percentile head size in ~90% of carriers) and Lhermitte-Duclos disease — a dysplastic cerebellar gangliocytoma whose 'tiger-stripe' MRI is pathognomonic and, in an adult, essentially defines a PTEN mutation."
 ---
 
 # Cowden Syndrome
@@ -231,6 +240,9 @@ cross_links:
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — PTEN LOF → PI3K-AKT → mTOR hyperactivation in all PHTS tumors; mTORC1 drives S6K1/4EBP1 → protein synthesis and cell growth; everolimus (mTORC1 inhibitor) active in HR+/HER2- BC, RCC, and PHTS-associated lesions; mTOR is the canonical PHTS therapeutic target.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PTEN LOF → constitutive AKT phosphorylation (Ser473/Thr308) → survival, proliferation, and cell cycle entry; capivasertib and ipatasertib active in PTEN-deficient BC; capivasertib + fulvestrant approved (CAPItello-291) for HR+/HER2- BC with PI3K/AKT/PTEN alterations.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Cowden/PHTS endometrial cancer risk ~28% lifetime; endometrioid adenocarcinoma predominates; PTEN is most frequently mutated in sporadic endometrioid EC (~65%); often early-stage, well-differentiated; annual TVU/biopsy from age 35; prophylactic hysterectomy after childbearing.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — PTEN is a major autism gene: in Cowden/PTEN hamartoma syndrome, germline PTEN loss produces megalencephaly and, in 10-20% of macrocephalic carriers, autism spectrum disorder — and PTEN testing is recommended for any child with autism plus a very large head.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — Cowden and Birt-Hogg-Dubé syndromes are hereditary tumour syndromes that converge on mTOR: Cowden loses PTEN (over-activating PI3K-AKT-mTOR) while BHD loses folliculin (a RagC/D GAP feeding mTORC1), and both produce skin hamartomas and an elevated risk of renal cell carcinoma.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cowden syndrome leaves two brain signatures: megalencephaly (≥97th-percentile head size in ~90% of carriers) and Lhermitte-Duclos disease — a dysplastic cerebellar gangliocytoma whose 'tiger-stripe' MRI is pathognomonic and, in an adult, essentially defines a PTEN mutation.
 
 ---
 

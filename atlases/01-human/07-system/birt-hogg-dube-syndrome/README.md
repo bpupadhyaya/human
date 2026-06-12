@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/ampk
     relation: connects-to
     note: "FLCN-FNIP1/2 interacts with AMPK; FNIP1/2 are AMPK-associated proteins; AMPK phosphorylates FLCN at Ser302; FLCN-FNIP-AMPK is a metabolic sensing hub at the lysosome integrating energy status with mTORC1 activity; FNIP1 null mice develop cardiomegaly and lymphoma."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Birt-Hogg-Dubé and Cowden syndrome are mTORopathies: BHD loses folliculin (a GAP for the RagC/D GTPases that gate mTORC1) while Cowden loses PTEN (which restrains PI3K-AKT-mTOR), and both cause facial hamartomatous skin papules and a heightened risk of renal cell carcinoma."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "The lung cysts of Birt-Hogg-Dubé arise in alveolar type II pneumocytes: folliculin loss dysregulates mTOR and TFE3, driving abnormal alveolar remodeling and matrix breakdown that thins the cyst walls — producing the basal subpleural cysts behind a 7-fold pneumothorax risk."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is BHD's malignant target: folliculin loss causes bilateral, multifocal chromophobe and hybrid oncocytic renal cell carcinoma (~15-30% lifetime), so carriers get annual MRI from their 20s and nephron-sparing surgery once a tumour reaches ~3 cm."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -192,6 +201,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — BHD causes bilateral basal pulmonary cysts in ~80-90% of carriers → 7× increased spontaneous pneumothorax risk; FLCN-deficient alveolar type II cells → mTOR dysregulation → cyst formation; pleurodesis recommended after second ipsilateral or first contralateral pneumothorax.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Fibrofolliculomas (hair follicle hamartomas; white facial papules) are the defining BHD cutaneous lesion; ≥5 histologically confirmed fibrofolliculomas is a major diagnostic criterion; cosmetic laser/dermabrasion reduces lesions; topical sirolimus (off-label) may reduce new formation.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — FLCN-FNIP1/2 complex interacts with AMPK at the lysosomal surface; FNIP1/2 are AMPK-binding partners; AMPK phosphorylates FLCN at Ser302; FLCN-FNIP-AMPK forms a metabolic sensing hub integrating energy status with mTORC1 activity; FNIP1-null mice develop cardiomegaly and lymphoma.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Birt-Hogg-Dubé and Cowden syndrome are mTORopathies: BHD loses folliculin (a GAP for the RagC/D GTPases that gate mTORC1) while Cowden loses PTEN (which restrains PI3K-AKT-mTOR), and both cause facial hamartomatous skin papules and a heightened risk of renal cell carcinoma.
+- `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — The lung cysts of Birt-Hogg-Dubé arise in alveolar type II pneumocytes: folliculin loss dysregulates mTOR and TFE3, driving abnormal alveolar remodeling and matrix breakdown that thins the cyst walls — producing the basal subpleural cysts behind a 7-fold pneumothorax risk.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is BHD's malignant target: folliculin loss causes bilateral, multifocal chromophobe and hybrid oncocytic renal cell carcinoma (~15-30% lifetime), so carriers get annual MRI from their 20s and nephron-sparing surgery once a tumour reaches ~3 cm.
 
 ---
 
