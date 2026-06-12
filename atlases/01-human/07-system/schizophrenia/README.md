@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "H1R inverse agonists (clozapine, olanzapine, quetiapine) drive antipsychotic weight gain and sedation; H3R heteroreceptors on DA/5-HT terminals modulate monoamine release; histaminergic TMN arousal neurons are implicated in arousal deficit and cognitive symptoms in schizophrenia."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Schizophrenia's cellular lesion centers on the parvalbumin fast-spiking GABAergic interneuron of the prefrontal cortex and hippocampus: reduced GAD67 and impaired firing degrade the gamma oscillations behind working memory — upstream of the dopamine and glutamate abnormalities."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Schizophrenia and bipolar disorder overlap genetically and clinically: they share risk variants (CACNA1C) and the schizoaffective category, and both feature psychosis — but schizophrenia is dominated by chronic negative/cognitive deficits, bipolar by episodic mood elevation."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus is a key schizophrenia node: reduced in volume with fewer parvalbumin interneurons, and an overactive anterior hippocampus may drive aberrant dopamine release via the subiculum-VTA pathway — linking memory deficits to the dopamine dysregulation behind psychosis."
 ---
 
 # Schizophrenia
@@ -224,6 +233,12 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 
 - `connects-to` → **[Prolactin](../../../03-molecular/prolactin/README.md)** — antipsychotic D2 blockade at the pituitary tuberoinfundibular pathway removes TIDA inhibition → hyperprolactinemia; risperidone causes greatest elevation (45-100 ng/mL); galactorrhea, sexual dysfunction, and osteoporosis are key drivers of medication non-adherence in schizophrenia.
 - `connects-to` → **[Histamine](../../../03-molecular/histamine/README.md)** — H1R inverse agonists (clozapine, olanzapine, quetiapine) drive antipsychotic weight gain and sedation; H3R heteroreceptors on DA/5-HT terminals modulate monoamine release; histaminergic TMN arousal neurons are implicated in arousal deficit and cognitive symptoms in schizophrenia.
+
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Schizophrenia's cellular lesion centers on the parvalbumin fast-spiking GABAergic interneuron of the prefrontal cortex and hippocampus: reduced GAD67 and impaired firing degrade the gamma oscillations behind working memory — upstream of the dopamine and glutamate abnormalities.
+
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Schizophrenia and bipolar disorder overlap genetically and clinically: they share risk variants (CACNA1C) and the schizoaffective category, and both feature psychosis — but schizophrenia is dominated by chronic negative/cognitive deficits, bipolar by episodic mood elevation.
+
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is a key schizophrenia node: reduced in volume with fewer parvalbumin interneurons, and an overactive anterior hippocampus may drive aberrant dopamine release via the subiculum-VTA pathway — linking memory deficits to the dopamine dysregulation behind psychosis.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

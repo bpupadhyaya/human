@@ -49,6 +49,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: treated-by
     note: "Fluoxetine is FDA-approved for panic disorder with/without agoraphobia; SSRIs first-line over benzodiazepines; initial paradoxical anxiety (5-HT1A stimulation) requires start-low-go-slow dosing; onset 4–8 weeks; 70–80% response rate; CBT additive with fluoxetine."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Panic disorder and generalized anxiety disorder are neighboring anxiety disorders that often co-occur and share serotonergic/GABAergic biology and first-line SSRIs, but differ in tempo: panic is paroxysmal terror with autonomic symptoms, GAD sustained free-floating worry."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Panic disorder and social anxiety disorder are both fear-circuit anxiety disorders treated first-line with SSRIs, but differ in trigger: panic attacks are unexpected and somatic (interoceptive), social anxiety cued by scrutiny; they often coexist, exposure CBT tailored to each."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Panic attacks originate in fear-circuit neurons: hyperexcitable locus coeruleus and basolateral amygdala neurons fire to interoceptive or CO2 cues, triggering the autonomic surge, while weak prefrontal inhibition fails to restrain them — the target of SSRIs and benzodiazepines."
 ---
 
 # Panic Disorder
@@ -201,6 +210,12 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 
 - `connects-to` → **[Oxytocin](../../../03-molecular/oxytocin/README.md)** — OTR on BLA and CeA neurons dampens fear circuit hyperreactivity and CRH-driven arousal that underlies panic; oxytocin modulates LC-NE excitability, attenuating the spontaneous high-frequency LC firing associated with panic attacks; intranasal OT reduces fear generalization and anticipatory anxiety; OT augmentation of interoceptive exposure therapy is an active research avenue.
 - `treated-by` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — FDA-approved for panic disorder with/without agoraphobia; SSRIs first-line over benzodiazepines; initial paradoxical anxiety (5-HT1A stimulation) requires start-low-go-slow dosing; onset 4–8 weeks; 70–80% response rate; CBT additive.
+
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Panic disorder and generalized anxiety disorder are neighboring anxiety disorders that often co-occur and share serotonergic/GABAergic biology and first-line SSRIs, but differ in tempo: panic is paroxysmal terror with autonomic symptoms, GAD sustained free-floating worry.
+
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Panic disorder and social anxiety disorder are both fear-circuit anxiety disorders treated first-line with SSRIs, but differ in trigger: panic attacks are unexpected and somatic (interoceptive), social anxiety cued by scrutiny; they often coexist, exposure CBT tailored to each.
+
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Panic attacks originate in fear-circuit neurons: hyperexcitable locus coeruleus and basolateral amygdala neurons fire to interoceptive or CO2 cues, triggering the autonomic surge, while weak prefrontal inhibition fails to restrain them — the target of SSRIs and benzodiazepines.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
