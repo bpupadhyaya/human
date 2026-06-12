@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/met
     relation: connects-to
     note: "Type 1 papillary RCC is driven by MET activation (amplification or germline mutation in hereditary papillary RCC), distinct from VHL-driven clear-cell disease; these tumors respond poorly to VEGFR TKIs, so the MET/VEGFR2 inhibitor cabozantinib is the preferred targeted agent."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Renal cell carcinoma and pheochromocytoma/paraganglioma share pseudohypoxia: VHL (or SDHx/FH) loss stabilizes HIF-2α, driving VEGF-fueled hypervascular tumors in both; VHL disease produces clear-cell RCC and PHEO together, and belzutifan (HIF-2α inhibitor) treats both."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "HLRCC (hereditary leiomyomatosis and RCC) is an aggressive inherited renal cancer: germline fumarate hydratase loss lets fumarate inhibit HIF prolyl-hydroxylases → pseudohypoxia like VHL ccRCC, but its type-2 papillary tumors are far more aggressive and resected when small."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Renal cell carcinoma is among the most immune-responsive solid tumors despite modest mutational burden: checkpoint inhibitors freeing cytotoxic CD8+ T cells (nivolumab+ipilimumab, pembrolizumab+axitinib) are first-line; RCC also historically responded to IL-2."
 ---
 
 # Renal Cell Carcinoma
@@ -170,6 +179,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Most RCCs arise from the kidney's proximal tubule; small T1a tumors are often found incidentally on CT and cured by nephron-sparing partial nephrectomy, while VHL-null tumor cells secrete EPO, renin, or PTHrP — causing paraneoplastic polycythemia, hypertension, or hypercalcemia.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Von Hippel-Lindau disease (germline VHL loss) predisposes to bilateral, multifocal, early-onset clear-cell RCC alongside hemangioblastomas and pheochromocytomas; the same VHL→HIF-2α pseudohypoxia drives both hereditary and the >90% of sporadic ccRCC, and belzutifan targets it.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — Type 1 papillary RCC is driven by MET activation (amplification or germline mutation in hereditary papillary RCC), distinct from VHL-driven clear-cell disease; these tumors respond poorly to VEGFR TKIs, so the MET/VEGFR2 inhibitor cabozantinib is the preferred targeted agent.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Renal cell carcinoma and pheochromocytoma/paraganglioma share pseudohypoxia: VHL (or SDHx/FH) loss stabilizes HIF-2α, driving VEGF-fueled hypervascular tumors in both; VHL disease produces clear-cell RCC and PHEO together, and belzutifan (HIF-2α inhibitor) treats both.
+- `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — HLRCC (hereditary leiomyomatosis and RCC) is an aggressive inherited renal cancer: germline fumarate hydratase loss lets fumarate inhibit HIF prolyl-hydroxylases → pseudohypoxia like VHL ccRCC, but its type-2 papillary tumors are far more aggressive and resected when small.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Renal cell carcinoma is among the most immune-responsive solid tumors despite modest mutational burden: checkpoint inhibitors freeing cytotoxic CD8+ T cells (nivolumab+ipilimumab, pembrolizumab+axitinib) are first-line; RCC also historically responded to IL-2.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
