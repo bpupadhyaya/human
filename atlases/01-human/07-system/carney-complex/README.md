@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "GH-secreting pituitary adenomas (acromegaly) in ~10-12% of CNC patients; IGF-1 is the annual screening biomarker; elevated IGF-1 → pituitary MRI; somatostatin receptor ligands or pegvisomant treat GH excess; PKA-mediated proliferation drives CNC somato-mammotroph adenomas."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Carney complex is a multiple-endocrine-neoplasia syndrome: germline PRKAR1A loss leaves protein kinase A constitutively active → tumors across adrenal (Cushing), pituitary (acromegaly), thyroid, and gonad, plus cardiac myxomas and pigmented skin."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin gives away Carney complex: spotty pigmentation (lentigines) on the face, lips, and conjunctiva, blue nevi, and cutaneous myxomas often appear before the endocrine tumors, so facial freckling with myxomas should prompt PRKAR1A testing and cardiac screening."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Carney complex joins MEN1 and MEN4 as a hereditary endocrine-neoplasia syndrome but differs in mechanism: Carney from PRKAR1A loss (constitutive PKA), with hallmark myxomas and skin pigmentation, versus menin or p27 loss in MEN1/MEN4 — distinct routes to multi-gland tumors."
 ---
 
 # Carney Complex
@@ -173,6 +182,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — cardiac myxomas are the primary cause of mortality in Carney complex; CNC myxomas are multifocal and recur after resection (~20% vs <5% sporadic); complications include systemic embolism, mitral obstruction, and sudden death; annual echocardiographic surveillance is mandatory.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — PPNAD causes ACTH-independent Cushing via constitutive PKA in bilateral adrenocortical micronodular hyperplasia; paradoxical cortisol rise with low-dose dexamethasone distinguishes PPNAD from ACTH-dependent disease; bilateral adrenalectomy is curative with lifelong replacement.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — GH-secreting pituitary adenomas (acromegaly) in ~10-12% of CNC patients; IGF-1 is the annual screening biomarker; elevated IGF-1 → pituitary MRI; somatostatin receptor ligands or pegvisomant treat GH excess; PKA-mediated proliferation drives CNC somato-mammotroph adenomas.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Carney complex is a multiple-endocrine-neoplasia syndrome: germline PRKAR1A loss leaves protein kinase A constitutively active → tumors across adrenal (Cushing), pituitary (acromegaly), thyroid, and gonad, plus cardiac myxomas and pigmented skin.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin gives away Carney complex: spotty pigmentation (lentigines) on the face, lips, and conjunctiva, blue nevi, and cutaneous myxomas often appear before the endocrine tumors, so facial freckling with myxomas should prompt PRKAR1A testing and cardiac screening.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Carney complex joins MEN1 and MEN4 as a hereditary endocrine-neoplasia syndrome but differs in mechanism: Carney from PRKAR1A loss (constitutive PKA), with hallmark myxomas and skin pigmentation, versus menin or p27 loss in MEN1/MEN4 — distinct routes to multi-gland tumors.
 
 ---
 

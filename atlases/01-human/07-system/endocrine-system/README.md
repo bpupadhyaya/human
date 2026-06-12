@@ -41,6 +41,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "Glucagon (α-cell peptide) opposes insulin in fasting: ↑hepatic glycogenolysis and gluconeogenesis via PKA/CREB; hypersecretion amplifies hyperglycemia in T2DM; GLP-1 agonists (semaglutide) suppress glucagon release; glucagon receptor antagonists in clinical trials for T2DM."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Carney complex shows how one signaling defect can derange the endocrine system: germline PRKAR1A loss leaves protein kinase A constitutively active, spawning tumors across adrenal, pituitary, thyroid, and gonad — a model of the cAMP-PKA cascade driving multi-gland neoplasia."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: contains
+    note: "The adrenal gland is a dual endocrine organ: its cortex makes steroid hormones (cortisol, aldosterone, androgens) under HPA and RAAS control, while its medulla — modified sympathetic tissue — secretes catecholamines; disorders span Cushing's, Addison's, Conn's, and pheo."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type 2 diabetes is the most common endocrine disease: insulin resistance plus progressive β-cell failure dysregulate the body's central metabolic hormone, and its complications (retinopathy, nephropathy, neuropathy) make it a leading cause of blindness, kidney failure, and CVD."
 ---
 
 # Endocrine System
@@ -209,6 +218,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin (β-cell peptide) coordinates fed-state metabolism: ↑GLUT4 in muscle/adipose, ↑glycogen synthesis, ↓hepatic gluconeogenesis, ↑lipogenesis; GLP-1 agonists (semaglutide, tirzepatide) amplify insulin secretion; insulin resistance drives T2DM, metabolic syndrome, and NAFLD.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol (adrenal glucocorticoid, HPA axis: CRH→ACTH→cortisol) is the key stress hormone: ↑gluconeogenesis, ↑lipolysis, anti-inflammatory (↓NF-κB, ↓COX-2), permissive for catecholamine action; Cushing's syndrome = chronic cortisol excess; Addison's disease = cortisol deficiency.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Glucagon (α-cell peptide) opposes insulin in fasting: ↑hepatic glycogenolysis and gluconeogenesis via PKA/CREB; hypersecretion amplifies hyperglycemia in T2DM; GLP-1 agonists (semaglutide) suppress glucagon release; glucagon receptor antagonists in clinical trials for T2DM.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Carney complex shows how one signaling defect can derange the endocrine system: germline PRKAR1A loss leaves protein kinase A constitutively active, spawning tumors across adrenal, pituitary, thyroid, and gonad — a model of the cAMP-PKA cascade driving multi-gland neoplasia.
+- `contains` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a dual endocrine organ: its cortex makes steroid hormones (cortisol, aldosterone, androgens) under HPA and RAAS control, while its medulla — modified sympathetic tissue — secretes catecholamines; disorders span Cushing's, Addison's, Conn's, and pheo.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes is the most common endocrine disease: insulin resistance plus progressive β-cell failure dysregulate the body's central metabolic hormone, and its complications (retinopathy, nephropathy, neuropathy) make it a leading cause of blindness, kidney failure, and CVD.
 
 ## Pathology
 
