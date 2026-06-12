@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Endothelial Weibel-Palade bodies store ULVWF; endothelial activation → ULVWF secretion → ADAMTS13 normally cleaves; TTP: ADAMTS13 failure → ULVWF accumulates on endothelial surface → platelet tethering; endothelial injury from microthrombi → ULVWF release → amplification loop."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is a TTP target organ: VWF-platelet microthrombi lodge in the renal microvasculature, causing acute kidney injury — usually milder than in aHUS, where renal failure dominates; this difference in renal severity helps separate the two thrombotic microangiopathies."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Neurologic involvement is TTP's most dangerous feature: cerebral microthrombi cause fluctuating confusion, headache, focal deficits, seizures, or coma — part of the classic pentad — that can come and go within hours, so suspected TTP needs urgent plasma exchange."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "TTP shears red cells: as erythrocytes squeeze through platelet-rich microthrombi they fragment into schistocytes, producing microangiopathic hemolytic anemia with high LDH, low haptoglobin, negative Coombs — schistocytes plus thrombocytopenia trigger ADAMTS13 testing."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -214,6 +223,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — ULVWF binds GPIbα on platelets → platelet-rich microthrombi in arterioles/capillaries → consumption; thrombocytopenia <30,000/μL is characteristic; caplacizumab blocks ULVWF-GPIbα → fastest microthrombus resolution; platelet count >150,000/μL × 2 days marks clinical remission.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — ULVWF-platelet microthrombi → ischemic endothelial injury → local C3 deposition; refractory iTTP shows elevated sC5b-9; TTP-aHUS overlap responds to eculizumab + PEX; C3d/sC5b-9 studied as TTP severity biomarkers; complement distinguishes refractory TTP from typical iTTP.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial Weibel-Palade bodies store ULVWF; endothelial activation → ULVWF secretion → ADAMTS13 normally cleaves; TTP: ADAMTS13 failure → ULVWF accumulates on endothelial surface → platelet tethering; endothelial injury from microthrombi → ULVWF release → amplification loop.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a TTP target organ: VWF-platelet microthrombi lodge in the renal microvasculature, causing acute kidney injury — usually milder than in aHUS, where renal failure dominates; this difference in renal severity helps separate the two thrombotic microangiopathies.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Neurologic involvement is TTP's most dangerous feature: cerebral microthrombi cause fluctuating confusion, headache, focal deficits, seizures, or coma — part of the classic pentad — that can come and go within hours, so suspected TTP needs urgent plasma exchange.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — TTP shears red cells: as erythrocytes squeeze through platelet-rich microthrombi they fragment into schistocytes, producing microangiopathic hemolytic anemia with high LDH, low haptoglobin, negative Coombs — schistocytes plus thrombocytopenia trigger ADAMTS13 testing.
 
 ---
 

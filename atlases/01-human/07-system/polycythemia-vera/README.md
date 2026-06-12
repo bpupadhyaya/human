@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Splenomegaly affects ~70% of PV from extramedullary hematopoiesis, causing early satiety and, when massive, infarction risk; it worsens as disease evolves toward post-PV myelofibrosis, and the JAK1/2 inhibitor ruxolitinib reduces spleen volume in HU-resistant patients."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Thrombosis is the leading cause of death in polycythemia vera, arterial events dominating: raised red-cell mass, JAK2 hyperviscosity, and activated platelets cause stroke, MI, and Budd-Chiari/splanchnic-vein thrombosis; phlebotomy to hematocrit <45% and aspirin cut these events."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "Polycythemia vera and essential thrombocythemia are sibling JAK2-driven myeloproliferative neoplasms on a continuum: PV expands the erythroid lineage (high hematocrit) and ET the megakaryocytic (high platelets), but both carry thrombosis risk and can evolve to myelofibrosis."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Polycythemia vera is a clonal bone marrow stem-cell disease: a JAK2 V617F-mutant hematopoietic stem cell produces panmyelosis — hypercellular marrow with trilineage (especially erythroid) proliferation — and a low EPO; over years the marrow can scar into post-PV myelofibrosis."
 ---
 
 # Polycythemia Vera
@@ -173,6 +182,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Polycythemia vera is the erythroid-dominant member of the BCR-ABL-negative myeloproliferative neoplasms (with ET and myelofibrosis), nearly always JAK2-driven (~99% V617F); it shares their thrombosis risk and capacity to evolve into post-PV myelofibrosis or AML.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — JAK2 V617F makes erythroid progenitors expand without EPO (endogenous erythroid colonies), raising red-cell mass and blood viscosity → arterial and venous thrombosis; phlebotomy to hematocrit <45% cuts cardiovascular events ~45% (CYTO-PV) by lowering that viscosity.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly affects ~70% of PV from extramedullary hematopoiesis, causing early satiety and, when massive, infarction risk; it worsens as disease evolves toward post-PV myelofibrosis, and the JAK1/2 inhibitor ruxolitinib reduces spleen volume in HU-resistant patients.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Thrombosis is the leading cause of death in polycythemia vera, arterial events dominating: raised red-cell mass, JAK2 hyperviscosity, and activated platelets cause stroke, MI, and Budd-Chiari/splanchnic-vein thrombosis; phlebotomy to hematocrit <45% and aspirin cut these events.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Polycythemia vera and essential thrombocythemia are sibling JAK2-driven myeloproliferative neoplasms on a continuum: PV expands the erythroid lineage (high hematocrit) and ET the megakaryocytic (high platelets), but both carry thrombosis risk and can evolve to myelofibrosis.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Polycythemia vera is a clonal bone marrow stem-cell disease: a JAK2 V617F-mutant hematopoietic stem cell produces panmyelosis — hypercellular marrow with trilineage (especially erythroid) proliferation — and a low EPO; over years the marrow can scar into post-PV myelofibrosis.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
