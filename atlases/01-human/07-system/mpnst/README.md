@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
     relation: connects-to
     note: "MPNST and AT/RT sit at opposite poles of PRC2 biology: MPNST inactivates PRC2 (SUZ12/EED loss) so H3K27me3 is LOST, whereas AT/RT (SMARCB1 loss) leaves PRC2 hyperactive with H3K27me3 retained — so H3K27me3 IHC separates them and EZH2 inhibitors help AT/RT but not MPNST."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "MPNST and schwannomatosis are both peripheral nerve sheath tumor disorders but opposite in behavior: schwannomatosis makes multiple benign, painful schwannomas (SMARCB1/LZTR1), while MPNST is a high-grade Schwann-cell sarcoma arising mostly from NF1 plexiform neurofibromas."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "MPNST and synovial sarcoma are monomorphic spindle-cell sarcomas that mimic each other, but their epigenetics differ diagnostically: MPNST loses PRC2 (H3K27me3 absent by IHC) while synovial sarcoma's SS18-SSX fusion retains it — one stain excludes one and confirms the other."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "MPNST is a high-grade soft-tissue sarcoma of the limbs, trunk, and paraspinal region arising from a major nerve trunk; like other extremity sarcomas it needs wide en-bloc resection plus radiation, but perineural spread and chemoresistance make it among the deadliest."
 ---
 
 # MPNST
@@ -183,6 +192,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Neurofibromatosis type 1 (germline NF1 loss) carries a ~10% lifetime MPNST risk, arising when a plexiform neurofibroma transforms via CDKN2A deletion then PRC2 inactivation; sudden growth or pain in a stable plexiform lesion demands urgent FDG-PET and biopsy.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — MPNST is a high-grade sarcoma of the Schwann-cell sheath that grows from a major peripheral nerve trunk, often requiring en bloc nerve sacrifice; perineural spread mandates wide (≥2 cm) margins, and S100/SOX10 are only focally positive unlike benign schwannoma.
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — MPNST and AT/RT sit at opposite poles of PRC2 biology: MPNST inactivates PRC2 (SUZ12/EED loss) so H3K27me3 is LOST, whereas AT/RT (SMARCB1 loss) leaves PRC2 hyperactive with H3K27me3 retained — so H3K27me3 IHC separates them and EZH2 inhibitors help AT/RT but not MPNST.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — MPNST and schwannomatosis are both peripheral nerve sheath tumor disorders but opposite in behavior: schwannomatosis makes multiple benign, painful schwannomas (SMARCB1/LZTR1), while MPNST is a high-grade Schwann-cell sarcoma arising mostly from NF1 plexiform neurofibromas.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — MPNST and synovial sarcoma are monomorphic spindle-cell sarcomas that mimic each other, but their epigenetics differ diagnostically: MPNST loses PRC2 (H3K27me3 absent by IHC) while synovial sarcoma's SS18-SSX fusion retains it — one stain excludes one and confirms the other.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — MPNST is a high-grade soft-tissue sarcoma of the limbs, trunk, and paraspinal region arising from a major nerve trunk; like other extremity sarcomas it needs wide en-bloc resection plus radiation, but perineural spread and chemoresistance make it among the deadliest.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
