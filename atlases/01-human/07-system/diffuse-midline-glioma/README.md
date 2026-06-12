@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/glioblastoma
     relation: connects-to
     note: "H3K27M DMG and IDH-wildtype GBM are both WHO Grade 4 but molecularly distinct; GBM shows EGFR amplification/EGFRvIII, TERT promoter mutation, CDK4/6 amplification absent in DMG; ONC201 active in DMG but not GBM; bevacizumab benefits GBM (PFS) but not H3K27M DMG."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Diffuse midline glioma grows in the brain's midline — pons (DIPG), thalamus, and spinal cord — where infiltrative spread makes surgery impossible; the pontine location compresses cranial nerve nuclei and long tracts, and radiation is the only treatment that briefly helps."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "DMG arises from oligodendrocyte precursor cells (OPCs) of the developing midline: the H3K27M mutation freezes these cells in a proliferative, stem-like state by stalling differentiation, which is why the tumor peaks at ages 5-10 when OPCs are most active in the pons."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "The DMG microenvironment is rich in microglia and macrophages, especially NF1-mutant spinal tumors, but these are immunosuppressive rather than tumoricidal — one reason checkpoint inhibitors have largely failed and GD2-directed CAR-T is being explored instead."
 ---
 
 # Diffuse Midline Glioma
@@ -190,6 +199,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 mutations in ~10% of H3K27M DMG, enriched at spinal cord location; NF1 LOF → constitutive RAS-MAPK → MEK-ERK proliferation; NF1+H3K27M spinal DMG shows high macrophage infiltration; selumetinib and trametinib (MEK inhibitors) explored in NF1-mutant H3K27M spinal DMG.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA/PIK3R1 mutations in ~15% of H3K27M DMG; PI3K-AKT-mTOR cooperates with H3K27M epigenetic reprogramming; alpelisib (PI3Kα inhibitor) and copanlisib in combination with ONC201 under investigation; PTEN loss is an alternative PI3K pathway activation mechanism in DMG.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — H3K27M DMG and IDH-wildtype GBM are both WHO Grade 4 but molecularly distinct; GBM shows EGFR amplification/EGFRvIII, TERT promoter mutation, CDK4/6 amplification absent in DMG; ONC201 active in DMG but not GBM; bevacizumab benefits GBM (PFS) but not H3K27M DMG.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Diffuse midline glioma grows in the brain's midline — pons (DIPG), thalamus, and spinal cord — where infiltrative spread makes surgery impossible; the pontine location compresses cranial nerve nuclei and long tracts, and radiation is the only treatment that briefly helps.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — DMG arises from oligodendrocyte precursor cells (OPCs) of the developing midline: the H3K27M mutation freezes these cells in a proliferative, stem-like state by stalling differentiation, which is why the tumor peaks at ages 5-10 when OPCs are most active in the pons.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — The DMG microenvironment is rich in microglia and macrophages, especially NF1-mutant spinal tumors, but these are immunosuppressive rather than tumoricidal — one reason checkpoint inhibitors have largely failed and GD2-directed CAR-T is being explored instead.
 
 ---
 

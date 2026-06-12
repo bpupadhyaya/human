@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "GBM is highly angiogenic; hypoxia → HIF-1α → VEGF → neovascularization; bevacizumab (anti-VEGF) approved for recurrent GBM (2009): improves PFS and reduces edema/steroid use but no OS benefit; bevacizumab+lomustine no better than lomustine alone (EORTC 26101)."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "Glioblastoma and H3K27M diffuse midline glioma are both WHO grade 4 gliomas but molecularly opposite: GBM is the adult hemispheric tumor driven by EGFR/TERT/PTEN, DMG the pediatric midline tumor driven by an epigenetic H3K27M mutation — ONC201 helps DMG, bevacizumab helps GBM."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Glioblastoma is the most aggressive primary brain tumor, infiltrating along white-matter tracts so diffusely that even gross-total resection leaves cells behind, guaranteeing recurrence; the blood-brain barrier blocks most systemic drugs, capping median survival near 15 months."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Up to a third to half of glioblastoma's mass is tumor-associated macrophages and microglia recruited by tumor chemokines; rather than attacking, they are reprogrammed to an immunosuppressive state promoting invasion and angiogenesis, a key reason immunotherapy has failed in GBM."
 ---
 
 # Glioblastoma
@@ -181,6 +190,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH-wildtype GBM is defined by IDH-WT; IDH-mutant gliomas (grades 2-4) are distinct entities with better prognosis; vorasidenib (IDH1/2 inhibitor) approved 2024 for grade 2 IDH-mutant glioma (INDIGO trial: 27.7 vs 11.1 months PFS); IDH1 IHC distinguishes IDH-mutant from wt GBM.
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 mutations in ~15% of GBM define the mesenchymal subtype; NF1 LOF → constitutive RAS-GTP → RAF-MEK-ERK → GBM invasion; NF1-mutant GBM has highest macrophage/microglia infiltration; MEK inhibitors (selumetinib, cobimetinib) under investigation in NF1-mutant recurrent GBM.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GBM is highly angiogenic; hypoxia → HIF-1α → VEGF → neovascularization; bevacizumab (anti-VEGF) approved for recurrent GBM (2009): improves PFS and reduces edema/steroid use but no OS benefit; bevacizumab+lomustine no better than lomustine alone (EORTC 26101).
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — Glioblastoma and H3K27M diffuse midline glioma are both WHO grade 4 gliomas but molecularly opposite: GBM is the adult hemispheric tumor driven by EGFR/TERT/PTEN, DMG the pediatric midline tumor driven by an epigenetic H3K27M mutation — ONC201 helps DMG, bevacizumab helps GBM.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Glioblastoma is the most aggressive primary brain tumor, infiltrating along white-matter tracts so diffusely that even gross-total resection leaves cells behind, guaranteeing recurrence; the blood-brain barrier blocks most systemic drugs, capping median survival near 15 months.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Up to a third to half of glioblastoma's mass is tumor-associated macrophages and microglia recruited by tumor chemokines; rather than attacking, they are reprogrammed to an immunosuppressive state promoting invasion and angiogenesis, a key reason immunotherapy has failed in GBM.
 
 ---
 
