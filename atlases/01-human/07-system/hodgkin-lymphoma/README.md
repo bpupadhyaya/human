@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20 status splits Hodgkin lymphoma: RS cells of classical HL are CD20-negative, whereas the popcorn (L&H) cells of NLPHL retain the B-cell program and are CD20-positive — making rituximab effective in NLPHL but not classical HL."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Hodgkin lymphoma is unusual: malignant Reed-Sternberg cells are <1% of the tumor, the bulk being reactive CD4+ T cells (rosetting around RS cells), eosinophils, and histiocytes that RS cells recruit and depend on — why PD-1 blockade freeing exhausted T cells works so well."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is a key Hodgkin lymphoma site: classical HL spreads contiguously node to adjacent node and to the spleen, and splenic involvement upstages disease and historically guided staging laparotomy; this orderly spread (unlike scattered NHL) reflects HL's lymphatic biology."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Hodgkin lymphoma is the prototypical lymphatic-system cancer: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), usually as painless cervical or mediastinal adenopathy — distinguishing it from non-Hodgkin lymphomas."
 ---
 
 # Hodgkin Lymphoma
@@ -173,6 +182,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Reed-Sternberg cells arise from germinal-center B cells that acquired crippling Ig V-gene mutations and should have died during negative selection; they survive via CD30/CD40/NF-κB and EBV rescue while shedding the B-cell program (no surface Ig, loss of OCT2/BOB1).
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — EBV is found in 30-50% of classical HL (up to 80-90% in lymphocyte-depleted and HIV-associated cases); its LMP1 protein mimics a constitutively active CD40 receptor → NF-κB survival signaling in RS cells; prior infectious mononucleosis roughly triples HL risk.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 status splits Hodgkin lymphoma: RS cells of classical HL are CD20-negative, whereas the popcorn (L&H) cells of NLPHL retain the B-cell program and are CD20-positive — making rituximab effective in NLPHL but not classical HL.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Hodgkin lymphoma is unusual: malignant Reed-Sternberg cells are <1% of the tumor, the bulk being reactive CD4+ T cells (rosetting around RS cells), eosinophils, and histiocytes that RS cells recruit and depend on — why PD-1 blockade freeing exhausted T cells works so well.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is a key Hodgkin lymphoma site: classical HL spreads contiguously node to adjacent node and to the spleen, and splenic involvement upstages disease and historically guided staging laparotomy; this orderly spread (unlike scattered NHL) reflects HL's lymphatic biology.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Hodgkin lymphoma is the prototypical lymphatic-system cancer: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), usually as painless cervical or mediastinal adenopathy — distinguishing it from non-Hodgkin lymphomas.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
