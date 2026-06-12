@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "BCCs arise from basal keratinocytes (hair follicle bulge stem cells) with PTCH1-constrained hedgehog; UV/radiation exposure → PTCH1 somatic second hits → BCC induction at highest rates in sun-exposed skin; rigorous sun protection is primary prevention in Gorlin syndrome."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Beyond skin and brain, Gorlin syndrome produces benign fibroblastic tumors — cardiac fibromas and ovarian fibromas — reflecting Hedgehog's role in mesenchymal cell fate; these fibromas, with calcified falx and jaw keratocysts, are part of the diagnostic criteria."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 cooperates with Hedgehog activation in Gorlin tumorigenesis: germline PTCH1 loss derepresses SMO/GLI, but UV-induced TP53 mutation removes the apoptotic brake, accelerating the basal cell carcinomas — the same two-hit cooperation seen in sporadic BCC."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Hedgehog hyperactivation links Gorlin syndrome to rare childhood mesenchymal tumors: fetal rhabdomyoma and embryonal rhabdomyosarcoma occur at elevated rates, since GLI drive promotes myogenic progenitor proliferation — part of the developmental-tumor spectrum of PTCH1 loss."
 ---
 
 # Gorlin Syndrome
@@ -162,6 +171,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Gorlin syndrome confers ~5% medulloblastoma risk (SHH desmoplastic/nodular subtype); median age 2-3 years vs 7-8 for sporadic SHH-MB; EBRT contraindicated (radiation-induced BCC proliferation); SMO inhibitors active in relapsed PTCH1-mutant SHH-MB; chemotherapy-only standard.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GLI1/2 transcribe VEGF-A in BCC → tumour angiogenesis; BCC is among the most vascularised skin tumours; vismodegib (SMO inhibitor) reduces GLI → ↓VEGF-A → ↓tumour vascularity; bevacizumab shows limited single-agent BCC activity; VEGF-C/D also upregulated in BCC microenvironment.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — BCCs arise from basal keratinocytes (hair follicle bulge stem cells) with PTCH1-constrained hedgehog; UV/radiation exposure → PTCH1 somatic second hits → BCC induction at highest rates in sun-exposed skin; rigorous sun protection is primary prevention in Gorlin syndrome.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Beyond skin and brain, Gorlin syndrome produces benign fibroblastic tumors — cardiac fibromas and ovarian fibromas — reflecting Hedgehog's role in mesenchymal cell fate; these fibromas, with calcified falx and jaw keratocysts, are part of the diagnostic criteria.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 cooperates with Hedgehog activation in Gorlin tumorigenesis: germline PTCH1 loss derepresses SMO/GLI, but UV-induced TP53 mutation removes the apoptotic brake, accelerating the basal cell carcinomas — the same two-hit cooperation seen in sporadic BCC.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Hedgehog hyperactivation links Gorlin syndrome to rare childhood mesenchymal tumors: fetal rhabdomyoma and embryonal rhabdomyosarcoma occur at elevated rates, since GLI drive promotes myogenic progenitor proliferation — part of the developmental-tumor spectrum of PTCH1 loss.
 
 ---
 

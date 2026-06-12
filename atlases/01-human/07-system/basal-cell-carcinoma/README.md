@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "BCC arises from basal keratinocytes of the hair follicle or interfollicular epidermis; UV-B → C→T dipyrimidine mutations → PTCH1/TP53/SMO → clonal BCC expansion; H-zone BCCs require Mohs surgery; skin transplant recipients (immunosuppressed) have 10-30× BCC risk."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Gorlin syndrome (nevoid BCC syndrome) is the germline form of BCC: an inherited PTCH1 mutation means every cell already carries the first Hedgehog hit, so patients develop dozens to hundreds of BCCs from adolescence — the Mendelian counterpart of sporadic UV-driven BCC."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Basal cell carcinoma and melanoma are the most and least common deadly skin cancers: both UV-driven, but BCC almost never metastasizes (locally destructive via Hedgehog) while melanoma kills through early metastasis (BRAF/MAPK-driven) — biology dictating wholly different care."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "BCC's heavy UV mutational load makes it immunogenic, so when SMO inhibitors fail, anti-PD-1 cemiplimab unleashes cytotoxic CD8+ T cells against tumor neoantigens (EMPOWER-BCC ORR ~30%); conversely, T-cell suppression in transplant recipients raises BCC risk 10-30×."
 ---
 
 # Basal Cell Carcinoma
@@ -173,6 +182,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[PTCH1](../../03-molecular/ptch1/README.md)** — PTCH1 loss-of-function is the defining molecular event in >90% of BCC; UV-induced C→T mutations in PTCH1 → SMO derepression → constitutive GLI nuclear translocation; germline PTCH1 mutation causes Gorlin syndrome (BCNS) with multiple early-onset BCCs, odontogenic keratocysts, and medulloblastoma risk.
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — SMO activating mutations (W535L most common) in ~40-50% of sporadic BCC → constitutive HH signaling independent of PTCH1 ligand; vismodegib and sonidegib bind SMO transmembrane domain; SMO D473H mutation causes on-target resistance; cemiplimab (anti-PD-1) is the approved post-vismodegib option.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — BCC arises from basal keratinocytes of hair follicle or interfollicular epidermis; UV-B → dipyrimidine mutations → PTCH1/TP53/SMO → clonal BCC expansion over decades; H-zone BCCs (central face, eyelids) require Mohs surgery; organ transplant recipients (immunosuppressed) have 10-30× BCC risk.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Gorlin syndrome (nevoid BCC syndrome) is the germline form of BCC: an inherited PTCH1 mutation means every cell already carries the first Hedgehog hit, so patients develop dozens to hundreds of BCCs from adolescence — the Mendelian counterpart of sporadic UV-driven BCC.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Basal cell carcinoma and melanoma are the most and least common deadly skin cancers: both UV-driven, but BCC almost never metastasizes (locally destructive via Hedgehog) while melanoma kills through early metastasis (BRAF/MAPK-driven) — biology dictating wholly different care.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — BCC's heavy UV mutational load makes it immunogenic, so when SMO inhibitors fail, anti-PD-1 cemiplimab unleashes cytotoxic CD8+ T cells against tumor neoantigens (EMPOWER-BCC ORR ~30%); conversely, T-cell suppression in transplant recipients raises BCC risk 10-30×.
 
 ---
 
