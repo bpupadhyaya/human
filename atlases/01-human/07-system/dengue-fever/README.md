@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/west-nile-virus
     relation: connects-to
     note: "WNV and DENV share flavivirus biology and NS5-mediated STAT1/STAT2 evasion; anti-DENV IgG cross-reacts with WNV E protein but provides limited protection; WNV causes neuroinvasive disease (encephalitis, AFP) not seen in DENV; both lack approved antivirals."
+  - target: 02-pathogen/06-environmental/aedes-aegypti
+    relation: connects-to
+    note: "Dengue is spread by the day-biting Aedes aegypti mosquito, which also carries Zika, chikungunya, and yellow fever; its spread into the warming, urbanizing tropics is why dengue now causes ~400 million infections a year, and vector control remains a mainstay of prevention."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages are dengue's main host cell and engine of severe disease: in reinfection with another serotype, non-neutralizing antibodies ferry virus into Fcγ-bearing macrophages — antibody-dependent enhancement — raising viral load and the cytokines that drive hemorrhagic dengue."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Severe dengue is partly a cytokine storm: antibody-enhanced macrophage infection plus cross-reactive memory T cells pour out TNF-α, IL-6, and IFN-γ that — with NS1 acting on the endothelium — break vascular integrity, causing the plasma leak of dengue hemorrhagic fever and shock."
 ---
 
 # Dengue Fever
@@ -159,3 +168,9 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 **→ [Zika Virus](../zika-virus/)**: ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion.
 
 **→ [West Nile Virus](../west-nile-virus/)**: WNV and DENV share flavivirus biology and NS5-mediated STAT1/STAT2 evasion; anti-DENV IgG cross-reacts with WNV E protein but provides limited protection; WNV causes neuroinvasive disease (encephalitis, AFP) not seen in DENV; both lack approved antivirals.
+
+**→ [Aedes aegypti](../../../../02-pathogen/06-environmental/aedes-aegypti/)**: Dengue is spread by the day-biting Aedes aegypti mosquito, which also carries Zika, chikungunya, and yellow fever; its spread into the warming, urbanizing tropics is why dengue now causes ~400 million infections a year, and vector control remains a mainstay of prevention.
+
+**→ [Macrophage](../../04-cellular/macrophage/)**: Macrophages are dengue's main host cell and engine of severe disease: in reinfection with another serotype, non-neutralizing antibodies ferry virus into Fcγ-bearing macrophages — antibody-dependent enhancement — raising viral load and the cytokines that drive hemorrhagic dengue.
+
+**→ [Cytokine Storm](../cytokine-storm/)**: Severe dengue is partly a cytokine storm: antibody-enhanced macrophage infection plus cross-reactive memory T cells pour out TNF-α, IL-6, and IFN-γ that — with NS1 acting on the endothelium — break vascular integrity, causing the plasma leak of dengue hemorrhagic fever and shock.

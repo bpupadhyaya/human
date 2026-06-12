@@ -43,6 +43,15 @@ cross_links:
   - target: 03-medicine/01-modern/05-antiviral/oseltamivir
     relation: connects-to
     note: "Severe influenza triggers cytokine storm (IL-6, TNF-α, IFN-γ) proportional to viral load; oseltamivir limits viral replication → attenuates cytokine storm magnitude; key rationale for treatment in H5N1 and severe seasonal influenza beyond the 48h window."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: modulated-by
+    note: "The cytokine storm runs on a macrophage-T-cell feedback loop: activated CD4+ T cells and NK cells pour out IFN-γ that hyperactivates macrophages, which release IL-6, TNF-α, and IL-1β feeding back to the T cells — a self-amplifying circuit that escalates until regulation fails."
+  - target: 01-human/07-system/dengue-fever
+    relation: connects-to
+    note: "Severe dengue is a viral cytokine storm: antibody-dependent enhancement raises macrophage viral load while cross-reactive T cells release TNF-α, IL-6, and IFN-γ, and the resulting endothelial activation produces the plasma leakage of dengue hemorrhagic fever and shock."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Cytokine storm drives DIC: TNF-α and IL-1β induce tissue factor on endothelium and monocytes, igniting coagulation that deposits microthrombi and consumes platelets and clotting factors — so the patient bleeds and clots at once, a frequent cause of cytokine-storm organ failure."
 ---
 
 # Cytokine Storm
@@ -142,6 +151,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `modulates` → **[Lung](../../06-organ/lung/README.md)** — cytokine storm causes ARDS via neutrophil-mediated alveolar damage and endothelial barrier disruption
 - `modulated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — suppresses cytokine storm via GR:NF-κB transrepression (↓ IL-1β/IL-6/TNF-α) and GRE transactivation (IκBα/IL-10/ANXA1); primary mechanism of RECOVERY trial benefit and CAR-T CRS treatment.
 - `connects-to` → **[Oseltamivir](../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md)** — Severe influenza triggers cytokine storm (IL-6, TNF-α, IFN-γ) proportional to viral load; oseltamivir limits viral replication → attenuates cytokine storm magnitude; key rationale for H5N1 and severe influenza treatment beyond the 48h window.
+- `modulated-by` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — the cytokine storm runs on a macrophage-T-cell feedback loop: activated CD4+ T cells and NK cells pour out IFN-γ that hyperactivates macrophages, which release IL-6, TNF-α, and IL-1β feeding back to the T cells — a self-amplifying circuit that escalates until regulation fails.
+- `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — severe dengue is a viral cytokine storm: antibody-dependent enhancement raises macrophage viral load while cross-reactive T cells release TNF-α, IL-6, and IFN-γ, and the resulting endothelial activation produces the plasma leakage of dengue hemorrhagic fever and shock.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — cytokine storm drives DIC: TNF-α and IL-1β induce tissue factor on endothelium and monocytes, igniting coagulation that deposits microthrombi and consumes platelets and clotting factors — so the patient bleeds and clots at once, a frequent cause of cytokine-storm organ failure.
 
 ## Pathology
 
