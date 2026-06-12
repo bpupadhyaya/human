@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/kras
     relation: connects-to
     note: "KRAS mutations occur in ~10-15% of endocervical adenocarcinoma; gastric-type adenocarcinoma is HPV-independent with frequent KRAS + STK11 mutations; KRAS mutation predicts poor response to platinum chemotherapy; no approved KRAS inhibitors for cervical adenocarcinoma."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Cervical cancer and HPV-positive head-and-neck cancer are the same disease in different epithelia: both arise when high-risk HPV over-expresses E6 and E7 to destroy p53 and inactivate RB, and both carry a better prognosis than HPV-negative cancers."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Immunosuppression sharply raises cervical-cancer risk: HIV-positive women clear HPV poorly and progress from dysplasia to invasive cancer faster, so invasive cervical cancer is an AIDS-defining illness and these patients need intensified HPV screening and earlier colposcopy."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8+ cytotoxic T cells are both the natural defense that usually clears HPV and the target of cervical-cancer immunotherapy: persistent infection reflects failed CD8 surveillance, and checkpoint blockade (pembrolizumab, KEYNOTE-826) unleashes them against the tumor."
 ---
 
 # Cervical Cancer
@@ -174,6 +183,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV16/18 infect cervical transformation zone → E6-mediated p53 degradation + E7-mediated RB inactivation → CIN1-3 → invasive carcinoma; HPV16 accounts for ~55% of cervical SCC; viral genome integration disrupts E2 repressor → constitutive E6/E7 overexpression.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutations (E542K, E545K, H1047R) occur in ~35-40% of cervical SCC and adenocarcinoma → AKT-mTOR activation → proliferation; PIK3CA mutation cooperates with HPV E6/E7 in transformation; PI3K inhibitors (alpelisib) being studied in PIK3CA-mutant recurrent cervical cancer.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS mutations occur in ~10-15% of endocervical adenocarcinoma; gastric-type adenocarcinoma is HPV-independent with frequent KRAS + STK11 mutations; KRAS mutation predicts poor response to platinum chemotherapy; no approved KRAS inhibitors for cervical adenocarcinoma.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Cervical cancer and HPV-positive head-and-neck cancer are the same disease in different epithelia: both arise when high-risk HPV over-expresses E6 and E7 to destroy p53 and inactivate RB, and both carry a better prognosis than HPV-negative cancers.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Immunosuppression sharply raises cervical-cancer risk: HIV-positive women clear HPV poorly and progress from dysplasia to invasive cancer faster, so invasive cervical cancer is an AIDS-defining illness and these patients need intensified HPV screening and earlier colposcopy.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8+ cytotoxic T cells are both the natural defense that usually clears HPV and the target of cervical-cancer immunotherapy: persistent infection reflects failed CD8 surveillance, and checkpoint blockade (pembrolizumab, KEYNOTE-826) unleashes them against the tumor.
 
 ---
 

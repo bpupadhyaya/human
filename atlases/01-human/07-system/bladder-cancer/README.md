@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/arid1a
     relation: connects-to
     note: "ARID1A mutations in ~25% of MIBC; SWI/SNF chromatin remodeler; ARID1A LOF → impaired nucleosome remodeling at tumor suppressor promoters; co-mutated with TP53 and KDM6A; ARID1A-mutant MIBC may have synthetic lethality with EZH2 inhibition (tazemetostat combinations under study)."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Bladder cancer is one disease across the whole urinary-tract lining: the same urothelium covers the renal pelvis and ureters, so ~5% of bladder-cancer patients harbour synchronous upper-tract urothelial carcinoma, and a tumour obstructing a ureter causes hydronephrosis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Bladder cancer pioneered immunotherapy: intravesical BCG provokes a Th1 response that recruits CD8+ cytotoxic T cells to patrol the urothelium and prevent recurrence of non-muscle-invasive disease — and the same T cells are reactivated by PD-1/PD-L1 checkpoint blockade."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Cervical and bladder cancer are linked through the pelvis: pelvic radiotherapy for cervical cancer is itself a risk factor for later bladder cancer, both are strongly smoking- or carcinogen-associated, and both are driven by insults delivered to a vulnerable epithelium."
 ---
 
 # Bladder Cancer
@@ -180,6 +189,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 is mutated in ~48% of MIBC; co-deletion with RB1 defines the basal/squamous MIBC subtype (high PD-L1, cisplatin-sensitive); TERT promoter + TP53 mutations co-occur in high-grade UC; TP53 mutation in flat CIS is an early checkpoint failure enabling invasive progression.
 - `connects-to` → **[Lynch Syndrome](../../07-system/lynch-syndrome/README.md)** — Lynch syndrome (germline MLH1/MSH2) confers ~5× lifetime bladder UC risk; dMMR bladder cancer (~3-4% of UC) has high TMB → pembrolizumab active regardless of PD-L1 (KEYNOTE-158); dMMR IHC/MSI-H testing recommended for early-onset or Lynch-suspected urothelial carcinoma.
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A mutations in ~25% of MIBC; SWI/SNF chromatin remodeler; ARID1A LOF → impaired nucleosome remodeling at tumor suppressor promoters; co-mutated with TP53 and KDM6A; ARID1A-mutant MIBC may have synthetic lethality with EZH2 inhibition (tazemetostat combinations under study).
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bladder cancer is one disease across the whole urinary-tract lining: the same urothelium covers the renal pelvis and ureters, so ~5% of bladder-cancer patients harbour synchronous upper-tract urothelial carcinoma, and a tumour obstructing a ureter causes hydronephrosis.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Bladder cancer pioneered immunotherapy: intravesical BCG provokes a Th1 response that recruits CD8+ cytotoxic T cells to patrol the urothelium and prevent recurrence of non-muscle-invasive disease — and the same T cells are reactivated by PD-1/PD-L1 checkpoint blockade.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Cervical and bladder cancer are linked through the pelvis: pelvic radiotherapy for cervical cancer is itself a risk factor for later bladder cancer, both are strongly smoking- or carcinogen-associated, and both are driven by insults delivered to a vulnerable epithelium.
 
 ---
 
