@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/her2
     relation: connects-to
     note: "HER2 amplification or overexpression in ~5-10% of biliary tract cancers; trastuzumab deruxtecan (DESTINY-PanTumor02) ORR 22% in HER2 IHC 2+/3+ BTC; zanidatamab active in HER2+ BTC; HER2 testing recommended in all advanced BTC per ESMO 2023 guidelines."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Cholangiocarcinoma and gastric cancer are both GI adenocarcinomas converging on shared targets — HER2, PD-1/PD-L1 blockade, and FGFR alterations — yet differ in origin: CCA from biliary cholangiocytes (FGFR2 fusions, IDH1), gastric cancer from stomach epithelium (H. pylori, EBV)."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Cholangiocarcinoma and hepatocellular carcinoma are the two primary liver cancers, distinguished by cell of origin — cholangiocytes versus hepatocytes; combined HCC-CCA tumors exist, both share cirrhosis and viral hepatitis as risks, but their targeted therapies differ entirely."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cholangiocarcinoma and pancreatic cancer are pancreaticobiliary neighbors blending at the ampulla: distal CCA and pancreatic-head adenocarcinoma both cause painless obstructive jaundice, share KRAS-driven biology and the gemcitabine/cisplatin backbone, and carry grim outcomes."
 ---
 
 # Cholangiocarcinoma
@@ -148,6 +157,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cholangiocarcinoma arises from cholangiocytes within or adjacent to the liver; iCCA is the 2nd most common primary liver cancer after HCC; PSC, HBV/HCV, and cirrhosis elevate CCA risk 2-3×; hepatic resection with negative margins is the only curative approach for iCCA.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E mutations in ~5% of all CCA; dabrafenib + trametinib (BRAF+MEK inhibition) approved tumor-agnostically (FDA 2022) with ~50% ORR in BRAF V600E CCA; BRAF V600E CCA responds similarly to BRAF-mutant melanoma/NSCLC; concomitant IDH or FGFR alterations are rare.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 amplification or overexpression in ~5-10% of biliary tract cancers; trastuzumab deruxtecan (DESTINY-PanTumor02) ORR 22% in HER2 IHC 2+/3+ BTC; zanidatamab active in HER2+ BTC; HER2 testing recommended in all advanced BTC per ESMO 2023 guidelines.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Cholangiocarcinoma and gastric cancer are both GI adenocarcinomas converging on shared targets — HER2, PD-1/PD-L1 blockade, and FGFR alterations — yet differ in origin: CCA from biliary cholangiocytes (FGFR2 fusions, IDH1), gastric cancer from stomach epithelium (H. pylori, EBV).
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Cholangiocarcinoma and hepatocellular carcinoma are the two primary liver cancers, distinguished by cell of origin — cholangiocytes versus hepatocytes; combined HCC-CCA tumors exist, both share cirrhosis and viral hepatitis as risks, but their targeted therapies differ entirely.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cholangiocarcinoma and pancreatic cancer are pancreaticobiliary neighbors blending at the ampulla: distal CCA and pancreatic-head adenocarcinoma both cause painless obstructive jaundice, share KRAS-driven biology and the gemcitabine/cisplatin backbone, and carry grim outcomes.
 
 ---
 
