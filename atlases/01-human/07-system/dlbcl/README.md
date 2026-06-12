@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20 is the essential rituximab target in R-CHOP; CD20 loss (mutation, methylation, shedding) → rituximab resistance; bispecifics (epcoritamab, glofitamab) bind CD3×CD20 at low CD20 expression; CD19-directed ADCs (loncastuximab) and CAR-T are CD20-loss-resistant alternatives."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "DLBCL is a malignancy of mature B cells whose two subtypes mirror the cell of origin: germinal-center B-cell DLBCL carries the germinal center's BCL-2 translocation, while activated B-cell DLBCL resembles a post-germinal-center plasmablast driven by chronic BCR/NF-κB signaling."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Epstein-Barr virus drives a distinct, more aggressive subtype — EBV-positive DLBCL — chiefly in older or immunosuppressed patients; viral LMP1 and EBNA proteins switch on NF-κB to keep the B cell alive, the same mechanism behind post-transplant lymphoproliferative disease."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Distinguishing DLBCL from Burkitt lymphoma is treatment-critical: both are aggressive GC B-cell tumors, but Burkitt has a pure MYC translocation, near-100% Ki-67, and no BCL-2, whereas a MYC-plus-BCL-2 'double-hit' large-cell lymphoma sits between them and does poorly on R-CHOP."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -173,6 +182,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 gain-of-function mutations (Y641F/N, ~20% GCB-DLBCL) silence differentiation genes via H3K27me3; tazemetostat (EZH2i) FDA-approved for R/R follicular lymphoma; EZH2-mutant DLBCL shows activity with tazemetostat+R-CHOP; CREBBP co-mutation reduces tazemetostat sensitivity.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — DLBCL arises from FL transformation (~3%/year); transformed FL-DLBCL shares t(14;18)/BCL-2 and KMT2D with FL but acquires MYC rearrangement, CDKN2A deletion, or TP53 mutation → worse prognosis than de novo DLBCL; CAR-T consolidation is preferred after induction.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 is the essential rituximab target in R-CHOP; CD20 loss (mutation, methylation, shedding) → rituximab resistance; bispecifics (epcoritamab, glofitamab) bind CD3×CD20 at low CD20 expression; CD19-directed ADCs (loncastuximab) and CAR-T are CD20-loss-resistant alternatives.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — DLBCL is a malignancy of mature B cells whose two subtypes mirror the cell of origin: germinal-center B-cell DLBCL carries the germinal center's BCL-2 translocation, while activated B-cell DLBCL resembles a post-germinal-center plasmablast driven by chronic BCR/NF-κB signaling.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus drives a distinct, more aggressive subtype — EBV-positive DLBCL — chiefly in older or immunosuppressed patients; viral LMP1 and EBNA proteins switch on NF-κB to keep the B cell alive, the same mechanism behind post-transplant lymphoproliferative disease.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Distinguishing DLBCL from Burkitt lymphoma is treatment-critical: both are aggressive GC B-cell tumors, but Burkitt has a pure MYC translocation, near-100% Ki-67, and no BCL-2, whereas a MYC-plus-BCL-2 'double-hit' large-cell lymphoma sits between them and does poorly on R-CHOP.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

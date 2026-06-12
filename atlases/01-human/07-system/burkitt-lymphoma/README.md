@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "CD20 (MS4A1) is expressed on all BL cells; rituximab (anti-CD20 mAb) is standard in adult DA-EPOCH-R and pediatric LMB regimens; Inter-B-NHL Ritux 2010: rituximab addition → 3-year EFS 93.9% vs 79.8% (HR 0.33, p<0.001) in high-risk pediatric BL; obinutuzumab explored in R/R BL."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Epstein-Barr virus is found in nearly all endemic (African) Burkitt lymphoma and a minority of sporadic cases: the virus persists in germinal-center B cells in Latency I, and its EBNA/miRNA program helps the MYC-translocated cell evade apoptosis and immune clearance."
+  - target: 02-pathogen/04-parasites/plasmodium-falciparum
+    relation: connects-to
+    note: "Holoendemic Plasmodium falciparum malaria is the geographic cofactor for endemic Burkitt lymphoma: chronic malaria expands germinal-center B cells and induces AID, raising the chance of the MYC-Ig translocation, while malaria-driven immune dysregulation reactivates EBV."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Burkitt lymphoma must be separated from DLBCL and double-hit large-cell lymphoma: Burkitt has a sole MYC translocation, ~100% Ki-67, and is BCL-2-negative, so FISH for MYC/BCL-2/BCL-6 is essential — a Burkitt diagnosis mandates intensive regimens (DA-EPOCH-R), not R-CHOP."
 ---
 
 # Burkitt Lymphoma
@@ -186,6 +195,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — BL arises from germinal center B cells with MYC translocation to Ig loci (IGH/IGK/IGL) during VDJ recombination or class-switch recombination; CD19+/CD20+/CD10+/BCL6+/BCL2- immunophenotype reflects GC B-cell origin; MYC drives near-100% Ki-67 in these rapidly cycling B cells.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — BL originates in germinal center B cells; MYC translocation arises from AID-mediated DSBs at Ig loci during class-switch recombination; CD10+/BCL6+ confirms GC origin; EBV+ endemic BL expresses BCL6 and EBNA-1 in Latency I, exploiting GC biology for viral persistence.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 (MS4A1) is expressed on all BL cells; rituximab (anti-CD20 mAb) is standard in adult DA-EPOCH-R and pediatric LMB regimens; Inter-B-NHL Ritux 2010: rituximab addition → 3-year EFS 93.9% vs 79.8% (HR 0.33, p<0.001) in high-risk pediatric BL; obinutuzumab explored in R/R BL.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus is found in nearly all endemic (African) Burkitt lymphoma and a minority of sporadic cases: the virus persists in germinal-center B cells in Latency I, and its EBNA/miRNA program helps the MYC-translocated cell evade apoptosis and immune clearance.
+- `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Holoendemic Plasmodium falciparum malaria is the geographic cofactor for endemic Burkitt lymphoma: chronic malaria expands germinal-center B cells and induces AID, raising the chance of the MYC-Ig translocation, while malaria-driven immune dysregulation reactivates EBV.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Burkitt lymphoma must be separated from DLBCL and double-hit large-cell lymphoma: Burkitt has a sole MYC translocation, ~100% Ki-67, and is BCL-2-negative, so FISH for MYC/BCL-2/BCL-6 is essential — a Burkitt diagnosis mandates intensive regimens (DA-EPOCH-R), not R-CHOP.
 
 ---
 
