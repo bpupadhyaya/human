@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-pancreatitis
     relation: connects-to
     note: "CFTR mutations (5T, R117H) are second-hit modifiers in hereditary pancreatitis (PRSS1/SPINK1 mutations); compound heterozygosity → idiopathic chronic pancreatitis; CFTR LOF → reduced pancreatic duct bicarbonate → trypsinogen aggregation and premature activation → acinar injury."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Cystic fibrosis is at root a chloride-transport disease: CFTR is an apical chloride channel, so its loss leaves epithelia unable to move chloride and water, dehydrating secretions into thick mucus — and the same defect raises sweat chloride above 60 mmol/L, the diagnostic test."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung carries most of cystic fibrosis's morbidity: dehydrated mucus cripples mucociliary clearance, inviting chronic Pseudomonas and Staph infection and neutrophilic inflammation that scars airways into bronchiectasis — historically the leading cause of CF death."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Staphylococcus aureus is typically the first chronic airway colonizer in cystic fibrosis, dominating childhood before Pseudomonas takes over in adolescence; persistent S. aureus feeds the neutrophilic inflammation that drives early bronchiectasis."
 ---
 
 # Cystic Fibrosis
@@ -179,6 +188,9 @@ AND
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CF airway dominated by massive neutrophil recruitment (IL-8-driven); neutrophil elastase → proteolysis → bronchiectasis; NETs provide extracellular DNA that increases sputum viscoelasticity; dornase alfa (DNase I) cleaves NET-derived DNA → improved mucus clearance.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — NLRP3 inflammasome activation in CF airway → IL-1β/IL-18 release → amplifies airway inflammation; CFTR LOF → oxidative stress → NLRP3 priming; IL-1β drives CXCL8 production by airway epithelium → neutrophil recruitment loop; canakinumab (anti-IL-1β) explored as CF lung adjunct.
 - `connects-to` → **[Hereditary Pancreatitis](../hereditary-pancreatitis/README.md)** — CFTR mutations (5T, R117H) are second-hit modifiers in hereditary pancreatitis (PRSS1/SPINK1 mutations); compound heterozygosity → idiopathic chronic pancreatitis; CFTR LOF → reduced pancreatic duct bicarbonate → trypsinogen aggregation and premature activation → acinar injury.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Cystic fibrosis is at root a chloride-transport disease: CFTR is an apical chloride channel, so its loss leaves epithelia unable to move chloride and water, dehydrating secretions into thick mucus — and the same defect raises sweat chloride above 60 mmol/L, the diagnostic test.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung carries most of cystic fibrosis's morbidity: dehydrated mucus cripples mucociliary clearance, inviting chronic Pseudomonas and Staph infection and neutrophilic inflammation that scars airways into bronchiectasis — historically the leading cause of CF death.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Staphylococcus aureus is typically the first chronic airway colonizer in cystic fibrosis, dominating childhood before Pseudomonas takes over in adolescence; persistent S. aureus feeds the neutrophilic inflammation that drives early bronchiectasis.
 
 ---
 

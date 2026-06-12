@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β is a key COPD exacerbation amplifier: NLRP3 inflammasome activation by smoke → IL-1β release → neutrophil and macrophage recruitment → airway inflammation; IL-1β promotes goblet cell hyperplasia → mucus hypersecretion; canakinumab (IL-1β mAb) studied in COPD."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "COPD and cystic fibrosis are chronic obstructive airway diseases: COPD is acquired emphysema from decades of cigarette smoke, while CF is inherited CFTR failure causing childhood bronchiectasis — yet both end in neutrophilic airway destruction and respiratory failure."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Severe COPD strains the right heart: chronic hypoxia drives pulmonary vasoconstriction and arteriolar remodeling → pulmonary hypertension (WHO Group 3) → right ventricular hypertrophy and failure (cor pulmonale), with raised JVP and peripheral edema."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Bacterial infection — often Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella — drives roughly a quarter of COPD exacerbations; purulent sputum guides antibiotics, and pneumococcal vaccination is recommended to help prevent them."
 ---
 
 # COPD
@@ -202,6 +211,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — COPD destroys lung architecture: emphysema ruptures alveolar walls reducing gas exchange surface; chronic bronchitis remodels small airways creating fixed obstruction; GOLD spirometric staging (FEV1/FVC <0.7) classifies severity and guides treatment selection.
 - `connects-to` → **[Asthma](../asthma/README.md)** — COPD-asthma overlap (ACO) affects ~10-15% of COPD patients with combined fixed obstruction and type 2 eosinophilic inflammation; ACO has higher exacerbation frequency; dupilumab (anti-IL-4Rα) is approved for COPD with eosinophils ≥300/μL.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β amplifies COPD exacerbations: NLRP3 inflammasome activated by smoke particles releases IL-1β → neutrophil and macrophage recruitment → airway inflammation and goblet cell hyperplasia → mucus hypersecretion; IL-1β blockade (canakinumab) is under investigation.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — COPD and cystic fibrosis are chronic obstructive airway diseases: COPD is acquired emphysema from decades of cigarette smoke, while CF is inherited CFTR failure causing childhood bronchiectasis — yet both end in neutrophilic airway destruction and respiratory failure.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe COPD strains the right heart: chronic hypoxia drives pulmonary vasoconstriction and arteriolar remodeling → pulmonary hypertension (WHO Group 3) → right ventricular hypertrophy and failure (cor pulmonale), with raised JVP and peripheral edema.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Bacterial infection — often Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella — drives roughly a quarter of COPD exacerbations; purulent sputum guides antibiotics, and pneumococcal vaccination is recommended to help prevent them.
 
 ---
 
