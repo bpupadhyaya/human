@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: damaged-by
     note: "UV-B and UV-A photons are the primary environmental mutagen in melanoma; CPDs and 8-oxoguanine → C→T and CC→TT signature mutations in BRAF (V600E in ~50%), NRAS, and TP53; melanoma has the highest UV mutational burden of any cancer (~10 mutations/Mb)."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Melanoma and non-small-cell lung cancer are the two flagships of cancer immunotherapy: both carry high UV- or tobacco-driven mutational burdens generating neoantigens, making them the most checkpoint-responsive solid tumors (PD-1/CTLA-4); both also harbor targetable BRAF V600E."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous melanoma arises from melanocytes in the basal epidermis transformed by UV-induced mutations (BRAF, NRAS); unlike basal or squamous cell carcinoma it metastasizes early via lymphatics and blood — the deadliest skin cancer, where Breslow thickness drives prognosis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Melanoma is the founding model of T-cell immunotherapy: its heavy neoantigen load draws tumor-infiltrating cytotoxic CD8+ T cells whose reactivation by anti-PD-1/CTLA-4 (or adoptive TIL therapy) produces durable remissions — the proof of concept that launched the checkpoint era."
 ---
 
 # Melanoma
@@ -149,6 +158,9 @@ cross_links:
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — tumor microenvironment generates adenosine via CD39 (ATP→AMP) and CD73 (AMP→adenosine) on melanoma cells and MDSCs; A2AR on tumor-infiltrating T cells → ↑cAMP → ↓IL-2/IFN-γ → immune evasion; anti-CD73 (oleclumab) + anti-PD-1 combination trials target adenosine-mediated immune checkpoint resistance.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Melanoma evades perforin-mediated CTL/NK cytotoxicity via MHC-I downregulation, PD-L1 upregulation, and IDO-mediated T-cell suppression; checkpoint inhibitors (anti-PD-1/CTLA-4) restore perforin-granzyme killing; TIL perforin content predicts immunotherapy response.
 - `damaged-by` → **[Photon](../../01-subatomic/photon/README.md)** — UV-B and UV-A photons are the primary environmental mutagen in melanoma; CPDs and 8-oxoguanine → C→T and CC→TT signature mutations in BRAF (V600E in ~50%), NRAS, and TP53; melanoma has the highest UV mutational burden of any cancer (~10 mutations/Mb).
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Melanoma and non-small-cell lung cancer are the two flagships of cancer immunotherapy: both carry high UV- or tobacco-driven mutational burdens generating neoantigens, making them the most checkpoint-responsive solid tumors (PD-1/CTLA-4); both also harbor targetable BRAF V600E.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous melanoma arises from melanocytes in the basal epidermis transformed by UV-induced mutations (BRAF, NRAS); unlike basal or squamous cell carcinoma it metastasizes early via lymphatics and blood — the deadliest skin cancer, where Breslow thickness drives prognosis.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Melanoma is the founding model of T-cell immunotherapy: its heavy neoantigen load draws tumor-infiltrating cytotoxic CD8+ T cells whose reactivation by anti-PD-1/CTLA-4 (or adoptive TIL therapy) produces durable remissions — the proof of concept that launched the checkpoint era.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: connects-to
     note: "Lung adenocarcinoma arises from alveolar type II pneumocytes (and club cells), retaining their TTF-1 and napsin-A markers; it progresses through adenocarcinoma-in-situ → minimally invasive → invasive adenocarcinoma, the peripheral lepidic-to-solid sequence."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "NSCLC and melanoma are the twin proving grounds of checkpoint immunotherapy: both accumulate heavy carcinogen-driven mutational burdens (tobacco, UV) yielding neoantigens, so PD-1/PD-L1 (and CTLA-4) blockade gives durable responses in both, and both carry targetable BRAF V600E."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "NSCLC's response to immunotherapy hinges on cytotoxic T cells: a high tobacco-driven mutational burden generates neoantigens, and PD-1/PD-L1 blockade (pembrolizumab, first-line at PD-L1 ≥50%) reinvigorates exhausted CD8+ T cells — absent in never-smoker EGFR/ALK subsets."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "NSCLC and small-cell lung cancer are the two divisions of lung cancer: NSCLC (~85%, adeno/squamous) is driver-rich and often resectable or targetable, while SCLC is a fast neuroendocrine tumor of heavy smokers that disseminates early, is rarely operable, and is RB1/TP53-driven."
 ---
 
 # NSCLC
@@ -160,6 +169,9 @@ cross_links:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — NSCLC is ~85% of lung cancer: squamous tumors arise centrally near the hilum (cough, hemoptysis) while adenocarcinomas arise peripherally and are often found incidentally; annual low-dose CT screening of heavy smokers cuts lung-cancer mortality ~20% (NLST).
 - `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — ALK rearrangements (EML4-ALK, ~5-7%) define a distinct NSCLC of young never-smokers that is exquisitely targetable: alectinib and lorlatinib far outperform chemotherapy with strong CNS penetration for brain metastases; lorlatinib covers the G1202R resistance mutation.
 - `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Lung adenocarcinoma arises from alveolar type II pneumocytes (and club cells), retaining their TTF-1 and napsin-A markers; it progresses through adenocarcinoma-in-situ → minimally invasive → invasive adenocarcinoma, the peripheral lepidic-to-solid sequence.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — NSCLC and melanoma are the twin proving grounds of checkpoint immunotherapy: both accumulate heavy carcinogen-driven mutational burdens (tobacco, UV) yielding neoantigens, so PD-1/PD-L1 (and CTLA-4) blockade gives durable responses in both, and both carry targetable BRAF V600E.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — NSCLC's response to immunotherapy hinges on cytotoxic T cells: a high tobacco-driven mutational burden generates neoantigens, and PD-1/PD-L1 blockade (pembrolizumab, first-line at PD-L1 ≥50%) reinvigorates exhausted CD8+ T cells — absent in never-smoker EGFR/ALK subsets.
+- `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — NSCLC and small-cell lung cancer are the two divisions of lung cancer: NSCLC (~85%, adeno/squamous) is driver-rich and often resectable or targetable, while SCLC is a fast neuroendocrine tumor of heavy smokers that disseminates early, is rarely operable, and is RB1/TP53-driven.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
