@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "JPS studs the colorectum with hamartomatous polyps (5-200) from which adenomatous foci drive a ~40-50% lifetime colorectal cancer risk; annual colonoscopy with polypectomy from age 15 controls burden, and colectomy is indicated when polyps become unmanageable."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Juvenile polyposis and Lynch are both dominant hereditary colorectal cancer syndromes but opposite: JPS is TGF-β/BMP loss making many hamartomatous polyps, Lynch is mismatch-repair deficiency making few MSI-high adenocarcinomas — stromal overgrowth versus repair defect."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Juvenile polyposis and FAP are both polyposis syndromes but with different polyps: JPS hamartomas have an edematous, cyst-rich stroma (TGF-β/BMP loss), FAP adenomas are purely dysplastic epithelium (APC loss); both stud the colon and need polypectomy, but histology differs."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "SMAD4-mutant juvenile polyposis characteristically floods the stomach with hamartomatous polyps — sometimes massive gastric polyposis causing bleeding, anemia, and protein-losing enteropathy — with elevated gastric cancer risk, so upper-GI surveillance is part of SMAD4-JPS care."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -181,6 +190,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — PTEN ties JPS to the overlapping hamartoma syndromes: contiguous 10q22-23 deletions can remove both BMPR1A and PTEN → a severe combined JPS/Cowden phenotype, and the BMP→SMAD4→PTEN→mTOR axis is the rationale for rapamycin chemoprevention being explored in JPS.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers is the main hamartomatous-polyposis differential: STK11-driven polyps have an arborizing smooth-muscle core (vs JPS's edematous, cyst-rich juvenile stroma) plus mucocutaneous melanotic macules absent in JPS; both carry high GI cancer risk via different pathways.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — JPS studs the colorectum with hamartomatous polyps (5-200) from which adenomatous foci drive a ~40-50% lifetime colorectal cancer risk; annual colonoscopy with polypectomy from age 15 controls burden, and colectomy is indicated when polyps become unmanageable.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Juvenile polyposis and Lynch are both dominant hereditary colorectal cancer syndromes but opposite: JPS is TGF-β/BMP loss making many hamartomatous polyps, Lynch is mismatch-repair deficiency making few MSI-high adenocarcinomas — stromal overgrowth versus repair defect.
+- `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Juvenile polyposis and FAP are both polyposis syndromes but with different polyps: JPS hamartomas have an edematous, cyst-rich stroma (TGF-β/BMP loss), FAP adenomas are purely dysplastic epithelium (APC loss); both stud the colon and need polypectomy, but histology differs.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — SMAD4-mutant juvenile polyposis characteristically floods the stomach with hamartomatous polyps — sometimes massive gastric polyposis causing bleeding, anemia, and protein-losing enteropathy — with elevated gastric cancer risk, so upper-GI surveillance is part of SMAD4-JPS care.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
