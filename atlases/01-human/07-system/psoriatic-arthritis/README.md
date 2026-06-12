@@ -51,6 +51,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "PsA occurs in ~30% of plaque psoriasis patients; skin disease severity (PASI) often precedes joint involvement by ~10 years; shared IL-17A/IL-23 pathobiology explains why biologics effective in psoriasis (PASI 90/100 endpoints) also treat PsA."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Psoriatic arthritis grows out of psoriasis: ~30% of psoriasis patients develop it, usually years after the skin disease, and both run on the same IL-23/IL-17 axis — why biologics that clear psoriatic plaques (anti-IL-17, anti-IL-23) also treat the joints."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Psoriatic arthritis attacks the musculoskeletal system distinctively: asymmetric oligoarthritis, distal interphalangeal disease, enthesitis, dactylitis ('sausage digit'), and sacroiliitis — combining erosion with new bone formation, unlike the pure erosion of RA."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Psoriatic arthritis is driven by Th17 helper T cells: IL-23 expands IL-17-producing CD4+ T cells (and innate IL-17 at entheses) that activate neutrophils and osteoclasts — driving inflammation, erosion, and new-bone formation, the rationale for anti-IL-17/IL-23 biologics."
 ---
 
 # Psoriatic Arthritis
@@ -209,6 +218,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[HLA-B27](../../03-molecular/hla-b27/README.md)** — HLA-B27 in ~20% of PsA overall, ~60–70% with axial PsA; HLA-C*06:02 is primary risk allele for psoriasis/polyarticular PsA; ERAP1 epistasis modulates axial PsA risk.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Axial PsA and AS share HLA-B27, sacroiliitis, and IL-17A/TNF-α pathobiology; distinguished by psoriasis, DIP involvement, and asymmetric periostitis; anti-IL-17A and anti-TNF effective in both.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — PsA occurs in ~30% of psoriasis patients; skin disease often precedes joints by ~10 years; shared IL-17A/IL-23 biology explains why biologics achieving PASI 90/100 in psoriasis also treat PsA joints.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Psoriatic arthritis grows out of psoriasis: ~30% of psoriasis patients develop it, usually years after the skin disease, and both run on the same IL-23/IL-17 axis — why biologics that clear psoriatic plaques (anti-IL-17, anti-IL-23) also treat the joints.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Psoriatic arthritis attacks the musculoskeletal system distinctively: asymmetric oligoarthritis, distal interphalangeal disease, enthesitis, dactylitis ('sausage digit'), and sacroiliitis — combining erosion with new bone formation, unlike the pure erosion of RA.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Psoriatic arthritis is driven by Th17 helper T cells: IL-23 expands IL-17-producing CD4+ T cells (and innate IL-17 at entheses) that activate neutrophils and osteoclasts — driving inflammation, erosion, and new-bone formation, the rationale for anti-IL-17/IL-23 biologics.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

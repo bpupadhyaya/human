@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Anti-Dsg3 IgG1 (complement-fixing) activates complement → C3 deposition on keratinocytes; MAC (C5b-9) amplifies keratinocyte injury; DIF shows IgG + C3 in intercellular pattern; C5a → neutrophil elastase → Dsg3 cleavage; complement amplifies acantholysis beyond IgG4 blockade."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Pemphigus vulgaris blisters skin and mucosa: anti-desmoglein-3 antibodies break apart keratinocyte desmosomes (acantholysis), producing flaccid intraepidermal bullae that rupture into painful erosions, a positive Nikolsky sign, and near-universal oral involvement."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Long-lived plasma cells are pemphigus's treatment-resistant reservoir: they secrete anti-Dsg3 IgG4 but, lacking CD20, escape rituximab — so anti-CD20 depletes B-cell precursors yet residual plasma cells sustain antibody, motivating plasma-cell-directed (anti-CD38) approaches."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Pemphigus is T-cell-dependent: Dsg3-specific CD4+ helper T cells (HLA-DR*04:02-restricted) drive B cells to class-switch into pathogenic anti-Dsg3 IgG4 — so the autoantibody response depends on a T-B collaboration that tolerogenic therapies aim to break."
 ---
 
 # Pemphigus Vulgaris
@@ -203,6 +212,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Dsg3-reactive IgG4-secreting B cells produce pathogenic anti-Dsg3 antibody; rituximab depletes CD20+ B cells → anti-Dsg3 IgG4 falls → remission; memory B cells are the relapse reservoir; anti-Dsg3 titer guides retreatment; plasma cells (CD20−) escape rituximab → residual disease.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Anti-Dsg3 IgG crosslinking → EGFR/ErbB2 transactivation → PLC-γ → p38 MAPK → desmoplakin phosphorylation → desmosome internalization; EGFR amplifies acantholysis beyond Dsg3 steric blockade; erlotinib reduced blistering in mice; p38 MAPK inhibitors in PV clinical trials.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Anti-Dsg3 IgG1 (complement-fixing) activates complement → C3 deposition on keratinocytes; MAC (C5b-9) amplifies keratinocyte injury; DIF shows IgG + C3 in intercellular pattern; C5a → neutrophil elastase → Dsg3 cleavage; complement amplifies acantholysis beyond IgG4 blockade.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Pemphigus vulgaris blisters skin and mucosa: anti-desmoglein-3 antibodies break apart keratinocyte desmosomes (acantholysis), producing flaccid intraepidermal bullae that rupture into painful erosions, a positive Nikolsky sign, and near-universal oral involvement.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Long-lived plasma cells are pemphigus's treatment-resistant reservoir: they secrete anti-Dsg3 IgG4 but, lacking CD20, escape rituximab — so anti-CD20 depletes B-cell precursors yet residual plasma cells sustain antibody, motivating plasma-cell-directed (anti-CD38) approaches.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Pemphigus is T-cell-dependent: Dsg3-specific CD4+ helper T cells (HLA-DR*04:02-restricted) drive B cells to class-switch into pathogenic anti-Dsg3 IgG4 — so the autoantibody response depends on a T-B collaboration that tolerogenic therapies aim to break.
 
 ---
 
