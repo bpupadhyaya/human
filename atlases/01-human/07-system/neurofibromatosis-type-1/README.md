@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/gist
     relation: connects-to
     note: "GIST occurs in ~3-5% of NF1 patients but is biologically distinct from sporadic GIST: NF1-associated GISTs are KIT/PDGFRA wild-type (driven instead by NF1 loss → RAS-MAPK), so they respond poorly to imatinib, with sunitinib or regorafenib used in later lines."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "NF1 and NF2 share a name and dominant inheritance but are unrelated diseases: NF1 (neurofibromin, a RAS-GAP) drives café-au-lait spots and neurofibromas, while NF2 (merlin, a Hippo regulator) drives bilateral vestibular schwannomas and meningiomas — different genes and pathways."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin shows NF1's earliest and most reliable signs: six or more café-au-lait macules and axillary/inguinal freckling appear in childhood, followed by cutaneous and plexiform neurofibromas; these criteria often establish the diagnosis before nerve or brain tumors appear."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The optic pathway glioma is NF1's signature brain tumor: a low-grade pilocytic astrocytoma of the optic nerve/chiasm in ~15% of children, often indolent but able to threaten vision; NF1 also raises risk of other gliomas, with MEK inhibitors (selumetinib) used for progression."
 ---
 
 # Neurofibromatosis Type 1
@@ -164,6 +173,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — NF1 neurofibromas — cutaneous, subcutaneous, and plexiform — grow from Schwann cells of peripheral nerves after a somatic second hit knocks out the remaining NF1 allele; plexiform neurofibromas are the precursor lesion that can transform into MPNST in ~10-15%.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Neurofibroma growth depends on its microenvironment: NF1-haploinsufficient mast cells and fibroblasts secrete stem-cell factor (SCF/KIT ligand) that drives proliferation of the NF1-null Schwann cells — a paracrine loop explored therapeutically with imatinib (anti-KIT).
 - `connects-to` → **[GIST](../gist/README.md)** — GIST occurs in ~3-5% of NF1 patients but is biologically distinct from sporadic GIST: NF1-associated GISTs are KIT/PDGFRA wild-type (driven instead by NF1 loss → RAS-MAPK), so they respond poorly to imatinib, with sunitinib or regorafenib used in later lines.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — NF1 and NF2 share a name and dominant inheritance but are unrelated diseases: NF1 (neurofibromin, a RAS-GAP) drives café-au-lait spots and neurofibromas, while NF2 (merlin, a Hippo regulator) drives bilateral vestibular schwannomas and meningiomas — different genes and pathways.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin shows NF1's earliest and most reliable signs: six or more café-au-lait macules and axillary/inguinal freckling appear in childhood, followed by cutaneous and plexiform neurofibromas; these criteria often establish the diagnosis before nerve or brain tumors appear.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The optic pathway glioma is NF1's signature brain tumor: a low-grade pilocytic astrocytoma of the optic nerve/chiasm in ~15% of children, often indolent but able to threaten vision; NF1 also raises risk of other gliomas, with MEK inhibitors (selumetinib) used for progression.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

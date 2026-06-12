@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "NF2 schwannomas arise from the Schwann-cell sheath of cranial and peripheral nerves — bilateral on the vestibular nerve (CN VIII), plus spinal nerve-root schwannomas in ~43% (string-of-pearls on MRI); each tumor needs an independent somatic second hit at the NF2 locus."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "NF2 and NF1 share a name but are unrelated diseases: NF2 (merlin, a Hippo regulator) causes bilateral vestibular schwannomas and meningiomas, while NF1 (neurofibromin, a RAS-GAP) causes café-au-lait spots and neurofibromas — different genes, tumors, and pathways."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "NF2 is fundamentally a brain-and-nerve tumor syndrome: bilateral vestibular schwannomas on cranial nerve VIII cause progressive deafness, balance loss, and brainstem compression, alongside multiple meningiomas and ependymomas — tumor burden, not malignancy, drives the morbidity."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "The NF2/merlin-Hippo axis extends beyond nerve tumors: somatic NF2 loss occurs in a subset of renal cell carcinomas (as in mesothelioma), where merlin loss frees YAP/TEAD to drive proliferation — placing TEAD inhibitors under study for NF2-deficient kidney cancer too."
 ---
 
 # Neurofibromatosis Type 2
@@ -171,6 +180,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VS stromal cells secrete VEGF (driven by nuclear YAP1), producing edema and vascularity that compress the cochlear nerve; bevacizumab (anti-VEGF) shrinks ~55% of growing vestibular schwannomas and improves hearing in ~57% — a non-surgical option for failing hearing.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Schwannomatosis is the key NF2 mimic: both cause multiple schwannomas, but bilateral vestibular schwannomas are pathognomonic for NF2 and absent in schwannomatosis (SMARCB1/LZTR1, chronic-pain-predominant); a gene panel and dedicated internal-auditory-canal MRI separate them.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — NF2 schwannomas arise from the Schwann-cell sheath of cranial and peripheral nerves — bilateral on the vestibular nerve (CN VIII), plus spinal nerve-root schwannomas in ~43% (string-of-pearls on MRI); each tumor needs an independent somatic second hit at the NF2 locus.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — NF2 and NF1 share a name but are unrelated diseases: NF2 (merlin, a Hippo regulator) causes bilateral vestibular schwannomas and meningiomas, while NF1 (neurofibromin, a RAS-GAP) causes café-au-lait spots and neurofibromas — different genes, tumors, and pathways.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — NF2 is fundamentally a brain-and-nerve tumor syndrome: bilateral vestibular schwannomas on cranial nerve VIII cause progressive deafness, balance loss, and brainstem compression, alongside multiple meningiomas and ependymomas — tumor burden, not malignancy, drives the morbidity.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — The NF2/merlin-Hippo axis extends beyond nerve tumors: somatic NF2 loss occurs in a subset of renal cell carcinomas (as in mesothelioma), where merlin loss frees YAP/TEAD to drive proliferation — placing TEAD inhibitors under study for NF2-deficient kidney cancer too.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
