@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Retinoblastoma must neutralize the p53 apoptosis that RB1 loss would otherwise trigger: MDM2 amplification (~4%) and MDM4 overexpression (~65%) degrade or inhibit p53, so TP53 itself is rarely mutated — making MDM2/MDM4 antagonists a rational therapeutic strategy."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Retinoblastoma arises from a neuron: the developing cone photoreceptor precursor, which depends on RB1 to restrain proliferation; biallelic RB1 loss unleashes E2F-driven division, why the tumor is so specific to the retina despite RB1 being lost in every cell of carriers."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Germline retinoblastoma carries a brain risk: trilateral retinoblastoma is a pineoblastoma or suprasellar PNET — an intracranial embryonal tumor sharing the retina photoreceptor lineage — arising in a few percent of bilateral RB patients, prompting routine brain MRI surveillance."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Retinoblastoma and Li-Fraumeni are the paradigm hereditary cancer-predisposition syndromes built on tumor-suppressor loss: RB1 (the first tumor suppressor found, basis of Knudson's two-hit hypothesis) versus TP53; both inherit one bad allele and need only a somatic second hit."
 ---
 
 # Retinoblastoma
@@ -164,6 +173,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Retinoblastoma is the most common intraocular tumor of childhood, presenting as leukocoria (white pupillary reflex) or strabismus; globe-sparing therapy — intra-arterial and intravitreal chemotherapy — salvages most eyes, reserving enucleation for advanced (Group E) disease.
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — A small (~2%) RB1-wildtype subset of retinoblastoma is instead driven by massive MYCN amplification, which raises CCNE1/CDK2 to hyperphosphorylate Rb and release E2F1 despite intact RB1; these aggressive, non-hereditary tumors are harder to salvage than RB1-mutant ones.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Retinoblastoma must neutralize the p53 apoptosis that RB1 loss would otherwise trigger: MDM2 amplification (~4%) and MDM4 overexpression (~65%) degrade or inhibit p53, so TP53 itself is rarely mutated — making MDM2/MDM4 antagonists a rational therapeutic strategy.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Retinoblastoma arises from a neuron: the developing cone photoreceptor precursor, which depends on RB1 to restrain proliferation; biallelic RB1 loss unleashes E2F-driven division, why the tumor is so specific to the retina despite RB1 being lost in every cell of carriers.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Germline retinoblastoma carries a brain risk: trilateral retinoblastoma is a pineoblastoma or suprasellar PNET — an intracranial embryonal tumor sharing the retina photoreceptor lineage — arising in a few percent of bilateral RB patients, prompting routine brain MRI surveillance.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Retinoblastoma and Li-Fraumeni are the paradigm hereditary cancer-predisposition syndromes built on tumor-suppressor loss: RB1 (the first tumor suppressor found, basis of Knudson's two-hit hypothesis) versus TP53; both inherit one bad allele and need only a somatic second hit.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
