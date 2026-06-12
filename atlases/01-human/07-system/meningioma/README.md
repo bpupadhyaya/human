@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Grade 1 meningiomas show a 2-3:1 female predominance and express progesterone receptors, with growth during pregnancy and on medroxyprogesterone exposure; yet anti-progesterone mifepristone failed in Phase 3, so PR positivity does not predict hormone-blockade response."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Meningioma and mesothelioma are unrelated tumors united by one driver: biallelic NF2/merlin loss inactivates Hippo, freeing YAP/TAZ-TEAD to drive proliferation in ~50-60% of meningiomas and ~40% of mesotheliomas — making both lead indications for TEAD inhibitors now in trials."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Meningioma growth runs through YAP: NF2/merlin loss releases YAP/TAZ to partner with TEAD and transcribe proliferative genes; this Hippo-YAP axis, not a classic oncogene, drives most meningiomas, and TEAD-palmitoylation inhibitors are the first targeted therapy in trials."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Meningioma is the most common primary CNS tumor, but it arises from the meninges (arachnoid cap cells), not neural tissue — growing outside the brain and spinal cord and causing symptoms by compression; its dural-based, extra-axial location makes many curable by resection."
 ---
 
 # Meningioma
@@ -168,6 +177,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Meningioma is the most common intracranial tumor, arising not from brain but from arachnoid cap cells of the meninges; it compresses brain and cranial nerves, and location (convexity, skull base, parasagittal) dictates resectability and surgical morbidity more than grade.
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Germline NF2 loss (neurofibromatosis type 2) predisposes to multiple meningiomas alongside bilateral vestibular schwannomas and ependymomas; sporadic meningiomas carry biallelic NF2 loss in ~50-60%, making merlin/Hippo inactivation the central driver in both settings.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Grade 1 meningiomas show a 2-3:1 female predominance and express progesterone receptors, with growth during pregnancy and on medroxyprogesterone exposure; yet anti-progesterone mifepristone failed in Phase 3, so PR positivity does not predict hormone-blockade response.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Meningioma and mesothelioma are unrelated tumors united by one driver: biallelic NF2/merlin loss inactivates Hippo, freeing YAP/TAZ-TEAD to drive proliferation in ~50-60% of meningiomas and ~40% of mesotheliomas — making both lead indications for TEAD inhibitors now in trials.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Meningioma growth runs through YAP: NF2/merlin loss releases YAP/TAZ to partner with TEAD and transcribe proliferative genes; this Hippo-YAP axis, not a classic oncogene, drives most meningiomas, and TEAD-palmitoylation inhibitors are the first targeted therapy in trials.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Meningioma is the most common primary CNS tumor, but it arises from the meninges (arachnoid cap cells), not neural tissue — growing outside the brain and spinal cord and causing symptoms by compression; its dural-based, extra-axial location makes many curable by resection.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
