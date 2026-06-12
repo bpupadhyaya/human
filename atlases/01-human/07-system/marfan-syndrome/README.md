@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Hypertension management is critical in Marfan syndrome: elevated SBP increases aortic wall shear stress → accelerated root aneurysm growth; beta-blockers (atenolol) reduce HR + BP + aortic pulsatility; losartan provides additional AT1R/TGF-β inhibition; target SBP <120 mmHg."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart and aorta carry Marfan's lethal risk: FBN1 deficiency lets excess TGF-β weaken the aortic media, producing progressive aortic-root dilatation that can dissect or rupture; β-blockers and losartan slow root growth, and prophylactic root replacement at ~5 cm prevents it."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The lens betrays Marfan syndrome: ectopia lentis — upward dislocation of the lens from stretched, failing zonular fibers (made of fibrillin-1) — is a cardinal diagnostic criterion present in ~60%; Marfan eyes are also myopic and prone to retinal detachment and early glaucoma."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The skeleton makes Marfan visible: tall stature with disproportionately long limbs and fingers (arachnodactyly), arm-span-to-height >1.05, pectus deformity, scoliosis, and joint hypermobility all stem from fibrillin-1's role in connective tissue — scored in the Ghent criteria."
 ---
 
 # Marfan Syndrome
@@ -190,6 +199,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — losartan (AT1R blocker) reduces angiotensin II → attenuated TGF-β signaling in aortic SMCs → slower aortic root growth in MFS (COMPARE trial); AT1R-TGF-β crosstalk: angiotensin II stimulates TGF-β1 production and SMAD2/3 activation → MMP-mediated ECM degradation in aortic wall.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — fibronectin and fibrillin-1 are both major aortic ECM scaffolding proteins; fibronectin provides SMC adhesion substrate; fibrillin-1 provides elastic recoil; fibronectin deposition increases in Marfan aortic tissue as a compensatory response to fibrillin-1 microfibril failure.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — hypertension management is critical in Marfan syndrome: elevated SBP increases aortic wall shear stress → accelerated root aneurysm growth; beta-blockers (atenolol) reduce HR + BP + aortic pulsatility; losartan provides additional AT1R/TGF-β inhibition; target SBP <120 mmHg.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart and aorta carry Marfan's lethal risk: FBN1 deficiency lets excess TGF-β weaken the aortic media, producing progressive aortic-root dilatation that can dissect or rupture; β-blockers and losartan slow root growth, and prophylactic root replacement at ~5 cm prevents it.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The lens betrays Marfan syndrome: ectopia lentis — upward dislocation of the lens from stretched, failing zonular fibers (made of fibrillin-1) — is a cardinal diagnostic criterion present in ~60%; Marfan eyes are also myopic and prone to retinal detachment and early glaucoma.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The skeleton makes Marfan visible: tall stature with disproportionately long limbs and fingers (arachnodactyly), arm-span-to-height >1.05, pectus deformity, scoliosis, and joint hypermobility all stem from fibrillin-1's role in connective tissue — scored in the Ghent criteria.
 
 ---
 

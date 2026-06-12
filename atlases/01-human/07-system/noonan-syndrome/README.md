@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/schwannomatosis
     relation: connects-to
     note: "LZTR1 links Noonan syndrome to schwannomatosis through opposite effects of the same gene: dominant LZTR1 mutations cause Noonan (RAS accumulation, developmental phenotype), whereas biallelic LOF or dominant-negative LZTR1 causes schwannomatosis (multiple painful schwannomas)."
+  - target: 01-human/07-system/marfan-syndrome
+    relation: connects-to
+    note: "Noonan and Marfan are both autosomal-dominant multisystem syndromes causing chest-wall deformity, scoliosis, and congenital heart disease, so they share a clinical differential — but are unrelated: Noonan is a RASopathy while Marfan is a fibrillin-1 connective-tissue disorder."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Noonan syndrome and neurofibromatosis type 1 are overlapping RASopathies — both hyperactivate RAS-MAPK and share café-au-lait spots, pulmonary stenosis, and short stature — but via different lesions: NF1 loses the RAS-GAP neurofibromin while Noonan gains function in SHP2/PTPN11."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Lymphatic dysplasia is a characteristic feature of Noonan syndrome: faulty RAS-MAPK during lymphangiogenesis produces fetal cystic hygroma and nuchal edema (often the first prenatal clue), peripheral lymphedema, and occasionally chylothorax — a developmental lymphatic defect."
 ---
 
 # Noonan Syndrome
@@ -189,6 +198,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Congenital heart disease affects ~80% of Noonan syndrome: a dysplastic, thickened pulmonary valve causes stenosis in ~50-60% (often balloon-resistant), while RAF1 mutations drive hypertrophic cardiomyopathy in ~20-30%, which MEK inhibitors can reverse.
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Every Noonan gene — PTPN11, SOS1, RAF1, KRAS, RIT1, LZTR1 — converges on ERK1/2 hyperactivation during embryogenesis, and the degree of ERK activity grades severity; because MEK1/2 sits just upstream of ERK, MEK inhibitors (trametinib) can normalize signaling and reverse HCM.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — LZTR1 links Noonan syndrome to schwannomatosis through opposite effects of the same gene: dominant LZTR1 mutations cause Noonan (RAS accumulation, developmental phenotype), whereas biallelic LOF or dominant-negative LZTR1 causes schwannomatosis (multiple painful schwannomas).
+- `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Noonan and Marfan are both autosomal-dominant multisystem syndromes causing chest-wall deformity, scoliosis, and congenital heart disease, so they share a clinical differential — but are unrelated: Noonan is a RASopathy while Marfan is a fibrillin-1 connective-tissue disorder.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Noonan syndrome and neurofibromatosis type 1 are overlapping RASopathies — both hyperactivate RAS-MAPK and share café-au-lait spots, pulmonary stenosis, and short stature — but via different lesions: NF1 loses the RAS-GAP neurofibromin while Noonan gains function in SHP2/PTPN11.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphatic dysplasia is a characteristic feature of Noonan syndrome: faulty RAS-MAPK during lymphangiogenesis produces fetal cystic hygroma and nuchal edema (often the first prenatal clue), peripheral lymphedema, and occasionally chylothorax — a developmental lymphatic defect.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
