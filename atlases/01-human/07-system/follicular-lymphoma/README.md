@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "FL tumor microenvironment is immune-rich (Tfh, Tregs, FDC); mosunetuzumab (CD20×CD3 bispecific, approved R/R FL) redirects T-cells to kill FL B-cells; PD-1 blockade + rituximab has modest single-agent activity; lenalidomide → NK-cell ADCC and immune reprogramming in R/R FL."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Follicular and mantle cell lymphoma are both translocation-defined B-cell NHLs but opposites: FL (t(14;18), BCL-2) is indolent and apoptosis-resistant, MCL (t(11;14), cyclin D1) is proliferation-driven and aggressive — the two classic overexpression translocation lymphomas."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Follicular lymphoma arises from germinal-center B cells frozen mid-maturation: t(14;18) places BCL-2 under the immunoglobulin enhancer, so cells that should die during affinity maturation survive, accumulating as CD10+/BCL6+ clonal follicles that mimic the germinal center."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Follicular lymphoma is a disseminated nodal disease that often involves the spleen and bone marrow at diagnosis (stage III-IV in ~80%); splenic and marrow involvement rarely changes the indolent watch-and-wait or rituximab-based management, since FL is treatable but not curable."
 ---
 
 # Follicular Lymphoma
@@ -177,6 +186,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — EZH2 Y641F/N gain-of-function in ~25% of FL → H3K27me3 → silences tumor suppressor and differentiation genes; tazemetostat (EZH2i) approved for R/R EZH2-mutant FL (ORR 69%) and EZH2-WT FL (ORR 35%); CREBBP co-mutation in ~30% creates dual epigenetic dysregulation.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — Histologic transformation from FL to DLBCL occurs in ~30% at 10 years; requires MYC rearrangement, TP53 mutation, or CDKN2A loss on top of BCL-2-IGH; transformed FL is treated as de novo DLBCL; CAR-T (axi-cel) or auto-SCT preferred after induction.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — FL tumor microenvironment is immune-rich (Tfh, Tregs, FDC); mosunetuzumab (CD20×CD3 bispecific, approved R/R FL) redirects T-cells to kill FL B-cells; PD-1 blockade + rituximab has modest single-agent activity; lenalidomide → NK-cell ADCC and immune reprogramming in R/R FL.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Follicular and mantle cell lymphoma are both translocation-defined B-cell NHLs but opposites: FL (t(14;18), BCL-2) is indolent and apoptosis-resistant, MCL (t(11;14), cyclin D1) is proliferation-driven and aggressive — the two classic overexpression translocation lymphomas.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Follicular lymphoma arises from germinal-center B cells frozen mid-maturation: t(14;18) places BCL-2 under the immunoglobulin enhancer, so cells that should die during affinity maturation survive, accumulating as CD10+/BCL6+ clonal follicles that mimic the germinal center.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Follicular lymphoma is a disseminated nodal disease that often involves the spleen and bone marrow at diagnosis (stage III-IV in ~80%); splenic and marrow involvement rarely changes the indolent watch-and-wait or rituximab-based management, since FL is treatable but not curable.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

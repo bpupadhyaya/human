@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "MCL and CLL are both CD5+ B-cell lymphomas with frequent BM/blood involvement; key distinctions: MCL (cyclin D1+, SOX11+, CD23−, t(11;14)) vs CLL (CD23+, ZAP70+, no cyclin D1); both respond to BTK inhibitors; MCL prognosis worse; different IGHV mutation significance or histology."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Mantle cell and follicular lymphoma are both translocation-defined B-cell NHLs but opposites: MCL (t(11;14), cyclin D1) is proliferation-driven and aggressive, FL (t(14;18), BCL-2) indolent and apoptosis-resistant — cyclin D1 vs BCL-2 IHC and SOX11 distinguish them."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Mantle cell lymphoma arises from a CD5+ naive B cell of the follicular mantle zone (pre-germinal-center): t(11;14) drives cyclin D1, pushing these cells through the cell cycle; unlike FL, most MCL cells are IGHV-unmutated, reflecting their pre-germinal-center origin."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Mantle cell lymphoma has a distinctive tropism for the GI tract: multiple lymphomatous polyposis studs the small and large bowel with MCL nodules, and occult involvement is so common that many patients have microscopic gut disease even when staging looks limited."
 ---
 
 # Mantle Cell Lymphoma
@@ -173,6 +182,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — BCR-BTK-NF-κB axis is constitutively active in MCL; ibrutinib (FDA 2013 R/R MCL: ORR 68%), zanubrutinib (FDA 2019: ORR 83%), acalabrutinib (FDA 2017: ORR 81%) are approved; BTK C481S (acquired ibrutinib resistance) → pirtobrutinib (non-covalent BTK inhibitor, FDA 2023: ORR 57%).
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB constitutively active in MCL via BCR-BTK → BCL-2, cyclin D1, XIAP → apoptosis resistance and proliferation; bortezomib (↑IκB → ↓NF-κB) active in MCL; BTK inhibitors block NF-κB upstream; NF-κB target MALT1 (CBM complex) active in MCL and under therapeutic investigation.
 - `connects-to` → **[CLL](../cll/README.md)** — MCL and CLL are both CD5+ B-cell lymphomas with frequent BM/blood involvement; key distinctions: MCL (cyclin D1+, SOX11+, CD23−, t(11;14)) vs CLL (CD23+, ZAP70+, no cyclin D1); both respond to BTK inhibitors; MCL prognosis worse; different IGHV mutation significance or histology.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Mantle cell and follicular lymphoma are both translocation-defined B-cell NHLs but opposites: MCL (t(11;14), cyclin D1) is proliferation-driven and aggressive, FL (t(14;18), BCL-2) indolent and apoptosis-resistant — cyclin D1 vs BCL-2 IHC and SOX11 distinguish them.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Mantle cell lymphoma arises from a CD5+ naive B cell of the follicular mantle zone (pre-germinal-center): t(11;14) drives cyclin D1, pushing these cells through the cell cycle; unlike FL, most MCL cells are IGHV-unmutated, reflecting their pre-germinal-center origin.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Mantle cell lymphoma has a distinctive tropism for the GI tract: multiple lymphomatous polyposis studs the small and large bowel with MCL nodules, and occult involvement is so common that many patients have microscopic gut disease even when staging looks limited.
 
 ---
 
