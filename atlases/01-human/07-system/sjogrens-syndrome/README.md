@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "pSS carries 15-40× population-level NHL risk; MALT lymphoma most common (parotid gland), progressing to DLBCL in ~10-15%; cryoglobulinemia, low C4, parotid swelling predict lymphoma transformation; R-CHOP for DLBCL; pSS-associated lymphoma has better prognosis than de novo DLBCL."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Sjögren's and systemic sclerosis are overlapping connective-tissue autoimmune diseases that often coexist and share a type-I-interferon signature, but Sjögren is a lymphocytic exocrine-gland disease causing sicca while SSc is a fibrosing vasculopathy — dryness versus scarring."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye bears the brunt of Sjögren's: lymphocytic destruction of lacrimal glands causes aqueous-deficient dry eye (keratoconjunctivitis sicca) — gritty, burning eyes with corneal damage on Schirmer testing — which with dry mouth forms the sicca complex that defines the disease."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Sjögren's and lupus are closely related autoimmune diseases sharing anti-Ro/SSA and anti-La/SSB antibodies and a type-I-interferon signature; secondary Sjögren commonly complicates lupus, and anti-Ro can cross the placenta to cause neonatal lupus and congenital heart block."
 ---
 
 # Sjögren's Syndrome
@@ -189,6 +198,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — pSS B-cell hyperactivation (BAFF-driven) → anti-Ro/SSA, anti-La/SSB autoantibodies; ectopic germinal center formation in salivary glands; CD27+ memory B cells expanded; rituximab (anti-CD20) targets B cells in refractory pSS; 40× lymphoma risk from chronic B-cell stimulation.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Treg frequency and suppressive function reduced in pSS; Treg/Th17 imbalance drives salivary gland inflammation; impaired peripheral tolerance permits autoreactive B- and T-cell activation; low FoxP3+ Tregs in minor salivary gland biopsies correlate with disease activity scores.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — pSS carries 15-40× population-level NHL risk; MALT lymphoma most common (parotid gland), progressing to DLBCL in ~10-15%; cryoglobulinemia, low C4, parotid swelling predict lymphoma transformation; R-CHOP for DLBCL; pSS-associated lymphoma has better prognosis than de novo DLBCL.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Sjögren's and systemic sclerosis are overlapping connective-tissue autoimmune diseases that often coexist and share a type-I-interferon signature, but Sjögren is a lymphocytic exocrine-gland disease causing sicca while SSc is a fibrosing vasculopathy — dryness versus scarring.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye bears the brunt of Sjögren's: lymphocytic destruction of lacrimal glands causes aqueous-deficient dry eye (keratoconjunctivitis sicca) — gritty, burning eyes with corneal damage on Schirmer testing — which with dry mouth forms the sicca complex that defines the disease.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Sjögren's and lupus are closely related autoimmune diseases sharing anti-Ro/SSA and anti-La/SSB antibodies and a type-I-interferon signature; secondary Sjögren commonly complicates lupus, and anti-Ro can cross the placenta to cause neonatal lupus and congenital heart block.
 
 ---
 
