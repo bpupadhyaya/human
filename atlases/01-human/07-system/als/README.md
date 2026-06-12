@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "ALS causes dying-back axonopathy of peripheral motor nerves; neurofilament accumulation blocks axonal transport; EMG shows denervation (fibrillations, PSWs, giant units) in ≥3 body regions; peripheral motor nerve loss produces fasciculations, atrophy, and areflexia (LMN signs)."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "ALS is a motor neuron disease: it selectively kills the upper motor neurons of the cortex and the lower motor neurons of the brainstem and spinal cord, sparing most others; their extreme length and calcium-permeable AMPA receptors make these neurons uniquely vulnerable."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "ALS and CIDP both cause progressive weakness but at different sites: ALS is irreversible degeneration of the motor neuron itself, whereas CIDP is immune demyelination of the peripheral nerve — treatable and often reversible — so distinguishing them is critical."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "ALS shares the TDP-43 proteinopathy that also marks frontotemporal dementia and a subset of Alzheimer's: ~50% of ALS patients show cognitive change, C9orf72 expansion causes both ALS and FTD, and cytoplasmic TDP-43 aggregates link these diseases mechanistically."
 ---
 
 # ALS
@@ -200,6 +209,12 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Astrocyte](../../../04-cellular/astrocyte/README.md)** — ALS reactive astrocytes lose EAAT2 → amplify glutamate excitotoxicity; ALS astrocytes kill co-cultured motor neurons in vitro; astrocyte-specific SOD1 removal prolongs mouse survival; non-cell-autonomous neurodegeneration via astrocytes is a core ALS mechanism.
 - `connects-to` → **[Microglia](../../../04-cellular/microglia/README.md)** — M1 microglia in ALS spinal cord release TNF-α, IL-1β, and NO → neurotoxic; NF-κB suppression in microglia prolongs SOD1 mouse survival; microglia transition from protective M2 to damaging M1 as ALS progresses; peripheral monocyte infiltration amplifies neuroinflammation.
 - `connects-to` → **[Peripheral Nerve](../../../05-tissue/peripheral-nerve/README.md)** — ALS causes dying-back axonopathy of peripheral motor nerves; neurofilament accumulation blocks axonal transport; EMG shows denervation (fibrillations, PSWs, giant units) in ≥3 body regions; peripheral motor nerve loss produces fasciculations, atrophy, and areflexia (LMN signs).
+
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — ALS is a motor neuron disease: it selectively kills the upper motor neurons of the cortex and the lower motor neurons of the brainstem and spinal cord, sparing most others; their extreme length and calcium-permeable AMPA receptors make these neurons uniquely vulnerable.
+
+- `connects-to` → **[CIDP](../cidp/README.md)** — ALS and CIDP both cause progressive weakness but at different sites: ALS is irreversible degeneration of the motor neuron itself, whereas CIDP is immune demyelination of the peripheral nerve — treatable and often reversible — so distinguishing them is critical.
+
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — ALS shares the TDP-43 proteinopathy that also marks frontotemporal dementia and a subset of Alzheimer's: ~50% of ALS patients show cognitive change, C9orf72 expansion causes both ALS and FTD, and cytoplasmic TDP-43 aggregates link these diseases mechanistically.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

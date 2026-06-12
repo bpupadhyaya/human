@@ -51,6 +51,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α elevated in CIDP endoneurium and serum; macrophage TNF-α drives oxidative myelin damage and Schwann cell apoptosis; anti-TNF agents (etanercept, infliximab) are CONTRAINDICATED in CIDP — they paradoxically worsen or trigger demyelinating neuropathy (FDA black box warning)."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "CIDP and ALS both weaken muscles but are opposite kinds of disease: CIDP is an immune attack on peripheral-nerve myelin — chronic, demyelinating, and treatable with IVIG or FcRn inhibitors — while ALS is irreversible degeneration of the motor neuron itself."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells drive the IgG4 subtypes of CIDP: clones producing anti-NF155 or anti-CNTN1 paranodal antibodies cause an aggressive, IVIG-resistant disease, which is why depleting them with rituximab (anti-CD20) or inebilizumab (anti-CD19) works where antibody-clearing therapies do less."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "CIDP is sometimes called the peripheral counterpart of multiple sclerosis: both are immune-mediated demyelinating diseases, but MS attacks central myelin made by oligodendrocytes while CIDP attacks peripheral myelin made by Schwann cells — different cells and different drugs."
 ---
 
 # CIDP
@@ -204,6 +213,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Guillain-Barré](../../05-tissue/guillain-barre/README.md)** — CIDP and GBS share peripheral nerve demyelination but differ in course: CIDP is chronic (>8 weeks); GBS is acute monophasic triggered by Campylobacter or EBV; both respond to IVIG and PLEX acutely; CIDP requires chronic immunosuppression; early CIDP may be misdiagnosed as GBS.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are primary effectors of myelin destruction in CIDP via paranodal myelin stripping and FcR-mediated phagocytosis; IVIG blocks macrophage FcγR; macrophage TNF-α drives oxidative myelin damage; endoneurial macrophage infiltration is the histological hallmark of CIDP.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α elevated in CIDP endoneurium and serum; macrophage TNF-α drives oxidative myelin damage and Schwann cell apoptosis; anti-TNF agents (etanercept, infliximab) are CONTRAINDICATED in CIDP — they paradoxically worsen or trigger demyelinating neuropathy (FDA black box warning).
+- `connects-to` → **[ALS](../als/README.md)** — CIDP and ALS both weaken muscles but are opposite kinds of disease: CIDP is an immune attack on peripheral-nerve myelin — chronic, demyelinating, and treatable with IVIG or FcRn inhibitors — while ALS is irreversible degeneration of the motor neuron itself.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells drive the IgG4 subtypes of CIDP: clones producing anti-NF155 or anti-CNTN1 paranodal antibodies cause an aggressive, IVIG-resistant disease, which is why depleting them with rituximab (anti-CD20) or inebilizumab (anti-CD19) works where antibody-clearing therapies do less.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — CIDP is sometimes called the peripheral counterpart of multiple sclerosis: both are immune-mediated demyelinating diseases, but MS attacks central myelin made by oligodendrocytes while CIDP attacks peripheral myelin made by Schwann cells — different cells and different drugs.
 
 ---
 
