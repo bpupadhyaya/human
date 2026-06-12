@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Retinal hemangioblastoma is often the earliest VHL tumor, appearing around age 25 and frequently bilateral; peripheral lesions are treated with laser or cryotherapy and intravitreal anti-VEGF, so dilated fundus screening begins in the first year of life."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Von Hippel-Lindau and tuberous sclerosis are both dominant phakomatosis syndromes whose tumors need a second hit, but differ in driver: VHL loss stabilizes HIF to fuel angiogenic tumors (hemangioblastoma, ccRCC, pheo) while TSC loss hyperactivates mTOR — both hit the kidney."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The pancreas is a major VHL site: most carriers develop pancreatic cysts and serous cystadenomas (usually benign), but pancreatic neuroendocrine tumors arise in ~10-17% and can metastasize, so pancreatic imaging is part of lifelong VHL surveillance, guided by size and growth."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "VHL disease can cause polycythemia: pVHL loss stabilizes HIF, so hemangioblastomas (and hypomorphic germline VHL, as in Chuvash polycythemia) drive excess erythropoietin → high hematocrit; the same VHL-HIF-EPO axis is exploited by PHD inhibitors that raise EPO to treat anemia."
 ---
 
 # VHL Disease
@@ -173,6 +182,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — VHL disease is fundamentally a HIF disease: without functional pVHL, HIF-1α/2α escape degradation and constitutively switch on VEGF, EPO, PDGF, and GLUT1, producing the hypervascular hemangioblastomas, clear-cell RCC, and pheochromocytomas; belzutifan blocks HIF-2α directly.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Hemangioblastomas — benign but hypervascular cystic tumors with a HIF-2α-driven mural nodule — are the hallmark CNS lesions of VHL, clustering in cerebellum (~55%), spinal cord (~44%), and brainstem; annual brain and spine MRI from age 11 catches them.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Retinal hemangioblastoma is often the earliest VHL tumor, appearing around age 25 and frequently bilateral; peripheral lesions are treated with laser or cryotherapy and intravitreal anti-VEGF, so dilated fundus screening begins in the first year of life.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Von Hippel-Lindau and tuberous sclerosis are both dominant phakomatosis syndromes whose tumors need a second hit, but differ in driver: VHL loss stabilizes HIF to fuel angiogenic tumors (hemangioblastoma, ccRCC, pheo) while TSC loss hyperactivates mTOR — both hit the kidney.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is a major VHL site: most carriers develop pancreatic cysts and serous cystadenomas (usually benign), but pancreatic neuroendocrine tumors arise in ~10-17% and can metastasize, so pancreatic imaging is part of lifelong VHL surveillance, guided by size and growth.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — VHL disease can cause polycythemia: pVHL loss stabilizes HIF, so hemangioblastomas (and hypomorphic germline VHL, as in Chuvash polycythemia) drive excess erythropoietin → high hematocrit; the same VHL-HIF-EPO axis is exploited by PHD inhibitors that raise EPO to treat anemia.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

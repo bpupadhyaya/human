@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/pik3ca
     relation: connects-to
     note: "PI3K→AKT→TSC2 phosphorylation is the canonical RTK-to-mTORC1 signal; TSC2 integrates PI3K/AKT, ERK, and AMPK inputs into mTORC1 control; PIK3CA activating mutations in sporadic tumors phenocopy TSC LOF for mTOR; PI3K + mTOR dual inhibitors studied in TSC tumor models."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Tuberous sclerosis and von Hippel-Lindau are both dominant phakomatosis syndromes making multi-organ hamartomas via a second hit, but differ in pathway: TSC1/TSC2 loss unleashes mTORC1 growth while VHL loss unleashes HIF-driven angiogenesis — both converging on renal tumors."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin gives away tuberous sclerosis: hypomelanotic ash-leaf macules, facial angiofibromas, shagreen patches, and periungual fibromas are major diagnostic criteria appearing across childhood — mTOR-driven hamartomatous overgrowth that topical sirolimus now treats."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain defines tuberous sclerosis morbidity: cortical tubers and subependymal nodules form in utero, driving epilepsy (80-90%, often infantile spasms) and neuropsychiatric disorders; a subependymal giant-cell astrocytoma can obstruct CSF, and everolimus shrinks SEGAs."
 ---
 
 # Tuberous Sclerosis Complex
@@ -191,6 +200,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — TSC epilepsy affects 80-90% of patients; infantile spasms treated with vigabatrin (~70% ORR); everolimus adjunctive (EXIST-3: 40% vs 22% ≥50% seizure reduction); cannabidiol (Epidiolex; GWPCARE 6: 49% vs 26% reduction); cortical tuber resection for refractory focal seizures.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — ~50% of TSC patients have ASD, primarily TSC2 mutations with early severe epilepsy; mTOR hyperactivation → excess synaptic protein translation → abnormal synaptogenesis; rapalogue reverses autism-like behaviors in TSC2+/− mice; ASD severity correlates with cortical tuber burden.
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PI3K→AKT→TSC2 phosphorylation is the canonical RTK-to-mTORC1 signal; TSC2 integrates PI3K/AKT, ERK, and AMPK inputs into mTORC1 control; PIK3CA activating mutations in sporadic tumors phenocopy TSC LOF for mTOR; PI3K + mTOR dual inhibitors studied in TSC tumor models.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Tuberous sclerosis and von Hippel-Lindau are both dominant phakomatosis syndromes making multi-organ hamartomas via a second hit, but differ in pathway: TSC1/TSC2 loss unleashes mTORC1 growth while VHL loss unleashes HIF-driven angiogenesis — both converging on renal tumors.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin gives away tuberous sclerosis: hypomelanotic ash-leaf macules, facial angiofibromas, shagreen patches, and periungual fibromas are major diagnostic criteria appearing across childhood — mTOR-driven hamartomatous overgrowth that topical sirolimus now treats.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain defines tuberous sclerosis morbidity: cortical tubers and subependymal nodules form in utero, driving epilepsy (80-90%, often infantile spasms) and neuropsychiatric disorders; a subependymal giant-cell astrocytoma can obstruct CSF, and everolimus shrinks SEGAs.
 
 ---
 
