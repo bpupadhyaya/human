@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "The commonest molecular change in Wilms tumor (~75%) is loss of imprinting at 11p15 that doubles IGF2 dosage; excess IGF2 signals through IGF1R to PI3K-AKT-mTOR, driving nephroblast proliferation — the same locus whose disruption underlies Beckwith-Wiedemann overgrowth."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Wilms tumor and rhabdomyosarcoma are both embryonal childhood cancers of arrested development — Wilms from kidney blastema, RMS from myogenic precursors — sharing a key driver: 11p15.5 loss of imprinting doubles IGF2, feeding an IGF1R-PI3K-AKT-mTOR loop in both."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Wilms tumor and neuroblastoma are the two classic malignant abdominal masses of young children (ages 1-4): Wilms is an intrarenal nephroblastoma rarely crossing midline; neuroblastoma is an adrenal/sympathetic tumor that secretes catecholamines and often crosses."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Anaplastic (unfavorable-histology) Wilms tumor is defined by TP53 mutation, driving chemoresistance and worse prognosis; germline TP53 (Li-Fraumeni) is occasionally found with anaplasia or family history — linking Wilms to the p53-driven childhood cancer-predisposition spectrum."
 ---
 
 # Wilms Tumor
@@ -180,6 +189,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Wilms tumor (nephroblastoma) is the most common childhood kidney cancer, arising at age 3-4 from persistent, undifferentiated metanephric blastema; radical nephrectomy is the backbone, with nephron-sparing surgery reserved for bilateral disease to preserve renal function.
 - `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — WT1 is essential for podocyte function, so the WT1 mutations that cause Wilms tumor also cause glomerular disease: Denys-Drash (missense) brings diffuse mesangial sclerosis and infantile nephrotic syndrome, while Frasier (KTS splice) causes focal segmental glomerulosclerosis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The commonest molecular change in Wilms tumor (~75%) is loss of imprinting at 11p15 that doubles IGF2 dosage; excess IGF2 signals through IGF1R to PI3K-AKT-mTOR, driving nephroblast proliferation — the same locus whose disruption underlies Beckwith-Wiedemann overgrowth.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Wilms tumor and rhabdomyosarcoma are both embryonal childhood cancers of arrested development — Wilms from kidney blastema, RMS from myogenic precursors — sharing a key driver: 11p15.5 loss of imprinting doubles IGF2, feeding an IGF1R-PI3K-AKT-mTOR loop in both.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Wilms tumor and neuroblastoma are the two classic malignant abdominal masses of young children (ages 1-4): Wilms is an intrarenal nephroblastoma rarely crossing midline; neuroblastoma is an adrenal/sympathetic tumor that secretes catecholamines and often crosses.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Anaplastic (unfavorable-histology) Wilms tumor is defined by TP53 mutation, driving chemoresistance and worse prognosis; germline TP53 (Li-Fraumeni) is occasionally found with anaplasia or family history — linking Wilms to the p53-driven childhood cancer-predisposition spectrum.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

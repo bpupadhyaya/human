@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/dicer1
     relation: connects-to
     note: "DICER1 syndrome predisposes to embryonal rhabdomyosarcoma, classically of the uterine cervix and in pleuropulmonary blastoma–associated tumors; biallelic DICER1 disrupts miRNA processing, so a young woman's cervical botryoid RMS should prompt germline DICER1 testing."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "Rhabdomyosarcoma and Wilms tumor are both embryonal childhood cancers of arrested development — RMS from myogenic precursors, Wilms from kidney blastema — sharing the IGF2 driver: 11p15.5 loss of imprinting doubles IGF2, powering an IGF1R-PI3K-AKT-mTOR loop in both."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Rhabdomyosarcoma is the malignant tumor of skeletal-muscle lineage: cells express myogenic regulators (MYOD1, myogenin, desmin) yet fail to mature into myofibers, and it arises wherever muscle precursors exist — head/neck, GU tract, extremities, even sites with no muscle."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Rhabdomyosarcoma and neuroblastoma are both pediatric small-round-blue-cell tumors that look alike microscopically, but immunohistochemistry separates them: RMS expresses myogenic markers (desmin, myogenin), neuroblastoma neuroendocrine ones (synaptophysin, PHOX2B)."
 ---
 
 # Rhabdomyosarcoma
@@ -179,6 +188,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Rhabdomyosarcoma — especially embryonal, in young children — is one of the sentinel soft-tissue sarcomas of Li-Fraumeni syndrome; germline TP53 should be considered in any child with RMS under 3 or with a suggestive family history, as it also signals radiation-sparing caution.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Embryonal RMS is driven by an IGF2/IGF1R autocrine loop: 11p15.5 loss of imprinting unleashes biallelic IGF2, which signals through IGF1R → PI3K-AKT-mTOR for proliferation and survival; IGF1R antibodies have been tried but show limited single-agent activity.
 - `connects-to` → **[DICER1](../../03-molecular/dicer1/README.md)** — DICER1 syndrome predisposes to embryonal rhabdomyosarcoma, classically of the uterine cervix and in pleuropulmonary blastoma–associated tumors; biallelic DICER1 disrupts miRNA processing, so a young woman's cervical botryoid RMS should prompt germline DICER1 testing.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Rhabdomyosarcoma and Wilms tumor are both embryonal childhood cancers of arrested development — RMS from myogenic precursors, Wilms from kidney blastema — sharing the IGF2 driver: 11p15.5 loss of imprinting doubles IGF2, powering an IGF1R-PI3K-AKT-mTOR loop in both.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Rhabdomyosarcoma is the malignant tumor of skeletal-muscle lineage: cells express myogenic regulators (MYOD1, myogenin, desmin) yet fail to mature into myofibers, and it arises wherever muscle precursors exist — head/neck, GU tract, extremities, even sites with no muscle.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Rhabdomyosarcoma and neuroblastoma are both pediatric small-round-blue-cell tumors that look alike microscopically, but immunohistochemistry separates them: RMS expresses myogenic markers (desmin, myogenin), neuroblastoma neuroendocrine ones (synaptophysin, PHOX2B).
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
