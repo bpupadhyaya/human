@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/baff
     relation: connects-to
     note: "APRIL and BAFF drive IgA1 class switching in mucosal plasma cells and sustain Gd-IgA1 production; atacicept (APRIL+BAFF dual inhibitor, ORIGIN trial): 58% vs 0% proteinuria reduction; zigakimab (anti-APRIL, SPARK trial) in Phase 2/3; APRIL overexpressed in Peyer patches in IgAN."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "IgA nephropathy and immune thrombocytopenia are both antibody-driven autoimmune diseases: IgAN from galactose-deficient IgA1 complexes in the kidney mesangium, ITP from anti-platelet IgG marking platelets for splenic destruction — both treated by depleting the driving B cells."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "IgA nephropathy is the most common primary glomerulonephritis worldwide and a top cause of kidney failure in young adults: galactose-deficient IgA1 complexes lodge in the glomerular mesangium, triggering complement and inflammation that scar the kidney, often after a sore throat."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "IgA nephropathy's disease-causing molecule comes from plasma cells: mucosal plasma cells (Peyer patches) overproduce galactose-deficient IgA1 under APRIL/BAFF drive, and others make the anti-Gd-IgA1 autoantibody — so therapies increasingly target plasma cells and APRIL signaling."
 ---
 
 # IgA Nephropathy
@@ -132,6 +141,12 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — lectin + alternative pathway → C3b deposition in mesangium is the IgAN complement hallmark; C3 IF on biopsy is pathognomonic; iptacopan (factor B inhibitor) targets upstream of C3 → prevents C3b + MAC; C3 deposit intensity correlates with IgAN disease activity.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — mesangial IgA IC deposition → TGF-β1 in mesangial cells → collagen IV + fibronectin → progressive glomerulosclerosis and tubulointerstitial fibrosis; urinary TGF-β1 correlates with Oxford T score; TGF-β mediates the inflammation-to-fibrosis transition in IgAN-CKD.
 - `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — APRIL and BAFF drive IgA1 class switching in mucosal plasma cells and sustain Gd-IgA1 production; atacicept (APRIL+BAFF dual inhibitor, ORIGIN trial): 58% vs 0% proteinuria reduction; zigakimab (anti-APRIL, SPARK trial) in Phase 2/3; APRIL overexpressed in Peyer patches in IgAN.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — IgA nephropathy and immune thrombocytopenia are both antibody-driven autoimmune diseases: IgAN from galactose-deficient IgA1 complexes in the kidney mesangium, ITP from anti-platelet IgG marking platelets for splenic destruction — both treated by depleting the driving B cells.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — IgA nephropathy is the most common primary glomerulonephritis worldwide and a top cause of kidney failure in young adults: galactose-deficient IgA1 complexes lodge in the glomerular mesangium, triggering complement and inflammation that scar the kidney, often after a sore throat.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — IgA nephropathy's disease-causing molecule comes from plasma cells: mucosal plasma cells (Peyer patches) overproduce galactose-deficient IgA1 under APRIL/BAFF drive, and others make the anti-Gd-IgA1 autoantibody — so therapies increasingly target plasma cells and APRIL signaling.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — IgA nephropathy and immune thrombocytopenia are both antibody-driven autoimmune diseases: IgAN from galactose-deficient IgA1 complexes in the kidney mesangium, ITP from anti-platelet IgG marking platelets for splenic destruction — both treated by depleting the driving B cells.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — IgA nephropathy is the most common primary glomerulonephritis worldwide and a top cause of kidney failure in young adults: galactose-deficient IgA1 complexes lodge in the glomerular mesangium, triggering complement and inflammation that scar the kidney, often after a sore throat.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — IgA nephropathy's disease-causing molecule comes from plasma cells: mucosal plasma cells (Peyer patches) overproduce galactose-deficient IgA1 under APRIL/BAFF drive, and others make the anti-Gd-IgA1 autoantibody — so therapies increasingly target plasma cells and APRIL signaling.
 
 ---
 

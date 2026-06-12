@@ -51,6 +51,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/helicobacter-pylori
     relation: connects-to
     note: "H. pylori is a cause of secondary ITP (~40-60% seropositive in endemic regions); eradication normalizes platelets in ~half of seropositive patients, likely by removing molecular-mimicry antigens and polyclonal B-cell stimulation, so ASH advises testing all ITP patients."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Immune thrombocytopenia and IgA nephropathy are both antibody-mediated autoimmune diseases: ITP from anti-platelet IgG driving splenic destruction, IgAN from galactose-deficient IgA1 immune complexes in the kidney — distinct antigens, but both respond to B-cell-directed therapy."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Autoreactive B cells are the source of ITP's anti-platelet antibodies, so B-cell depletion with rituximab (anti-CD20) raises platelet counts in ~60% of patients; splenic B cells are a major antibody factory, part of why splenectomy works — both attack the antibody supply."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "ITP is often secondary to systemic lupus erythematosus: thrombocytopenia is a diagnostic criterion for SLE and can be its presenting feature; ITP plus autoimmune hemolytic anemia is termed Evans syndrome, so new-onset ITP warrants screening for connective-tissue disease."
 ---
 
 # Immune Thrombocytopenia
@@ -197,6 +206,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is the engine of ITP: red-pulp macrophages phagocytose IgG-opsonized platelets via FcγRIII, and splenic autoreactive B cells are a primary antibody source; splenectomy removes both and gives durable remission in ~60-70%, though now used later given effective TPO-RAs.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Splenic macrophages drive platelet destruction in ITP — FcγRIII (CD16) on red-pulp macrophages binds IgG-opsonized platelets → phagocytosis; IVIG works by Fc-receptor blockade and fostamatinib by inhibiting macrophage SYK signaling downstream of FcγR, both sparing platelets.
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — H. pylori is a cause of secondary ITP (~40-60% seropositive in endemic regions); eradication normalizes platelets in ~half of seropositive patients, likely by removing molecular-mimicry antigens and polyclonal B-cell stimulation, so ASH advises testing all ITP patients.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Immune thrombocytopenia and IgA nephropathy are both antibody-mediated autoimmune diseases: ITP from anti-platelet IgG driving splenic destruction, IgAN from galactose-deficient IgA1 immune complexes in the kidney — distinct antigens, but both respond to B-cell-directed therapy.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Autoreactive B cells are the source of ITP's anti-platelet antibodies, so B-cell depletion with rituximab (anti-CD20) raises platelet counts in ~60% of patients; splenic B cells are a major antibody factory, part of why splenectomy works — both attack the antibody supply.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — ITP is often secondary to systemic lupus erythematosus: thrombocytopenia is a diagnostic criterion for SLE and can be its presenting feature; ITP plus autoimmune hemolytic anemia is termed Evans syndrome, so new-onset ITP warrants screening for connective-tissue disease.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
