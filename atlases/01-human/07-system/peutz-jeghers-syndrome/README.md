@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Peutz-Jeghers hamartomas have a unique histology: an arborizing (tree-like) core of bundled smooth muscle extending into the polyp, covered by normal epithelium — distinguishing them from the edematous juvenile polyps of JPS or the dysplastic adenomas of FAP."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "Peutz-Jeghers and juvenile polyposis are the two main hamartomatous polyposis syndromes: PJS (STK11) produces arborizing smooth-muscle polyps and mucocutaneous pigmentation, while JPS (SMAD4/BMPR1A) produces juvenile polyps—both raise GI cancer risk."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Peutz-Jeghers syndrome predisposes to distinctive ovarian tumors: sex cord tumors with annular tubules (SCTAT) and mucinous tumors arise from STK11 loss, often causing precocious puberty or estrogen effects—part of the syndrome's broad, organ-spanning cancer risk."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Peutz-Jeghers syndrome carries a rare cervical cancer—adenoma malignum (minimal-deviation adenocarcinoma): this deceptively bland, HPV-independent tumor is strongly associated with STK11 loss, so PJS patients warrant gynecologic surveillance for it."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -187,6 +196,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine is the danger zone of Peutz-Jeghers syndrome: large hamartomatous polyps in the jejunum and ileum become lead points for intussusception — the most common complication, often needing emergency surgery in childhood; surveillance and polypectomy prevent it.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The diagnostic clue to Peutz-Jeghers syndrome is on the skin and lips: mucocutaneous melanotic macules — dark freckle-like spots on the lips, buccal mucosa, and fingertips — appear in infancy and often fade with age, but with hamartomatous polyps they establish the diagnosis.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Peutz-Jeghers hamartomas have a unique histology: an arborizing (tree-like) core of bundled smooth muscle extending into the polyp, covered by normal epithelium — distinguishing them from the edematous juvenile polyps of JPS or the dysplastic adenomas of FAP.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Peutz-Jeghers and juvenile polyposis are the two main hamartomatous polyposis syndromes: PJS (STK11) produces arborizing smooth-muscle polyps and mucocutaneous pigmentation, while JPS (SMAD4/BMPR1A) produces juvenile polyps—both raise GI cancer risk.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Peutz-Jeghers syndrome predisposes to distinctive ovarian tumors: sex cord tumors with annular tubules (SCTAT) and mucinous tumors arise from STK11 loss, often causing precocious puberty or estrogen effects—part of the syndrome's broad, organ-spanning cancer risk.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Peutz-Jeghers syndrome carries a rare cervical cancer—adenoma malignum (minimal-deviation adenocarcinoma): this deceptively bland, HPV-independent tumor is strongly associated with STK11 loss, so PJS patients warrant gynecologic surveillance for it.
 
 ---
 

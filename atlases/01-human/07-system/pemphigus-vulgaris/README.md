@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Pemphigus is T-cell-dependent: Dsg3-specific CD4+ helper T cells (HLA-DR*04:02-restricted) drive B cells to class-switch into pathogenic anti-Dsg3 IgG4 — so the autoantibody response depends on a T-B collaboration that tolerogenic therapies aim to break."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Pemphigus and myasthenia gravis are paradigm IgG autoantibody diseases against a cell-surface protein: anti-desmoglein-3 in PV versus anti-acetylcholine-receptor in MG, both can associate with thymoma, and both respond to plasma exchange, IVIG, and rituximab."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Pemphigus vulgaris and lupus are both autoantibody-driven but differ in target: PV's IgG attacks desmoglein at keratinocyte junctions causing flaccid blisters, while SLE's antinuclear antibodies form immune complexes that injure skin, kidney, and joints via complement."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Pemphigus vulgaris and dermatomyositis are autoimmune diseases whose skin findings can flag malignancy: paraneoplastic pemphigus accompanies lymphoma/Castleman, and dermatomyositis is a classic paraneoplastic dermatosis—so new disease prompts a cancer search."
 ---
 
 # Pemphigus Vulgaris
@@ -215,6 +224,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Pemphigus vulgaris blisters skin and mucosa: anti-desmoglein-3 antibodies break apart keratinocyte desmosomes (acantholysis), producing flaccid intraepidermal bullae that rupture into painful erosions, a positive Nikolsky sign, and near-universal oral involvement.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Long-lived plasma cells are pemphigus's treatment-resistant reservoir: they secrete anti-Dsg3 IgG4 but, lacking CD20, escape rituximab — so anti-CD20 depletes B-cell precursors yet residual plasma cells sustain antibody, motivating plasma-cell-directed (anti-CD38) approaches.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Pemphigus is T-cell-dependent: Dsg3-specific CD4+ helper T cells (HLA-DR*04:02-restricted) drive B cells to class-switch into pathogenic anti-Dsg3 IgG4 — so the autoantibody response depends on a T-B collaboration that tolerogenic therapies aim to break.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Pemphigus and myasthenia gravis are paradigm IgG autoantibody diseases against a cell-surface protein: anti-desmoglein-3 in PV versus anti-acetylcholine-receptor in MG, both can associate with thymoma, and both respond to plasma exchange, IVIG, and rituximab.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Pemphigus vulgaris and lupus are both autoantibody-driven but differ in target: PV's IgG attacks desmoglein at keratinocyte junctions causing flaccid blisters, while SLE's antinuclear antibodies form immune complexes that injure skin, kidney, and joints via complement.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Pemphigus vulgaris and dermatomyositis are autoimmune diseases whose skin findings can flag malignancy: paraneoplastic pemphigus accompanies lymphoma/Castleman, and dermatomyositis is a classic paraneoplastic dermatosis—so new disease prompts a cancer search.
 
 ---
 
