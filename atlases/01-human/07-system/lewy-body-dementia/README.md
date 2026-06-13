@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Lewy body dementia spares the hippocampus more than Alzheimer's early on: memory is relatively preserved while attention, visuospatial function and alertness fluctuate, reflecting cortical and brainstem Lewy pathology not hippocampal degeneration."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Lewy body dementia is a multisystem nervous-system synucleinopathy: alpha-synuclein deposits spread beyond cortex to autonomic and brainstem neurons, so beyond cognition it causes dysautonomia, REM sleep behavior disorder and parkinsonism—a whole-nervous-system disease."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Norepinephrine loss drives Lewy body dementia's autonomic and cognitive features: degeneration of the noradrenergic locus coeruleus contributes to orthostatic hypotension, attention fluctuations and arousal problems that distinguish LBD from Alzheimer's."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "REM sleep behavior disorder is a hallmark of Lewy body dementia: loss of normal REM atonia lets patients act out dreams, often years before dementia, and melatonin is a first-line treatment—making this sleep disturbance an early diagnostic clue."
 ---
 
 # Lewy Body Dementia
@@ -233,6 +242,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — Lewy body dementia and Huntington's are neurodegenerative movement-and-cognition disorders with distinct causes: LBD from α-synuclein (parkinsonism, hallucinations), Huntington's from a CAG repeat (chorea)—different proteins, overlapping decline.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Lewy body dementia is defined partly by psychosis that mimics schizophrenia: visual hallucinations and delusions are core features, but unlike schizophrenia they arise in older adults with parkinsonism, and antipsychotics can cause life-threatening sensitivity in LBD.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Lewy body dementia spares the hippocampus more than Alzheimer's early on: memory is relatively preserved while attention, visuospatial function and alertness fluctuate, reflecting cortical and brainstem Lewy pathology not hippocampal degeneration.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Lewy body dementia is a multisystem nervous-system synucleinopathy: alpha-synuclein deposits spread beyond cortex to autonomic and brainstem neurons, so beyond cognition it causes dysautonomia, REM sleep behavior disorder and parkinsonism—a whole-nervous-system disease.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Norepinephrine loss drives Lewy body dementia's autonomic and cognitive features: degeneration of the noradrenergic locus coeruleus contributes to orthostatic hypotension, attention fluctuations and arousal problems that distinguish LBD from Alzheimer's.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — REM sleep behavior disorder is a hallmark of Lewy body dementia: loss of normal REM atonia lets patients act out dreams, often years before dementia, and melatonin is a first-line treatment—making this sleep disturbance an early diagnostic clue.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

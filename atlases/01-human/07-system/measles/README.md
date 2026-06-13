@@ -83,6 +83,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "Measles and COVID-19 illustrate herd-immunity thresholds at opposite extremes: measles is so contagious (R0 12-18) that ~95% vaccination is needed to stop spread, far above COVID's threshold—so falling measles vaccination quickly reignites outbreaks."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The measles rash is its most recognizable sign: T-cell attack on virus-infected skin capillaries produces the spreading maculopapular eruption, preceded by Koplik spots on oral mucosa—the rash marks immune engagement, not direct skin destruction."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Measles can devastate the nervous system: acute postinfectious encephalitis strikes ~1 in 1,000 cases, and years later the relentless subacute sclerosing panencephalitis (SSPE) can emerge from persistent virus—rare but fatal reasons measles is far from benign."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Measles infection leaves lifelong IgG immunity but also 'immune amnesia': it depletes memory B and T cells, erasing antibodies to other pathogens for years, so it raises susceptibility to unrelated infections—while the vaccine protects without this harm."
 ---
 
 # Measles
@@ -249,6 +258,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help control measles early: NK and interferon responses limit initial viral spread, but measles still infects immune cells and causes profound, lasting immunosuppression—so the innate response is overwhelmed by a virus that targets immunity itself.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Measles is especially dangerous in HIV and immunosuppression: without competent T-cell immunity, measles can cause giant-cell pneumonia and fatal disease without the typical rash, so live measles vaccine is contraindicated in severe immunosuppression.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Measles and COVID-19 illustrate herd-immunity thresholds at opposite extremes: measles is so contagious (R0 12-18) that ~95% vaccination is needed to stop spread, far above COVID's threshold—so falling measles vaccination quickly reignites outbreaks.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The measles rash is its most recognizable sign: T-cell attack on virus-infected skin capillaries produces the spreading maculopapular eruption, preceded by Koplik spots on oral mucosa—the rash marks immune engagement, not direct skin destruction.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Measles can devastate the nervous system: acute postinfectious encephalitis strikes ~1 in 1,000 cases, and years later the relentless subacute sclerosing panencephalitis (SSPE) can emerge from persistent virus—rare but fatal reasons measles is far from benign.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Measles infection leaves lifelong IgG immunity but also 'immune amnesia': it depletes memory B and T cells, erasing antibodies to other pathogens for years, so it raises susceptibility to unrelated infections—while the vaccine protects without this harm.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
