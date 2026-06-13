@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages drive ovarian cancer's spread: the omentum and ascites are rich in immunosuppressive M2 macrophages that help cells implant on peritoneal surfaces and resist immunity, a target alongside the limited success of checkpoint blockade."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Ovarian cancer and peritoneal mesothelioma can be hard to tell apart: both stud the peritoneum as serous-looking tumors and may carry BAP1 changes, so carcinomatosis needs immunostaining to distinguish high-grade serous ovarian cancer from mesothelioma."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Ovarian fibromas are a feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling produce these benign, often bilateral calcified ovarian tumors, so they warrant Gorlin evaluation—distinct from the epithelial carcinomas that dominate ovarian cancer."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Peutz-Jeghers syndrome raises ovarian tumor risk: STK11 loss predisposes to sex cord tumors with annular tubules (SCTAT) and mucinous ovarian tumors, alongside its GI hamartomas and breast cancer risk—so PJS is part of the hereditary differential for ovarian neoplasms."
 ---
 
 # Ovarian Cancer
@@ -191,6 +200,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome is the second major hereditary cause of ovarian cancer after BRCA: mismatch-repair loss (MLH1/MSH2) raises ovarian risk—often endometrioid or clear-cell histology—alongside its colorectal and endometrial cancers, so MMR/MSI testing guides workup.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Ovarian and breast cancer are linked through BRCA1/2: germline mutations sharply raise both, defining hereditary breast-ovarian cancer syndrome, and the homologous-recombination defect they create makes both tumors sensitive to platinum and PARP inhibitors.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages drive ovarian cancer's spread: the omentum and ascites are rich in immunosuppressive M2 macrophages that help cells implant on peritoneal surfaces and resist immunity, a target alongside the limited success of checkpoint blockade.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Ovarian cancer and peritoneal mesothelioma can be hard to tell apart: both stud the peritoneum as serous-looking tumors and may carry BAP1 changes, so carcinomatosis needs immunostaining to distinguish high-grade serous ovarian cancer from mesothelioma.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Ovarian fibromas are a feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling produce these benign, often bilateral calcified ovarian tumors, so they warrant Gorlin evaluation—distinct from the epithelial carcinomas that dominate ovarian cancer.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome raises ovarian tumor risk: STK11 loss predisposes to sex cord tumors with annular tubules (SCTAT) and mucinous ovarian tumors, alongside its GI hamartomas and breast cancer risk—so PJS is part of the hereditary differential for ovarian neoplasms.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
