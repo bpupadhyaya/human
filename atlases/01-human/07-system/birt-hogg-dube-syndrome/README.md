@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "The lungs are a defining target in Birt-Hogg-Dubé: folliculin loss produces multiple basal pulmonary cysts that rupture, causing recurrent spontaneous pneumothorax, often the presenting feature in a young adult—so unexplained pneumothorax should prompt BHD testing."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "Birt-Hogg-Dubé overlaps with PTEN hamartoma (Cowden) syndromes: both cause skin hamartomas and cancer risk through deranged mTOR signaling—FLCN loss in BHD and PTEN loss in Cowden converge on one growth pathway, so they share dermatologic clues and tumor risk."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "FLCN loss in Birt-Hogg-Dubé disrupts autophagy and AMPK-mTOR balance: folliculin tunes the AMPK/mTOR axis controlling autophagy and metabolism, so its loss deregulates growth and energy sensing—linking the gene to BHD's renal tumors and lung cysts."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "The skin tumors of Birt-Hogg-Dubé are collagen-rich hamartomas: fibrofolliculomas are benign follicle tumors with proliferating collagen-laden stroma, and these flesh-colored facial papules are often the first clue prompting FLCN genetic testing."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -228,6 +237,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The skin tumors of Birt-Hogg-Dubé are fibroblast-rich hamartomas: fibrofolliculomas and trichodiscomas are benign white facial papules where folliculin loss disrupts hair-follicle signaling, producing a fibroblast-laden stroma—often the first clue to the syndrome.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Birt-Hogg-Dubé strikes the renal system multifocally: folliculin loss drives bilateral chromophobe and hybrid oncocytic renal cell carcinomas, so the renal system needs lifelong MRI surveillance and nephron-sparing surgery to preserve kidney function over a lifetime.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — The lungs are a defining target in Birt-Hogg-Dubé: folliculin loss produces multiple basal pulmonary cysts that rupture, causing recurrent spontaneous pneumothorax, often the presenting feature in a young adult—so unexplained pneumothorax should prompt BHD testing.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Birt-Hogg-Dubé overlaps with PTEN hamartoma (Cowden) syndromes: both cause skin hamartomas and cancer risk through deranged mTOR signaling—FLCN loss in BHD and PTEN loss in Cowden converge on one growth pathway, so they share dermatologic clues and tumor risk.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — FLCN loss in Birt-Hogg-Dubé disrupts autophagy and AMPK-mTOR balance: folliculin tunes the AMPK/mTOR axis controlling autophagy and metabolism, so its loss deregulates growth and energy sensing—linking the gene to BHD's renal tumors and lung cysts.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The skin tumors of Birt-Hogg-Dubé are collagen-rich hamartomas: fibrofolliculomas are benign follicle tumors with proliferating collagen-laden stroma, and these flesh-colored facial papules are often the first clue prompting FLCN genetic testing.
 
 ---
 

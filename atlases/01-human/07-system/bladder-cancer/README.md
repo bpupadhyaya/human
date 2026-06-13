@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Bladder cancer pioneered macrophage-based immunotherapy: intravesical BCG provokes a local immune response in which macrophages and T cells attack residual tumor, making early non-muscle-invasive bladder cancer one of the first cancers cured by harnessing innate immunity."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Invasion of the bladder's smooth muscle defines bladder cancer staging: whether the tumor breaches the muscularis propria (muscle-invasive vs non-muscle-invasive) drives management—cystectomy for muscle-invasive disease versus local therapy for superficial tumors."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "HER2 is an emerging target in bladder cancer: a subset of urothelial tumors overexpress HER2, and HER2-directed antibody-drug conjugates like trastuzumab deruxtecan show activity—extending the breast/gastric HER2 paradigm to bladder cancer therapy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Bladder tumors depend on VEGF-driven angiogenesis: urothelial cancers secrete VEGF to grow new vessels, high VEGF predicts worse outcomes, and anti-angiogenic strategies are explored alongside chemotherapy and immunotherapy in advanced disease."
 ---
 
 # Bladder Cancer
@@ -216,6 +225,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Bladder and renal cell carcinoma are the two major urologic cancers but differ in cell and cause: bladder cancer is a smoking-linked urothelial tumor with painless hematuria, while RCC arises from renal tubular epithelium—both can shed cells detectable in urine.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Bladder cancer and lung cancer are the paradigm smoking-caused epithelial cancers: tobacco carcinogens excreted in urine bathe and transform the bladder urothelium just as inhaled smoke transforms the bronchus, so the two often coexist and both are reshaped by immunotherapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Bladder cancer pioneered macrophage-based immunotherapy: intravesical BCG provokes a local immune response in which macrophages and T cells attack residual tumor, making early non-muscle-invasive bladder cancer one of the first cancers cured by harnessing innate immunity.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Invasion of the bladder's smooth muscle defines bladder cancer staging: whether the tumor breaches the muscularis propria (muscle-invasive vs non-muscle-invasive) drives management—cystectomy for muscle-invasive disease versus local therapy for superficial tumors.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 is an emerging target in bladder cancer: a subset of urothelial tumors overexpress HER2, and HER2-directed antibody-drug conjugates like trastuzumab deruxtecan show activity—extending the breast/gastric HER2 paradigm to bladder cancer therapy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bladder tumors depend on VEGF-driven angiogenesis: urothelial cancers secrete VEGF to grow new vessels, high VEGF predicts worse outcomes, and anti-angiogenic strategies are explored alongside chemotherapy and immunotherapy in advanced disease.
 
 ---
 
