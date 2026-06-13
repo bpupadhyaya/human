@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Progressive fibrotic loss of islet β-cells causes pancreatogenic (Type 3c) diabetes — brittle, with concurrent glucagon deficiency raising hypoglycemia risk; managed with carefully titrated low-dose insulin rather than sulfonylureas, distinguishing it from Type 1 and Type 2."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "Hereditary pancreatitis and cystic fibrosis are the two major genetic pancreatic diseases: CFTR's ductal bicarbonate flush normally clears zymogens and blocks premature trypsin activation, so CFTR variants modify hereditary pancreatitis while CF destroys the exocrine pancreas."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibrosis is the endpoint of hereditary pancreatitis, and the pancreatic stellate cell is its fibroblast: recurrent trypsin injury and TGF-β turn these cells into collagen-secreting myofibroblasts that scar the gland — the same switch driving pancreatic-cancer desmoplasia."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Hereditary and alcoholic chronic pancreatitis share one fibrotic endpoint: a PRSS1 mutation resisting trypsin inactivation and chronic alcohol both trigger repeated acinar autodigestion, stellate-cell fibrosis, and exocrine/endocrine failure; smoking raises cancer risk."
 ---
 
 # Hereditary Pancreatitis
@@ -195,6 +204,9 @@ cross_links:
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Recurrent trypsin-driven autodigestion progressively destroys the pancreas → fibrosis, exocrine insufficiency (steatorrhea, PERT) and Type 3c diabetes; total pancreatectomy with islet autotransplantation (TPIAT) relieves refractory pain and eliminates the ~40-fold PDAC risk.
 - `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — CFTR-driven ductal bicarbonate secretion raises luminal pH and flushes zymogens — one of the pancreas's defenses against premature trypsin activation; CFTR variants act as modifiers that co-contribute to hereditary pancreatitis alongside PRSS1 and SPINK1 mutations.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Progressive fibrotic loss of islet β-cells causes pancreatogenic (Type 3c) diabetes — brittle, with concurrent glucagon deficiency raising hypoglycemia risk; managed with carefully titrated low-dose insulin rather than sulfonylureas, distinguishing it from Type 1 and Type 2.
+- `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — Hereditary pancreatitis and cystic fibrosis are the two major genetic pancreatic diseases: CFTR's ductal bicarbonate flush normally clears zymogens and blocks premature trypsin activation, so CFTR variants modify hereditary pancreatitis while CF destroys the exocrine pancreas.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibrosis is the endpoint of hereditary pancreatitis, and the pancreatic stellate cell is its fibroblast: recurrent trypsin injury and TGF-β turn these cells into collagen-secreting myofibroblasts that scar the gland — the same switch driving pancreatic-cancer desmoplasia.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Hereditary and alcoholic chronic pancreatitis share one fibrotic endpoint: a PRSS1 mutation resisting trypsin inactivation and chronic alcohol both trigger repeated acinar autodigestion, stellate-cell fibrosis, and exocrine/endocrine failure; smoking raises cancer risk.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
