@@ -45,6 +45,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Binge eating disorder raises type 2 diabetes risk: recurrent caloric excess drives obesity and insulin resistance, and BED is over-represented among people with T2D, worsening glycemic control; GLP-1 agonists now treat both by enhancing satiety and curbing binges."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Binge eating disorder and depression strongly co-occur and reinforce each other: low mood triggers binge episodes that bring shame and further depression, the two share serotonergic and reward-circuit dysregulation, and SSRIs and lisdexamfetamine treat binge frequency."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Binge eating disorder and borderline personality disorder are linked by impulsivity and emotion dysregulation: binges, like self-harm, discharge unbearable affect, so they frequently co-occur and both improve with dialectical behavior therapy targeting distress tolerance."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Binge eating disorder reflects dysfunction in reward-circuit neurons: blunted dopaminergic signaling in mesolimbic and prefrontal neurons drives compulsive overeating of palatable food like a behavioral addiction, which is why dopaminergic, reward-modulating drugs reduce binges."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -215,6 +224,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Binge eating disorder and bulimia nervosa both feature recurrent loss-of-control binges but differ in aftermath: bulimia adds compensatory purging, fasting or exercise to prevent weight gain, while BED does not—so BED more often leads to obesity; both respond to CBT and SSRIs.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD is strongly linked to binge eating disorder: deficient dopaminergic reward and impulse control predispose to impulsive overeating, the two are highly comorbid, and lisdexamfetamine—an ADHD stimulant—is the only FDA-approved BED drug, dampening the reward salience of food.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Binge eating disorder raises type 2 diabetes risk: recurrent caloric excess drives obesity and insulin resistance, and BED is over-represented among people with T2D, worsening glycemic control; GLP-1 agonists now treat both by enhancing satiety and curbing binges.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Binge eating disorder and depression strongly co-occur and reinforce each other: low mood triggers binge episodes that bring shame and further depression, the two share serotonergic and reward-circuit dysregulation, and SSRIs and lisdexamfetamine treat binge frequency.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Binge eating disorder and borderline personality disorder are linked by impulsivity and emotion dysregulation: binges, like self-harm, discharge unbearable affect, so they frequently co-occur and both improve with dialectical behavior therapy targeting distress tolerance.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Binge eating disorder reflects dysfunction in reward-circuit neurons: blunted dopaminergic signaling in mesolimbic and prefrontal neurons drives compulsive overeating of palatable food like a behavioral addiction, which is why dopaminergic, reward-modulating drugs reduce binges.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

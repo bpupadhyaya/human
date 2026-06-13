@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "Autism is increasingly understood as a synaptopathy: many risk genes (SHANK, neurexin/neuroligin, mTOR regulators) converge on synapse formation, pruning and the excitation/inhibition balance, so altered synaptic signaling underlies the social and sensory phenotype."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Autism and schizophrenia share neurodevelopmental origins and genetics: overlapping copy-number variants (22q11, 16p11) and synaptic genes underlie both, on a continuum of early brain miswiring—though autism presents in childhood and schizophrenia in late adolescence."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Autism and OCD share repetitive behavior but differ in drive: autistic repetitive behaviors are self-soothing and not unwanted, while OCD compulsions relieve ego-dystonic obsessions—yet the two co-occur, so telling comforting routine from distressing ritual guides care."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia are implicated in autism's altered brain wiring: as the synaptic pruners of development, dysregulated microglia may leave excess or aberrant synapses, and signs of neuroinflammation in autistic brains point to immune-neural crosstalk in early circuit formation."
 ---
 
 # Autism Spectrum Disorder
@@ -220,6 +229,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Autism and ADHD are the most common neurodevelopmental comorbidity pair, co-occurring in 30-60%: they share heritability and executive-function and reward differences, DSM-5 now permits dual diagnosis, and ADHD inattention/impulsivity often complicate autistic presentations.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Tuberous sclerosis is a leading single-gene cause of syndromic autism: loss of TSC1/TSC2 disinhibits mTOR, producing cortical tubers, epilepsy and autism in up to half of patients; this links autism to the mTOR synaptic pathway and motivates mTOR-inhibitor trials.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Autism is increasingly understood as a synaptopathy: many risk genes (SHANK, neurexin/neuroligin, mTOR regulators) converge on synapse formation, pruning and the excitation/inhibition balance, so altered synaptic signaling underlies the social and sensory phenotype.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Autism and schizophrenia share neurodevelopmental origins and genetics: overlapping copy-number variants (22q11, 16p11) and synaptic genes underlie both, on a continuum of early brain miswiring—though autism presents in childhood and schizophrenia in late adolescence.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Autism and OCD share repetitive behavior but differ in drive: autistic repetitive behaviors are self-soothing and not unwanted, while OCD compulsions relieve ego-dystonic obsessions—yet the two co-occur, so telling comforting routine from distressing ritual guides care.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia are implicated in autism's altered brain wiring: as the synaptic pruners of development, dysregulated microglia may leave excess or aberrant synapses, and signs of neuroinflammation in autistic brains point to immune-neural crosstalk in early circuit formation.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
