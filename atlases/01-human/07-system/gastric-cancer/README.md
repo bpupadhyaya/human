@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/03-molecular/cdh1
     relation: connects-to
     note: "CDH1 (E-cadherin) loss defines diffuse gastric cancer: without this adhesion molecule cells scatter through the stomach wall as linitis plastica rather than a mass, and germline CDH1 mutation drives hereditary diffuse gastric cancer—prompting prophylactic gastrectomy."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation is among the commonest events in gastric cancer: loss of p53 removes a key checkpoint as H. pylori-driven inflammation and intestinal metaplasia progress to carcinoma, so p53 inactivation marks the late, invasive stage of the Correa cascade."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "KRAS and related signaling drive a subset of gastric cancers: activating mutations push proliferation in intestinal-type tumors, contributing to the molecular diversity (alongside HER2, EBV, MSI) that increasingly guides targeted gastric cancer therapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages shape gastric cancer: recruited into the tumor, they promote invasion, angiogenesis and immune suppression, and high macrophage infiltration predicts worse outcome—part of the microenvironment seeded by chronic H. pylori gastritis."
 ---
 
 # Gastric Cancer
@@ -234,6 +243,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Gastric cancer is part of the FAP tumor spectrum: APC-driven polyposis extends beyond the colon to the stomach, where fundic-gland polyps and gastric adenomas raise cancer risk and warrant upper-GI surveillance—one germline mutation reshaping the gut's risk.
 - `connects-to` → **[GIST](../gist/README.md)** — Gastric cancer and GIST are the two main stomach tumors but from different cells: carcinoma arises from glandular epithelium (H. pylori, CDH1), GIST from KIT-mutant interstitial cells of Cajal, the gut pacemaker—epithelial versus mesenchymal, very different therapy.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — CDH1 (E-cadherin) loss defines diffuse gastric cancer: without this adhesion molecule cells scatter through the stomach wall as linitis plastica rather than a mass, and germline CDH1 mutation drives hereditary diffuse gastric cancer—prompting prophylactic gastrectomy.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is among the commonest events in gastric cancer: loss of p53 removes a key checkpoint as H. pylori-driven inflammation and intestinal metaplasia progress to carcinoma, so p53 inactivation marks the late, invasive stage of the Correa cascade.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS and related signaling drive a subset of gastric cancers: activating mutations push proliferation in intestinal-type tumors, contributing to the molecular diversity (alongside HER2, EBV, MSI) that increasingly guides targeted gastric cancer therapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape gastric cancer: recruited into the tumor, they promote invasion, angiogenesis and immune suppression, and high macrophage infiltration predicts worse outcome—part of the microenvironment seeded by chronic H. pylori gastritis.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "Follicular lymphoma and multiple myeloma are both incurable B-lineage malignancies at different maturation stages: FL is a CD20+ germinal-center B-cell tumor, myeloma a marrow plasma-cell cancer secreting monoclonal protein—both relapse and remit over years."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Follicular lymphoma depends on follicular helper T cells in its microenvironment: the malignant B cells need Tfh signals and a supportive niche to survive, so FL is as much a disease of the microenvironment as of the B cell—explaining its indolent, relapsing course."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Follicular lymphoma is a germinal-center B cell blocked from becoming a plasma cell: the t(14;18) BCL2 translocation lets it resist apoptosis and accumulate instead of maturing into antibody-secreting cells—an indolent buildup unlike high-grade lymphomas."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Follicular lymphoma's behavior is shaped by immune surveillance: the microenvironment can restrain or enable the tumor, and FL can spontaneously regress or transform—so immune-modulating therapies (rituximab, lenalidomide) are central to its largely incurable course."
 ---
 
 # Follicular Lymphoma
@@ -213,6 +222,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Follicular and Hodgkin lymphomas both arise from germinal-center B cells but behave oppositely: follicular is indolent, BCL2-driven and incurable, smoldering for years, while Hodgkin's Reed-Sternberg tumor is aggressive yet highly curable—indolence versus curability.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Follicular and Burkitt lymphomas are germinal-center B-cell tumors at opposite tempos: follicular is slow, BCL2 [t(14;18)]-driven and incurable, while Burkitt is the fastest-growing human tumor, MYC [t(8;14)]-driven yet curable—each named by its translocation.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Follicular lymphoma and multiple myeloma are both incurable B-lineage malignancies at different maturation stages: FL is a CD20+ germinal-center B-cell tumor, myeloma a marrow plasma-cell cancer secreting monoclonal protein—both relapse and remit over years.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Follicular lymphoma depends on follicular helper T cells in its microenvironment: the malignant B cells need Tfh signals and a supportive niche to survive, so FL is as much a disease of the microenvironment as of the B cell—explaining its indolent, relapsing course.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Follicular lymphoma is a germinal-center B cell blocked from becoming a plasma cell: the t(14;18) BCL2 translocation lets it resist apoptosis and accumulate instead of maturing into antibody-secreting cells—an indolent buildup unlike high-grade lymphomas.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Follicular lymphoma's behavior is shaped by immune surveillance: the microenvironment can restrain or enable the tumor, and FL can spontaneously regress or transform—so immune-modulating therapies (rituximab, lenalidomide) are central to its largely incurable course.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
