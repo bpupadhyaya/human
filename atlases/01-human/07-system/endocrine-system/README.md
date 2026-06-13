@@ -59,6 +59,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "The reproductive system is a major endocrine organ: the hypothalamic-pituitary-gonadal axis secretes sex steroids (estrogen, testosterone) that drive puberty, fertility and secondary sexual characteristics and feed back on the brain, weaving reproduction into hormonal control."
+  - target: 01-human/06-organ/thyroid
+    relation: contains
+    note: "The thyroid is the body's metabolic thermostat: hypothalamic TRH and pituitary TSH drive it to release T3/T4 that set metabolic rate, heart rate and thermogenesis, feedback closing the HPT axis—hyper- and hypothyroidism are among the commonest endocrine disorders."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Thyroid cancer is the most common endocrine malignancy: most are papillary tumors that retain TSH responsiveness and iodine uptake, allowing radioactive-iodine therapy and thyroglobulin monitoring—a rare cancer treated through its own hormonal physiology."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium homeostasis is a core endocrine task: parathyroid hormone, calcitonin and calcitriol tune blood calcium via bone, gut and kidney—disorders like hyperparathyroidism or vitamin-D deficiency show the endocrine system guarding one ion's narrow range."
 ---
 
 # Endocrine System
@@ -233,6 +242,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — MEN1 shows how the endocrine system fails as a network: a single germline MEN1 mutation predisposes to synchronous tumors of the parathyroids, pancreatic islets and pituitary, illustrating that endocrine glands share pathways whose disruption causes multi-gland hyperfunction.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth hormone exemplifies the endocrine system's hierarchical axes: the hypothalamus and pituitary release GH, which acts via hepatic IGF-1 on growth and metabolism under feedback control; its excess (acromegaly) or deficiency shows how one hormone integrates the network.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The reproductive system is a major endocrine organ: the hypothalamic-pituitary-gonadal axis secretes sex steroids (estrogen, testosterone) that drive puberty, fertility and secondary sexual characteristics and feed back on the brain, weaving reproduction into hormonal control.
+- `contains` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is the body's metabolic thermostat: hypothalamic TRH and pituitary TSH drive it to release T3/T4 that set metabolic rate, heart rate and thermogenesis, feedback closing the HPT axis—hyper- and hypothyroidism are among the commonest endocrine disorders.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Thyroid cancer is the most common endocrine malignancy: most are papillary tumors that retain TSH responsiveness and iodine uptake, allowing radioactive-iodine therapy and thyroglobulin monitoring—a rare cancer treated through its own hormonal physiology.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium homeostasis is a core endocrine task: parathyroid hormone, calcitonin and calcitriol tune blood calcium via bone, gut and kidney—disorders like hyperparathyroidism or vitamin-D deficiency show the endocrine system guarding one ion's narrow range.
 
 ## Pathology
 

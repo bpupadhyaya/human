@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "DLBCL is classified by its germinal-center relationship: the germinal-center B-cell (GCB) subtype, with BCL2/BCL6 rearrangements, has a better prognosis than the activated B-cell (ABC) subtype driven by chronic NF-κB signaling—a cell-of-origin split that guides therapy."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "DLBCL and mantle cell lymphoma are aggressive B-cell non-Hodgkin lymphomas differing at the core: MCL is defined by t(11;14) cyclin D1 overexpression driving cell-cycle escape, while DLBCL is heterogeneous (GCB vs ABC)—both CD20+ and treated with rituximab regimens."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "DLBCL and Hodgkin lymphoma are both germinal-center B-cell lymphomas but diverge: Hodgkin's malignant Reed-Sternberg cells are sparse amid reactive infiltrate and often EBV-driven, while DLBCL is a sheet of malignant B cells—Hodgkin is highly curable, DLBCL in ~60%."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "DLBCL and multiple myeloma are B-lineage cancers at opposite ends of differentiation: myeloma is a plasma-cell tumor flooding marrow and secreting monoclonal immunoglobulin, while DLBCL is a CD20+ lymph-node B-cell tumor—DLBCL can transform to plasmablastic forms."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -197,6 +206,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[CLL](../cll/README.md)** — DLBCL is the endpoint of Richter transformation: in ~5-10% of CLL the indolent clone evolves into aggressive, often clonally-related diffuse large B-cell lymphoma; this transformation, likelier on BTK-inhibitor therapy, links the commonest indolent and aggressive B-cell cancers.
 - `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Primary CNS lymphoma is a DLBCL confined to the brain, eyes and CSF: an aggressive activated-B-cell-type lymphoma that, behind the blood-brain barrier, needs high-dose methotrexate-based regimens rather than standard R-CHOP, and is far more common in immunosuppression.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — DLBCL is classified by its germinal-center relationship: the germinal-center B-cell (GCB) subtype, with BCL2/BCL6 rearrangements, has a better prognosis than the activated B-cell (ABC) subtype driven by chronic NF-κB signaling—a cell-of-origin split that guides therapy.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — DLBCL and mantle cell lymphoma are aggressive B-cell non-Hodgkin lymphomas differing at the core: MCL is defined by t(11;14) cyclin D1 overexpression driving cell-cycle escape, while DLBCL is heterogeneous (GCB vs ABC)—both CD20+ and treated with rituximab regimens.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — DLBCL and Hodgkin lymphoma are both germinal-center B-cell lymphomas but diverge: Hodgkin's malignant Reed-Sternberg cells are sparse amid reactive infiltrate and often EBV-driven, while DLBCL is a sheet of malignant B cells—Hodgkin is highly curable, DLBCL in ~60%.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — DLBCL and multiple myeloma are B-lineage cancers at opposite ends of differentiation: myeloma is a plasma-cell tumor flooding marrow and secreting monoclonal immunoglobulin, while DLBCL is a CD20+ lymph-node B-cell tumor—DLBCL can transform to plasmablastic forms.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
