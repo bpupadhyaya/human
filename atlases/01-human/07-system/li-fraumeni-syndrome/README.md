@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/all
     relation: connects-to
     note: "Leukemia, including ALL, is part of the LFS spectrum, and germline TP53 worsens its biology — hypodiploid ALL is enriched for TP53 mutations; because TP53 carriers tolerate genotoxic therapy and radiation poorly, treatment intensity and second-cancer risk must be weighed."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Li-Fraumeni patients are dangerously radiosensitive: with germline TP53 loss, ionizing radiation readily induces new (radiation-associated) cancers, so radiotherapy is avoided where possible and surveillance uses non-ionizing whole-body MRI rather than CT."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "Brain tumors are a core Li-Fraumeni cancer: germline TP53 loss predisposes to gliomas including glioblastoma (and in children choroid plexus carcinoma and medulloblastoma), part of the wide spectrum, so new CNS tumors in a cancer-prone family should prompt TP53 testing."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Leukemia is part of the Li-Fraumeni spectrum: germline TP53 mutations predispose to acute leukemias—especially therapy-related AML/MDS after the chemo and radiotherapy used for their other cancers—and somatic TP53-mutant AML is itself among the most treatment-resistant subtypes."
 ---
 
 # Li-Fraumeni Syndrome
@@ -214,6 +223,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Li-Fraumeni and HBOC are the two major hereditary breast cancer syndromes but differ in scope: LFS (germline TP53) causes early breast cancer plus sarcomas, brain tumors, and adrenocortical carcinoma, while HBOC (BRCA1/2) concentrates on breast and ovarian cancer.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Soft-tissue sarcomas including rhabdomyosarcoma are sentinel LFS cancers (the 'S' of the core sarcoma-brain-breast-ACC tetrad); childhood rhabdomyosarcoma, especially the embryonal/anaplastic type, can be the presenting cancer that prompts TP53 germline testing in a young family.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Leukemia, including ALL, is part of the LFS spectrum, and germline TP53 worsens its biology — hypodiploid ALL is enriched for TP53 mutations; because TP53 carriers tolerate genotoxic therapy and radiation poorly, treatment intensity and second-cancer risk must be weighed.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Li-Fraumeni patients are dangerously radiosensitive: with germline TP53 loss, ionizing radiation readily induces new (radiation-associated) cancers, so radiotherapy is avoided where possible and surveillance uses non-ionizing whole-body MRI rather than CT.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Brain tumors are a core Li-Fraumeni cancer: germline TP53 loss predisposes to gliomas including glioblastoma (and in children choroid plexus carcinoma and medulloblastoma), part of the wide spectrum, so new CNS tumors in a cancer-prone family should prompt TP53 testing.
+- `connects-to` → **[AML](../aml/README.md)** — Leukemia is part of the Li-Fraumeni spectrum: germline TP53 mutations predispose to acute leukemias—especially therapy-related AML/MDS after the chemo and radiotherapy used for their other cancers—and somatic TP53-mutant AML is itself among the most treatment-resistant subtypes.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
