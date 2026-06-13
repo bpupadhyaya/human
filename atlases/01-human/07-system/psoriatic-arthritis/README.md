@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Psoriatic arthritis is driven by Th17 helper T cells: IL-23 expands IL-17-producing CD4+ T cells (and innate IL-17 at entheses) that activate neutrophils and osteoclasts — driving inflammation, erosion, and new-bone formation, the rationale for anti-IL-17/IL-23 biologics."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Psoriatic and rheumatoid arthritis are the two major chronic inflammatory arthritides but differ: PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP involvement, and psoriasis, while RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Psoriatic arthritis and gout can mimic and coexist: high cell turnover in psoriasis raises uric acid, so PsA patients get gout more often, and an acutely swollen toe (dactylitis vs podagra) may need joint aspiration to tell crystal arthritis from psoriatic disease."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Psoriatic arthritis uniquely combines bone erosion and new bone formation: TNF and IL-17 drive osteoclasts to erode joints (pencil-in-cup deformity) while stimulating osteoblasts to build syndesmophytes and enthesophytes—a remodeling signature distinct from RA."
 ---
 
 # Psoriatic Arthritis
@@ -221,6 +230,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Psoriatic arthritis grows out of psoriasis: ~30% of psoriasis patients develop it, usually years after the skin disease, and both run on the same IL-23/IL-17 axis — why biologics that clear psoriatic plaques (anti-IL-17, anti-IL-23) also treat the joints.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Psoriatic arthritis attacks the musculoskeletal system distinctively: asymmetric oligoarthritis, distal interphalangeal disease, enthesitis, dactylitis ('sausage digit'), and sacroiliitis — combining erosion with new bone formation, unlike the pure erosion of RA.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Psoriatic arthritis is driven by Th17 helper T cells: IL-23 expands IL-17-producing CD4+ T cells (and innate IL-17 at entheses) that activate neutrophils and osteoclasts — driving inflammation, erosion, and new-bone formation, the rationale for anti-IL-17/IL-23 biologics.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Psoriatic and rheumatoid arthritis are the two major chronic inflammatory arthritides but differ: PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP involvement, and psoriasis, while RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints.
+- `connects-to` → **[Gout](../gout/README.md)** — Psoriatic arthritis and gout can mimic and coexist: high cell turnover in psoriasis raises uric acid, so PsA patients get gout more often, and an acutely swollen toe (dactylitis vs podagra) may need joint aspiration to tell crystal arthritis from psoriatic disease.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Psoriatic arthritis uniquely combines bone erosion and new bone formation: TNF and IL-17 drive osteoclasts to erode joints (pencil-in-cup deformity) while stimulating osteoblasts to build syndesmophytes and enthesophytes—a remodeling signature distinct from RA.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

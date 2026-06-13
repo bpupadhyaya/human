@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The skin is a defining PTCL site: primary cutaneous CD30+ T-cell lymphomas (cutaneous ALCL, lymphomatoid papulosis) and the mycosis fungoides/Sézary spectrum home to skin, often indolent — contrasting with the aggressive nodal PTCLs like AITL and systemic ALCL."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Peripheral T-cell and diffuse large B-cell lymphoma are the aggressive non-Hodgkin lymphomas of the two lineages: PTCL arises from mature T cells, is rarer, and has a worse prognosis than DLBCL, which is CD20+ and responds to rituximab-based R-CHOP that PTCL cannot use."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "PTCL and Hodgkin lymphoma intersect at CD30: anaplastic large cell lymphoma, a PTCL subtype, strongly expresses CD30 like Hodgkin's Reed-Sternberg cells, so the anti-CD30 drug brentuximab vedotin treats both—and the two can be hard to distinguish histologically."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Some peripheral T-cell lymphomas derive from regulatory or follicular-helper T cells: adult T-cell leukemia often has a Treg-like FOXP3+ phenotype and angioimmunoblastic PTCL arises from follicular-helper T cells—so the normal T-cell subset shapes the lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -208,6 +217,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Peripheral T-cell lymphoma and primary CNS lymphoma are aggressive non-Hodgkin lymphomas of opposite lineage: PTCL is a heterogeneous T-cell group (TET2/RHOA/STAT3-driven), PCNSL a CNS-confined B-cell (DLBCL) tumor driven by MYD88 — lineage and site reshape lymphoma biology.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Angioimmunoblastic T-cell lymphoma, a major PTCL subtype, arises from the follicular helper T cell (TFH): tumor cells keep TFH markers (PD-1, CXCL13, ICOS, BCL6) and recruit a reactive B-cell/EBV background, while TET2/DNMT3A/RHOA-G17V mutations drive the malignancy.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is a defining PTCL site: primary cutaneous CD30+ T-cell lymphomas (cutaneous ALCL, lymphomatoid papulosis) and the mycosis fungoides/Sézary spectrum home to skin, often indolent — contrasting with the aggressive nodal PTCLs like AITL and systemic ALCL.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Peripheral T-cell and diffuse large B-cell lymphoma are the aggressive non-Hodgkin lymphomas of the two lineages: PTCL arises from mature T cells, is rarer, and has a worse prognosis than DLBCL, which is CD20+ and responds to rituximab-based R-CHOP that PTCL cannot use.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — PTCL and Hodgkin lymphoma intersect at CD30: anaplastic large cell lymphoma, a PTCL subtype, strongly expresses CD30 like Hodgkin's Reed-Sternberg cells, so the anti-CD30 drug brentuximab vedotin treats both—and the two can be hard to distinguish histologically.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Some peripheral T-cell lymphomas derive from regulatory or follicular-helper T cells: adult T-cell leukemia often has a Treg-like FOXP3+ phenotype and angioimmunoblastic PTCL arises from follicular-helper T cells—so the normal T-cell subset shapes the lymphoma.
 
 ---
 
