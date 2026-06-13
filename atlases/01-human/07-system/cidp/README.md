@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/07-system/multiple-sclerosis
     relation: connects-to
     note: "CIDP is sometimes called the peripheral counterpart of multiple sclerosis: both are immune-mediated demyelinating diseases, but MS attacks central myelin made by oligodendrocytes while CIDP attacks peripheral myelin made by Schwann cells — different cells and different drugs."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "CIDP and myasthenia gravis are both antibody/immune-mediated, treatable autoimmune neuromuscular disorders at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensory loss), MG the postsynaptic junction (fatigable weakness); both improve with IVIG."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "CIDP and diabetes overlap and complicate each other: CIDP is over-represented in diabetes, and distinguishing demyelinating CIDP (which responds to immunotherapy) from common diabetic peripheral neuropathy is a key challenge, since conduction studies and response differ."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "CIDP often causes neuropathic pain alongside its hallmark weakness: demyelination and secondary axonal damage of sensory fibers produce burning, tingling and sensory ataxia, so beyond immunotherapy (IVIG, steroids) patients frequently need gabapentinoids or SNRIs for the pain."
 ---
 
 # CIDP
@@ -216,6 +225,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[ALS](../als/README.md)** — CIDP and ALS both weaken muscles but are opposite kinds of disease: CIDP is an immune attack on peripheral-nerve myelin — chronic, demyelinating, and treatable with IVIG or FcRn inhibitors — while ALS is irreversible degeneration of the motor neuron itself.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells drive the IgG4 subtypes of CIDP: clones producing anti-NF155 or anti-CNTN1 paranodal antibodies cause an aggressive, IVIG-resistant disease, which is why depleting them with rituximab (anti-CD20) or inebilizumab (anti-CD19) works where antibody-clearing therapies do less.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — CIDP is sometimes called the peripheral counterpart of multiple sclerosis: both are immune-mediated demyelinating diseases, but MS attacks central myelin made by oligodendrocytes while CIDP attacks peripheral myelin made by Schwann cells — different cells and different drugs.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — CIDP and myasthenia gravis are both antibody/immune-mediated, treatable autoimmune neuromuscular disorders at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensory loss), MG the postsynaptic junction (fatigable weakness); both improve with IVIG.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — CIDP and diabetes overlap and complicate each other: CIDP is over-represented in diabetes, and distinguishing demyelinating CIDP (which responds to immunotherapy) from common diabetic peripheral neuropathy is a key challenge, since conduction studies and response differ.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — CIDP often causes neuropathic pain alongside its hallmark weakness: demyelination and secondary axonal damage of sensory fibers produce burning, tingling and sensory ataxia, so beyond immunotherapy (IVIG, steroids) patients frequently need gabapentinoids or SNRIs for the pain.
 
 ---
 

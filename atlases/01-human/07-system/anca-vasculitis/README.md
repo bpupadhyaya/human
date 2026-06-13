@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "AAV is a pulmonary-renal syndrome: small-vessel inflammation in the alveolar capillaries causes diffuse alveolar hemorrhage (hemoptysis, hypoxemia) alongside crescentic glomerulonephritis, and GPA additionally produces necrotizing granulomas of the upper and lower airways."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Asthma defines one ANCA-vasculitis subtype: eosinophilic granulomatosis with polyangiitis (EGPA, Churg-Strauss) arises in patients with adult-onset asthma and eosinophilia who then develop vasculitis; only ~40% are ANCA-positive, and anti-IL-5 (mepolizumab) treats it."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin is a common, accessible window on ANCA-vasculitis: small-vessel inflammation produces palpable purpura, livedo, nodules and ulcers, and a skin biopsy showing leukocytoclastic vasculitis helps confirm the diagnosis while sparing the patient an organ biopsy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages build the granulomas of ANCA-vasculitis: in granulomatosis with polyangiitis, neutrophil activation and necrosis recruit macrophages that organize into the necrotizing granulomas of lung and sinuses, distinguishing GPA from non-granulomatous microscopic polyangiitis."
 ---
 
 # ANCA Vasculitis
@@ -211,6 +220,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Giant Cell Arteritis](../giant-cell-arteritis/README.md)** — ANCA vasculitis and giant cell arteritis sit at opposite ends of the vessel spectrum: AAV attacks small vessels with pauci-immune necrotizing inflammation, GCA the large arteries with granulomatous giant cells — contrasting poles classified by vessel caliber and histology.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are the source of ANCA: they become plasma cells secreting IgG against PR3 or MPO, which is why anti-CD20 rituximab (RAVE trial) — depleting B cells and lowering autoantibody titers — is non-inferior to cyclophosphamide for induction and preferred for maintenance.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — AAV is a pulmonary-renal syndrome: small-vessel inflammation in the alveolar capillaries causes diffuse alveolar hemorrhage (hemoptysis, hypoxemia) alongside crescentic glomerulonephritis, and GPA additionally produces necrotizing granulomas of the upper and lower airways.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Asthma defines one ANCA-vasculitis subtype: eosinophilic granulomatosis with polyangiitis (EGPA, Churg-Strauss) arises in patients with adult-onset asthma and eosinophilia who then develop vasculitis; only ~40% are ANCA-positive, and anti-IL-5 (mepolizumab) treats it.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is a common, accessible window on ANCA-vasculitis: small-vessel inflammation produces palpable purpura, livedo, nodules and ulcers, and a skin biopsy showing leukocytoclastic vasculitis helps confirm the diagnosis while sparing the patient an organ biopsy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages build the granulomas of ANCA-vasculitis: in granulomatosis with polyangiitis, neutrophil activation and necrosis recruit macrophages that organize into the necrotizing granulomas of lung and sinuses, distinguishing GPA from non-granulomatous microscopic polyangiitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
