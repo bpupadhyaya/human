@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Pituitary adenomas are one of MEN1's three core tumors and frequently disturb growth hormone: GH-secreting somatotroph adenomas cause acromegaly, while prolactinomas are the commonest MEN1 pituitary tumor—so IGF-1/GH and prolactin screening is part of MEN1 surveillance."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "MEN1 and pheochromocytoma belong to the inherited endocrine-tumor syndromes but rarely overlap: MEN1's parathyroid, pancreatic and pituitary tumors contrast with the adrenal-medullary catecholamine tumors of MEN2 and VHL—so a pheochromocytoma points away from MEN1."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "MEN1 and von Hippel-Lindau are both dominant tumor-suppressor syndromes causing multi-organ tumors: MEN1 gives parathyroid, islet and pituitary tumors, while VHL gives pheochromocytoma, renal cancer and pancreatic NETs—overlapping in the pancreas, differing elsewhere."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal gland is a frequent but often silent MEN1 target: up to 40% of MEN1 patients develop adrenal cortical enlargement or adenomas, usually nonfunctioning, so surveillance imaging covers the adrenals even though parathyroid, pancreatic and pituitary tumors dominate."
 ---
 
 # MEN1 Syndrome
@@ -195,6 +204,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — MEN1 and Carney complex are both hereditary multiple-endocrine-neoplasia syndromes with different drivers: MEN1 (menin loss) gives parathyroid, islet and pituitary tumors; Carney (PRKAR1A/PKA) adds cardiac myxomas, skin pigmentation and PPNAD, with overlapping pituitary disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — MEN1 is the archetypal disease of the endocrine system as a network: a single menin mutation simultaneously transforms the parathyroids, pancreatic islets and anterior pituitary (the '3 Ps'), showing how one tumor-suppressor's loss dysregulates multiple endocrine glands at once.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Pituitary adenomas are one of MEN1's three core tumors and frequently disturb growth hormone: GH-secreting somatotroph adenomas cause acromegaly, while prolactinomas are the commonest MEN1 pituitary tumor—so IGF-1/GH and prolactin screening is part of MEN1 surveillance.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — MEN1 and pheochromocytoma belong to the inherited endocrine-tumor syndromes but rarely overlap: MEN1's parathyroid, pancreatic and pituitary tumors contrast with the adrenal-medullary catecholamine tumors of MEN2 and VHL—so a pheochromocytoma points away from MEN1.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — MEN1 and von Hippel-Lindau are both dominant tumor-suppressor syndromes causing multi-organ tumors: MEN1 gives parathyroid, islet and pituitary tumors, while VHL gives pheochromocytoma, renal cancer and pancreatic NETs—overlapping in the pancreas, differing elsewhere.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a frequent but often silent MEN1 target: up to 40% of MEN1 patients develop adrenal cortical enlargement or adenomas, usually nonfunctioning, so surveillance imaging covers the adrenals even though parathyroid, pancreatic and pituitary tumors dominate.
 
 ---
 

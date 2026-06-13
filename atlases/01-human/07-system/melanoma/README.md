@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "The brain is a frequent and dangerous melanoma metastatic site: melanoma has a particular tropism for the CNS, so brain metastases are common and historically grim, but combined checkpoint inhibitors and stereotactic radiosurgery now achieve meaningful intracranial responses."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Melanoma spreads through the lymphatic system: tumor cells travel skin lymphatics, seeding 'in-transit' deposits and regional nodes, so sentinel-node status is the strongest prognostic factor—and the shift away from complete node dissection spares patients lymphedema."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "Melanoma and basal cell carcinoma are the deadliest and commonest skin cancers: both are UV-driven, but melanoma arises from melanocytes and metastasizes readily, while BCC arises from basal keratinocytes and almost never spreads—lethality versus indolence."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A is the major familial melanoma gene: germline loss of this tumor suppressor (p16INK4a, which restrains CDK4/6) causes familial atypical multiple mole melanoma syndrome, and somatic CDKN2A loss is common in sporadic melanoma—uniting inherited and acquired disease."
 ---
 
 # Melanoma
@@ -173,6 +182,9 @@ cross_links:
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — Cutaneous and uveal melanoma share a melanocytic origin but are otherwise different: cutaneous is UV-driven with BRAF mutations and high mutational burden responsive to immunotherapy, while uveal has GNAQ/GNA11 mutations, liver tropism and poor checkpoint response.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Melanoma is the paradigm immunogenic cancer: its high UV-mutation neoantigen load made it the disease where checkpoint blockade (anti-CTLA-4 ipilimumab, anti-PD-1 nivolumab) first transformed survival, and spontaneous regressions and vitiligo show the immune system recognizes it.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a frequent and dangerous melanoma metastatic site: melanoma has a particular tropism for the CNS, so brain metastases are common and historically grim, but combined checkpoint inhibitors and stereotactic radiosurgery now achieve meaningful intracranial responses.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Melanoma spreads through the lymphatic system: tumor cells travel skin lymphatics, seeding 'in-transit' deposits and regional nodes, so sentinel-node status is the strongest prognostic factor—and the shift away from complete node dissection spares patients lymphedema.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Melanoma and basal cell carcinoma are the deadliest and commonest skin cancers: both are UV-driven, but melanoma arises from melanocytes and metastasizes readily, while BCC arises from basal keratinocytes and almost never spreads—lethality versus indolence.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A is the major familial melanoma gene: germline loss of this tumor suppressor (p16INK4a, which restrains CDK4/6) causes familial atypical multiple mole melanoma syndrome, and somatic CDKN2A loss is common in sporadic melanoma—uniting inherited and acquired disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
