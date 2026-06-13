@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Giant cell arteritis and lupus are both autoimmune but differ sharply: GCA is a granulomatous large-vessel vasculitis of the elderly driven by Th1/Th17 and IL-6, while SLE is an immune-complex multisystem disease of the young—contrasting mechanisms of autoimmunity."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Giant cell arteritis is a glucocorticoid emergency: high-dose cortisol-mimicking steroids must start immediately on suspicion to prevent irreversible blindness from ischemic optic neuropathy—treatment precedes biopsy because delay risks sudden, permanent vision loss."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Giant cell arteritis threatens the nervous system through vascular ischemia: inflamed cranial arteries cause severe headache, jaw claudication and, most feared, sudden blindness from anterior ischemic optic neuropathy, plus a raised risk of stroke."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Giant cell arteritis is an autoimmune large-vessel vasculitis: dendritic cells and IL-6-driven Th17/Th1 responses inflame the artery wall with granulomas and giant cells, so it overlaps with other autoimmunity and responds to IL-6 blockade and steroids."
 ---
 
 # Giant Cell Arteritis
@@ -214,6 +223,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF helps GCA both damage and compensate: inflammatory cytokines drive VEGF that promotes neovascularization in the inflamed artery wall, while ischemia downstream stimulates collateral vessels—so angiogenesis is part of both injury and response in GCA.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Giant cell arteritis is a large-vessel disease that threatens the aorta: beyond the temporal artery, granulomatous inflammation can involve the aorta and its branches, causing thoracic aortic aneurysm and dissection years later—so GCA needs vascular surveillance.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Giant cell arteritis and lupus are both autoimmune but differ sharply: GCA is a granulomatous large-vessel vasculitis of the elderly driven by Th1/Th17 and IL-6, while SLE is an immune-complex multisystem disease of the young—contrasting mechanisms of autoimmunity.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Giant cell arteritis is a glucocorticoid emergency: high-dose cortisol-mimicking steroids must start immediately on suspicion to prevent irreversible blindness from ischemic optic neuropathy—treatment precedes biopsy because delay risks sudden, permanent vision loss.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Giant cell arteritis threatens the nervous system through vascular ischemia: inflamed cranial arteries cause severe headache, jaw claudication and, most feared, sudden blindness from anterior ischemic optic neuropathy, plus a raised risk of stroke.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Giant cell arteritis is an autoimmune large-vessel vasculitis: dendritic cells and IL-6-driven Th17/Th1 responses inflame the artery wall with granulomas and giant cells, so it overlaps with other autoimmunity and responds to IL-6 blockade and steroids.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
