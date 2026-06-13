@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "The DMG microenvironment is rich in microglia and macrophages, especially NF1-mutant spinal tumors, but these are immunosuppressive rather than tumoricidal — one reason checkpoint inhibitors have largely failed and GD2-directed CAR-T is being explored instead."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Diffuse midline glioma and medulloblastoma are the two great malignant pediatric brain tumors at opposite poles: DMG is an unresectable, fatal H3 K27M brainstem glioma, while medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Diffuse midline glioma arises from an OPC-like glial precursor of the astrocyte/oligodendrocyte lineage: the H3 K27M oncohistone freezes these cells in a stem-like state by collapsing H3K27 methylation, so the tumor infiltrates the pons diffusely rather than forming a mass."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy is the only treatment that reliably helps diffuse midline glioma: focal irradiation of the pons gives transient symptom relief and a few months' benefit, but the H3 K27M tumor inevitably regrows—no chemo, surgery, or re-irradiation is curative."
 ---
 
 # Diffuse Midline Glioma
@@ -202,6 +211,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Diffuse midline glioma grows in the brain's midline — pons (DIPG), thalamus, and spinal cord — where infiltrative spread makes surgery impossible; the pontine location compresses cranial nerve nuclei and long tracts, and radiation is the only treatment that briefly helps.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — DMG arises from oligodendrocyte precursor cells (OPCs) of the developing midline: the H3K27M mutation freezes these cells in a proliferative, stem-like state by stalling differentiation, which is why the tumor peaks at ages 5-10 when OPCs are most active in the pons.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — The DMG microenvironment is rich in microglia and macrophages, especially NF1-mutant spinal tumors, but these are immunosuppressive rather than tumoricidal — one reason checkpoint inhibitors have largely failed and GD2-directed CAR-T is being explored instead.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Diffuse midline glioma and medulloblastoma are the two great malignant pediatric brain tumors at opposite poles: DMG is an unresectable, fatal H3 K27M brainstem glioma, while medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Diffuse midline glioma arises from an OPC-like glial precursor of the astrocyte/oligodendrocyte lineage: the H3 K27M oncohistone freezes these cells in a stem-like state by collapsing H3K27 methylation, so the tumor infiltrates the pons diffusely rather than forming a mass.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is the only treatment that reliably helps diffuse midline glioma: focal irradiation of the pons gives transient symptom relief and a few months' benefit, but the H3 K27M tumor inevitably regrows—no chemo, surgery, or re-irradiation is curative.
 
 ---
 

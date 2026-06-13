@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/rhabdomyosarcoma
     relation: connects-to
     note: "Hedgehog hyperactivation links Gorlin syndrome to rare childhood mesenchymal tumors: fetal rhabdomyoma and embryonal rhabdomyosarcoma occur at elevated rates, since GLI drive promotes myogenic progenitor proliferation — part of the developmental-tumor spectrum of PTCH1 loss."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Gorlin syndrome predisposes to meningioma: constitutive hedgehog activation from germline PTCH1 loss—the same pathway driving its basal cell carcinomas and medulloblastomas—also raises meningioma risk, compounded by any prior craniospinal radiotherapy."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Gorlin syndrome's skeletal stigmata reflect hedgehog control of osteoblasts: bifid/splayed ribs, vertebral anomalies, frontal bossing, and a calcified falx cerebri arise because PTCH1 loss dysregulates the hedgehog signaling that patterns bone, aiding radiographic diagnosis."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Cardiac fibroma is a hallmark Gorlin tumor: a benign fibrous mass growing within the myocardium among cardiomyocytes, it is the commonest heart tumor of childhood and, when present, strongly suggests an underlying PTCH1 hedgehog-pathway syndrome."
 ---
 
 # Gorlin Syndrome
@@ -174,6 +183,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Beyond skin and brain, Gorlin syndrome produces benign fibroblastic tumors — cardiac fibromas and ovarian fibromas — reflecting Hedgehog's role in mesenchymal cell fate; these fibromas, with calcified falx and jaw keratocysts, are part of the diagnostic criteria.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 cooperates with Hedgehog activation in Gorlin tumorigenesis: germline PTCH1 loss derepresses SMO/GLI, but UV-induced TP53 mutation removes the apoptotic brake, accelerating the basal cell carcinomas — the same two-hit cooperation seen in sporadic BCC.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Hedgehog hyperactivation links Gorlin syndrome to rare childhood mesenchymal tumors: fetal rhabdomyoma and embryonal rhabdomyosarcoma occur at elevated rates, since GLI drive promotes myogenic progenitor proliferation — part of the developmental-tumor spectrum of PTCH1 loss.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Gorlin syndrome predisposes to meningioma: constitutive hedgehog activation from germline PTCH1 loss—the same pathway driving its basal cell carcinomas and medulloblastomas—also raises meningioma risk, compounded by any prior craniospinal radiotherapy.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Gorlin syndrome's skeletal stigmata reflect hedgehog control of osteoblasts: bifid/splayed ribs, vertebral anomalies, frontal bossing, and a calcified falx cerebri arise because PTCH1 loss dysregulates the hedgehog signaling that patterns bone, aiding radiographic diagnosis.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac fibroma is a hallmark Gorlin tumor: a benign fibrous mass growing within the myocardium among cardiomyocytes, it is the commonest heart tumor of childhood and, when present, strongly suggests an underlying PTCH1 hedgehog-pathway syndrome.
 
 ---
 
