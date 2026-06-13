@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "GCA of the vertebral and carotid arteries can cause posterior-circulation (vertebrobasilar) stroke — distinct from the more common anterior ischemic optic neuropathy; prompt high-dose glucocorticoids reduce this risk, making GCA a treatable cause of stroke in the elderly."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Sudden permanent blindness is the feared emergency of giant-cell arteritis: inflammatory occlusion of the posterior ciliary arteries causes anterior ischemic optic neuropathy, often after jaw claudication and amaurosis fugax; suspected GCA gets immediate high-dose steroids."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Giant-cell arteritis is a large-vessel vasculitis of the cardiovascular system: granulomatous inflammation of the aorta and its branches can cause aneurysm, dissection and arm claudication years after the cranial phase, so long-term vascular imaging surveillance is recommended."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells ignite giant-cell arteritis: resident vascular dendritic cells in the artery's adventitia activate and recruit the CD4+ T cells and macrophages that form the granulomas and giant cells, making them the proposed initiator of the arterial attack."
 ---
 
 # Giant Cell Arteritis
@@ -178,6 +187,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Giant cell arteritis and ANCA vasculitis are vasculitides contrasted by vessel caliber: GCA strikes large arteries with granulomatous giant-cell inflammation, AAV small vessels with pauci-immune necrosis — poles of the vasculitis spectrum sharing IL-6-driven inflammation.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — GCA inflammation centers on the artery wall: macrophage VEGF drives neovascularization of the normally avascular media, while intimal endothelial and myofibroblast proliferation narrows the lumen, producing the ischemic optic neuropathy and jaw claudication that define it.
 - `connects-to` → **[Stroke](../stroke/README.md)** — GCA of the vertebral and carotid arteries can cause posterior-circulation (vertebrobasilar) stroke — distinct from the more common anterior ischemic optic neuropathy; prompt high-dose glucocorticoids reduce this risk, making GCA a treatable cause of stroke in the elderly.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sudden permanent blindness is the feared emergency of giant-cell arteritis: inflammatory occlusion of the posterior ciliary arteries causes anterior ischemic optic neuropathy, often after jaw claudication and amaurosis fugax; suspected GCA gets immediate high-dose steroids.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Giant-cell arteritis is a large-vessel vasculitis of the cardiovascular system: granulomatous inflammation of the aorta and its branches can cause aneurysm, dissection and arm claudication years after the cranial phase, so long-term vascular imaging surveillance is recommended.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells ignite giant-cell arteritis: resident vascular dendritic cells in the artery's adventitia activate and recruit the CD4+ T cells and macrophages that form the granulomas and giant cells, making them the proposed initiator of the arterial attack.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

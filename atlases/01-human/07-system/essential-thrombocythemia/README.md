@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Mild splenomegaly is common in essential thrombocythemia from extramedullary hematopoiesis and pooling; progressive splenic enlargement signals transformation to post-ET myelofibrosis, and prior splenectomy paradoxically raises platelet counts and thrombosis risk."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Essential thrombocythemia is one of the three classic Philadelphia-negative myeloproliferative neoplasms (with PV and PMF): a JAK2/CALR/MPL-driven clonal overproduction—here of platelets—sharing thrombosis risk and the capacity to evolve into myelofibrosis or AML."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Essential thrombocythemia can progress to post-ET myelofibrosis: over years the clone drives marrow reticulin fibrosis, so the platelet-rich blood picture gives way to splenomegaly, cytopenias and a leukoerythroblastic film, converging with primary myelofibrosis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Thrombosis—not bleeding—is the main danger of essential thrombocythemia: the dysfunctional excess platelets and JAK2 mutation create a prothrombotic state causing arterial and venous events, including VTE and unusual-site (splanchnic) thrombosis; aspirin lowers risk."
 ---
 
 # Essential Thrombocythemia
@@ -181,6 +190,9 @@ Management:
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Essential thrombocythemia and DIC are opposite poles of platelet pathology: ET clonally overproduces platelets causing thrombosis (and, at extreme counts, acquired von Willebrand bleeding), while DIC systemically consumes platelets and clotting factors — too many versus too few.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Essential thrombocythemia is a clonal bone marrow disease: a JAK2, CALR, or MPL mutation drives autonomous megakaryocyte hyperplasia, so the marrow shows large, mature, clustered megakaryocytes without the dense fibrosis of primary myelofibrosis — a key WHO distinction.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Mild splenomegaly is common in essential thrombocythemia from extramedullary hematopoiesis and pooling; progressive splenic enlargement signals transformation to post-ET myelofibrosis, and prior splenectomy paradoxically raises platelet counts and thrombosis risk.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Essential thrombocythemia is one of the three classic Philadelphia-negative myeloproliferative neoplasms (with PV and PMF): a JAK2/CALR/MPL-driven clonal overproduction—here of platelets—sharing thrombosis risk and the capacity to evolve into myelofibrosis or AML.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Essential thrombocythemia can progress to post-ET myelofibrosis: over years the clone drives marrow reticulin fibrosis, so the platelet-rich blood picture gives way to splenomegaly, cytopenias and a leukoerythroblastic film, converging with primary myelofibrosis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thrombosis—not bleeding—is the main danger of essential thrombocythemia: the dysfunctional excess platelets and JAK2 mutation create a prothrombotic state causing arterial and venous events, including VTE and unusual-site (splanchnic) thrombosis; aspirin lowers risk.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
