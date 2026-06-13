@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Periostin is a type 2 biomarker in AD: IL-4/IL-13 → STAT6 → dermal fibroblast POSTN → serum periostin correlates with AD severity; dermal periostin → integrin αvβ3 on keratinocytes → TSLP production; periostin tracks type 2 skin inflammation and dupilumab response."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Atopic dermatitis is the prototypical chronic inflammatory skin disease: a defective epidermal barrier (filaggrin loss) lets allergens and microbes in, triggering Th2/IL-4/IL-13 inflammation → itchy, eczematous, lichenified plaques; barrier repair is central to treatment."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Atopic dermatitis is usually the first step of the atopic march: early-life skin-barrier breakdown promotes allergic sensitization that progresses to food allergy, asthma and allergic rhinitis; AD and asthma share Th2/IL-4/IL-13 biology, so dupilumab treats both."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Staphylococcus aureus densely colonizes atopic-dermatitis skin and drives flares: barrier defects and reduced antimicrobial peptides let S. aureus dominate the skin microbiome, and its superantigens and toxins amplify Th2 inflammation and itch—so its load tracks disease severity."
 ---
 
 # Atopic Dermatitis
@@ -186,6 +195,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — ~50-70% of PN patients have comorbid or preceding AD; both share Th2/Th22 axis and respond to dupilumab; PN represents a neural end-stage of the AD itch-scratch cycle with fibrotic nodules and central sensitization; dupilumab is approved for both PN and AD.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from regulatory B cells and Th2 cells dampens AD inflammation; paradoxically, Th2-skewed IL-4/IL-13 environment suppresses macrophage IL-10 production; imbalance between IL-10 and type-2 cytokines determines AD chronicity; IL-10 serum levels inversely correlate with SCORAD.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin is a type 2 biomarker in AD: IL-4/IL-13 → STAT6 → dermal fibroblast POSTN → serum periostin correlates with AD severity; dermal periostin → integrin αvβ3 on keratinocytes → TSLP production; periostin tracks type 2 skin inflammation and dupilumab response.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Atopic dermatitis is the prototypical chronic inflammatory skin disease: a defective epidermal barrier (filaggrin loss) lets allergens and microbes in, triggering Th2/IL-4/IL-13 inflammation → itchy, eczematous, lichenified plaques; barrier repair is central to treatment.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Atopic dermatitis is usually the first step of the atopic march: early-life skin-barrier breakdown promotes allergic sensitization that progresses to food allergy, asthma and allergic rhinitis; AD and asthma share Th2/IL-4/IL-13 biology, so dupilumab treats both.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Staphylococcus aureus densely colonizes atopic-dermatitis skin and drives flares: barrier defects and reduced antimicrobial peptides let S. aureus dominate the skin microbiome, and its superantigens and toxins amplify Th2 inflammation and itch—so its load tracks disease severity.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

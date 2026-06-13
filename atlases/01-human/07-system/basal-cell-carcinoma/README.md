@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "BCC's heavy UV mutational load makes it immunogenic, so when SMO inhibitors fail, anti-PD-1 cemiplimab unleashes cytotoxic CD8+ T cells against tumor neoantigens (EMPOWER-BCC ORR ~30%); conversely, T-cell suppression in transplant recipients raises BCC risk 10-30×."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ultraviolet photons are the prime cause of basal cell carcinoma: UVB induces signature C→T 'UV mutations' in PTCH1 and TP53 of basal keratinocytes, activating Hedgehog signaling; cumulative sun and fair skin make it the commonest human cancer, and photoprotection prevents it."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immunosurveillance restrains basal cell carcinoma: organ-transplant recipients and the chronically immunosuppressed develop BCC at sharply higher rates and more aggressively, showing the immune system normally clears UV-damaged keratinocyte clones before they become tumors."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Basal cell carcinoma depends on its stroma: tumor cells recruit and reprogram fibroblasts into a characteristic peritumoral myxoid stroma that supplies Hedgehog and growth signals, and the retraction cleft between tumor nests and this stroma is a classic histologic clue."
 ---
 
 # Basal Cell Carcinoma
@@ -185,6 +194,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Gorlin syndrome (nevoid BCC syndrome) is the germline form of BCC: an inherited PTCH1 mutation means every cell already carries the first Hedgehog hit, so patients develop dozens to hundreds of BCCs from adolescence — the Mendelian counterpart of sporadic UV-driven BCC.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Basal cell carcinoma and melanoma are the most and least common deadly skin cancers: both UV-driven, but BCC almost never metastasizes (locally destructive via Hedgehog) while melanoma kills through early metastasis (BRAF/MAPK-driven) — biology dictating wholly different care.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — BCC's heavy UV mutational load makes it immunogenic, so when SMO inhibitors fail, anti-PD-1 cemiplimab unleashes cytotoxic CD8+ T cells against tumor neoantigens (EMPOWER-BCC ORR ~30%); conversely, T-cell suppression in transplant recipients raises BCC risk 10-30×.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ultraviolet photons are the prime cause of basal cell carcinoma: UVB induces signature C→T 'UV mutations' in PTCH1 and TP53 of basal keratinocytes, activating Hedgehog signaling; cumulative sun and fair skin make it the commonest human cancer, and photoprotection prevents it.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immunosurveillance restrains basal cell carcinoma: organ-transplant recipients and the chronically immunosuppressed develop BCC at sharply higher rates and more aggressively, showing the immune system normally clears UV-damaged keratinocyte clones before they become tumors.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Basal cell carcinoma depends on its stroma: tumor cells recruit and reprogram fibroblasts into a characteristic peritumoral myxoid stroma that supplies Hedgehog and growth signals, and the retraction cleft between tumor nests and this stroma is a classic histologic clue.
 
 ---
 
