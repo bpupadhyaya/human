@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Diffuse gastric cancer infiltrates through a fibroblast-rich stroma: lacking E-cadherin, signet-ring cells scatter singly through a desmoplastic wall (linitis plastica) rather than forming a mass—so the stomach stiffens diffusely and tumors hide from endoscopy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "CDH1 mutation behind HDGC also drives lobular breast cancer: female carriers face a high lifetime risk of this diffuse breast tumor, so HDGC management includes breast MRI surveillance and consideration of risk-reducing mastectomy alongside prophylactic gastrectomy."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "HDGC can seed the ovary as a Krukenberg tumor: diffuse signet-ring gastric cancer characteristically metastasizes to both ovaries, so bilateral ovarian masses with signet-ring cells should prompt a search for an occult gastric primary."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Diffuse signet-ring gastric cancers like HDGC engage the immune system poorly: they tend to be microsatellite-stable with low mutational burden and an immunosuppressive stroma, so checkpoint immunotherapy works far less well than in intestinal-type gastric cancer."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -207,6 +216,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Helicobacter pylori matters even in CDH1-driven gastric cancer: while HDGC arises from inherited E-cadherin loss rather than infection, H. pylori adds carcinogenic inflammation, so eradicating it is recommended in CDH1 carriers to remove an avoidable second hit.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Losing E-cadherin in HDGC unleashes Wnt/beta-catenin signaling: CDH1 normally tethers beta-catenin at the membrane, so its loss frees beta-catenin to drive proliferation while destroying cell-cell adhesion—driving the diffuse spread of signet-ring cells.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Diffuse gastric cancer infiltrates through a fibroblast-rich stroma: lacking E-cadherin, signet-ring cells scatter singly through a desmoplastic wall (linitis plastica) rather than forming a mass—so the stomach stiffens diffusely and tumors hide from endoscopy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — CDH1 mutation behind HDGC also drives lobular breast cancer: female carriers face a high lifetime risk of this diffuse breast tumor, so HDGC management includes breast MRI surveillance and consideration of risk-reducing mastectomy alongside prophylactic gastrectomy.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — HDGC can seed the ovary as a Krukenberg tumor: diffuse signet-ring gastric cancer characteristically metastasizes to both ovaries, so bilateral ovarian masses with signet-ring cells should prompt a search for an occult gastric primary.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Diffuse signet-ring gastric cancers like HDGC engage the immune system poorly: they tend to be microsatellite-stable with low mutational burden and an immunosuppressive stroma, so checkpoint immunotherapy works far less well than in intestinal-type gastric cancer.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

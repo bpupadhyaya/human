@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "Hereditary pancreatitis causes brittle type 3c diabetes: progressive destruction wipes out not just insulin-secreting beta cells but glucagon-secreting alpha cells, so patients lose counter-regulation and suffer dangerous hypoglycemia—unlike type 1 or 2 diabetes."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Hereditary pancreatitis scars the pancreas into chronic fibrosis: repeated trypsin-driven autodigestion from PRSS1 mutation triggers recurring inflammation that replaces glandular tissue with fibrosis, destroying both digestive and hormone function over years."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Acute attacks of hereditary pancreatitis are neutrophil-driven: prematurely activated trypsin injures acinar cells, recruiting neutrophils that amplify the inflammation (via the NLRP3 inflammasome) into the recurrent painful flares that define the disease."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Hereditary pancreatitis is dominated by chronic, disabling pain: recurrent inflammation sensitizes pancreatic and central nerves, so neuropathic-type pain persists between attacks and becomes the hardest feature to treat—driving opioid use and reduced quality of life."
 ---
 
 # Hereditary Pancreatitis
@@ -243,6 +252,9 @@ cross_links:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive the chronic inflammation of hereditary pancreatitis: recurrent trypsin-triggered acinar injury recruits macrophages that, with stellate cells, lay down fibrosis—so repeated attacks progressively scar the gland toward exocrine and endocrine failure.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hereditary pancreatitis can obstruct the neighboring liver's drainage: an inflamed, fibrotic pancreatic head compresses the common bile duct, causing jaundice and cholestasis—a benign cause of biliary obstruction that can mimic pancreatic cancer.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Hereditary pancreatitis causes brittle type 3c diabetes: progressive destruction wipes out not just insulin-secreting beta cells but glucagon-secreting alpha cells, so patients lose counter-regulation and suffer dangerous hypoglycemia—unlike type 1 or 2 diabetes.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Hereditary pancreatitis scars the pancreas into chronic fibrosis: repeated trypsin-driven autodigestion from PRSS1 mutation triggers recurring inflammation that replaces glandular tissue with fibrosis, destroying both digestive and hormone function over years.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Acute attacks of hereditary pancreatitis are neutrophil-driven: prematurely activated trypsin injures acinar cells, recruiting neutrophils that amplify the inflammation (via the NLRP3 inflammasome) into the recurrent painful flares that define the disease.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Hereditary pancreatitis is dominated by chronic, disabling pain: recurrent inflammation sensitizes pancreatic and central nerves, so neuropathic-type pain persists between attacks and becomes the hardest feature to treat—driving opioid use and reduced quality of life.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
