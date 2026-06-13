@@ -55,6 +55,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/escherichia-coli
     relation: connects-to
     note: "aHUS must be separated from typical HUS caused by Shiga-toxin-producing E. coli: STEC-HUS follows bloody diarrhoea, hits young children, is usually self-limited, and does not respond to eculizumab — whereas complement-driven aHUS does, making the stool toxin test a key fork."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "aHUS and transplant-associated TMA (TA-TMA) in GVHD overlap: both injure endothelium and activate complement to drive microvascular thrombosis with schistocytes, thrombocytopenia and kidney injury; complement variants predispose to TA-TMA, and C5 inhibition can treat both."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "aHUS and PNH are the archetypal complement-mediated diseases treated by C5 blockade: PNH lacks GPI-anchored complement regulators causing hemolysis and thrombosis, while aHUS has uncontrolled alternative-pathway activation on endothelium causing TMA; eculizumab transformed both."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "aHUS is a thrombotic microangiopathy that consumes platelets: complement-injured endothelium triggers platelet adhesion and microthrombi in the renal microvasculature, dropping the count while sparing large vessels; consumed platelets and schistocytes are diagnostic clues."
 ---
 
 # Atypical HUS
@@ -229,6 +238,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is aHUS's main target: uncontrolled alternative complement strikes the glomerular endothelium, seeding microthrombi that occlude capillaries → acute kidney injury and, over repeated episodes, CKD and ESRD; aHUS recurs in transplants unless C5 inhibition continues.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — aHUS is a disease of the glomerular endothelial cell: because mutant Factor H cannot be recruited to the cell surface, the alternative pathway runs unchecked there → MAC sublytically injures the endothelium → VWF release and platelet adhesion → the microthrombi of TMA.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — aHUS must be separated from typical HUS caused by Shiga-toxin-producing E. coli: STEC-HUS follows bloody diarrhoea, hits young children, is usually self-limited, and does not respond to eculizumab — whereas complement-driven aHUS does, making the stool toxin test a key fork.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — aHUS and transplant-associated TMA (TA-TMA) in GVHD overlap: both injure endothelium and activate complement to drive microvascular thrombosis with schistocytes, thrombocytopenia and kidney injury; complement variants predispose to TA-TMA, and C5 inhibition can treat both.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — aHUS and PNH are the archetypal complement-mediated diseases treated by C5 blockade: PNH lacks GPI-anchored complement regulators causing hemolysis and thrombosis, while aHUS has uncontrolled alternative-pathway activation on endothelium causing TMA; eculizumab transformed both.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — aHUS is a thrombotic microangiopathy that consumes platelets: complement-injured endothelium triggers platelet adhesion and microthrombi in the renal microvasculature, dropping the count while sparing large vessels; consumed platelets and schistocytes are diagnostic clues.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

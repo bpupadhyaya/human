@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Donor regulatory T cells are the protective counterweight in GvHD: through IL-10 and TGF-β they restrain alloreactive effector T cells, and the graft's Treg-to-conventional-T ratio predicts tolerance versus disease — the rationale behind post-transplant cyclophosphamide."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "Transplant-associated TMA is a serious allo-transplant complication overlapping with aHUS: conditioning, calcineurin inhibitors, infection and GVHD injure endothelium and activate complement → schistocytic hemolysis, thrombocytopenia and renal TMA; complement therapy can help."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "GVHD is the chief toxicity of the allogeneic stem-cell transplant used to cure AML and other leukemias: donor T cells attacking host tissue cause GVHD, but the same alloreactivity gives the curative graft-versus-leukemia effect—separating that benefit from GVHD harm is the art."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a major target organ of GVHD: donor T-cell attack on bile-duct epithelium causes a cholestatic hepatitis with rising bilirubin and alkaline phosphatase, part of the classic skin-gut-liver triad of acute GVHD; severe hepatic GVHD carries a poor prognosis."
 ---
 
 # Graft-Versus-Host Disease
@@ -205,6 +214,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Skin is the first and most common target of acute graft-versus-host disease: donor CD8 T cells kill basal keratinocytes, producing a maculopapular rash that can progress to bullae, while chronic GvHD turns the skin lichenoid and sclerodermatous.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Ruxolitinib, a JAK1/JAK2 inhibitor, is the approved treatment for steroid-refractory graft-versus-host disease, both acute and chronic: by blocking JAK-STAT signaling downstream of IL-6, IFN-γ, and IL-12 it suppresses Th1/Th17 effectors while sparing regulatory T cells.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Donor regulatory T cells are the protective counterweight in GvHD: through IL-10 and TGF-β they restrain alloreactive effector T cells, and the graft's Treg-to-conventional-T ratio predicts tolerance versus disease — the rationale behind post-transplant cyclophosphamide.
+- `connects-to` → **[Atypical HUS](../ahus/README.md)** — Transplant-associated TMA is a serious allo-transplant complication overlapping with aHUS: conditioning, calcineurin inhibitors, infection and GVHD injure endothelium and activate complement → schistocytic hemolysis, thrombocytopenia and renal TMA; complement therapy can help.
+- `connects-to` → **[AML](../aml/README.md)** — GVHD is the chief toxicity of the allogeneic stem-cell transplant used to cure AML and other leukemias: donor T cells attacking host tissue cause GVHD, but the same alloreactivity gives the curative graft-versus-leukemia effect—separating that benefit from GVHD harm is the art.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a major target organ of GVHD: donor T-cell attack on bile-duct epithelium causes a cholestatic hepatitis with rising bilirubin and alkaline phosphatase, part of the classic skin-gut-liver triad of acute GVHD; severe hepatic GVHD carries a poor prognosis.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
