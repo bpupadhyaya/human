@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Thrombocytopenia from dysplastic megakaryopoiesis is a key MDS cytopenia: the clone produces few and abnormal platelets, causing bleeding, while the del(5q) MDS subtype paradoxically runs high platelets and responds dramatically to lenalidomide."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "MDS and myeloproliferative neoplasms are overlapping clonal stem-cell disorders: MDS shows dysplasia and cytopenias, MPNs show overproduction, and the MDS/MPN-overlap category blends both—different faces of mutated hematopoietic stem cells."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "MDS is part of the Li-Fraumeni and inherited marrow-failure spectrum: germline TP53 loss predisposes to MDS and therapy-related MDS/AML, and TP53-mutant MDS is high-risk and treatment-resistant—linking a hereditary cancer syndrome to clonal marrow disease."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "MDS and iron-deficiency anemia are opposite anemias: iron deficiency is microcytic from low iron, while MDS is a macrocytic dysplastic marrow-failure anemia with normal/high iron—so unexplained macrocytic anemia in older adults warrants marrow study."
 ---
 
 # Myelodysplastic Syndromes
@@ -190,6 +199,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — MDS and CMML are overlapping clonal marrow disorders divided by the WHO: pure MDS is dysplasia with cytopenias and no proliferation, while CMML (an MDS/MPN overlap) adds persistent monocytosis—but both share mutations (TET2, SRSF2, ASXL1) and can progress to AML.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is an established cause of MDS: atomic-bomb survivors and patients given radiotherapy develop therapy-related MDS years later, typically with -7/-5 cytogenetics and TP53 mutations and a poor prognosis—radiation injuring the hematopoietic stem cell.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia from dysplastic megakaryopoiesis is a key MDS cytopenia: the clone produces few and abnormal platelets, causing bleeding, while the del(5q) MDS subtype paradoxically runs high platelets and responds dramatically to lenalidomide.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — MDS and myeloproliferative neoplasms are overlapping clonal stem-cell disorders: MDS shows dysplasia and cytopenias, MPNs show overproduction, and the MDS/MPN-overlap category blends both—different faces of mutated hematopoietic stem cells.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — MDS is part of the Li-Fraumeni and inherited marrow-failure spectrum: germline TP53 loss predisposes to MDS and therapy-related MDS/AML, and TP53-mutant MDS is high-risk and treatment-resistant—linking a hereditary cancer syndrome to clonal marrow disease.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — MDS and iron-deficiency anemia are opposite anemias: iron deficiency is microcytic from low iron, while MDS is a macrocytic dysplastic marrow-failure anemia with normal/high iron—so unexplained macrocytic anemia in older adults warrants marrow study.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

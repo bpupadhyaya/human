@@ -62,6 +62,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Bone is continuously remodeled by the osteoclast-osteoblast balance: osteoclasts resorb old bone while osteoblasts rebuild it, and tipping toward resorption (estrogen loss, RANKL excess) causes osteoporosis—the target of bisphosphonates and denosumab."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Osteoporosis is the commonest disease of the musculoskeletal system's bone: an imbalance favoring osteoclast resorption over osteoblast formation thins the skeleton, so fractures of the hip, spine and wrist are the system's leading cause of disability in older adults."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Osteosarcoma is the principal primary bone cancer of the musculoskeletal system: malignant osteoblasts produce disorganized bone, striking the metaphyses of growing adolescents—turning the system's bone-building machinery into an aggressive, lung-metastasizing tumor."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system's joints: immune attack on the synovium forms an invasive pannus that erodes cartilage and bone, deforming joints—autoimmunity striking the skeleton's moving parts."
 ---
 
 # Musculoskeletal System
@@ -213,6 +222,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sex hormones from the reproductive system build the musculoskeletal system: testosterone and estrogen drive the pubertal growth spurt, muscle mass, and peak bone density, while menopausal estrogen loss accelerates osteoporosis—tying gonadal function to skeletal health.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The musculoskeletal system is under tight endocrine control: growth hormone/IGF-1, thyroid hormone, PTH, vitamin D, and sex steroids govern bone and muscle, while bone itself secretes osteocalcin and FGF23—so endocrine disease often presents as fractures or weakness.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bone is continuously remodeled by the osteoclast-osteoblast balance: osteoclasts resorb old bone while osteoblasts rebuild it, and tipping toward resorption (estrogen loss, RANKL excess) causes osteoporosis—the target of bisphosphonates and denosumab.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Osteoporosis is the commonest disease of the musculoskeletal system's bone: an imbalance favoring osteoclast resorption over osteoblast formation thins the skeleton, so fractures of the hip, spine and wrist are the system's leading cause of disability in older adults.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Osteosarcoma is the principal primary bone cancer of the musculoskeletal system: malignant osteoblasts produce disorganized bone, striking the metaphyses of growing adolescents—turning the system's bone-building machinery into an aggressive, lung-metastasizing tumor.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system's joints: immune attack on the synovium forms an invasive pannus that erodes cartilage and bone, deforming joints—autoimmunity striking the skeleton's moving parts.
 
 ## Pathology
 
