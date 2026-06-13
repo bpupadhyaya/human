@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "JPS shares its key gene with pancreatic cancer: SMAD4 (DPC4), mutated in juvenile polyps, is also lost in most pancreatic adenocarcinomas—both show how dismantling TGF-β/BMP growth control transforms epithelium: benign-prone colon polyps versus lethal pancreatic cancer."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Juvenile polyposis links BMP/SMAD4 loss to Wnt-driven growth: SMAD4 or BMPR1A mutations remove a brake on epithelial proliferation, and crosstalk with Wnt/beta-catenin fuels the hamartomatous polyps—mechanistically distinct from APC-driven adenomatous polyposis."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Juvenile polyposis can stud the whole gut including the small intestine: hamartomatous polyps arise throughout the GI tract, not just the colon, so surveillance and bleeding/obstruction risk extend beyond the large bowel."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron-deficiency anemia is a classic presentation of juvenile polyposis: friable GI hamartomas bleed chronically, so children present with anemia, rectal bleeding or polyp prolapse—often the first clue that prompts colonoscopy and genetic testing."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -217,6 +226,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — JPS and pulmonary arterial hypertension converge on BMP/TGF-β signaling: SMAD4 and BMPR1A mutations cause juvenile polyposis (often overlapping HHT), and the same BMP genes underlie PAH—one pathway yielding gut polyps, vascular malformations and pulmonary hypertension.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — JPS and Cowden are both hamartomatous polyposis syndromes with different genes: JPS from SMAD4/BMPR1A (TGF-β/BMP) loss, Cowden from PTEN (PI3K-AKT) loss—both fill the gut with hamartomatous polyps and raise GI cancer risk, while Cowden adds breast and thyroid tumors.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — JPS shares its key gene with pancreatic cancer: SMAD4 (DPC4), mutated in juvenile polyps, is also lost in most pancreatic adenocarcinomas—both show how dismantling TGF-β/BMP growth control transforms epithelium: benign-prone colon polyps versus lethal pancreatic cancer.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Juvenile polyposis links BMP/SMAD4 loss to Wnt-driven growth: SMAD4 or BMPR1A mutations remove a brake on epithelial proliferation, and crosstalk with Wnt/beta-catenin fuels the hamartomatous polyps—mechanistically distinct from APC-driven adenomatous polyposis.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Juvenile polyposis can stud the whole gut including the small intestine: hamartomatous polyps arise throughout the GI tract, not just the colon, so surveillance and bleeding/obstruction risk extend beyond the large bowel.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron-deficiency anemia is a classic presentation of juvenile polyposis: friable GI hamartomas bleed chronically, so children present with anemia, rectal bleeding or polyp prolapse—often the first clue that prompts colonoscopy and genetic testing.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
