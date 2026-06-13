@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/polycythemia-vera
     relation: connects-to
     note: "VHL connects to polycythemia through the HIF pathway: pVHL normally degrades HIF, so its loss stabilizes HIF and drives erythropoietin—and the germline VHL mutation of Chuvash polycythemia causes congenital erythrocytosis, a primary cause of high red-cell mass."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is VHL disease's most lethal target: VHL loss stabilizes HIF, so carriers develop multiple, recurrent clear cell renal cell carcinomas—the leading cause of death—prompting lifelong renal imaging and nephron-sparing surgery to preserve kidney function."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VHL disease is the prototype of VEGF-driven tumors: losing VHL stabilizes HIF, which floods tissue with VEGF to build the vessel-rich hemangioblastomas and renal cancers—so HIF-2a (belzutifan) and anti-VEGF drugs directly target the syndrome's core defect."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "VHL sits at the heart of cellular oxygen sensing: the VHL protein normally tags HIF for destruction when oxygen is plentiful, so its loss makes cells behave as if hypoxic—pseudohypoxia driving erythropoietin, angiogenesis and tumor growth even in normal oxygen."
 ---
 
 # VHL Disease
@@ -209,6 +218,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — VHL and MEN1 are both dominant tumor-suppressor syndromes producing pancreatic tumors via different genes: VHL gives hemangioblastomas, clear-cell RCC, pheochromocytoma and pancreatic NETs, while MEN1 gives parathyroid, islet and pituitary tumors.
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — VHL and Birt-Hogg-Dubé are hereditary kidney-cancer syndromes with distinct histologies: VHL's pVHL loss drives clear-cell RCC, while BHD's FLCN loss gives chromophobe/oncocytic tumors, lung cysts and skin fibrofolliculomas—each a different RCC.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — VHL connects to polycythemia through the HIF pathway: pVHL normally degrades HIF, so its loss stabilizes HIF and drives erythropoietin—and the germline VHL mutation of Chuvash polycythemia causes congenital erythrocytosis, a primary cause of high red-cell mass.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is VHL disease's most lethal target: VHL loss stabilizes HIF, so carriers develop multiple, recurrent clear cell renal cell carcinomas—the leading cause of death—prompting lifelong renal imaging and nephron-sparing surgery to preserve kidney function.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VHL disease is the prototype of VEGF-driven tumors: losing VHL stabilizes HIF, which floods tissue with VEGF to build the vessel-rich hemangioblastomas and renal cancers—so HIF-2a (belzutifan) and anti-VEGF drugs directly target the syndrome's core defect.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — VHL sits at the heart of cellular oxygen sensing: the VHL protein normally tags HIF for destruction when oxygen is plentiful, so its loss makes cells behave as if hypoxic—pseudohypoxia driving erythropoietin, angiogenesis and tumor growth even in normal oxygen.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

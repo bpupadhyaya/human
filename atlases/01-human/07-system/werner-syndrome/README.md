@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Werner syndrome is a model of premature cardiovascular aging: WRN loss accelerates atherosclerosis, so myocardial infarction and stroke are leading causes of death by the third-to-fifth decades—a monogenic window onto how cellular aging drives cardiovascular disease."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Werner syndrome is accelerated aging from genome instability overwhelming p53: WRN helicase loss lets DNA damage and telomere attrition accumulate, triggering premature senescence and cancer—so the p53 checkpoint fires early, aging the body decades ahead of time."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Werner syndrome's skin mimics scleroderma and aging: WRN loss produces tight, atrophic, scleroderma-like skin with ulcers over pressure points and graying hair in early adulthood—often the first visible sign of this segmental progeroid syndrome."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Werner syndrome drives premature fibrosis and connective-tissue aging: defective DNA repair pushes fibroblasts into senescence, and the resulting tissue stiffening underlies its scleroderma-like skin and atherosclerosis—aging at the connective-tissue level."
 ---
 
 # Werner Syndrome
@@ -250,6 +259,9 @@ cross_links:
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Werner and Li-Fraumeni both predispose to multiple cancers via different failures: Werner's WRN helicase loss causes genomic instability and rare sarcomas/melanoma, while Li-Fraumeni's TP53 loss removes the genome's guardian—instability versus checkpoint failure.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Werner syndrome accelerates the cellular senescence that CDKN2A governs: WRN helicase loss causes replicative stress and telomere attrition, so cells hit p16/CDKN2A senescence early—driving premature aging, while CDKN2A loss instead enables its cancers.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Werner syndrome is a model of premature cardiovascular aging: WRN loss accelerates atherosclerosis, so myocardial infarction and stroke are leading causes of death by the third-to-fifth decades—a monogenic window onto how cellular aging drives cardiovascular disease.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Werner syndrome is accelerated aging from genome instability overwhelming p53: WRN helicase loss lets DNA damage and telomere attrition accumulate, triggering premature senescence and cancer—so the p53 checkpoint fires early, aging the body decades ahead of time.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Werner syndrome's skin mimics scleroderma and aging: WRN loss produces tight, atrophic, scleroderma-like skin with ulcers over pressure points and graying hair in early adulthood—often the first visible sign of this segmental progeroid syndrome.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Werner syndrome drives premature fibrosis and connective-tissue aging: defective DNA repair pushes fibroblasts into senescence, and the resulting tissue stiffening underlies its scleroderma-like skin and atherosclerosis—aging at the connective-tissue level.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
