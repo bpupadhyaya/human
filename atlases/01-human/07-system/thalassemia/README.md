@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Thalassemia causes a distinctive osteoporosis: marrow expansion from chronic anemia thins cortical bone, while iron overload and endocrine damage impair osteoblasts and sex hormones—so fragility fractures are common and bone-density monitoring is part of care."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietin runs high in thalassemia: severe anemia drives massive EPO release, but defective globin chains make erythropoiesis ineffective, so the marrow expands uselessly—causing skeletal deformities and extramedullary hematopoiesis instead of functional red cells."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Thalassemia impairs oxygen delivery at its root: too few normal hemoglobin tetramers mean less oxygen per red cell, so tissues stay hypoxic despite a racing marrow—and the hypoxic drive fuels the bone expansion and high-output cardiac strain of severe disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Iron overload makes thalassemia an endocrine disease: transfusion and gut iron deposit in glands, causing diabetes, hypogonadism, hypothyroidism and growth failure, so the endocrine system bears much of the chronic morbidity—and iron chelation aims to prevent it."
 ---
 
 # Thalassemia
@@ -234,6 +243,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen bears the brunt of thalassemia: it works overtime clearing defective red cells and hosts extramedullary hematopoiesis, enlarging massively and worsening anemia by trapping blood—so splenectomy is sometimes needed but leaves patients prone to sepsis.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a major casualty of transfusion-dependent thalassemia: lifelong transfusions and increased gut iron absorption load the liver with iron, causing cirrhosis unless iron chelation is maintained—and hepatic iron quantified by MRI guides chelation therapy.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Thalassemia causes a distinctive osteoporosis: marrow expansion from chronic anemia thins cortical bone, while iron overload and endocrine damage impair osteoblasts and sex hormones—so fragility fractures are common and bone-density monitoring is part of care.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin runs high in thalassemia: severe anemia drives massive EPO release, but defective globin chains make erythropoiesis ineffective, so the marrow expands uselessly—causing skeletal deformities and extramedullary hematopoiesis instead of functional red cells.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Thalassemia impairs oxygen delivery at its root: too few normal hemoglobin tetramers mean less oxygen per red cell, so tissues stay hypoxic despite a racing marrow—and the hypoxic drive fuels the bone expansion and high-output cardiac strain of severe disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Iron overload makes thalassemia an endocrine disease: transfusion and gut iron deposit in glands, causing diabetes, hypogonadism, hypothyroidism and growth failure, so the endocrine system bears much of the chronic morbidity—and iron chelation aims to prevent it.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

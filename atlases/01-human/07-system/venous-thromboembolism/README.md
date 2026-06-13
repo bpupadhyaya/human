@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "COVID-19 dramatically raises venous thromboembolism risk: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, so hospitalized patients develop DVT and pulmonary embolism at high rates and receive thromboprophylaxis, with D-dimer marking severity."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets help build venous thrombi: though VTE is a fibrin-rich red clot, activated platelets still seed and propagate it, which is why some antiplatelet therapy reduces recurrence—blurring the old line between arterial and venous clots."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen is a leading reversible cause of VTE: oral contraceptives, hormone therapy and pregnancy raise clotting factors and lower anticoagulant proteins, multiplying thrombosis risk—especially when combined with factor V Leiden or other inherited thrombophilias."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity steadily raises VTE risk: adipose-driven inflammation, higher clotting factors and venous stasis from immobility combine to promote thrombosis, so weight is an independent, modifiable risk factor that compounds surgery, pregnancy and hormonal triggers."
 ---
 
 # Venous Thromboembolism
@@ -210,6 +219,9 @@ cross_links:
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Polycythemia vera is a major acquired cause of venous thromboembolism: high hematocrit and JAK2-mutant prothrombotic blood drive clots, including splanchnic-vein thromboses (Budd-Chiari, portal vein) that can be the first sign—so unusual-site VTE prompts JAK2 testing.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer is a leading cause of venous thromboembolism, and pancreatic cancer is the classic high-risk tumor (Trousseau syndrome): mucin and tissue factor make the blood intensely prothrombotic, so migratory or unprovoked VTE can be the presenting clue to an occult malignancy.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — COVID-19 dramatically raises venous thromboembolism risk: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, so hospitalized patients develop DVT and pulmonary embolism at high rates and receive thromboprophylaxis, with D-dimer marking severity.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets help build venous thrombi: though VTE is a fibrin-rich red clot, activated platelets still seed and propagate it, which is why some antiplatelet therapy reduces recurrence—blurring the old line between arterial and venous clots.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen is a leading reversible cause of VTE: oral contraceptives, hormone therapy and pregnancy raise clotting factors and lower anticoagulant proteins, multiplying thrombosis risk—especially when combined with factor V Leiden or other inherited thrombophilias.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity steadily raises VTE risk: adipose-driven inflammation, higher clotting factors and venous stasis from immobility combine to promote thrombosis, so weight is an independent, modifiable risk factor that compounds surgery, pregnancy and hormonal triggers.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
