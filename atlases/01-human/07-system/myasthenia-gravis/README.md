@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Myasthenia gravis is a postsynaptic disease: the motor neuron terminal releases acetylcholine normally, but antibody-mediated loss of muscle AChRs blunts the endplate response — distinguishing it from Lambert-Eaton syndrome, where antibodies block presynaptic calcium channels."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "Myasthenia gravis is the prototypical neuromuscular-junction disease: anti-AChR (or MuSK) autoantibodies plus complement destroy the folded postsynaptic endplate, so repeated firing fatigues transmission → fluctuating weakness; AChE inhibitors raise available ACh."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Myasthenia gravis is a T-cell-dependent autoimmune disease: CD4+ T helper cells, often primed in a hyperplastic or thymomatous thymus, drive B cells to make high-affinity anti-AChR IgG; this T-cell help is why thymectomy and broad immunosuppression are therapeutic."
+  - target: 01-human/07-system/cidp
+    relation: connects-to
+    note: "Myasthenia gravis and CIDP are both antibody/complement-mediated, treatable autoimmune neuromuscular disorders at different sites: MG hits the postsynaptic junction (fatigable weakness, normal reflexes), CIDP attacks nerve myelin (areflexia, sensory loss); both improve with IVIG."
 ---
 
 # Myasthenia Gravis
@@ -178,6 +187,9 @@ cross_links:
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Myasthenia gravis and multiple sclerosis are both autoimmune neurological diseases on opposite sides of the synapse and the immune system: MG is an antibody-and-complement attack on the neuromuscular junction (peripheral), while MS is T-cell demyelination of central myelin.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antibody subclass dictates myasthenia gravis: AChR+ MG runs on complement-fixing IgG1/IgG3 (so eculizumab works), whereas MuSK+ MG is driven by non-complement IgG4 that blocks MuSK signaling; FcRn inhibitors like efgartigimod treat both by speeding IgG breakdown.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Myasthenia gravis is a postsynaptic disease: the motor neuron terminal releases acetylcholine normally, but antibody-mediated loss of muscle AChRs blunts the endplate response — distinguishing it from Lambert-Eaton syndrome, where antibodies block presynaptic calcium channels.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Myasthenia gravis is the prototypical neuromuscular-junction disease: anti-AChR (or MuSK) autoantibodies plus complement destroy the folded postsynaptic endplate, so repeated firing fatigues transmission → fluctuating weakness; AChE inhibitors raise available ACh.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Myasthenia gravis is a T-cell-dependent autoimmune disease: CD4+ T helper cells, often primed in a hyperplastic or thymomatous thymus, drive B cells to make high-affinity anti-AChR IgG; this T-cell help is why thymectomy and broad immunosuppression are therapeutic.
+- `connects-to` → **[CIDP](../cidp/README.md)** — Myasthenia gravis and CIDP are both antibody/complement-mediated, treatable autoimmune neuromuscular disorders at different sites: MG hits the postsynaptic junction (fatigable weakness, normal reflexes), CIDP attacks nerve myelin (areflexia, sensory loss); both improve with IVIG.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
