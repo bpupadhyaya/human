@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Follicular lymphoma arises directly from the germinal center: a malignancy of follicle-center B cells frozen mid-reaction that recapitulates follicular architecture, and its founding t(14;18) drives constitutive BCL2 to block the apoptosis that normally prunes these cells."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Follicular and Hodgkin lymphomas both arise from germinal-center B cells but behave oppositely: follicular is indolent, BCL2-driven and incurable, smoldering for years, while Hodgkin's Reed-Sternberg tumor is aggressive yet highly curable—indolence versus curability."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Follicular and Burkitt lymphomas are germinal-center B-cell tumors at opposite tempos: follicular is slow, BCL2 [t(14;18)]-driven and incurable, while Burkitt is the fastest-growing human tumor, MYC [t(8;14)]-driven yet curable—each named by its translocation."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Follicular lymphoma and multiple myeloma are both incurable B-lineage malignancies at different maturation stages: FL is a CD20+ germinal-center B-cell tumor, myeloma a marrow plasma-cell cancer secreting monoclonal protein—both relapse and remit over years."
 ---
 
 # Follicular Lymphoma
@@ -201,6 +210,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[CLL](../cll/README.md)** — Follicular lymphoma and CLL/SLL are the commonest indolent B-cell lymphomas: both slow-growing, manageable-but-incurable, and prone to transformation into aggressive DLBCL (Richter for CLL); they differ in origin—germinal-center FL with t(14;18)/BCL2 vs CD5+ post-GC CLL.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Follicular lymphoma is a disease of the lymphatic system: malignant germinal-center B cells expand lymph-node follicles, producing the waxing-and-waning painless lymphadenopathy that is its hallmark, with spread to spleen and marrow; many cases are watched while asymptomatic.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Follicular lymphoma arises directly from the germinal center: a malignancy of follicle-center B cells frozen mid-reaction that recapitulates follicular architecture, and its founding t(14;18) drives constitutive BCL2 to block the apoptosis that normally prunes these cells.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Follicular and Hodgkin lymphomas both arise from germinal-center B cells but behave oppositely: follicular is indolent, BCL2-driven and incurable, smoldering for years, while Hodgkin's Reed-Sternberg tumor is aggressive yet highly curable—indolence versus curability.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Follicular and Burkitt lymphomas are germinal-center B-cell tumors at opposite tempos: follicular is slow, BCL2 [t(14;18)]-driven and incurable, while Burkitt is the fastest-growing human tumor, MYC [t(8;14)]-driven yet curable—each named by its translocation.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Follicular lymphoma and multiple myeloma are both incurable B-lineage malignancies at different maturation stages: FL is a CD20+ germinal-center B-cell tumor, myeloma a marrow plasma-cell cancer secreting monoclonal protein—both relapse and remit over years.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

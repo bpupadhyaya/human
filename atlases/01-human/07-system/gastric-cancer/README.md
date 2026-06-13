@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Iron-deficiency anemia is a classic presenting sign of gastric cancer: chronic occult blood loss from an ulcerated tumor (and impaired absorption from atrophic gastritis) depletes iron, so unexplained IDA—especially in older adults—mandates upper endoscopy to exclude it."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Gastric cancer is part of the FAP tumor spectrum: APC-driven polyposis extends beyond the colon to the stomach, where fundic-gland polyps and gastric adenomas raise cancer risk and warrant upper-GI surveillance—one germline mutation reshaping the gut's risk."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "Gastric cancer and GIST are the two main stomach tumors but from different cells: carcinoma arises from glandular epithelium (H. pylori, CDH1), GIST from KIT-mutant interstitial cells of Cajal, the gut pacemaker—epithelial versus mesenchymal, very different therapy."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "CDH1 (E-cadherin) loss defines diffuse gastric cancer: without this adhesion molecule cells scatter through the stomach wall as linitis plastica rather than a mass, and germline CDH1 mutation drives hereditary diffuse gastric cancer—prompting prophylactic gastrectomy."
 ---
 
 # Gastric Cancer
@@ -222,6 +231,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Gastric and colorectal cancer are both GI adenocarcinomas sharing pathways and predispositions: microsatellite-unstable subtypes of each respond to checkpoint inhibitors, both arise in Lynch syndrome, and both are screened by endoscopy where incidence is high.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Gastric cancer is part of the Lynch syndrome tumor spectrum: germline mismatch-repair mutations raise gastric (especially intestinal-type) cancer risk alongside colorectal and endometrial cancer, so MMR/MSI testing and upper endoscopic surveillance are warranted in carriers.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron-deficiency anemia is a classic presenting sign of gastric cancer: chronic occult blood loss from an ulcerated tumor (and impaired absorption from atrophic gastritis) depletes iron, so unexplained IDA—especially in older adults—mandates upper endoscopy to exclude it.
+- `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Gastric cancer is part of the FAP tumor spectrum: APC-driven polyposis extends beyond the colon to the stomach, where fundic-gland polyps and gastric adenomas raise cancer risk and warrant upper-GI surveillance—one germline mutation reshaping the gut's risk.
+- `connects-to` → **[GIST](../gist/README.md)** — Gastric cancer and GIST are the two main stomach tumors but from different cells: carcinoma arises from glandular epithelium (H. pylori, CDH1), GIST from KIT-mutant interstitial cells of Cajal, the gut pacemaker—epithelial versus mesenchymal, very different therapy.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — CDH1 (E-cadherin) loss defines diffuse gastric cancer: without this adhesion molecule cells scatter through the stomach wall as linitis plastica rather than a mass, and germline CDH1 mutation drives hereditary diffuse gastric cancer—prompting prophylactic gastrectomy.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
