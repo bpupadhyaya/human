@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "MPNST and osteosarcoma are both aggressive sarcomas that can be radiation-induced: prior radiotherapy is a recognized cause of each, and both are high-grade and resist chemotherapy—so a new sarcoma in a previously irradiated field raises suspicion for either."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "MPNST grows from and destroys peripheral nerves: this aggressive sarcoma arises from Schwann-cell-lineage cells of a nerve sheath, often transforming a plexiform neurofibroma, so it invades along nerves causing pain and deficits as it engulfs the neurons it surrounds."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "MPNST is a spindle-cell sarcoma resembling fibroblasts: its fascicles of spindle cells can mimic fibrosarcoma, so diagnosis leans on nerve origin, NF1 context and loss of H3K27me3 (from PRC2/SUZ12 loss) rather than appearance alone."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 loss drives malignant transformation to MPNST: a benign neurofibroma becomes MPNST as NF1 loss is joined by CDKN2A and TP53 inactivation, so accumulating tumor-suppressor hits convert a slow plexiform tumor into an aggressive sarcoma."
 ---
 
 # MPNST
@@ -219,6 +228,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[GIST](../gist/README.md)** — MPNST and GIST are the malignancies most characteristic of neurofibromatosis type 1: NF1 patients develop both, as neurofibromin loss disinhibits Ras in Schwann-cell precursors (MPNST) and interstitial cells of Cajal (NF1-GIST)—one tumor-suppressor loss, two sarcomas.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — MPNST and Li-Fraumeni intersect through sarcoma predisposition: germline TP53 loss predisposes to sarcomas, and somatic TP53/CDKN2A loss marks a benign neurofibroma's transformation into MPNST—losing cell-cycle and apoptosis control turns nerve sheath malignant.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — MPNST and osteosarcoma are both aggressive sarcomas that can be radiation-induced: prior radiotherapy is a recognized cause of each, and both are high-grade and resist chemotherapy—so a new sarcoma in a previously irradiated field raises suspicion for either.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — MPNST grows from and destroys peripheral nerves: this aggressive sarcoma arises from Schwann-cell-lineage cells of a nerve sheath, often transforming a plexiform neurofibroma, so it invades along nerves causing pain and deficits as it engulfs the neurons it surrounds.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — MPNST is a spindle-cell sarcoma resembling fibroblasts: its fascicles of spindle cells can mimic fibrosarcoma, so diagnosis leans on nerve origin, NF1 context and loss of H3K27me3 (from PRC2/SUZ12 loss) rather than appearance alone.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss drives malignant transformation to MPNST: a benign neurofibroma becomes MPNST as NF1 loss is joined by CDKN2A and TP53 inactivation, so accumulating tumor-suppressor hits convert a slow plexiform tumor into an aggressive sarcoma.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

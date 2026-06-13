@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Photon radiotherapy is a key palliative tool in myeloma: though systemic, the disease responds to localized radiation that relieves bone pain and treats impending fractures, and is curative for solitary plasmacytoma—complementing the drugs that control marrow disease."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Multiple myeloma is the malignant end of B-cell maturation: it arises when a B cell becomes a clonal plasma cell, evolving from MGUS through smoldering myeloma—a step beyond the B cell, secreting monoclonal immunoglobulin instead of fighting infection."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Myeloma hijacks osteoclasts to destroy bone: malignant plasma cells secrete RANKL and cytokines that overactivate osteoclasts while suppressing osteoblasts, carving the punched-out lytic lesions, hypercalcemia and fractures that define myeloma bone disease."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Multiple myeloma and DLBCL are B-lineage cancers at opposite maturation ends: DLBCL is an aggressive nodal large B-cell lymphoma, myeloma a marrow plasma-cell tumor secreting monoclonal protein—and rarely a plasmablastic lymphoma blurs the line between them."
 ---
 
 # Multiple Myeloma
@@ -224,6 +233,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is central to myeloma's CRAB complications: tumor-driven RANKL activates osteoclasts that dissolve bone, releasing calcium into blood—hypercalcemia causes confusion, constipation and kidney injury, treated urgently with hydration and bisphosphonates.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Myeloma bone disease and osteoporosis both fracture vertebrae but differ: myeloma carves discrete lytic 'punched-out' lesions, while osteoporosis is diffuse low bone density—new vertebral fractures in an older adult warrant a myeloma work-up.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is a key palliative tool in myeloma: though systemic, the disease responds to localized radiation that relieves bone pain and treats impending fractures, and is curative for solitary plasmacytoma—complementing the drugs that control marrow disease.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Multiple myeloma is the malignant end of B-cell maturation: it arises when a B cell becomes a clonal plasma cell, evolving from MGUS through smoldering myeloma—a step beyond the B cell, secreting monoclonal immunoglobulin instead of fighting infection.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Myeloma hijacks osteoclasts to destroy bone: malignant plasma cells secrete RANKL and cytokines that overactivate osteoclasts while suppressing osteoblasts, carving the punched-out lytic lesions, hypercalcemia and fractures that define myeloma bone disease.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Multiple myeloma and DLBCL are B-lineage cancers at opposite maturation ends: DLBCL is an aggressive nodal large B-cell lymphoma, myeloma a marrow plasma-cell tumor secreting monoclonal protein—and rarely a plasmablastic lymphoma blurs the line between them.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
