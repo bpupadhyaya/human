@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "HIV raises Hodgkin lymphoma risk several-fold and changes its biology: HIV-associated Hodgkin is almost always EBV-driven, presents at advanced stage with B symptoms and marrow involvement, and—unlike AIDS-defining lymphomas—its incidence did not fall with antiretroviral therapy."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is woven into Hodgkin lymphoma's cure: because HL spreads contiguously between nodes, involved-site photon irradiation (lower-dose, after chemo) controls it well—but extended-field radiation's late second cancers and heart disease pushed toward less."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Hodgkin lymphoma is mostly microenvironment: the malignant Reed-Sternberg cells are rare amid an immune infiltrate, and abundant tumor-associated macrophages predict worse outcomes—so the supporting macrophages, not just the cancer cells, shape prognosis."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Hodgkin lymphoma and CLL are both B-cell neoplasms that can intersect through transformation: CLL occasionally undergoes Richter transformation into Hodgkin lymphoma, and both can be EBV-associated—so an indolent leukemia can give rise to an aggressive lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -197,6 +206,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Hodgkin lymphoma and DLBCL are the two ends of large-B-cell lymphoma, bridged by gray-zone lymphoma: classic Hodgkin's CD30+ Reed-Sternberg cells lose most B-cell markers while DLBCL keeps them, and gray-zone tumors share both—the distinction drives very different chemo.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — The Reed-Sternberg cell of classic Hodgkin lymphoma is a crippled B cell: a germinal-center B cell that lost its B-cell receptor and most B-lineage markers yet escaped apoptosis via constitutive NF-κB and EBV, surviving as a rare malignant cell amid a reactive immune infiltrate.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV raises Hodgkin lymphoma risk several-fold and changes its biology: HIV-associated Hodgkin is almost always EBV-driven, presents at advanced stage with B symptoms and marrow involvement, and—unlike AIDS-defining lymphomas—its incidence did not fall with antiretroviral therapy.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is woven into Hodgkin lymphoma's cure: because HL spreads contiguously between nodes, involved-site photon irradiation (lower-dose, after chemo) controls it well—but extended-field radiation's late second cancers and heart disease pushed toward less.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hodgkin lymphoma is mostly microenvironment: the malignant Reed-Sternberg cells are rare amid an immune infiltrate, and abundant tumor-associated macrophages predict worse outcomes—so the supporting macrophages, not just the cancer cells, shape prognosis.
+- `connects-to` → **[CLL](../cll/README.md)** — Hodgkin lymphoma and CLL are both B-cell neoplasms that can intersect through transformation: CLL occasionally undergoes Richter transformation into Hodgkin lymphoma, and both can be EBV-associated—so an indolent leukemia can give rise to an aggressive lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

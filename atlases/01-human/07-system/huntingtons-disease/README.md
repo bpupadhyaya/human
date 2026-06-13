@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Psychiatric illness is intrinsic to Huntington's, not just reactive: depression is very common and suicide risk markedly elevated, often preceding motor onset, reflecting degeneration of frontostriatal mood circuits; treating it is central to HD care given the high suicide rate."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Huntington's and Alzheimer's are both neurodegenerative proteinopathies: Huntington's is a dominant CAG-repeat expansion striking striatal neurons, while Alzheimer's is mostly sporadic amyloid-β and tau pathology of the cortex—monogenic chorea versus complex dementia."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Huntington's disease is fundamentally a loss of GABAergic neurons: the striatal medium spiny neurons that degenerate are the brain's main inhibitory (GABA) output, so their loss disinhibits motor circuits, producing the involuntary chorea that defines the disease."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Huntington's often presents with psychiatric symptoms before chorea: depression, irritability and psychosis resembling schizophrenia can precede motor signs by years, reflecting striatal-prefrontal disruption—a movement disorder first masquerading as mental illness."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -109,3 +118,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes contribute to Huntington's disease: mutant huntingtin in astrocytes impairs glutamate uptake (lower EAAT2) and potassium buffering, raising excitotoxicity on vulnerable striatal neurons and cutting neurotrophic support—amplifying the neuronal loss.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Huntington's and Parkinson's are contrasting basal-ganglia disorders: HD is a CAG-repeat disease causing chorea from striatal indirect-pathway neuron loss, while PD causes hypokinesia from dopaminergic loss—dopamine-blockers ease HD chorea but cause parkinsonism.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Psychiatric illness is intrinsic to Huntington's, not just reactive: depression is very common and suicide risk markedly elevated, often preceding motor onset, reflecting degeneration of frontostriatal mood circuits; treating it is central to HD care given the high suicide rate.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Huntington's and Alzheimer's are both neurodegenerative proteinopathies: Huntington's is a dominant CAG-repeat expansion striking striatal neurons, while Alzheimer's is mostly sporadic amyloid-β and tau pathology of the cortex—monogenic chorea versus complex dementia.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Huntington's disease is fundamentally a loss of GABAergic neurons: the striatal medium spiny neurons that degenerate are the brain's main inhibitory (GABA) output, so their loss disinhibits motor circuits, producing the involuntary chorea that defines the disease.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Huntington's often presents with psychiatric symptoms before chorea: depression, irritability and psychosis resembling schizophrenia can precede motor signs by years, reflecting striatal-prefrontal disruption—a movement disorder first masquerading as mental illness.
