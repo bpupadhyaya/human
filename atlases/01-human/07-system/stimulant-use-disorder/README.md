@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Stimulant and alcohol use disorders commonly co-occur, and the combination is uniquely toxic: co-use of cocaine and alcohol forms cocaethylene, a longer-acting metabolite that heightens cardiac and hepatic toxicity and sudden-death risk; alcohol is often used to 'come down'."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Stimulant and cannabis use disorders often co-occur but differ pharmacologically: stimulants flood the synapse with dopamine for an intense high and crash, while cannabis acts on CB1 receptors with milder reward—using both compounds psychiatric and cardiovascular risk."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Stimulant use disorder and bipolar disorder are tightly linked and hard to disentangle: stimulant intoxication mimics mania and withdrawal mimics depression, while bipolar patients are prone to stimulant misuse—so each can trigger or mask the other."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Stimulants are directly cardiotoxic to cardiomyocytes: cocaine and methamphetamine drive catecholamine excess, vasospasm, and tachycardia that cause infarction, arrhythmia, and dilated cardiomyopathy—making cardiac disease a leading cause of death in stimulant users."
 ---
 
 # Stimulant Use Disorder
@@ -197,6 +206,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Stroke](../stroke/README.md)** — Stimulants are a major cause of stroke in the young: cocaine and methamphetamine drive surges in blood pressure, vasospasm and vasculitis-like arteriopathy → ischemic and hemorrhagic stroke (and MI), often within hours of use; chronic meth also accelerates small-vessel disease.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Stimulant use disorder fuels HIV transmission: methamphetamine drives high-risk sexual behavior and, when injected, needle sharing; it also worsens antiretroviral adherence and accelerates neurocognitive decline, making integrated addiction and HIV care essential.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Stimulant and alcohol use disorders commonly co-occur, and the combination is uniquely toxic: co-use of cocaine and alcohol forms cocaethylene, a longer-acting metabolite that heightens cardiac and hepatic toxicity and sudden-death risk; alcohol is often used to 'come down'.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Stimulant and cannabis use disorders often co-occur but differ pharmacologically: stimulants flood the synapse with dopamine for an intense high and crash, while cannabis acts on CB1 receptors with milder reward—using both compounds psychiatric and cardiovascular risk.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Stimulant use disorder and bipolar disorder are tightly linked and hard to disentangle: stimulant intoxication mimics mania and withdrawal mimics depression, while bipolar patients are prone to stimulant misuse—so each can trigger or mask the other.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Stimulants are directly cardiotoxic to cardiomyocytes: cocaine and methamphetamine drive catecholamine excess, vasospasm, and tachycardia that cause infarction, arrhythmia, and dilated cardiomyopathy—making cardiac disease a leading cause of death in stimulant users.
 
 ## Treatment
 

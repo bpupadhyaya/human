@@ -64,6 +64,15 @@ cross_links:
   - target: 03-medicine/01-modern/04-cardio/aspirin
     relation: treated-by
     note: "Aspirin is first-line secondary stroke prevention after TIA/minor ischemic stroke; irreversible platelet COX-1 blockade → ↓ TXA₂ → ↓ atherothrombotic and cardioembolic risk; 300 mg loading dose reduces 90-day recurrence (CAST, IST); contraindicated in hemorrhagic stroke."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Atherosclerosis is the dominant cause of ischemic stroke: plaques in the carotid and cerebral arteries rupture to form occlusive clots or shed emboli, so the lipid-driven disease behind heart attacks also kills brain tissue—treated by statins and antiplatelets."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Antiphospholipid syndrome is an important cause of stroke in the young: antiphospholipid antibodies make blood prothrombotic, causing arterial and venous clots, so an unexplained young stroke—especially with prior clots or pregnancy loss—warrants APS testing."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Stroke kills neurons through the ischemic cascade: loss of blood flow starves neurons of oxygen and glucose, triggering glutamate excitotoxicity, calcium overload, and death within minutes in the core—so time is brain, and rapid reperfusion salvages the penumbra."
 ---
 
 # Stroke
@@ -183,6 +192,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `prevented-by` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Warfarin prevents AF-related ischemic stroke by 64% (Hart 2007); INR 2.0–3.0; preferred over DOACs for mechanical heart valves; antiphospholipid syndrome triple-positive: warfarin INR 3.0–4.0 (TRAPS trial confirmed DOACs inferior).
 - `connects-to` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs including ibuprofen increase ischemic stroke/MI risk ~1.3–1.5× via ↓ endothelial PGI₂; ibuprofen blocks aspirin irreversible COX-1 acetylation → ↓ cardioprotective antiplatelet effect; avoid in high cardiovascular risk patients.
 - `treated-by` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — aspirin is first-line secondary stroke prevention after TIA/minor ischemic stroke; 300 mg loading dose reduces 90-day recurrence; irreversible platelet COX-1 blockade prevents atherothrombotic and cardioembolic thrombosis; contraindicated in hemorrhagic stroke.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Atherosclerosis is the dominant cause of ischemic stroke: plaques in the carotid and cerebral arteries rupture to form occlusive clots or shed emboli, so the lipid-driven disease behind heart attacks also kills brain tissue—treated by statins and antiplatelets.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Antiphospholipid syndrome is an important cause of stroke in the young: antiphospholipid antibodies make blood prothrombotic, causing arterial and venous clots, so an unexplained young stroke—especially with prior clots or pregnancy loss—warrants APS testing.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Stroke kills neurons through the ischemic cascade: loss of blood flow starves neurons of oxygen and glucose, triggering glutamate excitotoxicity, calcium overload, and death within minutes in the core—so time is brain, and rapid reperfusion salvages the penumbra.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
