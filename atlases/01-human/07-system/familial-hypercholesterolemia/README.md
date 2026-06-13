@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Familial hypercholesterolemia and chronic kidney disease are both potent cardiovascular risk amplifiers: FH from extreme LDL, CKD from vascular calcification and dyslipidemia, so an FH patient who also develops CKD faces compounded atherosclerotic risk."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "FH and APOE both shape blood cholesterol but differently: FH is a single-gene defect in LDL clearance causing severe lifelong hypercholesterolemia, while APOE variants modify lipid levels and cardiovascular risk—monogenic versus polygenic cholesterol disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Coronary artery calcium scoring helps gauge risk in FH: lifelong high LDL drives calcified atherosclerotic plaque, so a CT calcium score quantifies accumulated arterial damage and refines who needs the most aggressive lipid lowering."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "FH's silent arterial damage is revealed by photon-based imaging: low-dose CT uses X-ray photons to measure coronary calcium, turning invisible decades of LDL-driven plaque buildup into a number that guides how intensively to treat."
 ---
 
 # Familial Hypercholesterolemia
@@ -211,6 +220,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Familial hypercholesterolemia causes premature coronary disease that leads to heart failure: lifelong sky-high LDL drives early severe atherosclerosis and heart attacks, so untreated FH causes ischemic cardiomyopathy decades early.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Familial hypercholesterolemia and obesity stack cardiovascular risk: FH is a genetic LDL-receptor defect causing very high cholesterol, while obesity adds insulin resistance and inflammation—together compounding the premature atherosclerosis FH drives.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Familial hypercholesterolemia and chronic kidney disease are both potent cardiovascular risk amplifiers: FH from extreme LDL, CKD from vascular calcification and dyslipidemia, so an FH patient who also develops CKD faces compounded atherosclerotic risk.
+- `connects-to` → **[APOE](../../03-molecular/apoe/README.md)** — FH and APOE both shape blood cholesterol but differently: FH is a single-gene defect in LDL clearance causing severe lifelong hypercholesterolemia, while APOE variants modify lipid levels and cardiovascular risk—monogenic versus polygenic cholesterol disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Coronary artery calcium scoring helps gauge risk in FH: lifelong high LDL drives calcified atherosclerotic plaque, so a CT calcium score quantifies accumulated arterial damage and refines who needs the most aggressive lipid lowering.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — FH's silent arterial damage is revealed by photon-based imaging: low-dose CT uses X-ray photons to measure coronary calcium, turning invisible decades of LDL-driven plaque buildup into a number that guides how intensively to treat.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

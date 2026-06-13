@@ -63,6 +63,15 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "Gambling disorder and binge eating disorder are both 'behavioral addictions' sharing reward-circuit biology: each features loss of control, craving and continued behavior despite harm, engaging the same dopaminergic pathways as substance addictions."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Gambling disorder implicates glutamate as well as dopamine: glutamatergic signaling underlies the compulsive urge and cue reactivity, and trials of the glutamate modulator N-acetylcysteine to reduce gambling urges reflect this addiction-circuitry overlap."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Gambling disorder is the model behavioral addiction of the nervous system: it hijacks the same dopaminergic reward and prefrontal control circuits as drugs, which is why it sits beside substance use disorders in DSM-5 despite involving no ingested substance."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Gambling and cannabis use disorders frequently co-occur: both engage mesolimbic reward circuitry and share impulsivity and craving, so a behavioral addiction and a substance addiction reinforce each other—polyaddiction that complicates treatment of either."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -224,6 +233,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Gambling disorder and OCD both involve compulsive, hard-to-resist behaviors but differ in drive: gambling is reward-seeking, while OCD compulsions relieve anxiety—both engage fronto-striatal circuits, blurring addiction and compulsion.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Gambling disorder and anxiety frequently co-occur: anxiety and stress drive gambling as escape, and mounting losses fuel more anxiety—a self-reinforcing loop with high suicide risk, so screening for mood and anxiety disorders is essential in gambling treatment.
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Gambling disorder and binge eating disorder are both 'behavioral addictions' sharing reward-circuit biology: each features loss of control, craving and continued behavior despite harm, engaging the same dopaminergic pathways as substance addictions.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Gambling disorder implicates glutamate as well as dopamine: glutamatergic signaling underlies the compulsive urge and cue reactivity, and trials of the glutamate modulator N-acetylcysteine to reduce gambling urges reflect this addiction-circuitry overlap.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Gambling disorder is the model behavioral addiction of the nervous system: it hijacks the same dopaminergic reward and prefrontal control circuits as drugs, which is why it sits beside substance use disorders in DSM-5 despite involving no ingested substance.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Gambling and cannabis use disorders frequently co-occur: both engage mesolimbic reward circuitry and share impulsivity and craving, so a behavioral addiction and a substance addiction reinforce each other—polyaddiction that complicates treatment of either.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
