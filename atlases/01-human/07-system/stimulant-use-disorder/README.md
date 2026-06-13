@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Stimulants are directly cardiotoxic to cardiomyocytes: cocaine and methamphetamine drive catecholamine excess, vasospasm, and tachycardia that cause infarction, arrhythmia, and dilated cardiomyopathy—making cardiac disease a leading cause of death in stimulant users."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Stimulant use disorder and depression are bound by the crash: dopamine depletion after a binge produces profound dysphoria, anhedonia and fatigue that mimics and can trigger major depression, so withdrawal-driven low mood fuels relapse to restore the lost reward signal."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Stimulants are vascular poisons beyond the heart: cocaine and amphetamines cause surges in blood pressure and vasospasm that drive aortic dissection, hypertensive emergency and ischemic stroke, so the cardiovascular system bears acute catastrophic risk with every binge."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Stimulants wreck sleep: by flooding dopamine and norepinephrine they suppress sleep during binges, and the rebound crash brings hypersomnia then chronic insomnia—and the sleep deprivation worsens cravings, mood and psychosis risk in stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -209,6 +218,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Stimulant and cannabis use disorders often co-occur but differ pharmacologically: stimulants flood the synapse with dopamine for an intense high and crash, while cannabis acts on CB1 receptors with milder reward—using both compounds psychiatric and cardiovascular risk.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Stimulant use disorder and bipolar disorder are tightly linked and hard to disentangle: stimulant intoxication mimics mania and withdrawal mimics depression, while bipolar patients are prone to stimulant misuse—so each can trigger or mask the other.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Stimulants are directly cardiotoxic to cardiomyocytes: cocaine and methamphetamine drive catecholamine excess, vasospasm, and tachycardia that cause infarction, arrhythmia, and dilated cardiomyopathy—making cardiac disease a leading cause of death in stimulant users.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Stimulant use disorder and depression are bound by the crash: dopamine depletion after a binge produces profound dysphoria, anhedonia and fatigue that mimics and can trigger major depression, so withdrawal-driven low mood fuels relapse to restore the lost reward signal.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Stimulants are vascular poisons beyond the heart: cocaine and amphetamines cause surges in blood pressure and vasospasm that drive aortic dissection, hypertensive emergency and ischemic stroke, so the cardiovascular system bears acute catastrophic risk with every binge.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Stimulants wreck sleep: by flooding dopamine and norepinephrine they suppress sleep during binges, and the rebound crash brings hypersomnia then chronic insomnia—and the sleep deprivation worsens cravings, mood and psychosis risk in stimulant use disorder.
 
 ## Treatment
 
