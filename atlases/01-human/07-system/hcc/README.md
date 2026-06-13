@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Hepatocellular and renal cell carcinoma are both highly vascular, VEGF-driven cancers treated alike: antiangiogenic tyrosine-kinase inhibitors and checkpoint inhibitors form the backbone for both, reflecting their shared dependence on a rich blood supply."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "p53 is one of the most mutated genes in liver cancer: it is inactivated in many HCCs, and aflatoxin B1 leaves a signature R249S TP53 mutation, so this tumor-suppressor loss links chemical carcinogens and viral hepatitis to malignant transformation."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "HCC almost always arises on a background of fibrosis: chronic injury scars the liver into cirrhosis, and the distorted, regenerating, inflamed tissue is the soil from which most hepatocellular carcinomas grow—why cirrhotic patients are screened with imaging."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron overload is a potent driver of HCC: in hereditary hemochromatosis, hepatocyte iron accumulation generates oxidative DNA damage and cirrhosis, so unchecked iron substantially raises liver-cancer risk—linking a single metal's metabolism to malignancy."
 ---
 
 # Hepatocellular Carcinoma
@@ -233,6 +242,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a growing role in hepatocellular carcinoma: stereotactic body radiation and radioembolization (Y-90 microspheres delivering internal radiation) treat tumors unsuitable for resection or ablation—an option in a cancer long considered radioresistant.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages shape hepatocellular carcinoma's microenvironment: liver Kupffer cells and tumor-associated macrophages fuel chronic inflammation and suppress anti-tumor immunity, contributing to the immunosuppressive milieu that checkpoint inhibitors must overcome.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Hepatocellular and renal cell carcinoma are both highly vascular, VEGF-driven cancers treated alike: antiangiogenic tyrosine-kinase inhibitors and checkpoint inhibitors form the backbone for both, reflecting their shared dependence on a rich blood supply.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 is one of the most mutated genes in liver cancer: it is inactivated in many HCCs, and aflatoxin B1 leaves a signature R249S TP53 mutation, so this tumor-suppressor loss links chemical carcinogens and viral hepatitis to malignant transformation.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HCC almost always arises on a background of fibrosis: chronic injury scars the liver into cirrhosis, and the distorted, regenerating, inflamed tissue is the soil from which most hepatocellular carcinomas grow—why cirrhotic patients are screened with imaging.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron overload is a potent driver of HCC: in hereditary hemochromatosis, hepatocyte iron accumulation generates oxidative DNA damage and cirrhosis, so unchecked iron substantially raises liver-cancer risk—linking a single metal's metabolism to malignancy.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
