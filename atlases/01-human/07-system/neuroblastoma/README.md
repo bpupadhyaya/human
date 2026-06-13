@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Neuroblastoma is a tumor of arrested sympathetic neuroblasts: its cells span a spectrum from neuroblastoma through ganglioneuroblastoma to benign ganglioneuroma, and retinoic acid pushes residual cells toward mature neurons — the basis of isotretinoin maintenance after therapy."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Neuroblastoma and pheochromocytoma both arise from sympathoadrenal neural-crest cells: neuroblastoma is the malignant childhood tumor of immature sympathetic precursors, while pheochromocytoma is its catecholamine-secreting adult counterpart—both seen on MIBG."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "Neuroblastoma and Wilms tumor are the two commonest extracranial solid tumors of early childhood and key differentials for an abdominal mass: neuroblastoma is an adrenal/sympathetic-chain tumor crossing the midline, while Wilms (nephroblastoma) is a renal tumor that respects it."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy treats high-risk neuroblastoma two ways: external-beam photon irradiation consolidates the primary site after surgery and chemo, while 131-I-MIBG delivers targeted internal radiation to MIBG-avid metastases—exploiting the tumor's radiosensitivity."
 ---
 
 # Neuroblastoma
@@ -200,6 +209,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Neuroblastoma and adult neuroendocrine tumors are both neural-crest/neuroendocrine cancers that secrete amines and take up amine tracers, but differ sharply: neuroblastoma is an aggressive embryonal tumor of young children (MYCN-driven), NETs mostly indolent tumors of adults.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow is the most common metastatic site in high-risk neuroblastoma: small-round-blue-cell nests infiltrate the marrow (stage M), detected by bilateral biopsies and MIBG scan, and clearing marrow disease is a key goal of induction chemotherapy and anti-GD2 immunotherapy.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuroblastoma is a tumor of arrested sympathetic neuroblasts: its cells span a spectrum from neuroblastoma through ganglioneuroblastoma to benign ganglioneuroma, and retinoic acid pushes residual cells toward mature neurons — the basis of isotretinoin maintenance after therapy.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Neuroblastoma and pheochromocytoma both arise from sympathoadrenal neural-crest cells: neuroblastoma is the malignant childhood tumor of immature sympathetic precursors, while pheochromocytoma is its catecholamine-secreting adult counterpart—both seen on MIBG.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Neuroblastoma and Wilms tumor are the two commonest extracranial solid tumors of early childhood and key differentials for an abdominal mass: neuroblastoma is an adrenal/sympathetic-chain tumor crossing the midline, while Wilms (nephroblastoma) is a renal tumor that respects it.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy treats high-risk neuroblastoma two ways: external-beam photon irradiation consolidates the primary site after surgery and chemo, while 131-I-MIBG delivers targeted internal radiation to MIBG-avid metastases—exploiting the tumor's radiosensitivity.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

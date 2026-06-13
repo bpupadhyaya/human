@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/men4-syndrome
     relation: connects-to
     note: "MEN4, like MEN1, is a hereditary cause of neuroendocrine tumors: germline CDKN1B/p27 loss predisposes to pancreatic NETs alongside parathyroid and pituitary tumors, so a young or multifocal NET prompts germline MEN1 and CDKN1B testing for syndromic disease."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Pheochromocytoma/paraganglioma are neuroendocrine tumors of the adrenal medulla and sympathetic ganglia: like other NETs they express somatostatin receptors (enabling DOTATATE imaging and PRRT) but uniquely secrete catecholamines, causing paroxysmal hypertension."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "VHL disease is a major hereditary cause of neuroendocrine tumors: germline VHL loss predisposes to pancreatic neuroendocrine tumors and pheochromocytomas alongside its hemangioblastomas and clear-cell RCC, so a young patient with a panNET warrants VHL and MEN1 testing."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver dictates carcinoid syndrome in neuroendocrine tumors: a midgut NET's serotonin is normally cleared by hepatic first-pass, so flushing and diarrhea appear only once liver metastases dump vasoactive amines directly into the systemic circulation."
 ---
 
 # Neuroendocrine Tumors
@@ -168,6 +177,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Neuroendocrine tumors and neuroblastoma are both neural-crest-derived, amine-handling cancers at opposite ends of age and behavior: NETs are well-differentiated, slow-growing adult tumors, while neuroblastoma is an aggressive MYCN-driven embryonal cancer of children.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine (midgut) is a classic NET site: serotonin-secreting enterochromaffin-cell tumors of the ileum grow slowly but metastasize to the liver, producing carcinoid syndrome (flushing, diarrhea, carcinoid heart disease) and are SSTR2-positive.
 - `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — MEN4, like MEN1, is a hereditary cause of neuroendocrine tumors: germline CDKN1B/p27 loss predisposes to pancreatic NETs alongside parathyroid and pituitary tumors, so a young or multifocal NET prompts germline MEN1 and CDKN1B testing for syndromic disease.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pheochromocytoma/paraganglioma are neuroendocrine tumors of the adrenal medulla and sympathetic ganglia: like other NETs they express somatostatin receptors (enabling DOTATATE imaging and PRRT) but uniquely secrete catecholamines, causing paroxysmal hypertension.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — VHL disease is a major hereditary cause of neuroendocrine tumors: germline VHL loss predisposes to pancreatic neuroendocrine tumors and pheochromocytomas alongside its hemangioblastomas and clear-cell RCC, so a young patient with a panNET warrants VHL and MEN1 testing.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver dictates carcinoid syndrome in neuroendocrine tumors: a midgut NET's serotonin is normally cleared by hepatic first-pass, so flushing and diarrhea appear only once liver metastases dump vasoactive amines directly into the systemic circulation.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
