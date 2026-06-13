@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Potassium is the dietary counterweight to sodium in blood pressure: higher potassium intake promotes natriuresis and vasodilation, lowering pressure, while hypokalemia—often from hyperaldosteronism—signals a secondary, treatable cause of hypertension."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide failure underlies much hypertension: healthy endothelium releases NO to relax arteries, so when endothelial dysfunction cuts NO, vessels stay constricted and pressure rises—linking early vascular injury to sustained high blood pressure."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Hypertension is the leading driver of cardiovascular disease: chronic high pressure damages arteries throughout the body, accelerating atherosclerosis and straining the heart, so controlling it prevents the strokes, heart attacks and kidney failure it causes."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium handling is a key hypertension lever: calcium influx contracts vascular smooth muscle to raise pressure, which is why calcium-channel blockers are first-line antihypertensives—relaxing arteries by blocking the calcium that drives their tone."
 ---
 
 # Hypertension
@@ -178,6 +187,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Hypertension is the leading cause of heart failure: chronic pressure overload forces the left ventricle to hypertrophy, then stiffen and fail (HFpEF) or dilate (HFrEF)—decades of high afterload remodel the heart, so controlling pressure best prevents it.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pheochromocytoma is a classic curable cause of secondary hypertension: a catecholamine-secreting adrenal tumor drives paroxysmal high blood pressure with headache, sweating and palpitations, so resistant or episodic hypertension warrants screening—surgery can cure it.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium is the dietary counterweight to sodium in blood pressure: higher potassium intake promotes natriuresis and vasodilation, lowering pressure, while hypokalemia—often from hyperaldosteronism—signals a secondary, treatable cause of hypertension.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide failure underlies much hypertension: healthy endothelium releases NO to relax arteries, so when endothelial dysfunction cuts NO, vessels stay constricted and pressure rises—linking early vascular injury to sustained high blood pressure.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Hypertension is the leading driver of cardiovascular disease: chronic high pressure damages arteries throughout the body, accelerating atherosclerosis and straining the heart, so controlling it prevents the strokes, heart attacks and kidney failure it causes.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium handling is a key hypertension lever: calcium influx contracts vascular smooth muscle to raise pressure, which is why calcium-channel blockers are first-line antihypertensives—relaxing arteries by blocking the calcium that drives their tone.
 
 ## Pathology
 

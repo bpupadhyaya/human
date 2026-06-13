@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Huntington's often presents with psychiatric symptoms before chorea: depression, irritability and psychosis resembling schizophrenia can precede motor signs by years, reflecting striatal-prefrontal disruption—a movement disorder first masquerading as mental illness."
+  - target: 01-human/07-system/als
+    relation: connects-to
+    note: "Huntington's and ALS are both fatal neurodegenerations but mechanistically distinct: HD is a CAG-repeat polyglutamine disease killing striatal neurons, while ALS destroys motor neurons via TDP-43—both show how a single protein's misfolding dooms specific neurons."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Huntington's disease damages the heart, not just the brain: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and arrhythmias, making cardiac disease a leading cause of death in HD—evidence the CAG-repeat defect harms tissues beyond the striatum."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Depression in Huntington's reflects serotonergic disruption: mood disorder and suicide risk often precede the movement disorder, driven partly by altered serotonin signaling, so SSRIs are widely used—psychiatric care is as central to HD management as treating chorea."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -121,3 +130,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Huntington's and Alzheimer's are both neurodegenerative proteinopathies: Huntington's is a dominant CAG-repeat expansion striking striatal neurons, while Alzheimer's is mostly sporadic amyloid-β and tau pathology of the cortex—monogenic chorea versus complex dementia.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Huntington's disease is fundamentally a loss of GABAergic neurons: the striatal medium spiny neurons that degenerate are the brain's main inhibitory (GABA) output, so their loss disinhibits motor circuits, producing the involuntary chorea that defines the disease.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Huntington's often presents with psychiatric symptoms before chorea: depression, irritability and psychosis resembling schizophrenia can precede motor signs by years, reflecting striatal-prefrontal disruption—a movement disorder first masquerading as mental illness.
+- `connects-to` → **[ALS](../als/README.md)** — Huntington's and ALS are both fatal neurodegenerations but mechanistically distinct: HD is a CAG-repeat polyglutamine disease killing striatal neurons, while ALS destroys motor neurons via TDP-43—both show how a single protein's misfolding dooms specific neurons.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Huntington's disease damages the heart, not just the brain: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and arrhythmias, making cardiac disease a leading cause of death in HD—evidence the CAG-repeat defect harms tissues beyond the striatum.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Depression in Huntington's reflects serotonergic disruption: mood disorder and suicide risk often precede the movement disorder, driven partly by altered serotonin signaling, so SSRIs are widely used—psychiatric care is as central to HD management as treating chorea.
