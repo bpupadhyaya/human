@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Borderline personality disorder and opioid use disorder are linked through impulsivity and emotional pain: BPD's distress intolerance and impulsivity raise substance-misuse risk, and opioids may numb emotional pain—so addiction often complicates BPD."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "BPD reflects altered fronto-limbic neuron circuits: a hyperreactive amygdala with weak prefrontal regulation underlies the emotional storms and impulsivity, so the disorder maps to neuronal circuit dysfunction that psychotherapy (DBT) gradually reshapes."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "BPD and ADHD overlap in impulsivity and emotional dysregulation: they frequently co-occur and share childhood-adversity roots, so distinguishing them—and treating both—matters, since the impulsive, affectively unstable features can be mistaken for one another."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF links childhood adversity to the BPD brain: trauma and chronic stress lower this neurotrophic factor, impairing the plasticity of emotion-regulating circuits, so the gene-environment interaction shaping BDNF helps explain how early adversity sets up BPD."
 ---
 
 # Borderline Personality Disorder
@@ -239,6 +248,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Borderline personality disorder and schizophrenia overlap through psychotic-like symptoms: BPD's stress-related transient paranoia can mimic schizophrenia, but it is brief and stress-triggered, not the sustained delusions and hallucinations of psychosis.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Borderline personality disorder and anorexia nervosa frequently co-occur: both involve disturbed self-image, emotional dysregulation and self-harm, and a personality disorder worsens eating-disorder prognosis—so BPD is screened for in eating-disorder patients.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Borderline personality disorder and opioid use disorder are linked through impulsivity and emotional pain: BPD's distress intolerance and impulsivity raise substance-misuse risk, and opioids may numb emotional pain—so addiction often complicates BPD.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — BPD reflects altered fronto-limbic neuron circuits: a hyperreactive amygdala with weak prefrontal regulation underlies the emotional storms and impulsivity, so the disorder maps to neuronal circuit dysfunction that psychotherapy (DBT) gradually reshapes.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — BPD and ADHD overlap in impulsivity and emotional dysregulation: they frequently co-occur and share childhood-adversity roots, so distinguishing them—and treating both—matters, since the impulsive, affectively unstable features can be mistaken for one another.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF links childhood adversity to the BPD brain: trauma and chronic stress lower this neurotrophic factor, impairing the plasticity of emotion-regulating circuits, so the gene-environment interaction shaping BDNF helps explain how early adversity sets up BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

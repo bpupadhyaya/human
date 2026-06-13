@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity defines a distinct, harder-to-treat asthma phenotype: excess weight restricts lung mechanics and adipose-derived inflammation alters airway biology, so obese asthmatics often have more symptoms and worse control—and weight loss improves the disease."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "IL-13 drives the airway changes of asthma: this type 2 cytokine, with IL-4, fuels IgE production, mucus hypersecretion and airway hyperresponsiveness, so dupilumab (blocking IL-4/IL-13 signaling) is a mainstay biologic for type 2-high asthma."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Asthma remodels the lung over time: repeated bronchoconstriction and inflammation thicken airway smooth muscle and basement membrane, so uncontrolled asthma can leave fixed obstruction—turning a reversible disease into permanent lung damage."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells initiate the allergic asthma response: they sample inhaled allergens and prime naive T cells toward the Th2 program, sitting upstream of the IgE and eosinophil cascade—so they set whether the airway becomes sensitized in the first place."
 ---
 
 # Asthma
@@ -208,6 +217,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Airway smooth muscle is the effector of asthma's airflow obstruction: hyperresponsive smooth muscle contracts in response to triggers, narrowing bronchi (wheeze), and over time hypertrophies—so bronchodilators relax it while bronchial thermoplasty ablates it.
 - `connects-to` → **[Respiratory Syncytial Virus](../../../02-pathogen/01-viruses/respiratory-syncytial-virus/README.md)** — Early respiratory syncytial virus infection is linked to asthma: severe RSV bronchiolitis is associated with later wheezing, and viral respiratory infections remain the commonest trigger of asthma exacerbations—tying a childhood virus to chronic airway disease.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity defines a distinct, harder-to-treat asthma phenotype: excess weight restricts lung mechanics and adipose-derived inflammation alters airway biology, so obese asthmatics often have more symptoms and worse control—and weight loss improves the disease.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13 drives the airway changes of asthma: this type 2 cytokine, with IL-4, fuels IgE production, mucus hypersecretion and airway hyperresponsiveness, so dupilumab (blocking IL-4/IL-13 signaling) is a mainstay biologic for type 2-high asthma.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Asthma remodels the lung over time: repeated bronchoconstriction and inflammation thicken airway smooth muscle and basement membrane, so uncontrolled asthma can leave fixed obstruction—turning a reversible disease into permanent lung damage.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells initiate the allergic asthma response: they sample inhaled allergens and prime naive T cells toward the Th2 program, sitting upstream of the IgE and eosinophil cascade—so they set whether the airway becomes sensitized in the first place.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
