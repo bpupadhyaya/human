@@ -54,6 +54,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Gambling disorder is the model behavioral addiction in reward-circuit neurons: variable, unpredictable wins drive dopaminergic mesolimbic neurons, blunting reward sensitivity and impulse control—evidence addiction is a neuronal process, not just a substance effect."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Gambling disorder and OCD both involve compulsive, hard-to-resist behaviors but differ in drive: gambling is reward-seeking, while OCD compulsions relieve anxiety—both engage fronto-striatal circuits, blurring addiction and compulsion."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Gambling disorder and anxiety frequently co-occur: anxiety and stress drive gambling as escape, and mounting losses fuel more anxiety—a self-reinforcing loop with high suicide risk, so screening for mood and anxiety disorders is essential in gambling treatment."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Gambling disorder and binge eating disorder are both 'behavioral addictions' sharing reward-circuit biology: each features loss of control, craving and continued behavior despite harm, engaging the same dopaminergic pathways as substance addictions."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -212,6 +221,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Gambling disorder is a notorious side effect of Parkinson's treatment: dopamine-agonist drugs (pramipexole, ropinirole) overstimulate the mesolimbic reward circuit, triggering pathological gambling and impulse-control disorders—often easing when the agonist is reduced.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Gambling disorder is strongly associated with bipolar disorder: manic and hypomanic states bring impulsivity, grandiosity, and reward-seeking that fuel pathological gambling, so new compulsive gambling can signal an emerging mood episode and the two frequently co-occur.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Gambling disorder is the model behavioral addiction in reward-circuit neurons: variable, unpredictable wins drive dopaminergic mesolimbic neurons, blunting reward sensitivity and impulse control—evidence addiction is a neuronal process, not just a substance effect.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Gambling disorder and OCD both involve compulsive, hard-to-resist behaviors but differ in drive: gambling is reward-seeking, while OCD compulsions relieve anxiety—both engage fronto-striatal circuits, blurring addiction and compulsion.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Gambling disorder and anxiety frequently co-occur: anxiety and stress drive gambling as escape, and mounting losses fuel more anxiety—a self-reinforcing loop with high suicide risk, so screening for mood and anxiety disorders is essential in gambling treatment.
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Gambling disorder and binge eating disorder are both 'behavioral addictions' sharing reward-circuit biology: each features loss of control, craving and continued behavior despite harm, engaging the same dopaminergic pathways as substance addictions.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

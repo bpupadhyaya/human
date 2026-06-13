@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "Familial hypercholesterolemia and NASH are distinct lipid disorders of the liver: FH is a receptor defect that floods blood with LDL but spares the liver, while NASH is hepatic fat from insulin resistance—high LDL with a normal liver differs from fatty liver."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Familial hypercholesterolemia causes premature coronary disease that leads to heart failure: lifelong sky-high LDL drives early severe atherosclerosis and heart attacks, so untreated FH causes ischemic cardiomyopathy decades early."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Familial hypercholesterolemia and obesity stack cardiovascular risk: FH is a genetic LDL-receptor defect causing very high cholesterol, while obesity adds insulin resistance and inflammation—together compounding the premature atherosclerosis FH drives."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Familial hypercholesterolemia and chronic kidney disease are both potent cardiovascular risk amplifiers: FH from extreme LDL, CKD from vascular calcification and dyslipidemia, so an FH patient who also develops CKD faces compounded atherosclerotic risk."
 ---
 
 # Familial Hypercholesterolemia
@@ -199,6 +208,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Familial hypercholesterolemia is a lifelong assault on the cardiovascular system: from birth very high LDL accelerates atherosclerosis, so untreated heterozygotes get coronary disease decades early and homozygotes in childhood—early statin/PCSK9 therapy is essential.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Familial hypercholesterolemia and type 2 diabetes multiply cardiovascular risk together: FH's lifelong LDL burden plus diabetic dyslipidemia compound atherosclerosis—and although statins slightly raise diabetes risk, their cardiovascular benefit in FH far outweighs it.
 - `connects-to` → **[NASH](../nash/README.md)** — Familial hypercholesterolemia and NASH are distinct lipid disorders of the liver: FH is a receptor defect that floods blood with LDL but spares the liver, while NASH is hepatic fat from insulin resistance—high LDL with a normal liver differs from fatty liver.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Familial hypercholesterolemia causes premature coronary disease that leads to heart failure: lifelong sky-high LDL drives early severe atherosclerosis and heart attacks, so untreated FH causes ischemic cardiomyopathy decades early.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Familial hypercholesterolemia and obesity stack cardiovascular risk: FH is a genetic LDL-receptor defect causing very high cholesterol, while obesity adds insulin resistance and inflammation—together compounding the premature atherosclerosis FH drives.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Familial hypercholesterolemia and chronic kidney disease are both potent cardiovascular risk amplifiers: FH from extreme LDL, CKD from vascular calcification and dyslipidemia, so an FH patient who also develops CKD faces compounded atherosclerotic risk.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
