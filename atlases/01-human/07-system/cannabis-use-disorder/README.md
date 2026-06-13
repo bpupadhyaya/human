@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Cannabis and anxiety have a bidirectional link: people use cannabis to self-medicate anxiety, yet heavy use and withdrawal can worsen it, and high-THC/low-CBD products are most anxiogenic; CB1 signalling modulates amygdala fear circuits underlying generalized anxiety disorder."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Cannabis and stimulant use disorders commonly co-occur and share a mesolimbic dopamine reward pathway but differ in course: cannabis withdrawal is mild and protracted while stimulants produce intense crash and craving—polysubstance use worsens prognosis."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Cannabis use disorder is tightly linked to bipolar disorder: among its commonest comorbidities, it can precipitate manic or psychotic episodes and worsens mood-episode frequency—so heavy use in a young person with mood instability warrants caution."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Cannabis acts on CB1 receptors densest on neurons: THC mimics endocannabinoids that normally tune synaptic release, so chronic exposure downregulates CB1 signaling—especially harmful in the adolescent brain, where it can durably alter neural circuit maturation."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -205,6 +214,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Cannabis and alcohol are the two most co-used substances: both engage the mesolimbic dopamine reward pathway and GABAergic signalling, frequently co-occur, and concurrent use compounds cognitive and motor impairment; both follow a craving-tolerance-withdrawal course.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Cannabis and opioid use disorders share dopaminergic reward circuitry and a craving-tolerance-withdrawal course; the endocannabinoid and opioid systems interact, fueling debate over whether cannabis substitutes for or precedes opioid use, with mixed evidence on overdose.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Cannabis and anxiety have a bidirectional link: people use cannabis to self-medicate anxiety, yet heavy use and withdrawal can worsen it, and high-THC/low-CBD products are most anxiogenic; CB1 signalling modulates amygdala fear circuits underlying generalized anxiety disorder.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Cannabis and stimulant use disorders commonly co-occur and share a mesolimbic dopamine reward pathway but differ in course: cannabis withdrawal is mild and protracted while stimulants produce intense crash and craving—polysubstance use worsens prognosis.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Cannabis use disorder is tightly linked to bipolar disorder: among its commonest comorbidities, it can precipitate manic or psychotic episodes and worsens mood-episode frequency—so heavy use in a young person with mood instability warrants caution.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Cannabis acts on CB1 receptors densest on neurons: THC mimics endocannabinoids that normally tune synaptic release, so chronic exposure downregulates CB1 signaling—especially harmful in the adolescent brain, where it can durably alter neural circuit maturation.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

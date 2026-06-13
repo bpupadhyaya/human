@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/fap
     relation: connects-to
     note: "Familial adenomatous polyposis, from germline APC mutation, carpets the colon with hundreds-to-thousands of adenomas and guarantees colorectal cancer by mid-adulthood without prophylactic colectomy; APC loss is also the founding event in >80% of sporadic CRC."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "MUTYH-associated polyposis is a recessive hereditary cause of colorectal cancer: biallelic MUTYH loss fails to repair oxidative DNA damage, producing G:C→T:A mutations and multiple adenomas, so a FAP-like polyposis with negative APC testing prompts MUTYH analysis."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Long-standing inflammatory bowel disease drives colitis-associated colorectal cancer: chronic inflammation accelerates the dysplasia-carcinoma sequence (often p53 early, APC late—reversed from sporadic CRC), so colitis warrants surveillance colonoscopy."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The MSI-high subset of colorectal cancer is exquisitely immunotherapy-responsive: mismatch-repair deficiency generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (pembrolizumab) works in MSI-high tumors while microsatellite-stable CRC remains resistant."
 ---
 
 # Colorectal Cancer
@@ -191,6 +200,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Colorectal and prostate cancers are two of the commonest adult solid tumours; both have hereditary drivers—Lynch raises both, BRCA2 raises prostate—and microsatellite-unstable CRC and DNA-repair-deficient prostate cancer both respond to checkpoint or PARP-based therapy.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is the dominant site of colorectal metastasis via portal venous drainage: ~50% of CRC patients develop liver mets, and resection or ablation of oligometastatic liver disease can be curative; this portal route makes CRC liver-metastasis management central to oncology.
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Familial adenomatous polyposis, from germline APC mutation, carpets the colon with hundreds-to-thousands of adenomas and guarantees colorectal cancer by mid-adulthood without prophylactic colectomy; APC loss is also the founding event in >80% of sporadic CRC.
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — MUTYH-associated polyposis is a recessive hereditary cause of colorectal cancer: biallelic MUTYH loss fails to repair oxidative DNA damage, producing G:C→T:A mutations and multiple adenomas, so a FAP-like polyposis with negative APC testing prompts MUTYH analysis.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Long-standing inflammatory bowel disease drives colitis-associated colorectal cancer: chronic inflammation accelerates the dysplasia-carcinoma sequence (often p53 early, APC late—reversed from sporadic CRC), so colitis warrants surveillance colonoscopy.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The MSI-high subset of colorectal cancer is exquisitely immunotherapy-responsive: mismatch-repair deficiency generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (pembrolizumab) works in MSI-high tumors while microsatellite-stable CRC remains resistant.
 
 ---
 
