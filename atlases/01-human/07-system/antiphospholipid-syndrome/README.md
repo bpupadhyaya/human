@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Migraine is a common neurological feature of antiphospholipid syndrome: antiphospholipid antibodies are associated with migraine and other neuro symptoms, and severe headache in a young patient with clots or miscarriage should prompt APS testing."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Antiphospholipid syndrome tips coagulation toward thrombin: antiphospholipid antibodies activate endothelium, platelets and complement and impair natural anticoagulants, so thrombin generation runs unchecked—driving the venous and arterial clots that define the disease."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Antiphospholipid syndrome is driven by autoreactive B cells: they produce the antiphospholipid antibodies (against beta-2-glycoprotein I and cardiolipin) that cause clotting and pregnancy loss, so B-cell-directed therapy like rituximab is explored for refractory cases."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Antiphospholipid syndrome is a leading treatable cause of recurrent pregnancy loss: antibodies injure the placenta through thrombosis and complement, so obstetric APS—miscarriage, stillbirth, preeclampsia—is managed with aspirin and heparin to protect the pregnancy."
 ---
 
 # Antiphospholipid Syndrome
@@ -241,6 +250,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — APS and TTP are both thrombotic microangiopathies: catastrophic APS (CAPS) mimics TTP with multi-organ microthrombi, but APS is driven by antiphospholipid antibodies and TTP by ADAMTS13 deficiency—antibody testing separates these clotting emergencies.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Antiphospholipid syndrome accelerates arterial disease beyond venous clots: the antibodies activate endothelium and platelets, promoting atherosclerosis and arterial thrombosis—so APS causes cardiovascular events in young patients, not just venous thromboembolism.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Migraine is a common neurological feature of antiphospholipid syndrome: antiphospholipid antibodies are associated with migraine and other neuro symptoms, and severe headache in a young patient with clots or miscarriage should prompt APS testing.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Antiphospholipid syndrome tips coagulation toward thrombin: antiphospholipid antibodies activate endothelium, platelets and complement and impair natural anticoagulants, so thrombin generation runs unchecked—driving the venous and arterial clots that define the disease.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Antiphospholipid syndrome is driven by autoreactive B cells: they produce the antiphospholipid antibodies (against beta-2-glycoprotein I and cardiolipin) that cause clotting and pregnancy loss, so B-cell-directed therapy like rituximab is explored for refractory cases.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Antiphospholipid syndrome is a leading treatable cause of recurrent pregnancy loss: antibodies injure the placenta through thrombosis and complement, so obstetric APS—miscarriage, stillbirth, preeclampsia—is managed with aspirin and heparin to protect the pregnancy.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

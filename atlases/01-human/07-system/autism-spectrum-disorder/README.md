@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Autism and anxiety disorders very frequently co-occur: a large share of autistic people have generalized anxiety, which intensifies sensory sensitivities and rigidity—so screening for and treating anxiety is central to autism care."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Elevated blood serotonin is autism's oldest biomarker: about a quarter of children with autism have platelet hyperserotonemia, and serotonin's role in early brain wiring links this neurotransmitter to the disorder's developmental origins, though its meaning stays unclear."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine circuits are implicated in autism's core features: altered mesolimbic dopamine signaling may underlie differences in social motivation and repetitive behaviors, and dopamine-blocking antipsychotics are the main drugs approved for autism-associated irritability."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Autism is a neurodevelopmental condition of the whole nervous system: altered synapse formation and excitation-inhibition balance during early brain development shape lifelong differences in perception, communication and behavior across many brain networks."
 ---
 
 # Autism Spectrum Disorder
@@ -244,6 +253,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Autism is linked to the gut-brain axis: many autistic people have GI symptoms and altered gut microbiomes, and microbial metabolites may influence behavior and neurodevelopment—an area of intense (if still unproven) research into diet and microbiome interventions.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes contribute to autism's altered brain wiring: beyond neurons, dysfunctional astrocytes disturb synapse formation, glutamate handling and neuroinflammation, supporting a view of autism as a disorder of brain connectivity.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Autism and anxiety disorders very frequently co-occur: a large share of autistic people have generalized anxiety, which intensifies sensory sensitivities and rigidity—so screening for and treating anxiety is central to autism care.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Elevated blood serotonin is autism's oldest biomarker: about a quarter of children with autism have platelet hyperserotonemia, and serotonin's role in early brain wiring links this neurotransmitter to the disorder's developmental origins, though its meaning stays unclear.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine circuits are implicated in autism's core features: altered mesolimbic dopamine signaling may underlie differences in social motivation and repetitive behaviors, and dopamine-blocking antipsychotics are the main drugs approved for autism-associated irritability.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Autism is a neurodevelopmental condition of the whole nervous system: altered synapse formation and excitation-inhibition balance during early brain development shape lifelong differences in perception, communication and behavior across many brain networks.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
