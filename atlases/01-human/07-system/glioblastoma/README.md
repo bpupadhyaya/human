@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Seizures are a common presentation and complication of glioblastoma: the tumor's glutamate release and cortical irritation provoke epilepsy, so anticonvulsants are often needed—and the neuron-glioma excitatory signaling that causes seizures also fuels growth."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Glioblastoma is the most aggressive primary cancer of the nervous system: it infiltrates the brain diffusely along white-matter tracts, so it cannot be fully removed and recurs despite surgery, radiation and temozolomide—median survival stays around a year."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A deletion helps define and grade glioblastoma: homozygous loss of this cell-cycle brake marks IDH-mutant astrocytomas as grade 4 (glioblastoma-equivalent), so the molecular lesion now overrides histology in classifying these lethal gliomas."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Microvascular proliferation is a hallmark of glioblastoma: VEGF-driven endothelial overgrowth builds abnormal, leaky tumor vessels (with necrosis), so the disordered endothelium defines the pathology and is the target of anti-angiogenic bevacizumab."
 ---
 
 # Glioblastoma
@@ -229,6 +238,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Glioblastoma blurs glial lineages: though classed as an astrocytic tumor, it harbors cells with oligodendrocyte and progenitor features, reflecting a glioma stem cell of uncertain origin—this plasticity and heterogeneity is a key reason GBM resists targeted therapy.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss is a core glioblastoma driver: in one major molecular subtype p53 inactivation, with NF1 and PDGFRA changes, removes the damage checkpoint—so p53 status helps define GBM subgroups even though it has not yet yielded a targeted treatment.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures are a common presentation and complication of glioblastoma: the tumor's glutamate release and cortical irritation provoke epilepsy, so anticonvulsants are often needed—and the neuron-glioma excitatory signaling that causes seizures also fuels growth.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Glioblastoma is the most aggressive primary cancer of the nervous system: it infiltrates the brain diffusely along white-matter tracts, so it cannot be fully removed and recurs despite surgery, radiation and temozolomide—median survival stays around a year.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion helps define and grade glioblastoma: homozygous loss of this cell-cycle brake marks IDH-mutant astrocytomas as grade 4 (glioblastoma-equivalent), so the molecular lesion now overrides histology in classifying these lethal gliomas.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Microvascular proliferation is a hallmark of glioblastoma: VEGF-driven endothelial overgrowth builds abnormal, leaky tumor vessels (with necrosis), so the disordered endothelium defines the pathology and is the target of anti-angiogenic bevacizumab.
 
 ---
 

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Gorlin syndrome causes congenital eye anomalies: hypertelorism, congenital cataracts, colobomas and strabismus are part of the developmental phenotype of PTCH1 loss, reflecting hedgehog signaling's role in eye morphogenesis alongside the syndrome's tumor risk."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Gorlin syndrome floods the skin with basal cell carcinomas: PTCH1 loss unleashes Hedgehog signaling so that dozens to hundreds of BCCs arise from youth, plus palmar-plantar pits—making the integumentary system the syndrome's most visible burden."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Gorlin syndrome leaves skeletal fingerprints: odontogenic keratocysts of the jaw, bifid ribs, vertebral anomalies and a calcified falx are diagnostic skeletal features, so a dental or skeletal survey often helps confirm this Hedgehog-pathway syndrome."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Gorlin syndrome predisposes the developing nervous system to medulloblastoma: Hedgehog-pathway activation drives this childhood cerebellar tumor, so affected infants need brain surveillance—and radiation must be used cautiously given their extreme BCC radiosensitivity."
 ---
 
 # Gorlin Syndrome
@@ -210,6 +219,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation is hazardous in Gorlin syndrome: because PTCH1 loss primes skin to hedgehog-driven tumors, radiotherapy triggers hundreds of basal cell carcinomas in the treated field, so X-ray exposure is minimized—a sharp caution when these patients have medulloblastoma.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Gorlin's hedgehog defect intersects with Wnt in medulloblastoma: SHH-subtype medulloblastoma (driven by PTCH1/SMO) is distinct from the Wnt-subtype, and pathway crosstalk shapes which tumors arise—so Gorlin predisposes specifically to SHH, not Wnt, medulloblastoma.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Gorlin syndrome causes congenital eye anomalies: hypertelorism, congenital cataracts, colobomas and strabismus are part of the developmental phenotype of PTCH1 loss, reflecting hedgehog signaling's role in eye morphogenesis alongside the syndrome's tumor risk.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Gorlin syndrome floods the skin with basal cell carcinomas: PTCH1 loss unleashes Hedgehog signaling so that dozens to hundreds of BCCs arise from youth, plus palmar-plantar pits—making the integumentary system the syndrome's most visible burden.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Gorlin syndrome leaves skeletal fingerprints: odontogenic keratocysts of the jaw, bifid ribs, vertebral anomalies and a calcified falx are diagnostic skeletal features, so a dental or skeletal survey often helps confirm this Hedgehog-pathway syndrome.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Gorlin syndrome predisposes the developing nervous system to medulloblastoma: Hedgehog-pathway activation drives this childhood cerebellar tumor, so affected infants need brain surveillance—and radiation must be used cautiously given their extreme BCC radiosensitivity.
 
 ---
 
