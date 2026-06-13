@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes contribute to the glutamate dysfunction of schizophrenia: by clearing synaptic glutamate and supplying the NMDA co-agonist D-serine, astrocyte dysfunction can impair NMDA-receptor signaling—the basis of the glutamatergic hypothesis."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Schizophrenia and depression overlap and can be hard to separate: depression often complicates schizophrenia and raises suicide risk, and the two share genetic and neurochemical substrates—so mood symptoms are assessed throughout the illness."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Schizophrenia and epilepsy are bidirectionally linked: each roughly doubles the risk of the other, temporal-lobe epilepsy can produce schizophrenia-like psychosis, and they share glutamate and GABA disturbances—genuinely overlapping disorders."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Schizophrenia involves oligodendrocyte and white-matter abnormalities, not just neurons: fewer oligodendrocytes and disrupted myelination impair long-range connectivity, supporting a 'dysconnectivity' model where faulty wiring underlies the illness."
 ---
 
 # Schizophrenia
@@ -251,6 +260,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia are central to a leading schizophrenia hypothesis: complement-C4-tagged synapses are over-pruned by microglia in adolescence, and the strongest common genetic risk maps to the C4 locus—excess synaptic elimination may underlie the disorder's grey-matter loss.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Schizophrenia and autism share neurodevelopmental roots and genetics: overlapping copy-number variants (22q11, 16p11) and synaptic genes underlie both, sitting on a continuum of early brain miswiring—though autism presents in childhood and schizophrenia later.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes contribute to the glutamate dysfunction of schizophrenia: by clearing synaptic glutamate and supplying the NMDA co-agonist D-serine, astrocyte dysfunction can impair NMDA-receptor signaling—the basis of the glutamatergic hypothesis.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Schizophrenia and depression overlap and can be hard to separate: depression often complicates schizophrenia and raises suicide risk, and the two share genetic and neurochemical substrates—so mood symptoms are assessed throughout the illness.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Schizophrenia and epilepsy are bidirectionally linked: each roughly doubles the risk of the other, temporal-lobe epilepsy can produce schizophrenia-like psychosis, and they share glutamate and GABA disturbances—genuinely overlapping disorders.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Schizophrenia involves oligodendrocyte and white-matter abnormalities, not just neurons: fewer oligodendrocytes and disrupted myelination impair long-range connectivity, supporting a 'dysconnectivity' model where faulty wiring underlies the illness.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

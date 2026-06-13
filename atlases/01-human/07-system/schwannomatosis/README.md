@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/synovial-sarcoma
     relation: connects-to
     note: "Schwannomatosis and synovial sarcoma both disrupt the SWI/SNF chromatin-remodeling complex: SMARCB1 loss drives SMARCB1-related schwannomatosis (and rhabdoid tumors), while synovial sarcoma's SS18-SSX fusion hijacks the same BAF complex—shared epigenetic biology."
+  - target: 01-human/07-system/chordoma
+    relation: connects-to
+    note: "Schwannomatosis and poorly differentiated chordoma share SMARCB1 loss: this SWI/SNF tumor-suppressor, mutated in some schwannomatosis families, is also lost in aggressive SMARCB1-deficient chordomas—linking a benign nerve-tumor syndrome to chromatin-driven cancers."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Schwannomatosis and Li-Fraumeni are both tumor-predisposition syndromes via different mechanisms: schwannomatosis from SMARCB1/LZTR1 (SWI-SNF) loss, Li-Fraumeni from germline TP53 loss—chromatin-remodeling versus genome-guardian failure."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Schwannomatosis tumors enter the sarcoma differential: schwannomas and arising MPNSTs must be distinguished from EWSR1-driven Ewing sarcoma and synovial sarcoma by immunohistochemistry and molecular testing—nerve-sheath versus translocation-driven tumors."
 ---
 
 # Schwannomatosis
@@ -177,6 +186,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — Schwannomatosis and meningioma overlap through the NF2/SWI-SNF axis: SMARCB1 and LZTR1 mutations cause schwannomatosis, and SMARCB1-mutant cases can also develop meningiomas, while NF2-related schwannomatosis classically combines schwannomas with meningiomas and ependymomas.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Chronic pain, not hearing loss, is the defining feature of schwannomatosis: unlike NF2, its multiple peripheral-nerve schwannomas cause severe, often disproportionate neuropathic pain as the presenting complaint, making pain management central to care.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Schwannomatosis and synovial sarcoma both disrupt the SWI/SNF chromatin-remodeling complex: SMARCB1 loss drives SMARCB1-related schwannomatosis (and rhabdoid tumors), while synovial sarcoma's SS18-SSX fusion hijacks the same BAF complex—shared epigenetic biology.
+- `connects-to` → **[Chordoma](../chordoma/README.md)** — Schwannomatosis and poorly differentiated chordoma share SMARCB1 loss: this SWI/SNF tumor-suppressor, mutated in some schwannomatosis families, is also lost in aggressive SMARCB1-deficient chordomas—linking a benign nerve-tumor syndrome to chromatin-driven cancers.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Schwannomatosis and Li-Fraumeni are both tumor-predisposition syndromes via different mechanisms: schwannomatosis from SMARCB1/LZTR1 (SWI-SNF) loss, Li-Fraumeni from germline TP53 loss—chromatin-remodeling versus genome-guardian failure.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Schwannomatosis tumors enter the sarcoma differential: schwannomas and arising MPNSTs must be distinguished from EWSR1-driven Ewing sarcoma and synovial sarcoma by immunohistochemistry and molecular testing—nerve-sheath versus translocation-driven tumors.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
