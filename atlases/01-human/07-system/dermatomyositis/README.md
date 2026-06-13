@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Dermatomyositis and lupus are both type I interferonopathies with photosensitive rashes, and their cutaneous signs are contrasted: Gottron's papules sit ON the knuckles whereas lupus spares them; both are now treated with anifrolumab, reflecting the shared interferon axis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Dermatomyositis is an idiopathic inflammatory myopathy: complement-mediated capillary injury drives perifascicular atrophy and symmetric proximal weakness (trouble rising, lifting, climbing); CK rises, and it burdens the musculoskeletal system with arthralgia and calcinosis."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Dermatomyositis is paraneoplastic in up to ~20-25% of adults, especially with anti-TIF1γ antibodies: ovarian, lung, breast and GI cancers are over-represented, and ovarian cancer is a classic association—so new adult DM mandates age-appropriate malignancy screening."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Dermatomyositis muscle and skin are infiltrated by macrophages and plasmacytoid dendritic cells pouring out type I interferon, the disease's central cytokine; macrophage inflammation amplifies the complement-driven microangiopathy, and JAK inhibitors blunt this signalling."
 ---
 
 # Dermatomyositis
@@ -196,6 +205,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Interstitial lung disease complicates 20-40% of dermatomyositis: anti-MDA5+ DM can cause rapidly progressive ILD reaching respiratory failure within weeks (high ferritin flags the risk), demanding aggressive immunosuppression — tacrolimus triple therapy or JAK inhibitors.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Dermatomyositis is a microangiopathy: complement MAC on muscle capillaries causes capillary dropout → ischemia at fascicle edges, producing the pathognomonic perifascicular atrophy; this complement mechanism distinguishes DM from the T-cell muscle injury of polymyositis.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Dermatomyositis and lupus are both type I interferonopathies with photosensitive rashes, and their cutaneous signs are contrasted: Gottron's papules sit ON the knuckles whereas lupus spares them; both are now treated with anifrolumab, reflecting the shared interferon axis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Dermatomyositis is an idiopathic inflammatory myopathy: complement-mediated capillary injury drives perifascicular atrophy and symmetric proximal weakness (trouble rising, lifting, climbing); CK rises, and it burdens the musculoskeletal system with arthralgia and calcinosis.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Dermatomyositis is paraneoplastic in up to ~20-25% of adults, especially with anti-TIF1γ antibodies: ovarian, lung, breast and GI cancers are over-represented, and ovarian cancer is a classic association—so new adult DM mandates age-appropriate malignancy screening.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermatomyositis muscle and skin are infiltrated by macrophages and plasmacytoid dendritic cells pouring out type I interferon, the disease's central cytokine; macrophage inflammation amplifies the complement-driven microangiopathy, and JAK inhibitors blunt this signalling.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

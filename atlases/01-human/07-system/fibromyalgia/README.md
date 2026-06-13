@@ -33,6 +33,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "FM and neuropathic pain share central sensitization (NMDA wind-up, descending inhibition failure) but differ: neuropathic pain requires nerve injury while FM is nociplastic; both respond to SNRIs and α2δ ligands; small fiber neuropathy co-occurs in ~40% of FM patients."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Fibromyalgia and migraine frequently co-occur and share central sensitization and CGRP biology: both feature amplified pain processing and descending-inhibition failure, anti-CGRP antibodies developed for migraine are under study in FM, and SNRIs and exercise help both."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression coexists with fibromyalgia in ~40-60%: they share serotonin-norepinephrine dysregulation and HPA-axis changes, the SNRIs duloxetine and milnacipran treat both, and depression worsens FM pain and disability—though FM pain is not merely somatized depression."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety disorders are highly comorbid with fibromyalgia: shared monoaminergic dysregulation and stress-axis dysfunction link them, anxiety amplifies pain perception and sleep disruption in a vicious cycle, and combined CBT plus SNRI treatment targets both pain and affective load."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -198,6 +207,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 
 - `connects-to` → **[CGRP](../../../03-molecular/cgrp/README.md)** — CGRP is elevated in plasma and CSF in FM patients; CGRP-mediated peripheral C-fiber sensitization contributes to FM's widespread hyperalgesia and allodynia; anti-CGRP monoclonal antibodies (developed for migraine) are under investigation as potential FM treatments; CGRP and substance P are co-released from peripheral nociceptors and synergistically drive neurogenic inflammation.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — FM and neuropathic pain share central sensitization mechanisms (NMDA wind-up, loss of descending inhibitory control) but differ mechanistically: neuropathic pain requires a demonstrable nerve lesion while FM is nociplastic (amplified without peripheral pathology); both respond to SNRIs (duloxetine, milnacipran) and α2δ ligands (pregabalin, gabapentin); small fiber neuropathy (SFN) co-occurs in approximately 40% of FM patients on skin biopsy.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Fibromyalgia and migraine frequently co-occur and share central sensitization and CGRP biology: both feature amplified pain processing and descending-inhibition failure, anti-CGRP antibodies developed for migraine are under study in FM, and SNRIs and exercise help both.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression coexists with fibromyalgia in ~40-60%: they share serotonin-norepinephrine dysregulation and HPA-axis changes, the SNRIs duloxetine and milnacipran treat both, and depression worsens FM pain and disability—though FM pain is not merely somatized depression.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety disorders are highly comorbid with fibromyalgia: shared monoaminergic dysregulation and stress-axis dysfunction link them, anxiety amplifies pain perception and sleep disruption in a vicious cycle, and combined CBT plus SNRI treatment targets both pain and affective load.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
