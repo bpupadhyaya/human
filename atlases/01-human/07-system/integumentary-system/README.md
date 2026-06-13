@@ -53,6 +53,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells in the dermis are key effectors of the skin's immune barrier: IgE- or MRGPRX2-triggered degranulation releases histamine → wheal-and-flare urticaria, angioedema and itch; they also orchestrate wound healing and the response to venoms and irritants at the body surface."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The skin is a target organ of reproductive hormones: androgens drive sebaceous glands, acne, and male-pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so the integument reflects the reproductive system's hormonal state."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The integumentary system is both an endocrine target and an endocrine organ: thyroid, cortisol, and sex hormones reshape skin and hair, while the skin makes vitamin D from sunlight—so endocrine disease often first shows in the skin (myxedema, striae)."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Wound healing is the integumentary system's core repair program: after injury the skin runs hemostasis, inflammation, proliferation, and remodeling to rebuild epidermis and dermis—imperfectly, leaving scar that lacks follicles and full strength."
 ---
 
 # Integumentary System
@@ -170,6 +179,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The integumentary and musculoskeletal systems are the body's structural envelope and frame: skin's collagen-rich dermis is continuous with fascia over muscle and bone, both depend on vitamin D and collagen, and disorders like scleroderma, EDS and dermatomyositis injure both.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Psoriasis is the archetypal disease of the integumentary system: Th17/IL-17-driven keratinocyte hyperproliferation produces scaly plaques, showing the skin's role as an immune barrier; its systemic inflammation links skin to joints (psoriatic arthritis) and metabolic disease.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells in the dermis are key effectors of the skin's immune barrier: IgE- or MRGPRX2-triggered degranulation releases histamine → wheal-and-flare urticaria, angioedema and itch; they also orchestrate wound healing and the response to venoms and irritants at the body surface.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The skin is a target organ of reproductive hormones: androgens drive sebaceous glands, acne, and male-pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so the integument reflects the reproductive system's hormonal state.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The integumentary system is both an endocrine target and an endocrine organ: thyroid, cortisol, and sex hormones reshape skin and hair, while the skin makes vitamin D from sunlight—so endocrine disease often first shows in the skin (myxedema, striae).
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Wound healing is the integumentary system's core repair program: after injury the skin runs hemostasis, inflammation, proliferation, and remodeling to rebuild epidermis and dermis—imperfectly, leaving scar that lacks follicles and full strength.
 
 ## Pathology
 

@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Internet gaming disorder and anxiety reinforce each other: gaming is short-term escape from worry, while excessive use, sleep loss and functional decline heighten anxiety; generalized anxiety disorder commonly co-occurs with IGD and shapes relapse during attempts to cut down."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Internet gaming disorder and stimulant use disorder converge on the mesolimbic dopamine reward circuit: gaming's variable rewards drive compulsive use like an addiction, as stimulants flood the nucleus accumbens with dopamine—blurring substance and behavioral addiction."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Internet gaming disorder is markedly more common in autism spectrum disorder: gaming's predictable, controllable, low-social-demand structure is especially reinforcing, so screen overuse and IGD are frequent in autistic youth and complicate management of both."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Internet gaming disorder reflects reward-circuit neuroplasticity: repeated dopaminergic reward signaling reshapes synapses in mesolimbic and prefrontal neurons, blunting reward sensitivity and impulse control much as substance addictions do—seen on functional imaging."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -224,6 +233,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD is one of the strongest correlates of internet gaming disorder: deficits in dopaminergic reward processing and inhibitory control predispose to compulsive gaming, the two are highly comorbid, and IGD severity tracks ADHD symptom load—stimulant treatment may reduce gaming.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Social anxiety drives internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a reinforcing loop; SAD is a common IGD comorbidity and a target for combined treatment.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Internet gaming disorder and anxiety reinforce each other: gaming is short-term escape from worry, while excessive use, sleep loss and functional decline heighten anxiety; generalized anxiety disorder commonly co-occurs with IGD and shapes relapse during attempts to cut down.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Internet gaming disorder and stimulant use disorder converge on the mesolimbic dopamine reward circuit: gaming's variable rewards drive compulsive use like an addiction, as stimulants flood the nucleus accumbens with dopamine—blurring substance and behavioral addiction.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Internet gaming disorder is markedly more common in autism spectrum disorder: gaming's predictable, controllable, low-social-demand structure is especially reinforcing, so screen overuse and IGD are frequent in autistic youth and complicate management of both.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Internet gaming disorder reflects reward-circuit neuroplasticity: repeated dopaminergic reward signaling reshapes synapses in mesolimbic and prefrontal neurons, blunting reward sensitivity and impulse control much as substance addictions do—seen on functional imaging.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
