@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity impairs wound healing: poor tissue perfusion, chronic low-grade inflammation, and frequent coexisting diabetes slow each phase of repair, so obese and diabetic patients suffer more wound dehiscence, infection and chronic ulcers—a major surgical burden."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Wound healing tips into fibrosis when it overshoots: the same fibroblast and TGF-beta program that repairs a wound, if unresolved, lays down excess collagen as hypertrophic scars, keloids or organ fibrosis—so pathological fibrosis is wound healing that never stops."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Oxygen is rate-limiting for wound healing: collagen synthesis and the bacteria-killing oxidative burst both need it, so hypoxic, poorly perfused wounds (diabetes, vascular disease) heal slowly—why perfusion and hyperbaric oxygen matter for chronic wounds."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells regulate the wound's transition from inflammation to repair: their cytokines orchestrate macrophage switching and fibroblast activity, so the adaptive immune balance shapes whether a wound heals cleanly or scars—or fails to close in chronic wounds."
 ---
 
 # Wound Healing
@@ -214,6 +223,9 @@ cross_links:
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils lead the inflammatory phase of wound healing: arriving within hours, they kill bacteria and clear debris, but their proteases also damage tissue—so timely resolution is essential, and persistent neutrophilia underlies chronic non-healing wounds.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF is a master growth factor of wound repair: released by degranulating platelets, it recruits and activates fibroblasts and smooth muscle, driving granulation tissue and collagen deposition—and recombinant PDGF (becaplermin) treats diabetic foot ulcers.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity impairs wound healing: poor tissue perfusion, chronic low-grade inflammation, and frequent coexisting diabetes slow each phase of repair, so obese and diabetic patients suffer more wound dehiscence, infection and chronic ulcers—a major surgical burden.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Wound healing tips into fibrosis when it overshoots: the same fibroblast and TGF-beta program that repairs a wound, if unresolved, lays down excess collagen as hypertrophic scars, keloids or organ fibrosis—so pathological fibrosis is wound healing that never stops.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen is rate-limiting for wound healing: collagen synthesis and the bacteria-killing oxidative burst both need it, so hypoxic, poorly perfused wounds (diabetes, vascular disease) heal slowly—why perfusion and hyperbaric oxygen matter for chronic wounds.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells regulate the wound's transition from inflammation to repair: their cytokines orchestrate macrophage switching and fibroblast activity, so the adaptive immune balance shapes whether a wound heals cleanly or scars—or fails to close in chronic wounds.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

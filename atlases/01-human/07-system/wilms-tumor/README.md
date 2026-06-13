@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/medulloblastoma
     relation: connects-to
     note: "Wilms tumor and medulloblastoma are both embryonal childhood tumors arising from developmental precursors: Wilms from metanephric blastema (WT1/Wnt), medulloblastoma from cerebellar progenitors—different organs, but both recapitulate arrested embryonic development."
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "Wilms tumor is partly a Wnt-driven cancer: beta-catenin (CTNNB1) activating mutations, often with WT1 loss, derail the kidney's developmental Wnt signaling so nephron precursors keep proliferating—turning arrested fetal kidney tissue into the embryonal tumor."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Wilms tumor metastasizes characteristically to the lung: it spreads hematogenously to produce pulmonary nodules, so chest imaging is part of staging—yet even metastatic Wilms is often cured, an unusually favorable pediatric cancer."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Wilms tumor links to several developmental cancer syndromes including DICER1: beyond WT1, predispositions like DICER1 and Beckwith-Wiedemann raise risk, so bilateral or syndromic Wilms prompts genetic evaluation and tailored surveillance."
 ---
 
 # Wilms Tumor
@@ -216,6 +225,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is part of risk-adapted Wilms tumor cure: flank or whole-abdomen photon radiation is added for higher-stage or unfavorable-histology disease after nephrectomy and chemotherapy, contributing to Wilms' high cure rate.
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Wilms tumor and rhabdoid tumors are distinct pediatric renal/CNS cancers: classic Wilms is a WT1-related nephroblastoma with good prognosis, while malignant rhabdoid tumor of the kidney (and CNS ATRT) is a SMARCB1-deficient, far more aggressive tumor.
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Wilms tumor and medulloblastoma are both embryonal childhood tumors arising from developmental precursors: Wilms from metanephric blastema (WT1/Wnt), medulloblastoma from cerebellar progenitors—different organs, but both recapitulate arrested embryonic development.
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — Wilms tumor is partly a Wnt-driven cancer: beta-catenin (CTNNB1) activating mutations, often with WT1 loss, derail the kidney's developmental Wnt signaling so nephron precursors keep proliferating—turning arrested fetal kidney tissue into the embryonal tumor.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Wilms tumor metastasizes characteristically to the lung: it spreads hematogenously to produce pulmonary nodules, so chest imaging is part of staging—yet even metastatic Wilms is often cured, an unusually favorable pediatric cancer.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Wilms tumor links to several developmental cancer syndromes including DICER1: beyond WT1, predispositions like DICER1 and Beckwith-Wiedemann raise risk, so bilateral or syndromic Wilms prompts genetic evaluation and tailored surveillance.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
