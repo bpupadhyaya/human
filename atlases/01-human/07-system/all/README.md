@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Acute lymphoblastic leukemia infiltrates the spleen and liver: circulating blasts lodge in these organs causing hepatosplenomegaly, a common presenting sign along with lymphadenopathy—reflecting how a marrow cancer spills into the lymphoid filtering organs."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20 is a target in B-lineage ALL: adding the anti-CD20 antibody rituximab to chemotherapy improves outcomes in CD20-positive B-ALL, complementing the CD19- and CD22-directed immunotherapies (blinatumomab, CAR-T) that have transformed treatment."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "ALL crowds out normal blood production: leukemic blasts pack the marrow and suppress red-cell, neutrophil and platelet formation, so anemia, infection and bleeding—not the leukemia itself—are how acute lymphoblastic leukemia usually first presents."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "ALL has a special tropism for the central nervous system: leukemic cells seed the meninges as a sanctuary site beyond most chemotherapy, so CNS-directed prophylaxis (intrathecal drugs) is essential—unlike PCNSL, a distinct lymphoma confined to the brain."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -239,6 +248,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Acute lymphoblastic leukemia crowds out platelet production: leukemic blasts fill the marrow and suppress megakaryocytes, so thrombocytopenia causes bruising and bleeding—one of the cytopenias, with anemia and neutropenia, that signals marrow takeover at diagnosis.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a sanctuary site in acute lymphoblastic leukemia: blasts hide in the CNS where systemic chemo penetrates poorly, so untreated patients relapse in the meninges—why ALL therapy routinely includes intrathecal chemotherapy and sometimes cranial radiation.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Acute lymphoblastic leukemia infiltrates the spleen and liver: circulating blasts lodge in these organs causing hepatosplenomegaly, a common presenting sign along with lymphadenopathy—reflecting how a marrow cancer spills into the lymphoid filtering organs.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20 is a target in B-lineage ALL: adding the anti-CD20 antibody rituximab to chemotherapy improves outcomes in CD20-positive B-ALL, complementing the CD19- and CD22-directed immunotherapies (blinatumomab, CAR-T) that have transformed treatment.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — ALL crowds out normal blood production: leukemic blasts pack the marrow and suppress red-cell, neutrophil and platelet formation, so anemia, infection and bleeding—not the leukemia itself—are how acute lymphoblastic leukemia usually first presents.
+- `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — ALL has a special tropism for the central nervous system: leukemic cells seed the meninges as a sanctuary site beyond most chemotherapy, so CNS-directed prophylaxis (intrathecal drugs) is essential—unlike PCNSL, a distinct lymphoma confined to the brain.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
