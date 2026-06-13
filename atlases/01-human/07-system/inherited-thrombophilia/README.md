@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Inherited thrombophilias (factor V Leiden, prothrombin G20210A) cause venous, not arterial, thrombosis — so they are not established risk factors for ischemic stroke or MI and do not warrant anticoagulation for arterial events; antiphospholipid syndrome is the exception."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Healthy endothelium is antithrombotic, displaying thrombomodulin that activates protein C and heparan sulfate for antithrombin; inherited thrombophilias (factor V Leiden, protein C/S or antithrombin deficiency) cripple these endothelial-anchored brakes, tilting toward clotting."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "Both are prothrombotic but differ in origin: inherited thrombophilia is a germline anticoagulant defect, HIT an acquired antibody-mediated platelet activation; a thrombophilic patient who develops HIT faces compounded clot risk, and both demand non-heparin anticoagulation."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "PNH is an acquired thrombophilia: loss of GPI-anchored complement regulators drives hemolysis and platelet activation → thrombosis in unusual sites (hepatic, cerebral); like inherited thrombophilias it presents with unexplained VTE, but its mechanism is complement, not factors."
 ---
 
 # Inherited Thrombophilia
@@ -222,6 +231,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Inherited thrombophilia is the mirror image of hemophilia — a clotting excess versus a bleeding deficiency; the contrast is mechanistic, since factor V Leiden makes FVa resist shutdown by activated protein C, whose downstream targets are missing or weak in hemophilia.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver synthesizes nearly all coagulation proteins, including the anticoagulants protein C, protein S, and antithrombin whose inherited deficiencies cause thrombophilia; hepatic failure causes a mixed coagulopathy, and warfarin blocks vitamin-K-dependent factor synthesis.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Inherited thrombophilias (factor V Leiden, prothrombin G20210A) cause venous, not arterial, thrombosis — so they are not established risk factors for ischemic stroke or MI and do not warrant anticoagulation for arterial events; antiphospholipid syndrome is the exception.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Healthy endothelium is antithrombotic, displaying thrombomodulin that activates protein C and heparan sulfate for antithrombin; inherited thrombophilias (factor V Leiden, protein C/S or antithrombin deficiency) cripple these endothelial-anchored brakes, tilting toward clotting.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — Both are prothrombotic but differ in origin: inherited thrombophilia is a germline anticoagulant defect, HIT an acquired antibody-mediated platelet activation; a thrombophilic patient who develops HIT faces compounded clot risk, and both demand non-heparin anticoagulation.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — PNH is an acquired thrombophilia: loss of GPI-anchored complement regulators drives hemolysis and platelet activation → thrombosis in unusual sites (hepatic, cerebral); like inherited thrombophilias it presents with unexplained VTE, but its mechanism is complement, not factors.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
