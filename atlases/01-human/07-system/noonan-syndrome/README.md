@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "Noonan syndrome predisposes to myeloid leukemia: germline PTPN11 (SHP2) activation drives a JMML-like myeloproliferative disorder in infancy that is often self-limited but can progress, and the RAS-pathway link extends to AML—Ras overactivity dysregulating myelopoiesis."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Congenital heart disease is central to Noonan syndrome: RAS/MAPK overactivity disrupts cardiac development, classically causing pulmonary valve stenosis and hypertrophic cardiomyopathy, so the cardiovascular system bears the syndrome's most serious manifestations."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Short stature in Noonan reflects disrupted growth signaling: RAS-pathway overactivity blunts the growth-hormone/IGF-1 axis, so children are short and growth-hormone therapy is used—though efficacy varies and RAS activation raises theoretical tumor concerns."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Noonan syndrome can weaken bone: reduced bone mineral density and increased fracture risk accompany the syndrome, reflecting RAS-pathway effects on bone metabolism—so skeletal health joins cardiac and growth issues in long-term Noonan care."
 ---
 
 # Noonan Syndrome
@@ -225,6 +234,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Noonan syndrome and neuroblastoma both stem from RAS-MAPK overactivity: Noonan from germline PTPN11/SOS1 activation, neuroblastoma often from somatic ALK or RAS lesions—Noonan raises neuroblastoma risk, one pathway shaping a malformation syndrome and a tumor.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Noonan syndrome commonly causes a bleeding tendency: many patients have von Willebrand factor and platelet-function defects, so easy bruising and surgical bleeding are common—coagulation screening is advised before any procedure in Noonan patients.
 - `connects-to` → **[AML](../aml/README.md)** — Noonan syndrome predisposes to myeloid leukemia: germline PTPN11 (SHP2) activation drives a JMML-like myeloproliferative disorder in infancy that is often self-limited but can progress, and the RAS-pathway link extends to AML—Ras overactivity dysregulating myelopoiesis.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Congenital heart disease is central to Noonan syndrome: RAS/MAPK overactivity disrupts cardiac development, classically causing pulmonary valve stenosis and hypertrophic cardiomyopathy, so the cardiovascular system bears the syndrome's most serious manifestations.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Short stature in Noonan reflects disrupted growth signaling: RAS-pathway overactivity blunts the growth-hormone/IGF-1 axis, so children are short and growth-hormone therapy is used—though efficacy varies and RAS activation raises theoretical tumor concerns.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Noonan syndrome can weaken bone: reduced bone mineral density and increased fracture risk accompany the syndrome, reflecting RAS-pathway effects on bone metabolism—so skeletal health joins cardiac and growth issues in long-term Noonan care.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
