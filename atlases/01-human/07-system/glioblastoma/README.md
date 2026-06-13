@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Up to a third to half of glioblastoma's mass is tumor-associated macrophages and microglia recruited by tumor chemokines; rather than attacking, they are reprogrammed to an immunosuppressive state promoting invasion and angiogenesis, a key reason immunotherapy has failed in GBM."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Glioblastoma is the malignant endpoint of the astrocytic lineage: it arises from astrocytes or their progenitors, retaining GFAP expression, and reactive astrocytes at the tumor margin help build the invasive, pro-tumor microenvironment."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Glioblastoma is defined molecularly against IDH-mutant glioma: true GBM is IDH-wildtype with TERT-promoter mutation, EGFR amplification and +7/-10, carrying the worst prognosis, whereas IDH-mutant astrocytomas are a separate, better-prognosis entity—so IDH status now defines GBM."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Glioblastoma and meningioma are the two commonest primary brain tumors but opposite in nature: GBM is intra-axial, diffusely infiltrative and malignant, while meningioma is extra-axial, usually benign and dural-based, so resectable—distinguished on MRI by location and dural tail."
 ---
 
 # Glioblastoma
@@ -193,6 +202,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — Glioblastoma and H3K27M diffuse midline glioma are both WHO grade 4 gliomas but molecularly opposite: GBM is the adult hemispheric tumor driven by EGFR/TERT/PTEN, DMG the pediatric midline tumor driven by an epigenetic H3K27M mutation — ONC201 helps DMG, bevacizumab helps GBM.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Glioblastoma is the most aggressive primary brain tumor, infiltrating along white-matter tracts so diffusely that even gross-total resection leaves cells behind, guaranteeing recurrence; the blood-brain barrier blocks most systemic drugs, capping median survival near 15 months.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Up to a third to half of glioblastoma's mass is tumor-associated macrophages and microglia recruited by tumor chemokines; rather than attacking, they are reprogrammed to an immunosuppressive state promoting invasion and angiogenesis, a key reason immunotherapy has failed in GBM.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glioblastoma is the malignant endpoint of the astrocytic lineage: it arises from astrocytes or their progenitors, retaining GFAP expression, and reactive astrocytes at the tumor margin help build the invasive, pro-tumor microenvironment.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Glioblastoma is defined molecularly against IDH-mutant glioma: true GBM is IDH-wildtype with TERT-promoter mutation, EGFR amplification and +7/-10, carrying the worst prognosis, whereas IDH-mutant astrocytomas are a separate, better-prognosis entity—so IDH status now defines GBM.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Glioblastoma and meningioma are the two commonest primary brain tumors but opposite in nature: GBM is intra-axial, diffusely infiltrative and malignant, while meningioma is extra-axial, usually benign and dural-based, so resectable—distinguished on MRI by location and dural tail.
 
 ---
 

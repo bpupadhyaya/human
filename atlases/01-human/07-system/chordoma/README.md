@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Skull-base (clival) chordomas grow against the brainstem, cavernous sinus, and cranial nerves, causing diplopia, headache, and cranial-nerve palsies; their proximity to brain and vessels limits margins, making proton-beam radiotherapy central to controlling residual tumor."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Chordoma is defined by its radiotherapy needs: nestled against the brainstem and cord at the skull base and sacrum, it needs very high radiation doses that proton-beam therapy delivers while sparing neural tissue—central since complete resection is often impossible."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "Chordoma and osteosarcoma are both primary bone malignancies but differ fundamentally: chordoma is a slow-growing notochord-remnant tumor of the axial skeleton (skull base/sacrum) driven by brachyury, while osteosarcoma is an aggressive osteoid-producing tumor of long bones."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Chordoma's relationship to bone-forming cells is distinctive: although it grows within and destroys bone, it does not arise from osteoblasts but from notochord remnants, producing a lytic, gelatinous mass rather than the bone matrix osteoblasts lay down—imaging shows destruction."
 ---
 
 # Chordoma
@@ -198,6 +207,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Chordoma and Ewing sarcoma are both rare bone tumors with one defining genetic lesion — chordoma's TBXT/brachyury overexpression versus Ewing's EWSR1-FLI1 fusion — but chordoma is a slow midline tumor of adults from notochord remnants, Ewing a small-cell tumor of children.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Chordoma arises along the axial skeleton from embryonic notochord remnants — ~50% sacrum, ~35% skull base (clivus), the rest mobile spine; this midline bony location, often diagnosed late and abutting critical structures, makes en-bloc resection the mainstay yet often incomplete.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Skull-base (clival) chordomas grow against the brainstem, cavernous sinus, and cranial nerves, causing diplopia, headache, and cranial-nerve palsies; their proximity to brain and vessels limits margins, making proton-beam radiotherapy central to controlling residual tumor.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Chordoma is defined by its radiotherapy needs: nestled against the brainstem and cord at the skull base and sacrum, it needs very high radiation doses that proton-beam therapy delivers while sparing neural tissue—central since complete resection is often impossible.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Chordoma and osteosarcoma are both primary bone malignancies but differ fundamentally: chordoma is a slow-growing notochord-remnant tumor of the axial skeleton (skull base/sacrum) driven by brachyury, while osteosarcoma is an aggressive osteoid-producing tumor of long bones.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Chordoma's relationship to bone-forming cells is distinctive: although it grows within and destroys bone, it does not arise from osteoblasts but from notochord remnants, producing a lytic, gelatinous mass rather than the bone matrix osteoblasts lay down—imaging shows destruction.
 
 ---
 
