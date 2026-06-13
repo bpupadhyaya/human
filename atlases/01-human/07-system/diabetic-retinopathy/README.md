@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Diabetic retinopathy and sickle cell retinopathy are both proliferative retinopathies: both occlude retinal capillaries—by hyperglycemic microangiopathy versus sickled-cell vaso-occlusion—driving VEGF-fueled neovascularization that can bleed and detach the retina."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Retinal ischemia drives proliferative diabetic retinopathy: capillary damage starves the retina of oxygen, so the hypoxic tissue pours out VEGF that grows fragile new vessels which bleed and detach the retina—why anti-VEGF injections and laser are the mainstay."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Glycemic control is the key lever against diabetic retinopathy: chronic high glucose damages retinal microvessels, so insulin and other glucose-lowering therapy slow progression—though rapid correction can transiently worsen it, demanding careful monitoring."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Diabetic retinopathy and nephropathy are paired microvascular complications: the same chronic hyperglycemia that damages retinal capillaries injures the glomerulus, so retinopathy often signals coexisting kidney disease—a shared small-vessel toll of diabetes."
 ---
 
 # Diabetic Retinopathy
@@ -209,6 +218,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Advanced glycation end products and their receptor RAGE drive diabetic retinopathy: chronic hyperglycemia glycates proteins that bind RAGE on retinal vessels, triggering inflammation and pericyte loss—a core mechanism translating high glucose into microvascular damage.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity feeds diabetic retinopathy through type 2 diabetes: the insulin resistance and hyperglycemia of obesity-driven diabetes damage retinal microvessels over years, so the obesity epidemic expands the population at risk for the leading cause of working-age blindness.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Diabetic retinopathy and sickle cell retinopathy are both proliferative retinopathies: both occlude retinal capillaries—by hyperglycemic microangiopathy versus sickled-cell vaso-occlusion—driving VEGF-fueled neovascularization that can bleed and detach the retina.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Retinal ischemia drives proliferative diabetic retinopathy: capillary damage starves the retina of oxygen, so the hypoxic tissue pours out VEGF that grows fragile new vessels which bleed and detach the retina—why anti-VEGF injections and laser are the mainstay.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Glycemic control is the key lever against diabetic retinopathy: chronic high glucose damages retinal microvessels, so insulin and other glucose-lowering therapy slow progression—though rapid correction can transiently worsen it, demanding careful monitoring.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Diabetic retinopathy and nephropathy are paired microvascular complications: the same chronic hyperglycemia that damages retinal capillaries injures the glomerulus, so retinopathy often signals coexisting kidney disease—a shared small-vessel toll of diabetes.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
