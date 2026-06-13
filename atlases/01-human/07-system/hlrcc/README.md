@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "HLRCC illustrates pseudohypoxia's effect on red cells: fumarate accumulation stabilizes HIF as if oxygen were low, and HIF transcribes erythropoietin—so FH-deficient and other TCA-cycle tumors can drive secondary polycythemia and a raised erythrocyte mass."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "HLRCC and Birt-Hogg-Dubé are both hereditary kidney-cancer syndromes with distinct genes: HLRCC's FH loss yields type 2 papillary RCC and cutaneous/uterine leiomyomas, while BHD's FLCN loss gives chromophobe/oncocytic tumors, lung cysts and skin fibrofolliculomas."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "HLRCC's FH defect strikes the uterus as well as the kidney: fumarate-hydratase loss drives the cutaneous and uterine leiomyomas of the syndrome, and FH-deficient uterine tumors and endometrial cancers can arise—so gynecologic surveillance complements renal screening."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "HLRCC and Cowden syndrome are both dominant syndromes raising kidney cancer risk via different pathways: HLRCC from FH loss (a Krebs-cycle/pseudohypoxia defect), Cowden from PTEN loss (PI3K-AKT)—each adds a distinct extrarenal tumor spectrum."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -207,6 +216,9 @@ Cutaneous:
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — HLRCC and VHL disease are both hereditary kidney-cancer syndromes converging on pseudohypoxia: VHL loss stabilizes HIF directly, while HLRCC's FH loss raises fumarate that blocks the HIF prolyl-hydroxylases. HLRCC papillary RCC is far more aggressive than VHL clear-cell tumors.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — HLRCC and tuberous sclerosis are inherited syndromes that both cause renal tumors and smooth-muscle lesions: TSC drives angiomyolipomas and renal cysts via mTOR, while HLRCC's FH loss drives aggressive papillary RCC plus cutaneous and uterine leiomyomas.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — HLRCC illustrates pseudohypoxia's effect on red cells: fumarate accumulation stabilizes HIF as if oxygen were low, and HIF transcribes erythropoietin—so FH-deficient and other TCA-cycle tumors can drive secondary polycythemia and a raised erythrocyte mass.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — HLRCC and Birt-Hogg-Dubé are both hereditary kidney-cancer syndromes with distinct genes: HLRCC's FH loss yields type 2 papillary RCC and cutaneous/uterine leiomyomas, while BHD's FLCN loss gives chromophobe/oncocytic tumors, lung cysts and skin fibrofolliculomas.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — HLRCC's FH defect strikes the uterus as well as the kidney: fumarate-hydratase loss drives the cutaneous and uterine leiomyomas of the syndrome, and FH-deficient uterine tumors and endometrial cancers can arise—so gynecologic surveillance complements renal screening.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — HLRCC and Cowden syndrome are both dominant syndromes raising kidney cancer risk via different pathways: HLRCC from FH loss (a Krebs-cycle/pseudohypoxia defect), Cowden from PTEN loss (PI3K-AKT)—each adds a distinct extrarenal tumor spectrum.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

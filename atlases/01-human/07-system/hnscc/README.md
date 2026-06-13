@@ -61,6 +61,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/hpv-16
     relation: connects-to
     note: "HPV-16 drives a distinct, rising subset of head and neck squamous cell carcinoma: the virus infects oropharyngeal (tonsil, base of tongue) crypt epithelium, its E6/E7 oncoproteins inactivating p53 and Rb; HPV-positive HNSCC affects younger non-smokers and has a better prognosis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy is central to head and neck cancer: definitive chemoradiation can cure many HNSCCs (especially HPV-positive oropharyngeal tumors) and organ-preserve the larynx, while IMRT spares salivary glands—radiation is as pivotal here as surgery."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts shape head and neck cancer: HNSCC recruits and reprograms fibroblasts that secrete growth factors, remodel matrix and blunt immunity, promoting invasion and resistance—making the fibroblast-rich microenvironment a therapeutic target."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Head and neck cancer and thyroid cancer both arise in the neck but differ: HNSCC is a smoking/HPV-driven squamous carcinoma of the aerodigestive mucosa, while thyroid cancer is a usually indolent endocrine tumor—neck radiation, a thyroid-cancer risk factor, links them."
 ---
 
 # HNSCC
@@ -190,6 +199,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a primary cause of head and neck squamous cell carcinoma: acetaldehyde is a direct mucosal carcinogen that synergizes strongly with tobacco to multiply oral, pharyngeal and laryngeal cancer risk—an etiology distinct from the HPV-driven oropharyngeal subset.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Tobacco smoke is the dominant cause of head and neck squamous cell carcinoma: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage upper-aerodigestive mucosal DNA, producing field cancerization with multiple primaries, especially when combined with alcohol.
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV-16 drives a distinct, rising subset of head and neck squamous cell carcinoma: the virus infects oropharyngeal (tonsil, base of tongue) crypt epithelium, its E6/E7 oncoproteins inactivating p53 and Rb; HPV-positive HNSCC affects younger non-smokers and has a better prognosis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is central to head and neck cancer: definitive chemoradiation can cure many HNSCCs (especially HPV-positive oropharyngeal tumors) and organ-preserve the larynx, while IMRT spares salivary glands—radiation is as pivotal here as surgery.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts shape head and neck cancer: HNSCC recruits and reprograms fibroblasts that secrete growth factors, remodel matrix and blunt immunity, promoting invasion and resistance—making the fibroblast-rich microenvironment a therapeutic target.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Head and neck cancer and thyroid cancer both arise in the neck but differ: HNSCC is a smoking/HPV-driven squamous carcinoma of the aerodigestive mucosa, while thyroid cancer is a usually indolent endocrine tumor—neck radiation, a thyroid-cancer risk factor, links them.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
