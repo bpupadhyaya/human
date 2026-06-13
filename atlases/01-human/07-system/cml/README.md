@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "CLL and CML are the two chronic adult leukemias from opposite lineages: CLL is a B-lymphoid accumulation of mature CD5+ cells driven by BCR/BTK signaling, while CML is a myeloid proliferation driven by the BCR-ABL fusion kinase — different cells, drivers, and targeted drugs."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "CML is the BCR-ABL1-positive classic myeloproliferative neoplasm: like PV, ET and myelofibrosis it is a clonal stem-cell overproduction of mature myeloid cells, but its Philadelphia chromosome and exquisite TKI sensitivity set it apart from the JAK2/CALR-driven MPNs."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "CML's natural history is progression to acute leukemia: untreated, the chronic phase accelerates into a blast crisis that behaves like acute leukemia—myeloid (AML-like) in ~70%, lymphoid in the rest—so TKI therapy aims to prevent this transformation, which remains hard to treat."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Splenomegaly is a hallmark of CML: massive extramedullary myeloid proliferation enlarges the spleen, causing early satiety and left-upper-quadrant pain at presentation; spleen size featured in old prognostic scores and shrinks rapidly once tyrosine-kinase inhibitors control it."
 ---
 
 # Chronic Myeloid Leukemia
@@ -176,6 +185,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CML is defined by uncontrolled expansion of the neutrophil lineage: BCR-ABL drives massive leukocytosis with granulocytes at all maturation stages and hallmark basophilia; unlike normal neutrophils they retain function early, so infection is not the initial problem.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The CML marrow is markedly hypercellular with a high myeloid:erythroid ratio and 'dwarf' megakaryocytes; the Philadelphia chromosome t(9;22) is detected here, and marrow blast percentage defines chronic phase (<10%), accelerated (10-19%), and blast crisis (≥20%).
 - `connects-to` → **[CLL](../cll/README.md)** — CLL and CML are the two chronic adult leukemias from opposite lineages: CLL is a B-lymphoid accumulation of mature CD5+ cells driven by BCR/BTK signaling, while CML is a myeloid proliferation driven by the BCR-ABL fusion kinase — different cells, drivers, and targeted drugs.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — CML is the BCR-ABL1-positive classic myeloproliferative neoplasm: like PV, ET and myelofibrosis it is a clonal stem-cell overproduction of mature myeloid cells, but its Philadelphia chromosome and exquisite TKI sensitivity set it apart from the JAK2/CALR-driven MPNs.
+- `connects-to` → **[AML](../aml/README.md)** — CML's natural history is progression to acute leukemia: untreated, the chronic phase accelerates into a blast crisis that behaves like acute leukemia—myeloid (AML-like) in ~70%, lymphoid in the rest—so TKI therapy aims to prevent this transformation, which remains hard to treat.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly is a hallmark of CML: massive extramedullary myeloid proliferation enlarges the spleen, causing early satiety and left-upper-quadrant pain at presentation; spleen size featured in old prognostic scores and shrinks rapidly once tyrosine-kinase inhibitors control it.
 
 ---
 

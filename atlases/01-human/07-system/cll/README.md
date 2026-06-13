@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Richter transformation is the dreaded complication of CLL — in ~5-10% the indolent clone evolves into aggressive diffuse large B-cell lymphoma, often clonally related, with a poor median survival of about a year; it is even worse when it arises on BTK-inhibitor therapy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "CLL and its tissue form SLL are a disease of the lymphatic system: clonal mature B cells accumulate in blood, bone marrow and lymph nodes, producing painless generalized lymphadenopathy and splenomegaly; the same cells circulate, so blood counts and nodes reflect one disease."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "CLL and mantle cell lymphoma are both CD5-positive mature B-cell neoplasms that can look alike on blood films but differ critically: MCL carries cyclin D1/t(11;14) and is aggressive while CLL is usually indolent—cyclin D1 and SOX11 staining separate them as prognosis diverges."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "CLL is as much an immunodeficiency as a cancer: the malignant B cells suppress normal immunity, causing hypogammaglobulinemia and T-cell dysfunction, so infection is a leading cause of death; CLL also drives autoimmune cytopenias (hemolytic anemia, ITP)."
 ---
 
 # CLL
@@ -176,6 +185,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — CLL accumulates clonal B cells in the bone marrow, where progressive infiltration causes the anemia and thrombocytopenia that mark treatment indication; the marrow and lymph-node niches supply the stromal CD40L and CXCL12 survival signals CLL cells depend on.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly is a common sign and a treatment trigger in CLL: clonal lymphocytes infiltrate the spleen and lymph nodes, and massive or progressive splenomegaly with cytopenias from hypersplenism is one of the Hallek criteria prompting therapy.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Richter transformation is the dreaded complication of CLL — in ~5-10% the indolent clone evolves into aggressive diffuse large B-cell lymphoma, often clonally related, with a poor median survival of about a year; it is even worse when it arises on BTK-inhibitor therapy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — CLL and its tissue form SLL are a disease of the lymphatic system: clonal mature B cells accumulate in blood, bone marrow and lymph nodes, producing painless generalized lymphadenopathy and splenomegaly; the same cells circulate, so blood counts and nodes reflect one disease.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — CLL and mantle cell lymphoma are both CD5-positive mature B-cell neoplasms that can look alike on blood films but differ critically: MCL carries cyclin D1/t(11;14) and is aggressive while CLL is usually indolent—cyclin D1 and SOX11 staining separate them as prognosis diverges.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — CLL is as much an immunodeficiency as a cancer: the malignant B cells suppress normal immunity, causing hypogammaglobulinemia and T-cell dysfunction, so infection is a leading cause of death; CLL also drives autoimmune cytopenias (hemolytic anemia, ITP).
 
 ---
 
