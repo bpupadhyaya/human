@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Glioblastoma is part of the Li-Fraumeni cancer spectrum: germline TP53 loss predisposes to gliomas, and somatic TP53 mutation is a defining alteration in many GBMs—both show how losing p53, the genome's guardian, helps spawn this aggressive tumor."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Glioblastoma blurs glial lineages: though classed as an astrocytic tumor, it harbors cells with oligodendrocyte and progenitor features, reflecting a glioma stem cell of uncertain origin—this plasticity and heterogeneity is a key reason GBM resists targeted therapy."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 loss is a core glioblastoma driver: in one major molecular subtype p53 inactivation, with NF1 and PDGFRA changes, removes the damage checkpoint—so p53 status helps define GBM subgroups even though it has not yet yielded a targeted treatment."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Seizures are a common presentation and complication of glioblastoma: the tumor's glutamate release and cortical irritation provoke epilepsy, so anticonvulsants are often needed—and the neuron-glioma excitatory signaling that causes seizures also fuels growth."
 ---
 
 # Glioblastoma
@@ -217,6 +226,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is a pillar of glioblastoma care: after maximal safe resection, fractionated radiation with concurrent temozolomide (the Stupp protocol) extends survival, yet the tumor inevitably recurs in the irradiated field—radiation delays but cannot cure GBM.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Glioblastoma wires itself into neural circuits: tumor cells form glutamatergic synapses with neurons and interconnect through gap junctions, so neuronal activity drives proliferation—a discovery making synaptic signaling a therapeutic target in this lethal brain cancer.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Glioblastoma is part of the Li-Fraumeni cancer spectrum: germline TP53 loss predisposes to gliomas, and somatic TP53 mutation is a defining alteration in many GBMs—both show how losing p53, the genome's guardian, helps spawn this aggressive tumor.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Glioblastoma blurs glial lineages: though classed as an astrocytic tumor, it harbors cells with oligodendrocyte and progenitor features, reflecting a glioma stem cell of uncertain origin—this plasticity and heterogeneity is a key reason GBM resists targeted therapy.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss is a core glioblastoma driver: in one major molecular subtype p53 inactivation, with NF1 and PDGFRA changes, removes the damage checkpoint—so p53 status helps define GBM subgroups even though it has not yet yielded a targeted treatment.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures are a common presentation and complication of glioblastoma: the tumor's glutamate release and cortical irritation provoke epilepsy, so anticonvulsants are often needed—and the neuron-glioma excitatory signaling that causes seizures also fuels growth.
 
 ---
 

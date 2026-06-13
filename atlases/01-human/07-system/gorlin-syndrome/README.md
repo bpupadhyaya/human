@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "Ovarian fibromas are a diagnostic feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling spur these benign, often bilateral calcified ovarian tumors—reminding that Hedgehog dysregulation drives growths well beyond skin and brain."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiation is hazardous in Gorlin syndrome: because PTCH1 loss primes skin to hedgehog-driven tumors, radiotherapy triggers hundreds of basal cell carcinomas in the treated field, so X-ray exposure is minimized—a sharp caution when these patients have medulloblastoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Gorlin's hedgehog defect intersects with Wnt in medulloblastoma: SHH-subtype medulloblastoma (driven by PTCH1/SMO) is distinct from the Wnt-subtype, and pathway crosstalk shapes which tumors arise—so Gorlin predisposes specifically to SHH, not Wnt, medulloblastoma."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Gorlin syndrome causes congenital eye anomalies: hypertelorism, congenital cataracts, colobomas and strabismus are part of the developmental phenotype of PTCH1 loss, reflecting hedgehog signaling's role in eye morphogenesis alongside the syndrome's tumor risk."
 ---
 
 # Gorlin Syndrome
@@ -198,6 +207,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Gorlin and Li-Fraumeni are both dominant cancer-predisposition syndromes via different pathways: Gorlin from PTCH1/Hedgehog loss (BCCs, medulloblastoma), Li-Fraumeni from germline TP53 loss (sarcomas, breast, brain)—one disinhibits Hedgehog, the other removes p53.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Gorlin and neurofibromatosis type 1 are both dominant phakomatoses where a tumor-suppressor loss causes multisystem tumors: Gorlin's PTCH1 loss unleashes Hedgehog (BCCs, jaw cysts), NF1's neurofibromin loss unleashes Ras (neurofibromas, optic glioma)—similar logic.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Ovarian fibromas are a diagnostic feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling spur these benign, often bilateral calcified ovarian tumors—reminding that Hedgehog dysregulation drives growths well beyond skin and brain.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation is hazardous in Gorlin syndrome: because PTCH1 loss primes skin to hedgehog-driven tumors, radiotherapy triggers hundreds of basal cell carcinomas in the treated field, so X-ray exposure is minimized—a sharp caution when these patients have medulloblastoma.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Gorlin's hedgehog defect intersects with Wnt in medulloblastoma: SHH-subtype medulloblastoma (driven by PTCH1/SMO) is distinct from the Wnt-subtype, and pathway crosstalk shapes which tumors arise—so Gorlin predisposes specifically to SHH, not Wnt, medulloblastoma.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Gorlin syndrome causes congenital eye anomalies: hypertelorism, congenital cataracts, colobomas and strabismus are part of the developmental phenotype of PTCH1 loss, reflecting hedgehog signaling's role in eye morphogenesis alongside the syndrome's tumor risk.
 
 ---
 
