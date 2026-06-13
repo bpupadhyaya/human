@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "CML enlarges the liver and spleen via extramedullary hematopoiesis: massive granulocyte overproduction and organ infiltration cause hepatosplenomegaly, often with early satiety from a huge spleen—signs that regress dramatically once TKI therapy controls the clone."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "CML disturbs red-cell production amid the myeloid overgrowth: marrow packed with granulocyte precursors crowds erythropoiesis, so anemia is common at diagnosis even as white cells soar—part of the imbalance the BCR-ABL clone imposes on blood formation."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "CML can trigger gout through high cell turnover: the massive proliferation and breakdown of leukemic cells floods the blood with uric acid, which crystallizes in joints, so hyperuricemia and gout—or urate kidney stones—accompany the disease and its treatment."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "CML and essential thrombocythemia are both myeloproliferative neoplasms but driven by different lesions: CML by BCR-ABL, ET usually by JAK2/CALR/MPL, so the Philadelphia chromosome distinguishes CML from the BCR-ABL-negative MPNs in the differential."
 ---
 
 # Chronic Myeloid Leukemia
@@ -212,6 +221,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — CML and JAK2-driven neoplasms are mirror-image myeloproliferative diseases: CML is defined by the BCR-ABL fusion kinase, while polycythemia vera and kin are driven by JAK2 mutations—both activate growth signaling, so testing distinguishes them and guides therapy.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — CML and polycythemia vera are both myeloproliferative neoplasms but molecularly distinct: CML is BCR-ABL-positive and treated with TKIs, while PV is JAK2-mutant with red-cell overproduction—yet both feature splenomegaly and a risk of transforming to acute leukemia.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CML enlarges the liver and spleen via extramedullary hematopoiesis: massive granulocyte overproduction and organ infiltration cause hepatosplenomegaly, often with early satiety from a huge spleen—signs that regress dramatically once TKI therapy controls the clone.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CML disturbs red-cell production amid the myeloid overgrowth: marrow packed with granulocyte precursors crowds erythropoiesis, so anemia is common at diagnosis even as white cells soar—part of the imbalance the BCR-ABL clone imposes on blood formation.
+- `connects-to` → **[Gout](../gout/README.md)** — CML can trigger gout through high cell turnover: the massive proliferation and breakdown of leukemic cells floods the blood with uric acid, which crystallizes in joints, so hyperuricemia and gout—or urate kidney stones—accompany the disease and its treatment.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — CML and essential thrombocythemia are both myeloproliferative neoplasms but driven by different lesions: CML by BCR-ABL, ET usually by JAK2/CALR/MPL, so the Philadelphia chromosome distinguishes CML from the BCR-ABL-negative MPNs in the differential.
 
 ---
 

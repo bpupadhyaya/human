@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "CLL cripples natural killer and overall immune surveillance: beyond low antibodies, the disease impairs NK and T-cell function, raising infection and second-cancer risk—and this immune dysfunction, not just tumor bulk, shapes the prognosis and treatment of CLL."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "CLL commonly turns the immune system against red cells: autoimmune hemolytic anemia, driven by the dysregulated CLL clone, destroys erythrocytes—so a positive Coombs test and brisk hemolysis are characteristic autoimmune complications of the leukemia."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PD-1 blockade is studied in CLL, especially Richter transformation: the leukemic microenvironment exhausts T cells via PD-1, so checkpoint inhibition aims to restore anti-tumor immunity where CLL becomes an aggressive large-cell lymphoma."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "CLL frequently causes immune thrombocytopenia: the disordered clone produces antiplatelet autoantibodies that destroy platelets, so unexplained low platelets in CLL may be autoimmune rather than marrow failure—a distinction that changes treatment."
 ---
 
 # CLL
@@ -212,6 +221,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — CLL is a mature B-cell cancer that fails to become a plasma cell: the malignant clone is frozen short of antibody-secreting differentiation, so it accumulates uselessly while normal antibody production falls—causing the hypogammaglobulinemia behind CLL infections.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Hypogammaglobulinemia drives infection risk in CLL: the leukemic B cells crowd out and suppress normal plasma cells, so IgG levels fall and patients suffer recurrent bacterial infections—a leading cause of death, sometimes needing immunoglobulin replacement.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — CLL cripples natural killer and overall immune surveillance: beyond low antibodies, the disease impairs NK and T-cell function, raising infection and second-cancer risk—and this immune dysfunction, not just tumor bulk, shapes the prognosis and treatment of CLL.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CLL commonly turns the immune system against red cells: autoimmune hemolytic anemia, driven by the dysregulated CLL clone, destroys erythrocytes—so a positive Coombs test and brisk hemolysis are characteristic autoimmune complications of the leukemia.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 blockade is studied in CLL, especially Richter transformation: the leukemic microenvironment exhausts T cells via PD-1, so checkpoint inhibition aims to restore anti-tumor immunity where CLL becomes an aggressive large-cell lymphoma.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — CLL frequently causes immune thrombocytopenia: the disordered clone produces antiplatelet autoantibodies that destroy platelets, so unexplained low platelets in CLL may be autoimmune rather than marrow failure—a distinction that changes treatment.
 
 ---
 
