@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/gist
     relation: connects-to
     note: "Paraganglioma and GIST are joined in Carney triad: SDH-deficient tumors—paragangliomas plus wild-type GISTs—arise together when succinate dehydrogenase loss drives pseudohypoxia, so finding one SDH-deficient tumor prompts a search for the other."
+  - target: 01-human/03-molecular/nf1
+    relation: connects-to
+    note: "NF1 is one of several genes causing hereditary pheochromocytoma: neurofibromin loss (like RET, VHL and SDH mutations) predisposes to catecholamine-secreting tumors, so a pheochromocytoma should prompt genetic testing—up to a third are hereditary."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Pheochromocytoma can devastate the heart: catecholamine surges cause hypertensive crises, arrhythmias and a stress (Takotsubo) cardiomyopathy, so the tumor's adrenaline output threatens the heart—and alpha-blockade before surgery prevents catastrophic crises."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Pheochromocytoma belongs to MEN2, not MEN1: it arises with medullary thyroid cancer in RET-driven MEN2, whereas MEN1 (menin) causes parathyroid, pituitary and pancreatic tumors—so the two MEN syndromes are distinguished partly by whether pheochromocytoma occurs."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -229,6 +238,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Pheochromocytoma is defined by the catecholamines it secretes: chromaffin tumors release norepinephrine and epinephrine, driving paroxysmal hypertension, while their breakdown products are the diagnostic test—an unregulated norepinephrine factory.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Pheochromocytoma is the organic disease that most convincingly mimics panic disorder: surges of catecholamines cause sudden palpitations and a sense of doom identical to a panic attack, so atypical 'panic' with hypertension warrants metanephrine testing.
 - `connects-to` → **[GIST](../gist/README.md)** — Paraganglioma and GIST are joined in Carney triad: SDH-deficient tumors—paragangliomas plus wild-type GISTs—arise together when succinate dehydrogenase loss drives pseudohypoxia, so finding one SDH-deficient tumor prompts a search for the other.
+- `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 is one of several genes causing hereditary pheochromocytoma: neurofibromin loss (like RET, VHL and SDH mutations) predisposes to catecholamine-secreting tumors, so a pheochromocytoma should prompt genetic testing—up to a third are hereditary.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Pheochromocytoma can devastate the heart: catecholamine surges cause hypertensive crises, arrhythmias and a stress (Takotsubo) cardiomyopathy, so the tumor's adrenaline output threatens the heart—and alpha-blockade before surgery prevents catastrophic crises.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Pheochromocytoma belongs to MEN2, not MEN1: it arises with medullary thyroid cancer in RET-driven MEN2, whereas MEN1 (menin) causes parathyroid, pituitary and pancreatic tumors—so the two MEN syndromes are distinguished partly by whether pheochromocytoma occurs.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "Peutz-Jeghers raises gastric as well as colorectal cancer risk: STK11 loss seeds hamartomatous polyps throughout the stomach and small bowel that can bleed, obstruct or harbor dysplasia, so upper-GI surveillance accompanies colonoscopy in PJS patients from childhood."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Peutz-Jeghers polyps stud the large intestine and beyond: STK11 loss produces hamartomatous polyps throughout the GI tract—small bowel most, but also colon—that bleed, cause intussusception, and modestly raise colorectal cancer risk."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "PJS hamartomas arise in disordered intestinal epithelium: loss of the STK11/LKB1 kinase deranges epithelial polarity and growth, so the crypts overgrow into the branching, smooth-muscle-cored hamartomatous polyps that distinguish PJS from adenomatous polyposis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PJS shows a non-Wnt route to GI tumors: unlike FAP's APC/Wnt adenomas, Peutz-Jeghers polyps arise from STK11/LKB1-AMPK-mTOR dysregulation, so its hamartomas form by a different pathway—though malignant transformation can still recruit Wnt-driven changes."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -211,6 +220,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Peutz-Jeghers and Cowden are both hamartomatous polyposis syndromes with different genes: PJS from STK11 loss giving GI hamartomas and mucocutaneous pigmentation, Cowden from PTEN (PI3K-AKT) loss—both fill the gut with hamartomas and raise multi-organ cancer risk.
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Peutz-Jeghers and FAP are inherited polyposis syndromes with opposite polyp types: PJS produces hamartomatous polyps from STK11 loss, while FAP produces hundreds of adenomatous polyps from APC loss with near-certain colorectal cancer—hamartoma versus adenoma.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Peutz-Jeghers raises gastric as well as colorectal cancer risk: STK11 loss seeds hamartomatous polyps throughout the stomach and small bowel that can bleed, obstruct or harbor dysplasia, so upper-GI surveillance accompanies colonoscopy in PJS patients from childhood.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Peutz-Jeghers polyps stud the large intestine and beyond: STK11 loss produces hamartomatous polyps throughout the GI tract—small bowel most, but also colon—that bleed, cause intussusception, and modestly raise colorectal cancer risk.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — PJS hamartomas arise in disordered intestinal epithelium: loss of the STK11/LKB1 kinase deranges epithelial polarity and growth, so the crypts overgrow into the branching, smooth-muscle-cored hamartomatous polyps that distinguish PJS from adenomatous polyposis.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PJS shows a non-Wnt route to GI tumors: unlike FAP's APC/Wnt adenomas, Peutz-Jeghers polyps arise from STK11/LKB1-AMPK-mTOR dysregulation, so its hamartomas form by a different pathway—though malignant transformation can still recruit Wnt-driven changes.
 
 ---
 
