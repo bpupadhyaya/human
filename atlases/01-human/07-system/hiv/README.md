@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "HIV and hepatitis C frequently coinfect through shared blood-borne transmission: HIV accelerates HCV liver fibrosis toward cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which clears HCV in most regardless of HIV status."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "HIV and hepatitis B frequently coinfect through shared transmission, and each worsens the other: HIV accelerates HBV liver disease while some antiretrovirals (tenofovir, lamivudine) treat both viruses—so HIV care includes HBV screening and dual-active therapy."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Primary CNS lymphoma is an AIDS-defining cancer of advanced HIV: profound CD4 depletion lets EBV-driven B cells proliferate unchecked in the brain, so PCNSL was common before antiretrovirals—its incidence fell sharply with immune recovery."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "HIV raises Hodgkin lymphoma risk and changes its biology: unlike AIDS-defining lymphomas, HIV-associated Hodgkin is almost always EBV-driven and did not fall with antiretroviral therapy—a reminder that not every HIV-related cancer is reversed by immune recovery."
 ---
 
 # HIV
@@ -230,6 +239,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV the virus and HIV/AIDS the disease are two views of one process: untreated HIV destroys CD4 T cells until immunity collapses into AIDS with opportunistic infections and cancers—antiretroviral therapy halts this, making HIV a chronic infection, not a death sentence.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIV exploits dendritic cells to reach its target: mucosal dendritic cells capture the virus via DC-SIGN and ferry it to lymph nodes, handing it to CD4 T cells—so the very cells meant to launch immunity instead deliver HIV to the cells it destroys.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — HIV and hepatitis C frequently coinfect through shared blood-borne transmission: HIV accelerates HCV liver fibrosis toward cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which clears HCV in most regardless of HIV status.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HIV and hepatitis B frequently coinfect through shared transmission, and each worsens the other: HIV accelerates HBV liver disease while some antiretrovirals (tenofovir, lamivudine) treat both viruses—so HIV care includes HBV screening and dual-active therapy.
+- `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Primary CNS lymphoma is an AIDS-defining cancer of advanced HIV: profound CD4 depletion lets EBV-driven B cells proliferate unchecked in the brain, so PCNSL was common before antiretrovirals—its incidence fell sharply with immune recovery.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — HIV raises Hodgkin lymphoma risk and changes its biology: unlike AIDS-defining lymphomas, HIV-associated Hodgkin is almost always EBV-driven and did not fall with antiretroviral therapy—a reminder that not every HIV-related cancer is reversed by immune recovery.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

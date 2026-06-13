@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Hepatocellular carcinoma is now treated by reactivating cytotoxic T cells: the liver's tolerogenic, immunosuppressive milieu lets HCC evade immunity, so PD-L1 blockade plus anti-VEGF (atezolizumab + bevacizumab) restores T-cell attack and is first-line for advanced disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy has a growing role in hepatocellular carcinoma: stereotactic body radiation and radioembolization (Y-90 microspheres delivering internal radiation) treat tumors unsuitable for resection or ablation—an option in a cancer long considered radioresistant."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages shape hepatocellular carcinoma's microenvironment: liver Kupffer cells and tumor-associated macrophages fuel chronic inflammation and suppress anti-tumor immunity, contributing to the immunosuppressive milieu that checkpoint inhibitors must overcome."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Hepatocellular and renal cell carcinoma are both highly vascular, VEGF-driven cancers treated alike: antiangiogenic tyrosine-kinase inhibitors and checkpoint inhibitors form the backbone for both, reflecting their shared dependence on a rich blood supply."
 ---
 
 # Hepatocellular Carcinoma
@@ -221,6 +230,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[NASH](../nash/README.md)** — NASH is a leading and fast-rising cause of hepatocellular carcinoma: metabolic-syndrome fatty liver inflames into steatohepatitis, fibrosis, and cirrhosis that turns malignant—and NASH-related HCC can arise even without cirrhosis, reshaping who needs surveillance.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes independently raises hepatocellular carcinoma risk: insulin resistance and hyperinsulinemia promote hepatocyte proliferation and fatty-liver inflammation, compounding viral and alcoholic causes—so diabetes drives much of the surging non-viral HCC.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Hepatocellular carcinoma is now treated by reactivating cytotoxic T cells: the liver's tolerogenic, immunosuppressive milieu lets HCC evade immunity, so PD-L1 blockade plus anti-VEGF (atezolizumab + bevacizumab) restores T-cell attack and is first-line for advanced disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a growing role in hepatocellular carcinoma: stereotactic body radiation and radioembolization (Y-90 microspheres delivering internal radiation) treat tumors unsuitable for resection or ablation—an option in a cancer long considered radioresistant.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages shape hepatocellular carcinoma's microenvironment: liver Kupffer cells and tumor-associated macrophages fuel chronic inflammation and suppress anti-tumor immunity, contributing to the immunosuppressive milieu that checkpoint inhibitors must overcome.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Hepatocellular and renal cell carcinoma are both highly vascular, VEGF-driven cancers treated alike: antiangiogenic tyrosine-kinase inhibitors and checkpoint inhibitors form the backbone for both, reflecting their shared dependence on a rich blood supply.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
