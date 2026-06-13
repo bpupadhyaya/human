@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "The skin tumors of Birt-Hogg-Dubé are collagen-rich hamartomas: fibrofolliculomas are benign follicle tumors with proliferating collagen-laden stroma, and these flesh-colored facial papules are often the first clue prompting FLCN genetic testing."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Birt-Hogg-Dubé presents through the integumentary system: its skin tumors—fibrofolliculomas, trichodiscomas and skin tags on the face, neck and upper trunk—are usually how the syndrome is first recognized, before the kidney and lung disease declare themselves."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Birt-Hogg-Dubé has a debated colorectal cancer link: some FLCN families show increased colonic polyps and cancer, so colonoscopic surveillance is considered, reflecting how this single tumor-suppressor may predispose beyond the classic kidney, lung and skin triad."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Birt-Hogg-Dubé predisposes to thyroid tumors: FLCN carriers have an excess of thyroid nodules and oncocytic thyroid neoplasms, fitting the syndrome's broader tendency to oncocytic (mitochondria-rich) tumors across kidney, salivary gland and thyroid."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -240,6 +249,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — Birt-Hogg-Dubé overlaps with PTEN hamartoma (Cowden) syndromes: both cause skin hamartomas and cancer risk through deranged mTOR signaling—FLCN loss in BHD and PTEN loss in Cowden converge on one growth pathway, so they share dermatologic clues and tumor risk.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — FLCN loss in Birt-Hogg-Dubé disrupts autophagy and AMPK-mTOR balance: folliculin tunes the AMPK/mTOR axis controlling autophagy and metabolism, so its loss deregulates growth and energy sensing—linking the gene to BHD's renal tumors and lung cysts.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The skin tumors of Birt-Hogg-Dubé are collagen-rich hamartomas: fibrofolliculomas are benign follicle tumors with proliferating collagen-laden stroma, and these flesh-colored facial papules are often the first clue prompting FLCN genetic testing.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Birt-Hogg-Dubé presents through the integumentary system: its skin tumors—fibrofolliculomas, trichodiscomas and skin tags on the face, neck and upper trunk—are usually how the syndrome is first recognized, before the kidney and lung disease declare themselves.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Birt-Hogg-Dubé has a debated colorectal cancer link: some FLCN families show increased colonic polyps and cancer, so colonoscopic surveillance is considered, reflecting how this single tumor-suppressor may predispose beyond the classic kidney, lung and skin triad.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Birt-Hogg-Dubé predisposes to thyroid tumors: FLCN carriers have an excess of thyroid nodules and oncocytic thyroid neoplasms, fitting the syndrome's broader tendency to oncocytic (mitochondria-rich) tumors across kidney, salivary gland and thyroid.
 
 ---
 

@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Bladder tumors depend on VEGF-driven angiogenesis: urothelial cancers secrete VEGF to grow new vessels, high VEGF predicts worse outcomes, and anti-angiogenic strategies are explored alongside chemotherapy and immunotherapy in advanced disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy enables bladder preservation in muscle-invasive bladder cancer: photon-beam chemoradiation as part of trimodality therapy can spare the bladder as an alternative to cystectomy in selected patients, controlling the tumor while keeping the organ."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A deletion is common in bladder cancer: loss of this cell-cycle tumor-suppressor (often with FGFR3 or TP53 changes) helps drive urothelial proliferation, marking one of the genetic routes from carcinogen exposure to invasive disease."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Bladder and lung cancer share tobacco as a top cause: carcinogens excreted in urine bathe the urothelium just as inhaled smoke hits the airway, so the two smoking-driven cancers carry high mutation loads and both respond to PD-1 immunotherapy."
 ---
 
 # Bladder Cancer
@@ -228,6 +237,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Invasion of the bladder's smooth muscle defines bladder cancer staging: whether the tumor breaches the muscularis propria (muscle-invasive vs non-muscle-invasive) drives management—cystectomy for muscle-invasive disease versus local therapy for superficial tumors.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — HER2 is an emerging target in bladder cancer: a subset of urothelial tumors overexpress HER2, and HER2-directed antibody-drug conjugates like trastuzumab deruxtecan show activity—extending the breast/gastric HER2 paradigm to bladder cancer therapy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Bladder tumors depend on VEGF-driven angiogenesis: urothelial cancers secrete VEGF to grow new vessels, high VEGF predicts worse outcomes, and anti-angiogenic strategies are explored alongside chemotherapy and immunotherapy in advanced disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy enables bladder preservation in muscle-invasive bladder cancer: photon-beam chemoradiation as part of trimodality therapy can spare the bladder as an alternative to cystectomy in selected patients, controlling the tumor while keeping the organ.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion is common in bladder cancer: loss of this cell-cycle tumor-suppressor (often with FGFR3 or TP53 changes) helps drive urothelial proliferation, marking one of the genetic routes from carcinogen exposure to invasive disease.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Bladder and lung cancer share tobacco as a top cause: carcinogens excreted in urine bathe the urothelium just as inhaled smoke hits the airway, so the two smoking-driven cancers carry high mutation loads and both respond to PD-1 immunotherapy.
 
 ---
 
