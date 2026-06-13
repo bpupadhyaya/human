@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Photon radiotherapy is the only treatment that reliably helps diffuse midline glioma: focal irradiation of the pons gives transient symptom relief and a few months' benefit, but the H3 K27M tumor inevitably regrows—no chemo, surgery, or re-irradiation is curative."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Diffuse midline glioma and IDH-mutant glioma are epigenetically opposite gliomas: DMG's H3 K27M oncohistone collapses methylation in children with dismal outcomes, while adult IDH-mutant gliomas accumulate 2-HG and fare far better—chromatin reprogramming, not oncogenes."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "Diffuse midline glioma and ATRT are aggressive pediatric brain tumors driven by epigenetic dysregulation: DMG by the H3 K27M histone mutation, ATRT by SMARCB1/SWI-SNF loss—both reprogram chromatin and carry a grim prognosis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Diffuse midline glioma forms synapses with neurons to grow: the tumor's OPC-like cells receive glutamatergic input through real neuron-to-glioma synapses that drive proliferation—so neuronal activity feeds the cancer, making activity-blocking drugs a therapeutic idea."
 ---
 
 # Diffuse Midline Glioma
@@ -214,6 +223,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Diffuse midline glioma and medulloblastoma are the two great malignant pediatric brain tumors at opposite poles: DMG is an unresectable, fatal H3 K27M brainstem glioma, while medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Diffuse midline glioma arises from an OPC-like glial precursor of the astrocyte/oligodendrocyte lineage: the H3 K27M oncohistone freezes these cells in a stem-like state by collapsing H3K27 methylation, so the tumor infiltrates the pons diffusely rather than forming a mass.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is the only treatment that reliably helps diffuse midline glioma: focal irradiation of the pons gives transient symptom relief and a few months' benefit, but the H3 K27M tumor inevitably regrows—no chemo, surgery, or re-irradiation is curative.
+- `connects-to` → **[IDH-mutant glioma](../idh-mutant-glioma/README.md)** — Diffuse midline glioma and IDH-mutant glioma are epigenetically opposite gliomas: DMG's H3 K27M oncohistone collapses methylation in children with dismal outcomes, while adult IDH-mutant gliomas accumulate 2-HG and fare far better—chromatin reprogramming, not oncogenes.
+- `connects-to` → **[Atypical teratoid/rhabdoid tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Diffuse midline glioma and ATRT are aggressive pediatric brain tumors driven by epigenetic dysregulation: DMG by the H3 K27M histone mutation, ATRT by SMARCB1/SWI-SNF loss—both reprogram chromatin and carry a grim prognosis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Diffuse midline glioma forms synapses with neurons to grow: the tumor's OPC-like cells receive glutamatergic input through real neuron-to-glioma synapses that drive proliferation—so neuronal activity feeds the cancer, making activity-blocking drugs a therapeutic idea.
 
 ---
 

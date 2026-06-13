@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "Obstetric catastrophes are a major DIC trigger via the placenta: abruption, amniotic-fluid embolism, retained dead fetus and pre-eclampsia release tissue factor into the maternal circulation, igniting consumptive coagulopathy—so delivery and source control are central."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "DIC and TTP both cause thrombocytopenia with microthrombi but differ in coagulation: DIC consumes clotting factors and prolongs PT/PTT, while TTP from ADAMTS13 deficiency leaves clotting times normal—normal coagulation amid a microangiopathy points to TTP."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Pancreatic and other mucinous adenocarcinomas are a classic chronic cause of DIC: tumor mucin and tissue factor continuously activate coagulation (Trousseau syndrome), producing migratory thrombophlebitis and consumptive coagulopathy—often the first clue to an occult cancer."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "DIC shears red cells passing through fibrin-laden microvasculature: the strands fragment erythrocytes into schistocytes, producing a microangiopathic hemolytic anemia on the film—a clue, alongside low platelets and prolonged clotting, to consumptive coagulopathy."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -214,6 +223,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelium is the stage for DIC: inflammatory injury makes it express tissue factor and lose its anticoagulant thrombomodulin/protein-C surface, so widespread microvascular thrombi form and consume platelets and clotting factors—turning the vessel lining procoagulant systemwide.
 - `connects-to` → **[AML](../aml/README.md)** — Acute promyelocytic leukemia (APL, AML-M3) is the classic malignant cause of DIC: the leukemic promyelocytes release tissue factor and profibrinolytic activity, so fatal hemorrhage at diagnosis is a hallmark—ATRA-based treatment plus blood-product support is started urgently.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Obstetric catastrophes are a major DIC trigger via the placenta: abruption, amniotic-fluid embolism, retained dead fetus and pre-eclampsia release tissue factor into the maternal circulation, igniting consumptive coagulopathy—so delivery and source control are central.
+- `connects-to` → **[Thrombotic thrombocytopenic purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — DIC and TTP both cause thrombocytopenia with microthrombi but differ in coagulation: DIC consumes clotting factors and prolongs PT/PTT, while TTP from ADAMTS13 deficiency leaves clotting times normal—normal coagulation amid a microangiopathy points to TTP.
+- `connects-to` → **[Pancreatic cancer](../pancreatic-cancer/README.md)** — Pancreatic and other mucinous adenocarcinomas are a classic chronic cause of DIC: tumor mucin and tissue factor continuously activate coagulation (Trousseau syndrome), producing migratory thrombophlebitis and consumptive coagulopathy—often the first clue to an occult cancer.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — DIC shears red cells passing through fibrin-laden microvasculature: the strands fragment erythrocytes into schistocytes, producing a microangiopathic hemolytic anemia on the film—a clue, alongside low platelets and prolonged clotting, to consumptive coagulopathy.
 
 ---
 
