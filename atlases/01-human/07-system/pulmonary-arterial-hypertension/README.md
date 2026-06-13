@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Pulmonary artery smooth muscle cells drive PAH remodeling: under endothelin, activin, and growth-factor signaling they proliferate and resist apoptosis, thickening the media and muscularizing non-muscular arterioles — sotatercept (activin trap) reverses this remodeling."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Unresolved pulmonary emboli cause a distinct, surgically curable pulmonary hypertension: chronic thromboembolic PH (CTEPH) arises when organized clots obstruct and remodel pulmonary arteries, so every PAH workup includes a V/Q scan—CTEPH is cured by endarterectomy."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV is an established cause of pulmonary arterial hypertension: even with controlled viral loads, HIV proteins like Tat and Nef injure pulmonary endothelium and drive the same plexiform remodeling as idiopathic PAH, so HIV-PAH is a recognized WHO Group 1 subtype."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, so pulmonary vascular tone rises—an elevated tricuspid regurgitant jet marks patients at high mortality risk."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -194,6 +203,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — PAH kills through the right heart: obliterated pulmonary arterioles raise vascular resistance until the thin-walled right ventricle, never built for high afterload, hypertrophies, dilates, and fails (cor pulmonale) — so RV function, not pulmonary pressure, best predicts survival.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Pulmonary endothelial dysfunction initiates PAH: injured endothelium underproduces vasodilators (NO, prostacyclin) and overproduces endothelin-1, and apoptosis-resistant clones form the plexiform lesions — so all three drug classes target endothelial signaling pathways.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Pulmonary artery smooth muscle cells drive PAH remodeling: under endothelin, activin, and growth-factor signaling they proliferate and resist apoptosis, thickening the media and muscularizing non-muscular arterioles — sotatercept (activin trap) reverses this remodeling.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Unresolved pulmonary emboli cause a distinct, surgically curable pulmonary hypertension: chronic thromboembolic PH (CTEPH) arises when organized clots obstruct and remodel pulmonary arteries, so every PAH workup includes a V/Q scan—CTEPH is cured by endarterectomy.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is an established cause of pulmonary arterial hypertension: even with controlled viral loads, HIV proteins like Tat and Nef injure pulmonary endothelium and drive the same plexiform remodeling as idiopathic PAH, so HIV-PAH is a recognized WHO Group 1 subtype.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, so pulmonary vascular tone rises—an elevated tricuspid regurgitant jet marks patients at high mortality risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
