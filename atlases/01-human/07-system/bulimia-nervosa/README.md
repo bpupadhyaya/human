@@ -81,6 +81,15 @@ cross_links:
   - target: 01-human/07-system/social-anxiety-disorder
     relation: connects-to
     note: "Bulimia and social anxiety frequently coexist: fear of judgment and low self-worth fuel both, and the shame around eating and body image links the disorders—so social anxiety often precedes and perpetuates the binge-purge cycle, complicating recovery."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Bulimia nervosa disrupts the gut-brain axis: binge-purge cycles and altered gut microbiota perturb appetite and satiety signaling, and emerging evidence links dysbiosis to the mood and eating dysregulation, hinting at the microbiome as a treatment frontier."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Bulimia nervosa injures the digestive system from end to end: self-induced vomiting erodes the esophagus (reflux, Mallory-Weiss tears), swells the salivary glands and erodes tooth enamel, while laxative abuse damages the colon—visible bodily signatures of purging."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Bulimia nervosa is a nervous-system disorder of impaired impulse control and reward: dysregulated serotonin and dopamine in fronto-striatal circuits drive the binge-purge cycle, so it is treated as a brain disorder with SSRIs and cognitive behavioral therapy."
 ---
 
 # Bulimia Nervosa
@@ -231,6 +240,9 @@ All of the following must be met:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Vomiting in bulimia dangerously depletes potassium: recurrent purging loses gastric acid and potassium, causing hypokalemia and metabolic alkalosis that can trigger fatal cardiac arrhythmias—the electrolyte derangement that makes bulimia medically lethal.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Bulimia strains the stomach and esophagus: binge-purge cycles can cause acute gastric dilatation, Mallory-Weiss tears with bleeding, and reflux, while rare gastric rupture is catastrophic—so the upper GI tract bears much of bulimia's physical harm.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Bulimia and social anxiety frequently coexist: fear of judgment and low self-worth fuel both, and the shame around eating and body image links the disorders—so social anxiety often precedes and perpetuates the binge-purge cycle, complicating recovery.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Bulimia nervosa disrupts the gut-brain axis: binge-purge cycles and altered gut microbiota perturb appetite and satiety signaling, and emerging evidence links dysbiosis to the mood and eating dysregulation, hinting at the microbiome as a treatment frontier.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bulimia nervosa injures the digestive system from end to end: self-induced vomiting erodes the esophagus (reflux, Mallory-Weiss tears), swells the salivary glands and erodes tooth enamel, while laxative abuse damages the colon—visible bodily signatures of purging.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Bulimia nervosa is a nervous-system disorder of impaired impulse control and reward: dysregulated serotonin and dopamine in fronto-striatal circuits drive the binge-purge cycle, so it is treated as a brain disorder with SSRIs and cognitive behavioral therapy.
 
 ## Treatment
 

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/rad51
     relation: connects-to
     note: "BLM helicase partners with RAD51 in homologous recombination: BLM normally dissolves recombination intermediates that RAD51 forms, preventing crossovers, so its loss causes the hallmark surge in sister-chromatid exchange that defines Bloom syndrome diagnostically."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "Bloom syndrome and BRCA2 cancers share a homologous-recombination theme: BLM helicase works alongside BRCA2 and RAD51 to repair DNA by recombination, so its loss—like BRCA2 loss—causes genomic instability and a broad lifelong cancer predisposition."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Bloom syndrome includes immunodeficiency: defective DNA repair impairs B-cell antibody class-switching, lowering immunoglobulins and causing recurrent infections, while the same instability fuels the lymphomas and leukemias that often arise from these cells."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Bloom syndrome impairs the reproductive system: men are typically infertile and women have reduced, early-ending fertility, reflecting how the genome instability and repair defect that drive its cancers also disrupt the meiotic recombination needed to make gametes."
 ---
 
 # Bloom Syndrome
@@ -237,6 +246,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Bloom and Li-Fraumeni are both inherited genome-instability cancer syndromes by different routes: Bloom from BLM helicase loss causing excess recombination, Li-Fraumeni from p53 loss removing the damage checkpoint—both flood cells with mutations driving cancer.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Bloom syndrome cells struggle to engage p53-driven safeguards: without BLM helicase, stalled forks and excess sister-chromatid exchange overwhelm the damage response, so the p53 checkpoint cannot keep pace—explaining the broad, early cancer risk of the syndrome.
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BLM helicase partners with RAD51 in homologous recombination: BLM normally dissolves recombination intermediates that RAD51 forms, preventing crossovers, so its loss causes the hallmark surge in sister-chromatid exchange that defines Bloom syndrome diagnostically.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — Bloom syndrome and BRCA2 cancers share a homologous-recombination theme: BLM helicase works alongside BRCA2 and RAD51 to repair DNA by recombination, so its loss—like BRCA2 loss—causes genomic instability and a broad lifelong cancer predisposition.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Bloom syndrome includes immunodeficiency: defective DNA repair impairs B-cell antibody class-switching, lowering immunoglobulins and causing recurrent infections, while the same instability fuels the lymphomas and leukemias that often arise from these cells.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Bloom syndrome impairs the reproductive system: men are typically infertile and women have reduced, early-ending fertility, reflecting how the genome instability and repair defect that drive its cancers also disrupt the meiotic recombination needed to make gametes.
 
 ---
 
