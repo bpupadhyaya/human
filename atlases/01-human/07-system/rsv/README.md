@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "RSV skews the infant immune response toward Th2: instead of protective Th1 immunity it elicits Th2 cytokines (IL-4, IL-13) and eosinophils, which worsen disease and may link severe RSV bronchiolitis to later asthma—why early RSV is more than a transient infection."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages are central to RSV defense and disease: alveolar macrophages sense the virus and make interferon, but RSV also infects and subverts them, and excessive macrophage-driven inflammation contributes to the airway damage of severe bronchiolitis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "RSV is an underrecognized trigger of heart failure decompensation: RSV respiratory infection strains the cardiovascular system, precipitating acute heart-failure exacerbations and excess cardiac deaths—why RSV vaccination is now recommended for older adults."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Severe RSV can progress to ARDS: intense bronchiolitis and alveolar inflammation flood the lungs and collapse gas exchange, requiring ventilation—the most severe end of the RSV spectrum, where a common childhood virus becomes life-threatening."
 ---
 
 # RSV
@@ -226,3 +235,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Influenza](../influenza/README.md)** — RSV and influenza are the two dominant seasonal respiratory viruses, co-circulating each winter: both cause fever, cough, and pneumonia at the extremes of age, both now have older-adult vaccines, and PCR tells them apart—but RSV adds nirsevimab prophylaxis for infants.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — RSV is the leading cause of lower respiratory infection in infants: it targets bronchiolar epithelium, causing the airway plugging and wheeze of bronchiolitis, the top cause of infant hospitalization—so the respiratory system's smallest airways bear the brunt.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — RSV skews the infant immune response toward Th2: instead of protective Th1 immunity it elicits Th2 cytokines (IL-4, IL-13) and eosinophils, which worsen disease and may link severe RSV bronchiolitis to later asthma—why early RSV is more than a transient infection.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are central to RSV defense and disease: alveolar macrophages sense the virus and make interferon, but RSV also infects and subverts them, and excessive macrophage-driven inflammation contributes to the airway damage of severe bronchiolitis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — RSV is an underrecognized trigger of heart failure decompensation: RSV respiratory infection strains the cardiovascular system, precipitating acute heart-failure exacerbations and excess cardiac deaths—why RSV vaccination is now recommended for older adults.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Severe RSV can progress to ARDS: intense bronchiolitis and alveolar inflammation flood the lungs and collapse gas exchange, requiring ventilation—the most severe end of the RSV spectrum, where a common childhood virus becomes life-threatening.

@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Plasma cells make the autoantibodies that drive lupus: long-lived plasma cells secrete anti-dsDNA and antinuclear antibodies that form tissue-damaging immune complexes, and because they resist rituximab, plasma-cell-directed strategies and CAR-T are explored in refractory SLE."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Lupus and rheumatoid arthritis are archetypal systemic autoimmune diseases that overlap yet differ: both inflame joints, but RA causes erosive symmetric synovitis with anti-CCP antibodies, while SLE's antinuclear antibodies injure many organs with non-erosive arthritis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells are central to lupus: they produce the antinuclear and anti-dsDNA autoantibodies that form tissue-damaging immune complexes, and present self-antigen to T cells—so B-cell-targeted therapy (belimumab against BAFF, rituximab) treats the disease at its source."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Immune thrombocytopenia is a common hematologic feature of lupus: autoantibodies against platelets cause low counts that can be the presenting sign, and SLE must be excluded in new ITP—one of the autoimmune cytopenias that define lupus blood involvement."
 ---
 
 # Systemic Lupus Erythematosus
@@ -211,6 +220,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Lupus and Sjögren's are overlapping autoantibody diseases sharing anti-Ro/SSA, anti-La, and a type-I-interferon signature: secondary Sjögren's commonly complicates SLE, and both can cause neonatal lupus and congenital heart block via placental anti-Ro transfer.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Lupus nephritis is the kidney face of SLE and a major driver of chronic kidney disease: immune-complex deposition inflames the glomerulus across six histologic classes, so proteinuria or rising creatinine in a lupus patient prompts biopsy and immunosuppression.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the autoantibodies that drive lupus: long-lived plasma cells secrete anti-dsDNA and antinuclear antibodies that form tissue-damaging immune complexes, and because they resist rituximab, plasma-cell-directed strategies and CAR-T are explored in refractory SLE.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Lupus and rheumatoid arthritis are archetypal systemic autoimmune diseases that overlap yet differ: both inflame joints, but RA causes erosive symmetric synovitis with anti-CCP antibodies, while SLE's antinuclear antibodies injure many organs with non-erosive arthritis.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are central to lupus: they produce the antinuclear and anti-dsDNA autoantibodies that form tissue-damaging immune complexes, and present self-antigen to T cells—so B-cell-targeted therapy (belimumab against BAFF, rituximab) treats the disease at its source.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Immune thrombocytopenia is a common hematologic feature of lupus: autoantibodies against platelets cause low counts that can be the presenting sign, and SLE must be excluded in new ITP—one of the autoimmune cytopenias that define lupus blood involvement.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
