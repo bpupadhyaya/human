@@ -64,6 +64,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
     relation: damaged-by
     note: "Damaged by Streptococcus pyogenes."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Chronic kidney disease is the renal system's common end state: progressive nephron loss from diabetes, hypertension, or glomerular disease reduces GFR, so the kidney fails its fluid, electrolyte, acid-base, waste, and endocrine roles—ending in dialysis or transplant."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The renal system is also an endocrine organ within the endocrine system: the kidney secretes erythropoietin and renin and activates vitamin D, while responding to aldosterone, ADH, and PTH—so kidney disease causes anemia, bone disease, and blood-pressure dysregulation."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "IgA nephropathy is the world's commonest primary glomerulonephritis, a core renal-system disease: galactose-deficient IgA1 immune complexes deposit in the mesangium, causing hematuria (often after mucosal infection) and, in many, progression to chronic kidney disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -174,6 +183,9 @@ Natriuretic counterpoint:
 - **Contains:** [Podocyte](../../04-cellular/podocyte/README.md) — the key glomerular cell.
 - **Connects to:** [Cardiovascular System](../../07-system/cardiovascular-system/README.md) — RAAS, natriuretic peptides, and volume/pressure interdependence.
 - **Connects to:** [Digestive System](../digestive-system/README.md) — water and electrolyte reabsorption in the gut is complementary and overlapping with renal control.
+- **Connects to:** [Chronic Kidney Disease](../ckd/README.md) — the renal system's common end state: progressive nephron loss reduces GFR until fluid, electrolyte, acid-base, waste, and endocrine roles all fail, ending in dialysis or transplant.
+- **Connects to:** [Endocrine System](../endocrine-system/README.md) — the kidney is itself endocrine, secreting erythropoietin and renin and activating vitamin D while responding to aldosterone, ADH, and PTH.
+- **Connects to:** [IgA Nephropathy](../iga-nephropathy/README.md) — the world's commonest primary glomerulonephritis: mesangial galactose-deficient IgA1 deposits cause hematuria and can progress to chronic kidney disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

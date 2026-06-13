@@ -63,6 +63,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "CSF vasopressin is elevated in PTSD; AVP-CRH synergy at corticotroph V1bR potentiates ACTH when CRH receptors desensitise; elevated AVP sustains HPA hyperactivation; V1bR antagonists show anxiolytic effects and are a proposed PTSD pharmacotherapy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "PTSD and major depression are highly comorbid and share neurobiology: HPA-axis and monoaminergic dysregulation, hippocampal changes, and overlapping symptoms link them, about half of PTSD patients also meet criteria for depression, and SSRIs treat both."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus is central to PTSD: reduced hippocampal volume impairs contextualizing fear memories, so trauma cues are not recognized as past, and the hippocampus fails to restrain an overactive amygdala—a core circuit abnormality targeted by trauma-focused therapy."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "PTSD and alcohol use disorder form a vicious cycle: many drink to blunt hyperarousal and intrusive memories, but alcohol fragments sleep and worsens PTSD, and the two strongly co-occur—so integrated treatment of both outperforms addressing either alone."
 ---
 
 # PTSD
@@ -213,6 +222,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 
 - `connects-to` → **[NPY](../../../03-molecular/npy/README.md)** — amygdala and CSF NPY are reduced in PTSD; Y1R-mediated anxiolysis is impaired; plasma NPY correlates with stress resilience in veterans; glucocorticoid excess in chronic stress depletes amygdala NPY; NPY Y1R agonists are under investigation as PTSD pharmacotherapy.
 - `connects-to` → **[Vasopressin](../../../03-molecular/vasopressin/README.md)** — CSF vasopressin is elevated in PTSD; AVP-CRH synergy at corticotroph V1bR potentiates ACTH when CRH receptors desensitise; elevated AVP sustains HPA hyperactivation; V1bR antagonists show anxiolytic effects and are a proposed PTSD pharmacotherapy.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — PTSD and major depression are highly comorbid and share neurobiology: HPA-axis and monoaminergic dysregulation, hippocampal changes, and overlapping symptoms link them, about half of PTSD patients also meet criteria for depression, and SSRIs treat both.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is central to PTSD: reduced hippocampal volume impairs contextualizing fear memories, so trauma cues are not recognized as past, and the hippocampus fails to restrain an overactive amygdala—a core circuit abnormality targeted by trauma-focused therapy.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — PTSD and alcohol use disorder form a vicious cycle: many drink to blunt hyperarousal and intrusive memories, but alcohol fragments sleep and worsens PTSD, and the two strongly co-occur—so integrated treatment of both outperforms addressing either alone.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
