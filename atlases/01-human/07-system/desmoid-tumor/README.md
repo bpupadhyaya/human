@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Desmoid tumors are linked to the reproductive system through estrogen and pregnancy: many are estrogen-responsive and can grow during or after pregnancy, and abdominal-wall desmoids classically follow childbirth—so hormonal therapy is one treatment option."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Desmoid tumors are collagen-rich fibromatoses, not true sarcomas: clonal myofibroblasts driven by beta-catenin lay down dense collagen, producing an infiltrative but non-metastasizing mass—locally aggressive yet unable to spread, shaping conservative treatment."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Cyclin D1 links desmoid's Wnt driver to growth: stabilized beta-catenin (from CTNNB1 or APC mutation) switches on cyclin D1, pushing myofibroblasts through the cell cycle—the Wnt/cyclin-D1 axis behind colon cancer here yields a benign-behaving but relentless tumor."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF signaling offers a therapeutic handle in desmoid tumors: these fibromatoses express PDGFR, so multitargeted tyrosine-kinase inhibitors (sorafenib, imatinib) shrink or stabilize them—part of the shift from surgery toward systemic and watchful-waiting management."
 ---
 
 # Desmoid Tumor
@@ -221,6 +230,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Desmoid tumor and synovial sarcoma are both deep soft-tissue tumors but biologically apart: desmoid is a locally aggressive fibroblastic proliferation driven by CTNNB1/Wnt that never metastasizes, while synovial sarcoma is a malignant SS18-SSX sarcoma that does.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Desmoid tumor and Ewing sarcoma both arise in young people but differ: desmoid is a non-metastasizing fibromatosis often managed by active surveillance, whereas Ewing is an aggressive EWSR1-FLI1 small-round-cell sarcoma needing intensive chemo and radiation.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Desmoid tumors are linked to the reproductive system through estrogen and pregnancy: many are estrogen-responsive and can grow during or after pregnancy, and abdominal-wall desmoids classically follow childbirth—so hormonal therapy is one treatment option.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Desmoid tumors are collagen-rich fibromatoses, not true sarcomas: clonal myofibroblasts driven by beta-catenin lay down dense collagen, producing an infiltrative but non-metastasizing mass—locally aggressive yet unable to spread, shaping conservative treatment.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1 links desmoid's Wnt driver to growth: stabilized beta-catenin (from CTNNB1 or APC mutation) switches on cyclin D1, pushing myofibroblasts through the cell cycle—the Wnt/cyclin-D1 axis behind colon cancer here yields a benign-behaving but relentless tumor.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling offers a therapeutic handle in desmoid tumors: these fibromatoses express PDGFR, so multitargeted tyrosine-kinase inhibitors (sorafenib, imatinib) shrink or stabilize them—part of the shift from surgery toward systemic and watchful-waiting management.
 
 ---
 

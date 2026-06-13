@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/cervical-cancer
     relation: connects-to
     note: "DICER1 syndrome causes a rare HPV-independent cervical cancer: embryonal rhabdomyosarcoma (sarcoma botryoides) of the cervix arises from germline DICER1 loss in young women, a distinctive non-carcinoma cervical tumor that, unlike typical cervical cancer, is unrelated to HPV."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid is a hallmark DICER1 target: carriers develop multinodular goiter and differentiated thyroid cancer at high rates, often after chemotherapy for other DICER1 tumors—so thyroid surveillance is central to managing the syndrome."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "DICER1 tumors are often mesenchymal blastomas with fibroblast-like sarcomatous cells: impaired microRNA processing drives pleuropulmonary blastoma and rhabdomyosarcoma-like growths of primitive spindle cells—unlike the epithelial cancers of most syndromes."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "DICER1 and p53 can cooperate in tumor formation: loss of microRNA maturation deregulates growth genes, and concurrent TP53 mutation accelerates malignant DICER1 tumors—so the miRNA machinery joins the classic tumor-suppressor network in controlling cancer."
 ---
 
 # DICER1 Syndrome
@@ -202,6 +211,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — DICER1 syndrome and retinoblastoma are inherited pediatric cancer-predisposition syndromes: DICER1 disrupts microRNA processing to cause pleuropulmonary blastoma and embryonal tumors, while RB1 loss causes retinoblastoma—both needing childhood surveillance.
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — DICER1 syndrome and rhabdoid tumor predisposition both cause aggressive embryonal childhood tumors: DICER1 (microRNA processing) yields pleuropulmonary blastoma and CNS tumors, while SMARCB1 loss yields ATRT—overlapping in the infant brain-tumor differential.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — DICER1 syndrome causes a rare HPV-independent cervical cancer: embryonal rhabdomyosarcoma (sarcoma botryoides) of the cervix arises from germline DICER1 loss in young women, a distinctive non-carcinoma cervical tumor that, unlike typical cervical cancer, is unrelated to HPV.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is a hallmark DICER1 target: carriers develop multinodular goiter and differentiated thyroid cancer at high rates, often after chemotherapy for other DICER1 tumors—so thyroid surveillance is central to managing the syndrome.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — DICER1 tumors are often mesenchymal blastomas with fibroblast-like sarcomatous cells: impaired microRNA processing drives pleuropulmonary blastoma and rhabdomyosarcoma-like growths of primitive spindle cells—unlike the epithelial cancers of most syndromes.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — DICER1 and p53 can cooperate in tumor formation: loss of microRNA maturation deregulates growth genes, and concurrent TP53 mutation accelerates malignant DICER1 tumors—so the miRNA machinery joins the classic tumor-suppressor network in controlling cancer.
 
 ---
 
