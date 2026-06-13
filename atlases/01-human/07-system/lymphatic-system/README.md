@@ -41,6 +41,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Bone marrow is the lymphopoiesis site: HSC → CLP → pro-B cells (VDJ → μ chain → pre-BCR → naive B cell export); NK cells, ILC progenitors, and DC precursors also originate in bone marrow; T cell progenitors exit bone marrow and migrate to thymus for positive/negative selection."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The lymphatic system drains and patrols the reproductive organs: pelvic and para-aortic nodes filter lymph from uterus, ovaries, prostate, and testes — so nodal status drives staging and spread of gynecologic and prostate cancers, and sentinel-node mapping guides their surgery."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: contains
+    note: "Dendritic cells are the lymphatic system's messengers: they capture antigen in tissues, then migrate through afferent lymphatics to the draining lymph node to present it to naive T cells — linking innate detection to adaptive immunity, and the basis of DC cancer vaccines."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Hodgkin lymphoma is the prototypical cancer of the lymphatic system: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), reflecting lymphatic drainage anatomy — unlike the scattered spread of non-Hodgkin lymphomas."
 ---
 
 # Lymphatic System
@@ -158,6 +167,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `contains` → **[B Cell](../../04-cellular/b-cell/README.md)** — Lymph node GCs drive B cell affinity maturation: FDC antigen selection → SHM + class switch → plasma cells or memory B cells; Peyer's patch GCs → sIgA class switching; splenic MZ B cells mount T-independent IgM responses to polysaccharide antigens.
 - `contains` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Naive T cells enter via HEV → cognate DC-T cell interaction in paracortex → Th1/Th2/Th17/Tfh differentiation; Tfh cells migrate to GC border → provide CD40L/IL-21 help to B cells → affinity maturation and CSR; the paracortex is the primary site of naive T cell activation.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow is the lymphopoiesis site: HSC → CLP → pro-B cells (VDJ → μ chain → pre-BCR → naive B cell export); NK cells, ILC progenitors, and DC precursors also originate in bone marrow; T cell progenitors exit bone marrow and migrate to thymus for positive/negative selection.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The lymphatic system drains and patrols the reproductive organs: pelvic and para-aortic nodes filter lymph from uterus, ovaries, prostate, and testes — so nodal status drives staging and spread of gynecologic and prostate cancers, and sentinel-node mapping guides their surgery.
+- `contains` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are the lymphatic system's messengers: they capture antigen in tissues, then migrate through afferent lymphatics to the draining lymph node to present it to naive T cells — linking innate detection to adaptive immunity, and the basis of DC cancer vaccines.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Hodgkin lymphoma is the prototypical cancer of the lymphatic system: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), reflecting lymphatic drainage anatomy — unlike the scattered spread of non-Hodgkin lymphomas.
 
 ## Pathology
 

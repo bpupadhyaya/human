@@ -41,6 +41,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Hyperinsulinaemia in PCOS sensitises ovarian LH receptors → ↑theca androgen synthesis → ↑testosterone → anovulation + hirsutism; insulin directly stimulates IGF-1R on ovary; metformin reduces hepatic insulin resistance → ↓insulin → ↓androgen production → improved ovulation rates."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The reproductive organs depend on lymphatic drainage that doubles as their cancer highway: pelvic, inguinal, and para-aortic nodes clear fluid from uterus, ovaries, prostate, and testes, and these node chains are the first metastatic sites of reproductive cancers."
+  - target: 01-human/07-system/endocrine-system
+    relation: modulates
+    note: "The reproductive system is an endocrine organ system run by the hypothalamic-pituitary-gonadal axis: GnRH → LH/FSH → ovarian or testicular steroidogenesis (estrogen, progesterone, testosterone), with feedback driving puberty, the menstrual cycle, spermatogenesis, and fertility."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Progesterone completes the reproductive steroid trio with estrogen and testosterone: from the corpus luteum (and placenta) it prepares the endometrium for implantation, sustains pregnancy, and suppresses ovulation by feedback — the basis of progestin contraception."
 ---
 
 # Reproductive System
@@ -164,6 +173,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Oestradiol (E2; CYP19A1 aromatase from ovarian granulosa cells) binds ERα/ERβ → bone protection (↑OPG→↓RANKL), cardioprotection (↑eNOS/HDL-C), CNS neuroprotection; menopause E2 deficiency → osteoporosis + ↑CVD; OCP suppresses HPG axis; HRT restores systemic effects of E2.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone (Leydig cells → CYP11A1/CYP17A1/17β-HSD3; ~7 mg/day) binds AR → anabolic (muscle, erythropoiesis) + androgenic (virilisation, spermatogenesis); 5α-reductase → DHT (prostate/skin/scalp); aromatase → E2 (bone, HPG feedback); PCOS: excess theca-cell testosterone via LH.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Hyperinsulinaemia in PCOS sensitises ovarian LH receptors → ↑theca androgen synthesis → ↑testosterone → anovulation + hirsutism; insulin directly stimulates IGF-1R on ovary; metformin reduces hepatic insulin resistance → ↓insulin → ↓androgen production → improved ovulation rates.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The reproductive organs depend on lymphatic drainage that doubles as their cancer highway: pelvic, inguinal, and para-aortic nodes clear fluid from uterus, ovaries, prostate, and testes, and these node chains are the first metastatic sites of reproductive cancers.
+- `modulates` → **[Endocrine System](../endocrine-system/README.md)** — The reproductive system is an endocrine organ system run by the hypothalamic-pituitary-gonadal axis: GnRH → LH/FSH → ovarian or testicular steroidogenesis (estrogen, progesterone, testosterone), with feedback driving puberty, the menstrual cycle, spermatogenesis, and fertility.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Progesterone completes the reproductive steroid trio with estrogen and testosterone: from the corpus luteum (and placenta) it prepares the endometrium for implantation, sustains pregnancy, and suppresses ovulation by feedback — the basis of progestin contraception.
 
 ## Pathology
 
