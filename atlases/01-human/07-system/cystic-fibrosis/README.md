@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver is a CF target organ: thick bile from defective CFTR blocks small bile ducts, causing focal biliary cirrhosis and, in some, progressive CF liver disease with portal hypertension—a leading non-pulmonary cause of death in cystic fibrosis."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Cystic fibrosis obstructs the small intestine with thick secretions: newborns can present with meconium ileus, and older patients suffer distal intestinal obstruction syndrome, while impaired pancreatic enzyme flow causes the fat malabsorption central to CF."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "CF-related diabetes is a common endocrine complication: thick secretions scar the pancreas and destroy insulin-producing islets, so a distinct form of diabetes emerges with age—now a leading comorbidity as CF patients live longer."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Cystic fibrosis weakens bone: malabsorption of vitamin D and calcium, chronic inflammation, steroids and delayed puberty cause CF-related low bone density, so fractures and osteoporosis are an increasingly important problem in the aging CF population."
 ---
 
 # Cystic Fibrosis
@@ -227,6 +236,9 @@ AND
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium transport is deranged in cystic fibrosis: defective CFTR not only blocks chloride exit but unleashes excess sodium and water absorption, dehydrating airway mucus—and the resulting high sweat sodium chloride is the basis of the diagnostic sweat test.
 - `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Aspergillus colonizes the cystic fibrosis airway: the thick mucus lets Aspergillus fumigatus grow, and the hypersensitivity response (ABPA) causes wheezing, mucus plugging and lung decline—so CF care monitors for and treats this fungal complication.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a CF target organ: thick bile from defective CFTR blocks small bile ducts, causing focal biliary cirrhosis and, in some, progressive CF liver disease with portal hypertension—a leading non-pulmonary cause of death in cystic fibrosis.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Cystic fibrosis obstructs the small intestine with thick secretions: newborns can present with meconium ileus, and older patients suffer distal intestinal obstruction syndrome, while impaired pancreatic enzyme flow causes the fat malabsorption central to CF.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — CF-related diabetes is a common endocrine complication: thick secretions scar the pancreas and destroy insulin-producing islets, so a distinct form of diabetes emerges with age—now a leading comorbidity as CF patients live longer.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Cystic fibrosis weakens bone: malabsorption of vitamin D and calcium, chronic inflammation, steroids and delayed puberty cause CF-related low bone density, so fractures and osteoporosis are an increasingly important problem in the aging CF population.
 
 ---
 

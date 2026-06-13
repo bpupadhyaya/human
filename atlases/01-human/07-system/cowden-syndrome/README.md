@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/lynch-syndrome
     relation: connects-to
     note: "Cowden and Lynch syndrome are both hereditary cancer syndromes with colon risk but different polyps: Cowden causes hamartomatous polyps via PTEN loss, while Lynch drives mismatch-repair-deficient adenomas—so polyp histology and gene testing tell them apart."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin is central to diagnosing Cowden syndrome: PTEN loss produces near-pathognomonic mucocutaneous hamartomas—facial trichilemmomas, oral papillomas and palmoplantar keratoses—so these benign growths are major criteria flagging the cancer-prone syndrome."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Cowden syndrome modestly raises melanoma risk: PTEN loss deregulates the PI3K/AKT pathway in melanocytes too, adding skin-cancer surveillance to the breast, thyroid, endometrial and renal screening this multi-cancer syndrome demands."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Cowden syndrome reaches the nervous system: macrocephaly, autism-spectrum features and the rare cerebellar Lhermitte-Duclos hamartoma reflect PTEN's role in neuronal growth, so neurodevelopmental signs can be the first clue to the PTEN mutation."
 ---
 
 # Cowden Syndrome
@@ -279,6 +288,9 @@ cross_links:
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid gland is a hallmark Cowden target: PTEN loss causes multinodular goiter, adenomas and a raised risk of (especially follicular) thyroid cancer, so Cowden patients undergo thyroid surveillance from childhood—often where the syndrome first declares itself.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cowden's signature skin lesions are fibroblast-driven hamartomas: trichilemmomas and fibromas arise as PTEN-deficient cells including fibroblasts overgrow in benign tumors—these mucocutaneous bumps are a key diagnostic clue to the underlying PTEN mutation.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Cowden and Lynch syndrome are both hereditary cancer syndromes with colon risk but different polyps: Cowden causes hamartomatous polyps via PTEN loss, while Lynch drives mismatch-repair-deficient adenomas—so polyp histology and gene testing tell them apart.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is central to diagnosing Cowden syndrome: PTEN loss produces near-pathognomonic mucocutaneous hamartomas—facial trichilemmomas, oral papillomas and palmoplantar keratoses—so these benign growths are major criteria flagging the cancer-prone syndrome.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Cowden syndrome modestly raises melanoma risk: PTEN loss deregulates the PI3K/AKT pathway in melanocytes too, adding skin-cancer surveillance to the breast, thyroid, endometrial and renal screening this multi-cancer syndrome demands.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Cowden syndrome reaches the nervous system: macrocephaly, autism-spectrum features and the rare cerebellar Lhermitte-Duclos hamartoma reflect PTEN's role in neuronal growth, so neurodevelopmental signs can be the first clue to the PTEN mutation.
 
 ---
 
