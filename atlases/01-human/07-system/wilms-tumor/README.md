@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Anaplastic (unfavorable-histology) Wilms tumor is defined by TP53 mutation, driving chemoresistance and worse prognosis; germline TP53 (Li-Fraumeni) is occasionally found with anaplasia or family history — linking Wilms to the p53-driven childhood cancer-predisposition spectrum."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Wilms tumor and renal cell carcinoma are the kidney cancers of childhood versus adulthood: Wilms (nephroblastoma) is an embryonal tumor of nephron precursors curable with surgery and chemo, while RCC arises from mature tubular epithelium in adults, driven by VHL/HIF."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Wilms tumor's blastemal component enters the small-round-blue-cell differential with Ewing sarcoma: both are pediatric tumors of primitive cells, but Wilms is triphasic (blastema/epithelium/stroma) with WT1 changes while Ewing is EWSR1-FLI1-driven."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Wilms tumor and retinoblastoma are paradigm embryonal childhood cancers fitting Knudson's two-hit model: bilateral Wilms (often WT1-linked) parallels heritable bilateral retinoblastoma—germline loss of one suppressor allele plus a somatic second hit drives early tumors."
 ---
 
 # Wilms Tumor
@@ -192,6 +201,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Wilms tumor and rhabdomyosarcoma are both embryonal childhood cancers of arrested development — Wilms from kidney blastema, RMS from myogenic precursors — sharing a key driver: 11p15.5 loss of imprinting doubles IGF2, feeding an IGF1R-PI3K-AKT-mTOR loop in both.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Wilms tumor and neuroblastoma are the two classic malignant abdominal masses of young children (ages 1-4): Wilms is an intrarenal nephroblastoma rarely crossing midline; neuroblastoma is an adrenal/sympathetic tumor that secretes catecholamines and often crosses.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Anaplastic (unfavorable-histology) Wilms tumor is defined by TP53 mutation, driving chemoresistance and worse prognosis; germline TP53 (Li-Fraumeni) is occasionally found with anaplasia or family history — linking Wilms to the p53-driven childhood cancer-predisposition spectrum.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Wilms tumor and renal cell carcinoma are the kidney cancers of childhood versus adulthood: Wilms (nephroblastoma) is an embryonal tumor of nephron precursors curable with surgery and chemo, while RCC arises from mature tubular epithelium in adults, driven by VHL/HIF.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Wilms tumor's blastemal component enters the small-round-blue-cell differential with Ewing sarcoma: both are pediatric tumors of primitive cells, but Wilms is triphasic (blastema/epithelium/stroma) with WT1 changes while Ewing is EWSR1-FLI1-driven.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Wilms tumor and retinoblastoma are paradigm embryonal childhood cancers fitting Knudson's two-hit model: bilateral Wilms (often WT1-linked) parallels heritable bilateral retinoblastoma—germline loss of one suppressor allele plus a somatic second hit drives early tumors.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

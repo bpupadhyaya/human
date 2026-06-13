@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Systemic sclerosis is wound healing that never stops: the TGF-β-driven myofibroblast activation and collagen deposition that should close a wound and resolve becomes self-sustaining and widespread, scarring skin and organs — fibrosis is dysregulated persistent repair."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetes is the leading cause of chronic non-healing wounds: hyperglycemia impairs every healing phase—blunting neutrophil and macrophage function, stiffening capillaries, adding neuropathy—so diabetic foot ulcers stall and drive most non-traumatic amputations."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Angiogenesis by endothelial cells is essential to wound healing: VEGF from the wound bed drives endothelial sprouting that forms granulation tissue's capillaries, restoring oxygen—when this fails (ischemia, diabetes), the wound cannot progress to repair."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Wound healing is the integumentary system restoring its barrier: hemostasis, inflammation, proliferation, and remodeling rebuild epidermis and dermis after injury, but imperfectly—scar replaces the original architecture, lacking hair follicles and full strength."
 ---
 
 # Wound Healing
@@ -190,6 +199,9 @@ cross_links:
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets fire the starting gun of wound healing: at injury they form the hemostatic plug and degranulate, releasing PDGF, TGF-β, and VEGF that recruit neutrophils and macrophages and prime fibroblasts — the growth-factor surge launching the inflammatory phase.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the structural endpoint of wound healing: fibroblasts first lay down weak type III collagen in granulation tissue, which remodeling replaces with cross-linked type I collagen regaining ~80% of tensile strength over months; dysregulated turnover yields keloids.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Systemic sclerosis is wound healing that never stops: the TGF-β-driven myofibroblast activation and collagen deposition that should close a wound and resolve becomes self-sustaining and widespread, scarring skin and organs — fibrosis is dysregulated persistent repair.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes is the leading cause of chronic non-healing wounds: hyperglycemia impairs every healing phase—blunting neutrophil and macrophage function, stiffening capillaries, adding neuropathy—so diabetic foot ulcers stall and drive most non-traumatic amputations.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Angiogenesis by endothelial cells is essential to wound healing: VEGF from the wound bed drives endothelial sprouting that forms granulation tissue's capillaries, restoring oxygen—when this fails (ischemia, diabetes), the wound cannot progress to repair.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Wound healing is the integumentary system restoring its barrier: hemostasis, inflammation, proliferation, and remodeling rebuild epidermis and dermis after injury, but imperfectly—scar replaces the original architecture, lacking hair follicles and full strength.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
