@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/renal-system
     relation: connects-to
     note: "IgA nephropathy is the world's commonest primary glomerulonephritis and a major cause of kidney failure: despite an often indolent course of hematuria, up to 30-40% progress to end-stage renal disease over decades, making it a leading reason younger adults need renal replacement."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "IgA nephropathy and lupus nephritis are both immune-complex glomerulonephritides: IgAN deposits galactose-deficient IgA1 in the mesangium, while lupus nephritis deposits nuclear complexes—immunofluorescence (IgA versus 'full house') tells them apart."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "IgA nephropathy ultimately injures podocytes: mesangial IgA1 deposits and complement drive cytokines that damage the glomerular filter, so podocyte loss and proteinuria mark progression to chronic kidney disease—podocyte injury predicts a worse course."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "IgA nephropathy and ANCA vasculitis can both cause crescentic glomerulonephritis: severe IgAN with crescents mimics ANCA-associated GN, so a crescentic biopsy needs immunofluorescence and ANCA testing to tell IgA deposition from pauci-immune disease."
 ---
 
 # IgA Nephropathy
@@ -159,6 +168,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — IgA nephropathy is fundamentally a glomerular disease: galactose-deficient IgA1 immune complexes deposit in the glomerular mesangium, activating complement and mesangial proliferation that cause hematuria and proteinuria; diagnosis rests on mesangial IgA on glomerular biopsy.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — IgA nephropathy is linked to gut mucosal immunity and IBD: it reflects aberrant mucosal IgA1 production, is over-represented in inflammatory bowel and celiac disease, and gut-targeted budesonide (Nefecon) reduces proteinuria—evidence the gut-kidney axis drives it.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — IgA nephropathy is the world's commonest primary glomerulonephritis and a major cause of kidney failure: despite an often indolent course of hematuria, up to 30-40% progress to end-stage renal disease over decades, making it a leading reason younger adults need renal replacement.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — IgA nephropathy and lupus nephritis are both immune-complex glomerulonephritides: IgAN deposits galactose-deficient IgA1 in the mesangium, while lupus nephritis deposits nuclear complexes—immunofluorescence (IgA versus 'full house') tells them apart.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — IgA nephropathy ultimately injures podocytes: mesangial IgA1 deposits and complement drive cytokines that damage the glomerular filter, so podocyte loss and proteinuria mark progression to chronic kidney disease—podocyte injury predicts a worse course.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — IgA nephropathy and ANCA vasculitis can both cause crescentic glomerulonephritis: severe IgAN with crescents mimics ANCA-associated GN, so a crescentic biopsy needs immunofluorescence and ANCA testing to tell IgA deposition from pauci-immune disease.
 
 ---
 
