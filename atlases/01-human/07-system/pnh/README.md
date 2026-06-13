@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "PNH hemolysis has an extravascular component handled by macrophages: C5 inhibitors stop intravascular lysis but leave C3 fragments coating red cells, which splenic and hepatic macrophages clear, so some patients stay anemic—addressed by newer C3 inhibitors."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "PNH is a disease of unchecked complement: loss of GPI-anchored regulators leaves red cells defenseless against the alternative complement pathway, so C3 and the terminal cascade lyse them—and C5/C3 inhibitors (eculizumab, pegcetacoplan) are the targeted treatment."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "PNH belongs to the bone-marrow-failure spectrum and can evolve clonally: it often arises with aplastic anemia, and the abnormal stem-cell clone can progress to MDS or acute myeloid leukemia—so PNH is monitored as a clonal disorder, not only hemolytic."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "PNH and DIC both cause thrombosis with hemolysis but oppositely: PNH's complement-driven intravascular hemolysis causes unusual-site venous thrombosis with normal clotting times, while DIC consumes clotting factors—distinguishing them guides treatment."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -171,6 +180,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Atypical HUS](../ahus/README.md)** — PNH and atypical HUS are both complement-driven diseases treated by C5 blockade: PNH loses GPI-anchored regulators (CD55/CD59) on blood cells, while aHUS has dysregulated complement on endothelium—different lesions, both responsive to eculizumab.
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — PNH is a key acquired thrombophilia to weigh alongside inherited ones: unlike factor V Leiden or prothrombin mutations, PNH thrombosis is complement- and platelet-driven and strikes unusual sites (hepatic, cerebral veins), so thrombosis with hemolysis warrants PNH testing.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — PNH hemolysis has an extravascular component handled by macrophages: C5 inhibitors stop intravascular lysis but leave C3 fragments coating red cells, which splenic and hepatic macrophages clear, so some patients stay anemic—addressed by newer C3 inhibitors.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — PNH is a disease of unchecked complement: loss of GPI-anchored regulators leaves red cells defenseless against the alternative complement pathway, so C3 and the terminal cascade lyse them—and C5/C3 inhibitors (eculizumab, pegcetacoplan) are the targeted treatment.
+- `connects-to` → **[AML](../aml/README.md)** — PNH belongs to the bone-marrow-failure spectrum and can evolve clonally: it often arises with aplastic anemia, and the abnormal stem-cell clone can progress to MDS or acute myeloid leukemia—so PNH is monitored as a clonal disorder, not only hemolytic.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — PNH and DIC both cause thrombosis with hemolysis but oppositely: PNH's complement-driven intravascular hemolysis causes unusual-site venous thrombosis with normal clotting times, while DIC consumes clotting factors—distinguishing them guides treatment.
 
 ---
 
