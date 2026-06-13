@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/atopic-dermatitis
     relation: connects-to
     note: "Asthma and atopic dermatitis are linked stages of the atopic march: many children begin with eczema and food allergy in infancy, then progress to allergic rhinitis and asthma, reflecting shared type-2 immunity and barrier defects—and both now respond to dupilumab."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Airway smooth muscle is the effector of asthma's airflow obstruction: hyperresponsive smooth muscle contracts in response to triggers, narrowing bronchi (wheeze), and over time hypertrophies—so bronchodilators relax it while bronchial thermoplasty ablates it."
+  - target: 02-pathogen/01-viruses/respiratory-syncytial-virus
+    relation: connects-to
+    note: "Early respiratory syncytial virus infection is linked to asthma: severe RSV bronchiolitis is associated with later wheezing, and viral respiratory infections remain the commonest trigger of asthma exacerbations—tying a childhood virus to chronic airway disease."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity defines a distinct, harder-to-treat asthma phenotype: excess weight restricts lung mechanics and adipose-derived inflammation alters airway biology, so obese asthmatics often have more symptoms and worse control—and weight loss improves the disease."
 ---
 
 # Asthma
@@ -196,6 +205,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[COPD](../copd/README.md)** — Asthma and COPD are the two great obstructive airway diseases and can overlap (ACOS): asthma is reversible, eosinophilic/Th2 inflammation in younger atopic patients, while COPD is largely irreversible, neutrophilic, smoking-driven—though many older patients share both.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Allergic asthma is a Th2 helper-T-cell disease: Th2 cells secrete IL-4, IL-5, and IL-13 that drive IgE class-switching, eosinophil recruitment, and mucus, so the type-2 inflammation they coordinate is the target of biologics like dupilumab and anti-IL-5 agents.
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Asthma and atopic dermatitis are linked stages of the atopic march: many children begin with eczema and food allergy in infancy, then progress to allergic rhinitis and asthma, reflecting shared type-2 immunity and barrier defects—and both now respond to dupilumab.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Airway smooth muscle is the effector of asthma's airflow obstruction: hyperresponsive smooth muscle contracts in response to triggers, narrowing bronchi (wheeze), and over time hypertrophies—so bronchodilators relax it while bronchial thermoplasty ablates it.
+- `connects-to` → **[Respiratory Syncytial Virus](../../../02-pathogen/01-viruses/respiratory-syncytial-virus/README.md)** — Early respiratory syncytial virus infection is linked to asthma: severe RSV bronchiolitis is associated with later wheezing, and viral respiratory infections remain the commonest trigger of asthma exacerbations—tying a childhood virus to chronic airway disease.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity defines a distinct, harder-to-treat asthma phenotype: excess weight restricts lung mechanics and adipose-derived inflammation alters airway biology, so obese asthmatics often have more symptoms and worse control—and weight loss improves the disease.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
