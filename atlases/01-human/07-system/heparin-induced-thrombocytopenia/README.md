@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Unlike most thrombophilias, HIT causes arterial as well as venous thrombosis: anti-PF4/heparin immune complexes activate platelets and endothelium → arterial 'white clots' causing stroke, MI and limb ischemia; suspected HIT mandates a non-heparin anticoagulant."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "HIT and immune thrombocytopenia are both antibody-mediated low-platelet states with opposite effects: ITP antibodies destroy platelets and bleed, while HIT's anti-PF4 antibodies activate platelets and clot—so HIT means stopping heparin, not transfusing."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "HIT and DIC both cause inpatient thrombocytopenia but differ: DIC consumes factors and platelets with prolonged PT/PTT, while HIT activates platelets via antibody with normal clotting times—4T score and anti-PF4 testing distinguish them."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "HIT is the template for vaccine-induced thrombotic thrombocytopenia (VITT) after COVID-19 adenoviral vaccines: both feature anti-PF4 antibodies that activate platelets to cause thrombosis with thrombocytopenia, treated alike with non-heparin anticoagulation and IVIG."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -219,6 +228,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — HIT and PNH are acquired, intensely prothrombotic disorders with opposite mechanisms: HIT is anti-PF4/heparin IgG activating platelets, PNH is complement-mediated hemolysis from GPI-anchor loss; both clot despite platelet consumption and need targeted therapy, not heparin alone.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — HIT and antiphospholipid syndrome are antibody-mediated acquired thrombophilias threatening arteries and veins: anti-PF4 IgG and antiphospholipid antibodies each activate platelets and endothelium; both can cause catastrophic multisite thrombosis and avoid reliance on heparin.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Unlike most thrombophilias, HIT causes arterial as well as venous thrombosis: anti-PF4/heparin immune complexes activate platelets and endothelium → arterial 'white clots' causing stroke, MI and limb ischemia; suspected HIT mandates a non-heparin anticoagulant.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — HIT and immune thrombocytopenia are both antibody-mediated low-platelet states with opposite effects: ITP antibodies destroy platelets and bleed, while HIT's anti-PF4 antibodies activate platelets and clot—so HIT means stopping heparin, not transfusing.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — HIT and DIC both cause inpatient thrombocytopenia but differ: DIC consumes factors and platelets with prolonged PT/PTT, while HIT activates platelets via antibody with normal clotting times—4T score and anti-PF4 testing distinguish them.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — HIT is the template for vaccine-induced thrombotic thrombocytopenia (VITT) after COVID-19 adenoviral vaccines: both feature anti-PF4 antibodies that activate platelets to cause thrombosis with thrombocytopenia, treated alike with non-heparin anticoagulation and IVIG.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

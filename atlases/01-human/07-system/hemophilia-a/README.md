@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Hemophilia A spares primary hemostasis—platelets still form the plug—but lacks the FVIIIa/FIXa 'tenase' complex that assembles on the activated platelet surface to burst-generate thrombin; without it the plug is unstable and rebleeds, hence delayed deep-tissue and joint bleeding."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Hemophilia A and DIC cause bleeding by opposite mechanisms: hemophilia is isolated factor VIII deficiency (long aPTT, normal PT and platelets) bleeding into joints, while DIC consumes all factors and platelets at once—the lab pattern tells inherited from acquired."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Hemophilia A and immune thrombocytopenia bleed by different mechanisms: hemophilia is a factor VIII deficit causing deep joint and muscle bleeds, while ITP is platelet destruction causing mucocutaneous petechiae—the pattern hints which arm of hemostasis failed."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "Hemophilia A and TTP sit at opposite poles of hemostasis: hemophilia fails to clot from factor VIII deficiency and bleeds, while TTP clots pathologically from ADAMTS13 deficiency, consuming platelets in microthrombi—both too little and too much clotting cause disease."
 ---
 
 # Hemophilia A
@@ -196,6 +205,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Recurrent hemarthrosis is the defining morbidity of hemophilia A: bleeding into knees, ankles and elbows triggers synovitis, cartilage loss and destructive 'hemophilic arthropathy' → chronic pain and disability; prophylaxis and emicizumab aim to prevent these joint bleeds.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Factor VIII is synthesized largely by liver sinusoidal endothelial cells and circulates protected by endothelial von Willebrand factor; injury exposing the subendothelial matrix starts hemostasis—context for FVIII deficiency, and a target for hemophilia gene therapy.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Hemophilia A spares primary hemostasis—platelets still form the plug—but lacks the FVIIIa/FIXa 'tenase' complex that assembles on the activated platelet surface to burst-generate thrombin; without it the plug is unstable and rebleeds, hence delayed deep-tissue and joint bleeding.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Hemophilia A and DIC cause bleeding by opposite mechanisms: hemophilia is isolated factor VIII deficiency (long aPTT, normal PT and platelets) bleeding into joints, while DIC consumes all factors and platelets at once—the lab pattern tells inherited from acquired.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Hemophilia A and immune thrombocytopenia bleed by different mechanisms: hemophilia is a factor VIII deficit causing deep joint and muscle bleeds, while ITP is platelet destruction causing mucocutaneous petechiae—the pattern hints which arm of hemostasis failed.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — Hemophilia A and TTP sit at opposite poles of hemostasis: hemophilia fails to clot from factor VIII deficiency and bleeds, while TTP clots pathologically from ADAMTS13 deficiency, consuming platelets in microthrombi—both too little and too much clotting cause disease.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
