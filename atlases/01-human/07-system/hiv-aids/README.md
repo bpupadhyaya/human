@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages are a key HIV reservoir and disease driver: unlike CD4 T cells, infected macrophages resist HIV's cytopathic effect and survive, seeding tissues (including the brain) with virus that persists despite antiretrovirals—a major obstacle to cure."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Oral and esophageal candidiasis is a hallmark of advancing HIV/AIDS: as CD4 counts fall, Candida albicans overgrows mucosa it normally cannot, so thrush and esophagitis are clinical clues to immunosuppression and an AIDS-defining illness when esophageal."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "HIV/AIDS frequently strikes the nervous system: beyond direct HIV brain infection causing dementia, falling CD4 counts open the door to CNS opportunists—toxoplasmosis, cryptococcal meningitis and CNS lymphoma—making neurologic disease a major source of AIDS morbidity."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "HIV/AIDS plays out largely in the lymphatic system: lymphoid tissue is where the virus replicates and where CD4 T cells are depleted, generalized lymphadenopathy is an early sign, and the resulting immune collapse drives the lymphomas that complicate AIDS."
 ---
 
 # HIV/AIDS
@@ -210,6 +219,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Hodgkin lymphoma is more common in HIV/AIDS though not AIDS-defining: even on antiretrovirals, HIV patients have several-fold higher Hodgkin risk, usually EBV-driven—a malignancy whose rate, unlike AIDS-defining lymphomas, did not fall with treatment.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Diffuse large B-cell lymphoma is the commonest AIDS-defining lymphoma: profound immunosuppression and EBV co-infection let B cells proliferate unchecked, so DLBCL marks advanced HIV—rates dropped sharply with antiretroviral immune restoration.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are a key HIV reservoir and disease driver: unlike CD4 T cells, infected macrophages resist HIV's cytopathic effect and survive, seeding tissues (including the brain) with virus that persists despite antiretrovirals—a major obstacle to cure.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Oral and esophageal candidiasis is a hallmark of advancing HIV/AIDS: as CD4 counts fall, Candida albicans overgrows mucosa it normally cannot, so thrush and esophagitis are clinical clues to immunosuppression and an AIDS-defining illness when esophageal.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — HIV/AIDS frequently strikes the nervous system: beyond direct HIV brain infection causing dementia, falling CD4 counts open the door to CNS opportunists—toxoplasmosis, cryptococcal meningitis and CNS lymphoma—making neurologic disease a major source of AIDS morbidity.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — HIV/AIDS plays out largely in the lymphatic system: lymphoid tissue is where the virus replicates and where CD4 T cells are depleted, generalized lymphadenopathy is an early sign, and the resulting immune collapse drives the lymphomas that complicate AIDS.
 
 ## See Also
 

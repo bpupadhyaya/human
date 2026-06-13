@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells provide early defense against influenza: NK cells kill virus-infected respiratory cells before adaptive immunity engages, and waning NK function with age contributes to the severe influenza and high mortality seen in the elderly."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Alveolar macrophages are central to influenza's outcome: they help clear virus and dead cells but, when overactivated in severe flu, pour out cytokines that injure the lung—so the macrophage response can mean recovery or fatal inflammatory pneumonia."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Influenza is the archetypal acute infection of the respiratory system: the virus infects airway and alveolar epithelium from nose to lung, causing tracheobronchitis and, in severe cases, viral pneumonia—and damaging mucosa enough to invite bacterial superinfection."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Severe and pandemic influenza can trigger a cytokine storm: excessive innate immune activation (notably in H5N1 and 1918-type strains) floods the lungs with inflammatory mediators, causing diffuse alveolar damage and ARDS out of proportion to viral load."
 ---
 
 # Influenza
@@ -231,3 +240,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Severe influenza can cause ARDS: viral pneumonia and an overwhelming inflammatory response flood the alveoli, collapsing gas exchange and requiring ventilation—the lethal end of influenza, often worsened by secondary bacterial pneumonia.
 - `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — Influenza is a recognized trigger of Guillain-Barré syndrome: the post-infectious autoimmune attack on peripheral-nerve myelin can follow flu (rarely the vaccine, far less than infection)—a reminder that the immune response, not just the virus, causes harm.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells provide early defense against influenza: NK cells kill virus-infected respiratory cells before adaptive immunity engages, and waning NK function with age contributes to the severe influenza and high mortality seen in the elderly.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Alveolar macrophages are central to influenza's outcome: they help clear virus and dead cells but, when overactivated in severe flu, pour out cytokines that injure the lung—so the macrophage response can mean recovery or fatal inflammatory pneumonia.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Influenza is the archetypal acute infection of the respiratory system: the virus infects airway and alveolar epithelium from nose to lung, causing tracheobronchitis and, in severe cases, viral pneumonia—and damaging mucosa enough to invite bacterial superinfection.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Severe and pandemic influenza can trigger a cytokine storm: excessive innate immune activation (notably in H5N1 and 1918-type strains) floods the lungs with inflammatory mediators, causing diffuse alveolar damage and ARDS out of proportion to viral load.
