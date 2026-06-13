@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CMML can be accompanied by clonal plasmacytoid dendritic cell proliferations: nodular aggregates of pDCs arise from the same mutated clone, a clue that monocytic and dendritic lineages share progenitors and a marker of more aggressive disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "CMML's myelodysplasia shows in dysplastic neutrophils alongside its defining monocytosis: hypogranular, pseudo-Pelger-Huët neutrophils reflect the clonal marrow defect, and persistent monocytosis with these features separates CMML from a reactive monocytosis."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The proliferative form of CMML enlarges the spleen: when the clone behaves myeloproliferatively (high white count), extramedullary hematopoiesis causes splenomegaly—unlike the dysplastic, cytopenic form, marking the MDS/MPN-overlap spectrum CMML spans."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "CMML and myelofibrosis are both MDS/MPN-spectrum disorders that can develop marrow fibrosis and splenomegaly: CMML is defined by monocytosis with dysplasia, myelofibrosis by JAK2/CALR with teardrop cells—but both are clonal stem-cell diseases that can transform to AML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -201,6 +210,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[AML](../aml/README.md)** — CMML is a myelodysplastic/myeloproliferative overlap that transforms to AML in ~15-20%: accumulating mutations (often ASXL1, RUNX1, or NRAS on a TET2/SRSF2 background) drive blast expansion, and CMML-derived AML carries a poor prognosis.
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — CMML is defined partly by what it is NOT—Philadelphia-negative: persistent monocytosis with absent BCR-ABL1 separates CMML from chronic myeloid leukemia, a distinction made by cytogenetics/PCR that changes treatment entirely (no TKI for CMML).
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — CMML can be accompanied by clonal plasmacytoid dendritic cell proliferations: nodular aggregates of pDCs arise from the same mutated clone, a clue that monocytic and dendritic lineages share progenitors and a marker of more aggressive disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CMML's myelodysplasia shows in dysplastic neutrophils alongside its defining monocytosis: hypogranular, pseudo-Pelger-Huët neutrophils reflect the clonal marrow defect, and persistent monocytosis with these features separates CMML from a reactive monocytosis.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The proliferative form of CMML enlarges the spleen: when the clone behaves myeloproliferatively (high white count), extramedullary hematopoiesis causes splenomegaly—unlike the dysplastic, cytopenic form, marking the MDS/MPN-overlap spectrum CMML spans.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — CMML and myelofibrosis are both MDS/MPN-spectrum disorders that can develop marrow fibrosis and splenomegaly: CMML is defined by monocytosis with dysplasia, myelofibrosis by JAK2/CALR with teardrop cells—but both are clonal stem-cell diseases that can transform to AML.
 
 ---
 

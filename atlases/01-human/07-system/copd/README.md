@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Cigarette smoke is the dominant cause of COPD: inhaled carbon-rich particulates and combustion chemicals trigger protease-antiprotease imbalance and chronic neutrophilic inflammation → emphysema and small-airway fibrosis; cessation is the only intervention that slows decline."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "COPD is a leading cause of pulmonary hypertension and cor pulmonale: chronic hypoxia constricts and remodels pulmonary arteries, raising right-heart pressure until the right ventricle fails—so a loud P2, edema, and a dilated right heart signal this grave complication."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Respiratory viruses like influenza are major triggers of COPD exacerbations: infection inflames already-damaged airways, causing the acute worsening of breathlessness and sputum that drives hospitalization—so annual flu vaccination is core to COPD care."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Osteoporosis is a frequent, underrecognized COPD comorbidity: inflammation, inactivity, low vitamin D, smoking, and corticosteroids thin the bones, so COPD patients fracture more—and vertebral fractures further impair breathing, warranting bone-density screening."
 ---
 
 # COPD
@@ -226,6 +235,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — COPD and lung cancer are smoking's twin diseases that frequently coexist: shared tobacco-driven inflammation, oxidative stress and impaired DNA repair mean COPD independently raises NSCLC risk, COPD limits surgery, and both are screened together with low-dose CT in heavy smokers.
 - `connects-to` → **[RSV](../rsv/README.md)** — RSV is an underappreciated driver of COPD exacerbations: it infects airway epithelium to provoke neutrophilic inflammation and bronchospasm, accounting for a notable share of hospitalized flares in older adults; new adult RSV vaccines (Arexvy, Abrysvo) help reduce this burden.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Cigarette smoke is the dominant cause of COPD: inhaled carbon-rich particulates and combustion chemicals trigger protease-antiprotease imbalance and chronic neutrophilic inflammation → emphysema and small-airway fibrosis; cessation is the only intervention that slows decline.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — COPD is a leading cause of pulmonary hypertension and cor pulmonale: chronic hypoxia constricts and remodels pulmonary arteries, raising right-heart pressure until the right ventricle fails—so a loud P2, edema, and a dilated right heart signal this grave complication.
+- `connects-to` → **[Influenza](../influenza/README.md)** — Respiratory viruses like influenza are major triggers of COPD exacerbations: infection inflames already-damaged airways, causing the acute worsening of breathlessness and sputum that drives hospitalization—so annual flu vaccination is core to COPD care.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Osteoporosis is a frequent, underrecognized COPD comorbidity: inflammation, inactivity, low vitamin D, smoking, and corticosteroids thin the bones, so COPD patients fracture more—and vertebral fractures further impair breathing, warranting bone-density screening.
 
 ---
 
