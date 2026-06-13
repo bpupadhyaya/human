@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "The skeleton makes Marfan visible: tall stature with disproportionately long limbs and fingers (arachnodactyly), arm-span-to-height >1.05, pectus deformity, scoliosis, and joint hypermobility all stem from fibrillin-1's role in connective tissue — scored in the Ghent criteria."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "The cardiovascular system carries Marfan's lethal risk: fibrillin-1 deficiency weakens the aortic media, so progressive aortic-root dilatation leads to dissection or rupture—the main cause of death—while mitral valve prolapse adds regurgitation; β-blockers/ARBs and surgery help."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Marfan is a disease of the aortic smooth-muscle-cell environment: fibrillin-1 loss frees excess TGF-β in the media, so vascular smooth muscle cells lose elastic-fiber anchorage and undergo apoptosis and phenotype switching—weakening the aortic wall toward aneurysm and dissection."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is an underrecognized Marfan target: weakened connective tissue predisposes to apical blebs and spontaneous pneumothorax (in ~5-10%), and emphysematous changes and restrictive disease from chest-wall deformity (pectus, scoliosis) can further impair breathing."
 ---
 
 # Marfan Syndrome
@@ -202,6 +211,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart and aorta carry Marfan's lethal risk: FBN1 deficiency lets excess TGF-β weaken the aortic media, producing progressive aortic-root dilatation that can dissect or rupture; β-blockers and losartan slow root growth, and prophylactic root replacement at ~5 cm prevents it.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The lens betrays Marfan syndrome: ectopia lentis — upward dislocation of the lens from stretched, failing zonular fibers (made of fibrillin-1) — is a cardinal diagnostic criterion present in ~60%; Marfan eyes are also myopic and prone to retinal detachment and early glaucoma.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The skeleton makes Marfan visible: tall stature with disproportionately long limbs and fingers (arachnodactyly), arm-span-to-height >1.05, pectus deformity, scoliosis, and joint hypermobility all stem from fibrillin-1's role in connective tissue — scored in the Ghent criteria.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The cardiovascular system carries Marfan's lethal risk: fibrillin-1 deficiency weakens the aortic media, so progressive aortic-root dilatation leads to dissection or rupture—the main cause of death—while mitral valve prolapse adds regurgitation; β-blockers/ARBs and surgery help.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Marfan is a disease of the aortic smooth-muscle-cell environment: fibrillin-1 loss frees excess TGF-β in the media, so vascular smooth muscle cells lose elastic-fiber anchorage and undergo apoptosis and phenotype switching—weakening the aortic wall toward aneurysm and dissection.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is an underrecognized Marfan target: weakened connective tissue predisposes to apical blebs and spontaneous pneumothorax (in ~5-10%), and emphysematous changes and restrictive disease from chest-wall deformity (pectus, scoliosis) can further impair breathing.
 
 ---
 

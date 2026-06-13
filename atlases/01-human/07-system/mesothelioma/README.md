@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/uveal-melanoma
     relation: connects-to
     note: "Mesothelioma and uveal melanoma are linked by BAP1: germline BAP1 loss causes the BAP1 tumor-predisposition syndrome, in which one family develops mesothelioma, uveal melanoma, renal cell carcinoma, and skin tumors — a shared chromatin defect across different organs."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Mesothelioma and renal cell carcinoma are both part of the BAP1 tumor predisposition syndrome: germline BAP1 loss predisposes to mesothelioma, clear-cell RCC, uveal melanoma and atypical melanocytic tumors, so mesothelioma with a family cancer history warrants BAP1 testing."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages drive asbestos-induced mesothelioma: long fibers resist 'frustrated' macrophage phagocytosis, so they release reactive oxygen species and activate the NLRP3 inflammasome—chronic IL-1β inflammation that transforms mesothelial cells over decades."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Mesothelioma and cholangiocarcinoma both occur in the BAP1 syndrome and share a chromatin-level driver: loss of BAP1, a nuclear deubiquitinase tumor suppressor, promotes both, and the epigenetic vulnerabilities plus checkpoint approaches are being explored across these cancers."
 ---
 
 # Mesothelioma
@@ -182,6 +191,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — Mesothelioma and meningioma share their central driver — NF2/merlin loss switching off Hippo so YAP/TAZ-TEAD drive proliferation (NF2-null in ~40% of mesothelioma, ~50-60% of meningioma) — why both spearhead trials of TEAD inhibitors despite arising in very different tissues.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Mesothelioma is moderately immunogenic, so dual checkpoint blockade — nivolumab plus ipilimumab, freeing cytotoxic CD8+ T cells — became first-line for unresectable pleural disease (CheckMate 743), with the largest benefit in the chemo-resistant sarcomatoid subtype.
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — Mesothelioma and uveal melanoma are linked by BAP1: germline BAP1 loss causes the BAP1 tumor-predisposition syndrome, in which one family develops mesothelioma, uveal melanoma, renal cell carcinoma, and skin tumors — a shared chromatin defect across different organs.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Mesothelioma and renal cell carcinoma are both part of the BAP1 tumor predisposition syndrome: germline BAP1 loss predisposes to mesothelioma, clear-cell RCC, uveal melanoma and atypical melanocytic tumors, so mesothelioma with a family cancer history warrants BAP1 testing.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive asbestos-induced mesothelioma: long fibers resist 'frustrated' macrophage phagocytosis, so they release reactive oxygen species and activate the NLRP3 inflammasome—chronic IL-1β inflammation that transforms mesothelial cells over decades.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Mesothelioma and cholangiocarcinoma both occur in the BAP1 syndrome and share a chromatin-level driver: loss of BAP1, a nuclear deubiquitinase tumor suppressor, promotes both, and the epigenetic vulnerabilities plus checkpoint approaches are being explored across these cancers.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
