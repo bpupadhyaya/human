@@ -81,6 +81,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Iron overload makes thalassemia an endocrine disease: transfusion and gut iron deposit in glands, causing diabetes, hypogonadism, hypothyroidism and growth failure, so the endocrine system bears much of the chronic morbidity—and iron chelation aims to prevent it."
+  - target: 01-human/03-molecular/ferroportin
+    relation: connects-to
+    note: "Ferroportin sits at the heart of thalassemia's iron overload: ineffective erythropoiesis suppresses hepcidin, freeing ferroportin to pump excess dietary iron into blood, so iron accumulates in heart and liver—the main cause of death in transfused patients."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Iron-overload cardiomyopathy is the leading killer in thalassemia: years of transfusion and gut iron absorption deposit iron in the myocardium, causing heart failure and arrhythmia, so iron chelation and cardiac MRI monitoring are central to survival."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Thalassemia reshapes the skeleton: chronic anemia drives massive marrow expansion that thins and deforms bones—frontal bossing, a 'hair-on-end' skull and fracture-prone osteoporosis—so the musculoskeletal changes are a visible signature of untreated disease."
 ---
 
 # Thalassemia
@@ -246,6 +255,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin runs high in thalassemia: severe anemia drives massive EPO release, but defective globin chains make erythropoiesis ineffective, so the marrow expands uselessly—causing skeletal deformities and extramedullary hematopoiesis instead of functional red cells.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Thalassemia impairs oxygen delivery at its root: too few normal hemoglobin tetramers mean less oxygen per red cell, so tissues stay hypoxic despite a racing marrow—and the hypoxic drive fuels the bone expansion and high-output cardiac strain of severe disease.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Iron overload makes thalassemia an endocrine disease: transfusion and gut iron deposit in glands, causing diabetes, hypogonadism, hypothyroidism and growth failure, so the endocrine system bears much of the chronic morbidity—and iron chelation aims to prevent it.
+- `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Ferroportin sits at the heart of thalassemia's iron overload: ineffective erythropoiesis suppresses hepcidin, freeing ferroportin to pump excess dietary iron into blood, so iron accumulates in heart and liver—the main cause of death in transfused patients.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Iron-overload cardiomyopathy is the leading killer in thalassemia: years of transfusion and gut iron absorption deposit iron in the myocardium, causing heart failure and arrhythmia, so iron chelation and cardiac MRI monitoring are central to survival.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Thalassemia reshapes the skeleton: chronic anemia drives massive marrow expansion that thins and deforms bones—frontal bossing, a 'hair-on-end' skull and fracture-prone osteoporosis—so the musculoskeletal changes are a visible signature of untreated disease.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

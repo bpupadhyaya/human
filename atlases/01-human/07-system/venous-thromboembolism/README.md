@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity steadily raises VTE risk: adipose-driven inflammation, higher clotting factors and venous stasis from immobility combine to promote thrombosis, so weight is an independent, modifiable risk factor that compounds surgery, pregnancy and hormonal triggers."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Fibrinogen is the raw material of the venous clot: thrombin cleaves it into fibrin strands that mesh trapped red cells into the gelatinous thrombus characteristic of veins, and high fibrinogen levels independently raise venous thromboembolism risk."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Pulmonary embolism stresses the heart acutely: a large clot lodging in the pulmonary arteries suddenly raises right-ventricular afterload, so the right heart can fail and collapse—making PE a cardiovascular emergency, not just a lung problem."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "PNH is a striking cause of unusual venous thrombosis: complement-driven hemolysis and platelet activation provoke clots at odd sites (hepatic, cerebral veins), so unexplained venous thromboembolism with hemolysis should prompt testing for PNH."
 ---
 
 # Venous Thromboembolism
@@ -222,6 +231,9 @@ cross_links:
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets help build venous thrombi: though VTE is a fibrin-rich red clot, activated platelets still seed and propagate it, which is why some antiplatelet therapy reduces recurrence—blurring the old line between arterial and venous clots.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen is a leading reversible cause of VTE: oral contraceptives, hormone therapy and pregnancy raise clotting factors and lower anticoagulant proteins, multiplying thrombosis risk—especially when combined with factor V Leiden or other inherited thrombophilias.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity steadily raises VTE risk: adipose-driven inflammation, higher clotting factors and venous stasis from immobility combine to promote thrombosis, so weight is an independent, modifiable risk factor that compounds surgery, pregnancy and hormonal triggers.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is the raw material of the venous clot: thrombin cleaves it into fibrin strands that mesh trapped red cells into the gelatinous thrombus characteristic of veins, and high fibrinogen levels independently raise venous thromboembolism risk.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Pulmonary embolism stresses the heart acutely: a large clot lodging in the pulmonary arteries suddenly raises right-ventricular afterload, so the right heart can fail and collapse—making PE a cardiovascular emergency, not just a lung problem.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — PNH is a striking cause of unusual venous thrombosis: complement-driven hemolysis and platelet activation provoke clots at odd sites (hepatic, cerebral veins), so unexplained venous thromboembolism with hemolysis should prompt testing for PNH.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
