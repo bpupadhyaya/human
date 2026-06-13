@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Over 85% of prostate-cancer metastases go to bone, where tumor cells drive osteoblasts to overproduce RANKL → osteoclast activation → a vicious cycle of bone destruction and growth-factor release; the anti-RANKL antibody denosumab reduces skeletal-related events."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Prostate and colorectal cancers are two of the commonest adult solid tumours, both rising with age and Western diet; both have hereditary forms—BRCA2 raises lethal prostate cancer, Lynch raises both—and PARP and checkpoint therapy now target their DNA-repair-deficient subsets."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Prostate cancer characteristically forms osteoblastic (bone-forming) metastases: tumour-secreted Wnt, ET-1 and BMPs drive osteoblasts to lay down disorganized woven bone, while RANKL fuels a vicious turnover cycle; this pattern underlies bone-targeted radium-223 and denosumab."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Prostate and breast cancers are the paradigm hormone-driven adenocarcinomas—androgen- vs estrogen-receptor signalling—each treated by depriving that hormone; they also share BRCA1/2 predisposition, so PARP inhibitors (olaparib) work in both, and both seed bone metastases."
 ---
 
 # Prostate Cancer
@@ -190,6 +199,9 @@ cross_links:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The prostate is a male reproductive accessory gland encircling the urethra; ~70% of cancers arise in its peripheral zone (palpable on DRE) while benign hyperplasia crowds the transitional zone; localized disease may be watched, irradiated, or removed by radical prostatectomy.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 is the most important inherited prostate-cancer gene: germline BRCA2 raises risk 4-6× and predicts higher Gleason grade, and BRCA2/HRR deficiency makes tumors PARP-inhibitor-sensitive (olaparib PROfound); germline testing is recommended for all metastatic disease.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Over 85% of prostate-cancer metastases go to bone, where tumor cells drive osteoblasts to overproduce RANKL → osteoclast activation → a vicious cycle of bone destruction and growth-factor release; the anti-RANKL antibody denosumab reduces skeletal-related events.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Prostate and colorectal cancers are two of the commonest adult solid tumours, both rising with age and Western diet; both have hereditary forms—BRCA2 raises lethal prostate cancer, Lynch raises both—and PARP and checkpoint therapy now target their DNA-repair-deficient subsets.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Prostate cancer characteristically forms osteoblastic (bone-forming) metastases: tumour-secreted Wnt, ET-1 and BMPs drive osteoblasts to lay down disorganized woven bone, while RANKL fuels a vicious turnover cycle; this pattern underlies bone-targeted radium-223 and denosumab.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Prostate and breast cancers are the paradigm hormone-driven adenocarcinomas—androgen- vs estrogen-receptor signalling—each treated by depriving that hormone; they also share BRCA1/2 predisposition, so PARP inhibitors (olaparib) work in both, and both seed bone metastases.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 loss (~75% of CRC) is the rate-limiting step that converts an advanced adenoma into invasive carcinoma: 17p loss plus TP53 mutation removes the DNA-damage checkpoint, unleashing the chromosomal instability that lets cells breach the muscularis mucosae."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Colorectal and prostate cancers are two of the commonest adult solid tumours; both have hereditary drivers—Lynch raises both, BRCA2 raises prostate—and microsatellite-unstable CRC and DNA-repair-deficient prostate cancer both respond to checkpoint or PARP-based therapy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is the dominant site of colorectal metastasis via portal venous drainage: ~50% of CRC patients develop liver mets, and resection or ablation of oligometastatic liver disease can be curative; this portal route makes CRC liver-metastasis management central to oncology."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Familial adenomatous polyposis, from germline APC mutation, carpets the colon with hundreds-to-thousands of adenomas and guarantees colorectal cancer by mid-adulthood without prophylactic colectomy; APC loss is also the founding event in >80% of sporadic CRC."
 ---
 
 # Colorectal Cancer
@@ -179,6 +188,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Most colorectal cancers arise in the large intestine via the adenoma-carcinoma sequence, so colonoscopy with polypectomy is preventive; right-sided tumors bleed occultly (→ anemia) while left-sided ones obstruct, and rectal cancer is resected by total mesorectal excision.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome (germline MMR loss) causes ~3% of colorectal cancer, producing dMMR/MSI-H tumors that are hypermutated and exquisitely sensitive to PD-1 blockade — pembrolizumab is now first-line for MSI-H metastatic CRC; universal MMR/MSI testing of all CRC is recommended.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss (~75% of CRC) is the rate-limiting step that converts an advanced adenoma into invasive carcinoma: 17p loss plus TP53 mutation removes the DNA-damage checkpoint, unleashing the chromosomal instability that lets cells breach the muscularis mucosae.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Colorectal and prostate cancers are two of the commonest adult solid tumours; both have hereditary drivers—Lynch raises both, BRCA2 raises prostate—and microsatellite-unstable CRC and DNA-repair-deficient prostate cancer both respond to checkpoint or PARP-based therapy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is the dominant site of colorectal metastasis via portal venous drainage: ~50% of CRC patients develop liver mets, and resection or ablation of oligometastatic liver disease can be curative; this portal route makes CRC liver-metastasis management central to oncology.
+- `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Familial adenomatous polyposis, from germline APC mutation, carpets the colon with hundreds-to-thousands of adenomas and guarantees colorectal cancer by mid-adulthood without prophylactic colectomy; APC loss is also the founding event in >80% of sporadic CRC.
 
 ---
 
