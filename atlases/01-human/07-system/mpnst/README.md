@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "MPNST is a high-grade soft-tissue sarcoma of the limbs, trunk, and paraspinal region arising from a major nerve trunk; like other extremity sarcomas it needs wide en-bloc resection plus radiation, but perineural spread and chemoresistance make it among the deadliest."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiation is a key MPNST risk and treatment: prior radiotherapy is a recognized cause of these aggressive nerve-sheath sarcomas (often years later), and because wide margins are hard near nerves, adjuvant radiotherapy is used despite the radiation-induced-second-tumor concern."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "MPNST and rhabdomyosarcoma intersect in the malignant Triton tumor: an MPNST with rhabdomyosarcomatous (skeletal-muscle) differentiation, often arising in NF1, behaves especially aggressively—showing how a nerve-sheath sarcoma can acquire the myogenic program of rhabdomyosarcoma."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "MPNST and Ewing sarcoma are both aggressive sarcomas of young people requiring molecular distinction: MPNST arises from nerve sheath (NF1-driven, S100/SOX10, CDKN2A loss), while Ewing is a small-round-blue-cell tumor with EWSR1-FLI1 and CD99—different cells, drivers and chemo."
 ---
 
 # MPNST
@@ -195,6 +204,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — MPNST and schwannomatosis are both peripheral nerve sheath tumor disorders but opposite in behavior: schwannomatosis makes multiple benign, painful schwannomas (SMARCB1/LZTR1), while MPNST is a high-grade Schwann-cell sarcoma arising mostly from NF1 plexiform neurofibromas.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — MPNST and synovial sarcoma are monomorphic spindle-cell sarcomas that mimic each other, but their epigenetics differ diagnostically: MPNST loses PRC2 (H3K27me3 absent by IHC) while synovial sarcoma's SS18-SSX fusion retains it — one stain excludes one and confirms the other.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — MPNST is a high-grade soft-tissue sarcoma of the limbs, trunk, and paraspinal region arising from a major nerve trunk; like other extremity sarcomas it needs wide en-bloc resection plus radiation, but perineural spread and chemoresistance make it among the deadliest.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation is a key MPNST risk and treatment: prior radiotherapy is a recognized cause of these aggressive nerve-sheath sarcomas (often years later), and because wide margins are hard near nerves, adjuvant radiotherapy is used despite the radiation-induced-second-tumor concern.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — MPNST and rhabdomyosarcoma intersect in the malignant Triton tumor: an MPNST with rhabdomyosarcomatous (skeletal-muscle) differentiation, often arising in NF1, behaves especially aggressively—showing how a nerve-sheath sarcoma can acquire the myogenic program of rhabdomyosarcoma.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — MPNST and Ewing sarcoma are both aggressive sarcomas of young people requiring molecular distinction: MPNST arises from nerve sheath (NF1-driven, S100/SOX10, CDKN2A loss), while Ewing is a small-round-blue-cell tumor with EWSR1-FLI1 and CD99—different cells, drivers and chemo.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
