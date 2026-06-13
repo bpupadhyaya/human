@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "HBV-specific CD8+ cytotoxic T cells clear infected hepatocytes and, via non-cytolytic IFN-γ/TNF, suppress HBV transcription; in chronic HBV these CTLs become exhausted (PD-1, TIM-3, LAG-3) → failure to clear cccDNA → viral persistence."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HBV and HIV share transmission routes and frequently coinfect: shared blood and sexual spread means many HIV patients carry HBV, accelerating fibrosis, and several drugs (tenofovir, lamivudine) treat both—so HIV regimens are chosen to cover HBV."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Liver macrophages (Kupffer cells) shape hepatitis B outcomes: they sense viral products and present antigen, and the balance between cytotoxic T-cell clearance and macrophage-driven chronic inflammation decides whether HBV is cleared or smolders into fibrosis and cancer."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Hepatitis B is classically linked to polyarteritis nodosa, not ANCA-associated vasculitis: circulating HBsAg immune complexes deposit in medium-sized arteries, so HBV-related PAN is immune-complex-driven and ANCA-negative—a key distinction from primary ANCA vasculitis."
 ---
 
 # Hepatitis B
@@ -205,3 +214,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — HBV and HCV both cause chronic hepatitis → cirrhosis → HCC but differ: HBV is a DNA virus with a persistent nuclear cccDNA reservoir that antivirals suppress but cannot clear; HCV is an RNA virus with no reservoir, cured >95% by DAAs; HBV is vaccine-preventable, HCV is not.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — HBx binds the p53 C-terminal regulatory domain → sequesters p53 in the cytoplasm → blocks PUMA/BAX-driven apoptosis so the infected hepatocyte survives; with HBV integration and aflatoxin-B1 TP53 R249S mutation, p53 inactivation is central to HBV hepatocarcinogenesis.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — HBV-specific CD8+ cytotoxic T cells clear infected hepatocytes and, via non-cytolytic IFN-γ/TNF, suppress HBV transcription; in chronic HBV these CTLs become exhausted (PD-1, TIM-3, LAG-3) → failure to clear cccDNA → viral persistence.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HBV and HIV share transmission routes and frequently coinfect: shared blood and sexual spread means many HIV patients carry HBV, accelerating fibrosis, and several drugs (tenofovir, lamivudine) treat both—so HIV regimens are chosen to cover HBV.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Liver macrophages (Kupffer cells) shape hepatitis B outcomes: they sense viral products and present antigen, and the balance between cytotoxic T-cell clearance and macrophage-driven chronic inflammation decides whether HBV is cleared or smolders into fibrosis and cancer.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Hepatitis B is classically linked to polyarteritis nodosa, not ANCA-associated vasculitis: circulating HBsAg immune complexes deposit in medium-sized arteries, so HBV-related PAN is immune-complex-driven and ANCA-negative—a key distinction from primary ANCA vasculitis.

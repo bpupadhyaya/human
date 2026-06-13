@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "HCV is metabolically active: the core protein degrades IRS-1/IRS-2 via PI3K/mTOR and SOCS3 → hepatic insulin resistance → type 2 diabetes (2–3× risk), which in turn accelerates fibrosis and HCC; DAA-induced SVR improves glycemic control and lowers incident diabetes."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HCV and HIV commonly coinfect through shared blood-borne spread: HIV accelerates HCV liver fibrosis and cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which now clears HCV in most regardless of HIV status."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Chronic hepatitis C drives B-cell non-Hodgkin lymphomas including follicular and marginal-zone types: persistent antigen stimulation expands clonal B cells (also causing mixed cryoglobulinemia), and antiviral cure can make some HCV-associated lymphomas regress."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Hepatitis C replicates in hepatocytes and rewires their lipid metabolism: the virus assembles on lipid droplets and uses hepatocyte lipoproteins, causing steatosis and insulin resistance—injuring the liver cell metabolically as well as by immune inflammation."
 ---
 
 # Hepatitis C
@@ -196,3 +205,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HCV and HBV both cause chronic hepatitis → cirrhosis → HCC yet differ: HCV is an RNA flavivirus with no latent reservoir, cured >95% by DAAs, and has no vaccine; HBV is a DNA virus whose nuclear cccDNA reservoir antivirals suppress but cannot clear, and is vaccine-preventable.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Chronic HCV activates hepatic stellate cells via TGF-β1 → myofibroblast transdifferentiation → collagen I/III deposition → progressive fibrosis (METAVIR F0–F4) → cirrhosis; DAA-induced SVR slows fibrogenesis but established cirrhosis persists, retaining HCC risk.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — HCV is metabolically active: the core protein degrades IRS-1/IRS-2 via PI3K/mTOR and SOCS3 → hepatic insulin resistance → type 2 diabetes (2–3× risk), which in turn accelerates fibrosis and HCC; DAA-induced SVR improves glycemic control and lowers incident diabetes.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HCV and HIV commonly coinfect through shared blood-borne spread: HIV accelerates HCV liver fibrosis and cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which now clears HCV in most regardless of HIV status.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Chronic hepatitis C drives B-cell non-Hodgkin lymphomas including follicular and marginal-zone types: persistent antigen stimulation expands clonal B cells (also causing mixed cryoglobulinemia), and antiviral cure can make some HCV-associated lymphomas regress.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatitis C replicates in hepatocytes and rewires their lipid metabolism: the virus assembles on lipid droplets and uses hepatocyte lipoproteins, causing steatosis and insulin resistance—injuring the liver cell metabolically as well as by immune inflammation.
