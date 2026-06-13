@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Hyperviscosity from WM's IgM paraprotein can mimic or cause stroke: large pentameric IgM thickens blood, causing headache, visual blurring, and neurological deficits, so a stroke-like presentation with a very high protein points to WM, treated by plasmapheresis."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Waldenström macroglobulinemia and mantle cell lymphoma are both B-cell non-Hodgkin lymphomas but distinct: WM is a lymphoplasmacytic lymphoma secreting IgM (MYD88 L265P) causing hyperviscosity, while MCL is a t(11;14) cyclin-D1 nodal tumor."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Waldenström macroglobulinemia and CLL are indolent mature B-cell neoplasms: both involve small B cells and respond to BTK inhibitors, but WM's cells secrete monoclonal IgM while CLL circulates as a leukemia—immunophenotype and MYD88 separate them."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Hepatitis C links to Waldenström macroglobulinemia: chronic HCV-driven B-cell stimulation can progress to lymphoplasmacytic lymphoma, so HCV is screened for in IgM-secreting lymphomas—and antiviral cure can sometimes treat the lymphoproliferation."
 ---
 
 # Waldenström Macroglobulinemia
@@ -197,6 +206,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Waldenström macroglobulinemia and follicular lymphoma are both indolent B-cell non-Hodgkin lymphomas but molecularly distinct: WM is a lymphoplasmacytic lymphoma defined by MYD88 L265P and an IgM paraprotein, while follicular lymphoma is BCL2-translocated.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Waldenström macroglobulinemia can transform into aggressive diffuse large B-cell lymphoma: like other indolent lymphomas, the low-grade clone can acquire further lesions and evolve into DLBCL, a Richter-like transformation with rapid deterioration and worse prognosis.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Hyperviscosity from WM's IgM paraprotein can mimic or cause stroke: large pentameric IgM thickens blood, causing headache, visual blurring, and neurological deficits, so a stroke-like presentation with a very high protein points to WM, treated by plasmapheresis.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Waldenström macroglobulinemia and mantle cell lymphoma are both B-cell non-Hodgkin lymphomas but distinct: WM is a lymphoplasmacytic lymphoma secreting IgM (MYD88 L265P) causing hyperviscosity, while MCL is a t(11;14) cyclin-D1 nodal tumor.
+- `connects-to` → **[CLL](../cll/README.md)** — Waldenström macroglobulinemia and CLL are indolent mature B-cell neoplasms: both involve small B cells and respond to BTK inhibitors, but WM's cells secrete monoclonal IgM while CLL circulates as a leukemia—immunophenotype and MYD88 separate them.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hepatitis C links to Waldenström macroglobulinemia: chronic HCV-driven B-cell stimulation can progress to lymphoplasmacytic lymphoma, so HCV is screened for in IgM-secreting lymphomas—and antiviral cure can sometimes treat the lymphoproliferation.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

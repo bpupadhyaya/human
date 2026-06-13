@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells initiate the autoimmunity of type 1 diabetes: they capture islet antigens and present them to autoreactive T cells in pancreatic lymph nodes, breaking tolerance and launching the cytotoxic attack on β-cells—so DCs are a target for tolerance therapies."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Type 1 diabetes and pemphigus vulgaris are both HLA-linked autoimmune diseases: T1DM is T-cell-mediated destruction of pancreatic β-cells, while pemphigus is antibody-mediated against desmoglein in skin—two ends of the autoimmune spectrum that cluster in patients."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Type 1 diabetes and narcolepsy type 1 are both autoimmune diseases that destroy an irreplaceable cell population: T1DM the insulin-producing β-cells, narcolepsy the hypothalamic orexin neurons—each HLA-associated and likely T-cell-mediated, leaving a permanent deficit."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Type 1 diabetes accelerates atherosclerosis, the leading cause of death in T1DM: lifelong hyperglycemia injures the endothelium and worsens lipids, so even well-controlled patients face premature cardiovascular disease."
 ---
 
 # Type 1 Diabetes
@@ -183,6 +192,9 @@ cross_links:
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Type 1 diabetes is a leading cause of neuropathic pain through diabetic peripheral neuropathy: decades of hyperglycemia damage distal nerves via polyol, AGE, and microvascular mechanisms, causing burning stocking-glove pain—so early glycemic control is key prevention.
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Type 1 diabetes impairs wound healing and underlies the diabetic foot: hyperglycemia, neuropathy (lost protective sensation), and microvascular disease stall healing and breed infection, so foot ulcers in long-standing T1D are a major cause of non-traumatic amputation.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells initiate the autoimmunity of type 1 diabetes: they capture islet antigens and present them to autoreactive T cells in pancreatic lymph nodes, breaking tolerance and launching the cytotoxic attack on β-cells—so DCs are a target for tolerance therapies.
+- `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Type 1 diabetes and pemphigus vulgaris are both HLA-linked autoimmune diseases: T1DM is T-cell-mediated destruction of pancreatic β-cells, while pemphigus is antibody-mediated against desmoglein in skin—two ends of the autoimmune spectrum that cluster in patients.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Type 1 diabetes and narcolepsy type 1 are both autoimmune diseases that destroy an irreplaceable cell population: T1DM the insulin-producing β-cells, narcolepsy the hypothalamic orexin neurons—each HLA-associated and likely T-cell-mediated, leaving a permanent deficit.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Type 1 diabetes accelerates atherosclerosis, the leading cause of death in T1DM: lifelong hyperglycemia injures the endothelium and worsens lipids, so even well-controlled patients face premature cardiovascular disease.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
