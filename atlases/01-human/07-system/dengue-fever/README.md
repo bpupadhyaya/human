@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver is a key dengue target: the virus replicates in hepatocytes and Kupffer cells, raising transaminases in most cases and occasionally causing fulminant hepatitis; marked AST/ALT elevation is a warning sign of progression to severe dengue and correlates with bleeding."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thrombocytopenia defines severe dengue: the virus suppresses marrow megakaryopoiesis and antibodies destroy platelets, while plasma leak concentrates the blood—so a falling platelet count with rising hematocrit warns of progression to dengue hemorrhagic fever."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dengue virus first infects dendritic cells via DC-SIGN: skin dendritic cells captured at the mosquito bite are the earliest replication site and carry the virus onward, and antibody-dependent enhancement on a second infection worsens this uptake—driving severe dengue."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Dengue and malaria are the two great mosquito-borne tropical fevers and key differentials: both cause fever, thrombocytopenia, and can be severe, but dengue (Aedes flavivirus) brings plasma leak and hemorrhage while malaria (Plasmodium) brings hemolysis and cerebral disease."
 ---
 
 # Dengue Fever
@@ -187,3 +196,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Severe dengue is a disease of the endothelium: viral NS1 protein and cytokines transiently disrupt the endothelial glycocalyx and tight junctions, causing the plasma leakage (hemoconcentration, effusions, shock) that defines dengue hemorrhagic fever and dengue shock syndrome.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Severe dengue can trigger disseminated intravascular coagulation: endothelial injury, thrombocytopenia and cytokine-driven tissue-factor activation consume clotting factors, producing the bleeding of dengue hemorrhagic fever; DIC marks the severe end and worsens shock.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a key dengue target: the virus replicates in hepatocytes and Kupffer cells, raising transaminases in most cases and occasionally causing fulminant hepatitis; marked AST/ALT elevation is a warning sign of progression to severe dengue and correlates with bleeding.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia defines severe dengue: the virus suppresses marrow megakaryopoiesis and antibodies destroy platelets, while plasma leak concentrates the blood—so a falling platelet count with rising hematocrit warns of progression to dengue hemorrhagic fever.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dengue virus first infects dendritic cells via DC-SIGN: skin dendritic cells captured at the mosquito bite are the earliest replication site and carry the virus onward, and antibody-dependent enhancement on a second infection worsens this uptake—driving severe dengue.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Dengue and malaria are the two great mosquito-borne tropical fevers and key differentials: both cause fever, thrombocytopenia, and can be severe, but dengue (Aedes flavivirus) brings plasma leak and hemorrhage while malaria (Plasmodium) brings hemolysis and cerebral disease.

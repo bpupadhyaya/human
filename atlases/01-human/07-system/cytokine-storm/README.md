@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1β is a core driver and target of cytokine storm: inflammasome-activated IL-1β amplifies the IL-6/TNF feed-forward loop, fever and vascular leak, so the IL-1 receptor antagonist anakinra is used to break cytokine storm in HLH/MAS, severe COVID-19 and CAR-T toxicity."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "Sepsis is the commonest cytokine storm: infection triggers a dysregulated systemic release of IL-6, TNF, and IL-1 that injures the endothelium and drives shock and multi-organ failure—so sepsis and cytokine storm syndromes share mediators and cytokine-targeted therapy."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "Severe and pandemic influenza can provoke a lethal cytokine storm: overwhelming innate activation floods the lungs with IL-6, TNF, and chemokines, causing ARDS out of proportion to viral load—part of why young, immunocompetent adults died in the 1918 and H5N1 outbreaks."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CAR-T therapy's main toxicity is a cytokine storm: the engineered cytotoxic T cells, on engaging tumor, trigger massive IL-6 release (cytokine release syndrome), so tocilizumab is kept on hand—a designed T-cell attack causing the same storm seen in infection."
 ---
 
 # Cytokine Storm
@@ -166,6 +175,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Severe COVID-19 is a paradigm cytokine storm: SARS-CoV-2 triggers an overwhelming IL-6/IL-1/TNF surge that drives ARDS, coagulopathy and multiorgan failure rather than direct viral cytopathology, which is why dexamethasone and IL-6 blockade (tocilizumab) cut mortality.
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Cytokine release syndrome is the defining acute toxicity of CAR-T and allogeneic transplant: engrafting or engineered T cells flood the body with IFN-γ, IL-6 and TNF, causing fever, hypotension and capillary leak overlapping with severe GVHD; tocilizumab and steroids treat it.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is a core driver and target of cytokine storm: inflammasome-activated IL-1β amplifies the IL-6/TNF feed-forward loop, fever and vascular leak, so the IL-1 receptor antagonist anakinra is used to break cytokine storm in HLH/MAS, severe COVID-19 and CAR-T toxicity.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — Sepsis is the commonest cytokine storm: infection triggers a dysregulated systemic release of IL-6, TNF, and IL-1 that injures the endothelium and drives shock and multi-organ failure—so sepsis and cytokine storm syndromes share mediators and cytokine-targeted therapy.
+- `connects-to` → **[Influenza](../influenza/README.md)** — Severe and pandemic influenza can provoke a lethal cytokine storm: overwhelming innate activation floods the lungs with IL-6, TNF, and chemokines, causing ARDS out of proportion to viral load—part of why young, immunocompetent adults died in the 1918 and H5N1 outbreaks.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CAR-T therapy's main toxicity is a cytokine storm: the engineered cytotoxic T cells, on engaging tumor, trigger massive IL-6 release (cytokine release syndrome), so tocilizumab is kept on hand—a designed T-cell attack causing the same storm seen in infection.
 
 ## Pathology
 
