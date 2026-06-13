@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "NF2 produces glial as well as Schwann-cell tumors: spinal ependymomas and gliomas of astrocytic/ependymal lineage arise when Merlin loss disinhibits proliferation, part of the schwannoma-meningioma-ependymoma triad that defines the syndrome."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "NF2 and glioblastoma intersect through merlin: NF2 patients develop gliomas from biallelic NF2/merlin loss, and merlin is also inactivated in some sporadic glioblastomas—linking an inherited schwannoma/meningioma syndrome to malignant glioma."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "NF2 and von Hippel-Lindau are both dominant tumor-suppressor syndromes: NF2 (merlin loss) gives bilateral vestibular schwannomas and meningiomas, VHL gives hemangioblastomas and renal cancer—each one gene seeding a distinct tumor constellation."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye carries diagnostic clues to NF2: posterior subcapsular cataracts and retinal hamartomas are characteristic, often appearing before the bilateral vestibular schwannomas that define NF2—so an early cataract in a young person can prompt NF2 evaluation."
 ---
 
 # Neurofibromatosis Type 2
@@ -195,6 +204,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — NF2 and tuberous sclerosis are both autosomal-dominant neurocutaneous tumor syndromes, but of different pathways: NF2's Merlin loss drives schwannomas, meningiomas, and ependymomas via Hippo, while TSC's mTOR activation drives hamartomas across brain, kidney, and skin.
 - `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — NF2/Merlin and uveal melanoma converge on the Hippo pathway: Merlin normally restrains YAP, and uveal melanoma's GNAQ/GNA11 mutations activate YAP through Hippo—so both tumor biologies illustrate how unleashed YAP drives growth, here in the eye.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — NF2 produces glial as well as Schwann-cell tumors: spinal ependymomas and gliomas of astrocytic/ependymal lineage arise when Merlin loss disinhibits proliferation, part of the schwannoma-meningioma-ependymoma triad that defines the syndrome.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — NF2 and glioblastoma intersect through merlin: NF2 patients develop gliomas from biallelic NF2/merlin loss, and merlin is also inactivated in some sporadic glioblastomas—linking an inherited schwannoma/meningioma syndrome to malignant glioma.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — NF2 and von Hippel-Lindau are both dominant tumor-suppressor syndromes: NF2 (merlin loss) gives bilateral vestibular schwannomas and meningiomas, VHL gives hemangioblastomas and renal cancer—each one gene seeding a distinct tumor constellation.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye carries diagnostic clues to NF2: posterior subcapsular cataracts and retinal hamartomas are characteristic, often appearing before the bilateral vestibular schwannomas that define NF2—so an early cataract in a young person can prompt NF2 evaluation.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

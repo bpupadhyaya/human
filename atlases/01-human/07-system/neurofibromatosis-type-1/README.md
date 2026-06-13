@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Women with NF1 carry roughly double the breast cancer risk with worse outcomes, especially before age 50: neurofibromin loss disinhibits RAS-MAPK in breast epithelium, so NF1 guidelines recommend earlier, enhanced mammographic and MRI screening."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "NF1-associated and IDH-mutant gliomas are two distinct molecular routes to glioma: NF1's neurofibromin loss disinhibits Ras, driving optic-pathway gliomas, while sporadic adult gliomas are often IDH-mutant—Ras-pathway versus metabolic-epigenetic routes."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Rhabdomyosarcoma is part of the NF1 tumor spectrum: neurofibromin loss disinhibiting Ras predisposes children with NF1 to this skeletal-muscle sarcoma (often embryonal subtype), adding a soft-tissue cancer to NF1's neurofibromas, optic gliomas and MPNSTs."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "NF1 and Gorlin are both autosomal-dominant tumor-predisposition phakomatoses driven by loss of a single pathway brake: NF1's neurofibromin loss unleashes Ras, Gorlin's PTCH1 loss unleashes Hedgehog—two pathways, one syndromic logic."
 ---
 
 # Neurofibromatosis Type 1
@@ -188,6 +197,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — NF1 predisposes to pheochromocytoma: loss of neurofibromin's RAS-GAP activity in adrenal-medullary chromaffin cells drives catecholamine-secreting tumors in ~1-5% of NF1 patients, so unexplained hypertension in NF1 warrants plasma metanephrine screening.
 - `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — NF1 and Noonan syndrome are both RASopathies—germline disorders of the RAS-MAPK pathway—and overlap clinically: a 'neurofibromatosis-Noonan' phenotype exists, with short stature, learning issues, and cardiac or pigmentary signs blurring the two.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Women with NF1 carry roughly double the breast cancer risk with worse outcomes, especially before age 50: neurofibromin loss disinhibits RAS-MAPK in breast epithelium, so NF1 guidelines recommend earlier, enhanced mammographic and MRI screening.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — NF1-associated and IDH-mutant gliomas are two distinct molecular routes to glioma: NF1's neurofibromin loss disinhibits Ras, driving optic-pathway gliomas, while sporadic adult gliomas are often IDH-mutant—Ras-pathway versus metabolic-epigenetic routes.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Rhabdomyosarcoma is part of the NF1 tumor spectrum: neurofibromin loss disinhibiting Ras predisposes children with NF1 to this skeletal-muscle sarcoma (often embryonal subtype), adding a soft-tissue cancer to NF1's neurofibromas, optic gliomas and MPNSTs.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — NF1 and Gorlin are both autosomal-dominant tumor-predisposition phakomatoses driven by loss of a single pathway brake: NF1's neurofibromin loss unleashes Ras, Gorlin's PTCH1 loss unleashes Hedgehog—two pathways, one syndromic logic.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
