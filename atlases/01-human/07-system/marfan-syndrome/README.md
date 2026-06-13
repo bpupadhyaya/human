@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung is an underrecognized Marfan target: weakened connective tissue predisposes to apical blebs and spontaneous pneumothorax (in ~5-10%), and emphysematous changes and restrictive disease from chest-wall deformity (pectus, scoliosis) can further impair breathing."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts build Marfan's failing scaffold: they secrete fibrillin-1 to assemble microfibrils that lend connective tissue elasticity and sequester TGF-β, so FBN1 mutations leave microfibrils defective—weakening aorta, lens zonules and ligaments and unleashing TGF-β."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin shows Marfan's connective-tissue defect: deficient fibrillin-1 microfibrils reduce dermal elasticity, producing striae atrophicae (stretch marks) and sometimes thin, hyperextensible skin—visible clues to a disorder whose real danger lies in the aorta."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Marfan syndrome raises stroke risk through vascular fragility: aortic root disease can throw cardioembolic clots, and the same fibrillin-1 weakness predisposes to cervical artery dissection—so an aortic disease can also strike the brain."
 ---
 
 # Marfan Syndrome
@@ -214,6 +223,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The cardiovascular system carries Marfan's lethal risk: fibrillin-1 deficiency weakens the aortic media, so progressive aortic-root dilatation leads to dissection or rupture—the main cause of death—while mitral valve prolapse adds regurgitation; β-blockers/ARBs and surgery help.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Marfan is a disease of the aortic smooth-muscle-cell environment: fibrillin-1 loss frees excess TGF-β in the media, so vascular smooth muscle cells lose elastic-fiber anchorage and undergo apoptosis and phenotype switching—weakening the aortic wall toward aneurysm and dissection.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is an underrecognized Marfan target: weakened connective tissue predisposes to apical blebs and spontaneous pneumothorax (in ~5-10%), and emphysematous changes and restrictive disease from chest-wall deformity (pectus, scoliosis) can further impair breathing.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts build Marfan's failing scaffold: they secrete fibrillin-1 to assemble microfibrils that lend connective tissue elasticity and sequester TGF-β, so FBN1 mutations leave microfibrils defective—weakening aorta, lens zonules and ligaments and unleashing TGF-β.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin shows Marfan's connective-tissue defect: deficient fibrillin-1 microfibrils reduce dermal elasticity, producing striae atrophicae (stretch marks) and sometimes thin, hyperextensible skin—visible clues to a disorder whose real danger lies in the aorta.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Marfan syndrome raises stroke risk through vascular fragility: aortic root disease can throw cardioembolic clots, and the same fibrillin-1 weakness predisposes to cervical artery dissection—so an aortic disease can also strike the brain.
 
 ---
 

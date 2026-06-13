@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/diffuse-midline-glioma
     relation: connects-to
     note: "Medulloblastoma and diffuse midline glioma are the major malignant pediatric brain tumors but differ: medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy, while DMG is an unresectable, fatal H3 K27M brainstem glioma."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Medulloblastoma links to FAP through Turcot syndrome: germline APC loss that drives colonic polyposis also activates Wnt/β-catenin in the cerebellum, producing WNT-subgroup medulloblastoma—the same pathway connecting a gut cancer syndrome to a brain tumor."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Medulloblastoma and neuroblastoma are both embryonal childhood tumors that look alike as 'small round blue cells' but differ in origin: medulloblastoma from cerebellar progenitors, neuroblastoma from peripheral sympathetic neuroblasts—CNS versus sympathetic chain."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Medulloblastoma and rhabdomyosarcoma are both small-round-blue-cell embryonal tumors told apart by immunohistochemistry: medulloblastoma expresses neuronal markers (synaptophysin), rhabdomyosarcoma skeletal-muscle markers (desmin, myogenin)—same look, different lineage."
 ---
 
 # Medulloblastoma
@@ -205,6 +214,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Craniospinal radiotherapy is central to medulloblastoma treatment: because the tumor seeds the CSF and drops spinal metastases, photon or proton irradiation of the whole brain and spinal axis follows surgery—curative for many but neurocognitively toxic in children.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Medulloblastoma is part of several cancer-predisposition syndromes: germline DICER1 loss can produce a medulloblastoma-like embryonal CNS tumor, as Gorlin (PTCH1) drives SHH-subtype and Li-Fraumeni (TP53) high-risk disease—so syndromic testing is warranted.
 - `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — Medulloblastoma and diffuse midline glioma are the major malignant pediatric brain tumors but differ: medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy, while DMG is an unresectable, fatal H3 K27M brainstem glioma.
+- `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Medulloblastoma links to FAP through Turcot syndrome: germline APC loss that drives colonic polyposis also activates Wnt/β-catenin in the cerebellum, producing WNT-subgroup medulloblastoma—the same pathway connecting a gut cancer syndrome to a brain tumor.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Medulloblastoma and neuroblastoma are both embryonal childhood tumors that look alike as 'small round blue cells' but differ in origin: medulloblastoma from cerebellar progenitors, neuroblastoma from peripheral sympathetic neuroblasts—CNS versus sympathetic chain.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Medulloblastoma and rhabdomyosarcoma are both small-round-blue-cell embryonal tumors told apart by immunohistochemistry: medulloblastoma expresses neuronal markers (synaptophysin), rhabdomyosarcoma skeletal-muscle markers (desmin, myogenin)—same look, different lineage.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
