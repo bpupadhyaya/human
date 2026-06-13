@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes are active players in epilepsy, not bystanders: reactive astrogliosis impairs glutamate and potassium buffering and disrupts the blood-brain barrier, lowering seizure threshold; aberrant gap-junction coupling and inflammation sustain epileptogenesis."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Epilepsy and autism frequently co-occur and share biology: up to a third of autistic people have epilepsy, and both arise from disrupted excitation/inhibition balance and overlap in genes like SCN, TSC, and SHANK—often the same neurodevelopmental lesion."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Seizures are the commonest first sign of an IDH-mutant glioma: these slow-growing cortical tumors irritate neurons (partly via the oncometabolite 2-hydroxyglutarate altering glutamate), so new focal epilepsy in a young adult should prompt imaging for a low-grade glioma."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Epilepsy and depression have a bidirectional relationship: depression is the commonest psychiatric comorbidity of epilepsy and also raises the risk of developing it, shared limbic and serotonergic mechanisms link them, and depression strongly degrades quality of life."
 ---
 
 # Epilepsy
@@ -235,6 +244,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Tuberous sclerosis is a paradigmatic genetic epilepsy: cortical tubers and TSC1/TSC2-driven mTOR overactivation cause early, often drug-resistant seizures (including infantile spasms), so mTOR inhibitors (everolimus) reduce seizures and early EEG-guided treatment is studied.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Stroke is a leading cause of acquired epilepsy in older adults: cortical infarcts and hemorrhages leave a gliotic, hyperexcitable scar that generates late-onset focal seizures months to years later; post-stroke epilepsy worsens outcomes and is managed with antiseizure medication.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes are active players in epilepsy, not bystanders: reactive astrogliosis impairs glutamate and potassium buffering and disrupts the blood-brain barrier, lowering seizure threshold; aberrant gap-junction coupling and inflammation sustain epileptogenesis.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Epilepsy and autism frequently co-occur and share biology: up to a third of autistic people have epilepsy, and both arise from disrupted excitation/inhibition balance and overlap in genes like SCN, TSC, and SHANK—often the same neurodevelopmental lesion.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Seizures are the commonest first sign of an IDH-mutant glioma: these slow-growing cortical tumors irritate neurons (partly via the oncometabolite 2-hydroxyglutarate altering glutamate), so new focal epilepsy in a young adult should prompt imaging for a low-grade glioma.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Epilepsy and depression have a bidirectional relationship: depression is the commonest psychiatric comorbidity of epilepsy and also raises the risk of developing it, shared limbic and serotonergic mechanisms link them, and depression strongly degrades quality of life.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

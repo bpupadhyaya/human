@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Endometrial and colorectal cancer are the defining Lynch-syndrome malignancies: germline mismatch-repair mutations (MLH1, MSH2/6, PMS2) drive microsatellite instability in both, endometrial cancer is often the sentinel cancer in women, and MSI-high tumors take immunotherapy."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Cowden syndrome is a hereditary cause of endometrial cancer: germline PTEN loss unleashes PI3K/mTOR signaling in the endometrium—the pathway mutated in most sporadic endometrioid tumors—so PTEN carriers face raised endometrial, breast, and thyroid cancer risk."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type 2 diabetes and endometrial cancer are tied via obesity and hyperinsulinemia: excess insulin and adipose estrogen stimulate endometrial proliferation, so diabetic, obese women face much higher endometrial cancer risk—metformin is studied as prevention."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Mismatch-repair-deficient (MSI-high) endometrial cancer is highly immunotherapy-responsive: defective DNA repair generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (dostarlimab, pembrolizumab) has transformed treatment of dMMR endometrial tumors."
 ---
 
 # Endometrial Cancer
@@ -196,6 +205,9 @@ cross_links:
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Endometrial and breast cancers are linked estrogen-driven cancers: unopposed estrogen and obesity raise risk of both, and tamoxifen used for breast cancer acts as a uterine estrogen agonist that increases endometrial cancer risk—so bleeding on tamoxifen warrants evaluation.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Endometrial and ovarian cancers frequently co-occur: ~10% of endometrioid endometrial cancers have a synchronous endometrioid ovarian primary, and both are core Lynch-syndrome tumors from mismatch-repair deficiency—so MMR/MSI testing and gynecologic surveillance span the two.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Endometrial and colorectal cancer are the defining Lynch-syndrome malignancies: germline mismatch-repair mutations (MLH1, MSH2/6, PMS2) drive microsatellite instability in both, endometrial cancer is often the sentinel cancer in women, and MSI-high tumors take immunotherapy.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Cowden syndrome is a hereditary cause of endometrial cancer: germline PTEN loss unleashes PI3K/mTOR signaling in the endometrium—the pathway mutated in most sporadic endometrioid tumors—so PTEN carriers face raised endometrial, breast, and thyroid cancer risk.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes and endometrial cancer are tied via obesity and hyperinsulinemia: excess insulin and adipose estrogen stimulate endometrial proliferation, so diabetic, obese women face much higher endometrial cancer risk—metformin is studied as prevention.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Mismatch-repair-deficient (MSI-high) endometrial cancer is highly immunotherapy-responsive: defective DNA repair generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (dostarlimab, pembrolizumab) has transformed treatment of dMMR endometrial tumors.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
