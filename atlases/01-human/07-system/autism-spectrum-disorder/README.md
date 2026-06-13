@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Microglia are implicated in autism's altered brain wiring: as the synaptic pruners of development, dysregulated microglia may leave excess or aberrant synapses, and signs of neuroinflammation in autistic brains point to immune-neural crosstalk in early circuit formation."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Autism is linked to the gut-brain axis: many autistic people have GI symptoms and altered gut microbiomes, and microbial metabolites may influence behavior and neurodevelopment—an area of intense (if still unproven) research into diet and microbiome interventions."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes contribute to autism's altered brain wiring: beyond neurons, dysfunctional astrocytes disturb synapse formation, glutamate handling and neuroinflammation, supporting a view of autism as a disorder of brain connectivity."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Autism and anxiety disorders very frequently co-occur: a large share of autistic people have generalized anxiety, which intensifies sensory sensitivities and rigidity—so screening for and treating anxiety is central to autism care."
 ---
 
 # Autism Spectrum Disorder
@@ -232,6 +241,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Autism and schizophrenia share neurodevelopmental origins and genetics: overlapping copy-number variants (22q11, 16p11) and synaptic genes underlie both, on a continuum of early brain miswiring—though autism presents in childhood and schizophrenia in late adolescence.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Autism and OCD share repetitive behavior but differ in drive: autistic repetitive behaviors are self-soothing and not unwanted, while OCD compulsions relieve ego-dystonic obsessions—yet the two co-occur, so telling comforting routine from distressing ritual guides care.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia are implicated in autism's altered brain wiring: as the synaptic pruners of development, dysregulated microglia may leave excess or aberrant synapses, and signs of neuroinflammation in autistic brains point to immune-neural crosstalk in early circuit formation.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Autism is linked to the gut-brain axis: many autistic people have GI symptoms and altered gut microbiomes, and microbial metabolites may influence behavior and neurodevelopment—an area of intense (if still unproven) research into diet and microbiome interventions.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes contribute to autism's altered brain wiring: beyond neurons, dysfunctional astrocytes disturb synapse formation, glutamate handling and neuroinflammation, supporting a view of autism as a disorder of brain connectivity.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Autism and anxiety disorders very frequently co-occur: a large share of autistic people have generalized anxiety, which intensifies sensory sensitivities and rigidity—so screening for and treating anxiety is central to autism care.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
