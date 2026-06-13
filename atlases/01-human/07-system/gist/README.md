@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "GIST is the commonest mesenchymal tumor of the digestive system: it arises from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from esophagus to rectum (most often stomach), and its KIT/PDGFRA mutations made it the model disease for imatinib."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Gastric cancer and GIST are the stomach's two principal tumors but biologically opposite: gastric carcinoma is an epithelial adenocarcinoma (H. pylori, CDH1), while GIST is a mesenchymal KIT-driven tumor of Cajal cells—imatinib transforms GIST, not carcinoma."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "GIST and synovial sarcoma are mesenchymal tumors each defined by a single driver: GIST by activating KIT/PDGFRA mutations (targetable with imatinib), synovial sarcoma by the SS18-SSX fusion—proof that one genetic lesion can define, and for GIST drug, a sarcoma."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "GIST and colorectal cancer both occur in the gut wall but from different layers: colorectal cancer arises from mucosal epithelium via APC/Wnt, while GIST grows from KIT-mutant Cajal cells in the muscularis—epithelial carcinoma versus a mesenchymal kinase-driven tumor."
 ---
 
 # GIST
@@ -206,6 +215,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine is the second commonest GIST site after the stomach: arising from interstitial cells of Cajal in the bowel wall, small-bowel GISTs present with occult GI bleeding, anemia or obstruction and are often more aggressive than gastric ones, guiding imatinib therapy.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — GIST links to paraganglioma via the Carney-Stratakis dyad: germline SDH mutations cause SDH-deficient, KIT/PDGFRA-wildtype GISTs together with paragangliomas, a distinct imatinib-resistant subset—so a young patient with GIST plus paraganglioma warrants SDH genetic testing.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — GIST is the commonest mesenchymal tumor of the digestive system: it arises from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from esophagus to rectum (most often stomach), and its KIT/PDGFRA mutations made it the model disease for imatinib.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric cancer and GIST are the stomach's two principal tumors but biologically opposite: gastric carcinoma is an epithelial adenocarcinoma (H. pylori, CDH1), while GIST is a mesenchymal KIT-driven tumor of Cajal cells—imatinib transforms GIST, not carcinoma.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — GIST and synovial sarcoma are mesenchymal tumors each defined by a single driver: GIST by activating KIT/PDGFRA mutations (targetable with imatinib), synovial sarcoma by the SS18-SSX fusion—proof that one genetic lesion can define, and for GIST drug, a sarcoma.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — GIST and colorectal cancer both occur in the gut wall but from different layers: colorectal cancer arises from mucosal epithelium via APC/Wnt, while GIST grows from KIT-mutant Cajal cells in the muscularis—epithelial carcinoma versus a mesenchymal kinase-driven tumor.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells ignite giant-cell arteritis: resident vascular dendritic cells in the artery's adventitia activate and recruit the CD4+ T cells and macrophages that form the granulomas and giant cells, making them the proposed initiator of the arterial attack."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Giant cell arteritis and rheumatoid arthritis are both IL-6-driven autoimmune diseases of older adults that respond to tocilizumab: GCA inflames large arteries while RA destroys synovial joints—shared cytokine biology lets one biologic treat both."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "IL-12 helps polarize the T-cell response in giant cell arteritis: dendritic cells in the arterial wall secrete IL-12 to push T cells toward Th1, generating IFN-γ-producing cells whose granulomatous infiltrate, with giant cells, destroys the artery's elastic lamina."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "JAK-STAT signaling is a therapeutic target in giant cell arteritis: the IL-6 and IFN-γ driving arterial inflammation act through JAK kinases, so JAK inhibitors are in trials to spare steroids—linking GCA to the node mutated in myeloproliferative disease."
 ---
 
 # Giant Cell Arteritis
@@ -190,6 +199,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sudden permanent blindness is the feared emergency of giant-cell arteritis: inflammatory occlusion of the posterior ciliary arteries causes anterior ischemic optic neuropathy, often after jaw claudication and amaurosis fugax; suspected GCA gets immediate high-dose steroids.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Giant-cell arteritis is a large-vessel vasculitis of the cardiovascular system: granulomatous inflammation of the aorta and its branches can cause aneurysm, dissection and arm claudication years after the cranial phase, so long-term vascular imaging surveillance is recommended.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells ignite giant-cell arteritis: resident vascular dendritic cells in the artery's adventitia activate and recruit the CD4+ T cells and macrophages that form the granulomas and giant cells, making them the proposed initiator of the arterial attack.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Giant cell arteritis and rheumatoid arthritis are both IL-6-driven autoimmune diseases of older adults that respond to tocilizumab: GCA inflames large arteries while RA destroys synovial joints—shared cytokine biology lets one biologic treat both.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 helps polarize the T-cell response in giant cell arteritis: dendritic cells in the arterial wall secrete IL-12 to push T cells toward Th1, generating IFN-γ-producing cells whose granulomatous infiltrate, with giant cells, destroys the artery's elastic lamina.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK-STAT signaling is a therapeutic target in giant cell arteritis: the IL-6 and IFN-γ driving arterial inflammation act through JAK kinases, so JAK inhibitors are in trials to spare steroids—linking GCA to the node mutated in myeloproliferative disease.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
