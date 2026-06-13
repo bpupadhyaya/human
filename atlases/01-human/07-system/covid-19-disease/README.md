@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/03-molecular/sars-cov-2-spike
     relation: connects-to
     note: "SARS-CoV-2 Spike is the COVID-19 vaccine antigen; RBD:ACE2 binding (Kd ~15 nM) initiates infection of airway epithelium and type II pneumocytes; Spike-mediated ACE2 internalization amplifies ARDS; 2P-stabilized prefusion Spike is the basis of all approved mRNA vaccines."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "COVID-19 and RSV are enveloped respiratory RNA viruses driving the seasonal lower-respiratory burden alongside influenza; both cause bronchiolitis/pneumonia at the extremes of age, both are now vaccine-preventable in older adults, and multiplex panels distinguish them."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "COVID-19 and influenza are the dominant pandemic-capable respiratory viruses—overlapping fever, cough and pneumonia but distinct treatments (nirmatrelvir/remdesivir vs oseltamivir/baloxavir); co-circulation strains health systems and both have annually updated vaccines."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "SARS-CoV-2 targets ACE2-expressing alveolar type II pneumocytes: infection destroys these surfactant-producing progenitor cells → alveolar collapse, hyaline membranes and diffuse alveolar damage → ARDS; their loss impairs lung repair and underlies severe COVID-19 hypoxemia."
   - target: 03-medicine/01-modern/12-anti-inflammatory/dexamethasone
     relation: treated-by
     note: "RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen."
@@ -128,6 +137,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[SARS-CoV-2 Spike](../../03-molecular/sars-cov-2-spike/README.md)** — Spike is the primary COVID-19 vaccine antigen; RBD:ACE2 binding initiates infection; Spike-mediated ACE2 internalization amplifies ARDS; 2P prefusion-stabilized Spike is the basis of all approved mRNA vaccines; Omicron BA.1's 37 Spike mutations drive extensive immune escape.
 - `treated-by` → **[Dexamethasone](../../03-medicine/01-modern/12-anti-inflammatory/dexamethasone/README.md)** — RECOVERY trial (Horby 2021): 6 mg OD × 10 days reduced 28-day mortality by 17% (RR 0.83) in patients requiring oxygen; 29% mortality reduction in mechanically ventilated patients; no benefit in those not requiring supplemental oxygen.
 - `treated-by` → **[Corticosteroids](../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — RECOVERY trial (2021): dexamethasone 6 mg/d × 10 days; 36% mortality reduction in mechanically ventilated patients (RR 0.64); 18% reduction in those requiring supplemental oxygen; mechanism: GR:NF-κB transrepression of pro-inflammatory cytokine genes.
+- `connects-to` → **[RSV](../rsv/README.md)** — COVID-19 and RSV are enveloped respiratory RNA viruses driving the seasonal lower-respiratory burden alongside influenza; both cause bronchiolitis/pneumonia at the extremes of age, both are now vaccine-preventable in older adults, and multiplex panels distinguish them.
+- `connects-to` → **[Influenza](../influenza/README.md)** — COVID-19 and influenza are the dominant pandemic-capable respiratory viruses—overlapping fever, cough and pneumonia but distinct treatments (nirmatrelvir/remdesivir vs oseltamivir/baloxavir); co-circulation strains health systems and both have annually updated vaccines.
+- `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — SARS-CoV-2 targets ACE2-expressing alveolar type II pneumocytes: infection destroys these surfactant-producing progenitor cells → alveolar collapse, hyaline membranes and diffuse alveolar damage → ARDS; their loss impairs lung repair and underlies severe COVID-19 hypoxemia.
 
 ## Pathology
 

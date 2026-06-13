@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "Severe RSV bronchiolitis in infancy is the strongest environmental risk factor for childhood asthma: epithelial damage releases IL-33 and TSLP that activate ILC2s toward type-2 inflammation, biasing the developing airway toward allergic sensitization and recurrent wheeze."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "RSV and COVID-19 are enveloped respiratory RNA viruses that with influenza drive seasonal lower-respiratory disease; both cause bronchiolitis/pneumonia at the extremes of age, both evade interferon, and both are now vaccine-preventable in older adults."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "RSV is a major trigger of COPD exacerbations: it infects airway epithelium → neutrophilic inflammation and bronchospasm → acute decompensation, and is found in a substantial share of hospitalized exacerbations; older-adult RSV vaccines (Arexvy, Abrysvo) reduce this burden."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "RSV infects airway epithelium and alveolar pneumocytes including type II cells: replication plus NS1/NS2 interferon evasion drives epithelial necrosis, sloughing and syncytia that plug bronchioles → the airway obstruction of infant bronchiolitis and impaired surfactant."
 ---
 
 # RSV
@@ -202,3 +211,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Respiratory Syncytial Virus](../../../02-pathogen/01-viruses/respiratory-syncytial-virus/README.md)** — Respiratory syncytial virus, a negative-sense RNA pneumovirus, fuses airway cells into syncytia and blunts interferon with NS1/NS2; it reinfects throughout life because the G protein varies and memory is short, yet prefusion-F antibodies and vaccines now prevent severe disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — RSV is the top cause of infant bronchiolitis and a major cause of pneumonia in the elderly and immunocompromised: it infects ciliated airway epithelium, sloughing cells and plugging small airways with mucus → air trapping, hypoxia, and wheeze; care is supportive.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Severe RSV bronchiolitis in infancy is the strongest environmental risk factor for childhood asthma: epithelial damage releases IL-33 and TSLP that activate ILC2s toward type-2 inflammation, biasing the developing airway toward allergic sensitization and recurrent wheeze.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — RSV and COVID-19 are enveloped respiratory RNA viruses that with influenza drive seasonal lower-respiratory disease; both cause bronchiolitis/pneumonia at the extremes of age, both evade interferon, and both are now vaccine-preventable in older adults.
+- `connects-to` → **[COPD](../copd/README.md)** — RSV is a major trigger of COPD exacerbations: it infects airway epithelium → neutrophilic inflammation and bronchospasm → acute decompensation, and is found in a substantial share of hospitalized exacerbations; older-adult RSV vaccines (Arexvy, Abrysvo) reduce this burden.
+- `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — RSV infects airway epithelium and alveolar pneumocytes including type II cells: replication plus NS1/NS2 interferon evasion drives epithelial necrosis, sloughing and syncytia that plug bronchioles → the airway obstruction of infant bronchiolitis and impaired surfactant.
