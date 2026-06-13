@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Optic neuritis is a defining NMOSD attack and is far more destructive than in MS: patients lose vision often to light-perception or worse, recover poorly, and show severe retinal nerve fiber layer thinning on OCT; bilateral or chiasmal involvement favours NMOSD over MS."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "NMOSD and West Nile virus both attack the cord to cause myelitis but by opposite routes: NMOSD is autoimmune AQP4-IgG complement attack on astrocytes, while WNV is a neurotropic flavivirus infecting anterior-horn neurons → acute flaccid paralysis."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "NMOSD is antibody-driven: CD19+ plasmablasts produce the pathogenic AQP4-IgG and IL-6 sustains them; this B-cell dependence is why anti-CD20 (rituximab) and anti-CD19 (inebilizumab) deplete B cells and anti-IL-6R (satralizumab) work, while T-cell-directed MS drugs fail."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "NMOSD frequently coexists with systemic autoimmunity, especially Sjögren's and lupus: AQP4-IgG-positive patients often carry anti-Ro/SSA, anti-La or ANA, and the myelitis/optic neuritis is the neurological face of NMOSD, not a direct effect of the connective-tissue disease."
 ---
 
 # NMOSD
@@ -217,6 +226,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — NMOSD is an astrocytopathy: AQP4-IgG binds the aquaporin-4 channels clustered on astrocyte endfeet → classical complement → membrane-attack complex → astrocyte lysis, and only then does secondary demyelination follow — unlike multiple sclerosis, where myelin is hit first.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — NMOSD was long mistaken for multiple sclerosis until AQP4-IgG split them apart; NMOSD brings more severe, longitudinally extensive cord lesions and complete optic neuritis, lacks CSF oligoclonal bands, and crucially is worsened by the interferon-β and natalizumab that treat MS.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Optic neuritis is a defining NMOSD attack and is far more destructive than in MS: patients lose vision often to light-perception or worse, recover poorly, and show severe retinal nerve fiber layer thinning on OCT; bilateral or chiasmal involvement favours NMOSD over MS.
+- `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — NMOSD and West Nile virus both attack the cord to cause myelitis but by opposite routes: NMOSD is autoimmune AQP4-IgG complement attack on astrocytes, while WNV is a neurotropic flavivirus infecting anterior-horn neurons → acute flaccid paralysis.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — NMOSD is antibody-driven: CD19+ plasmablasts produce the pathogenic AQP4-IgG and IL-6 sustains them; this B-cell dependence is why anti-CD20 (rituximab) and anti-CD19 (inebilizumab) deplete B cells and anti-IL-6R (satralizumab) work, while T-cell-directed MS drugs fail.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — NMOSD frequently coexists with systemic autoimmunity, especially Sjögren's and lupus: AQP4-IgG-positive patients often carry anti-Ro/SSA, anti-La or ANA, and the myelitis/optic neuritis is the neurological face of NMOSD, not a direct effect of the connective-tissue disease.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Once West Nile virus reaches the CNS, microglia and astrocytes mount the neuroinflammatory response that limits viral spread but also contributes to encephalitic injury; CCR5-dependent leukocyte recruitment is protective, and CCR5Δ32 homozygotes fare worse."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "West Nile virus and NMOSD can both cause acute myelitis and optic involvement but differ in mechanism: WNV is a neurotropic flavivirus infecting neurons → flaccid paralysis and encephalitis, while NMOSD is autoimmune AQP4-IgG astrocyte injury; AQP4-IgG and CSF tell them apart."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8+ cytotoxic T cells are essential to clear West Nile virus from infected neurons: they enter the CNS and kill virus-laden cells via perforin/granzyme and Fas, controlling infection but also adding immunopathology; deficient CD8 responses predict severe neuroinvasive disease."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes shape West Nile CNS disease: WNV infects them, and their cytokine output (CXCL10, IL-6) both recruits protective leukocytes and helps open the blood-brain barrier that lets virus and immune cells in; astrocyte responses balance viral control against injury."
 ---
 
 # West Nile Virus
@@ -178,3 +187,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — About 1 in 150 symptomatic West Nile infections becomes neuroinvasive disease — the leading cause of viral encephalitis in North America — as meningitis, encephalitis with Parkinsonian signs, or poliomyelitis-like flaccid paralysis; the elderly are most at risk.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — West Nile virus is neurotropic, replicating in neurons after crossing the blood-brain barrier; its tropism for anterior-horn motor neurons produces an asymmetric flaccid paralysis resembling polio, while hippocampal infection drives encephalitis.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Once West Nile virus reaches the CNS, microglia and astrocytes mount the neuroinflammatory response that limits viral spread but also contributes to encephalitic injury; CCR5-dependent leukocyte recruitment is protective, and CCR5Δ32 homozygotes fare worse.
+- `connects-to` → **[NMOSD](../nmo/README.md)** — West Nile virus and NMOSD can both cause acute myelitis and optic involvement but differ in mechanism: WNV is a neurotropic flavivirus infecting neurons → flaccid paralysis and encephalitis, while NMOSD is autoimmune AQP4-IgG astrocyte injury; AQP4-IgG and CSF tell them apart.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8+ cytotoxic T cells are essential to clear West Nile virus from infected neurons: they enter the CNS and kill virus-laden cells via perforin/granzyme and Fas, controlling infection but also adding immunopathology; deficient CD8 responses predict severe neuroinvasive disease.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape West Nile CNS disease: WNV infects them, and their cytokine output (CXCL10, IL-6) both recruits protective leukocytes and helps open the blood-brain barrier that lets virus and immune cells in; astrocyte responses balance viral control against injury.
