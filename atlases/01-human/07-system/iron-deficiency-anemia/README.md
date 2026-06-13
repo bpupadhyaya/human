@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/07-system/thalassemia
     relation: connects-to
     note: "Iron-deficiency anemia and thalassemia trait are the classic microcytic-anemia differentials: both lower MCV, but IDA shows low ferritin and high RDW while thalassemia has normal/high iron and raised HbA2—crucially, giving iron to thalassemia trait misdiagnosed as IDA is harmful."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Iron deficiency is the commonest systemic complication of inflammatory bowel disease: chronic gut bleeding plus impaired absorption and inflammation-raised hepcidin deplete iron, so IBD anemia is typically mixed iron-deficiency and chronic-disease anemia, often needing IV iron."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Iron deficiency anemia in an older adult is a red flag for GI malignancy including gastric cancer: chronic occult blood loss from an ulcerating tumor depletes iron, so unexplained iron-deficiency anemia mandates upper and lower endoscopy to exclude gastric or colorectal cancer."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Heavy menstrual bleeding makes iron deficiency anemia the commonest anemia in women of reproductive age: monthly blood loss, plus the iron demands of pregnancy, outpaces dietary intake—so menorrhagia and pregnancy are leading causes of iron deficiency worldwide."
 ---
 
 # Iron Deficiency Anemia
@@ -190,6 +199,9 @@ Iron is essential for:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — IDA and anemia of chronic disease are the two commonest anemias and key differentials: both can be microcytic with low serum iron, but IDA has low ferritin and high transferrin from true iron lack, while ACD has normal/high ferritin with hepcidin-locked iron; they often coexist.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Iron deficiency starves erythropoiesis of heme: developing red cells undergo extra divisions, producing small (microcytic), pale (hypochromic) erythrocytes with raised red-cell distribution width; the low hemoglobin defines the anemia, and iron repletion restores red-cell size.
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Iron-deficiency anemia and thalassemia trait are the classic microcytic-anemia differentials: both lower MCV, but IDA shows low ferritin and high RDW while thalassemia has normal/high iron and raised HbA2—crucially, giving iron to thalassemia trait misdiagnosed as IDA is harmful.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Iron deficiency is the commonest systemic complication of inflammatory bowel disease: chronic gut bleeding plus impaired absorption and inflammation-raised hepcidin deplete iron, so IBD anemia is typically mixed iron-deficiency and chronic-disease anemia, often needing IV iron.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Iron deficiency anemia in an older adult is a red flag for GI malignancy including gastric cancer: chronic occult blood loss from an ulcerating tumor depletes iron, so unexplained iron-deficiency anemia mandates upper and lower endoscopy to exclude gastric or colorectal cancer.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Heavy menstrual bleeding makes iron deficiency anemia the commonest anemia in women of reproductive age: monthly blood loss, plus the iron demands of pregnancy, outpaces dietary intake—so menorrhagia and pregnancy are leading causes of iron deficiency worldwide.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

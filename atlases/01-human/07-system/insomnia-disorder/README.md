@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Insomnia and generalized anxiety reinforce each other: anxious hyperarousal and rumination make sleep hard, while the resulting sleep loss heightens next-day anxiety; both share elevated cortisol and noradrenergic tone, and CBT-I plus anxiety treatment address the loop."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Insomnia and narcolepsy are opposite faces of sleep-wake regulation: insomnia is inability to sleep from a hyperaroused, orexin-active state, while narcolepsy is sleepiness from orexin loss—the orexin system that keeps insomniacs awake fails in narcolepsy."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Insomnia is a core and often presenting symptom of PTSD: hyperarousal and trauma nightmares fragment sleep, persistent insomnia predicts and perpetuates PTSD, and treating the sleep disturbance (CBT-I, prazosin for nightmares) improves overall PTSD outcomes."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Sleep is tightly bound to bipolar disorder: insomnia and a reduced need for sleep often herald or trigger mania, while hypersomnia accompanies depression, and stabilizing sleep and circadian rhythm is central to preventing mood episodes."
 ---
 
 # Insomnia Disorder
@@ -220,6 +229,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — REM sleep behavior disorder—dream-enactment from lost REM atonia—is a powerful early marker of Lewy body dementia and other synucleinopathies, often preceding them by years; LBD also fragments sleep with daytime sleepiness, so these complaints warrant neuro evaluation.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Insomnia and depression are deeply intertwined and bidirectional: insomnia is both a symptom and an independent risk factor for new and recurrent depression, the two share monoaminergic and HPA-axis dysregulation, and treating insomnia (CBT-I) improves depression outcomes.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Insomnia and generalized anxiety reinforce each other: anxious hyperarousal and rumination make sleep hard, while the resulting sleep loss heightens next-day anxiety; both share elevated cortisol and noradrenergic tone, and CBT-I plus anxiety treatment address the loop.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Insomnia and narcolepsy are opposite faces of sleep-wake regulation: insomnia is inability to sleep from a hyperaroused, orexin-active state, while narcolepsy is sleepiness from orexin loss—the orexin system that keeps insomniacs awake fails in narcolepsy.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Insomnia is a core and often presenting symptom of PTSD: hyperarousal and trauma nightmares fragment sleep, persistent insomnia predicts and perpetuates PTSD, and treating the sleep disturbance (CBT-I, prazosin for nightmares) improves overall PTSD outcomes.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Sleep is tightly bound to bipolar disorder: insomnia and a reduced need for sleep often herald or trigger mania, while hypersomnia accompanies depression, and stabilizing sleep and circadian rhythm is central to preventing mood episodes.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
