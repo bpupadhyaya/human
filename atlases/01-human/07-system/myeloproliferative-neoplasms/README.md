@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Overproduction of red cells defines polycythemia vera within the MPN family: JAK2-driven erythroid expansion thickens the blood and raises clot risk, illustrating how each MPN over-makes one lineage—red cells here, platelets in ET, fibrosis in myelofibrosis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Myeloproliferative neoplasms overproduce mature myeloid cells including neutrophils: the JAK2/CALR/MPL-driven clone expands granulocytes along with red cells and platelets, so leukocytosis is common and itself contributes to the thrombotic risk that defines MPN morbidity."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Thrombosis is the leading complication of myeloproliferative neoplasms: thick, sticky blood from excess cells and an activated, inflammatory clone causes arterial events including stroke, so cytoreduction and antiplatelet therapy aim to prevent these clots."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Myeloproliferative neoplasms classically cause splanchnic vein thrombosis: the prothrombotic clone clots the hepatic or portal veins (Budd-Chiari), so unexplained abdominal-vein thrombosis should prompt JAK2 testing—sometimes the first sign of an occult MPN."
 ---
 
 # Myeloproliferative Neoplasms
@@ -243,6 +252,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[CALR](../../03-molecular/calr/README.md)** — CALR mutation is a major MPN driver alongside JAK2: in JAK2-negative essential thrombocythemia and myelofibrosis, calreticulin mutations activate the same thrombopoietin-receptor pathway, so CALR testing completes the molecular workup of myeloproliferative neoplasms.
 - `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — MPL, the thrombopoietin receptor, is the third classic MPN driver: activating MPL mutations switch on JAK-STAT signaling in a minority of essential thrombocythemia and myelofibrosis, so JAK2, CALR and MPL together explain most myeloproliferative neoplasms.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Overproduction of red cells defines polycythemia vera within the MPN family: JAK2-driven erythroid expansion thickens the blood and raises clot risk, illustrating how each MPN over-makes one lineage—red cells here, platelets in ET, fibrosis in myelofibrosis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Myeloproliferative neoplasms overproduce mature myeloid cells including neutrophils: the JAK2/CALR/MPL-driven clone expands granulocytes along with red cells and platelets, so leukocytosis is common and itself contributes to the thrombotic risk that defines MPN morbidity.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Thrombosis is the leading complication of myeloproliferative neoplasms: thick, sticky blood from excess cells and an activated, inflammatory clone causes arterial events including stroke, so cytoreduction and antiplatelet therapy aim to prevent these clots.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Myeloproliferative neoplasms classically cause splanchnic vein thrombosis: the prothrombotic clone clots the hepatic or portal veins (Budd-Chiari), so unexplained abdominal-vein thrombosis should prompt JAK2 testing—sometimes the first sign of an occult MPN.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

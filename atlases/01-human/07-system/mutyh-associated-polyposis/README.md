@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "MAP tumors progress through the usual colorectal genes: MUTYH loss seeds characteristic G-to-T transversions in APC and KRAS, and TP53 loss later drives invasion—so a base-excision-repair defect feeds the standard adenoma-carcinoma mutation sequence."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "MUTYH-associated polyposis predisposes across the digestive tract: biallelic MUTYH loss seeds adenomatous polyps and cancer in the colon plus duodenal and gastric tumors, so it is managed like a milder, recessive cousin of FAP with GI surveillance."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MAP is fundamentally a failure to repair oxidative DNA damage: MUTYH normally excises adenine mispaired with 8-oxoguanine, the lesion left when reactive oxygen attacks DNA, so its loss lets oxygen-driven G:C-to-T:A mutations accumulate and seed polyps."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "MAP raises risk beyond the gut, including bladder cancer: the same defective oxidative-damage repair predisposes the urothelium, so MUTYH carriers face a modestly increased risk of bladder and other extraintestinal cancers warranting awareness."
 ---
 
 # MUTYH-Associated Polyposis
@@ -216,6 +225,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — MAP carpets the intestinal epithelium with adenomas: defective MUTYH base-excision repair lets oxidative G-to-T mutations accumulate in colonic crypt cells, driving the tens-to-hundreds of polyps—fewer than FAP but on the same adenoma-carcinoma path.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MAP extends beyond the colon to the upper GI tract: like FAP, it raises the risk of duodenal and gastric polyps and cancer, so surveillance includes upper endoscopy—the same MUTYH repair defect mutating epithelium throughout the gut.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — MAP tumors progress through the usual colorectal genes: MUTYH loss seeds characteristic G-to-T transversions in APC and KRAS, and TP53 loss later drives invasion—so a base-excision-repair defect feeds the standard adenoma-carcinoma mutation sequence.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — MUTYH-associated polyposis predisposes across the digestive tract: biallelic MUTYH loss seeds adenomatous polyps and cancer in the colon plus duodenal and gastric tumors, so it is managed like a milder, recessive cousin of FAP with GI surveillance.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MAP is fundamentally a failure to repair oxidative DNA damage: MUTYH normally excises adenine mispaired with 8-oxoguanine, the lesion left when reactive oxygen attacks DNA, so its loss lets oxygen-driven G:C-to-T:A mutations accumulate and seed polyps.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — MAP raises risk beyond the gut, including bladder cancer: the same defective oxidative-damage repair predisposes the urothelium, so MUTYH carriers face a modestly increased risk of bladder and other extraintestinal cancers warranting awareness.
 
 ---
 
