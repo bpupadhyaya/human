@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Generalized anxiety drives and mimics cardiac disease: chronic sympathetic/HPA activation raises heart rate and blood pressure with higher cardiovascular risk, while palpitations and chest tightness send anxious patients to cardiology—telling GAD from heart disease matters."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "GAD and OCD are anxiety-related disorders that often co-occur but differ in form: GAD is diffuse, free-floating worry about everyday matters, while OCD's anxiety is tied to intrusive obsessions relieved by compulsions—both respond to SSRIs and CBT."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Generalized anxiety frequently coexists with bipolar disorder and complicates it: anxiety worsens the course and suicidality, and antidepressants for it can destabilize mood or trigger mania—so anxiety in a bipolar patient is managed cautiously after mood stabilization."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Generalized anxiety and alcohol use disorder form a self-medication cycle: people drink to quiet chronic worry, but alcohol and its withdrawal rebound into worse anxiety, deepening both conditions—so the two strongly co-occur and need concurrent treatment."
 ---
 
 # Generalized Anxiety Disorder
@@ -221,6 +230,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Insomnia and GAD are tightly intertwined: ruminative worry and hyperarousal make sleep hard, and the sleep loss worsens anxiety next day—a bidirectional loop; both share heightened cortisol/noradrenergic tone, and CBT-I plus anxiety treatment help each.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — GAD and PTSD are overlapping stress disorders with shared hypervigilance, sleep disturbance and amygdala-prefrontal dysregulation, but differ in trigger: PTSD follows a defining trauma with re-experiencing and avoidance, while GAD is free-floating worry; they frequently co-occur.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Generalized anxiety drives and mimics cardiac disease: chronic sympathetic/HPA activation raises heart rate and blood pressure with higher cardiovascular risk, while palpitations and chest tightness send anxious patients to cardiology—telling GAD from heart disease matters.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — GAD and OCD are anxiety-related disorders that often co-occur but differ in form: GAD is diffuse, free-floating worry about everyday matters, while OCD's anxiety is tied to intrusive obsessions relieved by compulsions—both respond to SSRIs and CBT.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Generalized anxiety frequently coexists with bipolar disorder and complicates it: anxiety worsens the course and suicidality, and antidepressants for it can destabilize mood or trigger mania—so anxiety in a bipolar patient is managed cautiously after mood stabilization.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Generalized anxiety and alcohol use disorder form a self-medication cycle: people drink to quiet chronic worry, but alcohol and its withdrawal rebound into worse anxiety, deepening both conditions—so the two strongly co-occur and need concurrent treatment.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
