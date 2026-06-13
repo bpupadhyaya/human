@@ -79,6 +79,15 @@ cross_links:
   - target: 03-medicine/01-modern/10-mental-health/fluoxetine
     relation: treated-by
     note: "Fluoxetine is first-line SSRI for MDD (Cipriani 2018 21-drug meta-analysis); onset 4–6 weeks via SERT inhibition → 5-HT desensitization → BDNF/TrkB synaptic plasticity; only SSRI approved for pediatric MDD (age ≥8); effective for acute and maintenance treatment."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Depression shrinks the hippocampus: chronic stress and high cortisol impair hippocampal neurogenesis and reduce its volume, contributing to mood symptoms—and antidepressants that restore neurogenesis help reverse it, linking stress hormones to brain structure."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Depression involves more than neurotransmitter levels at the neuron: impaired synaptic plasticity, dendritic loss and reduced BDNF-driven connectivity underlie it, which is why rapid agents like ketamine that regrow synapses lift mood faster than monoamine drugs."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation links the immune system to depression: raised IL-6 and other cytokines accompany many depressions, can cause sickness-behavior low mood, and predict poorer antidepressant response—a subtype where anti-inflammatory strategies are studied."
 ---
 
 # Major Depressive Disorder
@@ -256,6 +265,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Vasopressin](../../../03-molecular/vasopressin/README.md)** — AVP is elevated in PVN and CSF of depressed patients; V1bR co-drives HPA hyperactivation with CRH → excess ACTH and cortisol; V1b antagonist SSR149415 showed antidepressant effects in Phase 2; SSRIs normalise hypersecretion of both CRH and AVP.
 - `connects-to` → **[Leptin](../../../03-molecular/leptin/README.md)** — leptin falls during caloric restriction → ↓POMC → ↓α-MSH → ↓melanocortin tone; hyperleptinemia (obesity) associates with depressive symptoms; LEPR polymorphisms associate with MDD risk; leptin restores BDNF and reverses anhedonia in diet-induced obesity rodent models.
 - `treated-by` → **[Fluoxetine](../../../03-medicine/01-modern/10-mental-health/fluoxetine/README.md)** — first-line SSRI for MDD (Cipriani 2018 21-drug meta-analysis); onset 4–6 weeks via SERT inhibition → 5-HT desensitization → BDNF/TrkB synaptic plasticity; only SSRI approved for pediatric MDD (age ≥8); effective for acute and maintenance treatment.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Depression shrinks the hippocampus: chronic stress and high cortisol impair hippocampal neurogenesis and reduce its volume, contributing to mood symptoms—and antidepressants that restore neurogenesis help reverse it, linking stress hormones to brain structure.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Depression involves more than neurotransmitter levels at the neuron: impaired synaptic plasticity, dendritic loss and reduced BDNF-driven connectivity underlie it, which is why rapid agents like ketamine that regrow synapses lift mood faster than monoamine drugs.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation links the immune system to depression: raised IL-6 and other cytokines accompany many depressions, can cause sickness-behavior low mood, and predict poorer antidepressant response—a subtype where anti-inflammatory strategies are studied.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

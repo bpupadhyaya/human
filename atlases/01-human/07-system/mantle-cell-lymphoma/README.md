@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/hodgkin-lymphoma
     relation: connects-to
     note: "Mantle cell and Hodgkin lymphoma sit at opposite ends of B-cell lymphoma outcomes: Hodgkin's Reed-Sternberg-cell disease is usually curable, while MCL is an aggressive yet incurable t(11;14)-driven lymphoma—molecular drivers, not just lineage, set prognosis."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Mantle cell and Burkitt lymphoma are both aggressive translocation-driven B-cell cancers: MCL's t(11;14) drives cyclin D1, Burkitt's t(8;14) drives MYC—but Burkitt is curable while mantle cell, despite responding initially, relapses and is generally incurable."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Mantle cell lymphoma frequently involves the bone marrow and blood: unlike many lymphomas it is often leukemic at diagnosis, spreading through marrow and the GI tract—so staging includes marrow biopsy, and the widespread disease shapes its aggressive, relapsing course."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Mantle cell lymphoma runs on the cyclin D1-CDK4-RB axis: overexpressed cyclin D1 inactivates RB to force the cell cycle forward, which is why CDK4/6 inhibitors are being tested—targeting the very pathway that the defining t(11;14) translocation unleashes."
 ---
 
 # Mantle Cell Lymphoma
@@ -209,6 +218,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Mantle cell lymphoma is defined by its pre-germinal-center origin: it arises from naive mantle-zone B cells that have not transited the germinal center, so it usually lacks somatic hypermutation—its hallmark is instead t(11;14) cyclin D1 overexpression.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Mantle cell lymphoma and multiple myeloma are both incurable B-lineage cancers treated with proteasome inhibitors: bortezomib works in both, though MCL is a cyclin-D1-driven nodal lymphoma while myeloma is a marrow plasma-cell tumor secreting monoclonal protein.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Mantle cell and Hodgkin lymphoma sit at opposite ends of B-cell lymphoma outcomes: Hodgkin's Reed-Sternberg-cell disease is usually curable, while MCL is an aggressive yet incurable t(11;14)-driven lymphoma—molecular drivers, not just lineage, set prognosis.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Mantle cell and Burkitt lymphoma are both aggressive translocation-driven B-cell cancers: MCL's t(11;14) drives cyclin D1, Burkitt's t(8;14) drives MYC—but Burkitt is curable while mantle cell, despite responding initially, relapses and is generally incurable.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Mantle cell lymphoma frequently involves the bone marrow and blood: unlike many lymphomas it is often leukemic at diagnosis, spreading through marrow and the GI tract—so staging includes marrow biopsy, and the widespread disease shapes its aggressive, relapsing course.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Mantle cell lymphoma runs on the cyclin D1-CDK4-RB axis: overexpressed cyclin D1 inactivates RB to force the cell cycle forward, which is why CDK4/6 inhibitors are being tested—targeting the very pathway that the defining t(11;14) translocation unleashes.
 
 ---
 
