@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/mantle-cell-lymphoma
     relation: connects-to
     note: "PCNSL and mantle cell lymphoma can both involve the CNS: primary CNS lymphoma is a brain-confined DLBCL, while aggressive systemic lymphomas like MCL can spread secondarily to the leptomeninges—so CNS lymphoma may be primary or secondary."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "PCNSL is largely a disease of immune failure: it is far commoner in HIV/AIDS and transplant immunosuppression, where unchecked EBV transforms B cells in the brain—so immune status drives both its incidence and (with immune restoration) sometimes its regression."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "PCNSL arises from a late germinal-center B cell trapped in the CNS: it is a post-germinal-center DLBCL expressing BCL6/IRF4 that, oddly, homes to and grows within the immune-privileged brain—so it shares lymphoma-node biology yet behaves as a CNS tumor."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "MYC and BCL2 co-expression marks aggressive PCNSL: like systemic DLBCL, double-expressor PCNSL carries a worse prognosis, but the blood-brain barrier limits which drugs reach it—so high-dose methotrexate, not standard R-CHOP, anchors treatment."
 ---
 
 # Primary CNS Lymphoma
@@ -201,6 +210,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — PCNSL and glioblastoma are the two great intra-axial brain masses that imaging can confuse: both enhance and infiltrate, but PCNSL is a B-cell lymphoma exquisitely steroid- and methotrexate-sensitive, while GBM needs surgery and chemoradiation—biopsy is decisive.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — PCNSL and meningioma are both intracranial tumors but opposite: PCNSL is an intra-axial B-cell lymphoma treated with methotrexate, while meningioma is an extra-axial dural tumor cured by resection—MRI location usually separates the medical from the surgical disease.
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — PCNSL and mantle cell lymphoma can both involve the CNS: primary CNS lymphoma is a brain-confined DLBCL, while aggressive systemic lymphomas like MCL can spread secondarily to the leptomeninges—so CNS lymphoma may be primary or secondary.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — PCNSL is largely a disease of immune failure: it is far commoner in HIV/AIDS and transplant immunosuppression, where unchecked EBV transforms B cells in the brain—so immune status drives both its incidence and (with immune restoration) sometimes its regression.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — PCNSL arises from a late germinal-center B cell trapped in the CNS: it is a post-germinal-center DLBCL expressing BCL6/IRF4 that, oddly, homes to and grows within the immune-privileged brain—so it shares lymphoma-node biology yet behaves as a CNS tumor.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC and BCL2 co-expression marks aggressive PCNSL: like systemic DLBCL, double-expressor PCNSL carries a worse prognosis, but the blood-brain barrier limits which drugs reach it—so high-dose methotrexate, not standard R-CHOP, anchors treatment.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

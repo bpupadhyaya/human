@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Pemphigus vulgaris and type 1 diabetes are both HLA-associated autoimmune diseases with different effectors: PV is antibody-mediated (anti-desmoglein IgG destroying skin adhesion), while T1DM is T-cell-mediated β-cell destruction—two ends of the autoimmune spectrum."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help break tolerance in pemphigus vulgaris: they present desmoglein peptides to autoreactive T cells that drive B cells to make anti-desmoglein IgG, so the antigen-presentation step sits upstream of the antibodies that blister the skin."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "IL-4 steers pemphigus toward pathogenic IgG4 antibodies: this Th2 cytokine drives the class switch to IgG4 anti-desmoglein-3, the dominant blistering autoantibody, so the Th2 axis shapes which antibody isotype mediates the disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Pemphigus vulgaris attacks mucous membranes including the eye: painful erosions typically start in the mouth and can involve conjunctiva and other mucosae before skin blisters appear—so mucosal, not just cutaneous, lesions define and often herald the disease."
 ---
 
 # Pemphigus Vulgaris
@@ -239,6 +248,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Pemphigus vulgaris reflects failed immune tolerance: regulatory T cells that should suppress desmoglein-reactive B and T cells are deficient, so autoantibodies against keratinocyte adhesion molecules form—restoring Treg control is an experimental therapy.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Pemphigus vulgaris and rheumatoid arthritis are both B-cell-driven autoimmune diseases transformed by rituximab: depleting CD20+ B cells induces durable remission in PV and controls RA—so an anti-B-cell drug links a blistering skin disease to inflammatory arthritis.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Pemphigus vulgaris and type 1 diabetes are both HLA-associated autoimmune diseases with different effectors: PV is antibody-mediated (anti-desmoglein IgG destroying skin adhesion), while T1DM is T-cell-mediated β-cell destruction—two ends of the autoimmune spectrum.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help break tolerance in pemphigus vulgaris: they present desmoglein peptides to autoreactive T cells that drive B cells to make anti-desmoglein IgG, so the antigen-presentation step sits upstream of the antibodies that blister the skin.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 steers pemphigus toward pathogenic IgG4 antibodies: this Th2 cytokine drives the class switch to IgG4 anti-desmoglein-3, the dominant blistering autoantibody, so the Th2 axis shapes which antibody isotype mediates the disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Pemphigus vulgaris attacks mucous membranes including the eye: painful erosions typically start in the mouth and can involve conjunctiva and other mucosae before skin blisters appear—so mucosal, not just cutaneous, lesions define and often herald the disease.
 
 ---
 
