@@ -63,6 +63,15 @@ cross_links:
   - target: 03-medicine/01-modern/05-antiviral/oseltamivir
     relation: treated-by
     note: "Oseltamivir reduces influenza A/B symptom duration by ~17 hours (Dobson meta-analysis, Lancet 2015); reduces hospitalization in high-risk patients (elderly, immunocompromised, pregnant); must be started within 48h of symptom onset for maximal benefit."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Asthma is the commonest chronic disease of the respiratory system's airways: reversible bronchoconstriction and type-2 inflammation narrow the bronchi, causing wheeze and breathlessness—so the conducting airways, not the gas-exchange surface, bear the brunt of asthma."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "COPD is the major irreversible obstructive disease of the respiratory system: smoking-driven inflammation destroys alveoli (emphysema) and scars airways (chronic bronchitis), permanently limiting airflow—the chief cause of chronic respiratory failure in older adults."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Type II pneumocytes keep the respiratory system's gas-exchange surface working: they secrete surfactant that prevents alveolar collapse and act as progenitors regenerating the alveolar lining after injury—so their loss in ARDS and pneumonia drives respiratory failure."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -163,6 +172,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Contains** → [Lung](../../06-organ/lung/README.md): The lungs are the gas-exchange organs, housing the alveolar parenchyma and branching airways.
 - **Part-of** → [Human body](../../08-whole-body/human-body/README.md): The respiratory system is one of eleven major organ systems, interdependent with all others — cardiovascular, nervous, endocrine, immune.
 - **Connects-to** → [Cardiovascular system](../../07-system/cardiovascular-system/README.md): The pulmonary circuit is the anatomical link: deoxygenated blood from the right heart passes through pulmonary capillaries for gas exchange, then oxygenated blood returns to the left heart for systemic distribution. The two systems share the alveolar-capillary interface and cannot be studied or treated in isolation.
+- **Connects-to** → [Asthma](../asthma/README.md): The commonest chronic airway disease of the respiratory system — reversible bronchoconstriction and type-2 inflammation narrow the bronchi, so the conducting airways, not the gas-exchange surface, bear the brunt of asthma.
+- **Connects-to** → [COPD](../copd/README.md): The major irreversible obstructive disease of the respiratory system — smoking-driven inflammation destroys alveoli (emphysema) and scars airways (chronic bronchitis), permanently limiting airflow and causing chronic respiratory failure.
+- **Connects-to** → [Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md): These cells keep the gas-exchange surface working — secreting surfactant that prevents alveolar collapse and acting as progenitors that regenerate the alveolar lining, so their loss in ARDS and pneumonia drives respiratory failure.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.

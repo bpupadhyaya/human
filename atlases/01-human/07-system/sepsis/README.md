@@ -64,6 +64,15 @@ cross_links:
   - target: 03-medicine/01-modern/06-antimicrobial/vancomycin
     relation: treated-by
     note: "Vancomycin is first-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Sepsis is the leading cause of disseminated intravascular coagulation: microbial products trigger tissue-factor expression that consumes clotting factors and platelets, causing simultaneous clotting and bleeding—a marker of severe sepsis and poor prognosis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial dysfunction is the heart of septic shock: inflammatory mediators make endothelial cells leaky and prothrombotic, causing capillary leak, hypotension, and microthrombosis that drive multi-organ failure—the endothelium, not infection alone, sets outcome."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils are double-edged in sepsis: they fight the infection but their NETs and proteases injure host tissue and endothelium, and as sepsis progresses they become dysfunctional (immunoparalysis), so both hyperinflammation and later immunosuppression worsen outcomes."
 ---
 
 # Sepsis
@@ -185,6 +194,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — cTnI and cTnT are elevated in 40-85% of septic patients reflecting cardiomyocyte injury from hypoperfusion, inflammatory cytokines, and ROS; sepsis-induced cardiomyopathy causes new LV dysfunction; troponin elevation in sepsis independently predicts ICU mortality.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — In sepsis, contact activation (FXII → kallikrein → bradykinin) contributes to vascular leak; C1-INH levels fall during severe sepsis from consumption; C1-INH concentrate investigated for sepsis capillary leak; C1-INH inhibits complement and contact activation in septic shock.
 - `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — APC is consumed in sepsis-DIC → protein C levels < 40% predict 28-day mortality; acquired PC deficiency → purpura fulminans; drotrecogin alfa (rhAPC) reduced mortality in PROWESS (2001) but PROWESS-SHOCK (2011) showed no benefit in septic shock → withdrawn 2011.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Sepsis is the leading cause of disseminated intravascular coagulation: microbial products trigger tissue-factor expression that consumes clotting factors and platelets, causing simultaneous clotting and bleeding—a marker of severe sepsis and poor prognosis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial dysfunction is the heart of septic shock: inflammatory mediators make endothelial cells leaky and prothrombotic, causing capillary leak, hypotension, and microthrombosis that drive multi-organ failure—the endothelium, not infection alone, sets outcome.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are double-edged in sepsis: they fight the infection but their NETs and proteases injure host tissue and endothelium, and as sepsis progresses they become dysfunctional (immunoparalysis), so both hyperinflammation and later immunosuppression worsen outcomes.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
