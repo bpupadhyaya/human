@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/cervical-cancer
     relation: connects-to
     note: "Peutz-Jeghers syndrome carries a rare cervical cancer—adenoma malignum (minimal-deviation adenocarcinoma): this deceptively bland, HPV-independent tumor is strongly associated with STK11 loss, so PJS patients warrant gynecologic surveillance for it."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Peutz-Jeghers and Cowden are both hamartomatous polyposis syndromes with different genes: PJS from STK11 loss giving GI hamartomas and mucocutaneous pigmentation, Cowden from PTEN (PI3K-AKT) loss—both fill the gut with hamartomas and raise multi-organ cancer risk."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "Peutz-Jeghers and FAP are inherited polyposis syndromes with opposite polyp types: PJS produces hamartomatous polyps from STK11 loss, while FAP produces hundreds of adenomatous polyps from APC loss with near-certain colorectal cancer—hamartoma versus adenoma."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Peutz-Jeghers raises gastric as well as colorectal cancer risk: STK11 loss seeds hamartomatous polyps throughout the stomach and small bowel that can bleed, obstruct or harbor dysplasia, so upper-GI surveillance accompanies colonoscopy in PJS patients from childhood."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -199,6 +208,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Peutz-Jeghers and juvenile polyposis are the two main hamartomatous polyposis syndromes: PJS (STK11) produces arborizing smooth-muscle polyps and mucocutaneous pigmentation, while JPS (SMAD4/BMPR1A) produces juvenile polyps—both raise GI cancer risk.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Peutz-Jeghers syndrome predisposes to distinctive ovarian tumors: sex cord tumors with annular tubules (SCTAT) and mucinous tumors arise from STK11 loss, often causing precocious puberty or estrogen effects—part of the syndrome's broad, organ-spanning cancer risk.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Peutz-Jeghers syndrome carries a rare cervical cancer—adenoma malignum (minimal-deviation adenocarcinoma): this deceptively bland, HPV-independent tumor is strongly associated with STK11 loss, so PJS patients warrant gynecologic surveillance for it.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Peutz-Jeghers and Cowden are both hamartomatous polyposis syndromes with different genes: PJS from STK11 loss giving GI hamartomas and mucocutaneous pigmentation, Cowden from PTEN (PI3K-AKT) loss—both fill the gut with hamartomas and raise multi-organ cancer risk.
+- `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Peutz-Jeghers and FAP are inherited polyposis syndromes with opposite polyp types: PJS produces hamartomatous polyps from STK11 loss, while FAP produces hundreds of adenomatous polyps from APC loss with near-certain colorectal cancer—hamartoma versus adenoma.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Peutz-Jeghers raises gastric as well as colorectal cancer risk: STK11 loss seeds hamartomatous polyps throughout the stomach and small bowel that can bleed, obstruct or harbor dysplasia, so upper-GI surveillance accompanies colonoscopy in PJS patients from childhood.
 
 ---
 

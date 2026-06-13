@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/dermatomyositis
     relation: connects-to
     note: "Pemphigus vulgaris and dermatomyositis are autoimmune diseases whose skin findings can flag malignancy: paraneoplastic pemphigus accompanies lymphoma/Castleman, and dermatomyositis is a classic paraneoplastic dermatosis—so new disease prompts a cancer search."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Pemphigus vulgaris reflects failed immune tolerance: regulatory T cells that should suppress desmoglein-reactive B and T cells are deficient, so autoantibodies against keratinocyte adhesion molecules form—restoring Treg control is an experimental therapy."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Pemphigus vulgaris and rheumatoid arthritis are both B-cell-driven autoimmune diseases transformed by rituximab: depleting CD20+ B cells induces durable remission in PV and controls RA—so an anti-B-cell drug links a blistering skin disease to inflammatory arthritis."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Pemphigus vulgaris and type 1 diabetes are both HLA-associated autoimmune diseases with different effectors: PV is antibody-mediated (anti-desmoglein IgG destroying skin adhesion), while T1DM is T-cell-mediated β-cell destruction—two ends of the autoimmune spectrum."
 ---
 
 # Pemphigus Vulgaris
@@ -227,6 +236,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Pemphigus and myasthenia gravis are paradigm IgG autoantibody diseases against a cell-surface protein: anti-desmoglein-3 in PV versus anti-acetylcholine-receptor in MG, both can associate with thymoma, and both respond to plasma exchange, IVIG, and rituximab.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Pemphigus vulgaris and lupus are both autoantibody-driven but differ in target: PV's IgG attacks desmoglein at keratinocyte junctions causing flaccid blisters, while SLE's antinuclear antibodies form immune complexes that injure skin, kidney, and joints via complement.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Pemphigus vulgaris and dermatomyositis are autoimmune diseases whose skin findings can flag malignancy: paraneoplastic pemphigus accompanies lymphoma/Castleman, and dermatomyositis is a classic paraneoplastic dermatosis—so new disease prompts a cancer search.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Pemphigus vulgaris reflects failed immune tolerance: regulatory T cells that should suppress desmoglein-reactive B and T cells are deficient, so autoantibodies against keratinocyte adhesion molecules form—restoring Treg control is an experimental therapy.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Pemphigus vulgaris and rheumatoid arthritis are both B-cell-driven autoimmune diseases transformed by rituximab: depleting CD20+ B cells induces durable remission in PV and controls RA—so an anti-B-cell drug links a blistering skin disease to inflammatory arthritis.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Pemphigus vulgaris and type 1 diabetes are both HLA-associated autoimmune diseases with different effectors: PV is antibody-mediated (anti-desmoglein IgG destroying skin adhesion), while T1DM is T-cell-mediated β-cell destruction—two ends of the autoimmune spectrum.
 
 ---
 
