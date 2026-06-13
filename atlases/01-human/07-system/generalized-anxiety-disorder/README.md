@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Generalized anxiety and alcohol use disorder form a self-medication cycle: people drink to quiet chronic worry, but alcohol and its withdrawal rebound into worse anxiety, deepening both conditions—so the two strongly co-occur and need concurrent treatment."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Generalized anxiety and fibromyalgia commonly overlap through central sensitization: chronic anxiety and HPA-axis dysregulation amplify pain processing, so anxiety is far more common in fibromyalgia and worsens its pain and fatigue."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Anxiety and asthma form a vicious cycle: breathlessness triggers anxiety and anxiety worsens perceived dyspnea, so anxiety disorders are common in asthma and degrade control—distinguishing a panic attack from bronchospasm matters clinically."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Generalized anxiety and migraine are strongly comorbid: they share serotonergic and stress-pathway biology, anxiety lowers the threshold for migraine attacks, and chronic migraine fuels anxiety—so treating one (e.g. with SNRIs) often helps the other."
 ---
 
 # Generalized Anxiety Disorder
@@ -233,6 +242,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — GAD and OCD are anxiety-related disorders that often co-occur but differ in form: GAD is diffuse, free-floating worry about everyday matters, while OCD's anxiety is tied to intrusive obsessions relieved by compulsions—both respond to SSRIs and CBT.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Generalized anxiety frequently coexists with bipolar disorder and complicates it: anxiety worsens the course and suicidality, and antidepressants for it can destabilize mood or trigger mania—so anxiety in a bipolar patient is managed cautiously after mood stabilization.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Generalized anxiety and alcohol use disorder form a self-medication cycle: people drink to quiet chronic worry, but alcohol and its withdrawal rebound into worse anxiety, deepening both conditions—so the two strongly co-occur and need concurrent treatment.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Generalized anxiety and fibromyalgia commonly overlap through central sensitization: chronic anxiety and HPA-axis dysregulation amplify pain processing, so anxiety is far more common in fibromyalgia and worsens its pain and fatigue.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Anxiety and asthma form a vicious cycle: breathlessness triggers anxiety and anxiety worsens perceived dyspnea, so anxiety disorders are common in asthma and degrade control—distinguishing a panic attack from bronchospasm matters clinically.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Generalized anxiety and migraine are strongly comorbid: they share serotonergic and stress-pathway biology, anxiety lowers the threshold for migraine attacks, and chronic migraine fuels anxiety—so treating one (e.g. with SNRIs) often helps the other.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

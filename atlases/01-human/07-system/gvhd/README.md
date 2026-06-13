@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Host dendritic cells ignite graft-versus-host disease: conditioning damage activates recipient antigen-presenting cells that display alloantigens to donor T cells, priming the attack on host tissues—so depleting these dendritic cells is a strategy to prevent GVHD."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Graft-versus-host disease is driven by a cytokine storm: donor T cells activated against host tissue release a flood of TNF, IL-6 and IFN-γ that amplifies organ damage—so cytokine-targeted drugs (ruxolitinib, anti-IL-6) treat steroid-refractory GVHD."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells distinguish graft-versus-host disease from graft-versus-leukemia: donor NK cells can attack residual leukemia while contributing less to GVHD than T cells—NK biology is exploited to separate the cure from the toxicity of transplant."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is a major chronic GVHD target: donor immune attack on bronchioles causes bronchiolitis obliterans, an irreversible obstructive lung disease, so new airflow obstruction after transplant signals pulmonary GVHD—a feared, treatment-resistant complication."
 ---
 
 # Graft-Versus-Host Disease
@@ -229,6 +238,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Chronic GVHD can clinically mimic systemic sclerosis: donor T cells drive fibrosis of skin and organs resembling scleroderma, with TGF-β-mediated collagen deposition and tight, hidebound skin—so chronic GVHD is an alloimmune model of sclerodermatous fibrosis.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Chronic GVHD often produces a Sjögren's-like sicca syndrome: donor immune attack on lacrimal and salivary glands causes severe dry eyes and mouth, mirroring Sjögren's, so the same autoimmune-like glandular destruction arises here from alloreactivity after transplant.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Host dendritic cells ignite graft-versus-host disease: conditioning damage activates recipient antigen-presenting cells that display alloantigens to donor T cells, priming the attack on host tissues—so depleting these dendritic cells is a strategy to prevent GVHD.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Graft-versus-host disease is driven by a cytokine storm: donor T cells activated against host tissue release a flood of TNF, IL-6 and IFN-γ that amplifies organ damage—so cytokine-targeted drugs (ruxolitinib, anti-IL-6) treat steroid-refractory GVHD.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells distinguish graft-versus-host disease from graft-versus-leukemia: donor NK cells can attack residual leukemia while contributing less to GVHD than T cells—NK biology is exploited to separate the cure from the toxicity of transplant.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a major chronic GVHD target: donor immune attack on bronchioles causes bronchiolitis obliterans, an irreversible obstructive lung disease, so new airflow obstruction after transplant signals pulmonary GVHD—a feared, treatment-resistant complication.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
