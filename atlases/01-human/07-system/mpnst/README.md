@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/ewing-sarcoma
     relation: connects-to
     note: "MPNST and Ewing sarcoma are both aggressive sarcomas of young people requiring molecular distinction: MPNST arises from nerve sheath (NF1-driven, S100/SOX10, CDKN2A loss), while Ewing is a small-round-blue-cell tumor with EWSR1-FLI1 and CD99—different cells, drivers and chemo."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "MPNST and GIST are the malignancies most characteristic of neurofibromatosis type 1: NF1 patients develop both, as neurofibromin loss disinhibits Ras in Schwann-cell precursors (MPNST) and interstitial cells of Cajal (NF1-GIST)—one tumor-suppressor loss, two sarcomas."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "MPNST and Li-Fraumeni intersect through sarcoma predisposition: germline TP53 loss predisposes to sarcomas, and somatic TP53/CDKN2A loss marks a benign neurofibroma's transformation into MPNST—losing cell-cycle and apoptosis control turns nerve sheath malignant."
+  - target: 01-human/07-system/osteosarcoma
+    relation: connects-to
+    note: "MPNST and osteosarcoma are both aggressive sarcomas that can be radiation-induced: prior radiotherapy is a recognized cause of each, and both are high-grade and resist chemotherapy—so a new sarcoma in a previously irradiated field raises suspicion for either."
 ---
 
 # MPNST
@@ -207,6 +216,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation is a key MPNST risk and treatment: prior radiotherapy is a recognized cause of these aggressive nerve-sheath sarcomas (often years later), and because wide margins are hard near nerves, adjuvant radiotherapy is used despite the radiation-induced-second-tumor concern.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — MPNST and rhabdomyosarcoma intersect in the malignant Triton tumor: an MPNST with rhabdomyosarcomatous (skeletal-muscle) differentiation, often arising in NF1, behaves especially aggressively—showing how a nerve-sheath sarcoma can acquire the myogenic program of rhabdomyosarcoma.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — MPNST and Ewing sarcoma are both aggressive sarcomas of young people requiring molecular distinction: MPNST arises from nerve sheath (NF1-driven, S100/SOX10, CDKN2A loss), while Ewing is a small-round-blue-cell tumor with EWSR1-FLI1 and CD99—different cells, drivers and chemo.
+- `connects-to` → **[GIST](../gist/README.md)** — MPNST and GIST are the malignancies most characteristic of neurofibromatosis type 1: NF1 patients develop both, as neurofibromin loss disinhibits Ras in Schwann-cell precursors (MPNST) and interstitial cells of Cajal (NF1-GIST)—one tumor-suppressor loss, two sarcomas.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — MPNST and Li-Fraumeni intersect through sarcoma predisposition: germline TP53 loss predisposes to sarcomas, and somatic TP53/CDKN2A loss marks a benign neurofibroma's transformation into MPNST—losing cell-cycle and apoptosis control turns nerve sheath malignant.
+- `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — MPNST and osteosarcoma are both aggressive sarcomas that can be radiation-induced: prior radiotherapy is a recognized cause of each, and both are high-grade and resist chemotherapy—so a new sarcoma in a previously irradiated field raises suspicion for either.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

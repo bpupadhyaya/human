@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "Mesothelioma and cholangiocarcinoma both occur in the BAP1 syndrome and share a chromatin-level driver: loss of BAP1, a nuclear deubiquitinase tumor suppressor, promotes both, and the epigenetic vulnerabilities plus checkpoint approaches are being explored across these cancers."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Mesothelioma and lung cancer are the great asbestos-related thoracic malignancies but distinct: mesothelioma arises from the pleural mesothelium, while NSCLC arises from bronchial/alveolar epithelium—asbestos drives both, but only lung cancer is strongly smoking-linked."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy's role in mesothelioma is limited: the tumor's diffuse rind over the pleura makes curative irradiation hard without harming lung, so photon radiation serves mainly palliation—surgery and chemo-immunotherapy carry the main burden."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Peritoneal mesothelioma and ovarian cancer overlap closely: both arise from or mimic serous peritoneal epithelium and may share BAP1 alterations, so a woman with peritoneal carcinomatosis needs pathology to separate mesothelioma from serous ovarian carcinoma."
 ---
 
 # Mesothelioma
@@ -194,6 +203,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Mesothelioma and renal cell carcinoma are both part of the BAP1 tumor predisposition syndrome: germline BAP1 loss predisposes to mesothelioma, clear-cell RCC, uveal melanoma and atypical melanocytic tumors, so mesothelioma with a family cancer history warrants BAP1 testing.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive asbestos-induced mesothelioma: long fibers resist 'frustrated' macrophage phagocytosis, so they release reactive oxygen species and activate the NLRP3 inflammasome—chronic IL-1β inflammation that transforms mesothelial cells over decades.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Mesothelioma and cholangiocarcinoma both occur in the BAP1 syndrome and share a chromatin-level driver: loss of BAP1, a nuclear deubiquitinase tumor suppressor, promotes both, and the epigenetic vulnerabilities plus checkpoint approaches are being explored across these cancers.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Mesothelioma and lung cancer are the great asbestos-related thoracic malignancies but distinct: mesothelioma arises from the pleural mesothelium, while NSCLC arises from bronchial/alveolar epithelium—asbestos drives both, but only lung cancer is strongly smoking-linked.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy's role in mesothelioma is limited: the tumor's diffuse rind over the pleura makes curative irradiation hard without harming lung, so photon radiation serves mainly palliation—surgery and chemo-immunotherapy carry the main burden.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Peritoneal mesothelioma and ovarian cancer overlap closely: both arise from or mimic serous peritoneal epithelium and may share BAP1 alterations, so a woman with peritoneal carcinomatosis needs pathology to separate mesothelioma from serous ovarian carcinoma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
