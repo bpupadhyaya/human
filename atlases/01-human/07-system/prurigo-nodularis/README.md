@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells sit at the heart of the prurigo-nodularis itch loop: substance P from dermal nerves triggers them through NK1R to release histamine, tryptase, and TSLP, and they are a source of IL-31 — feeding the sensory neurons that drive scratching."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Prurigo nodularis is a neuroimmune disorder straddling itch and pain: chronic scratching and a sensitized cutaneous nerve network (raised substance P and NGF) drive itch through the same peripheral and central sensitization as neuropathic pain, and both respond to gabapentinoids."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Prurigo nodularis and psoriasis are both chronic inflammatory skin diseases with thickened plaques/nodules but differ immunologically: PN is itch-dominant and Th2/IL-31-driven (dupilumab, nemolizumab), psoriasis Th17/IL-17-driven; distinguishing them guides biologic choice."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Prurigo nodularis is a recognized cutaneous marker of HIV/AIDS: it is far more common and severe in people with HIV, especially at low CD4 counts, as part of HIV-associated pruritus; its appearance can prompt HIV testing, and antiretroviral immune restoration often improves it."
 ---
 
 # Prurigo Nodularis
@@ -142,6 +151,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Prurigo nodularis is a skin disease built by scratching: relentless itch drives mechanical trauma that, over weeks, raises firm hyperkeratotic nodules with thickened epidermis, dense dermal fibrosis, and — distinctively — a proliferation of nerve fibers within the skin.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Prurigo nodularis is as much a neural as an inflammatory disease: sensory neurons proliferate in the nodules and their itch channels (TRPV1/TRPA1) are sensitized by IL-31, TSLP, and NGF, while repeated firing drives spinal central sensitization so that even light touch itches.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells sit at the heart of the prurigo-nodularis itch loop: substance P from dermal nerves triggers them through NK1R to release histamine, tryptase, and TSLP, and they are a source of IL-31 — feeding the sensory neurons that drive scratching.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Prurigo nodularis is a neuroimmune disorder straddling itch and pain: chronic scratching and a sensitized cutaneous nerve network (raised substance P and NGF) drive itch through the same peripheral and central sensitization as neuropathic pain, and both respond to gabapentinoids.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Prurigo nodularis and psoriasis are both chronic inflammatory skin diseases with thickened plaques/nodules but differ immunologically: PN is itch-dominant and Th2/IL-31-driven (dupilumab, nemolizumab), psoriasis Th17/IL-17-driven; distinguishing them guides biologic choice.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Prurigo nodularis is a recognized cutaneous marker of HIV/AIDS: it is far more common and severe in people with HIV, especially at low CD4 counts, as part of HIV-associated pruritus; its appearance can prompt HIV testing, and antiretroviral immune restoration often improves it.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

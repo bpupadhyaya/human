@@ -51,6 +51,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "AGS is fundamentally a brain disease: constitutive interferon causes an inflammatory encephalopathy with intracranial calcifications and acquired microcephaly that mimics congenital TORCH infection — but with sterile CSF lymphocytosis and high CSF interferon-α."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "AGS and dermatomyositis are both type I interferonopathies: AGS is a monogenic constitutive activation of nucleic-acid sensing (cGAS-STING/RIG-I), DM an acquired interferon signature; both show high interferon scores and chilblain-like lesions, and both respond to JAK inhibition."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin reveals Aicardi-Goutières syndrome: chronic type I interferon drives chilblain lesions—painful red-purple acral swellings on fingers, toes and ears that worsen in cold—mirroring chilblain lupus; these signs reflect the interferon vasculopathy that also injures the brain."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes are central to Aicardi-Goutières brain disease: they are a major source of the excess intracerebral type I interferon, and interferon-driven microangiopathy drives the basal-ganglia calcification and white-matter loss that mimic congenital infection."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -156,6 +165,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — In Aicardi-Goutières syndrome the chronic type I interferon flooding the brain activates microglia, which attack neurons and cerebral vessels — producing the progressive encephalopathy, white-matter disease, and basal-ganglia calcification of AGS.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Aicardi-Goutières syndrome is driven by type I interferon through the IFNAR-JAK-STAT pathway, so JAK1/2 inhibitors like baricitinib are the leading treatment: they lower the interferon signature and can stabilize disease, but rarely reverse established neurological damage.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AGS is fundamentally a brain disease: constitutive interferon causes an inflammatory encephalopathy with intracranial calcifications and acquired microcephaly that mimics congenital TORCH infection — but with sterile CSF lymphocytosis and high CSF interferon-α.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — AGS and dermatomyositis are both type I interferonopathies: AGS is a monogenic constitutive activation of nucleic-acid sensing (cGAS-STING/RIG-I), DM an acquired interferon signature; both show high interferon scores and chilblain-like lesions, and both respond to JAK inhibition.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin reveals Aicardi-Goutières syndrome: chronic type I interferon drives chilblain lesions—painful red-purple acral swellings on fingers, toes and ears that worsen in cold—mirroring chilblain lupus; these signs reflect the interferon vasculopathy that also injures the brain.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes are central to Aicardi-Goutières brain disease: they are a major source of the excess intracerebral type I interferon, and interferon-driven microangiopathy drives the basal-ganglia calcification and white-matter loss that mimic congenital infection.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
