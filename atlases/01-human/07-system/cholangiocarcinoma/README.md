@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cholangiocarcinoma is mostly immunologically cold but responds in a subset: a dense desmoplastic, immunosuppressive stroma keeps cytotoxic T cells out, yet mismatch-repair-deficient or PD-L1-high tumors respond to checkpoint blockade now added to chemotherapy first-line."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation is common in cholangiocarcinoma: loss of p53, alongside KRAS and FGFR/IDH alterations, removes a key checkpoint in bile-duct epithelium, so chronic inflammation plus p53 loss drives the malignant transformation behind this hard-to-treat cancer."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "A macrophage-rich desmoplastic stroma defines cholangiocarcinoma: tumor-associated macrophages and fibroblasts build a dense, immunosuppressive matrix that walls the tumor off, helping explain its chemoresistance and limited response to immunotherapy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Cholangiocarcinoma relies on VEGF-driven angiogenesis: the tumor secretes VEGF to vascularize its desmoplastic mass, high levels predict worse outcome, and anti-angiogenic agents are studied alongside the chemotherapy and targeted FGFR/IDH inhibitors used in treatment."
 ---
 
 # Cholangiocarcinoma
@@ -184,6 +193,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Cholangiocarcinoma and IDH-mutant glioma are united by IDH1 mutation and the oncometabolite 2-HG: ~15-20% of intrahepatic cholangiocarcinomas carry IDH1 R132, and ivosidenib—first for IDH-mutant leukemia and glioma—now treats IDH1-mutant cholangiocarcinoma.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Cholangiocarcinoma arises from biliary epithelium, not hepatocytes, distinguishing it from HCC: it springs from cholangiocytes lining bile ducts, so it lacks AFP and hepatocyte markers and expresses biliary cytokeratins—a key distinction for a liver mass.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cholangiocarcinoma is mostly immunologically cold but responds in a subset: a dense desmoplastic, immunosuppressive stroma keeps cytotoxic T cells out, yet mismatch-repair-deficient or PD-L1-high tumors respond to checkpoint blockade now added to chemotherapy first-line.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is common in cholangiocarcinoma: loss of p53, alongside KRAS and FGFR/IDH alterations, removes a key checkpoint in bile-duct epithelium, so chronic inflammation plus p53 loss drives the malignant transformation behind this hard-to-treat cancer.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — A macrophage-rich desmoplastic stroma defines cholangiocarcinoma: tumor-associated macrophages and fibroblasts build a dense, immunosuppressive matrix that walls the tumor off, helping explain its chemoresistance and limited response to immunotherapy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Cholangiocarcinoma relies on VEGF-driven angiogenesis: the tumor secretes VEGF to vascularize its desmoplastic mass, high levels predict worse outcome, and anti-angiogenic agents are studied alongside the chemotherapy and targeted FGFR/IDH inhibitors used in treatment.
 
 ---
 

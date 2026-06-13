@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "The HPV vaccine that prevents cervical cancer works through dendritic cells: virus-like particles are taken up by dendritic cells that prime B and T cells to make neutralizing antibodies against HPV capsids, blocking the infection behind nearly all cervical cancer."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Cervical cancer is fundamentally an immune-control failure: most HPV infections clear, but when immune surveillance falters—markedly in HIV—persistent high-risk HPV transforms cervical cells, so immune status governs whether infection becomes cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help clear HPV-infected cervical cells: innate NK responses and interferon limit early infection, and HPV evades them by downregulating immune signals—so weakened NK/innate immunity allows the persistent infection that precedes cervical cancer."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "HPV reactivates telomerase to immortalize cervical cells: the viral E6 oncoprotein, beyond degrading p53, switches on TERT, so infected cells avoid the telomere shortening that normally limits division—a key step from infection to invasive cancer."
 ---
 
 # Cervical Cancer
@@ -210,6 +219,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome causes a rare HPV-independent cervical cancer, adenoma malignum: germline STK11 loss drives this deceptively bland mucinous tumor—the one cervical cancer not prevented by HPV vaccination, warranting surveillance in PJS.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is curative for locally advanced cervical cancer: concurrent chemoradiation with external-beam photons plus intracavitary brachytherapy delivers a high radiation dose directly to the cervix—and brachytherapy is uniquely critical to cure in this cancer.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The HPV vaccine that prevents cervical cancer works through dendritic cells: virus-like particles are taken up by dendritic cells that prime B and T cells to make neutralizing antibodies against HPV capsids, blocking the infection behind nearly all cervical cancer.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Cervical cancer is fundamentally an immune-control failure: most HPV infections clear, but when immune surveillance falters—markedly in HIV—persistent high-risk HPV transforms cervical cells, so immune status governs whether infection becomes cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help clear HPV-infected cervical cells: innate NK responses and interferon limit early infection, and HPV evades them by downregulating immune signals—so weakened NK/innate immunity allows the persistent infection that precedes cervical cancer.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — HPV reactivates telomerase to immortalize cervical cells: the viral E6 oncoprotein, beyond degrading p53, switches on TERT, so infected cells avoid the telomere shortening that normally limits division—a key step from infection to invasive cancer.
 
 ---
 
