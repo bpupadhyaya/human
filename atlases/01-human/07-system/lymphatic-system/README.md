@@ -59,6 +59,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "The gut houses the largest share of the lymphatic system: gut-associated lymphoid tissue (Peyer patches, mesenteric nodes) and lacteals that absorb dietary fat make the digestive tract a major immune and lymph-transport organ, tying mucosal immunity and fat transport together."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Follicular lymphoma is a cancer of the lymphatic system's architecture: it arises from germinal-center B cells in lymph node follicles and spreads through nodes, spleen and marrow—turning antibody-maturation machinery into an indolent malignancy."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "The lymphatic system governs how breast cancer is staged: tumor cells drain first to axillary lymph nodes, so sentinel-node biopsy guides treatment and node status drives prognosis—while removing nodes can cause arm lymphedema, the cost of disrupting drainage."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Melanoma exploits the lymphatic system to metastasize: it spreads early through dermal lymphatics to regional nodes, making sentinel lymph-node biopsy central to staging, and can even induce lymphangiogenesis—so lymphatic involvement strongly predicts outcome."
 ---
 
 # Lymphatic System
@@ -182,6 +191,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Diffuse large B-cell lymphoma is the commonest malignancy of the lymphatic system: it arises from germinal-center or activated B cells in lymph nodes (or extranodal lymphoid tissue), producing rapidly enlarging masses—the lymphatic system's own immune cells becoming cancer.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells are the antibody-secreting end-product of the lymphatic system: B cells activated in lymph-node germinal centers become plasma cells that home to bone marrow and mucosa to pump out immunoglobulin, the humoral output of lymphoid tissue—malignant as myeloma.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut houses the largest share of the lymphatic system: gut-associated lymphoid tissue (Peyer patches, mesenteric nodes) and lacteals that absorb dietary fat make the digestive tract a major immune and lymph-transport organ, tying mucosal immunity and fat transport together.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Follicular lymphoma is a cancer of the lymphatic system's architecture: it arises from germinal-center B cells in lymph node follicles and spreads through nodes, spleen and marrow—turning antibody-maturation machinery into an indolent malignancy.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The lymphatic system governs how breast cancer is staged: tumor cells drain first to axillary lymph nodes, so sentinel-node biopsy guides treatment and node status drives prognosis—while removing nodes can cause arm lymphedema, the cost of disrupting drainage.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma exploits the lymphatic system to metastasize: it spreads early through dermal lymphatics to regional nodes, making sentinel lymph-node biopsy central to staging, and can even induce lymphangiogenesis—so lymphatic involvement strongly predicts outcome.
 
 ## Pathology
 

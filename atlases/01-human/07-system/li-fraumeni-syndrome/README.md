@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "Leukemia is part of the Li-Fraumeni spectrum: germline TP53 mutations predispose to acute leukemias—especially therapy-related AML/MDS after the chemo and radiotherapy used for their other cancers—and somatic TP53-mutant AML is itself among the most treatment-resistant subtypes."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Pancreatic cancer falls in the expanded Li-Fraumeni spectrum: germline TP53 loss raises pancreatic adenocarcinoma risk alongside the core tumors, and somatic TP53 mutation is a leading driver of sporadic pancreatic cancer—tying the syndrome to a lethal tumor."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Li-Fraumeni raises early colorectal cancer risk: TP53 carriers develop colorectal cancer at younger ages, so surveillance colonoscopy starts early—reflecting how losing p53, the genome's guardian, accelerates the adenoma-carcinoma sequence."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cultured skin fibroblasts revealed Li-Fraumeni's biology: patient fibroblasts carry one mutant TP53 allele and show defective p53-dependent cell-cycle arrest and apoptosis—a model of how one inherited tumor-suppressor defect primes nearly every tissue for cancer."
 ---
 
 # Li-Fraumeni Syndrome
@@ -226,6 +235,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Li-Fraumeni patients are dangerously radiosensitive: with germline TP53 loss, ionizing radiation readily induces new (radiation-associated) cancers, so radiotherapy is avoided where possible and surveillance uses non-ionizing whole-body MRI rather than CT.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Brain tumors are a core Li-Fraumeni cancer: germline TP53 loss predisposes to gliomas including glioblastoma (and in children choroid plexus carcinoma and medulloblastoma), part of the wide spectrum, so new CNS tumors in a cancer-prone family should prompt TP53 testing.
 - `connects-to` → **[AML](../aml/README.md)** — Leukemia is part of the Li-Fraumeni spectrum: germline TP53 mutations predispose to acute leukemias—especially therapy-related AML/MDS after the chemo and radiotherapy used for their other cancers—and somatic TP53-mutant AML is itself among the most treatment-resistant subtypes.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Pancreatic cancer falls in the expanded Li-Fraumeni spectrum: germline TP53 loss raises pancreatic adenocarcinoma risk alongside the core tumors, and somatic TP53 mutation is a leading driver of sporadic pancreatic cancer—tying the syndrome to a lethal tumor.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Li-Fraumeni raises early colorectal cancer risk: TP53 carriers develop colorectal cancer at younger ages, so surveillance colonoscopy starts early—reflecting how losing p53, the genome's guardian, accelerates the adenoma-carcinoma sequence.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cultured skin fibroblasts revealed Li-Fraumeni's biology: patient fibroblasts carry one mutant TP53 allele and show defective p53-dependent cell-cycle arrest and apoptosis—a model of how one inherited tumor-suppressor defect primes nearly every tissue for cancer.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
