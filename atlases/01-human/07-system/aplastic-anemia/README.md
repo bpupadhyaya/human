@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Failure of regulatory T cells underlies acquired aplastic anemia: when Tregs cannot restrain autoreactive cytotoxic T cells, those T cells destroy hematopoietic stem cells via IFN-γ and perforin—so immunosuppression restoring tolerance can rescue the marrow."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells orchestrate the autoimmune attack in aplastic anemia: activated Th1 cells secrete interferon-gamma and TNF that, with cytotoxic T cells, destroy hematopoietic stem cells—which is why immunosuppression with ATG and cyclosporine can restore blood counts."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietin is high but futile in aplastic anemia: the anemia drives appropriate EPO release, yet the empty marrow has no stem cells to respond—unlike kidney-disease anemia where EPO itself is deficient, so EPO therapy alone cannot fix aplastic anemia."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Aplastic anemia overlaps with lupus: SLE can cause immune-mediated cytopenias and rarely marrow aplasia, and both are autoimmune disorders treated with immunosuppression—so a new pancytopenia prompts an autoimmune workup alongside marrow examination."
 ---
 
 # Aplastic Anemia
@@ -200,6 +209,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[AML](../aml/README.md)** — Aplastic anemia can evolve into clonal marrow disease: immune-mediated stem-cell failure pressures surviving clones, so some patients progress to MDS or AML (often with monosomy 7)—aplastic anemia needs long-term monitoring for clonal evolution, not just count recovery.
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Allogeneic stem-cell transplant is curative for severe aplastic anemia but brings graft-versus-host disease: donor immune cells can attack the recipient even as they restore hematopoiesis, so GVHD prophylaxis and matched donors are central to transplant in young patients.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Failure of regulatory T cells underlies acquired aplastic anemia: when Tregs cannot restrain autoreactive cytotoxic T cells, those T cells destroy hematopoietic stem cells via IFN-γ and perforin—so immunosuppression restoring tolerance can rescue the marrow.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells orchestrate the autoimmune attack in aplastic anemia: activated Th1 cells secrete interferon-gamma and TNF that, with cytotoxic T cells, destroy hematopoietic stem cells—which is why immunosuppression with ATG and cyclosporine can restore blood counts.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin is high but futile in aplastic anemia: the anemia drives appropriate EPO release, yet the empty marrow has no stem cells to respond—unlike kidney-disease anemia where EPO itself is deficient, so EPO therapy alone cannot fix aplastic anemia.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Aplastic anemia overlaps with lupus: SLE can cause immune-mediated cytopenias and rarely marrow aplasia, and both are autoimmune disorders treated with immunosuppression—so a new pancytopenia prompts an autoimmune workup alongside marrow examination.
 
 ---
 

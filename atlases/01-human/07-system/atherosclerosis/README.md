@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Vascular smooth muscle cells shape atherosclerotic plaques both ways: they migrate into the intima to form the fibrous cap that stabilizes a plaque, but also take up lipid to become foam cells—so their behavior decides whether a plaque stays stable or ruptures."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets turn a plaque into a heart attack: when an atherosclerotic cap ruptures, the exposed lipid core triggers platelet adhesion and aggregation forming the occlusive thrombus—so antiplatelet drugs like aspirin help prevent myocardial infarction and stroke."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 links inflammation to atherosclerosis: plaque macrophages release IL-6 that drives CRP and fuels lesion progression, and trials lowering inflammation (canakinumab, colchicine) cut cardiovascular events—showing atherosclerosis is inflammatory, not just lipid."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity accelerates atherosclerosis: excess visceral fat drives insulin resistance, dyslipidemia, hypertension and chronic inflammation that together damage arteries, so obesity is a central, modifiable hub feeding the major atherosclerotic risk factors."
 ---
 
 # Atherosclerosis
@@ -209,6 +218,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes powerfully accelerates atherosclerosis: hyperglycemia, insulin resistance, and diabetic dyslipidemia injure the endothelium and inflame plaques, so cardiovascular disease is the top killer in diabetes—hence aggressive lipid and BP control.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension drives atherosclerosis through mechanical and inflammatory injury: high pressure damages the endothelium, especially at branch points, accelerating plaque formation and rupture—so BP control is among the best ways to prevent its heart attacks and strokes.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Vascular smooth muscle cells shape atherosclerotic plaques both ways: they migrate into the intima to form the fibrous cap that stabilizes a plaque, but also take up lipid to become foam cells—so their behavior decides whether a plaque stays stable or ruptures.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets turn a plaque into a heart attack: when an atherosclerotic cap ruptures, the exposed lipid core triggers platelet adhesion and aggregation forming the occlusive thrombus—so antiplatelet drugs like aspirin help prevent myocardial infarction and stroke.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 links inflammation to atherosclerosis: plaque macrophages release IL-6 that drives CRP and fuels lesion progression, and trials lowering inflammation (canakinumab, colchicine) cut cardiovascular events—showing atherosclerosis is inflammatory, not just lipid.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity accelerates atherosclerosis: excess visceral fat drives insulin resistance, dyslipidemia, hypertension and chronic inflammation that together damage arteries, so obesity is a central, modifiable hub feeding the major atherosclerotic risk factors.
 
 ---
 
