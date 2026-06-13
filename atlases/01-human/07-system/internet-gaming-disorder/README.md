@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Internet gaming disorder and alcohol use disorder share the brain's addiction circuitry: both hijack dopaminergic reward pathways and show tolerance, craving and withdrawal-like symptoms—evidence that behavioral and substance addictions are more alike than once thought."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Internet gaming disorder, like other addictions, involves disturbed excitatory-inhibitory balance: GABAergic inhibition in prefrontal circuits restrains compulsive reward-seeking, and weakened top-down GABA control is one proposed substrate for loss of control over gaming."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Internet gaming disorder and insomnia feed each other: late-night gaming and bright screens delay sleep onset and curtail sleep, while the resulting daytime fatigue and low mood push more escapist gaming—a vicious loop common in young heavy gamers."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Internet gaming disorder and binge eating disorder share an impaired-control core: both are compulsive, reward-driven patterns of consumption despite harm, converging on the same dopaminergic reward and prefrontal control circuitry as substance addictions."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -248,6 +257,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Internet gaming disorder and OCD share compulsivity despite different drivers: both feature repetitive, hard-to-resist behaviors engaging overlapping fronto-striatal circuits—though gaming is reward-seeking while OCD is anxiety-driven, blurring addiction and compulsion.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Internet gaming disorder contributes to obesity: prolonged sedentary screen time, disrupted sleep and mindless eating during play promote weight gain, so excessive gaming is a behavioral driver of obesity—linking a digital behavior to a metabolic disease.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Internet gaming disorder and alcohol use disorder share the brain's addiction circuitry: both hijack dopaminergic reward pathways and show tolerance, craving and withdrawal-like symptoms—evidence that behavioral and substance addictions are more alike than once thought.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Internet gaming disorder, like other addictions, involves disturbed excitatory-inhibitory balance: GABAergic inhibition in prefrontal circuits restrains compulsive reward-seeking, and weakened top-down GABA control is one proposed substrate for loss of control over gaming.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Internet gaming disorder and insomnia feed each other: late-night gaming and bright screens delay sleep onset and curtail sleep, while the resulting daytime fatigue and low mood push more escapist gaming—a vicious loop common in young heavy gamers.
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Internet gaming disorder and binge eating disorder share an impaired-control core: both are compulsive, reward-driven patterns of consumption despite harm, converging on the same dopaminergic reward and prefrontal control circuitry as substance addictions.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

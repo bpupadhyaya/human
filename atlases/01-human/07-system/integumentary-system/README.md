@@ -71,6 +71,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibroblasts build the integumentary system's dermal scaffold: they synthesize the collagen and elastin that give skin strength and elasticity, and their decline underlies wrinkling and aging—so dermal fibroblasts determine how skin holds up over a lifetime."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Atopic dermatitis is the integumentary system's barrier disease: filaggrin-deficient skin loses water and lets allergens in, triggering itch-scratch inflammation—showing how the epidermal barrier, immune cells and nerves of the skin act as one integrated organ system."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "The integumentary and lymphatic systems are intertwined in the skin: dermal lymphatics drain interstitial fluid and ferry antigen-laden dendritic cells to nodes, so when they fail, lymphedema swells the limb and thickens the overlying skin."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Systemic sclerosis turns the integument rigid: autoimmune fibroblast activation deposits excess collagen in the dermis, hardening and tethering the skin—the visible hallmark of a disease that shows how the skin's connective tissue can drive systemic illness."
 ---
 
 # Integumentary System
@@ -194,6 +203,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma is the deadliest cancer of the integumentary system: arising from epidermal melanocytes, it—unlike keratinocyte cancers—readily metastasizes, so UV-driven melanoma makes the integument's own pigment system a lethal cancer source.
 - `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Basal cell carcinoma is the commonest cancer of the integumentary system: chronic UV damage to basal keratinocytes activates Hedgehog/PTCH1 signaling, producing slow-growing tumors that almost never metastasize—the indolent counterpart to melanoma in the skin.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts build the integumentary system's dermal scaffold: they synthesize the collagen and elastin that give skin strength and elasticity, and their decline underlies wrinkling and aging—so dermal fibroblasts determine how skin holds up over a lifetime.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Atopic dermatitis is the integumentary system's barrier disease: filaggrin-deficient skin loses water and lets allergens in, triggering itch-scratch inflammation—showing how the epidermal barrier, immune cells and nerves of the skin act as one integrated organ system.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The integumentary and lymphatic systems are intertwined in the skin: dermal lymphatics drain interstitial fluid and ferry antigen-laden dendritic cells to nodes, so when they fail, lymphedema swells the limb and thickens the overlying skin.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Systemic sclerosis turns the integument rigid: autoimmune fibroblast activation deposits excess collagen in the dermis, hardening and tethering the skin—the visible hallmark of a disease that shows how the skin's connective tissue can drive systemic illness.
 
 ## Pathology
 
