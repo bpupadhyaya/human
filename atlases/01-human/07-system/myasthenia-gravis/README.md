@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/cidp
     relation: connects-to
     note: "Myasthenia gravis and CIDP are both antibody/complement-mediated, treatable autoimmune neuromuscular disorders at different sites: MG hits the postsynaptic junction (fatigable weakness, normal reflexes), CIDP attacks nerve myelin (areflexia, sensory loss); both improve with IVIG."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "Myasthenia gravis and neuromyelitis optica are antibody-mediated diseases that co-occur more than chance: both are driven by pathogenic IgG (anti-AChR vs anti-AQP4) and a tendency to further autoimmunity, and NMO can emerge after thymectomy for myasthenia."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Myasthenia gravis and pemphigus vulgaris are paradigm IgG autoantibody diseases against a cell-surface protein: anti-acetylcholine-receptor in MG versus anti-desmoglein in pemphigus, both can associate with thymoma, and both respond to plasma exchange, IVIG, and rituximab."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells sustain myasthenia gravis by making anti-acetylcholine-receptor antibodies: they secrete the IgG that blocks and destroys neuromuscular AChRs, and because they resist rituximab, plasma-cell-directed and FcRn-blocking therapies are used in refractory disease."
 ---
 
 # Myasthenia Gravis
@@ -190,6 +199,9 @@ cross_links:
 - `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Myasthenia gravis is the prototypical neuromuscular-junction disease: anti-AChR (or MuSK) autoantibodies plus complement destroy the folded postsynaptic endplate, so repeated firing fatigues transmission → fluctuating weakness; AChE inhibitors raise available ACh.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Myasthenia gravis is a T-cell-dependent autoimmune disease: CD4+ T helper cells, often primed in a hyperplastic or thymomatous thymus, drive B cells to make high-affinity anti-AChR IgG; this T-cell help is why thymectomy and broad immunosuppression are therapeutic.
 - `connects-to` → **[CIDP](../cidp/README.md)** — Myasthenia gravis and CIDP are both antibody/complement-mediated, treatable autoimmune neuromuscular disorders at different sites: MG hits the postsynaptic junction (fatigable weakness, normal reflexes), CIDP attacks nerve myelin (areflexia, sensory loss); both improve with IVIG.
+- `connects-to` → **[NMOSD](../nmo/README.md)** — Myasthenia gravis and neuromyelitis optica are antibody-mediated diseases that co-occur more than chance: both are driven by pathogenic IgG (anti-AChR vs anti-AQP4) and a tendency to further autoimmunity, and NMO can emerge after thymectomy for myasthenia.
+- `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Myasthenia gravis and pemphigus vulgaris are paradigm IgG autoantibody diseases against a cell-surface protein: anti-acetylcholine-receptor in MG versus anti-desmoglein in pemphigus, both can associate with thymoma, and both respond to plasma exchange, IVIG, and rituximab.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells sustain myasthenia gravis by making anti-acetylcholine-receptor antibodies: they secrete the IgG that blocks and destroys neuromuscular AChRs, and because they resist rituximab, plasma-cell-directed and FcRn-blocking therapies are used in refractory disease.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
