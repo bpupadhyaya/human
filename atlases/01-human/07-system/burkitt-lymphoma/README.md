@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Burkitt lymphoma exposes the immune system's role in cancer control: it surges in immunodeficiency (HIV) and where chronic malaria and EBV exhaust immune surveillance—so endemic Burkitt is partly a cancer of weakened immune defense against EBV-driven B cells."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Burkitt lymphoma is an aggressive cancer of the lymphatic system: the endemic form classically erupts as a jaw or facial mass while sporadic disease hits abdominal lymph nodes and bowel, reflecting its origin in germinal-center B cells of lymphoid tissue."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Burkitt lymphoma can flood the bone marrow and blood: with the fastest doubling time of any human tumor, it readily spills into marrow as a leukemic phase, so it overlaps clinically with acute leukemia and demands immediate intensive chemotherapy."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Burkitt lymphoma is the textbook cause of tumor lysis syndrome threatening the kidney: its explosive growth and rapid chemo-induced cell death dump uric acid, potassium and phosphate that can crystallize and cause acute kidney injury without aggressive prophylaxis."
 ---
 
 # Burkitt Lymphoma
@@ -234,6 +243,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Burkitt lymphoma is MYC-driven, not BCL2-driven—a key contrast: classic Burkitt carries the MYC translocation and is BCL2-negative, so a tumor with both MYC and BCL2 rearrangements is instead a more aggressive double-hit high-grade lymphoma, not true Burkitt.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Burkitt lymphoma is a germinal-center B cell frozen short of plasma-cell fate: the MYC-driven clone proliferates explosively (near-100% Ki-67) instead of maturing into antibody-secreting plasma cells—so its hallmark is runaway growth, the fastest-doubling human tumor.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Burkitt lymphoma exposes the immune system's role in cancer control: it surges in immunodeficiency (HIV) and where chronic malaria and EBV exhaust immune surveillance—so endemic Burkitt is partly a cancer of weakened immune defense against EBV-driven B cells.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Burkitt lymphoma is an aggressive cancer of the lymphatic system: the endemic form classically erupts as a jaw or facial mass while sporadic disease hits abdominal lymph nodes and bowel, reflecting its origin in germinal-center B cells of lymphoid tissue.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Burkitt lymphoma can flood the bone marrow and blood: with the fastest doubling time of any human tumor, it readily spills into marrow as a leukemic phase, so it overlaps clinically with acute leukemia and demands immediate intensive chemotherapy.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Burkitt lymphoma is the textbook cause of tumor lysis syndrome threatening the kidney: its explosive growth and rapid chemo-induced cell death dump uric acid, potassium and phosphate that can crystallize and cause acute kidney injury without aggressive prophylaxis.
 
 ---
 

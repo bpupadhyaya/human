@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Carney complex causes hormone-secreting pituitary tumors: unchecked PKA signaling produces somatotroph adenomas secreting growth hormone and prolactin, so acromegaly and hyperprolactinemia are part of the syndrome's endocrine overactivity."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin is a key clue to Carney complex: spotty brown lentigines (notably on lips and eyelids), blue nevi and cutaneous myxomas are often the first visible signs of this PRKAR1A-driven multiple-neoplasia syndrome, prompting cardiac and endocrine screening."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Cardiac myxomas are the lethal hallmark of Carney complex: these benign heart tumors—unlike sporadic myxomas—are multiple, recur, and arise in any chamber, so they can obstruct flow or embolize to cause stroke, making cardiac surveillance lifesaving."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Carney complex strikes the nervous system through a rare nerve-sheath tumor: psammomatous melanotic schwannoma is a near-specific feature, so pigmented nerve tumors plus skin spots and myxomas point to the PRKAR1A mutation behind the syndrome."
 ---
 
 # Carney Complex
@@ -221,6 +230,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Carney complex affects the thyroid: PRKAR1A loss and unrestrained PKA signaling cause thyroid nodules and follicular tumors alongside the syndrome's other endocrine overgrowths, so thyroid surveillance joins cardiac and adrenal monitoring in affected families.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Carney complex's myxomas are fibroblast-rich tumors: PKA dysregulation drives benign myxoid neoplasms—especially cardiac myxomas that can embolize or obstruct—built of stellate fibroblast-like cells in a mucoid matrix, the most dangerous feature of the syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Carney complex causes hormone-secreting pituitary tumors: unchecked PKA signaling produces somatotroph adenomas secreting growth hormone and prolactin, so acromegaly and hyperprolactinemia are part of the syndrome's endocrine overactivity.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is a key clue to Carney complex: spotty brown lentigines (notably on lips and eyelids), blue nevi and cutaneous myxomas are often the first visible signs of this PRKAR1A-driven multiple-neoplasia syndrome, prompting cardiac and endocrine screening.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Cardiac myxomas are the lethal hallmark of Carney complex: these benign heart tumors—unlike sporadic myxomas—are multiple, recur, and arise in any chamber, so they can obstruct flow or embolize to cause stroke, making cardiac surveillance lifesaving.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Carney complex strikes the nervous system through a rare nerve-sheath tumor: psammomatous melanotic schwannoma is a near-specific feature, so pigmented nerve tumors plus skin spots and myxomas point to the PRKAR1A mutation behind the syndrome.
 
 ---
 
