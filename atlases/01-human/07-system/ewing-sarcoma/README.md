@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Ewing sarcoma and Li-Fraumeni syndrome intersect at TP53: germline p53 loss in Li-Fraumeni predisposes to many sarcomas, and somatic TP53 mutation worsens Ewing's prognosis—both show how losing the genome's guardian fuels these aggressive bone and soft-tissue cancers."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone marrow involvement marks advanced Ewing sarcoma: this small round blue cell bone tumor can spread to the marrow, so staging includes marrow assessment and metastasis signals worse prognosis—why systemic chemotherapy is essential even for localized disease."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Ewing sarcoma's cell of origin is a debated mesenchymal progenitor: it likely arises from a mesenchymal or neural-crest cell related to fibroblasts, and the EWSR1-FLI1 fusion reprograms it into the aggressive small round blue cell tumor."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Ewing sarcoma and synovial sarcoma are both translocation-driven sarcomas of young people: Ewing carries EWSR1-FLI1 and synovial sarcoma SS18-SSX, single fusion oncogenes that define each tumor—so molecular testing for the specific fusion secures the diagnosis."
 ---
 
 # Ewing Sarcoma
@@ -210,6 +219,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Ewing sarcoma and neuroblastoma are both 'small round blue cell' childhood tumors that can look alike on biopsy but are biologically distinct: Ewing is driven by the EWSR1-FLI1 fusion in bone, neuroblastoma by MYCN-amplified sympathetic neuroblasts—IHC separates them.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Ewing sarcoma's cell of origin is debated between mesenchymal stem cells and the neural-crest/osteoblast lineage: unlike osteosarcoma it makes no bone matrix, so the EWSR1-FLI1 fusion—not an osteoblast program—defines it, arising within bone yet producing no osteoid.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Ewing sarcoma and Li-Fraumeni syndrome intersect at TP53: germline p53 loss in Li-Fraumeni predisposes to many sarcomas, and somatic TP53 mutation worsens Ewing's prognosis—both show how losing the genome's guardian fuels these aggressive bone and soft-tissue cancers.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow involvement marks advanced Ewing sarcoma: this small round blue cell bone tumor can spread to the marrow, so staging includes marrow assessment and metastasis signals worse prognosis—why systemic chemotherapy is essential even for localized disease.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Ewing sarcoma's cell of origin is a debated mesenchymal progenitor: it likely arises from a mesenchymal or neural-crest cell related to fibroblasts, and the EWSR1-FLI1 fusion reprograms it into the aggressive small round blue cell tumor.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Ewing sarcoma and synovial sarcoma are both translocation-driven sarcomas of young people: Ewing carries EWSR1-FLI1 and synovial sarcoma SS18-SSX, single fusion oncogenes that define each tumor—so molecular testing for the specific fusion secures the diagnosis.
 
 ---
 
