@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/retinoblastoma
     relation: connects-to
     note: "Wilms tumor and retinoblastoma are paradigm embryonal childhood cancers fitting Knudson's two-hit model: bilateral Wilms (often WT1-linked) parallels heritable bilateral retinoblastoma—germline loss of one suppressor allele plus a somatic second hit drives early tumors."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is part of risk-adapted Wilms tumor cure: flank or whole-abdomen photon radiation is added for higher-stage or unfavorable-histology disease after nephrectomy and chemotherapy, contributing to Wilms' high cure rate."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "Wilms tumor and rhabdoid tumors are distinct pediatric renal/CNS cancers: classic Wilms is a WT1-related nephroblastoma with good prognosis, while malignant rhabdoid tumor of the kidney (and CNS ATRT) is a SMARCB1-deficient, far more aggressive tumor."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Wilms tumor and medulloblastoma are both embryonal childhood tumors arising from developmental precursors: Wilms from metanephric blastema (WT1/Wnt), medulloblastoma from cerebellar progenitors—different organs, but both recapitulate arrested embryonic development."
 ---
 
 # Wilms Tumor
@@ -204,6 +213,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Wilms tumor and renal cell carcinoma are the kidney cancers of childhood versus adulthood: Wilms (nephroblastoma) is an embryonal tumor of nephron precursors curable with surgery and chemo, while RCC arises from mature tubular epithelium in adults, driven by VHL/HIF.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Wilms tumor's blastemal component enters the small-round-blue-cell differential with Ewing sarcoma: both are pediatric tumors of primitive cells, but Wilms is triphasic (blastema/epithelium/stroma) with WT1 changes while Ewing is EWSR1-FLI1-driven.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Wilms tumor and retinoblastoma are paradigm embryonal childhood cancers fitting Knudson's two-hit model: bilateral Wilms (often WT1-linked) parallels heritable bilateral retinoblastoma—germline loss of one suppressor allele plus a somatic second hit drives early tumors.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is part of risk-adapted Wilms tumor cure: flank or whole-abdomen photon radiation is added for higher-stage or unfavorable-histology disease after nephrectomy and chemotherapy, contributing to Wilms' high cure rate.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Wilms tumor and rhabdoid tumors are distinct pediatric renal/CNS cancers: classic Wilms is a WT1-related nephroblastoma with good prognosis, while malignant rhabdoid tumor of the kidney (and CNS ATRT) is a SMARCB1-deficient, far more aggressive tumor.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Wilms tumor and medulloblastoma are both embryonal childhood tumors arising from developmental precursors: Wilms from metanephric blastema (WT1/Wnt), medulloblastoma from cerebellar progenitors—different organs, but both recapitulate arrested embryonic development.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
