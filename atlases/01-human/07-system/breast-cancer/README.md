@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Ang-2 promotes breast cancer angiogenesis: hypoxic tumor cells secrete Ang-2 → vessel destabilization → VEGF-driven sprouting; tumor Ang-2 correlates with lymph node metastasis and poor prognosis; Ang-2 blockade combined with anti-VEGF shows additive anti-tumor activity."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Breast and endometrial cancers are linked estrogen-driven malignancies: unopposed estrogen fuels both, and tamoxifen—an anti-estrogen in breast tissue—acts as a uterine estrogen agonist, raising endometrial cancer risk; obesity and the hormone milieu tie the two together."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Breast and ovarian cancers are the twin BRCA1/2 tumors of hereditary breast-ovarian cancer syndrome: germline BRCA loss cripples homologous-recombination repair, predisposing to both and making them exquisitely sensitive to PARP inhibitors (olaparib) and platinum chemotherapy."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Bone is the most common site of breast cancer metastasis: tumor cells secrete PTHrP that drives osteoblasts to overproduce RANKL → osteoclast activation → osteolytic destruction and a cycle releasing bone-stored growth factors; denosumab and bisphosphonates target this loop."
 ---
 
 # Breast Cancer
@@ -173,6 +182,9 @@ cross_links:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — breast cancer bone metastases exploit the RANKL axis: PTHrP from tumor cells → osteoblast RANKL → osteoclast osteolysis releases TGF-β and IGF-1 → vicious cycle of tumor-bone crosstalk; denosumab (Xgeva) delays skeletal-related events by ~8.5 months vs. zoledronate (HALT-BC).
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Breast cancer overexpresses CXCR4 → homing to CXCL12-rich organs (bone marrow, lung, liver, brain) → organ-specific metastasis; stromal CXCL12 promotes primary tumor growth; CXCR4 correlates with lymph node involvement and poor prognosis; anti-CXCR4 therapy in trials.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-2 promotes breast cancer angiogenesis: hypoxic tumor cells secrete Ang-2 → vessel destabilization → VEGF-driven sprouting; tumor Ang-2 correlates with lymph node metastasis and poor prognosis; Ang-2 blockade combined with anti-VEGF shows additive anti-tumor activity.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Breast and endometrial cancers are linked estrogen-driven malignancies: unopposed estrogen fuels both, and tamoxifen—an anti-estrogen in breast tissue—acts as a uterine estrogen agonist, raising endometrial cancer risk; obesity and the hormone milieu tie the two together.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Breast and ovarian cancers are the twin BRCA1/2 tumors of hereditary breast-ovarian cancer syndrome: germline BRCA loss cripples homologous-recombination repair, predisposing to both and making them exquisitely sensitive to PARP inhibitors (olaparib) and platinum chemotherapy.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Bone is the most common site of breast cancer metastasis: tumor cells secrete PTHrP that drives osteoblasts to overproduce RANKL → osteoclast activation → osteolytic destruction and a cycle releasing bone-stored growth factors; denosumab and bisphosphonates target this loop.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
