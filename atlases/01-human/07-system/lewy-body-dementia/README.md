@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Lewy bodies are intraneuronal inclusions of misfolded alpha-synuclein; in DLB they fill cortical and limbic neurons, and selective loss of cholinergic, dopaminergic, and noradrenergic neurons produces the dementia, parkinsonism, and dysautonomia."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep disorder is a core, often first feature of Lewy body dementia: REM sleep behavior disorder—acting out dreams from loss of REM atonia—can precede dementia by years and strongly predicts a synucleinopathy; LBD also brings fragmented sleep and daytime somnolence."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression is common and often early in Lewy body dementia: degeneration of monoaminergic brainstem nuclei (serotonin, noradrenaline) plus cognitive and motor decline drive mood symptoms that can predate the dementia, complicating the distinction from late-life depression."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Neuroinflammation accompanies Lewy body dementia: microglia activated by misfolded α-synuclein release pro-inflammatory cytokines and reactive species that amplify neuronal injury and may spread pathology; PET shows microglial activation tracking disease, a therapeutic target."
 ---
 
 # Lewy Body Dementia
@@ -197,6 +206,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Lewy body dementia carries the most severe cholinergic deficit — ~80% loss of cortical choline acetyltransferase, worse than Alzheimer's — driving fluctuating attention and visual hallucinations, and explaining why cholinesterase inhibitors help DLB more than AD.
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Treating the parkinsonism of Lewy body dementia with dopamine agonists can unleash impulse-control disorders (gambling, hypersexuality, compulsive shopping) by over-stimulating mesolimbic reward circuits; recognizing and dose-reducing is essential.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Lewy bodies are intraneuronal inclusions of misfolded alpha-synuclein; in DLB they fill cortical and limbic neurons, and selective loss of cholinergic, dopaminergic, and noradrenergic neurons produces the dementia, parkinsonism, and dysautonomia.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disorder is a core, often first feature of Lewy body dementia: REM sleep behavior disorder—acting out dreams from loss of REM atonia—can precede dementia by years and strongly predicts a synucleinopathy; LBD also brings fragmented sleep and daytime somnolence.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is common and often early in Lewy body dementia: degeneration of monoaminergic brainstem nuclei (serotonin, noradrenaline) plus cognitive and motor decline drive mood symptoms that can predate the dementia, complicating the distinction from late-life depression.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation accompanies Lewy body dementia: microglia activated by misfolded α-synuclein release pro-inflammatory cytokines and reactive species that amplify neuronal injury and may spread pathology; PET shows microglial activation tracking disease, a therapeutic target.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

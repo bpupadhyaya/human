@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "SWS disruption in insomnia suppresses GH (70-80% of daily GH occurs in the first SWS episode); chronic insomnia → reduced GH output; treating sleep disorders with CBT-I or pharmacotherapy may partially restore GH secretory dynamics."
+  - target: 01-human/07-system/lewy-body-dementia
+    relation: connects-to
+    note: "REM sleep behavior disorder—dream-enactment from lost REM atonia—is a powerful early marker of Lewy body dementia and other synucleinopathies, often preceding them by years; LBD also fragments sleep with daytime sleepiness, so these complaints warrant neuro evaluation."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Insomnia and depression are deeply intertwined and bidirectional: insomnia is both a symptom and an independent risk factor for new and recurrent depression, the two share monoaminergic and HPA-axis dysregulation, and treating insomnia (CBT-I) improves depression outcomes."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Insomnia and generalized anxiety reinforce each other: anxious hyperarousal and rumination make sleep hard, while the resulting sleep loss heightens next-day anxiety; both share elevated cortisol and noradrenergic tone, and CBT-I plus anxiety treatment address the loop."
 ---
 
 # Insomnia Disorder
@@ -208,6 +217,9 @@ CBT-I directly targets perpetuating factors.
 
 - `connects-to` → **[Melatonin](../../../03-molecular/melatonin/README.md)** — melatonin MT1 activation reduces SCN firing and lowers the arousal threshold at sleep onset; MT2 receptors mediate circadian phase shifts; ramelteon (MT1/MT2 agonist, FDA-approved 2005) is effective for sleep-onset insomnia with no abuse potential or dependence risk; exogenous melatonin (0.5–3 mg timed at DLMO) addresses circadian-phase insomnia variants (DSPD, jet lag).
 - `connects-to` → **[Growth Hormone](../../../03-molecular/growth-hormone/README.md)** — SWS disruption in insomnia suppresses GH (70-80% of daily GH occurs in the first SWS episode within 1 hour of sleep onset); chronic insomnia → reduced GH output; treating sleep disorders with CBT-I or pharmacotherapy may partially restore GH secretory dynamics.
+- `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — REM sleep behavior disorder—dream-enactment from lost REM atonia—is a powerful early marker of Lewy body dementia and other synucleinopathies, often preceding them by years; LBD also fragments sleep with daytime sleepiness, so these complaints warrant neuro evaluation.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Insomnia and depression are deeply intertwined and bidirectional: insomnia is both a symptom and an independent risk factor for new and recurrent depression, the two share monoaminergic and HPA-axis dysregulation, and treating insomnia (CBT-I) improves depression outcomes.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Insomnia and generalized anxiety reinforce each other: anxious hyperarousal and rumination make sleep hard, while the resulting sleep loss heightens next-day anxiety; both share elevated cortisol and noradrenergic tone, and CBT-I plus anxiety treatment address the loop.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
