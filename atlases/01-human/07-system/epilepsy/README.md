@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Epilepsy and schizophrenia are bidirectionally linked: temporal-lobe epilepsy can produce a schizophrenia-like psychosis, each roughly doubles the risk of the other, and they share disturbances of glutamate and GABA—so a first psychotic episode sometimes warrants EEG."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Voltage-gated sodium channels are epilepsy's central target: sodium influx fires the action potentials that, when runaway, become seizures, so many first-line drugs (phenytoin, lamotrigine) work by blocking these channels—and SCN1A mutations cause epilepsy."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Epilepsy is fundamentally a disorder of the synapse: seizures arise when synaptic excitation (glutamate) overwhelms inhibition (GABA), so the tipped excitation-inhibition balance at synapses is the common final pathway across epilepsy's many causes."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Epilepsy is a disorder of the whole nervous system's electrical stability: hypersynchronous neuronal discharges can start focally or generalize across networks, so seizures are a shared symptom of countless insults—from genetics to stroke, tumor and infection."
 ---
 
 # Epilepsy
@@ -259,6 +268,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Brain tumors are an important cause of epilepsy: glioblastoma and other gliomas irritate surrounding cortex, so new-onset seizures in an adult mandate brain imaging—seizures are often the presenting sign of a glioma, and tumor-related epilepsy can be hard to control.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is the seat of the commonest focal epilepsy: mesial temporal sclerosis—hippocampal scarring and neuron loss—generates temporal-lobe seizures, and surgically removing the sclerotic hippocampus can cure drug-resistant cases.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Epilepsy and schizophrenia are bidirectionally linked: temporal-lobe epilepsy can produce a schizophrenia-like psychosis, each roughly doubles the risk of the other, and they share disturbances of glutamate and GABA—so a first psychotic episode sometimes warrants EEG.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Voltage-gated sodium channels are epilepsy's central target: sodium influx fires the action potentials that, when runaway, become seizures, so many first-line drugs (phenytoin, lamotrigine) work by blocking these channels—and SCN1A mutations cause epilepsy.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Epilepsy is fundamentally a disorder of the synapse: seizures arise when synaptic excitation (glutamate) overwhelms inhibition (GABA), so the tipped excitation-inhibition balance at synapses is the common final pathway across epilepsy's many causes.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Epilepsy is a disorder of the whole nervous system's electrical stability: hypersynchronous neuronal discharges can start focally or generalize across networks, so seizures are a shared symptom of countless insults—from genetics to stroke, tumor and infection.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

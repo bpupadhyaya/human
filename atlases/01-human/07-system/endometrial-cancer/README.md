@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/hlrcc
     relation: connects-to
     note: "Endometrial and uterine tumors link endometrial cancer to HLRCC: fumarate-hydratase loss causes the uterine leiomyomas that name HLRCC and FH-deficient uterine cancers—so uterine smooth-muscle or endometrial tumors with a family history may flag the HLRCC mutation."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PIK3CA mutation is among the commonest drivers of endometrial cancer: it activates the PI3K/AKT/mTOR growth pathway (often alongside PTEN loss), so this axis is a leading target for the mTOR and PI3K inhibitors being developed for the disease."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Endometrial cancer is tightly linked to insulin and metabolic excess: obesity and type 2 diabetes raise insulin and IGF-1, which—with the estrogen made by fat tissue—stimulate endometrial proliferation, explaining why metabolic disease so strongly raises risk."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Endometrial cancer is the prototypical hormone-dependent tumor of the endocrine system: unopposed estrogen without progesterone drives endometrial overgrowth, so conditions and drugs that disturb the estrogen-progesterone balance change the risk markedly."
 ---
 
 # Endometrial Cancer
@@ -220,6 +229,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is a key adjuvant in endometrial cancer: after hysterectomy, vaginal brachytherapy or pelvic external-beam photon radiation lowers local recurrence, and radiation can treat inoperable patients—complementing surgery in the commonest gynecologic cancer.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Endometrial cancer is the commonest gynecologic-tract cancer of the reproductive system: arising from the estrogen-responsive uterine lining, it is driven by unopposed estrogen, so the reproductive system's own hormonal milieu fuels the tumor.
 - `connects-to` → **[HLRCC](../hlrcc/README.md)** — Endometrial and uterine tumors link endometrial cancer to HLRCC: fumarate-hydratase loss causes the uterine leiomyomas that name HLRCC and FH-deficient uterine cancers—so uterine smooth-muscle or endometrial tumors with a family history may flag the HLRCC mutation.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutation is among the commonest drivers of endometrial cancer: it activates the PI3K/AKT/mTOR growth pathway (often alongside PTEN loss), so this axis is a leading target for the mTOR and PI3K inhibitors being developed for the disease.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Endometrial cancer is tightly linked to insulin and metabolic excess: obesity and type 2 diabetes raise insulin and IGF-1, which—with the estrogen made by fat tissue—stimulate endometrial proliferation, explaining why metabolic disease so strongly raises risk.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Endometrial cancer is the prototypical hormone-dependent tumor of the endocrine system: unopposed estrogen without progesterone drives endometrial overgrowth, so conditions and drugs that disturb the estrogen-progesterone balance change the risk markedly.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
