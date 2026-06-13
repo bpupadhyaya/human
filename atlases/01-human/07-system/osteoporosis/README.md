@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Cortisol excess is a major cause of osteoporosis: glucocorticoids suppress osteoblasts, promote osteoclast survival and reduce calcium absorption, so both Cushing's syndrome and long-term steroid therapy cause rapid bone loss—the most common drug-induced osteoporosis."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone is remodeled in concert with the marrow it houses: osteoporosis reflects an imbalance between osteoclasts and osteoblasts at the bone-marrow interface, and with age red marrow gives way to fat as bone is lost—linking declining marrow and skeletal mass."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium is an underappreciated factor in bone health: about half the body's magnesium sits in bone, and it is needed for vitamin D activation and PTH secretion, so chronic magnesium deficiency impairs mineralization and contributes to osteoporosis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Osteoporosis is largely an endocrine disease: estrogen, testosterone, thyroid hormone, parathyroid hormone and cortisol all govern bone turnover, so hormonal shifts (menopause, hyperthyroidism, steroid excess) are leading causes of bone loss."
 ---
 
 # Osteoporosis
@@ -211,6 +220,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the mineral osteoporosis depletes: bone is the body's calcium reservoir, and when intake or absorption falls, parathyroid hormone pulls calcium from bone to keep blood levels constant—so chronic deficiency drives the net bone loss that weakens the skeleton.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D is essential to prevent osteoporosis: it drives intestinal calcium absorption, so deficiency causes secondary hyperparathyroidism that strips bone, and adequate vitamin D plus calcium is the foundation on which osteoporosis drug therapy is built.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol excess is a major cause of osteoporosis: glucocorticoids suppress osteoblasts, promote osteoclast survival and reduce calcium absorption, so both Cushing's syndrome and long-term steroid therapy cause rapid bone loss—the most common drug-induced osteoporosis.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone is remodeled in concert with the marrow it houses: osteoporosis reflects an imbalance between osteoclasts and osteoblasts at the bone-marrow interface, and with age red marrow gives way to fat as bone is lost—linking declining marrow and skeletal mass.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium is an underappreciated factor in bone health: about half the body's magnesium sits in bone, and it is needed for vitamin D activation and PTH secretion, so chronic magnesium deficiency impairs mineralization and contributes to osteoporosis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Osteoporosis is largely an endocrine disease: estrogen, testosterone, thyroid hormone, parathyroid hormone and cortisol all govern bone turnover, so hormonal shifts (menopause, hyperthyroidism, steroid excess) are leading causes of bone loss.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
