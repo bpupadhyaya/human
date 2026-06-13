@@ -50,6 +50,15 @@ cross_links:
   - target: 01-human/03-molecular/progesterone
     relation: connects-to
     note: "Progesterone completes the reproductive steroid trio with estrogen and testosterone: from the corpus luteum (and placenta) it prepares the endometrium for implantation, sustains pregnancy, and suppresses ovulation by feedback — the basis of progestin contraception."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The reproductive and musculoskeletal systems are coupled through sex hormones: estrogen and testosterone build and maintain bone and muscle, so puberty drives the growth spurt and menopause's estrogen loss accelerates osteoporosis—tying gonads to skeletal health."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The reproductive and digestive systems interact metabolically: the liver clears and conjugates sex steroids, the gut microbiome's 'estrobolome' recirculates estrogen, and pregnancy crowds abdominal organs—so hormonal and GI physiology are intertwined."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Sex hormones shape the skin, linking reproductive and integumentary systems: androgens drive sebaceous glands and acne and pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so skin reflects gonadal hormonal state."
 ---
 
 # Reproductive System
@@ -176,6 +185,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The reproductive organs depend on lymphatic drainage that doubles as their cancer highway: pelvic, inguinal, and para-aortic nodes clear fluid from uterus, ovaries, prostate, and testes, and these node chains are the first metastatic sites of reproductive cancers.
 - `modulates` → **[Endocrine System](../endocrine-system/README.md)** — The reproductive system is an endocrine organ system run by the hypothalamic-pituitary-gonadal axis: GnRH → LH/FSH → ovarian or testicular steroidogenesis (estrogen, progesterone, testosterone), with feedback driving puberty, the menstrual cycle, spermatogenesis, and fertility.
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Progesterone completes the reproductive steroid trio with estrogen and testosterone: from the corpus luteum (and placenta) it prepares the endometrium for implantation, sustains pregnancy, and suppresses ovulation by feedback — the basis of progestin contraception.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The reproductive and musculoskeletal systems are coupled through sex hormones: estrogen and testosterone build and maintain bone and muscle, so puberty drives the growth spurt and menopause's estrogen loss accelerates osteoporosis—tying gonads to skeletal health.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The reproductive and digestive systems interact metabolically: the liver clears and conjugates sex steroids, the gut microbiome's 'estrobolome' recirculates estrogen, and pregnancy crowds abdominal organs—so hormonal and GI physiology are intertwined.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Sex hormones shape the skin, linking reproductive and integumentary systems: androgens drive sebaceous glands and acne and pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so skin reflects gonadal hormonal state.
 
 ## Pathology
 

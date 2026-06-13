@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Retinoblastoma and Li-Fraumeni are the paradigm hereditary cancer-predisposition syndromes built on tumor-suppressor loss: RB1 (the first tumor suppressor found, basis of Knudson's two-hit hypothesis) versus TP53; both inherit one bad allele and need only a somatic second hit."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy has a fraught role in retinoblastoma: external-beam photon radiation can control the tumor and save the eye, but in heritable RB1-mutant children it sharply raises second-cancer risk (especially osteosarcoma) in the field—so it is now largely avoided."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "Retinoblastoma and small cell lung cancer are united by RB1 loss: the tumor-suppressor that, germline-mutated, causes childhood retinoblastoma is inactivated (with TP53) in nearly all small cell lung cancers—one gene across utterly different cancers."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Survivors of heritable retinoblastoma face a lifelong excess of second cancers including melanoma: the germline RB1 mutation in every cell, compounded by radiotherapy, predisposes to melanoma and sarcomas decades later—so survivorship means lifelong surveillance."
 ---
 
 # Retinoblastoma
@@ -176,6 +185,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Retinoblastoma arises from a neuron: the developing cone photoreceptor precursor, which depends on RB1 to restrain proliferation; biallelic RB1 loss unleashes E2F-driven division, why the tumor is so specific to the retina despite RB1 being lost in every cell of carriers.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Germline retinoblastoma carries a brain risk: trilateral retinoblastoma is a pineoblastoma or suprasellar PNET — an intracranial embryonal tumor sharing the retina photoreceptor lineage — arising in a few percent of bilateral RB patients, prompting routine brain MRI surveillance.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Retinoblastoma and Li-Fraumeni are the paradigm hereditary cancer-predisposition syndromes built on tumor-suppressor loss: RB1 (the first tumor suppressor found, basis of Knudson's two-hit hypothesis) versus TP53; both inherit one bad allele and need only a somatic second hit.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a fraught role in retinoblastoma: external-beam photon radiation can control the tumor and save the eye, but in heritable RB1-mutant children it sharply raises second-cancer risk (especially osteosarcoma) in the field—so it is now largely avoided.
+- `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — Retinoblastoma and small cell lung cancer are united by RB1 loss: the tumor-suppressor that, germline-mutated, causes childhood retinoblastoma is inactivated (with TP53) in nearly all small cell lung cancers—one gene across utterly different cancers.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Survivors of heritable retinoblastoma face a lifelong excess of second cancers including melanoma: the germline RB1 mutation in every cell, compounded by radiotherapy, predisposes to melanoma and sarcomas decades later—so survivorship means lifelong surveillance.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
