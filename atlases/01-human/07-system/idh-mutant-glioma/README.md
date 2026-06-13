@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "TERT promoter mutation marks the oligodendroglioma arm of IDH-mutant glioma: combined with 1p/19q codeletion it defines oligodendroglioma, the most treatment-responsive glioma—so TERT status, opposite TP53/ATRX, separates the two IDH-mutant subtypes."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy suits IDH-mutant glioma's long survivors: because these lower-grade gliomas strike younger patients who live many years, protons' reduced dose to surrounding brain helps limit late cognitive and endocrine toxicity from radiation."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "IDH-mutant glioma is built on a carbon-metabolism quirk: the mutant enzyme converts a Krebs-cycle intermediate into the carbon oncometabolite 2-hydroxyglutarate, which reprograms DNA and histone methylation to drive these gliomas—and is now a drug target."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "IDH-mutant gliomas are the more indolent diffuse tumors of the nervous system: they infiltrate the brain like glioblastoma but, being IDH-mutant, grow slower and respond better to treatment—so molecular status, not just appearance, predicts the course."
 ---
 
 # IDH-Mutant Glioma
@@ -231,6 +240,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2 mutation is the rarer twin of IDH1 in glioma: both produce the oncometabolite 2-hydroxyglutarate that reprograms the epigenome, so IDH2 defines the same favorable-prognosis glioma class and is targetable by the same IDH inhibitors as IDH1.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 and ATRX mutation define the astrocytoma arm of IDH-mutant glioma: when an IDH-mutant tumor also loses p53 and ATRX it is an astrocytoma, whereas 1p/19q-codeleted TERT-mutant tumors are oligodendrogliomas—so p53 status splits the two IDH-glioma lineages.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutation marks the oligodendroglioma arm of IDH-mutant glioma: combined with 1p/19q codeletion it defines oligodendroglioma, the most treatment-responsive glioma—so TERT status, opposite TP53/ATRX, separates the two IDH-mutant subtypes.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy suits IDH-mutant glioma's long survivors: because these lower-grade gliomas strike younger patients who live many years, protons' reduced dose to surrounding brain helps limit late cognitive and endocrine toxicity from radiation.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IDH-mutant glioma is built on a carbon-metabolism quirk: the mutant enzyme converts a Krebs-cycle intermediate into the carbon oncometabolite 2-hydroxyglutarate, which reprograms DNA and histone methylation to drive these gliomas—and is now a drug target.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — IDH-mutant gliomas are the more indolent diffuse tumors of the nervous system: they infiltrate the brain like glioblastoma but, being IDH-mutant, grow slower and respond better to treatment—so molecular status, not just appearance, predicts the course.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

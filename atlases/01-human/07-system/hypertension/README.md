@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium handling is a key hypertension lever: calcium influx contracts vascular smooth muscle to raise pressure, which is why calcium-channel blockers are first-line antihypertensives—relaxing arteries by blocking the calcium that drives their tone."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Hypertension is driven by vascular smooth muscle: arteriolar smooth-muscle tone sets peripheral resistance, and chronic high pressure thickens these cells, stiffening vessels—so smooth-muscle relaxation is the target of calcium-channel blockers and vasodilators."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The renal system is both cause and victim of hypertension: the kidney sets long-term blood pressure through salt and renin handling, so renal disease raises pressure while sustained hypertension damages the kidney—a self-amplifying vicious loop."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Norepinephrine and sympathetic drive raise blood pressure: catecholamines constrict vessels and speed the heart, so overactive sympathetic tone elevates pressure—the rationale for beta-blockers and alpha-blockers and the cause of surges in pheochromocytoma."
 ---
 
 # Hypertension
@@ -190,6 +199,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide failure underlies much hypertension: healthy endothelium releases NO to relax arteries, so when endothelial dysfunction cuts NO, vessels stay constricted and pressure rises—linking early vascular injury to sustained high blood pressure.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Hypertension is the leading driver of cardiovascular disease: chronic high pressure damages arteries throughout the body, accelerating atherosclerosis and straining the heart, so controlling it prevents the strokes, heart attacks and kidney failure it causes.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium handling is a key hypertension lever: calcium influx contracts vascular smooth muscle to raise pressure, which is why calcium-channel blockers are first-line antihypertensives—relaxing arteries by blocking the calcium that drives their tone.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Hypertension is driven by vascular smooth muscle: arteriolar smooth-muscle tone sets peripheral resistance, and chronic high pressure thickens these cells, stiffening vessels—so smooth-muscle relaxation is the target of calcium-channel blockers and vasodilators.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The renal system is both cause and victim of hypertension: the kidney sets long-term blood pressure through salt and renin handling, so renal disease raises pressure while sustained hypertension damages the kidney—a self-amplifying vicious loop.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Norepinephrine and sympathetic drive raise blood pressure: catecholamines constrict vessels and speed the heart, so overactive sympathetic tone elevates pressure—the rationale for beta-blockers and alpha-blockers and the cause of surges in pheochromocytoma.
 
 ## Pathology
 
