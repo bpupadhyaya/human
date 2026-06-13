@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "ALS shares the TDP-43 proteinopathy that also marks frontotemporal dementia and a subset of Alzheimer's: ~50% of ALS patients show cognitive change, C9orf72 expansion causes both ALS and FTD, and cytoplasmic TDP-43 aggregates link these diseases mechanistically."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "ALS dismantles the neuromuscular junction early: as motor neurons degenerate, their axons die back and synapses retract from muscle endplates (denervation), causing fasciculations, weakness and wasting—this 'dying-back' NMJ loss may precede cell-body death."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "ALS devastates the musculoskeletal system through denervation: loss of upper and lower motor neurons produces progressive muscle weakness, wasting, spasticity and ultimately paralysis, while sparing sensation; the relentless decline in muscle function defines the disability."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Respiratory failure is the usual cause of death in ALS: degeneration of the motor neurons driving the diaphragm and accessory muscles progressively weakens ventilation, so non-invasive ventilation prolongs survival and forced vital capacity is a key prognostic and trial endpoint."
 ---
 
 # ALS
@@ -215,6 +224,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[CIDP](../cidp/README.md)** — ALS and CIDP both cause progressive weakness but at different sites: ALS is irreversible degeneration of the motor neuron itself, whereas CIDP is immune demyelination of the peripheral nerve — treatable and often reversible — so distinguishing them is critical.
 
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — ALS shares the TDP-43 proteinopathy that also marks frontotemporal dementia and a subset of Alzheimer's: ~50% of ALS patients show cognitive change, C9orf72 expansion causes both ALS and FTD, and cytoplasmic TDP-43 aggregates link these diseases mechanistically.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — ALS dismantles the neuromuscular junction early: as motor neurons degenerate, their axons die back and synapses retract from muscle endplates (denervation), causing fasciculations, weakness and wasting—this 'dying-back' NMJ loss may precede cell-body death.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — ALS devastates the musculoskeletal system through denervation: loss of upper and lower motor neurons produces progressive muscle weakness, wasting, spasticity and ultimately paralysis, while sparing sensation; the relentless decline in muscle function defines the disability.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Respiratory failure is the usual cause of death in ALS: degeneration of the motor neurons driving the diaphragm and accessory muscles progressively weakens ventilation, so non-invasive ventilation prolongs survival and forced vital capacity is a key prognostic and trial endpoint.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

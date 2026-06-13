@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/osteosarcoma
     relation: connects-to
     note: "Ewing sarcoma and osteosarcoma are the two main pediatric bone cancers but differ fundamentally: osteosarcoma is an osteoid-producing tumor of the metaphysis, Ewing a small-round-cell tumor of the diaphysis driven by EWSR1-FLI1 — and unlike osteosarcoma, Ewing is radiosensitive."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Ewing sarcoma is a small-round-blue-cell malignancy of the musculoskeletal system: it arises in bone (pelvis, femur, ribs) or soft tissue of children and young adults with pain and a mass, driven by the EWSR1-FLI1 fusion rather than the osteoid production of osteosarcoma."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Ewing sarcoma and rhabdomyosarcoma are the two commonest pediatric small-round-blue-cell sarcomas and key differentials: both need molecular work-up—Ewing has EWSR1-FLI1 and CD99, rhabdomyosarcoma shows myogenic markers (desmin, myogenin) and PAX-FOXO1—since treatment differs."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ewing sarcoma is notably radiosensitive: unlike most bone sarcomas, radiotherapy is a primary local-control option (with surgery) for tumors in unresectable sites like the pelvis or spine, integrated with intensive multi-agent chemotherapy—photon/proton radiation exploits it."
 ---
 
 # Ewing Sarcoma
@@ -186,6 +195,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Chordoma](../chordoma/README.md)** — Ewing sarcoma and chordoma are both fusion/lineage-defined bone tumors but opposites: Ewing a fast small-round-blue-cell tumor of children driven by EWSR1-FLI1, chordoma a slow midline notochordal tumor of adults driven by TBXT — one genetic lesion specifying an entire sarcoma.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the most common metastatic site in Ewing sarcoma, and isolated pulmonary metastases carry a better prognosis than bone or marrow spread; whole-lung irradiation is added for lung-only metastatic disease, and metastasectomy of residual nodules is considered after chemo.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Ewing sarcoma and osteosarcoma are the two main pediatric bone cancers but differ fundamentally: osteosarcoma is an osteoid-producing tumor of the metaphysis, Ewing a small-round-cell tumor of the diaphysis driven by EWSR1-FLI1 — and unlike osteosarcoma, Ewing is radiosensitive.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Ewing sarcoma is a small-round-blue-cell malignancy of the musculoskeletal system: it arises in bone (pelvis, femur, ribs) or soft tissue of children and young adults with pain and a mass, driven by the EWSR1-FLI1 fusion rather than the osteoid production of osteosarcoma.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Ewing sarcoma and rhabdomyosarcoma are the two commonest pediatric small-round-blue-cell sarcomas and key differentials: both need molecular work-up—Ewing has EWSR1-FLI1 and CD99, rhabdomyosarcoma shows myogenic markers (desmin, myogenin) and PAX-FOXO1—since treatment differs.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ewing sarcoma is notably radiosensitive: unlike most bone sarcomas, radiotherapy is a primary local-control option (with surgery) for tumors in unresectable sites like the pelvis or spine, integrated with intensive multi-agent chemotherapy—photon/proton radiation exploits it.
 
 ---
 
