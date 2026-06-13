@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/gastric-cancer
     relation: connects-to
     note: "MAP raises upper-GI as well as colorectal risk: many patients develop duodenal and gastric polyps, and gastric/duodenal cancer risk is elevated, so MUTYH biallelic carriers need upper-endoscopic surveillance alongside their colonoscopy."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "MAP and HDGC are inherited GI cancer syndromes with different mechanisms: MAP from biallelic MUTYH loss causing colorectal polyposis, HDGC from CDH1 loss causing diffuse gastric and lobular breast cancer—both warrant upper- and lower-GI surveillance."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "MAP carries extracolonic cancer risk including the pancreas: biallelic MUTYH loss raises risk of duodenal and modestly pancreatic cancers, since unrepaired oxidative DNA damage can transform other epithelia too—so surveillance extends to the upper GI tract."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "MAP raises gynecologic as well as colorectal cancer risk: biallelic MUTYH carriers have increased endometrial (and ovarian) cancer rates, as unrepaired oxidative mutations accumulate in tissues beyond the colon—broadening surveillance for affected women."
 ---
 
 # MUTYH-Associated Polyposis
@@ -192,6 +201,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — MAP and juvenile polyposis are inherited polyposis syndromes distinguished by polyp histology: MAP (biallelic MUTYH) produces adenomatous polyps from defective oxidative DNA repair, while juvenile polyposis (SMAD4/BMPR1A) produces hamartomatous polyps.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — MAP and Peutz-Jeghers are polyposis syndromes at different poles: MAP's MUTYH-driven adenomas carry high colorectal cancer risk through the classic adenoma-carcinoma sequence, while Peutz-Jeghers' STK11 hamartomas plus mucocutaneous pigmentation raise risk across many organs.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — MAP raises upper-GI as well as colorectal risk: many patients develop duodenal and gastric polyps, and gastric/duodenal cancer risk is elevated, so MUTYH biallelic carriers need upper-endoscopic surveillance alongside their colonoscopy.
+- `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — MAP and HDGC are inherited GI cancer syndromes with different mechanisms: MAP from biallelic MUTYH loss causing colorectal polyposis, HDGC from CDH1 loss causing diffuse gastric and lobular breast cancer—both warrant upper- and lower-GI surveillance.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — MAP carries extracolonic cancer risk including the pancreas: biallelic MUTYH loss raises risk of duodenal and modestly pancreatic cancers, since unrepaired oxidative DNA damage can transform other epithelia too—so surveillance extends to the upper GI tract.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — MAP raises gynecologic as well as colorectal cancer risk: biallelic MUTYH carriers have increased endometrial (and ovarian) cancer rates, as unrepaired oxidative mutations accumulate in tissues beyond the colon—broadening surveillance for affected women.
 
 ---
 
