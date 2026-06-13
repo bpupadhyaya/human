@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Juvenile polyposis disrupts the intestinal epithelium's stromal signaling: SMAD4/BMPR1A loss impairs BMP signals that restrain crypt stem-cell expansion, so hamartomatous polyps with abundant lamina propria and dilated glands form—and dysplasia within them drives cancer risk."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "JPS and pulmonary arterial hypertension converge on BMP/TGF-β signaling: SMAD4 and BMPR1A mutations cause juvenile polyposis (often overlapping HHT), and the same BMP genes underlie PAH—one pathway yielding gut polyps, vascular malformations and pulmonary hypertension."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "JPS and Cowden are both hamartomatous polyposis syndromes with different genes: JPS from SMAD4/BMPR1A (TGF-β/BMP) loss, Cowden from PTEN (PI3K-AKT) loss—both fill the gut with hamartomatous polyps and raise GI cancer risk, while Cowden adds breast and thyroid tumors."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "JPS shares its key gene with pancreatic cancer: SMAD4 (DPC4), mutated in juvenile polyps, is also lost in most pancreatic adenocarcinomas—both show how dismantling TGF-β/BMP growth control transforms epithelium: benign-prone colon polyps versus lethal pancreatic cancer."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -205,6 +214,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric cancer is a major juvenile-polyposis risk, especially with SMAD4 mutations: hamartomatous gastric polyps accumulate dysplasia, giving JPS one of the highest hereditary gastric-cancer risks after hereditary diffuse gastric cancer—justifying surveillance and gastrectomy.
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Juvenile polyposis and MUTYH-associated polyposis are inherited polyposis syndromes raising colorectal-cancer risk but distinct: JPS makes hamartomatous polyps from SMAD4/BMPR1A defects, MAP makes adenomas from biallelic MUTYH repair loss—different polyps, shared surveillance.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Juvenile polyposis disrupts the intestinal epithelium's stromal signaling: SMAD4/BMPR1A loss impairs BMP signals that restrain crypt stem-cell expansion, so hamartomatous polyps with abundant lamina propria and dilated glands form—and dysplasia within them drives cancer risk.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — JPS and pulmonary arterial hypertension converge on BMP/TGF-β signaling: SMAD4 and BMPR1A mutations cause juvenile polyposis (often overlapping HHT), and the same BMP genes underlie PAH—one pathway yielding gut polyps, vascular malformations and pulmonary hypertension.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — JPS and Cowden are both hamartomatous polyposis syndromes with different genes: JPS from SMAD4/BMPR1A (TGF-β/BMP) loss, Cowden from PTEN (PI3K-AKT) loss—both fill the gut with hamartomatous polyps and raise GI cancer risk, while Cowden adds breast and thyroid tumors.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — JPS shares its key gene with pancreatic cancer: SMAD4 (DPC4), mutated in juvenile polyps, is also lost in most pancreatic adenocarcinomas—both show how dismantling TGF-β/BMP growth control transforms epithelium: benign-prone colon polyps versus lethal pancreatic cancer.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/ankylosing-spondylitis
     relation: connects-to
     note: "IBD and ankylosing spondylitis overlap on the spondyloarthritis spectrum: they share IL-23/Th17 biology and HLA-B27 background, axial arthritis is a common extraintestinal feature of IBD, and TNF and IL-23 blockers treat both—though IL-17 inhibitors can paradoxically flare IBD."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "IBD and psoriasis are both IL-23/Th17-driven immune diseases that often co-occur and share biologics: ustekinumab (anti-IL-12/23) treats both—yet anti-TNF agents for IBD can paradoxically trigger psoriasis, revealing how intertwined these cytokine circuits are."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "IBD and rheumatoid arthritis are distinct immune-mediated diseases united by anti-TNF therapy: TNF blockers transformed both, yet RA is an autoantibody-driven symmetric synovitis while IBD is barrier-driven gut inflammation—one cytokine, very different target tissues."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "IBD reflects a breakdown of intestinal tolerance maintained by regulatory T cells: Tregs and their IL-10 restrain responses to gut microbes, and losing this brake (as with IL-10-receptor mutations) unleashes chronic inflammation—restoring Treg function is a goal."
 ---
 
 # Inflammatory Bowel Disease
@@ -211,6 +220,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is the core target in inflammatory bowel disease: ulcerative colitis causes continuous mucosal inflammation from the rectum proximally while Crohn's can produce patchy transmural colitis; this drives bloody diarrhea, urgency and colorectal-cancer risk.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Long-standing colonic IBD is a major risk factor for colorectal cancer: chronic inflammation drives a dysplasia-carcinoma sequence distinct from sporadic CRC, so patients with extensive UC or Crohn's colitis need surveillance colonoscopy with biopsies after ~8-10 years.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — IBD and ankylosing spondylitis overlap on the spondyloarthritis spectrum: they share IL-23/Th17 biology and HLA-B27 background, axial arthritis is a common extraintestinal feature of IBD, and TNF and IL-23 blockers treat both—though IL-17 inhibitors can paradoxically flare IBD.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — IBD and psoriasis are both IL-23/Th17-driven immune diseases that often co-occur and share biologics: ustekinumab (anti-IL-12/23) treats both—yet anti-TNF agents for IBD can paradoxically trigger psoriasis, revealing how intertwined these cytokine circuits are.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — IBD and rheumatoid arthritis are distinct immune-mediated diseases united by anti-TNF therapy: TNF blockers transformed both, yet RA is an autoantibody-driven symmetric synovitis while IBD is barrier-driven gut inflammation—one cytokine, very different target tissues.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — IBD reflects a breakdown of intestinal tolerance maintained by regulatory T cells: Tregs and their IL-10 restrain responses to gut microbes, and losing this brake (as with IL-10-receptor mutations) unleashes chronic inflammation—restoring Treg function is a goal.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
