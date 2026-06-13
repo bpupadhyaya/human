@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Diffuse midline glioma forms synapses with neurons to grow: the tumor's OPC-like cells receive glutamatergic input through real neuron-to-glioma synapses that drive proliferation—so neuronal activity feeds the cancer, making activity-blocking drugs a therapeutic idea."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation frequently accompanies the H3K27M driver in DMG: loss of p53 removes the damage checkpoint atop the epigenetic catastrophe of histone mutation, accelerating this fatal pediatric brainstem tumor—a partnership of epigenetic and tumor-suppressor failure."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "CDK4/6 amplification helps drive DMG's relentless growth: alongside H3K27M, gains in the cell-cycle machinery push tumor cells past the G1 checkpoint, making CDK4/6 inhibitors one of the targeted strategies tested against this otherwise untreatable tumor."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "DMG often activates the PI3K/AKT/mTOR pathway: mutations in PIK3CA and related genes switch on mTOR-driven growth alongside the H3K27M epigenetic driver, so mTOR-pathway inhibitors are explored as targeted therapy for this lethal midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -226,6 +235,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[IDH-mutant glioma](../idh-mutant-glioma/README.md)** — Diffuse midline glioma and IDH-mutant glioma are epigenetically opposite gliomas: DMG's H3 K27M oncohistone collapses methylation in children with dismal outcomes, while adult IDH-mutant gliomas accumulate 2-HG and fare far better—chromatin reprogramming, not oncogenes.
 - `connects-to` → **[Atypical teratoid/rhabdoid tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Diffuse midline glioma and ATRT are aggressive pediatric brain tumors driven by epigenetic dysregulation: DMG by the H3 K27M histone mutation, ATRT by SMARCB1/SWI-SNF loss—both reprogram chromatin and carry a grim prognosis.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Diffuse midline glioma forms synapses with neurons to grow: the tumor's OPC-like cells receive glutamatergic input through real neuron-to-glioma synapses that drive proliferation—so neuronal activity feeds the cancer, making activity-blocking drugs a therapeutic idea.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation frequently accompanies the H3K27M driver in DMG: loss of p53 removes the damage checkpoint atop the epigenetic catastrophe of histone mutation, accelerating this fatal pediatric brainstem tumor—a partnership of epigenetic and tumor-suppressor failure.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 amplification helps drive DMG's relentless growth: alongside H3K27M, gains in the cell-cycle machinery push tumor cells past the G1 checkpoint, making CDK4/6 inhibitors one of the targeted strategies tested against this otherwise untreatable tumor.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — DMG often activates the PI3K/AKT/mTOR pathway: mutations in PIK3CA and related genes switch on mTOR-driven growth alongside the H3K27M epigenetic driver, so mTOR-pathway inhibitors are explored as targeted therapy for this lethal midline glioma.
 
 ---
 

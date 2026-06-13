@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "DIC shears red cells passing through fibrin-laden microvasculature: the strands fragment erythrocytes into schistocytes, producing a microangiopathic hemolytic anemia on the film—a clue, alongside low platelets and prolonged clotting, to consumptive coagulopathy."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is an early DIC casualty: widespread microthrombi clog glomerular capillaries while consumption of clotting factors causes bleeding, so acute kidney injury is a common, prognostically important feature of disseminated intravascular coagulation."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "DIC must be separated from VWF/ADAMTS13 disorders like TTP: both consume platelets and shear red cells, but DIC also consumes clotting factors (low fibrinogen, high D-dimer) whereas TTP spares them—the coagulation profile, not the smear alone, distinguishes them."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "DIC and immune thrombocytopenia both lower platelets by different mechanisms: DIC consumes platelets in widespread clotting (with abnormal coagulation tests), while ITP destroys them via autoantibodies with normal clotting—so coagulation studies separate them."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -226,6 +235,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Thrombotic thrombocytopenic purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — DIC and TTP both cause thrombocytopenia with microthrombi but differ in coagulation: DIC consumes clotting factors and prolongs PT/PTT, while TTP from ADAMTS13 deficiency leaves clotting times normal—normal coagulation amid a microangiopathy points to TTP.
 - `connects-to` → **[Pancreatic cancer](../pancreatic-cancer/README.md)** — Pancreatic and other mucinous adenocarcinomas are a classic chronic cause of DIC: tumor mucin and tissue factor continuously activate coagulation (Trousseau syndrome), producing migratory thrombophlebitis and consumptive coagulopathy—often the first clue to an occult cancer.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — DIC shears red cells passing through fibrin-laden microvasculature: the strands fragment erythrocytes into schistocytes, producing a microangiopathic hemolytic anemia on the film—a clue, alongside low platelets and prolonged clotting, to consumptive coagulopathy.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is an early DIC casualty: widespread microthrombi clog glomerular capillaries while consumption of clotting factors causes bleeding, so acute kidney injury is a common, prognostically important feature of disseminated intravascular coagulation.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — DIC must be separated from VWF/ADAMTS13 disorders like TTP: both consume platelets and shear red cells, but DIC also consumes clotting factors (low fibrinogen, high D-dimer) whereas TTP spares them—the coagulation profile, not the smear alone, distinguishes them.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — DIC and immune thrombocytopenia both lower platelets by different mechanisms: DIC consumes platelets in widespread clotting (with abnormal coagulation tests), while ITP destroys them via autoantibodies with normal clotting—so coagulation studies separate them.
 
 ---
 
