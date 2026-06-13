@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells help orchestrate the neuroimmune itch of prurigo nodularis: dermal dendritic cells present antigen and amplify the Th2 response that, with sensory nerves and mast cells, sustains chronic itch—part of the skin-immune-nerve crosstalk behind the nodules."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine is the classic itch mediator, but prurigo nodularis itch is largely non-histaminergic: driven by IL-31, substance P and nerve sensitization rather than mast-cell histamine, which is why antihistamines usually fail and IL-31/Th2-targeted drugs work."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "IL-13 helps drive prurigo nodularis: this type 2 cytokine, alongside IL-4 and IL-31, sustains the itch and skin inflammation, which is why dupilumab (blocking IL-4/IL-13 signaling) is now an approved, effective therapy for the disease."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Prurigo nodularis devastates sleep: relentless nocturnal itch and scratching fragment sleep, and the resulting insomnia worsens itch perception and mood—a vicious itch-scratch-sleep cycle that makes the disease far more disabling than the skin lesions alone suggest."
 ---
 
 # Prurigo Nodularis
@@ -166,6 +175,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Prurigo nodularis is driven by a type-2 (Th2) immune response: Th2 cytokines IL-4, IL-13, and especially IL-31 from helper T cells fuel the intense itch and nodule formation, which is why the IL-4/13 blocker dupilumab and IL-31 inhibitors are effective new treatments.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Prurigo nodularis and depression are bidirectionally entwined: relentless itch and disfiguring nodules cause sleep loss and depression, while depression lowers the itch threshold and fuels scratching—so the itch-scratch cycle and mood disorder reinforce each other.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help orchestrate the neuroimmune itch of prurigo nodularis: dermal dendritic cells present antigen and amplify the Th2 response that, with sensory nerves and mast cells, sustains chronic itch—part of the skin-immune-nerve crosstalk behind the nodules.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine is the classic itch mediator, but prurigo nodularis itch is largely non-histaminergic: driven by IL-31, substance P and nerve sensitization rather than mast-cell histamine, which is why antihistamines usually fail and IL-31/Th2-targeted drugs work.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13 helps drive prurigo nodularis: this type 2 cytokine, alongside IL-4 and IL-31, sustains the itch and skin inflammation, which is why dupilumab (blocking IL-4/IL-13 signaling) is now an approved, effective therapy for the disease.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Prurigo nodularis devastates sleep: relentless nocturnal itch and scratching fragment sleep, and the resulting insomnia worsens itch perception and mood—a vicious itch-scratch-sleep cycle that makes the disease far more disabling than the skin lesions alone suggest.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

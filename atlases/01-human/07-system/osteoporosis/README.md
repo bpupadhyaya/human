@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Menopause is the leading cause of osteoporosis: the sharp fall in ovarian estrogen accelerates osteoclast-driven bone resorption, so women lose bone rapidly after menopause—linking the reproductive system's hormonal shift to skeletal fragility and fracture risk."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium is the mineral osteoporosis depletes: bone is the body's calcium reservoir, and when intake or absorption falls, parathyroid hormone pulls calcium from bone to keep blood levels constant—so chronic deficiency drives the net bone loss that weakens the skeleton."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D is essential to prevent osteoporosis: it drives intestinal calcium absorption, so deficiency causes secondary hyperparathyroidism that strips bone, and adequate vitamin D plus calcium is the foundation on which osteoporosis drug therapy is built."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol excess is a major cause of osteoporosis: glucocorticoids suppress osteoblasts, promote osteoclast survival and reduce calcium absorption, so both Cushing's syndrome and long-term steroid therapy cause rapid bone loss—the most common drug-induced osteoporosis."
 ---
 
 # Osteoporosis
@@ -199,6 +208,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteoporosis is a failure of the osteoblast-osteoclast balance: bone-resorbing osteoclasts outpace bone-forming osteoblasts (estrogen loss, aging, steroids), so bone mass and microarchitecture deteriorate—anabolic drugs reverse it by favoring osteoblasts.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Osteoporosis is the commonest disease of the aging musculoskeletal system: silent bone loss until a fragility fracture (hip, vertebra, wrist) reveals it, and because fractures cause disability and death, bone-density screening and antiresorptives are core to skeletal health.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Menopause is the leading cause of osteoporosis: the sharp fall in ovarian estrogen accelerates osteoclast-driven bone resorption, so women lose bone rapidly after menopause—linking the reproductive system's hormonal shift to skeletal fragility and fracture risk.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the mineral osteoporosis depletes: bone is the body's calcium reservoir, and when intake or absorption falls, parathyroid hormone pulls calcium from bone to keep blood levels constant—so chronic deficiency drives the net bone loss that weakens the skeleton.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D is essential to prevent osteoporosis: it drives intestinal calcium absorption, so deficiency causes secondary hyperparathyroidism that strips bone, and adequate vitamin D plus calcium is the foundation on which osteoporosis drug therapy is built.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol excess is a major cause of osteoporosis: glucocorticoids suppress osteoblasts, promote osteoclast survival and reduce calcium absorption, so both Cushing's syndrome and long-term steroid therapy cause rapid bone loss—the most common drug-induced osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
