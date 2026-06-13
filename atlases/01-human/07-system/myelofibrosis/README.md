@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/07-system/myeloproliferative-neoplasms
     relation: connects-to
     note: "Myelofibrosis is the most aggressive classic myeloproliferative neoplasm, arising de novo (primary MF) or evolving from polycythemia vera or essential thrombocythemia; like its siblings it is JAK2/CALR/MPL-driven, but only MF shows marrow fibrosis and only allo-SCT cures it."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Myelofibrosis and MDS are overlapping clonal marrow disorders sharing mutations (ASXL1, SRSF2, U2AF1, TP53) and AML transformation risk; marrow fibrosis can appear in MDS and MDS/MPN overlap syndromes sit between them; both cause cytopenias graded by blast percentage."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Polycythemia vera can evolve into post-PV myelofibrosis (~10-20% at 15 years): the JAK2 V617F clone exhausts marrow, fibrosis accumulates, and the picture converges with primary myelofibrosis — splenomegaly, leukoerythroblastosis and cytopenias; ruxolitinib treats both."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Myelofibrosis disrupts red-cell production: marrow fibrosis forces extramedullary hematopoiesis and yields a leukoerythroblastic film with teardrop cells (dacrocytes); progressive anemia is a core prognostic feature, and momelotinib uniquely improves it by lowering hepcidin."
 ---
 
 # Myelofibrosis
@@ -183,6 +192,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Myelofibrosis fills the bone marrow with reticulin then collagen fibrosis (MF-0 to MF-3), driven paracrine by TGF-β from mutant megakaryocytes onto polyclonal fibroblasts; as fibrosis evicts hematopoietic stem cells the blood shows teardrop cells and leukoerythroblastosis.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Displaced from the fibrotic marrow, hematopoiesis relocates to the spleen (extramedullary hematopoiesis), producing the massive splenomegaly that defines myelofibrosis; cutting spleen volume (the SVR35 endpoint) is the main benefit of ruxolitinib.
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myelofibrosis is the most aggressive classic myeloproliferative neoplasm, arising de novo (primary MF) or evolving from polycythemia vera or essential thrombocythemia; like its siblings it is JAK2/CALR/MPL-driven, but only MF shows marrow fibrosis and only allo-SCT cures it.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Myelofibrosis and MDS are overlapping clonal marrow disorders sharing mutations (ASXL1, SRSF2, U2AF1, TP53) and AML transformation risk; marrow fibrosis can appear in MDS and MDS/MPN overlap syndromes sit between them; both cause cytopenias graded by blast percentage.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Polycythemia vera can evolve into post-PV myelofibrosis (~10-20% at 15 years): the JAK2 V617F clone exhausts marrow, fibrosis accumulates, and the picture converges with primary myelofibrosis — splenomegaly, leukoerythroblastosis and cytopenias; ruxolitinib treats both.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Myelofibrosis disrupts red-cell production: marrow fibrosis forces extramedullary hematopoiesis and yields a leukoerythroblastic film with teardrop cells (dacrocytes); progressive anemia is a core prognostic feature, and momelotinib uniquely improves it by lowering hepcidin.
 
 ---
 

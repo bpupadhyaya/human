@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Ineffective erythropoiesis is the core lesion of lower-risk MDS — erythroid progenitors mature abnormally and die before producing red cells, causing transfusion-dependent anemia; luspatercept traps activin/GDF11 to release late erythroid maturation."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "MDS and myelofibrosis are overlapping clonal marrow disorders: MDS-with-fibrosis and MDS/MPN overlap (e.g. CMML) blur the boundary, both share mutations (ASXL1, SRSF2, TP53), both cause cytopenias, and both can transform to AML; marrow fibrosis in MDS is adverse."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Hypoplastic MDS overlaps with aplastic anemia — both present with pancytopenia and a hypocellular marrow, and both can respond to immunosuppression (ATG/ciclosporin); a PNH clone or MDS-defining cytogenetics/mutations help distinguish clonal MDS from immune aplastic anemia."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "MDS produces dysplastic, hypogranular neutrophils with hyposegmented (pseudo-Pelger-Huët) nuclei and impaired function; neutropenia plus qualitative defects make infection a leading cause of death; the absolute neutrophil count feeds IPSS-R risk scoring and antibiotic planning."
 ---
 
 # Myelodysplastic Syndromes
@@ -166,6 +175,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Myelodysplastic syndromes are clonal disorders defined by marrow dysplasia (≥10% in a lineage), ring sideroblasts, and rising blasts; the signature paradox is a hypercellular marrow yielding peripheral cytopenias, because dysplastic progenitors die in the marrow before maturing.
 - `connects-to` → **[AML](../aml/README.md)** — MDS is a pre-leukemic clonal disorder on a continuum with AML: rising marrow blasts (≥20% defines AML) and new driver mutations mark transformation, ranging from ~10%/year in low-risk to ~50% over 2 years in MDS-EB2; shared biology drives shared therapy (azacitidine, venetoclax).
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Ineffective erythropoiesis is the core lesion of lower-risk MDS — erythroid progenitors mature abnormally and die before producing red cells, causing transfusion-dependent anemia; luspatercept traps activin/GDF11 to release late erythroid maturation.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — MDS and myelofibrosis are overlapping clonal marrow disorders: MDS-with-fibrosis and MDS/MPN overlap (e.g. CMML) blur the boundary, both share mutations (ASXL1, SRSF2, TP53), both cause cytopenias, and both can transform to AML; marrow fibrosis in MDS is adverse.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Hypoplastic MDS overlaps with aplastic anemia — both present with pancytopenia and a hypocellular marrow, and both can respond to immunosuppression (ATG/ciclosporin); a PNH clone or MDS-defining cytogenetics/mutations help distinguish clonal MDS from immune aplastic anemia.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — MDS produces dysplastic, hypogranular neutrophils with hyposegmented (pseudo-Pelger-Huët) nuclei and impaired function; neutropenia plus qualitative defects make infection a leading cause of death; the absolute neutrophil count feeds IPSS-R risk scoring and antibiotic planning.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
