@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "HLRCC causes the most aggressive hereditary kidney cancer — collecting-duct-like/type-2B papillary RCC that can metastasize even at 1-2 cm; radical (not partial) nephrectomy with lymphadenectomy is preferred, and annual renal MRI surveillance starts at genetic diagnosis."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The uterus is often where HLRCC declares itself: women develop numerous, large, early-onset uterine leiomyomas (fibroids), frequently needing myomectomy or hysterectomy before age 30 — so multiple early fibroids with cutaneous leiomyomas should prompt FH testing."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous leiomyomas are the 'L' of HLRCC and its visible clue: firm, often painful skin-colored papules from arrector pili smooth muscle appearing in the 20s-30s; their recognition (with FH/2SC staining) flags the syndrome years before the aggressive kidney cancer."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "HLRCC's FH belongs to the same Krebs-cycle, pseudohypoxia family (SDHx, FH) that causes hereditary pheochromocytoma/paraganglioma: FH loss accumulates fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF — so rare FH-mutant PPGLs occur, sharing fumarate-driven biology."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -183,6 +192,9 @@ Cutaneous:
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — HLRCC produces multiple smooth muscle tumors (leiomyomas): painful cutaneous nodules from arrector pili muscle and early-onset, large, multiple uterine fibroids; biallelic FH loss drives them, and FH-/2SC+ immunostaining distinguishes HLRCC leiomyomas from sporadic ones.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Fumarate accumulation stabilizes HIF-1α (pseudohypoxia) → VEGF transcription → tumor angiogenesis; this is the therapeutic handle in FH-deficient RCC — bevacizumab (anti-VEGF) plus erlotinib (anti-EGFR) achieves ~65% response, far exceeding VEGFR-TKIs like sunitinib.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — HLRCC causes the most aggressive hereditary kidney cancer — collecting-duct-like/type-2B papillary RCC that can metastasize even at 1-2 cm; radical (not partial) nephrectomy with lymphadenectomy is preferred, and annual renal MRI surveillance starts at genetic diagnosis.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The uterus is often where HLRCC declares itself: women develop numerous, large, early-onset uterine leiomyomas (fibroids), frequently needing myomectomy or hysterectomy before age 30 — so multiple early fibroids with cutaneous leiomyomas should prompt FH testing.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous leiomyomas are the 'L' of HLRCC and its visible clue: firm, often painful skin-colored papules from arrector pili smooth muscle appearing in the 20s-30s; their recognition (with FH/2SC staining) flags the syndrome years before the aggressive kidney cancer.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — HLRCC's FH belongs to the same Krebs-cycle, pseudohypoxia family (SDHx, FH) that causes hereditary pheochromocytoma/paraganglioma: FH loss accumulates fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF — so rare FH-mutant PPGLs occur, sharing fumarate-driven biology.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

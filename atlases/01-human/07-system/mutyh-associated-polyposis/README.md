@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/lynch-syndrome
     relation: connects-to
     note: "MAP and Lynch are key non-FAP hereditary CRC syndromes: MAP (biallelic MUTYH, recessive, MSS, KRAS G12C) vs Lynch (MMR, dominant, MSI-H, extracolonic cancers); MAP is MSS → anti-PD-1 ICB inactive; Lynch MSI-H → pembrolizumab-responsive; germline testing distinguishes both."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "MUTYH-associated polyposis and HLRCC are hereditary cancer syndromes but utterly different: MAP is recessive MUTYH repair failure causing oxidative mutations and colonic polyposis; HLRCC is dominant FH (Krebs-cycle) loss causing fumarate-driven leiomyomas and kidney cancer."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The large intestine is MAP's main target: biallelic MUTYH failure to repair oxidative 8-oxoguanine lesions lets G:C→T:A transversions accumulate in colonic epithelium, seeding 10-100 adenomas with a ~40-75% lifetime CRC risk — managed by colonoscopy from the mid-20s."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Beyond the colon, MAP affects the upper GI tract: duodenal adenomas develop in ~17-25% of patients (with a smaller duodenal cancer risk than FAP), so periodic upper endoscopy with attention to the ampulla is added to colonoscopic surveillance in MUTYH biallelic carriers."
 ---
 
 # MUTYH-Associated Polyposis
@@ -168,6 +177,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — MUTYH-induced SBS18 (G:C→T:A transversions) drives KRAS G12C in ~70% of MAP-CRC; KRAS G12C is rare in sporadic CRC (~2-5%) but prevalent in NSCLC; G12C in CRC should prompt MUTYH germline testing; sotorasib and adagrasib (KRAS G12C inhibitors) show modest activity in CRC G12C.
 - `connects-to` → **[Wnt/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MAP adenomas harbor somatic APC G→T transversions (SBS18) → APC loss → Wnt/β-catenin activation → adenoma initiation; MAP APC transversions create the same Wnt dysregulation as FAP germline truncations via MUTYH oxidative load; CTNNB1 G→T transversions also occur in MAP adenomas.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — MAP and Lynch are key non-FAP hereditary CRC syndromes: MAP (biallelic MUTYH, recessive, MSS, KRAS G12C) vs Lynch (MMR, dominant, MSI-H, extracolonic cancers); MAP is MSS → anti-PD-1 ICB inactive; Lynch MSI-H → pembrolizumab-responsive; germline testing distinguishes both.
+- `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — MUTYH-associated polyposis and HLRCC are hereditary cancer syndromes but utterly different: MAP is recessive MUTYH repair failure causing oxidative mutations and colonic polyposis; HLRCC is dominant FH (Krebs-cycle) loss causing fumarate-driven leiomyomas and kidney cancer.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is MAP's main target: biallelic MUTYH failure to repair oxidative 8-oxoguanine lesions lets G:C→T:A transversions accumulate in colonic epithelium, seeding 10-100 adenomas with a ~40-75% lifetime CRC risk — managed by colonoscopy from the mid-20s.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Beyond the colon, MAP affects the upper GI tract: duodenal adenomas develop in ~17-25% of patients (with a smaller duodenal cancer risk than FAP), so periodic upper endoscopy with attention to the ampulla is added to colonoscopic surveillance in MUTYH biallelic carriers.
 
 ---
 
