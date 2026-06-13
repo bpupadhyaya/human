@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung is a major chronic GVHD target: donor immune attack on bronchioles causes bronchiolitis obliterans, an irreversible obstructive lung disease, so new airflow obstruction after transplant signals pulmonary GVHD—a feared, treatment-resistant complication."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The large intestine is a major battleground in GVHD: donor T cells attack the gut epithelium, causing severe secretory diarrhea and mucosal sloughing, and gut GVHD severity—worsened by microbiome injury—is a leading determinant of transplant survival."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "GVHD prevention hinges on calcineurin inhibition: cyclosporine and tacrolimus block calcineurin to suppress the donor T-cell activation that drives the disease, forming the backbone of prophylaxis after allogeneic stem-cell transplant."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "GVHD is the dark side of transplant immunity: grafted donor immune cells recognize the recipient's tissues as foreign and attack them, the mirror image of rejection—yet the same alloreactivity also fights residual leukemia (graft-versus-leukemia)."
 ---
 
 # Graft-Versus-Host Disease
@@ -241,6 +250,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Graft-versus-host disease is driven by a cytokine storm: donor T cells activated against host tissue release a flood of TNF, IL-6 and IFN-γ that amplifies organ damage—so cytokine-targeted drugs (ruxolitinib, anti-IL-6) treat steroid-refractory GVHD.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells distinguish graft-versus-host disease from graft-versus-leukemia: donor NK cells can attack residual leukemia while contributing less to GVHD than T cells—NK biology is exploited to separate the cure from the toxicity of transplant.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a major chronic GVHD target: donor immune attack on bronchioles causes bronchiolitis obliterans, an irreversible obstructive lung disease, so new airflow obstruction after transplant signals pulmonary GVHD—a feared, treatment-resistant complication.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is a major battleground in GVHD: donor T cells attack the gut epithelium, causing severe secretory diarrhea and mucosal sloughing, and gut GVHD severity—worsened by microbiome injury—is a leading determinant of transplant survival.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — GVHD prevention hinges on calcineurin inhibition: cyclosporine and tacrolimus block calcineurin to suppress the donor T-cell activation that drives the disease, forming the backbone of prophylaxis after allogeneic stem-cell transplant.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — GVHD is the dark side of transplant immunity: grafted donor immune cells recognize the recipient's tissues as foreign and attack them, the mirror image of rejection—yet the same alloreactivity also fights residual leukemia (graft-versus-leukemia).
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

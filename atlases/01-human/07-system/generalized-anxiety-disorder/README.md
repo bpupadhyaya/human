@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/migraine
     relation: connects-to
     note: "Generalized anxiety and migraine are strongly comorbid: they share serotonergic and stress-pathway biology, anxiety lowers the threshold for migraine attacks, and chronic migraine fuels anxiety—so treating one (e.g. with SNRIs) often helps the other."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Generalized anxiety disorder is rooted in an overactive stress axis: corticotropin-releasing hormone drives the HPA response, and chronically elevated CRH signaling keeps the brain in a state of vigilance and worry that characterizes the disorder."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "The serotonin transporter is GAD's main drug target: SSRIs and SNRIs block it to raise synaptic serotonin, and a common transporter-gene variant (5-HTTLPR) is linked to anxiety-prone temperament—tying the disorder's biology to its first-line treatment."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Generalized anxiety disorder is increasingly linked to the gut-brain axis: the gut microbiome modulates stress hormones and neurotransmitters via the vagus nerve, and dysbiosis is associated with heightened anxiety—an emerging target beyond brain-centered models."
 ---
 
 # Generalized Anxiety Disorder
@@ -245,6 +254,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Generalized anxiety and fibromyalgia commonly overlap through central sensitization: chronic anxiety and HPA-axis dysregulation amplify pain processing, so anxiety is far more common in fibromyalgia and worsens its pain and fatigue.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Anxiety and asthma form a vicious cycle: breathlessness triggers anxiety and anxiety worsens perceived dyspnea, so anxiety disorders are common in asthma and degrade control—distinguishing a panic attack from bronchospasm matters clinically.
 - `connects-to` → **[Migraine](../migraine/README.md)** — Generalized anxiety and migraine are strongly comorbid: they share serotonergic and stress-pathway biology, anxiety lowers the threshold for migraine attacks, and chronic migraine fuels anxiety—so treating one (e.g. with SNRIs) often helps the other.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Generalized anxiety disorder is rooted in an overactive stress axis: corticotropin-releasing hormone drives the HPA response, and chronically elevated CRH signaling keeps the brain in a state of vigilance and worry that characterizes the disorder.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — The serotonin transporter is GAD's main drug target: SSRIs and SNRIs block it to raise synaptic serotonin, and a common transporter-gene variant (5-HTTLPR) is linked to anxiety-prone temperament—tying the disorder's biology to its first-line treatment.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Generalized anxiety disorder is increasingly linked to the gut-brain axis: the gut microbiome modulates stress hormones and neurotransmitters via the vagus nerve, and dysbiosis is associated with heightened anxiety—an emerging target beyond brain-centered models.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
