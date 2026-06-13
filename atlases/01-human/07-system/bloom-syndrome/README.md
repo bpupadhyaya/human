@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/all
     relation: connects-to
     note: "Leukemia, especially acute lymphoblastic and myeloid, is the earliest and most common cancer in Bloom syndrome, often in childhood; the BLM-deficient genomic instability also makes these patients hypersensitive to chemotherapy, forcing substantial dose reductions."
+  - target: 01-human/07-system/werner-syndrome
+    relation: connects-to
+    note: "Bloom and Werner syndrome are both RecQ-helicase disorders of genomic instability: Bloom (BLM) causes sister-chromatid exchange, sun-sensitive rash, short stature and early cancers, while Werner (WRN) causes premature aging and sarcomas—RecQ members whose loss destabilizes DNA."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Leukemia is a leading Bloom-syndrome cancer: the BLM helicase defect causes extreme chromosomal instability and sister-chromatid exchange, so AML and ALL arise at strikingly young ages, and—because Bloom cells are hypersensitive to DNA-damaging agents—chemo doses must be reduced."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Bloom syndrome is markedly photosensitive: BLM helicase loss leaves cells unable to resolve replication stress, so ultraviolet photons readily cause the characteristic sun-exposed facial erythema (butterfly rash) and add to the cancer risk—patients need strict sun protection."
 ---
 
 # Bloom Syndrome
@@ -201,6 +210,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Bloom and DICER1 are both childhood cancer-predisposition syndromes but mechanistically unrelated: Bloom is genomic instability from a defective BLM helicase (high sister-chromatid exchange), DICER1 faulty microRNA processing — broken DNA repair versus gene dysregulation.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The diagnostic hallmark of Bloom syndrome is a sun-sensitive facial rash: telangiectatic erythema in a butterfly distribution across the cheeks and nose that flares with UV exposure, reflecting cells that cannot properly repair replication-associated DNA damage.
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Leukemia, especially acute lymphoblastic and myeloid, is the earliest and most common cancer in Bloom syndrome, often in childhood; the BLM-deficient genomic instability also makes these patients hypersensitive to chemotherapy, forcing substantial dose reductions.
+- `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Bloom and Werner syndrome are both RecQ-helicase disorders of genomic instability: Bloom (BLM) causes sister-chromatid exchange, sun-sensitive rash, short stature and early cancers, while Werner (WRN) causes premature aging and sarcomas—RecQ members whose loss destabilizes DNA.
+- `connects-to` → **[AML](../aml/README.md)** — Leukemia is a leading Bloom-syndrome cancer: the BLM helicase defect causes extreme chromosomal instability and sister-chromatid exchange, so AML and ALL arise at strikingly young ages, and—because Bloom cells are hypersensitive to DNA-damaging agents—chemo doses must be reduced.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Bloom syndrome is markedly photosensitive: BLM helicase loss leaves cells unable to resolve replication stress, so ultraviolet photons readily cause the characteristic sun-exposed facial erythema (butterfly rash) and add to the cancer risk—patients need strict sun protection.
 
 ---
 

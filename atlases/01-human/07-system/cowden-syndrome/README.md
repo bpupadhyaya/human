@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Cowden syndrome leaves two brain signatures: megalencephaly (≥97th-percentile head size in ~90% of carriers) and Lhermitte-Duclos disease — a dysplastic cerebellar gangliocytoma whose 'tiger-stripe' MRI is pathognomonic and, in an adult, essentially defines a PTEN mutation."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Cowden syndrome raises colorectal-cancer risk through PTEN hamartoma-tumor biology: PTEN loss disinhibits PI3K-AKT-mTOR in the colon, producing mixed hamartomatous, ganglioneuromatous and adenomatous polyps and increased colorectal-cancer risk, so colonoscopy is recommended."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "Cowden and juvenile polyposis are overlapping hamartomatous polyposis syndromes hard to separate: both produce GI hamartomatous polyps and cancer risk, but Cowden (PTEN) adds macrocephaly, trichilemmomas and breast/thyroid cancer, while JPS (SMAD4/BMPR1A) is more gut-confined."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Renal cell carcinoma is part of the Cowden tumor spectrum: PTEN loss driving PI3K-AKT-mTOR raises the lifetime risk of (usually papillary or chromophobe) RCC alongside breast, thyroid and endometrial cancer, so renal imaging is part of PTEN-hamartoma-syndrome surveillance."
 ---
 
 # Cowden Syndrome
@@ -243,6 +252,9 @@ cross_links:
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — PTEN is a major autism gene: in Cowden/PTEN hamartoma syndrome, germline PTEN loss produces megalencephaly and, in 10-20% of macrocephalic carriers, autism spectrum disorder — and PTEN testing is recommended for any child with autism plus a very large head.
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — Cowden and Birt-Hogg-Dubé syndromes are hereditary tumour syndromes that converge on mTOR: Cowden loses PTEN (over-activating PI3K-AKT-mTOR) while BHD loses folliculin (a RagC/D GAP feeding mTORC1), and both produce skin hamartomas and an elevated risk of renal cell carcinoma.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cowden syndrome leaves two brain signatures: megalencephaly (≥97th-percentile head size in ~90% of carriers) and Lhermitte-Duclos disease — a dysplastic cerebellar gangliocytoma whose 'tiger-stripe' MRI is pathognomonic and, in an adult, essentially defines a PTEN mutation.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Cowden syndrome raises colorectal-cancer risk through PTEN hamartoma-tumor biology: PTEN loss disinhibits PI3K-AKT-mTOR in the colon, producing mixed hamartomatous, ganglioneuromatous and adenomatous polyps and increased colorectal-cancer risk, so colonoscopy is recommended.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Cowden and juvenile polyposis are overlapping hamartomatous polyposis syndromes hard to separate: both produce GI hamartomatous polyps and cancer risk, but Cowden (PTEN) adds macrocephaly, trichilemmomas and breast/thyroid cancer, while JPS (SMAD4/BMPR1A) is more gut-confined.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Renal cell carcinoma is part of the Cowden tumor spectrum: PTEN loss driving PI3K-AKT-mTOR raises the lifetime risk of (usually papillary or chromophobe) RCC alongside breast, thyroid and endometrial cancer, so renal imaging is part of PTEN-hamartoma-syndrome surveillance.
 
 ---
 
