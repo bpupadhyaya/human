@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "BRCA-mutant cells are radiosensitive from impaired DNA repair: their inability to fix double-strand breaks makes ionizing radiation more damaging, a reason young carriers are screened with non-ionizing MRI rather than repeated mammography."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "HBOC overlaps with the p53-driven Li-Fraumeni spectrum of inherited cancer: BRCA loss cripples DNA double-strand-break repair while TP53 loss removes the damage checkpoint, so both germline defects in the genome-guardian network produce familial breast and other cancers."
+  - target: 01-human/07-system/bloom-syndrome
+    relation: connects-to
+    note: "HBOC belongs to the family of DNA-repair cancer syndromes like Bloom: BRCA1/2 run homologous recombination just as BLM helicase resolves recombination intermediates, so loss of either destabilizes the genome—a shared theme of repair failure driving cancer."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "BRCA-mutant tumors engage the immune system distinctively: defective DNA repair raises mutational load and neoantigens, making some HBOC cancers more immunogenic—so checkpoint immunotherapy is explored alongside the PARP inhibitors that exploit the repair defect."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -235,6 +244,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen exposure modulates HBOC risk: BRCA-driven breast cancers often still respond to hormonal signaling, and reducing estrogen—via risk-reducing oophorectomy or endocrine therapy—lowers cancer risk, so the lifetime estrogen burden shapes when these cancers arise.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — HBOC carries a modest endometrial cancer risk: BRCA1 carriers, especially after tamoxifen, have a slightly raised risk of serous endometrial cancer, so gynecologic surveillance and decisions about hysterectomy at oophorectomy are part of managing the syndrome.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — BRCA-mutant cells are radiosensitive from impaired DNA repair: their inability to fix double-strand breaks makes ionizing radiation more damaging, a reason young carriers are screened with non-ionizing MRI rather than repeated mammography.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — HBOC overlaps with the p53-driven Li-Fraumeni spectrum of inherited cancer: BRCA loss cripples DNA double-strand-break repair while TP53 loss removes the damage checkpoint, so both germline defects in the genome-guardian network produce familial breast and other cancers.
+- `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — HBOC belongs to the family of DNA-repair cancer syndromes like Bloom: BRCA1/2 run homologous recombination just as BLM helicase resolves recombination intermediates, so loss of either destabilizes the genome—a shared theme of repair failure driving cancer.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — BRCA-mutant tumors engage the immune system distinctively: defective DNA repair raises mutational load and neoantigens, making some HBOC cancers more immunogenic—so checkpoint immunotherapy is explored alongside the PARP inhibitors that exploit the repair defect.
 
 ---
 

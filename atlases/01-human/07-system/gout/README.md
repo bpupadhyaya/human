@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Gout has a calcium-crystal mimic, pseudogout: where gout deposits monosodium urate crystals, pseudogout (CPPD) deposits calcium pyrophosphate, causing similar acute joint inflammation—so polarized-light crystal analysis distinguishes the two arthritides."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Gout is strongly tied to cardiovascular disease: hyperuricemia and the chronic inflammation of gout independently raise the risk of hypertension, coronary disease and stroke, so gout flags cardiovascular risk beyond its joint and kidney damage."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "The renal system both causes and suffers from gout: under-excretion of urate by the kidney is the main reason uric acid rises, and deposited crystals form kidney stones and urate nephropathy—so gout and kidney disease drive each other in a vicious cycle."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Tophi are the chronic granulomas of gout: persistent urate crystals provoke macrophages and fibroblasts to wall them off in firm, fibrous nodular deposits in joints and soft tissue, so fibroblast-rich tophi mark long-standing, undertreated disease."
 ---
 
 # Gout
@@ -200,6 +209,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a classic gout trigger: beer (rich in purines) and spirits raise uric acid by boosting production and blocking renal excretion, so binges precipitate acute attacks—making alcohol moderation a core part of gout prevention.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Gout signals and worsens heart disease: hyperuricemia and urate-crystal inflammation track with hypertension, coronary disease and higher cardiovascular mortality, so a gout diagnosis flags cardiovascular risk—and shared drivers like obesity link the two.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gout has a calcium-crystal mimic, pseudogout: where gout deposits monosodium urate crystals, pseudogout (CPPD) deposits calcium pyrophosphate, causing similar acute joint inflammation—so polarized-light crystal analysis distinguishes the two arthritides.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Gout is strongly tied to cardiovascular disease: hyperuricemia and the chronic inflammation of gout independently raise the risk of hypertension, coronary disease and stroke, so gout flags cardiovascular risk beyond its joint and kidney damage.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — The renal system both causes and suffers from gout: under-excretion of urate by the kidney is the main reason uric acid rises, and deposited crystals form kidney stones and urate nephropathy—so gout and kidney disease drive each other in a vicious cycle.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Tophi are the chronic granulomas of gout: persistent urate crystals provoke macrophages and fibroblasts to wall them off in firm, fibrous nodular deposits in joints and soft tissue, so fibroblast-rich tophi mark long-standing, undertreated disease.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
