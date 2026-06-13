@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Rheumatoid arthritis is a prototypical cause of anemia of chronic disease: sustained IL-6 and inflammation raise hepcidin, sequestering iron and blunting erythropoiesis, so anemia tracks disease activity; effective immunosuppression (IL-6 blockade, DMARDs) often corrects it."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Anemia of chronic disease blunts red-cell production several ways: inflammatory cytokines suppress erythropoietin and its marrow response, shorten erythrocyte survival, and via hepcidin lock iron from red cells—a typically normocytic anemia that resists oral iron."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Anemia is the commonest systemic complication of inflammatory bowel disease, usually mixed: gut inflammation raises hepcidin while bleeding and poor absorption add iron deficiency—so IBD anemia needs both inflammation control and iron repletion."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Lupus commonly causes anemia of chronic disease via systemic inflammation, but parse the cause: SLE also produces autoimmune hemolytic anemia, renal-failure anemia, and drug effects, so falling hemoglobin needs sorting inflammatory from hemolytic and renal mechanisms."
 ---
 
 # Anemia of Chronic Disease
@@ -203,6 +212,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Anemia of chronic disease and IDA are the two commonest anemias and key differentials: both can be microcytic with low serum iron, but ACD has normal/high ferritin with hepcidin-trapped macrophage iron, while IDA has low ferritin from true depletion; combined ACD+IDA is common.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive anemia of chronic disease: inflammatory IL-6 raises hepcidin, which degrades macrophage ferroportin so recycled iron from senescent red cells stays locked inside (reticuloendothelial block); serum iron falls while macrophage and ferritin iron stores rise.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is a prototypical cause of anemia of chronic disease: sustained IL-6 and inflammation raise hepcidin, sequestering iron and blunting erythropoiesis, so anemia tracks disease activity; effective immunosuppression (IL-6 blockade, DMARDs) often corrects it.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia of chronic disease blunts red-cell production several ways: inflammatory cytokines suppress erythropoietin and its marrow response, shorten erythrocyte survival, and via hepcidin lock iron from red cells—a typically normocytic anemia that resists oral iron.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Anemia is the commonest systemic complication of inflammatory bowel disease, usually mixed: gut inflammation raises hepcidin while bleeding and poor absorption add iron deficiency—so IBD anemia needs both inflammation control and iron repletion.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus commonly causes anemia of chronic disease via systemic inflammation, but parse the cause: SLE also produces autoimmune hemolytic anemia, renal-failure anemia, and drug effects, so falling hemoglobin needs sorting inflammatory from hemolytic and renal mechanisms.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
