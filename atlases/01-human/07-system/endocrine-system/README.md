@@ -50,6 +50,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Type 2 diabetes is the most common endocrine disease: insulin resistance plus progressive β-cell failure dysregulate the body's central metabolic hormone, and its complications (retinopathy, nephropathy, neuropathy) make it a leading cause of blindness, kidney failure, and CVD."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "MEN1 shows how the endocrine system fails as a network: a single germline MEN1 mutation predisposes to synchronous tumors of the parathyroids, pancreatic islets and pituitary, illustrating that endocrine glands share pathways whose disruption causes multi-gland hyperfunction."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Growth hormone exemplifies the endocrine system's hierarchical axes: the hypothalamus and pituitary release GH, which acts via hepatic IGF-1 on growth and metabolism under feedback control; its excess (acromegaly) or deficiency shows how one hormone integrates the network."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The reproductive system is a major endocrine organ: the hypothalamic-pituitary-gonadal axis secretes sex steroids (estrogen, testosterone) that drive puberty, fertility and secondary sexual characteristics and feed back on the brain, weaving reproduction into hormonal control."
 ---
 
 # Endocrine System
@@ -221,6 +230,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Carney complex shows how one signaling defect can derange the endocrine system: germline PRKAR1A loss leaves protein kinase A constitutively active, spawning tumors across adrenal, pituitary, thyroid, and gonad — a model of the cAMP-PKA cascade driving multi-gland neoplasia.
 - `contains` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a dual endocrine organ: its cortex makes steroid hormones (cortisol, aldosterone, androgens) under HPA and RAAS control, while its medulla — modified sympathetic tissue — secretes catecholamines; disorders span Cushing's, Addison's, Conn's, and pheo.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes is the most common endocrine disease: insulin resistance plus progressive β-cell failure dysregulate the body's central metabolic hormone, and its complications (retinopathy, nephropathy, neuropathy) make it a leading cause of blindness, kidney failure, and CVD.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — MEN1 shows how the endocrine system fails as a network: a single germline MEN1 mutation predisposes to synchronous tumors of the parathyroids, pancreatic islets and pituitary, illustrating that endocrine glands share pathways whose disruption causes multi-gland hyperfunction.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth hormone exemplifies the endocrine system's hierarchical axes: the hypothalamus and pituitary release GH, which acts via hepatic IGF-1 on growth and metabolism under feedback control; its excess (acromegaly) or deficiency shows how one hormone integrates the network.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The reproductive system is a major endocrine organ: the hypothalamic-pituitary-gonadal axis secretes sex steroids (estrogen, testosterone) that drive puberty, fertility and secondary sexual characteristics and feed back on the brain, weaving reproduction into hormonal control.
 
 ## Pathology
 
