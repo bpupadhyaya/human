@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/internet-gaming-disorder
     relation: connects-to
     note: "Social anxiety predisposes to internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a loop; addressing social anxiety is part of treating problematic gaming."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Social anxiety disorder and PTSD both center on fear and avoidance but of different triggers: SAD fears scrutiny in social situations, while PTSD fears trauma reminders—both involve amygdala hyperreactivity and respond to SSRIs and exposure-based therapy."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Social anxiety disorder and OCD overlap in anxious avoidance but differ in driver: SAD avoids feared social judgment, while OCD performs compulsions to neutralize obsessions—both are highly comorbid and share SSRI responsiveness and CBT."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Social anxiety disorder reflects an overactive fear circuit in neurons: a hyperreactive amygdala and weak prefrontal regulation amplify the threat response to social cues, the same neuronal imbalance behind other anxiety disorders, which SSRIs and exposure therapy recalibrate."
 ---
 
 # Social Anxiety Disorder
@@ -209,6 +218,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Social anxiety and panic disorder are distinct but overlapping: social anxiety fears scrutiny and humiliation, while panic disorder centers on unexpected autonomic attacks and fear of them; situationally-bound panic can occur within social anxiety, and both respond to SSRIs.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Social anxiety is very common in autism and hard to disentangle: autistic social difficulty is a skills/processing difference while social anxiety is fear of negative evaluation, yet they co-occur and reinforce avoidance; recognizing both shapes treatment focus.
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Social anxiety predisposes to internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a loop; addressing social anxiety is part of treating problematic gaming.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Social anxiety disorder and PTSD both center on fear and avoidance but of different triggers: SAD fears scrutiny in social situations, while PTSD fears trauma reminders—both involve amygdala hyperreactivity and respond to SSRIs and exposure-based therapy.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Social anxiety disorder and OCD overlap in anxious avoidance but differ in driver: SAD avoids feared social judgment, while OCD performs compulsions to neutralize obsessions—both are highly comorbid and share SSRI responsiveness and CBT.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Social anxiety disorder reflects an overactive fear circuit in neurons: a hyperreactive amygdala and weak prefrontal regulation amplify the threat response to social cues, the same neuronal imbalance behind other anxiety disorders, which SSRIs and exposure therapy recalibrate.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

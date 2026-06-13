@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Sickle cell disease is a hypercoagulable state: chronic hemolysis exposes phosphatidylserine and frees hemoglobin, activating platelets and coagulation while consuming protein C/S; VTE and pulmonary embolism are markedly increased atop the in-situ thrombosis of vaso-occlusion."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, raising pulmonary vascular tone—an elevated tricuspid regurgitant jet marks much higher mortality."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain in sickle cell disease is not only ischemic but increasingly neuropathic: repeated vaso-occlusive crises sensitize central and peripheral pain pathways, so chronic SCD pain takes on a neuropathic, opioid-resistant quality—calling for anticonvulsant adjuncts."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Splenic macrophages drive the extravascular hemolysis of sickle cell disease: they recognize and destroy rigid, sickled red cells, and recurrent splenic sequestration and infarction eventually leave patients functionally asplenic—hence lifelong sepsis risk."
 ---
 
 # Sickle Cell Disease
@@ -238,6 +247,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Sickle cell disease is fundamentally a red-cell disease: HbS polymerizes when deoxygenated, distorting erythrocytes into rigid sickle shapes that hemolyze (anemia) and jam microvessels (vaso-occlusion); dehydration and adhesion molecules make the cells sticky and short-lived.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is an early casualty of sickle cell disease: repeated sickling infarcts it, causing splenic sequestration crises in children then autosplenectomy in adults; the resulting functional asplenia raises infection risk, mandating vaccines and penicillin prophylaxis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Sickle cell disease is a hypercoagulable state: chronic hemolysis exposes phosphatidylserine and frees hemoglobin, activating platelets and coagulation while consuming protein C/S; VTE and pulmonary embolism are markedly increased atop the in-situ thrombosis of vaso-occlusion.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, raising pulmonary vascular tone—an elevated tricuspid regurgitant jet marks much higher mortality.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain in sickle cell disease is not only ischemic but increasingly neuropathic: repeated vaso-occlusive crises sensitize central and peripheral pain pathways, so chronic SCD pain takes on a neuropathic, opioid-resistant quality—calling for anticonvulsant adjuncts.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Splenic macrophages drive the extravascular hemolysis of sickle cell disease: they recognize and destroy rigid, sickled red cells, and recurrent splenic sequestration and infarction eventually leave patients functionally asplenic—hence lifelong sepsis risk.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
