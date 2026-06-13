@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/follicular-lymphoma
     relation: connects-to
     note: "PTCL and follicular lymphoma sit at opposite ends of lineage and tempo: follicular lymphoma is an indolent germinal-center B-cell tumor, while most PTCLs are aggressive mature T-cell cancers—the T-versus-B distinction fundamentally separates their biology and treatment."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "PTCL includes NK/T-cell lymphomas: peripheral T-cell lymphomas span many entities, and the related extranodal NK/T-cell lymphoma is an aggressive, EBV-driven, often nasal tumor—so the T/NK lineage spawns a heterogeneous, generally poor-prognosis lymphoma group."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "PTCL is a lymphoma of the lymphatic system's T cells: unlike the common B-cell lymphomas, it arises from mature T cells in lymph nodes and spreads through the lymphatic network, often with systemic B symptoms and a worse outcome than B-cell lymphomas."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone marrow involvement is common and ominous in PTCL: these aggressive T-cell lymphomas frequently infiltrate the marrow, causing cytopenias and upstaging disease—so marrow biopsy is part of staging and marrow disease worsens an already poor prognosis."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -232,6 +241,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Several peripheral T-cell lymphomas are EBV-driven: extranodal NK/T-cell lymphoma is defined by EBV infection, and angioimmunoblastic T-cell lymphoma harbors EBV-positive B-immunoblasts—so the virus shapes diagnosis and biology across this T-cell lymphoma group.
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — PTCL and mantle cell lymphoma are both aggressive non-Hodgkin lymphomas but of opposite lineage: PTCL arises from mature T cells, while MCL is a B-cell tumor with t(11;14) cyclin D1—immunophenotyping the T- versus B-cell origin guides therapy.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — PTCL and follicular lymphoma sit at opposite ends of lineage and tempo: follicular lymphoma is an indolent germinal-center B-cell tumor, while most PTCLs are aggressive mature T-cell cancers—the T-versus-B distinction fundamentally separates their biology and treatment.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — PTCL includes NK/T-cell lymphomas: peripheral T-cell lymphomas span many entities, and the related extranodal NK/T-cell lymphoma is an aggressive, EBV-driven, often nasal tumor—so the T/NK lineage spawns a heterogeneous, generally poor-prognosis lymphoma group.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — PTCL is a lymphoma of the lymphatic system's T cells: unlike the common B-cell lymphomas, it arises from mature T cells in lymph nodes and spreads through the lymphatic network, often with systemic B symptoms and a worse outcome than B-cell lymphomas.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow involvement is common and ominous in PTCL: these aggressive T-cell lymphomas frequently infiltrate the marrow, causing cytopenias and upstaging disease—so marrow biopsy is part of staging and marrow disease worsens an already poor prognosis.
 
 ---
 

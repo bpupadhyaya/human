@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "PAH is a feared complication of connective-tissue disease, including lupus: immune-mediated injury remodels the pulmonary arteries, so SLE and systemic sclerosis patients are screened with echocardiography—CTD-associated PAH is a major cause of their mortality."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin drives pulmonary arterial hypertension: it constricts and remodels pulmonary arteries, and the appetite suppressants (fen-phen) that flooded the circulation with serotonin caused an epidemic of PAH—cementing the serotonin pathway as a disease driver."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia worsens pulmonary hypertension via a unique reflex: unlike systemic vessels, pulmonary arteries constrict when oxygen is low, so chronic hypoxia sustains vasoconstriction and vascular remodeling—why supplemental oxygen helps."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Pulmonary hypertension ultimately kills through the right ventricle: the right heart's cardiomyocytes hypertrophy then fail against the high pulmonary pressure, so cor pulmonale and right heart failure—not the lung itself—are the usual cause of death in PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -218,6 +227,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — PAH and juvenile polyposis converge on the BMP/TGF-β pathway: heritable PAH is most often caused by BMPR2 loss, and SMAD4/BMPR1A mutations can yield a combined JPS-HHT syndrome with PAH—BMP disruption linking gut polyps and pulmonary vascular disease.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — PAH ultimately kills through right heart failure: the thickened, narrowed pulmonary arteries raise resistance the right ventricle must pump against, so it hypertrophies, dilates and fails—right-heart function, not lung pressure alone, determines survival in PAH.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — PAH is a feared complication of connective-tissue disease, including lupus: immune-mediated injury remodels the pulmonary arteries, so SLE and systemic sclerosis patients are screened with echocardiography—CTD-associated PAH is a major cause of their mortality.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin drives pulmonary arterial hypertension: it constricts and remodels pulmonary arteries, and the appetite suppressants (fen-phen) that flooded the circulation with serotonin caused an epidemic of PAH—cementing the serotonin pathway as a disease driver.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia worsens pulmonary hypertension via a unique reflex: unlike systemic vessels, pulmonary arteries constrict when oxygen is low, so chronic hypoxia sustains vasoconstriction and vascular remodeling—why supplemental oxygen helps.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Pulmonary hypertension ultimately kills through the right ventricle: the right heart's cardiomyocytes hypertrophy then fail against the high pulmonary pressure, so cor pulmonale and right heart failure—not the lung itself—are the usual cause of death in PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
