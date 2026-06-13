@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "Multiple myeloma commonly presents with anemia of chronic disease: the tumor's IL-6 drives hepcidin and inflammatory anemia, compounded by marrow replacement and renal failure, so unexplained anemia with high ESR and bone pain should prompt evaluation for myeloma."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Anemia of chronic disease blunts the bone marrow: inflammatory cytokines suppress erythroid progenitors and dampen their response to erythropoietin, so the marrow underproduces red cells despite adequate stores—a hypoproliferative anemia driven from outside the marrow."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Transferrin distinguishes anemia of chronic disease from iron deficiency: inflammation lowers transferrin (low TIBC) while ferritin stays high, the mirror image of iron-deficiency anemia's high transferrin and low ferritin—so these proteins separate the two commonest anemias."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Anemia of chronic disease is anemia manufactured by the immune system: sustained inflammation raises hepcidin and cytokines that sequester iron and curb red-cell production, an evolutionary defense (starving microbes of iron) that becomes maladaptive in chronic illness."
 ---
 
 # Anemia of Chronic Disease
@@ -227,6 +236,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anemia of chronic disease is about iron sequestration: inflammation raises hepcidin, which traps iron inside macrophages and blocks gut absorption, so iron is abundant but unavailable—a 'functional iron deficiency' distinct from true iron-deficiency anemia.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Anemia of chronic disease and MDS both cause anemia but differ: ACD is inflammation-driven iron sequestration with adequate marrow, while MDS is clonal marrow failure with dysplasia—so anemia not explained by inflammation or iron warrants marrow examination for MDS.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Multiple myeloma commonly presents with anemia of chronic disease: the tumor's IL-6 drives hepcidin and inflammatory anemia, compounded by marrow replacement and renal failure, so unexplained anemia with high ESR and bone pain should prompt evaluation for myeloma.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Anemia of chronic disease blunts the bone marrow: inflammatory cytokines suppress erythroid progenitors and dampen their response to erythropoietin, so the marrow underproduces red cells despite adequate stores—a hypoproliferative anemia driven from outside the marrow.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transferrin distinguishes anemia of chronic disease from iron deficiency: inflammation lowers transferrin (low TIBC) while ferritin stays high, the mirror image of iron-deficiency anemia's high transferrin and low ferritin—so these proteins separate the two commonest anemias.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Anemia of chronic disease is anemia manufactured by the immune system: sustained inflammation raises hepcidin and cytokines that sequester iron and curb red-cell production, an evolutionary defense (starving microbes of iron) that becomes maladaptive in chronic illness.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

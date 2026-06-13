@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Anorexia nervosa wastes the heart muscle itself: severe malnutrition shrinks cardiomyocytes and thins the myocardium, causing bradycardia and dangerous arrhythmias—cardiac complications are a leading cause of death, and refeeding must be cautious to avoid overload."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Anorexia nervosa scrambles ghrelin signaling: the hunger hormone rises sharply with starvation yet fails to restore eating, suggesting acquired ghrelin resistance in the brain's appetite circuits—evidence the disorder overrides normal homeostatic hunger drives."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Anorexia nervosa shuts down the endocrine system to conserve energy: starvation suppresses the reproductive axis (amenorrhea), lowers thyroid hormone (sick-euthyroid) and raises cortisol, so its hormonal picture is a coordinated adaptation to famine."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Anorexia nervosa endangers the kidney: dehydration causes prerenal azotemia, and chronic vomiting or laxative abuse drives hypokalemia that can scar the kidney (hypokalemic nephropathy), so renal function and electrolytes need close watch in severe cases."
 ---
 
 # Anorexia Nervosa
@@ -248,6 +257,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Anorexia nervosa and borderline personality disorder frequently co-occur: both involve emotional dysregulation, impulsivity and self-harm, and a comorbid personality disorder worsens eating-disorder prognosis—so the two are assessed and treated together.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Anorexia nervosa and bipolar disorder overlap more than expected: mood instability is common in AN, the two share genetic links, and bipolar episodes can drive appetite and weight swings—so screening for bipolarity guides safe pharmacotherapy in eating disorders.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Anorexia nervosa wastes the heart muscle itself: severe malnutrition shrinks cardiomyocytes and thins the myocardium, causing bradycardia and dangerous arrhythmias—cardiac complications are a leading cause of death, and refeeding must be cautious to avoid overload.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Anorexia nervosa scrambles ghrelin signaling: the hunger hormone rises sharply with starvation yet fails to restore eating, suggesting acquired ghrelin resistance in the brain's appetite circuits—evidence the disorder overrides normal homeostatic hunger drives.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Anorexia nervosa shuts down the endocrine system to conserve energy: starvation suppresses the reproductive axis (amenorrhea), lowers thyroid hormone (sick-euthyroid) and raises cortisol, so its hormonal picture is a coordinated adaptation to famine.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Anorexia nervosa endangers the kidney: dehydration causes prerenal azotemia, and chronic vomiting or laxative abuse drives hypokalemia that can scar the kidney (hypokalemic nephropathy), so renal function and electrolytes need close watch in severe cases.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
