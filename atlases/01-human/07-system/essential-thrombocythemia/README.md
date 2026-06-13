@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Essential thrombocythemia often raises neutrophils too: the JAK2-driven clone expands multiple myeloid lineages, so leukocytosis often accompanies the thrombocytosis and itself predicts higher thrombosis risk—ET is a panmyeloid, not platelet-only, disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Essential thrombocythemia clots at the endothelium: excess, often dysfunctional platelets interact with the vessel lining to cause microvascular and large-vessel thrombosis, so antiplatelet therapy targeting this platelet-endothelial interface prevents the main complication."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Essential thrombocythemia is a classic cause of splanchnic vein thrombosis: the prothrombotic platelet excess can clot the hepatic or portal veins (Budd-Chiari), so unexplained abdominal vein thrombosis should prompt testing for JAK2 and an underlying MPN."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Essential thrombocythemia produces distinctive neurovascular symptoms: microvascular platelet plugging causes headaches, visual disturbance and erythromelalgia, and it raises stroke and TIA risk—so the nervous system often signals the disease before a major clot occurs."
 ---
 
 # Essential Thrombocythemia
@@ -217,6 +226,9 @@ Management:
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Excess platelets in essential thrombocythemia tip toward thrombin-driven clotting: the high, often dysfunctional platelet mass promotes both arterial and venous thrombosis, so low-dose aspirin and cytoreduction lower the clotting risk that dominates ET's morbidity.
 - `connects-to` → **[AML](../aml/README.md)** — Essential thrombocythemia carries a small but real risk of transforming to AML: as a clonal myeloproliferative neoplasm, ET can evolve through myelofibrosis to acute leukemia, a risk raised by some cytoreductive drugs—the feared long-term endpoint.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Essential thrombocythemia often raises neutrophils too: the JAK2-driven clone expands multiple myeloid lineages, so leukocytosis often accompanies the thrombocytosis and itself predicts higher thrombosis risk—ET is a panmyeloid, not platelet-only, disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Essential thrombocythemia clots at the endothelium: excess, often dysfunctional platelets interact with the vessel lining to cause microvascular and large-vessel thrombosis, so antiplatelet therapy targeting this platelet-endothelial interface prevents the main complication.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Essential thrombocythemia is a classic cause of splanchnic vein thrombosis: the prothrombotic platelet excess can clot the hepatic or portal veins (Budd-Chiari), so unexplained abdominal vein thrombosis should prompt testing for JAK2 and an underlying MPN.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Essential thrombocythemia produces distinctive neurovascular symptoms: microvascular platelet plugging causes headaches, visual disturbance and erythromelalgia, and it raises stroke and TIA risk—so the nervous system often signals the disease before a major clot occurs.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Esophageal cancer threatens the lung directly: the esophagus lies against the airway, so tumors can erode into the trachea forming a tracheoesophageal fistula, and aspiration and lung metastases are common—linking esophageal disease to fatal respiratory complications."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Esophageal cancer is a lethal cancer of the upper digestive system: it blocks the swallowing tube, so progressive dysphagia and weight loss are the hallmark, and because symptoms appear late it is usually advanced at diagnosis—often beyond cure."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: connects-to
+    note: "HPV may contribute to some esophageal cancers: the same high-risk types that cause cervical and oropharyngeal cancer are detected in a subset of esophageal squamous-cell carcinomas, though tobacco, alcohol and reflux remain the dominant drivers."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Esophageal cancer spreads early through the lymphatic system: the esophagus has a rich submucosal lymphatic network, so tumors seed regional nodes even when shallow, which is why nodal involvement heavily shapes staging and the dismal prognosis."
 ---
 
 # Esophageal Cancer
@@ -237,6 +246,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Helicobacter pylori has a paradoxical link to esophageal cancer: by causing atrophic gastritis that lowers stomach acid, H. pylori reduces reflux and protects against esophageal adenocarcinoma—so its decline in wealthy countries partly explains that cancer's rise.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is an early, near-universal driver of esophageal cancer: loss of p53 occurs in Barrett's progression to adenocarcinoma and in most squamous tumors, letting damaged cells evade death—so p53 status tracks malignant transformation in the esophagus.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Esophageal cancer threatens the lung directly: the esophagus lies against the airway, so tumors can erode into the trachea forming a tracheoesophageal fistula, and aspiration and lung metastases are common—linking esophageal disease to fatal respiratory complications.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Esophageal cancer is a lethal cancer of the upper digestive system: it blocks the swallowing tube, so progressive dysphagia and weight loss are the hallmark, and because symptoms appear late it is usually advanced at diagnosis—often beyond cure.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV may contribute to some esophageal cancers: the same high-risk types that cause cervical and oropharyngeal cancer are detected in a subset of esophageal squamous-cell carcinomas, though tobacco, alcohol and reflux remain the dominant drivers.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Esophageal cancer spreads early through the lymphatic system: the esophagus has a rich submucosal lymphatic network, so tumors seed regional nodes even when shallow, which is why nodal involvement heavily shapes staging and the dismal prognosis.
 
 ---
 
