@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/07-system/nmo
     relation: connects-to
     note: "CIDP and neuromyelitis optica are both antibody-mediated demyelinating diseases at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensorimotor loss), while NMO attacks CNS astrocytes/myelin via anti-AQP4—both IgG-driven and treated with immunotherapy."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells help drive the autoimmune attack in CIDP: activated T cells breach the blood-nerve barrier and, with macrophages and antibodies, strip myelin from peripheral nerves—so immunosuppression, IVIG and plasma exchange restore conduction."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement amplifies nerve damage in CIDP: antibodies against myelin or nodal proteins fix complement on peripheral nerves, recruiting macrophages to demyelinate—so complement and the antibodies behind it are why IVIG and plasma exchange, which remove them, work."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "CIDP must be distinguished from diabetic neuropathy: diabetes both mimics and predisposes to CIDP, so a diabetic with disproportionate, treatable demyelinating weakness may have CIDP rather than ordinary diabetic polyneuropathy—a crucial, treatable distinction."
 ---
 
 # CIDP
@@ -240,6 +249,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells underlie much of CIDP's autoimmunity: long-lived plasma cells secrete IgG antibodies that, with complement and macrophages, strip myelin from peripheral nerves—so IVIG, plasma exchange, and B-cell-targeting therapies are mainstays.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T-cell failure permits CIDP: when Tregs cannot restrain autoreactive T and B cells, the immune system attacks peripheral-nerve myelin, so CIDP is treated by rebalancing immunity (steroids, IVIG)—immune dysregulation drives chronic demyelination.
 - `connects-to` → **[NMOSD](../nmo/README.md)** — CIDP and neuromyelitis optica are both antibody-mediated demyelinating diseases at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensorimotor loss), while NMO attacks CNS astrocytes/myelin via anti-AQP4—both IgG-driven and treated with immunotherapy.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells help drive the autoimmune attack in CIDP: activated T cells breach the blood-nerve barrier and, with macrophages and antibodies, strip myelin from peripheral nerves—so immunosuppression, IVIG and plasma exchange restore conduction.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement amplifies nerve damage in CIDP: antibodies against myelin or nodal proteins fix complement on peripheral nerves, recruiting macrophages to demyelinate—so complement and the antibodies behind it are why IVIG and plasma exchange, which remove them, work.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — CIDP must be distinguished from diabetic neuropathy: diabetes both mimics and predisposes to CIDP, so a diabetic with disproportionate, treatable demyelinating weakness may have CIDP rather than ordinary diabetic polyneuropathy—a crucial, treatable distinction.
 
 ---
 
