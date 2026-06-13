@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/follicular-lymphoma
     relation: connects-to
     note: "Sjögren's syndrome carries the highest lymphoma risk of any autoimmune disease: chronic salivary B-cell activation predisposes mainly to MALT marginal-zone lymphoma but also to follicular and other B-cell lymphomas—so persistent parotid swelling demands biopsy."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Sjögren's lymphomas differ from mantle cell lymphoma in origin: Sjögren's drives antigen-stimulated marginal-zone lymphomas in inflamed glands, whereas MCL is a t(11;14) cyclin-D1 tumor of naive B cells—both B-NHL, but one inflammation-driven, one translocation-driven."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Sjögren's syndrome is a lymphoproliferative disease of exocrine glands: lymphocytes infiltrate and destroy salivary and lacrimal glands, and the chronic lymphoid activation causing dryness also drives its lymphoma risk—tying it to lymphatic-system biology."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Sjögren's syndrome overlaps with connective-tissue autoimmune diseases like dermatomyositis: both share sicca symptoms, autoantibodies and sometimes myositis, and secondary Sjögren's often accompanies inflammatory myopathy—so an overlap syndrome must be considered."
 ---
 
 # Sjögren's Syndrome
@@ -213,6 +222,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Sjögren's syndrome most often appears as secondary Sjögren's atop rheumatoid arthritis or lupus: shared autoimmune mechanisms extend inflammation to lacrimal and salivary glands, so any RA patient with dry eyes and mouth (sicca) is evaluated for the overlap.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Sjögren's syndrome is a B-cell/plasma-cell-driven disease: BAFF-fueled clonal B and plasma cells make anti-Ro/La autoantibodies and hypergammaglobulinemia, and persistent germinal-center activity in salivary glands is what drives the high MALT-lymphoma risk.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Sjögren's syndrome carries the highest lymphoma risk of any autoimmune disease: chronic salivary B-cell activation predisposes mainly to MALT marginal-zone lymphoma but also to follicular and other B-cell lymphomas—so persistent parotid swelling demands biopsy.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Sjögren's lymphomas differ from mantle cell lymphoma in origin: Sjögren's drives antigen-stimulated marginal-zone lymphomas in inflamed glands, whereas MCL is a t(11;14) cyclin-D1 tumor of naive B cells—both B-NHL, but one inflammation-driven, one translocation-driven.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Sjögren's syndrome is a lymphoproliferative disease of exocrine glands: lymphocytes infiltrate and destroy salivary and lacrimal glands, and the chronic lymphoid activation causing dryness also drives its lymphoma risk—tying it to lymphatic-system biology.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Sjögren's syndrome overlaps with connective-tissue autoimmune diseases like dermatomyositis: both share sicca symptoms, autoantibodies and sometimes myositis, and secondary Sjögren's often accompanies inflammatory myopathy—so an overlap syndrome must be considered.
 
 ---
 
