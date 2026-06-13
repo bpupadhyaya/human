@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/03-molecular/ncx1
     relation: connects-to
     note: "NCX1 is upregulated in failing human ventricle → increased Ca²⁺ extrusion → further SR Ca²⁺ depletion (additive to SERCA2a downregulation) → reduced contractility; inward INCX during repolarization prolongs action potential → delayed afterdepolarizations → arrhythmia in HFrEF."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Heart failure and the kidney fail together as the cardiorenal syndrome: a failing heart underperfuses the kidney while congestion raises venous pressure, so renal function falls, fluid is retained, and diuretic resistance and worsening azotemia dominate management."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Hypertension is a leading cause of heart failure: chronic pressure overload drives left ventricular hypertrophy that stiffens into diastolic failure (HFpEF) or dilates into systolic failure, so blood-pressure control is the biggest preventable HF risk factor."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Heart failure is the common endpoint of cardiovascular disease: ischemia, valve disease, hypertension and arrhythmia all converge on a heart that can no longer meet the body's demands, making it the shared final pathway of the failing cardiovascular system."
 ---
 
 # Heart Failure
@@ -164,6 +173,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[RyR2](../../03-molecular/ryr2/README.md)** — CaMKII hyperactivation in HFrEF hyperphosphorylates RyR2 Ser2814 → diastolic Ca²⁺ leak → SR Ca²⁺ depletion + delayed afterdepolarizations → ventricular arrhythmia; diastolic RyR2 Ca²⁺ leak is a core mechanism linking Ca²⁺ cycling dysfunction to sudden cardiac death in HF.
 - `connects-to` → **[Troponin Complex](../../03-molecular/troponin-complex/README.md)** — High-sensitivity cTn is elevated in HF proportional to ventricular remodeling severity; persistent cTn elevation in HFrEF reflects ongoing cardiomyocyte injury and predicts mortality; cTn elevation in acute decompensated HF and myocarditis reflects inflammation-driven release.
 - `connects-to` → **[NCX1](../../03-molecular/ncx1/README.md)** — NCX1 is upregulated in failing human ventricle → increased Ca²⁺ extrusion → further SR Ca²⁺ depletion (additive to SERCA2a downregulation) → reduced contractility; inward INCX during repolarization prolongs action potential → delayed afterdepolarizations → arrhythmia in HFrEF.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Heart failure and the kidney fail together as the cardiorenal syndrome: a failing heart underperfuses the kidney while congestion raises venous pressure, so renal function falls, fluid is retained, and diuretic resistance and worsening azotemia dominate management.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension is a leading cause of heart failure: chronic pressure overload drives left ventricular hypertrophy that stiffens into diastolic failure (HFpEF) or dilates into systolic failure, so blood-pressure control is the biggest preventable HF risk factor.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Heart failure is the common endpoint of cardiovascular disease: ischemia, valve disease, hypertension and arrhythmia all converge on a heart that can no longer meet the body's demands, making it the shared final pathway of the failing cardiovascular system.
 
 ## Pathology
 

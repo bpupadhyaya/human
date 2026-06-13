@@ -73,6 +73,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/clostridioides-difficile
     relation: connects-to
     note: "Clostridioides difficile infection is the disease of a disrupted microbiome: antibiotics wipe out protective gut flora, letting C. difficile overgrow, and restoring the microbiome by fecal transplant cures cases—proof that the microbial community is protective."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut microbiome lives mainly in the large intestine: trillions of anaerobes ferment dietary fiber there into short-chain fatty acids that nourish the colonic lining, so colonic health and microbial ecology are inseparable."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "The microbiome and intestinal epithelium are mutual keepers: bacterial short-chain fatty acids feed colonocytes and tighten the barrier, while a healthy epithelium confines microbes—dysbiosis breaches this, leaking endotoxin and driving inflammation."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "The gut microbiome shapes serotonin and the gut-brain axis: most of the body's serotonin is made by gut enterochromaffin cells, and microbial metabolites tune its production, linking the flora to motility, mood and bidirectional gut-brain signaling."
 ---
 
 # Gut Microbiome
@@ -169,6 +178,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — The gut microbiome is central to inflammatory bowel disease: loss of diversity and a shift toward pro-inflammatory species breaches the mucosal barrier and provokes the immune attack of Crohn's and colitis—so the microbiome is both a driver and a treatment target.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — The gut microbiome links to Parkinson's disease via the gut-brain axis: α-synuclein pathology may begin in the enteric nervous system and ascend the vagus, gut dysbiosis is common, and constipation precedes motor symptoms by years—Parkinson's may start in the gut.
 - `connects-to` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — Clostridioides difficile infection is the disease of a disrupted microbiome: antibiotics wipe out protective gut flora, letting C. difficile overgrow, and restoring the microbiome by fecal transplant cures cases—proof that the microbial community is protective.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut microbiome lives mainly in the large intestine: trillions of anaerobes ferment dietary fiber there into short-chain fatty acids that nourish the colonic lining, so colonic health and microbial ecology are inseparable.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The microbiome and intestinal epithelium are mutual keepers: bacterial short-chain fatty acids feed colonocytes and tighten the barrier, while a healthy epithelium confines microbes—dysbiosis breaches this, leaking endotoxin and driving inflammation.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — The gut microbiome shapes serotonin and the gut-brain axis: most of the body's serotonin is made by gut enterochromaffin cells, and microbial metabolites tune its production, linking the flora to motility, mood and bidirectional gut-brain signaling.
 
 ## Pathology
 
