@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Gout is the most common inflammatory arthritis: MSU crystals deposit in cooler peripheral joints — classically the first metatarsophalangeal joint (podagra) — igniting excruciating attacks, and over years form tophi that erode bone and cartilage if urate isn't lowered."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Gout and chronic kidney disease feed each other: reduced renal urate excretion raises serum urate to cause gout, while urate crystals and inflammation injure the kidney; CKD also limits NSAID and colchicine use, so urate-lowering with allopurinol must be dose-adjusted."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Gout is a core feature of metabolic syndrome anchored by obesity: adiposity and insulin resistance raise serum urate by cutting renal excretion and boosting purine turnover, so weight loss lowers urate and flares; gout clusters with type 2 diabetes, hypertension and fatty liver."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Hyperuricemia and gout independently raise cardiovascular risk: urate crystals and NLRP3-driven inflammation promote endothelial dysfunction and atherosclerosis, and gout patients have excess MI and stroke—part of why gout is seen as a vascular as well as joint disease."
 ---
 
 # Gout
@@ -164,6 +173,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Gout and hypertension are tightly linked: hyperuricemia independently raises blood pressure (urate impairs endothelial NO and activates the RAAS), while thiazide/loop diuretics for HTN raise serum urate and trigger gout flares — a two-way interaction that complicates treatment.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is central to gout: it excretes ~two-thirds of uric acid, so reduced urate clearance (URAT1/GLUT9 variants, CKD, diuretics) is the main cause of hyperuricemia; conversely MSU crystals damage the kidney (urate nephropathy, stones), so gout and CKD reinforce each other.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Gout is the most common inflammatory arthritis: MSU crystals deposit in cooler peripheral joints — classically the first metatarsophalangeal joint (podagra) — igniting excruciating attacks, and over years form tophi that erode bone and cartilage if urate isn't lowered.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Gout and chronic kidney disease feed each other: reduced renal urate excretion raises serum urate to cause gout, while urate crystals and inflammation injure the kidney; CKD also limits NSAID and colchicine use, so urate-lowering with allopurinol must be dose-adjusted.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Gout is a core feature of metabolic syndrome anchored by obesity: adiposity and insulin resistance raise serum urate by cutting renal excretion and boosting purine turnover, so weight loss lowers urate and flares; gout clusters with type 2 diabetes, hypertension and fatty liver.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Hyperuricemia and gout independently raise cardiovascular risk: urate crystals and NLRP3-driven inflammation promote endothelial dysfunction and atherosclerosis, and gout patients have excess MI and stroke—part of why gout is seen as a vascular as well as joint disease.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

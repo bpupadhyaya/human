@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Dietary sodium is the leading modifiable driver of hypertension: excess salt expands extracellular volume and, in salt-sensitive people, raises blood pressure via impaired renal sodium handling; cutting intake toward <2 g/day lowers BP — the basis of DASH and salt-restriction."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart is a principal victim of hypertension: chronic pressure overload drives left-ventricular hypertrophy, diastolic then systolic heart failure, atrial fibrillation and—via accelerated coronary disease—myocardial infarction; blood-pressure control best prevents these."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Hypertension and CKD are locked in a vicious cycle: high pressure damages glomeruli (nephrosclerosis) while failing kidneys retain sodium and activate renin-angiotensin to raise pressure; ACE inhibitors/ARBs break the loop and are first-line in hypertensive CKD."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Hypertension is a major driver of atherosclerosis: elevated pressure and shear stress injure the endothelium and accelerate plaque formation throughout the arterial tree, so treating blood pressure reduces myocardial infarction, stroke and peripheral arterial disease."
 ---
 
 # Hypertension
@@ -154,6 +163,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Gout](../gout/README.md)** — Hypertension and gout reinforce each other: elevated urate raises blood pressure by impairing endothelial NO and activating the RAAS, while thiazide and loop diuretics for hypertension reduce renal urate excretion and trigger gout flares — so drug choice must be coordinated.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Hypertension is the most important modifiable risk factor for stroke: chronic high pressure drives both ischemic stroke (atherosclerosis, small-vessel lipohyalinosis) and hemorrhagic stroke (Charcot-Bouchard microaneurysm rupture); each 10 mmHg drop cuts stroke risk by ~a third.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Dietary sodium is the leading modifiable driver of hypertension: excess salt expands extracellular volume and, in salt-sensitive people, raises blood pressure via impaired renal sodium handling; cutting intake toward <2 g/day lowers BP — the basis of DASH and salt-restriction.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a principal victim of hypertension: chronic pressure overload drives left-ventricular hypertrophy, diastolic then systolic heart failure, atrial fibrillation and—via accelerated coronary disease—myocardial infarction; blood-pressure control best prevents these.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Hypertension and CKD are locked in a vicious cycle: high pressure damages glomeruli (nephrosclerosis) while failing kidneys retain sodium and activate renin-angiotensin to raise pressure; ACE inhibitors/ARBs break the loop and are first-line in hypertensive CKD.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Hypertension is a major driver of atherosclerosis: elevated pressure and shear stress injure the endothelium and accelerate plaque formation throughout the arterial tree, so treating blood pressure reduces myocardial infarction, stroke and peripheral arterial disease.
 
 ## Pathology
 
