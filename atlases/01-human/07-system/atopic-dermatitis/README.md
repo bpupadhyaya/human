@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells initiate atopic dermatitis at the skin barrier: Langerhans cells and inflammatory dendritic epidermal cells capture allergens entering through the defective barrier and prime Th2 responses, sitting at the start of the cascade from barrier failure to inflammation."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine drives the acute hives of atopic dermatitis but not the chronic itch: mast-cell histamine causes early wheal-and-flare, yet AD's relentless scratching is largely non-histaminergic, so antihistamines help little beyond sedation."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells amplify atopic dermatitis: IgE-primed skin mast cells release histamine and cytokines that fuel itch and type 2 inflammation, and their numbers rise in chronic lesions—linking the allergic sensitization of AD to the visible eczema and the itch-scratch cycle."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "TSLP is a master switch in atopic dermatitis: damaged keratinocytes release this alarmin that activates dendritic cells and drives the Th2 response and itch, positioning TSLP upstream of the IL-4/IL-13 axis—and making it a target for newer biologic therapies."
 ---
 
 # Atopic Dermatitis
@@ -210,6 +219,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Atopic dermatitis and psoriasis are the two major inflammatory skin diseases but immunologically opposite: AD is Th2-driven (IL-4/13/31) with itchy eczema and a leaky barrier, while psoriasis is Th17/IL-23-driven with sharp scaly plaques—dictating different biologics.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Atopic dermatitis is a prototypic Th2 helper-T-cell disease: Th2 cells release IL-4, IL-13, and IL-31 that drive IgE switching, barrier disruption, and itch—why dupilumab (IL-4/13 blockade) and JAK inhibitors interrupting this signaling are transformative.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells initiate atopic dermatitis at the skin barrier: Langerhans cells and inflammatory dendritic epidermal cells capture allergens entering through the defective barrier and prime Th2 responses, sitting at the start of the cascade from barrier failure to inflammation.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine drives the acute hives of atopic dermatitis but not the chronic itch: mast-cell histamine causes early wheal-and-flare, yet AD's relentless scratching is largely non-histaminergic, so antihistamines help little beyond sedation.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells amplify atopic dermatitis: IgE-primed skin mast cells release histamine and cytokines that fuel itch and type 2 inflammation, and their numbers rise in chronic lesions—linking the allergic sensitization of AD to the visible eczema and the itch-scratch cycle.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP is a master switch in atopic dermatitis: damaged keratinocytes release this alarmin that activates dendritic cells and drives the Th2 response and itch, positioning TSLP upstream of the IL-4/IL-13 axis—and making it a target for newer biologic therapies.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
