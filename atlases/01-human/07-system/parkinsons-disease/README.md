@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes participate in Parkinson's neurodegeneration: reactive astrocytes can clear or spread α-synuclein, lose support of dopaminergic neurons, and amplify neuroinflammation with microglia—so glia, not just dying neurons, shape progression."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Parkinson's is not just a dopamine disease: degeneration of noradrenergic locus coeruleus neurons depletes norepinephrine, driving the autonomic failure, orthostatic hypotension and cognitive and mood symptoms that levodopa cannot fix."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin neurons degenerate in Parkinson's too: their loss contributes to the depression, anxiety and sleep disturbance that often precede motor signs, and serotonergic terminals also aberrantly process levodopa, contributing to dyskinesias."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Parkinson's is a disorder of the whole nervous system: though defined by nigral dopamine loss and tremor, alpha-synuclein pathology spreads from gut and brainstem to cortex, explaining the autonomic, sleep, sensory and cognitive features beyond movement."
 ---
 
 # Parkinson's Disease
@@ -238,6 +247,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Parkinson's disease and schizophrenia are dopamine opposites: PD comes from too little striatal dopamine, while psychosis involves too much dopamine signaling—so antipsychotics cause parkinsonism and PD drugs can cause psychosis.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Parkinson's disease and narcolepsy both disrupt sleep-wake regulation: PD patients commonly have REM-sleep behavior disorder years before motor symptoms, plus excessive daytime sleepiness, reflecting degeneration of brainstem sleep nuclei—an early PD warning sign.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes participate in Parkinson's neurodegeneration: reactive astrocytes can clear or spread α-synuclein, lose support of dopaminergic neurons, and amplify neuroinflammation with microglia—so glia, not just dying neurons, shape progression.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Parkinson's is not just a dopamine disease: degeneration of noradrenergic locus coeruleus neurons depletes norepinephrine, driving the autonomic failure, orthostatic hypotension and cognitive and mood symptoms that levodopa cannot fix.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin neurons degenerate in Parkinson's too: their loss contributes to the depression, anxiety and sleep disturbance that often precede motor signs, and serotonergic terminals also aberrantly process levodopa, contributing to dyskinesias.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Parkinson's is a disorder of the whole nervous system: though defined by nigral dopamine loss and tremor, alpha-synuclein pathology spreads from gut and brainstem to cortex, explaining the autonomic, sleep, sensory and cognitive features beyond movement.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "PNH and DIC both cause thrombosis with hemolysis but oppositely: PNH's complement-driven intravascular hemolysis causes unusual-site venous thrombosis with normal clotting times, while DIC consumes clotting factors—distinguishing them guides treatment."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "PNH's intravascular hemolysis releases free hemoglobin that scavenges nitric oxide: the resulting NO depletion causes the disease's smooth-muscle symptoms—dystonia, abdominal pain, esophageal spasm and erectile dysfunction—and adds to its thrombotic risk."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "PNH damages the kidney over time: chronic intravascular hemolysis spills free hemoglobin into urine, and repeated hemoglobinuria with iron deposition and microthrombi causes progressive chronic kidney disease in a substantial fraction of patients."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "PNH arises where immune attack meets clonal escape: autoimmune marrow failure (as in aplastic anemia) selects for PIGA-mutant stem cells that lack GPI-anchored complement regulators, so the surviving clone is paradoxically vulnerable to complement attack."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -183,6 +192,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — PNH is a disease of unchecked complement: loss of GPI-anchored regulators leaves red cells defenseless against the alternative complement pathway, so C3 and the terminal cascade lyse them—and C5/C3 inhibitors (eculizumab, pegcetacoplan) are the targeted treatment.
 - `connects-to` → **[AML](../aml/README.md)** — PNH belongs to the bone-marrow-failure spectrum and can evolve clonally: it often arises with aplastic anemia, and the abnormal stem-cell clone can progress to MDS or acute myeloid leukemia—so PNH is monitored as a clonal disorder, not only hemolytic.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — PNH and DIC both cause thrombosis with hemolysis but oppositely: PNH's complement-driven intravascular hemolysis causes unusual-site venous thrombosis with normal clotting times, while DIC consumes clotting factors—distinguishing them guides treatment.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — PNH's intravascular hemolysis releases free hemoglobin that scavenges nitric oxide: the resulting NO depletion causes the disease's smooth-muscle symptoms—dystonia, abdominal pain, esophageal spasm and erectile dysfunction—and adds to its thrombotic risk.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — PNH damages the kidney over time: chronic intravascular hemolysis spills free hemoglobin into urine, and repeated hemoglobinuria with iron deposition and microthrombi causes progressive chronic kidney disease in a substantial fraction of patients.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — PNH arises where immune attack meets clonal escape: autoimmune marrow failure (as in aplastic anemia) selects for PIGA-mutant stem cells that lack GPI-anchored complement regulators, so the surviving clone is paradoxically vulnerable to complement attack.
 
 ---
 
