@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/03-molecular/thyroid-hormones
     relation: connects-to
     note: "Hyperthyroidism accelerates bone remodeling → 10-20% BMD loss at trabecular sites; TSH receptors on osteoblasts exert bone-protective effects; Graves disease → osteoporosis risk; anti-thyroid treatment normalizes bone loss; bisphosphonates co-administered when BMD is low."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Osteoporosis is a failure of the osteoblast-osteoclast balance: bone-resorbing osteoclasts outpace bone-forming osteoblasts (estrogen loss, aging, steroids), so bone mass and microarchitecture deteriorate—anabolic drugs reverse it by favoring osteoblasts."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Osteoporosis is the commonest disease of the aging musculoskeletal system: silent bone loss until a fragility fracture (hip, vertebra, wrist) reveals it, and because fractures cause disability and death, bone-density screening and antiresorptives are core to skeletal health."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Menopause is the leading cause of osteoporosis: the sharp fall in ovarian estrogen accelerates osteoclast-driven bone resorption, so women lose bone rapidly after menopause—linking the reproductive system's hormonal shift to skeletal fragility and fracture risk."
 ---
 
 # Osteoporosis
@@ -187,6 +196,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Male hypogonadism (T <300 ng/dL) is a leading cause of secondary male osteoporosis; testosterone maintains BMD via AR on osteoblasts and aromatization to estradiol; ADT causes 2-5% BMD loss/year; denosumab or zoledronate co-administered with ADT prevents fractures.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen deficiency at menopause → reduced OPG → RANKL excess → osteoclast hyperactivation → 3-5% trabecular bone loss/year; HRT reduces fracture risk ~35%; SERMs (raloxifene) preserve bone without uterine stimulation; bisphosphonates preferred over HRT for fracture prevention.
 - `connects-to` → **[Thyroid Hormones](../../03-molecular/thyroid-hormones/README.md)** — Hyperthyroidism accelerates bone remodeling → 10-20% BMD loss at trabecular sites; TSH receptors on osteoblasts exert bone-protective effects; Graves disease → osteoporosis risk; anti-thyroid treatment normalizes bone loss; bisphosphonates co-administered when BMD is low.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteoporosis is a failure of the osteoblast-osteoclast balance: bone-resorbing osteoclasts outpace bone-forming osteoblasts (estrogen loss, aging, steroids), so bone mass and microarchitecture deteriorate—anabolic drugs reverse it by favoring osteoblasts.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Osteoporosis is the commonest disease of the aging musculoskeletal system: silent bone loss until a fragility fracture (hip, vertebra, wrist) reveals it, and because fractures cause disability and death, bone-density screening and antiresorptives are core to skeletal health.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Menopause is the leading cause of osteoporosis: the sharp fall in ovarian estrogen accelerates osteoclast-driven bone resorption, so women lose bone rapidly after menopause—linking the reproductive system's hormonal shift to skeletal fragility and fracture risk.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

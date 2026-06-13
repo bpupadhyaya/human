@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "Prurigo nodularis is a recognized cutaneous marker of HIV/AIDS: it is far more common and severe in people with HIV, especially at low CD4 counts, as part of HIV-associated pruritus; its appearance can prompt HIV testing, and antiretroviral immune restoration often improves it."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Prurigo nodularis is driven by a type-2 (Th2) immune response: Th2 cytokines IL-4, IL-13, and especially IL-31 from helper T cells fuel the intense itch and nodule formation, which is why the IL-4/13 blocker dupilumab and IL-31 inhibitors are effective new treatments."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Prurigo nodularis and depression are bidirectionally entwined: relentless itch and disfiguring nodules cause sleep loss and depression, while depression lowers the itch threshold and fuels scratching—so the itch-scratch cycle and mood disorder reinforce each other."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help orchestrate the neuroimmune itch of prurigo nodularis: dermal dendritic cells present antigen and amplify the Th2 response that, with sensory nerves and mast cells, sustains chronic itch—part of the skin-immune-nerve crosstalk behind the nodules."
 ---
 
 # Prurigo Nodularis
@@ -154,6 +163,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Prurigo nodularis is a neuroimmune disorder straddling itch and pain: chronic scratching and a sensitized cutaneous nerve network (raised substance P and NGF) drive itch through the same peripheral and central sensitization as neuropathic pain, and both respond to gabapentinoids.
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Prurigo nodularis and psoriasis are both chronic inflammatory skin diseases with thickened plaques/nodules but differ immunologically: PN is itch-dominant and Th2/IL-31-driven (dupilumab, nemolizumab), psoriasis Th17/IL-17-driven; distinguishing them guides biologic choice.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Prurigo nodularis is a recognized cutaneous marker of HIV/AIDS: it is far more common and severe in people with HIV, especially at low CD4 counts, as part of HIV-associated pruritus; its appearance can prompt HIV testing, and antiretroviral immune restoration often improves it.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Prurigo nodularis is driven by a type-2 (Th2) immune response: Th2 cytokines IL-4, IL-13, and especially IL-31 from helper T cells fuel the intense itch and nodule formation, which is why the IL-4/13 blocker dupilumab and IL-31 inhibitors are effective new treatments.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Prurigo nodularis and depression are bidirectionally entwined: relentless itch and disfiguring nodules cause sleep loss and depression, while depression lowers the itch threshold and fuels scratching—so the itch-scratch cycle and mood disorder reinforce each other.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help orchestrate the neuroimmune itch of prurigo nodularis: dermal dendritic cells present antigen and amplify the Th2 response that, with sensory nerves and mast cells, sustains chronic itch—part of the skin-immune-nerve crosstalk behind the nodules.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
