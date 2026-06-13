@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "As diabetic capillary closure starves the retina of oxygen, HIF-1α stabilizes and transcribes VEGF (and EPO, Ang-2), triggering the neovascularization of proliferative DR; panretinal photocoagulation works by ablating ischemic retina to lower this HIF-driven VEGF output."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Although classically tied to type 1, most diabetic retinopathy occurs in type 2 diabetes because T2D is far more prevalent; many T2D patients already have retinopathy at diagnosis after years of silent hyperglycemia, so screening begins at T2D diagnosis (vs 5 years in T1D)."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Diabetic retinopathy and diabetic kidney disease are parallel microvascular complications: both stem from hyperglycemic endothelial injury, retinopathy strongly predicts nephropathy, and its presence supports a diabetic etiology when a diabetic patient develops proteinuric CKD."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Retinopathy, nephropathy and neuropathy form the diabetic microvascular triad: the same hyperglycemic, polyol- and AGE-mediated microvascular damage that injures the retina also damages peripheral nerves → painful diabetic neuropathy; glycemic control reduces all three together."
 ---
 
 # Diabetic Retinopathy
@@ -173,6 +182,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Diabetic retinopathy is the leading microvascular complication of type 1 diabetes, present in nearly all patients after 20 years; the DCCT proved that intensive glycemic control reduces retinopathy onset by 76% and progression by 54%, so screening begins 5 years after diagnosis.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Diabetic retinopathy is fundamentally a failure of retinal vascular endothelial cells: hyperglycemia and pericyte dropout disrupt their inner blood-retinal-barrier tight junctions → leak and macular edema, then hypoxia drives them to proliferate into the vitreous.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — As diabetic capillary closure starves the retina of oxygen, HIF-1α stabilizes and transcribes VEGF (and EPO, Ang-2), triggering the neovascularization of proliferative DR; panretinal photocoagulation works by ablating ischemic retina to lower this HIF-driven VEGF output.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Although classically tied to type 1, most diabetic retinopathy occurs in type 2 diabetes because T2D is far more prevalent; many T2D patients already have retinopathy at diagnosis after years of silent hyperglycemia, so screening begins at T2D diagnosis (vs 5 years in T1D).
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Diabetic retinopathy and diabetic kidney disease are parallel microvascular complications: both stem from hyperglycemic endothelial injury, retinopathy strongly predicts nephropathy, and its presence supports a diabetic etiology when a diabetic patient develops proteinuric CKD.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Retinopathy, nephropathy and neuropathy form the diabetic microvascular triad: the same hyperglycemic, polyol- and AGE-mediated microvascular damage that injures the retina also damages peripheral nerves → painful diabetic neuropathy; glycemic control reduces all three together.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

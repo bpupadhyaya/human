@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/diabetic-retinopathy
     relation: connects-to
     note: "Chronic hyperglycemia from type 1 diabetes drives microvascular complications — virtually all T1D patients develop diabetic retinopathy after 20 years — so the DCCT showed that intensive insulin control cuts retinopathy onset 76%; eye screening starts 5 years after diagnosis."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "T1D and T2D share chronic hyperglycemia and vascular complications but differ in cause: T1D is autoimmune β-cell loss needing insulin, T2D is insulin resistance with relative deficiency; the line blurs with obesity-linked T1D and adult-onset autoimmune diabetes (LADA)."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Type 1 diabetes is strongly HLA-linked: MHC class II alleles HLA-DR3-DQ2 and DR4-DQ8 confer the greatest genetic risk by presenting islet autoantigens (insulin, GAD65) to autoreactive CD4+ T cells, while DQ6 is protective; HLA typing predicts risk in relatives."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Diabetic kidney disease is a leading T1D complication and a top cause of end-stage renal disease: chronic hyperglycemia → glomerular hyperfiltration, mesangial expansion and albuminuria → declining GFR; DCCT/EDIC showed tight glucose control plus RAAS blockade slows progression."
 ---
 
 # Type 1 Diabetes
@@ -159,6 +168,9 @@ cross_links:
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Type 1 diabetes is an organ-specific autoimmune attack on the insulin-producing beta cells of the pancreatic islets; T-cell insulitis silently destroys ~80% of beta-cell mass before hyperglycemia appears, leaving absolute insulin deficiency while the exocrine pancreas is spared.
 - `connects-to` → **[Coxsackievirus B](../../../02-pathogen/01-viruses/coxsackievirus-b/README.md)** — Enteroviruses, especially Coxsackievirus B, are the leading environmental trigger of type 1 diabetes: CVB infects beta cells via the CAR receptor and its 2C protein shares homology with GAD65, and enteroviral RNA is found in islets at diagnosis — motivating CVB vaccine trials.
 - `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Chronic hyperglycemia from type 1 diabetes drives microvascular complications — virtually all T1D patients develop diabetic retinopathy after 20 years — so the DCCT showed that intensive insulin control cuts retinopathy onset 76%; eye screening starts 5 years after diagnosis.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — T1D and T2D share chronic hyperglycemia and vascular complications but differ in cause: T1D is autoimmune β-cell loss needing insulin, T2D is insulin resistance with relative deficiency; the line blurs with obesity-linked T1D and adult-onset autoimmune diabetes (LADA).
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Type 1 diabetes is strongly HLA-linked: MHC class II alleles HLA-DR3-DQ2 and DR4-DQ8 confer the greatest genetic risk by presenting islet autoantigens (insulin, GAD65) to autoreactive CD4+ T cells, while DQ6 is protective; HLA typing predicts risk in relatives.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Diabetic kidney disease is a leading T1D complication and a top cause of end-stage renal disease: chronic hyperglycemia → glomerular hyperfiltration, mesangial expansion and albuminuria → declining GFR; DCCT/EDIC showed tight glucose control plus RAAS blockade slows progression.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
