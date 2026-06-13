@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "Pain is a common, underrecognized non-motor feature of Parkinson's: beyond musculoskeletal and dystonic pain, central pain arises from altered nociceptive processing in dopaminergic pathways; some PD pain fluctuates with 'off' periods and eases with dopaminergic therapy."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression is one of the commonest non-motor features of Parkinson's, often preceding motor symptoms: degeneration of dopaminergic, serotonergic, and noradrenergic systems—not just illness burden—drives it, so PD depression is intrinsic to the neurodegeneration."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Parkinson's may begin in the gut: α-synuclein pathology appears in the enteric nervous system years before the brain (preceded by constipation), and an altered gut microbiome is implicated, supporting Braak's hypothesis that disease ascends the vagus from gut to brainstem."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "Parkinson's and Huntington's are movement disorders at opposite poles: PD is hypokinetic from dopamine loss, causing bradykinesia and rigidity, while Huntington's is hyperkinetic from striatal degeneration, causing chorea—mirror images of basal-ganglia dysfunction."
 ---
 
 # Parkinson's Disease
@@ -214,6 +223,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Parkinson's is defined by dopamine loss: degeneration of substantia nigra pars compacta neurons depletes striatal dopamine → bradykinesia, rigidity and tremor once ~60-80% is gone; levodopa, dopamine agonists and MAO-B/COMT inhibitors restore dopaminergic tone.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Parkinson's is a neurodegeneration of specific neurons: α-synuclein-laden Lewy bodies accumulate in dopaminergic substantia nigra neurons, driving mitochondrial and autophagy failure and selective death; the vulnerability of these pacemaking neurons explains the motor syndrome.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain is a common, underrecognized non-motor feature of Parkinson's: beyond musculoskeletal and dystonic pain, central pain arises from altered nociceptive processing in dopaminergic pathways; some PD pain fluctuates with 'off' periods and eases with dopaminergic therapy.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is one of the commonest non-motor features of Parkinson's, often preceding motor symptoms: degeneration of dopaminergic, serotonergic, and noradrenergic systems—not just illness burden—drives it, so PD depression is intrinsic to the neurodegeneration.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Parkinson's may begin in the gut: α-synuclein pathology appears in the enteric nervous system years before the brain (preceded by constipation), and an altered gut microbiome is implicated, supporting Braak's hypothesis that disease ascends the vagus from gut to brainstem.
+- `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — Parkinson's and Huntington's are movement disorders at opposite poles: PD is hypokinetic from dopamine loss, causing bradykinesia and rigidity, while Huntington's is hyperkinetic from striatal degeneration, causing chorea—mirror images of basal-ganglia dysfunction.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

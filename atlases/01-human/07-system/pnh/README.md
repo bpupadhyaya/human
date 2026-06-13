@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Complement drives thrombosis in PNH at the platelet surface: lacking GPI-anchored CD55/CD59, platelets are hit by C5a and the membrane-attack complex → activation and aggregation; this, plus nitric-oxide depletion from hemolysis, explains PNH's extreme thrombotic risk."
+  - target: 01-human/07-system/ahus
+    relation: connects-to
+    note: "PNH and atypical HUS are both complement-driven diseases treated by C5 blockade: PNH loses GPI-anchored regulators (CD55/CD59) on blood cells, while aHUS has dysregulated complement on endothelium—different lesions, both responsive to eculizumab."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "PNH is a key acquired thrombophilia to weigh alongside inherited ones: unlike factor V Leiden or prothrombin mutations, PNH thrombosis is complement- and platelet-driven and strikes unusual sites (hepatic, cerebral veins), so thrombosis with hemolysis warrants PNH testing."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "PNH hemolysis has an extravascular component handled by macrophages: C5 inhibitors stop intravascular lysis but leave C3 fragments coating red cells, which splenic and hepatic macrophages clear, so some patients stay anemic—addressed by newer C3 inhibitors."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -159,6 +168,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — PNH and HIT are acquired prothrombotic states driven by cellular activation rather than clotting-factor excess: PNH via complement (C5a, MAC) and nitric-oxide-scavenging free hemoglobin, HIT via anti-PF4 IgG; both clot in unusual sites and resist plain anticoagulation.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — PNH clones frequently arise within bone-marrow-failure syndromes: small GPI-deficient clones occur in many aplastic anemia and hypoplastic MDS patients, where immune attack selects complement-resistant PNH cells; flow cytometry for GPI-anchored proteins is part of the MDS workup.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Complement drives thrombosis in PNH at the platelet surface: lacking GPI-anchored CD55/CD59, platelets are hit by C5a and the membrane-attack complex → activation and aggregation; this, plus nitric-oxide depletion from hemolysis, explains PNH's extreme thrombotic risk.
+- `connects-to` → **[Atypical HUS](../ahus/README.md)** — PNH and atypical HUS are both complement-driven diseases treated by C5 blockade: PNH loses GPI-anchored regulators (CD55/CD59) on blood cells, while aHUS has dysregulated complement on endothelium—different lesions, both responsive to eculizumab.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — PNH is a key acquired thrombophilia to weigh alongside inherited ones: unlike factor V Leiden or prothrombin mutations, PNH thrombosis is complement- and platelet-driven and strikes unusual sites (hepatic, cerebral veins), so thrombosis with hemolysis warrants PNH testing.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — PNH hemolysis has an extravascular component handled by macrophages: C5 inhibitors stop intravascular lysis but leave C3 fragments coating red cells, which splenic and hepatic macrophages clear, so some patients stay anemic—addressed by newer C3 inhibitors.
 
 ---
 
