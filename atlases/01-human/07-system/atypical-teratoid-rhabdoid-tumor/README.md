@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/schwannomatosis
     relation: connects-to
     note: "SMARCB1 links AT/RT and schwannomatosis at opposite doses: biallelic SMARCB1 loss in a child causes aggressive AT/RT, while a germline single-allele SMARCB1 variant causes schwannomatosis — multiple benign schwannomas in adults — same gene, very different tumors."
+  - target: 01-human/07-system/wilms-tumor
+    relation: connects-to
+    note: "ATRT and malignant rhabdoid tumor of the kidney are the same SMARCB1-driven cancer in different sites: loss of the SWI/SNF subunit SMARCB1 (INI1) produces rhabdoid tumors in brain (ATRT) or kidney, so both belong to the rhabdoid tumor predisposition syndrome and resemble Wilms."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "ATRT and rhabdomyosarcoma both feature rhabdoid/small-round-blue-cell morphology and must be distinguished molecularly: ATRT is defined by SMARCB1 (INI1) loss while rhabdomyosarcoma shows myogenic markers and PAX-FOXO1 fusions—a distinction that dictates very different therapy."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "ATRT and diffuse midline glioma are both aggressive pediatric brain tumors driven by epigenetic dysregulation: ATRT by SMARCB1/SWI-SNF loss, DMG by the H3 K27M histone mutation—both reprogram chromatin rather than relying on classic oncogenes, and both carry a grim prognosis."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -182,6 +191,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — AT/RT and synovial sarcoma are united by SWI/SNF (BAF) disruption and EZH2 dependence: AT/RT deletes SMARCB1 outright, while SS18-SSX fusion evicts SMARCB1 from BAF — both unleash PRC2/EZH2, so the EZH2 inhibitor tazemetostat is active in each despite different ages and sites.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — AT/RT has a renal twin: malignant rhabdoid tumor of the kidney shares the same biallelic SMARCB1 (INI1) loss and rhabdoid morphology, and germline SMARCB1 (rhabdoid predisposition) causes synchronous brain AT/RT and renal rhabdoid tumors in infants — one disease across organs.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — SMARCB1 links AT/RT and schwannomatosis at opposite doses: biallelic SMARCB1 loss in a child causes aggressive AT/RT, while a germline single-allele SMARCB1 variant causes schwannomatosis — multiple benign schwannomas in adults — same gene, very different tumors.
+- `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — ATRT and malignant rhabdoid tumor of the kidney are the same SMARCB1-driven cancer in different sites: loss of the SWI/SNF subunit SMARCB1 (INI1) produces rhabdoid tumors in brain (ATRT) or kidney, so both belong to the rhabdoid tumor predisposition syndrome and resemble Wilms.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — ATRT and rhabdomyosarcoma both feature rhabdoid/small-round-blue-cell morphology and must be distinguished molecularly: ATRT is defined by SMARCB1 (INI1) loss while rhabdomyosarcoma shows myogenic markers and PAX-FOXO1 fusions—a distinction that dictates very different therapy.
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — ATRT and diffuse midline glioma are both aggressive pediatric brain tumors driven by epigenetic dysregulation: ATRT by SMARCB1/SWI-SNF loss, DMG by the H3 K27M histone mutation—both reprogram chromatin rather than relying on classic oncogenes, and both carry a grim prognosis.
 
 ---
 

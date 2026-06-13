@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney is a key DICER1 site: cystic nephroma, a benign multilocular renal cyst, can harbor Wilms-like blastemal elements and rarely progress to anaplastic sarcoma; renal ultrasound surveillance from birth to age 8 catches these before transformation."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "DICER1 syndrome reaches the CNS: germline DICER1 loss predisposes to pineoblastoma and a distinct DICER1-mutant embryonal brain tumor that overlaps morphologically with medulloblastoma—so miRNA-processing failure, not just SHH/WNT, can drive childhood embryonal CNS cancer."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "DICER1 and Li-Fraumeni are major inherited pediatric cancer-predisposition syndromes with overlapping tumors (rhabdomyosarcoma, CNS embryonal tumors) but distinct mechanisms: DICER1 disrupts microRNA processing, Li-Fraumeni loses TP53 function—both warrant surveillance."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "The lung epithelium is the cradle of DICER1's signature tumor: pleuropulmonary blastoma arises in the developing lung where DICER1 loss in the airway/alveolar epithelium (including type II pneumocytes) drives cystic then sarcomatous change, the childhood hallmark of the syndrome."
 ---
 
 # DICER1 Syndrome
@@ -178,6 +187,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — DICER1 and Bloom are both childhood cancer-predisposition syndromes but mechanistically distinct: DICER1 is faulty microRNA processing (RNase IIIb hotspots depleting 5p miRNAs), Bloom genomic instability from a defective BLM helicase — gene dysregulation versus broken DNA repair.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pleuropulmonary blastoma is the sentinel DICER1 tumor: a rare embryonal lung cancer that begins as benign cystic lesions (type I) in infancy and can progress to solid high-grade sarcoma (type III); resecting it early is why chest imaging surveillance starts in the newborn period.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a key DICER1 site: cystic nephroma, a benign multilocular renal cyst, can harbor Wilms-like blastemal elements and rarely progress to anaplastic sarcoma; renal ultrasound surveillance from birth to age 8 catches these before transformation.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — DICER1 syndrome reaches the CNS: germline DICER1 loss predisposes to pineoblastoma and a distinct DICER1-mutant embryonal brain tumor that overlaps morphologically with medulloblastoma—so miRNA-processing failure, not just SHH/WNT, can drive childhood embryonal CNS cancer.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — DICER1 and Li-Fraumeni are major inherited pediatric cancer-predisposition syndromes with overlapping tumors (rhabdomyosarcoma, CNS embryonal tumors) but distinct mechanisms: DICER1 disrupts microRNA processing, Li-Fraumeni loses TP53 function—both warrant surveillance.
+- `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — The lung epithelium is the cradle of DICER1's signature tumor: pleuropulmonary blastoma arises in the developing lung where DICER1 loss in the airway/alveolar epithelium (including type II pneumocytes) drives cystic then sarcomatous change, the childhood hallmark of the syndrome.
 
 ---
 
