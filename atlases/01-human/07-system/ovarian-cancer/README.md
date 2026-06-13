@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "Peutz-Jeghers syndrome raises ovarian tumor risk: STK11 loss predisposes to sex cord tumors with annular tubules (SCTAT) and mucinous ovarian tumors, alongside its GI hamartomas and breast cancer risk—so PJS is part of the hereditary differential for ovarian neoplasms."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen exposure shapes ovarian cancer risk: more lifetime ovulatory cycles and unopposed estrogen raise risk, while pregnancy, breastfeeding and contraceptives that suppress ovulation lower it—so reproductive and hormonal history strongly modulates this cancer."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Tumor-infiltrating cytotoxic T cells predict ovarian cancer outcome: high CD8 T-cell infiltration of high-grade serous tumors correlates with markedly better survival, evidence the immune system restrains the cancer—a rationale for immunotherapy in ovarian cancer."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Ovarian cancer spreads across the peritoneum to the liver surface: it sheds cells that seed the omentum and coat the liver capsule rather than invading the parenchyma early, so debulking these surface deposits is central to surgery, and ascites is common."
 ---
 
 # Ovarian Cancer
@@ -203,6 +212,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Ovarian cancer and peritoneal mesothelioma can be hard to tell apart: both stud the peritoneum as serous-looking tumors and may carry BAP1 changes, so carcinomatosis needs immunostaining to distinguish high-grade serous ovarian cancer from mesothelioma.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Ovarian fibromas are a feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling produce these benign, often bilateral calcified ovarian tumors, so they warrant Gorlin evaluation—distinct from the epithelial carcinomas that dominate ovarian cancer.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome raises ovarian tumor risk: STK11 loss predisposes to sex cord tumors with annular tubules (SCTAT) and mucinous ovarian tumors, alongside its GI hamartomas and breast cancer risk—so PJS is part of the hereditary differential for ovarian neoplasms.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen exposure shapes ovarian cancer risk: more lifetime ovulatory cycles and unopposed estrogen raise risk, while pregnancy, breastfeeding and contraceptives that suppress ovulation lower it—so reproductive and hormonal history strongly modulates this cancer.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tumor-infiltrating cytotoxic T cells predict ovarian cancer outcome: high CD8 T-cell infiltration of high-grade serous tumors correlates with markedly better survival, evidence the immune system restrains the cancer—a rationale for immunotherapy in ovarian cancer.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Ovarian cancer spreads across the peritoneum to the liver surface: it sheds cells that seed the omentum and coat the liver capsule rather than invading the parenchyma early, so debulking these surface deposits is central to surgery, and ascites is common.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-breast-ovarian-cancer
     relation: connects-to
     note: "Ovarian clear-cell carcinoma differs from the BRCA-driven cancers of HBOC: unlike high-grade serous ovarian cancer, clear-cell is rarely BRCA/HRD-related (it's ARID1A/PIK3CA-driven), so it responds poorly to platinum and PARP inhibitors—a key treatment distinction."
+  - target: 01-human/03-molecular/pten
+    relation: connects-to
+    note: "OCCC is driven by PI3K-pathway and chromatin gene mutations: ARID1A loss with PIK3CA or PTEN alterations activates PI3K/AKT/mTOR growth signaling, distinguishing clear cell carcinoma's biology—and rationale for mTOR/PI3K-targeted trials—from high-grade serous cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "OCCC tends to be immunologically distinct and PD-L1-expressing: among ovarian cancers, clear cell carcinoma more often shows mismatch-repair/ARID1A features and immune infiltration, so NK and T-cell-engaging immunotherapy is of interest in this platinum-resistant subtype."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "OCCC shares clear-cell morphology and biology with renal clear cell carcinoma: glycogen-rich clear cytoplasm and HIF/VEGF-driven angiogenesis link it to VHL-associated kidney cancer, so anti-angiogenic agents are explored across these histologically similar tumors."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -229,6 +238,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Ovarian clear-cell carcinoma and gastric cancer share ARID1A loss: this SWI/SNF chromatin-remodeler tumor suppressor is among the most mutated genes in both, showing how chromatin disruption—not classic oncogenes—drives diverse epithelial cancers.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Ovarian clear-cell carcinoma and cholangiocarcinoma converge on chromatin-remodeling defects: both frequently lose ARID1A, and both are relatively chemoresistant epithelial cancers—making epigenetic vulnerabilities (EZH2 inhibition) a shared therapeutic avenue.
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Ovarian clear-cell carcinoma differs from the BRCA-driven cancers of HBOC: unlike high-grade serous ovarian cancer, clear-cell is rarely BRCA/HRD-related (it's ARID1A/PIK3CA-driven), so it responds poorly to platinum and PARP inhibitors—a key treatment distinction.
+- `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — OCCC is driven by PI3K-pathway and chromatin gene mutations: ARID1A loss with PIK3CA or PTEN alterations activates PI3K/AKT/mTOR growth signaling, distinguishing clear cell carcinoma's biology—and rationale for mTOR/PI3K-targeted trials—from high-grade serous cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — OCCC tends to be immunologically distinct and PD-L1-expressing: among ovarian cancers, clear cell carcinoma more often shows mismatch-repair/ARID1A features and immune infiltration, so NK and T-cell-engaging immunotherapy is of interest in this platinum-resistant subtype.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — OCCC shares clear-cell morphology and biology with renal clear cell carcinoma: glycogen-rich clear cytoplasm and HIF/VEGF-driven angiogenesis link it to VHL-associated kidney cancer, so anti-angiogenic agents are explored across these histologically similar tumors.
 
 ---
 
