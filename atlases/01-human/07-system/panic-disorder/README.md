@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/asthma
     relation: connects-to
     note: "Panic disorder and asthma are tightly comorbid and can mimic each other: breathlessness triggers panic and hyperventilation worsens bronchospasm, while CO2 hypersensitivity links both—so telling an asthma attack from a panic attack matters clinically."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Pheochromocytoma is the classic organic mimic of panic disorder: its catecholamine surges produce sudden palpitations and a sense of doom indistinguishable from a panic attack—so refractory 'panic' with hypertension warrants metanephrine testing to exclude it."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Panic disorder engages the HPA stress axis through cortisol: although the acute attack is driven by adrenaline, chronic anxiety dysregulates cortisol secretion, and the hormone's feedback shapes fear circuits—linking the body's main stress hormone to recurrent panic."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Panic disorder and depression are highly comorbid and share treatment: most patients with one develop the other, both respond to SSRIs, and co-occurring panic worsens depression's prognosis and suicide risk—so screening for depression is routine in panic disorder."
 ---
 
 # Panic Disorder
@@ -228,6 +237,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Panic disorder and PTSD overlap in fear circuitry: both involve a hyperreactive amygdala and noradrenergic surges, panic attacks are common in PTSD, and they share SSRIs and exposure CBT—but PTSD is anchored to a trauma memory while panic strikes unpredictably.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — A panic attack is a false alarm of the fight-or-flight axis the adrenal gland serves: surging adrenaline drives palpitations, sweating, and tremor, and because pheochromocytoma produces identical paroxysms, panic with severe hypertension warrants catecholamine testing.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Panic disorder and asthma are tightly comorbid and can mimic each other: breathlessness triggers panic and hyperventilation worsens bronchospasm, while CO2 hypersensitivity links both—so telling an asthma attack from a panic attack matters clinically.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pheochromocytoma is the classic organic mimic of panic disorder: its catecholamine surges produce sudden palpitations and a sense of doom indistinguishable from a panic attack—so refractory 'panic' with hypertension warrants metanephrine testing to exclude it.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Panic disorder engages the HPA stress axis through cortisol: although the acute attack is driven by adrenaline, chronic anxiety dysregulates cortisol secretion, and the hormone's feedback shapes fear circuits—linking the body's main stress hormone to recurrent panic.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Panic disorder and depression are highly comorbid and share treatment: most patients with one develop the other, both respond to SSRIs, and co-occurring panic worsens depression's prognosis and suicide risk—so screening for depression is routine in panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

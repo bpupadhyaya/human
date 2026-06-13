@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "PCNSL grows in the unique immune environment policed by microglia: this EBV-driven B-cell lymphoma proliferates around vessels in brain parenchyma, and reactive microglia form the perivascular cuffs and inflammatory backdrop characteristic of its histology."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "PCNSL and glioblastoma are the two great intra-axial brain masses that imaging can confuse: both enhance and infiltrate, but PCNSL is a B-cell lymphoma exquisitely steroid- and methotrexate-sensitive, while GBM needs surgery and chemoradiation—biopsy is decisive."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "PCNSL and meningioma are both intracranial tumors but opposite: PCNSL is an intra-axial B-cell lymphoma treated with methotrexate, while meningioma is an extra-axial dural tumor cured by resection—MRI location usually separates the medical from the surgical disease."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "PCNSL and mantle cell lymphoma can both involve the CNS: primary CNS lymphoma is a brain-confined DLBCL, while aggressive systemic lymphomas like MCL can spread secondarily to the leptomeninges—so CNS lymphoma may be primary or secondary."
 ---
 
 # Primary CNS Lymphoma
@@ -189,6 +198,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Primary CNS lymphoma is an AIDS-defining cancer: in advanced HIV with low CD4 counts, EBV-driven B-cell lymphoma arises in the brain, so a periventricular mass in AIDS raises PCNSL versus toxoplasmosis—distinguished by EBV PCR of CSF and thallium imaging.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Whole-brain photon radiotherapy once anchored PCNSL treatment but is now used cautiously: the tumor is exquisitely radiosensitive, yet WBRT causes severe delayed neurocognitive decline, so high-dose methotrexate is preferred and radiation reserved or dose-reduced.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — PCNSL grows in the unique immune environment policed by microglia: this EBV-driven B-cell lymphoma proliferates around vessels in brain parenchyma, and reactive microglia form the perivascular cuffs and inflammatory backdrop characteristic of its histology.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — PCNSL and glioblastoma are the two great intra-axial brain masses that imaging can confuse: both enhance and infiltrate, but PCNSL is a B-cell lymphoma exquisitely steroid- and methotrexate-sensitive, while GBM needs surgery and chemoradiation—biopsy is decisive.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — PCNSL and meningioma are both intracranial tumors but opposite: PCNSL is an intra-axial B-cell lymphoma treated with methotrexate, while meningioma is an extra-axial dural tumor cured by resection—MRI location usually separates the medical from the surgical disease.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — PCNSL and mantle cell lymphoma can both involve the CNS: primary CNS lymphoma is a brain-confined DLBCL, while aggressive systemic lymphomas like MCL can spread secondarily to the leptomeninges—so CNS lymphoma may be primary or secondary.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
