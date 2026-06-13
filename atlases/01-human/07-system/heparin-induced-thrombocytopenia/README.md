@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/inherited-thrombophilia
     relation: connects-to
     note: "HIT is a severe acquired thrombophilia that, unlike most inherited thrombophilias, threatens arteries as well as veins and can take limbs; co-existing inherited thrombophilia or recent VTE further raises the risk of HIT-associated thrombosis."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "HIT and PNH are acquired, intensely prothrombotic disorders with opposite mechanisms: HIT is anti-PF4/heparin IgG activating platelets, PNH is complement-mediated hemolysis from GPI-anchor loss; both clot despite platelet consumption and need targeted therapy, not heparin alone."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "HIT and antiphospholipid syndrome are antibody-mediated acquired thrombophilias threatening arteries and veins: anti-PF4 IgG and antiphospholipid antibodies each activate platelets and endothelium; both can cause catastrophic multisite thrombosis and avoid reliance on heparin."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Unlike most thrombophilias, HIT causes arterial as well as venous thrombosis: anti-PF4/heparin immune complexes activate platelets and endothelium → arterial 'white clots' causing stroke, MI and limb ischemia; suspected HIT mandates a non-heparin anticoagulant."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -207,6 +216,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — HIT is driven by a transient IgG against the PF4-heparin complex; this antibody cross-links FcγRIIA on platelets to activate them, so detection rests on an anti-PF4/heparin IgG ELISA confirmed by a serotonin-release assay — and the IgG typically fades within 3-6 months.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Beyond platelets, anti-PF4/heparin IgG activates endothelial cells: PF4 binds endothelial heparan sulfate, and immune-complex engagement induces tissue factor expression, amplifying thrombin generation — why HIT is so intensely prothrombotic despite falling platelet counts.
 - `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — HIT is a severe acquired thrombophilia that, unlike most inherited thrombophilias, threatens arteries as well as veins and can take limbs; co-existing inherited thrombophilia or recent VTE further raises the risk of HIT-associated thrombosis.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — HIT and PNH are acquired, intensely prothrombotic disorders with opposite mechanisms: HIT is anti-PF4/heparin IgG activating platelets, PNH is complement-mediated hemolysis from GPI-anchor loss; both clot despite platelet consumption and need targeted therapy, not heparin alone.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — HIT and antiphospholipid syndrome are antibody-mediated acquired thrombophilias threatening arteries and veins: anti-PF4 IgG and antiphospholipid antibodies each activate platelets and endothelium; both can cause catastrophic multisite thrombosis and avoid reliance on heparin.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Unlike most thrombophilias, HIT causes arterial as well as venous thrombosis: anti-PF4/heparin immune complexes activate platelets and endothelium → arterial 'white clots' causing stroke, MI and limb ischemia; suspected HIT mandates a non-heparin anticoagulant.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

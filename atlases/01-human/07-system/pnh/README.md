@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The hepatic and portal veins are the signature thrombosis sites in PNH: Budd-Chiari syndrome presents with abdominal pain, hepatomegaly, and ascites; extravascular clearance of C3-opsonized cells also occurs in the liver."
+  - target: 01-human/07-system/heparin-induced-thrombocytopenia
+    relation: connects-to
+    note: "PNH and HIT are acquired prothrombotic states driven by cellular activation rather than clotting-factor excess: PNH via complement (C5a, MAC) and nitric-oxide-scavenging free hemoglobin, HIT via anti-PF4 IgG; both clot in unusual sites and resist plain anticoagulation."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "PNH clones frequently arise within bone-marrow-failure syndromes: small GPI-deficient clones occur in many aplastic anemia and hypoplastic MDS patients, where immune attack selects complement-resistant PNH cells; flow cytometry for GPI-anchored proteins is part of the MDS workup."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Complement drives thrombosis in PNH at the platelet surface: lacking GPI-anchored CD55/CD59, platelets are hit by C5a and the membrane-attack complex → activation and aggregation; this, plus nitric-oxide depletion from hemolysis, explains PNH's extreme thrombotic risk."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -147,6 +156,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — PNH red cells, made by a PIGA-mutant clone, lack the GPI-anchored complement brakes CD55 and CD59, so the membrane attack complex lyses them → chronic intravascular hemolysis; anti-C5 drugs stop the lysis but C3-opsonized cells may still be cleared extravascularly.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — PNH is among the most thrombophilic diseases — 40-50% of untreated patients clot, classically in the hepatic veins; free hemoglobin scavenges nitric oxide while C5a and the MAC activate platelets, and complement inhibition (not anticoagulation alone) cuts thrombotic events ~90%.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The hepatic and portal veins are the signature thrombosis sites in PNH: Budd-Chiari syndrome presents with abdominal pain, hepatomegaly, and ascites; extravascular clearance of C3-opsonized cells also occurs in the liver.
+- `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — PNH and HIT are acquired prothrombotic states driven by cellular activation rather than clotting-factor excess: PNH via complement (C5a, MAC) and nitric-oxide-scavenging free hemoglobin, HIT via anti-PF4 IgG; both clot in unusual sites and resist plain anticoagulation.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — PNH clones frequently arise within bone-marrow-failure syndromes: small GPI-deficient clones occur in many aplastic anemia and hypoplastic MDS patients, where immune attack selects complement-resistant PNH cells; flow cytometry for GPI-anchored proteins is part of the MDS workup.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Complement drives thrombosis in PNH at the platelet surface: lacking GPI-anchored CD55/CD59, platelets are hit by C5a and the membrane-attack complex → activation and aggregation; this, plus nitric-oxide depletion from hemolysis, explains PNH's extreme thrombotic risk.
 
 ---
 
