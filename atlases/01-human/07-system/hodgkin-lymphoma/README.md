@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/cll
     relation: connects-to
     note: "Hodgkin lymphoma and CLL are both B-cell neoplasms that can intersect through transformation: CLL occasionally undergoes Richter transformation into Hodgkin lymphoma, and both can be EBV-associated—so an indolent leukemia can give rise to an aggressive lymphoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Hodgkin lymphoma evades NK and immune killing despite few tumor cells: the rare Reed-Sternberg cells survive amid abundant immune cells by suppressing NK and T-cell attack and overexpressing PD-L1—why PD-1 blockade is strikingly effective in Hodgkin lymphoma."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone marrow involvement upstages Hodgkin lymphoma: though it usually spreads predictably node-to-node, marrow infiltration signals advanced (stage IV) disease, so staging marrow assessment (now often PET) guides whether limited or extended chemotherapy is used."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Reed-Sternberg cells secrete IL-10 to build an immunosuppressive niche: this and other cytokines recruit and pacify the reactive immune cells that make up most of the tumor, letting the few malignant cells thrive—explaining Hodgkin lymphoma's odd cellular makeup."
 ---
 
 # Hodgkin Lymphoma
@@ -209,6 +218,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is woven into Hodgkin lymphoma's cure: because HL spreads contiguously between nodes, involved-site photon irradiation (lower-dose, after chemo) controls it well—but extended-field radiation's late second cancers and heart disease pushed toward less.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hodgkin lymphoma is mostly microenvironment: the malignant Reed-Sternberg cells are rare amid an immune infiltrate, and abundant tumor-associated macrophages predict worse outcomes—so the supporting macrophages, not just the cancer cells, shape prognosis.
 - `connects-to` → **[CLL](../cll/README.md)** — Hodgkin lymphoma and CLL are both B-cell neoplasms that can intersect through transformation: CLL occasionally undergoes Richter transformation into Hodgkin lymphoma, and both can be EBV-associated—so an indolent leukemia can give rise to an aggressive lymphoma.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Hodgkin lymphoma evades NK and immune killing despite few tumor cells: the rare Reed-Sternberg cells survive amid abundant immune cells by suppressing NK and T-cell attack and overexpressing PD-L1—why PD-1 blockade is strikingly effective in Hodgkin lymphoma.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow involvement upstages Hodgkin lymphoma: though it usually spreads predictably node-to-node, marrow infiltration signals advanced (stage IV) disease, so staging marrow assessment (now often PET) guides whether limited or extended chemotherapy is used.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Reed-Sternberg cells secrete IL-10 to build an immunosuppressive niche: this and other cytokines recruit and pacify the reactive immune cells that make up most of the tumor, letting the few malignant cells thrive—explaining Hodgkin lymphoma's odd cellular makeup.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

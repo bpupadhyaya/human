@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Marfan syndrome raises stroke risk through vascular fragility: aortic root disease can throw cardioembolic clots, and the same fibrillin-1 weakness predisposes to cervical artery dissection—so an aortic disease can also strike the brain."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Marfan syndrome weakens the lungs: fibrillin-deficient connective tissue forms apical blebs that rupture, causing spontaneous pneumothorax, and chest-wall deformity restricts breathing—so respiratory complications add to the cardiovascular and skeletal features."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Marfan's skeletal overgrowth reflects disordered bone formation: excess TGF-beta signaling from fibrillin-1 loss drives long-bone overgrowth, giving tall stature and arachnodactyly—so bone-forming cells build too much skeleton on a faulty connective scaffold."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Dural ectasia is a hallmark Marfan feature: weakened connective tissue lets the dura around the lower spine balloon out, causing back pain and headaches and serving as a diagnostic criterion—showing Marfan's reach into the nervous system's coverings."
 ---
 
 # Marfan Syndrome
@@ -226,6 +235,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts build Marfan's failing scaffold: they secrete fibrillin-1 to assemble microfibrils that lend connective tissue elasticity and sequester TGF-β, so FBN1 mutations leave microfibrils defective—weakening aorta, lens zonules and ligaments and unleashing TGF-β.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin shows Marfan's connective-tissue defect: deficient fibrillin-1 microfibrils reduce dermal elasticity, producing striae atrophicae (stretch marks) and sometimes thin, hyperextensible skin—visible clues to a disorder whose real danger lies in the aorta.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Marfan syndrome raises stroke risk through vascular fragility: aortic root disease can throw cardioembolic clots, and the same fibrillin-1 weakness predisposes to cervical artery dissection—so an aortic disease can also strike the brain.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Marfan syndrome weakens the lungs: fibrillin-deficient connective tissue forms apical blebs that rupture, causing spontaneous pneumothorax, and chest-wall deformity restricts breathing—so respiratory complications add to the cardiovascular and skeletal features.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Marfan's skeletal overgrowth reflects disordered bone formation: excess TGF-beta signaling from fibrillin-1 loss drives long-bone overgrowth, giving tall stature and arachnodactyly—so bone-forming cells build too much skeleton on a faulty connective scaffold.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Dural ectasia is a hallmark Marfan feature: weakened connective tissue lets the dura around the lower spine balloon out, causing back pain and headaches and serving as a diagnostic criterion—showing Marfan's reach into the nervous system's coverings.
 
 ---
 
