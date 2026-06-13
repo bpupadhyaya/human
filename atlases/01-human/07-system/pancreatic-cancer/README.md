@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/neuroendocrine-tumors
     relation: connects-to
     note: "Pancreatic ductal adenocarcinoma and pancreatic neuroendocrine tumors are different cancers of one organ: PDAC is an aggressive KRAS-driven exocrine cancer, while pancreatic NETs arise from islet cells and are often indolent—same gland, opposite biology."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "BRCA2 makes pancreatic cancer hereditary and treatable: germline BRCA2 (and PALB2) loss raises risk and creates homologous-recombination deficiency, so these tumors respond to platinum chemotherapy and PARP inhibitors—a rare targeted opening in a grim cancer."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "New-onset diabetes can be the first sign of pancreatic cancer: the tumor impairs insulin secretion and induces insulin resistance, so unexplained diabetes after age 50—especially with weight loss—warrants considering an occult pancreatic cancer."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is pancreatic cancer's main metastatic site and a route to jaundice: a head tumor obstructs the bile duct causing painless jaundice, while spread seeds the liver—so liver involvement and biliary obstruction dominate the clinical picture."
 ---
 
 # Pancreatic Cancer
@@ -215,6 +224,9 @@ cross_links:
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Pancreatic cancer is part of the Li-Fraumeni spectrum: germline TP53 loss raises its risk, and somatic TP53 mutation is one of the four near-universal drivers of pancreatic ductal adenocarcinoma—linking the inherited p53 syndrome to a lethal tumor.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy has a contested but real role in pancreatic cancer: chemoradiation or stereotactic body radiation can downstage tumors and palliate local symptoms, though early spread means systemic chemotherapy carries most of the treatment burden.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Pancreatic ductal adenocarcinoma and pancreatic neuroendocrine tumors are different cancers of one organ: PDAC is an aggressive KRAS-driven exocrine cancer, while pancreatic NETs arise from islet cells and are often indolent—same gland, opposite biology.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 makes pancreatic cancer hereditary and treatable: germline BRCA2 (and PALB2) loss raises risk and creates homologous-recombination deficiency, so these tumors respond to platinum chemotherapy and PARP inhibitors—a rare targeted opening in a grim cancer.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — New-onset diabetes can be the first sign of pancreatic cancer: the tumor impairs insulin secretion and induces insulin resistance, so unexplained diabetes after age 50—especially with weight loss—warrants considering an occult pancreatic cancer.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is pancreatic cancer's main metastatic site and a route to jaundice: a head tumor obstructs the bile duct causing painless jaundice, while spread seeds the liver—so liver involvement and biliary obstruction dominate the clinical picture.
 
 ---
 

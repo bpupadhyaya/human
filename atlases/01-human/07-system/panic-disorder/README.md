@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Panic disorder and depression are highly comorbid and share treatment: most patients with one develop the other, both respond to SSRIs, and co-occurring panic worsens depression's prognosis and suicide risk—so screening for depression is routine in panic disorder."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine links caffeine to panic attacks: blocking adenosine receptors (as caffeine does) can provoke panic in susceptible people, evidence that the adenosine system modulates anxiety—so caffeine avoidance is part of managing panic disorder."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Panic disorder masquerades as heart disease: surging adrenaline causes palpitations, chest pain and tachycardia that mimic a heart attack, so panic is a leading reason for emergency cardiac workups—and real cardiac disease must be excluded before diagnosing it."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Panic disorder may stem from a faulty suffocation alarm: patients are hypersensitive to rising CO2, so air hunger and hyperventilation trigger attacks (and CO2 inhalation can provoke them in the lab)—linking the respiratory system's chemosensing to panic."
 ---
 
 # Panic Disorder
@@ -240,6 +249,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pheochromocytoma is the classic organic mimic of panic disorder: its catecholamine surges produce sudden palpitations and a sense of doom indistinguishable from a panic attack—so refractory 'panic' with hypertension warrants metanephrine testing to exclude it.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Panic disorder engages the HPA stress axis through cortisol: although the acute attack is driven by adrenaline, chronic anxiety dysregulates cortisol secretion, and the hormone's feedback shapes fear circuits—linking the body's main stress hormone to recurrent panic.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Panic disorder and depression are highly comorbid and share treatment: most patients with one develop the other, both respond to SSRIs, and co-occurring panic worsens depression's prognosis and suicide risk—so screening for depression is routine in panic disorder.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine links caffeine to panic attacks: blocking adenosine receptors (as caffeine does) can provoke panic in susceptible people, evidence that the adenosine system modulates anxiety—so caffeine avoidance is part of managing panic disorder.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Panic disorder masquerades as heart disease: surging adrenaline causes palpitations, chest pain and tachycardia that mimic a heart attack, so panic is a leading reason for emergency cardiac workups—and real cardiac disease must be excluded before diagnosing it.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Panic disorder may stem from a faulty suffocation alarm: patients are hypersensitive to rising CO2, so air hunger and hyperventilation trigger attacks (and CO2 inhalation can provoke them in the lab)—linking the respiratory system's chemosensing to panic.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
