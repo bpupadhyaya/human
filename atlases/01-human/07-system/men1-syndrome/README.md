@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "The pancreas is the most dangerous MEN1 site: multifocal pancreatic neuroendocrine tumors — gastrinomas (Zollinger-Ellison), insulinomas, non-functioning pNETs — arise young and are the leading cause of MEN1 mortality; surveillance MRI and a >2 cm surgical threshold guide care."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "MEN1 and Carney complex are both hereditary multiple-endocrine-neoplasia syndromes with different drivers: MEN1 (menin loss) gives parathyroid, islet and pituitary tumors; Carney (PRKAR1A/PKA) adds cardiac myxomas, skin pigmentation and PPNAD, with overlapping pituitary disease."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "MEN1 is the archetypal disease of the endocrine system as a network: a single menin mutation simultaneously transforms the parathyroids, pancreatic islets and anterior pituitary (the '3 Ps'), showing how one tumor-suppressor's loss dysregulates multiple endocrine glands at once."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Pituitary adenomas are one of MEN1's three core tumors and frequently disturb growth hormone: GH-secreting somatotroph adenomas cause acromegaly, while prolactinomas are the commonest MEN1 pituitary tumor—so IGF-1/GH and prolactin screening is part of MEN1 surveillance."
 ---
 
 # MEN1 Syndrome
@@ -183,6 +192,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — MEN1 and MEN4 are clinically near-identical multiple endocrine neoplasia syndromes — both cause parathyroid, pituitary, and pancreatic neuroendocrine tumors — but differ in gene: MEN1 from menin loss, MEN4 from CDKN1B/p27 loss; CDKN1B testing follows a negative MEN1 result.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Primary hyperparathyroidism is the earliest and most penetrant MEN1 manifestation (~95% by age 50): menin loss drives multigland parathyroid hyperplasia → excess PTH → hypercalcemia, kidney stones, and bone loss; subtotal parathyroidectomy is standard as all glands are at risk.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is the most dangerous MEN1 site: multifocal pancreatic neuroendocrine tumors — gastrinomas (Zollinger-Ellison), insulinomas, non-functioning pNETs — arise young and are the leading cause of MEN1 mortality; surveillance MRI and a >2 cm surgical threshold guide care.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — MEN1 and Carney complex are both hereditary multiple-endocrine-neoplasia syndromes with different drivers: MEN1 (menin loss) gives parathyroid, islet and pituitary tumors; Carney (PRKAR1A/PKA) adds cardiac myxomas, skin pigmentation and PPNAD, with overlapping pituitary disease.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — MEN1 is the archetypal disease of the endocrine system as a network: a single menin mutation simultaneously transforms the parathyroids, pancreatic islets and anterior pituitary (the '3 Ps'), showing how one tumor-suppressor's loss dysregulates multiple endocrine glands at once.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Pituitary adenomas are one of MEN1's three core tumors and frequently disturb growth hormone: GH-secreting somatotroph adenomas cause acromegaly, while prolactinomas are the commonest MEN1 pituitary tumor—so IGF-1/GH and prolactin screening is part of MEN1 surveillance.
 
 ---
 

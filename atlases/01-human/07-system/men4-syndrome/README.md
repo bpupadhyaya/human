@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Pituitary adenomas occur in ~40-60% of MEN4, prolactinoma among the most common, causing hyperprolactinemia with hypogonadism and galactorrhea; p27 loss releases lactotroph proliferation, and these are managed like sporadic prolactinomas with dopamine agonists (cabergoline)."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "MEN4 is a MEN1-like multiple-endocrine-neoplasia syndrome: loss of the CDKN1B-encoded cell-cycle inhibitor p27 predisposes to parathyroid, pituitary and pancreatic-islet tumors much like menin loss, illustrating that several tumor-suppressor genes converge on endocrine neoplasia."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Pancreatic neuroendocrine tumors are part of MEN4 as in MEN1: p27 (CDKN1B) loss predisposes to islet-cell tumors (gastrinomas, insulinomas) alongside parathyroid and pituitary disease, so functional and anatomic pancreatic surveillance is recommended in CDKN1B carriers."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulinomas are among the islet tumors of MEN4: as in MEN1, p27 loss can produce a functioning pancreatic neuroendocrine tumor that oversecretes insulin, causing fasting hypoglycemia (Whipple's triad)—one reason MEN4 carriers need biochemical pancreatic-islet surveillance."
 ---
 
 # MEN4 Syndrome
@@ -175,6 +184,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — MEN4 and Carney complex are both rare dominant multiple-endocrine-neoplasia syndromes with pituitary and other endocrine tumors, but via different genes: MEN4 from CDKN1B/p27 loss, Carney complex from PRKAR1A loss (PKA overactivity) plus cardiac myxomas and skin pigmentation.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — MEN4 is fundamentally a cell-cycle disease: loss of CDKN1B/p27 — a CDK inhibitor — releases CDK2-cyclin E (and CDK4/6) to drive G1/S transition in endocrine cells; this makes CDK4/6 inhibitors (palbociclib, ribociclib) a rational therapy for p27-deficient neuroendocrine tumors.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Pituitary adenomas occur in ~40-60% of MEN4, prolactinoma among the most common, causing hyperprolactinemia with hypogonadism and galactorrhea; p27 loss releases lactotroph proliferation, and these are managed like sporadic prolactinomas with dopamine agonists (cabergoline).
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — MEN4 is a MEN1-like multiple-endocrine-neoplasia syndrome: loss of the CDKN1B-encoded cell-cycle inhibitor p27 predisposes to parathyroid, pituitary and pancreatic-islet tumors much like menin loss, illustrating that several tumor-suppressor genes converge on endocrine neoplasia.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Pancreatic neuroendocrine tumors are part of MEN4 as in MEN1: p27 (CDKN1B) loss predisposes to islet-cell tumors (gastrinomas, insulinomas) alongside parathyroid and pituitary disease, so functional and anatomic pancreatic surveillance is recommended in CDKN1B carriers.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulinomas are among the islet tumors of MEN4: as in MEN1, p27 loss can produce a functioning pancreatic neuroendocrine tumor that oversecretes insulin, causing fasting hypoglycemia (Whipple's triad)—one reason MEN4 carriers need biochemical pancreatic-islet surveillance.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
