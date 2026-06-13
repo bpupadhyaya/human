@@ -64,6 +64,15 @@ cross_links:
   - target: 02-pathogen/06-environmental/diarrheal-disease
     relation: damaged-by
     note: "Enteric pathogens (Salmonella, C. diff, rotavirus) disrupt gut microbiome via invasion and diarrhea-driven washout of commensal species; post-diarrheal dysbiosis delays mucosal recovery; FMT (fecal microbiota transplant) is curative for recurrent C. difficile colitis."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "The gut microbiome is central to inflammatory bowel disease: loss of diversity and a shift toward pro-inflammatory species breaches the mucosal barrier and provokes the immune attack of Crohn's and colitis—so the microbiome is both a driver and a treatment target."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "The gut microbiome links to Parkinson's disease via the gut-brain axis: α-synuclein pathology may begin in the enteric nervous system and ascend the vagus, gut dysbiosis is common, and constipation precedes motor symptoms by years—Parkinson's may start in the gut."
+  - target: 02-pathogen/02-bacteria/clostridioides-difficile
+    relation: connects-to
+    note: "Clostridioides difficile infection is the disease of a disrupted microbiome: antibiotics wipe out protective gut flora, letting C. difficile overgrow, and restoring the microbiome by fecal transplant cures cases—proof that the microbial community is protective."
 ---
 
 # Gut Microbiome
@@ -157,6 +166,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Colonic bacteria ferment dietary fibre (complex carbon polymers) → SCFAs: acetate (C2), propionate (C3), butyrate (C4); butyrate fuels ~70% of colonocyte energy; microbiome carbon fermentation links dietary carbon intake to host metabolic health.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Gut bacteria perform nitrogen cycling: urease-positive species hydrolyse urea; amino acid fermentation → ammonia and branched-chain SCFAs; dietary protein nitrogen is the primary driver of microbiome composition; nitrogen balance determines colonocyte renewal.
 - `damaged-by` → **[Diarrheal Disease](../../../../02-pathogen/06-environmental/diarrheal-disease/README.md)** — Enteric pathogens (Salmonella, C. diff, rotavirus) disrupt gut microbiome via invasion and diarrhea-driven washout of commensal species; post-diarrheal dysbiosis delays mucosal recovery; FMT (fecal microbiota transplant) is curative for recurrent C. difficile colitis.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — The gut microbiome is central to inflammatory bowel disease: loss of diversity and a shift toward pro-inflammatory species breaches the mucosal barrier and provokes the immune attack of Crohn's and colitis—so the microbiome is both a driver and a treatment target.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — The gut microbiome links to Parkinson's disease via the gut-brain axis: α-synuclein pathology may begin in the enteric nervous system and ascend the vagus, gut dysbiosis is common, and constipation precedes motor symptoms by years—Parkinson's may start in the gut.
+- `connects-to` → **[Clostridioides difficile](../../../02-pathogen/02-bacteria/clostridioides-difficile/README.md)** — Clostridioides difficile infection is the disease of a disrupted microbiome: antibiotics wipe out protective gut flora, letting C. difficile overgrow, and restoring the microbiome by fecal transplant cures cases—proof that the microbial community is protective.
 
 ## Pathology
 
