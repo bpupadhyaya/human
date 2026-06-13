@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver dictates carcinoid syndrome in neuroendocrine tumors: a midgut NET's serotonin is normally cleared by hepatic first-pass, so flushing and diarrhea appear only once liver metastases dump vasoactive amines directly into the systemic circulation."
+  - target: 01-human/07-system/sclc
+    relation: connects-to
+    note: "Neuroendocrine tumors and small-cell lung cancer are the two ends of the neuroendocrine spectrum: well-differentiated NETs are indolent, while SCLC is a poorly differentiated, high-grade neuroendocrine carcinoma that grows explosively—same lineage, opposite tempo."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulinoma is the prototypical functional neuroendocrine tumor: a pancreatic-islet NET that autonomously secretes insulin, causing fasting hypoglycemia (Whipple's triad)—it shows how NETs are classified and treated by the hormone they produce."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is a major site of neuroendocrine tumors: from indolent typical bronchial carcinoids through atypical carcinoids to high-grade small-cell neuroendocrine carcinoma, all arising from pulmonary neuroendocrine cells—'lung NET' spans benign to lethal."
 ---
 
 # Neuroendocrine Tumors
@@ -180,6 +189,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pheochromocytoma/paraganglioma are neuroendocrine tumors of the adrenal medulla and sympathetic ganglia: like other NETs they express somatostatin receptors (enabling DOTATATE imaging and PRRT) but uniquely secrete catecholamines, causing paroxysmal hypertension.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — VHL disease is a major hereditary cause of neuroendocrine tumors: germline VHL loss predisposes to pancreatic neuroendocrine tumors and pheochromocytomas alongside its hemangioblastomas and clear-cell RCC, so a young patient with a panNET warrants VHL and MEN1 testing.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver dictates carcinoid syndrome in neuroendocrine tumors: a midgut NET's serotonin is normally cleared by hepatic first-pass, so flushing and diarrhea appear only once liver metastases dump vasoactive amines directly into the systemic circulation.
+- `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — Neuroendocrine tumors and small-cell lung cancer are the two ends of the neuroendocrine spectrum: well-differentiated NETs are indolent, while SCLC is a poorly differentiated, high-grade neuroendocrine carcinoma that grows explosively—same lineage, opposite tempo.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulinoma is the prototypical functional neuroendocrine tumor: a pancreatic-islet NET that autonomously secretes insulin, causing fasting hypoglycemia (Whipple's triad)—it shows how NETs are classified and treated by the hormone they produce.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a major site of neuroendocrine tumors: from indolent typical bronchial carcinoids through atypical carcinoids to high-grade small-cell neuroendocrine carcinoma, all arising from pulmonary neuroendocrine cells—'lung NET' spans benign to lethal.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

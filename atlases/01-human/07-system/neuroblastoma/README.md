@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy treats high-risk neuroblastoma two ways: external-beam photon irradiation consolidates the primary site after surgery and chemo, while 131-I-MIBG delivers targeted internal radiation to MIBG-avid metastases—exploiting the tumor's radiosensitivity."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Neuroblastoma and Ewing sarcoma are both 'small round blue cell' childhood tumors that overlap on biopsy but are distinct: neuroblastoma arises from sympathetic neuroblasts, while Ewing arises in bone with EWSR1-FLI1 and CD99—immunostains separate them."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Neuroblastoma and medulloblastoma are both embryonal childhood tumors at different sites: neuroblastoma arises from peripheral sympathetic neuroblasts, medulloblastoma from cerebellar progenitors—peripheral versus central nervous-system embryonal cancers."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Neuroblastoma sits in the expanded Li-Fraumeni spectrum: germline TP53 loss modestly raises childhood neuroblastoma risk, and although most are sporadic, TP53-pathway inactivation contributes to aggressive, treatment-resistant relapses—linking it to the p53 guardian."
 ---
 
 # Neuroblastoma
@@ -212,6 +221,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Neuroblastoma and pheochromocytoma both arise from sympathoadrenal neural-crest cells: neuroblastoma is the malignant childhood tumor of immature sympathetic precursors, while pheochromocytoma is its catecholamine-secreting adult counterpart—both seen on MIBG.
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — Neuroblastoma and Wilms tumor are the two commonest extracranial solid tumors of early childhood and key differentials for an abdominal mass: neuroblastoma is an adrenal/sympathetic-chain tumor crossing the midline, while Wilms (nephroblastoma) is a renal tumor that respects it.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy treats high-risk neuroblastoma two ways: external-beam photon irradiation consolidates the primary site after surgery and chemo, while 131-I-MIBG delivers targeted internal radiation to MIBG-avid metastases—exploiting the tumor's radiosensitivity.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Neuroblastoma and Ewing sarcoma are both 'small round blue cell' childhood tumors that overlap on biopsy but are distinct: neuroblastoma arises from sympathetic neuroblasts, while Ewing arises in bone with EWSR1-FLI1 and CD99—immunostains separate them.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Neuroblastoma and medulloblastoma are both embryonal childhood tumors at different sites: neuroblastoma arises from peripheral sympathetic neuroblasts, medulloblastoma from cerebellar progenitors—peripheral versus central nervous-system embryonal cancers.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Neuroblastoma sits in the expanded Li-Fraumeni spectrum: germline TP53 loss modestly raises childhood neuroblastoma risk, and although most are sporadic, TP53-pathway inactivation contributes to aggressive, treatment-resistant relapses—linking it to the p53 guardian.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
