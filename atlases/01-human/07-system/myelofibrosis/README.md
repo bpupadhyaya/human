@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Myelofibrosis drives extramedullary hematopoiesis in the liver: as marrow fibrosis crowds out blood production, hematopoiesis relocates to spleen and liver, enlarging them—and the displaced blood-forming tissue can cause portal hypertension."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Myelofibrosis is bone marrow turned to scar: malignant megakaryocytes secrete TGF-beta that drives fibroblasts to fill the marrow with fibrosis, so blood production fails and shifts to liver and spleen (extramedullary hematopoiesis)—the disease's defining lesion."
+  - target: 01-human/03-molecular/mpl
+    relation: connects-to
+    note: "MPL is one of myelofibrosis's three driver mutations: activating the thrombopoietin receptor MPL (like JAK2 and CALR) switches on JAK-STAT to drive the clone, so testing JAK2/CALR/MPL classifies the disease and rare triple-negative cases carry worse prognosis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Myelofibrosis causes anemia despite high erythropoietin: marrow scarring crowds out red-cell production so EPO rises but cannot be answered, leaving transfusion-dependent anemia—a key driver of symptoms that JAK inhibitors and newer agents try to relieve."
 ---
 
 # Myelofibrosis
@@ -219,6 +228,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — Myelofibrosis and CML are both chronic myeloproliferative neoplasms with marrow fibrosis but different drivers: CML's BCR-ABL is targeted by imatinib, while myelofibrosis's JAK2/CALR/MPL mutations are treated with JAK inhibitors—both can transform to leukemia.
 - `connects-to` → **[Gout](../gout/README.md)** — Myelofibrosis commonly causes secondary gout: the high cell turnover of the proliferating clone floods the blood with purines that become uric acid, so hyperuricemia and gout flares accompany the disease—sometimes a clue to an underlying myeloproliferative neoplasm.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Myelofibrosis drives extramedullary hematopoiesis in the liver: as marrow fibrosis crowds out blood production, hematopoiesis relocates to spleen and liver, enlarging them—and the displaced blood-forming tissue can cause portal hypertension.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Myelofibrosis is bone marrow turned to scar: malignant megakaryocytes secrete TGF-beta that drives fibroblasts to fill the marrow with fibrosis, so blood production fails and shifts to liver and spleen (extramedullary hematopoiesis)—the disease's defining lesion.
+- `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — MPL is one of myelofibrosis's three driver mutations: activating the thrombopoietin receptor MPL (like JAK2 and CALR) switches on JAK-STAT to drive the clone, so testing JAK2/CALR/MPL classifies the disease and rare triple-negative cases carry worse prognosis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Myelofibrosis causes anemia despite high erythropoietin: marrow scarring crowds out red-cell production so EPO rises but cannot be answered, leaving transfusion-dependent anemia—a key driver of symptoms that JAK inhibitors and newer agents try to relieve.
 
 ---
 

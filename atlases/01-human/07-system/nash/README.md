@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "NASH and hepatitis C are converging causes of chronic liver disease: as antivirals cure HCV, NASH is overtaking it as the leading driver of cirrhosis and liver cancer—both end in fibrosis and HCC, one infectious, one metabolic."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Fibrosis stage drives the prognosis of NASH: fat plus inflammation activates hepatic fibrogenesis, and the degree of liver fibrosis—not the fat or inflammation itself—predicts progression to cirrhosis and death, so antifibrotic effect is the goal of NASH therapy."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance is the engine of NASH: it floods the liver with fatty acids and promotes fat storage and inflammation, so NASH is the hepatic face of the metabolic syndrome—why weight loss and insulin-sensitizing therapy (GLP-1, pioglitazone) treat it."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Hepatic stellate cells are NASH's fibrosis engine: activated by injured hepatocytes and macrophages, they transform into collagen-secreting myofibroblasts, scarring the liver toward cirrhosis—so these fibroblast-like cells are the target of antifibrotic drugs."
 ---
 
 # NASH
@@ -188,6 +197,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — NASH is the inflammatory, fibrosing form of fatty liver disease: metabolic overload injures the liver, progressing from simple steatosis through steatohepatitis to cirrhosis—now a leading cause of cirrhosis and liver transplantation as obesity and diabetes rise.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Cardiovascular disease, not liver failure, is the leading killer in NASH: the same insulin resistance, dyslipidemia and inflammation that fatten the liver accelerate atherosclerosis, so most NAFLD/NASH patients die of heart disease.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — NASH and hepatitis C are converging causes of chronic liver disease: as antivirals cure HCV, NASH is overtaking it as the leading driver of cirrhosis and liver cancer—both end in fibrosis and HCC, one infectious, one metabolic.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Fibrosis stage drives the prognosis of NASH: fat plus inflammation activates hepatic fibrogenesis, and the degree of liver fibrosis—not the fat or inflammation itself—predicts progression to cirrhosis and death, so antifibrotic effect is the goal of NASH therapy.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance is the engine of NASH: it floods the liver with fatty acids and promotes fat storage and inflammation, so NASH is the hepatic face of the metabolic syndrome—why weight loss and insulin-sensitizing therapy (GLP-1, pioglitazone) treat it.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Hepatic stellate cells are NASH's fibrosis engine: activated by injured hepatocytes and macrophages, they transform into collagen-secreting myofibroblasts, scarring the liver toward cirrhosis—so these fibroblast-like cells are the target of antifibrotic drugs.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
