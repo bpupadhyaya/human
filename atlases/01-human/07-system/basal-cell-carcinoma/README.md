@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Basal cell carcinoma remodels dermal collagen as it invades: tumor nests provoke a fibrous stroma and degrade surrounding collagen to spread locally, which is why neglected BCCs become destructively invasive rodent ulcers despite almost never metastasizing."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Basal cell carcinoma is the commonest cancer of the integumentary system: it arises from basal keratinocytes driven by UV-induced Hedgehog-pathway mutations, so it is the prototypical sun-related skin malignancy—locally invasive but rarely metastatic."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss features in skin cancers including basal cell carcinoma: UV damage to this tumor-suppressor removes a brake on the cell cycle, compounding the Hedgehog-pathway mutations that drive BCC—linking sun-induced DNA damage to unchecked growth."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Basal cell carcinoma exposes the double edge of sunlight: the same UV that lets skin make vitamin D also mutates basal keratinocytes to cause BCC, so sun exposure is both a vitamin source and the dominant risk factor for this skin cancer."
 ---
 
 # Basal Cell Carcinoma
@@ -221,6 +230,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help restrain basal cell carcinoma: innate immune surveillance clears UV-damaged keratinocytes, so immunosuppressed patients develop more skin cancers—why BCC is commoner in transplant recipients and why immunotherapy treats advanced disease.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis feeds basal cell carcinoma: though BCC grows slowly and rarely metastasizes, it recruits new blood vessels via VEGF to sustain expanding tumor nests, and this vascularity underlies the telangiectasias seen over a pearly BCC nodule.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Basal cell carcinoma remodels dermal collagen as it invades: tumor nests provoke a fibrous stroma and degrade surrounding collagen to spread locally, which is why neglected BCCs become destructively invasive rodent ulcers despite almost never metastasizing.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Basal cell carcinoma is the commonest cancer of the integumentary system: it arises from basal keratinocytes driven by UV-induced Hedgehog-pathway mutations, so it is the prototypical sun-related skin malignancy—locally invasive but rarely metastatic.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss features in skin cancers including basal cell carcinoma: UV damage to this tumor-suppressor removes a brake on the cell cycle, compounding the Hedgehog-pathway mutations that drive BCC—linking sun-induced DNA damage to unchecked growth.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Basal cell carcinoma exposes the double edge of sunlight: the same UV that lets skin make vitamin D also mutates basal keratinocytes to cause BCC, so sun exposure is both a vitamin source and the dominant risk factor for this skin cancer.
 
 ---
 

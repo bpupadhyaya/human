@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/glioblastoma
     relation: connects-to
     note: "ATRT and glioblastoma are both highly aggressive brain tumors but at opposite ages and origins: ATRT strikes infants via SWI/SNF (SMARCB1) loss, while glioblastoma is an adult glial tumor—yet both share dismal prognosis and therapy resistance."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Immunotherapy is being explored in ATRT: despite a low mutation burden, SMARCB1 loss can make these tumors immunogenic, so PD-1 checkpoint blockade is under study for a cancer that resists conventional therapy and devastates infants."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "ATRT is a highly aggressive embryonal tumor of the central nervous system: it arises in the brain (often the cerebellum) of very young children, so it presents with raised intracranial pressure and rapid neurological decline—among the most lethal pediatric CNS cancers."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "ATRT and Li-Fraumeni syndrome both stem from tumor-suppressor loss but differ in gene: ATRT is driven by biallelic SMARCB1 (a chromatin-remodeler) loss, while Li-Fraumeni is germline TP53—two routes by which a single gene defect unleashes childhood cancer."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -218,6 +227,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — ATRT arises in the neuron-rich central nervous system: this aggressive infant tumor forms brain masses that compress and infiltrate neural tissue, causing the hydrocephalus and deficits that bring it to attention—though its cells are rhabdoid, not neuronal.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — ATRT must be distinguished from astrocyte-derived tumors: unlike gliomas that arise from astrocytes, ATRT is an embryonal rhabdoid tumor defined by SMARCB1 loss, so molecular testing—not histology alone—separates it from the astrocytomas it can mimic on imaging.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — ATRT and glioblastoma are both highly aggressive brain tumors but at opposite ages and origins: ATRT strikes infants via SWI/SNF (SMARCB1) loss, while glioblastoma is an adult glial tumor—yet both share dismal prognosis and therapy resistance.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immunotherapy is being explored in ATRT: despite a low mutation burden, SMARCB1 loss can make these tumors immunogenic, so PD-1 checkpoint blockade is under study for a cancer that resists conventional therapy and devastates infants.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — ATRT is a highly aggressive embryonal tumor of the central nervous system: it arises in the brain (often the cerebellum) of very young children, so it presents with raised intracranial pressure and rapid neurological decline—among the most lethal pediatric CNS cancers.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — ATRT and Li-Fraumeni syndrome both stem from tumor-suppressor loss but differ in gene: ATRT is driven by biallelic SMARCB1 (a chromatin-remodeler) loss, while Li-Fraumeni is germline TP53—two routes by which a single gene defect unleashes childhood cancer.
 
 ---
 
