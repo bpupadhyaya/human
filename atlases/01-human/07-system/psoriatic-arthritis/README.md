@@ -69,6 +69,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Psoriatic arthritis uniquely combines bone erosion and new bone formation: TNF and IL-17 drive osteoclasts to erode joints (pencil-in-cup deformity) while stimulating osteoblasts to build syndesmophytes and enthesophytes—a remodeling signature distinct from RA."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Psoriatic arthritis and IBD belong to the same IL-23/Th17 spondyloarthritis family: both share gut-skin-joint inflammation and respond to IL-23 and TNF blockers—though IL-17 inhibitors that help PsA can paradoxically worsen IBD."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Psoriatic arthritis is strongly tied to obesity: adipose tissue is pro-inflammatory (TNF, IL-6, leptin), raising PsA risk and severity and blunting response to therapy, while weight loss improves disease control—so PsA is as much a metabolic as an immune disease."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Psoriatic arthritis clusters with type 2 diabetes in a metabolic-syndrome phenotype: shared systemic inflammation (TNF, IL-6) drives insulin resistance, so PsA patients have excess diabetes—screening for metabolic risk is part of comprehensive PsA care."
 ---
 
 # Psoriatic Arthritis
@@ -233,6 +242,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Psoriatic and rheumatoid arthritis are the two major chronic inflammatory arthritides but differ: PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP involvement, and psoriasis, while RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints.
 - `connects-to` → **[Gout](../gout/README.md)** — Psoriatic arthritis and gout can mimic and coexist: high cell turnover in psoriasis raises uric acid, so PsA patients get gout more often, and an acutely swollen toe (dactylitis vs podagra) may need joint aspiration to tell crystal arthritis from psoriatic disease.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Psoriatic arthritis uniquely combines bone erosion and new bone formation: TNF and IL-17 drive osteoclasts to erode joints (pencil-in-cup deformity) while stimulating osteoblasts to build syndesmophytes and enthesophytes—a remodeling signature distinct from RA.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Psoriatic arthritis and IBD belong to the same IL-23/Th17 spondyloarthritis family: both share gut-skin-joint inflammation and respond to IL-23 and TNF blockers—though IL-17 inhibitors that help PsA can paradoxically worsen IBD.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Psoriatic arthritis is strongly tied to obesity: adipose tissue is pro-inflammatory (TNF, IL-6, leptin), raising PsA risk and severity and blunting response to therapy, while weight loss improves disease control—so PsA is as much a metabolic as an immune disease.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Psoriatic arthritis clusters with type 2 diabetes in a metabolic-syndrome phenotype: shared systemic inflammation (TNF, IL-6) drives insulin resistance, so PsA patients have excess diabetes—screening for metabolic risk is part of comprehensive PsA care.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

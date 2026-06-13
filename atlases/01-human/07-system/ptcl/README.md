@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Some peripheral T-cell lymphomas derive from regulatory or follicular-helper T cells: adult T-cell leukemia often has a Treg-like FOXP3+ phenotype and angioimmunoblastic PTCL arises from follicular-helper T cells—so the normal T-cell subset shapes the lymphoma."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Several peripheral T-cell lymphomas are EBV-driven: extranodal NK/T-cell lymphoma is defined by EBV infection, and angioimmunoblastic T-cell lymphoma harbors EBV-positive B-immunoblasts—so the virus shapes diagnosis and biology across this T-cell lymphoma group."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "PTCL and mantle cell lymphoma are both aggressive non-Hodgkin lymphomas but of opposite lineage: PTCL arises from mature T cells, while MCL is a B-cell tumor with t(11;14) cyclin D1—immunophenotyping the T- versus B-cell origin guides therapy."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "PTCL and follicular lymphoma sit at opposite ends of lineage and tempo: follicular lymphoma is an indolent germinal-center B-cell tumor, while most PTCLs are aggressive mature T-cell cancers—the T-versus-B distinction fundamentally separates their biology and treatment."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -220,6 +229,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Peripheral T-cell and diffuse large B-cell lymphoma are the aggressive non-Hodgkin lymphomas of the two lineages: PTCL arises from mature T cells, is rarer, and has a worse prognosis than DLBCL, which is CD20+ and responds to rituximab-based R-CHOP that PTCL cannot use.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — PTCL and Hodgkin lymphoma intersect at CD30: anaplastic large cell lymphoma, a PTCL subtype, strongly expresses CD30 like Hodgkin's Reed-Sternberg cells, so the anti-CD30 drug brentuximab vedotin treats both—and the two can be hard to distinguish histologically.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Some peripheral T-cell lymphomas derive from regulatory or follicular-helper T cells: adult T-cell leukemia often has a Treg-like FOXP3+ phenotype and angioimmunoblastic PTCL arises from follicular-helper T cells—so the normal T-cell subset shapes the lymphoma.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Several peripheral T-cell lymphomas are EBV-driven: extranodal NK/T-cell lymphoma is defined by EBV infection, and angioimmunoblastic T-cell lymphoma harbors EBV-positive B-immunoblasts—so the virus shapes diagnosis and biology across this T-cell lymphoma group.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — PTCL and mantle cell lymphoma are both aggressive non-Hodgkin lymphomas but of opposite lineage: PTCL arises from mature T cells, while MCL is a B-cell tumor with t(11;14) cyclin D1—immunophenotyping the T- versus B-cell origin guides therapy.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — PTCL and follicular lymphoma sit at opposite ends of lineage and tempo: follicular lymphoma is an indolent germinal-center B-cell tumor, while most PTCLs are aggressive mature T-cell cancers—the T-versus-B distinction fundamentally separates their biology and treatment.
 
 ---
 
