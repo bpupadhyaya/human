@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Thrombosis is the leading cause of death in myeloproliferative neoplasms: JAK2-mutant blood is prothrombotic, producing arterial and venous clots including splanchnic-vein thromboses (Budd-Chiari, portal vein)—so cytoreduction and aspirin aim to prevent VTE."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "CML is the classic BCR-ABL-positive myeloproliferative neoplasm, set apart from the JAK2/CALR/MPL-driven 'Philadelphia-negative' MPNs: all overproduce mature myeloid cells, but CML's defining t(9;22) kinase makes it uniquely controllable with imatinib."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Myeloproliferative neoplasms can transform into acute myeloid leukemia: chronic clonal proliferation accumulates mutations until differentiation fails and blasts take over—post-MPN AML carries a grim prognosis, the feared endpoint of these diseases."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "MPNs commonly cause secondary gout: the high cell turnover floods the blood with purines that break down to uric acid, so hyperuricemia and gout flares accompany polycythemia vera and myelofibrosis—sometimes the first clue to an underlying MPN."
 ---
 
 # Myeloproliferative Neoplasms
@@ -219,6 +228,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Essential thrombocythemia is one of the three classic BCR-ABL-negative myeloproliferative neoplasms, alongside polycythemia vera and myelofibrosis: a JAK2, CALR, or MPL mutation drives clonal megakaryocyte overproduction and a high platelet count, with thrombosis the main risk.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central to MPN morbidity: clonal megakaryocytes overproduce platelets that are also qualitatively abnormal, so essential thrombocythemia and polycythemia vera cause both thrombosis and—at very high counts—bleeding from acquired von Willebrand defects.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thrombosis is the leading cause of death in myeloproliferative neoplasms: JAK2-mutant blood is prothrombotic, producing arterial and venous clots including splanchnic-vein thromboses (Budd-Chiari, portal vein)—so cytoreduction and aspirin aim to prevent VTE.
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — CML is the classic BCR-ABL-positive myeloproliferative neoplasm, set apart from the JAK2/CALR/MPL-driven 'Philadelphia-negative' MPNs: all overproduce mature myeloid cells, but CML's defining t(9;22) kinase makes it uniquely controllable with imatinib.
+- `connects-to` → **[AML](../aml/README.md)** — Myeloproliferative neoplasms can transform into acute myeloid leukemia: chronic clonal proliferation accumulates mutations until differentiation fails and blasts take over—post-MPN AML carries a grim prognosis, the feared endpoint of these diseases.
+- `connects-to` → **[Gout](../gout/README.md)** — MPNs commonly cause secondary gout: the high cell turnover floods the blood with purines that break down to uric acid, so hyperuricemia and gout flares accompany polycythemia vera and myelofibrosis—sometimes the first clue to an underlying MPN.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

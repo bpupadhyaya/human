@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Microglia may participate in the orexin-neuron loss of narcolepsy: as the brain's resident immune cells, activated microglia present antigen and clear neurons, and neuroinflammation in the lateral hypothalamus is implicated in the autoimmune destruction of orexin signaling."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Narcolepsy type 1 and type 1 diabetes are both autoimmune diseases that destroy a specific cell population: narcolepsy loses the hypothalamic orexin neurons, T1DM the pancreatic β-cells—each tied to HLA risk alleles and likely T-cell-mediated."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Narcolepsy and multiple sclerosis are both immune-mediated CNS disorders: MS demyelinates white matter, and lesions in the hypothalamus can even cause secondary narcolepsy by destroying orexin pathways—linking an autoimmune brain disease to a sleep disorder."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Narcolepsy and depression overlap clinically and are easily confused: the daytime sleepiness and low energy of narcolepsy mimic depression, the two frequently coexist, and some antidepressants suppress cataplexy—so screening for mood disorder is part of narcolepsy care."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -198,6 +207,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Type 1 narcolepsy is an autoimmune disease where tolerance fails: on an HLA-DQB1*06:02 background, autoreactive T cells escape regulatory-T-cell control and destroy hypothalamic orexin neurons, abolishing the orexin that stabilizes wakefulness and REM gating.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Narcolepsy and obesity are metabolically linked: loss of orexin, which normally promotes energy expenditure and activity, leaves many narcolepsy patients prone to weight gain and a higher BMI despite reduced appetite—an early clue, especially in children near onset.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia may participate in the orexin-neuron loss of narcolepsy: as the brain's resident immune cells, activated microglia present antigen and clear neurons, and neuroinflammation in the lateral hypothalamus is implicated in the autoimmune destruction of orexin signaling.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Narcolepsy type 1 and type 1 diabetes are both autoimmune diseases that destroy a specific cell population: narcolepsy loses the hypothalamic orexin neurons, T1DM the pancreatic β-cells—each tied to HLA risk alleles and likely T-cell-mediated.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Narcolepsy and multiple sclerosis are both immune-mediated CNS disorders: MS demyelinates white matter, and lesions in the hypothalamus can even cause secondary narcolepsy by destroying orexin pathways—linking an autoimmune brain disease to a sleep disorder.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Narcolepsy and depression overlap clinically and are easily confused: the daytime sleepiness and low energy of narcolepsy mimic depression, the two frequently coexist, and some antidepressants suppress cataplexy—so screening for mood disorder is part of narcolepsy care.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
