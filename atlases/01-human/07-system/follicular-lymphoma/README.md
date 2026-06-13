@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Follicular lymphoma is a disseminated nodal disease that often involves the spleen and bone marrow at diagnosis (stage III-IV in ~80%); splenic and marrow involvement rarely changes the indolent watch-and-wait or rituximab-based management, since FL is treatable but not curable."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Follicular lymphoma and CLL/SLL are the commonest indolent B-cell lymphomas: both slow-growing, manageable-but-incurable, and prone to transformation into aggressive DLBCL (Richter for CLL); they differ in origin—germinal-center FL with t(14;18)/BCL2 vs CD5+ post-GC CLL."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Follicular lymphoma is a disease of the lymphatic system: malignant germinal-center B cells expand lymph-node follicles, producing the waxing-and-waning painless lymphadenopathy that is its hallmark, with spread to spleen and marrow; many cases are watched while asymptomatic."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Follicular lymphoma arises directly from the germinal center: a malignancy of follicle-center B cells frozen mid-reaction that recapitulates follicular architecture, and its founding t(14;18) drives constitutive BCL2 to block the apoptosis that normally prunes these cells."
 ---
 
 # Follicular Lymphoma
@@ -189,6 +198,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Follicular and mantle cell lymphoma are both translocation-defined B-cell NHLs but opposites: FL (t(14;18), BCL-2) is indolent and apoptosis-resistant, MCL (t(11;14), cyclin D1) is proliferation-driven and aggressive — the two classic overexpression translocation lymphomas.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Follicular lymphoma arises from germinal-center B cells frozen mid-maturation: t(14;18) places BCL-2 under the immunoglobulin enhancer, so cells that should die during affinity maturation survive, accumulating as CD10+/BCL6+ clonal follicles that mimic the germinal center.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Follicular lymphoma is a disseminated nodal disease that often involves the spleen and bone marrow at diagnosis (stage III-IV in ~80%); splenic and marrow involvement rarely changes the indolent watch-and-wait or rituximab-based management, since FL is treatable but not curable.
+- `connects-to` → **[CLL](../cll/README.md)** — Follicular lymphoma and CLL/SLL are the commonest indolent B-cell lymphomas: both slow-growing, manageable-but-incurable, and prone to transformation into aggressive DLBCL (Richter for CLL); they differ in origin—germinal-center FL with t(14;18)/BCL2 vs CD5+ post-GC CLL.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Follicular lymphoma is a disease of the lymphatic system: malignant germinal-center B cells expand lymph-node follicles, producing the waxing-and-waning painless lymphadenopathy that is its hallmark, with spread to spleen and marrow; many cases are watched while asymptomatic.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Follicular lymphoma arises directly from the germinal center: a malignancy of follicle-center B cells frozen mid-reaction that recapitulates follicular architecture, and its founding t(14;18) drives constitutive BCL2 to block the apoptosis that normally prunes these cells.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

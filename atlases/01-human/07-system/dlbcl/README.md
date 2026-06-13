@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/burkitt-lymphoma
     relation: connects-to
     note: "Distinguishing DLBCL from Burkitt lymphoma is treatment-critical: both are aggressive GC B-cell tumors, but Burkitt has a pure MYC translocation, near-100% Ki-67, and no BCL-2, whereas a MYC-plus-BCL-2 'double-hit' large-cell lymphoma sits between them and does poorly on R-CHOP."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "DLBCL is the endpoint of Richter transformation: in ~5-10% of CLL the indolent clone evolves into aggressive, often clonally-related diffuse large B-cell lymphoma; this transformation, likelier on BTK-inhibitor therapy, links the commonest indolent and aggressive B-cell cancers."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Primary CNS lymphoma is a DLBCL confined to the brain, eyes and CSF: an aggressive activated-B-cell-type lymphoma that, behind the blood-brain barrier, needs high-dose methotrexate-based regimens rather than standard R-CHOP, and is far more common in immunosuppression."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "DLBCL is classified by its germinal-center relationship: the germinal-center B-cell (GCB) subtype, with BCL2/BCL6 rearrangements, has a better prognosis than the activated B-cell (ABC) subtype driven by chronic NF-κB signaling—a cell-of-origin split that guides therapy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -185,6 +194,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — DLBCL is a malignancy of mature B cells whose two subtypes mirror the cell of origin: germinal-center B-cell DLBCL carries the germinal center's BCL-2 translocation, while activated B-cell DLBCL resembles a post-germinal-center plasmablast driven by chronic BCR/NF-κB signaling.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus drives a distinct, more aggressive subtype — EBV-positive DLBCL — chiefly in older or immunosuppressed patients; viral LMP1 and EBNA proteins switch on NF-κB to keep the B cell alive, the same mechanism behind post-transplant lymphoproliferative disease.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Distinguishing DLBCL from Burkitt lymphoma is treatment-critical: both are aggressive GC B-cell tumors, but Burkitt has a pure MYC translocation, near-100% Ki-67, and no BCL-2, whereas a MYC-plus-BCL-2 'double-hit' large-cell lymphoma sits between them and does poorly on R-CHOP.
+- `connects-to` → **[CLL](../cll/README.md)** — DLBCL is the endpoint of Richter transformation: in ~5-10% of CLL the indolent clone evolves into aggressive, often clonally-related diffuse large B-cell lymphoma; this transformation, likelier on BTK-inhibitor therapy, links the commonest indolent and aggressive B-cell cancers.
+- `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Primary CNS lymphoma is a DLBCL confined to the brain, eyes and CSF: an aggressive activated-B-cell-type lymphoma that, behind the blood-brain barrier, needs high-dose methotrexate-based regimens rather than standard R-CHOP, and is far more common in immunosuppression.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — DLBCL is classified by its germinal-center relationship: the germinal-center B-cell (GCB) subtype, with BCL2/BCL6 rearrangements, has a better prognosis than the activated B-cell (ABC) subtype driven by chronic NF-κB signaling—a cell-of-origin split that guides therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
