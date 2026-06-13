@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "HLRCC shows how a metabolic gene becomes oncogenic: fumarate accumulation inactivates proteins and impairs DNA-damage responses including p53, so a Krebs-cycle enzyme defect causes genomic instability—an oncometabolite route to cancer."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Skin tumors are usually the first sign of HLRCC: FH loss causes multiple cutaneous piloleiomyomas—firm, sometimes painful smooth-muscle nodules—so a dermatologist often flags the syndrome before its aggressive kidney cancer appears."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HLRCC is a disease of carbon metabolism gone wrong: losing fumarate hydratase stalls the Krebs cycle so the carbon metabolite fumarate piles up as an oncometabolite, stabilizing HIF and modifying proteins to drive cancer—linking a metabolic enzyme to malignancy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "FH-deficient HLRCC kidney cancer engages the immune system: these aggressive tumors are often treated with combinations of immune checkpoint inhibitors and anti-angiogenic agents, reflecting how the metabolic defect reshapes the tumor's vasculature and immune milieu."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -231,6 +240,9 @@ Cutaneous:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HLRCC tumors fake hypoxia: accumulated fumarate from FH loss inhibits the oxygen-sensing prolyl hydroxylases, so HIF stabilizes as if oxygen were scarce—this pseudohypoxia drives VEGF and the aggressive angiogenic type-2 papillary kidney cancers of the syndrome.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — HLRCC cancers lean on mTOR and angiogenesis for growth: fumarate-driven pseudohypoxia and metabolic rewiring activate growth signaling, which is why advanced HLRCC renal cancer is treated with combined VEGF and EGFR/mTOR-pathway-directed therapy rather than standard regimens.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — HLRCC shows how a metabolic gene becomes oncogenic: fumarate accumulation inactivates proteins and impairs DNA-damage responses including p53, so a Krebs-cycle enzyme defect causes genomic instability—an oncometabolite route to cancer.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Skin tumors are usually the first sign of HLRCC: FH loss causes multiple cutaneous piloleiomyomas—firm, sometimes painful smooth-muscle nodules—so a dermatologist often flags the syndrome before its aggressive kidney cancer appears.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HLRCC is a disease of carbon metabolism gone wrong: losing fumarate hydratase stalls the Krebs cycle so the carbon metabolite fumarate piles up as an oncometabolite, stabilizing HIF and modifying proteins to drive cancer—linking a metabolic enzyme to malignancy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — FH-deficient HLRCC kidney cancer engages the immune system: these aggressive tumors are often treated with combinations of immune checkpoint inhibitors and anti-angiogenic agents, reflecting how the metabolic defect reshapes the tumor's vasculature and immune milieu.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
