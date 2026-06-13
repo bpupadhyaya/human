@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/meningioma
     relation: connects-to
     note: "Glioblastoma and meningioma are the two commonest primary brain tumors but opposite in nature: GBM is intra-axial, diffusely infiltrative and malignant, while meningioma is extra-axial, usually benign and dural-based, so resectable—distinguished on MRI by location and dural tail."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy is a pillar of glioblastoma care: after maximal safe resection, fractionated radiation with concurrent temozolomide (the Stupp protocol) extends survival, yet the tumor inevitably recurs in the irradiated field—radiation delays but cannot cure GBM."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Glioblastoma wires itself into neural circuits: tumor cells form glutamatergic synapses with neurons and interconnect through gap junctions, so neuronal activity drives proliferation—a discovery making synaptic signaling a therapeutic target in this lethal brain cancer."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Glioblastoma is part of the Li-Fraumeni cancer spectrum: germline TP53 loss predisposes to gliomas, and somatic TP53 mutation is a defining alteration in many GBMs—both show how losing p53, the genome's guardian, helps spawn this aggressive tumor."
 ---
 
 # Glioblastoma
@@ -205,6 +214,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glioblastoma is the malignant endpoint of the astrocytic lineage: it arises from astrocytes or their progenitors, retaining GFAP expression, and reactive astrocytes at the tumor margin help build the invasive, pro-tumor microenvironment.
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Glioblastoma is defined molecularly against IDH-mutant glioma: true GBM is IDH-wildtype with TERT-promoter mutation, EGFR amplification and +7/-10, carrying the worst prognosis, whereas IDH-mutant astrocytomas are a separate, better-prognosis entity—so IDH status now defines GBM.
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — Glioblastoma and meningioma are the two commonest primary brain tumors but opposite in nature: GBM is intra-axial, diffusely infiltrative and malignant, while meningioma is extra-axial, usually benign and dural-based, so resectable—distinguished on MRI by location and dural tail.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is a pillar of glioblastoma care: after maximal safe resection, fractionated radiation with concurrent temozolomide (the Stupp protocol) extends survival, yet the tumor inevitably recurs in the irradiated field—radiation delays but cannot cure GBM.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Glioblastoma wires itself into neural circuits: tumor cells form glutamatergic synapses with neurons and interconnect through gap junctions, so neuronal activity drives proliferation—a discovery making synaptic signaling a therapeutic target in this lethal brain cancer.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Glioblastoma is part of the Li-Fraumeni cancer spectrum: germline TP53 loss predisposes to gliomas, and somatic TP53 mutation is a defining alteration in many GBMs—both show how losing p53, the genome's guardian, helps spawn this aggressive tumor.
 
 ---
 

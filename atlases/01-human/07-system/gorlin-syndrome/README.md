@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Cardiac fibroma is a hallmark Gorlin tumor: a benign fibrous mass growing within the myocardium among cardiomyocytes, it is the commonest heart tumor of childhood and, when present, strongly suggests an underlying PTCH1 hedgehog-pathway syndrome."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Gorlin and Li-Fraumeni are both dominant cancer-predisposition syndromes via different pathways: Gorlin from PTCH1/Hedgehog loss (BCCs, medulloblastoma), Li-Fraumeni from germline TP53 loss (sarcomas, breast, brain)—one disinhibits Hedgehog, the other removes p53."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Gorlin and neurofibromatosis type 1 are both dominant phakomatoses where a tumor-suppressor loss causes multisystem tumors: Gorlin's PTCH1 loss unleashes Hedgehog (BCCs, jaw cysts), NF1's neurofibromin loss unleashes Ras (neurofibromas, optic glioma)—similar logic."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Ovarian fibromas are a diagnostic feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling spur these benign, often bilateral calcified ovarian tumors—reminding that Hedgehog dysregulation drives growths well beyond skin and brain."
 ---
 
 # Gorlin Syndrome
@@ -186,6 +195,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Meningioma](../meningioma/README.md)** — Gorlin syndrome predisposes to meningioma: constitutive hedgehog activation from germline PTCH1 loss—the same pathway driving its basal cell carcinomas and medulloblastomas—also raises meningioma risk, compounded by any prior craniospinal radiotherapy.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Gorlin syndrome's skeletal stigmata reflect hedgehog control of osteoblasts: bifid/splayed ribs, vertebral anomalies, frontal bossing, and a calcified falx cerebri arise because PTCH1 loss dysregulates the hedgehog signaling that patterns bone, aiding radiographic diagnosis.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac fibroma is a hallmark Gorlin tumor: a benign fibrous mass growing within the myocardium among cardiomyocytes, it is the commonest heart tumor of childhood and, when present, strongly suggests an underlying PTCH1 hedgehog-pathway syndrome.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Gorlin and Li-Fraumeni are both dominant cancer-predisposition syndromes via different pathways: Gorlin from PTCH1/Hedgehog loss (BCCs, medulloblastoma), Li-Fraumeni from germline TP53 loss (sarcomas, breast, brain)—one disinhibits Hedgehog, the other removes p53.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Gorlin and neurofibromatosis type 1 are both dominant phakomatoses where a tumor-suppressor loss causes multisystem tumors: Gorlin's PTCH1 loss unleashes Hedgehog (BCCs, jaw cysts), NF1's neurofibromin loss unleashes Ras (neurofibromas, optic glioma)—similar logic.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Ovarian fibromas are a diagnostic feature of Gorlin syndrome: PTCH1 loss and unchecked Hedgehog signaling spur these benign, often bilateral calcified ovarian tumors—reminding that Hedgehog dysregulation drives growths well beyond skin and brain.
 
 ---
 
