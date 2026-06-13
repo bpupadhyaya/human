@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/lewy-body-dementia
     relation: connects-to
     note: "DLB and PD are both alpha-synuclein synucleinopathies: the 1-year rule distinguishes DLB (dementia onset ≤1 year of parkinsonism) from PDD (parkinsonism >1 year before dementia); DLB features early cortical Lewy bodies while PD follows Braak brainstem→cortex staging."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Parkinson's is defined by dopamine loss: degeneration of substantia nigra pars compacta neurons depletes striatal dopamine → bradykinesia, rigidity and tremor once ~60-80% is gone; levodopa, dopamine agonists and MAO-B/COMT inhibitors restore dopaminergic tone."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Parkinson's is a neurodegeneration of specific neurons: α-synuclein-laden Lewy bodies accumulate in dopaminergic substantia nigra neurons, driving mitochondrial and autophagy failure and selective death; the vulnerability of these pacemaking neurons explains the motor syndrome."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain is a common, underrecognized non-motor feature of Parkinson's: beyond musculoskeletal and dystonic pain, central pain arises from altered nociceptive processing in dopaminergic pathways; some PD pain fluctuates with 'off' periods and eases with dopaminergic therapy."
 ---
 
 # Parkinson's Disease
@@ -202,6 +211,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[LRRK2](../../03-molecular/lrrk2/README.md)** — LRRK2 G2019S (~1-2% of sporadic PD, ~40% penetrance by age 80) is the most common pathogenic variant causing familial PD; LRRK2 kinase hyperactivation → Rab GTPase hyperphosphorylation → vesicle trafficking defects and α-synuclein aggregation in dopaminergic neurons.
 - `connects-to` → **[MAPT](../../03-molecular/mapt/README.md)** — MAPT H1 haplotype (common in Europeans) is a risk factor for PD and PSP; tau co-aggregates with alpha-synuclein in Lewy body dementia and some PD brains; MAPT LOF mutations cause FTLD-MAPT; tau and SNCA pathology converge on mitochondrial dysfunction and autophagy impairment.
 - `connects-to` → **[Lewy Body Dementia](../lewy-body-dementia/README.md)** — DLB and PD are both alpha-synuclein synucleinopathies distinguished by the 1-year rule; DLB features early cortical Lewy bodies while PD follows Braak brainstem→cortex staging; PDD (Parkinson's disease dementia) occurs in ~80% of PD at 20 years and shares DLB's cholinergic deficit and rivastigmine responsiveness.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Parkinson's is defined by dopamine loss: degeneration of substantia nigra pars compacta neurons depletes striatal dopamine → bradykinesia, rigidity and tremor once ~60-80% is gone; levodopa, dopamine agonists and MAO-B/COMT inhibitors restore dopaminergic tone.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Parkinson's is a neurodegeneration of specific neurons: α-synuclein-laden Lewy bodies accumulate in dopaminergic substantia nigra neurons, driving mitochondrial and autophagy failure and selective death; the vulnerability of these pacemaking neurons explains the motor syndrome.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain is a common, underrecognized non-motor feature of Parkinson's: beyond musculoskeletal and dystonic pain, central pain arises from altered nociceptive processing in dopaminergic pathways; some PD pain fluctuates with 'off' periods and eases with dopaminergic therapy.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
