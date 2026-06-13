@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Synovial sarcoma is a mesenchymal tumor of fibroblast-like spindle cells despite its misleading name: it arises not from synovium but from a primitive mesenchymal cell, its monophasic form being sheets of spindle cells expressing TLE1 and SS18-SSX."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Synovial sarcoma and rhabdomyosarcoma are both fusion-driven soft-tissue sarcomas: synovial sarcoma's SS18-SSX fusion hijacks the SWI/SNF complex, while alveolar RMS's PAX-FOXO1 drives myogenic transcription—translocations defining distinct, aggressive sarcomas."
+  - target: 01-human/07-system/mpnst
+    relation: connects-to
+    note: "Synovial sarcoma and MPNST are spindle-cell sarcomas that can look alike: synovial sarcoma is defined by SS18-SSX, MPNST by NF1-driven nerve-sheath origin—so SS18-SSX testing and S100/SOX10 staining separate these spindle tumors."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Synovial sarcoma is managed like other high-grade soft-tissue sarcomas with surgery plus radiotherapy: wide resection combined with photon radiation improves local control, while the SS18-SSX fusion is now also targeted by EZH2 inhibitors and cellular therapy."
 ---
 
 # Synovial Sarcoma
@@ -201,6 +210,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Synovial sarcoma and schwannomatosis both subvert the SWI/SNF (BAF) chromatin-remodeling complex: synovial sarcoma's SS18-SSX fusion reprograms BAF to silence tumor-suppressors, while loss of the BAF subunit SMARCB1 drives schwannomatosis and rhabdoid tumors.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Synovial and Ewing sarcoma are fusion-driven sarcomas of young adults defined by a single translocation: SS18-SSX for synovial sarcoma, EWSR1-FLI1 for Ewing—both aberrant transcription factors that remodel the epigenome, models of fusion-oncoprotein cancer.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Synovial sarcoma is a mesenchymal tumor of fibroblast-like spindle cells despite its misleading name: it arises not from synovium but from a primitive mesenchymal cell, its monophasic form being sheets of spindle cells expressing TLE1 and SS18-SSX.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Synovial sarcoma and rhabdomyosarcoma are both fusion-driven soft-tissue sarcomas: synovial sarcoma's SS18-SSX fusion hijacks the SWI/SNF complex, while alveolar RMS's PAX-FOXO1 drives myogenic transcription—translocations defining distinct, aggressive sarcomas.
+- `connects-to` → **[MPNST](../mpnst/README.md)** — Synovial sarcoma and MPNST are spindle-cell sarcomas that can look alike: synovial sarcoma is defined by SS18-SSX, MPNST by NF1-driven nerve-sheath origin—so SS18-SSX testing and S100/SOX10 staining separate these spindle tumors.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Synovial sarcoma is managed like other high-grade soft-tissue sarcomas with surgery plus radiotherapy: wide resection combined with photon radiation improves local control, while the SS18-SSX fusion is now also targeted by EZH2 inhibitors and cellular therapy.
 
 ---
 
