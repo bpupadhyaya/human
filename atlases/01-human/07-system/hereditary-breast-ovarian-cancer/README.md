@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "HBOC and Peutz-Jeghers both elevate breast cancer risk through different mechanisms: HBOC from BRCA1/2 DNA-repair loss, PJS from STK11 loss—PJS also raises ovarian (sex-cord) and GI cancer risk, so both warrant intensified breast surveillance from a young age."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen exposure modulates HBOC risk: BRCA-driven breast cancers often still respond to hormonal signaling, and reducing estrogen—via risk-reducing oophorectomy or endocrine therapy—lowers cancer risk, so the lifetime estrogen burden shapes when these cancers arise."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "HBOC carries a modest endometrial cancer risk: BRCA1 carriers, especially after tamoxifen, have a slightly raised risk of serous endometrial cancer, so gynecologic surveillance and decisions about hysterectomy at oophorectomy are part of managing the syndrome."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "BRCA-mutant cells are radiosensitive from impaired DNA repair: their inability to fix double-strand breaks makes ionizing radiation more damaging, a reason young carriers are screened with non-ionizing MRI rather than repeated mammography."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -223,6 +232,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — HBOC and Lynch syndrome are major hereditary cancers raising women's ovarian/endometrial risk via different repair defects: HBOC from BRCA1/2 homologous-recombination loss, Lynch from mismatch-repair loss—each guides distinct screening and surgery.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — HBOC and Cowden syndrome both sharply raise hereditary breast cancer risk through different genes: HBOC via BRCA1/2 (homologous-recombination repair), Cowden via PTEN (PI3K-AKT pathway)—PTEN also brings thyroid and endometrial cancer plus hamartomas.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — HBOC and Peutz-Jeghers both elevate breast cancer risk through different mechanisms: HBOC from BRCA1/2 DNA-repair loss, PJS from STK11 loss—PJS also raises ovarian (sex-cord) and GI cancer risk, so both warrant intensified breast surveillance from a young age.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen exposure modulates HBOC risk: BRCA-driven breast cancers often still respond to hormonal signaling, and reducing estrogen—via risk-reducing oophorectomy or endocrine therapy—lowers cancer risk, so the lifetime estrogen burden shapes when these cancers arise.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — HBOC carries a modest endometrial cancer risk: BRCA1 carriers, especially after tamoxifen, have a slightly raised risk of serous endometrial cancer, so gynecologic surveillance and decisions about hysterectomy at oophorectomy are part of managing the syndrome.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — BRCA-mutant cells are radiosensitive from impaired DNA repair: their inability to fix double-strand breaks makes ionizing radiation more damaging, a reason young carriers are screened with non-ionizing MRI rather than repeated mammography.
 
 ---
 
