@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/cervical-cancer
     relation: connects-to
     note: "Cervical and bladder cancer are linked through the pelvis: pelvic radiotherapy for cervical cancer is itself a risk factor for later bladder cancer, both are strongly smoking- or carcinogen-associated, and both are driven by insults delivered to a vulnerable epithelium."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Bladder and prostate cancers are the commonest genitourinary malignancies and frequent neighbors: they co-occur in older men, share smoking and age risk, and locally advanced disease of one can invade the other; pelvic surgery and shared follow-up imaging link their care."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Bladder cancer is a disease of the whole urothelial lining: the same field-effect carcinogens (smoking, aromatic amines) that transform the bladder can produce synchronous or metachronous tumors of the renal pelvis and ureter, so the entire upper urinary tract needs surveillance."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Bladder cancer is the birthplace of cancer immunotherapy: intravesical BCG—live attenuated mycobacteria—triggers a local immune response that has prevented recurrence of non-muscle-invasive bladder cancer for decades, and PD-1/PD-L1 inhibitors now treat advanced disease."
 ---
 
 # Bladder Cancer
@@ -192,6 +201,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bladder cancer is one disease across the whole urinary-tract lining: the same urothelium covers the renal pelvis and ureters, so ~5% of bladder-cancer patients harbour synchronous upper-tract urothelial carcinoma, and a tumour obstructing a ureter causes hydronephrosis.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Bladder cancer pioneered immunotherapy: intravesical BCG provokes a Th1 response that recruits CD8+ cytotoxic T cells to patrol the urothelium and prevent recurrence of non-muscle-invasive disease — and the same T cells are reactivated by PD-1/PD-L1 checkpoint blockade.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Cervical and bladder cancer are linked through the pelvis: pelvic radiotherapy for cervical cancer is itself a risk factor for later bladder cancer, both are strongly smoking- or carcinogen-associated, and both are driven by insults delivered to a vulnerable epithelium.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Bladder and prostate cancers are the commonest genitourinary malignancies and frequent neighbors: they co-occur in older men, share smoking and age risk, and locally advanced disease of one can invade the other; pelvic surgery and shared follow-up imaging link their care.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Bladder cancer is a disease of the whole urothelial lining: the same field-effect carcinogens (smoking, aromatic amines) that transform the bladder can produce synchronous or metachronous tumors of the renal pelvis and ureter, so the entire upper urinary tract needs surveillance.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Bladder cancer is the birthplace of cancer immunotherapy: intravesical BCG—live attenuated mycobacteria—triggers a local immune response that has prevented recurrence of non-muscle-invasive bladder cancer for decades, and PD-1/PD-L1 inhibitors now treat advanced disease.
 
 ---
 

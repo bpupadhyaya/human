@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CD8+ cytotoxic T cells are both the natural defense that usually clears HPV and the target of cervical-cancer immunotherapy: persistent infection reflects failed CD8 surveillance, and checkpoint blockade (pembrolizumab, KEYNOTE-826) unleashes them against the tumor."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Cervical and bladder cancers share the pelvic neighborhood: locally advanced cervical cancer can invade the bladder (vesicovaginal fistula, hematuria), pelvic radiotherapy for one raises risk of the other, and both are smoking-associated cancers managed by pelvic oncology."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Cervical and endometrial cancers are the main uterine-region malignancies but differ: cervical is HPV-driven squamous cancer of the cervix (vaccine-preventable, screen-detected), while endometrial is estrogen/Lynch-driven adenocarcinoma of the uterine body with abnormal bleeding."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Cervical and ovarian cancers are both gynecologic malignancies but contrast in prevention: cervical cancer has effective screening and an HPV vaccine and presents early, whereas ovarian cancer (often BRCA-driven) has no good screening and usually presents late."
 ---
 
 # Cervical Cancer
@@ -186,6 +195,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — Cervical cancer and HPV-positive head-and-neck cancer are the same disease in different epithelia: both arise when high-risk HPV over-expresses E6 and E7 to destroy p53 and inactivate RB, and both carry a better prognosis than HPV-negative cancers.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Immunosuppression sharply raises cervical-cancer risk: HIV-positive women clear HPV poorly and progress from dysplasia to invasive cancer faster, so invasive cervical cancer is an AIDS-defining illness and these patients need intensified HPV screening and earlier colposcopy.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8+ cytotoxic T cells are both the natural defense that usually clears HPV and the target of cervical-cancer immunotherapy: persistent infection reflects failed CD8 surveillance, and checkpoint blockade (pembrolizumab, KEYNOTE-826) unleashes them against the tumor.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Cervical and bladder cancers share the pelvic neighborhood: locally advanced cervical cancer can invade the bladder (vesicovaginal fistula, hematuria), pelvic radiotherapy for one raises risk of the other, and both are smoking-associated cancers managed by pelvic oncology.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Cervical and endometrial cancers are the main uterine-region malignancies but differ: cervical is HPV-driven squamous cancer of the cervix (vaccine-preventable, screen-detected), while endometrial is estrogen/Lynch-driven adenocarcinoma of the uterine body with abnormal bleeding.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Cervical and ovarian cancers are both gynecologic malignancies but contrast in prevention: cervical cancer has effective screening and an HPV vaccine and presents early, whereas ovarian cancer (often BRCA-driven) has no good screening and usually presents late.
 
 ---
 
