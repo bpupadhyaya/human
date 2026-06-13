@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "COVID-19 raises stroke risk through its prothrombotic state: SARS-CoV-2-driven endothelial injury and hypercoagulability cause arterial thromboses, so ischemic stroke is a recognized complication alongside the venous thromboembolism the infection provokes."
+  - target: 01-human/05-tissue/alveolus
+    relation: targets
+    note: "COVID-19 pneumonia injures the alveolus directly: SARS-CoV-2 infects ACE2-bearing type II pneumocytes lining the air sacs, triggering diffuse alveolar damage, hyaline membranes and flooding that impair gas exchange and underlie hypoxemic respiratory failure."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon is the fault line of severe COVID-19: inborn errors or autoantibodies blunting interferon predispose to critical disease, while SARS-CoV-2 also actively suppresses it—explaining why a weak early interferon response lets the virus run unchecked."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils worsen severe COVID-19: they flood inflamed lungs and release neutrophil extracellular traps (NETs) that drive immunothrombosis, clogging pulmonary microvessels and linking the hyperinflammatory and clotting features of the disease."
 ---
 
 # COVID-19 Disease
@@ -164,6 +173,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — ARDS is the lethal pulmonary endpoint of severe COVID-19: SARS-CoV-2 injury to alveolar epithelium and endothelium floods the lungs with protein-rich edema, collapsing gas exchange and requiring ventilation or ECMO—the final common pathway of fatal COVID pneumonia.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes markedly worsens COVID-19: hyperglycemia and the inflammatory, prothrombotic milieu of diabetes raise the risk of severe disease and death, while COVID can itself precipitate hyperglycemia and new diabetes—a bidirectional, dangerous interaction.
 - `connects-to` → **[Stroke](../stroke/README.md)** — COVID-19 raises stroke risk through its prothrombotic state: SARS-CoV-2-driven endothelial injury and hypercoagulability cause arterial thromboses, so ischemic stroke is a recognized complication alongside the venous thromboembolism the infection provokes.
+- `targets` → **[Alveolus](../../05-tissue/alveolus/README.md)** — COVID-19 pneumonia injures the alveolus directly: SARS-CoV-2 infects ACE2-bearing type II pneumocytes lining the air sacs, triggering diffuse alveolar damage, hyaline membranes and flooding that impair gas exchange and underlie hypoxemic respiratory failure.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is the fault line of severe COVID-19: inborn errors or autoantibodies blunting interferon predispose to critical disease, while SARS-CoV-2 also actively suppresses it—explaining why a weak early interferon response lets the virus run unchecked.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils worsen severe COVID-19: they flood inflamed lungs and release neutrophil extracellular traps (NETs) that drive immunothrombosis, clogging pulmonary microvessels and linking the hyperinflammatory and clotting features of the disease.
 
 ## Pathology
 

@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T helper cells and type-I-interferon immunity underpin dermatomyositis: CD4+ T cells and dendritic cells flood muscle and skin with an interferon signature, and JAK inhibitors blocking this are emerging therapy—adaptive immunity alongside complement."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells fuel dermatomyositis through autoantibodies: myositis-specific antibodies like anti-Mi-2, anti-MDA5 and anti-TIF1-gamma define clinical subsets and predict lung disease or cancer risk, and B-cell depletion with rituximab helps refractory cases."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Dermatomyositis is a paraneoplastic warning sign: adult-onset disease, especially with anti-TIF1-gamma antibodies, carries a markedly raised risk of occult cancer such as breast cancer, so new diagnosis triggers an age-appropriate malignancy search."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Dermatomyositis can strike the heart: myocardial inflammation causes myocarditis, conduction defects and sometimes heart failure—often subclinical yet a leading cause of death in the disease, so cardiac surveillance matters even when skin and muscle dominate."
 ---
 
 # Dermatomyositis
@@ -232,6 +241,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Dermatomyositis is a complement-mediated microangiopathy: antibody and complement form the membrane attack complex on endomysial capillaries, destroying them and causing perifascicular muscle atrophy—complement, not T-cell attack, drives the injury.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Dermatomyositis is strongly paraneoplastic: adult-onset disease carries a markedly raised risk of occult cancer—ovarian, lung, gastric, breast—often within the first years, so a new diagnosis triggers cancer screening, with the myositis sometimes heralding the tumor.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells and type-I-interferon immunity underpin dermatomyositis: CD4+ T cells and dendritic cells flood muscle and skin with an interferon signature, and JAK inhibitors blocking this are emerging therapy—adaptive immunity alongside complement.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells fuel dermatomyositis through autoantibodies: myositis-specific antibodies like anti-Mi-2, anti-MDA5 and anti-TIF1-gamma define clinical subsets and predict lung disease or cancer risk, and B-cell depletion with rituximab helps refractory cases.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Dermatomyositis is a paraneoplastic warning sign: adult-onset disease, especially with anti-TIF1-gamma antibodies, carries a markedly raised risk of occult cancer such as breast cancer, so new diagnosis triggers an age-appropriate malignancy search.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Dermatomyositis can strike the heart: myocardial inflammation causes myocarditis, conduction defects and sometimes heart failure—often subclinical yet a leading cause of death in the disease, so cardiac surveillance matters even when skin and muscle dominate.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
