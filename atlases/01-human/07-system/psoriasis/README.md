@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Psoriasis is an independent cardiovascular risk factor: chronic systemic Th17 inflammation accelerates atherosclerosis, so severe psoriasis raises heart attack and stroke risk beyond shared metabolic factors—and effective skin treatment may lower vascular inflammation."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Psoriasis and obesity are bidirectionally linked through inflammation: adipose-derived cytokines worsen psoriatic inflammation, while psoriasis raises metabolic-syndrome risk, so obese psoriasis patients have more severe disease and weight loss improves it."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Psoriasis raises the risk of type 2 diabetes: shared systemic inflammation (TNF, IL-6, IL-17) drives insulin resistance, so psoriasis is an independent cardiometabolic risk factor—part of why it is now treated as a systemic, not just skin, disease."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D both treats and modulates psoriasis: topical vitamin D analogs slow the hyperproliferation of psoriatic keratinocytes and are first-line therapy, while the immunomodulatory role of vitamin D ties skin immunity to this hormone—a vitamin used as a drug."
 ---
 
 # Psoriasis
@@ -202,6 +211,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Psoriasis and atopic dermatitis are the two major inflammatory skin diseases but immunologically opposite: psoriasis is Th17/IL-23-driven with sharp scaly plaques, while atopic dermatitis is Th2-driven with itchy, ill-defined eczema—dictating different biologics.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Psoriasis and inflammatory bowel disease share the IL-23/Th17 axis and co-occur: both respond to anti-IL-23 and anti-TNF biologics, though anti-IL-17 can paradoxically worsen Crohn's—so the shared pathway also constrains drug choice across the two diseases.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Psoriasis is an independent cardiovascular risk factor: chronic systemic Th17 inflammation accelerates atherosclerosis, so severe psoriasis raises heart attack and stroke risk beyond shared metabolic factors—and effective skin treatment may lower vascular inflammation.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Psoriasis and obesity are bidirectionally linked through inflammation: adipose-derived cytokines worsen psoriatic inflammation, while psoriasis raises metabolic-syndrome risk, so obese psoriasis patients have more severe disease and weight loss improves it.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Psoriasis raises the risk of type 2 diabetes: shared systemic inflammation (TNF, IL-6, IL-17) drives insulin resistance, so psoriasis is an independent cardiometabolic risk factor—part of why it is now treated as a systemic, not just skin, disease.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D both treats and modulates psoriasis: topical vitamin D analogs slow the hyperproliferation of psoriatic keratinocytes and are first-line therapy, while the immunomodulatory role of vitamin D ties skin immunity to this hormone—a vitamin used as a drug.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

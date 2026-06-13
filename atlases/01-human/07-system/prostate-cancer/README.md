@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Prostate cancer hosts the first FDA-approved cancer vaccine, a dendritic-cell therapy: sipuleucel-T harvests a patient's antigen-presenting cells, primes them against prostatic acid phosphatase, and reinfuses them to spark a T-cell response against the tumor."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Prostate cancer is part of the BRCA/HBOC cancer spectrum: germline BRCA2 (and BRCA1) mutations raise prostate cancer risk and aggressiveness, and BRCA-mutant tumors respond to PARP inhibitors—so HBOC families need prostate screening."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Prostate and pancreatic cancer share BRCA2-linked DNA-repair predisposition: families with BRCA2 mutations face raised risk of both, and both respond to platinum and PARP-inhibitor therapy—two distant organs linked by one gene."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Prostate and bladder cancer are the two commonest urologic malignancies but differ: prostate cancer arises from androgen-driven glandular epithelium, while bladder cancer is a smoking-linked urothelial tumor—both present with urinary symptoms, so evaluation overlaps."
 ---
 
 # Prostate Cancer
@@ -214,6 +223,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is a curative mainstay for localized prostate cancer: external-beam photon radiation and brachytherapy (radioactive seeds) rival surgery for cure, while in metastatic disease the radioligand Lu-177-PSMA delivers radiation to PSMA-expressing tumor cells.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome modestly raises prostate cancer risk: mismatch-repair-deficient prostate cancers are part of the Lynch spectrum, and like other MSI-high tumors can respond to checkpoint blockade, so a strong family cancer history warrants germline MMR testing.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Prostate cancer hosts the first FDA-approved cancer vaccine, a dendritic-cell therapy: sipuleucel-T harvests a patient's antigen-presenting cells, primes them against prostatic acid phosphatase, and reinfuses them to spark a T-cell response against the tumor.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Prostate cancer is part of the BRCA/HBOC cancer spectrum: germline BRCA2 (and BRCA1) mutations raise prostate cancer risk and aggressiveness, and BRCA-mutant tumors respond to PARP inhibitors—so HBOC families need prostate screening.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Prostate and pancreatic cancer share BRCA2-linked DNA-repair predisposition: families with BRCA2 mutations face raised risk of both, and both respond to platinum and PARP-inhibitor therapy—two distant organs linked by one gene.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Prostate and bladder cancer are the two commonest urologic malignancies but differ: prostate cancer arises from androgen-driven glandular epithelium, while bladder cancer is a smoking-linked urothelial tumor—both present with urinary symptoms, so evaluation overlaps.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
