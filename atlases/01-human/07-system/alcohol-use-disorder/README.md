@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "Hepatocytes bear the metabolic brunt of alcohol: they oxidize ethanol via alcohol dehydrogenase and CYP2E1, generating acetaldehyde and ROS that cause fatty change, ballooning, and death—so steatosis, hepatitis, and cirrhosis trace to hepatocyte injury."
+  - target: 01-human/07-system/esophageal-cancer
+    relation: connects-to
+    note: "Alcohol is a direct cause of esophageal cancer: its metabolite acetaldehyde is a carcinogen that damages esophageal DNA, so heavy drinking—especially with smoking—markedly raises squamous-cell esophageal cancer risk, one of several alcohol-attributable cancers."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Alcohol is directly toxic to cardiomyocytes: chronic heavy drinking causes alcoholic cardiomyopathy, where ethanol and acetaldehyde impair contractile proteins and mitochondria, dilating the heart and causing heart failure that can partly reverse with abstinence."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Alcohol use disorder dysregulates cortisol: heavy drinking activates the HPA axis, producing a pseudo-Cushing's state with high cortisol, and withdrawal spikes it further—contributing to the anxiety, sleep disruption and relapse that mark early abstinence."
 ---
 
 # Alcohol Use Disorder
@@ -279,6 +288,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Alcohol and stimulant use disorders frequently co-occur and interact dangerously: alcohol is used to come down from stimulants, cocaine plus alcohol forms toxic cocaethylene, and both engage overlapping dopamine reward circuitry—so polysubstance use worsens outcomes.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Alcohol use disorder and depression are intertwined and bidirectional: people drink to relieve low mood, but alcohol is a depressant that deepens depression and suicide risk, and both share serotonergic and stress-axis dysregulation—so both need treating together.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatocytes bear the metabolic brunt of alcohol: they oxidize ethanol via alcohol dehydrogenase and CYP2E1, generating acetaldehyde and ROS that cause fatty change, ballooning, and death—so steatosis, hepatitis, and cirrhosis trace to hepatocyte injury.
+- `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Alcohol is a direct cause of esophageal cancer: its metabolite acetaldehyde is a carcinogen that damages esophageal DNA, so heavy drinking—especially with smoking—markedly raises squamous-cell esophageal cancer risk, one of several alcohol-attributable cancers.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Alcohol is directly toxic to cardiomyocytes: chronic heavy drinking causes alcoholic cardiomyopathy, where ethanol and acetaldehyde impair contractile proteins and mitochondria, dilating the heart and causing heart failure that can partly reverse with abstinence.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Alcohol use disorder dysregulates cortisol: heavy drinking activates the HPA axis, producing a pseudo-Cushing's state with high cortisol, and withdrawal spikes it further—contributing to the anxiety, sleep disruption and relapse that mark early abstinence.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

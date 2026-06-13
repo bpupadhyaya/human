@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Acute lymphoblastic leukemia and diffuse large B-cell lymphoma are aggressive B-cell cancers at opposite ends of maturation: ALL is a precursor-lymphoblast malignancy of children on prolonged multi-agent chemo, while DLBCL is a mature B-cell tumor of adults cured by R-CHOP."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Acute lymphoblastic leukemia crowds out platelet production: leukemic blasts fill the marrow and suppress megakaryocytes, so thrombocytopenia causes bruising and bleeding—one of the cytopenias, with anemia and neutropenia, that signals marrow takeover at diagnosis."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain is a sanctuary site in acute lymphoblastic leukemia: blasts hide in the CNS where systemic chemo penetrates poorly, so untreated patients relapse in the meninges—why ALL therapy routinely includes intrathecal chemotherapy and sometimes cranial radiation."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Acute lymphoblastic leukemia infiltrates the spleen and liver: circulating blasts lodge in these organs causing hepatosplenomegaly, a common presenting sign along with lymphadenopathy—reflecting how a marrow cancer spills into the lymphoid filtering organs."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -227,6 +236,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Acute lymphoblastic leukemia is the paradigm cancer for cytotoxic T-cell therapy: CD19-directed CAR-T cells reprogram cytotoxic T cells to kill the leukemic B lymphoblasts, achieving deep remissions in relapsed B-ALL—the first CAR-T approval (tisagenlecleucel).
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation has a defined role in acute lymphoblastic leukemia: cranial irradiation once prevented CNS relapse (now mostly replaced by intrathecal chemo to spare neurocognition), and total-body irradiation conditions the marrow before allogeneic transplant in high-risk disease.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Acute lymphoblastic leukemia and diffuse large B-cell lymphoma are aggressive B-cell cancers at opposite ends of maturation: ALL is a precursor-lymphoblast malignancy of children on prolonged multi-agent chemo, while DLBCL is a mature B-cell tumor of adults cured by R-CHOP.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Acute lymphoblastic leukemia crowds out platelet production: leukemic blasts fill the marrow and suppress megakaryocytes, so thrombocytopenia causes bruising and bleeding—one of the cytopenias, with anemia and neutropenia, that signals marrow takeover at diagnosis.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a sanctuary site in acute lymphoblastic leukemia: blasts hide in the CNS where systemic chemo penetrates poorly, so untreated patients relapse in the meninges—why ALL therapy routinely includes intrathecal chemotherapy and sometimes cranial radiation.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Acute lymphoblastic leukemia infiltrates the spleen and liver: circulating blasts lodge in these organs causing hepatosplenomegaly, a common presenting sign along with lymphadenopathy—reflecting how a marrow cancer spills into the lymphoid filtering organs.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
