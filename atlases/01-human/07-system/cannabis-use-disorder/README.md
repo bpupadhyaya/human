@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "PTSD and cannabis use disorder are closely intertwined: many with PTSD use cannabis to blunt hyperarousal and insomnia, raising the risk of dependence, while withdrawal can worsen the symptoms it masks—so cannabis is a common but double-edged self-treatment in PTSD."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Cannabis stresses the heart and vessels: THC raises heart rate and blood pressure acutely and is linked to myocardial infarction, arrhythmia and cannabis arteritis, so heavy use carries real cardiovascular risk despite cannabis's benign reputation."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Cannabis and sleep have a two-edged relationship: it may shorten sleep latency acutely but suppresses REM and, on withdrawal, causes rebound insomnia and vivid dreams—so dependence and disturbed sleep reinforce each other in cannabis use disorder."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Cannabis perturbs glutamate signaling in ways tied to psychosis: THC's action on CB1 receptors modulates glutamate release in cortical and limbic circuits, and this disruption helps explain why heavy adolescent use raises schizophrenia risk."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -229,6 +238,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Cannabis can trigger panic attacks: high-THC use, especially in the inexperienced, provokes acute anxiety, paranoia and panic, and chronic use is associated with anxiety disorders—so cannabis is both a cause and a sometimes self-medicated comorbidity of panic.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Cannabis use disorder and depression are bidirectionally linked: heavy cannabis use is associated with higher rates of depression, while some use cannabis to self-medicate low mood—a relationship where cause and consequence are hard to separate.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — PTSD and cannabis use disorder are closely intertwined: many with PTSD use cannabis to blunt hyperarousal and insomnia, raising the risk of dependence, while withdrawal can worsen the symptoms it masks—so cannabis is a common but double-edged self-treatment in PTSD.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cannabis stresses the heart and vessels: THC raises heart rate and blood pressure acutely and is linked to myocardial infarction, arrhythmia and cannabis arteritis, so heavy use carries real cardiovascular risk despite cannabis's benign reputation.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Cannabis and sleep have a two-edged relationship: it may shorten sleep latency acutely but suppresses REM and, on withdrawal, causes rebound insomnia and vivid dreams—so dependence and disturbed sleep reinforce each other in cannabis use disorder.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Cannabis perturbs glutamate signaling in ways tied to psychosis: THC's action on CB1 receptors modulates glutamate release in cortical and limbic circuits, and this disruption helps explain why heavy adolescent use raises schizophrenia risk.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy is central to rectal (not colon) cancer: neoadjuvant chemoradiation with photon beams shrinks locally advanced rectal tumors before surgery, sometimes enough for watch-and-wait—colon cancer, by contrast, is treated with surgery and chemotherapy."
+  - target: 01-human/03-molecular/apc
+    relation: connects-to
+    note: "APC loss is the gatekeeper mutation that starts colorectal cancer: inactivating APC unleashes Wnt/beta-catenin to form the first adenoma, so it initiates the adenoma-carcinoma sequence—mutated in FAP and in most sporadic colorectal cancers."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: targets
+    note: "Colorectal cancer arises stepwise from the intestinal epithelium: normal crypt cells acquire APC, then KRAS, then p53 hits, progressing through adenoma to carcinoma—the textbook adenoma-carcinoma sequence that makes screening colonoscopy preventive."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PD-1 is the checkpoint that MSI-high colorectal tumors exploit to evade attack: blocking it produced the first tissue-agnostic FDA approval (pembrolizumab for any MSI-high cancer), so dMMR/MSI status is now tested at diagnosis to guide immunotherapy."
 ---
 
 # Colorectal Cancer
@@ -215,6 +224,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome shapes colorectal cancer risk: dysbiosis enriches pro-carcinogenic bacteria (e.g. Fusobacterium) that inflame mucosa and damage DNA, while a healthy fiber-fermenting flora is protective—linking the microbial ecosystem to tumorigenesis.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is a major modifiable colorectal cancer risk factor: visceral adiposity drives insulin/IGF-1 signaling and chronic inflammation that promote colonic tumorigenesis, so rising early-onset CRC parallels obesity—weight and diet are key prevention levers.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is central to rectal (not colon) cancer: neoadjuvant chemoradiation with photon beams shrinks locally advanced rectal tumors before surgery, sometimes enough for watch-and-wait—colon cancer, by contrast, is treated with surgery and chemotherapy.
+- `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC loss is the gatekeeper mutation that starts colorectal cancer: inactivating APC unleashes Wnt/beta-catenin to form the first adenoma, so it initiates the adenoma-carcinoma sequence—mutated in FAP and in most sporadic colorectal cancers.
+- `targets` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Colorectal cancer arises stepwise from the intestinal epithelium: normal crypt cells acquire APC, then KRAS, then p53 hits, progressing through adenoma to carcinoma—the textbook adenoma-carcinoma sequence that makes screening colonoscopy preventive.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 is the checkpoint that MSI-high colorectal tumors exploit to evade attack: blocking it produced the first tissue-agnostic FDA approval (pembrolizumab for any MSI-high cancer), so dMMR/MSI status is now tested at diagnosis to guide immunotherapy.
 
 ---
 
