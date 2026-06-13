@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "The NF2/merlin-Hippo axis extends beyond nerve tumors: somatic NF2 loss occurs in a subset of renal cell carcinomas (as in mesothelioma), where merlin loss frees YAP/TEAD to drive proliferation — placing TEAD inhibitors under study for NF2-deficient kidney cancer too."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "NF2 and tuberous sclerosis are both autosomal-dominant neurocutaneous tumor syndromes, but of different pathways: NF2's Merlin loss drives schwannomas, meningiomas, and ependymomas via Hippo, while TSC's mTOR activation drives hamartomas across brain, kidney, and skin."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "NF2/Merlin and uveal melanoma converge on the Hippo pathway: Merlin normally restrains YAP, and uveal melanoma's GNAQ/GNA11 mutations activate YAP through Hippo—so both tumor biologies illustrate how unleashed YAP drives growth, here in the eye."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "NF2 produces glial as well as Schwann-cell tumors: spinal ependymomas and gliomas of astrocytic/ependymal lineage arise when Merlin loss disinhibits proliferation, part of the schwannoma-meningioma-ependymoma triad that defines the syndrome."
 ---
 
 # Neurofibromatosis Type 2
@@ -183,6 +192,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — NF2 and NF1 share a name but are unrelated diseases: NF2 (merlin, a Hippo regulator) causes bilateral vestibular schwannomas and meningiomas, while NF1 (neurofibromin, a RAS-GAP) causes café-au-lait spots and neurofibromas — different genes, tumors, and pathways.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — NF2 is fundamentally a brain-and-nerve tumor syndrome: bilateral vestibular schwannomas on cranial nerve VIII cause progressive deafness, balance loss, and brainstem compression, alongside multiple meningiomas and ependymomas — tumor burden, not malignancy, drives the morbidity.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — The NF2/merlin-Hippo axis extends beyond nerve tumors: somatic NF2 loss occurs in a subset of renal cell carcinomas (as in mesothelioma), where merlin loss frees YAP/TEAD to drive proliferation — placing TEAD inhibitors under study for NF2-deficient kidney cancer too.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — NF2 and tuberous sclerosis are both autosomal-dominant neurocutaneous tumor syndromes, but of different pathways: NF2's Merlin loss drives schwannomas, meningiomas, and ependymomas via Hippo, while TSC's mTOR activation drives hamartomas across brain, kidney, and skin.
+- `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — NF2/Merlin and uveal melanoma converge on the Hippo pathway: Merlin normally restrains YAP, and uveal melanoma's GNAQ/GNA11 mutations activate YAP through Hippo—so both tumor biologies illustrate how unleashed YAP drives growth, here in the eye.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — NF2 produces glial as well as Schwann-cell tumors: spinal ependymomas and gliomas of astrocytic/ependymal lineage arise when Merlin loss disinhibits proliferation, part of the schwannoma-meningioma-ependymoma triad that defines the syndrome.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
