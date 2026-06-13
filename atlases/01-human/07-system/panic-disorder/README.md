@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Panic attacks originate in fear-circuit neurons: hyperexcitable locus coeruleus and basolateral amygdala neurons fire to interoceptive or CO2 cues, triggering the autonomic surge, while weak prefrontal inhibition fails to restrain them — the target of SSRIs and benzodiazepines."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Panic disorder and PTSD overlap in fear circuitry: both involve a hyperreactive amygdala and noradrenergic surges, panic attacks are common in PTSD, and they share SSRIs and exposure CBT—but PTSD is anchored to a trauma memory while panic strikes unpredictably."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "A panic attack is a false alarm of the fight-or-flight axis the adrenal gland serves: surging adrenaline drives palpitations, sweating, and tremor, and because pheochromocytoma produces identical paroxysms, panic with severe hypertension warrants catecholamine testing."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Panic disorder and asthma are tightly comorbid and can mimic each other: breathlessness triggers panic and hyperventilation worsens bronchospasm, while CO2 hypersensitivity links both—so telling an asthma attack from a panic attack matters clinically."
 ---
 
 # Panic Disorder
@@ -216,6 +225,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Panic disorder and social anxiety disorder are both fear-circuit anxiety disorders treated first-line with SSRIs, but differ in trigger: panic attacks are unexpected and somatic (interoceptive), social anxiety cued by scrutiny; they often coexist, exposure CBT tailored to each.
 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Panic attacks originate in fear-circuit neurons: hyperexcitable locus coeruleus and basolateral amygdala neurons fire to interoceptive or CO2 cues, triggering the autonomic surge, while weak prefrontal inhibition fails to restrain them — the target of SSRIs and benzodiazepines.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Panic disorder and PTSD overlap in fear circuitry: both involve a hyperreactive amygdala and noradrenergic surges, panic attacks are common in PTSD, and they share SSRIs and exposure CBT—but PTSD is anchored to a trauma memory while panic strikes unpredictably.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — A panic attack is a false alarm of the fight-or-flight axis the adrenal gland serves: surging adrenaline drives palpitations, sweating, and tremor, and because pheochromocytoma produces identical paroxysms, panic with severe hypertension warrants catecholamine testing.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Panic disorder and asthma are tightly comorbid and can mimic each other: breathlessness triggers panic and hyperventilation worsens bronchospasm, while CO2 hypersensitivity links both—so telling an asthma attack from a panic attack matters clinically.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

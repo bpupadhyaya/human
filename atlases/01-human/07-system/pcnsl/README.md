@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Primary CNS lymphoma has an ocular form — vitreoretinal lymphoma — that seeds the eye as painless floaters or steroid-refractory uveitis; a vitreous IL-10:IL-6 ratio >1 and MYD88 L265P clinch the diagnosis, and ~15-25% of PCNSL involves the eye, often bilaterally."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Primary CNS lymphoma is an AIDS-defining cancer: in advanced HIV with low CD4 counts, EBV-driven B-cell lymphoma arises in the brain, so a periventricular mass in AIDS raises PCNSL versus toxoplasmosis—distinguished by EBV PCR of CSF and thallium imaging."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Whole-brain photon radiotherapy once anchored PCNSL treatment but is now used cautiously: the tumor is exquisitely radiosensitive, yet WBRT causes severe delayed neurocognitive decline, so high-dose methotrexate is preferred and radiation reserved or dose-reduced."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "PCNSL grows in the unique immune environment policed by microglia: this EBV-driven B-cell lymphoma proliferates around vessels in brain parenchyma, and reactive microglia form the perivascular cuffs and inflammatory backdrop characteristic of its histology."
 ---
 
 # Primary CNS Lymphoma
@@ -177,6 +186,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Peripheral T-cell Lymphoma](../ptcl/README.md)** — Primary CNS lymphoma and peripheral T-cell lymphoma are aggressive non-Hodgkin lymphomas of opposite lineage: PCNSL is a B-cell (ABC-DLBCL) tumor driven by MYD88/CD79B-NF-κB, PTCL a heterogeneous T-cell group driven by TET2/RHOA/STAT3 — different cells, different therapies.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Primary CNS lymphoma is essentially a diffuse large B-cell lymphoma (ABC type) trapped in the CNS: it shares DLBCL's CD20+ biology and MYD88/CD79B-NF-κB drivers, but immune privilege and the blood-brain barrier make it behave differently — high-dose methotrexate, not R-CHOP.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Primary CNS lymphoma has an ocular form — vitreoretinal lymphoma — that seeds the eye as painless floaters or steroid-refractory uveitis; a vitreous IL-10:IL-6 ratio >1 and MYD88 L265P clinch the diagnosis, and ~15-25% of PCNSL involves the eye, often bilaterally.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Primary CNS lymphoma is an AIDS-defining cancer: in advanced HIV with low CD4 counts, EBV-driven B-cell lymphoma arises in the brain, so a periventricular mass in AIDS raises PCNSL versus toxoplasmosis—distinguished by EBV PCR of CSF and thallium imaging.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Whole-brain photon radiotherapy once anchored PCNSL treatment but is now used cautiously: the tumor is exquisitely radiosensitive, yet WBRT causes severe delayed neurocognitive decline, so high-dose methotrexate is preferred and radiation reserved or dose-reduced.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — PCNSL grows in the unique immune environment policed by microglia: this EBV-driven B-cell lymphoma proliferates around vessels in brain parenchyma, and reactive microglia form the perivascular cuffs and inflammatory backdrop characteristic of its histology.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
