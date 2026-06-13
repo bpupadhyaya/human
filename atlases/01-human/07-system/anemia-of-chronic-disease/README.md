@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Lupus commonly causes anemia of chronic disease via systemic inflammation, but parse the cause: SLE also produces autoimmune hemolytic anemia, renal-failure anemia, and drug effects, so falling hemoglobin needs sorting inflammatory from hemolytic and renal mechanisms."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Anemia of chronic disease is about iron sequestration: inflammation raises hepcidin, which traps iron inside macrophages and blocks gut absorption, so iron is abundant but unavailable—a 'functional iron deficiency' distinct from true iron-deficiency anemia."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Anemia of chronic disease and MDS both cause anemia but differ: ACD is inflammation-driven iron sequestration with adequate marrow, while MDS is clonal marrow failure with dysplasia—so anemia not explained by inflammation or iron warrants marrow examination for MDS."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Multiple myeloma commonly presents with anemia of chronic disease: the tumor's IL-6 drives hepcidin and inflammatory anemia, compounded by marrow replacement and renal failure, so unexplained anemia with high ESR and bone pain should prompt evaluation for myeloma."
 ---
 
 # Anemia of Chronic Disease
@@ -215,6 +224,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia of chronic disease blunts red-cell production several ways: inflammatory cytokines suppress erythropoietin and its marrow response, shorten erythrocyte survival, and via hepcidin lock iron from red cells—a typically normocytic anemia that resists oral iron.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Anemia is the commonest systemic complication of inflammatory bowel disease, usually mixed: gut inflammation raises hepcidin while bleeding and poor absorption add iron deficiency—so IBD anemia needs both inflammation control and iron repletion.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus commonly causes anemia of chronic disease via systemic inflammation, but parse the cause: SLE also produces autoimmune hemolytic anemia, renal-failure anemia, and drug effects, so falling hemoglobin needs sorting inflammatory from hemolytic and renal mechanisms.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Anemia of chronic disease is about iron sequestration: inflammation raises hepcidin, which traps iron inside macrophages and blocks gut absorption, so iron is abundant but unavailable—a 'functional iron deficiency' distinct from true iron-deficiency anemia.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Anemia of chronic disease and MDS both cause anemia but differ: ACD is inflammation-driven iron sequestration with adequate marrow, while MDS is clonal marrow failure with dysplasia—so anemia not explained by inflammation or iron warrants marrow examination for MDS.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Multiple myeloma commonly presents with anemia of chronic disease: the tumor's IL-6 drives hepcidin and inflammatory anemia, compounded by marrow replacement and renal failure, so unexplained anemia with high ESR and bone pain should prompt evaluation for myeloma.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

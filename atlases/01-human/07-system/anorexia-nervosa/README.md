@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Anorexia nervosa shuts down the reproductive system: severe energy deficit suppresses hypothalamic GnRH, causing functional hypothalamic amenorrhea and low estrogen, which—together with low weight—drives the infertility and bone loss central to the illness."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Anorexia nervosa and borderline personality disorder frequently co-occur: both involve emotional dysregulation, impulsivity and self-harm, and a comorbid personality disorder worsens eating-disorder prognosis—so the two are assessed and treated together."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Anorexia nervosa and bipolar disorder overlap more than expected: mood instability is common in AN, the two share genetic links, and bipolar episodes can drive appetite and weight swings—so screening for bipolarity guides safe pharmacotherapy in eating disorders."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Anorexia nervosa wastes the heart muscle itself: severe malnutrition shrinks cardiomyocytes and thins the myocardium, causing bradycardia and dangerous arrhythmias—cardiac complications are a leading cause of death, and refeeding must be cautious to avoid overload."
 ---
 
 # Anorexia Nervosa
@@ -236,6 +245,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Anorexia nervosa and major depression are intertwined: depression is among the commonest comorbidities, starvation itself causes depressed mood and anhedonia, and the two share serotonergic dysregulation—so weight must be restored before depression is assessed.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety usually predates and drives anorexia nervosa: generalized anxiety and perfectionism often appear in childhood before the eating disorder, and restriction becomes a way to control anxiety, so most anorexia patients carry an anxiety disorder that treatment must address.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Anorexia nervosa shuts down the reproductive system: severe energy deficit suppresses hypothalamic GnRH, causing functional hypothalamic amenorrhea and low estrogen, which—together with low weight—drives the infertility and bone loss central to the illness.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Anorexia nervosa and borderline personality disorder frequently co-occur: both involve emotional dysregulation, impulsivity and self-harm, and a comorbid personality disorder worsens eating-disorder prognosis—so the two are assessed and treated together.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Anorexia nervosa and bipolar disorder overlap more than expected: mood instability is common in AN, the two share genetic links, and bipolar episodes can drive appetite and weight swings—so screening for bipolarity guides safe pharmacotherapy in eating disorders.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Anorexia nervosa wastes the heart muscle itself: severe malnutrition shrinks cardiomyocytes and thins the myocardium, causing bradycardia and dangerous arrhythmias—cardiac complications are a leading cause of death, and refeeding must be cautious to avoid overload.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
