@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "DIC and immune thrombocytopenia both lower platelets by different mechanisms: DIC consumes platelets in widespread clotting (with abnormal coagulation tests), while ITP destroys them via autoantibodies with normal clotting—so coagulation studies separate them."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils help ignite DIC through immunothrombosis: in sepsis they release neutrophil extracellular traps that activate clotting on the vessel wall, fusing the inflammatory and coagulation cascades that drive disseminated microthrombi and consumption of clotting factors."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is a frequent casualty of DIC: widespread microthrombi clog the pulmonary microvasculature while consumed clotting factors cause alveolar hemorrhage, so DIC contributes to the ARDS and respiratory failure of severe sepsis."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Severe falciparum malaria is a classic infectious trigger of DIC: parasitized red cells and inflammation activate coagulation and damage endothelium, so the bleeding and microthrombi of DIC complicate the deadliest form of malaria."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -238,6 +247,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is an early DIC casualty: widespread microthrombi clog glomerular capillaries while consumption of clotting factors causes bleeding, so acute kidney injury is a common, prognostically important feature of disseminated intravascular coagulation.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — DIC must be separated from VWF/ADAMTS13 disorders like TTP: both consume platelets and shear red cells, but DIC also consumes clotting factors (low fibrinogen, high D-dimer) whereas TTP spares them—the coagulation profile, not the smear alone, distinguishes them.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — DIC and immune thrombocytopenia both lower platelets by different mechanisms: DIC consumes platelets in widespread clotting (with abnormal coagulation tests), while ITP destroys them via autoantibodies with normal clotting—so coagulation studies separate them.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help ignite DIC through immunothrombosis: in sepsis they release neutrophil extracellular traps that activate clotting on the vessel wall, fusing the inflammatory and coagulation cascades that drive disseminated microthrombi and consumption of clotting factors.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a frequent casualty of DIC: widespread microthrombi clog the pulmonary microvasculature while consumed clotting factors cause alveolar hemorrhage, so DIC contributes to the ARDS and respiratory failure of severe sepsis.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Severe falciparum malaria is a classic infectious trigger of DIC: parasitized red cells and inflammation activate coagulation and damage endothelium, so the bleeding and microthrombi of DIC complicate the deadliest form of malaria.
 
 ---
 

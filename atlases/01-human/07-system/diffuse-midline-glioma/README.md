@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "DMG often activates the PI3K/AKT/mTOR pathway: mutations in PIK3CA and related genes switch on mTOR-driven growth alongside the H3K27M epigenetic driver, so mTOR-pathway inhibitors are explored as targeted therapy for this lethal midline glioma."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Diffuse midline glioma is the deadliest pediatric tumor of the nervous system: it infiltrates the brainstem (as DIPG), thalamus or spinal cord diffusely, so it cannot be resected and disrupts the very structures that control breathing, movement and consciousness."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Germline TP53 loss in Li-Fraumeni syndrome predisposes to midline gliomas: while most diffuse midline gliomas are sporadic H3K27M-driven, the syndrome shows how inherited tumor-suppressor loss can also seed these lethal childhood brain cancers."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy has been tried in diffuse midline glioma to spare the developing brain: its sharp dose falloff limits collateral damage near the brainstem, but because the tumor infiltrates diffusely and resists treatment, it has not improved the grim prognosis."
 ---
 
 # Diffuse Midline Glioma
@@ -238,6 +247,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation frequently accompanies the H3K27M driver in DMG: loss of p53 removes the damage checkpoint atop the epigenetic catastrophe of histone mutation, accelerating this fatal pediatric brainstem tumor—a partnership of epigenetic and tumor-suppressor failure.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — CDK4/6 amplification helps drive DMG's relentless growth: alongside H3K27M, gains in the cell-cycle machinery push tumor cells past the G1 checkpoint, making CDK4/6 inhibitors one of the targeted strategies tested against this otherwise untreatable tumor.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — DMG often activates the PI3K/AKT/mTOR pathway: mutations in PIK3CA and related genes switch on mTOR-driven growth alongside the H3K27M epigenetic driver, so mTOR-pathway inhibitors are explored as targeted therapy for this lethal midline glioma.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Diffuse midline glioma is the deadliest pediatric tumor of the nervous system: it infiltrates the brainstem (as DIPG), thalamus or spinal cord diffusely, so it cannot be resected and disrupts the very structures that control breathing, movement and consciousness.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Germline TP53 loss in Li-Fraumeni syndrome predisposes to midline gliomas: while most diffuse midline gliomas are sporadic H3K27M-driven, the syndrome shows how inherited tumor-suppressor loss can also seed these lethal childhood brain cancers.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy has been tried in diffuse midline glioma to spare the developing brain: its sharp dose falloff limits collateral damage near the brainstem, but because the tumor infiltrates diffusely and resists treatment, it has not improved the grim prognosis.
 
 ---
 
