@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Endothelial injury is the first event in systemic sclerosis: damaged microvascular endothelium triggers Raynaud's phenomenon, digital ulcers, and capillary dropout (on nailfold capillaroscopy), then activates fibroblasts — making vasculopathy the initiating arm of the SSc triad."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Systemic sclerosis and lupus are both ANA-positive connective tissue diseases that can overlap as mixed connective tissue disease: SSc is dominated by fibrosis (anti-Scl-70), lupus by immune-complex inflammation (anti-dsDNA), but both share Raynaud's and interferon."
+  - target: 01-human/07-system/dermatomyositis
+    relation: connects-to
+    note: "Systemic sclerosis and dermatomyositis overlap in scleromyositis: some patients have both skin fibrosis and inflammatory myopathy, marked by anti-PM/Scl antibodies, so muscle weakness in a scleroderma patient prompts evaluation for a myositis overlap."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut is involved in most systemic sclerosis: fibrosis and smooth-muscle atrophy cause esophageal dysmotility and reflux, gastric antral vascular ectasia, small-bowel bacterial overgrowth, and pseudo-obstruction—a major source of morbidity beyond the skin."
 ---
 
 # Systemic Sclerosis
@@ -185,6 +194,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Systemic sclerosis and Sjögren's are overlapping connective-tissue autoimmune diseases: secondary Sjögren occurs in up to ~20% of SSc, adding sicca to the fibrosis, and both share a type-I-interferon signature — but SSc is defined by vasculopathy and collagen deposition.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the leading cause of death in systemic sclerosis: interstitial lung disease (fibrotic NSIP, worst with anti-Scl-70) scars the lower lobes and pulmonary arterial hypertension narrows vessels; nintedanib and tocilizumab slow the ILD, so CT and PFT surveillance matter.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial injury is the first event in systemic sclerosis: damaged microvascular endothelium triggers Raynaud's phenomenon, digital ulcers, and capillary dropout (on nailfold capillaroscopy), then activates fibroblasts — making vasculopathy the initiating arm of the SSc triad.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Systemic sclerosis and lupus are both ANA-positive connective tissue diseases that can overlap as mixed connective tissue disease: SSc is dominated by fibrosis (anti-Scl-70), lupus by immune-complex inflammation (anti-dsDNA), but both share Raynaud's and interferon.
+- `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Systemic sclerosis and dermatomyositis overlap in scleromyositis: some patients have both skin fibrosis and inflammatory myopathy, marked by anti-PM/Scl antibodies, so muscle weakness in a scleroderma patient prompts evaluation for a myositis overlap.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut is involved in most systemic sclerosis: fibrosis and smooth-muscle atrophy cause esophageal dysmotility and reflux, gastric antral vascular ectasia, small-bowel bacterial overgrowth, and pseudo-obstruction—a major source of morbidity beyond the skin.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

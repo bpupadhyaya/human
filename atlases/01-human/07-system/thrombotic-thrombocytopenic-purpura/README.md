@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "TTP shears red cells: as erythrocytes squeeze through platelet-rich microthrombi they fragment into schistocytes, producing microangiopathic hemolytic anemia with high LDH, low haptoglobin, negative Coombs — schistocytes plus thrombocytopenia trigger ADAMTS13 testing."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "TTP and immune thrombocytopenia both cause severe thrombocytopenia but differ: ITP is antibody-mediated platelet destruction without hemolysis, while TTP adds microangiopathic hemolysis and organ ischemia from ADAMTS13 deficiency—an emergency needing plasma exchange."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "TTP and DIC both produce thrombocytopenia and schistocytes but are distinguished by coagulation tests: DIC consumes clotting factors and prolongs PT/PTT with high D-dimer, while TTP leaves coagulation times normal—because its clots are platelet-VWF, not fibrin."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Lupus can trigger or mimic TTP: SLE may produce acquired ADAMTS13 deficiency or a TTP-like thrombotic microangiopathy, and the two share features (hemolysis, low platelets, neuro/renal signs), so a lupus flare with schistocytes demands urgent ADAMTS13 testing."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -226,6 +235,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a TTP target organ: VWF-platelet microthrombi lodge in the renal microvasculature, causing acute kidney injury — usually milder than in aHUS, where renal failure dominates; this difference in renal severity helps separate the two thrombotic microangiopathies.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Neurologic involvement is TTP's most dangerous feature: cerebral microthrombi cause fluctuating confusion, headache, focal deficits, seizures, or coma — part of the classic pentad — that can come and go within hours, so suspected TTP needs urgent plasma exchange.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — TTP shears red cells: as erythrocytes squeeze through platelet-rich microthrombi they fragment into schistocytes, producing microangiopathic hemolytic anemia with high LDH, low haptoglobin, negative Coombs — schistocytes plus thrombocytopenia trigger ADAMTS13 testing.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — TTP and immune thrombocytopenia both cause severe thrombocytopenia but differ: ITP is antibody-mediated platelet destruction without hemolysis, while TTP adds microangiopathic hemolysis and organ ischemia from ADAMTS13 deficiency—an emergency needing plasma exchange.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — TTP and DIC both produce thrombocytopenia and schistocytes but are distinguished by coagulation tests: DIC consumes clotting factors and prolongs PT/PTT with high D-dimer, while TTP leaves coagulation times normal—because its clots are platelet-VWF, not fibrin.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus can trigger or mimic TTP: SLE may produce acquired ADAMTS13 deficiency or a TTP-like thrombotic microangiopathy, and the two share features (hemolysis, low platelets, neuro/renal signs), so a lupus flare with schistocytes demands urgent ADAMTS13 testing.
 
 ---
 
