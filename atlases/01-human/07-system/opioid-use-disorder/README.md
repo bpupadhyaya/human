@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Opioids harm the lung beyond overdose: sedation promotes aspiration pneumonia, overdose can cause non-cardiogenic pulmonary edema, and injection use seeds septic emboli—so the lung suffers both acute and chronic complications of opioid use."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Opioid and endocannabinoid systems are deeply interlinked: both engage the brain's reward and pain circuits and their receptors interact, so cannabinoids modulate opioid reward and withdrawal—part of why self-medication patterns are common in OUD."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "PTSD and opioid use disorder are tightly bound: people with PTSD use opioids to numb hyperarousal and emotional pain, raising the risk of dependence, while the chaos of addiction generates new trauma—so trauma-focused care is key to treating OUD."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Opioid use disorder rewires the nervous system: repeated mu-receptor stimulation downregulates reward circuits and upregulates stress pathways, so tolerance, craving and a brutal withdrawal are neuroadaptations—addiction as a chronic brain disease, not a moral failing."
 ---
 
 # Opioid Use Disorder
@@ -262,6 +271,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Respiratory depression is how opioids kill: mu-receptor activation in brainstem respiratory centers blunts the drive to breathe, so overdose causes fatal hypoventilation—the mechanism naloxone reverses and the reason fentanyl's potency makes overdose so lethal.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Opioid use disorder and depression are tightly intertwined: depression drives self-medication while chronic opioid use dysregulates reward and worsens mood, and withdrawal mimics depression—so the two conditions amplify each other and complicate treatment.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Opioids harm the lung beyond overdose: sedation promotes aspiration pneumonia, overdose can cause non-cardiogenic pulmonary edema, and injection use seeds septic emboli—so the lung suffers both acute and chronic complications of opioid use.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — Opioid and endocannabinoid systems are deeply interlinked: both engage the brain's reward and pain circuits and their receptors interact, so cannabinoids modulate opioid reward and withdrawal—part of why self-medication patterns are common in OUD.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — PTSD and opioid use disorder are tightly bound: people with PTSD use opioids to numb hyperarousal and emotional pain, raising the risk of dependence, while the chaos of addiction generates new trauma—so trauma-focused care is key to treating OUD.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Opioid use disorder rewires the nervous system: repeated mu-receptor stimulation downregulates reward circuits and upregulates stress pathways, so tolerance, craving and a brutal withdrawal are neuroadaptations—addiction as a chronic brain disease, not a moral failing.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

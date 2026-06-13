@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The eye is where myasthenia gravis usually begins: ptosis and diplopia from fatigable extraocular and eyelid muscles are the presenting sign in most patients, and ocular MG may stay confined to the eye or generalize—making the eye both first clue and prognostic marker."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "B-cell-depleting therapy is increasingly used in myasthenia gravis: rituximab against CD20 is especially effective in MuSK-antibody MG, removing the B cells that mature into the plasma cells making pathogenic acetylcholine-receptor antibodies."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Myasthenia gravis is a classic antibody-mediated autoimmune disease: autoantibodies against the acetylcholine receptor (or MuSK) and complement attack the neuromuscular junction, so it overlaps with other autoimmunity and responds to immunosuppression and thymectomy."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Myasthenia gravis sits at the nervous system's output: it spares nerve and muscle themselves but attacks the neuromuscular junction where they meet, so signals fail to reach muscle—causing the fatigable weakness, ptosis and diplopia that define it."
 ---
 
 # Myasthenia Gravis
@@ -214,6 +223,9 @@ cross_links:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages execute the antibody attack in myasthenia gravis: anti-AChR IgG fixes complement and recruits macrophages that phagocytose the postsynaptic membrane, so innate effectors translate the autoantibody into loss of acetylcholine receptors at the neuromuscular junction.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Myasthenia gravis and rheumatoid arthritis are both antibody-mediated autoimmune diseases, but MG targets a single neuromuscular receptor while RA attacks the synovium broadly—yet both respond to B-cell depletion, reflecting shared autoreactive antibody-producing cells.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye is where myasthenia gravis usually begins: ptosis and diplopia from fatigable extraocular and eyelid muscles are the presenting sign in most patients, and ocular MG may stay confined to the eye or generalize—making the eye both first clue and prognostic marker.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — B-cell-depleting therapy is increasingly used in myasthenia gravis: rituximab against CD20 is especially effective in MuSK-antibody MG, removing the B cells that mature into the plasma cells making pathogenic acetylcholine-receptor antibodies.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Myasthenia gravis is a classic antibody-mediated autoimmune disease: autoantibodies against the acetylcholine receptor (or MuSK) and complement attack the neuromuscular junction, so it overlaps with other autoimmunity and responds to immunosuppression and thymectomy.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Myasthenia gravis sits at the nervous system's output: it spares nerve and muscle themselves but attacks the neuromuscular junction where they meet, so signals fail to reach muscle—causing the fatigable weakness, ptosis and diplopia that define it.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
