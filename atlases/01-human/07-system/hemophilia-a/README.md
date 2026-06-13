@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/antiphospholipid-syndrome
     relation: connects-to
     note: "Hemophilia A and antiphospholipid syndrome are mirror-image coagulation disorders—bleeding versus clotting: hemophilia lacks factor VIII, while APS has thrombosis-driving antiphospholipid antibodies; an acquired factor VIII inhibitor rarely bridges them."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Hemophilia A spares fibrinogen but fails to reach it: factor VIII deficiency cripples the intrinsic pathway's thrombin burst, so although fibrinogen is normal, too little thrombin forms to convert it to a stable fibrin clot—hence delayed, recurrent bleeding."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Intracranial hemorrhage is the most feared hemophilia A complication: minor head trauma can cause life-threatening brain bleeding because clot formation is delayed, so prophylactic factor replacement and urgent dosing after head injury are central to care."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Hemophilia A is historically tied to hepatitis C and HIV: before viral screening, pooled factor concentrates infected most treated patients with HCV and HIV—a tragedy that drove recombinant factor development, so older hemophiliacs carry a heavy chronic-viral burden."
 ---
 
 # Hemophilia A
@@ -220,6 +229,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is central to hemophilia A: hepatocytes make clotting factors, and liver-directed gene therapy now delivers a working factor VIII gene to hepatocytes, enabling them to produce the missing factor—turning the factor-making organ into the cure.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Intracranial hemorrhage is the most feared bleed in hemophilia A: deficient factor VIII can't stabilize clots, so brain bleeding is a leading cause of death—hemorrhagic stroke here is the mirror image of the ischemic stroke that clotting disorders cause.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Hemophilia A and antiphospholipid syndrome are mirror-image coagulation disorders—bleeding versus clotting: hemophilia lacks factor VIII, while APS has thrombosis-driving antiphospholipid antibodies; an acquired factor VIII inhibitor rarely bridges them.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Hemophilia A spares fibrinogen but fails to reach it: factor VIII deficiency cripples the intrinsic pathway's thrombin burst, so although fibrinogen is normal, too little thrombin forms to convert it to a stable fibrin clot—hence delayed, recurrent bleeding.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Intracranial hemorrhage is the most feared hemophilia A complication: minor head trauma can cause life-threatening brain bleeding because clot formation is delayed, so prophylactic factor replacement and urgent dosing after head injury are central to care.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hemophilia A is historically tied to hepatitis C and HIV: before viral screening, pooled factor concentrates infected most treated patients with HCV and HIV—a tragedy that drove recombinant factor development, so older hemophiliacs carry a heavy chronic-viral burden.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

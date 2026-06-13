@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "HIT is paradoxical—low platelets cause clots, not bleeds: PF4-heparin antibodies activate platelets and endothelium, triggering arterial and venous thrombosis across the cardiovascular system—so heparin is stopped and a non-heparin anticoagulant started."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages execute the paradox of HIT: Fc receptors on macrophages and platelets bind PF4-heparin-IgG immune complexes, clearing platelets (thrombocytopenia) while activating them to clot—so the same antibody both lowers the count and causes thrombosis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement amplifies the thrombosis of HIT and its cousin VITT: PF4-antibody complexes activate complement on platelets and endothelium, boosting clot formation—so complement and the anti-PF4 antibody together explain why HIT clots despite a falling platelet count."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary embolism is a major HIT complication: the paradoxical clotting strikes veins, throwing clots to the lung, so a heparin-treated patient with a falling platelet count and new dyspnea needs heparin stopped and a non-heparin anticoagulant urgently."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -243,6 +252,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — HIT and TTP are both life-threatening thrombocytopenias: HIT is antibody-mediated platelet activation by PF4-heparin complexes causing paradoxical thrombosis, while TTP is ADAMTS13 deficiency forming microthrombi—both drop platelets, but cause and treatment differ.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement amplifies the prothrombotic immunity of HIT: the IgG-PF4-heparin immune complexes that activate platelets also engage complement, fueling endothelial activation and thrombosis—linking an antibody reaction to heparin with the innate complement cascade.
 - `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — HIT is paradoxical—low platelets cause clots, not bleeds: PF4-heparin antibodies activate platelets and endothelium, triggering arterial and venous thrombosis across the cardiovascular system—so heparin is stopped and a non-heparin anticoagulant started.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages execute the paradox of HIT: Fc receptors on macrophages and platelets bind PF4-heparin-IgG immune complexes, clearing platelets (thrombocytopenia) while activating them to clot—so the same antibody both lowers the count and causes thrombosis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement amplifies the thrombosis of HIT and its cousin VITT: PF4-antibody complexes activate complement on platelets and endothelium, boosting clot formation—so complement and the anti-PF4 antibody together explain why HIT clots despite a falling platelet count.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary embolism is a major HIT complication: the paradoxical clotting strikes veins, throwing clots to the lung, so a heparin-treated patient with a falling platelet count and new dyspnea needs heparin stopped and a non-heparin anticoagulant urgently.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
