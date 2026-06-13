@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Hyperuricemia and gout independently raise cardiovascular risk: urate crystals and NLRP3-driven inflammation promote endothelial dysfunction and atherosclerosis, and gout patients have excess MI and stroke—part of why gout is seen as a vascular as well as joint disease."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Gout is literally a sodium disease: when uric acid exceeds its solubility it crystallizes as monosodium urate, and these needle-shaped MSU crystals deposited in joints and tophi trigger the NLRP3-driven inflammation—dissolving them by lowering urate is the cure."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Gout and rheumatoid arthritis are both inflammatory arthritides but distinct: gout is a crystal-driven (MSU) innate attack with acute monoarticular flares, while RA is an autoantibody-driven symmetric polyarthritis—aspiration versus serology separates them."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Gout clusters with type 2 diabetes in the metabolic syndrome: insulin resistance reduces renal uric-acid excretion, raising urate, while obesity and high-purine, fructose-rich diets drive both—gout often flags an underlying cardiometabolic disorder."
 ---
 
 # Gout
@@ -176,6 +185,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Gout and chronic kidney disease feed each other: reduced renal urate excretion raises serum urate to cause gout, while urate crystals and inflammation injure the kidney; CKD also limits NSAID and colchicine use, so urate-lowering with allopurinol must be dose-adjusted.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Gout is a core feature of metabolic syndrome anchored by obesity: adiposity and insulin resistance raise serum urate by cutting renal excretion and boosting purine turnover, so weight loss lowers urate and flares; gout clusters with type 2 diabetes, hypertension and fatty liver.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Hyperuricemia and gout independently raise cardiovascular risk: urate crystals and NLRP3-driven inflammation promote endothelial dysfunction and atherosclerosis, and gout patients have excess MI and stroke—part of why gout is seen as a vascular as well as joint disease.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Gout is literally a sodium disease: when uric acid exceeds its solubility it crystallizes as monosodium urate, and these needle-shaped MSU crystals deposited in joints and tophi trigger the NLRP3-driven inflammation—dissolving them by lowering urate is the cure.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Gout and rheumatoid arthritis are both inflammatory arthritides but distinct: gout is a crystal-driven (MSU) innate attack with acute monoarticular flares, while RA is an autoantibody-driven symmetric polyarthritis—aspiration versus serology separates them.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Gout clusters with type 2 diabetes in the metabolic syndrome: insulin resistance reduces renal uric-acid excretion, raising urate, while obesity and high-purine, fructose-rich diets drive both—gout often flags an underlying cardiometabolic disorder.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

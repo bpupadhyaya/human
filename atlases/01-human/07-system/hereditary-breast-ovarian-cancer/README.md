@@ -61,6 +61,15 @@ cross_links:
   - target: 03-medicine/01-modern/13-cancer/targeted-therapy
     relation: treated-by
     note: "Hereditary breast-ovarian cancer is the paradigm for synthetic-lethal targeted therapy: BRCA1/2-mutant tumors cannot repair DNA by homologous recombination, so PARP inhibitors (olaparib) blocking backup repair selectively kill them—turning the germline defect into a drug target."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "HBOC and Lynch syndrome are major hereditary cancers raising women's ovarian/endometrial risk via different repair defects: HBOC from BRCA1/2 homologous-recombination loss, Lynch from mismatch-repair loss—each guides distinct screening and surgery."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "HBOC and Cowden syndrome both sharply raise hereditary breast cancer risk through different genes: HBOC via BRCA1/2 (homologous-recombination repair), Cowden via PTEN (PI3K-AKT pathway)—PTEN also brings thyroid and endometrial cancer plus hamartomas."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "HBOC and Peutz-Jeghers both elevate breast cancer risk through different mechanisms: HBOC from BRCA1/2 DNA-repair loss, PJS from STK11 loss—PJS also raises ovarian (sex-cord) and GI cancer risk, so both warrant intensified breast surveillance from a young age."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -211,6 +220,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — BRCA2 widens the hereditary breast-ovarian cancer spectrum to melanoma: germline BRCA2 modestly raises risk of cutaneous and especially uveal melanoma alongside breast, ovarian, pancreatic and prostate cancer, so a melanoma history can inform BRCA testing.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hereditary breast-ovarian cancer strikes the reproductive system hardest: BRCA1/2 carriers face high lifetime risks of breast, ovarian and fallopian-tube cancer, so risk-reducing salpingo-oophorectomy and enhanced breast surveillance are cornerstones of management.
 - `treated-by` → **[Targeted Therapy](../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hereditary breast-ovarian cancer is the paradigm for synthetic-lethal targeted therapy: BRCA1/2-mutant tumors cannot repair DNA by homologous recombination, so PARP inhibitors (olaparib) blocking backup repair selectively kill them—turning the germline defect into a drug target.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — HBOC and Lynch syndrome are major hereditary cancers raising women's ovarian/endometrial risk via different repair defects: HBOC from BRCA1/2 homologous-recombination loss, Lynch from mismatch-repair loss—each guides distinct screening and surgery.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — HBOC and Cowden syndrome both sharply raise hereditary breast cancer risk through different genes: HBOC via BRCA1/2 (homologous-recombination repair), Cowden via PTEN (PI3K-AKT pathway)—PTEN also brings thyroid and endometrial cancer plus hamartomas.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — HBOC and Peutz-Jeghers both elevate breast cancer risk through different mechanisms: HBOC from BRCA1/2 DNA-repair loss, PJS from STK11 loss—PJS also raises ovarian (sex-cord) and GI cancer risk, so both warrant intensified breast surveillance from a young age.
 
 ---
 
