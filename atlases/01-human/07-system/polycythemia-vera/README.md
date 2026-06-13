@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "Polycythemia vera carries a small but serious risk of leukemic transformation: the JAK2-mutant clone can acquire further mutations and evolve into acute myeloid leukemia, a feared, largely chemo-resistant end-stage—so cytoreduction choice weighs leukemogenic risk."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Polycythemia vera commonly causes secondary gout: the high turnover of overproduced red cells releases purines that become uric acid, so hyperuricemia and gout flares are frequent—sometimes the presenting clue to an unsuspected myeloproliferative neoplasm."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Polycythemia vera must be distinguished from the secondary erythrocytosis of kidney disease: PV is JAK2-driven red-cell overproduction with low EPO, while renal pathology drives high-EPO secondary polycythemia—measuring erythropoietin separates primary from secondary."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Renal cell carcinoma is a classic cause of secondary polycythemia: the tumor ectopically secretes erythropoietin, raising red-cell mass without the JAK2 mutation of true polycythemia vera—so unexplained erythrocytosis warrants imaging to exclude an EPO-producing tumor."
 ---
 
 # Polycythemia Vera
@@ -197,6 +206,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Polycythemia vera can burn out into post-PV myelofibrosis: after years of JAK2-driven erythrocytosis, the marrow becomes fibrotic and counts fall, with massive splenomegaly—one of PV's two main long-term fates, the other being acute leukemia.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thrombosis is the chief danger of polycythemia vera: high hematocrit and JAK2-mutant, hyperviscous blood drive arterial and venous clots, including splanchnic-vein thromboses that can be the presenting clue—so phlebotomy and aspirin aim to prevent them.
 - `connects-to` → **[AML](../aml/README.md)** — Polycythemia vera carries a small but serious risk of leukemic transformation: the JAK2-mutant clone can acquire further mutations and evolve into acute myeloid leukemia, a feared, largely chemo-resistant end-stage—so cytoreduction choice weighs leukemogenic risk.
+- `connects-to` → **[Gout](../gout/README.md)** — Polycythemia vera commonly causes secondary gout: the high turnover of overproduced red cells releases purines that become uric acid, so hyperuricemia and gout flares are frequent—sometimes the presenting clue to an unsuspected myeloproliferative neoplasm.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Polycythemia vera must be distinguished from the secondary erythrocytosis of kidney disease: PV is JAK2-driven red-cell overproduction with low EPO, while renal pathology drives high-EPO secondary polycythemia—measuring erythropoietin separates primary from secondary.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Renal cell carcinoma is a classic cause of secondary polycythemia: the tumor ectopically secretes erythropoietin, raising red-cell mass without the JAK2 mutation of true polycythemia vera—so unexplained erythrocytosis warrants imaging to exclude an EPO-producing tumor.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

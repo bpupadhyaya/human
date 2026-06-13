@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/hlrcc
     relation: connects-to
     note: "Pheochromocytoma/paraganglioma and HLRCC share a pseudohypoxia mechanism: both belong to the TCA-cycle tumor family where SDH or FH loss accumulates succinate/fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF—rarely yielding FH-mutant PPGL itself."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Pheochromocytoma is defined by the catecholamines it secretes: chromaffin tumors release norepinephrine and epinephrine, driving paroxysmal hypertension, while their breakdown products are the diagnostic test—an unregulated norepinephrine factory."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Pheochromocytoma is the organic disease that most convincingly mimics panic disorder: surges of catecholamines cause sudden palpitations and a sense of doom identical to a panic attack, so atypical 'panic' with hypertension warrants metanephrine testing."
+  - target: 01-human/07-system/gist
+    relation: connects-to
+    note: "Paraganglioma and GIST are joined in Carney triad: SDH-deficient tumors—paragangliomas plus wild-type GISTs—arise together when succinate dehydrogenase loss drives pseudohypoxia, so finding one SDH-deficient tumor prompts a search for the other."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -217,6 +226,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Pheochromocytoma is the classic curable secondary cause of hypertension: episodic catecholamine release produces the paroxysmal triad of headache, palpitations, and sweating with severe spikes, so resistant or paroxysmal hypertension warrants plasma/urine metanephrine screening.
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Paragangliomas appear in Carney-related syndromes—but not Carney complex itself: the SDH-deficient Carney triad (paraganglioma, gastric GIST, pulmonary chondroma) and Carney-Stratakis dyad are distinct from PRKAR1A-driven Carney complex, a common point of confusion.
 - `connects-to` → **[HLRCC](../hlrcc/README.md)** — Pheochromocytoma/paraganglioma and HLRCC share a pseudohypoxia mechanism: both belong to the TCA-cycle tumor family where SDH or FH loss accumulates succinate/fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF—rarely yielding FH-mutant PPGL itself.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Pheochromocytoma is defined by the catecholamines it secretes: chromaffin tumors release norepinephrine and epinephrine, driving paroxysmal hypertension, while their breakdown products are the diagnostic test—an unregulated norepinephrine factory.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Pheochromocytoma is the organic disease that most convincingly mimics panic disorder: surges of catecholamines cause sudden palpitations and a sense of doom identical to a panic attack, so atypical 'panic' with hypertension warrants metanephrine testing.
+- `connects-to` → **[GIST](../gist/README.md)** — Paraganglioma and GIST are joined in Carney triad: SDH-deficient tumors—paragangliomas plus wild-type GISTs—arise together when succinate dehydrogenase loss drives pseudohypoxia, so finding one SDH-deficient tumor prompts a search for the other.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
