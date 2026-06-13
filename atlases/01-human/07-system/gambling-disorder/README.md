@@ -45,6 +45,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Gambling disorder and opioid use disorder share the brain's opioid-modulated reward circuitry: the endogenous opioid system shapes the 'rush' of both, which is why the opioid antagonist naltrexone—standard for opioid and alcohol use disorders—also reduces gambling urges."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Gambling disorder is a notorious side effect of Parkinson's treatment: dopamine-agonist drugs (pramipexole, ropinirole) overstimulate the mesolimbic reward circuit, triggering pathological gambling and impulse-control disorders—often easing when the agonist is reduced."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Gambling disorder is strongly associated with bipolar disorder: manic and hypomanic states bring impulsivity, grandiosity, and reward-seeking that fuel pathological gambling, so new compulsive gambling can signal an emerging mood episode and the two frequently co-occur."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Gambling disorder is the model behavioral addiction in reward-circuit neurons: variable, unpredictable wins drive dopaminergic mesolimbic neurons, blunting reward sensitivity and impulse control—evidence addiction is a neuronal process, not just a substance effect."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -200,6 +209,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is among the commonest gambling-disorder comorbidities and a major driver of its high suicide rate: mounting losses, shame and debt feed depression while low mood fuels escape gambling, a vicious cycle; the two share monoaminergic dysfunction—screen for suicidality.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD strongly predisposes to gambling disorder: deficient dopaminergic reward processing and impaired impulse control drive risky, poorly-checked betting, the two are highly comorbid, and ADHD severity tracks gambling severity—so impulsivity is a shared therapeutic target.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Gambling disorder and opioid use disorder share the brain's opioid-modulated reward circuitry: the endogenous opioid system shapes the 'rush' of both, which is why the opioid antagonist naltrexone—standard for opioid and alcohol use disorders—also reduces gambling urges.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Gambling disorder is a notorious side effect of Parkinson's treatment: dopamine-agonist drugs (pramipexole, ropinirole) overstimulate the mesolimbic reward circuit, triggering pathological gambling and impulse-control disorders—often easing when the agonist is reduced.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Gambling disorder is strongly associated with bipolar disorder: manic and hypomanic states bring impulsivity, grandiosity, and reward-seeking that fuel pathological gambling, so new compulsive gambling can signal an emerging mood episode and the two frequently co-occur.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Gambling disorder is the model behavioral addiction in reward-circuit neurons: variable, unpredictable wins drive dopaminergic mesolimbic neurons, blunting reward sensitivity and impulse control—evidence addiction is a neuronal process, not just a substance effect.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

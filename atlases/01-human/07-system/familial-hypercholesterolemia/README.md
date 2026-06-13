@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "FH and hypertension are multiplicative cardiovascular risk factors: lifelong high LDL accelerates atherosclerosis while raised blood pressure adds shear stress and endothelial injury, so an FH patient who is also hypertensive faces especially early coronary disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Familial hypercholesterolemia is a lifelong assault on the cardiovascular system: from birth very high LDL accelerates atherosclerosis, so untreated heterozygotes get coronary disease decades early and homozygotes in childhood—early statin/PCSK9 therapy is essential."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Familial hypercholesterolemia and type 2 diabetes multiply cardiovascular risk together: FH's lifelong LDL burden plus diabetic dyslipidemia compound atherosclerosis—and although statins slightly raise diabetes risk, their cardiovascular benefit in FH far outweighs it."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Familial hypercholesterolemia and NASH are distinct lipid disorders of the liver: FH is a receptor defect that floods blood with LDL but spares the liver, while NASH is hepatic fat from insulin resistance—high LDL with a normal liver differs from fatty liver."
 ---
 
 # Familial Hypercholesterolemia
@@ -187,6 +196,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `treated-by` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Statins are the cornerstone of FH treatment: by inhibiting HMG-CoA reductase they upregulate hepatic LDL receptors to clear LDL, but FH patients—especially homozygotes with few functional receptors—often need high-intensity statins plus ezetimibe and PCSK9 inhibitors.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is central to FH: hepatocyte LDL receptors normally clear ~70% of circulating LDL, so the LDLR (or APOB/PCSK9) mutations of FH cripple this clearance → lifelong high LDL; the liver is thus the target of statins, PCSK9 inhibitors, apheresis and gene therapy.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — FH and hypertension are multiplicative cardiovascular risk factors: lifelong high LDL accelerates atherosclerosis while raised blood pressure adds shear stress and endothelial injury, so an FH patient who is also hypertensive faces especially early coronary disease.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Familial hypercholesterolemia is a lifelong assault on the cardiovascular system: from birth very high LDL accelerates atherosclerosis, so untreated heterozygotes get coronary disease decades early and homozygotes in childhood—early statin/PCSK9 therapy is essential.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Familial hypercholesterolemia and type 2 diabetes multiply cardiovascular risk together: FH's lifelong LDL burden plus diabetic dyslipidemia compound atherosclerosis—and although statins slightly raise diabetes risk, their cardiovascular benefit in FH far outweighs it.
+- `connects-to` → **[NASH](../nash/README.md)** — Familial hypercholesterolemia and NASH are distinct lipid disorders of the liver: FH is a receptor defect that floods blood with LDL but spares the liver, while NASH is hepatic fat from insulin resistance—high LDL with a normal liver differs from fatty liver.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
