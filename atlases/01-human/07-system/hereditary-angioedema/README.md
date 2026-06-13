@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Estrogen worsens HAE by upregulating prekallikrein, boosting bradykinin generation; estrogen-containing contraceptives and pregnancy trigger attacks, and FXII (type III) HAE is largely a disease of women on the pill — so progestin-only contraception is advised."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "HAE is a disorder of complement regulation: C1-inhibitor normally restrains the classical complement pathway and the contact (kinin) system, so its deficiency consumes C4 (a diagnostic clue) and unleashes bradykinin; it sits between complement and innate immune control."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "HAE is the key bradykinin-mediated mimic of mast-cell angioedema: unlike histaminergic allergic angioedema (urticaria, itch, antihistamine response), HAE swelling is non-itchy, urticaria-free and unresponsive to antihistamines or epinephrine—telling them apart is life-saving."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver synthesizes C1-inhibitor and most complement and contact-system proteins, so it underlies HAE: types I/II HAE reflect deficient or dysfunctional hepatic C1-INH, and siRNA therapy (donidalorsen targeting prekallikrein) acts on hepatic production to prevent attacks."
 ---
 
 # Hereditary Angioedema
@@ -198,6 +207,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Every HAE attack ends at the endothelial cell: bradykinin binds its B2 receptor on postcapillary venule endothelium → Gαq/Ca²⁺ → eNOS-derived NO loosens inter-endothelial junctions → plasma leaks into tissue as non-urticarial swelling; icatibant blocks B2R to abort this.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HAE swelling is subcutaneous or submucosal and looks unlike allergic hives: ~50% of attacks are tense, non-pitting, non-urticarial skin swelling that lasts 2-5 days and does not itch or respond to antihistamines — reflecting its bradykinin (not histamine) mechanism.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen worsens HAE by upregulating prekallikrein, boosting bradykinin generation; estrogen-containing contraceptives and pregnancy trigger attacks, and FXII (type III) HAE is largely a disease of women on the pill — so progestin-only contraception is advised.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — HAE is a disorder of complement regulation: C1-inhibitor normally restrains the classical complement pathway and the contact (kinin) system, so its deficiency consumes C4 (a diagnostic clue) and unleashes bradykinin; it sits between complement and innate immune control.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — HAE is the key bradykinin-mediated mimic of mast-cell angioedema: unlike histaminergic allergic angioedema (urticaria, itch, antihistamine response), HAE swelling is non-itchy, urticaria-free and unresponsive to antihistamines or epinephrine—telling them apart is life-saving.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver synthesizes C1-inhibitor and most complement and contact-system proteins, so it underlies HAE: types I/II HAE reflect deficient or dysfunctional hepatic C1-INH, and siRNA therapy (donidalorsen targeting prekallikrein) acts on hepatic production to prevent attacks.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
