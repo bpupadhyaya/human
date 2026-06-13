@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/bipolar-disorder
     relation: connects-to
     note: "Sleep is tightly bound to bipolar disorder: insomnia and a reduced need for sleep often herald or trigger mania, while hypersomnia accompanies depression, and stabilizing sleep and circadian rhythm is central to preventing mood episodes."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Insomnia and fibromyalgia are tightly intertwined: non-restorative sleep worsens pain perception and central sensitization, while chronic pain fragments sleep—so poor sleep both results from and amplifies fibromyalgia, making sleep a core treatment target."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Insomnia and short sleep promote obesity: sleep loss raises ghrelin and lowers leptin, increasing appetite, while disrupting glucose metabolism—so chronic insomnia is a modifiable contributor to weight gain and metabolic syndrome, and obesity in turn worsens sleep."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Insomnia and Alzheimer's disease share a bidirectional link through sleep's role in brain clearance: deep sleep clears amyloid-β via the glymphatic system, so poor sleep may promote amyloid accumulation, while Alzheimer's pathology itself disrupts sleep."
 ---
 
 # Insomnia Disorder
@@ -232,6 +241,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Insomnia and narcolepsy are opposite faces of sleep-wake regulation: insomnia is inability to sleep from a hyperaroused, orexin-active state, while narcolepsy is sleepiness from orexin loss—the orexin system that keeps insomniacs awake fails in narcolepsy.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Insomnia is a core and often presenting symptom of PTSD: hyperarousal and trauma nightmares fragment sleep, persistent insomnia predicts and perpetuates PTSD, and treating the sleep disturbance (CBT-I, prazosin for nightmares) improves overall PTSD outcomes.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Sleep is tightly bound to bipolar disorder: insomnia and a reduced need for sleep often herald or trigger mania, while hypersomnia accompanies depression, and stabilizing sleep and circadian rhythm is central to preventing mood episodes.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Insomnia and fibromyalgia are tightly intertwined: non-restorative sleep worsens pain perception and central sensitization, while chronic pain fragments sleep—so poor sleep both results from and amplifies fibromyalgia, making sleep a core treatment target.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Insomnia and short sleep promote obesity: sleep loss raises ghrelin and lowers leptin, increasing appetite, while disrupting glucose metabolism—so chronic insomnia is a modifiable contributor to weight gain and metabolic syndrome, and obesity in turn worsens sleep.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Insomnia and Alzheimer's disease share a bidirectional link through sleep's role in brain clearance: deep sleep clears amyloid-β via the glymphatic system, so poor sleep may promote amyloid accumulation, while Alzheimer's pathology itself disrupts sleep.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

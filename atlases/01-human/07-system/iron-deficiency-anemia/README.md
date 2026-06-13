@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Heavy menstrual bleeding makes iron deficiency anemia the commonest anemia in women of reproductive age: monthly blood loss, plus the iron demands of pregnancy, outpaces dietary intake—so menorrhagia and pregnancy are leading causes of iron deficiency worldwide."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "Iron-deficiency anemia and MDS are opposite causes of anemia: IDA is a microcytic anemia from depleted iron that corrects with replacement, while MDS is a clonal marrow-failure anemia with normal or high iron—so iron studies and marrow biopsy distinguish them."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Iron deficiency is common and treatable in chronic kidney disease: both absolute iron loss and functional deficiency from inflammation-driven hepcidin limit erythropoiesis, so IV iron plus erythropoietin-stimulating agents are mainstays of CKD anemia management."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Iron deficiency is a key treatable comorbidity in heart failure—even without anemia: low iron impairs muscle and cardiac energetics, worsening symptoms and outcomes, so intravenous iron improves exercise capacity in iron-deficient HFrEF patients."
 ---
 
 # Iron Deficiency Anemia
@@ -202,6 +211,9 @@ Iron is essential for:
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Iron deficiency is the commonest systemic complication of inflammatory bowel disease: chronic gut bleeding plus impaired absorption and inflammation-raised hepcidin deplete iron, so IBD anemia is typically mixed iron-deficiency and chronic-disease anemia, often needing IV iron.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Iron deficiency anemia in an older adult is a red flag for GI malignancy including gastric cancer: chronic occult blood loss from an ulcerating tumor depletes iron, so unexplained iron-deficiency anemia mandates upper and lower endoscopy to exclude gastric or colorectal cancer.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Heavy menstrual bleeding makes iron deficiency anemia the commonest anemia in women of reproductive age: monthly blood loss, plus the iron demands of pregnancy, outpaces dietary intake—so menorrhagia and pregnancy are leading causes of iron deficiency worldwide.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Iron-deficiency anemia and MDS are opposite causes of anemia: IDA is a microcytic anemia from depleted iron that corrects with replacement, while MDS is a clonal marrow-failure anemia with normal or high iron—so iron studies and marrow biopsy distinguish them.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Iron deficiency is common and treatable in chronic kidney disease: both absolute iron loss and functional deficiency from inflammation-driven hepcidin limit erythropoiesis, so IV iron plus erythropoietin-stimulating agents are mainstays of CKD anemia management.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Iron deficiency is a key treatable comorbidity in heart failure—even without anemia: low iron impairs muscle and cardiac energetics, worsening symptoms and outcomes, so intravenous iron improves exercise capacity in iron-deficient HFrEF patients.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
