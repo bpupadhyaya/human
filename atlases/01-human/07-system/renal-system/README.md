@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Renal cell carcinoma is the principal cancer of the renal system: arising from tubular epithelium, it can secrete erythropoietin or renin (paraneoplastic syndromes) and presents late with hematuria or a mass—turning the kidney's own physiology into its tumor's behavior."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "Podocytes are the renal system's filtration gatekeepers: their interlocking foot processes form the slit diaphragm that holds protein back, so podocyte injury causes proteinuria and nephrotic syndrome—a frequent first step toward chronic kidney disease."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Renin launches the renal system's blood-pressure axis: juxtaglomerular cells release it when renal perfusion or sodium falls, triggering angiotensin and aldosterone to retain salt and water—so the kidney is the body's master regulator of volume and pressure."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium handling is the renal system's central task: the nephron filters and precisely reabsorbs sodium to set extracellular volume and blood pressure, so disordered renal sodium balance drives both hypertension and edema, and is the target of most diuretics."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -198,6 +207,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Erythropoietin](../../03-molecular/erythropoietin/README.md) — the renal system is an endocrine organ: peritubular cells sense low oxygen and secrete EPO to drive red-cell production, so kidney disease causes anemia while EPO excess causes polycythemia.
 - **Connects to:** [Potassium](../../02-atomic/potassium/README.md) — potassium balance is a core renal job: the kidney tunes K+ excretion under aldosterone, so renal failure causes hyperkalemia while diuretics cause hypokalemia—shifts that can stop the heart.
 - **Connects to:** [Renal Cell Carcinoma](../renal-cell-carcinoma/README.md) — the principal cancer of the renal system: arising from tubular epithelium, it can secrete erythropoietin or renin (paraneoplastic) and presents late with hematuria or a mass.
+- **Connects to:** [Podocyte](../../04-cellular/podocyte/README.md) — podocytes are the renal system's filtration gatekeepers: their foot processes form the slit diaphragm that holds protein back, so podocyte injury causes proteinuria and nephrotic syndrome, a frequent first step toward CKD.
+- **Connects to:** [Renin](../../03-molecular/renin/README.md) — renin launches the renal system's blood-pressure axis: juxtaglomerular cells release it when perfusion or sodium falls, triggering angiotensin and aldosterone to retain salt and water—making the kidney the master regulator of volume and pressure.
+- **Connects to:** [Sodium](../../02-atomic/sodium/README.md) — sodium handling is the renal system's central task: the nephron filters and reabsorbs sodium to set extracellular volume and blood pressure, so disordered renal sodium balance drives hypertension and edema and is the target of most diuretics.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

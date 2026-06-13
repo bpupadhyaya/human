@@ -81,6 +81,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "PTSD and fibromyalgia are tightly linked through chronic stress: trauma and HPA-axis dysregulation promote central sensitization, so fibromyalgia is far more common in PTSD—evidence that psychological trauma can manifest as bodily pain."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "PTSD reflects a tipped excitatory-inhibitory balance: deficient GABAergic inhibition leaves fear circuits hyperexcitable, underlying hyperarousal and intrusive memories, which is why benzodiazepines that boost GABA paradoxically tend to worsen long-term PTSD."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep disturbance is a core feature of PTSD, not just a symptom: nightmares and insomnia are diagnostic criteria and can precede and perpetuate the disorder, and treating the insomnia (e.g., with prazosin or CBT-I) improves overall PTSD outcomes."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "PTSD and cannabis use disorder feed each other: many with PTSD use cannabis to dampen hyperarousal and insomnia, but tolerance and withdrawal worsen the symptoms it masks, so this common self-treatment readily slides into dependence."
 ---
 
 # PTSD
@@ -237,6 +246,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — PTSD and panic disorder share a hyperactive fear response but differ in trigger: both feature surges of autonomic arousal, but panic attacks come 'out of the blue' while PTSD's are cued by trauma reminders—and panic commonly complicates PTSD.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — PTSD and bipolar disorder frequently co-occur and worsen each other: trauma raises bipolar risk, comorbid PTSD predicts more mood episodes and suicidality, and overlapping irritability and arousal can blur diagnosis—so screening for trauma is part of bipolar assessment.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — PTSD and fibromyalgia are tightly linked through chronic stress: trauma and HPA-axis dysregulation promote central sensitization, so fibromyalgia is far more common in PTSD—evidence that psychological trauma can manifest as bodily pain.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — PTSD reflects a tipped excitatory-inhibitory balance: deficient GABAergic inhibition leaves fear circuits hyperexcitable, underlying hyperarousal and intrusive memories, which is why benzodiazepines that boost GABA paradoxically tend to worsen long-term PTSD.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disturbance is a core feature of PTSD, not just a symptom: nightmares and insomnia are diagnostic criteria and can precede and perpetuate the disorder, and treating the insomnia (e.g., with prazosin or CBT-I) improves overall PTSD outcomes.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — PTSD and cannabis use disorder feed each other: many with PTSD use cannabis to dampen hyperarousal and insomnia, but tolerance and withdrawal worsen the symptoms it masks, so this common self-treatment readily slides into dependence.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
