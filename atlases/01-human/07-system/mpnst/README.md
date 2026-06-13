@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 loss drives malignant transformation to MPNST: a benign neurofibroma becomes MPNST as NF1 loss is joined by CDKN2A and TP53 inactivation, so accumulating tumor-suppressor hits convert a slow plexiform tumor into an aggressive sarcoma."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy helps treat MPNST, a radioresistant sarcoma: arising along nerves often near the spine or skull base, MPNST needs high radiation doses, so protons' sharp dose falloff allows dose escalation while sparing the spinal cord and nearby organs."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "MPNST is the malignant sarcoma of the peripheral nervous system: it arises from nerve-sheath (Schwann) cells, often from a pre-existing neurofibroma in NF1, so rapid growth or new pain in a neurofibroma signals possible malignant transformation."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "MPNST relies on VEGF-driven angiogenesis: like other aggressive sarcomas it secretes VEGF to vascularize its fast-growing mass, so anti-angiogenic tyrosine-kinase inhibitors are among the systemic options for this chemoresistant tumor."
 ---
 
 # MPNST
@@ -231,6 +240,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — MPNST grows from and destroys peripheral nerves: this aggressive sarcoma arises from Schwann-cell-lineage cells of a nerve sheath, often transforming a plexiform neurofibroma, so it invades along nerves causing pain and deficits as it engulfs the neurons it surrounds.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — MPNST is a spindle-cell sarcoma resembling fibroblasts: its fascicles of spindle cells can mimic fibrosarcoma, so diagnosis leans on nerve origin, NF1 context and loss of H3K27me3 (from PRC2/SUZ12 loss) rather than appearance alone.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss drives malignant transformation to MPNST: a benign neurofibroma becomes MPNST as NF1 loss is joined by CDKN2A and TP53 inactivation, so accumulating tumor-suppressor hits convert a slow plexiform tumor into an aggressive sarcoma.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy helps treat MPNST, a radioresistant sarcoma: arising along nerves often near the spine or skull base, MPNST needs high radiation doses, so protons' sharp dose falloff allows dose escalation while sparing the spinal cord and nearby organs.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — MPNST is the malignant sarcoma of the peripheral nervous system: it arises from nerve-sheath (Schwann) cells, often from a pre-existing neurofibroma in NF1, so rapid growth or new pain in a neurofibroma signals possible malignant transformation.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MPNST relies on VEGF-driven angiogenesis: like other aggressive sarcomas it secretes VEGF to vascularize its fast-growing mass, so anti-angiogenic tyrosine-kinase inhibitors are among the systemic options for this chemoresistant tumor.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

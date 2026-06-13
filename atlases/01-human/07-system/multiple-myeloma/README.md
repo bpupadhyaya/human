@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Multiple myeloma and DLBCL are B-lineage cancers at opposite maturation ends: DLBCL is an aggressive nodal large B-cell lymphoma, myeloma a marrow plasma-cell tumor secreting monoclonal protein—and rarely a plasmablastic lymphoma blurs the line between them."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Anemia is a defining feature of multiple myeloma: plasma cells crowd the marrow and their cytokines suppress red-cell production, so falling hemoglobin (one of the CRAB criteria) is a common presenting sign alongside bone pain and renal failure."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Multiple myeloma cripples the immune system: as it expands one plasma-cell clone, normal antibody production collapses (immunoparesis), so recurrent infection is a top cause of death—and CD38-targeting and T-cell therapies now turn immunity back against the tumor."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Multiple myeloma is the malignant end of the B-cell lineage of the lymphatic system: it arises from plasma cells—the antibody factories that B cells become—so it produces a monoclonal immunoglobulin (M-protein) while crowding out normal immunity."
 ---
 
 # Multiple Myeloma
@@ -236,6 +245,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Multiple myeloma is the malignant end of B-cell maturation: it arises when a B cell becomes a clonal plasma cell, evolving from MGUS through smoldering myeloma—a step beyond the B cell, secreting monoclonal immunoglobulin instead of fighting infection.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Myeloma hijacks osteoclasts to destroy bone: malignant plasma cells secrete RANKL and cytokines that overactivate osteoclasts while suppressing osteoblasts, carving the punched-out lytic lesions, hypercalcemia and fractures that define myeloma bone disease.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Multiple myeloma and DLBCL are B-lineage cancers at opposite maturation ends: DLBCL is an aggressive nodal large B-cell lymphoma, myeloma a marrow plasma-cell tumor secreting monoclonal protein—and rarely a plasmablastic lymphoma blurs the line between them.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia is a defining feature of multiple myeloma: plasma cells crowd the marrow and their cytokines suppress red-cell production, so falling hemoglobin (one of the CRAB criteria) is a common presenting sign alongside bone pain and renal failure.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Multiple myeloma cripples the immune system: as it expands one plasma-cell clone, normal antibody production collapses (immunoparesis), so recurrent infection is a top cause of death—and CD38-targeting and T-cell therapies now turn immunity back against the tumor.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Multiple myeloma is the malignant end of the B-cell lineage of the lymphatic system: it arises from plasma cells—the antibody factories that B cells become—so it produces a monoclonal immunoglobulin (M-protein) while crowding out normal immunity.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
