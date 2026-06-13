@@ -58,6 +58,15 @@ cross_links:
   - target: 03-medicine/01-modern/11-biologics/adalimumab
     relation: treated-by
     note: "Adalimumab (anti-TNFα) is first-line biologic for MTX-inadequate RA; ARMADA trial: ACR50 59% vs 24% at 24 weeks; inhibits radiographic progression; mTNFα reverse signaling induces IL-10; TB screening mandatory before initiation (3-25× TB reactivation risk)."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Rheumatoid and psoriatic arthritis are the two major inflammatory arthritides but contrast: RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints, while PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP disease, and psoriasis."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Rheumatoid arthritis is the commonest disease complicated by secondary Sjögren's syndrome: chronic autoimmune inflammation extends to lacrimal and salivary glands, causing dry eyes and mouth (sicca), so RA patients are screened for the overlap."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Synovial fibroblasts are active drivers, not bystanders, of rheumatoid arthritis: activated fibroblast-like synoviocytes form the invasive pannus and secrete proteases and cytokines that erode cartilage and bone, behaving almost tumor-like—a therapeutic target."
 ---
 
 # Rheumatoid Arthritis
@@ -213,6 +222,9 @@ RA patients have:
 - `treated-by` → **[Ibuprofen](../../../03-medicine/01-modern/12-anti-inflammatory/ibuprofen/README.md)** — NSAIDs including ibuprofen reduce COX-2-driven synovial PGE₂ → less joint pain, swelling, and stiffness; adjuncts to DMARDs; reduce RA symptoms but not radiographic progression; long-term use requires GI prophylaxis (PPI).
 - `treated-by` → **[Corticosteroids](../../../03-medicine/01-modern/02-respiratory/corticosteroids/README.md)** — Prednisolone bridge therapy (5–10 mg/day) while DMARDs take effect (8–12 weeks latency); reduces radiographic progression in early RA (COBRA, BeSt trials); long-term use requires osteoporosis prophylaxis (bisphosphonate + calcium/vitamin D).
 - `treated-by` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — fully human anti-TNFα IgG1 biologic; first-line for MTX-inadequate RA; ARMADA trial: ACR50 59% vs 24% at 24 weeks; halts radiographic progression; TB screening mandatory before initiation; concomitant MTX reduces immunogenicity.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Rheumatoid and psoriatic arthritis are the two major inflammatory arthritides but contrast: RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints, while PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP disease, and psoriasis.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Rheumatoid arthritis is the commonest disease complicated by secondary Sjögren's syndrome: chronic autoimmune inflammation extends to lacrimal and salivary glands, causing dry eyes and mouth (sicca), so RA patients are screened for the overlap.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Synovial fibroblasts are active drivers, not bystanders, of rheumatoid arthritis: activated fibroblast-like synoviocytes form the invasive pannus and secrete proteases and cytokines that erode cartilage and bone, behaving almost tumor-like—a therapeutic target.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
