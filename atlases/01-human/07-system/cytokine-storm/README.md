@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Cytokine storm erupts in autoimmune disease as macrophage activation syndrome: in rheumatoid/Still's disease, uncontrolled macrophage and T-cell activation floods cytokines (high ferritin, falling counts)—the same IL-1/IL-6 biology, treated with the same blockers."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "ARDS is the lung's expression of a cytokine storm: flooding inflammatory mediators damage the alveolar-capillary barrier, so the storm's pulmonary endpoint—diffuse alveolar damage and refractory hypoxemia—is what most often kills in severe COVID, flu and sepsis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial cells are both victim and amplifier of cytokine storm: the inflammatory surge makes vessels leaky and prothrombotic, so capillary leak, edema and microthrombi—not the infection alone—drive the shock and multi-organ failure of severe hyperinflammation."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK inhibition is a key brake on cytokine storm: many storm cytokines (IL-6, interferon-gamma) signal through the JAK-STAT pathway, so JAK inhibitors like baricitinib—and IL-6 blockers—dampen the runaway loop, improving survival in severe COVID-19."
 ---
 
 # Cytokine Storm
@@ -190,6 +199,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 inflammasome ignites cytokine storms: sensing infection or cell damage, it activates caspase-1 to release IL-1 and IL-18, amplifying the self-reinforcing cascade—so inflammasome and IL-1 blockade (anakinra) treat severe hyperinflammation.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Failed NK/cytotoxic killing triggers the worst cytokine storms: in HLH, defective natural killer and CD8 cells cannot clear activated immune cells, so persistent antigen drives runaway macrophage activation—why HLH is lethal without immunosuppression.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Cytokine storm erupts in autoimmune disease as macrophage activation syndrome: in rheumatoid/Still's disease, uncontrolled macrophage and T-cell activation floods cytokines (high ferritin, falling counts)—the same IL-1/IL-6 biology, treated with the same blockers.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — ARDS is the lung's expression of a cytokine storm: flooding inflammatory mediators damage the alveolar-capillary barrier, so the storm's pulmonary endpoint—diffuse alveolar damage and refractory hypoxemia—is what most often kills in severe COVID, flu and sepsis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial cells are both victim and amplifier of cytokine storm: the inflammatory surge makes vessels leaky and prothrombotic, so capillary leak, edema and microthrombi—not the infection alone—drive the shock and multi-organ failure of severe hyperinflammation.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibition is a key brake on cytokine storm: many storm cytokines (IL-6, interferon-gamma) signal through the JAK-STAT pathway, so JAK inhibitors like baricitinib—and IL-6 blockers—dampen the runaway loop, improving survival in severe COVID-19.
 
 ## Pathology
 

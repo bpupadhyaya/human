@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Dengue suppresses the bone marrow: the virus infects marrow progenitors and dampens production, causing the falling platelet and white-cell counts that define and grade the illness—so cytopenias track severity and signal the risk of hemorrhage."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells help drive severe dengue: cross-reactive memory T cells from a prior dengue serotype respond suboptimally on reinfection, releasing cytokines that worsen vascular leak—part of why a second, different-serotype infection is the dangerous one."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Dengue's danger is immunological: antibodies from a first infection can enhance uptake of a second serotype (antibody-dependent enhancement), amplifying viral load and the immune overreaction that causes plasma leak—so prior immunity paradoxically raises severe-dengue risk."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Dengue can invade the nervous system: beyond classic fever and bleeding, the virus and its immune response cause encephalitis, Guillain-Barré-like syndromes and stroke, so neurological dengue is an increasingly recognized severe manifestation."
 ---
 
 # Dengue Fever
@@ -211,3 +220,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Dengue virus](../../../02-pathogen/01-viruses/dengue-virus/README.md)** — Dengue virus drives the disease through four serotypes: infection gives lasting immunity to one serotype but only brief cross-protection, so later infection by a different serotype risks severe dengue—the serotype diversity central to the virus's danger.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Pre-existing IgG can worsen dengue via antibody-dependent enhancement: non-neutralizing antibodies from a prior serotype bind the new virus and ferry it into macrophages, boosting viral load—why second heterotypic infections cause severe, hemorrhagic dengue.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Dengue suppresses the bone marrow: the virus infects marrow progenitors and dampens production, causing the falling platelet and white-cell counts that define and grade the illness—so cytopenias track severity and signal the risk of hemorrhage.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells help drive severe dengue: cross-reactive memory T cells from a prior dengue serotype respond suboptimally on reinfection, releasing cytokines that worsen vascular leak—part of why a second, different-serotype infection is the dangerous one.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Dengue's danger is immunological: antibodies from a first infection can enhance uptake of a second serotype (antibody-dependent enhancement), amplifying viral load and the immune overreaction that causes plasma leak—so prior immunity paradoxically raises severe-dengue risk.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Dengue can invade the nervous system: beyond classic fever and bleeding, the virus and its immune response cause encephalitis, Guillain-Barré-like syndromes and stroke, so neurological dengue is an increasingly recognized severe manifestation.
