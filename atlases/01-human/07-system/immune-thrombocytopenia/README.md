@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "ITP is often secondary to systemic lupus erythematosus: thrombocytopenia is a diagnostic criterion for SLE and can be its presenting feature; ITP plus autoimmune hemolytic anemia is termed Evans syndrome, so new-onset ITP warrants screening for connective-tissue disease."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Hepatitis C is a leading cause of secondary immune thrombocytopenia: the virus drives anti-platelet antibodies and immune-complex clearance (with hypersplenism and low thrombopoietin), so HCV testing is routine in new ITP and antiviral cure often raises the platelet count."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "Immune thrombocytopenia is a classic autoimmune complication of CLL: the dysregulated malignant B cells break tolerance and drive anti-platelet antibodies, producing thrombocytopenia out of proportion to marrow infiltration; it responds to steroids, rituximab or treating the CLL."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "ITP is not just platelet destruction but impaired production: anti-platelet antibodies also damage bone-marrow megakaryocytes and blunt output, and thrombopoietin is inappropriately low—why TPO-receptor agonists (eltrombopag, romiplostim) that stimulate megakaryocytes work."
 ---
 
 # Immune Thrombocytopenia
@@ -209,6 +218,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Immune thrombocytopenia and IgA nephropathy are both antibody-mediated autoimmune diseases: ITP from anti-platelet IgG driving splenic destruction, IgAN from galactose-deficient IgA1 immune complexes in the kidney — distinct antigens, but both respond to B-cell-directed therapy.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Autoreactive B cells are the source of ITP's anti-platelet antibodies, so B-cell depletion with rituximab (anti-CD20) raises platelet counts in ~60% of patients; splenic B cells are a major antibody factory, part of why splenectomy works — both attack the antibody supply.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — ITP is often secondary to systemic lupus erythematosus: thrombocytopenia is a diagnostic criterion for SLE and can be its presenting feature; ITP plus autoimmune hemolytic anemia is termed Evans syndrome, so new-onset ITP warrants screening for connective-tissue disease.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hepatitis C is a leading cause of secondary immune thrombocytopenia: the virus drives anti-platelet antibodies and immune-complex clearance (with hypersplenism and low thrombopoietin), so HCV testing is routine in new ITP and antiviral cure often raises the platelet count.
+- `connects-to` → **[CLL](../cll/README.md)** — Immune thrombocytopenia is a classic autoimmune complication of CLL: the dysregulated malignant B cells break tolerance and drive anti-platelet antibodies, producing thrombocytopenia out of proportion to marrow infiltration; it responds to steroids, rituximab or treating the CLL.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — ITP is not just platelet destruction but impaired production: anti-platelet antibodies also damage bone-marrow megakaryocytes and blunt output, and thrombopoietin is inappropriately low—why TPO-receptor agonists (eltrombopag, romiplostim) that stimulate megakaryocytes work.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "IL-17A is elevated in IBD mucosa but anti-IL-17A therapy (secukinumab) paradoxically worsens IBD in AS/PsA patients; gut epithelial IL-17A may protect barrier integrity; this dual role distinguishes mucosal IL-17A function from systemic Th17 pathogenicity."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The large intestine is the core target in inflammatory bowel disease: ulcerative colitis causes continuous mucosal inflammation from the rectum proximally while Crohn's can produce patchy transmural colitis; this drives bloody diarrhea, urgency and colorectal-cancer risk."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Long-standing colonic IBD is a major risk factor for colorectal cancer: chronic inflammation drives a dysplasia-carcinoma sequence distinct from sporadic CRC, so patients with extensive UC or Crohn's colitis need surveillance colonoscopy with biopsies after ~8-10 years."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "IBD and ankylosing spondylitis overlap on the spondyloarthritis spectrum: they share IL-23/Th17 biology and HLA-B27 background, axial arthritis is a common extraintestinal feature of IBD, and TNF and IL-23 blockers treat both—though IL-17 inhibitors can paradoxically flare IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -199,6 +208,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — H4R on mucosal mast cells and Tregs modulates gut inflammation; enterochromaffin-like cells secrete histamine → parietal HCl; H1R/H4R amplify epithelial cytokine release; H4R blockade reduces experimental colitis; histamine levels correlate with IBD disease activity.
 - `treated-by` → **[Adalimumab](../../../03-medicine/01-modern/11-biologics/adalimumab/README.md)** — approved for Crohn's disease (CHARM trial: 36% vs 12% 52-week remission) and ulcerative colitis (ULTRA-2: 16.5% vs 9.3%); blocks mucosal macrophage TNFα → reduces epithelial apoptosis; perianal fistula closure benefit; induction and maintenance approved.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A is elevated in IBD mucosa but anti-IL-17A therapy (secukinumab) paradoxically worsens IBD in AS/PsA patients; gut epithelial IL-17A may protect barrier integrity; this dual role distinguishes mucosal IL-17A function from systemic Th17 pathogenicity.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is the core target in inflammatory bowel disease: ulcerative colitis causes continuous mucosal inflammation from the rectum proximally while Crohn's can produce patchy transmural colitis; this drives bloody diarrhea, urgency and colorectal-cancer risk.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Long-standing colonic IBD is a major risk factor for colorectal cancer: chronic inflammation drives a dysplasia-carcinoma sequence distinct from sporadic CRC, so patients with extensive UC or Crohn's colitis need surveillance colonoscopy with biopsies after ~8-10 years.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — IBD and ankylosing spondylitis overlap on the spondyloarthritis spectrum: they share IL-23/Th17 biology and HLA-B27 background, axial arthritis is a common extraintestinal feature of IBD, and TNF and IL-23 blockers treat both—though IL-17 inhibitors can paradoxically flare IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
