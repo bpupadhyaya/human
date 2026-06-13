@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Schizophrenia involves oligodendrocyte and white-matter abnormalities, not just neurons: fewer oligodendrocytes and disrupted myelination impair long-range connectivity, supporting a 'dysconnectivity' model where faulty wiring underlies the illness."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF deficits link schizophrenia to disrupted neurodevelopment: reduced brain-derived neurotrophic factor impairs synaptic plasticity and cortical circuit maturation, fitting the neurodevelopmental model in which schizophrenia's roots predate its psychotic onset by years."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Cannabis use can precipitate and worsen schizophrenia: heavy adolescent use raises the risk of developing psychosis and triggers relapse in patients, since THC perturbs the dopamine and endocannabinoid systems—so cannabis avoidance is part of schizophrenia management."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Acetylcholine is an emerging schizophrenia target beyond dopamine: muscarinic agonists (xanomeline) improve psychosis without blocking dopamine, so the cholinergic system shapes symptoms—a shift from the dopamine-only model of antipsychotic action."
 ---
 
 # Schizophrenia
@@ -263,6 +272,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Schizophrenia and depression overlap and can be hard to separate: depression often complicates schizophrenia and raises suicide risk, and the two share genetic and neurochemical substrates—so mood symptoms are assessed throughout the illness.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Schizophrenia and epilepsy are bidirectionally linked: each roughly doubles the risk of the other, temporal-lobe epilepsy can produce schizophrenia-like psychosis, and they share glutamate and GABA disturbances—genuinely overlapping disorders.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Schizophrenia involves oligodendrocyte and white-matter abnormalities, not just neurons: fewer oligodendrocytes and disrupted myelination impair long-range connectivity, supporting a 'dysconnectivity' model where faulty wiring underlies the illness.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF deficits link schizophrenia to disrupted neurodevelopment: reduced brain-derived neurotrophic factor impairs synaptic plasticity and cortical circuit maturation, fitting the neurodevelopmental model in which schizophrenia's roots predate its psychotic onset by years.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabis use can precipitate and worsen schizophrenia: heavy adolescent use raises the risk of developing psychosis and triggers relapse in patients, since THC perturbs the dopamine and endocannabinoid systems—so cannabis avoidance is part of schizophrenia management.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine is an emerging schizophrenia target beyond dopamine: muscarinic agonists (xanomeline) improve psychosis without blocking dopamine, so the cholinergic system shapes symptoms—a shift from the dopamine-only model of antipsychotic action.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
