@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/07-system/pcnsl
     relation: connects-to
     note: "Primary CNS lymphoma is an AIDS-defining malignancy of profound immunosuppression (CD4 <50/μL): unchecked Epstein-Barr virus drives a brain B-cell lymphoma, and restoring immunity with ART is central to treatment alongside methotrexate or radiation."
+  - target: 02-pathogen/01-viruses/hiv-1
+    relation: connects-to
+    note: "AIDS is the late stage of HIV-1 infection: years of unchecked viral replication deplete CD4 T cells below ~200/µL, collapsing cell-mediated immunity and opening the door to opportunistic infections and cancers; antiretroviral therapy suppressing HIV-1 prevents and can reverse it."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Cervical cancer is an AIDS-defining illness: HIV-driven immunosuppression lets oncogenic HPV persist and progress faster to invasive cancer, so women with HIV face markedly higher risk; antiretroviral therapy and HPV vaccination plus screening are key preventive measures."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "AIDS reflects the collapse of T-cell immunity: as CD4 helper cells fall, CD8+ cytotoxic T cells lose the help they need and become exhausted, so cell-mediated control of viruses, intracellular bacteria and tumors fails—explaining the opportunistic infections that define AIDS."
 ---
 
 # HIV/AIDS
@@ -174,6 +183,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — AIDS is defined by the loss of CD4+ T helper cells: as HIV drives their count below 200/μL, cell-mediated immunity collapses, opening the door to the opportunistic infections and cancers that define the syndrome; ART restores ~100-150 cells/μL per year.
 - `connects-to` → **[Pneumocystis jirovecii](../../../02-pathogen/03-fungi/pneumocystis-jirovecii/README.md)** — Pneumocystis jirovecii pneumonia (PCP) is the classic AIDS-defining infection, striking once CD4 falls below 200/μL: this fungus causes a diffuse interstitial pneumonia, treated and prevented with trimethoprim-sulfamethoxazole — prophylaxis started at that CD4 threshold.
 - `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Primary CNS lymphoma is an AIDS-defining malignancy of profound immunosuppression (CD4 <50/μL): unchecked Epstein-Barr virus drives a brain B-cell lymphoma, and restoring immunity with ART is central to treatment alongside methotrexate or radiation.
+- `connects-to` → **[Human Immunodeficiency Virus type 1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — AIDS is the late stage of HIV-1 infection: years of unchecked viral replication deplete CD4 T cells below ~200/µL, collapsing cell-mediated immunity and opening the door to opportunistic infections and cancers; antiretroviral therapy suppressing HIV-1 prevents and can reverse it.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Cervical cancer is an AIDS-defining illness: HIV-driven immunosuppression lets oncogenic HPV persist and progress faster to invasive cancer, so women with HIV face markedly higher risk; antiretroviral therapy and HPV vaccination plus screening are key preventive measures.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — AIDS reflects the collapse of T-cell immunity: as CD4 helper cells fall, CD8+ cytotoxic T cells lose the help they need and become exhausted, so cell-mediated control of viruses, intracellular bacteria and tumors fails—explaining the opportunistic infections that define AIDS.
 
 ## See Also
 
