@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "SMAD4-mutant juvenile polyposis characteristically floods the stomach with hamartomatous polyps — sometimes massive gastric polyposis causing bleeding, anemia, and protein-losing enteropathy — with elevated gastric cancer risk, so upper-GI surveillance is part of SMAD4-JPS care."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Gastric cancer is a major juvenile-polyposis risk, especially with SMAD4 mutations: hamartomatous gastric polyps accumulate dysplasia, giving JPS one of the highest hereditary gastric-cancer risks after hereditary diffuse gastric cancer—justifying surveillance and gastrectomy."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "Juvenile polyposis and MUTYH-associated polyposis are inherited polyposis syndromes raising colorectal-cancer risk but distinct: JPS makes hamartomatous polyps from SMAD4/BMPR1A defects, MAP makes adenomas from biallelic MUTYH repair loss—different polyps, shared surveillance."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Juvenile polyposis disrupts the intestinal epithelium's stromal signaling: SMAD4/BMPR1A loss impairs BMP signals that restrain crypt stem-cell expansion, so hamartomatous polyps with abundant lamina propria and dilated glands form—and dysplasia within them drives cancer risk."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -193,6 +202,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Juvenile polyposis and Lynch are both dominant hereditary colorectal cancer syndromes but opposite: JPS is TGF-β/BMP loss making many hamartomatous polyps, Lynch is mismatch-repair deficiency making few MSI-high adenocarcinomas — stromal overgrowth versus repair defect.
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Juvenile polyposis and FAP are both polyposis syndromes but with different polyps: JPS hamartomas have an edematous, cyst-rich stroma (TGF-β/BMP loss), FAP adenomas are purely dysplastic epithelium (APC loss); both stud the colon and need polypectomy, but histology differs.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — SMAD4-mutant juvenile polyposis characteristically floods the stomach with hamartomatous polyps — sometimes massive gastric polyposis causing bleeding, anemia, and protein-losing enteropathy — with elevated gastric cancer risk, so upper-GI surveillance is part of SMAD4-JPS care.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric cancer is a major juvenile-polyposis risk, especially with SMAD4 mutations: hamartomatous gastric polyps accumulate dysplasia, giving JPS one of the highest hereditary gastric-cancer risks after hereditary diffuse gastric cancer—justifying surveillance and gastrectomy.
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Juvenile polyposis and MUTYH-associated polyposis are inherited polyposis syndromes raising colorectal-cancer risk but distinct: JPS makes hamartomatous polyps from SMAD4/BMPR1A defects, MAP makes adenomas from biallelic MUTYH repair loss—different polyps, shared surveillance.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Juvenile polyposis disrupts the intestinal epithelium's stromal signaling: SMAD4/BMPR1A loss impairs BMP signals that restrain crypt stem-cell expansion, so hamartomatous polyps with abundant lamina propria and dilated glands form—and dysplasia within them drives cancer risk.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
