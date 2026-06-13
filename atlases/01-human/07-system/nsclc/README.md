@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/hnscc
     relation: connects-to
     note: "NSCLC and head and neck cancer share tobacco-driven field cancerization: carcinogens injure the whole aerodigestive tract, so smokers with one cancer face high risk of a second primary in the other—both demand smoking cessation and surveillance."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "MET is a targetable NSCLC driver: MET exon-14 skipping mutations and MET amplification drive a subset of non-small-cell lung cancers and confer resistance to EGFR inhibitors, so MET-directed drugs extend the precision-oncology toolkit beyond EGFR, ALK and KRAS."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal gland is a classic NSCLC metastatic site: lung cancer characteristically spreads to the adrenals (along with brain, bone and liver), so an adrenal mass in a lung-cancer patient demands staging workup—adrenal involvement often marks stage IV disease."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "NSCLC and COPD are linked by shared tobacco injury: smoking drives both, COPD independently raises lung-cancer risk through chronic inflammation, and the two coexist so often that emphysema complicates surgery and screening targets this overlapping high-risk population."
 ---
 
 # NSCLC
@@ -196,6 +205,9 @@ cross_links:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a frequent NSCLC metastatic site: lung adenocarcinomas, especially EGFR/ALK-driven, commonly seed the brain, so staging includes brain MRI and CNS-penetrant targeted drugs (osimertinib, lorlatinib)—brain metastases strongly shape prognosis.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-based tobacco carcinogens are the dominant cause of NSCLC: smoke's PAHs and nitrosamines form DNA adducts that mutate KRAS and TP53, driving most squamous and many adenocarcinomas—though EGFR-mutant adenocarcinoma in never-smokers takes a distinct path.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — NSCLC and head and neck cancer share tobacco-driven field cancerization: carcinogens injure the whole aerodigestive tract, so smokers with one cancer face high risk of a second primary in the other—both demand smoking cessation and surveillance.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET is a targetable NSCLC driver: MET exon-14 skipping mutations and MET amplification drive a subset of non-small-cell lung cancers and confer resistance to EGFR inhibitors, so MET-directed drugs extend the precision-oncology toolkit beyond EGFR, ALK and KRAS.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a classic NSCLC metastatic site: lung cancer characteristically spreads to the adrenals (along with brain, bone and liver), so an adrenal mass in a lung-cancer patient demands staging workup—adrenal involvement often marks stage IV disease.
+- `connects-to` → **[COPD](../copd/README.md)** — NSCLC and COPD are linked by shared tobacco injury: smoking drives both, COPD independently raises lung-cancer risk through chronic inflammation, and the two coexist so often that emphysema complicates surgery and screening targets this overlapping high-risk population.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
