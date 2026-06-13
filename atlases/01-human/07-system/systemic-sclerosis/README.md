@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "The gut is involved in most systemic sclerosis: fibrosis and smooth-muscle atrophy cause esophageal dysmotility and reflux, gastric antral vascular ectasia, small-bowel bacterial overgrowth, and pseudo-obstruction—a major source of morbidity beyond the skin."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Systemic sclerosis and rheumatoid arthritis are both systemic autoimmune connective-tissue diseases but differ in target: SSc is dominated by fibrosis and vasculopathy (skin, lung, gut), while RA is an inflammatory synovitis—though the two can overlap in some patients."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Systemic sclerosis is fundamentally a disease of excess collagen: TGF-β-activated fibroblasts overproduce and deposit collagen in skin, lung and other organs, hardening tissue and strangling small vessels—a structural protein becoming the agent of organ failure."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Vascular smooth muscle drives the vasculopathy of systemic sclerosis: endothelial injury and smooth-muscle proliferation narrow small arteries, producing Raynaud's, pulmonary hypertension and renal crisis—the vascular, not just fibrotic, face of the disease."
 ---
 
 # Systemic Sclerosis
@@ -197,6 +206,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Systemic sclerosis and lupus are both ANA-positive connective tissue diseases that can overlap as mixed connective tissue disease: SSc is dominated by fibrosis (anti-Scl-70), lupus by immune-complex inflammation (anti-dsDNA), but both share Raynaud's and interferon.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Systemic sclerosis and dermatomyositis overlap in scleromyositis: some patients have both skin fibrosis and inflammatory myopathy, marked by anti-PM/Scl antibodies, so muscle weakness in a scleroderma patient prompts evaluation for a myositis overlap.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut is involved in most systemic sclerosis: fibrosis and smooth-muscle atrophy cause esophageal dysmotility and reflux, gastric antral vascular ectasia, small-bowel bacterial overgrowth, and pseudo-obstruction—a major source of morbidity beyond the skin.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Systemic sclerosis and rheumatoid arthritis are both systemic autoimmune connective-tissue diseases but differ in target: SSc is dominated by fibrosis and vasculopathy (skin, lung, gut), while RA is an inflammatory synovitis—though the two can overlap in some patients.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Systemic sclerosis is fundamentally a disease of excess collagen: TGF-β-activated fibroblasts overproduce and deposit collagen in skin, lung and other organs, hardening tissue and strangling small vessels—a structural protein becoming the agent of organ failure.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Vascular smooth muscle drives the vasculopathy of systemic sclerosis: endothelial injury and smooth-muscle proliferation narrow small arteries, producing Raynaud's, pulmonary hypertension and renal crisis—the vascular, not just fibrotic, face of the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

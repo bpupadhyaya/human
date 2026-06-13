@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Lupus can trigger or mimic TTP: SLE may produce acquired ADAMTS13 deficiency or a TTP-like thrombotic microangiopathy, and the two share features (hemolysis, low platelets, neuro/renal signs), so a lupus flare with schistocytes demands urgent ADAMTS13 testing."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "TTP can present as stroke: ADAMTS13 deficiency lets VWF-platelet microthrombi lodge in the cerebral microvasculature, causing fluctuating confusion and focal deficits—so an unexplained stroke with thrombocytopenia and hemolysis should trigger urgent TTP work-up."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "TTP and catastrophic antiphospholipid syndrome are both thrombotic microangiopathies occluding small vessels: TTP from ADAMTS13 deficiency, CAPS from antiphospholipid antibodies—overlapping clinically, so antibody testing helps separate these emergencies."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV is a recognized cause of secondary TTP: the infection can trigger ADAMTS13 autoantibodies, producing thrombotic microangiopathy—so a new TTP diagnosis warrants HIV testing, and antiretroviral therapy plus plasma exchange treats the HIV-associated form."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -238,6 +247,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — TTP and immune thrombocytopenia both cause severe thrombocytopenia but differ: ITP is antibody-mediated platelet destruction without hemolysis, while TTP adds microangiopathic hemolysis and organ ischemia from ADAMTS13 deficiency—an emergency needing plasma exchange.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — TTP and DIC both produce thrombocytopenia and schistocytes but are distinguished by coagulation tests: DIC consumes clotting factors and prolongs PT/PTT with high D-dimer, while TTP leaves coagulation times normal—because its clots are platelet-VWF, not fibrin.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus can trigger or mimic TTP: SLE may produce acquired ADAMTS13 deficiency or a TTP-like thrombotic microangiopathy, and the two share features (hemolysis, low platelets, neuro/renal signs), so a lupus flare with schistocytes demands urgent ADAMTS13 testing.
+- `connects-to` → **[Stroke](../stroke/README.md)** — TTP can present as stroke: ADAMTS13 deficiency lets VWF-platelet microthrombi lodge in the cerebral microvasculature, causing fluctuating confusion and focal deficits—so an unexplained stroke with thrombocytopenia and hemolysis should trigger urgent TTP work-up.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — TTP and catastrophic antiphospholipid syndrome are both thrombotic microangiopathies occluding small vessels: TTP from ADAMTS13 deficiency, CAPS from antiphospholipid antibodies—overlapping clinically, so antibody testing helps separate these emergencies.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a recognized cause of secondary TTP: the infection can trigger ADAMTS13 autoantibodies, producing thrombotic microangiopathy—so a new TTP diagnosis warrants HIV testing, and antiretroviral therapy plus plasma exchange treats the HIV-associated form.
 
 ---
 
