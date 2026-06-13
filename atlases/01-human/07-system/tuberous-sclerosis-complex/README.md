@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "The brain defines tuberous sclerosis morbidity: cortical tubers and subependymal nodules form in utero, driving epilepsy (80-90%, often infantile spasms) and neuropsychiatric disorders; a subependymal giant-cell astrocytoma can obstruct CSF, and everolimus shrinks SEGAs."
+  - target: 01-human/07-system/neurofibromatosis-type-1
+    relation: connects-to
+    note: "Tuberous sclerosis and NF1 are neurocutaneous syndromes converging on mTOR: NF1's neurofibromin restrains RAS upstream of mTOR, while TSC1/TSC2 loss directly unleashes mTOR—so both cause skin lesions, brain tumors, and seizures, and respond to mTOR-axis drugs."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Cardiac rhabdomyoma is the hallmark fetal tumor of tuberous sclerosis: benign mTOR-driven masses of glycogen-laden cardiomyocytes often appear before birth, are frequently the first clue to TSC on prenatal ultrasound, and typically regress spontaneously after infancy."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Smooth-muscle proliferation underlies two classic TSC tumors: renal angiomyolipomas and pulmonary lymphangioleiomyomatosis (LAM) are mTOR-driven smooth-muscle-like (PEComa) cells, so LAM causes cystic lung destruction in women with TSC and is treated with sirolimus."
 ---
 
 # Tuberous Sclerosis Complex
@@ -203,6 +212,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Tuberous sclerosis and von Hippel-Lindau are both dominant phakomatosis syndromes making multi-organ hamartomas via a second hit, but differ in pathway: TSC1/TSC2 loss unleashes mTORC1 growth while VHL loss unleashes HIF-driven angiogenesis — both converging on renal tumors.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin gives away tuberous sclerosis: hypomelanotic ash-leaf macules, facial angiofibromas, shagreen patches, and periungual fibromas are major diagnostic criteria appearing across childhood — mTOR-driven hamartomatous overgrowth that topical sirolimus now treats.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain defines tuberous sclerosis morbidity: cortical tubers and subependymal nodules form in utero, driving epilepsy (80-90%, often infantile spasms) and neuropsychiatric disorders; a subependymal giant-cell astrocytoma can obstruct CSF, and everolimus shrinks SEGAs.
+- `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Tuberous sclerosis and NF1 are neurocutaneous syndromes converging on mTOR: NF1's neurofibromin restrains RAS upstream of mTOR, while TSC1/TSC2 loss directly unleashes mTOR—so both cause skin lesions, brain tumors, and seizures, and respond to mTOR-axis drugs.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac rhabdomyoma is the hallmark fetal tumor of tuberous sclerosis: benign mTOR-driven masses of glycogen-laden cardiomyocytes often appear before birth, are frequently the first clue to TSC on prenatal ultrasound, and typically regress spontaneously after infancy.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Smooth-muscle proliferation underlies two classic TSC tumors: renal angiomyolipomas and pulmonary lymphangioleiomyomatosis (LAM) are mTOR-driven smooth-muscle-like (PEComa) cells, so LAM causes cystic lung destruction in women with TSC and is treated with sirolimus.
 
 ---
 

@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Uveal melanoma resists checkpoint inhibitors (ORR <5%, low mutational burden), so it engages cytotoxic T cells differently: tebentafusp, a gp100-HLA × CD3 bispecific, tethers CD8+ T cells to HLA-A*02:01 tumor cells — the first drug to improve survival in metastatic disease."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "Uveal melanoma and mesothelioma both define the BAP1 tumor predisposition syndrome: germline BAP1 loss raises risk of both, plus renal cell carcinoma and skin tumors, and BAP1 loss in a uveal melanoma marks the high-risk class with the worst metastatic prognosis."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "Uveal melanoma and NF2 converge on the Hippo pathway: NF2's Merlin restrains YAP, while uveal melanoma's GNAQ/GNA11 mutations activate YAP through Hippo—so both illustrate how unleashed YAP/TEAD drives growth, here in the pigmented cells of the eye."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is the eye-sparing mainstay for uveal melanoma: plaque brachytherapy and proton or photon beams deliver tumoricidal radiation to the choroidal tumor while preserving the globe—an alternative to enucleation, though metastatic risk depends on genetics."
 ---
 
 # Uveal Melanoma
@@ -200,6 +209,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Uveal melanoma is the commonest primary intraocular cancer in adults, from melanocytes of the uveal tract — choroid (~90%), ciliary body, or iris; it presents with painless vision change or floaters, and globe-sparing brachytherapy or proton therapy has replaced most enucleation.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is uveal melanoma's near-exclusive metastatic target: ~90% of metastases home there (the eye lacks lymphatics), often years after the eye is treated — so lifelong liver surveillance is essential, and liver-directed therapy plus tebentafusp are mainstays.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Uveal melanoma resists checkpoint inhibitors (ORR <5%, low mutational burden), so it engages cytotoxic T cells differently: tebentafusp, a gp100-HLA × CD3 bispecific, tethers CD8+ T cells to HLA-A*02:01 tumor cells — the first drug to improve survival in metastatic disease.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Uveal melanoma and mesothelioma both define the BAP1 tumor predisposition syndrome: germline BAP1 loss raises risk of both, plus renal cell carcinoma and skin tumors, and BAP1 loss in a uveal melanoma marks the high-risk class with the worst metastatic prognosis.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Uveal melanoma and NF2 converge on the Hippo pathway: NF2's Merlin restrains YAP, while uveal melanoma's GNAQ/GNA11 mutations activate YAP through Hippo—so both illustrate how unleashed YAP/TEAD drives growth, here in the pigmented cells of the eye.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is the eye-sparing mainstay for uveal melanoma: plaque brachytherapy and proton or photon beams deliver tumoricidal radiation to the choroidal tumor while preserving the globe—an alternative to enucleation, though metastatic risk depends on genetics.
 
 ---
 
