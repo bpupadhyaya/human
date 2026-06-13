@@ -55,6 +55,15 @@ cross_links:
   - target: 03-medicine/01-modern/09-hematology/warfarin
     relation: treated-by
     note: "Warfarin treats DVT/PE at INR 2.0–3.0 × 3–6 months for provoked VTE; indefinite for unprovoked high-risk; largely superseded by DOACs for most VTE; remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial injury is one arm of Virchow's triad driving VTE: damaged endothelium loses its antithrombotic surface (thrombomodulin, heparan sulfate) and exposes tissue factor and von Willebrand factor, nucleating clot—why surgery, inflammation and indwelling lines provoke it."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is where venous thromboembolism turns deadly: a deep-vein thrombus that breaks loose lodges in the pulmonary arteries as a pulmonary embolism, causing hypoxia, acute right-heart strain and sudden death; CT angiography diagnoses it and large clots may need thrombolysis."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Sickle cell disease is a strong, often overlooked VTE risk factor: chronic hemolysis, phosphatidylserine exposure and inflammation create a hypercoagulable state, so VTE and pulmonary embolism rates are markedly raised, overlapping with in-situ pulmonary vaso-occlusion."
 ---
 
 # Venous Thromboembolism
@@ -186,6 +195,9 @@ cross_links:
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Antithrombin deficiency (SERPINC1 mutations; 1:2,000-5,000) is the most severe inherited thrombophilia (25-50× lifetime VTE risk); UFH/LMWH efficacy requires AT → AT-deficient patients may need AT concentrate; functional AT assay needed for diagnosis.
 - `connects-to` → **[Hemophilia A](../hemophilia-a/README.md)** — Severe HA (FVIII <1%) confers significant VTE protection; historical VTE rate in HA ~0.5/1000 PY vs. ~1.5-3/1000 general population; emicizumab reconstitutes intrinsic tenase; avoid high-dose APCC with emicizumab → TMA; gene therapy raising FVIII >150% increases VTE risk.
 - `treated-by` → **[Warfarin](../../../03-medicine/01-modern/09-hematology/warfarin/README.md)** — Warfarin treats DVT/PE at INR 2.0–3.0 × 3–6 months for provoked VTE; indefinite for unprovoked high-risk; largely superseded by DOACs; remains first-line for antiphospholipid syndrome; LMWH bridging required at initiation.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial injury is one arm of Virchow's triad driving VTE: damaged endothelium loses its antithrombotic surface (thrombomodulin, heparan sulfate) and exposes tissue factor and von Willebrand factor, nucleating clot—why surgery, inflammation and indwelling lines provoke it.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is where venous thromboembolism turns deadly: a deep-vein thrombus that breaks loose lodges in the pulmonary arteries as a pulmonary embolism, causing hypoxia, acute right-heart strain and sudden death; CT angiography diagnoses it and large clots may need thrombolysis.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Sickle cell disease is a strong, often overlooked VTE risk factor: chronic hemolysis, phosphatidylserine exposure and inflammation create a hypercoagulable state, so VTE and pulmonary embolism rates are markedly raised, overlapping with in-situ pulmonary vaso-occlusion.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
