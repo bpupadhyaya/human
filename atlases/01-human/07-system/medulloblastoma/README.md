@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/rhabdomyosarcoma
     relation: connects-to
     note: "Medulloblastoma and rhabdomyosarcoma are both small-round-blue-cell embryonal tumors told apart by immunohistochemistry: medulloblastoma expresses neuronal markers (synaptophysin), rhabdomyosarcoma skeletal-muscle markers (desmin, myogenin)—same look, different lineage."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "SHH-subtype medulloblastoma is driven by Smoothened: PTCH1 loss or SMO activation unleashes hedgehog signaling, defining one of the four molecular groups, and SMO inhibitors like vismodegib target it—though resistance and growth-plate toxicity limit use in children."
+  - target: 01-human/03-molecular/mycn
+    relation: connects-to
+    note: "MYCN amplification marks high-risk medulloblastoma: in Group 3 and 4 tumors, amplified MYC/MYCN drives aggressive proliferation and poor prognosis, so molecular subgrouping—not just histology—now guides how intensively each child's tumor is treated."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Medulloblastoma can spread beyond the CNS to bone marrow: though it usually disseminates through cerebrospinal fluid along the neuraxis, this embryonal tumor occasionally metastasizes to bone and marrow—rare among brain tumors and a sign of aggressive disease."
 ---
 
 # Medulloblastoma
@@ -217,6 +226,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — Medulloblastoma links to FAP through Turcot syndrome: germline APC loss that drives colonic polyposis also activates Wnt/β-catenin in the cerebellum, producing WNT-subgroup medulloblastoma—the same pathway connecting a gut cancer syndrome to a brain tumor.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Medulloblastoma and neuroblastoma are both embryonal childhood tumors that look alike as 'small round blue cells' but differ in origin: medulloblastoma from cerebellar progenitors, neuroblastoma from peripheral sympathetic neuroblasts—CNS versus sympathetic chain.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Medulloblastoma and rhabdomyosarcoma are both small-round-blue-cell embryonal tumors told apart by immunohistochemistry: medulloblastoma expresses neuronal markers (synaptophysin), rhabdomyosarcoma skeletal-muscle markers (desmin, myogenin)—same look, different lineage.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — SHH-subtype medulloblastoma is driven by Smoothened: PTCH1 loss or SMO activation unleashes hedgehog signaling, defining one of the four molecular groups, and SMO inhibitors like vismodegib target it—though resistance and growth-plate toxicity limit use in children.
+- `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYCN amplification marks high-risk medulloblastoma: in Group 3 and 4 tumors, amplified MYC/MYCN drives aggressive proliferation and poor prognosis, so molecular subgrouping—not just histology—now guides how intensively each child's tumor is treated.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Medulloblastoma can spread beyond the CNS to bone marrow: though it usually disseminates through cerebrospinal fluid along the neuraxis, this embryonal tumor occasionally metastasizes to bone and marrow—rare among brain tumors and a sign of aggressive disease.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
