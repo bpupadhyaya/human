@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Psoriasis is the archetypal immune-mediated skin disease: Th17-derived IL-17A/IL-22 drive keratinocyte hyperproliferation → thickened scaly plaques with parakeratosis and acanthosis; epidermal turnover shortens from ~28 to ~4 days, and skin is the primary treated site."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Psoriasis and atopic dermatitis are the two major inflammatory skin diseases but immunologically opposite: psoriasis is Th17/IL-23-driven with sharp scaly plaques, while atopic dermatitis is Th2-driven with itchy, ill-defined eczema—dictating different biologics."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Psoriasis and inflammatory bowel disease share the IL-23/Th17 axis and co-occur: both respond to anti-IL-23 and anti-TNF biologics, though anti-IL-17 can paradoxically worsen Crohn's—so the shared pathway also constrains drug choice across the two diseases."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Psoriasis is an independent cardiovascular risk factor: chronic systemic Th17 inflammation accelerates atherosclerosis, so severe psoriasis raises heart attack and stroke risk beyond shared metabolic factors—and effective skin treatment may lower vascular inflammation."
 ---
 
 # Psoriasis
@@ -190,6 +199,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Psoriasis and AS sit on the spondyloarthritis spectrum, sharing the IL-23/Th17→IL-17A axis and responding to IL-17 (secukinumab, ixekizumab) and IL-23 blockade; ~20-30% of psoriasis patients develop inflammatory arthritis, and axial psoriatic arthritis overlaps with AS.
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Up to ~30% of plaque-psoriasis patients develop psoriatic arthritis, usually years after skin disease; both share the IL-23/Th17→IL-17A/TNF axis, so IL-17, IL-23 and TNF inhibitors treat skin and joints together; nail and scalp psoriasis flag higher PsA risk.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Psoriasis is the archetypal immune-mediated skin disease: Th17-derived IL-17A/IL-22 drive keratinocyte hyperproliferation → thickened scaly plaques with parakeratosis and acanthosis; epidermal turnover shortens from ~28 to ~4 days, and skin is the primary treated site.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Psoriasis and atopic dermatitis are the two major inflammatory skin diseases but immunologically opposite: psoriasis is Th17/IL-23-driven with sharp scaly plaques, while atopic dermatitis is Th2-driven with itchy, ill-defined eczema—dictating different biologics.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Psoriasis and inflammatory bowel disease share the IL-23/Th17 axis and co-occur: both respond to anti-IL-23 and anti-TNF biologics, though anti-IL-17 can paradoxically worsen Crohn's—so the shared pathway also constrains drug choice across the two diseases.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Psoriasis is an independent cardiovascular risk factor: chronic systemic Th17 inflammation accelerates atherosclerosis, so severe psoriasis raises heart attack and stroke risk beyond shared metabolic factors—and effective skin treatment may lower vascular inflammation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
