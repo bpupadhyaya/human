@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Cystic fibrosis-related diabetes is the commonest CF comorbidity in adults: progressive destruction of pancreatic islets by the same ductal disease that causes exocrine failure produces an insulin-deficient diabetes distinct from type 1 and type 2, worsening lung function."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The respiratory system bears the lethal burden of cystic fibrosis: defective CFTR chloride transport thickens airway mucus, causing impaired clearance, chronic infection, bronchiectasis, and respiratory failure—the leading cause of death, now eased by CFTR modulators."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Cystic fibrosis disrupts the entire digestive system: thick secretions block pancreatic ducts causing exocrine insufficiency and malabsorption, plug the bowel as meconium ileus in newborns, and thicken bile—so enzyme replacement and nutrition are central to CF care."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cystic fibrosis usually causes male infertility: nearly all men with CF have congenital bilateral absence of the vas deferens from CFTR dysfunction, so they are azoospermic despite normal sperm production—and isolated CBAVD can be the only sign of mild CFTR mutations."
 ---
 
 # Cystic Fibrosis
@@ -203,6 +212,9 @@ AND
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is a major target of cystic fibrosis: thick CFTR-deficient secretions plug pancreatic ducts → autodigestion and fibrosis → exocrine insufficiency (malabsorption, steatorrhea needing enzyme replacement) and, as islets are destroyed, CF-related diabetes.
 - `connects-to` → **[COPD](../copd/README.md)** — Cystic fibrosis and COPD are both chronic obstructive, neutrophil-driven airway diseases with mucus plugging and infective exacerbations, but differ in cause: CF is a monogenic CFTR channel defect from birth, COPD an acquired (usually smoking-driven) disease of later life.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Cystic fibrosis-related diabetes is the commonest CF comorbidity in adults: progressive destruction of pancreatic islets by the same ductal disease that causes exocrine failure produces an insulin-deficient diabetes distinct from type 1 and type 2, worsening lung function.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — The respiratory system bears the lethal burden of cystic fibrosis: defective CFTR chloride transport thickens airway mucus, causing impaired clearance, chronic infection, bronchiectasis, and respiratory failure—the leading cause of death, now eased by CFTR modulators.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cystic fibrosis disrupts the entire digestive system: thick secretions block pancreatic ducts causing exocrine insufficiency and malabsorption, plug the bowel as meconium ileus in newborns, and thicken bile—so enzyme replacement and nutrition are central to CF care.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cystic fibrosis usually causes male infertility: nearly all men with CF have congenital bilateral absence of the vas deferens from CFTR dysfunction, so they are azoospermic despite normal sperm production—and isolated CBAVD can be the only sign of mild CFTR mutations.
 
 ---
 

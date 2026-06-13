@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Renal cell carcinoma is part of the Cowden tumor spectrum: PTEN loss driving PI3K-AKT-mTOR raises the lifetime risk of (usually papillary or chromophobe) RCC alongside breast, thyroid and endometrial cancer, so renal imaging is part of PTEN-hamartoma-syndrome surveillance."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Cowden and Peutz-Jeghers are both hamartomatous tumor syndromes on different pathways: Cowden's PTEN loss unleashes PI3K/mTOR, causing hamartomas plus breast, thyroid, and endometrial cancer, while Peutz-Jeghers' STK11 loss causes GI hamartomas with mucocutaneous pigmentation."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Cowden syndrome and tuberous sclerosis are hamartoma syndromes converging on mTOR from opposite ends: Cowden's PTEN loss removes a brake upstream of mTOR, while TSC1/TSC2 loss directly unleashes it—so both cause hamartomas and respond to mTOR inhibitors."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin gives the earliest clues to Cowden syndrome: trichilemmomas (facial papules), oral papillomas, and acral keratoses are diagnostic mucocutaneous hamartomas of PTEN loss, often appearing before the breast and thyroid cancers—a dermatologist may diagnose it first."
 ---
 
 # Cowden Syndrome
@@ -255,6 +264,9 @@ cross_links:
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Cowden syndrome raises colorectal-cancer risk through PTEN hamartoma-tumor biology: PTEN loss disinhibits PI3K-AKT-mTOR in the colon, producing mixed hamartomatous, ganglioneuromatous and adenomatous polyps and increased colorectal-cancer risk, so colonoscopy is recommended.
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Cowden and juvenile polyposis are overlapping hamartomatous polyposis syndromes hard to separate: both produce GI hamartomatous polyps and cancer risk, but Cowden (PTEN) adds macrocephaly, trichilemmomas and breast/thyroid cancer, while JPS (SMAD4/BMPR1A) is more gut-confined.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Renal cell carcinoma is part of the Cowden tumor spectrum: PTEN loss driving PI3K-AKT-mTOR raises the lifetime risk of (usually papillary or chromophobe) RCC alongside breast, thyroid and endometrial cancer, so renal imaging is part of PTEN-hamartoma-syndrome surveillance.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Cowden and Peutz-Jeghers are both hamartomatous tumor syndromes on different pathways: Cowden's PTEN loss unleashes PI3K/mTOR, causing hamartomas plus breast, thyroid, and endometrial cancer, while Peutz-Jeghers' STK11 loss causes GI hamartomas with mucocutaneous pigmentation.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Cowden syndrome and tuberous sclerosis are hamartoma syndromes converging on mTOR from opposite ends: Cowden's PTEN loss removes a brake upstream of mTOR, while TSC1/TSC2 loss directly unleashes it—so both cause hamartomas and respond to mTOR inhibitors.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin gives the earliest clues to Cowden syndrome: trichilemmomas (facial papules), oral papillomas, and acral keratoses are diagnostic mucocutaneous hamartomas of PTEN loss, often appearing before the breast and thyroid cancers—a dermatologist may diagnose it first.
 
 ---
 
