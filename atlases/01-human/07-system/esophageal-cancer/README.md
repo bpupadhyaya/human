@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Both esophageal squamous and adenocarcinoma are immunotherapy-responsive: anti-PD-1 (nivolumab, pembrolizumab) reactivating cytotoxic CD8+ T cells is first-line with chemotherapy (CheckMate 648, KEYNOTE-590) and adjuvant after chemoradiation (CheckMate 577), per PD-L1 CPS."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity drives the rising incidence of esophageal adenocarcinoma: central adiposity promotes gastroesophageal reflux and metabolic inflammation → Barrett's metaplasia of the lower esophagus → adenocarcinoma; this contrasts with the squamous type tied to smoking and alcohol."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol is a primary cause of esophageal squamous cell carcinoma: acetaldehyde is a direct carcinogen (especially with ALDH2-deficiency flushing), synergizing strongly with tobacco; this contrasts with esophageal adenocarcinoma, which is driven instead by reflux and obesity."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Tobacco smoke is a shared carcinogen for both esophageal cancer types: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage esophageal DNA, raising risk of squamous cell carcinoma (with alcohol) and, to a lesser degree, adenocarcinoma; cessation lowers risk."
 ---
 
 # Esophageal Cancer
@@ -201,6 +210,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — Esophageal and head-and-neck squamous cell carcinomas share field cancerization from alcohol and tobacco: the whole aerodigestive squamous mucosa is mutagenized, so these cancers co-occur as second primaries, and both are TP53-driven tumors responsive to PD-1 blockade.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Esophageal adenocarcinoma blends into gastric cancer at the gastroesophageal junction, where Siewert-classified tumors are managed as one disease; chronic reflux drives Barrett metaplasia of the lower esophagus into adenocarcinoma, while the upper esophagus gives squamous cancer.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Both esophageal squamous and adenocarcinoma are immunotherapy-responsive: anti-PD-1 (nivolumab, pembrolizumab) reactivating cytotoxic CD8+ T cells is first-line with chemotherapy (CheckMate 648, KEYNOTE-590) and adjuvant after chemoradiation (CheckMate 577), per PD-L1 CPS.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity drives the rising incidence of esophageal adenocarcinoma: central adiposity promotes gastroesophageal reflux and metabolic inflammation → Barrett's metaplasia of the lower esophagus → adenocarcinoma; this contrasts with the squamous type tied to smoking and alcohol.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a primary cause of esophageal squamous cell carcinoma: acetaldehyde is a direct carcinogen (especially with ALDH2-deficiency flushing), synergizing strongly with tobacco; this contrasts with esophageal adenocarcinoma, which is driven instead by reflux and obesity.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Tobacco smoke is a shared carcinogen for both esophageal cancer types: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage esophageal DNA, raising risk of squamous cell carcinoma (with alcohol) and, to a lesser degree, adenocarcinoma; cessation lowers risk.
 
 ---
 
