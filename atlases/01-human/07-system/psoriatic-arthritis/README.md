@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Psoriatic arthritis clusters with type 2 diabetes in a metabolic-syndrome phenotype: shared systemic inflammation (TNF, IL-6) drives insulin resistance, so PsA patients have excess diabetes—screening for metabolic risk is part of comprehensive PsA care."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Synovial fibroblasts help drive the joint destruction of psoriatic arthritis: activated by IL-17/TNF, they proliferate, invade and erode cartilage and bone at inflamed joints and entheses—so fibroblast-driven tissue remodeling, not just immune cells, damages the joint."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Psoriatic arthritis can inflame the eye: as a spondyloarthritis, it predisposes to uveitis and conjunctivitis, so eye symptoms join the skin, nail and joint features—prompting ophthalmologic care alongside rheumatologic and dermatologic management."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Psoriatic arthritis raises cardiovascular risk through systemic inflammation: chronic IL-17/TNF inflammation accelerates atherosclerosis and pairs with obesity and metabolic syndrome, so heart attacks and strokes are excess causes of death in PsA."
 ---
 
 # Psoriatic Arthritis
@@ -245,6 +254,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Psoriatic arthritis and IBD belong to the same IL-23/Th17 spondyloarthritis family: both share gut-skin-joint inflammation and respond to IL-23 and TNF blockers—though IL-17 inhibitors that help PsA can paradoxically worsen IBD.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Psoriatic arthritis is strongly tied to obesity: adipose tissue is pro-inflammatory (TNF, IL-6, leptin), raising PsA risk and severity and blunting response to therapy, while weight loss improves disease control—so PsA is as much a metabolic as an immune disease.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Psoriatic arthritis clusters with type 2 diabetes in a metabolic-syndrome phenotype: shared systemic inflammation (TNF, IL-6) drives insulin resistance, so PsA patients have excess diabetes—screening for metabolic risk is part of comprehensive PsA care.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Synovial fibroblasts help drive the joint destruction of psoriatic arthritis: activated by IL-17/TNF, they proliferate, invade and erode cartilage and bone at inflamed joints and entheses—so fibroblast-driven tissue remodeling, not just immune cells, damages the joint.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Psoriatic arthritis can inflame the eye: as a spondyloarthritis, it predisposes to uveitis and conjunctivitis, so eye symptoms join the skin, nail and joint features—prompting ophthalmologic care alongside rheumatologic and dermatologic management.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Psoriatic arthritis raises cardiovascular risk through systemic inflammation: chronic IL-17/TNF inflammation accelerates atherosclerosis and pairs with obesity and metabolic syndrome, so heart attacks and strokes are excess causes of death in PsA.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
