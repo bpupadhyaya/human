@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells determine whether leishmaniasis is controlled or progresses: by presenting Leishmania antigen and producing IL-12, they steer CD4 cells toward a protective Th1/IFN-γ response, so impaired DC function tips toward Th2 and disseminated disease."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Leishmaniasis and tuberculosis are both chronic intracellular infections of the macrophage controlled by Th1 immunity: each hides inside the very cell meant to kill it, requiring IFN-γ-driven macrophage activation—so both flare in HIV."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells shape early defense against Leishmania: NK-derived IFN-γ helps polarize the protective Th1 response that activates infected macrophages to kill the parasite, so weak NK/Th1 immunity allows the visceral disease (kala-azar) to progress."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells let Leishmania persist: by dampening the protective Th1 response, Tregs allow the parasite to survive inside macrophages, contributing to chronic and relapsing infection and to reactivation in immunosuppression."
 ---
 
 # Leishmaniasis
@@ -181,3 +190,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Visceral leishmaniasis (kala-azar) is a reticuloendothelial disease with the liver a prime target: Leishmania-laden macrophages expand the liver and spleen, causing massive hepatosplenomegaly, while hypergammaglobulinemia and hypoalbuminemia reflect the parasite burden.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The bone marrow is invaded in visceral leishmaniasis: amastigote-laden macrophages crowd the marrow, causing pancytopenia (anemia, leukopenia, thrombocytopenia), and a marrow or splenic aspirate showing amastigotes is a classic diagnostic test for kala-azar.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells determine whether leishmaniasis is controlled or progresses: by presenting Leishmania antigen and producing IL-12, they steer CD4 cells toward a protective Th1/IFN-γ response, so impaired DC function tips toward Th2 and disseminated disease.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Leishmaniasis and tuberculosis are both chronic intracellular infections of the macrophage controlled by Th1 immunity: each hides inside the very cell meant to kill it, requiring IFN-γ-driven macrophage activation—so both flare in HIV.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells shape early defense against Leishmania: NK-derived IFN-γ helps polarize the protective Th1 response that activates infected macrophages to kill the parasite, so weak NK/Th1 immunity allows the visceral disease (kala-azar) to progress.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells let Leishmania persist: by dampening the protective Th1 response, Tregs allow the parasite to survive inside macrophages, contributing to chronic and relapsing infection and to reactivation in immunosuppression.

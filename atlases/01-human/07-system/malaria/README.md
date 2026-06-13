@@ -69,6 +69,15 @@ cross_links:
   - target: 01-human/07-system/burkitt-lymphoma
     relation: connects-to
     note: "Endemic Burkitt lymphoma is a malaria-driven cancer: chronic Plasmodium falciparum infection causes intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together driving the MYC translocation behind the jaw tumors of African children."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Malaria causes severe anemia by several routes: rupture of infected red cells, splenic clearance of uninfected cells, and inflammatory suppression of erythropoiesis (an anemia-of-chronic-disease component) combine, making anemia a leading cause of malaria death in children."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Severe falciparum malaria can cause ARDS: sequestration of infected red cells and intense inflammation injure the pulmonary capillaries, flooding alveoli with edema even after parasite clearance—acute respiratory distress is a feared complication of severe malaria."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Severe malaria can trigger disseminated intravascular coagulation: widespread endothelial activation and cytokine storm in falciparum infection consume clotting factors and platelets, causing bleeding—part of the multi-organ failure that makes severe malaria lethal."
 ---
 
 # Malaria
@@ -244,6 +253,9 @@ cross_links:
 - `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Thalassemia, like sickle cell trait, is maintained by malaria selection: abnormal or reduced hemoglobin makes red cells a poorer host for Plasmodium, conferring partial protection from severe malaria—why it is common across the historic malaria belt.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is central to malaria: it filters and destroys parasitized red cells, driving the splenomegaly typical of chronic infection, and the parasite evades it by sequestering in deep vasculature—so splenectomy or asplenia markedly worsens malaria severity.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Endemic Burkitt lymphoma is a malaria-driven cancer: chronic Plasmodium falciparum infection causes intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together driving the MYC translocation behind the jaw tumors of African children.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Malaria causes severe anemia by several routes: rupture of infected red cells, splenic clearance of uninfected cells, and inflammatory suppression of erythropoiesis (an anemia-of-chronic-disease component) combine, making anemia a leading cause of malaria death in children.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Severe falciparum malaria can cause ARDS: sequestration of infected red cells and intense inflammation injure the pulmonary capillaries, flooding alveoli with edema even after parasite clearance—acute respiratory distress is a feared complication of severe malaria.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Severe malaria can trigger disseminated intravascular coagulation: widespread endothelial activation and cytokine storm in falciparum infection consume clotting factors and platelets, causing bleeding—part of the multi-organ failure that makes severe malaria lethal.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
