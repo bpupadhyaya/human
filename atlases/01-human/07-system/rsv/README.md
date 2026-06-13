@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/06-organ/ards
     relation: connects-to
     note: "Severe RSV can progress to ARDS: intense bronchiolitis and alveolar inflammation flood the lungs and collapse gas exchange, requiring ventilation—the most severe end of the RSV spectrum, where a common childhood virus becomes life-threatening."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "RSV bronchiolitis plugs the airways with neutrophils and debris: the virus and the neutrophil-rich inflammatory response slough airway cells and mucus into the tiny bronchioles, obstructing them—why infants wheeze and the smallest airways collapse in severe RSV."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "RSV is prevented with passive antibody, not a vaccine, in infants: monoclonal IgG antibodies (palivizumab, nirsevimab) against the F protein give infants immediate protection—a rare reliance on borrowed antibody for a virus where natural immunity is weak."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "RSV evades durable immunity and reinfects for life: it blunts interferon and induces only short-lived, incomplete immune memory, so people are reinfected repeatedly—and the immature or aged immune system makes RSV dangerous at both ends of life."
 ---
 
 # RSV
@@ -238,3 +247,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are central to RSV defense and disease: alveolar macrophages sense the virus and make interferon, but RSV also infects and subverts them, and excessive macrophage-driven inflammation contributes to the airway damage of severe bronchiolitis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — RSV is an underrecognized trigger of heart failure decompensation: RSV respiratory infection strains the cardiovascular system, precipitating acute heart-failure exacerbations and excess cardiac deaths—why RSV vaccination is now recommended for older adults.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Severe RSV can progress to ARDS: intense bronchiolitis and alveolar inflammation flood the lungs and collapse gas exchange, requiring ventilation—the most severe end of the RSV spectrum, where a common childhood virus becomes life-threatening.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — RSV bronchiolitis plugs the airways with neutrophils and debris: the virus and the neutrophil-rich inflammatory response slough airway cells and mucus into the tiny bronchioles, obstructing them—why infants wheeze and the smallest airways collapse in severe RSV.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — RSV is prevented with passive antibody, not a vaccine, in infants: monoclonal IgG antibodies (palivizumab, nirsevimab) against the F protein give infants immediate protection—a rare reliance on borrowed antibody for a virus where natural immunity is weak.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — RSV evades durable immunity and reinfects for life: it blunts interferon and induces only short-lived, incomplete immune memory, so people are reinfected repeatedly—and the immature or aged immune system makes RSV dangerous at both ends of life.

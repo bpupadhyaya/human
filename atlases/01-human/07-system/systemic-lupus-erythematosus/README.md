@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "Immune thrombocytopenia is a common hematologic feature of lupus: autoantibodies against platelets cause low counts that can be the presenting sign, and SLE must be excluded in new ITP—one of the autoimmune cytopenias that define lupus blood involvement."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Lupus nephritis is the organ involvement that most shapes SLE prognosis: immune complexes deposit in the glomerulus, triggering complement-driven inflammation that scars the kidney, so renal biopsy guides immunosuppression and nephritis drives much of lupus mortality."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Plasmacytoid dendritic cells power the lupus interferon engine: sensing self nucleic acids, they pour out type I interferon that drives the autoimmune cascade, so the IFN signature is central to SLE—and anifrolumab blocks this very pathway."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Autoantibodies and IgG immune complexes are the hallmark of lupus: anti-dsDNA and antinuclear IgG form complexes that deposit in tissues and fix complement, so the autoantibody profile both diagnoses SLE and mediates its multi-organ damage."
 ---
 
 # Systemic Lupus Erythematosus
@@ -223,6 +232,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Lupus and rheumatoid arthritis are archetypal systemic autoimmune diseases that overlap yet differ: both inflame joints, but RA causes erosive symmetric synovitis with anti-CCP antibodies, while SLE's antinuclear antibodies injure many organs with non-erosive arthritis.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are central to lupus: they produce the antinuclear and anti-dsDNA autoantibodies that form tissue-damaging immune complexes, and present self-antigen to T cells—so B-cell-targeted therapy (belimumab against BAFF, rituximab) treats the disease at its source.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Immune thrombocytopenia is a common hematologic feature of lupus: autoantibodies against platelets cause low counts that can be the presenting sign, and SLE must be excluded in new ITP—one of the autoimmune cytopenias that define lupus blood involvement.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Lupus nephritis is the organ involvement that most shapes SLE prognosis: immune complexes deposit in the glomerulus, triggering complement-driven inflammation that scars the kidney, so renal biopsy guides immunosuppression and nephritis drives much of lupus mortality.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells power the lupus interferon engine: sensing self nucleic acids, they pour out type I interferon that drives the autoimmune cascade, so the IFN signature is central to SLE—and anifrolumab blocks this very pathway.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Autoantibodies and IgG immune complexes are the hallmark of lupus: anti-dsDNA and antinuclear IgG form complexes that deposit in tissues and fix complement, so the autoantibody profile both diagnoses SLE and mediates its multi-organ damage.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
