@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity accelerates atherosclerosis: excess visceral fat drives insulin resistance, dyslipidemia, hypertension and chronic inflammation that together damage arteries, so obesity is a central, modifiable hub feeding the major atherosclerotic risk factors."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium marks and stiffens atherosclerotic arteries: chronic plaque inflammation drives calcium deposition that hardens vessel walls, and a CT coronary-calcium score quantifies this buildup to gauge cardiovascular risk."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells make atherosclerosis an inflammatory disease: Th1 cells in the plaque secrete cytokines that activate macrophages and destabilize the fibrous cap, so immune activity—not just lipid—governs whether a plaque stays quiet or ruptures."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Chronic kidney disease accelerates atherosclerosis: uremia, phosphate retention and inflammation promote vascular calcification and plaque, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD."
 ---
 
 # Atherosclerosis
@@ -221,6 +230,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets turn a plaque into a heart attack: when an atherosclerotic cap ruptures, the exposed lipid core triggers platelet adhesion and aggregation forming the occlusive thrombus—so antiplatelet drugs like aspirin help prevent myocardial infarction and stroke.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 links inflammation to atherosclerosis: plaque macrophages release IL-6 that drives CRP and fuels lesion progression, and trials lowering inflammation (canakinumab, colchicine) cut cardiovascular events—showing atherosclerosis is inflammatory, not just lipid.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity accelerates atherosclerosis: excess visceral fat drives insulin resistance, dyslipidemia, hypertension and chronic inflammation that together damage arteries, so obesity is a central, modifiable hub feeding the major atherosclerotic risk factors.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium marks and stiffens atherosclerotic arteries: chronic plaque inflammation drives calcium deposition that hardens vessel walls, and a CT coronary-calcium score quantifies this buildup to gauge cardiovascular risk.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells make atherosclerosis an inflammatory disease: Th1 cells in the plaque secrete cytokines that activate macrophages and destabilize the fibrous cap, so immune activity—not just lipid—governs whether a plaque stays quiet or ruptures.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic kidney disease accelerates atherosclerosis: uremia, phosphate retention and inflammation promote vascular calcification and plaque, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD.
 
 ---
 

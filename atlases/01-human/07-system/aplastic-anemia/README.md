@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Aplastic anemia overlaps with lupus: SLE can cause immune-mediated cytopenias and rarely marrow aplasia, and both are autoimmune disorders treated with immunosuppression—so a new pancytopenia prompts an autoimmune workup alongside marrow examination."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Aplastic anemia links to the thymus through autoimmunity: thymoma is an established cause of acquired marrow failure (and pure red cell aplasia), reflecting how disordered thymic T-cell selection can unleash the autoreactive T cells that attack stem cells."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Aplastic anemia is marrow failure by cytokine attack: autoreactive cytotoxic T cells flood the marrow with IFN-gamma and TNF that kill hematopoietic stem cells, so it is essentially a localized cytokine storm—why immunosuppression restores blood counts."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Antithymocyte globulin is a cornerstone of aplastic anemia therapy: these IgG antibodies raised against human T cells deplete the autoreactive lymphocytes destroying the marrow, so immunosuppression with ATG plus cyclosporine rescues many patients without a transplant."
 ---
 
 # Aplastic Anemia
@@ -212,6 +221,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells orchestrate the autoimmune attack in aplastic anemia: activated Th1 cells secrete interferon-gamma and TNF that, with cytotoxic T cells, destroy hematopoietic stem cells—which is why immunosuppression with ATG and cyclosporine can restore blood counts.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin is high but futile in aplastic anemia: the anemia drives appropriate EPO release, yet the empty marrow has no stem cells to respond—unlike kidney-disease anemia where EPO itself is deficient, so EPO therapy alone cannot fix aplastic anemia.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Aplastic anemia overlaps with lupus: SLE can cause immune-mediated cytopenias and rarely marrow aplasia, and both are autoimmune disorders treated with immunosuppression—so a new pancytopenia prompts an autoimmune workup alongside marrow examination.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Aplastic anemia links to the thymus through autoimmunity: thymoma is an established cause of acquired marrow failure (and pure red cell aplasia), reflecting how disordered thymic T-cell selection can unleash the autoreactive T cells that attack stem cells.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Aplastic anemia is marrow failure by cytokine attack: autoreactive cytotoxic T cells flood the marrow with IFN-gamma and TNF that kill hematopoietic stem cells, so it is essentially a localized cytokine storm—why immunosuppression restores blood counts.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antithymocyte globulin is a cornerstone of aplastic anemia therapy: these IgG antibodies raised against human T cells deplete the autoreactive lymphocytes destroying the marrow, so immunosuppression with ATG plus cyclosporine rescues many patients without a transplant.
 
 ---
 
