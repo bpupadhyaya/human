@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells let Leishmania persist: by dampening the protective Th1 response, Tregs allow the parasite to survive inside macrophages, contributing to chronic and relapsing infection and to reactivation in immunosuppression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Leishmaniasis outcome hinges on the immune response type: a Th1/IFN-gamma response controls the parasite, while a Th2/IL-10 shift lets it disseminate—so whether infection stays a self-healing skin sore or becomes lethal visceral disease depends on immune polarization."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Macrophages kill Leishmania with nitric oxide—or fail to: IFN-gamma-activated macrophages use inducible NO synthase to destroy the parasite, but Leishmania survives by suppressing NO production inside the very cell meant to kill it, the heart of its immune evasion."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils are Leishmania's Trojan horse: sandfly-injected parasites first enter neutrophils, then ride apoptotic neutrophils silently into macrophages—their true replicative niche—so the early innate response is subverted to establish infection."
 ---
 
 # Leishmaniasis
@@ -193,3 +202,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Leishmaniasis and tuberculosis are both chronic intracellular infections of the macrophage controlled by Th1 immunity: each hides inside the very cell meant to kill it, requiring IFN-γ-driven macrophage activation—so both flare in HIV.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells shape early defense against Leishmania: NK-derived IFN-γ helps polarize the protective Th1 response that activates infected macrophages to kill the parasite, so weak NK/Th1 immunity allows the visceral disease (kala-azar) to progress.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells let Leishmania persist: by dampening the protective Th1 response, Tregs allow the parasite to survive inside macrophages, contributing to chronic and relapsing infection and to reactivation in immunosuppression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Leishmaniasis outcome hinges on the immune response type: a Th1/IFN-gamma response controls the parasite, while a Th2/IL-10 shift lets it disseminate—so whether infection stays a self-healing skin sore or becomes lethal visceral disease depends on immune polarization.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Macrophages kill Leishmania with nitric oxide—or fail to: IFN-gamma-activated macrophages use inducible NO synthase to destroy the parasite, but Leishmania survives by suppressing NO production inside the very cell meant to kill it, the heart of its immune evasion.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are Leishmania's Trojan horse: sandfly-injected parasites first enter neutrophils, then ride apoptotic neutrophils silently into macrophages—their true replicative niche—so the early innate response is subverted to establish infection.

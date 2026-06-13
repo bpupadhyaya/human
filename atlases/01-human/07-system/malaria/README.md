@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "Severe malaria can trigger disseminated intravascular coagulation: widespread endothelial activation and cytokine storm in falciparum infection consume clotting factors and platelets, causing bleeding—part of the multi-organ failure that makes severe malaria lethal."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Severe malaria injures the kidney: hemolysis and sequestration cause acute kidney injury and, classically, blackwater fever (massive hemoglobinuria), so renal failure marks severe falciparum malaria and worsens its high mortality."
+  - target: 01-human/07-system/cytokine-storm
+    relation: connects-to
+    note: "Severe malaria is partly a cytokine storm: schizont rupture triggers a TNF-driven inflammatory surge causing fever, and excess cytokines contribute to cerebral malaria and organ failure—so the host inflammatory response, not just the parasite, drives lethal disease."
+  - target: 01-human/07-system/dengue-fever
+    relation: connects-to
+    note: "Malaria and dengue are the great overlapping tropical fevers: both cause fever and thrombocytopenia in the same regions, so a febrile traveler needs both excluded—malaria (a treatable parasite) must never be missed while dengue (a virus) is managed supportively."
 ---
 
 # Malaria
@@ -256,6 +265,9 @@ cross_links:
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Malaria causes severe anemia by several routes: rupture of infected red cells, splenic clearance of uninfected cells, and inflammatory suppression of erythropoiesis (an anemia-of-chronic-disease component) combine, making anemia a leading cause of malaria death in children.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Severe falciparum malaria can cause ARDS: sequestration of infected red cells and intense inflammation injure the pulmonary capillaries, flooding alveoli with edema even after parasite clearance—acute respiratory distress is a feared complication of severe malaria.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Severe malaria can trigger disseminated intravascular coagulation: widespread endothelial activation and cytokine storm in falciparum infection consume clotting factors and platelets, causing bleeding—part of the multi-organ failure that makes severe malaria lethal.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe malaria injures the kidney: hemolysis and sequestration cause acute kidney injury and, classically, blackwater fever (massive hemoglobinuria), so renal failure marks severe falciparum malaria and worsens its high mortality.
+- `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Severe malaria is partly a cytokine storm: schizont rupture triggers a TNF-driven inflammatory surge causing fever, and excess cytokines contribute to cerebral malaria and organ failure—so the host inflammatory response, not just the parasite, drives lethal disease.
+- `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — Malaria and dengue are the great overlapping tropical fevers: both cause fever and thrombocytopenia in the same regions, so a febrile traveler needs both excluded—malaria (a treatable parasite) must never be missed while dengue (a virus) is managed supportively.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
