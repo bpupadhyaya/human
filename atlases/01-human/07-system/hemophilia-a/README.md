@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
     relation: connects-to
     note: "Hemophilia A and TTP sit at opposite poles of hemostasis: hemophilia fails to clot from factor VIII deficiency and bleeds, while TTP clots pathologically from ADAMTS13 deficiency, consuming platelets in microthrombi—both too little and too much clotting cause disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is central to hemophilia A: hepatocytes make clotting factors, and liver-directed gene therapy now delivers a working factor VIII gene to hepatocytes, enabling them to produce the missing factor—turning the factor-making organ into the cure."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Intracranial hemorrhage is the most feared bleed in hemophilia A: deficient factor VIII can't stabilize clots, so brain bleeding is a leading cause of death—hemorrhagic stroke here is the mirror image of the ischemic stroke that clotting disorders cause."
+  - target: 01-human/07-system/antiphospholipid-syndrome
+    relation: connects-to
+    note: "Hemophilia A and antiphospholipid syndrome are mirror-image coagulation disorders—bleeding versus clotting: hemophilia lacks factor VIII, while APS has thrombosis-driving antiphospholipid antibodies; an acquired factor VIII inhibitor rarely bridges them."
 ---
 
 # Hemophilia A
@@ -208,6 +217,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Hemophilia A and DIC cause bleeding by opposite mechanisms: hemophilia is isolated factor VIII deficiency (long aPTT, normal PT and platelets) bleeding into joints, while DIC consumes all factors and platelets at once—the lab pattern tells inherited from acquired.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Hemophilia A and immune thrombocytopenia bleed by different mechanisms: hemophilia is a factor VIII deficit causing deep joint and muscle bleeds, while ITP is platelet destruction causing mucocutaneous petechiae—the pattern hints which arm of hemostasis failed.
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — Hemophilia A and TTP sit at opposite poles of hemostasis: hemophilia fails to clot from factor VIII deficiency and bleeds, while TTP clots pathologically from ADAMTS13 deficiency, consuming platelets in microthrombi—both too little and too much clotting cause disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is central to hemophilia A: hepatocytes make clotting factors, and liver-directed gene therapy now delivers a working factor VIII gene to hepatocytes, enabling them to produce the missing factor—turning the factor-making organ into the cure.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Intracranial hemorrhage is the most feared bleed in hemophilia A: deficient factor VIII can't stabilize clots, so brain bleeding is a leading cause of death—hemorrhagic stroke here is the mirror image of the ischemic stroke that clotting disorders cause.
+- `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Hemophilia A and antiphospholipid syndrome are mirror-image coagulation disorders—bleeding versus clotting: hemophilia lacks factor VIII, while APS has thrombosis-driving antiphospholipid antibodies; an acquired factor VIII inhibitor rarely bridges them.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

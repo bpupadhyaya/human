@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "HIT is the template for vaccine-induced thrombotic thrombocytopenia (VITT) after COVID-19 adenoviral vaccines: both feature anti-PF4 antibodies that activate platelets to cause thrombosis with thrombocytopenia, treated alike with non-heparin anticoagulation and IVIG."
+  - target: 01-human/07-system/thrombotic-thrombocytopenic-purpura
+    relation: connects-to
+    note: "HIT and TTP are both life-threatening thrombocytopenias: HIT is antibody-mediated platelet activation by PF4-heparin complexes causing paradoxical thrombosis, while TTP is ADAMTS13 deficiency forming microthrombi—both drop platelets, but cause and treatment differ."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement amplifies the prothrombotic immunity of HIT: the IgG-PF4-heparin immune complexes that activate platelets also engage complement, fueling endothelial activation and thrombosis—linking an antibody reaction to heparin with the innate complement cascade."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "HIT is paradoxical—low platelets cause clots, not bleeds: PF4-heparin antibodies activate platelets and endothelium, triggering arterial and venous thrombosis across the cardiovascular system—so heparin is stopped and a non-heparin anticoagulant started."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -231,6 +240,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — HIT and immune thrombocytopenia are both antibody-mediated low-platelet states with opposite effects: ITP antibodies destroy platelets and bleed, while HIT's anti-PF4 antibodies activate platelets and clot—so HIT means stopping heparin, not transfusing.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — HIT and DIC both cause inpatient thrombocytopenia but differ: DIC consumes factors and platelets with prolonged PT/PTT, while HIT activates platelets via antibody with normal clotting times—4T score and anti-PF4 testing distinguish them.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — HIT is the template for vaccine-induced thrombotic thrombocytopenia (VITT) after COVID-19 adenoviral vaccines: both feature anti-PF4 antibodies that activate platelets to cause thrombosis with thrombocytopenia, treated alike with non-heparin anticoagulation and IVIG.
+- `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — HIT and TTP are both life-threatening thrombocytopenias: HIT is antibody-mediated platelet activation by PF4-heparin complexes causing paradoxical thrombosis, while TTP is ADAMTS13 deficiency forming microthrombi—both drop platelets, but cause and treatment differ.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement amplifies the prothrombotic immunity of HIT: the IgG-PF4-heparin immune complexes that activate platelets also engage complement, fueling endothelial activation and thrombosis—linking an antibody reaction to heparin with the innate complement cascade.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — HIT is paradoxical—low platelets cause clots, not bleeds: PF4-heparin antibodies activate platelets and endothelium, triggering arterial and venous thrombosis across the cardiovascular system—so heparin is stopped and a non-heparin anticoagulant started.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
