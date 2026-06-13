@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/retinoblastoma
     relation: connects-to
     note: "ATRT and retinoblastoma are aggressive embryonal cancers of early childhood driven by loss of a single tumor suppressor—SMARCB1 in ATRT versus RB1 in retinoblastoma—and like trilateral retinoblastoma, ATRT can arise in the pineal region of an infant brain."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "ATRT arises in the neuron-rich central nervous system: this aggressive infant tumor forms brain masses that compress and infiltrate neural tissue, causing the hydrocephalus and deficits that bring it to attention—though its cells are rhabdoid, not neuronal."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "ATRT must be distinguished from astrocyte-derived tumors: unlike gliomas that arise from astrocytes, ATRT is an embryonal rhabdoid tumor defined by SMARCB1 loss, so molecular testing—not histology alone—separates it from the astrocytomas it can mimic on imaging."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "ATRT and glioblastoma are both highly aggressive brain tumors but at opposite ages and origins: ATRT strikes infants via SWI/SNF (SMARCB1) loss, while glioblastoma is an adult glial tumor—yet both share dismal prognosis and therapy resistance."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -206,6 +215,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is central but fraught in atypical teratoid/rhabdoid tumor: this aggressive infant brain tumor needs craniospinal photon or proton irradiation, but radiation is especially neurotoxic to the very young brain—so proton beam and timing limit lifelong damage.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — ATRT and neuroblastoma are both aggressive embryonal tumors of infancy with small-round-blue-cell histology: ATRT is a SMARCB1-deficient CNS/renal rhabdoid tumor, while neuroblastoma is a sympathoadrenal MYCN-driven tumor—told apart by INI1 loss and site.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — ATRT and retinoblastoma are aggressive embryonal cancers of early childhood driven by loss of a single tumor suppressor—SMARCB1 in ATRT versus RB1 in retinoblastoma—and like trilateral retinoblastoma, ATRT can arise in the pineal region of an infant brain.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — ATRT arises in the neuron-rich central nervous system: this aggressive infant tumor forms brain masses that compress and infiltrate neural tissue, causing the hydrocephalus and deficits that bring it to attention—though its cells are rhabdoid, not neuronal.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — ATRT must be distinguished from astrocyte-derived tumors: unlike gliomas that arise from astrocytes, ATRT is an embryonal rhabdoid tumor defined by SMARCB1 loss, so molecular testing—not histology alone—separates it from the astrocytomas it can mimic on imaging.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — ATRT and glioblastoma are both highly aggressive brain tumors but at opposite ages and origins: ATRT strikes infants via SWI/SNF (SMARCB1) loss, while glioblastoma is an adult glial tumor—yet both share dismal prognosis and therapy resistance.
 
 ---
 

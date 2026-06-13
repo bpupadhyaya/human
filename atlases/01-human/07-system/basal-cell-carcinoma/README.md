@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/medulloblastoma
     relation: connects-to
     note: "Basal cell carcinoma and SHH-subtype medulloblastoma share the hedgehog pathway: PTCH1/SMO mutations drive both and Gorlin syndrome predisposes to each—so the SMO inhibitor vismodegib developed for advanced BCC is also active in hedgehog-driven medulloblastoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help restrain basal cell carcinoma: innate immune surveillance clears UV-damaged keratinocytes, so immunosuppressed patients develop more skin cancers—why BCC is commoner in transplant recipients and why immunotherapy treats advanced disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven angiogenesis feeds basal cell carcinoma: though BCC grows slowly and rarely metastasizes, it recruits new blood vessels via VEGF to sustain expanding tumor nests, and this vascularity underlies the telangiectasias seen over a pearly BCC nodule."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Basal cell carcinoma remodels dermal collagen as it invades: tumor nests provoke a fibrous stroma and degrade surrounding collagen to spread locally, which is why neglected BCCs become destructively invasive rodent ulcers despite almost never metastasizing."
 ---
 
 # Basal Cell Carcinoma
@@ -209,6 +218,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Rothmund-Thomson Syndrome](../rothmund-thomson/README.md)** — Rothmund-Thomson syndrome predisposes to basal cell carcinoma: defective RECQL4-dependent DNA repair leaves poikilodermatous skin unable to fix UV damage, so BCC and squamous cell carcinoma arise early—a genodermatosis like Gorlin and xeroderma pigmentosum.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Basal cell carcinoma is more common and aggressive in HIV/AIDS and other immunosuppression: weakened immune surveillance lets UV-damaged keratinocytes escape, so skin cancers occur earlier and recur more in HIV and transplant patients—calling for vigilant screening.
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Basal cell carcinoma and SHH-subtype medulloblastoma share the hedgehog pathway: PTCH1/SMO mutations drive both and Gorlin syndrome predisposes to each—so the SMO inhibitor vismodegib developed for advanced BCC is also active in hedgehog-driven medulloblastoma.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help restrain basal cell carcinoma: innate immune surveillance clears UV-damaged keratinocytes, so immunosuppressed patients develop more skin cancers—why BCC is commoner in transplant recipients and why immunotherapy treats advanced disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis feeds basal cell carcinoma: though BCC grows slowly and rarely metastasizes, it recruits new blood vessels via VEGF to sustain expanding tumor nests, and this vascularity underlies the telangiectasias seen over a pearly BCC nodule.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Basal cell carcinoma remodels dermal collagen as it invades: tumor nests provoke a fibrous stroma and degrade surrounding collagen to spread locally, which is why neglected BCCs become destructively invasive rodent ulcers despite almost never metastasizing.
 
 ---
 
