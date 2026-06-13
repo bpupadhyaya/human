@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/iga-nephropathy
     relation: connects-to
     note: "IgA nephropathy is the world's commonest primary glomerulonephritis, a core renal-system disease: galactose-deficient IgA1 immune complexes deposit in the mesangium, causing hematuria (often after mucosal infection) and, in many, progression to chronic kidney disease."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "The renal system is an endocrine organ via erythropoietin: peritubular cells sense low oxygen and secrete EPO to drive red-cell production, so kidney disease causes anemia while EPO excess causes polycythemia—linking renal function to oxygen-carrying capacity."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium balance is a core renal-system job: the kidney tunes potassium excretion under aldosterone, so renal failure causes life-threatening hyperkalemia while diuretics cause hypokalemia—small shifts in this ion can stop the heart, making renal K+ handling vital."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Renal cell carcinoma is the principal cancer of the renal system: arising from tubular epithelium, it can secrete erythropoietin or renin (paraneoplastic syndromes) and presents late with hematuria or a mass—turning the kidney's own physiology into its tumor's behavior."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -186,6 +195,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Chronic Kidney Disease](../ckd/README.md) — the renal system's common end state: progressive nephron loss reduces GFR until fluid, electrolyte, acid-base, waste, and endocrine roles all fail, ending in dialysis or transplant.
 - **Connects to:** [Endocrine System](../endocrine-system/README.md) — the kidney is itself endocrine, secreting erythropoietin and renin and activating vitamin D while responding to aldosterone, ADH, and PTH.
 - **Connects to:** [IgA Nephropathy](../iga-nephropathy/README.md) — the world's commonest primary glomerulonephritis: mesangial galactose-deficient IgA1 deposits cause hematuria and can progress to chronic kidney disease.
+- **Connects to:** [Erythropoietin](../../03-molecular/erythropoietin/README.md) — the renal system is an endocrine organ: peritubular cells sense low oxygen and secrete EPO to drive red-cell production, so kidney disease causes anemia while EPO excess causes polycythemia.
+- **Connects to:** [Potassium](../../02-atomic/potassium/README.md) — potassium balance is a core renal job: the kidney tunes K+ excretion under aldosterone, so renal failure causes hyperkalemia while diuretics cause hypokalemia—shifts that can stop the heart.
+- **Connects to:** [Renal Cell Carcinoma](../renal-cell-carcinoma/README.md) — the principal cancer of the renal system: arising from tubular epithelium, it can secrete erythropoietin or renin (paraneoplastic) and presents late with hematuria or a mass.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
