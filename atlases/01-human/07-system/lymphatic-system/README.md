@@ -68,6 +68,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Melanoma exploits the lymphatic system to metastasize: it spreads early through dermal lymphatics to regional nodes, making sentinel lymph-node biopsy central to staging, and can even induce lymphangiogenesis—so lymphatic involvement strongly predicts outcome."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Mantle cell lymphoma illustrates the lymphatic system's vulnerability: arising from mantle-zone B cells of the lymph node, it spreads through the lymphatic network to nodes, marrow and gut—the system built to circulate lymphocytes also disseminates their cancers."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells patrol the lymphatic system: alongside B and T cells they traffic through lymph nodes screening for infected and tumor cells, and rare NK-cell lymphomas arise here—part of the immune surveillance the lymphatic network is built to support."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine feeds the lymphatic system dietary fat: specialized lacteals in each villus absorb fat as chyle and carry it through lymphatics to the bloodstream, so gut lymphatics handle nutrition as well as immunity—and blockage causes fat malabsorption."
 ---
 
 # Lymphatic System
@@ -194,6 +203,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Follicular lymphoma is a cancer of the lymphatic system's architecture: it arises from germinal-center B cells in lymph node follicles and spreads through nodes, spleen and marrow—turning antibody-maturation machinery into an indolent malignancy.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The lymphatic system governs how breast cancer is staged: tumor cells drain first to axillary lymph nodes, so sentinel-node biopsy guides treatment and node status drives prognosis—while removing nodes can cause arm lymphedema, the cost of disrupting drainage.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma exploits the lymphatic system to metastasize: it spreads early through dermal lymphatics to regional nodes, making sentinel lymph-node biopsy central to staging, and can even induce lymphangiogenesis—so lymphatic involvement strongly predicts outcome.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Mantle cell lymphoma illustrates the lymphatic system's vulnerability: arising from mantle-zone B cells of the lymph node, it spreads through the lymphatic network to nodes, marrow and gut—the system built to circulate lymphocytes also disseminates their cancers.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells patrol the lymphatic system: alongside B and T cells they traffic through lymph nodes screening for infected and tumor cells, and rare NK-cell lymphomas arise here—part of the immune surveillance the lymphatic network is built to support.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine feeds the lymphatic system dietary fat: specialized lacteals in each villus absorb fat as chyle and carry it through lymphatics to the bloodstream, so gut lymphatics handle nutrition as well as immunity—and blockage causes fat malabsorption.
 
 ## Pathology
 
