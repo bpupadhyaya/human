@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Plasma cells sustain myasthenia gravis by making anti-acetylcholine-receptor antibodies: they secrete the IgG that blocks and destroys neuromuscular AChRs, and because they resist rituximab, plasma-cell-directed and FcRn-blocking therapies are used in refractory disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages execute the antibody attack in myasthenia gravis: anti-AChR IgG fixes complement and recruits macrophages that phagocytose the postsynaptic membrane, so innate effectors translate the autoantibody into loss of acetylcholine receptors at the neuromuscular junction."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Myasthenia gravis and rheumatoid arthritis are both antibody-mediated autoimmune diseases, but MG targets a single neuromuscular receptor while RA attacks the synovium broadly—yet both respond to B-cell depletion, reflecting shared autoreactive antibody-producing cells."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye is where myasthenia gravis usually begins: ptosis and diplopia from fatigable extraocular and eyelid muscles are the presenting sign in most patients, and ocular MG may stay confined to the eye or generalize—making the eye both first clue and prognostic marker."
 ---
 
 # Myasthenia Gravis
@@ -202,6 +211,9 @@ cross_links:
 - `connects-to` → **[NMOSD](../nmo/README.md)** — Myasthenia gravis and neuromyelitis optica are antibody-mediated diseases that co-occur more than chance: both are driven by pathogenic IgG (anti-AChR vs anti-AQP4) and a tendency to further autoimmunity, and NMO can emerge after thymectomy for myasthenia.
 - `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Myasthenia gravis and pemphigus vulgaris are paradigm IgG autoantibody diseases against a cell-surface protein: anti-acetylcholine-receptor in MG versus anti-desmoglein in pemphigus, both can associate with thymoma, and both respond to plasma exchange, IVIG, and rituximab.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells sustain myasthenia gravis by making anti-acetylcholine-receptor antibodies: they secrete the IgG that blocks and destroys neuromuscular AChRs, and because they resist rituximab, plasma-cell-directed and FcRn-blocking therapies are used in refractory disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages execute the antibody attack in myasthenia gravis: anti-AChR IgG fixes complement and recruits macrophages that phagocytose the postsynaptic membrane, so innate effectors translate the autoantibody into loss of acetylcholine receptors at the neuromuscular junction.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Myasthenia gravis and rheumatoid arthritis are both antibody-mediated autoimmune diseases, but MG targets a single neuromuscular receptor while RA attacks the synovium broadly—yet both respond to B-cell depletion, reflecting shared autoreactive antibody-producing cells.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye is where myasthenia gravis usually begins: ptosis and diplopia from fatigable extraocular and eyelid muscles are the presenting sign in most patients, and ocular MG may stay confined to the eye or generalize—making the eye both first clue and prognostic marker.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
