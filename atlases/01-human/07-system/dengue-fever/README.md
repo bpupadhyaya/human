@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "Dengue and malaria are the two great mosquito-borne tropical fevers and key differentials: both cause fever, thrombocytopenia, and can be severe, but dengue (Aedes flavivirus) brings plasma leak and hemorrhage while malaria (Plasmodium) brings hemolysis and cerebral disease."
+  - target: 02-pathogen/01-viruses/dengue-virus
+    relation: connects-to
+    note: "Dengue virus drives the disease through four serotypes: infection gives lasting immunity to one serotype but only brief cross-protection, so later infection by a different serotype risks severe dengue—the serotype diversity central to the virus's danger."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Pre-existing IgG can worsen dengue via antibody-dependent enhancement: non-neutralizing antibodies from a prior serotype bind the new virus and ferry it into macrophages, boosting viral load—why second heterotypic infections cause severe, hemorrhagic dengue."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Dengue suppresses the bone marrow: the virus infects marrow progenitors and dampens production, causing the falling platelet and white-cell counts that define and grade the illness—so cytopenias track severity and signal the risk of hemorrhage."
 ---
 
 # Dengue Fever
@@ -199,3 +208,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia defines severe dengue: the virus suppresses marrow megakaryopoiesis and antibodies destroy platelets, while plasma leak concentrates the blood—so a falling platelet count with rising hematocrit warns of progression to dengue hemorrhagic fever.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dengue virus first infects dendritic cells via DC-SIGN: skin dendritic cells captured at the mosquito bite are the earliest replication site and carry the virus onward, and antibody-dependent enhancement on a second infection worsens this uptake—driving severe dengue.
 - `connects-to` → **[Malaria](../malaria/README.md)** — Dengue and malaria are the two great mosquito-borne tropical fevers and key differentials: both cause fever, thrombocytopenia, and can be severe, but dengue (Aedes flavivirus) brings plasma leak and hemorrhage while malaria (Plasmodium) brings hemolysis and cerebral disease.
+- `connects-to` → **[Dengue virus](../../../02-pathogen/01-viruses/dengue-virus/README.md)** — Dengue virus drives the disease through four serotypes: infection gives lasting immunity to one serotype but only brief cross-protection, so later infection by a different serotype risks severe dengue—the serotype diversity central to the virus's danger.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Pre-existing IgG can worsen dengue via antibody-dependent enhancement: non-neutralizing antibodies from a prior serotype bind the new virus and ferry it into macrophages, boosting viral load—why second heterotypic infections cause severe, hemorrhagic dengue.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Dengue suppresses the bone marrow: the virus infects marrow progenitors and dampens production, causing the falling platelet and white-cell counts that define and grade the illness—so cytopenias track severity and signal the risk of hemorrhage.

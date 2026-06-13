@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CAR-T therapy's main toxicity is a cytokine storm: the engineered cytotoxic T cells, on engaging tumor, trigger massive IL-6 release (cytokine release syndrome), so tocilizumab is kept on hand—a designed T-cell attack causing the same storm seen in infection."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The NLRP3 inflammasome ignites cytokine storms: sensing infection or cell damage, it activates caspase-1 to release IL-1 and IL-18, amplifying the self-reinforcing cascade—so inflammasome and IL-1 blockade (anakinra) treat severe hyperinflammation."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Failed NK/cytotoxic killing triggers the worst cytokine storms: in HLH, defective natural killer and CD8 cells cannot clear activated immune cells, so persistent antigen drives runaway macrophage activation—why HLH is lethal without immunosuppression."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Cytokine storm erupts in autoimmune disease as macrophage activation syndrome: in rheumatoid/Still's disease, uncontrolled macrophage and T-cell activation floods cytokines (high ferritin, falling counts)—the same IL-1/IL-6 biology, treated with the same blockers."
 ---
 
 # Cytokine Storm
@@ -178,6 +187,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — Sepsis is the commonest cytokine storm: infection triggers a dysregulated systemic release of IL-6, TNF, and IL-1 that injures the endothelium and drives shock and multi-organ failure—so sepsis and cytokine storm syndromes share mediators and cytokine-targeted therapy.
 - `connects-to` → **[Influenza](../influenza/README.md)** — Severe and pandemic influenza can provoke a lethal cytokine storm: overwhelming innate activation floods the lungs with IL-6, TNF, and chemokines, causing ARDS out of proportion to viral load—part of why young, immunocompetent adults died in the 1918 and H5N1 outbreaks.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CAR-T therapy's main toxicity is a cytokine storm: the engineered cytotoxic T cells, on engaging tumor, trigger massive IL-6 release (cytokine release syndrome), so tocilizumab is kept on hand—a designed T-cell attack causing the same storm seen in infection.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The NLRP3 inflammasome ignites cytokine storms: sensing infection or cell damage, it activates caspase-1 to release IL-1 and IL-18, amplifying the self-reinforcing cascade—so inflammasome and IL-1 blockade (anakinra) treat severe hyperinflammation.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Failed NK/cytotoxic killing triggers the worst cytokine storms: in HLH, defective natural killer and CD8 cells cannot clear activated immune cells, so persistent antigen drives runaway macrophage activation—why HLH is lethal without immunosuppression.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Cytokine storm erupts in autoimmune disease as macrophage activation syndrome: in rheumatoid/Still's disease, uncontrolled macrophage and T-cell activation floods cytokines (high ferritin, falling counts)—the same IL-1/IL-6 biology, treated with the same blockers.
 
 ## Pathology
 
