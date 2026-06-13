@@ -51,6 +51,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes, with microglia, sustain chronic neuropathic pain: after nerve injury reactive astrocytes in the spinal dorsal horn release cytokines and disturb glutamate handling—so glial activation, not just neurons, maintains the chronic pain state."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Guillain-Barré syndrome can leave chronic neuropathic pain: acute autoimmune demyelination of peripheral nerves causes severe pain during the illness, and damaged, abnormally firing nerves can produce lasting neuropathic pain even after motor recovery."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Neuropathic pain arises from maladaptive changes in neurons: injured sensory neurons become hyperexcitable, fire spontaneously and rewire their connections, so pain persists without ongoing tissue damage—the nervous system generating pain from its own circuitry."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Neuropathic pain is the setting where opioids both disappoint and endanger: opioids work poorly for neuropathic pain yet are often prescribed, fueling tolerance, dependence and opioid use disorder—so guidelines favor antidepressants and gabapentinoids."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -225,6 +234,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Migraine](../migraine/README.md)** — Migraine and neuropathic pain share central sensitization and CGRP biology: trigeminovascular and peripheral nerves both amplify pain, and CGRP and sodium-channel mechanisms overlap—so anti-CGRP and anticonvulsant drugs help both chronic migraine and neuropathic pain.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Neuropathic pain is common in multiple sclerosis: demyelinating lesions along central pain pathways cause trigeminal neuralgia, Lhermitte's sign, and the burning MS hug—a major, often undertreated symptom managed with anticonvulsants and antidepressants.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes, with microglia, sustain chronic neuropathic pain: after nerve injury reactive astrocytes in the spinal dorsal horn release cytokines and disturb glutamate handling—so glial activation, not just neurons, maintains the chronic pain state.
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — Guillain-Barré syndrome can leave chronic neuropathic pain: acute autoimmune demyelination of peripheral nerves causes severe pain during the illness, and damaged, abnormally firing nerves can produce lasting neuropathic pain even after motor recovery.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuropathic pain arises from maladaptive changes in neurons: injured sensory neurons become hyperexcitable, fire spontaneously and rewire their connections, so pain persists without ongoing tissue damage—the nervous system generating pain from its own circuitry.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Neuropathic pain is the setting where opioids both disappoint and endanger: opioids work poorly for neuropathic pain yet are often prescribed, fueling tolerance, dependence and opioid use disorder—so guidelines favor antidepressants and gabapentinoids.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

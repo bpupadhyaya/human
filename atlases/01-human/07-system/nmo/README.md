@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Plasma cells make the pathogenic antibody of neuromyelitis optica: long-lived plasma cells and plasmablasts secrete anti-aquaporin-4 IgG that, with complement, destroys astrocytes—so therapy targets the B-cell/plasma-cell axis (rituximab, satralizumab, eculizumab)."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "NMO and Guillain-Barré are both antibody-mediated demyelinating diseases but of different compartments: NMO's anti-aquaporin-4 antibodies attack CNS astrocytes, while GBS antibodies attack peripheral nerve myelin—central versus peripheral autoimmune demyelination."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement drives the astrocyte destruction of NMO: anti-aquaporin-4 antibodies bound to astrocytes activate the complement cascade, whose membrane attack complex lyses them—so complement inhibitors are now NMO therapy, treating the disease at its effector step."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "NMO and MS are distinguished by their cellular target: MS attacks oligodendrocytes and myelin, while NMO attacks astrocytes via aquaporin-4—so NMO is an astrocytopathy, not a demyelinating disease per se, and MS drugs can worsen it, making the distinction critical."
 ---
 
 # NMOSD
@@ -241,6 +250,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — When neuromyelitis optica coexists with lupus, the myelitis is NMO, not CNS lupus: AQP4-IgG-positive NMO can occur alongside SLE, so transverse myelitis or optic neuritis in a lupus patient should prompt AQP4 testing rather than assuming neuropsychiatric lupus.
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Neuromyelitis optica and myasthenia gravis are antibody-mediated diseases that co-occur more than by chance: both are driven by pathogenic IgG (anti-AQP4 vs anti-AChR) and a tendency to further autoimmunity, and NMO can emerge after thymectomy for myasthenia.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the pathogenic antibody of neuromyelitis optica: long-lived plasma cells and plasmablasts secrete anti-aquaporin-4 IgG that, with complement, destroys astrocytes—so therapy targets the B-cell/plasma-cell axis (rituximab, satralizumab, eculizumab).
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — NMO and Guillain-Barré are both antibody-mediated demyelinating diseases but of different compartments: NMO's anti-aquaporin-4 antibodies attack CNS astrocytes, while GBS antibodies attack peripheral nerve myelin—central versus peripheral autoimmune demyelination.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement drives the astrocyte destruction of NMO: anti-aquaporin-4 antibodies bound to astrocytes activate the complement cascade, whose membrane attack complex lyses them—so complement inhibitors are now NMO therapy, treating the disease at its effector step.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — NMO and MS are distinguished by their cellular target: MS attacks oligodendrocytes and myelin, while NMO attacks astrocytes via aquaporin-4—so NMO is an astrocytopathy, not a demyelinating disease per se, and MS drugs can worsen it, making the distinction critical.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
