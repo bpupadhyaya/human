@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α drives malaria's inflammatory pathology: schizont rupture and GPI anchors trigger macrophage TNF-α → fever, hypoglycemia and ICAM-1 upregulation, promoting PfEMP1-mediated sequestration in cerebral malaria; high circulating TNF-α correlates with severity and mortality."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Thalassemia, like sickle cell trait, is maintained by malaria selection: abnormal or reduced hemoglobin makes red cells a poorer host for Plasmodium, conferring partial protection from severe malaria—why it is common across the historic malaria belt."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is central to malaria: it filters and destroys parasitized red cells, driving the splenomegaly typical of chronic infection, and the parasite evades it by sequestering in deep vasculature—so splenectomy or asplenia markedly worsens malaria severity."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Endemic Burkitt lymphoma is a malaria-driven cancer: chronic Plasmodium falciparum infection causes intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together driving the MYC translocation behind the jaw tumors of African children."
 ---
 
 # Malaria
@@ -232,6 +241,9 @@ cross_links:
 - `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — Both are vector-borne protozoan parasites of the global poor: Anopheles-borne Plasmodium invades erythrocytes, sand-fly-borne Leishmania hides in macrophages; both cause fever, splenomegaly and anemia in overlapping tropical regions, and HIV co-infection worsens both.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Malaria's obligatory pre-erythrocytic stage is hepatic: sporozoites invade hepatocytes and mature into thousands of merozoites before blood-stage disease; P. vivax/ovale form dormant hypnozoites needing primaquine/tafenoquine for radical cure; severe malaria also causes jaundice.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α drives malaria's inflammatory pathology: schizont rupture and GPI anchors trigger macrophage TNF-α → fever, hypoglycemia and ICAM-1 upregulation, promoting PfEMP1-mediated sequestration in cerebral malaria; high circulating TNF-α correlates with severity and mortality.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Thalassemia, like sickle cell trait, is maintained by malaria selection: abnormal or reduced hemoglobin makes red cells a poorer host for Plasmodium, conferring partial protection from severe malaria—why it is common across the historic malaria belt.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is central to malaria: it filters and destroys parasitized red cells, driving the splenomegaly typical of chronic infection, and the parasite evades it by sequestering in deep vasculature—so splenectomy or asplenia markedly worsens malaria severity.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Endemic Burkitt lymphoma is a malaria-driven cancer: chronic Plasmodium falciparum infection causes intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together driving the MYC translocation behind the jaw tumors of African children.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

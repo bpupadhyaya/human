@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "The Th1/Th2 balance decides Leishmania outcome: Th1 (IL-12→IFN-γ→iNOS→NO) clears intracellular amastigotes and gives healing immunity, while Th2 (IL-4, IL-10) permits parasite persistence and progressive disease; the textbook model of CD4+ T-helper polarization."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Visceral leishmaniasis (kala-azar) is a reticuloendothelial disease with the liver a prime target: Leishmania-laden macrophages expand the liver and spleen, causing massive hepatosplenomegaly, while hypergammaglobulinemia and hypoalbuminemia reflect the parasite burden."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The bone marrow is invaded in visceral leishmaniasis: amastigote-laden macrophages crowd the marrow, causing pancytopenia (anemia, leukopenia, thrombocytopenia), and a marrow or splenic aspirate showing amastigotes is a classic diagnostic test for kala-azar."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells determine whether leishmaniasis is controlled or progresses: by presenting Leishmania antigen and producing IL-12, they steer CD4 cells toward a protective Th1/IFN-γ response, so impaired DC function tips toward Th2 and disseminated disease."
 ---
 
 # Leishmaniasis
@@ -169,3 +178,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Malaria](../malaria/README.md)** — Both are vector-borne protozoa of the tropics: sand-fly-borne Leishmania parasitizes macrophages while mosquito-borne Plasmodium invades erythrocytes; both cause fever, massive splenomegaly and anemia in overlapping endemic regions, and HIV co-infection reactivates VL.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous leishmaniasis is the skin form: sand-fly inoculation into the dermis → localized macrophage infection → chronic ulcer that scars; mucocutaneous L. braziliensis destroys nasal/oral mucosa; post-kala-azar dermal leishmaniasis follows visceral cure and sustains spread.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The Th1/Th2 balance decides Leishmania outcome: Th1 (IL-12→IFN-γ→iNOS→NO) clears intracellular amastigotes and gives healing immunity, while Th2 (IL-4, IL-10) permits parasite persistence and progressive disease; the textbook model of CD4+ T-helper polarization.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Visceral leishmaniasis (kala-azar) is a reticuloendothelial disease with the liver a prime target: Leishmania-laden macrophages expand the liver and spleen, causing massive hepatosplenomegaly, while hypergammaglobulinemia and hypoalbuminemia reflect the parasite burden.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The bone marrow is invaded in visceral leishmaniasis: amastigote-laden macrophages crowd the marrow, causing pancytopenia (anemia, leukopenia, thrombocytopenia), and a marrow or splenic aspirate showing amastigotes is a classic diagnostic test for kala-azar.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells determine whether leishmaniasis is controlled or progresses: by presenting Leishmania antigen and producing IL-12, they steer CD4 cells toward a protective Th1/IFN-γ response, so impaired DC function tips toward Th2 and disseminated disease.
