@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Sjögren's and lupus are closely related autoimmune diseases sharing anti-Ro/SSA and anti-La/SSB antibodies and a type-I-interferon signature; secondary Sjögren commonly complicates lupus, and anti-Ro can cross the placenta to cause neonatal lupus and congenital heart block."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Sjögren's syndrome most often appears as secondary Sjögren's atop rheumatoid arthritis or lupus: shared autoimmune mechanisms extend inflammation to lacrimal and salivary glands, so any RA patient with dry eyes and mouth (sicca) is evaluated for the overlap."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Sjögren's syndrome is a B-cell/plasma-cell-driven disease: BAFF-fueled clonal B and plasma cells make anti-Ro/La autoantibodies and hypergammaglobulinemia, and persistent germinal-center activity in salivary glands is what drives the high MALT-lymphoma risk."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Sjögren's syndrome carries the highest lymphoma risk of any autoimmune disease: chronic salivary B-cell activation predisposes mainly to MALT marginal-zone lymphoma but also to follicular and other B-cell lymphomas—so persistent parotid swelling demands biopsy."
 ---
 
 # Sjögren's Syndrome
@@ -201,6 +210,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Sjögren's and systemic sclerosis are overlapping connective-tissue autoimmune diseases that often coexist and share a type-I-interferon signature, but Sjögren is a lymphocytic exocrine-gland disease causing sicca while SSc is a fibrosing vasculopathy — dryness versus scarring.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye bears the brunt of Sjögren's: lymphocytic destruction of lacrimal glands causes aqueous-deficient dry eye (keratoconjunctivitis sicca) — gritty, burning eyes with corneal damage on Schirmer testing — which with dry mouth forms the sicca complex that defines the disease.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Sjögren's and lupus are closely related autoimmune diseases sharing anti-Ro/SSA and anti-La/SSB antibodies and a type-I-interferon signature; secondary Sjögren commonly complicates lupus, and anti-Ro can cross the placenta to cause neonatal lupus and congenital heart block.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Sjögren's syndrome most often appears as secondary Sjögren's atop rheumatoid arthritis or lupus: shared autoimmune mechanisms extend inflammation to lacrimal and salivary glands, so any RA patient with dry eyes and mouth (sicca) is evaluated for the overlap.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Sjögren's syndrome is a B-cell/plasma-cell-driven disease: BAFF-fueled clonal B and plasma cells make anti-Ro/La autoantibodies and hypergammaglobulinemia, and persistent germinal-center activity in salivary glands is what drives the high MALT-lymphoma risk.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Sjögren's syndrome carries the highest lymphoma risk of any autoimmune disease: chronic salivary B-cell activation predisposes mainly to MALT marginal-zone lymphoma but also to follicular and other B-cell lymphomas—so persistent parotid swelling demands biopsy.
 
 ---
 

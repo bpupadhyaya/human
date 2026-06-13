@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung is the dominant metastatic site in synovial sarcoma: it spreads hematogenously to the lungs even years after the primary is controlled, so long-term chest CT surveillance is essential and pulmonary metastasectomy is offered for limited disease."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "Synovial sarcoma and schwannomatosis both subvert the SWI/SNF (BAF) chromatin-remodeling complex: synovial sarcoma's SS18-SSX fusion reprograms BAF to silence tumor-suppressors, while loss of the BAF subunit SMARCB1 drives schwannomatosis and rhabdoid tumors."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Synovial and Ewing sarcoma are fusion-driven sarcomas of young adults defined by a single translocation: SS18-SSX for synovial sarcoma, EWSR1-FLI1 for Ewing—both aberrant transcription factors that remodel the epigenome, models of fusion-oncoprotein cancer."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Synovial sarcoma is a mesenchymal tumor of fibroblast-like spindle cells despite its misleading name: it arises not from synovium but from a primitive mesenchymal cell, its monophasic form being sheets of spindle cells expressing TLE1 and SS18-SSX."
 ---
 
 # Synovial Sarcoma
@@ -189,6 +198,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Synovial sarcoma and AT/RT both derange the SWI/SNF (BAF) complex and depend on EZH2: SS18-SSX fusion ejects SMARCB1 from BAF (SMARCB1 stays detectable), while AT/RT deletes SMARCB1 entirely (INI1 lost on IHC) — yet both respond to the EZH2 inhibitor tazemetostat.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Synovial sarcoma is a soft-tissue sarcoma of adolescents and young adults arising near — not from — joints, typically in deep extremity soft tissue (around the knee); despite the name it is not of synovial origin, and wide resection plus radiation is standard.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the dominant metastatic site in synovial sarcoma: it spreads hematogenously to the lungs even years after the primary is controlled, so long-term chest CT surveillance is essential and pulmonary metastasectomy is offered for limited disease.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Synovial sarcoma and schwannomatosis both subvert the SWI/SNF (BAF) chromatin-remodeling complex: synovial sarcoma's SS18-SSX fusion reprograms BAF to silence tumor-suppressors, while loss of the BAF subunit SMARCB1 drives schwannomatosis and rhabdoid tumors.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Synovial and Ewing sarcoma are fusion-driven sarcomas of young adults defined by a single translocation: SS18-SSX for synovial sarcoma, EWSR1-FLI1 for Ewing—both aberrant transcription factors that remodel the epigenome, models of fusion-oncoprotein cancer.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Synovial sarcoma is a mesenchymal tumor of fibroblast-like spindle cells despite its misleading name: it arises not from synovium but from a primitive mesenchymal cell, its monophasic form being sheets of spindle cells expressing TLE1 and SS18-SSX.
 
 ---
 
