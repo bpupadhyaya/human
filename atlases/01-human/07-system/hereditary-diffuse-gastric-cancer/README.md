@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/juvenile-polyposis-syndrome
     relation: connects-to
     note: "Juvenile polyposis syndrome (SMAD4 or BMPR1A) is a third hereditary gastric cancer syndrome, marked by hamartomatous juvenile polyps and, in SMAD4 carriers, massive gastric polyposis with elevated gastric cancer risk — contrasting HDGC's non-polypoid CDH1 signet-ring cancer."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Hereditary diffuse gastric cancer forces a drastic digestive-system decision: because CDH1 carriers develop scattered, endoscopically invisible signet-ring foci throughout the stomach, prophylactic total gastrectomy is recommended early, since screening cannot reliably catch it."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Hereditary diffuse gastric cancer arises from gastric epithelium losing adhesion: germline CDH1 (E-cadherin) loss lets individual epithelial cells detach and infiltrate as signet-ring cells without forming a mass, the diffuse linitis-plastica pattern that makes it hard to detect."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "CDH1 mutations carry a colorectal as well as gastric risk: HDGC families show excess signet-ring/diffuse-type colorectal cancers alongside lobular breast and diffuse gastric cancer, reflecting E-cadherin's role in epithelial adhesion across the gut—so colonoscopy is advised."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -171,6 +180,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — HDGC and FAP are both dominant GI cancer syndromes but opposite in lesion: HDGC seeds the stomach with CDH1-driven signet-ring foci that form no polyps, while FAP carpets the colon with thousands of APC-driven adenomas — diffuse versus adenomatous, gastrectomy versus colectomy.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome is another hereditary cause of gastric cancer, but via STK11/LKB1 hamartomatous polyps (and mucocutaneous pigmentation) rather than HDGC's CDH1 signet-ring foci; both raise gastric and breast cancer risk — distinct routes, hamartoma versus loss of cohesion.
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — Juvenile polyposis syndrome (SMAD4 or BMPR1A) is a third hereditary gastric cancer syndrome, marked by hamartomatous juvenile polyps and, in SMAD4 carriers, massive gastric polyposis with elevated gastric cancer risk — contrasting HDGC's non-polypoid CDH1 signet-ring cancer.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Hereditary diffuse gastric cancer forces a drastic digestive-system decision: because CDH1 carriers develop scattered, endoscopically invisible signet-ring foci throughout the stomach, prophylactic total gastrectomy is recommended early, since screening cannot reliably catch it.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Hereditary diffuse gastric cancer arises from gastric epithelium losing adhesion: germline CDH1 (E-cadherin) loss lets individual epithelial cells detach and infiltrate as signet-ring cells without forming a mass, the diffuse linitis-plastica pattern that makes it hard to detect.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — CDH1 mutations carry a colorectal as well as gastric risk: HDGC families show excess signet-ring/diffuse-type colorectal cancers alongside lobular breast and diffuse gastric cancer, reflecting E-cadherin's role in epithelial adhesion across the gut—so colonoscopy is advised.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

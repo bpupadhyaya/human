@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney is BHD's malignant target: folliculin loss causes bilateral, multifocal chromophobe and hybrid oncocytic renal cell carcinoma (~15-30% lifetime), so carriers get annual MRI from their 20s and nephron-sparing surgery once a tumour reaches ~3 cm."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Birt-Hogg-Dubé and tuberous sclerosis converge on mTOR and cystic lung disease: BHD folliculin and TSC1/2 both normally restrain mTOR, and both cause characteristic lung cysts with pneumothorax risk (BHD basal cysts; TSC/LAM diffuse)—so mTOR inhibition is a shared theme."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "Birt-Hogg-Dubé and HLRCC are both hereditary kidney-cancer syndromes with distinct biology: BHD (folliculin) causes chromophobe/oncocytic RCC with skin fibrofolliculomas and lung cysts, while HLRCC (fumarate hydratase) causes aggressive papillary RCC and uterine leiomyomas."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Birt-Hogg-Dubé sits alongside VHL disease among inherited renal-cancer syndromes: both cause multifocal, bilateral RCC needing nephron-sparing surgery and lifelong imaging, but differ in tumor type (BHD chromophobe/oncocytic via folliculin-mTOR; VHL clear-cell via HIF)."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -204,6 +213,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Birt-Hogg-Dubé and Cowden syndrome are mTORopathies: BHD loses folliculin (a GAP for the RagC/D GTPases that gate mTORC1) while Cowden loses PTEN (which restrains PI3K-AKT-mTOR), and both cause facial hamartomatous skin papules and a heightened risk of renal cell carcinoma.
 - `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — The lung cysts of Birt-Hogg-Dubé arise in alveolar type II pneumocytes: folliculin loss dysregulates mTOR and TFE3, driving abnormal alveolar remodeling and matrix breakdown that thins the cyst walls — producing the basal subpleural cysts behind a 7-fold pneumothorax risk.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is BHD's malignant target: folliculin loss causes bilateral, multifocal chromophobe and hybrid oncocytic renal cell carcinoma (~15-30% lifetime), so carriers get annual MRI from their 20s and nephron-sparing surgery once a tumour reaches ~3 cm.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Birt-Hogg-Dubé and tuberous sclerosis converge on mTOR and cystic lung disease: BHD folliculin and TSC1/2 both normally restrain mTOR, and both cause characteristic lung cysts with pneumothorax risk (BHD basal cysts; TSC/LAM diffuse)—so mTOR inhibition is a shared theme.
+- `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — Birt-Hogg-Dubé and HLRCC are both hereditary kidney-cancer syndromes with distinct biology: BHD (folliculin) causes chromophobe/oncocytic RCC with skin fibrofolliculomas and lung cysts, while HLRCC (fumarate hydratase) causes aggressive papillary RCC and uterine leiomyomas.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Birt-Hogg-Dubé sits alongside VHL disease among inherited renal-cancer syndromes: both cause multifocal, bilateral RCC needing nephron-sparing surgery and lifelong imaging, but differ in tumor type (BHD chromophobe/oncocytic via folliculin-mTOR; VHL clear-cell via HIF).
 
 ---
 
