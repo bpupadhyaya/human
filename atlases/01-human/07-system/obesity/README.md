@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Adipocytes are the cellular engine of obesity: as they enlarge with triglyceride they turn dysfunctional, secreting leptin and inflammatory cytokines, less adiponectin, and recruiting macrophages—so adipose acts as an endocrine organ driving obesity's complications."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Obesity accelerates atherosclerosis and cardiovascular disease: visceral fat drives dyslipidemia, hypertension, insulin resistance and chronic inflammation that injure arteries—a central, modifiable driver of heart attack and stroke."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Obesity is the strongest modifiable risk factor for endometrial cancer: adipose tissue aromatizes androgens into estrogen, and unopposed estrogen drives endometrial proliferation, so most endometrial cancers are obesity-related—a hormone-mediated obesity cancer."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Obesity raises colorectal cancer risk: insulin/IGF-1 signaling, chronic inflammation and altered gut flora from excess adiposity promote colonic tumorigenesis, contributing to rising early-onset colorectal cancer."
 ---
 
 # Obesity
@@ -231,6 +240,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Obesity is the dominant cause of type 2 diabetes: excess adipose tissue drives insulin resistance via free fatty acids and inflammatory adipokines, so the obesity epidemic powers the diabetes epidemic—and weight loss can put type 2 diabetes into remission.
 - `connects-to` → **[NASH](../nash/README.md)** — Obesity is the leading driver of NASH: visceral fat floods the liver with free fatty acids, causing steatosis that inflames into steatohepatitis, fibrosis, and cirrhosis—the hepatic arm of the same metabolic syndrome that links obesity to diabetes and heart disease.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Adipocytes are the cellular engine of obesity: as they enlarge with triglyceride they turn dysfunctional, secreting leptin and inflammatory cytokines, less adiponectin, and recruiting macrophages—so adipose acts as an endocrine organ driving obesity's complications.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Obesity accelerates atherosclerosis and cardiovascular disease: visceral fat drives dyslipidemia, hypertension, insulin resistance and chronic inflammation that injure arteries—a central, modifiable driver of heart attack and stroke.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Obesity is the strongest modifiable risk factor for endometrial cancer: adipose tissue aromatizes androgens into estrogen, and unopposed estrogen drives endometrial proliferation, so most endometrial cancers are obesity-related—a hormone-mediated obesity cancer.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Obesity raises colorectal cancer risk: insulin/IGF-1 signaling, chronic inflammation and altered gut flora from excess adiposity promote colonic tumorigenesis, contributing to rising early-onset colorectal cancer.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

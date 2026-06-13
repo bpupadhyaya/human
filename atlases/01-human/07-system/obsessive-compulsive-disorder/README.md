@@ -80,6 +80,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "OCD arises from dysfunction in cortico-striato-thalamo-cortical neurons: overactive loops through the orbitofrontal cortex, caudate, and thalamus generate the repetitive obsessions and compulsions, which is why SSRIs and, in refractory cases, deep brain stimulation can help."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "OCD and PTSD both feature intrusive, distressing thoughts but differ in origin: OCD's obsessions are recognized as one's own and neutralized by compulsions, while PTSD's intrusions are trauma memories—overlapping phenomenology with different roots."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "OCD and bipolar disorder frequently co-occur and complicate each other: comorbid OCD worsens bipolar outcomes, and SSRIs used for OCD can trigger mania in bipolar patients—so screening for bipolarity is essential before treating OCD pharmacologically."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "OCD and internet gaming disorder both involve compulsive, hard-to-resist behaviors engaging fronto-striatal circuits: OCD's compulsions relieve anxiety while gaming is reward-driven, but both show the loss of behavioral control that blurs compulsion and addiction."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -225,6 +234,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — OCD and panic disorder are anxiety-spectrum disorders that often co-occur but differ: OCD's anxiety is driven by intrusive obsessions relieved by compulsions, while panic is sudden autonomic surges of fear—both share SSRI responsiveness and exposure-based therapy.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — OCD and schizophrenia intersect in schizo-obsessive presentations: OC symptoms are common in schizophrenia and can worsen on antipsychotics like clozapine, and both involve glutamate and dopamine dysregulation—so telling obsessions from delusions guides care.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — OCD arises from dysfunction in cortico-striato-thalamo-cortical neurons: overactive loops through the orbitofrontal cortex, caudate, and thalamus generate the repetitive obsessions and compulsions, which is why SSRIs and, in refractory cases, deep brain stimulation can help.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — OCD and PTSD both feature intrusive, distressing thoughts but differ in origin: OCD's obsessions are recognized as one's own and neutralized by compulsions, while PTSD's intrusions are trauma memories—overlapping phenomenology with different roots.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — OCD and bipolar disorder frequently co-occur and complicate each other: comorbid OCD worsens bipolar outcomes, and SSRIs used for OCD can trigger mania in bipolar patients—so screening for bipolarity is essential before treating OCD pharmacologically.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — OCD and internet gaming disorder both involve compulsive, hard-to-resist behaviors engaging fronto-striatal circuits: OCD's compulsions relieve anxiety while gaming is reward-driven, but both show the loss of behavioral control that blurs compulsion and addiction.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
