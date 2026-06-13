@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages drive severe COVID-19's cytokine storm: dysregulated alveolar macrophages pour out IL-6 and TNF in a macrophage-activation-like syndrome, fueling the hyperinflammation that dexamethasone and IL-6 blockade (tocilizumab) target in critically ill patients."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "ARDS is the lethal pulmonary endpoint of severe COVID-19: SARS-CoV-2 injury to alveolar epithelium and endothelium floods the lungs with protein-rich edema, collapsing gas exchange and requiring ventilation or ECMO—the final common pathway of fatal COVID pneumonia."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type 2 diabetes markedly worsens COVID-19: hyperglycemia and the inflammatory, prothrombotic milieu of diabetes raise the risk of severe disease and death, while COVID can itself precipitate hyperglycemia and new diabetes—a bidirectional, dangerous interaction."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "COVID-19 raises stroke risk through its prothrombotic state: SARS-CoV-2-driven endothelial injury and hypercoagulability cause arterial thromboses, so ischemic stroke is a recognized complication alongside the venous thromboembolism the infection provokes."
 ---
 
 # COVID-19 Disease
@@ -152,6 +161,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — COVID-19 is strongly prothrombotic: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, raising deep vein thrombosis, pulmonary embolism, and microvascular clots—so inpatients get thromboprophylaxis and D-dimer marks severity.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — COVID-19 is in part an endothelial disease: SARS-CoV-2 and inflammation injure ACE2-bearing endothelial cells, causing endotheliitis, microthrombi, and the capillary leak that drives severe lung and multi-organ failure—the virus's vascular face.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive severe COVID-19's cytokine storm: dysregulated alveolar macrophages pour out IL-6 and TNF in a macrophage-activation-like syndrome, fueling the hyperinflammation that dexamethasone and IL-6 blockade (tocilizumab) target in critically ill patients.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — ARDS is the lethal pulmonary endpoint of severe COVID-19: SARS-CoV-2 injury to alveolar epithelium and endothelium floods the lungs with protein-rich edema, collapsing gas exchange and requiring ventilation or ECMO—the final common pathway of fatal COVID pneumonia.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes markedly worsens COVID-19: hyperglycemia and the inflammatory, prothrombotic milieu of diabetes raise the risk of severe disease and death, while COVID can itself precipitate hyperglycemia and new diabetes—a bidirectional, dangerous interaction.
+- `connects-to` → **[Stroke](../stroke/README.md)** — COVID-19 raises stroke risk through its prothrombotic state: SARS-CoV-2-driven endothelial injury and hypercoagulability cause arterial thromboses, so ischemic stroke is a recognized complication alongside the venous thromboembolism the infection provokes.
 
 ## Pathology
 

@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "The MSI-high subset of colorectal cancer is exquisitely immunotherapy-responsive: mismatch-repair deficiency generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (pembrolizumab) works in MSI-high tumors while microsatellite-stable CRC remains resistant."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome shapes colorectal cancer risk: dysbiosis enriches pro-carcinogenic bacteria (e.g. Fusobacterium) that inflame mucosa and damage DNA, while a healthy fiber-fermenting flora is protective—linking the microbial ecosystem to tumorigenesis."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity is a major modifiable colorectal cancer risk factor: visceral adiposity drives insulin/IGF-1 signaling and chronic inflammation that promote colonic tumorigenesis, so rising early-onset CRC parallels obesity—weight and diet are key prevention levers."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is central to rectal (not colon) cancer: neoadjuvant chemoradiation with photon beams shrinks locally advanced rectal tumors before surgery, sometimes enough for watch-and-wait—colon cancer, by contrast, is treated with surgery and chemotherapy."
 ---
 
 # Colorectal Cancer
@@ -203,6 +212,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — MUTYH-associated polyposis is a recessive hereditary cause of colorectal cancer: biallelic MUTYH loss fails to repair oxidative DNA damage, producing G:C→T:A mutations and multiple adenomas, so a FAP-like polyposis with negative APC testing prompts MUTYH analysis.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Long-standing inflammatory bowel disease drives colitis-associated colorectal cancer: chronic inflammation accelerates the dysplasia-carcinoma sequence (often p53 early, APC late—reversed from sporadic CRC), so colitis warrants surveillance colonoscopy.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The MSI-high subset of colorectal cancer is exquisitely immunotherapy-responsive: mismatch-repair deficiency generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (pembrolizumab) works in MSI-high tumors while microsatellite-stable CRC remains resistant.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome shapes colorectal cancer risk: dysbiosis enriches pro-carcinogenic bacteria (e.g. Fusobacterium) that inflame mucosa and damage DNA, while a healthy fiber-fermenting flora is protective—linking the microbial ecosystem to tumorigenesis.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is a major modifiable colorectal cancer risk factor: visceral adiposity drives insulin/IGF-1 signaling and chronic inflammation that promote colonic tumorigenesis, so rising early-onset CRC parallels obesity—weight and diet are key prevention levers.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is central to rectal (not colon) cancer: neoadjuvant chemoradiation with photon beams shrinks locally advanced rectal tumors before surgery, sometimes enough for watch-and-wait—colon cancer, by contrast, is treated with surgery and chemotherapy.
 
 ---
 
