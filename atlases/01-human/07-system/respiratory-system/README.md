@@ -81,6 +81,15 @@ cross_links:
   - target: 01-human/05-tissue/alveolus
     relation: connects-to
     note: "The alveolus is the functional unit of the respiratory system: hundreds of millions of these thin-walled sacs create the vast surface where gas exchange occurs, so diseases that flood, collapse, or stiffen alveoli directly cause the hypoxemia of respiratory failure."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Pulmonary surfactant keeps the respiratory system inflatable: secreted by type II pneumocytes, it lowers alveolar surface tension so the lung doesn't collapse on exhalation—its deficiency causes neonatal respiratory distress and contributes to ARDS in adults."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "COVID-19 is the respiratory system's defining modern threat: SARS-CoV-2 attacks airway and alveolar cells, and severe disease causes diffuse alveolar damage and hypoxemic respiratory failure—showing how a single virus can overwhelm the gas-exchange apparatus."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Pulmonary arterial hypertension is where the respiratory and circulatory systems collide: remodeling of the lung's small arteries raises pulmonary pressure until the right heart fails, so this is a vascular disease that presents as breathlessness."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -187,6 +196,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Oxygen](../../02-atomic/oxygen/README.md): Oxygen is the gas the respiratory system exists to capture: alveoli transfer O2 across the air-blood barrier into hemoglobin for tissue delivery, while CO2 is exhaled—so lung disease that impairs this exchange causes hypoxemia, the central threat in respiratory failure.
 - **Connects-to** → [Hemoglobin](../../03-molecular/hemoglobin/README.md): Hemoglobin completes what the respiratory system starts: lungs load O2 onto red-cell hemoglobin, which carries it to tissues and returns CO2 for exhalation—so anemia or abnormal hemoglobin can mimic lung disease by limiting oxygen delivery despite healthy lungs.
 - **Connects-to** → [Alveolus](../../05-tissue/alveolus/README.md): The alveolus is the functional unit of the respiratory system: hundreds of millions of these thin-walled sacs create the vast surface where gas exchange occurs, so diseases that flood, collapse, or stiffen alveoli directly cause the hypoxemia of respiratory failure.
+- **Connects-to** → [Pulmonary Surfactant](../../03-molecular/surfactant/README.md): Pulmonary surfactant keeps the respiratory system inflatable: secreted by type II pneumocytes, it lowers alveolar surface tension so the lung doesn't collapse on exhalation—its deficiency causes neonatal respiratory distress and contributes to ARDS in adults.
+- **Connects-to** → [COVID-19 Disease](../covid-19-disease/README.md): COVID-19 is the respiratory system's defining modern threat: SARS-CoV-2 attacks airway and alveolar cells, and severe disease causes diffuse alveolar damage and hypoxemic respiratory failure—showing how a single virus can overwhelm the gas-exchange apparatus.
+- **Connects-to** → [Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md): Pulmonary arterial hypertension is where the respiratory and circulatory systems collide: remodeling of the lung's small arteries raises pulmonary pressure until the right heart fails, so this is a vascular disease that presents as breathlessness.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.

@@ -82,6 +82,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/escherichia-coli
     relation: connects-to
     note: "Escherichia coli is a leading cause of sepsis: gram-negative bacteremia, often from urinary or abdominal sources, releases LPS endotoxin that triggers the TLR4-driven cytokine cascade—so a common gut commensal becomes a frequent driver of life-threatening septic shock."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages help ignite sepsis: sensing bacterial products through TLRs, they release the TNF and IL-6 surge that drives the dysregulated systemic inflammation, yet later become immunoparalyzed—so sepsis is both hyperinflammation and immune exhaustion."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Sepsis is the leading cause of ARDS: systemic inflammation and capillary leak flood the alveoli, so the lungs become stiff and hypoxemic—acute respiratory distress is one of the most common and lethal organ failures of severe sepsis."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Streptococcus pneumoniae is a top cause of sepsis: pneumococcal pneumonia and bacteremia trigger the systemic inflammatory cascade, especially in the asplenic and elderly—why pneumococcal vaccination is a key sepsis-prevention measure."
 ---
 
 # Sepsis
@@ -209,6 +218,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide drives septic shock: overwhelming inflammation induces iNOS, flooding vessels with NO that causes profound vasodilation and hypotension refractory to fluids—so the molecule that normally tunes blood flow becomes the engine of distributive shock in sepsis.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Acute kidney injury is among the commonest organ failures in sepsis: hypotension, inflammation and microvascular thrombosis cut renal perfusion, so rising creatinine and falling urine output mark severity—and septic AKI strongly predicts mortality and may need dialysis.
 - `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Escherichia coli is a leading cause of sepsis: gram-negative bacteremia, often from urinary or abdominal sources, releases LPS endotoxin that triggers the TLR4-driven cytokine cascade—so a common gut commensal becomes a frequent driver of life-threatening septic shock.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help ignite sepsis: sensing bacterial products through TLRs, they release the TNF and IL-6 surge that drives the dysregulated systemic inflammation, yet later become immunoparalyzed—so sepsis is both hyperinflammation and immune exhaustion.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Sepsis is the leading cause of ARDS: systemic inflammation and capillary leak flood the alveoli, so the lungs become stiff and hypoxemic—acute respiratory distress is one of the most common and lethal organ failures of severe sepsis.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Streptococcus pneumoniae is a top cause of sepsis: pneumococcal pneumonia and bacteremia trigger the systemic inflammatory cascade, especially in the asplenic and elderly—why pneumococcal vaccination is a key sepsis-prevention measure.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
