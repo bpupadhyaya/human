@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/diffuse-midline-glioma
     relation: connects-to
     note: "IDH-mutant glioma and diffuse midline glioma sit at opposite ends of glioma biology: both are diffuse gliomas defined by a single metabolic/epigenetic driver, but IDH-mutant gliomas (adults, better prognosis) contrast with H3 K27M DMG (children, dismal prognosis)."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy is standard for IDH-mutant glioma: after maximal resection, radiation plus PCV or temozolomide markedly extends survival in these slower-growing gliomas, and the new IDH inhibitor vorasidenib can now delay when radiation is needed."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "IDH-mutant glioma and Li-Fraumeni intersect at p53: many IDH-mutant astrocytomas carry TP53 mutations, and germline TP53 loss in Li-Fraumeni predisposes to gliomas in young adults—so the metabolic IDH lesion and loss of the genome's guardian often co-occur in one tumor."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "IDH-mutant gliomas integrate into neural circuits: their tumor cells form functional synapses with neurons, and the seizures these gliomas commonly cause reflect this electrical coupling—so neuronal activity both signals and may feed the slow-growing tumor."
 ---
 
 # IDH-Mutant Glioma
@@ -207,6 +216,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Oligodendroglioma is the IDH-mutant glioma defined by oligodendrocyte-like cells: IDH mutation plus 1p/19q codeletion marks this tumor, whose round 'fried-egg' cells resemble oligodendrocytes and whose codeletion predicts good PCV-chemo response and long survival.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures are the commonest presentation of IDH-mutant glioma: these slow-growing, cortically-based tumors irritate neurons—partly via the oncometabolite 2-hydroxyglutarate altering glutamate—so new focal epilepsy in a young adult often first reveals the glioma.
 - `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — IDH-mutant glioma and diffuse midline glioma sit at opposite ends of glioma biology: both are diffuse gliomas defined by a single metabolic/epigenetic driver, but IDH-mutant gliomas (adults, better prognosis) contrast with H3 K27M DMG (children, dismal prognosis).
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is standard for IDH-mutant glioma: after maximal resection, radiation plus PCV or temozolomide markedly extends survival in these slower-growing gliomas, and the new IDH inhibitor vorasidenib can now delay when radiation is needed.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — IDH-mutant glioma and Li-Fraumeni intersect at p53: many IDH-mutant astrocytomas carry TP53 mutations, and germline TP53 loss in Li-Fraumeni predisposes to gliomas in young adults—so the metabolic IDH lesion and loss of the genome's guardian often co-occur in one tumor.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — IDH-mutant gliomas integrate into neural circuits: their tumor cells form functional synapses with neurons, and the seizures these gliomas commonly cause reflect this electrical coupling—so neuronal activity both signals and may feed the slow-growing tumor.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

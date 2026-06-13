@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Hypertension is a major driver of atherosclerosis: elevated pressure and shear stress injure the endothelium and accelerate plaque formation throughout the arterial tree, so treating blood pressure reduces myocardial infarction, stroke and peripheral arterial disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Hypertension is the leading cause of heart failure: chronic pressure overload forces the left ventricle to hypertrophy, then stiffen and fail (HFpEF) or dilate (HFrEF)—decades of high afterload remodel the heart, so controlling pressure best prevents it."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Pheochromocytoma is a classic curable cause of secondary hypertension: a catecholamine-secreting adrenal tumor drives paroxysmal high blood pressure with headache, sweating and palpitations, so resistant or episodic hypertension warrants screening—surgery can cure it."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium is the dietary counterweight to sodium in blood pressure: higher potassium intake promotes natriuresis and vasodilation, lowering pressure, while hypokalemia—often from hyperaldosteronism—signals a secondary, treatable cause of hypertension."
 ---
 
 # Hypertension
@@ -166,6 +175,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a principal victim of hypertension: chronic pressure overload drives left-ventricular hypertrophy, diastolic then systolic heart failure, atrial fibrillation and—via accelerated coronary disease—myocardial infarction; blood-pressure control best prevents these.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Hypertension and CKD are locked in a vicious cycle: high pressure damages glomeruli (nephrosclerosis) while failing kidneys retain sodium and activate renin-angiotensin to raise pressure; ACE inhibitors/ARBs break the loop and are first-line in hypertensive CKD.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Hypertension is a major driver of atherosclerosis: elevated pressure and shear stress injure the endothelium and accelerate plaque formation throughout the arterial tree, so treating blood pressure reduces myocardial infarction, stroke and peripheral arterial disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Hypertension is the leading cause of heart failure: chronic pressure overload forces the left ventricle to hypertrophy, then stiffen and fail (HFpEF) or dilate (HFrEF)—decades of high afterload remodel the heart, so controlling pressure best prevents it.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Pheochromocytoma is a classic curable cause of secondary hypertension: a catecholamine-secreting adrenal tumor drives paroxysmal high blood pressure with headache, sweating and palpitations, so resistant or episodic hypertension warrants screening—surgery can cure it.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium is the dietary counterweight to sodium in blood pressure: higher potassium intake promotes natriuresis and vasodilation, lowering pressure, while hypokalemia—often from hyperaldosteronism—signals a secondary, treatable cause of hypertension.
 
 ## Pathology
 
