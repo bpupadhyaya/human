@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "MAP raises gynecologic as well as colorectal cancer risk: biallelic MUTYH carriers have increased endometrial (and ovarian) cancer rates, as unrepaired oxidative mutations accumulate in tissues beyond the colon—broadening surveillance for affected women."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "MAP carpets the intestinal epithelium with adenomas: defective MUTYH base-excision repair lets oxidative G-to-T mutations accumulate in colonic crypt cells, driving the tens-to-hundreds of polyps—fewer than FAP but on the same adenoma-carcinoma path."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "MAP extends beyond the colon to the upper GI tract: like FAP, it raises the risk of duodenal and gastric polyps and cancer, so surveillance includes upper endoscopy—the same MUTYH repair defect mutating epithelium throughout the gut."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "MAP tumors progress through the usual colorectal genes: MUTYH loss seeds characteristic G-to-T transversions in APC and KRAS, and TP53 loss later drives invasion—so a base-excision-repair defect feeds the standard adenoma-carcinoma mutation sequence."
 ---
 
 # MUTYH-Associated Polyposis
@@ -204,6 +213,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — MAP and HDGC are inherited GI cancer syndromes with different mechanisms: MAP from biallelic MUTYH loss causing colorectal polyposis, HDGC from CDH1 loss causing diffuse gastric and lobular breast cancer—both warrant upper- and lower-GI surveillance.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — MAP carries extracolonic cancer risk including the pancreas: biallelic MUTYH loss raises risk of duodenal and modestly pancreatic cancers, since unrepaired oxidative DNA damage can transform other epithelia too—so surveillance extends to the upper GI tract.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — MAP raises gynecologic as well as colorectal cancer risk: biallelic MUTYH carriers have increased endometrial (and ovarian) cancer rates, as unrepaired oxidative mutations accumulate in tissues beyond the colon—broadening surveillance for affected women.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — MAP carpets the intestinal epithelium with adenomas: defective MUTYH base-excision repair lets oxidative G-to-T mutations accumulate in colonic crypt cells, driving the tens-to-hundreds of polyps—fewer than FAP but on the same adenoma-carcinoma path.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MAP extends beyond the colon to the upper GI tract: like FAP, it raises the risk of duodenal and gastric polyps and cancer, so surveillance includes upper endoscopy—the same MUTYH repair defect mutating epithelium throughout the gut.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — MAP tumors progress through the usual colorectal genes: MUTYH loss seeds characteristic G-to-T transversions in APC and KRAS, and TP53 loss later drives invasion—so a base-excision-repair defect feeds the standard adenoma-carcinoma mutation sequence.
 
 ---
 

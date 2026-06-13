@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "MPNs commonly cause secondary gout: the high cell turnover floods the blood with purines that break down to uric acid, so hyperuricemia and gout flares accompany polycythemia vera and myelofibrosis—sometimes the first clue to an underlying MPN."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "CALR mutation is a major MPN driver alongside JAK2: in JAK2-negative essential thrombocythemia and myelofibrosis, calreticulin mutations activate the same thrombopoietin-receptor pathway, so CALR testing completes the molecular workup of myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/mpl
+    relation: connects-to
+    note: "MPL, the thrombopoietin receptor, is the third classic MPN driver: activating MPL mutations switch on JAK-STAT signaling in a minority of essential thrombocythemia and myelofibrosis, so JAK2, CALR and MPL together explain most myeloproliferative neoplasms."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Overproduction of red cells defines polycythemia vera within the MPN family: JAK2-driven erythroid expansion thickens the blood and raises clot risk, illustrating how each MPN over-makes one lineage—red cells here, platelets in ET, fibrosis in myelofibrosis."
 ---
 
 # Myeloproliferative Neoplasms
@@ -231,6 +240,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — CML is the classic BCR-ABL-positive myeloproliferative neoplasm, set apart from the JAK2/CALR/MPL-driven 'Philadelphia-negative' MPNs: all overproduce mature myeloid cells, but CML's defining t(9;22) kinase makes it uniquely controllable with imatinib.
 - `connects-to` → **[AML](../aml/README.md)** — Myeloproliferative neoplasms can transform into acute myeloid leukemia: chronic clonal proliferation accumulates mutations until differentiation fails and blasts take over—post-MPN AML carries a grim prognosis, the feared endpoint of these diseases.
 - `connects-to` → **[Gout](../gout/README.md)** — MPNs commonly cause secondary gout: the high cell turnover floods the blood with purines that break down to uric acid, so hyperuricemia and gout flares accompany polycythemia vera and myelofibrosis—sometimes the first clue to an underlying MPN.
+- `connects-to` → **[CALR](../../03-molecular/calr/README.md)** — CALR mutation is a major MPN driver alongside JAK2: in JAK2-negative essential thrombocythemia and myelofibrosis, calreticulin mutations activate the same thrombopoietin-receptor pathway, so CALR testing completes the molecular workup of myeloproliferative neoplasms.
+- `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — MPL, the thrombopoietin receptor, is the third classic MPN driver: activating MPL mutations switch on JAK-STAT signaling in a minority of essential thrombocythemia and myelofibrosis, so JAK2, CALR and MPL together explain most myeloproliferative neoplasms.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Overproduction of red cells defines polycythemia vera within the MPN family: JAK2-driven erythroid expansion thickens the blood and raises clot risk, illustrating how each MPN over-makes one lineage—red cells here, platelets in ET, fibrosis in myelofibrosis.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
