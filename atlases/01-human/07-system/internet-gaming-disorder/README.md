@@ -33,6 +33,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Bupropion, a norepinephrine-dopamine reuptake inhibitor, reduced gaming in small controlled trials, fitting IGD's hypodopaminergic reward biology; noradrenergic tone also supports the prefrontal attention and impulse control weakened in gaming disorder."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD is one of the strongest correlates of internet gaming disorder: deficits in dopaminergic reward processing and inhibitory control predispose to compulsive gaming, the two are highly comorbid, and IGD severity tracks ADHD symptom load—stimulant treatment may reduce gaming."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Social anxiety drives internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a reinforcing loop; SAD is a common IGD comorbidity and a target for combined treatment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Internet gaming disorder and anxiety reinforce each other: gaming is short-term escape from worry, while excessive use, sleep loss and functional decline heighten anxiety; generalized anxiety disorder commonly co-occurs with IGD and shapes relapse during attempts to cut down."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -212,6 +221,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is the most common IGD comorbidity (~50%), and most patients game largely to escape low mood, anxiety, or loneliness; this negative-reinforcement (escape) pattern predicts more severe disorder and worse outcomes, and SSRIs help mainly when depression is the driver.
 
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Bupropion, a norepinephrine-dopamine reuptake inhibitor, reduced gaming in small controlled trials, fitting IGD's hypodopaminergic reward biology; noradrenergic tone also supports the prefrontal attention and impulse control weakened in gaming disorder.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD is one of the strongest correlates of internet gaming disorder: deficits in dopaminergic reward processing and inhibitory control predispose to compulsive gaming, the two are highly comorbid, and IGD severity tracks ADHD symptom load—stimulant treatment may reduce gaming.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Social anxiety drives internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a reinforcing loop; SAD is a common IGD comorbidity and a target for combined treatment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Internet gaming disorder and anxiety reinforce each other: gaming is short-term escape from worry, while excessive use, sleep loss and functional decline heighten anxiety; generalized anxiety disorder commonly co-occurs with IGD and shapes relapse during attempts to cut down.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

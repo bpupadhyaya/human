@@ -33,6 +33,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Smoked cannabis irritates the airways like tobacco smoke, causing chronic bronchitis (cough, sputum, wheeze) from combustion toxicants rather than the airflow obstruction of COPD; vaporization at lower temperatures or non-smoked routes reduces this airway toxicant exposure."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Cannabis and alcohol are the two most co-used substances: both engage the mesolimbic dopamine reward pathway and GABAergic signalling, frequently co-occur, and concurrent use compounds cognitive and motor impairment; both follow a craving-tolerance-withdrawal course."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Cannabis and opioid use disorders share dopaminergic reward circuitry and a craving-tolerance-withdrawal course; the endocannabinoid and opioid systems interact, fueling debate over whether cannabis substitutes for or precedes opioid use, with mixed evidence on overdose."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Cannabis and anxiety have a bidirectional link: people use cannabis to self-medicate anxiety, yet heavy use and withdrawal can worsen it, and high-THC/low-CBD products are most anxiogenic; CB1 signalling modulates amygdala fear circuits underlying generalized anxiety disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -193,6 +202,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Heavy, high-THC, low-CBD cannabis use is a robust risk factor for psychosis and schizophrenia, plausibly by disrupting cortical dopamine signaling; COMT Val158Met moderates vulnerability, and ~10-15% of first-episode psychosis is cannabis-attributable in high-use regions.
 
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Smoked cannabis irritates the airways like tobacco smoke, causing chronic bronchitis (cough, sputum, wheeze) from combustion toxicants rather than the airflow obstruction of COPD; vaporization at lower temperatures or non-smoked routes reduces this airway toxicant exposure.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Cannabis and alcohol are the two most co-used substances: both engage the mesolimbic dopamine reward pathway and GABAergic signalling, frequently co-occur, and concurrent use compounds cognitive and motor impairment; both follow a craving-tolerance-withdrawal course.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Cannabis and opioid use disorders share dopaminergic reward circuitry and a craving-tolerance-withdrawal course; the endocannabinoid and opioid systems interact, fueling debate over whether cannabis substitutes for or precedes opioid use, with mixed evidence on overdose.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Cannabis and anxiety have a bidirectional link: people use cannabis to self-medicate anxiety, yet heavy use and withdrawal can worsen it, and high-THC/low-CBD products are most anxiogenic; CB1 signalling modulates amygdala fear circuits underlying generalized anxiety disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
