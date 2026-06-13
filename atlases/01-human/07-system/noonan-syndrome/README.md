@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/rhabdomyosarcoma
     relation: connects-to
     note: "As a RASopathy, Noonan syndrome modestly raises cancer risk including rhabdomyosarcoma: constitutive RAS-MAPK signaling that drives the syndrome also promotes myogenic tumors, part of a spectrum that includes JMML, neuroblastoma, and brain tumors."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Noonan syndrome and neuroblastoma both stem from RAS-MAPK overactivity: Noonan from germline PTPN11/SOS1 activation, neuroblastoma often from somatic ALK or RAS lesions—Noonan raises neuroblastoma risk, one pathway shaping a malformation syndrome and a tumor."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Noonan syndrome commonly causes a bleeding tendency: many patients have von Willebrand factor and platelet-function defects, so easy bruising and surgical bleeding are common—coagulation screening is advised before any procedure in Noonan patients."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Noonan syndrome predisposes to myeloid leukemia: germline PTPN11 (SHP2) activation drives a JMML-like myeloproliferative disorder in infancy that is often self-limited but can progress, and the RAS-pathway link extends to AML—Ras overactivity dysregulating myelopoiesis."
 ---
 
 # Noonan Syndrome
@@ -213,6 +222,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Hypertrophic cardiomyopathy is a defining Noonan feature: RAS-MAPK overactivation from PTPN11/RAF1 mutations drives cardiomyocyte hypertrophy independent of sarcomere genes, so Noonan HCM often appears in infancy alongside the syndrome's pulmonary valve stenosis.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Noonan syndrome carries a bleeding diathesis: many patients have platelet dysfunction or factor XI/VIII/XII deficiencies, so easy bruising and surgical bleeding are common and warrant coagulation and platelet-function testing before any procedure.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — As a RASopathy, Noonan syndrome modestly raises cancer risk including rhabdomyosarcoma: constitutive RAS-MAPK signaling that drives the syndrome also promotes myogenic tumors, part of a spectrum that includes JMML, neuroblastoma, and brain tumors.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Noonan syndrome and neuroblastoma both stem from RAS-MAPK overactivity: Noonan from germline PTPN11/SOS1 activation, neuroblastoma often from somatic ALK or RAS lesions—Noonan raises neuroblastoma risk, one pathway shaping a malformation syndrome and a tumor.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Noonan syndrome commonly causes a bleeding tendency: many patients have von Willebrand factor and platelet-function defects, so easy bruising and surgical bleeding are common—coagulation screening is advised before any procedure in Noonan patients.
+- `connects-to` → **[AML](../aml/README.md)** — Noonan syndrome predisposes to myeloid leukemia: germline PTPN11 (SHP2) activation drives a JMML-like myeloproliferative disorder in infancy that is often self-limited but can progress, and the RAS-pathway link extends to AML—Ras overactivity dysregulating myelopoiesis.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

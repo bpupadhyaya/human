@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages shape the NSCLC microenvironment: M2-polarized macrophages suppress cytotoxic T cells and promote angiogenesis, contributing to immunotherapy resistance—so they are studied as both a biomarker and a target alongside PD-1 blockade."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain is a frequent NSCLC metastatic site: lung adenocarcinomas, especially EGFR/ALK-driven, commonly seed the brain, so staging includes brain MRI and CNS-penetrant targeted drugs (osimertinib, lorlatinib)—brain metastases strongly shape prognosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-based tobacco carcinogens are the dominant cause of NSCLC: smoke's PAHs and nitrosamines form DNA adducts that mutate KRAS and TP53, driving most squamous and many adenocarcinomas—though EGFR-mutant adenocarcinoma in never-smokers takes a distinct path."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "NSCLC and head and neck cancer share tobacco-driven field cancerization: carcinogens injure the whole aerodigestive tract, so smokers with one cancer face high risk of a second primary in the other—both demand smoking cessation and surveillance."
 ---
 
 # NSCLC
@@ -184,6 +193,9 @@ cross_links:
 - `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — NSCLC and mesothelioma are the two major thoracic cancers tied to inhaled carcinogens but distinct: NSCLC arises in lung parenchyma (smoking, EGFR/KRAS-driven), while mesothelioma arises from the pleura decades after asbestos exposure—different cells and treatment.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is central to NSCLC: stereotactic body photon radiotherapy can cure inoperable early-stage tumors, while conventional chemoradiation treats locally advanced disease—and consolidation immunotherapy after radiation now improves survival.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape the NSCLC microenvironment: M2-polarized macrophages suppress cytotoxic T cells and promote angiogenesis, contributing to immunotherapy resistance—so they are studied as both a biomarker and a target alongside PD-1 blockade.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a frequent NSCLC metastatic site: lung adenocarcinomas, especially EGFR/ALK-driven, commonly seed the brain, so staging includes brain MRI and CNS-penetrant targeted drugs (osimertinib, lorlatinib)—brain metastases strongly shape prognosis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-based tobacco carcinogens are the dominant cause of NSCLC: smoke's PAHs and nitrosamines form DNA adducts that mutate KRAS and TP53, driving most squamous and many adenocarcinomas—though EGFR-mutant adenocarcinoma in never-smokers takes a distinct path.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — NSCLC and head and neck cancer share tobacco-driven field cancerization: carcinogens injure the whole aerodigestive tract, so smokers with one cancer face high risk of a second primary in the other—both demand smoking cessation and surveillance.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
