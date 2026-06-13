@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "Obese adipocyte CCL2 → CCR2+ monocyte recruitment → adipose tissue macrophage (ATM) infiltration → M1 polarization → TNF-α + IL-6 → hepatic and skeletal muscle insulin resistance; crown-like structures (ATM clusters around dead adipocytes) predict T2DM independently of BMI."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity is the dominant driver of type 2 diabetes: excess, dysfunctional adipose tissue releases free fatty acids and inflammatory cytokines causing insulin resistance, overworking β-cells until they fail—so weight loss can prevent or even remit T2DM."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Type 2 diabetes powerfully accelerates atherosclerosis: hyperglycemia, dyslipidemia and insulin resistance injure the endothelium and inflame plaques, so cardiovascular disease is the leading cause of death in diabetics—driving aggressive risk-factor control."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "The adipocyte sits at the heart of type 2 diabetes: enlarged, stressed fat cells become insulin-resistant and secrete adipokines and free fatty acids that spread resistance to muscle and liver—adipose tissue as an endocrine driver, not just a fat store."
 ---
 
 # Type 2 Diabetes
@@ -186,6 +195,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — leptin resistance in obesity links to T2DM: SOCS3 impairs IRS-1 → convergent blunting of leptin and insulin signalling; hyperleptinemia independently predicts T2DM onset; metformin reduces leptin; bariatric surgery lowers leptin and improves insulin sensitivity.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — T2DM elevates sclerostin via AGE accumulation in the osteocyte lacuno-canalicular network; sclerostin-mediated osteoblast suppression impairs bone quality despite normal BMD, leading to higher fracture risk at any given BMD; a mechanistic link between hyperglycemia and diabetic bone fragility.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Obese adipocyte CCL2 → CCR2+ monocyte recruitment → adipose tissue macrophage (ATM) infiltration → M1 polarization → TNF-α + IL-6 → hepatic and skeletal muscle insulin resistance; crown-like structures (ATM clusters around dead adipocytes) predict T2DM independently of BMI.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is the dominant driver of type 2 diabetes: excess, dysfunctional adipose tissue releases free fatty acids and inflammatory cytokines causing insulin resistance, overworking β-cells until they fail—so weight loss can prevent or even remit T2DM.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Type 2 diabetes powerfully accelerates atherosclerosis: hyperglycemia, dyslipidemia and insulin resistance injure the endothelium and inflame plaques, so cardiovascular disease is the leading cause of death in diabetics—driving aggressive risk-factor control.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The adipocyte sits at the heart of type 2 diabetes: enlarged, stressed fat cells become insulin-resistant and secrete adipokines and free fatty acids that spread resistance to muscle and liver—adipose tissue as an endocrine driver, not just a fat store.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

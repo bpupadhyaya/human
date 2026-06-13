@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Smooth-muscle proliferation underlies two classic TSC tumors: renal angiomyolipomas and pulmonary lymphangioleiomyomatosis (LAM) are mTOR-driven smooth-muscle-like (PEComa) cells, so LAM causes cystic lung destruction in women with TSC and is treated with sirolimus."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Tuberous sclerosis and Cowden syndrome converge on the PI3K-AKT-mTOR pathway: TSC1/TSC2 loss removes a direct brake on mTOR, while Cowden's PTEN loss disinhibits PI3K upstream—both hyperactivate mTOR, cause hamartomas, and respond to mTOR inhibitors."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Tuberous sclerosis is written into astrocytes: cortical 'tubers' and subependymal giant cell astrocytomas (SEGAs) are dysplastic astrocytic lesions from mTOR overactivation, causing the epilepsy and hydrocephalus of TSC—and SEGAs shrink on mTOR inhibitors."
+  - target: 01-human/07-system/gorlin-syndrome
+    relation: connects-to
+    note: "Tuberous sclerosis and Gorlin syndrome are both autosomal-dominant neurocutaneous tumor syndromes with skin and CNS features but different pathways: TSC from TSC1/2-mTOR overactivation, Gorlin from PTCH1-Hedgehog loss—two phakomatoses, two cascades."
 ---
 
 # Tuberous Sclerosis Complex
@@ -215,6 +224,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Tuberous sclerosis and NF1 are neurocutaneous syndromes converging on mTOR: NF1's neurofibromin restrains RAS upstream of mTOR, while TSC1/TSC2 loss directly unleashes mTOR—so both cause skin lesions, brain tumors, and seizures, and respond to mTOR-axis drugs.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac rhabdomyoma is the hallmark fetal tumor of tuberous sclerosis: benign mTOR-driven masses of glycogen-laden cardiomyocytes often appear before birth, are frequently the first clue to TSC on prenatal ultrasound, and typically regress spontaneously after infancy.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Smooth-muscle proliferation underlies two classic TSC tumors: renal angiomyolipomas and pulmonary lymphangioleiomyomatosis (LAM) are mTOR-driven smooth-muscle-like (PEComa) cells, so LAM causes cystic lung destruction in women with TSC and is treated with sirolimus.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Tuberous sclerosis and Cowden syndrome converge on the PI3K-AKT-mTOR pathway: TSC1/TSC2 loss removes a direct brake on mTOR, while Cowden's PTEN loss disinhibits PI3K upstream—both hyperactivate mTOR, cause hamartomas, and respond to mTOR inhibitors.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Tuberous sclerosis is written into astrocytes: cortical 'tubers' and subependymal giant cell astrocytomas (SEGAs) are dysplastic astrocytic lesions from mTOR overactivation, causing the epilepsy and hydrocephalus of TSC—and SEGAs shrink on mTOR inhibitors.
+- `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Tuberous sclerosis and Gorlin syndrome are both autosomal-dominant neurocutaneous tumor syndromes with skin and CNS features but different pathways: TSC from TSC1/2-mTOR overactivation, Gorlin from PTCH1-Hedgehog loss—two phakomatoses, two cascades.
 
 ---
 
