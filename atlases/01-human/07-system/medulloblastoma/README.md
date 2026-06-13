@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "SHH-activated medulloblastoma arises from cerebellar granule neuron precursors of the external granular layer, whose normal proliferation depends on Sonic hedgehog from Purkinje neurons; a PTCH1/SMO lesion locks this hedgehog program on, driving the desmoplastic/nodular tumor."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Craniospinal radiotherapy is central to medulloblastoma treatment: because the tumor seeds the CSF and drops spinal metastases, photon or proton irradiation of the whole brain and spinal axis follows surgery—curative for many but neurocognitively toxic in children."
+  - target: 01-human/07-system/dicer1-syndrome
+    relation: connects-to
+    note: "Medulloblastoma is part of several cancer-predisposition syndromes: germline DICER1 loss can produce a medulloblastoma-like embryonal CNS tumor, as Gorlin (PTCH1) drives SHH-subtype and Li-Fraumeni (TP53) high-risk disease—so syndromic testing is warranted."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "Medulloblastoma and diffuse midline glioma are the major malignant pediatric brain tumors but differ: medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy, while DMG is an unresectable, fatal H3 K27M brainstem glioma."
 ---
 
 # Medulloblastoma
@@ -193,6 +202,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Medulloblastoma and IDH-mutant glioma are both molecularly classified brain tumors but opposite poles: medulloblastoma is a fast embryonal cerebellar tumor of children (SHH/WNT/MYC), while IDH-mutant glioma is a slow diffuse hemispheric tumor of adults driven by 2-HG epigenetics.
 - `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — Atypical teratoid/rhabdoid tumor is the key infant mimic of medulloblastoma: both are small-round-blue-cell posterior-fossa tumors, but ATRT is defined by SMARCB1 (INI1) loss and far more aggressive — INI1 immunostaining (kept in MB, lost in ATRT) distinguishes them.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — SHH-activated medulloblastoma arises from cerebellar granule neuron precursors of the external granular layer, whose normal proliferation depends on Sonic hedgehog from Purkinje neurons; a PTCH1/SMO lesion locks this hedgehog program on, driving the desmoplastic/nodular tumor.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Craniospinal radiotherapy is central to medulloblastoma treatment: because the tumor seeds the CSF and drops spinal metastases, photon or proton irradiation of the whole brain and spinal axis follows surgery—curative for many but neurocognitively toxic in children.
+- `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Medulloblastoma is part of several cancer-predisposition syndromes: germline DICER1 loss can produce a medulloblastoma-like embryonal CNS tumor, as Gorlin (PTCH1) drives SHH-subtype and Li-Fraumeni (TP53) high-risk disease—so syndromic testing is warranted.
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — Medulloblastoma and diffuse midline glioma are the major malignant pediatric brain tumors but differ: medulloblastoma is a resectable cerebellar tumor often cured by surgery plus craniospinal radiotherapy, while DMG is an unresectable, fatal H3 K27M brainstem glioma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "IDH-mutant glioma and cholangiocarcinoma are distant cancers united by IDH1 mutation and 2-HG: ~15-20% of intrahepatic CCA carries IDH1 R132, and ivosidenib — first approved in IDH1-mutant AML — is now used in both IDH1-mutant cholangiocarcinoma and grade 2 IDH-mutant glioma."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Oligodendroglioma is the IDH-mutant glioma defined by oligodendrocyte-like cells: IDH mutation plus 1p/19q codeletion marks this tumor, whose round 'fried-egg' cells resemble oligodendrocytes and whose codeletion predicts good PCV-chemo response and long survival."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Seizures are the commonest presentation of IDH-mutant glioma: these slow-growing, cortically-based tumors irritate neurons—partly via the oncometabolite 2-hydroxyglutarate altering glutamate—so new focal epilepsy in a young adult often first reveals the glioma."
+  - target: 01-human/07-system/diffuse-midline-glioma
+    relation: connects-to
+    note: "IDH-mutant glioma and diffuse midline glioma sit at opposite ends of glioma biology: both are diffuse gliomas defined by a single metabolic/epigenetic driver, but IDH-mutant gliomas (adults, better prognosis) contrast with H3 K27M DMG (children, dismal prognosis)."
 ---
 
 # IDH-Mutant Glioma
@@ -195,6 +204,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — IDH-mutant glioma and medulloblastoma are both molecularly classified brain tumors at opposite poles: IDH-mutant glioma is a slow, diffuse hemispheric tumor of adults driven by 2-HG epigenetics, while medulloblastoma is a fast embryonal cerebellar tumor of children (SHH/WNT/MYC).
 - `connects-to` → **[AML](../aml/README.md)** — IDH-mutant glioma and IDH-mutant AML share the same driver: IDH1/2 mutation produces 2-hydroxyglutarate that blocks TET/KDM demethylases, hypermethylating DNA and blocking differentiation; the same drugs cross over — ivosidenib (IDH1) and enasidenib treat both glioma and AML.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — IDH-mutant glioma and cholangiocarcinoma are distant cancers united by IDH1 mutation and 2-HG: ~15-20% of intrahepatic CCA carries IDH1 R132, and ivosidenib — first approved in IDH1-mutant AML — is now used in both IDH1-mutant cholangiocarcinoma and grade 2 IDH-mutant glioma.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Oligodendroglioma is the IDH-mutant glioma defined by oligodendrocyte-like cells: IDH mutation plus 1p/19q codeletion marks this tumor, whose round 'fried-egg' cells resemble oligodendrocytes and whose codeletion predicts good PCV-chemo response and long survival.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Seizures are the commonest presentation of IDH-mutant glioma: these slow-growing, cortically-based tumors irritate neurons—partly via the oncometabolite 2-hydroxyglutarate altering glutamate—so new focal epilepsy in a young adult often first reveals the glioma.
+- `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — IDH-mutant glioma and diffuse midline glioma sit at opposite ends of glioma biology: both are diffuse gliomas defined by a single metabolic/epigenetic driver, but IDH-mutant gliomas (adults, better prognosis) contrast with H3 K27M DMG (children, dismal prognosis).
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
