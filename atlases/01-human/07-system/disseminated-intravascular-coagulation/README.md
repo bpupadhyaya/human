@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver makes nearly every coagulation factor consumed in DIC — fibrinogen, prothrombin, protein C, antithrombin — so acute liver failure produces a DIC-like consumptive coagulopathy that is the main diagnostic mimic; factor VIII stays normal in liver disease but falls in DIC."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelium is the stage for DIC: inflammatory injury makes it express tissue factor and lose its anticoagulant thrombomodulin/protein-C surface, so widespread microvascular thrombi form and consume platelets and clotting factors—turning the vessel lining procoagulant systemwide."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Acute promyelocytic leukemia (APL, AML-M3) is the classic malignant cause of DIC: the leukemic promyelocytes release tissue factor and profibrinolytic activity, so fatal hemorrhage at diagnosis is a hallmark—ATRA-based treatment plus blood-product support is started urgently."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Obstetric catastrophes are a major DIC trigger via the placenta: abruption, amniotic-fluid embolism, retained dead fetus and pre-eclampsia release tissue factor into the maternal circulation, igniting consumptive coagulopathy—so delivery and source control are central."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -202,6 +211,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — DIC and essential thrombocythemia are mirror images: DIC consumes platelets and clotting factors in runaway thrombin activation (thrombocytopenia, bleeding), while ET clonally overproduces platelets causing thrombosis — yet both can bleed via acquired von Willebrand deficiency.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Cytokine storm is a major driver of DIC: TNF-α, IL-1β, and IL-6 induce tissue factor on monocytes and endothelium while suppressing anticoagulants and fibrinolysis, turning inflammation into systemic microthrombosis — the coagulopathy of sepsis, severe COVID, and CAR-T toxicity.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver makes nearly every coagulation factor consumed in DIC — fibrinogen, prothrombin, protein C, antithrombin — so acute liver failure produces a DIC-like consumptive coagulopathy that is the main diagnostic mimic; factor VIII stays normal in liver disease but falls in DIC.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelium is the stage for DIC: inflammatory injury makes it express tissue factor and lose its anticoagulant thrombomodulin/protein-C surface, so widespread microvascular thrombi form and consume platelets and clotting factors—turning the vessel lining procoagulant systemwide.
+- `connects-to` → **[AML](../aml/README.md)** — Acute promyelocytic leukemia (APL, AML-M3) is the classic malignant cause of DIC: the leukemic promyelocytes release tissue factor and profibrinolytic activity, so fatal hemorrhage at diagnosis is a hallmark—ATRA-based treatment plus blood-product support is started urgently.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Obstetric catastrophes are a major DIC trigger via the placenta: abruption, amniotic-fluid embolism, retained dead fetus and pre-eclampsia release tissue factor into the maternal circulation, igniting consumptive coagulopathy—so delivery and source control are central.
 
 ---
 

@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/men1-syndrome
     relation: connects-to
     note: "Carney complex joins MEN1 and MEN4 as a hereditary endocrine-neoplasia syndrome but differs in mechanism: Carney from PRKAR1A loss (constitutive PKA), with hallmark myxomas and skin pigmentation, versus menin or p27 loss in MEN1/MEN4 — distinct routes to multi-gland tumors."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Thyroid disease is part of Carney complex: most patients have thyroid nodules and follicular adenomas, and a minority develop papillary or follicular thyroid carcinoma, reflecting the PRKAR1A/PKA pathway's role in endocrine tumors—so thyroid ultrasound is part of follow-up."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "Carney complex predisposes to distinctive nerve-sheath tumors: psammomatous melanotic schwannomas—pigmented schwannomas on spinal nerve roots and the GI tract—are a Carney hallmark, overlapping schwannomatosis biology though driven by PRKAR1A rather than SMARCB1/LZTR1."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Carney complex commonly disturbs growth hormone: somatotroph hyperplasia and GH-secreting pituitary adenomas cause acromegaly or gigantism in a minority, part of the multiple endocrine overactivity (with PPNAD-driven Cushing's) that defines it—so IGF-1/GH screening is advised."
 ---
 
 # Carney Complex
@@ -185,6 +194,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Carney complex is a multiple-endocrine-neoplasia syndrome: germline PRKAR1A loss leaves protein kinase A constitutively active → tumors across adrenal (Cushing), pituitary (acromegaly), thyroid, and gonad, plus cardiac myxomas and pigmented skin.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin gives away Carney complex: spotty pigmentation (lentigines) on the face, lips, and conjunctiva, blue nevi, and cutaneous myxomas often appear before the endocrine tumors, so facial freckling with myxomas should prompt PRKAR1A testing and cardiac screening.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Carney complex joins MEN1 and MEN4 as a hereditary endocrine-neoplasia syndrome but differs in mechanism: Carney from PRKAR1A loss (constitutive PKA), with hallmark myxomas and skin pigmentation, versus menin or p27 loss in MEN1/MEN4 — distinct routes to multi-gland tumors.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Thyroid disease is part of Carney complex: most patients have thyroid nodules and follicular adenomas, and a minority develop papillary or follicular thyroid carcinoma, reflecting the PRKAR1A/PKA pathway's role in endocrine tumors—so thyroid ultrasound is part of follow-up.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Carney complex predisposes to distinctive nerve-sheath tumors: psammomatous melanotic schwannomas—pigmented schwannomas on spinal nerve roots and the GI tract—are a Carney hallmark, overlapping schwannomatosis biology though driven by PRKAR1A rather than SMARCB1/LZTR1.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Carney complex commonly disturbs growth hormone: somatotroph hyperplasia and GH-secreting pituitary adenomas cause acromegaly or gigantism in a minority, part of the multiple endocrine overactivity (with PPNAD-driven Cushing's) that defines it—so IGF-1/GH screening is advised.
 
 ---
 
