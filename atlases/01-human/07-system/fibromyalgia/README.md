@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "Anxiety disorders are highly comorbid with fibromyalgia: shared monoaminergic dysregulation and stress-axis dysfunction link them, anxiety amplifies pain perception and sleep disruption in a vicious cycle, and combined CBT plus SNRI treatment targets both pain and affective load."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Fibromyalgia and PTSD overlap through central sensitization and stress: trauma and HPA-axis dysregulation prime the nervous system to amplify pain, PTSD is a common antecedent and comorbidity of fibromyalgia, and both respond to approaches targeting the stress-pain loop."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Fibromyalgia frequently coexists with rheumatoid arthritis as secondary fibromyalgia: central pain sensitization adds widespread non-inflammatory pain atop joint disease, so inflated disease-activity scores mislead—distinguishing them avoids overtreating RA."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Fibromyalgia is common in Sjögren's and other autoimmune diseases: chronic illness and dysautonomia drive central sensitization, so widespread pain and fatigue in Sjögren's often reflect comorbid fibromyalgia rather than active glandular inflammation."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -210,6 +219,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Migraine](../migraine/README.md)** — Fibromyalgia and migraine frequently co-occur and share central sensitization and CGRP biology: both feature amplified pain processing and descending-inhibition failure, anti-CGRP antibodies developed for migraine are under study in FM, and SNRIs and exercise help both.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression coexists with fibromyalgia in ~40-60%: they share serotonin-norepinephrine dysregulation and HPA-axis changes, the SNRIs duloxetine and milnacipran treat both, and depression worsens FM pain and disability—though FM pain is not merely somatized depression.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety disorders are highly comorbid with fibromyalgia: shared monoaminergic dysregulation and stress-axis dysfunction link them, anxiety amplifies pain perception and sleep disruption in a vicious cycle, and combined CBT plus SNRI treatment targets both pain and affective load.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Fibromyalgia and PTSD overlap through central sensitization and stress: trauma and HPA-axis dysregulation prime the nervous system to amplify pain, PTSD is a common antecedent and comorbidity of fibromyalgia, and both respond to approaches targeting the stress-pain loop.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Fibromyalgia frequently coexists with rheumatoid arthritis as secondary fibromyalgia: central pain sensitization adds widespread non-inflammatory pain atop joint disease, so inflated disease-activity scores mislead—distinguishing them avoids overtreating RA.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Fibromyalgia is common in Sjögren's and other autoimmune diseases: chronic illness and dysautonomia drive central sensitization, so widespread pain and fatigue in Sjögren's often reflect comorbid fibromyalgia rather than active glandular inflammation.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
