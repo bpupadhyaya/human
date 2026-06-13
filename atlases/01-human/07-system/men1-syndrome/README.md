@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "The adrenal gland is a frequent but often silent MEN1 target: up to 40% of MEN1 patients develop adrenal cortical enlargement or adenomas, usually nonfunctioning, so surveillance imaging covers the adrenals even though parathyroid, pancreatic and pituitary tumors dominate."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Thyroid tumors occur in MEN1 beyond the classic three glands: while parathyroid, pituitary and pancreas dominate, menin loss also predisposes to thyroid adenomas and carcinoma, so the syndrome's reach extends across endocrine organs—warranting broad surveillance."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cushing's syndrome arises in MEN1 from two routes: ACTH-secreting pituitary tumors or adrenal/ectopic neuroendocrine tumors raise cortisol, so hypercortisolism in a MEN1 patient demands working out whether the pituitary, adrenal or a pancreatic NET is the source."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Primary hyperparathyroidism—MEN1's earliest, commonest feature—drives bone loss: excess PTH from multigland parathyroid tumors pulls calcium from bone, causing osteoporosis and stones, so early parathyroidectomy protects the skeleton in MEN1."
 ---
 
 # MEN1 Syndrome
@@ -207,6 +216,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — MEN1 and pheochromocytoma belong to the inherited endocrine-tumor syndromes but rarely overlap: MEN1's parathyroid, pancreatic and pituitary tumors contrast with the adrenal-medullary catecholamine tumors of MEN2 and VHL—so a pheochromocytoma points away from MEN1.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — MEN1 and von Hippel-Lindau are both dominant tumor-suppressor syndromes causing multi-organ tumors: MEN1 gives parathyroid, islet and pituitary tumors, while VHL gives pheochromocytoma, renal cancer and pancreatic NETs—overlapping in the pancreas, differing elsewhere.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a frequent but often silent MEN1 target: up to 40% of MEN1 patients develop adrenal cortical enlargement or adenomas, usually nonfunctioning, so surveillance imaging covers the adrenals even though parathyroid, pancreatic and pituitary tumors dominate.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Thyroid tumors occur in MEN1 beyond the classic three glands: while parathyroid, pituitary and pancreas dominate, menin loss also predisposes to thyroid adenomas and carcinoma, so the syndrome's reach extends across endocrine organs—warranting broad surveillance.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cushing's syndrome arises in MEN1 from two routes: ACTH-secreting pituitary tumors or adrenal/ectopic neuroendocrine tumors raise cortisol, so hypercortisolism in a MEN1 patient demands working out whether the pituitary, adrenal or a pancreatic NET is the source.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Primary hyperparathyroidism—MEN1's earliest, commonest feature—drives bone loss: excess PTH from multigland parathyroid tumors pulls calcium from bone, causing osteoporosis and stones, so early parathyroidectomy protects the skeleton in MEN1.
 
 ---
 
