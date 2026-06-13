@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Medulloblastoma can spread beyond the CNS to bone marrow: though it usually disseminates through cerebrospinal fluid along the neuraxis, this embryonal tumor occasionally metastasizes to bone and marrow—rare among brain tumors and a sign of aggressive disease."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy is standard for pediatric medulloblastoma's craniospinal radiation: because children need the whole brain and spine irradiated, protons' lack of exit dose spares the heart, lungs and gut, cutting the lifelong toxicity of treating this childhood brain tumor."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Medulloblastoma is the commonest malignant brain tumor of childhood, arising in the cerebellum: it disrupts balance and blocks CSF flow (hydrocephalus), and it seeds along the nervous system's CSF pathways—why staging and radiation cover the whole neuraxis."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Medulloblastoma arises from cerebellar progenitors, distinct from astrocyte-derived gliomas: it is an embryonal small-round-blue-cell tumor of granule-cell precursors, so its biology and treatment differ fundamentally from the astrocytic and oligodendroglial gliomas."
 ---
 
 # Medulloblastoma
@@ -229,6 +238,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — SHH-subtype medulloblastoma is driven by Smoothened: PTCH1 loss or SMO activation unleashes hedgehog signaling, defining one of the four molecular groups, and SMO inhibitors like vismodegib target it—though resistance and growth-plate toxicity limit use in children.
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYCN amplification marks high-risk medulloblastoma: in Group 3 and 4 tumors, amplified MYC/MYCN drives aggressive proliferation and poor prognosis, so molecular subgrouping—not just histology—now guides how intensively each child's tumor is treated.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Medulloblastoma can spread beyond the CNS to bone marrow: though it usually disseminates through cerebrospinal fluid along the neuraxis, this embryonal tumor occasionally metastasizes to bone and marrow—rare among brain tumors and a sign of aggressive disease.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is standard for pediatric medulloblastoma's craniospinal radiation: because children need the whole brain and spine irradiated, protons' lack of exit dose spares the heart, lungs and gut, cutting the lifelong toxicity of treating this childhood brain tumor.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Medulloblastoma is the commonest malignant brain tumor of childhood, arising in the cerebellum: it disrupts balance and blocks CSF flow (hydrocephalus), and it seeds along the nervous system's CSF pathways—why staging and radiation cover the whole neuraxis.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Medulloblastoma arises from cerebellar progenitors, distinct from astrocyte-derived gliomas: it is an embryonal small-round-blue-cell tumor of granule-cell precursors, so its biology and treatment differ fundamentally from the astrocytic and oligodendroglial gliomas.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

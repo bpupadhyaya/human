@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/03-molecular/nf1
     relation: connects-to
     note: "NF1 loss defines a third melanoma genomic subtype beyond BRAF and NRAS: inactivating NF1 mutations drive MAPK signaling in often heavily UV-mutated tumors, so the BRAF/NRAS/NF1 triad classifies melanomas and shapes which targeted or immune therapy fits."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Melanoma is the deadliest cancer of the integumentary system: arising from pigment-making melanocytes, it can metastasize early despite small size, so the skin's most dangerous tumor is caught by watching moles for change (the ABCDE signs)."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Melanoma also arises in the eye: uveal melanoma develops from melanocytes of the choroid, and rare mucosal and other non-cutaneous melanomas show that the cancer can start wherever melanocytes reside, not only sun-exposed skin."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Melanoma has a notorious tropism for the nervous system: it is among the cancers most likely to spread to the brain, and leptomeningeal disease is feared—so CNS imaging is routine, and checkpoint immunotherapy has improved control of melanoma brain metastases."
 ---
 
 # Melanoma
@@ -197,6 +206,9 @@ cross_links:
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help control melanoma: they kill tumor cells that downregulate MHC to escape T cells, complementing the cytotoxic T-cell response—so melanoma immunotherapy increasingly aims to engage NK as well as T cells against the tumor.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a frequent melanoma metastatic site, especially in uveal melanoma: cutaneous melanoma spreads widely but ocular melanoma homes almost exclusively to the liver, so liver imaging dominates surveillance and liver-directed therapy is often needed.
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 loss defines a third melanoma genomic subtype beyond BRAF and NRAS: inactivating NF1 mutations drive MAPK signaling in often heavily UV-mutated tumors, so the BRAF/NRAS/NF1 triad classifies melanomas and shapes which targeted or immune therapy fits.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Melanoma is the deadliest cancer of the integumentary system: arising from pigment-making melanocytes, it can metastasize early despite small size, so the skin's most dangerous tumor is caught by watching moles for change (the ABCDE signs).
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Melanoma also arises in the eye: uveal melanoma develops from melanocytes of the choroid, and rare mucosal and other non-cutaneous melanomas show that the cancer can start wherever melanocytes reside, not only sun-exposed skin.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Melanoma has a notorious tropism for the nervous system: it is among the cancers most likely to spread to the brain, and leptomeningeal disease is feared—so CNS imaging is routine, and checkpoint immunotherapy has improved control of melanoma brain metastases.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
