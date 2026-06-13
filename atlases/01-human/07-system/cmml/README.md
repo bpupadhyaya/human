@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/myelofibrosis
     relation: connects-to
     note: "CMML and myelofibrosis are both MDS/MPN-spectrum disorders that can develop marrow fibrosis and splenomegaly: CMML is defined by monocytosis with dysplasia, myelofibrosis by JAK2/CALR with teardrop cells—but both are clonal stem-cell diseases that can transform to AML."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "CMML disrupts red cell production: as the dysplastic clone expands, anemia from ineffective erythropoiesis is common alongside monocytosis, so fatigue and transfusion dependence mark the myelodysplastic side of this MDS/MPN overlap disorder."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "RUNX1 mutations worsen CMML prognosis: this transcription-factor gene, often mutated alongside ASXL1 and SRSF2, impairs normal myeloid differentiation and predicts faster progression to AML—part of the molecular risk profile now guiding CMML treatment."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "CMML and essential thrombocythemia both blur the MDS/MPN border: CMML is the overlap disorder with monocytosis and dysplasia, while ET is a classic MPN with platelet excess—yet both are clonal stem-cell diseases, and CMML's proliferative type can mimic an MPN."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -213,6 +222,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CMML's myelodysplasia shows in dysplastic neutrophils alongside its defining monocytosis: hypogranular, pseudo-Pelger-Huët neutrophils reflect the clonal marrow defect, and persistent monocytosis with these features separates CMML from a reactive monocytosis.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The proliferative form of CMML enlarges the spleen: when the clone behaves myeloproliferatively (high white count), extramedullary hematopoiesis causes splenomegaly—unlike the dysplastic, cytopenic form, marking the MDS/MPN-overlap spectrum CMML spans.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — CMML and myelofibrosis are both MDS/MPN-spectrum disorders that can develop marrow fibrosis and splenomegaly: CMML is defined by monocytosis with dysplasia, myelofibrosis by JAK2/CALR with teardrop cells—but both are clonal stem-cell diseases that can transform to AML.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CMML disrupts red cell production: as the dysplastic clone expands, anemia from ineffective erythropoiesis is common alongside monocytosis, so fatigue and transfusion dependence mark the myelodysplastic side of this MDS/MPN overlap disorder.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 mutations worsen CMML prognosis: this transcription-factor gene, often mutated alongside ASXL1 and SRSF2, impairs normal myeloid differentiation and predicts faster progression to AML—part of the molecular risk profile now guiding CMML treatment.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — CMML and essential thrombocythemia both blur the MDS/MPN border: CMML is the overlap disorder with monocytosis and dysplasia, while ET is a classic MPN with platelet excess—yet both are clonal stem-cell diseases, and CMML's proliferative type can mimic an MPN.
 
 ---
 

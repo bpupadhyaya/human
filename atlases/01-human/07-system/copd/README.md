@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Osteoporosis is a frequent, underrecognized COPD comorbidity: inflammation, inactivity, low vitamin D, smoking, and corticosteroids thin the bones, so COPD patients fracture more—and vertebral fractures further impair breathing, warranting bone-density screening."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "COPD destroys the alveolus in emphysema: protease-driven breakdown of alveolar walls merges the tiny gas-exchange sacs into large, inelastic spaces, slashing surface area and trapping air—so the lung loses both the recoil to exhale and the surface to oxygenate."
+  - target: 01-human/04-cellular/type-ii-pneumocyte
+    relation: connects-to
+    note: "Type II pneumocytes are injured and overwhelmed in COPD: chronic smoke exposure damages these surfactant-producing, alveolus-repairing cells, impairing their regeneration of the destroyed alveolar lining—so failed epithelial repair contributes to progressive emphysema."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "COPD ultimately fails at delivering oxygen: airway obstruction and alveolar destruction cause hypoxemia and CO2 retention, which is why advanced COPD needs supplemental oxygen—the one therapy, with smoking cessation, shown to prolong survival in hypoxemic patients."
 ---
 
 # COPD
@@ -238,6 +247,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — COPD is a leading cause of pulmonary hypertension and cor pulmonale: chronic hypoxia constricts and remodels pulmonary arteries, raising right-heart pressure until the right ventricle fails—so a loud P2, edema, and a dilated right heart signal this grave complication.
 - `connects-to` → **[Influenza](../influenza/README.md)** — Respiratory viruses like influenza are major triggers of COPD exacerbations: infection inflames already-damaged airways, causing the acute worsening of breathlessness and sputum that drives hospitalization—so annual flu vaccination is core to COPD care.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Osteoporosis is a frequent, underrecognized COPD comorbidity: inflammation, inactivity, low vitamin D, smoking, and corticosteroids thin the bones, so COPD patients fracture more—and vertebral fractures further impair breathing, warranting bone-density screening.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — COPD destroys the alveolus in emphysema: protease-driven breakdown of alveolar walls merges the tiny gas-exchange sacs into large, inelastic spaces, slashing surface area and trapping air—so the lung loses both the recoil to exhale and the surface to oxygenate.
+- `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Type II pneumocytes are injured and overwhelmed in COPD: chronic smoke exposure damages these surfactant-producing, alveolus-repairing cells, impairing their regeneration of the destroyed alveolar lining—so failed epithelial repair contributes to progressive emphysema.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — COPD ultimately fails at delivering oxygen: airway obstruction and alveolar destruction cause hypoxemia and CO2 retention, which is why advanced COPD needs supplemental oxygen—the one therapy, with smoking cessation, shown to prolong survival in hypoxemic patients.
 
 ---
 
