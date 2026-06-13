@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "AIDS reflects the collapse of T-cell immunity: as CD4 helper cells fall, CD8+ cytotoxic T cells lose the help they need and become exhausted, so cell-mediated control of viruses, intracellular bacteria and tumors fails—explaining the opportunistic infections that define AIDS."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "HIV/AIDS is the disease end of HIV infection: as the retrovirus depletes CD4 T cells, defenses collapse and AIDS-defining opportunistic infections and cancers appear—so the pathogen and the syndrome name one continuum, now arrested early by antiretroviral therapy."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Burkitt lymphoma is an AIDS-defining cancer: HIV-driven immune dysregulation and chronic B-cell activation, often with EBV co-infection, raise Burkitt risk even at preserved CD4 counts—so a fast-growing lymphoma in an HIV patient is Burkitt until proven otherwise."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "HIV and hepatitis B frequently coinfect via shared blood and sexual routes: HIV accelerates HBV liver fibrosis, and several antiretrovirals (tenofovir, lamivudine) suppress both viruses—so HIV regimens are chosen to cover HBV and avoid flares if stopped."
 ---
 
 # HIV/AIDS
@@ -186,6 +195,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Human Immunodeficiency Virus type 1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — AIDS is the late stage of HIV-1 infection: years of unchecked viral replication deplete CD4 T cells below ~200/µL, collapsing cell-mediated immunity and opening the door to opportunistic infections and cancers; antiretroviral therapy suppressing HIV-1 prevents and can reverse it.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Cervical cancer is an AIDS-defining illness: HIV-driven immunosuppression lets oncogenic HPV persist and progress faster to invasive cancer, so women with HIV face markedly higher risk; antiretroviral therapy and HPV vaccination plus screening are key preventive measures.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — AIDS reflects the collapse of T-cell immunity: as CD4 helper cells fall, CD8+ cytotoxic T cells lose the help they need and become exhausted, so cell-mediated control of viruses, intracellular bacteria and tumors fails—explaining the opportunistic infections that define AIDS.
+- `connects-to` → **[HIV](../hiv/README.md)** — HIV/AIDS is the disease end of HIV infection: as the retrovirus depletes CD4 T cells, defenses collapse and AIDS-defining opportunistic infections and cancers appear—so the pathogen and the syndrome name one continuum, now arrested early by antiretroviral therapy.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Burkitt lymphoma is an AIDS-defining cancer: HIV-driven immune dysregulation and chronic B-cell activation, often with EBV co-infection, raise Burkitt risk even at preserved CD4 counts—so a fast-growing lymphoma in an HIV patient is Burkitt until proven otherwise.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HIV and hepatitis B frequently coinfect via shared blood and sexual routes: HIV accelerates HBV liver fibrosis, and several antiretrovirals (tenofovir, lamivudine) suppress both viruses—so HIV regimens are chosen to cover HBV and avoid flares if stopped.
 
 ## See Also
 

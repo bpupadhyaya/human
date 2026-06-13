@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Influenza is a potent cardiac trigger: in the week after infection the risk of myocardial infarction rises about six-fold, and the virus can cause myocarditis and decompensate heart failure; influenza vaccination reduces cardiovascular events, so it doubles as cardioprotection."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "Influenza and RSV are the two dominant seasonal respiratory viruses co-circulating each winter: both cause fever, cough, and pneumonia at the extremes of age, both now have older-adult vaccines, and multiplex PCR distinguishes them to guide antivirals and isolation."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Influenza has a striking link to narcolepsy: the 2009 H1N1 pandemic and its Pandemrix vaccine both raised type 1 narcolepsy in HLA-DQB1*06:02 carriers, apparently via molecular mimicry between an H1N1 hemagglutinin epitope and orexin—an infection-triggered autoimmunity."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells clear influenza and shape its vaccines: CD8 T cells recognizing conserved internal viral proteins kill infected cells and give cross-strain protection, which is why universal flu vaccines aim to harness T-cell immunity beyond strain-specific antibodies."
 ---
 
 # Influenza
@@ -207,3 +216,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Measles](../measles/README.md)** — Both are vaccine-preventable respiratory viruses but distinct: influenza (orthomyxovirus) drifts and shifts antigenically, needing annual reformulated vaccines, while measles (paramyxovirus) is antigenically stable—one MMR series gives lifelong immunity—yet far more contagious.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Influenza and COVID-19 are the dominant pandemic-capable respiratory viruses, overlapping in presentation but with distinct antivirals (oseltamivir/baloxavir vs nirmatrelvir/remdesivir); they co-circulate seasonally ('flurona' occurs) and both have annually updated vaccines.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Influenza is a potent cardiac trigger: in the week after infection the risk of myocardial infarction rises about six-fold, and the virus can cause myocarditis and decompensate heart failure; influenza vaccination reduces cardiovascular events, so it doubles as cardioprotection.
+- `connects-to` → **[RSV](../rsv/README.md)** — Influenza and RSV are the two dominant seasonal respiratory viruses co-circulating each winter: both cause fever, cough, and pneumonia at the extremes of age, both now have older-adult vaccines, and multiplex PCR distinguishes them to guide antivirals and isolation.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Influenza has a striking link to narcolepsy: the 2009 H1N1 pandemic and its Pandemrix vaccine both raised type 1 narcolepsy in HLA-DQB1*06:02 carriers, apparently via molecular mimicry between an H1N1 hemagglutinin epitope and orexin—an infection-triggered autoimmunity.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells clear influenza and shape its vaccines: CD8 T cells recognizing conserved internal viral proteins kill infected cells and give cross-strain protection, which is why universal flu vaccines aim to harness T-cell immunity beyond strain-specific antibodies.
