@@ -62,6 +62,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
     relation: connects-to
     note: "PANDAS links Group A Streptococcus to abrupt-onset pediatric OCD: anti-streptococcal antibodies cross-react with basal-ganglia neurons to inflame the CSTC circuit, producing sudden obsessions and tics that may respond to antibiotics and immunotherapy."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "OCD and BPD both involve distressing, hard-to-control inner experience but differ in form: OCD is ego-dystonic intrusive thoughts and compulsions, BPD is emotional instability, impulsivity and unstable relationships; they can co-occur, with ERP/CBT central to OCD and DBT to BPD."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "OCD and autism overlap substantially: both feature repetitive behaviors and need for sameness, OCD is markedly more prevalent in autistic people, and distinguishing ego-dystonic compulsions from autistic routines (often not distressing in themselves) is a key clinical challenge."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "OCD and anorexia nervosa are closely linked: they share perfectionism, intrusive thoughts and ritualized behavior, frequently co-occur, and high premorbid OCD traits predict anorexia; orbitofrontal-striatal circuitry features in both, though anorexia's rituals center on food."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -201,6 +210,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Major depression is the most common comorbidity of OCD (~65% lifetime), usually arising secondary to the burden of obsessions and compulsions; the two share serotonergic dysfunction and both respond to SSRIs, though OCD needs higher doses and 8-12 weeks to respond.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — OCD is distinguished from generalized anxiety disorder by the form of the thoughts: OCD obsessions are intrusive, ego-dystonic, and trigger stereotyped compulsions, whereas GAD worry is about realistic everyday concerns, ego-syntonic, and not ritualized.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — PANDAS links Group A Streptococcus to abrupt-onset pediatric OCD: anti-streptococcal antibodies cross-react with basal-ganglia neurons to inflame the CSTC circuit, producing sudden obsessions and tics that may respond to antibiotics and immunotherapy.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — OCD and BPD both involve distressing, hard-to-control inner experience but differ in form: OCD is ego-dystonic intrusive thoughts and compulsions, BPD is emotional instability, impulsivity and unstable relationships; they can co-occur, with ERP/CBT central to OCD and DBT to BPD.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — OCD and autism overlap substantially: both feature repetitive behaviors and need for sameness, OCD is markedly more prevalent in autistic people, and distinguishing ego-dystonic compulsions from autistic routines (often not distressing in themselves) is a key clinical challenge.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — OCD and anorexia nervosa are closely linked: they share perfectionism, intrusive thoughts and ritualized behavior, frequently co-occur, and high premorbid OCD traits predict anorexia; orbitofrontal-striatal circuitry features in both, though anorexia's rituals center on food.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

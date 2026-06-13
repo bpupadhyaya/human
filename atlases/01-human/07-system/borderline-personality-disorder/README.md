@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopamine dysregulation contributes to the impulsivity, reward-seeking, and transient stress-related paranoia of BPD; this rationale underlies adjunctive low-dose atypical antipsychotics (which block D2), used symptom-by-symptom since no drug is FDA-approved for BPD."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "BPD and OCD both feature distressing, hard-to-control mental phenomena but differ in form: BPD centers on emotional instability, impulsivity and unstable relationships, OCD on ego-dystonic intrusive thoughts and compulsions; they can co-occur and overlap on SSRI treatment."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Bipolar disorder is the key differential for BPD: both show mood swings, but bipolar episodes last days-to-weeks and are often unprovoked while BPD affective shifts are rapid (hours) and reactive to interpersonal triggers; the two frequently coexist and are commonly conflated."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Substance use, especially alcohol, is among the commonest BPD comorbidities (~50%): impulsivity and affect dysregulation promote drinking to escape dysphoria, which worsens self-harm and suicide risk; integrated treatment of both outperforms treating either alone."
 ---
 
 # Borderline Personality Disorder
@@ -203,6 +212,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression coexists with BPD in ~40-75% and usually drives help-seeking, but the mood states differ: BPD dysphoria is reactive and shifts within hours to interpersonal triggers, whereas an MDD episode is sustained over weeks and more autonomous.
 
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine dysregulation contributes to the impulsivity, reward-seeking, and transient stress-related paranoia of BPD; this rationale underlies adjunctive low-dose atypical antipsychotics (which block D2), used symptom-by-symptom since no drug is FDA-approved for BPD.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — BPD and OCD both feature distressing, hard-to-control mental phenomena but differ in form: BPD centers on emotional instability, impulsivity and unstable relationships, OCD on ego-dystonic intrusive thoughts and compulsions; they can co-occur and overlap on SSRI treatment.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Bipolar disorder is the key differential for BPD: both show mood swings, but bipolar episodes last days-to-weeks and are often unprovoked while BPD affective shifts are rapid (hours) and reactive to interpersonal triggers; the two frequently coexist and are commonly conflated.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Substance use, especially alcohol, is among the commonest BPD comorbidities (~50%): impulsivity and affect dysregulation promote drinking to escape dysphoria, which worsens self-harm and suicide risk; integrated treatment of both outperforms treating either alone.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
