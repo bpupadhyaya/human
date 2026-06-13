@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/schizophrenia
     relation: connects-to
     note: "Heavy methamphetamine or cocaine use can produce a psychosis clinically indistinguishable from schizophrenia, reflecting shared excess striatal dopamine; the paranoid delusions and hallucinations may persist for weeks after the drug stops and are treated with antipsychotics."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Stimulants are a major cause of stroke in the young: cocaine and methamphetamine drive surges in blood pressure, vasospasm and vasculitis-like arteriopathy → ischemic and hemorrhagic stroke (and MI), often within hours of use; chronic meth also accelerates small-vessel disease."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Stimulant use disorder fuels HIV transmission: methamphetamine drives high-risk sexual behavior and, when injected, needle sharing; it also worsens antiretroviral adherence and accelerates neurocognitive decline, making integrated addiction and HIV care essential."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Stimulant and alcohol use disorders commonly co-occur, and the combination is uniquely toxic: co-use of cocaine and alcohol forms cocaethylene, a longer-acting metabolite that heightens cardiac and hepatic toxicity and sudden-death risk; alcohol is often used to 'come down'."
 ---
 
 # Stimulant Use Disorder
@@ -185,6 +194,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cocaine is directly cardiotoxic: by blocking norepinephrine reuptake and triggering α1-adrenergic coronary vasospasm it can cause myocardial infarction even in young people, plus arrhythmia and aortic dissection — cocaine chest pain is a leading drug-related ED visit.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Stimulant and opioid use disorders engage the same VTA-NAcc dopamine reward system from opposite ends, and the two increasingly overlap: 'speedball' co-use and fentanyl-adulterated cocaine/meth now drive tens of thousands of stimulant-involved overdose deaths a year.
 - `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Heavy methamphetamine or cocaine use can produce a psychosis clinically indistinguishable from schizophrenia, reflecting shared excess striatal dopamine; the paranoid delusions and hallucinations may persist for weeks after the drug stops and are treated with antipsychotics.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Stimulants are a major cause of stroke in the young: cocaine and methamphetamine drive surges in blood pressure, vasospasm and vasculitis-like arteriopathy → ischemic and hemorrhagic stroke (and MI), often within hours of use; chronic meth also accelerates small-vessel disease.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Stimulant use disorder fuels HIV transmission: methamphetamine drives high-risk sexual behavior and, when injected, needle sharing; it also worsens antiretroviral adherence and accelerates neurocognitive decline, making integrated addiction and HIV care essential.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Stimulant and alcohol use disorders commonly co-occur, and the combination is uniquely toxic: co-use of cocaine and alcohol forms cocaethylene, a longer-acting metabolite that heightens cardiac and hepatic toxicity and sudden-death risk; alcohol is often used to 'come down'.
 
 ## Treatment
 

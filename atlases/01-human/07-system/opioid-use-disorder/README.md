@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Opioid and stimulant use disorders share the VTA-NAcc dopamine reward circuitry but pull in opposite directions, and are increasingly fatal together: 'speedball' combinations and fentanyl-contaminated stimulants drive a rising share of overdose deaths."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Injection opioid use is the leading driver of hepatitis C transmission: shared needles spread HCV efficiently and people with OUD carry a high HCV burden; opioid agonist therapy, syringe services and direct-acting antivirals (treatment-as-prevention) are the combined response."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Injection opioid use spreads HIV through shared needles, and OUD also raises sexual transmission risk; harm reduction (syringe services, naloxone), opioid agonist therapy and antiretrovirals/PrEP intersect here, and untreated OUD undermines HIV care and viral suppression."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Opioid and alcohol use disorders frequently co-occur and are dangerous together: both are CNS depressants, so combined use multiplies respiratory depression and overdose death; they share reward and stress circuitry, and concurrent alcohol complicates opioid agonist therapy."
 ---
 
 # Opioid Use Disorder
@@ -226,6 +235,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Injecting opioids seeds the bloodstream with skin and needle bacteria, which lodge on heart valves — classically the tricuspid — to cause infective endocarditis, a high-mortality complication of injection drug use that may need valve surgery alongside OUD treatment.
 
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Opioid and stimulant use disorders share the VTA-NAcc dopamine reward circuitry but pull in opposite directions, and are increasingly fatal together: 'speedball' combinations and fentanyl-contaminated stimulants drive a rising share of overdose deaths.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Injection opioid use is the leading driver of hepatitis C transmission: shared needles spread HCV efficiently and people with OUD carry a high HCV burden; opioid agonist therapy, syringe services and direct-acting antivirals (treatment-as-prevention) are the combined response.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Injection opioid use spreads HIV through shared needles, and OUD also raises sexual transmission risk; harm reduction (syringe services, naloxone), opioid agonist therapy and antiretrovirals/PrEP intersect here, and untreated OUD undermines HIV care and viral suppression.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Opioid and alcohol use disorders frequently co-occur and are dangerous together: both are CNS depressants, so combined use multiplies respiratory depression and overdose death; they share reward and stress circuitry, and concurrent alcohol complicates opioid agonist therapy.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
