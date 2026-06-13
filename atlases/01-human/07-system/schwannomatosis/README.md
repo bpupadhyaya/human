@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Schwannomatosis is a disease of the peripheral nervous system: schwannomas stud peripheral and spinal nerve roots, and its hallmark is severe chronic neuropathic pain out of proportion to size from intraneural growth — distinguishing it from NF2 even when both make schwannomas."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Schwannomatosis and meningioma overlap through the NF2/SWI-SNF axis: SMARCB1 and LZTR1 mutations cause schwannomatosis, and SMARCB1-mutant cases can also develop meningiomas, while NF2-related schwannomatosis classically combines schwannomas with meningiomas and ependymomas."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Chronic pain, not hearing loss, is the defining feature of schwannomatosis: unlike NF2, its multiple peripheral-nerve schwannomas cause severe, often disproportionate neuropathic pain as the presenting complaint, making pain management central to care."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Schwannomatosis and synovial sarcoma both disrupt the SWI/SNF chromatin-remodeling complex: SMARCB1 loss drives SMARCB1-related schwannomatosis (and rhabdoid tumors), while synovial sarcoma's SS18-SSX fusion hijacks the same BAF complex—shared epigenetic biology."
 ---
 
 # Schwannomatosis
@@ -165,6 +174,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[MPNST](../mpnst/README.md)** — Schwannomatosis and MPNST sit at opposite ends of nerve-sheath biology: schwannomatosis makes multiple benign but painful schwannomas (SMARCB1/LZTR1), while MPNST is the malignant Schwann-cell sarcoma — transformation is rare in schwannomatosis, unlike the ~10% MPNST risk in NF1.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Schwannomatosis is the third neurofibromatosis with NF1 and NF2: all make multiple nerve-sheath tumors, but NF1 (RAS) makes neurofibromas with café-au-lait spots, NF2 (merlin) bilateral vestibular schwannomas, and schwannomatosis (SMARCB1/LZTR1) painful schwannomas without VS.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Schwannomatosis is a disease of the peripheral nervous system: schwannomas stud peripheral and spinal nerve roots, and its hallmark is severe chronic neuropathic pain out of proportion to size from intraneural growth — distinguishing it from NF2 even when both make schwannomas.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Schwannomatosis and meningioma overlap through the NF2/SWI-SNF axis: SMARCB1 and LZTR1 mutations cause schwannomatosis, and SMARCB1-mutant cases can also develop meningiomas, while NF2-related schwannomatosis classically combines schwannomas with meningiomas and ependymomas.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Chronic pain, not hearing loss, is the defining feature of schwannomatosis: unlike NF2, its multiple peripheral-nerve schwannomas cause severe, often disproportionate neuropathic pain as the presenting complaint, making pain management central to care.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Schwannomatosis and synovial sarcoma both disrupt the SWI/SNF chromatin-remodeling complex: SMARCB1 loss drives SMARCB1-related schwannomatosis (and rhabdoid tumors), while synovial sarcoma's SS18-SSX fusion hijacks the same BAF complex—shared epigenetic biology.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

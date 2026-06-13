@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "The brain is a defining SCLC battleground: ~50% develop brain metastases from its early spread, so prophylactic cranial irradiation is offered to responders; SCLC also causes paraneoplastic limbic encephalitis, and DLL3-targeted tarlatamab achieves CNS responses."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is integral to small cell lung cancer: concurrent thoracic photon radiation with platinum chemotherapy is standard for limited-stage disease (often twice-daily), exploiting SCLC's marked radiosensitivity—with cranial irradiation added for brain spread."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Small cell lung cancer and retinoblastoma are linked by RB1 loss: the tumor-suppressor that, germline-mutated, causes childhood retinoblastoma is inactivated (with TP53) in nearly all SCLC—one gene whose loss drives cancers in utterly different tissues and ages."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages populate the immunosuppressive SCLC microenvironment: despite its high mutational burden from smoking, SCLC responds only modestly to immunotherapy, partly because M2 macrophages and an exhausted, 'cold' immune milieu blunt T-cell attack."
 ---
 
 # Small Cell Lung Cancer
@@ -173,6 +182,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Small cell lung cancer and tuberculosis both present as a cavitary lung lesion with weight loss, cough, and hemoptysis in older smokers, sharing a radiographic differential — neuroendocrine tumor versus granulomatous infection — resolved by biopsy and microbiology.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — SCLC's neuroendocrine identity drives paraneoplastic neurology: tumor cells express neuronal antigens, so anti-neuronal antibodies attack the nervous system — anti-Hu encephalomyelitis and Lambert-Eaton myasthenic syndrome (anti-VGCC) — often before the cancer is found.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a defining SCLC battleground: ~50% develop brain metastases from its early spread, so prophylactic cranial irradiation is offered to responders; SCLC also causes paraneoplastic limbic encephalitis, and DLL3-targeted tarlatamab achieves CNS responses.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is integral to small cell lung cancer: concurrent thoracic photon radiation with platinum chemotherapy is standard for limited-stage disease (often twice-daily), exploiting SCLC's marked radiosensitivity—with cranial irradiation added for brain spread.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Small cell lung cancer and retinoblastoma are linked by RB1 loss: the tumor-suppressor that, germline-mutated, causes childhood retinoblastoma is inactivated (with TP53) in nearly all SCLC—one gene whose loss drives cancers in utterly different tissues and ages.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages populate the immunosuppressive SCLC microenvironment: despite its high mutational burden from smoking, SCLC responds only modestly to immunotherapy, partly because M2 macrophages and an exhausted, 'cold' immune milieu blunt T-cell attack.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
