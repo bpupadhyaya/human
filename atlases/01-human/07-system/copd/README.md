@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "COPD ultimately fails at delivering oxygen: airway obstruction and alveolar destruction cause hypoxemia and CO2 retention, which is why advanced COPD needs supplemental oxygen—the one therapy, with smoking cessation, shown to prolong survival in hypoxemic patients."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Airway smooth muscle drives the obstruction in COPD: chronic inflammation thickens and tightens bronchiolar smooth muscle, and bronchodilators that relax it are the mainstay of symptom control—targeting the reversible component of fixed airflow limitation."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "COPD and cardiovascular disease are deeply linked: shared smoking and systemic inflammation raise heart-attack and arrhythmia risk, and chronic hypoxia strains the right heart toward cor pulmonale—so cardiovascular disease is a leading cause of death in COPD."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "COPD and depression commonly coexist: breathlessness, disability and chronic hypoxia foster depression and anxiety in a large share of patients, which in turn worsen adherence and outcomes—so mental health is integral to comprehensive COPD care."
 ---
 
 # COPD
@@ -250,6 +259,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — COPD destroys the alveolus in emphysema: protease-driven breakdown of alveolar walls merges the tiny gas-exchange sacs into large, inelastic spaces, slashing surface area and trapping air—so the lung loses both the recoil to exhale and the surface to oxygenate.
 - `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Type II pneumocytes are injured and overwhelmed in COPD: chronic smoke exposure damages these surfactant-producing, alveolus-repairing cells, impairing their regeneration of the destroyed alveolar lining—so failed epithelial repair contributes to progressive emphysema.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — COPD ultimately fails at delivering oxygen: airway obstruction and alveolar destruction cause hypoxemia and CO2 retention, which is why advanced COPD needs supplemental oxygen—the one therapy, with smoking cessation, shown to prolong survival in hypoxemic patients.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Airway smooth muscle drives the obstruction in COPD: chronic inflammation thickens and tightens bronchiolar smooth muscle, and bronchodilators that relax it are the mainstay of symptom control—targeting the reversible component of fixed airflow limitation.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — COPD and cardiovascular disease are deeply linked: shared smoking and systemic inflammation raise heart-attack and arrhythmia risk, and chronic hypoxia strains the right heart toward cor pulmonale—so cardiovascular disease is a leading cause of death in COPD.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — COPD and depression commonly coexist: breathlessness, disability and chronic hypoxia foster depression and anxiety in a large share of patients, which in turn worsen adherence and outcomes—so mental health is integral to comprehensive COPD care.
 
 ---
 

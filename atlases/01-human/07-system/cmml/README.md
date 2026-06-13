@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/essential-thrombocythemia
     relation: connects-to
     note: "CMML and essential thrombocythemia both blur the MDS/MPN border: CMML is the overlap disorder with monocytosis and dysplasia, while ET is a classic MPN with platelet excess—yet both are clonal stem-cell diseases, and CMML's proliferative type can mimic an MPN."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "CMML disrupts platelet production: the dysplastic clone often causes thrombocytopenia from ineffective marrow output, raising bleeding risk, though some cases instead run high platelets—reflecting CMML's mixed dysplastic and proliferative nature."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "CMML frequently carries systemic autoimmune and inflammatory features: roughly a fifth of patients develop vasculitis, arthritis or other immune-mediated disease, because the mutant monocytes fuel inflammation—so CMML can present to rheumatology before hematology."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "CMML often infiltrates the skin: monocytic leukemia cutis and neutrophilic dermatoses like Sweet syndrome produce papules and plaques, so a skin biopsy can reveal the leukemic clone or its inflammatory companions in this monocyte-driven disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -225,6 +234,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CMML disrupts red cell production: as the dysplastic clone expands, anemia from ineffective erythropoiesis is common alongside monocytosis, so fatigue and transfusion dependence mark the myelodysplastic side of this MDS/MPN overlap disorder.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 mutations worsen CMML prognosis: this transcription-factor gene, often mutated alongside ASXL1 and SRSF2, impairs normal myeloid differentiation and predicts faster progression to AML—part of the molecular risk profile now guiding CMML treatment.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — CMML and essential thrombocythemia both blur the MDS/MPN border: CMML is the overlap disorder with monocytosis and dysplasia, while ET is a classic MPN with platelet excess—yet both are clonal stem-cell diseases, and CMML's proliferative type can mimic an MPN.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — CMML disrupts platelet production: the dysplastic clone often causes thrombocytopenia from ineffective marrow output, raising bleeding risk, though some cases instead run high platelets—reflecting CMML's mixed dysplastic and proliferative nature.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — CMML frequently carries systemic autoimmune and inflammatory features: roughly a fifth of patients develop vasculitis, arthritis or other immune-mediated disease, because the mutant monocytes fuel inflammation—so CMML can present to rheumatology before hematology.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CMML often infiltrates the skin: monocytic leukemia cutis and neutrophilic dermatoses like Sweet syndrome produce papules and plaques, so a skin biopsy can reveal the leukemic clone or its inflammatory companions in this monocyte-driven disease.
 
 ---
 
