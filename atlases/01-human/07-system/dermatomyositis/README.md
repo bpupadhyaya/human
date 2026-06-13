@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/pemphigus-vulgaris
     relation: connects-to
     note: "Dermatomyositis and pemphigus vulgaris are autoimmune skin diseases that can be paraneoplastic: DM is a classic paraneoplastic dermatosis, and paraneoplastic pemphigus accompanies lymphoma/Castleman—so distinctive new skin disease prompts a malignancy search."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Dermatomyositis is a complement-mediated microangiopathy: antibody and complement form the membrane attack complex on endomysial capillaries, destroying them and causing perifascicular muscle atrophy—complement, not T-cell attack, drives the injury."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Dermatomyositis is strongly paraneoplastic: adult-onset disease carries a markedly raised risk of occult cancer—ovarian, lung, gastric, breast—often within the first years, so a new diagnosis triggers cancer screening, with the myositis sometimes heralding the tumor."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells and type-I-interferon immunity underpin dermatomyositis: CD4+ T cells and dendritic cells flood muscle and skin with an interferon signature, and JAK inhibitors blocking this are emerging therapy—adaptive immunity alongside complement."
 ---
 
 # Dermatomyositis
@@ -220,6 +229,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Dermatomyositis and systemic sclerosis are interferon-driven connective tissue diseases that overlap in scleromyositis: anti-PM/Scl antibodies mark patients with both inflammatory myopathy and skin fibrosis, blurring the line between the two autoimmune diseases.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Dermatomyositis is a classic paraneoplastic disease: adult-onset DM carries a markedly raised cancer risk—lung (including NSCLC), ovarian, GI, and nasopharyngeal—often within the first years, so a new diagnosis triggers age-appropriate malignancy screening.
 - `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Dermatomyositis and pemphigus vulgaris are autoimmune skin diseases that can be paraneoplastic: DM is a classic paraneoplastic dermatosis, and paraneoplastic pemphigus accompanies lymphoma/Castleman—so distinctive new skin disease prompts a malignancy search.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Dermatomyositis is a complement-mediated microangiopathy: antibody and complement form the membrane attack complex on endomysial capillaries, destroying them and causing perifascicular muscle atrophy—complement, not T-cell attack, drives the injury.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Dermatomyositis is strongly paraneoplastic: adult-onset disease carries a markedly raised risk of occult cancer—ovarian, lung, gastric, breast—often within the first years, so a new diagnosis triggers cancer screening, with the myositis sometimes heralding the tumor.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells and type-I-interferon immunity underpin dermatomyositis: CD4+ T cells and dendritic cells flood muscle and skin with an interferon signature, and JAK inhibitors blocking this are emerging therapy—adaptive immunity alongside complement.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

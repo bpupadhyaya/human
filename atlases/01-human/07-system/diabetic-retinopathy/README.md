@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Diabetic retinopathy is now seen as a neurovascular disease, not purely vascular: retinal neurons and glia are injured early—before visible microaneurysms—as hyperglycemia disrupts neuronal metabolism, so subtle vision loss can precede vascular lesions."
+  - target: 01-human/03-molecular/rage
+    relation: connects-to
+    note: "Advanced glycation end products and their receptor RAGE drive diabetic retinopathy: chronic hyperglycemia glycates proteins that bind RAGE on retinal vessels, triggering inflammation and pericyte loss—a core mechanism translating high glucose into microvascular damage."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity feeds diabetic retinopathy through type 2 diabetes: the insulin resistance and hyperglycemia of obesity-driven diabetes damage retinal microvessels over years, so the obesity epidemic expands the population at risk for the leading cause of working-age blindness."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Diabetic retinopathy and sickle cell retinopathy are both proliferative retinopathies: both occlude retinal capillaries—by hyperglycemic microangiopathy versus sickled-cell vaso-occlusion—driving VEGF-fueled neovascularization that can bleed and detach the retina."
 ---
 
 # Diabetic Retinopathy
@@ -197,6 +206,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Laser photons treat diabetic retinopathy: pan-retinal photocoagulation burns ischemic peripheral retina to suppress VEGF and halt neovascularization, while focal laser seals leaking microaneurysms—an older mainstay now complemented by anti-VEGF injections.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Diabetic retinopathy is the microvascular mirror of atherosclerosis's macrovascular disease: the same hyperglycemia, dyslipidemia, and hypertension that clog large arteries damage retinal capillaries, so retinopathy on fundoscopy flags systemic vascular risk.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Diabetic retinopathy is now seen as a neurovascular disease, not purely vascular: retinal neurons and glia are injured early—before visible microaneurysms—as hyperglycemia disrupts neuronal metabolism, so subtle vision loss can precede vascular lesions.
+- `connects-to` → **[RAGE](../../03-molecular/rage/README.md)** — Advanced glycation end products and their receptor RAGE drive diabetic retinopathy: chronic hyperglycemia glycates proteins that bind RAGE on retinal vessels, triggering inflammation and pericyte loss—a core mechanism translating high glucose into microvascular damage.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity feeds diabetic retinopathy through type 2 diabetes: the insulin resistance and hyperglycemia of obesity-driven diabetes damage retinal microvessels over years, so the obesity epidemic expands the population at risk for the leading cause of working-age blindness.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Diabetic retinopathy and sickle cell retinopathy are both proliferative retinopathies: both occlude retinal capillaries—by hyperglycemic microangiopathy versus sickled-cell vaso-occlusion—driving VEGF-fueled neovascularization that can bleed and detach the retina.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
