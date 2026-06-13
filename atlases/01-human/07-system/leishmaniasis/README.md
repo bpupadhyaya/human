@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Visceral leishmaniasis floods the spleen with parasitized macrophages, producing the massive splenomegaly of kala-azar; hypersplenism plus marrow infiltration drives pancytopenia, and splenic aspirate is the most sensitive diagnostic test despite bleeding risk."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Both are vector-borne protozoa of the tropics: sand-fly-borne Leishmania parasitizes macrophages while mosquito-borne Plasmodium invades erythrocytes; both cause fever, massive splenomegaly and anemia in overlapping endemic regions, and HIV co-infection reactivates VL."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Cutaneous leishmaniasis is the skin form: sand-fly inoculation into the dermis → localized macrophage infection → chronic ulcer that scars; mucocutaneous L. braziliensis destroys nasal/oral mucosa; post-kala-azar dermal leishmaniasis follows visceral cure and sustains spread."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The Th1/Th2 balance decides Leishmania outcome: Th1 (IL-12→IFN-γ→iNOS→NO) clears intracellular amastigotes and gives healing immunity, while Th2 (IL-4, IL-10) permits parasite persistence and progressive disease; the textbook model of CD4+ T-helper polarization."
 ---
 
 # Leishmaniasis
@@ -157,3 +166,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Leishmania donovani](../../../02-pathogen/04-parasites/leishmania-donovani/README.md)** — Leishmania donovani, delivered by sand-fly bite, causes visceral leishmaniasis: promastigotes become amastigotes that survive inside macrophage phagolysosomes using LPG and gp63 to dodge the oxidative burst; single-dose liposomal amphotericin B now cures >95% in South Asia.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The macrophage is both Leishmania's hideout and its executioner: parasites enter via complement receptors without triggering the oxidative burst and suppress IL-12, but a Th1 IL-12→IFN-γ→iNOS response makes nitric oxide that kills the amastigotes.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Visceral leishmaniasis floods the spleen with parasitized macrophages, producing the massive splenomegaly of kala-azar; hypersplenism plus marrow infiltration drives pancytopenia, and splenic aspirate is the most sensitive diagnostic test despite bleeding risk.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Both are vector-borne protozoa of the tropics: sand-fly-borne Leishmania parasitizes macrophages while mosquito-borne Plasmodium invades erythrocytes; both cause fever, massive splenomegaly and anemia in overlapping endemic regions, and HIV co-infection reactivates VL.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous leishmaniasis is the skin form: sand-fly inoculation into the dermis → localized macrophage infection → chronic ulcer that scars; mucocutaneous L. braziliensis destroys nasal/oral mucosa; post-kala-azar dermal leishmaniasis follows visceral cure and sustains spread.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The Th1/Th2 balance decides Leishmania outcome: Th1 (IL-12→IFN-γ→iNOS→NO) clears intracellular amastigotes and gives healing immunity, while Th2 (IL-4, IL-10) permits parasite persistence and progressive disease; the textbook model of CD4+ T-helper polarization.

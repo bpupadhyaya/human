@@ -51,6 +51,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Cerebral malaria is the most lethal complication of P. falciparum: PfEMP1-coated red cells sequester on ICAM-1 in brain microvessels, obstructing flow and breaking the blood-brain barrier → coma; mortality is 15-25%, and ~25% of survivors retain neurological sequelae."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "Both are vector-borne protozoan parasites of the global poor: Anopheles-borne Plasmodium invades erythrocytes, sand-fly-borne Leishmania hides in macrophages; both cause fever, splenomegaly and anemia in overlapping tropical regions, and HIV co-infection worsens both."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Malaria's obligatory pre-erythrocytic stage is hepatic: sporozoites invade hepatocytes and mature into thousands of merozoites before blood-stage disease; P. vivax/ovale form dormant hypnozoites needing primaquine/tafenoquine for radical cure; severe malaria also causes jaundice."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-α drives malaria's inflammatory pathology: schizont rupture and GPI anchors trigger macrophage TNF-α → fever, hypoglycemia and ICAM-1 upregulation, promoting PfEMP1-mediated sequestration in cerebral malaria; high circulating TNF-α correlates with severity and mortality."
 ---
 
 # Malaria
@@ -220,6 +229,9 @@ cross_links:
 - `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Plasmodium falciparum, spread by Anopheles mosquitoes, is the deadliest malaria parasite: it cytoadheres infected red cells to brain endothelium via PfEMP1, evades immunity by var-gene switching, and is treated with artemisinin combinations now threatened by kelch13 resistance.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Malaria's blood stage runs in red cells: merozoites invade via AMA1/EBA-glycophorin, digest hemoglobin into haemozoin, and rupture every 48h triggering fever; haemolysis plus dyserythropoiesis causes severe anemia, while inherited RBC variants (HbS, G6PD) blunt parasite growth.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cerebral malaria is the most lethal complication of P. falciparum: PfEMP1-coated red cells sequester on ICAM-1 in brain microvessels, obstructing flow and breaking the blood-brain barrier → coma; mortality is 15-25%, and ~25% of survivors retain neurological sequelae.
+- `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — Both are vector-borne protozoan parasites of the global poor: Anopheles-borne Plasmodium invades erythrocytes, sand-fly-borne Leishmania hides in macrophages; both cause fever, splenomegaly and anemia in overlapping tropical regions, and HIV co-infection worsens both.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Malaria's obligatory pre-erythrocytic stage is hepatic: sporozoites invade hepatocytes and mature into thousands of merozoites before blood-stage disease; P. vivax/ovale form dormant hypnozoites needing primaquine/tafenoquine for radical cure; severe malaria also causes jaundice.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α drives malaria's inflammatory pathology: schizont rupture and GPI anchors trigger macrophage TNF-α → fever, hypoglycemia and ICAM-1 upregulation, promoting PfEMP1-mediated sequestration in cerebral malaria; high circulating TNF-α correlates with severity and mortality.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
