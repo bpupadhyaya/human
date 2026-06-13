@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "GIST and colorectal cancer both occur in the gut wall but from different layers: colorectal cancer arises from mucosal epithelium via APC/Wnt, while GIST grows from KIT-mutant Cajal cells in the muscularis—epithelial carcinoma versus a mesenchymal kinase-driven tumor."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "GIST is often mistaken for a smooth-muscle tumor but isn't: it arises from the interstitial cells of Cajal (the gut's pacemaker cells), not smooth muscle, so KIT/DOG1 staining separates GIST from true leiomyomas and leiomyosarcomas of the GI tract."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is GIST's main metastatic site: gastrointestinal stromal tumors spread hematogenously to the liver and peritoneum rather than lymph nodes, so liver imaging drives staging and follow-up—and imatinib can control even widespread hepatic disease for years."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "GIST growth runs through KIT into the PI3K/AKT pathway: the activating KIT or PDGFRA mutation signals via AKT and MAPK to drive proliferation, so imatinib blocks the receptor while AKT-pathway resistance mutations explain why tumors eventually escape therapy."
 ---
 
 # GIST
@@ -218,6 +227,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Gastric cancer and GIST are the stomach's two principal tumors but biologically opposite: gastric carcinoma is an epithelial adenocarcinoma (H. pylori, CDH1), while GIST is a mesenchymal KIT-driven tumor of Cajal cells—imatinib transforms GIST, not carcinoma.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — GIST and synovial sarcoma are mesenchymal tumors each defined by a single driver: GIST by activating KIT/PDGFRA mutations (targetable with imatinib), synovial sarcoma by the SS18-SSX fusion—proof that one genetic lesion can define, and for GIST drug, a sarcoma.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — GIST and colorectal cancer both occur in the gut wall but from different layers: colorectal cancer arises from mucosal epithelium via APC/Wnt, while GIST grows from KIT-mutant Cajal cells in the muscularis—epithelial carcinoma versus a mesenchymal kinase-driven tumor.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — GIST is often mistaken for a smooth-muscle tumor but isn't: it arises from the interstitial cells of Cajal (the gut's pacemaker cells), not smooth muscle, so KIT/DOG1 staining separates GIST from true leiomyomas and leiomyosarcomas of the GI tract.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is GIST's main metastatic site: gastrointestinal stromal tumors spread hematogenously to the liver and peritoneum rather than lymph nodes, so liver imaging drives staging and follow-up—and imatinib can control even widespread hepatic disease for years.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — GIST growth runs through KIT into the PI3K/AKT pathway: the activating KIT or PDGFRA mutation signals via AKT and MAPK to drive proliferation, so imatinib blocks the receptor while AKT-pathway resistance mutations explain why tumors eventually escape therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

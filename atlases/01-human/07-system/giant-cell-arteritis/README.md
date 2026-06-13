@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/03-molecular/jak2
     relation: connects-to
     note: "JAK-STAT signaling is a therapeutic target in giant cell arteritis: the IL-6 and IFN-γ driving arterial inflammation act through JAK kinases, so JAK inhibitors are in trials to spare steroids—linking GCA to the node mutated in myeloproliferative disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF helps GCA both damage and compensate: inflammatory cytokines drive VEGF that promotes neovascularization in the inflamed artery wall, while ischemia downstream stimulates collateral vessels—so angiogenesis is part of both injury and response in GCA."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Giant cell arteritis is a large-vessel disease that threatens the aorta: beyond the temporal artery, granulomatous inflammation can involve the aorta and its branches, causing thoracic aortic aneurysm and dissection years later—so GCA needs vascular surveillance."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Giant cell arteritis and lupus are both autoimmune but differ sharply: GCA is a granulomatous large-vessel vasculitis of the elderly driven by Th1/Th17 and IL-6, while SLE is an immune-complex multisystem disease of the young—contrasting mechanisms of autoimmunity."
 ---
 
 # Giant Cell Arteritis
@@ -202,6 +211,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Giant cell arteritis and rheumatoid arthritis are both IL-6-driven autoimmune diseases of older adults that respond to tocilizumab: GCA inflames large arteries while RA destroys synovial joints—shared cytokine biology lets one biologic treat both.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 helps polarize the T-cell response in giant cell arteritis: dendritic cells in the arterial wall secrete IL-12 to push T cells toward Th1, generating IFN-γ-producing cells whose granulomatous infiltrate, with giant cells, destroys the artery's elastic lamina.
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — JAK-STAT signaling is a therapeutic target in giant cell arteritis: the IL-6 and IFN-γ driving arterial inflammation act through JAK kinases, so JAK inhibitors are in trials to spare steroids—linking GCA to the node mutated in myeloproliferative disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF helps GCA both damage and compensate: inflammatory cytokines drive VEGF that promotes neovascularization in the inflamed artery wall, while ischemia downstream stimulates collateral vessels—so angiogenesis is part of both injury and response in GCA.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Giant cell arteritis is a large-vessel disease that threatens the aorta: beyond the temporal artery, granulomatous inflammation can involve the aorta and its branches, causing thoracic aortic aneurysm and dissection years later—so GCA needs vascular surveillance.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Giant cell arteritis and lupus are both autoimmune but differ sharply: GCA is a granulomatous large-vessel vasculitis of the elderly driven by Th1/Th17 and IL-6, while SLE is an immune-complex multisystem disease of the young—contrasting mechanisms of autoimmunity.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
