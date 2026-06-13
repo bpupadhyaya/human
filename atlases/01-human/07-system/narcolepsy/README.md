@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Narcolepsy and depression overlap clinically and are easily confused: the daytime sleepiness and low energy of narcolepsy mimic depression, the two frequently coexist, and some antidepressants suppress cataplexy—so screening for mood disorder is part of narcolepsy care."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Narcolepsy type 1 is an autoimmune disease: T cells, in genetically susceptible (HLA-DQB1*06:02) people often after H1N1 infection or vaccination, destroy the brain's orexin neurons—so a sleep disorder traces to immune attack on a tiny hypothalamic cell population."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Acetylcholine drives the REM intrusions of narcolepsy: losing orexin unleashes cholinergic REM-on circuits, so REM phenomena—dream sleep, atonia—break into wakefulness as cataplexy and sleep paralysis, the hallmark symptoms beyond sleepiness."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Narcolepsy and insomnia are opposite faces of dysregulated sleep: narcolepsy floods wake with sleep (and fragments night sleep too), while insomnia fails to initiate it—yet both disrupt the orexin/circadian machinery that stabilizes the sleep-wake switch."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -210,6 +219,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Narcolepsy type 1 and type 1 diabetes are both autoimmune diseases that destroy a specific cell population: narcolepsy loses the hypothalamic orexin neurons, T1DM the pancreatic β-cells—each tied to HLA risk alleles and likely T-cell-mediated.
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Narcolepsy and multiple sclerosis are both immune-mediated CNS disorders: MS demyelinates white matter, and lesions in the hypothalamus can even cause secondary narcolepsy by destroying orexin pathways—linking an autoimmune brain disease to a sleep disorder.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Narcolepsy and depression overlap clinically and are easily confused: the daytime sleepiness and low energy of narcolepsy mimic depression, the two frequently coexist, and some antidepressants suppress cataplexy—so screening for mood disorder is part of narcolepsy care.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Narcolepsy type 1 is an autoimmune disease: T cells, in genetically susceptible (HLA-DQB1*06:02) people often after H1N1 infection or vaccination, destroy the brain's orexin neurons—so a sleep disorder traces to immune attack on a tiny hypothalamic cell population.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine drives the REM intrusions of narcolepsy: losing orexin unleashes cholinergic REM-on circuits, so REM phenomena—dream sleep, atonia—break into wakefulness as cataplexy and sleep paralysis, the hallmark symptoms beyond sleepiness.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Narcolepsy and insomnia are opposite faces of dysregulated sleep: narcolepsy floods wake with sleep (and fragments night sleep too), while insomnia fails to initiate it—yet both disrupt the orexin/circadian machinery that stabilizes the sleep-wake switch.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
