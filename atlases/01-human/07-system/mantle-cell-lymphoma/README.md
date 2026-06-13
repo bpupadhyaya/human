@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Mantle cell lymphoma has a distinctive tropism for the GI tract: multiple lymphomatous polyposis studs the small and large bowel with MCL nodules, and occult involvement is so common that many patients have microscopic gut disease even when staging looks limited."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Mantle cell lymphoma spreads widely through the lymphatic system and beyond: it produces generalized lymphadenopathy and characteristically lymphomatous polyposis of the gut, with frequent leukemic blood and marrow involvement, so most patients present at stage IV."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is often heavily involved in mantle cell lymphoma, and a leukemic, splenomegalic, SOX11-negative variant exists that mimics chronic lymphocytic leukemia and behaves indolently; splenic and blood involvement reflect MCL's tendency to circulate as a disseminated disease."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Mantle cell lymphoma and DLBCL are both aggressive B-cell lymphomas but distinct: MCL carries cyclin D1/t(11;14) and is incurable-relapsing, while DLBCL is potentially cured by R-CHOP; blastoid MCL can mimic DLBCL morphologically, so cyclin D1/SOX11 staining is decisive."
 ---
 
 # Mantle Cell Lymphoma
@@ -185,6 +194,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Mantle cell and follicular lymphoma are both translocation-defined B-cell NHLs but opposites: MCL (t(11;14), cyclin D1) is proliferation-driven and aggressive, FL (t(14;18), BCL-2) indolent and apoptosis-resistant — cyclin D1 vs BCL-2 IHC and SOX11 distinguish them.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Mantle cell lymphoma arises from a CD5+ naive B cell of the follicular mantle zone (pre-germinal-center): t(11;14) drives cyclin D1, pushing these cells through the cell cycle; unlike FL, most MCL cells are IGHV-unmutated, reflecting their pre-germinal-center origin.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Mantle cell lymphoma has a distinctive tropism for the GI tract: multiple lymphomatous polyposis studs the small and large bowel with MCL nodules, and occult involvement is so common that many patients have microscopic gut disease even when staging looks limited.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Mantle cell lymphoma spreads widely through the lymphatic system and beyond: it produces generalized lymphadenopathy and characteristically lymphomatous polyposis of the gut, with frequent leukemic blood and marrow involvement, so most patients present at stage IV.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is often heavily involved in mantle cell lymphoma, and a leukemic, splenomegalic, SOX11-negative variant exists that mimics chronic lymphocytic leukemia and behaves indolently; splenic and blood involvement reflect MCL's tendency to circulate as a disseminated disease.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Mantle cell lymphoma and DLBCL are both aggressive B-cell lymphomas but distinct: MCL carries cyclin D1/t(11;14) and is incurable-relapsing, while DLBCL is potentially cured by R-CHOP; blastoid MCL can mimic DLBCL morphologically, so cyclin D1/SOX11 staining is decisive.
 
 ---
 

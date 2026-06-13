@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Hodgkin lymphoma is the prototypical lymphatic-system cancer: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), usually as painless cervical or mediastinal adenopathy — distinguishing it from non-Hodgkin lymphomas."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Hodgkin lymphoma and DLBCL are the two ends of large-B-cell lymphoma, bridged by gray-zone lymphoma: classic Hodgkin's CD30+ Reed-Sternberg cells lose most B-cell markers while DLBCL keeps them, and gray-zone tumors share both—the distinction drives very different chemo."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "The Reed-Sternberg cell of classic Hodgkin lymphoma is a crippled B cell: a germinal-center B cell that lost its B-cell receptor and most B-lineage markers yet escaped apoptosis via constitutive NF-κB and EBV, surviving as a rare malignant cell amid a reactive immune infiltrate."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV raises Hodgkin lymphoma risk several-fold and changes its biology: HIV-associated Hodgkin is almost always EBV-driven, presents at advanced stage with B symptoms and marrow involvement, and—unlike AIDS-defining lymphomas—its incidence did not fall with antiretroviral therapy."
 ---
 
 # Hodgkin Lymphoma
@@ -185,6 +194,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Hodgkin lymphoma is unusual: malignant Reed-Sternberg cells are <1% of the tumor, the bulk being reactive CD4+ T cells (rosetting around RS cells), eosinophils, and histiocytes that RS cells recruit and depend on — why PD-1 blockade freeing exhausted T cells works so well.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is a key Hodgkin lymphoma site: classical HL spreads contiguously node to adjacent node and to the spleen, and splenic involvement upstages disease and historically guided staging laparotomy; this orderly spread (unlike scattered NHL) reflects HL's lymphatic biology.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Hodgkin lymphoma is the prototypical lymphatic-system cancer: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), usually as painless cervical or mediastinal adenopathy — distinguishing it from non-Hodgkin lymphomas.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Hodgkin lymphoma and DLBCL are the two ends of large-B-cell lymphoma, bridged by gray-zone lymphoma: classic Hodgkin's CD30+ Reed-Sternberg cells lose most B-cell markers while DLBCL keeps them, and gray-zone tumors share both—the distinction drives very different chemo.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — The Reed-Sternberg cell of classic Hodgkin lymphoma is a crippled B cell: a germinal-center B cell that lost its B-cell receptor and most B-lineage markers yet escaped apoptosis via constitutive NF-κB and EBV, surviving as a rare malignant cell amid a reactive immune infiltrate.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV raises Hodgkin lymphoma risk several-fold and changes its biology: HIV-associated Hodgkin is almost always EBV-driven, presents at advanced stage with B symptoms and marrow involvement, and—unlike AIDS-defining lymphomas—its incidence did not fall with antiretroviral therapy.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
