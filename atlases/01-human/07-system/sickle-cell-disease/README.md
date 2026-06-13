@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Splenic macrophages drive the extravascular hemolysis of sickle cell disease: they recognize and destroy rigid, sickled red cells, and recurrent splenic sequestration and infarction eventually leave patients functionally asplenic—hence lifelong sepsis risk."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide depletion drives sickle-cell vasculopathy: free hemoglobin from hemolysis scavenges NO, so vessels lose vasodilation and platelets activate—linking chronic hemolysis to pulmonary hypertension, stroke and leg ulcers beyond the acute vaso-occlusive crises."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Oxygen tension triggers the sickling itself: deoxygenated HbS polymerizes and deforms red cells, so hypoxia, dehydration and acidosis precipitate vaso-occlusive crises—which is why low oxygen at altitude or in infection can set off a painful sickle crisis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is a major target of sickle-cell disease: the hypoxic, acidic renal medulla promotes sickling that damages the concentrating mechanism and glomeruli, causing impaired urine concentration, hematuria and progressive sickle nephropathy toward chronic kidney disease."
 ---
 
 # Sickle Cell Disease
@@ -250,6 +259,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, raising pulmonary vascular tone—an elevated tricuspid regurgitant jet marks much higher mortality.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain in sickle cell disease is not only ischemic but increasingly neuropathic: repeated vaso-occlusive crises sensitize central and peripheral pain pathways, so chronic SCD pain takes on a neuropathic, opioid-resistant quality—calling for anticonvulsant adjuncts.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Splenic macrophages drive the extravascular hemolysis of sickle cell disease: they recognize and destroy rigid, sickled red cells, and recurrent splenic sequestration and infarction eventually leave patients functionally asplenic—hence lifelong sepsis risk.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide depletion drives sickle-cell vasculopathy: free hemoglobin from hemolysis scavenges NO, so vessels lose vasodilation and platelets activate—linking chronic hemolysis to pulmonary hypertension, stroke and leg ulcers beyond the acute vaso-occlusive crises.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen tension triggers the sickling itself: deoxygenated HbS polymerizes and deforms red cells, so hypoxia, dehydration and acidosis precipitate vaso-occlusive crises—which is why low oxygen at altitude or in infection can set off a painful sickle crisis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a major target of sickle-cell disease: the hypoxic, acidic renal medulla promotes sickling that damages the concentrating mechanism and glomeruli, causing impaired urine concentration, hematuria and progressive sickle nephropathy toward chronic kidney disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

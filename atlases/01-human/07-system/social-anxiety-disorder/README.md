@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Social anxiety disorder reflects an overactive fear circuit in neurons: a hyperreactive amygdala and weak prefrontal regulation amplify the threat response to social cues, the same neuronal imbalance behind other anxiety disorders, which SSRIs and exposure therapy recalibrate."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol marks the stress biology of social anxiety: anticipating social scrutiny activates the HPA axis and raises cortisol, and the exaggerated physiological arousal—blushing, sweating, racing heart—both reflects and reinforces the fear of negative evaluation."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Social anxiety and insomnia feed each other: anticipatory worry about social events delays sleep, and resulting fatigue worsens next-day social performance and avoidance—so poor sleep amplifies the anxiety that caused it, a self-perpetuating loop."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Social anxiety often precedes eating disorders: fear of eating or being watched in public can drive the food avoidance and body scrutiny seen in anorexia nervosa, and the two frequently coexist—social evaluation fears feeding restrictive behavior."
 ---
 
 # Social Anxiety Disorder
@@ -221,6 +230,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Social anxiety disorder and PTSD both center on fear and avoidance but of different triggers: SAD fears scrutiny in social situations, while PTSD fears trauma reminders—both involve amygdala hyperreactivity and respond to SSRIs and exposure-based therapy.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Social anxiety disorder and OCD overlap in anxious avoidance but differ in driver: SAD avoids feared social judgment, while OCD performs compulsions to neutralize obsessions—both are highly comorbid and share SSRI responsiveness and CBT.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Social anxiety disorder reflects an overactive fear circuit in neurons: a hyperreactive amygdala and weak prefrontal regulation amplify the threat response to social cues, the same neuronal imbalance behind other anxiety disorders, which SSRIs and exposure therapy recalibrate.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol marks the stress biology of social anxiety: anticipating social scrutiny activates the HPA axis and raises cortisol, and the exaggerated physiological arousal—blushing, sweating, racing heart—both reflects and reinforces the fear of negative evaluation.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Social anxiety and insomnia feed each other: anticipatory worry about social events delays sleep, and resulting fatigue worsens next-day social performance and avoidance—so poor sleep amplifies the anxiety that caused it, a self-perpetuating loop.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Social anxiety often precedes eating disorders: fear of eating or being watched in public can drive the food avoidance and body scrutiny seen in anorexia nervosa, and the two frequently coexist—social evaluation fears feeding restrictive behavior.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
