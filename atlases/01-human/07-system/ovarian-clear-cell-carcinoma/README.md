@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Ovarian clear cell carcinoma is more immunogenic than high-grade serous cancer: ARID1A loss raises neoantigens and PD-L1, so it draws cytotoxic CD8+ T cells and responds better to PD-1 blockade — pembrolizumab + bevacizumab is studied in PD-L1+ OCCC."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma has the highest venous thromboembolism rate of any ovarian cancer—up to a quarter of patients: the tumor is strongly prothrombotic (tissue factor, IL-6), so DVT and pulmonary embolism are watched and often prophylaxed throughout treatment."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Clear-cell and endometrioid ovarian cancers are the histologies linked to Lynch syndrome: mismatch-repair deficiency underlies a share of OCCC, so MMR/MSI testing both flags a germline syndrome and identifies tumors that may respond to checkpoint blockade."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma is the ovarian cancer most tied to endometriosis: ectopic endometrial tissue, under oxidative iron-rich stress, acquires ARID1A and PIK3CA mutations and transforms—making endometriosis a recognized precursor in the reproductive tract."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -205,6 +214,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Ovarian clear cell carcinoma and endometrioid endometrial cancer are both endometriosis/endometrium-derived tumors driven by ARID1A and PIK3CA; clear-cell and endometrioid histologies recur across ovary and uterus, and both can arise in Lynch syndrome — unlike serous cancers.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Ovarian clear cell carcinoma and clear-cell renal cell carcinoma are unrelated organs sharing a look and biology: both have glycogen-rich clear cytoplasm, both upregulate HIF/VEGF, and OCCC borrows RCC anti-angiogenics like sunitinib for this platinum-resistant tumor.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Ovarian clear cell carcinoma is more immunogenic than high-grade serous cancer: ARID1A loss raises neoantigens and PD-L1, so it draws cytotoxic CD8+ T cells and responds better to PD-1 blockade — pembrolizumab + bevacizumab is studied in PD-L1+ OCCC.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Ovarian clear cell carcinoma has the highest venous thromboembolism rate of any ovarian cancer—up to a quarter of patients: the tumor is strongly prothrombotic (tissue factor, IL-6), so DVT and pulmonary embolism are watched and often prophylaxed throughout treatment.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Clear-cell and endometrioid ovarian cancers are the histologies linked to Lynch syndrome: mismatch-repair deficiency underlies a share of OCCC, so MMR/MSI testing both flags a germline syndrome and identifies tumors that may respond to checkpoint blockade.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Ovarian clear cell carcinoma is the ovarian cancer most tied to endometriosis: ectopic endometrial tissue, under oxidative iron-rich stress, acquires ARID1A and PIK3CA mutations and transforms—making endometriosis a recognized precursor in the reproductive tract.
 
 ---
 

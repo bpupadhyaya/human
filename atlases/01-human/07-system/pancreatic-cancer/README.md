@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-pancreatitis
     relation: connects-to
     note: "Hereditary pancreatitis (germline PRSS1, SPINK1) is a major pancreatic cancer risk: decades of recurring autodigestion and inflammation create a field of injury that, with smoking, drives a ~40-50× lifetime risk of pancreatic adenocarcinoma — among the highest predispositions."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "New-onset diabetes can be the first sign of pancreatic cancer: tumor-secreted paraneoplastic insulin resistance causes diabetes months before diagnosis, so new diabetes after 50 with weight loss—rather than weight gain—warrants suspicion of pancreatic adenocarcinoma."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Pancreatic cancer is the classic cause of Trousseau syndrome: mucin and tissue-factor release make it among the most thrombogenic cancers, producing migratory superficial thrombophlebitis, DVT, and pulmonary embolism—sometimes the presenting clue before the tumor."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Peutz-Jeghers syndrome carries one of the highest hereditary pancreatic cancer risks: germline STK11/LKB1 loss raises lifetime risk to ~11-36%, so PJS patients—alongside BRCA2, CDKN2A, and Lynch carriers—are candidates for pancreatic surveillance with MRI/EUS."
 ---
 
 # Pancreatic Cancer
@@ -191,6 +200,9 @@ cross_links:
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Pancreatic ductal adenocarcinoma arises from the pancreas's exocrine ductal epithelium, growing silently until it obstructs the bile duct (painless jaundice) or invades vessels; deep location and early spread mean only ~20% are resectable, survival near 12% at 5 years.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Pancreatic cancer is defined by its stroma: KRAS-driven tumor cells activate stellate cells into cancer-associated fibroblasts that build a dense, hypovascular desmoplastic matrix starving the tumor of drugs and excluding T cells — why PDAC resists chemo and immunotherapy.
 - `connects-to` → **[Hereditary Pancreatitis](../hereditary-pancreatitis/README.md)** — Hereditary pancreatitis (germline PRSS1, SPINK1) is a major pancreatic cancer risk: decades of recurring autodigestion and inflammation create a field of injury that, with smoking, drives a ~40-50× lifetime risk of pancreatic adenocarcinoma — among the highest predispositions.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — New-onset diabetes can be the first sign of pancreatic cancer: tumor-secreted paraneoplastic insulin resistance causes diabetes months before diagnosis, so new diabetes after 50 with weight loss—rather than weight gain—warrants suspicion of pancreatic adenocarcinoma.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pancreatic cancer is the classic cause of Trousseau syndrome: mucin and tissue-factor release make it among the most thrombogenic cancers, producing migratory superficial thrombophlebitis, DVT, and pulmonary embolism—sometimes the presenting clue before the tumor.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome carries one of the highest hereditary pancreatic cancer risks: germline STK11/LKB1 loss raises lifetime risk to ~11-36%, so PJS patients—alongside BRCA2, CDKN2A, and Lynch carriers—are candidates for pancreatic surveillance with MRI/EUS.
 
 ---
 
