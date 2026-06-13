@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Depression in Huntington's reflects serotonergic disruption: mood disorder and suicide risk often precede the movement disorder, driven partly by altered serotonin signaling, so SSRIs are widely used—psychiatric care is as central to HD management as treating chorea."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Huntington's disease also strikes striatal acetylcholine: loss of cholinergic interneurons in the caudate and putamen disturbs the balance with dopamine and GABA, contributing to the movement and cognitive disorder beyond the classic medium spiny neuron loss."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Huntington's shows genetic anticipation through the reproductive system: the CAG repeat expands further during sperm formation, so paternally transmitted disease tends to start earlier and more severely in each generation—a hallmark of trinucleotide-repeat inheritance."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Huntington's disease harms the heart and metabolism: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and a hypermetabolic, wasting state, so cardiovascular disease and weight loss are major non-neurological contributors to death in HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -133,3 +142,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[ALS](../als/README.md)** — Huntington's and ALS are both fatal neurodegenerations but mechanistically distinct: HD is a CAG-repeat polyglutamine disease killing striatal neurons, while ALS destroys motor neurons via TDP-43—both show how a single protein's misfolding dooms specific neurons.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Huntington's disease damages the heart, not just the brain: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and arrhythmias, making cardiac disease a leading cause of death in HD—evidence the CAG-repeat defect harms tissues beyond the striatum.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Depression in Huntington's reflects serotonergic disruption: mood disorder and suicide risk often precede the movement disorder, driven partly by altered serotonin signaling, so SSRIs are widely used—psychiatric care is as central to HD management as treating chorea.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Huntington's disease also strikes striatal acetylcholine: loss of cholinergic interneurons in the caudate and putamen disturbs the balance with dopamine and GABA, contributing to the movement and cognitive disorder beyond the classic medium spiny neuron loss.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Huntington's shows genetic anticipation through the reproductive system: the CAG repeat expands further during sperm formation, so paternally transmitted disease tends to start earlier and more severely in each generation—a hallmark of trinucleotide-repeat inheritance.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Huntington's disease harms the heart and metabolism: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and a hypermetabolic, wasting state, so cardiovascular disease and weight loss are major non-neurological contributors to death in HD.

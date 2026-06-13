@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "Reed-Sternberg cells secrete IL-10 to build an immunosuppressive niche: this and other cytokines recruit and pacify the reactive immune cells that make up most of the tumor, letting the few malignant cells thrive—explaining Hodgkin lymphoma's odd cellular makeup."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Nodular sclerosing Hodgkin lymphoma favors the mediastinum near the thymus: it classically presents as an anterior mediastinal mass in young adults, so it enters the differential of a mediastinal mass alongside thymoma and germ-cell tumors."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Hodgkin lymphoma commonly causes anemia: cytokines from Reed-Sternberg cells drive anemia of chronic disease, and marrow involvement or autoimmune hemolysis can deepen it—so falling red cells are part of the systemic 'B-symptom' illness of advanced HL."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Hodgkin lymphoma thrives by hijacking the immune system: Reed-Sternberg cells amplify PD-L1 to silence surrounding T cells and recruit a protective inflammatory infiltrate, which is exactly why PD-1 checkpoint blockade is strikingly effective in relapsed HL."
 ---
 
 # Hodgkin Lymphoma
@@ -221,6 +230,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Hodgkin lymphoma evades NK and immune killing despite few tumor cells: the rare Reed-Sternberg cells survive amid abundant immune cells by suppressing NK and T-cell attack and overexpressing PD-L1—why PD-1 blockade is strikingly effective in Hodgkin lymphoma.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow involvement upstages Hodgkin lymphoma: though it usually spreads predictably node-to-node, marrow infiltration signals advanced (stage IV) disease, so staging marrow assessment (now often PET) guides whether limited or extended chemotherapy is used.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Reed-Sternberg cells secrete IL-10 to build an immunosuppressive niche: this and other cytokines recruit and pacify the reactive immune cells that make up most of the tumor, letting the few malignant cells thrive—explaining Hodgkin lymphoma's odd cellular makeup.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Nodular sclerosing Hodgkin lymphoma favors the mediastinum near the thymus: it classically presents as an anterior mediastinal mass in young adults, so it enters the differential of a mediastinal mass alongside thymoma and germ-cell tumors.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Hodgkin lymphoma commonly causes anemia: cytokines from Reed-Sternberg cells drive anemia of chronic disease, and marrow involvement or autoimmune hemolysis can deepen it—so falling red cells are part of the systemic 'B-symptom' illness of advanced HL.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Hodgkin lymphoma thrives by hijacking the immune system: Reed-Sternberg cells amplify PD-L1 to silence surrounding T cells and recruit a protective inflammatory infiltrate, which is exactly why PD-1 checkpoint blockade is strikingly effective in relapsed HL.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
