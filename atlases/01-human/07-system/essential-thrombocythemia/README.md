@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Thrombosis—not bleeding—is the main danger of essential thrombocythemia: the dysfunctional excess platelets and JAK2 mutation create a prothrombotic state causing arterial and venous events, including VTE and unusual-site (splanchnic) thrombosis; aspirin lowers risk."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "ET and CML are both chronic myeloproliferative neoplasms but driven differently: CML by the BCR-ABL fusion tyrosine kinase (treatable with imatinib), ET by JAK2/CALR/MPL mutations driving platelet overproduction—both can progress to fibrosis or acute leukemia."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "ET predisposes to stroke: the excess, often dysfunctional platelets promote arterial thrombosis, so TIAs and stroke are feared complications—low-dose aspirin and cytoreduction lower this risk, a rare case where too many platelets cause clots, not bleeding."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "ET and polycythemia vera show how one marrow can overproduce different lineages: ET expands megakaryocytes and platelets while PV expands erythrocytes, yet both arise from JAK2-pathway mutations—lineage skewing of a shared clonal stem-cell defect sets the phenotype."
 ---
 
 # Essential Thrombocythemia
@@ -193,6 +202,9 @@ Management:
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Essential thrombocythemia is one of the three classic Philadelphia-negative myeloproliferative neoplasms (with PV and PMF): a JAK2/CALR/MPL-driven clonal overproduction—here of platelets—sharing thrombosis risk and the capacity to evolve into myelofibrosis or AML.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Essential thrombocythemia can progress to post-ET myelofibrosis: over years the clone drives marrow reticulin fibrosis, so the platelet-rich blood picture gives way to splenomegaly, cytopenias and a leukoerythroblastic film, converging with primary myelofibrosis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thrombosis—not bleeding—is the main danger of essential thrombocythemia: the dysfunctional excess platelets and JAK2 mutation create a prothrombotic state causing arterial and venous events, including VTE and unusual-site (splanchnic) thrombosis; aspirin lowers risk.
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — ET and CML are both chronic myeloproliferative neoplasms but driven differently: CML by the BCR-ABL fusion tyrosine kinase (treatable with imatinib), ET by JAK2/CALR/MPL mutations driving platelet overproduction—both can progress to fibrosis or acute leukemia.
+- `connects-to` → **[Stroke](../stroke/README.md)** — ET predisposes to stroke: the excess, often dysfunctional platelets promote arterial thrombosis, so TIAs and stroke are feared complications—low-dose aspirin and cytoreduction lower this risk, a rare case where too many platelets cause clots, not bleeding.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — ET and polycythemia vera show how one marrow can overproduce different lineages: ET expands megakaryocytes and platelets while PV expands erythrocytes, yet both arise from JAK2-pathway mutations—lineage skewing of a shared clonal stem-cell defect sets the phenotype.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

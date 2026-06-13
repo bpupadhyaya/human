@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Tobacco smoke is a shared carcinogen for both esophageal cancer types: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage esophageal DNA, raising risk of squamous cell carcinoma (with alcohol) and, to a lesser degree, adenocarcinoma; cessation lowers risk."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Esophageal and pancreatic cancers are both lethal GI adenocarcinomas usually caught late: each tends to present with advanced disease and dismal survival, shares risk from smoking and obesity, and depends on chemoradiation or chemotherapy since surgical cure is the exception."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Esophageal and colorectal cancers illustrate the metaplasia-dysplasia-carcinoma sequence: chronic injury (reflux/Barrett's vs adenoma) drives stepwise mutation toward adenocarcinoma, and both are screened endoscopically to catch precursor lesions before invasion."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy is central to esophageal cancer: chemoradiation can be definitive for squamous tumors or neoadjuvant before surgery for adenocarcinoma, exploiting the tumor's radiosensitivity while sparing heart and lung—a mainstay where surgery alone often fails."
 ---
 
 # Esophageal Cancer
@@ -213,6 +222,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity drives the rising incidence of esophageal adenocarcinoma: central adiposity promotes gastroesophageal reflux and metabolic inflammation → Barrett's metaplasia of the lower esophagus → adenocarcinoma; this contrasts with the squamous type tied to smoking and alcohol.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a primary cause of esophageal squamous cell carcinoma: acetaldehyde is a direct carcinogen (especially with ALDH2-deficiency flushing), synergizing strongly with tobacco; this contrasts with esophageal adenocarcinoma, which is driven instead by reflux and obesity.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Tobacco smoke is a shared carcinogen for both esophageal cancer types: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage esophageal DNA, raising risk of squamous cell carcinoma (with alcohol) and, to a lesser degree, adenocarcinoma; cessation lowers risk.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Esophageal and pancreatic cancers are both lethal GI adenocarcinomas usually caught late: each tends to present with advanced disease and dismal survival, shares risk from smoking and obesity, and depends on chemoradiation or chemotherapy since surgical cure is the exception.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Esophageal and colorectal cancers illustrate the metaplasia-dysplasia-carcinoma sequence: chronic injury (reflux/Barrett's vs adenoma) drives stepwise mutation toward adenocarcinoma, and both are screened endoscopically to catch precursor lesions before invasion.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is central to esophageal cancer: chemoradiation can be definitive for squamous tumors or neoadjuvant before surgery for adenocarcinoma, exploiting the tumor's radiosensitivity while sparing heart and lung—a mainstay where surgery alone often fails.
 
 ---
 
