@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Bladder cancer is the birthplace of cancer immunotherapy: intravesical BCG—live attenuated mycobacteria—triggers a local immune response that has prevented recurrence of non-muscle-invasive bladder cancer for decades, and PD-1/PD-L1 inhibitors now treat advanced disease."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Bladder and renal cell carcinoma are the two major urologic cancers but differ in cell and cause: bladder cancer is a smoking-linked urothelial tumor with painless hematuria, while RCC arises from renal tubular epithelium—both can shed cells detectable in urine."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Bladder cancer and lung cancer are the paradigm smoking-caused epithelial cancers: tobacco carcinogens excreted in urine bathe and transform the bladder urothelium just as inhaled smoke transforms the bronchus, so the two often coexist and both are reshaped by immunotherapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Bladder cancer pioneered macrophage-based immunotherapy: intravesical BCG provokes a local immune response in which macrophages and T cells attack residual tumor, making early non-muscle-invasive bladder cancer one of the first cancers cured by harnessing innate immunity."
 ---
 
 # Bladder Cancer
@@ -204,6 +213,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Bladder and prostate cancers are the commonest genitourinary malignancies and frequent neighbors: they co-occur in older men, share smoking and age risk, and locally advanced disease of one can invade the other; pelvic surgery and shared follow-up imaging link their care.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — Bladder cancer is a disease of the whole urothelial lining: the same field-effect carcinogens (smoking, aromatic amines) that transform the bladder can produce synchronous or metachronous tumors of the renal pelvis and ureter, so the entire upper urinary tract needs surveillance.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Bladder cancer is the birthplace of cancer immunotherapy: intravesical BCG—live attenuated mycobacteria—triggers a local immune response that has prevented recurrence of non-muscle-invasive bladder cancer for decades, and PD-1/PD-L1 inhibitors now treat advanced disease.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Bladder and renal cell carcinoma are the two major urologic cancers but differ in cell and cause: bladder cancer is a smoking-linked urothelial tumor with painless hematuria, while RCC arises from renal tubular epithelium—both can shed cells detectable in urine.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Bladder cancer and lung cancer are the paradigm smoking-caused epithelial cancers: tobacco carcinogens excreted in urine bathe and transform the bladder urothelium just as inhaled smoke transforms the bronchus, so the two often coexist and both are reshaped by immunotherapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Bladder cancer pioneered macrophage-based immunotherapy: intravesical BCG provokes a local immune response in which macrophages and T cells attack residual tumor, making early non-muscle-invasive bladder cancer one of the first cancers cured by harnessing innate immunity.
 
 ---
 

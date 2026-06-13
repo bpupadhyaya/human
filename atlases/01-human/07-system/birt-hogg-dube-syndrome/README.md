@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/vhl-disease
     relation: connects-to
     note: "Birt-Hogg-Dubé sits alongside VHL disease among inherited renal-cancer syndromes: both cause multifocal, bilateral RCC needing nephron-sparing surgery and lifelong imaging, but differ in tumor type (BHD chromophobe/oncocytic via folliculin-mTOR; VHL clear-cell via HIF)."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The skin tumors of Birt-Hogg-Dubé are fibroblast-rich hamartomas: fibrofolliculomas and trichodiscomas are benign white facial papules where folliculin loss disrupts hair-follicle signaling, producing a fibroblast-laden stroma—often the first clue to the syndrome."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Birt-Hogg-Dubé strikes the renal system multifocally: folliculin loss drives bilateral chromophobe and hybrid oncocytic renal cell carcinomas, so the renal system needs lifelong MRI surveillance and nephron-sparing surgery to preserve kidney function over a lifetime."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "The lungs are a defining target in Birt-Hogg-Dubé: folliculin loss produces multiple basal pulmonary cysts that rupture, causing recurrent spontaneous pneumothorax, often the presenting feature in a young adult—so unexplained pneumothorax should prompt BHD testing."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -216,6 +225,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Birt-Hogg-Dubé and tuberous sclerosis converge on mTOR and cystic lung disease: BHD folliculin and TSC1/2 both normally restrain mTOR, and both cause characteristic lung cysts with pneumothorax risk (BHD basal cysts; TSC/LAM diffuse)—so mTOR inhibition is a shared theme.
 - `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — Birt-Hogg-Dubé and HLRCC are both hereditary kidney-cancer syndromes with distinct biology: BHD (folliculin) causes chromophobe/oncocytic RCC with skin fibrofolliculomas and lung cysts, while HLRCC (fumarate hydratase) causes aggressive papillary RCC and uterine leiomyomas.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Birt-Hogg-Dubé sits alongside VHL disease among inherited renal-cancer syndromes: both cause multifocal, bilateral RCC needing nephron-sparing surgery and lifelong imaging, but differ in tumor type (BHD chromophobe/oncocytic via folliculin-mTOR; VHL clear-cell via HIF).
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The skin tumors of Birt-Hogg-Dubé are fibroblast-rich hamartomas: fibrofolliculomas and trichodiscomas are benign white facial papules where folliculin loss disrupts hair-follicle signaling, producing a fibroblast-laden stroma—often the first clue to the syndrome.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Birt-Hogg-Dubé strikes the renal system multifocally: folliculin loss drives bilateral chromophobe and hybrid oncocytic renal cell carcinomas, so the renal system needs lifelong MRI surveillance and nephron-sparing surgery to preserve kidney function over a lifetime.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — The lungs are a defining target in Birt-Hogg-Dubé: folliculin loss produces multiple basal pulmonary cysts that rupture, causing recurrent spontaneous pneumothorax, often the presenting feature in a young adult—so unexplained pneumothorax should prompt BHD testing.
 
 ---
 
