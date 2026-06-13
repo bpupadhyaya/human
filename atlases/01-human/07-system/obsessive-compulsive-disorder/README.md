@@ -71,6 +71,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "OCD and anorexia nervosa are closely linked: they share perfectionism, intrusive thoughts and ritualized behavior, frequently co-occur, and high premorbid OCD traits predict anorexia; orbitofrontal-striatal circuitry features in both, though anorexia's rituals center on food."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "OCD and panic disorder are anxiety-spectrum disorders that often co-occur but differ: OCD's anxiety is driven by intrusive obsessions relieved by compulsions, while panic is sudden autonomic surges of fear—both share SSRI responsiveness and exposure-based therapy."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "OCD and schizophrenia intersect in schizo-obsessive presentations: OC symptoms are common in schizophrenia and can worsen on antipsychotics like clozapine, and both involve glutamate and dopamine dysregulation—so telling obsessions from delusions guides care."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "OCD arises from dysfunction in cortico-striato-thalamo-cortical neurons: overactive loops through the orbitofrontal cortex, caudate, and thalamus generate the repetitive obsessions and compulsions, which is why SSRIs and, in refractory cases, deep brain stimulation can help."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -213,6 +222,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — OCD and BPD both involve distressing, hard-to-control inner experience but differ in form: OCD is ego-dystonic intrusive thoughts and compulsions, BPD is emotional instability, impulsivity and unstable relationships; they can co-occur, with ERP/CBT central to OCD and DBT to BPD.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — OCD and autism overlap substantially: both feature repetitive behaviors and need for sameness, OCD is markedly more prevalent in autistic people, and distinguishing ego-dystonic compulsions from autistic routines (often not distressing in themselves) is a key clinical challenge.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — OCD and anorexia nervosa are closely linked: they share perfectionism, intrusive thoughts and ritualized behavior, frequently co-occur, and high premorbid OCD traits predict anorexia; orbitofrontal-striatal circuitry features in both, though anorexia's rituals center on food.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — OCD and panic disorder are anxiety-spectrum disorders that often co-occur but differ: OCD's anxiety is driven by intrusive obsessions relieved by compulsions, while panic is sudden autonomic surges of fear—both share SSRI responsiveness and exposure-based therapy.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — OCD and schizophrenia intersect in schizo-obsessive presentations: OC symptoms are common in schizophrenia and can worsen on antipsychotics like clozapine, and both involve glutamate and dopamine dysregulation—so telling obsessions from delusions guides care.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — OCD arises from dysfunction in cortico-striato-thalamo-cortical neurons: overactive loops through the orbitofrontal cortex, caudate, and thalamus generate the repetitive obsessions and compulsions, which is why SSRIs and, in refractory cases, deep brain stimulation can help.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
