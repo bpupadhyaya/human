@@ -46,6 +46,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "About half of WM patients with neuropathy have IgM anti-MAG antibodies that attack peripheral-nerve myelin, producing a distal, symmetric, sensory-predominant demyelinating neuropathy; lowering IgM with rituximab improves it in some, and titer tracks severity."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Waldenström macroglobulinemia and myeloma are B-cell dyscrasias secreting a monoclonal paraprotein but differ: WM is a lymphoplasmacytic lymphoma making IgM (hyperviscosity, neuropathy) with MYD88 L265P, while myeloma is a marrow plasma-cell tumor making IgG/IgA with lytic bone."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "WM's malignant clone is lymphoplasmacytic—a spectrum from small B cells to plasma cells—so it secretes monoclonal IgM like a plasma-cell tumor while keeping B-cell markers (CD20); this dual differentiation explains why both rituximab and plasma-cell-directed agents work."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "WM characteristically infiltrates the bone marrow with lymphoplasmacytic cells, often paratrabecular and with increased mast cells; this marrow involvement causes anemia (the commonest symptom) and underlies the cytopenias, with diagnosis confirmed by marrow biopsy."
 ---
 
 # Waldenström Macroglobulinemia
@@ -173,6 +182,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Waldenström macroglobulinemia is a lymphoplasmacytic lymphoma — a clonal B-cell neoplasm frozen midway between a memory B cell and an IgM-secreting plasma cell; this dual identity gives it both surface CD20 and cytoplasmic IgM and shapes its B-cell-directed therapy.
 - `connects-to` → **[MYD88](../../03-molecular/myd88/README.md)** — MYD88 L265P, present in ~90% of WM, is the defining and diagnostic mutation: it assembles a constitutive myddosome that fires NF-κB, JAK-STAT3, and BTK to keep the tumor alive, and its presence predicts response to BTK inhibitors — while MYD88-wildtype WM responds poorly.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — About half of WM patients with neuropathy have IgM anti-MAG antibodies that attack peripheral-nerve myelin, producing a distal, symmetric, sensory-predominant demyelinating neuropathy; lowering IgM with rituximab improves it in some, and titer tracks severity.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Waldenström macroglobulinemia and myeloma are B-cell dyscrasias secreting a monoclonal paraprotein but differ: WM is a lymphoplasmacytic lymphoma making IgM (hyperviscosity, neuropathy) with MYD88 L265P, while myeloma is a marrow plasma-cell tumor making IgG/IgA with lytic bone.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — WM's malignant clone is lymphoplasmacytic—a spectrum from small B cells to plasma cells—so it secretes monoclonal IgM like a plasma-cell tumor while keeping B-cell markers (CD20); this dual differentiation explains why both rituximab and plasma-cell-directed agents work.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — WM characteristically infiltrates the bone marrow with lymphoplasmacytic cells, often paratrabecular and with increased mast cells; this marrow involvement causes anemia (the commonest symptom) and underlies the cytopenias, with diagnosis confirmed by marrow biopsy.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

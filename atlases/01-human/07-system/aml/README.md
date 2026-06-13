@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/idh1
     relation: connects-to
     note: "IDH1 and IDH2 mutations (~20% of AML) produce the oncometabolite 2-hydroxyglutarate, which blocks myeloid differentiation; the inhibitors ivosidenib (IDH1) and enasidenib (IDH2) lower 2-HG and let blasts mature, though they can trigger a differentiation syndrome."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "AML is a maturation arrest: leukemic blasts flood the marrow but cannot become functional neutrophils, so patients suffer severe neutropenia and infection even with high white counts; the promyelocytic subtype (APL) is uniquely cured by ATRA/arsenic forcing differentiation."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "AML and CML are the two principal myeloid leukemias: CML is a chronic BCR-ABL1-driven proliferation of maturing granulocytes that, untreated, accelerates into a blast crisis that is AML-like (myeloid in ~70%); both arise from transformed myeloid progenitors in the marrow."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Myeloproliferative neoplasms (PV, ET, PMF) carry a risk of leukemic transformation to AML—highest in myelofibrosis—where JAK2/CALR-mutant clones acquire added lesions (TP53, ASXL1); this 'blast phase' AML is treatment-resistant with poor survival."
 ---
 
 # AML
@@ -174,6 +183,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — AML chokes the bone marrow with ≥20% immature myeloid blasts that arrest differentiation and crowd out normal hematopoiesis → anemia, bleeding, and infection; chemo-resistant leukemic stem cells hide in hypoxic, CXCL12-rich endosteal niches, seeding relapse.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Myelodysplastic syndromes are the main precursor of secondary AML (~30% of AML arises from MDS), sharing TP53 mutations, del(5q)/del(7q), and complex karyotypes; MDS-related and therapy-related AML are adverse-risk and treated differently (e.g., CPX-351).
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — IDH1 and IDH2 mutations (~20% of AML) produce the oncometabolite 2-hydroxyglutarate, which blocks myeloid differentiation; the inhibitors ivosidenib (IDH1) and enasidenib (IDH2) lower 2-HG and let blasts mature, though they can trigger a differentiation syndrome.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — AML is a maturation arrest: leukemic blasts flood the marrow but cannot become functional neutrophils, so patients suffer severe neutropenia and infection even with high white counts; the promyelocytic subtype (APL) is uniquely cured by ATRA/arsenic forcing differentiation.
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — AML and CML are the two principal myeloid leukemias: CML is a chronic BCR-ABL1-driven proliferation of maturing granulocytes that, untreated, accelerates into a blast crisis that is AML-like (myeloid in ~70%); both arise from transformed myeloid progenitors in the marrow.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myeloproliferative neoplasms (PV, ET, PMF) carry a risk of leukemic transformation to AML—highest in myelofibrosis—where JAK2/CALR-mutant clones acquire added lesions (TP53, ASXL1); this 'blast phase' AML is treatment-resistant with poor survival.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
