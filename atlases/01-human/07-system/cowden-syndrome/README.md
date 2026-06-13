@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The skin gives the earliest clues to Cowden syndrome: trichilemmomas (facial papules), oral papillomas, and acral keratoses are diagnostic mucocutaneous hamartomas of PTEN loss, often appearing before the breast and thyroid cancers—a dermatologist may diagnose it first."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid gland is a hallmark Cowden target: PTEN loss causes multinodular goiter, adenomas and a raised risk of (especially follicular) thyroid cancer, so Cowden patients undergo thyroid surveillance from childhood—often where the syndrome first declares itself."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cowden's signature skin lesions are fibroblast-driven hamartomas: trichilemmomas and fibromas arise as PTEN-deficient cells including fibroblasts overgrow in benign tumors—these mucocutaneous bumps are a key diagnostic clue to the underlying PTEN mutation."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Cowden and Lynch syndrome are both hereditary cancer syndromes with colon risk but different polyps: Cowden causes hamartomatous polyps via PTEN loss, while Lynch drives mismatch-repair-deficient adenomas—so polyp histology and gene testing tell them apart."
 ---
 
 # Cowden Syndrome
@@ -267,6 +276,9 @@ cross_links:
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Cowden and Peutz-Jeghers are both hamartomatous tumor syndromes on different pathways: Cowden's PTEN loss unleashes PI3K/mTOR, causing hamartomas plus breast, thyroid, and endometrial cancer, while Peutz-Jeghers' STK11 loss causes GI hamartomas with mucocutaneous pigmentation.
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Cowden syndrome and tuberous sclerosis are hamartoma syndromes converging on mTOR from opposite ends: Cowden's PTEN loss removes a brake upstream of mTOR, while TSC1/TSC2 loss directly unleashes it—so both cause hamartomas and respond to mTOR inhibitors.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin gives the earliest clues to Cowden syndrome: trichilemmomas (facial papules), oral papillomas, and acral keratoses are diagnostic mucocutaneous hamartomas of PTEN loss, often appearing before the breast and thyroid cancers—a dermatologist may diagnose it first.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid gland is a hallmark Cowden target: PTEN loss causes multinodular goiter, adenomas and a raised risk of (especially follicular) thyroid cancer, so Cowden patients undergo thyroid surveillance from childhood—often where the syndrome first declares itself.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cowden's signature skin lesions are fibroblast-driven hamartomas: trichilemmomas and fibromas arise as PTEN-deficient cells including fibroblasts overgrow in benign tumors—these mucocutaneous bumps are a key diagnostic clue to the underlying PTEN mutation.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Cowden and Lynch syndrome are both hereditary cancer syndromes with colon risk but different polyps: Cowden causes hamartomatous polyps via PTEN loss, while Lynch drives mismatch-repair-deficient adenomas—so polyp histology and gene testing tell them apart.
 
 ---
 

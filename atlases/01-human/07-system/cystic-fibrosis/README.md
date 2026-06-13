@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Cystic fibrosis usually causes male infertility: nearly all men with CF have congenital bilateral absence of the vas deferens from CFTR dysfunction, so they are azoospermic despite normal sperm production—and isolated CBAVD can be the only sign of mild CFTR mutations."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium transport is deranged in cystic fibrosis: defective CFTR not only blocks chloride exit but unleashes excess sodium and water absorption, dehydrating airway mucus—and the resulting high sweat sodium chloride is the basis of the diagnostic sweat test."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "Aspergillus colonizes the cystic fibrosis airway: the thick mucus lets Aspergillus fumigatus grow, and the hypersensitivity response (ABPA) causes wheezing, mucus plugging and lung decline—so CF care monitors for and treats this fungal complication."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a CF target organ: thick bile from defective CFTR blocks small bile ducts, causing focal biliary cirrhosis and, in some, progressive CF liver disease with portal hypertension—a leading non-pulmonary cause of death in cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -215,6 +224,9 @@ AND
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — The respiratory system bears the lethal burden of cystic fibrosis: defective CFTR chloride transport thickens airway mucus, causing impaired clearance, chronic infection, bronchiectasis, and respiratory failure—the leading cause of death, now eased by CFTR modulators.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cystic fibrosis disrupts the entire digestive system: thick secretions block pancreatic ducts causing exocrine insufficiency and malabsorption, plug the bowel as meconium ileus in newborns, and thicken bile—so enzyme replacement and nutrition are central to CF care.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cystic fibrosis usually causes male infertility: nearly all men with CF have congenital bilateral absence of the vas deferens from CFTR dysfunction, so they are azoospermic despite normal sperm production—and isolated CBAVD can be the only sign of mild CFTR mutations.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium transport is deranged in cystic fibrosis: defective CFTR not only blocks chloride exit but unleashes excess sodium and water absorption, dehydrating airway mucus—and the resulting high sweat sodium chloride is the basis of the diagnostic sweat test.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — Aspergillus colonizes the cystic fibrosis airway: the thick mucus lets Aspergillus fumigatus grow, and the hypersensitivity response (ABPA) causes wheezing, mucus plugging and lung decline—so CF care monitors for and treats this fungal complication.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a CF target organ: thick bile from defective CFTR blocks small bile ducts, causing focal biliary cirrhosis and, in some, progressive CF liver disease with portal hypertension—a leading non-pulmonary cause of death in cystic fibrosis.
 
 ---
 
