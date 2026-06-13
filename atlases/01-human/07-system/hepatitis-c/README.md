@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "Hepatitis C replicates in hepatocytes and rewires their lipid metabolism: the virus assembles on lipid droplets and uses hepatocyte lipoproteins, causing steatosis and insulin resistance—injuring the liver cell metabolically as well as by immune inflammation."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Hepatitis C drives B-cell non-Hodgkin lymphoma: chronic antigenic stimulation of B cells can progress to marginal-zone and diffuse large B-cell lymphoma, and antiviral cure can induce remission—cancer from immune stimulation, not direct transformation."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Hepatitis C injures the kidney through cryoglobulinemia: immune complexes of HCV and antibody deposit in glomeruli, causing membranoproliferative glomerulonephritis—so HCV is a treatable cause of renal failure, and antiviral cure can stabilize the nephropathy."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Hepatitis C can mimic and overlap Sjögren's syndrome: chronic HCV causes sicca symptoms resembling Sjögren's, plus shared cryoglobulinemia and lymphoma risk—so HCV should be excluded when sicca and autoimmune features appear, as antiviral therapy can improve them."
 ---
 
 # Hepatitis C
@@ -208,3 +217,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HCV and HIV commonly coinfect through shared blood-borne spread: HIV accelerates HCV liver fibrosis and cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which now clears HCV in most regardless of HIV status.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Chronic hepatitis C drives B-cell non-Hodgkin lymphomas including follicular and marginal-zone types: persistent antigen stimulation expands clonal B cells (also causing mixed cryoglobulinemia), and antiviral cure can make some HCV-associated lymphomas regress.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatitis C replicates in hepatocytes and rewires their lipid metabolism: the virus assembles on lipid droplets and uses hepatocyte lipoproteins, causing steatosis and insulin resistance—injuring the liver cell metabolically as well as by immune inflammation.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Hepatitis C drives B-cell non-Hodgkin lymphoma: chronic antigenic stimulation of B cells can progress to marginal-zone and diffuse large B-cell lymphoma, and antiviral cure can induce remission—cancer from immune stimulation, not direct transformation.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Hepatitis C injures the kidney through cryoglobulinemia: immune complexes of HCV and antibody deposit in glomeruli, causing membranoproliferative glomerulonephritis—so HCV is a treatable cause of renal failure, and antiviral cure can stabilize the nephropathy.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Hepatitis C can mimic and overlap Sjögren's syndrome: chronic HCV causes sicca symptoms resembling Sjögren's, plus shared cryoglobulinemia and lymphoma risk—so HCV should be excluded when sicca and autoimmune features appear, as antiviral therapy can improve them.

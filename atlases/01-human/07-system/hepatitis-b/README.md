@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "Hepatitis B is classically linked to polyarteritis nodosa, not ANCA-associated vasculitis: circulating HBsAg immune complexes deposit in medium-sized arteries, so HBV-related PAN is immune-complex-driven and ANCA-negative—a key distinction from primary ANCA vasculitis."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Hepatitis B raises cholangiocarcinoma risk, not just hepatocellular carcinoma: chronic HBV inflammation and cirrhosis can transform biliary epithelium too, making HBV a recognized risk factor for intrahepatic cholangiocarcinoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells are key to controlling hepatitis B: NK cells provide early antiviral defense, but in chronic HBV they become functionally exhausted, contributing to viral persistence—so restoring NK and T-cell function is a goal of functional-cure strategies."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Chronic hepatitis B is a disease of immune tolerance and exhaustion: whether HBV is cleared or becomes chronic depends on the host immune response—HBV outcomes are written by the immune system as much as the virus."
 ---
 
 # Hepatitis B
@@ -217,3 +226,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HBV and HIV share transmission routes and frequently coinfect: shared blood and sexual spread means many HIV patients carry HBV, accelerating fibrosis, and several drugs (tenofovir, lamivudine) treat both—so HIV regimens are chosen to cover HBV.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Liver macrophages (Kupffer cells) shape hepatitis B outcomes: they sense viral products and present antigen, and the balance between cytotoxic T-cell clearance and macrophage-driven chronic inflammation decides whether HBV is cleared or smolders into fibrosis and cancer.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Hepatitis B is classically linked to polyarteritis nodosa, not ANCA-associated vasculitis: circulating HBsAg immune complexes deposit in medium-sized arteries, so HBV-related PAN is immune-complex-driven and ANCA-negative—a key distinction from primary ANCA vasculitis.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Hepatitis B raises cholangiocarcinoma risk, not just hepatocellular carcinoma: chronic HBV inflammation and cirrhosis can transform biliary epithelium too, making HBV a recognized risk factor for intrahepatic cholangiocarcinoma.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are key to controlling hepatitis B: NK cells provide early antiviral defense, but in chronic HBV they become functionally exhausted, contributing to viral persistence—so restoring NK and T-cell function is a goal of functional-cure strategies.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic hepatitis B is a disease of immune tolerance and exhaustion: whether HBV is cleared or becomes chronic depends on the host immune response—HBV outcomes are written by the immune system as much as the virus.
