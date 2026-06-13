@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Substance use, especially alcohol, is among the commonest BPD comorbidities (~50%): impulsivity and affect dysregulation promote drinking to escape dysphoria, which worsens self-harm and suicide risk; integrated treatment of both outperforms treating either alone."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Borderline personality disorder and bulimia nervosa frequently co-occur through shared impulsivity and emotion dysregulation: bingeing, purging, and self-harm serve similar affect-regulation roles, so eating-disorder screening is routine in BPD, and DBT helps both."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Borderline personality disorder and generalized anxiety disorder commonly overlap: chronic worry and emotional hyperarousal feature in both, but BPD adds unstable relationships, identity disturbance, and impulsivity—so anxiety with relational chaos points beyond GAD."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus is structurally altered in borderline personality disorder: reduced hippocampal and amygdala volume—tied to early-life trauma and HPA/cortisol dysregulation—accompanies the impaired emotion regulation and stress sensitivity central to the disorder."
 ---
 
 # Borderline Personality Disorder
@@ -215,6 +224,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — BPD and OCD both feature distressing, hard-to-control mental phenomena but differ in form: BPD centers on emotional instability, impulsivity and unstable relationships, OCD on ego-dystonic intrusive thoughts and compulsions; they can co-occur and overlap on SSRI treatment.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Bipolar disorder is the key differential for BPD: both show mood swings, but bipolar episodes last days-to-weeks and are often unprovoked while BPD affective shifts are rapid (hours) and reactive to interpersonal triggers; the two frequently coexist and are commonly conflated.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Substance use, especially alcohol, is among the commonest BPD comorbidities (~50%): impulsivity and affect dysregulation promote drinking to escape dysphoria, which worsens self-harm and suicide risk; integrated treatment of both outperforms treating either alone.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Borderline personality disorder and bulimia nervosa frequently co-occur through shared impulsivity and emotion dysregulation: bingeing, purging, and self-harm serve similar affect-regulation roles, so eating-disorder screening is routine in BPD, and DBT helps both.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Borderline personality disorder and generalized anxiety disorder commonly overlap: chronic worry and emotional hyperarousal feature in both, but BPD adds unstable relationships, identity disturbance, and impulsivity—so anxiety with relational chaos points beyond GAD.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is structurally altered in borderline personality disorder: reduced hippocampal and amygdala volume—tied to early-life trauma and HPA/cortisol dysregulation—accompanies the impaired emotion regulation and stress sensitivity central to the disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

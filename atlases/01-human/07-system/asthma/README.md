@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "A2BR on mast cells and airway smooth muscle → bronchoconstriction at high adenosine; AMP provocation test exploits this for asthma diagnosis; theophylline (adenosine antagonist + PDE inhibitor) is a bronchodilator; caffeine has mild adenosine-antagonist bronchodilator effect."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Asthma and COPD are the two great obstructive airway diseases and can overlap (ACOS): asthma is reversible, eosinophilic/Th2 inflammation in younger atopic patients, while COPD is largely irreversible, neutrophilic, smoking-driven—though many older patients share both."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Allergic asthma is a Th2 helper-T-cell disease: Th2 cells secrete IL-4, IL-5, and IL-13 that drive IgE class-switching, eosinophil recruitment, and mucus, so the type-2 inflammation they coordinate is the target of biologics like dupilumab and anti-IL-5 agents."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Asthma and atopic dermatitis are linked stages of the atopic march: many children begin with eczema and food allergy in infancy, then progress to allergic rhinitis and asthma, reflecting shared type-2 immunity and barrier defects—and both now respond to dupilumab."
 ---
 
 # Asthma
@@ -184,6 +193,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — IL-5 drives eosinophilic airway inflammation; blood eosinophils ≥300/μL identifies biologic candidates; mepolizumab (MENSA 47% RRR) and benralizumab (CALIMA 28-36% RRR) block IL-5 or IL-5Rα to reduce exacerbations in severe eosinophilic asthma.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP → DC and ILC2 activation upstream of the Th2/eosinophil cascade; tezepelumab (anti-TSLP mAb) reduced exacerbations 70% in NAVIGATOR trial — most effective severe asthma biologic across all eosinophil and IgE levels including T2-low patients.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — A2BR on mast cells and airway smooth muscle → bronchoconstriction at high adenosine; AMP provocation test exploits this for asthma diagnosis; theophylline (adenosine antagonist + PDE inhibitor) is a bronchodilator; caffeine has mild adenosine-antagonist bronchodilator effect.
+- `connects-to` → **[COPD](../copd/README.md)** — Asthma and COPD are the two great obstructive airway diseases and can overlap (ACOS): asthma is reversible, eosinophilic/Th2 inflammation in younger atopic patients, while COPD is largely irreversible, neutrophilic, smoking-driven—though many older patients share both.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Allergic asthma is a Th2 helper-T-cell disease: Th2 cells secrete IL-4, IL-5, and IL-13 that drive IgE class-switching, eosinophil recruitment, and mucus, so the type-2 inflammation they coordinate is the target of biologics like dupilumab and anti-IL-5 agents.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Asthma and atopic dermatitis are linked stages of the atopic march: many children begin with eczema and food allergy in infancy, then progress to allergic rhinitis and asthma, reflecting shared type-2 immunity and barrier defects—and both now respond to dupilumab.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
