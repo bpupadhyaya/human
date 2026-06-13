@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: connects-to
     note: "The lung epithelium is the cradle of DICER1's signature tumor: pleuropulmonary blastoma arises in the developing lung where DICER1 loss in the airway/alveolar epithelium (including type II pneumocytes) drives cystic then sarcomatous change, the childhood hallmark of the syndrome."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "DICER1 syndrome and retinoblastoma are inherited pediatric cancer-predisposition syndromes: DICER1 disrupts microRNA processing to cause pleuropulmonary blastoma and embryonal tumors, while RB1 loss causes retinoblastoma—both needing childhood surveillance."
+  - target: 01-human/07-system/atypical-teratoid-rhabdoid-tumor
+    relation: connects-to
+    note: "DICER1 syndrome and rhabdoid tumor predisposition both cause aggressive embryonal childhood tumors: DICER1 (microRNA processing) yields pleuropulmonary blastoma and CNS tumors, while SMARCB1 loss yields ATRT—overlapping in the infant brain-tumor differential."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "DICER1 syndrome causes a rare HPV-independent cervical cancer: embryonal rhabdomyosarcoma (sarcoma botryoides) of the cervix arises from germline DICER1 loss in young women, a distinctive non-carcinoma cervical tumor that, unlike typical cervical cancer, is unrelated to HPV."
 ---
 
 # DICER1 Syndrome
@@ -190,6 +199,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — DICER1 syndrome reaches the CNS: germline DICER1 loss predisposes to pineoblastoma and a distinct DICER1-mutant embryonal brain tumor that overlaps morphologically with medulloblastoma—so miRNA-processing failure, not just SHH/WNT, can drive childhood embryonal CNS cancer.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — DICER1 and Li-Fraumeni are major inherited pediatric cancer-predisposition syndromes with overlapping tumors (rhabdomyosarcoma, CNS embryonal tumors) but distinct mechanisms: DICER1 disrupts microRNA processing, Li-Fraumeni loses TP53 function—both warrant surveillance.
 - `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — The lung epithelium is the cradle of DICER1's signature tumor: pleuropulmonary blastoma arises in the developing lung where DICER1 loss in the airway/alveolar epithelium (including type II pneumocytes) drives cystic then sarcomatous change, the childhood hallmark of the syndrome.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — DICER1 syndrome and retinoblastoma are inherited pediatric cancer-predisposition syndromes: DICER1 disrupts microRNA processing to cause pleuropulmonary blastoma and embryonal tumors, while RB1 loss causes retinoblastoma—both needing childhood surveillance.
+- `connects-to` → **[Atypical Teratoid/Rhabdoid Tumor](../atypical-teratoid-rhabdoid-tumor/README.md)** — DICER1 syndrome and rhabdoid tumor predisposition both cause aggressive embryonal childhood tumors: DICER1 (microRNA processing) yields pleuropulmonary blastoma and CNS tumors, while SMARCB1 loss yields ATRT—overlapping in the infant brain-tumor differential.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — DICER1 syndrome causes a rare HPV-independent cervical cancer: embryonal rhabdomyosarcoma (sarcoma botryoides) of the cervix arises from germline DICER1 loss in young women, a distinctive non-carcinoma cervical tumor that, unlike typical cervical cancer, is unrelated to HPV.
 
 ---
 

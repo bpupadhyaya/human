@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Desmoid tumors are driven by a profibrotic program in which TGF-β is central: alongside constitutive Wnt/β-catenin, TGF-β stimulates myofibroblasts to lay down the dense collagenous matrix that makes desmoids infiltrative and locally destructive—the hallmark of fibromatosis."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Desmoid tumor and synovial sarcoma are both deep soft-tissue tumors but biologically apart: desmoid is a locally aggressive fibroblastic proliferation driven by CTNNB1/Wnt that never metastasizes, while synovial sarcoma is a malignant SS18-SSX sarcoma that does."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Desmoid tumor and Ewing sarcoma both arise in young people but differ: desmoid is a non-metastasizing fibromatosis often managed by active surveillance, whereas Ewing is an aggressive EWSR1-FLI1 small-round-cell sarcoma needing intensive chemo and radiation."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Desmoid tumors are linked to the reproductive system through estrogen and pregnancy: many are estrogen-responsive and can grow during or after pregnancy, and abdominal-wall desmoids classically follow childbirth—so hormonal therapy is one treatment option."
 ---
 
 # Desmoid Tumor
@@ -209,6 +218,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Desmoid tumors are a hallmark of familial adenomatous polyposis (Gardner syndrome), the same APC/Wnt disorder that causes colorectal cancer: ~10-15% of FAP patients develop desmoids, often intra-abdominal and triggered by colectomy, where they become a leading cause of death.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Desmoid tumors are frequently hormone-responsive: many express estrogen receptors, can grow during pregnancy or with oral contraceptives and regress after menopause, so anti-estrogens (tamoxifen) with NSAIDs are an established option for these non-metastasizing fibromatoses.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Desmoid tumors are driven by a profibrotic program in which TGF-β is central: alongside constitutive Wnt/β-catenin, TGF-β stimulates myofibroblasts to lay down the dense collagenous matrix that makes desmoids infiltrative and locally destructive—the hallmark of fibromatosis.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Desmoid tumor and synovial sarcoma are both deep soft-tissue tumors but biologically apart: desmoid is a locally aggressive fibroblastic proliferation driven by CTNNB1/Wnt that never metastasizes, while synovial sarcoma is a malignant SS18-SSX sarcoma that does.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Desmoid tumor and Ewing sarcoma both arise in young people but differ: desmoid is a non-metastasizing fibromatosis often managed by active surveillance, whereas Ewing is an aggressive EWSR1-FLI1 small-round-cell sarcoma needing intensive chemo and radiation.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Desmoid tumors are linked to the reproductive system through estrogen and pregnancy: many are estrogen-responsive and can grow during or after pregnancy, and abdominal-wall desmoids classically follow childbirth—so hormonal therapy is one treatment option.
 
 ---
 
