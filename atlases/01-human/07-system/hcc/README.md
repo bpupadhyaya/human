@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/cholangiocarcinoma
     relation: connects-to
     note: "HCC and cholangiocarcinoma are the two main primary liver cancers but differ in origin: HCC arises from hepatocytes (often in cirrhosis, AFP-secreting, treated with TACE and atezolizumab/bevacizumab), cholangiocarcinoma from bile-duct epithelium; combined tumors blur the line."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "NASH is a leading and fast-rising cause of hepatocellular carcinoma: metabolic-syndrome fatty liver inflames into steatohepatitis, fibrosis, and cirrhosis that turns malignant—and NASH-related HCC can arise even without cirrhosis, reshaping who needs surveillance."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type 2 diabetes independently raises hepatocellular carcinoma risk: insulin resistance and hyperinsulinemia promote hepatocyte proliferation and fatty-liver inflammation, compounding viral and alcoholic causes—so diabetes drives much of the surging non-viral HCC."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Hepatocellular carcinoma is now treated by reactivating cytotoxic T cells: the liver's tolerogenic, immunosuppressive milieu lets HCC evade immunity, so PD-L1 blockade plus anti-VEGF (atezolizumab + bevacizumab) restores T-cell attack and is first-line for advanced disease."
 ---
 
 # Hepatocellular Carcinoma
@@ -209,6 +218,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Chronic heavy alcohol use is a leading cause of HCC: alcoholic cirrhosis provides the inflamed, fibrotic background on which HCC arises, and alcohol synergizes with hepatitis B/C and obesity to multiply risk; abstinence and HCC surveillance in cirrhosis are key.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity drives a rising share of HCC through MASLD/MASH (fatty liver): hepatic steatosis, insulin resistance and inflammation progress to cirrhosis and HCC—and uniquely, MASH-HCC can arise even without cirrhosis, complicating surveillance as obesity rates climb.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — HCC and cholangiocarcinoma are the two main primary liver cancers but differ in origin: HCC arises from hepatocytes (often in cirrhosis, AFP-secreting, treated with TACE and atezolizumab/bevacizumab), cholangiocarcinoma from bile-duct epithelium; combined tumors blur the line.
+- `connects-to` → **[NASH](../nash/README.md)** — NASH is a leading and fast-rising cause of hepatocellular carcinoma: metabolic-syndrome fatty liver inflames into steatohepatitis, fibrosis, and cirrhosis that turns malignant—and NASH-related HCC can arise even without cirrhosis, reshaping who needs surveillance.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes independently raises hepatocellular carcinoma risk: insulin resistance and hyperinsulinemia promote hepatocyte proliferation and fatty-liver inflammation, compounding viral and alcoholic causes—so diabetes drives much of the surging non-viral HCC.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Hepatocellular carcinoma is now treated by reactivating cytotoxic T cells: the liver's tolerogenic, immunosuppressive milieu lets HCC evade immunity, so PD-L1 blockade plus anti-VEGF (atezolizumab + bevacizumab) restores T-cell attack and is first-line for advanced disease.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

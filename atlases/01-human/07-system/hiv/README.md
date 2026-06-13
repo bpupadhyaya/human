@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Lymphoid tissue is HIV's main battleground and reservoir: the virus replicates in CD4 T cells of lymph nodes and gut-associated lymphoid tissue, destroying their architecture; latent provirus persists in resting memory cells there, the key barrier to cure on suppressive therapy."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV the virus and HIV/AIDS the disease are two views of one process: untreated HIV destroys CD4 T cells until immunity collapses into AIDS with opportunistic infections and cancers—antiretroviral therapy halts this, making HIV a chronic infection, not a death sentence."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "HIV exploits dendritic cells to reach its target: mucosal dendritic cells capture the virus via DC-SIGN and ferry it to lymph nodes, handing it to CD4 T cells—so the very cells meant to launch immunity instead deliver HIV to the cells it destroys."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "HIV and hepatitis C frequently coinfect through shared blood-borne transmission: HIV accelerates HCV liver fibrosis toward cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which clears HCV in most regardless of HIV status."
 ---
 
 # HIV
@@ -218,6 +227,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Human Immunodeficiency Virus type 1](../../../02-pathogen/01-viruses/hiv-1/README.md)** — HIV-1 is the retrovirus causing this infection: gp120 binds CD4 and CCR5/CXCR4 to enter helper T cells, reverse transcriptase and integrase splice the provirus into the genome, and its mutation rate plus a latent reservoir defeat cure—antiretrovirals suppress but cannot clear it.
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Tuberculosis is the leading cause of death in people with HIV: CD4 depletion cripples the Th1/macrophage granuloma that contains Mycobacterium tuberculosis, so latent TB reactivates and progresses fast; co-treatment must juggle drug interactions and immune reconstitution (IRIS).
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphoid tissue is HIV's main battleground and reservoir: the virus replicates in CD4 T cells of lymph nodes and gut-associated lymphoid tissue, destroying their architecture; latent provirus persists in resting memory cells there, the key barrier to cure on suppressive therapy.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV the virus and HIV/AIDS the disease are two views of one process: untreated HIV destroys CD4 T cells until immunity collapses into AIDS with opportunistic infections and cancers—antiretroviral therapy halts this, making HIV a chronic infection, not a death sentence.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIV exploits dendritic cells to reach its target: mucosal dendritic cells capture the virus via DC-SIGN and ferry it to lymph nodes, handing it to CD4 T cells—so the very cells meant to launch immunity instead deliver HIV to the cells it destroys.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — HIV and hepatitis C frequently coinfect through shared blood-borne transmission: HIV accelerates HCV liver fibrosis toward cirrhosis, so coinfected patients are prioritized for direct-acting antiviral cure, which clears HCV in most regardless of HIV status.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
