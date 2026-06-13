@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "Peritoneal mesothelioma and ovarian cancer overlap closely: both arise from or mimic serous peritoneal epithelium and may share BAP1 alterations, so a woman with peritoneal carcinomatosis needs pathology to separate mesothelioma from serous ovarian carcinoma."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A deletion is a defining mesothelioma alteration: loss of this tumor suppressor, alongside BAP1 and NF2, drives the cancer and helps distinguish malignant mesothelioma from benign reactive mesothelial proliferation on biopsy—a key diagnostic marker."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The sarcomatoid subtype of mesothelioma is fibroblast-like and grim: spindle, fibroblast-resembling cells make a dense tumor far more resistant to therapy than the epithelioid type—so histologic subtype strongly predicts survival."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Mesothelioma is responsive to immunotherapy despite few mutations: chronic asbestos inflammation and an immune-rich microenvironment make checkpoint blockade (anti-PD-1/CTLA-4) a frontline option—so engaging the immune system has improved outcomes in this cancer."
 ---
 
 # Mesothelioma
@@ -206,6 +215,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Mesothelioma and lung cancer are the great asbestos-related thoracic malignancies but distinct: mesothelioma arises from the pleural mesothelium, while NSCLC arises from bronchial/alveolar epithelium—asbestos drives both, but only lung cancer is strongly smoking-linked.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy's role in mesothelioma is limited: the tumor's diffuse rind over the pleura makes curative irradiation hard without harming lung, so photon radiation serves mainly palliation—surgery and chemo-immunotherapy carry the main burden.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Peritoneal mesothelioma and ovarian cancer overlap closely: both arise from or mimic serous peritoneal epithelium and may share BAP1 alterations, so a woman with peritoneal carcinomatosis needs pathology to separate mesothelioma from serous ovarian carcinoma.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion is a defining mesothelioma alteration: loss of this tumor suppressor, alongside BAP1 and NF2, drives the cancer and helps distinguish malignant mesothelioma from benign reactive mesothelial proliferation on biopsy—a key diagnostic marker.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The sarcomatoid subtype of mesothelioma is fibroblast-like and grim: spindle, fibroblast-resembling cells make a dense tumor far more resistant to therapy than the epithelioid type—so histologic subtype strongly predicts survival.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Mesothelioma is responsive to immunotherapy despite few mutations: chronic asbestos inflammation and an immune-rich microenvironment make checkpoint blockade (anti-PD-1/CTLA-4) a frontline option—so engaging the immune system has improved outcomes in this cancer.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

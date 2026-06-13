@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/idh-mutant-glioma
     relation: connects-to
     note: "Meningioma and IDH-mutant glioma sit in opposite brain compartments: meningioma is extra-axial, dural-based and usually benign, while IDH-mutant glioma is intra-axial and infiltrative—MRI location (the dural tail) distinguishes the resectable from the diffuse."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Meningiomas threaten the brain by compression, not invasion: arising from arachnoid cap cells of the meninges, they grow slowly and push on neurons and cortex, causing seizures and focal deficits—so symptoms come from mass effect, not infiltration of the brain."
+  - target: 01-human/07-system/schwannomatosis
+    relation: connects-to
+    note: "Meningioma sits in the NF2/schwannomatosis tumor family: NF2 (merlin) loss drives sporadic meningiomas and the multiple meningiomas, schwannomas and ependymomas of NF2, so a young patient with several meningiomas should prompt NF2-spectrum genetic testing."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Meningiomas are often hormone-responsive: many express progesterone and estrogen receptors, can enlarge during pregnancy or with hormonal therapy, and are commoner in women—so hormonal status influences their growth and is weighed in management."
 ---
 
 # Meningioma
@@ -204,6 +213,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Chordoma](../chordoma/README.md)** — Meningioma and chordoma are both slow-growing extra-axial tumors of the skull base and spine: meningioma arises from arachnoid cap cells, chordoma from notochord remnants in the clivus or sacrum—both treated by resection plus radiotherapy and prone to local recurrence.
 - `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Meningioma and primary CNS lymphoma can both appear as enhancing masses but differ: meningioma is an extra-axial dural tumor cured by resection, while PCNSL is an intra-axial B-cell lymphoma treated with methotrexate, not surgery—so location and biopsy decide.
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Meningioma and IDH-mutant glioma sit in opposite brain compartments: meningioma is extra-axial, dural-based and usually benign, while IDH-mutant glioma is intra-axial and infiltrative—MRI location (the dural tail) distinguishes the resectable from the diffuse.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Meningiomas threaten the brain by compression, not invasion: arising from arachnoid cap cells of the meninges, they grow slowly and push on neurons and cortex, causing seizures and focal deficits—so symptoms come from mass effect, not infiltration of the brain.
+- `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Meningioma sits in the NF2/schwannomatosis tumor family: NF2 (merlin) loss drives sporadic meningiomas and the multiple meningiomas, schwannomas and ependymomas of NF2, so a young patient with several meningiomas should prompt NF2-spectrum genetic testing.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Meningiomas are often hormone-responsive: many express progesterone and estrogen receptors, can enlarge during pregnancy or with hormonal therapy, and are commoner in women—so hormonal status influences their growth and is weighed in management.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
