@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Lynch tumors still travel the Wnt road to cancer: mismatch-repair loss accelerates mutation, but colorectal carcinogenesis still typically requires Wnt/beta-catenin activation via APC—so MMR failure speeds, rather than replaces, the adenoma-carcinoma sequence."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Lynch syndrome predisposes across the digestive system: mismatch-repair loss most often causes colorectal cancer but also stomach, small-bowel, pancreatic and biliary tumors, so broad GI surveillance anchors management of the commonest hereditary cancer syndrome."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Lynch syndrome heavily affects the female reproductive system: endometrial cancer rivals colorectal as the most common Lynch tumor and is often the sentinel cancer, and ovarian cancer risk is raised too—so gynecologic surveillance and risk-reducing surgery matter."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The Muir-Torre variant of Lynch syndrome shows in the skin: mismatch-repair loss produces sebaceous adenomas, sebaceous carcinomas and keratoacanthomas, so these uncommon skin tumors can be the first clue prompting Lynch genetic testing."
 ---
 
 # Lynch Syndrome
@@ -239,6 +248,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Lynch syndrome's Muir-Torre variant shows in the skin: mismatch-repair loss produces sebaceous adenomas, sebaceous carcinomas and keratoacanthomas, so a sebaceous skin tumor can be the first clue prompting Lynch testing and colon surveillance.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Lynch syndrome raises small-bowel cancer risk: mismatch-repair deficiency predisposes to small-intestinal adenocarcinoma—rare in the general population—so surveillance and a low threshold for investigating GI symptoms extend beyond the colon.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Lynch tumors still travel the Wnt road to cancer: mismatch-repair loss accelerates mutation, but colorectal carcinogenesis still typically requires Wnt/beta-catenin activation via APC—so MMR failure speeds, rather than replaces, the adenoma-carcinoma sequence.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Lynch syndrome predisposes across the digestive system: mismatch-repair loss most often causes colorectal cancer but also stomach, small-bowel, pancreatic and biliary tumors, so broad GI surveillance anchors management of the commonest hereditary cancer syndrome.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Lynch syndrome heavily affects the female reproductive system: endometrial cancer rivals colorectal as the most common Lynch tumor and is often the sentinel cancer, and ovarian cancer risk is raised too—so gynecologic surveillance and risk-reducing surgery matter.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The Muir-Torre variant of Lynch syndrome shows in the skin: mismatch-repair loss produces sebaceous adenomas, sebaceous carcinomas and keratoacanthomas, so these uncommon skin tumors can be the first clue prompting Lynch genetic testing.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
