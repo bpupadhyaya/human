@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Wound healing is the integumentary system restoring its barrier: hemostasis, inflammation, proliferation, and remodeling rebuild epidermis and dermis after injury, but imperfectly—scar replaces the original architecture, lacking hair follicles and full strength."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils lead the inflammatory phase of wound healing: arriving within hours, they kill bacteria and clear debris, but their proteases also damage tissue—so timely resolution is essential, and persistent neutrophilia underlies chronic non-healing wounds."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF is a master growth factor of wound repair: released by degranulating platelets, it recruits and activates fibroblasts and smooth muscle, driving granulation tissue and collagen deposition—and recombinant PDGF (becaplermin) treats diabetic foot ulcers."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity impairs wound healing: poor tissue perfusion, chronic low-grade inflammation, and frequent coexisting diabetes slow each phase of repair, so obese and diabetic patients suffer more wound dehiscence, infection and chronic ulcers—a major surgical burden."
 ---
 
 # Wound Healing
@@ -202,6 +211,9 @@ cross_links:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes is the leading cause of chronic non-healing wounds: hyperglycemia impairs every healing phase—blunting neutrophil and macrophage function, stiffening capillaries, adding neuropathy—so diabetic foot ulcers stall and drive most non-traumatic amputations.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Angiogenesis by endothelial cells is essential to wound healing: VEGF from the wound bed drives endothelial sprouting that forms granulation tissue's capillaries, restoring oxygen—when this fails (ischemia, diabetes), the wound cannot progress to repair.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Wound healing is the integumentary system restoring its barrier: hemostasis, inflammation, proliferation, and remodeling rebuild epidermis and dermis after injury, but imperfectly—scar replaces the original architecture, lacking hair follicles and full strength.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils lead the inflammatory phase of wound healing: arriving within hours, they kill bacteria and clear debris, but their proteases also damage tissue—so timely resolution is essential, and persistent neutrophilia underlies chronic non-healing wounds.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF is a master growth factor of wound repair: released by degranulating platelets, it recruits and activates fibroblasts and smooth muscle, driving granulation tissue and collagen deposition—and recombinant PDGF (becaplermin) treats diabetic foot ulcers.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity impairs wound healing: poor tissue perfusion, chronic low-grade inflammation, and frequent coexisting diabetes slow each phase of repair, so obese and diabetic patients suffer more wound dehiscence, infection and chronic ulcers—a major surgical burden.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

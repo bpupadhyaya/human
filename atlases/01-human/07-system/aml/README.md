@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells drive the graft-versus-leukemia effect that helps cure AML: after allogeneic transplant, donor NK and T cells kill residual leukemic blasts, and KIR-ligand mismatch boosts this—the basis for why transplant beats chemo alone for lasting remission."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Myelofibrosis and AML are linked by leukemic transformation: the JAK2/CALR-driven marrow fibrosis of myelofibrosis can accumulate mutations and evolve into secondary AML, a feared 'blast phase'—so MPNs like myelofibrosis shadow AML as a terminal endpoint."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "AML is part of the Li-Fraumeni cancer spectrum: germline TP53 loss predisposes to leukemias—especially therapy-related AML after the chemo and radiation used for earlier cancers—and somatic TP53-mutant AML is among the most chemo-resistant subtypes."
+  - target: 01-human/07-system/noonan-syndrome
+    relation: connects-to
+    note: "Noonan syndrome predisposes to myeloid leukemia: germline PTPN11/RAS-pathway activation drives a JMML-like myeloproliferative disorder in infancy that can progress, and the RAS-pathway link extends to AML—a RASopathy dysregulating myelopoiesis."
 ---
 
 # AML
@@ -198,6 +207,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — AML and ALL are the two acute leukemias, divided by lineage: AML is a myeloblast malignancy of adults with Auer rods and MPO positivity, while ALL is a lymphoblast cancer mostly of children—differing in immunophenotype, treatment, and CNS prophylaxis.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is an established cause of AML, and photons also treat it: atomic-bomb survivors and radiotherapy patients have raised AML risk, while total-body irradiation conditions the marrow before stem-cell transplant—radiation as cause and cure.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells drive the graft-versus-leukemia effect that helps cure AML: after allogeneic transplant, donor NK and T cells kill residual leukemic blasts, and KIR-ligand mismatch boosts this—the basis for why transplant beats chemo alone for lasting remission.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myelofibrosis and AML are linked by leukemic transformation: the JAK2/CALR-driven marrow fibrosis of myelofibrosis can accumulate mutations and evolve into secondary AML, a feared 'blast phase'—so MPNs like myelofibrosis shadow AML as a terminal endpoint.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — AML is part of the Li-Fraumeni cancer spectrum: germline TP53 loss predisposes to leukemias—especially therapy-related AML after the chemo and radiation used for earlier cancers—and somatic TP53-mutant AML is among the most chemo-resistant subtypes.
+- `connects-to` → **[Noonan Syndrome](../noonan-syndrome/README.md)** — Noonan syndrome predisposes to myeloid leukemia: germline PTPN11/RAS-pathway activation drives a JMML-like myeloproliferative disorder in infancy that can progress, and the RAS-pathway link extends to AML—a RASopathy dysregulating myelopoiesis.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
