@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Rothmund-Thomson is a skeletal dysplasia as much as a skin disorder: radial-ray defects (absent or hypoplastic thumbs and radii), short stature, and abnormal bone formation accompany its ~30% osteosarcoma risk, reflecting RECQL4's role in skeletal progenitor replication stress."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Rothmund-Thomson and Li-Fraumeni converge on osteosarcoma risk by different routes: RTS's biallelic RECQL4 helicase loss causes genome instability, while Li-Fraumeni's germline TP53 loss disables the genome's guardian—both among the highest osteosarcoma predispositions."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Rothmund-Thomson and hereditary retinoblastoma share a striking osteosarcoma susceptibility: RTS via RECQL4-driven genome instability, RB via germline RB1 loss—with Li-Fraumeni they form the trio of inherited syndromes behind most familial osteosarcoma."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "Rothmund-Thomson syndrome predisposes to skin cancers including basal and squamous cell carcinoma: poikiloderma plus defective RECQL4-dependent DNA repair leaves the skin vulnerable to UV damage, so sun protection and dermatologic surveillance are core to RTS care."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -200,6 +209,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Rothmund-Thomson, Bloom, and Werner are the three classic RecQ-helicase disorders, each from loss of a different RecQ DNA helicase: RECQL4, BLM, and WRN; all cause genomic instability and cancer predisposition but differ in the dominant tumor and aging or growth phenotype.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Juvenile bilateral cataracts are a hallmark of Rothmund-Thomson syndrome: they appear in early childhood, decades before age-related cataracts, and their presence with poikiloderma helps establish the diagnosis and prompt RECQL4 testing.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Rothmund-Thomson is a skeletal dysplasia as much as a skin disorder: radial-ray defects (absent or hypoplastic thumbs and radii), short stature, and abnormal bone formation accompany its ~30% osteosarcoma risk, reflecting RECQL4's role in skeletal progenitor replication stress.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Rothmund-Thomson and Li-Fraumeni converge on osteosarcoma risk by different routes: RTS's biallelic RECQL4 helicase loss causes genome instability, while Li-Fraumeni's germline TP53 loss disables the genome's guardian—both among the highest osteosarcoma predispositions.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Rothmund-Thomson and hereditary retinoblastoma share a striking osteosarcoma susceptibility: RTS via RECQL4-driven genome instability, RB via germline RB1 loss—with Li-Fraumeni they form the trio of inherited syndromes behind most familial osteosarcoma.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Rothmund-Thomson syndrome predisposes to skin cancers including basal and squamous cell carcinoma: poikiloderma plus defective RECQL4-dependent DNA repair leaves the skin vulnerable to UV damage, so sun protection and dermatologic surveillance are core to RTS care.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

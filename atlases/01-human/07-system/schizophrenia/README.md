@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "The hippocampus is a key schizophrenia node: reduced in volume with fewer parvalbumin interneurons, and an overactive anterior hippocampus may drive aberrant dopamine release via the subiculum-VTA pathway — linking memory deficits to the dopamine dysregulation behind psychosis."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia are central to a leading schizophrenia hypothesis: complement-C4-tagged synapses are over-pruned by microglia in adolescence, and the strongest common genetic risk maps to the C4 locus—excess synaptic elimination may underlie the disorder's grey-matter loss."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Schizophrenia and autism share neurodevelopmental roots and genetics: overlapping copy-number variants (22q11, 16p11) and synaptic genes underlie both, sitting on a continuum of early brain miswiring—though autism presents in childhood and schizophrenia later."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes contribute to the glutamate dysfunction of schizophrenia: by clearing synaptic glutamate and supplying the NMDA co-agonist D-serine, astrocyte dysfunction can impair NMDA-receptor signaling—the basis of the glutamatergic hypothesis."
 ---
 
 # Schizophrenia
@@ -239,6 +248,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Schizophrenia and bipolar disorder overlap genetically and clinically: they share risk variants (CACNA1C) and the schizoaffective category, and both feature psychosis — but schizophrenia is dominated by chronic negative/cognitive deficits, bipolar by episodic mood elevation.
 
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is a key schizophrenia node: reduced in volume with fewer parvalbumin interneurons, and an overactive anterior hippocampus may drive aberrant dopamine release via the subiculum-VTA pathway — linking memory deficits to the dopamine dysregulation behind psychosis.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia are central to a leading schizophrenia hypothesis: complement-C4-tagged synapses are over-pruned by microglia in adolescence, and the strongest common genetic risk maps to the C4 locus—excess synaptic elimination may underlie the disorder's grey-matter loss.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Schizophrenia and autism share neurodevelopmental roots and genetics: overlapping copy-number variants (22q11, 16p11) and synaptic genes underlie both, sitting on a continuum of early brain miswiring—though autism presents in childhood and schizophrenia later.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes contribute to the glutamate dysfunction of schizophrenia: by clearing synaptic glutamate and supplying the NMDA co-agonist D-serine, astrocyte dysfunction can impair NMDA-receptor signaling—the basis of the glutamatergic hypothesis.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
