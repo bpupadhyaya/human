@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells are West Nile virus's first targets and gatekeepers: skin Langerhans cells take up the virus at the bite site and carry it to lymph nodes, and their type-I-interferon response largely determines whether infection stays mild or becomes neuroinvasive."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "West Nile virus can cause acute flaccid paralysis resembling Guillain-Barré: the neuroinvasive form attacks anterior-horn motor neurons, producing asymmetric weakness, and rarely a GBS-like demyelinating syndrome—so new flaccid paralysis in summer warrants WNV testing."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help control West Nile virus early: NK cells and interferon limit viral spread before adaptive immunity, and the aging immune system's weaker NK/T-cell response is why neuroinvasive WNV strikes mainly older adults."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "West Nile virus and COVID-19 are both viruses with neuro-invasive potential: most infections spare the CNS, but each can cause encephalitis, and both show how systemic viruses breach the blood-brain barrier in vulnerable hosts—age and immunity shaping severity."
 ---
 
 # West Nile Virus
@@ -202,3 +211,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — West Nile virus first replicates in skin and lymphoid macrophages and dendritic cells: after a mosquito bite the flavivirus amplifies in these cells, then a viremia can breach the blood-brain barrier—so the innate cells that should contain it help ferry it to the CNS.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Immunosuppression is the key risk for neuroinvasive West Nile disease: in HIV/AIDS, transplant recipients, and the elderly, weak T-cell immunity lets the virus reach the brain, causing encephalitis and flaccid paralysis—so severe WNV is mostly in the immunocompromised.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are West Nile virus's first targets and gatekeepers: skin Langerhans cells take up the virus at the bite site and carry it to lymph nodes, and their type-I-interferon response largely determines whether infection stays mild or becomes neuroinvasive.
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — West Nile virus can cause acute flaccid paralysis resembling Guillain-Barré: the neuroinvasive form attacks anterior-horn motor neurons, producing asymmetric weakness, and rarely a GBS-like demyelinating syndrome—so new flaccid paralysis in summer warrants WNV testing.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help control West Nile virus early: NK cells and interferon limit viral spread before adaptive immunity, and the aging immune system's weaker NK/T-cell response is why neuroinvasive WNV strikes mainly older adults.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — West Nile virus and COVID-19 are both viruses with neuro-invasive potential: most infections spare the CNS, but each can cause encephalitis, and both show how systemic viruses breach the blood-brain barrier in vulnerable hosts—age and immunity shaping severity.
