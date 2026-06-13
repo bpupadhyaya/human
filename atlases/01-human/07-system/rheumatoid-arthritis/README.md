@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Synovial fibroblasts are active drivers, not bystanders, of rheumatoid arthritis: activated fibroblast-like synoviocytes form the invasive pannus and secrete proteases and cytokines that erode cartilage and bone, behaving almost tumor-like—a therapeutic target."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Rheumatoid arthritis and lupus are archetypal systemic autoimmune diseases: RA's anti-CCP/RF antibodies drive symmetric synovitis, while lupus's antinuclear antibodies form immune complexes injuring skin, kidney and other organs—overlapping yet distinct."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Rheumatoid arthritis accelerates osteoporosis through several routes: chronic inflammatory cytokines (TNF, IL-6) activate osteoclasts, immobility reduces loading, and glucocorticoid treatment thins bone—so RA patients fracture more and need bone protection."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells are central to rheumatoid arthritis despite its joint focus: they make rheumatoid factor and anti-CCP autoantibodies, which is why the B-cell-depleting antibody rituximab controls RA—linking the autoantibody-making cell to the disease and its therapy."
 ---
 
 # Rheumatoid Arthritis
@@ -225,6 +234,9 @@ RA patients have:
 - `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Rheumatoid and psoriatic arthritis are the two major inflammatory arthritides but contrast: RA is a symmetric, RF/anti-CCP-positive synovitis sparing the DIP joints, while PsA is a seronegative spondyloarthropathy with enthesitis, dactylitis, DIP disease, and psoriasis.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Rheumatoid arthritis is the commonest disease complicated by secondary Sjögren's syndrome: chronic autoimmune inflammation extends to lacrimal and salivary glands, causing dry eyes and mouth (sicca), so RA patients are screened for the overlap.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Synovial fibroblasts are active drivers, not bystanders, of rheumatoid arthritis: activated fibroblast-like synoviocytes form the invasive pannus and secrete proteases and cytokines that erode cartilage and bone, behaving almost tumor-like—a therapeutic target.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Rheumatoid arthritis and lupus are archetypal systemic autoimmune diseases: RA's anti-CCP/RF antibodies drive symmetric synovitis, while lupus's antinuclear antibodies form immune complexes injuring skin, kidney and other organs—overlapping yet distinct.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Rheumatoid arthritis accelerates osteoporosis through several routes: chronic inflammatory cytokines (TNF, IL-6) activate osteoclasts, immobility reduces loading, and glucocorticoid treatment thins bone—so RA patients fracture more and need bone protection.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are central to rheumatoid arthritis despite its joint focus: they make rheumatoid factor and anti-CCP autoantibodies, which is why the B-cell-depleting antibody rituximab controls RA—linking the autoantibody-making cell to the disease and its therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/basal-cell-carcinoma
     relation: connects-to
     note: "Rothmund-Thomson syndrome predisposes to skin cancers including basal and squamous cell carcinoma: poikiloderma plus defective RECQL4-dependent DNA repair leaves the skin vulnerable to UV damage, so sun protection and dermatologic surveillance are core to RTS care."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Rothmund-Thomson is studied in patient fibroblasts: cultured RTS fibroblasts show genomic instability from RECQL4 helicase loss—defective DNA replication and repair—a cellular model of how a broken DNA-maintenance enzyme causes premature aging and cancer predisposition."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A loss compounds Rothmund-Thomson's cancer risk: RTS's RECQL4 helicase defect already destabilizes the genome, and losing CDKN2A (p16, the CDK4/6 brake) on top removes cell-cycle control—a combination seen in the osteosarcomas and skin cancers RTS patients develop."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Rothmund-Thomson and Ewing sarcoma both connect DNA-repair biology to bone tumors: RTS's RECQL4 loss markedly raises osteosarcoma and other sarcoma risk, while Ewing arises in bone via EWSR1-FLI1—both remind that genomic instability and bone sarcomas often coincide."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -212,6 +221,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Rothmund-Thomson and Li-Fraumeni converge on osteosarcoma risk by different routes: RTS's biallelic RECQL4 helicase loss causes genome instability, while Li-Fraumeni's germline TP53 loss disables the genome's guardian—both among the highest osteosarcoma predispositions.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Rothmund-Thomson and hereditary retinoblastoma share a striking osteosarcoma susceptibility: RTS via RECQL4-driven genome instability, RB via germline RB1 loss—with Li-Fraumeni they form the trio of inherited syndromes behind most familial osteosarcoma.
 - `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Rothmund-Thomson syndrome predisposes to skin cancers including basal and squamous cell carcinoma: poikiloderma plus defective RECQL4-dependent DNA repair leaves the skin vulnerable to UV damage, so sun protection and dermatologic surveillance are core to RTS care.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Rothmund-Thomson is studied in patient fibroblasts: cultured RTS fibroblasts show genomic instability from RECQL4 helicase loss—defective DNA replication and repair—a cellular model of how a broken DNA-maintenance enzyme causes premature aging and cancer predisposition.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss compounds Rothmund-Thomson's cancer risk: RTS's RECQL4 helicase defect already destabilizes the genome, and losing CDKN2A (p16, the CDK4/6 brake) on top removes cell-cycle control—a combination seen in the osteosarcomas and skin cancers RTS patients develop.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Rothmund-Thomson and Ewing sarcoma both connect DNA-repair biology to bone tumors: RTS's RECQL4 loss markedly raises osteosarcoma and other sarcoma risk, while Ewing arises in bone via EWSR1-FLI1—both remind that genomic instability and bone sarcomas often coincide.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
