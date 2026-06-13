@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Ankylosing spondylitis and gout are both inflammatory arthritides but different in cause: AS is an autoimmune HLA-B27 spondyloarthritis of the spine, while gout is crystal-driven innate inflammation of peripheral joints—axial autoimmunity versus crystal arthropathy."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Enthesis fibroblasts build the bony fusion of ankylosing spondylitis: at sites where tendon meets bone, inflammation drives fibroblasts and osteoblasts to lay down new bone (syndesmophytes), so the spine gradually ossifies into the rigid bamboo spine."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Ankylosing spondylitis reaches the heart: chronic inflammation can cause aortitis with aortic-root dilation and regurgitation plus conduction block, so cardiac evaluation is part of long-standing AS—an extra-articular manifestation beyond the spine."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Ankylosing spondylitis restricts and scars the lungs: fusion of the rib-spine joints stiffens the chest wall limiting expansion, and apical pulmonary fibrosis develops in advanced disease—so breathing is impaired both mechanically and by lung scarring."
 ---
 
 # Ankylosing Spondylitis
@@ -208,6 +217,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Ankylosing spondylitis and rheumatoid arthritis are the major chronic inflammatory arthritides but opposite: AS is a seronegative, HLA-B27-linked, IL-17/23-driven spondyloarthritis of the axial skeleton, while RA is a seropositive peripheral synovitis with erosion.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells, especially the Th17 lineage, drive ankylosing spondylitis: IL-23 expands IL-17-producing T cells at entheses and the sacroiliac joints, fueling inflammation and new bone formation—so IL-17 and IL-23 blockers (secukinumab) target this T-cell axis.
 - `connects-to` → **[Gout](../gout/README.md)** — Ankylosing spondylitis and gout are both inflammatory arthritides but different in cause: AS is an autoimmune HLA-B27 spondyloarthritis of the spine, while gout is crystal-driven innate inflammation of peripheral joints—axial autoimmunity versus crystal arthropathy.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Enthesis fibroblasts build the bony fusion of ankylosing spondylitis: at sites where tendon meets bone, inflammation drives fibroblasts and osteoblasts to lay down new bone (syndesmophytes), so the spine gradually ossifies into the rigid bamboo spine.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Ankylosing spondylitis reaches the heart: chronic inflammation can cause aortitis with aortic-root dilation and regurgitation plus conduction block, so cardiac evaluation is part of long-standing AS—an extra-articular manifestation beyond the spine.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Ankylosing spondylitis restricts and scars the lungs: fusion of the rib-spine joints stiffens the chest wall limiting expansion, and apical pulmonary fibrosis develops in advanced disease—so breathing is impaired both mechanically and by lung scarring.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
