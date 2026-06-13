@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Chronic hepatitis B is a disease of immune tolerance and exhaustion: whether HBV is cleared or becomes chronic depends on the host immune response—HBV outcomes are written by the immune system as much as the virus."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon is both HBV's target and a therapy: HBV actively suppresses hepatocyte interferon induction to establish chronicity, and pegylated interferon-alpha—one of the few finite-course treatments—can drive HBsAg loss in a minority of patients."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "HBV blunts dendritic cells to evade immunity: impaired antigen presentation and weak plasmacytoid-DC interferon output cripple the priming of antiviral T cells, helping explain why neonatal and chronic infection so often becomes a tolerant, persistent carrier state."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Hepatitis B and NASH increasingly coexist and compound liver injury: metabolic steatohepatitis adds inflammation and fibrosis on top of viral damage, accelerating cirrhosis and liver cancer, so metabolic risk factors matter even in well-suppressed HBV."
 ---
 
 # Hepatitis B
@@ -229,3 +238,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Hepatitis B raises cholangiocarcinoma risk, not just hepatocellular carcinoma: chronic HBV inflammation and cirrhosis can transform biliary epithelium too, making HBV a recognized risk factor for intrahepatic cholangiocarcinoma.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are key to controlling hepatitis B: NK cells provide early antiviral defense, but in chronic HBV they become functionally exhausted, contributing to viral persistence—so restoring NK and T-cell function is a goal of functional-cure strategies.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chronic hepatitis B is a disease of immune tolerance and exhaustion: whether HBV is cleared or becomes chronic depends on the host immune response—HBV outcomes are written by the immune system as much as the virus.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is both HBV's target and a therapy: HBV actively suppresses hepatocyte interferon induction to establish chronicity, and pegylated interferon-alpha—one of the few finite-course treatments—can drive HBsAg loss in a minority of patients.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HBV blunts dendritic cells to evade immunity: impaired antigen presentation and weak plasmacytoid-DC interferon output cripple the priming of antiviral T cells, helping explain why neonatal and chronic infection so often becomes a tolerant, persistent carrier state.
+- `connects-to` → **[NASH](../nash/README.md)** — Hepatitis B and NASH increasingly coexist and compound liver injury: metabolic steatohepatitis adds inflammation and fibrosis on top of viral damage, accelerating cirrhosis and liver cancer, so metabolic risk factors matter even in well-suppressed HBV.

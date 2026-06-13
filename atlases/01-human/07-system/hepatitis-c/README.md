@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "Hepatitis C can mimic and overlap Sjögren's syndrome: chronic HCV causes sicca symptoms resembling Sjögren's, plus shared cryoglobulinemia and lymphoma risk—so HCV should be excluded when sicca and autoimmune features appear, as antiviral therapy can improve them."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells decide hepatitis C's outcome: a vigorous, broad CD8 response clears acute infection, but in chronic HCV these cells become exhausted, sustaining viremia while their smoldering attack on infected hepatocytes drives the fibrosis."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Hepatitis C and NASH both scar the liver and often overlap: HCV (especially genotype 3) directly induces steatosis, and coexisting metabolic fatty liver speeds fibrosis—so even after antiviral cure, metabolic liver disease can keep progression going."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Hepatitis C can masquerade as rheumatoid arthritis: HCV polyarthralgia and cryoglobulinemic arthritis mimic RA, and rheumatoid factor is often positive in both, so HCV must be excluded before immunosuppressing presumed RA and screened before biologics."
 ---
 
 # Hepatitis C
@@ -220,3 +229,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Hepatitis C drives B-cell non-Hodgkin lymphoma: chronic antigenic stimulation of B cells can progress to marginal-zone and diffuse large B-cell lymphoma, and antiviral cure can induce remission—cancer from immune stimulation, not direct transformation.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Hepatitis C injures the kidney through cryoglobulinemia: immune complexes of HCV and antibody deposit in glomeruli, causing membranoproliferative glomerulonephritis—so HCV is a treatable cause of renal failure, and antiviral cure can stabilize the nephropathy.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Hepatitis C can mimic and overlap Sjögren's syndrome: chronic HCV causes sicca symptoms resembling Sjögren's, plus shared cryoglobulinemia and lymphoma risk—so HCV should be excluded when sicca and autoimmune features appear, as antiviral therapy can improve them.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells decide hepatitis C's outcome: a vigorous, broad CD8 response clears acute infection, but in chronic HCV these cells become exhausted, sustaining viremia while their smoldering attack on infected hepatocytes drives the fibrosis.
+- `connects-to` → **[NASH](../nash/README.md)** — Hepatitis C and NASH both scar the liver and often overlap: HCV (especially genotype 3) directly induces steatosis, and coexisting metabolic fatty liver speeds fibrosis—so even after antiviral cure, metabolic liver disease can keep progression going.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Hepatitis C can masquerade as rheumatoid arthritis: HCV polyarthralgia and cryoglobulinemic arthritis mimic RA, and rheumatoid factor is often positive in both, so HCV must be excluded before immunosuppressing presumed RA and screened before biologics.
