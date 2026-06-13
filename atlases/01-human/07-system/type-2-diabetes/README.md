@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "The adipocyte sits at the heart of type 2 diabetes: enlarged, stressed fat cells become insulin-resistant and secrete adipokines and free fatty acids that spread resistance to muscle and liver—adipose tissue as an endocrine driver, not just a fat store."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Type 2 diabetes is a bihormonal disease, not just insulin failure: alpha cells oversecrete glucagon while beta cells under-secrete insulin, so unchecked glucagon drives hepatic glucose output—why GLP-1 and amylin-based drugs that suppress glucagon help control it."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Type 2 diabetes ends in pancreatic beta-cell failure: insulin resistance first forces beta cells to overwork, but they progressively exhaust and die, so the pancreas's declining insulin output—not just resistance—drives the need for insulin therapy over time."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Type 2 diabetes roughly doubles stroke risk: chronic hyperglycemia accelerates atherosclerosis and small-vessel disease while high glucose worsens stroke outcome, so glycemic and vascular risk-factor control is central to preventing the cerebrovascular toll of diabetes."
 ---
 
 # Type 2 Diabetes
@@ -198,6 +207,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is the dominant driver of type 2 diabetes: excess, dysfunctional adipose tissue releases free fatty acids and inflammatory cytokines causing insulin resistance, overworking β-cells until they fail—so weight loss can prevent or even remit T2DM.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Type 2 diabetes powerfully accelerates atherosclerosis: hyperglycemia, dyslipidemia and insulin resistance injure the endothelium and inflame plaques, so cardiovascular disease is the leading cause of death in diabetics—driving aggressive risk-factor control.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The adipocyte sits at the heart of type 2 diabetes: enlarged, stressed fat cells become insulin-resistant and secrete adipokines and free fatty acids that spread resistance to muscle and liver—adipose tissue as an endocrine driver, not just a fat store.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Type 2 diabetes is a bihormonal disease, not just insulin failure: alpha cells oversecrete glucagon while beta cells under-secrete insulin, so unchecked glucagon drives hepatic glucose output—why GLP-1 and amylin-based drugs that suppress glucagon help control it.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Type 2 diabetes ends in pancreatic beta-cell failure: insulin resistance first forces beta cells to overwork, but they progressively exhaust and die, so the pancreas's declining insulin output—not just resistance—drives the need for insulin therapy over time.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Type 2 diabetes roughly doubles stroke risk: chronic hyperglycemia accelerates atherosclerosis and small-vessel disease while high glucose worsens stroke outcome, so glycemic and vascular risk-factor control is central to preventing the cerebrovascular toll of diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

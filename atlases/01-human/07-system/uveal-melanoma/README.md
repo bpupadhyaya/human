@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/renal-cell-carcinoma
     relation: connects-to
     note: "Uveal melanoma and clear-cell renal cell carcinoma are joined by the BAP1 syndrome: BAP1 loss drives aggressive forms of both, so germline-mutation families are surveilled for eye, kidney, mesothelioma and skin tumors—BAP1 a shared deubiquitinase tumor suppressor."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven angiogenesis and a leaky vasculature mark uveal melanoma: the tumor secretes VEGF to vascularize the eye and prepare its spread, high levels predict metastasis, and anti-VEGF agents are explored alongside the liver-directed therapy this cancer needs."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Uveal melanoma is immunologically cold yet newly targetable: it carries few mutations and sits in the immune-privileged eye, so checkpoint inhibitors disappoint—but tebentafusp, a gp100-directed bispecific that redirects T cells, is the first agent to improve survival."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells shape uveal melanoma's spread to the liver: circulating tumor cells that downregulate MHC become NK targets, so the balance of NK surveillance versus escape influences whether liver micrometastases grow—central to this cancer's lethal course."
 ---
 
 # Uveal Melanoma
@@ -224,6 +233,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Uveal melanoma and retinoblastoma are the two principal intraocular malignancies: retinoblastoma is a childhood RB1-driven retinal tumor, while uveal melanoma is an adult melanocytic tumor of the choroid driven by GNAQ/GNA11 and BAP1—both threaten the eye and vision.
 - `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Uveal melanoma and cholangiocarcinoma both belong to the BAP1 syndrome: germline BAP1 loss raises risk of both, and in uveal melanoma somatic BAP1 loss marks the liver-metastasizing tumors—linking an eye cancer to a bile-duct cancer through one chromatin gene.
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Uveal melanoma and clear-cell renal cell carcinoma are joined by the BAP1 syndrome: BAP1 loss drives aggressive forms of both, so germline-mutation families are surveilled for eye, kidney, mesothelioma and skin tumors—BAP1 a shared deubiquitinase tumor suppressor.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis and a leaky vasculature mark uveal melanoma: the tumor secretes VEGF to vascularize the eye and prepare its spread, high levels predict metastasis, and anti-VEGF agents are explored alongside the liver-directed therapy this cancer needs.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Uveal melanoma is immunologically cold yet newly targetable: it carries few mutations and sits in the immune-privileged eye, so checkpoint inhibitors disappoint—but tebentafusp, a gp100-directed bispecific that redirects T cells, is the first agent to improve survival.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells shape uveal melanoma's spread to the liver: circulating tumor cells that downregulate MHC become NK targets, so the balance of NK surveillance versus escape influences whether liver micrometastases grow—central to this cancer's lethal course.
 
 ---
 
