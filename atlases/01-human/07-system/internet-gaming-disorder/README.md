@@ -51,6 +51,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Internet gaming disorder reflects reward-circuit neuroplasticity: repeated dopaminergic reward signaling reshapes synapses in mesolimbic and prefrontal neurons, blunting reward sensitivity and impulse control much as substance addictions do—seen on functional imaging."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Internet gaming disorder and OCD share compulsivity despite different drivers: both feature repetitive, hard-to-resist behaviors engaging overlapping fronto-striatal circuits—though gaming is reward-seeking while OCD is anxiety-driven, blurring addiction and compulsion."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Internet gaming disorder contributes to obesity: prolonged sedentary screen time, disrupted sleep and mindless eating during play promote weight gain, so excessive gaming is a behavioral driver of obesity—linking a digital behavior to a metabolic disease."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Internet gaming disorder and alcohol use disorder share the brain's addiction circuitry: both hijack dopaminergic reward pathways and show tolerance, craving and withdrawal-like symptoms—evidence that behavioral and substance addictions are more alike than once thought."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -236,6 +245,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Internet gaming disorder and stimulant use disorder converge on the mesolimbic dopamine reward circuit: gaming's variable rewards drive compulsive use like an addiction, as stimulants flood the nucleus accumbens with dopamine—blurring substance and behavioral addiction.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Internet gaming disorder is markedly more common in autism spectrum disorder: gaming's predictable, controllable, low-social-demand structure is especially reinforcing, so screen overuse and IGD are frequent in autistic youth and complicate management of both.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Internet gaming disorder reflects reward-circuit neuroplasticity: repeated dopaminergic reward signaling reshapes synapses in mesolimbic and prefrontal neurons, blunting reward sensitivity and impulse control much as substance addictions do—seen on functional imaging.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Internet gaming disorder and OCD share compulsivity despite different drivers: both feature repetitive, hard-to-resist behaviors engaging overlapping fronto-striatal circuits—though gaming is reward-seeking while OCD is anxiety-driven, blurring addiction and compulsion.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Internet gaming disorder contributes to obesity: prolonged sedentary screen time, disrupted sleep and mindless eating during play promote weight gain, so excessive gaming is a behavioral driver of obesity—linking a digital behavior to a metabolic disease.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Internet gaming disorder and alcohol use disorder share the brain's addiction circuitry: both hijack dopaminergic reward pathways and show tolerance, craving and withdrawal-like symptoms—evidence that behavioral and substance addictions are more alike than once thought.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

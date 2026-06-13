@@ -62,6 +62,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Wound healing is the integumentary system's core repair program: after injury the skin runs hemostasis, inflammation, proliferation, and remodeling to rebuild epidermis and dermis—imperfectly, leaving scar that lacks follicles and full strength."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Melanoma is the deadliest cancer of the integumentary system: arising from epidermal melanocytes, it—unlike keratinocyte cancers—readily metastasizes, so UV-driven melanoma makes the integument's own pigment system a lethal cancer source."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "Basal cell carcinoma is the commonest cancer of the integumentary system: chronic UV damage to basal keratinocytes activates Hedgehog/PTCH1 signaling, producing slow-growing tumors that almost never metastasize—the indolent counterpart to melanoma in the skin."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts build the integumentary system's dermal scaffold: they synthesize the collagen and elastin that give skin strength and elasticity, and their decline underlies wrinkling and aging—so dermal fibroblasts determine how skin holds up over a lifetime."
 ---
 
 # Integumentary System
@@ -182,6 +191,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The skin is a target organ of reproductive hormones: androgens drive sebaceous glands, acne, and male-pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so the integument reflects the reproductive system's hormonal state.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The integumentary system is both an endocrine target and an endocrine organ: thyroid, cortisol, and sex hormones reshape skin and hair, while the skin makes vitamin D from sunlight—so endocrine disease often first shows in the skin (myxedema, striae).
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Wound healing is the integumentary system's core repair program: after injury the skin runs hemostasis, inflammation, proliferation, and remodeling to rebuild epidermis and dermis—imperfectly, leaving scar that lacks follicles and full strength.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma is the deadliest cancer of the integumentary system: arising from epidermal melanocytes, it—unlike keratinocyte cancers—readily metastasizes, so UV-driven melanoma makes the integument's own pigment system a lethal cancer source.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — Basal cell carcinoma is the commonest cancer of the integumentary system: chronic UV damage to basal keratinocytes activates Hedgehog/PTCH1 signaling, producing slow-growing tumors that almost never metastasize—the indolent counterpart to melanoma in the skin.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts build the integumentary system's dermal scaffold: they synthesize the collagen and elastin that give skin strength and elasticity, and their decline underlies wrinkling and aging—so dermal fibroblasts determine how skin holds up over a lifetime.
 
 ## Pathology
 
