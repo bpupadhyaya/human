@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages build the granulomas of ANCA-vasculitis: in granulomatosis with polyangiitis, neutrophil activation and necrosis recruit macrophages that organize into the necrotizing granulomas of lung and sinuses, distinguishing GPA from non-granulomatous microscopic polyangiitis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "ANCA vasculitis is not purely antibody-driven—T-helper cells orchestrate it: autoreactive Th1 and Th17 cells help B cells make ANCA and form GPA granulomas, so T-cell- and B-cell-directed therapies both work, and relapse tracks T-cell inflammation."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells make the pathogenic ANCA antibodies (anti-PR3, anti-MPO): these autoantibodies activate primed neutrophils to injure small vessels, and because long-lived plasma cells resist rituximab, persistent autoantibody helps explain relapse and refractory disease."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "ANCA vasculitis must be distinguished from hepatitis-B-associated vasculitis: HBV classically causes polyarteritis nodosa—an immune-complex, ANCA-negative medium-vessel vasculitis—so vasculitis workup checks viral serologies, since antivirals treat HBV disease."
 ---
 
 # ANCA Vasculitis
@@ -223,6 +232,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Asthma](../asthma/README.md)** — Asthma defines one ANCA-vasculitis subtype: eosinophilic granulomatosis with polyangiitis (EGPA, Churg-Strauss) arises in patients with adult-onset asthma and eosinophilia who then develop vasculitis; only ~40% are ANCA-positive, and anti-IL-5 (mepolizumab) treats it.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is a common, accessible window on ANCA-vasculitis: small-vessel inflammation produces palpable purpura, livedo, nodules and ulcers, and a skin biopsy showing leukocytoclastic vasculitis helps confirm the diagnosis while sparing the patient an organ biopsy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages build the granulomas of ANCA-vasculitis: in granulomatosis with polyangiitis, neutrophil activation and necrosis recruit macrophages that organize into the necrotizing granulomas of lung and sinuses, distinguishing GPA from non-granulomatous microscopic polyangiitis.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — ANCA vasculitis is not purely antibody-driven—T-helper cells orchestrate it: autoreactive Th1 and Th17 cells help B cells make ANCA and form GPA granulomas, so T-cell- and B-cell-directed therapies both work, and relapse tracks T-cell inflammation.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the pathogenic ANCA antibodies (anti-PR3, anti-MPO): these autoantibodies activate primed neutrophils to injure small vessels, and because long-lived plasma cells resist rituximab, persistent autoantibody helps explain relapse and refractory disease.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — ANCA vasculitis must be distinguished from hepatitis-B-associated vasculitis: HBV classically causes polyarteritis nodosa—an immune-complex, ANCA-negative medium-vessel vasculitis—so vasculitis workup checks viral serologies, since antivirals treat HBV disease.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

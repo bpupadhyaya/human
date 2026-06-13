@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Respiratory failure is the usual cause of death in ALS: degeneration of the motor neurons driving the diaphragm and accessory muscles progressively weakens ventilation, so non-invasive ventilation prolongs survival and forced vital capacity is a key prognostic and trial endpoint."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "ALS and myasthenia gravis cause weakness at opposite ends of the motor unit: ALS degenerates the motor neuron (upper and lower signs, fasciculations), while myasthenia blocks the neuromuscular junction (fatigable, treatable)—a prognosis-changing distinction."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "ALS and Parkinson's are neurodegenerations of protein misfolding hitting different neurons: ALS kills motor neurons (TDP-43), Parkinson's kills dopaminergic neurons (α-synuclein)—and ALS-parkinsonism-dementia overlaps hint at shared proteostasis failure."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Oligodendrocytes contribute to motor neuron death in ALS: beyond myelination they metabolically support axons, and dysfunctional ALS oligodendrocytes fail to supply lactate and degenerate—so glial, not just neuronal, failure drives the disease."
 ---
 
 # ALS
@@ -227,6 +236,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — ALS dismantles the neuromuscular junction early: as motor neurons degenerate, their axons die back and synapses retract from muscle endplates (denervation), causing fasciculations, weakness and wasting—this 'dying-back' NMJ loss may precede cell-body death.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — ALS devastates the musculoskeletal system through denervation: loss of upper and lower motor neurons produces progressive muscle weakness, wasting, spasticity and ultimately paralysis, while sparing sensation; the relentless decline in muscle function defines the disability.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Respiratory failure is the usual cause of death in ALS: degeneration of the motor neurons driving the diaphragm and accessory muscles progressively weakens ventilation, so non-invasive ventilation prolongs survival and forced vital capacity is a key prognostic and trial endpoint.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — ALS and myasthenia gravis cause weakness at opposite ends of the motor unit: ALS degenerates the motor neuron (upper and lower signs, fasciculations), while myasthenia blocks the neuromuscular junction (fatigable, treatable)—a prognosis-changing distinction.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — ALS and Parkinson's are neurodegenerations of protein misfolding hitting different neurons: ALS kills motor neurons (TDP-43), Parkinson's kills dopaminergic neurons (α-synuclein)—and ALS-parkinsonism-dementia overlaps hint at shared proteostasis failure.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Oligodendrocytes contribute to motor neuron death in ALS: beyond myelination they metabolically support axons, and dysfunctional ALS oligodendrocytes fail to supply lactate and degenerate—so glial, not just neuronal, failure drives the disease.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
