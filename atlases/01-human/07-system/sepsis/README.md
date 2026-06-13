@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils are double-edged in sepsis: they fight the infection but their NETs and proteases injure host tissue and endothelium, and as sepsis progresses they become dysfunctional (immunoparalysis), so both hyperinflammation and later immunosuppression worsen outcomes."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide drives septic shock: overwhelming inflammation induces iNOS, flooding vessels with NO that causes profound vasodilation and hypotension refractory to fluids—so the molecule that normally tunes blood flow becomes the engine of distributive shock in sepsis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Acute kidney injury is among the commonest organ failures in sepsis: hypotension, inflammation and microvascular thrombosis cut renal perfusion, so rising creatinine and falling urine output mark severity—and septic AKI strongly predicts mortality and may need dialysis."
+  - target: 02-pathogen/02-bacteria/escherichia-coli
+    relation: connects-to
+    note: "Escherichia coli is a leading cause of sepsis: gram-negative bacteremia, often from urinary or abdominal sources, releases LPS endotoxin that triggers the TLR4-driven cytokine cascade—so a common gut commensal becomes a frequent driver of life-threatening septic shock."
 ---
 
 # Sepsis
@@ -197,6 +206,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Sepsis is the leading cause of disseminated intravascular coagulation: microbial products trigger tissue-factor expression that consumes clotting factors and platelets, causing simultaneous clotting and bleeding—a marker of severe sepsis and poor prognosis.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial dysfunction is the heart of septic shock: inflammatory mediators make endothelial cells leaky and prothrombotic, causing capillary leak, hypotension, and microthrombosis that drive multi-organ failure—the endothelium, not infection alone, sets outcome.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are double-edged in sepsis: they fight the infection but their NETs and proteases injure host tissue and endothelium, and as sepsis progresses they become dysfunctional (immunoparalysis), so both hyperinflammation and later immunosuppression worsen outcomes.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide drives septic shock: overwhelming inflammation induces iNOS, flooding vessels with NO that causes profound vasodilation and hypotension refractory to fluids—so the molecule that normally tunes blood flow becomes the engine of distributive shock in sepsis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Acute kidney injury is among the commonest organ failures in sepsis: hypotension, inflammation and microvascular thrombosis cut renal perfusion, so rising creatinine and falling urine output mark severity—and septic AKI strongly predicts mortality and may need dialysis.
+- `connects-to` → **[Escherichia coli](../../../02-pathogen/02-bacteria/escherichia-coli/README.md)** — Escherichia coli is a leading cause of sepsis: gram-negative bacteremia, often from urinary or abdominal sources, releases LPS endotoxin that triggers the TLR4-driven cytokine cascade—so a common gut commensal becomes a frequent driver of life-threatening septic shock.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

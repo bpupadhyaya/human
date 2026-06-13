@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: connects-to
     note: "Type II pneumocytes keep the respiratory system's gas-exchange surface working: they secrete surfactant that prevents alveolar collapse and act as progenitors regenerating the alveolar lining after injury—so their loss in ARDS and pneumonia drives respiratory failure."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Oxygen is the gas the respiratory system exists to capture: alveoli transfer O2 across the air-blood barrier into hemoglobin for tissue delivery, while CO2 is exhaled—so lung disease that impairs this exchange causes hypoxemia, the central threat in respiratory failure."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Hemoglobin completes what the respiratory system starts: lungs load O2 onto red-cell hemoglobin, which carries it to tissues and returns CO2 for exhalation—so anemia or abnormal hemoglobin can mimic lung disease by limiting oxygen delivery despite healthy lungs."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "The alveolus is the functional unit of the respiratory system: hundreds of millions of these thin-walled sacs create the vast surface where gas exchange occurs, so diseases that flood, collapse, or stiffen alveoli directly cause the hypoxemia of respiratory failure."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -175,6 +184,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Asthma](../asthma/README.md): The commonest chronic airway disease of the respiratory system — reversible bronchoconstriction and type-2 inflammation narrow the bronchi, so the conducting airways, not the gas-exchange surface, bear the brunt of asthma.
 - **Connects-to** → [COPD](../copd/README.md): The major irreversible obstructive disease of the respiratory system — smoking-driven inflammation destroys alveoli (emphysema) and scars airways (chronic bronchitis), permanently limiting airflow and causing chronic respiratory failure.
 - **Connects-to** → [Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md): These cells keep the gas-exchange surface working — secreting surfactant that prevents alveolar collapse and acting as progenitors that regenerate the alveolar lining, so their loss in ARDS and pneumonia drives respiratory failure.
+- **Connects-to** → [Oxygen](../../02-atomic/oxygen/README.md): Oxygen is the gas the respiratory system exists to capture: alveoli transfer O2 across the air-blood barrier into hemoglobin for tissue delivery, while CO2 is exhaled—so lung disease that impairs this exchange causes hypoxemia, the central threat in respiratory failure.
+- **Connects-to** → [Hemoglobin](../../03-molecular/hemoglobin/README.md): Hemoglobin completes what the respiratory system starts: lungs load O2 onto red-cell hemoglobin, which carries it to tissues and returns CO2 for exhalation—so anemia or abnormal hemoglobin can mimic lung disease by limiting oxygen delivery despite healthy lungs.
+- **Connects-to** → [Alveolus](../../05-tissue/alveolus/README.md): The alveolus is the functional unit of the respiratory system: hundreds of millions of these thin-walled sacs create the vast surface where gas exchange occurs, so diseases that flood, collapse, or stiffen alveoli directly cause the hypoxemia of respiratory failure.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
