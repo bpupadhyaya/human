@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes shape West Nile CNS disease: WNV infects them, and their cytokine output (CXCL10, IL-6) both recruits protective leukocytes and helps open the blood-brain barrier that lets virus and immune cells in; astrocyte responses balance viral control against injury."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "West Nile virus first replicates in skin and lymphoid macrophages and dendritic cells: after a mosquito bite the flavivirus amplifies in these cells, then a viremia can breach the blood-brain barrier—so the innate cells that should contain it help ferry it to the CNS."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Immunosuppression is the key risk for neuroinvasive West Nile disease: in HIV/AIDS, transplant recipients, and the elderly, weak T-cell immunity lets the virus reach the brain, causing encephalitis and flaccid paralysis—so severe WNV is mostly in the immunocompromised."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are West Nile virus's first targets and gatekeepers: skin Langerhans cells take up the virus at the bite site and carry it to lymph nodes, and their type-I-interferon response largely determines whether infection stays mild or becomes neuroinvasive."
 ---
 
 # West Nile Virus
@@ -190,3 +199,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[NMOSD](../nmo/README.md)** — West Nile virus and NMOSD can both cause acute myelitis and optic involvement but differ in mechanism: WNV is a neurotropic flavivirus infecting neurons → flaccid paralysis and encephalitis, while NMOSD is autoimmune AQP4-IgG astrocyte injury; AQP4-IgG and CSF tell them apart.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8+ cytotoxic T cells are essential to clear West Nile virus from infected neurons: they enter the CNS and kill virus-laden cells via perforin/granzyme and Fas, controlling infection but also adding immunopathology; deficient CD8 responses predict severe neuroinvasive disease.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape West Nile CNS disease: WNV infects them, and their cytokine output (CXCL10, IL-6) both recruits protective leukocytes and helps open the blood-brain barrier that lets virus and immune cells in; astrocyte responses balance viral control against injury.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — West Nile virus first replicates in skin and lymphoid macrophages and dendritic cells: after a mosquito bite the flavivirus amplifies in these cells, then a viremia can breach the blood-brain barrier—so the innate cells that should contain it help ferry it to the CNS.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Immunosuppression is the key risk for neuroinvasive West Nile disease: in HIV/AIDS, transplant recipients, and the elderly, weak T-cell immunity lets the virus reach the brain, causing encephalitis and flaccid paralysis—so severe WNV is mostly in the immunocompromised.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are West Nile virus's first targets and gatekeepers: skin Langerhans cells take up the virus at the bite site and carry it to lymph nodes, and their type-I-interferon response largely determines whether infection stays mild or becomes neuroinvasive.

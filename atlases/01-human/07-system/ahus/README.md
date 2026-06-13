@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "aHUS is a thrombotic microangiopathy that consumes platelets: complement-injured endothelium triggers platelet adhesion and microthrombi in the renal microvasculature, dropping the count while sparing large vessels; consumed platelets and schistocytes are diagnostic clues."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "aHUS shreds red cells like all thrombotic microangiopathies: erythrocytes passing through complement-damaged, microthrombus-laden glomerular capillaries fragment into schistocytes, producing the hemolytic anemia that, with thrombocytopenia and AKI, defines the TMA triad."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "aHUS and DIC both cause thrombocytopenia with microthrombi but differ in coagulation: DIC consumes clotting factors with prolonged PT/PTT, while aHUS is complement-driven with normal clotting times—so normal coagulation amid a microangiopathy points to aHUS."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Lupus can trigger a secondary thrombotic microangiopathy resembling aHUS: complement activation and antiphospholipid antibodies in SLE injure endothelium and cause a TMA, so distinguishing aHUS from lupus or TTP guides eculizumab vs immunosuppression vs plasma exchange."
 ---
 
 # Atypical HUS
@@ -241,6 +250,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — aHUS and transplant-associated TMA (TA-TMA) in GVHD overlap: both injure endothelium and activate complement to drive microvascular thrombosis with schistocytes, thrombocytopenia and kidney injury; complement variants predispose to TA-TMA, and C5 inhibition can treat both.
 - `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — aHUS and PNH are the archetypal complement-mediated diseases treated by C5 blockade: PNH lacks GPI-anchored complement regulators causing hemolysis and thrombosis, while aHUS has uncontrolled alternative-pathway activation on endothelium causing TMA; eculizumab transformed both.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — aHUS is a thrombotic microangiopathy that consumes platelets: complement-injured endothelium triggers platelet adhesion and microthrombi in the renal microvasculature, dropping the count while sparing large vessels; consumed platelets and schistocytes are diagnostic clues.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — aHUS shreds red cells like all thrombotic microangiopathies: erythrocytes passing through complement-damaged, microthrombus-laden glomerular capillaries fragment into schistocytes, producing the hemolytic anemia that, with thrombocytopenia and AKI, defines the TMA triad.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — aHUS and DIC both cause thrombocytopenia with microthrombi but differ in coagulation: DIC consumes clotting factors with prolonged PT/PTT, while aHUS is complement-driven with normal clotting times—so normal coagulation amid a microangiopathy points to aHUS.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Lupus can trigger a secondary thrombotic microangiopathy resembling aHUS: complement activation and antiphospholipid antibodies in SLE injure endothelium and cause a TMA, so distinguishing aHUS from lupus or TTP guides eculizumab vs immunosuppression vs plasma exchange.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
