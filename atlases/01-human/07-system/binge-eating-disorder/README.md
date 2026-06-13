@@ -54,6 +54,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Binge eating disorder reflects dysfunction in reward-circuit neurons: blunted dopaminergic signaling in mesolimbic and prefrontal neurons drives compulsive overeating of palatable food like a behavioral addiction, which is why dopaminergic, reward-modulating drugs reduce binges."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Binge eating disorder and bipolar disorder frequently co-occur: mood episodes drive disordered eating and impulsivity, the two share reward-system dysregulation, and several mood stabilizers affect appetite—so eating behavior and mood are screened together."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Binge eating disorder and anxiety commonly overlap: anxiety and emotional distress trigger binge episodes as maladaptive coping, and shame about bingeing fuels more anxiety—a self-reinforcing loop, so treating anxiety is part of breaking the binge cycle."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Leptin links binge eating disorder to its metabolic consequences: chronic overeating and weight gain raise leptin, but leptin resistance blunts its satiety signal, so the brain fails to register fullness—part of why BED drives obesity."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -227,6 +236,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Binge eating disorder and depression strongly co-occur and reinforce each other: low mood triggers binge episodes that bring shame and further depression, the two share serotonergic and reward-circuit dysregulation, and SSRIs and lisdexamfetamine treat binge frequency.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Binge eating disorder and borderline personality disorder are linked by impulsivity and emotion dysregulation: binges, like self-harm, discharge unbearable affect, so they frequently co-occur and both improve with dialectical behavior therapy targeting distress tolerance.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Binge eating disorder reflects dysfunction in reward-circuit neurons: blunted dopaminergic signaling in mesolimbic and prefrontal neurons drives compulsive overeating of palatable food like a behavioral addiction, which is why dopaminergic, reward-modulating drugs reduce binges.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Binge eating disorder and bipolar disorder frequently co-occur: mood episodes drive disordered eating and impulsivity, the two share reward-system dysregulation, and several mood stabilizers affect appetite—so eating behavior and mood are screened together.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Binge eating disorder and anxiety commonly overlap: anxiety and emotional distress trigger binge episodes as maladaptive coping, and shame about bingeing fuels more anxiety—a self-reinforcing loop, so treating anxiety is part of breaking the binge cycle.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Leptin links binge eating disorder to its metabolic consequences: chronic overeating and weight gain raise leptin, but leptin resistance blunts its satiety signal, so the brain fails to register fullness—part of why BED drives obesity.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
