@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Oligodendrocytes contribute to motor neuron death in ALS: beyond myelination they metabolically support axons, and dysfunctional ALS oligodendrocytes fail to supply lactate and degenerate—so glial, not just neuronal, failure drives the disease."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "ALS severs the acetylcholine signal to muscle: as motor neurons die, the terminals that release acetylcholine at the neuromuscular junction degenerate, so muscles lose stimulation and waste—unlike myasthenia gravis, where the receptor not the nerve is blocked."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Respiratory failure is how ALS kills: progressive weakness of the diaphragm and chest muscles cripples the lungs' bellows, causing hypoventilation, CO2 retention and eventual failure—so non-invasive ventilation is a mainstay that extends survival in ALS."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "ALS and multiple sclerosis both cause motor weakness but differ fundamentally: ALS is degenerative death of motor neurons, while MS is autoimmune demyelination with sensory and visual features—so ALS spares sensation and progresses without the relapses of MS."
 ---
 
 # ALS
@@ -239,6 +248,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — ALS and myasthenia gravis cause weakness at opposite ends of the motor unit: ALS degenerates the motor neuron (upper and lower signs, fasciculations), while myasthenia blocks the neuromuscular junction (fatigable, treatable)—a prognosis-changing distinction.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — ALS and Parkinson's are neurodegenerations of protein misfolding hitting different neurons: ALS kills motor neurons (TDP-43), Parkinson's kills dopaminergic neurons (α-synuclein)—and ALS-parkinsonism-dementia overlaps hint at shared proteostasis failure.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Oligodendrocytes contribute to motor neuron death in ALS: beyond myelination they metabolically support axons, and dysfunctional ALS oligodendrocytes fail to supply lactate and degenerate—so glial, not just neuronal, failure drives the disease.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — ALS severs the acetylcholine signal to muscle: as motor neurons die, the terminals that release acetylcholine at the neuromuscular junction degenerate, so muscles lose stimulation and waste—unlike myasthenia gravis, where the receptor not the nerve is blocked.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Respiratory failure is how ALS kills: progressive weakness of the diaphragm and chest muscles cripples the lungs' bellows, causing hypoventilation, CO2 retention and eventual failure—so non-invasive ventilation is a mainstay that extends survival in ALS.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — ALS and multiple sclerosis both cause motor weakness but differ fundamentally: ALS is degenerative death of motor neurons, while MS is autoimmune demyelination with sensory and visual features—so ALS spares sensation and progresses without the relapses of MS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

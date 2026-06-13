@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "ANCA vasculitis must be distinguished from hepatitis-B-associated vasculitis: HBV classically causes polyarteritis nodosa—an immune-complex, ANCA-negative medium-vessel vasculitis—so vasculitis workup checks viral serologies, since antivirals treat HBV disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endothelial cells are the battlefield of ANCA vasculitis: ANCA-activated neutrophils adhere to and destroy vessel endothelium, causing necrotizing inflammation that infarcts glomeruli, lung capillaries and skin—so endothelial injury underlies the multi-organ damage."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "ANCA vasculitis and lupus both attack the kidney but by opposite mechanisms: ANCA causes pauci-immune glomerulonephritis with little immune-complex deposition, while lupus nephritis is driven by immune-complex deposits—a key distinction on renal biopsy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "ANCA vasculitis is a breakdown of immune tolerance: the immune system makes antibodies against its own neutrophil enzymes (PR3 or MPO), which turn neutrophils into agents of vascular destruction—so B-cell-depleting therapy that removes the autoantibody source works."
 ---
 
 # ANCA Vasculitis
@@ -235,6 +244,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — ANCA vasculitis is not purely antibody-driven—T-helper cells orchestrate it: autoreactive Th1 and Th17 cells help B cells make ANCA and form GPA granulomas, so T-cell- and B-cell-directed therapies both work, and relapse tracks T-cell inflammation.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the pathogenic ANCA antibodies (anti-PR3, anti-MPO): these autoantibodies activate primed neutrophils to injure small vessels, and because long-lived plasma cells resist rituximab, persistent autoantibody helps explain relapse and refractory disease.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — ANCA vasculitis must be distinguished from hepatitis-B-associated vasculitis: HBV classically causes polyarteritis nodosa—an immune-complex, ANCA-negative medium-vessel vasculitis—so vasculitis workup checks viral serologies, since antivirals treat HBV disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial cells are the battlefield of ANCA vasculitis: ANCA-activated neutrophils adhere to and destroy vessel endothelium, causing necrotizing inflammation that infarcts glomeruli, lung capillaries and skin—so endothelial injury underlies the multi-organ damage.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — ANCA vasculitis and lupus both attack the kidney but by opposite mechanisms: ANCA causes pauci-immune glomerulonephritis with little immune-complex deposition, while lupus nephritis is driven by immune-complex deposits—a key distinction on renal biopsy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — ANCA vasculitis is a breakdown of immune tolerance: the immune system makes antibodies against its own neutrophil enzymes (PR3 or MPO), which turn neutrophils into agents of vascular destruction—so B-cell-depleting therapy that removes the autoantibody source works.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
