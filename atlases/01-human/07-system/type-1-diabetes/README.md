@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Type 1 diabetes accelerates atherosclerosis, the leading cause of death in T1DM: lifelong hyperglycemia injures the endothelium and worsens lipids, so even well-controlled patients face premature cardiovascular disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Type 1 diabetes is fundamentally an autoimmune disease: a breakdown of self-tolerance lets the immune system destroy insulin-producing beta cells, so it clusters with other autoimmune disorders and is now a target for immune-modulating prevention like teplizumab."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Type 1 diabetes deranges glucagon as well as insulin: as islets are destroyed, alpha cells lose normal glucose-sensing and fail to release glucagon during hypoglycemia, removing a key safety brake—so insulin treatment carries serious risk of severe lows."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Type 1 diabetes is the endocrine system's prototypic insulin-deficiency disease: autoimmune loss of pancreatic islet hormone output disrupts glucose homeostasis and often coexists with autoimmune thyroid and adrenal disease in polyglandular syndromes."
 ---
 
 # Type 1 Diabetes
@@ -195,6 +204,9 @@ cross_links:
 - `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Type 1 diabetes and pemphigus vulgaris are both HLA-linked autoimmune diseases: T1DM is T-cell-mediated destruction of pancreatic β-cells, while pemphigus is antibody-mediated against desmoglein in skin—two ends of the autoimmune spectrum that cluster in patients.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Type 1 diabetes and narcolepsy type 1 are both autoimmune diseases that destroy an irreplaceable cell population: T1DM the insulin-producing β-cells, narcolepsy the hypothalamic orexin neurons—each HLA-associated and likely T-cell-mediated, leaving a permanent deficit.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Type 1 diabetes accelerates atherosclerosis, the leading cause of death in T1DM: lifelong hyperglycemia injures the endothelium and worsens lipids, so even well-controlled patients face premature cardiovascular disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Type 1 diabetes is fundamentally an autoimmune disease: a breakdown of self-tolerance lets the immune system destroy insulin-producing beta cells, so it clusters with other autoimmune disorders and is now a target for immune-modulating prevention like teplizumab.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Type 1 diabetes deranges glucagon as well as insulin: as islets are destroyed, alpha cells lose normal glucose-sensing and fail to release glucagon during hypoglycemia, removing a key safety brake—so insulin treatment carries serious risk of severe lows.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Type 1 diabetes is the endocrine system's prototypic insulin-deficiency disease: autoimmune loss of pancreatic islet hormone output disrupts glucose homeostasis and often coexists with autoimmune thyroid and adrenal disease in polyglandular syndromes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
