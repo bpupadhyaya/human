@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney is a major myeloma target: filtered monoclonal free light chains precipitate with Tamm-Horsfall protein into obstructing tubular casts (cast nephropathy), and with hypercalcemia cause the renal failure of CRAB — reversible if light-chain production is cut quickly."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Multiple myeloma and Waldenström macroglobulinemia are both monoclonal plasma-cell/B-cell dyscrasias secreting a paraprotein but differ: myeloma makes IgG/IgA with lytic bone disease and renal failure, WM makes IgM with hyperviscosity and the MYD88 L265P mutation."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Myeloma bone disease uncouples bone remodeling: tumor cells secrete DKK-1 and sclerostin that suppress osteoblasts and RANKL that activates osteoclasts, so the pure lytic lesions show no reactive new bone (cold on bone scan)—anti-RANKL agents aim to reset this."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Multiple myeloma is defined by a monoclonal immunoglobulin: the plasma-cell clone secretes a single intact IgG (or IgA) or free light chain—the M-protein seen as a serum spike—whose level tracks disease, while suppression of normal immunoglobulins causes myeloma's infection risk."
 ---
 
 # Multiple Myeloma
@@ -200,6 +209,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Multiple myeloma is a malignancy of plasma cells — antibody-secreting terminal B cells — that clonally expand in the marrow and pour out a single monoclonal immunoglobulin (M-protein); their prolific secretory machinery makes them exquisitely sensitive to proteasome inhibitors.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Multiple myeloma lives in the bone marrow, where malignant plasma cells co-opt stromal cells for IL-6 and CXCL12 survival signals and tip the RANKL/OPG balance toward osteoclasts; marrow plasma cells ≥10% (or a biopsy-proven plasmacytoma) plus CRAB features define the diagnosis.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a major myeloma target: filtered monoclonal free light chains precipitate with Tamm-Horsfall protein into obstructing tubular casts (cast nephropathy), and with hypercalcemia cause the renal failure of CRAB — reversible if light-chain production is cut quickly.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Multiple myeloma and Waldenström macroglobulinemia are both monoclonal plasma-cell/B-cell dyscrasias secreting a paraprotein but differ: myeloma makes IgG/IgA with lytic bone disease and renal failure, WM makes IgM with hyperviscosity and the MYD88 L265P mutation.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Myeloma bone disease uncouples bone remodeling: tumor cells secrete DKK-1 and sclerostin that suppress osteoblasts and RANKL that activates osteoclasts, so the pure lytic lesions show no reactive new bone (cold on bone scan)—anti-RANKL agents aim to reset this.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Multiple myeloma is defined by a monoclonal immunoglobulin: the plasma-cell clone secretes a single intact IgG (or IgA) or free light chain—the M-protein seen as a serum spike—whose level tracks disease, while suppression of normal immunoglobulins causes myeloma's infection risk.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

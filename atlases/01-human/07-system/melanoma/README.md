@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Melanoma is the founding model of T-cell immunotherapy: its heavy neoantigen load draws tumor-infiltrating cytotoxic CD8+ T cells whose reactivation by anti-PD-1/CTLA-4 (or adoptive TIL therapy) produces durable remissions — the proof of concept that launched the checkpoint era."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "Cutaneous and uveal melanoma share a melanocytic origin but are otherwise different: cutaneous is UV-driven with BRAF mutations and high mutational burden responsive to immunotherapy, while uveal has GNAQ/GNA11 mutations, liver tropism and poor checkpoint response."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Melanoma is the paradigm immunogenic cancer: its high UV-mutation neoantigen load made it the disease where checkpoint blockade (anti-CTLA-4 ipilimumab, anti-PD-1 nivolumab) first transformed survival, and spontaneous regressions and vitiligo show the immune system recognizes it."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain is a frequent and dangerous melanoma metastatic site: melanoma has a particular tropism for the CNS, so brain metastases are common and historically grim, but combined checkpoint inhibitors and stereotactic radiosurgery now achieve meaningful intracranial responses."
 ---
 
 # Melanoma
@@ -161,6 +170,9 @@ cross_links:
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Melanoma and non-small-cell lung cancer are the two flagships of cancer immunotherapy: both carry high UV- or tobacco-driven mutational burdens generating neoantigens, making them the most checkpoint-responsive solid tumors (PD-1/CTLA-4); both also harbor targetable BRAF V600E.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous melanoma arises from melanocytes in the basal epidermis transformed by UV-induced mutations (BRAF, NRAS); unlike basal or squamous cell carcinoma it metastasizes early via lymphatics and blood — the deadliest skin cancer, where Breslow thickness drives prognosis.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Melanoma is the founding model of T-cell immunotherapy: its heavy neoantigen load draws tumor-infiltrating cytotoxic CD8+ T cells whose reactivation by anti-PD-1/CTLA-4 (or adoptive TIL therapy) produces durable remissions — the proof of concept that launched the checkpoint era.
+- `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — Cutaneous and uveal melanoma share a melanocytic origin but are otherwise different: cutaneous is UV-driven with BRAF mutations and high mutational burden responsive to immunotherapy, while uveal has GNAQ/GNA11 mutations, liver tropism and poor checkpoint response.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Melanoma is the paradigm immunogenic cancer: its high UV-mutation neoantigen load made it the disease where checkpoint blockade (anti-CTLA-4 ipilimumab, anti-PD-1 nivolumab) first transformed survival, and spontaneous regressions and vitiligo show the immune system recognizes it.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a frequent and dangerous melanoma metastatic site: melanoma has a particular tropism for the CNS, so brain metastases are common and historically grim, but combined checkpoint inhibitors and stereotactic radiosurgery now achieve meaningful intracranial responses.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
