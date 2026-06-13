@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "CLL is as much an immunodeficiency as a cancer: the malignant B cells suppress normal immunity, causing hypogammaglobulinemia and T-cell dysfunction, so infection is a leading cause of death; CLL also drives autoimmune cytopenias (hemolytic anemia, ITP)."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "CLL and CML are the two chronic leukemias of opposite lineages: CLL accumulates mature B lymphocytes (smudge cells, often asymptomatic), while CML is a BCR-ABL-driven myeloid proliferation—and where CML is cured by TKIs, CLL uses BTK and BCL-2 inhibitors."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "CLL and follicular lymphoma are the commonest indolent B-cell neoplasms but distinct: CLL is a CD5+ small-lymphocyte disease driven by BCL-2 (venetoclax-targeted), while follicular lymphoma is BCL2-translocated and germinal-center-derived—both treatable but incurable."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CLL famously exhausts cytotoxic T cells, undermining immunity: the leukemic B cells suppress and dysregulate CD8 T cells, causing the immunodeficiency and infection risk that dominate CLL—and this exhaustion is why CAR-T works less well in CLL."
 ---
 
 # CLL
@@ -188,6 +197,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — CLL and its tissue form SLL are a disease of the lymphatic system: clonal mature B cells accumulate in blood, bone marrow and lymph nodes, producing painless generalized lymphadenopathy and splenomegaly; the same cells circulate, so blood counts and nodes reflect one disease.
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — CLL and mantle cell lymphoma are both CD5-positive mature B-cell neoplasms that can look alike on blood films but differ critically: MCL carries cyclin D1/t(11;14) and is aggressive while CLL is usually indolent—cyclin D1 and SOX11 staining separate them as prognosis diverges.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — CLL is as much an immunodeficiency as a cancer: the malignant B cells suppress normal immunity, causing hypogammaglobulinemia and T-cell dysfunction, so infection is a leading cause of death; CLL also drives autoimmune cytopenias (hemolytic anemia, ITP).
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — CLL and CML are the two chronic leukemias of opposite lineages: CLL accumulates mature B lymphocytes (smudge cells, often asymptomatic), while CML is a BCR-ABL-driven myeloid proliferation—and where CML is cured by TKIs, CLL uses BTK and BCL-2 inhibitors.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — CLL and follicular lymphoma are the commonest indolent B-cell neoplasms but distinct: CLL is a CD5+ small-lymphocyte disease driven by BCL-2 (venetoclax-targeted), while follicular lymphoma is BCL2-translocated and germinal-center-derived—both treatable but incurable.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CLL famously exhausts cytotoxic T cells, undermining immunity: the leukemic B cells suppress and dysregulate CD8 T cells, causing the immunodeficiency and infection risk that dominate CLL—and this exhaustion is why CAR-T works less well in CLL.
 
 ---
 

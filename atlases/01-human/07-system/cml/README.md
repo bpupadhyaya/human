@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Splenomegaly is a hallmark of CML: massive extramedullary myeloid proliferation enlarges the spleen, causing early satiety and left-upper-quadrant pain at presentation; spleen size featured in old prognostic scores and shrinks rapidly once tyrosine-kinase inhibitors control it."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "CML and Philadelphia-positive ALL are united by the BCR-ABL fusion: the same t(9;22) drives chronic myeloid leukemia and a subset of acute lymphoblastic leukemia, so BCR-ABL tyrosine kinase inhibitors treat both—though Ph+ ALL is far more aggressive."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "CML often presents with a high platelet count alongside leukocytosis: the BCR-ABL clone expands the megakaryocyte lineage too, so thrombocytosis and basophilia accompany the neutrophilia—distinguishing CML from reactive leukocytosis and sometimes causing thrombosis."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "CML and MDS sit at opposite poles of clonal myeloid disease: CML is a proliferative BCR-ABL-driven overproduction of mature myeloid cells, while MDS is a dysplastic, cytopenia-causing marrow failure—but both are clonal stem-cell disorders that can progress to AML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -188,6 +197,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — CML is the BCR-ABL1-positive classic myeloproliferative neoplasm: like PV, ET and myelofibrosis it is a clonal stem-cell overproduction of mature myeloid cells, but its Philadelphia chromosome and exquisite TKI sensitivity set it apart from the JAK2/CALR-driven MPNs.
 - `connects-to` → **[AML](../aml/README.md)** — CML's natural history is progression to acute leukemia: untreated, the chronic phase accelerates into a blast crisis that behaves like acute leukemia—myeloid (AML-like) in ~70%, lymphoid in the rest—so TKI therapy aims to prevent this transformation, which remains hard to treat.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly is a hallmark of CML: massive extramedullary myeloid proliferation enlarges the spleen, causing early satiety and left-upper-quadrant pain at presentation; spleen size featured in old prognostic scores and shrinks rapidly once tyrosine-kinase inhibitors control it.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — CML and Philadelphia-positive ALL are united by the BCR-ABL fusion: the same t(9;22) drives chronic myeloid leukemia and a subset of acute lymphoblastic leukemia, so BCR-ABL tyrosine kinase inhibitors treat both—though Ph+ ALL is far more aggressive.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — CML often presents with a high platelet count alongside leukocytosis: the BCR-ABL clone expands the megakaryocyte lineage too, so thrombocytosis and basophilia accompany the neutrophilia—distinguishing CML from reactive leukocytosis and sometimes causing thrombosis.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — CML and MDS sit at opposite poles of clonal myeloid disease: CML is a proliferative BCR-ABL-driven overproduction of mature myeloid cells, while MDS is a dysplastic, cytopenia-causing marrow failure—but both are clonal stem-cell disorders that can progress to AML.
 
 ---
 
