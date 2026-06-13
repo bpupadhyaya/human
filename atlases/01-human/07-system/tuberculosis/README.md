@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Tuberculosis and lung cancer overlap clinically: both can present as a cavitary or spiculated lung mass, old TB scars raise later lung-cancer risk, and chronic granulomatous inflammation may promote carcinogenesis—so a 'mass' in an endemic area needs both worked up."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon is harmful in tuberculosis, unlike in viral infection: a type I IFN signature marks active, severe TB because it suppresses the protective IFN-gamma/macrophage response—so the same cytokine family that fights viruses helps Mtb evade killing."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils are a double-edged sword in tuberculosis: they swarm to infected lung but, when overwhelmed, drive the tissue necrosis and cavitation that spreads Mtb—so a neutrophil-dominated response marks severe, transmissible disease rather than control."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Tuberculosis is a classic cause of adrenal insufficiency: hematogenous spread can destroy both adrenal glands, producing Addison's disease—historically the leading cause—so adrenal calcification or new Addison's should prompt a search for TB."
 ---
 
 # Tuberculosis
@@ -221,6 +230,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[COPD](../copd/README.md)** — Tuberculosis and COPD interact in both directions: past TB scarring causes airflow obstruction resembling COPD, while COPD and its inhaled steroids raise TB risk—so in high-burden regions chronic cough and obstruction warrant testing for active or prior TB.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D underpins macrophage defense against tuberculosis: vitamin-D signaling induces the antimicrobial peptide cathelicidin that helps macrophages kill M. tuberculosis, so deficiency raises TB risk—the old link behind 'sunlight and cod-liver oil' sanatorium cures.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Tuberculosis and lung cancer overlap clinically: both can present as a cavitary or spiculated lung mass, old TB scars raise later lung-cancer risk, and chronic granulomatous inflammation may promote carcinogenesis—so a 'mass' in an endemic area needs both worked up.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is harmful in tuberculosis, unlike in viral infection: a type I IFN signature marks active, severe TB because it suppresses the protective IFN-gamma/macrophage response—so the same cytokine family that fights viruses helps Mtb evade killing.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are a double-edged sword in tuberculosis: they swarm to infected lung but, when overwhelmed, drive the tissue necrosis and cavitation that spreads Mtb—so a neutrophil-dominated response marks severe, transmissible disease rather than control.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Tuberculosis is a classic cause of adrenal insufficiency: hematogenous spread can destroy both adrenal glands, producing Addison's disease—historically the leading cause—so adrenal calcification or new Addison's should prompt a search for TB.
 
 ## See Also
 

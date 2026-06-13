@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/gorlin-syndrome
     relation: connects-to
     note: "Tuberous sclerosis and Gorlin syndrome are both autosomal-dominant neurocutaneous tumor syndromes with skin and CNS features but different pathways: TSC from TSC1/2-mTOR overactivation, Gorlin from PTCH1-Hedgehog loss—two phakomatoses, two cascades."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "TSC scrambles brain development at the level of neurons: mTOR overactivity from TSC1/TSC2 loss produces cortical tubers and giant cells with disorganized neurons, driving the epilepsy, autism and developmental delay that dominate the syndrome."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is a major TSC target: mTOR-driven angiomyolipomas (fat-and-vessel hamartomas) grow and can hemorrhage, and TSC also raises renal cell carcinoma risk—so renal imaging surveillance and mTOR inhibitors (sirolimus) are central to TSC care."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Cardiac rhabdomyomas are often the first sign of TSC: these benign mTOR-driven muscle tumors appear on prenatal or infant echocardiography and usually regress, so a fetal cardiac tumor prompts evaluation for tuberous sclerosis."
 ---
 
 # Tuberous Sclerosis Complex
@@ -227,6 +236,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Tuberous sclerosis and Cowden syndrome converge on the PI3K-AKT-mTOR pathway: TSC1/TSC2 loss removes a direct brake on mTOR, while Cowden's PTEN loss disinhibits PI3K upstream—both hyperactivate mTOR, cause hamartomas, and respond to mTOR inhibitors.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Tuberous sclerosis is written into astrocytes: cortical 'tubers' and subependymal giant cell astrocytomas (SEGAs) are dysplastic astrocytic lesions from mTOR overactivation, causing the epilepsy and hydrocephalus of TSC—and SEGAs shrink on mTOR inhibitors.
 - `connects-to` → **[Gorlin Syndrome](../gorlin-syndrome/README.md)** — Tuberous sclerosis and Gorlin syndrome are both autosomal-dominant neurocutaneous tumor syndromes with skin and CNS features but different pathways: TSC from TSC1/2-mTOR overactivation, Gorlin from PTCH1-Hedgehog loss—two phakomatoses, two cascades.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — TSC scrambles brain development at the level of neurons: mTOR overactivity from TSC1/TSC2 loss produces cortical tubers and giant cells with disorganized neurons, driving the epilepsy, autism and developmental delay that dominate the syndrome.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a major TSC target: mTOR-driven angiomyolipomas (fat-and-vessel hamartomas) grow and can hemorrhage, and TSC also raises renal cell carcinoma risk—so renal imaging surveillance and mTOR inhibitors (sirolimus) are central to TSC care.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cardiac rhabdomyomas are often the first sign of TSC: these benign mTOR-driven muscle tumors appear on prenatal or infant echocardiography and usually regress, so a fetal cardiac tumor prompts evaluation for tuberous sclerosis.
 
 ---
 
