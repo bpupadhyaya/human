@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Lynch syndrome cancers are the paradigm of immunotherapy-responsive tumors: mismatch-repair deficiency generates a high microsatellite-instability mutational load and abundant neoantigens, making MSI-high/dMMR tumors—wherever they arise—exquisitely sensitive to PD-1 blockade."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Pancreatic cancer is part of the Lynch spectrum: mismatch-repair deficiency raises pancreatic adenocarcinoma risk, and rare MMR-deficient pancreatic tumors are hypermutated and respond to checkpoint therapy—unlike most pancreatic cancers, which resist immunotherapy."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Cholangiocarcinoma belongs to the Lynch tumor spectrum: mismatch-repair loss predisposes to biliary-tract cancers, and like other Lynch tumors these are microsatellite-unstable and hypermutated—candidates for checkpoint immunotherapy exploiting their neoantigens."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "Lynch syndrome can cause brain tumors as Turcot syndrome: mismatch-repair loss predisposes to gliomas including glioblastoma, and biallelic MMR deficiency gives childhood high-grade gliomas—linking a DNA-repair defect in the gut to tumors in the brain."
 ---
 
 # Lynch Syndrome
@@ -215,6 +224,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Ovarian cancer is part of the Lynch syndrome tumor spectrum: mismatch-repair deficiency raises the lifetime risk of (usually endometrioid or clear-cell) ovarian cancer alongside endometrial and colorectal cancer, so risk-reducing salpingo-oophorectomy is offered to carriers.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Lynch syndrome extends to the urinary tract: MSH2 carriers especially face raised risk of upper-tract urothelial carcinoma (renal pelvis, ureter) and bladder cancer, so urine surveillance is considered; these MSI-high tumors respond to checkpoint immunotherapy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Lynch syndrome cancers are the paradigm of immunotherapy-responsive tumors: mismatch-repair deficiency generates a high microsatellite-instability mutational load and abundant neoantigens, making MSI-high/dMMR tumors—wherever they arise—exquisitely sensitive to PD-1 blockade.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Pancreatic cancer is part of the Lynch spectrum: mismatch-repair deficiency raises pancreatic adenocarcinoma risk, and rare MMR-deficient pancreatic tumors are hypermutated and respond to checkpoint therapy—unlike most pancreatic cancers, which resist immunotherapy.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Cholangiocarcinoma belongs to the Lynch tumor spectrum: mismatch-repair loss predisposes to biliary-tract cancers, and like other Lynch tumors these are microsatellite-unstable and hypermutated—candidates for checkpoint immunotherapy exploiting their neoantigens.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Lynch syndrome can cause brain tumors as Turcot syndrome: mismatch-repair loss predisposes to gliomas including glioblastoma, and biallelic MMR deficiency gives childhood high-grade gliomas—linking a DNA-repair defect in the gut to tumors in the brain.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

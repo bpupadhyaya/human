@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Mantle cell lymphoma and DLBCL are both aggressive B-cell lymphomas but distinct: MCL carries cyclin D1/t(11;14) and is incurable-relapsing, while DLBCL is potentially cured by R-CHOP; blastoid MCL can mimic DLBCL morphologically, so cyclin D1/SOX11 staining is decisive."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Mantle cell lymphoma is defined by its pre-germinal-center origin: it arises from naive mantle-zone B cells that have not transited the germinal center, so it usually lacks somatic hypermutation—its hallmark is instead t(11;14) cyclin D1 overexpression."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Mantle cell lymphoma and multiple myeloma are both incurable B-lineage cancers treated with proteasome inhibitors: bortezomib works in both, though MCL is a cyclin-D1-driven nodal lymphoma while myeloma is a marrow plasma-cell tumor secreting monoclonal protein."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Mantle cell and Hodgkin lymphoma sit at opposite ends of B-cell lymphoma outcomes: Hodgkin's Reed-Sternberg-cell disease is usually curable, while MCL is an aggressive yet incurable t(11;14)-driven lymphoma—molecular drivers, not just lineage, set prognosis."
 ---
 
 # Mantle Cell Lymphoma
@@ -197,6 +206,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Mantle cell lymphoma spreads widely through the lymphatic system and beyond: it produces generalized lymphadenopathy and characteristically lymphomatous polyposis of the gut, with frequent leukemic blood and marrow involvement, so most patients present at stage IV.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is often heavily involved in mantle cell lymphoma, and a leukemic, splenomegalic, SOX11-negative variant exists that mimics chronic lymphocytic leukemia and behaves indolently; splenic and blood involvement reflect MCL's tendency to circulate as a disseminated disease.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Mantle cell lymphoma and DLBCL are both aggressive B-cell lymphomas but distinct: MCL carries cyclin D1/t(11;14) and is incurable-relapsing, while DLBCL is potentially cured by R-CHOP; blastoid MCL can mimic DLBCL morphologically, so cyclin D1/SOX11 staining is decisive.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Mantle cell lymphoma is defined by its pre-germinal-center origin: it arises from naive mantle-zone B cells that have not transited the germinal center, so it usually lacks somatic hypermutation—its hallmark is instead t(11;14) cyclin D1 overexpression.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Mantle cell lymphoma and multiple myeloma are both incurable B-lineage cancers treated with proteasome inhibitors: bortezomib works in both, though MCL is a cyclin-D1-driven nodal lymphoma while myeloma is a marrow plasma-cell tumor secreting monoclonal protein.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Mantle cell and Hodgkin lymphoma sit at opposite ends of B-cell lymphoma outcomes: Hodgkin's Reed-Sternberg-cell disease is usually curable, while MCL is an aggressive yet incurable t(11;14)-driven lymphoma—molecular drivers, not just lineage, set prognosis.
 
 ---
 
