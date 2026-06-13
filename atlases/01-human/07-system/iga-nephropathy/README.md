@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Liver disease causes secondary IgA nephropathy: cirrhosis impairs hepatic clearance of IgA, so IgA immune complexes accumulate and deposit in the kidney—hepatic IgA nephropathy showing how the liver normally protects the glomerulus from IgA overload."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "IgA nephropathy is an immune-complex kidney disease: the immune system makes galactose-deficient IgA1 and antibodies against it, forming complexes that lodge in the glomerular mesangium and activate complement—a misdirected mucosal immune response striking the kidney."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "IgA nephropathy classically flares with infection: gross hematuria appears within a day or two of a sore throat (synpharyngitic), unlike post-streptococcal glomerulonephritis weeks later—reflecting how mucosal infection ramps up the pathogenic IgA response."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "IgA nephropathy drives hypertension and is worsened by it: glomerular injury and proteinuria raise blood pressure, which in turn accelerates renal scarring, so strict blood-pressure and proteinuria control with RAS blockade is the cornerstone of slowing progression."
 ---
 
 # IgA Nephropathy
@@ -183,6 +192,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Aberrant B cells drive IgA nephropathy: mucosal B cells overproduce galactose-deficient IgA1 that forms immune complexes depositing in the glomerular mesangium, so B-cell-targeted and APRIL/BAFF-blocking therapies are emerging treatments.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome helps trigger IgA nephropathy: mucosal immune responses to gut flora drive production of the abnormal IgA1 that injures the kidney, so the gut-kidney axis explains flares after infections and the interest in microbiome-directed therapy.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver disease causes secondary IgA nephropathy: cirrhosis impairs hepatic clearance of IgA, so IgA immune complexes accumulate and deposit in the kidney—hepatic IgA nephropathy showing how the liver normally protects the glomerulus from IgA overload.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — IgA nephropathy is an immune-complex kidney disease: the immune system makes galactose-deficient IgA1 and antibodies against it, forming complexes that lodge in the glomerular mesangium and activate complement—a misdirected mucosal immune response striking the kidney.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — IgA nephropathy classically flares with infection: gross hematuria appears within a day or two of a sore throat (synpharyngitic), unlike post-streptococcal glomerulonephritis weeks later—reflecting how mucosal infection ramps up the pathogenic IgA response.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — IgA nephropathy drives hypertension and is worsened by it: glomerular injury and proteinuria raise blood pressure, which in turn accelerates renal scarring, so strict blood-pressure and proteinuria control with RAS blockade is the cornerstone of slowing progression.
 
 ---
 

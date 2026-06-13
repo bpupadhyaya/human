@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T helper cells license the autoimmunity of ITP: loss of tolerance lets Th cells help B cells make anti-platelet antibodies and skews regulatory balance, so therapies restoring immune regulation, not just removing antibody, are increasingly used in ITP."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immune thrombocytopenia is an autoimmune disease of platelet destruction: autoantibodies and T cells target platelet glycoproteins, clearing them in the spleen while also impairing production—so it joins the antibody-mediated cytopenias treated by immunosuppression."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The feared complication of immune thrombocytopenia is bleeding into the nervous system: although rare, intracranial hemorrhage from very low platelets is the main life-threatening risk, so severe thrombocytopenia with neurological signs is a medical emergency."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Viral infection commonly triggers immune thrombocytopenia: especially in children, EBV and other viruses provoke cross-reactive antiplatelet antibodies, causing an acute, often self-limited ITP—molecular mimicry turning antiviral immunity against platelets."
 ---
 
 # Immune Thrombocytopenia
@@ -245,6 +254,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells fuel ITP by making anti-platelet antibodies: long-lived autoantibody-secreting plasma cells (some splenic) coat platelets for destruction, and because they resist rituximab, plasma-cell-directed or splenectomy approaches address refractory ITP.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a classic secondary cause of immune thrombocytopenia: the virus drives anti-platelet antibodies and impairs production, so new thrombocytopenia warrants HIV testing—and antiretroviral therapy often restores the platelet count better than immunosuppression.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells license the autoimmunity of ITP: loss of tolerance lets Th cells help B cells make anti-platelet antibodies and skews regulatory balance, so therapies restoring immune regulation, not just removing antibody, are increasingly used in ITP.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immune thrombocytopenia is an autoimmune disease of platelet destruction: autoantibodies and T cells target platelet glycoproteins, clearing them in the spleen while also impairing production—so it joins the antibody-mediated cytopenias treated by immunosuppression.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — The feared complication of immune thrombocytopenia is bleeding into the nervous system: although rare, intracranial hemorrhage from very low platelets is the main life-threatening risk, so severe thrombocytopenia with neurological signs is a medical emergency.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Viral infection commonly triggers immune thrombocytopenia: especially in children, EBV and other viruses provoke cross-reactive antiplatelet antibodies, causing an acute, often self-limited ITP—molecular mimicry turning antiviral immunity against platelets.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
