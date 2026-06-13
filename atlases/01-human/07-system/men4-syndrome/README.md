@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Hyperparathyroidism is MEN4's most frequent manifestation and a cause of bone loss: p27 loss drives parathyroid tumors whose excess PTH demineralizes bone, so MEN4 presents much like MEN1 with hypercalcemia and osteoporosis despite a different gene."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "MEN4 is the cell-cycle MEN: loss of the CDKN1B-encoded p27 brake removes restraint on cyclin D-CDK activity, so endocrine cells over-proliferate—a different molecular route to the parathyroid and pituitary tumors that MEN1 causes through menin."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "MEN4, like MEN1, can drive gastroenteropancreatic neuroendocrine tumors: p27 loss predisposes to gastrinomas and gastric/duodenal NETs alongside parathyroid and pituitary disease, so the stomach and gut are part of its tumor spectrum."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "MEN4 broadens the MEN tumor spectrum into reproductive and other organs: beyond parathyroid and pituitary, p27 loss has been linked to gonadal, cervical and adrenal tumors, reflecting how a single cell-cycle inhibitor guards many endocrine and reproductive tissues."
 ---
 
 # MEN4 Syndrome
@@ -211,6 +220,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — MEN4 can cause Cushing's like MEN1: CDKN1B (p27) loss predisposes to pituitary and adrenal tumors that raise cortisol, so MEN4—a rarer MEN1 mimic—produces overlapping hypercortisolism through a cell-cycle, rather than menin, defect.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — MEN4 broadens the endocrine tumor spectrum to the thyroid: loss of the p27 cell-cycle brake predisposes to thyroid and other endocrine tumors beyond the core parathyroid and pituitary lesions, so MEN4 surveillance, like MEN1's, spans multiple glands.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Hyperparathyroidism is MEN4's most frequent manifestation and a cause of bone loss: p27 loss drives parathyroid tumors whose excess PTH demineralizes bone, so MEN4 presents much like MEN1 with hypercalcemia and osteoporosis despite a different gene.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — MEN4 is the cell-cycle MEN: loss of the CDKN1B-encoded p27 brake removes restraint on cyclin D-CDK activity, so endocrine cells over-proliferate—a different molecular route to the parathyroid and pituitary tumors that MEN1 causes through menin.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MEN4, like MEN1, can drive gastroenteropancreatic neuroendocrine tumors: p27 loss predisposes to gastrinomas and gastric/duodenal NETs alongside parathyroid and pituitary disease, so the stomach and gut are part of its tumor spectrum.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MEN4 broadens the MEN tumor spectrum into reproductive and other organs: beyond parathyroid and pituitary, p27 loss has been linked to gonadal, cervical and adrenal tumors, reflecting how a single cell-cycle inhibitor guards many endocrine and reproductive tissues.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

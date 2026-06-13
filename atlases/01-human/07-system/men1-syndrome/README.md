@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Primary hyperparathyroidism—MEN1's earliest, commonest feature—drives bone loss: excess PTH from multigland parathyroid tumors pulls calcium from bone, causing osteoporosis and stones, so early parathyroidectomy protects the skeleton in MEN1."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "MEN1 strikes the digestive system with neuroendocrine tumors: duodenopancreatic NETs—especially gastrinomas causing Zollinger-Ellison ulcers and insulinomas—are leading causes of morbidity, so menin loss makes the gut's hormone cells a major tumor site."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "MEN1 promotes gastric carcinoid tumors: gastrinoma-driven acid and hypergastrinemia stimulate stomach enterochromaffin-like cells into type-2 gastric carcinoids, so the stomach is a downstream target of the syndrome's hormone excess."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "MEN1 also shows in the skin: menin loss produces facial angiofibromas, collagenomas and lipomas in many patients, so these benign cutaneous tumors can be an accessible clue to an inherited multiple-endocrine-neoplasia syndrome."
 ---
 
 # MEN1 Syndrome
@@ -219,6 +228,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Thyroid tumors occur in MEN1 beyond the classic three glands: while parathyroid, pituitary and pancreas dominate, menin loss also predisposes to thyroid adenomas and carcinoma, so the syndrome's reach extends across endocrine organs—warranting broad surveillance.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cushing's syndrome arises in MEN1 from two routes: ACTH-secreting pituitary tumors or adrenal/ectopic neuroendocrine tumors raise cortisol, so hypercortisolism in a MEN1 patient demands working out whether the pituitary, adrenal or a pancreatic NET is the source.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Primary hyperparathyroidism—MEN1's earliest, commonest feature—drives bone loss: excess PTH from multigland parathyroid tumors pulls calcium from bone, causing osteoporosis and stones, so early parathyroidectomy protects the skeleton in MEN1.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — MEN1 strikes the digestive system with neuroendocrine tumors: duodenopancreatic NETs—especially gastrinomas causing Zollinger-Ellison ulcers and insulinomas—are leading causes of morbidity, so menin loss makes the gut's hormone cells a major tumor site.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MEN1 promotes gastric carcinoid tumors: gastrinoma-driven acid and hypergastrinemia stimulate stomach enterochromaffin-like cells into type-2 gastric carcinoids, so the stomach is a downstream target of the syndrome's hormone excess.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — MEN1 also shows in the skin: menin loss produces facial angiofibromas, collagenomas and lipomas in many patients, so these benign cutaneous tumors can be an accessible clue to an inherited multiple-endocrine-neoplasia syndrome.
 
 ---
 
