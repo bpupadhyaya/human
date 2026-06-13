@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages shape gastric cancer: recruited into the tumor, they promote invasion, angiogenesis and immune suppression, and high macrophage infiltration predicts worse outcome—part of the microenvironment seeded by chronic H. pylori gastritis."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Gastric cancer is a major cancer of the digestive system: it arises in the stomach lining often after H. pylori gastritis and intestinal metaplasia, and vague early symptoms mean it usually presents late—making it a leading cause of cancer death worldwide."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Gastric cancer often follows a metaplastic change in the gut epithelium: chronic inflammation drives the stomach lining toward an intestinal-type epithelium (intestinal metaplasia), a recognized precancerous step in the Correa cascade from gastritis to carcinoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy has a role in gastric cancer: photon-beam radiation combined with chemotherapy is used before or after surgery to improve local control of resectable tumors and to palliate bleeding or obstruction in advanced disease."
 ---
 
 # Gastric Cancer
@@ -246,6 +255,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is among the commonest events in gastric cancer: loss of p53 removes a key checkpoint as H. pylori-driven inflammation and intestinal metaplasia progress to carcinoma, so p53 inactivation marks the late, invasive stage of the Correa cascade.
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — KRAS and related signaling drive a subset of gastric cancers: activating mutations push proliferation in intestinal-type tumors, contributing to the molecular diversity (alongside HER2, EBV, MSI) that increasingly guides targeted gastric cancer therapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape gastric cancer: recruited into the tumor, they promote invasion, angiogenesis and immune suppression, and high macrophage infiltration predicts worse outcome—part of the microenvironment seeded by chronic H. pylori gastritis.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Gastric cancer is a major cancer of the digestive system: it arises in the stomach lining often after H. pylori gastritis and intestinal metaplasia, and vague early symptoms mean it usually presents late—making it a leading cause of cancer death worldwide.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gastric cancer often follows a metaplastic change in the gut epithelium: chronic inflammation drives the stomach lining toward an intestinal-type epithelium (intestinal metaplasia), a recognized precancerous step in the Correa cascade from gastritis to carcinoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a role in gastric cancer: photon-beam radiation combined with chemotherapy is used before or after surgery to improve local control of resectable tumors and to palliate bleeding or obstruction in advanced disease.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

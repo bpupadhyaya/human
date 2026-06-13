@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Follicular lymphoma's behavior is shaped by immune surveillance: the microenvironment can restrain or enable the tumor, and FL can spontaneously regress or transform—so immune-modulating therapies (rituximab, lenalidomide) are central to its largely incurable course."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Follicular lymphoma usually involves the bone marrow at diagnosis: the indolent clone seeds marrow in a paratrabecular pattern, so it is typically advanced-stage yet slow-growing—curative local therapy is rarely possible, but it can be watched or controlled for years."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy can cure the rare localized follicular lymphoma: low-dose photon radiation to a single involved site is potentially curative in stage I disease, a notable exception in a lymphoma that is otherwise incurable but indolent and managed over many years."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Follicular lymphoma can transform and reach the nervous system: histologic transformation to aggressive DLBCL—and rarely CNS involvement—marks a turn for the worse in this usually indolent disease, shifting management from watchful waiting to intensive therapy."
 ---
 
 # Follicular Lymphoma
@@ -225,6 +234,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Follicular lymphoma depends on follicular helper T cells in its microenvironment: the malignant B cells need Tfh signals and a supportive niche to survive, so FL is as much a disease of the microenvironment as of the B cell—explaining its indolent, relapsing course.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Follicular lymphoma is a germinal-center B cell blocked from becoming a plasma cell: the t(14;18) BCL2 translocation lets it resist apoptosis and accumulate instead of maturing into antibody-secreting cells—an indolent buildup unlike high-grade lymphomas.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Follicular lymphoma's behavior is shaped by immune surveillance: the microenvironment can restrain or enable the tumor, and FL can spontaneously regress or transform—so immune-modulating therapies (rituximab, lenalidomide) are central to its largely incurable course.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Follicular lymphoma usually involves the bone marrow at diagnosis: the indolent clone seeds marrow in a paratrabecular pattern, so it is typically advanced-stage yet slow-growing—curative local therapy is rarely possible, but it can be watched or controlled for years.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy can cure the rare localized follicular lymphoma: low-dose photon radiation to a single involved site is potentially curative in stage I disease, a notable exception in a lymphoma that is otherwise incurable but indolent and managed over many years.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Follicular lymphoma can transform and reach the nervous system: histologic transformation to aggressive DLBCL—and rarely CNS involvement—marks a turn for the worse in this usually indolent disease, shifting management from watchful waiting to intensive therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
