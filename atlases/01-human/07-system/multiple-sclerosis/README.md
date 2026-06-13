@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic T cells contribute to MS damage: though CD4 Th cells initiate the attack, CD8 cytotoxic T cells dominate MS lesions and directly kill oligodendrocytes and neurons, helping explain the axonal loss that drives irreversible progressive disability."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "CD20-targeted therapy transformed MS treatment: depleting CD20+ B cells with ocrelizumab or rituximab sharply cuts relapses, proving B cells—not just T cells—drive the disease, and giving the first effective drug for progressive MS."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Multiple sclerosis is the prototypical demyelinating disease of the central nervous system: immune attack strips myelin from brain, spinal cord and optic nerve in scattered plaques, so its protean symptoms reflect lesions dispersed in space and time."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "MS is fundamentally an autoimmune disease: self-reactive lymphocytes breach the blood-brain barrier to attack myelin, so it overlaps with other autoimmunity and is treated by immunomodulation—shifting MS care from symptom control to immune-directed therapy."
 ---
 
 # Multiple Sclerosis
@@ -213,6 +222,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia are central to MS lesions: they strip myelin and present antigen to drive demyelination, but also clear debris to permit remyelination—the same brain-resident macrophages both damage and repair, making microglial phenotype a target in progressive MS.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Multiple sclerosis and rheumatoid arthritis are both autoimmune diseases driven by Th17 and autoreactive lymphocytes, but target different tissues—CNS myelin vs synovial joints—yet share genetic risk and respond to overlapping immunomodulators.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells contribute to MS damage: though CD4 Th cells initiate the attack, CD8 cytotoxic T cells dominate MS lesions and directly kill oligodendrocytes and neurons, helping explain the axonal loss that drives irreversible progressive disability.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-targeted therapy transformed MS treatment: depleting CD20+ B cells with ocrelizumab or rituximab sharply cuts relapses, proving B cells—not just T cells—drive the disease, and giving the first effective drug for progressive MS.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Multiple sclerosis is the prototypical demyelinating disease of the central nervous system: immune attack strips myelin from brain, spinal cord and optic nerve in scattered plaques, so its protean symptoms reflect lesions dispersed in space and time.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — MS is fundamentally an autoimmune disease: self-reactive lymphocytes breach the blood-brain barrier to attack myelin, so it overlaps with other autoimmunity and is treated by immunomodulation—shifting MS care from symptom control to immune-directed therapy.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
