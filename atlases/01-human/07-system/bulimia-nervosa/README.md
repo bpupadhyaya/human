@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Bulimia nervosa involves dysregulated reward and impulse-control neurons: altered dopaminergic and serotonergic signaling in fronto-striatal circuits drives the loss of control over eating and impaired inhibition that define binge-purge episodes, which SSRIs and CBT recalibrate."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Vomiting in bulimia dangerously depletes potassium: recurrent purging loses gastric acid and potassium, causing hypokalemia and metabolic alkalosis that can trigger fatal cardiac arrhythmias—the electrolyte derangement that makes bulimia medically lethal."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Bulimia strains the stomach and esophagus: binge-purge cycles can cause acute gastric dilatation, Mallory-Weiss tears with bleeding, and reflux, while rare gastric rupture is catastrophic—so the upper GI tract bears much of bulimia's physical harm."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Bulimia and social anxiety frequently coexist: fear of judgment and low self-worth fuel both, and the shame around eating and body image links the disorders—so social anxiety often precedes and perpetuates the binge-purge cycle, complicating recovery."
 ---
 
 # Bulimia Nervosa
@@ -219,6 +228,9 @@ All of the following must be met:
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Bulimia nervosa and OCD overlap in compulsivity and frequently co-occur: the binge-purge cycle has a ritualized, compulsive quality and shares perfectionism and serotonergic dysregulation with OCD—both respond to SSRIs and CBT targeting the compulsive behavior.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety disorders are highly comorbid with bulimia nervosa and often precede it: chronic anxiety and low self-esteem fuel the binge-purge cycle as a way to regulate distress, so generalized anxiety is common, worsens prognosis, and is a target alongside the eating disorder.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Bulimia nervosa involves dysregulated reward and impulse-control neurons: altered dopaminergic and serotonergic signaling in fronto-striatal circuits drives the loss of control over eating and impaired inhibition that define binge-purge episodes, which SSRIs and CBT recalibrate.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Vomiting in bulimia dangerously depletes potassium: recurrent purging loses gastric acid and potassium, causing hypokalemia and metabolic alkalosis that can trigger fatal cardiac arrhythmias—the electrolyte derangement that makes bulimia medically lethal.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Bulimia strains the stomach and esophagus: binge-purge cycles can cause acute gastric dilatation, Mallory-Weiss tears with bleeding, and reflux, while rare gastric rupture is catastrophic—so the upper GI tract bears much of bulimia's physical harm.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Bulimia and social anxiety frequently coexist: fear of judgment and low self-worth fuel both, and the shame around eating and body image links the disorders—so social anxiety often precedes and perpetuates the binge-purge cycle, complicating recovery.
 
 ## Treatment
 

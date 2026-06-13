@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Bloom syndrome includes an immunodeficiency: BLM helicase loss impairs lymphocyte development and antibody class-switching, causing low immunoglobulins and recurrent respiratory and ear infections—so immune failure compounds the genome instability driving its cancers."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Bloom and Li-Fraumeni are both inherited genome-instability cancer syndromes by different routes: Bloom from BLM helicase loss causing excess recombination, Li-Fraumeni from p53 loss removing the damage checkpoint—both flood cells with mutations driving cancer."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Bloom syndrome cells struggle to engage p53-driven safeguards: without BLM helicase, stalled forks and excess sister-chromatid exchange overwhelm the damage response, so the p53 checkpoint cannot keep pace—explaining the broad, early cancer risk of the syndrome."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "BLM helicase partners with RAD51 in homologous recombination: BLM normally dissolves recombination intermediates that RAD51 forms, preventing crossovers, so its loss causes the hallmark surge in sister-chromatid exchange that defines Bloom syndrome diagnostically."
 ---
 
 # Bloom Syndrome
@@ -225,6 +234,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Rothmund-Thomson Syndrome](../rothmund-thomson/README.md)** — Bloom syndrome and Rothmund-Thomson are RecQ-helicase genome-instability disorders: Bloom (BLM), Rothmund-Thomson (RECQL4), and Werner (WRN) share defective DNA helicases causing chromosomal instability, growth failure, and high cancer risk.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Bloom syndrome carries a strikingly high rate of early type 2 diabetes: despite low body weight, severe insulin resistance develops, so diabetes appears in childhood—part of a broad phenotype of growth deficiency, immunodeficiency, and cancer from BLM helicase loss.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Bloom syndrome includes an immunodeficiency: BLM helicase loss impairs lymphocyte development and antibody class-switching, causing low immunoglobulins and recurrent respiratory and ear infections—so immune failure compounds the genome instability driving its cancers.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Bloom and Li-Fraumeni are both inherited genome-instability cancer syndromes by different routes: Bloom from BLM helicase loss causing excess recombination, Li-Fraumeni from p53 loss removing the damage checkpoint—both flood cells with mutations driving cancer.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Bloom syndrome cells struggle to engage p53-driven safeguards: without BLM helicase, stalled forks and excess sister-chromatid exchange overwhelm the damage response, so the p53 checkpoint cannot keep pace—explaining the broad, early cancer risk of the syndrome.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — BLM helicase partners with RAD51 in homologous recombination: BLM normally dissolves recombination intermediates that RAD51 forms, preventing crossovers, so its loss causes the hallmark surge in sister-chromatid exchange that defines Bloom syndrome diagnostically.
 
 ---
 
