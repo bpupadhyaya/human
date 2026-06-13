@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/prostate-cancer
     relation: connects-to
     note: "Breast and prostate cancer are the paradigm hormone-driven cancers and share BRCA biology: breast growth depends on estrogen, prostate on androgens (blocked by ADT), and BRCA2 raises risk of both—endocrine therapy is central to each."
+  - target: 01-human/03-molecular/brca2
+    relation: connects-to
+    note: "BRCA2 mutation strongly predisposes to breast cancer: this DNA-repair gene, when lost, leaves cells unable to fix double-strand breaks, so hereditary BRCA2 tumors arise young and are exquisitely sensitive to PARP inhibitors that exploit the repair defect."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PD-1 blockade has entered breast cancer through its most aggressive subtype: triple-negative tumors carry more mutations and immune infiltrate, so adding anti-PD-1 (pembrolizumab) to chemotherapy improves outcomes where hormonal and HER2 therapies do not apply."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Breast cancer spreads first through the lymphatic system: tumor cells drain to axillary nodes, so sentinel-node biopsy stages the disease and nodal involvement is among the strongest prognostic factors—guiding decisions on radiation and systemic therapy."
 ---
 
 # Breast Cancer
@@ -209,6 +218,9 @@ cross_links:
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Breast cancer is a core feature of Cowden syndrome: germline PTEN loss unleashing PI3K-AKT gives a high lifetime breast cancer risk alongside thyroid and endometrial cancer—so Cowden is one of the hereditary syndromes screened for in familial breast cancer.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is integral to breast cancer treatment: after lumpectomy, whole-breast or partial radiation halves local recurrence, and post-mastectomy radiation treats high-risk disease—radiation made breast-conserving surgery as safe as mastectomy.
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Breast and prostate cancer are the paradigm hormone-driven cancers and share BRCA biology: breast growth depends on estrogen, prostate on androgens (blocked by ADT), and BRCA2 raises risk of both—endocrine therapy is central to each.
+- `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 mutation strongly predisposes to breast cancer: this DNA-repair gene, when lost, leaves cells unable to fix double-strand breaks, so hereditary BRCA2 tumors arise young and are exquisitely sensitive to PARP inhibitors that exploit the repair defect.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 blockade has entered breast cancer through its most aggressive subtype: triple-negative tumors carry more mutations and immune infiltrate, so adding anti-PD-1 (pembrolizumab) to chemotherapy improves outcomes where hormonal and HER2 therapies do not apply.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Breast cancer spreads first through the lymphatic system: tumor cells drain to axillary nodes, so sentinel-node biopsy stages the disease and nodal involvement is among the strongest prognostic factors—guiding decisions on radiation and systemic therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -81,6 +81,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "CKD deranges calcium and bone metabolism (CKD-MBD): failing kidneys can't activate vitamin D or excrete phosphate, lowering calcium and driving secondary hyperparathyroidism and vascular calcification—so calcium, phosphate and PTH are tightly managed in CKD."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "Podocyte loss is a key driver of progressive CKD: these non-dividing cells form the glomerular filter, and when injury (by diabetes, hypertension or FSGS) kills them, the barrier leaks protein and scars, so podocyte depletion predicts irreversible decline."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "CKD often begins in the glomerulus: damage to the filtering tuft causes proteinuria and falling filtration, and surviving glomeruli hyperfilter to compensate—a maladaptive overwork that scars them too, driving the relentless nephron loss of chronic kidney disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "CKD and cardiovascular disease are lethally intertwined: most people with CKD die of heart disease, not kidney failure, because uremia, fluid overload and hypertension accelerate atherosclerosis—so the failing kidney is a powerful cardiac risk factor."
 ---
 
 # Chronic Kidney Disease
@@ -178,6 +187,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes is the leading cause of chronic kidney disease: chronic hyperglycemia damages the glomerular filter (diabetic nephropathy), causing proteinuria and progressive function loss, so diabetic kidney disease drives most dialysis need—SGLT2 inhibitors now slow it.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — CKD and atherosclerosis form a vicious cardiorenal cycle: declining kidney function accelerates vascular calcification and atherosclerosis, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — CKD deranges calcium and bone metabolism (CKD-MBD): failing kidneys can't activate vitamin D or excrete phosphate, lowering calcium and driving secondary hyperparathyroidism and vascular calcification—so calcium, phosphate and PTH are tightly managed in CKD.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — Podocyte loss is a key driver of progressive CKD: these non-dividing cells form the glomerular filter, and when injury (by diabetes, hypertension or FSGS) kills them, the barrier leaks protein and scars, so podocyte depletion predicts irreversible decline.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — CKD often begins in the glomerulus: damage to the filtering tuft causes proteinuria and falling filtration, and surviving glomeruli hyperfilter to compensate—a maladaptive overwork that scars them too, driving the relentless nephron loss of chronic kidney disease.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — CKD and cardiovascular disease are lethally intertwined: most people with CKD die of heart disease, not kidney failure, because uremia, fluid overload and hypertension accelerate atherosclerosis—so the failing kidney is a powerful cardiac risk factor.
 
 ## Pathology
 
