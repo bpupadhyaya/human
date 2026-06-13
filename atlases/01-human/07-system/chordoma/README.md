@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Chordoma's relationship to bone-forming cells is distinctive: although it grows within and destroys bone, it does not arise from osteoblasts but from notochord remnants, producing a lytic, gelatinous mass rather than the bone matrix osteoblasts lay down—imaging shows destruction."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Chordoma and meningioma are both slow-growing skull-base/spinal tumors in the same differential: chordoma is a destructive midline tumor of notochord remnants, while meningioma is a dural-based extra-axial tumor—told apart by location, imaging, and immunostains."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Chordoma's characteristic histology is a myxoid, fibroblast-like stroma studded with physaliphorous (bubbly) cells: the matrix and spindle-cell background give a deceptively bland, cartilage-like look, so brachyury immunostaining confirms its notochordal origin."
+  - target: 01-human/07-system/synovial-sarcoma
+    relation: connects-to
+    note: "Chordoma and synovial sarcoma are rare tumors of young adults with aggressive local behavior needing wide resection plus radiotherapy: chordoma is brachyury-driven from notochord remnants, synovial sarcoma SS18-SSX-fusion-driven—different drivers, similar challenge."
 ---
 
 # Chordoma
@@ -210,6 +219,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Chordoma is defined by its radiotherapy needs: nestled against the brainstem and cord at the skull base and sacrum, it needs very high radiation doses that proton-beam therapy delivers while sparing neural tissue—central since complete resection is often impossible.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Chordoma and osteosarcoma are both primary bone malignancies but differ fundamentally: chordoma is a slow-growing notochord-remnant tumor of the axial skeleton (skull base/sacrum) driven by brachyury, while osteosarcoma is an aggressive osteoid-producing tumor of long bones.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Chordoma's relationship to bone-forming cells is distinctive: although it grows within and destroys bone, it does not arise from osteoblasts but from notochord remnants, producing a lytic, gelatinous mass rather than the bone matrix osteoblasts lay down—imaging shows destruction.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Chordoma and meningioma are both slow-growing skull-base/spinal tumors in the same differential: chordoma is a destructive midline tumor of notochord remnants, while meningioma is a dural-based extra-axial tumor—told apart by location, imaging, and immunostains.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Chordoma's characteristic histology is a myxoid, fibroblast-like stroma studded with physaliphorous (bubbly) cells: the matrix and spindle-cell background give a deceptively bland, cartilage-like look, so brachyury immunostaining confirms its notochordal origin.
+- `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Chordoma and synovial sarcoma are rare tumors of young adults with aggressive local behavior needing wide resection plus radiotherapy: chordoma is brachyury-driven from notochord remnants, synovial sarcoma SS18-SSX-fusion-driven—different drivers, similar challenge.
 
 ---
 

@@ -69,6 +69,15 @@ cross_links:
   - target: 01-human/07-system/neuropathic-pain
     relation: connects-to
     note: "CIDP often causes neuropathic pain alongside its hallmark weakness: demyelination and secondary axonal damage of sensory fibers produce burning, tingling and sensory ataxia, so beyond immunotherapy (IVIG, steroids) patients frequently need gabapentinoids or SNRIs for the pain."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells underlie much of CIDP's autoimmunity: long-lived plasma cells secrete IgG antibodies that, with complement and macrophages, strip myelin from peripheral nerves—so IVIG, plasma exchange, and B-cell-targeting therapies are mainstays."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T-cell failure permits CIDP: when Tregs cannot restrain autoreactive T and B cells, the immune system attacks peripheral-nerve myelin, so CIDP is treated by rebalancing immunity (steroids, IVIG)—immune dysregulation drives chronic demyelination."
+  - target: 01-human/07-system/nmo
+    relation: connects-to
+    note: "CIDP and neuromyelitis optica are both antibody-mediated demyelinating diseases at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensorimotor loss), while NMO attacks CNS astrocytes/myelin via anti-AQP4—both IgG-driven and treated with immunotherapy."
 ---
 
 # CIDP
@@ -228,6 +237,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — CIDP and myasthenia gravis are both antibody/immune-mediated, treatable autoimmune neuromuscular disorders at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensory loss), MG the postsynaptic junction (fatigable weakness); both improve with IVIG.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — CIDP and diabetes overlap and complicate each other: CIDP is over-represented in diabetes, and distinguishing demyelinating CIDP (which responds to immunotherapy) from common diabetic peripheral neuropathy is a key challenge, since conduction studies and response differ.
 - `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — CIDP often causes neuropathic pain alongside its hallmark weakness: demyelination and secondary axonal damage of sensory fibers produce burning, tingling and sensory ataxia, so beyond immunotherapy (IVIG, steroids) patients frequently need gabapentinoids or SNRIs for the pain.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells underlie much of CIDP's autoimmunity: long-lived plasma cells secrete IgG antibodies that, with complement and macrophages, strip myelin from peripheral nerves—so IVIG, plasma exchange, and B-cell-targeting therapies are mainstays.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T-cell failure permits CIDP: when Tregs cannot restrain autoreactive T and B cells, the immune system attacks peripheral-nerve myelin, so CIDP is treated by rebalancing immunity (steroids, IVIG)—immune dysregulation drives chronic demyelination.
+- `connects-to` → **[NMOSD](../nmo/README.md)** — CIDP and neuromyelitis optica are both antibody-mediated demyelinating diseases at different sites: CIDP attacks peripheral-nerve myelin (areflexia, sensorimotor loss), while NMO attacks CNS astrocytes/myelin via anti-AQP4—both IgG-driven and treated with immunotherapy.
 
 ---
 
