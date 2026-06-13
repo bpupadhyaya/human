@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "Ovarian and endometrial cancers are linked: endometrioid and clear-cell ovarian cancers share histology and ARID1A mutations with their uterine counterparts and present synchronously, and Lynch syndrome raises the risk of both — so a dual primary prompts germline testing."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Lynch syndrome is the second major hereditary cause of ovarian cancer after BRCA: mismatch-repair loss (MLH1/MSH2) raises ovarian risk—often endometrioid or clear-cell histology—alongside its colorectal and endometrial cancers, so MMR/MSI testing guides workup."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Ovarian and breast cancer are linked through BRCA1/2: germline mutations sharply raise both, defining hereditary breast-ovarian cancer syndrome, and the homologous-recombination defect they create makes both tumors sensitive to platinum and PARP inhibitors."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages drive ovarian cancer's spread: the omentum and ascites are rich in immunosuppressive M2 macrophages that help cells implant on peritoneal surfaces and resist immunity, a target alongside the limited success of checkpoint blockade."
 ---
 
 # Ovarian Cancer
@@ -179,6 +188,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Ovarian cancer is not one disease: high-grade serous carcinoma (TP53-universal, BRCA/HRD, platinum-sensitive) dominates, but ovarian clear cell carcinoma is a distinct subtype (ARID1A/PIK3CA, endometriosis-linked, platinum-resistant) — histotype guides treatment.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Ovarian cancer is the deadliest gynecologic cancer because it grows silently in the pelvis and spreads transcoelomically across the peritoneum before symptoms appear; most high-grade serous tumors originate in the fallopian tube fimbriae (STIC), making it a tubo-ovarian cancer.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Ovarian and endometrial cancers are linked: endometrioid and clear-cell ovarian cancers share histology and ARID1A mutations with their uterine counterparts and present synchronously, and Lynch syndrome raises the risk of both — so a dual primary prompts germline testing.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome is the second major hereditary cause of ovarian cancer after BRCA: mismatch-repair loss (MLH1/MSH2) raises ovarian risk—often endometrioid or clear-cell histology—alongside its colorectal and endometrial cancers, so MMR/MSI testing guides workup.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Ovarian and breast cancer are linked through BRCA1/2: germline mutations sharply raise both, defining hereditary breast-ovarian cancer syndrome, and the homologous-recombination defect they create makes both tumors sensitive to platinum and PARP inhibitors.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages drive ovarian cancer's spread: the omentum and ascites are rich in immunosuppressive M2 macrophages that help cells implant on peritoneal surfaces and resist immunity, a target alongside the limited success of checkpoint blockade.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

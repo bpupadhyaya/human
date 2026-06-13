@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung is the dominant metastatic site in osteosarcoma: hematogenous spread seeds pulmonary nodules that determine prognosis, so chest CT staging is essential and surgical metastasectomy of lung lesions — even repeated — is part of curative-intent therapy with chemotherapy."
+  - target: 01-human/07-system/ewing-sarcoma
+    relation: connects-to
+    note: "Osteosarcoma and Ewing sarcoma are the two commonest bone cancers of adolescence: osteosarcoma makes malignant osteoid and arises at the metaphysis of long bones, while Ewing is a small-round-blue-cell tumor driven by EWSR1-FLI1, often diaphyseal or in flat bones."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Osteosarcoma subverts bone remodeling: its malignant osteoblasts lay down disorganized osteoid and recruit osteoclasts that resorb bone, fueling growth—so bone-targeted agents like bisphosphonates, denosumab, and mifamurtide have been trialed against it."
+  - target: 01-human/07-system/rothmund-thomson
+    relation: connects-to
+    note: "Rothmund-Thomson syndrome is a hereditary cause of osteosarcoma: biallelic RECQL4 helicase loss yields poikiloderma, skeletal defects, and a markedly raised osteosarcoma risk—a DNA-repair syndrome that, with Li-Fraumeni and retinoblastoma, predisposes to it."
 ---
 
 # Osteosarcoma
@@ -194,6 +203,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Li-Fraumeni syndrome (germline TP53) is a major osteosarcoma predisposition, raising OS risk ~15-fold and making bone sarcoma a sentinel cancer; this mirrors the somatic TP53 loss in ~30-40% of sporadic high-grade OS, as p53 checkpoint failure is central to osteosarcoma biology.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Osteosarcoma is the most common primary bone cancer, arising at the fast-growing metaphyses of long bones — classically the distal femur and proximal tibia around the knee — in the adolescent growth spurt; it produces malignant osteoid and destroys bone, causing pain and a mass.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the dominant metastatic site in osteosarcoma: hematogenous spread seeds pulmonary nodules that determine prognosis, so chest CT staging is essential and surgical metastasectomy of lung lesions — even repeated — is part of curative-intent therapy with chemotherapy.
+- `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Osteosarcoma and Ewing sarcoma are the two commonest bone cancers of adolescence: osteosarcoma makes malignant osteoid and arises at the metaphysis of long bones, while Ewing is a small-round-blue-cell tumor driven by EWSR1-FLI1, often diaphyseal or in flat bones.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Osteosarcoma subverts bone remodeling: its malignant osteoblasts lay down disorganized osteoid and recruit osteoclasts that resorb bone, fueling growth—so bone-targeted agents like bisphosphonates, denosumab, and mifamurtide have been trialed against it.
+- `connects-to` → **[Rothmund-Thomson Syndrome](../rothmund-thomson/README.md)** — Rothmund-Thomson syndrome is a hereditary cause of osteosarcoma: biallelic RECQL4 helicase loss yields poikiloderma, skeletal defects, and a markedly raised osteosarcoma risk—a DNA-repair syndrome that, with Li-Fraumeni and retinoblastoma, predisposes to it.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
