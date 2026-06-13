@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "HDGC and Cowden syndrome are both dominant cancer syndromes with prominent breast and GI risk but different drivers: CDH1 (cell adhesion) versus PTEN (PI3K-AKT)—HDGC gives diffuse gastric and lobular breast cancer, Cowden adds thyroid cancer and hamartomas."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "Helicobacter pylori matters even in CDH1-driven gastric cancer: while HDGC arises from inherited E-cadherin loss rather than infection, H. pylori adds carcinogenic inflammation, so eradicating it is recommended in CDH1 carriers to remove an avoidable second hit."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Losing E-cadherin in HDGC unleashes Wnt/beta-catenin signaling: CDH1 normally tethers beta-catenin at the membrane, so its loss frees beta-catenin to drive proliferation while destroying cell-cell adhesion—driving the diffuse spread of signet-ring cells."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Diffuse gastric cancer infiltrates through a fibroblast-rich stroma: lacking E-cadherin, signet-ring cells scatter singly through a desmoplastic wall (linitis plastica) rather than forming a mass—so the stomach stiffens diffusely and tumors hide from endoscopy."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -195,6 +204,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — HDGC and HBOC both raise inherited breast cancer risk through different genes: CDH1 loss in HDGC predisposes to lobular breast cancer, while BRCA1/2 loss in HBOC drives ductal/triple-negative breast and ovarian cancer—distinct genes and histologies.
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — HDGC and esophageal adenocarcinoma both threaten the upper GI tract: CDH1-driven diffuse gastric cancer can extend into the gastroesophageal junction, overlapping with esophageal adenocarcinoma, so surveillance in CDH1 carriers must cover the distal esophagus too.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — HDGC and Cowden syndrome are both dominant cancer syndromes with prominent breast and GI risk but different drivers: CDH1 (cell adhesion) versus PTEN (PI3K-AKT)—HDGC gives diffuse gastric and lobular breast cancer, Cowden adds thyroid cancer and hamartomas.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Helicobacter pylori matters even in CDH1-driven gastric cancer: while HDGC arises from inherited E-cadherin loss rather than infection, H. pylori adds carcinogenic inflammation, so eradicating it is recommended in CDH1 carriers to remove an avoidable second hit.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Losing E-cadherin in HDGC unleashes Wnt/beta-catenin signaling: CDH1 normally tethers beta-catenin at the membrane, so its loss frees beta-catenin to drive proliferation while destroying cell-cell adhesion—driving the diffuse spread of signet-ring cells.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Diffuse gastric cancer infiltrates through a fibroblast-rich stroma: lacking E-cadherin, signet-ring cells scatter singly through a desmoplastic wall (linitis plastica) rather than forming a mass—so the stomach stiffens diffusely and tumors hide from endoscopy.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

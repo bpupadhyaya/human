@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Hereditary pancreatitis can cause pancreatogenic (type 3c) diabetes resembling type 1: repeated inflammation destroys acinar tissue and the insulin-producing islets, so endocrine failure follows exocrine—but the loss is from fibrosis, not autoimmunity."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages drive the chronic inflammation of hereditary pancreatitis: recurrent trypsin-triggered acinar injury recruits macrophages that, with stellate cells, lay down fibrosis—so repeated attacks progressively scar the gland toward exocrine and endocrine failure."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hereditary pancreatitis can obstruct the neighboring liver's drainage: an inflamed, fibrotic pancreatic head compresses the common bile duct, causing jaundice and cholestasis—a benign cause of biliary obstruction that can mimic pancreatic cancer."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Hereditary pancreatitis causes brittle type 3c diabetes: progressive destruction wipes out not just insulin-secreting beta cells but glucagon-secreting alpha cells, so patients lose counter-regulation and suffer dangerous hypoglycemia—unlike type 1 or 2 diabetes."
 ---
 
 # Hereditary Pancreatitis
@@ -231,6 +240,9 @@ cross_links:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium sits at the heart of hereditary pancreatitis: PRSS1 mutations cause premature, calcium-dependent trypsinogen activation in acinar cells, and chronic inflammation leaves the duct studded with calcium-carbonate stones—the hallmark of calcific pancreatitis.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Hereditary pancreatitis is a model of sterile inflammation via the NLRP3 inflammasome: trypsin-induced acinar injury releases damage signals that activate NLRP3 in macrophages, driving IL-1β and attacks that scar the gland—an enzyme defect igniting innate immunity.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Hereditary pancreatitis can cause pancreatogenic (type 3c) diabetes resembling type 1: repeated inflammation destroys acinar tissue and the insulin-producing islets, so endocrine failure follows exocrine—but the loss is from fibrosis, not autoimmunity.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive the chronic inflammation of hereditary pancreatitis: recurrent trypsin-triggered acinar injury recruits macrophages that, with stellate cells, lay down fibrosis—so repeated attacks progressively scar the gland toward exocrine and endocrine failure.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hereditary pancreatitis can obstruct the neighboring liver's drainage: an inflamed, fibrotic pancreatic head compresses the common bile duct, causing jaundice and cholestasis—a benign cause of biliary obstruction that can mimic pancreatic cancer.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Hereditary pancreatitis causes brittle type 3c diabetes: progressive destruction wipes out not just insulin-secreting beta cells but glucagon-secreting alpha cells, so patients lose counter-regulation and suffer dangerous hypoglycemia—unlike type 1 or 2 diabetes.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
