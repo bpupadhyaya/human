@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "B cells are central to rheumatoid arthritis despite its joint focus: they make rheumatoid factor and anti-CCP autoantibodies, which is why the B-cell-depleting antibody rituximab controls RA—linking the autoantibody-making cell to the disease and its therapy."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Osteoclasts carve the bone erosions of rheumatoid arthritis: RANKL and TNF from inflamed synovium overactivate osteoclasts at the joint margin, eroding bone and cartilage—so the joint destruction on X-ray is osteoclast-mediated, a target of anti-TNF therapy."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Rheumatoid arthritis attacks the lung as well as joints: it causes interstitial lung disease, pleuritis and nodules, and RA-ILD is a major cause of death—so chronic cough or dyspnea in RA warrants pulmonary imaging, a key extra-articular manifestation."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Rheumatoid arthritis is a cardiovascular disease too: chronic systemic inflammation accelerates atherosclerosis, so RA patients die more of heart attacks and strokes than of joint disease—and controlling inflammation lowers that excess cardiovascular risk."
 ---
 
 # Rheumatoid Arthritis
@@ -237,6 +246,9 @@ RA patients have:
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Rheumatoid arthritis and lupus are archetypal systemic autoimmune diseases: RA's anti-CCP/RF antibodies drive symmetric synovitis, while lupus's antinuclear antibodies form immune complexes injuring skin, kidney and other organs—overlapping yet distinct.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Rheumatoid arthritis accelerates osteoporosis through several routes: chronic inflammatory cytokines (TNF, IL-6) activate osteoclasts, immobility reduces loading, and glucocorticoid treatment thins bone—so RA patients fracture more and need bone protection.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are central to rheumatoid arthritis despite its joint focus: they make rheumatoid factor and anti-CCP autoantibodies, which is why the B-cell-depleting antibody rituximab controls RA—linking the autoantibody-making cell to the disease and its therapy.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Osteoclasts carve the bone erosions of rheumatoid arthritis: RANKL and TNF from inflamed synovium overactivate osteoclasts at the joint margin, eroding bone and cartilage—so the joint destruction on X-ray is osteoclast-mediated, a target of anti-TNF therapy.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Rheumatoid arthritis attacks the lung as well as joints: it causes interstitial lung disease, pleuritis and nodules, and RA-ILD is a major cause of death—so chronic cough or dyspnea in RA warrants pulmonary imaging, a key extra-articular manifestation.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Rheumatoid arthritis is a cardiovascular disease too: chronic systemic inflammation accelerates atherosclerosis, so RA patients die more of heart attacks and strokes than of joint disease—and controlling inflammation lowers that excess cardiovascular risk.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

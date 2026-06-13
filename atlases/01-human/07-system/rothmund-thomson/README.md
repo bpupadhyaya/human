@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/ewing-sarcoma
     relation: connects-to
     note: "Rothmund-Thomson and Ewing sarcoma both connect DNA-repair biology to bone tumors: RTS's RECQL4 loss markedly raises osteosarcoma and other sarcoma risk, while Ewing arises in bone via EWSR1-FLI1—both remind that genomic instability and bone sarcomas often coincide."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Rothmund-Thomson cells are radiosensitive from defective DNA repair: RECQL4 helicase loss impairs repair of UV and ionizing damage, so sun causes the poikiloderma rash and radiotherapy must be used cautiously—mirroring other genome-instability syndromes."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "RTS shows how a DNA-repair defect becomes oncogenic: RECQL4 loss lets unrepaired damage accumulate and overwhelm p53-guarded checkpoints, so genomic instability drives the osteosarcoma and skin cancers that define the syndrome's cancer risk."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Some Rothmund-Thomson patients develop bone marrow failure: RECQL4 loss can impair hematopoiesis, causing cytopenias and a leukemia predisposition—placing RTS among the inherited genome-instability syndromes that threaten the marrow as well as bone."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -224,6 +233,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Rothmund-Thomson is studied in patient fibroblasts: cultured RTS fibroblasts show genomic instability from RECQL4 helicase loss—defective DNA replication and repair—a cellular model of how a broken DNA-maintenance enzyme causes premature aging and cancer predisposition.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss compounds Rothmund-Thomson's cancer risk: RTS's RECQL4 helicase defect already destabilizes the genome, and losing CDKN2A (p16, the CDK4/6 brake) on top removes cell-cycle control—a combination seen in the osteosarcomas and skin cancers RTS patients develop.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Rothmund-Thomson and Ewing sarcoma both connect DNA-repair biology to bone tumors: RTS's RECQL4 loss markedly raises osteosarcoma and other sarcoma risk, while Ewing arises in bone via EWSR1-FLI1—both remind that genomic instability and bone sarcomas often coincide.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Rothmund-Thomson cells are radiosensitive from defective DNA repair: RECQL4 helicase loss impairs repair of UV and ionizing damage, so sun causes the poikiloderma rash and radiotherapy must be used cautiously—mirroring other genome-instability syndromes.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — RTS shows how a DNA-repair defect becomes oncogenic: RECQL4 loss lets unrepaired damage accumulate and overwhelm p53-guarded checkpoints, so genomic instability drives the osteosarcoma and skin cancers that define the syndrome's cancer risk.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some Rothmund-Thomson patients develop bone marrow failure: RECQL4 loss can impair hematopoiesis, causing cytopenias and a leukemia predisposition—placing RTS among the inherited genome-instability syndromes that threaten the marrow as well as bone.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
