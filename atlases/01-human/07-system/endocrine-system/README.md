@@ -68,6 +68,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium homeostasis is a core endocrine task: parathyroid hormone, calcitonin and calcitriol tune blood calcium via bone, gut and kidney—disorders like hyperparathyroidism or vitamin-D deficiency show the endocrine system guarding one ion's narrow range."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid hormones show how the endocrine system runs on feedback loops: the hypothalamic-pituitary-thyroid axis tunes T3/T4 to set metabolic rate, and disrupting any level causes hypo- or hyperthyroidism—a model for the feedback that governs all endocrine glands."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Type 1 diabetes is autoimmune destruction within the endocrine system: T cells kill pancreatic beta cells, eliminating insulin and proving how loss of a single endocrine cell type disrupts whole-body fuel metabolism—an organ-specific failure of the endocrine network."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen shows the endocrine system's reach beyond metabolism: this gonadal steroid, set by the hypothalamic-pituitary-gonadal axis, controls reproduction but also bone, cardiovascular and brain function—so endocrine signaling integrates far-flung organ systems."
 ---
 
 # Endocrine System
@@ -245,6 +254,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `contains` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is the body's metabolic thermostat: hypothalamic TRH and pituitary TSH drive it to release T3/T4 that set metabolic rate, heart rate and thermogenesis, feedback closing the HPT axis—hyper- and hypothyroidism are among the commonest endocrine disorders.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Thyroid cancer is the most common endocrine malignancy: most are papillary tumors that retain TSH responsiveness and iodine uptake, allowing radioactive-iodine therapy and thyroglobulin monitoring—a rare cancer treated through its own hormonal physiology.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium homeostasis is a core endocrine task: parathyroid hormone, calcitonin and calcitriol tune blood calcium via bone, gut and kidney—disorders like hyperparathyroidism or vitamin-D deficiency show the endocrine system guarding one ion's narrow range.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormones show how the endocrine system runs on feedback loops: the hypothalamic-pituitary-thyroid axis tunes T3/T4 to set metabolic rate, and disrupting any level causes hypo- or hyperthyroidism—a model for the feedback that governs all endocrine glands.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Type 1 diabetes is autoimmune destruction within the endocrine system: T cells kill pancreatic beta cells, eliminating insulin and proving how loss of a single endocrine cell type disrupts whole-body fuel metabolism—an organ-specific failure of the endocrine network.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen shows the endocrine system's reach beyond metabolism: this gonadal steroid, set by the hypothalamic-pituitary-gonadal axis, controls reproduction but also bone, cardiovascular and brain function—so endocrine signaling integrates far-flung organ systems.
 
 ## Pathology
 

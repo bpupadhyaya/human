@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "DLBCL and multiple myeloma are B-lineage cancers at opposite ends of differentiation: myeloma is a plasma-cell tumor flooding marrow and secreting monoclonal immunoglobulin, while DLBCL is a CD20+ lymph-node B-cell tumor—DLBCL can transform to plasmablastic forms."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "DLBCL spans the B-cell-to-plasma-cell transition: the GCB subtype resembles germinal-center B cells while the ABC subtype leans toward plasma-cell differentiation—and the plasmablastic variant nearly resembles a plasma cell, so cell-of-origin shapes prognosis."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV greatly raises DLBCL risk: immunosuppression and EBV co-infection drive aggressive AIDS-related lymphomas, including DLBCL and its plasmablastic variant—so a new mass in an HIV patient prompts lymphoma workup, and antiretroviral therapy is part of treatment."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation marks high-risk DLBCL: loss of p53 function, often with MYC and BCL2 rearrangements (double/triple-hit lymphoma), predicts resistance to R-CHOP and poor survival—so molecular testing now guides intensified or novel therapy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -209,6 +218,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — DLBCL and mantle cell lymphoma are aggressive B-cell non-Hodgkin lymphomas differing at the core: MCL is defined by t(11;14) cyclin D1 overexpression driving cell-cycle escape, while DLBCL is heterogeneous (GCB vs ABC)—both CD20+ and treated with rituximab regimens.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — DLBCL and Hodgkin lymphoma are both germinal-center B-cell lymphomas but diverge: Hodgkin's malignant Reed-Sternberg cells are sparse amid reactive infiltrate and often EBV-driven, while DLBCL is a sheet of malignant B cells—Hodgkin is highly curable, DLBCL in ~60%.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — DLBCL and multiple myeloma are B-lineage cancers at opposite ends of differentiation: myeloma is a plasma-cell tumor flooding marrow and secreting monoclonal immunoglobulin, while DLBCL is a CD20+ lymph-node B-cell tumor—DLBCL can transform to plasmablastic forms.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — DLBCL spans the B-cell-to-plasma-cell transition: the GCB subtype resembles germinal-center B cells while the ABC subtype leans toward plasma-cell differentiation—and the plasmablastic variant nearly resembles a plasma cell, so cell-of-origin shapes prognosis.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV greatly raises DLBCL risk: immunosuppression and EBV co-infection drive aggressive AIDS-related lymphomas, including DLBCL and its plasmablastic variant—so a new mass in an HIV patient prompts lymphoma workup, and antiretroviral therapy is part of treatment.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation marks high-risk DLBCL: loss of p53 function, often with MYC and BCL2 rearrangements (double/triple-hit lymphoma), predicts resistance to R-CHOP and poor survival—so molecular testing now guides intensified or novel therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
