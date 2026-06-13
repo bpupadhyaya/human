@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "MDS produces dysplastic, hypogranular neutrophils with hyposegmented (pseudo-Pelger-Huët) nuclei and impaired function; neutropenia plus qualitative defects make infection a leading cause of death; the absolute neutrophil count feeds IPSS-R risk scoring and antibiotic planning."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "MDS and CMML are overlapping clonal marrow disorders divided by the WHO: pure MDS is dysplasia with cytopenias and no proliferation, while CMML (an MDS/MPN overlap) adds persistent monocytosis—but both share mutations (TET2, SRSF2, ASXL1) and can progress to AML."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ionizing radiation is an established cause of MDS: atomic-bomb survivors and patients given radiotherapy develop therapy-related MDS years later, typically with -7/-5 cytogenetics and TP53 mutations and a poor prognosis—radiation injuring the hematopoietic stem cell."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thrombocytopenia from dysplastic megakaryopoiesis is a key MDS cytopenia: the clone produces few and abnormal platelets, causing bleeding, while the del(5q) MDS subtype paradoxically runs high platelets and responds dramatically to lenalidomide."
 ---
 
 # Myelodysplastic Syndromes
@@ -178,6 +187,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — MDS and myelofibrosis are overlapping clonal marrow disorders: MDS-with-fibrosis and MDS/MPN overlap (e.g. CMML) blur the boundary, both share mutations (ASXL1, SRSF2, TP53), both cause cytopenias, and both can transform to AML; marrow fibrosis in MDS is adverse.
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Hypoplastic MDS overlaps with aplastic anemia — both present with pancytopenia and a hypocellular marrow, and both can respond to immunosuppression (ATG/ciclosporin); a PNH clone or MDS-defining cytogenetics/mutations help distinguish clonal MDS from immune aplastic anemia.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — MDS produces dysplastic, hypogranular neutrophils with hyposegmented (pseudo-Pelger-Huët) nuclei and impaired function; neutropenia plus qualitative defects make infection a leading cause of death; the absolute neutrophil count feeds IPSS-R risk scoring and antibiotic planning.
+- `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — MDS and CMML are overlapping clonal marrow disorders divided by the WHO: pure MDS is dysplasia with cytopenias and no proliferation, while CMML (an MDS/MPN overlap) adds persistent monocytosis—but both share mutations (TET2, SRSF2, ASXL1) and can progress to AML.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is an established cause of MDS: atomic-bomb survivors and patients given radiotherapy develop therapy-related MDS years later, typically with -7/-5 cytogenetics and TP53 mutations and a poor prognosis—radiation injuring the hematopoietic stem cell.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia from dysplastic megakaryopoiesis is a key MDS cytopenia: the clone produces few and abnormal platelets, causing bleeding, while the del(5q) MDS subtype paradoxically runs high platelets and responds dramatically to lenalidomide.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

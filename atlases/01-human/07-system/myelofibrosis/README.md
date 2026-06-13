@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Myelofibrosis disrupts red-cell production: marrow fibrosis forces extramedullary hematopoiesis and yields a leukoerythroblastic film with teardrop cells (dacrocytes); progressive anemia is a core prognostic feature, and momelotinib uniquely improves it by lowering hepcidin."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "Essential thrombocythemia and polycythemia vera can both evolve into secondary (post-ET, post-PV) myelofibrosis: years of JAK2/CALR/MPL proliferation give way to a fibrotic, failing marrow with cytopenias and splenomegaly—a shared late fate of the chronic MPNs."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Myelofibrosis carries the highest leukemic-transformation risk of the classic MPNs: ~10-20% progress to a treatment-resistant blast-phase AML as the clone acquires TP53 and other lesions, so high-risk patients are considered for allogeneic transplant, the only cure."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The marrow fibrosis of myelofibrosis is reactive, not clonal: malignant megakaryocytes pour out TGF-β and PDGF that drive resident fibroblasts to deposit collagen and reticulin, crowding out hematopoiesis—the scarring cells are normal bystanders recruited by the clone."
 ---
 
 # Myelofibrosis
@@ -195,6 +204,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Myelofibrosis and MDS are overlapping clonal marrow disorders sharing mutations (ASXL1, SRSF2, U2AF1, TP53) and AML transformation risk; marrow fibrosis can appear in MDS and MDS/MPN overlap syndromes sit between them; both cause cytopenias graded by blast percentage.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Polycythemia vera can evolve into post-PV myelofibrosis (~10-20% at 15 years): the JAK2 V617F clone exhausts marrow, fibrosis accumulates, and the picture converges with primary myelofibrosis — splenomegaly, leukoerythroblastosis and cytopenias; ruxolitinib treats both.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Myelofibrosis disrupts red-cell production: marrow fibrosis forces extramedullary hematopoiesis and yields a leukoerythroblastic film with teardrop cells (dacrocytes); progressive anemia is a core prognostic feature, and momelotinib uniquely improves it by lowering hepcidin.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Essential thrombocythemia and polycythemia vera can both evolve into secondary (post-ET, post-PV) myelofibrosis: years of JAK2/CALR/MPL proliferation give way to a fibrotic, failing marrow with cytopenias and splenomegaly—a shared late fate of the chronic MPNs.
+- `connects-to` → **[AML](../aml/README.md)** — Myelofibrosis carries the highest leukemic-transformation risk of the classic MPNs: ~10-20% progress to a treatment-resistant blast-phase AML as the clone acquires TP53 and other lesions, so high-risk patients are considered for allogeneic transplant, the only cure.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The marrow fibrosis of myelofibrosis is reactive, not clonal: malignant megakaryocytes pour out TGF-β and PDGF that drive resident fibroblasts to deposit collagen and reticulin, crowding out hematopoiesis—the scarring cells are normal bystanders recruited by the clone.
 
 ---
 
