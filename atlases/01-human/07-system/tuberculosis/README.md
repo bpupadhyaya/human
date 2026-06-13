@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "IFN-γ → STAT1 → IRF1 → iNOS → NO kills intracellular Mtb; Mtb ManLAM and phenolic glycolipid suppress STAT1 signaling → impaired macrophage activation; STAT1 LOF → MSMD with disseminated BCG after vaccination and NTM susceptibility — demonstrating STAT1 is non-redundant."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is tuberculosis's primary battleground: inhaled M. tuberculosis seeds the alveoli, where Th1 granulomas wall it off; reactivation in oxygen-rich upper lobes makes caseating cavities that shed bacilli in cough — the infectious form — and a Ghon focus marks healed disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The macrophage is host and battleground in tuberculosis: M. tuberculosis is phagocytosed but blocks phagosome maturation to survive inside, while IFN-γ-activated macrophages fight back with NO; the granuloma is a ball of infected macrophages that contains but rarely clears it."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis is caused by Mycobacterium tuberculosis: its waxy mycolic-acid wall (acid-fast) resists killing and drives the slow granulomatous response; it grows slowly (weeks to culture) and demands months of multidrug RIPE therapy, while MDR/XDR-TB resistance grows."
 ---
 
 # Tuberculosis
@@ -185,6 +194,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — MTB exemplifies intracellular immune evasion: phagosome maturation arrest, ESAT-6-mediated cytosolic escape, MHC-II inhibition, Treg induction; CD4⁺ Th1 cells orchestrate granuloma through IFN-γ and IL-2; HIV-related CD4⁺ depletion → TB reactivation is the archetypal immunodeficiency-pathogen interaction.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is the single most powerful risk factor for TB reactivation; HIV-driven CD4⁺ T cell depletion collapses granuloma integrity → latent TB reactivates; TB is the leading cause of AIDS-related mortality worldwide; concurrent ART + HRZE are required; IRIS (immune reconstitution inflammatory syndrome) complicates early ART initiation in TB-HIV co-infection.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — IFN-γ → STAT1 → IRF1 → iNOS → NO kills intracellular Mtb; Mtb ManLAM and phenolic glycolipid suppress STAT1 signaling → impaired macrophage activation; STAT1 LOF → MSMD with disseminated BCG after vaccination and NTM susceptibility — demonstrating STAT1 is non-redundant.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is tuberculosis's primary battleground: inhaled M. tuberculosis seeds the alveoli, where Th1 granulomas wall it off; reactivation in oxygen-rich upper lobes makes caseating cavities that shed bacilli in cough — the infectious form — and a Ghon focus marks healed disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The macrophage is host and battleground in tuberculosis: M. tuberculosis is phagocytosed but blocks phagosome maturation to survive inside, while IFN-γ-activated macrophages fight back with NO; the granuloma is a ball of infected macrophages that contains but rarely clears it.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis is caused by Mycobacterium tuberculosis: its waxy mycolic-acid wall (acid-fast) resists killing and drives the slow granulomatous response; it grows slowly (weeks to culture) and demands months of multidrug RIPE therapy, while MDR/XDR-TB resistance grows.
 
 ## See Also
 

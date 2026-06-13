@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/07-system/neuroendocrine-tumors
     relation: connects-to
     note: "SCLC is the poorly differentiated, high-grade end of the pulmonary neuroendocrine spectrum (Ki-67 >50%, synaptophysin/INSM1+), unlike indolent carcinoid NETs; whereas SSTR2-high NETs use somatostatin analogs and PRRT, SCLC is treated as a chemo-driven carcinoma."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Small cell lung cancer and tuberculosis both present as a cavitary lung lesion with weight loss, cough, and hemoptysis in older smokers, sharing a radiographic differential — neuroendocrine tumor versus granulomatous infection — resolved by biopsy and microbiology."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "SCLC's neuroendocrine identity drives paraneoplastic neurology: tumor cells express neuronal antigens, so anti-neuronal antibodies attack the nervous system — anti-Hu encephalomyelitis and Lambert-Eaton myasthenic syndrome (anti-VGCC) — often before the cancer is found."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain is a defining SCLC battleground: ~50% develop brain metastases from its early spread, so prophylactic cranial irradiation is offered to responders; SCLC also causes paraneoplastic limbic encephalitis, and DLL3-targeted tarlatamab achieves CNS responses."
 ---
 
 # Small Cell Lung Cancer
@@ -161,6 +170,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Small cell lung cancer (~13-15% of lung cancer) is the most aggressive subtype, smoking-driven, arising centrally as a bulky hilar mass that often causes superior vena cava syndrome; it disseminates early, so ~70% present extensive-stage with brain, liver, or bone metastases.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — SCLC and NSCLC are the two divisions of lung cancer with opposite therapeutic logic: NSCLC is rich in targetable drivers, whereas SCLC has near-universal RB1 and TP53 loss with no actionable oncogene, relying on platinum-etoposide, immunotherapy, and DLL3-directed tarlatamab.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — SCLC is the poorly differentiated, high-grade end of the pulmonary neuroendocrine spectrum (Ki-67 >50%, synaptophysin/INSM1+), unlike indolent carcinoid NETs; whereas SSTR2-high NETs use somatostatin analogs and PRRT, SCLC is treated as a chemo-driven carcinoma.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Small cell lung cancer and tuberculosis both present as a cavitary lung lesion with weight loss, cough, and hemoptysis in older smokers, sharing a radiographic differential — neuroendocrine tumor versus granulomatous infection — resolved by biopsy and microbiology.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — SCLC's neuroendocrine identity drives paraneoplastic neurology: tumor cells express neuronal antigens, so anti-neuronal antibodies attack the nervous system — anti-Hu encephalomyelitis and Lambert-Eaton myasthenic syndrome (anti-VGCC) — often before the cancer is found.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is a defining SCLC battleground: ~50% develop brain metastases from its early spread, so prophylactic cranial irradiation is offered to responders; SCLC also causes paraneoplastic limbic encephalitis, and DLL3-targeted tarlatamab achieves CNS responses.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
