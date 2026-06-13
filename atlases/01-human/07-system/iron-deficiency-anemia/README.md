@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Iron deficiency is a key treatable comorbidity in heart failure—even without anemia: low iron impairs muscle and cardiac energetics, worsening symptoms and outcomes, so intravenous iron improves exercise capacity in iron-deficient HFrEF patients."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Iron deficiency starves the bone marrow's red-cell factory: without iron, erythroblasts cannot make hemoglobin, so the marrow turns out small, pale (microcytic, hypochromic) red cells—the morphologic signature that distinguishes iron-deficiency anemia."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The large intestine is a key clue in iron-deficiency anemia: in adults, occult bleeding from colonic lesions—especially colorectal cancer—is a leading cause, so unexplained iron deficiency in an older adult mandates colonoscopy to find the source."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Iron-deficiency anemia is often a window into the digestive system: iron is absorbed in the duodenum, so malabsorption (celiac disease, gastric surgery) or chronic GI blood loss commonly causes it—making the gut the first place to investigate."
 ---
 
 # Iron Deficiency Anemia
@@ -214,6 +223,9 @@ Iron is essential for:
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — Iron-deficiency anemia and MDS are opposite causes of anemia: IDA is a microcytic anemia from depleted iron that corrects with replacement, while MDS is a clonal marrow-failure anemia with normal or high iron—so iron studies and marrow biopsy distinguish them.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Iron deficiency is common and treatable in chronic kidney disease: both absolute iron loss and functional deficiency from inflammation-driven hepcidin limit erythropoiesis, so IV iron plus erythropoietin-stimulating agents are mainstays of CKD anemia management.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Iron deficiency is a key treatable comorbidity in heart failure—even without anemia: low iron impairs muscle and cardiac energetics, worsening symptoms and outcomes, so intravenous iron improves exercise capacity in iron-deficient HFrEF patients.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Iron deficiency starves the bone marrow's red-cell factory: without iron, erythroblasts cannot make hemoglobin, so the marrow turns out small, pale (microcytic, hypochromic) red cells—the morphologic signature that distinguishes iron-deficiency anemia.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is a key clue in iron-deficiency anemia: in adults, occult bleeding from colonic lesions—especially colorectal cancer—is a leading cause, so unexplained iron deficiency in an older adult mandates colonoscopy to find the source.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Iron-deficiency anemia is often a window into the digestive system: iron is absorbed in the duodenum, so malabsorption (celiac disease, gastric surgery) or chronic GI blood loss commonly causes it—making the gut the first place to investigate.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

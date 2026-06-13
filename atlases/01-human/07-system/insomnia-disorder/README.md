@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/alzheimers-disease
     relation: connects-to
     note: "Insomnia and Alzheimer's disease share a bidirectional link through sleep's role in brain clearance: deep sleep clears amyloid-β via the glymphatic system, so poor sleep may promote amyloid accumulation, while Alzheimer's pathology itself disrupts sleep."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Insomnia is a disorder of the nervous system's arousal regulation: it reflects hyperarousal—the brain failing to disengage its wake-promoting circuits—so it is less a lack of sleep drive than an inability to switch off, the rationale behind cognitive behavioral therapy."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Insomnia and type 2 diabetes feed each other: short, fragmented sleep raises cortisol and impairs glucose tolerance and insulin sensitivity, so chronic insomnia independently raises diabetes risk—and nocturnal symptoms of diabetes in turn disrupt sleep."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol is a common but counterproductive self-treatment for insomnia: it speeds sleep onset yet fragments the second half of the night and suppresses REM, and tolerance fuels escalating use—so insomnia both drives and worsens alcohol use disorder."
 ---
 
 # Insomnia Disorder
@@ -244,6 +253,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Insomnia and fibromyalgia are tightly intertwined: non-restorative sleep worsens pain perception and central sensitization, while chronic pain fragments sleep—so poor sleep both results from and amplifies fibromyalgia, making sleep a core treatment target.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Insomnia and short sleep promote obesity: sleep loss raises ghrelin and lowers leptin, increasing appetite, while disrupting glucose metabolism—so chronic insomnia is a modifiable contributor to weight gain and metabolic syndrome, and obesity in turn worsens sleep.
 - `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Insomnia and Alzheimer's disease share a bidirectional link through sleep's role in brain clearance: deep sleep clears amyloid-β via the glymphatic system, so poor sleep may promote amyloid accumulation, while Alzheimer's pathology itself disrupts sleep.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Insomnia is a disorder of the nervous system's arousal regulation: it reflects hyperarousal—the brain failing to disengage its wake-promoting circuits—so it is less a lack of sleep drive than an inability to switch off, the rationale behind cognitive behavioral therapy.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Insomnia and type 2 diabetes feed each other: short, fragmented sleep raises cortisol and impairs glucose tolerance and insulin sensitivity, so chronic insomnia independently raises diabetes risk—and nocturnal symptoms of diabetes in turn disrupt sleep.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a common but counterproductive self-treatment for insomnia: it speeds sleep onset yet fragments the second half of the night and suppresses REM, and tolerance fuels escalating use—so insomnia both drives and worsens alcohol use disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
