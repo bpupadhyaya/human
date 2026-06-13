@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/07-system/antiphospholipid-syndrome
     relation: connects-to
     note: "ITP and antiphospholipid syndrome overlap: many ITP patients carry antiphospholipid antibodies, and APS itself can cause moderate thrombocytopenia, yet APS's danger is clotting, not bleeding—so a thrombocytopenic patient who also clots should be tested for them."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells fuel ITP by making anti-platelet antibodies: long-lived autoantibody-secreting plasma cells (some splenic) coat platelets for destruction, and because they resist rituximab, plasma-cell-directed or splenectomy approaches address refractory ITP."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV is a classic secondary cause of immune thrombocytopenia: the virus drives anti-platelet antibodies and impairs production, so new thrombocytopenia warrants HIV testing—and antiretroviral therapy often restores the platelet count better than immunosuppression."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells license the autoimmunity of ITP: loss of tolerance lets Th cells help B cells make anti-platelet antibodies and skews regulatory balance, so therapies restoring immune regulation, not just removing antibody, are increasingly used in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -233,6 +242,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Thrombotic Thrombocytopenic Purpura](../thrombotic-thrombocytopenic-purpura/README.md)** — ITP and TTP both cause thrombocytopenia but are opposite emergencies: ITP is antibody-mediated platelet destruction, while TTP is ADAMTS13 deficiency forming microthrombi that consume platelets—TTP adds hemolysis and needs urgent plasma exchange.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — ITP and DIC are both thrombocytopenias distinguished by coagulation testing: ITP is immune platelet destruction with normal clotting times, while DIC consumes platelets and clotting factors, prolonging PT/PTT with high D-dimer—the coagulation panel separates them.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — ITP and antiphospholipid syndrome overlap: many ITP patients carry antiphospholipid antibodies, and APS itself can cause moderate thrombocytopenia, yet APS's danger is clotting, not bleeding—so a thrombocytopenic patient who also clots should be tested for them.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells fuel ITP by making anti-platelet antibodies: long-lived autoantibody-secreting plasma cells (some splenic) coat platelets for destruction, and because they resist rituximab, plasma-cell-directed or splenectomy approaches address refractory ITP.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a classic secondary cause of immune thrombocytopenia: the virus drives anti-platelet antibodies and impairs production, so new thrombocytopenia warrants HIV testing—and antiretroviral therapy often restores the platelet count better than immunosuppression.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells license the autoimmunity of ITP: loss of tolerance lets Th cells help B cells make anti-platelet antibodies and skews regulatory balance, so therapies restoring immune regulation, not just removing antibody, are increasingly used in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
