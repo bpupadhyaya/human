@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/atopic-dermatitis
     relation: connects-to
     note: "Hereditary angioedema is the bradykinin-mediated counterpart to histamine-driven (allergic) angioedema seen with atopic dermatitis and urticaria: HAE lacks hives and ignores antihistamines, steroids and epinephrine—needing C1-INH or bradykinin-pathway drugs instead."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Hereditary angioedema attacks the gut wall: bradykinin-driven edema of the small intestine causes severe colicky pain, vomiting and even obstruction, so HAE can mimic a surgical abdomen—and unexplained recurrent abdominal attacks should prompt C1-inhibitor testing."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Bradykinin drives HAE swelling through nitric oxide and vascular leak: it binds endothelial B2 receptors to release NO and open intercellular junctions, flooding tissue with fluid—the same vasodilator pathway behind blood-pressure control produces the edema."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "Acquired C1-inhibitor deficiency mimics hereditary angioedema in autoimmune or lymphoproliferative disease: SLE and lymphomas can consume or block C1-INH, causing bradykinin angioedema later in life—so adult-onset angioedema without family history needs a workup."
 ---
 
 # Hereditary Angioedema
@@ -234,6 +243,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Hereditary angioedema reflects loss of C1-inhibitor's brake on the contact and complement systems: without it, kallikrein generates bradykinin while the classical complement pathway runs unchecked, consuming C4—so low C4 is the screening clue to HAE.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Hereditary angioedema and asthma both cause acute airway emergencies: HAE's bradykinin-driven laryngeal edema obstructs the upper airway and ignores bronchodilators and steroids, unlike asthma's smooth-muscle bronchospasm—so the distinction is life-saving.
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Hereditary angioedema is the bradykinin-mediated counterpart to histamine-driven (allergic) angioedema seen with atopic dermatitis and urticaria: HAE lacks hives and ignores antihistamines, steroids and epinephrine—needing C1-INH or bradykinin-pathway drugs instead.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Hereditary angioedema attacks the gut wall: bradykinin-driven edema of the small intestine causes severe colicky pain, vomiting and even obstruction, so HAE can mimic a surgical abdomen—and unexplained recurrent abdominal attacks should prompt C1-inhibitor testing.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Bradykinin drives HAE swelling through nitric oxide and vascular leak: it binds endothelial B2 receptors to release NO and open intercellular junctions, flooding tissue with fluid—the same vasodilator pathway behind blood-pressure control produces the edema.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Acquired C1-inhibitor deficiency mimics hereditary angioedema in autoimmune or lymphoproliferative disease: SLE and lymphomas can consume or block C1-INH, causing bradykinin angioedema later in life—so adult-onset angioedema without family history needs a workup.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

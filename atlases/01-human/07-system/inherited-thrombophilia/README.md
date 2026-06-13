@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Platelets are central to the arterial thrombosis of thrombophilia: while inherited thrombophilias mainly drive venous clots, platelet activation drives arterial events—so antiplatelet and anticoagulant therapy target different arms of clot formation."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen multiplies the clot risk of inherited thrombophilia: oral contraceptives, hormone therapy and pregnancy raise clotting factors, so a factor V Leiden carrier faces sharply higher venous thrombosis risk on estrogen—central to contraceptive counseling."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary embolism is the feared endpoint of inherited thrombophilia: deep vein clots break off and lodge in the lungs, so a young or recurrent unprovoked PE prompts thrombophilia testing—and the risk guides how long anticoagulation continues."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Inherited thrombophilia causes clots in unusual sites like the cerebral veins: prothrombotic mutations, especially with estrogen, predispose to cerebral venous sinus thrombosis—so an unexplained young stroke or sinus thrombosis warrants a thrombophilia workup."
 ---
 
 # Inherited Thrombophilia
@@ -258,6 +267,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myeloproliferative neoplasms are a major acquired thrombophilia: JAK2-mutant blood is intrinsically prothrombotic, causing arterial and venous (including splanchnic) clots like inherited thrombophilias—so unexplained thrombosis at unusual sites warrants JAK2 testing.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Inherited thrombophilia can cause pulmonary hypertension: recurrent pulmonary emboli that fail to resolve organize into fibrotic obstruction, causing chronic thromboembolic pulmonary hypertension (CTEPH)—a complication surgically curable by endarterectomy.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central to the arterial thrombosis of thrombophilia: while inherited thrombophilias mainly drive venous clots, platelet activation drives arterial events—so antiplatelet and anticoagulant therapy target different arms of clot formation.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen multiplies the clot risk of inherited thrombophilia: oral contraceptives, hormone therapy and pregnancy raise clotting factors, so a factor V Leiden carrier faces sharply higher venous thrombosis risk on estrogen—central to contraceptive counseling.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary embolism is the feared endpoint of inherited thrombophilia: deep vein clots break off and lodge in the lungs, so a young or recurrent unprovoked PE prompts thrombophilia testing—and the risk guides how long anticoagulation continues.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Inherited thrombophilia causes clots in unusual sites like the cerebral veins: prothrombotic mutations, especially with estrogen, predispose to cerebral venous sinus thrombosis—so an unexplained young stroke or sinus thrombosis warrants a thrombophilia workup.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
