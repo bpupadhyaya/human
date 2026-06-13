@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Most acquired aplastic anemia is immune-mediated marrow failure: oligoclonal cytotoxic T cells and interferon-γ/TNF destroy hematopoietic stem cells, which is why immunosuppression (ATG plus ciclosporin) restores counts—the immune system, not a stem-cell defect, drives it."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Aplastic anemia can evolve into clonal marrow disease: immune-mediated stem-cell failure pressures surviving clones, so some patients progress to MDS or AML (often with monosomy 7)—aplastic anemia needs long-term monitoring for clonal evolution, not just count recovery."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Allogeneic stem-cell transplant is curative for severe aplastic anemia but brings graft-versus-host disease: donor immune cells can attack the recipient even as they restore hematopoiesis, so GVHD prophylaxis and matched donors are central to transplant in young patients."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Failure of regulatory T cells underlies acquired aplastic anemia: when Tregs cannot restrain autoreactive cytotoxic T cells, those T cells destroy hematopoietic stem cells via IFN-γ and perforin—so immunosuppression restoring tolerance can rescue the marrow."
 ---
 
 # Aplastic Anemia
@@ -188,6 +197,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Aplastic anemia is failure of all three blood lineages: as hematopoietic stem cells are destroyed, red-cell production collapses alongside neutrophils and platelets, giving the reticulocytopenic anemia of pancytopenia—so transfusions bridge to immunosuppression or transplant.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hepatitis-associated aplastic anemia is a striking syndrome: weeks to months after an acute (often seronegative, non-A-E) hepatitis, fulminant marrow failure appears—an immune attack on stem cells triggered by the hepatitis; severe but responsive to immunosuppression.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Most acquired aplastic anemia is immune-mediated marrow failure: oligoclonal cytotoxic T cells and interferon-γ/TNF destroy hematopoietic stem cells, which is why immunosuppression (ATG plus ciclosporin) restores counts—the immune system, not a stem-cell defect, drives it.
+- `connects-to` → **[AML](../aml/README.md)** — Aplastic anemia can evolve into clonal marrow disease: immune-mediated stem-cell failure pressures surviving clones, so some patients progress to MDS or AML (often with monosomy 7)—aplastic anemia needs long-term monitoring for clonal evolution, not just count recovery.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Allogeneic stem-cell transplant is curative for severe aplastic anemia but brings graft-versus-host disease: donor immune cells can attack the recipient even as they restore hematopoiesis, so GVHD prophylaxis and matched donors are central to transplant in young patients.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Failure of regulatory T cells underlies acquired aplastic anemia: when Tregs cannot restrain autoreactive cytotoxic T cells, those T cells destroy hematopoietic stem cells via IFN-γ and perforin—so immunosuppression restoring tolerance can rescue the marrow.
 
 ---
 

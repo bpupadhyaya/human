@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Atherosclerosis is a leading cause of ischemic stroke: carotid and intracranial plaques narrow vessels and, when they rupture, throw emboli or thrombose to occlude cerebral arteries → infarction; carotid imaging, statins, antiplatelets and endarterectomy target this mechanism."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type 2 diabetes powerfully accelerates atherosclerosis: hyperglycemia, insulin resistance, and diabetic dyslipidemia injure the endothelium and inflame plaques, so cardiovascular disease is the top killer in diabetes—hence aggressive lipid and BP control."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Hypertension drives atherosclerosis through mechanical and inflammatory injury: high pressure damages the endothelium, especially at branch points, accelerating plaque formation and rupture—so BP control is among the best ways to prevent its heart attacks and strokes."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Vascular smooth muscle cells shape atherosclerotic plaques both ways: they migrate into the intima to form the fibrous cap that stabilizes a plaque, but also take up lipid to become foam cells—so their behavior decides whether a plaque stays stable or ruptures."
 ---
 
 # Atherosclerosis
@@ -197,6 +206,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Atherosclerosis begins at the endothelial cell: disturbed flow, LDL, smoking and hyperglycemia injure it, so it loses nitric-oxide protection and expresses adhesion molecules that recruit monocytes and let LDL enter the intima—the initiating step of plaque.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Coronary atherosclerosis is the dominant cause of heart disease: plaque narrowing produces angina and ischemia, while rupture of a vulnerable plaque triggers thrombosis → myocardial infarction; LDL lowering, antiplatelets and revascularization aim to stabilize coronary plaque.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Atherosclerosis is a leading cause of ischemic stroke: carotid and intracranial plaques narrow vessels and, when they rupture, throw emboli or thrombose to occlude cerebral arteries → infarction; carotid imaging, statins, antiplatelets and endarterectomy target this mechanism.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes powerfully accelerates atherosclerosis: hyperglycemia, insulin resistance, and diabetic dyslipidemia injure the endothelium and inflame plaques, so cardiovascular disease is the top killer in diabetes—hence aggressive lipid and BP control.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension drives atherosclerosis through mechanical and inflammatory injury: high pressure damages the endothelium, especially at branch points, accelerating plaque formation and rupture—so BP control is among the best ways to prevent its heart attacks and strokes.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Vascular smooth muscle cells shape atherosclerotic plaques both ways: they migrate into the intima to form the fibrous cap that stabilizes a plaque, but also take up lipid to become foam cells—so their behavior decides whether a plaque stays stable or ruptures.
 
 ---
 
