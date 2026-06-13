@@ -65,6 +65,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Measles both needs and subverts cytotoxic T cells: CD8+ T cells clear measles-infected cells and drive recovery, but the virus infects memory lymphocytes via CD150/SLAM and depletes them, causing 'immune amnesia' that erases pre-existing immunity to other pathogens for 2-3 years."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "Measles and RSV are paramyxoviruses but cause very different disease: RSV is a bronchiolitis-causing pneumovirus of infants, while measles is a contagious morbillivirus with rash, fever, and Koplik spots—both can cause severe pneumonia, the leading killer in measles."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Measles can attack neurons years after infection: persistent defective virus in the brain causes subacute sclerosing panencephalitis (SSPE), a fatal degenerative disease appearing years later—one reason measles is far more than a transient childhood rash."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Measles spreads through the body via myeloid cells: alveolar macrophages and dendritic cells in the airway are the first infected, carrying the virus to lymphoid tissue where it amplifies—so these innate sentinels become the vehicle for systemic measles dissemination."
 ---
 
 # Measles
@@ -225,6 +234,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Influenza](../influenza/README.md)** — Both are vaccine-preventable respiratory viruses but differ sharply: measles (paramyxovirus) is among the most contagious pathogens (R0 12-18) and causes immune amnesia, while influenza (orthomyxovirus) drifts and shifts antigenically, needing annual reformulated vaccines.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pneumonia is the leading cause of measles death: the virus directly infects respiratory epithelium and, by erasing immune memory (immune amnesia), opens the door to secondary bacterial pneumonia for months afterward; giant-cell pneumonia can be fatal in the immunocompromised.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Measles both needs and subverts cytotoxic T cells: CD8+ T cells clear measles-infected cells and drive recovery, but the virus infects memory lymphocytes via CD150/SLAM and depletes them, causing 'immune amnesia' that erases pre-existing immunity to other pathogens for 2-3 years.
+- `connects-to` → **[RSV](../rsv/README.md)** — Measles and RSV are paramyxoviruses but cause very different disease: RSV is a bronchiolitis-causing pneumovirus of infants, while measles is a contagious morbillivirus with rash, fever, and Koplik spots—both can cause severe pneumonia, the leading killer in measles.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Measles can attack neurons years after infection: persistent defective virus in the brain causes subacute sclerosing panencephalitis (SSPE), a fatal degenerative disease appearing years later—one reason measles is far more than a transient childhood rash.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Measles spreads through the body via myeloid cells: alveolar macrophages and dendritic cells in the airway are the first infected, carrying the virus to lymphoid tissue where it amplifies—so these innate sentinels become the vehicle for systemic measles dissemination.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

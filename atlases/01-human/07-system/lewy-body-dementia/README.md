@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Neuroinflammation accompanies Lewy body dementia: microglia activated by misfolded α-synuclein release pro-inflammatory cytokines and reactive species that amplify neuronal injury and may spread pathology; PET shows microglial activation tracking disease, a therapeutic target."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "REM sleep behavior disorder bridges Lewy body dementia and narcolepsy: RBD—acting out dreams from lost REM muscle atonia—is an early marker that often precedes Lewy body dementia by years, while narcolepsy disrupts the same REM gating from orexin loss."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes participate in Lewy body dementia's α-synuclein pathology: reactive astrocytes accumulate α-synuclein and, with microglia, drive the neuroinflammation that accompanies the spreading synucleinopathy, so glial dysfunction contributes alongside neuronal loss."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine loss links Lewy body dementia to its parkinsonism: α-synuclein degeneration of nigrostriatal dopamine neurons produces the rigidity and bradykinesia, and a DaT scan showing reduced striatal dopamine transporter helps distinguish LBD from Alzheimer's disease."
 ---
 
 # Lewy Body Dementia
@@ -209,6 +218,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disorder is a core, often first feature of Lewy body dementia: REM sleep behavior disorder—acting out dreams from loss of REM atonia—can precede dementia by years and strongly predicts a synucleinopathy; LBD also brings fragmented sleep and daytime somnolence.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is common and often early in Lewy body dementia: degeneration of monoaminergic brainstem nuclei (serotonin, noradrenaline) plus cognitive and motor decline drive mood symptoms that can predate the dementia, complicating the distinction from late-life depression.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation accompanies Lewy body dementia: microglia activated by misfolded α-synuclein release pro-inflammatory cytokines and reactive species that amplify neuronal injury and may spread pathology; PET shows microglial activation tracking disease, a therapeutic target.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — REM sleep behavior disorder bridges Lewy body dementia and narcolepsy: RBD—acting out dreams from lost REM muscle atonia—is an early marker that often precedes Lewy body dementia by years, while narcolepsy disrupts the same REM gating from orexin loss.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes participate in Lewy body dementia's α-synuclein pathology: reactive astrocytes accumulate α-synuclein and, with microglia, drive the neuroinflammation that accompanies the spreading synucleinopathy, so glial dysfunction contributes alongside neuronal loss.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine loss links Lewy body dementia to its parkinsonism: α-synuclein degeneration of nigrostriatal dopamine neurons produces the rigidity and bradykinesia, and a DaT scan showing reduced striatal dopamine transporter helps distinguish LBD from Alzheimer's disease.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
