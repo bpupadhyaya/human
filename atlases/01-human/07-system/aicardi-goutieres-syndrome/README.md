@@ -69,6 +69,15 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "Aicardi-Goutières syndrome and Sjögren's both run on a type-I-interferon signature: AGS is the monogenic, infantile extreme of interferon-driven disease, while Sjögren's is its acquired adult counterpart—one cytokine pathway across rare genetic and common illness."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Aicardi-Goutières syndrome and multiple sclerosis sit at opposite ends of the type-I-interferon story: AGS is a genetic interferonopathy where excess interferon damages the brain, while MS is treated with interferon-β—pathogenic in AGS, therapeutic in MS."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "STAT1 carries the interferon signal driving Aicardi-Goutières syndrome: defective nucleic-acid sensing triggers chronic type-I interferon, which signals through JAK-STAT1 to inflame the brain—so JAK inhibitors blocking this pathway are emerging therapy."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "Aicardi-Goutières syndrome presents as an early encephalopathy with seizures: interferon-driven inflammation, basal-ganglia calcification and white-matter injury cause developmental regression and epilepsy in infancy—mimicking congenital infection."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -180,6 +189,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Aicardi-Goutières syndrome injures neurons through chronic interferon: misprocessed self-nucleic acids drive a type-I-interferon response that damages the developing brain, causing basal-ganglia calcification and an encephalopathy that mimics TORCH infection.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells amplify Aicardi-Goutières syndrome: defective nucleic-acid sensors let self-DNA/RNA accumulate and trigger pDCs to pour out type I interferon—the same axis overactive in lupus, making AGS a monogenic interferonopathy.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Aicardi-Goutières syndrome and Sjögren's both run on a type-I-interferon signature: AGS is the monogenic, infantile extreme of interferon-driven disease, while Sjögren's is its acquired adult counterpart—one cytokine pathway across rare genetic and common illness.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Aicardi-Goutières syndrome and multiple sclerosis sit at opposite ends of the type-I-interferon story: AGS is a genetic interferonopathy where excess interferon damages the brain, while MS is treated with interferon-β—pathogenic in AGS, therapeutic in MS.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — STAT1 carries the interferon signal driving Aicardi-Goutières syndrome: defective nucleic-acid sensing triggers chronic type-I interferon, which signals through JAK-STAT1 to inflame the brain—so JAK inhibitors blocking this pathway are emerging therapy.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Aicardi-Goutières syndrome presents as an early encephalopathy with seizures: interferon-driven inflammation, basal-ganglia calcification and white-matter injury cause developmental regression and epilepsy in infancy—mimicking congenital infection.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Age-related IGF-1 decline contributes to AD risk: low IGF-1 impairs hippocampal neurogenesis and synaptic plasticity; INSR/IGF-1R resistance in AD neurons → reduced Akt → ↑GSK-3β → tau phosphorylation; IGF-1 restores cognition in preclinical AD models and reduces Aβ plaque load."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Alzheimer's and Parkinson's are the two commonest neurodegenerative diseases that overlap in pathology: both involve misfolded-protein aggregation (amyloid/tau vs α-synuclein) and can co-occur, with Lewy bodies in many Alzheimer brains—a proteinopathy spectrum."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Alzheimer's disease is ultimately the death of neurons and their synapses: amyloid plaques and tau tangles disrupt synaptic function and trigger neuronal loss, especially of cholinergic and hippocampal neurons—and synapse loss correlates best with the dementia."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Alzheimer's disease is sometimes called 'type 3 diabetes' for its link to insulin resistance: impaired brain insulin signaling promotes amyloid and tau pathology, and type 2 diabetes raises Alzheimer's risk—why GLP-1 drugs are being tested against dementia."
 ---
 
 # Alzheimer's Disease
@@ -190,6 +199,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[TDP-43](../../03-molecular/tdp-43/README.md)** — LATE (limbic-predominant age-related TDP-43 encephalopathy) affects ~20% of octogenarians and mimics AD clinically; TDP-43 co-pathology in ~57% of AD brains worsens cognitive trajectory; nuclear TDP-43 loss → cryptic exon inclusion in hippocampal neurons via TDPBP splicing suppression loss.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1R activation reduces amyloid-β, tau phosphorylation, and neuroinflammation in preclinical AD models; semaglutide EVOKE Phase 3 trial targets early AD; GLP-1R agonists may address brain insulin resistance via Akt → reduced GSK-3β → less tau hyperphosphorylation.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — age-related IGF-1 decline contributes to AD risk: low IGF-1 impairs hippocampal neurogenesis and synaptic plasticity; INSR/IGF-1R resistance in AD neurons → reduced Akt → ↑GSK-3β → tau phosphorylation; IGF-1 restores cognition in preclinical AD models and reduces Aβ plaque load.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Alzheimer's and Parkinson's are the two commonest neurodegenerative diseases that overlap in pathology: both involve misfolded-protein aggregation (amyloid/tau vs α-synuclein) and can co-occur, with Lewy bodies in many Alzheimer brains—a proteinopathy spectrum.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Alzheimer's disease is ultimately the death of neurons and their synapses: amyloid plaques and tau tangles disrupt synaptic function and trigger neuronal loss, especially of cholinergic and hippocampal neurons—and synapse loss correlates best with the dementia.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Alzheimer's disease is sometimes called 'type 3 diabetes' for its link to insulin resistance: impaired brain insulin signaling promotes amyloid and tau pathology, and type 2 diabetes raises Alzheimer's risk—why GLP-1 drugs are being tested against dementia.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
