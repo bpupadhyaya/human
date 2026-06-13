@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Synovial sarcoma is managed like other high-grade soft-tissue sarcomas with surgery plus radiotherapy: wide resection combined with photon radiation improves local control, while the SS18-SSX fusion is now also targeted by EZH2 inhibitors and cellular therapy."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation can mark progression in synovial sarcoma: while the SS18-SSX fusion is the defining initiating event, secondary p53 loss appears in high-grade, dedifferentiated tumors—so the genome guardian's failure layers onto the fusion oncogene to worsen behavior."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "TERT activation helps immortalize synovial sarcoma cells: telomerase reactivation, alongside the SS18-SSX fusion that reprograms the epigenome, lets these translocation-driven sarcomas divide indefinitely—a step common to many cancers despite their distinct drivers."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Synovial sarcoma joins the broad sarcoma spectrum of Li-Fraumeni syndrome: although defined by the somatic SS18-SSX fusion rather than germline p53 loss, sarcomas like it occur excessively in p53-deficient patients—linking fusion-driven and hereditary sarcomas."
 ---
 
 # Synovial Sarcoma
@@ -213,6 +222,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Synovial sarcoma and rhabdomyosarcoma are both fusion-driven soft-tissue sarcomas: synovial sarcoma's SS18-SSX fusion hijacks the SWI/SNF complex, while alveolar RMS's PAX-FOXO1 drives myogenic transcription—translocations defining distinct, aggressive sarcomas.
 - `connects-to` → **[MPNST](../mpnst/README.md)** — Synovial sarcoma and MPNST are spindle-cell sarcomas that can look alike: synovial sarcoma is defined by SS18-SSX, MPNST by NF1-driven nerve-sheath origin—so SS18-SSX testing and S100/SOX10 staining separate these spindle tumors.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Synovial sarcoma is managed like other high-grade soft-tissue sarcomas with surgery plus radiotherapy: wide resection combined with photon radiation improves local control, while the SS18-SSX fusion is now also targeted by EZH2 inhibitors and cellular therapy.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation can mark progression in synovial sarcoma: while the SS18-SSX fusion is the defining initiating event, secondary p53 loss appears in high-grade, dedifferentiated tumors—so the genome guardian's failure layers onto the fusion oncogene to worsen behavior.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT activation helps immortalize synovial sarcoma cells: telomerase reactivation, alongside the SS18-SSX fusion that reprograms the epigenome, lets these translocation-driven sarcomas divide indefinitely—a step common to many cancers despite their distinct drivers.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Synovial sarcoma joins the broad sarcoma spectrum of Li-Fraumeni syndrome: although defined by the somatic SS18-SSX fusion rather than germline p53 loss, sarcomas like it occur excessively in p53-deficient patients—linking fusion-driven and hereditary sarcomas.
 
 ---
 

@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Vascular smooth muscle drives the vasculopathy of systemic sclerosis: endothelial injury and smooth-muscle proliferation narrow small arteries, producing Raynaud's, pulmonary hypertension and renal crisis—the vascular, not just fibrotic, face of the disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Systemic sclerosis is the prototypical multi-organ fibrosis: the same fibroblast-driven scarring that heals a wound runs unchecked across skin, lung and gut, so SSc anchors the broader family of fibrotic diseases and is a testbed for antifibrotic drugs like nintedanib."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart is a hidden but lethal systemic sclerosis target: myocardial fibrosis and microvascular disease cause arrhythmias, conduction block and heart failure, often silent until advanced—so cardiac involvement is a leading cause of death in scleroderma."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "Endothelin-1 drives the vasculopathy of systemic sclerosis: this potent vasoconstrictor, overproduced by injured endothelium, fuels Raynaud's phenomenon and pulmonary hypertension—so endothelin-receptor blockers (bosentan) treat the vascular side of the disease."
 ---
 
 # Systemic Sclerosis
@@ -209,6 +218,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Systemic sclerosis and rheumatoid arthritis are both systemic autoimmune connective-tissue diseases but differ in target: SSc is dominated by fibrosis and vasculopathy (skin, lung, gut), while RA is an inflammatory synovitis—though the two can overlap in some patients.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Systemic sclerosis is fundamentally a disease of excess collagen: TGF-β-activated fibroblasts overproduce and deposit collagen in skin, lung and other organs, hardening tissue and strangling small vessels—a structural protein becoming the agent of organ failure.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Vascular smooth muscle drives the vasculopathy of systemic sclerosis: endothelial injury and smooth-muscle proliferation narrow small arteries, producing Raynaud's, pulmonary hypertension and renal crisis—the vascular, not just fibrotic, face of the disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Systemic sclerosis is the prototypical multi-organ fibrosis: the same fibroblast-driven scarring that heals a wound runs unchecked across skin, lung and gut, so SSc anchors the broader family of fibrotic diseases and is a testbed for antifibrotic drugs like nintedanib.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a hidden but lethal systemic sclerosis target: myocardial fibrosis and microvascular disease cause arrhythmias, conduction block and heart failure, often silent until advanced—so cardiac involvement is a leading cause of death in scleroderma.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 drives the vasculopathy of systemic sclerosis: this potent vasoconstrictor, overproduced by injured endothelium, fuels Raynaud's phenomenon and pulmonary hypertension—so endothelin-receptor blockers (bosentan) treat the vascular side of the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
