@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "IDH-mutant gliomas integrate into neural circuits: their tumor cells form functional synapses with neurons, and the seizures these gliomas commonly cause reflect this electrical coupling—so neuronal activity both signals and may feed the slow-growing tumor."
+  - target: 01-human/03-molecular/idh2
+    relation: connects-to
+    note: "IDH2 mutation is the rarer twin of IDH1 in glioma: both produce the oncometabolite 2-hydroxyglutarate that reprograms the epigenome, so IDH2 defines the same favorable-prognosis glioma class and is targetable by the same IDH inhibitors as IDH1."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 and ATRX mutation define the astrocytoma arm of IDH-mutant glioma: when an IDH-mutant tumor also loses p53 and ATRX it is an astrocytoma, whereas 1p/19q-codeleted TERT-mutant tumors are oligodendrogliomas—so p53 status splits the two IDH-glioma lineages."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "TERT promoter mutation marks the oligodendroglioma arm of IDH-mutant glioma: combined with 1p/19q codeletion it defines oligodendroglioma, the most treatment-responsive glioma—so TERT status, opposite TP53/ATRX, separates the two IDH-mutant subtypes."
 ---
 
 # IDH-Mutant Glioma
@@ -219,6 +228,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is standard for IDH-mutant glioma: after maximal resection, radiation plus PCV or temozolomide markedly extends survival in these slower-growing gliomas, and the new IDH inhibitor vorasidenib can now delay when radiation is needed.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — IDH-mutant glioma and Li-Fraumeni intersect at p53: many IDH-mutant astrocytomas carry TP53 mutations, and germline TP53 loss in Li-Fraumeni predisposes to gliomas in young adults—so the metabolic IDH lesion and loss of the genome's guardian often co-occur in one tumor.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — IDH-mutant gliomas integrate into neural circuits: their tumor cells form functional synapses with neurons, and the seizures these gliomas commonly cause reflect this electrical coupling—so neuronal activity both signals and may feed the slow-growing tumor.
+- `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2 mutation is the rarer twin of IDH1 in glioma: both produce the oncometabolite 2-hydroxyglutarate that reprograms the epigenome, so IDH2 defines the same favorable-prognosis glioma class and is targetable by the same IDH inhibitors as IDH1.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 and ATRX mutation define the astrocytoma arm of IDH-mutant glioma: when an IDH-mutant tumor also loses p53 and ATRX it is an astrocytoma, whereas 1p/19q-codeleted TERT-mutant tumors are oligodendrogliomas—so p53 status splits the two IDH-glioma lineages.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutation marks the oligodendroglioma arm of IDH-mutant glioma: combined with 1p/19q codeletion it defines oligodendroglioma, the most treatment-responsive glioma—so TERT status, opposite TP53/ATRX, separates the two IDH-mutant subtypes.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

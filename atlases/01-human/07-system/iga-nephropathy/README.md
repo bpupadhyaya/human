@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/anca-vasculitis
     relation: connects-to
     note: "IgA nephropathy and ANCA vasculitis can both cause crescentic glomerulonephritis: severe IgAN with crescents mimics ANCA-associated GN, so a crescentic biopsy needs immunofluorescence and ANCA testing to tell IgA deposition from pauci-immune disease."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Aberrant B cells drive IgA nephropathy: mucosal B cells overproduce galactose-deficient IgA1 that forms immune complexes depositing in the glomerular mesangium, so B-cell-targeted and APRIL/BAFF-blocking therapies are emerging treatments."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome helps trigger IgA nephropathy: mucosal immune responses to gut flora drive production of the abnormal IgA1 that injures the kidney, so the gut-kidney axis explains flares after infections and the interest in microbiome-directed therapy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Liver disease causes secondary IgA nephropathy: cirrhosis impairs hepatic clearance of IgA, so IgA immune complexes accumulate and deposit in the kidney—hepatic IgA nephropathy showing how the liver normally protects the glomerulus from IgA overload."
 ---
 
 # IgA Nephropathy
@@ -171,6 +180,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — IgA nephropathy and lupus nephritis are both immune-complex glomerulonephritides: IgAN deposits galactose-deficient IgA1 in the mesangium, while lupus nephritis deposits nuclear complexes—immunofluorescence (IgA versus 'full house') tells them apart.
 - `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — IgA nephropathy ultimately injures podocytes: mesangial IgA1 deposits and complement drive cytokines that damage the glomerular filter, so podocyte loss and proteinuria mark progression to chronic kidney disease—podocyte injury predicts a worse course.
 - `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — IgA nephropathy and ANCA vasculitis can both cause crescentic glomerulonephritis: severe IgAN with crescents mimics ANCA-associated GN, so a crescentic biopsy needs immunofluorescence and ANCA testing to tell IgA deposition from pauci-immune disease.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Aberrant B cells drive IgA nephropathy: mucosal B cells overproduce galactose-deficient IgA1 that forms immune complexes depositing in the glomerular mesangium, so B-cell-targeted and APRIL/BAFF-blocking therapies are emerging treatments.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome helps trigger IgA nephropathy: mucosal immune responses to gut flora drive production of the abnormal IgA1 that injures the kidney, so the gut-kidney axis explains flares after infections and the interest in microbiome-directed therapy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver disease causes secondary IgA nephropathy: cirrhosis impairs hepatic clearance of IgA, so IgA immune complexes accumulate and deposit in the kidney—hepatic IgA nephropathy showing how the liver normally protects the glomerulus from IgA overload.
 
 ---
 
