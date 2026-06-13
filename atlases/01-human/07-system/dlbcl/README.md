@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 mutation marks high-risk DLBCL: loss of p53 function, often with MYC and BCL2 rearrangements (double/triple-hit lymphoma), predicts resistance to R-CHOP and poor survival—so molecular testing now guides intensified or novel therapy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "DLBCL is the most common aggressive lymphoma of the lymphatic system: it usually presents as rapidly enlarging lymph nodes or an extranodal mass, and because it is fast-growing it is paradoxically curable in many with R-CHOP immunochemotherapy."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "DLBCL can involve the bone marrow, worsening prognosis: marrow infiltration upstages the disease and may cause cytopenias, so staging includes marrow assessment—and concordant large-cell marrow involvement portends a worse outcome than discordant low-grade disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy complements chemo in localized DLBCL: photon-beam radiation to involved sites consolidates limited-stage disease after abbreviated R-CHOP and treats bulky masses, so it remains part of curative therapy alongside immunochemotherapy and CAR-T for relapse."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -221,6 +230,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — DLBCL spans the B-cell-to-plasma-cell transition: the GCB subtype resembles germinal-center B cells while the ABC subtype leans toward plasma-cell differentiation—and the plasmablastic variant nearly resembles a plasma cell, so cell-of-origin shapes prognosis.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV greatly raises DLBCL risk: immunosuppression and EBV co-infection drive aggressive AIDS-related lymphomas, including DLBCL and its plasmablastic variant—so a new mass in an HIV patient prompts lymphoma workup, and antiretroviral therapy is part of treatment.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation marks high-risk DLBCL: loss of p53 function, often with MYC and BCL2 rearrangements (double/triple-hit lymphoma), predicts resistance to R-CHOP and poor survival—so molecular testing now guides intensified or novel therapy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — DLBCL is the most common aggressive lymphoma of the lymphatic system: it usually presents as rapidly enlarging lymph nodes or an extranodal mass, and because it is fast-growing it is paradoxically curable in many with R-CHOP immunochemotherapy.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — DLBCL can involve the bone marrow, worsening prognosis: marrow infiltration upstages the disease and may cause cytopenias, so staging includes marrow assessment—and concordant large-cell marrow involvement portends a worse outcome than discordant low-grade disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy complements chemo in localized DLBCL: photon-beam radiation to involved sites consolidates limited-stage disease after abbreviated R-CHOP and treats bulky masses, so it remains part of curative therapy alongside immunochemotherapy and CAR-T for relapse.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

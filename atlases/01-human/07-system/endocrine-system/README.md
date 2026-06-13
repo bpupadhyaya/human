@@ -77,6 +77,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Estrogen shows the endocrine system's reach beyond metabolism: this gonadal steroid, set by the hypothalamic-pituitary-gonadal axis, controls reproduction but also bone, cardiovascular and brain function—so endocrine signaling integrates far-flung organ systems."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Testosterone is a central output of the endocrine system: the testes make it under pituitary LH control, and it drives male sexual development, muscle and bone—so it exemplifies the hypothalamic-pituitary-gonadal axis that the endocrine system coordinates."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Aldosterone shows the endocrine system regulating salt and blood pressure: the adrenal cortex secretes it under the renin-angiotensin system to retain sodium, so its excess (Conn syndrome) or deficiency (Addison's) are classic endocrine electrolyte and pressure disorders."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Osteoporosis is largely an endocrine disease of bone: estrogen, testosterone, thyroid, parathyroid and cortisol all govern bone turnover, so hormonal shifts—menopause, hyperthyroidism, steroid excess—are leading causes, tying the skeleton to the endocrine system."
 ---
 
 # Endocrine System
@@ -257,6 +266,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormones show how the endocrine system runs on feedback loops: the hypothalamic-pituitary-thyroid axis tunes T3/T4 to set metabolic rate, and disrupting any level causes hypo- or hyperthyroidism—a model for the feedback that governs all endocrine glands.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Type 1 diabetes is autoimmune destruction within the endocrine system: T cells kill pancreatic beta cells, eliminating insulin and proving how loss of a single endocrine cell type disrupts whole-body fuel metabolism—an organ-specific failure of the endocrine network.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen shows the endocrine system's reach beyond metabolism: this gonadal steroid, set by the hypothalamic-pituitary-gonadal axis, controls reproduction but also bone, cardiovascular and brain function—so endocrine signaling integrates far-flung organ systems.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone is a central output of the endocrine system: the testes make it under pituitary LH control, and it drives male sexual development, muscle and bone—so it exemplifies the hypothalamic-pituitary-gonadal axis that the endocrine system coordinates.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Aldosterone shows the endocrine system regulating salt and blood pressure: the adrenal cortex secretes it under the renin-angiotensin system to retain sodium, so its excess (Conn syndrome) or deficiency (Addison's) are classic endocrine electrolyte and pressure disorders.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Osteoporosis is largely an endocrine disease of bone: estrogen, testosterone, thyroid, parathyroid and cortisol all govern bone turnover, so hormonal shifts—menopause, hyperthyroidism, steroid excess—are leading causes, tying the skeleton to the endocrine system.
 
 ## Pathology
 
