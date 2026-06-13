@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/aml
     relation: connects-to
     note: "ALL and AML are the two acute leukemias — both blast-crisis marrow failure, but ALL from lymphoid and AML from myeloid progenitors; flow cytometry (TdT, CD19/CD10 vs MPO, CD33) separates them, and the distinction dictates entirely different chemotherapy backbones."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "ALL and CML intersect at the Philadelphia chromosome: BCR-ABL1 defines CML and ~25% of adult B-ALL (Ph+ ALL), the highest-risk subtype, so both use ABL tyrosine-kinase inhibitors (imatinib, dasatinib, ponatinib); a CML blast crisis can present as acute lymphoblastic leukemia."
+  - target: 01-human/07-system/burkitt-lymphoma
+    relation: connects-to
+    note: "Mature B-cell ALL is biologically Burkitt leukemia: it shares the MYC t(8;14), starry-sky morphology and explosive growth of Burkitt lymphoma, presenting as a leukemic phase rather than a mass, and both are cured by short, intensive, CNS-directed chemo not standard ALL regimens."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "T-cell ALL arises in the thymus: malignant transformation of developing thymocytes (often via NOTCH1) produces a mediastinal thymic mass with airway/SVC compression at presentation, distinguishing it from marrow-based B-ALL and reflecting the thymus's role in T-cell development."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -203,6 +212,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — ALL and aplastic anemia both present with pancytopenia and a failing marrow but are opposites in mechanism: AA an empty marrow from T-cell destruction of stem cells, ALL a marrow packed with lymphoblasts — so the marrow biopsy (hypocellular vs blast-replaced) distinguishes them.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — ALL arises in the bone marrow from a transformed lymphoid progenitor whose blasts crowd out normal hematopoiesis, causing the anemia, thrombocytopenia, and neutropenia at presentation; marrow with ≥20% lymphoblasts is diagnostic, and marrow MRD after induction guides prognosis.
 - `connects-to` → **[AML](../aml/README.md)** — ALL and AML are the two acute leukemias — both blast-crisis marrow failure, but ALL from lymphoid and AML from myeloid progenitors; flow cytometry (TdT, CD19/CD10 vs MPO, CD33) separates them, and the distinction dictates entirely different chemotherapy backbones.
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — ALL and CML intersect at the Philadelphia chromosome: BCR-ABL1 defines CML and ~25% of adult B-ALL (Ph+ ALL), the highest-risk subtype, so both use ABL tyrosine-kinase inhibitors (imatinib, dasatinib, ponatinib); a CML blast crisis can present as acute lymphoblastic leukemia.
+- `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Mature B-cell ALL is biologically Burkitt leukemia: it shares the MYC t(8;14), starry-sky morphology and explosive growth of Burkitt lymphoma, presenting as a leukemic phase rather than a mass, and both are cured by short, intensive, CNS-directed chemo not standard ALL regimens.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — T-cell ALL arises in the thymus: malignant transformation of developing thymocytes (often via NOTCH1) produces a mediastinal thymic mass with airway/SVC compression at presentation, distinguishing it from marrow-based B-ALL and reflecting the thymus's role in T-cell development.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

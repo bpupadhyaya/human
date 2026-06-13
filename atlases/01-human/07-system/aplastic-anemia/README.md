@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Thrombocytopenia in aplastic anemia reflects failed megakaryopoiesis despite high thrombopoietin; severe AA (platelets <20,000) risks spontaneous hemorrhage including intracranial bleeding, and the TPO-mimetic eltrombopag was developed to stimulate residual stem cells via c-Mpl."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Aplastic anemia is failure of all three blood lineages: as hematopoietic stem cells are destroyed, red-cell production collapses alongside neutrophils and platelets, giving the reticulocytopenic anemia of pancytopenia—so transfusions bridge to immunosuppression or transplant."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Hepatitis-associated aplastic anemia is a striking syndrome: weeks to months after an acute (often seronegative, non-A-E) hepatitis, fulminant marrow failure appears—an immune attack on stem cells triggered by the hepatitis; severe but responsive to immunosuppression."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Most acquired aplastic anemia is immune-mediated marrow failure: oligoclonal cytotoxic T cells and interferon-γ/TNF destroy hematopoietic stem cells, which is why immunosuppression (ATG plus ciclosporin) restores counts—the immune system, not a stem-cell defect, drives it."
 ---
 
 # Aplastic Anemia
@@ -176,6 +185,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Aplastic anemia and ALL both present with pancytopenia but are mirror images: AA a hypocellular marrow emptied by autoreactive T cells, ALL a hypercellular marrow packed with lymphoblasts — the marrow biopsy distinguishes empty from blast-replaced, a critical fork in management.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutropenia is the most dangerous cytopenia in aplastic anemia: with the marrow unable to produce granulocytes, severe AA (ANC <500) leaves patients defenseless against bacterial and fungal infection, the leading cause of death; G-CSF gives little response in a depleted marrow.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia in aplastic anemia reflects failed megakaryopoiesis despite high thrombopoietin; severe AA (platelets <20,000) risks spontaneous hemorrhage including intracranial bleeding, and the TPO-mimetic eltrombopag was developed to stimulate residual stem cells via c-Mpl.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Aplastic anemia is failure of all three blood lineages: as hematopoietic stem cells are destroyed, red-cell production collapses alongside neutrophils and platelets, giving the reticulocytopenic anemia of pancytopenia—so transfusions bridge to immunosuppression or transplant.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hepatitis-associated aplastic anemia is a striking syndrome: weeks to months after an acute (often seronegative, non-A-E) hepatitis, fulminant marrow failure appears—an immune attack on stem cells triggered by the hepatitis; severe but responsive to immunosuppression.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Most acquired aplastic anemia is immune-mediated marrow failure: oligoclonal cytotoxic T cells and interferon-γ/TNF destroy hematopoietic stem cells, which is why immunosuppression (ATG plus ciclosporin) restores counts—the immune system, not a stem-cell defect, drives it.
 
 ---
 
