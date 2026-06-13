@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "APS injures the heart: antiphospholipid antibodies cause Libman-Sacks nonbacterial valvular vegetations (especially mitral) that can embolize or need surgery, accelerate coronary thrombosis, and in catastrophic APS produce myocardial thrombotic microangiopathy."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Catastrophic antiphospholipid syndrome can resemble DIC: it floods small vessels with thrombi causing multi-organ failure, but unlike DIC it is antibody-driven with preserved clotting factors—so anticoagulation plus immunosuppression, not factor replacement, treats it."
+  - target: 01-human/07-system/immune-thrombocytopenia
+    relation: connects-to
+    note: "Antiphospholipid syndrome pairs thrombosis with thrombocytopenia, a distinguishing clue: unlike isolated ITP, the low platelets accompany a prothrombotic state, so clots and a moderately low count plus lupus anticoagulant point to APS, not simple immune thrombocytopenia."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Antiphospholipid syndrome often arises secondary to autoimmune disease like Sjögren's and lupus: the same loss of tolerance that produces anti-Ro or ANA can generate antiphospholipid antibodies, so thrombosis or pregnancy loss in such patients warrants APS testing."
 ---
 
 # Antiphospholipid Syndrome
@@ -217,6 +226,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Heparin-Induced Thrombocytopenia](../heparin-induced-thrombocytopenia/README.md)** — APS and HIT are antibody-mediated acquired thrombophilias that clot despite thrombocytopenia: APS antiphospholipid antibodies and HIT anti-PF4 IgG each activate platelets and endothelium via Fc engagement, threatening arteries and veins; both can be catastrophic.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central effectors in antiphospholipid syndrome: anti-β2GPI antibodies cluster on the platelet surface and, with complement, activate it via GPIbα/FcγRIIA → aggregation and thrombosis; mild thrombocytopenia is common, and the platelet is the aspirin target.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — APS injures the heart: antiphospholipid antibodies cause Libman-Sacks nonbacterial valvular vegetations (especially mitral) that can embolize or need surgery, accelerate coronary thrombosis, and in catastrophic APS produce myocardial thrombotic microangiopathy.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Catastrophic antiphospholipid syndrome can resemble DIC: it floods small vessels with thrombi causing multi-organ failure, but unlike DIC it is antibody-driven with preserved clotting factors—so anticoagulation plus immunosuppression, not factor replacement, treats it.
+- `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — Antiphospholipid syndrome pairs thrombosis with thrombocytopenia, a distinguishing clue: unlike isolated ITP, the low platelets accompany a prothrombotic state, so clots and a moderately low count plus lupus anticoagulant point to APS, not simple immune thrombocytopenia.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Antiphospholipid syndrome often arises secondary to autoimmune disease like Sjögren's and lupus: the same loss of tolerance that produces anti-Ro or ANA can generate antiphospholipid antibodies, so thrombosis or pregnancy loss in such patients warrants APS testing.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

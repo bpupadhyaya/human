@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "Anorexia and OCD are tightly linked: they share perfectionism, intrusive thoughts and rigid ritual, high premorbid OCD traits predict AN, and food restriction itself becomes a compulsion; orbitofrontal-striatal dysfunction underlies both, though AN fixates on eating and weight."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Anorexia nervosa and major depression are intertwined: depression is among the commonest comorbidities, starvation itself causes depressed mood and anhedonia, and the two share serotonergic dysregulation—so weight must be restored before depression is assessed."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety usually predates and drives anorexia nervosa: generalized anxiety and perfectionism often appear in childhood before the eating disorder, and restriction becomes a way to control anxiety, so most anorexia patients carry an anxiety disorder that treatment must address."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Anorexia nervosa shuts down the reproductive system: severe energy deficit suppresses hypothalamic GnRH, causing functional hypothalamic amenorrhea and low estrogen, which—together with low weight—drives the infertility and bone loss central to the illness."
 ---
 
 # Anorexia Nervosa
@@ -224,6 +233,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Anorexia and bulimia nervosa are overlapping eating disorders that frequently cross over: the AN binge-purge subtype blurs into bulimia, both share body-image distortion and serotonergic dysfunction, but bulimics are usually normal-weight while AN is defined by underweight.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Anorexia is a leading cause of premature osteoporosis: chronic energy deficit suppresses estrogen (hypothalamic amenorrhea), raises cortisol and lowers IGF-1, tilting bone turnover to resorption; bone loss begins early, is often irreversible, and weight restoration is key.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Anorexia and OCD are tightly linked: they share perfectionism, intrusive thoughts and rigid ritual, high premorbid OCD traits predict AN, and food restriction itself becomes a compulsion; orbitofrontal-striatal dysfunction underlies both, though AN fixates on eating and weight.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Anorexia nervosa and major depression are intertwined: depression is among the commonest comorbidities, starvation itself causes depressed mood and anhedonia, and the two share serotonergic dysregulation—so weight must be restored before depression is assessed.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety usually predates and drives anorexia nervosa: generalized anxiety and perfectionism often appear in childhood before the eating disorder, and restriction becomes a way to control anxiety, so most anorexia patients carry an anxiety disorder that treatment must address.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Anorexia nervosa shuts down the reproductive system: severe energy deficit suppresses hypothalamic GnRH, causing functional hypothalamic amenorrhea and low estrogen, which—together with low weight—drives the infertility and bone loss central to the illness.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
