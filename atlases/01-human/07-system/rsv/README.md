@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: connects-to
     note: "RSV infects airway epithelium and alveolar pneumocytes including type II cells: replication plus NS1/NS2 interferon evasion drives epithelial necrosis, sloughing and syncytia that plug bronchioles → the airway obstruction of infant bronchiolitis and impaired surfactant."
+  - target: 01-human/07-system/influenza
+    relation: connects-to
+    note: "RSV and influenza are the two dominant seasonal respiratory viruses, co-circulating each winter: both cause fever, cough, and pneumonia at the extremes of age, both now have older-adult vaccines, and PCR tells them apart—but RSV adds nirsevimab prophylaxis for infants."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "RSV is the leading cause of lower respiratory infection in infants: it targets bronchiolar epithelium, causing the airway plugging and wheeze of bronchiolitis, the top cause of infant hospitalization—so the respiratory system's smallest airways bear the brunt."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "RSV skews the infant immune response toward Th2: instead of protective Th1 immunity it elicits Th2 cytokines (IL-4, IL-13) and eosinophils, which worsen disease and may link severe RSV bronchiolitis to later asthma—why early RSV is more than a transient infection."
 ---
 
 # RSV
@@ -214,3 +223,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — RSV and COVID-19 are enveloped respiratory RNA viruses that with influenza drive seasonal lower-respiratory disease; both cause bronchiolitis/pneumonia at the extremes of age, both evade interferon, and both are now vaccine-preventable in older adults.
 - `connects-to` → **[COPD](../copd/README.md)** — RSV is a major trigger of COPD exacerbations: it infects airway epithelium → neutrophilic inflammation and bronchospasm → acute decompensation, and is found in a substantial share of hospitalized exacerbations; older-adult RSV vaccines (Arexvy, Abrysvo) reduce this burden.
 - `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — RSV infects airway epithelium and alveolar pneumocytes including type II cells: replication plus NS1/NS2 interferon evasion drives epithelial necrosis, sloughing and syncytia that plug bronchioles → the airway obstruction of infant bronchiolitis and impaired surfactant.
+- `connects-to` → **[Influenza](../influenza/README.md)** — RSV and influenza are the two dominant seasonal respiratory viruses, co-circulating each winter: both cause fever, cough, and pneumonia at the extremes of age, both now have older-adult vaccines, and PCR tells them apart—but RSV adds nirsevimab prophylaxis for infants.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — RSV is the leading cause of lower respiratory infection in infants: it targets bronchiolar epithelium, causing the airway plugging and wheeze of bronchiolitis, the top cause of infant hospitalization—so the respiratory system's smallest airways bear the brunt.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — RSV skews the infant immune response toward Th2: instead of protective Th1 immunity it elicits Th2 cytokines (IL-4, IL-13) and eosinophils, which worsen disease and may link severe RSV bronchiolitis to later asthma—why early RSV is more than a transient infection.

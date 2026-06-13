@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/cgas-sting
     relation: connects-to
     note: "cGAS-STING sensing of self-DNA drives the type I IFN signature in SLE: NETs, late apoptotic cells, and mtDNA activate cGAS in pDCs/macrophages → cGAMP → STING → IFN-β; TREX1 LOF mutations → monogenic lupus; STING antagonists (H-151, SN-011) are investigated for SLE."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Lupus and Sjögren's are overlapping autoantibody diseases sharing anti-Ro/SSA, anti-La, and a type-I-interferon signature: secondary Sjögren's commonly complicates SLE, and both can cause neonatal lupus and congenital heart block via placental anti-Ro transfer."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Lupus nephritis is the kidney face of SLE and a major driver of chronic kidney disease: immune-complex deposition inflames the glomerulus across six histologic classes, so proteinuria or rising creatinine in a lupus patient prompts biopsy and immunosuppression."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells make the autoantibodies that drive lupus: long-lived plasma cells secrete anti-dsDNA and antinuclear antibodies that form tissue-damaging immune complexes, and because they resist rituximab, plasma-cell-directed strategies and CAR-T are explored in refractory SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -199,6 +208,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Beta-2 Glycoprotein I](../../03-molecular/beta2-glycoprotein-1/README.md)** — ~50% of SLE patients have aPL antibodies (anti-B2GPI, aCL, LA); 30% of aPL-positive SLE patients develop APS; anti-B2GPI IgG may drive SLE nephritis through complement and endothelial activation; hydroxychloroquine reduces aPL titers and thrombotic risk in SLE.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — Secondary APS occurs in ~30% of SLE patients with persistent aPL; SLE+APS patients have higher stroke/DVT risk than either condition alone; hydroxychloroquine is recommended in all SLE+aPL patients; the 2023 ACR/EULAR APS criteria incorporate SLE as a risk modifier.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — cGAS-STING sensing of self-DNA drives the type I IFN signature in SLE: NETs, late apoptotic cells, and mtDNA activate cGAS in pDCs/macrophages → cGAMP → STING → IFN-β; TREX1 LOF mutations → monogenic lupus; STING antagonists (H-151, SN-011) are investigated for SLE.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Lupus and Sjögren's are overlapping autoantibody diseases sharing anti-Ro/SSA, anti-La, and a type-I-interferon signature: secondary Sjögren's commonly complicates SLE, and both can cause neonatal lupus and congenital heart block via placental anti-Ro transfer.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Lupus nephritis is the kidney face of SLE and a major driver of chronic kidney disease: immune-complex deposition inflames the glomerulus across six histologic classes, so proteinuria or rising creatinine in a lupus patient prompts biopsy and immunosuppression.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the autoantibodies that drive lupus: long-lived plasma cells secrete anti-dsDNA and antinuclear antibodies that form tissue-damaging immune complexes, and because they resist rituximab, plasma-cell-directed strategies and CAR-T are explored in refractory SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
