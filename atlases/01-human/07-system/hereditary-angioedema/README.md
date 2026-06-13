@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver synthesizes C1-inhibitor and most complement and contact-system proteins, so it underlies HAE: types I/II HAE reflect deficient or dysfunctional hepatic C1-INH, and siRNA therapy (donidalorsen targeting prekallikrein) acts on hepatic production to prevent attacks."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Abdominal attacks are a major, often misdiagnosed feature of hereditary angioedema: bradykinin-driven edema of the bowel wall causes severe colicky pain, vomiting, and ascites that mimic a surgical abdomen, so recurrent crises with C1-inhibitor deficiency point to HAE."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Laryngeal edema is the lethal manifestation of hereditary angioedema: bradykinin-mediated upper-airway swelling can cause asphyxiation, so patients carry on-demand C1-inhibitor or icatibant—and unlike histaminergic angioedema, it ignores epinephrine and antihistamines."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "ACE inhibitors can trigger bradykinin-mediated angioedema like HAE: ACE normally degrades bradykinin, so blocking it raises bradykinin and causes angioedema (especially in HAE patients), which is why ACE inhibitors are contraindicated in hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -210,6 +219,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Immune System](../immune-system/README.md)** — HAE is a disorder of complement regulation: C1-inhibitor normally restrains the classical complement pathway and the contact (kinin) system, so its deficiency consumes C4 (a diagnostic clue) and unleashes bradykinin; it sits between complement and innate immune control.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — HAE is the key bradykinin-mediated mimic of mast-cell angioedema: unlike histaminergic allergic angioedema (urticaria, itch, antihistamine response), HAE swelling is non-itchy, urticaria-free and unresponsive to antihistamines or epinephrine—telling them apart is life-saving.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver synthesizes C1-inhibitor and most complement and contact-system proteins, so it underlies HAE: types I/II HAE reflect deficient or dysfunctional hepatic C1-INH, and siRNA therapy (donidalorsen targeting prekallikrein) acts on hepatic production to prevent attacks.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Abdominal attacks are a major, often misdiagnosed feature of hereditary angioedema: bradykinin-driven edema of the bowel wall causes severe colicky pain, vomiting, and ascites that mimic a surgical abdomen, so recurrent crises with C1-inhibitor deficiency point to HAE.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Laryngeal edema is the lethal manifestation of hereditary angioedema: bradykinin-mediated upper-airway swelling can cause asphyxiation, so patients carry on-demand C1-inhibitor or icatibant—and unlike histaminergic angioedema, it ignores epinephrine and antihistamines.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — ACE inhibitors can trigger bradykinin-mediated angioedema like HAE: ACE normally degrades bradykinin, so blocking it raises bradykinin and causes angioedema (especially in HAE patients), which is why ACE inhibitors are contraindicated in hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
