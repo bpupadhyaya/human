@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/thymus
     relation: connects-to
     note: "T-cell ALL arises in the thymus: malignant transformation of developing thymocytes (often via NOTCH1) produces a mediastinal thymic mass with airway/SVC compression at presentation, distinguishing it from marrow-based B-ALL and reflecting the thymus's role in T-cell development."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Acute lymphoblastic leukemia is the paradigm cancer for cytotoxic T-cell therapy: CD19-directed CAR-T cells reprogram cytotoxic T cells to kill the leukemic B lymphoblasts, achieving deep remissions in relapsed B-ALL—the first CAR-T approval (tisagenlecleucel)."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiation has a defined role in acute lymphoblastic leukemia: cranial irradiation once prevented CNS relapse (now mostly replaced by intrathecal chemo to spare neurocognition), and total-body irradiation conditions the marrow before allogeneic transplant in high-risk disease."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Acute lymphoblastic leukemia and diffuse large B-cell lymphoma are aggressive B-cell cancers at opposite ends of maturation: ALL is a precursor-lymphoblast malignancy of children on prolonged multi-agent chemo, while DLBCL is a mature B-cell tumor of adults cured by R-CHOP."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -215,6 +224,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — ALL and CML intersect at the Philadelphia chromosome: BCR-ABL1 defines CML and ~25% of adult B-ALL (Ph+ ALL), the highest-risk subtype, so both use ABL tyrosine-kinase inhibitors (imatinib, dasatinib, ponatinib); a CML blast crisis can present as acute lymphoblastic leukemia.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Mature B-cell ALL is biologically Burkitt leukemia: it shares the MYC t(8;14), starry-sky morphology and explosive growth of Burkitt lymphoma, presenting as a leukemic phase rather than a mass, and both are cured by short, intensive, CNS-directed chemo not standard ALL regimens.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — T-cell ALL arises in the thymus: malignant transformation of developing thymocytes (often via NOTCH1) produces a mediastinal thymic mass with airway/SVC compression at presentation, distinguishing it from marrow-based B-ALL and reflecting the thymus's role in T-cell development.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Acute lymphoblastic leukemia is the paradigm cancer for cytotoxic T-cell therapy: CD19-directed CAR-T cells reprogram cytotoxic T cells to kill the leukemic B lymphoblasts, achieving deep remissions in relapsed B-ALL—the first CAR-T approval (tisagenlecleucel).
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation has a defined role in acute lymphoblastic leukemia: cranial irradiation once prevented CNS relapse (now mostly replaced by intrathecal chemo to spare neurocognition), and total-body irradiation conditions the marrow before allogeneic transplant in high-risk disease.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Acute lymphoblastic leukemia and diffuse large B-cell lymphoma are aggressive B-cell cancers at opposite ends of maturation: ALL is a precursor-lymphoblast malignancy of children on prolonged multi-agent chemo, while DLBCL is a mature B-cell tumor of adults cured by R-CHOP.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

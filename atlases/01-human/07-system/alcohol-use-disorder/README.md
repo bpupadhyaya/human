@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Alcohol and opioid use disorders frequently co-occur and are dangerous together: both are CNS depressants, so combined use multiplies respiratory depression and overdose death; they share reward and stress circuitry, and concurrent alcohol complicates opioid agonist therapy."
+  - target: 01-human/07-system/stimulant-use-disorder
+    relation: connects-to
+    note: "Alcohol and stimulant use disorders frequently co-occur and interact dangerously: alcohol is used to come down from stimulants, cocaine plus alcohol forms toxic cocaethylene, and both engage overlapping dopamine reward circuitry—so polysubstance use worsens outcomes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Alcohol use disorder and depression are intertwined and bidirectional: people drink to relieve low mood, but alcohol is a depressant that deepens depression and suicide risk, and both share serotonergic and stress-axis dysregulation—so both need treating together."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Hepatocytes bear the metabolic brunt of alcohol: they oxidize ethanol via alcohol dehydrogenase and CYP2E1, generating acetaldehyde and ROS that cause fatty change, ballooning, and death—so steatosis, hepatitis, and cirrhosis trace to hepatocyte injury."
 ---
 
 # Alcohol Use Disorder
@@ -267,6 +276,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver bears the brunt of alcohol use disorder: ethanol metabolism to acetaldehyde and a shifted NADH/NAD ratio drive steatosis → alcoholic hepatitis → fibrosis and cirrhosis; abstinence reverses early disease, but cirrhosis is the gateway to liver failure and cancer.
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Alcohol use disorder is a major cause of hepatocellular carcinoma: alcoholic cirrhosis is the inflamed, regenerating background on which HCC arises, and alcohol multiplies the risk from hepatitis B/C—so HCC surveillance is essential once cirrhosis develops.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Alcohol and opioid use disorders frequently co-occur and are dangerous together: both are CNS depressants, so combined use multiplies respiratory depression and overdose death; they share reward and stress circuitry, and concurrent alcohol complicates opioid agonist therapy.
+- `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Alcohol and stimulant use disorders frequently co-occur and interact dangerously: alcohol is used to come down from stimulants, cocaine plus alcohol forms toxic cocaethylene, and both engage overlapping dopamine reward circuitry—so polysubstance use worsens outcomes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Alcohol use disorder and depression are intertwined and bidirectional: people drink to relieve low mood, but alcohol is a depressant that deepens depression and suicide risk, and both share serotonergic and stress-axis dysregulation—so both need treating together.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatocytes bear the metabolic brunt of alcohol: they oxidize ethanol via alcohol dehydrogenase and CYP2E1, generating acetaldehyde and ROS that cause fatty change, ballooning, and death—so steatosis, hepatitis, and cirrhosis trace to hepatocyte injury.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
