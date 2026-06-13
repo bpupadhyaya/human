@@ -58,6 +58,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "Bacterial infection — often Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella — drives roughly a quarter of COPD exacerbations; purulent sputum guides antibiotics, and pneumococcal vaccination is recommended to help prevent them."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "COPD and lung cancer are smoking's twin diseases that frequently coexist: shared tobacco-driven inflammation, oxidative stress and impaired DNA repair mean COPD independently raises NSCLC risk, COPD limits surgery, and both are screened together with low-dose CT in heavy smokers."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "RSV is an underappreciated driver of COPD exacerbations: it infects airway epithelium to provoke neutrophilic inflammation and bronchospasm, accounting for a notable share of hospitalized flares in older adults; new adult RSV vaccines (Arexvy, Abrysvo) help reduce this burden."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Cigarette smoke is the dominant cause of COPD: inhaled carbon-rich particulates and combustion chemicals trigger protease-antiprotease imbalance and chronic neutrophilic inflammation → emphysema and small-airway fibrosis; cessation is the only intervention that slows decline."
 ---
 
 # COPD
@@ -214,6 +223,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Cystic Fibrosis](../cystic-fibrosis/README.md)** — COPD and cystic fibrosis are chronic obstructive airway diseases: COPD is acquired emphysema from decades of cigarette smoke, while CF is inherited CFTR failure causing childhood bronchiectasis — yet both end in neutrophilic airway destruction and respiratory failure.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe COPD strains the right heart: chronic hypoxia drives pulmonary vasoconstriction and arteriolar remodeling → pulmonary hypertension (WHO Group 3) → right ventricular hypertrophy and failure (cor pulmonale), with raised JVP and peripheral edema.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Bacterial infection — often Streptococcus pneumoniae, Haemophilus influenzae, or Moraxella — drives roughly a quarter of COPD exacerbations; purulent sputum guides antibiotics, and pneumococcal vaccination is recommended to help prevent them.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — COPD and lung cancer are smoking's twin diseases that frequently coexist: shared tobacco-driven inflammation, oxidative stress and impaired DNA repair mean COPD independently raises NSCLC risk, COPD limits surgery, and both are screened together with low-dose CT in heavy smokers.
+- `connects-to` → **[RSV](../rsv/README.md)** — RSV is an underappreciated driver of COPD exacerbations: it infects airway epithelium to provoke neutrophilic inflammation and bronchospasm, accounting for a notable share of hospitalized flares in older adults; new adult RSV vaccines (Arexvy, Abrysvo) help reduce this burden.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Cigarette smoke is the dominant cause of COPD: inhaled carbon-rich particulates and combustion chemicals trigger protease-antiprotease imbalance and chronic neutrophilic inflammation → emphysema and small-airway fibrosis; cessation is the only intervention that slows decline.
 
 ---
 

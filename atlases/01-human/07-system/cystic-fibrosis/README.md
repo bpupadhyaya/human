@@ -52,6 +52,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Staphylococcus aureus is typically the first chronic airway colonizer in cystic fibrosis, dominating childhood before Pseudomonas takes over in adolescence; persistent S. aureus feeds the neutrophilic inflammation that drives early bronchiectasis."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The pancreas is a major target of cystic fibrosis: thick CFTR-deficient secretions plug pancreatic ducts → autodigestion and fibrosis → exocrine insufficiency (malabsorption, steatorrhea needing enzyme replacement) and, as islets are destroyed, CF-related diabetes."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Cystic fibrosis and COPD are both chronic obstructive, neutrophil-driven airway diseases with mucus plugging and infective exacerbations, but differ in cause: CF is a monogenic CFTR channel defect from birth, COPD an acquired (usually smoking-driven) disease of later life."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Cystic fibrosis-related diabetes is the commonest CF comorbidity in adults: progressive destruction of pancreatic islets by the same ductal disease that causes exocrine failure produces an insulin-deficient diabetes distinct from type 1 and type 2, worsening lung function."
 ---
 
 # Cystic Fibrosis
@@ -191,6 +200,9 @@ AND
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Cystic fibrosis is at root a chloride-transport disease: CFTR is an apical chloride channel, so its loss leaves epithelia unable to move chloride and water, dehydrating secretions into thick mucus — and the same defect raises sweat chloride above 60 mmol/L, the diagnostic test.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung carries most of cystic fibrosis's morbidity: dehydrated mucus cripples mucociliary clearance, inviting chronic Pseudomonas and Staph infection and neutrophilic inflammation that scars airways into bronchiectasis — historically the leading cause of CF death.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Staphylococcus aureus is typically the first chronic airway colonizer in cystic fibrosis, dominating childhood before Pseudomonas takes over in adolescence; persistent S. aureus feeds the neutrophilic inflammation that drives early bronchiectasis.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is a major target of cystic fibrosis: thick CFTR-deficient secretions plug pancreatic ducts → autodigestion and fibrosis → exocrine insufficiency (malabsorption, steatorrhea needing enzyme replacement) and, as islets are destroyed, CF-related diabetes.
+- `connects-to` → **[COPD](../copd/README.md)** — Cystic fibrosis and COPD are both chronic obstructive, neutrophil-driven airway diseases with mucus plugging and infective exacerbations, but differ in cause: CF is a monogenic CFTR channel defect from birth, COPD an acquired (usually smoking-driven) disease of later life.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Cystic fibrosis-related diabetes is the commonest CF comorbidity in adults: progressive destruction of pancreatic islets by the same ductal disease that causes exocrine failure produces an insulin-deficient diabetes distinct from type 1 and type 2, worsening lung function.
 
 ---
 
