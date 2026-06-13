@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Survivors of heritable retinoblastoma face a lifelong excess of second cancers including melanoma: the germline RB1 mutation in every cell, compounded by radiotherapy, predisposes to melanoma and sarcomas decades later—so survivorship means lifelong surveillance."
+  - target: 01-human/07-system/uveal-melanoma
+    relation: connects-to
+    note: "Retinoblastoma and uveal melanoma are primary intraocular malignancies at opposite ages: retinoblastoma is a childhood RB1-driven retinal tumor causing leukocoria, while uveal melanoma is an adult GNAQ/BAP1-driven choroidal tumor—differing in cell, age and genetics."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Retinoblastoma and neuroblastoma are both embryonal childhood tumors with eye signs: retinoblastoma causes leukocoria from a retinal tumor, while neuroblastoma causes periorbital metastases and opsoclonus—different origins, overlapping pediatric presentations."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Retinoblastoma links to medulloblastoma through trilateral retinoblastoma: heritable RB1 loss can produce bilateral eye tumors plus a midline brain PNET (pineoblastoma), so RB1, like other embryonal-tumor genes, can seed both retinal and CNS neuroectodermal tumors."
 ---
 
 # Retinoblastoma
@@ -188,6 +197,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a fraught role in retinoblastoma: external-beam photon radiation can control the tumor and save the eye, but in heritable RB1-mutant children it sharply raises second-cancer risk (especially osteosarcoma) in the field—so it is now largely avoided.
 - `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — Retinoblastoma and small cell lung cancer are united by RB1 loss: the tumor-suppressor that, germline-mutated, causes childhood retinoblastoma is inactivated (with TP53) in nearly all small cell lung cancers—one gene across utterly different cancers.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Survivors of heritable retinoblastoma face a lifelong excess of second cancers including melanoma: the germline RB1 mutation in every cell, compounded by radiotherapy, predisposes to melanoma and sarcomas decades later—so survivorship means lifelong surveillance.
+- `connects-to` → **[Uveal Melanoma](../uveal-melanoma/README.md)** — Retinoblastoma and uveal melanoma are primary intraocular malignancies at opposite ages: retinoblastoma is a childhood RB1-driven retinal tumor causing leukocoria, while uveal melanoma is an adult GNAQ/BAP1-driven choroidal tumor—differing in cell, age and genetics.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Retinoblastoma and neuroblastoma are both embryonal childhood tumors with eye signs: retinoblastoma causes leukocoria from a retinal tumor, while neuroblastoma causes periorbital metastases and opsoclonus—different origins, overlapping pediatric presentations.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Retinoblastoma links to medulloblastoma through trilateral retinoblastoma: heritable RB1 loss can produce bilateral eye tumors plus a midline brain PNET (pineoblastoma), so RB1, like other embryonal-tumor genes, can seed both retinal and CNS neuroectodermal tumors.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

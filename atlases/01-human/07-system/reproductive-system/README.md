@@ -59,6 +59,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "Sex hormones shape the skin, linking reproductive and integumentary systems: androgens drive sebaceous glands and acne and pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so skin reflects gonadal hormonal state."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Prostate cancer is the commonest male reproductive-system malignancy: its androgen-driven epithelium turns malignant, and because growth depends on testosterone, androgen-deprivation therapy is central—a hormone that both builds and treats its tumor."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Ovarian cancer is the most lethal gynecologic reproductive-system cancer: arising from ovarian/fallopian epithelium it spreads silently through the peritoneum, so it usually presents late—and its hormonal and BRCA-linked biology ties it to the reproductive axis."
+  - target: 01-human/07-system/cervical-cancer
+    relation: connects-to
+    note: "Cervical cancer shows how infection drives reproductive-system cancer: persistent HPV infection of the cervical transformation zone causes nearly all cases, making it largely preventable by vaccination—a reproductive-tract cancer with an external, eradicable cause."
 ---
 
 # Reproductive System
@@ -188,6 +197,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The reproductive and musculoskeletal systems are coupled through sex hormones: estrogen and testosterone build and maintain bone and muscle, so puberty drives the growth spurt and menopause's estrogen loss accelerates osteoporosis—tying gonads to skeletal health.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — The reproductive and digestive systems interact metabolically: the liver clears and conjugates sex steroids, the gut microbiome's 'estrobolome' recirculates estrogen, and pregnancy crowds abdominal organs—so hormonal and GI physiology are intertwined.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Sex hormones shape the skin, linking reproductive and integumentary systems: androgens drive sebaceous glands and acne and pattern hair, estrogen maintains dermal collagen, and pregnancy alters pigmentation—so skin reflects gonadal hormonal state.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Prostate cancer is the commonest male reproductive-system malignancy: its androgen-driven epithelium turns malignant, and because growth depends on testosterone, androgen-deprivation therapy is central—a hormone that both builds and treats its tumor.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Ovarian cancer is the most lethal gynecologic reproductive-system cancer: arising from ovarian/fallopian epithelium it spreads silently through the peritoneum, so it usually presents late—and its hormonal and BRCA-linked biology ties it to the reproductive axis.
+- `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Cervical cancer shows how infection drives reproductive-system cancer: persistent HPV infection of the cervical transformation zone causes nearly all cases, making it largely preventable by vaccination—a reproductive-tract cancer with an external, eradicable cause.
 
 ## Pathology
 
