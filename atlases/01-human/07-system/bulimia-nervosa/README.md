@@ -63,6 +63,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Bulimia and substance use disorders, especially alcohol, frequently co-occur: shared impulsivity and reward-system dysregulation link binge eating and binge drinking, and the combination worsens medical risk and self-harm; integrated treatment of both beats treating either alone."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Bulimia nervosa and OCD overlap in compulsivity and frequently co-occur: the binge-purge cycle has a ritualized, compulsive quality and shares perfectionism and serotonergic dysregulation with OCD—both respond to SSRIs and CBT targeting the compulsive behavior."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety disorders are highly comorbid with bulimia nervosa and often precede it: chronic anxiety and low self-esteem fuel the binge-purge cycle as a way to regulate distress, so generalized anxiety is common, worsens prognosis, and is a target alongside the eating disorder."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Bulimia nervosa involves dysregulated reward and impulse-control neurons: altered dopaminergic and serotonergic signaling in fronto-striatal circuits drives the loss of control over eating and impaired inhibition that define binge-purge episodes, which SSRIs and CBT recalibrate."
 ---
 
 # Bulimia Nervosa
@@ -207,6 +216,9 @@ All of the following must be met:
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is among the commonest bulimia comorbidities: shared serotonergic dysfunction underlies both, the shame of binge-purge cycles deepens low mood, and SSRIs (fluoxetine is the only FDA-approved bulimia drug) treat both—though purging can undermine medication absorption.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Purging makes bulimia dangerous to the heart: self-induced vomiting and laxative abuse waste potassium → hypokalemia that prolongs QT and triggers fatal arrhythmia, the leading cause of sudden death in bulimia; ipecac abuse adds a direct cardiomyopathy.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Bulimia and substance use disorders, especially alcohol, frequently co-occur: shared impulsivity and reward-system dysregulation link binge eating and binge drinking, and the combination worsens medical risk and self-harm; integrated treatment of both beats treating either alone.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Bulimia nervosa and OCD overlap in compulsivity and frequently co-occur: the binge-purge cycle has a ritualized, compulsive quality and shares perfectionism and serotonergic dysregulation with OCD—both respond to SSRIs and CBT targeting the compulsive behavior.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety disorders are highly comorbid with bulimia nervosa and often precede it: chronic anxiety and low self-esteem fuel the binge-purge cycle as a way to regulate distress, so generalized anxiety is common, worsens prognosis, and is a target alongside the eating disorder.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Bulimia nervosa involves dysregulated reward and impulse-control neurons: altered dopaminergic and serotonergic signaling in fronto-striatal circuits drives the loss of control over eating and impaired inhibition that define binge-purge episodes, which SSRIs and CBT recalibrate.
 
 ## Treatment
 

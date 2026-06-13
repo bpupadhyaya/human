@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Bloom syndrome is markedly photosensitive: BLM helicase loss leaves cells unable to resolve replication stress, so ultraviolet photons readily cause the characteristic sun-exposed facial erythema (butterfly rash) and add to the cancer risk—patients need strict sun protection."
+  - target: 01-human/07-system/rothmund-thomson
+    relation: connects-to
+    note: "Bloom syndrome and Rothmund-Thomson are RecQ-helicase genome-instability disorders: Bloom (BLM), Rothmund-Thomson (RECQL4), and Werner (WRN) share defective DNA helicases causing chromosomal instability, growth failure, and high cancer risk."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Bloom syndrome carries a strikingly high rate of early type 2 diabetes: despite low body weight, severe insulin resistance develops, so diabetes appears in childhood—part of a broad phenotype of growth deficiency, immunodeficiency, and cancer from BLM helicase loss."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Bloom syndrome includes an immunodeficiency: BLM helicase loss impairs lymphocyte development and antibody class-switching, causing low immunoglobulins and recurrent respiratory and ear infections—so immune failure compounds the genome instability driving its cancers."
 ---
 
 # Bloom Syndrome
@@ -213,6 +222,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Werner Syndrome](../werner-syndrome/README.md)** — Bloom and Werner syndrome are both RecQ-helicase disorders of genomic instability: Bloom (BLM) causes sister-chromatid exchange, sun-sensitive rash, short stature and early cancers, while Werner (WRN) causes premature aging and sarcomas—RecQ members whose loss destabilizes DNA.
 - `connects-to` → **[AML](../aml/README.md)** — Leukemia is a leading Bloom-syndrome cancer: the BLM helicase defect causes extreme chromosomal instability and sister-chromatid exchange, so AML and ALL arise at strikingly young ages, and—because Bloom cells are hypersensitive to DNA-damaging agents—chemo doses must be reduced.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Bloom syndrome is markedly photosensitive: BLM helicase loss leaves cells unable to resolve replication stress, so ultraviolet photons readily cause the characteristic sun-exposed facial erythema (butterfly rash) and add to the cancer risk—patients need strict sun protection.
+- `connects-to` → **[Rothmund-Thomson Syndrome](../rothmund-thomson/README.md)** — Bloom syndrome and Rothmund-Thomson are RecQ-helicase genome-instability disorders: Bloom (BLM), Rothmund-Thomson (RECQL4), and Werner (WRN) share defective DNA helicases causing chromosomal instability, growth failure, and high cancer risk.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Bloom syndrome carries a strikingly high rate of early type 2 diabetes: despite low body weight, severe insulin resistance develops, so diabetes appears in childhood—part of a broad phenotype of growth deficiency, immunodeficiency, and cancer from BLM helicase loss.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Bloom syndrome includes an immunodeficiency: BLM helicase loss impairs lymphocyte development and antibody class-switching, causing low immunoglobulins and recurrent respiratory and ear infections—so immune failure compounds the genome instability driving its cancers.
 
 ---
 
