@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The eye is a frequent first window into multiple sclerosis: optic neuritis—painful monocular vision loss—is a common presenting attack, and internuclear ophthalmoplegia from a brainstem plaque is highly suggestive; OCT retinal thinning now tracks neurodegeneration in MS."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression is the commonest psychiatric comorbidity of multiple sclerosis: it stems both from demyelinating lesions in mood circuits and from the burden of chronic disability—often underrecognized, it degrades quality of life and warrants active screening."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon was the first disease-modifying therapy for multiple sclerosis: interferon-β shifts immunity away from the pro-inflammatory Th17/Th1 pattern driving demyelination, reducing relapses—paradoxically, since the same cytokine family drives autoimmunity."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Multiple sclerosis is increasingly a neurodegenerative as well as demyelinating disease: beyond myelin loss, axonal and neuronal injury accumulates and underlies progressive disability, so neuroprotection—not just anti-inflammatory therapy—is a key unmet goal."
 ---
 
 # Multiple Sclerosis
@@ -189,6 +198,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[NMOSD](../nmo/README.md)** — MS and NMOSD were long conflated until AQP4-IgG distinguished them: MS is T-cell/myelin-directed with small CNS plaques and a relapsing course, while NMOSD is AQP4-IgG astrocyte attack with severe optic neuritis and extensive myelitis—and MS drugs like interferon-β worsen NMOSD.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are now central to multiple sclerosis: beyond antibody they present antigen and form meningeal follicles driving cortical damage, and anti-CD20 therapies (ocrelizumab, ofatumumab) that deplete B cells are among the most effective treatments for MS.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye is a frequent first window into multiple sclerosis: optic neuritis—painful monocular vision loss—is a common presenting attack, and internuclear ophthalmoplegia from a brainstem plaque is highly suggestive; OCT retinal thinning now tracks neurodegeneration in MS.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is the commonest psychiatric comorbidity of multiple sclerosis: it stems both from demyelinating lesions in mood circuits and from the burden of chronic disability—often underrecognized, it degrades quality of life and warrants active screening.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon was the first disease-modifying therapy for multiple sclerosis: interferon-β shifts immunity away from the pro-inflammatory Th17/Th1 pattern driving demyelination, reducing relapses—paradoxically, since the same cytokine family drives autoimmunity.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Multiple sclerosis is increasingly a neurodegenerative as well as demyelinating disease: beyond myelin loss, axonal and neuronal injury accumulates and underlies progressive disability, so neuroprotection—not just anti-inflammatory therapy—is a key unmet goal.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

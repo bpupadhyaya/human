@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Migraine aura is a neuronal event: cortical spreading depression—a slow wave of neuronal and glial depolarization then suppression—sweeps the cortex producing visual aura and activating trigeminal pain pathways; neuronal hyperexcitability underlies susceptibility."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Migraine and neuropathic pain share central sensitization and CGRP signaling: trigeminovascular activation amplifies pain like a sensitized nerve, and the two overlap in treatment—anti-CGRP antibodies, sodium-channel blockers, and tricyclics help both."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Migraine and generalized anxiety are bidirectionally linked: anxiety is a leading migraine comorbidity, each worsens the other, and shared serotonergic and stress-axis biology underlies the overlap—so screening for and treating anxiety improves migraine outcomes."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia are implicated in migraine through neuroinflammation: cortical spreading depression—the wave behind aura—activates microglia that release mediators sensitizing trigeminal pain pathways, so glial neuroinflammation is an emerging target in chronic migraine."
 ---
 
 # Migraine
@@ -220,6 +229,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Migraine and fibromyalgia frequently co-occur and share central sensitization: both feature amplified pain processing, failed descending inhibition and CGRP/serotonin involvement, so the comorbidity worsens disability, and SNRIs and anti-CGRP antibodies are studied across both.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Migraine and insomnia are bidirectionally linked through shared hypothalamic and brainstem circuitry: poor sleep is a common migraine trigger while migraine disrupts sleep, both involve orexin and serotonergic systems, and treating insomnia (CBT-I) reduces headache frequency.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Migraine aura is a neuronal event: cortical spreading depression—a slow wave of neuronal and glial depolarization then suppression—sweeps the cortex producing visual aura and activating trigeminal pain pathways; neuronal hyperexcitability underlies susceptibility.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Migraine and neuropathic pain share central sensitization and CGRP signaling: trigeminovascular activation amplifies pain like a sensitized nerve, and the two overlap in treatment—anti-CGRP antibodies, sodium-channel blockers, and tricyclics help both.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Migraine and generalized anxiety are bidirectionally linked: anxiety is a leading migraine comorbidity, each worsens the other, and shared serotonergic and stress-axis biology underlies the overlap—so screening for and treating anxiety improves migraine outcomes.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia are implicated in migraine through neuroinflammation: cortical spreading depression—the wave behind aura—activates microglia that release mediators sensitizing trigeminal pain pathways, so glial neuroinflammation is an emerging target in chronic migraine.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
