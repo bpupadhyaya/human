@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Musculoskeletal System — 206 bones and ~600 skeletal muscles providing support, movement, haematopoiesis, mineral homeostasis, and endocrine signalling via osteocalcin and myokines. Scale 07 of the Human Atlas.">
+  <meta name="description" content="206 bones and ~600 skeletal muscles providing support, movement, haematopoiesis, mineral homeostasis, thermogenesis, and endocrine signaling via osteocalcin and">
   <meta property="og:title" content="Musculoskeletal System — Human Engineering">
   <meta name="theme-color" content="#f2f2f7">
   <title>Musculoskeletal System — Human Engineering</title>
@@ -13,18 +13,25 @@
       --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
       --border: #d1d1d6; --border-soft: #e5e5ea;
       --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
-      --accent: #dc2626;
+      --accent: #0284c7;
       --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
     a { color: var(--bio); text-decoration: none; transition: color .15s; }
     a:hover { color: var(--human); }
-    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
-    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
-    .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio)); box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
     .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
     .nav-links a { color: var(--muted); font-weight: 500; }
     .nav-links a:hover { color: var(--fg); }
@@ -32,50 +39,52 @@
     .nav-back svg { width: 14px; height: 14px; }
     @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
     .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
-    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem; background: rgba(220,38,38,0.1); color: var(--accent); border-radius: 999px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em; color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
-    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft); max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
-    .hero .subtagline { font-size: 0.98rem; color: var(--muted); max-width: 700px; }
-    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
     .stat { display: flex; flex-direction: column; }
     .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
-    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
     main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
-    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
-    .detail-header { padding: 2rem 2rem 1.75rem; background: linear-gradient(135deg, #dc2626, #7f1d1d); }
-    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
-    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white; letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
     .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
     .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
-    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
-    .detail-section p { color: var(--fg-soft); font-size: 0.95rem; line-height: 1.65; margin-bottom: 0.6rem; }
-    .detail-section p:last-child { margin-bottom: 0; }
-    .detail-section strong { color: var(--fg); }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
     .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
-    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg); font-weight: 600; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
-    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft); color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
-    .data-table td:first-child { font-weight: 600; color: var(--fg); }
-    .data-table td strong { color: var(--fg); font-weight: 700; }
-    .circuit-diagram { background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); padding: 1.25rem 1.5rem; overflow-x: auto; }
-    .circuit-diagram pre { font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.82rem; line-height: 1.6; color: var(--fg-soft); }
-    .formula-block { background: var(--bg); border-left: 3px solid var(--accent); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 0.85rem 1.1rem; margin: 0.5rem 0; font-family: "SF Mono", "Fira Code", "Consolas", monospace; font-size: 0.9rem; color: var(--fg); }
-    .formula-note { font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-    .info-block { background: var(--bg); border-radius: var(--radius-sm); padding: 1rem 1.1rem; }
-    .info-block h4 { font-size: 0.85rem; font-weight: 700; color: var(--fg); margin-bottom: 0.4rem; }
-    .info-block p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; }
-    .pathology-item { padding: 0.85rem 1rem; background: var(--bg); border-radius: var(--radius-sm); border-left: 3px solid var(--border); margin-bottom: 0.5rem; }
-    .pathology-item:last-child { margin-bottom: 0; }
-    .pathology-item h4 { font-size: 0.88rem; font-weight: 700; color: var(--fg); margin-bottom: 0.2rem; }
-    .pathology-item p { font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
-    .pathology-item.danger { border-left-color: #dc2626; }
-    .pathology-item.warn { border-left-color: var(--human); }
-    .pathology-item.info { border-left-color: var(--eng); }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
     .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem; background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
     .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
-    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
     .conn-pill.part .rel { color: var(--ai); }
     .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
     .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
@@ -99,7 +108,6 @@
       </a>
       <div class="nav-links">
         <a href="index.html#mission">Mission</a>
-        <a href="index.html#scales">Scales</a>
         <a href="pathogens.html">Pathogens</a>
         <a href="medicine.html">Medicine</a>
         <a href="index.html" class="nav-back">
@@ -111,156 +119,68 @@
   </nav>
 
   <div class="hero">
-    <div class="hero-eyebrow">Atlas One &middot; Human &middot; Scale 07 &mdash; System</div>
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
     <h1>Musculoskeletal System</h1>
-    <p class="tagline">206 bones and ~600 skeletal muscles (~40% of body mass) providing structural support, locomotion, protection, and far more: haematopoiesis, mineral homeostasis, thermogenesis, and endocrine crosstalk via osteocalcin and myokines (IL-6, irisin, BDNF, VEGF).</p>
-    <p class="subtagline">UBERON:0002204. The skeleton holds 99% of body calcium. Red bone marrow continuously produces ~500 billion blood cells per day. Exercising muscle secretes myokines that shape metabolism, immunity, and cognition.</p>
+    <p class="tagline">206 bones and ~600 skeletal muscles providing support, movement, haematopoiesis, mineral homeostasis, thermogenesis, and endocrine signaling via osteocalcin and myokines (IL-6, irisin, BDNF).</p>
+    <p class="aliases">Also known as: locomotor system, skeletal system, muscular system, myoskeletal system</p>
     <div class="stat-row">
-      <div class="stat"><span class="stat-num">206</span><span class="stat-label">Bones (adult)</span></div>
-      <div class="stat"><span class="stat-num">~600</span><span class="stat-label">Skeletal muscles</span></div>
-      <div class="stat"><span class="stat-num">99%</span><span class="stat-label">Body calcium in skeleton</span></div>
-      <div class="stat"><span class="stat-num">~40%</span><span class="stat-label">Body mass (muscle)</span></div>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-05</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
 
   <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
+    </div>
+
     <div class="detail-card">
-      <div class="detail-header">
-        <div class="entry-eyebrow">UBERON:0002204 &middot; Atlas One / Scale 07</div>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">musculoskeletal-system</div>
         <h2>Musculoskeletal System</h2>
-        <p class="summary">The musculoskeletal system encompasses 206 bones, ~600 skeletal muscles (~40% of body mass), tendons, ligaments, ~400 joints, and the connective tissue matrices binding these structures. Far from merely providing mechanical support, it is a major metabolic, endocrine, haematopoietic, and thermogenic organ: the skeleton holds 99% of body calcium in hydroxyapatite [Ca₁₀(PO₄)₆(OH)₂] and houses red bone marrow; osteocalcin from osteoblasts promotes insulin secretion; contracting muscle secretes myokines (IL-6, irisin, BDNF, VEGF, FGF21) coordinating whole-body metabolism; shivering thermogenesis in cold is almost entirely skeletal muscle-driven.</p>
+        <p class="summary">206 bones and ~600 skeletal muscles providing support, movement, haematopoiesis, mineral homeostasis, thermogenesis, and endocrine signaling via osteocalcin and myokines (IL-6, irisin, BDNF).</p>
       </div>
       <div class="detail-body">
 
         <div class="detail-section">
-          <h3>Overview</h3>
-          <p>The musculoskeletal system's non-mechanical roles are often underappreciated. <strong>Bone</strong> is not inert mineral — it is a dynamic endocrine organ undergoing continuous remodelling (~10% of skeleton renewed per year) by coupled osteoclast–osteoblast activity, regulated by PTH, oestrogen, calcitriol, and mechanical loading (Wolff's law). The osteoblast-derived hormone osteocalcin enters the circulation to stimulate insulin secretion and muscle glucose uptake — a bone-to-pancreas-to-muscle endocrine axis. <strong>Skeletal muscle</strong> is the dominant site of insulin-stimulated glucose disposal (80% of postprandial glucose uptake) and, through exercise-induced myokine secretion, communicates with adipose tissue (irisin → browning), the brain (BDNF → hippocampal neurogenesis), liver (IL-6 → gluconeogenesis + anti-inflammatory IL-10), and the vasculature (VEGF → angiogenesis).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Bone Biology</h3>
+          <h3>Entry Metadata</h3>
           <table class="data-table">
-            <tr><th>Cell</th><th>Origin</th><th>Function</th></tr>
-            <tr><td><strong>Osteoblasts</strong></td><td>Mesenchymal stem cells</td><td>Synthesise osteoid (type I collagen, osteocalcin, osteopontin, bone sialoprotein); mineralisation; regulate HSC niche (CXCL12, SCF, Angpt-1)</td></tr>
-            <tr><td><strong>Osteocytes</strong></td><td>Embedded osteoblasts</td><td>Mechanosensing via canalicular network; sclerostin (Wnt/LRP5 antagonist → ↓formation); FGF-23 (phosphatonin → kidney Pi excretion)</td></tr>
-            <tr><td><strong>Osteoclasts</strong></td><td>Monocyte-macrophage lineage (RANKL-driven)</td><td>Bone resorption via ruffled border V-ATPase (pH ~4.5) + cathepsin K + MMPs; Howship's lacunae; regulated by RANKL/RANK/OPG triad</td></tr>
-            <tr><td><strong>Bone lining cells</strong></td><td>Quiescent osteoblasts</td><td>Surface coverage of resting bone; activated by PTH or mechanical stimuli</td></tr>
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>musculoskeletal-system</td></tr>
+            <tr><td>Name</td><td>Musculoskeletal System</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-05</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
           </table>
-          <p style="margin-top:0.75rem;"><strong>Remodelling cycle (BMU — basic multicellular unit):</strong> Activation (osteocyte mechanosensing or systemic signals → RANKL/OPG ratio ↑ → osteoclast recruitment) → Resorption (2–4 weeks) → Reversal (coupling factors TGF-β, IGF-1, BMP released → recruit osteoblasts) → Formation (3–4 months) → Mineralisation and rest. Oestrogen normally suppresses RANKL-driven osteoclastogenesis; menopause → rapid bone loss.</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Skeletal Muscle — Excitation-Contraction Coupling</h3>
-          <div class="circuit-diagram">
-<pre>
-  Motor neuron action potential
-       │ ACh released at NMJ → nAChR (Nm)
-       ▼
-  End-plate potential → sarcolemmal AP propagates
-       │ enters T-tubules
-       ▼
-  DHPR (L-type Ca²⁺ channel) in T-tubule
-       │ mechanical gating of RyR1 (sarcoplasmic reticulum)
-       ▼
-  Massive SR Ca²⁺ release (100 nM → 10–100 µM cytosolic)
-       │
-       ▼
-  Ca²⁺ binds Troponin C → conformational change
-  → Tropomyosin shifts off actin myosin-binding sites
-  → Myosin S1 binds actin
-  → ATP hydrolysis → POWER STROKE (sarcomere shortens)
-  → ADP+Pi release → rigor → new ATP resets cycle
-       │
-  RELAXATION: SERCA1a pumps Ca²⁺ back into SR
-  (PLN modulates SERCA; ATP-dependent)
-
-  HENNEMAN'S SIZE PRINCIPLE:
-  Low-threshold slow type I fibres recruited first
-  (fatigue-resistant, oxidative) → type IIa → type IIx last
-  (explosive, glycolytic, fatigable)
-</pre>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Key Functions</h3>
-          <p><strong>Mineral homeostasis:</strong> Skeleton holds 99% of body calcium (~1 kg) in hydroxyapatite. Serum ionised Ca²⁺ maintained at 1.1–1.3 mM by coupled PTH (↑osteoclastogenesis via ↑RANKL/↓OPG → bone resorption → ↑Ca²⁺), calcitriol (↑intestinal absorption), and calcitonin (↓osteoclasts). Osteocytes produce FGF-23 (phosphatonin) to regulate kidney phosphate excretion.</p>
-          <p><strong>Haematopoiesis:</strong> Red bone marrow in axial skeleton and proximal long bones produces ~500 billion blood cells per day. Osteoblasts are essential HSC niche cells regulating quiescence and mobilisation via CXCL12/CXCR4, SCF/c-Kit, Angpt-1/Tie2. G-CSF mobilises HSCs by disrupting CXCL12/CXCR4.</p>
-          <p><strong>Myokines — muscle as endocrine organ:</strong></p>
-          <table class="data-table">
-            <tr><th>Myokine</th><th>Trigger</th><th>Key systemic effects</th></tr>
-            <tr><td><strong>IL-6</strong></td><td>Muscle contraction (AMPK), glycogen depletion</td><td>Hepatic gluconeogenesis; induces anti-inflammatory IL-10 and IL-1RA; insulin-sensitising; lipolysis in adipose</td></tr>
-            <tr><td><strong>Irisin</strong> (FNDC5 cleavage)</td><td>Exercise via PGC-1α</td><td>Browning of white adipose (↑UCP1); ↑BDNF in hippocampus → memory + neuroplasticity; ↑bone density</td></tr>
-            <tr><td><strong>BDNF</strong></td><td>Endurance exercise</td><td>Hippocampal neurogenesis; memory consolidation; motor learning</td></tr>
-            <tr><td><strong>VEGF</strong></td><td>Hypoxia, exercise</td><td>Angiogenesis; ↑capillary density in trained muscle; ↓O₂ diffusion distance to mitochondria</td></tr>
-            <tr><td><strong>FGF21</strong></td><td>Prolonged exercise, fasting</td><td>↑fatty acid oxidation; ↑ketogenesis; ↑insulin sensitivity</td></tr>
-          </table>
-          <p style="margin-top:0.75rem;"><strong>Thermogenesis:</strong> Shivering (involuntary rapid oscillatory contraction; anterior hypothalamic cold sensors → dorsomedial hypothalamus → motor neurons) generates heat by ATP hydrolysis without net mechanical work — the major heat source during cold exposure in adults (non-shivering thermogenesis via BAT/UCP1 dominates in neonates).</p>
-        </div>
-
-        <div class="detail-section">
-          <h3>Exercise Adaptation</h3>
-          <div class="two-col">
-            <div class="info-block">
-              <h4>Resistance training</h4>
-              <p>Mechanical stretch + mTORC1 activation → ↑muscle protein synthesis; satellite cell (muscle stem cell) activation → myonuclei addition → myofibre hypertrophy. ↑GLUT4 protein expression → greater insulin-stimulated glucose uptake at rest.</p>
-            </div>
-            <div class="info-block">
-              <h4>Endurance training</h4>
-              <p>Ca²⁺ transients + AMPK → PGC-1α → TFAM → ↑mitochondrial biogenesis; ↑oxidative capacity; ↑VO₂max. VEGF → angiogenesis → ↑capillary density. Weight-bearing → osteocyte mechanosensing → ↓sclerostin → ↑Wnt → ↑bone formation.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="detail-section">
-          <h3>Pathology</h3>
-          <div class="pathology-item danger">
-            <h4>Osteoporosis</h4>
-            <p>Imbalanced remodelling (net resorption &gt; formation) → ↓BMD → fragility fractures. Leading cause: oestrogen deficiency at menopause (↓OPG → ↑RANKL → ↑osteoclasts). Secondary causes: glucocorticoid excess (↓OPG, ↓collagen synthesis, ↓gut Ca²⁺ absorption), hyperparathyroidism, hypogonadism, malabsorption. BMD T-score ≤−2.5 = osteoporosis; −1.0 to −2.5 = osteopenia. Antiresorptives: bisphosphonates (↑osteoclast apoptosis), denosumab (anti-RANKL mAb). Anabolics: teriparatide (intermittent PTH 1-34), abaloparatide, romosozumab (anti-sclerostin).</p>
-          </div>
-          <div class="pathology-item danger">
-            <h4>Rheumatoid Arthritis (RA)</h4>
-            <p>Autoimmune synovitis: anti-citrullinated protein antibodies (ACPA) + rheumatoid factor → Th17 and macrophage-driven pannus → cartilage and bone erosion via RANKL-mediated osteoclast activation + MMPs. Systemic effects: ↑CVD risk, anaemia of chronic disease. DMARDs: methotrexate (anchor drug), hydroxychloroquine. Biologics: anti-TNF (etanercept, adalimumab), anti-IL-6R (tocilizumab), abatacept (CTLA4-Ig), rituximab (anti-CD20).</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Osteoarthritis (OA)</h4>
-            <p>Progressive articular cartilage breakdown (↑MMP-1/3/13, ADAMTS-4/5 → ↓aggrecan + ↓type II collagen), subchondral bone sclerosis + osteophyte formation, synovial inflammation (↑IL-1β, TNF-α, IL-6). Risk factors: ageing, obesity (mechanical + adipokine-mediated), female sex, prior joint injury. Management: exercise (most effective), weight loss, NSAIDs, intra-articular corticosteroids, total joint arthroplasty for end-stage.</p>
-          </div>
-          <div class="pathology-item warn">
-            <h4>Sarcopenia</h4>
-            <p>Age-related muscle mass and function loss (~1%/year after age 30; accelerates after 60). Pathophysiology: ↓satellite cell pool, ↑anabolic resistance (to protein/insulin), ↑myostatin (TGF-β family → Smad2/3 → ↓protein synthesis), inflammaging (IL-6, TNF-α → ubiquitin-proteasome degradation), ↓motor unit innervation. Treatment: resistance exercise + adequate protein (1.2–1.6 g/kg/day) + vitamin D; investigational myostatin inhibitors.</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Duchenne Muscular Dystrophy (DMD)</h4>
-            <p>X-linked frameshift mutation in dystrophin (Xp21.2, largest human gene). Dystrophin connects actin to ECM (laminin) via DAPC. Absence → mechanical membrane fragility → Ca²⁺ overload → necrosis → fibrotic/fatty replacement. Progressive: loss of ambulation ~12 years; respiratory failure by 20s without ventilatory support. Exon-skipping therapies (eteplirsen, golodirsen), micro-dystrophin gene therapy, glucocorticoids (slow progression).</p>
-          </div>
-          <div class="pathology-item info">
-            <h4>Rhabdomyolysis</h4>
-            <p>Massive skeletal muscle necrosis releasing myoglobin → precipitates in renal tubules (at acid pH) + direct tubular toxicity → AKI. Causes: extreme exertion, crush injury, seizures, statins (CYP3A4 drug interactions), viral myositis. Hallmark: CK &gt;5,000 IU/L, myoglobinuria (dipstick blood+, microscopy RBCs−). Treatment: aggressive IV fluid resuscitation → alkalinise urine.</p>
-          </div>
         </div>
 
         <div class="detail-section">
           <h3>Cross-Atlas Connections</h3>
           <div class="connections">
-            <a class="conn-pill part" href="human-body.html"><span class="rel">Part of</span>Human Body</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Contains</span>Red Bone Marrow (haematopoiesis)</a>
-            <a class="conn-pill" href="cardiovascular-system.html"><span class="rel">Modulates</span>Cardiovascular System (exercise)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Immune System (myokines, HSC niche)</a>
-            <a class="conn-pill" href="index.html#scales"><span class="rel">Modulates</span>Nervous System (motor, reflexes)</a>
-            <a class="conn-pill" href="endocrine-system.html"><span class="rel">Modulates</span>Endocrine System (osteocalcin)</a>
-            <a class="conn-pill" href="reproductive-system.html"><span class="rel">Modulated by</span>Sex steroids (bone density)</a>
+            <a class="conn-pill part" href="bone-marrow.html" title="Red bone marrow (flat bones, vertebrae, proximal femur/humerus in adults) is the primary haematopoietic organ; osteoblasts regulate the HSC niche via CXCL12, SCF, and angiopoietin-1."><span class="rel">contains</span>Bone Marrow</a>
+            <a class="conn-pill" href="cardiovascular-system.html" title="Skeletal muscle exercise drives cardiac output (↑HR, ↑SV, ↑CO); metabolites (CO₂, H⁺, K⁺, adenosine) trigger local vasodilation; myokines (IL-6, VEGF) promote capillary angiogenesis."><span class="rel">modulates</span>Cardiovascular System</a>
+            <a class="conn-pill" href="immune-system.html" title="Bone marrow is the site of HSC haematopoiesis producing all immune cells; exercise-induced IL-6 from muscle induces anti-inflammatory IL-10/IL-1RA; muscle wasting in cachexia is driven by TNF-α/IL-6."><span class="rel">modulates</span>Immune System</a>
+            <a class="conn-pill" href="nervous-system.html" title="Motor neurons innervate skeletal muscle via NMJ (ACh/nicotinic); sensory innervation via muscle spindles (Ia), Golgi tendon organs (Ib); spinal reflexes and cerebellar coordination govern muscle tone."><span class="rel">modulates</span>Nervous System</a>
+            <a class="conn-pill" href="vitamin-d.html" title="Modulated by Vitamin D (Calciferol)."><span class="rel">modulated-by</span>Vitamin D</a>
+            <a class="conn-pill" href="zinc-dietary.html" title="Modulated by Dietary Zinc."><span class="rel">modulated-by</span>Zinc Dietary</a>
+            <a class="conn-pill" href="myostatin.html" title="Myostatin is the primary negative regulator of skeletal muscle mass; aging → elevated myostatin → sarcopenia; cachexia → tumor-induced myostatin → muscle wasting; anti-myostatin biologics (bimagrumab, apitegromab) restore lean mass in sarcopenia and SMA."><span class="rel">modulated-by</span>Myostatin</a>
+            <a class="conn-pill" href="igf-1.html" title="IGF-1 → IGF-1R → IRS-1 → PI3K/Akt/mTOR → skeletal muscle protein synthesis and satellite cell activation; opposes myostatin/SMAD2/3 atrophy signaling; IGF-1 drives osteoblast bone matrix synthesis; declining IGF-1 with aging contributes to sarcopenia and osteoporosis."><span class="rel">modulated-by</span>Igf 1</a>
+            <a class="conn-pill" href="integumentary-system.html" title="The musculoskeletal and integumentary systems form the body's structural exterior: skin, fascia, tendon, muscle and bone are a continuum of collagen-based connective tissue sharing vitamin D dependence, so heritable collagen disorders (Ehlers-Danlos, Marfan) affect both."><span class="rel">connects-to</span>Integumentary System</a>
+            <a class="conn-pill" href="osteoblast.html" title="Osteoblasts build the skeleton of the musculoskeletal system: they deposit and mineralize bone's collagen matrix, balance osteoclast resorption via RANKL/OPG, and help regulate the marrow niche; their decline with age and estrogen loss underlies osteoporosis and fracture."><span class="rel">connects-to</span>Osteoblast</a>
+            <a class="conn-pill" href="calcium.html" title="Calcium is foundational to the musculoskeletal system at two scales: hydroxyapatite gives bone its hardness and the skeleton stores 99% of body calcium, while calcium influx drives actin-myosin cross-bridge cycling in muscle contraction; PTH and vitamin D balance this reservoir."><span class="rel">connects-to</span>Calcium</a>
           </div>
         </div>
 
         <div class="detail-section">
-          <h3>References</h3>
+          <h3>Sources</h3>
           <ul class="refs">
-            <li>Hall JE, Hall ME. <em>Guyton and Hall Textbook of Medical Physiology.</em> 14th ed. Elsevier; 2021. <a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener">elsevier.com</a></li>
-            <li>Alberts B, Johnson A, Lewis J, et al. <em>Molecular Biology of the Cell.</em> 7th ed. W.W. Norton; 2022. <a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener">NCBI Bookshelf</a></li>
-            <li>Pedersen BK, Febbraio MA. Muscles, exercise and obesity: skeletal muscle as a secretory organ. <em>Nat Rev Endocrinol.</em> 2012;8(8):457-465. <a href="https://doi.org/10.1038/nrendo.2012.49" target="_blank" rel="noopener">doi:10.1038/nrendo.2012.49</a></li>
-            <li>Kanis JA, et al. FRAX and the assessment of fracture probability in men and women from the UK. <em>Osteoporos Int.</em> 2008;19(4):385-397. <a href="https://doi.org/10.1007/s00198-007-0543-5" target="_blank" rel="noopener">doi:10.1007/s00198-007-0543-5</a></li>
-            <li>Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus on definition and diagnosis. <em>Age Ageing.</em> 2019;48(1):16-31. <a href="https://doi.org/10.1093/ageing/afy169" target="_blank" rel="noopener">doi:10.1093/ageing/afy169</a></li>
+            <li><a href="https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8" target="_blank" rel="noopener noreferrer">Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14th ed. Elsevier; 2021.</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/books/NBK26880/" target="_blank" rel="noopener noreferrer">Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 7th ed. W.W. Norton; 2022.</a></li>
           </ul>
         </div>
 
@@ -272,13 +192,11 @@
     <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
     <div class="footer-links">
       <a href="index.html">Home</a>
-      <a href="index.html#scales">Scales</a>
       <a href="pathogens.html">Pathogens</a>
       <a href="medicine.html">Medicine</a>
-      <a href="human-body.html">Human Body</a>
-      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
-    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
     <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
   </footer>
 

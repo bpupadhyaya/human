@@ -44,6 +44,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: modulated-by
     note: "IGF-1 → IGF-1R → IRS-1 → PI3K/Akt/mTOR → skeletal muscle protein synthesis and satellite cell activation; opposes myostatin/SMAD2/3 atrophy signaling; IGF-1 drives osteoblast bone matrix synthesis; declining IGF-1 with aging contributes to sarcopenia and osteoporosis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The musculoskeletal and integumentary systems form the body's structural exterior: skin, fascia, tendon, muscle and bone are a continuum of collagen-based connective tissue sharing vitamin D dependence, so heritable collagen disorders (Ehlers-Danlos, Marfan) affect both."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Osteoblasts build the skeleton of the musculoskeletal system: they deposit and mineralize bone's collagen matrix, balance osteoclast resorption via RANKL/OPG, and help regulate the marrow niche; their decline with age and estrogen loss underlies osteoporosis and fracture."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium is foundational to the musculoskeletal system at two scales: hydroxyapatite gives bone its hardness and the skeleton stores 99% of body calcium, while calcium influx drives actin-myosin cross-bridge cycling in muscle contraction; PTH and vitamin D balance this reservoir."
 ---
 
 # Musculoskeletal System
@@ -189,6 +198,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - **Modulates:** [immune-system](../../07-system/immune-system/README.md) — bone marrow produces all immune cells; exercise myokines (IL-6) induce anti-inflammatory responses
 - **Modulates:** [nervous-system](../../07-system/nervous-system/README.md) — motor neurons innervate muscle via NMJ; spinal reflexes and cerebellar coordination control movement
 - `modulated-by` → **[Myostatin](../../03-molecular/myostatin/README.md)** — myostatin is the primary negative regulator of skeletal muscle mass; aging → elevated myostatin → sarcopenia; cachexia → tumor-induced myostatin → muscle wasting; anti-myostatin biologics (bimagrumab, apitegromab) restore lean mass in sarcopenia and SMA.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The musculoskeletal and integumentary systems form the body's structural exterior: skin, fascia, tendon, muscle and bone are a continuum of collagen-based connective tissue sharing vitamin D dependence, so heritable collagen disorders (Ehlers-Danlos, Marfan) affect both.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteoblasts build the skeleton of the musculoskeletal system: they deposit and mineralize bone's collagen matrix, balance osteoclast resorption via RANKL/OPG, and help regulate the marrow niche; their decline with age and estrogen loss underlies osteoporosis and fracture.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is foundational to the musculoskeletal system at two scales: hydroxyapatite gives bone its hardness and the skeleton stores 99% of body calcium, while calcium influx drives actin-myosin cross-bridge cycling in muscle contraction; PTH and vitamin D balance this reservoir.
 
 ## Pathology
 

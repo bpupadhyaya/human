@@ -44,6 +44,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Collagen is the structural backbone of the dermis: type I bundles along Langer's lines give skin its tensile strength, and the ordered swap of type III for type I collagen during wound remodeling sets scar quality — with overactive TGF-β-driven deposition producing keloids."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The integumentary and musculoskeletal systems are the body's structural envelope and frame: skin's collagen-rich dermis is continuous with fascia over muscle and bone, both depend on vitamin D and collagen, and disorders like scleroderma, EDS and dermatomyositis injure both."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Psoriasis is the archetypal disease of the integumentary system: Th17/IL-17-driven keratinocyte hyperproliferation produces scaly plaques, showing the skin's role as an immune barrier; its systemic inflammation links skin to joints (psoriatic arthritis) and metabolic disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells in the dermis are key effectors of the skin's immune barrier: IgE- or MRGPRX2-triggered degranulation releases histamine → wheal-and-flare urticaria, angioedema and itch; they also orchestrate wound healing and the response to venoms and irritants at the body surface."
 ---
 
 # Integumentary System
@@ -158,6 +167,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is the principal organ of the integumentary system — a ~2 m² epidermis-over-dermis barrier renewed every ~28 days that, with hair, nails, and glands, handles physical and immune defense, thermoregulation, sensation, and vitamin D synthesis.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Skin is the body's sole site of vitamin D₃ synthesis: UVB photons (290-320 nm) convert 7-dehydrocholesterol in the epidermis to pre-vitamin D₃; melanin, ageing, high latitude, and sunscreen all cut this output, linking skin pigmentation to systemic calcium and bone health.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the structural backbone of the dermis: type I bundles along Langer's lines give skin its tensile strength, and the ordered swap of type III for type I collagen during wound remodeling sets scar quality — with overactive TGF-β-driven deposition producing keloids.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The integumentary and musculoskeletal systems are the body's structural envelope and frame: skin's collagen-rich dermis is continuous with fascia over muscle and bone, both depend on vitamin D and collagen, and disorders like scleroderma, EDS and dermatomyositis injure both.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Psoriasis is the archetypal disease of the integumentary system: Th17/IL-17-driven keratinocyte hyperproliferation produces scaly plaques, showing the skin's role as an immune barrier; its systemic inflammation links skin to joints (psoriatic arthritis) and metabolic disease.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells in the dermis are key effectors of the skin's immune barrier: IgE- or MRGPRX2-triggered degranulation releases histamine → wheal-and-flare urticaria, angioedema and itch; they also orchestrate wound healing and the response to venoms and irritants at the body surface.
 
 ## Pathology
 
