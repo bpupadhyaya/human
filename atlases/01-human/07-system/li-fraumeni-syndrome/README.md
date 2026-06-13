@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Lung cancer is part of the adult Li-Fraumeni spectrum: as carriers survive childhood cancers, p53 loss raises lifetime risk of lung and other carcinomas—so surveillance continues into adulthood, and radiation/CT exposure is minimized given their radiosensitivity."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Li-Fraumeni and CDKN2A loss both cripple the cell-cycle brakes: TP53 and the CDKN2A-encoded p16/ARF act in the same tumor-suppressor network guarding against unchecked division, so germline loss of either predisposes to multiple cancers across a lifetime."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Li-Fraumeni cancers strain the immune system's surveillance: p53 loss lets diverse tumors arise early and often, and the high cumulative cancer burden—plus the genotoxic chemo and radiation used—keeps the immune system perpetually challenged in carriers."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Li-Fraumeni reaches the nervous system through brain tumors: TP53 loss predisposes to gliomas, medulloblastoma and choroid plexus carcinoma, so CNS tumors are part of the syndrome's spectrum—and radiation to treat them risks triggering new ones."
 ---
 
 # Li-Fraumeni Syndrome
@@ -250,6 +259,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Li-Fraumeni and ATM converge on the DNA-damage response: ATM kinase senses double-strand breaks and activates p53, the gene mutated in LFS—so losing either cripples the same checkpoint, and ATM mutation carriers share LFS's heightened, radiation-sensitive cancer risk.
 - `connects-to` → **[Ewing Sarcoma](../ewing-sarcoma/README.md)** — Li-Fraumeni adds to the sarcoma risk seen in Ewing sarcoma: germline p53 loss predisposes to many bone and soft-tissue sarcomas, and somatic TP53 mutation worsens Ewing's outcome—both underscore how a failed genome guardian drives these aggressive tumors of the young.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Lung cancer is part of the adult Li-Fraumeni spectrum: as carriers survive childhood cancers, p53 loss raises lifetime risk of lung and other carcinomas—so surveillance continues into adulthood, and radiation/CT exposure is minimized given their radiosensitivity.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Li-Fraumeni and CDKN2A loss both cripple the cell-cycle brakes: TP53 and the CDKN2A-encoded p16/ARF act in the same tumor-suppressor network guarding against unchecked division, so germline loss of either predisposes to multiple cancers across a lifetime.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Li-Fraumeni cancers strain the immune system's surveillance: p53 loss lets diverse tumors arise early and often, and the high cumulative cancer burden—plus the genotoxic chemo and radiation used—keeps the immune system perpetually challenged in carriers.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Li-Fraumeni reaches the nervous system through brain tumors: TP53 loss predisposes to gliomas, medulloblastoma and choroid plexus carcinoma, so CNS tumors are part of the syndrome's spectrum—and radiation to treat them risks triggering new ones.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
