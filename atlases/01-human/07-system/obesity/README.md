@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/colorectal-cancer
     relation: connects-to
     note: "Obesity raises colorectal cancer risk: insulin/IGF-1 signaling, chronic inflammation and altered gut flora from excess adiposity promote colonic tumorigenesis, contributing to rising early-onset colorectal cancer."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Obesity engages the brain's dopamine reward system: highly palatable food drives dopamine release like other rewards, and blunted reward signaling can promote overeating to compensate—so food intake is partly an addiction-like behavior, not simple appetite."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Obesity directly damages the heart: excess volume load and fat-driven inflammation cause obesity cardiomyopathy and heart failure with preserved ejection fraction, so the heart strains under both the metabolic and mechanical burden of excess weight."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Obesity raises postmenopausal breast cancer risk: after menopause, adipose tissue becomes the main estrogen source via aromatase, so excess fat sustains estrogen signaling that drives hormone-receptor-positive breast cancer—an endocrine link between fat and cancer."
 ---
 
 # Obesity
@@ -243,6 +252,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Obesity accelerates atherosclerosis and cardiovascular disease: visceral fat drives dyslipidemia, hypertension, insulin resistance and chronic inflammation that injure arteries—a central, modifiable driver of heart attack and stroke.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Obesity is the strongest modifiable risk factor for endometrial cancer: adipose tissue aromatizes androgens into estrogen, and unopposed estrogen drives endometrial proliferation, so most endometrial cancers are obesity-related—a hormone-mediated obesity cancer.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Obesity raises colorectal cancer risk: insulin/IGF-1 signaling, chronic inflammation and altered gut flora from excess adiposity promote colonic tumorigenesis, contributing to rising early-onset colorectal cancer.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Obesity engages the brain's dopamine reward system: highly palatable food drives dopamine release like other rewards, and blunted reward signaling can promote overeating to compensate—so food intake is partly an addiction-like behavior, not simple appetite.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Obesity directly damages the heart: excess volume load and fat-driven inflammation cause obesity cardiomyopathy and heart failure with preserved ejection fraction, so the heart strains under both the metabolic and mechanical burden of excess weight.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Obesity raises postmenopausal breast cancer risk: after menopause, adipose tissue becomes the main estrogen source via aromatase, so excess fat sustains estrogen signaling that drives hormone-receptor-positive breast cancer—an endocrine link between fat and cancer.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

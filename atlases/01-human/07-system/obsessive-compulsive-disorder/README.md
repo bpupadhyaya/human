@@ -89,6 +89,15 @@ cross_links:
   - target: 01-human/07-system/internet-gaming-disorder
     relation: connects-to
     note: "OCD and internet gaming disorder both involve compulsive, hard-to-resist behaviors engaging fronto-striatal circuits: OCD's compulsions relieve anxiety while gaming is reward-driven, but both show the loss of behavioral control that blurs compulsion and addiction."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "OCD involves a dysregulated stress axis: HPA-axis and cortisol abnormalities accompany the disorder, and stress worsens obsessions and compulsions—so the stress system interacts with the cortico-striatal circuits that drive the repetitive, intrusive symptoms."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "OCD sits within the anxiety-related spectrum alongside social anxiety: both involve excessive fear-driven avoidance and respond to SSRIs and exposure therapy, though OCD's hallmark is intrusive obsessions and ritualized compulsions rather than social fear."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "OCD shows altered cortico-striatal-limbic circuitry including the hippocampus: imaging reveals overactive orbitofrontal-striatal loops with hippocampal and memory-circuit changes, so OCD maps to specific brain-circuit dysfunction that medication and CBT recalibrate."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -237,6 +246,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[PTSD](../ptsd/README.md)** — OCD and PTSD both feature intrusive, distressing thoughts but differ in origin: OCD's obsessions are recognized as one's own and neutralized by compulsions, while PTSD's intrusions are trauma memories—overlapping phenomenology with different roots.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — OCD and bipolar disorder frequently co-occur and complicate each other: comorbid OCD worsens bipolar outcomes, and SSRIs used for OCD can trigger mania in bipolar patients—so screening for bipolarity is essential before treating OCD pharmacologically.
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — OCD and internet gaming disorder both involve compulsive, hard-to-resist behaviors engaging fronto-striatal circuits: OCD's compulsions relieve anxiety while gaming is reward-driven, but both show the loss of behavioral control that blurs compulsion and addiction.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — OCD involves a dysregulated stress axis: HPA-axis and cortisol abnormalities accompany the disorder, and stress worsens obsessions and compulsions—so the stress system interacts with the cortico-striatal circuits that drive the repetitive, intrusive symptoms.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — OCD sits within the anxiety-related spectrum alongside social anxiety: both involve excessive fear-driven avoidance and respond to SSRIs and exposure therapy, though OCD's hallmark is intrusive obsessions and ritualized compulsions rather than social fear.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — OCD shows altered cortico-striatal-limbic circuitry including the hippocampus: imaging reveals overactive orbitofrontal-striatal loops with hippocampal and memory-circuit changes, so OCD maps to specific brain-circuit dysfunction that medication and CBT recalibrate.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
