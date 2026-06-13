@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "DICER1 and p53 can cooperate in tumor formation: loss of microRNA maturation deregulates growth genes, and concurrent TP53 mutation accelerates malignant DICER1 tumors—so the miRNA machinery joins the classic tumor-suppressor network in controlling cancer."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "DICER1 syndrome strikes the reproductive system: it causes ovarian Sertoli-Leydig cell tumors that can virilize, plus other gonadal tumors, so a young woman with such a tumor warrants DICER1 testing and broader cancer surveillance."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "DICER1 syndrome reaches multiple endocrine glands: beyond thyroid disease it causes pituitary blastoma in infants and rare adrenal and pineal tumors, so its microRNA-processing defect disrupts hormone-producing tissues across the endocrine system."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "DICER1 syndrome affects the eye: ciliary body medulloepithelioma, a rare childhood intraocular tumor, is part of its spectrum, so an unusual eye tumor in a child can be the presenting clue to this pleiotropic tumor-predisposition syndrome."
 ---
 
 # DICER1 Syndrome
@@ -214,6 +223,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is a hallmark DICER1 target: carriers develop multinodular goiter and differentiated thyroid cancer at high rates, often after chemotherapy for other DICER1 tumors—so thyroid surveillance is central to managing the syndrome.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — DICER1 tumors are often mesenchymal blastomas with fibroblast-like sarcomatous cells: impaired microRNA processing drives pleuropulmonary blastoma and rhabdomyosarcoma-like growths of primitive spindle cells—unlike the epithelial cancers of most syndromes.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — DICER1 and p53 can cooperate in tumor formation: loss of microRNA maturation deregulates growth genes, and concurrent TP53 mutation accelerates malignant DICER1 tumors—so the miRNA machinery joins the classic tumor-suppressor network in controlling cancer.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — DICER1 syndrome strikes the reproductive system: it causes ovarian Sertoli-Leydig cell tumors that can virilize, plus other gonadal tumors, so a young woman with such a tumor warrants DICER1 testing and broader cancer surveillance.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — DICER1 syndrome reaches multiple endocrine glands: beyond thyroid disease it causes pituitary blastoma in infants and rare adrenal and pineal tumors, so its microRNA-processing defect disrupts hormone-producing tissues across the endocrine system.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — DICER1 syndrome affects the eye: ciliary body medulloepithelioma, a rare childhood intraocular tumor, is part of its spectrum, so an unusual eye tumor in a child can be the presenting clue to this pleiotropic tumor-predisposition syndrome.
 
 ---
 

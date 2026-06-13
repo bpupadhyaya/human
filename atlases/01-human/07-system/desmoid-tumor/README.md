@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "PDGF signaling offers a therapeutic handle in desmoid tumors: these fibromatoses express PDGFR, so multitargeted tyrosine-kinase inhibitors (sorafenib, imatinib) shrink or stabilize them—part of the shift from surgery toward systemic and watchful-waiting management."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is one option for unresectable desmoid tumors: though benign, desmoids invade locally and recur after surgery, so photon-beam radiation can control disease when an operation would be mutilating—balanced against radiation's own risks in young patients."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Desmoid tumors have a special affinity for the abdomen and gut: in FAP/Gardner syndrome they arise in the mesentery and abdominal wall, where they can encase and obstruct the bowel and its vessels—making intra-abdominal desmoids a leading cause of death in FAP."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "Desmoid tumors sit in the soft-tissue-mass differential with sarcomas like rhabdomyosarcoma: desmoids are locally aggressive but never metastasize, while rhabdomyosarcoma is frankly malignant—so biopsy distinguishes a benign fibromatosis from a deadly sarcoma."
 ---
 
 # Desmoid Tumor
@@ -233,6 +242,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Desmoid tumors are collagen-rich fibromatoses, not true sarcomas: clonal myofibroblasts driven by beta-catenin lay down dense collagen, producing an infiltrative but non-metastasizing mass—locally aggressive yet unable to spread, shaping conservative treatment.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Cyclin D1 links desmoid's Wnt driver to growth: stabilized beta-catenin (from CTNNB1 or APC mutation) switches on cyclin D1, pushing myofibroblasts through the cell cycle—the Wnt/cyclin-D1 axis behind colon cancer here yields a benign-behaving but relentless tumor.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF signaling offers a therapeutic handle in desmoid tumors: these fibromatoses express PDGFR, so multitargeted tyrosine-kinase inhibitors (sorafenib, imatinib) shrink or stabilize them—part of the shift from surgery toward systemic and watchful-waiting management.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is one option for unresectable desmoid tumors: though benign, desmoids invade locally and recur after surgery, so photon-beam radiation can control disease when an operation would be mutilating—balanced against radiation's own risks in young patients.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Desmoid tumors have a special affinity for the abdomen and gut: in FAP/Gardner syndrome they arise in the mesentery and abdominal wall, where they can encase and obstruct the bowel and its vessels—making intra-abdominal desmoids a leading cause of death in FAP.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Desmoid tumors sit in the soft-tissue-mass differential with sarcomas like rhabdomyosarcoma: desmoids are locally aggressive but never metastasize, while rhabdomyosarcoma is frankly malignant—so biopsy distinguishes a benign fibromatosis from a deadly sarcoma.
 
 ---
 
