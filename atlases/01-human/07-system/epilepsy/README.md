@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Epilepsy and depression have a bidirectional relationship: depression is the commonest psychiatric comorbidity of epilepsy and also raises the risk of developing it, shared limbic and serotonergic mechanisms link them, and depression strongly degrades quality of life."
+  - target: 01-human/07-system/glioblastoma
+    relation: connects-to
+    note: "Brain tumors are an important cause of epilepsy: glioblastoma and other gliomas irritate surrounding cortex, so new-onset seizures in an adult mandate brain imaging—seizures are often the presenting sign of a glioma, and tumor-related epilepsy can be hard to control."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus is the seat of the commonest focal epilepsy: mesial temporal sclerosis—hippocampal scarring and neuron loss—generates temporal-lobe seizures, and surgically removing the sclerotic hippocampus can cure drug-resistant cases."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Epilepsy and schizophrenia are bidirectionally linked: temporal-lobe epilepsy can produce a schizophrenia-like psychosis, each roughly doubles the risk of the other, and they share disturbances of glutamate and GABA—so a first psychotic episode sometimes warrants EEG."
 ---
 
 # Epilepsy
@@ -247,6 +256,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Epilepsy and autism frequently co-occur and share biology: up to a third of autistic people have epilepsy, and both arise from disrupted excitation/inhibition balance and overlap in genes like SCN, TSC, and SHANK—often the same neurodevelopmental lesion.
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Seizures are the commonest first sign of an IDH-mutant glioma: these slow-growing cortical tumors irritate neurons (partly via the oncometabolite 2-hydroxyglutarate altering glutamate), so new focal epilepsy in a young adult should prompt imaging for a low-grade glioma.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Epilepsy and depression have a bidirectional relationship: depression is the commonest psychiatric comorbidity of epilepsy and also raises the risk of developing it, shared limbic and serotonergic mechanisms link them, and depression strongly degrades quality of life.
+- `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Brain tumors are an important cause of epilepsy: glioblastoma and other gliomas irritate surrounding cortex, so new-onset seizures in an adult mandate brain imaging—seizures are often the presenting sign of a glioma, and tumor-related epilepsy can be hard to control.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is the seat of the commonest focal epilepsy: mesial temporal sclerosis—hippocampal scarring and neuron loss—generates temporal-lobe seizures, and surgically removing the sclerotic hippocampus can cure drug-resistant cases.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Epilepsy and schizophrenia are bidirectionally linked: temporal-lobe epilepsy can produce a schizophrenia-like psychosis, each roughly doubles the risk of the other, and they share disturbances of glutamate and GABA—so a first psychotic episode sometimes warrants EEG.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

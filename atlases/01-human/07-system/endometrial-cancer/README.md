@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Mismatch-repair-deficient (MSI-high) endometrial cancer is highly immunotherapy-responsive: defective DNA repair generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (dostarlimab, pembrolizumab) has transformed treatment of dMMR endometrial tumors."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is a key adjuvant in endometrial cancer: after hysterectomy, vaginal brachytherapy or pelvic external-beam photon radiation lowers local recurrence, and radiation can treat inoperable patients—complementing surgery in the commonest gynecologic cancer."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Endometrial cancer is the commonest gynecologic-tract cancer of the reproductive system: arising from the estrogen-responsive uterine lining, it is driven by unopposed estrogen, so the reproductive system's own hormonal milieu fuels the tumor."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "Endometrial and uterine tumors link endometrial cancer to HLRCC: fumarate-hydratase loss causes the uterine leiomyomas that name HLRCC and FH-deficient uterine cancers—so uterine smooth-muscle or endometrial tumors with a family history may flag the HLRCC mutation."
 ---
 
 # Endometrial Cancer
@@ -208,6 +217,9 @@ cross_links:
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Cowden syndrome is a hereditary cause of endometrial cancer: germline PTEN loss unleashes PI3K/mTOR signaling in the endometrium—the pathway mutated in most sporadic endometrioid tumors—so PTEN carriers face raised endometrial, breast, and thyroid cancer risk.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes and endometrial cancer are tied via obesity and hyperinsulinemia: excess insulin and adipose estrogen stimulate endometrial proliferation, so diabetic, obese women face much higher endometrial cancer risk—metformin is studied as prevention.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Mismatch-repair-deficient (MSI-high) endometrial cancer is highly immunotherapy-responsive: defective DNA repair generates abundant neoantigens that draw cytotoxic CD8+ T cells, so anti-PD-1 (dostarlimab, pembrolizumab) has transformed treatment of dMMR endometrial tumors.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is a key adjuvant in endometrial cancer: after hysterectomy, vaginal brachytherapy or pelvic external-beam photon radiation lowers local recurrence, and radiation can treat inoperable patients—complementing surgery in the commonest gynecologic cancer.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Endometrial cancer is the commonest gynecologic-tract cancer of the reproductive system: arising from the estrogen-responsive uterine lining, it is driven by unopposed estrogen, so the reproductive system's own hormonal milieu fuels the tumor.
+- `connects-to` → **[HLRCC](../hlrcc/README.md)** — Endometrial and uterine tumors link endometrial cancer to HLRCC: fumarate-hydratase loss causes the uterine leiomyomas that name HLRCC and FH-deficient uterine cancers—so uterine smooth-muscle or endometrial tumors with a family history may flag the HLRCC mutation.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
