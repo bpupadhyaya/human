@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Splenomegaly is the clinical signature of the myeloproliferative neoplasms, most extreme in myelofibrosis where the spleen takes over blood production (extramedullary hematopoiesis) and can fill the abdomen; JAK inhibitors (ruxolitinib) shrink it, splenectomy a last resort."
+  - target: 01-human/07-system/essential-thrombocythemia
+    relation: connects-to
+    note: "Essential thrombocythemia is one of the three classic BCR-ABL-negative myeloproliferative neoplasms, alongside polycythemia vera and myelofibrosis: a JAK2, CALR, or MPL mutation drives clonal megakaryocyte overproduction and a high platelet count, with thrombosis the main risk."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets are central to MPN morbidity: clonal megakaryocytes overproduce platelets that are also qualitatively abnormal, so essential thrombocythemia and polycythemia vera cause both thrombosis and—at very high counts—bleeding from acquired von Willebrand defects."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Thrombosis is the leading cause of death in myeloproliferative neoplasms: JAK2-mutant blood is prothrombotic, producing arterial and venous clots including splanchnic-vein thromboses (Budd-Chiari, portal vein)—so cytoreduction and aspirin aim to prevent VTE."
 ---
 
 # Myeloproliferative Neoplasms
@@ -207,6 +216,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — Chronic myelomonocytic leukemia is the MDS/MPN-overlap cousin of the classic myeloproliferative neoplasms: it shares their JAK2/RAS-driven proliferation, splenomegaly, and JAK-inhibitor responsiveness, but adds the peripheral monocytosis and dysplasia of MDS.
 - `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Myelofibrosis is the most aggressive classic MPN: JAK2/CALR/MPL-driven megakaryocytes secrete TGF-β that scars the marrow with reticulin and collagen, forcing extramedullary hematopoiesis (splenomegaly) and marrow failure; it arises de novo or evolves from PV or ET.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Splenomegaly is the clinical signature of the myeloproliferative neoplasms, most extreme in myelofibrosis where the spleen takes over blood production (extramedullary hematopoiesis) and can fill the abdomen; JAK inhibitors (ruxolitinib) shrink it, splenectomy a last resort.
+- `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Essential thrombocythemia is one of the three classic BCR-ABL-negative myeloproliferative neoplasms, alongside polycythemia vera and myelofibrosis: a JAK2, CALR, or MPL mutation drives clonal megakaryocyte overproduction and a high platelet count, with thrombosis the main risk.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central to MPN morbidity: clonal megakaryocytes overproduce platelets that are also qualitatively abnormal, so essential thrombocythemia and polycythemia vera cause both thrombosis and—at very high counts—bleeding from acquired von Willebrand defects.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thrombosis is the leading cause of death in myeloproliferative neoplasms: JAK2-mutant blood is prothrombotic, producing arterial and venous clots including splanchnic-vein thromboses (Budd-Chiari, portal vein)—so cytoreduction and aspirin aim to prevent VTE.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

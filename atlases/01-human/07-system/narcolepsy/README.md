@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/influenza
     relation: connects-to
     note: "Narcolepsy is famously linked to influenza: the 2009 H1N1 pandemic and Pandemrix vaccine both raised type 1 narcolepsy incidence in HLA-DQB1*06:02 carriers, apparently via molecular mimicry between an H1N1 hemagglutinin epitope and orexin — infection-triggered autoimmunity."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Type 1 narcolepsy is an autoimmune disease where tolerance fails: on an HLA-DQB1*06:02 background, autoreactive T cells escape regulatory-T-cell control and destroy hypothalamic orexin neurons, abolishing the orexin that stabilizes wakefulness and REM gating."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Narcolepsy and obesity are metabolically linked: loss of orexin, which normally promotes energy expenditure and activity, leaves many narcolepsy patients prone to weight gain and a higher BMI despite reduced appetite—an early clue, especially in children near onset."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia may participate in the orexin-neuron loss of narcolepsy: as the brain's resident immune cells, activated microglia present antigen and clear neurons, and neuroinflammation in the lateral hypothalamus is implicated in the autoimmune destruction of orexin signaling."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -186,6 +195,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Narcolepsy type 1 comes down to loss of one tiny neuron population: the ~70,000 orexin (hypocretin) neurons of the lateral hypothalamus, whose destruction collapses the switch holding wakefulness stable — causing sleep attacks, cataplexy, and REM intrusion into wakefulness.
 
 - `connects-to` → **[Influenza](../influenza/README.md)** — Narcolepsy is famously linked to influenza: the 2009 H1N1 pandemic and Pandemrix vaccine both raised type 1 narcolepsy incidence in HLA-DQB1*06:02 carriers, apparently via molecular mimicry between an H1N1 hemagglutinin epitope and orexin — infection-triggered autoimmunity.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Type 1 narcolepsy is an autoimmune disease where tolerance fails: on an HLA-DQB1*06:02 background, autoreactive T cells escape regulatory-T-cell control and destroy hypothalamic orexin neurons, abolishing the orexin that stabilizes wakefulness and REM gating.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Narcolepsy and obesity are metabolically linked: loss of orexin, which normally promotes energy expenditure and activity, leaves many narcolepsy patients prone to weight gain and a higher BMI despite reduced appetite—an early clue, especially in children near onset.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia may participate in the orexin-neuron loss of narcolepsy: as the brain's resident immune cells, activated microglia present antigen and clear neurons, and neuroinflammation in the lateral hypothalamus is implicated in the autoimmune destruction of orexin signaling.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
