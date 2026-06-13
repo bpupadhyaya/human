@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/07-system/prurigo-nodularis
     relation: connects-to
     note: "CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetes is the leading cause of chronic kidney disease: chronic hyperglycemia damages the glomerular filter (diabetic nephropathy), causing proteinuria and progressive function loss, so diabetic kidney disease drives most dialysis need—SGLT2 inhibitors now slow it."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "CKD and atherosclerosis form a vicious cardiorenal cycle: declining kidney function accelerates vascular calcification and atherosclerosis, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "CKD deranges calcium and bone metabolism (CKD-MBD): failing kidneys can't activate vitamin D or excrete phosphate, lowering calcium and driving secondary hyperparathyroidism and vascular calcification—so calcium, phosphate and PTH are tightly managed in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -166,6 +175,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Malaria](../malaria/README.md)** — Severe falciparum malaria causes AKI in 4-8% (haemoglobinuria + microvascular obstruction + cytokine storm); cerebral malaria + AKI → high mortality; repeated malaria episodes contribute to CKD burden in endemic populations.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — dialysis patients have elevated sclerostin from impaired renal clearance + uremic Wnt suppression → adynamic bone disease; elevated sclerostin correlates with vascular calcification and mortality in CKD; romosozumab is not approved in severe CKD due to CV risk.
 - `connects-to` → **[Prurigo Nodularis](../prurigo-nodularis/README.md)** — CKD-associated pruritus (formerly uremic pruritus) causes PN-like nodules in dialysis patients; uremic toxins activate μ-opioid and κ-opioid receptors on pruriceptors; difelikefalin (κ-opioid agonist; FDA 2021 for CKD-aP on HD) reduces itch and may prevent PN nodule formation.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes is the leading cause of chronic kidney disease: chronic hyperglycemia damages the glomerular filter (diabetic nephropathy), causing proteinuria and progressive function loss, so diabetic kidney disease drives most dialysis need—SGLT2 inhibitors now slow it.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — CKD and atherosclerosis form a vicious cardiorenal cycle: declining kidney function accelerates vascular calcification and atherosclerosis, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — CKD deranges calcium and bone metabolism (CKD-MBD): failing kidneys can't activate vitamin D or excrete phosphate, lowering calcium and driving secondary hyperparathyroidism and vascular calcification—so calcium, phosphate and PTH are tightly managed in CKD.
 
 ## Pathology
 

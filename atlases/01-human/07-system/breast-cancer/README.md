@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Triple-negative breast cancer is the subtype most responsive to immunotherapy: its higher mutational burden and tumor-infiltrating cytotoxic T cells make it sensitive to PD-1/PD-L1 blockade (pembrolizumab), unlike the immunologically quiet hormone-receptor-positive tumors."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Breast cancer is a core feature of Cowden syndrome: germline PTEN loss unleashing PI3K-AKT gives a high lifetime breast cancer risk alongside thyroid and endometrial cancer—so Cowden is one of the hereditary syndromes screened for in familial breast cancer."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy is integral to breast cancer treatment: after lumpectomy, whole-breast or partial radiation halves local recurrence, and post-mastectomy radiation treats high-risk disease—radiation made breast-conserving surgery as safe as mastectomy."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Breast and prostate cancer are the paradigm hormone-driven cancers and share BRCA biology: breast growth depends on estrogen, prostate on androgens (blocked by ADT), and BRCA2 raises risk of both—endocrine therapy is central to each."
 ---
 
 # Breast Cancer
@@ -197,6 +206,9 @@ cross_links:
 - `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Hereditary breast and ovarian cancer syndrome from germline BRCA1/2 underlies ~5-10% of breast cancers: it brings early-onset, often triple-negative or bilateral tumors, intensified screening and risk-reducing surgery, and platinum/PARP-inhibitor sensitivity.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Li-Fraumeni syndrome is a striking cause of early breast cancer: germline TP53 loss yields breast cancer (often HER2-positive) in women under 30 alongside sarcomas—and because radiotherapy can induce second cancers, treatment favors mastectomy over radiation.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Triple-negative breast cancer is the subtype most responsive to immunotherapy: its higher mutational burden and tumor-infiltrating cytotoxic T cells make it sensitive to PD-1/PD-L1 blockade (pembrolizumab), unlike the immunologically quiet hormone-receptor-positive tumors.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Breast cancer is a core feature of Cowden syndrome: germline PTEN loss unleashing PI3K-AKT gives a high lifetime breast cancer risk alongside thyroid and endometrial cancer—so Cowden is one of the hereditary syndromes screened for in familial breast cancer.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is integral to breast cancer treatment: after lumpectomy, whole-breast or partial radiation halves local recurrence, and post-mastectomy radiation treats high-risk disease—radiation made breast-conserving surgery as safe as mastectomy.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Breast and prostate cancer are the paradigm hormone-driven cancers and share BRCA biology: breast growth depends on estrogen, prostate on androgens (blocked by ADT), and BRCA2 raises risk of both—endocrine therapy is central to each.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
