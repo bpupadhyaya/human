@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "AS uniquely couples inflammation to bone formation: at entheses IL-17A/TNF and Wnt (low DKK-1/sclerostin) activate osteoblasts → syndesmophytes and ankylosis, even as RANKL drives co-existing erosion; this osteoproliferation distinguishes AS from erosive rheumatoid arthritis."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Ankylosing spondylitis paradoxically combines bone formation and bone loss: while syndesmophytes fuse the spine, systemic inflammation drives vertebral osteoporosis beneath, so a rigid 'bamboo spine' is brittle and prone to fracture from even minor trauma."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Ankylosing spondylitis has cardiac complications beyond the spine: inflammation causes aortitis with aortic-root dilatation and regurgitation, conduction disease and heart block, and accelerated atherosclerosis—a major driver of its excess mortality."
+  - target: 01-human/07-system/iga-nephropathy
+    relation: connects-to
+    note: "Ankylosing spondylitis is linked to IgA nephropathy, its commonest renal complication: both share HLA-B27-associated, IL-23-driven mucosal immunity with elevated serum IgA, so hematuria or proteinuria in AS prompts evaluation for IgA nephropathy or secondary AA amyloidosis."
 ---
 
 # Ankylosing Spondylitis
@@ -184,6 +193,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Psoriasis](../psoriasis/README.md)** — AS and psoriasis lie on the spondyloarthritis spectrum, sharing the IL-23/Th17→IL-17A axis; IL-17 inhibitors (secukinumab, ixekizumab) treat both and psoriasis is a common AS comorbidity—yet IL-23 blockade helps psoriasis but failed in axial AS, hinting at divergent biology.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — AS is the prototypical axial spondyloarthritis: enthesitis and sacroiliitis at the spine and SI joints → inflammatory back pain → syndesmophytes and bony ankylosis ('bamboo spine'); IL-17-driven new-bone formation and erosion reshape the axial skeleton and reduce spinal mobility.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — AS uniquely couples inflammation to bone formation: at entheses IL-17A/TNF and Wnt (low DKK-1/sclerostin) activate osteoblasts → syndesmophytes and ankylosis, even as RANKL drives co-existing erosion; this osteoproliferation distinguishes AS from erosive rheumatoid arthritis.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Ankylosing spondylitis paradoxically combines bone formation and bone loss: while syndesmophytes fuse the spine, systemic inflammation drives vertebral osteoporosis beneath, so a rigid 'bamboo spine' is brittle and prone to fracture from even minor trauma.
+- `connects-to` → **[Cardiovascular System](../cardiovascular-system/README.md)** — Ankylosing spondylitis has cardiac complications beyond the spine: inflammation causes aortitis with aortic-root dilatation and regurgitation, conduction disease and heart block, and accelerated atherosclerosis—a major driver of its excess mortality.
+- `connects-to` → **[IgA Nephropathy](../iga-nephropathy/README.md)** — Ankylosing spondylitis is linked to IgA nephropathy, its commonest renal complication: both share HLA-B27-associated, IL-23-driven mucosal immunity with elevated serum IgA, so hematuria or proteinuria in AS prompts evaluation for IgA nephropathy or secondary AA amyloidosis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

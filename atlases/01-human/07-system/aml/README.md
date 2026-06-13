@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/myeloproliferative-neoplasms
     relation: connects-to
     note: "Myeloproliferative neoplasms (PV, ET, PMF) carry a risk of leukemic transformation to AML—highest in myelofibrosis—where JAK2/CALR-mutant clones acquire added lesions (TP53, ASXL1); this 'blast phase' AML is treatment-resistant with poor survival."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "AML and ALL are the two acute leukemias, divided by lineage: AML is a myeloblast malignancy of adults with Auer rods and MPO positivity, while ALL is a lymphoblast cancer mostly of children—differing in immunophenotype, treatment, and CNS prophylaxis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ionizing radiation is an established cause of AML, and photons also treat it: atomic-bomb survivors and radiotherapy patients have raised AML risk, while total-body irradiation conditions the marrow before stem-cell transplant—radiation as cause and cure."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells drive the graft-versus-leukemia effect that helps cure AML: after allogeneic transplant, donor NK and T cells kill residual leukemic blasts, and KIR-ligand mismatch boosts this—the basis for why transplant beats chemo alone for lasting remission."
 ---
 
 # AML
@@ -186,6 +195,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — AML is a maturation arrest: leukemic blasts flood the marrow but cannot become functional neutrophils, so patients suffer severe neutropenia and infection even with high white counts; the promyelocytic subtype (APL) is uniquely cured by ATRA/arsenic forcing differentiation.
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — AML and CML are the two principal myeloid leukemias: CML is a chronic BCR-ABL1-driven proliferation of maturing granulocytes that, untreated, accelerates into a blast crisis that is AML-like (myeloid in ~70%); both arise from transformed myeloid progenitors in the marrow.
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myeloproliferative neoplasms (PV, ET, PMF) carry a risk of leukemic transformation to AML—highest in myelofibrosis—where JAK2/CALR-mutant clones acquire added lesions (TP53, ASXL1); this 'blast phase' AML is treatment-resistant with poor survival.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — AML and ALL are the two acute leukemias, divided by lineage: AML is a myeloblast malignancy of adults with Auer rods and MPO positivity, while ALL is a lymphoblast cancer mostly of children—differing in immunophenotype, treatment, and CNS prophylaxis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is an established cause of AML, and photons also treat it: atomic-bomb survivors and radiotherapy patients have raised AML risk, while total-body irradiation conditions the marrow before stem-cell transplant—radiation as cause and cure.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells drive the graft-versus-leukemia effect that helps cure AML: after allogeneic transplant, donor NK and T cells kill residual leukemic blasts, and KIR-ligand mismatch boosts this—the basis for why transplant beats chemo alone for lasting remission.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
