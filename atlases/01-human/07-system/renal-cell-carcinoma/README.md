@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/polycythemia-vera
     relation: connects-to
     note: "Renal cell carcinoma is a classic cause of paraneoplastic polycythemia: the tumor can secrete erythropoietin, raising red-cell mass and mimicking polycythemia vera—so erythrocytosis without a JAK2 mutation warrants renal imaging to exclude an EPO-producing tumor."
+  - target: 01-human/03-molecular/vhl
+    relation: connects-to
+    note: "VHL loss is the central event in clear cell RCC: inactivating the VHL tumor suppressor stabilizes HIF, driving VEGF and the angiogenic, clear-cell tumor—so both sporadic and von Hippel-Lindau-associated kidney cancers converge on this oxygen-sensing pathway."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "RCC hijacks the kidney's own erythropoietin role: the kidney normally makes EPO sensing oxygen, and VHL-mutant tumor cells, fixed in pseudohypoxia, oversecrete it—causing paraneoplastic polycythemia, a cancer co-opting an organ's native hormone."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity is a leading modifiable RCC risk factor: excess adiposity, with hypertension and chronic kidney stress, raises renal cell carcinoma risk through insulin/IGF and inflammatory signaling—making RCC one of the obesity-associated cancers."
 ---
 
 # Renal Cell Carcinoma
@@ -206,6 +215,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — RCC unifies several hereditary syndromes including Birt-Hogg-Dubé: BHD's FLCN loss causes chromophobe and oncocytic kidney tumors, one of the inherited RCC syndromes alongside VHL (clear cell) and HLRCC (papillary)—each gene yielding a distinct RCC histology.
 - `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Renal clear cell carcinoma and ovarian clear-cell carcinoma share clear-cell morphology but differ in biology: RCC is VHL/HIF-driven, while ovarian clear-cell is ARID1A/PIK3CA-driven—so 'clear cell' is a convergent appearance, not a shared pathway.
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Renal cell carcinoma is a classic cause of paraneoplastic polycythemia: the tumor can secrete erythropoietin, raising red-cell mass and mimicking polycythemia vera—so erythrocytosis without a JAK2 mutation warrants renal imaging to exclude an EPO-producing tumor.
+- `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — VHL loss is the central event in clear cell RCC: inactivating the VHL tumor suppressor stabilizes HIF, driving VEGF and the angiogenic, clear-cell tumor—so both sporadic and von Hippel-Lindau-associated kidney cancers converge on this oxygen-sensing pathway.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — RCC hijacks the kidney's own erythropoietin role: the kidney normally makes EPO sensing oxygen, and VHL-mutant tumor cells, fixed in pseudohypoxia, oversecrete it—causing paraneoplastic polycythemia, a cancer co-opting an organ's native hormone.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is a leading modifiable RCC risk factor: excess adiposity, with hypertension and chronic kidney stress, raises renal cell carcinoma risk through insulin/IGF and inflammatory signaling—making RCC one of the obesity-associated cancers.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

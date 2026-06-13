@@ -68,6 +68,15 @@ cross_links:
   - target: 01-human/07-system/cervical-cancer
     relation: connects-to
     note: "Cervical cancer shows how infection drives reproductive-system cancer: persistent HPV infection of the cervical transformation zone causes nearly all cases, making it largely preventable by vaccination—a reproductive-tract cancer with an external, eradicable cause."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "The placenta is the reproductive system's temporary endocrine organ: it sustains pregnancy by secreting hCG, progesterone and estrogen and exchanging gases and nutrients, so this disposable organ takes over hormonal control the ovaries and pituitary normally hold."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin runs the reproductive system's mechanical events: it triggers uterine contractions in labor and milk ejection in breastfeeding through positive-feedback loops, so the same hormone drives both childbirth and lactation in the reproductive cycle."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The reproductive system shapes skeletal health: ovarian estrogen protects bone, so menopause's estrogen loss accelerates bone resorption into osteoporosis—linking the reproductive system's hormonal decline to fracture risk in later life."
 ---
 
 # Reproductive System
@@ -200,6 +209,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Prostate cancer is the commonest male reproductive-system malignancy: its androgen-driven epithelium turns malignant, and because growth depends on testosterone, androgen-deprivation therapy is central—a hormone that both builds and treats its tumor.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Ovarian cancer is the most lethal gynecologic reproductive-system cancer: arising from ovarian/fallopian epithelium it spreads silently through the peritoneum, so it usually presents late—and its hormonal and BRCA-linked biology ties it to the reproductive axis.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — Cervical cancer shows how infection drives reproductive-system cancer: persistent HPV infection of the cervical transformation zone causes nearly all cases, making it largely preventable by vaccination—a reproductive-tract cancer with an external, eradicable cause.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta is the reproductive system's temporary endocrine organ: it sustains pregnancy by secreting hCG, progesterone and estrogen and exchanging gases and nutrients, so this disposable organ takes over hormonal control the ovaries and pituitary normally hold.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin runs the reproductive system's mechanical events: it triggers uterine contractions in labor and milk ejection in breastfeeding through positive-feedback loops, so the same hormone drives both childbirth and lactation in the reproductive cycle.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The reproductive system shapes skeletal health: ovarian estrogen protects bone, so menopause's estrogen loss accelerates bone resorption into osteoporosis—linking the reproductive system's hormonal decline to fracture risk in later life.
 
 ## Pathology
 
