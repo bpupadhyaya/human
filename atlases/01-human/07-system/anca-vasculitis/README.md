@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "ANCA vasculitis is a breakdown of immune tolerance: the immune system makes antibodies against its own neutrophil enzymes (PR3 or MPO), which turn neutrophils into agents of vascular destruction—so B-cell-depleting therapy that removes the autoantibody source works."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "ANCA vasculitis attacks the glomerulus ferociously: ANCA-activated neutrophils damage glomerular capillaries, producing the pauci-immune crescentic glomerulonephritis that causes rapidly progressive kidney failure—a medical emergency needing urgent immunosuppression."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "ANCA vasculitis often strikes peripheral nerves: inflammation of the small vessels feeding nerves causes ischemic mononeuritis multiplex—sudden foot- or wrist-drop—so a vasculitic neuropathy can be an early, diagnostic clue to systemic ANCA disease."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "ANCA vasculitis is a classic pulmonary-renal syndrome: it inflames the airways and alveolar capillaries, causing sinusitis, lung nodules and life-threatening alveolar hemorrhage alongside the kidney disease—so respiratory and renal involvement often present together."
 ---
 
 # ANCA Vasculitis
@@ -247,6 +256,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial cells are the battlefield of ANCA vasculitis: ANCA-activated neutrophils adhere to and destroy vessel endothelium, causing necrotizing inflammation that infarcts glomeruli, lung capillaries and skin—so endothelial injury underlies the multi-organ damage.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — ANCA vasculitis and lupus both attack the kidney but by opposite mechanisms: ANCA causes pauci-immune glomerulonephritis with little immune-complex deposition, while lupus nephritis is driven by immune-complex deposits—a key distinction on renal biopsy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — ANCA vasculitis is a breakdown of immune tolerance: the immune system makes antibodies against its own neutrophil enzymes (PR3 or MPO), which turn neutrophils into agents of vascular destruction—so B-cell-depleting therapy that removes the autoantibody source works.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — ANCA vasculitis attacks the glomerulus ferociously: ANCA-activated neutrophils damage glomerular capillaries, producing the pauci-immune crescentic glomerulonephritis that causes rapidly progressive kidney failure—a medical emergency needing urgent immunosuppression.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — ANCA vasculitis often strikes peripheral nerves: inflammation of the small vessels feeding nerves causes ischemic mononeuritis multiplex—sudden foot- or wrist-drop—so a vasculitic neuropathy can be an early, diagnostic clue to systemic ANCA disease.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — ANCA vasculitis is a classic pulmonary-renal syndrome: it inflames the airways and alveolar capillaries, causing sinusitis, lung nodules and life-threatening alveolar hemorrhage alongside the kidney disease—so respiratory and renal involvement often present together.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
