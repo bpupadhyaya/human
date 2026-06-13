@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "Cervical and ovarian cancers are both gynecologic malignancies but contrast in prevention: cervical cancer has effective screening and an HPV vaccine and presents early, whereas ovarian cancer (often BRCA-driven) has no good screening and usually presents late."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "Peutz-Jeghers syndrome causes a rare HPV-independent cervical cancer, adenoma malignum: germline STK11 loss drives this deceptively bland mucinous tumor—the one cervical cancer not prevented by HPV vaccination, warranting surveillance in PJS."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is curative for locally advanced cervical cancer: concurrent chemoradiation with external-beam photons plus intracavitary brachytherapy delivers a high radiation dose directly to the cervix—and brachytherapy is uniquely critical to cure in this cancer."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "The HPV vaccine that prevents cervical cancer works through dendritic cells: virus-like particles are taken up by dendritic cells that prime B and T cells to make neutralizing antibodies against HPV capsids, blocking the infection behind nearly all cervical cancer."
 ---
 
 # Cervical Cancer
@@ -198,6 +207,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Cervical and bladder cancers share the pelvic neighborhood: locally advanced cervical cancer can invade the bladder (vesicovaginal fistula, hematuria), pelvic radiotherapy for one raises risk of the other, and both are smoking-associated cancers managed by pelvic oncology.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Cervical and endometrial cancers are the main uterine-region malignancies but differ: cervical is HPV-driven squamous cancer of the cervix (vaccine-preventable, screen-detected), while endometrial is estrogen/Lynch-driven adenocarcinoma of the uterine body with abnormal bleeding.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Cervical and ovarian cancers are both gynecologic malignancies but contrast in prevention: cervical cancer has effective screening and an HPV vaccine and presents early, whereas ovarian cancer (often BRCA-driven) has no good screening and usually presents late.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome causes a rare HPV-independent cervical cancer, adenoma malignum: germline STK11 loss drives this deceptively bland mucinous tumor—the one cervical cancer not prevented by HPV vaccination, warranting surveillance in PJS.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is curative for locally advanced cervical cancer: concurrent chemoradiation with external-beam photons plus intracavitary brachytherapy delivers a high radiation dose directly to the cervix—and brachytherapy is uniquely critical to cure in this cancer.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The HPV vaccine that prevents cervical cancer works through dendritic cells: virus-like particles are taken up by dendritic cells that prime B and T cells to make neutralizing antibodies against HPV capsids, blocking the infection behind nearly all cervical cancer.
 
 ---
 

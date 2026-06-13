@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Cholangiocarcinoma is defined by its desmoplastic stroma: cancer-associated fibroblasts build a dense fibrous matrix that surrounds the tumor, supplies growth and survival signals, and physically impedes drug delivery—one reason this bile-duct cancer is so chemoresistant."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Cholangiocarcinoma and IDH-mutant glioma are united by IDH1 mutation and the oncometabolite 2-HG: ~15-20% of intrahepatic cholangiocarcinomas carry IDH1 R132, and ivosidenib—first for IDH-mutant leukemia and glioma—now treats IDH1-mutant cholangiocarcinoma."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Cholangiocarcinoma arises from biliary epithelium, not hepatocytes, distinguishing it from HCC: it springs from cholangiocytes lining bile ducts, so it lacks AFP and hepatocyte markers and expresses biliary cytokeratins—a key distinction for a liver mass."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cholangiocarcinoma is mostly immunologically cold but responds in a subset: a dense desmoplastic, immunosuppressive stroma keeps cytotoxic T cells out, yet mismatch-repair-deficient or PD-L1-high tumors respond to checkpoint blockade now added to chemotherapy first-line."
 ---
 
 # Cholangiocarcinoma
@@ -172,6 +181,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Cholangiocarcinoma is the feared malignancy of inflammatory bowel disease via primary sclerosing cholangitis: PSC, strongly linked to ulcerative colitis, scars the bile ducts and carries a high lifetime risk of bile-duct cancer—so PSC-IBD patients need biliary surveillance.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Cholangiocarcinoma and colorectal cancer are both GI adenocarcinomas linked through PSC-IBD: ulcerative colitis with primary sclerosing cholangitis raises both colorectal and bile-duct cancer risk, and both can harbor actionable BRAF or mismatch-repair-deficient subtypes.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cholangiocarcinoma is defined by its desmoplastic stroma: cancer-associated fibroblasts build a dense fibrous matrix that surrounds the tumor, supplies growth and survival signals, and physically impedes drug delivery—one reason this bile-duct cancer is so chemoresistant.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Cholangiocarcinoma and IDH-mutant glioma are united by IDH1 mutation and the oncometabolite 2-HG: ~15-20% of intrahepatic cholangiocarcinomas carry IDH1 R132, and ivosidenib—first for IDH-mutant leukemia and glioma—now treats IDH1-mutant cholangiocarcinoma.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Cholangiocarcinoma arises from biliary epithelium, not hepatocytes, distinguishing it from HCC: it springs from cholangiocytes lining bile ducts, so it lacks AFP and hepatocyte markers and expresses biliary cytokeratins—a key distinction for a liver mass.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cholangiocarcinoma is mostly immunologically cold but responds in a subset: a dense desmoplastic, immunosuppressive stroma keeps cytotoxic T cells out, yet mismatch-repair-deficient or PD-L1-high tumors respond to checkpoint blockade now added to chemotherapy first-line.
 
 ---
 
