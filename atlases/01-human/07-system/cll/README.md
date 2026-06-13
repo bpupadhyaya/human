@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CLL famously exhausts cytotoxic T cells, undermining immunity: the leukemic B cells suppress and dysregulate CD8 T cells, causing the immunodeficiency and infection risk that dominate CLL—and this exhaustion is why CAR-T works less well in CLL."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "CLL is a mature B-cell cancer that fails to become a plasma cell: the malignant clone is frozen short of antibody-secreting differentiation, so it accumulates uselessly while normal antibody production falls—causing the hypogammaglobulinemia behind CLL infections."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Hypogammaglobulinemia drives infection risk in CLL: the leukemic B cells crowd out and suppress normal plasma cells, so IgG levels fall and patients suffer recurrent bacterial infections—a leading cause of death, sometimes needing immunoglobulin replacement."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "CLL cripples natural killer and overall immune surveillance: beyond low antibodies, the disease impairs NK and T-cell function, raising infection and second-cancer risk—and this immune dysfunction, not just tumor bulk, shapes the prognosis and treatment of CLL."
 ---
 
 # CLL
@@ -200,6 +209,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — CLL and CML are the two chronic leukemias of opposite lineages: CLL accumulates mature B lymphocytes (smudge cells, often asymptomatic), while CML is a BCR-ABL-driven myeloid proliferation—and where CML is cured by TKIs, CLL uses BTK and BCL-2 inhibitors.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — CLL and follicular lymphoma are the commonest indolent B-cell neoplasms but distinct: CLL is a CD5+ small-lymphocyte disease driven by BCL-2 (venetoclax-targeted), while follicular lymphoma is BCL2-translocated and germinal-center-derived—both treatable but incurable.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CLL famously exhausts cytotoxic T cells, undermining immunity: the leukemic B cells suppress and dysregulate CD8 T cells, causing the immunodeficiency and infection risk that dominate CLL—and this exhaustion is why CAR-T works less well in CLL.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — CLL is a mature B-cell cancer that fails to become a plasma cell: the malignant clone is frozen short of antibody-secreting differentiation, so it accumulates uselessly while normal antibody production falls—causing the hypogammaglobulinemia behind CLL infections.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Hypogammaglobulinemia drives infection risk in CLL: the leukemic B cells crowd out and suppress normal plasma cells, so IgG levels fall and patients suffer recurrent bacterial infections—a leading cause of death, sometimes needing immunoglobulin replacement.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — CLL cripples natural killer and overall immune surveillance: beyond low antibodies, the disease impairs NK and T-cell function, raising infection and second-cancer risk—and this immune dysfunction, not just tumor bulk, shapes the prognosis and treatment of CLL.
 
 ---
 

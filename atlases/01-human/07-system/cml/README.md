@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/mds
     relation: connects-to
     note: "CML and MDS sit at opposite poles of clonal myeloid disease: CML is a proliferative BCR-ABL-driven overproduction of mature myeloid cells, while MDS is a dysplastic, cytopenia-causing marrow failure—but both are clonal stem-cell disorders that can progress to AML."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "CML and JAK2-driven neoplasms are mirror-image myeloproliferative diseases: CML is defined by the BCR-ABL fusion kinase, while polycythemia vera and kin are driven by JAK2 mutations—both activate growth signaling, so testing distinguishes them and guides therapy."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "CML and polycythemia vera are both myeloproliferative neoplasms but molecularly distinct: CML is BCR-ABL-positive and treated with TKIs, while PV is JAK2-mutant with red-cell overproduction—yet both feature splenomegaly and a risk of transforming to acute leukemia."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "CML enlarges the liver and spleen via extramedullary hematopoiesis: massive granulocyte overproduction and organ infiltration cause hepatosplenomegaly, often with early satiety from a huge spleen—signs that regress dramatically once TKI therapy controls the clone."
 ---
 
 # Chronic Myeloid Leukemia
@@ -200,6 +209,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — CML and Philadelphia-positive ALL are united by the BCR-ABL fusion: the same t(9;22) drives chronic myeloid leukemia and a subset of acute lymphoblastic leukemia, so BCR-ABL tyrosine kinase inhibitors treat both—though Ph+ ALL is far more aggressive.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — CML often presents with a high platelet count alongside leukocytosis: the BCR-ABL clone expands the megakaryocyte lineage too, so thrombocytosis and basophilia accompany the neutrophilia—distinguishing CML from reactive leukocytosis and sometimes causing thrombosis.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — CML and MDS sit at opposite poles of clonal myeloid disease: CML is a proliferative BCR-ABL-driven overproduction of mature myeloid cells, while MDS is a dysplastic, cytopenia-causing marrow failure—but both are clonal stem-cell disorders that can progress to AML.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — CML and JAK2-driven neoplasms are mirror-image myeloproliferative diseases: CML is defined by the BCR-ABL fusion kinase, while polycythemia vera and kin are driven by JAK2 mutations—both activate growth signaling, so testing distinguishes them and guides therapy.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — CML and polycythemia vera are both myeloproliferative neoplasms but molecularly distinct: CML is BCR-ABL-positive and treated with TKIs, while PV is JAK2-mutant with red-cell overproduction—yet both feature splenomegaly and a risk of transforming to acute leukemia.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CML enlarges the liver and spleen via extramedullary hematopoiesis: massive granulocyte overproduction and organ infiltration cause hepatosplenomegaly, often with early satiety from a huge spleen—signs that regress dramatically once TKI therapy controls the clone.
 
 ---
 
