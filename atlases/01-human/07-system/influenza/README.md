@@ -49,6 +49,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "Influenza paves the way for Streptococcus pneumoniae: viral damage to airway epithelium and mucociliary clearance lets pneumococcus colonize the lung, producing the secondary bacterial pneumonia that peaks 5-10 days in and drives much influenza mortality."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "Both are vaccine-preventable respiratory viruses but distinct: influenza (orthomyxovirus) drifts and shifts antigenically, needing annual reformulated vaccines, while measles (paramyxovirus) is antigenically stable—one MMR series gives lifelong immunity—yet far more contagious."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Influenza and COVID-19 are the dominant pandemic-capable respiratory viruses, overlapping in presentation but with distinct antivirals (oseltamivir/baloxavir vs nirmatrelvir/remdesivir); they co-circulate seasonally ('flurona' occurs) and both have annually updated vaccines."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Influenza is a potent cardiac trigger: in the week after infection the risk of myocardial infarction rises about six-fold, and the virus can cause myocarditis and decompensate heart failure; influenza vaccination reduces cardiovascular events, so it doubles as cardioprotection."
 ---
 
 # Influenza
@@ -195,3 +204,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Severe influenza is a disease of the lung: the virus infects alveolar epithelium → diffuse alveolar damage and ARDS (primary viral pneumonia), and by stripping mucociliary defenses it opens the door to the secondary bacterial pneumonia that caused most 1918 deaths.
 - `connects-to` → **[Type II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Influenza infects alveolar type I and type II pneumocytes; killing surfactant-producing type II cells collapses alveoli and slashes lung compliance → the diffuse alveolar damage and hyaline membranes of influenza ARDS, most severe with H5N1 and the 1918 strain.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Influenza paves the way for Streptococcus pneumoniae: viral damage to airway epithelium and mucociliary clearance lets pneumococcus colonize the lung, producing the secondary bacterial pneumonia that peaks 5-10 days in and drives much influenza mortality.
+- `connects-to` → **[Measles](../measles/README.md)** — Both are vaccine-preventable respiratory viruses but distinct: influenza (orthomyxovirus) drifts and shifts antigenically, needing annual reformulated vaccines, while measles (paramyxovirus) is antigenically stable—one MMR series gives lifelong immunity—yet far more contagious.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Influenza and COVID-19 are the dominant pandemic-capable respiratory viruses, overlapping in presentation but with distinct antivirals (oseltamivir/baloxavir vs nirmatrelvir/remdesivir); they co-circulate seasonally ('flurona' occurs) and both have annually updated vaccines.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Influenza is a potent cardiac trigger: in the week after infection the risk of myocardial infarction rises about six-fold, and the virus can cause myocarditis and decompensate heart failure; influenza vaccination reduces cardiovascular events, so it doubles as cardioprotection.
