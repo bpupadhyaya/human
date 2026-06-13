@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, so pulmonary vascular tone rises—an elevated tricuspid regurgitant jet marks patients at high mortality risk."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "PAH and juvenile polyposis converge on the BMP/TGF-β pathway: heritable PAH is most often caused by BMPR2 loss, and SMAD4/BMPR1A mutations can yield a combined JPS-HHT syndrome with PAH—BMP disruption linking gut polyps and pulmonary vascular disease."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "PAH ultimately kills through right heart failure: the thickened, narrowed pulmonary arteries raise resistance the right ventricle must pump against, so it hypertrophies, dilates and fails—right-heart function, not lung pressure alone, determines survival in PAH."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "PAH is a feared complication of connective-tissue disease, including lupus: immune-mediated injury remodels the pulmonary arteries, so SLE and systemic sclerosis patients are screened with echocardiography—CTD-associated PAH is a major cause of their mortality."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -206,6 +215,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Unresolved pulmonary emboli cause a distinct, surgically curable pulmonary hypertension: chronic thromboembolic PH (CTEPH) arises when organized clots obstruct and remodel pulmonary arteries, so every PAH workup includes a V/Q scan—CTEPH is cured by endarterectomy.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is an established cause of pulmonary arterial hypertension: even with controlled viral loads, HIV proteins like Tat and Nef injure pulmonary endothelium and drive the same plexiform remodeling as idiopathic PAH, so HIV-PAH is a recognized WHO Group 1 subtype.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Pulmonary hypertension is a deadly complication of sickle cell disease: chronic hemolysis scavenges nitric oxide and releases free hemoglobin and arginase, so pulmonary vascular tone rises—an elevated tricuspid regurgitant jet marks patients at high mortality risk.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — PAH and juvenile polyposis converge on the BMP/TGF-β pathway: heritable PAH is most often caused by BMPR2 loss, and SMAD4/BMPR1A mutations can yield a combined JPS-HHT syndrome with PAH—BMP disruption linking gut polyps and pulmonary vascular disease.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — PAH ultimately kills through right heart failure: the thickened, narrowed pulmonary arteries raise resistance the right ventricle must pump against, so it hypertrophies, dilates and fails—right-heart function, not lung pressure alone, determines survival in PAH.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — PAH is a feared complication of connective-tissue disease, including lupus: immune-mediated injury remodels the pulmonary arteries, so SLE and systemic sclerosis patients are screened with echocardiography—CTD-associated PAH is a major cause of their mortality.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

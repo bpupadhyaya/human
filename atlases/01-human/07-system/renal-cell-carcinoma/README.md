@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "Renal cell and bladder cancer are the two major urologic malignancies that differ in cell and cause: RCC arises from renal tubular epithelium and presents with a mass or paraneoplastic signs, while bladder cancer is a smoking-linked urothelial tumor with painless hematuria."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "RCC unifies several hereditary syndromes including Birt-Hogg-Dubé: BHD's FLCN loss causes chromophobe and oncocytic kidney tumors, one of the inherited RCC syndromes alongside VHL (clear cell) and HLRCC (papillary)—each gene yielding a distinct RCC histology."
+  - target: 01-human/07-system/ovarian-clear-cell-carcinoma
+    relation: connects-to
+    note: "Renal clear cell carcinoma and ovarian clear-cell carcinoma share clear-cell morphology but differ in biology: RCC is VHL/HIF-driven, while ovarian clear-cell is ARID1A/PIK3CA-driven—so 'clear cell' is a convergent appearance, not a shared pathway."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Renal cell carcinoma is a classic cause of paraneoplastic polycythemia: the tumor can secrete erythropoietin, raising red-cell mass and mimicking polycythemia vera—so erythrocytosis without a JAK2 mutation warrants renal imaging to exclude an EPO-producing tumor."
 ---
 
 # Renal Cell Carcinoma
@@ -194,6 +203,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Tuberous sclerosis predisposes to renal cell carcinoma and angiomyolipoma: TSC1/TSC2 loss unleashes mTOR in the kidney, producing fat-rich angiomyolipomas and a distinctive RCC, so mTOR inhibitors (everolimus) shrink TSC renal lesions and also treat advanced sporadic RCC.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Renal cell carcinoma is a classic cause of paraneoplastic polycythemia: HIF stabilization in clear-cell RCC drives ectopic erythropoietin, expanding the red-cell mass—one of several paraneoplastic syndromes that can be the first sign of a kidney tumor.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Renal cell and bladder cancer are the two major urologic malignancies that differ in cell and cause: RCC arises from renal tubular epithelium and presents with a mass or paraneoplastic signs, while bladder cancer is a smoking-linked urothelial tumor with painless hematuria.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — RCC unifies several hereditary syndromes including Birt-Hogg-Dubé: BHD's FLCN loss causes chromophobe and oncocytic kidney tumors, one of the inherited RCC syndromes alongside VHL (clear cell) and HLRCC (papillary)—each gene yielding a distinct RCC histology.
+- `connects-to` → **[Ovarian Clear Cell Carcinoma](../ovarian-clear-cell-carcinoma/README.md)** — Renal clear cell carcinoma and ovarian clear-cell carcinoma share clear-cell morphology but differ in biology: RCC is VHL/HIF-driven, while ovarian clear-cell is ARID1A/PIK3CA-driven—so 'clear cell' is a convergent appearance, not a shared pathway.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Renal cell carcinoma is a classic cause of paraneoplastic polycythemia: the tumor can secrete erythropoietin, raising red-cell mass and mimicking polycythemia vera—so erythrocytosis without a JAK2 mutation warrants renal imaging to exclude an EPO-producing tumor.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
