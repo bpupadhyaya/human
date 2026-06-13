@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/braf
     relation: connects-to
     note: "BRAF V600E absent in uveal melanoma (0%); GNAQ/GNA11 → PLCβ/PKC → MEK (RAS-independent) → BRAF inhibitors ineffective; MEK inhibitors (selumetinib): ORR ~15% (SUMIT trial) but no OS benefit; MEK + PKC combinations overcome adaptive resistance in preclinical uveal melanoma models."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Uveal melanoma is the commonest primary intraocular cancer in adults, from melanocytes of the uveal tract — choroid (~90%), ciliary body, or iris; it presents with painless vision change or floaters, and globe-sparing brachytherapy or proton therapy has replaced most enucleation."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is uveal melanoma's near-exclusive metastatic target: ~90% of metastases home there (the eye lacks lymphatics), often years after the eye is treated — so lifelong liver surveillance is essential, and liver-directed therapy plus tebentafusp are mainstays."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Uveal melanoma resists checkpoint inhibitors (ORR <5%, low mutational burden), so it engages cytotoxic T cells differently: tebentafusp, a gp100-HLA × CD3 bispecific, tethers CD8+ T cells to HLA-A*02:01 tumor cells — the first drug to improve survival in metastatic disease."
 ---
 
 # Uveal Melanoma
@@ -188,6 +197,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Uveal melanoma is biologically distinct from cutaneous melanoma: GNAQ/GNA11 (not BRAF V600E) → MEK inhibitors only partial activity; very low TMB vs UV-mutational burden; ICB ORR <5% in uveal vs 30-60% in cutaneous; liver-dominant metastasis vs lung/brain tropism.
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — GNAQ/GNA11 → PLCβ → PKC → Rho → YAP/TAZ nuclear entry (Hippo-independent); YAP/TAZ drive CTGF, CYR61, BIRC5 → uveal melanoma proliferation and survival; verteporfin (YAP inhibitor) active in preclinical uveal models; YAP-TEAD inhibitors (IAG933, VT3989) in Phase 1/2 trials.
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — BRAF V600E absent in uveal melanoma (0%); GNAQ/GNA11 → PLCβ/PKC → MEK (RAS-independent) → BRAF inhibitors ineffective; MEK inhibitors (selumetinib): ORR ~15% (SUMIT trial) but no OS benefit; MEK + PKC combinations overcome adaptive resistance in preclinical uveal melanoma models.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Uveal melanoma is the commonest primary intraocular cancer in adults, from melanocytes of the uveal tract — choroid (~90%), ciliary body, or iris; it presents with painless vision change or floaters, and globe-sparing brachytherapy or proton therapy has replaced most enucleation.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is uveal melanoma's near-exclusive metastatic target: ~90% of metastases home there (the eye lacks lymphatics), often years after the eye is treated — so lifelong liver surveillance is essential, and liver-directed therapy plus tebentafusp are mainstays.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Uveal melanoma resists checkpoint inhibitors (ORR <5%, low mutational burden), so it engages cytotoxic T cells differently: tebentafusp, a gp100-HLA × CD3 bispecific, tethers CD8+ T cells to HLA-A*02:01 tumor cells — the first drug to improve survival in metastatic disease.
 
 ---
 

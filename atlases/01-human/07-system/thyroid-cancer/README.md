@@ -43,6 +43,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Medullary thyroid carcinoma arises from calcitonin-secreting C cells, so serum calcitonin (and CEA) is both a screen before thyroid surgery and the key tumor marker afterward; a calcitonin doubling time under 6 months signals aggressive disease and prompts early systemic therapy."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Medullary thyroid carcinoma is a neuroendocrine tumor: it arises from calcitonin-secreting parafollicular C cells (neural-crest-derived), not iodine-handling follicular cells, so it ignores radioiodine and is tracked by calcitonin/CEA — closer to other NETs than papillary cancer."
+  - target: 01-human/07-system/fap
+    relation: connects-to
+    note: "FAP confers a distinctive thyroid risk: cribriform-morular thyroid carcinoma, a rare papillary variant occurring almost exclusively in young women with germline APC mutations, can be the presenting sign of undiagnosed FAP — prompting colonoscopy and APC testing."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunotherapy is reshaping the worst thyroid cancers: anaplastic and radioiodine-refractory tumors express PD-L1 and exclude cytotoxic T cells, so anti-PD-1 (pembrolizumab), often with lenvatinib or BRAF/MEK inhibitors, reactivates CD8+ killing in these rapidly fatal cancers."
 ---
 
 # Thyroid Cancer
@@ -195,6 +204,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[RET](../../03-molecular/ret/README.md)** — RET drives the C-cell lineage of thyroid cancer: germline RET mutations cause MEN2 medullary thyroid carcinoma, somatic RET ~40% of sporadic MTC, and RET/PTC fusions ~20% of papillary cancer; selective RET inhibitors selpercatinib and pralsetinib are highly active.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Differentiated thyroid cancers retain the sodium-iodide symporter (NIS), letting them concentrate radioiodine (I-131) whose beta emission ablates tumor — a targeted therapy; BRAF V600E silences NIS, causing radioiodine refractoriness that MEK inhibitors can partly reverse.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Medullary thyroid carcinoma arises from calcitonin-secreting C cells, so serum calcitonin (and CEA) is both a screen before thyroid surgery and the key tumor marker afterward; a calcitonin doubling time under 6 months signals aggressive disease and prompts early systemic therapy.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Medullary thyroid carcinoma is a neuroendocrine tumor: it arises from calcitonin-secreting parafollicular C cells (neural-crest-derived), not iodine-handling follicular cells, so it ignores radioiodine and is tracked by calcitonin/CEA — closer to other NETs than papillary cancer.
+- `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — FAP confers a distinctive thyroid risk: cribriform-morular thyroid carcinoma, a rare papillary variant occurring almost exclusively in young women with germline APC mutations, can be the presenting sign of undiagnosed FAP — prompting colonoscopy and APC testing.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy is reshaping the worst thyroid cancers: anaplastic and radioiodine-refractory tumors express PD-L1 and exclude cytotoxic T cells, so anti-PD-1 (pembrolizumab), often with lenvatinib or BRAF/MEK inhibitors, reactivates CD8+ killing in these rapidly fatal cancers.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
