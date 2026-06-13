@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Photon radiotherapy is central to esophageal cancer: chemoradiation can be definitive for squamous tumors or neoadjuvant before surgery for adenocarcinoma, exploiting the tumor's radiosensitivity while sparing heart and lung—a mainstay where surgery alone often fails."
+  - target: 02-pathogen/02-bacteria/helicobacter-pylori
+    relation: connects-to
+    note: "Helicobacter pylori has a paradoxical link to esophageal cancer: by causing atrophic gastritis that lowers stomach acid, H. pylori reduces reflux and protects against esophageal adenocarcinoma—so its decline in wealthy countries partly explains that cancer's rise."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 mutation is an early, near-universal driver of esophageal cancer: loss of p53 occurs in Barrett's progression to adenocarcinoma and in most squamous tumors, letting damaged cells evade death—so p53 status tracks malignant transformation in the esophagus."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Esophageal cancer threatens the lung directly: the esophagus lies against the airway, so tumors can erode into the trachea forming a tracheoesophageal fistula, and aspiration and lung metastases are common—linking esophageal disease to fatal respiratory complications."
 ---
 
 # Esophageal Cancer
@@ -225,6 +234,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Esophageal and pancreatic cancers are both lethal GI adenocarcinomas usually caught late: each tends to present with advanced disease and dismal survival, shares risk from smoking and obesity, and depends on chemoradiation or chemotherapy since surgical cure is the exception.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Esophageal and colorectal cancers illustrate the metaplasia-dysplasia-carcinoma sequence: chronic injury (reflux/Barrett's vs adenoma) drives stepwise mutation toward adenocarcinoma, and both are screened endoscopically to catch precursor lesions before invasion.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is central to esophageal cancer: chemoradiation can be definitive for squamous tumors or neoadjuvant before surgery for adenocarcinoma, exploiting the tumor's radiosensitivity while sparing heart and lung—a mainstay where surgery alone often fails.
+- `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Helicobacter pylori has a paradoxical link to esophageal cancer: by causing atrophic gastritis that lowers stomach acid, H. pylori reduces reflux and protects against esophageal adenocarcinoma—so its decline in wealthy countries partly explains that cancer's rise.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is an early, near-universal driver of esophageal cancer: loss of p53 occurs in Barrett's progression to adenocarcinoma and in most squamous tumors, letting damaged cells evade death—so p53 status tracks malignant transformation in the esophagus.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Esophageal cancer threatens the lung directly: the esophagus lies against the airway, so tumors can erode into the trachea forming a tracheoesophageal fistula, and aspiration and lung metastases are common—linking esophageal disease to fatal respiratory complications.
 
 ---
 

@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "ET and polycythemia vera show how one marrow can overproduce different lineages: ET expands megakaryocytes and platelets while PV expands erythrocytes, yet both arise from JAK2-pathway mutations—lineage skewing of a shared clonal stem-cell defect sets the phenotype."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Excess platelets in essential thrombocythemia tip toward thrombin-driven clotting: the high, often dysfunctional platelet mass promotes both arterial and venous thrombosis, so low-dose aspirin and cytoreduction lower the clotting risk that dominates ET's morbidity."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Essential thrombocythemia carries a small but real risk of transforming to AML: as a clonal myeloproliferative neoplasm, ET can evolve through myelofibrosis to acute leukemia, a risk raised by some cytoreductive drugs—the feared long-term endpoint."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Essential thrombocythemia often raises neutrophils too: the JAK2-driven clone expands multiple myeloid lineages, so leukocytosis often accompanies the thrombocytosis and itself predicts higher thrombosis risk—ET is a panmyeloid, not platelet-only, disease."
 ---
 
 # Essential Thrombocythemia
@@ -205,6 +214,9 @@ Management:
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — ET and CML are both chronic myeloproliferative neoplasms but driven differently: CML by the BCR-ABL fusion tyrosine kinase (treatable with imatinib), ET by JAK2/CALR/MPL mutations driving platelet overproduction—both can progress to fibrosis or acute leukemia.
 - `connects-to` → **[Stroke](../stroke/README.md)** — ET predisposes to stroke: the excess, often dysfunctional platelets promote arterial thrombosis, so TIAs and stroke are feared complications—low-dose aspirin and cytoreduction lower this risk, a rare case where too many platelets cause clots, not bleeding.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — ET and polycythemia vera show how one marrow can overproduce different lineages: ET expands megakaryocytes and platelets while PV expands erythrocytes, yet both arise from JAK2-pathway mutations—lineage skewing of a shared clonal stem-cell defect sets the phenotype.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Excess platelets in essential thrombocythemia tip toward thrombin-driven clotting: the high, often dysfunctional platelet mass promotes both arterial and venous thrombosis, so low-dose aspirin and cytoreduction lower the clotting risk that dominates ET's morbidity.
+- `connects-to` → **[AML](../aml/README.md)** — Essential thrombocythemia carries a small but real risk of transforming to AML: as a clonal myeloproliferative neoplasm, ET can evolve through myelofibrosis to acute leukemia, a risk raised by some cytoreductive drugs—the feared long-term endpoint.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Essential thrombocythemia often raises neutrophils too: the JAK2-driven clone expands multiple myeloid lineages, so leukocytosis often accompanies the thrombocytosis and itself predicts higher thrombosis risk—ET is a panmyeloid, not platelet-only, disease.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
