@@ -63,6 +63,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Thalassemia trait is the key differential of iron-deficiency anemia: both cause microcytic, hypochromic cells, but thalassemia has normal/high iron, a low Mentzer index and raised HbA2 while IDA shows low ferritin—mislabeling it as IDA causes harmful needless iron use."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen bears the brunt of thalassemia: it works overtime clearing defective red cells and hosts extramedullary hematopoiesis, enlarging massively and worsening anemia by trapping blood—so splenectomy is sometimes needed but leaves patients prone to sepsis."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a major casualty of transfusion-dependent thalassemia: lifelong transfusions and increased gut iron absorption load the liver with iron, causing cirrhosis unless iron chelation is maintained—and hepatic iron quantified by MRI guides chelation therapy."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Thalassemia causes a distinctive osteoporosis: marrow expansion from chronic anemia thins cortical bone, while iron overload and endocrine damage impair osteoblasts and sex hormones—so fragility fractures are common and bone-density monitoring is part of care."
 ---
 
 # Thalassemia
@@ -222,6 +231,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Malaria](../malaria/README.md)** — Thalassemia, like sickle trait, is a malaria-protective hemoglobinopathy: its high gene frequency across the Mediterranean, Middle East and Asia reflects balancing selection, as α- and β-thalassemia carriers resist severe Plasmodium falciparum—matching the historic malaria map.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Thalassemia is driven by ineffective erythropoiesis: unbalanced globin chains precipitate and kill red-cell precursors in the marrow, which expands massively (skeletal deformities, extramedullary hematopoiesis); luspatercept eases this block and transfusions suppress the marrow.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Thalassemia trait is the key differential of iron-deficiency anemia: both cause microcytic, hypochromic cells, but thalassemia has normal/high iron, a low Mentzer index and raised HbA2 while IDA shows low ferritin—mislabeling it as IDA causes harmful needless iron use.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen bears the brunt of thalassemia: it works overtime clearing defective red cells and hosts extramedullary hematopoiesis, enlarging massively and worsening anemia by trapping blood—so splenectomy is sometimes needed but leaves patients prone to sepsis.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a major casualty of transfusion-dependent thalassemia: lifelong transfusions and increased gut iron absorption load the liver with iron, causing cirrhosis unless iron chelation is maintained—and hepatic iron quantified by MRI guides chelation therapy.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Thalassemia causes a distinctive osteoporosis: marrow expansion from chronic anemia thins cortical bone, while iron overload and endocrine damage impair osteoblasts and sex hormones—so fragility fractures are common and bone-density monitoring is part of care.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

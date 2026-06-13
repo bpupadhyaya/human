@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Sickle cell disease is a strong, often overlooked VTE risk factor: chronic hemolysis, phosphatidylserine exposure and inflammation create a hypercoagulable state, so VTE and pulmonary embolism rates are markedly raised, overlapping with in-situ pulmonary vaso-occlusion."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "Polycythemia vera is a major acquired cause of venous thromboembolism: high hematocrit and JAK2-mutant prothrombotic blood drive clots, including splanchnic-vein thromboses (Budd-Chiari, portal vein) that can be the first sign—so unusual-site VTE prompts JAK2 testing."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Cancer is a leading cause of venous thromboembolism, and pancreatic cancer is the classic high-risk tumor (Trousseau syndrome): mucin and tissue factor make the blood intensely prothrombotic, so migratory or unprovoked VTE can be the presenting clue to an occult malignancy."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "COVID-19 dramatically raises venous thromboembolism risk: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, so hospitalized patients develop DVT and pulmonary embolism at high rates and receive thromboprophylaxis, with D-dimer marking severity."
 ---
 
 # Venous Thromboembolism
@@ -198,6 +207,9 @@ cross_links:
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial injury is one arm of Virchow's triad driving VTE: damaged endothelium loses its antithrombotic surface (thrombomodulin, heparan sulfate) and exposes tissue factor and von Willebrand factor, nucleating clot—why surgery, inflammation and indwelling lines provoke it.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is where venous thromboembolism turns deadly: a deep-vein thrombus that breaks loose lodges in the pulmonary arteries as a pulmonary embolism, causing hypoxia, acute right-heart strain and sudden death; CT angiography diagnoses it and large clots may need thrombolysis.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Sickle cell disease is a strong, often overlooked VTE risk factor: chronic hemolysis, phosphatidylserine exposure and inflammation create a hypercoagulable state, so VTE and pulmonary embolism rates are markedly raised, overlapping with in-situ pulmonary vaso-occlusion.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Polycythemia vera is a major acquired cause of venous thromboembolism: high hematocrit and JAK2-mutant prothrombotic blood drive clots, including splanchnic-vein thromboses (Budd-Chiari, portal vein) that can be the first sign—so unusual-site VTE prompts JAK2 testing.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cancer is a leading cause of venous thromboembolism, and pancreatic cancer is the classic high-risk tumor (Trousseau syndrome): mucin and tissue factor make the blood intensely prothrombotic, so migratory or unprovoked VTE can be the presenting clue to an occult malignancy.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — COVID-19 dramatically raises venous thromboembolism risk: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, so hospitalized patients develop DVT and pulmonary embolism at high rates and receive thromboprophylaxis, with D-dimer marking severity.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
