@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/dermatomyositis
     relation: connects-to
     note: "Sjögren's syndrome overlaps with connective-tissue autoimmune diseases like dermatomyositis: both share sicca symptoms, autoantibodies and sometimes myositis, and secondary Sjögren's often accompanies inflammatory myopathy—so an overlap syndrome must be considered."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells orchestrate the gland destruction of Sjögren's: infiltrating CD4 T cells and the cytokines they drive (with B cells and interferon) attack salivary and lacrimal glands, so the autoimmune assault that dries eyes and mouth is T-cell-coordinated."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Sjögren's clusters with autoimmune thyroid disease: it frequently coexists with Hashimoto's thyroiditis, reflecting a shared tendency to organ-specific autoimmunity, so thyroid function is checked in Sjögren's patients who develop fatigue or weight change."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Sjögren's commonly damages peripheral nerves: lymphocytic infiltration and vasculitis cause sensory neuropathy and sometimes ganglionopathy, so numbness and pain are frequent extra-glandular features—occasionally the presenting sign before sicca symptoms."
 ---
 
 # Sjögren's Syndrome
@@ -225,6 +234,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Sjögren's lymphomas differ from mantle cell lymphoma in origin: Sjögren's drives antigen-stimulated marginal-zone lymphomas in inflamed glands, whereas MCL is a t(11;14) cyclin-D1 tumor of naive B cells—both B-NHL, but one inflammation-driven, one translocation-driven.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Sjögren's syndrome is a lymphoproliferative disease of exocrine glands: lymphocytes infiltrate and destroy salivary and lacrimal glands, and the chronic lymphoid activation causing dryness also drives its lymphoma risk—tying it to lymphatic-system biology.
 - `connects-to` → **[Dermatomyositis](../dermatomyositis/README.md)** — Sjögren's syndrome overlaps with connective-tissue autoimmune diseases like dermatomyositis: both share sicca symptoms, autoantibodies and sometimes myositis, and secondary Sjögren's often accompanies inflammatory myopathy—so an overlap syndrome must be considered.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells orchestrate the gland destruction of Sjögren's: infiltrating CD4 T cells and the cytokines they drive (with B cells and interferon) attack salivary and lacrimal glands, so the autoimmune assault that dries eyes and mouth is T-cell-coordinated.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Sjögren's clusters with autoimmune thyroid disease: it frequently coexists with Hashimoto's thyroiditis, reflecting a shared tendency to organ-specific autoimmunity, so thyroid function is checked in Sjögren's patients who develop fatigue or weight change.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Sjögren's commonly damages peripheral nerves: lymphocytic infiltration and vasculitis cause sensory neuropathy and sometimes ganglionopathy, so numbness and pain are frequent extra-glandular features—occasionally the presenting sign before sicca symptoms.
 
 ---
 
