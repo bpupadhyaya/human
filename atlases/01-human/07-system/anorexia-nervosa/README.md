@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Severe anorexia transforms the bone marrow: fat is replaced by gelatinous ground substance (serous atrophy) and haematopoiesis shuts down, producing the anaemia, leukopenia, and thrombocytopenia of advanced AN; like most AN complications it reverses with weight restoration."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Anorexia and bulimia nervosa are overlapping eating disorders that frequently cross over: the AN binge-purge subtype blurs into bulimia, both share body-image distortion and serotonergic dysfunction, but bulimics are usually normal-weight while AN is defined by underweight."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Anorexia is a leading cause of premature osteoporosis: chronic energy deficit suppresses estrogen (hypothalamic amenorrhea), raises cortisol and lowers IGF-1, tilting bone turnover to resorption; bone loss begins early, is often irreversible, and weight restoration is key."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "Anorexia and OCD are tightly linked: they share perfectionism, intrusive thoughts and rigid ritual, high premorbid OCD traits predict AN, and food restriction itself becomes a compulsion; orbitofrontal-striatal dysfunction underlies both, though AN fixates on eating and weight."
 ---
 
 # Anorexia Nervosa
@@ -212,6 +221,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart drives much of anorexia's lethality: starvation lowers catecholamines and electrolyte loss prolongs the QT interval → fatal arrhythmia, while refeeding can precipitate acute heart failure — which is why cardiac monitoring and slow refeeding are central to AN care.
 
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Severe anorexia transforms the bone marrow: fat is replaced by gelatinous ground substance (serous atrophy) and haematopoiesis shuts down, producing the anaemia, leukopenia, and thrombocytopenia of advanced AN; like most AN complications it reverses with weight restoration.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Anorexia and bulimia nervosa are overlapping eating disorders that frequently cross over: the AN binge-purge subtype blurs into bulimia, both share body-image distortion and serotonergic dysfunction, but bulimics are usually normal-weight while AN is defined by underweight.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Anorexia is a leading cause of premature osteoporosis: chronic energy deficit suppresses estrogen (hypothalamic amenorrhea), raises cortisol and lowers IGF-1, tilting bone turnover to resorption; bone loss begins early, is often irreversible, and weight restoration is key.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — Anorexia and OCD are tightly linked: they share perfectionism, intrusive thoughts and rigid ritual, high premorbid OCD traits predict AN, and food restriction itself becomes a compulsion; orbitofrontal-striatal dysfunction underlies both, though AN fixates on eating and weight.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

@@ -36,6 +36,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "GLP-1 agonists like semaglutide are emerging BED treatments: by enhancing satiety and dampening food reward, they cut binge frequency and weight, complementing lisdexamfetamine — the only FDA-approved BED drug, which instead targets dopamine/norepinephrine salience."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "Binge eating disorder and bulimia nervosa both feature recurrent loss-of-control binges but differ in aftermath: bulimia adds compensatory purging, fasting or exercise to prevent weight gain, while BED does not—so BED more often leads to obesity; both respond to CBT and SSRIs."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD is strongly linked to binge eating disorder: deficient dopaminergic reward and impulse control predispose to impulsive overeating, the two are highly comorbid, and lisdexamfetamine—an ADHD stimulant—is the only FDA-approved BED drug, dampening the reward salience of food."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Binge eating disorder raises type 2 diabetes risk: recurrent caloric excess drives obesity and insulin resistance, and BED is over-represented among people with T2D, worsening glycemic control; GLP-1 agonists now treat both by enhancing satiety and curbing binges."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -203,6 +212,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Obesity](../obesity/README.md)** — Half to two-thirds of people with binge eating disorder have obesity, from the recurrent caloric excess of binges; this links BED to diabetes, hypertension, and sleep apnea, and is why treatment targets the binge behavior rather than weight alone.
 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GLP-1 agonists like semaglutide are emerging BED treatments: by enhancing satiety and dampening food reward, they cut binge frequency and weight, complementing lisdexamfetamine — the only FDA-approved BED drug, which instead targets dopamine/norepinephrine salience.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — Binge eating disorder and bulimia nervosa both feature recurrent loss-of-control binges but differ in aftermath: bulimia adds compensatory purging, fasting or exercise to prevent weight gain, while BED does not—so BED more often leads to obesity; both respond to CBT and SSRIs.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD is strongly linked to binge eating disorder: deficient dopaminergic reward and impulse control predispose to impulsive overeating, the two are highly comorbid, and lisdexamfetamine—an ADHD stimulant—is the only FDA-approved BED drug, dampening the reward salience of food.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Binge eating disorder raises type 2 diabetes risk: recurrent caloric excess drives obesity and insulin resistance, and BED is over-represented among people with T2D, worsening glycemic control; GLP-1 agonists now treat both by enhancing satiety and curbing binges.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
