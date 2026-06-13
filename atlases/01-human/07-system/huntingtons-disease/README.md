@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Huntington's disease is an autosomal-dominant neurodegenerative disease of the CNS: a CAG-repeat expansion in HTT makes a toxic polyglutamine protein that destroys the striatum and cortex, causing chorea, cognitive decline, and psychiatric disturbance over 15-20 years."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes contribute to Huntington's disease: mutant huntingtin in astrocytes impairs glutamate uptake (lower EAAT2) and potassium buffering, raising excitotoxicity on vulnerable striatal neurons and cutting neurotrophic support—amplifying the neuronal loss."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Huntington's and Parkinson's are contrasting basal-ganglia disorders: HD is a CAG-repeat disease causing chorea from striatal indirect-pathway neuron loss, while PD causes hypokinesia from dopaminergic loss—dopamine-blockers ease HD chorea but cause parkinsonism."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Psychiatric illness is intrinsic to Huntington's, not just reactive: depression is very common and suicide risk markedly elevated, often preceding motor onset, reflecting degeneration of frontostriatal mood circuits; treating it is central to HD care given the high suicide rate."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -97,3 +106,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Huntington's disease kills a specific neuron: the GABAergic medium spiny neurons of the striatum, especially indirect-pathway (D2) MSNs whose loss disinhibits movement and causes chorea; mutant huntingtin starves them of BDNF and sensitizes them to glutamate excitotoxicity.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Neuroinflammation is an early feature of Huntington's disease: microglia activate in the striatum and cortex years before symptoms (on PET), and mutant huntingtin acts cell-autonomously inside microglia to make them hyper-reactive — adding inflammation to the neurodegeneration.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Huntington's disease is an autosomal-dominant neurodegenerative disease of the CNS: a CAG-repeat expansion in HTT makes a toxic polyglutamine protein that destroys the striatum and cortex, causing chorea, cognitive decline, and psychiatric disturbance over 15-20 years.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes contribute to Huntington's disease: mutant huntingtin in astrocytes impairs glutamate uptake (lower EAAT2) and potassium buffering, raising excitotoxicity on vulnerable striatal neurons and cutting neurotrophic support—amplifying the neuronal loss.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Huntington's and Parkinson's are contrasting basal-ganglia disorders: HD is a CAG-repeat disease causing chorea from striatal indirect-pathway neuron loss, while PD causes hypokinesia from dopaminergic loss—dopamine-blockers ease HD chorea but cause parkinsonism.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Psychiatric illness is intrinsic to Huntington's, not just reactive: depression is very common and suicide risk markedly elevated, often preceding motor onset, reflecting degeneration of frontostriatal mood circuits; treating it is central to HD care given the high suicide rate.

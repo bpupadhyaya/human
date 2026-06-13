@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "IgA nephropathy's disease-causing molecule comes from plasma cells: mucosal plasma cells (Peyer patches) overproduce galactose-deficient IgA1 under APRIL/BAFF drive, and others make the anti-Gd-IgA1 autoantibody — so therapies increasingly target plasma cells and APRIL signaling."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "IgA nephropathy is fundamentally a glomerular disease: galactose-deficient IgA1 immune complexes deposit in the glomerular mesangium, activating complement and mesangial proliferation that cause hematuria and proteinuria; diagnosis rests on mesangial IgA on glomerular biopsy."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "IgA nephropathy is linked to gut mucosal immunity and IBD: it reflects aberrant mucosal IgA1 production, is over-represented in inflammatory bowel and celiac disease, and gut-targeted budesonide (Nefecon) reduces proteinuria—evidence the gut-kidney axis drives it."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "IgA nephropathy is the world's commonest primary glomerulonephritis and a major cause of kidney failure: despite an often indolent course of hematuria, up to 30-40% progress to end-stage renal disease over decades, making it a leading reason younger adults need renal replacement."
 ---
 
 # IgA Nephropathy
@@ -147,6 +156,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — IgA nephropathy and immune thrombocytopenia are both antibody-driven autoimmune diseases: IgAN from galactose-deficient IgA1 complexes in the kidney mesangium, ITP from anti-platelet IgG marking platelets for splenic destruction — both treated by depleting the driving B cells.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — IgA nephropathy is the most common primary glomerulonephritis worldwide and a top cause of kidney failure in young adults: galactose-deficient IgA1 complexes lodge in the glomerular mesangium, triggering complement and inflammation that scar the kidney, often after a sore throat.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — IgA nephropathy's disease-causing molecule comes from plasma cells: mucosal plasma cells (Peyer patches) overproduce galactose-deficient IgA1 under APRIL/BAFF drive, and others make the anti-Gd-IgA1 autoantibody — so therapies increasingly target plasma cells and APRIL signaling.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — IgA nephropathy is fundamentally a glomerular disease: galactose-deficient IgA1 immune complexes deposit in the glomerular mesangium, activating complement and mesangial proliferation that cause hematuria and proteinuria; diagnosis rests on mesangial IgA on glomerular biopsy.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — IgA nephropathy is linked to gut mucosal immunity and IBD: it reflects aberrant mucosal IgA1 production, is over-represented in inflammatory bowel and celiac disease, and gut-targeted budesonide (Nefecon) reduces proteinuria—evidence the gut-kidney axis drives it.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — IgA nephropathy is the world's commonest primary glomerulonephritis and a major cause of kidney failure: despite an often indolent course of hematuria, up to 30-40% progress to end-stage renal disease over decades, making it a leading reason younger adults need renal replacement.
 
 ---
 
