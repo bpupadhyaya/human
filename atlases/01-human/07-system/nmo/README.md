@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "NMO and MS are distinguished by their cellular target: MS attacks oligodendrocytes and myelin, while NMO attacks astrocytes via aquaporin-4—so NMO is an astrocytopathy, not a demyelinating disease per se, and MS drugs can worsen it, making the distinction critical."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "NMO is defined by a pathogenic IgG autoantibody: AQP4-IgG binds astrocyte water channels and fixes complement, so this IgG is both the diagnostic test and the direct cause of the astrocyte destruction—distinguishing NMO from multiple sclerosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T helper cells drive the NMO attack: Th17 cells and the IL-6 they help sustain promote AQP4-specific antibody production and open the blood-brain barrier, so the antibody response depends on T-cell help—rationale for IL-6-pathway therapy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "NMO is a systemic autoimmune disease that strikes the CNS: it clusters with lupus and Sjogren's, reflecting broad loss of self-tolerance, and is controlled by immunosuppression and B-cell depletion rather than the immunomodulators used in MS."
 ---
 
 # NMOSD
@@ -253,6 +262,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — NMO and Guillain-Barré are both antibody-mediated demyelinating diseases but of different compartments: NMO's anti-aquaporin-4 antibodies attack CNS astrocytes, while GBS antibodies attack peripheral nerve myelin—central versus peripheral autoimmune demyelination.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement drives the astrocyte destruction of NMO: anti-aquaporin-4 antibodies bound to astrocytes activate the complement cascade, whose membrane attack complex lyses them—so complement inhibitors are now NMO therapy, treating the disease at its effector step.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — NMO and MS are distinguished by their cellular target: MS attacks oligodendrocytes and myelin, while NMO attacks astrocytes via aquaporin-4—so NMO is an astrocytopathy, not a demyelinating disease per se, and MS drugs can worsen it, making the distinction critical.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — NMO is defined by a pathogenic IgG autoantibody: AQP4-IgG binds astrocyte water channels and fixes complement, so this IgG is both the diagnostic test and the direct cause of the astrocyte destruction—distinguishing NMO from multiple sclerosis.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells drive the NMO attack: Th17 cells and the IL-6 they help sustain promote AQP4-specific antibody production and open the blood-brain barrier, so the antibody response depends on T-cell help—rationale for IL-6-pathway therapy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — NMO is a systemic autoimmune disease that strikes the CNS: it clusters with lupus and Sjogren's, reflecting broad loss of self-tolerance, and is controlled by immunosuppression and B-cell depletion rather than the immunomodulators used in MS.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

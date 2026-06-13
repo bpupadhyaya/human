@@ -60,6 +60,15 @@ cross_links:
   - target: 01-human/07-system/opioid-use-disorder
     relation: connects-to
     note: "Neuropathic pain is the setting where opioids both disappoint and endanger: opioids work poorly for neuropathic pain yet are often prescribed, fueling tolerance, dependence and opioid use disorder—so guidelines favor antidepressants and gabapentinoids."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Voltage-gated calcium channels are the target of first-line neuropathic-pain drugs: gabapentin and pregabalin bind the alpha-2-delta subunit, cutting calcium-driven release of pain neurotransmitters from overexcitable sensory neurons—linking calcium to pain control."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Neuropathic pain partly reflects lost GABAergic inhibition: nerve injury weakens inhibitory GABA signaling in the spinal dorsal horn, so normally innocuous touch is read as pain (allodynia)—restoring this inhibitory tone is a key analgesic strategy."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Varicella-zoster virus is a leading cause of neuropathic pain: after shingles, virus-damaged sensory nerves can fire abnormally for months as postherpetic neuralgia, the classic post-infectious neuropathic pain—now largely preventable by zoster vaccination."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -237,6 +246,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — Guillain-Barré syndrome can leave chronic neuropathic pain: acute autoimmune demyelination of peripheral nerves causes severe pain during the illness, and damaged, abnormally firing nerves can produce lasting neuropathic pain even after motor recovery.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuropathic pain arises from maladaptive changes in neurons: injured sensory neurons become hyperexcitable, fire spontaneously and rewire their connections, so pain persists without ongoing tissue damage—the nervous system generating pain from its own circuitry.
 - `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Neuropathic pain is the setting where opioids both disappoint and endanger: opioids work poorly for neuropathic pain yet are often prescribed, fueling tolerance, dependence and opioid use disorder—so guidelines favor antidepressants and gabapentinoids.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Voltage-gated calcium channels are the target of first-line neuropathic-pain drugs: gabapentin and pregabalin bind the alpha-2-delta subunit, cutting calcium-driven release of pain neurotransmitters from overexcitable sensory neurons—linking calcium to pain control.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuropathic pain partly reflects lost GABAergic inhibition: nerve injury weakens inhibitory GABA signaling in the spinal dorsal horn, so normally innocuous touch is read as pain (allodynia)—restoring this inhibitory tone is a key analgesic strategy.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Varicella-zoster virus is a leading cause of neuropathic pain: after shingles, virus-damaged sensory nerves can fire abnormally for months as postherpetic neuralgia, the classic post-infectious neuropathic pain—now largely preventable by zoster vaccination.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
