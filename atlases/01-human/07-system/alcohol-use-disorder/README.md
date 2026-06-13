@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/npy
     relation: connects-to
     note: "NPY reduces voluntary alcohol intake via limbic anxiolysis; Y2R knockout mice consume 2× more alcohol; alcohol withdrawal depletes limbic NPY → anxiety → relapse; Y1R agonism in CeA reduces stress-induced alcohol-seeking; NPY is a candidate pharmacotherapy for AUD relapse."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver bears the brunt of alcohol use disorder: ethanol metabolism to acetaldehyde and a shifted NADH/NAD ratio drive steatosis → alcoholic hepatitis → fibrosis and cirrhosis; abstinence reverses early disease, but cirrhosis is the gateway to liver failure and cancer."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "Alcohol use disorder is a major cause of hepatocellular carcinoma: alcoholic cirrhosis is the inflamed, regenerating background on which HCC arises, and alcohol multiplies the risk from hepatitis B/C—so HCC surveillance is essential once cirrhosis develops."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Alcohol and opioid use disorders frequently co-occur and are dangerous together: both are CNS depressants, so combined use multiplies respiratory depression and overdose death; they share reward and stress circuitry, and concurrent alcohol complicates opioid agonist therapy."
 ---
 
 # Alcohol Use Disorder
@@ -255,6 +264,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Norepinephrine](../../../03-molecular/norepinephrine/README.md)** — alcohol withdrawal → NE hyperactivation → autonomic instability (tachycardia, hypertension, diaphoresis) — core CIWA-Ar symptoms; clonidine (α2 agonist) reduces LC-NE firing during withdrawal; chronic alcohol disrupts NE autoreceptor sensitivity.
 
 - `connects-to` → **[NPY](../../../03-molecular/npy/README.md)** — NPY reduces voluntary alcohol intake via limbic anxiolysis; Y2R knockout mice consume 2× more alcohol; alcohol withdrawal depletes limbic NPY → anxiety → relapse; Y1R agonism in CeA reduces stress-induced alcohol-seeking; NPY is a candidate pharmacotherapy for AUD relapse prevention.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver bears the brunt of alcohol use disorder: ethanol metabolism to acetaldehyde and a shifted NADH/NAD ratio drive steatosis → alcoholic hepatitis → fibrosis and cirrhosis; abstinence reverses early disease, but cirrhosis is the gateway to liver failure and cancer.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Alcohol use disorder is a major cause of hepatocellular carcinoma: alcoholic cirrhosis is the inflamed, regenerating background on which HCC arises, and alcohol multiplies the risk from hepatitis B/C—so HCC surveillance is essential once cirrhosis develops.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Alcohol and opioid use disorders frequently co-occur and are dangerous together: both are CNS depressants, so combined use multiplies respiratory depression and overdose death; they share reward and stress circuitry, and concurrent alcohol complicates opioid agonist therapy.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

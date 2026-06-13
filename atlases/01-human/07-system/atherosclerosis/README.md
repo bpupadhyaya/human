@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Cholesterol (C₂₇H₄₆O) and fatty acid carbon accumulate in arterial macrophages forming foam cells; oxidised LDL carbon adducts trigger inflammatory NF-κB signalling; statins inhibit HMG-CoA reductase, reducing hepatic cholesterol carbon synthesis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Atherosclerosis begins at the endothelial cell: disturbed flow, LDL, smoking and hyperglycemia injure it, so it loses nitric-oxide protection and expresses adhesion molecules that recruit monocytes and let LDL enter the intima—the initiating step of plaque."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Coronary atherosclerosis is the dominant cause of heart disease: plaque narrowing produces angina and ischemia, while rupture of a vulnerable plaque triggers thrombosis → myocardial infarction; LDL lowering, antiplatelets and revascularization aim to stabilize coronary plaque."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Atherosclerosis is a leading cause of ischemic stroke: carotid and intracranial plaques narrow vessels and, when they rupture, throw emboli or thrombose to occlude cerebral arteries → infarction; carotid imaging, statins, antiplatelets and endarterectomy target this mechanism."
 ---
 
 # Atherosclerosis
@@ -185,6 +194,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FN accumulates in the arterial intima early in atherosclerosis; EDA-FN activates TLR4 on SMCs and macrophages → NF-κB → inflammation; FN-integrin α5β1 promotes SMC migration from media to intima; plaque FN cross-links collagen → fibrous cap stability; plasma FN falls in acute MI.
 - `treated-by` → **[Aspirin](../../../03-medicine/01-modern/04-cardio/aspirin/README.md)** — aspirin 75-100 mg/day is a cornerstone of secondary prevention in atherosclerotic CVD; irreversible platelet COX-1 acetylation blocks TXA₂ → prevents plaque-rupture-triggered arterial thrombosis; ATC meta-analysis: 22% proportional reduction in serious vascular events.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Cholesterol (C₂₇H₄₆O) and fatty acid carbon accumulate in arterial macrophages forming foam cells; oxidised LDL carbon adducts trigger inflammatory NF-κB signalling; statins inhibit HMG-CoA reductase, reducing hepatic cholesterol carbon synthesis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Atherosclerosis begins at the endothelial cell: disturbed flow, LDL, smoking and hyperglycemia injure it, so it loses nitric-oxide protection and expresses adhesion molecules that recruit monocytes and let LDL enter the intima—the initiating step of plaque.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Coronary atherosclerosis is the dominant cause of heart disease: plaque narrowing produces angina and ischemia, while rupture of a vulnerable plaque triggers thrombosis → myocardial infarction; LDL lowering, antiplatelets and revascularization aim to stabilize coronary plaque.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Atherosclerosis is a leading cause of ischemic stroke: carotid and intracranial plaques narrow vessels and, when they rupture, throw emboli or thrombose to occlude cerebral arteries → infarction; carotid imaging, statins, antiplatelets and endarterectomy target this mechanism.
 
 ---
 
