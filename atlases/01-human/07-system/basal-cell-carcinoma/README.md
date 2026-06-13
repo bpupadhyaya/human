@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Basal cell carcinoma depends on its stroma: tumor cells recruit and reprogram fibroblasts into a characteristic peritumoral myxoid stroma that supplies Hedgehog and growth signals, and the retraction cleft between tumor nests and this stroma is a classic histologic clue."
+  - target: 01-human/07-system/rothmund-thomson
+    relation: connects-to
+    note: "Rothmund-Thomson syndrome predisposes to basal cell carcinoma: defective RECQL4-dependent DNA repair leaves poikilodermatous skin unable to fix UV damage, so BCC and squamous cell carcinoma arise early—a genodermatosis like Gorlin and xeroderma pigmentosum."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Basal cell carcinoma is more common and aggressive in HIV/AIDS and other immunosuppression: weakened immune surveillance lets UV-damaged keratinocytes escape, so skin cancers occur earlier and recur more in HIV and transplant patients—calling for vigilant screening."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "Basal cell carcinoma and SHH-subtype medulloblastoma share the hedgehog pathway: PTCH1/SMO mutations drive both and Gorlin syndrome predisposes to each—so the SMO inhibitor vismodegib developed for advanced BCC is also active in hedgehog-driven medulloblastoma."
 ---
 
 # Basal Cell Carcinoma
@@ -197,6 +206,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ultraviolet photons are the prime cause of basal cell carcinoma: UVB induces signature C→T 'UV mutations' in PTCH1 and TP53 of basal keratinocytes, activating Hedgehog signaling; cumulative sun and fair skin make it the commonest human cancer, and photoprotection prevents it.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immunosurveillance restrains basal cell carcinoma: organ-transplant recipients and the chronically immunosuppressed develop BCC at sharply higher rates and more aggressively, showing the immune system normally clears UV-damaged keratinocyte clones before they become tumors.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Basal cell carcinoma depends on its stroma: tumor cells recruit and reprogram fibroblasts into a characteristic peritumoral myxoid stroma that supplies Hedgehog and growth signals, and the retraction cleft between tumor nests and this stroma is a classic histologic clue.
+- `connects-to` → **[Rothmund-Thomson Syndrome](../rothmund-thomson/README.md)** — Rothmund-Thomson syndrome predisposes to basal cell carcinoma: defective RECQL4-dependent DNA repair leaves poikilodermatous skin unable to fix UV damage, so BCC and squamous cell carcinoma arise early—a genodermatosis like Gorlin and xeroderma pigmentosum.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Basal cell carcinoma is more common and aggressive in HIV/AIDS and other immunosuppression: weakened immune surveillance lets UV-damaged keratinocytes escape, so skin cancers occur earlier and recur more in HIV and transplant patients—calling for vigilant screening.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — Basal cell carcinoma and SHH-subtype medulloblastoma share the hedgehog pathway: PTCH1/SMO mutations drive both and Gorlin syndrome predisposes to each—so the SMO inhibitor vismodegib developed for advanced BCC is also active in hedgehog-driven medulloblastoma.
 
 ---
 

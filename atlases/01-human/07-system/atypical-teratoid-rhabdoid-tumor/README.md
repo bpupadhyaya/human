@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/diffuse-midline-glioma
     relation: connects-to
     note: "ATRT and diffuse midline glioma are both aggressive pediatric brain tumors driven by epigenetic dysregulation: ATRT by SMARCB1/SWI-SNF loss, DMG by the H3 K27M histone mutation—both reprogram chromatin rather than relying on classic oncogenes, and both carry a grim prognosis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is central but fraught in atypical teratoid/rhabdoid tumor: this aggressive infant brain tumor needs craniospinal photon or proton irradiation, but radiation is especially neurotoxic to the very young brain—so proton beam and timing limit lifelong damage."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "ATRT and neuroblastoma are both aggressive embryonal tumors of infancy with small-round-blue-cell histology: ATRT is a SMARCB1-deficient CNS/renal rhabdoid tumor, while neuroblastoma is a sympathoadrenal MYCN-driven tumor—told apart by INI1 loss and site."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "ATRT and retinoblastoma are aggressive embryonal cancers of early childhood driven by loss of a single tumor suppressor—SMARCB1 in ATRT versus RB1 in retinoblastoma—and like trilateral retinoblastoma, ATRT can arise in the pineal region of an infant brain."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -194,6 +203,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Wilms Tumor](../wilms-tumor/README.md)** — ATRT and malignant rhabdoid tumor of the kidney are the same SMARCB1-driven cancer in different sites: loss of the SWI/SNF subunit SMARCB1 (INI1) produces rhabdoid tumors in brain (ATRT) or kidney, so both belong to the rhabdoid tumor predisposition syndrome and resemble Wilms.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — ATRT and rhabdomyosarcoma both feature rhabdoid/small-round-blue-cell morphology and must be distinguished molecularly: ATRT is defined by SMARCB1 (INI1) loss while rhabdomyosarcoma shows myogenic markers and PAX-FOXO1 fusions—a distinction that dictates very different therapy.
 - `connects-to` → **[Diffuse Midline Glioma](../diffuse-midline-glioma/README.md)** — ATRT and diffuse midline glioma are both aggressive pediatric brain tumors driven by epigenetic dysregulation: ATRT by SMARCB1/SWI-SNF loss, DMG by the H3 K27M histone mutation—both reprogram chromatin rather than relying on classic oncogenes, and both carry a grim prognosis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is central but fraught in atypical teratoid/rhabdoid tumor: this aggressive infant brain tumor needs craniospinal photon or proton irradiation, but radiation is especially neurotoxic to the very young brain—so proton beam and timing limit lifelong damage.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — ATRT and neuroblastoma are both aggressive embryonal tumors of infancy with small-round-blue-cell histology: ATRT is a SMARCB1-deficient CNS/renal rhabdoid tumor, while neuroblastoma is a sympathoadrenal MYCN-driven tumor—told apart by INI1 loss and site.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — ATRT and retinoblastoma are aggressive embryonal cancers of early childhood driven by loss of a single tumor suppressor—SMARCB1 in ATRT versus RB1 in retinoblastoma—and like trilateral retinoblastoma, ATRT can arise in the pineal region of an infant brain.
 
 ---
 
