@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulinomas are among the islet tumors of MEN4: as in MEN1, p27 loss can produce a functioning pancreatic neuroendocrine tumor that oversecretes insulin, causing fasting hypoglycemia (Whipple's triad)—one reason MEN4 carriers need biochemical pancreatic-islet surveillance."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "MEN4 and pheochromocytoma rarely coincide: MEN4 (CDKN1B/p27 loss) phenocopies MEN1 with parathyroid, pituitary and pancreatic tumors but not the adrenal-medullary catecholamine tumors typical of MEN2 and VHL—so a pheochromocytoma argues against MEN4."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "MEN4 and von Hippel-Lindau are both dominant tumor-suppressor syndromes causing neuroendocrine tumors via different genes: MEN4 from CDKN1B loss, VHL from pVHL loss driving pseudohypoxia—both can produce pancreatic NETs, but their wider tumor spectra diverge."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal gland can be involved in MEN4 as in MEN1: CDKN1B loss predisposes mainly to parathyroid, pituitary and pancreatic tumors, but adrenal adenomas occur too, so surveillance of MEN4—the rare MEN1-phenocopy negative for MEN1 mutation—includes adrenal imaging."
 ---
 
 # MEN4 Syndrome
@@ -187,6 +196,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — MEN4 is a MEN1-like multiple-endocrine-neoplasia syndrome: loss of the CDKN1B-encoded cell-cycle inhibitor p27 predisposes to parathyroid, pituitary and pancreatic-islet tumors much like menin loss, illustrating that several tumor-suppressor genes converge on endocrine neoplasia.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Pancreatic neuroendocrine tumors are part of MEN4 as in MEN1: p27 (CDKN1B) loss predisposes to islet-cell tumors (gastrinomas, insulinomas) alongside parathyroid and pituitary disease, so functional and anatomic pancreatic surveillance is recommended in CDKN1B carriers.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulinomas are among the islet tumors of MEN4: as in MEN1, p27 loss can produce a functioning pancreatic neuroendocrine tumor that oversecretes insulin, causing fasting hypoglycemia (Whipple's triad)—one reason MEN4 carriers need biochemical pancreatic-islet surveillance.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — MEN4 and pheochromocytoma rarely coincide: MEN4 (CDKN1B/p27 loss) phenocopies MEN1 with parathyroid, pituitary and pancreatic tumors but not the adrenal-medullary catecholamine tumors typical of MEN2 and VHL—so a pheochromocytoma argues against MEN4.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — MEN4 and von Hippel-Lindau are both dominant tumor-suppressor syndromes causing neuroendocrine tumors via different genes: MEN4 from CDKN1B loss, VHL from pVHL loss driving pseudohypoxia—both can produce pancreatic NETs, but their wider tumor spectra diverge.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland can be involved in MEN4 as in MEN1: CDKN1B loss predisposes mainly to parathyroid, pituitary and pancreatic tumors, but adrenal adenomas occur too, so surveillance of MEN4—the rare MEN1-phenocopy negative for MEN1 mutation—includes adrenal imaging.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Meningioma and breast cancer are linked through hormones and co-occurrence: most meningiomas express progesterone (and some estrogen) receptors, grow in pregnancy and the luteal phase, and the two are epidemiologically associated—a breast-cancer history can accompany meningioma."
+  - target: 01-human/07-system/chordoma
+    relation: connects-to
+    note: "Meningioma and chordoma are both slow-growing extra-axial tumors of the skull base and spine: meningioma arises from arachnoid cap cells, chordoma from notochord remnants in the clivus or sacrum—both treated by resection plus radiotherapy and prone to local recurrence."
+  - target: 01-human/07-system/pcnsl
+    relation: connects-to
+    note: "Meningioma and primary CNS lymphoma can both appear as enhancing masses but differ: meningioma is an extra-axial dural tumor cured by resection, while PCNSL is an intra-axial B-cell lymphoma treated with methotrexate, not surgery—so location and biopsy decide."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "Meningioma and IDH-mutant glioma sit in opposite brain compartments: meningioma is extra-axial, dural-based and usually benign, while IDH-mutant glioma is intra-axial and infiltrative—MRI location (the dural tail) distinguishes the resectable from the diffuse."
 ---
 
 # Meningioma
@@ -192,6 +201,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is the best-established environmental cause of meningioma: prior cranial radiotherapy (even low-dose scalp irradiation) markedly raises risk, often producing higher-grade, multiple tumors decades later—while focused radiosurgery also treats inaccessible ones.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — Meningioma and glioblastoma are the two commonest primary brain tumors but opposite: meningioma is an extra-axial, dural-based, usually benign and resectable tumor of arachnoid cells, while glioblastoma is intra-axial, diffusely infiltrative and malignant—distinguished on MRI.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Meningioma and breast cancer are linked through hormones and co-occurrence: most meningiomas express progesterone (and some estrogen) receptors, grow in pregnancy and the luteal phase, and the two are epidemiologically associated—a breast-cancer history can accompany meningioma.
+- `connects-to` → **[Chordoma](../chordoma/README.md)** — Meningioma and chordoma are both slow-growing extra-axial tumors of the skull base and spine: meningioma arises from arachnoid cap cells, chordoma from notochord remnants in the clivus or sacrum—both treated by resection plus radiotherapy and prone to local recurrence.
+- `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Meningioma and primary CNS lymphoma can both appear as enhancing masses but differ: meningioma is an extra-axial dural tumor cured by resection, while PCNSL is an intra-axial B-cell lymphoma treated with methotrexate, not surgery—so location and biopsy decide.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — Meningioma and IDH-mutant glioma sit in opposite brain compartments: meningioma is extra-axial, dural-based and usually benign, while IDH-mutant glioma is intra-axial and infiltrative—MRI location (the dural tail) distinguishes the resectable from the diffuse.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
