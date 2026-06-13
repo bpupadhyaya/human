@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/07-system/epilepsy
     relation: connects-to
     note: "Aicardi-Goutières syndrome presents as an early encephalopathy with seizures: interferon-driven inflammation, basal-ganglia calcification and white-matter injury cause developmental regression and epilepsy in infancy—mimicking congenital infection."
+  - target: 01-human/03-molecular/mavs
+    relation: connects-to
+    note: "One AGS subtype is a disease of MAVS signaling: gain-of-function in the MDA5 sensor (IFIH1) makes it misread the body's own RNA, firing MAVS-driven type I interferon—so AGS is a Mendelian interferonopathy mimicking congenital infection."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "AGS is fundamentally an interferon assault on the developing nervous system: chronic intrathecal type I interferon causes a leukodystrophy with brain calcification, white-matter loss and severe encephalopathy, mimicking a TORCH congenital infection."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "AGS is a prototype autoinflammatory interferonopathy: inherited defects in nucleic-acid metabolism trip innate immune sensors to overproduce interferon against self, so it overlaps with lupus and is now treated by damping that pathway with JAK inhibitors."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -192,6 +201,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Aicardi-Goutières syndrome and multiple sclerosis sit at opposite ends of the type-I-interferon story: AGS is a genetic interferonopathy where excess interferon damages the brain, while MS is treated with interferon-β—pathogenic in AGS, therapeutic in MS.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — STAT1 carries the interferon signal driving Aicardi-Goutières syndrome: defective nucleic-acid sensing triggers chronic type-I interferon, which signals through JAK-STAT1 to inflame the brain—so JAK inhibitors blocking this pathway are emerging therapy.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Aicardi-Goutières syndrome presents as an early encephalopathy with seizures: interferon-driven inflammation, basal-ganglia calcification and white-matter injury cause developmental regression and epilepsy in infancy—mimicking congenital infection.
+- `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — One AGS subtype is a disease of MAVS signaling: gain-of-function in the MDA5 sensor (IFIH1) makes it misread the body's own RNA, firing MAVS-driven type I interferon—so AGS is a Mendelian interferonopathy mimicking congenital infection.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — AGS is fundamentally an interferon assault on the developing nervous system: chronic intrathecal type I interferon causes a leukodystrophy with brain calcification, white-matter loss and severe encephalopathy, mimicking a TORCH congenital infection.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — AGS is a prototype autoinflammatory interferonopathy: inherited defects in nucleic-acid metabolism trip innate immune sensors to overproduce interferon against self, so it overlaps with lupus and is now treated by damping that pathway with JAK inhibitors.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
