@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Inherited thrombophilia mainly raises venous, not arterial, thrombosis—unlike atherosclerosis: factor V Leiden and prothrombin mutations drive DVT and PE, while atherosclerotic thrombosis is plaque-driven, so thrombophilia testing is reserved for venous events."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Myeloproliferative neoplasms are a major acquired thrombophilia: JAK2-mutant blood is intrinsically prothrombotic, causing arterial and venous (including splanchnic) clots like inherited thrombophilias—so unexplained thrombosis at unusual sites warrants JAK2 testing."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Inherited thrombophilia can cause pulmonary hypertension: recurrent pulmonary emboli that fail to resolve organize into fibrotic obstruction, causing chronic thromboembolic pulmonary hypertension (CTEPH)—a complication surgically curable by endarterectomy."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets are central to the arterial thrombosis of thrombophilia: while inherited thrombophilias mainly drive venous clots, platelet activation drives arterial events—so antiplatelet and anticoagulant therapy target different arms of clot formation."
 ---
 
 # Inherited Thrombophilia
@@ -246,6 +255,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — Inherited thrombophilia and polycythemia vera are inherited versus acquired prothrombotic states: thrombophilia (factor V Leiden, prothrombin G20210A) tilts toward clotting, while PV's JAK2 thickens the blood—both raise venous thrombosis, including splanchnic clots.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Inherited thrombophilia and DIC are opposite ends of clotting dysregulation: thrombophilia is a stable inherited tilt toward thrombosis, while DIC is acute systemic coagulation activation consuming factors and platelets—paradoxically causing both clotting and bleeding.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Inherited thrombophilia mainly raises venous, not arterial, thrombosis—unlike atherosclerosis: factor V Leiden and prothrombin mutations drive DVT and PE, while atherosclerotic thrombosis is plaque-driven, so thrombophilia testing is reserved for venous events.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myeloproliferative neoplasms are a major acquired thrombophilia: JAK2-mutant blood is intrinsically prothrombotic, causing arterial and venous (including splanchnic) clots like inherited thrombophilias—so unexplained thrombosis at unusual sites warrants JAK2 testing.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Inherited thrombophilia can cause pulmonary hypertension: recurrent pulmonary emboli that fail to resolve organize into fibrotic obstruction, causing chronic thromboembolic pulmonary hypertension (CTEPH)—a complication surgically curable by endarterectomy.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central to the arterial thrombosis of thrombophilia: while inherited thrombophilias mainly drive venous clots, platelet activation drives arterial events—so antiplatelet and anticoagulant therapy target different arms of clot formation.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

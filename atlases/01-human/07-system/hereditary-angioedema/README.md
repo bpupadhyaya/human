@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "ACE inhibitors can trigger bradykinin-mediated angioedema like HAE: ACE normally degrades bradykinin, so blocking it raises bradykinin and causes angioedema (especially in HAE patients), which is why ACE inhibitors are contraindicated in hereditary angioedema."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Hereditary angioedema reflects loss of C1-inhibitor's brake on the contact and complement systems: without it, kallikrein generates bradykinin while the classical complement pathway runs unchecked, consuming C4—so low C4 is the screening clue to HAE."
+  - target: 01-human/07-system/asthma
+    relation: connects-to
+    note: "Hereditary angioedema and asthma both cause acute airway emergencies: HAE's bradykinin-driven laryngeal edema obstructs the upper airway and ignores bronchodilators and steroids, unlike asthma's smooth-muscle bronchospasm—so the distinction is life-saving."
+  - target: 01-human/07-system/atopic-dermatitis
+    relation: connects-to
+    note: "Hereditary angioedema is the bradykinin-mediated counterpart to histamine-driven (allergic) angioedema seen with atopic dermatitis and urticaria: HAE lacks hives and ignores antihistamines, steroids and epinephrine—needing C1-INH or bradykinin-pathway drugs instead."
 ---
 
 # Hereditary Angioedema
@@ -222,6 +231,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Abdominal attacks are a major, often misdiagnosed feature of hereditary angioedema: bradykinin-driven edema of the bowel wall causes severe colicky pain, vomiting, and ascites that mimic a surgical abdomen, so recurrent crises with C1-inhibitor deficiency point to HAE.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Laryngeal edema is the lethal manifestation of hereditary angioedema: bradykinin-mediated upper-airway swelling can cause asphyxiation, so patients carry on-demand C1-inhibitor or icatibant—and unlike histaminergic angioedema, it ignores epinephrine and antihistamines.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — ACE inhibitors can trigger bradykinin-mediated angioedema like HAE: ACE normally degrades bradykinin, so blocking it raises bradykinin and causes angioedema (especially in HAE patients), which is why ACE inhibitors are contraindicated in hereditary angioedema.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Hereditary angioedema reflects loss of C1-inhibitor's brake on the contact and complement systems: without it, kallikrein generates bradykinin while the classical complement pathway runs unchecked, consuming C4—so low C4 is the screening clue to HAE.
+- `connects-to` → **[Asthma](../asthma/README.md)** — Hereditary angioedema and asthma both cause acute airway emergencies: HAE's bradykinin-driven laryngeal edema obstructs the upper airway and ignores bronchodilators and steroids, unlike asthma's smooth-muscle bronchospasm—so the distinction is life-saving.
+- `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Hereditary angioedema is the bradykinin-mediated counterpart to histamine-driven (allergic) angioedema seen with atopic dermatitis and urticaria: HAE lacks hives and ignores antihistamines, steroids and epinephrine—needing C1-INH or bradykinin-pathway drugs instead.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
