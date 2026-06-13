@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney is a major target of sickle-cell disease: the hypoxic, acidic renal medulla promotes sickling that damages the concentrating mechanism and glomeruli, causing impaired urine concentration, hematuria and progressive sickle nephropathy toward chronic kidney disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Sickle cell disease is a disease of the endothelium as much as the red cell: sickled cells and free hemoglobin scavenge nitric oxide and inflame the vessel lining, so endothelial activation and adhesion trigger the painful vaso-occlusive crises."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Sickle cell disease drives the bone marrow into overdrive: chronic hemolysis spurs erythroid hyperplasia that expands marrow and can cause aplastic crises when parvovirus halts it—and replacing the marrow by transplant or gene therapy can cure the disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Sickle cell disease causes functional asplenia and immune vulnerability: repeated splenic infarction destroys the organ early in childhood, so patients are dangerously prone to encapsulated-bacterial sepsis—why prophylactic penicillin and vaccination are lifesaving."
 ---
 
 # Sickle Cell Disease
@@ -262,6 +271,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide depletion drives sickle-cell vasculopathy: free hemoglobin from hemolysis scavenges NO, so vessels lose vasodilation and platelets activate—linking chronic hemolysis to pulmonary hypertension, stroke and leg ulcers beyond the acute vaso-occlusive crises.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen tension triggers the sickling itself: deoxygenated HbS polymerizes and deforms red cells, so hypoxia, dehydration and acidosis precipitate vaso-occlusive crises—which is why low oxygen at altitude or in infection can set off a painful sickle crisis.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a major target of sickle-cell disease: the hypoxic, acidic renal medulla promotes sickling that damages the concentrating mechanism and glomeruli, causing impaired urine concentration, hematuria and progressive sickle nephropathy toward chronic kidney disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Sickle cell disease is a disease of the endothelium as much as the red cell: sickled cells and free hemoglobin scavenge nitric oxide and inflame the vessel lining, so endothelial activation and adhesion trigger the painful vaso-occlusive crises.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Sickle cell disease drives the bone marrow into overdrive: chronic hemolysis spurs erythroid hyperplasia that expands marrow and can cause aplastic crises when parvovirus halts it—and replacing the marrow by transplant or gene therapy can cure the disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Sickle cell disease causes functional asplenia and immune vulnerability: repeated splenic infarction destroys the organ early in childhood, so patients are dangerously prone to encapsulated-bacterial sepsis—why prophylactic penicillin and vaccination are lifesaving.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

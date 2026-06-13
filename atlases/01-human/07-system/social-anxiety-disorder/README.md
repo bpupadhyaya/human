@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/anorexia-nervosa
     relation: connects-to
     note: "Social anxiety often precedes eating disorders: fear of eating or being watched in public can drive the food avoidance and body scrutiny seen in anorexia nervosa, and the two frequently coexist—social evaluation fears feeding restrictive behavior."
+  - target: 01-human/03-molecular/serotonin-transporter
+    relation: connects-to
+    note: "The serotonin transporter is social anxiety disorder's key drug target: SSRIs blocking it are first-line treatment, and transporter-gene variation is linked to anxious temperament—connecting the disorder's heritable shyness to serotonergic signaling."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Social anxiety disorder reflects an overactive fear network in the nervous system: a hyperreactive amygdala and weak prefrontal regulation exaggerate threat from social scrutiny, so it is a circuit-level disorder treated by retraining those responses."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Social anxiety disorder and cannabis use disorder are tightly linked: people use cannabis to ease social fear, but heavy use and withdrawal can heighten anxiety and paranoia, so this common self-medication readily slides into dependence."
 ---
 
 # Social Anxiety Disorder
@@ -233,6 +242,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol marks the stress biology of social anxiety: anticipating social scrutiny activates the HPA axis and raises cortisol, and the exaggerated physiological arousal—blushing, sweating, racing heart—both reflects and reinforces the fear of negative evaluation.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Social anxiety and insomnia feed each other: anticipatory worry about social events delays sleep, and resulting fatigue worsens next-day social performance and avoidance—so poor sleep amplifies the anxiety that caused it, a self-perpetuating loop.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Social anxiety often precedes eating disorders: fear of eating or being watched in public can drive the food avoidance and body scrutiny seen in anorexia nervosa, and the two frequently coexist—social evaluation fears feeding restrictive behavior.
+- `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — The serotonin transporter is social anxiety disorder's key drug target: SSRIs blocking it are first-line treatment, and transporter-gene variation is linked to anxious temperament—connecting the disorder's heritable shyness to serotonergic signaling.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Social anxiety disorder reflects an overactive fear network in the nervous system: a hyperreactive amygdala and weak prefrontal regulation exaggerate threat from social scrutiny, so it is a circuit-level disorder treated by retraining those responses.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Social anxiety disorder and cannabis use disorder are tightly linked: people use cannabis to ease social fear, but heavy use and withdrawal can heighten anxiety and paranoia, so this common self-medication readily slides into dependence.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
