@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "A seizure is hypersynchronous neuronal firing: bursting pyramidal neurons and recurrent excitatory collaterals overwhelm GABAergic interneurons → a paroxysmal depolarizing shift; most genetic epilepsies are neuronal ion-channelopathies that tip this balance."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Tuberous sclerosis is a paradigmatic genetic epilepsy: cortical tubers and TSC1/TSC2-driven mTOR overactivation cause early, often drug-resistant seizures (including infantile spasms), so mTOR inhibitors (everolimus) reduce seizures and early EEG-guided treatment is studied."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Stroke is a leading cause of acquired epilepsy in older adults: cortical infarcts and hemorrhages leave a gliotic, hyperexcitable scar that generates late-onset focal seizures months to years later; post-stroke epilepsy worsens outcomes and is managed with antiseizure medication."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes are active players in epilepsy, not bystanders: reactive astrogliosis impairs glutamate and potassium buffering and disrupts the blood-brain barrier, lowering seizure threshold; aberrant gap-junction coupling and inflammation sustain epileptogenesis."
 ---
 
 # Epilepsy
@@ -223,6 +232,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Migraine](../migraine/README.md)** — Epilepsy and migraine are comorbid disorders of cortical hyperexcitability that share genetics: gain-of-function SCN1A causes familial hemiplegic migraine while loss-of-function causes Dravet epilepsy, and valproate and topiramate treat both.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Seizures are an excitation-inhibition imbalance, and glutamate is the excitatory side: AMPA/NMDA over-activity drives synchronous bursting, and the AMPA antagonist perampanel is an antiseizure drug — the counterpart to GABA's brake.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A seizure is hypersynchronous neuronal firing: bursting pyramidal neurons and recurrent excitatory collaterals overwhelm GABAergic interneurons → a paroxysmal depolarizing shift; most genetic epilepsies are neuronal ion-channelopathies that tip this balance.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Tuberous sclerosis is a paradigmatic genetic epilepsy: cortical tubers and TSC1/TSC2-driven mTOR overactivation cause early, often drug-resistant seizures (including infantile spasms), so mTOR inhibitors (everolimus) reduce seizures and early EEG-guided treatment is studied.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Stroke is a leading cause of acquired epilepsy in older adults: cortical infarcts and hemorrhages leave a gliotic, hyperexcitable scar that generates late-onset focal seizures months to years later; post-stroke epilepsy worsens outcomes and is managed with antiseizure medication.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes are active players in epilepsy, not bystanders: reactive astrogliosis impairs glutamate and potassium buffering and disrupts the blood-brain barrier, lowering seizure threshold; aberrant gap-junction coupling and inflammation sustain epileptogenesis.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Cortical spreading depression — the wave behind migraine aura — is not purely neuronal: astrocytes propagate it through calcium waves and gap junctions and shape it by buffering the massive extracellular potassium and glutamate the depolarizing front releases."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Migraine and fibromyalgia frequently co-occur and share central sensitization: both feature amplified pain processing, failed descending inhibition and CGRP/serotonin involvement, so the comorbidity worsens disability, and SNRIs and anti-CGRP antibodies are studied across both."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Migraine and insomnia are bidirectionally linked through shared hypothalamic and brainstem circuitry: poor sleep is a common migraine trigger while migraine disrupts sleep, both involve orexin and serotonergic systems, and treating insomnia (CBT-I) reduces headache frequency."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Migraine aura is a neuronal event: cortical spreading depression—a slow wave of neuronal and glial depolarization then suppression—sweeps the cortex producing visual aura and activating trigeminal pain pathways; neuronal hyperexcitability underlies susceptibility."
 ---
 
 # Migraine
@@ -208,6 +217,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — Migraine and epilepsy are comorbid disorders of cortical hyperexcitability — migraineurs have 2-3× the epilepsy risk — sharing mechanisms like cortical spreading depression and SCN1A channel mutations (FHM3 vs Dravet); valproate and topiramate prevent both.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen shapes migraine: the 3:1 female predominance and menstrual migraine reflect attacks triggered by the perimenstrual estrogen drop, which lowers the trigeminovascular threshold; this is also why oral contraceptives plus migraine-with-aura sharply raise stroke risk.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Cortical spreading depression — the wave behind migraine aura — is not purely neuronal: astrocytes propagate it through calcium waves and gap junctions and shape it by buffering the massive extracellular potassium and glutamate the depolarizing front releases.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Migraine and fibromyalgia frequently co-occur and share central sensitization: both feature amplified pain processing, failed descending inhibition and CGRP/serotonin involvement, so the comorbidity worsens disability, and SNRIs and anti-CGRP antibodies are studied across both.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Migraine and insomnia are bidirectionally linked through shared hypothalamic and brainstem circuitry: poor sleep is a common migraine trigger while migraine disrupts sleep, both involve orexin and serotonergic systems, and treating insomnia (CBT-I) reduces headache frequency.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Migraine aura is a neuronal event: cortical spreading depression—a slow wave of neuronal and glial depolarization then suppression—sweeps the cortex producing visual aura and activating trigeminal pain pathways; neuronal hyperexcitability underlies susceptibility.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
