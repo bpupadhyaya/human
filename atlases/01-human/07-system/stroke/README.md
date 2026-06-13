@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Type 2 diabetes roughly doubles stroke risk: chronic hyperglycemia accelerates atherosclerosis and small-vessel disease, and high glucose at stroke onset worsens infarct size and outcome—so glycemic control is central to stroke prevention."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets are central to ischemic stroke and its prevention: clot formation on a ruptured plaque occludes a cerebral artery, so antiplatelet drugs (aspirin, clopidogrel) are the cornerstone of preventing non-cardioembolic stroke."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Stroke is the leading cause of acquired nervous-system disability: sudden loss of blood flow kills neurons in minutes, and which functions are lost—speech, movement, vision—depends entirely on which part of the brain's circuitry the dead tissue served."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Stroke and venous thromboembolism share a prothrombotic basis and complicate each other: immobility after stroke raises DVT/PE risk, and a clot crossing a patent foramen ovale can cause paradoxical embolic stroke—so thromboprophylaxis is routine in stroke care."
 ---
 
 # Stroke
@@ -207,6 +216,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape stroke outcome: after ischemia they swell and fail to clear glutamate, worsening excitotoxicity, then form the glial scar that both limits damage and impedes regeneration—so astrocyte responses help determine the size and recovery of the infarct.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate excitotoxicity is the core of stroke neuronal death: energy failure floods the synapse with glutamate, overactivating NMDA receptors and letting calcium pour in to kill neurons, so the excitatory transmitter becomes the executioner in the ischemic penumbra.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes roughly doubles stroke risk: chronic hyperglycemia accelerates atherosclerosis and small-vessel disease, and high glucose at stroke onset worsens infarct size and outcome—so glycemic control is central to stroke prevention.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central to ischemic stroke and its prevention: clot formation on a ruptured plaque occludes a cerebral artery, so antiplatelet drugs (aspirin, clopidogrel) are the cornerstone of preventing non-cardioembolic stroke.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Stroke is the leading cause of acquired nervous-system disability: sudden loss of blood flow kills neurons in minutes, and which functions are lost—speech, movement, vision—depends entirely on which part of the brain's circuitry the dead tissue served.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Stroke and venous thromboembolism share a prothrombotic basis and complicate each other: immobility after stroke raises DVT/PE risk, and a clot crossing a patent foramen ovale can cause paradoxical embolic stroke—so thromboprophylaxis is routine in stroke care.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

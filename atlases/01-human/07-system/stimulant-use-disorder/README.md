@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Stimulants wreck sleep: by flooding dopamine and norepinephrine they suppress sleep during binges, and the rebound crash brings hypersomnia then chronic insomnia—and the sleep deprivation worsens cravings, mood and psychosis risk in stimulant use disorder."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Stimulants directly remodel neurons: cocaine and amphetamines flood synapses with dopamine, and chronic use prunes and reshapes dendritic spines in reward circuits—structural neuroadaptations underlying the entrenched craving of stimulant use disorder."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "Stimulant use disorder has a complicated tie to ADHD: prescription stimulants effectively treat ADHD and properly used rarely cause addiction, yet diversion and misuse of these same drugs is a route into stimulant use disorder—so prescribing balances benefit and risk."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Stimulant use disorder is a chronic disorder of the nervous system's reward and control circuits: repeated dopamine surges blunt the reward system and weaken prefrontal control, so craving and relapse persist long after the drug clears—addiction as brain disease."
 ---
 
 # Stimulant Use Disorder
@@ -221,6 +230,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Stimulant use disorder and depression are bound by the crash: dopamine depletion after a binge produces profound dysphoria, anhedonia and fatigue that mimics and can trigger major depression, so withdrawal-driven low mood fuels relapse to restore the lost reward signal.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Stimulants are vascular poisons beyond the heart: cocaine and amphetamines cause surges in blood pressure and vasospasm that drive aortic dissection, hypertensive emergency and ischemic stroke, so the cardiovascular system bears acute catastrophic risk with every binge.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Stimulants wreck sleep: by flooding dopamine and norepinephrine they suppress sleep during binges, and the rebound crash brings hypersomnia then chronic insomnia—and the sleep deprivation worsens cravings, mood and psychosis risk in stimulant use disorder.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Stimulants directly remodel neurons: cocaine and amphetamines flood synapses with dopamine, and chronic use prunes and reshapes dendritic spines in reward circuits—structural neuroadaptations underlying the entrenched craving of stimulant use disorder.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Stimulant use disorder has a complicated tie to ADHD: prescription stimulants effectively treat ADHD and properly used rarely cause addiction, yet diversion and misuse of these same drugs is a route into stimulant use disorder—so prescribing balances benefit and risk.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Stimulant use disorder is a chronic disorder of the nervous system's reward and control circuits: repeated dopamine surges blunt the reward system and weaken prefrontal control, so craving and relapse persist long after the drug clears—addiction as brain disease.
 
 ## Treatment
 
