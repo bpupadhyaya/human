@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/07-system/covid-19-disease
     relation: connects-to
     note: "West Nile virus and COVID-19 are both viruses with neuro-invasive potential: most infections spare the CNS, but each can cause encephalitis, and both show how systemic viruses breach the blood-brain barrier in vulnerable hosts—age and immunity shaping severity."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type I interferon is the front-line defense against West Nile virus: RIG-I/MAVS sensing of viral RNA triggers interferon that restrains spread, and animals or people with weak interferon responses suffer far more severe neuroinvasive disease."
+  - target: 02-pathogen/01-viruses/dengue-virus
+    relation: connects-to
+    note: "West Nile and dengue are related flaviviruses spread by mosquitoes: they share genome structure and immune-evasion tricks, but West Nile is neuroinvasive (encephalitis) while dengue is hemorrhagic—and cross-reacting antibodies complicate flavivirus serology."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "West Nile virus is defined by its assault on the nervous system: in a minority it crosses into the CNS to cause encephalitis, meningitis and a polio-like acute flaccid paralysis from anterior-horn motor neuron loss, leaving lasting neurological deficits."
 ---
 
 # West Nile Virus
@@ -214,3 +223,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — West Nile virus can cause acute flaccid paralysis resembling Guillain-Barré: the neuroinvasive form attacks anterior-horn motor neurons, producing asymmetric weakness, and rarely a GBS-like demyelinating syndrome—so new flaccid paralysis in summer warrants WNV testing.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help control West Nile virus early: NK cells and interferon limit viral spread before adaptive immunity, and the aging immune system's weaker NK/T-cell response is why neuroinvasive WNV strikes mainly older adults.
 - `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — West Nile virus and COVID-19 are both viruses with neuro-invasive potential: most infections spare the CNS, but each can cause encephalitis, and both show how systemic viruses breach the blood-brain barrier in vulnerable hosts—age and immunity shaping severity.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is the front-line defense against West Nile virus: RIG-I/MAVS sensing of viral RNA triggers interferon that restrains spread, and animals or people with weak interferon responses suffer far more severe neuroinvasive disease.
+- `connects-to` → **[Dengue virus](../../../02-pathogen/01-viruses/dengue-virus/README.md)** — West Nile and dengue are related flaviviruses spread by mosquitoes: they share genome structure and immune-evasion tricks, but West Nile is neuroinvasive (encephalitis) while dengue is hemorrhagic—and cross-reacting antibodies complicate flavivirus serology.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — West Nile virus is defined by its assault on the nervous system: in a minority it crosses into the CNS to cause encephalitis, meningitis and a polio-like acute flaccid paralysis from anterior-horn motor neuron loss, leaving lasting neurological deficits.
