@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung is a major site of neuroendocrine tumors: from indolent typical bronchial carcinoids through atypical carcinoids to high-grade small-cell neuroendocrine carcinoma, all arising from pulmonary neuroendocrine cells—'lung NET' spans benign to lethal."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Neuroendocrine tumors share traits with neurons: they arise from diffuse-neuroendocrine-system cells that, like neurons, store and secrete signaling molecules in vesicles, so they express neuronal markers (synaptophysin, chromogranin) and can secrete hormones."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Carcinoid heart disease links NETs to the heart: serotonin from a metastatic midgut NET reaching the systemic circulation drives fibrosis of right-sided heart valves, causing tricuspid regurgitation—so an endocrine tumor's secretions remodel cardiac valves."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Functioning NETs secrete histamine and other mediators causing distinct syndromes: gastric and some foregut NETs release histamine producing atypical flushing, complementing serotonin's carcinoid syndrome—so a NET's secretory product determines its clinical picture."
 ---
 
 # Neuroendocrine Tumors
@@ -192,6 +201,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — Neuroendocrine tumors and small-cell lung cancer are the two ends of the neuroendocrine spectrum: well-differentiated NETs are indolent, while SCLC is a poorly differentiated, high-grade neuroendocrine carcinoma that grows explosively—same lineage, opposite tempo.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulinoma is the prototypical functional neuroendocrine tumor: a pancreatic-islet NET that autonomously secretes insulin, causing fasting hypoglycemia (Whipple's triad)—it shows how NETs are classified and treated by the hormone they produce.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a major site of neuroendocrine tumors: from indolent typical bronchial carcinoids through atypical carcinoids to high-grade small-cell neuroendocrine carcinoma, all arising from pulmonary neuroendocrine cells—'lung NET' spans benign to lethal.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuroendocrine tumors share traits with neurons: they arise from diffuse-neuroendocrine-system cells that, like neurons, store and secrete signaling molecules in vesicles, so they express neuronal markers (synaptophysin, chromogranin) and can secrete hormones.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Carcinoid heart disease links NETs to the heart: serotonin from a metastatic midgut NET reaching the systemic circulation drives fibrosis of right-sided heart valves, causing tricuspid regurgitation—so an endocrine tumor's secretions remodel cardiac valves.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Functioning NETs secrete histamine and other mediators causing distinct syndromes: gastric and some foregut NETs release histamine producing atypical flushing, complementing serotonin's carcinoid syndrome—so a NET's secretory product determines its clinical picture.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
