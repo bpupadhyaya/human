@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "Thyroid cancer is the most common malignancy in Werner syndrome (often follicular), part of its distinctive non-epithelial-skewed tumor spectrum (sarcomas, melanoma, meningioma); WRN-deficient genomic instability drives these, warranting thyroid surveillance from early adulthood."
+  - target: 01-human/07-system/rothmund-thomson
+    relation: connects-to
+    note: "Werner and Rothmund-Thomson are RecQ-helicase disorders of premature aging: WRN loss causes adult-onset progeroid features (cataracts, atherosclerosis, diabetes), while RECQL4 loss causes Rothmund-Thomson—both genome-instability syndromes raising sarcoma risk."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Werner syndrome shifts the cancer spectrum toward rare tumors including melanoma: WRN-driven genome instability predisposes to soft-tissue sarcomas, thyroid cancer, and notably acral-lentiginous melanoma of the palms, soles, and nasal mucosa rather than sun-exposed sites."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "Meningioma is over-represented in Werner syndrome: loss of WRN helicase leaves cells unable to resolve replication stress and telomere attrition, accumulating the genomic instability that seeds tumors like meningioma decades earlier than in the general population."
 ---
 
 # Werner Syndrome
@@ -226,6 +235,9 @@ cross_links:
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — Werner, Bloom, and Rothmund-Thomson are the three RecQ-helicase disorders — WRN, BLM, and RECQL4 loss — all causing genomic instability and cancer; but Werner is the 'adult progeria,' with premature aging, atherosclerosis, and diabetes from the third decade, unlike the others.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Werner syndrome cancers are characteristically mesenchymal: osteosarcoma and soft-tissue sarcomas occur at elevated rates (alongside thyroid cancer and acral melanoma), reflecting WRN-deficient replication stress in mesenchyme — a spectrum shared with Rothmund-Thomson.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Thyroid cancer is the most common malignancy in Werner syndrome (often follicular), part of its distinctive non-epithelial-skewed tumor spectrum (sarcomas, melanoma, meningioma); WRN-deficient genomic instability drives these, warranting thyroid surveillance from early adulthood.
+- `connects-to` → **[Rothmund-Thomson Syndrome](../rothmund-thomson/README.md)** — Werner and Rothmund-Thomson are RecQ-helicase disorders of premature aging: WRN loss causes adult-onset progeroid features (cataracts, atherosclerosis, diabetes), while RECQL4 loss causes Rothmund-Thomson—both genome-instability syndromes raising sarcoma risk.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Werner syndrome shifts the cancer spectrum toward rare tumors including melanoma: WRN-driven genome instability predisposes to soft-tissue sarcomas, thyroid cancer, and notably acral-lentiginous melanoma of the palms, soles, and nasal mucosa rather than sun-exposed sites.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — Meningioma is over-represented in Werner syndrome: loss of WRN helicase leaves cells unable to resolve replication stress and telomere attrition, accumulating the genomic instability that seeds tumors like meningioma decades earlier than in the general population.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

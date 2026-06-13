@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "VHL disease can cause polycythemia: pVHL loss stabilizes HIF, so hemangioblastomas (and hypomorphic germline VHL, as in Chuvash polycythemia) drive excess erythropoietin → high hematocrit; the same VHL-HIF-EPO axis is exploited by PHD inhibitors that raise EPO to treat anemia."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "VHL disease and HLRCC are hereditary kidney-cancer syndromes converging on pseudohypoxia: VHL loss stabilizes HIF directly, while HLRCC's FH loss raises fumarate that blocks HIF prolyl-hydroxylases—but VHL causes clear-cell RCC and HLRCC an aggressive papillary type."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "VHL disease predisposes to pancreatic neuroendocrine tumors: alongside its hemangioblastomas, clear-cell RCC, and pheochromocytomas, germline VHL loss drives often-multifocal panNETs, so a young patient with a panNET warrants VHL (and MEN1) testing."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Hemangioblastoma, the signature VHL tumor, is a richly vascular tumor of endothelial proliferation: VHL loss stabilizes HIF and floods the tissue with VEGF, driving the capillary-dense masses of the retina and cerebellum that define the syndrome."
 ---
 
 # VHL Disease
@@ -185,6 +194,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Von Hippel-Lindau and tuberous sclerosis are both dominant phakomatosis syndromes whose tumors need a second hit, but differ in driver: VHL loss stabilizes HIF to fuel angiogenic tumors (hemangioblastoma, ccRCC, pheo) while TSC loss hyperactivates mTOR — both hit the kidney.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is a major VHL site: most carriers develop pancreatic cysts and serous cystadenomas (usually benign), but pancreatic neuroendocrine tumors arise in ~10-17% and can metastasize, so pancreatic imaging is part of lifelong VHL surveillance, guided by size and growth.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — VHL disease can cause polycythemia: pVHL loss stabilizes HIF, so hemangioblastomas (and hypomorphic germline VHL, as in Chuvash polycythemia) drive excess erythropoietin → high hematocrit; the same VHL-HIF-EPO axis is exploited by PHD inhibitors that raise EPO to treat anemia.
+- `connects-to` → **[HLRCC](../hlrcc/README.md)** — VHL disease and HLRCC are hereditary kidney-cancer syndromes converging on pseudohypoxia: VHL loss stabilizes HIF directly, while HLRCC's FH loss raises fumarate that blocks HIF prolyl-hydroxylases—but VHL causes clear-cell RCC and HLRCC an aggressive papillary type.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — VHL disease predisposes to pancreatic neuroendocrine tumors: alongside its hemangioblastomas, clear-cell RCC, and pheochromocytomas, germline VHL loss drives often-multifocal panNETs, so a young patient with a panNET warrants VHL (and MEN1) testing.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Hemangioblastoma, the signature VHL tumor, is a richly vascular tumor of endothelial proliferation: VHL loss stabilizes HIF and floods the tissue with VEGF, driving the capillary-dense masses of the retina and cerebellum that define the syndrome.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
