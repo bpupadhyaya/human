@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Vascular smooth muscle cells shape the FH atheroma: they migrate from the media into the intima, take up modified LDL to become foam cells, and lay down the collagen fibrous cap whose stability — or rupture — determines whether a plaque stays silent or causes infarction."
+  - target: 03-medicine/01-modern/04-cardio/statins
+    relation: treated-by
+    note: "Statins are the cornerstone of FH treatment: by inhibiting HMG-CoA reductase they upregulate hepatic LDL receptors to clear LDL, but FH patients—especially homozygotes with few functional receptors—often need high-intensity statins plus ezetimibe and PCSK9 inhibitors."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is central to FH: hepatocyte LDL receptors normally clear ~70% of circulating LDL, so the LDLR (or APOB/PCSK9) mutations of FH cripple this clearance → lifelong high LDL; the liver is thus the target of statins, PCSK9 inhibitors, apheresis and gene therapy."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "FH and hypertension are multiplicative cardiovascular risk factors: lifelong high LDL accelerates atherosclerosis while raised blood pressure adds shear stress and endothelial injury, so an FH patient who is also hypertensive faces especially early coronary disease."
 ---
 
 # Familial Hypercholesterolemia
@@ -175,6 +184,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Familial hypercholesterolemia is defined by its toll on the heart: lifelong high LDL drives premature coronary disease — heterozygotes infarct in their 40s-50s while homozygotes can have MIs and aortic-valve stenosis in childhood; early intensive LDL lowering is lifesaving.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Atherosclerosis in FH starts at the endothelium: the lifelong excess of LDL infiltrates and is retained in the subendothelial intima, where oxidation activates endothelial cells to recruit monocytes — repeated for decades at FH's LDL levels, this builds plaque far earlier.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Vascular smooth muscle cells shape the FH atheroma: they migrate from the media into the intima, take up modified LDL to become foam cells, and lay down the collagen fibrous cap whose stability — or rupture — determines whether a plaque stays silent or causes infarction.
+- `treated-by` → **[Statins](../../../03-medicine/01-modern/04-cardio/statins/README.md)** — Statins are the cornerstone of FH treatment: by inhibiting HMG-CoA reductase they upregulate hepatic LDL receptors to clear LDL, but FH patients—especially homozygotes with few functional receptors—often need high-intensity statins plus ezetimibe and PCSK9 inhibitors.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is central to FH: hepatocyte LDL receptors normally clear ~70% of circulating LDL, so the LDLR (or APOB/PCSK9) mutations of FH cripple this clearance → lifelong high LDL; the liver is thus the target of statins, PCSK9 inhibitors, apheresis and gene therapy.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — FH and hypertension are multiplicative cardiovascular risk factors: lifelong high LDL accelerates atherosclerosis while raised blood pressure adds shear stress and endothelial injury, so an FH patient who is also hypertensive faces especially early coronary disease.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "A TERT promoter mutation is the most common and earliest genetic event in hepatocellular carcinoma (~60%); the C228T/C250T hotspots reactivate telomerase, granting the replicative immortality that turns a dysplastic cirrhotic nodule into cancer."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Chronic heavy alcohol use is a leading cause of HCC: alcoholic cirrhosis provides the inflamed, fibrotic background on which HCC arises, and alcohol synergizes with hepatitis B/C and obesity to multiply risk; abstinence and HCC surveillance in cirrhosis are key."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity drives a rising share of HCC through MASLD/MASH (fatty liver): hepatic steatosis, insulin resistance and inflammation progress to cirrhosis and HCC—and uniquely, MASH-HCC can arise even without cirrhosis, complicating surveillance as obesity rates climb."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "HCC and cholangiocarcinoma are the two main primary liver cancers but differ in origin: HCC arises from hepatocytes (often in cirrhosis, AFP-secreting, treated with TACE and atezolizumab/bevacizumab), cholangiocarcinoma from bile-duct epithelium; combined tumors blur the line."
 ---
 
 # Hepatocellular Carcinoma
@@ -197,6 +206,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hepatocellular carcinoma is almost unique among cancers in arising on a diseased organ: it grows from cirrhotic liver, so BCLC staging and treatment weigh tumour burden against residual liver function — from resection and ablation to transplant, TACE, and systemic therapy.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — HCC is a cancer of hepatocytes: the HGF-MET signaling that regenerates the liver after injury, running chronically in cirrhosis, drives the proliferation and accumulating mutations that transform hepatocytes into carcinoma.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — A TERT promoter mutation is the most common and earliest genetic event in hepatocellular carcinoma (~60%); the C228T/C250T hotspots reactivate telomerase, granting the replicative immortality that turns a dysplastic cirrhotic nodule into cancer.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Chronic heavy alcohol use is a leading cause of HCC: alcoholic cirrhosis provides the inflamed, fibrotic background on which HCC arises, and alcohol synergizes with hepatitis B/C and obesity to multiply risk; abstinence and HCC surveillance in cirrhosis are key.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity drives a rising share of HCC through MASLD/MASH (fatty liver): hepatic steatosis, insulin resistance and inflammation progress to cirrhosis and HCC—and uniquely, MASH-HCC can arise even without cirrhosis, complicating surveillance as obesity rates climb.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — HCC and cholangiocarcinoma are the two main primary liver cancers but differ in origin: HCC arises from hepatocytes (often in cirrhosis, AFP-secreting, treated with TACE and atezolizumab/bevacizumab), cholangiocarcinoma from bile-duct epithelium; combined tumors blur the line.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
