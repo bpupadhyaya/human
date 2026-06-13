@@ -54,6 +54,15 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "Bulimia nervosa and borderline personality disorder frequently co-occur (~25-30%), sharing impulsivity, affect dysregulation, and self-harm; binge-purge cycles can serve the same emotion-regulation role as BPD impulsivity, and dialectical behavior therapy helps both."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression is among the commonest bulimia comorbidities: shared serotonergic dysfunction underlies both, the shame of binge-purge cycles deepens low mood, and SSRIs (fluoxetine is the only FDA-approved bulimia drug) treat both—though purging can undermine medication absorption."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Purging makes bulimia dangerous to the heart: self-induced vomiting and laxative abuse waste potassium → hypokalemia that prolongs QT and triggers fatal arrhythmia, the leading cause of sudden death in bulimia; ipecac abuse adds a direct cardiomyopathy."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Bulimia and substance use disorders, especially alcohol, frequently co-occur: shared impulsivity and reward-system dysregulation link binge eating and binge drinking, and the combination worsens medical risk and self-harm; integrated treatment of both beats treating either alone."
 ---
 
 # Bulimia Nervosa
@@ -195,6 +204,9 @@ All of the following must be met:
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Bulimia nervosa and ADHD share impulsivity and reward-circuit dysfunction: childhood ADHD roughly doubles later bulimia risk, with weak prefrontal inhibitory control and dysregulated striatal dopamine underlying both binge eating and impulsive behavior.
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Bulimia nervosa and binge-eating disorder both feature recurrent loss-of-control binges but differ in the aftermath: BN includes compensatory purging (vomiting, laxatives, exercise) keeping weight near-normal, while BED has binges without purging and trends toward obesity.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Bulimia nervosa and borderline personality disorder frequently co-occur (~25-30%), sharing impulsivity, affect dysregulation, and self-harm; binge-purge cycles can serve the same emotion-regulation role as BPD impulsivity, and dialectical behavior therapy helps both.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is among the commonest bulimia comorbidities: shared serotonergic dysfunction underlies both, the shame of binge-purge cycles deepens low mood, and SSRIs (fluoxetine is the only FDA-approved bulimia drug) treat both—though purging can undermine medication absorption.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Purging makes bulimia dangerous to the heart: self-induced vomiting and laxative abuse waste potassium → hypokalemia that prolongs QT and triggers fatal arrhythmia, the leading cause of sudden death in bulimia; ipecac abuse adds a direct cardiomyopathy.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Bulimia and substance use disorders, especially alcohol, frequently co-occur: shared impulsivity and reward-system dysregulation link binge eating and binge drinking, and the combination worsens medical risk and self-harm; integrated treatment of both beats treating either alone.
 
 ## Treatment
 
