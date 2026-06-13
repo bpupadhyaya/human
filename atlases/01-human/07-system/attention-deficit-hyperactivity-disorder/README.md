@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Glutamate signaling is implicated in ADHD beyond dopamine: imbalances in glutamate—the brain's main excitatory transmitter—affect the prefrontal circuits governing attention and impulse control, and are a target of interest for non-stimulant ADHD therapies."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Beyond dopamine and norepinephrine, serotonin modulates ADHD: serotonergic tone influences the impulsivity and emotional dysregulation of the disorder, and serotonin-acting drugs are used for comorbid mood and anxiety symptoms common in ADHD."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "ADHD is a neurodevelopmental disorder of the nervous system's executive networks: delayed maturation and altered connectivity in prefrontal-striatal circuits impair attention and impulse control, so it reflects how the brain regulates behavior, not a lack of effort."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron deficiency is linked to ADHD symptoms: iron is a cofactor for dopamine synthesis, and low ferritin is associated with worse inattention and restless sleep, so checking and correcting iron can be part of evaluating a child with ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -257,6 +266,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — ADHD and insomnia are deeply linked: delayed sleep phase, bedtime restlessness and racing thoughts are common in ADHD, and stimulant treatment can worsen sleep onset—while the resulting sleep loss mimics and amplifies inattention, blurring cause and effect.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — ADHD raises the risk of cannabis use disorder: impulsivity and self-medication for restlessness drive earlier, heavier use, yet cannabis worsens attention and motivation—so the disorder and the drug reinforce each other, complicating diagnosis and treatment.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate signaling is implicated in ADHD beyond dopamine: imbalances in glutamate—the brain's main excitatory transmitter—affect the prefrontal circuits governing attention and impulse control, and are a target of interest for non-stimulant ADHD therapies.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Beyond dopamine and norepinephrine, serotonin modulates ADHD: serotonergic tone influences the impulsivity and emotional dysregulation of the disorder, and serotonin-acting drugs are used for comorbid mood and anxiety symptoms common in ADHD.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — ADHD is a neurodevelopmental disorder of the nervous system's executive networks: delayed maturation and altered connectivity in prefrontal-striatal circuits impair attention and impulse control, so it reflects how the brain regulates behavior, not a lack of effort.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron deficiency is linked to ADHD symptoms: iron is a cofactor for dopamine synthesis, and low ferritin is associated with worse inattention and restless sleep, so checking and correcting iron can be part of evaluating a child with ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

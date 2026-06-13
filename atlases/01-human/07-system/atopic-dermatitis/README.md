@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/tslp
     relation: connects-to
     note: "TSLP is a master switch in atopic dermatitis: damaged keratinocytes release this alarmin that activates dendritic cells and drives the Th2 response and itch, positioning TSLP upstream of the IL-4/IL-13 axis—and making it a target for newer biologic therapies."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK inhibitors are a powerful new class for atopic dermatitis: the disease's type 2 cytokines (IL-4, IL-13, IL-31) signal through JAK, so oral JAK inhibitors and the IL-4/13 blocker dupilumab can clear severe eczema that resists topical steroids."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Atopic dermatitis is the integumentary system's signature inflammatory disease: a defective skin barrier (often from filaggrin loss) lets in allergens and microbes that ignite type 2 inflammation, so it exemplifies how barrier and immunity fail together in skin."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Atopic dermatitis is dominated by itch wired through the nervous system: cytokines like IL-31 directly excite sensory nerves, and chronic scratching sensitizes itch pathways—so eczema's torment is as much a neural as an inflammatory disease."
 ---
 
 # Atopic Dermatitis
@@ -222,6 +231,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine drives the acute hives of atopic dermatitis but not the chronic itch: mast-cell histamine causes early wheal-and-flare, yet AD's relentless scratching is largely non-histaminergic, so antihistamines help little beyond sedation.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells amplify atopic dermatitis: IgE-primed skin mast cells release histamine and cytokines that fuel itch and type 2 inflammation, and their numbers rise in chronic lesions—linking the allergic sensitization of AD to the visible eczema and the itch-scratch cycle.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — TSLP is a master switch in atopic dermatitis: damaged keratinocytes release this alarmin that activates dendritic cells and drives the Th2 response and itch, positioning TSLP upstream of the IL-4/IL-13 axis—and making it a target for newer biologic therapies.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are a powerful new class for atopic dermatitis: the disease's type 2 cytokines (IL-4, IL-13, IL-31) signal through JAK, so oral JAK inhibitors and the IL-4/13 blocker dupilumab can clear severe eczema that resists topical steroids.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Atopic dermatitis is the integumentary system's signature inflammatory disease: a defective skin barrier (often from filaggrin loss) lets in allergens and microbes that ignite type 2 inflammation, so it exemplifies how barrier and immunity fail together in skin.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Atopic dermatitis is dominated by itch wired through the nervous system: cytokines like IL-31 directly excite sensory nerves, and chronic scratching sensitizes itch pathways—so eczema's torment is as much a neural as an inflammatory disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
