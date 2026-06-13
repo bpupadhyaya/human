@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Lymphatic dysplasia is a characteristic feature of Noonan syndrome: faulty RAS-MAPK during lymphangiogenesis produces fetal cystic hygroma and nuchal edema (often the first prenatal clue), peripheral lymphedema, and occasionally chylothorax — a developmental lymphatic defect."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Hypertrophic cardiomyopathy is a defining Noonan feature: RAS-MAPK overactivation from PTPN11/RAF1 mutations drives cardiomyocyte hypertrophy independent of sarcomere genes, so Noonan HCM often appears in infancy alongside the syndrome's pulmonary valve stenosis."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Noonan syndrome carries a bleeding diathesis: many patients have platelet dysfunction or factor XI/VIII/XII deficiencies, so easy bruising and surgical bleeding are common and warrant coagulation and platelet-function testing before any procedure."
+  - target: 01-human/07-system/rhabdomyosarcoma
+    relation: connects-to
+    note: "As a RASopathy, Noonan syndrome modestly raises cancer risk including rhabdomyosarcoma: constitutive RAS-MAPK signaling that drives the syndrome also promotes myogenic tumors, part of a spectrum that includes JMML, neuroblastoma, and brain tumors."
 ---
 
 # Noonan Syndrome
@@ -201,6 +210,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Marfan Syndrome](../marfan-syndrome/README.md)** — Noonan and Marfan are both autosomal-dominant multisystem syndromes causing chest-wall deformity, scoliosis, and congenital heart disease, so they share a clinical differential — but are unrelated: Noonan is a RASopathy while Marfan is a fibrillin-1 connective-tissue disorder.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Noonan syndrome and neurofibromatosis type 1 are overlapping RASopathies — both hyperactivate RAS-MAPK and share café-au-lait spots, pulmonary stenosis, and short stature — but via different lesions: NF1 loses the RAS-GAP neurofibromin while Noonan gains function in SHP2/PTPN11.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Lymphatic dysplasia is a characteristic feature of Noonan syndrome: faulty RAS-MAPK during lymphangiogenesis produces fetal cystic hygroma and nuchal edema (often the first prenatal clue), peripheral lymphedema, and occasionally chylothorax — a developmental lymphatic defect.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Hypertrophic cardiomyopathy is a defining Noonan feature: RAS-MAPK overactivation from PTPN11/RAF1 mutations drives cardiomyocyte hypertrophy independent of sarcomere genes, so Noonan HCM often appears in infancy alongside the syndrome's pulmonary valve stenosis.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Noonan syndrome carries a bleeding diathesis: many patients have platelet dysfunction or factor XI/VIII/XII deficiencies, so easy bruising and surgical bleeding are common and warrant coagulation and platelet-function testing before any procedure.
+- `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — As a RASopathy, Noonan syndrome modestly raises cancer risk including rhabdomyosarcoma: constitutive RAS-MAPK signaling that drives the syndrome also promotes myogenic tumors, part of a spectrum that includes JMML, neuroblastoma, and brain tumors.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

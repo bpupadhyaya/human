@@ -58,6 +58,15 @@ cross_links:
   - target: 01-human/07-system/sclc
     relation: connects-to
     note: "NSCLC and small-cell lung cancer are the two divisions of lung cancer: NSCLC (~85%, adeno/squamous) is driver-rich and often resectable or targetable, while SCLC is a fast neuroendocrine tumor of heavy smokers that disseminates early, is rarely operable, and is RB1/TP53-driven."
+  - target: 01-human/07-system/mesothelioma
+    relation: connects-to
+    note: "NSCLC and mesothelioma are the two major thoracic cancers tied to inhaled carcinogens but distinct: NSCLC arises in lung parenchyma (smoking, EGFR/KRAS-driven), while mesothelioma arises from the pleura decades after asbestos exposure—different cells and treatment."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy is central to NSCLC: stereotactic body photon radiotherapy can cure inoperable early-stage tumors, while conventional chemoradiation treats locally advanced disease—and consolidation immunotherapy after radiation now improves survival."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages shape the NSCLC microenvironment: M2-polarized macrophages suppress cytotoxic T cells and promote angiogenesis, contributing to immunotherapy resistance—so they are studied as both a biomarker and a target alongside PD-1 blockade."
 ---
 
 # NSCLC
@@ -172,6 +181,9 @@ cross_links:
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — NSCLC and melanoma are the twin proving grounds of checkpoint immunotherapy: both accumulate heavy carcinogen-driven mutational burdens (tobacco, UV) yielding neoantigens, so PD-1/PD-L1 (and CTLA-4) blockade gives durable responses in both, and both carry targetable BRAF V600E.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — NSCLC's response to immunotherapy hinges on cytotoxic T cells: a high tobacco-driven mutational burden generates neoantigens, and PD-1/PD-L1 blockade (pembrolizumab, first-line at PD-L1 ≥50%) reinvigorates exhausted CD8+ T cells — absent in never-smoker EGFR/ALK subsets.
 - `connects-to` → **[Small Cell Lung Cancer](../sclc/README.md)** — NSCLC and small-cell lung cancer are the two divisions of lung cancer: NSCLC (~85%, adeno/squamous) is driver-rich and often resectable or targetable, while SCLC is a fast neuroendocrine tumor of heavy smokers that disseminates early, is rarely operable, and is RB1/TP53-driven.
+- `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — NSCLC and mesothelioma are the two major thoracic cancers tied to inhaled carcinogens but distinct: NSCLC arises in lung parenchyma (smoking, EGFR/KRAS-driven), while mesothelioma arises from the pleura decades after asbestos exposure—different cells and treatment.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is central to NSCLC: stereotactic body photon radiotherapy can cure inoperable early-stage tumors, while conventional chemoradiation treats locally advanced disease—and consolidation immunotherapy after radiation now improves survival.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape the NSCLC microenvironment: M2-polarized macrophages suppress cytotoxic T cells and promote angiogenesis, contributing to immunotherapy resistance—so they are studied as both a biomarker and a target alongside PD-1 blockade.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
