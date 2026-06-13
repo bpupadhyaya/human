@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "HNSCC is one of the more immunogenic solid tumors — heavy tobacco or viral mutational load generates neoantigens — so anti-PD-1 (pembrolizumab, nivolumab) reactivating cytotoxic CD8+ T cells extended survival in recurrent/metastatic disease (KEYNOTE-048, CheckMate 141)."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol is a primary cause of head and neck squamous cell carcinoma: acetaldehyde is a direct mucosal carcinogen that synergizes strongly with tobacco to multiply oral, pharyngeal and laryngeal cancer risk—an etiology distinct from the HPV-driven oropharyngeal subset."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Tobacco smoke is the dominant cause of head and neck squamous cell carcinoma: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage upper-aerodigestive mucosal DNA, producing field cancerization with multiple primaries, especially when combined with alcohol."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: connects-to
+    note: "HPV-16 drives a distinct, rising subset of head and neck squamous cell carcinoma: the virus infects oropharyngeal (tonsil, base of tongue) crypt epithelium, its E6/E7 oncoproteins inactivating p53 and Rb; HPV-positive HNSCC affects younger non-smokers and has a better prognosis."
 ---
 
 # HNSCC
@@ -178,6 +187,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Esophageal Cancer](../esophageal-cancer/README.md)** — Head and neck and esophageal squamous cell carcinomas are linked by field cancerization: chronic alcohol and tobacco mutagenizes the whole aerodigestive squamous mucosa, so HNSCC patients carry elevated risk of esophageal SCC — both TP53-driven, immunotherapy-responsive tumors.
 - `connects-to` → **[Cervical Cancer](../cervical-cancer/README.md)** — HNSCC and cervical cancer are united by HPV: high-risk HPV16 drives oropharyngeal HNSCC as it drives cervical cancer, E6 degrading p53 and E7 inactivating RB; HPV-positive oropharyngeal cancer has a better prognosis than tobacco-driven HNSCC, and the same vaccine prevents both.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — HNSCC is one of the more immunogenic solid tumors — heavy tobacco or viral mutational load generates neoantigens — so anti-PD-1 (pembrolizumab, nivolumab) reactivating cytotoxic CD8+ T cells extended survival in recurrent/metastatic disease (KEYNOTE-048, CheckMate 141).
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a primary cause of head and neck squamous cell carcinoma: acetaldehyde is a direct mucosal carcinogen that synergizes strongly with tobacco to multiply oral, pharyngeal and laryngeal cancer risk—an etiology distinct from the HPV-driven oropharyngeal subset.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Tobacco smoke is the dominant cause of head and neck squamous cell carcinoma: its carbon-based polycyclic aromatic hydrocarbons and nitrosamines damage upper-aerodigestive mucosal DNA, producing field cancerization with multiple primaries, especially when combined with alcohol.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV-16 drives a distinct, rising subset of head and neck squamous cell carcinoma: the virus infects oropharyngeal (tonsil, base of tongue) crypt epithelium, its E6/E7 oncoproteins inactivating p53 and Rb; HPV-positive HNSCC affects younger non-smokers and has a better prognosis.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

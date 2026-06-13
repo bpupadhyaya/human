@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Cholangiocarcinoma and pancreatic cancer are pancreaticobiliary neighbors blending at the ampulla: distal CCA and pancreatic-head adenocarcinoma both cause painless obstructive jaundice, share KRAS-driven biology and the gemcitabine/cisplatin backbone, and carry grim outcomes."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Cholangiocarcinoma is the feared malignancy of inflammatory bowel disease via primary sclerosing cholangitis: PSC, strongly linked to ulcerative colitis, scars the bile ducts and carries a high lifetime risk of bile-duct cancer—so PSC-IBD patients need biliary surveillance."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Cholangiocarcinoma and colorectal cancer are both GI adenocarcinomas linked through PSC-IBD: ulcerative colitis with primary sclerosing cholangitis raises both colorectal and bile-duct cancer risk, and both can harbor actionable BRAF or mismatch-repair-deficient subtypes."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cholangiocarcinoma is defined by its desmoplastic stroma: cancer-associated fibroblasts build a dense fibrous matrix that surrounds the tumor, supplies growth and survival signals, and physically impedes drug delivery—one reason this bile-duct cancer is so chemoresistant."
 ---
 
 # Cholangiocarcinoma
@@ -160,6 +169,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Cholangiocarcinoma and gastric cancer are both GI adenocarcinomas converging on shared targets — HER2, PD-1/PD-L1 blockade, and FGFR alterations — yet differ in origin: CCA from biliary cholangiocytes (FGFR2 fusions, IDH1), gastric cancer from stomach epithelium (H. pylori, EBV).
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — Cholangiocarcinoma and hepatocellular carcinoma are the two primary liver cancers, distinguished by cell of origin — cholangiocytes versus hepatocytes; combined HCC-CCA tumors exist, both share cirrhosis and viral hepatitis as risks, but their targeted therapies differ entirely.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Cholangiocarcinoma and pancreatic cancer are pancreaticobiliary neighbors blending at the ampulla: distal CCA and pancreatic-head adenocarcinoma both cause painless obstructive jaundice, share KRAS-driven biology and the gemcitabine/cisplatin backbone, and carry grim outcomes.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Cholangiocarcinoma is the feared malignancy of inflammatory bowel disease via primary sclerosing cholangitis: PSC, strongly linked to ulcerative colitis, scars the bile ducts and carries a high lifetime risk of bile-duct cancer—so PSC-IBD patients need biliary surveillance.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Cholangiocarcinoma and colorectal cancer are both GI adenocarcinomas linked through PSC-IBD: ulcerative colitis with primary sclerosing cholangitis raises both colorectal and bile-duct cancer risk, and both can harbor actionable BRAF or mismatch-repair-deficient subtypes.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cholangiocarcinoma is defined by its desmoplastic stroma: cancer-associated fibroblasts build a dense fibrous matrix that surrounds the tumor, supplies growth and survival signals, and physically impedes drug delivery—one reason this bile-duct cancer is so chemoresistant.
 
 ---
 
