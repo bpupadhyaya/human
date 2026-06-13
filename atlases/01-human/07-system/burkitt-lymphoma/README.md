@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "Burkitt lymphoma must be separated from DLBCL and double-hit large-cell lymphoma: Burkitt has a sole MYC translocation, ~100% Ki-67, and is BCL-2-negative, so FISH for MYC/BCL-2/BCL-6 is essential — a Burkitt diagnosis mandates intensive regimens (DA-EPOCH-R), not R-CHOP."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Burkitt lymphoma is an AIDS-defining cancer: HIV-driven immunosuppression and chronic B-cell activation raise Burkitt risk even at preserved CD4 counts—so a fast-growing lymphoma in an HIV-positive patient is Burkitt until proven otherwise."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Burkitt and follicular lymphoma are both germinal-center B-cell tumors but opposite in tempo: Burkitt is MYC-driven, near-100% Ki67, doubles in a day and is curable with intensive chemo, while BCL2-driven follicular lymphoma is indolent, incurable, and waxes over years."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The 'starry sky' appearance pathognomonic of Burkitt lymphoma comes from tingible-body macrophages: scattered pale macrophages engulfing apoptotic debris from the explosively proliferating MYC-driven B cells stand out against the dark sheet of tumor."
 ---
 
 # Burkitt Lymphoma
@@ -198,6 +207,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus is found in nearly all endemic (African) Burkitt lymphoma and a minority of sporadic cases: the virus persists in germinal-center B cells in Latency I, and its EBNA/miRNA program helps the MYC-translocated cell evade apoptosis and immune clearance.
 - `connects-to` → **[Plasmodium falciparum](../../../02-pathogen/04-parasites/plasmodium-falciparum/README.md)** — Holoendemic Plasmodium falciparum malaria is the geographic cofactor for endemic Burkitt lymphoma: chronic malaria expands germinal-center B cells and induces AID, raising the chance of the MYC-Ig translocation, while malaria-driven immune dysregulation reactivates EBV.
 - `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Burkitt lymphoma must be separated from DLBCL and double-hit large-cell lymphoma: Burkitt has a sole MYC translocation, ~100% Ki-67, and is BCL-2-negative, so FISH for MYC/BCL-2/BCL-6 is essential — a Burkitt diagnosis mandates intensive regimens (DA-EPOCH-R), not R-CHOP.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Burkitt lymphoma is an AIDS-defining cancer: HIV-driven immunosuppression and chronic B-cell activation raise Burkitt risk even at preserved CD4 counts—so a fast-growing lymphoma in an HIV-positive patient is Burkitt until proven otherwise.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Burkitt and follicular lymphoma are both germinal-center B-cell tumors but opposite in tempo: Burkitt is MYC-driven, near-100% Ki67, doubles in a day and is curable with intensive chemo, while BCL2-driven follicular lymphoma is indolent, incurable, and waxes over years.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The 'starry sky' appearance pathognomonic of Burkitt lymphoma comes from tingible-body macrophages: scattered pale macrophages engulfing apoptotic debris from the explosively proliferating MYC-driven B cells stand out against the dark sheet of tumor.
 
 ---
 

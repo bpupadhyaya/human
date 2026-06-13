@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "CMML is a clonal bone marrow stem-cell disease: SRSF2/TET2/ASXL1-mutant progenitors expand the monocyte lineage into a hypercellular dysplastic marrow with monocytosis; marrow blasts and cytogenetics define the CPSS prognostic groups, and allogeneic transplant is the only cure."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "CMML is a myelodysplastic/myeloproliferative overlap that transforms to AML in ~15-20%: accumulating mutations (often ASXL1, RUNX1, or NRAS on a TET2/SRSF2 background) drive blast expansion, and CMML-derived AML carries a poor prognosis."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "CMML is defined partly by what it is NOT—Philadelphia-negative: persistent monocytosis with absent BCR-ABL1 separates CMML from chronic myeloid leukemia, a distinction made by cytogenetics/PCR that changes treatment entirely (no TKI for CMML)."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CMML can be accompanied by clonal plasmacytoid dendritic cell proliferations: nodular aggregates of pDCs arise from the same mutated clone, a clue that monocytic and dendritic lineages share progenitors and a marker of more aggressive disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -189,6 +198,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — CMML straddles the MDS and MPN categories in its own WHO class, MDS/MPN-overlap: it has MDS dysplasia and cytopenias plus proliferative monocytosis, splenomegaly, and JAK2/RAS features, sharing biology and JAK-inhibitor responses with the myeloproliferative neoplasms.
 - `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — CMML was historically classified with the myelodysplastic syndromes and shares their dysplastic, cytopenic marrow and AML transformation risk; the WHO now separates it as MDS/MPN-overlap for its peripheral monocytosis, but azacitidine remains a shared therapy.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — CMML is a clonal bone marrow stem-cell disease: SRSF2/TET2/ASXL1-mutant progenitors expand the monocyte lineage into a hypercellular dysplastic marrow with monocytosis; marrow blasts and cytogenetics define the CPSS prognostic groups, and allogeneic transplant is the only cure.
+- `connects-to` → **[AML](../aml/README.md)** — CMML is a myelodysplastic/myeloproliferative overlap that transforms to AML in ~15-20%: accumulating mutations (often ASXL1, RUNX1, or NRAS on a TET2/SRSF2 background) drive blast expansion, and CMML-derived AML carries a poor prognosis.
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — CMML is defined partly by what it is NOT—Philadelphia-negative: persistent monocytosis with absent BCR-ABL1 separates CMML from chronic myeloid leukemia, a distinction made by cytogenetics/PCR that changes treatment entirely (no TKI for CMML).
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — CMML can be accompanied by clonal plasmacytoid dendritic cell proliferations: nodular aggregates of pDCs arise from the same mutated clone, a clue that monocytic and dendritic lineages share progenitors and a marker of more aggressive disease.
 
 ---
 
