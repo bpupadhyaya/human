@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Dural ectasia is a hallmark Marfan feature: weakened connective tissue lets the dura around the lower spine balloon out, causing back pain and headaches and serving as a diagnostic criterion—showing Marfan's reach into the nervous system's coverings."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Marfan syndrome shows in the skin and soft tissue: fibrillin-1 loss weakens connective tissue throughout, producing striae (stretch marks) without weight change, thin skin and hernias—visible signs of the same defect that endangers the aorta."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy is dangerous in Marfan syndrome: the hemodynamic load and hormonal softening of connective tissue sharply raise the risk of aortic dissection, so the reproductive years demand careful cardiac monitoring and counseling in affected women."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Marfan's tall stature is not from growth hormone: unlike pituitary gigantism, the overgrowth comes from defective fibrillin-1 connective tissue, so patients are tall with long limbs and arachnodactyly despite normal growth-hormone levels—a key diagnostic distinction."
 ---
 
 # Marfan Syndrome
@@ -238,6 +247,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Marfan syndrome weakens the lungs: fibrillin-deficient connective tissue forms apical blebs that rupture, causing spontaneous pneumothorax, and chest-wall deformity restricts breathing—so respiratory complications add to the cardiovascular and skeletal features.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Marfan's skeletal overgrowth reflects disordered bone formation: excess TGF-beta signaling from fibrillin-1 loss drives long-bone overgrowth, giving tall stature and arachnodactyly—so bone-forming cells build too much skeleton on a faulty connective scaffold.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Dural ectasia is a hallmark Marfan feature: weakened connective tissue lets the dura around the lower spine balloon out, causing back pain and headaches and serving as a diagnostic criterion—showing Marfan's reach into the nervous system's coverings.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Marfan syndrome shows in the skin and soft tissue: fibrillin-1 loss weakens connective tissue throughout, producing striae (stretch marks) without weight change, thin skin and hernias—visible signs of the same defect that endangers the aorta.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is dangerous in Marfan syndrome: the hemodynamic load and hormonal softening of connective tissue sharply raise the risk of aortic dissection, so the reproductive years demand careful cardiac monitoring and counseling in affected women.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Marfan's tall stature is not from growth hormone: unlike pituitary gigantism, the overgrowth comes from defective fibrillin-1 connective tissue, so patients are tall with long limbs and arachnodactyly despite normal growth-hormone levels—a key diagnostic distinction.
 
 ---
 

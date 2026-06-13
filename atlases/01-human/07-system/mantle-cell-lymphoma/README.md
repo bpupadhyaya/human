@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/rb1
     relation: connects-to
     note: "Mantle cell lymphoma runs on the cyclin D1-CDK4-RB axis: overexpressed cyclin D1 inactivates RB to force the cell cycle forward, which is why CDK4/6 inhibitors are being tested—targeting the very pathway that the defining t(11;14) translocation unleashes."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Mantle cell lymphoma is treated by targeting CD20: this B-cell marker is the target of rituximab, a backbone of MCL therapy alongside BTK inhibitors and BCL-2 blockade—reflecting MCL's identity as a CD5+ mature B-cell lymphoma."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Mantle cell lymphoma has a striking affinity for the gut: it commonly seeds the GI tract as multiple lymphomatous polyposis—numerous lymphoma polyps from stomach to colon—so endoscopic involvement is frequent even when not obviously symptomatic."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Mantle cell lymphoma both exploits and depletes the immune system: it is an aggressive mature B-cell cancer, and its therapies (anti-CD20, BTK inhibitors, chemo) cause profound immunosuppression—so infection is a major cause of morbidity during treatment."
 ---
 
 # Mantle Cell Lymphoma
@@ -221,6 +230,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Mantle cell and Burkitt lymphoma are both aggressive translocation-driven B-cell cancers: MCL's t(11;14) drives cyclin D1, Burkitt's t(8;14) drives MYC—but Burkitt is curable while mantle cell, despite responding initially, relapses and is generally incurable.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Mantle cell lymphoma frequently involves the bone marrow and blood: unlike many lymphomas it is often leukemic at diagnosis, spreading through marrow and the GI tract—so staging includes marrow biopsy, and the widespread disease shapes its aggressive, relapsing course.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Mantle cell lymphoma runs on the cyclin D1-CDK4-RB axis: overexpressed cyclin D1 inactivates RB to force the cell cycle forward, which is why CDK4/6 inhibitors are being tested—targeting the very pathway that the defining t(11;14) translocation unleashes.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Mantle cell lymphoma is treated by targeting CD20: this B-cell marker is the target of rituximab, a backbone of MCL therapy alongside BTK inhibitors and BCL-2 blockade—reflecting MCL's identity as a CD5+ mature B-cell lymphoma.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Mantle cell lymphoma has a striking affinity for the gut: it commonly seeds the GI tract as multiple lymphomatous polyposis—numerous lymphoma polyps from stomach to colon—so endoscopic involvement is frequent even when not obviously symptomatic.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Mantle cell lymphoma both exploits and depletes the immune system: it is an aggressive mature B-cell cancer, and its therapies (anti-CD20, BTK inhibitors, chemo) cause profound immunosuppression—so infection is a major cause of morbidity during treatment.
 
 ---
 
