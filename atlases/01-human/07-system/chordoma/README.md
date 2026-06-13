@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Chordoma's hallmark cells sit in a collagen-rich matrix: physaliphorous bubble cells float in a myxoid, collagenous stroma recapitulating the notochord, giving the tumor its distinctive histology that, with brachyury staining, confirms the diagnosis."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy is the radiation mainstay for chordoma: these radioresistant skull-base and sacral tumors sit against the brainstem and spinal cord, so protons' sharp dose falloff delivers high tumor dose while sparing critical neural structures."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Chordoma threatens the nervous system by location: arising along the spine and skull base from notochord remnants, it compresses the brainstem, cranial nerves and spinal cord, so its slow growth still causes severe neurological deficits and demands aggressive local control."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-ion radiotherapy is an alternative for chordoma: heavy carbon ions deliver dense, highly damaging dose to these notoriously radioresistant tumors, useful when surgery is incomplete or the tumor abuts neural structures—an option in specialized particle centers."
 ---
 
 # Chordoma
@@ -234,6 +243,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EGFR is a therapeutic target in chordoma: these slow-growing notochordal tumors often activate EGFR signaling, so EGFR inhibitors like erlotinib are used off-label in advanced disease where surgery and radiation fail—chordoma resists conventional chemotherapy.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Chordoma threatens neurons by location: arising along the spine and skull base from notochord remnants, it compresses the brainstem, spinal cord and cranial nerves, so neurological deficits—not metastasis—drive its morbidity despite slow growth.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Chordoma's hallmark cells sit in a collagen-rich matrix: physaliphorous bubble cells float in a myxoid, collagenous stroma recapitulating the notochord, giving the tumor its distinctive histology that, with brachyury staining, confirms the diagnosis.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is the radiation mainstay for chordoma: these radioresistant skull-base and sacral tumors sit against the brainstem and spinal cord, so protons' sharp dose falloff delivers high tumor dose while sparing critical neural structures.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Chordoma threatens the nervous system by location: arising along the spine and skull base from notochord remnants, it compresses the brainstem, cranial nerves and spinal cord, so its slow growth still causes severe neurological deficits and demands aggressive local control.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an alternative for chordoma: heavy carbon ions deliver dense, highly damaging dose to these notoriously radioresistant tumors, useful when surgery is incomplete or the tumor abuts neural structures—an option in specialized particle centers.
 
 ---
 

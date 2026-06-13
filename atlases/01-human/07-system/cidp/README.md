@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "CIDP must be distinguished from diabetic neuropathy: diabetes both mimics and predisposes to CIDP, so a diabetic with disproportionate, treatable demyelinating weakness may have CIDP rather than ordinary diabetic polyneuropathy—a crucial, treatable distinction."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "CIDP attacks the insulation of peripheral neurons: immune-mediated stripping of myelin from motor and sensory nerve fibers slows or blocks conduction, causing the progressive weakness and numbness that, unlike Guillain-Barré, persist or relapse over months."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "CIDP is an autoimmune disease of peripheral nerves: antibodies, complement and T cells attack myelin, so it responds to immunotherapy (IVIG, steroids, plasma exchange)—the treatable, chronic counterpart of Guillain-Barré syndrome."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "CIDP is a chronic disorder of the peripheral nervous system: demyelination of nerve roots and trunks impairs the signals between cord and limbs, producing symmetric weakness and sensory loss that can be reversed if immunotherapy starts before axons are lost."
 ---
 
 # CIDP
@@ -252,6 +261,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells help drive the autoimmune attack in CIDP: activated T cells breach the blood-nerve barrier and, with macrophages and antibodies, strip myelin from peripheral nerves—so immunosuppression, IVIG and plasma exchange restore conduction.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement amplifies nerve damage in CIDP: antibodies against myelin or nodal proteins fix complement on peripheral nerves, recruiting macrophages to demyelinate—so complement and the antibodies behind it are why IVIG and plasma exchange, which remove them, work.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — CIDP must be distinguished from diabetic neuropathy: diabetes both mimics and predisposes to CIDP, so a diabetic with disproportionate, treatable demyelinating weakness may have CIDP rather than ordinary diabetic polyneuropathy—a crucial, treatable distinction.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — CIDP attacks the insulation of peripheral neurons: immune-mediated stripping of myelin from motor and sensory nerve fibers slows or blocks conduction, causing the progressive weakness and numbness that, unlike Guillain-Barré, persist or relapse over months.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — CIDP is an autoimmune disease of peripheral nerves: antibodies, complement and T cells attack myelin, so it responds to immunotherapy (IVIG, steroids, plasma exchange)—the treatable, chronic counterpart of Guillain-Barré syndrome.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — CIDP is a chronic disorder of the peripheral nervous system: demyelination of nerve roots and trunks impairs the signals between cord and limbs, producing symmetric weakness and sensory loss that can be reversed if immunotherapy starts before axons are lost.
 
 ---
 
