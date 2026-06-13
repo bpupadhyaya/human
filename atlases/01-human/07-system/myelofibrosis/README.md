@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "The marrow fibrosis of myelofibrosis is reactive, not clonal: malignant megakaryocytes pour out TGF-β and PDGF that drive resident fibroblasts to deposit collagen and reticulin, crowding out hematopoiesis—the scarring cells are normal bystanders recruited by the clone."
+  - target: 01-human/07-system/cml
+    relation: connects-to
+    note: "Myelofibrosis and CML are both chronic myeloproliferative neoplasms with marrow fibrosis but different drivers: CML's BCR-ABL is targeted by imatinib, while myelofibrosis's JAK2/CALR/MPL mutations are treated with JAK inhibitors—both can transform to leukemia."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Myelofibrosis commonly causes secondary gout: the high cell turnover of the proliferating clone floods the blood with purines that become uric acid, so hyperuricemia and gout flares accompany the disease—sometimes a clue to an underlying myeloproliferative neoplasm."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Myelofibrosis drives extramedullary hematopoiesis in the liver: as marrow fibrosis crowds out blood production, hematopoiesis relocates to spleen and liver, enlarging them—and the displaced blood-forming tissue can cause portal hypertension."
 ---
 
 # Myelofibrosis
@@ -207,6 +216,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Essential thrombocythemia and polycythemia vera can both evolve into secondary (post-ET, post-PV) myelofibrosis: years of JAK2/CALR/MPL proliferation give way to a fibrotic, failing marrow with cytopenias and splenomegaly—a shared late fate of the chronic MPNs.
 - `connects-to` → **[AML](../aml/README.md)** — Myelofibrosis carries the highest leukemic-transformation risk of the classic MPNs: ~10-20% progress to a treatment-resistant blast-phase AML as the clone acquires TP53 and other lesions, so high-risk patients are considered for allogeneic transplant, the only cure.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The marrow fibrosis of myelofibrosis is reactive, not clonal: malignant megakaryocytes pour out TGF-β and PDGF that drive resident fibroblasts to deposit collagen and reticulin, crowding out hematopoiesis—the scarring cells are normal bystanders recruited by the clone.
+- `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — Myelofibrosis and CML are both chronic myeloproliferative neoplasms with marrow fibrosis but different drivers: CML's BCR-ABL is targeted by imatinib, while myelofibrosis's JAK2/CALR/MPL mutations are treated with JAK inhibitors—both can transform to leukemia.
+- `connects-to` → **[Gout](../gout/README.md)** — Myelofibrosis commonly causes secondary gout: the high cell turnover of the proliferating clone floods the blood with purines that become uric acid, so hyperuricemia and gout flares accompany the disease—sometimes a clue to an underlying myeloproliferative neoplasm.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Myelofibrosis drives extramedullary hematopoiesis in the liver: as marrow fibrosis crowds out blood production, hematopoiesis relocates to spleen and liver, enlarging them—and the displaced blood-forming tissue can cause portal hypertension.
 
 ---
 

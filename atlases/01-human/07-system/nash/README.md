@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/hcc
     relation: connects-to
     note: "NASH is now a leading cause of hepatocellular carcinoma: chronic steatohepatitis drives fibrosis and cirrhosis that can become liver cancer—and uniquely, NASH-related HCC can arise even without cirrhosis, so rising fatty-liver prevalence is reshaping HCC epidemiology."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "NASH is the inflammatory, fibrosing form of fatty liver disease: metabolic overload injures the liver, progressing from simple steatosis through steatohepatitis to cirrhosis—now a leading cause of cirrhosis and liver transplantation as obesity and diabetes rise."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Cardiovascular disease, not liver failure, is the leading killer in NASH: the same insulin resistance, dyslipidemia and inflammation that fatten the liver accelerate atherosclerosis, so most NAFLD/NASH patients die of heart disease."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "NASH and hepatitis C are converging causes of chronic liver disease: as antivirals cure HCV, NASH is overtaking it as the leading driver of cirrhosis and liver cancer—both end in fibrosis and HCC, one infectious, one metabolic."
 ---
 
 # NASH
@@ -176,6 +185,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — NASH is the hepatic face of type 2 diabetes and metabolic syndrome: insulin resistance floods the liver with fatty acids and drives lipotoxic inflammation, so most NASH patients are diabetic or pre-diabetic, and the two accelerate each other toward cirrhosis.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is the leading driver of NASH: excess visceral fat delivers free fatty acids and inflammatory adipokines to the liver, causing steatosis that progresses to steatohepatitis—so weight loss (diet, GLP-1 agonists, bariatric surgery) is the most effective treatment.
 - `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — NASH is now a leading cause of hepatocellular carcinoma: chronic steatohepatitis drives fibrosis and cirrhosis that can become liver cancer—and uniquely, NASH-related HCC can arise even without cirrhosis, so rising fatty-liver prevalence is reshaping HCC epidemiology.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — NASH is the inflammatory, fibrosing form of fatty liver disease: metabolic overload injures the liver, progressing from simple steatosis through steatohepatitis to cirrhosis—now a leading cause of cirrhosis and liver transplantation as obesity and diabetes rise.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Cardiovascular disease, not liver failure, is the leading killer in NASH: the same insulin resistance, dyslipidemia and inflammation that fatten the liver accelerate atherosclerosis, so most NAFLD/NASH patients die of heart disease.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — NASH and hepatitis C are converging causes of chronic liver disease: as antivirals cure HCV, NASH is overtaking it as the leading driver of cirrhosis and liver cancer—both end in fibrosis and HCC, one infectious, one metabolic.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
