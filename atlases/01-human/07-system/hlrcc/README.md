@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/pheochromocytoma-paraganglioma
     relation: connects-to
     note: "HLRCC's FH belongs to the same Krebs-cycle, pseudohypoxia family (SDHx, FH) that causes hereditary pheochromocytoma/paraganglioma: FH loss accumulates fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF — so rare FH-mutant PPGLs occur, sharing fumarate-driven biology."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "HLRCC and VHL disease are both hereditary kidney-cancer syndromes converging on pseudohypoxia: VHL loss stabilizes HIF directly, while HLRCC's FH loss raises fumarate that blocks the HIF prolyl-hydroxylases. HLRCC papillary RCC is far more aggressive than VHL clear-cell tumors."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "HLRCC and tuberous sclerosis are inherited syndromes that both cause renal tumors and smooth-muscle lesions: TSC drives angiomyolipomas and renal cysts via mTOR, while HLRCC's FH loss drives aggressive papillary RCC plus cutaneous and uterine leiomyomas."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "HLRCC illustrates pseudohypoxia's effect on red cells: fumarate accumulation stabilizes HIF as if oxygen were low, and HIF transcribes erythropoietin—so FH-deficient and other TCA-cycle tumors can drive secondary polycythemia and a raised erythrocyte mass."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -195,6 +204,9 @@ Cutaneous:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The uterus is often where HLRCC declares itself: women develop numerous, large, early-onset uterine leiomyomas (fibroids), frequently needing myomectomy or hysterectomy before age 30 — so multiple early fibroids with cutaneous leiomyomas should prompt FH testing.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous leiomyomas are the 'L' of HLRCC and its visible clue: firm, often painful skin-colored papules from arrector pili smooth muscle appearing in the 20s-30s; their recognition (with FH/2SC staining) flags the syndrome years before the aggressive kidney cancer.
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — HLRCC's FH belongs to the same Krebs-cycle, pseudohypoxia family (SDHx, FH) that causes hereditary pheochromocytoma/paraganglioma: FH loss accumulates fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF — so rare FH-mutant PPGLs occur, sharing fumarate-driven biology.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — HLRCC and VHL disease are both hereditary kidney-cancer syndromes converging on pseudohypoxia: VHL loss stabilizes HIF directly, while HLRCC's FH loss raises fumarate that blocks the HIF prolyl-hydroxylases. HLRCC papillary RCC is far more aggressive than VHL clear-cell tumors.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — HLRCC and tuberous sclerosis are inherited syndromes that both cause renal tumors and smooth-muscle lesions: TSC drives angiomyolipomas and renal cysts via mTOR, while HLRCC's FH loss drives aggressive papillary RCC plus cutaneous and uterine leiomyomas.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — HLRCC illustrates pseudohypoxia's effect on red cells: fumarate accumulation stabilizes HIF as if oxygen were low, and HIF transcribes erythropoietin—so FH-deficient and other TCA-cycle tumors can drive secondary polycythemia and a raised erythrocyte mass.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

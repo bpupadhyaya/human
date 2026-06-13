@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Beyond the colon, MAP affects the upper GI tract: duodenal adenomas develop in ~17-25% of patients (with a smaller duodenal cancer risk than FAP), so periodic upper endoscopy with attention to the ampulla is added to colonoscopic surveillance in MUTYH biallelic carriers."
+  - target: 01-human/07-system/juvenile-polyposis-syndrome
+    relation: connects-to
+    note: "MAP and juvenile polyposis are inherited polyposis syndromes distinguished by polyp histology: MAP (biallelic MUTYH) produces adenomatous polyps from defective oxidative DNA repair, while juvenile polyposis (SMAD4/BMPR1A) produces hamartomatous polyps."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "MAP and Peutz-Jeghers are polyposis syndromes at different poles: MAP's MUTYH-driven adenomas carry high colorectal cancer risk through the classic adenoma-carcinoma sequence, while Peutz-Jeghers' STK11 hamartomas plus mucocutaneous pigmentation raise risk across many organs."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "MAP raises upper-GI as well as colorectal risk: many patients develop duodenal and gastric polyps, and gastric/duodenal cancer risk is elevated, so MUTYH biallelic carriers need upper-endoscopic surveillance alongside their colonoscopy."
 ---
 
 # MUTYH-Associated Polyposis
@@ -180,6 +189,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — MUTYH-associated polyposis and HLRCC are hereditary cancer syndromes but utterly different: MAP is recessive MUTYH repair failure causing oxidative mutations and colonic polyposis; HLRCC is dominant FH (Krebs-cycle) loss causing fumarate-driven leiomyomas and kidney cancer.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is MAP's main target: biallelic MUTYH failure to repair oxidative 8-oxoguanine lesions lets G:C→T:A transversions accumulate in colonic epithelium, seeding 10-100 adenomas with a ~40-75% lifetime CRC risk — managed by colonoscopy from the mid-20s.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Beyond the colon, MAP affects the upper GI tract: duodenal adenomas develop in ~17-25% of patients (with a smaller duodenal cancer risk than FAP), so periodic upper endoscopy with attention to the ampulla is added to colonoscopic surveillance in MUTYH biallelic carriers.
+- `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — MAP and juvenile polyposis are inherited polyposis syndromes distinguished by polyp histology: MAP (biallelic MUTYH) produces adenomatous polyps from defective oxidative DNA repair, while juvenile polyposis (SMAD4/BMPR1A) produces hamartomatous polyps.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — MAP and Peutz-Jeghers are polyposis syndromes at different poles: MAP's MUTYH-driven adenomas carry high colorectal cancer risk through the classic adenoma-carcinoma sequence, while Peutz-Jeghers' STK11 hamartomas plus mucocutaneous pigmentation raise risk across many organs.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — MAP raises upper-GI as well as colorectal risk: many patients develop duodenal and gastric polyps, and gastric/duodenal cancer risk is elevated, so MUTYH biallelic carriers need upper-endoscopic surveillance alongside their colonoscopy.
 
 ---
 
