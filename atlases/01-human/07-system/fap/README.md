@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "FAP raises the risk of pancreatic and other extracolonic cancers: APC loss predisposes beyond the colon to duodenal, pancreatic, thyroid and hepatoblastoma tumors—so even after prophylactic colectomy, FAP patients need broader cancer surveillance."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "FAP carpets the digestive tract with polyps: APC loss seeds hundreds to thousands of colonic adenomas that inevitably progress to colorectal cancer without colectomy, plus duodenal and gastric polyps—so FAP is a whole-gut polyposis, not just a colon disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "A retinal sign helps flag FAP: congenital hypertrophy of the retinal pigment epithelium (CHRPE) appears as pigmented fundus patches in many families, so an eye exam can provide an early, noninvasive clue to the APC mutation before polyps are found."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "FAP's Gardner variant shows in skin and bone: APC loss produces epidermoid cysts, fibromas and osteomas (especially of the jaw and skull), so these extraintestinal lumps of the integumentary and skeletal system can be the first visible sign of the syndrome."
 ---
 
 # Familial Adenomatous Polyposis
@@ -239,6 +248,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — FAP is the textbook Wnt-pathway cancer syndrome: germline APC loss removes the brake on beta-catenin, so constitutive Wnt signaling drives the hundreds of colonic adenomas—mechanistically the same pathway activated somatically in most sporadic colorectal cancers.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach is an extracolonic FAP target: patients develop numerous fundic gland polyps and have raised gastric and duodenal cancer risk, so surveillance endoscopy of the upper GI tract complements colectomy in managing the syndrome.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — FAP raises the risk of pancreatic and other extracolonic cancers: APC loss predisposes beyond the colon to duodenal, pancreatic, thyroid and hepatoblastoma tumors—so even after prophylactic colectomy, FAP patients need broader cancer surveillance.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — FAP carpets the digestive tract with polyps: APC loss seeds hundreds to thousands of colonic adenomas that inevitably progress to colorectal cancer without colectomy, plus duodenal and gastric polyps—so FAP is a whole-gut polyposis, not just a colon disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — A retinal sign helps flag FAP: congenital hypertrophy of the retinal pigment epithelium (CHRPE) appears as pigmented fundus patches in many families, so an eye exam can provide an early, noninvasive clue to the APC mutation before polyps are found.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — FAP's Gardner variant shows in skin and bone: APC loss produces epidermoid cysts, fibromas and osteomas (especially of the jaw and skull), so these extraintestinal lumps of the integumentary and skeletal system can be the first visible sign of the syndrome.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

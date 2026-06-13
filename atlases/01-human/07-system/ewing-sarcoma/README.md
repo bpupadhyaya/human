@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/synovial-sarcoma
     relation: connects-to
     note: "Ewing sarcoma and synovial sarcoma are both translocation-driven sarcomas of young people: Ewing carries EWSR1-FLI1 and synovial sarcoma SS18-SSX, single fusion oncogenes that define each tumor—so molecular testing for the specific fusion secures the diagnosis."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy benefits Ewing sarcoma, often in children: the tumor frequently sits in the pelvis or spine near growing tissue and organs, so protons' sharp dose falloff delivers curative radiation while limiting growth disturbance and second cancers in young patients."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IGF-1 signaling helps drive Ewing sarcoma: the EWS-FLI1 fusion sensitizes tumor cells to IGF-1R, and although IGF-1R inhibitors gave only transient responses in trials, the pathway remains a key therapeutic target in this aggressive bone tumor."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Ewing sarcoma blurs into the nervous system as a small-round-blue-cell tumor: it shares neuroectodermal features with primitive neuroectodermal tumors (the Ewing family) and can arise in or compress nerves and spine—so neurological deficits can be a presenting sign."
 ---
 
 # Ewing Sarcoma
@@ -222,6 +231,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow involvement marks advanced Ewing sarcoma: this small round blue cell bone tumor can spread to the marrow, so staging includes marrow assessment and metastasis signals worse prognosis—why systemic chemotherapy is essential even for localized disease.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Ewing sarcoma's cell of origin is a debated mesenchymal progenitor: it likely arises from a mesenchymal or neural-crest cell related to fibroblasts, and the EWSR1-FLI1 fusion reprograms it into the aggressive small round blue cell tumor.
 - `connects-to` → **[Synovial Sarcoma](../synovial-sarcoma/README.md)** — Ewing sarcoma and synovial sarcoma are both translocation-driven sarcomas of young people: Ewing carries EWSR1-FLI1 and synovial sarcoma SS18-SSX, single fusion oncogenes that define each tumor—so molecular testing for the specific fusion secures the diagnosis.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy benefits Ewing sarcoma, often in children: the tumor frequently sits in the pelvis or spine near growing tissue and organs, so protons' sharp dose falloff delivers curative radiation while limiting growth disturbance and second cancers in young patients.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 signaling helps drive Ewing sarcoma: the EWS-FLI1 fusion sensitizes tumor cells to IGF-1R, and although IGF-1R inhibitors gave only transient responses in trials, the pathway remains a key therapeutic target in this aggressive bone tumor.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Ewing sarcoma blurs into the nervous system as a small-round-blue-cell tumor: it shares neuroectodermal features with primitive neuroectodermal tumors (the Ewing family) and can arise in or compress nerves and spine—so neurological deficits can be a presenting sign.
 
 ---
 
