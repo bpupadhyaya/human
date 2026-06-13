@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic T cells clear influenza and shape its vaccines: CD8 T cells recognizing conserved internal viral proteins kill infected cells and give cross-strain protection, which is why universal flu vaccines aim to harness T-cell immunity beyond strain-specific antibodies."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "Severe influenza can cause ARDS: viral pneumonia and an overwhelming inflammatory response flood the alveoli, collapsing gas exchange and requiring ventilation—the lethal end of influenza, often worsened by secondary bacterial pneumonia."
+  - target: 01-human/05-tissue/guillain-barre
+    relation: connects-to
+    note: "Influenza is a recognized trigger of Guillain-Barré syndrome: the post-infectious autoimmune attack on peripheral-nerve myelin can follow flu (rarely the vaccine, far less than infection)—a reminder that the immune response, not just the virus, causes harm."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells provide early defense against influenza: NK cells kill virus-infected respiratory cells before adaptive immunity engages, and waning NK function with age contributes to the severe influenza and high mortality seen in the elderly."
 ---
 
 # Influenza
@@ -219,3 +228,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[RSV](../rsv/README.md)** — Influenza and RSV are the two dominant seasonal respiratory viruses co-circulating each winter: both cause fever, cough, and pneumonia at the extremes of age, both now have older-adult vaccines, and multiplex PCR distinguishes them to guide antivirals and isolation.
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Influenza has a striking link to narcolepsy: the 2009 H1N1 pandemic and its Pandemrix vaccine both raised type 1 narcolepsy in HLA-DQB1*06:02 carriers, apparently via molecular mimicry between an H1N1 hemagglutinin epitope and orexin—an infection-triggered autoimmunity.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells clear influenza and shape its vaccines: CD8 T cells recognizing conserved internal viral proteins kill infected cells and give cross-strain protection, which is why universal flu vaccines aim to harness T-cell immunity beyond strain-specific antibodies.
+- `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Severe influenza can cause ARDS: viral pneumonia and an overwhelming inflammatory response flood the alveoli, collapsing gas exchange and requiring ventilation—the lethal end of influenza, often worsened by secondary bacterial pneumonia.
+- `connects-to` → **[Guillain-Barré Syndrome](../../05-tissue/guillain-barre/README.md)** — Influenza is a recognized trigger of Guillain-Barré syndrome: the post-infectious autoimmune attack on peripheral-nerve myelin can follow flu (rarely the vaccine, far less than infection)—a reminder that the immune response, not just the virus, causes harm.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells provide early defense against influenza: NK cells kill virus-infected respiratory cells before adaptive immunity engages, and waning NK function with age contributes to the severe influenza and high mortality seen in the elderly.

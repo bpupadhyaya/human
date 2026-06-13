@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "HIV and hepatitis B frequently coinfect via shared blood and sexual routes: HIV accelerates HBV liver fibrosis, and several antiretrovirals (tenofovir, lamivudine) suppress both viruses—so HIV regimens are chosen to cover HBV and avoid flares if stopped."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Hodgkin lymphoma is more common in HIV/AIDS though not AIDS-defining: even on antiretrovirals, HIV patients have several-fold higher Hodgkin risk, usually EBV-driven—a malignancy whose rate, unlike AIDS-defining lymphomas, did not fall with treatment."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Diffuse large B-cell lymphoma is the commonest AIDS-defining lymphoma: profound immunosuppression and EBV co-infection let B cells proliferate unchecked, so DLBCL marks advanced HIV—rates dropped sharply with antiretroviral immune restoration."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages are a key HIV reservoir and disease driver: unlike CD4 T cells, infected macrophages resist HIV's cytopathic effect and survive, seeding tissues (including the brain) with virus that persists despite antiretrovirals—a major obstacle to cure."
 ---
 
 # HIV/AIDS
@@ -198,6 +207,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[HIV](../hiv/README.md)** — HIV/AIDS is the disease end of HIV infection: as the retrovirus depletes CD4 T cells, defenses collapse and AIDS-defining opportunistic infections and cancers appear—so the pathogen and the syndrome name one continuum, now arrested early by antiretroviral therapy.
 - `connects-to` → **[Burkitt Lymphoma](../burkitt-lymphoma/README.md)** — Burkitt lymphoma is an AIDS-defining cancer: HIV-driven immune dysregulation and chronic B-cell activation, often with EBV co-infection, raise Burkitt risk even at preserved CD4 counts—so a fast-growing lymphoma in an HIV patient is Burkitt until proven otherwise.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HIV and hepatitis B frequently coinfect via shared blood and sexual routes: HIV accelerates HBV liver fibrosis, and several antiretrovirals (tenofovir, lamivudine) suppress both viruses—so HIV regimens are chosen to cover HBV and avoid flares if stopped.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Hodgkin lymphoma is more common in HIV/AIDS though not AIDS-defining: even on antiretrovirals, HIV patients have several-fold higher Hodgkin risk, usually EBV-driven—a malignancy whose rate, unlike AIDS-defining lymphomas, did not fall with treatment.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Diffuse large B-cell lymphoma is the commonest AIDS-defining lymphoma: profound immunosuppression and EBV co-infection let B cells proliferate unchecked, so DLBCL marks advanced HIV—rates dropped sharply with antiretroviral immune restoration.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are a key HIV reservoir and disease driver: unlike CD4 T cells, infected macrophages resist HIV's cytopathic effect and survive, seeding tissues (including the brain) with virus that persists despite antiretrovirals—a major obstacle to cure.
 
 ## See Also
 
