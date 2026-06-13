@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Ovarian clear cell carcinoma is the ovarian cancer most tied to endometriosis: ectopic endometrial tissue, under oxidative iron-rich stress, acquires ARID1A and PIK3CA mutations and transforms—making endometriosis a recognized precursor in the reproductive tract."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Ovarian clear-cell carcinoma and gastric cancer share ARID1A loss: this SWI/SNF chromatin-remodeler tumor suppressor is among the most mutated genes in both, showing how chromatin disruption—not classic oncogenes—drives diverse epithelial cancers."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Ovarian clear-cell carcinoma and cholangiocarcinoma converge on chromatin-remodeling defects: both frequently lose ARID1A, and both are relatively chemoresistant epithelial cancers—making epigenetic vulnerabilities (EZH2 inhibition) a shared therapeutic avenue."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Ovarian clear-cell carcinoma differs from the BRCA-driven cancers of HBOC: unlike high-grade serous ovarian cancer, clear-cell is rarely BRCA/HRD-related (it's ARID1A/PIK3CA-driven), so it responds poorly to platinum and PARP inhibitors—a key treatment distinction."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -217,6 +226,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Ovarian clear cell carcinoma has the highest venous thromboembolism rate of any ovarian cancer—up to a quarter of patients: the tumor is strongly prothrombotic (tissue factor, IL-6), so DVT and pulmonary embolism are watched and often prophylaxed throughout treatment.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Clear-cell and endometrioid ovarian cancers are the histologies linked to Lynch syndrome: mismatch-repair deficiency underlies a share of OCCC, so MMR/MSI testing both flags a germline syndrome and identifies tumors that may respond to checkpoint blockade.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Ovarian clear cell carcinoma is the ovarian cancer most tied to endometriosis: ectopic endometrial tissue, under oxidative iron-rich stress, acquires ARID1A and PIK3CA mutations and transforms—making endometriosis a recognized precursor in the reproductive tract.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Ovarian clear-cell carcinoma and gastric cancer share ARID1A loss: this SWI/SNF chromatin-remodeler tumor suppressor is among the most mutated genes in both, showing how chromatin disruption—not classic oncogenes—drives diverse epithelial cancers.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Ovarian clear-cell carcinoma and cholangiocarcinoma converge on chromatin-remodeling defects: both frequently lose ARID1A, and both are relatively chemoresistant epithelial cancers—making epigenetic vulnerabilities (EZH2 inhibition) a shared therapeutic avenue.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Ovarian clear-cell carcinoma differs from the BRCA-driven cancers of HBOC: unlike high-grade serous ovarian cancer, clear-cell is rarely BRCA/HRD-related (it's ARID1A/PIK3CA-driven), so it responds poorly to platinum and PARP inhibitors—a key treatment distinction.
 
 ---
 

@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/peutz-jeghers-syndrome
     relation: connects-to
     note: "Peutz-Jeghers syndrome carries one of the highest hereditary pancreatic cancer risks: germline STK11/LKB1 loss raises lifetime risk to ~11-36%, so PJS patients—alongside BRCA2, CDKN2A, and Lynch carriers—are candidates for pancreatic surveillance with MRI/EUS."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Pancreatic cancer is part of the Li-Fraumeni spectrum: germline TP53 loss raises its risk, and somatic TP53 mutation is one of the four near-universal drivers of pancreatic ductal adenocarcinoma—linking the inherited p53 syndrome to a lethal tumor."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photon radiotherapy has a contested but real role in pancreatic cancer: chemoradiation or stereotactic body radiation can downstage tumors and palliate local symptoms, though early spread means systemic chemotherapy carries most of the treatment burden."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Pancreatic ductal adenocarcinoma and pancreatic neuroendocrine tumors are different cancers of one organ: PDAC is an aggressive KRAS-driven exocrine cancer, while pancreatic NETs arise from islet cells and are often indolent—same gland, opposite biology."
 ---
 
 # Pancreatic Cancer
@@ -203,6 +212,9 @@ cross_links:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — New-onset diabetes can be the first sign of pancreatic cancer: tumor-secreted paraneoplastic insulin resistance causes diabetes months before diagnosis, so new diabetes after 50 with weight loss—rather than weight gain—warrants suspicion of pancreatic adenocarcinoma.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Pancreatic cancer is the classic cause of Trousseau syndrome: mucin and tissue-factor release make it among the most thrombogenic cancers, producing migratory superficial thrombophlebitis, DVT, and pulmonary embolism—sometimes the presenting clue before the tumor.
 - `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — Peutz-Jeghers syndrome carries one of the highest hereditary pancreatic cancer risks: germline STK11/LKB1 loss raises lifetime risk to ~11-36%, so PJS patients—alongside BRCA2, CDKN2A, and Lynch carriers—are candidates for pancreatic surveillance with MRI/EUS.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Pancreatic cancer is part of the Li-Fraumeni spectrum: germline TP53 loss raises its risk, and somatic TP53 mutation is one of the four near-universal drivers of pancreatic ductal adenocarcinoma—linking the inherited p53 syndrome to a lethal tumor.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy has a contested but real role in pancreatic cancer: chemoradiation or stereotactic body radiation can downstage tumors and palliate local symptoms, though early spread means systemic chemotherapy carries most of the treatment burden.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Pancreatic ductal adenocarcinoma and pancreatic neuroendocrine tumors are different cancers of one organ: PDAC is an aggressive KRAS-driven exocrine cancer, while pancreatic NETs arise from islet cells and are often indolent—same gland, opposite biology.
 
 ---
 
