@@ -53,6 +53,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium is foundational to the musculoskeletal system at two scales: hydroxyapatite gives bone its hardness and the skeleton stores 99% of body calcium, while calcium influx drives actin-myosin cross-bridge cycling in muscle contraction; PTH and vitamin D balance this reservoir."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Sex hormones from the reproductive system build the musculoskeletal system: testosterone and estrogen drive the pubertal growth spurt, muscle mass, and peak bone density, while menopausal estrogen loss accelerates osteoporosis—tying gonadal function to skeletal health."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The musculoskeletal system is under tight endocrine control: growth hormone/IGF-1, thyroid hormone, PTH, vitamin D, and sex steroids govern bone and muscle, while bone itself secretes osteocalcin and FGF23—so endocrine disease often presents as fractures or weakness."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Bone is continuously remodeled by the osteoclast-osteoblast balance: osteoclasts resorb old bone while osteoblasts rebuild it, and tipping toward resorption (estrogen loss, RANKL excess) causes osteoporosis—the target of bisphosphonates and denosumab."
 ---
 
 # Musculoskeletal System
@@ -201,6 +210,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The musculoskeletal and integumentary systems form the body's structural exterior: skin, fascia, tendon, muscle and bone are a continuum of collagen-based connective tissue sharing vitamin D dependence, so heritable collagen disorders (Ehlers-Danlos, Marfan) affect both.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Osteoblasts build the skeleton of the musculoskeletal system: they deposit and mineralize bone's collagen matrix, balance osteoclast resorption via RANKL/OPG, and help regulate the marrow niche; their decline with age and estrogen loss underlies osteoporosis and fracture.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is foundational to the musculoskeletal system at two scales: hydroxyapatite gives bone its hardness and the skeleton stores 99% of body calcium, while calcium influx drives actin-myosin cross-bridge cycling in muscle contraction; PTH and vitamin D balance this reservoir.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sex hormones from the reproductive system build the musculoskeletal system: testosterone and estrogen drive the pubertal growth spurt, muscle mass, and peak bone density, while menopausal estrogen loss accelerates osteoporosis—tying gonadal function to skeletal health.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — The musculoskeletal system is under tight endocrine control: growth hormone/IGF-1, thyroid hormone, PTH, vitamin D, and sex steroids govern bone and muscle, while bone itself secretes osteocalcin and FGF23—so endocrine disease often presents as fractures or weakness.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bone is continuously remodeled by the osteoclast-osteoblast balance: osteoclasts resorb old bone while osteoblasts rebuild it, and tipping toward resorption (estrogen loss, RANKL excess) causes osteoporosis—the target of bisphosphonates and denosumab.
 
 ## Pathology
 

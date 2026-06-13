@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "EDA-FN is upregulated in NASH liver via TGF-β1 → activates integrin α4β7 and TLR4 on HSCs → myofibroblast differentiation → collagen I/III → hepatic fibrosis; serum EDA-FN correlates with NASH fibrosis stage; FN matrix stiffness amplifies TGF-β activation in fibrotic liver."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "NASH is the hepatic face of type 2 diabetes and metabolic syndrome: insulin resistance floods the liver with fatty acids and drives lipotoxic inflammation, so most NASH patients are diabetic or pre-diabetic, and the two accelerate each other toward cirrhosis."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity is the leading driver of NASH: excess visceral fat delivers free fatty acids and inflammatory adipokines to the liver, causing steatosis that progresses to steatohepatitis—so weight loss (diet, GLP-1 agonists, bariatric surgery) is the most effective treatment."
+  - target: 01-human/07-system/hcc
+    relation: connects-to
+    note: "NASH is now a leading cause of hepatocellular carcinoma: chronic steatohepatitis drives fibrosis and cirrhosis that can become liver cancer—and uniquely, NASH-related HCC can arise even without cirrhosis, so rising fatty-liver prevalence is reshaping HCC epidemiology."
 ---
 
 # NASH
@@ -164,6 +173,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — IL-10 from Kupffer cells and hepatic Tregs restrains NLRP3 inflammasome activation and stellate cell activation in NASH; IL-10 KO mice develop spontaneous steatohepatitis on high-fat diet; IL-10 deficiency correlates with fibrosis stage in human NASH biopsies.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — TGF-β1 → periostin in hepatic stellate cells → integrin αvβ3 → FAK/PI3K → collagen I/III deposition → hepatic fibrosis in NASH; periostin correlates with fibrosis stage; periostin-null mice develop less hepatic fibrosis in NASH models; periostin marks activated stellate cells.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — EDA-FN is upregulated in NASH liver via TGF-β1 → activates integrin α4β7 and TLR4 on HSCs → myofibroblast differentiation → collagen I/III → hepatic fibrosis; serum EDA-FN correlates with NASH fibrosis stage; FN matrix stiffness amplifies TGF-β activation in fibrotic liver.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — NASH is the hepatic face of type 2 diabetes and metabolic syndrome: insulin resistance floods the liver with fatty acids and drives lipotoxic inflammation, so most NASH patients are diabetic or pre-diabetic, and the two accelerate each other toward cirrhosis.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is the leading driver of NASH: excess visceral fat delivers free fatty acids and inflammatory adipokines to the liver, causing steatosis that progresses to steatohepatitis—so weight loss (diet, GLP-1 agonists, bariatric surgery) is the most effective treatment.
+- `connects-to` → **[Hepatocellular Carcinoma](../hcc/README.md)** — NASH is now a leading cause of hepatocellular carcinoma: chronic steatohepatitis drives fibrosis and cirrhosis that can become liver cancer—and uniquely, NASH-related HCC can arise even without cirrhosis, so rising fatty-liver prevalence is reshaping HCC epidemiology.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
