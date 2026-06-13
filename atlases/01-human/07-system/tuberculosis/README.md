@@ -52,6 +52,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
     relation: connects-to
     note: "Tuberculosis is caused by Mycobacterium tuberculosis: its waxy mycolic-acid wall (acid-fast) resists killing and drives the slow granulomatous response; it grows slowly (weeks to culture) and demands months of multidrug RIPE therapy, while MDR/XDR-TB resistance grows."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetes roughly triples the risk of active tuberculosis: hyperglycemia impairs macrophage and T-cell function, so diabetics reactivate latent TB more readily and fare worse—bidirectional, as TB also worsens glycemic control."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Control of tuberculosis depends on Th1 helper T cells: IFN-γ from CD4+ Th1 cells activates infected macrophages to kill the bacillus and maintain the granuloma, which is why HIV-driven CD4 loss so dramatically raises TB reactivation and dissemination."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Mycobacterium tuberculosis subverts dendritic cells to delay immunity: by slowing DC migration and antigen presentation to T cells in lymph nodes, the bacillus buys weeks before an adaptive Th1 response forms—part of why TB establishes a foothold before containment."
 ---
 
 # Tuberculosis
@@ -197,6 +206,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is tuberculosis's primary battleground: inhaled M. tuberculosis seeds the alveoli, where Th1 granulomas wall it off; reactivation in oxygen-rich upper lobes makes caseating cavities that shed bacilli in cough — the infectious form — and a Ghon focus marks healed disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The macrophage is host and battleground in tuberculosis: M. tuberculosis is phagocytosed but blocks phagosome maturation to survive inside, while IFN-γ-activated macrophages fight back with NO; the granuloma is a ball of infected macrophages that contains but rarely clears it.
 - `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis is caused by Mycobacterium tuberculosis: its waxy mycolic-acid wall (acid-fast) resists killing and drives the slow granulomatous response; it grows slowly (weeks to culture) and demands months of multidrug RIPE therapy, while MDR/XDR-TB resistance grows.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes roughly triples the risk of active tuberculosis: hyperglycemia impairs macrophage and T-cell function, so diabetics reactivate latent TB more readily and fare worse—bidirectional, as TB also worsens glycemic control.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Control of tuberculosis depends on Th1 helper T cells: IFN-γ from CD4+ Th1 cells activates infected macrophages to kill the bacillus and maintain the granuloma, which is why HIV-driven CD4 loss so dramatically raises TB reactivation and dissemination.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Mycobacterium tuberculosis subverts dendritic cells to delay immunity: by slowing DC migration and antigen presentation to T cells in lymph nodes, the bacillus buys weeks before an adaptive Th1 response forms—part of why TB establishes a foothold before containment.
 
 ## See Also
 

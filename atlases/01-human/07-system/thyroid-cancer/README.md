@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Immunotherapy is reshaping the worst thyroid cancers: anaplastic and radioiodine-refractory tumors express PD-L1 and exclude cytotoxic T cells, so anti-PD-1 (pembrolizumab), often with lenvatinib or BRAF/MEK inhibitors, reactivates CD8+ killing in these rapidly fatal cancers."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "Medullary thyroid carcinoma and pheochromocytoma are the linked tumors of MEN2: a germline RET mutation drives both, so a patient with medullary thyroid cancer must be screened for pheochromocytoma before any surgery to avoid an intraoperative hypertensive crisis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Thyroid cancer is the commonest endocrine malignancy: most are differentiated (papillary/follicular) tumors of iodine-avid follicular cells curable with surgery and radioiodine, while medullary (C-cell, calcitonin) and anaplastic types behave very differently."
+  - target: 01-human/07-system/cowden-syndrome
+    relation: connects-to
+    note: "Cowden syndrome is a hereditary cause of thyroid cancer: germline PTEN loss unleashes PI3K/mTOR signaling, predisposing to follicular thyroid carcinoma alongside breast and endometrial cancer, so multinodular goiter in a Cowden patient warrants close thyroid surveillance."
 ---
 
 # Thyroid Cancer
@@ -207,6 +216,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Medullary thyroid carcinoma is a neuroendocrine tumor: it arises from calcitonin-secreting parafollicular C cells (neural-crest-derived), not iodine-handling follicular cells, so it ignores radioiodine and is tracked by calcitonin/CEA — closer to other NETs than papillary cancer.
 - `connects-to` → **[Familial Adenomatous Polyposis](../fap/README.md)** — FAP confers a distinctive thyroid risk: cribriform-morular thyroid carcinoma, a rare papillary variant occurring almost exclusively in young women with germline APC mutations, can be the presenting sign of undiagnosed FAP — prompting colonoscopy and APC testing.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy is reshaping the worst thyroid cancers: anaplastic and radioiodine-refractory tumors express PD-L1 and exclude cytotoxic T cells, so anti-PD-1 (pembrolizumab), often with lenvatinib or BRAF/MEK inhibitors, reactivates CD8+ killing in these rapidly fatal cancers.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Medullary thyroid carcinoma and pheochromocytoma are the linked tumors of MEN2: a germline RET mutation drives both, so a patient with medullary thyroid cancer must be screened for pheochromocytoma before any surgery to avoid an intraoperative hypertensive crisis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Thyroid cancer is the commonest endocrine malignancy: most are differentiated (papillary/follicular) tumors of iodine-avid follicular cells curable with surgery and radioiodine, while medullary (C-cell, calcitonin) and anaplastic types behave very differently.
+- `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Cowden syndrome is a hereditary cause of thyroid cancer: germline PTEN loss unleashes PI3K/mTOR signaling, predisposing to follicular thyroid carcinoma alongside breast and endometrial cancer, so multinodular goiter in a Cowden patient warrants close thyroid surveillance.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
