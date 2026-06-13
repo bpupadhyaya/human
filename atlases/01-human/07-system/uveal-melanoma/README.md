@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy is the eye-sparing mainstay for uveal melanoma: plaque brachytherapy and proton or photon beams deliver tumoricidal radiation to the choroidal tumor while preserving the globe—an alternative to enucleation, though metastatic risk depends on genetics."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Uveal melanoma and retinoblastoma are the two principal intraocular malignancies: retinoblastoma is a childhood RB1-driven retinal tumor, while uveal melanoma is an adult melanocytic tumor of the choroid driven by GNAQ/GNA11 and BAP1—both threaten the eye and vision."
+  - target: 01-human/07-system/cholangiocarcinoma
+    relation: connects-to
+    note: "Uveal melanoma and cholangiocarcinoma both belong to the BAP1 syndrome: germline BAP1 loss raises risk of both, and in uveal melanoma somatic BAP1 loss marks the liver-metastasizing tumors—linking an eye cancer to a bile-duct cancer through one chromatin gene."
+  - target: 01-human/07-system/renal-cell-carcinoma
+    relation: connects-to
+    note: "Uveal melanoma and clear-cell renal cell carcinoma are joined by the BAP1 syndrome: BAP1 loss drives aggressive forms of both, so germline-mutation families are surveilled for eye, kidney, mesothelioma and skin tumors—BAP1 a shared deubiquitinase tumor suppressor."
 ---
 
 # Uveal Melanoma
@@ -212,6 +221,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Mesothelioma](../mesothelioma/README.md)** — Uveal melanoma and mesothelioma both define the BAP1 tumor predisposition syndrome: germline BAP1 loss raises risk of both, plus renal cell carcinoma and skin tumors, and BAP1 loss in a uveal melanoma marks the high-risk class with the worst metastatic prognosis.
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — Uveal melanoma and NF2 converge on the Hippo pathway: NF2's Merlin restrains YAP, while uveal melanoma's GNAQ/GNA11 mutations activate YAP through Hippo—so both illustrate how unleashed YAP/TEAD drives growth, here in the pigmented cells of the eye.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is the eye-sparing mainstay for uveal melanoma: plaque brachytherapy and proton or photon beams deliver tumoricidal radiation to the choroidal tumor while preserving the globe—an alternative to enucleation, though metastatic risk depends on genetics.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Uveal melanoma and retinoblastoma are the two principal intraocular malignancies: retinoblastoma is a childhood RB1-driven retinal tumor, while uveal melanoma is an adult melanocytic tumor of the choroid driven by GNAQ/GNA11 and BAP1—both threaten the eye and vision.
+- `connects-to` → **[Cholangiocarcinoma](../cholangiocarcinoma/README.md)** — Uveal melanoma and cholangiocarcinoma both belong to the BAP1 syndrome: germline BAP1 loss raises risk of both, and in uveal melanoma somatic BAP1 loss marks the liver-metastasizing tumors—linking an eye cancer to a bile-duct cancer through one chromatin gene.
+- `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Uveal melanoma and clear-cell renal cell carcinoma are joined by the BAP1 syndrome: BAP1 loss drives aggressive forms of both, so germline-mutation families are surveilled for eye, kidney, mesothelioma and skin tumors—BAP1 a shared deubiquitinase tumor suppressor.
 
 ---
 

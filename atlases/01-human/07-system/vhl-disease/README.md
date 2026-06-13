@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Hemangioblastoma, the signature VHL tumor, is a richly vascular tumor of endothelial proliferation: VHL loss stabilizes HIF and floods the tissue with VEGF, driving the capillary-dense masses of the retina and cerebellum that define the syndrome."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "VHL and MEN1 are both dominant tumor-suppressor syndromes producing pancreatic tumors via different genes: VHL gives hemangioblastomas, clear-cell RCC, pheochromocytoma and pancreatic NETs, while MEN1 gives parathyroid, islet and pituitary tumors."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "VHL and Birt-Hogg-Dubé are hereditary kidney-cancer syndromes with distinct histologies: VHL's pVHL loss drives clear-cell RCC, while BHD's FLCN loss gives chromophobe/oncocytic tumors, lung cysts and skin fibrofolliculomas—each a different RCC."
+  - target: 01-human/07-system/polycythemia-vera
+    relation: connects-to
+    note: "VHL connects to polycythemia through the HIF pathway: pVHL normally degrades HIF, so its loss stabilizes HIF and drives erythropoietin—and the germline VHL mutation of Chuvash polycythemia causes congenital erythrocytosis, a primary cause of high red-cell mass."
 ---
 
 # VHL Disease
@@ -197,6 +206,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[HLRCC](../hlrcc/README.md)** — VHL disease and HLRCC are hereditary kidney-cancer syndromes converging on pseudohypoxia: VHL loss stabilizes HIF directly, while HLRCC's FH loss raises fumarate that blocks HIF prolyl-hydroxylases—but VHL causes clear-cell RCC and HLRCC an aggressive papillary type.
 - `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — VHL disease predisposes to pancreatic neuroendocrine tumors: alongside its hemangioblastomas, clear-cell RCC, and pheochromocytomas, germline VHL loss drives often-multifocal panNETs, so a young patient with a panNET warrants VHL (and MEN1) testing.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Hemangioblastoma, the signature VHL tumor, is a richly vascular tumor of endothelial proliferation: VHL loss stabilizes HIF and floods the tissue with VEGF, driving the capillary-dense masses of the retina and cerebellum that define the syndrome.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — VHL and MEN1 are both dominant tumor-suppressor syndromes producing pancreatic tumors via different genes: VHL gives hemangioblastomas, clear-cell RCC, pheochromocytoma and pancreatic NETs, while MEN1 gives parathyroid, islet and pituitary tumors.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — VHL and Birt-Hogg-Dubé are hereditary kidney-cancer syndromes with distinct histologies: VHL's pVHL loss drives clear-cell RCC, while BHD's FLCN loss gives chromophobe/oncocytic tumors, lung cysts and skin fibrofolliculomas—each a different RCC.
+- `connects-to` → **[Polycythemia Vera](../polycythemia-vera/README.md)** — VHL connects to polycythemia through the HIF pathway: pVHL normally degrades HIF, so its loss stabilizes HIF and drives erythropoietin—and the germline VHL mutation of Chuvash polycythemia causes congenital erythrocytosis, a primary cause of high red-cell mass.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
