@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Iron-deficiency anemia is a classic presentation of juvenile polyposis: friable GI hamartomas bleed chronically, so children present with anemia, rectal bleeding or polyp prolapse—often the first clue that prompts colonoscopy and genetic testing."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Juvenile polyposis fills the digestive tract with hamartomatous polyps: SMAD4 or BMPR1A loss seeds numerous juvenile polyps from stomach to rectum that bleed and, over time, raise gastrointestinal cancer risk—so surveillance endoscopy is central to care."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "SMAD4 juvenile polyposis overlaps with a vascular disease: patients with SMAD4 mutations can have combined JPS and hereditary hemorrhagic telangiectasia, with arteriovenous malformations and bleeding telangiectasias—so the cardiovascular system needs screening too."
+  - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
+    relation: connects-to
+    note: "Juvenile polyposis carries gastric cancer risk that overlaps other syndromes: SMAD4-related JPS causes massive gastric polyposis predisposing to stomach cancer, so it joins HDGC and FAP among the inherited causes of gastric malignancy needing surveillance."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -229,6 +238,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Juvenile polyposis links BMP/SMAD4 loss to Wnt-driven growth: SMAD4 or BMPR1A mutations remove a brake on epithelial proliferation, and crosstalk with Wnt/beta-catenin fuels the hamartomatous polyps—mechanistically distinct from APC-driven adenomatous polyposis.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Juvenile polyposis can stud the whole gut including the small intestine: hamartomatous polyps arise throughout the GI tract, not just the colon, so surveillance and bleeding/obstruction risk extend beyond the large bowel.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron-deficiency anemia is a classic presentation of juvenile polyposis: friable GI hamartomas bleed chronically, so children present with anemia, rectal bleeding or polyp prolapse—often the first clue that prompts colonoscopy and genetic testing.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Juvenile polyposis fills the digestive tract with hamartomatous polyps: SMAD4 or BMPR1A loss seeds numerous juvenile polyps from stomach to rectum that bleed and, over time, raise gastrointestinal cancer risk—so surveillance endoscopy is central to care.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — SMAD4 juvenile polyposis overlaps with a vascular disease: patients with SMAD4 mutations can have combined JPS and hereditary hemorrhagic telangiectasia, with arteriovenous malformations and bleeding telangiectasias—so the cardiovascular system needs screening too.
+- `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — Juvenile polyposis carries gastric cancer risk that overlaps other syndromes: SMAD4-related JPS causes massive gastric polyposis predisposing to stomach cancer, so it joins HDGC and FAP among the inherited causes of gastric malignancy needing surveillance.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

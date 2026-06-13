@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "IL-12 helps drive Crohn's disease: this cytokine, sharing a subunit with IL-23, pushes the Th1 response that inflames the gut wall, which is why ustekinumab—blocking the shared p40 subunit of IL-12 and IL-23—is an effective IBD therapy."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK inhibitors are an oral option in IBD: several cytokines driving gut inflammation signal through the JAK-STAT pathway, so tofacitinib and upadacitinib treat ulcerative colitis when antibody biologics fail—a small-molecule alternative to anti-TNF."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "IBD is the prototypical chronic inflammatory disease of the digestive system: Crohn's can inflame anywhere from mouth to anus while ulcerative colitis is confined to the colon, so it reshapes gut structure and function and predisposes to bowel cancer."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "IBD reaches beyond the gut to the skin: erythema nodosum and pyoderma gangrenosum are classic cutaneous manifestations that track (or sometimes precede) bowel activity, so the integumentary system is a window onto this systemic immune disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -235,6 +244,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells drive the inflammation of IBD: Th1/Th17 responses dominate Crohn's while a modified Th2 response marks ulcerative colitis, and these effector T cells attacking the gut wall are why immunosuppressants and biologics blocking their cytokines work.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Crohn's disease commonly strikes the small intestine: transmural inflammation of the terminal ileum causes strictures, fistulas and B12/bile-acid malabsorption—distinguishing Crohn's from ulcerative colitis, which is limited to the colon's mucosa.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 helps drive Crohn's disease: this cytokine, sharing a subunit with IL-23, pushes the Th1 response that inflames the gut wall, which is why ustekinumab—blocking the shared p40 subunit of IL-12 and IL-23—is an effective IBD therapy.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are an oral option in IBD: several cytokines driving gut inflammation signal through the JAK-STAT pathway, so tofacitinib and upadacitinib treat ulcerative colitis when antibody biologics fail—a small-molecule alternative to anti-TNF.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — IBD is the prototypical chronic inflammatory disease of the digestive system: Crohn's can inflame anywhere from mouth to anus while ulcerative colitis is confined to the colon, so it reshapes gut structure and function and predisposes to bowel cancer.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — IBD reaches beyond the gut to the skin: erythema nodosum and pyoderma gangrenosum are classic cutaneous manifestations that track (or sometimes precede) bowel activity, so the integumentary system is a window onto this systemic immune disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
