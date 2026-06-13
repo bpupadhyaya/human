@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "HLA-B27 misfolding in the ER triggers an unfolded-protein response that ramps up IL-23, driving entheseal ILC3 and Th17 cells to pour out IL-17A; paradoxically, IL-23 blockade fails in AS despite this upstream role — likely because ILC3s make IL-17A independently of IL-23."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "AS and psoriasis lie on the spondyloarthritis spectrum, sharing the IL-23/Th17→IL-17A axis; IL-17 inhibitors (secukinumab, ixekizumab) treat both and psoriasis is a common AS comorbidity—yet IL-23 blockade helps psoriasis but failed in axial AS, hinting at divergent biology."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "AS is the prototypical axial spondyloarthritis: enthesitis and sacroiliitis at the spine and SI joints → inflammatory back pain → syndesmophytes and bony ankylosis ('bamboo spine'); IL-17-driven new-bone formation and erosion reshape the axial skeleton and reduce spinal mobility."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "AS uniquely couples inflammation to bone formation: at entheses IL-17A/TNF and Wnt (low DKK-1/sclerostin) activate osteoblasts → syndesmophytes and ankylosis, even as RANKL drives co-existing erosion; this osteoproliferation distinguishes AS from erosive rheumatoid arthritis."
 ---
 
 # Ankylosing Spondylitis
@@ -172,6 +181,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Acute anterior uveitis is the most common extra-articular manifestation of ankylosing spondylitis, affecting 20-30% over a lifetime and tracking with HLA-B27; it presents as a painful, red, photophobic eye that recurs and alternates between eyes.
 - `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Ankylosing spondylitis and IBD are two faces of the gut-joint axis: ~60% of AS patients have subclinical gut inflammation and 5-10% develop overt Crohn's or colitis, reflecting shared IL-23R genetics; anti-TNF treats both, but IL-17 blockade can flare IBD.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — HLA-B27 misfolding in the ER triggers an unfolded-protein response that ramps up IL-23, driving entheseal ILC3 and Th17 cells to pour out IL-17A; paradoxically, IL-23 blockade fails in AS despite this upstream role — likely because ILC3s make IL-17A independently of IL-23.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — AS and psoriasis lie on the spondyloarthritis spectrum, sharing the IL-23/Th17→IL-17A axis; IL-17 inhibitors (secukinumab, ixekizumab) treat both and psoriasis is a common AS comorbidity—yet IL-23 blockade helps psoriasis but failed in axial AS, hinting at divergent biology.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — AS is the prototypical axial spondyloarthritis: enthesitis and sacroiliitis at the spine and SI joints → inflammatory back pain → syndesmophytes and bony ankylosis ('bamboo spine'); IL-17-driven new-bone formation and erosion reshape the axial skeleton and reduce spinal mobility.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — AS uniquely couples inflammation to bone formation: at entheses IL-17A/TNF and Wnt (low DKK-1/sclerostin) activate osteoblasts → syndesmophytes and ankylosis, even as RANKL drives co-existing erosion; this osteoproliferation distinguishes AS from erosive rheumatoid arthritis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

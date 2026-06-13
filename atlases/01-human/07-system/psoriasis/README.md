@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Narrow-band UVB (311–313 nm) phototherapy induces T-cell apoptosis in psoriatic plaques and suppresses the Th17/IL-17A axis; NBUVB achieves PASI 75 in 50–70% of patients; safe in pregnancy; requires 2–3 sessions/week for 6–10 weeks induction."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "Psoriasis and AS sit on the spondyloarthritis spectrum, sharing the IL-23/Th17→IL-17A axis and responding to IL-17 (secukinumab, ixekizumab) and IL-23 blockade; ~20-30% of psoriasis patients develop inflammatory arthritis, and axial psoriatic arthritis overlaps with AS."
+  - target: 01-human/07-system/psoriatic-arthritis
+    relation: connects-to
+    note: "Up to ~30% of plaque-psoriasis patients develop psoriatic arthritis, usually years after skin disease; both share the IL-23/Th17→IL-17A/TNF axis, so IL-17, IL-23 and TNF inhibitors treat skin and joints together; nail and scalp psoriasis flag higher PsA risk."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Psoriasis is the archetypal immune-mediated skin disease: Th17-derived IL-17A/IL-22 drive keratinocyte hyperproliferation → thickened scaly plaques with parakeratosis and acanthosis; epidermal turnover shortens from ~28 to ~4 days, and skin is the primary treated site."
 ---
 
 # Psoriasis
@@ -178,6 +187,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — IL-17A from skin Th17 and γδ T cells activates keratinocyte IL-17RA/RC → NF-kB → CXCL8, S100A proteins, and AMPs → neutrophil influx and epidermal hyperproliferation; secukinumab (anti-IL-17A) and ixekizumab achieve PASI 90 in ~60% of plaque psoriasis patients at 16 weeks.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — IL-31 contributes to pruritus in psoriasis despite the Th17 cytokine environment; psoriatic skin ILC2 cells produce IL-31; IL-31 correlates with itch VAS independently of PASI; JAK inhibitors (deucravacitinib, upadacitinib) reduce psoriatic inflammation and IL-31-mediated itch.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Narrow-band UVB (311–313 nm) phototherapy induces T-cell apoptosis in psoriatic plaques and suppresses the Th17/IL-17A axis; NBUVB achieves PASI 75 in 50–70% of patients; safe in pregnancy; requires 2–3 sessions/week for 6–10 weeks induction.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Psoriasis and AS sit on the spondyloarthritis spectrum, sharing the IL-23/Th17→IL-17A axis and responding to IL-17 (secukinumab, ixekizumab) and IL-23 blockade; ~20-30% of psoriasis patients develop inflammatory arthritis, and axial psoriatic arthritis overlaps with AS.
+- `connects-to` → **[Psoriatic Arthritis](../psoriatic-arthritis/README.md)** — Up to ~30% of plaque-psoriasis patients develop psoriatic arthritis, usually years after skin disease; both share the IL-23/Th17→IL-17A/TNF axis, so IL-17, IL-23 and TNF inhibitors treat skin and joints together; nail and scalp psoriasis flag higher PsA risk.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Psoriasis is the archetypal immune-mediated skin disease: Th17-derived IL-17A/IL-22 drive keratinocyte hyperproliferation → thickened scaly plaques with parakeratosis and acanthosis; epidermal turnover shortens from ~28 to ~4 days, and skin is the primary treated site.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
