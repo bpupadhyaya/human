@@ -61,6 +61,15 @@ cross_links:
   - target: 03-medicine/01-modern/02-respiratory/corticosteroids
     relation: treated-by
     note: "RECOVERY trial (2021): dexamethasone 6 mg/d × 10 days; 36% 28-day mortality reduction in mechanically ventilated patients (RR 0.64); 18% reduction in those requiring supplemental oxygen; class mechanism: GR:NF-κB transrepression of cytokine genes."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "COVID-19 is strongly prothrombotic: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, raising deep vein thrombosis, pulmonary embolism, and microvascular clots—so inpatients get thromboprophylaxis and D-dimer marks severity."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "COVID-19 is in part an endothelial disease: SARS-CoV-2 and inflammation injure ACE2-bearing endothelial cells, causing endotheliitis, microthrombi, and the capillary leak that drives severe lung and multi-organ failure—the virus's vascular face."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages drive severe COVID-19's cytokine storm: dysregulated alveolar macrophages pour out IL-6 and TNF in a macrophage-activation-like syndrome, fueling the hyperinflammation that dexamethasone and IL-6 blockade (tocilizumab) target in critically ill patients."
 ---
 
 # COVID-19 Disease
@@ -140,6 +149,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[RSV](../rsv/README.md)** — COVID-19 and RSV are enveloped respiratory RNA viruses driving the seasonal lower-respiratory burden alongside influenza; both cause bronchiolitis/pneumonia at the extremes of age, both are now vaccine-preventable in older adults, and multiplex panels distinguish them.
 - `connects-to` → **[Influenza](../influenza/README.md)** — COVID-19 and influenza are the dominant pandemic-capable respiratory viruses—overlapping fever, cough and pneumonia but distinct treatments (nirmatrelvir/remdesivir vs oseltamivir/baloxavir); co-circulation strains health systems and both have annually updated vaccines.
 - `connects-to` → **[Type II pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — SARS-CoV-2 targets ACE2-expressing alveolar type II pneumocytes: infection destroys these surfactant-producing progenitor cells → alveolar collapse, hyaline membranes and diffuse alveolar damage → ARDS; their loss impairs lung repair and underlies severe COVID-19 hypoxemia.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — COVID-19 is strongly prothrombotic: SARS-CoV-2 endothelial injury and intense inflammation drive immunothrombosis, raising deep vein thrombosis, pulmonary embolism, and microvascular clots—so inpatients get thromboprophylaxis and D-dimer marks severity.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — COVID-19 is in part an endothelial disease: SARS-CoV-2 and inflammation injure ACE2-bearing endothelial cells, causing endotheliitis, microthrombi, and the capillary leak that drives severe lung and multi-organ failure—the virus's vascular face.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive severe COVID-19's cytokine storm: dysregulated alveolar macrophages pour out IL-6 and TNF in a macrophage-activation-like syndrome, fueling the hyperinflammation that dexamethasone and IL-6 blockade (tocilizumab) target in critically ill patients.
 
 ## Pathology
 

@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Dermatomyositis muscle and skin are infiltrated by macrophages and plasmacytoid dendritic cells pouring out type I interferon, the disease's central cytokine; macrophage inflammation amplifies the complement-driven microangiopathy, and JAK inhibitors blunt this signalling."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Dermatomyositis and systemic sclerosis are interferon-driven connective tissue diseases that overlap in scleromyositis: anti-PM/Scl antibodies mark patients with both inflammatory myopathy and skin fibrosis, blurring the line between the two autoimmune diseases."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Dermatomyositis is a classic paraneoplastic disease: adult-onset DM carries a markedly raised cancer risk—lung (including NSCLC), ovarian, GI, and nasopharyngeal—often within the first years, so a new diagnosis triggers age-appropriate malignancy screening."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Dermatomyositis and pemphigus vulgaris are autoimmune skin diseases that can be paraneoplastic: DM is a classic paraneoplastic dermatosis, and paraneoplastic pemphigus accompanies lymphoma/Castleman—so distinctive new skin disease prompts a malignancy search."
 ---
 
 # Dermatomyositis
@@ -208,6 +217,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Dermatomyositis is an idiopathic inflammatory myopathy: complement-mediated capillary injury drives perifascicular atrophy and symmetric proximal weakness (trouble rising, lifting, climbing); CK rises, and it burdens the musculoskeletal system with arthralgia and calcinosis.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Dermatomyositis is paraneoplastic in up to ~20-25% of adults, especially with anti-TIF1γ antibodies: ovarian, lung, breast and GI cancers are over-represented, and ovarian cancer is a classic association—so new adult DM mandates age-appropriate malignancy screening.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermatomyositis muscle and skin are infiltrated by macrophages and plasmacytoid dendritic cells pouring out type I interferon, the disease's central cytokine; macrophage inflammation amplifies the complement-driven microangiopathy, and JAK inhibitors blunt this signalling.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Dermatomyositis and systemic sclerosis are interferon-driven connective tissue diseases that overlap in scleromyositis: anti-PM/Scl antibodies mark patients with both inflammatory myopathy and skin fibrosis, blurring the line between the two autoimmune diseases.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Dermatomyositis is a classic paraneoplastic disease: adult-onset DM carries a markedly raised cancer risk—lung (including NSCLC), ovarian, GI, and nasopharyngeal—often within the first years, so a new diagnosis triggers age-appropriate malignancy screening.
+- `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Dermatomyositis and pemphigus vulgaris are autoimmune skin diseases that can be paraneoplastic: DM is a classic paraneoplastic dermatosis, and paraneoplastic pemphigus accompanies lymphoma/Castleman—so distinctive new skin disease prompts a malignancy search.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
