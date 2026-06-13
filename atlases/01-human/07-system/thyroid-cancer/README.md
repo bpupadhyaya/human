@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/hnscc
     relation: connects-to
     note: "Thyroid cancer and head and neck squamous cancer are the two main neck malignancies: thyroid cancer is a usually indolent endocrine tumor curable with surgery and radioiodine, while HNSCC is an aggressive smoking/HPV-driven mucosal carcinoma—neck radiation links them."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Differentiated thyroid cancer keeps the gland's hormone machinery, enabling unique therapy: it still takes up iodine and responds to TSH, so radioactive iodine ablates residual tumor and thyroid-hormone (TSH suppression) therapy starves it—treatment exploiting normal physiology."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Papillary thyroid cancer spreads through the lymphatic system: it characteristically metastasizes to cervical lymph nodes (often the presenting sign) yet remains highly curable, so nodal spread shapes surgery but, unusually for cancer, rarely dooms the patient."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Follicular thyroid cancer spreads hematogenously to the lung and bone: unlike papillary's nodal route, it invades blood vessels to seed distant organs—so the lung is a classic metastatic site, treatable with radioactive iodine if the deposits still take up iodine."
 ---
 
 # Thyroid Cancer
@@ -231,6 +240,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Thyroid cancer arises within the thyroid gland and exploits its physiology: most are differentiated tumors that still take up iodine and respond to TSH, so thyroidectomy plus radioiodine and TSH suppression treat it through the gland's own biology.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation has a dual relationship with thyroid cancer: childhood external radiation is a leading cause of papillary thyroid cancer, yet radioactive iodine is a treatment mainstay, and external photon radiotherapy is reserved for anaplastic or unresectable disease.
 - `connects-to` → **[HNSCC](../hnscc/README.md)** — Thyroid cancer and head and neck squamous cancer are the two main neck malignancies: thyroid cancer is a usually indolent endocrine tumor curable with surgery and radioiodine, while HNSCC is an aggressive smoking/HPV-driven mucosal carcinoma—neck radiation links them.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Differentiated thyroid cancer keeps the gland's hormone machinery, enabling unique therapy: it still takes up iodine and responds to TSH, so radioactive iodine ablates residual tumor and thyroid-hormone (TSH suppression) therapy starves it—treatment exploiting normal physiology.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Papillary thyroid cancer spreads through the lymphatic system: it characteristically metastasizes to cervical lymph nodes (often the presenting sign) yet remains highly curable, so nodal spread shapes surgery but, unusually for cancer, rarely dooms the patient.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Follicular thyroid cancer spreads hematogenously to the lung and bone: unlike papillary's nodal route, it invades blood vessels to seed distant organs—so the lung is a classic metastatic site, treatable with radioactive iodine if the deposits still take up iodine.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/07-system/hiv-aids
     relation: connects-to
     note: "HIV is a recognized cause of secondary TTP: the infection can trigger ADAMTS13 autoantibodies, producing thrombotic microangiopathy—so a new TTP diagnosis warrants HIV testing, and antiretroviral therapy plus plasma exchange treats the HIV-associated form."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells make the anti-ADAMTS13 antibody behind acquired TTP: long-lived autoantibody-secreting cells block the enzyme that cleaves von Willebrand factor, so giant VWF multimers clump platelets—why plasma exchange (removing antibody) and rituximab treat TTP."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart is a major, underrecognized TTP target: microthrombi in coronary microvasculature cause troponin rise, arrhythmia and sudden death, so cardiac involvement is a leading cause of TTP mortality—reason to start plasma exchange urgently on suspicion."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "TTP clots without activating thrombin: unlike DIC, the microthrombi are platelet-VWF aggregates formed without triggering the coagulation cascade, so thrombin generation and clotting times stay normal—distinguishing it from consumptive coagulopathy."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -250,6 +259,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Stroke](../stroke/README.md)** — TTP can present as stroke: ADAMTS13 deficiency lets VWF-platelet microthrombi lodge in the cerebral microvasculature, causing fluctuating confusion and focal deficits—so an unexplained stroke with thrombocytopenia and hemolysis should trigger urgent TTP work-up.
 - `connects-to` → **[Antiphospholipid Syndrome](../antiphospholipid-syndrome/README.md)** — TTP and catastrophic antiphospholipid syndrome are both thrombotic microangiopathies occluding small vessels: TTP from ADAMTS13 deficiency, CAPS from antiphospholipid antibodies—overlapping clinically, so antibody testing helps separate these emergencies.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a recognized cause of secondary TTP: the infection can trigger ADAMTS13 autoantibodies, producing thrombotic microangiopathy—so a new TTP diagnosis warrants HIV testing, and antiretroviral therapy plus plasma exchange treats the HIV-associated form.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the anti-ADAMTS13 antibody behind acquired TTP: long-lived autoantibody-secreting cells block the enzyme that cleaves von Willebrand factor, so giant VWF multimers clump platelets—why plasma exchange (removing antibody) and rituximab treat TTP.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a major, underrecognized TTP target: microthrombi in coronary microvasculature cause troponin rise, arrhythmia and sudden death, so cardiac involvement is a leading cause of TTP mortality—reason to start plasma exchange urgently on suspicion.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — TTP clots without activating thrombin: unlike DIC, the microthrombi are platelet-VWF aggregates formed without triggering the coagulation cascade, so thrombin generation and clotting times stay normal—distinguishing it from consumptive coagulopathy.
 
 ---
 
