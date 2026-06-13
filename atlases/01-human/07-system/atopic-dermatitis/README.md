@@ -61,6 +61,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/staphylococcus-aureus
     relation: connects-to
     note: "Staphylococcus aureus densely colonizes atopic-dermatitis skin and drives flares: barrier defects and reduced antimicrobial peptides let S. aureus dominate the skin microbiome, and its superantigens and toxins amplify Th2 inflammation and itch—so its load tracks disease severity."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Atopic dermatitis and psoriasis are the two major inflammatory skin diseases but immunologically opposite: AD is Th2-driven (IL-4/13/31) with itchy eczema and a leaky barrier, while psoriasis is Th17/IL-23-driven with sharp scaly plaques—dictating different biologics."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Atopic dermatitis is a prototypic Th2 helper-T-cell disease: Th2 cells release IL-4, IL-13, and IL-31 that drive IgE switching, barrier disruption, and itch—why dupilumab (IL-4/13 blockade) and JAK inhibitors interrupting this signaling are transformative."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells initiate atopic dermatitis at the skin barrier: Langerhans cells and inflammatory dendritic epidermal cells capture allergens entering through the defective barrier and prime Th2 responses, sitting at the start of the cascade from barrier failure to inflammation."
 ---
 
 # Atopic Dermatitis
@@ -198,6 +207,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Atopic dermatitis is the prototypical chronic inflammatory skin disease: a defective epidermal barrier (filaggrin loss) lets allergens and microbes in, triggering Th2/IL-4/IL-13 inflammation → itchy, eczematous, lichenified plaques; barrier repair is central to treatment.
 - `connects-to` → **[Asthma](../asthma/README.md)** — Atopic dermatitis is usually the first step of the atopic march: early-life skin-barrier breakdown promotes allergic sensitization that progresses to food allergy, asthma and allergic rhinitis; AD and asthma share Th2/IL-4/IL-13 biology, so dupilumab treats both.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Staphylococcus aureus densely colonizes atopic-dermatitis skin and drives flares: barrier defects and reduced antimicrobial peptides let S. aureus dominate the skin microbiome, and its superantigens and toxins amplify Th2 inflammation and itch—so its load tracks disease severity.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Atopic dermatitis and psoriasis are the two major inflammatory skin diseases but immunologically opposite: AD is Th2-driven (IL-4/13/31) with itchy eczema and a leaky barrier, while psoriasis is Th17/IL-23-driven with sharp scaly plaques—dictating different biologics.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Atopic dermatitis is a prototypic Th2 helper-T-cell disease: Th2 cells release IL-4, IL-13, and IL-31 that drive IgE switching, barrier disruption, and itch—why dupilumab (IL-4/13 blockade) and JAK inhibitors interrupting this signaling are transformative.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells initiate atopic dermatitis at the skin barrier: Langerhans cells and inflammatory dendritic epidermal cells capture allergens entering through the defective barrier and prime Th2 responses, sitting at the start of the cascade from barrier failure to inflammation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

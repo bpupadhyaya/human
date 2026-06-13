@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/binge-eating-disorder
     relation: connects-to
     note: "ADHD is strongly linked to binge eating disorder: deficient dopaminergic reward and impulse control predispose to impulsive overeating, the two are highly comorbid, and lisdexamfetamine—an ADHD stimulant—is the only FDA-approved BED drug, dampening the reward salience of food."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "ADHD and depression frequently co-occur and can be hard to separate: untreated ADHD's chronic underachievement and rejection feed depression, the disorders share dopaminergic and executive-function deficits, and stimulant plus antidepressant strategies are often combined."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety disorders are among the commonest ADHD comorbidities: the strain of inattention and disorganization breeds chronic worry, and the two can mask each other—stimulants may worsen anxiety while untreated ADHD fuels it—so treatment must balance both."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "ADHD substantially raises the risk of alcohol and other substance use disorders: impulsivity and reward dysregulation drive earlier, heavier use, and self-medication is common—so treating ADHD can lower, not raise, the long-term addiction risk."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -233,6 +242,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — ADHD strongly predisposes to gambling disorder: deficient dopaminergic reward processing and impaired impulse control drive risky, poorly-checked betting, the two are highly comorbid, and gambling severity tracks ADHD symptom load—so impulsivity is a shared treatment target.
 - `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — ADHD is one of the strongest correlates of internet gaming disorder: deficits in dopaminergic reward and inhibition predispose to compulsive gaming, the two are highly comorbid bidirectionally, and IGD severity tracks ADHD symptom load—stimulant treatment can reduce gaming.
 - `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — ADHD is strongly linked to binge eating disorder: deficient dopaminergic reward and impulse control predispose to impulsive overeating, the two are highly comorbid, and lisdexamfetamine—an ADHD stimulant—is the only FDA-approved BED drug, dampening the reward salience of food.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — ADHD and depression frequently co-occur and can be hard to separate: untreated ADHD's chronic underachievement and rejection feed depression, the disorders share dopaminergic and executive-function deficits, and stimulant plus antidepressant strategies are often combined.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety disorders are among the commonest ADHD comorbidities: the strain of inattention and disorganization breeds chronic worry, and the two can mask each other—stimulants may worsen anxiety while untreated ADHD fuels it—so treatment must balance both.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — ADHD substantially raises the risk of alcohol and other substance use disorders: impulsivity and reward dysregulation drive earlier, heavier use, and self-medication is common—so treating ADHD can lower, not raise, the long-term addiction risk.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
