@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "The 'starry sky' appearance pathognomonic of Burkitt lymphoma comes from tingible-body macrophages: scattered pale macrophages engulfing apoptotic debris from the explosively proliferating MYC-driven B cells stand out against the dark sheet of tumor."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Endemic Burkitt lymphoma is malaria-driven: chronic Plasmodium falciparum infection drives intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together promoting the MYC translocation that causes the jaw and abdominal tumors of African children."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Burkitt and Hodgkin lymphoma are both EBV-associated but biologically opposite: Burkitt is a fast MYC-driven mature B-cell tumor curable with intensive chemo, while Hodgkin is a CD30+ Reed-Sternberg-cell lymphoma with a rich reactive infiltrate, treated differently with ABVD."
+  - target: 01-human/07-system/mantle-cell-lymphoma
+    relation: connects-to
+    note: "Burkitt and mantle cell lymphoma are aggressive B-cell lymphomas defined by single translocations: Burkitt's t(8;14) drives MYC, mantle cell's t(11;14) drives cyclin D1—but Burkitt is curable while mantle cell is aggressive yet incurable, a key prognostic split."
 ---
 
 # Burkitt Lymphoma
@@ -210,6 +219,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Burkitt lymphoma is an AIDS-defining cancer: HIV-driven immunosuppression and chronic B-cell activation raise Burkitt risk even at preserved CD4 counts—so a fast-growing lymphoma in an HIV-positive patient is Burkitt until proven otherwise.
 - `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Burkitt and follicular lymphoma are both germinal-center B-cell tumors but opposite in tempo: Burkitt is MYC-driven, near-100% Ki67, doubles in a day and is curable with intensive chemo, while BCL2-driven follicular lymphoma is indolent, incurable, and waxes over years.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The 'starry sky' appearance pathognomonic of Burkitt lymphoma comes from tingible-body macrophages: scattered pale macrophages engulfing apoptotic debris from the explosively proliferating MYC-driven B cells stand out against the dark sheet of tumor.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Endemic Burkitt lymphoma is malaria-driven: chronic Plasmodium falciparum infection drives intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together promoting the MYC translocation that causes the jaw and abdominal tumors of African children.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Burkitt and Hodgkin lymphoma are both EBV-associated but biologically opposite: Burkitt is a fast MYC-driven mature B-cell tumor curable with intensive chemo, while Hodgkin is a CD30+ Reed-Sternberg-cell lymphoma with a rich reactive infiltrate, treated differently with ABVD.
+- `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Burkitt and mantle cell lymphoma are aggressive B-cell lymphomas defined by single translocations: Burkitt's t(8;14) drives MYC, mantle cell's t(11;14) drives cyclin D1—but Burkitt is curable while mantle cell is aggressive yet incurable, a key prognostic split.
 
 ---
 

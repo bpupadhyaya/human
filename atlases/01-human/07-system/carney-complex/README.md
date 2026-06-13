@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Carney complex commonly disturbs growth hormone: somatotroph hyperplasia and GH-secreting pituitary adenomas cause acromegaly or gigantism in a minority, part of the multiple endocrine overactivity (with PPNAD-driven Cushing's) that defines it—so IGF-1/GH screening is advised."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Cardiac myxoma is the most dangerous Carney complex tumor: PRKAR1A loss drives benign myxomas in the heart's chambers among the cardiomyocytes that can embolize to cause stroke or obstruct flow, so they recur at multiple sites and demand lifelong echocardiographic surveillance."
+  - target: 01-human/07-system/men4-syndrome
+    relation: connects-to
+    note: "Carney complex and the MEN syndromes are inherited multiple-endocrine-tumor disorders to distinguish: Carney (PRKAR1A) causes pigmented adrenal Cushing, thyroid, and pituitary tumors plus cardiac myxomas, while MEN1/MEN4 cause parathyroid, pancreatic, and pituitary tumors."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Carney complex involves the reproductive system through gonadal tumors: large-cell calcifying Sertoli cell tumors of the testis and ovarian lesions arise from PRKAR1A loss, sometimes causing precocious puberty or gynecomastia—part of its endocrine-tumor spectrum."
 ---
 
 # Carney Complex
@@ -197,6 +206,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Thyroid disease is part of Carney complex: most patients have thyroid nodules and follicular adenomas, and a minority develop papillary or follicular thyroid carcinoma, reflecting the PRKAR1A/PKA pathway's role in endocrine tumors—so thyroid ultrasound is part of follow-up.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Carney complex predisposes to distinctive nerve-sheath tumors: psammomatous melanotic schwannomas—pigmented schwannomas on spinal nerve roots and the GI tract—are a Carney hallmark, overlapping schwannomatosis biology though driven by PRKAR1A rather than SMARCB1/LZTR1.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Carney complex commonly disturbs growth hormone: somatotroph hyperplasia and GH-secreting pituitary adenomas cause acromegaly or gigantism in a minority, part of the multiple endocrine overactivity (with PPNAD-driven Cushing's) that defines it—so IGF-1/GH screening is advised.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac myxoma is the most dangerous Carney complex tumor: PRKAR1A loss drives benign myxomas in the heart's chambers among the cardiomyocytes that can embolize to cause stroke or obstruct flow, so they recur at multiple sites and demand lifelong echocardiographic surveillance.
+- `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — Carney complex and the MEN syndromes are inherited multiple-endocrine-tumor disorders to distinguish: Carney (PRKAR1A) causes pigmented adrenal Cushing, thyroid, and pituitary tumors plus cardiac myxomas, while MEN1/MEN4 cause parathyroid, pancreatic, and pituitary tumors.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Carney complex involves the reproductive system through gonadal tumors: large-cell calcifying Sertoli cell tumors of the testis and ovarian lesions arise from PRKAR1A loss, sometimes causing precocious puberty or gynecomastia—part of its endocrine-tumor spectrum.
 
 ---
 
