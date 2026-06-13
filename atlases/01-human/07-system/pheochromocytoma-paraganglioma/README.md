@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/neuroblastoma
     relation: connects-to
     note: "Pheochromocytoma/paraganglioma and neuroblastoma are both neural-crest, catecholamine-handling sympathoadrenal tumors that take up MIBG and secrete catecholamine metabolites, but PPGL is an adult chromaffin tumor while neuroblastoma is an aggressive embryonal cancer of children."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Pheochromocytoma is the classic curable secondary cause of hypertension: episodic catecholamine release produces the paroxysmal triad of headache, palpitations, and sweating with severe spikes, so resistant or paroxysmal hypertension warrants plasma/urine metanephrine screening."
+  - target: 01-human/07-system/carney-complex
+    relation: connects-to
+    note: "Paragangliomas appear in Carney-related syndromes—but not Carney complex itself: the SDH-deficient Carney triad (paraganglioma, gastric GIST, pulmonary chondroma) and Carney-Stratakis dyad are distinct from PRKAR1A-driven Carney complex, a common point of confusion."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "Pheochromocytoma/paraganglioma and HLRCC share a pseudohypoxia mechanism: both belong to the TCA-cycle tumor family where SDH or FH loss accumulates succinate/fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF—rarely yielding FH-mutant PPGL itself."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -205,6 +214,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Renal Cell Carcinoma](../renal-cell-carcinoma/README.md)** — Pheochromocytoma/paraganglioma and clear-cell RCC are linked by pseudohypoxia: VHL loss (and SDHx/FH defects) stabilizes HIF-2α even in normoxia, driving VEGF and a hypervascular tumor in both; VHL disease produces them together, and HIF-2α inhibitors like belzutifan treat both.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — VHL disease is a leading hereditary cause of pheochromocytoma/paraganglioma: germline VHL loss drives Cluster-1 pseudohypoxia, producing bilateral, often norepinephrine-secreting PHEO in 10-20% alongside clear-cell RCC — so young or bilateral PHEO warrants VHL testing.
 - `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Pheochromocytoma/paraganglioma and neuroblastoma are both neural-crest, catecholamine-handling sympathoadrenal tumors that take up MIBG and secrete catecholamine metabolites, but PPGL is an adult chromaffin tumor while neuroblastoma is an aggressive embryonal cancer of children.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Pheochromocytoma is the classic curable secondary cause of hypertension: episodic catecholamine release produces the paroxysmal triad of headache, palpitations, and sweating with severe spikes, so resistant or paroxysmal hypertension warrants plasma/urine metanephrine screening.
+- `connects-to` → **[Carney Complex](../carney-complex/README.md)** — Paragangliomas appear in Carney-related syndromes—but not Carney complex itself: the SDH-deficient Carney triad (paraganglioma, gastric GIST, pulmonary chondroma) and Carney-Stratakis dyad are distinct from PRKAR1A-driven Carney complex, a common point of confusion.
+- `connects-to` → **[HLRCC](../hlrcc/README.md)** — Pheochromocytoma/paraganglioma and HLRCC share a pseudohypoxia mechanism: both belong to the TCA-cycle tumor family where SDH or FH loss accumulates succinate/fumarate, inhibits HIF prolyl-hydroxylases, and stabilizes HIF—rarely yielding FH-mutant PPGL itself.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

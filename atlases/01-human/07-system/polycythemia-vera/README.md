@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Polycythemia vera is a clonal bone marrow stem-cell disease: a JAK2 V617F-mutant hematopoietic stem cell produces panmyelosis — hypercellular marrow with trilineage (especially erythroid) proliferation — and a low EPO; over years the marrow can scar into post-PV myelofibrosis."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Polycythemia vera can burn out into post-PV myelofibrosis: after years of JAK2-driven erythrocytosis, the marrow becomes fibrotic and counts fall, with massive splenomegaly—one of PV's two main long-term fates, the other being acute leukemia."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Thrombosis is the chief danger of polycythemia vera: high hematocrit and JAK2-mutant, hyperviscous blood drive arterial and venous clots, including splanchnic-vein thromboses that can be the presenting clue—so phlebotomy and aspirin aim to prevent them."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "Polycythemia vera carries a small but serious risk of leukemic transformation: the JAK2-mutant clone can acquire further mutations and evolve into acute myeloid leukemia, a feared, largely chemo-resistant end-stage—so cytoreduction choice weighs leukemogenic risk."
 ---
 
 # Polycythemia Vera
@@ -185,6 +194,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Stroke](../stroke/README.md)** — Thrombosis is the leading cause of death in polycythemia vera, arterial events dominating: raised red-cell mass, JAK2 hyperviscosity, and activated platelets cause stroke, MI, and Budd-Chiari/splanchnic-vein thrombosis; phlebotomy to hematocrit <45% and aspirin cut these events.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — Polycythemia vera and essential thrombocythemia are sibling JAK2-driven myeloproliferative neoplasms on a continuum: PV expands the erythroid lineage (high hematocrit) and ET the megakaryocytic (high platelets), but both carry thrombosis risk and can evolve to myelofibrosis.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Polycythemia vera is a clonal bone marrow stem-cell disease: a JAK2 V617F-mutant hematopoietic stem cell produces panmyelosis — hypercellular marrow with trilineage (especially erythroid) proliferation — and a low EPO; over years the marrow can scar into post-PV myelofibrosis.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Polycythemia vera can burn out into post-PV myelofibrosis: after years of JAK2-driven erythrocytosis, the marrow becomes fibrotic and counts fall, with massive splenomegaly—one of PV's two main long-term fates, the other being acute leukemia.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thrombosis is the chief danger of polycythemia vera: high hematocrit and JAK2-mutant, hyperviscous blood drive arterial and venous clots, including splanchnic-vein thromboses that can be the presenting clue—so phlebotomy and aspirin aim to prevent them.
+- `connects-to` → **[AML](../aml/README.md)** — Polycythemia vera carries a small but serious risk of leukemic transformation: the JAK2-mutant clone can acquire further mutations and evolve into acute myeloid leukemia, a feared, largely chemo-resistant end-stage—so cytoreduction choice weighs leukemogenic risk.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
