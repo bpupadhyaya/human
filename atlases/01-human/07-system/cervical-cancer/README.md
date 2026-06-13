@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "HPV reactivates telomerase to immortalize cervical cells: the viral E6 oncoprotein, beyond degrading p53, switches on TERT, so infected cells avoid the telomere shortening that normally limits division—a key step from infection to invasive cancer."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cervical cancer is the most preventable cancer of the reproductive system: HPV infects the cervical transformation zone, but Pap/HPV screening catches precancer and vaccination blocks the virus—so a leading female-reproductive cancer is now largely avoidable."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Cervical cancer spreads predictably through the lymphatic system: tumor cells drain to pelvic and para-aortic nodes, so lymph-node status is the dominant prognostic factor and dictates whether surgery or chemoradiation is used and how widely it is targeted."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-ion radiotherapy is an option for some cervical cancers: heavy carbon ions deposit a sharply localized, highly damaging dose, useful for bulky or radioresistant gynecologic tumors—an alternative to conventional photon radiation in specialized centers."
 ---
 
 # Cervical Cancer
@@ -222,6 +231,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Cervical cancer is fundamentally an immune-control failure: most HPV infections clear, but when immune surveillance falters—markedly in HIV—persistent high-risk HPV transforms cervical cells, so immune status governs whether infection becomes cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help clear HPV-infected cervical cells: innate NK responses and interferon limit early infection, and HPV evades them by downregulating immune signals—so weakened NK/innate immunity allows the persistent infection that precedes cervical cancer.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — HPV reactivates telomerase to immortalize cervical cells: the viral E6 oncoprotein, beyond degrading p53, switches on TERT, so infected cells avoid the telomere shortening that normally limits division—a key step from infection to invasive cancer.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cervical cancer is the most preventable cancer of the reproductive system: HPV infects the cervical transformation zone, but Pap/HPV screening catches precancer and vaccination blocks the virus—so a leading female-reproductive cancer is now largely avoidable.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Cervical cancer spreads predictably through the lymphatic system: tumor cells drain to pelvic and para-aortic nodes, so lymph-node status is the dominant prognostic factor and dictates whether surgery or chemoradiation is used and how widely it is targeted.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an option for some cervical cancers: heavy carbon ions deposit a sharply localized, highly damaging dose, useful for bulky or radioresistant gynecologic tumors—an alternative to conventional photon radiation in specialized centers.
 
 ---
 

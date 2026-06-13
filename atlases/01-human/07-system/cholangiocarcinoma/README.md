@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Cholangiocarcinoma relies on VEGF-driven angiogenesis: the tumor secretes VEGF to vascularize its desmoplastic mass, high levels predict worse outcome, and anti-angiogenic agents are studied alongside the chemotherapy and targeted FGFR/IDH inhibitors used in treatment."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Cholangiocarcinoma arises from chronically inflamed, fibrotic bile ducts: primary sclerosing cholangitis, liver fluke and stones scar the biliary tree, and this fibrosis-inflammation milieu is the soil in which the cancer develops—mirroring HCC arising in cirrhosis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiotherapy has a role in cholangiocarcinoma: photon-based external-beam or stereotactic radiation, often with chemo, treats unresectable bile-duct tumors and the perihilar disease that obstructs the ducts—palliating jaundice and sometimes downstaging for surgery."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Hepatitis C is a recognized risk factor for cholangiocarcinoma: chronic viral inflammation and the cirrhosis it causes raise the risk of intrahepatic bile-duct cancer as well as HCC, so the two primary liver cancers share this viral driver."
 ---
 
 # Cholangiocarcinoma
@@ -196,6 +205,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation is common in cholangiocarcinoma: loss of p53, alongside KRAS and FGFR/IDH alterations, removes a key checkpoint in bile-duct epithelium, so chronic inflammation plus p53 loss drives the malignant transformation behind this hard-to-treat cancer.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — A macrophage-rich desmoplastic stroma defines cholangiocarcinoma: tumor-associated macrophages and fibroblasts build a dense, immunosuppressive matrix that walls the tumor off, helping explain its chemoresistance and limited response to immunotherapy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Cholangiocarcinoma relies on VEGF-driven angiogenesis: the tumor secretes VEGF to vascularize its desmoplastic mass, high levels predict worse outcome, and anti-angiogenic agents are studied alongside the chemotherapy and targeted FGFR/IDH inhibitors used in treatment.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Cholangiocarcinoma arises from chronically inflamed, fibrotic bile ducts: primary sclerosing cholangitis, liver fluke and stones scar the biliary tree, and this fibrosis-inflammation milieu is the soil in which the cancer develops—mirroring HCC arising in cirrhosis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a role in cholangiocarcinoma: photon-based external-beam or stereotactic radiation, often with chemo, treats unresectable bile-duct tumors and the perihilar disease that obstructs the ducts—palliating jaundice and sometimes downstaging for surgery.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hepatitis C is a recognized risk factor for cholangiocarcinoma: chronic viral inflammation and the cirrhosis it causes raise the risk of intrahepatic bile-duct cancer as well as HCC, so the two primary liver cancers share this viral driver.
 
 ---
 
