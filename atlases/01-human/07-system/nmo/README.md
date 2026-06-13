@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/sjogrens-syndrome
     relation: connects-to
     note: "NMOSD frequently coexists with systemic autoimmunity, especially Sjögren's and lupus: AQP4-IgG-positive patients often carry anti-Ro/SSA, anti-La or ANA, and the myelitis/optic neuritis is the neurological face of NMOSD, not a direct effect of the connective-tissue disease."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "When neuromyelitis optica coexists with lupus, the myelitis is NMO, not CNS lupus: AQP4-IgG-positive NMO can occur alongside SLE, so transverse myelitis or optic neuritis in a lupus patient should prompt AQP4 testing rather than assuming neuropsychiatric lupus."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Neuromyelitis optica and myasthenia gravis are antibody-mediated diseases that co-occur more than by chance: both are driven by pathogenic IgG (anti-AQP4 vs anti-AChR) and a tendency to further autoimmunity, and NMO can emerge after thymectomy for myasthenia."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells make the pathogenic antibody of neuromyelitis optica: long-lived plasma cells and plasmablasts secrete anti-aquaporin-4 IgG that, with complement, destroys astrocytes—so therapy targets the B-cell/plasma-cell axis (rituximab, satralizumab, eculizumab)."
 ---
 
 # NMOSD
@@ -229,6 +238,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — NMOSD and West Nile virus both attack the cord to cause myelitis but by opposite routes: NMOSD is autoimmune AQP4-IgG complement attack on astrocytes, while WNV is a neurotropic flavivirus infecting anterior-horn neurons → acute flaccid paralysis.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — NMOSD is antibody-driven: CD19+ plasmablasts produce the pathogenic AQP4-IgG and IL-6 sustains them; this B-cell dependence is why anti-CD20 (rituximab) and anti-CD19 (inebilizumab) deplete B cells and anti-IL-6R (satralizumab) work, while T-cell-directed MS drugs fail.
 - `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — NMOSD frequently coexists with systemic autoimmunity, especially Sjögren's and lupus: AQP4-IgG-positive patients often carry anti-Ro/SSA, anti-La or ANA, and the myelitis/optic neuritis is the neurological face of NMOSD, not a direct effect of the connective-tissue disease.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — When neuromyelitis optica coexists with lupus, the myelitis is NMO, not CNS lupus: AQP4-IgG-positive NMO can occur alongside SLE, so transverse myelitis or optic neuritis in a lupus patient should prompt AQP4 testing rather than assuming neuropsychiatric lupus.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Neuromyelitis optica and myasthenia gravis are antibody-mediated diseases that co-occur more than by chance: both are driven by pathogenic IgG (anti-AQP4 vs anti-AChR) and a tendency to further autoimmunity, and NMO can emerge after thymectomy for myasthenia.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the pathogenic antibody of neuromyelitis optica: long-lived plasma cells and plasmablasts secrete anti-aquaporin-4 IgG that, with complement, destroys astrocytes—so therapy targets the B-cell/plasma-cell axis (rituximab, satralizumab, eculizumab).
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

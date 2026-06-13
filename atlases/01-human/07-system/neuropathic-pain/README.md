@@ -42,6 +42,15 @@ cross_links:
   - target: 01-human/07-system/parkinsons-disease
     relation: connects-to
     note: "Pain is a frequent non-motor symptom of Parkinson's, including a central component from altered nociceptive processing in dopaminergic circuits; this PD pain often varies with medication 'on/off' states and can respond to dopaminergic therapy, unlike peripheral neuropathic pain."
+  - target: 01-human/07-system/migraine
+    relation: connects-to
+    note: "Migraine and neuropathic pain share central sensitization and CGRP biology: trigeminovascular and peripheral nerves both amplify pain, and CGRP and sodium-channel mechanisms overlap—so anti-CGRP and anticonvulsant drugs help both chronic migraine and neuropathic pain."
+  - target: 01-human/07-system/multiple-sclerosis
+    relation: connects-to
+    note: "Neuropathic pain is common in multiple sclerosis: demyelinating lesions along central pain pathways cause trigeminal neuralgia, Lhermitte's sign, and the burning MS hug—a major, often undertreated symptom managed with anticonvulsants and antidepressants."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes, with microglia, sustain chronic neuropathic pain: after nerve injury reactive astrocytes in the spinal dorsal horn release cytokines and disturb glutamate handling—so glial activation, not just neurons, maintains the chronic pain state."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -213,6 +222,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Neuropathic pain most often begins with a peripheral-nerve lesion: trauma, diabetes, chemotherapy or compression damages axons → ectopic firing, Nav1.7 remodeling and loss of large-fiber inhibition → spontaneous pain and allodynia; nerve conduction and skin biopsy localize it.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes is the leading cause of neuropathic pain worldwide: chronic hyperglycemia and microvascular injury damage small sensory fibers → distal symmetric painful polyneuropathy with burning feet; glucose control slows it, and duloxetine, pregabalin and gabapentin treat the pain.
 - `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Pain is a frequent non-motor symptom of Parkinson's, including a central component from altered nociceptive processing in dopaminergic circuits; this PD pain often varies with medication 'on/off' states and can respond to dopaminergic therapy, unlike peripheral neuropathic pain.
+- `connects-to` → **[Migraine](../migraine/README.md)** — Migraine and neuropathic pain share central sensitization and CGRP biology: trigeminovascular and peripheral nerves both amplify pain, and CGRP and sodium-channel mechanisms overlap—so anti-CGRP and anticonvulsant drugs help both chronic migraine and neuropathic pain.
+- `connects-to` → **[Multiple Sclerosis](../multiple-sclerosis/README.md)** — Neuropathic pain is common in multiple sclerosis: demyelinating lesions along central pain pathways cause trigeminal neuralgia, Lhermitte's sign, and the burning MS hug—a major, often undertreated symptom managed with anticonvulsants and antidepressants.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes, with microglia, sustain chronic neuropathic pain: after nerve injury reactive astrocytes in the spinal dorsal horn release cytokines and disturb glutamate handling—so glial activation, not just neurons, maintains the chronic pain state.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
