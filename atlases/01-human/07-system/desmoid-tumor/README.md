@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Extra-abdominal desmoids (aggressive fibromatosis) of the shoulder, abdominal wall, and limbs are locally infiltrative soft-tissue tumors that recur after resection but never metastasize; since surgery often triggers regrowth, surveillance and systemic drugs are first-line."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Desmoid tumors are a hallmark of familial adenomatous polyposis (Gardner syndrome), the same APC/Wnt disorder that causes colorectal cancer: ~10-15% of FAP patients develop desmoids, often intra-abdominal and triggered by colectomy, where they become a leading cause of death."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Desmoid tumors are frequently hormone-responsive: many express estrogen receptors, can grow during pregnancy or with oral contraceptives and regress after menopause, so anti-estrogens (tamoxifen) with NSAIDs are an established option for these non-metastasizing fibromatoses."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Desmoid tumors are driven by a profibrotic program in which TGF-β is central: alongside constitutive Wnt/β-catenin, TGF-β stimulates myofibroblasts to lay down the dense collagenous matrix that makes desmoids infiltrative and locally destructive—the hallmark of fibromatosis."
 ---
 
 # Desmoid Tumor
@@ -197,6 +206,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[GIST](../gist/README.md)** — Desmoid tumors and GISTs are intra-abdominal mesenchymal tumors often confused on imaging but molecularly opposite: desmoid is a non-metastasizing fibroblastic proliferation driven by CTNNB1/APC-Wnt, while GIST is a KIT/PDGFRA-driven Cajal-cell tumor that can metastasize.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Mesenteric desmoid tumors arise in the small-bowel mesentery, especially after abdominal surgery in FAP, encasing mesenteric vessels and bowel; this infiltrative, non-metastasizing growth causes obstruction, ischemia, and fistulae — a leading non-cancer cause of death in FAP.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Extra-abdominal desmoids (aggressive fibromatosis) of the shoulder, abdominal wall, and limbs are locally infiltrative soft-tissue tumors that recur after resection but never metastasize; since surgery often triggers regrowth, surveillance and systemic drugs are first-line.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Desmoid tumors are a hallmark of familial adenomatous polyposis (Gardner syndrome), the same APC/Wnt disorder that causes colorectal cancer: ~10-15% of FAP patients develop desmoids, often intra-abdominal and triggered by colectomy, where they become a leading cause of death.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Desmoid tumors are frequently hormone-responsive: many express estrogen receptors, can grow during pregnancy or with oral contraceptives and regress after menopause, so anti-estrogens (tamoxifen) with NSAIDs are an established option for these non-metastasizing fibromatoses.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Desmoid tumors are driven by a profibrotic program in which TGF-β is central: alongside constitutive Wnt/β-catenin, TGF-β stimulates myofibroblasts to lay down the dense collagenous matrix that makes desmoids infiltrative and locally destructive—the hallmark of fibromatosis.
 
 ---
 

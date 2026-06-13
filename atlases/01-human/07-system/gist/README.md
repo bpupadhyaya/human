@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-1
     relation: connects-to
     note: "Neurofibromatosis type 1 is a hereditary cause of GIST: germline NF1 loss drives RAS-MAPK in interstitial cells of Cajal, producing multifocal small-intestinal KIT/PDGFRA-wild-type GISTs that resist imatinib — a subtype needing MEK-directed strategies rather than KIT inhibition."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine is the second commonest GIST site after the stomach: arising from interstitial cells of Cajal in the bowel wall, small-bowel GISTs present with occult GI bleeding, anemia or obstruction and are often more aggressive than gastric ones, guiding imatinib therapy."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "GIST links to paraganglioma via the Carney-Stratakis dyad: germline SDH mutations cause SDH-deficient, KIT/PDGFRA-wildtype GISTs together with paragangliomas, a distinct imatinib-resistant subset—so a young patient with GIST plus paraganglioma warrants SDH genetic testing."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "GIST is the commonest mesenchymal tumor of the digestive system: it arises from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from esophagus to rectum (most often stomach), and its KIT/PDGFRA mutations made it the model disease for imatinib."
 ---
 
 # GIST
@@ -194,6 +203,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Desmoid Tumor](../desmoid-tumor/README.md)** — GIST and desmoid are the main intra-abdominal mesenchymal tumors that mimic each other on imaging but differ fundamentally: GIST is a KIT/PDGFRA-driven Cajal-cell tumor that responds to imatinib and can metastasize; desmoid is a CTNNB1/Wnt fibroblastic tumor that never spreads.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — About 60% of GISTs arise in the stomach (another ~30% in the small intestine), growing from the interstitial cells of Cajal in the muscularis as submucosal masses that can ulcerate and bleed; gastric GISTs are generally less aggressive than small-bowel GISTs of equal size.
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — Neurofibromatosis type 1 is a hereditary cause of GIST: germline NF1 loss drives RAS-MAPK in interstitial cells of Cajal, producing multifocal small-intestinal KIT/PDGFRA-wild-type GISTs that resist imatinib — a subtype needing MEK-directed strategies rather than KIT inhibition.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine is the second commonest GIST site after the stomach: arising from interstitial cells of Cajal in the bowel wall, small-bowel GISTs present with occult GI bleeding, anemia or obstruction and are often more aggressive than gastric ones, guiding imatinib therapy.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — GIST links to paraganglioma via the Carney-Stratakis dyad: germline SDH mutations cause SDH-deficient, KIT/PDGFRA-wildtype GISTs together with paragangliomas, a distinct imatinib-resistant subset—so a young patient with GIST plus paraganglioma warrants SDH genetic testing.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — GIST is the commonest mesenchymal tumor of the digestive system: it arises from the interstitial cells of Cajal—the gut's pacemaker cells—anywhere from esophagus to rectum (most often stomach), and its KIT/PDGFRA mutations made it the model disease for imatinib.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
