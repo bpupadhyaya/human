@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "FAP is a disease of the intestinal epithelium's stem cells: germline APC loss removes the brake on Wnt/β-catenin in colonic crypt stem cells, so the entire epithelium is primed to form adenomas—hundreds to thousands—making the field, not a single clone, the cancer-prone tissue."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "FAP and Lynch syndrome are the major hereditary colorectal cancer syndromes but opposite: FAP floods the colon with hundreds of adenomatous polyps via APC loss, while Lynch causes few polyps but mismatch-repair failure—polyposis versus microsatellite instability."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "FAP and Peutz-Jeghers are both inherited GI polyposis conditions but differ in polyp type and gene: FAP's APC loss yields hundreds of adenomas, while PJS's STK11 loss gives hamartomatous polyps and mucocutaneous pigmentation—different polyps, different cancer risks."
+  - target: 01-human/07-system/medulloblastoma
+    relation: connects-to
+    note: "FAP can include brain tumors as Turcot syndrome: the same germline APC mutation that drives colonic polyposis also raises risk of medulloblastoma, linking Wnt-pathway dysregulation in gut and cerebellum—one mutated gene producing tumors in two very different organs."
 ---
 
 # Familial Adenomatous Polyposis
@@ -215,6 +224,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Juvenile Polyposis Syndrome](../juvenile-polyposis-syndrome/README.md)** — FAP and juvenile polyposis are both autosomal-dominant polyposis syndromes with high colorectal-cancer risk but differ in polyp biology: FAP carpets the colon with adenomas (APC/Wnt), while JPS makes fewer hamartomatous polyps (SMAD4/BMPR1A)—both need surveillance, often surgery.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — FAP affects the upper GI tract, not just the colon: nearly all patients develop fundic gland polyps and duodenal/ampullary adenomas, and gastric-cancer risk is raised, so after colectomy upper endoscopic surveillance of the stomach and duodenum becomes the priority.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — FAP is a disease of the intestinal epithelium's stem cells: germline APC loss removes the brake on Wnt/β-catenin in colonic crypt stem cells, so the entire epithelium is primed to form adenomas—hundreds to thousands—making the field, not a single clone, the cancer-prone tissue.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — FAP and Lynch syndrome are the major hereditary colorectal cancer syndromes but opposite: FAP floods the colon with hundreds of adenomatous polyps via APC loss, while Lynch causes few polyps but mismatch-repair failure—polyposis versus microsatellite instability.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — FAP and Peutz-Jeghers are both inherited GI polyposis conditions but differ in polyp type and gene: FAP's APC loss yields hundreds of adenomas, while PJS's STK11 loss gives hamartomatous polyps and mucocutaneous pigmentation—different polyps, different cancer risks.
+- `connects-to` → **[Medulloblastoma](../medulloblastoma/README.md)** — FAP can include brain tumors as Turcot syndrome: the same germline APC mutation that drives colonic polyposis also raises risk of medulloblastoma, linking Wnt-pathway dysregulation in gut and cerebellum—one mutated gene producing tumors in two very different organs.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

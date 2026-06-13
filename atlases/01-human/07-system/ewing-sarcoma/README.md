@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Ewing sarcoma is notably radiosensitive: unlike most bone sarcomas, radiotherapy is a primary local-control option (with surgery) for tumors in unresectable sites like the pelvis or spine, integrated with intensive multi-agent chemotherapy—photon/proton radiation exploits it."
+  - target: 01-human/07-system/neuroblastoma
+    relation: connects-to
+    note: "Ewing sarcoma and neuroblastoma are both 'small round blue cell' childhood tumors that can look alike on biopsy but are biologically distinct: Ewing is driven by the EWSR1-FLI1 fusion in bone, neuroblastoma by MYCN-amplified sympathetic neuroblasts—IHC separates them."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Ewing sarcoma's cell of origin is debated between mesenchymal stem cells and the neural-crest/osteoblast lineage: unlike osteosarcoma it makes no bone matrix, so the EWSR1-FLI1 fusion—not an osteoblast program—defines it, arising within bone yet producing no osteoid."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Ewing sarcoma and Li-Fraumeni syndrome intersect at TP53: germline p53 loss in Li-Fraumeni predisposes to many sarcomas, and somatic TP53 mutation worsens Ewing's prognosis—both show how losing the genome's guardian fuels these aggressive bone and soft-tissue cancers."
 ---
 
 # Ewing Sarcoma
@@ -198,6 +207,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Ewing sarcoma is a small-round-blue-cell malignancy of the musculoskeletal system: it arises in bone (pelvis, femur, ribs) or soft tissue of children and young adults with pain and a mass, driven by the EWSR1-FLI1 fusion rather than the osteoid production of osteosarcoma.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Ewing sarcoma and rhabdomyosarcoma are the two commonest pediatric small-round-blue-cell sarcomas and key differentials: both need molecular work-up—Ewing has EWSR1-FLI1 and CD99, rhabdomyosarcoma shows myogenic markers (desmin, myogenin) and PAX-FOXO1—since treatment differs.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ewing sarcoma is notably radiosensitive: unlike most bone sarcomas, radiotherapy is a primary local-control option (with surgery) for tumors in unresectable sites like the pelvis or spine, integrated with intensive multi-agent chemotherapy—photon/proton radiation exploits it.
+- `connects-to` → **[Neuroblastoma](../neuroblastoma/README.md)** — Ewing sarcoma and neuroblastoma are both 'small round blue cell' childhood tumors that can look alike on biopsy but are biologically distinct: Ewing is driven by the EWSR1-FLI1 fusion in bone, neuroblastoma by MYCN-amplified sympathetic neuroblasts—IHC separates them.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Ewing sarcoma's cell of origin is debated between mesenchymal stem cells and the neural-crest/osteoblast lineage: unlike osteosarcoma it makes no bone matrix, so the EWSR1-FLI1 fusion—not an osteoblast program—defines it, arising within bone yet producing no osteoid.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Ewing sarcoma and Li-Fraumeni syndrome intersect at TP53: germline p53 loss in Li-Fraumeni predisposes to many sarcomas, and somatic TP53 mutation worsens Ewing's prognosis—both show how losing the genome's guardian fuels these aggressive bone and soft-tissue cancers.
 
 ---
 
