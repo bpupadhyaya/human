@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "Cytokine storm drives DIC: TNF-α and IL-1β induce tissue factor on endothelium and monocytes, igniting coagulation that deposits microthrombi and consumes platelets and clotting factors — so the patient bleeds and clots at once, a frequent cause of cytokine-storm organ failure."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Severe COVID-19 is a paradigm cytokine storm: SARS-CoV-2 triggers an overwhelming IL-6/IL-1/TNF surge that drives ARDS, coagulopathy and multiorgan failure rather than direct viral cytopathology, which is why dexamethasone and IL-6 blockade (tocilizumab) cut mortality."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Cytokine release syndrome is the defining acute toxicity of CAR-T and allogeneic transplant: engrafting or engineered T cells flood the body with IFN-γ, IL-6 and TNF, causing fever, hypotension and capillary leak overlapping with severe GVHD; tocilizumab and steroids treat it."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1β is a core driver and target of cytokine storm: inflammasome-activated IL-1β amplifies the IL-6/TNF feed-forward loop, fever and vascular leak, so the IL-1 receptor antagonist anakinra is used to break cytokine storm in HLH/MAS, severe COVID-19 and CAR-T toxicity."
 ---
 
 # Cytokine Storm
@@ -154,6 +163,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `modulated-by` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — the cytokine storm runs on a macrophage-T-cell feedback loop: activated CD4+ T cells and NK cells pour out IFN-γ that hyperactivates macrophages, which release IL-6, TNF-α, and IL-1β feeding back to the T cells — a self-amplifying circuit that escalates until regulation fails.
 - `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — severe dengue is a viral cytokine storm: antibody-dependent enhancement raises macrophage viral load while cross-reactive T cells release TNF-α, IL-6, and IFN-γ, and the resulting endothelial activation produces the plasma leakage of dengue hemorrhagic fever and shock.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — cytokine storm drives DIC: TNF-α and IL-1β induce tissue factor on endothelium and monocytes, igniting coagulation that deposits microthrombi and consumes platelets and clotting factors — so the patient bleeds and clots at once, a frequent cause of cytokine-storm organ failure.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Severe COVID-19 is a paradigm cytokine storm: SARS-CoV-2 triggers an overwhelming IL-6/IL-1/TNF surge that drives ARDS, coagulopathy and multiorgan failure rather than direct viral cytopathology, which is why dexamethasone and IL-6 blockade (tocilizumab) cut mortality.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Cytokine release syndrome is the defining acute toxicity of CAR-T and allogeneic transplant: engrafting or engineered T cells flood the body with IFN-γ, IL-6 and TNF, causing fever, hypotension and capillary leak overlapping with severe GVHD; tocilizumab and steroids treat it.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1β is a core driver and target of cytokine storm: inflammasome-activated IL-1β amplifies the IL-6/TNF feed-forward loop, fever and vascular leak, so the IL-1 receptor antagonist anakinra is used to break cytokine storm in HLH/MAS, severe COVID-19 and CAR-T toxicity.
 
 ## Pathology
 

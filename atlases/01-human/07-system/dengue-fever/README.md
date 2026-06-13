@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/cytokine-storm
     relation: connects-to
     note: "Severe dengue is partly a cytokine storm: antibody-enhanced macrophage infection plus cross-reactive memory T cells pour out TNF-α, IL-6, and IFN-γ that — with NS1 acting on the endothelium — break vascular integrity, causing the plasma leak of dengue hemorrhagic fever and shock."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Severe dengue is a disease of the endothelium: viral NS1 protein and cytokines transiently disrupt the endothelial glycocalyx and tight junctions, causing the plasma leakage (hemoconcentration, effusions, shock) that defines dengue hemorrhagic fever and dengue shock syndrome."
+  - target: 01-human/07-system/disseminated-intravascular-coagulation
+    relation: connects-to
+    note: "Severe dengue can trigger disseminated intravascular coagulation: endothelial injury, thrombocytopenia and cytokine-driven tissue-factor activation consume clotting factors, producing the bleeding of dengue hemorrhagic fever; DIC marks the severe end and worsens shock."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a key dengue target: the virus replicates in hepatocytes and Kupffer cells, raising transaminases in most cases and occasionally causing fulminant hepatitis; marked AST/ALT elevation is a warning sign of progression to severe dengue and correlates with bleeding."
 ---
 
 # Dengue Fever
@@ -174,3 +183,7 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 **→ [Macrophage](../../04-cellular/macrophage/)**: Macrophages are dengue's main host cell and engine of severe disease: in reinfection with another serotype, non-neutralizing antibodies ferry virus into Fcγ-bearing macrophages — antibody-dependent enhancement — raising viral load and the cytokines that drive hemorrhagic dengue.
 
 **→ [Cytokine Storm](../cytokine-storm/)**: Severe dengue is partly a cytokine storm: antibody-enhanced macrophage infection plus cross-reactive memory T cells pour out TNF-α, IL-6, and IFN-γ that — with NS1 acting on the endothelium — break vascular integrity, causing the plasma leak of dengue hemorrhagic fever and shock.
+
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Severe dengue is a disease of the endothelium: viral NS1 protein and cytokines transiently disrupt the endothelial glycocalyx and tight junctions, causing the plasma leakage (hemoconcentration, effusions, shock) that defines dengue hemorrhagic fever and dengue shock syndrome.
+- `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Severe dengue can trigger disseminated intravascular coagulation: endothelial injury, thrombocytopenia and cytokine-driven tissue-factor activation consume clotting factors, producing the bleeding of dengue hemorrhagic fever; DIC marks the severe end and worsens shock.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a key dengue target: the virus replicates in hepatocytes and Kupffer cells, raising transaminases in most cases and occasionally causing fulminant hepatitis; marked AST/ALT elevation is a warning sign of progression to severe dengue and correlates with bleeding.
