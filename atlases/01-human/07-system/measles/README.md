@@ -74,6 +74,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Measles spreads through the body via myeloid cells: alveolar macrophages and dendritic cells in the airway are the first infected, carrying the virus to lymphoid tissue where it amplifies—so these innate sentinels become the vehicle for systemic measles dissemination."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help control measles early: NK and interferon responses limit initial viral spread, but measles still infects immune cells and causes profound, lasting immunosuppression—so the innate response is overwhelmed by a virus that targets immunity itself."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Measles is especially dangerous in HIV and immunosuppression: without competent T-cell immunity, measles can cause giant-cell pneumonia and fatal disease without the typical rash, so live measles vaccine is contraindicated in severe immunosuppression."
+  - target: 01-human/07-system/covid-19-disease
+    relation: connects-to
+    note: "Measles and COVID-19 illustrate herd-immunity thresholds at opposite extremes: measles is so contagious (R0 12-18) that ~95% vaccination is needed to stop spread, far above COVID's threshold—so falling measles vaccination quickly reignites outbreaks."
 ---
 
 # Measles
@@ -237,6 +246,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[RSV](../rsv/README.md)** — Measles and RSV are paramyxoviruses but cause very different disease: RSV is a bronchiolitis-causing pneumovirus of infants, while measles is a contagious morbillivirus with rash, fever, and Koplik spots—both can cause severe pneumonia, the leading killer in measles.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Measles can attack neurons years after infection: persistent defective virus in the brain causes subacute sclerosing panencephalitis (SSPE), a fatal degenerative disease appearing years later—one reason measles is far more than a transient childhood rash.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Measles spreads through the body via myeloid cells: alveolar macrophages and dendritic cells in the airway are the first infected, carrying the virus to lymphoid tissue where it amplifies—so these innate sentinels become the vehicle for systemic measles dissemination.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help control measles early: NK and interferon responses limit initial viral spread, but measles still infects immune cells and causes profound, lasting immunosuppression—so the innate response is overwhelmed by a virus that targets immunity itself.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Measles is especially dangerous in HIV and immunosuppression: without competent T-cell immunity, measles can cause giant-cell pneumonia and fatal disease without the typical rash, so live measles vaccine is contraindicated in severe immunosuppression.
+- `connects-to` → **[COVID-19 Disease](../covid-19-disease/README.md)** — Measles and COVID-19 illustrate herd-immunity thresholds at opposite extremes: measles is so contagious (R0 12-18) that ~95% vaccination is needed to stop spread, far above COVID's threshold—so falling measles vaccination quickly reignites outbreaks.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

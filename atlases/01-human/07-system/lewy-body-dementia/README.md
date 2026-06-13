@@ -76,6 +76,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopamine loss links Lewy body dementia to its parkinsonism: α-synuclein degeneration of nigrostriatal dopamine neurons produces the rigidity and bradykinesia, and a DaT scan showing reduced striatal dopamine transporter helps distinguish LBD from Alzheimer's disease."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "Lewy body dementia and Huntington's are neurodegenerative movement-and-cognition disorders with distinct causes: LBD from α-synuclein (parkinsonism, hallucinations), Huntington's from a CAG repeat (chorea)—different proteins, overlapping decline."
+  - target: 01-human/07-system/schizophrenia
+    relation: connects-to
+    note: "Lewy body dementia is defined partly by psychosis that mimics schizophrenia: visual hallucinations and delusions are core features, but unlike schizophrenia they arise in older adults with parkinsonism, and antipsychotics can cause life-threatening sensitivity in LBD."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Lewy body dementia spares the hippocampus more than Alzheimer's early on: memory is relatively preserved while attention, visuospatial function and alertness fluctuate, reflecting cortical and brainstem Lewy pathology not hippocampal degeneration."
 ---
 
 # Lewy Body Dementia
@@ -221,6 +230,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — REM sleep behavior disorder bridges Lewy body dementia and narcolepsy: RBD—acting out dreams from lost REM muscle atonia—is an early marker that often precedes Lewy body dementia by years, while narcolepsy disrupts the same REM gating from orexin loss.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes participate in Lewy body dementia's α-synuclein pathology: reactive astrocytes accumulate α-synuclein and, with microglia, drive the neuroinflammation that accompanies the spreading synucleinopathy, so glial dysfunction contributes alongside neuronal loss.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine loss links Lewy body dementia to its parkinsonism: α-synuclein degeneration of nigrostriatal dopamine neurons produces the rigidity and bradykinesia, and a DaT scan showing reduced striatal dopamine transporter helps distinguish LBD from Alzheimer's disease.
+- `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — Lewy body dementia and Huntington's are neurodegenerative movement-and-cognition disorders with distinct causes: LBD from α-synuclein (parkinsonism, hallucinations), Huntington's from a CAG repeat (chorea)—different proteins, overlapping decline.
+- `connects-to` → **[Schizophrenia](../schizophrenia/README.md)** — Lewy body dementia is defined partly by psychosis that mimics schizophrenia: visual hallucinations and delusions are core features, but unlike schizophrenia they arise in older adults with parkinsonism, and antipsychotics can cause life-threatening sensitivity in LBD.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Lewy body dementia spares the hippocampus more than Alzheimer's early on: memory is relatively preserved while attention, visuospatial function and alertness fluctuate, reflecting cortical and brainstem Lewy pathology not hippocampal degeneration.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
