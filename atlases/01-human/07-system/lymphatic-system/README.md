@@ -50,6 +50,15 @@ cross_links:
   - target: 01-human/07-system/hodgkin-lymphoma
     relation: connects-to
     note: "Hodgkin lymphoma is the prototypical cancer of the lymphatic system: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), reflecting lymphatic drainage anatomy — unlike the scattered spread of non-Hodgkin lymphomas."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Diffuse large B-cell lymphoma is the commonest malignancy of the lymphatic system: it arises from germinal-center or activated B cells in lymph nodes (or extranodal lymphoid tissue), producing rapidly enlarging masses—the lymphatic system's own immune cells becoming cancer."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells are the antibody-secreting end-product of the lymphatic system: B cells activated in lymph-node germinal centers become plasma cells that home to bone marrow and mucosa to pump out immunoglobulin, the humoral output of lymphoid tissue—malignant as myeloma."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "The gut houses the largest share of the lymphatic system: gut-associated lymphoid tissue (Peyer patches, mesenteric nodes) and lacteals that absorb dietary fat make the digestive tract a major immune and lymph-transport organ, tying mucosal immunity and fat transport together."
 ---
 
 # Lymphatic System
@@ -170,6 +179,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The lymphatic system drains and patrols the reproductive organs: pelvic and para-aortic nodes filter lymph from uterus, ovaries, prostate, and testes — so nodal status drives staging and spread of gynecologic and prostate cancers, and sentinel-node mapping guides their surgery.
 - `contains` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are the lymphatic system's messengers: they capture antigen in tissues, then migrate through afferent lymphatics to the draining lymph node to present it to naive T cells — linking innate detection to adaptive immunity, and the basis of DC cancer vaccines.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Hodgkin lymphoma is the prototypical cancer of the lymphatic system: it arises in lymph nodes and spreads in an orderly, contiguous fashion down chains of nodes (Ann Arbor staging), reflecting lymphatic drainage anatomy — unlike the scattered spread of non-Hodgkin lymphomas.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Diffuse large B-cell lymphoma is the commonest malignancy of the lymphatic system: it arises from germinal-center or activated B cells in lymph nodes (or extranodal lymphoid tissue), producing rapidly enlarging masses—the lymphatic system's own immune cells becoming cancer.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells are the antibody-secreting end-product of the lymphatic system: B cells activated in lymph-node germinal centers become plasma cells that home to bone marrow and mucosa to pump out immunoglobulin, the humoral output of lymphoid tissue—malignant as myeloma.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — The gut houses the largest share of the lymphatic system: gut-associated lymphoid tissue (Peyer patches, mesenteric nodes) and lacteals that absorb dietary fat make the digestive tract a major immune and lymph-transport organ, tying mucosal immunity and fat transport together.
 
 ## Pathology
 

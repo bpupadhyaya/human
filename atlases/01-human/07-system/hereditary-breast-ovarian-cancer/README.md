@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/prostate-cancer
     relation: connects-to
     note: "BRCA2 carriers face ~2-6× prostate cancer risk with more aggressive, earlier-onset disease; HBOC thus affects men too, and BRCA/HR-deficient metastatic prostate cancer responds to PARP inhibitors (olaparib, PROfound) — making germline and tumor testing standard in advanced cases."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "BRCA2 widens the hereditary breast-ovarian cancer spectrum to melanoma: germline BRCA2 modestly raises risk of cutaneous and especially uveal melanoma alongside breast, ovarian, pancreatic and prostate cancer, so a melanoma history can inform BRCA testing."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hereditary breast-ovarian cancer strikes the reproductive system hardest: BRCA1/2 carriers face high lifetime risks of breast, ovarian and fallopian-tube cancer, so risk-reducing salpingo-oophorectomy and enhanced breast surveillance are cornerstones of management."
+  - target: 03-medicine/01-modern/13-cancer/targeted-therapy
+    relation: treated-by
+    note: "Hereditary breast-ovarian cancer is the paradigm for synthetic-lethal targeted therapy: BRCA1/2-mutant tumors cannot repair DNA by homologous recombination, so PARP inhibitors (olaparib) blocking backup repair selectively kill them—turning the germline defect into a drug target."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -199,6 +208,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — HBOC and Li-Fraumeni are the major hereditary breast cancer syndromes but differ in scope: HBOC (BRCA1/2) focuses on breast and ovarian cancer with PARP sensitivity, while LFS (germline TP53) spans sarcomas, brain tumors, and adrenocortical carcinoma — focused vs multi-cancer.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — BRCA2 (and to a lesser degree BRCA1, PALB2, ATM) raises pancreatic cancer risk ~3-7×, extending HBOC beyond breast and ovary; these HR-deficient pancreatic cancers respond to platinum and PARP-inhibitor maintenance (olaparib, POLO), so germline testing now guides therapy.
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — BRCA2 carriers face ~2-6× prostate cancer risk with more aggressive, earlier-onset disease; HBOC thus affects men too, and BRCA/HR-deficient metastatic prostate cancer responds to PARP inhibitors (olaparib, PROfound) — making germline and tumor testing standard in advanced cases.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — BRCA2 widens the hereditary breast-ovarian cancer spectrum to melanoma: germline BRCA2 modestly raises risk of cutaneous and especially uveal melanoma alongside breast, ovarian, pancreatic and prostate cancer, so a melanoma history can inform BRCA testing.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hereditary breast-ovarian cancer strikes the reproductive system hardest: BRCA1/2 carriers face high lifetime risks of breast, ovarian and fallopian-tube cancer, so risk-reducing salpingo-oophorectomy and enhanced breast surveillance are cornerstones of management.
+- `treated-by` → **[Targeted Therapy](../../03-medicine/01-modern/13-cancer/targeted-therapy/README.md)** — Hereditary breast-ovarian cancer is the paradigm for synthetic-lethal targeted therapy: BRCA1/2-mutant tumors cannot repair DNA by homologous recombination, so PARP inhibitors (olaparib) blocking backup repair selectively kill them—turning the germline defect into a drug target.
 
 ---
 
