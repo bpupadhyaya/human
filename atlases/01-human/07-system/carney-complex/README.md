@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Carney complex involves the reproductive system through gonadal tumors: large-cell calcifying Sertoli cell tumors of the testis and ovarian lesions arise from PRKAR1A loss, sometimes causing precocious puberty or gynecomastia—part of its endocrine-tumor spectrum."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Carney complex affects the thyroid: PRKAR1A loss and unrestrained PKA signaling cause thyroid nodules and follicular tumors alongside the syndrome's other endocrine overgrowths, so thyroid surveillance joins cardiac and adrenal monitoring in affected families."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Carney complex's myxomas are fibroblast-rich tumors: PKA dysregulation drives benign myxoid neoplasms—especially cardiac myxomas that can embolize or obstruct—built of stellate fibroblast-like cells in a mucoid matrix, the most dangerous feature of the syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Carney complex causes hormone-secreting pituitary tumors: unchecked PKA signaling produces somatotroph adenomas secreting growth hormone and prolactin, so acromegaly and hyperprolactinemia are part of the syndrome's endocrine overactivity."
 ---
 
 # Carney Complex
@@ -209,6 +218,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Cardiac myxoma is the most dangerous Carney complex tumor: PRKAR1A loss drives benign myxomas in the heart's chambers among the cardiomyocytes that can embolize to cause stroke or obstruct flow, so they recur at multiple sites and demand lifelong echocardiographic surveillance.
 - `connects-to` → **[MEN4 Syndrome](../men4-syndrome/README.md)** — Carney complex and the MEN syndromes are inherited multiple-endocrine-tumor disorders to distinguish: Carney (PRKAR1A) causes pigmented adrenal Cushing, thyroid, and pituitary tumors plus cardiac myxomas, while MEN1/MEN4 cause parathyroid, pancreatic, and pituitary tumors.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Carney complex involves the reproductive system through gonadal tumors: large-cell calcifying Sertoli cell tumors of the testis and ovarian lesions arise from PRKAR1A loss, sometimes causing precocious puberty or gynecomastia—part of its endocrine-tumor spectrum.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Carney complex affects the thyroid: PRKAR1A loss and unrestrained PKA signaling cause thyroid nodules and follicular tumors alongside the syndrome's other endocrine overgrowths, so thyroid surveillance joins cardiac and adrenal monitoring in affected families.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Carney complex's myxomas are fibroblast-rich tumors: PKA dysregulation drives benign myxoid neoplasms—especially cardiac myxomas that can embolize or obstruct—built of stellate fibroblast-like cells in a mucoid matrix, the most dangerous feature of the syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Carney complex causes hormone-secreting pituitary tumors: unchecked PKA signaling produces somatotroph adenomas secreting growth hormone and prolactin, so acromegaly and hyperprolactinemia are part of the syndrome's endocrine overactivity.
 
 ---
 

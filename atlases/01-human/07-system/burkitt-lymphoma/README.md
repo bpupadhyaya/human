@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/mantle-cell-lymphoma
     relation: connects-to
     note: "Burkitt and mantle cell lymphoma are aggressive B-cell lymphomas defined by single translocations: Burkitt's t(8;14) drives MYC, mantle cell's t(11;14) drives cyclin D1—but Burkitt is curable while mantle cell is aggressive yet incurable, a key prognostic split."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Burkitt lymphoma is MYC-driven, not BCL2-driven—a key contrast: classic Burkitt carries the MYC translocation and is BCL2-negative, so a tumor with both MYC and BCL2 rearrangements is instead a more aggressive double-hit high-grade lymphoma, not true Burkitt."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Burkitt lymphoma is a germinal-center B cell frozen short of plasma-cell fate: the MYC-driven clone proliferates explosively (near-100% Ki-67) instead of maturing into antibody-secreting plasma cells—so its hallmark is runaway growth, the fastest-doubling human tumor."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Burkitt lymphoma exposes the immune system's role in cancer control: it surges in immunodeficiency (HIV) and where chronic malaria and EBV exhaust immune surveillance—so endemic Burkitt is partly a cancer of weakened immune defense against EBV-driven B cells."
 ---
 
 # Burkitt Lymphoma
@@ -222,6 +231,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Malaria](../malaria/README.md)** — Endemic Burkitt lymphoma is malaria-driven: chronic Plasmodium falciparum infection drives intense B-cell proliferation and weakens control of co-infecting Epstein-Barr virus, together promoting the MYC translocation that causes the jaw and abdominal tumors of African children.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Burkitt and Hodgkin lymphoma are both EBV-associated but biologically opposite: Burkitt is a fast MYC-driven mature B-cell tumor curable with intensive chemo, while Hodgkin is a CD30+ Reed-Sternberg-cell lymphoma with a rich reactive infiltrate, treated differently with ABVD.
 - `connects-to` → **[Mantle Cell Lymphoma](../mantle-cell-lymphoma/README.md)** — Burkitt and mantle cell lymphoma are aggressive B-cell lymphomas defined by single translocations: Burkitt's t(8;14) drives MYC, mantle cell's t(11;14) drives cyclin D1—but Burkitt is curable while mantle cell is aggressive yet incurable, a key prognostic split.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Burkitt lymphoma is MYC-driven, not BCL2-driven—a key contrast: classic Burkitt carries the MYC translocation and is BCL2-negative, so a tumor with both MYC and BCL2 rearrangements is instead a more aggressive double-hit high-grade lymphoma, not true Burkitt.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Burkitt lymphoma is a germinal-center B cell frozen short of plasma-cell fate: the MYC-driven clone proliferates explosively (near-100% Ki-67) instead of maturing into antibody-secreting plasma cells—so its hallmark is runaway growth, the fastest-doubling human tumor.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Burkitt lymphoma exposes the immune system's role in cancer control: it surges in immunodeficiency (HIV) and where chronic malaria and EBV exhaust immune surveillance—so endemic Burkitt is partly a cancer of weakened immune defense against EBV-driven B cells.
 
 ---
 
