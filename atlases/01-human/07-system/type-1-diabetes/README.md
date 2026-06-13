@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Diabetic kidney disease is a leading T1D complication and a top cause of end-stage renal disease: chronic hyperglycemia → glomerular hyperfiltration, mesangial expansion and albuminuria → declining GFR; DCCT/EDIC showed tight glucose control plus RAAS blockade slows progression."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Type 1 diabetes is a leading cause of neuropathic pain through diabetic peripheral neuropathy: decades of hyperglycemia damage distal nerves via polyol, AGE, and microvascular mechanisms, causing burning stocking-glove pain—so early glycemic control is key prevention."
+  - target: 01-human/07-system/wound-healing
+    relation: connects-to
+    note: "Type 1 diabetes impairs wound healing and underlies the diabetic foot: hyperglycemia, neuropathy (lost protective sensation), and microvascular disease stall healing and breed infection, so foot ulcers in long-standing T1D are a major cause of non-traumatic amputation."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells initiate the autoimmunity of type 1 diabetes: they capture islet antigens and present them to autoreactive T cells in pancreatic lymph nodes, breaking tolerance and launching the cytotoxic attack on β-cells—so DCs are a target for tolerance therapies."
 ---
 
 # Type 1 Diabetes
@@ -171,6 +180,9 @@ cross_links:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — T1D and T2D share chronic hyperglycemia and vascular complications but differ in cause: T1D is autoimmune β-cell loss needing insulin, T2D is insulin resistance with relative deficiency; the line blurs with obesity-linked T1D and adult-onset autoimmune diabetes (LADA).
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Type 1 diabetes is strongly HLA-linked: MHC class II alleles HLA-DR3-DQ2 and DR4-DQ8 confer the greatest genetic risk by presenting islet autoantigens (insulin, GAD65) to autoreactive CD4+ T cells, while DQ6 is protective; HLA typing predicts risk in relatives.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Diabetic kidney disease is a leading T1D complication and a top cause of end-stage renal disease: chronic hyperglycemia → glomerular hyperfiltration, mesangial expansion and albuminuria → declining GFR; DCCT/EDIC showed tight glucose control plus RAAS blockade slows progression.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Type 1 diabetes is a leading cause of neuropathic pain through diabetic peripheral neuropathy: decades of hyperglycemia damage distal nerves via polyol, AGE, and microvascular mechanisms, causing burning stocking-glove pain—so early glycemic control is key prevention.
+- `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Type 1 diabetes impairs wound healing and underlies the diabetic foot: hyperglycemia, neuropathy (lost protective sensation), and microvascular disease stall healing and breed infection, so foot ulcers in long-standing T1D are a major cause of non-traumatic amputation.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells initiate the autoimmunity of type 1 diabetes: they capture islet antigens and present them to autoreactive T cells in pancreatic lymph nodes, breaking tolerance and launching the cytotoxic attack on β-cells—so DCs are a target for tolerance therapies.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

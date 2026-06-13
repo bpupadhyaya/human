@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "WM characteristically infiltrates the bone marrow with lymphoplasmacytic cells, often paratrabecular and with increased mast cells; this marrow involvement causes anemia (the commonest symptom) and underlies the cytopenias, with diagnosis confirmed by marrow biopsy."
+  - target: 01-human/07-system/follicular-lymphoma
+    relation: connects-to
+    note: "Waldenström macroglobulinemia and follicular lymphoma are both indolent B-cell non-Hodgkin lymphomas but molecularly distinct: WM is a lymphoplasmacytic lymphoma defined by MYD88 L265P and an IgM paraprotein, while follicular lymphoma is BCL2-translocated."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Waldenström macroglobulinemia can transform into aggressive diffuse large B-cell lymphoma: like other indolent lymphomas, the low-grade clone can acquire further lesions and evolve into DLBCL, a Richter-like transformation with rapid deterioration and worse prognosis."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Hyperviscosity from WM's IgM paraprotein can mimic or cause stroke: large pentameric IgM thickens blood, causing headache, visual blurring, and neurological deficits, so a stroke-like presentation with a very high protein points to WM, treated by plasmapheresis."
 ---
 
 # Waldenström Macroglobulinemia
@@ -185,6 +194,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Waldenström macroglobulinemia and myeloma are B-cell dyscrasias secreting a monoclonal paraprotein but differ: WM is a lymphoplasmacytic lymphoma making IgM (hyperviscosity, neuropathy) with MYD88 L265P, while myeloma is a marrow plasma-cell tumor making IgG/IgA with lytic bone.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — WM's malignant clone is lymphoplasmacytic—a spectrum from small B cells to plasma cells—so it secretes monoclonal IgM like a plasma-cell tumor while keeping B-cell markers (CD20); this dual differentiation explains why both rituximab and plasma-cell-directed agents work.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — WM characteristically infiltrates the bone marrow with lymphoplasmacytic cells, often paratrabecular and with increased mast cells; this marrow involvement causes anemia (the commonest symptom) and underlies the cytopenias, with diagnosis confirmed by marrow biopsy.
+- `connects-to` → **[Follicular Lymphoma](../follicular-lymphoma/README.md)** — Waldenström macroglobulinemia and follicular lymphoma are both indolent B-cell non-Hodgkin lymphomas but molecularly distinct: WM is a lymphoplasmacytic lymphoma defined by MYD88 L265P and an IgM paraprotein, while follicular lymphoma is BCL2-translocated.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Waldenström macroglobulinemia can transform into aggressive diffuse large B-cell lymphoma: like other indolent lymphomas, the low-grade clone can acquire further lesions and evolve into DLBCL, a Richter-like transformation with rapid deterioration and worse prognosis.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Hyperviscosity from WM's IgM paraprotein can mimic or cause stroke: large pentameric IgM thickens blood, causing headache, visual blurring, and neurological deficits, so a stroke-like presentation with a very high protein points to WM, treated by plasmapheresis.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
