@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol is the classic self-medication for social anxiety — it acutely blunts amygdala social-threat reactivity — so 20-25% of people with social anxiety disorder develop an alcohol use disorder, a reinforcing trap where drinking eases anxiety while worsening its course."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Social anxiety and panic disorder are distinct but overlapping: social anxiety fears scrutiny and humiliation, while panic disorder centers on unexpected autonomic attacks and fear of them; situationally-bound panic can occur within social anxiety, and both respond to SSRIs."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Social anxiety is very common in autism and hard to disentangle: autistic social difficulty is a skills/processing difference while social anxiety is fear of negative evaluation, yet they co-occur and reinforce avoidance; recognizing both shapes treatment focus."
+  - target: 01-human/07-system/internet-gaming-disorder
+    relation: connects-to
+    note: "Social anxiety predisposes to internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a loop; addressing social anxiety is part of treating problematic gaming."
 ---
 
 # Social Anxiety Disorder
@@ -197,6 +206,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression complicates over half of social anxiety disorder and usually follows it: years of social avoidance and isolation breed hopelessness, so SAD-driven loss of relationships is a route into MDD; treating the social anxiety early can head off the depression.
 
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is the classic self-medication for social anxiety — it acutely blunts amygdala social-threat reactivity — so 20-25% of people with social anxiety disorder develop an alcohol use disorder, a reinforcing trap where drinking eases anxiety while worsening its course.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Social anxiety and panic disorder are distinct but overlapping: social anxiety fears scrutiny and humiliation, while panic disorder centers on unexpected autonomic attacks and fear of them; situationally-bound panic can occur within social anxiety, and both respond to SSRIs.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Social anxiety is very common in autism and hard to disentangle: autistic social difficulty is a skills/processing difference while social anxiety is fear of negative evaluation, yet they co-occur and reinforce avoidance; recognizing both shapes treatment focus.
+- `connects-to` → **[Internet Gaming Disorder](../internet-gaming-disorder/README.md)** — Social anxiety predisposes to internet gaming disorder: online games offer socially safe, avoidant interaction, so socially anxious people retreat into gaming, which deepens real-world avoidance in a loop; addressing social anxiety is part of treating problematic gaming.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
