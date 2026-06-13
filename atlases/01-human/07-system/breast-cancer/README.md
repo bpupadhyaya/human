@@ -64,6 +64,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Bone is the most common site of breast cancer metastasis: tumor cells secrete PTHrP that drives osteoblasts to overproduce RANKL → osteoclast activation → osteolytic destruction and a cycle releasing bone-stored growth factors; denosumab and bisphosphonates target this loop."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Hereditary breast and ovarian cancer syndrome from germline BRCA1/2 underlies ~5-10% of breast cancers: it brings early-onset, often triple-negative or bilateral tumors, intensified screening and risk-reducing surgery, and platinum/PARP-inhibitor sensitivity."
+  - target: 01-human/07-system/li-fraumeni-syndrome
+    relation: connects-to
+    note: "Li-Fraumeni syndrome is a striking cause of early breast cancer: germline TP53 loss yields breast cancer (often HER2-positive) in women under 30 alongside sarcomas—and because radiotherapy can induce second cancers, treatment favors mastectomy over radiation."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Triple-negative breast cancer is the subtype most responsive to immunotherapy: its higher mutational burden and tumor-infiltrating cytotoxic T cells make it sensitive to PD-1/PD-L1 blockade (pembrolizumab), unlike the immunologically quiet hormone-receptor-positive tumors."
 ---
 
 # Breast Cancer
@@ -185,6 +194,9 @@ cross_links:
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Breast and endometrial cancers are linked estrogen-driven malignancies: unopposed estrogen fuels both, and tamoxifen—an anti-estrogen in breast tissue—acts as a uterine estrogen agonist, raising endometrial cancer risk; obesity and the hormone milieu tie the two together.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Breast and ovarian cancers are the twin BRCA1/2 tumors of hereditary breast-ovarian cancer syndrome: germline BRCA loss cripples homologous-recombination repair, predisposing to both and making them exquisitely sensitive to PARP inhibitors (olaparib) and platinum chemotherapy.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Bone is the most common site of breast cancer metastasis: tumor cells secrete PTHrP that drives osteoblasts to overproduce RANKL → osteoclast activation → osteolytic destruction and a cycle releasing bone-stored growth factors; denosumab and bisphosphonates target this loop.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Hereditary breast and ovarian cancer syndrome from germline BRCA1/2 underlies ~5-10% of breast cancers: it brings early-onset, often triple-negative or bilateral tumors, intensified screening and risk-reducing surgery, and platinum/PARP-inhibitor sensitivity.
+- `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Li-Fraumeni syndrome is a striking cause of early breast cancer: germline TP53 loss yields breast cancer (often HER2-positive) in women under 30 alongside sarcomas—and because radiotherapy can induce second cancers, treatment favors mastectomy over radiation.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Triple-negative breast cancer is the subtype most responsive to immunotherapy: its higher mutational burden and tumor-infiltrating cytotoxic T cells make it sensitive to PD-1/PD-L1 blockade (pembrolizumab), unlike the immunologically quiet hormone-receptor-positive tumors.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

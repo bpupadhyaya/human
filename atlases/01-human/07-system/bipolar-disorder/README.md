@@ -67,6 +67,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol and other substance use disorders are among the commonest bipolar comorbidities (~40%): patients drink to blunt mania or relieve depression, worsening mood cycling, impulsivity and suicide risk; integrated treatment of both improves outcomes over treating either alone."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Cannabis use disorder is tightly linked to bipolar disorder: among its commonest comorbidities, it can precipitate manic or psychotic episodes and worsens mood-episode frequency and adherence—so heavy use destabilizes bipolar illness and complicates treatment."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety disorders are highly comorbid with bipolar disorder and worsen its course: generalized anxiety predicts more mood episodes and suicidality, and complicates treatment because antidepressants for anxiety can trigger mania—so mood stabilization comes first."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Bipolar disorder involves dysfunction of neurons: disturbed ion-channel, mitochondrial, and BDNF signaling destabilizes neuronal excitability, and lithium's action via GSK-3β inhibition and neuroprotection points to a cellular basis for the illness."
 ---
 
 # Bipolar Disorder
@@ -213,6 +222,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Bipolar disorder and BPD are frequently confused: both show mood instability, but bipolar episodes last days-to-weeks and are often unprovoked, while BPD shifts are rapid (hours) and reactive to interpersonal triggers—distinguishing them guides treatment choice.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep is central to bipolar disorder: sleep loss is both a warning sign and a trigger of mania, circadian disruption destabilizes mood, and restoring regular sleep (and chronotherapy) is part of treatment—while many mood stabilizers act partly by normalizing the sleep-wake cycle.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol and other substance use disorders are among the commonest bipolar comorbidities (~40%): patients drink to blunt mania or relieve depression, worsening mood cycling, impulsivity and suicide risk; integrated treatment of both improves outcomes over treating either alone.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabis use disorder is tightly linked to bipolar disorder: among its commonest comorbidities, it can precipitate manic or psychotic episodes and worsens mood-episode frequency and adherence—so heavy use destabilizes bipolar illness and complicates treatment.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Anxiety disorders are highly comorbid with bipolar disorder and worsen its course: generalized anxiety predicts more mood episodes and suicidality, and complicates treatment because antidepressants for anxiety can trigger mania—so mood stabilization comes first.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Bipolar disorder involves dysfunction of neurons: disturbed ion-channel, mitochondrial, and BDNF signaling destabilizes neuronal excitability, and lithium's action via GSK-3β inhibition and neuroprotection points to a cellular basis for the illness.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
