@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Mesothelioma is responsive to immunotherapy despite few mutations: chronic asbestos inflammation and an immune-rich microenvironment make checkpoint blockade (anti-PD-1/CTLA-4) a frontline option—so engaging the immune system has improved outcomes in this cancer."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Mesothelioma is the signature cancer of the respiratory system's lining: decades after asbestos inhalation, the pleura thickens with tumor that traps the lung in a rind, causing breathlessness and effusions—an almost wholly preventable, dismal-prognosis cancer."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "p53-pathway disruption helps drive mesothelioma: although BAP1 and CDKN2A losses dominate, p53 inactivation contributes to the genomic chaos of asbestos-induced tumors, so the guardian-of-the-genome network features in this slow-developing malignancy."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-ion radiotherapy is explored for mesothelioma: its dense, sharply localized dose may help this radioresistant, diffusely spreading pleural tumor, complementing the surgery, chemotherapy and immunotherapy used against an asbestos-caused cancer."
 ---
 
 # Mesothelioma
@@ -218,6 +227,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion is a defining mesothelioma alteration: loss of this tumor suppressor, alongside BAP1 and NF2, drives the cancer and helps distinguish malignant mesothelioma from benign reactive mesothelial proliferation on biopsy—a key diagnostic marker.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The sarcomatoid subtype of mesothelioma is fibroblast-like and grim: spindle, fibroblast-resembling cells make a dense tumor far more resistant to therapy than the epithelioid type—so histologic subtype strongly predicts survival.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Mesothelioma is responsive to immunotherapy despite few mutations: chronic asbestos inflammation and an immune-rich microenvironment make checkpoint blockade (anti-PD-1/CTLA-4) a frontline option—so engaging the immune system has improved outcomes in this cancer.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Mesothelioma is the signature cancer of the respiratory system's lining: decades after asbestos inhalation, the pleura thickens with tumor that traps the lung in a rind, causing breathlessness and effusions—an almost wholly preventable, dismal-prognosis cancer.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53-pathway disruption helps drive mesothelioma: although BAP1 and CDKN2A losses dominate, p53 inactivation contributes to the genomic chaos of asbestos-induced tumors, so the guardian-of-the-genome network features in this slow-developing malignancy.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is explored for mesothelioma: its dense, sharply localized dose may help this radioresistant, diffusely spreading pleural tumor, complementing the surgery, chemotherapy and immunotherapy used against an asbestos-caused cancer.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Meningiomas are often hormone-responsive: many express progesterone and estrogen receptors, can enlarge during pregnancy or with hormonal therapy, and are commoner in women—so hormonal status influences their growth and is weighed in management."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy refines radiation for meningioma: many sit at the skull base wrapped around nerves and vessels, so protons' sharp dose stop point delivers high dose to the tumor while sparing the adjacent brain, optic nerves and brainstem."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Some meningiomas are fibroblastic: arising from arachnoid cap cells, these benign tumors can take a spindle-cell, collagen-rich (fibroblastic) form, one of several histologic subtypes that, with grade and location, guide whether surgery alone or added radiation is needed."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF drives the brain swelling around meningiomas: tumor VEGF makes vessels leaky, producing the peritumoral edema that often causes symptoms more than the mass itself, so anti-VEGF bevacizumab is tried for edema and recurrent disease."
 ---
 
 # Meningioma
@@ -216,6 +225,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Meningiomas threaten the brain by compression, not invasion: arising from arachnoid cap cells of the meninges, they grow slowly and push on neurons and cortex, causing seizures and focal deficits—so symptoms come from mass effect, not infiltration of the brain.
 - `connects-to` → **[Schwannomatosis](../schwannomatosis/README.md)** — Meningioma sits in the NF2/schwannomatosis tumor family: NF2 (merlin) loss drives sporadic meningiomas and the multiple meningiomas, schwannomas and ependymomas of NF2, so a young patient with several meningiomas should prompt NF2-spectrum genetic testing.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Meningiomas are often hormone-responsive: many express progesterone and estrogen receptors, can enlarge during pregnancy or with hormonal therapy, and are commoner in women—so hormonal status influences their growth and is weighed in management.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy refines radiation for meningioma: many sit at the skull base wrapped around nerves and vessels, so protons' sharp dose stop point delivers high dose to the tumor while sparing the adjacent brain, optic nerves and brainstem.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Some meningiomas are fibroblastic: arising from arachnoid cap cells, these benign tumors can take a spindle-cell, collagen-rich (fibroblastic) form, one of several histologic subtypes that, with grade and location, guide whether surgery alone or added radiation is needed.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF drives the brain swelling around meningiomas: tumor VEGF makes vessels leaky, producing the peritumoral edema that often causes symptoms more than the mass itself, so anti-VEGF bevacizumab is tried for edema and recurrent disease.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
