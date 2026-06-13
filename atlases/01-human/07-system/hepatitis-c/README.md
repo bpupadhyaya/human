@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "HCV chronically stimulates B cells by binding CD81, driving type II mixed cryoglobulinemia (purpura, vasculitis, MPGN, neuropathy) and a raised risk of marginal-zone and other B-cell lymphomas; antiviral cure resolves cryoglobulinemia in ~80%."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "HCV and HBV both cause chronic hepatitis → cirrhosis → HCC yet differ: HCV is an RNA flavivirus with no latent reservoir, cured >95% by DAAs, and has no vaccine; HBV is a DNA virus whose nuclear cccDNA reservoir antivirals suppress but cannot clear, and is vaccine-preventable."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Chronic HCV activates hepatic stellate cells via TGF-β1 → myofibroblast transdifferentiation → collagen I/III deposition → progressive fibrosis (METAVIR F0–F4) → cirrhosis; DAA-induced SVR slows fibrogenesis but established cirrhosis persists, retaining HCC risk."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "HCV is metabolically active: the core protein degrades IRS-1/IRS-2 via PI3K/mTOR and SOCS3 → hepatic insulin resistance → type 2 diabetes (2–3× risk), which in turn accelerates fibrosis and HCC; DAA-induced SVR improves glycemic control and lowers incident diabetes."
 ---
 
 # Hepatitis C
@@ -184,3 +193,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Hepatitis C Virus](../../../02-pathogen/01-viruses/hepatitis-c-virus/README.md)** — Hepatitis C virus is a positive-sense RNA flavivirus whose NS3/4A protease cleaves MAVS to silence interferon, persisting in ~80% of those infected; unlike HBV it makes no nuclear reservoir, so direct-acting antivirals cure >95% — yet no vaccine exists.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Chronic hepatitis C smolders in the liver, activating stellate cells via TGF-β and driving fibrosis to cirrhosis; DAA cure (SVR) cuts hepatocellular carcinoma risk ~70% but established cirrhosis still needs surveillance, and FibroScan has largely replaced biopsy for staging.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — HCV chronically stimulates B cells by binding CD81, driving type II mixed cryoglobulinemia (purpura, vasculitis, MPGN, neuropathy) and a raised risk of marginal-zone and other B-cell lymphomas; antiviral cure resolves cryoglobulinemia in ~80%.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — HCV and HBV both cause chronic hepatitis → cirrhosis → HCC yet differ: HCV is an RNA flavivirus with no latent reservoir, cured >95% by DAAs, and has no vaccine; HBV is a DNA virus whose nuclear cccDNA reservoir antivirals suppress but cannot clear, and is vaccine-preventable.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Chronic HCV activates hepatic stellate cells via TGF-β1 → myofibroblast transdifferentiation → collagen I/III deposition → progressive fibrosis (METAVIR F0–F4) → cirrhosis; DAA-induced SVR slows fibrogenesis but established cirrhosis persists, retaining HCC risk.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — HCV is metabolically active: the core protein degrades IRS-1/IRS-2 via PI3K/mTOR and SOCS3 → hepatic insulin resistance → type 2 diabetes (2–3× risk), which in turn accelerates fibrosis and HCC; DAA-induced SVR improves glycemic control and lowers incident diabetes.

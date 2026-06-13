@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "HBV is hepatotropic, entering hepatocytes through the bile-acid transporter NTCP; inside, RC-DNA becomes the persistent nuclear cccDNA that templates all viral RNAs, while HBx inactivates p53 and degrades the Smc5/6 restriction complex to keep the infected hepatocyte alive."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "HBV and HCV both cause chronic hepatitis → cirrhosis → HCC but differ: HBV is a DNA virus with a persistent nuclear cccDNA reservoir that antivirals suppress but cannot clear; HCV is an RNA virus with no reservoir, cured >95% by DAAs; HBV is vaccine-preventable, HCV is not."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "HBx binds the p53 C-terminal regulatory domain → sequesters p53 in the cytoplasm → blocks PUMA/BAX-driven apoptosis so the infected hepatocyte survives; with HBV integration and aflatoxin-B1 TP53 R249S mutation, p53 inactivation is central to HBV hepatocarcinogenesis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "HBV-specific CD8+ cytotoxic T cells clear infected hepatocytes and, via non-cytolytic IFN-γ/TNF, suppress HBV transcription; in chronic HBV these CTLs become exhausted (PD-1, TIM-3, LAG-3) → failure to clear cccDNA → viral persistence."
 ---
 
 # Hepatitis B
@@ -193,3 +202,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Hepatitis B Virus](../../../02-pathogen/01-viruses/hepatitis-b-virus/README.md)** — Hepatitis B virus, a hepadnavirus, enters hepatocytes via NTCP and forms a nuclear cccDNA minichromosome that nucleoside analogs suppress but cannot clear; its HBx protein drives immune evasion and oncogenesis, and a recombinant HBsAg vaccine prevents infection.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Chronic hepatitis B inflames the liver — immune-mediated hepatocyte killing drives fibrosis and cirrhosis and makes HBV the leading infectious cause of hepatocellular carcinoma; antivirals cut but don't abolish HCC risk, mandating 6-monthly surveillance in cirrhosis.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — HBV is hepatotropic, entering hepatocytes through the bile-acid transporter NTCP; inside, RC-DNA becomes the persistent nuclear cccDNA that templates all viral RNAs, while HBx inactivates p53 and degrades the Smc5/6 restriction complex to keep the infected hepatocyte alive.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — HBV and HCV both cause chronic hepatitis → cirrhosis → HCC but differ: HBV is a DNA virus with a persistent nuclear cccDNA reservoir that antivirals suppress but cannot clear; HCV is an RNA virus with no reservoir, cured >95% by DAAs; HBV is vaccine-preventable, HCV is not.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — HBx binds the p53 C-terminal regulatory domain → sequesters p53 in the cytoplasm → blocks PUMA/BAX-driven apoptosis so the infected hepatocyte survives; with HBV integration and aflatoxin-B1 TP53 R249S mutation, p53 inactivation is central to HBV hepatocarcinogenesis.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — HBV-specific CD8+ cytotoxic T cells clear infected hepatocytes and, via non-cytolytic IFN-γ/TNF, suppress HBV transcription; in chronic HBV these CTLs become exhausted (PD-1, TIM-3, LAG-3) → failure to clear cccDNA → viral persistence.
