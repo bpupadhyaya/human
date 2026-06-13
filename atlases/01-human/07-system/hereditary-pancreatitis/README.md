@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Hereditary pancreatitis impairs small-intestinal digestion: without pancreatic lipase, protease and amylase reaching the duodenum, fats, proteins and fat-soluble vitamins go unabsorbed, causing steatorrhea and deficiency—so enzyme replacement is timed to meals to restore uptake."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium sits at the heart of hereditary pancreatitis: PRSS1 mutations cause premature, calcium-dependent trypsinogen activation in acinar cells, and chronic inflammation leaves the duct studded with calcium-carbonate stones—the hallmark of calcific pancreatitis."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Hereditary pancreatitis is a model of sterile inflammation via the NLRP3 inflammasome: trypsin-induced acinar injury releases damage signals that activate NLRP3 in macrophages, driving IL-1β and attacks that scar the gland—an enzyme defect igniting innate immunity."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Hereditary pancreatitis can cause pancreatogenic (type 3c) diabetes resembling type 1: repeated inflammation destroys acinar tissue and the insulin-producing islets, so endocrine failure follows exocrine—but the loss is from fibrosis, not autoimmunity."
 ---
 
 # Hereditary Pancreatitis
@@ -219,6 +228,9 @@ cross_links:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Hereditary pancreatitis commonly ends in pancreatogenic (type 3c) diabetes: recurrent inflammation destroys the islets along with the exocrine pancreas, producing an insulin-deficient diabetes that is brittle (glucagon is also lost) and distinct from type 1 and type 2.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Hereditary pancreatitis cripples the digestive system: loss of exocrine acinar tissue causes pancreatic enzyme insufficiency with steatorrhea, malabsorption and weight loss needing lifelong enzyme replacement—while the destroyed gland also forfeits its insulin/glucagon function.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Hereditary pancreatitis impairs small-intestinal digestion: without pancreatic lipase, protease and amylase reaching the duodenum, fats, proteins and fat-soluble vitamins go unabsorbed, causing steatorrhea and deficiency—so enzyme replacement is timed to meals to restore uptake.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium sits at the heart of hereditary pancreatitis: PRSS1 mutations cause premature, calcium-dependent trypsinogen activation in acinar cells, and chronic inflammation leaves the duct studded with calcium-carbonate stones—the hallmark of calcific pancreatitis.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Hereditary pancreatitis is a model of sterile inflammation via the NLRP3 inflammasome: trypsin-induced acinar injury releases damage signals that activate NLRP3 in macrophages, driving IL-1β and attacks that scar the gland—an enzyme defect igniting innate immunity.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Hereditary pancreatitis can cause pancreatogenic (type 3c) diabetes resembling type 1: repeated inflammation destroys acinar tissue and the insulin-producing islets, so endocrine failure follows exocrine—but the loss is from fibrosis, not autoimmunity.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
