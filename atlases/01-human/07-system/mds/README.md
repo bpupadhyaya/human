@@ -73,6 +73,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "MDS and iron-deficiency anemia are opposite anemias: iron deficiency is microcytic from low iron, while MDS is a macrocytic dysplastic marrow-failure anemia with normal/high iron—so unexplained macrocytic anemia in older adults warrants marrow study."
+  - target: 01-human/03-molecular/sf3b1
+    relation: connects-to
+    note: "SF3B1 mutation defines a favorable MDS subtype: this splicing-factor gene, when mutated, produces ring sideroblasts and an indolent anemia—now its own WHO entity, often responsive to luspatercept and carrying a comparatively good prognosis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietin underlies both the anemia and the treatment of lower-risk MDS: ineffective marrow erythropoiesis fails to answer EPO, so erythropoiesis-stimulating agents are first-line for the anemia when endogenous EPO levels are low."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "MDS has an immune dimension: a subset, especially hypoplastic MDS, involves T-cell-mediated marrow suppression and responds to immunosuppression, while inflammatory signaling in the marrow niche helps drive the ineffective blood production."
 ---
 
 # Myelodysplastic Syndromes
@@ -202,6 +211,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — MDS and myeloproliferative neoplasms are overlapping clonal stem-cell disorders: MDS shows dysplasia and cytopenias, MPNs show overproduction, and the MDS/MPN-overlap category blends both—different faces of mutated hematopoietic stem cells.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — MDS is part of the Li-Fraumeni and inherited marrow-failure spectrum: germline TP53 loss predisposes to MDS and therapy-related MDS/AML, and TP53-mutant MDS is high-risk and treatment-resistant—linking a hereditary cancer syndrome to clonal marrow disease.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — MDS and iron-deficiency anemia are opposite anemias: iron deficiency is microcytic from low iron, while MDS is a macrocytic dysplastic marrow-failure anemia with normal/high iron—so unexplained macrocytic anemia in older adults warrants marrow study.
+- `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — SF3B1 mutation defines a favorable MDS subtype: this splicing-factor gene, when mutated, produces ring sideroblasts and an indolent anemia—now its own WHO entity, often responsive to luspatercept and carrying a comparatively good prognosis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin underlies both the anemia and the treatment of lower-risk MDS: ineffective marrow erythropoiesis fails to answer EPO, so erythropoiesis-stimulating agents are first-line for the anemia when endogenous EPO levels are low.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — MDS has an immune dimension: a subset, especially hypoplastic MDS, involves T-cell-mediated marrow suppression and responds to immunosuppression, while inflammatory signaling in the marrow niche helps drive the ineffective blood production.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

@@ -71,6 +71,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system's joints: immune attack on the synovium forms an invasive pannus that erodes cartilage and bone, deforming joints—autoimmunity striking the skeleton's moving parts."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Collagen is the musculoskeletal system's structural protein: type I gives bone and tendon tensile strength while type II builds cartilage, so collagen defects cause brittle bones (osteogenesis imperfecta) and fragile joints across the whole framework."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts knit the musculoskeletal system's soft framework: they build and repair the collagen of tendons, ligaments and fascia that transmit muscle force to bone, so their activity governs healing of sprains and the integrity of connective tissue."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Gout is a musculoskeletal disease of crystals: monosodium urate deposits in joints trigger acute inflammatory arthritis and, over years, erode bone and form tophi—linking purine metabolism to destructive joint and bone disease."
 ---
 
 # Musculoskeletal System
@@ -225,6 +234,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Osteoporosis is the commonest disease of the musculoskeletal system's bone: an imbalance favoring osteoclast resorption over osteoblast formation thins the skeleton, so fractures of the hip, spine and wrist are the system's leading cause of disability in older adults.
 - `connects-to` → **[Osteosarcoma](../osteosarcoma/README.md)** — Osteosarcoma is the principal primary bone cancer of the musculoskeletal system: malignant osteoblasts produce disorganized bone, striking the metaphyses of growing adolescents—turning the system's bone-building machinery into an aggressive, lung-metastasizing tumor.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system's joints: immune attack on the synovium forms an invasive pannus that erodes cartilage and bone, deforming joints—autoimmunity striking the skeleton's moving parts.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the musculoskeletal system's structural protein: type I gives bone and tendon tensile strength while type II builds cartilage, so collagen defects cause brittle bones (osteogenesis imperfecta) and fragile joints across the whole framework.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts knit the musculoskeletal system's soft framework: they build and repair the collagen of tendons, ligaments and fascia that transmit muscle force to bone, so their activity governs healing of sprains and the integrity of connective tissue.
+- `connects-to` → **[Gout](../gout/README.md)** — Gout is a musculoskeletal disease of crystals: monosodium urate deposits in joints trigger acute inflammatory arthritis and, over years, erode bone and form tophi—linking purine metabolism to destructive joint and bone disease.
 
 ## Pathology
 
