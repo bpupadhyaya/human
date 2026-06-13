@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Activin A/B are elevated in PAH pulmonary vasculature; activin → VSMC ActRIIB/ALK4 → SMAD2/3 → proliferation and vasoconstriction → vascular remodeling; sotatercept (ActRIIB-Fc; FDA 2024) traps activin A/B → reverses vascular remodeling; STELLAR trial: +34.4 m 6MWD, p<0.001."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "PAH kills through the right heart: obliterated pulmonary arterioles raise vascular resistance until the thin-walled right ventricle, never built for high afterload, hypertrophies, dilates, and fails (cor pulmonale) — so RV function, not pulmonary pressure, best predicts survival."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Pulmonary endothelial dysfunction initiates PAH: injured endothelium underproduces vasodilators (NO, prostacyclin) and overproduces endothelin-1, and apoptosis-resistant clones form the plexiform lesions — so all three drug classes target endothelial signaling pathways."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Pulmonary artery smooth muscle cells drive PAH remodeling: under endothelin, activin, and growth-factor signaling they proliferate and resist apoptosis, thickening the media and muscularizing non-muscular arterioles — sotatercept (activin trap) reverses this remodeling."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -182,6 +191,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — SSc is the most common cause of CTD-PAH (10-15% of SSc patients); SSc-PAH treated with ERAs + PDE5i (macitentan, ambrisentan + tadalafil); worse prognosis than IPAH; annual echocardiographic screening recommended for all SSc patients.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Ang-1/Ang-2 imbalance in PAH: Ang-2 overexpression in pulmonary endothelium → Tie2 destabilization → endothelial mesenchymal transition → vascular remodeling; Ang-2 overexpressing mice develop PAH; plasma Ang-2 correlates with hemodynamic severity in PAH patients.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Activin A/B are elevated in PAH pulmonary vasculature; activin → VSMC ActRIIB/ALK4 → SMAD2/3 → proliferation and vasoconstriction → vascular remodeling; sotatercept (ActRIIB-Fc; FDA 2024) traps activin A/B → reverses vascular remodeling; STELLAR trial: +34.4 m 6MWD, p<0.001.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — PAH kills through the right heart: obliterated pulmonary arterioles raise vascular resistance until the thin-walled right ventricle, never built for high afterload, hypertrophies, dilates, and fails (cor pulmonale) — so RV function, not pulmonary pressure, best predicts survival.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Pulmonary endothelial dysfunction initiates PAH: injured endothelium underproduces vasodilators (NO, prostacyclin) and overproduces endothelin-1, and apoptosis-resistant clones form the plexiform lesions — so all three drug classes target endothelial signaling pathways.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Pulmonary artery smooth muscle cells drive PAH remodeling: under endothelin, activin, and growth-factor signaling they proliferate and resist apoptosis, thickening the media and muscularizing non-muscular arterioles — sotatercept (activin trap) reverses this remodeling.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

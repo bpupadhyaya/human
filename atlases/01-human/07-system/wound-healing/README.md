@@ -49,6 +49,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Cutaneous repair is the canonical wound-healing model — hemostasis, inflammation, proliferation, remodeling — restoring the skin barrier with a fibrotic scar rather than regeneration; chronic non-healing ulcers (diabetic, venous, pressure) carry a ~$31 billion annual US burden."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets fire the starting gun of wound healing: at injury they form the hemostatic plug and degranulate, releasing PDGF, TGF-β, and VEGF that recruit neutrophils and macrophages and prime fibroblasts — the growth-factor surge launching the inflammatory phase."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Collagen is the structural endpoint of wound healing: fibroblasts first lay down weak type III collagen in granulation tissue, which remodeling replaces with cross-linked type I collagen regaining ~80% of tensile strength over months; dysregulated turnover yields keloids."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Systemic sclerosis is wound healing that never stops: the TGF-β-driven myofibroblast activation and collagen deposition that should close a wound and resolve becomes self-sustaining and widespread, scarring skin and organs — fibrosis is dysregulated persistent repair."
 ---
 
 # Wound Healing
@@ -178,6 +187,9 @@ cross_links:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages orchestrate wound healing's inflammatory-to-proliferative switch: M1 cells clear debris, then become M2 cells that secrete TGF-β1, PDGF, VEGF, and IGF-1 to drive fibroblasts, angiogenesis, and re-epithelialization; a failed M1→M2 switch defines chronic wounds.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Wound fibroblasts migrate along the fibronectin scaffold and lay down the type III collagen of granulation tissue; TGF-β1 plus tension converts them into α-SMA+ myofibroblasts that contract the wound and, failing to apoptose, produce hypertrophic scars and keloids.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Cutaneous repair is the canonical wound-healing model — hemostasis, inflammation, proliferation, remodeling — restoring the skin barrier with a fibrotic scar rather than regeneration; chronic non-healing ulcers (diabetic, venous, pressure) carry a ~$31 billion annual US burden.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets fire the starting gun of wound healing: at injury they form the hemostatic plug and degranulate, releasing PDGF, TGF-β, and VEGF that recruit neutrophils and macrophages and prime fibroblasts — the growth-factor surge launching the inflammatory phase.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the structural endpoint of wound healing: fibroblasts first lay down weak type III collagen in granulation tissue, which remodeling replaces with cross-linked type I collagen regaining ~80% of tensile strength over months; dysregulated turnover yields keloids.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Systemic sclerosis is wound healing that never stops: the TGF-β-driven myofibroblast activation and collagen deposition that should close a wound and resolve becomes self-sustaining and widespread, scarring skin and organs — fibrosis is dysregulated persistent repair.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
