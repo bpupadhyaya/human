@@ -54,6 +54,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Iron-loaded cardiomyocytes make the heart the leading killer in undertreated thalassaemia major: NTBI enters via calcium channels → Fenton free radicals → arrhythmia and cardiomyopathy; cardiac MRI T2* (<10 ms = severe) guides chelation before heart failure."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Thalassemia, like sickle trait, is a malaria-protective hemoglobinopathy: its high gene frequency across the Mediterranean, Middle East and Asia reflects balancing selection, as α- and β-thalassemia carriers resist severe Plasmodium falciparum—matching the historic malaria map."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Thalassemia is driven by ineffective erythropoiesis: unbalanced globin chains precipitate and kill red-cell precursors in the marrow, which expands massively (skeletal deformities, extramedullary hematopoiesis); luspatercept eases this block and transfusions suppress the marrow."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Thalassemia trait is the key differential of iron-deficiency anemia: both cause microcytic, hypochromic cells, but thalassemia has normal/high iron, a low Mentzer index and raised HbA2 while IDA shows low ferritin—mislabeling it as IDA causes harmful needless iron use."
 ---
 
 # Thalassemia
@@ -210,6 +219,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — In thalassemia the imbalance of α and β globin leaves unpaired chains that precipitate inside red cells, so most erythroblasts die in the marrow before maturing (ineffective erythropoiesis) and survivors are microcytic, hypochromic target cells that haemolyse.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Thalassemia causes iron overload despite anaemia: ineffective erythropoiesis releases erythroferrone that suppresses hepcidin, so dietary iron pours in unchecked and transfusions add more; the excess poisons heart, liver, and endocrine glands, making chelation lifesaving.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Iron-loaded cardiomyocytes make the heart the leading killer in undertreated thalassaemia major: NTBI enters via calcium channels → Fenton free radicals → arrhythmia and cardiomyopathy; cardiac MRI T2* (<10 ms = severe) guides chelation before heart failure.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Thalassemia, like sickle trait, is a malaria-protective hemoglobinopathy: its high gene frequency across the Mediterranean, Middle East and Asia reflects balancing selection, as α- and β-thalassemia carriers resist severe Plasmodium falciparum—matching the historic malaria map.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Thalassemia is driven by ineffective erythropoiesis: unbalanced globin chains precipitate and kill red-cell precursors in the marrow, which expands massively (skeletal deformities, extramedullary hematopoiesis); luspatercept eases this block and transfusions suppress the marrow.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Thalassemia trait is the key differential of iron-deficiency anemia: both cause microcytic, hypochromic cells, but thalassemia has normal/high iron, a low Mentzer index and raised HbA2 while IDA shows low ferritin—mislabeling it as IDA causes harmful needless iron use.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
