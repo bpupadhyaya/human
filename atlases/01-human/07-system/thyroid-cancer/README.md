@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/07-system/cowden-syndrome
     relation: connects-to
     note: "Cowden syndrome is a hereditary cause of thyroid cancer: germline PTEN loss unleashes PI3K/mTOR signaling, predisposing to follicular thyroid carcinoma alongside breast and endometrial cancer, so multinodular goiter in a Cowden patient warrants close thyroid surveillance."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Thyroid cancer arises within the thyroid gland and exploits its physiology: most are differentiated tumors that still take up iodine and respond to TSH, so thyroidectomy plus radioiodine and TSH suppression treat it through the gland's own biology."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Radiation has a dual relationship with thyroid cancer: childhood external radiation is a leading cause of papillary thyroid cancer, yet radioactive iodine is a treatment mainstay, and external photon radiotherapy is reserved for anaplastic or unresectable disease."
+  - target: 01-human/07-system/hnscc
+    relation: connects-to
+    note: "Thyroid cancer and head and neck squamous cancer are the two main neck malignancies: thyroid cancer is a usually indolent endocrine tumor curable with surgery and radioiodine, while HNSCC is an aggressive smoking/HPV-driven mucosal carcinoma—neck radiation links them."
 ---
 
 # Thyroid Cancer
@@ -219,6 +228,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — Medullary thyroid carcinoma and pheochromocytoma are the linked tumors of MEN2: a germline RET mutation drives both, so a patient with medullary thyroid cancer must be screened for pheochromocytoma before any surgery to avoid an intraoperative hypertensive crisis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Thyroid cancer is the commonest endocrine malignancy: most are differentiated (papillary/follicular) tumors of iodine-avid follicular cells curable with surgery and radioiodine, while medullary (C-cell, calcitonin) and anaplastic types behave very differently.
 - `connects-to` → **[Cowden Syndrome](../cowden-syndrome/README.md)** — Cowden syndrome is a hereditary cause of thyroid cancer: germline PTEN loss unleashes PI3K/mTOR signaling, predisposing to follicular thyroid carcinoma alongside breast and endometrial cancer, so multinodular goiter in a Cowden patient warrants close thyroid surveillance.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Thyroid cancer arises within the thyroid gland and exploits its physiology: most are differentiated tumors that still take up iodine and respond to TSH, so thyroidectomy plus radioiodine and TSH suppression treat it through the gland's own biology.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation has a dual relationship with thyroid cancer: childhood external radiation is a leading cause of papillary thyroid cancer, yet radioactive iodine is a treatment mainstay, and external photon radiotherapy is reserved for anaplastic or unresectable disease.
+- `connects-to` → **[HNSCC](../hnscc/README.md)** — Thyroid cancer and head and neck squamous cancer are the two main neck malignancies: thyroid cancer is a usually indolent endocrine tumor curable with surgery and radioiodine, while HNSCC is an aggressive smoking/HPV-driven mucosal carcinoma—neck radiation links them.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

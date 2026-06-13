@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Mycobacterium tuberculosis subverts dendritic cells to delay immunity: by slowing DC migration and antigen presentation to T cells in lymph nodes, the bacillus buys weeks before an adaptive Th1 response forms—part of why TB establishes a foothold before containment."
+  - target: 01-human/07-system/copd
+    relation: connects-to
+    note: "Tuberculosis and COPD interact in both directions: past TB scarring causes airflow obstruction resembling COPD, while COPD and its inhaled steroids raise TB risk—so in high-burden regions chronic cough and obstruction warrant testing for active or prior TB."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D underpins macrophage defense against tuberculosis: vitamin-D signaling induces the antimicrobial peptide cathelicidin that helps macrophages kill M. tuberculosis, so deficiency raises TB risk—the old link behind 'sunlight and cod-liver oil' sanatorium cures."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "Tuberculosis and lung cancer overlap clinically: both can present as a cavitary or spiculated lung mass, old TB scars raise later lung-cancer risk, and chronic granulomatous inflammation may promote carcinogenesis—so a 'mass' in an endemic area needs both worked up."
 ---
 
 # Tuberculosis
@@ -209,6 +218,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Diabetes roughly triples the risk of active tuberculosis: hyperglycemia impairs macrophage and T-cell function, so diabetics reactivate latent TB more readily and fare worse—bidirectional, as TB also worsens glycemic control.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Control of tuberculosis depends on Th1 helper T cells: IFN-γ from CD4+ Th1 cells activates infected macrophages to kill the bacillus and maintain the granuloma, which is why HIV-driven CD4 loss so dramatically raises TB reactivation and dissemination.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Mycobacterium tuberculosis subverts dendritic cells to delay immunity: by slowing DC migration and antigen presentation to T cells in lymph nodes, the bacillus buys weeks before an adaptive Th1 response forms—part of why TB establishes a foothold before containment.
+- `connects-to` → **[COPD](../copd/README.md)** — Tuberculosis and COPD interact in both directions: past TB scarring causes airflow obstruction resembling COPD, while COPD and its inhaled steroids raise TB risk—so in high-burden regions chronic cough and obstruction warrant testing for active or prior TB.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D underpins macrophage defense against tuberculosis: vitamin-D signaling induces the antimicrobial peptide cathelicidin that helps macrophages kill M. tuberculosis, so deficiency raises TB risk—the old link behind 'sunlight and cod-liver oil' sanatorium cures.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — Tuberculosis and lung cancer overlap clinically: both can present as a cavitary or spiculated lung mass, old TB scars raise later lung-cancer risk, and chronic granulomatous inflammation may promote carcinogenesis—so a 'mass' in an endemic area needs both worked up.
 
 ## See Also
 
