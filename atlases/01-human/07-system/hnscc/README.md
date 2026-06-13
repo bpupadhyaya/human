@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "Head and neck cancer and thyroid cancer both arise in the neck but differ: HNSCC is a smoking/HPV-driven squamous carcinoma of the aerodigestive mucosa, while thyroid cancer is a usually indolent endocrine tumor—neck radiation, a thyroid-cancer risk factor, links them."
+  - target: 01-human/07-system/nsclc
+    relation: connects-to
+    note: "HNSCC and lung cancer share tobacco field cancerization: the same carcinogen exposure mutates the entire aerodigestive lining, so head-and-neck cancer patients carry a high risk of synchronous or later lung cancer—warranting chest screening and smoking cessation."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages shape HNSCC: they infiltrate the tumor, suppress T-cell responses and promote invasion and angiogenesis, contributing to the immunosuppressive microenvironment that immune checkpoint inhibitors aim to reverse in recurrent disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven angiogenesis sustains HNSCC: these tumors secrete VEGF to build new vessels, high levels predict worse outcomes, and anti-angiogenic approaches are studied alongside the radiation, chemotherapy and EGFR-targeted therapy that anchor treatment."
 ---
 
 # HNSCC
@@ -202,6 +211,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photon radiotherapy is central to head and neck cancer: definitive chemoradiation can cure many HNSCCs (especially HPV-positive oropharyngeal tumors) and organ-preserve the larynx, while IMRT spares salivary glands—radiation is as pivotal here as surgery.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts shape head and neck cancer: HNSCC recruits and reprograms fibroblasts that secrete growth factors, remodel matrix and blunt immunity, promoting invasion and resistance—making the fibroblast-rich microenvironment a therapeutic target.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Head and neck cancer and thyroid cancer both arise in the neck but differ: HNSCC is a smoking/HPV-driven squamous carcinoma of the aerodigestive mucosa, while thyroid cancer is a usually indolent endocrine tumor—neck radiation, a thyroid-cancer risk factor, links them.
+- `connects-to` → **[NSCLC](../nsclc/README.md)** — HNSCC and lung cancer share tobacco field cancerization: the same carcinogen exposure mutates the entire aerodigestive lining, so head-and-neck cancer patients carry a high risk of synchronous or later lung cancer—warranting chest screening and smoking cessation.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape HNSCC: they infiltrate the tumor, suppress T-cell responses and promote invasion and angiogenesis, contributing to the immunosuppressive microenvironment that immune checkpoint inhibitors aim to reverse in recurrent disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis sustains HNSCC: these tumors secrete VEGF to build new vessels, high levels predict worse outcomes, and anti-angiogenic approaches are studied alongside the radiation, chemotherapy and EGFR-targeted therapy that anchor treatment.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
