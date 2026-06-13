@@ -79,6 +79,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D both treats and modulates psoriasis: topical vitamin D analogs slow the hyperproliferation of psoriatic keratinocytes and are first-line therapy, while the immunomodulatory role of vitamin D ties skin immunity to this hormone—a vitamin used as a drug."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Psoriasis is an independent cardiovascular risk factor: systemic IL-17/TNF inflammation accelerates atherosclerosis, so severe psoriasis raises heart-attack and stroke risk beyond its shared metabolic-syndrome links—reframing it as more than a skin disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Plasmacytoid dendritic cells ignite psoriasis: they sense self-DNA and release type I interferon that, with myeloid dendritic cells, launches the IL-23/Th17 cascade—so dendritic cells sit at the very start of the inflammatory loop that thickens the skin."
+  - target: 01-human/03-molecular/il-12
+    relation: connects-to
+    note: "IL-12/IL-23 sit at the heart of psoriasis: their shared p40 subunit drives the Th1/Th17 response that fuels keratinocyte hyperproliferation, which is why ustekinumab (anti-p40) and IL-23-specific biologics clear psoriasis plaques so effectively."
 ---
 
 # Psoriasis
@@ -214,6 +223,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Obesity](../obesity/README.md)** — Psoriasis and obesity are bidirectionally linked through inflammation: adipose-derived cytokines worsen psoriatic inflammation, while psoriasis raises metabolic-syndrome risk, so obese psoriasis patients have more severe disease and weight loss improves it.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Psoriasis raises the risk of type 2 diabetes: shared systemic inflammation (TNF, IL-6, IL-17) drives insulin resistance, so psoriasis is an independent cardiometabolic risk factor—part of why it is now treated as a systemic, not just skin, disease.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D both treats and modulates psoriasis: topical vitamin D analogs slow the hyperproliferation of psoriatic keratinocytes and are first-line therapy, while the immunomodulatory role of vitamin D ties skin immunity to this hormone—a vitamin used as a drug.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Psoriasis is an independent cardiovascular risk factor: systemic IL-17/TNF inflammation accelerates atherosclerosis, so severe psoriasis raises heart-attack and stroke risk beyond its shared metabolic-syndrome links—reframing it as more than a skin disease.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells ignite psoriasis: they sense self-DNA and release type I interferon that, with myeloid dendritic cells, launches the IL-23/Th17 cascade—so dendritic cells sit at the very start of the inflammatory loop that thickens the skin.
+- `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12/IL-23 sit at the heart of psoriasis: their shared p40 subunit drives the Th1/Th17 response that fuels keratinocyte hyperproliferation, which is why ustekinumab (anti-p40) and IL-23-specific biologics clear psoriasis plaques so effectively.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
