@@ -36,6 +36,15 @@ cross_links:
   - target: 01-human/07-system/stimulant-use-disorder
     relation: connects-to
     note: "Gambling disorder was the first behavioral addiction shown to share drug-addiction neurocircuitry — like stimulant use disorder, it shows the same dopamine surges, low striatal D2 receptors, and weak prefrontal control — so DSM-5 placed it beside the substance use disorders."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression is among the commonest gambling-disorder comorbidities and a major driver of its high suicide rate: mounting losses, shame and debt feed depression while low mood fuels escape gambling, a vicious cycle; the two share monoaminergic dysfunction—screen for suicidality."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "ADHD strongly predisposes to gambling disorder: deficient dopaminergic reward processing and impaired impulse control drive risky, poorly-checked betting, the two are highly comorbid, and ADHD severity tracks gambling severity—so impulsivity is a shared therapeutic target."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "Gambling disorder and opioid use disorder share the brain's opioid-modulated reward circuitry: the endogenous opioid system shapes the 'rush' of both, which is why the opioid antagonist naltrexone—standard for opioid and alcohol use disorders—also reduces gambling urges."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -188,6 +197,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Gambling disorder and alcohol use disorder overlap heavily — about 73% of people with gambling disorder have a lifetime alcohol use disorder — reflecting shared addiction biology; those with a strong family history of alcoholism respond best to naltrexone.
 
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Gambling disorder was the first behavioral addiction shown to share drug-addiction neurocircuitry — like stimulant use disorder, it shows the same dopamine surges, low striatal D2 receptors, and weak prefrontal control — so DSM-5 placed it beside the substance use disorders.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression is among the commonest gambling-disorder comorbidities and a major driver of its high suicide rate: mounting losses, shame and debt feed depression while low mood fuels escape gambling, a vicious cycle; the two share monoaminergic dysfunction—screen for suicidality.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — ADHD strongly predisposes to gambling disorder: deficient dopaminergic reward processing and impaired impulse control drive risky, poorly-checked betting, the two are highly comorbid, and ADHD severity tracks gambling severity—so impulsivity is a shared therapeutic target.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — Gambling disorder and opioid use disorder share the brain's opioid-modulated reward circuitry: the endogenous opioid system shapes the 'rush' of both, which is why the opioid antagonist naltrexone—standard for opioid and alcohol use disorders—also reduces gambling urges.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
