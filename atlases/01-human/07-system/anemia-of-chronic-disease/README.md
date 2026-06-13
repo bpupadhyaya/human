@@ -55,6 +55,15 @@ cross_links:
   - target: 01-human/07-system/leishmaniasis
     relation: connects-to
     note: "Visceral leishmaniasis causes severe ACD: chronic Leishmania infection drives IL-6 + IFN-γ + TNF-α → hepcidin → hypoferremia; BM infiltration, hypersplenism, and haemolysis compound VL anemia; successful L-AmB treatment eliminates inflammatory stimulus and resolves ACD."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Anemia of chronic disease and IDA are the two commonest anemias and key differentials: both can be microcytic with low serum iron, but ACD has normal/high ferritin with hepcidin-trapped macrophage iron, while IDA has low ferritin from true depletion; combined ACD+IDA is common."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages drive anemia of chronic disease: inflammatory IL-6 raises hepcidin, which degrades macrophage ferroportin so recycled iron from senescent red cells stays locked inside (reticuloendothelial block); serum iron falls while macrophage and ferritin iron stores rise."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Rheumatoid arthritis is a prototypical cause of anemia of chronic disease: sustained IL-6 and inflammation raise hepcidin, sequestering iron and blunting erythropoiesis, so anemia tracks disease activity; effective immunosuppression (IL-6 blockade, DMARDs) often corrects it."
 ---
 
 # Anemia of Chronic Disease
@@ -191,6 +200,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — TB is a leading global cause of ACD: MTB-driven IL-6 + TNF-α + IFN-γ → hepcidin elevation → functional iron deficiency and normochromic normocytic anemia; ACD severity tracks TB disease activity (smear positivity, cavitary disease); successful TB treatment typically resolves ACD within weeks to months.
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a major ACD driver in sub-Saharan Africa: chronic viral replication + immune activation → elevated IL-6 + IFN-γ → hepcidin-mediated iron sequestration; AZT (zidovudine) directly suppresses erythropoiesis (bone marrow toxicity); anemia severity correlates with viral load and CD4 depletion and responds to ART.
 - `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — Visceral leishmaniasis causes severe ACD: chronic Leishmania infection drives IL-6 + IFN-γ + TNF-α → hepcidin → hypoferremia; BM infiltration, hypersplenism, and haemolysis compound VL anemia; successful L-AmB treatment eliminates inflammatory stimulus and resolves ACD.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Anemia of chronic disease and IDA are the two commonest anemias and key differentials: both can be microcytic with low serum iron, but ACD has normal/high ferritin with hepcidin-trapped macrophage iron, while IDA has low ferritin from true depletion; combined ACD+IDA is common.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive anemia of chronic disease: inflammatory IL-6 raises hepcidin, which degrades macrophage ferroportin so recycled iron from senescent red cells stays locked inside (reticuloendothelial block); serum iron falls while macrophage and ferritin iron stores rise.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is a prototypical cause of anemia of chronic disease: sustained IL-6 and inflammation raise hepcidin, sequestering iron and blunting erythropoiesis, so anemia tracks disease activity; effective immunosuppression (IL-6 blockade, DMARDs) often corrects it.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

@@ -48,6 +48,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/helicobacter-pylori
     relation: connects-to
     note: "Helicobacter pylori is an under-recognised cause of refractory iron deficiency: chronic gastritis lowers the stomach acid needed to reduce Fe³⁺ for absorption and the bacterium competes for iron, so eradicating H. pylori can reverse a deficiency that resisted oral iron."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "IDA and anemia of chronic disease are the two commonest anemias and key differentials: both can be microcytic with low serum iron, but IDA has low ferritin and high transferrin from true iron lack, while ACD has normal/high ferritin with hepcidin-locked iron; they often coexist."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Iron deficiency starves erythropoiesis of heme: developing red cells undergo extra divisions, producing small (microcytic), pale (hypochromic) erythrocytes with raised red-cell distribution width; the low hemoglobin defines the anemia, and iron repletion restores red-cell size."
+  - target: 01-human/07-system/thalassemia
+    relation: connects-to
+    note: "Iron-deficiency anemia and thalassemia trait are the classic microcytic-anemia differentials: both lower MCV, but IDA shows low ferritin and high RDW while thalassemia has normal/high iron and raised HbA2—crucially, giving iron to thalassemia trait misdiagnosed as IDA is harmful."
 ---
 
 # Iron Deficiency Anemia
@@ -178,6 +187,9 @@ Iron is essential for:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency anaemia is, at root, a shortage of the element iron: each haemoglobin tetramer needs four iron atoms, so when absorbed iron (~1-2 mg/day) cannot keep up with loss or demand, stores empty (low ferritin) and haem synthesis stalls, yielding small, pale red cells.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — In a man or postmenopausal woman, unexplained iron deficiency anaemia is colorectal cancer until proven otherwise: a slow-bleeding right-sided tumour drips occult blood into the gut, so guidelines mandate colonoscopy to find the source before treating the anaemia.
 - `connects-to` → **[Helicobacter pylori](../../../02-pathogen/02-bacteria/helicobacter-pylori/README.md)** — Helicobacter pylori is an under-recognised cause of refractory iron deficiency: chronic gastritis lowers the stomach acid needed to reduce Fe³⁺ for absorption and the bacterium competes for iron, so eradicating H. pylori can reverse a deficiency that resisted oral iron.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — IDA and anemia of chronic disease are the two commonest anemias and key differentials: both can be microcytic with low serum iron, but IDA has low ferritin and high transferrin from true iron lack, while ACD has normal/high ferritin with hepcidin-locked iron; they often coexist.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Iron deficiency starves erythropoiesis of heme: developing red cells undergo extra divisions, producing small (microcytic), pale (hypochromic) erythrocytes with raised red-cell distribution width; the low hemoglobin defines the anemia, and iron repletion restores red-cell size.
+- `connects-to` → **[Thalassemia](../thalassemia/README.md)** — Iron-deficiency anemia and thalassemia trait are the classic microcytic-anemia differentials: both lower MCV, but IDA shows low ferritin and high RDW while thalassemia has normal/high iron and raised HbA2—crucially, giving iron to thalassemia trait misdiagnosed as IDA is harmful.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
