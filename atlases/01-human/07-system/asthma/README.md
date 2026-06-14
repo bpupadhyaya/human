@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Asthma's bronchoconstriction runs on calcium: airway smooth muscle contracts when calcium floods its cells, so the wheeze of an attack is a calcium-driven squeeze—and relaxing that contraction is what bronchodilators achieve."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium relaxes the asthmatic airway: intravenous magnesium sulfate is given in severe attacks because it blocks calcium-driven smooth-muscle contraction and bronchodilates when standard inhalers fall short."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "A severe asthma attack ultimately starves the blood of oxygen: as airways narrow and air-trapping worsens, gas exchange fails and oxygen falls—rising CO2 in a tiring patient is an ominous sign of impending respiratory arrest."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells stoke severe and viral asthma: CD8 T cells, especially during respiratory-virus exacerbations, add to the Th2 inflammation and tissue damage, broadening the immune picture beyond the classic allergic pathway."
 ---
 
 # Asthma
@@ -256,6 +265,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Asthma's cornerstone controller mimics cortisol: inhaled corticosteroids damp the airway's eosinophilic, Th2 inflammation, preventing the attacks rather than just relieving them—the single most important long-term asthma therapy.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Asthma's rescue works through adrenaline's receptors: β2-agonists like albuterol (and epinephrine in anaphylaxis) relax airway smooth muscle within minutes, reversing the bronchoconstriction of an acute attack.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Asthma's bronchoconstriction runs on calcium: airway smooth muscle contracts when calcium floods its cells, so the wheeze of an attack is a calcium-driven squeeze—and relaxing that contraction is what bronchodilators achieve.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium relaxes the asthmatic airway: intravenous magnesium sulfate is given in severe attacks because it blocks calcium-driven smooth-muscle contraction and bronchodilates when standard inhalers fall short.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A severe asthma attack ultimately starves the blood of oxygen: as airways narrow and air-trapping worsens, gas exchange fails and oxygen falls—rising CO2 in a tiring patient is an ominous sign of impending respiratory arrest.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells stoke severe and viral asthma: CD8 T cells, especially during respiratory-virus exacerbations, add to the Th2 inflammation and tissue damage, broadening the immune picture beyond the classic allergic pathway.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

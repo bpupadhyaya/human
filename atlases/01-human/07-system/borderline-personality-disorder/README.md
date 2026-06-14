@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Borderline personality carries an inflammatory signature: raised TNF-alpha and other cytokines track with symptom severity and the trauma history behind the disorder, linking the body's inflammation to emotional dysregulation."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Self-injury in borderline personality may engage the opioid system: nonsuicidal self-harm can release endogenous opioids that briefly relieve emotional pain, an addictive loop that opioid-blocking drugs are studied to interrupt."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Borderline personality reflects altered emotional-circuit synapses: early trauma and stress reshape connections between the amygdala and prefrontal cortex, the plasticity behind the impulsivity and emotional swings that therapy targets."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Borderline personality keeps the adrenal stress axis dysregulated: a disturbed HPA response drives abnormal cortisol patterns tied to the trauma history, linking the adrenal glands to the emotional instability of the disorder."
 ---
 
 # Borderline Personality Disorder
@@ -287,6 +296,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Borderline symptoms swing with estrogen: emotional reactivity and impulsivity often fluctuate across the menstrual cycle as estrogen rises and falls, so hormonal shifts are one biological modulator of this trauma-shaped disorder.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Childhood trauma may prime microglia in borderline personality: early adversity can activate the brain's immune cells, fostering neuroinflammation that reshapes the emotion circuits underlying the disorder's instability.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Borderline personality carries an inflammatory signature: raised TNF-alpha and other cytokines track with symptom severity and the trauma history behind the disorder, linking the body's inflammation to emotional dysregulation.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Self-injury in borderline personality may engage the opioid system: nonsuicidal self-harm can release endogenous opioids that briefly relieve emotional pain, an addictive loop that opioid-blocking drugs are studied to interrupt.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Borderline personality reflects altered emotional-circuit synapses: early trauma and stress reshape connections between the amygdala and prefrontal cortex, the plasticity behind the impulsivity and emotional swings that therapy targets.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Borderline personality keeps the adrenal stress axis dysregulated: a disturbed HPA response drives abnormal cortisol patterns tied to the trauma history, linking the adrenal glands to the emotional instability of the disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
