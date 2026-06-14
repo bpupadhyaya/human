@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/07-system/type-1-diabetes
     relation: connects-to
     note: "Anorexia and type 1 diabetes can combine into dangerous 'diabulimia': patients omit insulin to purge calories through glucose loss, causing rapid weight loss but ketoacidosis and accelerated diabetic complications—an especially lethal eating-disorder variant."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Anorexia and its purging can crash potassium: vomiting, laxatives and refeeding shifts drop serum potassium, and the resulting hypokalemia destabilizes the heart's rhythm, a leading cause of sudden death in the disorder."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Starvation injures the anorexic liver: severe caloric deprivation triggers autophagy and hepatocyte stress that raise liver enzymes, a starvation hepatitis that can paradoxically worsen briefly when refeeding begins."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Anorexia shrinks the brain's memory hub: starvation and low estrogen reduce hippocampal volume and impair plasticity, contributing to the concentration and memory problems seen in the illness, changes that often recover with weight restoration."
 ---
 
 # Anorexia Nervosa
@@ -284,6 +293,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Anorexia shuts down estrogen and weakens bone: starvation suppresses the hypothalamic-pituitary-ovarian axis, causing amenorrhea and low estrogen that—especially in adolescence—drives the osteoporosis and fractures that can become permanent.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Anorexia's fat loss silences leptin from adipocytes: as fat stores vanish, leptin falls, signaling starvation to the brain—suppressing reproduction and metabolism, an adaptive response that becomes part of the disorder's physiology.
 - `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Anorexia and type 1 diabetes can combine into dangerous 'diabulimia': patients omit insulin to purge calories through glucose loss, causing rapid weight loss but ketoacidosis and accelerated diabetic complications—an especially lethal eating-disorder variant.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Anorexia and its purging can crash potassium: vomiting, laxatives and refeeding shifts drop serum potassium, and the resulting hypokalemia destabilizes the heart's rhythm, a leading cause of sudden death in the disorder.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Starvation injures the anorexic liver: severe caloric deprivation triggers autophagy and hepatocyte stress that raise liver enzymes, a starvation hepatitis that can paradoxically worsen briefly when refeeding begins.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Anorexia shrinks the brain's memory hub: starvation and low estrogen reduce hippocampal volume and impair plasticity, contributing to the concentration and memory problems seen in the illness, changes that often recover with weight restoration.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

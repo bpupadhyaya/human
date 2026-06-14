@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen helps drive anemia of inflammation: its macrophages recycle iron from old red cells but, under inflammatory hepcidin, hoard it instead of returning it—while also clearing red cells faster, compounding the anemia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Anemia of chronic disease starves tissues of oxygen: with fewer red cells the blood carries less oxygen, and the body senses the hypoxia and tries to compensate, though inflammation blunts the usual erythropoietin rise that would restore delivery."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney's anemia signal is blunted in chronic disease: kidneys make erythropoietin in response to low oxygen, but inflammatory cytokines dull both the hormone's output and the marrow's response, a key reason the anemia persists."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Anemia of chronic disease lowers hemoglobin without true iron lack: locked-away iron starves developing red cells, so each carries less hemoglobin, giving the mild normocytic anemia that ferritin (high here) helps tell apart from iron deficiency."
 ---
 
 # Anemia of Chronic Disease
@@ -263,6 +272,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Anemia of inflammation is orchestrated by hepatocytes: in response to IL-6 they pump out hepcidin, the hormone that locks iron inside cells and starves red-cell production—so the liver's iron-master cell sits at the center of this anemia.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Inflammation overrides the HIF oxygen-sensing that should fix anemia: low oxygen normally stabilizes HIF to boost erythropoietin and suppress hepcidin, but inflammatory signals blunt this response—so anemia of chronic disease persists despite the need for red cells.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen helps drive anemia of inflammation: its macrophages recycle iron from old red cells but, under inflammatory hepcidin, hoard it instead of returning it—while also clearing red cells faster, compounding the anemia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Anemia of chronic disease starves tissues of oxygen: with fewer red cells the blood carries less oxygen, and the body senses the hypoxia and tries to compensate, though inflammation blunts the usual erythropoietin rise that would restore delivery.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney's anemia signal is blunted in chronic disease: kidneys make erythropoietin in response to low oxygen, but inflammatory cytokines dull both the hormone's output and the marrow's response, a key reason the anemia persists.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anemia of chronic disease lowers hemoglobin without true iron lack: locked-away iron starves developing red cells, so each carries less hemoglobin, giving the mild normocytic anemia that ferritin (high here) helps tell apart from iron deficiency.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
