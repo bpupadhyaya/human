@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "PCNSL exploits the brain's immune privilege with regulatory T cells: behind the blood-brain barrier and amid Treg-rich infiltrates, the tumor evades attack, part of why systemic immunotherapy struggles to reach and clear CNS lymphoma."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "PCNSL survives on B-cell-receptor calcium signaling: with MYD88 and BTK-driven activation, a calcium flux keeps the malignant B cells alive in the brain, which is why BTK inhibitors that interrupt this pathway can penetrate the CNS and work."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are scarce in the brain that PCNSL exploits: the CNS has few professional antigen-presenters, so the lymphoma faces weak priming of an immune response—part of the immune privilege that lets it grow behind the blood-brain barrier."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PCNSL leans on the PI3K-AKT-mTOR axis downstream of BTK: chronic B-cell-receptor and MYD88 signaling feed AKT to drive survival, so AKT-mTOR inhibitors are studied alongside BTK inhibitors for this aggressive brain lymphoma."
 ---
 
 # Primary CNS Lymphoma
@@ -249,6 +258,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — PCNSL stays trapped in the brain by CXCL12: the CNS pours out this chemokine, and the lymphoma cells' CXCR4 receptor locks onto it, explaining why this aggressive B-cell lymphoma homes to and stays confined within the brain and eye.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — PCNSL is laced with reactive macrophages and microglia: a perivascular cuff of these innate immune cells surrounds the tumor, a histologic hallmark that both shapes the immune-privileged niche and can confound the biopsy diagnosis.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — PCNSL exploits the brain's immune privilege with regulatory T cells: behind the blood-brain barrier and amid Treg-rich infiltrates, the tumor evades attack, part of why systemic immunotherapy struggles to reach and clear CNS lymphoma.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PCNSL survives on B-cell-receptor calcium signaling: with MYD88 and BTK-driven activation, a calcium flux keeps the malignant B cells alive in the brain, which is why BTK inhibitors that interrupt this pathway can penetrate the CNS and work.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are scarce in the brain that PCNSL exploits: the CNS has few professional antigen-presenters, so the lymphoma faces weak priming of an immune response—part of the immune privilege that lets it grow behind the blood-brain barrier.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PCNSL leans on the PI3K-AKT-mTOR axis downstream of BTK: chronic B-cell-receptor and MYD88 signaling feed AKT to drive survival, so AKT-mTOR inhibitors are studied alongside BTK inhibitors for this aggressive brain lymphoma.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

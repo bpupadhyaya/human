@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells inflame the pemphigus blister: recruited into lesional skin, they release proteases and mediators that amplify the autoantibody-driven separation, adding an inflammatory push to the loss of cell adhesion."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Pemphigus antibodies trigger keratinocyte signaling through NF-kB: binding desmoglein-3 sets off p38 and NF-kB cascades inside the cell that actively drive the cells apart (acantholysis), so blistering is more than passive unsticking."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "A Th17/IL-17 arm adds to pemphigus inflammation: beyond the Th2 help that drives the autoantibodies, IL-17 amplifies the inflammatory damage in lesional skin, broadening the immune picture and possible drug targets."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "T cells, including cytotoxic subsets, infiltrate the pemphigus blister: autoreactive T-cell help is essential for the anti-desmoglein antibodies, and the T-cell response in lesions is studied as the upstream driver B-cell-depleting therapy aims at."
 ---
 
 # Pemphigus Vulgaris
@@ -287,6 +296,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pemphigus vulgaris attacks a calcium-dependent glue: desmoglein-3 is a calcium-reliant cadherin that rivets skin cells together, so when autoantibodies block it the cells lose adhesion (acantholysis) and the epidermis blisters apart.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Pemphigus vulgaris is rescued by cortisol's synthetic cousins: once frequently fatal, it is now controlled with corticosteroids that suppress the autoantibody response, usually paired with rituximab to spare long-term steroid harm.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the pemphigus blister: recruited into lesional skin, they release proteases and mediators that amplify the autoantibody-driven separation, adding an inflammatory push to the loss of cell adhesion.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Pemphigus antibodies trigger keratinocyte signaling through NF-kB: binding desmoglein-3 sets off p38 and NF-kB cascades inside the cell that actively drive the cells apart (acantholysis), so blistering is more than passive unsticking.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17/IL-17 arm adds to pemphigus inflammation: beyond the Th2 help that drives the autoantibodies, IL-17 amplifies the inflammatory damage in lesional skin, broadening the immune picture and possible drug targets.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — T cells, including cytotoxic subsets, infiltrate the pemphigus blister: autoreactive T-cell help is essential for the anti-desmoglein antibodies, and the T-cell response in lesions is studied as the upstream driver B-cell-depleting therapy aims at.
 
 ---
 
