@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Desmoid is a fibromatosis—benign but relentlessly fibrotic: clonal myofibroblasts lay down dense collagen that infiltrates muscle and fascia, so it behaves like an aggressive scar, distinguishing it from both reactive fibrosis and true sarcoma."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Desmoid tumors can be reined in through mTOR: the same β-catenin and growth signaling that drives them feeds into the PI3K-AKT-mTOR axis, so mTOR inhibitors like sirolimus are used to shrink these locally aggressive fibromatoses that won't metastasize."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Desmoid tumors are seeded with mast cells: these immune cells populate the fibromatosis stroma and release mediators that may spur fibroblast growth, part of the inflammatory microenvironment shaping how aggressively a desmoid behaves."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages help build the desmoid's stroma: tumor-associated macrophages infiltrate the fibrous mass and secrete growth factors that drive the relentless local proliferation of myofibroblasts characteristic of these tumors."
 ---
 
 # Desmoid Tumor
@@ -257,6 +266,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The desmoid tumor cell is a myofibroblast: it blends fibroblast and smooth-muscle features, expressing actin as it contracts and invades locally, so although benign and non-metastasizing, its smooth-muscle-like infiltration makes desmoids hard to fully excise.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Desmoid tumors are estrogen-sensitive and tied to pregnancy: many abdominal-wall desmoids appear during or after pregnancy as estrogen drives their growth, so they often arise near the gravid uterus and may regress after delivery or with anti-estrogens.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Desmoid is a fibromatosis—benign but relentlessly fibrotic: clonal myofibroblasts lay down dense collagen that infiltrates muscle and fascia, so it behaves like an aggressive scar, distinguishing it from both reactive fibrosis and true sarcoma.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Desmoid tumors can be reined in through mTOR: the same β-catenin and growth signaling that drives them feeds into the PI3K-AKT-mTOR axis, so mTOR inhibitors like sirolimus are used to shrink these locally aggressive fibromatoses that won't metastasize.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Desmoid tumors are seeded with mast cells: these immune cells populate the fibromatosis stroma and release mediators that may spur fibroblast growth, part of the inflammatory microenvironment shaping how aggressively a desmoid behaves.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help build the desmoid's stroma: tumor-associated macrophages infiltrate the fibrous mass and secrete growth factors that drive the relentless local proliferation of myofibroblasts characteristic of these tumors.
 
 ---
 

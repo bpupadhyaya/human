@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "DICER1 carriers warrant caution with radiation: as in other tumor-predisposition syndromes, radiotherapy's DNA-damaging photons may raise the lifetime risk of second cancers, so treatment plans weigh radiation exposure carefully against benefit."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "DICER1 syndrome can flood a young woman with testosterone: its Sertoli-Leydig cell ovarian tumors secrete androgens, causing virilization—deepening voice, hair growth, and missed periods—a striking clue that points toward testing for the syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DICER1's most common sign is in the iodine-trapping thyroid: it drives multinodular goiter and raises thyroid cancer risk, so the gland that concentrates iodine to make hormone overgrows into nodules that warrant lifelong ultrasound screening."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "DICER1 governs how neurons mature through microRNA: the gene's miRNA-processing job lets neural progenitors differentiate, so when it fails immature neuron-like cells can persist and seed the rare embryonal brain tumors of the syndrome."
 ---
 
 # DICER1 Syndrome
@@ -238,6 +247,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — DICER1 syndrome seeds tumors in the brain: pineoblastoma and pituitary blastoma are characteristic CNS tumors, so unusual childhood brain tumors—especially with other DICER1 features—prompt testing for this microRNA-processing gene defect.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — DICER1's pituitary blastoma floods the body with cortisol: this rare infant tumor secretes ACTH, causing Cushing's disease in babies, so early-life Cushing's is a red flag for a DICER1 mutation behind the pituitary tumor.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — DICER1 carriers warrant caution with radiation: as in other tumor-predisposition syndromes, radiotherapy's DNA-damaging photons may raise the lifetime risk of second cancers, so treatment plans weigh radiation exposure carefully against benefit.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — DICER1 syndrome can flood a young woman with testosterone: its Sertoli-Leydig cell ovarian tumors secrete androgens, causing virilization—deepening voice, hair growth, and missed periods—a striking clue that points toward testing for the syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DICER1's most common sign is in the iodine-trapping thyroid: it drives multinodular goiter and raises thyroid cancer risk, so the gland that concentrates iodine to make hormone overgrows into nodules that warrant lifelong ultrasound screening.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — DICER1 governs how neurons mature through microRNA: the gene's miRNA-processing job lets neural progenitors differentiate, so when it fails immature neuron-like cells can persist and seed the rare embryonal brain tumors of the syndrome.
 
 ---
 
