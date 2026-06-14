@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Autism is a neurodevelopmental condition of the whole nervous system: altered synapse formation and excitation-inhibition balance during early brain development shape lifelong differences in perception, communication and behavior across many brain networks."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune system is woven into autism's origins: maternal infection and immune activation in pregnancy raise risk, and many autistic children show ongoing neuroinflammation with activated microglia—so immune signaling shapes the developing social brain."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF ties autism to synaptic wiring: this neurotrophin guides how synapses form and prune, and altered BDNF levels are reported in autism, fitting a model where mis-tuned synaptic growth—too many or too few connections—underlies the atypical brain development."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus is altered in autism: differences in its size and connectivity accompany the memory and spatial-learning quirks seen in the condition, and as a region of lifelong neurogenesis it links autism to how experience reshapes the developing brain."
 ---
 
 # Autism Spectrum Disorder
@@ -256,6 +265,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Elevated blood serotonin is autism's oldest biomarker: about a quarter of children with autism have platelet hyperserotonemia, and serotonin's role in early brain wiring links this neurotransmitter to the disorder's developmental origins, though its meaning stays unclear.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine circuits are implicated in autism's core features: altered mesolimbic dopamine signaling may underlie differences in social motivation and repetitive behaviors, and dopamine-blocking antipsychotics are the main drugs approved for autism-associated irritability.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Autism is a neurodevelopmental condition of the whole nervous system: altered synapse formation and excitation-inhibition balance during early brain development shape lifelong differences in perception, communication and behavior across many brain networks.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system is woven into autism's origins: maternal infection and immune activation in pregnancy raise risk, and many autistic children show ongoing neuroinflammation with activated microglia—so immune signaling shapes the developing social brain.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF ties autism to synaptic wiring: this neurotrophin guides how synapses form and prune, and altered BDNF levels are reported in autism, fitting a model where mis-tuned synaptic growth—too many or too few connections—underlies the atypical brain development.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is altered in autism: differences in its size and connectivity accompany the memory and spatial-learning quirks seen in the condition, and as a region of lifelong neurogenesis it links autism to how experience reshapes the developing brain.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "Binge eating disorder fuels fatty liver disease: the excess calories and weight gain promote hepatic fat accumulation, so NASH is a common metabolic consequence—linking a behavioral eating pattern to progressive liver injury through obesity."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress and cortisol fuel binge eating: HPA-axis activation and high cortisol drive craving for calorie-dense 'comfort' food, so binges often follow stress and emotional distress—making the disorder as much about stress regulation as about appetite."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome may influence binge eating: microbial signals shape appetite, reward, and mood through the gut-brain axis, and dysbiosis is being explored as both a consequence of binge patterns and a contributor to the loss of control over eating."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma underlies much binge eating: PTSD and childhood adversity are common in binge eating disorder, where food becomes a way to numb distress—so effective treatment often must address the trauma driving the emotional eating, not just the eating itself."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -251,6 +260,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Binge eating disorder drives insulin resistance and metabolic disease: recurrent large carbohydrate loads spike insulin, and the resulting weight gain worsens insulin resistance, so BED independently raises the risk of type 2 diabetes beyond obesity alone.
 - `connects-to` → **[Stimulant Use Disorder](../stimulant-use-disorder/README.md)** — Binge eating disorder shares circuitry with stimulant addiction: both involve dopamine-driven reward and impulsivity, and the only FDA-approved BED drug, lisdexamfetamine, is itself a stimulant—reducing binge frequency by curbing impulsive reward-seeking.
 - `connects-to` → **[NASH](../nash/README.md)** — Binge eating disorder fuels fatty liver disease: the excess calories and weight gain promote hepatic fat accumulation, so NASH is a common metabolic consequence—linking a behavioral eating pattern to progressive liver injury through obesity.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and cortisol fuel binge eating: HPA-axis activation and high cortisol drive craving for calorie-dense 'comfort' food, so binges often follow stress and emotional distress—making the disorder as much about stress regulation as about appetite.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome may influence binge eating: microbial signals shape appetite, reward, and mood through the gut-brain axis, and dysbiosis is being explored as both a consequence of binge patterns and a contributor to the loss of control over eating.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma underlies much binge eating: PTSD and childhood adversity are common in binge eating disorder, where food becomes a way to numb distress—so effective treatment often must address the trauma driving the emotional eating, not just the eating itself.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
