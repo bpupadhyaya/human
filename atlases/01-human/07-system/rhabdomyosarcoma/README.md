@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lung is rhabdomyosarcoma's main metastatic site: this aggressive childhood soft-tissue sarcoma spreads hematogenously to the lungs (and marrow and bone), so chest imaging stages it and pulmonary metastases mark high-risk disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Rhabdomyosarcoma can flood the bone marrow: alveolar RMS especially metastasizes to marrow so heavily it mimics acute leukemia on a blood smear, so marrow involvement is staged carefully and signals high-risk, disseminated disease."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Rhabdomyosarcoma is the malignant face of developing skeletal muscle: it shows the cross-striations and myogenic markers (MyoD, myogenin) of muscle cells, distinguishing it from tumors of cardiac muscle (cardiomyocytes) or smooth muscle."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Rhabdomyosarcoma signals through PI3K-AKT-mTOR: IGF and receptor-kinase inputs converge on mTOR to drive growth, especially in embryonal tumors, so mTOR inhibitors have been tested to add to chemotherapy in this childhood sarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -239,6 +248,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy benefits children with rhabdomyosarcoma: head-and-neck and parameningeal tumors sit near eyes, brain and growth plates, so protons' lack of exit dose limits disfigurement, cognitive harm and second cancers in young survivors.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Parameningeal rhabdomyosarcoma threatens the nervous system: tumors of the head and neck can erode the skull base and invade the meninges, causing cranial-nerve palsies and CNS spread—so this site carries a worse prognosis and needs CNS-directed treatment.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is rhabdomyosarcoma's main metastatic site: this aggressive childhood soft-tissue sarcoma spreads hematogenously to the lungs (and marrow and bone), so chest imaging stages it and pulmonary metastases mark high-risk disease.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Rhabdomyosarcoma can flood the bone marrow: alveolar RMS especially metastasizes to marrow so heavily it mimics acute leukemia on a blood smear, so marrow involvement is staged carefully and signals high-risk, disseminated disease.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Rhabdomyosarcoma is the malignant face of developing skeletal muscle: it shows the cross-striations and myogenic markers (MyoD, myogenin) of muscle cells, distinguishing it from tumors of cardiac muscle (cardiomyocytes) or smooth muscle.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Rhabdomyosarcoma signals through PI3K-AKT-mTOR: IGF and receptor-kinase inputs converge on mTOR to drive growth, especially in embryonal tumors, so mTOR inhibitors have been tested to add to chemotherapy in this childhood sarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
