@@ -95,6 +95,15 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "Endometrial cancer is the most common gynecologic malignancy: arising from the uterine lining under unopposed estrogen, it ties the reproductive system's hormone biology to cancer risk, with obesity and PCOS raising estrogen exposure."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "The reproductive system runs on thyroid hormones: too little or too much thyroid hormone disrupts menstrual cycles, lowers fertility, and raises miscarriage risk, so thyroid status is checked whenever reproduction falters."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Reproduction depends on zinc: the mineral is essential for sperm production and testosterone synthesis, and is concentrated in semen, so zinc deficiency impairs male fertility and gonadal function."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages quietly run the reproductive organs: they help rupture the follicle at ovulation, support the corpus luteum and testis steroid cells, and police the maternal-fetal interface, making immune cells essential to fertility."
 ---
 
 # Reproductive System
@@ -236,6 +245,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Smooth muscle powers the reproductive tract's movements: myometrial smooth muscle contracts to expel the fetus in labor and shed the lining in menstruation, while smooth muscle in the vas deferens and oviducts moves sperm and egg toward fertilization.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Leptin links body fat to fertility: this fat-derived hormone signals energy sufficiency to the hypothalamus, permitting the GnRH pulses that drive puberty and reproduction—so very low body fat suppresses menstruation and fertility.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Endometrial cancer is the most common gynecologic malignancy: arising from the uterine lining under unopposed estrogen, it ties the reproductive system's hormone biology to cancer risk, with obesity and PCOS raising estrogen exposure.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — The reproductive system runs on thyroid hormones: too little or too much thyroid hormone disrupts menstrual cycles, lowers fertility, and raises miscarriage risk, so thyroid status is checked whenever reproduction falters.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Reproduction depends on zinc: the mineral is essential for sperm production and testosterone synthesis, and is concentrated in semen, so zinc deficiency impairs male fertility and gonadal function.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages quietly run the reproductive organs: they help rupture the follicle at ovulation, support the corpus luteum and testis steroid cells, and police the maternal-fetal interface, making immune cells essential to fertility.
 
 ## Pathology
 

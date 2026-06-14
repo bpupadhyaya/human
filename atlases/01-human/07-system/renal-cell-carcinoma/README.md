@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lungs are RCC's favorite metastatic site: kidney cancer characteristically seeds multiple round 'cannonball' lung metastases through the bloodstream, so chest imaging is essential to staging—and lung lesions are often the first sign of spread."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Kidney cancer can fake hyperparathyroidism: RCC secretes PTH-related peptide that mimics PTH, driving paraneoplastic hypercalcemia even without bone metastases—one of the syndromes that makes RCC 'the internist's tumor.'"
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Kidney cancer is immunotherapy-sensitive yet shielded by regulatory T cells: RCC draws strong T-cell infiltrates that respond to checkpoint drugs, but Tregs in the tumor restrain them—so depleting Tregs is sought to deepen responses."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Kidney cancer is packed with tumor-associated macrophages: M2-polarized macrophages promote its angiogenesis and immune escape, and a macrophage-heavy infiltrate predicts worse outcomes in clear cell RCC."
 ---
 
 # Renal Cell Carcinoma
@@ -242,6 +251,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — Clear-cell RCC is built on the HIF-2alpha factor EPAS1: VHL loss stabilizes EPAS1, which switches on VEGF and growth genes—so the HIF-2alpha inhibitor belzutifan directly blocks this driver, a new oral therapy for VHL-related and advanced kidney cancer.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — RCC classically causes paraneoplastic hypercalcemia: tumors secrete PTH-related peptide that raises blood calcium independent of bone metastases, so unexplained hypercalcemia can be a presenting clue to an occult kidney cancer.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs are RCC's favorite metastatic site: kidney cancer characteristically seeds multiple round 'cannonball' lung metastases through the bloodstream, so chest imaging is essential to staging—and lung lesions are often the first sign of spread.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Kidney cancer can fake hyperparathyroidism: RCC secretes PTH-related peptide that mimics PTH, driving paraneoplastic hypercalcemia even without bone metastases—one of the syndromes that makes RCC 'the internist's tumor.'
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Kidney cancer is immunotherapy-sensitive yet shielded by regulatory T cells: RCC draws strong T-cell infiltrates that respond to checkpoint drugs, but Tregs in the tumor restrain them—so depleting Tregs is sought to deepen responses.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Kidney cancer is packed with tumor-associated macrophages: M2-polarized macrophages promote its angiogenesis and immune escape, and a macrophage-heavy infiltrate predicts worse outcomes in clear cell RCC.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
