@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages shape DLBCL's fate: tumor-associated macrophages and the CD47 'don't-eat-me' signal let lymphoma cells evade clearance, so blocking CD47 to unleash macrophage phagocytosis is an emerging therapeutic strategy."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "The aggressive ABC subtype of DLBCL is addicted to BTK: chronic B-cell-receptor signaling through Bruton's tyrosine kinase keeps NF-κB switched on, so BTK inhibitors like ibrutinib are aimed at this molecular subset of the lymphoma."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "DLBCL can arise in or invade the spleen: primary splenic large B-cell lymphoma and splenic involvement of nodal disease cause massive splenomegaly, so an enlarging spleen with B-symptoms can be the face of this aggressive lymphoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "DLBCL is increasingly attacked with NK-cell therapy: beyond CAR-T against CD19, engineered NK cells and antibodies that engage NK killing are being developed to clear large B-cell lymphoma, harnessing innate cytotoxicity."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -245,6 +254,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — DLBCL is a triumph of T-cell therapy: CD19-directed CAR-T cells re-engineer the patient's cytotoxic T cells to kill the lymphoma, curing many with relapsed disease—so T cells are now a frontline weapon against this most common aggressive lymphoma.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — DLBCL is the commonest extranodal lymphoma of the stomach: it can arise there directly or transform from indolent gastric MALT lymphoma, so a stomach mass or ulcer that is lymphoma, not carcinoma, changes treatment entirely toward chemo-immunotherapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages shape DLBCL's fate: tumor-associated macrophages and the CD47 'don't-eat-me' signal let lymphoma cells evade clearance, so blocking CD47 to unleash macrophage phagocytosis is an emerging therapeutic strategy.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — The aggressive ABC subtype of DLBCL is addicted to BTK: chronic B-cell-receptor signaling through Bruton's tyrosine kinase keeps NF-κB switched on, so BTK inhibitors like ibrutinib are aimed at this molecular subset of the lymphoma.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — DLBCL can arise in or invade the spleen: primary splenic large B-cell lymphoma and splenic involvement of nodal disease cause massive splenomegaly, so an enlarging spleen with B-symptoms can be the face of this aggressive lymphoma.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — DLBCL is increasingly attacked with NK-cell therapy: beyond CAR-T against CD19, engineered NK cells and antibodies that engage NK killing are being developed to clear large B-cell lymphoma, harnessing innate cytotoxicity.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

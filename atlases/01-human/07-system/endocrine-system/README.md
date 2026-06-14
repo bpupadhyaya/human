@@ -95,6 +95,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Fat is an endocrine organ, and obesity disrupts it: adipose tissue secretes leptin, adiponectin, and estrogen, so excess fat rewires hormonal signaling—driving insulin resistance, reproductive disturbance, and hormone-sensitive cancers."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "The endocrine system depends on dietary iodine: the thyroid traps iodine to build thyroid hormones that set the body's metabolic rate, so iodine deficiency produces goiter and hypothyroidism—a mineral shortage with system-wide hormonal consequences."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "The endocrine system runs on feedback loops like ACTH's: the pituitary releases ACTH to drive adrenal cortisol, which loops back to shut off ACTH—the kind of hormonal thermostat that keeps every endocrine axis in balance."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "The gut is an endocrine organ too, via ghrelin: the stomach releases ghrelin before meals to signal hunger to the brain, showing the endocrine system reaches into the digestive tract—not just the classic hormone glands."
 ---
 
 # Endocrine System
@@ -281,6 +290,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The pineal gland completes the endocrine system with melatonin: this hormone translates darkness into a sleep-timing signal, so the endocrine system governs not just metabolism and growth but the body's daily clock.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a hidden endocrine organ: it secretes erythropoietin to drive red-cell production, renin to control blood pressure, and activates vitamin D, so kidney failure causes anemia, hypertension, and bone disease through lost hormones.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Fat is an endocrine organ, and obesity disrupts it: adipose tissue secretes leptin, adiponectin, and estrogen, so excess fat rewires hormonal signaling—driving insulin resistance, reproductive disturbance, and hormone-sensitive cancers.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — The endocrine system depends on dietary iodine: the thyroid traps iodine to build thyroid hormones that set the body's metabolic rate, so iodine deficiency produces goiter and hypothyroidism—a mineral shortage with system-wide hormonal consequences.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — The endocrine system runs on feedback loops like ACTH's: the pituitary releases ACTH to drive adrenal cortisol, which loops back to shut off ACTH—the kind of hormonal thermostat that keeps every endocrine axis in balance.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — The gut is an endocrine organ too, via ghrelin: the stomach releases ghrelin before meals to signal hunger to the brain, showing the endocrine system reaches into the digestive tract—not just the classic hormone glands.
 
 ## Pathology
 
