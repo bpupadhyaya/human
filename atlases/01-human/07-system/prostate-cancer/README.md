@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Prostate cancer is an immunologically 'cold' tumor: it has few mutations and poor T-cell infiltration, so checkpoint inhibitors largely fail, and sipuleucel-T—a vaccine priming cytotoxic T cells against prostate antigen—remains one of the few working immunotherapies."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "Prostate cancer with ATM or BRCA defects is PARP-sensitive: like BRCA, ATM loss impairs DNA repair, marking metastatic tumors that respond to PARP inhibitors—so guideline testing of homologous-recombination genes now guides therapy."
+  - target: 01-human/07-system/neuroendocrine-tumors
+    relation: connects-to
+    note: "Prostate cancer can escape hormone therapy by turning neuroendocrine: under prolonged androgen blockade, some tumors transdifferentiate into aggressive, AR-independent neuroendocrine prostate cancer—a treatment-emergent resistance resembling small-cell cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Prostate cancer makes bone in its metastases: unusually, its bone deposits are osteoblastic (bone-forming) rather than lytic, and the calcium-seeking alpha-emitter radium-223 homes to these lesions to deliver targeted radiation and prolong life."
 ---
 
 # Prostate Cancer
@@ -250,6 +259,9 @@ cross_links:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver metastasis marks aggressive prostate cancer: though bone is the usual target, spread to the liver (and other viscera) signals a more lethal, often treatment-resistant or neuroendocrine phenotype—so visceral metastases carry worse prognosis than bone-only disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Prostate cancer can also seed the lung: less common than bone metastasis, pulmonary spread reflects hematogenous dissemination of advanced disease, so chest imaging in progressive castration-resistant cancer can reveal visceral metastases that change treatment.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Prostate cancer is an immunologically 'cold' tumor: it has few mutations and poor T-cell infiltration, so checkpoint inhibitors largely fail, and sipuleucel-T—a vaccine priming cytotoxic T cells against prostate antigen—remains one of the few working immunotherapies.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Prostate cancer with ATM or BRCA defects is PARP-sensitive: like BRCA, ATM loss impairs DNA repair, marking metastatic tumors that respond to PARP inhibitors—so guideline testing of homologous-recombination genes now guides therapy.
+- `connects-to` → **[Neuroendocrine Tumors](../neuroendocrine-tumors/README.md)** — Prostate cancer can escape hormone therapy by turning neuroendocrine: under prolonged androgen blockade, some tumors transdifferentiate into aggressive, AR-independent neuroendocrine prostate cancer—a treatment-emergent resistance resembling small-cell cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Prostate cancer makes bone in its metastases: unusually, its bone deposits are osteoblastic (bone-forming) rather than lytic, and the calcium-seeking alpha-emitter radium-223 homes to these lesions to deliver targeted radiation and prolong life.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

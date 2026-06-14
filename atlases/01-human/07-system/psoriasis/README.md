@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Psoriasis carries a heavy mental-health toll: visible plaques, stigma, and chronic inflammation roughly double the risk of depression and suicidal thoughts, so screening for depression is part of good psoriasis care—and clearing skin often lifts mood."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "Oral JAK and TYK2 inhibitors now treat psoriasis: blocking JAK-family signaling downstream of IL-23 and other cytokines (e.g., deucravacitinib targeting TYK2) controls plaques without injections, extending the IL-23/IL-17-targeted revolution to pills."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Psoriasis and fatty-liver disease travel together: shared systemic inflammation and metabolic syndrome raise the risk of MASH in psoriasis patients, part of why psoriasis is now seen as a systemic inflammatory disease, not just skin-deep."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Psoriasis plaques recur in the same spots because of cytotoxic T cells: epidermal resident-memory CD8 T cells persist after lesions clear, forming a 'disease memory' that reignites plaques at old sites—why the disease relapses where it was."
 ---
 
 # Psoriasis
@@ -238,6 +247,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark the psoriatic plaque: they swarm into the epidermis to form Munro microabscesses, and in pustular psoriasis they fill visible pustules—so although T cells drive the disease, neutrophils are its histologic signature and dominate its pustular forms.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Strep throat can ignite psoriasis: streptococcal infection classically triggers guttate psoriasis, especially in children, as bacterial superantigens activate T cells that cross-react with skin—one of the clearest infection-to-autoimmunity links in dermatology.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Psoriasis carries a heavy mental-health toll: visible plaques, stigma, and chronic inflammation roughly double the risk of depression and suicidal thoughts, so screening for depression is part of good psoriasis care—and clearing skin often lifts mood.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Oral JAK and TYK2 inhibitors now treat psoriasis: blocking JAK-family signaling downstream of IL-23 and other cytokines (e.g., deucravacitinib targeting TYK2) controls plaques without injections, extending the IL-23/IL-17-targeted revolution to pills.
+- `connects-to` → **[NASH](../nash/README.md)** — Psoriasis and fatty-liver disease travel together: shared systemic inflammation and metabolic syndrome raise the risk of MASH in psoriasis patients, part of why psoriasis is now seen as a systemic inflammatory disease, not just skin-deep.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Psoriasis plaques recur in the same spots because of cytotoxic T cells: epidermal resident-memory CD8 T cells persist after lesions clear, forming a 'disease memory' that reignites plaques at old sites—why the disease relapses where it was.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
