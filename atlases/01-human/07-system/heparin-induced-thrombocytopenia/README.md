@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils amplify the thrombosis of HIT: activated by anti-PF4 immune complexes, they release neutrophil extracellular traps (NETs) that provide a scaffold for clot formation—linking HIT to the same NET-driven immunothrombosis seen in VITT and severe COVID."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "The serotonin release assay confirms HIT: activated platelets dump their serotonin stores, so measuring heparin-dependent serotonin release from donor platelets is the gold-standard functional test distinguishing true HIT from harmless anti-PF4 antibodies."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "HIT can announce itself in the skin: heparin injection sites may develop painful necrotic lesions from local thrombosis, a recognized skin sign of the paradoxical clotting that defines the syndrome despite falling platelets."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "HIT's anti-PF4/heparin antibodies arise with T-helper-cell support: helper T cells license B cells to produce the pathogenic IgG, an unusually rapid immune response that can recur on heparin re-exposure."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -267,6 +276,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — HIT is driven by B-cell antibodies: B cells rapidly make IgG against platelet-factor-4/heparin complexes, and these antibodies cross-link platelet Fc receptors to trigger the paradoxical clotting—so the culprit is a transient, T-independent antibody response.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen helps cause HIT's low platelet count: its macrophages clear antibody-coated platelets from the circulation, so even as clots form, platelet numbers fall—the 'thrombocytopenia with thrombosis' paradox that defines the syndrome.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils amplify the thrombosis of HIT: activated by anti-PF4 immune complexes, they release neutrophil extracellular traps (NETs) that provide a scaffold for clot formation—linking HIT to the same NET-driven immunothrombosis seen in VITT and severe COVID.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — The serotonin release assay confirms HIT: activated platelets dump their serotonin stores, so measuring heparin-dependent serotonin release from donor platelets is the gold-standard functional test distinguishing true HIT from harmless anti-PF4 antibodies.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HIT can announce itself in the skin: heparin injection sites may develop painful necrotic lesions from local thrombosis, a recognized skin sign of the paradoxical clotting that defines the syndrome despite falling platelets.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — HIT's anti-PF4/heparin antibodies arise with T-helper-cell support: helper T cells license B cells to produce the pathogenic IgG, an unusually rapid immune response that can recur on heparin re-exposure.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

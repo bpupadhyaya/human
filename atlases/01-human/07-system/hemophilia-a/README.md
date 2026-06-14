@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Bleeding in hemophilia A drains red cells: recurrent joint and muscle bleeds, plus dangerous internal hemorrhage, cause iron-deficiency or acute anemia, so falling hemoglobin and the need for transfusion track the severity of uncontrolled bleeding."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium is the silent partner of the clotting cascade hemophilia disrupts: as coagulation Factor IV, calcium ions are needed to assemble the tenase and prothrombinase complexes—so clotting depends on calcium, and citrate that binds it blocks coagulation in stored blood."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The feared complication of hemophilia A is inhibitors, driven by T-helper cells: in some patients, helper T cells license B cells to make anti-Factor-VIII antibodies that neutralize replacement therapy, forcing bypassing agents or immune tolerance induction."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Repeated joint bleeds in hemophilia damage joints through macrophages: blood in the joint loads synovial macrophages with iron, driving inflammatory synovitis that erodes cartilage—the hemophilic arthropathy that prophylactic factor aims to prevent."
 ---
 
 # Hemophilia A
@@ -244,6 +253,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hemophilia A is X-linked: the factor VIII gene sits on the X chromosome, so it overwhelmingly affects males while carrier mothers pass it on—making family history, carrier testing, and genetic counseling central to the reproductive side of the disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system is hemophilia A's biggest treatment hurdle: some patients form neutralizing antibodies (inhibitors) against infused factor VIII, making replacement fail—so immune tolerance regimens and inhibitor-bypassing agents like emicizumab are needed.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bleeding in hemophilia A drains red cells: recurrent joint and muscle bleeds, plus dangerous internal hemorrhage, cause iron-deficiency or acute anemia, so falling hemoglobin and the need for transfusion track the severity of uncontrolled bleeding.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the silent partner of the clotting cascade hemophilia disrupts: as coagulation Factor IV, calcium ions are needed to assemble the tenase and prothrombinase complexes—so clotting depends on calcium, and citrate that binds it blocks coagulation in stored blood.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The feared complication of hemophilia A is inhibitors, driven by T-helper cells: in some patients, helper T cells license B cells to make anti-Factor-VIII antibodies that neutralize replacement therapy, forcing bypassing agents or immune tolerance induction.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Repeated joint bleeds in hemophilia damage joints through macrophages: blood in the joint loads synovial macrophages with iron, driving inflammatory synovitis that erodes cartilage—the hemophilic arthropathy that prophylactic factor aims to prevent.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
