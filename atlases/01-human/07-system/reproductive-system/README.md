@@ -86,6 +86,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "The breast is the reproductive system's milk-producing organ and a major cancer site: estrogen and progesterone drive its development and cyclical changes, and these same hormones fuel most breast cancers—tying reproductive hormones to the commonest female cancer."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Smooth muscle powers the reproductive tract's movements: myometrial smooth muscle contracts to expel the fetus in labor and shed the lining in menstruation, while smooth muscle in the vas deferens and oviducts moves sperm and egg toward fertilization."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Leptin links body fat to fertility: this fat-derived hormone signals energy sufficiency to the hypothalamus, permitting the GnRH pulses that drive puberty and reproduction—so very low body fat suppresses menstruation and fertility."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Endometrial cancer is the most common gynecologic malignancy: arising from the uterine lining under unopposed estrogen, it ties the reproductive system's hormone biology to cancer risk, with obesity and PCOS raising estrogen exposure."
 ---
 
 # Reproductive System
@@ -224,6 +233,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin governs the reproductive system's lactation and fertility: it drives milk production and, when excessive (prolactinoma), suppresses the GnRH-LH/FSH axis causing infertility and amenorrhea—so the pituitary hormone links the brain to reproduction.
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV is the reproductive system's major oncogenic infection: sexually transmitted high-risk types cause cervical, vulvar, penile and anal cancers, so this virus turns a reproductive-tract infection into cancer—now largely preventable by vaccination.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The breast is the reproductive system's milk-producing organ and a major cancer site: estrogen and progesterone drive its development and cyclical changes, and these same hormones fuel most breast cancers—tying reproductive hormones to the commonest female cancer.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Smooth muscle powers the reproductive tract's movements: myometrial smooth muscle contracts to expel the fetus in labor and shed the lining in menstruation, while smooth muscle in the vas deferens and oviducts moves sperm and egg toward fertilization.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Leptin links body fat to fertility: this fat-derived hormone signals energy sufficiency to the hypothalamus, permitting the GnRH pulses that drive puberty and reproduction—so very low body fat suppresses menstruation and fertility.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Endometrial cancer is the most common gynecologic malignancy: arising from the uterine lining under unopposed estrogen, it ties the reproductive system's hormone biology to cancer risk, with obesity and PCOS raising estrogen exposure.
 
 ## Pathology
 
