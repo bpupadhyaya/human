@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Rhabdomyosarcoma is infiltrated by tumor-associated macrophages: these cells populate the sarcoma's stroma and promote growth and immune escape, and a macrophage-rich infiltrate is linked to worse outcomes in this childhood cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia makes rhabdomyosarcoma more aggressive: the fast-growing muscle sarcoma outpaces its blood supply, and low oxygen drives invasion, metastasis and resistance, contributing to its tendency to spread to the lungs."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Parameningeal rhabdomyosarcoma threatens the brain: tumors near the skull base and meninges can invade the central nervous system directly, a high-risk location that demands intensive radiation and CNS-directed treatment."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Rhabdomyosarcoma largely evades cytotoxic T cells: with few mutations and an immunosuppressive microenvironment it resists checkpoint drugs, so engineered T-cell therapies are explored to direct killing at this childhood sarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -263,6 +272,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Embryonal rhabdomyosarcoma is often RAS-driven: unlike the fusion-positive alveolar type, embryonal RMS frequently carries NRAS/KRAS mutations that switch on RAS-MAPK growth, defining a biologically distinct, generally better-prognosis subtype.
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Rhabdomyosarcoma can run on Hedgehog through SMO: embryonal RMS often shows Hedgehog pathway activation, and Gorlin-syndrome patients are prone to it, so smoothened-driven signaling is a developmental pathway hijacked by this muscle cancer.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Rhabdomyosarcoma is infiltrated by tumor-associated macrophages: these cells populate the sarcoma's stroma and promote growth and immune escape, and a macrophage-rich infiltrate is linked to worse outcomes in this childhood cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia makes rhabdomyosarcoma more aggressive: the fast-growing muscle sarcoma outpaces its blood supply, and low oxygen drives invasion, metastasis and resistance, contributing to its tendency to spread to the lungs.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Parameningeal rhabdomyosarcoma threatens the brain: tumors near the skull base and meninges can invade the central nervous system directly, a high-risk location that demands intensive radiation and CNS-directed treatment.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Rhabdomyosarcoma largely evades cytotoxic T cells: with few mutations and an immunosuppressive microenvironment it resists checkpoint drugs, so engineered T-cell therapies are explored to direct killing at this childhood sarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

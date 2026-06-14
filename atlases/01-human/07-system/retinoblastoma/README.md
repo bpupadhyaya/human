@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Retinoblastoma recruits tumor-associated macrophages: these infiltrating immune cells populate the tumor and may support its growth and survival, making the eye tumor's immune microenvironment a subject of study for new therapies."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium gives retinoblastoma away on imaging: the tumor characteristically calcifies, so flecks of calcium within an eye mass on ultrasound or CT are a key diagnostic clue in a child with leukocoria (white pupil)."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Retinoblastoma is being opened to cytotoxic T cells: long treated by local and chemo approaches, it is now studied for immunotherapy, with engineered T cells explored to attack the eye tumor and spare vision where possible."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Retinoblastoma can spread through the blood to the liver: beyond optic-nerve and CNS extension, hematogenous metastasis seeds organs including the liver, a sign of advanced disease that shifts treatment to intensive systemic therapy."
 ---
 
 # Retinoblastoma
@@ -248,6 +257,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Retinoblastoma can become 'trilateral' in the melatonin-making pineal gland: germline RB1 carriers develop pineoblastoma, a tumor of the pineal—the brain's light-sensing, melatonin-secreting organ—mirroring the eye's photoreceptor cancer.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Retinoblastoma is a vascular tumor treated through its blood supply: it expresses VEGF to grow vessels, and chemotherapy delivered straight into the ophthalmic artery (with anti-angiogenic strategies) targets the tumor while sparing the eye.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Retinoblastoma recruits tumor-associated macrophages: these infiltrating immune cells populate the tumor and may support its growth and survival, making the eye tumor's immune microenvironment a subject of study for new therapies.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium gives retinoblastoma away on imaging: the tumor characteristically calcifies, so flecks of calcium within an eye mass on ultrasound or CT are a key diagnostic clue in a child with leukocoria (white pupil).
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Retinoblastoma is being opened to cytotoxic T cells: long treated by local and chemo approaches, it is now studied for immunotherapy, with engineered T cells explored to attack the eye tumor and spare vision where possible.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Retinoblastoma can spread through the blood to the liver: beyond optic-nerve and CNS extension, hematogenous metastasis seeds organs including the liver, a sign of advanced disease that shifts treatment to intensive systemic therapy.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
