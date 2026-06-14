@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "TP53 loss drives aggressive rhabdomyosarcoma: as part of Li-Fraumeni and acquired in sporadic tumors, p53 inactivation removes the damage checkpoint and worsens prognosis—linking RMS to the broader sarcoma-prone genome-guardian network."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy benefits children with rhabdomyosarcoma: head-and-neck and parameningeal tumors sit near eyes, brain and growth plates, so protons' lack of exit dose limits disfigurement, cognitive harm and second cancers in young survivors."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Parameningeal rhabdomyosarcoma threatens the nervous system: tumors of the head and neck can erode the skull base and invade the meninges, causing cranial-nerve palsies and CNS spread—so this site carries a worse prognosis and needs CNS-directed treatment."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is rhabdomyosarcoma's main metastatic site: this aggressive childhood soft-tissue sarcoma spreads hematogenously to the lungs (and marrow and bone), so chest imaging stages it and pulmonary metastases mark high-risk disease."
 ---
 
 # Rhabdomyosarcoma
@@ -227,6 +236,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Neurofibromatosis Type 1](../neurofibromatosis-type-1/README.md)** — NF1 raises rhabdomyosarcoma risk: RAS-pathway overactivity from neurofibromin loss predisposes to this muscle-lineage sarcoma, so RMS in a child can be a clue to neurofibromatosis—one of several cancer syndromes (Li-Fraumeni, DICER1, Noonan) linked to RMS.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Rhabdomyosarcoma is a soft-tissue sarcoma of skeletal-muscle lineage: its primitive mesenchymal cells, related to fibroblasts, attempt myogenic differentiation (desmin, myogenin) yet never mature—so it is diagnosed by muscle markers despite a spindle/round-cell look.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 loss drives aggressive rhabdomyosarcoma: as part of Li-Fraumeni and acquired in sporadic tumors, p53 inactivation removes the damage checkpoint and worsens prognosis—linking RMS to the broader sarcoma-prone genome-guardian network.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy benefits children with rhabdomyosarcoma: head-and-neck and parameningeal tumors sit near eyes, brain and growth plates, so protons' lack of exit dose limits disfigurement, cognitive harm and second cancers in young survivors.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Parameningeal rhabdomyosarcoma threatens the nervous system: tumors of the head and neck can erode the skull base and invade the meninges, causing cranial-nerve palsies and CNS spread—so this site carries a worse prognosis and needs CNS-directed treatment.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is rhabdomyosarcoma's main metastatic site: this aggressive childhood soft-tissue sarcoma spreads hematogenously to the lungs (and marrow and bone), so chest imaging stages it and pulmonary metastases mark high-risk disease.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

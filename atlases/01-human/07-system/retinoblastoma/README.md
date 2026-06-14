@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Hereditary retinoblastoma survivors face lifelong second-cancer risk: germline RB1 loss predisposes to sarcomas, melanoma and later epithelial cancers (worsened by past radiotherapy)—and RB1 is itself lost in many breast cancers, tying the genes together."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy is preferred when retinoblastoma needs external radiation: in heritable RB1 patients, who are highly prone to radiation-induced second cancers, protons' sharp dose falloff spares orbital bone and brain, lowering that lifelong risk."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Retinoblastoma is a tumor of the developing nervous system's retina: arising from retinal precursor cells, heritable RB1 loss can also produce an intracranial pineal tumor ('trilateral retinoblastoma'), so the eye lesion is part of a broader neural predisposition."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Retinoblastoma names the master cell-cycle brake that CDKN2A protects: RB1 loss removes the restraint on E2F that CDKN2A's p16 normally reinforces, so the two tumor-suppressors guard the same G1/S checkpoint that, when broken, unleashes cancer."
 ---
 
 # Retinoblastoma
@@ -212,6 +221,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Retinoblastoma is the namesake of the RB-CDK4/6 cell-cycle brake: the RB protein normally blocks CDK4/6-cyclin D from pushing cells past the G1 checkpoint, so its loss removes that brake—the same axis CDK4/6 inhibitors restore in other RB-intact cancers.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Advanced retinoblastoma spreads to the bone marrow and CNS: untreated, it extends along the optic nerve into the brain and disseminates to marrow, so metastatic workup and intrathecal/systemic therapy are added when the tumor breaches the eye.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Hereditary retinoblastoma survivors face lifelong second-cancer risk: germline RB1 loss predisposes to sarcomas, melanoma and later epithelial cancers (worsened by past radiotherapy)—and RB1 is itself lost in many breast cancers, tying the genes together.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is preferred when retinoblastoma needs external radiation: in heritable RB1 patients, who are highly prone to radiation-induced second cancers, protons' sharp dose falloff spares orbital bone and brain, lowering that lifelong risk.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Retinoblastoma is a tumor of the developing nervous system's retina: arising from retinal precursor cells, heritable RB1 loss can also produce an intracranial pineal tumor ('trilateral retinoblastoma'), so the eye lesion is part of a broader neural predisposition.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Retinoblastoma names the master cell-cycle brake that CDKN2A protects: RB1 loss removes the restraint on E2F that CDKN2A's p16 normally reinforces, so the two tumor-suppressors guard the same G1/S checkpoint that, when broken, unleashes cancer.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
