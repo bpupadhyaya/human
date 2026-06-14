@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Dengue enlarges and endangers the spleen: viral replication and immune activation swell the organ, and in rare cases the engorged spleen ruptures—a life-threatening bleed to consider in a dengue patient with sudden abdominal pain."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Severe dengue acidifies the blood: massive plasma leakage drops blood pressure into dengue shock, and the underperfused tissues generate lactic acid, so metabolic acidosis is a marker of the dangerous phase."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Dengue can invade the brain: beyond the classic fever, severe disease causes encephalitis and encephalopathy with seizures and altered consciousness, part of the expanded dengue syndrome."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells meet dengue early: they mount a rapid antiviral attack in the first days of infection, and the strength of this innate response helps shape whether the illness stays mild or turns severe."
 ---
 
 # Dengue Fever
@@ -259,3 +268,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Severe dengue leaks plasma via VEGF: the virus and the immune response drive VEGF that loosens the junctions between endothelial cells, so fluid escapes the vessels into tissues—the plasma leakage behind dengue shock syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Dengue often drops blood sodium: plasma leakage, vomiting and fluid shifts cause hyponatremia, a common electrolyte disturbance in severe disease that worsens confusion and must be corrected carefully during fluid resuscitation.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Dengue enlarges and endangers the spleen: viral replication and immune activation swell the organ, and in rare cases the engorged spleen ruptures—a life-threatening bleed to consider in a dengue patient with sudden abdominal pain.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Severe dengue acidifies the blood: massive plasma leakage drops blood pressure into dengue shock, and the underperfused tissues generate lactic acid, so metabolic acidosis is a marker of the dangerous phase.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Dengue can invade the brain: beyond the classic fever, severe disease causes encephalitis and encephalopathy with seizures and altered consciousness, part of the expanded dengue syndrome.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells meet dengue early: they mount a rapid antiviral attack in the first days of infection, and the strength of this innate response helps shape whether the illness stays mild or turns severe.

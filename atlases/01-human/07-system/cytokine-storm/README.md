@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils amplify the cytokine storm: recruited en masse, they release enzymes, oxidants and NETs that damage tissue and trigger still more cytokines, turning the innate response into part of the runaway inflammatory loop."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "A cytokine storm acidifies the blood: the shock and tissue hypoperfusion it causes starve cells of oxygen, so they pour out lactic acid and blood pH falls—a metabolic acidosis marking the slide into multi-organ failure."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Cytokine storm can turn the marrow on itself: in HLH and macrophage activation syndrome, overactivated macrophages devour blood cells in the bone marrow (hemophagocytosis), the defining lesion of this extreme inflammatory state."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Cytokine storm consumes platelets: runaway clotting and inflammation use them up, so the falling platelet count, with rising DIC, is an early warning that the storm is damaging the blood and vessels."
 ---
 
 # Cytokine Storm
@@ -238,6 +247,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cytokine storm suffocates patients through the lungs: the flood of cytokines makes lung capillaries leak, filling air sacs with fluid in ARDS so oxygen cannot cross, the hypoxemic respiratory failure that kills in severe COVID and sepsis.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cytokine storm can stun the heart: high TNF and IL-6 directly depress the heart muscle, so even without infection of the heart, the inflammatory surge causes a cardiomyopathy that deepens shock and organ failure.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils amplify the cytokine storm: recruited en masse, they release enzymes, oxidants and NETs that damage tissue and trigger still more cytokines, turning the innate response into part of the runaway inflammatory loop.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — A cytokine storm acidifies the blood: the shock and tissue hypoperfusion it causes starve cells of oxygen, so they pour out lactic acid and blood pH falls—a metabolic acidosis marking the slide into multi-organ failure.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Cytokine storm can turn the marrow on itself: in HLH and macrophage activation syndrome, overactivated macrophages devour blood cells in the bone marrow (hemophagocytosis), the defining lesion of this extreme inflammatory state.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Cytokine storm consumes platelets: runaway clotting and inflammation use them up, so the falling platelet count, with rising DIC, is an early warning that the storm is damaging the blood and vessels.
 
 ## Pathology
 
