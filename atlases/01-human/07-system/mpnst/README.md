@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "MPNST relies on VEGF-driven angiogenesis: like other aggressive sarcomas it secretes VEGF to vascularize its fast-growing mass, so anti-angiogenic tyrosine-kinase inhibitors are among the systemic options for this chemoresistant tumor."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "MPNST runs on the RAS-PI3K-mTOR axis: NF1 loss unleashes RAS, which fires PI3K-AKT-mTOR to drive growth, so mTOR inhibitors (often combined with MEK blockade) are tested against a sarcoma that resists standard chemotherapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages crowd MPNST and its precursor: plexiform neurofibromas are rich in macrophages and mast cells that feed an inflammatory niche promoting growth and malignant transformation, making this immune microenvironment a target."
+  - target: 01-human/07-system/neurofibromatosis-type-2
+    relation: connects-to
+    note: "NF1 and NF2 split the nerve-tumor risk: NF1's neurofibromas can transform into MPNST, while NF2 instead causes schwannomas and meningiomas that rarely turn malignant—so the two syndromes demand different surveillance for nerve cancers."
 ---
 
 # MPNST
@@ -243,6 +252,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy helps treat MPNST, a radioresistant sarcoma: arising along nerves often near the spine or skull base, MPNST needs high radiation doses, so protons' sharp dose falloff allows dose escalation while sparing the spinal cord and nearby organs.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — MPNST is the malignant sarcoma of the peripheral nervous system: it arises from nerve-sheath (Schwann) cells, often from a pre-existing neurofibroma in NF1, so rapid growth or new pain in a neurofibroma signals possible malignant transformation.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MPNST relies on VEGF-driven angiogenesis: like other aggressive sarcomas it secretes VEGF to vascularize its fast-growing mass, so anti-angiogenic tyrosine-kinase inhibitors are among the systemic options for this chemoresistant tumor.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — MPNST runs on the RAS-PI3K-mTOR axis: NF1 loss unleashes RAS, which fires PI3K-AKT-mTOR to drive growth, so mTOR inhibitors (often combined with MEK blockade) are tested against a sarcoma that resists standard chemotherapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages crowd MPNST and its precursor: plexiform neurofibromas are rich in macrophages and mast cells that feed an inflammatory niche promoting growth and malignant transformation, making this immune microenvironment a target.
+- `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — NF1 and NF2 split the nerve-tumor risk: NF1's neurofibromas can transform into MPNST, while NF2 instead causes schwannomas and meningiomas that rarely turn malignant—so the two syndromes demand different surveillance for nerve cancers.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
