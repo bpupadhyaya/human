@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "Anemia of chronic disease lowers hemoglobin without true iron lack: locked-away iron starves developing red cells, so each carries less hemoglobin, giving the mild normocytic anemia that ferritin (high here) helps tell apart from iron deficiency."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Anemia of chronic disease starts at the gut: inflammation's hepcidin destroys ferroportin on the small intestine's iron-exporting cells, so dietary iron is absorbed but trapped in the lining, never reaching the blood—why oral iron often fails here."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Chronic anemia makes the heart work overtime: with less hemoglobin to carry oxygen, the heart pumps faster and harder, so in older or already-strained hearts this anemia can tip toward high-output failure and worsen heart disease."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Interferon-gamma helps lock iron away in chronic disease: this Th1 cytokine, high in chronic infections like TB, drives macrophages to hoard iron and blunts red-cell production, deepening the anemia of inflammation."
 ---
 
 # Anemia of Chronic Disease
@@ -275,6 +284,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Anemia of chronic disease starves tissues of oxygen: with fewer red cells the blood carries less oxygen, and the body senses the hypoxia and tries to compensate, though inflammation blunts the usual erythropoietin rise that would restore delivery.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney's anemia signal is blunted in chronic disease: kidneys make erythropoietin in response to low oxygen, but inflammatory cytokines dull both the hormone's output and the marrow's response, a key reason the anemia persists.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Anemia of chronic disease lowers hemoglobin without true iron lack: locked-away iron starves developing red cells, so each carries less hemoglobin, giving the mild normocytic anemia that ferritin (high here) helps tell apart from iron deficiency.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Anemia of chronic disease starts at the gut: inflammation's hepcidin destroys ferroportin on the small intestine's iron-exporting cells, so dietary iron is absorbed but trapped in the lining, never reaching the blood—why oral iron often fails here.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Chronic anemia makes the heart work overtime: with less hemoglobin to carry oxygen, the heart pumps faster and harder, so in older or already-strained hearts this anemia can tip toward high-output failure and worsen heart disease.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Interferon-gamma helps lock iron away in chronic disease: this Th1 cytokine, high in chronic infections like TB, drives macrophages to hoard iron and blunts red-cell production, deepening the anemia of inflammation.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
