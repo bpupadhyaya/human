@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Intraplaque hemorrhage accelerates atherosclerosis: leaky new vessels bleed red cells into the plaque, dumping cholesterol-rich membranes and iron that enlarge the lipid core and destabilize it—turning a quiet plaque into a dangerous one."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Atherosclerosis is dangerous because it cuts off oxygen: narrowed arteries throttle blood flow so tissue demand outstrips supply, causing the angina, claudication and—on plaque rupture—the infarction that kills oxygen-starved muscle."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "Atherosclerosis turns deadly when thrombin fires: a ruptured plaque exposes tissue that triggers the clotting cascade, and thrombin builds the clot that abruptly blocks the artery—the final step to heart attack and stroke."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Atherosclerosis attacks the kidney's arteries: narrowing of the renal artery (renovascular disease) lowers kidney blood flow, driving resistant hypertension and progressive kidney damage, so the disease is both a cause and a victim of vascular aging."
 ---
 
 # Atherosclerosis
@@ -257,6 +266,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — An atherosclerotic plaque lives or dies by its collagen cap: smooth muscle lays down a collagen-rich fibrous cap that, when thick, keeps the plaque stable, but when thinned by inflammation it ruptures—triggering the clot of a heart attack or stroke.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Atherosclerosis is an immune disease involving cytotoxic T cells: CD8 T cells infiltrate plaques and can kill the cells that stabilize them, adding adaptive immunity to the macrophage-driven inflammation behind plaque progression.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Intraplaque hemorrhage accelerates atherosclerosis: leaky new vessels bleed red cells into the plaque, dumping cholesterol-rich membranes and iron that enlarge the lipid core and destabilize it—turning a quiet plaque into a dangerous one.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Atherosclerosis is dangerous because it cuts off oxygen: narrowed arteries throttle blood flow so tissue demand outstrips supply, causing the angina, claudication and—on plaque rupture—the infarction that kills oxygen-starved muscle.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Atherosclerosis turns deadly when thrombin fires: a ruptured plaque exposes tissue that triggers the clotting cascade, and thrombin builds the clot that abruptly blocks the artery—the final step to heart attack and stroke.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Atherosclerosis attacks the kidney's arteries: narrowing of the renal artery (renovascular disease) lowers kidney blood flow, driving resistant hypertension and progressive kidney damage, so the disease is both a cause and a victim of vascular aging.
 
 ---
 

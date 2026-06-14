@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Aplastic anemia typically spares the spleen: unlike many causes of low blood counts, it produces pancytopenia without splenomegaly, so an enlarged spleen argues against aplastic anemia and points to infiltration or hypersplenism instead."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-alpha joins interferon-gamma in suppressing the marrow in aplastic anemia: these Th1 cytokines from autoreactive T cells poison blood-forming stem cells, which is why immunosuppression—not just transfusion—is central to treating the disease."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells are part of aplastic anemia's misdirected attack: alongside cytotoxic T cells, dysregulated innate lymphocytes help destroy the marrow's stem cells, deepening the pancytopenia that defines the disease."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Aplastic anemia starves tissues of oxygen: with red cell production shut down, hemoglobin falls and the blood carries less oxygen, causing the fatigue and breathlessness that, with bleeding and infection, mark the failing marrow."
 ---
 
 # Aplastic Anemia
@@ -248,6 +257,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion-dependent aplastic anemia accumulates iron: regular red-cell transfusions for the pancytopenia deposit iron in the heart and liver, so iron chelation is needed in patients who depend on transfusions long-term.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Aplastic anemia is treated by calming T cells via calcineurin: cyclosporine, a calcineurin inhibitor, with anti-thymocyte globulin suppresses the T-cell attack on marrow stem cells—the immunosuppressive therapy that restores blood counts when transplant isn't an option.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Aplastic anemia typically spares the spleen: unlike many causes of low blood counts, it produces pancytopenia without splenomegaly, so an enlarged spleen argues against aplastic anemia and points to infiltration or hypersplenism instead.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha joins interferon-gamma in suppressing the marrow in aplastic anemia: these Th1 cytokines from autoreactive T cells poison blood-forming stem cells, which is why immunosuppression—not just transfusion—is central to treating the disease.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are part of aplastic anemia's misdirected attack: alongside cytotoxic T cells, dysregulated innate lymphocytes help destroy the marrow's stem cells, deepening the pancytopenia that defines the disease.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Aplastic anemia starves tissues of oxygen: with red cell production shut down, hemoglobin falls and the blood carries less oxygen, causing the fatigue and breathlessness that, with bleeding and infection, mark the failing marrow.
 
 ---
 
