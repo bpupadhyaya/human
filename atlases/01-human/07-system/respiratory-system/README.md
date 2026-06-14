@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Pulmonary arterial hypertension is where the respiratory and circulatory systems collide: remodeling of the lung's small arteries raises pulmonary pressure until the right heart fails, so this is a vascular disease that presents as breathlessness."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Breathing is run by the nervous system: brainstem respiratory centers set the rhythm and chemoreceptors sensing CO2 and oxygen adjust it breath by breath, so the respiratory system is only as reliable as the neural drive—lost in opioid overdose or brainstem stroke."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Respiration exists to trade carbon dioxide for oxygen: cells make CO2, blood carries it as bicarbonate, and the lungs exhale it, so the respiratory system is the body's main route to dump carbon—and CO2 levels set blood pH and the urge to breathe."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Alveolar macrophages guard the respiratory system: stationed in the air sacs, they engulf inhaled microbes and debris as the lung's first cellular defense, so their function (and dysfunction in smoking or COPD) shapes vulnerability to pneumonia."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -199,6 +208,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Pulmonary Surfactant](../../03-molecular/surfactant/README.md): Pulmonary surfactant keeps the respiratory system inflatable: secreted by type II pneumocytes, it lowers alveolar surface tension so the lung doesn't collapse on exhalation—its deficiency causes neonatal respiratory distress and contributes to ARDS in adults.
 - **Connects-to** → [COVID-19 Disease](../covid-19-disease/README.md): COVID-19 is the respiratory system's defining modern threat: SARS-CoV-2 attacks airway and alveolar cells, and severe disease causes diffuse alveolar damage and hypoxemic respiratory failure—showing how a single virus can overwhelm the gas-exchange apparatus.
 - **Connects-to** → [Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md): Pulmonary arterial hypertension is where the respiratory and circulatory systems collide: remodeling of the lung's small arteries raises pulmonary pressure until the right heart fails, so this is a vascular disease that presents as breathlessness.
+- **Connects-to** → [Nervous System](../nervous-system/README.md): Breathing is run by the nervous system: brainstem respiratory centers set the rhythm and chemoreceptors sensing CO2 and oxygen adjust it breath by breath, so the respiratory system is only as reliable as the neural drive—lost in opioid overdose or brainstem stroke.
+- **Connects-to** → [Carbon](../../02-atomic/carbon/README.md): Respiration exists to trade carbon dioxide for oxygen: cells make CO2, blood carries it as bicarbonate, and the lungs exhale it, so the respiratory system is the body's main route to dump carbon—and CO2 levels set blood pH and the urge to breathe.
+- **Connects-to** → [Macrophage](../../04-cellular/macrophage/README.md): Alveolar macrophages guard the respiratory system: stationed in the air sacs, they engulf inhaled microbes and debris as the lung's first cellular defense, so their function (and dysfunction in smoking or COPD) shapes vulnerability to pneumonia.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.

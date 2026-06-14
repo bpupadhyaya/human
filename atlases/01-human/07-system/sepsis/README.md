@@ -91,6 +91,15 @@ cross_links:
   - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
     relation: connects-to
     note: "Streptococcus pneumoniae is a top cause of sepsis: pneumococcal pneumonia and bacteremia trigger the systemic inflammatory cascade, especially in the asplenic and elderly—why pneumococcal vaccination is a key sepsis-prevention measure."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Staphylococcus aureus is a leading cause of sepsis: from skin, lines, and wounds it invades the bloodstream, and MRSA bacteremia and toxins can rapidly tip into septic shock—so prompt source control and the right antibiotics are decisive."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is both defender and casualty in sepsis: it clears gut-derived endotoxin and mounts the acute-phase response, but septic shock starves it of blood, causing 'shock liver' and cholestasis that worsen coagulopathy and multi-organ failure."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Sepsis consumes platelets: widespread endothelial activation and DIC trap and destroy platelets, so a falling platelet count is an early warning of severe sepsis—and the bleeding-clotting imbalance it signals drives organ damage."
 ---
 
 # Sepsis
@@ -221,6 +230,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help ignite sepsis: sensing bacterial products through TLRs, they release the TNF and IL-6 surge that drives the dysregulated systemic inflammation, yet later become immunoparalyzed—so sepsis is both hyperinflammation and immune exhaustion.
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — Sepsis is the leading cause of ARDS: systemic inflammation and capillary leak flood the alveoli, so the lungs become stiff and hypoxemic—acute respiratory distress is one of the most common and lethal organ failures of severe sepsis.
 - `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Streptococcus pneumoniae is a top cause of sepsis: pneumococcal pneumonia and bacteremia trigger the systemic inflammatory cascade, especially in the asplenic and elderly—why pneumococcal vaccination is a key sepsis-prevention measure.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Staphylococcus aureus is a leading cause of sepsis: from skin, lines, and wounds it invades the bloodstream, and MRSA bacteremia and toxins can rapidly tip into septic shock—so prompt source control and the right antibiotics are decisive.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is both defender and casualty in sepsis: it clears gut-derived endotoxin and mounts the acute-phase response, but septic shock starves it of blood, causing 'shock liver' and cholestasis that worsen coagulopathy and multi-organ failure.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Sepsis consumes platelets: widespread endothelial activation and DIC trap and destroy platelets, so a falling platelet count is an early warning of severe sepsis—and the bleeding-clotting imbalance it signals drives organ damage.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
