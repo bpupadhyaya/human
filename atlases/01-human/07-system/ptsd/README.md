@@ -117,6 +117,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "PTSD's fear circuits depend on astrocytes: these glial cells regulate glutamate in the amygdala and hippocampus that encode and extinguish fear, so astrocyte dysfunction can lock in the traumatic memory that drives the disorder."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "PTSD is hard on the heart: chronic hyperarousal keeps stress hormones and blood pressure high and stokes inflammation, and survivors carry a markedly raised risk of heart attack and cardiovascular disease, making PTSD a cardiac risk factor."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Traumatic memories are cemented by calcium: fear learning in the amygdala relies on calcium flooding through NMDA receptors to strengthen synapses, the molecular step that locks a terrifying event into a lasting, intrusive memory."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "PTSD lives in overstrengthened synapses: trauma potentiates the amygdala's fear synapses while weakening the prefrontal control over them, and therapy works by reconsolidating or extinguishing these synaptic memories."
 ---
 
 # PTSD
@@ -285,6 +294,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — PTSD strikes women about twice as often, and estrogen is part of why: the hormone shapes fear extinction, so low-estrogen phases impair the unlearning of fear—helping explain sex differences in risk and the timing of intrusive symptoms.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PTSD wrecks sleep, and melatonin is enlisted to mend it: nightmares and insomnia are core symptoms tied to disrupted circadian and REM regulation, so melatonin and sleep-targeted therapy are used alongside trauma treatment.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — PTSD's fear circuits depend on astrocytes: these glial cells regulate glutamate in the amygdala and hippocampus that encode and extinguish fear, so astrocyte dysfunction can lock in the traumatic memory that drives the disorder.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — PTSD is hard on the heart: chronic hyperarousal keeps stress hormones and blood pressure high and stokes inflammation, and survivors carry a markedly raised risk of heart attack and cardiovascular disease, making PTSD a cardiac risk factor.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Traumatic memories are cemented by calcium: fear learning in the amygdala relies on calcium flooding through NMDA receptors to strengthen synapses, the molecular step that locks a terrifying event into a lasting, intrusive memory.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — PTSD lives in overstrengthened synapses: trauma potentiates the amygdala's fear synapses while weakening the prefrontal control over them, and therapy works by reconsolidating or extinguishing these synaptic memories.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

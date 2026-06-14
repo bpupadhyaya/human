@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "The renal system controls blood pressure through angiotensin II: the kidney's renin launches the cascade that makes angiotensin II to constrict vessels and tune filtration, the loop that ACE inhibitors and ARBs block to protect the kidney."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The filtration barrier is built on endothelial cells: the glomerulus's fenestrated endothelium, with podocytes and the basement membrane, sieves the blood, so endothelial injury (as in preeclampsia or microangiopathy) leaks protein and crashes filtration."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "The kidney is the body's oxygen gauge: cells sensing low oxygen release erythropoietin to make red cells, while the medulla works on the edge of hypoxia, which is why poor perfusion so readily causes acute tubular injury."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart and kidney rise or fall together: in cardiorenal syndrome a failing heart starves and congests the kidney while fluid overload and neurohormones strain the heart, a vicious loop central to managing heart failure."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -246,6 +255,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Hydrogen](../../02-atomic/hydrogen/README.md) — the kidney is the body's slow acid-base regulator through hydrogen: it excretes hydrogen ions and regenerates bicarbonate to hold blood pH steady, so kidney failure or tubular defects cause the metabolic acidosis (renal tubular acidosis) of renal disease.
 - **Connects to:** [Albumin](../../03-molecular/albumin/README.md) — the kidney's filter is judged by albumin: a healthy glomerulus keeps this protein in the blood, so albumin leaking into urine (albuminuria) is the earliest, most sensitive sign of kidney damage and a marker that guides treatment.
 - **Connects to:** [Angiotensin II](../../03-molecular/angiotensin-ii/README.md) — the renal system controls blood pressure through angiotensin II: the kidney's renin launches the cascade that makes angiotensin II to constrict vessels and tune filtration, the loop that ACE inhibitors and ARBs block to protect the kidney.
+- **Connects to:** [Endothelial Cell](../../04-cellular/endothelial-cell/README.md) — the filtration barrier is built on endothelial cells: the glomerulus's fenestrated endothelium, with podocytes and the basement membrane, sieves the blood, so endothelial injury (as in preeclampsia or microangiopathy) leaks protein and crashes filtration.
+- **Connects to:** [Oxygen](../../02-atomic/oxygen/README.md) — the kidney is the body's oxygen gauge: cells sensing low oxygen release erythropoietin to make red cells, while the medulla works on the edge of hypoxia, which is why poor perfusion so readily causes acute tubular injury.
+- **Connects to:** [Heart](../../06-organ/heart/README.md) — the heart and kidney rise or fall together: in cardiorenal syndrome a failing heart starves and congests the kidney while fluid overload and neurohormones strain the heart, a vicious loop central to managing heart failure.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
