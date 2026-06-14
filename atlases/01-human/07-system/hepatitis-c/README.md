@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Hepatitis C usually becomes chronic when T-helper cells fail: a vigorous, sustained CD4 response can clear the virus, but HCV evades it and the exhausted helper response permits lifelong infection—until direct-acting antivirals cure it."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Hepatitis C lives off cholesterol and lipids: it enters hepatocytes via the LDL receptor and travels as a lipo-viral particle wrapped in fat, hijacking cholesterol metabolism so deeply that the infection alters the body's lipid profile."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Hepatitis C loads the liver with iron: chronic infection raises hepatic iron, and that iron fuels oxidative damage that speeds fibrosis and cancer risk—why iron overload worsens the disease and was once reduced to help."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Hepatitis C inflames the liver through its macrophages: activated Kupffer cells sustain the chronic inflammation and secrete signals that drive the stellate-cell fibrosis turning hepatitis into cirrhosis."
 ---
 
 # Hepatitis C
@@ -256,3 +265,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hepatitis C injures the glomerulus through cryoglobulins: virus-driven immune complexes deposit in the kidney, causing membranoproliferative glomerulonephritis—a major extrahepatic complication that antiviral cure can reverse.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Hepatitis C cryoglobulinemia consumes complement: the cold-precipitating immune complexes activate and deplete complement, so low C3/C4 is a clue to active cryoglobulinemic vasculitis affecting skin, nerves and kidney.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Hepatitis C usually becomes chronic when T-helper cells fail: a vigorous, sustained CD4 response can clear the virus, but HCV evades it and the exhausted helper response permits lifelong infection—until direct-acting antivirals cure it.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hepatitis C lives off cholesterol and lipids: it enters hepatocytes via the LDL receptor and travels as a lipo-viral particle wrapped in fat, hijacking cholesterol metabolism so deeply that the infection alters the body's lipid profile.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatitis C loads the liver with iron: chronic infection raises hepatic iron, and that iron fuels oxidative damage that speeds fibrosis and cancer risk—why iron overload worsens the disease and was once reduced to help.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hepatitis C inflames the liver through its macrophages: activated Kupffer cells sustain the chronic inflammation and secrete signals that drive the stellate-cell fibrosis turning hepatitis into cirrhosis.

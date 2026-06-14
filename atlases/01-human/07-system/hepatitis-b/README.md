@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells help hepatitis B persist: in chronic infection, expanded Tregs dampen the antiviral T-cell attack, contributing to immune tolerance of the virus—the flip side of the helper response needed to clear it."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Chronic hepatitis B is tracked through albumin: as the virus scars the liver toward cirrhosis, failing hepatocytes make less albumin, so a falling albumin signals lost synthetic function and the swelling and ascites of decompensation."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Immunity to hepatitis B is an IgG story: anti-HBs antibodies from vaccination or recovery neutralize the virus and define protection, and hepatitis B immune globulin (preformed IgG) shields newborns and the exposed."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Advanced hepatitis B can starve the blood of oxygen: cirrhosis opens abnormal lung blood vessels (hepatopulmonary syndrome) that shunt past gas exchange, causing hypoxemia and breathlessness worse when upright—a clue the liver is failing."
 ---
 
 # Hepatitis B
@@ -265,6 +274,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Most chronic hepatitis B starts at birth via the placenta: perinatal mother-to-child transmission causes lifelong infection far more often than adult exposure, so birth-dose vaccine plus antivirals in highly viremic mothers is the key to prevention.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Clearing hepatitis B hinges on T-helper cells: a strong CD4 response orchestrates the CD8 and antibody attack that resolves acute infection, while a weak, exhausted helper response lets HBV persist as chronic infection.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help hepatitis B persist: in chronic infection, expanded Tregs dampen the antiviral T-cell attack, contributing to immune tolerance of the virus—the flip side of the helper response needed to clear it.
-- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Most chronic hepatitis B starts at birth via the placenta: perinatal mother-to-child transmission causes lifelong infection far more often than adult exposure, so birth-dose vaccine plus antivirals in highly viremic mothers is the key to prevention.
-- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Clearing hepatitis B hinges on T-helper cells: a strong CD4 response orchestrates the CD8 and antibody attack that resolves acute infection, while a weak, exhausted helper response lets HBV persist as chronic infection.
-- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help hepatitis B persist: in chronic infection, expanded Tregs dampen the antiviral T-cell attack, contributing to immune tolerance of the virus—the flip side of the helper response needed to clear it.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Chronic hepatitis B is tracked through albumin: as the virus scars the liver toward cirrhosis, failing hepatocytes make less albumin, so a falling albumin signals lost synthetic function and the swelling and ascites of decompensation.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Immunity to hepatitis B is an IgG story: anti-HBs antibodies from vaccination or recovery neutralize the virus and define protection, and hepatitis B immune globulin (preformed IgG) shields newborns and the exposed.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Advanced hepatitis B can starve the blood of oxygen: cirrhosis opens abnormal lung blood vessels (hepatopulmonary syndrome) that shunt past gas exchange, causing hypoxemia and breathlessness worse when upright—a clue the liver is failing.
