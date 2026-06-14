@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Severe dengue can injure the kidney: shock, hemolysis, and direct viral effects cause acute kidney injury in the critical phase, so renal function is watched closely as a marker of severity and a target for supportive care."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Severe dengue is defined by leaking albumin: the virus makes capillaries leak, so plasma and albumin escape into the chest and belly, concentrating the blood and dropping pressure into the shock that makes dengue hemorrhagic fever deadly."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells help make dengue severe: infection activates them to release chymase and vasoactive mediators that pull apart vascular junctions, driving the plasma leak of severe dengue—and blood chymase levels track with disease severity."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Dengue can inflame the heart: the virus causes myocarditis with weakened contraction and arrhythmias, an underrecognized contributor to the shock and fluid-balance problems that complicate severe infection."
 ---
 
 # Dengue Fever
@@ -235,3 +244,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Dengue's danger lies in B-cell antibodies: non-neutralizing antibodies from a prior infection can enhance a second one (antibody-dependent enhancement), so partial immunity worsens disease—the paradox that makes dengue vaccines hard to design.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Severe dengue is a cardiovascular emergency: cytokines make capillaries leak plasma, dropping blood volume into dengue shock syndrome, so careful fluid management—not antivirals—is what saves lives in the critical phase.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe dengue can injure the kidney: shock, hemolysis, and direct viral effects cause acute kidney injury in the critical phase, so renal function is watched closely as a marker of severity and a target for supportive care.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Severe dengue is defined by leaking albumin: the virus makes capillaries leak, so plasma and albumin escape into the chest and belly, concentrating the blood and dropping pressure into the shock that makes dengue hemorrhagic fever deadly.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help make dengue severe: infection activates them to release chymase and vasoactive mediators that pull apart vascular junctions, driving the plasma leak of severe dengue—and blood chymase levels track with disease severity.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Dengue can inflame the heart: the virus causes myocarditis with weakened contraction and arrhythmias, an underrecognized contributor to the shock and fluid-balance problems that complicate severe infection.

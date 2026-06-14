@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Cytokine storm drives multi-organ failure starting with the kidney: inflammatory mediators and shock collapse renal perfusion, causing acute kidney injury, so rising creatinine marks the systemic spread of hyperinflammation beyond the initial trigger organ."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Cytokine storm erupts when killing fails: in HLH, defective perforin leaves cytotoxic T and NK cells unable to clear infected cells, so antigen persists and over-stimulates them into a runaway flood of cytokines—the genetic root of primary hemophagocytic syndrome."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen is ground zero for hemophagocytosis in cytokine storm: hyperactivated macrophages there and in marrow devour red cells and platelets, so splenomegaly and falling blood counts are red flags for HLH/MAS-type storms."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Cytokine storm reflects a failed brake by regulatory T cells: Tregs normally rein in activated effector cells, so when their restraint is overwhelmed or deficient the inflammatory loop runs unchecked—why restoring Treg control is a therapeutic aim."
 ---
 
 # Cytokine Storm
@@ -214,6 +223,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Interferon-gamma drives the deadliest cytokine storms: in HLH and macrophage activation syndrome, runaway IFN-γ from T and NK cells hyperactivates macrophages, so the anti-IFN-γ antibody emapalumab can rescue this otherwise fatal hyperinflammation.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cytokine storm hits the liver hard: hyperinflammation (especially HLH/MAS) inflames the liver, spiking ferritin and transaminases and impairing clotting, so a sky-high ferritin with hepatitis is a key clue to a brewing cytokine storm.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cytokine storm drives multi-organ failure starting with the kidney: inflammatory mediators and shock collapse renal perfusion, causing acute kidney injury, so rising creatinine marks the systemic spread of hyperinflammation beyond the initial trigger organ.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytokine storm erupts when killing fails: in HLH, defective perforin leaves cytotoxic T and NK cells unable to clear infected cells, so antigen persists and over-stimulates them into a runaway flood of cytokines—the genetic root of primary hemophagocytic syndrome.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is ground zero for hemophagocytosis in cytokine storm: hyperactivated macrophages there and in marrow devour red cells and platelets, so splenomegaly and falling blood counts are red flags for HLH/MAS-type storms.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Cytokine storm reflects a failed brake by regulatory T cells: Tregs normally rein in activated effector cells, so when their restraint is overwhelmed or deficient the inflammatory loop runs unchecked—why restoring Treg control is a therapeutic aim.
 
 ## Pathology
 
