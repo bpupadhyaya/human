@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Heart failure is driven by cardiac macrophages: after injury they shift from repair to chronic inflammation, fueling the fibrosis and adverse remodeling that stiffen and enlarge the failing heart."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Heart failure is a disease of sodium and water overload: the failing heart triggers hormones that make the kidney retain salt, causing the congestion and edema—while dilutional hyponatremia, paradoxically, marks the most severe disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Heart failure backs up into the liver: a congested, failing right heart raises venous pressure that engorges the liver and, over time, scars it into cardiac cirrhosis, so abnormal liver tests can flag worsening heart failure."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts stiffen the failing heart: after injury and under neurohormonal stress they lay down collagen scar between muscle cells, the fibrosis that hardens the ventricle and disrupts its electrical and mechanical function."
 ---
 
 # Heart Failure
@@ -212,6 +221,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Heart failure is a calcium-cycling failure: the sick cardiomyocyte can't pump calcium in and out fast enough (downregulated SERCA), so each beat is weaker and relaxation incomplete—the molecular basis of the failing squeeze.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — The failing heart is starved of ATP: damaged mitochondria can't supply enough energy for the constant work of pumping, so the heart runs like an engine low on fuel—an energy deficit that worsens the contractile failure.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Heart failure is driven by cardiac macrophages: after injury they shift from repair to chronic inflammation, fueling the fibrosis and adverse remodeling that stiffen and enlarge the failing heart.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Heart failure is a disease of sodium and water overload: the failing heart triggers hormones that make the kidney retain salt, causing the congestion and edema—while dilutional hyponatremia, paradoxically, marks the most severe disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Heart failure backs up into the liver: a congested, failing right heart raises venous pressure that engorges the liver and, over time, scars it into cardiac cirrhosis, so abnormal liver tests can flag worsening heart failure.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts stiffen the failing heart: after injury and under neurohormonal stress they lay down collagen scar between muscle cells, the fibrosis that hardens the ventricle and disrupts its electrical and mechanical function.
 
 ## Pathology
 

@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells read the gut microbiome to set immunity: they sample bacteria across the gut lining and decide between tolerance and attack, so the microbes present shape whether the immune system stays calm or inflames."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The gut microbiome talks to the brain: its bacteria make neurotransmitters and metabolites and signal along the vagus nerve, a gut-brain axis now linked to mood, behavior and neurodegeneration like Parkinson's."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "The gut microbiome runs on fermentation that makes gas: bacteria breaking down fiber release hydrogen and methane, the gases measured in breath tests to detect malabsorption and small-intestinal bacterial overgrowth."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Gut macrophages keep an uneasy peace with the microbiome: lining the bowel wall, they tolerate friendly bacteria while staying ready to attack invaders, so this restraint is central to keeping the trillions of microbes from triggering inflammation."
 ---
 
 # Gut Microbiome
@@ -217,6 +226,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Gut bacteria make GABA and talk to the brain: certain species synthesize this calming neurotransmitter (and others), part of the gut-brain axis through which the microbiome influences mood, anxiety, and stress alongside serotonin and dopamine.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The gut microbiome promotes atherosclerosis through TMAO: bacteria convert dietary choline and carnitine into TMAO, a metabolite that accelerates plaque and clotting—so what microbes make from red meat and eggs reaches the arteries.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells read the gut microbiome to set immunity: they sample bacteria across the gut lining and decide between tolerance and attack, so the microbes present shape whether the immune system stays calm or inflames.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The gut microbiome talks to the brain: its bacteria make neurotransmitters and metabolites and signal along the vagus nerve, a gut-brain axis now linked to mood, behavior and neurodegeneration like Parkinson's.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — The gut microbiome runs on fermentation that makes gas: bacteria breaking down fiber release hydrogen and methane, the gases measured in breath tests to detect malabsorption and small-intestinal bacterial overgrowth.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Gut macrophages keep an uneasy peace with the microbiome: lining the bowel wall, they tolerate friendly bacteria while staying ready to attack invaders, so this restraint is central to keeping the trillions of microbes from triggering inflammation.
 
 ## Pathology
 
