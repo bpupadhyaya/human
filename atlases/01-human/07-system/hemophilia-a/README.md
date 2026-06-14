@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Repeated joint bleeds in hemophilia damage joints through macrophages: blood in the joint loads synovial macrophages with iron, driving inflammatory synovitis that erodes cartilage—the hemophilic arthropathy that prophylactic factor aims to prevent."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Hemophilia A forms the collagen-triggered platelet plug but can't stabilize it: exposed collagen still recruits platelets into an initial plug, but without factor VIII the secondary fibrin clot never reinforces it, so bleeding restarts hours later."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Hemophilia A's worst complication is immune, needing regulatory T cells: about a third of severe patients make anti-factor-VIII antibodies (inhibitors), and immune tolerance induction works to restore the Tregs that should accept the infused factor."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Hemophilia A's inhibitors come from B cells: in patients who make anti-factor-VIII antibodies, B cells produce the neutralizing IgG that defeats replacement therapy—so B-cell-depleting rituximab is used to help eradicate stubborn inhibitors."
 ---
 
 # Hemophilia A
@@ -256,6 +265,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the silent partner of the clotting cascade hemophilia disrupts: as coagulation Factor IV, calcium ions are needed to assemble the tenase and prothrombinase complexes—so clotting depends on calcium, and citrate that binds it blocks coagulation in stored blood.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The feared complication of hemophilia A is inhibitors, driven by T-helper cells: in some patients, helper T cells license B cells to make anti-Factor-VIII antibodies that neutralize replacement therapy, forcing bypassing agents or immune tolerance induction.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Repeated joint bleeds in hemophilia damage joints through macrophages: blood in the joint loads synovial macrophages with iron, driving inflammatory synovitis that erodes cartilage—the hemophilic arthropathy that prophylactic factor aims to prevent.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Hemophilia A forms the collagen-triggered platelet plug but can't stabilize it: exposed collagen still recruits platelets into an initial plug, but without factor VIII the secondary fibrin clot never reinforces it, so bleeding restarts hours later.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Hemophilia A's worst complication is immune, needing regulatory T cells: about a third of severe patients make anti-factor-VIII antibodies (inhibitors), and immune tolerance induction works to restore the Tregs that should accept the infused factor.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Hemophilia A's inhibitors come from B cells: in patients who make anti-factor-VIII antibodies, B cells produce the neutralizing IgG that defeats replacement therapy—so B-cell-depleting rituximab is used to help eradicate stubborn inhibitors.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

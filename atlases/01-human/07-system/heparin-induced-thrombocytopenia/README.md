@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "HIT's anti-PF4/heparin antibodies arise with T-helper-cell support: helper T cells license B cells to produce the pathogenic IgG, an unusually rapid immune response that can recur on heparin re-exposure."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "HIT is a paradoxical clotting storm consuming fibrinogen: the activated platelets generate massive thrombin that converts fibrinogen to fibrin, so a low-platelet state causes thrombosis rather than bleeding—the trap that defines the disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HIT platelets activate through a calcium surge: antibody clustering of platelet Fc receptors triggers calcium influx that drives the granule release and aggregation behind the prothrombotic state—the cellular step that makes HIT dangerous."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "HIT starts when dendritic cells flag PF4-heparin as foreign: heparin reshapes platelet factor 4 into a neo-antigen these sentinels recognize and present, kicking off the rapid immune reaction that turns a blood thinner into a clotting trigger."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -279,6 +288,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — The serotonin release assay confirms HIT: activated platelets dump their serotonin stores, so measuring heparin-dependent serotonin release from donor platelets is the gold-standard functional test distinguishing true HIT from harmless anti-PF4 antibodies.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HIT can announce itself in the skin: heparin injection sites may develop painful necrotic lesions from local thrombosis, a recognized skin sign of the paradoxical clotting that defines the syndrome despite falling platelets.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — HIT's anti-PF4/heparin antibodies arise with T-helper-cell support: helper T cells license B cells to produce the pathogenic IgG, an unusually rapid immune response that can recur on heparin re-exposure.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — HIT is a paradoxical clotting storm consuming fibrinogen: the activated platelets generate massive thrombin that converts fibrinogen to fibrin, so a low-platelet state causes thrombosis rather than bleeding—the trap that defines the disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HIT platelets activate through a calcium surge: antibody clustering of platelet Fc receptors triggers calcium influx that drives the granule release and aggregation behind the prothrombotic state—the cellular step that makes HIT dangerous.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIT starts when dendritic cells flag PF4-heparin as foreign: heparin reshapes platelet factor 4 into a neo-antigen these sentinels recognize and present, kicking off the rapid immune reaction that turns a blood thinner into a clotting trigger.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
