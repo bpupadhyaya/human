@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Schwannomatosis dominates the musculoskeletal experience as chronic pain: multiple schwannomas along spinal and peripheral nerves cause severe, often disabling pain rather than the deficits seen in NF2—so pain control is the central management challenge."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Schwannomatosis links to RAS-ERK through LZTR1: the LZTR1 gene normally degrades RAS, so its loss lets RAS-ERK signaling drive Schwann-cell tumor growth—one of the two molecular routes (with SMARCB1) to this multiple-schwannoma syndrome."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Schwannomatosis tumors arise from Schwann cells, the peripheral counterpart of oligodendrocytes: both make myelin, but Schwann cells wrap peripheral nerves—so these tumors form along peripheral nerves rather than in the brain's oligodendrocyte territory."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Schwannoma growth engages PI3K-mTOR signaling: alongside RAS-ERK, loss of the tumor-suppressor inputs activates mTOR to drive proliferation, making the pathway a candidate target in a syndrome whose tumors are otherwise managed surgically."
 ---
 
 # Schwannomatosis
@@ -213,6 +222,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Schwannomatosis can surface in the skin: peripheral and cutaneous schwannomas form palpable nodules along nerves, and unlike NF2 these patients lack vestibular schwannomas—so painful subcutaneous nerve tumors without hearing loss suggest schwannomatosis.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Stereotactic radiosurgery (photon-based) treats select schwannomas: focused radiation can control growing or surgically risky nerve-sheath tumors, though in a tumor-prone syndrome it is balanced against the small risk of inducing further or malignant tumors.
 - `connects-to` → **[Musculoskeletal system](../musculoskeletal-system/README.md)** — Schwannomatosis dominates the musculoskeletal experience as chronic pain: multiple schwannomas along spinal and peripheral nerves cause severe, often disabling pain rather than the deficits seen in NF2—so pain control is the central management challenge.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Schwannomatosis links to RAS-ERK through LZTR1: the LZTR1 gene normally degrades RAS, so its loss lets RAS-ERK signaling drive Schwann-cell tumor growth—one of the two molecular routes (with SMARCB1) to this multiple-schwannoma syndrome.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Schwannomatosis tumors arise from Schwann cells, the peripheral counterpart of oligodendrocytes: both make myelin, but Schwann cells wrap peripheral nerves—so these tumors form along peripheral nerves rather than in the brain's oligodendrocyte territory.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Schwannoma growth engages PI3K-mTOR signaling: alongside RAS-ERK, loss of the tumor-suppressor inputs activates mTOR to drive proliferation, making the pathway a candidate target in a syndrome whose tumors are otherwise managed surgically.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
