@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "PTSD and cannabis use disorder feed each other: many with PTSD use cannabis to dampen hyperarousal and insomnia, but tolerance and withdrawal worsen the symptoms it masks, so this common self-treatment readily slides into dependence."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system governs fear extinction central to PTSD: cannabinoid signaling helps the brain unlearn trauma cues, and deficits may lock in fear—so this pathway underlies why cannabis is sought for PTSD nightmares and why it is a drug-development target."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Adrenaline burns trauma into memory: the epinephrine surge during a terrifying event strengthens memory consolidation, helping explain PTSD's intrusive recollections—and why beta-blockers like propranolol have been tested to blunt or weaken fear memories."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "PTSD and borderline personality disorder share a traumatic root: childhood trauma drives both, and complex PTSD overlaps BPD's emotional dysregulation and unstable relationships—so the two frequently co-occur and can be hard to disentangle clinically."
 ---
 
 # PTSD
@@ -249,6 +258,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — PTSD reflects a tipped excitatory-inhibitory balance: deficient GABAergic inhibition leaves fear circuits hyperexcitable, underlying hyperarousal and intrusive memories, which is why benzodiazepines that boost GABA paradoxically tend to worsen long-term PTSD.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disturbance is a core feature of PTSD, not just a symptom: nightmares and insomnia are diagnostic criteria and can precede and perpetuate the disorder, and treating the insomnia (e.g., with prazosin or CBT-I) improves overall PTSD outcomes.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — PTSD and cannabis use disorder feed each other: many with PTSD use cannabis to dampen hyperarousal and insomnia, but tolerance and withdrawal worsen the symptoms it masks, so this common self-treatment readily slides into dependence.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system governs fear extinction central to PTSD: cannabinoid signaling helps the brain unlearn trauma cues, and deficits may lock in fear—so this pathway underlies why cannabis is sought for PTSD nightmares and why it is a drug-development target.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenaline burns trauma into memory: the epinephrine surge during a terrifying event strengthens memory consolidation, helping explain PTSD's intrusive recollections—and why beta-blockers like propranolol have been tested to blunt or weaken fear memories.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — PTSD and borderline personality disorder share a traumatic root: childhood trauma drives both, and complex PTSD overlaps BPD's emotional dysregulation and unstable relationships—so the two frequently co-occur and can be hard to disentangle clinically.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

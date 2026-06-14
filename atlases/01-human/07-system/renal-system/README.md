@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Sodium handling is the renal system's central task: the nephron filters and precisely reabsorbs sodium to set extracellular volume and blood pressure, so disordered renal sodium balance drives both hypertension and edema, and is the target of most diuretics."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Aldosterone is the kidney's salt-retaining hormone: released via the renin axis, it makes the distal nephron reabsorb sodium and excrete potassium, so it sets blood volume and pressure—and blocking it (spironolactone) treats resistant hypertension and heart failure."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "The kidney is central to calcium balance: it activates vitamin D to absorb calcium, fine-tunes calcium excretion under PTH, and when it fails, disturbed calcium-phosphate handling drives the bone disease and stones of kidney disease."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Kidney and blood pressure are locked in a two-way grip: the kidney sets long-term pressure through salt and the renin system, yet high pressure also damages its vessels—so hypertension is both a leading cause and a consequence of kidney disease."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -210,6 +219,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Podocyte](../../04-cellular/podocyte/README.md) — podocytes are the renal system's filtration gatekeepers: their foot processes form the slit diaphragm that holds protein back, so podocyte injury causes proteinuria and nephrotic syndrome, a frequent first step toward CKD.
 - **Connects to:** [Renin](../../03-molecular/renin/README.md) — renin launches the renal system's blood-pressure axis: juxtaglomerular cells release it when perfusion or sodium falls, triggering angiotensin and aldosterone to retain salt and water—making the kidney the master regulator of volume and pressure.
 - **Connects to:** [Sodium](../../02-atomic/sodium/README.md) — sodium handling is the renal system's central task: the nephron filters and reabsorbs sodium to set extracellular volume and blood pressure, so disordered renal sodium balance drives hypertension and edema and is the target of most diuretics.
+- **Connects to:** [Aldosterone](../../03-molecular/aldosterone/README.md) — Aldosterone is the kidney's salt-retaining hormone: released via the renin axis, it makes the distal nephron reabsorb sodium and excrete potassium, so it sets blood volume and pressure—and blocking it (spironolactone) treats resistant hypertension and heart failure.
+- **Connects to:** [Calcium](../../02-atomic/calcium/README.md) — The kidney is central to calcium balance: it activates vitamin D to absorb calcium, fine-tunes calcium excretion under PTH, and when it fails, disturbed calcium-phosphate handling drives the bone disease and stones of kidney disease.
+- **Connects to:** [Hypertension](../hypertension/README.md) — Kidney and blood pressure are locked in a two-way grip: the kidney sets long-term pressure through salt and the renin system, yet high pressure also damages its vessels—so hypertension is both a leading cause and a consequence of kidney disease.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
