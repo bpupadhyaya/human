@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver is a common SCLC metastatic site: this aggressive cancer spreads early and widely, and liver involvement marks extensive-stage disease, worsens prognosis, and can impair drug metabolism—so staging scans routinely scrutinize the liver."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "SCLC is now attacked with T-cell engagers: tarlatamab, a bispecific antibody linking the tumor's DLL3 to CD3 on cytotoxic T cells, redirects them to kill small-cell lung cancer—a new option after chemotherapy in this aggressive disease."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Small-cell lung cancer classically causes SIADH: the tumor ectopically secretes vasopressin (ADH), driving water retention and hyponatremia, so unexplained low sodium in a smoker can be the presenting clue to SCLC."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "SCLC is a leading cause of ectopic ACTH syndrome: the neuroendocrine tumor secretes ACTH, producing a rapid-onset paraneoplastic Cushing's with hypokalemia and hyperglycemia rather than the classic body changes—signaling aggressive disease."
 ---
 
 # Small Cell Lung Cancer
@@ -221,6 +230,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Beyond its tumor biology, SCLC drives paraneoplastic autoimmunity: it expresses neuronal antigens the immune system attacks, while its high mutational burden makes it responsive to checkpoint immunotherapy—so immunity both harms (autoimmunity) and helps (treatment).
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — SCLC's neuroendocrine cells secrete ectopic hormones, causing endocrine paraneoplastic syndromes: ADH drives SIADH with hyponatremia and ACTH produces Cushing's—so metabolic disturbances often herald or complicate the cancer before imaging finds it.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a common SCLC metastatic site: this aggressive cancer spreads early and widely, and liver involvement marks extensive-stage disease, worsens prognosis, and can impair drug metabolism—so staging scans routinely scrutinize the liver.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — SCLC is now attacked with T-cell engagers: tarlatamab, a bispecific antibody linking the tumor's DLL3 to CD3 on cytotoxic T cells, redirects them to kill small-cell lung cancer—a new option after chemotherapy in this aggressive disease.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Small-cell lung cancer classically causes SIADH: the tumor ectopically secretes vasopressin (ADH), driving water retention and hyponatremia, so unexplained low sodium in a smoker can be the presenting clue to SCLC.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — SCLC is a leading cause of ectopic ACTH syndrome: the neuroendocrine tumor secretes ACTH, producing a rapid-onset paraneoplastic Cushing's with hypokalemia and hyperglycemia rather than the classic body changes—signaling aggressive disease.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

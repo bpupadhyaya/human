@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Beyond peripheral nerves, Sjögren's can strike the central nervous system: white-matter lesions may mimic multiple sclerosis and autonomic dysfunction worsens the dryness—so neurological disease ranges from brain to autonomic, not just sensory neuropathy."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Sjögren's anti-Ro/SSA antibodies cross the placenta: they can cause neonatal lupus and congenital heart block in the fetus, so anti-Ro-positive pregnancies are monitored with fetal heart surveillance—an autoimmune disease reaching the next generation."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Plasmacytoid dendritic cells fuel Sjögren's interferon signature: they pour out type I interferon that drives the autoimmune attack on exocrine glands, linking the disease's hallmark IFN signature to a specific immune cell."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Sjögren's syndrome is HLA-associated: MHC class II HLA-DR/DQ variants shape presentation of the Ro and La autoantigens to T cells, the genetic basis for the anti-SSA/SSB antibodies that define the disease."
 ---
 
 # Sjögren's Syndrome
@@ -249,6 +258,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Sjögren's affects the kidney as tubulointerstitial nephritis: lymphocytic infiltration of tubules causes distal renal tubular acidosis with hypokalemia and stones, a classic extra-glandular complication distinct from the glomerular disease of lupus.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Sjögren's involves the lung as interstitial lung disease: lymphocytic infiltration (NSIP, LIP) and airway dryness cause cough and dyspnea, a leading cause of morbidity that overlaps the pulmonary fibrosis of related connective-tissue diseases.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Beyond peripheral nerves, Sjögren's can strike the central nervous system: white-matter lesions may mimic multiple sclerosis and autonomic dysfunction worsens the dryness—so neurological disease ranges from brain to autonomic, not just sensory neuropathy.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Sjögren's anti-Ro/SSA antibodies cross the placenta: they can cause neonatal lupus and congenital heart block in the fetus, so anti-Ro-positive pregnancies are monitored with fetal heart surveillance—an autoimmune disease reaching the next generation.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells fuel Sjögren's interferon signature: they pour out type I interferon that drives the autoimmune attack on exocrine glands, linking the disease's hallmark IFN signature to a specific immune cell.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Sjögren's syndrome is HLA-associated: MHC class II HLA-DR/DQ variants shape presentation of the Ro and La autoantigens to T cells, the genetic basis for the anti-SSA/SSB antibodies that define the disease.
 
 ---
 
