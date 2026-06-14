@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "ALL and its therapy both burden the liver: leukemic cells infiltrate it to cause hepatomegaly, while drugs like asparaginase and methotrexate are hepatotoxic, so liver function is watched throughout the long treatment course."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "ALL treatment can scar the heart: the anthracycline chemotherapy central to cure is cardiotoxic, weakening the heart muscle, so cardiac function is watched for years—an important late effect in children cured of leukemia."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "ALL hides behind regulatory T cells: the leukemia expands these immune suppressors that blunt the antileukemic response, a barrier that immunotherapies like CAR-T and bispecific antibodies must overcome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "ALL's tumor lysis floods the blood with potassium: when chemotherapy bursts masses of blasts, potassium pours out of the dying cells, and the resulting hyperkalemia can stop the heart if not urgently managed."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -287,6 +296,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Steroids are a cornerstone of ALL treatment through the glucocorticoid receptor: when activated, it triggers apoptosis in lymphoblasts, so every regimen leans on it—and resistance to this signal predicts a worse outcome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ALL can crash blood calcium through tumor lysis: as chemotherapy bursts huge numbers of blasts, released phosphate binds calcium and potassium and uric acid surge, a metabolic emergency that threatens the heart and kidneys.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — ALL and its therapy both burden the liver: leukemic cells infiltrate it to cause hepatomegaly, while drugs like asparaginase and methotrexate are hepatotoxic, so liver function is watched throughout the long treatment course.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — ALL treatment can scar the heart: the anthracycline chemotherapy central to cure is cardiotoxic, weakening the heart muscle, so cardiac function is watched for years—an important late effect in children cured of leukemia.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — ALL hides behind regulatory T cells: the leukemia expands these immune suppressors that blunt the antileukemic response, a barrier that immunotherapies like CAR-T and bispecific antibodies must overcome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ALL's tumor lysis floods the blood with potassium: when chemotherapy bursts masses of blasts, potassium pours out of the dying cells, and the resulting hyperkalemia can stop the heart if not urgently managed.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

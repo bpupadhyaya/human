@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Alcohol injures the stomach directly: it inflames and erodes the gastric lining, causing gastritis and bleeding ulcers, and the vomiting of heavy use can tear the junction with the esophagus—common reasons drinkers bleed."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Heavy drinking can acidify the blood: starved and metabolizing alcohol, the body makes ketones and lactate, so alcoholic ketoacidosis drops blood pH—a dangerous acidosis that can appear even with near-normal sugar."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Alcohol weakens and destabilizes the heart: years of drinking dilate and weaken the muscle into alcoholic cardiomyopathy, while even a binge can trigger atrial fibrillation—the so-called holiday heart."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Alcohol drops the platelet count: it suppresses their production in the marrow and shortens their life, so heavy drinkers bruise and bleed easily, a count that often rebounds within days of stopping."
 ---
 
 # Alcohol Use Disorder
@@ -339,6 +348,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Heavy drinking drains the body of magnesium: alcohol makes the kidneys waste it and poor intake compounds the loss, so the resulting hypomagnesemia worsens withdrawal tremor and seizures and destabilizes the heart's rhythm.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Alcohol dependence reshapes synapses: chronic drinking shifts the balance of excitatory and inhibitory synaptic signaling, so the brain adapts to the drug—and the rebound when it is removed produces the dangerous withdrawal syndrome.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Alcohol injures the stomach directly: it inflames and erodes the gastric lining, causing gastritis and bleeding ulcers, and the vomiting of heavy use can tear the junction with the esophagus—common reasons drinkers bleed.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Heavy drinking can acidify the blood: starved and metabolizing alcohol, the body makes ketones and lactate, so alcoholic ketoacidosis drops blood pH—a dangerous acidosis that can appear even with near-normal sugar.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Alcohol weakens and destabilizes the heart: years of drinking dilate and weaken the muscle into alcoholic cardiomyopathy, while even a binge can trigger atrial fibrillation—the so-called holiday heart.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Alcohol drops the platelet count: it suppresses their production in the marrow and shortens their life, so heavy drinkers bruise and bleed easily, a count that often rebounds within days of stopping.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
