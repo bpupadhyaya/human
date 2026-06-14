@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Immune surveillance, including NK cells, partly offsets Li-Fraumeni's risk: natural killer cells clear stressed and damaged cells before they become tumors, so the strength of this innate defense may help explain why cancer timing varies among carriers."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Li-Fraumeni puts the brain among its many tumor targets: TP53 loss predisposes to brain tumors like glioblastoma and medulloblastoma, part of the wide cancer spectrum that makes whole-body surveillance MRI part of carrier care."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells join NK cells in policing Li-Fraumeni: by killing stressed and mutated cells they help hold back the many cancers TP53 loss invites, so the vigor of T-cell surveillance may shape when and whether tumors arise."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Li-Fraumeni cancers exploit mTOR growth signaling: with p53's brakes gone, the PI3K-AKT-mTOR pathway runs unchecked to fuel the diverse tumors, making mTOR a shared vulnerability studied across the syndrome's cancers."
 ---
 
 # Li-Fraumeni Syndrome
@@ -286,6 +295,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Li-Fraumeni loses p53's power to order cell suicide: normal p53 triggers caspase-3-driven apoptosis in damaged cells, so when both TP53 copies fail, cells that should self-destruct survive and accumulate the mutations that spawn its many cancers.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Li-Fraumeni knocks out one of the two master tumor suppressors: TP53 and RB1 guard the cell cycle together, so losing p53 (LFS) cripples the same defenses that losing RB1 destroys in hereditary retinoblastoma—two routes to runaway division.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance, including NK cells, partly offsets Li-Fraumeni's risk: natural killer cells clear stressed and damaged cells before they become tumors, so the strength of this innate defense may help explain why cancer timing varies among carriers.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Li-Fraumeni puts the brain among its many tumor targets: TP53 loss predisposes to brain tumors like glioblastoma and medulloblastoma, part of the wide cancer spectrum that makes whole-body surveillance MRI part of carrier care.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells join NK cells in policing Li-Fraumeni: by killing stressed and mutated cells they help hold back the many cancers TP53 loss invites, so the vigor of T-cell surveillance may shape when and whether tumors arise.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Li-Fraumeni cancers exploit mTOR growth signaling: with p53's brakes gone, the PI3K-AKT-mTOR pathway runs unchecked to fuel the diverse tumors, making mTOR a shared vulnerability studied across the syndrome's cancers.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

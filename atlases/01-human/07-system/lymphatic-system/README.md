@@ -104,6 +104,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Lymph nodes are where regulatory T cells learn tolerance: the lymphatic system funnels antigens and lymphocytes into nodes where Tregs are induced and licensed, making lymphoid tissue the training ground for immune self-restraint."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "The lymphatic system is the body's fat-transport highway: intestinal lacteals absorb dietary fats packaged as chylomicrons—rich in cholesterol and triglyceride—into lymph rather than blood, delivering them to the circulation downstream."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin depends on its lymphatics for drainage and defense: a fine network clears fluid and ferries antigen-loaded dendritic cells to nodes, so when it fails, fluid pools as lymphedema and immune surveillance of the skin suffers."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Skin lymphatics help regulate the body's sodium: salt stored in the skin is sensed by macrophages that trigger lymphatic growth to clear it, an unexpected role linking the lymphatic system to sodium balance and blood pressure."
 ---
 
 # Lymphatic System
@@ -242,6 +251,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — The lymphatic system rescues leaked albumin: capillaries constantly leak protein into tissues, and lymph vessels collect this albumin-rich fluid and return it to the blood—so blocked lymphatics cause the protein-rich swelling of lymphedema.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Lymphatic vessels are built from specialized endothelial cells: distinct from blood-vessel lining, these cells form one-way valves and loose junctions that soak up fluid, and VEGF-C drives them to sprout new lymphatics (lymphangiogenesis).
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Lymph nodes are where regulatory T cells learn tolerance: the lymphatic system funnels antigens and lymphocytes into nodes where Tregs are induced and licensed, making lymphoid tissue the training ground for immune self-restraint.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — The lymphatic system is the body's fat-transport highway: intestinal lacteals absorb dietary fats packaged as chylomicrons—rich in cholesterol and triglyceride—into lymph rather than blood, delivering them to the circulation downstream.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin depends on its lymphatics for drainage and defense: a fine network clears fluid and ferries antigen-loaded dendritic cells to nodes, so when it fails, fluid pools as lymphedema and immune surveillance of the skin suffers.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Skin lymphatics help regulate the body's sodium: salt stored in the skin is sensed by macrophages that trigger lymphatic growth to clear it, an unexpected role linking the lymphatic system to sodium balance and blood pressure.
 
 ## Pathology
 
