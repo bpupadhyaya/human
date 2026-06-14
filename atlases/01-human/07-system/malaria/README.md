@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Malaria immunity is hard-won and incomplete: repeated infection builds partial 'premunition' that lets endemic adults tolerate parasites, but it wanes without exposure—and this slow, leaky immunity is exactly why an effective malaria vaccine (RTS,S, R21) took so long."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Malaria's silent first stage is in hepatocytes: injected sporozoites invade liver cells and multiply before the blood stage, and in P. vivax and ovale dormant hypnozoites hide there for months—causing relapses that need a separate drug (primaquine) to clear."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide is double-edged in malaria: it helps kill parasites, but in cerebral malaria dysregulated NO and endothelial activation contribute to the coma and brain injury that make it the deadliest complication."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron and malaria are dangerously intertwined: the parasite needs iron to grow, so iron supplementation can worsen malaria in endemic areas—while repeated infection also causes anemia, complicating how iron deficiency is treated where malaria is common."
 ---
 
 # Malaria
@@ -280,6 +289,9 @@ cross_links:
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Malaria targets the placenta in pregnancy: infected red cells bind a unique placental receptor (CSA) and sequester there, causing maternal anemia, low birth weight, and stillbirth—so first pregnancies in endemic areas carry special risk, prompting preventive treatment.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Cerebral malaria is a disease of the endothelium: infected red cells express adhesion proteins that stick to blood-vessel linings, sequestering in the brain's microvessels, blocking flow and inflaming the barrier—causing the coma that makes falciparum malaria lethal.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Malaria immunity is hard-won and incomplete: repeated infection builds partial 'premunition' that lets endemic adults tolerate parasites, but it wanes without exposure—and this slow, leaky immunity is exactly why an effective malaria vaccine (RTS,S, R21) took so long.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Malaria's silent first stage is in hepatocytes: injected sporozoites invade liver cells and multiply before the blood stage, and in P. vivax and ovale dormant hypnozoites hide there for months—causing relapses that need a separate drug (primaquine) to clear.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide is double-edged in malaria: it helps kill parasites, but in cerebral malaria dysregulated NO and endothelial activation contribute to the coma and brain injury that make it the deadliest complication.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron and malaria are dangerously intertwined: the parasite needs iron to grow, so iron supplementation can worsen malaria in endemic areas—while repeated infection also causes anemia, complicating how iron deficiency is treated where malaria is common.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

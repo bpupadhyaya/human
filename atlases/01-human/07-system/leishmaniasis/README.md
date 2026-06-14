@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Leishmaniasis is a disease of the reticuloendothelial system: the parasite colonizes macrophages in lymphatic tissue, spleen, liver, and marrow, causing lymphadenopathy and organomegaly—so visceral leishmaniasis spreads along the mononuclear-phagocyte network."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "Leishmaniasis turns on whether immunity goes Th1 or Th2: IL-10 (with IL-4) suppresses the protective IFN-gamma/IL-12 response, letting parasites survive inside macrophages—so high IL-10 marks progressive visceral disease and is a target for immunotherapy."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Visceral leishmaniasis crashes the blood counts: parasite infiltration of marrow plus an enlarged spleen destroying cells causes anemia and pancytopenia, with low red cells (and platelets and white cells) a hallmark of kala-azar."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Leishmania fights macrophages over iron: the parasite scavenges host iron to grow inside macrophages, while the host tries to withhold it—so iron handling is a battleground that shapes infection and contributes to the anemia of visceral disease."
 ---
 
 # Leishmaniasis
@@ -217,3 +226,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Visceral leishmaniasis floods the blood with antibody: chronic infection drives polyclonal B-cell activation and hypergammaglobulinemia, yet this humoral response cannot clear the intracellular parasite—so control needs T cells, and the antibodies mainly aid diagnosis.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Visceral leishmaniasis crashes the blood counts: parasite-packed macrophages enlarge the spleen and crowd the marrow, so platelets, red cells, and white cells all fall—the pancytopenia and bleeding of kala-azar that makes advanced disease so dangerous.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Leishmaniasis is a disease of the reticuloendothelial system: the parasite colonizes macrophages in lymphatic tissue, spleen, liver, and marrow, causing lymphadenopathy and organomegaly—so visceral leishmaniasis spreads along the mononuclear-phagocyte network.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Leishmaniasis turns on whether immunity goes Th1 or Th2: IL-10 (with IL-4) suppresses the protective IFN-gamma/IL-12 response, letting parasites survive inside macrophages—so high IL-10 marks progressive visceral disease and is a target for immunotherapy.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Visceral leishmaniasis crashes the blood counts: parasite infiltration of marrow plus an enlarged spleen destroying cells causes anemia and pancytopenia, with low red cells (and platelets and white cells) a hallmark of kala-azar.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Leishmania fights macrophages over iron: the parasite scavenges host iron to grow inside macrophages, while the host tries to withhold it—so iron handling is a battleground that shapes infection and contributes to the anemia of visceral disease.
