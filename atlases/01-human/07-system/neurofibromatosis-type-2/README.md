@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "NF2 tumors are studied as targets for cytotoxic T cells: because surgery and radiation risk hearing and nerve damage, engineered T-cell and other immunotherapies aim to control the schwannomas without destroying the nerves they sit on."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "NF2 destroys the ear's potassium-driven hearing: bilateral vestibular schwannomas crush the nerve carrying signals from cochlear hair cells, whose sound transduction runs on a potassium current—so hearing fades on both sides."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "NF2 cuts the synapses that relay sound and balance: as the schwannomas compress the vestibulocochlear nerve, the synaptic transmission from the inner ear to the brain fails, causing the deafness and unsteadiness."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "NF2's meningiomas are built with fibroblast-like cells: alongside the schwannomas, patients grow meningiomas whose fibrous, collagen-laying cells form firm masses that compress the brain and cord."
 ---
 
 # Neurofibromatosis Type 2
@@ -267,6 +276,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — NF2's merlin loss unleashes growth via AKT-mTOR: without merlin's restraint, signaling flows into the PI3K-AKT-mTOR pathway alongside Hippo-YAP, driving the schwannomas and meningiomas—so mTOR-pathway drugs are studied to slow them.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — NF2 schwannomas grow on PDGF among other factors: autocrine growth-factor loops including PDGF feed the tumors, so PDGF-receptor and other kinase inhibitors are explored alongside the anti-VEGF drugs that can shrink vestibular schwannomas.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — NF2 tumors are studied as targets for cytotoxic T cells: because surgery and radiation risk hearing and nerve damage, engineered T-cell and other immunotherapies aim to control the schwannomas without destroying the nerves they sit on.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — NF2 destroys the ear's potassium-driven hearing: bilateral vestibular schwannomas crush the nerve carrying signals from cochlear hair cells, whose sound transduction runs on a potassium current—so hearing fades on both sides.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — NF2 cuts the synapses that relay sound and balance: as the schwannomas compress the vestibulocochlear nerve, the synaptic transmission from the inner ear to the brain fails, causing the deafness and unsteadiness.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — NF2's meningiomas are built with fibroblast-like cells: alongside the schwannomas, patients grow meningiomas whose fibrous, collagen-laying cells form firm masses that compress the brain and cord.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

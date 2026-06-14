@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Noonan syndrome reaches the brain: Chiari I malformation, hydrocephalus and learning differences are recognized features, so neurodevelopmental and structural brain issues join the heart and growth problems in the syndrome's care."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Noonan syndrome can malform the kidneys: renal and urinary-tract anomalies, such as a dilated collecting system, are recognized features that round out the syndrome's developmental defects."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Noonan's thickened heart leans on calcium: its hypertrophic cardiomyopathy disturbs the cardiomyocyte calcium handling that drives contraction, contributing to the stiff, poorly relaxing ventricle."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Noonan's RAS activation can expand the macrophage lineage: in young children it predisposes to a JMML-like myelomonocytic proliferation, overgrowing the monocyte-macrophage cells of the blood."
 ---
 
 # Noonan Syndrome
@@ -285,6 +294,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Noonan syndrome overdrives the AKT-mTOR growth axis: the RAS-pathway mutations that define it push signaling into PI3K-AKT-mTOR as well as ERK, helping explain the heart-muscle thickening and growth problems—and the rationale for mTOR inhibitors.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Faulty lymphatic endothelium underlies Noonan's swelling: abnormal development of lymphatic vessels causes the lymphedema and fetal cystic hygroma typical of the syndrome, and can lead to chylothorax—the lymphatic side of a RASopathy.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Noonan syndrome reaches the brain: Chiari I malformation, hydrocephalus and learning differences are recognized features, so neurodevelopmental and structural brain issues join the heart and growth problems in the syndrome's care.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Noonan syndrome can malform the kidneys: renal and urinary-tract anomalies, such as a dilated collecting system, are recognized features that round out the syndrome's developmental defects.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Noonan's thickened heart leans on calcium: its hypertrophic cardiomyopathy disturbs the cardiomyocyte calcium handling that drives contraction, contributing to the stiff, poorly relaxing ventricle.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Noonan's RAS activation can expand the macrophage lineage: in young children it predisposes to a JMML-like myelomonocytic proliferation, overgrowing the monocyte-macrophage cells of the blood.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
