@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Osteosarcoma largely evades cytotoxic T cells: despite its many mutations it keeps an immunosuppressive, T-cell-poor microenvironment, so getting killer T cells into the tumor is a major goal where checkpoint drugs alone have disappointed."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Osteosarcoma is a vascular tumor fed by endothelial cells: VEGF drives them to build the dense, chaotic blood supply that nourishes its rapid growth and helps it seed the lungs."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Osteosarcoma chemotherapy threatens the kidneys: the high-dose methotrexate and cisplatin central to its treatment are nephrotoxic, so kidney function is watched closely and guides dosing."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "The fibroblastic osteosarcoma weaves fibrous tissue: this subtype's spindle cells lay down collagen alongside malignant osteoid, blending bone-forming and scar-like tissue within the tumor."
 ---
 
 # Osteosarcoma
@@ -278,6 +287,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia makes osteosarcoma more aggressive: the bulky, fast-growing bone tumor outstrips its blood supply, and low oxygen drives invasion, metastasis and resistance, helping explain its tendency to spread to the lungs.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Osteosarcoma leans on the PI3K-AKT-mTOR axis: AKT signaling, amplified in this genomically chaotic cancer, fuels growth and survival alongside its mangled tumor-suppressor genes, so AKT-mTOR inhibitors are studied against it.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Osteosarcoma largely evades cytotoxic T cells: despite its many mutations it keeps an immunosuppressive, T-cell-poor microenvironment, so getting killer T cells into the tumor is a major goal where checkpoint drugs alone have disappointed.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Osteosarcoma is a vascular tumor fed by endothelial cells: VEGF drives them to build the dense, chaotic blood supply that nourishes its rapid growth and helps it seed the lungs.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Osteosarcoma chemotherapy threatens the kidneys: the high-dose methotrexate and cisplatin central to its treatment are nephrotoxic, so kidney function is watched closely and guides dosing.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The fibroblastic osteosarcoma weaves fibrous tissue: this subtype's spindle cells lay down collagen alongside malignant osteoid, blending bone-forming and scar-like tissue within the tumor.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

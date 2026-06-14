@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells decide how well NSCLC immunotherapy works: by presenting tumor antigens they prime the T cells that PD-1 blockade unleashes, so their function in the tumor shapes response to the checkpoint drugs central to lung-cancer care."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Squamous lung cancer can spike blood calcium: it secretes PTHrP that mimics parathyroid hormone, pulling calcium from bone into the blood—a paraneoplastic hypercalcemia causing confusion, thirst, and kidney injury."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "NSCLC can invade the heart's lining: a nearby tumor may breach the pericardium, filling it with malignant fluid that compresses the heart (tamponade), a dangerous complication of advanced lung cancer."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "NSCLC can grow out of lung fibrosis: adenocarcinomas may arise in scarred lung ('scar carcinoma'), and the tumor's own desmoplastic stroma stiffens the surrounding tissue."
 ---
 
 # NSCLC
@@ -256,6 +265,9 @@ cross_links:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia hardens NSCLC against treatment: oxygen-starved tumor regions resist radiation, which needs oxygen to fix DNA damage, and they drive an aggressive, metastatic phenotype—so tumor hypoxia is both a prognostic marker and a therapeutic obstacle.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — NSCLC recruits its blood supply through VEGF: the tumor secretes this angiogenesis driver to grow and spread, so anti-VEGF bevacizumab is combined with chemotherapy and immunotherapy in eligible non-squamous lung cancers.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells decide how well NSCLC immunotherapy works: by presenting tumor antigens they prime the T cells that PD-1 blockade unleashes, so their function in the tumor shapes response to the checkpoint drugs central to lung-cancer care.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Squamous lung cancer can spike blood calcium: it secretes PTHrP that mimics parathyroid hormone, pulling calcium from bone into the blood—a paraneoplastic hypercalcemia causing confusion, thirst, and kidney injury.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — NSCLC can invade the heart's lining: a nearby tumor may breach the pericardium, filling it with malignant fluid that compresses the heart (tamponade), a dangerous complication of advanced lung cancer.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — NSCLC can grow out of lung fibrosis: adenocarcinomas may arise in scarred lung ('scar carcinoma'), and the tumor's own desmoplastic stroma stiffens the surrounding tissue.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
