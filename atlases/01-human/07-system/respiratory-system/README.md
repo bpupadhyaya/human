@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Nitric oxide fine-tunes the lungs' blood flow: it dilates pulmonary vessels to match perfusion with ventilation, and inhaled NO is used to open lung vessels in pulmonary hypertension and newborn respiratory failure."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "The respiratory system is the body's fast acid-base dial: by speeding or slowing breathing it controls how much CO2—and thus acid (hydrogen ions)—leaves the blood, so the lungs and kidneys together hold blood pH in its narrow safe range."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Breathing is commanded by the brain: the brainstem's respiratory centers set the rhythm and adjust it to CO2 and oxygen sensors, so the respiratory system is only as reliable as the neural drive behind it—lost in overdose or stroke."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells make the airways reactive: lining the bronchial walls, they release histamine and other mediators that constrict and inflame airways in asthma and allergy, a key cellular trigger of the wheezing respiratory diseases."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -223,6 +232,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Erythrocyte](../../04-cellular/erythrocyte/README.md): Red cells complete the respiratory system's job: the lungs load oxygen onto erythrocyte hemoglobin and unload carbon dioxide, so breathing and the blood's red cells are one continuous gas-exchange system—lung disease and anemia both starve tissues of oxygen.
 - **Connects-to** → [Cystic Fibrosis](../cystic-fibrosis/README.md): Cystic fibrosis is the respiratory system's archetypal genetic disease: a chloride-channel defect thickens airway mucus, trapping bacteria and causing the chronic infection and bronchiectasis that destroy the lungs—now transformed by CFTR-modulator drugs.
 - **Connects-to** → [Nitric Oxide](../../03-molecular/nitric-oxide/README.md): Nitric oxide fine-tunes the lungs' blood flow: it dilates pulmonary vessels to match perfusion with ventilation, and inhaled NO is used to open lung vessels in pulmonary hypertension and newborn respiratory failure.
+- **Connects-to** → [Hydrogen](../../02-atomic/hydrogen/README.md): The respiratory system is the body's fast acid-base dial: by speeding or slowing breathing it controls how much CO2—and thus acid (hydrogen ions)—leaves the blood, so the lungs and kidneys together hold blood pH in its narrow safe range.
+- **Connects-to** → [Brain](../../06-organ/brain/README.md): Breathing is commanded by the brain: the brainstem's respiratory centers set the rhythm and adjust it to CO2 and oxygen sensors, so the respiratory system is only as reliable as the neural drive behind it—lost in overdose or stroke.
+- **Connects-to** → [Mast Cell](../../04-cellular/mast-cell/README.md): Mast cells make the airways reactive: lining the bronchial walls, they release histamine and other mediators that constrict and inflame airways in asthma and allergy, a key cellular trigger of the wheezing respiratory diseases.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.

@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Sepsis ends in immune paralysis as T cells die off: after the early cytokine storm, massive lymphocyte apoptosis and T-cell exhaustion leave survivors immunosuppressed and prone to secondary infections—a target for immune-restoring therapies."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Sepsis starves tissues of oxygen despite full lungs: leaky vessels, low blood pressure and mitochondrial failure stop cells using oxygen, so lactate rises—a key warning that sepsis is becoming shock."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Sepsis can stun the heart: inflammatory mediators depress the heart muscle in septic cardiomyopathy, so even a structurally normal heart pumps weakly, deepening the shock and the drop in tissue perfusion."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Sepsis flips into immune paralysis partly via regulatory T cells: as the early storm fades, expanding Tregs help suppress the exhausted immune system, leaving survivors unable to fight the secondary infections that often kill them."
 ---
 
 # Sepsis
@@ -245,6 +254,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs are sepsis's most vulnerable organ: systemic inflammation injures the alveolar-capillary barrier, flooding air sacs to cause ARDS—the acute respiratory failure that often dominates and drives the need for ventilation in severe sepsis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Septic shock involves a vasopressin deficit: the inflammatory vasodilation that drops blood pressure outstrips the body's vasopressin, so vasopressin is added to norepinephrine as a vasopressor to restore perfusion in refractory shock.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Sepsis ends in immune paralysis as T cells die off: after the early cytokine storm, massive lymphocyte apoptosis and T-cell exhaustion leave survivors immunosuppressed and prone to secondary infections—a target for immune-restoring therapies.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Sepsis starves tissues of oxygen despite full lungs: leaky vessels, low blood pressure and mitochondrial failure stop cells using oxygen, so lactate rises—a key warning that sepsis is becoming shock.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Sepsis can stun the heart: inflammatory mediators depress the heart muscle in septic cardiomyopathy, so even a structurally normal heart pumps weakly, deepening the shock and the drop in tissue perfusion.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Sepsis flips into immune paralysis partly via regulatory T cells: as the early storm fades, expanding Tregs help suppress the exhausted immune system, leaving survivors unable to fight the secondary infections that often kill them.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
