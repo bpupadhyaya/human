@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium signaling sits at bipolar disorder's genetic core: CACNA1C, encoding a calcium channel, is among the strongest risk genes, implicating disturbed neuronal calcium handling in how mood episodes arise and why lithium acts on this system."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Bipolar disorder's mood stabilizers act on sodium and its kin: lithium is a sodium-like ion that substitutes for it in neurons, while valproate and lamotrigine block sodium channels—so monovalent-cation and ion-channel biology underlies calming the manic brain."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Bipolar disorder carries a neuroinflammatory signature in microglia: activated brain microglia and raised inflammatory markers accompany mood episodes, supporting an inflammation hypothesis and interest in anti-inflammatory adjuncts."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Mania is in part a catecholamine surge: excess norepinephrine (with dopamine) drives the energy, reduced sleep need, and racing activity of manic episodes, which is why noradrenergic stimulants can trigger mania and why dampening it helps treat it."
 ---
 
 # Bipolar Disorder
@@ -261,6 +270,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid and bipolar disorder are intertwined: hypothyroidism can mimic or trigger depression and rapid cycling, and lithium—a mainstay treatment—commonly causes hypothyroidism, so thyroid function is checked before and during mood-stabilizer therapy.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Lithium's benefit comes at a renal cost: long-term use can cause nephrogenic diabetes insipidus and slowly progressive chronic kidney disease, so kidney function and lithium levels are monitored for life—balancing the most effective mood stabilizer against renal harm.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signaling sits at bipolar disorder's genetic core: CACNA1C, encoding a calcium channel, is among the strongest risk genes, implicating disturbed neuronal calcium handling in how mood episodes arise and why lithium acts on this system.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Bipolar disorder's mood stabilizers act on sodium and its kin: lithium is a sodium-like ion that substitutes for it in neurons, while valproate and lamotrigine block sodium channels—so monovalent-cation and ion-channel biology underlies calming the manic brain.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Bipolar disorder carries a neuroinflammatory signature in microglia: activated brain microglia and raised inflammatory markers accompany mood episodes, supporting an inflammation hypothesis and interest in anti-inflammatory adjuncts.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Mania is in part a catecholamine surge: excess norepinephrine (with dopamine) drives the energy, reduced sleep need, and racing activity of manic episodes, which is why noradrenergic stimulants can trigger mania and why dampening it helps treat it.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

@@ -81,6 +81,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Trauma underlies much binge eating: PTSD and childhood adversity are common in binge eating disorder, where food becomes a way to numb distress—so effective treatment often must address the trauma driving the emotional eating, not just the eating itself."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Binge-eating disorder's main drug works on norepinephrine and dopamine: lisdexamfetamine (the only FDA-approved BED medication) raises both to strengthen impulse control and curb bingeing, tying the disorder to the brain's catecholamine reward-and-restraint circuits."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Binge-eating disorder expands adipose tissue: recurrent large binges without compensation drive weight gain, so most patients develop obesity—and the swelling fat depots feed back through leptin and insulin resistance into metabolic disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin curbs the reward of overeating: it reduces food intake and the hedonic drive to binge, so it is being studied as a treatment for binge-eating disorder—linking the social-bonding hormone to appetite control."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -263,6 +272,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and cortisol fuel binge eating: HPA-axis activation and high cortisol drive craving for calorie-dense 'comfort' food, so binges often follow stress and emotional distress—making the disorder as much about stress regulation as about appetite.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome may influence binge eating: microbial signals shape appetite, reward, and mood through the gut-brain axis, and dysbiosis is being explored as both a consequence of binge patterns and a contributor to the loss of control over eating.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma underlies much binge eating: PTSD and childhood adversity are common in binge eating disorder, where food becomes a way to numb distress—so effective treatment often must address the trauma driving the emotional eating, not just the eating itself.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Binge-eating disorder's main drug works on norepinephrine and dopamine: lisdexamfetamine (the only FDA-approved BED medication) raises both to strengthen impulse control and curb bingeing, tying the disorder to the brain's catecholamine reward-and-restraint circuits.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Binge-eating disorder expands adipose tissue: recurrent large binges without compensation drive weight gain, so most patients develop obesity—and the swelling fat depots feed back through leptin and insulin resistance into metabolic disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin curbs the reward of overeating: it reduces food intake and the hedonic drive to binge, so it is being studied as a treatment for binge-eating disorder—linking the social-bonding hormone to appetite control.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
