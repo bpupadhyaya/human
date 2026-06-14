@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/07-system/heart-failure
     relation: connects-to
     note: "Obesity is a leading cause of heart failure with preserved ejection fraction: excess weight and adipose inflammation stiffen and strain the heart, and the obese-HFpEF phenotype now responds to the GLP-1 drugs used for weight loss."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Obesity is governed by the brain's hypothalamus: it reads leptin, ghrelin, and insulin to set hunger and energy use, and when this appetite center becomes resistant to those signals, intake outruns expenditure—obesity as a disorder of central regulation."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Obesity is a low-grade inflammatory state driven by TNF: enlarged fat tissue recruits macrophages that secrete TNF-alpha, which blocks insulin signaling—the direct link from belly fat to insulin resistance and type 2 diabetes."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Obesity ties appetite to serotonin: serotonin signaling in the hypothalamus promotes satiety, which is why serotonergic drugs curb eating—and why disordered serotonin links mood, the gut, and body weight."
 ---
 
 # Obesity
@@ -279,6 +288,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Fat is an estrogen factory that links obesity to cancer: adipose aromatase converts androgens to estrogen, so excess fat raises estrogen and drives the breast and endometrial cancers obesity promotes—especially after menopause.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol shapes where fat goes and can cause obesity: it drives visceral fat deposition and appetite, and cortisol-excess Cushing's syndrome is a secondary cause of weight gain—so refractory central obesity prompts checking the adrenal axis.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Obesity is a leading cause of heart failure with preserved ejection fraction: excess weight and adipose inflammation stiffen and strain the heart, and the obese-HFpEF phenotype now responds to the GLP-1 drugs used for weight loss.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Obesity is governed by the brain's hypothalamus: it reads leptin, ghrelin, and insulin to set hunger and energy use, and when this appetite center becomes resistant to those signals, intake outruns expenditure—obesity as a disorder of central regulation.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Obesity is a low-grade inflammatory state driven by TNF: enlarged fat tissue recruits macrophages that secrete TNF-alpha, which blocks insulin signaling—the direct link from belly fat to insulin resistance and type 2 diabetes.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Obesity ties appetite to serotonin: serotonin signaling in the hypothalamus promotes satiety, which is why serotonergic drugs curb eating—and why disordered serotonin links mood, the gut, and body weight.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

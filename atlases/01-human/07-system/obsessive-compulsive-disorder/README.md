@@ -116,6 +116,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "OCD and insomnia feed each other: intrusive obsessions and compulsive rituals delay and fragment sleep, and the resulting sleep loss worsens the anxiety and cognitive control that keep OCD going—so sleep is part of treatment."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Some childhood OCD is autoimmune, flagged by complement: in PANDAS, strep infection triggers antibodies and complement that attack basal-ganglia neurons, and complement-driven synaptic pruning is implicated in the circuit changes of OCD."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "OCD's faulty brain circuit involves astrocytes: these glial cells clear glutamate in the cortico-striatal loop that misfires in OCD, so astrocyte dysfunction may sustain the runaway excitation behind intrusive thoughts and compulsions."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin shapes the repetitive behaviors of OCD: the bonding hormone also drives grooming and checking-type behaviors and is dysregulated in OCD, linking the social hormone to compulsive ritual."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -273,6 +282,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — OCD can flare from brain inflammation in PANDAS: after strep infection, activated microglia and autoantibodies inflame the basal ganglia, triggering sudden-onset obsessions and tics in children—evidence the immune system can drive the disorder.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — PANDAS ties OCD to immune genetics: streptococcal antigens presented by MHC class II can prime antibodies that cross-react with basal-ganglia neurons (molecular mimicry), an autoimmune route to abrupt childhood obsessive-compulsive symptoms.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — OCD and insomnia feed each other: intrusive obsessions and compulsive rituals delay and fragment sleep, and the resulting sleep loss worsens the anxiety and cognitive control that keep OCD going—so sleep is part of treatment.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Some childhood OCD is autoimmune, flagged by complement: in PANDAS, strep infection triggers antibodies and complement that attack basal-ganglia neurons, and complement-driven synaptic pruning is implicated in the circuit changes of OCD.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — OCD's faulty brain circuit involves astrocytes: these glial cells clear glutamate in the cortico-striatal loop that misfires in OCD, so astrocyte dysfunction may sustain the runaway excitation behind intrusive thoughts and compulsions.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin shapes the repetitive behaviors of OCD: the bonding hormone also drives grooming and checking-type behaviors and is dysregulated in OCD, linking the social hormone to compulsive ritual.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
