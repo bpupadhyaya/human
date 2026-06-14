@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nsclc
     relation: connects-to
     note: "Bladder and lung cancer share tobacco as a top cause: carcinogens excreted in urine bathe the urothelium just as inhaled smoke hits the airway, so the two smoking-driven cancers carry high mutation loads and both respond to PD-1 immunotherapy."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Bladder cancer is treated with a TB vaccine: intravesical BCG—live attenuated Mycobacterium bovis, the tuberculosis vaccine strain—instilled into the bladder triggers a local immune response that prevents recurrence of non-muscle-invasive tumors."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Bladder cancer is the classic occupational chemical cancer: carbon-based aromatic amines from dye, rubber, and leather industries are activated by the liver and concentrated in urine, where they mutate the urothelium—a link that founded industrial cancer epidemiology."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "BCG immunotherapy for bladder cancer works through dendritic cells: the mycobacteria are taken up by urothelial and antigen-presenting cells, activating dendritic cells that prime a tumor-killing immune response—innate immunity turned against cancer."
 ---
 
 # Bladder Cancer
@@ -240,6 +249,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy enables bladder preservation in muscle-invasive bladder cancer: photon-beam chemoradiation as part of trimodality therapy can spare the bladder as an alternative to cystectomy in selected patients, controlling the tumor while keeping the organ.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion is common in bladder cancer: loss of this cell-cycle tumor-suppressor (often with FGFR3 or TP53 changes) helps drive urothelial proliferation, marking one of the genetic routes from carcinogen exposure to invasive disease.
 - `connects-to` → **[NSCLC](../nsclc/README.md)** — Bladder and lung cancer share tobacco as a top cause: carcinogens excreted in urine bathe the urothelium just as inhaled smoke hits the airway, so the two smoking-driven cancers carry high mutation loads and both respond to PD-1 immunotherapy.
+- `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Bladder cancer is treated with a TB vaccine: intravesical BCG—live attenuated Mycobacterium bovis, the tuberculosis vaccine strain—instilled into the bladder triggers a local immune response that prevents recurrence of non-muscle-invasive tumors.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Bladder cancer is the classic occupational chemical cancer: carbon-based aromatic amines from dye, rubber, and leather industries are activated by the liver and concentrated in urine, where they mutate the urothelium—a link that founded industrial cancer epidemiology.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — BCG immunotherapy for bladder cancer works through dendritic cells: the mycobacteria are taken up by urothelial and antigen-presenting cells, activating dendritic cells that prime a tumor-killing immune response—innate immunity turned against cancer.
 
 ---
 

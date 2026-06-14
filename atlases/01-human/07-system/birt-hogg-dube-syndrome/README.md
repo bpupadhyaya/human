@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/thyroid-cancer
     relation: connects-to
     note: "Birt-Hogg-Dubé predisposes to thyroid tumors: FLCN carriers have an excess of thyroid nodules and oncocytic thyroid neoplasms, fitting the syndrome's broader tendency to oncocytic (mitochondria-rich) tumors across kidney, salivary gland and thyroid."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Birt-Hogg-Dubé joins the family of dominant tumor-predisposition syndromes: like MEN1, a single inherited tumor-suppressor defect (here FLCN) seeds tumors across organs—so both demand lifelong, multi-organ surveillance tailored to their gene."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "FLCN, the Birt-Hogg-Dubé gene, also governs fat metabolism: through AMPK and PGC-1α it shapes adipocyte energy use and brown-fat thermogenesis, so beyond its tumor-suppressor role, FLCN links this syndrome's pathway to whole-body metabolism."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Birt-Hogg-Dubé can involve the pancreas: FLCN carriers show an excess of pancreatic cysts and rare neoplasms, extending the syndrome's pattern of hamartomas and tumors beyond the kidney, lung, and skin into abdominal organs."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -252,6 +261,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Birt-Hogg-Dubé presents through the integumentary system: its skin tumors—fibrofolliculomas, trichodiscomas and skin tags on the face, neck and upper trunk—are usually how the syndrome is first recognized, before the kidney and lung disease declare themselves.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Birt-Hogg-Dubé has a debated colorectal cancer link: some FLCN families show increased colonic polyps and cancer, so colonoscopic surveillance is considered, reflecting how this single tumor-suppressor may predispose beyond the classic kidney, lung and skin triad.
 - `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Birt-Hogg-Dubé predisposes to thyroid tumors: FLCN carriers have an excess of thyroid nodules and oncocytic thyroid neoplasms, fitting the syndrome's broader tendency to oncocytic (mitochondria-rich) tumors across kidney, salivary gland and thyroid.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Birt-Hogg-Dubé joins the family of dominant tumor-predisposition syndromes: like MEN1, a single inherited tumor-suppressor defect (here FLCN) seeds tumors across organs—so both demand lifelong, multi-organ surveillance tailored to their gene.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — FLCN, the Birt-Hogg-Dubé gene, also governs fat metabolism: through AMPK and PGC-1α it shapes adipocyte energy use and brown-fat thermogenesis, so beyond its tumor-suppressor role, FLCN links this syndrome's pathway to whole-body metabolism.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Birt-Hogg-Dubé can involve the pancreas: FLCN carriers show an excess of pancreatic cysts and rare neoplasms, extending the syndrome's pattern of hamartomas and tumors beyond the kidney, lung, and skin into abdominal organs.
 
 ---
 
