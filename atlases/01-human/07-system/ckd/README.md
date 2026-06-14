@@ -99,6 +99,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "CKD cripples vitamin D activation: damaged kidneys can't perform the final hydroxylation to active calcitriol, so calcium absorption falls and parathyroid hormone rises—driving the renal bone disease that defines CKD's mineral and bone disorder."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "CKD progresses through fibrosis: whatever the initial insult, tubulointerstitial fibrosis is the final common pathway that scars nephrons beyond repair, so the degree of fibrosis on biopsy predicts decline better than the original diagnosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "CKD throws phosphorus out of balance: failing kidneys can't excrete phosphate, so it rises and—with FGF23, PTH and low vitamin D—drives the bone disease and vascular calcification of CKD-mineral bone disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Angiotensin II accelerates CKD and is the key drug target: it raises glomerular pressure and drives scarring, so ACE inhibitors and ARBs that block it slow progression and reduce proteinuria—the cornerstone of renoprotection."
 ---
 
 # Chronic Kidney Disease
@@ -202,6 +211,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Failing kidneys can't dump potassium: as filtration drops, potassium builds up, and hyperkalemia—worsened by the ACE inhibitors and ARBs used to protect the kidney—can stop the heart, so it is among CKD's most urgent, monitored complications.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Heart and kidney failure drive each other (cardiorenal syndrome): CKD's fluid overload, hypertension, and anemia strain the heart, while a failing heart underperfuses the kidney—so the two organs decline together and share treatments like SGLT2 inhibitors.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — CKD cripples vitamin D activation: damaged kidneys can't perform the final hydroxylation to active calcitriol, so calcium absorption falls and parathyroid hormone rises—driving the renal bone disease that defines CKD's mineral and bone disorder.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — CKD progresses through fibrosis: whatever the initial insult, tubulointerstitial fibrosis is the final common pathway that scars nephrons beyond repair, so the degree of fibrosis on biopsy predicts decline better than the original diagnosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CKD throws phosphorus out of balance: failing kidneys can't excrete phosphate, so it rises and—with FGF23, PTH and low vitamin D—drives the bone disease and vascular calcification of CKD-mineral bone disorder.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Angiotensin II accelerates CKD and is the key drug target: it raises glomerular pressure and drives scarring, so ACE inhibitors and ARBs that block it slow progression and reduce proteinuria—the cornerstone of renoprotection.
 
 ## Pathology
 

@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity worsens breast cancer at both ends: after menopause, fat tissue's aromatase raises estrogen that drives hormone-receptor-positive tumors, and obesity-linked inflammation and insulin resistance worsen prognosis—so weight is a modifiable risk and outcome factor."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a frequent breast-cancer metastatic site: spread there, alongside bone, lung and brain, marks stage IV disease and worsens prognosis, so liver function and imaging are watched—and HR-positive cancers can colonize it years after the primary."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages help breast cancer spread: recruited into the tumor, they promote angiogenesis, invasion and immune evasion, and a macrophage-rich microenvironment predicts worse outcome—making them a target alongside the cancer cells."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Alcohol is a clear, modifiable breast-cancer risk: even moderate drinking raises risk by increasing estrogen and generating DNA-damaging acetaldehyde, so reducing alcohol is one of the few lifestyle levers proven to lower breast-cancer incidence."
 ---
 
 # Breast Cancer
@@ -233,6 +242,9 @@ cross_links:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Breast cancer is a leading source of brain metastases: HER2-positive and triple-negative subtypes especially seed the brain, where the blood-brain barrier shields tumor cells from many drugs—so brain-penetrant agents like tucatinib are changing outcomes.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts shape breast tumors: they build the stiff, desmoplastic stroma that aids invasion, fuels growth signals, and blocks drug delivery and immune access—so the fibroblast-rich microenvironment, not just tumor cells, drives progression.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity worsens breast cancer at both ends: after menopause, fat tissue's aromatase raises estrogen that drives hormone-receptor-positive tumors, and obesity-linked inflammation and insulin resistance worsen prognosis—so weight is a modifiable risk and outcome factor.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a frequent breast-cancer metastatic site: spread there, alongside bone, lung and brain, marks stage IV disease and worsens prognosis, so liver function and imaging are watched—and HR-positive cancers can colonize it years after the primary.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages help breast cancer spread: recruited into the tumor, they promote angiogenesis, invasion and immune evasion, and a macrophage-rich microenvironment predicts worse outcome—making them a target alongside the cancer cells.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a clear, modifiable breast-cancer risk: even moderate drinking raises risk by increasing estrogen and generating DNA-damaging acetaldehyde, so reducing alcohol is one of the few lifestyle levers proven to lower breast-cancer incidence.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
