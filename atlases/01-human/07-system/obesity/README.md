@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Obesity overworks the pancreas: insulin resistance forces beta cells to hypersecrete insulin for years until they exhaust and fail, tipping into type 2 diabetes—and excess fat also raises the risk of pancreatitis and pancreatic cancer."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Fat is an estrogen factory that links obesity to cancer: adipose aromatase converts androgens to estrogen, so excess fat raises estrogen and drives the breast and endometrial cancers obesity promotes—especially after menopause."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol shapes where fat goes and can cause obesity: it drives visceral fat deposition and appetite, and cortisol-excess Cushing's syndrome is a secondary cause of weight gain—so refractory central obesity prompts checking the adrenal axis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Obesity is a leading cause of heart failure with preserved ejection fraction: excess weight and adipose inflammation stiffen and strain the heart, and the obese-HFpEF phenotype now responds to the GLP-1 drugs used for weight loss."
 ---
 
 # Obesity
@@ -267,6 +276,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Obesity is a state of chronic inflammation run by macrophages: as fat cells enlarge and die, macrophages infiltrate adipose tissue and pour out cytokines (TNF-α, IL-6) that block insulin signaling—linking excess fat directly to insulin resistance and metabolic disease.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Obesity is a leading driver of hypertension: excess fat activates the sympathetic nervous system and renin-angiotensin axis and makes kidneys retain sodium, so weight gain raises blood pressure—and weight loss is among the most effective non-drug treatments.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Obesity overworks the pancreas: insulin resistance forces beta cells to hypersecrete insulin for years until they exhaust and fail, tipping into type 2 diabetes—and excess fat also raises the risk of pancreatitis and pancreatic cancer.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Fat is an estrogen factory that links obesity to cancer: adipose aromatase converts androgens to estrogen, so excess fat raises estrogen and drives the breast and endometrial cancers obesity promotes—especially after menopause.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol shapes where fat goes and can cause obesity: it drives visceral fat deposition and appetite, and cortisol-excess Cushing's syndrome is a secondary cause of weight gain—so refractory central obesity prompts checking the adrenal axis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Obesity is a leading cause of heart failure with preserved ejection fraction: excess weight and adipose inflammation stiffen and strain the heart, and the obese-HFpEF phenotype now responds to the GLP-1 drugs used for weight loss.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

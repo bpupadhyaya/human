@@ -107,6 +107,15 @@ cross_links:
   - target: 01-human/07-system/huntingtons-disease
     relation: connects-to
     note: "Huntington's disease shows OCD's basal-ganglia roots: striatal degeneration produces perseverative, obsessive, and compulsive behaviors, echoing the cortico-striatal-thalamic loop that misfires in OCD—evidence this circuit can generate repetitive thought and action."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "OCD can flare from brain inflammation in PANDAS: after strep infection, activated microglia and autoantibodies inflame the basal ganglia, triggering sudden-onset obsessions and tics in children—evidence the immune system can drive the disorder."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "PANDAS ties OCD to immune genetics: streptococcal antigens presented by MHC class II can prime antibodies that cross-react with basal-ganglia neurons (molecular mimicry), an autoimmune route to abrupt childhood obsessive-compulsive symptoms."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "OCD and insomnia feed each other: intrusive obsessions and compulsive rituals delay and fragment sleep, and the resulting sleep loss worsens the anxiety and cognitive control that keep OCD going—so sleep is part of treatment."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -261,6 +270,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF links OCD to faulty brain wiring: this neuroplasticity factor shapes the cortico-striatal circuits that misfire in OCD, and BDNF gene variants are among its genetic risk factors—helping explain why SSRIs, which raise BDNF, slowly remodel the disorder.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — OCD and ADHD frequently co-occur yet pull in opposite directions: both involve frontostriatal dysfunction, but OCD is over-controlled and ADHD impulsive, so stimulants for ADHD can sometimes worsen obsessions—complicating treatment when the two coexist.
 - `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — Huntington's disease shows OCD's basal-ganglia roots: striatal degeneration produces perseverative, obsessive, and compulsive behaviors, echoing the cortico-striatal-thalamic loop that misfires in OCD—evidence this circuit can generate repetitive thought and action.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — OCD can flare from brain inflammation in PANDAS: after strep infection, activated microglia and autoantibodies inflame the basal ganglia, triggering sudden-onset obsessions and tics in children—evidence the immune system can drive the disorder.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — PANDAS ties OCD to immune genetics: streptococcal antigens presented by MHC class II can prime antibodies that cross-react with basal-ganglia neurons (molecular mimicry), an autoimmune route to abrupt childhood obsessive-compulsive symptoms.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — OCD and insomnia feed each other: intrusive obsessions and compulsive rituals delay and fragment sleep, and the resulting sleep loss worsens the anxiety and cognitive control that keep OCD going—so sleep is part of treatment.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
