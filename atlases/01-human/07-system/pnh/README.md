@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/pulmonary-arterial-hypertension
     relation: connects-to
     note: "Chronic hemolysis in PNH can raise pulmonary pressure: free hemoglobin scavenges nitric oxide, constricting pulmonary vessels, so persistent NO depletion contributes to pulmonary hypertension and the breathlessness of long-standing disease."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "PNH's free hemoglobin strangles smooth muscle: intravascular hemolysis releases hemoglobin that scavenges nitric oxide, so smooth muscle stays contracted—causing the dysphagia, abdominal pain, pulmonary hypertension and erectile dysfunction of the disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "PNH paradoxically causes iron deficiency despite hemolysis: hemoglobin and hemosiderin spill into the urine continuously, draining iron from the body—so a hemolytic anemia ends up needing iron replacement, unlike most where iron is recycled."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The PNH clone thrives by escaping cytotoxic T cells: in aplastic anemia, autoreactive T cells attack GPI-anchored marrow cells, but the GPI-negative PNH clone is invisible to them—so immune attack selects the clone that then expands."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -207,6 +216,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — PNH unleashes free hemoglobin: complement rips open red cells, spilling hemoglobin into plasma where it stains the urine dark (hemoglobinuria) and mops up nitric oxide—so the classic morning-dark-urine and the NO-driven symptoms both flow from intravascular hemolysis.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — PNH is diagnosed through the neutrophil: the PIGA mutation strips GPI-anchored proteins from all blood cells, so flow cytometry (FLAER) detecting GPI-deficient neutrophils and monocytes—not just red cells—confirms the clone and gauges its size.
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Chronic hemolysis in PNH can raise pulmonary pressure: free hemoglobin scavenges nitric oxide, constricting pulmonary vessels, so persistent NO depletion contributes to pulmonary hypertension and the breathlessness of long-standing disease.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — PNH's free hemoglobin strangles smooth muscle: intravascular hemolysis releases hemoglobin that scavenges nitric oxide, so smooth muscle stays contracted—causing the dysphagia, abdominal pain, pulmonary hypertension and erectile dysfunction of the disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — PNH paradoxically causes iron deficiency despite hemolysis: hemoglobin and hemosiderin spill into the urine continuously, draining iron from the body—so a hemolytic anemia ends up needing iron replacement, unlike most where iron is recycled.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The PNH clone thrives by escaping cytotoxic T cells: in aplastic anemia, autoreactive T cells attack GPI-anchored marrow cells, but the GPI-negative PNH clone is invisible to them—so immune attack selects the clone that then expands.
 
 ---
 

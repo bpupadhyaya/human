@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Parkinson's often begins in the gut: constipation can precede tremor by years, and misfolded alpha-synuclein appears in enteric nerves early—fuelling the 'gut-first' hypothesis that the disease may ascend the vagus nerve from gut to brain."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Parkinson's disrupts the basal ganglia's glutamate balance: losing dopamine lets the subthalamic nucleus fire excess glutamate onto output nuclei, driving the movement slowing—so the NMDA-blocker amantadine and deep-brain stimulation of this glutamatergic hub help."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Parkinson's has an autoimmune flavor: T-helper cells that recognize alpha-synuclein peptides infiltrate the brain and may accelerate dopaminergic neuron loss, linking the adaptive immune system to a classic neurodegenerative disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Parkinson's denervates the heart early: loss of sympathetic nerves to the heart (seen on MIBG imaging) is a characteristic, early sign reflecting that alpha-synuclein pathology spreads through the autonomic nervous system beyond the brain."
 ---
 
 # Parkinson's Disease
@@ -262,6 +271,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Parkinson's is a dopamine-acetylcholine imbalance: as dopamine falls, relatively unopposed cholinergic activity in the striatum worsens tremor, so anticholinergic drugs help—while loss of cholinergic neurons elsewhere contributes to the dementia of advanced disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron accumulates in the Parkinson's brain: the substantia nigra loads with iron that can catalyze oxidative damage and ferroptosis of dopamine neurons, so brain iron is both a disease marker on MRI and a candidate target for protective therapy.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Parkinson's often begins in the gut: constipation can precede tremor by years, and misfolded alpha-synuclein appears in enteric nerves early—fuelling the 'gut-first' hypothesis that the disease may ascend the vagus nerve from gut to brain.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Parkinson's disrupts the basal ganglia's glutamate balance: losing dopamine lets the subthalamic nucleus fire excess glutamate onto output nuclei, driving the movement slowing—so the NMDA-blocker amantadine and deep-brain stimulation of this glutamatergic hub help.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Parkinson's has an autoimmune flavor: T-helper cells that recognize alpha-synuclein peptides infiltrate the brain and may accelerate dopaminergic neuron loss, linking the adaptive immune system to a classic neurodegenerative disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Parkinson's denervates the heart early: loss of sympathetic nerves to the heart (seen on MIBG imaging) is a characteristic, early sign reflecting that alpha-synuclein pathology spreads through the autonomic nervous system beyond the brain.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
