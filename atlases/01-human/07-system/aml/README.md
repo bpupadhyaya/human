@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "AML evades immunity with regulatory T cells: the leukemic marrow fills with Tregs that suppress the anti-leukemia response, a barrier to immunotherapy and to the graft-versus-leukemia effect that transplant relies on."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "AML suffocates the body by crowding out red cells: leukemic blasts pack the marrow and choke normal blood production, so anemia and low oxygen delivery—fatigue and breathlessness—are common presenting signs of the disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "AML can invade the brain and meninges: myeloid sarcoma and leptomeningeal spread, more common in monocytic subtypes, seed the CNS, so neurologic symptoms prompt spinal fluid testing and CNS-directed treatment."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are central to anti-leukemia immunity in AML: presenting blast antigens, they prime the T-cell and graft-versus-leukemia response, and dendritic-cell vaccines are explored to prevent relapse after treatment."
 ---
 
 # AML
@@ -258,6 +267,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — TET2 and DNMT3A break AML's methylation from opposite ends: TET2 normally erases DNA methylation while DNMT3A writes it, so mutating either scrambles the epigenome of blood stem cells—converging on the same leukemic dysregulation from opposite directions.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — AML's leukemic stem cells survive on autophagy: they recycle their contents to weather metabolic stress and chemotherapy, so blocking autophagy is studied to eradicate the stem cells that drive relapse after remission.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — AML evades immunity with regulatory T cells: the leukemic marrow fills with Tregs that suppress the anti-leukemia response, a barrier to immunotherapy and to the graft-versus-leukemia effect that transplant relies on.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AML suffocates the body by crowding out red cells: leukemic blasts pack the marrow and choke normal blood production, so anemia and low oxygen delivery—fatigue and breathlessness—are common presenting signs of the disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AML can invade the brain and meninges: myeloid sarcoma and leptomeningeal spread, more common in monocytic subtypes, seed the CNS, so neurologic symptoms prompt spinal fluid testing and CNS-directed treatment.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are central to anti-leukemia immunity in AML: presenting blast antigens, they prime the T-cell and graft-versus-leukemia response, and dendritic-cell vaccines are explored to prevent relapse after treatment.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Ankylosing spondylitis may ignite from dendritic cells: sensing gut microbes and HLA-B27-presented peptides, they secrete IL-23 that drives the IL-17 response attacking entheses, linking the gut to the inflamed spine."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "A gut-joint axis drives ankylosing spondylitis: subclinical bowel inflammation and a disturbed microbiome prime the IL-23/IL-17 response that attacks the spine, linking the large intestine to the disease and its overlap with IBD."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Ankylosing spondylitis both erodes and fuses bone: osteoclasts carve early erosions at inflamed entheses even as new bone later bridges the joints, so the same disease that destroys bone ends by welding the spine rigid."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages bridge gut and spine in ankylosing spondylitis: activated in the inflamed bowel and at the entheses, they pour out TNF and other cytokines that drive the inflammation, making them a hub of the IL-23/IL-17-fed disease."
 ---
 
 # Ankylosing Spondylitis
@@ -256,6 +265,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Ankylosing spondylitis fuses the spine by silencing sclerostin: this Wnt-pathway brake on bone formation falls in AS, so unopposed Wnt drives the new bone (syndesmophytes) that bridges vertebrae into a bamboo spine.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shapes ankylosing spondylitis: deficiency is common and may worsen both the bone loss and the IL-17-driven inflammation, so vitamin D status is watched in a disease that paradoxically erodes and overgrows bone.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Ankylosing spondylitis may ignite from dendritic cells: sensing gut microbes and HLA-B27-presented peptides, they secrete IL-23 that drives the IL-17 response attacking entheses, linking the gut to the inflamed spine.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A gut-joint axis drives ankylosing spondylitis: subclinical bowel inflammation and a disturbed microbiome prime the IL-23/IL-17 response that attacks the spine, linking the large intestine to the disease and its overlap with IBD.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Ankylosing spondylitis both erodes and fuses bone: osteoclasts carve early erosions at inflamed entheses even as new bone later bridges the joints, so the same disease that destroys bone ends by welding the spine rigid.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages bridge gut and spine in ankylosing spondylitis: activated in the inflamed bowel and at the entheses, they pour out TNF and other cytokines that drive the inflammation, making them a hub of the IL-23/IL-17-fed disease.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
