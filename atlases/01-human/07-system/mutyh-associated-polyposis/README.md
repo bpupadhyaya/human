@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Breast cancer is a debated MUTYH extracolonic risk: some studies link biallelic MUTYH loss to a modest rise in breast cancer, adding it to the extracolonic tumors weighed when counseling families with the syndrome."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "MUTYH-associated polyposis writes its mutations as G→T transversions: failed repair of oxidized guanine misspells DNA, hitting APC, KRAS, and tumor suppressors like CDKN2A—a distinctive oxidative signature that turns colon polyps cancerous."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "MAP tumors carry a heavy mutation load that can alert NK cells: the oxidative damage spawns many altered proteins, marking cells for natural killer (and T-cell) attack and making these cancers candidates for immunotherapy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "MAP's mutation-rich tumors give dendritic cells plenty to present: the neoantigens from oxidative DNA errors can be displayed to prime T cells, an immune opening that checkpoint therapy may exploit in mismatch-proficient but heavily mutated cancers."
 ---
 
 # MUTYH-Associated Polyposis
@@ -240,6 +249,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — MUTYH-driven tumors are hypermutated and immunogenic: unrepaired oxidative damage produces a heavy load of G-to-T mutations and neoantigens that cytotoxic T cells can recognize, so checkpoint immunotherapy is of interest in these cancers.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — MUTYH-associated polyposis raises risk beyond the bowel: biallelic carriers face a modestly increased rate of ovarian and other extracolonic cancers, so management considers gynecologic risk alongside the dominant colorectal surveillance.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Breast cancer is a debated MUTYH extracolonic risk: some studies link biallelic MUTYH loss to a modest rise in breast cancer, adding it to the extracolonic tumors weighed when counseling families with the syndrome.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — MUTYH-associated polyposis writes its mutations as G→T transversions: failed repair of oxidized guanine misspells DNA, hitting APC, KRAS, and tumor suppressors like CDKN2A—a distinctive oxidative signature that turns colon polyps cancerous.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — MAP tumors carry a heavy mutation load that can alert NK cells: the oxidative damage spawns many altered proteins, marking cells for natural killer (and T-cell) attack and making these cancers candidates for immunotherapy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — MAP's mutation-rich tumors give dendritic cells plenty to present: the neoantigens from oxidative DNA errors can be displayed to prime T cells, an immune opening that checkpoint therapy may exploit in mismatch-proficient but heavily mutated cancers.
 
 ---
 
