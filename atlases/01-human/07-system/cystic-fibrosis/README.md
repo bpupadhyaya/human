@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Treating cystic fibrosis can deplete magnesium: the IV aminoglycosides used against Pseudomonas waste magnesium through the kidney, and malabsorption adds to it, so low magnesium is a recurring complication to monitor and replace."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Cystic fibrosis lungs over-inflame through NF-kB: the defective CFTR channel primes airway cells to ramp up this inflammatory switch, so even modest infection triggers a damaging neutrophil flood, driving the relentless lung destruction."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T-helper cells skew the cystic fibrosis airway toward harm: a Th17- and Th2-tilted response amplifies inflammation against chronic Pseudomonas and fungi rather than clearing them, adding adaptive immunity to the neutrophilic damage."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Cystic fibrosis ends as an oxygen problem: thick mucus, infection and scarring wreck gas exchange, so chronic low oxygen drives pulmonary hypertension and cor pulmonale, the respiratory failure that defines advanced disease."
 ---
 
 # Cystic Fibrosis
@@ -263,6 +272,9 @@ AND
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Cystic fibrosis starves the body of vitamin D: pancreatic insufficiency blocks absorption of fat-soluble vitamins, so CF patients run low on vitamin D and need high-dose supplements to fend off the bone disease that shadows the illness.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Cystic fibrosis breeds its own diabetes through insulin loss: scarring of the pancreas destroys insulin-producing islet cells, causing CF-related diabetes—a distinct form, neither type 1 nor type 2, that worsens lung decline and needs insulin.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Treating cystic fibrosis can deplete magnesium: the IV aminoglycosides used against Pseudomonas waste magnesium through the kidney, and malabsorption adds to it, so low magnesium is a recurring complication to monitor and replace.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Cystic fibrosis lungs over-inflame through NF-kB: the defective CFTR channel primes airway cells to ramp up this inflammatory switch, so even modest infection triggers a damaging neutrophil flood, driving the relentless lung destruction.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells skew the cystic fibrosis airway toward harm: a Th17- and Th2-tilted response amplifies inflammation against chronic Pseudomonas and fungi rather than clearing them, adding adaptive immunity to the neutrophilic damage.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cystic fibrosis ends as an oxygen problem: thick mucus, infection and scarring wreck gas exchange, so chronic low oxygen drives pulmonary hypertension and cor pulmonale, the respiratory failure that defines advanced disease.
 
 ---
 

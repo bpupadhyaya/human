@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Cowden syndrome warps cerebellar neurons in Lhermitte-Duclos disease: PTEN loss drives a hamartomatous overgrowth of dysplastic neurons in the cerebellum, the nervous-system hallmark that, with macrocephaly, points to the diagnosis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Cowden syndrome raises the risk of kidney cancer: PTEN loss unleashes the PI3K-mTOR growth axis in renal cells too, so renal cell carcinoma joins breast, thyroid and uterine cancers in the surveillance these patients need."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "PTEN loss in Cowden drives VEGF and abnormal vessels: with the PI3K-mTOR brake gone, cells overproduce VEGF, fueling the vascular malformations and the blood supply of the hamartomas and tumors the syndrome spawns."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Cowden's hamartomas are overgrowths shaped by TGF-beta: unchecked PTEN-pathway signaling with TGF-beta drives the fibrous proliferation behind the skin trichilemmomas, oral papillomas and intestinal hamartomas that define the syndrome."
 ---
 
 # Cowden Syndrome
@@ -315,6 +324,9 @@ cross_links:
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Cowden syndrome silences FOXO by unleashing AKT: PTEN normally restrains AKT, so its loss lets AKT shut down FOXO transcription factors that would trigger apoptosis and cell-cycle arrest—removing a brake and letting hamartomas and cancers grow.
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — Some Cowden-like patients carry SDHB instead of PTEN: a subset with the classic features but no PTEN mutation have variants in mitochondrial SDHB/SDHD, so testing these genes helps explain PTEN-negative cases and refines cancer risk.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Cowden syndrome warps cerebellar neurons in Lhermitte-Duclos disease: PTEN loss drives a hamartomatous overgrowth of dysplastic neurons in the cerebellum, the nervous-system hallmark that, with macrocephaly, points to the diagnosis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cowden syndrome raises the risk of kidney cancer: PTEN loss unleashes the PI3K-mTOR growth axis in renal cells too, so renal cell carcinoma joins breast, thyroid and uterine cancers in the surveillance these patients need.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PTEN loss in Cowden drives VEGF and abnormal vessels: with the PI3K-mTOR brake gone, cells overproduce VEGF, fueling the vascular malformations and the blood supply of the hamartomas and tumors the syndrome spawns.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Cowden's hamartomas are overgrowths shaped by TGF-beta: unchecked PTEN-pathway signaling with TGF-beta drives the fibrous proliferation behind the skin trichilemmomas, oral papillomas and intestinal hamartomas that define the syndrome.
 
 ---
 
