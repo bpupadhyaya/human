@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Helicobacter recruits regulatory T cells that shield gastric cancer: the bacterium induces Tregs that dampen the immune attack, letting infection persist and the tumor evade clearance, while blunting checkpoint-therapy responses."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Gastric cancer bleeds away iron: the tumor oozes blood into the stomach, so a slow, painless iron-deficiency anemia is often the first clue, especially in older patients."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Gastric cancer invades the neighboring pancreas: as it grows through the stomach wall, the tumor can reach the adjacent pancreas, a local spread that signals advanced, often unresectable disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Diffuse gastric cancer turns the stomach to fibrosis: signet-ring cells provoke a dense desmoplastic reaction (linitis plastica) that stiffens the whole stomach wall into a rigid 'leather bottle.'"
 ---
 
 # Gastric Cancer
@@ -294,6 +303,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Nitrogen-based nitrosamines help cause gastric cancer: salted, smoked and pickled foods, and nitrate converted by stomach bacteria, generate DNA-damaging N-nitroso compounds, a dietary driver that compounds Helicobacter infection.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Helicobacter drives gastric cancer through NF-kB: the infection keeps this inflammatory switch active in the stomach lining, sustaining the chronic gastritis and survival signaling that step the mucosa toward malignancy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Helicobacter recruits regulatory T cells that shield gastric cancer: the bacterium induces Tregs that dampen the immune attack, letting infection persist and the tumor evade clearance, while blunting checkpoint-therapy responses.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Gastric cancer bleeds away iron: the tumor oozes blood into the stomach, so a slow, painless iron-deficiency anemia is often the first clue, especially in older patients.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Gastric cancer invades the neighboring pancreas: as it grows through the stomach wall, the tumor can reach the adjacent pancreas, a local spread that signals advanced, often unresectable disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Diffuse gastric cancer turns the stomach to fibrosis: signet-ring cells provoke a dense desmoplastic reaction (linitis plastica) that stiffens the whole stomach wall into a rigid 'leather bottle.'
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "B-cell receptor signaling keeps follicular lymphoma alive through calcium: tonic receptor firing drives a calcium flux that promotes survival, which is why BTK and PI3K inhibitors that interrupt this pathway have a role in treatment."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Follicular lymphoma quietly drains iron: marrow infiltration and chronic disease suppress red-cell production and sequester iron, so anemia often accompanies this slow-growing lymphoma."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Follicular lymphoma has a gut form: duodenal-type follicular lymphoma arises in the small intestine as an indolent, often localized disease found incidentally on endoscopy."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Follicular lymphoma depends on endothelial cells: VEGF from the tumor and its niche recruits these vessel-lining cells to build the vasculature that sustains the slow-growing clone in the lymph node."
 ---
 
 # Follicular Lymphoma
@@ -273,6 +282,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages predict outcome in follicular lymphoma: the number of lymphoma-associated macrophages in the tumor tracks with prognosis, and these cells both support the malignant B cells and mediate the killing when rituximab is given.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Follicular lymphoma leans on its vascular niche via VEGF: the indolent tumor recruits new vessels and a supportive microenvironment in the lymph node, with VEGF-driven angiogenesis sustaining the slow-growing B-cell clone.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — B-cell receptor signaling keeps follicular lymphoma alive through calcium: tonic receptor firing drives a calcium flux that promotes survival, which is why BTK and PI3K inhibitors that interrupt this pathway have a role in treatment.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Follicular lymphoma quietly drains iron: marrow infiltration and chronic disease suppress red-cell production and sequester iron, so anemia often accompanies this slow-growing lymphoma.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Follicular lymphoma has a gut form: duodenal-type follicular lymphoma arises in the small intestine as an indolent, often localized disease found incidentally on endoscopy.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Follicular lymphoma depends on endothelial cells: VEGF from the tumor and its niche recruits these vessel-lining cells to build the vasculature that sustains the slow-growing clone in the lymph node.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
