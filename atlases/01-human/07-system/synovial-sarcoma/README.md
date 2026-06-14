@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Synovial sarcoma runs an IGF-1 autocrine loop: the tumor overexpresses IGF1R and its ligands to drive growth and survival, so IGF1R inhibition has been explored as targeted therapy in this fusion-driven sarcoma."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "Synovial sarcoma is a chromatin disease: its SS18-SSX fusion hijacks the SWI/SNF (BAF) complex—which includes ARID1A—wrenching it onto the wrong genes, so the tumor is driven by epigenetic miswiring rather than classic mutations."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Synovial sarcoma's immunotherapy is limited by regulatory T cells: it expresses the NY-ESO-1 antigen targeted by TCR-engineered T cells, but a Treg-rich, suppressive microenvironment blunts the attack and curbs durable responses."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Synovial sarcoma grows on IGF-driven mTOR signaling: autocrine IGF-1 feeds the PI3K-AKT-mTOR axis to fuel proliferation, making mTOR a studied target in a sarcoma otherwise reliant on chemotherapy and surgery."
 ---
 
 # Synovial Sarcoma
@@ -249,6 +258,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Synovial sarcoma is a flagship for engineered T cells: it expresses NY-ESO-1, and afamitresgene autoleucel—TCR-engineered cytotoxic T cells targeting that antigen—won FDA approval in 2024 for this sarcoma, a first for solid-tumor TCR therapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Synovial sarcoma is an immunologically 'cold' tumor rich in macrophages: tumor-associated macrophages dominate its sparse immune infiltrate and suppress T-cell responses, helping explain why checkpoint inhibitors disappoint while TCR-engineered T cells work.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Synovial sarcoma runs an IGF-1 autocrine loop: the tumor overexpresses IGF1R and its ligands to drive growth and survival, so IGF1R inhibition has been explored as targeted therapy in this fusion-driven sarcoma.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Synovial sarcoma is a chromatin disease: its SS18-SSX fusion hijacks the SWI/SNF (BAF) complex—which includes ARID1A—wrenching it onto the wrong genes, so the tumor is driven by epigenetic miswiring rather than classic mutations.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Synovial sarcoma's immunotherapy is limited by regulatory T cells: it expresses the NY-ESO-1 antigen targeted by TCR-engineered T cells, but a Treg-rich, suppressive microenvironment blunts the attack and curbs durable responses.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Synovial sarcoma grows on IGF-driven mTOR signaling: autocrine IGF-1 feeds the PI3K-AKT-mTOR axis to fuel proliferation, making mTOR a studied target in a sarcoma otherwise reliant on chemotherapy and surgery.
 
 ---
 

@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Systemic sclerosis vasculopathy reflects lost nitric oxide: damaged endothelium makes too little NO and too much endothelin, so vessels constrict—driving Raynaud's, digital ulcers and pulmonary hypertension treated with vasodilators that restore NO signaling."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Systemic sclerosis fibrosis is driven by PDGF: the growth factor (and stimulatory anti-PDGFR antibodies) push fibroblasts into collagen-spewing myofibroblasts, so PDGFR-blocking drugs like nintedanib slow the lung scarring."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Systemic sclerosis is fibrosed by M2 macrophages: alternatively-activated macrophages flood the skin and lung and secrete TGF-beta and other signals that drive the relentless collagen deposition central to the disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells mark early systemic sclerosis: they accumulate in affected skin and release mediators that activate fibroblasts and inflame vessels, contributing to both the fibrosis and the Raynaud's vasculopathy of the disease."
 ---
 
 # Systemic Sclerosis
@@ -245,6 +254,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Scleroderma renal crisis is an angiotensin-II emergency: sudden malignant hypertension and kidney failure from activated renin-angiotensin once killed many patients, but ACE inhibitors blocking angiotensin II converted it into a treatable complication.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcinosis is the 'C' of CREST in systemic sclerosis: calcium deposits in skin and soft tissue form painful, sometimes ulcerating nodules, one of the hallmark features of limited cutaneous disease alongside Raynaud's and esophageal involvement.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Systemic sclerosis vasculopathy reflects lost nitric oxide: damaged endothelium makes too little NO and too much endothelin, so vessels constrict—driving Raynaud's, digital ulcers and pulmonary hypertension treated with vasodilators that restore NO signaling.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Systemic sclerosis fibrosis is driven by PDGF: the growth factor (and stimulatory anti-PDGFR antibodies) push fibroblasts into collagen-spewing myofibroblasts, so PDGFR-blocking drugs like nintedanib slow the lung scarring.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Systemic sclerosis is fibrosed by M2 macrophages: alternatively-activated macrophages flood the skin and lung and secrete TGF-beta and other signals that drive the relentless collagen deposition central to the disease.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells mark early systemic sclerosis: they accumulate in affected skin and release mediators that activate fibroblasts and inflame vessels, contributing to both the fibrosis and the Raynaud's vasculopathy of the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
