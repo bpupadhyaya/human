@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages populate DICER1's tumors: in the pleuropulmonary blastomas and sarcomas of the syndrome they infiltrate the stroma and secrete growth and angiogenic factors, shaping the microenvironment of these embryonal cancers."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "DICER1's cystic lung tumors can burst into the chest: type I pleuropulmonary blastoma forms air-filled cysts that rupture, spilling air—mostly nitrogen—into the pleural space and collapsing the lung (pneumothorax)."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "DICER1's embryonal tumors build new vessels: endothelial cells form the dense vasculature that supplies the fast-growing pleuropulmonary blastomas and sarcomas, a feature anti-angiogenic drugs aim to cut off."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "DICER1 syndrome reaches the pancreas: rare pancreatoblastoma, a childhood pancreatic cancer, is part of its broad tumor spectrum, extending the syndrome's microRNA-driven risk to yet another organ."
 ---
 
 # DICER1 Syndrome
@@ -262,6 +271,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — DICER1 tumors lean on mTOR growth signaling: the embryonal and sarcomatous tumors of the syndrome activate this pathway to fuel proliferation, making mTOR inhibition a strategy explored across its diverse childhood cancers.
 - `connects-to` → **[WT1](../../03-molecular/wt1/README.md)** — DICER1 syndrome raises the risk of Wilms tumor, the cancer of the WT1 gene: though it strikes the kidney by a different route—failed microRNA processing rather than WT1 loss—it adds nephroblastoma to the syndrome's tumor spectrum.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages populate DICER1's tumors: in the pleuropulmonary blastomas and sarcomas of the syndrome they infiltrate the stroma and secrete growth and angiogenic factors, shaping the microenvironment of these embryonal cancers.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DICER1's cystic lung tumors can burst into the chest: type I pleuropulmonary blastoma forms air-filled cysts that rupture, spilling air—mostly nitrogen—into the pleural space and collapsing the lung (pneumothorax).
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — DICER1's embryonal tumors build new vessels: endothelial cells form the dense vasculature that supplies the fast-growing pleuropulmonary blastomas and sarcomas, a feature anti-angiogenic drugs aim to cut off.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — DICER1 syndrome reaches the pancreas: rare pancreatoblastoma, a childhood pancreatic cancer, is part of its broad tumor spectrum, extending the syndrome's microRNA-driven risk to yet another organ.
 
 ---
 

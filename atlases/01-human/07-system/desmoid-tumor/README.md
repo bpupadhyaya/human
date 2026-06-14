@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "The desmoid's dense fibrous core runs low on oxygen: as the mass outgrows its blood supply it turns hypoxic, stabilizing HIF and driving the VEGF-fueled angiogenesis that lets the relentless fibromatosis keep expanding."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Mesenteric desmoids strangle the bowel: especially in FAP, these fibrous tumors grow through the mesentery and encase the intestine, obstructing the gut and threatening the vessels and ureters around it."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Abdominal desmoids can choke the kidneys: a growing mesenteric mass compresses the ureters, backing urine up into the kidneys (hydronephrosis) and threatening renal function, a feared complication of FAP-associated desmoids."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Desmoids weave a dense matrix of fibronectin: their myofibroblasts pour out fibronectin and collagen to build the tough fibrous stroma that gives the tumor its hardness and infiltrative grip on surrounding tissue."
 ---
 
 # Desmoid Tumor
@@ -281,6 +290,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Desmoids also lean on PI3K-AKT growth signaling: alongside the driving Wnt/beta-catenin lesion, AKT-mTOR activity sustains the myofibroblast proliferation, which is why mTOR-pathway drugs have been tried in these locally aggressive fibrous tumors.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Desmoids are immune-cold tumors with few cytotoxic T cells: their dense collagen stroma keeps killer T cells sparse, helping explain why checkpoint immunotherapy has little effect and why treatment instead targets Wnt and growth signals.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — The desmoid's dense fibrous core runs low on oxygen: as the mass outgrows its blood supply it turns hypoxic, stabilizing HIF and driving the VEGF-fueled angiogenesis that lets the relentless fibromatosis keep expanding.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Mesenteric desmoids strangle the bowel: especially in FAP, these fibrous tumors grow through the mesentery and encase the intestine, obstructing the gut and threatening the vessels and ureters around it.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Abdominal desmoids can choke the kidneys: a growing mesenteric mass compresses the ureters, backing urine up into the kidneys (hydronephrosis) and threatening renal function, a feared complication of FAP-associated desmoids.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Desmoids weave a dense matrix of fibronectin: their myofibroblasts pour out fibronectin and collagen to build the tough fibrous stroma that gives the tumor its hardness and infiltrative grip on surrounding tissue.
 
 ---
 
