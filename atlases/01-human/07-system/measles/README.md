@@ -110,6 +110,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Measles' late brain disease attacks memory circuits: SSPE (subacute sclerosing panencephalitis), a fatal years-later complication of persistent virus, progressively destroys neurons—including hippocampal memory regions—causing dementia and seizures."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Measles' biggest killer is often the gut: the virus inflames the intestinal lining, causing severe diarrhea and dehydration that, with malnutrition, account for much of measles mortality in young children."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Measles' late brain disease destroys myelin: in SSPE the persistent virus damages oligodendrocytes and white matter alongside neurons, so demyelination joins neuron loss in the relentless years-later deterioration."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Measles leaves the immune system amnesic: by infecting and depleting memory lymphocytes and inducing a regulatory, IL-10-skewed state, it erases protection against other germs for months to years, raising deaths from later infections."
 ---
 
 # Measles
@@ -285,6 +294,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Measles erases immune memory by killing plasma and memory cells: the virus depletes the long-lived B cells and plasma cells holding antibody memory, so survivors lose protection against other pathogens for years—'immune amnesia.'
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Measles in pregnancy is dangerous across the placenta: maternal infection raises the risk of miscarriage, prematurity and severe disease, and the virus can cross to cause congenital or neonatal measles—so vaccination before pregnancy matters.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Measles' late brain disease attacks memory circuits: SSPE (subacute sclerosing panencephalitis), a fatal years-later complication of persistent virus, progressively destroys neurons—including hippocampal memory regions—causing dementia and seizures.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Measles' biggest killer is often the gut: the virus inflames the intestinal lining, causing severe diarrhea and dehydration that, with malnutrition, account for much of measles mortality in young children.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Measles' late brain disease destroys myelin: in SSPE the persistent virus damages oligodendrocytes and white matter alongside neurons, so demyelination joins neuron loss in the relentless years-later deterioration.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Measles leaves the immune system amnesic: by infecting and depleting memory lymphocytes and inducing a regulatory, IL-10-skewed state, it erases protection against other germs for months to years, raising deaths from later infections.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

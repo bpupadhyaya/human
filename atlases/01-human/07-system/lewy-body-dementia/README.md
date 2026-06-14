@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Brain iron accumulation feeds Lewy body disease: iron builds up in vulnerable neurons and catalyzes oxidative stress that promotes alpha-synuclein aggregation, linking a metal imbalance to the protein clumping at the disease's core."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Lewy body disease may begin in the gut: alpha-synuclein clumps appear in the intestinal nerves years before dementia, and constipation is a common early warning, supporting the idea that the pathology can climb the vagus nerve from gut to brain."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Lewy body dementia injures the brain's white matter: alpha-synuclein and degeneration affect oligodendrocytes and myelinated tracts, so disrupted connectivity between regions adds to the cholinergic loss behind the fluctuating cognition."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper binds alpha-synuclein directly: the protein has a copper-grabbing site, and disordered copper handling shifts synuclein toward the misfolded, aggregation-prone form, so a second metal beyond iron is tied to the Lewy body's core protein."
 ---
 
 # Lewy Body Dementia
@@ -269,6 +278,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Vivid visual hallucinations set Lewy body dementia apart: degeneration in visual-processing pathways makes well-formed hallucinations (often of people or animals) a core early feature, helping distinguish it from Alzheimer's at the bedside.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Lewy body dementia is treated partly by tuning glutamate: the NMDA-blocker memantine dampens excitotoxic glutamate signaling to modestly help cognition, complementing the cholinesterase inhibitors that target the disease's severe acetylcholine loss.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Brain iron accumulation feeds Lewy body disease: iron builds up in vulnerable neurons and catalyzes oxidative stress that promotes alpha-synuclein aggregation, linking a metal imbalance to the protein clumping at the disease's core.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Lewy body disease may begin in the gut: alpha-synuclein clumps appear in the intestinal nerves years before dementia, and constipation is a common early warning, supporting the idea that the pathology can climb the vagus nerve from gut to brain.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Lewy body dementia injures the brain's white matter: alpha-synuclein and degeneration affect oligodendrocytes and myelinated tracts, so disrupted connectivity between regions adds to the cholinergic loss behind the fluctuating cognition.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper binds alpha-synuclein directly: the protein has a copper-grabbing site, and disordered copper handling shifts synuclein toward the misfolded, aggregation-prone form, so a second metal beyond iron is tied to the Lewy body's core protein.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
