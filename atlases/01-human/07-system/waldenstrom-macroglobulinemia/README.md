@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Waldenström evades immunity through regulatory T cells: the marrow accumulates Tregs and exhausted T cells that dampen the antitumor response, helping the slow-growing lymphoplasmacytic clone persist and limiting immunotherapy."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Waldenström can invade the brain: in rare Bing-Neel syndrome the lymphoplasmacytic cells seed the central nervous system, causing headaches, confusion, and neurological deficits that require treatments able to cross into the brain."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Waldenström blunts the body's iron use: marrow packed with the clone and chronic inflammation choke off red-cell production and lock away iron, so anemia—often the presenting complaint—dominates the disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Waldenström's thick IgM batters the endothelium: the sludgy, hyperviscous blood engorges and damages the vessel-lining cells, swelling retinal veins and causing the headaches, bleeding, and vision loss of hyperviscosity syndrome."
 ---
 
 # Waldenström Macroglobulinemia
@@ -257,6 +266,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Waldenström's hallmark is hyperviscosity from monoclonal protein: the malignant clone floods blood with IgM that thickens it, inverting the normal albumin-to-globulin ratio and causing the bleeding, visual, and neurologic symptoms relieved by plasmapheresis.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Waldenström's cells survive on autophagy downstream of MYD88: constant MYD88/NF-κB signaling and heavy antibody output make the clone lean on autophagy to manage stress, a vulnerability alongside the BTK pathway that drugs target.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Waldenström evades immunity through regulatory T cells: the marrow accumulates Tregs and exhausted T cells that dampen the antitumor response, helping the slow-growing lymphoplasmacytic clone persist and limiting immunotherapy.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Waldenström can invade the brain: in rare Bing-Neel syndrome the lymphoplasmacytic cells seed the central nervous system, causing headaches, confusion, and neurological deficits that require treatments able to cross into the brain.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Waldenström blunts the body's iron use: marrow packed with the clone and chronic inflammation choke off red-cell production and lock away iron, so anemia—often the presenting complaint—dominates the disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Waldenström's thick IgM batters the endothelium: the sludgy, hyperviscous blood engorges and damages the vessel-lining cells, swelling retinal veins and causing the headaches, bleeding, and vision loss of hyperviscosity syndrome.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

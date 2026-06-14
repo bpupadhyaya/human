@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Type 1 diabetes begins as insulitis led by macrophages: these innate cells are among the first to invade the islets, presenting beta-cell antigens and secreting toxic mediators that recruit the T cells which finish the destruction."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Type 1 diabetes can flood the blood with hydrogen ions: without insulin the body burns fat into acidic ketones, and the resulting diabetic ketoacidosis drops blood pH into a dangerous acidosis—the classic emergency that often reveals the disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Type 1 diabetes unleashes the liver: lacking insulin's brake, it overproduces glucose and converts incoming fatty acids into the ketone bodies of ketoacidosis, so the liver drives both the high blood sugar and the acid crisis."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Insulin loss in type 1 diabetes sets fat cells loose: unrestrained lipolysis pours free fatty acids out of adipocytes, supplying the liver with the raw material it turns into the ketones that cause ketoacidosis."
 ---
 
 # Type 1 Diabetes
@@ -243,6 +252,9 @@ cross_links:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Type 1 diabetes attacks a zinc transporter: ZnT8, which loads zinc into insulin granules, is a major autoantigen—anti-ZnT8 antibodies help diagnose it—and zinc is needed to crystallize and store the very insulin the disease destroys.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type 1 diabetes carries a type I interferon signature: viral triggers (like coxsackievirus) and IFN make beta cells display more antigen and self-destruct, so interferon is a bridge from infection to the autoimmune attack on the islets.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Type 1 diabetes begins as insulitis led by macrophages: these innate cells are among the first to invade the islets, presenting beta-cell antigens and secreting toxic mediators that recruit the T cells which finish the destruction.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Type 1 diabetes can flood the blood with hydrogen ions: without insulin the body burns fat into acidic ketones, and the resulting diabetic ketoacidosis drops blood pH into a dangerous acidosis—the classic emergency that often reveals the disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Type 1 diabetes unleashes the liver: lacking insulin's brake, it overproduces glucose and converts incoming fatty acids into the ketone bodies of ketoacidosis, so the liver drives both the high blood sugar and the acid crisis.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Insulin loss in type 1 diabetes sets fat cells loose: unrestrained lipolysis pours free fatty acids out of adipocytes, supplying the liver with the raw material it turns into the ketones that cause ketoacidosis.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
