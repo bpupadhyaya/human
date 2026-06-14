@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Retinal astrocytic hamartomas mimic retinoblastoma: these benign glial (astrocyte) tumors, often from tuberous sclerosis, can cause leukocoria too, so distinguishing them from retinoblastoma is a key part of evaluating a white pupil in a child."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Retinoblastoma can become 'trilateral' in the melatonin-making pineal gland: germline RB1 carriers develop pineoblastoma, a tumor of the pineal—the brain's light-sensing, melatonin-secreting organ—mirroring the eye's photoreceptor cancer."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Retinoblastoma is a vascular tumor treated through its blood supply: it expresses VEGF to grow vessels, and chemotherapy delivered straight into the ophthalmic artery (with anti-angiogenic strategies) targets the tumor while sparing the eye."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Retinoblastoma recruits tumor-associated macrophages: these infiltrating immune cells populate the tumor and may support its growth and survival, making the eye tumor's immune microenvironment a subject of study for new therapies."
 ---
 
 # Retinoblastoma
@@ -236,6 +245,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Retinoblastoma anchors the cyclin D-CDK-RB axis: cyclin D1 with CDK4/6 phosphorylates and inactivates the RB protein, releasing E2F to drive the cell cycle—so when RB1 is lost, this brake fails entirely, the defining lesion of the disease.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Eye-sparing retinoblastoma treatment includes radioactive iodine plaques: an I-125 episcleral plaque delivers localized radiation to the tumor while sparing the rest of the eye, one way to treat tumors and try to preserve vision short of removing the eye.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Retinal astrocytic hamartomas mimic retinoblastoma: these benign glial (astrocyte) tumors, often from tuberous sclerosis, can cause leukocoria too, so distinguishing them from retinoblastoma is a key part of evaluating a white pupil in a child.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Retinoblastoma can become 'trilateral' in the melatonin-making pineal gland: germline RB1 carriers develop pineoblastoma, a tumor of the pineal—the brain's light-sensing, melatonin-secreting organ—mirroring the eye's photoreceptor cancer.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Retinoblastoma is a vascular tumor treated through its blood supply: it expresses VEGF to grow vessels, and chemotherapy delivered straight into the ophthalmic artery (with anti-angiogenic strategies) targets the tumor while sparing the eye.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Retinoblastoma recruits tumor-associated macrophages: these infiltrating immune cells populate the tumor and may support its growth and survival, making the eye tumor's immune microenvironment a subject of study for new therapies.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

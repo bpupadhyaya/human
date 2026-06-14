@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Rhabdomyosarcoma signals through PI3K-AKT-mTOR: IGF and receptor-kinase inputs converge on mTOR to drive growth, especially in embryonal tumors, so mTOR inhibitors have been tested to add to chemotherapy in this childhood sarcoma."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Embryonal rhabdomyosarcoma is often RAS-driven: unlike the fusion-positive alveolar type, embryonal RMS frequently carries NRAS/KRAS mutations that switch on RAS-MAPK growth, defining a biologically distinct, generally better-prognosis subtype."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "Rhabdomyosarcoma can run on Hedgehog through SMO: embryonal RMS often shows Hedgehog pathway activation, and Gorlin-syndrome patients are prone to it, so smoothened-driven signaling is a developmental pathway hijacked by this muscle cancer."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Rhabdomyosarcoma is infiltrated by tumor-associated macrophages: these cells populate the sarcoma's stroma and promote growth and immune escape, and a macrophage-rich infiltrate is linked to worse outcomes in this childhood cancer."
 ---
 
 # Rhabdomyosarcoma
@@ -251,6 +260,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Rhabdomyosarcoma can flood the bone marrow: alveolar RMS especially metastasizes to marrow so heavily it mimics acute leukemia on a blood smear, so marrow involvement is staged carefully and signals high-risk, disseminated disease.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Rhabdomyosarcoma is the malignant face of developing skeletal muscle: it shows the cross-striations and myogenic markers (MyoD, myogenin) of muscle cells, distinguishing it from tumors of cardiac muscle (cardiomyocytes) or smooth muscle.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Rhabdomyosarcoma signals through PI3K-AKT-mTOR: IGF and receptor-kinase inputs converge on mTOR to drive growth, especially in embryonal tumors, so mTOR inhibitors have been tested to add to chemotherapy in this childhood sarcoma.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Embryonal rhabdomyosarcoma is often RAS-driven: unlike the fusion-positive alveolar type, embryonal RMS frequently carries NRAS/KRAS mutations that switch on RAS-MAPK growth, defining a biologically distinct, generally better-prognosis subtype.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — Rhabdomyosarcoma can run on Hedgehog through SMO: embryonal RMS often shows Hedgehog pathway activation, and Gorlin-syndrome patients are prone to it, so smoothened-driven signaling is a developmental pathway hijacked by this muscle cancer.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Rhabdomyosarcoma is infiltrated by tumor-associated macrophages: these cells populate the sarcoma's stroma and promote growth and immune escape, and a macrophage-rich infiltrate is linked to worse outcomes in this childhood cancer.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
