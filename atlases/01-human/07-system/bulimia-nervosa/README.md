@@ -99,6 +99,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Trauma underlies much bulimia: childhood adversity and PTSD are common, and binge-purge cycles can serve to numb or discharge distress—so effective treatment often must address the trauma driving the eating behavior, not just the eating."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Repeated purging in bulimia drains magnesium: vomiting and laxative abuse waste magnesium along with potassium, and low magnesium both triggers dangerous heart arrhythmias and makes the potassium impossible to correct until it is replaced."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Bulimia disturbs the noradrenergic system: blunted norepinephrine signaling is linked to the disordered appetite, mood, and stress regulation of the illness, complementing the serotonin and dopamine changes that drive binge-purge cycles."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "GABA may shape bulimia's impulsivity: the brain's main inhibitory transmitter helps restrain impulsive urges and anxiety, so weak GABAergic tone is implicated in the loss of control over eating that defines binge episodes."
 ---
 
 # Bulimia Nervosa
@@ -255,6 +264,9 @@ All of the following must be met:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Purging in bulimia injures the kidney: repeated vomiting and laxative abuse cause dehydration and potassium loss, triggering a pseudo-Bartter state and, over time, hypokalemic nephropathy—so renal function and electrolytes are closely watched.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF ties bulimia to appetite and reward wiring: this neurotrophin shapes the hypothalamic and reward circuits controlling eating, and BDNF gene variants are associated with eating disorders—linking binge-purge behavior to brain plasticity.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma underlies much bulimia: childhood adversity and PTSD are common, and binge-purge cycles can serve to numb or discharge distress—so effective treatment often must address the trauma driving the eating behavior, not just the eating.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Repeated purging in bulimia drains magnesium: vomiting and laxative abuse waste magnesium along with potassium, and low magnesium both triggers dangerous heart arrhythmias and makes the potassium impossible to correct until it is replaced.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Bulimia disturbs the noradrenergic system: blunted norepinephrine signaling is linked to the disordered appetite, mood, and stress regulation of the illness, complementing the serotonin and dopamine changes that drive binge-purge cycles.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABA may shape bulimia's impulsivity: the brain's main inhibitory transmitter helps restrain impulsive urges and anxiety, so weak GABAergic tone is implicated in the loss of control over eating that defines binge episodes.
 
 ## Treatment
 

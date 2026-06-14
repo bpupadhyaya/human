@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Bloom syndrome carries an extreme, broad cancer risk including breast: genomic instability from BLM loss drives tumors at unusually young ages across many sites, so carriers need early, intensive surveillance for breast and other cancers."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "Bloom syndrome compounds a fragile genome's stress response: BLM helicase untangles stalled replication forks that ATM and ATR guard, so losing BLM forces these damage-sensing kinases to work overtime—and the resulting instability fuels the syndrome's many cancers."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Bloom syndrome includes immune deficiency: many patients have low IgG and other antibodies, causing recurrent ear, sinus, and lung infections—an immunodeficiency layered on top of the cancer risk from defective DNA repair."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Bloom syndrome impairs T-cell help: defective DNA repair hampers the lymphocyte proliferation behind antibody class-switching, so weak T-helper support contributes to the low immunoglobulins and recurrent infections these patients suffer."
 ---
 
 # Bloom Syndrome
@@ -261,6 +270,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Bloom syndrome's most visible feature is profound short stature: BLM helicase loss stunts growth from before birth, producing proportionate dwarfism despite normal growth-hormone levels—so it is a growth disorder of the cell's replication machinery, not the hormone.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Bloom syndrome brings recurrent lung infection: an associated immunodeficiency (low immunoglobulins) leaves patients prone to pneumonia and chronic lung disease, so respiratory infections are a major cause of illness alongside the cancer risk.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Bloom syndrome carries an extreme, broad cancer risk including breast: genomic instability from BLM loss drives tumors at unusually young ages across many sites, so carriers need early, intensive surveillance for breast and other cancers.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Bloom syndrome compounds a fragile genome's stress response: BLM helicase untangles stalled replication forks that ATM and ATR guard, so losing BLM forces these damage-sensing kinases to work overtime—and the resulting instability fuels the syndrome's many cancers.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Bloom syndrome includes immune deficiency: many patients have low IgG and other antibodies, causing recurrent ear, sinus, and lung infections—an immunodeficiency layered on top of the cancer risk from defective DNA repair.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Bloom syndrome impairs T-cell help: defective DNA repair hampers the lymphocyte proliferation behind antibody class-switching, so weak T-helper support contributes to the low immunoglobulins and recurrent infections these patients suffer.
 
 ---
 
