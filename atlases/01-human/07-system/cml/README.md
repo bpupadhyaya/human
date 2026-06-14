@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Ionizing radiation can cause CML: survivors of the atomic bombs had sharply higher CML rates, evidence that X-ray and gamma photons damaging blood stem cells can create the BCR-ABL translocation that drives the disease."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "CML's stem cells survive TKIs by autophagy: leukemic stem cells recycle their contents to weather imatinib, so they persist despite a controlled blood count—why combining TKIs with autophagy blockers is studied to enable treatment-free remission."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells help control CML and predict cure: robust natural killer activity is linked to keeping leukemia in check, and patients with strong NK responses are likelier to stay in remission after stopping their TKI."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "CML's huge white-cell counts can fake high potassium: massive numbers of leukocytes and platelets leak potassium after blood is drawn, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body."
 ---
 
 # Chronic Myeloid Leukemia
@@ -236,6 +245,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Immune System](../immune-system/README.md)** — CML pioneered treatment-free remission through the immune system: after deep response to TKIs, some patients stop the drug and stay in remission, because immune surveillance appears to hold residual leukemic stem cells in check.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T and NK cells help control CML: immune effectors recognize leukemia-associated antigens, contributing to deep responses and the durability of treatment-free remission—so immunity complements the TKIs that block BCR-ABL.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation can cause CML: survivors of the atomic bombs had sharply higher CML rates, evidence that X-ray and gamma photons damaging blood stem cells can create the BCR-ABL translocation that drives the disease.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — CML's stem cells survive TKIs by autophagy: leukemic stem cells recycle their contents to weather imatinib, so they persist despite a controlled blood count—why combining TKIs with autophagy blockers is studied to enable treatment-free remission.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells help control CML and predict cure: robust natural killer activity is linked to keeping leukemia in check, and patients with strong NK responses are likelier to stay in remission after stopping their TKI.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CML's huge white-cell counts can fake high potassium: massive numbers of leukocytes and platelets leak potassium after blood is drawn, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body.
 
 ---
 

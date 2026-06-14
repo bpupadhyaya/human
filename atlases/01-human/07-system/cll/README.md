@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/hodgkin-lymphoma
     relation: connects-to
     note: "CLL can transform into aggressive lymphoma (Richter), sometimes of Hodgkin type: a sudden change with rapid nodal growth and B-symptoms signals transformation to Hodgkin or diffuse large B-cell lymphoma, a feared and hard-to-treat turn."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "CLL cells survive inside a protective niche of nurse-like cells: monocyte-derived macrophages in the marrow and lymph nodes shield leukemic B cells from death, so disrupting this microenvironment is a strategy to overcome drug resistance."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "CLL leans on IL-4 for survival: this T-cell cytokine signals leukemic B cells to resist apoptosis and upregulate Bcl-2, part of the external support that keeps these slow-dividing cells alive far longer than they should."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "CLL cells make their own VEGF to stay alive: autocrine VEGF signaling props up anti-apoptotic proteins and feeds the vascular niche in marrow and nodes, adding angiogenesis to the survival tricks behind this indolent leukemia."
 ---
 
 # CLL
@@ -236,6 +245,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — CLL's targeted drugs strain the heart: BTK inhibitors like ibrutinib commonly cause atrial fibrillation and hypertension, so cardiac monitoring shapes drug choice—a reminder that even well-tolerated targeted therapy carries organ-specific risk.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — CLL is as much an immune-failure disease as a cancer: the malignant B cells expand regulatory T cells and disarm normal immunity, so infections—not the leukemia itself—are a leading cause of death, and vaccines respond poorly.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — CLL can transform into aggressive lymphoma (Richter), sometimes of Hodgkin type: a sudden change with rapid nodal growth and B-symptoms signals transformation to Hodgkin or diffuse large B-cell lymphoma, a feared and hard-to-treat turn.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CLL cells survive inside a protective niche of nurse-like cells: monocyte-derived macrophages in the marrow and lymph nodes shield leukemic B cells from death, so disrupting this microenvironment is a strategy to overcome drug resistance.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — CLL leans on IL-4 for survival: this T-cell cytokine signals leukemic B cells to resist apoptosis and upregulate Bcl-2, part of the external support that keeps these slow-dividing cells alive far longer than they should.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — CLL cells make their own VEGF to stay alive: autocrine VEGF signaling props up anti-apoptotic proteins and feeds the vascular niche in marrow and nodes, adding angiogenesis to the survival tricks behind this indolent leukemia.
 
 ---
 
