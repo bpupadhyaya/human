@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Sjögren's glands fill with immune cells including macrophages: lymphocytic foci and macrophages infiltrate and destroy the salivary and lacrimal glands, the histologic lesion seen on lip biopsy that confirms the diagnosis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Sjogren's can drain potassium through the kidney: immune attack on the renal tubules causes distal renal tubular acidosis, which wastes potassium and can cause hypokalemic muscle paralysis—a striking renal manifestation of the disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Sjogren's reaches the nervous system, including the brain: it can cause CNS lesions, cognitive change and cranial neuropathies beyond the peripheral nerve damage, so neurologic symptoms are part of its systemic reach."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells help destroy the Sjogren's glands: alongside the B cells that drive the autoantibodies, CD8 T cells infiltrate and kill the salivary and lacrimal gland cells, contributing to the dryness that defines the disease."
 ---
 
 # Sjögren's Syndrome
@@ -273,6 +282,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Sjögren's dries glands by blocking acetylcholine: antibodies against the M3 muscarinic receptor stop acetylcholine from triggering saliva and tears, so beyond gland destruction the secretion machinery is jammed—why cholinergic drugs like pilocarpine help.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Falling complement warns of severe Sjögren's: low C3/C4 from immune-complex consumption marks aggressive disease and flags the patients at highest risk of progressing to lymphoma, making complement a prognostic blood test.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Sjögren's glands fill with immune cells including macrophages: lymphocytic foci and macrophages infiltrate and destroy the salivary and lacrimal glands, the histologic lesion seen on lip biopsy that confirms the diagnosis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Sjogren's can drain potassium through the kidney: immune attack on the renal tubules causes distal renal tubular acidosis, which wastes potassium and can cause hypokalemic muscle paralysis—a striking renal manifestation of the disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Sjogren's reaches the nervous system, including the brain: it can cause CNS lesions, cognitive change and cranial neuropathies beyond the peripheral nerve damage, so neurologic symptoms are part of its systemic reach.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells help destroy the Sjogren's glands: alongside the B cells that drive the autoantibodies, CD8 T cells infiltrate and kill the salivary and lacrimal gland cells, contributing to the dryness that defines the disease.
 
 ---
 

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Small cell lung cancer hides behind regulatory T cells: a suppressive microenvironment limits the immune attack, so although checkpoint immunotherapy now adds to chemo, Tregs are part of why responses are often brief in this aggressive cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Small cell lung cancer classically drops the blood sodium: ectopic vasopressin from the tumor causes SIADH, so unexplained hyponatremia in a smoker is a clue that can lead to the diagnosis and tracks with tumor burden."
+  - target: 01-human/05-tissue/neuromuscular-junction
+    relation: connects-to
+    note: "Small cell lung cancer attacks the neuromuscular junction from afar: antibodies against the tumor cross-react with calcium channels there, causing Lambert-Eaton myasthenic syndrome—a paraneoplastic weakness that can precede the cancer's discovery."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells shape the immune fight against small cell lung cancer: as antigen-presenters they prime the T-cell response checkpoint drugs now add to chemo, and their dysfunction helps explain the brief responses in this aggressive tumor."
 ---
 
 # Small Cell Lung Cancer
@@ -245,6 +254,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Small cell lung cancer can paralyze through calcium channels: in Lambert-Eaton syndrome, antibodies against the tumor's calcium channels cross-react at nerve terminals, cutting calcium-triggered acetylcholine release and causing the weakness that often precedes diagnosis.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Small cell lung cancer is shaped by Notch and its ligand DLL3: Notch is largely silenced in these neuroendocrine tumors, and the resulting high DLL3 on the cell surface is the target of new drugs like tarlatamab.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Small cell lung cancer hides behind regulatory T cells: a suppressive microenvironment limits the immune attack, so although checkpoint immunotherapy now adds to chemo, Tregs are part of why responses are often brief in this aggressive cancer.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Small cell lung cancer classically drops the blood sodium: ectopic vasopressin from the tumor causes SIADH, so unexplained hyponatremia in a smoker is a clue that can lead to the diagnosis and tracks with tumor burden.
+- `connects-to` → **[Neuromuscular Junction](../../05-tissue/neuromuscular-junction/README.md)** — Small cell lung cancer attacks the neuromuscular junction from afar: antibodies against the tumor cross-react with calcium channels there, causing Lambert-Eaton myasthenic syndrome—a paraneoplastic weakness that can precede the cancer's discovery.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape the immune fight against small cell lung cancer: as antigen-presenters they prime the T-cell response checkpoint drugs now add to chemo, and their dysfunction helps explain the brief responses in this aggressive tumor.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
