@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Gambling and insomnia reinforce each other: late-night gambling and the stress of losses fragment sleep, and the resulting fatigue erodes the self-control needed to stop—so sleep disruption both feeds and flags the disorder."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Gambling disorder reflects weakened inhibitory braking: GABA is the brain's main 'stop' signal, and reduced GABAergic control over reward and impulse circuits helps explain the difficulty resisting the urge to bet despite mounting losses."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system shapes gambling's pull: it modulates reward and the salience of cues, so signals like a casino's lights and sounds gain outsized motivational force, helping drive the craving and relapse seen in the disorder."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Gambling rewires reward synapses like a drug does: repeated wins and near-misses strengthen synaptic connections in the dopamine reward pathway, the plasticity that entrenches compulsive betting much as substances entrench addiction."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -260,6 +269,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone may tilt toward gambling: androgen-linked risk-taking and reward-seeking help explain the male predominance in gambling disorder, tying a sex hormone to the impulsive choices that drive the behavioral addiction.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Gambling disorder often masks trauma: PTSD frequently co-occurs, with gambling used to escape intrusive memories and numbness, so treating the underlying trauma is part of addressing compulsive gambling—mirroring other addictions.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Gambling and insomnia reinforce each other: late-night gambling and the stress of losses fragment sleep, and the resulting fatigue erodes the self-control needed to stop—so sleep disruption both feeds and flags the disorder.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Gambling disorder reflects weakened inhibitory braking: GABA is the brain's main 'stop' signal, and reduced GABAergic control over reward and impulse circuits helps explain the difficulty resisting the urge to bet despite mounting losses.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system shapes gambling's pull: it modulates reward and the salience of cues, so signals like a casino's lights and sounds gain outsized motivational force, helping drive the craving and relapse seen in the disorder.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Gambling rewires reward synapses like a drug does: repeated wins and near-misses strengthen synaptic connections in the dopamine reward pathway, the plasticity that entrenches compulsive betting much as substances entrench addiction.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

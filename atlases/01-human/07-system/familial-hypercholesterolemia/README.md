@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Whether FH's plaques kill depends on collagen: a thick collagen fibrous cap (laid down by smooth muscle) keeps a plaque stable, while a thin one ruptures to cause heart attacks—so plaque collagen, not just cholesterol level, decides the danger."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "FH's danger is realized when platelets meet a ruptured plaque: the lifelong high LDL builds plaques whose cap can tear, exposing tissue that triggers platelets to clot and block the artery, the final step from cholesterol to heart attack or stroke."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "FH ultimately starves the heart of oxygen: narrowing coronary arteries cut blood flow, so demand outstrips supply and the muscle becomes ischemic, causing the angina and infarction that make untreated FH so deadly so young."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "FH's growing plaques sprout fragile vessels via VEGF: as plaques thicken they outgrow their oxygen supply and release VEGF to recruit leaky new microvessels, which bleed into the plaque and destabilize it, raising rupture risk."
 ---
 
 # Familial Hypercholesterolemia
@@ -247,6 +256,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — FH shows that LDL isn't the whole story—inflammation matters too: IL-6-driven inflammation in the artery wall adds 'residual risk' on top of high cholesterol, so anti-inflammatory therapy (colchicine, IL-targeted drugs) complements LDL-lowering in atherosclerosis.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Atherosclerosis in FH is partly an immune disease: T-helper cells infiltrate the cholesterol-laden plaque and stoke inflammation that destabilizes it, so the early plaques of FH reflect adaptive immunity, not just passive lipid buildup.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Whether FH's plaques kill depends on collagen: a thick collagen fibrous cap (laid down by smooth muscle) keeps a plaque stable, while a thin one ruptures to cause heart attacks—so plaque collagen, not just cholesterol level, decides the danger.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — FH's danger is realized when platelets meet a ruptured plaque: the lifelong high LDL builds plaques whose cap can tear, exposing tissue that triggers platelets to clot and block the artery, the final step from cholesterol to heart attack or stroke.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — FH ultimately starves the heart of oxygen: narrowing coronary arteries cut blood flow, so demand outstrips supply and the muscle becomes ischemic, causing the angina and infarction that make untreated FH so deadly so young.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — FH's growing plaques sprout fragile vessels via VEGF: as plaques thicken they outgrow their oxygen supply and release VEGF to recruit leaky new microvessels, which bleed into the plaque and destabilize it, raising rupture risk.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
