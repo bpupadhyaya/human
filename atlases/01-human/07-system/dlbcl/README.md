@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "DLBCL is increasingly attacked with NK-cell therapy: beyond CAR-T against CD19, engineered NK cells and antibodies that engage NK killing are being developed to clear large B-cell lymphoma, harnessing innate cytotoxicity."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "DLBCL can trigger tumor lysis when treated: this fast-growing lymphoma sheds huge numbers of cells under chemotherapy, dumping potassium into the blood, so hyperkalemia must be anticipated and prevented in bulky disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "DLBCL can invade or relapse in the brain: secondary CNS involvement carries a grim prognosis, so high-risk patients receive CNS-directed prophylaxis to reach a sanctuary that standard chemotherapy penetrates poorly."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells shape the immune fight against DLBCL: as antigen-presenters they prime T-cell responses to the lymphoma, and harnessing them is explored to boost immunity alongside CD20 antibodies and CAR-T therapy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -257,6 +266,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — The aggressive ABC subtype of DLBCL is addicted to BTK: chronic B-cell-receptor signaling through Bruton's tyrosine kinase keeps NF-κB switched on, so BTK inhibitors like ibrutinib are aimed at this molecular subset of the lymphoma.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — DLBCL can arise in or invade the spleen: primary splenic large B-cell lymphoma and splenic involvement of nodal disease cause massive splenomegaly, so an enlarging spleen with B-symptoms can be the face of this aggressive lymphoma.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — DLBCL is increasingly attacked with NK-cell therapy: beyond CAR-T against CD19, engineered NK cells and antibodies that engage NK killing are being developed to clear large B-cell lymphoma, harnessing innate cytotoxicity.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — DLBCL can trigger tumor lysis when treated: this fast-growing lymphoma sheds huge numbers of cells under chemotherapy, dumping potassium into the blood, so hyperkalemia must be anticipated and prevented in bulky disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — DLBCL can invade or relapse in the brain: secondary CNS involvement carries a grim prognosis, so high-risk patients receive CNS-directed prophylaxis to reach a sanctuary that standard chemotherapy penetrates poorly.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape the immune fight against DLBCL: as antigen-presenters they prime T-cell responses to the lymphoma, and harnessing them is explored to boost immunity alongside CD20 antibodies and CAR-T therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

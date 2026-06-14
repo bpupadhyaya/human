@@ -104,6 +104,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "The gut is an endocrine organ too, via ghrelin: the stomach releases ghrelin before meals to signal hunger to the brain, showing the endocrine system reaches into the digestive tract—not just the classic hormone glands."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Fat is an endocrine organ in its own right: adipocytes secrete leptin, adiponectin and other hormones that report energy stores and tune metabolism, so the endocrine system extends well beyond the classic glands into body fat."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain is the endocrine system's command center: the hypothalamus and pituitary it houses release the master hormones that drive the thyroid, adrenal and gonadal axes, so neural signals set the rhythm of the whole hormonal orchestra."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Parathyroid hormone runs the body's calcium thermostat: when blood calcium dips, the parathyroid glands release PTH to pull calcium from bone and kidney, a tightly regulated endocrine loop essential to nerves, muscle and bone."
 ---
 
 # Endocrine System
@@ -293,6 +302,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — The endocrine system depends on dietary iodine: the thyroid traps iodine to build thyroid hormones that set the body's metabolic rate, so iodine deficiency produces goiter and hypothyroidism—a mineral shortage with system-wide hormonal consequences.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — The endocrine system runs on feedback loops like ACTH's: the pituitary releases ACTH to drive adrenal cortisol, which loops back to shut off ACTH—the kind of hormonal thermostat that keeps every endocrine axis in balance.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — The gut is an endocrine organ too, via ghrelin: the stomach releases ghrelin before meals to signal hunger to the brain, showing the endocrine system reaches into the digestive tract—not just the classic hormone glands.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat is an endocrine organ in its own right: adipocytes secrete leptin, adiponectin and other hormones that report energy stores and tune metabolism, so the endocrine system extends well beyond the classic glands into body fat.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is the endocrine system's command center: the hypothalamus and pituitary it houses release the master hormones that drive the thyroid, adrenal and gonadal axes, so neural signals set the rhythm of the whole hormonal orchestra.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Parathyroid hormone runs the body's calcium thermostat: when blood calcium dips, the parathyroid glands release PTH to pull calcium from bone and kidney, a tightly regulated endocrine loop essential to nerves, muscle and bone.
 
 ## Pathology
 
