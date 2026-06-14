@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Smoked stimulants injure the lungs: inhaling crack cocaine or methamphetamine causes 'crack lung'—bleeding, inflammation and fluid in the air sacs—plus pulmonary hypertension, so the route of use brings its own respiratory harm."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Stimulant overdose can spill potassium: severe hyperthermia and muscle breakdown (rhabdomyolysis) from cocaine or methamphetamine release potassium into the blood, risking dangerous hyperkalemia and fatal arrhythmias."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Cocaine can infarct the bowel: its intense vasoconstriction throttles the gut's blood supply, causing mesenteric ischemia and bowel infarction—a surgical emergency that can follow a binge even in the young."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Stimulants make platelets clot: cocaine and amphetamines activate platelets and promote thrombosis, helping spawn the heart attacks and strokes that strike stimulant users without underlying disease."
 ---
 
 # Stimulant Use Disorder
@@ -269,6 +278,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Stimulant addiction is etched into synapses: cocaine and amphetamines flood the reward pathway with dopamine, and repeated surges strengthen and remodel synaptic connections, the lasting plasticity that drives craving and relapse.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Stimulants attack the blood vessel lining: cocaine and amphetamines constrict and injure the endothelium and accelerate clotting and plaque, causing the vasospasm behind stimulant heart attacks and strokes even in young users.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Smoked stimulants injure the lungs: inhaling crack cocaine or methamphetamine causes 'crack lung'—bleeding, inflammation and fluid in the air sacs—plus pulmonary hypertension, so the route of use brings its own respiratory harm.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Stimulant overdose can spill potassium: severe hyperthermia and muscle breakdown (rhabdomyolysis) from cocaine or methamphetamine release potassium into the blood, risking dangerous hyperkalemia and fatal arrhythmias.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cocaine can infarct the bowel: its intense vasoconstriction throttles the gut's blood supply, causing mesenteric ischemia and bowel infarction—a surgical emergency that can follow a binge even in the young.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Stimulants make platelets clot: cocaine and amphetamines activate platelets and promote thrombosis, helping spawn the heart attacks and strokes that strike stimulant users without underlying disease.
 
 ## Treatment
 

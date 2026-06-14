@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "Stroke kills by starving cells of ATP: without oxygen and glucose, neurons cannot make ATP, so their ion pumps fail, calcium and sodium flood in, and the resulting excitotoxic cascade destroys the tissue in the ischemic core."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Stroke collapses the brain's potassium gradient: when energy fails, neurons leak potassium and depolarize in spreading waves that march across the tissue, recruiting the penumbra and enlarging the infarct."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Stroke turns synapses toxic: starved neurons dump glutamate that overexcites neighboring synapses, and this excitotoxic flood—through calcium overload—kills the cells the clot did not directly reach."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Stroke endangers the lungs through swallowing: damage to swallowing control lets food and saliva slip into the airway, so aspiration pneumonia is a leading cause of death in the weeks after a stroke."
 ---
 
 # Stroke
@@ -255,6 +264,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Stroke is fundamentally an oxygen emergency: a blocked or burst vessel cuts the brain's oxygen supply, and because neurons have almost no reserve, the tissue begins to die within minutes—why 'time is brain' drives emergency care.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The vessel lining is where most strokes begin: endothelial dysfunction and atherosclerosis spawn the clots that block brain arteries, and after a stroke the damaged endothelium lets the blood-brain barrier leak, worsening swelling.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Stroke kills by starving cells of ATP: without oxygen and glucose, neurons cannot make ATP, so their ion pumps fail, calcium and sodium flood in, and the resulting excitotoxic cascade destroys the tissue in the ischemic core.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Stroke collapses the brain's potassium gradient: when energy fails, neurons leak potassium and depolarize in spreading waves that march across the tissue, recruiting the penumbra and enlarging the infarct.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Stroke turns synapses toxic: starved neurons dump glutamate that overexcites neighboring synapses, and this excitotoxic flood—through calcium overload—kills the cells the clot did not directly reach.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Stroke endangers the lungs through swallowing: damage to swallowing control lets food and saliva slip into the airway, so aspiration pneumonia is a leading cause of death in the weeks after a stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
