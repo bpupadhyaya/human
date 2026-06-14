@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Stimulants drive dangerous spikes in blood pressure: cocaine and amphetamines surge catecholamines to cause acute hypertension that triggers heart attacks, strokes and aortic dissection—the cardiovascular emergencies that make stimulant toxicity lethal."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Stimulant addiction is etched into synapses: cocaine and amphetamines flood the reward pathway with dopamine, and repeated surges strengthen and remodel synaptic connections, the lasting plasticity that drives craving and relapse."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Stimulants attack the blood vessel lining: cocaine and amphetamines constrict and injure the endothelium and accelerate clotting and plaque, causing the vasospasm behind stimulant heart attacks and strokes even in young users."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Smoked stimulants injure the lungs: inhaling crack cocaine or methamphetamine causes 'crack lung'—bleeding, inflammation and fluid in the air sacs—plus pulmonary hypertension, so the route of use brings its own respiratory harm."
 ---
 
 # Stimulant Use Disorder
@@ -257,6 +266,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Stimulants can wreck the kidneys: cocaine and methamphetamine cause vasoconstriction, severe hypertension and rhabdomyolysis, so acute kidney injury and, over time, chronic kidney disease are recognized harms of heavy stimulant use.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Methamphetamine inflames the brain via microglia: it activates microglia whose toxic mediators damage dopamine neurons, contributing to the lasting cognitive and movement problems seen after heavy use—neurotoxicity beyond addiction.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Stimulants drive dangerous spikes in blood pressure: cocaine and amphetamines surge catecholamines to cause acute hypertension that triggers heart attacks, strokes and aortic dissection—the cardiovascular emergencies that make stimulant toxicity lethal.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Stimulant addiction is etched into synapses: cocaine and amphetamines flood the reward pathway with dopamine, and repeated surges strengthen and remodel synaptic connections, the lasting plasticity that drives craving and relapse.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Stimulants attack the blood vessel lining: cocaine and amphetamines constrict and injure the endothelium and accelerate clotting and plaque, causing the vasospasm behind stimulant heart attacks and strokes even in young users.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Smoked stimulants injure the lungs: inhaling crack cocaine or methamphetamine causes 'crack lung'—bleeding, inflammation and fluid in the air sacs—plus pulmonary hypertension, so the route of use brings its own respiratory harm.
 
 ## Treatment
 

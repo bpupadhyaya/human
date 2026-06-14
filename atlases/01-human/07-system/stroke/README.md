@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Stroke kills oligodendrocytes and the myelin they maintain: white-matter ischemia destroys these myelinating cells, and their poor regeneration is why white-matter strokes leave lasting deficits—a target for remyelination and neuroprotection research."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Stroke is fundamentally an oxygen emergency: a blocked or burst vessel cuts the brain's oxygen supply, and because neurons have almost no reserve, the tissue begins to die within minutes—why 'time is brain' drives emergency care."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The vessel lining is where most strokes begin: endothelial dysfunction and atherosclerosis spawn the clots that block brain arteries, and after a stroke the damaged endothelium lets the blood-brain barrier leak, worsening swelling."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Stroke kills by starving cells of ATP: without oxygen and glucose, neurons cannot make ATP, so their ion pumps fail, calcium and sodium flood in, and the resulting excitotoxic cascade destroys the tissue in the ischemic core."
 ---
 
 # Stroke
@@ -243,6 +252,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Stroke's damage begins with failed sodium pumps: when blood flow stops, neurons can't power the Na/K-ATPase, so sodium and water flood in causing cytotoxic edema—the first step of the ischemic cascade before calcium and glutamate finish the job.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression follows stroke in up to a third of survivors: brain injury plus the disability and biochemical changes drive post-stroke depression, which slows rehabilitation and worsens outcomes—so screening and treating mood is part of stroke care.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Stroke kills oligodendrocytes and the myelin they maintain: white-matter ischemia destroys these myelinating cells, and their poor regeneration is why white-matter strokes leave lasting deficits—a target for remyelination and neuroprotection research.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Stroke is fundamentally an oxygen emergency: a blocked or burst vessel cuts the brain's oxygen supply, and because neurons have almost no reserve, the tissue begins to die within minutes—why 'time is brain' drives emergency care.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The vessel lining is where most strokes begin: endothelial dysfunction and atherosclerosis spawn the clots that block brain arteries, and after a stroke the damaged endothelium lets the blood-brain barrier leak, worsening swelling.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Stroke kills by starving cells of ATP: without oxygen and glucose, neurons cannot make ATP, so their ion pumps fail, calcium and sodium flood in, and the resulting excitotoxic cascade destroys the tissue in the ischemic core.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
