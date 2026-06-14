@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Narcolepsy and insomnia are opposite faces of dysregulated sleep: narcolepsy floods wake with sleep (and fragments night sleep too), while insomnia fails to initiate it—yet both disrupt the orexin/circadian machinery that stabilizes the sleep-wake switch."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Narcolepsy is a focal nervous-system disorder of sleep-wake control: selective loss of ~70,000 orexin (hypocretin) neurons in the hypothalamus destabilizes the boundaries between wake, REM and sleep, so REM intrudes into wakefulness as cataplexy and sleep attacks."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Streptococcal infection is a recognized trigger of type 1 narcolepsy: along with H1N1 influenza and its vaccine, strep can precipitate the autoimmune attack on orexin neurons in genetically susceptible (HLA-DQB1*06:02) people—molecular mimicry turned against sleep."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Narcolepsy carries cardiovascular risk: disrupted sleep and loss of normal nocturnal blood-pressure dipping raise the risk of hypertension and heart disease, and stimulant treatments add cardiac considerations—so the sleep disorder has whole-body consequences."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -222,6 +231,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Narcolepsy type 1 is an autoimmune disease: T cells, in genetically susceptible (HLA-DQB1*06:02) people often after H1N1 infection or vaccination, destroy the brain's orexin neurons—so a sleep disorder traces to immune attack on a tiny hypothalamic cell population.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine drives the REM intrusions of narcolepsy: losing orexin unleashes cholinergic REM-on circuits, so REM phenomena—dream sleep, atonia—break into wakefulness as cataplexy and sleep paralysis, the hallmark symptoms beyond sleepiness.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Narcolepsy and insomnia are opposite faces of dysregulated sleep: narcolepsy floods wake with sleep (and fragments night sleep too), while insomnia fails to initiate it—yet both disrupt the orexin/circadian machinery that stabilizes the sleep-wake switch.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Narcolepsy is a focal nervous-system disorder of sleep-wake control: selective loss of ~70,000 orexin (hypocretin) neurons in the hypothalamus destabilizes the boundaries between wake, REM and sleep, so REM intrudes into wakefulness as cataplexy and sleep attacks.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Streptococcal infection is a recognized trigger of type 1 narcolepsy: along with H1N1 influenza and its vaccine, strep can precipitate the autoimmune attack on orexin neurons in genetically susceptible (HLA-DQB1*06:02) people—molecular mimicry turned against sleep.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Narcolepsy carries cardiovascular risk: disrupted sleep and loss of normal nocturnal blood-pressure dipping raise the risk of hypertension and heart disease, and stimulant treatments add cardiac considerations—so the sleep disorder has whole-body consequences.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

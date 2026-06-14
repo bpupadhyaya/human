@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Neuroblastoma's stage 4S shows uncanny liver behavior: in infants, tumor can massively infiltrate the liver yet spontaneously regress without treatment—a striking exception to cancer's usual course that makes neuroblastoma's biology age-dependent."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Neuroblastoma is treated by harnessing the immune system: anti-GD2 antibodies (dinutuximab) target a glycolipid richly expressed on neuroblasts, and adding immunotherapy to high-risk regimens markedly improved survival—a landmark for solid-tumor immunotherapy in children."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy is favored for neuroblastoma in young children: the tumor often sits near the spine, kidneys and liver, so protons' lack of exit dose limits damage to developing organs and lowers the risk of radiation-induced second cancers."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "GD2-directed cell therapy targets neuroblastoma via cytotoxic T cells: CAR-T cells engineered against the GD2 antigen are in trials to kill neuroblasts, extending the anti-GD2 strategy from antibodies to engineered T-cell immunity."
 ---
 
 # Neuroblastoma
@@ -236,6 +245,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Neuroblastoma arises from catecholamine-making cells: its sympathetic-lineage cells secrete norepinephrine precursors, so the urinary breakdown products VMA and HVA serve as diagnostic and monitoring markers—and catecholamine excess can cause hypertension.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Neuroblastoma is a cancer of the developing sympathetic nervous system: it arises from neural-crest-derived sympathetic precursors anywhere along the chain or in the adrenal medulla, so tumors appear in the abdomen, chest or neck wherever sympathetic tissue lies.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Neuroblastoma's stage 4S shows uncanny liver behavior: in infants, tumor can massively infiltrate the liver yet spontaneously regress without treatment—a striking exception to cancer's usual course that makes neuroblastoma's biology age-dependent.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Neuroblastoma is treated by harnessing the immune system: anti-GD2 antibodies (dinutuximab) target a glycolipid richly expressed on neuroblasts, and adding immunotherapy to high-risk regimens markedly improved survival—a landmark for solid-tumor immunotherapy in children.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is favored for neuroblastoma in young children: the tumor often sits near the spine, kidneys and liver, so protons' lack of exit dose limits damage to developing organs and lowers the risk of radiation-induced second cancers.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — GD2-directed cell therapy targets neuroblastoma via cytotoxic T cells: CAR-T cells engineered against the GD2 antigen are in trials to kill neuroblasts, extending the anti-GD2 strategy from antibodies to engineered T-cell immunity.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
