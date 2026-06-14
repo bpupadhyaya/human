@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "REM sleep behavior disorder is a hallmark of Lewy body dementia: loss of normal REM atonia lets patients act out dreams, often years before dementia, and melatonin is a first-line treatment—making this sleep disturbance an early diagnostic clue."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Lewy body dementia is a failure of protein clearance: when autophagy can't degrade misfolded alpha-synuclein, it aggregates into the Lewy bodies that poison neurons, so boosting this cellular recycling system is a target shared with Parkinson's disease."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Lewy body dementia often starts in the gut: constipation and alpha-synuclein deposits in enteric nerves can precede cognitive and motor signs by years, echoing Parkinson's 'gut-first' route along the vagus nerve into the brain."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart helps diagnose Lewy body dementia: alpha-synuclein damages cardiac sympathetic nerves, so a MIBG scan shows reduced cardiac uptake—a marker that distinguishes Lewy body disease from Alzheimer's and other dementias."
 ---
 
 # Lewy Body Dementia
@@ -245,6 +254,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Lewy body dementia is a multisystem nervous-system synucleinopathy: alpha-synuclein deposits spread beyond cortex to autonomic and brainstem neurons, so beyond cognition it causes dysautonomia, REM sleep behavior disorder and parkinsonism—a whole-nervous-system disease.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Norepinephrine loss drives Lewy body dementia's autonomic and cognitive features: degeneration of the noradrenergic locus coeruleus contributes to orthostatic hypotension, attention fluctuations and arousal problems that distinguish LBD from Alzheimer's.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — REM sleep behavior disorder is a hallmark of Lewy body dementia: loss of normal REM atonia lets patients act out dreams, often years before dementia, and melatonin is a first-line treatment—making this sleep disturbance an early diagnostic clue.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Lewy body dementia is a failure of protein clearance: when autophagy can't degrade misfolded alpha-synuclein, it aggregates into the Lewy bodies that poison neurons, so boosting this cellular recycling system is a target shared with Parkinson's disease.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Lewy body dementia often starts in the gut: constipation and alpha-synuclein deposits in enteric nerves can precede cognitive and motor signs by years, echoing Parkinson's 'gut-first' route along the vagus nerve into the brain.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart helps diagnose Lewy body dementia: alpha-synuclein damages cardiac sympathetic nerves, so a MIBG scan shows reduced cardiac uptake—a marker that distinguishes Lewy body disease from Alzheimer's and other dementias.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Iron-deficiency anemia is often a window into the digestive system: iron is absorbed in the duodenum, so malabsorption (celiac disease, gastric surgery) or chronic GI blood loss commonly causes it—making the gut the first place to investigate."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy strains iron balance through the placenta: the growing fetus and placenta draw heavily on maternal iron, so iron-deficiency anemia is common in pregnancy and, untreated, raises risks of preterm birth and low birth weight—prompting routine supplementation."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Iron deficiency oddly raises the platelet count: lacking iron, the marrow over-produces platelets (reactive thrombocytosis), so an unexplained high platelet count with microcytic anemia points to iron deficiency—and corrects once iron is replaced."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Iron deficiency reaches the nervous system: iron is needed for myelin and neurotransmitter synthesis, so deficiency impairs attention and child development and causes restless legs syndrome—showing anemia harms neurons, not just red cells."
 ---
 
 # Iron Deficiency Anemia
@@ -226,6 +235,9 @@ Iron is essential for:
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Iron deficiency starves the bone marrow's red-cell factory: without iron, erythroblasts cannot make hemoglobin, so the marrow turns out small, pale (microcytic, hypochromic) red cells—the morphologic signature that distinguishes iron-deficiency anemia.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is a key clue in iron-deficiency anemia: in adults, occult bleeding from colonic lesions—especially colorectal cancer—is a leading cause, so unexplained iron deficiency in an older adult mandates colonoscopy to find the source.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Iron-deficiency anemia is often a window into the digestive system: iron is absorbed in the duodenum, so malabsorption (celiac disease, gastric surgery) or chronic GI blood loss commonly causes it—making the gut the first place to investigate.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy strains iron balance through the placenta: the growing fetus and placenta draw heavily on maternal iron, so iron-deficiency anemia is common in pregnancy and, untreated, raises risks of preterm birth and low birth weight—prompting routine supplementation.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Iron deficiency oddly raises the platelet count: lacking iron, the marrow over-produces platelets (reactive thrombocytosis), so an unexplained high platelet count with microcytic anemia points to iron deficiency—and corrects once iron is replaced.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Iron deficiency reaches the nervous system: iron is needed for myelin and neurotransmitter synthesis, so deficiency impairs attention and child development and causes restless legs syndrome—showing anemia harms neurons, not just red cells.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
