@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Chronic hereditary pancreatitis drains zinc: the failing pancreas can't release enough digestive enzymes, so fat and minerals including zinc go unabsorbed, leaving deficiencies that impair immunity and wound healing on top of the diabetes and pain."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Hereditary pancreatitis smolders through NF-kB: premature trypsin activation injures acinar cells and switches on NF-kB, sustaining the chronic inflammation that scars the gland and, over decades, raises pancreatic cancer risk."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 carries hereditary pancreatitis toward cancer: the repeated inflammation pours out IL-6, which via STAT3 drives fibrosis and pushes injured pancreatic cells toward malignant change, linking the inherited inflammation to tumor risk."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells patrol the cancer-prone pancreas in hereditary pancreatitis: as antigen-presenters they shape immune surveillance of the chronically inflamed gland, a focus of efforts to catch or prevent the cancer it predisposes to."
 ---
 
 # Hereditary Pancreatitis
@@ -279,6 +288,9 @@ cross_links:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Hereditary pancreatitis may stem from failed autophagy: acinar cells normally use autophagy to safely clear prematurely activated trypsin, so when that cleanup falters the enzyme digests the pancreas from within, triggering recurrent attacks.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Smoking turns hereditary pancreatitis toward cancer: tobacco's carbon-based carcinogens dramatically multiply the already high pancreatic cancer risk of PRSS1 carriers, so quitting is the single most important step a patient can take.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Chronic hereditary pancreatitis drains zinc: the failing pancreas can't release enough digestive enzymes, so fat and minerals including zinc go unabsorbed, leaving deficiencies that impair immunity and wound healing on top of the diabetes and pain.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Hereditary pancreatitis smolders through NF-kB: premature trypsin activation injures acinar cells and switches on NF-kB, sustaining the chronic inflammation that scars the gland and, over decades, raises pancreatic cancer risk.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries hereditary pancreatitis toward cancer: the repeated inflammation pours out IL-6, which via STAT3 drives fibrosis and pushes injured pancreatic cells toward malignant change, linking the inherited inflammation to tumor risk.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells patrol the cancer-prone pancreas in hereditary pancreatitis: as antigen-presenters they shape immune surveillance of the chronically inflamed gland, a focus of efforts to catch or prevent the cancer it predisposes to.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "HDGC tumors hide among regulatory T cells: the scattered signet-ring cells sit in a desmoplastic, immunosuppressive stroma where Tregs blunt anti-tumor immunity, part of why diffuse gastric cancer is hard to treat once it spreads."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HDGC's whole problem is calcium-dependent glue gone missing: E-cadherin (CDH1) needs calcium to bind cells together, so losing it dissolves cell-cell adhesion and lets the signet-ring cells scatter and infiltrate diffusely rather than form a lump."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages fill HDGC's dense stroma: tumor-associated macrophages in the desmoplastic, scattered-cell tumor promote invasion and suppress immunity, part of why diffuse gastric cancer is so hard to treat once it spreads through the wall."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-beta builds the fibrous, infiltrative stroma of HDGC: it drives the desmoplasia and EMT-like behavior that help the discohesive signet-ring cells spread, stiffening the stomach wall as in linitis plastica."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -243,6 +252,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — HDGC's other cancer is estrogen-driven lobular breast cancer: the same CDH1/E-cadherin loss that causes diffuse stomach cancer produces invasive lobular breast cancer, which is typically estrogen-receptor positive—so carriers need breast as well as stomach surveillance.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — Diffuse gastric cancer in HDGC is usually HER2-negative: unlike intestinal-type stomach tumors that can be HER2-amplified and treated with trastuzumab, the signet-ring cancers of CDH1 carriers lack this target, leaving chemotherapy and surgery.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HDGC tumors hide among regulatory T cells: the scattered signet-ring cells sit in a desmoplastic, immunosuppressive stroma where Tregs blunt anti-tumor immunity, part of why diffuse gastric cancer is hard to treat once it spreads.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HDGC's whole problem is calcium-dependent glue gone missing: E-cadherin (CDH1) needs calcium to bind cells together, so losing it dissolves cell-cell adhesion and lets the signet-ring cells scatter and infiltrate diffusely rather than form a lump.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill HDGC's dense stroma: tumor-associated macrophages in the desmoplastic, scattered-cell tumor promote invasion and suppress immunity, part of why diffuse gastric cancer is so hard to treat once it spreads through the wall.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta builds the fibrous, infiltrative stroma of HDGC: it drives the desmoplasia and EMT-like behavior that help the discohesive signet-ring cells spread, stiffening the stomach wall as in linitis plastica.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
