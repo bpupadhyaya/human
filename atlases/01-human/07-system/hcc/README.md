@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron overload is a potent driver of HCC: in hereditary hemochromatosis, hepatocyte iron accumulation generates oxidative DNA damage and cirrhosis, so unchecked iron substantially raises liver-cancer risk—linking a single metal's metabolism to malignancy."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is HCC's commonest distant spread: liver tumor cells invade veins and seed the lungs, so pulmonary metastases mark advanced disease and prompt systemic therapy rather than local liver-directed treatment."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "HCC is intensely vascular, built around endothelial cells: it recruits abnormal new vessels (driven by VEGF), which is why anti-angiogenic drugs and trans-arterial embolization that targets its blood supply are mainstays of treatment."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "HCC is now treated by unleashing the immune system: arising in a chronically inflamed liver, it responds to checkpoint inhibitors, and atezolizumab plus bevacizumab became first-line therapy for advanced disease—immunotherapy paired with anti-angiogenesis."
 ---
 
 # Hepatocellular Carcinoma
@@ -245,6 +254,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — p53 is one of the most mutated genes in liver cancer: it is inactivated in many HCCs, and aflatoxin B1 leaves a signature R249S TP53 mutation, so this tumor-suppressor loss links chemical carcinogens and viral hepatitis to malignant transformation.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HCC almost always arises on a background of fibrosis: chronic injury scars the liver into cirrhosis, and the distorted, regenerating, inflamed tissue is the soil from which most hepatocellular carcinomas grow—why cirrhotic patients are screened with imaging.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron overload is a potent driver of HCC: in hereditary hemochromatosis, hepatocyte iron accumulation generates oxidative DNA damage and cirrhosis, so unchecked iron substantially raises liver-cancer risk—linking a single metal's metabolism to malignancy.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is HCC's commonest distant spread: liver tumor cells invade veins and seed the lungs, so pulmonary metastases mark advanced disease and prompt systemic therapy rather than local liver-directed treatment.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — HCC is intensely vascular, built around endothelial cells: it recruits abnormal new vessels (driven by VEGF), which is why anti-angiogenic drugs and trans-arterial embolization that targets its blood supply are mainstays of treatment.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — HCC is now treated by unleashing the immune system: arising in a chronically inflamed liver, it responds to checkpoint inhibitors, and atezolizumab plus bevacizumab became first-line therapy for advanced disease—immunotherapy paired with anti-angiogenesis.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "GVHD is the dark side of transplant immunity: grafted donor immune cells recognize the recipient's tissues as foreign and attack them, the mirror image of rejection—yet the same alloreactivity also fights residual leukemia (graft-versus-leukemia)."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Chronic GVHD frequently strikes the eye: donor immune cells attack the lacrimal glands and ocular surface, causing severe dry eye and keratoconjunctivitis much like Sjögren's—so eye care is a routine part of managing transplant survivors."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "GVHD begins with MHC mismatch: donor T cells recognize the recipient's MHC (HLA) molecules as foreign, especially MHC class II on antigen-presenting cells, so the degree of HLA matching between donor and host predicts the risk and severity of GVHD."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells drive chronic GVHD: alloreactive B cells and autoantibodies fuel the fibrotic, scleroderma-like late disease, which is why B-cell-targeted therapy (the BTK inhibitor ibrutinib) became an approved treatment—shifting GVHD beyond a purely T-cell view."
 ---
 
 # Graft-Versus-Host Disease
@@ -253,6 +262,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The large intestine is a major battleground in GVHD: donor T cells attack the gut epithelium, causing severe secretory diarrhea and mucosal sloughing, and gut GVHD severity—worsened by microbiome injury—is a leading determinant of transplant survival.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — GVHD prevention hinges on calcineurin inhibition: cyclosporine and tacrolimus block calcineurin to suppress the donor T-cell activation that drives the disease, forming the backbone of prophylaxis after allogeneic stem-cell transplant.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — GVHD is the dark side of transplant immunity: grafted donor immune cells recognize the recipient's tissues as foreign and attack them, the mirror image of rejection—yet the same alloreactivity also fights residual leukemia (graft-versus-leukemia).
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Chronic GVHD frequently strikes the eye: donor immune cells attack the lacrimal glands and ocular surface, causing severe dry eye and keratoconjunctivitis much like Sjögren's—so eye care is a routine part of managing transplant survivors.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — GVHD begins with MHC mismatch: donor T cells recognize the recipient's MHC (HLA) molecules as foreign, especially MHC class II on antigen-presenting cells, so the degree of HLA matching between donor and host predicts the risk and severity of GVHD.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells drive chronic GVHD: alloreactive B cells and autoantibodies fuel the fibrotic, scleroderma-like late disease, which is why B-cell-targeted therapy (the BTK inhibitor ibrutinib) became an approved treatment—shifting GVHD beyond a purely T-cell view.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
