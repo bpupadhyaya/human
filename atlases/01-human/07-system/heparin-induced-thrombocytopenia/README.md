@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "HIT starts when dendritic cells flag PF4-heparin as foreign: heparin reshapes platelet factor 4 into a neo-antigen these sentinels recognize and present, kicking off the rapid immune reaction that turns a blood thinner into a clotting trigger."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "HIT clots can strike the brain: despite the falling platelet count it is a prothrombotic state, causing arterial strokes and cerebral vein thrombosis, so HIT is treated with non-heparin anticoagulants rather than transfusion."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "HIT can destroy the adrenal glands: bilateral adrenal vein thrombosis leads to hemorrhagic infarction and acute adrenal insufficiency, a rare but catastrophic complication of the syndrome's paradoxical clotting."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "HIT chokes tissues of oxygen through thrombosis: clots in arteries and veins block blood flow, causing limb ischemia that can require amputation, so the hypoxic damage—not bleeding—is HIT's central threat."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -291,6 +300,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — HIT is a paradoxical clotting storm consuming fibrinogen: the activated platelets generate massive thrombin that converts fibrinogen to fibrin, so a low-platelet state causes thrombosis rather than bleeding—the trap that defines the disease.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HIT platelets activate through a calcium surge: antibody clustering of platelet Fc receptors triggers calcium influx that drives the granule release and aggregation behind the prothrombotic state—the cellular step that makes HIT dangerous.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIT starts when dendritic cells flag PF4-heparin as foreign: heparin reshapes platelet factor 4 into a neo-antigen these sentinels recognize and present, kicking off the rapid immune reaction that turns a blood thinner into a clotting trigger.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — HIT clots can strike the brain: despite the falling platelet count it is a prothrombotic state, causing arterial strokes and cerebral vein thrombosis, so HIT is treated with non-heparin anticoagulants rather than transfusion.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — HIT can destroy the adrenal glands: bilateral adrenal vein thrombosis leads to hemorrhagic infarction and acute adrenal insufficiency, a rare but catastrophic complication of the syndrome's paradoxical clotting.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HIT chokes tissues of oxygen through thrombosis: clots in arteries and veins block blood flow, causing limb ischemia that can require amputation, so the hypoxic damage—not bleeding—is HIT's central threat.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
