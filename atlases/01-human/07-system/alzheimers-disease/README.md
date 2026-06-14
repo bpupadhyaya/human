@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes shape Alzheimer's neuroinflammation: reactive astrocytes cluster around amyloid plaques, and while they can help clear amyloid, their chronic activation alongside microglia releases inflammatory mediators that damage neurons and synapses."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement drives synapse loss in Alzheimer's: C3 and C1q tag vulnerable synapses, prompting microglia to prune them, so reactivating this developmental 'eat-me' signal helps explain the early synaptic loss that best correlates with memory decline."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Vascular disease and Alzheimer's intertwine: atherosclerosis and small-vessel disease reduce brain perfusion and clearance of amyloid, so most late-life dementia is 'mixed', and controlling blood pressure, cholesterol, and diabetes lowers dementia risk."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression and Alzheimer's are tangled: late-life depression can be an early prodrome of dementia and is also an independent risk factor, while AD itself often presents with apathy and low mood—so new depression in an older adult warrants cognitive assessment."
 ---
 
 # Alzheimer's Disease
@@ -214,6 +223,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Alzheimer's classically depletes acetylcholine: early loss of basal-forebrain cholinergic neurons impairs memory, and the only long-standing symptomatic drugs—cholinesterase inhibitors—work by preserving this neurotransmitter, though they do not slow the disease.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is where Alzheimer's begins: tau tangles and atrophy strike this memory-forming structure first, explaining the early loss of recent memory, and hippocampal shrinkage on MRI is among the earliest imaging signs of the disease.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape Alzheimer's neuroinflammation: reactive astrocytes cluster around amyloid plaques, and while they can help clear amyloid, their chronic activation alongside microglia releases inflammatory mediators that damage neurons and synapses.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement drives synapse loss in Alzheimer's: C3 and C1q tag vulnerable synapses, prompting microglia to prune them, so reactivating this developmental 'eat-me' signal helps explain the early synaptic loss that best correlates with memory decline.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Vascular disease and Alzheimer's intertwine: atherosclerosis and small-vessel disease reduce brain perfusion and clearance of amyloid, so most late-life dementia is 'mixed', and controlling blood pressure, cholesterol, and diabetes lowers dementia risk.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression and Alzheimer's are tangled: late-life depression can be an early prodrome of dementia and is also an independent risk factor, while AD itself often presents with apathy and low mood—so new depression in an older adult warrants cognitive assessment.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

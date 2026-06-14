@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "AGS is a prototype autoinflammatory interferonopathy: inherited defects in nucleic-acid metabolism trip innate immune sensors to overproduce interferon against self, so it overlaps with lupus and is now treated by damping that pathway with JAK inhibitors."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Brain calcium deposits are an AGS hallmark: chronic type-I interferon inflammation calcifies the basal ganglia and white matter, so CT shows intracranial calcifications that—alongside CSF changes—help distinguish this genetic interferonopathy from congenital infection."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "AGS keeps the brain's immune effectors switched on: persistent interferon recruits cytotoxic T cells and lymphocytes into the CSF, producing a chronic sterile lymphocytosis that mimics a never-ending viral encephalitis—inflammation aimed at the body's own nucleic acids."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "AGS is the antiviral defense misfiring without a virus: the same type-I interferon program that fights infections like West Nile is chronically triggered by the patient's own DNA/RNA, so AGS resembles a congenital infection that never actually occurred."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -204,6 +213,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[MAVS](../../03-molecular/mavs/README.md)** — One AGS subtype is a disease of MAVS signaling: gain-of-function in the MDA5 sensor (IFIH1) makes it misread the body's own RNA, firing MAVS-driven type I interferon—so AGS is a Mendelian interferonopathy mimicking congenital infection.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — AGS is fundamentally an interferon assault on the developing nervous system: chronic intrathecal type I interferon causes a leukodystrophy with brain calcification, white-matter loss and severe encephalopathy, mimicking a TORCH congenital infection.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — AGS is a prototype autoinflammatory interferonopathy: inherited defects in nucleic-acid metabolism trip innate immune sensors to overproduce interferon against self, so it overlaps with lupus and is now treated by damping that pathway with JAK inhibitors.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Brain calcium deposits are an AGS hallmark: chronic type-I interferon inflammation calcifies the basal ganglia and white matter, so CT shows intracranial calcifications that—alongside CSF changes—help distinguish this genetic interferonopathy from congenital infection.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — AGS keeps the brain's immune effectors switched on: persistent interferon recruits cytotoxic T cells and lymphocytes into the CSF, producing a chronic sterile lymphocytosis that mimics a never-ending viral encephalitis—inflammation aimed at the body's own nucleic acids.
+- `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — AGS is the antiviral defense misfiring without a virus: the same type-I interferon program that fights infections like West Nile is chronically triggered by the patient's own DNA/RNA, so AGS resembles a congenital infection that never actually occurred.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
