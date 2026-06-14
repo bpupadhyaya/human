@@ -95,6 +95,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Lymph nodes are where cytotoxic T cells are armed: naive CD8 cells survey nodes until a dendritic cell presents antigen, then activate and exit through lymphatics into blood to hunt infected or tumor cells—so the lymphatic system stages antiviral and antitumor immunity."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "The lymphatic system rescues leaked albumin: capillaries constantly leak protein into tissues, and lymph vessels collect this albumin-rich fluid and return it to the blood—so blocked lymphatics cause the protein-rich swelling of lymphedema."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Lymphatic vessels are built from specialized endothelial cells: distinct from blood-vessel lining, these cells form one-way valves and loose junctions that soak up fluid, and VEGF-C drives them to sprout new lymphatics (lymphangiogenesis)."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Lymph nodes are where regulatory T cells learn tolerance: the lymphatic system funnels antigens and lymphocytes into nodes where Tregs are induced and licensed, making lymphoid tissue the training ground for immune self-restraint."
 ---
 
 # Lymphatic System
@@ -230,6 +239,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Lymphatic vessels grow under VEGF control: VEGF-C and VEGF-D acting on VEGFR-3 drive lymphangiogenesis, building and remodeling the lymphatic network—and tumors hijack this signal to sprout lymphatics that carry cancer cells to lymph nodes.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is the body's largest single source of lymph: high sinusoidal filtration produces protein-rich hepatic lymph that drains via the thoracic duct, so in cirrhosis overwhelmed lymphatics contribute to the ascites that fills the abdomen.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Lymph nodes are where cytotoxic T cells are armed: naive CD8 cells survey nodes until a dendritic cell presents antigen, then activate and exit through lymphatics into blood to hunt infected or tumor cells—so the lymphatic system stages antiviral and antitumor immunity.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — The lymphatic system rescues leaked albumin: capillaries constantly leak protein into tissues, and lymph vessels collect this albumin-rich fluid and return it to the blood—so blocked lymphatics cause the protein-rich swelling of lymphedema.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Lymphatic vessels are built from specialized endothelial cells: distinct from blood-vessel lining, these cells form one-way valves and loose junctions that soak up fluid, and VEGF-C drives them to sprout new lymphatics (lymphangiogenesis).
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Lymph nodes are where regulatory T cells learn tolerance: the lymphatic system funnels antigens and lymphocytes into nodes where Tregs are induced and licensed, making lymphoid tissue the training ground for immune self-restraint.
 
 ## Pathology
 

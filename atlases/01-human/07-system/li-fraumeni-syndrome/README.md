@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/melanoma
     relation: connects-to
     note: "Melanoma is an extended Li-Fraumeni risk: TP53 carriers show increased melanoma incidence among their broad tumor spectrum, adding skin surveillance and sun protection to the layered cancer screening these patients already need."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Li-Fraumeni loses p53's power to order cell suicide: normal p53 triggers caspase-3-driven apoptosis in damaged cells, so when both TP53 copies fail, cells that should self-destruct survive and accumulate the mutations that spawn its many cancers."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "Li-Fraumeni knocks out one of the two master tumor suppressors: TP53 and RB1 guard the cell cycle together, so losing p53 (LFS) cripples the same defenses that losing RB1 destroys in hereditary retinoblastoma—two routes to runaway division."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immune surveillance, including NK cells, partly offsets Li-Fraumeni's risk: natural killer cells clear stressed and damaged cells before they become tumors, so the strength of this innate defense may help explain why cancer timing varies among carriers."
 ---
 
 # Li-Fraumeni Syndrome
@@ -274,6 +283,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Li-Fraumeni and BRCA1 both cause hereditary breast cancer but differ in scope: TP53 loss gives early, multi-organ cancers while BRCA1 mainly raises breast and ovarian risk—so a young breast-cancer patient gets a multigene panel testing both genes.
 - `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Stomach cancer is part of the Li-Fraumeni spectrum: TP53 carriers face elevated, often early-onset gastric cancer alongside their sarcoma and breast risks, so surveillance guidelines add upper endoscopy for families with a gastric-cancer history.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma is an extended Li-Fraumeni risk: TP53 carriers show increased melanoma incidence among their broad tumor spectrum, adding skin surveillance and sun protection to the layered cancer screening these patients already need.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Li-Fraumeni loses p53's power to order cell suicide: normal p53 triggers caspase-3-driven apoptosis in damaged cells, so when both TP53 copies fail, cells that should self-destruct survive and accumulate the mutations that spawn its many cancers.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — Li-Fraumeni knocks out one of the two master tumor suppressors: TP53 and RB1 guard the cell cycle together, so losing p53 (LFS) cripples the same defenses that losing RB1 destroys in hereditary retinoblastoma—two routes to runaway division.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance, including NK cells, partly offsets Li-Fraumeni's risk: natural killer cells clear stressed and damaged cells before they become tumors, so the strength of this innate defense may help explain why cancer timing varies among carriers.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
