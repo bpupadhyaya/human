@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Hepatic stellate cells are NASH's fibrosis engine: activated by injured hepatocytes and macrophages, they transform into collagen-secreting myofibroblasts, scarring the liver toward cirrhosis—so these fibroblast-like cells are the target of antifibrotic drugs."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "NASH is driven partly from the gut: a dysbiotic, leaky intestine sends bacterial endotoxin and metabolites up the portal vein to inflame the fatty liver, so the gut-liver axis helps turn simple steatosis into progressive steatohepatitis."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid hormone signaling is a NASH drug target: the liver-selective THR-β agonist resmetirom boosts hepatic fat metabolism and became the first FDA-approved NASH therapy, so mimicking thyroid hormone in the liver can reverse steatosis and early fibrosis."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Cholesterol is a hidden driver of NASH: free cholesterol accumulating in hepatocytes is toxic, stressing mitochondria and activating inflammation, so lipotoxicity—not just triglyceride fat—pushes bland fatty liver toward the cell injury that defines steatohepatitis."
 ---
 
 # NASH
@@ -200,6 +209,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Fibrosis stage drives the prognosis of NASH: fat plus inflammation activates hepatic fibrogenesis, and the degree of liver fibrosis—not the fat or inflammation itself—predicts progression to cirrhosis and death, so antifibrotic effect is the goal of NASH therapy.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance is the engine of NASH: it floods the liver with fatty acids and promotes fat storage and inflammation, so NASH is the hepatic face of the metabolic syndrome—why weight loss and insulin-sensitizing therapy (GLP-1, pioglitazone) treat it.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Hepatic stellate cells are NASH's fibrosis engine: activated by injured hepatocytes and macrophages, they transform into collagen-secreting myofibroblasts, scarring the liver toward cirrhosis—so these fibroblast-like cells are the target of antifibrotic drugs.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — NASH is driven partly from the gut: a dysbiotic, leaky intestine sends bacterial endotoxin and metabolites up the portal vein to inflame the fatty liver, so the gut-liver axis helps turn simple steatosis into progressive steatohepatitis.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormone signaling is a NASH drug target: the liver-selective THR-β agonist resmetirom boosts hepatic fat metabolism and became the first FDA-approved NASH therapy, so mimicking thyroid hormone in the liver can reverse steatosis and early fibrosis.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol is a hidden driver of NASH: free cholesterol accumulating in hepatocytes is toxic, stressing mitochondria and activating inflammation, so lipotoxicity—not just triglyceride fat—pushes bland fatty liver toward the cell injury that defines steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

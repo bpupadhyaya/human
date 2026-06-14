@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Myelofibrosis causes anemia despite high erythropoietin: marrow scarring crowds out red-cell production so EPO rises but cannot be answered, leaving transfusion-dependent anemia—a key driver of symptoms that JAK inhibitors and newer agents try to relieve."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Myelofibrosis warps platelet production: clonal megakaryocytes first overproduce platelets, but as the marrow scars they fail, so patients swing from thrombosis-prone thrombocytosis to dangerous thrombocytopenia—platelet count tracking the march to marrow failure."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Myelofibrosis is named for the collagen it lays down: cytokines from the malignant clone drive marrow fibroblasts to flood the marrow with reticulin and collagen, crowding out blood production—so the fibrosis, though reactive, is the disease's defining lesion."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Myelofibrosis is in part an inflammatory disease: the JAK-STAT-driven clone pours out cytokines that cause fevers, weight loss, and night sweats, so JAK inhibitors like ruxolitinib ease symptoms by dampening this inflammatory storm more than by killing the clone."
 ---
 
 # Myelofibrosis
@@ -231,6 +240,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Myelofibrosis is bone marrow turned to scar: malignant megakaryocytes secrete TGF-beta that drives fibroblasts to fill the marrow with fibrosis, so blood production fails and shifts to liver and spleen (extramedullary hematopoiesis)—the disease's defining lesion.
 - `connects-to` → **[MPL](../../03-molecular/mpl/README.md)** — MPL is one of myelofibrosis's three driver mutations: activating the thrombopoietin receptor MPL (like JAK2 and CALR) switches on JAK-STAT to drive the clone, so testing JAK2/CALR/MPL classifies the disease and rare triple-negative cases carry worse prognosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Myelofibrosis causes anemia despite high erythropoietin: marrow scarring crowds out red-cell production so EPO rises but cannot be answered, leaving transfusion-dependent anemia—a key driver of symptoms that JAK inhibitors and newer agents try to relieve.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Myelofibrosis warps platelet production: clonal megakaryocytes first overproduce platelets, but as the marrow scars they fail, so patients swing from thrombosis-prone thrombocytosis to dangerous thrombocytopenia—platelet count tracking the march to marrow failure.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Myelofibrosis is named for the collagen it lays down: cytokines from the malignant clone drive marrow fibroblasts to flood the marrow with reticulin and collagen, crowding out blood production—so the fibrosis, though reactive, is the disease's defining lesion.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Myelofibrosis is in part an inflammatory disease: the JAK-STAT-driven clone pours out cytokines that cause fevers, weight loss, and night sweats, so JAK inhibitors like ruxolitinib ease symptoms by dampening this inflammatory storm more than by killing the clone.
 
 ---
 
