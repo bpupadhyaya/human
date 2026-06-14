@@ -125,6 +125,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin shapes the repetitive behaviors of OCD: the bonding hormone also drives grooming and checking-type behaviors and is dysregulated in OCD, linking the social hormone to compulsive ritual."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "OCD is increasingly seen as a synapse disorder: genes for the glutamatergic synapse (like SAPAP3) disturb signaling in the cortico-striatal loop, so faulty synaptic wiring underlies the circuit that locks into obsessions and compulsions."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "OCD's signaling leans on calcium: voltage-gated calcium-channel genes implicated across psychiatric disorders shape the synaptic plasticity of the OCD circuit, tying ion flux to how compulsive habits are learned and held."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "In PANDAS, B cells turn OCD on suddenly: a strep infection makes the immune system produce cross-reactive antibodies that attack the basal ganglia, triggering abrupt-onset OCD and tics in susceptible children."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -285,6 +294,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Some childhood OCD is autoimmune, flagged by complement: in PANDAS, strep infection triggers antibodies and complement that attack basal-ganglia neurons, and complement-driven synaptic pruning is implicated in the circuit changes of OCD.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — OCD's faulty brain circuit involves astrocytes: these glial cells clear glutamate in the cortico-striatal loop that misfires in OCD, so astrocyte dysfunction may sustain the runaway excitation behind intrusive thoughts and compulsions.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin shapes the repetitive behaviors of OCD: the bonding hormone also drives grooming and checking-type behaviors and is dysregulated in OCD, linking the social hormone to compulsive ritual.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — OCD is increasingly seen as a synapse disorder: genes for the glutamatergic synapse (like SAPAP3) disturb signaling in the cortico-striatal loop, so faulty synaptic wiring underlies the circuit that locks into obsessions and compulsions.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — OCD's signaling leans on calcium: voltage-gated calcium-channel genes implicated across psychiatric disorders shape the synaptic plasticity of the OCD circuit, tying ion flux to how compulsive habits are learned and held.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — In PANDAS, B cells turn OCD on suddenly: a strep infection makes the immune system produce cross-reactive antibodies that attack the basal ganglia, triggering abrupt-onset OCD and tics in susceptible children.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

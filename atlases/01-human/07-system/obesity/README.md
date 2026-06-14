@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Obesity ties appetite to serotonin: serotonin signaling in the hypothalamus promotes satiety, which is why serotonergic drugs curb eating—and why disordered serotonin links mood, the gut, and body weight."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Obesity robs sleep of oxygen: excess neck and abdominal fat collapses the airway and loads the chest, causing obstructive sleep apnea and obesity hypoventilation, so the body repeatedly drops its oxygen overnight, straining heart and metabolism."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Obesity slowly wears out the kidneys: the metabolic load forces them to hyperfilter, and obesity-related glomerulopathy spills protein and scars the filters, a major and rising driver of chronic kidney disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Obesity sickens the endothelium: inflammatory fat signals and insulin resistance impair the vessel-lining cells that control blood flow, the early endothelial dysfunction that seeds hypertension and atherosclerosis."
 ---
 
 # Obesity
@@ -291,6 +300,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Obesity is governed by the brain's hypothalamus: it reads leptin, ghrelin, and insulin to set hunger and energy use, and when this appetite center becomes resistant to those signals, intake outruns expenditure—obesity as a disorder of central regulation.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Obesity is a low-grade inflammatory state driven by TNF: enlarged fat tissue recruits macrophages that secrete TNF-alpha, which blocks insulin signaling—the direct link from belly fat to insulin resistance and type 2 diabetes.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Obesity ties appetite to serotonin: serotonin signaling in the hypothalamus promotes satiety, which is why serotonergic drugs curb eating—and why disordered serotonin links mood, the gut, and body weight.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Obesity robs sleep of oxygen: excess neck and abdominal fat collapses the airway and loads the chest, causing obstructive sleep apnea and obesity hypoventilation, so the body repeatedly drops its oxygen overnight, straining heart and metabolism.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Obesity slowly wears out the kidneys: the metabolic load forces them to hyperfilter, and obesity-related glomerulopathy spills protein and scars the filters, a major and rising driver of chronic kidney disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Obesity sickens the endothelium: inflammatory fat signals and insulin resistance impair the vessel-lining cells that control blood flow, the early endothelial dysfunction that seeds hypertension and atherosclerosis.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
