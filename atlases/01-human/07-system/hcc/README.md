@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 helps explain why HCC favors men: Kupffer-cell IL-6 fuels tumor growth via STAT3, and because estrogen suppresses IL-6, women are partly protected, a link that also ties obesity and fatty-liver inflammation to liver cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "HCC grows in a low-oxygen tumor: outpacing its blood supply, the cancer turns hypoxic, which switches on HIF and VEGF to sprout new vessels and makes it resistant to therapy—why anti-angiogenic drugs are central to treatment."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "HCC shelters behind regulatory T cells: the liver tumor accumulates Tregs that suppress the antitumor attack, a key reason it resists immunity and why checkpoint drugs aim to lift this brake on the immune system."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "HCC commonly spreads to the adrenal glands: after the lungs, the adrenals are among its favored metastatic sites, so imaging of these glands is part of staging advanced liver cancer."
 ---
 
 # Hepatocellular Carcinoma
@@ -281,6 +290,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — HCC's cirrhotic background enlarges the spleen: scarring raises portal-vein pressure, which backs up into the spleen, causing splenomegaly and trapping platelets, so a big spleen and low platelets often signal the cirrhosis underlying liver cancer.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic liver inflammation drives HCC through NF-kB: persistent hepatitis keeps this master switch active in hepatocytes, promoting survival and proliferation of damaged cells, so the inflammation-to-cancer path runs largely through NF-kB.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps explain why HCC favors men: Kupffer-cell IL-6 fuels tumor growth via STAT3, and because estrogen suppresses IL-6, women are partly protected, a link that also ties obesity and fatty-liver inflammation to liver cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HCC grows in a low-oxygen tumor: outpacing its blood supply, the cancer turns hypoxic, which switches on HIF and VEGF to sprout new vessels and makes it resistant to therapy—why anti-angiogenic drugs are central to treatment.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HCC shelters behind regulatory T cells: the liver tumor accumulates Tregs that suppress the antitumor attack, a key reason it resists immunity and why checkpoint drugs aim to lift this brake on the immune system.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — HCC commonly spreads to the adrenal glands: after the lungs, the adrenals are among its favored metastatic sites, so imaging of these glands is part of staging advanced liver cancer.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

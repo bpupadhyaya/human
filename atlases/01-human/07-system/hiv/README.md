@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "HIV warps the regulatory T-cell balance: it expands these immune suppressors that can damp the antiviral attack while also serving as a viral hiding place, so Tregs both blunt control of the virus and help sustain its reservoir."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "HIV can attack the kidneys: HIV-associated nephropathy, a collapsing form of glomerular scarring, spills heavy protein and can rapidly fail the kidneys, especially before treatment and in those of African ancestry."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "HIV guts the immune system at the bowel lining: within weeks it wipes out the dense CD4 T cells of the gut's GALT and breaches the epithelium, letting microbes leak through to drive the chronic immune activation that fuels disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "HIV is worsened by low zinc: deficiency is common in infection and impairs the immune cells already under attack, so poor zinc status is linked to faster progression and worse outcomes."
 ---
 
 # HIV
@@ -290,6 +299,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — HIV's first great battlefield is the gut: it destroys most CD4 cells in the intestine's lymphoid tissue early, and the leaky gut that follows lets microbes translocate, fueling the chronic immune activation that persists even on treatment.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — HIV invades the brain and hides there: infected macrophages carry it across the blood-brain barrier into a sanctuary the drugs reach poorly, causing HIV-associated neurocognitive disorder and a reservoir that blocks cure.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HIV warps the regulatory T-cell balance: it expands these immune suppressors that can damp the antiviral attack while also serving as a viral hiding place, so Tregs both blunt control of the virus and help sustain its reservoir.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — HIV can attack the kidneys: HIV-associated nephropathy, a collapsing form of glomerular scarring, spills heavy protein and can rapidly fail the kidneys, especially before treatment and in those of African ancestry.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — HIV guts the immune system at the bowel lining: within weeks it wipes out the dense CD4 T cells of the gut's GALT and breaches the epithelium, letting microbes leak through to drive the chronic immune activation that fuels disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HIV is worsened by low zinc: deficiency is common in infection and impairs the immune cells already under attack, so poor zinc status is linked to faster progression and worse outcomes.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
