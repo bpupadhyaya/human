@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/men1-syndrome
     relation: connects-to
     note: "Thyroid tumors sit within inherited endocrine neoplasia: medullary thyroid cancer defines MEN2 via RET, and although MEN1 centers on parathyroid, pituitary, and pancreas, both syndromes prompt the familial work-up any endocrine tumor demands."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "TERT promoter mutations mark dangerous thyroid cancer: reactivating telomerase, they predict aggressive behavior and—combined with BRAF—drive the dedifferentiation toward lethal anaplastic thyroid cancer, refining prognosis beyond histology alone."
+  - target: 01-human/03-molecular/ntrk
+    relation: connects-to
+    note: "A subset of thyroid cancers is driven by NTRK fusions: these rearrangements, more common in radiation-exposed and pediatric tumors, are targetable with TRK inhibitors like larotrectinib—so molecular testing finds patients beyond the usual BRAF and RET."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Aggressive thyroid cancers fill with tumor-associated macrophages: especially in anaplastic disease, these immune cells dominate the stroma and promote invasion and immune escape, a microenvironment feature tied to poor prognosis."
 ---
 
 # Thyroid Cancer
@@ -255,6 +264,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system frames several thyroid cancers: chronic Hashimoto's autoimmune thyroiditis predisposes to papillary cancer and primary thyroid lymphoma, while checkpoint inhibitors are tried in aggressive anaplastic disease that resists radioiodine.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Bone metastases make thyroid cancer a musculoskeletal disease too: spinal and pelvic deposits cause pathological fractures, cord compression, and pain, so management adds bisphosphonates, surgery, and targeted radiotherapy beyond radioiodine to protect the skeleton.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Thyroid tumors sit within inherited endocrine neoplasia: medullary thyroid cancer defines MEN2 via RET, and although MEN1 centers on parathyroid, pituitary, and pancreas, both syndromes prompt the familial work-up any endocrine tumor demands.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations mark dangerous thyroid cancer: reactivating telomerase, they predict aggressive behavior and—combined with BRAF—drive the dedifferentiation toward lethal anaplastic thyroid cancer, refining prognosis beyond histology alone.
+- `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — A subset of thyroid cancers is driven by NTRK fusions: these rearrangements, more common in radiation-exposed and pediatric tumors, are targetable with TRK inhibitors like larotrectinib—so molecular testing finds patients beyond the usual BRAF and RET.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Aggressive thyroid cancers fill with tumor-associated macrophages: especially in anaplastic disease, these immune cells dominate the stroma and promote invasion and immune escape, a microenvironment feature tied to poor prognosis.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

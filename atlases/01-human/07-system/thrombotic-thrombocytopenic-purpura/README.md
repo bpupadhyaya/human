@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen links to TTP through antibody handling: its reticuloendothelial cells clear autoantibody-coated platelets and produce immunoglobulin, and historically splenectomy was used for refractory or relapsing immune TTP before rituximab became standard."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Acquired TTP is treated by depleting B cells via CD20: rituximab, an anti-CD20 antibody, removes the B cells making anti-ADAMTS13 autoantibodies, reducing relapse alongside plasma exchange and the anti-vWF nanobody caplacizumab."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy can precipitate TTP: ADAMTS13 activity falls naturally in pregnancy, unmasking congenital deficiency or triggering acquired TTP, so it must be distinguished from preeclampsia and HELLP—a diagnostic challenge with very different treatments."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Acquired TTP is an autoimmune disease needing T-cell help: helper T cells recognizing ADAMTS13 drive B cells to make the inhibitory autoantibodies, so the disorder reflects a breakdown of tolerance to the body's own vWF-cleaving enzyme."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -274,6 +283,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Acquired TTP is autoantibody-driven, so B cells are a treatment target: rituximab (anti-CD20) depletes the B cells making anti-ADAMTS13 antibodies, raising enzyme levels, preventing relapse, and increasingly used upfront alongside plasma exchange.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Most TTP is autoimmune: the immune system generates IgG autoantibodies against ADAMTS13, crippling the enzyme that cleaves von Willebrand factor—so unchecked VWF multimers trigger platelet microthrombi, distinguishing acquired TTP from the hereditary enzyme deficiency.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen links to TTP through antibody handling: its reticuloendothelial cells clear autoantibody-coated platelets and produce immunoglobulin, and historically splenectomy was used for refractory or relapsing immune TTP before rituximab became standard.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Acquired TTP is treated by depleting B cells via CD20: rituximab, an anti-CD20 antibody, removes the B cells making anti-ADAMTS13 autoantibodies, reducing relapse alongside plasma exchange and the anti-vWF nanobody caplacizumab.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy can precipitate TTP: ADAMTS13 activity falls naturally in pregnancy, unmasking congenital deficiency or triggering acquired TTP, so it must be distinguished from preeclampsia and HELLP—a diagnostic challenge with very different treatments.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Acquired TTP is an autoimmune disease needing T-cell help: helper T cells recognizing ADAMTS13 drive B cells to make the inhibitory autoantibodies, so the disorder reflects a breakdown of tolerance to the body's own vWF-cleaving enzyme.
 
 ---
 
