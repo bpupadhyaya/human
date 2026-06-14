@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Social anxiety has a neuroinflammatory thread in microglia: chronic stress activates brain microglia whose cytokines alter the fear and reward circuits, linking immune activation to the persistence of social anxiety."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Social anxiety's physical dread comes from the adrenal glands: anticipating scrutiny triggers an adrenaline and cortisol surge that causes the blushing, sweating, trembling and pounding heart, the body's alarm misfiring in ordinary social moments."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Social anxiety is learned and stored in synapses: fear conditioning strengthens connections in the brain's threat circuits, so social cues come to trigger alarm—plasticity that therapy and SSRIs gradually help reshape."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium helps calm the socially anxious brain: it supports GABA inhibition and restrains excitatory NMDA signaling, so low magnesium can lower the threshold for the over-arousal that fuels anxiety in feared situations."
 ---
 
 # Social Anxiety Disorder
@@ -269,6 +278,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Performance social anxiety is treated through the heart: propranolol, a beta-blocker, blunts the racing heart and tremor of stage fright by blocking adrenaline's cardiac effects—calming the physical symptoms that feed the fear without sedation.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Caffeine worsens social anxiety by blocking adenosine: removing adenosine's calming brake heightens arousal and palpitations that mimic and amplify anxious feelings, so caffeine can trigger or intensify social fear in susceptible people.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Social anxiety has a neuroinflammatory thread in microglia: chronic stress activates brain microglia whose cytokines alter the fear and reward circuits, linking immune activation to the persistence of social anxiety.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Social anxiety's physical dread comes from the adrenal glands: anticipating scrutiny triggers an adrenaline and cortisol surge that causes the blushing, sweating, trembling and pounding heart, the body's alarm misfiring in ordinary social moments.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Social anxiety is learned and stored in synapses: fear conditioning strengthens connections in the brain's threat circuits, so social cues come to trigger alarm—plasticity that therapy and SSRIs gradually help reshape.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium helps calm the socially anxious brain: it supports GABA inhibition and restrains excitatory NMDA signaling, so low magnesium can lower the threshold for the over-arousal that fuels anxiety in feared situations.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
