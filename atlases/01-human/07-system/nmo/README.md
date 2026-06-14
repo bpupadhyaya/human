@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "NMO is treated by blocking IL-6 signaling through JAK: satralizumab targets the IL-6 receptor whose JAK-STAT signal drives the AQP4-antibody-producing plasmablasts, one of several approved therapies that have transformed NMO prognosis."
+  - target: 01-human/03-molecular/fcrn
+    relation: connects-to
+    note: "NMO is driven by pathogenic IgG that FcRn keeps alive: the anti-AQP4 antibody attacks astrocytes, and because FcRn recycles IgG to prolong its life, blocking FcRn (efgartigimod) is a strategy to clear the harmful antibody."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "NMO recruits Th17 and IL-17 to breach the brain barrier: IL-17 helps open the blood-brain barrier and inflame lesions, letting anti-AQP4 antibody reach astrocytes—part of why IL-6 blockade (which curbs Th17) prevents relapses."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "NMO lesions are finished off by macrophages: after anti-AQP4 antibody and complement attack astrocytes, macrophages clear the debris and demyelinate, producing the destructive, longitudinally extensive cord and optic-nerve lesions."
 ---
 
 # NMOSD
@@ -289,6 +298,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark NMO lesions, unlike MS: the antibody-and-complement attack on astrocytes draws in neutrophils and eosinophils, so the inflammatory infiltrate and CSF granulocytes help distinguish neuromyelitis optica from multiple sclerosis.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — NMO unleashes glutamate excitotoxicity: anti-AQP4 antibodies kill astrocytes whose glutamate transporters normally clear the synapse, so glutamate floods and poisons oligodendrocytes and neurons—why astrocyte loss cascades into demyelination.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — NMO is treated by blocking IL-6 signaling through JAK: satralizumab targets the IL-6 receptor whose JAK-STAT signal drives the AQP4-antibody-producing plasmablasts, one of several approved therapies that have transformed NMO prognosis.
+- `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — NMO is driven by pathogenic IgG that FcRn keeps alive: the anti-AQP4 antibody attacks astrocytes, and because FcRn recycles IgG to prolong its life, blocking FcRn (efgartigimod) is a strategy to clear the harmful antibody.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — NMO recruits Th17 and IL-17 to breach the brain barrier: IL-17 helps open the blood-brain barrier and inflame lesions, letting anti-AQP4 antibody reach astrocytes—part of why IL-6 blockade (which curbs Th17) prevents relapses.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — NMO lesions are finished off by macrophages: after anti-AQP4 antibody and complement attack astrocytes, macrophages clear the debris and demyelinate, producing the destructive, longitudinally extensive cord and optic-nerve lesions.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

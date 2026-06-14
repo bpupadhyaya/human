@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Small-fiber neuropathic pain is diagnosed in the skin: a skin biopsy measuring intraepidermal nerve-fiber density reveals the loss of tiny pain fibers, and capsaicin patches treat the skin's overactive nociceptors—making skin both a diagnostic and therapeutic site."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Neuropathic pain is sustained by TNF and neuroinflammation: injured nerves and activated glia release TNF-alpha that sensitizes pain neurons, turning a transient injury into chronic pain—why the immune system is a target for hard-to-treat pain."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine sets the brain's pain volume: descending dopamine pathways and the reward system modulate how much pain is felt and how much it bothers, so low dopamine (as in Parkinson's) lowers the pain threshold and worsens chronic pain."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells inflame injured nerves into pain: clustered around peripheral nerves, they release histamine, proteases, and cytokines that sensitize nociceptors, linking the immune system to the burning pain of nerve injury and CRPS."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -273,6 +282,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP is a key pain neuropeptide alongside substance P: released from sensory nerves, it sensitizes pain pathways and dilates vessels, and blocking it controls migraine—illustrating how neuropeptides amplify the signaling that becomes chronic neuropathic pain.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium dampens neuropathic pain at the NMDA receptor: it normally plugs the channel that drives central sensitization, so low magnesium unmasks pain amplification and magnesium infusion is used to blunt it—linking a simple ion to chronic pain.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Small-fiber neuropathic pain is diagnosed in the skin: a skin biopsy measuring intraepidermal nerve-fiber density reveals the loss of tiny pain fibers, and capsaicin patches treat the skin's overactive nociceptors—making skin both a diagnostic and therapeutic site.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Neuropathic pain is sustained by TNF and neuroinflammation: injured nerves and activated glia release TNF-alpha that sensitizes pain neurons, turning a transient injury into chronic pain—why the immune system is a target for hard-to-treat pain.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine sets the brain's pain volume: descending dopamine pathways and the reward system modulate how much pain is felt and how much it bothers, so low dopamine (as in Parkinson's) lowers the pain threshold and worsens chronic pain.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame injured nerves into pain: clustered around peripheral nerves, they release histamine, proteases, and cytokines that sensitize nociceptors, linking the immune system to the burning pain of nerve injury and CRPS.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
