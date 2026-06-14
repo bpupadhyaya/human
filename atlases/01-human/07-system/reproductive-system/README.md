@@ -77,6 +77,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "The reproductive system shapes skeletal health: ovarian estrogen protects bone, so menopause's estrogen loss accelerates bone resorption into osteoporosis—linking the reproductive system's hormonal decline to fracture risk in later life."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin governs the reproductive system's lactation and fertility: it drives milk production and, when excessive (prolactinoma), suppresses the GnRH-LH/FSH axis causing infertility and amenorrhea—so the pituitary hormone links the brain to reproduction."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: connects-to
+    note: "HPV is the reproductive system's major oncogenic infection: sexually transmitted high-risk types cause cervical, vulvar, penile and anal cancers, so this virus turns a reproductive-tract infection into cancer—now largely preventable by vaccination."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "The breast is the reproductive system's milk-producing organ and a major cancer site: estrogen and progesterone drive its development and cyclical changes, and these same hormones fuel most breast cancers—tying reproductive hormones to the commonest female cancer."
 ---
 
 # Reproductive System
@@ -212,6 +221,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta is the reproductive system's temporary endocrine organ: it sustains pregnancy by secreting hCG, progesterone and estrogen and exchanging gases and nutrients, so this disposable organ takes over hormonal control the ovaries and pituitary normally hold.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin runs the reproductive system's mechanical events: it triggers uterine contractions in labor and milk ejection in breastfeeding through positive-feedback loops, so the same hormone drives both childbirth and lactation in the reproductive cycle.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The reproductive system shapes skeletal health: ovarian estrogen protects bone, so menopause's estrogen loss accelerates bone resorption into osteoporosis—linking the reproductive system's hormonal decline to fracture risk in later life.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin governs the reproductive system's lactation and fertility: it drives milk production and, when excessive (prolactinoma), suppresses the GnRH-LH/FSH axis causing infertility and amenorrhea—so the pituitary hormone links the brain to reproduction.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV is the reproductive system's major oncogenic infection: sexually transmitted high-risk types cause cervical, vulvar, penile and anal cancers, so this virus turns a reproductive-tract infection into cancer—now largely preventable by vaccination.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The breast is the reproductive system's milk-producing organ and a major cancer site: estrogen and progesterone drive its development and cyclical changes, and these same hormones fuel most breast cancers—tying reproductive hormones to the commonest female cancer.
 
 ## Pathology
 

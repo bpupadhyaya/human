@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity is a leading modifiable RCC risk factor: excess adiposity, with hypertension and chronic kidney stress, raises renal cell carcinoma risk through insulin/IGF and inflammatory signaling—making RCC one of the obesity-associated cancers."
+  - target: 01-human/03-molecular/bap1
+    relation: connects-to
+    note: "BAP1 loss marks an aggressive renal cell carcinoma subtype: this tumor-suppressor deletion (also seen in mesothelioma and uveal melanoma) defines high-grade clear-cell RCC with worse survival, so BAP1 status refines prognosis beyond the classic VHL/HIF pathway."
+  - target: 01-human/07-system/renal-system
+    relation: connects-to
+    note: "Renal cell carcinoma is the principal cancer of the renal system: it arises from the kidney's tubular epithelium and can secrete erythropoietin or renin, often presenting late with hematuria, flank pain or a mass—the kidney's own physiology becoming the tumor's traits."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Renal cell carcinoma is famously immunogenic: it can spontaneously regress and was an early success for IL-2 and now checkpoint immunotherapy, so engaging the immune system—often with anti-angiogenic drugs—is central to treating advanced RCC."
 ---
 
 # Renal Cell Carcinoma
@@ -218,6 +227,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[VHL](../../03-molecular/vhl/README.md)** — VHL loss is the central event in clear cell RCC: inactivating the VHL tumor suppressor stabilizes HIF, driving VEGF and the angiogenic, clear-cell tumor—so both sporadic and von Hippel-Lindau-associated kidney cancers converge on this oxygen-sensing pathway.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — RCC hijacks the kidney's own erythropoietin role: the kidney normally makes EPO sensing oxygen, and VHL-mutant tumor cells, fixed in pseudohypoxia, oversecrete it—causing paraneoplastic polycythemia, a cancer co-opting an organ's native hormone.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is a leading modifiable RCC risk factor: excess adiposity, with hypertension and chronic kidney stress, raises renal cell carcinoma risk through insulin/IGF and inflammatory signaling—making RCC one of the obesity-associated cancers.
+- `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — BAP1 loss marks an aggressive renal cell carcinoma subtype: this tumor-suppressor deletion (also seen in mesothelioma and uveal melanoma) defines high-grade clear-cell RCC with worse survival, so BAP1 status refines prognosis beyond the classic VHL/HIF pathway.
+- `connects-to` → **[Renal System](../renal-system/README.md)** — Renal cell carcinoma is the principal cancer of the renal system: it arises from the kidney's tubular epithelium and can secrete erythropoietin or renin, often presenting late with hematuria, flank pain or a mass—the kidney's own physiology becoming the tumor's traits.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Renal cell carcinoma is famously immunogenic: it can spontaneously regress and was an early success for IL-2 and now checkpoint immunotherapy, so engaging the immune system—often with anti-angiogenic drugs—is central to treating advanced RCC.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
