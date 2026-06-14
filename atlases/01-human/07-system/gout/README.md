@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Chronic gout deposits in the skin as tophi: long-standing high urate forms chalky subcutaneous nodules over joints and ears that can ulcerate and discharge crystals, so visible tophi mark years of untreated disease."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Gout flares can be quelled with cortisol: when NSAIDs and colchicine are unsafe—as in kidney disease—corticosteroids (oral or injected into the joint) calm the crystal-driven inflammation, a key fallback for treating an acute attack."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Chronic tophaceous gout erodes bone via osteoclasts: long-standing urate deposits activate bone-resorbing osteoclasts, carving the 'punched-out' periarticular erosions seen on X-ray that distinguish advanced gout from other arthritis."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Gout traces back to purine metabolism through adenosine: breaking down adenosine and other purines yields uric acid, so a high turnover of these nucleotides—from diet or cell breakdown—feeds the hyperuricemia that precipitates urate crystals."
 ---
 
 # Gout
@@ -224,6 +233,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Gout is a disease of nitrogen waste: uric acid is the nitrogen-rich end-product of purine breakdown that humans, lacking uricase, cannot degrade further, so this evolutionary loss leaves urate to crystallize in joints when it builds up.
 - `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myeloproliferative neoplasms cause secondary gout: massive cell turnover in polycythemia vera and related disorders floods the blood with purines and urate, so gout flares can be the first clue to an underlying blood-cell overproduction.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Chronic gout deposits in the skin as tophi: long-standing high urate forms chalky subcutaneous nodules over joints and ears that can ulcerate and discharge crystals, so visible tophi mark years of untreated disease.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Gout flares can be quelled with cortisol: when NSAIDs and colchicine are unsafe—as in kidney disease—corticosteroids (oral or injected into the joint) calm the crystal-driven inflammation, a key fallback for treating an acute attack.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Chronic tophaceous gout erodes bone via osteoclasts: long-standing urate deposits activate bone-resorbing osteoclasts, carving the 'punched-out' periarticular erosions seen on X-ray that distinguish advanced gout from other arthritis.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Gout traces back to purine metabolism through adenosine: breaking down adenosine and other purines yields uric acid, so a high turnover of these nucleotides—from diet or cell breakdown—feeds the hyperuricemia that precipitates urate crystals.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

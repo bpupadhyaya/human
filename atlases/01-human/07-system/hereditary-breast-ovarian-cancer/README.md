@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Tumor-infiltrating cytotoxic T cells track BRCA tumors' outcomes: HRD cancers, especially triple-negative breast and high-grade ovarian, often draw dense T-cell infiltrates that predict better prognosis and chemo response—so immune contexture is a built-in biomarker."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "BRCA1 breast cancer is fueled by progesterone signaling: the hormone drives RANKL and proliferation in mammary stem cells primed by BRCA1 loss, which is why anti-progesterone strategies are studied to prevent cancer in carriers."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "BRCA1 tumors are usually triple-negative, lacking HER2: unlike many breast cancers they express neither HER2 nor hormone receptors, so they miss those targeted drugs and instead rely on chemotherapy and PARP inhibitors against their DNA-repair defect."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "BRCA-mutant cancers are more immunogenic but shielded by regulatory T cells: their crippled DNA repair generates many neoantigens, yet Tregs blunt the response—so combining PARP inhibitors with immunotherapy aims to tip the balance."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -259,6 +268,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — HBOC overlaps another hereditary breast syndrome via CDH1: while BRCA carriers get ductal breast cancer, CDH1 (hereditary diffuse gastric cancer) carriers develop lobular breast cancer, so inherited breast-cancer risk spans more than one gene and tumor type.
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — HBOC sits among the DNA-repair cancer syndromes alongside MUTYH-associated polyposis: HBOC stems from broken homologous recombination and MAP from faulty base-excision repair, so both show how losing a specific repair pathway seeds inherited cancer.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tumor-infiltrating cytotoxic T cells track BRCA tumors' outcomes: HRD cancers, especially triple-negative breast and high-grade ovarian, often draw dense T-cell infiltrates that predict better prognosis and chemo response—so immune contexture is a built-in biomarker.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — BRCA1 breast cancer is fueled by progesterone signaling: the hormone drives RANKL and proliferation in mammary stem cells primed by BRCA1 loss, which is why anti-progesterone strategies are studied to prevent cancer in carriers.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — BRCA1 tumors are usually triple-negative, lacking HER2: unlike many breast cancers they express neither HER2 nor hormone receptors, so they miss those targeted drugs and instead rely on chemotherapy and PARP inhibitors against their DNA-repair defect.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — BRCA-mutant cancers are more immunogenic but shielded by regulatory T cells: their crippled DNA repair generates many neoantigens, yet Tregs blunt the response—so combining PARP inhibitors with immunotherapy aims to tip the balance.
 
 ---
 
