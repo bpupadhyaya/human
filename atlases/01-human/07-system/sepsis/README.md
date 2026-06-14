@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Sepsis flips into immune paralysis partly via regulatory T cells: as the early storm fades, expanding Tregs help suppress the exhausted immune system, leaving survivors unable to fight the secondary infections that often kill them."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Sepsis clouds the brain early: inflammation, poor perfusion, and toxins cause sepsis-associated encephalopathy, so confusion and delirium are often the first and most sensitive sign that an infection has turned to sepsis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Septic shock turns the blood acidic: starved cells switch to anaerobic metabolism and pour out lactic acid, so rising hydrogen ions (and lactate) mark the metabolic acidosis that signals worsening shock."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Sepsis later cripples its own helper T cells: widespread apoptosis wipes out CD4 T-helper cells, leaving an immunoparalysis that makes survivors prey to secondary infections in the days and weeks after."
 ---
 
 # Sepsis
@@ -257,6 +266,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Sepsis starves tissues of oxygen despite full lungs: leaky vessels, low blood pressure and mitochondrial failure stop cells using oxygen, so lactate rises—a key warning that sepsis is becoming shock.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Sepsis can stun the heart: inflammatory mediators depress the heart muscle in septic cardiomyopathy, so even a structurally normal heart pumps weakly, deepening the shock and the drop in tissue perfusion.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Sepsis flips into immune paralysis partly via regulatory T cells: as the early storm fades, expanding Tregs help suppress the exhausted immune system, leaving survivors unable to fight the secondary infections that often kill them.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Sepsis clouds the brain early: inflammation, poor perfusion, and toxins cause sepsis-associated encephalopathy, so confusion and delirium are often the first and most sensitive sign that an infection has turned to sepsis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Septic shock turns the blood acidic: starved cells switch to anaerobic metabolism and pour out lactic acid, so rising hydrogen ions (and lactate) mark the metabolic acidosis that signals worsening shock.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Sepsis later cripples its own helper T cells: widespread apoptosis wipes out CD4 T-helper cells, leaving an immunoparalysis that makes survivors prey to secondary infections in the days and weeks after.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
