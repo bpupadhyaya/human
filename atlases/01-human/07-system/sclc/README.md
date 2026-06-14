@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "SCLC is the classic cause of paraneoplastic neurological syndromes: it provokes antibodies (anti-Hu, anti-VGCC) that attack the nervous system, causing Lambert-Eaton myasthenic syndrome and encephalitis—sometimes appearing before the tumor is found."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Beyond its tumor biology, SCLC drives paraneoplastic autoimmunity: it expresses neuronal antigens the immune system attacks, while its high mutational burden makes it responsive to checkpoint immunotherapy—so immunity both harms (autoimmunity) and helps (treatment)."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "SCLC's neuroendocrine cells secrete ectopic hormones, causing endocrine paraneoplastic syndromes: ADH drives SIADH with hyponatremia and ACTH produces Cushing's—so metabolic disturbances often herald or complicate the cancer before imaging finds it."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a common SCLC metastatic site: this aggressive cancer spreads early and widely, and liver involvement marks extensive-stage disease, worsens prognosis, and can impair drug metabolism—so staging scans routinely scrutinize the liver."
 ---
 
 # Small Cell Lung Cancer
@@ -209,6 +218,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification drives the most aggressive SCLC: alongside near-universal TP53 and RB1 loss, MYC-family amplification defines a fast-proliferating subtype, so SCLC's relentless growth and early metastasis trace to these few but powerful genetic hits.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — SCLC metastasizes early to the adrenal glands: it spreads widely at diagnosis—to liver, brain, bone and characteristically the adrenals—so an adrenal mass with a lung primary signals extensive-stage disease, and SCLC can also ectopically secrete ACTH.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — SCLC is the classic cause of paraneoplastic neurological syndromes: it provokes antibodies (anti-Hu, anti-VGCC) that attack the nervous system, causing Lambert-Eaton myasthenic syndrome and encephalitis—sometimes appearing before the tumor is found.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Beyond its tumor biology, SCLC drives paraneoplastic autoimmunity: it expresses neuronal antigens the immune system attacks, while its high mutational burden makes it responsive to checkpoint immunotherapy—so immunity both harms (autoimmunity) and helps (treatment).
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — SCLC's neuroendocrine cells secrete ectopic hormones, causing endocrine paraneoplastic syndromes: ADH drives SIADH with hyponatremia and ACTH produces Cushing's—so metabolic disturbances often herald or complicate the cancer before imaging finds it.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a common SCLC metastatic site: this aggressive cancer spreads early and widely, and liver involvement marks extensive-stage disease, worsens prognosis, and can impair drug metabolism—so staging scans routinely scrutinize the liver.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
