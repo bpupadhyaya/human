@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Clear-cell ovarian cancer grows from an endometriotic niche rich in fibroblasts: the cyst's reactive stroma and chronic inflammation foster ARID1A-mutant transformation, so the fibroblast-laden microenvironment is part of how this cancer begins."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma is forged in iron: it arises from endometriosis, where repeated bleeding dumps iron into cysts, and the resulting oxidative stress damages DNA and drives the ARID1A-mutant cancer—linking menstrual iron to a tumor."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma is intensely angiogenic via VEGF: HIF-driven VEGF feeds its blood supply, so anti-VEGF bevacizumab is among the few systemic options for a tumor notoriously resistant to standard chemotherapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Iron-laden macrophages haunt clear cell carcinoma's origin: in the endometriotic cysts it springs from, macrophages gorge on blood-derived iron and pump out inflammatory signals, building the oxidative, pro-tumor niche the cancer exploits."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -265,6 +274,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Clear-cell ovarian cancer is the gynecologic tumor most linked to hypercalcemia: it can drive paraneoplastic high calcium (via PTH-related peptide), so an ovarian mass with unexplained hypercalcemia points toward this histotype.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Clear-cell ovarian cancer often overproduces IL-6: this cytokine drives paraneoplastic fever, thrombocytosis and an inflammatory state, contributing to the thrombosis risk and the relative chemoresistance that set this subtype apart.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Clear-cell ovarian cancer grows from an endometriotic niche rich in fibroblasts: the cyst's reactive stroma and chronic inflammation foster ARID1A-mutant transformation, so the fibroblast-laden microenvironment is part of how this cancer begins.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ovarian clear cell carcinoma is forged in iron: it arises from endometriosis, where repeated bleeding dumps iron into cysts, and the resulting oxidative stress damages DNA and drives the ARID1A-mutant cancer—linking menstrual iron to a tumor.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ovarian clear cell carcinoma is intensely angiogenic via VEGF: HIF-driven VEGF feeds its blood supply, so anti-VEGF bevacizumab is among the few systemic options for a tumor notoriously resistant to standard chemotherapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Iron-laden macrophages haunt clear cell carcinoma's origin: in the endometriotic cysts it springs from, macrophages gorge on blood-derived iron and pump out inflammatory signals, building the oxidative, pro-tumor niche the cancer exploits.
 
 ---
 

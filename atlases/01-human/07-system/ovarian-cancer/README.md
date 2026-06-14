@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Cancer-associated fibroblasts build ovarian cancer's metastatic niche: in the omentum they remodel the stroma, supply growth factors and promote chemoresistance, making this stromal cell a driver of the peritoneal spread that defines advanced disease."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Ovarian cancer betrays itself through albumin-rich ascites: spreading across the peritoneum, it leaks fluid that swells the abdomen and drains albumin, so new ascites in a woman is a red flag and paracentesis both relieves and diagnoses it."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Ovarian cancer was the first tumor shown to use regulatory T cells to predict death: Tregs flood the malignant ascites and tumor, suppressing immunity—a landmark finding that helped launch the field of cancer immunosuppression."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Ovarian cancer disables NK cells in its ascites: the fluid around the tumor blunts natural killer cytotoxicity, helping floating tumor clusters survive—so restoring NK function is explored to fight peritoneal spread."
 ---
 
 # Ovarian Cancer
@@ -239,6 +248,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A loss defines the endometriosis-linked ovarian cancers: this chromatin-remodeling gene is frequently mutated in clear-cell and endometrioid tumors that arise from endometriosis, giving them biology distinct from the BRCA-driven high-grade serous type.
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — ATM extends ovarian cancer's homologous-repair story beyond BRCA: germline or tumor ATM loss impairs DNA repair, marking some non-BRCA tumors as homologous-recombination deficient and potentially sensitive to platinum and PARP inhibitors.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts build ovarian cancer's metastatic niche: in the omentum they remodel the stroma, supply growth factors and promote chemoresistance, making this stromal cell a driver of the peritoneal spread that defines advanced disease.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Ovarian cancer betrays itself through albumin-rich ascites: spreading across the peritoneum, it leaks fluid that swells the abdomen and drains albumin, so new ascites in a woman is a red flag and paracentesis both relieves and diagnoses it.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Ovarian cancer was the first tumor shown to use regulatory T cells to predict death: Tregs flood the malignant ascites and tumor, suppressing immunity—a landmark finding that helped launch the field of cancer immunosuppression.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Ovarian cancer disables NK cells in its ascites: the fluid around the tumor blunts natural killer cytotoxicity, helping floating tumor clusters survive—so restoring NK function is explored to fight peritoneal spread.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
