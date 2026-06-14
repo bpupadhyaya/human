@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol is a common but counterproductive self-treatment for insomnia: it speeds sleep onset yet fragments the second half of the night and suppresses REM, and tolerance fuels escalating use—so insomnia both drives and worsens alcohol use disorder."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Acetylcholine helps run the sleep-wake switch: high cholinergic activity drives REM sleep and wakefulness while it falls in deep sleep, so the balance between acetylcholine and sleep-promoting signals shapes sleep architecture disrupted in insomnia."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Chronic insomnia raises blood pressure: short, fragmented sleep keeps the stress system and sympathetic tone elevated overnight, so persistent insomnia is an independent risk factor for hypertension and cardiovascular disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Sleep and immunity are deeply linked: deep sleep supports immune memory and infection defense, so the chronic sleep loss of insomnia raises inflammation and blunts vaccine responses—part of why poor sleep tracks with worse health overall."
 ---
 
 # Insomnia Disorder
@@ -256,6 +265,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Insomnia is a disorder of the nervous system's arousal regulation: it reflects hyperarousal—the brain failing to disengage its wake-promoting circuits—so it is less a lack of sleep drive than an inability to switch off, the rationale behind cognitive behavioral therapy.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Insomnia and type 2 diabetes feed each other: short, fragmented sleep raises cortisol and impairs glucose tolerance and insulin sensitivity, so chronic insomnia independently raises diabetes risk—and nocturnal symptoms of diabetes in turn disrupt sleep.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a common but counterproductive self-treatment for insomnia: it speeds sleep onset yet fragments the second half of the night and suppresses REM, and tolerance fuels escalating use—so insomnia both drives and worsens alcohol use disorder.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine helps run the sleep-wake switch: high cholinergic activity drives REM sleep and wakefulness while it falls in deep sleep, so the balance between acetylcholine and sleep-promoting signals shapes sleep architecture disrupted in insomnia.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Chronic insomnia raises blood pressure: short, fragmented sleep keeps the stress system and sympathetic tone elevated overnight, so persistent insomnia is an independent risk factor for hypertension and cardiovascular disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Sleep and immunity are deeply linked: deep sleep supports immune memory and infection defense, so the chronic sleep loss of insomnia raises inflammation and blunts vaccine responses—part of why poor sleep tracks with worse health overall.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

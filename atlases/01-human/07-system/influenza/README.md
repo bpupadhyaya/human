@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/cytokine-storm
     relation: connects-to
     note: "Severe and pandemic influenza can trigger a cytokine storm: excessive innate immune activation (notably in H5N1 and 1918-type strains) floods the lungs with inflammatory mediators, causing diffuse alveolar damage and ARDS out of proportion to viral load."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells are the basis of flu vaccination: antibodies against hemagglutinin block infection, but the virus's constant antigenic drift forces yearly reformulated vaccines, and rare antigenic shift—a new HA—can outrun B-cell memory to spark a pandemic."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Influenza opens the door to Staphylococcus aureus: viral damage to the airway lining lets S. aureus (including MRSA) cause severe, sometimes necrotizing secondary pneumonia—one of the deadliest complications, alongside pneumococcal superinfection."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Influenza occasionally strikes the brain: it can cause encephalitis and acute necrotizing encephalopathy, especially in children, and aspirin use during flu risks Reye's syndrome—so neurological symptoms in influenza are a red flag."
 ---
 
 # Influenza
@@ -243,3 +252,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Alveolar macrophages are central to influenza's outcome: they help clear virus and dead cells but, when overactivated in severe flu, pour out cytokines that injure the lung—so the macrophage response can mean recovery or fatal inflammatory pneumonia.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Influenza is the archetypal acute infection of the respiratory system: the virus infects airway and alveolar epithelium from nose to lung, causing tracheobronchitis and, in severe cases, viral pneumonia—and damaging mucosa enough to invite bacterial superinfection.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Severe and pandemic influenza can trigger a cytokine storm: excessive innate immune activation (notably in H5N1 and 1918-type strains) floods the lungs with inflammatory mediators, causing diffuse alveolar damage and ARDS out of proportion to viral load.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are the basis of flu vaccination: antibodies against hemagglutinin block infection, but the virus's constant antigenic drift forces yearly reformulated vaccines, and rare antigenic shift—a new HA—can outrun B-cell memory to spark a pandemic.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Influenza opens the door to Staphylococcus aureus: viral damage to the airway lining lets S. aureus (including MRSA) cause severe, sometimes necrotizing secondary pneumonia—one of the deadliest complications, alongside pneumococcal superinfection.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Influenza occasionally strikes the brain: it can cause encephalitis and acute necrotizing encephalopathy, especially in children, and aspirin use during flu risks Reye's syndrome—so neurological symptoms in influenza are a red flag.
