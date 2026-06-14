@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Glioblastoma disables the cell-cycle brake through CDK4/6: amplification of these kinases (with CDKN2A loss) drives uncontrolled division by inactivating Rb, making CDK4/6 inhibitors a rational—if still experimental—targeted strategy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Glioblastoma's hallmark is death from lack of oxygen: the tumor outgrows its blood supply, leaving necrotic cores ringed by 'pseudopalisading' cells, and the surrounding hypoxia drives the VEGF angiogenesis and treatment resistance that define it."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Glioblastoma taps brain activity through calcium: it forms functional synapses with neurons, and the glutamate-triggered calcium influx spurs the tumor to grow and invade, linking neural firing to its relentless spread."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Glioblastoma fends off cytotoxic T cells: it builds a deeply immunosuppressive, T-cell-poor microenvironment, which is why checkpoint inhibitors have largely failed and why getting killer T cells into the tumor is a major research goal."
 ---
 
 # Glioblastoma
@@ -265,6 +274,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Glioblastoma builds a profoundly cold immune microenvironment: regulatory T cells and suppressive myeloid cells crowd out cytotoxic lymphocytes, which is why checkpoint immunotherapy that works in other cancers has so far largely failed against GBM.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — One molecular subtype of glioblastoma is driven by PDGF: proneural GBMs amplify PDGFRA, so platelet-derived growth factor signaling defines a distinct class of the tumor alongside the classical EGFR-driven and mesenchymal NF1-driven types.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Glioblastoma disables the cell-cycle brake through CDK4/6: amplification of these kinases (with CDKN2A loss) drives uncontrolled division by inactivating Rb, making CDK4/6 inhibitors a rational—if still experimental—targeted strategy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Glioblastoma's hallmark is death from lack of oxygen: the tumor outgrows its blood supply, leaving necrotic cores ringed by 'pseudopalisading' cells, and the surrounding hypoxia drives the VEGF angiogenesis and treatment resistance that define it.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Glioblastoma taps brain activity through calcium: it forms functional synapses with neurons, and the glutamate-triggered calcium influx spurs the tumor to grow and invade, linking neural firing to its relentless spread.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Glioblastoma fends off cytotoxic T cells: it builds a deeply immunosuppressive, T-cell-poor microenvironment, which is why checkpoint inhibitors have largely failed and why getting killer T cells into the tumor is a major research goal.
 
 ---
 

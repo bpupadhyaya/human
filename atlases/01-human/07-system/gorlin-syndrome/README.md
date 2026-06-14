@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Gorlin's many basal cell carcinomas exploit regulatory T cells: Tregs help the tumors evade immune clearance, which is why PD-1 checkpoint therapy (cemiplimab) is used for advanced BCCs that progress despite Hedgehog inhibitors."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Hedgehog signaling teams with NF-kB in Gorlin's tumors: the constitutive Hedgehog drive cooperates with NF-kB inflammatory signaling to promote the survival and growth of the syndrome's many basal cell carcinomas."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages fill the stroma of Gorlin's basal cell carcinomas: tumor-associated macrophages support angiogenesis and dampen immunity around the Hedgehog-driven skin tumors, helping the lesions persist and recur."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Ultraviolet oxygen chemistry compounds Gorlin's tumor risk: on top of the inherited Hedgehog defect, sun-driven reactive oxygen species damage skin-cell DNA, so UV exposure markedly multiplies the basal cell carcinomas these patients develop."
 ---
 
 # Gorlin Syndrome
@@ -246,6 +255,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — Gorlin's tumors grow because Hedgehog switches on MYCN: unchecked PTCH1/SMO signaling activates GLI, which drives MYCN to fuel the SHH-subtype medulloblastomas and basal cell carcinomas that define the syndrome.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Gorlin's basal cell carcinomas escape Hedgehog blockers via mTOR: when vismodegib shuts down smoothened, tumors can reactivate growth through mTOR and other bypass pathways, a key reason these cancers eventually resist targeted therapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Gorlin's many basal cell carcinomas exploit regulatory T cells: Tregs help the tumors evade immune clearance, which is why PD-1 checkpoint therapy (cemiplimab) is used for advanced BCCs that progress despite Hedgehog inhibitors.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Hedgehog signaling teams with NF-kB in Gorlin's tumors: the constitutive Hedgehog drive cooperates with NF-kB inflammatory signaling to promote the survival and growth of the syndrome's many basal cell carcinomas.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill the stroma of Gorlin's basal cell carcinomas: tumor-associated macrophages support angiogenesis and dampen immunity around the Hedgehog-driven skin tumors, helping the lesions persist and recur.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Ultraviolet oxygen chemistry compounds Gorlin's tumor risk: on top of the inherited Hedgehog defect, sun-driven reactive oxygen species damage skin-cell DNA, so UV exposure markedly multiplies the basal cell carcinomas these patients develop.
 
 ---
 
