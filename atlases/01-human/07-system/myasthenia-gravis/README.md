@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Myasthenia can reach the heart muscle: thymoma-associated MG may carry anti-striational antibodies that cause myocarditis and arrhythmia, so cardiac symptoms in MG (especially with thymoma) prompt evaluation of the heart, not just skeletal muscle."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Myasthenia silences a sodium gate at the muscle: the acetylcholine receptor it attacks is a sodium-admitting channel, so when antibodies destroy these receptors, too little sodium flows in to fire the muscle, and the endplate fails to reach threshold."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 fuels the antibody factories of myasthenia: it drives the thymic germinal centers that churn out anti-receptor antibodies, which is why IL-6-pathway blockers are being trialed to dampen the autoimmune attack at its source."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help start myasthenia in the thymus: by presenting acetylcholine-receptor fragments to T cells in the abnormal thymus, they prime the immune response that licenses B cells to make the receptor-blocking antibodies."
 ---
 
 # Myasthenia Gravis
@@ -250,6 +259,9 @@ cross_links:
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Myasthenia gravis is HLA-associated: MHC class II molecules present acetylcholine-receptor peptides to helper T cells in the thymus, breaking tolerance—the genetic and immunologic root of the anti-AChR antibodies that block the neuromuscular junction.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium triggers the signal myasthenia blocks downstream: nerve-terminal calcium influx releases acetylcholine, but in MG antibodies destroy the receptors that catch it—unlike Lambert-Eaton, which attacks the calcium channels themselves.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Myasthenia can reach the heart muscle: thymoma-associated MG may carry anti-striational antibodies that cause myocarditis and arrhythmia, so cardiac symptoms in MG (especially with thymoma) prompt evaluation of the heart, not just skeletal muscle.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Myasthenia silences a sodium gate at the muscle: the acetylcholine receptor it attacks is a sodium-admitting channel, so when antibodies destroy these receptors, too little sodium flows in to fire the muscle, and the endplate fails to reach threshold.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels the antibody factories of myasthenia: it drives the thymic germinal centers that churn out anti-receptor antibodies, which is why IL-6-pathway blockers are being trialed to dampen the autoimmune attack at its source.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help start myasthenia in the thymus: by presenting acetylcholine-receptor fragments to T cells in the abnormal thymus, they prime the immune response that licenses B cells to make the receptor-blocking antibodies.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
