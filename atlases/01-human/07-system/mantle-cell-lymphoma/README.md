@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Mantle cell lymphoma both exploits and depletes the immune system: it is an aggressive mature B-cell cancer, and its therapies (anti-CD20, BTK inhibitors, chemo) cause profound immunosuppression—so infection is a major cause of morbidity during treatment."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Mantle cell lymphoma is driven through mTOR: cyclin D1 overexpression and PI3K-AKT signaling converge on mTOR to push proliferation, which is why the mTOR inhibitor temsirolimus is an approved therapy for relapsed disease."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Mantle cell lymphoma and Waldenstrom macroglobulinemia are both BTK-dependent B-cell cancers: ibrutinib works in each by blocking B-cell receptor signaling, though they differ in cell of origin and the IgM paraprotein that defines Waldenstrom."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Mantle cell lymphoma is now a CAR-T target: brexucabtagene engineers a patient's cytotoxic T cells to recognize CD19 and kill the lymphoma, achieving durable remissions in disease that has relapsed after chemo and BTK inhibitors."
 ---
 
 # Mantle Cell Lymphoma
@@ -233,6 +242,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Mantle cell lymphoma is treated by targeting CD20: this B-cell marker is the target of rituximab, a backbone of MCL therapy alongside BTK inhibitors and BCL-2 blockade—reflecting MCL's identity as a CD5+ mature B-cell lymphoma.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Mantle cell lymphoma has a striking affinity for the gut: it commonly seeds the GI tract as multiple lymphomatous polyposis—numerous lymphoma polyps from stomach to colon—so endoscopic involvement is frequent even when not obviously symptomatic.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Mantle cell lymphoma both exploits and depletes the immune system: it is an aggressive mature B-cell cancer, and its therapies (anti-CD20, BTK inhibitors, chemo) cause profound immunosuppression—so infection is a major cause of morbidity during treatment.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Mantle cell lymphoma is driven through mTOR: cyclin D1 overexpression and PI3K-AKT signaling converge on mTOR to push proliferation, which is why the mTOR inhibitor temsirolimus is an approved therapy for relapsed disease.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Mantle cell lymphoma and Waldenstrom macroglobulinemia are both BTK-dependent B-cell cancers: ibrutinib works in each by blocking B-cell receptor signaling, though they differ in cell of origin and the IgM paraprotein that defines Waldenstrom.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Mantle cell lymphoma is now a CAR-T target: brexucabtagene engineers a patient's cytotoxic T cells to recognize CD19 and kill the lymphoma, achieving durable remissions in disease that has relapsed after chemo and BTK inhibitors.
 
 ---
 

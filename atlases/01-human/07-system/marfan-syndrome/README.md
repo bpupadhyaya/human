@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Marfan's tall stature is not from growth hormone: unlike pituitary gigantism, the overgrowth comes from defective fibrillin-1 connective tissue, so patients are tall with long limbs and arachnodactyly despite normal growth-hormone levels—a key diagnostic distinction."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Marfan can weaken heart muscle itself: beyond valve and aortic disease, excess TGF-beta signaling produces an intrinsic cardiomyopathy in which cardiomyocyte dysfunction mildly dilates and weakens the left ventricle, so the heart is monitored even when valves look normal."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "The Marfan aorta fails through medial degeneration: fibrillin loss and unleashed TGF-beta fragment elastic fibers and drive fibrosis in the vessel wall, weakening it until the aortic root dilates and risks dissection—the syndrome's lethal complication."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Marfan vessels show endothelial dysfunction: the abnormal fibrillin matrix and altered TGF-beta signaling impair the endothelial cells lining the aorta, reducing flow-mediated dilation and adding to the wall stress that drives aneurysm."
 ---
 
 # Marfan Syndrome
@@ -250,6 +259,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Marfan syndrome shows in the skin and soft tissue: fibrillin-1 loss weakens connective tissue throughout, producing striae (stretch marks) without weight change, thin skin and hernias—visible signs of the same defect that endangers the aorta.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is dangerous in Marfan syndrome: the hemodynamic load and hormonal softening of connective tissue sharply raise the risk of aortic dissection, so the reproductive years demand careful cardiac monitoring and counseling in affected women.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Marfan's tall stature is not from growth hormone: unlike pituitary gigantism, the overgrowth comes from defective fibrillin-1 connective tissue, so patients are tall with long limbs and arachnodactyly despite normal growth-hormone levels—a key diagnostic distinction.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Marfan can weaken heart muscle itself: beyond valve and aortic disease, excess TGF-beta signaling produces an intrinsic cardiomyopathy in which cardiomyocyte dysfunction mildly dilates and weakens the left ventricle, so the heart is monitored even when valves look normal.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The Marfan aorta fails through medial degeneration: fibrillin loss and unleashed TGF-beta fragment elastic fibers and drive fibrosis in the vessel wall, weakening it until the aortic root dilates and risks dissection—the syndrome's lethal complication.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Marfan vessels show endothelial dysfunction: the abnormal fibrillin matrix and altered TGF-beta signaling impair the endothelial cells lining the aorta, reducing flow-mediated dilation and adding to the wall stress that drives aneurysm.
 
 ---
 
