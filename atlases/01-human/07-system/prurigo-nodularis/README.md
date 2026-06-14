@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Prurigo nodularis sits at the skin-nerve interface: sensitized cutaneous nerve fibers and central itch pathways amplify pruritus, so it behaves partly like neuropathic itch—why neuromodulators like gabapentinoids help alongside anti-inflammatory drugs."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Liver disease can drive prurigo nodularis: cholestasis (as in primary biliary cholangitis) causes intense, intractable itch, and the repeated scratching of that itch builds the hard nodules—so unexplained prurigo prompts a check of liver and bile function."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "Relentless itch can herald lymphoma: Hodgkin lymphoma classically causes paraneoplastic pruritus, and prurigo nodularis appearing without clear cause warrants screening for underlying malignancy—so the skin sometimes signals a hidden cancer."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The nodule in prurigo nodularis is built by fibroblasts: relentless scratching drives dermal fibroblast proliferation and collagen deposition, thickening the skin into the hard, dome-shaped nodules—so chronic mechanical trauma, not just inflammation, sculpts the lesion."
 ---
 
 # Prurigo Nodularis
@@ -190,6 +199,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibition is an emerging treatment for prurigo nodularis: the itch-driving cytokines IL-31, IL-4 and IL-13 signal through JAK, so JAK inhibitors (and the IL-4/13 blocker dupilumab) can break the itch-scratch cycle that perpetuates the nodules.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Prurigo nodularis is a disease of the integumentary system gone into an itch-scratch loop: chronic scratching thickens skin into hard nodules dense with nerve fibers and immune cells, so the skin's neuroimmune wiring sustains the disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Prurigo nodularis sits at the skin-nerve interface: sensitized cutaneous nerve fibers and central itch pathways amplify pruritus, so it behaves partly like neuropathic itch—why neuromodulators like gabapentinoids help alongside anti-inflammatory drugs.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver disease can drive prurigo nodularis: cholestasis (as in primary biliary cholangitis) causes intense, intractable itch, and the repeated scratching of that itch builds the hard nodules—so unexplained prurigo prompts a check of liver and bile function.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Relentless itch can herald lymphoma: Hodgkin lymphoma classically causes paraneoplastic pruritus, and prurigo nodularis appearing without clear cause warrants screening for underlying malignancy—so the skin sometimes signals a hidden cancer.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The nodule in prurigo nodularis is built by fibroblasts: relentless scratching drives dermal fibroblast proliferation and collagen deposition, thickening the skin into the hard, dome-shaped nodules—so chronic mechanical trauma, not just inflammation, sculpts the lesion.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Osteoporosis is largely an endocrine disease: estrogen, testosterone, thyroid hormone, parathyroid hormone and cortisol all govern bone turnover, so hormonal shifts (menopause, hyperthyroidism, steroid excess) are leading causes of bone loss."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Bone is calcium-phosphate crystal, so phosphorus is as structural as calcium: hydroxyapatite needs balanced phosphate, and disordered phosphate handling—too little (osteomalacia) or the excess of kidney disease—weakens or distorts bone alongside calcium loss."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Rheumatoid arthritis is a double hit to bone: chronic inflammation (and RANKL) accelerates bone loss, and the glucocorticoids used to treat it cause steroid-induced osteoporosis—so inflammatory arthritis is a leading secondary cause of fragile bones."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Healthy bone depends on the gut: the intestine absorbs the calcium and vitamin D bone needs, so malabsorption from celiac disease, inflammatory bowel disease, or bariatric surgery is an under-recognized cause of osteoporosis."
 ---
 
 # Osteoporosis
@@ -223,6 +232,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone is remodeled in concert with the marrow it houses: osteoporosis reflects an imbalance between osteoclasts and osteoblasts at the bone-marrow interface, and with age red marrow gives way to fat as bone is lost—linking declining marrow and skeletal mass.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium is an underappreciated factor in bone health: about half the body's magnesium sits in bone, and it is needed for vitamin D activation and PTH secretion, so chronic magnesium deficiency impairs mineralization and contributes to osteoporosis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Osteoporosis is largely an endocrine disease: estrogen, testosterone, thyroid hormone, parathyroid hormone and cortisol all govern bone turnover, so hormonal shifts (menopause, hyperthyroidism, steroid excess) are leading causes of bone loss.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone is calcium-phosphate crystal, so phosphorus is as structural as calcium: hydroxyapatite needs balanced phosphate, and disordered phosphate handling—too little (osteomalacia) or the excess of kidney disease—weakens or distorts bone alongside calcium loss.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is a double hit to bone: chronic inflammation (and RANKL) accelerates bone loss, and the glucocorticoids used to treat it cause steroid-induced osteoporosis—so inflammatory arthritis is a leading secondary cause of fragile bones.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Healthy bone depends on the gut: the intestine absorbs the calcium and vitamin D bone needs, so malabsorption from celiac disease, inflammatory bowel disease, or bariatric surgery is an under-recognized cause of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
