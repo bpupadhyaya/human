@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Pheochromocytomas are intensely vascular through VEGF: pseudohypoxic HIF signaling pumps out VEGF, so these tumors are richly perfused and prone to bleeding—and anti-angiogenic drugs are tried against metastatic disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Pheochromocytomas dump catecholamines via calcium: chromaffin cells release adrenaline by calcium-triggered exocytosis, so the tumor's surges of hormone—and the spells of pounding blood pressure they cause—run on this calcium-dependent machinery."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages fill the pheochromocytoma's vascular stroma: drawn into the richly perfused, pseudohypoxic tumor, they support its blood supply and shape an immune niche of interest in the hard-to-treat metastatic disease."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Pheochromocytoma punishes the kidneys through catecholamines: the surges of adrenaline and noradrenaline drive severe hypertension that damages the kidney's vessels, and extra-adrenal paragangliomas can also arise near the renal hilum."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -277,6 +286,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Some pheochromocytomas and paragangliomas secrete dopamine: especially SDHB-driven head-and-neck tumors release dopamine and its metabolite 3-methoxytyramine, a biochemical signature that flags a hereditary, more malignant-prone tumor.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Pheochromocytoma-paraganglioma is tied to oxygen sensing: carotid-body paragangliomas are literal oxygen sensors, and SDH/VHL mutations fake low oxygen (pseudohypoxia), stabilizing HIF to drive the 'cluster 1' hereditary tumors.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pheochromocytomas are intensely vascular through VEGF: pseudohypoxic HIF signaling pumps out VEGF, so these tumors are richly perfused and prone to bleeding—and anti-angiogenic drugs are tried against metastatic disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pheochromocytomas dump catecholamines via calcium: chromaffin cells release adrenaline by calcium-triggered exocytosis, so the tumor's surges of hormone—and the spells of pounding blood pressure they cause—run on this calcium-dependent machinery.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill the pheochromocytoma's vascular stroma: drawn into the richly perfused, pseudohypoxic tumor, they support its blood supply and shape an immune niche of interest in the hard-to-treat metastatic disease.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Pheochromocytoma punishes the kidneys through catecholamines: the surges of adrenaline and noradrenaline drive severe hypertension that damages the kidney's vessels, and extra-adrenal paragangliomas can also arise near the renal hilum.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

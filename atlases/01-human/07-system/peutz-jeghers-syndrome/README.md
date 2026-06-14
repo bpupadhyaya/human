@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Peutz-Jeghers polyps grow large on a fibroblast-rich hamartomatous stroma: their bulky, arborizing structure can drag a loop of bowel into itself (intussusception), the acute complication that often brings these polyps to medical attention."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Peutz-Jeghers polyps bleed and drain iron: the large hamartomas erode and ooze blood into the gut, and with the obstruction they cause, chronic blood loss makes iron-deficiency anemia a frequent sign in these patients."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages help build the Peutz-Jeghers polyp: tumor-associated macrophages populate the fibroblast-rich hamartomatous stroma and secrete growth and angiogenic factors, supporting the bulky polyps that arise from LKB1 loss."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Peutz-Jeghers polyps recruit blood vessels via VEGF: LKB1/AMPK loss disinhibits mTOR, which drives VEGF and angiogenesis to feed the growing hamartomas, part of the rationale for mTOR-pathway drugs studied in the syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -259,6 +268,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Peutz-Jeghers grows hormone-secreting gonadal tumors: ovarian sex cord tumors (SCTAT) and testicular Sertoli cell tumors pour out estrogen, causing precocious puberty, gynecomastia, and irregular bleeding—distinctive endocrine clues to the syndrome.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Peutz-Jeghers unleashes AKT-mTOR growth: LKB1 loss disables the AMPK brake, so the AKT-mTOR pathway runs unchecked in the hamartomatous polyps—rationale for trialing mTOR inhibitors to slow polyp growth and cancer risk.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Peutz-Jeghers polyps grow large on a fibroblast-rich hamartomatous stroma: their bulky, arborizing structure can drag a loop of bowel into itself (intussusception), the acute complication that often brings these polyps to medical attention.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Peutz-Jeghers polyps bleed and drain iron: the large hamartomas erode and ooze blood into the gut, and with the obstruction they cause, chronic blood loss makes iron-deficiency anemia a frequent sign in these patients.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help build the Peutz-Jeghers polyp: tumor-associated macrophages populate the fibroblast-rich hamartomatous stroma and secrete growth and angiogenic factors, supporting the bulky polyps that arise from LKB1 loss.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Peutz-Jeghers polyps recruit blood vessels via VEGF: LKB1/AMPK loss disinhibits mTOR, which drives VEGF and angiogenesis to feed the growing hamartomas, part of the rationale for mTOR-pathway drugs studied in the syndrome.
 
 ---
 
