@@ -119,6 +119,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Measles leaves the immune system amnesic: by infecting and depleting memory lymphocytes and inducing a regulatory, IL-10-skewed state, it erases protection against other germs for months to years, raising deaths from later infections."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Measles kills mostly by stealing oxygen: its pneumonia—whether from the virus or a bacterial superinfection—is the leading cause of measles death, flooding the lungs and dropping blood oxygen."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Measles infects the gut lining: spreading to the intestinal epithelium, it causes the diarrhea that dehydrates young children, a major contributor to measles deaths in the malnourished."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Measles can crash the platelets: the infection sometimes triggers immune thrombocytopenia, causing the bruising and bleeding of 'black measles,' a rare but dangerous hemorrhagic complication."
 ---
 
 # Measles
@@ -297,6 +306,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Measles' biggest killer is often the gut: the virus inflames the intestinal lining, causing severe diarrhea and dehydration that, with malnutrition, account for much of measles mortality in young children.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Measles' late brain disease destroys myelin: in SSPE the persistent virus damages oligodendrocytes and white matter alongside neurons, so demyelination joins neuron loss in the relentless years-later deterioration.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Measles leaves the immune system amnesic: by infecting and depleting memory lymphocytes and inducing a regulatory, IL-10-skewed state, it erases protection against other germs for months to years, raising deaths from later infections.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Measles kills mostly by stealing oxygen: its pneumonia—whether from the virus or a bacterial superinfection—is the leading cause of measles death, flooding the lungs and dropping blood oxygen.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Measles infects the gut lining: spreading to the intestinal epithelium, it causes the diarrhea that dehydrates young children, a major contributor to measles deaths in the malnourished.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Measles can crash the platelets: the infection sometimes triggers immune thrombocytopenia, causing the bruising and bleeding of 'black measles,' a rare but dangerous hemorrhagic complication.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
