@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Gorlin syndrome predisposes the developing nervous system to medulloblastoma: Hedgehog-pathway activation drives this childhood cerebellar tumor, so affected infants need brain surveillance—and radiation must be used cautiously given their extreme BCC radiosensitivity."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium deposits are a Gorlin diagnostic clue: lamellar calcification of the falx cerebri and other ectopic calcifications are among its major criteria, reflecting how disrupted hedgehog signaling alters bone and soft-tissue mineralization."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Gorlin syndrome reaches the reproductive system: bilateral ovarian fibromas—often calcified—are characteristic, so a young woman with ovarian masses plus skin and jaw findings may carry the PTCH1 mutation behind the syndrome."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Gorlin syndrome shapes the brain structurally: macrocephaly with frontal bossing, a bridged sella turcica, and developmental anomalies accompany the tumor risk, so congenital brain malformations are part of the syndrome alongside its cancers."
 ---
 
 # Gorlin Syndrome
@@ -222,6 +231,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Gorlin syndrome floods the skin with basal cell carcinomas: PTCH1 loss unleashes Hedgehog signaling so that dozens to hundreds of BCCs arise from youth, plus palmar-plantar pits—making the integumentary system the syndrome's most visible burden.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Gorlin syndrome leaves skeletal fingerprints: odontogenic keratocysts of the jaw, bifid ribs, vertebral anomalies and a calcified falx are diagnostic skeletal features, so a dental or skeletal survey often helps confirm this Hedgehog-pathway syndrome.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Gorlin syndrome predisposes the developing nervous system to medulloblastoma: Hedgehog-pathway activation drives this childhood cerebellar tumor, so affected infants need brain surveillance—and radiation must be used cautiously given their extreme BCC radiosensitivity.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium deposits are a Gorlin diagnostic clue: lamellar calcification of the falx cerebri and other ectopic calcifications are among its major criteria, reflecting how disrupted hedgehog signaling alters bone and soft-tissue mineralization.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gorlin syndrome reaches the reproductive system: bilateral ovarian fibromas—often calcified—are characteristic, so a young woman with ovarian masses plus skin and jaw findings may carry the PTCH1 mutation behind the syndrome.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Gorlin syndrome shapes the brain structurally: macrocephaly with frontal bossing, a bridged sella turcica, and developmental anomalies accompany the tumor risk, so congenital brain malformations are part of the syndrome alongside its cancers.
 
 ---
 
