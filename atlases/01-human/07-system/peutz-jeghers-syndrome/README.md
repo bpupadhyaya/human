@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/mutyh-associated-polyposis
     relation: connects-to
     note: "Peutz-Jeghers and MUTYH-associated polyposis are distinct inherited polyposes: PJS makes STK11-driven hamartomas with smooth-muscle cores, while MAP makes adenomas from oxidative DNA-repair failure—so polyp histology and gene testing separate them."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Peutz-Jeghers grows hormone-secreting gonadal tumors: ovarian sex cord tumors (SCTAT) and testicular Sertoli cell tumors pour out estrogen, causing precocious puberty, gynecomastia, and irregular bleeding—distinctive endocrine clues to the syndrome."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Peutz-Jeghers unleashes AKT-mTOR growth: LKB1 loss disables the AMPK brake, so the AKT-mTOR pathway runs unchecked in the hamartomatous polyps—rationale for trialing mTOR inhibitors to slow polyp growth and cancer risk."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Peutz-Jeghers polyps grow large on a fibroblast-rich hamartomatous stroma: their bulky, arborizing structure can drag a loop of bowel into itself (intussusception), the acute complication that often brings these polyps to medical attention."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -247,6 +256,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Peutz-Jeghers hamartomas stud the whole gut, including the stomach: gastric polyps add to the small-bowel ones, contributing bleeding and a raised gastric-cancer risk, so upper endoscopy joins small-bowel surveillance in management.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Peutz-Jeghers often presents with iron-deficiency anemia: chronic slow bleeding from gastrointestinal hamartomas depletes iron, so unexplained anemia in a young patient with lip pigmentation can be the clue that prompts diagnosis.
 - `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Peutz-Jeghers and MUTYH-associated polyposis are distinct inherited polyposes: PJS makes STK11-driven hamartomas with smooth-muscle cores, while MAP makes adenomas from oxidative DNA-repair failure—so polyp histology and gene testing separate them.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Peutz-Jeghers grows hormone-secreting gonadal tumors: ovarian sex cord tumors (SCTAT) and testicular Sertoli cell tumors pour out estrogen, causing precocious puberty, gynecomastia, and irregular bleeding—distinctive endocrine clues to the syndrome.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Peutz-Jeghers unleashes AKT-mTOR growth: LKB1 loss disables the AMPK brake, so the AKT-mTOR pathway runs unchecked in the hamartomatous polyps—rationale for trialing mTOR inhibitors to slow polyp growth and cancer risk.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Peutz-Jeghers polyps grow large on a fibroblast-rich hamartomatous stroma: their bulky, arborizing structure can drag a loop of bowel into itself (intussusception), the acute complication that often brings these polyps to medical attention.
 
 ---
 

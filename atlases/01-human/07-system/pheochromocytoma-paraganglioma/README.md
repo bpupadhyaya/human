@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Pheochromocytoma and paraganglioma spring from neural-crest lineage: the chromaffin and paraganglion cells share an origin with neurons of the sympathetic nervous system, which is why these tumors secrete catecholamines like nerve cells do."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Some pheochromocytomas and paragangliomas secrete dopamine: especially SDHB-driven head-and-neck tumors release dopamine and its metabolite 3-methoxytyramine, a biochemical signature that flags a hereditary, more malignant-prone tumor."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Pheochromocytoma-paraganglioma is tied to oxygen sensing: carotid-body paragangliomas are literal oxygen sensors, and SDH/VHL mutations fake low oxygen (pseudohypoxia), stabilizing HIF to drive the 'cluster 1' hereditary tumors."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Pheochromocytomas are intensely vascular through VEGF: pseudohypoxic HIF signaling pumps out VEGF, so these tumors are richly perfused and prone to bleeding—and anti-angiogenic drugs are tried against metastatic disease."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -265,6 +274,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Pheochromocytoma and paraganglioma are imaged and treated with radioactive iodine via MIBG: these catecholamine-handling tumors take up I-123/I-131 metaiodobenzylguanidine, lighting them up on scans and delivering targeted radiation in metastatic disease.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Many paragangliomas express SSTR2, opening a second nuclear-medicine route: 68Ga-DOTATATE PET often detects SDHx-related and head-and-neck tumors better than MIBG, and 177Lu-DOTATATE delivers peptide receptor radiotherapy in metastatic cases.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Pheochromocytoma and paraganglioma spring from neural-crest lineage: the chromaffin and paraganglion cells share an origin with neurons of the sympathetic nervous system, which is why these tumors secrete catecholamines like nerve cells do.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Some pheochromocytomas and paragangliomas secrete dopamine: especially SDHB-driven head-and-neck tumors release dopamine and its metabolite 3-methoxytyramine, a biochemical signature that flags a hereditary, more malignant-prone tumor.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Pheochromocytoma-paraganglioma is tied to oxygen sensing: carotid-body paragangliomas are literal oxygen sensors, and SDH/VHL mutations fake low oxygen (pseudohypoxia), stabilizing HIF to drive the 'cluster 1' hereditary tumors.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pheochromocytomas are intensely vascular through VEGF: pseudohypoxic HIF signaling pumps out VEGF, so these tumors are richly perfused and prone to bleeding—and anti-angiogenic drugs are tried against metastatic disease.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
