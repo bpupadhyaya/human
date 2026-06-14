@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages clean up aHUS's destroyed red cells: as complement shears erythrocytes, splenic and hepatic macrophages clear the damaged cells and free hemoglobin, the reticuloendothelial cleanup behind the hemolytic anemia of the disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "aHUS can strike the heart: the same complement-driven microthrombi that clog the kidney lodge in cardiac vessels, causing ischemia and cardiomyopathy, one of the extrarenal manifestations that mark severe disease."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "aHUS chokes off oxygen across organs: widespread microvascular clots block blood flow while the hemolytic anemia leaves less to carry oxygen, so tissues throughout the body are starved during an acute episode."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "aHUS can injure the pancreas: microthrombi in its small vessels cause ischemic pancreatitis and can disturb blood sugar, another extrarenal site of the thrombotic microangiopathy that defines the disease."
 ---
 
 # Atypical HUS
@@ -313,6 +322,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — aHUS is the 'H' of hemolytic-uremic: uncontrolled complement injures small-vessel endothelium, and the fibrin and platelet strands shear passing red cells (microangiopathic hemolysis), spilling hemoglobin and producing schistocytes.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — aHUS damages the kidney enough to raise potassium: complement-driven microthrombi block glomerular capillaries, causing the acute kidney injury that—with hemolysis releasing potassium—drives dangerous hyperkalemia needing urgent care.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages clean up aHUS's destroyed red cells: as complement shears erythrocytes, splenic and hepatic macrophages clear the damaged cells and free hemoglobin, the reticuloendothelial cleanup behind the hemolytic anemia of the disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — aHUS can strike the heart: the same complement-driven microthrombi that clog the kidney lodge in cardiac vessels, causing ischemia and cardiomyopathy, one of the extrarenal manifestations that mark severe disease.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — aHUS chokes off oxygen across organs: widespread microvascular clots block blood flow while the hemolytic anemia leaves less to carry oxygen, so tissues throughout the body are starved during an acute episode.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — aHUS can injure the pancreas: microthrombi in its small vessels cause ischemic pancreatitis and can disturb blood sugar, another extrarenal site of the thrombotic microangiopathy that defines the disease.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells temper West Nile's brain damage: by restraining the antiviral attack within the CNS, Tregs limit collateral neuron injury, so the balance between clearing the virus and sparing the brain shapes recovery from neuroinvasive disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "West Nile leaves a fingerprint in the eye: it commonly causes a distinctive chorioretinitis—clusters of spots in a curved, linear pattern—so an eye exam can help diagnose neuroinvasive infection, and the lesions usually heal as the patient recovers."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "West Nile kills neurons through calcium: in encephalitis, infected and overexcited neurons let calcium flood in, triggering the excitotoxic cell death that destroys brain and spinal motor neurons and leaves lasting deficits."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "West Nile can erase synapses: even after the virus clears, activated microglia and complement prune synapses in the brain, a loss now linked to the memory and cognitive problems that linger in survivors."
 ---
 
 # West Nile Virus
@@ -262,3 +271,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — West Nile is diagnosed by its antibodies: WNV-specific IgM in blood or spinal fluid signals acute infection while IgG marks past exposure, and antibody is the basis of protection—the reason the horse vaccine works though no human one yet exists.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — West Nile breaches the brain with help from TNF: inflammatory cytokines like TNF-alpha loosen the blood-brain barrier, letting the virus invade the CNS—a double-edged response that both fights the virus and causes the encephalitis.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells temper West Nile's brain damage: by restraining the antiviral attack within the CNS, Tregs limit collateral neuron injury, so the balance between clearing the virus and sparing the brain shapes recovery from neuroinvasive disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — West Nile leaves a fingerprint in the eye: it commonly causes a distinctive chorioretinitis—clusters of spots in a curved, linear pattern—so an eye exam can help diagnose neuroinvasive infection, and the lesions usually heal as the patient recovers.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — West Nile kills neurons through calcium: in encephalitis, infected and overexcited neurons let calcium flood in, triggering the excitotoxic cell death that destroys brain and spinal motor neurons and leaves lasting deficits.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — West Nile can erase synapses: even after the virus clears, activated microglia and complement prune synapses in the brain, a loss now linked to the memory and cognitive problems that linger in survivors.
