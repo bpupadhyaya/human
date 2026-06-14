@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/07-system/west-nile-virus
     relation: connects-to
     note: "AGS is the antiviral defense misfiring without a virus: the same type-I interferon program that fights infections like West Nile is chronically triggered by the patient's own DNA/RNA, so AGS resembles a congenital infection that never actually occurred."
+  - target: 01-human/03-molecular/rig-i
+    relation: connects-to
+    note: "Aicardi-Goutieres is a type I interferonopathy of nucleic-acid sensing: defective clearance of self DNA/RNA lets sensors like RIG-I (and cGAS-STING) fire, flooding the brain with interferon as if fighting a chronic virus that isn't there."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "AGS reflects broken immune tolerance to self nucleic acids: the relentless interferon and autoimmunity (overlapping lupus) point to failed regulation, and regulatory T cells that should restrain anti-self responses are part of the disturbed balance."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "AGS mimics congenital infection beyond the brain: hepatosplenomegaly, hepatitis and elevated liver enzymes accompany the interferon surge, so the liver shows the systemic reach of this interferonopathy that imitates a TORCH infection."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -216,6 +225,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Brain calcium deposits are an AGS hallmark: chronic type-I interferon inflammation calcifies the basal ganglia and white matter, so CT shows intracranial calcifications that—alongside CSF changes—help distinguish this genetic interferonopathy from congenital infection.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — AGS keeps the brain's immune effectors switched on: persistent interferon recruits cytotoxic T cells and lymphocytes into the CSF, producing a chronic sterile lymphocytosis that mimics a never-ending viral encephalitis—inflammation aimed at the body's own nucleic acids.
 - `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — AGS is the antiviral defense misfiring without a virus: the same type-I interferon program that fights infections like West Nile is chronically triggered by the patient's own DNA/RNA, so AGS resembles a congenital infection that never actually occurred.
+- `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Aicardi-Goutieres is a type I interferonopathy of nucleic-acid sensing: defective clearance of self DNA/RNA lets sensors like RIG-I (and cGAS-STING) fire, flooding the brain with interferon as if fighting a chronic virus that isn't there.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — AGS reflects broken immune tolerance to self nucleic acids: the relentless interferon and autoimmunity (overlapping lupus) point to failed regulation, and regulatory T cells that should restrain anti-self responses are part of the disturbed balance.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — AGS mimics congenital infection beyond the brain: hepatosplenomegaly, hepatitis and elevated liver enzymes accompany the interferon surge, so the liver shows the systemic reach of this interferonopathy that imitates a TORCH infection.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
