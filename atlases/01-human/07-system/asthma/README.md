@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Asthma reflects how the immune system is wired: a type-2 (Th2) skew underlies allergic asthma, and the hygiene hypothesis links reduced early microbial exposure to this allergic tilt—so asthma is as much an immune-regulation disorder as an airway one."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Exhaled nitric oxide is a key asthma biomarker: airway eosinophilic inflammation raises FeNO (fractional exhaled NO), so measuring it gauges Type-2 inflammation, predicts steroid response and helps tailor and monitor asthma therapy."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D status influences asthma: deficiency is linked to more frequent exacerbations and poorer control, and as an immune modulator it supports regulatory responses—so vitamin D is studied as add-on prevention, especially in deficient patients."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Asthma reflects failed regulatory T-cell tolerance: Tregs normally restrain allergic responses to inhaled antigens, so when they are deficient or dysfunctional, the Th2 inflammation behind allergic asthma goes unchecked—a target for allergen immunotherapy."
 ---
 
 # Asthma
@@ -232,6 +241,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine is a frontline mediator of the asthmatic airway: released when allergen cross-links IgE on mast cells, it triggers rapid bronchoconstriction, mucus, and vascular leak—the immediate-phase response, though antihistamines help asthma less than allergic rhinitis.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Not all asthma is eosinophilic: a neutrophil-driven, type-2-low phenotype causes severe, often steroid-resistant disease, so recognizing neutrophilic asthma matters because it responds poorly to the inhaled corticosteroids and anti-IL-5 biologics that target eosinophils.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Asthma reflects how the immune system is wired: a type-2 (Th2) skew underlies allergic asthma, and the hygiene hypothesis links reduced early microbial exposure to this allergic tilt—so asthma is as much an immune-regulation disorder as an airway one.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Exhaled nitric oxide is a key asthma biomarker: airway eosinophilic inflammation raises FeNO (fractional exhaled NO), so measuring it gauges Type-2 inflammation, predicts steroid response and helps tailor and monitor asthma therapy.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status influences asthma: deficiency is linked to more frequent exacerbations and poorer control, and as an immune modulator it supports regulatory responses—so vitamin D is studied as add-on prevention, especially in deficient patients.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Asthma reflects failed regulatory T-cell tolerance: Tregs normally restrain allergic responses to inhaled antigens, so when they are deficient or dysfunctional, the Th2 inflammation behind allergic asthma goes unchecked—a target for allergen immunotherapy.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

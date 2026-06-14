@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Cannabis use disorder frequently accompanies BPD: many use cannabis to dampen emotional pain and emptiness, but dependence worsens mood instability and impulsivity—one of several substance problems that complicate the disorder and its treatment."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Vasopressin may shape borderline impulsivity and aggression: alongside oxytocin's role in attachment, the vasopressin system is linked to aggression and stress reactivity, part of the neurochemistry behind BPD's emotional storms and interpersonal conflict."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep disturbance is woven into borderline personality disorder: insomnia, nightmares and disrupted circadian rhythm are common and worsen emotional dysregulation, so treating sleep is an underused lever for stabilizing mood and impulsivity."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Borderline personality disorder and autism can look alike yet differ: both feature emotional dysregulation and social difficulty, but their origins and needs diverge, so careful assessment avoids misdiagnosing autistic adults—especially women—as having BPD."
 ---
 
 # Borderline Personality Disorder
@@ -263,6 +272,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate, the brain's main excitatory signal, is implicated in BPD's impulsivity and emotional storms: altered glutamatergic tone in prefrontal-limbic circuits may underlie poor top-down control, and ketamine (an NMDA-glutamate drug) is being studied for the disorder.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABA, the brain's chief inhibitory transmitter, may be deficient in BPD: weak inhibitory tone leaves emotion circuits poorly restrained, fitting the affective instability—which is partly why GABA-enhancing benzodiazepines can backfire with disinhibition.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabis use disorder frequently accompanies BPD: many use cannabis to dampen emotional pain and emptiness, but dependence worsens mood instability and impulsivity—one of several substance problems that complicate the disorder and its treatment.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin may shape borderline impulsivity and aggression: alongside oxytocin's role in attachment, the vasopressin system is linked to aggression and stress reactivity, part of the neurochemistry behind BPD's emotional storms and interpersonal conflict.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disturbance is woven into borderline personality disorder: insomnia, nightmares and disrupted circadian rhythm are common and worsen emotional dysregulation, so treating sleep is an underused lever for stabilizing mood and impulsivity.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Borderline personality disorder and autism can look alike yet differ: both feature emotional dysregulation and social difficulty, but their origins and needs diverge, so careful assessment avoids misdiagnosing autistic adults—especially women—as having BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
