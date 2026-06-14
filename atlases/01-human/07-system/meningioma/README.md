@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Meningiomas can remodel the overlying skull: en plaque tumors signal osteoblasts to thicken adjacent bone (hyperostosis), a radiologic clue to the diagnosis and a reason surgery sometimes must remove involved bone."
+  - target: 01-human/03-molecular/smo
+    relation: connects-to
+    note: "A subset of meningiomas is driven by Hedgehog through SMO: skull-base tumors often carry SMO mutations rather than NF2 loss, defining a molecular subgroup that—like basal cell carcinoma—might respond to smoothened inhibitors."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "CDKN2A deletion marks the most dangerous meningiomas: losing this tumor-suppressor now defines WHO grade 3 regardless of how the cells look, so molecular testing for CDKN2A reclassifies aggressive tumors that histology alone would underestimate."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Meningiomas are infiltrated mainly by macrophages: these tumor-associated immune cells are the dominant inflammatory population in the tumor and may support its growth, making the meningioma's immune niche a target of interest."
 ---
 
 # Meningioma
@@ -240,6 +249,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Meningiomas light up with somatostatin imaging: they strongly express SSTR2, so 68Ga-DOTATATE PET pinpoints tumor and residual disease better than MRI alone, and somatostatin analogues are tried in tumors that recur after surgery and radiation.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT marks the dangerous meningiomas: TERT promoter mutations reactivate telomerase and now define a higher WHO grade, flagging tumors likely to recur aggressively regardless of how benign they look under the microscope.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Meningiomas can remodel the overlying skull: en plaque tumors signal osteoblasts to thicken adjacent bone (hyperostosis), a radiologic clue to the diagnosis and a reason surgery sometimes must remove involved bone.
+- `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — A subset of meningiomas is driven by Hedgehog through SMO: skull-base tumors often carry SMO mutations rather than NF2 loss, defining a molecular subgroup that—like basal cell carcinoma—might respond to smoothened inhibitors.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion marks the most dangerous meningiomas: losing this tumor-suppressor now defines WHO grade 3 regardless of how the cells look, so molecular testing for CDKN2A reclassifies aggressive tumors that histology alone would underestimate.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Meningiomas are infiltrated mainly by macrophages: these tumor-associated immune cells are the dominant inflammatory population in the tumor and may support its growth, making the meningioma's immune niche a target of interest.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Asbestos kills mesothelial cells partly through iron: fibers adsorb iron and catalyze reactive oxygen species that damage DNA, and iron-coated 'ferruginous bodies' in tissue are the histologic fingerprint of the exposure that drives mesothelioma."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Mesothelioma is fundamentally a Hippo-pathway cancer acting through YAP1: NF2 and LATS losses release YAP1 to switch on growth genes, so this transcription co-activator is a central driver and a sought-after drug target in the disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Mesothelioma's cause is a magnesium-silicate mineral: asbestos fibers like chrysotile are magnesium silicates whose durable, needle-like shape lodges in the pleura and provokes the decades-long inflammation that seeds the cancer."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Mesothelioma defends itself with regulatory T cells: Tregs fill its immunosuppressive microenvironment and blunt anti-tumor immunity, which is why dual checkpoint blockade (nivolumab plus ipilimumab) is now frontline for the disease."
 ---
 
 # Mesothelioma
@@ -242,6 +251,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — Mesothelioma's immunotherapy pairs two checkpoints: combining anti-CTLA-4 (ipilimumab) with anti-PD-1 (nivolumab) became a first-line standard, extending survival in unresectable disease where chemotherapy alone had long stalled.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Asbestos scars the pleura before it causes cancer: dense pleural fibrosis and plaques mark exposure, and the desmoplastic variant of mesothelioma is so fibrous it can be mistaken for benign scarring—making biopsy interpretation difficult.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Asbestos kills mesothelial cells partly through iron: fibers adsorb iron and catalyze reactive oxygen species that damage DNA, and iron-coated 'ferruginous bodies' in tissue are the histologic fingerprint of the exposure that drives mesothelioma.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Mesothelioma is fundamentally a Hippo-pathway cancer acting through YAP1: NF2 and LATS losses release YAP1 to switch on growth genes, so this transcription co-activator is a central driver and a sought-after drug target in the disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mesothelioma's cause is a magnesium-silicate mineral: asbestos fibers like chrysotile are magnesium silicates whose durable, needle-like shape lodges in the pleura and provokes the decades-long inflammation that seeds the cancer.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Mesothelioma defends itself with regulatory T cells: Tregs fill its immunosuppressive microenvironment and blunt anti-tumor immunity, which is why dual checkpoint blockade (nivolumab plus ipilimumab) is now frontline for the disease.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
