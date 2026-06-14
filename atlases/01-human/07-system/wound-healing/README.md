@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc is an essential cofactor for wound healing: it supports the metalloproteinases, DNA synthesis and immune cells that rebuild tissue, so zinc deficiency slows healing—one reason nutritional status shapes how wounds close."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Wound healing needs copper to knit collagen: the enzyme lysyl oxidase uses copper to cross-link collagen into strong scar, and copper also spurs new vessels, so copper deficiency leaves wounds weak and slow to close."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol sabotages wound healing: glucocorticoids suppress the inflammatory cleanup, blunt fibroblast collagen synthesis, and slow re-epithelialization, so steroid use is a classic cause of dehiscence and chronic non-healing wounds."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells steer wounds from inflammation to repair: Tregs accumulate in healing skin and damp down the inflammatory phase while promoting tissue regeneration, helping resolve the wound rather than scar it excessively."
 ---
 
 # Wound Healing
@@ -250,6 +259,9 @@ cross_links:
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Wound healing begins with thrombin building the clot: it converts fibrinogen to fibrin, forming the provisional matrix that stops bleeding and scaffolds incoming cells, while also activating platelets—launching the cascade toward repair.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Wound hypoxia drives repair through HIF-1alpha: the low-oxygen wound bed stabilizes HIF-1alpha, which switches on VEGF and other genes to sprout vessels and recruit cells—so impaired HIF signaling (as in diabetes) helps explain chronic non-healing wounds.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc is an essential cofactor for wound healing: it supports the metalloproteinases, DNA synthesis and immune cells that rebuild tissue, so zinc deficiency slows healing—one reason nutritional status shapes how wounds close.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Wound healing needs copper to knit collagen: the enzyme lysyl oxidase uses copper to cross-link collagen into strong scar, and copper also spurs new vessels, so copper deficiency leaves wounds weak and slow to close.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol sabotages wound healing: glucocorticoids suppress the inflammatory cleanup, blunt fibroblast collagen synthesis, and slow re-epithelialization, so steroid use is a classic cause of dehiscence and chronic non-healing wounds.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells steer wounds from inflammation to repair: Tregs accumulate in healing skin and damp down the inflammatory phase while promoting tissue regeneration, helping resolve the wound rather than scar it excessively.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Wilms tumor is classically triphasic, including a fibroblast-like stroma: alongside blastema and epithelium, a spindled stromal component can differentiate toward muscle, cartilage or fibroblasts—reflecting the tumor's origin in pluripotent nephrogenic cells."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Wilms tumor is well-vascularized through VEGF: the tumor and its blastemal cells drive angiogenesis to fuel rapid growth, and anti-VEGF agents have been explored for relapsed or anaplastic disease that resists standard chemotherapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Wilms tumor recruits tumor-associated macrophages: these immune cells populate its microenvironment and can support growth and immune escape, making the TME a focus for new approaches in high-risk or relapsed nephroblastoma."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Wilms tumor is studied as a target for NK and immune therapy: as a childhood embryonal tumor it draws interest in harnessing natural killer cells to attack relapsed disease where chemotherapy and radiation reach their limits."
 ---
 
 # Wilms Tumor
@@ -252,6 +261,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[DICER1](../../03-molecular/dicer1/README.md)** — DICER1 mutations cause a Wilms-like spectrum: the DICER1 syndrome predisposes to cystic nephroma and Wilms-type kidney tumors (plus pleuropulmonary blastoma), so a child's nephroblastoma can be a clue to test for this microRNA-processing defect.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Wilms tumor recapitulates kidney development, forming abortive glomeruli: its epithelial component makes primitive glomeruloid structures, and WT1—mutated in Wilms—is essential for normal podocytes, so the same gene builds and, when lost, deranges the glomerulus.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Wilms tumor is classically triphasic, including a fibroblast-like stroma: alongside blastema and epithelium, a spindled stromal component can differentiate toward muscle, cartilage or fibroblasts—reflecting the tumor's origin in pluripotent nephrogenic cells.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Wilms tumor is well-vascularized through VEGF: the tumor and its blastemal cells drive angiogenesis to fuel rapid growth, and anti-VEGF agents have been explored for relapsed or anaplastic disease that resists standard chemotherapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Wilms tumor recruits tumor-associated macrophages: these immune cells populate its microenvironment and can support growth and immune escape, making the TME a focus for new approaches in high-risk or relapsed nephroblastoma.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Wilms tumor is studied as a target for NK and immune therapy: as a childhood embryonal tumor it draws interest in harnessing natural killer cells to attack relapsed disease where chemotherapy and radiation reach their limits.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
