@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "SMARCB1 loss makes ATRT a target for NK cells: rhabdoid tumors lacking SMARCB1 can downregulate MHC and upregulate stress ligands, and NK-cell-based immunotherapy is explored against these poorly immunogenic tumors."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Losing SMARCB1 makes ATRT lean on CDK4/6: the chromatin defect derepresses cyclin D and drives the cell-cycle kinase, so CDK4/6 inhibitors are being tested to exploit this dependency in a cancer with few other targets."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are being enlisted against ATRT: because these rhabdoid tumors are poorly immunogenic, dendritic-cell vaccines and other strategies to present tumor antigens aim to spark a T-cell attack on residual disease."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "ATRT arises in the developing brain among glial precursors: its rhabdoid cells can show divergent differentiation toward neural and glial lines including oligodendrocyte features, reflecting the primitive cell of origin in infants."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -254,6 +263,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ATRT is a SWI/SNF disease beyond SMARCB1: ARID1A is another subunit of the same chromatin-remodeling complex, so the rhabdoid tumor's defining loss of SMARCB1 sits in a pathway where ARID1A mutations cause related epigenetically-driven cancers.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — ATRT recruits the brain's own microglia: these resident immune cells infiltrate the tumor and are often co-opted into a tumor-supporting state, shaping the immune microenvironment of this aggressive infant brain cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — SMARCB1 loss makes ATRT a target for NK cells: rhabdoid tumors lacking SMARCB1 can downregulate MHC and upregulate stress ligands, and NK-cell-based immunotherapy is explored against these poorly immunogenic tumors.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Losing SMARCB1 makes ATRT lean on CDK4/6: the chromatin defect derepresses cyclin D and drives the cell-cycle kinase, so CDK4/6 inhibitors are being tested to exploit this dependency in a cancer with few other targets.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are being enlisted against ATRT: because these rhabdoid tumors are poorly immunogenic, dendritic-cell vaccines and other strategies to present tumor antigens aim to spark a T-cell attack on residual disease.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — ATRT arises in the developing brain among glial precursors: its rhabdoid cells can show divergent differentiation toward neural and glial lines including oligodendrocyte features, reflecting the primitive cell of origin in infants.
 
 ---
 

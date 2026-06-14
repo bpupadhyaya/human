@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages support BCC: recruited into the stroma, they adopt a pro-tumor phenotype that promotes angiogenesis and immune suppression around the slow-growing but locally invasive basal cell tumor."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Basal cell carcinoma is born from oxygen's dark side under UV: sunlight drives reactive oxygen species and DNA-damaging photochemistry in skin cells, so cumulative ultraviolet oxidative injury is the root cause of the most common human cancer."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-kB helps basal cell carcinoma survive UV assault: ultraviolet light and inflammation activate this switch, promoting cell survival and a tumor-friendly inflammatory niche that lets damaged basal cells persist and grow."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxia shapes the basal cell tumor through HIF-1alpha: as the slow-growing nodule outpaces its blood supply, HIF drives VEGF and angiogenesis, helping the locally invasive cancer recruit the vessels it needs to expand."
 ---
 
 # Basal Cell Carcinoma
@@ -257,6 +266,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — BCC leans on TGF-beta in its stroma: the tumor and its fibroblasts secrete TGF-beta, which suppresses anti-tumor immunity and drives the fibrous stroma around nests of basal cells, complementing the Hedgehog signaling that fuels growth.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — BCC shelters behind regulatory T cells: Tregs accumulate in the tumor and dampen the cytotoxic response, part of the immune evasion that PD-1 blockade (cemiplimab) tries to reverse in advanced basal cell carcinoma.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages support BCC: recruited into the stroma, they adopt a pro-tumor phenotype that promotes angiogenesis and immune suppression around the slow-growing but locally invasive basal cell tumor.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Basal cell carcinoma is born from oxygen's dark side under UV: sunlight drives reactive oxygen species and DNA-damaging photochemistry in skin cells, so cumulative ultraviolet oxidative injury is the root cause of the most common human cancer.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-kB helps basal cell carcinoma survive UV assault: ultraviolet light and inflammation activate this switch, promoting cell survival and a tumor-friendly inflammatory niche that lets damaged basal cells persist and grow.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Hypoxia shapes the basal cell tumor through HIF-1alpha: as the slow-growing nodule outpaces its blood supply, HIF drives VEGF and angiogenesis, helping the locally invasive cancer recruit the vessels it needs to expand.
 
 ---
 
