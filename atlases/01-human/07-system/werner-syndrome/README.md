@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Werner syndrome prematurely ages the musculoskeletal system: muscle wasting, tight scleroderma-like skin over joints, soft-tissue calcification, and osteoporosis cause early frailty—mirroring the sarcopenia and bone loss of normal aging decades early."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "Werner syndrome is a genome-instability disorder signaled by ATM: the missing WRN helicase leaves DNA replication and repair error-prone, generating the breaks ATM senses—accelerating the cellular aging and cancer risk that define adult progeria."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Werner syndrome causes severe insulin-resistant diabetes: visceral fat accumulation and a lipodystrophy-like pattern blunt insulin action, making type 2 diabetes a hallmark of this premature-aging syndrome from early adulthood."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Werner syndrome accelerates the mTOR-senescence axis of aging: WRN-deficient cells enter premature senescence, and chronically active mTOR signaling drives the aged phenotype—linking this progeria to the pathway whose inhibition (rapamycin) extends lifespan in models."
 ---
 
 # Werner Syndrome
@@ -274,6 +283,9 @@ cross_links:
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Werner's WRN helicase is now a cancer drug target: MSI-high tumors—many colorectal—depend on WRN to survive their unstable DNA, so WRN inhibitors are synthetically lethal in them, turning a premature-aging gene into precision oncology.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Werner syndrome distorts fat tissue: patients lose subcutaneous fat yet accumulate visceral fat, with insulin-resistant adipocytes driving severe type 2 diabetes and lipid abnormalities—part of the metabolic face of accelerated aging.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Werner syndrome prematurely ages the musculoskeletal system: muscle wasting, tight scleroderma-like skin over joints, soft-tissue calcification, and osteoporosis cause early frailty—mirroring the sarcopenia and bone loss of normal aging decades early.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Werner syndrome is a genome-instability disorder signaled by ATM: the missing WRN helicase leaves DNA replication and repair error-prone, generating the breaks ATM senses—accelerating the cellular aging and cancer risk that define adult progeria.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Werner syndrome causes severe insulin-resistant diabetes: visceral fat accumulation and a lipodystrophy-like pattern blunt insulin action, making type 2 diabetes a hallmark of this premature-aging syndrome from early adulthood.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Werner syndrome accelerates the mTOR-senescence axis of aging: WRN-deficient cells enter premature senescence, and chronically active mTOR signaling drives the aged phenotype—linking this progeria to the pathway whose inhibition (rapamycin) extends lifespan in models.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "VHL's broken oxygen sensing inflates red cells: failure to degrade HIF raises erythropoietin, driving excess erythrocyte production—the basis of Chuvash polycythemia, a milder VHL variant where the bone marrow overmakes red cells without a tumor."
+  - target: 01-human/03-molecular/epas1
+    relation: connects-to
+    note: "VHL disease is fundamentally a HIF-2alpha (EPAS1) disorder: losing pVHL stops degradation of EPAS1, so it constitutively drives VEGF and growth—the basis for belzutifan, a HIF-2alpha inhibitor now treating VHL-related kidney tumors and hemangioblastomas."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "VHL and SDHB cause 'pseudohypoxia' the same way: pVHL loss and SDHB loss both stabilize HIF as if oxygen were low, driving pheochromocytoma and paraganglioma—so two different genes converge on one hypoxia-mimicking cancer mechanism."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "HIF-2alpha links VHL to iron and red cells: the EPAS1 factor that accumulates in VHL governs erythropoietin and intestinal iron absorption, explaining the polycythemia seen when this hypoxia pathway runs unchecked."
 ---
 
 # VHL Disease
@@ -233,6 +242,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a key VHL target: pheochromocytomas of the adrenal medulla, often bilateral and noradrenaline-secreting, arise in VHL and demand lifelong surveillance—a different organ lesion from the renal and CNS tumors that dominate the syndrome.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — VHL leaves a quiet mark on the reproductive system: epididymal cystadenomas in men and broad-ligament cystadenomas in women are characteristic benign tumors—rarely symptomatic but, when bilateral, near-diagnostic clues to the syndrome.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — VHL's broken oxygen sensing inflates red cells: failure to degrade HIF raises erythropoietin, driving excess erythrocyte production—the basis of Chuvash polycythemia, a milder VHL variant where the bone marrow overmakes red cells without a tumor.
+- `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — VHL disease is fundamentally a HIF-2alpha (EPAS1) disorder: losing pVHL stops degradation of EPAS1, so it constitutively drives VEGF and growth—the basis for belzutifan, a HIF-2alpha inhibitor now treating VHL-related kidney tumors and hemangioblastomas.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — VHL and SDHB cause 'pseudohypoxia' the same way: pVHL loss and SDHB loss both stabilize HIF as if oxygen were low, driving pheochromocytoma and paraganglioma—so two different genes converge on one hypoxia-mimicking cancer mechanism.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HIF-2alpha links VHL to iron and red cells: the EPAS1 factor that accumulates in VHL governs erythropoietin and intestinal iron absorption, explaining the polycythemia seen when this hypoxia pathway runs unchecked.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
