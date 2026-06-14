@@ -72,6 +72,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Gambling and cannabis use disorders frequently co-occur: both engage mesolimbic reward circuitry and share impulsivity and craving, so a behavioral addiction and a substance addiction reinforce each other—polyaddiction that complicates treatment of either."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Gambling rides waves of cortisol: bets, wins, and near-misses spike this stress hormone and arousal, and chronic gamblers show a dysregulated HPA stress axis—so the physiology of stress and reward, not just dopamine, drives the compulsive cycle."
+  - target: 01-human/07-system/borderline-personality-disorder
+    relation: connects-to
+    note: "Gambling disorder often rides with borderline personality disorder: shared impulsivity and difficulty tolerating distress make gambling a way to escape or self-soothe, so the two co-occur and each worsens the other's course and treatment."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus feeds gambling's pull: it encodes vivid memories of past wins and the contexts that cued them, so reward-laden recollection helps drive 'chasing losses'—linking memory circuits to the persistence of the habit."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -236,6 +245,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Gambling disorder implicates glutamate as well as dopamine: glutamatergic signaling underlies the compulsive urge and cue reactivity, and trials of the glutamate modulator N-acetylcysteine to reduce gambling urges reflect this addiction-circuitry overlap.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Gambling disorder is the model behavioral addiction of the nervous system: it hijacks the same dopaminergic reward and prefrontal control circuits as drugs, which is why it sits beside substance use disorders in DSM-5 despite involving no ingested substance.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Gambling and cannabis use disorders frequently co-occur: both engage mesolimbic reward circuitry and share impulsivity and craving, so a behavioral addiction and a substance addiction reinforce each other—polyaddiction that complicates treatment of either.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Gambling rides waves of cortisol: bets, wins, and near-misses spike this stress hormone and arousal, and chronic gamblers show a dysregulated HPA stress axis—so the physiology of stress and reward, not just dopamine, drives the compulsive cycle.
+- `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — Gambling disorder often rides with borderline personality disorder: shared impulsivity and difficulty tolerating distress make gambling a way to escape or self-soothe, so the two co-occur and each worsens the other's course and treatment.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus feeds gambling's pull: it encodes vivid memories of past wins and the contexts that cued them, so reward-laden recollection helps drive 'chasing losses'—linking memory circuits to the persistence of the habit.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
