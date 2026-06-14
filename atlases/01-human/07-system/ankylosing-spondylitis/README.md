@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK inhibitors are a newer ankylosing spondylitis therapy: oral drugs like upadacitinib block JAK signaling downstream of inflammatory cytokines, controlling axial disease in patients who fail or can't take TNF and IL-17 biologics."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Ankylosing spondylitis fuses the spine by silencing sclerostin: this Wnt-pathway brake on bone formation falls in AS, so unopposed Wnt drives the new bone (syndesmophytes) that bridges vertebrae into a bamboo spine."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D shapes ankylosing spondylitis: deficiency is common and may worsen both the bone loss and the IL-17-driven inflammation, so vitamin D status is watched in a disease that paradoxically erodes and overgrows bone."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Ankylosing spondylitis may ignite from dendritic cells: sensing gut microbes and HLA-B27-presented peptides, they secrete IL-23 that drives the IL-17 response attacking entheses, linking the gut to the inflamed spine."
 ---
 
 # Ankylosing Spondylitis
@@ -244,6 +253,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Ankylosing spondylitis fuses the spine via Wnt-driven bone formation: inflammation shifts the Wnt/sclerostin balance to activate osteoblasts, building the syndesmophytes that bridge vertebrae into a 'bamboo spine'—why anti-inflammatories don't fully stop fusion.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — HLA-B27 ties ankylosing spondylitis to cytotoxic T cells: the class I molecule presents peptides to CD8 T cells, and the leading 'arthritogenic peptide' hypothesis holds that this drives the autoimmune attack on the spine and joints.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are a newer ankylosing spondylitis therapy: oral drugs like upadacitinib block JAK signaling downstream of inflammatory cytokines, controlling axial disease in patients who fail or can't take TNF and IL-17 biologics.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Ankylosing spondylitis fuses the spine by silencing sclerostin: this Wnt-pathway brake on bone formation falls in AS, so unopposed Wnt drives the new bone (syndesmophytes) that bridges vertebrae into a bamboo spine.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shapes ankylosing spondylitis: deficiency is common and may worsen both the bone loss and the IL-17-driven inflammation, so vitamin D status is watched in a disease that paradoxically erodes and overgrows bone.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Ankylosing spondylitis may ignite from dendritic cells: sensing gut microbes and HLA-B27-presented peptides, they secrete IL-23 that drives the IL-17 response attacking entheses, linking the gut to the inflamed spine.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

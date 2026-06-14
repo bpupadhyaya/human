@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/dnmt3a
     relation: connects-to
     note: "AML often begins with DNMT3A clonal hematopoiesis: this epigenetic mutation arises in aging blood stem cells (CHIP) years before leukemia, seeding a pre-malignant clone—part of why DNA-methylation drugs like azacitidine treat AML."
+  - target: 01-human/03-molecular/tet2
+    relation: connects-to
+    note: "TET2 and DNMT3A break AML's methylation from opposite ends: TET2 normally erases DNA methylation while DNMT3A writes it, so mutating either scrambles the epigenome of blood stem cells—converging on the same leukemic dysregulation from opposite directions."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "AML's leukemic stem cells survive on autophagy: they recycle their contents to weather metabolic stress and chemotherapy, so blocking autophagy is studied to eradicate the stem cells that drive relapse after remission."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "AML evades immunity with regulatory T cells: the leukemic marrow fills with Tregs that suppress the anti-leukemia response, a barrier to immunotherapy and to the graft-versus-leukemia effect that transplant relies on."
 ---
 
 # AML
@@ -246,6 +255,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Allogeneic transplant cures AML through cytotoxic T cells: donor T cells mount a graft-versus-leukemia attack on residual blasts—the curative immune mechanism that makes transplant, not just chemo, definitive for high-risk disease.
 - `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2 mutations define a targetable AML subset: like IDH1, mutant IDH2 makes the oncometabolite 2-hydroxyglutarate that blocks blood-cell differentiation, and the inhibitor enasidenib releases that block to mature the leukemic cells.
 - `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — AML often begins with DNMT3A clonal hematopoiesis: this epigenetic mutation arises in aging blood stem cells (CHIP) years before leukemia, seeding a pre-malignant clone—part of why DNA-methylation drugs like azacitidine treat AML.
+- `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — TET2 and DNMT3A break AML's methylation from opposite ends: TET2 normally erases DNA methylation while DNMT3A writes it, so mutating either scrambles the epigenome of blood stem cells—converging on the same leukemic dysregulation from opposite directions.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — AML's leukemic stem cells survive on autophagy: they recycle their contents to weather metabolic stress and chemotherapy, so blocking autophagy is studied to eradicate the stem cells that drive relapse after remission.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — AML evades immunity with regulatory T cells: the leukemic marrow fills with Tregs that suppress the anti-leukemia response, a barrier to immunotherapy and to the graft-versus-leukemia effect that transplant relies on.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
