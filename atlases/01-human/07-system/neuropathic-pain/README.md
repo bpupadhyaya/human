@@ -69,6 +69,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/varicella-zoster-virus
     relation: connects-to
     note: "Varicella-zoster virus is a leading cause of neuropathic pain: after shingles, virus-damaged sensory nerves can fire abnormally for months as postherpetic neuralgia, the classic post-infectious neuropathic pain—now largely preventable by zoster vaccination."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Voltage-gated sodium channels generate neuropathic pain: after nerve injury, damaged neurons over-express Nav1.7 and Nav1.8 and fire spontaneously, so sodium-channel blockers—local anesthetics, mexiletine, and the new Nav1.8 inhibitor suzetrigine—are core analgesics."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium channels are the brakes on pain firing: by setting resting voltage and repolarizing neurons, Kv/KCNQ channels limit excitability, so their loss after nerve injury leaves neurons hyperexcitable—making potassium-channel openers a target for nerve pain."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system dampens neuropathic pain: cannabinoid receptors on neurons and microglia suppress pain transmission and neuroinflammation, which is why cannabinoids are tried for nerve pain—though benefit is modest and tempered by side effects."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -249,6 +258,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Voltage-gated calcium channels are the target of first-line neuropathic-pain drugs: gabapentin and pregabalin bind the alpha-2-delta subunit, cutting calcium-driven release of pain neurotransmitters from overexcitable sensory neurons—linking calcium to pain control.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Neuropathic pain partly reflects lost GABAergic inhibition: nerve injury weakens inhibitory GABA signaling in the spinal dorsal horn, so normally innocuous touch is read as pain (allodynia)—restoring this inhibitory tone is a key analgesic strategy.
 - `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Varicella-zoster virus is a leading cause of neuropathic pain: after shingles, virus-damaged sensory nerves can fire abnormally for months as postherpetic neuralgia, the classic post-infectious neuropathic pain—now largely preventable by zoster vaccination.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Voltage-gated sodium channels generate neuropathic pain: after nerve injury, damaged neurons over-express Nav1.7 and Nav1.8 and fire spontaneously, so sodium-channel blockers—local anesthetics, mexiletine, and the new Nav1.8 inhibitor suzetrigine—are core analgesics.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium channels are the brakes on pain firing: by setting resting voltage and repolarizing neurons, Kv/KCNQ channels limit excitability, so their loss after nerve injury leaves neurons hyperexcitable—making potassium-channel openers a target for nerve pain.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system dampens neuropathic pain: cannabinoid receptors on neurons and microglia suppress pain transmission and neuroinflammation, which is why cannabinoids are tried for nerve pain—though benefit is modest and tempered by side effects.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

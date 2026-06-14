@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "NMO is a systemic autoimmune disease that strikes the CNS: it clusters with lupus and Sjogren's, reflecting broad loss of self-tolerance, and is controlled by immunosuppression and B-cell depletion rather than the immunomodulators used in MS."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "NMO is not just an eye-and-cord disease—it strikes the brain: lesions in the area postrema cause intractable hiccups, nausea, and vomiting, and diencephalic or brainstem attacks add narcolepsy or other signs, so AQP4-rich brain regions are characteristic NMO targets."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "NMO reflects a breakdown of immune tolerance: regulatory T cells that should restrain self-reactivity are deficient or dysfunctional, allowing AQP4-specific T and B cells to mature—so failed Treg control underlies the autoimmunity against astrocyte water channels."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help execute NMO's astrocyte damage: once anti-AQP4 antibodies coat astrocytes, NK cells (and complement) destroy them by antibody-dependent cytotoxicity, so innate effectors translate the autoantibody into the actual tissue injury."
 ---
 
 # NMOSD
@@ -265,6 +274,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — NMO is defined by a pathogenic IgG autoantibody: AQP4-IgG binds astrocyte water channels and fixes complement, so this IgG is both the diagnostic test and the direct cause of the astrocyte destruction—distinguishing NMO from multiple sclerosis.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells drive the NMO attack: Th17 cells and the IL-6 they help sustain promote AQP4-specific antibody production and open the blood-brain barrier, so the antibody response depends on T-cell help—rationale for IL-6-pathway therapy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — NMO is a systemic autoimmune disease that strikes the CNS: it clusters with lupus and Sjogren's, reflecting broad loss of self-tolerance, and is controlled by immunosuppression and B-cell depletion rather than the immunomodulators used in MS.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — NMO is not just an eye-and-cord disease—it strikes the brain: lesions in the area postrema cause intractable hiccups, nausea, and vomiting, and diencephalic or brainstem attacks add narcolepsy or other signs, so AQP4-rich brain regions are characteristic NMO targets.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — NMO reflects a breakdown of immune tolerance: regulatory T cells that should restrain self-reactivity are deficient or dysfunctional, allowing AQP4-specific T and B cells to mature—so failed Treg control underlies the autoimmunity against astrocyte water channels.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help execute NMO's astrocyte damage: once anti-AQP4 antibodies coat astrocytes, NK cells (and complement) destroy them by antibody-dependent cytotoxicity, so innate effectors translate the autoantibody into the actual tissue injury.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
