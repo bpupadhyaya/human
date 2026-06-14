@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Thyroid cancer shelters in a regulatory T-cell-rich niche: Tregs infiltrate aggressive and anaplastic tumors and suppress immunity, a barrier the checkpoint immunotherapy now tried in advanced thyroid cancer must overcome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Medullary thyroid cancer is a tumor of the calcium thermostat: it arises from the C cells that make calcitonin, so the hormone serves as its tumor marker, and its calcium-regulating lineage defines this distinct, often inherited subtype."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells shape immunotherapy for aggressive thyroid cancer: as antigen-presenters they prime the T-cell response that checkpoint drugs amplify in anaplastic disease, and their dysfunction helps the tumor evade immunity."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Thyroid cancer can spread to the brain: though usually indolent, advanced or anaplastic disease seeds brain metastases through the blood, a sign of aggressive spread that shifts care toward systemic and targeted therapy."
 ---
 
 # Thyroid Cancer
@@ -279,6 +288,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — The thyroid runs on selenium, and so does its cancer biology: selenium-dependent enzymes activate thyroid hormone and shield thyrocytes from the hydrogen peroxide of hormone synthesis, so selenium status influences thyroid disease and oxidative damage.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Thyroid cancer turns lethal when it loses p53: TP53 mutation drives the leap from a usually-curable differentiated cancer to anaplastic thyroid carcinoma, one of the most aggressive human tumors—explaining the dedifferentiation step.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Thyroid cancer shelters in a regulatory T-cell-rich niche: Tregs infiltrate aggressive and anaplastic tumors and suppress immunity, a barrier the checkpoint immunotherapy now tried in advanced thyroid cancer must overcome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Medullary thyroid cancer is a tumor of the calcium thermostat: it arises from the C cells that make calcitonin, so the hormone serves as its tumor marker, and its calcium-regulating lineage defines this distinct, often inherited subtype.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape immunotherapy for aggressive thyroid cancer: as antigen-presenters they prime the T-cell response that checkpoint drugs amplify in anaplastic disease, and their dysfunction helps the tumor evade immunity.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Thyroid cancer can spread to the brain: though usually indolent, advanced or anaplastic disease seeds brain metastases through the blood, a sign of aggressive spread that shifts care toward systemic and targeted therapy.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

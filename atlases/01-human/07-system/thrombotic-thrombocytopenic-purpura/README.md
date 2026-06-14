@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Acquired TTP is calmed with cortisol: corticosteroids suppress the autoantibody response against ADAMTS13 and are given alongside plasma exchange (with rituximab and caplacizumab) to bring the immune-driven disease under control."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "TTP starves organs of oxygen with platelet microthrombi: clumps of platelets plug small vessels throughout the body, cutting oxygen to brain, heart and kidney, so the ischemic organ damage—not bleeding—drives its danger."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help start acquired TTP: by presenting ADAMTS13 fragments to T cells they break tolerance, licensing the autoantibodies that disable the enzyme—the autoimmune trigger upstream of the microthrombi."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "TTP can strike the gut with microvascular clots: ischemia of the bowel causes abdominal pain, nausea and even pancreatitis, so gastrointestinal symptoms are common and sometimes the presenting feature of the disease."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -298,6 +307,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — TTP shreds red cells and spills hemoglobin: platelet-vWF microthrombi slice passing red cells (microangiopathic hemolysis), producing schistocytes, free hemoglobin, low haptoglobin and high LDH—the lab fingerprint that flags the emergency.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Treating TTP with plasma exchange drains calcium: the citrate anticoagulant in the apheresis circuit binds calcium, causing the tingling and cramps of hypocalcemia, so calcium is monitored and replaced during the daily exchanges that are lifesaving.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Acquired TTP is calmed with cortisol: corticosteroids suppress the autoantibody response against ADAMTS13 and are given alongside plasma exchange (with rituximab and caplacizumab) to bring the immune-driven disease under control.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TTP starves organs of oxygen with platelet microthrombi: clumps of platelets plug small vessels throughout the body, cutting oxygen to brain, heart and kidney, so the ischemic organ damage—not bleeding—drives its danger.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help start acquired TTP: by presenting ADAMTS13 fragments to T cells they break tolerance, licensing the autoantibodies that disable the enzyme—the autoimmune trigger upstream of the microthrombi.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — TTP can strike the gut with microvascular clots: ischemia of the bowel causes abdominal pain, nausea and even pancreatitis, so gastrointestinal symptoms are common and sometimes the presenting feature of the disease.
 
 ---
 
