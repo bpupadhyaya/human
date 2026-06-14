@@ -113,6 +113,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "The adrenal glands feed the reproductive hormone pool: they make DHEA and other androgens that supplement the gonads and drive adrenarche, so adrenal disorders can disturb puberty, fertility and menstrual function."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Reproduction is costly in iron: each menstrual period drains iron, and pregnancy's demand for the growing fetus and placenta often outpaces supply, making iron-deficiency anemia common in women of reproductive age."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Sex hormones are written on the skin: testosterone and estrogen shape body and facial hair, oil glands and acne, and the pigment and stretch changes of puberty and pregnancy, so the skin mirrors reproductive state."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Reproduction rebuilds blood vessels each cycle: the endometrium and placenta drive intense VEGF-fueled angiogenesis through endothelial cells to thicken the lining and nourish a pregnancy."
 ---
 
 # Reproductive System
@@ -260,6 +269,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain commands reproduction from the top: the hypothalamus pulses GnRH to drive the pituitary's FSH and LH, which run the ovaries and testes, so the whole reproductive system answers to this neural-hormonal axis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Reproduction turns on a calcium signal: a wave of calcium sweeps through the egg at fertilization to activate it and block other sperm, and calcium influx also powers the sperm's capacitation, making the ion central to conception.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal glands feed the reproductive hormone pool: they make DHEA and other androgens that supplement the gonads and drive adrenarche, so adrenal disorders can disturb puberty, fertility and menstrual function.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Reproduction is costly in iron: each menstrual period drains iron, and pregnancy's demand for the growing fetus and placenta often outpaces supply, making iron-deficiency anemia common in women of reproductive age.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Sex hormones are written on the skin: testosterone and estrogen shape body and facial hair, oil glands and acne, and the pigment and stretch changes of puberty and pregnancy, so the skin mirrors reproductive state.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Reproduction rebuilds blood vessels each cycle: the endometrium and placenta drive intense VEGF-fueled angiogenesis through endothelial cells to thicken the lining and nourish a pregnancy.
 
 ## Pathology
 

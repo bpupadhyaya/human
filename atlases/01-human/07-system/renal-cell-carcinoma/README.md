@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells are central to kidney cancer's unusual immunogenicity: RCC was one of the first tumors to respond to immunotherapy, and antigen-presenting dendritic cells help prime the T-cell attack that checkpoint drugs amplify."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Kidney cancer bleeds iron into the urine: painless hematuria is a classic sign, and the chronic blood loss drains iron into anemia—though RCC can paradoxically also raise red cells via erythropoietin."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Kidney cancer haunts the pancreas late: RCC is one of the few tumors that metastasizes to the pancreas, often many years after the kidney was removed, so long-term surveillance matters."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "RCC can drive the marrow to overproduce blood: its ectopic erythropoietin spurs the bone marrow to make excess red cells, a paraneoplastic polycythemia unusual among cancers."
 ---
 
 # Renal Cell Carcinoma
@@ -266,6 +275,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Clear cell kidney cancer is the archetypal oxygen-sensing tumor: VHL loss makes it behave as if hypoxic even in normal oxygen, stabilizing HIF to pump out VEGF and EPO—the pseudohypoxia that defines it and guides anti-angiogenic therapy.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Kidney cancer is notorious for spreading to the brain: RCC seeds brain metastases through the blood, sometimes years after the primary, so new neurologic symptoms in a kidney-cancer survivor demand imaging.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are central to kidney cancer's unusual immunogenicity: RCC was one of the first tumors to respond to immunotherapy, and antigen-presenting dendritic cells help prime the T-cell attack that checkpoint drugs amplify.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Kidney cancer bleeds iron into the urine: painless hematuria is a classic sign, and the chronic blood loss drains iron into anemia—though RCC can paradoxically also raise red cells via erythropoietin.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Kidney cancer haunts the pancreas late: RCC is one of the few tumors that metastasizes to the pancreas, often many years after the kidney was removed, so long-term surveillance matters.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — RCC can drive the marrow to overproduce blood: its ectopic erythropoietin spurs the bone marrow to make excess red cells, a paraneoplastic polycythemia unusual among cancers.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
