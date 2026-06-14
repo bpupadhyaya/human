@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T helper cells regulate the wound's transition from inflammation to repair: their cytokines orchestrate macrophage switching and fibroblast activity, so the adaptive immune balance shapes whether a wound heals cleanly or scars—or fails to close in chronic wounds."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Intact peripheral nerves are needed for wounds to heal: sensory loss removes the protective reflexes that prevent repeat injury and the neuropeptides that aid repair, so diabetic neuropathy turns minor foot wounds into chronic, non-healing ulcers."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Wound closure depends on contractile cells: fibroblasts differentiate into smooth-muscle-like myofibroblasts that pull wound edges together and lay down matrix, so this contraction shrinks the defect—but if unchecked it drives contractures and excess scarring."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells help orchestrate early wound healing: degranulating to release histamine, heparin, and growth factors, they boost vascular permeability and recruit inflammatory cells—useful for repair, yet their excess is implicated in hypertrophic scars and keloids."
 ---
 
 # Wound Healing
@@ -226,6 +235,9 @@ cross_links:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Wound healing tips into fibrosis when it overshoots: the same fibroblast and TGF-beta program that repairs a wound, if unresolved, lays down excess collagen as hypertrophic scars, keloids or organ fibrosis—so pathological fibrosis is wound healing that never stops.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen is rate-limiting for wound healing: collagen synthesis and the bacteria-killing oxidative burst both need it, so hypoxic, poorly perfused wounds (diabetes, vascular disease) heal slowly—why perfusion and hyperbaric oxygen matter for chronic wounds.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells regulate the wound's transition from inflammation to repair: their cytokines orchestrate macrophage switching and fibroblast activity, so the adaptive immune balance shapes whether a wound heals cleanly or scars—or fails to close in chronic wounds.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Intact peripheral nerves are needed for wounds to heal: sensory loss removes the protective reflexes that prevent repeat injury and the neuropeptides that aid repair, so diabetic neuropathy turns minor foot wounds into chronic, non-healing ulcers.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Wound closure depends on contractile cells: fibroblasts differentiate into smooth-muscle-like myofibroblasts that pull wound edges together and lay down matrix, so this contraction shrinks the defect—but if unchecked it drives contractures and excess scarring.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help orchestrate early wound healing: degranulating to release histamine, heparin, and growth factors, they boost vascular permeability and recruit inflammatory cells—useful for repair, yet their excess is implicated in hypertrophic scars and keloids.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

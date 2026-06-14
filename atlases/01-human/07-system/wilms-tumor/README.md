@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/dicer1-syndrome
     relation: connects-to
     note: "Wilms tumor links to several developmental cancer syndromes including DICER1: beyond WT1, predispositions like DICER1 and Beckwith-Wiedemann raise risk, so bilateral or syndromic Wilms prompts genetic evaluation and tailored surveillance."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Wilms tumor ties to the reproductive system through WT1: this gene guides both kidney and gonadal development, so its mutation links Wilms to genitourinary malformations—cryptorchidism, hypospadias, and the ambiguous genitalia of Denys-Drash and WAGR syndromes."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Wilms tumor links to the eye via WAGR syndrome: a chromosome 11p13 deletion removing the adjacent PAX6 gene causes aniridia, so a child born without irises is screened for Wilms—a developmental neighbor on the genome flagging tumor risk."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Beyond the lungs, Wilms tumor spreads to the liver: hematogenous metastasis there marks higher-stage disease, yet even metastatic Wilms is highly curable with chemotherapy, surgery, and radiation—so liver lesions are treated aggressively, not as terminal."
 ---
 
 # Wilms Tumor
@@ -228,6 +237,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — Wilms tumor is partly a Wnt-driven cancer: beta-catenin (CTNNB1) activating mutations, often with WT1 loss, derail the kidney's developmental Wnt signaling so nephron precursors keep proliferating—turning arrested fetal kidney tissue into the embryonal tumor.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Wilms tumor metastasizes characteristically to the lung: it spreads hematogenously to produce pulmonary nodules, so chest imaging is part of staging—yet even metastatic Wilms is often cured, an unusually favorable pediatric cancer.
 - `connects-to` → **[DICER1 Syndrome](../dicer1-syndrome/README.md)** — Wilms tumor links to several developmental cancer syndromes including DICER1: beyond WT1, predispositions like DICER1 and Beckwith-Wiedemann raise risk, so bilateral or syndromic Wilms prompts genetic evaluation and tailored surveillance.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Wilms tumor ties to the reproductive system through WT1: this gene guides both kidney and gonadal development, so its mutation links Wilms to genitourinary malformations—cryptorchidism, hypospadias, and the ambiguous genitalia of Denys-Drash and WAGR syndromes.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Wilms tumor links to the eye via WAGR syndrome: a chromosome 11p13 deletion removing the adjacent PAX6 gene causes aniridia, so a child born without irises is screened for Wilms—a developmental neighbor on the genome flagging tumor risk.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Beyond the lungs, Wilms tumor spreads to the liver: hematogenous metastasis there marks higher-stage disease, yet even metastatic Wilms is highly curable with chemotherapy, surgery, and radiation—so liver lesions are treated aggressively, not as terminal.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
