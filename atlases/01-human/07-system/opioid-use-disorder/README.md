@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Opioids inflame the brain's immune cells: they activate microglia that release cytokines, which paradoxically worsen pain sensitivity and tolerance, so this neuroinflammation helps push escalating doses and dependence."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Opioids seize up the large intestine: mu-receptors in the gut wall halt its muscular waves, causing the severe constipation that nearly every opioid user gets and that special gut-targeted drugs are made to relieve."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "An opioid overdose floods the blood with hydrogen ions: suppressed breathing lets carbon dioxide build up into a respiratory acidosis, the falling pH that compounds the hypoxia of overdose."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Opioid addiction enlists astrocytes: these glial cells help control glutamate in the reward circuit, and their changes contribute to the synaptic plasticity and craving that sustain dependence and relapse."
 ---
 
 # Opioid Use Disorder
@@ -310,6 +319,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Opioid overdose kills by cutting off oxygen: opioids suppress the brainstem's drive to breathe, so breathing slows and stops, starving the brain and heart of oxygen—the hypoxia that naloxone races to reverse.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Opioid addiction rewires reward synapses: repeated drug surges strengthen and reshape connections in the dopamine pathway, the lasting synaptic plasticity that entrenches craving and makes relapse easy long after the drug is gone.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Opioids inflame the brain's immune cells: they activate microglia that release cytokines, which paradoxically worsen pain sensitivity and tolerance, so this neuroinflammation helps push escalating doses and dependence.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Opioids seize up the large intestine: mu-receptors in the gut wall halt its muscular waves, causing the severe constipation that nearly every opioid user gets and that special gut-targeted drugs are made to relieve.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — An opioid overdose floods the blood with hydrogen ions: suppressed breathing lets carbon dioxide build up into a respiratory acidosis, the falling pH that compounds the hypoxia of overdose.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Opioid addiction enlists astrocytes: these glial cells help control glutamate in the reward circuit, and their changes contribute to the synaptic plasticity and craving that sustain dependence and relapse.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells help start myasthenia in the thymus: by presenting acetylcholine-receptor fragments to T cells in the abnormal thymus, they prime the immune response that licenses B cells to make the receptor-blocking antibodies."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "A myasthenic crisis can choke off oxygen: when weakness spreads to the breathing muscles, ventilation fails and blood oxygen falls, the emergency that lands patients on a ventilator and defines the disease's gravest turn."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Myasthenia from a thymoma can hit the bone marrow: the same tumor that drives the autoimmunity can trigger paraneoplastic pure red cell aplasia, shutting down marrow red-cell production alongside the muscle disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Myasthenia, especially with thymoma, can inflame the heart: autoimmune myocarditis and conduction problems occur, so cardiac symptoms in a myasthenic patient prompt a search for heart involvement beyond the muscles."
 ---
 
 # Myasthenia Gravis
@@ -262,6 +271,9 @@ cross_links:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Myasthenia silences a sodium gate at the muscle: the acetylcholine receptor it attacks is a sodium-admitting channel, so when antibodies destroy these receptors, too little sodium flows in to fire the muscle, and the endplate fails to reach threshold.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels the antibody factories of myasthenia: it drives the thymic germinal centers that churn out anti-receptor antibodies, which is why IL-6-pathway blockers are being trialed to dampen the autoimmune attack at its source.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help start myasthenia in the thymus: by presenting acetylcholine-receptor fragments to T cells in the abnormal thymus, they prime the immune response that licenses B cells to make the receptor-blocking antibodies.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A myasthenic crisis can choke off oxygen: when weakness spreads to the breathing muscles, ventilation fails and blood oxygen falls, the emergency that lands patients on a ventilator and defines the disease's gravest turn.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Myasthenia from a thymoma can hit the bone marrow: the same tumor that drives the autoimmunity can trigger paraneoplastic pure red cell aplasia, shutting down marrow red-cell production alongside the muscle disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Myasthenia, especially with thymoma, can inflame the heart: autoimmune myocarditis and conduction problems occur, so cardiac symptoms in a myasthenic patient prompt a search for heart involvement beyond the muscles.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
