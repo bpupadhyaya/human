@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Rituximab clears follicular lymphoma largely through NK cells: the anti-CD20 antibody coats the B cells and natural killer cells destroy them by antibody-dependent killing, so NK function shapes how well this mainstay therapy works."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages predict outcome in follicular lymphoma: the number of lymphoma-associated macrophages in the tumor tracks with prognosis, and these cells both support the malignant B cells and mediate the killing when rituximab is given."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Follicular lymphoma leans on its vascular niche via VEGF: the indolent tumor recruits new vessels and a supportive microenvironment in the lymph node, with VEGF-driven angiogenesis sustaining the slow-growing B-cell clone."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "B-cell receptor signaling keeps follicular lymphoma alive through calcium: tonic receptor firing drives a calcium flux that promotes survival, which is why BTK and PI3K inhibitors that interrupt this pathway have a role in treatment."
 ---
 
 # Follicular Lymphoma
@@ -261,6 +270,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Follicular lymphoma can be hit through the PI3K-mTOR pathway: this survival signaling is active in the lymphoma, so PI3K inhibitors (idelalisib, copanlisib) that feed into mTOR are approved options for relapsed disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Follicular lymphoma lives or dies by its microenvironment, especially regulatory T cells: the mix of Tregs and other immune cells around the tumor follicles predicts how indolent or aggressive the lymphoma will be, more than the tumor cells alone.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rituximab clears follicular lymphoma largely through NK cells: the anti-CD20 antibody coats the B cells and natural killer cells destroy them by antibody-dependent killing, so NK function shapes how well this mainstay therapy works.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages predict outcome in follicular lymphoma: the number of lymphoma-associated macrophages in the tumor tracks with prognosis, and these cells both support the malignant B cells and mediate the killing when rituximab is given.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Follicular lymphoma leans on its vascular niche via VEGF: the indolent tumor recruits new vessels and a supportive microenvironment in the lymph node, with VEGF-driven angiogenesis sustaining the slow-growing B-cell clone.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — B-cell receptor signaling keeps follicular lymphoma alive through calcium: tonic receptor firing drives a calcium flux that promotes survival, which is why BTK and PI3K inhibitors that interrupt this pathway have a role in treatment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Diffuse gastric cancer turns the stomach to leather through fibroblasts: cancer-associated fibroblasts lay down dense stroma in linitis plastica, stiffening the whole stomach wall and helping the scattered signet-ring cells resist therapy."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Nitrogen-based nitrosamines help cause gastric cancer: salted, smoked and pickled foods, and nitrate converted by stomach bacteria, generate DNA-damaging N-nitroso compounds, a dietary driver that compounds Helicobacter infection."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Helicobacter drives gastric cancer through NF-kB: the infection keeps this inflammatory switch active in the stomach lining, sustaining the chronic gastritis and survival signaling that step the mucosa toward malignancy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Helicobacter recruits regulatory T cells that shield gastric cancer: the bacterium induces Tregs that dampen the immune attack, letting infection persist and the tumor evade clearance, while blunting checkpoint-therapy responses."
 ---
 
 # Gastric Cancer
@@ -282,6 +291,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Dietary salt is a major driver of gastric cancer: high sodium intake damages the stomach lining and promotes H. pylori colonization and carcinogenesis, which is why salt-heavy diets track with the world's highest stomach cancer rates.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Diffuse gastric cancer is often driven by FGFR2: amplification of this receptor fuels the aggressive signet-ring type, making FGFR inhibitors a targeted option beyond the HER2-directed drugs used in intestinal-type tumors.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Diffuse gastric cancer turns the stomach to leather through fibroblasts: cancer-associated fibroblasts lay down dense stroma in linitis plastica, stiffening the whole stomach wall and helping the scattered signet-ring cells resist therapy.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Nitrogen-based nitrosamines help cause gastric cancer: salted, smoked and pickled foods, and nitrate converted by stomach bacteria, generate DNA-damaging N-nitroso compounds, a dietary driver that compounds Helicobacter infection.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Helicobacter drives gastric cancer through NF-kB: the infection keeps this inflammatory switch active in the stomach lining, sustaining the chronic gastritis and survival signaling that step the mucosa toward malignancy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Helicobacter recruits regulatory T cells that shield gastric cancer: the bacterium induces Tregs that dampen the immune attack, letting infection persist and the tumor evade clearance, while blunting checkpoint-therapy responses.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
