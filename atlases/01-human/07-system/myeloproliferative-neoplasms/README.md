@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Myeloproliferative neoplasms classically cause splanchnic vein thrombosis: the prothrombotic clone clots the hepatic or portal veins (Budd-Chiari), so unexplained abdominal-vein thrombosis should prompt JAK2 testing—sometimes the first sign of an occult MPN."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "MPNs hijack thrombopoietin signaling: CALR and MPL mutations make blood cells respond as if flooded with thrombopoietin even when levels are normal, driving the runaway platelet and megakaryocyte production of essential thrombocythemia and myelofibrosis."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Myelofibrosis is the scarring face of MPNs: clonal megakaryocytes pour out cytokines that drive fibroblasts to lay down marrow fibrosis, choking blood production and forcing the spleen and liver to take over—the hallmark of advanced disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Polycythemia vera ties MPNs to iron: overproduction of red cells consumes iron and therapeutic phlebotomy deliberately induces iron deficiency to limit red-cell mass, so iron balance is both a consequence and a lever of treatment."
 ---
 
 # Myeloproliferative Neoplasms
@@ -255,6 +264,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Myeloproliferative neoplasms overproduce mature myeloid cells including neutrophils: the JAK2/CALR/MPL-driven clone expands granulocytes along with red cells and platelets, so leukocytosis is common and itself contributes to the thrombotic risk that defines MPN morbidity.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Thrombosis is the leading complication of myeloproliferative neoplasms: thick, sticky blood from excess cells and an activated, inflammatory clone causes arterial events including stroke, so cytoreduction and antiplatelet therapy aim to prevent these clots.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Myeloproliferative neoplasms classically cause splanchnic vein thrombosis: the prothrombotic clone clots the hepatic or portal veins (Budd-Chiari), so unexplained abdominal-vein thrombosis should prompt JAK2 testing—sometimes the first sign of an occult MPN.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — MPNs hijack thrombopoietin signaling: CALR and MPL mutations make blood cells respond as if flooded with thrombopoietin even when levels are normal, driving the runaway platelet and megakaryocyte production of essential thrombocythemia and myelofibrosis.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Myelofibrosis is the scarring face of MPNs: clonal megakaryocytes pour out cytokines that drive fibroblasts to lay down marrow fibrosis, choking blood production and forcing the spleen and liver to take over—the hallmark of advanced disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Polycythemia vera ties MPNs to iron: overproduction of red cells consumes iron and therapeutic phlebotomy deliberately induces iron deficiency to limit red-cell mass, so iron balance is both a consequence and a lever of treatment.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "MAP raises risk beyond the gut, including bladder cancer: the same defective oxidative-damage repair predisposes the urothelium, so MUTYH carriers face a modestly increased risk of bladder and other extraintestinal cancers warranting awareness."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "MUTYH-driven tumors are hypermutated and immunogenic: unrepaired oxidative damage produces a heavy load of G-to-T mutations and neoantigens that cytotoxic T cells can recognize, so checkpoint immunotherapy is of interest in these cancers."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "MUTYH-associated polyposis raises risk beyond the bowel: biallelic carriers face a modestly increased rate of ovarian and other extracolonic cancers, so management considers gynecologic risk alongside the dominant colorectal surveillance."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Breast cancer is a debated MUTYH extracolonic risk: some studies link biallelic MUTYH loss to a modest rise in breast cancer, adding it to the extracolonic tumors weighed when counseling families with the syndrome."
 ---
 
 # MUTYH-Associated Polyposis
@@ -228,6 +237,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — MUTYH-associated polyposis predisposes across the digestive tract: biallelic MUTYH loss seeds adenomatous polyps and cancer in the colon plus duodenal and gastric tumors, so it is managed like a milder, recessive cousin of FAP with GI surveillance.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MAP is fundamentally a failure to repair oxidative DNA damage: MUTYH normally excises adenine mispaired with 8-oxoguanine, the lesion left when reactive oxygen attacks DNA, so its loss lets oxygen-driven G:C-to-T:A mutations accumulate and seed polyps.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — MAP raises risk beyond the gut, including bladder cancer: the same defective oxidative-damage repair predisposes the urothelium, so MUTYH carriers face a modestly increased risk of bladder and other extraintestinal cancers warranting awareness.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — MUTYH-driven tumors are hypermutated and immunogenic: unrepaired oxidative damage produces a heavy load of G-to-T mutations and neoantigens that cytotoxic T cells can recognize, so checkpoint immunotherapy is of interest in these cancers.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — MUTYH-associated polyposis raises risk beyond the bowel: biallelic carriers face a modestly increased rate of ovarian and other extracolonic cancers, so management considers gynecologic risk alongside the dominant colorectal surveillance.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Breast cancer is a debated MUTYH extracolonic risk: some studies link biallelic MUTYH loss to a modest rise in breast cancer, adding it to the extracolonic tumors weighed when counseling families with the syndrome.
 
 ---
 
