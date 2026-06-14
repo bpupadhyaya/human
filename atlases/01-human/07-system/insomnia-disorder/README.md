@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Sleep and immunity are deeply linked: deep sleep supports immune memory and infection defense, so the chronic sleep loss of insomnia raises inflammation and blunts vaccine responses—part of why poor sleep tracks with worse health overall."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "An overactive thyroid is a hidden cause of insomnia: excess thyroid hormone speeds metabolism and arousal, causing difficulty falling and staying asleep, so checking thyroid function is part of evaluating new, unexplained chronic insomnia."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Insomnia is a disorder of hyperarousal driven by norepinephrine: an overactive noradrenergic stress system keeps the brain and body too 'switched on' to sleep, which is why insomnia overlaps anxiety and why calming arousal—not just sedation—is the goal."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Sleep and the hippocampus need each other: deep sleep consolidates hippocampal memories, so insomnia's lost sleep impairs learning and memory—and over time poor sleep is linked to hippocampal shrinkage and dementia risk."
 ---
 
 # Insomnia Disorder
@@ -268,6 +277,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine helps run the sleep-wake switch: high cholinergic activity drives REM sleep and wakefulness while it falls in deep sleep, so the balance between acetylcholine and sleep-promoting signals shapes sleep architecture disrupted in insomnia.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Chronic insomnia raises blood pressure: short, fragmented sleep keeps the stress system and sympathetic tone elevated overnight, so persistent insomnia is an independent risk factor for hypertension and cardiovascular disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Sleep and immunity are deeply linked: deep sleep supports immune memory and infection defense, so the chronic sleep loss of insomnia raises inflammation and blunts vaccine responses—part of why poor sleep tracks with worse health overall.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — An overactive thyroid is a hidden cause of insomnia: excess thyroid hormone speeds metabolism and arousal, causing difficulty falling and staying asleep, so checking thyroid function is part of evaluating new, unexplained chronic insomnia.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Insomnia is a disorder of hyperarousal driven by norepinephrine: an overactive noradrenergic stress system keeps the brain and body too 'switched on' to sleep, which is why insomnia overlaps anxiety and why calming arousal—not just sedation—is the goal.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Sleep and the hippocampus need each other: deep sleep consolidates hippocampal memories, so insomnia's lost sleep impairs learning and memory—and over time poor sleep is linked to hippocampal shrinkage and dementia risk.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
