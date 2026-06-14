@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Group 3 medulloblastoma leans on the cell-cycle kinase CDK4/6: MYC-driven proliferation depends on it, so CDK4/6 inhibitors are studied to slow the most aggressive subtype where current therapy often fails."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Medulloblastoma outpaces its oxygen: the fast-growing cerebellar tumor turns hypoxic in its core, switching on VEGF-driven angiogenesis to build the blood supply it needs to keep expanding."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Medulloblastoma shows up in the eyes: by blocking CSF flow it raises intracranial pressure, swelling the optic discs (papilledema) and blurring vision, often among the first signs of the cerebellar tumor."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Medulloblastoma sits in a macrophage-rich niche: tumor-associated macrophages and microglia populate the microenvironment, especially in SHH-subtype tumors, shaping growth and immune evasion."
 ---
 
 # Medulloblastoma
@@ -277,6 +286,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Medulloblastoma springs from the cerebellum's wiring: it arises from neural precursors that should build cerebellar circuits, and like other brain tumors it can integrate with neurons at synapses, tying the cerebellum's developmental program to the cancer.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Medulloblastoma is largely cold to cytotoxic T cells: with few mutations and a protected brain site, it resists immune attack, so engineered T-cell and other immunotherapies are being developed to reach a tumor that checkpoint drugs miss.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Group 3 medulloblastoma leans on the cell-cycle kinase CDK4/6: MYC-driven proliferation depends on it, so CDK4/6 inhibitors are studied to slow the most aggressive subtype where current therapy often fails.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Medulloblastoma outpaces its oxygen: the fast-growing cerebellar tumor turns hypoxic in its core, switching on VEGF-driven angiogenesis to build the blood supply it needs to keep expanding.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Medulloblastoma shows up in the eyes: by blocking CSF flow it raises intracranial pressure, swelling the optic discs (papilledema) and blurring vision, often among the first signs of the cerebellar tumor.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Medulloblastoma sits in a macrophage-rich niche: tumor-associated macrophages and microglia populate the microenvironment, especially in SHH-subtype tumors, shaping growth and immune evasion.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

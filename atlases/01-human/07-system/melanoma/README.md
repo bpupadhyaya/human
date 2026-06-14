@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Melanoma recruits blood vessels with VEGF: the tumor releases this angiogenesis driver to feed its growth and spread, and VEGF signaling also helps it suppress local immunity, adding to its notoriously invasive behavior."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Melanoma's pigment is forged with copper: tyrosinase, the copper-dependent enzyme, builds the melanin that colors melanocytes and the tumors they spawn, so copper sits at the heart of the cell's identity."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Desmoplastic melanoma masquerades as fibrosis: this variant forms a firm, scar-like fibrous tumor that is easily mistaken for benign and tends to track along nerves, making it treacherous to diagnose."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Melanoma is the cancer that most loves the small bowel: it is the tumor most likely to metastasize to the small intestine, where deposits bleed or obstruct, sometimes years after the original lesion."
 ---
 
 # Melanoma
@@ -245,6 +254,9 @@ cross_links:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Melanoma is born from oxygen's reaction to UV: sunlight drives reactive oxygen species and DNA-damaging photochemistry in pigment cells, so ultraviolet oxidative injury, with direct mutation, is the root cause of most melanomas.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Melanoma spreads readily to the lungs: among the most metastatic of cancers, it seeds pulmonary nodules through the blood, a common site of distant disease that shapes staging and the move to systemic therapy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Melanoma recruits blood vessels with VEGF: the tumor releases this angiogenesis driver to feed its growth and spread, and VEGF signaling also helps it suppress local immunity, adding to its notoriously invasive behavior.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Melanoma's pigment is forged with copper: tyrosinase, the copper-dependent enzyme, builds the melanin that colors melanocytes and the tumors they spawn, so copper sits at the heart of the cell's identity.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Desmoplastic melanoma masquerades as fibrosis: this variant forms a firm, scar-like fibrous tumor that is easily mistaken for benign and tends to track along nerves, making it treacherous to diagnose.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Melanoma is the cancer that most loves the small bowel: it is the tumor most likely to metastasize to the small intestine, where deposits bleed or obstruct, sometimes years after the original lesion.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
