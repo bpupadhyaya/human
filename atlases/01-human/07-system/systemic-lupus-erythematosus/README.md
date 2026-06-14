@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Autoantibodies and IgG immune complexes are the hallmark of lupus: anti-dsDNA and antinuclear IgG form complexes that deposit in tissues and fix complement, so the autoantibody profile both diagnoses SLE and mediates its multi-organ damage."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin is lupus's signature canvas: the butterfly malar rash, discoid scarring plaques, and photosensitive eruptions are cardinal features, so much so that skin-limited (cutaneous) lupus is its own spectrum—often the first visible clue to systemic disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Lupus attacks the brain as neuropsychiatric SLE: autoantibodies, clots, and inflammation cause seizures, psychosis, strokes, and cognitive fog, so CNS involvement is among the disease's most serious and hardest-to-treat manifestations."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils help start lupus through NETosis: dying neutrophils cast DNA-studded extracellular traps that expose self-antigens and trigger type-I interferon, so this form of neutrophil death feeds the anti-DNA autoimmunity at the disease's core."
 ---
 
 # Systemic Lupus Erythematosus
@@ -235,6 +244,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Lupus nephritis is the organ involvement that most shapes SLE prognosis: immune complexes deposit in the glomerulus, triggering complement-driven inflammation that scars the kidney, so renal biopsy guides immunosuppression and nephritis drives much of lupus mortality.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells power the lupus interferon engine: sensing self nucleic acids, they pour out type I interferon that drives the autoimmune cascade, so the IFN signature is central to SLE—and anifrolumab blocks this very pathway.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Autoantibodies and IgG immune complexes are the hallmark of lupus: anti-dsDNA and antinuclear IgG form complexes that deposit in tissues and fix complement, so the autoantibody profile both diagnoses SLE and mediates its multi-organ damage.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is lupus's signature canvas: the butterfly malar rash, discoid scarring plaques, and photosensitive eruptions are cardinal features, so much so that skin-limited (cutaneous) lupus is its own spectrum—often the first visible clue to systemic disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Lupus attacks the brain as neuropsychiatric SLE: autoantibodies, clots, and inflammation cause seizures, psychosis, strokes, and cognitive fog, so CNS involvement is among the disease's most serious and hardest-to-treat manifestations.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help start lupus through NETosis: dying neutrophils cast DNA-studded extracellular traps that expose self-antigens and trigger type-I interferon, so this form of neutrophil death feeds the anti-DNA autoimmunity at the disease's core.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

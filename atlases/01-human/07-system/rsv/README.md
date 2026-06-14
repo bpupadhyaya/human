@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "RSV evades durable immunity and reinfects for life: it blunts interferon and induces only short-lived, incomplete immune memory, so people are reinfected repeatedly—and the immature or aged immune system makes RSV dangerous at both ends of life."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "RSV prevention now rests on antibodies, not active immunity: the monoclonal nirsevimab and the maternal RSVpreF vaccine both supply or elicit B-cell antibodies against the F protein, protecting infants through passive immunity during their first vulnerable season."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "The placenta is key to protecting newborns from RSV: vaccinating mothers in late pregnancy lets anti-RSV antibodies cross the placenta, so the baby is born already armed against severe bronchiolitis in its first months—passive immunity by maternal transfer."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "RSV makes airway smooth muscle the villain of wheeze: infection and inflammation make bronchiolar smooth muscle constrict and the airways narrow, causing the wheezing of bronchiolitis—and repeated early RSV is linked to later asthma and airway reactivity."
 ---
 
 # RSV
@@ -250,3 +259,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — RSV bronchiolitis plugs the airways with neutrophils and debris: the virus and the neutrophil-rich inflammatory response slough airway cells and mucus into the tiny bronchioles, obstructing them—why infants wheeze and the smallest airways collapse in severe RSV.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — RSV is prevented with passive antibody, not a vaccine, in infants: monoclonal IgG antibodies (palivizumab, nirsevimab) against the F protein give infants immediate protection—a rare reliance on borrowed antibody for a virus where natural immunity is weak.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — RSV evades durable immunity and reinfects for life: it blunts interferon and induces only short-lived, incomplete immune memory, so people are reinfected repeatedly—and the immature or aged immune system makes RSV dangerous at both ends of life.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — RSV prevention now rests on antibodies, not active immunity: the monoclonal nirsevimab and the maternal RSVpreF vaccine both supply or elicit B-cell antibodies against the F protein, protecting infants through passive immunity during their first vulnerable season.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta is key to protecting newborns from RSV: vaccinating mothers in late pregnancy lets anti-RSV antibodies cross the placenta, so the baby is born already armed against severe bronchiolitis in its first months—passive immunity by maternal transfer.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — RSV makes airway smooth muscle the villain of wheeze: infection and inflammation make bronchiolar smooth muscle constrict and the airways narrow, causing the wheezing of bronchiolitis—and repeated early RSV is linked to later asthma and airway reactivity.
