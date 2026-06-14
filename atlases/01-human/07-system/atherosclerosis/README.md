@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Atherosclerosis attacks the kidney's arteries: narrowing of the renal artery (renovascular disease) lowers kidney blood flow, driving resistant hypertension and progressive kidney damage, so the disease is both a cause and a victim of vascular aging."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Atherosclerosis lives or dies by its fibrous cap: smooth-muscle cells lay down collagen to wall off the fatty core, and when this fibrous scar thins and ruptures, the exposed core triggers the clot behind heart attacks."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Atherosclerosis chokes the brain's arteries: plaque in the carotid and cerebral vessels throws clots or narrows flow, causing ischemic strokes and contributing to vascular cognitive decline."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Atherosclerotic plaques summon VEGF to grow vessels: as a plaque thickens it turns hypoxic and releases VEGF, sprouting fragile microvessels that bleed into the plaque and destabilize it, raising rupture risk."
 ---
 
 # Atherosclerosis
@@ -269,6 +278,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Atherosclerosis is dangerous because it cuts off oxygen: narrowed arteries throttle blood flow so tissue demand outstrips supply, causing the angina, claudication and—on plaque rupture—the infarction that kills oxygen-starved muscle.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Atherosclerosis turns deadly when thrombin fires: a ruptured plaque exposes tissue that triggers the clotting cascade, and thrombin builds the clot that abruptly blocks the artery—the final step to heart attack and stroke.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Atherosclerosis attacks the kidney's arteries: narrowing of the renal artery (renovascular disease) lowers kidney blood flow, driving resistant hypertension and progressive kidney damage, so the disease is both a cause and a victim of vascular aging.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Atherosclerosis lives or dies by its fibrous cap: smooth-muscle cells lay down collagen to wall off the fatty core, and when this fibrous scar thins and ruptures, the exposed core triggers the clot behind heart attacks.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Atherosclerosis chokes the brain's arteries: plaque in the carotid and cerebral vessels throws clots or narrows flow, causing ischemic strokes and contributing to vascular cognitive decline.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Atherosclerotic plaques summon VEGF to grow vessels: as a plaque thickens it turns hypoxic and releases VEGF, sprouting fragile microvessels that bleed into the plaque and destabilize it, raising rupture risk.
 
 ---
 

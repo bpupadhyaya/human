@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Aplastic anemia starves tissues of oxygen: with red cell production shut down, hemoglobin falls and the blood carries less oxygen, causing the fatigue and breathlessness that, with bleeding and infection, mark the failing marrow."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Aplastic anemia overworks and overloads the heart: chronic anemia forces high-output pumping, and the iron from repeated transfusions deposits in the muscle, together threatening heart failure over years of treatment."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help ignite aplastic anemia: by presenting stem-cell antigens to T cells, they prime the autoimmune attack that cytotoxic T cells then carry out against the marrow—why immunosuppression can restore blood counts."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-based solvents can wipe out the marrow: benzene exposure is a classic environmental cause of aplastic anemia, its toxic metabolites poisoning the blood-forming stem cells into failure."
 ---
 
 # Aplastic Anemia
@@ -260,6 +269,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha joins interferon-gamma in suppressing the marrow in aplastic anemia: these Th1 cytokines from autoreactive T cells poison blood-forming stem cells, which is why immunosuppression—not just transfusion—is central to treating the disease.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are part of aplastic anemia's misdirected attack: alongside cytotoxic T cells, dysregulated innate lymphocytes help destroy the marrow's stem cells, deepening the pancytopenia that defines the disease.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Aplastic anemia starves tissues of oxygen: with red cell production shut down, hemoglobin falls and the blood carries less oxygen, causing the fatigue and breathlessness that, with bleeding and infection, mark the failing marrow.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Aplastic anemia overworks and overloads the heart: chronic anemia forces high-output pumping, and the iron from repeated transfusions deposits in the muscle, together threatening heart failure over years of treatment.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help ignite aplastic anemia: by presenting stem-cell antigens to T cells, they prime the autoimmune attack that cytotoxic T cells then carry out against the marrow—why immunosuppression can restore blood counts.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-based solvents can wipe out the marrow: benzene exposure is a classic environmental cause of aplastic anemia, its toxic metabolites poisoning the blood-forming stem cells into failure.
 
 ---
 
