@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/07-system/nash
     relation: connects-to
     note: "Hepatitis B and NASH increasingly coexist and compound liver injury: metabolic steatohepatitis adds inflammation and fibrosis on top of viral damage, accelerating cirrhosis and liver cancer, so metabolic risk factors matter even in well-suppressed HBV."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells decide hepatitis B's outcome: antibodies to the surface antigen (anti-HBs) neutralize the virus and are what the vaccine induces, so seroconversion from HBsAg to anti-HBs marks recovery and protective immunity—the basis of the first anti-cancer vaccine."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Chronic hepatitis B scars the liver toward cirrhosis: persistent immune attack on infected hepatocytes activates stellate cells to lay down collagen, so years of smoldering inflammation build the fibrosis that underlies liver failure and cancer risk."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Hepatitis B can attack the kidney: deposited viral antigen-antibody complexes cause membranous nephropathy (especially in children), presenting as nephrotic-range protein loss—an immune-complex complication that can improve when the virus is suppressed."
 ---
 
 # Hepatitis B
@@ -241,3 +250,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is both HBV's target and a therapy: HBV actively suppresses hepatocyte interferon induction to establish chronicity, and pegylated interferon-alpha—one of the few finite-course treatments—can drive HBsAg loss in a minority of patients.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HBV blunts dendritic cells to evade immunity: impaired antigen presentation and weak plasmacytoid-DC interferon output cripple the priming of antiviral T cells, helping explain why neonatal and chronic infection so often becomes a tolerant, persistent carrier state.
 - `connects-to` → **[NASH](../nash/README.md)** — Hepatitis B and NASH increasingly coexist and compound liver injury: metabolic steatohepatitis adds inflammation and fibrosis on top of viral damage, accelerating cirrhosis and liver cancer, so metabolic risk factors matter even in well-suppressed HBV.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells decide hepatitis B's outcome: antibodies to the surface antigen (anti-HBs) neutralize the virus and are what the vaccine induces, so seroconversion from HBsAg to anti-HBs marks recovery and protective immunity—the basis of the first anti-cancer vaccine.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic hepatitis B scars the liver toward cirrhosis: persistent immune attack on infected hepatocytes activates stellate cells to lay down collagen, so years of smoldering inflammation build the fibrosis that underlies liver failure and cancer risk.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hepatitis B can attack the kidney: deposited viral antigen-antibody complexes cause membranous nephropathy (especially in children), presenting as nephrotic-range protein loss—an immune-complex complication that can improve when the virus is suppressed.

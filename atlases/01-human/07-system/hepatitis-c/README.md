@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "Hepatitis C can masquerade as rheumatoid arthritis: HCV polyarthralgia and cryoglobulinemic arthritis mimic RA, and rheumatoid factor is often positive in both, so HCV must be excluded before immunosuppressing presumed RA and screened before biologics."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Hepatitis C is a slow fibrotic disease: decades of low-grade inflammation drive progressive liver scarring to cirrhosis, but unlike most fibrosis it can stabilize or even regress once direct-acting antivirals cure the infection—so timing of treatment matters."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Hepatitis C leaves marks on the skin: it is linked to porphyria cutanea tarda (blistering on sun-exposed skin), lichen planus, and the palpable purpura of cryoglobulinemic vasculitis—so dermatologic clues can be the first hint of silent infection."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells shape hepatitis C's course: strong NK responses help clear acute infection, but the virus blunts them to persist, so the balance of innate NK activity versus viral evasion partly decides who spontaneously clears HCV and who becomes chronic."
 ---
 
 # Hepatitis C
@@ -232,3 +241,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells decide hepatitis C's outcome: a vigorous, broad CD8 response clears acute infection, but in chronic HCV these cells become exhausted, sustaining viremia while their smoldering attack on infected hepatocytes drives the fibrosis.
 - `connects-to` → **[NASH](../nash/README.md)** — Hepatitis C and NASH both scar the liver and often overlap: HCV (especially genotype 3) directly induces steatosis, and coexisting metabolic fatty liver speeds fibrosis—so even after antiviral cure, metabolic liver disease can keep progression going.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Hepatitis C can masquerade as rheumatoid arthritis: HCV polyarthralgia and cryoglobulinemic arthritis mimic RA, and rheumatoid factor is often positive in both, so HCV must be excluded before immunosuppressing presumed RA and screened before biologics.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Hepatitis C is a slow fibrotic disease: decades of low-grade inflammation drive progressive liver scarring to cirrhosis, but unlike most fibrosis it can stabilize or even regress once direct-acting antivirals cure the infection—so timing of treatment matters.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hepatitis C leaves marks on the skin: it is linked to porphyria cutanea tarda (blistering on sun-exposed skin), lichen planus, and the palpable purpura of cryoglobulinemic vasculitis—so dermatologic clues can be the first hint of silent infection.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells shape hepatitis C's course: strong NK responses help clear acute infection, but the virus blunts them to persist, so the balance of innate NK activity versus viral evasion partly decides who spontaneously clears HCV and who becomes chronic.
