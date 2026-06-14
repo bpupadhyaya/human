@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "NF2 schwannomas depend on their blood supply: the tumors are richly vascular, and anti-VEGF bevacizumab—acting on endothelial cells—can shrink vestibular schwannomas and even recover some hearing, a rare medical therapy for these tumors."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "NF2 tumors turn dangerous when they also lose CDKN2A: while merlin loss alone makes benign schwannomas and meningiomas, added CDKN2A deletion drives the leap to malignant, fast-growing tumors—a key prognostic event."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "NF2 schwannomas are packed with macrophages: tumor-associated macrophages dominate these nerve-sheath tumors and correlate with their growth and the hearing loss they cause, making the immune niche a target to slow vestibular schwannomas."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NF2 tumors are studied as targets for NK and immune therapy: because repeated surgery and radiation risk nerve damage and hearing loss, immune approaches engaging natural killer cells are explored to control the schwannomas non-destructively."
 ---
 
 # Neurofibromatosis Type 2
@@ -243,6 +252,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — NF2 tumors grow when merlin stops restraining ERK: loss of the NF2 protein merlin unleashes Ras-ERK signaling that drives schwannoma and meningioma proliferation, motivating trials of MEK-pathway inhibitors in these tumors.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Merlin loss in NF2 drives cyclin D1: with the Hippo brake gone, cyclin D1 pushes cells through the cell cycle, explaining the relentless growth of the multiple schwannomas and meningiomas that define the syndrome.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — NF2 schwannomas depend on their blood supply: the tumors are richly vascular, and anti-VEGF bevacizumab—acting on endothelial cells—can shrink vestibular schwannomas and even recover some hearing, a rare medical therapy for these tumors.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — NF2 tumors turn dangerous when they also lose CDKN2A: while merlin loss alone makes benign schwannomas and meningiomas, added CDKN2A deletion drives the leap to malignant, fast-growing tumors—a key prognostic event.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — NF2 schwannomas are packed with macrophages: tumor-associated macrophages dominate these nerve-sheath tumors and correlate with their growth and the hearing loss they cause, making the immune niche a target to slow vestibular schwannomas.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NF2 tumors are studied as targets for NK and immune therapy: because repeated surgery and radiation risk nerve damage and hearing loss, immune approaches engaging natural killer cells are explored to control the schwannomas non-destructively.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
