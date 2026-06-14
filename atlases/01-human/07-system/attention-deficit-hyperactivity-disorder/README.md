@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Microglia may shape the ADHD brain: prenatal inflammation and microglial pruning of synapses influence the development of attention circuits, an emerging neuroimmune angle on why early-life stress raises ADHD risk."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ADHD is linked to low zinc: the mineral helps regulate dopamine signaling, so deficiency is associated with more severe symptoms, and zinc status is studied as a modifier of the disorder and its treatment."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid shapes attention: its hormones guide brain development and arousal, so thyroid dysfunction can produce inattention and hyperactivity that mimic ADHD, which is why thyroid problems are screened for."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "ADHD treatment must watch the heart: the stimulant medicines that sharpen focus also raise heart rate and blood pressure, so cardiac history and monitoring guide their safe use."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -305,6 +314,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron is the quiet partner of dopamine in ADHD: it is a cofactor for the enzyme that makes dopamine, so low iron stores (even without anemia) are linked to worse symptoms, and supplementation is studied in deficient children.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — ADHD is a disorder of the dopamine synapse: signaling across reward and attention synapses is dysregulated, and stimulant medicines work by raising dopamine and norepinephrine in this synaptic gap to sharpen focus.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia may shape the ADHD brain: prenatal inflammation and microglial pruning of synapses influence the development of attention circuits, an emerging neuroimmune angle on why early-life stress raises ADHD risk.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ADHD is linked to low zinc: the mineral helps regulate dopamine signaling, so deficiency is associated with more severe symptoms, and zinc status is studied as a modifier of the disorder and its treatment.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid shapes attention: its hormones guide brain development and arousal, so thyroid dysfunction can produce inattention and hyperactivity that mimic ADHD, which is why thyroid problems are screened for.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — ADHD treatment must watch the heart: the stimulant medicines that sharpen focus also raise heart rate and blood pressure, so cardiac history and monitoring guide their safe use.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

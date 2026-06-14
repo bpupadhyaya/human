@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "A calcium gradient builds the skin barrier that eczema lacks: keratinocytes use rising calcium to mature into the protective outer layer, so disrupted calcium signaling impairs the barrier whose leakiness lets allergens and microbes in."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light can heal eczema: narrowband UVB phototherapy delivers controlled photons that calm the overactive skin immune cells and itch, a mainstay for widespread atopic dermatitis, while sunlight also makes vitamin D."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Atopic dermatitis often inflames the eyes: eyelid eczema and atopic keratoconjunctivitis are common, and the biologic dupilumab can itself cause conjunctivitis, so eye care is part of managing severe disease."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Eczema is tied to the gut: through the gut-skin axis, dysbiosis and food sensitization in the large intestine shape the atopic march, linking infant eczema to later food allergy and asthma."
 ---
 
 # Atopic Dermatitis
@@ -270,6 +279,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The itch of atopic dermatitis is wired through sensory neurons: cytokines like IL-31 sensitize skin nerve endings, so even light touch triggers itch, and the resulting scratch damages the barrier and worsens inflammation—the itch-scratch cycle.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P links nerves to the eczema flare: sensory nerves release this neuropeptide, which activates mast cells and immune cells to amplify itch and inflammation, a neurogenic loop that helps explain why stress can worsen atopic dermatitis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A calcium gradient builds the skin barrier that eczema lacks: keratinocytes use rising calcium to mature into the protective outer layer, so disrupted calcium signaling impairs the barrier whose leakiness lets allergens and microbes in.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light can heal eczema: narrowband UVB phototherapy delivers controlled photons that calm the overactive skin immune cells and itch, a mainstay for widespread atopic dermatitis, while sunlight also makes vitamin D.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Atopic dermatitis often inflames the eyes: eyelid eczema and atopic keratoconjunctivitis are common, and the biologic dupilumab can itself cause conjunctivitis, so eye care is part of managing severe disease.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Eczema is tied to the gut: through the gut-skin axis, dysbiosis and food sensitization in the large intestine shape the atopic march, linking infant eczema to later food allergy and asthma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
