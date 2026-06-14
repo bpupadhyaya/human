@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes shape the sleep pressure narcolepsy disrupts: they release adenosine and regulate the orexin circuit's environment, so glial support of the wake-sleep system is part of the biology surrounding the orexin-neuron loss."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Narcolepsy is hard on the heart: fragmented sleep and blunted nighttime blood-pressure dipping, with the autonomic swings of REM intrusion, raise long-term cardiovascular risk in these patients."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light still helps steady narcolepsy's broken sleep-wake switch: photons reaching the retina reinforce the circadian arousal signal, so bright light and good light hygiene support wakefulness alongside medication."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Narcolepsy tends to add fat: orexin normally curbs appetite and lifts metabolism, so its loss shifts adipocytes toward storage, and weight gain and obesity are common in the disorder."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -270,6 +279,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium oxybate is a mainstay narcolepsy drug: the sodium salt of GHB, taken at night, consolidates deep sleep and sharply reduces cataplexy and daytime sleepiness, though its sodium load is a reason newer low-sodium versions were developed.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Narcolepsy is a disease of lost wake-promoting synapses: destruction of the orexin neurons strips the brain of their stabilizing input to arousal circuits, so the synaptic switch between sleep and wake becomes unstable, intruding REM into waking life.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape the sleep pressure narcolepsy disrupts: they release adenosine and regulate the orexin circuit's environment, so glial support of the wake-sleep system is part of the biology surrounding the orexin-neuron loss.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Narcolepsy is hard on the heart: fragmented sleep and blunted nighttime blood-pressure dipping, with the autonomic swings of REM intrusion, raise long-term cardiovascular risk in these patients.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light still helps steady narcolepsy's broken sleep-wake switch: photons reaching the retina reinforce the circadian arousal signal, so bright light and good light hygiene support wakefulness alongside medication.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Narcolepsy tends to add fat: orexin normally curbs appetite and lifts metabolism, so its loss shifts adipocytes toward storage, and weight gain and obesity are common in the disorder.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
