@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells fill Hodgkin's reactive infiltrate: the tumor is mostly normal immune cells around scarce Reed-Sternberg cells, and dysfunctional antigen presentation by dendritic cells helps the malignant cells evade the surrounding immunity."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Hodgkin lymphoma drains the body's iron: its systemic inflammation and any marrow involvement suppress red-cell production and lock iron away, so anemia of chronic disease is a common feature."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Hodgkin lymphoma can itch through the skin: severe generalized pruritus, sometimes with the lymph-node pain that alcohol triggers, is a classic paraneoplastic symptom that may precede the diagnosis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells populate the Hodgkin microenvironment: drawn around the Reed-Sternberg cells, they engage CD30 ligand to support the malignant cells, and their numbers can track with prognosis."
 ---
 
 # Hodgkin Lymphoma
@@ -269,6 +278,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Hodgkin lymphoma centers on the chest and threatens the lungs: it classically forms a mediastinal mass and can invade lung tissue, while bleomycin in its chemotherapy risks pulmonary fibrosis—so the lungs matter both to the disease and its cure.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta lays down the bands of nodular sclerosis Hodgkin: the commonest subtype is defined by collagen bands that TGF-beta drives fibroblasts to deposit, walling the Reed-Sternberg cells into fibrous nodules.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells fill Hodgkin's reactive infiltrate: the tumor is mostly normal immune cells around scarce Reed-Sternberg cells, and dysfunctional antigen presentation by dendritic cells helps the malignant cells evade the surrounding immunity.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hodgkin lymphoma drains the body's iron: its systemic inflammation and any marrow involvement suppress red-cell production and lock iron away, so anemia of chronic disease is a common feature.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hodgkin lymphoma can itch through the skin: severe generalized pruritus, sometimes with the lymph-node pain that alcohol triggers, is a classic paraneoplastic symptom that may precede the diagnosis.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells populate the Hodgkin microenvironment: drawn around the Reed-Sternberg cells, they engage CD30 ligand to support the malignant cells, and their numbers can track with prognosis.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

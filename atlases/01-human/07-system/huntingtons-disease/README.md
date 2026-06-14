@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Microglia inflame the Huntington's brain through NF-kB: mutant huntingtin activates this inflammatory switch in the brain's immune cells, and the resulting cytokine release adds neuroinflammation to the neuronal degeneration."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Huntington's reaches the pancreas: the disease is linked to diabetes and impaired insulin output, as mutant huntingtin disturbs pancreatic islet cells alongside its toll on the brain."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Huntington's burns through fat: a hypermetabolic state and altered adipocytes drive the relentless weight loss that marks the disease, so patients need far more calories than expected."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Huntington's brain smolders with TNF-α: activated microglia release this cytokine, and the chronic neuroinflammation it drives compounds the degeneration of the vulnerable striatal neurons."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -181,3 +190,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron piles up in the Huntington's brain: the degenerating basal ganglia accumulate iron that catalyzes oxidative stress, adding a metal-driven injury to the toxic effects of the mutant huntingtin protein.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Huntington's wastes the body despite eating: gut dysmotility and a hypermetabolic state cause relentless weight loss, so the large intestine and digestion are part of the systemic toll beyond the movement and mood symptoms.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the Huntington's brain through NF-kB: mutant huntingtin activates this inflammatory switch in the brain's immune cells, and the resulting cytokine release adds neuroinflammation to the neuronal degeneration.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Huntington's reaches the pancreas: the disease is linked to diabetes and impaired insulin output, as mutant huntingtin disturbs pancreatic islet cells alongside its toll on the brain.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Huntington's burns through fat: a hypermetabolic state and altered adipocytes drive the relentless weight loss that marks the disease, so patients need far more calories than expected.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Huntington's brain smolders with TNF-α: activated microglia release this cytokine, and the chronic neuroinflammation it drives compounds the degeneration of the vulnerable striatal neurons.
