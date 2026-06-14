@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Functioning NETs secrete histamine and other mediators causing distinct syndromes: gastric and some foregut NETs release histamine producing atypical flushing, complementing serotonin's carcinoid syndrome—so a NET's secretory product determines its clinical picture."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Most neuroendocrine tumors arise in the digestive system: gastroenteropancreatic NETs (carcinoids, gastrinomas, insulinomas) form from the gut's diffuse hormone-secreting cells, so the GI tract and pancreas are the commonest primary sites and the cause of carcinoid syndrome."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "NETs are uniquely treated with targeted radiation: peptide receptor radionuclide therapy attaches a radioisotope to a somatostatin analog so SSTR2-rich tumors irradiate themselves, and Ga-68 PET images them the same way—radiation guided by the tumor's own receptor."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Neuroendocrine tumors straddle the nervous and endocrine systems: they arise from cells that, like the endocrine system, secrete hormones into blood, so functional NETs cause hormone syndromes (flushing, hypoglycemia, ulcers) treated by dampening that secretion."
 ---
 
 # Neuroendocrine Tumors
@@ -204,6 +213,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neuroendocrine tumors share traits with neurons: they arise from diffuse-neuroendocrine-system cells that, like neurons, store and secrete signaling molecules in vesicles, so they express neuronal markers (synaptophysin, chromogranin) and can secrete hormones.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Carcinoid heart disease links NETs to the heart: serotonin from a metastatic midgut NET reaching the systemic circulation drives fibrosis of right-sided heart valves, causing tricuspid regurgitation—so an endocrine tumor's secretions remodel cardiac valves.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Functioning NETs secrete histamine and other mediators causing distinct syndromes: gastric and some foregut NETs release histamine producing atypical flushing, complementing serotonin's carcinoid syndrome—so a NET's secretory product determines its clinical picture.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Most neuroendocrine tumors arise in the digestive system: gastroenteropancreatic NETs (carcinoids, gastrinomas, insulinomas) form from the gut's diffuse hormone-secreting cells, so the GI tract and pancreas are the commonest primary sites and the cause of carcinoid syndrome.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — NETs are uniquely treated with targeted radiation: peptide receptor radionuclide therapy attaches a radioisotope to a somatostatin analog so SSTR2-rich tumors irradiate themselves, and Ga-68 PET images them the same way—radiation guided by the tumor's own receptor.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Neuroendocrine tumors straddle the nervous and endocrine systems: they arise from cells that, like the endocrine system, secrete hormones into blood, so functional NETs cause hormone syndromes (flushing, hypoglycemia, ulcers) treated by dampening that secretion.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

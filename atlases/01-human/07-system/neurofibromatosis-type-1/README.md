@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The eye gives diagnostic clues to NF1: Lisch nodules (iris hamartomas) are a near-universal diagnostic criterion, and optic pathway gliomas threaten vision—so ophthalmologic exam is central to diagnosing and monitoring neurofibromatosis type 1."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "NF1 is fundamentally a tumor-prone disorder of the nervous system: loss of neurofibromin unleashes RAS in nerve-sheath cells, producing neurofibromas, optic gliomas and learning difficulties—so the nervous system bears both the benign tumors and the cognitive features."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin announces NF1: café-au-lait macules, axillary freckling and cutaneous neurofibromas are diagnostic criteria usually present from childhood, so the integumentary system gives the earliest and most accessible signs of the syndrome."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "NF1 also affects the skeleton: scoliosis, sphenoid-wing dysplasia and tibial pseudarthrosis (a non-healing congenital fracture) are recognized bony features, so the musculoskeletal system is part of this multisystem RAS-pathway disorder."
 ---
 
 # Neurofibromatosis Type 1
@@ -212,6 +221,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Neurofibromas grow on the nerves NF1 affects: loss of neurofibromin in Schwann-cell-lineage cells lets benign neurofibromas form along peripheral nerves enveloping their neurons, causing the skin nodules and plexiform tumors that define neurofibromatosis type 1.
 - `connects-to` → **[Glioblastoma](../glioblastoma/README.md)** — NF1 predisposes to gliomas from optic pathway to high-grade: neurofibromin normally restrains RAS, so its loss drives childhood optic pathway gliomas and, less often, glioblastoma—linking the syndrome's RAS-pathway defect to brain as well as nerve tumors.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye gives diagnostic clues to NF1: Lisch nodules (iris hamartomas) are a near-universal diagnostic criterion, and optic pathway gliomas threaten vision—so ophthalmologic exam is central to diagnosing and monitoring neurofibromatosis type 1.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — NF1 is fundamentally a tumor-prone disorder of the nervous system: loss of neurofibromin unleashes RAS in nerve-sheath cells, producing neurofibromas, optic gliomas and learning difficulties—so the nervous system bears both the benign tumors and the cognitive features.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin announces NF1: café-au-lait macules, axillary freckling and cutaneous neurofibromas are diagnostic criteria usually present from childhood, so the integumentary system gives the earliest and most accessible signs of the syndrome.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — NF1 also affects the skeleton: scoliosis, sphenoid-wing dysplasia and tibial pseudarthrosis (a non-healing congenital fracture) are recognized bony features, so the musculoskeletal system is part of this multisystem RAS-pathway disorder.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
