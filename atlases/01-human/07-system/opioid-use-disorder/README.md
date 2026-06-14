@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Opioids profoundly slow the gut: mu-receptors on the bowel cause opioid-induced constipation, the most persistent side effect, since unlike other opioid effects it does not wane with tolerance—so laxatives and PAMORA drugs are routine in chronic use."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Opioid overdose kills by letting carbon dioxide build up: opioids suppress the brainstem's CO2-driven breathing reflex, so respiration slows until hypercapnia and hypoxia stop the heart—the mechanism naloxone reverses by displacing the drug."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Injection opioid use endangers the liver: shared needles transmit hepatitis C (and B), making chronic liver disease and cirrhosis common in opioid use disorder—so liver screening and HCV treatment are part of care."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Opioids wreck sleep both ways: they fragment sleep architecture and suppress breathing during it, while withdrawal causes severe insomnia—so disturbed sleep both drives continued use and complicates recovery."
 ---
 
 # Opioid Use Disorder
@@ -286,6 +295,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Opioid use in pregnancy crosses the placenta: the fetus becomes dependent in utero and, after birth, suffers neonatal abstinence syndrome with tremor, irritability, and feeding problems—so opioid use disorder in pregnancy needs careful, supervised treatment.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Injection opioid use invites Staphylococcus aureus: non-sterile injecting seeds the bloodstream with S. aureus (often MRSA), causing skin abscesses, endocarditis, and bone infections—among the most dangerous medical complications of opioid use disorder.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Opioids profoundly slow the gut: mu-receptors on the bowel cause opioid-induced constipation, the most persistent side effect, since unlike other opioid effects it does not wane with tolerance—so laxatives and PAMORA drugs are routine in chronic use.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Opioid overdose kills by letting carbon dioxide build up: opioids suppress the brainstem's CO2-driven breathing reflex, so respiration slows until hypercapnia and hypoxia stop the heart—the mechanism naloxone reverses by displacing the drug.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Injection opioid use endangers the liver: shared needles transmit hepatitis C (and B), making chronic liver disease and cirrhosis common in opioid use disorder—so liver screening and HCV treatment are part of care.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Opioids wreck sleep both ways: they fragment sleep architecture and suppress breathing during it, while withdrawal causes severe insomnia—so disturbed sleep both drives continued use and complicates recovery.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

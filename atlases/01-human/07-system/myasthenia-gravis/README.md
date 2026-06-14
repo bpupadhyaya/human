@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "MG begins with broken thymic tolerance: the thymus normally trains regulatory T cells to ignore self, but in MG (often with thymic hyperplasia or thymoma) this fails, letting B cells make anti-acetylcholine-receptor antibodies—why thymectomy can help."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Myasthenia gravis is HLA-associated: MHC class II molecules present acetylcholine-receptor peptides to helper T cells in the thymus, breaking tolerance—the genetic and immunologic root of the anti-AChR antibodies that block the neuromuscular junction."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium triggers the signal myasthenia blocks downstream: nerve-terminal calcium influx releases acetylcholine, but in MG antibodies destroy the receptors that catch it—unlike Lambert-Eaton, which attacks the calcium channels themselves."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Myasthenia can reach the heart muscle: thymoma-associated MG may carry anti-striational antibodies that cause myocarditis and arrhythmia, so cardiac symptoms in MG (especially with thymoma) prompt evaluation of the heart, not just skeletal muscle."
 ---
 
 # Myasthenia Gravis
@@ -238,6 +247,9 @@ cross_links:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myasthenia gravis can become a respiratory emergency: when weakness spreads to the diaphragm and breathing muscles, a myasthenic crisis causes respiratory failure needing ventilation—so falling breathing capacity, not limb weakness, is the feared complication.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Myasthenia gravis clusters with autoimmune thyroid disease: Graves' and Hashimoto's coexist in many patients, reflecting shared loss of self-tolerance, and thyroid dysfunction can itself worsen muscle weakness—so thyroid testing is routine in MG.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — MG begins with broken thymic tolerance: the thymus normally trains regulatory T cells to ignore self, but in MG (often with thymic hyperplasia or thymoma) this fails, letting B cells make anti-acetylcholine-receptor antibodies—why thymectomy can help.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Myasthenia gravis is HLA-associated: MHC class II molecules present acetylcholine-receptor peptides to helper T cells in the thymus, breaking tolerance—the genetic and immunologic root of the anti-AChR antibodies that block the neuromuscular junction.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium triggers the signal myasthenia blocks downstream: nerve-terminal calcium influx releases acetylcholine, but in MG antibodies destroy the receptors that catch it—unlike Lambert-Eaton, which attacks the calcium channels themselves.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Myasthenia can reach the heart muscle: thymoma-associated MG may carry anti-striational antibodies that cause myocarditis and arrhythmia, so cardiac symptoms in MG (especially with thymoma) prompt evaluation of the heart, not just skeletal muscle.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
