@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "MEN1's pancreatic neuroendocrine tumors are highly vascular through VEGF: they recruit dense blood vessels, which is why antiangiogenic drugs like sunitinib that block VEGF signaling are used against advanced disease."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MEN1 floods the stomach with acid: its gastrinomas pour out gastrin that drives parietal cells to secrete hydrogen ions, causing the severe, multiple ulcers of Zollinger-Ellison syndrome."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "MEN1's gastrinomas often hide in the small intestine: the duodenum is a common site for these neuroendocrine tumors, so the upper small bowel is searched carefully in Zollinger-Ellison workups."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "MEN1's neuroendocrine tumors are vessel-dense: built around proliferating endothelial cells, they light up as hypervascular 'blushes' on contrast imaging, a feature used to find the small pancreatic and duodenal tumors."
 ---
 
 # MEN1 Syndrome
@@ -267,6 +276,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MEN1's earliest sign disturbs phosphate: the primary hyperparathyroidism that usually comes first floods the body with PTH, which dumps phosphate into the urine while raising calcium, so low phosphate with high calcium is a classic early clue.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Overactive parathyroids in MEN1 erode bone via osteoblasts: relentless PTH drives bone remodeling, uncoupling osteoblasts and osteoclasts so resorption wins, contributing to the osteoporosis these patients develop young.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MEN1's pancreatic neuroendocrine tumors are highly vascular through VEGF: they recruit dense blood vessels, which is why antiangiogenic drugs like sunitinib that block VEGF signaling are used against advanced disease.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MEN1 floods the stomach with acid: its gastrinomas pour out gastrin that drives parietal cells to secrete hydrogen ions, causing the severe, multiple ulcers of Zollinger-Ellison syndrome.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — MEN1's gastrinomas often hide in the small intestine: the duodenum is a common site for these neuroendocrine tumors, so the upper small bowel is searched carefully in Zollinger-Ellison workups.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — MEN1's neuroendocrine tumors are vessel-dense: built around proliferating endothelial cells, they light up as hypervascular 'blushes' on contrast imaging, a feature used to find the small pancreatic and duodenal tumors.
 
 ---
 
