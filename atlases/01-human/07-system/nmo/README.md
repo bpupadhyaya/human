@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "NMO lesions are finished off by macrophages: after anti-AQP4 antibody and complement attack astrocytes, macrophages clear the debris and demyelinate, producing the destructive, longitudinally extensive cord and optic-nerve lesions."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "NMO kills cells through calcium: when astrocytes die and can no longer clear glutamate, the flood overexcites neurons and oligodendrocytes, opening channels that let lethal calcium pour in—the excitotoxicity behind the tissue destruction."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "NMO ultimately destroys neurons: though astrocytes are the first target, the complement-driven inflammatory attack severs axons and kills neurons in the cord and optic nerve, causing the lasting paralysis and blindness of relapses."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "NMO poisons the synapse by silencing astrocytes: these cells normally clear glutamate from synapses through transporters tied to aquaporin-4, so destroying them lets glutamate linger and excitotoxically damage the surrounding tissue."
 ---
 
 # NMOSD
@@ -301,6 +310,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[FcRn](../../03-molecular/fcrn/README.md)** — NMO is driven by pathogenic IgG that FcRn keeps alive: the anti-AQP4 antibody attacks astrocytes, and because FcRn recycles IgG to prolong its life, blocking FcRn (efgartigimod) is a strategy to clear the harmful antibody.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — NMO recruits Th17 and IL-17 to breach the brain barrier: IL-17 helps open the blood-brain barrier and inflame lesions, letting anti-AQP4 antibody reach astrocytes—part of why IL-6 blockade (which curbs Th17) prevents relapses.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — NMO lesions are finished off by macrophages: after anti-AQP4 antibody and complement attack astrocytes, macrophages clear the debris and demyelinate, producing the destructive, longitudinally extensive cord and optic-nerve lesions.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NMO kills cells through calcium: when astrocytes die and can no longer clear glutamate, the flood overexcites neurons and oligodendrocytes, opening channels that let lethal calcium pour in—the excitotoxicity behind the tissue destruction.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — NMO ultimately destroys neurons: though astrocytes are the first target, the complement-driven inflammatory attack severs axons and kills neurons in the cord and optic nerve, causing the lasting paralysis and blindness of relapses.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — NMO poisons the synapse by silencing astrocytes: these cells normally clear glutamate from synapses through transporters tied to aquaporin-4, so destroying them lets glutamate linger and excitotoxically damage the surrounding tissue.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

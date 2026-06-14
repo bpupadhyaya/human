@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells inflame injured nerves into pain: clustered around peripheral nerves, they release histamine, proteases, and cytokines that sensitize nociceptors, linking the immune system to the burning pain of nerve injury and CRPS."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Nerve injury summons macrophages that sustain pain: they swarm the damaged nerve and dorsal-root ganglion, releasing cytokines that sensitize sensory neurons, so this neuroimmune attack helps turn a transient injury into chronic neuropathic pain."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Neuropathic pain is burned in at the synapse: relentless input strengthens spinal dorsal-horn synapses (central sensitization), so the cord amplifies signals and even gentle touch is read as pain long after the injury heals."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "ATP is a pain signal outside the cell: released from damaged tissue and nerves, it fires purinergic receptors on sensory neurons and microglia, a key trigger that switches on the spinal microglia driving neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -285,6 +294,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Neuropathic pain is sustained by TNF and neuroinflammation: injured nerves and activated glia release TNF-alpha that sensitizes pain neurons, turning a transient injury into chronic pain—why the immune system is a target for hard-to-treat pain.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine sets the brain's pain volume: descending dopamine pathways and the reward system modulate how much pain is felt and how much it bothers, so low dopamine (as in Parkinson's) lowers the pain threshold and worsens chronic pain.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame injured nerves into pain: clustered around peripheral nerves, they release histamine, proteases, and cytokines that sensitize nociceptors, linking the immune system to the burning pain of nerve injury and CRPS.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Nerve injury summons macrophages that sustain pain: they swarm the damaged nerve and dorsal-root ganglion, releasing cytokines that sensitize sensory neurons, so this neuroimmune attack helps turn a transient injury into chronic neuropathic pain.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Neuropathic pain is burned in at the synapse: relentless input strengthens spinal dorsal-horn synapses (central sensitization), so the cord amplifies signals and even gentle touch is read as pain long after the injury heals.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — ATP is a pain signal outside the cell: released from damaged tissue and nerves, it fires purinergic receptors on sensory neurons and microglia, a key trigger that switches on the spinal microglia driving neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
