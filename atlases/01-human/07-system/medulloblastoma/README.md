@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Medulloblastomas recruit brain microglia into their microenvironment: these tumor-associated immune cells can be co-opted to support growth and shape the response to therapy, making the cerebellar tumor's immune niche a focus of new treatment ideas."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Medulloblastoma's WNT subgroup has a leaky, VEGF-rich vasculature: its abnormal fenestrated blood vessels let chemotherapy reach the tumor better, helping explain why WNT medulloblastoma has the best prognosis of the four subgroups."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Medulloblastoma resists immunotherapy partly through regulatory T cells: the tumor's immunosuppressive microenvironment and the brain's immune privilege blunt T-cell attack, so Tregs are among the barriers checkpoint therapy must overcome here."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Curing medulloblastoma can injure oligodendrocytes: the craniospinal radiation that controls it damages these myelinating cells, causing white-matter loss and the neurocognitive decline that shadows childhood survivors."
 ---
 
 # Medulloblastoma
@@ -253,6 +262,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Some medulloblastomas reactivate telomerase via TERT: promoter mutations switch TERT back on, especially in adult SHH-subgroup tumors, letting cells divide indefinitely—a molecular marker that helps subgroup and risk-stratify these embryonal brain cancers.
 - `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Medulloblastoma and retinoblastoma are both embryonal childhood cancers: each arises from immature precursor cells—cerebellar in one, retinal in the other—and both can seed the cerebrospinal fluid, a parallel between developing neural tissues turning malignant.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Medulloblastomas recruit brain microglia into their microenvironment: these tumor-associated immune cells can be co-opted to support growth and shape the response to therapy, making the cerebellar tumor's immune niche a focus of new treatment ideas.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Medulloblastoma's WNT subgroup has a leaky, VEGF-rich vasculature: its abnormal fenestrated blood vessels let chemotherapy reach the tumor better, helping explain why WNT medulloblastoma has the best prognosis of the four subgroups.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Medulloblastoma resists immunotherapy partly through regulatory T cells: the tumor's immunosuppressive microenvironment and the brain's immune privilege blunt T-cell attack, so Tregs are among the barriers checkpoint therapy must overcome here.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Curing medulloblastoma can injure oligodendrocytes: the craniospinal radiation that controls it damages these myelinating cells, causing white-matter loss and the neurocognitive decline that shadows childhood survivors.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

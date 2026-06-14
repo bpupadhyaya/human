@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Melanoma escapes targeted therapy through AKT: PTEN loss switches on the PI3K-AKT survival pathway, fueling growth and resistance to BRAF/MEK inhibitors, so AKT-pathway blockade is studied to deepen and prolong responses."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Melanoma's BRAF mutation drives the cell through ERK: BRAF feeds the MEK-ERK cascade that powers proliferation, so MEK inhibitors are paired with BRAF inhibitors—and ERK reactivation is a common route to drug resistance."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Melanoma shields itself with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, which is why CTLA-4 blockade (ipilimumab) that depletes or disables them helps unleash anti-melanoma immunity."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages help melanoma spread: M2-polarized macrophages secrete factors that suppress immunity and promote invasion and angiogenesis, making them both a marker of poor prognosis and a therapeutic target."
 ---
 
 # Melanoma
@@ -221,6 +230,9 @@ cross_links:
 - `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT drives the melanomas that aren't sun-driven: acral and mucosal melanomas often carry activating KIT mutations rather than BRAF, so testing KIT opens treatment with imatinib and other KIT inhibitors in these distinct subtypes.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells underlie melanoma immunotherapy: they capture tumor antigens and prime the cytotoxic T cells that checkpoint inhibitors unleash, and loading them with melanoma antigens is the basis of dendritic-cell vaccines tested against the disease.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Melanoma escapes targeted therapy through AKT: PTEN loss switches on the PI3K-AKT survival pathway, fueling growth and resistance to BRAF/MEK inhibitors, so AKT-pathway blockade is studied to deepen and prolong responses.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Melanoma's BRAF mutation drives the cell through ERK: BRAF feeds the MEK-ERK cascade that powers proliferation, so MEK inhibitors are paired with BRAF inhibitors—and ERK reactivation is a common route to drug resistance.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Melanoma shields itself with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, which is why CTLA-4 blockade (ipilimumab) that depletes or disables them helps unleash anti-melanoma immunity.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages help melanoma spread: M2-polarized macrophages secrete factors that suppress immunity and promote invasion and angiogenesis, making them both a marker of poor prognosis and a therapeutic target.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
