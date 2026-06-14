@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "MPN stem cells use autophagy to persist through treatment: the clonal cells recycle their contents to survive stress and JAK inhibition, so blocking autophagy is studied as a way to deepen responses and target the disease at its root."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "High blood counts in MPN can fake high potassium: the huge numbers of platelets and white cells leak potassium after the sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "MPNs threaten the brain with clots: thickened, sticky blood from too many cells raises the risk of stroke and cerebral vein thrombosis, so controlling counts and using aspirin aim to protect against these neurologic catastrophes."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation via NF-kB fuels the myeloproliferative clone: alongside JAK-STAT, the mutated stem cells drive NF-kB signaling that pours out cytokines, feeding the symptoms, marrow fibrosis and clonal expansion of these neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -279,6 +288,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Myeloproliferative neoplasms smolder with IL-6 and inflammation: the JAK2-mutant clone pumps out IL-6 and other cytokines that cause fevers, weight loss, and itching and drive progression to fibrosis—why JAK inhibitors relieve symptoms so well.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance by NK cells shapes myeloproliferative neoplasms: natural killer cells help police the mutant clone, and their exhaustion or dysfunction may let the disease expand—an angle for immune-based approaches alongside JAK inhibitors.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — MPN stem cells use autophagy to persist through treatment: the clonal cells recycle their contents to survive stress and JAK inhibition, so blocking autophagy is studied as a way to deepen responses and target the disease at its root.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — High blood counts in MPN can fake high potassium: the huge numbers of platelets and white cells leak potassium after the sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — MPNs threaten the brain with clots: thickened, sticky blood from too many cells raises the risk of stroke and cerebral vein thrombosis, so controlling counts and using aspirin aim to protect against these neurologic catastrophes.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation via NF-kB fuels the myeloproliferative clone: alongside JAK-STAT, the mutated stem cells drive NF-kB signaling that pours out cytokines, feeding the symptoms, marrow fibrosis and clonal expansion of these neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

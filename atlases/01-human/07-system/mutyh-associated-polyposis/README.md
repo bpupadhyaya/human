@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "MAP's mutation-rich tumors give dendritic cells plenty to present: the neoantigens from oxidative DNA errors can be displayed to prime T cells, an immune opening that checkpoint therapy may exploit in mismatch-proficient but heavily mutated cancers."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "MAP's colorectal cancers spread to the liver: like other bowel cancers, the tumors that arise from MUTYH-driven polyps metastasize first to the liver through the portal vein, making liver imaging key to staging and follow-up."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic inflammation via NF-kB helps MAP polyps progress: in the colon, this inflammatory switch supports survival and proliferation of the mutation-laden cells, adding an inflammatory push to the oxidative DNA damage that defines the syndrome."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells temper the immune response to MAP's mutated tumors: though the oxidative-damage cancers carry many neoantigens, Tregs in the infiltrate restrain the attack, a brake that checkpoint therapy could lift in heavily mutated cases."
 ---
 
 # MUTYH-Associated Polyposis
@@ -252,6 +261,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — MUTYH-associated polyposis writes its mutations as G→T transversions: failed repair of oxidized guanine misspells DNA, hitting APC, KRAS, and tumor suppressors like CDKN2A—a distinctive oxidative signature that turns colon polyps cancerous.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — MAP tumors carry a heavy mutation load that can alert NK cells: the oxidative damage spawns many altered proteins, marking cells for natural killer (and T-cell) attack and making these cancers candidates for immunotherapy.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — MAP's mutation-rich tumors give dendritic cells plenty to present: the neoantigens from oxidative DNA errors can be displayed to prime T cells, an immune opening that checkpoint therapy may exploit in mismatch-proficient but heavily mutated cancers.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — MAP's colorectal cancers spread to the liver: like other bowel cancers, the tumors that arise from MUTYH-driven polyps metastasize first to the liver through the portal vein, making liver imaging key to staging and follow-up.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation via NF-kB helps MAP polyps progress: in the colon, this inflammatory switch supports survival and proliferation of the mutation-laden cells, adding an inflammatory push to the oxidative DNA damage that defines the syndrome.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells temper the immune response to MAP's mutated tumors: though the oxidative-damage cancers carry many neoantigens, Tregs in the infiltrate restrain the attack, a brake that checkpoint therapy could lift in heavily mutated cases.
 
 ---
 
