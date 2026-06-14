@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/acth
     relation: connects-to
     note: "SCLC is a leading cause of ectopic ACTH syndrome: the neuroendocrine tumor secretes ACTH, producing a rapid-onset paraneoplastic Cushing's with hypokalemia and hyperglycemia rather than the classic body changes—signaling aggressive disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Small cell lung cancer can paralyze through calcium channels: in Lambert-Eaton syndrome, antibodies against the tumor's calcium channels cross-react at nerve terminals, cutting calcium-triggered acetylcholine release and causing the weakness that often precedes diagnosis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Small cell lung cancer is shaped by Notch and its ligand DLL3: Notch is largely silenced in these neuroendocrine tumors, and the resulting high DLL3 on the cell surface is the target of new drugs like tarlatamab."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Small cell lung cancer hides behind regulatory T cells: a suppressive microenvironment limits the immune attack, so although checkpoint immunotherapy now adds to chemo, Tregs are part of why responses are often brief in this aggressive cancer."
 ---
 
 # Small Cell Lung Cancer
@@ -233,6 +242,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — SCLC is now attacked with T-cell engagers: tarlatamab, a bispecific antibody linking the tumor's DLL3 to CD3 on cytotoxic T cells, redirects them to kill small-cell lung cancer—a new option after chemotherapy in this aggressive disease.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Small-cell lung cancer classically causes SIADH: the tumor ectopically secretes vasopressin (ADH), driving water retention and hyponatremia, so unexplained low sodium in a smoker can be the presenting clue to SCLC.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — SCLC is a leading cause of ectopic ACTH syndrome: the neuroendocrine tumor secretes ACTH, producing a rapid-onset paraneoplastic Cushing's with hypokalemia and hyperglycemia rather than the classic body changes—signaling aggressive disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Small cell lung cancer can paralyze through calcium channels: in Lambert-Eaton syndrome, antibodies against the tumor's calcium channels cross-react at nerve terminals, cutting calcium-triggered acetylcholine release and causing the weakness that often precedes diagnosis.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Small cell lung cancer is shaped by Notch and its ligand DLL3: Notch is largely silenced in these neuroendocrine tumors, and the resulting high DLL3 on the cell surface is the target of new drugs like tarlatamab.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Small cell lung cancer hides behind regulatory T cells: a suppressive microenvironment limits the immune attack, so although checkpoint immunotherapy now adds to chemo, Tregs are part of why responses are often brief in this aggressive cancer.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

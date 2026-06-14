@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/mhc-class-ii
     relation: connects-to
     note: "Sjögren's syndrome is HLA-associated: MHC class II HLA-DR/DQ variants shape presentation of the Ro and La autoantigens to T cells, the genetic basis for the anti-SSA/SSB antibodies that define the disease."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Sjögren's dries glands by blocking acetylcholine: antibodies against the M3 muscarinic receptor stop acetylcholine from triggering saliva and tears, so beyond gland destruction the secretion machinery is jammed—why cholinergic drugs like pilocarpine help."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Falling complement warns of severe Sjögren's: low C3/C4 from immune-complex consumption marks aggressive disease and flags the patients at highest risk of progressing to lymphoma, making complement a prognostic blood test."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Sjögren's glands fill with immune cells including macrophages: lymphocytic foci and macrophages infiltrate and destroy the salivary and lacrimal glands, the histologic lesion seen on lip biopsy that confirms the diagnosis."
 ---
 
 # Sjögren's Syndrome
@@ -261,6 +270,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Sjögren's anti-Ro/SSA antibodies cross the placenta: they can cause neonatal lupus and congenital heart block in the fetus, so anti-Ro-positive pregnancies are monitored with fetal heart surveillance—an autoimmune disease reaching the next generation.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells fuel Sjögren's interferon signature: they pour out type I interferon that drives the autoimmune attack on exocrine glands, linking the disease's hallmark IFN signature to a specific immune cell.
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Sjögren's syndrome is HLA-associated: MHC class II HLA-DR/DQ variants shape presentation of the Ro and La autoantigens to T cells, the genetic basis for the anti-SSA/SSB antibodies that define the disease.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Sjögren's dries glands by blocking acetylcholine: antibodies against the M3 muscarinic receptor stop acetylcholine from triggering saliva and tears, so beyond gland destruction the secretion machinery is jammed—why cholinergic drugs like pilocarpine help.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Falling complement warns of severe Sjögren's: low C3/C4 from immune-complex consumption marks aggressive disease and flags the patients at highest risk of progressing to lymphoma, making complement a prognostic blood test.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Sjögren's glands fill with immune cells including macrophages: lymphocytic foci and macrophages infiltrate and destroy the salivary and lacrimal glands, the histologic lesion seen on lip biopsy that confirms the diagnosis.
 
 ---
 
