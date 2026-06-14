@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "VEGF drives the brain swelling around meningiomas: tumor VEGF makes vessels leaky, producing the peritumoral edema that often causes symptoms more than the mass itself, so anti-VEGF bevacizumab is tried for edema and recurrent disease."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "Meningiomas light up with somatostatin imaging: they strongly express SSTR2, so 68Ga-DOTATATE PET pinpoints tumor and residual disease better than MRI alone, and somatostatin analogues are tried in tumors that recur after surgery and radiation."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "TERT marks the dangerous meningiomas: TERT promoter mutations reactivate telomerase and now define a higher WHO grade, flagging tumors likely to recur aggressively regardless of how benign they look under the microscope."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Meningiomas can remodel the overlying skull: en plaque tumors signal osteoblasts to thicken adjacent bone (hyperostosis), a radiologic clue to the diagnosis and a reason surgery sometimes must remove involved bone."
 ---
 
 # Meningioma
@@ -228,6 +237,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy refines radiation for meningioma: many sit at the skull base wrapped around nerves and vessels, so protons' sharp dose stop point delivers high dose to the tumor while sparing the adjacent brain, optic nerves and brainstem.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Some meningiomas are fibroblastic: arising from arachnoid cap cells, these benign tumors can take a spindle-cell, collagen-rich (fibroblastic) form, one of several histologic subtypes that, with grade and location, guide whether surgery alone or added radiation is needed.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF drives the brain swelling around meningiomas: tumor VEGF makes vessels leaky, producing the peritumoral edema that often causes symptoms more than the mass itself, so anti-VEGF bevacizumab is tried for edema and recurrent disease.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — Meningiomas light up with somatostatin imaging: they strongly express SSTR2, so 68Ga-DOTATATE PET pinpoints tumor and residual disease better than MRI alone, and somatostatin analogues are tried in tumors that recur after surgery and radiation.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT marks the dangerous meningiomas: TERT promoter mutations reactivate telomerase and now define a higher WHO grade, flagging tumors likely to recur aggressively regardless of how benign they look under the microscope.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Meningiomas can remodel the overlying skull: en plaque tumors signal osteoblasts to thicken adjacent bone (hyperostosis), a radiologic clue to the diagnosis and a reason surgery sometimes must remove involved bone.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
