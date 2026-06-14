@@ -113,6 +113,15 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "Parathyroid hormone runs the body's calcium thermostat: when blood calcium dips, the parathyroid glands release PTH to pull calcium from bone and kidney, a tightly regulated endocrine loop essential to nerves, muscle and bone."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "The endocrine system runs partly on zinc: pancreatic beta cells store insulin in zinc-containing crystals, and the metal is needed to make and stabilize the hormone, tying a trace element to blood-sugar control."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light tunes the endocrine clock through photons: light striking the eye signals the pineal gland to halt melatonin by day and release it by night, so the sun sets the hormonal rhythm of the whole body."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The stomach is a hormone gland too: it secretes ghrelin, the hunger hormone that signals the brain to eat, making the gut a full member of the endocrine system beyond the classic glands."
 ---
 
 # Endocrine System
@@ -305,6 +314,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat is an endocrine organ in its own right: adipocytes secrete leptin, adiponectin and other hormones that report energy stores and tune metabolism, so the endocrine system extends well beyond the classic glands into body fat.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain is the endocrine system's command center: the hypothalamus and pituitary it houses release the master hormones that drive the thyroid, adrenal and gonadal axes, so neural signals set the rhythm of the whole hormonal orchestra.
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Parathyroid hormone runs the body's calcium thermostat: when blood calcium dips, the parathyroid glands release PTH to pull calcium from bone and kidney, a tightly regulated endocrine loop essential to nerves, muscle and bone.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — The endocrine system runs partly on zinc: pancreatic beta cells store insulin in zinc-containing crystals, and the metal is needed to make and stabilize the hormone, tying a trace element to blood-sugar control.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light tunes the endocrine clock through photons: light striking the eye signals the pineal gland to halt melatonin by day and release it by night, so the sun sets the hormonal rhythm of the whole body.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach is a hormone gland too: it secretes ghrelin, the hunger hormone that signals the brain to eat, making the gut a full member of the endocrine system beyond the classic glands.
 
 ## Pathology
 

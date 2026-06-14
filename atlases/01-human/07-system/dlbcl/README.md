@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells shape the immune fight against DLBCL: as antigen-presenters they prime T-cell responses to the lymphoma, and harnessing them is explored to boost immunity alongside CD20 antibodies and CAR-T therapy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "DLBCL drains the body's iron and blood: marrow involvement and chronic inflammation suppress red-cell production and lock iron away, so anemia commonly accompanies this aggressive lymphoma."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "DLBCL spreads beyond nodes into the liver: as an aggressive lymphoma it seeds extranodal organs, infiltrating the liver to cause hepatomegaly and abnormal liver tests in advanced disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "DLBCL shields itself with regulatory T cells: the lymphoma microenvironment recruits Tregs that suppress the antitumor immune response, a factor in prognosis and a barrier for immunotherapy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -269,6 +278,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — DLBCL can trigger tumor lysis when treated: this fast-growing lymphoma sheds huge numbers of cells under chemotherapy, dumping potassium into the blood, so hyperkalemia must be anticipated and prevented in bulky disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — DLBCL can invade or relapse in the brain: secondary CNS involvement carries a grim prognosis, so high-risk patients receive CNS-directed prophylaxis to reach a sanctuary that standard chemotherapy penetrates poorly.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape the immune fight against DLBCL: as antigen-presenters they prime T-cell responses to the lymphoma, and harnessing them is explored to boost immunity alongside CD20 antibodies and CAR-T therapy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — DLBCL drains the body's iron and blood: marrow involvement and chronic inflammation suppress red-cell production and lock iron away, so anemia commonly accompanies this aggressive lymphoma.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — DLBCL spreads beyond nodes into the liver: as an aggressive lymphoma it seeds extranodal organs, infiltrating the liver to cause hepatomegaly and abnormal liver tests in advanced disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — DLBCL shields itself with regulatory T cells: the lymphoma microenvironment recruits Tregs that suppress the antitumor immune response, a factor in prognosis and a barrier for immunotherapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
