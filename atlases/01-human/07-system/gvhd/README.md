@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Acute GVHD is driven by a TNF-alpha cytokine storm: conditioning and donor T cells trigger TNF-alpha and other cytokines that injure skin, gut and liver, so TNF blockade is among the targeted treatments for steroid-refractory disease."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Chronic GVHD turns on fibroblasts to scar tissue: persistent donor-immune attack and TGF-beta drive fibroblasts to lay down collagen, producing the skin tightening, joint stiffness and lung scarring that define the chronic, scleroderma-like disease."
+  - target: 01-human/03-molecular/perforin
+    relation: connects-to
+    note: "Donor killer cells use perforin to attack the host: cytotoxic T and NK cells punch holes in host-cell membranes with perforin to deliver lethal granzymes, a core mechanism of the tissue destruction in acute GVHD."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "GVHD often begins with radiation's photons: total-body irradiation in transplant conditioning damages host tissues, releasing danger signals that activate donor T cells, so the conditioning that enables the graft also primes the graft-versus-host attack."
 ---
 
 # Graft-Versus-Host Disease
@@ -277,6 +286,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gut GVHD destroys the intestinal epithelium: donor T cells attack the crypts and their stem cells, stripping the gut lining to cause the severe diarrhea that marks acute GVHD—so protecting epithelial stem cells is a treatment goal.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — GVHD cripples the thymus and immune recovery: the donor attack damages thymic tissue needed to educate new T cells, so chronic GVHD leaves patients immunodeficient and prone to infection long after transplant.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Acute GVHD is driven by a TNF-alpha cytokine storm: conditioning and donor T cells trigger TNF-alpha and other cytokines that injure skin, gut and liver, so TNF blockade is among the targeted treatments for steroid-refractory disease.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Chronic GVHD turns on fibroblasts to scar tissue: persistent donor-immune attack and TGF-beta drive fibroblasts to lay down collagen, producing the skin tightening, joint stiffness and lung scarring that define the chronic, scleroderma-like disease.
+- `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Donor killer cells use perforin to attack the host: cytotoxic T and NK cells punch holes in host-cell membranes with perforin to deliver lethal granzymes, a core mechanism of the tissue destruction in acute GVHD.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — GVHD often begins with radiation's photons: total-body irradiation in transplant conditioning damages host tissues, releasing danger signals that activate donor T cells, so the conditioning that enables the graft also primes the graft-versus-host attack.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

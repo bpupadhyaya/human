@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Generalized anxiety has a neuroinflammatory side in microglia: chronic stress activates brain microglia that release cytokines altering mood circuits, linking the immune system to persistent worry and the overlap of anxiety with inflammatory illness."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Generalized anxiety keeps the adrenal glands switched on: chronic worry drives the HPA axis to make the adrenals pour out cortisol, and this sustained stress-hormone output underlies the fatigue, tension and health toll of long-term anxiety."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Low magnesium can heighten anxiety: the mineral normally restrains the NMDA receptor and supports GABA, so deficiency tips the brain toward excitation, which is why magnesium status is studied in relation to anxiety symptoms."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system helps set the brain's anxiety thermostat: it dampens stress circuits and fear responses, so when this tone falls anxiety rises, making the system a target behind why cannabis can both calm and worsen worry."
 ---
 
 # Generalized Anxiety Disorder
@@ -281,6 +290,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Anxiety can be a thyroid problem in disguise: an overactive thyroid causes palpitations, tremor, restlessness and worry that mimic generalized anxiety, so checking thyroid function is essential before treating—and correcting it can resolve the symptoms.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Caffeine fuels anxiety by blocking adenosine: adenosine normally promotes calm and sleepiness, so caffeine's blockade heightens arousal and can trigger or worsen generalized anxiety—why cutting caffeine is first-line advice.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Generalized anxiety has a neuroinflammatory side in microglia: chronic stress activates brain microglia that release cytokines altering mood circuits, linking the immune system to persistent worry and the overlap of anxiety with inflammatory illness.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Generalized anxiety keeps the adrenal glands switched on: chronic worry drives the HPA axis to make the adrenals pour out cortisol, and this sustained stress-hormone output underlies the fatigue, tension and health toll of long-term anxiety.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Low magnesium can heighten anxiety: the mineral normally restrains the NMDA receptor and supports GABA, so deficiency tips the brain toward excitation, which is why magnesium status is studied in relation to anxiety symptoms.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system helps set the brain's anxiety thermostat: it dampens stress circuits and fear responses, so when this tone falls anxiety rises, making the system a target behind why cannabis can both calm and worsen worry.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
