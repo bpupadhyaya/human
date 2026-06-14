@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium-driven excitotoxicity kills neurons in Huntington's: overactive NMDA receptors flood striatal neurons with calcium, triggering the cascades that destroy them, so disturbed calcium handling links glutamate signaling to the disease's selective neuronal loss."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Huntington's starves neurons of ATP: mutant huntingtin cripples mitochondria, so striatal neurons can't generate enough energy and the whole body burns through calories—explaining both neurodegeneration and the relentless weight loss of the disease."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Huntington's damages oligodendrocytes and white matter: mutant huntingtin disrupts the genes these cells use to myelinate axons, so white-matter loss appears even before obvious neuron death—an early structural marker of the disease."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Huntington's disrupts the brain's own cholesterol: mutant huntingtin suppresses cholesterol synthesis that neurons need for synapses and myelin, so falling brain cholesterol contributes to the synaptic failure underlying symptoms."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -157,3 +166,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Huntington's disease causes relentless weight loss through the gut: chorea burns energy while swallowing difficulty and gut dysfunction limit intake, so progressive cachexia and aspiration are major problems despite a normal or increased appetite.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Huntington's disease begins at the synapse: mutant huntingtin disrupts synaptic signaling and BDNF transport long before neurons die, so striatal synapse loss—not just cell death—drives the early movement and cognitive decline.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium-driven excitotoxicity kills neurons in Huntington's: overactive NMDA receptors flood striatal neurons with calcium, triggering the cascades that destroy them, so disturbed calcium handling links glutamate signaling to the disease's selective neuronal loss.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Huntington's starves neurons of ATP: mutant huntingtin cripples mitochondria, so striatal neurons can't generate enough energy and the whole body burns through calories—explaining both neurodegeneration and the relentless weight loss of the disease.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Huntington's damages oligodendrocytes and white matter: mutant huntingtin disrupts the genes these cells use to myelinate axons, so white-matter loss appears even before obvious neuron death—an early structural marker of the disease.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Huntington's disrupts the brain's own cholesterol: mutant huntingtin suppresses cholesterol synthesis that neurons need for synapses and myelin, so falling brain cholesterol contributes to the synaptic failure underlying symptoms.

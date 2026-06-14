@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Curing Hodgkin lymphoma raises later breast cancer risk: chest (mantle) radiation in young women sharply increases breast cancer decades later, so female survivors irradiated young begin breast MRI screening years before the general population."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Hodgkin lymphoma is mostly a crowd of protective cells: the rare malignant Reed-Sternberg cells survive by surrounding themselves with regulatory T cells and other immune cells that shield them, so the tumor is <1% cancer cells and 99% recruited defenders."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Nodular sclerosis Hodgkin lymphoma is defined by fibrosis: broad bands of collagen divide the lymph node into nodules, the histologic signature of the commonest subtype, typically affecting the chest of young adults."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Reed-Sternberg cells grow on their own IL-13: they secrete this Th2 cytokine as an autocrine growth signal and to recruit the eosinophil-rich infiltrate, shaping the inflammatory backdrop that defines Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -245,6 +254,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Hodgkin lymphoma has a curious alcohol sign: in a minority of patients, drinking alcohol triggers pain in affected lymph nodes within minutes—an unusual, near-specific clue that points to Hodgkin rather than other lymphomas.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Curing Hodgkin lymphoma can later cost the heart: chest radiation and anthracycline chemotherapy raise the risk of coronary disease, valve damage, and heart failure decades on, so cardiac surveillance is central to long-term survivor care.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Curing Hodgkin lymphoma raises later breast cancer risk: chest (mantle) radiation in young women sharply increases breast cancer decades later, so female survivors irradiated young begin breast MRI screening years before the general population.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Hodgkin lymphoma is mostly a crowd of protective cells: the rare malignant Reed-Sternberg cells survive by surrounding themselves with regulatory T cells and other immune cells that shield them, so the tumor is <1% cancer cells and 99% recruited defenders.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Nodular sclerosis Hodgkin lymphoma is defined by fibrosis: broad bands of collagen divide the lymph node into nodules, the histologic signature of the commonest subtype, typically affecting the chest of young adults.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — Reed-Sternberg cells grow on their own IL-13: they secrete this Th2 cytokine as an autocrine growth signal and to recruit the eosinophil-rich infiltrate, shaping the inflammatory backdrop that defines Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
