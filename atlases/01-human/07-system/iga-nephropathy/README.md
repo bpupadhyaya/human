@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "IgA nephropathy drives hypertension and is worsened by it: glomerular injury and proteinuria raise blood pressure, which in turn accelerates renal scarring, so strict blood-pressure and proteinuria control with RAS blockade is the cornerstone of slowing progression."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "IgA nephropathy begins with dysregulated T-helper cells at mucosal sites: Th2 and Th17 skewing drives B cells to overproduce galactose-deficient IgA1, the autoantigen whose immune complexes deposit in the glomerulus—linking mucosal T-cell help to kidney injury."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Outcome in IgA nephropathy is written in fibrosis: tubulointerstitial fibrosis and tubular atrophy (the 'T' of the MEST-C score) predict progression to kidney failure better than the glomerular lesions, so preserving nephrons is the long-term goal."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Glomerular endothelium marks active IgA nephropathy: endocapillary hypercellularity (the 'E' score) reflects inflammation of capillary endothelial cells and signals a lesion that may respond to immunosuppression—shaping who gets steroids."
 ---
 
 # IgA Nephropathy
@@ -195,6 +204,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — IgA nephropathy is an immune-complex kidney disease: the immune system makes galactose-deficient IgA1 and antibodies against it, forming complexes that lodge in the glomerular mesangium and activate complement—a misdirected mucosal immune response striking the kidney.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — IgA nephropathy classically flares with infection: gross hematuria appears within a day or two of a sore throat (synpharyngitic), unlike post-streptococcal glomerulonephritis weeks later—reflecting how mucosal infection ramps up the pathogenic IgA response.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — IgA nephropathy drives hypertension and is worsened by it: glomerular injury and proteinuria raise blood pressure, which in turn accelerates renal scarring, so strict blood-pressure and proteinuria control with RAS blockade is the cornerstone of slowing progression.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — IgA nephropathy begins with dysregulated T-helper cells at mucosal sites: Th2 and Th17 skewing drives B cells to overproduce galactose-deficient IgA1, the autoantigen whose immune complexes deposit in the glomerulus—linking mucosal T-cell help to kidney injury.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Outcome in IgA nephropathy is written in fibrosis: tubulointerstitial fibrosis and tubular atrophy (the 'T' of the MEST-C score) predict progression to kidney failure better than the glomerular lesions, so preserving nephrons is the long-term goal.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Glomerular endothelium marks active IgA nephropathy: endocapillary hypercellularity (the 'E' score) reflects inflammation of capillary endothelial cells and signals a lesion that may respond to immunosuppression—shaping who gets steroids.
 
 ---
 

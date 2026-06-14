@@ -96,6 +96,15 @@ cross_links:
   - target: 02-pathogen/01-viruses/epstein-barr-virus
     relation: connects-to
     note: "Viral infection commonly triggers immune thrombocytopenia: especially in children, EBV and other viruses provoke cross-reactive antiplatelet antibodies, causing an acute, often self-limited ITP—molecular mimicry turning antiviral immunity against platelets."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "ITP is not only antibody-driven: cytotoxic CD8 T cells can directly lyse platelets and attack marrow megakaryocytes, explaining cases with low platelet antibodies and the variable response to therapies aimed only at antibody production."
+  - target: 01-human/07-system/measles
+    relation: connects-to
+    note: "Childhood ITP often follows infection or vaccination: measles and other viruses (and the MMR vaccine) can trigger transient antiplatelet antibodies, causing self-limited thrombocytopenia weeks later—usually resolving without treatment, unlike chronic adult ITP."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "ITP crosses the placenta: maternal anti-platelet IgG passes to the fetus and can lower the newborn's platelets, so pregnant patients need monitoring—distinct from neonatal alloimmune thrombocytopenia, where the mother targets paternal platelet antigens."
 ---
 
 # Immune Thrombocytopenia
@@ -257,6 +266,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immune thrombocytopenia is an autoimmune disease of platelet destruction: autoantibodies and T cells target platelet glycoproteins, clearing them in the spleen while also impairing production—so it joins the antibody-mediated cytopenias treated by immunosuppression.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — The feared complication of immune thrombocytopenia is bleeding into the nervous system: although rare, intracranial hemorrhage from very low platelets is the main life-threatening risk, so severe thrombocytopenia with neurological signs is a medical emergency.
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Viral infection commonly triggers immune thrombocytopenia: especially in children, EBV and other viruses provoke cross-reactive antiplatelet antibodies, causing an acute, often self-limited ITP—molecular mimicry turning antiviral immunity against platelets.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — ITP is not only antibody-driven: cytotoxic CD8 T cells can directly lyse platelets and attack marrow megakaryocytes, explaining cases with low platelet antibodies and the variable response to therapies aimed only at antibody production.
+- `connects-to` → **[Measles](../measles/README.md)** — Childhood ITP often follows infection or vaccination: measles and other viruses (and the MMR vaccine) can trigger transient antiplatelet antibodies, causing self-limited thrombocytopenia weeks later—usually resolving without treatment, unlike chronic adult ITP.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — ITP crosses the placenta: maternal anti-platelet IgG passes to the fetus and can lower the newborn's platelets, so pregnant patients need monitoring—distinct from neonatal alloimmune thrombocytopenia, where the mother targets paternal platelet antigens.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
