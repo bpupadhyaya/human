@@ -98,6 +98,15 @@ cross_links:
   - target: 01-human/03-molecular/sclerostin
     relation: connects-to
     note: "Osteocytes tune bone strength through sclerostin: this Wnt-pathway inhibitor brakes bone formation, and mechanical loading lowers it to build bone—so blocking sclerostin (romosozumab) is a potent way to rebuild the osteoporotic skeleton."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Every muscle move starts with acetylcholine: motor neurons release it at the neuromuscular junction to depolarize muscle fibers, so this transmitter is the on-switch that turns nerve commands into the musculoskeletal system's movement."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "The musculoskeletal system runs on ATP: muscle contraction and—crucially—relaxation both burn ATP to cycle myosin and pump calcium, which is why energy failure causes cramps and why rigor mortis sets in when ATP runs out after death."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Muscle and nerve excitability ride on potassium: the ion sets the resting membrane potential that lets muscle fibers fire, so potassium swings cause the weakness or paralysis of periodic paralysis and dangerous arrhythmias."
 ---
 
 # Musculoskeletal System
@@ -261,6 +270,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Parathyroid hormone is the master switch of bone remodeling: PTH pulls calcium from bone when blood levels fall, yet given intermittently it builds bone—so the musculoskeletal skeleton doubles as the body's calcium bank under PTH control.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium is essential to bone and muscle: about half the body's magnesium sits in bone as a mineral reservoir, and it is required for muscle contraction and relaxation—so deficiency causes cramps, weakness and impairs bone quality.
 - `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Osteocytes tune bone strength through sclerostin: this Wnt-pathway inhibitor brakes bone formation, and mechanical loading lowers it to build bone—so blocking sclerostin (romosozumab) is a potent way to rebuild the osteoporotic skeleton.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Every muscle move starts with acetylcholine: motor neurons release it at the neuromuscular junction to depolarize muscle fibers, so this transmitter is the on-switch that turns nerve commands into the musculoskeletal system's movement.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — The musculoskeletal system runs on ATP: muscle contraction and—crucially—relaxation both burn ATP to cycle myosin and pump calcium, which is why energy failure causes cramps and why rigor mortis sets in when ATP runs out after death.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Muscle and nerve excitability ride on potassium: the ion sets the resting membrane potential that lets muscle fibers fire, so potassium swings cause the weakness or paralysis of periodic paralysis and dangerous arrhythmias.
 
 ## Pathology
 

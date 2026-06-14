@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Some MDS is driven by an immune attack from cytotoxic T cells: in hypoplastic MDS overlapping aplastic anemia, T cells suppress the marrow, so these patients can respond to immunosuppression rather than chemotherapy."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "MDS marrow cells die by pyroptosis via the NLRP3 inflammasome: chronic inflammasome activation makes the dysplastic precursors self-destruct inflammatorily, so the bone marrow is packed yet the blood counts are low—ineffective hematopoiesis."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "MDS's cytopenias come from excess apoptosis: caspase-driven death of marrow progenitors means cells are made but die before maturing, explaining the paradox of a hypercellular marrow with too few blood cells reaching circulation."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "MDS festers in an inflammatory marrow run by macrophages: myeloid cells pour out alarmins (S100A8/A9) and cytokines that fire the inflammasome and worsen the ineffective hematopoiesis—an inflammatory niche now itself a treatment target."
 ---
 
 # Myelodysplastic Syndromes
@@ -238,6 +247,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MDS patients drown in iron from transfusions: chronic red-cell transfusions for the anemia deposit iron in heart, liver and endocrine organs, so iron chelation is needed to prevent organ damage in lower-risk patients who live long enough.
 - `connects-to` → **[TET2](../../03-molecular/tet2/README.md)** — MDS arises from mutated blood stem cells, often via TET2: this epigenetic regulator is one of the recurrent clonal-hematopoiesis mutations that, accumulating with age, derange marrow maturation—and that hypomethylating drugs like azacitidine target.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Some MDS is driven by an immune attack from cytotoxic T cells: in hypoplastic MDS overlapping aplastic anemia, T cells suppress the marrow, so these patients can respond to immunosuppression rather than chemotherapy.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — MDS marrow cells die by pyroptosis via the NLRP3 inflammasome: chronic inflammasome activation makes the dysplastic precursors self-destruct inflammatorily, so the bone marrow is packed yet the blood counts are low—ineffective hematopoiesis.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — MDS's cytopenias come from excess apoptosis: caspase-driven death of marrow progenitors means cells are made but die before maturing, explaining the paradox of a hypercellular marrow with too few blood cells reaching circulation.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — MDS festers in an inflammatory marrow run by macrophages: myeloid cells pour out alarmins (S100A8/A9) and cytokines that fire the inflammasome and worsen the ineffective hematopoiesis—an inflammatory niche now itself a treatment target.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
