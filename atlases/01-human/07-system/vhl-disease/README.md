@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "HIF-2alpha links VHL to iron and red cells: the EPAS1 factor that accumulates in VHL governs erythropoietin and intestinal iron absorption, explaining the polycythemia seen when this hypoxia pathway runs unchecked."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "VHL tumors lean on mTOR alongside HIF: pseudohypoxic HIF signaling and mTOR together drive the clear cell kidney cancers and hemangioblastomas, so mTOR inhibitors—and now the HIF-2α blocker belzutifan—are used against VHL disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "VHL clear cell kidney cancers are immune-hot yet shielded by regulatory T cells: they draw T-cell infiltrates that respond to checkpoint drugs, but Tregs restrain the attack, shaping how immunotherapy works in VHL-related RCC."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "VHL tumors face NK-cell surveillance: their HIF-driven stress and altered MHC can expose them to natural killer cells, an innate defense being explored to complement checkpoint therapy against the syndrome's vascular tumors."
 ---
 
 # VHL Disease
@@ -245,6 +254,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[EPAS1](../../03-molecular/epas1/README.md)** — VHL disease is fundamentally a HIF-2alpha (EPAS1) disorder: losing pVHL stops degradation of EPAS1, so it constitutively drives VEGF and growth—the basis for belzutifan, a HIF-2alpha inhibitor now treating VHL-related kidney tumors and hemangioblastomas.
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — VHL and SDHB cause 'pseudohypoxia' the same way: pVHL loss and SDHB loss both stabilize HIF as if oxygen were low, driving pheochromocytoma and paraganglioma—so two different genes converge on one hypoxia-mimicking cancer mechanism.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HIF-2alpha links VHL to iron and red cells: the EPAS1 factor that accumulates in VHL governs erythropoietin and intestinal iron absorption, explaining the polycythemia seen when this hypoxia pathway runs unchecked.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — VHL tumors lean on mTOR alongside HIF: pseudohypoxic HIF signaling and mTOR together drive the clear cell kidney cancers and hemangioblastomas, so mTOR inhibitors—and now the HIF-2α blocker belzutifan—are used against VHL disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — VHL clear cell kidney cancers are immune-hot yet shielded by regulatory T cells: they draw T-cell infiltrates that respond to checkpoint drugs, but Tregs restrain the attack, shaping how immunotherapy works in VHL-related RCC.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — VHL tumors face NK-cell surveillance: their HIF-driven stress and altered MHC can expose them to natural killer cells, an innate defense being explored to complement checkpoint therapy against the syndrome's vascular tumors.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

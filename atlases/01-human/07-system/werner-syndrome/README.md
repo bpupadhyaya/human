@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Werner syndrome accelerates the mTOR-senescence axis of aging: WRN-deficient cells enter premature senescence, and chronically active mTOR signaling drives the aged phenotype—linking this progeria to the pathway whose inhibition (rapamycin) extends lifespan in models."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Werner syndrome is a replication-repair disease tied to RAD51: the WRN helicase resolves stalled forks and aids RAD51-driven homologous recombination, so its loss leaves the genomic instability behind the premature aging and cancers."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Werner cells age fast under oxygen's damage: without WRN, accumulating oxidative DNA damage and reactive oxygen species speed cellular senescence, contributing to the accelerated aging that defines this adult progeria."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Werner syndrome stiffens the skin's collagen: a scleroderma-like tightening with loss of subcutaneous fat and intractable ankle ulcers reflects disordered collagen and fibroblast aging, a hallmark physical sign of the disease."
 ---
 
 # Werner Syndrome
@@ -286,6 +295,9 @@ cross_links:
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Werner syndrome is a genome-instability disorder signaled by ATM: the missing WRN helicase leaves DNA replication and repair error-prone, generating the breaks ATM senses—accelerating the cellular aging and cancer risk that define adult progeria.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Werner syndrome causes severe insulin-resistant diabetes: visceral fat accumulation and a lipodystrophy-like pattern blunt insulin action, making type 2 diabetes a hallmark of this premature-aging syndrome from early adulthood.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Werner syndrome accelerates the mTOR-senescence axis of aging: WRN-deficient cells enter premature senescence, and chronically active mTOR signaling drives the aged phenotype—linking this progeria to the pathway whose inhibition (rapamycin) extends lifespan in models.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Werner syndrome is a replication-repair disease tied to RAD51: the WRN helicase resolves stalled forks and aids RAD51-driven homologous recombination, so its loss leaves the genomic instability behind the premature aging and cancers.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Werner cells age fast under oxygen's damage: without WRN, accumulating oxidative DNA damage and reactive oxygen species speed cellular senescence, contributing to the accelerated aging that defines this adult progeria.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Werner syndrome stiffens the skin's collagen: a scleroderma-like tightening with loss of subcutaneous fat and intractable ankle ulcers reflects disordered collagen and fibroblast aging, a hallmark physical sign of the disease.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
