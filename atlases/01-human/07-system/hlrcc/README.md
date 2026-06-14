@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "HLRCC's aggressive kidney cancer is met with immunotherapy: because FH-deficient tumors are highly angiogenic and immune-active, regimens combining checkpoint drugs (engaging NK and T cells) with anti-angiogenics are used against this hard-to-treat cancer."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "HLRCC kidney cancer leans on the AKT-mTOR growth axis: FH loss and its metabolic stress activate AKT and mTOR signaling, so this pathway joins the pseudohypoxic HIF program in driving the tumor, and is probed as a drug target."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages crowd HLRCC's tumor microenvironment: tumor-associated macrophages promote angiogenesis and immune suppression around the FH-deficient kidney cancer, shaping a stroma that the immunotherapy combinations try to flip."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are key to attacking HLRCC: because FH-deficient tumors are immune-active and antigen-rich, antigen-presenting dendritic cells help prime the T-cell response that checkpoint and vaccine strategies aim to unleash."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -267,6 +276,9 @@ Cutaneous:
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — HLRCC tumors survive by hijacking NRF2: accumulated fumarate chemically modifies KEAP1, freeing the antioxidant master switch NRF2 to shield the cancer from oxidative stress—a key vulnerability being targeted in FH-deficient kidney cancer.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — FH loss forces HLRCC cells to make ATP by glycolysis: with the Krebs cycle broken, the tumor can't run normal oxidative phosphorylation, so it shifts to aerobic glycolysis (the Warburg effect) for energy—a metabolic weakness drugs aim to exploit.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — HLRCC's aggressive kidney cancer is met with immunotherapy: because FH-deficient tumors are highly angiogenic and immune-active, regimens combining checkpoint drugs (engaging NK and T cells) with anti-angiogenics are used against this hard-to-treat cancer.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HLRCC kidney cancer leans on the AKT-mTOR growth axis: FH loss and its metabolic stress activate AKT and mTOR signaling, so this pathway joins the pseudohypoxic HIF program in driving the tumor, and is probed as a drug target.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages crowd HLRCC's tumor microenvironment: tumor-associated macrophages promote angiogenesis and immune suppression around the FH-deficient kidney cancer, shaping a stroma that the immunotherapy combinations try to flip.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are key to attacking HLRCC: because FH-deficient tumors are immune-active and antigen-rich, antigen-presenting dendritic cells help prime the T-cell response that checkpoint and vaccine strategies aim to unleash.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

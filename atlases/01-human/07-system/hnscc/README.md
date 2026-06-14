@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Head and neck tumors silence immunity with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, part of the immune evasion that PD-1 blockade (pembrolizumab, nivolumab) tries to reverse in this cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Head and neck tumors resist radiation when starved of oxygen: hypoxic regions survive radiotherapy because oxygen is needed to fix radiation-induced DNA damage, so tumor hypoxia predicts worse control and drives research to overcome it."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-kB is constitutively switched on in head and neck cancer: tobacco, alcohol and HPV keep this inflammatory survival pathway active, driving proliferation and resistance to therapy and marking it as a target in the disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells shape the immune fight in head and neck cancer: as antigen-presenters they prime T cells against the tumor, and their dysfunction in the tumor helps explain immune escape that PD-1 blockade tries to reverse."
 ---
 
 # HNSCC
@@ -250,6 +259,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — HPV-negative head and neck cancers amplify cyclin D1: gain of CCND1 at 11q13, paired with p16/CDKN2A loss, throws the cell cycle into overdrive—a hallmark of the tobacco-and-alcohol-driven tumors that behave worse than HPV-positive ones.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Cetuximab fights head and neck cancer through NK cells: the anti-EGFR antibody not only blocks growth signaling but flags tumor cells for natural killer cells to destroy by antibody-dependent killing, adding an immune mechanism to a targeted drug.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Head and neck tumors silence immunity with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, part of the immune evasion that PD-1 blockade (pembrolizumab, nivolumab) tries to reverse in this cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Head and neck tumors resist radiation when starved of oxygen: hypoxic regions survive radiotherapy because oxygen is needed to fix radiation-induced DNA damage, so tumor hypoxia predicts worse control and drives research to overcome it.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-kB is constitutively switched on in head and neck cancer: tobacco, alcohol and HPV keep this inflammatory survival pathway active, driving proliferation and resistance to therapy and marking it as a target in the disease.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape the immune fight in head and neck cancer: as antigen-presenters they prime T cells against the tumor, and their dysfunction in the tumor helps explain immune escape that PD-1 blockade tries to reverse.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
