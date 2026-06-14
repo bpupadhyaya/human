@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "AGS mimics congenital infection beyond the brain: hepatosplenomegaly, hepatitis and elevated liver enzymes accompany the interferon surge, so the liver shows the systemic reach of this interferonopathy that imitates a TORCH infection."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "AGS is a leukodystrophy that wounds the myelin-makers: chronic type I interferon and microglial activation injure oligodendrocytes, so the white matter fails to myelinate and breaks down, producing the diffuse leukodystrophy seen on MRI."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "AGS's brain calcifications are mineral deposits: in the basal ganglia and deep white matter, calcium combines with phosphate to form the calcifications seen on CT, a hallmark that with the interferon signature sets AGS apart from acquired infection."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "AGS can drop the platelet count: in the neonatal form thrombocytopenia accompanies the interferon surge alongside hepatosplenomegaly, part of the picture that mimics a congenital TORCH infection at birth."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -228,6 +237,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[RIG-I](../../03-molecular/rig-i/README.md)** — Aicardi-Goutieres is a type I interferonopathy of nucleic-acid sensing: defective clearance of self DNA/RNA lets sensors like RIG-I (and cGAS-STING) fire, flooding the brain with interferon as if fighting a chronic virus that isn't there.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — AGS reflects broken immune tolerance to self nucleic acids: the relentless interferon and autoimmunity (overlapping lupus) point to failed regulation, and regulatory T cells that should restrain anti-self responses are part of the disturbed balance.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — AGS mimics congenital infection beyond the brain: hepatosplenomegaly, hepatitis and elevated liver enzymes accompany the interferon surge, so the liver shows the systemic reach of this interferonopathy that imitates a TORCH infection.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — AGS is a leukodystrophy that wounds the myelin-makers: chronic type I interferon and microglial activation injure oligodendrocytes, so the white matter fails to myelinate and breaks down, producing the diffuse leukodystrophy seen on MRI.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AGS's brain calcifications are mineral deposits: in the basal ganglia and deep white matter, calcium combines with phosphate to form the calcifications seen on CT, a hallmark that with the interferon signature sets AGS apart from acquired infection.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — AGS can drop the platelet count: in the neonatal form thrombocytopenia accompanies the interferon surge alongside hepatosplenomegaly, part of the picture that mimics a congenital TORCH infection at birth.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

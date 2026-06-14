@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Metal ions like zinc shape Alzheimer's amyloid: zinc and copper bind amyloid-beta, promoting its aggregation and generating oxidative stress, so disturbed brain metal balance is one hypothesis for how plaques form and injure neurons."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron builds up in the Alzheimer's brain: amyloid plaques and degenerating neurons accumulate iron that drives oxidative stress and ferroptosis, so disordered iron handling adds to the metal-linked injury alongside zinc and copper."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Alzheimer's also frays the brain's wiring insulation: oligodendrocytes and their myelin degenerate early, and amyloid and tau pathology disrupt these cells, so white-matter breakdown contributes to cognitive decline beyond neuron loss."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Alzheimer's brains run low on BDNF: this neurotrophin that sustains synapses and hippocampal plasticity falls in the disease, so reduced BDNF support helps explain the synaptic loss and failing memory."
 ---
 
 # Alzheimer's Disease
@@ -238,6 +247,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Alzheimer's overexcites neurons through glutamate: amyloid and tau disrupt glutamate clearance, causing excitotoxic overstimulation of NMDA receptors that damages synapses—the rationale for memantine, which dampens this glutamate signaling.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Alzheimer's recruits cytotoxic T cells into the brain: CD8 T cells accumulate around plaques and tau pathology, and this adaptive-immune infiltration is increasingly seen as an active contributor to neurodegeneration, not a bystander.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Metal ions like zinc shape Alzheimer's amyloid: zinc and copper bind amyloid-beta, promoting its aggregation and generating oxidative stress, so disturbed brain metal balance is one hypothesis for how plaques form and injure neurons.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron builds up in the Alzheimer's brain: amyloid plaques and degenerating neurons accumulate iron that drives oxidative stress and ferroptosis, so disordered iron handling adds to the metal-linked injury alongside zinc and copper.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Alzheimer's also frays the brain's wiring insulation: oligodendrocytes and their myelin degenerate early, and amyloid and tau pathology disrupt these cells, so white-matter breakdown contributes to cognitive decline beyond neuron loss.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Alzheimer's brains run low on BDNF: this neurotrophin that sustains synapses and hippocampal plasticity falls in the disease, so reduced BDNF support helps explain the synaptic loss and failing memory.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
