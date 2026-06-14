@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system: immune attack on the synovium forms an invasive pannus that destroys cartilage and bone, deforming joints—so autoimmunity strikes the skeleton's moving parts."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Rheumatoid arthritis's strongest genetic risk is the HLA 'shared epitope': MHC class II HLA-DRB1 variants present citrullinated self-peptides to T cells, explaining why anti-CCP antibodies form and why these alleles predispose to seropositive RA."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The microbiome may help ignite rheumatoid arthritis: gum and gut bacteria such as Porphyromonas gingivalis citrullinate proteins, and dysbiosis is linked to disease onset—part of why periodontitis and RA travel together."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Rheumatoid arthritis reflects failed regulatory T-cell control: Tregs that should restrain autoreactive responses are reduced or dysfunctional, tipping the balance toward the Th17/inflammatory attack on the joints—a target for tolerance-restoring therapies."
 ---
 
 # Rheumatoid Arthritis
@@ -261,6 +270,9 @@ RA patients have:
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are a major oral therapy for rheumatoid arthritis: the cytokines that inflame the joint (IL-6, interferons, GM-CSF) signal through JAK, so tofacitinib and baricitinib match biologic efficacy in pill form when methotrexate fails.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are central effectors in the rheumatoid joint: synovial macrophages pour out TNF and IL-1 that drive inflammation and erode cartilage and bone, and their numbers track disease activity—so TNF blockade quiets this macrophage-driven cascade.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system: immune attack on the synovium forms an invasive pannus that destroys cartilage and bone, deforming joints—so autoimmunity strikes the skeleton's moving parts.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Rheumatoid arthritis's strongest genetic risk is the HLA 'shared epitope': MHC class II HLA-DRB1 variants present citrullinated self-peptides to T cells, explaining why anti-CCP antibodies form and why these alleles predispose to seropositive RA.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The microbiome may help ignite rheumatoid arthritis: gum and gut bacteria such as Porphyromonas gingivalis citrullinate proteins, and dysbiosis is linked to disease onset—part of why periodontitis and RA travel together.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Rheumatoid arthritis reflects failed regulatory T-cell control: Tregs that should restrain autoreactive responses are reduced or dysfunctional, tipping the balance toward the Th17/inflammatory attack on the joints—a target for tolerance-restoring therapies.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
