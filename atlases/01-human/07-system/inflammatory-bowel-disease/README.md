@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "IBD reaches beyond the gut to the skin: erythema nodosum and pyoderma gangrenosum are classic cutaneous manifestations that track (or sometimes precede) bowel activity, so the integumentary system is a window onto this systemic immune disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils drive tissue damage in active IBD: recruited into the mucosa, they form the crypt abscesses that histologically define a flare and release proteases and oxidants that ulcerate the gut wall—so blunting neutrophil influx is part of controlling disease."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D and IBD interact both ways: deficiency is common with intestinal inflammation and malabsorption, and low vitamin D—an immune modulator supporting gut-barrier and regulatory T-cell function—is linked to more active disease, so levels are checked and repleted."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "IBD's most important liver tie is primary sclerosing cholangitis: this progressive bile-duct scarring occurs mostly with ulcerative colitis, raises the risk of cholangiocarcinoma and colorectal cancer, and runs an independent course unaffected by bowel treatment."
 ---
 
 # Inflammatory Bowel Disease
@@ -247,6 +256,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are an oral option in IBD: several cytokines driving gut inflammation signal through the JAK-STAT pathway, so tofacitinib and upadacitinib treat ulcerative colitis when antibody biologics fail—a small-molecule alternative to anti-TNF.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — IBD is the prototypical chronic inflammatory disease of the digestive system: Crohn's can inflame anywhere from mouth to anus while ulcerative colitis is confined to the colon, so it reshapes gut structure and function and predisposes to bowel cancer.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — IBD reaches beyond the gut to the skin: erythema nodosum and pyoderma gangrenosum are classic cutaneous manifestations that track (or sometimes precede) bowel activity, so the integumentary system is a window onto this systemic immune disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils drive tissue damage in active IBD: recruited into the mucosa, they form the crypt abscesses that histologically define a flare and release proteases and oxidants that ulcerate the gut wall—so blunting neutrophil influx is part of controlling disease.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and IBD interact both ways: deficiency is common with intestinal inflammation and malabsorption, and low vitamin D—an immune modulator supporting gut-barrier and regulatory T-cell function—is linked to more active disease, so levels are checked and repleted.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — IBD's most important liver tie is primary sclerosing cholangitis: this progressive bile-duct scarring occurs mostly with ulcerative colitis, raises the risk of cholangiocarcinoma and colorectal cancer, and runs an independent course unaffected by bowel treatment.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

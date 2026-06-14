@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/hereditary-diffuse-gastric-cancer
     relation: connects-to
     note: "Juvenile polyposis carries gastric cancer risk that overlaps other syndromes: SMAD4-related JPS causes massive gastric polyposis predisposing to stomach cancer, so it joins HDGC and FAP among the inherited causes of gastric malignancy needing surveillance."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Juvenile polyps are hamartomas defined by their stroma: an abundant, fibroblast-rich, inflamed and edematous lamina propria surrounds cystically dilated glands—so the diagnosis rests on this stromal overgrowth, reflecting how SMAD4/BMPR1A loss deranges mesenchyme."
+  - target: 01-human/03-molecular/stk11
+    relation: connects-to
+    note: "STK11 distinguishes the hamartomatous polyposis syndromes: JPS comes from BMPR1A or SMAD4, whereas STK11 (LKB1) loss causes Peutz-Jeghers—different genes producing different polyp histology and cancer risks, so gene testing sorts which syndrome a patient has."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "The juvenile polyp's bulk is connective tissue: an expanded collagen-rich stroma, not glandular crowding, gives these hamartomas their rounded, smooth shape—distinguishing them from the adenomas of FAP where the epithelium itself is neoplastic."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -241,6 +250,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Juvenile polyposis fills the digestive tract with hamartomatous polyps: SMAD4 or BMPR1A loss seeds numerous juvenile polyps from stomach to rectum that bleed and, over time, raise gastrointestinal cancer risk—so surveillance endoscopy is central to care.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — SMAD4 juvenile polyposis overlaps with a vascular disease: patients with SMAD4 mutations can have combined JPS and hereditary hemorrhagic telangiectasia, with arteriovenous malformations and bleeding telangiectasias—so the cardiovascular system needs screening too.
 - `connects-to` → **[Hereditary Diffuse Gastric Cancer](../hereditary-diffuse-gastric-cancer/README.md)** — Juvenile polyposis carries gastric cancer risk that overlaps other syndromes: SMAD4-related JPS causes massive gastric polyposis predisposing to stomach cancer, so it joins HDGC and FAP among the inherited causes of gastric malignancy needing surveillance.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Juvenile polyps are hamartomas defined by their stroma: an abundant, fibroblast-rich, inflamed and edematous lamina propria surrounds cystically dilated glands—so the diagnosis rests on this stromal overgrowth, reflecting how SMAD4/BMPR1A loss deranges mesenchyme.
+- `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — STK11 distinguishes the hamartomatous polyposis syndromes: JPS comes from BMPR1A or SMAD4, whereas STK11 (LKB1) loss causes Peutz-Jeghers—different genes producing different polyp histology and cancer risks, so gene testing sorts which syndrome a patient has.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The juvenile polyp's bulk is connective tissue: an expanded collagen-rich stroma, not glandular crowding, gives these hamartomas their rounded, smooth shape—distinguishing them from the adenomas of FAP where the epithelium itself is neoplastic.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
