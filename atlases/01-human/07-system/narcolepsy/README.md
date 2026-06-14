@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Narcolepsy may begin when dendritic cells present a flu look-alike: after H1N1 infection or vaccination, these antigen-presenters can display peptides mimicking orexin, priming T cells that then destroy the orexin neurons—a molecular-mimicry origin."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium oxybate is a mainstay narcolepsy drug: the sodium salt of GHB, taken at night, consolidates deep sleep and sharply reduces cataplexy and daytime sleepiness, though its sodium load is a reason newer low-sodium versions were developed."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Narcolepsy is a disease of lost wake-promoting synapses: destruction of the orexin neurons strips the brain of their stabilizing input to arousal circuits, so the synaptic switch between sleep and wake becomes unstable, intruding REM into waking life."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes shape the sleep pressure narcolepsy disrupts: they release adenosine and regulate the orexin circuit's environment, so glial support of the wake-sleep system is part of the biology surrounding the orexin-neuron loss."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -258,6 +267,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Narcolepsy's cataplexy is tamed through GABA: sodium oxybate, a GABA-B agonist taken at night, consolidates fragmented sleep and sharply reduces cataplexy—the most effective drug for the disorder, working on the brain's main inhibitory system.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Narcolepsy collides with the brain's sleep-pressure signal, adenosine: this molecule accumulates to drive sleepiness, and caffeine—an adenosine blocker—is the everyday self-treatment patients reach for against overwhelming daytime sleep.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Narcolepsy may begin when dendritic cells present a flu look-alike: after H1N1 infection or vaccination, these antigen-presenters can display peptides mimicking orexin, priming T cells that then destroy the orexin neurons—a molecular-mimicry origin.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium oxybate is a mainstay narcolepsy drug: the sodium salt of GHB, taken at night, consolidates deep sleep and sharply reduces cataplexy and daytime sleepiness, though its sodium load is a reason newer low-sodium versions were developed.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Narcolepsy is a disease of lost wake-promoting synapses: destruction of the orexin neurons strips the brain of their stabilizing input to arousal circuits, so the synaptic switch between sleep and wake becomes unstable, intruding REM into waking life.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape the sleep pressure narcolepsy disrupts: they release adenosine and regulate the orexin circuit's environment, so glial support of the wake-sleep system is part of the biology surrounding the orexin-neuron loss.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
