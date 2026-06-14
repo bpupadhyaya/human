@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Epilepsy is a disorder of the whole nervous system's electrical stability: hypersynchronous neuronal discharges can start focally or generalize across networks, so seizures are a shared symptom of countless insults—from genetics to stroke, tumor and infection."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium channels set the brain's seizure threshold: by repolarizing neurons and damping excitability, Kv7/KCNQ channels guard against runaway firing, so their mutations cause familial epilepsies—and openers that boost potassium currents are an anticonvulsant strategy."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system tempers seizures: cannabinoid signaling dampens excitatory transmission, and purified cannabidiol is now approved for severe childhood epilepsies like Dravet and Lennox-Gastaut—turning a cannabis compound into a proven anticonvulsant."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome helps the ketogenic diet fight epilepsy: this high-fat diet controls drug-resistant seizures partly by reshaping gut bacteria and their metabolites, so the gut-brain axis is part of how a dietary therapy calms the epileptic brain."
 ---
 
 # Epilepsy
@@ -271,6 +280,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Voltage-gated sodium channels are epilepsy's central target: sodium influx fires the action potentials that, when runaway, become seizures, so many first-line drugs (phenytoin, lamotrigine) work by blocking these channels—and SCN1A mutations cause epilepsy.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Epilepsy is fundamentally a disorder of the synapse: seizures arise when synaptic excitation (glutamate) overwhelms inhibition (GABA), so the tipped excitation-inhibition balance at synapses is the common final pathway across epilepsy's many causes.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Epilepsy is a disorder of the whole nervous system's electrical stability: hypersynchronous neuronal discharges can start focally or generalize across networks, so seizures are a shared symptom of countless insults—from genetics to stroke, tumor and infection.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium channels set the brain's seizure threshold: by repolarizing neurons and damping excitability, Kv7/KCNQ channels guard against runaway firing, so their mutations cause familial epilepsies—and openers that boost potassium currents are an anticonvulsant strategy.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system tempers seizures: cannabinoid signaling dampens excitatory transmission, and purified cannabidiol is now approved for severe childhood epilepsies like Dravet and Lennox-Gastaut—turning a cannabis compound into a proven anticonvulsant.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome helps the ketogenic diet fight epilepsy: this high-fat diet controls drug-resistant seizures partly by reshaping gut bacteria and their metabolites, so the gut-brain axis is part of how a dietary therapy calms the epileptic brain.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
