@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Polycythemia vera is dangerous mainly through the cardiovascular system: too many red cells thicken the blood, so hyperviscosity and an activated clotting state cause heart attacks, strokes and clots—why keeping hematocrit below 45% is the central treatment goal."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Polycythemia vera classically clots the hepatic veins: the thick, hyperviscous, prothrombotic blood causes Budd-Chiari syndrome and other splanchnic-vein thromboses, so unexplained liver-vein clots should prompt JAK2 testing for an occult PV."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "PV causes aquagenic pruritus through mast cells: the clonal disease primes basophils and mast cells to release histamine, triggering the intense itching after warm water that is a classic and miserable symptom of polycythemia vera."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "JAK2 drives polycythemia vera by switching on STAT signaling: the V617F mutation makes JAK2 constitutively active, firing STAT3/STAT5 to push red-cell production without erythropoietin—the rationale for JAK inhibitors like ruxolitinib."
 ---
 
 # Polycythemia Vera
@@ -233,6 +242,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Polycythemia vera paradoxically depletes iron: the marrow's relentless red-cell overproduction—and the phlebotomy used to treat it—consume iron, so PV patients are typically iron-deficient with microcytic cells, and iron supplements can worsen the polycythemia.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Polycythemia vera overproduces platelets along with red cells: the JAK2 clone expands all myeloid lines, so thrombocytosis adds to the hyperviscosity, compounding the thrombotic risk that is the disease's main threat—mitigated by aspirin and cytoreduction.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Polycythemia vera is dangerous mainly through the cardiovascular system: too many red cells thicken the blood, so hyperviscosity and an activated clotting state cause heart attacks, strokes and clots—why keeping hematocrit below 45% is the central treatment goal.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Polycythemia vera classically clots the hepatic veins: the thick, hyperviscous, prothrombotic blood causes Budd-Chiari syndrome and other splanchnic-vein thromboses, so unexplained liver-vein clots should prompt JAK2 testing for an occult PV.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — PV causes aquagenic pruritus through mast cells: the clonal disease primes basophils and mast cells to release histamine, triggering the intense itching after warm water that is a classic and miserable symptom of polycythemia vera.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK2 drives polycythemia vera by switching on STAT signaling: the V617F mutation makes JAK2 constitutively active, firing STAT3/STAT5 to push red-cell production without erythropoietin—the rationale for JAK inhibitors like ruxolitinib.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
