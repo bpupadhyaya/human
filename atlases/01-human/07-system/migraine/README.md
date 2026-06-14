@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Histamine can trigger migraine: it dilates cerebral vessels and activates trigeminal pain pathways, so histamine-rich foods and mast-cell release provoke attacks in susceptible people—one of many vasoactive triggers."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine helps explain caffeine's grip on migraine: adenosine levels rise during attacks and dilate cerebral vessels, and because caffeine blocks adenosine receptors it can both abort a headache and, on withdrawal, trigger one."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells inflame the migraine brain's lining: in the meninges they degranulate, releasing histamine and other mediators that sensitize trigeminal pain fibers, a cellular source of the neurogenic inflammation behind throbbing pain."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Migraine, especially with aura, marks the blood vessel lining: endothelial dysfunction accompanies attacks and helps explain the raised stroke risk in aura migraineurs, tying the headache to the health of cerebral vessels."
 ---
 
 # Migraine
@@ -280,6 +289,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Migraine with aura is linked to the heart's PFO: a patent foramen ovale (a small atrial shunt) is more common in aura migraineurs, and migraine with aura independently raises stroke risk—tying the headache to cardiovascular and structural heart findings.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Migraine aura is a wave of potassium and glutamate: cortical spreading depression—a slow tide of neuronal depolarization with surging extracellular potassium—sweeps across the cortex, producing the visual aura before the headache.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine can trigger migraine: it dilates cerebral vessels and activates trigeminal pain pathways, so histamine-rich foods and mast-cell release provoke attacks in susceptible people—one of many vasoactive triggers.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine helps explain caffeine's grip on migraine: adenosine levels rise during attacks and dilate cerebral vessels, and because caffeine blocks adenosine receptors it can both abort a headache and, on withdrawal, trigger one.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the migraine brain's lining: in the meninges they degranulate, releasing histamine and other mediators that sensitize trigeminal pain fibers, a cellular source of the neurogenic inflammation behind throbbing pain.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Migraine, especially with aura, marks the blood vessel lining: endothelial dysfunction accompanies attacks and helps explain the raised stroke risk in aura migraineurs, tying the headache to the health of cerebral vessels.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

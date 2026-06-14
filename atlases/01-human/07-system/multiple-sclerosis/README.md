@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron rims mark MS's smoldering lesions: iron-laden microglia ring chronic active plaques, visible as paramagnetic rim lesions on MRI that flag ongoing, treatment-resistant inflammation driving progression."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium channels betray the demyelinated MS axon: stripped of myelin, the axon scatters sodium channels to keep firing, but this leaky, energy-hungry state lets sodium and calcium flood in, driving the axonal degeneration behind permanent disability."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide is a hidden axon-killer in MS: activated microglia and macrophages pour out NO that blocks nerve conduction and poisons mitochondria in demyelinated axons, contributing to both the symptoms and the slow neurodegeneration."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Glutamate excitotoxicity widens MS damage: inflamed lesions spill excess glutamate that overexcites and kills oligodendrocytes and neurons, so beyond immune attack, this neurotransmitter helps turn inflammation into lasting tissue loss."
 ---
 
 # Multiple Sclerosis
@@ -249,6 +258,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — MS's strongest genetic risk is an MHC class II allele: HLA-DRB1*15:01 shapes how myelin peptides are presented to T cells, the genetic basis tying the immune system's antigen presentation to attacks on the central nervous system.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages strip myelin in active MS lesions: drawn into the CNS, they (with microglia) phagocytose myelin and damage oligodendrocytes, so myelin-laden macrophages are the histologic signature of an active demyelinating plaque.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron rims mark MS's smoldering lesions: iron-laden microglia ring chronic active plaques, visible as paramagnetic rim lesions on MRI that flag ongoing, treatment-resistant inflammation driving progression.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium channels betray the demyelinated MS axon: stripped of myelin, the axon scatters sodium channels to keep firing, but this leaky, energy-hungry state lets sodium and calcium flood in, driving the axonal degeneration behind permanent disability.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide is a hidden axon-killer in MS: activated microglia and macrophages pour out NO that blocks nerve conduction and poisons mitochondria in demyelinated axons, contributing to both the symptoms and the slow neurodegeneration.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate excitotoxicity widens MS damage: inflamed lesions spill excess glutamate that overexcites and kills oligodendrocytes and neurons, so beyond immune attack, this neurotransmitter helps turn inflammation into lasting tissue loss.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
