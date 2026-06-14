@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Cholangiocarcinoma hides in a hypoxic, dense stroma: its thick desmoplastic tissue chokes off oxygen, and the resulting hypoxia drives survival signaling and blunts drug delivery, part of why this cancer resists chemotherapy."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Cholangiocarcinoma near the duct's end involves the pancreas: distal tumors sit where the bile duct passes through the pancreatic head, so removing them requires a Whipple operation that takes part of the pancreas too."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Cholangiocarcinoma builds its blood supply through endothelial cells: VEGF from the tumor drives these vessel-lining cells to form new vasculature feeding the cancer, a target of anti-angiogenic therapy."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium-laden bile stones breed cholangiocarcinoma: intrahepatic stones (hepatolithiasis), rich in calcium and pigment, chronically inflame and obstruct the ducts, a recognized precursor to bile-duct cancer."
 ---
 
 # Cholangiocarcinoma
@@ -244,6 +253,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Cholangiocarcinoma sits on the bile highway to the small intestine: bile normally drains into the duodenum, so the tumor blocks that flow, causing jaundice and fat malabsorption, and distal duct cancers arise where the duct meets the gut.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 stokes the inflammation that breeds cholangiocarcinoma: chronically inflamed bile ducts pour out IL-6, which via STAT3 pushes cholangiocytes to proliferate and resist death, linking conditions like PSC and fluke infection to the cancer.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cholangiocarcinoma hides in a hypoxic, dense stroma: its thick desmoplastic tissue chokes off oxygen, and the resulting hypoxia drives survival signaling and blunts drug delivery, part of why this cancer resists chemotherapy.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Cholangiocarcinoma near the duct's end involves the pancreas: distal tumors sit where the bile duct passes through the pancreatic head, so removing them requires a Whipple operation that takes part of the pancreas too.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Cholangiocarcinoma builds its blood supply through endothelial cells: VEGF from the tumor drives these vessel-lining cells to form new vasculature feeding the cancer, a target of anti-angiogenic therapy.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium-laden bile stones breed cholangiocarcinoma: intrahepatic stones (hepatolithiasis), rich in calcium and pigment, chronically inflame and obstruct the ducts, a recognized precursor to bile-duct cancer.
 
 ---
 

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Advanced cervical cancer spreads to the lungs: tumor cells travel through blood and lymph to seed pulmonary metastases, a common site of distant disease that shapes staging and the shift from curative to systemic treatment."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Cervical cancer bleeds away iron: irregular and postcoital vaginal bleeding is an early sign, and the steady blood loss drains iron into a deficiency anemia that often brings women in for the diagnosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Advanced cervical cancer invades the rectum: spreading through the pelvis, it can breach the large intestine and bladder, forming fistulas that leak stool or urine—devastating complications of locally advanced disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Curing cervical cancer can leave fibrosis behind: the pelvic radiotherapy central to treatment scars surrounding tissues, stiffening the vagina, bladder, and bowel and causing lasting side effects in survivors."
 ---
 
 # Cervical Cancer
@@ -270,6 +279,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cervical tumors are notoriously oxygen-starved, and that resists radiation: hypoxic regions survive radiotherapy because oxygen is needed to fix radiation-induced DNA damage, so tumor hypoxia predicts worse outcomes and drives research into overcoming it.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — HPV silences the interferon alarm in cervical cancer: the viral E6 and E7 proteins suppress type I interferon signaling, blunting the antiviral response so infected cells evade clearance—an immune escape that lets persistent infection progress.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Advanced cervical cancer spreads to the lungs: tumor cells travel through blood and lymph to seed pulmonary metastases, a common site of distant disease that shapes staging and the shift from curative to systemic treatment.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Cervical cancer bleeds away iron: irregular and postcoital vaginal bleeding is an early sign, and the steady blood loss drains iron into a deficiency anemia that often brings women in for the diagnosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Advanced cervical cancer invades the rectum: spreading through the pelvis, it can breach the large intestine and bladder, forming fistulas that leak stool or urine—devastating complications of locally advanced disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Curing cervical cancer can leave fibrosis behind: the pelvic radiotherapy central to treatment scars surrounding tissues, stiffening the vagina, bladder, and bowel and causing lasting side effects in survivors.
 
 ---
 
