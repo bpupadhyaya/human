@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Waldenstrom's marrow is studded with mast cells: increased mast cells are a characteristic histologic feature that support the lymphoplasmacytic clone through CD40-ligand and cytokines, part of the tumor's marrow microenvironment."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Waldenström's hallmark is hyperviscosity from monoclonal protein: the malignant clone floods blood with IgM that thickens it, inverting the normal albumin-to-globulin ratio and causing the bleeding, visual, and neurologic symptoms relieved by plasmapheresis."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Waldenström's cells survive on autophagy downstream of MYD88: constant MYD88/NF-κB signaling and heavy antibody output make the clone lean on autophagy to manage stress, a vulnerability alongside the BTK pathway that drugs target."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Waldenström evades immunity through regulatory T cells: the marrow accumulates Tregs and exhausted T cells that dampen the antitumor response, helping the slow-growing lymphoplasmacytic clone persist and limiting immunotherapy."
 ---
 
 # Waldenström Macroglobulinemia
@@ -245,6 +254,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Primary CNS Lymphoma](../pcnsl/README.md)** — Waldenstrom and primary CNS lymphoma share the MYD88 L265P mutation: when WM invades the brain it is called Bing-Neel syndrome, and the shared mutation makes both B-cell cancers responsive to BTK inhibitors that cross into the CNS.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Waldenstrom's IgM can turn on complement against red cells: as cold agglutinins or cryoglobulins, the paraprotein binds erythrocytes and fixes complement (C3), causing hemolysis—an extra anemia beyond marrow crowding.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Waldenstrom's marrow is studded with mast cells: increased mast cells are a characteristic histologic feature that support the lymphoplasmacytic clone through CD40-ligand and cytokines, part of the tumor's marrow microenvironment.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Waldenström's hallmark is hyperviscosity from monoclonal protein: the malignant clone floods blood with IgM that thickens it, inverting the normal albumin-to-globulin ratio and causing the bleeding, visual, and neurologic symptoms relieved by plasmapheresis.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Waldenström's cells survive on autophagy downstream of MYD88: constant MYD88/NF-κB signaling and heavy antibody output make the clone lean on autophagy to manage stress, a vulnerability alongside the BTK pathway that drugs target.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Waldenström evades immunity through regulatory T cells: the marrow accumulates Tregs and exhausted T cells that dampen the antitumor response, helping the slow-growing lymphoplasmacytic clone persist and limiting immunotherapy.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

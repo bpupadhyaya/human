@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Cortisol is type 1 diabetes's counter-hormone and a fellow autoimmune target: it raises glucose opposing insulin (driving hypoglycemia-rebound), and autoimmune adrenal failure (Addison's) can join T1D in polyglandular syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Type 1 diabetes attacks a zinc transporter: ZnT8, which loads zinc into insulin granules, is a major autoantigen—anti-ZnT8 antibodies help diagnose it—and zinc is needed to crystallize and store the very insulin the disease destroys."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "Type 1 diabetes carries a type I interferon signature: viral triggers (like coxsackievirus) and IFN make beta cells display more antigen and self-destruct, so interferon is a bridge from infection to the autoimmune attack on the islets."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Type 1 diabetes begins as insulitis led by macrophages: these innate cells are among the first to invade the islets, presenting beta-cell antigens and secreting toxic mediators that recruit the T cells which finish the destruction."
 ---
 
 # Type 1 Diabetes
@@ -231,6 +240,9 @@ cross_links:
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Type 1 diabetes travels with thyroid autoimmunity: it clusters in autoimmune polyglandular syndromes with Hashimoto's and Graves' disease, so patients are screened for thyroid antibodies and TSH—one autoimmune endocrine failure predicts another.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Diabetic ketoacidosis is a potassium trap: acidosis masks a severe total-body potassium deficit by shifting K+ out of cells, so giving insulin drives potassium back in and can cause dangerous hypokalemia—why DKA care obsessively tracks potassium.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol is type 1 diabetes's counter-hormone and a fellow autoimmune target: it raises glucose opposing insulin (driving hypoglycemia-rebound), and autoimmune adrenal failure (Addison's) can join T1D in polyglandular syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Type 1 diabetes attacks a zinc transporter: ZnT8, which loads zinc into insulin granules, is a major autoantigen—anti-ZnT8 antibodies help diagnose it—and zinc is needed to crystallize and store the very insulin the disease destroys.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type 1 diabetes carries a type I interferon signature: viral triggers (like coxsackievirus) and IFN make beta cells display more antigen and self-destruct, so interferon is a bridge from infection to the autoimmune attack on the islets.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Type 1 diabetes begins as insulitis led by macrophages: these innate cells are among the first to invade the islets, presenting beta-cell antigens and secreting toxic mediators that recruit the T cells which finish the destruction.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
