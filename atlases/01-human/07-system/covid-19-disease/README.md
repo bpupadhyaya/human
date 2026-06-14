@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "COVID-19 frequently injures the kidney: acute kidney injury is common in severe disease from direct infection, cytokines and microthrombi, and needing dialysis sharply worsens outcomes—evidence the virus is multisystem, not just respiratory."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "COVID injures organs by unbalancing angiotensin II: the virus's spike commandeers and downregulates ACE2, the enzyme that normally degrades angiotensin II, so unopposed angiotensin II fuels the vasoconstriction, inflammation, and lung damage of severe disease."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Severe COVID is a clotting disease marked by fibrinogen: the inflamed endothelium and high fibrinogen drive immunothrombosis—microclots in the lungs and elsewhere—so anticoagulation became part of treating hospitalized patients."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells are the early antiviral defense against COVID: they kill infected cells before adaptive immunity kicks in, and their exhaustion in severe disease is linked to failure to control the virus and worse outcomes."
 ---
 
 # COVID-19 Disease
@@ -200,6 +209,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells clear SARS-CoV-2-infected cells: CD8 T-cell responses help end the infection and, as durable memory, underpin protection from severe disease after infection or vaccination even when antibodies wane.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 drives COVID-19's cytokine storm: severe disease floods the blood with IL-6, fueling the hyperinflammation that injures the lungs—so the IL-6-blocker tocilizumab improves survival in critically ill patients alongside steroids.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — COVID-19 frequently injures the kidney: acute kidney injury is common in severe disease from direct infection, cytokines and microthrombi, and needing dialysis sharply worsens outcomes—evidence the virus is multisystem, not just respiratory.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — COVID injures organs by unbalancing angiotensin II: the virus's spike commandeers and downregulates ACE2, the enzyme that normally degrades angiotensin II, so unopposed angiotensin II fuels the vasoconstriction, inflammation, and lung damage of severe disease.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Severe COVID is a clotting disease marked by fibrinogen: the inflamed endothelium and high fibrinogen drive immunothrombosis—microclots in the lungs and elsewhere—so anticoagulation became part of treating hospitalized patients.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells are the early antiviral defense against COVID: they kill infected cells before adaptive immunity kicks in, and their exhaustion in severe disease is linked to failure to control the virus and worse outcomes.
 
 ## Pathology
 

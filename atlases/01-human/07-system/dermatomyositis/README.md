@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Dermatomyositis differs from polymyositis in its immune attack: DM is largely humoral and complement-mediated against muscle capillaries, whereas polymyositis features cytotoxic T cells directly invading muscle fibers—distinguishing the two myopathies."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Dermatomyositis is a complement-driven microangiopathy: the membrane attack complex deposits on muscle and skin capillaries, starving the outer muscle fibers of blood—the perifascicular atrophy that is the disease's pathologic signature."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Dermatomyositis is first treated with cortisol's kin: high-dose corticosteroids suppress the interferon-driven inflammation attacking muscle and skin, the mainstay before steroid-sparing immunosuppressants and JAK inhibitors are added."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Dermatomyositis can scar the lungs, especially the anti-MDA5 type: a rapidly progressive interstitial lung fibrosis is its most dangerous complication, turning a skin-and-muscle disease into a life-threatening respiratory emergency."
 ---
 
 # Dermatomyositis
@@ -268,6 +277,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcinosis is a hallmark of dermatomyositis, especially juvenile: calcium deposits build up in skin and muscle, forming hard, sometimes ulcerating nodules that are painful and hard to treat—a chronic complication distinct from the acute inflammation.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Dermatomyositis can inflame the heart muscle: myocarditis and conduction disease from the same autoimmune process that attacks skeletal muscle add cardiac risk, so cardiomyocyte involvement is screened for even when symptoms are subtle.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Dermatomyositis differs from polymyositis in its immune attack: DM is largely humoral and complement-mediated against muscle capillaries, whereas polymyositis features cytotoxic T cells directly invading muscle fibers—distinguishing the two myopathies.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Dermatomyositis is a complement-driven microangiopathy: the membrane attack complex deposits on muscle and skin capillaries, starving the outer muscle fibers of blood—the perifascicular atrophy that is the disease's pathologic signature.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Dermatomyositis is first treated with cortisol's kin: high-dose corticosteroids suppress the interferon-driven inflammation attacking muscle and skin, the mainstay before steroid-sparing immunosuppressants and JAK inhibitors are added.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Dermatomyositis can scar the lungs, especially the anti-MDA5 type: a rapidly progressive interstitial lung fibrosis is its most dangerous complication, turning a skin-and-muscle disease into a life-threatening respiratory emergency.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
