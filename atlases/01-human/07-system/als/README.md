@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The gut microbiome is an emerging factor in ALS: altered gut flora and their metabolites may influence neuroinflammation and disease progression along the gut-brain axis, so the microbiome is being explored as a modifier of this relentless motor-neuron disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "ALS motor neurons die from calcium-driven excitotoxicity: excess glutamate floods them with calcium, and their unusually low calcium-buffering makes them especially vulnerable—the rationale for the glutamate-blunting drug riluzole."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells slow ALS: they restrain the harmful neuroinflammation of microglia, and patients with more functional Tregs progress slower—so expanding Tregs is an experimental therapy for this relentless motor neuron disease."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "ALS overlaps frontotemporal dementia in the hippocampus and cortex: TDP-43 pathology spreads beyond motor neurons to memory and behavior regions, so up to half of ALS patients develop cognitive change—uniting two diseases on one molecular spectrum."
 ---
 
 # ALS
@@ -275,6 +284,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — ALS is increasingly seen as a disease of failed protein clearance: motor neurons can't autophagy-degrade misfolded TDP-43 and SOD1, so toxic aggregates accumulate—linking many ALS genes (and the overlap with frontotemporal dementia) to a common disposal defect.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ALS's SOD1 enzyme is a copper-zinc protein, and zinc is structural to it: mutations that disturb metal binding destabilize SOD1 into toxic aggregates, so the zinc (and copper) chemistry of this antioxidant enzyme sits at the heart of inherited ALS.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome is an emerging factor in ALS: altered gut flora and their metabolites may influence neuroinflammation and disease progression along the gut-brain axis, so the microbiome is being explored as a modifier of this relentless motor-neuron disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ALS motor neurons die from calcium-driven excitotoxicity: excess glutamate floods them with calcium, and their unusually low calcium-buffering makes them especially vulnerable—the rationale for the glutamate-blunting drug riluzole.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells slow ALS: they restrain the harmful neuroinflammation of microglia, and patients with more functional Tregs progress slower—so expanding Tregs is an experimental therapy for this relentless motor neuron disease.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — ALS overlaps frontotemporal dementia in the hippocampus and cortex: TDP-43 pathology spreads beyond motor neurons to memory and behavior regions, so up to half of ALS patients develop cognitive change—uniting two diseases on one molecular spectrum.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

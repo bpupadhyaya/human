@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Eosinophilic GPA (Churg-Strauss), an ANCA-associated vasculitis, is IL-5-driven: this cytokine expands the eosinophils that infiltrate lungs, nerves, and heart, so the anti-IL-5 antibody mepolizumab is an approved targeted treatment for it."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "ANCA vasculitis runs on the alternative complement pathway: ANCA-activated neutrophils generate C3 and C5a that recruit and prime more neutrophils in a self-amplifying loop—so complement blockade (avacopan) spares steroids."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "ANCA vasculitis scars what it inflames: crescentic glomerulonephritis fibroses into kidney failure, and MPO-ANCA disease can cause progressive pulmonary fibrosis—so early immunosuppression aims to halt inflammation before irreversible fibrosis sets in."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "ANCA vasculitis reflects failed regulatory T-cell control: defective Tregs let autoreactive B and T cells drive anti-MPO/PR3 autoimmunity, so restoring immune tolerance is a goal beyond the B-cell depletion that current therapy relies on."
 ---
 
 # ANCA Vasculitis
@@ -271,6 +280,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ANCA vasculitis often inflames the eye: granulomatosis with polyangiitis causes scleritis, episcleritis, and orbital masses that can threaten vision, so red, painful eyes can be an early clue—part of its classic ear-nose-eye-lung-kidney pattern.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — ANCA vasculitis damages peripheral nerves as mononeuritis multiplex: inflammation of the small vessels feeding nerves causes patchy, asymmetric foot- or wrist-drop, a hallmark vasculitic neuropathy that signals active, organ-threatening disease.
 - `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — Eosinophilic GPA (Churg-Strauss), an ANCA-associated vasculitis, is IL-5-driven: this cytokine expands the eosinophils that infiltrate lungs, nerves, and heart, so the anti-IL-5 antibody mepolizumab is an approved targeted treatment for it.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — ANCA vasculitis runs on the alternative complement pathway: ANCA-activated neutrophils generate C3 and C5a that recruit and prime more neutrophils in a self-amplifying loop—so complement blockade (avacopan) spares steroids.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — ANCA vasculitis scars what it inflames: crescentic glomerulonephritis fibroses into kidney failure, and MPO-ANCA disease can cause progressive pulmonary fibrosis—so early immunosuppression aims to halt inflammation before irreversible fibrosis sets in.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — ANCA vasculitis reflects failed regulatory T-cell control: defective Tregs let autoreactive B and T cells drive anti-MPO/PR3 autoimmunity, so restoring immune tolerance is a goal beyond the B-cell depletion that current therapy relies on.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
