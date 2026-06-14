@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Pheochromocytoma punishes the kidneys through catecholamines: the surges of adrenaline and noradrenaline drive severe hypertension that damages the kidney's vessels, and extra-adrenal paragangliomas can also arise near the renal hilum."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Pheochromocytoma can stroke the brain: its surges of adrenaline spike blood pressure into hypertensive encephalopathy and hemorrhage, and skull-base paragangliomas can press directly on the brain."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Pheochromocytoma poisons heart-muscle cells: the flood of catecholamines overdrives cardiomyocytes into a stress (catecholamine) cardiomyopathy, sometimes the presenting crisis of the tumor."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Adrenaline from a pheochromocytoma shifts potassium: catecholamine surges drive potassium into cells, dropping blood levels and, with the BP spikes, fueling the dangerous arrhythmias of a crisis."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -289,6 +298,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pheochromocytomas dump catecholamines via calcium: chromaffin cells release adrenaline by calcium-triggered exocytosis, so the tumor's surges of hormone—and the spells of pounding blood pressure they cause—run on this calcium-dependent machinery.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill the pheochromocytoma's vascular stroma: drawn into the richly perfused, pseudohypoxic tumor, they support its blood supply and shape an immune niche of interest in the hard-to-treat metastatic disease.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Pheochromocytoma punishes the kidneys through catecholamines: the surges of adrenaline and noradrenaline drive severe hypertension that damages the kidney's vessels, and extra-adrenal paragangliomas can also arise near the renal hilum.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pheochromocytoma can stroke the brain: its surges of adrenaline spike blood pressure into hypertensive encephalopathy and hemorrhage, and skull-base paragangliomas can press directly on the brain.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Pheochromocytoma poisons heart-muscle cells: the flood of catecholamines overdrives cardiomyocytes into a stress (catecholamine) cardiomyopathy, sometimes the presenting crisis of the tumor.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Adrenaline from a pheochromocytoma shifts potassium: catecholamine surges drive potassium into cells, dropping blood levels and, with the BP spikes, fueling the dangerous arrhythmias of a crisis.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

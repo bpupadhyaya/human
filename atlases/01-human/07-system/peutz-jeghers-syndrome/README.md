@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Peutz-Jeghers polyps recruit blood vessels via VEGF: LKB1/AMPK loss disinhibits mTOR, which drives VEGF and angiogenesis to feed the growing hamartomas, part of the rationale for mTOR-pathway drugs studied in the syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Peutz-Jeghers' freckles are made with copper: the dark spots on the lips and mouth are melanin, built by the copper-dependent enzyme tyrosinase, the mucocutaneous sign that flags the syndrome."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Peutz-Jeghers carries a steep pancreatic cancer risk: STK11 loss makes the pancreas one of the syndrome's most dangerous cancer sites, so it joins the gut and breast in lifelong surveillance."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Peutz-Jeghers polyps are fragile and vascular: their endothelial-lined vessels tear easily as the bulky polyps tumble and intussuscept, causing the recurrent bleeding that drains the body's iron."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -271,6 +280,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Peutz-Jeghers polyps bleed and drain iron: the large hamartomas erode and ooze blood into the gut, and with the obstruction they cause, chronic blood loss makes iron-deficiency anemia a frequent sign in these patients.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help build the Peutz-Jeghers polyp: tumor-associated macrophages populate the fibroblast-rich hamartomatous stroma and secrete growth and angiogenic factors, supporting the bulky polyps that arise from LKB1 loss.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Peutz-Jeghers polyps recruit blood vessels via VEGF: LKB1/AMPK loss disinhibits mTOR, which drives VEGF and angiogenesis to feed the growing hamartomas, part of the rationale for mTOR-pathway drugs studied in the syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Peutz-Jeghers' freckles are made with copper: the dark spots on the lips and mouth are melanin, built by the copper-dependent enzyme tyrosinase, the mucocutaneous sign that flags the syndrome.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Peutz-Jeghers carries a steep pancreatic cancer risk: STK11 loss makes the pancreas one of the syndrome's most dangerous cancer sites, so it joins the gut and breast in lifelong surveillance.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Peutz-Jeghers polyps are fragile and vascular: their endothelial-lined vessels tear easily as the bulky polyps tumble and intussuscept, causing the recurrent bleeding that drains the body's iron.
 
 ---
 
