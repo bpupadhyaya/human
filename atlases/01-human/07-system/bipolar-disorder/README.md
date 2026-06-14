@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Mania is in part a catecholamine surge: excess norepinephrine (with dopamine) drives the energy, reduced sleep need, and racing activity of manic episodes, which is why noradrenergic stimulants can trigger mania and why dampening it helps treat it."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Bipolar disorder dysregulates the stress hormone: an overactive HPA axis raises cortisol, and the resulting stress sensitization can kindle mood episodes, while high cortisol also contributes to the cognitive and metabolic toll of the illness."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Bipolar disorder shows up in the brain's white matter: oligodendrocyte and myelin abnormalities disrupt the connections between mood-regulating regions, one of the more consistent neuroimaging findings in the disorder."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Bipolar disorder can shrink the hippocampus: recurrent episodes and high cortisol are linked to reduced hippocampal volume and impaired plasticity, a change lithium and mood stabilizers may partly protect against."
 ---
 
 # Bipolar Disorder
@@ -273,6 +282,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Bipolar disorder's mood stabilizers act on sodium and its kin: lithium is a sodium-like ion that substitutes for it in neurons, while valproate and lamotrigine block sodium channels—so monovalent-cation and ion-channel biology underlies calming the manic brain.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Bipolar disorder carries a neuroinflammatory signature in microglia: activated brain microglia and raised inflammatory markers accompany mood episodes, supporting an inflammation hypothesis and interest in anti-inflammatory adjuncts.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Mania is in part a catecholamine surge: excess norepinephrine (with dopamine) drives the energy, reduced sleep need, and racing activity of manic episodes, which is why noradrenergic stimulants can trigger mania and why dampening it helps treat it.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Bipolar disorder dysregulates the stress hormone: an overactive HPA axis raises cortisol, and the resulting stress sensitization can kindle mood episodes, while high cortisol also contributes to the cognitive and metabolic toll of the illness.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Bipolar disorder shows up in the brain's white matter: oligodendrocyte and myelin abnormalities disrupt the connections between mood-regulating regions, one of the more consistent neuroimaging findings in the disorder.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Bipolar disorder can shrink the hippocampus: recurrent episodes and high cortisol are linked to reduced hippocampal volume and impaired plasticity, a change lithium and mood stabilizers may partly protect against.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

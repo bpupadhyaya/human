@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin curbs the reward of overeating: it reduces food intake and the hedonic drive to binge, so it is being studied as a treatment for binge-eating disorder—linking the social-bonding hormone to appetite control."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Binge eating is driven partly by the brain's opioid 'liking' system: mu-opioid signaling makes palatable food intensely pleasurable, fueling loss-of-control eating, which is why opioid-blocking drugs are studied to blunt the reward of a binge."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Binge-eating disorder strains the stomach's satiety signals: huge rapid meals overdistend the stomach and blunt the fullness cues that normally end eating, so disrupted gastric stretch-signaling helps the binge run past satiety."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Repeated binges overwork the pancreas: large carbohydrate-rich binges force big insulin surges from pancreatic beta cells, and over time this metabolic stress feeds the insulin resistance linking binge-eating disorder to type 2 diabetes."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -275,6 +284,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Binge-eating disorder's main drug works on norepinephrine and dopamine: lisdexamfetamine (the only FDA-approved BED medication) raises both to strengthen impulse control and curb bingeing, tying the disorder to the brain's catecholamine reward-and-restraint circuits.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Binge-eating disorder expands adipose tissue: recurrent large binges without compensation drive weight gain, so most patients develop obesity—and the swelling fat depots feed back through leptin and insulin resistance into metabolic disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin curbs the reward of overeating: it reduces food intake and the hedonic drive to binge, so it is being studied as a treatment for binge-eating disorder—linking the social-bonding hormone to appetite control.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Binge eating is driven partly by the brain's opioid 'liking' system: mu-opioid signaling makes palatable food intensely pleasurable, fueling loss-of-control eating, which is why opioid-blocking drugs are studied to blunt the reward of a binge.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Binge-eating disorder strains the stomach's satiety signals: huge rapid meals overdistend the stomach and blunt the fullness cues that normally end eating, so disrupted gastric stretch-signaling helps the binge run past satiety.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Repeated binges overwork the pancreas: large carbohydrate-rich binges force big insulin surges from pancreatic beta cells, and over time this metabolic stress feeds the insulin resistance linking binge-eating disorder to type 2 diabetes.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
