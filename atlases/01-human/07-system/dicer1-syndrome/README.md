@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "DICER1 syndrome affects the eye: ciliary body medulloepithelioma, a rare childhood intraocular tumor, is part of its spectrum, so an unusual eye tumor in a child can be the presenting clue to this pleiotropic tumor-predisposition syndrome."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "DICER1 syndrome seeds tumors in the brain: pineoblastoma and pituitary blastoma are characteristic CNS tumors, so unusual childhood brain tumors—especially with other DICER1 features—prompt testing for this microRNA-processing gene defect."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "DICER1's pituitary blastoma floods the body with cortisol: this rare infant tumor secretes ACTH, causing Cushing's disease in babies, so early-life Cushing's is a red flag for a DICER1 mutation behind the pituitary tumor."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "DICER1 carriers warrant caution with radiation: as in other tumor-predisposition syndromes, radiotherapy's DNA-damaging photons may raise the lifetime risk of second cancers, so treatment plans weigh radiation exposure carefully against benefit."
 ---
 
 # DICER1 Syndrome
@@ -226,6 +235,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — DICER1 syndrome strikes the reproductive system: it causes ovarian Sertoli-Leydig cell tumors that can virilize, plus other gonadal tumors, so a young woman with such a tumor warrants DICER1 testing and broader cancer surveillance.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — DICER1 syndrome reaches multiple endocrine glands: beyond thyroid disease it causes pituitary blastoma in infants and rare adrenal and pineal tumors, so its microRNA-processing defect disrupts hormone-producing tissues across the endocrine system.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — DICER1 syndrome affects the eye: ciliary body medulloepithelioma, a rare childhood intraocular tumor, is part of its spectrum, so an unusual eye tumor in a child can be the presenting clue to this pleiotropic tumor-predisposition syndrome.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — DICER1 syndrome seeds tumors in the brain: pineoblastoma and pituitary blastoma are characteristic CNS tumors, so unusual childhood brain tumors—especially with other DICER1 features—prompt testing for this microRNA-processing gene defect.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — DICER1's pituitary blastoma floods the body with cortisol: this rare infant tumor secretes ACTH, causing Cushing's disease in babies, so early-life Cushing's is a red flag for a DICER1 mutation behind the pituitary tumor.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — DICER1 carriers warrant caution with radiation: as in other tumor-predisposition syndromes, radiotherapy's DNA-damaging photons may raise the lifetime risk of second cancers, so treatment plans weigh radiation exposure carefully against benefit.
 
 ---
 

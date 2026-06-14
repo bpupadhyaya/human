@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/rhabdomyosarcoma
     relation: connects-to
     note: "Desmoid tumors sit in the soft-tissue-mass differential with sarcomas like rhabdomyosarcoma: desmoids are locally aggressive but never metastasize, while rhabdomyosarcoma is frankly malignant—so biopsy distinguishes a benign fibromatosis from a deadly sarcoma."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The desmoid tumor cell is a myofibroblast: it blends fibroblast and smooth-muscle features, expressing actin as it contracts and invades locally, so although benign and non-metastasizing, its smooth-muscle-like infiltration makes desmoids hard to fully excise."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Desmoid tumors are estrogen-sensitive and tied to pregnancy: many abdominal-wall desmoids appear during or after pregnancy as estrogen drives their growth, so they often arise near the gravid uterus and may regress after delivery or with anti-estrogens."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Desmoid is a fibromatosis—benign but relentlessly fibrotic: clonal myofibroblasts lay down dense collagen that infiltrates muscle and fascia, so it behaves like an aggressive scar, distinguishing it from both reactive fibrosis and true sarcoma."
 ---
 
 # Desmoid Tumor
@@ -245,6 +254,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy is one option for unresectable desmoid tumors: though benign, desmoids invade locally and recur after surgery, so photon-beam radiation can control disease when an operation would be mutilating—balanced against radiation's own risks in young patients.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Desmoid tumors have a special affinity for the abdomen and gut: in FAP/Gardner syndrome they arise in the mesentery and abdominal wall, where they can encase and obstruct the bowel and its vessels—making intra-abdominal desmoids a leading cause of death in FAP.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — Desmoid tumors sit in the soft-tissue-mass differential with sarcomas like rhabdomyosarcoma: desmoids are locally aggressive but never metastasize, while rhabdomyosarcoma is frankly malignant—so biopsy distinguishes a benign fibromatosis from a deadly sarcoma.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The desmoid tumor cell is a myofibroblast: it blends fibroblast and smooth-muscle features, expressing actin as it contracts and invades locally, so although benign and non-metastasizing, its smooth-muscle-like infiltration makes desmoids hard to fully excise.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Desmoid tumors are estrogen-sensitive and tied to pregnancy: many abdominal-wall desmoids appear during or after pregnancy as estrogen drives their growth, so they often arise near the gravid uterus and may regress after delivery or with anti-estrogens.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Desmoid is a fibromatosis—benign but relentlessly fibrotic: clonal myofibroblasts lay down dense collagen that infiltrates muscle and fascia, so it behaves like an aggressive scar, distinguishing it from both reactive fibrosis and true sarcoma.
 
 ---
 
