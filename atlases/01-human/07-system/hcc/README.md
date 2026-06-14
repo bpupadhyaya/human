@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Carbon-ion radiotherapy is an option for liver cancer: heavy-ion beams deposit dose precisely in the tumor while sparing surrounding cirrhotic liver, offering a focal treatment for HCC unsuitable for surgery or ablation."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "HCC's cirrhotic background enlarges the spleen: scarring raises portal-vein pressure, which backs up into the spleen, causing splenomegaly and trapping platelets, so a big spleen and low platelets often signal the cirrhosis underlying liver cancer."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic liver inflammation drives HCC through NF-kB: persistent hepatitis keeps this master switch active in hepatocytes, promoting survival and proliferation of damaged cells, so the inflammation-to-cancer path runs largely through NF-kB."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 helps explain why HCC favors men: Kupffer-cell IL-6 fuels tumor growth via STAT3, and because estrogen suppresses IL-6, women are partly protected, a link that also ties obesity and fatty-liver inflammation to liver cancer."
 ---
 
 # Hepatocellular Carcinoma
@@ -269,6 +278,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — HCC immunotherapy combines checkpoint blockers: the STRIDE regimen pairs anti-CTLA-4 (tremelimumab) with anti-PD-L1 (durvalumab), and atezolizumab+bevacizumab is another standard—so dual immune and anti-VEGF therapy now front-lines advanced liver cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — The liver is NK-cell territory that HCC must evade: natural killer cells normally patrol the liver and kill transformed hepatocytes, so HCC's suppression of NK function is part of how it escapes immune control—and a target for therapy.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an option for liver cancer: heavy-ion beams deposit dose precisely in the tumor while sparing surrounding cirrhotic liver, offering a focal treatment for HCC unsuitable for surgery or ablation.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — HCC's cirrhotic background enlarges the spleen: scarring raises portal-vein pressure, which backs up into the spleen, causing splenomegaly and trapping platelets, so a big spleen and low platelets often signal the cirrhosis underlying liver cancer.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic liver inflammation drives HCC through NF-kB: persistent hepatitis keeps this master switch active in hepatocytes, promoting survival and proliferation of damaged cells, so the inflammation-to-cancer path runs largely through NF-kB.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps explain why HCC favors men: Kupffer-cell IL-6 fuels tumor growth via STAT3, and because estrogen suppresses IL-6, women are partly protected, a link that also ties obesity and fatty-liver inflammation to liver cancer.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

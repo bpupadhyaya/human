@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Treated HIV smolders with IL-6-driven inflammation: even with virus suppressed, chronic immune activation raises IL-6 and inflammatory markers, accelerating heart disease, frailty and other non-AIDS conditions—the 'inflammaging' of long-term HIV."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "HIV's first great battlefield is the gut: it destroys most CD4 cells in the intestine's lymphoid tissue early, and the leaky gut that follows lets microbes translocate, fueling the chronic immune activation that persists even on treatment."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "HIV invades the brain and hides there: infected macrophages carry it across the blood-brain barrier into a sanctuary the drugs reach poorly, causing HIV-associated neurocognitive disorder and a reservoir that blocks cure."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "HIV warps the regulatory T-cell balance: it expands these immune suppressors that can damp the antiviral attack while also serving as a viral hiding place, so Tregs both blunt control of the virus and help sustain its reservoir."
 ---
 
 # HIV
@@ -278,6 +287,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — HIV crosses the placenta without prevention: mother-to-child transmission in pregnancy, birth or breastfeeding once infected many infants, but maternal antiretroviral therapy now makes transmission rare—one of HIV medicine's great successes.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — HIV hides in the brain's microglia: these long-lived cells form a viral reservoir behind the blood-brain barrier, driving HIV-associated neurocognitive disorder and frustrating cure efforts even when blood virus is suppressed.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Treated HIV smolders with IL-6-driven inflammation: even with virus suppressed, chronic immune activation raises IL-6 and inflammatory markers, accelerating heart disease, frailty and other non-AIDS conditions—the 'inflammaging' of long-term HIV.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — HIV's first great battlefield is the gut: it destroys most CD4 cells in the intestine's lymphoid tissue early, and the leaky gut that follows lets microbes translocate, fueling the chronic immune activation that persists even on treatment.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — HIV invades the brain and hides there: infected macrophages carry it across the blood-brain barrier into a sanctuary the drugs reach poorly, causing HIV-associated neurocognitive disorder and a reservoir that blocks cure.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HIV warps the regulatory T-cell balance: it expands these immune suppressors that can damp the antiviral attack while also serving as a viral hiding place, so Tregs both blunt control of the virus and help sustain its reservoir.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
