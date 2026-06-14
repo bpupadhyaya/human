@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Myeloma plasma cells depend on NF-kB for survival: the bone-marrow niche and genetic lesions keep this pathway switched on, and proteasome inhibitors like bortezomib work partly by blocking NF-kB activation—starving the cell of its survival signal."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Multiple myeloma cells lean on autophagy to survive their own output: churning out immunoglobulin floods them with misfolded protein, so they use autophagy alongside the proteasome to clear it—which is why proteasome inhibitors like bortezomib are so lethal to them."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Multiple myeloma is nursed by marrow macrophages: these cells in the bone-marrow niche secrete survival signals and shield myeloma cells from drugs and immune attack, part of the supportive microenvironment the cancer depends on."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Multiple myeloma cripples dendritic cells: the tumor impairs these antigen-presenters, weakening immunity and helping it evade the T-cell response—so dendritic-cell vaccines are explored to rebuild anti-myeloma immunity."
 ---
 
 # Multiple Myeloma
@@ -260,6 +269,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Multiple myeloma is a frontier for engineered T cells: BCMA-directed CAR-T cells and T-cell-engaging bispecific antibodies redirect cytotoxic T cells to kill plasma cells, producing deep remissions in disease that has relapsed after every drug class.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Antibody therapy for myeloma works through NK cells: daratumumab against CD38 and elotuzumab tag plasma cells for natural-killer-cell killing (ADCC), making these antibodies a backbone of modern treatment.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Myeloma plasma cells depend on NF-kB for survival: the bone-marrow niche and genetic lesions keep this pathway switched on, and proteasome inhibitors like bortezomib work partly by blocking NF-kB activation—starving the cell of its survival signal.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Multiple myeloma cells lean on autophagy to survive their own output: churning out immunoglobulin floods them with misfolded protein, so they use autophagy alongside the proteasome to clear it—which is why proteasome inhibitors like bortezomib are so lethal to them.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Multiple myeloma is nursed by marrow macrophages: these cells in the bone-marrow niche secrete survival signals and shield myeloma cells from drugs and immune attack, part of the supportive microenvironment the cancer depends on.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Multiple myeloma cripples dendritic cells: the tumor impairs these antigen-presenters, weakening immunity and helping it evade the T-cell response—so dendritic-cell vaccines are explored to rebuild anti-myeloma immunity.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

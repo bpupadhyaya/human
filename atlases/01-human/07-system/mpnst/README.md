@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/neurofibromatosis-type-2
     relation: connects-to
     note: "NF1 and NF2 split the nerve-tumor risk: NF1's neurofibromas can transform into MPNST, while NF2 instead causes schwannomas and meningiomas that rarely turn malignant—so the two syndromes demand different surveillance for nerve cancers."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "MPNST is fundamentally unleashed RAS: NF1's protein is a brake on RAS, so losing it lets KRAS/RAS-MAPK signaling run wild, transforming benign neurofibromas into this aggressive sarcoma—why MEK inhibitors are tested against it."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "MPNST progression hinges on losing the CDK4/6 brake: CDKN2A deletion removes the inhibitor of these cell-cycle kinases, letting the tumor divide unchecked—a hallmark of the leap from plexiform neurofibroma to malignancy."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "MPNST is studied as a target for NK and immune therapy: because it resists chemo and radiation, harnessing natural killer cells and the immune system is explored to attack this sarcoma where standard treatments fall short."
 ---
 
 # MPNST
@@ -255,6 +264,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — MPNST runs on the RAS-PI3K-mTOR axis: NF1 loss unleashes RAS, which fires PI3K-AKT-mTOR to drive growth, so mTOR inhibitors (often combined with MEK blockade) are tested against a sarcoma that resists standard chemotherapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages crowd MPNST and its precursor: plexiform neurofibromas are rich in macrophages and mast cells that feed an inflammatory niche promoting growth and malignant transformation, making this immune microenvironment a target.
 - `connects-to` → **[Neurofibromatosis Type 2](../neurofibromatosis-type-2/README.md)** — NF1 and NF2 split the nerve-tumor risk: NF1's neurofibromas can transform into MPNST, while NF2 instead causes schwannomas and meningiomas that rarely turn malignant—so the two syndromes demand different surveillance for nerve cancers.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — MPNST is fundamentally unleashed RAS: NF1's protein is a brake on RAS, so losing it lets KRAS/RAS-MAPK signaling run wild, transforming benign neurofibromas into this aggressive sarcoma—why MEK inhibitors are tested against it.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — MPNST progression hinges on losing the CDK4/6 brake: CDKN2A deletion removes the inhibitor of these cell-cycle kinases, letting the tumor divide unchecked—a hallmark of the leap from plexiform neurofibroma to malignancy.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — MPNST is studied as a target for NK and immune therapy: because it resists chemo and radiation, harnessing natural killer cells and the immune system is explored to attack this sarcoma where standard treatments fall short.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
