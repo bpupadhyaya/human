@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Peutz-Jeghers affects the reproductive system with distinctive tumors: women develop sex-cord tumors with annular tubules (SCTAT) and raised cervical/ovarian cancer risk, and men can get calcifying Sertoli cell testicular tumors—warranting gonadal surveillance."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Peutz-Jeghers hamartomas stud the whole gut, including the stomach: gastric polyps add to the small-bowel ones, contributing bleeding and a raised gastric-cancer risk, so upper endoscopy joins small-bowel surveillance in management."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Peutz-Jeghers often presents with iron-deficiency anemia: chronic slow bleeding from gastrointestinal hamartomas depletes iron, so unexplained anemia in a young patient with lip pigmentation can be the clue that prompts diagnosis."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "Peutz-Jeghers and MUTYH-associated polyposis are distinct inherited polyposes: PJS makes STK11-driven hamartomas with smooth-muscle cores, while MAP makes adenomas from oxidative DNA-repair failure—so polyp histology and gene testing separate them."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -235,6 +244,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Peutz-Jeghers fills the digestive tract with hamartomatous polyps: STK11/LKB1 loss seeds large hamartomas, especially in the small bowel, that bleed and cause intussusception in childhood—so GI polyps and obstruction often bring the diagnosis.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Pigmented spots make Peutz-Jeghers visible on the skin: mucocutaneous melanin macules on the lips, mouth and fingers appear in childhood, so these freckle-like spots are often the first clue to this STK11 polyposis-and-cancer syndrome.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Peutz-Jeghers affects the reproductive system with distinctive tumors: women develop sex-cord tumors with annular tubules (SCTAT) and raised cervical/ovarian cancer risk, and men can get calcifying Sertoli cell testicular tumors—warranting gonadal surveillance.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Peutz-Jeghers hamartomas stud the whole gut, including the stomach: gastric polyps add to the small-bowel ones, contributing bleeding and a raised gastric-cancer risk, so upper endoscopy joins small-bowel surveillance in management.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Peutz-Jeghers often presents with iron-deficiency anemia: chronic slow bleeding from gastrointestinal hamartomas depletes iron, so unexplained anemia in a young patient with lip pigmentation can be the clue that prompts diagnosis.
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — Peutz-Jeghers and MUTYH-associated polyposis are distinct inherited polyposes: PJS makes STK11-driven hamartomas with smooth-muscle cores, while MAP makes adenomas from oxidative DNA-repair failure—so polyp histology and gene testing separate them.
 
 ---
 
