@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells help control ALL after transplant: donor NK cells mount a graft-versus-leukemia effect against residual blasts, and NK-based and CAR therapies are being developed to harness this innate killing."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "Steroids are a cornerstone of ALL treatment through the glucocorticoid receptor: when activated, it triggers apoptosis in lymphoblasts, so every regimen leans on it—and resistance to this signal predicts a worse outcome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "ALL can crash blood calcium through tumor lysis: as chemotherapy bursts huge numbers of blasts, released phosphate binds calcium and potassium and uric acid surge, a metabolic emergency that threatens the heart and kidneys."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "ALL and its therapy both burden the liver: leukemic cells infiltrate it to cause hepatomegaly, while drugs like asparaginase and methotrexate are hepatotoxic, so liver function is watched throughout the long treatment course."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -275,6 +284,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Treating ALL can crash the kidneys via tumor lysis: rapid leukemic-cell breakdown floods the blood with potassium, phosphate and urate that precipitate in the kidney, so hydration and rasburicase guard against this acute kidney injury.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The testis is a sanctuary where ALL hides: the blood-testis barrier shields leukemic cells from chemotherapy, so the testis (like the CNS) is a site of relapse that requires dedicated treatment and monitoring in boys.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help control ALL after transplant: donor NK cells mount a graft-versus-leukemia effect against residual blasts, and NK-based and CAR therapies are being developed to harness this innate killing.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — Steroids are a cornerstone of ALL treatment through the glucocorticoid receptor: when activated, it triggers apoptosis in lymphoblasts, so every regimen leans on it—and resistance to this signal predicts a worse outcome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ALL can crash blood calcium through tumor lysis: as chemotherapy bursts huge numbers of blasts, released phosphate binds calcium and potassium and uric acid surge, a metabolic emergency that threatens the heart and kidneys.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — ALL and its therapy both burden the liver: leukemic cells infiltrate it to cause hepatomegaly, while drugs like asparaginase and methotrexate are hepatotoxic, so liver function is watched throughout the long treatment course.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

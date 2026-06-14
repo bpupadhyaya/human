@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Alcohol leaves a fingerprint in red cells: it is directly toxic to marrow and, with folate/B12 deficiency, enlarges red cells, so macrocytosis (high MCV) is a classic clue to chronic heavy drinking."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Heavy drinking drains the body of magnesium: alcohol makes the kidneys waste it and poor intake compounds the loss, so the resulting hypomagnesemia worsens withdrawal tremor and seizures and destabilizes the heart's rhythm."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Alcohol dependence reshapes synapses: chronic drinking shifts the balance of excitatory and inhibitory synaptic signaling, so the brain adapts to the drug—and the rebound when it is removed produces the dangerous withdrawal syndrome."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Alcohol injures the stomach directly: it inflames and erodes the gastric lining, causing gastritis and bleeding ulcers, and the vomiting of heavy use can tear the junction with the esophagus—common reasons drinkers bleed."
 ---
 
 # Alcohol Use Disorder
@@ -327,6 +336,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Heavy drinking and thiamine loss devastate the hippocampus: Wernicke-Korsakoff syndrome and alcohol-related brain damage impair this memory hub, causing the dense amnesia and confabulation of Korsakoff's—why thiamine is given urgently in alcohol withdrawal.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Alcohol is a proven cause of colorectal cancer: its metabolite acetaldehyde damages DNA and it depletes folate, so even moderate drinking raises colorectal risk—one of several cancers (with breast and liver) alcohol drives.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Alcohol leaves a fingerprint in red cells: it is directly toxic to marrow and, with folate/B12 deficiency, enlarges red cells, so macrocytosis (high MCV) is a classic clue to chronic heavy drinking.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Heavy drinking drains the body of magnesium: alcohol makes the kidneys waste it and poor intake compounds the loss, so the resulting hypomagnesemia worsens withdrawal tremor and seizures and destabilizes the heart's rhythm.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Alcohol dependence reshapes synapses: chronic drinking shifts the balance of excitatory and inhibitory synaptic signaling, so the brain adapts to the drug—and the rebound when it is removed produces the dangerous withdrawal syndrome.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Alcohol injures the stomach directly: it inflames and erodes the gastric lining, causing gastritis and bleeding ulcers, and the vomiting of heavy use can tear the junction with the esophagus—common reasons drinkers bleed.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
