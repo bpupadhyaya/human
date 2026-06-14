@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Polycythemia vera raises neutrophils too, not just red cells: as a panmyelosis it often drives leukocytosis, and a high neutrophil count is itself a predictor of the clots that are the disease's main danger."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Polycythemia vera endangers the brain with sludgy blood: too many red cells thicken the blood, slowing flow and raising the risk of stroke and cerebral vein clots, so lowering the red-cell count protects against these neurologic catastrophes."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Polycythemia vera causes a maddening water-triggered itch: contact with warm water releases mediators from the expanded mast-cell population, producing aquagenic pruritus—an unusual but characteristic clue to the disease."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "PV's high cell counts can fake high potassium: the swollen mass of cells leaks potassium after the blood sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body."
 ---
 
 # Polycythemia Vera
@@ -257,6 +266,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Polycythemia vera is too much hemoglobin: the JAK2-mutant marrow overproduces red cells, thickening the blood with hemoglobin until it sludges and clots, so treatment phlebotomizes patients to a target hematocrit to cut stroke and thrombosis risk.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Polycythemia vera itches through histamine: the disease expands mast cells and basophils whose histamine release causes the maddening itch after a warm shower (aquagenic pruritus), a hallmark symptom that antihistamines and JAK inhibitors target.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Polycythemia vera raises neutrophils too, not just red cells: as a panmyelosis it often drives leukocytosis, and a high neutrophil count is itself a predictor of the clots that are the disease's main danger.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Polycythemia vera endangers the brain with sludgy blood: too many red cells thicken the blood, slowing flow and raising the risk of stroke and cerebral vein clots, so lowering the red-cell count protects against these neurologic catastrophes.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Polycythemia vera causes a maddening water-triggered itch: contact with warm water releases mediators from the expanded mast-cell population, producing aquagenic pruritus—an unusual but characteristic clue to the disease.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PV's high cell counts can fake high potassium: the swollen mass of cells leaks potassium after the blood sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
