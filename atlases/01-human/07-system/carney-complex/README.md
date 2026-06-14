@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Carney complex tumors lean on mTOR downstream of runaway PKA: unrestrained protein kinase A drives growth signaling into the mTOR pathway, so mTOR inhibitors are explored to rein in the syndrome's many PRKAR1A-driven tumors."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Carney complex marks the eyes: pigmented spots (lentigines) dot the eyelids and conjunctiva, and myxomas can arise around the eye, visible clues to the underlying PRKAR1A syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Carney's adrenal disease can drop potassium: PPNAD drives a cortisol excess whose mineralocorticoid effect makes the kidneys waste potassium, so hypokalemia can accompany the Cushing's syndrome."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Carney's cardiac myxomas endanger the vessels: the heart tumor can shed fragments that lodge in arteries and injure their endothelial lining, causing strokes and embolic damage—a leading cause of death in the syndrome."
 ---
 
 # Carney Complex
@@ -269,6 +278,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Carney complex grows tumors in the nerves: psammomatous melanotic schwannomas, pigmented tumors of peripheral nerves, are a hallmark, so a schwannoma with melanin pigment should prompt a search for the syndrome.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PKA overactivity in Carney complex feeds Wnt signaling: losing PRKAR1A unleashes protein kinase A, which stabilizes beta-catenin in cardiac myxomas and other tumors, linking the cAMP defect to the Wnt growth pathway.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Carney complex tumors lean on mTOR downstream of runaway PKA: unrestrained protein kinase A drives growth signaling into the mTOR pathway, so mTOR inhibitors are explored to rein in the syndrome's many PRKAR1A-driven tumors.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Carney complex marks the eyes: pigmented spots (lentigines) dot the eyelids and conjunctiva, and myxomas can arise around the eye, visible clues to the underlying PRKAR1A syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Carney's adrenal disease can drop potassium: PPNAD drives a cortisol excess whose mineralocorticoid effect makes the kidneys waste potassium, so hypokalemia can accompany the Cushing's syndrome.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Carney's cardiac myxomas endanger the vessels: the heart tumor can shed fragments that lodge in arteries and injure their endothelial lining, causing strokes and embolic damage—a leading cause of death in the syndrome.
 
 ---
 

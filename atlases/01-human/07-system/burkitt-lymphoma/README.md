@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "MYC rewires Burkitt's metabolism through the PI3K-mTOR axis: the driving oncogene partners with mTOR signaling to fuel the relentless growth and protein synthesis, making this pathway an attractive target alongside chemotherapy."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Burkitt's furious metabolism can acidify the blood: its MYC-driven glycolysis pours out lactic acid, so a rare type B lactic acidosis can appear from the tumor burden alone, even before chemotherapy begins."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Sporadic Burkitt lymphoma fills the abdomen: it forms bulky masses that involve the bowel, liver, and ovaries, so abdominal pain and a rapidly growing belly mass are common presentations in children."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Burkitt lymphoma blazes on a PET scan: its near-100% proliferation rate makes it intensely avid for the radiotracer's photons, so PET imaging vividly stages this fastest-growing human tumor."
 ---
 
 # Burkitt Lymphoma
@@ -282,6 +291,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Burkitt is the textbook tumor-lysis cancer: its blistering growth means chemotherapy bursts huge numbers of cells at once, dumping potassium into the blood, so dangerous hyperkalemia and arrhythmia must be anticipated and prevented from the first dose.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Burkitt lymphoma readily seeds the brain: it has a strong tendency to spread to the central nervous system and meninges, so treatment includes CNS-directed chemotherapy and prophylaxis to reach this sanctuary the bloodstream drugs miss.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — MYC rewires Burkitt's metabolism through the PI3K-mTOR axis: the driving oncogene partners with mTOR signaling to fuel the relentless growth and protein synthesis, making this pathway an attractive target alongside chemotherapy.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Burkitt's furious metabolism can acidify the blood: its MYC-driven glycolysis pours out lactic acid, so a rare type B lactic acidosis can appear from the tumor burden alone, even before chemotherapy begins.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Sporadic Burkitt lymphoma fills the abdomen: it forms bulky masses that involve the bowel, liver, and ovaries, so abdominal pain and a rapidly growing belly mass are common presentations in children.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Burkitt lymphoma blazes on a PET scan: its near-100% proliferation rate makes it intensely avid for the radiotracer's photons, so PET imaging vividly stages this fastest-growing human tumor.
 
 ---
 
