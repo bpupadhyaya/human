@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Thalassemia reshapes the skeleton: chronic anemia drives massive marrow expansion that thins and deforms bones—frontal bossing, a 'hair-on-end' skull and fracture-prone osteoporosis—so the musculoskeletal changes are a visible signature of untreated disease."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "The placenta marks thalassemia's most severe form: alpha-thalassemia major (loss of all four genes) leaves the fetus unable to make functional hemoglobin, causing hydrops fetalis and stillbirth—so prenatal screening and intrauterine transfusion are how it is managed."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Thalassemia shapes reproductive choices and function: carrier screening and genetic counseling guide family planning, while iron overload from transfusions damages the pituitary and gonads, causing delayed puberty and infertility—so fertility care is part of treatment."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Thalassemia's anemia is largely macrophage-driven: defective red cells and their precursors are destroyed by splenic and marrow macrophages (extravascular hemolysis and ineffective erythropoiesis), so splenomegaly and iron recycling stem from this clearance."
 ---
 
 # Thalassemia
@@ -258,6 +267,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Ferroportin](../../03-molecular/ferroportin/README.md)** — Ferroportin sits at the heart of thalassemia's iron overload: ineffective erythropoiesis suppresses hepcidin, freeing ferroportin to pump excess dietary iron into blood, so iron accumulates in heart and liver—the main cause of death in transfused patients.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Iron-overload cardiomyopathy is the leading killer in thalassemia: years of transfusion and gut iron absorption deposit iron in the myocardium, causing heart failure and arrhythmia, so iron chelation and cardiac MRI monitoring are central to survival.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Thalassemia reshapes the skeleton: chronic anemia drives massive marrow expansion that thins and deforms bones—frontal bossing, a 'hair-on-end' skull and fracture-prone osteoporosis—so the musculoskeletal changes are a visible signature of untreated disease.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta marks thalassemia's most severe form: alpha-thalassemia major (loss of all four genes) leaves the fetus unable to make functional hemoglobin, causing hydrops fetalis and stillbirth—so prenatal screening and intrauterine transfusion are how it is managed.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Thalassemia shapes reproductive choices and function: carrier screening and genetic counseling guide family planning, while iron overload from transfusions damages the pituitary and gonads, causing delayed puberty and infertility—so fertility care is part of treatment.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Thalassemia's anemia is largely macrophage-driven: defective red cells and their precursors are destroyed by splenic and marrow macrophages (extravascular hemolysis and ineffective erythropoiesis), so splenomegaly and iron recycling stem from this clearance.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/pnh
     relation: connects-to
     note: "PNH is a striking cause of unusual venous thrombosis: complement-driven hemolysis and platelet activation provoke clots at odd sites (hepatic, cerebral veins), so unexplained venous thromboembolism with hemolysis should prompt testing for PNH."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils help build venous clots: in sluggish veins they cast neutrophil extracellular traps (NETs) that scaffold red cells and platelets into a thrombus, so this immunothrombosis links inflammation and infection to the risk of deep-vein clots."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy is a hypercoagulable state centered on the placenta: clotting factors rise to limit delivery bleeding, but this makes venous thromboembolism a leading cause of maternal death—so prophylaxis is considered in high-risk pregnancy and postpartum."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormones make VTE a reproductive-health issue: estrogen-containing contraceptives and hormone therapy raise clotting-factor levels and thrombosis risk, so VTE history shapes contraceptive choices and prompts caution with hormonal treatments."
 ---
 
 # Venous Thromboembolism
@@ -234,6 +243,9 @@ cross_links:
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is the raw material of the venous clot: thrombin cleaves it into fibrin strands that mesh trapped red cells into the gelatinous thrombus characteristic of veins, and high fibrinogen levels independently raise venous thromboembolism risk.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Pulmonary embolism stresses the heart acutely: a large clot lodging in the pulmonary arteries suddenly raises right-ventricular afterload, so the right heart can fail and collapse—making PE a cardiovascular emergency, not just a lung problem.
 - `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — PNH is a striking cause of unusual venous thrombosis: complement-driven hemolysis and platelet activation provoke clots at odd sites (hepatic, cerebral veins), so unexplained venous thromboembolism with hemolysis should prompt testing for PNH.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help build venous clots: in sluggish veins they cast neutrophil extracellular traps (NETs) that scaffold red cells and platelets into a thrombus, so this immunothrombosis links inflammation and infection to the risk of deep-vein clots.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy is a hypercoagulable state centered on the placenta: clotting factors rise to limit delivery bleeding, but this makes venous thromboembolism a leading cause of maternal death—so prophylaxis is considered in high-risk pregnancy and postpartum.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones make VTE a reproductive-health issue: estrogen-containing contraceptives and hormone therapy raise clotting-factor levels and thrombosis risk, so VTE history shapes contraceptive choices and prompts caution with hormonal treatments.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
