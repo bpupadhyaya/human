@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "BCG immunotherapy for bladder cancer works through dendritic cells: the mycobacteria are taken up by urothelial and antigen-presenting cells, activating dendritic cells that prime a tumor-killing immune response—innate immunity turned against cancer."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Bladder cancer often overexpresses EGFR-family receptors: urothelial tumors signal through EGFR and HER2 to grow, making the ErbB pathway a studied target alongside the FGFR inhibitors already used in this cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "BCG immunotherapy for bladder cancer mobilizes NK cells: instilling live bacteria into the bladder triggers an innate immune assault in which natural killer cells help destroy superficial tumor cells, a decades-old immunotherapy that predates checkpoint drugs."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Bladder tumors recruit regulatory T cells to evade attack: Tregs accumulate in the bladder wall and suppress cytotoxic immunity, blunting both BCG and PD-1 checkpoint therapy and marking a target to make immunotherapy work better."
 ---
 
 # Bladder Cancer
@@ -252,6 +261,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Tuberculosis](../tuberculosis/README.md)** — Bladder cancer is treated with a TB vaccine: intravesical BCG—live attenuated Mycobacterium bovis, the tuberculosis vaccine strain—instilled into the bladder triggers a local immune response that prevents recurrence of non-muscle-invasive tumors.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Bladder cancer is the classic occupational chemical cancer: carbon-based aromatic amines from dye, rubber, and leather industries are activated by the liver and concentrated in urine, where they mutate the urothelium—a link that founded industrial cancer epidemiology.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — BCG immunotherapy for bladder cancer works through dendritic cells: the mycobacteria are taken up by urothelial and antigen-presenting cells, activating dendritic cells that prime a tumor-killing immune response—innate immunity turned against cancer.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Bladder cancer often overexpresses EGFR-family receptors: urothelial tumors signal through EGFR and HER2 to grow, making the ErbB pathway a studied target alongside the FGFR inhibitors already used in this cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — BCG immunotherapy for bladder cancer mobilizes NK cells: instilling live bacteria into the bladder triggers an innate immune assault in which natural killer cells help destroy superficial tumor cells, a decades-old immunotherapy that predates checkpoint drugs.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Bladder tumors recruit regulatory T cells to evade attack: Tregs accumulate in the bladder wall and suppress cytotoxic immunity, blunting both BCG and PD-1 checkpoint therapy and marking a target to make immunotherapy work better.
 
 ---
 

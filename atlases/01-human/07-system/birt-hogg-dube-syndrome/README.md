@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Birt-Hogg-Dubé can involve the pancreas: FLCN carriers show an excess of pancreatic cysts and rare neoplasms, extending the syndrome's pattern of hamartomas and tumors beyond the kidney, lung, and skin into abdominal organs."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "BHD's lung cysts threaten oxygen delivery: FLCN loss creates thin-walled basal lung cysts that rupture as spontaneous pneumothorax, collapsing the lung and cutting off the air exchange that loads oxygen into blood—the syndrome's most dangerous everyday risk."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "BHD sits among MET-driven hereditary kidney cancers as a contrast: hereditary papillary RCC is caused by MET activation, while BHD's FLCN loss yields chromophobe and oncocytic tumors, so the gene pinpoints which inherited renal cancer syndrome a patient has."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "FLCN normally restrains the AKT-mTOR growth axis: losing it in BHD lets AKT and mTORC1 run high, driving the kidney tumors and skin and lung lesions—why this pathway is the target of rapamycin-class drugs studied in the syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -264,6 +273,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Birt-Hogg-Dubé joins the family of dominant tumor-predisposition syndromes: like MEN1, a single inherited tumor-suppressor defect (here FLCN) seeds tumors across organs—so both demand lifelong, multi-organ surveillance tailored to their gene.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — FLCN, the Birt-Hogg-Dubé gene, also governs fat metabolism: through AMPK and PGC-1α it shapes adipocyte energy use and brown-fat thermogenesis, so beyond its tumor-suppressor role, FLCN links this syndrome's pathway to whole-body metabolism.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Birt-Hogg-Dubé can involve the pancreas: FLCN carriers show an excess of pancreatic cysts and rare neoplasms, extending the syndrome's pattern of hamartomas and tumors beyond the kidney, lung, and skin into abdominal organs.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — BHD's lung cysts threaten oxygen delivery: FLCN loss creates thin-walled basal lung cysts that rupture as spontaneous pneumothorax, collapsing the lung and cutting off the air exchange that loads oxygen into blood—the syndrome's most dangerous everyday risk.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — BHD sits among MET-driven hereditary kidney cancers as a contrast: hereditary papillary RCC is caused by MET activation, while BHD's FLCN loss yields chromophobe and oncocytic tumors, so the gene pinpoints which inherited renal cancer syndrome a patient has.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — FLCN normally restrains the AKT-mTOR growth axis: losing it in BHD lets AKT and mTORC1 run high, driving the kidney tumors and skin and lung lesions—why this pathway is the target of rapamycin-class drugs studied in the syndrome.
 
 ---
 
