@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "MEN1's deadliest turn is pancreatic NET spread to the liver: islet tumors metastasize among the hepatocytes, and this liver burden, not the hormone excess, is the leading cause of death—driving aggressive surveillance and resection."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MEN1's earliest sign disturbs phosphate: the primary hyperparathyroidism that usually comes first floods the body with PTH, which dumps phosphate into the urine while raising calcium, so low phosphate with high calcium is a classic early clue."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Overactive parathyroids in MEN1 erode bone via osteoblasts: relentless PTH drives bone remodeling, uncoupling osteoblasts and osteoclasts so resorption wins, contributing to the osteoporosis these patients develop young."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "MEN1's pancreatic neuroendocrine tumors are highly vascular through VEGF: they recruit dense blood vessels, which is why antiangiogenic drugs like sunitinib that block VEGF signaling are used against advanced disease."
 ---
 
 # MEN1 Syndrome
@@ -255,6 +264,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — MEN1's overactive parathyroids punish the kidney: near-universal primary hyperparathyroidism floods the blood with calcium, which precipitates as kidney stones and nephrocalcinosis—often the first clue that prompts genetic testing for the syndrome.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — MEN1 can grow a glucagon-secreting pancreatic tumor: glucagonomas raise blood sugar and cause a classic migrating rash and weight loss, one of several functional islet tumors—alongside insulinoma and gastrinoma—that define the syndrome.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — MEN1's deadliest turn is pancreatic NET spread to the liver: islet tumors metastasize among the hepatocytes, and this liver burden, not the hormone excess, is the leading cause of death—driving aggressive surveillance and resection.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MEN1's earliest sign disturbs phosphate: the primary hyperparathyroidism that usually comes first floods the body with PTH, which dumps phosphate into the urine while raising calcium, so low phosphate with high calcium is a classic early clue.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Overactive parathyroids in MEN1 erode bone via osteoblasts: relentless PTH drives bone remodeling, uncoupling osteoblasts and osteoclasts so resorption wins, contributing to the osteoporosis these patients develop young.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MEN1's pancreatic neuroendocrine tumors are highly vascular through VEGF: they recruit dense blood vessels, which is why antiangiogenic drugs like sunitinib that block VEGF signaling are used against advanced disease.
 
 ---
 

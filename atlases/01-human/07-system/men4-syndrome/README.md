@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/sstr2
     relation: connects-to
     note: "MEN4's neuroendocrine tumors are targeted through SSTR2: like other NETs they display somatostatin receptors, so somatostatin analogs and receptor-guided radiotherapy (PRRT) can both image and treat the tumors of the syndrome."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "MEN4's hyperparathyroidism punishes the kidneys: chronic high calcium from overactive parathyroids precipitates kidney stones and nephrocalcinosis, so renal damage is a common consequence of the syndrome's commonest tumor."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "MEN4 weakens bone through parathyroid-driven osteoblast turnover: excess PTH speeds remodeling and tips the osteoblast-osteoclast balance toward loss, producing the osteoporosis that accompanies its hyperparathyroidism."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "MEN4's neuroendocrine tumors lean on VEGF for blood supply: like other NETs they drive angiogenesis to grow, so VEGF-targeted therapy is part of the toolkit alongside the somatostatin-receptor approaches."
 ---
 
 # MEN4 Syndrome
@@ -247,6 +256,9 @@ When clinical MEN features are present:
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — MEN4's commonest feature is too much PTH: like MEN1, CDKN1B loss drives parathyroid tumors that oversecrete parathyroid hormone, raising calcium and eroding bone—hyperparathyroidism is usually the first manifestation.
 - `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — MEN4 is a broken cell-cycle brake felt through Rb: the lost p27 (CDKN1B) normally restrains the CDKs that phosphorylate Rb, so without it cells slip past the checkpoint—linking MEN4's tumors to the same Rb pathway as many cancers.
 - `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — MEN4's neuroendocrine tumors are targeted through SSTR2: like other NETs they display somatostatin receptors, so somatostatin analogs and receptor-guided radiotherapy (PRRT) can both image and treat the tumors of the syndrome.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — MEN4's hyperparathyroidism punishes the kidneys: chronic high calcium from overactive parathyroids precipitates kidney stones and nephrocalcinosis, so renal damage is a common consequence of the syndrome's commonest tumor.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — MEN4 weakens bone through parathyroid-driven osteoblast turnover: excess PTH speeds remodeling and tips the osteoblast-osteoclast balance toward loss, producing the osteoporosis that accompanies its hyperparathyroidism.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MEN4's neuroendocrine tumors lean on VEGF for blood supply: like other NETs they drive angiogenesis to grow, so VEGF-targeted therapy is part of the toolkit alongside the somatostatin-receptor approaches.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
