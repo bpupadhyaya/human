@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "CML's huge white-cell counts can fake high potassium: massive numbers of leukocytes and platelets leak potassium after blood is drawn, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt/beta-catenin keeps CML's stem cells alive: this pathway sustains the leukemic stem cells that survive BCR-ABL inhibitors, so it helps explain why the disease persists on therapy and can progress to blast crisis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "CML can poison the kidneys through tumor lysis: the huge white-cell mass releases uric acid that, especially as treatment kills cells, crystallizes in the kidney and causes urate nephropathy, linking the leukemia to gout and renal injury."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells can spring from the CML clone itself: because the leukemia is a stem cell disease, even antigen-presenting cells carry BCR-ABL, and harnessing dendritic cells is explored to boost immune control after drug therapy."
 ---
 
 # Chronic Myeloid Leukemia
@@ -248,6 +257,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — CML's stem cells survive TKIs by autophagy: leukemic stem cells recycle their contents to weather imatinib, so they persist despite a controlled blood count—why combining TKIs with autophagy blockers is studied to enable treatment-free remission.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells help control CML and predict cure: robust natural killer activity is linked to keeping leukemia in check, and patients with strong NK responses are likelier to stay in remission after stopping their TKI.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CML's huge white-cell counts can fake high potassium: massive numbers of leukocytes and platelets leak potassium after blood is drawn, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/beta-catenin keeps CML's stem cells alive: this pathway sustains the leukemic stem cells that survive BCR-ABL inhibitors, so it helps explain why the disease persists on therapy and can progress to blast crisis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — CML can poison the kidneys through tumor lysis: the huge white-cell mass releases uric acid that, especially as treatment kills cells, crystallizes in the kidney and causes urate nephropathy, linking the leukemia to gout and renal injury.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells can spring from the CML clone itself: because the leukemia is a stem cell disease, even antigen-presenting cells carry BCR-ABL, and harnessing dendritic cells is explored to boost immune control after drug therapy.
 
 ---
 

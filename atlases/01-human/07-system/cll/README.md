@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "CLL cells make their own VEGF to stay alive: autocrine VEGF signaling props up anti-apoptotic proteins and feeds the vascular niche in marrow and nodes, adding angiogenesis to the survival tricks behind this indolent leukemia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "B-cell receptor signaling in CLL runs on calcium: when the receptor fires, BTK and PLC drive a calcium flux that keeps the leukemic cells alive—the very pathway BTK inhibitors interrupt to treat the disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "CLL infiltrates the liver as it spreads: leukemic B cells lodge in the liver causing hepatomegaly, part of the organ enlargement that, with big nodes and spleen, marks advancing disease and guides staging."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CLL cripples dendritic cells and immunity: the leukemia impairs antigen-presenting cell function and broader immune defense, so infections—not the leukemia itself—are a leading cause of death and the reason vaccines respond poorly."
 ---
 
 # CLL
@@ -248,6 +257,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CLL cells survive inside a protective niche of nurse-like cells: monocyte-derived macrophages in the marrow and lymph nodes shield leukemic B cells from death, so disrupting this microenvironment is a strategy to overcome drug resistance.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — CLL leans on IL-4 for survival: this T-cell cytokine signals leukemic B cells to resist apoptosis and upregulate Bcl-2, part of the external support that keeps these slow-dividing cells alive far longer than they should.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — CLL cells make their own VEGF to stay alive: autocrine VEGF signaling props up anti-apoptotic proteins and feeds the vascular niche in marrow and nodes, adding angiogenesis to the survival tricks behind this indolent leukemia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — B-cell receptor signaling in CLL runs on calcium: when the receptor fires, BTK and PLC drive a calcium flux that keeps the leukemic cells alive—the very pathway BTK inhibitors interrupt to treat the disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CLL infiltrates the liver as it spreads: leukemic B cells lodge in the liver causing hepatomegaly, part of the organ enlargement that, with big nodes and spleen, marks advancing disease and guides staging.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — CLL cripples dendritic cells and immunity: the leukemia impairs antigen-presenting cell function and broader immune defense, so infections—not the leukemia itself—are a leading cause of death and the reason vaccines respond poorly.
 
 ---
 
