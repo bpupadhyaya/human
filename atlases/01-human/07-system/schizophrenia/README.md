@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Stress and cortisol shape schizophrenia's onset: an overactive HPA axis and high cortisol mark the prodrome and can precipitate first psychosis in vulnerable people, the hormonal arm of the stress-diathesis model."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium touches schizophrenia's glutamate problem: it gates the NMDA receptor, central to the glutamate-hypofunction theory of the illness, so disturbed magnesium handling can shift the excitation-inhibition balance behind psychosis."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Stress and the adrenal glands shape schizophrenia: an overactive HPA axis drives the adrenals to pour out cortisol, and this stress-hormone surge marks the prodrome and can tip vulnerable people into first psychosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "A gut-brain axis is emerging in schizophrenia: an altered intestinal microbiome and gut inflammation may influence neurotransmitters and immune signals reaching the brain, linking the large intestine to psychotic illness."
 ---
 
 # Schizophrenia
@@ -311,6 +320,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Schizophrenia's strongest genetic hits include a calcium channel: CACNA1C and other voltage-gated calcium channel genes top the risk lists, so disturbed calcium signaling in neurons—shared with bipolar disorder—is a core piece of its biology.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Maternal IL-6 links infection to schizophrenia: prenatal immune activation, signaled through IL-6, perturbs fetal brain development and raises later risk—evidence that inflammation in pregnancy is one road into the disorder.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and cortisol shape schizophrenia's onset: an overactive HPA axis and high cortisol mark the prodrome and can precipitate first psychosis in vulnerable people, the hormonal arm of the stress-diathesis model.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium touches schizophrenia's glutamate problem: it gates the NMDA receptor, central to the glutamate-hypofunction theory of the illness, so disturbed magnesium handling can shift the excitation-inhibition balance behind psychosis.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Stress and the adrenal glands shape schizophrenia: an overactive HPA axis drives the adrenals to pour out cortisol, and this stress-hormone surge marks the prodrome and can tip vulnerable people into first psychosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A gut-brain axis is emerging in schizophrenia: an altered intestinal microbiome and gut inflammation may influence neurotransmitters and immune signals reaching the brain, linking the large intestine to psychotic illness.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
