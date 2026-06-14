@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Follicular lymphoma can transform and reach the nervous system: histologic transformation to aggressive DLBCL—and rarely CNS involvement—marks a turn for the worse in this usually indolent disease, shifting management from watchful waiting to intensive therapy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Follicular lymphoma is built on follicular dendritic cells: these stromal cells form the germinal-center meshwork the malignant B cells depend on for survival signals, so the tumor recreates a follicle—its microenvironment shaping when indolent disease turns aggressive."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Follicular lymphoma now yields to T-cell therapies: CD19 CAR-T cells and CD20×CD3 bispecifics (mosunetuzumab) redirect cytotoxic T cells against the B-cell clone, giving durable remissions in this otherwise relapsing, incurable indolent lymphoma."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Follicular lymphoma is usually widespread at diagnosis, infiltrating the liver: indolent but disseminated, it commonly involves liver, spleen, and marrow by the time it is found—so it is staged as advanced yet often watched rather than treated."
 ---
 
 # Follicular Lymphoma
@@ -237,6 +246,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Follicular lymphoma usually involves the bone marrow at diagnosis: the indolent clone seeds marrow in a paratrabecular pattern, so it is typically advanced-stage yet slow-growing—curative local therapy is rarely possible, but it can be watched or controlled for years.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy can cure the rare localized follicular lymphoma: low-dose photon radiation to a single involved site is potentially curative in stage I disease, a notable exception in a lymphoma that is otherwise incurable but indolent and managed over many years.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Follicular lymphoma can transform and reach the nervous system: histologic transformation to aggressive DLBCL—and rarely CNS involvement—marks a turn for the worse in this usually indolent disease, shifting management from watchful waiting to intensive therapy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Follicular lymphoma is built on follicular dendritic cells: these stromal cells form the germinal-center meshwork the malignant B cells depend on for survival signals, so the tumor recreates a follicle—its microenvironment shaping when indolent disease turns aggressive.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Follicular lymphoma now yields to T-cell therapies: CD19 CAR-T cells and CD20×CD3 bispecifics (mosunetuzumab) redirect cytotoxic T cells against the B-cell clone, giving durable remissions in this otherwise relapsing, incurable indolent lymphoma.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Follicular lymphoma is usually widespread at diagnosis, infiltrating the liver: indolent but disseminated, it commonly involves liver, spleen, and marrow by the time it is found—so it is staged as advanced yet often watched rather than treated.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy has a role in gastric cancer: photon-beam radiation combined with chemotherapy is used before or after surgery to improve local control of resectable tumors and to palliate bleeding or obstruction in advanced disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Gastric cancer subsets respond to T-cell immunotherapy: EBV-positive and MSI-high tumors are richly infiltrated by cytotoxic T cells and respond to checkpoint inhibitors, so molecular subtyping now guides who gets immunotherapy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is gastric cancer's main metastatic target: tumor cells drain via the portal vein to seed the liver, so hepatic metastases mark incurable disease and shift treatment from surgery to systemic chemo-immunotherapy."
+  - target: 01-human/07-system/ovarian-cancer
+    relation: connects-to
+    note: "Gastric cancer can masquerade as ovarian cancer: signet-ring cells spread to the ovaries as Krukenberg tumors, so bilateral ovarian masses in a woman may actually be metastatic stomach cancer—a crucial diagnostic catch."
 ---
 
 # Gastric Cancer
@@ -258,6 +267,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Gastric cancer is a major cancer of the digestive system: it arises in the stomach lining often after H. pylori gastritis and intestinal metaplasia, and vague early symptoms mean it usually presents late—making it a leading cause of cancer death worldwide.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Gastric cancer often follows a metaplastic change in the gut epithelium: chronic inflammation drives the stomach lining toward an intestinal-type epithelium (intestinal metaplasia), a recognized precancerous step in the Correa cascade from gastritis to carcinoma.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a role in gastric cancer: photon-beam radiation combined with chemotherapy is used before or after surgery to improve local control of resectable tumors and to palliate bleeding or obstruction in advanced disease.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Gastric cancer subsets respond to T-cell immunotherapy: EBV-positive and MSI-high tumors are richly infiltrated by cytotoxic T cells and respond to checkpoint inhibitors, so molecular subtyping now guides who gets immunotherapy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is gastric cancer's main metastatic target: tumor cells drain via the portal vein to seed the liver, so hepatic metastases mark incurable disease and shift treatment from surgery to systemic chemo-immunotherapy.
+- `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Gastric cancer can masquerade as ovarian cancer: signet-ring cells spread to the ovaries as Krukenberg tumors, so bilateral ovarian masses in a woman may actually be metastatic stomach cancer—a crucial diagnostic catch.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
