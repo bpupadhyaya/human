@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Advanced hepatitis B can starve the blood of oxygen: cirrhosis opens abnormal lung blood vessels (hepatopulmonary syndrome) that shunt past gas exchange, causing hypoxemia and breathlessness worse when upright—a clue the liver is failing."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Hepatitis B cirrhosis enlarges the spleen: portal hypertension backs blood up into it, so it swells and traps platelets and white cells (hypersplenism), and a falling platelet count is often the first hint of advancing liver scarring."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "A failing hepatitis B liver poisons the brain: cirrhosis can no longer clear ammonia and gut toxins, which cross into the brain and cause hepatic encephalopathy—confusion, tremor, and coma that track liver decompensation."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chronic hepatitis B can overload the liver with iron: ongoing inflammation deranges iron handling, and the excess metal fuels oxidative injury that accelerates fibrosis and raises cancer risk."
 ---
 
 # Hepatitis B
@@ -277,3 +286,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Chronic hepatitis B is tracked through albumin: as the virus scars the liver toward cirrhosis, failing hepatocytes make less albumin, so a falling albumin signals lost synthetic function and the swelling and ascites of decompensation.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Immunity to hepatitis B is an IgG story: anti-HBs antibodies from vaccination or recovery neutralize the virus and define protection, and hepatitis B immune globulin (preformed IgG) shields newborns and the exposed.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Advanced hepatitis B can starve the blood of oxygen: cirrhosis opens abnormal lung blood vessels (hepatopulmonary syndrome) that shunt past gas exchange, causing hypoxemia and breathlessness worse when upright—a clue the liver is failing.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Hepatitis B cirrhosis enlarges the spleen: portal hypertension backs blood up into it, so it swells and traps platelets and white cells (hypersplenism), and a falling platelet count is often the first hint of advancing liver scarring.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — A failing hepatitis B liver poisons the brain: cirrhosis can no longer clear ammonia and gut toxins, which cross into the brain and cause hepatic encephalopathy—confusion, tremor, and coma that track liver decompensation.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chronic hepatitis B can overload the liver with iron: ongoing inflammation deranges iron handling, and the excess metal fuels oxidative injury that accelerates fibrosis and raises cancer risk.

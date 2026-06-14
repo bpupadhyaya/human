@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Hepatitis C inflames the liver through its macrophages: activated Kupffer cells sustain the chronic inflammation and secrete signals that drive the stellate-cell fibrosis turning hepatitis into cirrhosis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Advanced hepatitis C starves the blood of oxygen: cirrhosis opens abnormal lung vessels (hepatopulmonary syndrome) that shunt blood past gas exchange, causing hypoxemia and breathlessness that worsens on standing."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Hepatitis C disarms dendritic cells: the virus blunts these antigen-presenting sentinels so they prime only weak T-cell responses, a key reason the infection so often slips into lifelong chronic persistence."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Hepatitis C cirrhosis bleeds through the gut: portal hypertension swells fragile veins in the esophagus and bowel (varices) that can rupture into massive gastrointestinal bleeding, a lethal complication of advanced scarring."
 ---
 
 # Hepatitis C
@@ -268,3 +277,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Hepatitis C lives off cholesterol and lipids: it enters hepatocytes via the LDL receptor and travels as a lipo-viral particle wrapped in fat, hijacking cholesterol metabolism so deeply that the infection alters the body's lipid profile.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hepatitis C loads the liver with iron: chronic infection raises hepatic iron, and that iron fuels oxidative damage that speeds fibrosis and cancer risk—why iron overload worsens the disease and was once reduced to help.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hepatitis C inflames the liver through its macrophages: activated Kupffer cells sustain the chronic inflammation and secrete signals that drive the stellate-cell fibrosis turning hepatitis into cirrhosis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Advanced hepatitis C starves the blood of oxygen: cirrhosis opens abnormal lung vessels (hepatopulmonary syndrome) that shunt blood past gas exchange, causing hypoxemia and breathlessness that worsens on standing.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Hepatitis C disarms dendritic cells: the virus blunts these antigen-presenting sentinels so they prime only weak T-cell responses, a key reason the infection so often slips into lifelong chronic persistence.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hepatitis C cirrhosis bleeds through the gut: portal hypertension swells fragile veins in the esophagus and bowel (varices) that can rupture into massive gastrointestinal bleeding, a lethal complication of advanced scarring.
