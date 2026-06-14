@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Asthma reflects failed regulatory T-cell tolerance: Tregs normally restrain allergic responses to inhaled antigens, so when they are deficient or dysfunctional, the Th2 inflammation behind allergic asthma goes unchecked—a target for allergen immunotherapy."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Asthma's cornerstone controller mimics cortisol: inhaled corticosteroids damp the airway's eosinophilic, Th2 inflammation, preventing the attacks rather than just relieving them—the single most important long-term asthma therapy."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Asthma's rescue works through adrenaline's receptors: β2-agonists like albuterol (and epinephrine in anaphylaxis) relax airway smooth muscle within minutes, reversing the bronchoconstriction of an acute attack."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Asthma's bronchoconstriction runs on calcium: airway smooth muscle contracts when calcium floods its cells, so the wheeze of an attack is a calcium-driven squeeze—and relaxing that contraction is what bronchodilators achieve."
 ---
 
 # Asthma
@@ -244,6 +253,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Exhaled nitric oxide is a key asthma biomarker: airway eosinophilic inflammation raises FeNO (fractional exhaled NO), so measuring it gauges Type-2 inflammation, predicts steroid response and helps tailor and monitor asthma therapy.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status influences asthma: deficiency is linked to more frequent exacerbations and poorer control, and as an immune modulator it supports regulatory responses—so vitamin D is studied as add-on prevention, especially in deficient patients.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Asthma reflects failed regulatory T-cell tolerance: Tregs normally restrain allergic responses to inhaled antigens, so when they are deficient or dysfunctional, the Th2 inflammation behind allergic asthma goes unchecked—a target for allergen immunotherapy.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Asthma's cornerstone controller mimics cortisol: inhaled corticosteroids damp the airway's eosinophilic, Th2 inflammation, preventing the attacks rather than just relieving them—the single most important long-term asthma therapy.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Asthma's rescue works through adrenaline's receptors: β2-agonists like albuterol (and epinephrine in anaphylaxis) relax airway smooth muscle within minutes, reversing the bronchoconstriction of an acute attack.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Asthma's bronchoconstriction runs on calcium: airway smooth muscle contracts when calcium floods its cells, so the wheeze of an attack is a calcium-driven squeeze—and relaxing that contraction is what bronchodilators achieve.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

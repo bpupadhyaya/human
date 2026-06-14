@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/autism-spectrum-disorder
     relation: connects-to
     note: "Borderline personality disorder and autism can look alike yet differ: both feature emotional dysregulation and social difficulty, but their origins and needs diverge, so careful assessment avoids misdiagnosing autistic adults—especially women—as having BPD."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Borderline symptoms swing with estrogen: emotional reactivity and impulsivity often fluctuate across the menstrual cycle as estrogen rises and falls, so hormonal shifts are one biological modulator of this trauma-shaped disorder."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Childhood trauma may prime microglia in borderline personality: early adversity can activate the brain's immune cells, fostering neuroinflammation that reshapes the emotion circuits underlying the disorder's instability."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Borderline personality carries an inflammatory signature: raised TNF-alpha and other cytokines track with symptom severity and the trauma history behind the disorder, linking the body's inflammation to emotional dysregulation."
 ---
 
 # Borderline Personality Disorder
@@ -275,6 +284,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin may shape borderline impulsivity and aggression: alongside oxytocin's role in attachment, the vasopressin system is linked to aggression and stress reactivity, part of the neurochemistry behind BPD's emotional storms and interpersonal conflict.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep disturbance is woven into borderline personality disorder: insomnia, nightmares and disrupted circadian rhythm are common and worsen emotional dysregulation, so treating sleep is an underused lever for stabilizing mood and impulsivity.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Borderline personality disorder and autism can look alike yet differ: both feature emotional dysregulation and social difficulty, but their origins and needs diverge, so careful assessment avoids misdiagnosing autistic adults—especially women—as having BPD.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Borderline symptoms swing with estrogen: emotional reactivity and impulsivity often fluctuate across the menstrual cycle as estrogen rises and falls, so hormonal shifts are one biological modulator of this trauma-shaped disorder.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Childhood trauma may prime microglia in borderline personality: early adversity can activate the brain's immune cells, fostering neuroinflammation that reshapes the emotion circuits underlying the disorder's instability.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Borderline personality carries an inflammatory signature: raised TNF-alpha and other cytokines track with symptom severity and the trauma history behind the disorder, linking the body's inflammation to emotional dysregulation.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
