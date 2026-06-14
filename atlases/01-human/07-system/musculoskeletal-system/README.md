@@ -80,6 +80,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Gout is a musculoskeletal disease of crystals: monosodium urate deposits in joints trigger acute inflammatory arthritis and, over years, erode bone and form tophi—linking purine metabolism to destructive joint and bone disease."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Bone is built of calcium phosphate, so phosphorus is as essential as calcium to the skeleton: it forms hydroxyapatite crystals that harden bone, and disturbed phosphate handling—as in rickets and renal osteodystrophy—softens and deforms it."
+  - target: 01-human/07-system/ankylosing-spondylitis
+    relation: connects-to
+    note: "Ankylosing spondylitis attacks the musculoskeletal system: inflammation at entheses where ligaments meet bone heals by ossification, fusing the spine into a rigid 'bamboo' column—showing how the skeleton's response to inflammation can be new bone, not just erosion."
+  - target: 01-human/07-system/fibromyalgia
+    relation: connects-to
+    note: "Fibromyalgia presents as a musculoskeletal disease without musculoskeletal damage: widespread muscle and joint pain and tenderness arise from amplified central pain processing, not inflammation or structural injury—so the muscles and bones ache while tests stay normal."
 ---
 
 # Musculoskeletal System
@@ -237,6 +246,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Collagen is the musculoskeletal system's structural protein: type I gives bone and tendon tensile strength while type II builds cartilage, so collagen defects cause brittle bones (osteogenesis imperfecta) and fragile joints across the whole framework.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts knit the musculoskeletal system's soft framework: they build and repair the collagen of tendons, ligaments and fascia that transmit muscle force to bone, so their activity governs healing of sprains and the integrity of connective tissue.
 - `connects-to` → **[Gout](../gout/README.md)** — Gout is a musculoskeletal disease of crystals: monosodium urate deposits in joints trigger acute inflammatory arthritis and, over years, erode bone and form tophi—linking purine metabolism to destructive joint and bone disease.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone is built of calcium phosphate, so phosphorus is as essential as calcium to the skeleton: it forms hydroxyapatite crystals that harden bone, and disturbed phosphate handling—as in rickets and renal osteodystrophy—softens and deforms it.
+- `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Ankylosing spondylitis attacks the musculoskeletal system: inflammation at entheses where ligaments meet bone heals by ossification, fusing the spine into a rigid 'bamboo' column—showing how the skeleton's response to inflammation can be new bone, not just erosion.
+- `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Fibromyalgia presents as a musculoskeletal disease without musculoskeletal damage: widespread muscle and joint pain and tenderness arise from amplified central pain processing, not inflammation or structural injury—so the muscles and bones ache while tests stay normal.
 
 ## Pathology
 

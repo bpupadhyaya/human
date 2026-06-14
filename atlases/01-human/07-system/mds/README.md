@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "MDS has an immune dimension: a subset, especially hypoplastic MDS, involves T-cell-mediated marrow suppression and responds to immunosuppression, while inflammatory signaling in the marrow niche helps drive the ineffective blood production."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Transfusion-dependent MDS overloads the liver with iron: repeated red-cell transfusions deposit excess iron in the liver (and heart), causing secondary hemochromatosis, so iron chelation is part of long-term care for chronically transfused patients."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "MDS overlap syndromes enlarge the spleen: in CMML and MDS/MPN forms, abnormal myeloid cells and extramedullary hematopoiesis swell the spleen, causing fullness and worsening cytopenias—a feature that distinguishes them from pure dysplastic MDS."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "MDS is a key cause of unexplained anemia in older adults: unlike anemia of chronic disease, its low counts stem from a clonal dysplastic marrow making defective cells, so a macrocytic anemia not explained by B12, folate, or inflammation warrants a marrow biopsy."
 ---
 
 # Myelodysplastic Syndromes
@@ -214,6 +223,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[SF3B1](../../03-molecular/sf3b1/README.md)** — SF3B1 mutation defines a favorable MDS subtype: this splicing-factor gene, when mutated, produces ring sideroblasts and an indolent anemia—now its own WHO entity, often responsive to luspatercept and carrying a comparatively good prognosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin underlies both the anemia and the treatment of lower-risk MDS: ineffective marrow erythropoiesis fails to answer EPO, so erythropoiesis-stimulating agents are first-line for the anemia when endogenous EPO levels are low.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — MDS has an immune dimension: a subset, especially hypoplastic MDS, involves T-cell-mediated marrow suppression and responds to immunosuppression, while inflammatory signaling in the marrow niche helps drive the ineffective blood production.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Transfusion-dependent MDS overloads the liver with iron: repeated red-cell transfusions deposit excess iron in the liver (and heart), causing secondary hemochromatosis, so iron chelation is part of long-term care for chronically transfused patients.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — MDS overlap syndromes enlarge the spleen: in CMML and MDS/MPN forms, abnormal myeloid cells and extramedullary hematopoiesis swell the spleen, causing fullness and worsening cytopenias—a feature that distinguishes them from pure dysplastic MDS.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — MDS is a key cause of unexplained anemia in older adults: unlike anemia of chronic disease, its low counts stem from a clonal dysplastic marrow making defective cells, so a macrocytic anemia not explained by B12, folate, or inflammation warrants a marrow biopsy.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
