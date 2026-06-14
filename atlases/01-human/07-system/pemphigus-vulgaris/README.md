@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Pemphigus vulgaris attacks mucous membranes including the eye: painful erosions typically start in the mouth and can involve conjunctiva and other mucosae before skin blisters appear—so mucosal, not just cutaneous, lesions define and often herald the disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Pemphigus vulgaris is an antibody-mediated autoimmune disease: IgG autoantibodies against desmoglein break the bonds between keratinocytes, so it responds to immunosuppression and B-cell depletion (rituximab)—immunity turned against the body's own cell adhesion."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Pemphigus vulgaris is a blistering disease of the integumentary system: loss of keratinocyte adhesion causes flaccid blisters and painful erosions that shear with pressure (Nikolsky sign), so the skin barrier fails—once fatal before immunosuppressive therapy."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Pemphigus vulgaris often starts in the digestive tract's lining: painful, non-healing oral and esophageal erosions usually precede skin blisters, so mouth ulcers that won't heal can be the first sign—mucosal involvement distinguishing it from pemphigus foliaceus."
 ---
 
 # Pemphigus Vulgaris
@@ -251,6 +260,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help break tolerance in pemphigus vulgaris: they present desmoglein peptides to autoreactive T cells that drive B cells to make anti-desmoglein IgG, so the antigen-presentation step sits upstream of the antibodies that blister the skin.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — IL-4 steers pemphigus toward pathogenic IgG4 antibodies: this Th2 cytokine drives the class switch to IgG4 anti-desmoglein-3, the dominant blistering autoantibody, so the Th2 axis shapes which antibody isotype mediates the disease.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Pemphigus vulgaris attacks mucous membranes including the eye: painful erosions typically start in the mouth and can involve conjunctiva and other mucosae before skin blisters appear—so mucosal, not just cutaneous, lesions define and often herald the disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Pemphigus vulgaris is an antibody-mediated autoimmune disease: IgG autoantibodies against desmoglein break the bonds between keratinocytes, so it responds to immunosuppression and B-cell depletion (rituximab)—immunity turned against the body's own cell adhesion.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Pemphigus vulgaris is a blistering disease of the integumentary system: loss of keratinocyte adhesion causes flaccid blisters and painful erosions that shear with pressure (Nikolsky sign), so the skin barrier fails—once fatal before immunosuppressive therapy.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pemphigus vulgaris often starts in the digestive tract's lining: painful, non-healing oral and esophageal erosions usually precede skin blisters, so mouth ulcers that won't heal can be the first sign—mucosal involvement distinguishing it from pemphigus foliaceus.
 
 ---
 

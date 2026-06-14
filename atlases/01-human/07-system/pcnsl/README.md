@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "MYC and BCL2 co-expression marks aggressive PCNSL: like systemic DLBCL, double-expressor PCNSL carries a worse prognosis, but the blood-brain barrier limits which drugs reach it—so high-dose methotrexate, not standard R-CHOP, anchors treatment."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "PCNSL is a CD20-positive B-cell lymphoma treated through that target: high-dose methotrexate crosses the blood-brain barrier and is combined with the anti-CD20 antibody rituximab, exploiting the same B-cell marker used against systemic lymphomas."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Primary CNS lymphoma is a lymphoma confined to the nervous system: it grows in the brain, spinal cord, eyes and meninges without nodal disease, so it presents with focal deficits and cognitive change—and its CNS sanctuary demands brain-penetrant therapy."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "PCNSL is a striking exception within the lymphatic system: though a B-cell lymphoma, it arises and stays in the immune-privileged CNS rather than lymph nodes, so staging is typically negative outside the brain and eye—unlike systemic DLBCL."
 ---
 
 # Primary CNS Lymphoma
@@ -213,6 +222,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Immune System](../immune-system/README.md)** — PCNSL is largely a disease of immune failure: it is far commoner in HIV/AIDS and transplant immunosuppression, where unchecked EBV transforms B cells in the brain—so immune status drives both its incidence and (with immune restoration) sometimes its regression.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — PCNSL arises from a late germinal-center B cell trapped in the CNS: it is a post-germinal-center DLBCL expressing BCL6/IRF4 that, oddly, homes to and grows within the immune-privileged brain—so it shares lymphoma-node biology yet behaves as a CNS tumor.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC and BCL2 co-expression marks aggressive PCNSL: like systemic DLBCL, double-expressor PCNSL carries a worse prognosis, but the blood-brain barrier limits which drugs reach it—so high-dose methotrexate, not standard R-CHOP, anchors treatment.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — PCNSL is a CD20-positive B-cell lymphoma treated through that target: high-dose methotrexate crosses the blood-brain barrier and is combined with the anti-CD20 antibody rituximab, exploiting the same B-cell marker used against systemic lymphomas.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Primary CNS lymphoma is a lymphoma confined to the nervous system: it grows in the brain, spinal cord, eyes and meninges without nodal disease, so it presents with focal deficits and cognitive change—and its CNS sanctuary demands brain-penetrant therapy.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — PCNSL is a striking exception within the lymphatic system: though a B-cell lymphoma, it arises and stays in the immune-privileged CNS rather than lymph nodes, so staging is typically negative outside the brain and eye—unlike systemic DLBCL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
