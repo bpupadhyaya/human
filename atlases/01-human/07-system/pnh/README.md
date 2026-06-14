@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "PNH's clone escapes NK cells too: losing the GPI anchor also strips the stress ligands NK cells use to spot abnormal cells, so the clone is invisible to NK as well as to T cells—reinforcing its survival edge in an attacked marrow."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "PNH also destroys blood in the spleen: once C5 blockers stop the intravascular lysis, red cells coated with complement C3 are instead cleared by spleen and liver macrophages, leaving a residual extravascular anemia."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PNH's name points to hydrogen ions: the classic dawn hemoglobinuria was long blamed on the mild acidosis of sleep, the drop in blood pH thought to tip complement into attacking the unprotected red cells overnight."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "PNH clots by inflaming the endothelium: uncontrolled complement and free hemoglobin activate the vessel-lining cells and platelets, driving the unusual-site thromboses—like hepatic-vein Budd-Chiari—that are the disease's chief killer."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -231,6 +240,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PNH's intravascular hemolysis spills potassium: complement punches holes in unprotected red cells, releasing hemoglobin and potassium into blood and urine—dark morning urine (hemoglobinuria) and electrolyte shifts marking the destruction.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — PNH's leading killer is thrombosis driven by thrombin: complement-activated platelets and free hemoglobin tip the balance toward clotting, generating thrombin that clots odd sites like the hepatic veins (Budd-Chiari)—curbed by complement blockade.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — PNH's clone escapes NK cells too: losing the GPI anchor also strips the stress ligands NK cells use to spot abnormal cells, so the clone is invisible to NK as well as to T cells—reinforcing its survival edge in an attacked marrow.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — PNH also destroys blood in the spleen: once C5 blockers stop the intravascular lysis, red cells coated with complement C3 are instead cleared by spleen and liver macrophages, leaving a residual extravascular anemia.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PNH's name points to hydrogen ions: the classic dawn hemoglobinuria was long blamed on the mild acidosis of sleep, the drop in blood pH thought to tip complement into attacking the unprotected red cells overnight.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PNH clots by inflaming the endothelium: uncontrolled complement and free hemoglobin activate the vessel-lining cells and platelets, driving the unusual-site thromboses—like hepatic-vein Budd-Chiari—that are the disease's chief killer.
 
 ---
 

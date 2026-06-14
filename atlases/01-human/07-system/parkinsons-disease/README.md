@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Parkinson's has an autoimmune streak involving regulatory T cells: T cells that recognize alpha-synuclein appear in patients, and a shortage of restraining Tregs may let this immune attack add to the neurodegeneration."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Parkinson's may begin at the synapse: alpha-synuclein normally works at presynaptic terminals, and its misfolding cripples dopamine release and synaptic function long before neurons die—so the disease is in part a failure of synapses, not just cells."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Parkinson's may start in the gut: alpha-synuclein clumps appear in the large intestine's nerves years early, constipation is among the first symptoms, and the pathology may climb the vagus nerve from bowel to brain."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Parkinson's smolders with TNF-α: activated microglia pour out this cytokine in the affected brain, and the chronic neuroinflammation it drives is thought to accelerate the loss of dopamine neurons."
 ---
 
 # Parkinson's Disease
@@ -286,6 +295,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Parkinson's dopamine neurons are vulnerable because of calcium: the substantia nigra cells are autonomous pacemakers that fire using calcium channels, and that constant calcium load stresses mitochondria—why calcium-channel blockers are tested to protect them.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Parkinson's is partly an energy failure: mitochondrial complex-I defects and failed mitophagy starve dopamine neurons of ATP, and the toxin MPTP that causes parkinsonism works exactly by poisoning this energy supply.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Parkinson's has an autoimmune streak involving regulatory T cells: T cells that recognize alpha-synuclein appear in patients, and a shortage of restraining Tregs may let this immune attack add to the neurodegeneration.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Parkinson's may begin at the synapse: alpha-synuclein normally works at presynaptic terminals, and its misfolding cripples dopamine release and synaptic function long before neurons die—so the disease is in part a failure of synapses, not just cells.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Parkinson's may start in the gut: alpha-synuclein clumps appear in the large intestine's nerves years early, constipation is among the first symptoms, and the pathology may climb the vagus nerve from bowel to brain.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Parkinson's smolders with TNF-α: activated microglia pour out this cytokine in the affected brain, and the chronic neuroinflammation it drives is thought to accelerate the loss of dopamine neurons.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
