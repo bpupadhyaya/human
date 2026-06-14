@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/anemia-of-chronic-disease
     relation: connects-to
     note: "Progressive anemia defines advancing myelofibrosis: marrow fibrosis and ineffective erythropoiesis cause worsening transfusion-dependent anemia, a key prognostic factor and the reason new agents target the anemia, not just the spleen."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Myelofibrosis wastes the body through IL-6 and inflammation: the malignant clone and marrow stroma pour out IL-6 and other cytokines that cause the fevers, weight loss, and cachexia, and drive the fibrosis—why JAK inhibitors ease symptoms so well."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Myelofibrosis pushes blood-making into the liver: as scarred marrow fails, hematopoiesis relocates to the liver and spleen (extramedullary hematopoiesis), enlarging them around the hepatocytes—the massive organomegaly typical of advanced disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Myelofibrosis is fueled by an inflammatory marrow rich in macrophages: monocytes and macrophages, with abnormal megakaryocytes, secrete the TGF-β and cytokines that drive fibroblasts to scar the marrow."
 ---
 
 # Myelofibrosis
@@ -255,6 +264,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Myelofibrosis scars the marrow through PDGF: the clonal megakaryocytes pour out PDGF and TGF-beta that drive fibroblasts to lay down the collagen replacing blood-forming marrow—so anti-fibrotic targeting of these cytokines is explored beyond JAK inhibition.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The only cure for myelofibrosis is allogeneic transplant via donor T cells: cytotoxic T cells from the graft mount a graft-versus-leukemia attack on the clone, the lone therapy that can reverse marrow fibrosis—at the cost of transplant risk.
 - `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Progressive anemia defines advancing myelofibrosis: marrow fibrosis and ineffective erythropoiesis cause worsening transfusion-dependent anemia, a key prognostic factor and the reason new agents target the anemia, not just the spleen.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Myelofibrosis wastes the body through IL-6 and inflammation: the malignant clone and marrow stroma pour out IL-6 and other cytokines that cause the fevers, weight loss, and cachexia, and drive the fibrosis—why JAK inhibitors ease symptoms so well.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Myelofibrosis pushes blood-making into the liver: as scarred marrow fails, hematopoiesis relocates to the liver and spleen (extramedullary hematopoiesis), enlarging them around the hepatocytes—the massive organomegaly typical of advanced disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Myelofibrosis is fueled by an inflammatory marrow rich in macrophages: monocytes and macrophages, with abnormal megakaryocytes, secrete the TGF-β and cytokines that drive fibroblasts to scar the marrow.
 
 ---
 

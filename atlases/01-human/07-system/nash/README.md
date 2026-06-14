@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "MASH progression is driven partly by cytotoxic T cells: auto-aggressive CD8 T cells accumulate in the fatty liver, killing hepatocytes and fueling inflammation and fibrosis—and they also impair the immune surveillance that would catch emerging liver cancer."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "NASH is steatohepatitis because lipids fire the NLRP3 inflammasome: fat overload and lipotoxic species activate the inflammasome in liver cells, releasing IL-1β that turns harmless fatty liver into the inflammation and fibrosis of NASH."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "NASH often carries excess liver iron: dysmetabolic iron overload accumulates in the fatty liver, and that iron drives oxidative stress that accelerates inflammation and fibrosis—so iron status is part of assessing the disease."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NASH inflammation is tuned by NK and NKT cells: these innate lymphocytes in the liver can both kill stressed hepatocytes and shape the fibrotic response, making them double-edged players in how fatty liver progresses."
 ---
 
 # NASH
@@ -224,6 +233,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — SGLT2 inhibitors help fatty liver: diabetes drugs that flush glucose in urine also reduce liver fat and inflammation in MASH, so they join GLP-1 agonists among metabolic therapies repurposed for the liver disease.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — MASH is defined by what it isn't—alcohol: nonalcoholic steatohepatitis looks histologically like alcoholic liver disease, so diagnosis requires excluding heavy drinking, and the newer 'MetALD' category recognizes patients with both metabolic and alcohol drivers.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — MASH progression is driven partly by cytotoxic T cells: auto-aggressive CD8 T cells accumulate in the fatty liver, killing hepatocytes and fueling inflammation and fibrosis—and they also impair the immune surveillance that would catch emerging liver cancer.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NASH is steatohepatitis because lipids fire the NLRP3 inflammasome: fat overload and lipotoxic species activate the inflammasome in liver cells, releasing IL-1β that turns harmless fatty liver into the inflammation and fibrosis of NASH.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NASH often carries excess liver iron: dysmetabolic iron overload accumulates in the fatty liver, and that iron drives oxidative stress that accelerates inflammation and fibrosis—so iron status is part of assessing the disease.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NASH inflammation is tuned by NK and NKT cells: these innate lymphocytes in the liver can both kill stressed hepatocytes and shape the fibrotic response, making them double-edged players in how fatty liver progresses.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
