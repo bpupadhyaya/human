@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Glioblastoma fends off cytotoxic T cells: it builds a deeply immunosuppressive, T-cell-poor microenvironment, which is why checkpoint inhibitors have largely failed and why getting killer T cells into the tumor is a major research goal."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton beams help spare the brain in glioma radiotherapy: by depositing their energy at a precise depth, protons hit the tumor while sparing surrounding healthy brain, an option weighed for selected gliomas."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "Glioblastoma swells the brain through aquaporin-4: the water channel on astrocytes governs the vasogenic edema that surrounds the tumor, raising intracranial pressure—the swelling steroids are given to control."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Glioblastoma disturbs the brain's potassium: astrocyte potassium buffering fails around the tumor, and the resulting ionic imbalance fuels the peritumoral excitability and seizures that often herald the cancer."
 ---
 
 # Glioblastoma
@@ -277,6 +286,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Glioblastoma's hallmark is death from lack of oxygen: the tumor outgrows its blood supply, leaving necrotic cores ringed by 'pseudopalisading' cells, and the surrounding hypoxia drives the VEGF angiogenesis and treatment resistance that define it.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Glioblastoma taps brain activity through calcium: it forms functional synapses with neurons, and the glutamate-triggered calcium influx spurs the tumor to grow and invade, linking neural firing to its relentless spread.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Glioblastoma fends off cytotoxic T cells: it builds a deeply immunosuppressive, T-cell-poor microenvironment, which is why checkpoint inhibitors have largely failed and why getting killer T cells into the tumor is a major research goal.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton beams help spare the brain in glioma radiotherapy: by depositing their energy at a precise depth, protons hit the tumor while sparing surrounding healthy brain, an option weighed for selected gliomas.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Glioblastoma swells the brain through aquaporin-4: the water channel on astrocytes governs the vasogenic edema that surrounds the tumor, raising intracranial pressure—the swelling steroids are given to control.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Glioblastoma disturbs the brain's potassium: astrocyte potassium buffering fails around the tumor, and the resulting ionic imbalance fuels the peritumoral excitability and seizures that often herald the cancer.
 
 ---
 

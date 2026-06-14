@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Ultraviolet oxygen chemistry compounds Gorlin's tumor risk: on top of the inherited Hedgehog defect, sun-driven reactive oxygen species damage skin-cell DNA, so UV exposure markedly multiplies the basal cell carcinomas these patients develop."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Gorlin syndrome can grow tumors in the heart: cardiac fibromas, benign fibrous masses, are a recognized feature, sometimes found in childhood and occasionally disturbing the heart's rhythm or flow."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Gorlin's benign tumors are made of fibrous tissue: cardiac and ovarian fibromas are overgrowths of fibroblasts and collagen, part of the syndrome's broad tendency to form hamartomatous fibrous masses."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Gorlin syndrome calcifies with calcium phosphate: a calcified falx cerebri, along with skeletal anomalies like bifid ribs, are diagnostic clues, the mineral laid down where it should not be."
 ---
 
 # Gorlin Syndrome
@@ -258,6 +267,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Hedgehog signaling teams with NF-kB in Gorlin's tumors: the constitutive Hedgehog drive cooperates with NF-kB inflammatory signaling to promote the survival and growth of the syndrome's many basal cell carcinomas.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill the stroma of Gorlin's basal cell carcinomas: tumor-associated macrophages support angiogenesis and dampen immunity around the Hedgehog-driven skin tumors, helping the lesions persist and recur.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Ultraviolet oxygen chemistry compounds Gorlin's tumor risk: on top of the inherited Hedgehog defect, sun-driven reactive oxygen species damage skin-cell DNA, so UV exposure markedly multiplies the basal cell carcinomas these patients develop.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Gorlin syndrome can grow tumors in the heart: cardiac fibromas, benign fibrous masses, are a recognized feature, sometimes found in childhood and occasionally disturbing the heart's rhythm or flow.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Gorlin's benign tumors are made of fibrous tissue: cardiac and ovarian fibromas are overgrowths of fibroblasts and collagen, part of the syndrome's broad tendency to form hamartomatous fibrous masses.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Gorlin syndrome calcifies with calcium phosphate: a calcified falx cerebri, along with skeletal anomalies like bifid ribs, are diagnostic clues, the mineral laid down where it should not be.
 
 ---
 
