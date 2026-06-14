@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/07-system/ptsd
     relation: connects-to
     note: "Internet gaming disorder often overlies trauma: gaming can serve as escapism from PTSD symptoms, and the two frequently co-occur—so treating the underlying trauma is part of addressing compulsive gaming."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Internet gaming disorder runs on sleep debt and adenosine: late-night play overrides the adenosine sleep-pressure signal (often with caffeine), so chronic sleep loss compounds the disorder and worsens its mood and attention effects."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Behavioral addiction like gaming may inflame the reward circuit via microglia: repeated dopamine surges can activate these brain immune cells, and the resulting neuroinflammation is implicated in remodeling the motivation pathways that sustain compulsive play."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Internet gaming taps oxytocin's social bonding: multiplayer worlds offer real social reward and connection through this bonding hormone, which is part of the draw—and why for some it substitutes for offline relationships."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -284,6 +293,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Internet gaming disorder reshapes glutamate circuits like other addictions: glutamatergic signaling between the prefrontal cortex and reward striatum drives the cue-craving and impaired control, complementing dopamine's role in the behavioral addiction.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and cortisol feed internet gaming disorder: many game to escape stress, and the disorder is tied to dysregulated cortisol and the HPA stress axis—so gaming becomes a maladaptive coping loop that blunts healthy stress responses.
 - `connects-to` → **[PTSD](../ptsd/README.md)** — Internet gaming disorder often overlies trauma: gaming can serve as escapism from PTSD symptoms, and the two frequently co-occur—so treating the underlying trauma is part of addressing compulsive gaming.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Internet gaming disorder runs on sleep debt and adenosine: late-night play overrides the adenosine sleep-pressure signal (often with caffeine), so chronic sleep loss compounds the disorder and worsens its mood and attention effects.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Behavioral addiction like gaming may inflame the reward circuit via microglia: repeated dopamine surges can activate these brain immune cells, and the resulting neuroinflammation is implicated in remodeling the motivation pathways that sustain compulsive play.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Internet gaming taps oxytocin's social bonding: multiplayer worlds offer real social reward and connection through this bonding hormone, which is part of the draw—and why for some it substitutes for offline relationships.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

@@ -98,6 +98,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "The skin is an immune organ patrolled by T-helper cells: resident and recruited helper T cells survey the epidermis and dermis for pathogens, and their misdirection drives inflammatory skin diseases like psoriasis and eczema."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "The skin is a thermostat that sheds sodium: sweat glands pour out water and sodium to cool the body by evaporation, so the integument regulates temperature and electrolytes—heavy sweating can drain enough salt to matter."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Skin is built and protected by cholesterol: ceramides and cholesterol cement the outer barrier against water loss, and skin's 7-dehydrocholesterol is the very molecule UV light converts into vitamin D—so the organ both shields and synthesizes."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "The skin itches and welts through histamine: mast cells in the dermis release histamine that dilates vessels and fires itch nerves, producing the hives, flares, and wheals of allergic and urticarial skin reactions."
 ---
 
 # Integumentary System
@@ -230,6 +239,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — The skin is the front line against Staphylococcus aureus: it colonizes skin and, when the barrier breaks, causes impetigo, cellulitis and abscesses—so the integument's physical and antimicrobial defenses are what normally keep this common pathogen out.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Skin is an estrogen-responsive organ: estrogen maintains dermal collagen, thickness and hydration, so its fall at menopause thins and dries skin and slows wound healing—why hormonal status shapes skin aging.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The skin is an immune organ patrolled by T-helper cells: resident and recruited helper T cells survey the epidermis and dermis for pathogens, and their misdirection drives inflammatory skin diseases like psoriasis and eczema.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The skin is a thermostat that sheds sodium: sweat glands pour out water and sodium to cool the body by evaporation, so the integument regulates temperature and electrolytes—heavy sweating can drain enough salt to matter.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Skin is built and protected by cholesterol: ceramides and cholesterol cement the outer barrier against water loss, and skin's 7-dehydrocholesterol is the very molecule UV light converts into vitamin D—so the organ both shields and synthesizes.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The skin itches and welts through histamine: mast cells in the dermis release histamine that dilates vessels and fires itch nerves, producing the hives, flares, and wheals of allergic and urticarial skin reactions.
 
 ## Pathology
 
