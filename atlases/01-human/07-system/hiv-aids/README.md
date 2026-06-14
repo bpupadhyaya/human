@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "HIV exploits dendritic cells to spread: these antigen-presenting cells capture the virus at mucosal surfaces and ferry it to lymph nodes, handing it to the CD4 T cells it destroys—turning a sentinel of immunity into a vehicle for infection."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is the classic stage for AIDS: as CD4 cells vanish, Pneumocystis pneumonia and other lung infections take hold, so a previously rare fungal pneumonia became the alarm that first announced the AIDS epidemic."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "AIDS often shows itself in the gut: with immunity gone, infections like cryptosporidium and CMV inflame the intestine, causing the relentless diarrhea and wasting—'slim disease'—that mark advanced untreated infection."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "AIDS cripples B cells even as it spares them from direct infection: lost CD4 help leaves antibody responses disorganized, raising risk of bacterial infections, while chronic stimulation drives the B-cell lymphomas that define late disease."
 ---
 
 # HIV/AIDS
@@ -246,9 +255,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — AIDS unleashes Epstein-Barr-driven lymphomas: with CD4 cells gone, EBV escapes immune control to cause primary CNS lymphoma, Burkitt, Hodgkin and DLBCL—the EBV-linked cancers that define advanced HIV.
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HIV lets oncogenic HPV run wild: immunosuppression reactivates HPV-16, driving the cervical and anal cancers that are AIDS-defining—so HPV vaccination and cancer screening are essential in HIV care.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIV exploits dendritic cells to spread: these antigen-presenting cells capture the virus at mucosal surfaces and ferry it to lymph nodes, handing it to the CD4 T cells it destroys—turning a sentinel of immunity into a vehicle for infection.
-- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — AIDS unleashes Epstein-Barr-driven lymphomas: with CD4 cells gone, EBV escapes immune control to cause primary CNS lymphoma, Burkitt, Hodgkin and DLBCL—the EBV-linked cancers that define advanced HIV.
-- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HIV lets oncogenic HPV run wild: immunosuppression reactivates HPV-16, driving the cervical and anal cancers that are AIDS-defining—so HPV vaccination and cancer screening are essential in HIV care.
-- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIV exploits dendritic cells to spread: these antigen-presenting cells capture the virus at mucosal surfaces and ferry it to lymph nodes, handing it to the CD4 T cells it destroys—turning a sentinel of immunity into a vehicle for infection.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the classic stage for AIDS: as CD4 cells vanish, Pneumocystis pneumonia and other lung infections take hold, so a previously rare fungal pneumonia became the alarm that first announced the AIDS epidemic.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — AIDS often shows itself in the gut: with immunity gone, infections like cryptosporidium and CMV inflame the intestine, causing the relentless diarrhea and wasting—'slim disease'—that mark advanced untreated infection.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — AIDS cripples B cells even as it spares them from direct infection: lost CD4 help leaves antibody responses disorganized, raising risk of bacterial infections, while chronic stimulation drives the B-cell lymphomas that define late disease.
 
 ## See Also
 

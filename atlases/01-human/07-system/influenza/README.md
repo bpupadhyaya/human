@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T-helper cells orchestrate influenza defense and vaccine response: CD4 cells drive the antibody and cytotoxic responses that clear the virus and build memory, so their decline with age partly explains why flu is deadlier and vaccines weaker in the elderly."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Severe influenza recruits neutrophils that injure the lung: swarming to the infected airways, they release enzymes and NETs that, beyond killing virus, damage the delicate gas-exchange surface and worsen the pneumonia."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Severe influenza can damage the kidneys: high fever, dehydration, and muscle breakdown (rhabdomyolysis) plus the systemic inflammatory storm can precipitate acute kidney injury, a marker of severe disease needing hospital care."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 tracks how dangerous a flu has become: this cytokine rises sharply in severe influenza, driving fever and the inflammatory cascade that can tip into cytokine storm and ARDS, so its level helps gauge severity."
 ---
 
 # Influenza
@@ -267,3 +276,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy makes influenza dangerous, and the placenta is why protection matters: immune and physiological changes raise the risk of severe flu, so maternal vaccination is recommended—antibodies cross the placenta to shield the newborn too.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Influenza immunity rests on anti-HA antibodies: IgG against hemagglutinin blocks the virus from entering cells, and the flu vaccine works by inducing it—so antigenic drift that changes HA is what forces yearly reformulation.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells orchestrate influenza defense and vaccine response: CD4 cells drive the antibody and cytotoxic responses that clear the virus and build memory, so their decline with age partly explains why flu is deadlier and vaccines weaker in the elderly.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Severe influenza recruits neutrophils that injure the lung: swarming to the infected airways, they release enzymes and NETs that, beyond killing virus, damage the delicate gas-exchange surface and worsen the pneumonia.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe influenza can damage the kidneys: high fever, dehydration, and muscle breakdown (rhabdomyolysis) plus the systemic inflammatory storm can precipitate acute kidney injury, a marker of severe disease needing hospital care.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 tracks how dangerous a flu has become: this cytokine rises sharply in severe influenza, driving fever and the inflammatory cascade that can tip into cytokine storm and ARDS, so its level helps gauge severity.
