@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "The hippocampus links stress to anxiety: chronic cortisol in GAD can shrink and impair it, weakening the brake it normally puts on the stress response, so a stress-damaged hippocampus may help lock worry into a self-sustaining loop."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Anxiety can be a thyroid problem in disguise: an overactive thyroid causes palpitations, tremor, restlessness and worry that mimic generalized anxiety, so checking thyroid function is essential before treating—and correcting it can resolve the symptoms."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Caffeine fuels anxiety by blocking adenosine: adenosine normally promotes calm and sleepiness, so caffeine's blockade heightens arousal and can trigger or worsen generalized anxiety—why cutting caffeine is first-line advice."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Generalized anxiety has a neuroinflammatory side in microglia: chronic stress activates brain microglia that release cytokines altering mood circuits, linking the immune system to persistent worry and the overlap of anxiety with inflammatory illness."
 ---
 
 # Generalized Anxiety Disorder
@@ -269,6 +278,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid disease can masquerade as anxiety: an overactive thyroid causes palpitations, tremor, sweating, and restlessness indistinguishable from GAD, so thyroid hormones are checked before settling on a psychiatric diagnosis—a treatable mimic not to miss.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Anxiety and the gut talk constantly in GAD: worry triggers nausea, cramping, and bowel changes, and irritable bowel syndrome frequently coexists, so the gut-brain axis makes digestive symptoms a core, distressing feature of generalized anxiety.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus links stress to anxiety: chronic cortisol in GAD can shrink and impair it, weakening the brake it normally puts on the stress response, so a stress-damaged hippocampus may help lock worry into a self-sustaining loop.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Anxiety can be a thyroid problem in disguise: an overactive thyroid causes palpitations, tremor, restlessness and worry that mimic generalized anxiety, so checking thyroid function is essential before treating—and correcting it can resolve the symptoms.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Caffeine fuels anxiety by blocking adenosine: adenosine normally promotes calm and sleepiness, so caffeine's blockade heightens arousal and can trigger or worsen generalized anxiety—why cutting caffeine is first-line advice.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Generalized anxiety has a neuroinflammatory side in microglia: chronic stress activates brain microglia that release cytokines altering mood circuits, linking the immune system to persistent worry and the overlap of anxiety with inflammatory illness.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
