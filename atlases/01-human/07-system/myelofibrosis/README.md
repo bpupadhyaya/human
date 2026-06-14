@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Myelofibrosis is fueled by an inflammatory marrow rich in macrophages: monocytes and macrophages, with abnormal megakaryocytes, secrete the TGF-β and cytokines that drive fibroblasts to scar the marrow."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Myelofibrosis distorts the body's iron: transfusion-dependent anemia delivers iron the body cannot shed, building toxic overload, while inflammation also locks iron away from red-cell making—worsening the very anemia driving the transfusions."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Severe myelofibrosis anemia overworks the heart: to ship enough oxygen with too few red cells, the heart pumps harder in a high-output state, and transfusional iron can deposit in the muscle, together straining it toward failure."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Myelofibrosis spills immature cells into the blood: a scarred marrow forces a leukoerythroblastic picture, releasing early neutrophil precursors alongside teardrop red cells—a blood smear that flags hematopoiesis under siege."
 ---
 
 # Myelofibrosis
@@ -267,6 +276,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Myelofibrosis wastes the body through IL-6 and inflammation: the malignant clone and marrow stroma pour out IL-6 and other cytokines that cause the fevers, weight loss, and cachexia, and drive the fibrosis—why JAK inhibitors ease symptoms so well.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Myelofibrosis pushes blood-making into the liver: as scarred marrow fails, hematopoiesis relocates to the liver and spleen (extramedullary hematopoiesis), enlarging them around the hepatocytes—the massive organomegaly typical of advanced disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Myelofibrosis is fueled by an inflammatory marrow rich in macrophages: monocytes and macrophages, with abnormal megakaryocytes, secrete the TGF-β and cytokines that drive fibroblasts to scar the marrow.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Myelofibrosis distorts the body's iron: transfusion-dependent anemia delivers iron the body cannot shed, building toxic overload, while inflammation also locks iron away from red-cell making—worsening the very anemia driving the transfusions.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe myelofibrosis anemia overworks the heart: to ship enough oxygen with too few red cells, the heart pumps harder in a high-output state, and transfusional iron can deposit in the muscle, together straining it toward failure.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Myelofibrosis spills immature cells into the blood: a scarred marrow forces a leukoerythroblastic picture, releasing early neutrophil precursors alongside teardrop red cells—a blood smear that flags hematopoiesis under siege.
 
 ---
 

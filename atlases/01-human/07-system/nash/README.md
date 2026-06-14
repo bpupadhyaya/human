@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "NASH inflammation is tuned by NK and NKT cells: these innate lymphocytes in the liver can both kill stressed hepatocytes and shape the fibrotic response, making them double-edged players in how fatty liver progresses."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "NASH begins in the fat: overloaded, inflamed adipocytes spill free fatty acids and inflammatory adipokines into the blood, flooding the liver with the lipid and signals that ignite the steatohepatitis."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Advanced NASH enlarges the spleen: as fatty liver scars into cirrhosis, portal hypertension backs blood up into the spleen, which swells and traps platelets (hypersplenism), a sign the liver disease has decompensated."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Low oxygen aggravates NASH: pericentral liver cells sit in the most oxygen-poor zone and are first to be injured, and the intermittent hypoxia of sleep apnea—common in these patients—drives faster progression."
 ---
 
 # NASH
@@ -236,6 +245,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — NASH is steatohepatitis because lipids fire the NLRP3 inflammasome: fat overload and lipotoxic species activate the inflammasome in liver cells, releasing IL-1β that turns harmless fatty liver into the inflammation and fibrosis of NASH.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NASH often carries excess liver iron: dysmetabolic iron overload accumulates in the fatty liver, and that iron drives oxidative stress that accelerates inflammation and fibrosis—so iron status is part of assessing the disease.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NASH inflammation is tuned by NK and NKT cells: these innate lymphocytes in the liver can both kill stressed hepatocytes and shape the fibrotic response, making them double-edged players in how fatty liver progresses.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — NASH begins in the fat: overloaded, inflamed adipocytes spill free fatty acids and inflammatory adipokines into the blood, flooding the liver with the lipid and signals that ignite the steatohepatitis.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Advanced NASH enlarges the spleen: as fatty liver scars into cirrhosis, portal hypertension backs blood up into the spleen, which swells and traps platelets (hypersplenism), a sign the liver disease has decompensated.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Low oxygen aggravates NASH: pericentral liver cells sit in the most oxygen-poor zone and are first to be injured, and the intermittent hypoxia of sleep apnea—common in these patients—drives faster progression.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
