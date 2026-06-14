@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Essential thrombocythemia produces distinctive neurovascular symptoms: microvascular platelet plugging causes headaches, visual disturbance and erythromelalgia, and it raises stroke and TIA risk—so the nervous system often signals the disease before a major clot occurs."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Essential thrombocythemia complicates pregnancy through the placenta: the thrombotic tendency causes placental clots, miscarriage, and growth restriction, so pregnant patients are managed with low-dose aspirin and sometimes heparin to protect the placenta."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Essential thrombocythemia announces itself in the skin as erythromelalgia: platelet microthrombi in small vessels cause burning, red, painful hands and feet, a near-specific symptom that dramatically improves with low-dose aspirin."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Essential thrombocythemia's high cell turnover can cause gout: rapid platelet and cell production raises uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative neoplasms."
 ---
 
 # Essential Thrombocythemia
@@ -229,6 +238,9 @@ Management:
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Essential thrombocythemia clots at the endothelium: excess, often dysfunctional platelets interact with the vessel lining to cause microvascular and large-vessel thrombosis, so antiplatelet therapy targeting this platelet-endothelial interface prevents the main complication.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Essential thrombocythemia is a classic cause of splanchnic vein thrombosis: the prothrombotic platelet excess can clot the hepatic or portal veins (Budd-Chiari), so unexplained abdominal vein thrombosis should prompt testing for JAK2 and an underlying MPN.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Essential thrombocythemia produces distinctive neurovascular symptoms: microvascular platelet plugging causes headaches, visual disturbance and erythromelalgia, and it raises stroke and TIA risk—so the nervous system often signals the disease before a major clot occurs.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Essential thrombocythemia complicates pregnancy through the placenta: the thrombotic tendency causes placental clots, miscarriage, and growth restriction, so pregnant patients are managed with low-dose aspirin and sometimes heparin to protect the placenta.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Essential thrombocythemia announces itself in the skin as erythromelalgia: platelet microthrombi in small vessels cause burning, red, painful hands and feet, a near-specific symptom that dramatically improves with low-dose aspirin.
+- `connects-to` → **[Gout](../gout/README.md)** — Essential thrombocythemia's high cell turnover can cause gout: rapid platelet and cell production raises uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative neoplasms.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Esophageal cancer spreads early through the lymphatic system: the esophagus has a rich submucosal lymphatic network, so tumors seed regional nodes even when shallow, which is why nodal involvement heavily shapes staging and the dismal prognosis."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Iron-deficiency anemia can precede esophageal cancer: in Plummer-Vinson syndrome, chronic iron deficiency forms esophageal webs and raises the risk of squamous cell carcinoma, so dysphagia with anemia warrants endoscopy to catch early disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a common esophageal cancer metastasis site: hematogenous spread seeds the liver in advanced disease, marking incurable stage IV cancer, so liver imaging is part of staging that shifts treatment from surgery to systemic therapy."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Esophageal smooth muscle ties to cancer risk: achalasia—failure of the smooth-muscle lower sphincter to relax—causes food stasis and chronic irritation that raises squamous cell carcinoma risk decades later, so long-standing achalasia needs surveillance."
 ---
 
 # Esophageal Cancer
@@ -249,6 +258,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Esophageal cancer is a lethal cancer of the upper digestive system: it blocks the swallowing tube, so progressive dysphagia and weight loss are the hallmark, and because symptoms appear late it is usually advanced at diagnosis—often beyond cure.
 - `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HPV may contribute to some esophageal cancers: the same high-risk types that cause cervical and oropharyngeal cancer are detected in a subset of esophageal squamous-cell carcinomas, though tobacco, alcohol and reflux remain the dominant drivers.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Esophageal cancer spreads early through the lymphatic system: the esophagus has a rich submucosal lymphatic network, so tumors seed regional nodes even when shallow, which is why nodal involvement heavily shapes staging and the dismal prognosis.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron-deficiency anemia can precede esophageal cancer: in Plummer-Vinson syndrome, chronic iron deficiency forms esophageal webs and raises the risk of squamous cell carcinoma, so dysphagia with anemia warrants endoscopy to catch early disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a common esophageal cancer metastasis site: hematogenous spread seeds the liver in advanced disease, marking incurable stage IV cancer, so liver imaging is part of staging that shifts treatment from surgery to systemic therapy.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Esophageal smooth muscle ties to cancer risk: achalasia—failure of the smooth-muscle lower sphincter to relax—causes food stasis and chronic irritation that raises squamous cell carcinoma risk decades later, so long-standing achalasia needs surveillance.
 
 ---
 
