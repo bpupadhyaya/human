@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "MPNST is studied as a target for NK and immune therapy: because it resists chemo and radiation, harnessing natural killer cells and the immune system is explored to attack this sarcoma where standard treatments fall short."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "MPNST spreads to the lungs above all: this aggressive nerve-sheath sarcoma metastasizes through the blood to seed pulmonary nodules, the dominant site of spread and a leading cause of death, so chest imaging guides staging."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia drives MPNST's aggressiveness: the fast-growing sarcoma outpaces its blood supply, and the low-oxygen microenvironment promotes invasion and resistance, part of why this nerve-sheath tumor responds poorly to radiation."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "MPNST largely escapes cytotoxic T cells: with an immunosuppressive, T-cell-poor microenvironment it resists checkpoint drugs, so engineered T-cell and combination immunotherapies are explored against a sarcoma that defies standard care."
 ---
 
 # MPNST
@@ -267,6 +276,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — MPNST is fundamentally unleashed RAS: NF1's protein is a brake on RAS, so losing it lets KRAS/RAS-MAPK signaling run wild, transforming benign neurofibromas into this aggressive sarcoma—why MEK inhibitors are tested against it.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — MPNST progression hinges on losing the CDK4/6 brake: CDKN2A deletion removes the inhibitor of these cell-cycle kinases, letting the tumor divide unchecked—a hallmark of the leap from plexiform neurofibroma to malignancy.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — MPNST is studied as a target for NK and immune therapy: because it resists chemo and radiation, harnessing natural killer cells and the immune system is explored to attack this sarcoma where standard treatments fall short.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — MPNST spreads to the lungs above all: this aggressive nerve-sheath sarcoma metastasizes through the blood to seed pulmonary nodules, the dominant site of spread and a leading cause of death, so chest imaging guides staging.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia drives MPNST's aggressiveness: the fast-growing sarcoma outpaces its blood supply, and the low-oxygen microenvironment promotes invasion and resistance, part of why this nerve-sheath tumor responds poorly to radiation.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — MPNST largely escapes cytotoxic T cells: with an immunosuppressive, T-cell-poor microenvironment it resists checkpoint drugs, so engineered T-cell and combination immunotherapies are explored against a sarcoma that defies standard care.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

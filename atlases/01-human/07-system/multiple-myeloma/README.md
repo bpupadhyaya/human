@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Multiple myeloma cripples dendritic cells: the tumor impairs these antigen-presenters, weakening immunity and helping it evade the T-cell response—so dendritic-cell vaccines are explored to rebuild anti-myeloma immunity."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Multiple myeloma starves the body of oxygen through anemia: plasma cells crowding the marrow choke red-cell production, so falling hemoglobin and fatigue—the 'A' of the CRAB criteria—are common presenting signs."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Myeloma can poison the heart via amyloid: misfolded light chains from the plasma cells deposit as AL amyloid in the heart muscle, stiffening it into a restrictive cardiomyopathy that is a major cause of death in the disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Myeloma reaches the liver in advanced disease: extramedullary plasma-cell deposits and light-chain amyloid can infiltrate it, causing hepatomegaly and organ dysfunction beyond the marrow where the cancer begins."
 ---
 
 # Multiple Myeloma
@@ -272,6 +281,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Multiple myeloma cells lean on autophagy to survive their own output: churning out immunoglobulin floods them with misfolded protein, so they use autophagy alongside the proteasome to clear it—which is why proteasome inhibitors like bortezomib are so lethal to them.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Multiple myeloma is nursed by marrow macrophages: these cells in the bone-marrow niche secrete survival signals and shield myeloma cells from drugs and immune attack, part of the supportive microenvironment the cancer depends on.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Multiple myeloma cripples dendritic cells: the tumor impairs these antigen-presenters, weakening immunity and helping it evade the T-cell response—so dendritic-cell vaccines are explored to rebuild anti-myeloma immunity.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Multiple myeloma starves the body of oxygen through anemia: plasma cells crowding the marrow choke red-cell production, so falling hemoglobin and fatigue—the 'A' of the CRAB criteria—are common presenting signs.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Myeloma can poison the heart via amyloid: misfolded light chains from the plasma cells deposit as AL amyloid in the heart muscle, stiffening it into a restrictive cardiomyopathy that is a major cause of death in the disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Myeloma reaches the liver in advanced disease: extramedullary plasma-cell deposits and light-chain amyloid can infiltrate it, causing hepatomegaly and organ dysfunction beyond the marrow where the cancer begins.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
