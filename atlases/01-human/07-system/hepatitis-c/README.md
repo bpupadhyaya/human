@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells shape hepatitis C's course: strong NK responses help clear acute infection, but the virus blunts them to persist, so the balance of innate NK activity versus viral evasion partly decides who spontaneously clears HCV and who becomes chronic."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Hepatitis C injures the glomerulus through cryoglobulins: virus-driven immune complexes deposit in the kidney, causing membranoproliferative glomerulonephritis—a major extrahepatic complication that antiviral cure can reverse."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Hepatitis C cryoglobulinemia consumes complement: the cold-precipitating immune complexes activate and deplete complement, so low C3/C4 is a clue to active cryoglobulinemic vasculitis affecting skin, nerves and kidney."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Hepatitis C usually becomes chronic when T-helper cells fail: a vigorous, sustained CD4 response can clear the virus, but HCV evades it and the exhausted helper response permits lifelong infection—until direct-acting antivirals cure it."
 ---
 
 # Hepatitis C
@@ -244,3 +253,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Hepatitis C is a slow fibrotic disease: decades of low-grade inflammation drive progressive liver scarring to cirrhosis, but unlike most fibrosis it can stabilize or even regress once direct-acting antivirals cure the infection—so timing of treatment matters.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hepatitis C leaves marks on the skin: it is linked to porphyria cutanea tarda (blistering on sun-exposed skin), lichen planus, and the palpable purpura of cryoglobulinemic vasculitis—so dermatologic clues can be the first hint of silent infection.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells shape hepatitis C's course: strong NK responses help clear acute infection, but the virus blunts them to persist, so the balance of innate NK activity versus viral evasion partly decides who spontaneously clears HCV and who becomes chronic.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hepatitis C injures the glomerulus through cryoglobulins: virus-driven immune complexes deposit in the kidney, causing membranoproliferative glomerulonephritis—a major extrahepatic complication that antiviral cure can reverse.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Hepatitis C cryoglobulinemia consumes complement: the cold-precipitating immune complexes activate and deplete complement, so low C3/C4 is a clue to active cryoglobulinemic vasculitis affecting skin, nerves and kidney.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Hepatitis C usually becomes chronic when T-helper cells fail: a vigorous, sustained CD4 response can clear the virus, but HCV evades it and the exhausted helper response permits lifelong infection—until direct-acting antivirals cure it.

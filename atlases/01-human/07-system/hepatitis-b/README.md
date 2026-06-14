@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Hepatitis B can attack the kidney: deposited viral antigen-antibody complexes cause membranous nephropathy (especially in children), presenting as nephrotic-range protein loss—an immune-complex complication that can improve when the virus is suppressed."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Most chronic hepatitis B starts at birth via the placenta: perinatal mother-to-child transmission causes lifelong infection far more often than adult exposure, so birth-dose vaccine plus antivirals in highly viremic mothers is the key to prevention."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Clearing hepatitis B hinges on T-helper cells: a strong CD4 response orchestrates the CD8 and antibody attack that resolves acute infection, while a weak, exhausted helper response lets HBV persist as chronic infection."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells help hepatitis B persist: in chronic infection, expanded Tregs dampen the antiviral T-cell attack, contributing to immune tolerance of the virus—the flip side of the helper response needed to clear it."
 ---
 
 # Hepatitis B
@@ -253,3 +262,9 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells decide hepatitis B's outcome: antibodies to the surface antigen (anti-HBs) neutralize the virus and are what the vaccine induces, so seroconversion from HBsAg to anti-HBs marks recovery and protective immunity—the basis of the first anti-cancer vaccine.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic hepatitis B scars the liver toward cirrhosis: persistent immune attack on infected hepatocytes activates stellate cells to lay down collagen, so years of smoldering inflammation build the fibrosis that underlies liver failure and cancer risk.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hepatitis B can attack the kidney: deposited viral antigen-antibody complexes cause membranous nephropathy (especially in children), presenting as nephrotic-range protein loss—an immune-complex complication that can improve when the virus is suppressed.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Most chronic hepatitis B starts at birth via the placenta: perinatal mother-to-child transmission causes lifelong infection far more often than adult exposure, so birth-dose vaccine plus antivirals in highly viremic mothers is the key to prevention.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Clearing hepatitis B hinges on T-helper cells: a strong CD4 response orchestrates the CD8 and antibody attack that resolves acute infection, while a weak, exhausted helper response lets HBV persist as chronic infection.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help hepatitis B persist: in chronic infection, expanded Tregs dampen the antiviral T-cell attack, contributing to immune tolerance of the virus—the flip side of the helper response needed to clear it.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Most chronic hepatitis B starts at birth via the placenta: perinatal mother-to-child transmission causes lifelong infection far more often than adult exposure, so birth-dose vaccine plus antivirals in highly viremic mothers is the key to prevention.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Clearing hepatitis B hinges on T-helper cells: a strong CD4 response orchestrates the CD8 and antibody attack that resolves acute infection, while a weak, exhausted helper response lets HBV persist as chronic infection.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help hepatitis B persist: in chronic infection, expanded Tregs dampen the antiviral T-cell attack, contributing to immune tolerance of the virus—the flip side of the helper response needed to clear it.
