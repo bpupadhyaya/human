@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Glutamate excitotoxicity widens MS damage: inflamed lesions spill excess glutamate that overexcites and kills oligodendrocytes and neurons, so beyond immune attack, this neurotransmitter helps turn inflammation into lasting tissue loss."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "MS damage reaches the synapse: beyond stripping myelin, the disease erodes gray-matter synapses, and this synaptic loss tracks the cognitive decline and disability that demyelination alone does not explain."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium executes the axon loss in MS: demyelinated axons overload with sodium, which reverses the sodium-calcium exchanger and floods them with calcium, the influx that degrades the axon and drives permanent disability."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells help open the brain to MS attack: in lesions they release mediators that breach the blood-brain barrier and amplify demyelination, linking an allergic-type immune cell to the autoimmune assault on myelin."
 ---
 
 # Multiple Sclerosis
@@ -261,6 +270,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium channels betray the demyelinated MS axon: stripped of myelin, the axon scatters sodium channels to keep firing, but this leaky, energy-hungry state lets sodium and calcium flood in, driving the axonal degeneration behind permanent disability.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide is a hidden axon-killer in MS: activated microglia and macrophages pour out NO that blocks nerve conduction and poisons mitochondria in demyelinated axons, contributing to both the symptoms and the slow neurodegeneration.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate excitotoxicity widens MS damage: inflamed lesions spill excess glutamate that overexcites and kills oligodendrocytes and neurons, so beyond immune attack, this neurotransmitter helps turn inflammation into lasting tissue loss.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — MS damage reaches the synapse: beyond stripping myelin, the disease erodes gray-matter synapses, and this synaptic loss tracks the cognitive decline and disability that demyelination alone does not explain.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium executes the axon loss in MS: demyelinated axons overload with sodium, which reverses the sodium-calcium exchanger and floods them with calcium, the influx that degrades the axon and drives permanent disability.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help open the brain to MS attack: in lesions they release mediators that breach the blood-brain barrier and amplify demyelination, linking an allergic-type immune cell to the autoimmune assault on myelin.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

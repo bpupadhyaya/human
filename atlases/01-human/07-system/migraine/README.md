@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Migraine, especially with aura, marks the blood vessel lining: endothelial dysfunction accompanies attacks and helps explain the raised stroke risk in aura migraineurs, tying the headache to the health of cerebral vessels."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light is both trigger and torment in migraine: photons reaching the retina feed a pathway to the thalamus that intensifies headache, so photophobia is a core symptom and bright or flickering light can set an attack off."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Migraine paralyzes the stomach: attacks bring nausea and vomiting and slow gastric emptying (gastroparesis), which delays oral painkiller absorption—why early or non-oral treatment works better in a severe attack."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Migraine aura is a wave across synapses: cortical spreading depression, a slow tide of neuronal and synaptic depolarization sweeping the cortex, produces the shimmering visual aura and primes the pain that follows."
 ---
 
 # Migraine
@@ -292,6 +301,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine helps explain caffeine's grip on migraine: adenosine levels rise during attacks and dilate cerebral vessels, and because caffeine blocks adenosine receptors it can both abort a headache and, on withdrawal, trigger one.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the migraine brain's lining: in the meninges they degranulate, releasing histamine and other mediators that sensitize trigeminal pain fibers, a cellular source of the neurogenic inflammation behind throbbing pain.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Migraine, especially with aura, marks the blood vessel lining: endothelial dysfunction accompanies attacks and helps explain the raised stroke risk in aura migraineurs, tying the headache to the health of cerebral vessels.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light is both trigger and torment in migraine: photons reaching the retina feed a pathway to the thalamus that intensifies headache, so photophobia is a core symptom and bright or flickering light can set an attack off.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Migraine paralyzes the stomach: attacks bring nausea and vomiting and slow gastric emptying (gastroparesis), which delays oral painkiller absorption—why early or non-oral treatment works better in a severe attack.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Migraine aura is a wave across synapses: cortical spreading depression, a slow tide of neuronal and synaptic depolarization sweeping the cortex, produces the shimmering visual aura and primes the pain that follows.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
