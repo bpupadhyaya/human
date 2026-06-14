@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Tuberculosis can invade the brain: hematogenous seeding causes TB meningitis and tuberculomas, among the deadliest forms—so suspected CNS TB demands urgent treatment with steroids, since inflammation, not just infection, drives the damage."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Tuberculosis frequently spreads to the kidney: genitourinary TB is a leading extrapulmonary form, seeding the kidney to cause sterile pyuria, scarring and ureteral strictures—so persistent urinary symptoms with negative routine cultures should raise suspicion."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Macrophages kill tuberculosis partly with nitric oxide: activated by IFN-gamma, they generate reactive nitrogen species via iNOS to attack the bacterium inside the phagosome, a key defense the pathogen evolves to resist and survive within the granuloma."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells help tuberculosis persist: by dampening the protective Th1 response, expanded Tregs can let M. tuberculosis survive in latency, part of the immune balance that keeps the infection contained yet not cleared."
 ---
 
 # Tuberculosis
@@ -245,6 +254,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic CD8 T cells help contain tuberculosis: alongside CD4 help, they kill infected macrophages that fail to clear the bacillus and secrete IFN-γ, so they are central to granuloma immunity and a key target for next-generation TB vaccines.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Tuberculosis often localizes to the lymphatic system: cervical node TB (scrofula) is the classic extrapulmonary form, and lymphatic and bloodstream spread of the bacillus seeds miliary disease throughout the body when immunity fails.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Tuberculosis can invade the brain: hematogenous seeding causes TB meningitis and tuberculomas, among the deadliest forms—so suspected CNS TB demands urgent treatment with steroids, since inflammation, not just infection, drives the damage.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Tuberculosis frequently spreads to the kidney: genitourinary TB is a leading extrapulmonary form, seeding the kidney to cause sterile pyuria, scarring and ureteral strictures—so persistent urinary symptoms with negative routine cultures should raise suspicion.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Macrophages kill tuberculosis partly with nitric oxide: activated by IFN-gamma, they generate reactive nitrogen species via iNOS to attack the bacterium inside the phagosome, a key defense the pathogen evolves to resist and survive within the granuloma.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help tuberculosis persist: by dampening the protective Th1 response, expanded Tregs can let M. tuberculosis survive in latency, part of the immune balance that keeps the infection contained yet not cleared.
 
 ## See Also
 

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "TSC's brain involvement extends to neuropsychiatric disorders (TAND): beyond epilepsy and autism, ADHD and learning and behavior problems are common and often under-treated, so TSC care now screens for attention and behavioral difficulties routinely."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-D is a biomarker of TSC lung disease: lymphangioleiomyomatosis (LAM) in TSC raises serum VEGF-D, which helps diagnose it and track response, reflecting how mTOR overactivation drives the abnormal vascular and lymphatic growth of the hamartomas."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "TSC's facial angiofibromas are fibroblast-driven hamartomas: mTOR-overactive fibroblasts and vessels proliferate to form the characteristic facial papules, one of the visible skin signs—now treatable with topical mTOR-inhibitor (sirolimus) creams."
+  - target: 01-human/07-system/birt-hogg-dube-syndrome
+    relation: connects-to
+    note: "TSC and Birt-Hogg-Dube both cause inherited kidney tumors and lung cysts: TSC makes angiomyolipomas via mTOR, while BHD makes chromophobe/oncocytic tumors via folliculin—distinct genes that overlap in needing renal and pulmonary surveillance."
 ---
 
 # Tuberous Sclerosis Complex
@@ -251,6 +260,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — TSC causes lymphangioleiomyomatosis (LAM) in the lung: mTOR-driven smooth-muscle-like cells riddle the lungs with cysts, mainly in women, causing breathlessness and pneumothorax—and like other TSC tumors it responds to mTOR inhibitors (sirolimus).
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — TSC marks the eye with retinal hamartomas: benign astrocytic tumors of the retina are a diagnostic feature, usually harmless to vision but, like the brain tubers, evidence of the same mTOR-driven overgrowth across tissues.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — TSC's brain involvement extends to neuropsychiatric disorders (TAND): beyond epilepsy and autism, ADHD and learning and behavior problems are common and often under-treated, so TSC care now screens for attention and behavioral difficulties routinely.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-D is a biomarker of TSC lung disease: lymphangioleiomyomatosis (LAM) in TSC raises serum VEGF-D, which helps diagnose it and track response, reflecting how mTOR overactivation drives the abnormal vascular and lymphatic growth of the hamartomas.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — TSC's facial angiofibromas are fibroblast-driven hamartomas: mTOR-overactive fibroblasts and vessels proliferate to form the characteristic facial papules, one of the visible skin signs—now treatable with topical mTOR-inhibitor (sirolimus) creams.
+- `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — TSC and Birt-Hogg-Dube both cause inherited kidney tumors and lung cysts: TSC makes angiomyolipomas via mTOR, while BHD makes chromophobe/oncocytic tumors via folliculin—distinct genes that overlap in needing renal and pulmonary surveillance.
 
 ---
 
