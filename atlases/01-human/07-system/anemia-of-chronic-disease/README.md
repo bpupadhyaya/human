@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α helps drive the anemia of chronic disease: this inflammatory cytokine directly suppresses red-cell production in the marrow and blunts the response to erythropoietin, so anti-TNF therapy for inflammatory disease can also lift the accompanying anemia."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Anemia of inflammation is orchestrated by hepatocytes: in response to IL-6 they pump out hepcidin, the hormone that locks iron inside cells and starves red-cell production—so the liver's iron-master cell sits at the center of this anemia."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Inflammation overrides the HIF oxygen-sensing that should fix anemia: low oxygen normally stabilizes HIF to boost erythropoietin and suppress hepcidin, but inflammatory signals blunt this response—so anemia of chronic disease persists despite the need for red cells."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen helps drive anemia of inflammation: its macrophages recycle iron from old red cells but, under inflammatory hepcidin, hoard it instead of returning it—while also clearing red cells faster, compounding the anemia."
 ---
 
 # Anemia of Chronic Disease
@@ -251,6 +260,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver runs the anemia of chronic disease: it makes hepcidin, the master iron-regulating hormone, in response to inflammation, and this hepcidin surge locks iron away from red-cell production—so a healthy liver's signal becomes the cause of the anemia.
 - `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Anemia and heart failure feed each other: inflammation in heart failure raises hepcidin and blunts erythropoiesis, while the resulting anemia forces the failing heart to work harder—so this anemia worsens symptoms and prognosis in HF.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α helps drive the anemia of chronic disease: this inflammatory cytokine directly suppresses red-cell production in the marrow and blunts the response to erythropoietin, so anti-TNF therapy for inflammatory disease can also lift the accompanying anemia.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Anemia of inflammation is orchestrated by hepatocytes: in response to IL-6 they pump out hepcidin, the hormone that locks iron inside cells and starves red-cell production—so the liver's iron-master cell sits at the center of this anemia.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Inflammation overrides the HIF oxygen-sensing that should fix anemia: low oxygen normally stabilizes HIF to boost erythropoietin and suppress hepcidin, but inflammatory signals blunt this response—so anemia of chronic disease persists despite the need for red cells.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen helps drive anemia of inflammation: its macrophages recycle iron from old red cells but, under inflammatory hepcidin, hoard it instead of returning it—while also clearing red cells faster, compounding the anemia.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

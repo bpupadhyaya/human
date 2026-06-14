@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/07-system/autism-spectrum-disorder
     relation: connects-to
     note: "Anorexia and autism overlap more than once thought: many with AN have autistic traits—rigidity, sensory sensitivity, narrow focus—that shape eating rules and worsen prognosis, so screening for autism is changing how restrictive eating disorders are treated."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Anorexia shuts down estrogen and weakens bone: starvation suppresses the hypothalamic-pituitary-ovarian axis, causing amenorrhea and low estrogen that—especially in adolescence—drives the osteoporosis and fractures that can become permanent."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Anorexia's fat loss silences leptin from adipocytes: as fat stores vanish, leptin falls, signaling starvation to the brain—suppressing reproduction and metabolism, an adaptive response that becomes part of the disorder's physiology."
+  - target: 01-human/07-system/type-1-diabetes
+    relation: connects-to
+    note: "Anorexia and type 1 diabetes can combine into dangerous 'diabulimia': patients omit insulin to purge calories through glucose loss, causing rapid weight loss but ketoacidosis and accelerated diabetic complications—an especially lethal eating-disorder variant."
 ---
 
 # Anorexia Nervosa
@@ -272,6 +281,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Phosphorus is the danger in refeeding anorexia: as starved cells suddenly take up glucose, they pull phosphate from blood, and the resulting hypophosphatemia can cause fatal heart failure and arrhythmia—so refeeding is done slowly with phosphate repletion.
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Anorexia throws the thyroid into starvation mode: the body converts less T4 to active T3 (low-T3 'sick euthyroid' state) to conserve energy, slowing metabolism, heart rate, and temperature—an adaptive shutdown that reverses with weight restoration, not thyroid drugs.
 - `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Anorexia and autism overlap more than once thought: many with AN have autistic traits—rigidity, sensory sensitivity, narrow focus—that shape eating rules and worsen prognosis, so screening for autism is changing how restrictive eating disorders are treated.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Anorexia shuts down estrogen and weakens bone: starvation suppresses the hypothalamic-pituitary-ovarian axis, causing amenorrhea and low estrogen that—especially in adolescence—drives the osteoporosis and fractures that can become permanent.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Anorexia's fat loss silences leptin from adipocytes: as fat stores vanish, leptin falls, signaling starvation to the brain—suppressing reproduction and metabolism, an adaptive response that becomes part of the disorder's physiology.
+- `connects-to` → **[Type 1 Diabetes](../type-1-diabetes/README.md)** — Anorexia and type 1 diabetes can combine into dangerous 'diabulimia': patients omit insulin to purge calories through glucose loss, causing rapid weight loss but ketoacidosis and accelerated diabetic complications—an especially lethal eating-disorder variant.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
