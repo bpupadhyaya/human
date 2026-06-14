@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "MEN4 causes hyperparathyroidism that activates osteoclasts: the resulting excess PTH drives these cells to resorb bone, releasing calcium and threatening the skeleton with osteoporosis—mirroring the bone disease of MEN1."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "MEN4's commonest feature is too much PTH: like MEN1, CDKN1B loss drives parathyroid tumors that oversecrete parathyroid hormone, raising calcium and eroding bone—hyperparathyroidism is usually the first manifestation."
+  - target: 01-human/03-molecular/rb1
+    relation: connects-to
+    note: "MEN4 is a broken cell-cycle brake felt through Rb: the lost p27 (CDKN1B) normally restrains the CDKs that phosphorylate Rb, so without it cells slip past the checkpoint—linking MEN4's tumors to the same Rb pathway as many cancers."
+  - target: 01-human/03-molecular/sstr2
+    relation: connects-to
+    note: "MEN4's neuroendocrine tumors are targeted through SSTR2: like other NETs they display somatostatin receptors, so somatostatin analogs and receptor-guided radiotherapy (PRRT) can both image and treat the tumors of the syndrome."
 ---
 
 # MEN4 Syndrome
@@ -235,6 +244,9 @@ When clinical MEN features are present:
 - `connects-to` → **[RET](../../03-molecular/ret/README.md)** — MEN4 and MEN2 are different branches of the MEN family: MEN4 comes from CDKN1B loss and mimics MEN1, while MEN2 comes from RET mutations causing medullary thyroid cancer—so gene testing sorts which multiple-endocrine-neoplasia a patient has.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Like MEN1, MEN4 can harbor thymic and other neuroendocrine tumors: because CDKN1B loss produces a MEN1-like spectrum, surveillance includes imaging for thymic and bronchial carcinoids alongside the parathyroid and pituitary tumors.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — MEN4 causes hyperparathyroidism that activates osteoclasts: the resulting excess PTH drives these cells to resorb bone, releasing calcium and threatening the skeleton with osteoporosis—mirroring the bone disease of MEN1.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — MEN4's commonest feature is too much PTH: like MEN1, CDKN1B loss drives parathyroid tumors that oversecrete parathyroid hormone, raising calcium and eroding bone—hyperparathyroidism is usually the first manifestation.
+- `connects-to` → **[RB1](../../03-molecular/rb1/README.md)** — MEN4 is a broken cell-cycle brake felt through Rb: the lost p27 (CDKN1B) normally restrains the CDKs that phosphorylate Rb, so without it cells slip past the checkpoint—linking MEN4's tumors to the same Rb pathway as many cancers.
+- `connects-to` → **[SSTR2](../../03-molecular/sstr2/README.md)** — MEN4's neuroendocrine tumors are targeted through SSTR2: like other NETs they display somatostatin receptors, so somatostatin analogs and receptor-guided radiotherapy (PRRT) can both image and treat the tumors of the syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

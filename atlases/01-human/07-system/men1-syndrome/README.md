@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "MEN1's excess PTH drives osteoclasts: chronic hyperparathyroidism activates these bone-resorbing cells, leaching calcium from the skeleton toward osteoporosis and fractures—part of why correcting the parathyroid disease protects bone."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "MEN1's overactive parathyroids punish the kidney: near-universal primary hyperparathyroidism floods the blood with calcium, which precipitates as kidney stones and nephrocalcinosis—often the first clue that prompts genetic testing for the syndrome."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "MEN1 can grow a glucagon-secreting pancreatic tumor: glucagonomas raise blood sugar and cause a classic migrating rash and weight loss, one of several functional islet tumors—alongside insulinoma and gastrinoma—that define the syndrome."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "MEN1's deadliest turn is pancreatic NET spread to the liver: islet tumors metastasize among the hepatocytes, and this liver burden, not the hormone excess, is the leading cause of death—driving aggressive surveillance and resection."
 ---
 
 # MEN1 Syndrome
@@ -243,6 +252,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Primary hyperparathyroidism is the hallmark of MEN1: nearly all carriers develop parathyroid hyperplasia that floods the blood with PTH, raising calcium—usually the first and most penetrant manifestation, prompting calcium and PTH screening from adolescence.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — MEN1 can grow an aggressive thymic neuroendocrine tumor: this thymic carcinoid, seen mostly in male smokers with MEN1, is a leading cause of MEN1 death, so chest imaging is part of surveillance even though the tumor is rare.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — MEN1's excess PTH drives osteoclasts: chronic hyperparathyroidism activates these bone-resorbing cells, leaching calcium from the skeleton toward osteoporosis and fractures—part of why correcting the parathyroid disease protects bone.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — MEN1's overactive parathyroids punish the kidney: near-universal primary hyperparathyroidism floods the blood with calcium, which precipitates as kidney stones and nephrocalcinosis—often the first clue that prompts genetic testing for the syndrome.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — MEN1 can grow a glucagon-secreting pancreatic tumor: glucagonomas raise blood sugar and cause a classic migrating rash and weight loss, one of several functional islet tumors—alongside insulinoma and gastrinoma—that define the syndrome.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — MEN1's deadliest turn is pancreatic NET spread to the liver: islet tumors metastasize among the hepatocytes, and this liver burden, not the hormone excess, is the leading cause of death—driving aggressive surveillance and resection.
 
 ---
 
