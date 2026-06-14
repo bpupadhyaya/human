@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Rituximab clears mantle cell lymphoma partly via NK cells: the anti-CD20 antibody tags the malignant B cells for natural killer cells to destroy by antibody-dependent killing, a backbone mechanism of MCL immunochemotherapy."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Mantle cell lymphoma survives on B-cell-receptor calcium signaling: tonic receptor firing drives a BTK-dependent calcium flux that keeps the malignant cells alive, the very pathway ibrutinib interrupts to treat the disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Mantle cell lymphoma can invade the brain: especially the aggressive blastoid variant spreads to the central nervous system, a grim relapse site that drives CNS-directed prophylaxis and treatment in high-risk patients."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages support the mantle cell lymphoma niche: tumor-associated macrophages in the nodes and marrow feed the malignant B cells and dampen immunity, and a macrophage-rich tumor tends to carry a worse prognosis."
 ---
 
 # Mantle Cell Lymphoma
@@ -257,6 +266,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Mantle cell lymphoma's overexpressed cyclin D1 partners with CDK4/6: the t(11;14) translocation floods the cell with cyclin D1, which activates CDK4/6 to push past the cell-cycle checkpoint—making CDK4/6 inhibitors like palbociclib a rational target.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Mantle cell lymphoma loves the gut as lymphomatous polyposis: it studs the colon and small bowel with countless lymphoid polyps, so multiple GI polyps that turn out to be lymphoma rather than adenomas are a classic MCL presentation.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rituximab clears mantle cell lymphoma partly via NK cells: the anti-CD20 antibody tags the malignant B cells for natural killer cells to destroy by antibody-dependent killing, a backbone mechanism of MCL immunochemotherapy.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Mantle cell lymphoma survives on B-cell-receptor calcium signaling: tonic receptor firing drives a BTK-dependent calcium flux that keeps the malignant cells alive, the very pathway ibrutinib interrupts to treat the disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Mantle cell lymphoma can invade the brain: especially the aggressive blastoid variant spreads to the central nervous system, a grim relapse site that drives CNS-directed prophylaxis and treatment in high-risk patients.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages support the mantle cell lymphoma niche: tumor-associated macrophages in the nodes and marrow feed the malignant B cells and dampen immunity, and a macrophage-rich tumor tends to carry a worse prognosis.
 
 ---
 

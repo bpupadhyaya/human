@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Marfan aneurysms are fueled by overactive mTOR: disrupted fibrillin and TGF-β signaling ramp up mTOR in the aortic wall, driving the smooth-muscle changes behind aortic dilation—so rapamycin-class drugs are studied to slow it."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Marfan often enlarges the spinal dura around the brain's continuation: dural ectasia—ballooning of the dural sac—is a common, weakly symptomatic feature that, found on imaging, helps confirm the diagnosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Marfan aortas grow weak partly through AKT signaling: disrupted fibrillin and TGF-beta ramp up AKT alongside mTOR in the vessel wall, driving the smooth-muscle changes behind aneurysm, so this growth axis is studied as a drug target."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Inflammation via NF-kB worsens the Marfan aorta: the failing elastic wall activates this inflammatory switch, recruiting cells and enzymes that degrade the matrix further, accelerating the dilation toward dissection."
 ---
 
 # Marfan Syndrome
@@ -274,6 +283,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Marfan's weak connective tissue threatens oxygen supply through pneumothorax: fragile apical lung blebs rupture and collapse the lung, cutting off air exchange—a recurrent emergency in tall, Marfan-bodied patients.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help weaken the Marfan aorta: they infiltrate the aneurysmal aortic wall and release proteases that chew through the elastic media, adding to the matrix breakdown that drives dilation toward dissection.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Marfan aneurysms are fueled by overactive mTOR: disrupted fibrillin and TGF-β signaling ramp up mTOR in the aortic wall, driving the smooth-muscle changes behind aortic dilation—so rapamycin-class drugs are studied to slow it.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Marfan often enlarges the spinal dura around the brain's continuation: dural ectasia—ballooning of the dural sac—is a common, weakly symptomatic feature that, found on imaging, helps confirm the diagnosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Marfan aortas grow weak partly through AKT signaling: disrupted fibrillin and TGF-beta ramp up AKT alongside mTOR in the vessel wall, driving the smooth-muscle changes behind aneurysm, so this growth axis is studied as a drug target.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation via NF-kB worsens the Marfan aorta: the failing elastic wall activates this inflammatory switch, recruiting cells and enzymes that degrade the matrix further, accelerating the dilation toward dissection.
 
 ---
 
