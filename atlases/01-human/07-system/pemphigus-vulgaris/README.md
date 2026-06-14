@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "T cells, including cytotoxic subsets, infiltrate the pemphigus blister: autoreactive T-cell help is essential for the anti-desmoglein antibodies, and the T-cell response in lesions is studied as the upstream driver B-cell-depleting therapy aims at."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Widespread pemphigus blisters leak sodium and fluid: losing the skin barrier over large areas lets fluid, sodium, and protein escape, as in a burn, risking dehydration and electrolyte imbalance."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Pemphigus can be paraneoplastic, tied to the thymus: paraneoplastic pemphigus arises with tumors including thymoma—the same gland linked to myasthenia gravis—so an underlying neoplasm is sought in atypical cases."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils mark the IgA pemphigus variant: while classic pemphigus is antibody-and-T-cell driven, the IgA form fills the epidermis with neutrophils, a distinct cellular pattern of pustular blistering."
 ---
 
 # Pemphigus Vulgaris
@@ -299,6 +308,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Pemphigus antibodies trigger keratinocyte signaling through NF-kB: binding desmoglein-3 sets off p38 and NF-kB cascades inside the cell that actively drive the cells apart (acantholysis), so blistering is more than passive unsticking.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — A Th17/IL-17 arm adds to pemphigus inflammation: beyond the Th2 help that drives the autoantibodies, IL-17 amplifies the inflammatory damage in lesional skin, broadening the immune picture and possible drug targets.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — T cells, including cytotoxic subsets, infiltrate the pemphigus blister: autoreactive T-cell help is essential for the anti-desmoglein antibodies, and the T-cell response in lesions is studied as the upstream driver B-cell-depleting therapy aims at.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Widespread pemphigus blisters leak sodium and fluid: losing the skin barrier over large areas lets fluid, sodium, and protein escape, as in a burn, risking dehydration and electrolyte imbalance.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Pemphigus can be paraneoplastic, tied to the thymus: paraneoplastic pemphigus arises with tumors including thymoma—the same gland linked to myasthenia gravis—so an underlying neoplasm is sought in atypical cases.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark the IgA pemphigus variant: while classic pemphigus is antibody-and-T-cell driven, the IgA form fills the epidermis with neutrophils, a distinct cellular pattern of pustular blistering.
 
 ---
 

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "PCNSL leans on the PI3K-AKT-mTOR axis downstream of BTK: chronic B-cell-receptor and MYD88 signaling feed AKT to drive survival, so AKT-mTOR inhibitors are studied alongside BTK inhibitors for this aggressive brain lymphoma."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "PCNSL's cure depends on the kidneys: its mainstay treatment, high-dose methotrexate, is cleared by the kidneys and is toxic to them, so renal function must be protected to deliver the drug safely."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "PCNSL grows hugging the blood vessels: the malignant B cells cuff around cerebral vessels in an angiocentric pattern, leaning on the endothelial-lined vasculature behind the blood-brain barrier."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "PCNSL can spill potassium when it melts: this aggressive lymphoma responds fast to steroids and chemo, and the rapid cell death can trigger tumor lysis that floods the blood with potassium."
 ---
 
 # Primary CNS Lymphoma
@@ -261,6 +270,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PCNSL survives on B-cell-receptor calcium signaling: with MYD88 and BTK-driven activation, a calcium flux keeps the malignant B cells alive in the brain, which is why BTK inhibitors that interrupt this pathway can penetrate the CNS and work.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are scarce in the brain that PCNSL exploits: the CNS has few professional antigen-presenters, so the lymphoma faces weak priming of an immune response—part of the immune privilege that lets it grow behind the blood-brain barrier.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PCNSL leans on the PI3K-AKT-mTOR axis downstream of BTK: chronic B-cell-receptor and MYD88 signaling feed AKT to drive survival, so AKT-mTOR inhibitors are studied alongside BTK inhibitors for this aggressive brain lymphoma.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — PCNSL's cure depends on the kidneys: its mainstay treatment, high-dose methotrexate, is cleared by the kidneys and is toxic to them, so renal function must be protected to deliver the drug safely.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PCNSL grows hugging the blood vessels: the malignant B cells cuff around cerebral vessels in an angiocentric pattern, leaning on the endothelial-lined vasculature behind the blood-brain barrier.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PCNSL can spill potassium when it melts: this aggressive lymphoma responds fast to steroids and chemo, and the rapid cell death can trigger tumor lysis that floods the blood with potassium.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
