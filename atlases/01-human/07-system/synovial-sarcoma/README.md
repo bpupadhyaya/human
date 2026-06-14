@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "Synovial sarcoma joins the broad sarcoma spectrum of Li-Fraumeni syndrome: although defined by the somatic SS18-SSX fusion rather than germline p53 loss, sarcomas like it occur excessively in p53-deficient patients—linking fusion-driven and hereditary sarcomas."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Synovial sarcoma is a leading target for engineered T-cell therapy: it expresses cancer-testis antigens (NY-ESO-1, MAGE-A4), so afami-cel/tecelra—TCR T cells the immune system is reprogrammed to deploy—became the first such therapy approved for a solid tumor."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Synovial sarcoma's cancer-testis antigens depend on antigen presentation: dendritic cells process NY-ESO-1 and MAGE-A4 onto HLA, the step that primes the T cells engineered immunotherapies exploit—and the tumor evades this by downregulating MHC."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Synovial sarcoma is a rare primary cardiac sarcoma: though usually arising in limb soft tissue, it can originate in the heart or pericardium, presenting with obstruction or effusion and a grim prognosis given difficult surgical clearance."
 ---
 
 # Synovial Sarcoma
@@ -225,6 +234,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 mutation can mark progression in synovial sarcoma: while the SS18-SSX fusion is the defining initiating event, secondary p53 loss appears in high-grade, dedifferentiated tumors—so the genome guardian's failure layers onto the fusion oncogene to worsen behavior.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT activation helps immortalize synovial sarcoma cells: telomerase reactivation, alongside the SS18-SSX fusion that reprograms the epigenome, lets these translocation-driven sarcomas divide indefinitely—a step common to many cancers despite their distinct drivers.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Synovial sarcoma joins the broad sarcoma spectrum of Li-Fraumeni syndrome: although defined by the somatic SS18-SSX fusion rather than germline p53 loss, sarcomas like it occur excessively in p53-deficient patients—linking fusion-driven and hereditary sarcomas.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Synovial sarcoma is a leading target for engineered T-cell therapy: it expresses cancer-testis antigens (NY-ESO-1, MAGE-A4), so afami-cel/tecelra—TCR T cells the immune system is reprogrammed to deploy—became the first such therapy approved for a solid tumor.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Synovial sarcoma's cancer-testis antigens depend on antigen presentation: dendritic cells process NY-ESO-1 and MAGE-A4 onto HLA, the step that primes the T cells engineered immunotherapies exploit—and the tumor evades this by downregulating MHC.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Synovial sarcoma is a rare primary cardiac sarcoma: though usually arising in limb soft tissue, it can originate in the heart or pericardium, presenting with obstruction or effusion and a grim prognosis given difficult surgical clearance.
 
 ---
 

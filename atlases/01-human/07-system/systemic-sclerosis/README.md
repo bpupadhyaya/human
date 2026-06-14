@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "Endothelin-1 drives the vasculopathy of systemic sclerosis: this potent vasoconstrictor, overproduced by injured endothelium, fuels Raynaud's phenomenon and pulmonary hypertension—so endothelin-receptor blockers (bosentan) treat the vascular side of the disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Systemic sclerosis is fundamentally autoimmune: specific autoantibodies (anti-Scl-70, anti-centromere) define subsets and predict organ risk, and severe cases are treated by resetting the immune system with autologous stem-cell transplant."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells drive systemic sclerosis beyond autoantibodies: they secrete pro-fibrotic IL-6 and activate fibroblasts, so rituximab (anti-CD20 B-cell depletion) is increasingly used to slow skin and lung fibrosis in progressive disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Helper T cells orchestrate the fibrosis of systemic sclerosis: Th2 and Th17 cytokines (IL-4, IL-13, IL-17) push fibroblasts toward collagen overproduction, linking the adaptive immune response directly to the tissue scarring that defines the disease."
 ---
 
 # Systemic Sclerosis
@@ -221,6 +230,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Systemic sclerosis is the prototypical multi-organ fibrosis: the same fibroblast-driven scarring that heals a wound runs unchecked across skin, lung and gut, so SSc anchors the broader family of fibrotic diseases and is a testbed for antifibrotic drugs like nintedanib.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a hidden but lethal systemic sclerosis target: myocardial fibrosis and microvascular disease cause arrhythmias, conduction block and heart failure, often silent until advanced—so cardiac involvement is a leading cause of death in scleroderma.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — Endothelin-1 drives the vasculopathy of systemic sclerosis: this potent vasoconstrictor, overproduced by injured endothelium, fuels Raynaud's phenomenon and pulmonary hypertension—so endothelin-receptor blockers (bosentan) treat the vascular side of the disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Systemic sclerosis is fundamentally autoimmune: specific autoantibodies (anti-Scl-70, anti-centromere) define subsets and predict organ risk, and severe cases are treated by resetting the immune system with autologous stem-cell transplant.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells drive systemic sclerosis beyond autoantibodies: they secrete pro-fibrotic IL-6 and activate fibroblasts, so rituximab (anti-CD20 B-cell depletion) is increasingly used to slow skin and lung fibrosis in progressive disease.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Helper T cells orchestrate the fibrosis of systemic sclerosis: Th2 and Th17 cytokines (IL-4, IL-13, IL-17) push fibroblasts toward collagen overproduction, linking the adaptive immune response directly to the tissue scarring that defines the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
