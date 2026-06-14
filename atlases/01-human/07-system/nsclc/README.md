@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "NSCLC staging hinges on the lymphatic system: spread to hilar and mediastinal lymph nodes (the N stage) determines whether disease is surgically curable, so nodal sampling by EBUS or mediastinoscopy is decisive in planning treatment."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Liver metastases worsen lung-cancer outlook: NSCLC commonly spreads to the liver, which carries a poorer prognosis and historically blunts the benefit of immunotherapy, so liver involvement shapes both staging and treatment expectations."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "NSCLC immunotherapy can pair two checkpoints: adding anti-CTLA-4 (ipilimumab) to anti-PD-1 therapy gives durable responses in some patients, an option especially when chemotherapy is undesirable—broadening immunotherapy beyond PD-1 blockade alone."
+  - target: 01-human/03-molecular/ret
+    relation: connects-to
+    note: "A subset of NSCLC is driven by RET fusions: these rearrangements switch on RET kinase, and selective inhibitors like selpercatinib produce strong responses, so guidelines include RET in the molecular panel run on every lung adenocarcinoma."
 ---
 
 # NSCLC
@@ -220,6 +229,9 @@ cross_links:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 is among the most mutated genes in NSCLC: smoking-driven DNA damage frequently inactivates p53, removing a key brake on the cell cycle and apoptosis, so its loss—often alongside KRAS—marks aggressive, treatment-resistant lung adenocarcinoma.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — NSCLC is the dominant cancer of the respiratory system: arising in bronchial and alveolar cells mostly from smoking, it accounts for ~85% of lung cancers and destroys lung function as it grows—the leading cause of cancer death worldwide.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — NSCLC staging hinges on the lymphatic system: spread to hilar and mediastinal lymph nodes (the N stage) determines whether disease is surgically curable, so nodal sampling by EBUS or mediastinoscopy is decisive in planning treatment.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver metastases worsen lung-cancer outlook: NSCLC commonly spreads to the liver, which carries a poorer prognosis and historically blunts the benefit of immunotherapy, so liver involvement shapes both staging and treatment expectations.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — NSCLC immunotherapy can pair two checkpoints: adding anti-CTLA-4 (ipilimumab) to anti-PD-1 therapy gives durable responses in some patients, an option especially when chemotherapy is undesirable—broadening immunotherapy beyond PD-1 blockade alone.
+- `connects-to` → **[RET](../../03-molecular/ret/README.md)** — A subset of NSCLC is driven by RET fusions: these rearrangements switch on RET kinase, and selective inhibitors like selpercatinib produce strong responses, so guidelines include RET in the molecular panel run on every lung adenocarcinoma.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

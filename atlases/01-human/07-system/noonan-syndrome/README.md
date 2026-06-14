@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Noonan syndrome affects the reproductive system in males: undescended testes (cryptorchidism) are common and can impair fertility, reflecting how RASopathy signaling disturbs gonadal development alongside the heart and growth abnormalities."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Short stature in Noonan syndrome involves the GH-IGF-1 axis: RAS-pathway overactivity blunts growth-hormone signaling and IGF-1 generation, so many children have low-normal IGF-1 and are treated with growth hormone to improve final height."
+  - target: 01-human/07-system/all
+    relation: connects-to
+    note: "Noonan syndrome carries a raised leukemia risk: beyond the myeloproliferative JMML of infancy, RAS-pathway germline mutations predispose to acute leukemias including B-ALL, so persistent cytopenias or organomegaly warrant a blood and marrow evaluation."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eyes carry Noonan's diagnostic facial signs: hypertelorism, downslanting palpebral fissures and ptosis are hallmark features, and refractive errors and strabismus are common—so an eye exam supports the clinical diagnosis and protects vision."
 ---
 
 # Noonan Syndrome
@@ -249,6 +258,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Noonan syndrome affects the developing nervous system: many children have developmental delay and learning differences, and RASopathy signaling shapes brain development, so neurodevelopmental support is part of managing this multisystem condition.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Noonan syndrome reshapes the skeleton and stature: short stature, a broad webbed neck, chest deformity (pectus) and scoliosis are characteristic, so the musculoskeletal features are central to recognizing this RAS-pathway syndrome.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Noonan syndrome affects the reproductive system in males: undescended testes (cryptorchidism) are common and can impair fertility, reflecting how RASopathy signaling disturbs gonadal development alongside the heart and growth abnormalities.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Short stature in Noonan syndrome involves the GH-IGF-1 axis: RAS-pathway overactivity blunts growth-hormone signaling and IGF-1 generation, so many children have low-normal IGF-1 and are treated with growth hormone to improve final height.
+- `connects-to` → **[Acute Lymphoblastic Leukemia](../all/README.md)** — Noonan syndrome carries a raised leukemia risk: beyond the myeloproliferative JMML of infancy, RAS-pathway germline mutations predispose to acute leukemias including B-ALL, so persistent cytopenias or organomegaly warrant a blood and marrow evaluation.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eyes carry Noonan's diagnostic facial signs: hypertelorism, downslanting palpebral fissures and ptosis are hallmark features, and refractive errors and strabismus are common—so an eye exam supports the clinical diagnosis and protects vision.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
