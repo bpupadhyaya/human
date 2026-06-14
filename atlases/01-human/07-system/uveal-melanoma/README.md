@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Uveal melanoma leans on PI3K-AKT through PTEN loss: alongside its Gq-MAPK driver, losing PTEN switches on AKT survival signaling, so combining MAPK and PI3K/AKT blockade is explored against this treatment-resistant cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia drives uveal melanoma's aggressiveness: low oxygen in the eye tumor stabilizes HIF and pushes invasion and the metabolic shift that helps it seed the liver, the near-universal site of its lethal spread."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Beyond its near-exclusive liver spread, uveal melanoma can reach the lungs: hematogenous metastasis occasionally seeds pulmonary and other sites, so surveillance looks past the liver in advanced disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells underpin the new immunotherapy for uveal melanoma: this normally immune-cold tumor is now attacked with tebentafusp, which redirects T cells to a melanocyte antigen—an approach that leans on antigen presentation."
 ---
 
 # Uveal Melanoma
@@ -272,6 +281,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Uveal melanoma's driver mutations signal through calcium: GNAQ/GNA11 lock the Gq protein on, firing phospholipase C to release calcium that activates PKC and MAPK—the core engine of this eye cancer, distinct from cutaneous melanoma's BRAF.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Uveal melanoma hides in the eye's immune privilege behind regulatory T cells: a Treg-rich, cold microenvironment makes it resist the checkpoint drugs that work in skin melanoma—why the T-cell engager tebentafusp was needed instead.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Uveal melanoma leans on PI3K-AKT through PTEN loss: alongside its Gq-MAPK driver, losing PTEN switches on AKT survival signaling, so combining MAPK and PI3K/AKT blockade is explored against this treatment-resistant cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia drives uveal melanoma's aggressiveness: low oxygen in the eye tumor stabilizes HIF and pushes invasion and the metabolic shift that helps it seed the liver, the near-universal site of its lethal spread.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Beyond its near-exclusive liver spread, uveal melanoma can reach the lungs: hematogenous metastasis occasionally seeds pulmonary and other sites, so surveillance looks past the liver in advanced disease.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells underpin the new immunotherapy for uveal melanoma: this normally immune-cold tumor is now attacked with tebentafusp, which redirects T cells to a melanocyte antigen—an approach that leans on antigen presentation.
 
 ---
 

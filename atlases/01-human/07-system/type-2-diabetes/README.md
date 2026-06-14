@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Cortisol drives the diabetes of stress and steroids: the hormone raises blood glucose by spurring the liver and blunting insulin, so chronic stress, Cushing's, and steroid therapy can unmask or worsen type 2 diabetes."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Insulin is packaged with zinc: beta cells store the hormone as zinc-coordinated crystals, and the zinc transporter ZnT8 is both a diabetes-risk gene and an autoantibody target, tying trace-metal handling to the disease."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Type 2 diabetes is the leading cause of kidney failure: years of high glucose scar the glomeruli (diabetic nephropathy), so protecting the kidney with SGLT2 inhibitors and blood-pressure control is central to long-term care."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages link fat to insulin resistance in type 2 diabetes: inflamed adipose tissue recruits macrophages whose cytokines blunt insulin signaling, so this immune-metabolic crosstalk helps turn obesity into diabetes."
 ---
 
 # Type 2 Diabetes
@@ -246,6 +255,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium deficiency feeds type 2 diabetes: low magnesium worsens insulin resistance and is common in poorly controlled diabetes (and worsened by it), so correcting it modestly improves glucose control—a two-way street between the mineral and the disease.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome shapes type 2 diabetes: dysbiosis fuels low-grade inflammation and insulin resistance, and metformin partly works by reshaping gut bacteria—so what lives in the intestine influences blood sugar.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol drives the diabetes of stress and steroids: the hormone raises blood glucose by spurring the liver and blunting insulin, so chronic stress, Cushing's, and steroid therapy can unmask or worsen type 2 diabetes.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Insulin is packaged with zinc: beta cells store the hormone as zinc-coordinated crystals, and the zinc transporter ZnT8 is both a diabetes-risk gene and an autoantibody target, tying trace-metal handling to the disease.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Type 2 diabetes is the leading cause of kidney failure: years of high glucose scar the glomeruli (diabetic nephropathy), so protecting the kidney with SGLT2 inhibitors and blood-pressure control is central to long-term care.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages link fat to insulin resistance in type 2 diabetes: inflamed adipose tissue recruits macrophages whose cytokines blunt insulin signaling, so this immune-metabolic crosstalk helps turn obesity into diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
