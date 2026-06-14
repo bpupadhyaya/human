@@ -88,6 +88,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Basal cell carcinoma exposes the double edge of sunlight: the same UV that lets skin make vitamin D also mutates basal keratinocytes to cause BCC, so sun exposure is both a vitamin source and the dominant risk factor for this skin cancer."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eyelid is a top site for basal cell carcinoma: chronic sun exposure makes BCC the most common eyelid and periocular cancer, where slow local invasion can threaten the eye itself—so a non-healing eyelid lesion warrants biopsy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "UV light disarms the skin's dendritic cells to let BCC grow: sunlight depletes and impairs epidermal Langerhans cells, weakening immune surveillance, so UV both mutates keratinocytes and removes the immune watch that would clear early tumors."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells crowd around basal cell carcinoma: they accumulate at the tumor edge and release mediators that remodel stroma and drive angiogenesis, so these innate cells help build the supportive microenvironment BCC needs to invade."
 ---
 
 # Basal Cell Carcinoma
@@ -233,6 +242,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Basal cell carcinoma is the commonest cancer of the integumentary system: it arises from basal keratinocytes driven by UV-induced Hedgehog-pathway mutations, so it is the prototypical sun-related skin malignancy—locally invasive but rarely metastatic.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A loss features in skin cancers including basal cell carcinoma: UV damage to this tumor-suppressor removes a brake on the cell cycle, compounding the Hedgehog-pathway mutations that drive BCC—linking sun-induced DNA damage to unchecked growth.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Basal cell carcinoma exposes the double edge of sunlight: the same UV that lets skin make vitamin D also mutates basal keratinocytes to cause BCC, so sun exposure is both a vitamin source and the dominant risk factor for this skin cancer.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eyelid is a top site for basal cell carcinoma: chronic sun exposure makes BCC the most common eyelid and periocular cancer, where slow local invasion can threaten the eye itself—so a non-healing eyelid lesion warrants biopsy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — UV light disarms the skin's dendritic cells to let BCC grow: sunlight depletes and impairs epidermal Langerhans cells, weakening immune surveillance, so UV both mutates keratinocytes and removes the immune watch that would clear early tumors.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells crowd around basal cell carcinoma: they accumulate at the tumor edge and release mediators that remodel stroma and drive angiogenesis, so these innate cells help build the supportive microenvironment BCC needs to invade.
 
 ---
 

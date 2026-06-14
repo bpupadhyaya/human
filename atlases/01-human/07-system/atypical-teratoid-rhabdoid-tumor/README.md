@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/li-fraumeni-syndrome
     relation: connects-to
     note: "ATRT and Li-Fraumeni syndrome both stem from tumor-suppressor loss but differ in gene: ATRT is driven by biallelic SMARCB1 (a chromatin-remodeler) loss, while Li-Fraumeni is germline TP53—two routes by which a single gene defect unleashes childhood cancer."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "ATRT shows actionable pathway activation including mTOR: loss of SMARCB1 deregulates signaling that converges on mTOR and aurora kinase, so targeted inhibitors are being tested to add precision options to this aggressive infant brain tumor's harsh chemoradiation."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunotherapy is being explored in ATRT via cytotoxic T cells: despite few mutations, some ATRTs carry immune infiltrate, so checkpoint blockade and T-cell approaches are studied for a tumor where conventional treatment often fails in the very young."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "ATRT cells may depend on autophagy to survive: SWI/SNF loss and metabolic stress make these tumors lean on autophagic recycling, so blocking autophagy is studied as a vulnerability in a cancer that resists standard treatment."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -230,6 +239,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Immunotherapy is being explored in ATRT: despite a low mutation burden, SMARCB1 loss can make these tumors immunogenic, so PD-1 checkpoint blockade is under study for a cancer that resists conventional therapy and devastates infants.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — ATRT is a highly aggressive embryonal tumor of the central nervous system: it arises in the brain (often the cerebellum) of very young children, so it presents with raised intracranial pressure and rapid neurological decline—among the most lethal pediatric CNS cancers.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — ATRT and Li-Fraumeni syndrome both stem from tumor-suppressor loss but differ in gene: ATRT is driven by biallelic SMARCB1 (a chromatin-remodeler) loss, while Li-Fraumeni is germline TP53—two routes by which a single gene defect unleashes childhood cancer.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ATRT shows actionable pathway activation including mTOR: loss of SMARCB1 deregulates signaling that converges on mTOR and aurora kinase, so targeted inhibitors are being tested to add precision options to this aggressive infant brain tumor's harsh chemoradiation.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy is being explored in ATRT via cytotoxic T cells: despite few mutations, some ATRTs carry immune infiltrate, so checkpoint blockade and T-cell approaches are studied for a tumor where conventional treatment often fails in the very young.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — ATRT cells may depend on autophagy to survive: SWI/SNF loss and metabolic stress make these tumors lean on autophagic recycling, so blocking autophagy is studied as a vulnerability in a cancer that resists standard treatment.
 
 ---
 
