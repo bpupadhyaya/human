@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "NSCLC is shaped by cancer-associated fibroblasts: they build a stiff, desmoplastic stroma that secretes growth factors, promotes invasion, and shields tumor cells from drugs, making the fibroblast-rich niche a driver of resistance."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia hardens NSCLC against treatment: oxygen-starved tumor regions resist radiation, which needs oxygen to fix DNA damage, and they drive an aggressive, metastatic phenotype—so tumor hypoxia is both a prognostic marker and a therapeutic obstacle."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "NSCLC recruits its blood supply through VEGF: the tumor secretes this angiogenesis driver to grow and spread, so anti-VEGF bevacizumab is combined with chemotherapy and immunotherapy in eligible non-squamous lung cancers."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells decide how well NSCLC immunotherapy works: by presenting tumor antigens they prime the T cells that PD-1 blockade unleashes, so their function in the tumor shapes response to the checkpoint drugs central to lung-cancer care."
 ---
 
 # NSCLC
@@ -244,6 +253,9 @@ cross_links:
 - `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Squamous lung cancers often hijack NRF2: KEAP1/NRF2 mutations switch on a permanent antioxidant program that shields the tumor from oxidative stress and chemo/radiation, marking an aggressive, treatment-resistant subset of NSCLC.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — NSCLC evades immunity with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, blunting the PD-1 checkpoint therapy that has transformed lung cancer treatment—so depleting them is a goal.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — NSCLC is shaped by cancer-associated fibroblasts: they build a stiff, desmoplastic stroma that secretes growth factors, promotes invasion, and shields tumor cells from drugs, making the fibroblast-rich niche a driver of resistance.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia hardens NSCLC against treatment: oxygen-starved tumor regions resist radiation, which needs oxygen to fix DNA damage, and they drive an aggressive, metastatic phenotype—so tumor hypoxia is both a prognostic marker and a therapeutic obstacle.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — NSCLC recruits its blood supply through VEGF: the tumor secretes this angiogenesis driver to grow and spread, so anti-VEGF bevacizumab is combined with chemotherapy and immunotherapy in eligible non-squamous lung cancers.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells decide how well NSCLC immunotherapy works: by presenting tumor antigens they prime the T cells that PD-1 blockade unleashes, so their function in the tumor shapes response to the checkpoint drugs central to lung-cancer care.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
