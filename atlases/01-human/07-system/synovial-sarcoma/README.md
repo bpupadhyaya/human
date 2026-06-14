@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Synovial sarcoma grows on IGF-driven mTOR signaling: autocrine IGF-1 feeds the PI3K-AKT-mTOR axis to fuel proliferation, making mTOR a studied target in a sarcoma otherwise reliant on chemotherapy and surgery."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia stokes synovial sarcoma's aggressiveness: as the tumor outgrows its blood supply, low oxygen drives invasion and metastasis, contributing to the lung spread that threatens patients with this translocation-driven sarcoma."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Synovial sarcoma can spread to the brain: though lung is the dominant metastatic site, hematogenous spread occasionally seeds brain metastases in advanced disease, prompting imaging when neurologic symptoms appear."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Synovial sarcoma leans on AKT downstream of IGF: autocrine IGF-1 activates the PI3K-AKT-mTOR axis to drive proliferation and survival, so AKT-mTOR inhibitors are studied alongside the IGF and immune approaches in this sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -261,6 +270,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Synovial sarcoma is a chromatin disease: its SS18-SSX fusion hijacks the SWI/SNF (BAF) complex—which includes ARID1A—wrenching it onto the wrong genes, so the tumor is driven by epigenetic miswiring rather than classic mutations.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Synovial sarcoma's immunotherapy is limited by regulatory T cells: it expresses the NY-ESO-1 antigen targeted by TCR-engineered T cells, but a Treg-rich, suppressive microenvironment blunts the attack and curbs durable responses.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Synovial sarcoma grows on IGF-driven mTOR signaling: autocrine IGF-1 feeds the PI3K-AKT-mTOR axis to fuel proliferation, making mTOR a studied target in a sarcoma otherwise reliant on chemotherapy and surgery.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia stokes synovial sarcoma's aggressiveness: as the tumor outgrows its blood supply, low oxygen drives invasion and metastasis, contributing to the lung spread that threatens patients with this translocation-driven sarcoma.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Synovial sarcoma can spread to the brain: though lung is the dominant metastatic site, hematogenous spread occasionally seeds brain metastases in advanced disease, prompting imaging when neurologic symptoms appear.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Synovial sarcoma leans on AKT downstream of IGF: autocrine IGF-1 activates the PI3K-AKT-mTOR axis to drive proliferation and survival, so AKT-mTOR inhibitors are studied alongside the IGF and immune approaches in this sarcoma.
 
 ---
 

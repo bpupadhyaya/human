@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells mark early systemic sclerosis: they accumulate in affected skin and release mediators that activate fibroblasts and inflame vessels, contributing to both the fibrosis and the Raynaud's vasculopathy of the disease."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Systemic sclerosis most often strikes inside at the gut: fibrosis and nerve damage slow the intestine, causing reflux, bloating, bacterial overgrowth and malabsorption—the commonest internal-organ involvement of the disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Plasmacytoid dendritic cells pour out the interferon that drives systemic sclerosis: their type-I interferon signature activates fibroblasts and inflames vessels, sitting near the top of the cascade that scleroderma therapies target."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Systemic sclerosis chokes the fingers of oxygen: Raynaud's and a damaged microvasculature cut blood flow, so digital ischemia and ulcers—and tissue hypoxia that feeds more fibrosis—are hallmarks of the vascular side of the disease."
 ---
 
 # Systemic Sclerosis
@@ -257,6 +266,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Systemic sclerosis fibrosis is driven by PDGF: the growth factor (and stimulatory anti-PDGFR antibodies) push fibroblasts into collagen-spewing myofibroblasts, so PDGFR-blocking drugs like nintedanib slow the lung scarring.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Systemic sclerosis is fibrosed by M2 macrophages: alternatively-activated macrophages flood the skin and lung and secrete TGF-beta and other signals that drive the relentless collagen deposition central to the disease.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells mark early systemic sclerosis: they accumulate in affected skin and release mediators that activate fibroblasts and inflame vessels, contributing to both the fibrosis and the Raynaud's vasculopathy of the disease.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Systemic sclerosis most often strikes inside at the gut: fibrosis and nerve damage slow the intestine, causing reflux, bloating, bacterial overgrowth and malabsorption—the commonest internal-organ involvement of the disease.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells pour out the interferon that drives systemic sclerosis: their type-I interferon signature activates fibroblasts and inflames vessels, sitting near the top of the cascade that scleroderma therapies target.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Systemic sclerosis chokes the fingers of oxygen: Raynaud's and a damaged microvasculature cut blood flow, so digital ischemia and ulcers—and tissue hypoxia that feeds more fibrosis—are hallmarks of the vascular side of the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
