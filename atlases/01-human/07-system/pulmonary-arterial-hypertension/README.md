@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Pulmonary hypertension ultimately kills through the right ventricle: the right heart's cardiomyocytes hypertrophy then fail against the high pulmonary pressure, so cor pulmonale and right heart failure—not the lung itself—are the usual cause of death in PAH."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF marks the disordered vessels of pulmonary arterial hypertension: the plexiform lesions that obstruct small pulmonary arteries are foci of dysregulated VEGF-driven endothelial proliferation, reflecting how PAH is a vascular-remodeling, not just vasoconstrictive, disease."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "Pulmonary arterial hypertension is the vascular disease of the respiratory system: remodeling of the lung's small arteries raises pulmonary pressure, so breathlessness and hypoxemia arise even though the airways and alveoli themselves may be normal."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Pulmonary arterial hypertension is a disease of the lesser circulation within the cardiovascular system: it raises pressure in the pulmonary arteries, not the systemic circuit, so its targeted vasodilators relax the lung's vessels rather than lowering body-wide pressure."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -230,6 +239,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin drives pulmonary arterial hypertension: it constricts and remodels pulmonary arteries, and the appetite suppressants (fen-phen) that flooded the circulation with serotonin caused an epidemic of PAH—cementing the serotonin pathway as a disease driver.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia worsens pulmonary hypertension via a unique reflex: unlike systemic vessels, pulmonary arteries constrict when oxygen is low, so chronic hypoxia sustains vasoconstriction and vascular remodeling—why supplemental oxygen helps.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Pulmonary hypertension ultimately kills through the right ventricle: the right heart's cardiomyocytes hypertrophy then fail against the high pulmonary pressure, so cor pulmonale and right heart failure—not the lung itself—are the usual cause of death in PAH.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF marks the disordered vessels of pulmonary arterial hypertension: the plexiform lesions that obstruct small pulmonary arteries are foci of dysregulated VEGF-driven endothelial proliferation, reflecting how PAH is a vascular-remodeling, not just vasoconstrictive, disease.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Pulmonary arterial hypertension is the vascular disease of the respiratory system: remodeling of the lung's small arteries raises pulmonary pressure, so breathlessness and hypoxemia arise even though the airways and alveoli themselves may be normal.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Pulmonary arterial hypertension is a disease of the lesser circulation within the cardiovascular system: it raises pressure in the pulmonary arteries, not the systemic circuit, so its targeted vasodilators relax the lung's vessels rather than lowering body-wide pressure.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

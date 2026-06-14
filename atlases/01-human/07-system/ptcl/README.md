@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Bone marrow involvement is common and ominous in PTCL: these aggressive T-cell lymphomas frequently infiltrate the marrow, causing cytopenias and upstaging disease—so marrow biopsy is part of staging and marrow disease worsens an already poor prognosis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "PTCL spans many T-cell subsets, including cytotoxic-T-cell-derived types: extranodal NK/T-cell and hepatosplenic lymphomas arise from cytotoxic lineage cells, so unlike B-cell lymphomas, PTCL's diversity reflects the many normal T-cell populations it can mimic."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Some PTCLs home to the spleen and liver: hepatosplenic T-cell lymphoma infiltrates these organs (often in immunosuppressed patients) causing cytopenias without nodal masses, so an aggressive T-cell lymphoma can present as hepatosplenomegaly rather than lymphadenopathy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "PTCL both arises from and dysregulates the immune system: angioimmunoblastic T-cell lymphoma in particular causes autoimmune features and immunodeficiency as the malignant helper T cells distort immune regulation—so infection and autoimmunity complicate the disease."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -244,6 +253,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — PTCL includes NK/T-cell lymphomas: peripheral T-cell lymphomas span many entities, and the related extranodal NK/T-cell lymphoma is an aggressive, EBV-driven, often nasal tumor—so the T/NK lineage spawns a heterogeneous, generally poor-prognosis lymphoma group.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — PTCL is a lymphoma of the lymphatic system's T cells: unlike the common B-cell lymphomas, it arises from mature T cells in lymph nodes and spreads through the lymphatic network, often with systemic B symptoms and a worse outcome than B-cell lymphomas.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone marrow involvement is common and ominous in PTCL: these aggressive T-cell lymphomas frequently infiltrate the marrow, causing cytopenias and upstaging disease—so marrow biopsy is part of staging and marrow disease worsens an already poor prognosis.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — PTCL spans many T-cell subsets, including cytotoxic-T-cell-derived types: extranodal NK/T-cell and hepatosplenic lymphomas arise from cytotoxic lineage cells, so unlike B-cell lymphomas, PTCL's diversity reflects the many normal T-cell populations it can mimic.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Some PTCLs home to the spleen and liver: hepatosplenic T-cell lymphoma infiltrates these organs (often in immunosuppressed patients) causing cytopenias without nodal masses, so an aggressive T-cell lymphoma can present as hepatosplenomegaly rather than lymphadenopathy.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — PTCL both arises from and dysregulates the immune system: angioimmunoblastic T-cell lymphoma in particular causes autoimmune features and immunodeficiency as the malignant helper T cells distort immune regulation—so infection and autoimmunity complicate the disease.
 
 ---
 
