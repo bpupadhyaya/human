@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Schwannomas in schwannomatosis are well-circumscribed nerve-sheath tumors with a fibroblast-like stroma: their spindle (Schwann) cells and collagenous matrix form encapsulated masses distinct from the infiltrating plexiform neurofibromas of NF1."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Schwannomatosis can surface in the skin: peripheral and cutaneous schwannomas form palpable nodules along nerves, and unlike NF2 these patients lack vestibular schwannomas—so painful subcutaneous nerve tumors without hearing loss suggest schwannomatosis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Stereotactic radiosurgery (photon-based) treats select schwannomas: focused radiation can control growing or surgically risky nerve-sheath tumors, though in a tumor-prone syndrome it is balanced against the small risk of inducing further or malignant tumors."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Schwannomatosis dominates the musculoskeletal experience as chronic pain: multiple schwannomas along spinal and peripheral nerves cause severe, often disabling pain rather than the deficits seen in NF2—so pain control is the central management challenge."
 ---
 
 # Schwannomatosis
@@ -201,6 +210,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Schwannomatosis grows painful tumors along peripheral nerves: SMARCB1 or LZTR1 loss produces multiple schwannomas on nerve sheaths that compress neurons, so chronic pain—more than the deafness of NF2—is its dominant, defining symptom.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Schwannomatosis spares the vestibular nerves that NF2 attacks: it causes cranial and spinal schwannomas but characteristically NOT bilateral vestibular schwannomas, so the absence of those hearing-nerve tumors distinguishes it from neurofibromatosis type 2.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Schwannomas in schwannomatosis are well-circumscribed nerve-sheath tumors with a fibroblast-like stroma: their spindle (Schwann) cells and collagenous matrix form encapsulated masses distinct from the infiltrating plexiform neurofibromas of NF1.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Schwannomatosis can surface in the skin: peripheral and cutaneous schwannomas form palpable nodules along nerves, and unlike NF2 these patients lack vestibular schwannomas—so painful subcutaneous nerve tumors without hearing loss suggest schwannomatosis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Stereotactic radiosurgery (photon-based) treats select schwannomas: focused radiation can control growing or surgically risky nerve-sheath tumors, though in a tumor-prone syndrome it is balanced against the small risk of inducing further or malignant tumors.
+- `connects-to` → **[Musculoskeletal system](../musculoskeletal-system/README.md)** — Schwannomatosis dominates the musculoskeletal experience as chronic pain: multiple schwannomas along spinal and peripheral nerves cause severe, often disabling pain rather than the deficits seen in NF2—so pain control is the central management challenge.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

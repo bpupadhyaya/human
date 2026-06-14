@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Acetylcholine is an emerging schizophrenia target beyond dopamine: muscarinic agonists (xanomeline) improve psychosis without blocking dopamine, so the cholinergic system shapes symptoms—a shift from the dopamine-only model of antipsychotic action."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Schizophrenia is increasingly seen as a synaptic disorder: excessive synaptic pruning in adolescence—linked to complement (C4) and microglia—thins prefrontal connectivity, so it is conceived as a disease of disrupted synapses, not just dopamine."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune system is implicated in schizophrenia: a complement-C4 risk variant drives excessive microglial synaptic pruning, and maternal infection raises offspring risk, so neuroinflammation and immune-mediated synapse loss feature in current models of the disease."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Schizophrenia shortens life mainly through cardiovascular disease: antipsychotic-related weight gain and metabolic syndrome, plus smoking and poor access to care, cause excess heart disease—so patients die 15-20 years early, largely of cardiovascular causes."
 ---
 
 # Schizophrenia
@@ -275,6 +284,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF deficits link schizophrenia to disrupted neurodevelopment: reduced brain-derived neurotrophic factor impairs synaptic plasticity and cortical circuit maturation, fitting the neurodevelopmental model in which schizophrenia's roots predate its psychotic onset by years.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabis use can precipitate and worsen schizophrenia: heavy adolescent use raises the risk of developing psychosis and triggers relapse in patients, since THC perturbs the dopamine and endocannabinoid systems—so cannabis avoidance is part of schizophrenia management.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Acetylcholine is an emerging schizophrenia target beyond dopamine: muscarinic agonists (xanomeline) improve psychosis without blocking dopamine, so the cholinergic system shapes symptoms—a shift from the dopamine-only model of antipsychotic action.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Schizophrenia is increasingly seen as a synaptic disorder: excessive synaptic pruning in adolescence—linked to complement (C4) and microglia—thins prefrontal connectivity, so it is conceived as a disease of disrupted synapses, not just dopamine.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system is implicated in schizophrenia: a complement-C4 risk variant drives excessive microglial synaptic pruning, and maternal infection raises offspring risk, so neuroinflammation and immune-mediated synapse loss feature in current models of the disease.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Schizophrenia shortens life mainly through cardiovascular disease: antipsychotic-related weight gain and metabolic syndrome, plus smoking and poor access to care, cause excess heart disease—so patients die 15-20 years early, largely of cardiovascular causes.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
