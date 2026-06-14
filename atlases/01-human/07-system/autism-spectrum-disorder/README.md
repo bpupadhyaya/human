@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc helps build the synapses disrupted in autism: SHANK scaffold proteins—mutated in some autism—are zinc-dependent, and zinc concentrates at synapses, so disturbed zinc signaling is one link between trace-metal biology and synaptic ASD genes."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Autism reshapes the brain's wiring insulation: studies find altered myelin and oligodendrocyte differences underlying the atypical long- and short-range connectivity, so white-matter changes accompany the synaptic biology of ASD."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Maternal IL-6 links infection to autism risk: when the mother's immune system activates in pregnancy, IL-6 crossing to the fetal brain perturbs development in animal models, a leading mechanism behind the maternal-immune-activation hypothesis of ASD."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium tunes the glutamate signaling disturbed in autism: it blocks the NMDA receptor at rest, so altered magnesium handling can shift the excitation-inhibition balance that many ASD genes already push toward over-excitation."
 ---
 
 # Autism Spectrum Disorder
@@ -280,6 +289,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Prenatal testosterone may bias autism risk: elevated fetal androgen exposure is one proposed factor behind the ~4:1 male predominance and the 'extreme male brain' theory, linking sex hormones in the womb to later neurodevelopment.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta is a route to autism risk: maternal immune activation, infection and exposures (like valproate) acting through the placenta during pregnancy raise ASD likelihood, pointing to a prenatal origin for much of the condition.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps build the synapses disrupted in autism: SHANK scaffold proteins—mutated in some autism—are zinc-dependent, and zinc concentrates at synapses, so disturbed zinc signaling is one link between trace-metal biology and synaptic ASD genes.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Autism reshapes the brain's wiring insulation: studies find altered myelin and oligodendrocyte differences underlying the atypical long- and short-range connectivity, so white-matter changes accompany the synaptic biology of ASD.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Maternal IL-6 links infection to autism risk: when the mother's immune system activates in pregnancy, IL-6 crossing to the fetal brain perturbs development in animal models, a leading mechanism behind the maternal-immune-activation hypothesis of ASD.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium tunes the glutamate signaling disturbed in autism: it blocks the NMDA receptor at rest, so altered magnesium handling can shift the excitation-inhibition balance that many ASD genes already push toward over-excitation.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

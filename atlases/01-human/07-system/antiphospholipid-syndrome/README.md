@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Antiphospholipid syndrome is sustained by T-helper cells: they license B cells to produce the anti-beta2-glycoprotein-I antibodies that define the disease, so the autoimmune help behind the autoantibodies is a target for deeper therapy."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Clotting needs calcium, the cofactor APS exploits: the coagulation cascade APS tips toward thrombosis depends on calcium to anchor clotting factors to phospholipid membranes, the very surfaces the antiphospholipid antibodies target."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "APS strikes the brain through clots: antiphospholipid antibodies promote arterial thrombosis that causes stroke in the young, plus migraine, seizures and cognitive decline, making the brain one of the syndrome's most consequential targets."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "APS endangers the lungs with clots: antiphospholipid antibodies drive pulmonary emboli and, in catastrophic APS, widespread small-vessel thrombosis that can flood the lungs and cause respiratory failure."
 ---
 
 # Antiphospholipid Syndrome
@@ -277,6 +286,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Antiphospholipid syndrome scars the glomerulus: a thrombotic microangiopathy clots the kidney's tiny vessels (APS nephropathy), causing hypertension and kidney impairment distinct from the immune-complex lupus nephritis it can accompany.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement turns antiphospholipid antibodies into thrombosis and miscarriage: the antibodies activate complement (C3 and beyond) on cells and placenta, so complement drives both the clotting and the pregnancy loss—and blocking it helps catastrophic APS.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Antiphospholipid syndrome is sustained by T-helper cells: they license B cells to produce the anti-beta2-glycoprotein-I antibodies that define the disease, so the autoimmune help behind the autoantibodies is a target for deeper therapy.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Clotting needs calcium, the cofactor APS exploits: the coagulation cascade APS tips toward thrombosis depends on calcium to anchor clotting factors to phospholipid membranes, the very surfaces the antiphospholipid antibodies target.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — APS strikes the brain through clots: antiphospholipid antibodies promote arterial thrombosis that causes stroke in the young, plus migraine, seizures and cognitive decline, making the brain one of the syndrome's most consequential targets.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — APS endangers the lungs with clots: antiphospholipid antibodies drive pulmonary emboli and, in catastrophic APS, widespread small-vessel thrombosis that can flood the lungs and cause respiratory failure.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
