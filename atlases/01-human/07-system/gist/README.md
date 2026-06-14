@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Imatinib's benefit in GIST runs partly through dendritic cells: beyond blocking KIT, the drug reshapes the immune microenvironment so dendritic cells better prime T-cell attack, adding an immune dimension to a targeted therapy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "GIST often announces itself by bleeding iron away: the submucosal tumor erodes and oozes into the gut, so a slow iron-deficiency anemia is a common first sign before the mass is found."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "GISTs are richly vascular tumors: KIT and VEGF signaling recruit endothelial cells to build a dense blood supply, which is why anti-angiogenic drugs like sunitinib work when imatinib fails."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "SDH-deficient GIST travels with adrenal tumors: in the Carney triad and Carney-Stratakis dyad, this GIST subtype co-occurs with paragangliomas, including adrenal pheochromocytomas, sharing an SDH defect."
 ---
 
 # GIST
@@ -278,6 +287,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SDH-deficient GIST behaves as if starved of oxygen: losing the SDH enzyme makes succinate pile up and mimic hypoxia, stabilizing HIF and driving these KIT-wild-type tumors common in young patients—a pseudohypoxia like the one in paragangliomas.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — GIST can arise the length of the gut, including the large intestine: though most start in stomach or small bowel, rectal and colonic GISTs occur, so a submucosal mass anywhere along the digestive tract raises the possibility.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Imatinib's benefit in GIST runs partly through dendritic cells: beyond blocking KIT, the drug reshapes the immune microenvironment so dendritic cells better prime T-cell attack, adding an immune dimension to a targeted therapy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — GIST often announces itself by bleeding iron away: the submucosal tumor erodes and oozes into the gut, so a slow iron-deficiency anemia is a common first sign before the mass is found.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — GISTs are richly vascular tumors: KIT and VEGF signaling recruit endothelial cells to build a dense blood supply, which is why anti-angiogenic drugs like sunitinib work when imatinib fails.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — SDH-deficient GIST travels with adrenal tumors: in the Carney triad and Carney-Stratakis dyad, this GIST subtype co-occurs with paragangliomas, including adrenal pheochromocytomas, sharing an SDH defect.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
