@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Plasma cells leave MS's diagnostic signature: B cells mature into plasma cells inside the CNS and secrete antibodies detected as oligoclonal bands in spinal fluid, a hallmark that supports diagnosis and reflects the intrathecal immune response."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "MS's strongest genetic risk is an MHC class II allele: HLA-DRB1*15:01 shapes how myelin peptides are presented to T cells, the genetic basis tying the immune system's antigen presentation to attacks on the central nervous system."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages strip myelin in active MS lesions: drawn into the CNS, they (with microglia) phagocytose myelin and damage oligodendrocytes, so myelin-laden macrophages are the histologic signature of an active demyelinating plaque."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron rims mark MS's smoldering lesions: iron-laden microglia ring chronic active plaques, visible as paramagnetic rim lesions on MRI that flag ongoing, treatment-resistant inflammation driving progression."
 ---
 
 # Multiple Sclerosis
@@ -237,6 +246,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome shapes multiple sclerosis risk and activity: altered gut flora can tip the balance between inflammatory and regulatory T cells that attack myelin, so diet and the microbiome are emerging factors in an autoimmune disease of the brain.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — MS reflects failed immune tolerance: regulatory T cells that should restrain autoreactive cells are deficient or dysfunctional, letting myelin-attacking T and B cells run unchecked—so restoring regulatory balance is a goal of MS therapy.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells leave MS's diagnostic signature: B cells mature into plasma cells inside the CNS and secrete antibodies detected as oligoclonal bands in spinal fluid, a hallmark that supports diagnosis and reflects the intrathecal immune response.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — MS's strongest genetic risk is an MHC class II allele: HLA-DRB1*15:01 shapes how myelin peptides are presented to T cells, the genetic basis tying the immune system's antigen presentation to attacks on the central nervous system.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages strip myelin in active MS lesions: drawn into the CNS, they (with microglia) phagocytose myelin and damage oligodendrocytes, so myelin-laden macrophages are the histologic signature of an active demyelinating plaque.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron rims mark MS's smoldering lesions: iron-laden microglia ring chronic active plaques, visible as paramagnetic rim lesions on MRI that flag ongoing, treatment-resistant inflammation driving progression.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

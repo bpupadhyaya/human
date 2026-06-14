@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: connects-to
     note: "Migraine reflects an excitable, under-inhibited brain: weak GABA-mediated inhibition lowers the threshold for cortical spreading depression, which is why GABA-enhancing drugs like topiramate and valproate are effective migraine preventives."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Migraine with aura is linked to the heart's PFO: a patent foramen ovale (a small atrial shunt) is more common in aura migraineurs, and migraine with aura independently raises stroke risk—tying the headache to cardiovascular and structural heart findings."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Migraine aura is a wave of potassium and glutamate: cortical spreading depression—a slow tide of neuronal depolarization with surging extracellular potassium—sweeps across the cortex, producing the visual aura before the headache."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine can trigger migraine: it dilates cerebral vessels and activates trigeminal pain pathways, so histamine-rich foods and mast-cell release provoke attacks in susceptible people—one of many vasoactive triggers."
 ---
 
 # Migraine
@@ -268,6 +277,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Migraine often centers on the eye: visual aura (shimmering zigzags) signals the cortical spreading depression that precedes the headache, and severe photophobia and rare retinal migraine make the visual system both an early warning and a target of attacks.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Migraine is deeply tied to the gut: nausea and vomiting are core symptoms, gastric emptying slows during attacks (impairing oral drugs), and childhood cyclic vomiting and abdominal migraine are gut-centered variants of the same disorder.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Migraine reflects an excitable, under-inhibited brain: weak GABA-mediated inhibition lowers the threshold for cortical spreading depression, which is why GABA-enhancing drugs like topiramate and valproate are effective migraine preventives.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Migraine with aura is linked to the heart's PFO: a patent foramen ovale (a small atrial shunt) is more common in aura migraineurs, and migraine with aura independently raises stroke risk—tying the headache to cardiovascular and structural heart findings.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Migraine aura is a wave of potassium and glutamate: cortical spreading depression—a slow tide of neuronal depolarization with surging extracellular potassium—sweeps across the cortex, producing the visual aura before the headache.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine can trigger migraine: it dilates cerebral vessels and activates trigeminal pain pathways, so histamine-rich foods and mast-cell release provoke attacks in susceptible people—one of many vasoactive triggers.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
