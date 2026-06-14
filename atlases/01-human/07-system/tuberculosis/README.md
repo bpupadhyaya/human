@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "NK cells join the early fight against TB: alongside macrophages they pour out interferon-gamma to activate killing of the bacteria, an innate first line before the slower T-cell granuloma response takes over."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Healed TB leaves a calcium signature: the Ghon focus and lymph node it drains often calcify into the Ranke complex, so flecks of calcium on a chest X-ray mark old, walled-off infection that can later reactivate."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "TB can settle in the gut: swallowed bacteria or bloodborne spread seed intestinal tuberculosis, especially the ileocecal region, mimicking Crohn's disease with pain, obstruction and weight loss."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1beta shapes the TB granuloma's balance: the inflammasome cytokine helps control the bacteria but, in excess, drives the tissue destruction and cavitation that spread infection, so it sits at the knife-edge of protection and damage."
 ---
 
 # Tuberculosis
@@ -269,6 +278,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TB is an oxygen-seeking infection: aerobic M. tuberculosis favors the oxygen-rich upper lung where reactivation strikes, while deep in the granuloma's hypoxic, oxygen-starved core the bacteria turn dormant—the latency that makes TB so hard to cure.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Healed TB leaves fibrosis behind: granulomas resolve with dense scarring, apical fibrosis, and traction bronchiectasis that permanently damage the lung, so survivors often carry lasting post-TB lung disease even after cure.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells join the early fight against TB: alongside macrophages they pour out interferon-gamma to activate killing of the bacteria, an innate first line before the slower T-cell granuloma response takes over.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Healed TB leaves a calcium signature: the Ghon focus and lymph node it drains often calcify into the Ranke complex, so flecks of calcium on a chest X-ray mark old, walled-off infection that can later reactivate.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — TB can settle in the gut: swallowed bacteria or bloodborne spread seed intestinal tuberculosis, especially the ileocecal region, mimicking Crohn's disease with pain, obstruction and weight loss.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1beta shapes the TB granuloma's balance: the inflammasome cytokine helps control the bacteria but, in excess, drives the tissue destruction and cavitation that spread infection, so it sits at the knife-edge of protection and damage.
 
 ## See Also
 

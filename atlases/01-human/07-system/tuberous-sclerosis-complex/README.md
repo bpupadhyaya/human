@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Tuberous sclerosis stalls autophagy through runaway mTOR: with TSC1/2 lost, constant mTOR signaling blocks the cell's self-cleaning, helping hamartoma cells survive—and mTOR inhibitors like everolimus restore autophagy as they shrink the tumors."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Tuberous sclerosis leaves calcium marks in the brain: subependymal nodules along the ventricles calcify and show up on imaging, a hallmark that, with cortical tubers, helps diagnose the mTOR-driven syndrome."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Runaway mTOR in tuberous sclerosis disrupts synapses: excess signaling derails the synaptic protein-making and pruning that circuits need, producing the epilepsy and autism that dominate the disease—targets for mTOR-inhibitor therapy."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Tuberous sclerosis sits on the AKT-mTOR growth axis: losing TSC1/2 removes the brake just upstream of mTOR, so AKT-driven signaling runs unchecked to grow hamartomas everywhere—why mTOR inhibitors like everolimus shrink them."
 ---
 
 # Tuberous Sclerosis Complex
@@ -275,6 +284,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Tuberous sclerosis writes itself on the skin in collagen: facial angiofibromas and the leathery shagreen patch are collagen-rich connective-tissue hamartomas from mTOR overactivity, among the visible signs that anchor the clinical diagnosis.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Tuberous sclerosis epilepsy stems from disordered glutamate: mTOR hyperactivation distorts the balance of excitatory glutamate and inhibitory signaling in malformed cortex, driving the early, often drug-resistant seizures central to the disease.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Tuberous sclerosis stalls autophagy through runaway mTOR: with TSC1/2 lost, constant mTOR signaling blocks the cell's self-cleaning, helping hamartoma cells survive—and mTOR inhibitors like everolimus restore autophagy as they shrink the tumors.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tuberous sclerosis leaves calcium marks in the brain: subependymal nodules along the ventricles calcify and show up on imaging, a hallmark that, with cortical tubers, helps diagnose the mTOR-driven syndrome.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Runaway mTOR in tuberous sclerosis disrupts synapses: excess signaling derails the synaptic protein-making and pruning that circuits need, producing the epilepsy and autism that dominate the disease—targets for mTOR-inhibitor therapy.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Tuberous sclerosis sits on the AKT-mTOR growth axis: losing TSC1/2 removes the brake just upstream of mTOR, so AKT-driven signaling runs unchecked to grow hamartomas everywhere—why mTOR inhibitors like everolimus shrink them.
 
 ---
 
