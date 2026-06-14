@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "MPNST largely escapes cytotoxic T cells: with an immunosuppressive, T-cell-poor microenvironment it resists checkpoint drugs, so engineered T-cell and combination immunotherapies are explored against a sarcoma that defies standard care."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "MPNST spreads through the blood to the liver: like other high-grade sarcomas it favors the lungs but also seeds the liver, marking the metastatic stage of this aggressive nerve-sheath cancer."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "MPNST recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build a blood supply for its rapid growth, a target of anti-angiogenic strategies."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "MPNST is a spindle-cell tumor woven with collagen: its fibroblast-like cells lay down a dense fibrous matrix, the firm fascicular tissue that, arising from a nerve, distinguishes it from benign neurofibromas."
 ---
 
 # MPNST
@@ -279,6 +288,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — MPNST spreads to the lungs above all: this aggressive nerve-sheath sarcoma metastasizes through the blood to seed pulmonary nodules, the dominant site of spread and a leading cause of death, so chest imaging guides staging.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia drives MPNST's aggressiveness: the fast-growing sarcoma outpaces its blood supply, and the low-oxygen microenvironment promotes invasion and resistance, part of why this nerve-sheath tumor responds poorly to radiation.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — MPNST largely escapes cytotoxic T cells: with an immunosuppressive, T-cell-poor microenvironment it resists checkpoint drugs, so engineered T-cell and combination immunotherapies are explored against a sarcoma that defies standard care.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — MPNST spreads through the blood to the liver: like other high-grade sarcomas it favors the lungs but also seeds the liver, marking the metastatic stage of this aggressive nerve-sheath cancer.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — MPNST recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build a blood supply for its rapid growth, a target of anti-angiogenic strategies.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — MPNST is a spindle-cell tumor woven with collagen: its fibroblast-like cells lay down a dense fibrous matrix, the firm fascicular tissue that, arising from a nerve, distinguishes it from benign neurofibromas.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Myeloma reaches the liver in advanced disease: extramedullary plasma-cell deposits and light-chain amyloid can infiltrate it, causing hepatomegaly and organ dysfunction beyond the marrow where the cancer begins."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Myeloma's anemia is the 'A' of CRAB: marrow crowded with plasma cells and chronic inflammation suppress red-cell production and lock iron away, so fatigue from anemia is a common presenting symptom."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Myeloma frays the peripheral nerves: amyloid light chains deposit in nerves and the drug bortezomib is neurotoxic, so a painful peripheral neuropathy is both a feature and a treatment limit."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Myeloma's amyloid shows on the skin: AL amyloid from the plasma cells deposits in skin and soft tissue, causing periorbital purpura ('raccoon eyes') and an enlarged tongue, telltale signs of the disease."
 ---
 
 # Multiple Myeloma
@@ -284,6 +293,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Multiple myeloma starves the body of oxygen through anemia: plasma cells crowding the marrow choke red-cell production, so falling hemoglobin and fatigue—the 'A' of the CRAB criteria—are common presenting signs.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Myeloma can poison the heart via amyloid: misfolded light chains from the plasma cells deposit as AL amyloid in the heart muscle, stiffening it into a restrictive cardiomyopathy that is a major cause of death in the disease.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Myeloma reaches the liver in advanced disease: extramedullary plasma-cell deposits and light-chain amyloid can infiltrate it, causing hepatomegaly and organ dysfunction beyond the marrow where the cancer begins.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Myeloma's anemia is the 'A' of CRAB: marrow crowded with plasma cells and chronic inflammation suppress red-cell production and lock iron away, so fatigue from anemia is a common presenting symptom.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Myeloma frays the peripheral nerves: amyloid light chains deposit in nerves and the drug bortezomib is neurotoxic, so a painful peripheral neuropathy is both a feature and a treatment limit.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Myeloma's amyloid shows on the skin: AL amyloid from the plasma cells deposits in skin and soft tissue, causing periorbital purpura ('raccoon eyes') and an enlarged tongue, telltale signs of the disease.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
