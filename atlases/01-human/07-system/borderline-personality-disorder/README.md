@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "BDNF links childhood adversity to the BPD brain: trauma and chronic stress lower this neurotrophic factor, impairing the plasticity of emotion-regulating circuits, so the gene-environment interaction shaping BDNF helps explain how early adversity sets up BPD."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Glutamate, the brain's main excitatory signal, is implicated in BPD's impulsivity and emotional storms: altered glutamatergic tone in prefrontal-limbic circuits may underlie poor top-down control, and ketamine (an NMDA-glutamate drug) is being studied for the disorder."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "GABA, the brain's chief inhibitory transmitter, may be deficient in BPD: weak inhibitory tone leaves emotion circuits poorly restrained, fitting the affective instability—which is partly why GABA-enhancing benzodiazepines can backfire with disinhibition."
+  - target: 01-human/07-system/cannabis-use-disorder
+    relation: connects-to
+    note: "Cannabis use disorder frequently accompanies BPD: many use cannabis to dampen emotional pain and emptiness, but dependence worsens mood instability and impulsivity—one of several substance problems that complicate the disorder and its treatment."
 ---
 
 # Borderline Personality Disorder
@@ -251,6 +260,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — BPD reflects altered fronto-limbic neuron circuits: a hyperreactive amygdala with weak prefrontal regulation underlies the emotional storms and impulsivity, so the disorder maps to neuronal circuit dysfunction that psychotherapy (DBT) gradually reshapes.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — BPD and ADHD overlap in impulsivity and emotional dysregulation: they frequently co-occur and share childhood-adversity roots, so distinguishing them—and treating both—matters, since the impulsive, affectively unstable features can be mistaken for one another.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF links childhood adversity to the BPD brain: trauma and chronic stress lower this neurotrophic factor, impairing the plasticity of emotion-regulating circuits, so the gene-environment interaction shaping BDNF helps explain how early adversity sets up BPD.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate, the brain's main excitatory signal, is implicated in BPD's impulsivity and emotional storms: altered glutamatergic tone in prefrontal-limbic circuits may underlie poor top-down control, and ketamine (an NMDA-glutamate drug) is being studied for the disorder.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABA, the brain's chief inhibitory transmitter, may be deficient in BPD: weak inhibitory tone leaves emotion circuits poorly restrained, fitting the affective instability—which is partly why GABA-enhancing benzodiazepines can backfire with disinhibition.
+- `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Cannabis use disorder frequently accompanies BPD: many use cannabis to dampen emotional pain and emptiness, but dependence worsens mood instability and impulsivity—one of several substance problems that complicate the disorder and its treatment.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

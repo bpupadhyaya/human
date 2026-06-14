@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells initiate the allergic asthma response: they sample inhaled allergens and prime naive T cells toward the Th2 program, sitting upstream of the IgE and eosinophil cascade—so they set whether the airway becomes sensitized in the first place."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine is a frontline mediator of the asthmatic airway: released when allergen cross-links IgE on mast cells, it triggers rapid bronchoconstriction, mucus, and vascular leak—the immediate-phase response, though antihistamines help asthma less than allergic rhinitis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Not all asthma is eosinophilic: a neutrophil-driven, type-2-low phenotype causes severe, often steroid-resistant disease, so recognizing neutrophilic asthma matters because it responds poorly to the inhaled corticosteroids and anti-IL-5 biologics that target eosinophils."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Asthma reflects how the immune system is wired: a type-2 (Th2) skew underlies allergic asthma, and the hygiene hypothesis links reduced early microbial exposure to this allergic tilt—so asthma is as much an immune-regulation disorder as an airway one."
 ---
 
 # Asthma
@@ -220,6 +229,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — IL-13 drives the airway changes of asthma: this type 2 cytokine, with IL-4, fuels IgE production, mucus hypersecretion and airway hyperresponsiveness, so dupilumab (blocking IL-4/IL-13 signaling) is a mainstay biologic for type 2-high asthma.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Asthma remodels the lung over time: repeated bronchoconstriction and inflammation thicken airway smooth muscle and basement membrane, so uncontrolled asthma can leave fixed obstruction—turning a reversible disease into permanent lung damage.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells initiate the allergic asthma response: they sample inhaled allergens and prime naive T cells toward the Th2 program, sitting upstream of the IgE and eosinophil cascade—so they set whether the airway becomes sensitized in the first place.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine is a frontline mediator of the asthmatic airway: released when allergen cross-links IgE on mast cells, it triggers rapid bronchoconstriction, mucus, and vascular leak—the immediate-phase response, though antihistamines help asthma less than allergic rhinitis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Not all asthma is eosinophilic: a neutrophil-driven, type-2-low phenotype causes severe, often steroid-resistant disease, so recognizing neutrophilic asthma matters because it responds poorly to the inhaled corticosteroids and anti-IL-5 biologics that target eosinophils.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Asthma reflects how the immune system is wired: a type-2 (Th2) skew underlies allergic asthma, and the hygiene hypothesis links reduced early microbial exposure to this allergic tilt—so asthma is as much an immune-regulation disorder as an airway one.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
