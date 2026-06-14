@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Hereditary pancreatitis eventually wrecks the endocrine pancreas: progressive scarring destroys islet cells, causing type 3c (pancreatogenic) diabetes that is brittle—lacking both insulin and glucagon—so it differs from ordinary diabetes in management."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Hereditary pancreatitis may stem from failed autophagy: acinar cells normally use autophagy to safely clear prematurely activated trypsin, so when that cleanup falters the enzyme digests the pancreas from within, triggering recurrent attacks."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Smoking turns hereditary pancreatitis toward cancer: tobacco's carbon-based carcinogens dramatically multiply the already high pancreatic cancer risk of PRSS1 carriers, so quitting is the single most important step a patient can take."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Chronic hereditary pancreatitis drains zinc: the failing pancreas can't release enough digestive enzymes, so fat and minerals including zinc go unabsorbed, leaving deficiencies that impair immunity and wound healing on top of the diabetes and pain."
 ---
 
 # Hereditary Pancreatitis
@@ -267,6 +276,9 @@ cross_links:
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Hereditary pancreatitis causes fat-soluble vitamin deficiency: years of exocrine damage block fat digestion, so vitamins A, D, E, and K fall—low vitamin D and the bone disease it brings make enzyme replacement and supplementation essential.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic pancreatitis depletes magnesium and other minerals: fat malabsorption and poor intake lower magnesium, calcium, and zinc, so electrolyte deficiencies accompany the malnutrition of long-standing hereditary pancreatitis.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hereditary pancreatitis eventually wrecks the endocrine pancreas: progressive scarring destroys islet cells, causing type 3c (pancreatogenic) diabetes that is brittle—lacking both insulin and glucagon—so it differs from ordinary diabetes in management.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Hereditary pancreatitis may stem from failed autophagy: acinar cells normally use autophagy to safely clear prematurely activated trypsin, so when that cleanup falters the enzyme digests the pancreas from within, triggering recurrent attacks.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Smoking turns hereditary pancreatitis toward cancer: tobacco's carbon-based carcinogens dramatically multiply the already high pancreatic cancer risk of PRSS1 carriers, so quitting is the single most important step a patient can take.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Chronic hereditary pancreatitis drains zinc: the failing pancreas can't release enough digestive enzymes, so fat and minerals including zinc go unabsorbed, leaving deficiencies that impair immunity and wound healing on top of the diabetes and pain.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

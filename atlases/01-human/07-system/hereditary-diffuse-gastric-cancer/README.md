@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy struggles against diffuse gastric cancer: the infiltrative, mobile stomach and scattered signet-ring cells make photon-beam targeting hard, so radiation plays a limited, mostly palliative role compared with surgery and chemotherapy."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "HDGC's other cancer is estrogen-driven lobular breast cancer: the same CDH1/E-cadherin loss that causes diffuse stomach cancer produces invasive lobular breast cancer, which is typically estrogen-receptor positive—so carriers need breast as well as stomach surveillance."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "Diffuse gastric cancer in HDGC is usually HER2-negative: unlike intestinal-type stomach tumors that can be HER2-amplified and treated with trastuzumab, the signet-ring cancers of CDH1 carriers lack this target, leaving chemotherapy and surgery."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "HDGC tumors hide among regulatory T cells: the scattered signet-ring cells sit in a desmoplastic, immunosuppressive stroma where Tregs blunt anti-tumor immunity, part of why diffuse gastric cancer is hard to treat once it spreads."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -231,6 +240,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Hereditary diffuse gastric cancer spreads through the stomach wall and lymphatics: signet-ring cells infiltrate diffusely (linitis plastica) and seed nodes and peritoneum without a mass, so it is often advanced when found—why carriers undergo prophylactic gastrectomy.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Diffuse gastric cancer freezes the stomach's smooth muscle: signet-ring infiltration and desmoplasia stiffen all layers into a rigid leather-bottle linitis plastica, so the muscular wall loses peristalsis and the stomach can no longer expand or empty normally.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy struggles against diffuse gastric cancer: the infiltrative, mobile stomach and scattered signet-ring cells make photon-beam targeting hard, so radiation plays a limited, mostly palliative role compared with surgery and chemotherapy.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — HDGC's other cancer is estrogen-driven lobular breast cancer: the same CDH1/E-cadherin loss that causes diffuse stomach cancer produces invasive lobular breast cancer, which is typically estrogen-receptor positive—so carriers need breast as well as stomach surveillance.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — Diffuse gastric cancer in HDGC is usually HER2-negative: unlike intestinal-type stomach tumors that can be HER2-amplified and treated with trastuzumab, the signet-ring cancers of CDH1 carriers lack this target, leaving chemotherapy and surgery.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HDGC tumors hide among regulatory T cells: the scattered signet-ring cells sit in a desmoplastic, immunosuppressive stroma where Tregs blunt anti-tumor immunity, part of why diffuse gastric cancer is hard to treat once it spreads.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
