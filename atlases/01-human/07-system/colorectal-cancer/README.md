@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Cancer-associated fibroblasts drive colorectal progression: they remodel the tumor stroma, supply growth and survival signals, and promote chemoresistance and metastasis—a major reason the desmoplastic, fibroblast-rich CMS4 subtype carries a worse prognosis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Colorectal cancer is treated by starving its vessels of VEGF: the tumor secretes VEGF to build a blood supply, so anti-VEGF bevacizumab is a mainstay added to chemotherapy in metastatic colorectal cancer."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Colorectal cancer turns aggressive when it loses SMAD4: this late hit in the adenoma-carcinoma sequence disables TGF-β's growth restraint, driving invasion and metastasis and predicting a worse prognosis and poorer chemo response."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Most colorectal cancers are immune-cold, walled off by regulatory T cells: unlike MSI-high tumors, microsatellite-stable CRC has few neoantigens and Treg-rich stroma, which is why checkpoint immunotherapy works in only a minority."
 ---
 
 # Colorectal Cancer
@@ -251,6 +260,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Right-sided colorectal cancer often presents as iron-deficiency anemia: a slow-bleeding tumor depletes iron long before obstruction, so unexplained iron-deficiency anemia in an adult mandates colonoscopy to exclude colon cancer.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and calcium intake are linked to colorectal risk: higher levels associate with lower incidence, and vitamin D's effects on colonocyte growth make it a studied (if unproven) chemopreventive alongside fiber and aspirin.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts drive colorectal progression: they remodel the tumor stroma, supply growth and survival signals, and promote chemoresistance and metastasis—a major reason the desmoplastic, fibroblast-rich CMS4 subtype carries a worse prognosis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Colorectal cancer is treated by starving its vessels of VEGF: the tumor secretes VEGF to build a blood supply, so anti-VEGF bevacizumab is a mainstay added to chemotherapy in metastatic colorectal cancer.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Colorectal cancer turns aggressive when it loses SMAD4: this late hit in the adenoma-carcinoma sequence disables TGF-β's growth restraint, driving invasion and metastasis and predicting a worse prognosis and poorer chemo response.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Most colorectal cancers are immune-cold, walled off by regulatory T cells: unlike MSI-high tumors, microsatellite-stable CRC has few neoantigens and Treg-rich stroma, which is why checkpoint immunotherapy works in only a minority.
 
 ---
 
