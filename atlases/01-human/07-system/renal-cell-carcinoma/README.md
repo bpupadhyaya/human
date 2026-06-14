@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Kidney cancer is packed with tumor-associated macrophages: M2-polarized macrophages promote its angiogenesis and immune escape, and a macrophage-heavy infiltrate predicts worse outcomes in clear cell RCC."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Clear cell kidney cancer is the archetypal oxygen-sensing tumor: VHL loss makes it behave as if hypoxic even in normal oxygen, stabilizing HIF to pump out VEGF and EPO—the pseudohypoxia that defines it and guides anti-angiogenic therapy."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Kidney cancer is notorious for spreading to the brain: RCC seeds brain metastases through the blood, sometimes years after the primary, so new neurologic symptoms in a kidney-cancer survivor demand imaging."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are central to kidney cancer's unusual immunogenicity: RCC was one of the first tumors to respond to immunotherapy, and antigen-presenting dendritic cells help prime the T-cell attack that checkpoint drugs amplify."
 ---
 
 # Renal Cell Carcinoma
@@ -254,6 +263,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Kidney cancer can fake hyperparathyroidism: RCC secretes PTH-related peptide that mimics PTH, driving paraneoplastic hypercalcemia even without bone metastases—one of the syndromes that makes RCC 'the internist's tumor.'
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Kidney cancer is immunotherapy-sensitive yet shielded by regulatory T cells: RCC draws strong T-cell infiltrates that respond to checkpoint drugs, but Tregs in the tumor restrain them—so depleting Tregs is sought to deepen responses.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Kidney cancer is packed with tumor-associated macrophages: M2-polarized macrophages promote its angiogenesis and immune escape, and a macrophage-heavy infiltrate predicts worse outcomes in clear cell RCC.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Clear cell kidney cancer is the archetypal oxygen-sensing tumor: VHL loss makes it behave as if hypoxic even in normal oxygen, stabilizing HIF to pump out VEGF and EPO—the pseudohypoxia that defines it and guides anti-angiogenic therapy.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Kidney cancer is notorious for spreading to the brain: RCC seeds brain metastases through the blood, sometimes years after the primary, so new neurologic symptoms in a kidney-cancer survivor demand imaging.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are central to kidney cancer's unusual immunogenicity: RCC was one of the first tumors to respond to immunotherapy, and antigen-presenting dendritic cells help prime the T-cell attack that checkpoint drugs amplify.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

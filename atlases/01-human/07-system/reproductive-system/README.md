@@ -104,6 +104,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages quietly run the reproductive organs: they help rupture the follicle at ovulation, support the corpus luteum and testis steroid cells, and police the maternal-fetal interface, making immune cells essential to fertility."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain commands reproduction from the top: the hypothalamus pulses GnRH to drive the pituitary's FSH and LH, which run the ovaries and testes, so the whole reproductive system answers to this neural-hormonal axis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Reproduction turns on a calcium signal: a wave of calcium sweeps through the egg at fertilization to activate it and block other sperm, and calcium influx also powers the sperm's capacitation, making the ion central to conception."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal glands feed the reproductive hormone pool: they make DHEA and other androgens that supplement the gonads and drive adrenarche, so adrenal disorders can disturb puberty, fertility and menstrual function."
 ---
 
 # Reproductive System
@@ -248,6 +257,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — The reproductive system runs on thyroid hormones: too little or too much thyroid hormone disrupts menstrual cycles, lowers fertility, and raises miscarriage risk, so thyroid status is checked whenever reproduction falters.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Reproduction depends on zinc: the mineral is essential for sperm production and testosterone synthesis, and is concentrated in semen, so zinc deficiency impairs male fertility and gonadal function.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages quietly run the reproductive organs: they help rupture the follicle at ovulation, support the corpus luteum and testis steroid cells, and police the maternal-fetal interface, making immune cells essential to fertility.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain commands reproduction from the top: the hypothalamus pulses GnRH to drive the pituitary's FSH and LH, which run the ovaries and testes, so the whole reproductive system answers to this neural-hormonal axis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Reproduction turns on a calcium signal: a wave of calcium sweeps through the egg at fertilization to activate it and block other sperm, and calcium influx also powers the sperm's capacitation, making the ion central to conception.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal glands feed the reproductive hormone pool: they make DHEA and other androgens that supplement the gonads and drive adrenarche, so adrenal disorders can disturb puberty, fertility and menstrual function.
 
 ## Pathology
 
