@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Rheumatoid arthritis reflects failed regulatory T-cell control: Tregs that should restrain autoreactive responses are reduced or dysfunctional, tipping the balance toward the Th17/inflammatory attack on the joints—a target for tolerance-restoring therapies."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "RA erodes bone through RANKL: inflamed synovial cells and T cells release RANKL that activates osteoclasts to chew through joint bone, producing the erosions on X-ray—so RANKL blockade (denosumab) can protect the joints."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "RA's immune attack targets joint collagen: type II collagen in cartilage is both an autoantigen and the tissue destroyed as the pannus invades, so the breakdown of collagen is what ultimately deforms the rheumatoid joint."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "RA may start when dendritic cells present citrullinated peptides: these antigen-presenters display modified self-proteins on HLA-DR to T cells, breaking tolerance and launching the anti-CCP autoimmunity that defines the disease."
 ---
 
 # Rheumatoid Arthritis
@@ -273,6 +282,9 @@ RA patients have:
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Rheumatoid arthritis's strongest genetic risk is the HLA 'shared epitope': MHC class II HLA-DRB1 variants present citrullinated self-peptides to T cells, explaining why anti-CCP antibodies form and why these alleles predispose to seropositive RA.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The microbiome may help ignite rheumatoid arthritis: gum and gut bacteria such as Porphyromonas gingivalis citrullinate proteins, and dysbiosis is linked to disease onset—part of why periodontitis and RA travel together.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Rheumatoid arthritis reflects failed regulatory T-cell control: Tregs that should restrain autoreactive responses are reduced or dysfunctional, tipping the balance toward the Th17/inflammatory attack on the joints—a target for tolerance-restoring therapies.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RA erodes bone through RANKL: inflamed synovial cells and T cells release RANKL that activates osteoclasts to chew through joint bone, producing the erosions on X-ray—so RANKL blockade (denosumab) can protect the joints.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — RA's immune attack targets joint collagen: type II collagen in cartilage is both an autoantigen and the tissue destroyed as the pannus invades, so the breakdown of collagen is what ultimately deforms the rheumatoid joint.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — RA may start when dendritic cells present citrullinated peptides: these antigen-presenters display modified self-proteins on HLA-DR to T cells, breaking tolerance and launching the anti-CCP autoimmunity that defines the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

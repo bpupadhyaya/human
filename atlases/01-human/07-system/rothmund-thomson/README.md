@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/mdm2
     relation: connects-to
     note: "Rothmund-Thomson osteosarcomas often amplify MDM2: this p53 antagonist is amplified in the bone tumors that complicate RTS, switching off p53 to drive the sarcoma—mirroring the MDM2-amplified osteosarcomas seen across cancer-prone syndromes."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Rothmund-Thomson is a DNA-repair disease that leans on RAD51: the RECQL4 helicase helps repair and restart broken replication forks alongside RAD51-driven homologous recombination, so its loss leaves genomic instability that breeds osteosarcoma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Rothmund-Thomson cells buckle under oxygen's damage: beyond DNA repair, RECQL4 supports mitochondria, so its loss raises reactive oxygen species and oxidative DNA damage—part of the premature aging and cancer risk of the syndrome."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Rothmund-Thomson's cancer risk meets immune surveillance by NK cells: as the unstable genome throws off mutated, stressed cells, natural killer cells help cull them before they form the tumors these patients are prone to."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -260,6 +269,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Rothmund-Thomson is a genome-instability disorder sensed by ATM: defective RECQL4 helicase leaves DNA replication and repair error-prone, generating the double-strand breaks that ATM signals—the molecular root of its cancer-prone, prematurely aged phenotype.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Rothmund-Thomson disrupts skin and skeletal connective tissue: poikiloderma, sparse hair and bone defects (including absent or hypoplastic bones) reflect how RECQL4 loss impairs the cells that build collagen-rich skin and skeleton.
 - `connects-to` → **[MDM2](../../03-molecular/mdm2/README.md)** — Rothmund-Thomson osteosarcomas often amplify MDM2: this p53 antagonist is amplified in the bone tumors that complicate RTS, switching off p53 to drive the sarcoma—mirroring the MDM2-amplified osteosarcomas seen across cancer-prone syndromes.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Rothmund-Thomson is a DNA-repair disease that leans on RAD51: the RECQL4 helicase helps repair and restart broken replication forks alongside RAD51-driven homologous recombination, so its loss leaves genomic instability that breeds osteosarcoma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Rothmund-Thomson cells buckle under oxygen's damage: beyond DNA repair, RECQL4 supports mitochondria, so its loss raises reactive oxygen species and oxidative DNA damage—part of the premature aging and cancer risk of the syndrome.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rothmund-Thomson's cancer risk meets immune surveillance by NK cells: as the unstable genome throws off mutated, stressed cells, natural killer cells help cull them before they form the tumors these patients are prone to.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
