@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/07-system/lynch-syndrome
     relation: connects-to
     note: "Lynch syndrome is among the inherited causes of pancreatic cancer: MMR-gene carriers face a several-fold increased risk, so Lynch joins BRCA, Peutz-Jeghers and familial pancreatitis on the panel of syndromes prompting familial pancreatic surveillance."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Pancreatic cancer is addicted to autophagy: its KRAS-driven cells recycle their own contents to fuel growth in a nutrient-poor stroma, so blocking autophagy (with hydroxychloroquine plus MEK/ERK inhibitors) is a leading strategy against this lethal cancer."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Pancreatic cancer fills its stroma with suppressive macrophages: tumor-associated macrophages dominate the dense desmoplasia, blocking T cells and feeding growth—a pillar of the immunosuppression that makes PDAC resist checkpoint therapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Pancreatic cancer is the coldest of tumors, walled off by regulatory T cells: Tregs and a dense stroma exclude and suppress cytotoxic T cells, which is why immunotherapy that works elsewhere repeatedly fails against PDAC."
 ---
 
 # Pancreatic Cancer
@@ -251,6 +260,9 @@ cross_links:
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Pancreatic cancer hides behind a wall of collagen: its intense desmoplastic stroma packs dense collagen that compresses vessels and blocks drug delivery, a major reason chemotherapy penetrates poorly and the tumor is so hard to treat.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Pancreatic cancer is a target for cancer vaccines: personalized mRNA neoantigen vaccines (e.g., autogene cevumeran) can induce tumor-specific cytotoxic T cells, and patients who mount a strong CD8 response show delayed recurrence after surgery.
 - `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome is among the inherited causes of pancreatic cancer: MMR-gene carriers face a several-fold increased risk, so Lynch joins BRCA, Peutz-Jeghers and familial pancreatitis on the panel of syndromes prompting familial pancreatic surveillance.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Pancreatic cancer is addicted to autophagy: its KRAS-driven cells recycle their own contents to fuel growth in a nutrient-poor stroma, so blocking autophagy (with hydroxychloroquine plus MEK/ERK inhibitors) is a leading strategy against this lethal cancer.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Pancreatic cancer fills its stroma with suppressive macrophages: tumor-associated macrophages dominate the dense desmoplasia, blocking T cells and feeding growth—a pillar of the immunosuppression that makes PDAC resist checkpoint therapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Pancreatic cancer is the coldest of tumors, walled off by regulatory T cells: Tregs and a dense stroma exclude and suppress cytotoxic T cells, which is why immunotherapy that works elsewhere repeatedly fails against PDAC.
 
 ---
 

@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Panic's respiratory subtype centers on the lungs: hyperventilation blows off CO2 causing the tingling, lightheadedness and air hunger of an attack, and breathing retraining is a core treatment—linking a psychiatric disorder to respiratory physiology."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Panic attacks tingle because of calcium: hyperventilation blows off CO2 and raises blood pH, which lowers ionized calcium—producing the perioral numbness, hand tingling, and carpopedal spasm that frighten patients mid-attack."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Panic disorder engages the hippocampus's fear memory: by encoding the context of past attacks, the hippocampus drives anticipatory anxiety and agoraphobic avoidance of places where panic struck, extending the disorder beyond the attacks themselves."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes help tune the panic circuit: by clearing and recycling glutamate and GABA around the amygdala and brainstem, these glial cells shape the excitatory-inhibitory balance whose disturbance can tip neurons into a panic response."
 ---
 
 # Panic Disorder
@@ -276,6 +285,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — A panic attack is in part an adrenaline storm: surging epinephrine drives the pounding heart, sweating, tremor and chest tightness, which is why panic can mimic a heart attack—and why a catecholamine-secreting pheochromocytoma is on the differential.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Panic disorder is tied to carbon dioxide sensing: inhaling CO2 reliably provokes attacks in patients, supporting a 'suffocation false-alarm' theory in which an oversensitive brainstem misreads rising CO2 as suffocation and fires panic.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Panic's respiratory subtype centers on the lungs: hyperventilation blows off CO2 causing the tingling, lightheadedness and air hunger of an attack, and breathing retraining is a core treatment—linking a psychiatric disorder to respiratory physiology.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Panic attacks tingle because of calcium: hyperventilation blows off CO2 and raises blood pH, which lowers ionized calcium—producing the perioral numbness, hand tingling, and carpopedal spasm that frighten patients mid-attack.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Panic disorder engages the hippocampus's fear memory: by encoding the context of past attacks, the hippocampus drives anticipatory anxiety and agoraphobic avoidance of places where panic struck, extending the disorder beyond the attacks themselves.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help tune the panic circuit: by clearing and recycling glutamate and GABA around the amygdala and brainstem, these glial cells shape the excitatory-inhibitory balance whose disturbance can tip neurons into a panic response.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
