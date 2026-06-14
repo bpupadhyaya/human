@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Dengue can invade the nervous system: beyond classic fever and bleeding, the virus and its immune response cause encephalitis, Guillain-Barré-like syndromes and stroke, so neurological dengue is an increasingly recognized severe manifestation."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Dengue's danger lies in B-cell antibodies: non-neutralizing antibodies from a prior infection can enhance a second one (antibody-dependent enhancement), so partial immunity worsens disease—the paradox that makes dengue vaccines hard to design."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Severe dengue is a cardiovascular emergency: cytokines make capillaries leak plasma, dropping blood volume into dengue shock syndrome, so careful fluid management—not antivirals—is what saves lives in the critical phase."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Severe dengue can injure the kidney: shock, hemolysis, and direct viral effects cause acute kidney injury in the critical phase, so renal function is watched closely as a marker of severity and a target for supportive care."
 ---
 
 # Dengue Fever
@@ -223,3 +232,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells help drive severe dengue: cross-reactive memory T cells from a prior dengue serotype respond suboptimally on reinfection, releasing cytokines that worsen vascular leak—part of why a second, different-serotype infection is the dangerous one.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Dengue's danger is immunological: antibodies from a first infection can enhance uptake of a second serotype (antibody-dependent enhancement), amplifying viral load and the immune overreaction that causes plasma leak—so prior immunity paradoxically raises severe-dengue risk.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Dengue can invade the nervous system: beyond classic fever and bleeding, the virus and its immune response cause encephalitis, Guillain-Barré-like syndromes and stroke, so neurological dengue is an increasingly recognized severe manifestation.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Dengue's danger lies in B-cell antibodies: non-neutralizing antibodies from a prior infection can enhance a second one (antibody-dependent enhancement), so partial immunity worsens disease—the paradox that makes dengue vaccines hard to design.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Severe dengue is a cardiovascular emergency: cytokines make capillaries leak plasma, dropping blood volume into dengue shock syndrome, so careful fluid management—not antivirals—is what saves lives in the critical phase.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe dengue can injure the kidney: shock, hemolysis, and direct viral effects cause acute kidney injury in the critical phase, so renal function is watched closely as a marker of severity and a target for supportive care.

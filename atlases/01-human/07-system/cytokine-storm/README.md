@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/jak1-2
     relation: connects-to
     note: "JAK inhibition is a key brake on cytokine storm: many storm cytokines (IL-6, interferon-gamma) signal through the JAK-STAT pathway, so JAK inhibitors like baricitinib—and IL-6 blockers—dampen the runaway loop, improving survival in severe COVID-19."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "Interferon-gamma drives the deadliest cytokine storms: in HLH and macrophage activation syndrome, runaway IFN-γ from T and NK cells hyperactivates macrophages, so the anti-IFN-γ antibody emapalumab can rescue this otherwise fatal hyperinflammation."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Cytokine storm hits the liver hard: hyperinflammation (especially HLH/MAS) inflames the liver, spiking ferritin and transaminases and impairing clotting, so a sky-high ferritin with hepatitis is a key clue to a brewing cytokine storm."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Cytokine storm drives multi-organ failure starting with the kidney: inflammatory mediators and shock collapse renal perfusion, causing acute kidney injury, so rising creatinine marks the systemic spread of hyperinflammation beyond the initial trigger organ."
 ---
 
 # Cytokine Storm
@@ -202,6 +211,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md)** — ARDS is the lung's expression of a cytokine storm: flooding inflammatory mediators damage the alveolar-capillary barrier, so the storm's pulmonary endpoint—diffuse alveolar damage and refractory hypoxemia—is what most often kills in severe COVID, flu and sepsis.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endothelial cells are both victim and amplifier of cytokine storm: the inflammatory surge makes vessels leaky and prothrombotic, so capillary leak, edema and microthrombi—not the infection alone—drive the shock and multi-organ failure of severe hyperinflammation.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibition is a key brake on cytokine storm: many storm cytokines (IL-6, interferon-gamma) signal through the JAK-STAT pathway, so JAK inhibitors like baricitinib—and IL-6 blockers—dampen the runaway loop, improving survival in severe COVID-19.
+- `connects-to` → **[IFN-gamma](../../03-molecular/ifn-gamma/README.md)** — Interferon-gamma drives the deadliest cytokine storms: in HLH and macrophage activation syndrome, runaway IFN-γ from T and NK cells hyperactivates macrophages, so the anti-IFN-γ antibody emapalumab can rescue this otherwise fatal hyperinflammation.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cytokine storm hits the liver hard: hyperinflammation (especially HLH/MAS) inflames the liver, spiking ferritin and transaminases and impairing clotting, so a sky-high ferritin with hepatitis is a key clue to a brewing cytokine storm.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cytokine storm drives multi-organ failure starting with the kidney: inflammatory mediators and shock collapse renal perfusion, causing acute kidney injury, so rising creatinine marks the systemic spread of hyperinflammation beyond the initial trigger organ.
 
 ## Pathology
 
