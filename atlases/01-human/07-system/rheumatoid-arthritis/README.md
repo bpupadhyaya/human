@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "RA may start when dendritic cells present citrullinated peptides: these antigen-presenters display modified self-proteins on HLA-DR to T cells, breaking tolerance and launching the anti-CCP autoimmunity that defines the disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Rheumatoid arthritis commonly causes anemia: chronic inflammation raises hepcidin that locks away iron, so the anemia of chronic disease tracks with disease activity and improves when the inflammation is controlled."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Rheumatoid arthritis's biggest killer is the heart: chronic systemic inflammation accelerates atherosclerosis, so cardiovascular disease—not joint damage—is the leading cause of death, and controlling RA lowers that risk."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils flood the rheumatoid joint and arm the autoimmunity: they pack the synovial fluid and release enzymes and NETs that citrullinate proteins, feeding the anti-CCP response and the cartilage destruction of the disease."
 ---
 
 # Rheumatoid Arthritis
@@ -285,6 +294,9 @@ RA patients have:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RA erodes bone through RANKL: inflamed synovial cells and T cells release RANKL that activates osteoclasts to chew through joint bone, producing the erosions on X-ray—so RANKL blockade (denosumab) can protect the joints.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — RA's immune attack targets joint collagen: type II collagen in cartilage is both an autoantigen and the tissue destroyed as the pannus invades, so the breakdown of collagen is what ultimately deforms the rheumatoid joint.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — RA may start when dendritic cells present citrullinated peptides: these antigen-presenters display modified self-proteins on HLA-DR to T cells, breaking tolerance and launching the anti-CCP autoimmunity that defines the disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Rheumatoid arthritis commonly causes anemia: chronic inflammation raises hepcidin that locks away iron, so the anemia of chronic disease tracks with disease activity and improves when the inflammation is controlled.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Rheumatoid arthritis's biggest killer is the heart: chronic systemic inflammation accelerates atherosclerosis, so cardiovascular disease—not joint damage—is the leading cause of death, and controlling RA lowers that risk.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils flood the rheumatoid joint and arm the autoimmunity: they pack the synovial fluid and release enzymes and NETs that citrullinate proteins, feeding the anti-CCP response and the cartilage destruction of the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

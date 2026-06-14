@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Rothmund-Thomson's cancer risk meets immune surveillance by NK cells: as the unstable genome throws off mutated, stressed cells, natural killer cells help cull them before they form the tumors these patients are prone to."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Rothmund-Thomson disturbs the calcium-built skeleton: RECQL4 loss causes bone defects and a high osteosarcoma risk, so disordered bone—where calcium is laid down—is a defining feature beyond the poikiloderma skin changes."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells join NK cells in policing Rothmund-Thomson: as the helicase defect spawns mutated, stressed cells, T-cell surveillance helps cull them, and its strength may shape the timing of the cancers these patients face."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "The osteosarcomas of Rothmund-Thomson recruit blood via VEGF: the genomically chaotic bone tumors drive angiogenesis to grow and spread, so VEGF-targeted strategies are considered in this cancer-prone syndrome."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -272,6 +281,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Rothmund-Thomson is a DNA-repair disease that leans on RAD51: the RECQL4 helicase helps repair and restart broken replication forks alongside RAD51-driven homologous recombination, so its loss leaves genomic instability that breeds osteosarcoma.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Rothmund-Thomson cells buckle under oxygen's damage: beyond DNA repair, RECQL4 supports mitochondria, so its loss raises reactive oxygen species and oxidative DNA damage—part of the premature aging and cancer risk of the syndrome.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rothmund-Thomson's cancer risk meets immune surveillance by NK cells: as the unstable genome throws off mutated, stressed cells, natural killer cells help cull them before they form the tumors these patients are prone to.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rothmund-Thomson disturbs the calcium-built skeleton: RECQL4 loss causes bone defects and a high osteosarcoma risk, so disordered bone—where calcium is laid down—is a defining feature beyond the poikiloderma skin changes.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells join NK cells in policing Rothmund-Thomson: as the helicase defect spawns mutated, stressed cells, T-cell surveillance helps cull them, and its strength may shape the timing of the cancers these patients face.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The osteosarcomas of Rothmund-Thomson recruit blood via VEGF: the genomically chaotic bone tumors drive angiogenesis to grow and spread, so VEGF-targeted strategies are considered in this cancer-prone syndrome.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
