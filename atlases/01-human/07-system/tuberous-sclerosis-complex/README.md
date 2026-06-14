@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/birt-hogg-dube-syndrome
     relation: connects-to
     note: "TSC and Birt-Hogg-Dube both cause inherited kidney tumors and lung cysts: TSC makes angiomyolipomas via mTOR, while BHD makes chromophobe/oncocytic tumors via folliculin—distinct genes that overlap in needing renal and pulmonary surveillance."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Tuberous sclerosis writes itself on the skin in collagen: facial angiofibromas and the leathery shagreen patch are collagen-rich connective-tissue hamartomas from mTOR overactivity, among the visible signs that anchor the clinical diagnosis."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Tuberous sclerosis epilepsy stems from disordered glutamate: mTOR hyperactivation distorts the balance of excitatory glutamate and inhibitory signaling in malformed cortex, driving the early, often drug-resistant seizures central to the disease."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Tuberous sclerosis stalls autophagy through runaway mTOR: with TSC1/2 lost, constant mTOR signaling blocks the cell's self-cleaning, helping hamartoma cells survive—and mTOR inhibitors like everolimus restore autophagy as they shrink the tumors."
 ---
 
 # Tuberous Sclerosis Complex
@@ -263,6 +272,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-D is a biomarker of TSC lung disease: lymphangioleiomyomatosis (LAM) in TSC raises serum VEGF-D, which helps diagnose it and track response, reflecting how mTOR overactivation drives the abnormal vascular and lymphatic growth of the hamartomas.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — TSC's facial angiofibromas are fibroblast-driven hamartomas: mTOR-overactive fibroblasts and vessels proliferate to form the characteristic facial papules, one of the visible skin signs—now treatable with topical mTOR-inhibitor (sirolimus) creams.
 - `connects-to` → **[Birt-Hogg-Dubé Syndrome](../birt-hogg-dube-syndrome/README.md)** — TSC and Birt-Hogg-Dube both cause inherited kidney tumors and lung cysts: TSC makes angiomyolipomas via mTOR, while BHD makes chromophobe/oncocytic tumors via folliculin—distinct genes that overlap in needing renal and pulmonary surveillance.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Tuberous sclerosis writes itself on the skin in collagen: facial angiofibromas and the leathery shagreen patch are collagen-rich connective-tissue hamartomas from mTOR overactivity, among the visible signs that anchor the clinical diagnosis.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Tuberous sclerosis epilepsy stems from disordered glutamate: mTOR hyperactivation distorts the balance of excitatory glutamate and inhibitory signaling in malformed cortex, driving the early, often drug-resistant seizures central to the disease.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Tuberous sclerosis stalls autophagy through runaway mTOR: with TSC1/2 lost, constant mTOR signaling blocks the cell's self-cleaning, helping hamartoma cells survive—and mTOR inhibitors like everolimus restore autophagy as they shrink the tumors.
 
 ---
 

@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells help tuberculosis persist: by dampening the protective Th1 response, expanded Tregs can let M. tuberculosis survive in latency, part of the immune balance that keeps the infection contained yet not cleared."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "TB is an oxygen-seeking infection: aerobic M. tuberculosis favors the oxygen-rich upper lung where reactivation strikes, while deep in the granuloma's hypoxic, oxygen-starved core the bacteria turn dormant—the latency that makes TB so hard to cure."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Healed TB leaves fibrosis behind: granulomas resolve with dense scarring, apical fibrosis, and traction bronchiectasis that permanently damage the lung, so survivors often carry lasting post-TB lung disease even after cure."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells join the early fight against TB: alongside macrophages they pour out interferon-gamma to activate killing of the bacteria, an innate first line before the slower T-cell granuloma response takes over."
 ---
 
 # Tuberculosis
@@ -257,6 +266,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Tuberculosis frequently spreads to the kidney: genitourinary TB is a leading extrapulmonary form, seeding the kidney to cause sterile pyuria, scarring and ureteral strictures—so persistent urinary symptoms with negative routine cultures should raise suspicion.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Macrophages kill tuberculosis partly with nitric oxide: activated by IFN-gamma, they generate reactive nitrogen species via iNOS to attack the bacterium inside the phagosome, a key defense the pathogen evolves to resist and survive within the granuloma.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help tuberculosis persist: by dampening the protective Th1 response, expanded Tregs can let M. tuberculosis survive in latency, part of the immune balance that keeps the infection contained yet not cleared.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TB is an oxygen-seeking infection: aerobic M. tuberculosis favors the oxygen-rich upper lung where reactivation strikes, while deep in the granuloma's hypoxic, oxygen-starved core the bacteria turn dormant—the latency that makes TB so hard to cure.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Healed TB leaves fibrosis behind: granulomas resolve with dense scarring, apical fibrosis, and traction bronchiectasis that permanently damage the lung, so survivors often carry lasting post-TB lung disease even after cure.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells join the early fight against TB: alongside macrophages they pour out interferon-gamma to activate killing of the bacteria, an innate first line before the slower T-cell granuloma response takes over.
 
 ## See Also
 
