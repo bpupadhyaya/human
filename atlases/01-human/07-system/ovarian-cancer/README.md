@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Ovarian cancer disables NK cells in its ascites: the fluid around the tumor blunts natural killer cytotoxicity, helping floating tumor clusters survive—so restoring NK function is explored to fight peritoneal spread."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Ovarian cancer spreads across the gut: it sheds cells that seed the omentum and bowel surface as peritoneal carcinomatosis, so abdominal bloating and bowel obstruction—not pelvic symptoms—are often what finally brings the late-stage disease to light."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Ovarian cancer reaches the chest as malignant effusions: tumor spread to the pleura fills the space around the lungs with fluid, causing breathlessness, a common sign of advanced disease that upstages it and guides drainage and systemic therapy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells shape the immune fight against ovarian cancer: as antigen-presenters they prime the T-cell response, and their dysfunction in the tumor and ascites helps it evade immunity—so dendritic-cell vaccines are explored to rebuild it."
 ---
 
 # Ovarian Cancer
@@ -251,6 +260,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Ovarian cancer betrays itself through albumin-rich ascites: spreading across the peritoneum, it leaks fluid that swells the abdomen and drains albumin, so new ascites in a woman is a red flag and paracentesis both relieves and diagnoses it.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Ovarian cancer was the first tumor shown to use regulatory T cells to predict death: Tregs flood the malignant ascites and tumor, suppressing immunity—a landmark finding that helped launch the field of cancer immunosuppression.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Ovarian cancer disables NK cells in its ascites: the fluid around the tumor blunts natural killer cytotoxicity, helping floating tumor clusters survive—so restoring NK function is explored to fight peritoneal spread.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Ovarian cancer spreads across the gut: it sheds cells that seed the omentum and bowel surface as peritoneal carcinomatosis, so abdominal bloating and bowel obstruction—not pelvic symptoms—are often what finally brings the late-stage disease to light.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Ovarian cancer reaches the chest as malignant effusions: tumor spread to the pleura fills the space around the lungs with fluid, causing breathlessness, a common sign of advanced disease that upstages it and guides drainage and systemic therapy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape the immune fight against ovarian cancer: as antigen-presenters they prime the T-cell response, and their dysfunction in the tumor and ascites helps it evade immunity—so dendritic-cell vaccines are explored to rebuild it.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

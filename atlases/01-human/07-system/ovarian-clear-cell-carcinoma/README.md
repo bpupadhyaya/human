@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Iron-laden macrophages haunt clear cell carcinoma's origin: in the endometriotic cysts it springs from, macrophages gorge on blood-derived iron and pump out inflammatory signals, building the oxidative, pro-tumor niche the cancer exploits."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Clear cell ovarian carcinoma behaves as if starved of oxygen: its glycogen-packed clear cells run a HIF-driven pseudohypoxic program even when oxygen is present, fueling growth and the chemoresistance that makes this subtype so hard to treat."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Clear cell ovarian carcinoma spreads across the peritoneum: like other ovarian cancers it studs the omentum and bowel surface, so abdominal disease and bowel involvement shape its presentation and the surgery aimed at removing all visible tumor."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells matter most in the immunogenic subset of clear cell ovarian carcinoma: some tumors carry mismatch-repair defects and neoantigens, and antigen-presenting dendritic cells help mount the response that checkpoint therapy can amplify."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -277,6 +286,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ovarian clear cell carcinoma is forged in iron: it arises from endometriosis, where repeated bleeding dumps iron into cysts, and the resulting oxidative stress damages DNA and drives the ARID1A-mutant cancer—linking menstrual iron to a tumor.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Ovarian clear cell carcinoma is intensely angiogenic via VEGF: HIF-driven VEGF feeds its blood supply, so anti-VEGF bevacizumab is among the few systemic options for a tumor notoriously resistant to standard chemotherapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Iron-laden macrophages haunt clear cell carcinoma's origin: in the endometriotic cysts it springs from, macrophages gorge on blood-derived iron and pump out inflammatory signals, building the oxidative, pro-tumor niche the cancer exploits.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Clear cell ovarian carcinoma behaves as if starved of oxygen: its glycogen-packed clear cells run a HIF-driven pseudohypoxic program even when oxygen is present, fueling growth and the chemoresistance that makes this subtype so hard to treat.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Clear cell ovarian carcinoma spreads across the peritoneum: like other ovarian cancers it studs the omentum and bowel surface, so abdominal disease and bowel involvement shape its presentation and the surgery aimed at removing all visible tumor.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells matter most in the immunogenic subset of clear cell ovarian carcinoma: some tumors carry mismatch-repair defects and neoantigens, and antigen-presenting dendritic cells help mount the response that checkpoint therapy can amplify.
 
 ---
 
