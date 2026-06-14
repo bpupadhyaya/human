@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Chordoma is a target for T-cell immunotherapy against brachyury: because the tumor depends on this lineage antigen, vaccines and engineered cytotoxic T cells aim to direct a killing response at a protein cancer cells cannot easily discard."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Chordoma eats away calcium-rich bone: arising in the skull base and sacrum, it destroys the bony matrix as it grows, dissolving the calcium scaffold and threatening the spine and cranial nerves it surrounds."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Chordoma shelters in a macrophage-rich stroma: tumor-associated macrophages populate its microenvironment and dampen immunity, part of why this slow but stubborn tumor resists treatment and recurs."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Sacral chordoma presses on the bowel: the most common chordoma site sits against the rectum and pelvic nerves, so large tumors cause constipation, bowel and bladder dysfunction, and low back pain."
 ---
 
 # Chordoma
@@ -282,6 +291,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Chordoma leans on the PI3K-AKT-mTOR growth axis: AKT signaling is frequently active and, with PTEN loss, drives proliferation in these brachyury-dependent tumors, so AKT-mTOR inhibitors are studied for a cancer resistant to chemotherapy.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET signaling can drive aggressive chordoma: amplification or activation of this receptor promotes invasion and growth, adding to the brachyury-driven biology and offering another targetable kinase in a notoriously treatment-resistant bone tumor.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Chordoma is a target for T-cell immunotherapy against brachyury: because the tumor depends on this lineage antigen, vaccines and engineered cytotoxic T cells aim to direct a killing response at a protein cancer cells cannot easily discard.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Chordoma eats away calcium-rich bone: arising in the skull base and sacrum, it destroys the bony matrix as it grows, dissolving the calcium scaffold and threatening the spine and cranial nerves it surrounds.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Chordoma shelters in a macrophage-rich stroma: tumor-associated macrophages populate its microenvironment and dampen immunity, part of why this slow but stubborn tumor resists treatment and recurs.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Sacral chordoma presses on the bowel: the most common chordoma site sits against the rectum and pelvic nerves, so large tumors cause constipation, bowel and bladder dysfunction, and low back pain.
 
 ---
 

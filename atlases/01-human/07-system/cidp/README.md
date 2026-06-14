@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Macrophages strip myelin in CIDP under NF-kB's command: this inflammatory switch drives the cytokines and activation that send macrophages to peel myelin off peripheral nerves, the core attack that immunosuppression aims to halt."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "CIDP can travel with kidney disease: it sometimes co-occurs with membranous nephropathy, the two sharing autoantibodies against nodal proteins like neurofascin and contactin, linking the leaky kidney filter to the demyelinated nerve."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "In POEMS syndrome, VEGF drives a CIDP-like neuropathy: this rare plasma-cell disorder floods the blood with VEGF, producing a demyelinating polyneuropathy that mimics CIDP but needs entirely different, anti-plasma-cell treatment."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Chronic CIDP damage is sealed by calcium: when long demyelination finally lets axons degenerate, calcium pours into the bare fibers and executes their death, the irreversible loss behind lasting disability."
 ---
 
 # CIDP
@@ -300,6 +309,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CIDP cripples nerve conduction at the sodium channels: myelin loss disperses the sodium channels clustered at the nodes of Ranvier, so the saltatory jump of the impulse fails, producing the conduction block behind the weakness.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Demyelination in CIDP exposes potassium channels: stripped of myelin, the juxtaparanodal potassium channels normally hidden under it leak current and dampen the nerve impulse, worsening conduction failure—a target of channel-blocking drugs.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Macrophages strip myelin in CIDP under NF-kB's command: this inflammatory switch drives the cytokines and activation that send macrophages to peel myelin off peripheral nerves, the core attack that immunosuppression aims to halt.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — CIDP can travel with kidney disease: it sometimes co-occurs with membranous nephropathy, the two sharing autoantibodies against nodal proteins like neurofascin and contactin, linking the leaky kidney filter to the demyelinated nerve.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — In POEMS syndrome, VEGF drives a CIDP-like neuropathy: this rare plasma-cell disorder floods the blood with VEGF, producing a demyelinating polyneuropathy that mimics CIDP but needs entirely different, anti-plasma-cell treatment.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Chronic CIDP damage is sealed by calcium: when long demyelination finally lets axons degenerate, calcium pours into the bare fibers and executes their death, the irreversible loss behind lasting disability.
 
 ---
 
