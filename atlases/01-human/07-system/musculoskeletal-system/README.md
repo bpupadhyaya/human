@@ -89,6 +89,15 @@ cross_links:
   - target: 01-human/07-system/fibromyalgia
     relation: connects-to
     note: "Fibromyalgia presents as a musculoskeletal disease without musculoskeletal damage: widespread muscle and joint pain and tenderness arise from amplified central pain processing, not inflammation or structural injury—so the muscles and bones ache while tests stay normal."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Parathyroid hormone is the master switch of bone remodeling: PTH pulls calcium from bone when blood levels fall, yet given intermittently it builds bone—so the musculoskeletal skeleton doubles as the body's calcium bank under PTH control."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium is essential to bone and muscle: about half the body's magnesium sits in bone as a mineral reservoir, and it is required for muscle contraction and relaxation—so deficiency causes cramps, weakness and impairs bone quality."
+  - target: 01-human/03-molecular/sclerostin
+    relation: connects-to
+    note: "Osteocytes tune bone strength through sclerostin: this Wnt-pathway inhibitor brakes bone formation, and mechanical loading lowers it to build bone—so blocking sclerostin (romosozumab) is a potent way to rebuild the osteoporotic skeleton."
 ---
 
 # Musculoskeletal System
@@ -249,6 +258,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone is built of calcium phosphate, so phosphorus is as essential as calcium to the skeleton: it forms hydroxyapatite crystals that harden bone, and disturbed phosphate handling—as in rickets and renal osteodystrophy—softens and deforms it.
 - `connects-to` → **[Ankylosing Spondylitis](../ankylosing-spondylitis/README.md)** — Ankylosing spondylitis attacks the musculoskeletal system: inflammation at entheses where ligaments meet bone heals by ossification, fusing the spine into a rigid 'bamboo' column—showing how the skeleton's response to inflammation can be new bone, not just erosion.
 - `connects-to` → **[Fibromyalgia](../fibromyalgia/README.md)** — Fibromyalgia presents as a musculoskeletal disease without musculoskeletal damage: widespread muscle and joint pain and tenderness arise from amplified central pain processing, not inflammation or structural injury—so the muscles and bones ache while tests stay normal.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Parathyroid hormone is the master switch of bone remodeling: PTH pulls calcium from bone when blood levels fall, yet given intermittently it builds bone—so the musculoskeletal skeleton doubles as the body's calcium bank under PTH control.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium is essential to bone and muscle: about half the body's magnesium sits in bone as a mineral reservoir, and it is required for muscle contraction and relaxation—so deficiency causes cramps, weakness and impairs bone quality.
+- `connects-to` → **[Sclerostin](../../03-molecular/sclerostin/README.md)** — Osteocytes tune bone strength through sclerostin: this Wnt-pathway inhibitor brakes bone formation, and mechanical loading lowers it to build bone—so blocking sclerostin (romosozumab) is a potent way to rebuild the osteoporotic skeleton.
 
 ## Pathology
 
