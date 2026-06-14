@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/ckd
     relation: connects-to
     note: "Chronic kidney disease accelerates atherosclerosis: uremia, phosphate retention and inflammation promote vascular calcification and plaque, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "APOE shapes atherosclerosis risk: this lipid-carrier protein clears cholesterol-rich particles, and the common APOE4 variant raises LDL and cardiovascular (and Alzheimer's) risk, so APOE genotype is a built-in modifier of how fast plaque builds."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome fuels atherosclerosis: gut bacteria convert dietary choline and carnitine into TMAO, a metabolite that promotes plaque and clotting, so what microbes make from red meat and eggs feeds the arterial disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils inflame the atherosclerotic plaque: they release NETs and enzymes that recruit more inflammation and destabilize the fibrous cap, so beyond macrophages, neutrophil-driven inflammation helps turn a stable plaque into a rupture-prone one."
 ---
 
 # Atherosclerosis
@@ -233,6 +242,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium marks and stiffens atherosclerotic arteries: chronic plaque inflammation drives calcium deposition that hardens vessel walls, and a CT coronary-calcium score quantifies this buildup to gauge cardiovascular risk.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T helper cells make atherosclerosis an inflammatory disease: Th1 cells in the plaque secrete cytokines that activate macrophages and destabilize the fibrous cap, so immune activity—not just lipid—governs whether a plaque stays quiet or ruptures.
 - `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic kidney disease accelerates atherosclerosis: uremia, phosphate retention and inflammation promote vascular calcification and plaque, so cardiovascular disease—not kidney failure—is the leading cause of death in CKD.
+- `connects-to` → **[APOE](../../03-molecular/apoe/README.md)** — APOE shapes atherosclerosis risk: this lipid-carrier protein clears cholesterol-rich particles, and the common APOE4 variant raises LDL and cardiovascular (and Alzheimer's) risk, so APOE genotype is a built-in modifier of how fast plaque builds.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome fuels atherosclerosis: gut bacteria convert dietary choline and carnitine into TMAO, a metabolite that promotes plaque and clotting, so what microbes make from red meat and eggs feeds the arterial disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils inflame the atherosclerotic plaque: they release NETs and enzymes that recruit more inflammation and destabilize the fibrous cap, so beyond macrophages, neutrophil-driven inflammation helps turn a stable plaque into a rupture-prone one.
 
 ---
 

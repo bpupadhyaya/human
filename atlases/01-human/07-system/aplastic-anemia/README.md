@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Antithymocyte globulin is a cornerstone of aplastic anemia therapy: these IgG antibodies raised against human T cells deplete the autoreactive lymphocytes destroying the marrow, so immunosuppression with ATG plus cyclosporine rescues many patients without a transplant."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Some aplastic anemia is a telomere disease: germline TERT and telomerase mutations (telomeropathies like dyskeratosis congenita) prematurely exhaust blood stem cells, so unexplained marrow failure with short telomeres warrants genetic testing before transplant."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ionizing radiation is a classic cause of aplastic anemia: X-ray and gamma photons damage dividing marrow stem cells, so high-dose exposure wipes out blood production—the same mechanism deliberately used in total-body irradiation before stem-cell transplant."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Aplastic anemia can follow hepatitis: a seronegative viral hepatitis sometimes precedes severe marrow failure (hepatitis-associated aplastic anemia), an immune-mediated link in which liver inflammation heralds the destruction of blood stem cells."
 ---
 
 # Aplastic Anemia
@@ -224,6 +233,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Aplastic anemia links to the thymus through autoimmunity: thymoma is an established cause of acquired marrow failure (and pure red cell aplasia), reflecting how disordered thymic T-cell selection can unleash the autoreactive T cells that attack stem cells.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Aplastic anemia is marrow failure by cytokine attack: autoreactive cytotoxic T cells flood the marrow with IFN-gamma and TNF that kill hematopoietic stem cells, so it is essentially a localized cytokine storm—why immunosuppression restores blood counts.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Antithymocyte globulin is a cornerstone of aplastic anemia therapy: these IgG antibodies raised against human T cells deplete the autoreactive lymphocytes destroying the marrow, so immunosuppression with ATG plus cyclosporine rescues many patients without a transplant.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Some aplastic anemia is a telomere disease: germline TERT and telomerase mutations (telomeropathies like dyskeratosis congenita) prematurely exhaust blood stem cells, so unexplained marrow failure with short telomeres warrants genetic testing before transplant.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is a classic cause of aplastic anemia: X-ray and gamma photons damage dividing marrow stem cells, so high-dose exposure wipes out blood production—the same mechanism deliberately used in total-body irradiation before stem-cell transplant.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Aplastic anemia can follow hepatitis: a seronegative viral hepatitis sometimes precedes severe marrow failure (hepatitis-associated aplastic anemia), an immune-mediated link in which liver inflammation heralds the destruction of blood stem cells.
 
 ---
 
