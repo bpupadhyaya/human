@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Hypoxia shapes the basal cell tumor through HIF-1alpha: as the slow-growing nodule outpaces its blood supply, HIF drives VEGF and angiogenesis, helping the locally invasive cancer recruit the vessels it needs to expand."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "The morpheaform basal cell carcinoma hides in fibrosis: this sclerosing subtype provokes a dense fibrous stroma, so the tumor infiltrates like scar tissue with ill-defined edges that make it hard to fully excise."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Aggressive basal cell carcinoma can track along nerves: perineural invasion lets the tumor creep down peripheral nerves beyond its visible border, causing pain or numbness and demanding wider treatment."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Basal cell carcinoma is recognized by its vessels: endothelial cells form the fine, branching surface telangiectasias over a pearly nodule—a hallmark seen on dermoscopy—and feed the tumor's growth."
 ---
 
 # Basal Cell Carcinoma
@@ -269,6 +278,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Basal cell carcinoma is born from oxygen's dark side under UV: sunlight drives reactive oxygen species and DNA-damaging photochemistry in skin cells, so cumulative ultraviolet oxidative injury is the root cause of the most common human cancer.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-kB helps basal cell carcinoma survive UV assault: ultraviolet light and inflammation activate this switch, promoting cell survival and a tumor-friendly inflammatory niche that lets damaged basal cells persist and grow.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Hypoxia shapes the basal cell tumor through HIF-1alpha: as the slow-growing nodule outpaces its blood supply, HIF drives VEGF and angiogenesis, helping the locally invasive cancer recruit the vessels it needs to expand.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The morpheaform basal cell carcinoma hides in fibrosis: this sclerosing subtype provokes a dense fibrous stroma, so the tumor infiltrates like scar tissue with ill-defined edges that make it hard to fully excise.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Aggressive basal cell carcinoma can track along nerves: perineural invasion lets the tumor creep down peripheral nerves beyond its visible border, causing pain or numbness and demanding wider treatment.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Basal cell carcinoma is recognized by its vessels: endothelial cells form the fine, branching surface telangiectasias over a pearly nodule—a hallmark seen on dermoscopy—and feed the tumor's growth.
 
 ---
 

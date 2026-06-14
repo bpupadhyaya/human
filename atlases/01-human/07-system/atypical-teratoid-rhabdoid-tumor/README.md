@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "ATRT arises in the developing brain among glial precursors: its rhabdoid cells can show divergent differentiation toward neural and glial lines including oligodendrocyte features, reflecting the primitive cell of origin in infants."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ATRT outgrows its oxygen: this fast, aggressive infant tumor turns hypoxic at its core, switching on the HIF/VEGF program that sprouts new vessels and helps it expand and resist therapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "ATRT hides in a macrophage-rich niche: tumor-associated macrophages dominate its immunosuppressive microenvironment, helping this poorly immunogenic rhabdoid tumor evade T cells and resist checkpoint therapy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "ATRT drives angiogenesis through VEGF: to feed its rapid growth the tumor releases VEGF, building the leaky vessels that supply it—a target for anti-angiogenic strategies in this hard-to-treat cancer."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -266,6 +275,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Losing SMARCB1 makes ATRT lean on CDK4/6: the chromatin defect derepresses cyclin D and drives the cell-cycle kinase, so CDK4/6 inhibitors are being tested to exploit this dependency in a cancer with few other targets.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are being enlisted against ATRT: because these rhabdoid tumors are poorly immunogenic, dendritic-cell vaccines and other strategies to present tumor antigens aim to spark a T-cell attack on residual disease.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — ATRT arises in the developing brain among glial precursors: its rhabdoid cells can show divergent differentiation toward neural and glial lines including oligodendrocyte features, reflecting the primitive cell of origin in infants.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ATRT outgrows its oxygen: this fast, aggressive infant tumor turns hypoxic at its core, switching on the HIF/VEGF program that sprouts new vessels and helps it expand and resist therapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — ATRT hides in a macrophage-rich niche: tumor-associated macrophages dominate its immunosuppressive microenvironment, helping this poorly immunogenic rhabdoid tumor evade T cells and resist checkpoint therapy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — ATRT drives angiogenesis through VEGF: to feed its rapid growth the tumor releases VEGF, building the leaky vessels that supply it—a target for anti-angiogenic strategies in this hard-to-treat cancer.
 
 ---
 
