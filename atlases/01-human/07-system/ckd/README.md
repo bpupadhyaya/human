@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "CKD and cardiovascular disease are lethally intertwined: most people with CKD die of heart disease, not kidney failure, because uremia, fluid overload and hypertension accelerate atherosclerosis—so the failing kidney is a powerful cardiac risk factor."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Failing kidneys can't dump potassium: as filtration drops, potassium builds up, and hyperkalemia—worsened by the ACE inhibitors and ARBs used to protect the kidney—can stop the heart, so it is among CKD's most urgent, monitored complications."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Heart and kidney failure drive each other (cardiorenal syndrome): CKD's fluid overload, hypertension, and anemia strain the heart, while a failing heart underperfuses the kidney—so the two organs decline together and share treatments like SGLT2 inhibitors."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "CKD cripples vitamin D activation: damaged kidneys can't perform the final hydroxylation to active calcitriol, so calcium absorption falls and parathyroid hormone rises—driving the renal bone disease that defines CKD's mineral and bone disorder."
 ---
 
 # Chronic Kidney Disease
@@ -190,6 +199,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — Podocyte loss is a key driver of progressive CKD: these non-dividing cells form the glomerular filter, and when injury (by diabetes, hypertension or FSGS) kills them, the barrier leaks protein and scars, so podocyte depletion predicts irreversible decline.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — CKD often begins in the glomerulus: damage to the filtering tuft causes proteinuria and falling filtration, and surviving glomeruli hyperfilter to compensate—a maladaptive overwork that scars them too, driving the relentless nephron loss of chronic kidney disease.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — CKD and cardiovascular disease are lethally intertwined: most people with CKD die of heart disease, not kidney failure, because uremia, fluid overload and hypertension accelerate atherosclerosis—so the failing kidney is a powerful cardiac risk factor.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Failing kidneys can't dump potassium: as filtration drops, potassium builds up, and hyperkalemia—worsened by the ACE inhibitors and ARBs used to protect the kidney—can stop the heart, so it is among CKD's most urgent, monitored complications.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Heart and kidney failure drive each other (cardiorenal syndrome): CKD's fluid overload, hypertension, and anemia strain the heart, while a failing heart underperfuses the kidney—so the two organs decline together and share treatments like SGLT2 inhibitors.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — CKD cripples vitamin D activation: damaged kidneys can't perform the final hydroxylation to active calcitriol, so calcium absorption falls and parathyroid hormone rises—driving the renal bone disease that defines CKD's mineral and bone disorder.
 
 ## Pathology
 

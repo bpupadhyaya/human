@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Endometrial cancer is the prototypical hormone-dependent tumor of the endocrine system: unopposed estrogen without progesterone drives endometrial overgrowth, so conditions and drugs that disturb the estrogen-progesterone balance change the risk markedly."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Endometrial cancer is staged through the lymphatic system: spread to pelvic and para-aortic nodes drives staging and prognosis, so sentinel-lymph-node mapping now guides how aggressively surgery and adjuvant therapy are pursued."
+  - target: 01-human/03-molecular/ctnnb1
+    relation: connects-to
+    note: "CTNNB1 mutations define a deceptive endometrial subgroup: activating this Wnt/beta-catenin gene marks low-grade endometrioid tumors that look indolent but carry a surprisingly high recurrence risk—part of the molecular classification reshaping endometrial cancer care."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Endometrial cancer can spread to the lung: high-grade and serous subtypes disseminate hematogenously, making the lung a common distant metastatic site, so chest imaging is part of staging advanced or recurrent disease."
 ---
 
 # Endometrial Cancer
@@ -232,6 +241,9 @@ cross_links:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA mutation is among the commonest drivers of endometrial cancer: it activates the PI3K/AKT/mTOR growth pathway (often alongside PTEN loss), so this axis is a leading target for the mTOR and PI3K inhibitors being developed for the disease.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Endometrial cancer is tightly linked to insulin and metabolic excess: obesity and type 2 diabetes raise insulin and IGF-1, which—with the estrogen made by fat tissue—stimulate endometrial proliferation, explaining why metabolic disease so strongly raises risk.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Endometrial cancer is the prototypical hormone-dependent tumor of the endocrine system: unopposed estrogen without progesterone drives endometrial overgrowth, so conditions and drugs that disturb the estrogen-progesterone balance change the risk markedly.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Endometrial cancer is staged through the lymphatic system: spread to pelvic and para-aortic nodes drives staging and prognosis, so sentinel-lymph-node mapping now guides how aggressively surgery and adjuvant therapy are pursued.
+- `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — CTNNB1 mutations define a deceptive endometrial subgroup: activating this Wnt/beta-catenin gene marks low-grade endometrioid tumors that look indolent but carry a surprisingly high recurrence risk—part of the molecular classification reshaping endometrial cancer care.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Endometrial cancer can spread to the lung: high-grade and serous subtypes disseminate hematogenously, making the lung a common distant metastatic site, so chest imaging is part of staging advanced or recurrent disease.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
