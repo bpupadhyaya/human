@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages connect obesity to endometrial cancer: inflamed fat draws macrophages that pour out cytokines, and tumor-associated macrophages in the uterine tumor promote its growth and blood supply, a cellular bridge from adiposity to malignancy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Endometrial cancer announces itself by spending iron: abnormal uterine bleeding—especially after menopause—is the cardinal warning sign, and the chronic blood loss drains the body's iron into a deficiency anemia that often prompts the diagnosis."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells matter most in mismatch-repair-deficient endometrial cancer: these immunogenic tumors draw NK and T-cell attack, part of why such cancers respond well to immunotherapy that unleashes the immune assault."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Advanced endometrial cancer can threaten the kidneys: a bulky uterine tumor or its pelvic spread compresses the ureters, backing urine up into the kidneys (hydronephrosis) and causing post-renal kidney injury."
 ---
 
 # Endometrial Cancer
@@ -268,6 +277,9 @@ cross_links:
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Body fat is the engine of endometrial cancer: adipocytes make aromatase that turns androgens into estrogen, so obesity floods the uterine lining with unopposed estrogen, making it the malignancy most strongly tied to excess weight.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver tunes endometrial-cancer risk through SHBG: it makes sex-hormone-binding globulin that mops up estrogen, and obesity and insulin resistance lower SHBG, raising the free estrogen that drives this hormone-sensitive tumor.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages connect obesity to endometrial cancer: inflamed fat draws macrophages that pour out cytokines, and tumor-associated macrophages in the uterine tumor promote its growth and blood supply, a cellular bridge from adiposity to malignancy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Endometrial cancer announces itself by spending iron: abnormal uterine bleeding—especially after menopause—is the cardinal warning sign, and the chronic blood loss drains the body's iron into a deficiency anemia that often prompts the diagnosis.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells matter most in mismatch-repair-deficient endometrial cancer: these immunogenic tumors draw NK and T-cell attack, part of why such cancers respond well to immunotherapy that unleashes the immune assault.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Advanced endometrial cancer can threaten the kidneys: a bulky uterine tumor or its pelvic spread compresses the ureters, backing urine up into the kidneys (hydronephrosis) and causing post-renal kidney injury.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
