@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/p53
     relation: connects-to
     note: "Losing p53 makes chordoma more aggressive: while most chordomas grow slowly on brachyury, TP53 mutation marks the dangerous shift toward dedifferentiated, fast-growing tumors with a far worse prognosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Chordoma leans on the PI3K-AKT-mTOR growth axis: AKT signaling is frequently active and, with PTEN loss, drives proliferation in these brachyury-dependent tumors, so AKT-mTOR inhibitors are studied for a cancer resistant to chemotherapy."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "MET signaling can drive aggressive chordoma: amplification or activation of this receptor promotes invasion and growth, adding to the brachyury-driven biology and offering another targetable kinase in a notoriously treatment-resistant bone tumor."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Chordoma is a target for T-cell immunotherapy against brachyury: because the tumor depends on this lineage antigen, vaccines and engineered cytotoxic T cells aim to direct a killing response at a protein cancer cells cannot easily discard."
 ---
 
 # Chordoma
@@ -270,6 +279,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Chordoma destroys bone through osteoclasts: as it grows in the skull base or sacrum it recruits bone-resorbing osteoclasts that erode the surrounding skeleton, so anti-resorptive drugs are explored to slow the local destruction this hard-to-resect tumor causes.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Chordoma is a vascular tumor that responds to anti-VEGF therapy: it expresses VEGF to grow blood vessels, which is why multi-target TKIs that block VEGF receptors (like sunitinib) can stall this otherwise treatment-resistant cancer.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Losing p53 makes chordoma more aggressive: while most chordomas grow slowly on brachyury, TP53 mutation marks the dangerous shift toward dedifferentiated, fast-growing tumors with a far worse prognosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Chordoma leans on the PI3K-AKT-mTOR growth axis: AKT signaling is frequently active and, with PTEN loss, drives proliferation in these brachyury-dependent tumors, so AKT-mTOR inhibitors are studied for a cancer resistant to chemotherapy.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET signaling can drive aggressive chordoma: amplification or activation of this receptor promotes invasion and growth, adding to the brachyury-driven biology and offering another targetable kinase in a notoriously treatment-resistant bone tumor.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Chordoma is a target for T-cell immunotherapy against brachyury: because the tumor depends on this lineage antigen, vaccines and engineered cytotoxic T cells aim to direct a killing response at a protein cancer cells cannot easily discard.
 
 ---
 

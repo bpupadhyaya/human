@@ -114,6 +114,15 @@ cross_links:
   - target: 01-human/03-molecular/cd20
     relation: connects-to
     note: "Refractory CIDP can be treated by deleting B cells via CD20: rituximab targets this B-cell marker to shut down antibody production, especially effective in CIDP variants driven by antibodies against nodal proteins or MAG."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CIDP cripples nerve conduction at the sodium channels: myelin loss disperses the sodium channels clustered at the nodes of Ranvier, so the saltatory jump of the impulse fails, producing the conduction block behind the weakness."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Demyelination in CIDP exposes potassium channels: stripped of myelin, the juxtaparanodal potassium channels normally hidden under it leak current and dampen the nerve impulse, worsening conduction failure—a target of channel-blocking drugs."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Macrophages strip myelin in CIDP under NF-kB's command: this inflammatory switch drives the cytokines and activation that send macrophages to peel myelin off peripheral nerves, the core attack that immunosuppression aims to halt."
 ---
 
 # CIDP
@@ -288,6 +297,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — CIDP responds to corticosteroids—unlike its acute cousin: steroids that mimic cortisol calm the autoimmune attack on peripheral myelin and are first-line in CIDP, a key contrast with Guillain-Barré, where steroids fail and only IVIG or plasma exchange help.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — CIDP begins with dendritic cells presenting myelin: these antigen-presenting cells display peripheral-nerve proteins to T cells, breaking tolerance and launching the chronic immune attack that strips myelin from the nerves.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Refractory CIDP can be treated by deleting B cells via CD20: rituximab targets this B-cell marker to shut down antibody production, especially effective in CIDP variants driven by antibodies against nodal proteins or MAG.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CIDP cripples nerve conduction at the sodium channels: myelin loss disperses the sodium channels clustered at the nodes of Ranvier, so the saltatory jump of the impulse fails, producing the conduction block behind the weakness.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Demyelination in CIDP exposes potassium channels: stripped of myelin, the juxtaparanodal potassium channels normally hidden under it leak current and dampen the nerve impulse, worsening conduction failure—a target of channel-blocking drugs.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Macrophages strip myelin in CIDP under NF-kB's command: this inflammatory switch drives the cytokines and activation that send macrophages to peel myelin off peripheral nerves, the core attack that immunosuppression aims to halt.
 
 ---
 
