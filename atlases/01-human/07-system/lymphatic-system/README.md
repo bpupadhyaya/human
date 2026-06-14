@@ -86,6 +86,15 @@ cross_links:
   - target: 01-human/03-molecular/secretory-iga
     relation: connects-to
     note: "The gut's lymphatic tissue produces secretory IgA: Peyer's patches and mesenteric nodes generate IgA-secreting plasma cells that protect mucosal surfaces, so the lymphatic system guards the body's largest interface with the outside world."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Lymphatic vessels grow under VEGF control: VEGF-C and VEGF-D acting on VEGFR-3 drive lymphangiogenesis, building and remodeling the lymphatic network—and tumors hijack this signal to sprout lymphatics that carry cancer cells to lymph nodes."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is the body's largest single source of lymph: high sinusoidal filtration produces protein-rich hepatic lymph that drains via the thoracic duct, so in cirrhosis overwhelmed lymphatics contribute to the ascites that fills the abdomen."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Lymph nodes are where cytotoxic T cells are armed: naive CD8 cells survey nodes until a dendritic cell presents antigen, then activate and exit through lymphatics into blood to hunt infected or tumor cells—so the lymphatic system stages antiviral and antitumor immunity."
 ---
 
 # Lymphatic System
@@ -218,6 +227,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages patrol the lymphatic system: positioned in lymph-node sinuses, they filter incoming lymph, capture pathogens and present antigen to lymphocytes, so the lymphatics are not just drainage but a surveillance network staffed by phagocytes.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — The lymphatic system is where antibodies are made: B cells in lymph-node germinal centers mature into plasma cells producing IgG, which drains into blood to neutralize pathogens—so the lymphatics turn captured antigen into circulating humoral immunity.
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — The gut's lymphatic tissue produces secretory IgA: Peyer's patches and mesenteric nodes generate IgA-secreting plasma cells that protect mucosal surfaces, so the lymphatic system guards the body's largest interface with the outside world.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Lymphatic vessels grow under VEGF control: VEGF-C and VEGF-D acting on VEGFR-3 drive lymphangiogenesis, building and remodeling the lymphatic network—and tumors hijack this signal to sprout lymphatics that carry cancer cells to lymph nodes.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is the body's largest single source of lymph: high sinusoidal filtration produces protein-rich hepatic lymph that drains via the thoracic duct, so in cirrhosis overwhelmed lymphatics contribute to the ascites that fills the abdomen.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Lymph nodes are where cytotoxic T cells are armed: naive CD8 cells survey nodes until a dendritic cell presents antigen, then activate and exit through lymphatics into blood to hunt infected or tumor cells—so the lymphatic system stages antiviral and antitumor immunity.
 
 ## Pathology
 

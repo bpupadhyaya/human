@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Li-Fraumeni reaches the nervous system through brain tumors: TP53 loss predisposes to gliomas, medulloblastoma and choroid plexus carcinoma, so CNS tumors are part of the syndrome's spectrum—and radiation to treat them risks triggering new ones."
+  - target: 01-human/03-molecular/brca1
+    relation: connects-to
+    note: "Li-Fraumeni and BRCA1 both cause hereditary breast cancer but differ in scope: TP53 loss gives early, multi-organ cancers while BRCA1 mainly raises breast and ovarian risk—so a young breast-cancer patient gets a multigene panel testing both genes."
+  - target: 01-human/07-system/gastric-cancer
+    relation: connects-to
+    note: "Stomach cancer is part of the Li-Fraumeni spectrum: TP53 carriers face elevated, often early-onset gastric cancer alongside their sarcoma and breast risks, so surveillance guidelines add upper endoscopy for families with a gastric-cancer history."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Melanoma is an extended Li-Fraumeni risk: TP53 carriers show increased melanoma incidence among their broad tumor spectrum, adding skin surveillance and sun protection to the layered cancer screening these patients already need."
 ---
 
 # Li-Fraumeni Syndrome
@@ -262,6 +271,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Li-Fraumeni and CDKN2A loss both cripple the cell-cycle brakes: TP53 and the CDKN2A-encoded p16/ARF act in the same tumor-suppressor network guarding against unchecked division, so germline loss of either predisposes to multiple cancers across a lifetime.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Li-Fraumeni cancers strain the immune system's surveillance: p53 loss lets diverse tumors arise early and often, and the high cumulative cancer burden—plus the genotoxic chemo and radiation used—keeps the immune system perpetually challenged in carriers.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Li-Fraumeni reaches the nervous system through brain tumors: TP53 loss predisposes to gliomas, medulloblastoma and choroid plexus carcinoma, so CNS tumors are part of the syndrome's spectrum—and radiation to treat them risks triggering new ones.
+- `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Li-Fraumeni and BRCA1 both cause hereditary breast cancer but differ in scope: TP53 loss gives early, multi-organ cancers while BRCA1 mainly raises breast and ovarian risk—so a young breast-cancer patient gets a multigene panel testing both genes.
+- `connects-to` → **[Gastric Cancer](../gastric-cancer/README.md)** — Stomach cancer is part of the Li-Fraumeni spectrum: TP53 carriers face elevated, often early-onset gastric cancer alongside their sarcoma and breast risks, so surveillance guidelines add upper endoscopy for families with a gastric-cancer history.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Melanoma is an extended Li-Fraumeni risk: TP53 carriers show increased melanoma incidence among their broad tumor spectrum, adding skin surveillance and sun protection to the layered cancer screening these patients already need.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
