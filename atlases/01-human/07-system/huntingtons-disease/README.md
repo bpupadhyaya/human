@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Huntington's disease harms the heart and metabolism: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and a hypermetabolic, wasting state, so cardiovascular disease and weight loss are major non-neurological contributors to death in HD."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Huntington's disease causes relentless weight loss through the gut: chorea burns energy while swallowing difficulty and gut dysfunction limit intake, so progressive cachexia and aspiration are major problems despite a normal or increased appetite."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Huntington's disease begins at the synapse: mutant huntingtin disrupts synaptic signaling and BDNF transport long before neurons die, so striatal synapse loss—not just cell death—drives the early movement and cognitive decline."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium-driven excitotoxicity kills neurons in Huntington's: overactive NMDA receptors flood striatal neurons with calcium, triggering the cascades that destroy them, so disturbed calcium handling links glutamate signaling to the disease's selective neuronal loss."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -145,3 +154,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Huntington's disease also strikes striatal acetylcholine: loss of cholinergic interneurons in the caudate and putamen disturbs the balance with dopamine and GABA, contributing to the movement and cognitive disorder beyond the classic medium spiny neuron loss.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Huntington's shows genetic anticipation through the reproductive system: the CAG repeat expands further during sperm formation, so paternally transmitted disease tends to start earlier and more severely in each generation—a hallmark of trinucleotide-repeat inheritance.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Huntington's disease harms the heart and metabolism: mutant huntingtin and autonomic dysfunction cause cardiomyopathy and a hypermetabolic, wasting state, so cardiovascular disease and weight loss are major non-neurological contributors to death in HD.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Huntington's disease causes relentless weight loss through the gut: chorea burns energy while swallowing difficulty and gut dysfunction limit intake, so progressive cachexia and aspiration are major problems despite a normal or increased appetite.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Huntington's disease begins at the synapse: mutant huntingtin disrupts synaptic signaling and BDNF transport long before neurons die, so striatal synapse loss—not just cell death—drives the early movement and cognitive decline.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium-driven excitotoxicity kills neurons in Huntington's: overactive NMDA receptors flood striatal neurons with calcium, triggering the cascades that destroy them, so disturbed calcium handling links glutamate signaling to the disease's selective neuronal loss.

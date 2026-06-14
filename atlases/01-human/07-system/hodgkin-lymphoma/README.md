@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Hodgkin lymphoma thrives by hijacking the immune system: Reed-Sternberg cells amplify PD-L1 to silence surrounding T cells and recruit a protective inflammatory infiltrate, which is exactly why PD-1 checkpoint blockade is strikingly effective in relapsed HL."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "Hodgkin lymphoma has a curious alcohol sign: in a minority of patients, drinking alcohol triggers pain in affected lymph nodes within minutes—an unusual, near-specific clue that points to Hodgkin rather than other lymphomas."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Curing Hodgkin lymphoma can later cost the heart: chest radiation and anthracycline chemotherapy raise the risk of coronary disease, valve damage, and heart failure decades on, so cardiac surveillance is central to long-term survivor care."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Curing Hodgkin lymphoma raises later breast cancer risk: chest (mantle) radiation in young women sharply increases breast cancer decades later, so female survivors irradiated young begin breast MRI screening years before the general population."
 ---
 
 # Hodgkin Lymphoma
@@ -233,6 +242,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Nodular sclerosing Hodgkin lymphoma favors the mediastinum near the thymus: it classically presents as an anterior mediastinal mass in young adults, so it enters the differential of a mediastinal mass alongside thymoma and germ-cell tumors.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Hodgkin lymphoma commonly causes anemia: cytokines from Reed-Sternberg cells drive anemia of chronic disease, and marrow involvement or autoimmune hemolysis can deepen it—so falling red cells are part of the systemic 'B-symptom' illness of advanced HL.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Hodgkin lymphoma thrives by hijacking the immune system: Reed-Sternberg cells amplify PD-L1 to silence surrounding T cells and recruit a protective inflammatory infiltrate, which is exactly why PD-1 checkpoint blockade is strikingly effective in relapsed HL.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Hodgkin lymphoma has a curious alcohol sign: in a minority of patients, drinking alcohol triggers pain in affected lymph nodes within minutes—an unusual, near-specific clue that points to Hodgkin rather than other lymphomas.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Curing Hodgkin lymphoma can later cost the heart: chest radiation and anthracycline chemotherapy raise the risk of coronary disease, valve damage, and heart failure decades on, so cardiac surveillance is central to long-term survivor care.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Curing Hodgkin lymphoma raises later breast cancer risk: chest (mantle) radiation in young women sharply increases breast cancer decades later, so female survivors irradiated young begin breast MRI screening years before the general population.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
