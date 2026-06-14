@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "MEN1 also shows in the skin: menin loss produces facial angiofibromas, collagenomas and lipomas in many patients, so these benign cutaneous tumors can be an accessible clue to an inherited multiple-endocrine-neoplasia syndrome."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "Primary hyperparathyroidism is the hallmark of MEN1: nearly all carriers develop parathyroid hyperplasia that floods the blood with PTH, raising calcium—usually the first and most penetrant manifestation, prompting calcium and PTH screening from adolescence."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "MEN1 can grow an aggressive thymic neuroendocrine tumor: this thymic carcinoid, seen mostly in male smokers with MEN1, is a leading cause of MEN1 death, so chest imaging is part of surveillance even though the tumor is rare."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "MEN1's excess PTH drives osteoclasts: chronic hyperparathyroidism activates these bone-resorbing cells, leaching calcium from the skeleton toward osteoporosis and fractures—part of why correcting the parathyroid disease protects bone."
 ---
 
 # MEN1 Syndrome
@@ -231,6 +240,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — MEN1 strikes the digestive system with neuroendocrine tumors: duodenopancreatic NETs—especially gastrinomas causing Zollinger-Ellison ulcers and insulinomas—are leading causes of morbidity, so menin loss makes the gut's hormone cells a major tumor site.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MEN1 promotes gastric carcinoid tumors: gastrinoma-driven acid and hypergastrinemia stimulate stomach enterochromaffin-like cells into type-2 gastric carcinoids, so the stomach is a downstream target of the syndrome's hormone excess.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — MEN1 also shows in the skin: menin loss produces facial angiofibromas, collagenomas and lipomas in many patients, so these benign cutaneous tumors can be an accessible clue to an inherited multiple-endocrine-neoplasia syndrome.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — Primary hyperparathyroidism is the hallmark of MEN1: nearly all carriers develop parathyroid hyperplasia that floods the blood with PTH, raising calcium—usually the first and most penetrant manifestation, prompting calcium and PTH screening from adolescence.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — MEN1 can grow an aggressive thymic neuroendocrine tumor: this thymic carcinoid, seen mostly in male smokers with MEN1, is a leading cause of MEN1 death, so chest imaging is part of surveillance even though the tumor is rare.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — MEN1's excess PTH drives osteoclasts: chronic hyperparathyroidism activates these bone-resorbing cells, leaching calcium from the skeleton toward osteoporosis and fractures—part of why correcting the parathyroid disease protects bone.
 
 ---
 
