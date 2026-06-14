@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Psoriasis plaques recur in the same spots because of cytotoxic T cells: epidermal resident-memory CD8 T cells persist after lesions clear, forming a 'disease memory' that reignites plaques at old sites—why the disease relapses where it was."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Psoriasis is first treated with cortisol's kin: topical corticosteroids calm the IL-17/Th17 inflammation driving the plaques, the most-used therapy—though rebound on stopping and skin thinning limit long-term potent use."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Psoriasis is treated by restoring keratinocyte calcium signaling: vitamin D analogs (calcipotriol) normalize the calcium-dependent differentiation that runs amok in psoriatic skin, slowing the overgrowth—often paired with a steroid."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Psoriasis reflects failed restraint by regulatory T cells: dysfunctional Tregs let the IL-23/Th17 axis run unchecked against the skin, so the imbalance between effector and regulatory T cells underlies the chronic plaques."
 ---
 
 # Psoriasis
@@ -250,6 +259,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Oral JAK and TYK2 inhibitors now treat psoriasis: blocking JAK-family signaling downstream of IL-23 and other cytokines (e.g., deucravacitinib targeting TYK2) controls plaques without injections, extending the IL-23/IL-17-targeted revolution to pills.
 - `connects-to` → **[NASH](../nash/README.md)** — Psoriasis and fatty-liver disease travel together: shared systemic inflammation and metabolic syndrome raise the risk of MASH in psoriasis patients, part of why psoriasis is now seen as a systemic inflammatory disease, not just skin-deep.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Psoriasis plaques recur in the same spots because of cytotoxic T cells: epidermal resident-memory CD8 T cells persist after lesions clear, forming a 'disease memory' that reignites plaques at old sites—why the disease relapses where it was.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Psoriasis is first treated with cortisol's kin: topical corticosteroids calm the IL-17/Th17 inflammation driving the plaques, the most-used therapy—though rebound on stopping and skin thinning limit long-term potent use.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Psoriasis is treated by restoring keratinocyte calcium signaling: vitamin D analogs (calcipotriol) normalize the calcium-dependent differentiation that runs amok in psoriatic skin, slowing the overgrowth—often paired with a steroid.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Psoriasis reflects failed restraint by regulatory T cells: dysfunctional Tregs let the IL-23/Th17 axis run unchecked against the skin, so the imbalance between effector and regulatory T cells underlies the chronic plaques.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
