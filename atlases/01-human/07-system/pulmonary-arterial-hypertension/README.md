@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Adventitial fibroblasts complete PAH's vascular remodeling: alongside thickening endothelium and smooth muscle, activated fibroblasts in the outer arterial wall proliferate and stiffen the vessel, narrowing the lumen that raises pulmonary pressure."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Pulmonary arterial hypertension can begin with a potassium channel: KCNK3 mutations cause heritable PAH, and closing potassium channels constricts pulmonary artery smooth muscle—the same switch that drives hypoxic pulmonary vasoconstriction."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Pulmonary arterial hypertension involves in-situ platelet thrombosis: platelets clump in the narrowed small pulmonary arteries and release serotonin and thromboxane that further constrict and remodel them, adding clotting to the vascular disease."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Low oxygen drives pulmonary hypertension through HIF: hypoxia stabilizes HIF-1alpha, which reprograms pulmonary artery cells toward proliferation and constriction—why lung disease and high altitude raise pulmonary pressure."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -254,6 +263,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver disease can cause pulmonary hypertension: portal hypertension from cirrhosis leads to portopulmonary hypertension, where vasoactive substances bypassing the liver remodel the pulmonary arteries—an important PAH subtype affecting transplant eligibility.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Heritable PAH is a TGF-beta/BMP imbalance: loss of BMPR2 signaling tips the balance toward TGF-beta-driven proliferation of pulmonary vascular cells, the core lesion behind the disease and the target of activin-pathway drugs like sotatercept.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Adventitial fibroblasts complete PAH's vascular remodeling: alongside thickening endothelium and smooth muscle, activated fibroblasts in the outer arterial wall proliferate and stiffen the vessel, narrowing the lumen that raises pulmonary pressure.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Pulmonary arterial hypertension can begin with a potassium channel: KCNK3 mutations cause heritable PAH, and closing potassium channels constricts pulmonary artery smooth muscle—the same switch that drives hypoxic pulmonary vasoconstriction.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Pulmonary arterial hypertension involves in-situ platelet thrombosis: platelets clump in the narrowed small pulmonary arteries and release serotonin and thromboxane that further constrict and remodel them, adding clotting to the vascular disease.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Low oxygen drives pulmonary hypertension through HIF: hypoxia stabilizes HIF-1alpha, which reprograms pulmonary artery cells toward proliferation and constriction—why lung disease and high altitude raise pulmonary pressure.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

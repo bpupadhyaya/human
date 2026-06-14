@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Angioimmunoblastic T-cell lymphoma expands follicular dendritic cells: a hallmark is a proliferating meshwork of follicular dendritic cells and high endothelial venules around the tumor T cells, giving the node its distinctive polymorphous, vascular appearance."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Angioimmunoblastic PTCL builds a forest of new vessels via VEGF: this T-cell lymphoma drives prominent arborizing blood vessels that are a diagnostic hallmark, fed by VEGF from the tumor and its inflammatory backdrop."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "PTCL hides malignant T cells in a crowd of macrophages: especially in AITL, a polymorphous infiltrate of macrophages, eosinophils, and plasma cells can outnumber the cancer cells, making the diagnosis easy to miss."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "PTCL's systemic symptoms run on IL-6: tumor and bystander cells pour out IL-6 and other cytokines that cause the fevers, weight loss, rash, and high antibody levels typical of angioimmunoblastic lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -268,6 +277,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — T-cell lymphomas trace back to the thymus-educated T lineage: PTCLs are malignancies of mature post-thymic T cells, so unlike T-ALL they arise after thymic development—their subtype reflecting which mature T-cell type (helper, cytotoxic, NK-like) transformed.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Angioimmunoblastic PTCL springs from germinal-center helper cells: it arises from T-follicular-helper cells that normally aid B cells in germinal centers, which is why this subtype shows expanded follicular dendritic networks and reactive B-cell proliferation.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Angioimmunoblastic T-cell lymphoma expands follicular dendritic cells: a hallmark is a proliferating meshwork of follicular dendritic cells and high endothelial venules around the tumor T cells, giving the node its distinctive polymorphous, vascular appearance.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angioimmunoblastic PTCL builds a forest of new vessels via VEGF: this T-cell lymphoma drives prominent arborizing blood vessels that are a diagnostic hallmark, fed by VEGF from the tumor and its inflammatory backdrop.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — PTCL hides malignant T cells in a crowd of macrophages: especially in AITL, a polymorphous infiltrate of macrophages, eosinophils, and plasma cells can outnumber the cancer cells, making the diagnosis easy to miss.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — PTCL's systemic symptoms run on IL-6: tumor and bystander cells pour out IL-6 and other cytokines that cause the fevers, weight loss, rash, and high antibody levels typical of angioimmunoblastic lymphoma.
 
 ---
 
