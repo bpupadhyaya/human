@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Some Rothmund-Thomson patients develop bone marrow failure: RECQL4 loss can impair hematopoiesis, causing cytopenias and a leukemia predisposition—placing RTS among the inherited genome-instability syndromes that threaten the marrow as well as bone."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "The skin is the defining feature of Rothmund-Thomson: poikiloderma—mottled pigmentation, telangiectasia and atrophy—appears in infancy along with sparse hair, nail and tooth defects, so the integumentary system gives the syndrome its name and earliest sign."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Rothmund-Thomson affects the reproductive system: hypogonadism and reduced fertility accompany the syndrome, reflecting how a RECQL4 DNA-repair defect that disturbs growth and predisposes to cancer also impairs gonadal development."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "RTS spans both solid and blood cancer: besides its hallmark osteosarcoma, RECQL4-driven genome instability confers a risk of myelodysplasia and leukemia—so the syndrome predisposes across tumor types rather than to one, like other DNA-repair disorders."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -236,6 +245,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Rothmund-Thomson cells are radiosensitive from defective DNA repair: RECQL4 helicase loss impairs repair of UV and ionizing damage, so sun causes the poikiloderma rash and radiotherapy must be used cautiously—mirroring other genome-instability syndromes.
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — RTS shows how a DNA-repair defect becomes oncogenic: RECQL4 loss lets unrepaired damage accumulate and overwhelm p53-guarded checkpoints, so genomic instability drives the osteosarcoma and skin cancers that define the syndrome's cancer risk.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some Rothmund-Thomson patients develop bone marrow failure: RECQL4 loss can impair hematopoiesis, causing cytopenias and a leukemia predisposition—placing RTS among the inherited genome-instability syndromes that threaten the marrow as well as bone.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is the defining feature of Rothmund-Thomson: poikiloderma—mottled pigmentation, telangiectasia and atrophy—appears in infancy along with sparse hair, nail and tooth defects, so the integumentary system gives the syndrome its name and earliest sign.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Rothmund-Thomson affects the reproductive system: hypogonadism and reduced fertility accompany the syndrome, reflecting how a RECQL4 DNA-repair defect that disturbs growth and predisposes to cancer also impairs gonadal development.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — RTS spans both solid and blood cancer: besides its hallmark osteosarcoma, RECQL4-driven genome instability confers a risk of myelodysplasia and leukemia—so the syndrome predisposes across tumor types rather than to one, like other DNA-repair disorders.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

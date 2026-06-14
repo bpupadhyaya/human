@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Rheumatoid arthritis is a cardiovascular disease too: chronic systemic inflammation accelerates atherosclerosis, so RA patients die more of heart attacks and strokes than of joint disease—and controlling inflammation lowers that excess cardiovascular risk."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK inhibitors are a major oral therapy for rheumatoid arthritis: the cytokines that inflame the joint (IL-6, interferons, GM-CSF) signal through JAK, so tofacitinib and baricitinib match biologic efficacy in pill form when methotrexate fails."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages are central effectors in the rheumatoid joint: synovial macrophages pour out TNF and IL-1 that drive inflammation and erode cartilage and bone, and their numbers track disease activity—so TNF blockade quiets this macrophage-driven cascade."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system: immune attack on the synovium forms an invasive pannus that destroys cartilage and bone, deforming joints—so autoimmunity strikes the skeleton's moving parts."
 ---
 
 # Rheumatoid Arthritis
@@ -249,6 +258,9 @@ RA patients have:
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Osteoclasts carve the bone erosions of rheumatoid arthritis: RANKL and TNF from inflamed synovium overactivate osteoclasts at the joint margin, eroding bone and cartilage—so the joint destruction on X-ray is osteoclast-mediated, a target of anti-TNF therapy.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Rheumatoid arthritis attacks the lung as well as joints: it causes interstitial lung disease, pleuritis and nodules, and RA-ILD is a major cause of death—so chronic cough or dyspnea in RA warrants pulmonary imaging, a key extra-articular manifestation.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Rheumatoid arthritis is a cardiovascular disease too: chronic systemic inflammation accelerates atherosclerosis, so RA patients die more of heart attacks and strokes than of joint disease—and controlling inflammation lowers that excess cardiovascular risk.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are a major oral therapy for rheumatoid arthritis: the cytokines that inflame the joint (IL-6, interferons, GM-CSF) signal through JAK, so tofacitinib and baricitinib match biologic efficacy in pill form when methotrexate fails.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages are central effectors in the rheumatoid joint: synovial macrophages pour out TNF and IL-1 that drive inflammation and erode cartilage and bone, and their numbers track disease activity—so TNF blockade quiets this macrophage-driven cascade.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Rheumatoid arthritis is the archetypal autoimmune disease of the musculoskeletal system: immune attack on the synovium forms an invasive pannus that destroys cartilage and bone, deforming joints—so autoimmunity strikes the skeleton's moving parts.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
