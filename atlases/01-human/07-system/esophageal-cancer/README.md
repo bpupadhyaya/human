@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Esophageal tumors evade immunity with regulatory T cells: Tregs accumulate and suppress the cytotoxic response, dampening the anti-tumor attack that PD-1 checkpoint therapy—now standard in esophageal cancer—aims to reawaken."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Nitrogen-based nitrosamines are key esophageal carcinogens: found in preserved, pickled and smoked foods common in high-incidence regions, these DNA-damaging compounds drive squamous esophageal cancer, a dietary risk distinct from smoking and alcohol."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Chronic reflux drives esophageal cancer through NF-kB: acid and bile injury keep this inflammatory switch active in the lining, fueling the Barrett's metaplasia and survival signaling that progress toward adenocarcinoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages help esophageal cancer spread: drawn into the stroma, they secrete factors that promote invasion, angiogenesis and immune suppression, supporting a tumor already hard to treat once it grows beyond the wall."
 ---
 
 # Esophageal Cancer
@@ -273,6 +282,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Esophageal cancer often begins by losing CDKN2A (p16): inactivating this tumor suppressor is an early step as Barrett's esophagus progresses toward adenocarcinoma and in squamous tumors, releasing the cell-cycle brake before other mutations pile on.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Esophageal cancer recruits cancer-associated fibroblasts: they build the dense desmoplastic stroma around the tumor and secrete factors that promote invasion and resistance, making the fibroblast-rich microenvironment a driver of aggressive behavior.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Esophageal tumors evade immunity with regulatory T cells: Tregs accumulate and suppress the cytotoxic response, dampening the anti-tumor attack that PD-1 checkpoint therapy—now standard in esophageal cancer—aims to reawaken.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Nitrogen-based nitrosamines are key esophageal carcinogens: found in preserved, pickled and smoked foods common in high-incidence regions, these DNA-damaging compounds drive squamous esophageal cancer, a dietary risk distinct from smoking and alcohol.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic reflux drives esophageal cancer through NF-kB: acid and bile injury keep this inflammatory switch active in the lining, fueling the Barrett's metaplasia and survival signaling that progress toward adenocarcinoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages help esophageal cancer spread: drawn into the stroma, they secrete factors that promote invasion, angiogenesis and immune suppression, supporting a tumor already hard to treat once it grows beyond the wall.
 
 ---
 

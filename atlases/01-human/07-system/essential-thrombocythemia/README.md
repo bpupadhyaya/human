@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Platelets in essential thrombocythemia clot through calcium: calcium signaling triggers platelet activation and aggregation, so the vast excess of platelets, primed to release and respond to calcium, tips patients toward the thromboses that menace them."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Platelet-rich blood in essential thrombocythemia can fake high potassium: the enormous platelet mass leaks potassium after the sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Essential thrombocythemia strikes the brain's small vessels: excess platelets cause headaches, visual disturbance, TIAs and burning red extremities (erythromelalgia), microvascular symptoms that low-dose aspirin often relieves."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 marks the line between reactive and clonal thrombocytosis: this cytokine drives platelet production in inflammation, so a high count from infection or cancer must be told apart from the clonal overproduction that defines essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -253,6 +262,9 @@ Management:
 - `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Essential thrombocythemia hijacks thrombopoietin signaling: TPO normally tells the marrow how many platelets to make through the MPL receptor, but ET's JAK2, CALR, and MPL mutations switch that pathway on permanently, churning out platelets without the hormone's command.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — All of ET's driver mutations converge on STAT: JAK2, CALR, and MPL defects all end up activating STAT transcription factors, the shared switch that turns on the genes driving runaway platelet production—why JAK-STAT inhibitors are used in the disease.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Platelets in essential thrombocythemia clot through calcium: calcium signaling triggers platelet activation and aggregation, so the vast excess of platelets, primed to release and respond to calcium, tips patients toward the thromboses that menace them.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Platelet-rich blood in essential thrombocythemia can fake high potassium: the enormous platelet mass leaks potassium after the sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Essential thrombocythemia strikes the brain's small vessels: excess platelets cause headaches, visual disturbance, TIAs and burning red extremities (erythromelalgia), microvascular symptoms that low-dose aspirin often relieves.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 marks the line between reactive and clonal thrombocytosis: this cytokine drives platelet production in inflammation, so a high count from infection or cancer must be told apart from the clonal overproduction that defines essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
