@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/cannabis-use-disorder
     relation: connects-to
     note: "Social anxiety disorder and cannabis use disorder are tightly linked: people use cannabis to ease social fear, but heavy use and withdrawal can heighten anxiety and paranoia, so this common self-medication readily slides into dependence."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Social anxiety's physical symptoms are an adrenaline surge: epinephrine drives the racing heart, blushing, sweating, and trembling of feared social moments, which is why beta-blockers like propranolol that blunt adrenaline help with performance anxiety."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF links social anxiety to brain plasticity: this neurotrophin shapes the fear circuits that learn and unlearn social threat, and SSRIs that raise BDNF slowly remodel them—part of why exposure therapy and medication take weeks to rewire avoidance."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus stores social anxiety's fear context: by encoding where and with whom bad social experiences happened, it helps generalize fear to new situations, so this memory hub feeds the anticipatory dread central to the disorder."
 ---
 
 # Social Anxiety Disorder
@@ -245,6 +254,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Serotonin Transporter](../../03-molecular/serotonin-transporter/README.md)** — The serotonin transporter is social anxiety disorder's key drug target: SSRIs blocking it are first-line treatment, and transporter-gene variation is linked to anxious temperament—connecting the disorder's heritable shyness to serotonergic signaling.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Social anxiety disorder reflects an overactive fear network in the nervous system: a hyperreactive amygdala and weak prefrontal regulation exaggerate threat from social scrutiny, so it is a circuit-level disorder treated by retraining those responses.
 - `connects-to` → **[Cannabis Use Disorder](../cannabis-use-disorder/README.md)** — Social anxiety disorder and cannabis use disorder are tightly linked: people use cannabis to ease social fear, but heavy use and withdrawal can heighten anxiety and paranoia, so this common self-medication readily slides into dependence.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Social anxiety's physical symptoms are an adrenaline surge: epinephrine drives the racing heart, blushing, sweating, and trembling of feared social moments, which is why beta-blockers like propranolol that blunt adrenaline help with performance anxiety.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF links social anxiety to brain plasticity: this neurotrophin shapes the fear circuits that learn and unlearn social threat, and SSRIs that raise BDNF slowly remodel them—part of why exposure therapy and medication take weeks to rewire avoidance.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus stores social anxiety's fear context: by encoding where and with whom bad social experiences happened, it helps generalize fear to new situations, so this memory hub feeds the anticipatory dread central to the disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

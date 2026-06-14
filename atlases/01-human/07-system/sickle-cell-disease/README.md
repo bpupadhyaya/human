@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Sickle cell disease causes functional asplenia and immune vulnerability: repeated splenic infarction destroys the organ early in childhood, so patients are dangerously prone to encapsulated-bacterial sepsis—why prophylactic penicillin and vaccination are lifesaving."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is sickle cell disease's deadliest battleground: acute chest syndrome—sickling and infection in the pulmonary vessels—causes fever, chest pain, and hypoxia and is a leading cause of death, so it is treated urgently with transfusion and antibiotics."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Sickle cell disease attacks the musculoskeletal system: vaso-occlusion infarcts bone, causing painful crises, dactylitis in infants, and avascular necrosis of the hip, so the skeleton bears much of the chronic damage and disability of the disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Sickle cell disease threatens sight: sickling in the tiny retinal vessels causes ischemia and proliferative sickle retinopathy with fragile new vessels that bleed or detach the retina—so regular eye screening protects vision in older patients."
 ---
 
 # Sickle Cell Disease
@@ -274,6 +283,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Sickle cell disease is a disease of the endothelium as much as the red cell: sickled cells and free hemoglobin scavenge nitric oxide and inflame the vessel lining, so endothelial activation and adhesion trigger the painful vaso-occlusive crises.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Sickle cell disease drives the bone marrow into overdrive: chronic hemolysis spurs erythroid hyperplasia that expands marrow and can cause aplastic crises when parvovirus halts it—and replacing the marrow by transplant or gene therapy can cure the disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Sickle cell disease causes functional asplenia and immune vulnerability: repeated splenic infarction destroys the organ early in childhood, so patients are dangerously prone to encapsulated-bacterial sepsis—why prophylactic penicillin and vaccination are lifesaving.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is sickle cell disease's deadliest battleground: acute chest syndrome—sickling and infection in the pulmonary vessels—causes fever, chest pain, and hypoxia and is a leading cause of death, so it is treated urgently with transfusion and antibiotics.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Sickle cell disease attacks the musculoskeletal system: vaso-occlusion infarcts bone, causing painful crises, dactylitis in infants, and avascular necrosis of the hip, so the skeleton bears much of the chronic damage and disability of the disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sickle cell disease threatens sight: sickling in the tiny retinal vessels causes ischemia and proliferative sickle retinopathy with fragile new vessels that bleed or detach the retina—so regular eye screening protects vision in older patients.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
