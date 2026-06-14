@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Psoriasis reflects failed restraint by regulatory T cells: dysfunctional Tregs let the IL-23/Th17 axis run unchecked against the skin, so the imbalance between effector and regulatory T cells underlies the chronic plaques."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Psoriasis travels with fatty liver: its systemic inflammation and shared metabolic syndrome make non-alcoholic fatty liver disease common, and the methotrexate used to treat psoriasis can itself scar the liver, so liver health must be watched."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Psoriatic plaques are richly vascular: VEGF drives dermal endothelial cells to build dilated, leaky capillaries near the surface, which is why scraping a plaque produces pinpoint bleeding (the Auspitz sign)."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Salt may inflame psoriasis: high sodium accumulates in skin and pushes naive T cells toward the IL-17-producing Th17 lineage that drives psoriatic plaques, a dietary link between salt and the disease's core immune axis."
 ---
 
 # Psoriasis
@@ -262,6 +271,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Psoriasis is first treated with cortisol's kin: topical corticosteroids calm the IL-17/Th17 inflammation driving the plaques, the most-used therapy—though rebound on stopping and skin thinning limit long-term potent use.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Psoriasis is treated by restoring keratinocyte calcium signaling: vitamin D analogs (calcipotriol) normalize the calcium-dependent differentiation that runs amok in psoriatic skin, slowing the overgrowth—often paired with a steroid.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Psoriasis reflects failed restraint by regulatory T cells: dysfunctional Tregs let the IL-23/Th17 axis run unchecked against the skin, so the imbalance between effector and regulatory T cells underlies the chronic plaques.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Psoriasis travels with fatty liver: its systemic inflammation and shared metabolic syndrome make non-alcoholic fatty liver disease common, and the methotrexate used to treat psoriasis can itself scar the liver, so liver health must be watched.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Psoriatic plaques are richly vascular: VEGF drives dermal endothelial cells to build dilated, leaky capillaries near the surface, which is why scraping a plaque produces pinpoint bleeding (the Auspitz sign).
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Salt may inflame psoriasis: high sodium accumulates in skin and pushes naive T cells toward the IL-17-producing Th17 lineage that drives psoriatic plaques, a dietary link between salt and the disease's core immune axis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

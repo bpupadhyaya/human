@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Prostate cancer is supported by tumor-associated macrophages: they promote its growth, angiogenesis, and especially its spread to bone, where they help build the niche for the osteoblastic metastases that define advanced disease."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "The prostate is the body's zinc capital, and cancer abandons it: healthy prostate cells hoard zinc to block citrate breakdown, but malignant cells lose this zinc accumulation to fuel their metabolism—a metabolic switch unique to prostate cancer."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Advanced prostate cancer can shut down the kidneys: the enlarging tumor or its pelvic lymph nodes compress the ureters and bladder outlet, backing urine up into the kidneys (hydronephrosis) and causing post-renal failure."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Prostate cancer recruits fibroblasts as accomplices: cancer-associated fibroblasts form the reactive stroma around tumor glands, secreting growth and remodeling signals that spur invasion—and the amount of reactive stroma predicts outcome."
 ---
 
 # Prostate Cancer
@@ -274,6 +283,9 @@ cross_links:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Prostate cancer leans on the PTEN-AKT pathway: PTEN loss is one of its commonest events, switching on AKT survival signaling that cooperates with the androgen receptor—so AKT inhibitors are combined with hormone therapy in PTEN-deficient disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Prostate cancer is an immunologically cold tumor full of regulatory T cells: a Treg-rich, suppressive microenvironment is why checkpoint immunotherapy mostly fails here, leaving the dendritic-cell vaccine sipuleucel-T as the main immune option.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Prostate cancer is supported by tumor-associated macrophages: they promote its growth, angiogenesis, and especially its spread to bone, where they help build the niche for the osteoblastic metastases that define advanced disease.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — The prostate is the body's zinc capital, and cancer abandons it: healthy prostate cells hoard zinc to block citrate breakdown, but malignant cells lose this zinc accumulation to fuel their metabolism—a metabolic switch unique to prostate cancer.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Advanced prostate cancer can shut down the kidneys: the enlarging tumor or its pelvic lymph nodes compress the ureters and bladder outlet, backing urine up into the kidneys (hydronephrosis) and causing post-renal failure.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Prostate cancer recruits fibroblasts as accomplices: cancer-associated fibroblasts form the reactive stroma around tumor glands, secreting growth and remodeling signals that spur invasion—and the amount of reactive stroma predicts outcome.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
