@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "ANCA vasculitis is a classic pulmonary-renal syndrome: it inflames the airways and alveolar capillaries, causing sinusitis, lung nodules and life-threatening alveolar hemorrhage alongside the kidney disease—so respiratory and renal involvement often present together."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "ANCA vasculitis often inflames the eye: granulomatosis with polyangiitis causes scleritis, episcleritis, and orbital masses that can threaten vision, so red, painful eyes can be an early clue—part of its classic ear-nose-eye-lung-kidney pattern."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "ANCA vasculitis damages peripheral nerves as mononeuritis multiplex: inflammation of the small vessels feeding nerves causes patchy, asymmetric foot- or wrist-drop, a hallmark vasculitic neuropathy that signals active, organ-threatening disease."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Eosinophilic GPA (Churg-Strauss), an ANCA-associated vasculitis, is IL-5-driven: this cytokine expands the eosinophils that infiltrate lungs, nerves, and heart, so the anti-IL-5 antibody mepolizumab is an approved targeted treatment for it."
 ---
 
 # ANCA Vasculitis
@@ -259,6 +268,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — ANCA vasculitis attacks the glomerulus ferociously: ANCA-activated neutrophils damage glomerular capillaries, producing the pauci-immune crescentic glomerulonephritis that causes rapidly progressive kidney failure—a medical emergency needing urgent immunosuppression.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — ANCA vasculitis often strikes peripheral nerves: inflammation of the small vessels feeding nerves causes ischemic mononeuritis multiplex—sudden foot- or wrist-drop—so a vasculitic neuropathy can be an early, diagnostic clue to systemic ANCA disease.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — ANCA vasculitis is a classic pulmonary-renal syndrome: it inflames the airways and alveolar capillaries, causing sinusitis, lung nodules and life-threatening alveolar hemorrhage alongside the kidney disease—so respiratory and renal involvement often present together.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ANCA vasculitis often inflames the eye: granulomatosis with polyangiitis causes scleritis, episcleritis, and orbital masses that can threaten vision, so red, painful eyes can be an early clue—part of its classic ear-nose-eye-lung-kidney pattern.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — ANCA vasculitis damages peripheral nerves as mononeuritis multiplex: inflammation of the small vessels feeding nerves causes patchy, asymmetric foot- or wrist-drop, a hallmark vasculitic neuropathy that signals active, organ-threatening disease.
+- `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — Eosinophilic GPA (Churg-Strauss), an ANCA-associated vasculitis, is IL-5-driven: this cytokine expands the eosinophils that infiltrate lungs, nerves, and heart, so the anti-IL-5 antibody mepolizumab is an approved targeted treatment for it.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

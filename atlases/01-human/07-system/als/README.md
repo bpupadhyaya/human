@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Neuroinflammation drives ALS progression: activated microglia and astrocytes plus infiltrating immune cells turn from protective to toxic around dying motor neurons, so the immune system shapes how fast the disease advances—a target for emerging therapies."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "ALS is increasingly seen as a disease of failed protein clearance: motor neurons can't autophagy-degrade misfolded TDP-43 and SOD1, so toxic aggregates accumulate—linking many ALS genes (and the overlap with frontotemporal dementia) to a common disposal defect."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ALS's SOD1 enzyme is a copper-zinc protein, and zinc is structural to it: mutations that disturb metal binding destabilize SOD1 into toxic aggregates, so the zinc (and copper) chemistry of this antioxidant enzyme sits at the heart of inherited ALS."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome is an emerging factor in ALS: altered gut flora and their metabolites may influence neuroinflammation and disease progression along the gut-brain axis, so the microbiome is being explored as a modifier of this relentless motor-neuron disease."
 ---
 
 # ALS
@@ -263,6 +272,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper links the first ALS gene to oxidative stress: SOD1 is a copper-zinc superoxide dismutase, and many familial ALS mutations make the misfolded enzyme mishandle copper and generate toxic free radicals—so metal-dependent oxidative injury helps kill motor neurons.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — ALS is a relentless disease of the motor nervous system: it kills both upper motor neurons in the cortex and lower motor neurons in the brainstem and cord, so spasticity and wasting advance together until respiratory muscles fail.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Neuroinflammation drives ALS progression: activated microglia and astrocytes plus infiltrating immune cells turn from protective to toxic around dying motor neurons, so the immune system shapes how fast the disease advances—a target for emerging therapies.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — ALS is increasingly seen as a disease of failed protein clearance: motor neurons can't autophagy-degrade misfolded TDP-43 and SOD1, so toxic aggregates accumulate—linking many ALS genes (and the overlap with frontotemporal dementia) to a common disposal defect.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ALS's SOD1 enzyme is a copper-zinc protein, and zinc is structural to it: mutations that disturb metal binding destabilize SOD1 into toxic aggregates, so the zinc (and copper) chemistry of this antioxidant enzyme sits at the heart of inherited ALS.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome is an emerging factor in ALS: altered gut flora and their metabolites may influence neuroinflammation and disease progression along the gut-brain axis, so the microbiome is being explored as a modifier of this relentless motor-neuron disease.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
