@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "West Nile first multiplies in lymphoid tissue like the spleen: after a mosquito bite the virus replicates in skin and is carried to spleen and lymph nodes, seeding the blood—so this peripheral phase precedes and sets up any later invasion of the nervous system."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "West Nile virus can persist in the kidney: the virus has been detected in urine months after infection and is linked to chronic kidney involvement, so the kidney is both a site of viral persistence and a route of possible shedding."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement is essential to surviving West Nile virus: C3 and the complement cascade are needed to control early viremia and prime antibody and T-cell responses, so complement-deficient hosts suffer far more severe neuroinvasive disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T-helper cells coordinate the defense against West Nile virus: CD4 cells sustain the antibody response and support the cytotoxic T cells that clear virus from neurons, so weak helper immunity (as with age or HIV) predicts severe neuroinvasive disease."
 ---
 
 # West Nile Virus
@@ -238,3 +247,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells and their antibodies decide West Nile outcomes: a brisk IgM response curbs viremia before the virus invades the brain, and detecting WNV IgM in serum or spinal fluid is the main way it is diagnosed—so weak antibody responses predict severe neuroinvasive disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Immune status governs who gets neuroinvasive West Nile: most infections are mild, but the elderly and immunosuppressed—whose defenses let the virus cross into the brain—account for the rare meningitis, encephalitis, and paralysis that make WNV feared.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — West Nile first multiplies in lymphoid tissue like the spleen: after a mosquito bite the virus replicates in skin and is carried to spleen and lymph nodes, seeding the blood—so this peripheral phase precedes and sets up any later invasion of the nervous system.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — West Nile virus can persist in the kidney: the virus has been detected in urine months after infection and is linked to chronic kidney involvement, so the kidney is both a site of viral persistence and a route of possible shedding.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement is essential to surviving West Nile virus: C3 and the complement cascade are needed to control early viremia and prime antibody and T-cell responses, so complement-deficient hosts suffer far more severe neuroinvasive disease.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells coordinate the defense against West Nile virus: CD4 cells sustain the antibody response and support the cytotoxic T cells that clear virus from neurons, so weak helper immunity (as with age or HIV) predicts severe neuroinvasive disease.

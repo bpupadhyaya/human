@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "aHUS is not confined to the kidney—it can strike the brain: complement-mediated microthrombi in cerebral vessels cause seizures, confusion, and stroke, so neurological signs in a thrombotic microangiopathy mark severe, extrarenal aHUS needing urgent complement blockade."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "aHUS is driven by runaway complement reaching C5a: uncontrolled activation cleaves C5 to C5a, which through its receptor C5aR1 inflames and injures endothelium—why C5-blocking eculizumab transformed this once-lethal disease."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "aHUS is a thrombotic microangiopathy fueled by thrombin: complement-injured endothelium becomes prothrombotic, generating thrombin and platelet-fibrin microthrombi that shred red cells and clog the kidney's small vessels."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Complement's C5a recruits neutrophils that worsen aHUS: drawn to the activated endothelium, neutrophils release enzymes and oxidants that amplify the microvascular injury, linking the complement defect to the destructive inflammation in the kidney."
 ---
 
 # Atypical HUS
@@ -289,6 +298,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy can trigger atypical HUS: the complement stress of pregnancy and especially the postpartum period unmasks aHUS in women with regulatory mutations, so a thrombotic microangiopathy around delivery must be distinguished from pre-eclampsia and HELLP.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Severe hypertension and aHUS form a vicious circle: complement-driven microvascular injury in the kidney drives malignant hypertension, and the high pressure further shears endothelium—so accelerated hypertension can both trigger and result from the microangiopathy.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — aHUS is not confined to the kidney—it can strike the brain: complement-mediated microthrombi in cerebral vessels cause seizures, confusion, and stroke, so neurological signs in a thrombotic microangiopathy mark severe, extrarenal aHUS needing urgent complement blockade.
+- `connects-to` → **[C5aR1](../../03-molecular/c5ar1/README.md)** — aHUS is driven by runaway complement reaching C5a: uncontrolled activation cleaves C5 to C5a, which through its receptor C5aR1 inflames and injures endothelium—why C5-blocking eculizumab transformed this once-lethal disease.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — aHUS is a thrombotic microangiopathy fueled by thrombin: complement-injured endothelium becomes prothrombotic, generating thrombin and platelet-fibrin microthrombi that shred red cells and clog the kidney's small vessels.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Complement's C5a recruits neutrophils that worsen aHUS: drawn to the activated endothelium, neutrophils release enzymes and oxidants that amplify the microvascular injury, linking the complement defect to the destructive inflammation in the kidney.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
