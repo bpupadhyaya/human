@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Advanced diabetic retinopathy ends in fibrosis: fragile new vessels grow with fibrous tissue across the retina, and when these fibrovascular membranes contract they pull the retina off—tractional retinal detachment, a major cause of blindness in the disease."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Pericyte loss is the earliest lesion of diabetic retinopathy, and PDGF maintains pericytes: hyperglycemia disrupts PDGF-B signaling that normally keeps pericytes wrapping retinal capillaries, so they drop off, weakening vessels into microaneurysms and leaks."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement activation contributes to diabetic retinopathy: C3 and downstream complement deposit in retinal vessels, adding inflammatory injury to the high-glucose damage—an emerging arm of disease beyond the classic VEGF-driven angiogenesis."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Diabetic retinopathy is a neurovascular disease, not just vascular: retinal astrocytes and Müller glia that support neurons and the blood-retinal barrier dysfunction early, so neural and glial injury precede the visible vessel changes."
 ---
 
 # Diabetic Retinopathy
@@ -233,6 +242,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets help close off the diabetic retina: hyperglycemia makes them stickier, so microthrombi plug retinal capillaries and create the non-perfused, ischemic patches that drive VEGF release—turning a clotting tendency into the engine of new vessel growth.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Diabetic retinopathy is partly neuroinflammatory: retinal microglia activate early, releasing cytokines that damage neurons and vessels before classic lesions appear—so the disease begins as inflammation and neurodegeneration, not just leaky blood vessels.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Advanced diabetic retinopathy ends in fibrosis: fragile new vessels grow with fibrous tissue across the retina, and when these fibrovascular membranes contract they pull the retina off—tractional retinal detachment, a major cause of blindness in the disease.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Pericyte loss is the earliest lesion of diabetic retinopathy, and PDGF maintains pericytes: hyperglycemia disrupts PDGF-B signaling that normally keeps pericytes wrapping retinal capillaries, so they drop off, weakening vessels into microaneurysms and leaks.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation contributes to diabetic retinopathy: C3 and downstream complement deposit in retinal vessels, adding inflammatory injury to the high-glucose damage—an emerging arm of disease beyond the classic VEGF-driven angiogenesis.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Diabetic retinopathy is a neurovascular disease, not just vascular: retinal astrocytes and Müller glia that support neurons and the blood-retinal barrier dysfunction early, so neural and glial injury precede the visible vessel changes.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Fibromyalgia is not purely central: about half of patients have small-fiber neuropathy, with reduced nerve-fiber density in skin biopsies—so damaged peripheral nerves may feed the amplified pain, blurring the line between central and peripheral pain disorders."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Hypothyroidism mimics and worsens fibromyalgia: low thyroid hormone causes the same fatigue, aches and cognitive fog, so checking the thyroid is essential before settling on a fibromyalgia diagnosis—and treating it can relieve overlapping symptoms."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D deficiency is common in fibromyalgia and may amplify pain: low levels are linked to more widespread musculoskeletal pain, and repletion is a simple, often-checked step that can modestly ease symptoms in deficient patients."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Fibromyalgia's lead drugs act on calcium channels: pregabalin and gabapentin bind the alpha-2-delta subunit of voltage-gated calcium channels in overactive pain neurons, dampening neurotransmitter release—calming the central sensitization that drives the pain."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -258,6 +267,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Fibromyalgia may be sustained by activated microglia: these immune cells of the cord and brain release pain-amplifying cytokines, supporting the idea that central sensitization—a volume knob turned up on pain—has a neuroinflammatory basis.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Fibromyalgia shows weakened pain braking: reduced GABA, the main inhibitory transmitter, leaves descending pain control too weak to dampen signals—part of why gabapentinoids like pregabalin, which boost inhibitory tone, are among its few effective drugs.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Fibromyalgia is not purely central: about half of patients have small-fiber neuropathy, with reduced nerve-fiber density in skin biopsies—so damaged peripheral nerves may feed the amplified pain, blurring the line between central and peripheral pain disorders.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Hypothyroidism mimics and worsens fibromyalgia: low thyroid hormone causes the same fatigue, aches and cognitive fog, so checking the thyroid is essential before settling on a fibromyalgia diagnosis—and treating it can relieve overlapping symptoms.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency is common in fibromyalgia and may amplify pain: low levels are linked to more widespread musculoskeletal pain, and repletion is a simple, often-checked step that can modestly ease symptoms in deficient patients.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Fibromyalgia's lead drugs act on calcium channels: pregabalin and gabapentin bind the alpha-2-delta subunit of voltage-gated calcium channels in overactive pain neurons, dampening neurotransmitter release—calming the central sensitization that drives the pain.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
