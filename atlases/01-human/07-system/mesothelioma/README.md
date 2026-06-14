@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Mesothelioma defends itself with regulatory T cells: Tregs fill its immunosuppressive microenvironment and blunt anti-tumor immunity, which is why dual checkpoint blockade (nivolumab plus ipilimumab) is now frontline for the disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Mesothelioma can arise on the heart's lining: though most form on the pleura, the same asbestos-driven malignancy strikes the pericardium, where it encases the heart and impairs its filling—a rare but devastating site."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Mesothelioma hides in a hypoxic, fibrous tumor via HIF-1alpha: its dense desmoplastic stroma outstrips its oxygen supply, and the resulting HIF signaling drives survival and angiogenesis, part of why it resists chemotherapy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are enlisted to fight mesothelioma: because the tumor is poorly immunogenic, dendritic-cell vaccines and other antigen-presenting strategies aim to prime T-cell attack alongside the checkpoint drugs now used frontline."
 ---
 
 # Mesothelioma
@@ -254,6 +263,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Mesothelioma is fundamentally a Hippo-pathway cancer acting through YAP1: NF2 and LATS losses release YAP1 to switch on growth genes, so this transcription co-activator is a central driver and a sought-after drug target in the disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mesothelioma's cause is a magnesium-silicate mineral: asbestos fibers like chrysotile are magnesium silicates whose durable, needle-like shape lodges in the pleura and provokes the decades-long inflammation that seeds the cancer.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Mesothelioma defends itself with regulatory T cells: Tregs fill its immunosuppressive microenvironment and blunt anti-tumor immunity, which is why dual checkpoint blockade (nivolumab plus ipilimumab) is now frontline for the disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Mesothelioma can arise on the heart's lining: though most form on the pleura, the same asbestos-driven malignancy strikes the pericardium, where it encases the heart and impairs its filling—a rare but devastating site.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Mesothelioma hides in a hypoxic, fibrous tumor via HIF-1alpha: its dense desmoplastic stroma outstrips its oxygen supply, and the resulting HIF signaling drives survival and angiogenesis, part of why it resists chemotherapy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are enlisted to fight mesothelioma: because the tumor is poorly immunogenic, dendritic-cell vaccines and other antigen-presenting strategies aim to prime T-cell attack alongside the checkpoint drugs now used frontline.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

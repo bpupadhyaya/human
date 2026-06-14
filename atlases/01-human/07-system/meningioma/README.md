@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Meningiomas are infiltrated mainly by macrophages: these tumor-associated immune cells are the dominant inflammatory population in the tumor and may support its growth, making the meningioma's immune niche a target of interest."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Meningiomas lay down calcium as psammoma bodies: these concentric calcified whorls are a histologic hallmark and make many meningiomas visibly calcified on imaging, a clue that helps distinguish them from other brain tumors."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Some meningiomas are driven by AKT mutations: recurrent AKT1 changes switch on the PI3K-AKT-mTOR growth pathway in non-NF2 tumors, defining a molecular subgroup that AKT and mTOR inhibitors are being tested against."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Meningiomas largely evade cytotoxic T cells: beyond their dominant macrophages, they keep a T-cell-poor, immunosuppressive microenvironment, which is part of why checkpoint immunotherapy has had limited success in the tumor."
 ---
 
 # Meningioma
@@ -252,6 +261,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[SMO](../../03-molecular/smo/README.md)** — A subset of meningiomas is driven by Hedgehog through SMO: skull-base tumors often carry SMO mutations rather than NF2 loss, defining a molecular subgroup that—like basal cell carcinoma—might respond to smoothened inhibitors.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — CDKN2A deletion marks the most dangerous meningiomas: losing this tumor-suppressor now defines WHO grade 3 regardless of how the cells look, so molecular testing for CDKN2A reclassifies aggressive tumors that histology alone would underestimate.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Meningiomas are infiltrated mainly by macrophages: these tumor-associated immune cells are the dominant inflammatory population in the tumor and may support its growth, making the meningioma's immune niche a target of interest.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Meningiomas lay down calcium as psammoma bodies: these concentric calcified whorls are a histologic hallmark and make many meningiomas visibly calcified on imaging, a clue that helps distinguish them from other brain tumors.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Some meningiomas are driven by AKT mutations: recurrent AKT1 changes switch on the PI3K-AKT-mTOR growth pathway in non-NF2 tumors, defining a molecular subgroup that AKT and mTOR inhibitors are being tested against.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Meningiomas largely evade cytotoxic T cells: beyond their dominant macrophages, they keep a T-cell-poor, immunosuppressive microenvironment, which is part of why checkpoint immunotherapy has had limited success in the tumor.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
