@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Diabetic retinopathy and nephropathy are paired microvascular complications: the same chronic hyperglycemia that damages retinal capillaries injures the glomerulus, so retinopathy often signals coexisting kidney disease—a shared small-vessel toll of diabetes."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets help close off the diabetic retina: hyperglycemia makes them stickier, so microthrombi plug retinal capillaries and create the non-perfused, ischemic patches that drive VEGF release—turning a clotting tendency into the engine of new vessel growth."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Diabetic retinopathy is partly neuroinflammatory: retinal microglia activate early, releasing cytokines that damage neurons and vessels before classic lesions appear—so the disease begins as inflammation and neurodegeneration, not just leaky blood vessels."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Advanced diabetic retinopathy ends in fibrosis: fragile new vessels grow with fibrous tissue across the retina, and when these fibrovascular membranes contract they pull the retina off—tractional retinal detachment, a major cause of blindness in the disease."
 ---
 
 # Diabetic Retinopathy
@@ -221,6 +230,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Retinal ischemia drives proliferative diabetic retinopathy: capillary damage starves the retina of oxygen, so the hypoxic tissue pours out VEGF that grows fragile new vessels which bleed and detach the retina—why anti-VEGF injections and laser are the mainstay.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Glycemic control is the key lever against diabetic retinopathy: chronic high glucose damages retinal microvessels, so insulin and other glucose-lowering therapy slow progression—though rapid correction can transiently worsen it, demanding careful monitoring.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Diabetic retinopathy and nephropathy are paired microvascular complications: the same chronic hyperglycemia that damages retinal capillaries injures the glomerulus, so retinopathy often signals coexisting kidney disease—a shared small-vessel toll of diabetes.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets help close off the diabetic retina: hyperglycemia makes them stickier, so microthrombi plug retinal capillaries and create the non-perfused, ischemic patches that drive VEGF release—turning a clotting tendency into the engine of new vessel growth.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Diabetic retinopathy is partly neuroinflammatory: retinal microglia activate early, releasing cytokines that damage neurons and vessels before classic lesions appear—so the disease begins as inflammation and neurodegeneration, not just leaky blood vessels.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Advanced diabetic retinopathy ends in fibrosis: fragile new vessels grow with fibrous tissue across the retina, and when these fibrovascular membranes contract they pull the retina off—tractional retinal detachment, a major cause of blindness in the disease.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

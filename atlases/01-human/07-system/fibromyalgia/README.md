@@ -69,6 +69,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "HPA-axis and cortisol dysregulation feature in fibromyalgia: blunted stress-hormone responses accompany the disorder, linking chronic stress and poor sleep to amplified pain—so fibromyalgia sits at the interface of the stress system and pain processing."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Fibromyalgia may be sustained by activated microglia: these immune cells of the cord and brain release pain-amplifying cytokines, supporting the idea that central sensitization—a volume knob turned up on pain—has a neuroinflammatory basis."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Fibromyalgia shows weakened pain braking: reduced GABA, the main inhibitory transmitter, leaves descending pain control too weak to dampen signals—part of why gabapentinoids like pregabalin, which boost inhibitory tone, are among its few effective drugs."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Fibromyalgia is not purely central: about half of patients have small-fiber neuropathy, with reduced nerve-fiber density in skin biopsies—so damaged peripheral nerves may feed the amplified pain, blurring the line between central and peripheral pain disorders."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -246,6 +255,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Nonrestorative sleep is core to fibromyalgia, not incidental: disrupted deep sleep lowers pain thresholds and worsens fatigue and cognition, and the disorder and insomnia reinforce each other—so sleep-targeted treatment is central to managing fibromyalgia.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Fibromyalgia is a disorder of pain-processing neurons (central sensitization): amplified spinal and brain pain signaling makes normal stimuli hurt, so it is a problem of how the nervous system processes pain, not tissue damage—explaining why analgesics often fail.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — HPA-axis and cortisol dysregulation feature in fibromyalgia: blunted stress-hormone responses accompany the disorder, linking chronic stress and poor sleep to amplified pain—so fibromyalgia sits at the interface of the stress system and pain processing.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Fibromyalgia may be sustained by activated microglia: these immune cells of the cord and brain release pain-amplifying cytokines, supporting the idea that central sensitization—a volume knob turned up on pain—has a neuroinflammatory basis.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Fibromyalgia shows weakened pain braking: reduced GABA, the main inhibitory transmitter, leaves descending pain control too weak to dampen signals—part of why gabapentinoids like pregabalin, which boost inhibitory tone, are among its few effective drugs.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Fibromyalgia is not purely central: about half of patients have small-fiber neuropathy, with reduced nerve-fiber density in skin biopsies—so damaged peripheral nerves may feed the amplified pain, blurring the line between central and peripheral pain disorders.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
