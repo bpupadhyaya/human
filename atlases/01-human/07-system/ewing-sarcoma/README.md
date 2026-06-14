@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Ewing sarcoma blurs into the nervous system as a small-round-blue-cell tumor: it shares neuroectodermal features with primitive neuroectodermal tumors (the Ewing family) and can arise in or compress nerves and spine—so neurological deficits can be a presenting sign."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Ewing sarcoma is an immunologically 'cold' tumor: its single EWS-FLI1 fusion creates few neoantigens and little immune infiltrate, so checkpoint inhibitors largely fail—driving research into vaccines and engineered cells to make the immune system see it."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Ewing sarcoma was once called diffuse endothelioma for its vascularity: the tumor is richly perfused and can form vessel-like channels, so its blood supply and VEGF-driven angiogenesis are features that anti-angiogenic strategies aim to exploit."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Ewing sarcoma can spread to the brain: although it favors lung and bone, late metastasis to the central nervous system occurs, so new neurological symptoms in advanced disease prompt brain imaging and change the treatment plan."
 ---
 
 # Ewing Sarcoma
@@ -234,6 +243,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy benefits Ewing sarcoma, often in children: the tumor frequently sits in the pelvis or spine near growing tissue and organs, so protons' sharp dose falloff delivers curative radiation while limiting growth disturbance and second cancers in young patients.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IGF-1 signaling helps drive Ewing sarcoma: the EWS-FLI1 fusion sensitizes tumor cells to IGF-1R, and although IGF-1R inhibitors gave only transient responses in trials, the pathway remains a key therapeutic target in this aggressive bone tumor.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Ewing sarcoma blurs into the nervous system as a small-round-blue-cell tumor: it shares neuroectodermal features with primitive neuroectodermal tumors (the Ewing family) and can arise in or compress nerves and spine—so neurological deficits can be a presenting sign.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Ewing sarcoma is an immunologically 'cold' tumor: its single EWS-FLI1 fusion creates few neoantigens and little immune infiltrate, so checkpoint inhibitors largely fail—driving research into vaccines and engineered cells to make the immune system see it.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Ewing sarcoma was once called diffuse endothelioma for its vascularity: the tumor is richly perfused and can form vessel-like channels, so its blood supply and VEGF-driven angiogenesis are features that anti-angiogenic strategies aim to exploit.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Ewing sarcoma can spread to the brain: although it favors lung and bone, late metastasis to the central nervous system occurs, so new neurological symptoms in advanced disease prompt brain imaging and change the treatment plan.
 
 ---
 
