@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Malaria-driven Treg expansion fuels endemic Burkitt: chronic falciparum infection ramps up regulatory T cells that suppress immunity, loosening control of EBV-infected B cells and helping the MYC-translocated tumor emerge in African children."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Burkitt is the textbook tumor-lysis cancer: its blistering growth means chemotherapy bursts huge numbers of cells at once, dumping potassium into the blood, so dangerous hyperkalemia and arrhythmia must be anticipated and prevented from the first dose."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Burkitt lymphoma readily seeds the brain: it has a strong tendency to spread to the central nervous system and meninges, so treatment includes CNS-directed chemotherapy and prophylaxis to reach this sanctuary the bloodstream drugs miss."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "MYC rewires Burkitt's metabolism through the PI3K-mTOR axis: the driving oncogene partners with mTOR signaling to fuel the relentless growth and protein synthesis, making this pathway an attractive target alongside chemotherapy."
 ---
 
 # Burkitt Lymphoma
@@ -270,6 +279,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Burkitt lymphoma is the textbook cause of tumor lysis syndrome: its explosively dividing cells burst and dump phosphate into the blood, and the resulting hyperphosphatemia binds calcium and crashes the kidneys—why hydration and rasburicase precede therapy.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells help police the EBV behind Burkitt lymphoma: natural killer cells kill virus-infected B cells before they transform, so when immune surveillance fails—in HIV or malaria-driven immune exhaustion—EBV-driven Burkitt is far more likely.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Malaria-driven Treg expansion fuels endemic Burkitt: chronic falciparum infection ramps up regulatory T cells that suppress immunity, loosening control of EBV-infected B cells and helping the MYC-translocated tumor emerge in African children.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Burkitt is the textbook tumor-lysis cancer: its blistering growth means chemotherapy bursts huge numbers of cells at once, dumping potassium into the blood, so dangerous hyperkalemia and arrhythmia must be anticipated and prevented from the first dose.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Burkitt lymphoma readily seeds the brain: it has a strong tendency to spread to the central nervous system and meninges, so treatment includes CNS-directed chemotherapy and prophylaxis to reach this sanctuary the bloodstream drugs miss.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — MYC rewires Burkitt's metabolism through the PI3K-mTOR axis: the driving oncogene partners with mTOR signaling to fuel the relentless growth and protein synthesis, making this pathway an attractive target alongside chemotherapy.
 
 ---
 

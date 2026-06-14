@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Carney complex tumors tend to calcify: its cardiac myxomas and rare bone tumors (osteochondromyxomas) lay down calcium, so unexplained calcified masses on imaging—especially in the heart—can be an early radiologic hint of the syndrome."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Carney complex grows tumors in the nerves: psammomatous melanotic schwannomas, pigmented tumors of peripheral nerves, are a hallmark, so a schwannoma with melanin pigment should prompt a search for the syndrome."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PKA overactivity in Carney complex feeds Wnt signaling: losing PRKAR1A unleashes protein kinase A, which stabilizes beta-catenin in cardiac myxomas and other tumors, linking the cAMP defect to the Wnt growth pathway."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Carney complex tumors lean on mTOR downstream of runaway PKA: unrestrained protein kinase A drives growth signaling into the mTOR pathway, so mTOR inhibitors are explored to rein in the syndrome's many PRKAR1A-driven tumors."
 ---
 
 # Carney Complex
@@ -257,6 +266,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Carney complex causes ACTH-independent Cushing's: pigmented nodular adrenal disease (PPNAD) pumps out cortisol on its own, so unlike pituitary Cushing the ACTH level is suppressed—a key clue that the adrenal glands, not the pituitary, are the source.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Carney complex's cardiac myxomas are myxoid connective-tissue tumors: a loose gelatinous matrix fills these heart tumors that can embolize or obstruct blood flow, the most life-threatening feature of the syndrome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Carney complex tumors tend to calcify: its cardiac myxomas and rare bone tumors (osteochondromyxomas) lay down calcium, so unexplained calcified masses on imaging—especially in the heart—can be an early radiologic hint of the syndrome.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Carney complex grows tumors in the nerves: psammomatous melanotic schwannomas, pigmented tumors of peripheral nerves, are a hallmark, so a schwannoma with melanin pigment should prompt a search for the syndrome.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PKA overactivity in Carney complex feeds Wnt signaling: losing PRKAR1A unleashes protein kinase A, which stabilizes beta-catenin in cardiac myxomas and other tumors, linking the cAMP defect to the Wnt growth pathway.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Carney complex tumors lean on mTOR downstream of runaway PKA: unrestrained protein kinase A drives growth signaling into the mTOR pathway, so mTOR inhibitors are explored to rein in the syndrome's many PRKAR1A-driven tumors.
 
 ---
 
