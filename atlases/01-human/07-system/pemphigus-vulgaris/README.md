@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 tracks pemphigus activity: this inflammatory cytokine rises in active disease and correlates with severity, part of the cytokine milieu that accompanies autoantibody-driven blistering and a candidate biomarker for monitoring flares."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Pemphigus vulgaris attacks a calcium-dependent glue: desmoglein-3 is a calcium-reliant cadherin that rivets skin cells together, so when autoantibodies block it the cells lose adhesion (acantholysis) and the epidermis blisters apart."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Pemphigus vulgaris is rescued by cortisol's synthetic cousins: once frequently fatal, it is now controlled with corticosteroids that suppress the autoantibody response, usually paired with rituximab to spare long-term steroid harm."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells inflame the pemphigus blister: recruited into lesional skin, they release proteases and mediators that amplify the autoantibody-driven separation, adding an inflammatory push to the loss of cell adhesion."
 ---
 
 # Pemphigus Vulgaris
@@ -275,6 +284,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Pemphigus vulgaris is strongly HLA-linked: MHC class II alleles such as HLA-DRB1*04:02 present desmoglein peptides to helper T cells, the genetic basis for why certain populations develop the anti-desmoglein autoantibodies that blister skin and mucosa.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Pemphigus is largely complement-independent, unlike pemphigoid: although complement including C5 can be deposited, the IgG autoantibodies blister skin mainly by direct steric and signaling disruption of desmoglein adhesion—a key mechanistic contrast.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 tracks pemphigus activity: this inflammatory cytokine rises in active disease and correlates with severity, part of the cytokine milieu that accompanies autoantibody-driven blistering and a candidate biomarker for monitoring flares.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pemphigus vulgaris attacks a calcium-dependent glue: desmoglein-3 is a calcium-reliant cadherin that rivets skin cells together, so when autoantibodies block it the cells lose adhesion (acantholysis) and the epidermis blisters apart.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Pemphigus vulgaris is rescued by cortisol's synthetic cousins: once frequently fatal, it is now controlled with corticosteroids that suppress the autoantibody response, usually paired with rituximab to spare long-term steroid harm.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the pemphigus blister: recruited into lesional skin, they release proteases and mediators that amplify the autoantibody-driven separation, adding an inflammatory push to the loss of cell adhesion.
 
 ---
 
