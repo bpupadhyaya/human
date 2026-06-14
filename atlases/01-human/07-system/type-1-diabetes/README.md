@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Type 1 diabetes is the endocrine system's prototypic insulin-deficiency disease: autoimmune loss of pancreatic islet hormone output disrupts glucose homeostasis and often coexists with autoimmune thyroid and adrenal disease in polyglandular syndromes."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome may shape type 1 diabetes risk: early-life dysbiosis and a leaky gut can skew immune development and are linked to islet autoimmunity, so microbial exposures help explain why T1D incidence is rising faster than genetics alone can."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D is tied to type 1 diabetes risk: it modulates the immune system and regulatory T cells, and low early-life vitamin D status is associated with more islet autoimmunity—so deficiency is a candidate environmental trigger of this autoimmune disease."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Adrenaline is the backup against hypoglycemia in type 1 diabetes: when insulin overshoots, epinephrine should raise glucose and trigger warning symptoms, but in long-standing T1D this response blunts—causing dangerous hypoglycemia unawareness."
 ---
 
 # Type 1 Diabetes
@@ -207,6 +216,9 @@ cross_links:
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Type 1 diabetes is fundamentally an autoimmune disease: a breakdown of self-tolerance lets the immune system destroy insulin-producing beta cells, so it clusters with other autoimmune disorders and is now a target for immune-modulating prevention like teplizumab.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Type 1 diabetes deranges glucagon as well as insulin: as islets are destroyed, alpha cells lose normal glucose-sensing and fail to release glucagon during hypoglycemia, removing a key safety brake—so insulin treatment carries serious risk of severe lows.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Type 1 diabetes is the endocrine system's prototypic insulin-deficiency disease: autoimmune loss of pancreatic islet hormone output disrupts glucose homeostasis and often coexists with autoimmune thyroid and adrenal disease in polyglandular syndromes.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome may shape type 1 diabetes risk: early-life dysbiosis and a leaky gut can skew immune development and are linked to islet autoimmunity, so microbial exposures help explain why T1D incidence is rising faster than genetics alone can.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D is tied to type 1 diabetes risk: it modulates the immune system and regulatory T cells, and low early-life vitamin D status is associated with more islet autoimmunity—so deficiency is a candidate environmental trigger of this autoimmune disease.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenaline is the backup against hypoglycemia in type 1 diabetes: when insulin overshoots, epinephrine should raise glucose and trigger warning symptoms, but in long-standing T1D this response blunts—causing dangerous hypoglycemia unawareness.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
