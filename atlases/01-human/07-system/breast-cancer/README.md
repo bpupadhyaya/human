@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/07-system/alcohol-use-disorder
     relation: connects-to
     note: "Alcohol is a clear, modifiable breast-cancer risk: even moderate drinking raises risk by increasing estrogen and generating DNA-damaging acetaldehyde, so reducing alcohol is one of the few lifestyle levers proven to lower breast-cancer incidence."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung is a frequent home for breast-cancer spread: tumor cells seeded through the blood lodge in its fine capillaries and grow, so lung metastases—as nodules or a diffuse lymphatic pattern—are a common cause of breast-cancer morbidity."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Breast fat fuels the tumor it surrounds: adipocytes in the breast make aromatase that converts androgens to estrogen, feeding hormone-driven cancer, which is part of why obesity raises postmenopausal breast-cancer risk."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Breast cancer hijacks bone's demolition crew: metastatic cells release RANKL and factors that activate osteoclasts to dissolve bone, releasing growth factors that feed the tumor in a vicious cycle behind painful osteolytic lesions."
 ---
 
 # Breast Cancer
@@ -245,6 +254,9 @@ cross_links:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a frequent breast-cancer metastatic site: spread there, alongside bone, lung and brain, marks stage IV disease and worsens prognosis, so liver function and imaging are watched—and HR-positive cancers can colonize it years after the primary.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages help breast cancer spread: recruited into the tumor, they promote angiogenesis, invasion and immune evasion, and a macrophage-rich microenvironment predicts worse outcome—making them a target alongside the cancer cells.
 - `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — Alcohol is a clear, modifiable breast-cancer risk: even moderate drinking raises risk by increasing estrogen and generating DNA-damaging acetaldehyde, so reducing alcohol is one of the few lifestyle levers proven to lower breast-cancer incidence.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a frequent home for breast-cancer spread: tumor cells seeded through the blood lodge in its fine capillaries and grow, so lung metastases—as nodules or a diffuse lymphatic pattern—are a common cause of breast-cancer morbidity.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Breast fat fuels the tumor it surrounds: adipocytes in the breast make aromatase that converts androgens to estrogen, feeding hormone-driven cancer, which is part of why obesity raises postmenopausal breast-cancer risk.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Breast cancer hijacks bone's demolition crew: metastatic cells release RANKL and factors that activate osteoclasts to dissolve bone, releasing growth factors that feed the tumor in a vicious cycle behind painful osteolytic lesions.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

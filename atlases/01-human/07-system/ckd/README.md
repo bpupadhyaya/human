@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Angiotensin II accelerates CKD and is the key drug target: it raises glomerular pressure and drives scarring, so ACE inhibitors and ARBs that block it slow progression and reduce proteinuria—the cornerstone of renoprotection."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "CKD and the heart fail together in cardiorenal syndrome: fluid overload, hypertension, anemia and mineral disturbance strain the heart, while heart failure starves the kidneys of flow, so most CKD patients die of cardiovascular causes."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Aldosterone drives the scarring that worsens CKD: beyond raising blood pressure, it promotes fibrosis and inflammation in the kidney, which is why mineralocorticoid blockers like finerenone slow progression on top of ACE inhibitors."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "CKD unleashes bone-dissolving osteoclasts: phosphate retention and secondary hyperparathyroidism overstimulate osteoclasts, the high-turnover renal osteodystrophy that weakens bone and spills calcium and phosphate into vessels."
 ---
 
 # Chronic Kidney Disease
@@ -214,6 +223,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — CKD progresses through fibrosis: whatever the initial insult, tubulointerstitial fibrosis is the final common pathway that scars nephrons beyond repair, so the degree of fibrosis on biopsy predicts decline better than the original diagnosis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CKD throws phosphorus out of balance: failing kidneys can't excrete phosphate, so it rises and—with FGF23, PTH and low vitamin D—drives the bone disease and vascular calcification of CKD-mineral bone disorder.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Angiotensin II accelerates CKD and is the key drug target: it raises glomerular pressure and drives scarring, so ACE inhibitors and ARBs that block it slow progression and reduce proteinuria—the cornerstone of renoprotection.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — CKD and the heart fail together in cardiorenal syndrome: fluid overload, hypertension, anemia and mineral disturbance strain the heart, while heart failure starves the kidneys of flow, so most CKD patients die of cardiovascular causes.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Aldosterone drives the scarring that worsens CKD: beyond raising blood pressure, it promotes fibrosis and inflammation in the kidney, which is why mineralocorticoid blockers like finerenone slow progression on top of ACE inhibitors.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — CKD unleashes bone-dissolving osteoclasts: phosphate retention and secondary hyperparathyroidism overstimulate osteoclasts, the high-turnover renal osteodystrophy that weakens bone and spills calcium and phosphate into vessels.
 
 ## Pathology
 
