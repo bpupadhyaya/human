@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopamine ties PTSD to reward and to its therapies: trauma blunts reward-related dopamine signaling (contributing to numbing and anhedonia), and dopamine is part of why MDMA-assisted therapy is being studied to help process traumatic memories."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "PTSD strikes women about twice as often, and estrogen is part of why: the hormone shapes fear extinction, so low-estrogen phases impair the unlearning of fear—helping explain sex differences in risk and the timing of intrusive symptoms."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "PTSD wrecks sleep, and melatonin is enlisted to mend it: nightmares and insomnia are core symptoms tied to disrupted circadian and REM regulation, so melatonin and sleep-targeted therapy are used alongside trauma treatment."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "PTSD's fear circuits depend on astrocytes: these glial cells regulate glutamate in the amygdala and hippocampus that encode and extinguish fear, so astrocyte dysfunction can lock in the traumatic memory that drives the disorder."
 ---
 
 # PTSD
@@ -273,6 +282,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — PTSD dysregulates the adrenal stress axis: chronic trauma alters HPA-axis output so the adrenal gland's cortisol response is blunted and abnormal, leaving the noradrenergic alarm system unrestrained—part of the biology behind hypervigilance and flashbacks.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Trauma leaves an inflammatory mark via microglia: PTSD is linked to activated brain microglia and neuroinflammation that may damage the hippocampus and prefrontal cortex, connecting psychological trauma to measurable brain changes.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine ties PTSD to reward and to its therapies: trauma blunts reward-related dopamine signaling (contributing to numbing and anhedonia), and dopamine is part of why MDMA-assisted therapy is being studied to help process traumatic memories.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — PTSD strikes women about twice as often, and estrogen is part of why: the hormone shapes fear extinction, so low-estrogen phases impair the unlearning of fear—helping explain sex differences in risk and the timing of intrusive symptoms.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PTSD wrecks sleep, and melatonin is enlisted to mend it: nightmares and insomnia are core symptoms tied to disrupted circadian and REM regulation, so melatonin and sleep-targeted therapy are used alongside trauma treatment.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — PTSD's fear circuits depend on astrocytes: these glial cells regulate glutamate in the amygdala and hippocampus that encode and extinguish fear, so astrocyte dysfunction can lock in the traumatic memory that drives the disorder.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

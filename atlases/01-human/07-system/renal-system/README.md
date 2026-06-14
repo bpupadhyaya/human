@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/03-molecular/pth
     relation: connects-to
     note: "The kidney and PTH run the calcium-phosphate axis together: failing kidneys retain phosphate and underproduce active vitamin D, driving secondary hyperparathyroidism in which PTH soars to defend calcium—at the cost of the bones."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "The kidney is the body's slow acid-base regulator through hydrogen: it excretes hydrogen ions and regenerates bicarbonate to hold blood pH steady, so kidney failure or tubular defects cause the metabolic acidosis (renal tubular acidosis) of renal disease."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "The kidney's filter is judged by albumin: a healthy glomerulus keeps this protein in the blood, so albumin leaking into urine (albuminuria) is the earliest, most sensitive sign of kidney damage and a marker that guides treatment."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "The renal system controls blood pressure through angiotensin II: the kidney's renin launches the cascade that makes angiotensin II to constrict vessels and tune filtration, the loop that ACE inhibitors and ARBs block to protect the kidney."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -234,6 +243,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md) — The kidney is where vitamin D becomes active: it performs the final 1-alpha-hydroxylation to calcitriol, so kidney failure causes vitamin D deficiency and the bone disease of CKD—one of the organ's vital endocrine, non-excretory jobs.
 - **Connects to:** [Phosphorus](../../02-atomic/phosphorus/README.md) — The renal system is the body's phosphate gatekeeper: kidneys excrete phosphate under FGF23 and PTH control, so failing kidneys retain it, driving the calcium-phosphate imbalance and vascular calcification of CKD-mineral bone disorder.
 - **Connects to:** [PTH](../../03-molecular/pth/README.md) — The kidney and PTH run the calcium-phosphate axis together: failing kidneys retain phosphate and underproduce active vitamin D, driving secondary hyperparathyroidism in which PTH soars to defend calcium—at the cost of the bones.
+- **Connects to:** [Hydrogen](../../02-atomic/hydrogen/README.md) — the kidney is the body's slow acid-base regulator through hydrogen: it excretes hydrogen ions and regenerates bicarbonate to hold blood pH steady, so kidney failure or tubular defects cause the metabolic acidosis (renal tubular acidosis) of renal disease.
+- **Connects to:** [Albumin](../../03-molecular/albumin/README.md) — the kidney's filter is judged by albumin: a healthy glomerulus keeps this protein in the blood, so albumin leaking into urine (albuminuria) is the earliest, most sensitive sign of kidney damage and a marker that guides treatment.
+- **Connects to:** [Angiotensin II](../../03-molecular/angiotensin-ii/README.md) — the renal system controls blood pressure through angiotensin II: the kidney's renin launches the cascade that makes angiotensin II to constrict vessels and tune filtration, the loop that ACE inhibitors and ARBs block to protect the kidney.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
