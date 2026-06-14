@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "ADHD predisposes to obesity: impulsivity and dopamine-driven reward seeking promote dysregulated, binge-style eating, so untreated attention-deficit symptoms are a risk factor for weight gain and disordered eating."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron is the quiet partner of dopamine in ADHD: it is a cofactor for the enzyme that makes dopamine, so low iron stores (even without anemia) are linked to worse symptoms, and supplementation is studied in deficient children."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "ADHD is a disorder of the dopamine synapse: signaling across reward and attention synapses is dysregulated, and stimulant medicines work by raising dopamine and norepinephrine in this synaptic gap to sharpen focus."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia may shape the ADHD brain: prenatal inflammation and microglial pruning of synapses influence the development of attention circuits, an emerging neuroimmune angle on why early-life stress raises ADHD risk."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -293,6 +302,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — ADHD reaches beyond neurons to astrocytes: these glial cells help clear and recycle dopamine and glutamate at synapses, so astrocyte dysfunction can blunt the prefrontal signaling that stimulant medications work to restore.
 - `connects-to` → **[Epilepsy](../epilepsy/README.md)** — ADHD and epilepsy travel together: children with epilepsy have far higher ADHD rates and vice versa, sharing disrupted attention networks—and stimulant treatment is generally safe and helpful rather than seizure-provoking in well-controlled epilepsy.
 - `connects-to` → **[Obesity](../obesity/README.md)** — ADHD predisposes to obesity: impulsivity and dopamine-driven reward seeking promote dysregulated, binge-style eating, so untreated attention-deficit symptoms are a risk factor for weight gain and disordered eating.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron is the quiet partner of dopamine in ADHD: it is a cofactor for the enzyme that makes dopamine, so low iron stores (even without anemia) are linked to worse symptoms, and supplementation is studied in deficient children.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — ADHD is a disorder of the dopamine synapse: signaling across reward and attention synapses is dysregulated, and stimulant medicines work by raising dopamine and norepinephrine in this synaptic gap to sharpen focus.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia may shape the ADHD brain: prenatal inflammation and microglial pruning of synapses influence the development of attention circuits, an emerging neuroimmune angle on why early-life stress raises ADHD risk.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

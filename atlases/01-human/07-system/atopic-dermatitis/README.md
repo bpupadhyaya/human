@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc deficiency mimics atopic dermatitis: too little zinc produces an eczema-like rash (acrodermatitis) and impairs the skin barrier and immune regulation, so refractory 'eczema' sometimes turns out to be a correctable zinc shortfall."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The itch of atopic dermatitis is wired through sensory neurons: cytokines like IL-31 sensitize skin nerve endings, so even light touch triggers itch, and the resulting scratch damages the barrier and worsens inflammation—the itch-scratch cycle."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Substance P links nerves to the eczema flare: sensory nerves release this neuropeptide, which activates mast cells and immune cells to amplify itch and inflammation, a neurogenic loop that helps explain why stress can worsen atopic dermatitis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "A calcium gradient builds the skin barrier that eczema lacks: keratinocytes use rising calcium to mature into the protective outer layer, so disrupted calcium signaling impairs the barrier whose leakiness lets allergens and microbes in."
 ---
 
 # Atopic Dermatitis
@@ -258,6 +267,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Atopic dermatitis is first treated with cortisol's synthetic cousins: topical corticosteroids calm the Th2 inflammation that drives the itch-scratch eczema, though long-term potent use thins skin and can suppress the body's own cortisol axis.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Atopic dermatitis reflects failed immune tolerance: regulatory T cells normally restrain Th2 responses to harmless allergens, and when they underperform the skin's barrier breakdown lets allergens provoke the chronic allergic inflammation of eczema.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc deficiency mimics atopic dermatitis: too little zinc produces an eczema-like rash (acrodermatitis) and impairs the skin barrier and immune regulation, so refractory 'eczema' sometimes turns out to be a correctable zinc shortfall.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The itch of atopic dermatitis is wired through sensory neurons: cytokines like IL-31 sensitize skin nerve endings, so even light touch triggers itch, and the resulting scratch damages the barrier and worsens inflammation—the itch-scratch cycle.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P links nerves to the eczema flare: sensory nerves release this neuropeptide, which activates mast cells and immune cells to amplify itch and inflammation, a neurogenic loop that helps explain why stress can worsen atopic dermatitis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A calcium gradient builds the skin barrier that eczema lacks: keratinocytes use rising calcium to mature into the protective outer layer, so disrupted calcium signaling impairs the barrier whose leakiness lets allergens and microbes in.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
