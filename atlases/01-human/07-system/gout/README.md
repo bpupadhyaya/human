@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells help ignite the gout flare: they take up monosodium urate crystals and, with macrophages, activate the inflammasome and prime the inflammatory response that turns crystal deposition into a sudden painful attack."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Acid urine turns gout into kidney stones: uric acid dissolves poorly when urine is acidic, so a low urinary pH lets it crystallize into stones, which is why alkalinizing the urine helps prevent them."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Chronic gout lays down fibrosis: long-standing tophi become fibrous nodules that erode joints, and persistent urate in the kidney drives interstitial scarring, the lasting damage beyond the acute flare."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells help fire the first hours of a gout attack: urate crystals trigger them to release histamine and mediators that dilate vessels and recruit neutrophils, kicking off the sudden inflammation."
 ---
 
 # Gout
@@ -248,6 +257,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut shares the job of clearing urate with the kidney: about a third of uric acid is excreted into the intestine, so gut transporters and microbes that break down urate influence blood levels—and impaired gut excretion can worsen gout.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps inflame the gouty joint: alongside IL-1beta, urate crystals trigger IL-6 release that amplifies the fever, pain and swelling of an acute attack, part of the cytokine cascade targeted to calm flares.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help ignite the gout flare: they take up monosodium urate crystals and, with macrophages, activate the inflammasome and prime the inflammatory response that turns crystal deposition into a sudden painful attack.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Acid urine turns gout into kidney stones: uric acid dissolves poorly when urine is acidic, so a low urinary pH lets it crystallize into stones, which is why alkalinizing the urine helps prevent them.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic gout lays down fibrosis: long-standing tophi become fibrous nodules that erode joints, and persistent urate in the kidney drives interstitial scarring, the lasting damage beyond the acute flare.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help fire the first hours of a gout attack: urate crystals trigger them to release histamine and mediators that dilate vessels and recruit neutrophils, kicking off the sudden inflammation.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells aid the attack on BRCA-mutant tumors: their DNA-repair defect spawns neoantigens and stress signals that NK cells sense, and antibody therapies like trastuzumab recruit NK killing against HER2-positive BRCA breast cancers."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "BRCA-related ovarian cancers recruit endothelial cells: VEGF drives these vessel-lining cells to build the vasculature feeding the tumor and its ascites, the target of the bevacizumab added to therapy."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Treating HBOC cancers can strain the bone marrow: the PARP inhibitors exploiting BRCA's repair defect suppress marrow blood production and, rarely, trigger secondary MDS or leukemia, so counts are watched."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "HBOC reaches the skin through melanoma risk: BRCA2 carriers face a raised chance of melanoma alongside breast, ovarian, and pancreatic cancer, so skin surveillance joins their screening."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -283,6 +292,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — HBOC reaches beyond breast and ovary to the pancreas: BRCA2 (and BRCA1) carriers face higher pancreatic cancer risk, and these tumors' DNA-repair defect makes them responsive to platinum chemotherapy and PARP inhibitors.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — BRCA-related ovarian cancers lean on VEGF for blood supply: the angiogenesis driver fuels their growth and ascites, so anti-VEGF bevacizumab is combined with chemotherapy and PARP inhibitors in these tumors.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells aid the attack on BRCA-mutant tumors: their DNA-repair defect spawns neoantigens and stress signals that NK cells sense, and antibody therapies like trastuzumab recruit NK killing against HER2-positive BRCA breast cancers.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — BRCA-related ovarian cancers recruit endothelial cells: VEGF drives these vessel-lining cells to build the vasculature feeding the tumor and its ascites, the target of the bevacizumab added to therapy.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Treating HBOC cancers can strain the bone marrow: the PARP inhibitors exploiting BRCA's repair defect suppress marrow blood production and, rarely, trigger secondary MDS or leukemia, so counts are watched.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HBOC reaches the skin through melanoma risk: BRCA2 carriers face a raised chance of melanoma alongside breast, ovarian, and pancreatic cancer, so skin surveillance joins their screening.
 
 ---
 
