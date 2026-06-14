@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "The gut microbiome shapes serotonin and the gut-brain axis: most of the body's serotonin is made by gut enterochromaffin cells, and microbial metabolites tune its production, linking the flora to motility, mood and bidirectional gut-brain signaling."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The gut and liver are wired together: microbial products and bile acids flow up the portal vein, so a leaky, dysbiotic gut delivers bacterial endotoxin to the liver—fueling fatty liver and NASH—while the liver's bile in turn reshapes which microbes thrive."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Gut microbes influence type 2 diabetes risk: fermentation makes short-chain fatty acids that improve insulin sensitivity, while dysbiosis raises inflammation and energy harvest—so the microbiome is a metabolic organ that helps tip the balance toward insulin resistance."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "The gut microbiome is implicated in rheumatoid arthritis: dysbiosis (e.g., expansion of Prevotella) may prime mucosal immunity and citrullination that later attacks joints—supporting the idea that some autoimmunity begins at gut and other mucosal surfaces."
 ---
 
 # Gut Microbiome
@@ -181,6 +190,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut microbiome lives mainly in the large intestine: trillions of anaerobes ferment dietary fiber there into short-chain fatty acids that nourish the colonic lining, so colonic health and microbial ecology are inseparable.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — The microbiome and intestinal epithelium are mutual keepers: bacterial short-chain fatty acids feed colonocytes and tighten the barrier, while a healthy epithelium confines microbes—dysbiosis breaches this, leaking endotoxin and driving inflammation.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — The gut microbiome shapes serotonin and the gut-brain axis: most of the body's serotonin is made by gut enterochromaffin cells, and microbial metabolites tune its production, linking the flora to motility, mood and bidirectional gut-brain signaling.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The gut and liver are wired together: microbial products and bile acids flow up the portal vein, so a leaky, dysbiotic gut delivers bacterial endotoxin to the liver—fueling fatty liver and NASH—while the liver's bile in turn reshapes which microbes thrive.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Gut microbes influence type 2 diabetes risk: fermentation makes short-chain fatty acids that improve insulin sensitivity, while dysbiosis raises inflammation and energy harvest—so the microbiome is a metabolic organ that helps tip the balance toward insulin resistance.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — The gut microbiome is implicated in rheumatoid arthritis: dysbiosis (e.g., expansion of Prevotella) may prime mucosal immunity and citrullination that later attacks joints—supporting the idea that some autoimmunity begins at gut and other mucosal surfaces.
 
 ## Pathology
 

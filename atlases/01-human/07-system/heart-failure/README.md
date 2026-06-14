@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Heart failure is the common endpoint of cardiovascular disease: ischemia, valve disease, hypertension and arrhythmia all converge on a heart that can no longer meet the body's demands, making it the shared final pathway of the failing cardiovascular system."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Atherosclerosis is the leading road to heart failure: coronary disease and myocardial infarction kill heart muscle, and the scarred, weakened ventricle that remains can no longer pump adequately—so ischemic cardiomyopathy is the commonest cause of HF."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Heart failure is in large part a fibrotic disease: stressed myocardium replaces lost muscle with stiff collagen scar, which impairs both contraction and relaxation—so cardiac fibrosis underlies the remodeling that drives both reduced and preserved ejection fraction HF."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Heart failure floods the lungs: when the failing left ventricle can't keep up, pressure backs up into the pulmonary circulation, leaking fluid into alveoli—so breathlessness and pulmonary edema are the cardinal symptoms that bring patients to hospital."
 ---
 
 # Heart Failure
@@ -176,6 +185,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Heart failure and the kidney fail together as the cardiorenal syndrome: a failing heart underperfuses the kidney while congestion raises venous pressure, so renal function falls, fluid is retained, and diuretic resistance and worsening azotemia dominate management.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — Hypertension is a leading cause of heart failure: chronic pressure overload drives left ventricular hypertrophy that stiffens into diastolic failure (HFpEF) or dilates into systolic failure, so blood-pressure control is the biggest preventable HF risk factor.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Heart failure is the common endpoint of cardiovascular disease: ischemia, valve disease, hypertension and arrhythmia all converge on a heart that can no longer meet the body's demands, making it the shared final pathway of the failing cardiovascular system.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Atherosclerosis is the leading road to heart failure: coronary disease and myocardial infarction kill heart muscle, and the scarred, weakened ventricle that remains can no longer pump adequately—so ischemic cardiomyopathy is the commonest cause of HF.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Heart failure is in large part a fibrotic disease: stressed myocardium replaces lost muscle with stiff collagen scar, which impairs both contraction and relaxation—so cardiac fibrosis underlies the remodeling that drives both reduced and preserved ejection fraction HF.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Heart failure floods the lungs: when the failing left ventricle can't keep up, pressure backs up into the pulmonary circulation, leaking fluid into alveoli—so breathlessness and pulmonary edema are the cardinal symptoms that bring patients to hospital.
 
 ## Pathology
 
