@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Advanced endometrial cancer is treated by hitting VEGF: lenvatinib (a VEGFR inhibitor) plus pembrolizumab became a standard for recurrent disease, choking the tumor's blood supply while unleashing the immune system."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Body fat is the engine of endometrial cancer: adipocytes make aromatase that turns androgens into estrogen, so obesity floods the uterine lining with unopposed estrogen, making it the malignancy most strongly tied to excess weight."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver tunes endometrial-cancer risk through SHBG: it makes sex-hormone-binding globulin that mops up estrogen, and obesity and insulin resistance lower SHBG, raising the free estrogen that drives this hormone-sensitive tumor."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages connect obesity to endometrial cancer: inflamed fat draws macrophages that pour out cytokines, and tumor-associated macrophages in the uterine tumor promote its growth and blood supply, a cellular bridge from adiposity to malignancy."
 ---
 
 # Endometrial Cancer
@@ -256,6 +265,9 @@ cross_links:
 - `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Endometrial cancer's molecular classes hinge on MMR genes like MLH1: silencing of MLH1 by promoter methylation creates the common microsatellite-instability subtype, which is hypermutated and responds well to checkpoint immunotherapy—so MMR testing guides treatment.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Depth of myometrial invasion stages endometrial cancer, and fibroblasts pave the way: cancer-associated fibroblasts remodel the stroma to let tumor burrow into the muscle wall, and how deep it goes is a key prognostic factor guiding surgery.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Advanced endometrial cancer is treated by hitting VEGF: lenvatinib (a VEGFR inhibitor) plus pembrolizumab became a standard for recurrent disease, choking the tumor's blood supply while unleashing the immune system.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Body fat is the engine of endometrial cancer: adipocytes make aromatase that turns androgens into estrogen, so obesity floods the uterine lining with unopposed estrogen, making it the malignancy most strongly tied to excess weight.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver tunes endometrial-cancer risk through SHBG: it makes sex-hormone-binding globulin that mops up estrogen, and obesity and insulin resistance lower SHBG, raising the free estrogen that drives this hormone-sensitive tumor.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages connect obesity to endometrial cancer: inflamed fat draws macrophages that pour out cytokines, and tumor-associated macrophages in the uterine tumor promote its growth and blood supply, a cellular bridge from adiposity to malignancy.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

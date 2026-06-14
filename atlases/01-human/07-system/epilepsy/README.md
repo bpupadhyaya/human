@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Epilepsy's deadliest complication strikes the heart: in SUDEP (sudden unexpected death in epilepsy), a seizure triggers fatal cardiac arrhythmia or asystole and respiratory arrest, making seizure control a matter of preventing sudden death, not just fits."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF helps rewire the brain into an epileptic one: after injury or seizures, surging BDNF promotes the abnormal sprouting and excitability that turn normal circuits epileptogenic, so it is studied as a driver of how epilepsy develops."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Adenosine is the brain's built-in seizure brake: it accumulates during intense firing and damps neurons, ending seizures, and the ketogenic diet's anticonvulsant effect works partly by boosting this adenosine tone."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Epilepsy involves the brain's myelin too: oligodendrocyte and white-matter abnormalities accompany many epilepsies, and seizures in turn disrupt myelination, linking impaired connectivity to the seizure-prone network."
 ---
 
 # Epilepsy
@@ -295,6 +304,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium channels generate the rhythm of absence seizures: thalamic T-type calcium currents drive the 3-Hz spike-wave discharges of absence epilepsy, which is why the T-type blocker ethosuximide specifically treats them—not the sodium-channel drugs used elsewhere.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Epilepsy is fueled by microglial neuroinflammation: seizures activate microglia that release cytokines lowering seizure threshold, creating a feed-forward loop of epileptogenesis—so inflammation is both a consequence and a driver of recurrent seizures.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Epilepsy's deadliest complication strikes the heart: in SUDEP (sudden unexpected death in epilepsy), a seizure triggers fatal cardiac arrhythmia or asystole and respiratory arrest, making seizure control a matter of preventing sudden death, not just fits.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF helps rewire the brain into an epileptic one: after injury or seizures, surging BDNF promotes the abnormal sprouting and excitability that turn normal circuits epileptogenic, so it is studied as a driver of how epilepsy develops.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine is the brain's built-in seizure brake: it accumulates during intense firing and damps neurons, ending seizures, and the ketogenic diet's anticonvulsant effect works partly by boosting this adenosine tone.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Epilepsy involves the brain's myelin too: oligodendrocyte and white-matter abnormalities accompany many epilepsies, and seizures in turn disrupt myelination, linking impaired connectivity to the seizure-prone network.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
