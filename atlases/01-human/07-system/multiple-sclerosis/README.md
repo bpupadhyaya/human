@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "MS is fundamentally an autoimmune disease: self-reactive lymphocytes breach the blood-brain barrier to attack myelin, so it overlaps with other autoimmunity and is treated by immunomodulation—shifting MS care from symptom control to immune-directed therapy."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome shapes multiple sclerosis risk and activity: altered gut flora can tip the balance between inflammatory and regulatory T cells that attack myelin, so diet and the microbiome are emerging factors in an autoimmune disease of the brain."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "MS reflects failed immune tolerance: regulatory T cells that should restrain autoreactive cells are deficient or dysfunctional, letting myelin-attacking T and B cells run unchecked—so restoring regulatory balance is a goal of MS therapy."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells leave MS's diagnostic signature: B cells mature into plasma cells inside the CNS and secrete antibodies detected as oligoclonal bands in spinal fluid, a hallmark that supports diagnosis and reflects the intrathecal immune response."
 ---
 
 # Multiple Sclerosis
@@ -225,6 +234,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — CD20-targeted therapy transformed MS treatment: depleting CD20+ B cells with ocrelizumab or rituximab sharply cuts relapses, proving B cells—not just T cells—drive the disease, and giving the first effective drug for progressive MS.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Multiple sclerosis is the prototypical demyelinating disease of the central nervous system: immune attack strips myelin from brain, spinal cord and optic nerve in scattered plaques, so its protean symptoms reflect lesions dispersed in space and time.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — MS is fundamentally an autoimmune disease: self-reactive lymphocytes breach the blood-brain barrier to attack myelin, so it overlaps with other autoimmunity and is treated by immunomodulation—shifting MS care from symptom control to immune-directed therapy.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome shapes multiple sclerosis risk and activity: altered gut flora can tip the balance between inflammatory and regulatory T cells that attack myelin, so diet and the microbiome are emerging factors in an autoimmune disease of the brain.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — MS reflects failed immune tolerance: regulatory T cells that should restrain autoreactive cells are deficient or dysfunctional, letting myelin-attacking T and B cells run unchecked—so restoring regulatory balance is a goal of MS therapy.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells leave MS's diagnostic signature: B cells mature into plasma cells inside the CNS and secrete antibodies detected as oligoclonal bands in spinal fluid, a hallmark that supports diagnosis and reflects the intrathecal immune response.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
