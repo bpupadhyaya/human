@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Anhedonia in depression points to dopamine: beyond serotonin, blunted dopamine reward signaling underlies the loss of pleasure and motivation, which is why some antidepressants and adjuncts target dopamine to relieve symptoms that SSRIs miss."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Depression isn't only low serotonin—it's also low GABA: deficient inhibitory GABA signaling is found in depressed brains, and neurosteroid drugs (brexanolone, zuranolone) that boost GABA receptors rapidly lift mood, especially in postpartum depression."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Depression shows a loss of astrocytes: postmortem brains reveal reduced astrocyte density in mood-regulating regions, impairing the glutamate clearance and neuron support these glial cells provide—a structural face of the illness beyond neurotransmitters."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin ties depression to broken social bonds: low signaling of this bonding hormone is linked to the social withdrawal and loss of connection in depression, and it is studied as a route to ease the isolation that deepens the illness."
 ---
 
 # Major Depressive Disorder
@@ -292,6 +301,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Depression has a neuroinflammatory arm in microglia: activated brain microglia release cytokines that lower serotonin precursors and impair neuroplasticity, linking the immune system to mood and helping explain why inflammation predicts poorer antidepressant response.
 - `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Distinguishing depression from bipolar disorder is critical: a depressive episode may be the first sign of bipolar illness, and giving an antidepressant alone can trigger mania—so screening for past hypomania guides whether mood stabilizers are needed.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Anhedonia in depression points to dopamine: beyond serotonin, blunted dopamine reward signaling underlies the loss of pleasure and motivation, which is why some antidepressants and adjuncts target dopamine to relieve symptoms that SSRIs miss.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Depression isn't only low serotonin—it's also low GABA: deficient inhibitory GABA signaling is found in depressed brains, and neurosteroid drugs (brexanolone, zuranolone) that boost GABA receptors rapidly lift mood, especially in postpartum depression.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Depression shows a loss of astrocytes: postmortem brains reveal reduced astrocyte density in mood-regulating regions, impairing the glutamate clearance and neuron support these glial cells provide—a structural face of the illness beyond neurotransmitters.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin ties depression to broken social bonds: low signaling of this bonding hormone is linked to the social withdrawal and loss of connection in depression, and it is studied as a route to ease the isolation that deepens the illness.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

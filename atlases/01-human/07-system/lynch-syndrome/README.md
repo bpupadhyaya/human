@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Lynch tumors are immunotherapy-responsive because they are hypermutated: MMR loss spawns countless neoantigens that dendritic cells present to prime T cells, explaining why checkpoint blockade works so well in mismatch-repair-deficient cancers."
+  - target: 01-human/03-molecular/braf
+    relation: connects-to
+    note: "A BRAF test separates Lynch from look-alike sporadic cancers: sporadic MSI-high colon tumors usually carry a BRAF V600E mutation, while Lynch tumors are BRAF-wild-type, so BRAF status is a key reflex test before diagnosing the inherited syndrome."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Lynch tumors' flood of mutations alerts NK cells: mismatch-repair failure makes hypermutated cells display stress signals and odd peptides that natural killer cells (and T cells) can attack—part of why these cancers are so immunotherapy-sensitive."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Lynch (MSI-high) tumors often form B-cell-rich lymphoid structures: clusters of B cells and tertiary lymphoid organs inside these hypermutated cancers help mount the immune response, and their presence predicts better checkpoint-therapy results."
 ---
 
 # Lynch Syndrome
@@ -263,6 +272,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Lynch syndrome reaches the urinary tract above the bladder: MMR deficiency raises the risk of urothelial cancer in the renal pelvis and ureter, so surveillance and any blood in the urine prompt imaging of the upper tracts, not just cystoscopy.
 - `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Prostate cancer is a lower-penetrance Lynch tumor: MMR-gene carriers face a modestly increased, sometimes more aggressive prostate cancer, so family history of Lynch is weighed alongside PSA in deciding screening for these men.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Lynch tumors are immunotherapy-responsive because they are hypermutated: MMR loss spawns countless neoantigens that dendritic cells present to prime T cells, explaining why checkpoint blockade works so well in mismatch-repair-deficient cancers.
+- `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — A BRAF test separates Lynch from look-alike sporadic cancers: sporadic MSI-high colon tumors usually carry a BRAF V600E mutation, while Lynch tumors are BRAF-wild-type, so BRAF status is a key reflex test before diagnosing the inherited syndrome.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Lynch tumors' flood of mutations alerts NK cells: mismatch-repair failure makes hypermutated cells display stress signals and odd peptides that natural killer cells (and T cells) can attack—part of why these cancers are so immunotherapy-sensitive.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Lynch (MSI-high) tumors often form B-cell-rich lymphoid structures: clusters of B cells and tertiary lymphoid organs inside these hypermutated cancers help mount the immune response, and their presence predicts better checkpoint-therapy results.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
