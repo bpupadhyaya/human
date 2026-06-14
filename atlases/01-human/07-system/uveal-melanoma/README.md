@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "Uveal melanoma differs from skin melanoma at the telomere: it lacks the UV-signature TERT promoter mutations that drive cutaneous melanoma, reflecting its distinct, non-sun-related mutational origin (GNAQ/GNA11, BAP1) and biology."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Uveal melanoma's driver mutations signal through calcium: GNAQ/GNA11 lock the Gq protein on, firing phospholipase C to release calcium that activates PKC and MAPK—the core engine of this eye cancer, distinct from cutaneous melanoma's BRAF."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Uveal melanoma hides in the eye's immune privilege behind regulatory T cells: a Treg-rich, cold microenvironment makes it resist the checkpoint drugs that work in skin melanoma—why the T-cell engager tebentafusp was needed instead."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Uveal melanoma leans on PI3K-AKT through PTEN loss: alongside its Gq-MAPK driver, losing PTEN switches on AKT survival signaling, so combining MAPK and PI3K/AKT blockade is explored against this treatment-resistant cancer."
 ---
 
 # Uveal Melanoma
@@ -260,6 +269,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Uveal melanoma is driven through ERK by Gq signaling: activating GNAQ/GNA11 mutations fire PLC-PKC to switch on the MAPK/ERK cascade—unlike cutaneous melanoma's BRAF route—so MEK/ERK-pathway inhibition has been the focus of targeted trials.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages mark high-risk uveal melanoma: paradoxically, a dense macrophage infiltrate (with monosomy 3 and BAP1 loss) signals worse prognosis and higher metastatic risk rather than protective immunity.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Uveal melanoma differs from skin melanoma at the telomere: it lacks the UV-signature TERT promoter mutations that drive cutaneous melanoma, reflecting its distinct, non-sun-related mutational origin (GNAQ/GNA11, BAP1) and biology.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Uveal melanoma's driver mutations signal through calcium: GNAQ/GNA11 lock the Gq protein on, firing phospholipase C to release calcium that activates PKC and MAPK—the core engine of this eye cancer, distinct from cutaneous melanoma's BRAF.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Uveal melanoma hides in the eye's immune privilege behind regulatory T cells: a Treg-rich, cold microenvironment makes it resist the checkpoint drugs that work in skin melanoma—why the T-cell engager tebentafusp was needed instead.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Uveal melanoma leans on PI3K-AKT through PTEN loss: alongside its Gq-MAPK driver, losing PTEN switches on AKT survival signaling, so combining MAPK and PI3K/AKT blockade is explored against this treatment-resistant cancer.
 
 ---
 
