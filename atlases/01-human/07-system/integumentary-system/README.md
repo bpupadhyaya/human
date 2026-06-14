@@ -107,6 +107,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "The skin itches and welts through histamine: mast cells in the dermis release histamine that dilates vessels and fires itch nerves, producing the hives, flares, and wheals of allergic and urticarial skin reactions."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Skin's outer layer matures along a calcium gradient: rising calcium up through the epidermis drives keratinocytes to differentiate and build the barrier, so disrupting that gradient unravels how the skin renews and seals itself."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The skin is patrolled by cytotoxic T cells: these killers reside in the epidermis as immune memory, destroying virus-infected and malignant cells but, when misdirected, driving the blistering rashes of severe drug reactions."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Skin tunes body temperature with nitric oxide: it relaxes dermal blood vessels to flush heat to the surface, the vasodilation behind blushing and warmth—and faulty control underlies flushing disorders and cold, poorly perfused skin."
 ---
 
 # Integumentary System
@@ -242,6 +251,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The skin is a thermostat that sheds sodium: sweat glands pour out water and sodium to cool the body by evaporation, so the integument regulates temperature and electrolytes—heavy sweating can drain enough salt to matter.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Skin is built and protected by cholesterol: ceramides and cholesterol cement the outer barrier against water loss, and skin's 7-dehydrocholesterol is the very molecule UV light converts into vitamin D—so the organ both shields and synthesizes.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — The skin itches and welts through histamine: mast cells in the dermis release histamine that dilates vessels and fires itch nerves, producing the hives, flares, and wheals of allergic and urticarial skin reactions.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Skin's outer layer matures along a calcium gradient: rising calcium up through the epidermis drives keratinocytes to differentiate and build the barrier, so disrupting that gradient unravels how the skin renews and seals itself.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The skin is patrolled by cytotoxic T cells: these killers reside in the epidermis as immune memory, destroying virus-infected and malignant cells but, when misdirected, driving the blistering rashes of severe drug reactions.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Skin tunes body temperature with nitric oxide: it relaxes dermal blood vessels to flush heat to the surface, the vasodilation behind blushing and warmth—and faulty control underlies flushing disorders and cold, poorly perfused skin.
 
 ## Pathology
 

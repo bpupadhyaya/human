@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Internet gaming taps oxytocin's social bonding: multiplayer worlds offer real social reward and connection through this bonding hormone, which is part of the draw—and why for some it substitutes for offline relationships."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Late-night gaming floods the eyes with screen photons: blue light suppresses melatonin and shifts the body clock, a direct route by which compulsive play wrecks sleep and feeds the insomnia and daytime fatigue around it."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Gaming's habits are wired by synaptic calcium: each dopamine-driven reward triggers calcium influx that strengthens reward-circuit synapses (long-term potentiation), the cellular learning that hardens play into compulsion."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Marathon gaming sessions can strain the heart: prolonged immobile sitting raises clot and venous-thrombosis risk, and rare cases of fatal arrhythmia during all-night play show how the sedentary extreme reaches the cardiovascular system."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -296,6 +305,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Internet gaming disorder runs on sleep debt and adenosine: late-night play overrides the adenosine sleep-pressure signal (often with caffeine), so chronic sleep loss compounds the disorder and worsens its mood and attention effects.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Behavioral addiction like gaming may inflame the reward circuit via microglia: repeated dopamine surges can activate these brain immune cells, and the resulting neuroinflammation is implicated in remodeling the motivation pathways that sustain compulsive play.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Internet gaming taps oxytocin's social bonding: multiplayer worlds offer real social reward and connection through this bonding hormone, which is part of the draw—and why for some it substitutes for offline relationships.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Late-night gaming floods the eyes with screen photons: blue light suppresses melatonin and shifts the body clock, a direct route by which compulsive play wrecks sleep and feeds the insomnia and daytime fatigue around it.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gaming's habits are wired by synaptic calcium: each dopamine-driven reward triggers calcium influx that strengthens reward-circuit synapses (long-term potentiation), the cellular learning that hardens play into compulsion.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Marathon gaming sessions can strain the heart: prolonged immobile sitting raises clot and venous-thrombosis risk, and rare cases of fatal arrhythmia during all-night play show how the sedentary extreme reaches the cardiovascular system.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
