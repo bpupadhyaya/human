@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 marks the line between reactive and clonal thrombocytosis: this cytokine drives platelet production in inflammation, so a high count from infection or cancer must be told apart from the clonal overproduction that defines essential thrombocythemia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Essential thrombocythemia starves fingertips of oxygen: clumps of excess platelets plug tiny vessels, causing the burning, red, oxygen-starved hands and feet of erythromelalgia and risking digital ischemia."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Essential thrombocythemia threatens the heart: its thrombotic tendency raises the risk of coronary clots and heart attacks, part of why even symptom-free patients may need aspirin and cytoreduction."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Essential thrombocythemia turns fibrinogen into clots: the swollen platelet mass, activating with fibrinogen, builds the thromboses—strokes, heart attacks, and vein clots—that are the disease's main danger."
 ---
 
 # Essential Thrombocythemia
@@ -265,6 +274,9 @@ Management:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Platelet-rich blood in essential thrombocythemia can fake high potassium: the enormous platelet mass leaks potassium after the sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Essential thrombocythemia strikes the brain's small vessels: excess platelets cause headaches, visual disturbance, TIAs and burning red extremities (erythromelalgia), microvascular symptoms that low-dose aspirin often relieves.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 marks the line between reactive and clonal thrombocytosis: this cytokine drives platelet production in inflammation, so a high count from infection or cancer must be told apart from the clonal overproduction that defines essential thrombocythemia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Essential thrombocythemia starves fingertips of oxygen: clumps of excess platelets plug tiny vessels, causing the burning, red, oxygen-starved hands and feet of erythromelalgia and risking digital ischemia.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Essential thrombocythemia threatens the heart: its thrombotic tendency raises the risk of coronary clots and heart attacks, part of why even symptom-free patients may need aspirin and cytoreduction.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Essential thrombocythemia turns fibrinogen into clots: the swollen platelet mass, activating with fibrinogen, builds the thromboses—strokes, heart attacks, and vein clots—that are the disease's main danger.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

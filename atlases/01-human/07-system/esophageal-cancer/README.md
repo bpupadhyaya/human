@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages help esophageal cancer spread: drawn into the stroma, they secrete factors that promote invasion, angiogenesis and immune suppression, supporting a tumor already hard to treat once it grows beyond the wall."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency can seed esophageal cancer: chronic lack of iron causes Plummer-Vinson webs in the upper esophagus, a recognized precursor to squamous cell carcinoma, so the metal's absence raises cancer risk."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Esophageal cancer chokes the gullet with fibrosis: the tumor's dense desmoplastic stroma and the scarring from radiation stiffen and narrow the esophagus, worsening the dysphagia that defines the disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Esophageal cancer recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build new blood supply, fueling invasion and spread of an already aggressive cancer."
 ---
 
 # Esophageal Cancer
@@ -285,6 +294,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Nitrogen-based nitrosamines are key esophageal carcinogens: found in preserved, pickled and smoked foods common in high-incidence regions, these DNA-damaging compounds drive squamous esophageal cancer, a dietary risk distinct from smoking and alcohol.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic reflux drives esophageal cancer through NF-kB: acid and bile injury keep this inflammatory switch active in the lining, fueling the Barrett's metaplasia and survival signaling that progress toward adenocarcinoma.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages help esophageal cancer spread: drawn into the stroma, they secrete factors that promote invasion, angiogenesis and immune suppression, supporting a tumor already hard to treat once it grows beyond the wall.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency can seed esophageal cancer: chronic lack of iron causes Plummer-Vinson webs in the upper esophagus, a recognized precursor to squamous cell carcinoma, so the metal's absence raises cancer risk.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Esophageal cancer chokes the gullet with fibrosis: the tumor's dense desmoplastic stroma and the scarring from radiation stiffen and narrow the esophagus, worsening the dysphagia that defines the disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Esophageal cancer recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build new blood supply, fueling invasion and spread of an already aggressive cancer.
 
 ---
 
