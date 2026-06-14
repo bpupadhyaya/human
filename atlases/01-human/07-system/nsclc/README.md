@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/copd
     relation: connects-to
     note: "NSCLC and COPD are linked by shared tobacco injury: smoking drives both, COPD independently raises lung-cancer risk through chronic inflammation, and the two coexist so often that emphysema complicates surgery and screening targets this overlapping high-risk population."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "TP53 is among the most mutated genes in NSCLC: smoking-driven DNA damage frequently inactivates p53, removing a key brake on the cell cycle and apoptosis, so its loss—often alongside KRAS—marks aggressive, treatment-resistant lung adenocarcinoma."
+  - target: 01-human/07-system/respiratory-system
+    relation: connects-to
+    note: "NSCLC is the dominant cancer of the respiratory system: arising in bronchial and alveolar cells mostly from smoking, it accounts for ~85% of lung cancers and destroys lung function as it grows—the leading cause of cancer death worldwide."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "NSCLC staging hinges on the lymphatic system: spread to hilar and mediastinal lymph nodes (the N stage) determines whether disease is surgically curable, so nodal sampling by EBUS or mediastinoscopy is decisive in planning treatment."
 ---
 
 # NSCLC
@@ -208,6 +217,9 @@ cross_links:
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — MET is a targetable NSCLC driver: MET exon-14 skipping mutations and MET amplification drive a subset of non-small-cell lung cancers and confer resistance to EGFR inhibitors, so MET-directed drugs extend the precision-oncology toolkit beyond EGFR, ALK and KRAS.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a classic NSCLC metastatic site: lung cancer characteristically spreads to the adrenals (along with brain, bone and liver), so an adrenal mass in a lung-cancer patient demands staging workup—adrenal involvement often marks stage IV disease.
 - `connects-to` → **[COPD](../copd/README.md)** — NSCLC and COPD are linked by shared tobacco injury: smoking drives both, COPD independently raises lung-cancer risk through chronic inflammation, and the two coexist so often that emphysema complicates surgery and screening targets this overlapping high-risk population.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — TP53 is among the most mutated genes in NSCLC: smoking-driven DNA damage frequently inactivates p53, removing a key brake on the cell cycle and apoptosis, so its loss—often alongside KRAS—marks aggressive, treatment-resistant lung adenocarcinoma.
+- `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — NSCLC is the dominant cancer of the respiratory system: arising in bronchial and alveolar cells mostly from smoking, it accounts for ~85% of lung cancers and destroys lung function as it grows—the leading cause of cancer death worldwide.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — NSCLC staging hinges on the lymphatic system: spread to hilar and mediastinal lymph nodes (the N stage) determines whether disease is surgically curable, so nodal sampling by EBUS or mediastinoscopy is decisive in planning treatment.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

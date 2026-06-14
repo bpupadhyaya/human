@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "The PI3K/mTOR pathway is active in osteosarcoma: growth signaling through mTOR drives proliferation and survival, so mTOR inhibitors (often with other agents) are studied in this chemotherapy-resistant sarcoma where few targeted options exist."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy treats osteosarcomas at hard-to-reach sites: axial and skull-base tumors that resist surgery and need high radiation doses benefit from protons' sharp dose falloff, sparing the spinal cord and nearby organs in this radioresistant bone cancer."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-ion radiotherapy is an option for unresectable osteosarcoma: heavy ions deliver dense, highly damaging dose to this radioresistant tumor, useful for pelvic or spinal lesions that cannot be removed surgically—available at specialized particle centers."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Osteosarcoma is defined by malignant osteoid: its hallmark is tumor cells laying down disorganized bone matrix (collagen-rich osteoid), so producing osteoid distinguishes it histologically from other bone tumors like Ewing sarcoma."
 ---
 
 # Osteosarcoma
@@ -230,6 +239,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Osteosarcoma is a malignant spindle-cell tumor making osteoid: its fibroblast-like mesenchymal cells produce immature bone matrix directly, distinguishing it from other sarcomas—so finding tumor cells laying down osteoid is the diagnostic hallmark on biopsy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis fuels osteosarcoma and predicts spread: the tumor secretes VEGF to vascularize and metastasize (chiefly to lung), high levels worsen prognosis, and anti-angiogenic kinase inhibitors are used in relapsed disease.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — The PI3K/mTOR pathway is active in osteosarcoma: growth signaling through mTOR drives proliferation and survival, so mTOR inhibitors (often with other agents) are studied in this chemotherapy-resistant sarcoma where few targeted options exist.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy treats osteosarcomas at hard-to-reach sites: axial and skull-base tumors that resist surgery and need high radiation doses benefit from protons' sharp dose falloff, sparing the spinal cord and nearby organs in this radioresistant bone cancer.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an option for unresectable osteosarcoma: heavy ions deliver dense, highly damaging dose to this radioresistant tumor, useful for pelvic or spinal lesions that cannot be removed surgically—available at specialized particle centers.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Osteosarcoma is defined by malignant osteoid: its hallmark is tumor cells laying down disorganized bone matrix (collagen-rich osteoid), so producing osteoid distinguishes it histologically from other bone tumors like Ewing sarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
