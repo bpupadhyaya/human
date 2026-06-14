@@ -114,6 +114,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver quietly governs platelet counts in ITP: it makes most of the body's thrombopoietin and helps clear antibody-coated platelets, so liver function shapes both platelet production and destruction in the disease."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Rituximab treats ITP by deleting B cells via CD20: stripping the antibody-producing B cells lowers the anti-platelet autoantibodies, a second-line option that can give durable remissions in immune thrombocytopenia."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "ITP's most feared danger is bleeding into the brain: though rare, intracranial hemorrhage from the very low platelet count is the leading cause of death, which is why severe thrombocytopenia is treated urgently."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help break self-tolerance in ITP: by presenting platelet antigens to T cells they license the autoimmune response that drives B cells to make anti-platelet antibodies, a step upstream of the destruction."
 ---
 
 # Immune Thrombocytopenia
@@ -281,6 +290,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Immune thrombocytopenia is first treated with cortisol's kin: corticosteroids dampen the antibody response and the macrophage clearance of platelets, raising counts as the standard first-line therapy for symptomatic ITP.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — ITP stems from failed tolerance by regulatory T cells: deficient or dysfunctional Tregs let the immune system make antibodies against the body's own platelets, so restoring regulatory T-cell control is an emerging therapeutic goal.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver quietly governs platelet counts in ITP: it makes most of the body's thrombopoietin and helps clear antibody-coated platelets, so liver function shapes both platelet production and destruction in the disease.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab treats ITP by deleting B cells via CD20: stripping the antibody-producing B cells lowers the anti-platelet autoantibodies, a second-line option that can give durable remissions in immune thrombocytopenia.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — ITP's most feared danger is bleeding into the brain: though rare, intracranial hemorrhage from the very low platelet count is the leading cause of death, which is why severe thrombocytopenia is treated urgently.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help break self-tolerance in ITP: by presenting platelet antigens to T cells they license the autoimmune response that drives B cells to make anti-platelet antibodies, a step upstream of the destruction.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

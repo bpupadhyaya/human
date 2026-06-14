@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/sglt2
     relation: connects-to
     note: "SGLT2 inhibitors now help protect kidneys in IgA nephropathy: blocking this glucose transporter lowers glomerular pressure and proteinuria independent of blood sugar, adding to RAAS blockade as a pillar of slowing progression to kidney failure."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "IgA nephropathy starts in the gut, not the kidney: the abnormal galactose-deficient IgA1 that lands in the glomerulus is made by the small intestine's mucosal immune system, so the gut-kidney axis is central—and a target of gut-release budesonide."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages drive the kidney damage in IgA nephropathy: drawn into the glomerulus by IgA-immune-complex deposits, they release cytokines and enzymes that inflame and scar the filter, helping turn deposition into progressive kidney injury."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Salt handling shapes IgA nephropathy's course: as the disease scars the kidney, sodium retention worsens hypertension and proteinuria, so dietary salt restriction supports the RAAS-blocking drugs that slow its progression."
 ---
 
 # IgA Nephropathy
@@ -219,6 +228,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — IgA nephropathy is first treated by blocking angiotensin II: ACE inhibitors and ARBs lower the glomerular pressure that angiotensin II drives, cutting the proteinuria that predicts kidney decline—the cornerstone of slowing this disease.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — IgA nephropathy classically leaks red cells: immune-complex injury to the glomerulus lets erythrocytes spill into the urine, often as visible hematuria a day or two after a sore throat (synpharyngitic), a hallmark that points to the diagnosis.
 - `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — SGLT2 inhibitors now help protect kidneys in IgA nephropathy: blocking this glucose transporter lowers glomerular pressure and proteinuria independent of blood sugar, adding to RAAS blockade as a pillar of slowing progression to kidney failure.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — IgA nephropathy starts in the gut, not the kidney: the abnormal galactose-deficient IgA1 that lands in the glomerulus is made by the small intestine's mucosal immune system, so the gut-kidney axis is central—and a target of gut-release budesonide.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive the kidney damage in IgA nephropathy: drawn into the glomerulus by IgA-immune-complex deposits, they release cytokines and enzymes that inflame and scar the filter, helping turn deposition into progressive kidney injury.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Salt handling shapes IgA nephropathy's course: as the disease scars the kidney, sodium retention worsens hypertension and proteinuria, so dietary salt restriction supports the RAAS-blocking drugs that slow its progression.
 
 ---
 
