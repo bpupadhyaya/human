@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells help break self-tolerance in ITP: by presenting platelet antigens to T cells they license the autoimmune response that drives B cells to make anti-platelet antibodies, a step upstream of the destruction."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chronic ITP can drain iron: ongoing mucosal and menstrual bleeding from the very low platelet count slowly depletes the body's iron, adding deficiency anemia to the thrombocytopenia."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "ITP shows first on the skin: pinpoint petechiae and bruising purpura, the bleeding into skin from too few platelets, are the cardinal visible sign that brings patients in."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "ITP destroys platelets partly through complement: antibody-coated platelets can fix complement C3, marking them for a second route of clearance beyond the spleen's macrophages."
 ---
 
 # Immune Thrombocytopenia
@@ -293,6 +302,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Rituximab treats ITP by deleting B cells via CD20: stripping the antibody-producing B cells lowers the anti-platelet autoantibodies, a second-line option that can give durable remissions in immune thrombocytopenia.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — ITP's most feared danger is bleeding into the brain: though rare, intracranial hemorrhage from the very low platelet count is the leading cause of death, which is why severe thrombocytopenia is treated urgently.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help break self-tolerance in ITP: by presenting platelet antigens to T cells they license the autoimmune response that drives B cells to make anti-platelet antibodies, a step upstream of the destruction.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chronic ITP can drain iron: ongoing mucosal and menstrual bleeding from the very low platelet count slowly depletes the body's iron, adding deficiency anemia to the thrombocytopenia.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — ITP shows first on the skin: pinpoint petechiae and bruising purpura, the bleeding into skin from too few platelets, are the cardinal visible sign that brings patients in.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — ITP destroys platelets partly through complement: antibody-coated platelets can fix complement C3, marking them for a second route of clearance beyond the spleen's macrophages.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

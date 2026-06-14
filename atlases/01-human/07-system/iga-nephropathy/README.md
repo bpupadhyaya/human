@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Salt handling shapes IgA nephropathy's course: as the disease scars the kidney, sodium retention worsens hypertension and proteinuria, so dietary salt restriction supports the RAAS-blocking drugs that slow its progression."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "IgA nephropathy has a skin-and-systemic cousin: IgA vasculitis (Henoch-Schönlein purpura) deposits the same IgA complexes in the skin's small vessels, causing the palpable purpura that often accompanies the kidney disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "IgA nephropathy bleeds into the urine: episodes of visible hematuria, classically after a sore throat, plus the anemia of progressing kidney disease, can drain the body's iron over time."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Severe IgA nephropathy recruits neutrophils: in crescentic, rapidly progressive disease they flood the inflamed glomerulus, helping build the cellular crescents that signal aggressive kidney injury."
 ---
 
 # IgA Nephropathy
@@ -231,6 +240,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — IgA nephropathy starts in the gut, not the kidney: the abnormal galactose-deficient IgA1 that lands in the glomerulus is made by the small intestine's mucosal immune system, so the gut-kidney axis is central—and a target of gut-release budesonide.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive the kidney damage in IgA nephropathy: drawn into the glomerulus by IgA-immune-complex deposits, they release cytokines and enzymes that inflame and scar the filter, helping turn deposition into progressive kidney injury.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Salt handling shapes IgA nephropathy's course: as the disease scars the kidney, sodium retention worsens hypertension and proteinuria, so dietary salt restriction supports the RAAS-blocking drugs that slow its progression.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — IgA nephropathy has a skin-and-systemic cousin: IgA vasculitis (Henoch-Schönlein purpura) deposits the same IgA complexes in the skin's small vessels, causing the palpable purpura that often accompanies the kidney disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IgA nephropathy bleeds into the urine: episodes of visible hematuria, classically after a sore throat, plus the anemia of progressing kidney disease, can drain the body's iron over time.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Severe IgA nephropathy recruits neutrophils: in crescentic, rapidly progressive disease they flood the inflamed glomerulus, helping build the cellular crescents that signal aggressive kidney injury.
 
 ---
 
