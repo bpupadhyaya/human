@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "Essential thrombocythemia's high cell turnover can cause gout: rapid platelet and cell production raises uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative neoplasms."
+  - target: 01-human/03-molecular/thrombopoietin
+    relation: connects-to
+    note: "Essential thrombocythemia hijacks thrombopoietin signaling: TPO normally tells the marrow how many platelets to make through the MPL receptor, but ET's JAK2, CALR, and MPL mutations switch that pathway on permanently, churning out platelets without the hormone's command."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "All of ET's driver mutations converge on STAT: JAK2, CALR, and MPL defects all end up activating STAT transcription factors, the shared switch that turns on the genes driving runaway platelet production—why JAK-STAT inhibitors are used in the disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Platelets in essential thrombocythemia clot through calcium: calcium signaling triggers platelet activation and aggregation, so the vast excess of platelets, primed to release and respond to calcium, tips patients toward the thromboses that menace them."
 ---
 
 # Essential Thrombocythemia
@@ -241,6 +250,9 @@ Management:
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Essential thrombocythemia complicates pregnancy through the placenta: the thrombotic tendency causes placental clots, miscarriage, and growth restriction, so pregnant patients are managed with low-dose aspirin and sometimes heparin to protect the placenta.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Essential thrombocythemia announces itself in the skin as erythromelalgia: platelet microthrombi in small vessels cause burning, red, painful hands and feet, a near-specific symptom that dramatically improves with low-dose aspirin.
 - `connects-to` → **[Gout](../gout/README.md)** — Essential thrombocythemia's high cell turnover can cause gout: rapid platelet and cell production raises uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative neoplasms.
+- `connects-to` → **[Thrombopoietin](../../03-molecular/thrombopoietin/README.md)** — Essential thrombocythemia hijacks thrombopoietin signaling: TPO normally tells the marrow how many platelets to make through the MPL receptor, but ET's JAK2, CALR, and MPL mutations switch that pathway on permanently, churning out platelets without the hormone's command.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — All of ET's driver mutations converge on STAT: JAK2, CALR, and MPL defects all end up activating STAT transcription factors, the shared switch that turns on the genes driving runaway platelet production—why JAK-STAT inhibitors are used in the disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Platelets in essential thrombocythemia clot through calcium: calcium signaling triggers platelet activation and aggregation, so the vast excess of platelets, primed to release and respond to calcium, tips patients toward the thromboses that menace them.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

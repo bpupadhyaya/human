@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Esophageal smooth muscle ties to cancer risk: achalasia—failure of the smooth-muscle lower sphincter to relax—causes food stasis and chronic irritation that raises squamous cell carcinoma risk decades later, so long-standing achalasia needs surveillance."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Esophageal cancer often begins by losing CDKN2A (p16): inactivating this tumor suppressor is an early step as Barrett's esophagus progresses toward adenocarcinoma and in squamous tumors, releasing the cell-cycle brake before other mutations pile on."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Esophageal cancer recruits cancer-associated fibroblasts: they build the dense desmoplastic stroma around the tumor and secrete factors that promote invasion and resistance, making the fibroblast-rich microenvironment a driver of aggressive behavior."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Esophageal tumors evade immunity with regulatory T cells: Tregs accumulate and suppress the cytotoxic response, dampening the anti-tumor attack that PD-1 checkpoint therapy—now standard in esophageal cancer—aims to reawaken."
 ---
 
 # Esophageal Cancer
@@ -261,6 +270,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron-deficiency anemia can precede esophageal cancer: in Plummer-Vinson syndrome, chronic iron deficiency forms esophageal webs and raises the risk of squamous cell carcinoma, so dysphagia with anemia warrants endoscopy to catch early disease.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a common esophageal cancer metastasis site: hematogenous spread seeds the liver in advanced disease, marking incurable stage IV cancer, so liver imaging is part of staging that shifts treatment from surgery to systemic therapy.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Esophageal smooth muscle ties to cancer risk: achalasia—failure of the smooth-muscle lower sphincter to relax—causes food stasis and chronic irritation that raises squamous cell carcinoma risk decades later, so long-standing achalasia needs surveillance.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Esophageal cancer often begins by losing CDKN2A (p16): inactivating this tumor suppressor is an early step as Barrett's esophagus progresses toward adenocarcinoma and in squamous tumors, releasing the cell-cycle brake before other mutations pile on.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Esophageal cancer recruits cancer-associated fibroblasts: they build the dense desmoplastic stroma around the tumor and secrete factors that promote invasion and resistance, making the fibroblast-rich microenvironment a driver of aggressive behavior.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Esophageal tumors evade immunity with regulatory T cells: Tregs accumulate and suppress the cytotoxic response, dampening the anti-tumor attack that PD-1 checkpoint therapy—now standard in esophageal cancer—aims to reawaken.
 
 ---
 
