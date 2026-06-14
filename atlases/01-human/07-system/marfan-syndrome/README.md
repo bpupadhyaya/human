@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Marfan vessels show endothelial dysfunction: the abnormal fibrillin matrix and altered TGF-beta signaling impair the endothelial cells lining the aorta, reducing flow-mediated dilation and adding to the wall stress that drives aneurysm."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Marfan's weak connective tissue threatens oxygen supply through pneumothorax: fragile apical lung blebs rupture and collapse the lung, cutting off air exchange—a recurrent emergency in tall, Marfan-bodied patients."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells help weaken the Marfan aorta: they infiltrate the aneurysmal aortic wall and release proteases that chew through the elastic media, adding to the matrix breakdown that drives dilation toward dissection."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Marfan aneurysms are fueled by overactive mTOR: disrupted fibrillin and TGF-β signaling ramp up mTOR in the aortic wall, driving the smooth-muscle changes behind aortic dilation—so rapamycin-class drugs are studied to slow it."
 ---
 
 # Marfan Syndrome
@@ -262,6 +271,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Marfan can weaken heart muscle itself: beyond valve and aortic disease, excess TGF-beta signaling produces an intrinsic cardiomyopathy in which cardiomyocyte dysfunction mildly dilates and weakens the left ventricle, so the heart is monitored even when valves look normal.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The Marfan aorta fails through medial degeneration: fibrillin loss and unleashed TGF-beta fragment elastic fibers and drive fibrosis in the vessel wall, weakening it until the aortic root dilates and risks dissection—the syndrome's lethal complication.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Marfan vessels show endothelial dysfunction: the abnormal fibrillin matrix and altered TGF-beta signaling impair the endothelial cells lining the aorta, reducing flow-mediated dilation and adding to the wall stress that drives aneurysm.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Marfan's weak connective tissue threatens oxygen supply through pneumothorax: fragile apical lung blebs rupture and collapse the lung, cutting off air exchange—a recurrent emergency in tall, Marfan-bodied patients.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help weaken the Marfan aorta: they infiltrate the aneurysmal aortic wall and release proteases that chew through the elastic media, adding to the matrix breakdown that drives dilation toward dissection.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Marfan aneurysms are fueled by overactive mTOR: disrupted fibrillin and TGF-β signaling ramp up mTOR in the aortic wall, driving the smooth-muscle changes behind aortic dilation—so rapamycin-class drugs are studied to slow it.
 
 ---
 

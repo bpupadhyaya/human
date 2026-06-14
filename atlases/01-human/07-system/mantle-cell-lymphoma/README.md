@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Mantle cell lymphoma is now a CAR-T target: brexucabtagene engineers a patient's cytotoxic T cells to recognize CD19 and kill the lymphoma, achieving durable remissions in disease that has relapsed after chemo and BTK inhibitors."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Mantle cell lymphoma's overexpressed cyclin D1 partners with CDK4/6: the t(11;14) translocation floods the cell with cyclin D1, which activates CDK4/6 to push past the cell-cycle checkpoint—making CDK4/6 inhibitors like palbociclib a rational target."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Mantle cell lymphoma loves the gut as lymphomatous polyposis: it studs the colon and small bowel with countless lymphoid polyps, so multiple GI polyps that turn out to be lymphoma rather than adenomas are a classic MCL presentation."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Rituximab clears mantle cell lymphoma partly via NK cells: the anti-CD20 antibody tags the malignant B cells for natural killer cells to destroy by antibody-dependent killing, a backbone mechanism of MCL immunochemotherapy."
 ---
 
 # Mantle Cell Lymphoma
@@ -245,6 +254,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Mantle cell lymphoma is driven through mTOR: cyclin D1 overexpression and PI3K-AKT signaling converge on mTOR to push proliferation, which is why the mTOR inhibitor temsirolimus is an approved therapy for relapsed disease.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Mantle cell lymphoma and Waldenstrom macroglobulinemia are both BTK-dependent B-cell cancers: ibrutinib works in each by blocking B-cell receptor signaling, though they differ in cell of origin and the IgM paraprotein that defines Waldenstrom.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Mantle cell lymphoma is now a CAR-T target: brexucabtagene engineers a patient's cytotoxic T cells to recognize CD19 and kill the lymphoma, achieving durable remissions in disease that has relapsed after chemo and BTK inhibitors.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Mantle cell lymphoma's overexpressed cyclin D1 partners with CDK4/6: the t(11;14) translocation floods the cell with cyclin D1, which activates CDK4/6 to push past the cell-cycle checkpoint—making CDK4/6 inhibitors like palbociclib a rational target.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Mantle cell lymphoma loves the gut as lymphomatous polyposis: it studs the colon and small bowel with countless lymphoid polyps, so multiple GI polyps that turn out to be lymphoma rather than adenomas are a classic MCL presentation.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rituximab clears mantle cell lymphoma partly via NK cells: the anti-CD20 antibody tags the malignant B cells for natural killer cells to destroy by antibody-dependent killing, a backbone mechanism of MCL immunochemotherapy.
 
 ---
 
