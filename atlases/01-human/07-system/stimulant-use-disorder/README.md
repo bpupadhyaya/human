@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/panic-disorder
     relation: connects-to
     note: "Stimulants can manufacture panic: the surge of dopamine and noradrenaline races the heart and floods the body with fight-or-flight signals, triggering panic attacks during intoxication and withdrawal—so stimulant use both mimics and worsens panic disorder."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Stimulants can wreck the kidneys: cocaine and methamphetamine cause vasoconstriction, severe hypertension and rhabdomyolysis, so acute kidney injury and, over time, chronic kidney disease are recognized harms of heavy stimulant use."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Methamphetamine inflames the brain via microglia: it activates microglia whose toxic mediators damage dopamine neurons, contributing to the lasting cognitive and movement problems seen after heavy use—neurotoxicity beyond addiction."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Stimulants drive dangerous spikes in blood pressure: cocaine and amphetamines surge catecholamines to cause acute hypertension that triggers heart attacks, strokes and aortic dissection—the cardiovascular emergencies that make stimulant toxicity lethal."
 ---
 
 # Stimulant Use Disorder
@@ -245,6 +254,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Stimulant use shows on the skin: methamphetamine causes formication—the sensation of 'bugs' crawling—driving compulsive picking and sores, while injection leaves track marks and abscesses, so skin findings are visible clues to stimulant use disorder.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Stimulants in pregnancy damage the placenta: cocaine and methamphetamine constrict placental vessels, raising the risk of abruption, growth restriction, and preterm birth—so stimulant use disorder in pregnancy threatens the fetus through impaired placental blood flow.
 - `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Stimulants can manufacture panic: the surge of dopamine and noradrenaline races the heart and floods the body with fight-or-flight signals, triggering panic attacks during intoxication and withdrawal—so stimulant use both mimics and worsens panic disorder.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Stimulants can wreck the kidneys: cocaine and methamphetamine cause vasoconstriction, severe hypertension and rhabdomyolysis, so acute kidney injury and, over time, chronic kidney disease are recognized harms of heavy stimulant use.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Methamphetamine inflames the brain via microglia: it activates microglia whose toxic mediators damage dopamine neurons, contributing to the lasting cognitive and movement problems seen after heavy use—neurotoxicity beyond addiction.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Stimulants drive dangerous spikes in blood pressure: cocaine and amphetamines surge catecholamines to cause acute hypertension that triggers heart attacks, strokes and aortic dissection—the cardiovascular emergencies that make stimulant toxicity lethal.
 
 ## Treatment
 
