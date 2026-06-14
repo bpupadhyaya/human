@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "B-cell antibodies help classify IBD: serologic markers—ASCA antibodies leaning toward Crohn's and pANCA toward ulcerative colitis—reflect the B-cell response to gut antigens and help distinguish the two forms when biopsies are ambiguous."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "IBD is a leading cause of iron-deficiency anemia: chronic gut bleeding and inflammation that blocks iron absorption leave many patients anemic, so iron status is monitored and often repleted intravenously when the gut can't take it up."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "IBD spills out onto the skin: erythema nodosum and pyoderma gangrenosum are extraintestinal manifestations that can flare with bowel activity, so skin lesions are a window onto the systemic reach of the gut disease."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells inflame the IBD gut: their numbers rise in the diseased mucosa, where their histamine and mediators drive the pain, diarrhea and barrier breakdown, linking the gut's immune-nerve crosstalk to symptoms."
 ---
 
 # Inflammatory Bowel Disease
@@ -271,6 +280,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — IBD, especially Crohn's, traces to faulty autophagy: risk genes like ATG16L1 cripple the cellular self-cleaning that clears gut bacteria and keeps Paneth cells working, so impaired autophagy lets the microbiome provoke chronic intestinal inflammation.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the thermostat of IBD: by sampling gut microbes and deciding whether to trigger tolerance or attack, these cells tip the Th17-versus-regulatory-T-cell balance that determines whether the intestine stays calm or inflames.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B-cell antibodies help classify IBD: serologic markers—ASCA antibodies leaning toward Crohn's and pANCA toward ulcerative colitis—reflect the B-cell response to gut antigens and help distinguish the two forms when biopsies are ambiguous.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IBD is a leading cause of iron-deficiency anemia: chronic gut bleeding and inflammation that blocks iron absorption leave many patients anemic, so iron status is monitored and often repleted intravenously when the gut can't take it up.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — IBD spills out onto the skin: erythema nodosum and pyoderma gangrenosum are extraintestinal manifestations that can flare with bowel activity, so skin lesions are a window onto the systemic reach of the gut disease.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the IBD gut: their numbers rise in the diseased mucosa, where their histamine and mediators drive the pain, diarrhea and barrier breakdown, linking the gut's immune-nerve crosstalk to symptoms.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

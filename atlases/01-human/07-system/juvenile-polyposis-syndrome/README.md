@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Juvenile polyps teem with macrophages: these hamartomas carry a heavy inflammatory infiltrate in their stroma, and the immune cells plus dilated mucus-filled glands make the polyps fragile and prone to the bleeding that causes anemia."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Juvenile polyps bleed and drain iron: the fragile, mucus-filled hamartomas erode and ooze blood into the gut, so chronic blood loss makes iron-deficiency anemia a common and early sign of the syndrome in children."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "SMAD4-related JPS overlaps HHT and reaches the lungs: patients with SMAD4 mutations can develop pulmonary arteriovenous malformations, so this gut-polyp syndrome carries a vascular lung risk needing screening."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells join the inflamed stroma of juvenile polyps: alongside the heavy macrophage infiltrate, antigen-presenting dendritic cells populate the hamartomas, part of the immune-rich microenvironment that makes the polyps inflamed and friable."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -265,6 +274,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — SMAD4 juvenile polyposis overlaps with a blood-vessel disease: SMAD4 carriers can also have hereditary hemorrhagic telangiectasia, where faulty endothelial BMP/TGF-β signaling builds fragile telangiectasias and arteriovenous malformations that bleed.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — JPS-HHT's vascular lesions run on VEGF: dysregulated angiogenesis from disrupted BMP signaling spawns telangiectasias and AVMs, so anti-VEGF drugs like bevacizumab are used to control the severe bleeding in SMAD4 carriers.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Juvenile polyps teem with macrophages: these hamartomas carry a heavy inflammatory infiltrate in their stroma, and the immune cells plus dilated mucus-filled glands make the polyps fragile and prone to the bleeding that causes anemia.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Juvenile polyps bleed and drain iron: the fragile, mucus-filled hamartomas erode and ooze blood into the gut, so chronic blood loss makes iron-deficiency anemia a common and early sign of the syndrome in children.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — SMAD4-related JPS overlaps HHT and reaches the lungs: patients with SMAD4 mutations can develop pulmonary arteriovenous malformations, so this gut-polyp syndrome carries a vascular lung risk needing screening.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells join the inflamed stroma of juvenile polyps: alongside the heavy macrophage infiltrate, antigen-presenting dendritic cells populate the hamartomas, part of the immune-rich microenvironment that makes the polyps inflamed and friable.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
