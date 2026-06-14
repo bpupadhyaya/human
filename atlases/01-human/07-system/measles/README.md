@@ -101,6 +101,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Measles depletes T cells acutely: by infecting activated lymphocytes it causes sharp lymphopenia and suppressed cell-mediated immunity during infection, which is why bacterial pneumonia—not the virus itself—causes most measles deaths."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Measles erases immune memory by killing plasma and memory cells: the virus depletes the long-lived B cells and plasma cells holding antibody memory, so survivors lose protection against other pathogens for years—'immune amnesia.'"
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Measles in pregnancy is dangerous across the placenta: maternal infection raises the risk of miscarriage, prematurity and severe disease, and the virus can cross to cause congenital or neonatal measles—so vaccination before pregnancy matters."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Measles' late brain disease attacks memory circuits: SSPE (subacute sclerosing panencephalitis), a fatal years-later complication of persistent virus, progressively destroys neurons—including hippocampal memory regions—causing dementia and seizures."
 ---
 
 # Measles
@@ -273,6 +282,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Measles is lymphotropic: it enters via the SLAM (CD150) receptor on immune cells and replicates in lymph nodes, spleen, and tonsils, causing generalized lymphadenopathy and the giant cells seen in lymphoid tissue—lymphoid organs are its main amplification site.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Measles can blind through the eye: the virus causes keratoconjunctivitis, and in vitamin-A-deficient children corneal ulceration and scarring lead to blindness—so measles remains a leading cause of childhood blindness in poor settings, treated with vitamin A.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Measles depletes T cells acutely: by infecting activated lymphocytes it causes sharp lymphopenia and suppressed cell-mediated immunity during infection, which is why bacterial pneumonia—not the virus itself—causes most measles deaths.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Measles erases immune memory by killing plasma and memory cells: the virus depletes the long-lived B cells and plasma cells holding antibody memory, so survivors lose protection against other pathogens for years—'immune amnesia.'
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Measles in pregnancy is dangerous across the placenta: maternal infection raises the risk of miscarriage, prematurity and severe disease, and the virus can cross to cause congenital or neonatal measles—so vaccination before pregnancy matters.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Measles' late brain disease attacks memory circuits: SSPE (subacute sclerosing panencephalitis), a fatal years-later complication of persistent virus, progressively destroys neurons—including hippocampal memory regions—causing dementia and seizures.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "The heart helps diagnose Lewy body dementia: alpha-synuclein damages cardiac sympathetic nerves, so a MIBG scan shows reduced cardiac uptake—a marker that distinguishes Lewy body disease from Alzheimer's and other dementias."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Vivid visual hallucinations set Lewy body dementia apart: degeneration in visual-processing pathways makes well-formed hallucinations (often of people or animals) a core early feature, helping distinguish it from Alzheimer's at the bedside."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Lewy body dementia is treated partly by tuning glutamate: the NMDA-blocker memantine dampens excitotoxic glutamate signaling to modestly help cognition, complementing the cholinesterase inhibitors that target the disease's severe acetylcholine loss."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Brain iron accumulation feeds Lewy body disease: iron builds up in vulnerable neurons and catalyzes oxidative stress that promotes alpha-synuclein aggregation, linking a metal imbalance to the protein clumping at the disease's core."
 ---
 
 # Lewy Body Dementia
@@ -257,6 +266,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Lewy body dementia is a failure of protein clearance: when autophagy can't degrade misfolded alpha-synuclein, it aggregates into the Lewy bodies that poison neurons, so boosting this cellular recycling system is a target shared with Parkinson's disease.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Lewy body dementia often starts in the gut: constipation and alpha-synuclein deposits in enteric nerves can precede cognitive and motor signs by years, echoing Parkinson's 'gut-first' route along the vagus nerve into the brain.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart helps diagnose Lewy body dementia: alpha-synuclein damages cardiac sympathetic nerves, so a MIBG scan shows reduced cardiac uptake—a marker that distinguishes Lewy body disease from Alzheimer's and other dementias.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Vivid visual hallucinations set Lewy body dementia apart: degeneration in visual-processing pathways makes well-formed hallucinations (often of people or animals) a core early feature, helping distinguish it from Alzheimer's at the bedside.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Lewy body dementia is treated partly by tuning glutamate: the NMDA-blocker memantine dampens excitotoxic glutamate signaling to modestly help cognition, complementing the cholinesterase inhibitors that target the disease's severe acetylcholine loss.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Brain iron accumulation feeds Lewy body disease: iron builds up in vulnerable neurons and catalyzes oxidative stress that promotes alpha-synuclein aggregation, linking a metal imbalance to the protein clumping at the disease's core.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
