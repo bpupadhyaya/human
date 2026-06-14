@@ -99,6 +99,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Repeated binges overwork the pancreas: large carbohydrate-rich binges force big insulin surges from pancreatic beta cells, and over time this metabolic stress feeds the insulin resistance linking binge-eating disorder to type 2 diabetes."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Binge-eating disorder is reinforced at reward synapses: each binge's dopamine surge strengthens the synapses linking food cues to craving, so the brain learns the binge the way it learns an addiction, making the urge harder to resist."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Overeating in binge-eating disorder inflames the brain's microglia: energy-dense binges activate these immune cells in the hypothalamus, and the resulting inflammation blunts satiety signals, helping eating run past fullness."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Binge-eating disorder burdens the liver: recurrent calorie excess and the obesity it drives deposit fat in the liver, making non-alcoholic fatty liver disease a common metabolic consequence of the condition."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -287,6 +296,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Binge eating is driven partly by the brain's opioid 'liking' system: mu-opioid signaling makes palatable food intensely pleasurable, fueling loss-of-control eating, which is why opioid-blocking drugs are studied to blunt the reward of a binge.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Binge-eating disorder strains the stomach's satiety signals: huge rapid meals overdistend the stomach and blunt the fullness cues that normally end eating, so disrupted gastric stretch-signaling helps the binge run past satiety.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Repeated binges overwork the pancreas: large carbohydrate-rich binges force big insulin surges from pancreatic beta cells, and over time this metabolic stress feeds the insulin resistance linking binge-eating disorder to type 2 diabetes.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Binge-eating disorder is reinforced at reward synapses: each binge's dopamine surge strengthens the synapses linking food cues to craving, so the brain learns the binge the way it learns an addiction, making the urge harder to resist.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Overeating in binge-eating disorder inflames the brain's microglia: energy-dense binges activate these immune cells in the hypothalamus, and the resulting inflammation blunts satiety signals, helping eating run past fullness.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Binge-eating disorder burdens the liver: recurrent calorie excess and the obesity it drives deposit fat in the liver, making non-alcoholic fatty liver disease a common metabolic consequence of the condition.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
