@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Pancreatic cancer is an immune-cold tumor: a dense immunosuppressive, fibroblast-rich stroma excludes T cells, so checkpoint immunotherapy that works elsewhere largely fails here—except in the rare mismatch-repair-deficient subset that responds to PD-1 blockade."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Pancreatic cancer hides behind a wall of collagen: its intense desmoplastic stroma packs dense collagen that compresses vessels and blocks drug delivery, a major reason chemotherapy penetrates poorly and the tumor is so hard to treat."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Pancreatic cancer is a target for cancer vaccines: personalized mRNA neoantigen vaccines (e.g., autogene cevumeran) can induce tumor-specific cytotoxic T cells, and patients who mount a strong CD8 response show delayed recurrence after surgery."
+  - target: 01-human/07-system/lynch-syndrome
+    relation: connects-to
+    note: "Lynch syndrome is among the inherited causes of pancreatic cancer: MMR-gene carriers face a several-fold increased risk, so Lynch joins BRCA, Peutz-Jeghers and familial pancreatitis on the panel of syndromes prompting familial pancreatic surveillance."
 ---
 
 # Pancreatic Cancer
@@ -239,6 +248,9 @@ cross_links:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pancreatic cancer frustrates anti-VEGF therapy: despite secreting VEGF, the tumor builds a dense, poorly vascular desmoplastic stroma that walls off blood flow and drug delivery, so antiangiogenic agents have largely failed—part of why PDAC is so chemoresistant.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pancreatic cancer is among the deadliest cancers of the digestive system: arising silently in the pancreas, it obstructs the bile duct (painless jaundice) and invades nerves and vessels, so most present unresectable—making it a leading cause of cancer death.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Pancreatic cancer is an immune-cold tumor: a dense immunosuppressive, fibroblast-rich stroma excludes T cells, so checkpoint immunotherapy that works elsewhere largely fails here—except in the rare mismatch-repair-deficient subset that responds to PD-1 blockade.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Pancreatic cancer hides behind a wall of collagen: its intense desmoplastic stroma packs dense collagen that compresses vessels and blocks drug delivery, a major reason chemotherapy penetrates poorly and the tumor is so hard to treat.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Pancreatic cancer is a target for cancer vaccines: personalized mRNA neoantigen vaccines (e.g., autogene cevumeran) can induce tumor-specific cytotoxic T cells, and patients who mount a strong CD8 response show delayed recurrence after surgery.
+- `connects-to` → **[Lynch Syndrome](../lynch-syndrome/README.md)** — Lynch syndrome is among the inherited causes of pancreatic cancer: MMR-gene carriers face a several-fold increased risk, so Lynch joins BRCA, Peutz-Jeghers and familial pancreatitis on the panel of syndromes prompting familial pancreatic surveillance.
 
 ---
 

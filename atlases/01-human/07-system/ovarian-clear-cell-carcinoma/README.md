@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "OCCC's clear cytoplasm reflects HIF-driven metabolism: a stabilized hypoxia program reprograms cells toward glycolysis and glycogen storage (the 'clear' look), and this metabolic state contributes to the platinum chemoresistance that makes OCCC hard to treat."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Clear-cell ovarian cancer is the gynecologic tumor most linked to hypercalcemia: it can drive paraneoplastic high calcium (via PTH-related peptide), so an ovarian mass with unexplained hypercalcemia points toward this histotype."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Clear-cell ovarian cancer often overproduces IL-6: this cytokine drives paraneoplastic fever, thrombocytosis and an inflammatory state, contributing to the thrombosis risk and the relative chemoresistance that set this subtype apart."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Clear-cell ovarian cancer grows from an endometriotic niche rich in fibroblasts: the cyst's reactive stroma and chronic inflammation foster ARID1A-mutant transformation, so the fibroblast-laden microenvironment is part of how this cancer begins."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -253,6 +262,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Ovarian clear cell carcinoma is characteristically p53-wildtype: unlike high-grade serous ovarian cancer, which is defined by TP53 mutation, OCCC is driven instead by ARID1A and PIK3CA—so p53 status helps distinguish these biologically distinct ovarian cancers.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Ovarian clear cell carcinoma resists platinum chemo but its ARID1A loss links to immunotherapy: ARID1A-mutant or mismatch-repair-deficient tumors can respond to checkpoint blockade, offering an option in this otherwise chemoresistant subtype.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — OCCC's clear cytoplasm reflects HIF-driven metabolism: a stabilized hypoxia program reprograms cells toward glycolysis and glycogen storage (the 'clear' look), and this metabolic state contributes to the platinum chemoresistance that makes OCCC hard to treat.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Clear-cell ovarian cancer is the gynecologic tumor most linked to hypercalcemia: it can drive paraneoplastic high calcium (via PTH-related peptide), so an ovarian mass with unexplained hypercalcemia points toward this histotype.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Clear-cell ovarian cancer often overproduces IL-6: this cytokine drives paraneoplastic fever, thrombocytosis and an inflammatory state, contributing to the thrombosis risk and the relative chemoresistance that set this subtype apart.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Clear-cell ovarian cancer grows from an endometriotic niche rich in fibroblasts: the cyst's reactive stroma and chronic inflammation foster ARID1A-mutant transformation, so the fibroblast-laden microenvironment is part of how this cancer begins.
 
 ---
 
