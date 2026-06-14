@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Stroke and venous thromboembolism share a prothrombotic basis and complicate each other: immobility after stroke raises DVT/PE risk, and a clot crossing a patent foramen ovale can cause paradoxical embolic stroke—so thromboprophylaxis is routine in stroke care."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Many strokes start in the heart: atrial fibrillation, valve disease, and a patent foramen ovale let clots form and travel to the brain (cardioembolic stroke), so finding the cardiac source guides anticoagulation to prevent the next stroke."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium is the executioner in stroke: when ischemia depletes energy, neurons flood with calcium that activates enzymes destroying the cell—the excitotoxic cascade that turns minutes of lost blood flow into permanent brain damage."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia shape stroke's aftermath: the brain's resident immune cells swarm the infarct, first worsening injury with inflammation, then clearing debris and aiding repair—so tipping their balance toward repair is a target for limiting stroke damage."
 ---
 
 # Stroke
@@ -219,6 +228,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets are central to ischemic stroke and its prevention: clot formation on a ruptured plaque occludes a cerebral artery, so antiplatelet drugs (aspirin, clopidogrel) are the cornerstone of preventing non-cardioembolic stroke.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Stroke is the leading cause of acquired nervous-system disability: sudden loss of blood flow kills neurons in minutes, and which functions are lost—speech, movement, vision—depends entirely on which part of the brain's circuitry the dead tissue served.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Stroke and venous thromboembolism share a prothrombotic basis and complicate each other: immobility after stroke raises DVT/PE risk, and a clot crossing a patent foramen ovale can cause paradoxical embolic stroke—so thromboprophylaxis is routine in stroke care.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Many strokes start in the heart: atrial fibrillation, valve disease, and a patent foramen ovale let clots form and travel to the brain (cardioembolic stroke), so finding the cardiac source guides anticoagulation to prevent the next stroke.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is the executioner in stroke: when ischemia depletes energy, neurons flood with calcium that activates enzymes destroying the cell—the excitotoxic cascade that turns minutes of lost blood flow into permanent brain damage.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia shape stroke's aftermath: the brain's resident immune cells swarm the infarct, first worsening injury with inflammation, then clearing debris and aiding repair—so tipping their balance toward repair is a target for limiting stroke damage.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Stimulant use disorder is a chronic disorder of the nervous system's reward and control circuits: repeated dopamine surges blunt the reward system and weaken prefrontal control, so craving and relapse persist long after the drug clears—addiction as brain disease."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Stimulant use shows on the skin: methamphetamine causes formication—the sensation of 'bugs' crawling—driving compulsive picking and sores, while injection leaves track marks and abscesses, so skin findings are visible clues to stimulant use disorder."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Stimulants in pregnancy damage the placenta: cocaine and methamphetamine constrict placental vessels, raising the risk of abruption, growth restriction, and preterm birth—so stimulant use disorder in pregnancy threatens the fetus through impaired placental blood flow."
+  - target: 01-human/07-system/panic-disorder
+    relation: connects-to
+    note: "Stimulants can manufacture panic: the surge of dopamine and noradrenaline races the heart and floods the body with fight-or-flight signals, triggering panic attacks during intoxication and withdrawal—so stimulant use both mimics and worsens panic disorder."
 ---
 
 # Stimulant Use Disorder
@@ -233,6 +242,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Stimulants directly remodel neurons: cocaine and amphetamines flood synapses with dopamine, and chronic use prunes and reshapes dendritic spines in reward circuits—structural neuroadaptations underlying the entrenched craving of stimulant use disorder.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Stimulant use disorder has a complicated tie to ADHD: prescription stimulants effectively treat ADHD and properly used rarely cause addiction, yet diversion and misuse of these same drugs is a route into stimulant use disorder—so prescribing balances benefit and risk.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Stimulant use disorder is a chronic disorder of the nervous system's reward and control circuits: repeated dopamine surges blunt the reward system and weaken prefrontal control, so craving and relapse persist long after the drug clears—addiction as brain disease.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Stimulant use shows on the skin: methamphetamine causes formication—the sensation of 'bugs' crawling—driving compulsive picking and sores, while injection leaves track marks and abscesses, so skin findings are visible clues to stimulant use disorder.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Stimulants in pregnancy damage the placenta: cocaine and methamphetamine constrict placental vessels, raising the risk of abruption, growth restriction, and preterm birth—so stimulant use disorder in pregnancy threatens the fetus through impaired placental blood flow.
+- `connects-to` → **[Panic Disorder](../panic-disorder/README.md)** — Stimulants can manufacture panic: the surge of dopamine and noradrenaline races the heart and floods the body with fight-or-flight signals, triggering panic attacks during intoxication and withdrawal—so stimulant use both mimics and worsens panic disorder.
 
 ## Treatment
 
