@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Dengue can inflame the heart: the virus causes myocarditis with weakened contraction and arrhythmias, an underrecognized contributor to the shock and fluid-balance problems that complicate severe infection."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Severe dengue leaks plasma via VEGF: the virus and the immune response drive VEGF that loosens the junctions between endothelial cells, so fluid escapes the vessels into tissues—the plasma leakage behind dengue shock syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Dengue often drops blood sodium: plasma leakage, vomiting and fluid shifts cause hyponatremia, a common electrolyte disturbance in severe disease that worsens confusion and must be corrected carefully during fluid resuscitation."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Dengue enlarges and endangers the spleen: viral replication and immune activation swell the organ, and in rare cases the engorged spleen ruptures—a life-threatening bleed to consider in a dengue patient with sudden abdominal pain."
 ---
 
 # Dengue Fever
@@ -247,3 +256,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Severe dengue is defined by leaking albumin: the virus makes capillaries leak, so plasma and albumin escape into the chest and belly, concentrating the blood and dropping pressure into the shock that makes dengue hemorrhagic fever deadly.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help make dengue severe: infection activates them to release chymase and vasoactive mediators that pull apart vascular junctions, driving the plasma leak of severe dengue—and blood chymase levels track with disease severity.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Dengue can inflame the heart: the virus causes myocarditis with weakened contraction and arrhythmias, an underrecognized contributor to the shock and fluid-balance problems that complicate severe infection.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Severe dengue leaks plasma via VEGF: the virus and the immune response drive VEGF that loosens the junctions between endothelial cells, so fluid escapes the vessels into tissues—the plasma leakage behind dengue shock syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Dengue often drops blood sodium: plasma leakage, vomiting and fluid shifts cause hyponatremia, a common electrolyte disturbance in severe disease that worsens confusion and must be corrected carefully during fluid resuscitation.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Dengue enlarges and endangers the spleen: viral replication and immune activation swell the organ, and in rare cases the engorged spleen ruptures—a life-threatening bleed to consider in a dengue patient with sudden abdominal pain.

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Cytokine storm reflects a failed brake by regulatory T cells: Tregs normally rein in activated effector cells, so when their restraint is overwhelmed or deficient the inflammatory loop runs unchecked—why restoring Treg control is a therapeutic aim."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Cytokine storm suffocates patients through the lungs: the flood of cytokines makes lung capillaries leak, filling air sacs with fluid in ARDS so oxygen cannot cross, the hypoxemic respiratory failure that kills in severe COVID and sepsis."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Cytokine storm can stun the heart: high TNF and IL-6 directly depress the heart muscle, so even without infection of the heart, the inflammatory surge causes a cardiomyopathy that deepens shock and organ failure."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils amplify the cytokine storm: recruited en masse, they release enzymes, oxidants and NETs that damage tissue and trigger still more cytokines, turning the innate response into part of the runaway inflammatory loop."
 ---
 
 # Cytokine Storm
@@ -226,6 +235,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Cytokine storm erupts when killing fails: in HLH, defective perforin leaves cytotoxic T and NK cells unable to clear infected cells, so antigen persists and over-stimulates them into a runaway flood of cytokines—the genetic root of primary hemophagocytic syndrome.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen is ground zero for hemophagocytosis in cytokine storm: hyperactivated macrophages there and in marrow devour red cells and platelets, so splenomegaly and falling blood counts are red flags for HLH/MAS-type storms.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Cytokine storm reflects a failed brake by regulatory T cells: Tregs normally rein in activated effector cells, so when their restraint is overwhelmed or deficient the inflammatory loop runs unchecked—why restoring Treg control is a therapeutic aim.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cytokine storm suffocates patients through the lungs: the flood of cytokines makes lung capillaries leak, filling air sacs with fluid in ARDS so oxygen cannot cross, the hypoxemic respiratory failure that kills in severe COVID and sepsis.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cytokine storm can stun the heart: high TNF and IL-6 directly depress the heart muscle, so even without infection of the heart, the inflammatory surge causes a cardiomyopathy that deepens shock and organ failure.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils amplify the cytokine storm: recruited en masse, they release enzymes, oxidants and NETs that damage tissue and trigger still more cytokines, turning the innate response into part of the runaway inflammatory loop.
 
 ## Pathology
 
