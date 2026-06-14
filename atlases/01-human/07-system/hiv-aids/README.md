@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "AIDS cripples B cells even as it spares them from direct infection: lost CD4 help leaves antibody responses disorganized, raising risk of bacterial infections, while chronic stimulation drives the B-cell lymphomas that define late disease."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "AIDS suffocates through Pneumocystis: as immunity collapses, this fungal pneumonia (PCP) fills the lungs and starves the blood of oxygen, the AIDS-defining infection whose silent, worsening hypoxia is a classic warning sign."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "AIDS can blind through the eye: when CD4 counts crash, cytomegalovirus attacks the retina (CMV retinitis), an AIDS-defining infection that destroys sight unless immunity is restored."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "AIDS turns endothelial cells cancerous: the herpesvirus KSHV infects these vessel-lining cells and, with immunity gone, transforms them into Kaposi sarcoma, the purple vascular tumor that became the face of the epidemic."
 ---
 
 # HIV/AIDS
@@ -258,6 +267,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is the classic stage for AIDS: as CD4 cells vanish, Pneumocystis pneumonia and other lung infections take hold, so a previously rare fungal pneumonia became the alarm that first announced the AIDS epidemic.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — AIDS often shows itself in the gut: with immunity gone, infections like cryptosporidium and CMV inflame the intestine, causing the relentless diarrhea and wasting—'slim disease'—that mark advanced untreated infection.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — AIDS cripples B cells even as it spares them from direct infection: lost CD4 help leaves antibody responses disorganized, raising risk of bacterial infections, while chronic stimulation drives the B-cell lymphomas that define late disease.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AIDS suffocates through Pneumocystis: as immunity collapses, this fungal pneumonia (PCP) fills the lungs and starves the blood of oxygen, the AIDS-defining infection whose silent, worsening hypoxia is a classic warning sign.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — AIDS can blind through the eye: when CD4 counts crash, cytomegalovirus attacks the retina (CMV retinitis), an AIDS-defining infection that destroys sight unless immunity is restored.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — AIDS turns endothelial cells cancerous: the herpesvirus KSHV infects these vessel-lining cells and, with immunity gone, transforms them into Kaposi sarcoma, the purple vascular tumor that became the face of the epidemic.
 
 ## See Also
 

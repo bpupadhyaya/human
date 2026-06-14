@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "IL-6 tracks how dangerous a flu has become: this cytokine rises sharply in severe influenza, driving fever and the inflammatory cascade that can tip into cytokine storm and ARDS, so its level helps gauge severity."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Severe influenza starves the blood of oxygen: viral pneumonia and the ARDS it can trigger flood the alveoli, so gas exchange fails and hypoxemic respiratory failure becomes the main threat to life in serious flu."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Influenza and aspirin can wreck a child's liver: giving aspirin during flu can trigger Reye syndrome, a sudden failure of the liver with brain swelling, which is why aspirin is avoided in children with viral illness."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "Influenza strips the lungs of surfactant: the virus kills the type II pneumocytes that make this alveolar soap, so without it the air sacs collapse and stiffen, deepening the lung injury of severe flu pneumonia."
 ---
 
 # Influenza
@@ -279,3 +288,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Severe influenza recruits neutrophils that injure the lung: swarming to the infected airways, they release enzymes and NETs that, beyond killing virus, damage the delicate gas-exchange surface and worsen the pneumonia.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe influenza can damage the kidneys: high fever, dehydration, and muscle breakdown (rhabdomyolysis) plus the systemic inflammatory storm can precipitate acute kidney injury, a marker of severe disease needing hospital care.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 tracks how dangerous a flu has become: this cytokine rises sharply in severe influenza, driving fever and the inflammatory cascade that can tip into cytokine storm and ARDS, so its level helps gauge severity.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Severe influenza starves the blood of oxygen: viral pneumonia and the ARDS it can trigger flood the alveoli, so gas exchange fails and hypoxemic respiratory failure becomes the main threat to life in serious flu.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Influenza and aspirin can wreck a child's liver: giving aspirin during flu can trigger Reye syndrome, a sudden failure of the liver with brain swelling, which is why aspirin is avoided in children with viral illness.
+- `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — Influenza strips the lungs of surfactant: the virus kills the type II pneumocytes that make this alveolar soap, so without it the air sacs collapse and stiffen, deepening the lung injury of severe flu pneumonia.
