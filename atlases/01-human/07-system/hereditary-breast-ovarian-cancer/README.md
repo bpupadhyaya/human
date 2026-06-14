@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "BRCA-mutant tumors engage the immune system distinctively: defective DNA repair raises mutational load and neoantigens, making some HBOC cancers more immunogenic—so checkpoint immunotherapy is explored alongside the PARP inhibitors that exploit the repair defect."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "HBOC overlaps another hereditary breast syndrome via CDH1: while BRCA carriers get ductal breast cancer, CDH1 (hereditary diffuse gastric cancer) carriers develop lobular breast cancer, so inherited breast-cancer risk spans more than one gene and tumor type."
+  - target: 01-human/07-system/mutyh-associated-polyposis
+    relation: connects-to
+    note: "HBOC sits among the DNA-repair cancer syndromes alongside MUTYH-associated polyposis: HBOC stems from broken homologous recombination and MAP from faulty base-excision repair, so both show how losing a specific repair pathway seeds inherited cancer."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Tumor-infiltrating cytotoxic T cells track BRCA tumors' outcomes: HRD cancers, especially triple-negative breast and high-grade ovarian, often draw dense T-cell infiltrates that predict better prognosis and chemo response—so immune contexture is a built-in biomarker."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -247,6 +256,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — HBOC overlaps with the p53-driven Li-Fraumeni spectrum of inherited cancer: BRCA loss cripples DNA double-strand-break repair while TP53 loss removes the damage checkpoint, so both germline defects in the genome-guardian network produce familial breast and other cancers.
 - `connects-to` → **[Bloom Syndrome](../bloom-syndrome/README.md)** — HBOC belongs to the family of DNA-repair cancer syndromes like Bloom: BRCA1/2 run homologous recombination just as BLM helicase resolves recombination intermediates, so loss of either destabilizes the genome—a shared theme of repair failure driving cancer.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — BRCA-mutant tumors engage the immune system distinctively: defective DNA repair raises mutational load and neoantigens, making some HBOC cancers more immunogenic—so checkpoint immunotherapy is explored alongside the PARP inhibitors that exploit the repair defect.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — HBOC overlaps another hereditary breast syndrome via CDH1: while BRCA carriers get ductal breast cancer, CDH1 (hereditary diffuse gastric cancer) carriers develop lobular breast cancer, so inherited breast-cancer risk spans more than one gene and tumor type.
+- `connects-to` → **[MUTYH-Associated Polyposis](../mutyh-associated-polyposis/README.md)** — HBOC sits among the DNA-repair cancer syndromes alongside MUTYH-associated polyposis: HBOC stems from broken homologous recombination and MAP from faulty base-excision repair, so both show how losing a specific repair pathway seeds inherited cancer.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tumor-infiltrating cytotoxic T cells track BRCA tumors' outcomes: HRD cancers, especially triple-negative breast and high-grade ovarian, often draw dense T-cell infiltrates that predict better prognosis and chemo response—so immune contexture is a built-in biomarker.
 
 ---
 

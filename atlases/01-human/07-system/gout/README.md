@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Tophi are the chronic granulomas of gout: persistent urate crystals provoke macrophages and fibroblasts to wall them off in firm, fibrous nodular deposits in joints and soft tissue, so fibroblast-rich tophi mark long-standing, undertreated disease."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Gout is a disease of nitrogen waste: uric acid is the nitrogen-rich end-product of purine breakdown that humans, lacking uricase, cannot degrade further, so this evolutionary loss leaves urate to crystallize in joints when it builds up."
+  - target: 01-human/07-system/myeloproliferative-neoplasms
+    relation: connects-to
+    note: "Myeloproliferative neoplasms cause secondary gout: massive cell turnover in polycythemia vera and related disorders floods the blood with purines and urate, so gout flares can be the first clue to an underlying blood-cell overproduction."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Chronic gout deposits in the skin as tophi: long-standing high urate forms chalky subcutaneous nodules over joints and ears that can ulcerate and discharge crystals, so visible tophi mark years of untreated disease."
 ---
 
 # Gout
@@ -212,6 +221,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Gout is strongly tied to cardiovascular disease: hyperuricemia and the chronic inflammation of gout independently raise the risk of hypertension, coronary disease and stroke, so gout flags cardiovascular risk beyond its joint and kidney damage.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The renal system both causes and suffers from gout: under-excretion of urate by the kidney is the main reason uric acid rises, and deposited crystals form kidney stones and urate nephropathy—so gout and kidney disease drive each other in a vicious cycle.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Tophi are the chronic granulomas of gout: persistent urate crystals provoke macrophages and fibroblasts to wall them off in firm, fibrous nodular deposits in joints and soft tissue, so fibroblast-rich tophi mark long-standing, undertreated disease.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Gout is a disease of nitrogen waste: uric acid is the nitrogen-rich end-product of purine breakdown that humans, lacking uricase, cannot degrade further, so this evolutionary loss leaves urate to crystallize in joints when it builds up.
+- `connects-to` → **[Myeloproliferative Neoplasms](../myeloproliferative-neoplasms/README.md)** — Myeloproliferative neoplasms cause secondary gout: massive cell turnover in polycythemia vera and related disorders floods the blood with purines and urate, so gout flares can be the first clue to an underlying blood-cell overproduction.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Chronic gout deposits in the skin as tophi: long-standing high urate forms chalky subcutaneous nodules over joints and ears that can ulcerate and discharge crystals, so visible tophi mark years of untreated disease.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
