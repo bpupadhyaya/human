@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Parkinson's denervates the heart early: loss of sympathetic nerves to the heart (seen on MIBG imaging) is a characteristic, early sign reflecting that alpha-synuclein pathology spreads through the autonomic nervous system beyond the brain."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Parkinson's dopamine neurons are vulnerable because of calcium: the substantia nigra cells are autonomous pacemakers that fire using calcium channels, and that constant calcium load stresses mitochondria—why calcium-channel blockers are tested to protect them."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Parkinson's is partly an energy failure: mitochondrial complex-I defects and failed mitophagy starve dopamine neurons of ATP, and the toxin MPTP that causes parkinsonism works exactly by poisoning this energy supply."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Parkinson's has an autoimmune streak involving regulatory T cells: T cells that recognize alpha-synuclein appear in patients, and a shortage of restraining Tregs may let this immune attack add to the neurodegeneration."
 ---
 
 # Parkinson's Disease
@@ -274,6 +283,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Parkinson's disrupts the basal ganglia's glutamate balance: losing dopamine lets the subthalamic nucleus fire excess glutamate onto output nuclei, driving the movement slowing—so the NMDA-blocker amantadine and deep-brain stimulation of this glutamatergic hub help.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Parkinson's has an autoimmune flavor: T-helper cells that recognize alpha-synuclein peptides infiltrate the brain and may accelerate dopaminergic neuron loss, linking the adaptive immune system to a classic neurodegenerative disease.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Parkinson's denervates the heart early: loss of sympathetic nerves to the heart (seen on MIBG imaging) is a characteristic, early sign reflecting that alpha-synuclein pathology spreads through the autonomic nervous system beyond the brain.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Parkinson's dopamine neurons are vulnerable because of calcium: the substantia nigra cells are autonomous pacemakers that fire using calcium channels, and that constant calcium load stresses mitochondria—why calcium-channel blockers are tested to protect them.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Parkinson's is partly an energy failure: mitochondrial complex-I defects and failed mitophagy starve dopamine neurons of ATP, and the toxin MPTP that causes parkinsonism works exactly by poisoning this energy supply.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Parkinson's has an autoimmune streak involving regulatory T cells: T cells that recognize alpha-synuclein appear in patients, and a shortage of restraining Tregs may let this immune attack add to the neurodegeneration.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

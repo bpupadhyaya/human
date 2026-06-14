@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "The PNH clone thrives by escaping cytotoxic T cells: in aplastic anemia, autoreactive T cells attack GPI-anchored marrow cells, but the GPI-negative PNH clone is invisible to them—so immune attack selects the clone that then expands."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "PNH's intravascular hemolysis spills potassium: complement punches holes in unprotected red cells, releasing hemoglobin and potassium into blood and urine—dark morning urine (hemoglobinuria) and electrolyte shifts marking the destruction."
+  - target: 01-human/03-molecular/thrombin
+    relation: connects-to
+    note: "PNH's leading killer is thrombosis driven by thrombin: complement-activated platelets and free hemoglobin tip the balance toward clotting, generating thrombin that clots odd sites like the hepatic veins (Budd-Chiari)—curbed by complement blockade."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "PNH's clone escapes NK cells too: losing the GPI anchor also strips the stress ligands NK cells use to spot abnormal cells, so the clone is invisible to NK as well as to T cells—reinforcing its survival edge in an attacked marrow."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -219,6 +228,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — PNH's free hemoglobin strangles smooth muscle: intravascular hemolysis releases hemoglobin that scavenges nitric oxide, so smooth muscle stays contracted—causing the dysphagia, abdominal pain, pulmonary hypertension and erectile dysfunction of the disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — PNH paradoxically causes iron deficiency despite hemolysis: hemoglobin and hemosiderin spill into the urine continuously, draining iron from the body—so a hemolytic anemia ends up needing iron replacement, unlike most where iron is recycled.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The PNH clone thrives by escaping cytotoxic T cells: in aplastic anemia, autoreactive T cells attack GPI-anchored marrow cells, but the GPI-negative PNH clone is invisible to them—so immune attack selects the clone that then expands.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PNH's intravascular hemolysis spills potassium: complement punches holes in unprotected red cells, releasing hemoglobin and potassium into blood and urine—dark morning urine (hemoglobinuria) and electrolyte shifts marking the destruction.
+- `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — PNH's leading killer is thrombosis driven by thrombin: complement-activated platelets and free hemoglobin tip the balance toward clotting, generating thrombin that clots odd sites like the hepatic veins (Budd-Chiari)—curbed by complement blockade.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — PNH's clone escapes NK cells too: losing the GPI anchor also strips the stress ligands NK cells use to spot abnormal cells, so the clone is invisible to NK as well as to T cells—reinforcing its survival edge in an attacked marrow.
 
 ---
 
