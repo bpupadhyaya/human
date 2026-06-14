@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "FAP tumors are immunologically cold: unlike the mismatch-repair-deficient cancers of Lynch syndrome, APC-driven colorectal cancers are microsatellite-stable with few neoantigens, so they respond poorly to the checkpoint immunotherapy that helps Lynch tumors."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "FAP reaches the skin in its Gardner variant: beyond the colon, APC loss spawns epidermoid cysts, lipomas, fibromas and bony osteomas, so skin and jaw lumps can be the first visible clue to the syndrome."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "FAP polyps recruit blood vessels via VEGF: as adenomas grow they drive VEGF-fueled angiogenesis, part of why COX-2 inhibitors—which lower this signaling—reduce polyp burden as chemoprevention in the syndrome."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages populate the stroma of FAP's polyps: drawn into the adenomas, tumor-associated macrophages secrete growth and inflammatory factors that help the APC-driven lesions progress toward colorectal cancer."
 ---
 
 # Familial Adenomatous Polyposis
@@ -275,6 +284,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — FAP grows bony osteomas as a Gardner feature: APC loss spurs osteoblasts to build benign bone tumors in the jaw and skull, an extracolonic clue that—with skin cysts and dental anomalies—can flag the syndrome before colon polyps declare themselves.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — FAP's polyps grow because APC loss unleashes MYC: with APC gone, β-catenin piles up and switches on MYC, the master proliferation gene, so every adenoma is driven by the Wnt-to-MYC signal that turns normal colon lining into a carpet of polyps.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — FAP tumors are immunologically cold: unlike the mismatch-repair-deficient cancers of Lynch syndrome, APC-driven colorectal cancers are microsatellite-stable with few neoantigens, so they respond poorly to the checkpoint immunotherapy that helps Lynch tumors.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — FAP reaches the skin in its Gardner variant: beyond the colon, APC loss spawns epidermoid cysts, lipomas, fibromas and bony osteomas, so skin and jaw lumps can be the first visible clue to the syndrome.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — FAP polyps recruit blood vessels via VEGF: as adenomas grow they drive VEGF-fueled angiogenesis, part of why COX-2 inhibitors—which lower this signaling—reduce polyp burden as chemoprevention in the syndrome.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages populate the stroma of FAP's polyps: drawn into the adenomas, tumor-associated macrophages secrete growth and inflammatory factors that help the APC-driven lesions progress toward colorectal cancer.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

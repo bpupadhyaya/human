@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Ewing sarcoma's bone destruction frees calcium: as osteolysis dissolves mineralized matrix it releases calcium, and widespread skeletal involvement can push blood calcium high—part of why the tumor's bone turnover is tracked during treatment."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia makes Ewing sarcoma more dangerous: low oxygen in the tumor amplifies the EWS-FLI1 program and pushes cells toward invasion and metastasis, so the oxygen-starved microenvironment helps explain its aggressive spread."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Ewing sarcoma resists cytotoxic T cells: with few mutations and little antigen display it is an immune-cold tumor, so engineered T-cell and CAR approaches are needed to direct killing where checkpoint drugs alone fall short."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages worsen Ewing sarcoma: infiltrating the bone tumor, they promote angiogenesis and immune suppression, and a macrophage-rich tumor tends to carry a poorer prognosis in this childhood cancer."
 ---
 
 # Ewing Sarcoma
@@ -258,6 +267,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Ewing sarcoma eats through bone via osteoclasts: the tumor secretes signals that activate bone-resorbing osteoclasts, producing the destructive 'onion-skin' lytic lesions seen on X-ray, so osteoclast-blocking drugs are studied to limit skeletal damage.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Ewing sarcoma is a target for NK-cell immunotherapy: the tumor expresses little MHC, which normally exposes cells to natural killer attack, so NK-based and CAR therapies are being developed against this hard-to-cure childhood cancer.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Ewing sarcoma's bone destruction frees calcium: as osteolysis dissolves mineralized matrix it releases calcium, and widespread skeletal involvement can push blood calcium high—part of why the tumor's bone turnover is tracked during treatment.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia makes Ewing sarcoma more dangerous: low oxygen in the tumor amplifies the EWS-FLI1 program and pushes cells toward invasion and metastasis, so the oxygen-starved microenvironment helps explain its aggressive spread.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Ewing sarcoma resists cytotoxic T cells: with few mutations and little antigen display it is an immune-cold tumor, so engineered T-cell and CAR approaches are needed to direct killing where checkpoint drugs alone fall short.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages worsen Ewing sarcoma: infiltrating the bone tumor, they promote angiogenesis and immune suppression, and a macrophage-rich tumor tends to carry a poorer prognosis in this childhood cancer.
 
 ---
 
