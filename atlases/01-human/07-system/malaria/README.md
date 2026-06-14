@@ -114,6 +114,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Severe malaria activates complement: C3 and the cascade fire on parasite and immune complexes, fueling the inflammation and red-cell destruction behind severe anemia and organ damage—part of the immune over-response that turns malaria lethal."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Malaria cripples the bone marrow: the parasite and its hemozoin pigment suppress red-cell production (dyserythropoiesis), so blunted marrow output compounds the destruction of infected cells to deepen malarial anemia."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Severe malaria floods the blood with hydrogen ions: parasite and tissue starvation generate lactic acid, and the resulting metabolic acidosis (acidemia) is one of the strongest predictors of death in severe disease."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Thrombocytopenia is the rule in malaria: platelets are consumed and trapped in the spleen as the infection activates clotting, so a low platelet count is one of the most reliable clues that a fever is malaria."
 ---
 
 # Malaria
@@ -304,6 +313,9 @@ cross_links:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Severe malaria spills potassium from burst red cells: massive hemolysis and kidney injury raise blood potassium, and the released hemoglobin can darken the urine (blackwater fever)—dangerous electrolyte shifts in the sickest patients.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The spleen's macrophages fight and are fooled by malaria: they engulf parasitized red cells and the dark hemozoin pigment, enlarging the spleen, yet the parasite's surface tricks sustain infection—and a ruptured malarial spleen is a feared emergency.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Severe malaria activates complement: C3 and the cascade fire on parasite and immune complexes, fueling the inflammation and red-cell destruction behind severe anemia and organ damage—part of the immune over-response that turns malaria lethal.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Malaria cripples the bone marrow: the parasite and its hemozoin pigment suppress red-cell production (dyserythropoiesis), so blunted marrow output compounds the destruction of infected cells to deepen malarial anemia.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Severe malaria floods the blood with hydrogen ions: parasite and tissue starvation generate lactic acid, and the resulting metabolic acidosis (acidemia) is one of the strongest predictors of death in severe disease.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia is the rule in malaria: platelets are consumed and trapped in the spleen as the infection activates clotting, so a low platelet count is one of the most reliable clues that a fever is malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
