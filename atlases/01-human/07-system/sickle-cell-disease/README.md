@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Sickle cell disease threatens sight: sickling in the tiny retinal vessels causes ischemia and proliferative sickle retinopathy with fragile new vessels that bleed or detach the retina—so regular eye screening protects vision in older patients."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Chronic transfusions for sickle cell load the body with iron: repeated red-cell transfusions for stroke prevention and anemia deposit iron in the heart, liver and endocrine organs, so iron chelation is needed to prevent overload damage."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils help trigger sickle cell pain crises: activated neutrophils and adhesion molecules glue sickled cells to vessel walls, starting the vaso-occlusion behind painful crises—so anti-adhesion therapy (crizanlizumab) targets this step."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Sickle cell disease burdens the liver: chronic hemolysis forms pigment gallstones, and sickling in hepatic vessels can cause sequestration and crises, so right-upper-quadrant pain in sickle cell needs evaluation of gallbladder and liver."
 ---
 
 # Sickle Cell Disease
@@ -286,6 +295,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is sickle cell disease's deadliest battleground: acute chest syndrome—sickling and infection in the pulmonary vessels—causes fever, chest pain, and hypoxia and is a leading cause of death, so it is treated urgently with transfusion and antibiotics.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Sickle cell disease attacks the musculoskeletal system: vaso-occlusion infarcts bone, causing painful crises, dactylitis in infants, and avascular necrosis of the hip, so the skeleton bears much of the chronic damage and disability of the disease.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sickle cell disease threatens sight: sickling in the tiny retinal vessels causes ischemia and proliferative sickle retinopathy with fragile new vessels that bleed or detach the retina—so regular eye screening protects vision in older patients.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chronic transfusions for sickle cell load the body with iron: repeated red-cell transfusions for stroke prevention and anemia deposit iron in the heart, liver and endocrine organs, so iron chelation is needed to prevent overload damage.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help trigger sickle cell pain crises: activated neutrophils and adhesion molecules glue sickled cells to vessel walls, starting the vaso-occlusion behind painful crises—so anti-adhesion therapy (crizanlizumab) targets this step.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Sickle cell disease burdens the liver: chronic hemolysis forms pigment gallstones, and sickling in hepatic vessels can cause sequestration and crises, so right-upper-quadrant pain in sickle cell needs evaluation of gallbladder and liver.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
