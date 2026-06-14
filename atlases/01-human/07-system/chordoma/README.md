@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Chordoma's radioresistance is partly an oxygen problem: poorly oxygenated tumor regions resist conventional X-rays, so high-dose proton and carbon-ion radiotherapy—less dependent on oxygen and more precise near the spinal cord—are used instead."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Chordoma destroys bone through osteoclasts: as it grows in the skull base or sacrum it recruits bone-resorbing osteoclasts that erode the surrounding skeleton, so anti-resorptive drugs are explored to slow the local destruction this hard-to-resect tumor causes."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Chordoma is a vascular tumor that responds to anti-VEGF therapy: it expresses VEGF to grow blood vessels, which is why multi-target TKIs that block VEGF receptors (like sunitinib) can stall this otherwise treatment-resistant cancer."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Losing p53 makes chordoma more aggressive: while most chordomas grow slowly on brachyury, TP53 mutation marks the dangerous shift toward dedifferentiated, fast-growing tumors with a far worse prognosis."
 ---
 
 # Chordoma
@@ -258,6 +267,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Chordoma spreads most often to the lung: though it grows slowly and locally along the spine and skull base, late metastasis favors the lungs, so chest imaging is part of follow-up for this notochord-derived bone tumor.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Chordoma is a target for vaccine immunotherapy: nearly all chordomas express brachyury (TBXT), and a brachyury-directed cancer vaccine trains the immune system against this otherwise hard-to-drug developmental transcription factor.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Chordoma's radioresistance is partly an oxygen problem: poorly oxygenated tumor regions resist conventional X-rays, so high-dose proton and carbon-ion radiotherapy—less dependent on oxygen and more precise near the spinal cord—are used instead.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Chordoma destroys bone through osteoclasts: as it grows in the skull base or sacrum it recruits bone-resorbing osteoclasts that erode the surrounding skeleton, so anti-resorptive drugs are explored to slow the local destruction this hard-to-resect tumor causes.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Chordoma is a vascular tumor that responds to anti-VEGF therapy: it expresses VEGF to grow blood vessels, which is why multi-target TKIs that block VEGF receptors (like sunitinib) can stall this otherwise treatment-resistant cancer.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Losing p53 makes chordoma more aggressive: while most chordomas grow slowly on brachyury, TP53 mutation marks the dangerous shift toward dedifferentiated, fast-growing tumors with a far worse prognosis.
 
 ---
 

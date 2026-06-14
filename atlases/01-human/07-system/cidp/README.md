@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "CIDP is driven partly by T cells: cytotoxic and helper T cells breach the blood-nerve barrier and, with macrophages, attack peripheral myelin, so the disease reflects a cellular as well as antibody-mediated assault on nerves."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "CIDP responds to corticosteroids—unlike its acute cousin: steroids that mimic cortisol calm the autoimmune attack on peripheral myelin and are first-line in CIDP, a key contrast with Guillain-Barré, where steroids fail and only IVIG or plasma exchange help."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "CIDP begins with dendritic cells presenting myelin: these antigen-presenting cells display peripheral-nerve proteins to T cells, breaking tolerance and launching the chronic immune attack that strips myelin from the nerves."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Refractory CIDP can be treated by deleting B cells via CD20: rituximab targets this B-cell marker to shut down antibody production, especially effective in CIDP variants driven by antibodies against nodal proteins or MAG."
 ---
 
 # CIDP
@@ -276,6 +285,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement helps strip myelin in CIDP: antibodies against nerve antigens fix complement (C3 and beyond), and macrophages then peel myelin off axons, so complement activation is part of the demyelinating attack that IVIg and plasma exchange interrupt.
 - `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — A CIDP-like neuropathy can signal a paraprotein: anti-MAG IgM from Waldenström macroglobulinemia or MGUS attacks myelin, producing a demyelinating neuropathy that mimics CIDP—so an unexplained case warrants checking for a monoclonal protein.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CIDP is driven partly by T cells: cytotoxic and helper T cells breach the blood-nerve barrier and, with macrophages, attack peripheral myelin, so the disease reflects a cellular as well as antibody-mediated assault on nerves.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — CIDP responds to corticosteroids—unlike its acute cousin: steroids that mimic cortisol calm the autoimmune attack on peripheral myelin and are first-line in CIDP, a key contrast with Guillain-Barré, where steroids fail and only IVIG or plasma exchange help.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — CIDP begins with dendritic cells presenting myelin: these antigen-presenting cells display peripheral-nerve proteins to T cells, breaking tolerance and launching the chronic immune attack that strips myelin from the nerves.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Refractory CIDP can be treated by deleting B cells via CD20: rituximab targets this B-cell marker to shut down antibody production, especially effective in CIDP variants driven by antibodies against nodal proteins or MAG.
 
 ---
 
