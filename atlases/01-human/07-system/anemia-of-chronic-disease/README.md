@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Anemia of chronic disease is anemia manufactured by the immune system: sustained inflammation raises hepcidin and cytokines that sequester iron and curb red-cell production, an evolutionary defense (starving microbes of iron) that becomes maladaptive in chronic illness."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver runs the anemia of chronic disease: it makes hepcidin, the master iron-regulating hormone, in response to inflammation, and this hepcidin surge locks iron away from red-cell production—so a healthy liver's signal becomes the cause of the anemia."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Anemia and heart failure feed each other: inflammation in heart failure raises hepcidin and blunts erythropoiesis, while the resulting anemia forces the failing heart to work harder—so this anemia worsens symptoms and prognosis in HF."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-α helps drive the anemia of chronic disease: this inflammatory cytokine directly suppresses red-cell production in the marrow and blunts the response to erythropoietin, so anti-TNF therapy for inflammatory disease can also lift the accompanying anemia."
 ---
 
 # Anemia of Chronic Disease
@@ -239,6 +248,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Anemia of chronic disease blunts the bone marrow: inflammatory cytokines suppress erythroid progenitors and dampen their response to erythropoietin, so the marrow underproduces red cells despite adequate stores—a hypoproliferative anemia driven from outside the marrow.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Transferrin distinguishes anemia of chronic disease from iron deficiency: inflammation lowers transferrin (low TIBC) while ferritin stays high, the mirror image of iron-deficiency anemia's high transferrin and low ferritin—so these proteins separate the two commonest anemias.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Anemia of chronic disease is anemia manufactured by the immune system: sustained inflammation raises hepcidin and cytokines that sequester iron and curb red-cell production, an evolutionary defense (starving microbes of iron) that becomes maladaptive in chronic illness.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver runs the anemia of chronic disease: it makes hepcidin, the master iron-regulating hormone, in response to inflammation, and this hepcidin surge locks iron away from red-cell production—so a healthy liver's signal becomes the cause of the anemia.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Anemia and heart failure feed each other: inflammation in heart failure raises hepcidin and blunts erythropoiesis, while the resulting anemia forces the failing heart to work harder—so this anemia worsens symptoms and prognosis in HF.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α helps drive the anemia of chronic disease: this inflammatory cytokine directly suppresses red-cell production in the marrow and blunts the response to erythropoietin, so anti-TNF therapy for inflammatory disease can also lift the accompanying anemia.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
