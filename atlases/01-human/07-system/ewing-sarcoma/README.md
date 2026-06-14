@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Ewing sarcoma can spread to the brain: although it favors lung and bone, late metastasis to the central nervous system occurs, so new neurological symptoms in advanced disease prompt brain imaging and change the treatment plan."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Ewing sarcoma eats through bone via osteoclasts: the tumor secretes signals that activate bone-resorbing osteoclasts, producing the destructive 'onion-skin' lytic lesions seen on X-ray, so osteoclast-blocking drugs are studied to limit skeletal damage."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Ewing sarcoma is a target for NK-cell immunotherapy: the tumor expresses little MHC, which normally exposes cells to natural killer attack, so NK-based and CAR therapies are being developed against this hard-to-cure childhood cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Ewing sarcoma's bone destruction frees calcium: as osteolysis dissolves mineralized matrix it releases calcium, and widespread skeletal involvement can push blood calcium high—part of why the tumor's bone turnover is tracked during treatment."
 ---
 
 # Ewing Sarcoma
@@ -246,6 +255,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Ewing sarcoma is an immunologically 'cold' tumor: its single EWS-FLI1 fusion creates few neoantigens and little immune infiltrate, so checkpoint inhibitors largely fail—driving research into vaccines and engineered cells to make the immune system see it.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Ewing sarcoma was once called diffuse endothelioma for its vascularity: the tumor is richly perfused and can form vessel-like channels, so its blood supply and VEGF-driven angiogenesis are features that anti-angiogenic strategies aim to exploit.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Ewing sarcoma can spread to the brain: although it favors lung and bone, late metastasis to the central nervous system occurs, so new neurological symptoms in advanced disease prompt brain imaging and change the treatment plan.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Ewing sarcoma eats through bone via osteoclasts: the tumor secretes signals that activate bone-resorbing osteoclasts, producing the destructive 'onion-skin' lytic lesions seen on X-ray, so osteoclast-blocking drugs are studied to limit skeletal damage.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Ewing sarcoma is a target for NK-cell immunotherapy: the tumor expresses little MHC, which normally exposes cells to natural killer attack, so NK-based and CAR therapies are being developed against this hard-to-cure childhood cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Ewing sarcoma's bone destruction frees calcium: as osteolysis dissolves mineralized matrix it releases calcium, and widespread skeletal involvement can push blood calcium high—part of why the tumor's bone turnover is tracked during treatment.
 
 ---
 
