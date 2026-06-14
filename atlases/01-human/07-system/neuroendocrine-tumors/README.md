@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages crowd the neuroendocrine tumor stroma: tumor-associated macrophages support its growth and blood supply within the immunosuppressive, Treg-rich niche, part of why these tumors resist checkpoint immunotherapy."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "A VIPoma drains the body's potassium: this pancreatic neuroendocrine tumor floods the gut with VIP, causing torrential watery diarrhea that wastes potassium (the WDHA syndrome), risking dangerous hypokalemia."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Neuroendocrine tumors flush the skin: carcinoid syndrome's serotonin and vasoactive peptides cause episodic flushing, and serotonin's drain on tryptophan can starve the skin of niacin, causing pellagra."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Neuroendocrine tumors are richly vascular: they recruit endothelial cells to build a dense blood supply, giving the bright tumor 'blush' on imaging that helps find these often-small lesions."
 ---
 
 # Neuroendocrine Tumors
@@ -252,6 +261,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Neuroendocrine tumors secrete hormones the way nerves fire—via calcium: like the normal neuroendocrine cells they arise from, they release hormones by calcium-triggered exocytosis, so this secretory machinery underlies the flushing and diarrhea of functional NETs.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Neuroendocrine tumors are richly vascular and oxygen-sensing: many, especially VHL-related ones, behave as pseudohypoxic and drive dense blood vessels, which is why their vascularity stands out on imaging and antiangiogenic drugs have a role.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages crowd the neuroendocrine tumor stroma: tumor-associated macrophages support its growth and blood supply within the immunosuppressive, Treg-rich niche, part of why these tumors resist checkpoint immunotherapy.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — A VIPoma drains the body's potassium: this pancreatic neuroendocrine tumor floods the gut with VIP, causing torrential watery diarrhea that wastes potassium (the WDHA syndrome), risking dangerous hypokalemia.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Neuroendocrine tumors flush the skin: carcinoid syndrome's serotonin and vasoactive peptides cause episodic flushing, and serotonin's drain on tryptophan can starve the skin of niacin, causing pellagra.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Neuroendocrine tumors are richly vascular: they recruit endothelial cells to build a dense blood supply, giving the bright tumor 'blush' on imaging that helps find these often-small lesions.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
