@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/gout
     relation: connects-to
     note: "CMML's high cell turnover can trigger gout: rapid production and destruction of monocytic cells floods the blood with uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative disorders."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "CMML can injure the kidney through lysozyme: its excess monocytes pour out lysozyme (muramidase) that damages the proximal tubules, causing potassium wasting and renal impairment—an unusual organ complication of monocytic leukemias."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells matter in CMML, the only curable path being transplant: natural killer and donor immune cells mount a graft-versus-leukemia response, so harnessing NK-mediated surveillance is central to controlling a disease drugs only restrain."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "CMML smolders with inflammatory IL-6: its malignant monocytes and marrow pump out IL-6 and other cytokines that drive proliferation and the systemic symptoms—fevers, weight loss, and autoimmune features—that often accompany the leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -249,6 +258,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CMML often enlarges the liver: the proliferating monocytic clone infiltrates the liver and spleen, causing hepatosplenomegaly, so organ enlargement marks the more proliferative, MPN-like end of this MDS/MPN-overlap disease.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CMML's main cure relies on T cells: allogeneic stem-cell transplant works through a graft-versus-leukemia effect in which donor cytotoxic T cells clear the clone, the only therapy that reliably eradicates this otherwise progressive disease.
 - `connects-to` → **[Gout](../gout/README.md)** — CMML's high cell turnover can trigger gout: rapid production and destruction of monocytic cells floods the blood with uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative disorders.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — CMML can injure the kidney through lysozyme: its excess monocytes pour out lysozyme (muramidase) that damages the proximal tubules, causing potassium wasting and renal impairment—an unusual organ complication of monocytic leukemias.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells matter in CMML, the only curable path being transplant: natural killer and donor immune cells mount a graft-versus-leukemia response, so harnessing NK-mediated surveillance is central to controlling a disease drugs only restrain.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — CMML smolders with inflammatory IL-6: its malignant monocytes and marrow pump out IL-6 and other cytokines that drive proliferation and the systemic symptoms—fevers, weight loss, and autoimmune features—that often accompany the leukemia.
 
 ---
 

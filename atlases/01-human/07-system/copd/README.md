@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/07-system/generalized-anxiety-disorder
     relation: connects-to
     note: "COPD and anxiety feed each other: breathlessness provokes fear, and anxiety worsens the sensation of dyspnea and triggers panic, so anxiety disorders are common and undertreated and worsen quality of life and exacerbation risk."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D deficiency worsens COPD: low levels are common in these patients and track with more frequent exacerbations and faster bone loss, so supplementing deficient patients can cut flare-ups and protect against the osteoporosis COPD brings."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chronic low oxygen in COPD drives erythropoietin: persistent hypoxia signals the kidney to make more EPO, thickening the blood with extra red cells (secondary polycythemia) that strains the heart already burdened by lung disease."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Exhaled nitric oxide helps tell COPD from asthma: FeNO rises with the eosinophilic airway inflammation of asthma but stays low in typical neutrophilic COPD, so the gas is a breath biomarker guiding who will respond to inhaled steroids."
 ---
 
 # COPD
@@ -274,6 +283,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — COPD scars the small airways: chronic inflammation drives peribronchiolar fibrosis that narrows and obliterates terminal bronchioles, so airway fibrosis—alongside alveolar destruction in emphysema—causes the fixed airflow obstruction that defines COPD.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — COPD is linked to the gut-lung axis: altered gut and airway microbiomes shape lung inflammation and exacerbations, so the microbiome is emerging as a factor in disease course beyond the cigarette smoke that starts it.
 - `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — COPD and anxiety feed each other: breathlessness provokes fear, and anxiety worsens the sensation of dyspnea and triggers panic, so anxiety disorders are common and undertreated and worsen quality of life and exacerbation risk.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency worsens COPD: low levels are common in these patients and track with more frequent exacerbations and faster bone loss, so supplementing deficient patients can cut flare-ups and protect against the osteoporosis COPD brings.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chronic low oxygen in COPD drives erythropoietin: persistent hypoxia signals the kidney to make more EPO, thickening the blood with extra red cells (secondary polycythemia) that strains the heart already burdened by lung disease.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Exhaled nitric oxide helps tell COPD from asthma: FeNO rises with the eosinophilic airway inflammation of asthma but stays low in typical neutrophilic COPD, so the gas is a breath biomarker guiding who will respond to inhaled steroids.
 
 ---
 
