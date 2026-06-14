@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages support the mantle cell lymphoma niche: tumor-associated macrophages in the nodes and marrow feed the malignant B cells and dampen immunity, and a macrophage-rich tumor tends to carry a worse prognosis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Mantle cell lymphoma bleeds iron from the gut: its lymphomatous polyposis studs the bowel with tumor nodules that ooze blood, so iron-deficiency anemia is a common sign of GI involvement."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Mantle cell lymphoma infiltrates the liver: as the widespread disease advances, it seeds the liver and spleen, enlarging them as part of the bulky, disseminated stage at diagnosis."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Mantle cell lymphoma leans on regulatory T cells: Tregs in the node and marrow microenvironment dampen the antitumor response, helping the malignant B cells persist and resist immune clearance."
 ---
 
 # Mantle Cell Lymphoma
@@ -269,6 +278,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Mantle cell lymphoma survives on B-cell-receptor calcium signaling: tonic receptor firing drives a BTK-dependent calcium flux that keeps the malignant cells alive, the very pathway ibrutinib interrupts to treat the disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Mantle cell lymphoma can invade the brain: especially the aggressive blastoid variant spreads to the central nervous system, a grim relapse site that drives CNS-directed prophylaxis and treatment in high-risk patients.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages support the mantle cell lymphoma niche: tumor-associated macrophages in the nodes and marrow feed the malignant B cells and dampen immunity, and a macrophage-rich tumor tends to carry a worse prognosis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Mantle cell lymphoma bleeds iron from the gut: its lymphomatous polyposis studs the bowel with tumor nodules that ooze blood, so iron-deficiency anemia is a common sign of GI involvement.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Mantle cell lymphoma infiltrates the liver: as the widespread disease advances, it seeds the liver and spleen, enlarging them as part of the bulky, disseminated stage at diagnosis.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Mantle cell lymphoma leans on regulatory T cells: Tregs in the node and marrow microenvironment dampen the antitumor response, helping the malignant B cells persist and resist immune clearance.
 
 ---
 

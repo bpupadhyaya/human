@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Inflammation via NF-kB worsens the Marfan aorta: the failing elastic wall activates this inflammatory switch, recruiting cells and enzymes that degrade the matrix further, accelerating the dilation toward dissection."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Marfan lungs can burst air into the chest: weak connective tissue forms apical blebs that rupture, spilling air—mostly nitrogen—into the pleural space as a spontaneous pneumothorax, a recurrent Marfan event."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Marfan weakens the alveoli: faulty fibrillin leaves the lung's elastic walls fragile, so emphysematous change and apical blebs form in the air sacs, setting up the collapse-prone lung."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Marfan can stretch the nerves through dural ectasia: the weakened dura around the spinal cord balloons, compressing nerve roots to cause low back pain, headaches, and leg symptoms, a diagnostic Marfan feature."
 ---
 
 # Marfan Syndrome
@@ -286,6 +295,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Marfan often enlarges the spinal dura around the brain's continuation: dural ectasia—ballooning of the dural sac—is a common, weakly symptomatic feature that, found on imaging, helps confirm the diagnosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Marfan aortas grow weak partly through AKT signaling: disrupted fibrillin and TGF-beta ramp up AKT alongside mTOR in the vessel wall, driving the smooth-muscle changes behind aneurysm, so this growth axis is studied as a drug target.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation via NF-kB worsens the Marfan aorta: the failing elastic wall activates this inflammatory switch, recruiting cells and enzymes that degrade the matrix further, accelerating the dilation toward dissection.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Marfan lungs can burst air into the chest: weak connective tissue forms apical blebs that rupture, spilling air—mostly nitrogen—into the pleural space as a spontaneous pneumothorax, a recurrent Marfan event.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Marfan weakens the alveoli: faulty fibrillin leaves the lung's elastic walls fragile, so emphysematous change and apical blebs form in the air sacs, setting up the collapse-prone lung.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Marfan can stretch the nerves through dural ectasia: the weakened dura around the spinal cord balloons, compressing nerve roots to cause low back pain, headaches, and leg symptoms, a diagnostic Marfan feature.
 
 ---
 
