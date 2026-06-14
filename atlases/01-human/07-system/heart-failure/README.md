@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Heart failure floods the lungs: when the failing left ventricle can't keep up, pressure backs up into the pulmonary circulation, leaking fluid into alveoli—so breathlessness and pulmonary edema are the cardinal symptoms that bring patients to hospital."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency is common and treatable in heart failure: even without anemia, low iron impairs cardiac and muscle energetics and worsens symptoms, so intravenous iron is now recommended to improve quality of life and cut hospitalizations."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity is a major driver of heart failure, especially HFpEF: excess weight raises filling pressures, inflames and stiffens the heart, and the obese-HFpEF phenotype is now a target for GLP-1 and SGLT2 therapies that aid both weight and the heart."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Heart failure activates the sympathetic nervous system: norepinephrine initially props up output but chronically harms the failing heart, driving remodeling and arrhythmia—which is why beta-blockers that blunt it are a cornerstone of treatment."
 ---
 
 # Heart Failure
@@ -188,6 +197,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Atherosclerosis is the leading road to heart failure: coronary disease and myocardial infarction kill heart muscle, and the scarred, weakened ventricle that remains can no longer pump adequately—so ischemic cardiomyopathy is the commonest cause of HF.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Heart failure is in large part a fibrotic disease: stressed myocardium replaces lost muscle with stiff collagen scar, which impairs both contraction and relaxation—so cardiac fibrosis underlies the remodeling that drives both reduced and preserved ejection fraction HF.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Heart failure floods the lungs: when the failing left ventricle can't keep up, pressure backs up into the pulmonary circulation, leaking fluid into alveoli—so breathlessness and pulmonary edema are the cardinal symptoms that bring patients to hospital.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency is common and treatable in heart failure: even without anemia, low iron impairs cardiac and muscle energetics and worsens symptoms, so intravenous iron is now recommended to improve quality of life and cut hospitalizations.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is a major driver of heart failure, especially HFpEF: excess weight raises filling pressures, inflames and stiffens the heart, and the obese-HFpEF phenotype is now a target for GLP-1 and SGLT2 therapies that aid both weight and the heart.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Heart failure activates the sympathetic nervous system: norepinephrine initially props up output but chronically harms the failing heart, driving remodeling and arrhythmia—which is why beta-blockers that blunt it are a cornerstone of treatment.
 
 ## Pathology
 

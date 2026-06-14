@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/rheumatoid-arthritis
     relation: connects-to
     note: "The gut microbiome is implicated in rheumatoid arthritis: dysbiosis (e.g., expansion of Prevotella) may prime mucosal immunity and citrullination that later attacks joints—supporting the idea that some autoimmunity begins at gut and other mucosal surfaces."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The gut microbiome teaches the immune system tolerance via regulatory T cells: bacterial short-chain fatty acids induce colonic Tregs that restrain inflammation, so a healthy microbiome supports immune balance and dysbiosis tips toward autoimmunity and allergy."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Gut microbes influence dopamine and the gut-brain axis: bacteria produce dopamine and its precursors and shape its metabolism, contributing to mood and movement signaling—part of why the microbiome is implicated in Parkinson's and psychiatric disease."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "The gut-brain axis links the microbiome to depression: microbial metabolites and immune signals reaching the brain influence mood, and people with depression show altered gut flora—fueling interest in diet and probiotics as adjuncts."
 ---
 
 # Gut Microbiome
@@ -193,6 +202,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The gut and liver are wired together: microbial products and bile acids flow up the portal vein, so a leaky, dysbiotic gut delivers bacterial endotoxin to the liver—fueling fatty liver and NASH—while the liver's bile in turn reshapes which microbes thrive.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Gut microbes influence type 2 diabetes risk: fermentation makes short-chain fatty acids that improve insulin sensitivity, while dysbiosis raises inflammation and energy harvest—so the microbiome is a metabolic organ that helps tip the balance toward insulin resistance.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — The gut microbiome is implicated in rheumatoid arthritis: dysbiosis (e.g., expansion of Prevotella) may prime mucosal immunity and citrullination that later attacks joints—supporting the idea that some autoimmunity begins at gut and other mucosal surfaces.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The gut microbiome teaches the immune system tolerance via regulatory T cells: bacterial short-chain fatty acids induce colonic Tregs that restrain inflammation, so a healthy microbiome supports immune balance and dysbiosis tips toward autoimmunity and allergy.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Gut microbes influence dopamine and the gut-brain axis: bacteria produce dopamine and its precursors and shape its metabolism, contributing to mood and movement signaling—part of why the microbiome is implicated in Parkinson's and psychiatric disease.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The gut-brain axis links the microbiome to depression: microbial metabolites and immune signals reaching the brain influence mood, and people with depression show altered gut flora—fueling interest in diet and probiotics as adjuncts.
 
 ## Pathology
 
