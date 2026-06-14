@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "IDH-mutant gliomas still lean on mTOR growth signaling: the PI3K-AKT-mTOR pathway drives their proliferation alongside the defining IDH mutation, making mTOR a potential target to pair with IDH inhibitors like vorasidenib."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "IDH-mutant gliomas wire into the brain at synapses: like other gliomas they form connections with neurons, and this synaptic integration with glutamate signaling both spurs tumor growth and helps generate the seizures these tumors cause."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium signaling links IDH-mutant glioma to its seizures: glutamate from the tumor and its circuits drives calcium influx that overexcites neighboring neurons, helping explain why epilepsy is so often the first sign of these slow gliomas."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells anchor vaccine strategies against IDH-mutant glioma: the shared IDH1-R132H mutation makes a clean target, and presenting this neoantigen via dendritic cells aims to rally a T-cell attack on the tumor."
 ---
 
 # IDH-Mutant Glioma
@@ -267,6 +276,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — IDH-mutant gliomas build a quiet immune microenvironment: the oncometabolite 2-HG dampens microglia and other immune cells, so these tumors are less inflamed than IDH-wildtype glioblastoma—part of why they grow slowly but resist immunotherapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The 2-HG made by IDH-mutant gliomas suppresses T cells: the oncometabolite impairs effector T-cell function and favors a tolerant, regulatory-T-cell-leaning state, blunting the antitumor immune response within the tumor.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — IDH-mutant gliomas still lean on mTOR growth signaling: the PI3K-AKT-mTOR pathway drives their proliferation alongside the defining IDH mutation, making mTOR a potential target to pair with IDH inhibitors like vorasidenib.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — IDH-mutant gliomas wire into the brain at synapses: like other gliomas they form connections with neurons, and this synaptic integration with glutamate signaling both spurs tumor growth and helps generate the seizures these tumors cause.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signaling links IDH-mutant glioma to its seizures: glutamate from the tumor and its circuits drives calcium influx that overexcites neighboring neurons, helping explain why epilepsy is so often the first sign of these slow gliomas.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells anchor vaccine strategies against IDH-mutant glioma: the shared IDH1-R132H mutation makes a clean target, and presenting this neoantigen via dendritic cells aims to rally a T-cell attack on the tumor.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

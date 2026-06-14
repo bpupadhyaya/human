@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin
     relation: connects-to
     note: "Insulin resistance drives hypertension: high insulin levels make the kidney retain sodium and rev up the sympathetic nervous system, which is why high blood pressure clusters with obesity and diabetes in the metabolic syndrome."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain both controls and suffers from blood pressure: brainstem centers set the sympathetic tone that drives it, while severe hypertension damages cerebral vessels to cause stroke and hypertensive encephalopathy—a two-way street."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol raises blood pressure: it sensitizes vessels to constrictors and makes the kidney hold sodium, so excess—from Cushing's or chronic stress—causes hypertension, one reason endocrine causes are sought in resistant cases."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T-helper cells are an emerging player in hypertension: activated T cells infiltrate the vessel wall and kidney, releasing cytokines that stiffen arteries and impair sodium handling, recasting high blood pressure partly as an inflammatory disease."
 ---
 
 # Hypertension
@@ -226,6 +235,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — The heart fights hypertension by releasing BNP: when high pressure stretches the heart, it secretes natriuretic peptide to make the kidneys dump sodium and relax vessels—a built-in counterweight to high blood pressure that doctors also measure to gauge cardiac strain.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium helps set blood pressure: the mineral relaxes vascular smooth muscle and counters calcium-driven constriction, so magnesium deficiency tightens vessels while supplementing it modestly lowers blood pressure.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance drives hypertension: high insulin levels make the kidney retain sodium and rev up the sympathetic nervous system, which is why high blood pressure clusters with obesity and diabetes in the metabolic syndrome.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain both controls and suffers from blood pressure: brainstem centers set the sympathetic tone that drives it, while severe hypertension damages cerebral vessels to cause stroke and hypertensive encephalopathy—a two-way street.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol raises blood pressure: it sensitizes vessels to constrictors and makes the kidney hold sodium, so excess—from Cushing's or chronic stress—causes hypertension, one reason endocrine causes are sought in resistant cases.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells are an emerging player in hypertension: activated T cells infiltrate the vessel wall and kidney, releasing cytokines that stiffen arteries and impair sodium handling, recasting high blood pressure partly as an inflammatory disease.
 
 ## Pathology
 
