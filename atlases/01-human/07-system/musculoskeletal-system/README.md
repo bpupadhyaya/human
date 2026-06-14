@@ -107,6 +107,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Muscle and nerve excitability ride on potassium: the ion sets the resting membrane potential that lets muscle fibers fire, so potassium swings cause the weakness or paralysis of periodic paralysis and dangerous arrhythmias."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Bone depends on the kidney: it activates vitamin D and balances calcium and phosphate, so kidney failure starves bone of minerals and unleashes parathyroid hormone, crumbling the skeleton in renal osteodystrophy."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "The skeleton is built with help from photons: ultraviolet light striking the skin makes vitamin D, the hormone that lets the gut absorb the calcium needed to mineralize bone, linking sunlight to skeletal strength."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen guards the skeleton: it restrains the osteoclasts that resorb bone, so the sharp loss of estrogen at menopause speeds bone breakdown and is the leading driver of osteoporosis in women."
 ---
 
 # Musculoskeletal System
@@ -273,6 +282,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Every muscle move starts with acetylcholine: motor neurons release it at the neuromuscular junction to depolarize muscle fibers, so this transmitter is the on-switch that turns nerve commands into the musculoskeletal system's movement.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — The musculoskeletal system runs on ATP: muscle contraction and—crucially—relaxation both burn ATP to cycle myosin and pump calcium, which is why energy failure causes cramps and why rigor mortis sets in when ATP runs out after death.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Muscle and nerve excitability ride on potassium: the ion sets the resting membrane potential that lets muscle fibers fire, so potassium swings cause the weakness or paralysis of periodic paralysis and dangerous arrhythmias.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bone depends on the kidney: it activates vitamin D and balances calcium and phosphate, so kidney failure starves bone of minerals and unleashes parathyroid hormone, crumbling the skeleton in renal osteodystrophy.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The skeleton is built with help from photons: ultraviolet light striking the skin makes vitamin D, the hormone that lets the gut absorb the calcium needed to mineralize bone, linking sunlight to skeletal strength.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen guards the skeleton: it restrains the osteoclasts that resorb bone, so the sharp loss of estrogen at menopause speeds bone breakdown and is the leading driver of osteoporosis in women.
 
 ## Pathology
 

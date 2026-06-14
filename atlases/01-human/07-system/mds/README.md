@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "MDS festers in an inflammatory marrow run by macrophages: myeloid cells pour out alarmins (S100A8/A9) and cytokines that fire the inflammasome and worsen the ineffective hematopoiesis—an inflammatory niche now itself a treatment target."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Years of MDS transfusions can poison the heart: each unit of red cells delivers iron the body cannot excrete, and the overload deposits in heart muscle, causing an iron cardiomyopathy and arrhythmias that drive the need for chelation."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MDS starves tissues of oxygen: failed marrow makes too few red cells, so chronic anemia leaves the body short of oxygen, producing the fatigue and breathlessness that dominate the disease and force transfusion dependence."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "MDS warps the marrow's immune balance: in early disease autoimmune T cells attack progenitors (why immunosuppression can help), while advancing disease expands regulatory T cells that shield the malignant clone from immune attack."
 ---
 
 # Myelodysplastic Syndromes
@@ -250,6 +259,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — MDS marrow cells die by pyroptosis via the NLRP3 inflammasome: chronic inflammasome activation makes the dysplastic precursors self-destruct inflammatorily, so the bone marrow is packed yet the blood counts are low—ineffective hematopoiesis.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — MDS's cytopenias come from excess apoptosis: caspase-driven death of marrow progenitors means cells are made but die before maturing, explaining the paradox of a hypercellular marrow with too few blood cells reaching circulation.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — MDS festers in an inflammatory marrow run by macrophages: myeloid cells pour out alarmins (S100A8/A9) and cytokines that fire the inflammasome and worsen the ineffective hematopoiesis—an inflammatory niche now itself a treatment target.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Years of MDS transfusions can poison the heart: each unit of red cells delivers iron the body cannot excrete, and the overload deposits in heart muscle, causing an iron cardiomyopathy and arrhythmias that drive the need for chelation.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MDS starves tissues of oxygen: failed marrow makes too few red cells, so chronic anemia leaves the body short of oxygen, producing the fatigue and breathlessness that dominate the disease and force transfusion dependence.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — MDS warps the marrow's immune balance: in early disease autoimmune T cells attack progenitors (why immunosuppression can help), while advancing disease expands regulatory T cells that shield the malignant clone from immune attack.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
