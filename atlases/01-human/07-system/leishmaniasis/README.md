@@ -82,6 +82,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils are Leishmania's Trojan horse: sandfly-injected parasites first enter neutrophils, then ride apoptotic neutrophils silently into macrophages—their true replicative niche—so the early innate response is subverted to establish infection."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Visceral leishmaniasis floods the blood with antibody: chronic infection drives polyclonal B-cell activation and hypergammaglobulinemia, yet this humoral response cannot clear the intracellular parasite—so control needs T cells, and the antibodies mainly aid diagnosis."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Visceral leishmaniasis crashes the blood counts: parasite-packed macrophages enlarge the spleen and crowd the marrow, so platelets, red cells, and white cells all fall—the pancytopenia and bleeding of kala-azar that makes advanced disease so dangerous."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Leishmaniasis is a disease of the reticuloendothelial system: the parasite colonizes macrophages in lymphatic tissue, spleen, liver, and marrow, causing lymphadenopathy and organomegaly—so visceral leishmaniasis spreads along the mononuclear-phagocyte network."
 ---
 
 # Leishmaniasis
@@ -205,3 +214,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Leishmaniasis outcome hinges on the immune response type: a Th1/IFN-gamma response controls the parasite, while a Th2/IL-10 shift lets it disseminate—so whether infection stays a self-healing skin sore or becomes lethal visceral disease depends on immune polarization.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Macrophages kill Leishmania with nitric oxide—or fail to: IFN-gamma-activated macrophages use inducible NO synthase to destroy the parasite, but Leishmania survives by suppressing NO production inside the very cell meant to kill it, the heart of its immune evasion.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are Leishmania's Trojan horse: sandfly-injected parasites first enter neutrophils, then ride apoptotic neutrophils silently into macrophages—their true replicative niche—so the early innate response is subverted to establish infection.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Visceral leishmaniasis floods the blood with antibody: chronic infection drives polyclonal B-cell activation and hypergammaglobulinemia, yet this humoral response cannot clear the intracellular parasite—so control needs T cells, and the antibodies mainly aid diagnosis.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Visceral leishmaniasis crashes the blood counts: parasite-packed macrophages enlarge the spleen and crowd the marrow, so platelets, red cells, and white cells all fall—the pancytopenia and bleeding of kala-azar that makes advanced disease so dangerous.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Leishmaniasis is a disease of the reticuloendothelial system: the parasite colonizes macrophages in lymphatic tissue, spleen, liver, and marrow, causing lymphadenopathy and organomegaly—so visceral leishmaniasis spreads along the mononuclear-phagocyte network.

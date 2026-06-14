@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/07-system/dengue-fever
     relation: connects-to
     note: "Malaria and dengue are the great overlapping tropical fevers: both cause fever and thrombocytopenia in the same regions, so a febrile traveler needs both excluded—malaria (a treatable parasite) must never be missed while dengue (a virus) is managed supportively."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Malaria targets the placenta in pregnancy: infected red cells bind a unique placental receptor (CSA) and sequester there, causing maternal anemia, low birth weight, and stillbirth—so first pregnancies in endemic areas carry special risk, prompting preventive treatment."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Cerebral malaria is a disease of the endothelium: infected red cells express adhesion proteins that stick to blood-vessel linings, sequestering in the brain's microvessels, blocking flow and inflaming the barrier—causing the coma that makes falciparum malaria lethal."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Malaria immunity is hard-won and incomplete: repeated infection builds partial 'premunition' that lets endemic adults tolerate parasites, but it wanes without exposure—and this slow, leaky immunity is exactly why an effective malaria vaccine (RTS,S, R21) took so long."
 ---
 
 # Malaria
@@ -268,6 +277,9 @@ cross_links:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe malaria injures the kidney: hemolysis and sequestration cause acute kidney injury and, classically, blackwater fever (massive hemoglobinuria), so renal failure marks severe falciparum malaria and worsens its high mortality.
 - `connects-to` → **[Cytokine Storm](../cytokine-storm/README.md)** — Severe malaria is partly a cytokine storm: schizont rupture triggers a TNF-driven inflammatory surge causing fever, and excess cytokines contribute to cerebral malaria and organ failure—so the host inflammatory response, not just the parasite, drives lethal disease.
 - `connects-to` → **[Dengue Fever](../dengue-fever/README.md)** — Malaria and dengue are the great overlapping tropical fevers: both cause fever and thrombocytopenia in the same regions, so a febrile traveler needs both excluded—malaria (a treatable parasite) must never be missed while dengue (a virus) is managed supportively.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Malaria targets the placenta in pregnancy: infected red cells bind a unique placental receptor (CSA) and sequester there, causing maternal anemia, low birth weight, and stillbirth—so first pregnancies in endemic areas carry special risk, prompting preventive treatment.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Cerebral malaria is a disease of the endothelium: infected red cells express adhesion proteins that stick to blood-vessel linings, sequestering in the brain's microvessels, blocking flow and inflaming the barrier—causing the coma that makes falciparum malaria lethal.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Malaria immunity is hard-won and incomplete: repeated infection builds partial 'premunition' that lets endemic adults tolerate parasites, but it wanes without exposure—and this slow, leaky immunity is exactly why an effective malaria vaccine (RTS,S, R21) took so long.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
