@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "COPD and depression commonly coexist: breathlessness, disability and chronic hypoxia foster depression and anxiety in a large share of patients, which in turn worsen adherence and outcomes—so mental health is integral to comprehensive COPD care."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "COPD scars the small airways: chronic inflammation drives peribronchiolar fibrosis that narrows and obliterates terminal bronchioles, so airway fibrosis—alongside alveolar destruction in emphysema—causes the fixed airflow obstruction that defines COPD."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "COPD is linked to the gut-lung axis: altered gut and airway microbiomes shape lung inflammation and exacerbations, so the microbiome is emerging as a factor in disease course beyond the cigarette smoke that starts it."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "COPD and anxiety feed each other: breathlessness provokes fear, and anxiety worsens the sensation of dyspnea and triggers panic, so anxiety disorders are common and undertreated and worsen quality of life and exacerbation risk."
 ---
 
 # COPD
@@ -262,6 +271,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Airway smooth muscle drives the obstruction in COPD: chronic inflammation thickens and tightens bronchiolar smooth muscle, and bronchodilators that relax it are the mainstay of symptom control—targeting the reversible component of fixed airflow limitation.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — COPD and cardiovascular disease are deeply linked: shared smoking and systemic inflammation raise heart-attack and arrhythmia risk, and chronic hypoxia strains the right heart toward cor pulmonale—so cardiovascular disease is a leading cause of death in COPD.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — COPD and depression commonly coexist: breathlessness, disability and chronic hypoxia foster depression and anxiety in a large share of patients, which in turn worsen adherence and outcomes—so mental health is integral to comprehensive COPD care.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — COPD scars the small airways: chronic inflammation drives peribronchiolar fibrosis that narrows and obliterates terminal bronchioles, so airway fibrosis—alongside alveolar destruction in emphysema—causes the fixed airflow obstruction that defines COPD.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — COPD is linked to the gut-lung axis: altered gut and airway microbiomes shape lung inflammation and exacerbations, so the microbiome is emerging as a factor in disease course beyond the cigarette smoke that starts it.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — COPD and anxiety feed each other: breathlessness provokes fear, and anxiety worsens the sensation of dyspnea and triggers panic, so anxiety disorders are common and undertreated and worsen quality of life and exacerbation risk.
 
 ---
 

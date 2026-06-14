@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "CMML often infiltrates the skin: monocytic leukemia cutis and neutrophilic dermatoses like Sweet syndrome produce papules and plaques, so a skin biopsy can reveal the leukemic clone or its inflammatory companions in this monocyte-driven disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "CMML often enlarges the liver: the proliferating monocytic clone infiltrates the liver and spleen, causing hepatosplenomegaly, so organ enlargement marks the more proliferative, MPN-like end of this MDS/MPN-overlap disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CMML's main cure relies on T cells: allogeneic stem-cell transplant works through a graft-versus-leukemia effect in which donor cytotoxic T cells clear the clone, the only therapy that reliably eradicates this otherwise progressive disease."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "CMML's high cell turnover can trigger gout: rapid production and destruction of monocytic cells floods the blood with uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative disorders."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -237,6 +246,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — CMML disrupts platelet production: the dysplastic clone often causes thrombocytopenia from ineffective marrow output, raising bleeding risk, though some cases instead run high platelets—reflecting CMML's mixed dysplastic and proliferative nature.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — CMML frequently carries systemic autoimmune and inflammatory features: roughly a fifth of patients develop vasculitis, arthritis or other immune-mediated disease, because the mutant monocytes fuel inflammation—so CMML can present to rheumatology before hematology.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CMML often infiltrates the skin: monocytic leukemia cutis and neutrophilic dermatoses like Sweet syndrome produce papules and plaques, so a skin biopsy can reveal the leukemic clone or its inflammatory companions in this monocyte-driven disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CMML often enlarges the liver: the proliferating monocytic clone infiltrates the liver and spleen, causing hepatosplenomegaly, so organ enlargement marks the more proliferative, MPN-like end of this MDS/MPN-overlap disease.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CMML's main cure relies on T cells: allogeneic stem-cell transplant works through a graft-versus-leukemia effect in which donor cytotoxic T cells clear the clone, the only therapy that reliably eradicates this otherwise progressive disease.
+- `connects-to` → **[Gout](../gout/README.md)** — CMML's high cell turnover can trigger gout: rapid production and destruction of monocytic cells floods the blood with uric acid, so hyperuricemia and gout flares accompany this and other myeloproliferative disorders.
 
 ---
 
