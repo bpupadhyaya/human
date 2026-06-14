@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "HLRCC's cutaneous leiomyomas are firm, collagen-rich nodules: smooth-muscle tumors set in dense dermal collagen form papules that hurt with cold or touch, so these tender skin lumps are often the first sign pointing to an FH mutation."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "HLRCC tumors survive by hijacking NRF2: accumulated fumarate chemically modifies KEAP1, freeing the antioxidant master switch NRF2 to shield the cancer from oxidative stress—a key vulnerability being targeted in FH-deficient kidney cancer."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "FH loss forces HLRCC cells to make ATP by glycolysis: with the Krebs cycle broken, the tumor can't run normal oxidative phosphorylation, so it shifts to aerobic glycolysis (the Warburg effect) for energy—a metabolic weakness drugs aim to exploit."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "HLRCC's aggressive kidney cancer is met with immunotherapy: because FH-deficient tumors are highly angiogenic and immune-active, regimens combining checkpoint drugs (engaging NK and T cells) with anti-angiogenics are used against this hard-to-treat cancer."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -255,6 +264,9 @@ Cutaneous:
 - `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — HLRCC is an oncometabolite cancer like IDH-mutant glioma: loss of fumarate hydratase floods cells with fumarate which—like glioma's 2-hydroxyglutarate—inhibits dioxygenases, stabilizes HIF, and rewires epigenetics, so two enzymes converge on metabolite-driven cancer.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — HLRCC kidney cancer spreads early to the lung: its type 2 papillary renal cell carcinoma is unusually aggressive and metastasizes while small, often to the lungs—so HLRCC carriers need vigilant renal surveillance and prompt surgery.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — HLRCC's cutaneous leiomyomas are firm, collagen-rich nodules: smooth-muscle tumors set in dense dermal collagen form papules that hurt with cold or touch, so these tender skin lumps are often the first sign pointing to an FH mutation.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — HLRCC tumors survive by hijacking NRF2: accumulated fumarate chemically modifies KEAP1, freeing the antioxidant master switch NRF2 to shield the cancer from oxidative stress—a key vulnerability being targeted in FH-deficient kidney cancer.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — FH loss forces HLRCC cells to make ATP by glycolysis: with the Krebs cycle broken, the tumor can't run normal oxidative phosphorylation, so it shifts to aerobic glycolysis (the Warburg effect) for energy—a metabolic weakness drugs aim to exploit.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — HLRCC's aggressive kidney cancer is met with immunotherapy: because FH-deficient tumors are highly angiogenic and immune-active, regimens combining checkpoint drugs (engaging NK and T cells) with anti-angiogenics are used against this hard-to-treat cancer.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
