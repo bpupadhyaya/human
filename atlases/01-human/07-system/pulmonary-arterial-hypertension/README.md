@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Pulmonary hypertension drags down the kidneys: as the failing right heart backs blood up into the veins, congestion and low forward flow injure the kidneys (cardiorenal syndrome), and worsening renal function marks a poor prognosis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Pulmonary vessels constrict through calcium: calcium entry contracts the arterial smooth muscle, and calcium-channel blockers can help the vasoreactive minority of PAH patients who respond to them."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Pulmonary hypertension can black out the brain: a failing right heart cannot raise output on exertion, so the brain is briefly starved of blood, causing the exertional dizziness and syncope of advanced disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Pulmonary hypertension scars its arteries: the remodeling thickens and fibroses the pulmonary arterial walls, narrowing them in the obliterative arteriopathy that raises the pressure relentlessly."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -278,6 +287,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives the artery-thickening of pulmonary hypertension: it pushes pulmonary smooth muscle cells to proliferate and migrate, narrowing the vessels, which is why PDGF-blocking kinase inhibitors like imatinib were tested for the disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Perivascular macrophages inflame the pulmonary hypertension vessel: they cuff the remodeling arteries and pour out cytokines and growth factors that drive the proliferation, adding inflammation to the vasoconstriction and remodeling.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Pulmonary hypertension drags down the kidneys: as the failing right heart backs blood up into the veins, congestion and low forward flow injure the kidneys (cardiorenal syndrome), and worsening renal function marks a poor prognosis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pulmonary vessels constrict through calcium: calcium entry contracts the arterial smooth muscle, and calcium-channel blockers can help the vasoreactive minority of PAH patients who respond to them.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pulmonary hypertension can black out the brain: a failing right heart cannot raise output on exertion, so the brain is briefly starved of blood, causing the exertional dizziness and syncope of advanced disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Pulmonary hypertension scars its arteries: the remodeling thickens and fibroses the pulmonary arterial walls, narrowing them in the obliterative arteriopathy that raises the pressure relentlessly.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

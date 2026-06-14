@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "PTCL survives on constitutive NF-kB signaling: the malignant T cells keep this survival switch active downstream of T-cell-receptor and cytokine inputs, sustaining proliferation and making the pathway a target in these aggressive lymphomas."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Peripheral T-cell lymphoma drains iron and blood: marrow involvement and chronic inflammation suppress red-cell production and lock iron away, so anemia commonly accompanies these aggressive lymphomas."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Some T-cell lymphomas home to the liver: hepatosplenic T-cell lymphoma infiltrates the liver and spleen rather than forming nodal masses, enlarging both organs in this rare, aggressive subtype."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Angioimmunoblastic PTCL sprouts blood vessels: it is marked by a striking proliferation of arborizing high-endothelial venules, so its endothelial cells multiply alongside the malignant T cells."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -292,6 +301,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Some T-cell lymphomas raise blood calcium dangerously: adult T-cell leukemia/lymphoma from HTLV-1 secretes factors like PTHrP that pull calcium from bone, so hypercalcemia is a hallmark emergency of this PTCL subtype.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — T-cell lymphoma can arise in the gut itself: enteropathy-associated T-cell lymphoma grows in the intestine, often on a background of celiac disease, so unexplained bowel symptoms or perforation in celiac patients raise the alarm.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — PTCL survives on constitutive NF-kB signaling: the malignant T cells keep this survival switch active downstream of T-cell-receptor and cytokine inputs, sustaining proliferation and making the pathway a target in these aggressive lymphomas.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Peripheral T-cell lymphoma drains iron and blood: marrow involvement and chronic inflammation suppress red-cell production and lock iron away, so anemia commonly accompanies these aggressive lymphomas.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Some T-cell lymphomas home to the liver: hepatosplenic T-cell lymphoma infiltrates the liver and spleen rather than forming nodal masses, enlarging both organs in this rare, aggressive subtype.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Angioimmunoblastic PTCL sprouts blood vessels: it is marked by a striking proliferation of arborizing high-endothelial venules, so its endothelial cells multiply alongside the malignant T cells.
 
 ---
 
