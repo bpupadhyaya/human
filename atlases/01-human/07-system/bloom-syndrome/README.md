@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Bloom syndrome impairs T-cell help: defective DNA repair hampers the lymphocyte proliferation behind antibody class-switching, so weak T-helper support contributes to the low immunoglobulins and recurrent infections these patients suffer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Oxidative damage compounds Bloom syndrome's repair defect: with the BLM helicase gone, cells handle DNA breaks poorly, so reactive oxygen species and sunlight add lesions the cell cannot fix—fueling the genomic instability and cancer risk."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Bloom syndrome carries a steep colorectal cancer risk: the failed DNA repair lets mutations accumulate in the gut lining, so these patients develop bowel cancers young and need early, frequent colonoscopy among their many tumor risks."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Bloom syndrome is diagnosed in the fibroblast: cultured cells reveal sharply elevated sister-chromatid exchange, the cytogenetic fingerprint of BLM helicase loss that distinguishes it from other DNA-repair disorders."
 ---
 
 # Bloom Syndrome
@@ -273,6 +282,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Bloom syndrome compounds a fragile genome's stress response: BLM helicase untangles stalled replication forks that ATM and ATR guard, so losing BLM forces these damage-sensing kinases to work overtime—and the resulting instability fuels the syndrome's many cancers.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Bloom syndrome includes immune deficiency: many patients have low IgG and other antibodies, causing recurrent ear, sinus, and lung infections—an immunodeficiency layered on top of the cancer risk from defective DNA repair.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Bloom syndrome impairs T-cell help: defective DNA repair hampers the lymphocyte proliferation behind antibody class-switching, so weak T-helper support contributes to the low immunoglobulins and recurrent infections these patients suffer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxidative damage compounds Bloom syndrome's repair defect: with the BLM helicase gone, cells handle DNA breaks poorly, so reactive oxygen species and sunlight add lesions the cell cannot fix—fueling the genomic instability and cancer risk.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Bloom syndrome carries a steep colorectal cancer risk: the failed DNA repair lets mutations accumulate in the gut lining, so these patients develop bowel cancers young and need early, frequent colonoscopy among their many tumor risks.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Bloom syndrome is diagnosed in the fibroblast: cultured cells reveal sharply elevated sister-chromatid exchange, the cytogenetic fingerprint of BLM helicase loss that distinguishes it from other DNA-repair disorders.
 
 ---
 

@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/03-molecular/gaba
     relation: connects-to
     note: "GABA may shape bulimia's impulsivity: the brain's main inhibitory transmitter helps restrain impulsive urges and anxiety, so weak GABAergic tone is implicated in the loss of control over eating that defines binge episodes."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Bulimia's vomiting throws off the body's acid balance: losing stomach acid (hydrogen and chloride ions) produces a hypochloremic metabolic alkalosis, a chemical clue to covert purging alongside the low potassium it causes."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Bulimia is rooted in reward synapses: binge-purge cycles reshape connections in the dopamine reward and impulse-control circuits, the synaptic plasticity that helps explain the compulsive loss of control over eating."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Laxative abuse in bulimia damages the colon: chronic stimulant laxatives can produce a sluggish 'cathartic colon' and melanosis coli, so the large intestine bears lasting harm from purging by this route."
 ---
 
 # Bulimia Nervosa
@@ -267,6 +276,9 @@ All of the following must be met:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Repeated purging in bulimia drains magnesium: vomiting and laxative abuse waste magnesium along with potassium, and low magnesium both triggers dangerous heart arrhythmias and makes the potassium impossible to correct until it is replaced.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Bulimia disturbs the noradrenergic system: blunted norepinephrine signaling is linked to the disordered appetite, mood, and stress regulation of the illness, complementing the serotonin and dopamine changes that drive binge-purge cycles.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — GABA may shape bulimia's impulsivity: the brain's main inhibitory transmitter helps restrain impulsive urges and anxiety, so weak GABAergic tone is implicated in the loss of control over eating that defines binge episodes.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Bulimia's vomiting throws off the body's acid balance: losing stomach acid (hydrogen and chloride ions) produces a hypochloremic metabolic alkalosis, a chemical clue to covert purging alongside the low potassium it causes.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Bulimia is rooted in reward synapses: binge-purge cycles reshape connections in the dopamine reward and impulse-control circuits, the synaptic plasticity that helps explain the compulsive loss of control over eating.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Laxative abuse in bulimia damages the colon: chronic stimulant laxatives can produce a sluggish 'cathartic colon' and melanosis coli, so the large intestine bears lasting harm from purging by this route.
 
 ## Treatment
 
