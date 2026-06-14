@@ -89,6 +89,15 @@ cross_links:
   - target: 01-human/07-system/pemphigus-vulgaris
     relation: connects-to
     note: "Pemphigus vulgaris shows how autoimmunity can unglue the skin: antibodies against desmoglein dissolve the desmosomes binding keratinocytes, so the epidermis blisters and sloughs—revealing how much the integument depends on cell-to-cell adhesion to stay intact."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "The skin is the front line against Staphylococcus aureus: it colonizes skin and, when the barrier breaks, causes impetigo, cellulitis and abscesses—so the integument's physical and antimicrobial defenses are what normally keep this common pathogen out."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Skin is an estrogen-responsive organ: estrogen maintains dermal collagen, thickness and hydration, so its fall at menopause thins and dries skin and slows wound healing—why hormonal status shapes skin aging."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The skin is an immune organ patrolled by T-helper cells: resident and recruited helper T cells survey the epidermis and dermis for pathogens, and their misdirection drives inflammatory skin diseases like psoriasis and eczema."
 ---
 
 # Integumentary System
@@ -218,6 +227,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The skin is the body's main interface with photons: UV light damages DNA, driving skin cancers and photoaging, yet also powers vitamin D synthesis—so sunlight is both essential to and the chief carcinogen of the integument.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The skin's deepest layer is built of adipocytes: the subcutaneous hypodermis stores fat for insulation, cushioning, and energy, anchors skin to muscle, and secretes hormones like leptin—so body-fat changes visibly reshape the skin's contour and thickness.
 - `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Pemphigus vulgaris shows how autoimmunity can unglue the skin: antibodies against desmoglein dissolve the desmosomes binding keratinocytes, so the epidermis blisters and sloughs—revealing how much the integument depends on cell-to-cell adhesion to stay intact.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — The skin is the front line against Staphylococcus aureus: it colonizes skin and, when the barrier breaks, causes impetigo, cellulitis and abscesses—so the integument's physical and antimicrobial defenses are what normally keep this common pathogen out.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Skin is an estrogen-responsive organ: estrogen maintains dermal collagen, thickness and hydration, so its fall at menopause thins and dries skin and slows wound healing—why hormonal status shapes skin aging.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The skin is an immune organ patrolled by T-helper cells: resident and recruited helper T cells survey the epidermis and dermis for pathogens, and their misdirection drives inflammatory skin diseases like psoriasis and eczema.
 
 ## Pathology
 

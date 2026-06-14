@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Internet gaming disorder is mirrored in the brain's hippocampus and reward circuits: imaging links heavy gaming to altered gray matter and memory-related regions, echoing the structural changes seen in substance addictions and supporting its place among behavioral addictions."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Internet gaming disorder reshapes glutamate circuits like other addictions: glutamatergic signaling between the prefrontal cortex and reward striatum drives the cue-craving and impaired control, complementing dopamine's role in the behavioral addiction."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress and cortisol feed internet gaming disorder: many game to escape stress, and the disorder is tied to dysregulated cortisol and the HPA stress axis—so gaming becomes a maladaptive coping loop that blunts healthy stress responses."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Internet gaming disorder often overlies trauma: gaming can serve as escapism from PTSD symptoms, and the two frequently co-occur—so treating the underlying trauma is part of addressing compulsive gaming."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -272,6 +281,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Internet gaming disorder collides with melatonin and sleep: late-night blue-light exposure suppresses melatonin and delays the circadian clock, so compulsive gaming pushes bedtime later and fragments sleep—worsening daytime fatigue and mood that feed the cycle.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Heavy gaming strains the eye: prolonged screen focus reduces blinking, causing dry, tired eyes and digital eye strain, and childhood screen time is linked to rising myopia—so the eyes register a physical toll alongside the behavioral disorder.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Internet gaming disorder is mirrored in the brain's hippocampus and reward circuits: imaging links heavy gaming to altered gray matter and memory-related regions, echoing the structural changes seen in substance addictions and supporting its place among behavioral addictions.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Internet gaming disorder reshapes glutamate circuits like other addictions: glutamatergic signaling between the prefrontal cortex and reward striatum drives the cue-craving and impaired control, complementing dopamine's role in the behavioral addiction.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and cortisol feed internet gaming disorder: many game to escape stress, and the disorder is tied to dysregulated cortisol and the HPA stress axis—so gaming becomes a maladaptive coping loop that blunts healthy stress responses.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Internet gaming disorder often overlies trauma: gaming can serve as escapism from PTSD symptoms, and the two frequently co-occur—so treating the underlying trauma is part of addressing compulsive gaming.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
