@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Diabetic retinopathy is a neurovascular disease, not just vascular: retinal astrocytes and Müller glia that support neurons and the blood-retinal barrier dysfunction early, so neural and glial injury precede the visible vessel changes."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Diabetic retinopathy starts by thickening collagen: high glucose stiffens the retinal capillary basement membrane (collagen IV), an early change that weakens vessels into microaneurysms, and later fibrovascular collagen sheets can wrinkle and detach the retina."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Diabetic retinopathy is inflamed by macrophages: recruited myeloid cells and activated retinal microglia pour out cytokines that damage the blood-retinal barrier, adding low-grade inflammation to the classic microvascular picture."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Diabetic retinopathy reflects lost nitric oxide: damaged retinal endothelium makes too little NO to dilate vessels and autoregulate flow, so the retina swings between poor perfusion and leak—worsening the ischemia that drives VEGF."
 ---
 
 # Diabetic Retinopathy
@@ -245,6 +254,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Pericyte loss is the earliest lesion of diabetic retinopathy, and PDGF maintains pericytes: hyperglycemia disrupts PDGF-B signaling that normally keeps pericytes wrapping retinal capillaries, so they drop off, weakening vessels into microaneurysms and leaks.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement activation contributes to diabetic retinopathy: C3 and downstream complement deposit in retinal vessels, adding inflammatory injury to the high-glucose damage—an emerging arm of disease beyond the classic VEGF-driven angiogenesis.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Diabetic retinopathy is a neurovascular disease, not just vascular: retinal astrocytes and Müller glia that support neurons and the blood-retinal barrier dysfunction early, so neural and glial injury precede the visible vessel changes.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Diabetic retinopathy starts by thickening collagen: high glucose stiffens the retinal capillary basement membrane (collagen IV), an early change that weakens vessels into microaneurysms, and later fibrovascular collagen sheets can wrinkle and detach the retina.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Diabetic retinopathy is inflamed by macrophages: recruited myeloid cells and activated retinal microglia pour out cytokines that damage the blood-retinal barrier, adding low-grade inflammation to the classic microvascular picture.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Diabetic retinopathy reflects lost nitric oxide: damaged retinal endothelium makes too little NO to dilate vessels and autoregulate flow, so the retina swings between poor perfusion and leak—worsening the ischemia that drives VEGF.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

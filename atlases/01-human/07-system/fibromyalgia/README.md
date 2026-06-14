@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Fibromyalgia's lead drugs act on calcium channels: pregabalin and gabapentin bind the alpha-2-delta subunit of voltage-gated calcium channels in overactive pain neurons, dampening neurotransmitter release—calming the central sensitization that drives the pain."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Fibromyalgia is linked to low magnesium: the mineral gates the NMDA receptor and fuels muscle energy, so deficiency may heighten the central pain sensitization and fatigue, and supplementation is studied as an adjunct."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Fibromyalgia's central sensitization runs through astrocytes: together with microglia, these glial cells amplify pain signaling in the spinal cord and brain, turning up the volume on normal sensations into the widespread pain that defines it."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Fibromyalgia disrupts growth hormone via broken sleep: the lack of deep slow-wave sleep blunts nighttime GH secretion and lowers IGF-1, contributing to the poor tissue repair, fatigue, and muscle pain of the syndrome."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -270,6 +279,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Hypothyroidism mimics and worsens fibromyalgia: low thyroid hormone causes the same fatigue, aches and cognitive fog, so checking the thyroid is essential before settling on a fibromyalgia diagnosis—and treating it can relieve overlapping symptoms.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency is common in fibromyalgia and may amplify pain: low levels are linked to more widespread musculoskeletal pain, and repletion is a simple, often-checked step that can modestly ease symptoms in deficient patients.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Fibromyalgia's lead drugs act on calcium channels: pregabalin and gabapentin bind the alpha-2-delta subunit of voltage-gated calcium channels in overactive pain neurons, dampening neurotransmitter release—calming the central sensitization that drives the pain.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Fibromyalgia is linked to low magnesium: the mineral gates the NMDA receptor and fuels muscle energy, so deficiency may heighten the central pain sensitization and fatigue, and supplementation is studied as an adjunct.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Fibromyalgia's central sensitization runs through astrocytes: together with microglia, these glial cells amplify pain signaling in the spinal cord and brain, turning up the volume on normal sensations into the widespread pain that defines it.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Fibromyalgia disrupts growth hormone via broken sleep: the lack of deep slow-wave sleep blunts nighttime GH secretion and lowers IGF-1, contributing to the poor tissue repair, fatigue, and muscle pain of the syndrome.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
