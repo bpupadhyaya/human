@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "HAE attacks hinge on smooth muscle: bradykinin relaxes vascular smooth muscle and opens endothelial junctions, flooding tissue with fluid—and in the gut, submucosal edema with smooth-muscle spasm causes severe abdominal pain that mimics a surgical abdomen."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgens are a classic hereditary angioedema prophylaxis: attenuated androgens like danazol raise C1-inhibitor levels to prevent attacks—a striking contrast with estrogen, which worsens HAE—so sex hormones swing the disease in opposite directions."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Acquired angioedema mimics HAE but comes from plasma cells: monoclonal gammopathy and lymphoproliferative disorders consume or autoantibody-target C1-inhibitor, so late-onset angioedema without family history prompts a search for a plasma-cell clone."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Angioedema overwhelms lymphatic fluid clearance: bradykinin makes deep dermal and submucosal vessels leak faster than the lymphatic system can drain, producing the firm, non-pitting swelling of HAE—unlike the histamine-driven hives of allergy."
 ---
 
 # Hereditary Angioedema
@@ -258,6 +267,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Hereditary angioedema is bradykinin-, not histamine-driven—and that distinction is everything: unlike allergic angioedema and hives, HAE swelling does not respond to antihistamines, steroids, or epinephrine, so recognizing the non-histaminergic mechanism saves airways.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hereditary angioedema is shaped by the reproductive system: estrogen worsens attacks, so puberty, pregnancy, and the contraceptive Pill can trigger flares—and an estrogen-dependent FXII-linked form affects mainly women, making hormone choices central to care.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — HAE attacks hinge on smooth muscle: bradykinin relaxes vascular smooth muscle and opens endothelial junctions, flooding tissue with fluid—and in the gut, submucosal edema with smooth-muscle spasm causes severe abdominal pain that mimics a surgical abdomen.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgens are a classic hereditary angioedema prophylaxis: attenuated androgens like danazol raise C1-inhibitor levels to prevent attacks—a striking contrast with estrogen, which worsens HAE—so sex hormones swing the disease in opposite directions.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Acquired angioedema mimics HAE but comes from plasma cells: monoclonal gammopathy and lymphoproliferative disorders consume or autoantibody-target C1-inhibitor, so late-onset angioedema without family history prompts a search for a plasma-cell clone.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Angioedema overwhelms lymphatic fluid clearance: bradykinin makes deep dermal and submucosal vessels leak faster than the lymphatic system can drain, producing the firm, non-pitting swelling of HAE—unlike the histamine-driven hives of allergy.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

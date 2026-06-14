@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/sickle-cell-disease
     relation: connects-to
     note: "Sickle cell disease is a hypercoagulable state in its own right: chronic hemolysis, activated platelets, and endothelial damage tip blood toward clotting, so it compounds inherited thrombophilia and raises venous thromboembolism risk beyond its vaso-occlusive crises."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium is coagulation Factor IV, central to the clotting that thrombophilia tips toward excess: it bridges clotting-factor complexes to membranes, so it underlies the cascade—and citrate that chelates it keeps lab tubes and stored blood from clotting."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The liver's hepatocytes make both sides of the clotting balance: they synthesize procoagulant factors and the natural anticoagulants protein C, protein S and antithrombin—so inherited deficiencies of these hepatocyte products cause thrombophilia."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity compounds inherited thrombophilia: excess adipose tissue raises clotting factors and inflammation and impairs fibrinolysis, so it multiplies the venous-thrombosis risk of a Factor V Leiden or prothrombin variant—gene meets environment."
 ---
 
 # Inherited Thrombophilia
@@ -282,6 +291,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Inherited thrombophilia threatens the placenta: clots in the placental circulation are linked to recurrent miscarriage, pre-eclampsia, growth restriction, and stillbirth—so obstetric complications are a major reason thrombophilia is tested for in women.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen ties to thrombophilia at both ends: rare inherited dysfibrinogenemia can make a clot-prone fibrin, and high fibrinogen levels are themselves prothrombotic—so the very protein that forms clots can be a hereditary or acquired thrombosis risk.
 - `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Sickle cell disease is a hypercoagulable state in its own right: chronic hemolysis, activated platelets, and endothelial damage tip blood toward clotting, so it compounds inherited thrombophilia and raises venous thromboembolism risk beyond its vaso-occlusive crises.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is coagulation Factor IV, central to the clotting that thrombophilia tips toward excess: it bridges clotting-factor complexes to membranes, so it underlies the cascade—and citrate that chelates it keeps lab tubes and stored blood from clotting.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver's hepatocytes make both sides of the clotting balance: they synthesize procoagulant factors and the natural anticoagulants protein C, protein S and antithrombin—so inherited deficiencies of these hepatocyte products cause thrombophilia.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity compounds inherited thrombophilia: excess adipose tissue raises clotting factors and inflammation and impairs fibrinolysis, so it multiplies the venous-thrombosis risk of a Factor V Leiden or prothrombin variant—gene meets environment.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
