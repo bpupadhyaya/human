@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Exhaled nitric oxide helps tell COPD from asthma: FeNO rises with the eosinophilic airway inflammation of asthma but stays low in typical neutrophilic COPD, so the gas is a breath biomarker guiding who will respond to inhaled steroids."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "COPD throws off acid-base balance by trapping CO2: failing lungs cannot exhale carbon dioxide, which becomes carbonic acid and raises blood hydrogen ions, producing the respiratory acidosis that marks advanced disease and flares."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "COPD remodels the small airways with collagen: TGF-beta-driven fibroblasts lay down collagen around the bronchioles, narrowing and stiffening them, so airway fibrosis—not just alveolar loss—drives the irreversible airflow limitation."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells help destroy the COPD lung: CD8 T cells accumulate in the airways and alveoli, and their killing of lung cells correlates with the emphysema and airflow limitation, adding adaptive immunity to the neutrophil-macrophage attack."
 ---
 
 # COPD
@@ -286,6 +295,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency worsens COPD: low levels are common in these patients and track with more frequent exacerbations and faster bone loss, so supplementing deficient patients can cut flare-ups and protect against the osteoporosis COPD brings.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chronic low oxygen in COPD drives erythropoietin: persistent hypoxia signals the kidney to make more EPO, thickening the blood with extra red cells (secondary polycythemia) that strains the heart already burdened by lung disease.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Exhaled nitric oxide helps tell COPD from asthma: FeNO rises with the eosinophilic airway inflammation of asthma but stays low in typical neutrophilic COPD, so the gas is a breath biomarker guiding who will respond to inhaled steroids.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — COPD throws off acid-base balance by trapping CO2: failing lungs cannot exhale carbon dioxide, which becomes carbonic acid and raises blood hydrogen ions, producing the respiratory acidosis that marks advanced disease and flares.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — COPD remodels the small airways with collagen: TGF-beta-driven fibroblasts lay down collagen around the bronchioles, narrowing and stiffening them, so airway fibrosis—not just alveolar loss—drives the irreversible airflow limitation.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells help destroy the COPD lung: CD8 T cells accumulate in the airways and alveoli, and their killing of lung cells correlates with the emphysema and airflow limitation, adding adaptive immunity to the neutrophil-macrophage attack.
 
 ---
 

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "CMML smolders with inflammatory IL-6: its malignant monocytes and marrow pump out IL-6 and other cytokines that drive proliferation and the systemic symptoms—fevers, weight loss, and autoimmune features—that often accompany the leukemia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "CMML's failing marrow starves tissues of oxygen: as the malignant clone crowds out normal blood production, anemia develops and the blood carries less oxygen, driving the fatigue and breathlessness common in the disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "CMML can infiltrate and inflame the lungs: its excess monocytes seed pulmonary tissue and, with weakened immunity, leave patients prone to pneumonia, so respiratory infiltrates and infection are recurring complications."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "RAS-pathway mutations push CMML growth through mTOR: KRAS and related lesions activate downstream mTOR signaling that drives the monocyte proliferation, making this growth axis a target studied alongside hypomethylating drugs."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -261,6 +270,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — CMML can injure the kidney through lysozyme: its excess monocytes pour out lysozyme (muramidase) that damages the proximal tubules, causing potassium wasting and renal impairment—an unusual organ complication of monocytic leukemias.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells matter in CMML, the only curable path being transplant: natural killer and donor immune cells mount a graft-versus-leukemia response, so harnessing NK-mediated surveillance is central to controlling a disease drugs only restrain.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — CMML smolders with inflammatory IL-6: its malignant monocytes and marrow pump out IL-6 and other cytokines that drive proliferation and the systemic symptoms—fevers, weight loss, and autoimmune features—that often accompany the leukemia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — CMML's failing marrow starves tissues of oxygen: as the malignant clone crowds out normal blood production, anemia develops and the blood carries less oxygen, driving the fatigue and breathlessness common in the disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — CMML can infiltrate and inflame the lungs: its excess monocytes seed pulmonary tissue and, with weakened immunity, leave patients prone to pneumonia, so respiratory infiltrates and infection are recurring complications.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — RAS-pathway mutations push CMML growth through mTOR: KRAS and related lesions activate downstream mTOR signaling that drives the monocyte proliferation, making this growth axis a target studied alongside hypomethylating drugs.
 
 ---
 
