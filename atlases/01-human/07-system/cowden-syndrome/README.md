@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Cowden syndrome affects the reproductive tract: uterine fibroids are common and endometrial cancer risk is high, so gynecologic surveillance and counseling about hysterectomy are part of managing this PTEN-driven syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Cowden syndrome silences FOXO by unleashing AKT: PTEN normally restrains AKT, so its loss lets AKT shut down FOXO transcription factors that would trigger apoptosis and cell-cycle arrest—removing a brake and letting hamartomas and cancers grow."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "Some Cowden-like patients carry SDHB instead of PTEN: a subset with the classic features but no PTEN mutation have variants in mitochondrial SDHB/SDHD, so testing these genes helps explain PTEN-negative cases and refines cancer risk."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Cowden syndrome warps cerebellar neurons in Lhermitte-Duclos disease: PTEN loss drives a hamartomatous overgrowth of dysplastic neurons in the cerebellum, the nervous-system hallmark that, with macrocephaly, points to the diagnosis."
 ---
 
 # Cowden Syndrome
@@ -303,6 +312,9 @@ cross_links:
 - `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Cowden syndrome unleashes the PI3K pathway: losing PTEN removes the brake on PI3K-AKT-mTOR signaling, so cells over-grow into hamartomas and cancers—making PI3K/mTOR inhibitors a rational targeted therapy for this PTEN-hamartoma syndrome.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cowden syndrome carpets the colon with polyps: hamartomatous (and other) polyps stud the large intestine and raise colorectal cancer risk, so regular colonoscopy is part of the intensive cancer surveillance these patients need.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cowden syndrome affects the reproductive tract: uterine fibroids are common and endometrial cancer risk is high, so gynecologic surveillance and counseling about hysterectomy are part of managing this PTEN-driven syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Cowden syndrome silences FOXO by unleashing AKT: PTEN normally restrains AKT, so its loss lets AKT shut down FOXO transcription factors that would trigger apoptosis and cell-cycle arrest—removing a brake and letting hamartomas and cancers grow.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — Some Cowden-like patients carry SDHB instead of PTEN: a subset with the classic features but no PTEN mutation have variants in mitochondrial SDHB/SDHD, so testing these genes helps explain PTEN-negative cases and refines cancer risk.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Cowden syndrome warps cerebellar neurons in Lhermitte-Duclos disease: PTEN loss drives a hamartomatous overgrowth of dysplastic neurons in the cerebellum, the nervous-system hallmark that, with macrocephaly, points to the diagnosis.
 
 ---
 

@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "CF lung disease is a self-damaging immune cycle: impaired clearance invites chronic bacterial infection that draws relentless neutrophilic inflammation, whose enzymes destroy airways more than the microbes do—so anti-inflammatory strategies complement antibiotics."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Cystic fibrosis starves the body of vitamin D: pancreatic insufficiency blocks absorption of fat-soluble vitamins, so CF patients run low on vitamin D and need high-dose supplements to fend off the bone disease that shadows the illness."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Cystic fibrosis breeds its own diabetes through insulin loss: scarring of the pancreas destroys insulin-producing islet cells, causing CF-related diabetes—a distinct form, neither type 1 nor type 2, that worsens lung decline and needs insulin."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Treating cystic fibrosis can deplete magnesium: the IV aminoglycosides used against Pseudomonas waste magnesium through the kidney, and malabsorption adds to it, so low magnesium is a recurring complication to monitor and replace."
 ---
 
 # Cystic Fibrosis
@@ -251,6 +260,9 @@ AND
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Cystic fibrosis is named for the scarring it causes: thick secretions and chronic inflammation replace pancreatic and lung tissue with fibrosis and cysts, so progressive fibrotic destruction—not the gene defect alone—drives organ failure.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CF cripples the lung's macrophages: the CFTR defect impairs how macrophages acidify phagosomes and kill bacteria, so weakened innate immunity lets Pseudomonas and other microbes establish the chronic infection central to CF lung disease.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — CF lung disease is a self-damaging immune cycle: impaired clearance invites chronic bacterial infection that draws relentless neutrophilic inflammation, whose enzymes destroy airways more than the microbes do—so anti-inflammatory strategies complement antibiotics.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Cystic fibrosis starves the body of vitamin D: pancreatic insufficiency blocks absorption of fat-soluble vitamins, so CF patients run low on vitamin D and need high-dose supplements to fend off the bone disease that shadows the illness.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Cystic fibrosis breeds its own diabetes through insulin loss: scarring of the pancreas destroys insulin-producing islet cells, causing CF-related diabetes—a distinct form, neither type 1 nor type 2, that worsens lung decline and needs insulin.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Treating cystic fibrosis can deplete magnesium: the IV aminoglycosides used against Pseudomonas waste magnesium through the kidney, and malabsorption adds to it, so low magnesium is a recurring complication to monitor and replace.
 
 ---
 
