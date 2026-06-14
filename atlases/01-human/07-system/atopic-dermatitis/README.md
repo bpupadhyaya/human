@@ -97,6 +97,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D modulates atopic dermatitis: it supports the skin barrier and antimicrobial defense and tempers type-2 inflammation, so deficiency is linked to more severe eczema and supplementation is studied as adjunct therapy."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Atopic dermatitis is first treated with cortisol's synthetic cousins: topical corticosteroids calm the Th2 inflammation that drives the itch-scratch eczema, though long-term potent use thins skin and can suppress the body's own cortisol axis."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Atopic dermatitis reflects failed immune tolerance: regulatory T cells normally restrain Th2 responses to harmless allergens, and when they underperform the skin's barrier breakdown lets allergens provoke the chronic allergic inflammation of eczema."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc deficiency mimics atopic dermatitis: too little zinc produces an eczema-like rash (acrodermatitis) and impairs the skin barrier and immune regulation, so refractory 'eczema' sometimes turns out to be a correctable zinc shortfall."
 ---
 
 # Atopic Dermatitis
@@ -246,6 +255,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells fuel atopic dermatitis through IgE: in the allergic skin, B cells class-switch to make the IgE that arms mast cells, so elevated IgE marks the atopic phenotype—and B-cell-derived antibodies tie eczema to the broader allergic march.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut (and skin) microbiome shapes atopic dermatitis: early-life dysbiosis skews immunity toward allergy, and the eczematous skin is overrun by Staphylococcus aureus, so microbial balance influences both onset and flares of the disease.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D modulates atopic dermatitis: it supports the skin barrier and antimicrobial defense and tempers type-2 inflammation, so deficiency is linked to more severe eczema and supplementation is studied as adjunct therapy.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Atopic dermatitis is first treated with cortisol's synthetic cousins: topical corticosteroids calm the Th2 inflammation that drives the itch-scratch eczema, though long-term potent use thins skin and can suppress the body's own cortisol axis.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Atopic dermatitis reflects failed immune tolerance: regulatory T cells normally restrain Th2 responses to harmless allergens, and when they underperform the skin's barrier breakdown lets allergens provoke the chronic allergic inflammation of eczema.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc deficiency mimics atopic dermatitis: too little zinc produces an eczema-like rash (acrodermatitis) and impairs the skin barrier and immune regulation, so refractory 'eczema' sometimes turns out to be a correctable zinc shortfall.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

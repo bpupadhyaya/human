@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/obsessive-compulsive-disorder
     relation: connects-to
     note: "ADHD and OCD share frontostriatal circuitry yet pull oppositely: ADHD is impulsive and under-controlled while OCD is over-controlled, so they can co-occur and complicate each other—and stimulants for ADHD may aggravate obsessions."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "ADHD reaches beyond neurons to astrocytes: these glial cells help clear and recycle dopamine and glutamate at synapses, so astrocyte dysfunction can blunt the prefrontal signaling that stimulant medications work to restore."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "ADHD and epilepsy travel together: children with epilepsy have far higher ADHD rates and vice versa, sharing disrupted attention networks—and stimulant treatment is generally safe and helpful rather than seizure-provoking in well-controlled epilepsy."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "ADHD predisposes to obesity: impulsivity and dopamine-driven reward seeking promote dysregulated, binge-style eating, so untreated attention-deficit symptoms are a risk factor for weight gain and disordered eating."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -281,6 +290,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — ADHD commonly comes with disrupted sleep: delayed melatonin release shifts the body clock later, causing trouble falling asleep that worsens daytime inattention, so melatonin and sleep treatment are part of comprehensive ADHD care.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — ADHD risk is partly set before birth via the placenta: maternal smoking, alcohol, stress, and placental insufficiency that limit fetal brain growth raise the child's ADHD risk—so prenatal environment shapes this neurodevelopmental disorder.
 - `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — ADHD and OCD share frontostriatal circuitry yet pull oppositely: ADHD is impulsive and under-controlled while OCD is over-controlled, so they can co-occur and complicate each other—and stimulants for ADHD may aggravate obsessions.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — ADHD reaches beyond neurons to astrocytes: these glial cells help clear and recycle dopamine and glutamate at synapses, so astrocyte dysfunction can blunt the prefrontal signaling that stimulant medications work to restore.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — ADHD and epilepsy travel together: children with epilepsy have far higher ADHD rates and vice versa, sharing disrupted attention networks—and stimulant treatment is generally safe and helpful rather than seizure-provoking in well-controlled epilepsy.
+- `connects-to` → **[Obesity](../obesity/README.md)** — ADHD predisposes to obesity: impulsivity and dopamine-driven reward seeking promote dysregulated, binge-style eating, so untreated attention-deficit symptoms are a risk factor for weight gain and disordered eating.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
