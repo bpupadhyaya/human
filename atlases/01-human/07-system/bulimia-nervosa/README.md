@@ -117,6 +117,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Laxative abuse in bulimia damages the colon: chronic stimulant laxatives can produce a sluggish 'cathartic colon' and melanosis coli, so the large intestine bears lasting harm from purging by this route."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Vomiting in bulimia drains chloride: each purge loses gastric hydrochloric acid, and the chloride depletion sustains a hypochloremic metabolic alkalosis that the kidneys struggle to correct."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Bulimia can inflame the pancreas: large binges and the abrupt swings of refeeding can trigger acute pancreatitis, a painful and sometimes serious complication of the binge-purge cycle."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Bulimia poisons heart-muscle cells: swings in potassium and magnesium destabilize cardiomyocytes into arrhythmias, and ipecac syrup once used to induce vomiting is directly toxic to the heart muscle."
 ---
 
 # Bulimia Nervosa
@@ -279,6 +288,9 @@ All of the following must be met:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Bulimia's vomiting throws off the body's acid balance: losing stomach acid (hydrogen and chloride ions) produces a hypochloremic metabolic alkalosis, a chemical clue to covert purging alongside the low potassium it causes.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Bulimia is rooted in reward synapses: binge-purge cycles reshape connections in the dopamine reward and impulse-control circuits, the synaptic plasticity that helps explain the compulsive loss of control over eating.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Laxative abuse in bulimia damages the colon: chronic stimulant laxatives can produce a sluggish 'cathartic colon' and melanosis coli, so the large intestine bears lasting harm from purging by this route.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Vomiting in bulimia drains chloride: each purge loses gastric hydrochloric acid, and the chloride depletion sustains a hypochloremic metabolic alkalosis that the kidneys struggle to correct.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Bulimia can inflame the pancreas: large binges and the abrupt swings of refeeding can trigger acute pancreatitis, a painful and sometimes serious complication of the binge-purge cycle.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Bulimia poisons heart-muscle cells: swings in potassium and magnesium destabilize cardiomyocytes into arrhythmias, and ipecac syrup once used to induce vomiting is directly toxic to the heart muscle.
 
 ## Treatment
 

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Bloom syndrome is diagnosed in the fibroblast: cultured cells reveal sharply elevated sister-chromatid exchange, the cytogenetic fingerprint of BLM helicase loss that distinguishes it from other DNA-repair disorders."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bloom syndrome makes the marrow turn leukemic: its runaway genomic instability seeds mutations in blood-forming cells, so leukemias and lymphomas arise from the bone marrow at strikingly young ages."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Bloom syndrome burdens the pancreas: patients commonly develop diabetes as the gland's insulin output falters, and their broad cancer predisposition includes pancreatic tumors among many sites."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Bloom syndrome dims immune surveillance: a mild immunodeficiency weakens natural killer and antibody responses, leaving patients prone to infections and less able to cull the cancerous cells their unstable DNA spawns."
 ---
 
 # Bloom Syndrome
@@ -285,6 +294,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxidative damage compounds Bloom syndrome's repair defect: with the BLM helicase gone, cells handle DNA breaks poorly, so reactive oxygen species and sunlight add lesions the cell cannot fix—fueling the genomic instability and cancer risk.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Bloom syndrome carries a steep colorectal cancer risk: the failed DNA repair lets mutations accumulate in the gut lining, so these patients develop bowel cancers young and need early, frequent colonoscopy among their many tumor risks.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Bloom syndrome is diagnosed in the fibroblast: cultured cells reveal sharply elevated sister-chromatid exchange, the cytogenetic fingerprint of BLM helicase loss that distinguishes it from other DNA-repair disorders.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bloom syndrome makes the marrow turn leukemic: its runaway genomic instability seeds mutations in blood-forming cells, so leukemias and lymphomas arise from the bone marrow at strikingly young ages.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Bloom syndrome burdens the pancreas: patients commonly develop diabetes as the gland's insulin output falters, and their broad cancer predisposition includes pancreatic tumors among many sites.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Bloom syndrome dims immune surveillance: a mild immunodeficiency weakens natural killer and antibody responses, leaving patients prone to infections and less able to cull the cancerous cells their unstable DNA spawns.
 
 ---
 
