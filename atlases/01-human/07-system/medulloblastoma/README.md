@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Medulloblastoma arises from cerebellar progenitors, distinct from astrocyte-derived gliomas: it is an embryonal small-round-blue-cell tumor of granule-cell precursors, so its biology and treatment differ fundamentally from the astrocytic and oligodendroglial gliomas."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Some medulloblastomas reactivate telomerase via TERT: promoter mutations switch TERT back on, especially in adult SHH-subgroup tumors, letting cells divide indefinitely—a molecular marker that helps subgroup and risk-stratify these embryonal brain cancers."
+  - target: 01-human/07-system/retinoblastoma
+    relation: connects-to
+    note: "Medulloblastoma and retinoblastoma are both embryonal childhood cancers: each arises from immature precursor cells—cerebellar in one, retinal in the other—and both can seed the cerebrospinal fluid, a parallel between developing neural tissues turning malignant."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Medulloblastomas recruit brain microglia into their microenvironment: these tumor-associated immune cells can be co-opted to support growth and shape the response to therapy, making the cerebellar tumor's immune niche a focus of new treatment ideas."
 ---
 
 # Medulloblastoma
@@ -241,6 +250,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is standard for pediatric medulloblastoma's craniospinal radiation: because children need the whole brain and spine irradiated, protons' lack of exit dose spares the heart, lungs and gut, cutting the lifelong toxicity of treating this childhood brain tumor.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Medulloblastoma is the commonest malignant brain tumor of childhood, arising in the cerebellum: it disrupts balance and blocks CSF flow (hydrocephalus), and it seeds along the nervous system's CSF pathways—why staging and radiation cover the whole neuraxis.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Medulloblastoma arises from cerebellar progenitors, distinct from astrocyte-derived gliomas: it is an embryonal small-round-blue-cell tumor of granule-cell precursors, so its biology and treatment differ fundamentally from the astrocytic and oligodendroglial gliomas.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Some medulloblastomas reactivate telomerase via TERT: promoter mutations switch TERT back on, especially in adult SHH-subgroup tumors, letting cells divide indefinitely—a molecular marker that helps subgroup and risk-stratify these embryonal brain cancers.
+- `connects-to` → **[Retinoblastoma](../retinoblastoma/README.md)** — Medulloblastoma and retinoblastoma are both embryonal childhood cancers: each arises from immature precursor cells—cerebellar in one, retinal in the other—and both can seed the cerebrospinal fluid, a parallel between developing neural tissues turning malignant.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Medulloblastomas recruit brain microglia into their microenvironment: these tumor-associated immune cells can be co-opted to support growth and shape the response to therapy, making the cerebellar tumor's immune niche a focus of new treatment ideas.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

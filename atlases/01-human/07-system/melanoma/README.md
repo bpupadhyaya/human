@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Melanoma has a notorious tropism for the nervous system: it is among the cancers most likely to spread to the brain, and leptomeningeal disease is feared—so CNS imaging is routine, and checkpoint immunotherapy has improved control of melanoma brain metastases."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "KIT drives the melanomas that aren't sun-driven: acral and mucosal melanomas often carry activating KIT mutations rather than BRAF, so testing KIT opens treatment with imatinib and other KIT inhibitors in these distinct subtypes."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells underlie melanoma immunotherapy: they capture tumor antigens and prime the cytotoxic T cells that checkpoint inhibitors unleash, and loading them with melanoma antigens is the basis of dendritic-cell vaccines tested against the disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Melanoma escapes targeted therapy through AKT: PTEN loss switches on the PI3K-AKT survival pathway, fueling growth and resistance to BRAF/MEK inhibitors, so AKT-pathway blockade is studied to deepen and prolong responses."
 ---
 
 # Melanoma
@@ -209,6 +218,9 @@ cross_links:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Melanoma is the deadliest cancer of the integumentary system: arising from pigment-making melanocytes, it can metastasize early despite small size, so the skin's most dangerous tumor is caught by watching moles for change (the ABCDE signs).
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Melanoma also arises in the eye: uveal melanoma develops from melanocytes of the choroid, and rare mucosal and other non-cutaneous melanomas show that the cancer can start wherever melanocytes reside, not only sun-exposed skin.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Melanoma has a notorious tropism for the nervous system: it is among the cancers most likely to spread to the brain, and leptomeningeal disease is feared—so CNS imaging is routine, and checkpoint immunotherapy has improved control of melanoma brain metastases.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT drives the melanomas that aren't sun-driven: acral and mucosal melanomas often carry activating KIT mutations rather than BRAF, so testing KIT opens treatment with imatinib and other KIT inhibitors in these distinct subtypes.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells underlie melanoma immunotherapy: they capture tumor antigens and prime the cytotoxic T cells that checkpoint inhibitors unleash, and loading them with melanoma antigens is the basis of dendritic-cell vaccines tested against the disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Melanoma escapes targeted therapy through AKT: PTEN loss switches on the PI3K-AKT survival pathway, fueling growth and resistance to BRAF/MEK inhibitors, so AKT-pathway blockade is studied to deepen and prolong responses.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
