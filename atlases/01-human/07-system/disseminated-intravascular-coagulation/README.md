@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/hemoglobin
     relation: connects-to
     note: "DIC shreds red cells and spills hemoglobin: fibrin strands strung across small vessels slice passing red cells (microangiopathic hemolysis), producing schistocytes and free hemoglobin that can itself injure the kidneys."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-alpha lights the fuse of sepsis-driven DIC: it induces tissue factor on monocytes and endothelium, igniting the clotting cascade throughout the circulation, the inflammation-to-coagulation link that turns infection into widespread microthrombosis."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "DIC can choke the heart's small vessels: microthrombi scattered through the coronary microcirculation, plus the bleeding and shock of the syndrome, strain the heart and add cardiac injury to its multi-organ damage."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "DIC starves organs of oxygen with countless tiny clots: fibrin microthrombi plug small vessels, cutting oxygen delivery to kidney, lung and brain, so tissue hypoxia and organ failure—not just bleeding—drive its high mortality."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -274,6 +283,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Clotting in DIC runs on calcium—factor IV: calcium ions are an essential cofactor at multiple steps of the cascade, and the massive transfusions used to treat severe DIC can bind calcium and drop its level, worsening bleeding.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — DIC can destroy the adrenal glands (Waterhouse-Friderichsen): in meningococcal sepsis, widespread clotting causes bilateral adrenal hemorrhage, triggering sudden adrenal failure and shock on top of the coagulopathy.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — DIC shreds red cells and spills hemoglobin: fibrin strands strung across small vessels slice passing red cells (microangiopathic hemolysis), producing schistocytes and free hemoglobin that can itself injure the kidneys.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha lights the fuse of sepsis-driven DIC: it induces tissue factor on monocytes and endothelium, igniting the clotting cascade throughout the circulation, the inflammation-to-coagulation link that turns infection into widespread microthrombosis.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — DIC can choke the heart's small vessels: microthrombi scattered through the coronary microcirculation, plus the bleeding and shock of the syndrome, strain the heart and add cardiac injury to its multi-organ damage.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — DIC starves organs of oxygen with countless tiny clots: fibrin microthrombi plug small vessels, cutting oxygen delivery to kidney, lung and brain, so tissue hypoxia and organ failure—not just bleeding—drive its high mortality.
 
 ---
 

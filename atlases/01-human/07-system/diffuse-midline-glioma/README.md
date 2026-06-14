@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Diffuse midline glioma is a target for NK and cell therapies: because it is so hard to resect or irradiate, engineered NK cells and GD2 CAR-T are being tested to attack the tumor immunologically where surgery and drugs fail."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Diffuse midline glioma grows on calcium from neuron-glioma synapses: real synapses form between neurons and tumor cells, and the glutamate-driven calcium influx through them spurs the cancer to proliferate—a striking link between brain activity and tumor growth."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Diffuse midline glioma recruits blood supply via VEGF: though infiltrative, the tumor releases VEGF to coax new vessels and loosen the blood-brain barrier, a process studied as a target in a cancer that resists almost all therapy."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Tumor-associated microglia feed diffuse midline glioma through NF-kB: this inflammatory switch in the brain's immune cells drives cytokines that support the glioma's growth, part of the supportive niche around this lethal pediatric tumor."
 ---
 
 # Diffuse Midline Glioma
@@ -274,6 +283,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Diffuse midline glioma's most promising drug works on dopamine signaling: ONC201 (dordaviprone) antagonizes the dopamine D2 receptor (and mitochondrial ClpP) and has produced rare responses in H3K27M tumors, a surprising therapeutic angle in an otherwise fatal cancer.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — A thalamic subset of diffuse midline glioma is driven by EGFR: bithalamic H3-wildtype midline gliomas carry EGFR mutations rather than H3K27M, so molecular testing splits these tumors into biologically distinct, differently-targetable groups.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Diffuse midline glioma is a target for NK and cell therapies: because it is so hard to resect or irradiate, engineered NK cells and GD2 CAR-T are being tested to attack the tumor immunologically where surgery and drugs fail.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Diffuse midline glioma grows on calcium from neuron-glioma synapses: real synapses form between neurons and tumor cells, and the glutamate-driven calcium influx through them spurs the cancer to proliferate—a striking link between brain activity and tumor growth.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Diffuse midline glioma recruits blood supply via VEGF: though infiltrative, the tumor releases VEGF to coax new vessels and loosen the blood-brain barrier, a process studied as a target in a cancer that resists almost all therapy.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Tumor-associated microglia feed diffuse midline glioma through NF-kB: this inflammatory switch in the brain's immune cells drives cytokines that support the glioma's growth, part of the supportive niche around this lethal pediatric tumor.
 
 ---
 
