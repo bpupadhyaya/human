@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Even Lynch's hot tumors recruit regulatory T cells: the hypermutated, neoantigen-rich cancers draw a strong immune response, but Tregs in the infiltrate restrain it—part of why checkpoint blockade, which lifts that brake, works so well here."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Lynch colorectal tumors bleed iron away: the cancer oozes blood into the gut, so an unexplained iron-deficiency anemia can be the first clue that prompts the colonoscopy which finds it."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Lynch cancers spring from the gut's epithelium: with mismatch repair broken, mutations pile up in the colonic and endometrial lining, so the epithelium turns malignant faster than in sporadic disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Lynch's hypermutated tumors draw macrophages: the neoantigen-rich cancers attract a dense immune infiltrate including macrophages, part of the inflamed microenvironment behind their strong response to immunotherapy."
 ---
 
 # Lynch Syndrome
@@ -287,6 +296,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Lynch tumors often knock out the TGF-beta brake: the mismatch-repair defect causes frameshift mutations in TGFBR2, a coding microsatellite, so the colorectal cancers escape TGF-beta's growth restraint—a signature lesion of MSI-high disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Lynch syndrome can reach the brain in its Turcot variant: mismatch-repair loss raises the risk of gliomas including glioblastoma, so brain tumors join the colorectal and endometrial cancers in the syndrome's spectrum.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Even Lynch's hot tumors recruit regulatory T cells: the hypermutated, neoantigen-rich cancers draw a strong immune response, but Tregs in the infiltrate restrain it—part of why checkpoint blockade, which lifts that brake, works so well here.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Lynch colorectal tumors bleed iron away: the cancer oozes blood into the gut, so an unexplained iron-deficiency anemia can be the first clue that prompts the colonoscopy which finds it.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Lynch cancers spring from the gut's epithelium: with mismatch repair broken, mutations pile up in the colonic and endometrial lining, so the epithelium turns malignant faster than in sporadic disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Lynch's hypermutated tumors draw macrophages: the neoantigen-rich cancers attract a dense immune infiltrate including macrophages, part of the inflamed microenvironment behind their strong response to immunotherapy.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
