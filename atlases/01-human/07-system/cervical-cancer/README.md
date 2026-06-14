@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Carbon-ion radiotherapy is an option for some cervical cancers: heavy carbon ions deposit a sharply localized, highly damaging dose, useful for bulky or radioresistant gynecologic tumors—an alternative to conventional photon radiation in specialized centers."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Cervical cancer is now vaccine-preventable through B cells: the HPV vaccine elicits B-cell antibodies against the L1 capsid that block infection before it can transform cervical cells, so a humoral immune response is dramatically cutting cervical cancer rates."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Advanced cervical cancer kills through the kidneys: tumor spreading sideways in the pelvis encases the ureters, causing obstruction and hydronephrosis, so post-renal kidney failure—not the primary tumor—is a classic cause of death."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Cervical cancer intersects with pregnancy at the cervix: screening often first detects disease in young, pregnant women, and cancer found in pregnancy forces hard timing decisions around delivery—so obstetric care and cancer care must be coordinated."
 ---
 
 # Cervical Cancer
@@ -234,6 +243,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cervical cancer is the most preventable cancer of the reproductive system: HPV infects the cervical transformation zone, but Pap/HPV screening catches precancer and vaccination blocks the virus—so a leading female-reproductive cancer is now largely avoidable.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Cervical cancer spreads predictably through the lymphatic system: tumor cells drain to pelvic and para-aortic nodes, so lymph-node status is the dominant prognostic factor and dictates whether surgery or chemoradiation is used and how widely it is targeted.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an option for some cervical cancers: heavy carbon ions deposit a sharply localized, highly damaging dose, useful for bulky or radioresistant gynecologic tumors—an alternative to conventional photon radiation in specialized centers.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Cervical cancer is now vaccine-preventable through B cells: the HPV vaccine elicits B-cell antibodies against the L1 capsid that block infection before it can transform cervical cells, so a humoral immune response is dramatically cutting cervical cancer rates.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Advanced cervical cancer kills through the kidneys: tumor spreading sideways in the pelvis encases the ureters, causing obstruction and hydronephrosis, so post-renal kidney failure—not the primary tumor—is a classic cause of death.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Cervical cancer intersects with pregnancy at the cervix: screening often first detects disease in young, pregnant women, and cancer found in pregnancy forces hard timing decisions around delivery—so obstetric care and cancer care must be coordinated.
 
 ---
 

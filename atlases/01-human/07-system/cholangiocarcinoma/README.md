@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Hepatitis C is a recognized risk factor for cholangiocarcinoma: chronic viral inflammation and the cirrhosis it causes raise the risk of intrahepatic bile-duct cancer as well as HCC, so the two primary liver cancers share this viral driver."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Hepatitis B raises cholangiocarcinoma risk: chronic HBV inflames the liver and bile ducts, and like its link to hepatocellular cancer, the virus is an established risk factor for intrahepatic bile-duct cancer—so viral hepatitis spans both primary liver cancers."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Fatty liver disease is a rising cause of cholangiocarcinoma: NASH-driven inflammation and fibrosis increasingly underlie intrahepatic bile-duct cancer, so the metabolic epidemic is expanding a tumor once tied mainly to flukes and bile-duct disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Cholangiocarcinoma grows out of chronic biliary inflammation: neutrophils and other immune cells in inflamed, infected, or stone-laden bile ducts release IL-6 and reactive species that drive the DNA damage transforming cholangiocytes—inflammation as carcinogen."
 ---
 
 # Cholangiocarcinoma
@@ -208,6 +217,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Cholangiocarcinoma arises from chronically inflamed, fibrotic bile ducts: primary sclerosing cholangitis, liver fluke and stones scar the biliary tree, and this fibrosis-inflammation milieu is the soil in which the cancer develops—mirroring HCC arising in cirrhosis.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy has a role in cholangiocarcinoma: photon-based external-beam or stereotactic radiation, often with chemo, treats unresectable bile-duct tumors and the perihilar disease that obstructs the ducts—palliating jaundice and sometimes downstaging for surgery.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hepatitis C is a recognized risk factor for cholangiocarcinoma: chronic viral inflammation and the cirrhosis it causes raise the risk of intrahepatic bile-duct cancer as well as HCC, so the two primary liver cancers share this viral driver.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Hepatitis B raises cholangiocarcinoma risk: chronic HBV inflames the liver and bile ducts, and like its link to hepatocellular cancer, the virus is an established risk factor for intrahepatic bile-duct cancer—so viral hepatitis spans both primary liver cancers.
+- `connects-to` → **[NASH](../nash/README.md)** — Fatty liver disease is a rising cause of cholangiocarcinoma: NASH-driven inflammation and fibrosis increasingly underlie intrahepatic bile-duct cancer, so the metabolic epidemic is expanding a tumor once tied mainly to flukes and bile-duct disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Cholangiocarcinoma grows out of chronic biliary inflammation: neutrophils and other immune cells in inflamed, infected, or stone-laden bile ducts release IL-6 and reactive species that drive the DNA damage transforming cholangiocytes—inflammation as carcinogen.
 
 ---
 
