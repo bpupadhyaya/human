@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Cystic fibrosis ends as an oxygen problem: thick mucus, infection and scarring wreck gas exchange, so chronic low oxygen drives pulmonary hypertension and cor pulmonale, the respiratory failure that defines advanced disease."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Cystic fibrosis is also a bicarbonate problem: the CFTR channel normally exports bicarbonate, so its loss leaves secretions acidic, thickening mucus and crippling pancreatic enzymes—an acid-base angle beyond the chloride defect."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Cystic fibrosis can block the bowel: thick secretions cause meconium ileus in newborns and distal intestinal obstruction syndrome later, plugging the large intestine in ways that mimic appendicitis or obstruction."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cystic fibrosis scars its organs through fibroblasts: chronic inflammation activates them to lay down the fibrosis that destroys the pancreas (giving the disease its name) and stiffens the lungs."
 ---
 
 # Cystic Fibrosis
@@ -275,6 +284,9 @@ AND
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Cystic fibrosis lungs over-inflame through NF-kB: the defective CFTR channel primes airway cells to ramp up this inflammatory switch, so even modest infection triggers a damaging neutrophil flood, driving the relentless lung destruction.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells skew the cystic fibrosis airway toward harm: a Th17- and Th2-tilted response amplifies inflammation against chronic Pseudomonas and fungi rather than clearing them, adding adaptive immunity to the neutrophilic damage.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cystic fibrosis ends as an oxygen problem: thick mucus, infection and scarring wreck gas exchange, so chronic low oxygen drives pulmonary hypertension and cor pulmonale, the respiratory failure that defines advanced disease.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Cystic fibrosis is also a bicarbonate problem: the CFTR channel normally exports bicarbonate, so its loss leaves secretions acidic, thickening mucus and crippling pancreatic enzymes—an acid-base angle beyond the chloride defect.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cystic fibrosis can block the bowel: thick secretions cause meconium ileus in newborns and distal intestinal obstruction syndrome later, plugging the large intestine in ways that mimic appendicitis or obstruction.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cystic fibrosis scars its organs through fibroblasts: chronic inflammation activates them to lay down the fibrosis that destroys the pancreas (giving the disease its name) and stiffens the lungs.
 
 ---
 

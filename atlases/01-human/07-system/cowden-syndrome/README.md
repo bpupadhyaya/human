@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Cowden's hamartomas are overgrowths shaped by TGF-beta: unchecked PTEN-pathway signaling with TGF-beta drives the fibrous proliferation behind the skin trichilemmomas, oral papillomas and intestinal hamartomas that define the syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Cowden syndrome targets the iodine-trapping thyroid: nearly all patients develop goiters and benign nodules, and their lifetime thyroid cancer risk is high, so the gland that concentrates iodine is watched closely from childhood."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Cowden builds excess fibrous tissue: beyond the classic skin papules, the syndrome causes fibrocystic breast disease and fibromas, a tendency to lay down fibrous overgrowth wherever PTEN's brake is lost."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Cowden syndrome sprouts fatty tumors: patients commonly grow multiple lipomas, benign overgrowths of adipocytes, part of the hamartomatous excess that PTEN loss unleashes across tissues."
 ---
 
 # Cowden Syndrome
@@ -327,6 +336,9 @@ cross_links:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cowden syndrome raises the risk of kidney cancer: PTEN loss unleashes the PI3K-mTOR growth axis in renal cells too, so renal cell carcinoma joins breast, thyroid and uterine cancers in the surveillance these patients need.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PTEN loss in Cowden drives VEGF and abnormal vessels: with the PI3K-mTOR brake gone, cells overproduce VEGF, fueling the vascular malformations and the blood supply of the hamartomas and tumors the syndrome spawns.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Cowden's hamartomas are overgrowths shaped by TGF-beta: unchecked PTEN-pathway signaling with TGF-beta drives the fibrous proliferation behind the skin trichilemmomas, oral papillomas and intestinal hamartomas that define the syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Cowden syndrome targets the iodine-trapping thyroid: nearly all patients develop goiters and benign nodules, and their lifetime thyroid cancer risk is high, so the gland that concentrates iodine is watched closely from childhood.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Cowden builds excess fibrous tissue: beyond the classic skin papules, the syndrome causes fibrocystic breast disease and fibromas, a tendency to lay down fibrous overgrowth wherever PTEN's brake is lost.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Cowden syndrome sprouts fatty tumors: patients commonly grow multiple lipomas, benign overgrowths of adipocytes, part of the hamartomatous excess that PTEN loss unleashes across tissues.
 
 ---
 
