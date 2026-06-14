@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "Lynch (MSI-high) tumors often form B-cell-rich lymphoid structures: clusters of B cells and tertiary lymphoid organs inside these hypermutated cancers help mount the immune response, and their presence predicts better checkpoint-therapy results."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Lynch tumors often knock out the TGF-beta brake: the mismatch-repair defect causes frameshift mutations in TGFBR2, a coding microsatellite, so the colorectal cancers escape TGF-beta's growth restraint—a signature lesion of MSI-high disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Lynch syndrome can reach the brain in its Turcot variant: mismatch-repair loss raises the risk of gliomas including glioblastoma, so brain tumors join the colorectal and endometrial cancers in the syndrome's spectrum."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Even Lynch's hot tumors recruit regulatory T cells: the hypermutated, neoantigen-rich cancers draw a strong immune response, but Tregs in the infiltrate restrain it—part of why checkpoint blockade, which lifts that brake, works so well here."
 ---
 
 # Lynch Syndrome
@@ -275,6 +284,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — A BRAF test separates Lynch from look-alike sporadic cancers: sporadic MSI-high colon tumors usually carry a BRAF V600E mutation, while Lynch tumors are BRAF-wild-type, so BRAF status is a key reflex test before diagnosing the inherited syndrome.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Lynch tumors' flood of mutations alerts NK cells: mismatch-repair failure makes hypermutated cells display stress signals and odd peptides that natural killer cells (and T cells) can attack—part of why these cancers are so immunotherapy-sensitive.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Lynch (MSI-high) tumors often form B-cell-rich lymphoid structures: clusters of B cells and tertiary lymphoid organs inside these hypermutated cancers help mount the immune response, and their presence predicts better checkpoint-therapy results.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Lynch tumors often knock out the TGF-beta brake: the mismatch-repair defect causes frameshift mutations in TGFBR2, a coding microsatellite, so the colorectal cancers escape TGF-beta's growth restraint—a signature lesion of MSI-high disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Lynch syndrome can reach the brain in its Turcot variant: mismatch-repair loss raises the risk of gliomas including glioblastoma, so brain tumors join the colorectal and endometrial cancers in the syndrome's spectrum.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Even Lynch's hot tumors recruit regulatory T cells: the hypermutated, neoantigen-rich cancers draw a strong immune response, but Tregs in the infiltrate restrain it—part of why checkpoint blockade, which lifts that brake, works so well here.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
