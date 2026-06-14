@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Atopic dermatitis is dominated by itch wired through the nervous system: cytokines like IL-31 directly excite sensory nerves, and chronic scratching sensitizes itch pathways—so eczema's torment is as much a neural as an inflammatory disease."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells fuel atopic dermatitis through IgE: in the allergic skin, B cells class-switch to make the IgE that arms mast cells, so elevated IgE marks the atopic phenotype—and B-cell-derived antibodies tie eczema to the broader allergic march."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut (and skin) microbiome shapes atopic dermatitis: early-life dysbiosis skews immunity toward allergy, and the eczematous skin is overrun by Staphylococcus aureus, so microbial balance influences both onset and flares of the disease."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D modulates atopic dermatitis: it supports the skin barrier and antimicrobial defense and tempers type-2 inflammation, so deficiency is linked to more severe eczema and supplementation is studied as adjunct therapy."
 ---
 
 # Atopic Dermatitis
@@ -234,6 +243,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are a powerful new class for atopic dermatitis: the disease's type 2 cytokines (IL-4, IL-13, IL-31) signal through JAK, so oral JAK inhibitors and the IL-4/13 blocker dupilumab can clear severe eczema that resists topical steroids.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Atopic dermatitis is the integumentary system's signature inflammatory disease: a defective skin barrier (often from filaggrin loss) lets in allergens and microbes that ignite type 2 inflammation, so it exemplifies how barrier and immunity fail together in skin.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Atopic dermatitis is dominated by itch wired through the nervous system: cytokines like IL-31 directly excite sensory nerves, and chronic scratching sensitizes itch pathways—so eczema's torment is as much a neural as an inflammatory disease.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells fuel atopic dermatitis through IgE: in the allergic skin, B cells class-switch to make the IgE that arms mast cells, so elevated IgE marks the atopic phenotype—and B-cell-derived antibodies tie eczema to the broader allergic march.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut (and skin) microbiome shapes atopic dermatitis: early-life dysbiosis skews immunity toward allergy, and the eczematous skin is overrun by Staphylococcus aureus, so microbial balance influences both onset and flares of the disease.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D modulates atopic dermatitis: it supports the skin barrier and antimicrobial defense and tempers type-2 inflammation, so deficiency is linked to more severe eczema and supplementation is studied as adjunct therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

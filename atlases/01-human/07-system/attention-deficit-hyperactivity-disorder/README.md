@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/iron-deficiency-anemia
     relation: connects-to
     note: "Iron deficiency is linked to ADHD symptoms: iron is a cofactor for dopamine synthesis, and low ferritin is associated with worse inattention and restless sleep, so checking and correcting iron can be part of evaluating a child with ADHD."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "ADHD commonly comes with disrupted sleep: delayed melatonin release shifts the body clock later, causing trouble falling asleep that worsens daytime inattention, so melatonin and sleep treatment are part of comprehensive ADHD care."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "ADHD risk is partly set before birth via the placenta: maternal smoking, alcohol, stress, and placental insufficiency that limit fetal brain growth raise the child's ADHD risk—so prenatal environment shapes this neurodevelopmental disorder."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "ADHD and OCD share frontostriatal circuitry yet pull oppositely: ADHD is impulsive and under-controlled while OCD is over-controlled, so they can co-occur and complicate each other—and stimulants for ADHD may aggravate obsessions."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -269,6 +278,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Beyond dopamine and norepinephrine, serotonin modulates ADHD: serotonergic tone influences the impulsivity and emotional dysregulation of the disorder, and serotonin-acting drugs are used for comorbid mood and anxiety symptoms common in ADHD.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — ADHD is a neurodevelopmental disorder of the nervous system's executive networks: delayed maturation and altered connectivity in prefrontal-striatal circuits impair attention and impulse control, so it reflects how the brain regulates behavior, not a lack of effort.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Iron deficiency is linked to ADHD symptoms: iron is a cofactor for dopamine synthesis, and low ferritin is associated with worse inattention and restless sleep, so checking and correcting iron can be part of evaluating a child with ADHD.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — ADHD commonly comes with disrupted sleep: delayed melatonin release shifts the body clock later, causing trouble falling asleep that worsens daytime inattention, so melatonin and sleep treatment are part of comprehensive ADHD care.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — ADHD risk is partly set before birth via the placenta: maternal smoking, alcohol, stress, and placental insufficiency that limit fetal brain growth raise the child's ADHD risk—so prenatal environment shapes this neurodevelopmental disorder.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — ADHD and OCD share frontostriatal circuitry yet pull oppositely: ADHD is impulsive and under-controlled while OCD is over-controlled, so they can co-occur and complicate each other—and stimulants for ADHD may aggravate obsessions.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
