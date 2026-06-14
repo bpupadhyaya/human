@@ -99,6 +99,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Thalassemia's anemia is largely macrophage-driven: defective red cells and their precursors are destroyed by splenic and marrow macrophages (extravascular hemolysis and ineffective erythropoiesis), so splenomegaly and iron recycling stem from this clearance."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Iron overload in thalassemia poisons the pancreas: transfused and over-absorbed iron deposits in pancreatic islets, causing diabetes—one of the endocrine failures (with thyroid and gonads) that iron chelation aims to prevent."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Thalassemia can be cured by replacing the marrow: an allogeneic stem-cell transplant—relying on donor cytotoxic T cells to engraft—or gene therapy gives patients a source of normal red cells, ending lifelong transfusions."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Iron overload disturbs calcium in thalassemia: iron-damaged parathyroids cause hypoparathyroidism and low calcium, while ineffective erythropoiesis and endocrinopathy weaken bone—so calcium and bone health are watched closely."
 ---
 
 # Thalassemia
@@ -270,6 +279,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta marks thalassemia's most severe form: alpha-thalassemia major (loss of all four genes) leaves the fetus unable to make functional hemoglobin, causing hydrops fetalis and stillbirth—so prenatal screening and intrauterine transfusion are how it is managed.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Thalassemia shapes reproductive choices and function: carrier screening and genetic counseling guide family planning, while iron overload from transfusions damages the pituitary and gonads, causing delayed puberty and infertility—so fertility care is part of treatment.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Thalassemia's anemia is largely macrophage-driven: defective red cells and their precursors are destroyed by splenic and marrow macrophages (extravascular hemolysis and ineffective erythropoiesis), so splenomegaly and iron recycling stem from this clearance.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Iron overload in thalassemia poisons the pancreas: transfused and over-absorbed iron deposits in pancreatic islets, causing diabetes—one of the endocrine failures (with thyroid and gonads) that iron chelation aims to prevent.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Thalassemia can be cured by replacing the marrow: an allogeneic stem-cell transplant—relying on donor cytotoxic T cells to engraft—or gene therapy gives patients a source of normal red cells, ending lifelong transfusions.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Iron overload disturbs calcium in thalassemia: iron-damaged parathyroids cause hypoparathyroidism and low calcium, while ineffective erythropoiesis and endocrinopathy weaken bone—so calcium and bone health are watched closely.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Hormones make VTE a reproductive-health issue: estrogen-containing contraceptives and hormone therapy raise clotting-factor levels and thrombosis risk, so VTE history shapes contraceptive choices and prompts caution with hormonal treatments."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Unresolved clots can scar into pulmonary hypertension: when pulmonary emboli fail to dissolve, organized thrombus narrows lung arteries causing chronic thromboembolic pulmonary hypertension (CTEPH)—a potentially curable cause treated by surgically removing the old clot."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium is clotting Factor IV, central to forming venous thrombi: the cascade that builds a clot requires calcium at multiple steps, which is why citrate that binds calcium is used to keep donated and lab blood from clotting."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Venous clots are red because they trap erythrocytes: unlike platelet-rich arterial clots, the slow-flow 'red thrombi' of veins are packed with red cells and fibrin—why stasis (immobility, long flights) is a key part of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -246,6 +255,9 @@ cross_links:
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help build venous clots: in sluggish veins they cast neutrophil extracellular traps (NETs) that scaffold red cells and platelets into a thrombus, so this immunothrombosis links inflammation and infection to the risk of deep-vein clots.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy is a hypercoagulable state centered on the placenta: clotting factors rise to limit delivery bleeding, but this makes venous thromboembolism a leading cause of maternal death—so prophylaxis is considered in high-risk pregnancy and postpartum.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones make VTE a reproductive-health issue: estrogen-containing contraceptives and hormone therapy raise clotting-factor levels and thrombosis risk, so VTE history shapes contraceptive choices and prompts caution with hormonal treatments.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Unresolved clots can scar into pulmonary hypertension: when pulmonary emboli fail to dissolve, organized thrombus narrows lung arteries causing chronic thromboembolic pulmonary hypertension (CTEPH)—a potentially curable cause treated by surgically removing the old clot.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is clotting Factor IV, central to forming venous thrombi: the cascade that builds a clot requires calcium at multiple steps, which is why citrate that binds calcium is used to keep donated and lab blood from clotting.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Venous clots are red because they trap erythrocytes: unlike platelet-rich arterial clots, the slow-flow 'red thrombi' of veins are packed with red cells and fibrin—why stasis (immobility, long flights) is a key part of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
