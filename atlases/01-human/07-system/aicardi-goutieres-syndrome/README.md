@@ -114,6 +114,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "AGS can drop the platelet count: in the neonatal form thrombocytopenia accompanies the interferon surge alongside hepatosplenomegaly, part of the picture that mimics a congenital TORCH infection at birth."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Some AGS damages the blood-vessel endothelium: SAMHD1-type disease causes a cerebral vasculopathy with stenoses and aneurysms, so the interferon attack on endothelial cells can bring strokes on top of the encephalopathy."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Newborn AGS can swell the liver and spleen: alongside the interferon surge, hepatosplenomegaly, thrombocytopenia, and rash make the neonatal form mimic a congenital TORCH infection, sending the search for a microbe that is not there."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "AGS may injure the brain at its synapses: chronic interferon activates microglia that prune synapses during development, so the antiviral response misfiring on the body's own nucleic acids disturbs how the young brain wires itself."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -240,6 +249,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — AGS is a leukodystrophy that wounds the myelin-makers: chronic type I interferon and microglial activation injure oligodendrocytes, so the white matter fails to myelinate and breaks down, producing the diffuse leukodystrophy seen on MRI.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AGS's brain calcifications are mineral deposits: in the basal ganglia and deep white matter, calcium combines with phosphate to form the calcifications seen on CT, a hallmark that with the interferon signature sets AGS apart from acquired infection.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — AGS can drop the platelet count: in the neonatal form thrombocytopenia accompanies the interferon surge alongside hepatosplenomegaly, part of the picture that mimics a congenital TORCH infection at birth.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Some AGS damages the blood-vessel endothelium: SAMHD1-type disease causes a cerebral vasculopathy with stenoses and aneurysms, so the interferon attack on endothelial cells can bring strokes on top of the encephalopathy.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Newborn AGS can swell the liver and spleen: alongside the interferon surge, hepatosplenomegaly, thrombocytopenia, and rash make the neonatal form mimic a congenital TORCH infection, sending the search for a microbe that is not there.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — AGS may injure the brain at its synapses: chronic interferon activates microglia that prune synapses during development, so the antiviral response misfiring on the body's own nucleic acids disturbs how the young brain wires itself.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
