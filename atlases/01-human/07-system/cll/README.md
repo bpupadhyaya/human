@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "CLL cripples dendritic cells and immunity: the leukemia impairs antigen-presenting cell function and broader immune defense, so infections—not the leukemia itself—are a leading cause of death and the reason vaccines respond poorly."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "CLL turns the skin cancer-prone: its deep immune suppression sharply raises the risk of aggressive skin cancers, and the leukemia itself can infiltrate the skin (leukemia cutis), so dermatologic surveillance matters."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "CLL leaves patients short of neutrophils: marrow crowding and treatment cause neutropenia, and with few of these first-responder cells the infections that dominate CLL's course take hold."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "CLL cells secrete immunosuppressive IL-10: this cytokine damps the surrounding immune response, helping the leukemia evade attack while deepening the broader immune failure that leaves patients vulnerable to infection."
 ---
 
 # CLL
@@ -260,6 +269,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — B-cell receptor signaling in CLL runs on calcium: when the receptor fires, BTK and PLC drive a calcium flux that keeps the leukemic cells alive—the very pathway BTK inhibitors interrupt to treat the disease.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — CLL infiltrates the liver as it spreads: leukemic B cells lodge in the liver causing hepatomegaly, part of the organ enlargement that, with big nodes and spleen, marks advancing disease and guides staging.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — CLL cripples dendritic cells and immunity: the leukemia impairs antigen-presenting cell function and broader immune defense, so infections—not the leukemia itself—are a leading cause of death and the reason vaccines respond poorly.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CLL turns the skin cancer-prone: its deep immune suppression sharply raises the risk of aggressive skin cancers, and the leukemia itself can infiltrate the skin (leukemia cutis), so dermatologic surveillance matters.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CLL leaves patients short of neutrophils: marrow crowding and treatment cause neutropenia, and with few of these first-responder cells the infections that dominate CLL's course take hold.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — CLL cells secrete immunosuppressive IL-10: this cytokine damps the surrounding immune response, helping the leukemia evade attack while deepening the broader immune failure that leaves patients vulnerable to infection.
 
 ---
 

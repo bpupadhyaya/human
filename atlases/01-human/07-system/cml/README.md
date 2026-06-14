@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells can spring from the CML clone itself: because the leukemia is a stem cell disease, even antigen-presenting cells carry BCR-ABL, and harnessing dendritic cells is explored to boost immune control after drug therapy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Extreme CML counts can starve tissues of oxygen: when white cells soar, the sludgy blood (leukostasis) clogs small vessels, so organs are starved of oxygen—an emergency needing urgent cytoreduction."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "CML leukostasis can strike the brain: a sky-high white-cell mass sludges cerebral vessels, causing headaches, confusion, strokes, and visual loss, the neurologic face of hyperleukocytosis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "CML's clone reaches into the macrophage lineage: because BCR-ABL arises in a myeloid stem cell, the expanded output includes monocytes and macrophages, part of the broad granulocytic overgrowth that defines the disease."
 ---
 
 # Chronic Myeloid Leukemia
@@ -260,6 +269,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt/beta-catenin keeps CML's stem cells alive: this pathway sustains the leukemic stem cells that survive BCR-ABL inhibitors, so it helps explain why the disease persists on therapy and can progress to blast crisis.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — CML can poison the kidneys through tumor lysis: the huge white-cell mass releases uric acid that, especially as treatment kills cells, crystallizes in the kidney and causes urate nephropathy, linking the leukemia to gout and renal injury.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells can spring from the CML clone itself: because the leukemia is a stem cell disease, even antigen-presenting cells carry BCR-ABL, and harnessing dendritic cells is explored to boost immune control after drug therapy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Extreme CML counts can starve tissues of oxygen: when white cells soar, the sludgy blood (leukostasis) clogs small vessels, so organs are starved of oxygen—an emergency needing urgent cytoreduction.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — CML leukostasis can strike the brain: a sky-high white-cell mass sludges cerebral vessels, causing headaches, confusion, strokes, and visual loss, the neurologic face of hyperleukocytosis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CML's clone reaches into the macrophage lineage: because BCR-ABL arises in a myeloid stem cell, the expanded output includes monocytes and macrophages, part of the broad granulocytic overgrowth that defines the disease.
 
 ---
 
