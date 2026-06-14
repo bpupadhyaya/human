@@ -87,6 +87,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Psoriatic arthritis raises cardiovascular risk through systemic inflammation: chronic IL-17/TNF inflammation accelerates atherosclerosis and pairs with obesity and metabolic syndrome, so heart attacks and strokes are excess causes of death in PsA."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK inhibitors treat psoriatic arthritis: the IL-23/IL-17 and other cytokines driving joint and skin inflammation signal through JAK, so oral JAK inhibitors (tofacitinib, upadacitinib) work across both domains where older drugs target one pathway."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Psoriatic arthritis links skin and joints in the integumentary system: it develops in some people with psoriasis, and skin and nail disease often precede the arthritis, so the rash is both a clue and part of one systemic inflammatory disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Psoriatic arthritis is an immune-mediated spondyloarthritis: dysregulated innate and Th17 immunity inflames entheses, joints and skin, so it sits in the seronegative spondyloarthritis family and responds to the same cytokine-targeting biologics."
 ---
 
 # Psoriatic Arthritis
@@ -257,6 +266,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Synovial fibroblasts help drive the joint destruction of psoriatic arthritis: activated by IL-17/TNF, they proliferate, invade and erode cartilage and bone at inflamed joints and entheses—so fibroblast-driven tissue remodeling, not just immune cells, damages the joint.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Psoriatic arthritis can inflame the eye: as a spondyloarthritis, it predisposes to uveitis and conjunctivitis, so eye symptoms join the skin, nail and joint features—prompting ophthalmologic care alongside rheumatologic and dermatologic management.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Psoriatic arthritis raises cardiovascular risk through systemic inflammation: chronic IL-17/TNF inflammation accelerates atherosclerosis and pairs with obesity and metabolic syndrome, so heart attacks and strokes are excess causes of death in PsA.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors treat psoriatic arthritis: the IL-23/IL-17 and other cytokines driving joint and skin inflammation signal through JAK, so oral JAK inhibitors (tofacitinib, upadacitinib) work across both domains where older drugs target one pathway.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Psoriatic arthritis links skin and joints in the integumentary system: it develops in some people with psoriasis, and skin and nail disease often precede the arthritis, so the rash is both a clue and part of one systemic inflammatory disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Psoriatic arthritis is an immune-mediated spondyloarthritis: dysregulated innate and Th17 immunity inflames entheses, joints and skin, so it sits in the seronegative spondyloarthritis family and responds to the same cytokine-targeting biologics.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/cml
     relation: connects-to
     note: "PV and CML are both myeloproliferative neoplasms but molecularly opposite: PV is JAK2-driven with red-cell excess, CML is BCR-ABL-driven with granulocyte excess—testing for these mutations separates the chronic myeloid overproductions and picks the right targeted drug."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Polycythemia vera paradoxically depletes iron: the marrow's relentless red-cell overproduction—and the phlebotomy used to treat it—consume iron, so PV patients are typically iron-deficient with microcytic cells, and iron supplements can worsen the polycythemia."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Polycythemia vera overproduces platelets along with red cells: the JAK2 clone expands all myeloid lines, so thrombocytosis adds to the hyperviscosity, compounding the thrombotic risk that is the disease's main threat—mitigated by aspirin and cytoreduction."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Polycythemia vera is dangerous mainly through the cardiovascular system: too many red cells thicken the blood, so hyperviscosity and an activated clotting state cause heart attacks, strokes and clots—why keeping hematocrit below 45% is the central treatment goal."
 ---
 
 # Polycythemia Vera
@@ -221,6 +230,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Polycythemia vera must be told from oxygen-driven secondary polycythemia: PV makes red cells autonomously via JAK2 with LOW erythropoietin, whereas chronic hypoxia (lung disease, altitude) raises EPO appropriately—so a low EPO points to primary disease.
 - `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Chronic phlebotomy treatment makes PV patients iron-deficient: removing blood to control the hematocrit depletes iron, producing microcytosis without anemia—an intentional iron-restricted state that curbs red-cell overproduction in polycythemia vera.
 - `connects-to` → **[Chronic Myeloid Leukemia](../cml/README.md)** — PV and CML are both myeloproliferative neoplasms but molecularly opposite: PV is JAK2-driven with red-cell excess, CML is BCR-ABL-driven with granulocyte excess—testing for these mutations separates the chronic myeloid overproductions and picks the right targeted drug.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Polycythemia vera paradoxically depletes iron: the marrow's relentless red-cell overproduction—and the phlebotomy used to treat it—consume iron, so PV patients are typically iron-deficient with microcytic cells, and iron supplements can worsen the polycythemia.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Polycythemia vera overproduces platelets along with red cells: the JAK2 clone expands all myeloid lines, so thrombocytosis adds to the hyperviscosity, compounding the thrombotic risk that is the disease's main threat—mitigated by aspirin and cytoreduction.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Polycythemia vera is dangerous mainly through the cardiovascular system: too many red cells thicken the blood, so hyperviscosity and an activated clotting state cause heart attacks, strokes and clots—why keeping hematocrit below 45% is the central treatment goal.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
