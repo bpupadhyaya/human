@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Wilms tumor is studied as a target for NK and immune therapy: as a childhood embryonal tumor it draws interest in harnessing natural killer cells to attack relapsed disease where chemotherapy and radiation reach their limits."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Wilms tumor grows on the IGF-PI3K-AKT axis: high IGF signaling (often from 11p15 imprinting defects) feeds AKT and mTOR to drive the embryonal kidney cancer, so this growth pathway is a target alongside its Wnt and WT1 lesions."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypoxia shapes Wilms tumor's behavior: the fast-growing embryonal tumor outpaces its blood supply, and low oxygen drives HIF and angiogenesis that fuel growth and the lung spread that is its main metastatic threat."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells anchor immunotherapy efforts in Wilms tumor: as antigen-presenters they help prime the T-cell and NK response, and dendritic-cell and WT1-vaccine strategies are explored for relapsed embryonal kidney cancer."
 ---
 
 # Wilms Tumor
@@ -264,6 +273,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Wilms tumor is well-vascularized through VEGF: the tumor and its blastemal cells drive angiogenesis to fuel rapid growth, and anti-VEGF agents have been explored for relapsed or anaplastic disease that resists standard chemotherapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Wilms tumor recruits tumor-associated macrophages: these immune cells populate its microenvironment and can support growth and immune escape, making the TME a focus for new approaches in high-risk or relapsed nephroblastoma.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Wilms tumor is studied as a target for NK and immune therapy: as a childhood embryonal tumor it draws interest in harnessing natural killer cells to attack relapsed disease where chemotherapy and radiation reach their limits.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Wilms tumor grows on the IGF-PI3K-AKT axis: high IGF signaling (often from 11p15 imprinting defects) feeds AKT and mTOR to drive the embryonal kidney cancer, so this growth pathway is a target alongside its Wnt and WT1 lesions.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia shapes Wilms tumor's behavior: the fast-growing embryonal tumor outpaces its blood supply, and low oxygen drives HIF and angiogenesis that fuel growth and the lung spread that is its main metastatic threat.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells anchor immunotherapy efforts in Wilms tumor: as antigen-presenters they help prime the T-cell and NK response, and dendritic-cell and WT1-vaccine strategies are explored for relapsed embryonal kidney cancer.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells steer wounds from inflammation to repair: Tregs accumulate in healing skin and damp down the inflammatory phase while promoting tissue regeneration, helping resolve the wound rather than scar it excessively."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 runs the inflammatory phase of wound healing: released early by immune cells, it recruits neutrophils and macrophages and switches on repair programs, so balanced IL-6 is needed—too little stalls healing, too much scars."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Healing isn't just skin-deep—the gut must heal too: surgical anastomoses and mucosal ulcers in the large intestine knit back together by the same phases, and failure of this internal repair causes leaks, a feared surgical complication."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help orchestrate the healing wound: sampling the injured tissue, they bridge innate and adaptive immunity and release signals that guide the shift from inflammation to repair, tuning how cleanly a wound closes."
 ---
 
 # Wound Healing
@@ -262,6 +271,9 @@ cross_links:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Wound healing needs copper to knit collagen: the enzyme lysyl oxidase uses copper to cross-link collagen into strong scar, and copper also spurs new vessels, so copper deficiency leaves wounds weak and slow to close.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol sabotages wound healing: glucocorticoids suppress the inflammatory cleanup, blunt fibroblast collagen synthesis, and slow re-epithelialization, so steroid use is a classic cause of dehiscence and chronic non-healing wounds.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells steer wounds from inflammation to repair: Tregs accumulate in healing skin and damp down the inflammatory phase while promoting tissue regeneration, helping resolve the wound rather than scar it excessively.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 runs the inflammatory phase of wound healing: released early by immune cells, it recruits neutrophils and macrophages and switches on repair programs, so balanced IL-6 is needed—too little stalls healing, too much scars.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Healing isn't just skin-deep—the gut must heal too: surgical anastomoses and mucosal ulcers in the large intestine knit back together by the same phases, and failure of this internal repair causes leaks, a feared surgical complication.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help orchestrate the healing wound: sampling the injured tissue, they bridge innate and adaptive immunity and release signals that guide the shift from inflammation to repair, tuning how cleanly a wound closes.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
