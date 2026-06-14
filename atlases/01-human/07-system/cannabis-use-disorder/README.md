@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Cannabis disturbs the cortisol stress axis: acute use spikes cortisol while chronic use blunts the response, and withdrawal reactivates it—part of the dysregulated stress system that drives craving and relapse."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Cannabis works by hijacking synapses: THC mimics the endocannabinoids that neurons release backward across the synapse to dial down transmission, so chronic use blunts and remodels this feedback, contributing to tolerance and cognitive effects."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Heavy cannabis use can paradoxically wreck the gut: cannabinoid hyperemesis syndrome causes cyclic vomiting relieved oddly by hot showers, reflecting the dense endocannabinoid signaling in the intestine that chronic use derails."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes carry part of cannabis's brain effect: they bear CB1 receptors and, when THC engages them, alter glutamate handling at synapses, contributing to the memory impairment seen with heavy use."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -277,6 +286,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Heavy cannabis use lowers testosterone: THC suppresses the hormonal axis that drives testosterone production and sperm formation, so chronic use can reduce fertility and libido—an underappreciated reproductive cost of the drug.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Cannabis acts on the brain's immune cells, the microglia: these cells carry CB2 cannabinoid receptors, so cannabinoids modulate neuroinflammation—a double-edged effect that is both anti-inflammatory and potentially disruptive to brain development.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cannabis disturbs the cortisol stress axis: acute use spikes cortisol while chronic use blunts the response, and withdrawal reactivates it—part of the dysregulated stress system that drives craving and relapse.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Cannabis works by hijacking synapses: THC mimics the endocannabinoids that neurons release backward across the synapse to dial down transmission, so chronic use blunts and remodels this feedback, contributing to tolerance and cognitive effects.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Heavy cannabis use can paradoxically wreck the gut: cannabinoid hyperemesis syndrome causes cyclic vomiting relieved oddly by hot showers, reflecting the dense endocannabinoid signaling in the intestine that chronic use derails.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes carry part of cannabis's brain effect: they bear CB1 receptors and, when THC engages them, alter glutamate handling at synapses, contributing to the memory impairment seen with heavy use.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

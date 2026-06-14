@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Most colorectal cancers are immune-cold, walled off by regulatory T cells: unlike MSI-high tumors, microsatellite-stable CRC has few neoantigens and Treg-rich stroma, which is why checkpoint immunotherapy works in only a minority."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Dietary calcium helps guard against colorectal cancer: it binds bile acids and fatty acids in the gut and signals colon cells to differentiate, so adequate calcium is one of the better-supported dietary protections against the disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages shape colorectal cancer: depending on their polarization they can promote or restrain the tumor, and a macrophage-rich, suppressive stroma helps the common microsatellite-stable cancers evade immunity."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Colorectal cancer can reach the brain late: though it spreads first to liver and lung, advanced disease occasionally seeds brain metastases, a sign of widespread disease that shifts care toward palliative and systemic treatment."
 ---
 
 # Colorectal Cancer
@@ -263,6 +272,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Colorectal cancer is treated by starving its vessels of VEGF: the tumor secretes VEGF to build a blood supply, so anti-VEGF bevacizumab is a mainstay added to chemotherapy in metastatic colorectal cancer.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Colorectal cancer turns aggressive when it loses SMAD4: this late hit in the adenoma-carcinoma sequence disables TGF-β's growth restraint, driving invasion and metastasis and predicting a worse prognosis and poorer chemo response.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Most colorectal cancers are immune-cold, walled off by regulatory T cells: unlike MSI-high tumors, microsatellite-stable CRC has few neoantigens and Treg-rich stroma, which is why checkpoint immunotherapy works in only a minority.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary calcium helps guard against colorectal cancer: it binds bile acids and fatty acids in the gut and signals colon cells to differentiate, so adequate calcium is one of the better-supported dietary protections against the disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape colorectal cancer: depending on their polarization they can promote or restrain the tumor, and a macrophage-rich, suppressive stroma helps the common microsatellite-stable cancers evade immunity.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Colorectal cancer can reach the brain late: though it spreads first to liver and lung, advanced disease occasionally seeds brain metastases, a sign of widespread disease that shifts care toward palliative and systemic treatment.
 
 ---
 
