@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Acquired TTP is an autoimmune disease needing T-cell help: helper T cells recognizing ADAMTS13 drive B cells to make the inhibitory autoantibodies, so the disorder reflects a breakdown of tolerance to the body's own vWF-cleaving enzyme."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "TTP shreds red cells and spills hemoglobin: platelet-vWF microthrombi slice passing red cells (microangiopathic hemolysis), producing schistocytes, free hemoglobin, low haptoglobin and high LDH—the lab fingerprint that flags the emergency."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Treating TTP with plasma exchange drains calcium: the citrate anticoagulant in the apheresis circuit binds calcium, causing the tingling and cramps of hypocalcemia, so calcium is monitored and replaced during the daily exchanges that are lifesaving."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Acquired TTP is calmed with cortisol: corticosteroids suppress the autoantibody response against ADAMTS13 and are given alongside plasma exchange (with rituximab and caplacizumab) to bring the immune-driven disease under control."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -286,6 +295,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Acquired TTP is treated by depleting B cells via CD20: rituximab, an anti-CD20 antibody, removes the B cells making anti-ADAMTS13 autoantibodies, reducing relapse alongside plasma exchange and the anti-vWF nanobody caplacizumab.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy can precipitate TTP: ADAMTS13 activity falls naturally in pregnancy, unmasking congenital deficiency or triggering acquired TTP, so it must be distinguished from preeclampsia and HELLP—a diagnostic challenge with very different treatments.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Acquired TTP is an autoimmune disease needing T-cell help: helper T cells recognizing ADAMTS13 drive B cells to make the inhibitory autoantibodies, so the disorder reflects a breakdown of tolerance to the body's own vWF-cleaving enzyme.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — TTP shreds red cells and spills hemoglobin: platelet-vWF microthrombi slice passing red cells (microangiopathic hemolysis), producing schistocytes, free hemoglobin, low haptoglobin and high LDH—the lab fingerprint that flags the emergency.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Treating TTP with plasma exchange drains calcium: the citrate anticoagulant in the apheresis circuit binds calcium, causing the tingling and cramps of hypocalcemia, so calcium is monitored and replaced during the daily exchanges that are lifesaving.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Acquired TTP is calmed with cortisol: corticosteroids suppress the autoantibody response against ADAMTS13 and are given alongside plasma exchange (with rituximab and caplacizumab) to bring the immune-driven disease under control.
 
 ---
 

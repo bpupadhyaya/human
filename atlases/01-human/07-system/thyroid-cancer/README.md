@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Aggressive thyroid cancers fill with tumor-associated macrophages: especially in anaplastic disease, these immune cells dominate the stroma and promote invasion and immune escape, a microenvironment feature tied to poor prognosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "The thyroid runs on selenium, and so does its cancer biology: selenium-dependent enzymes activate thyroid hormone and shield thyrocytes from the hydrogen peroxide of hormone synthesis, so selenium status influences thyroid disease and oxidative damage."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Thyroid cancer turns lethal when it loses p53: TP53 mutation drives the leap from a usually-curable differentiated cancer to anaplastic thyroid carcinoma, one of the most aggressive human tumors—explaining the dedifferentiation step."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Thyroid cancer shelters in a regulatory T-cell-rich niche: Tregs infiltrate aggressive and anaplastic tumors and suppress immunity, a barrier the checkpoint immunotherapy now tried in advanced thyroid cancer must overcome."
 ---
 
 # Thyroid Cancer
@@ -267,6 +276,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations mark dangerous thyroid cancer: reactivating telomerase, they predict aggressive behavior and—combined with BRAF—drive the dedifferentiation toward lethal anaplastic thyroid cancer, refining prognosis beyond histology alone.
 - `connects-to` → **[NTRK](../../03-molecular/ntrk/README.md)** — A subset of thyroid cancers is driven by NTRK fusions: these rearrangements, more common in radiation-exposed and pediatric tumors, are targetable with TRK inhibitors like larotrectinib—so molecular testing finds patients beyond the usual BRAF and RET.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Aggressive thyroid cancers fill with tumor-associated macrophages: especially in anaplastic disease, these immune cells dominate the stroma and promote invasion and immune escape, a microenvironment feature tied to poor prognosis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — The thyroid runs on selenium, and so does its cancer biology: selenium-dependent enzymes activate thyroid hormone and shield thyrocytes from the hydrogen peroxide of hormone synthesis, so selenium status influences thyroid disease and oxidative damage.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Thyroid cancer turns lethal when it loses p53: TP53 mutation drives the leap from a usually-curable differentiated cancer to anaplastic thyroid carcinoma, one of the most aggressive human tumors—explaining the dedifferentiation step.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Thyroid cancer shelters in a regulatory T-cell-rich niche: Tregs infiltrate aggressive and anaplastic tumors and suppress immunity, a barrier the checkpoint immunotherapy now tried in advanced thyroid cancer must overcome.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
