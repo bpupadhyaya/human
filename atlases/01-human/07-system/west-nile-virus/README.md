@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T-helper cells coordinate the defense against West Nile virus: CD4 cells sustain the antibody response and support the cytotoxic T cells that clear virus from neurons, so weak helper immunity (as with age or HIV) predicts severe neuroinvasive disease."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "West Nile is diagnosed by its antibodies: WNV-specific IgM in blood or spinal fluid signals acute infection while IgG marks past exposure, and antibody is the basis of protection—the reason the horse vaccine works though no human one yet exists."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "West Nile breaches the brain with help from TNF: inflammatory cytokines like TNF-alpha loosen the blood-brain barrier, letting the virus invade the CNS—a double-edged response that both fights the virus and causes the encephalitis."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells temper West Nile's brain damage: by restraining the antiviral attack within the CNS, Tregs limit collateral neuron injury, so the balance between clearing the virus and sparing the brain shapes recovery from neuroinvasive disease."
 ---
 
 # West Nile Virus
@@ -250,3 +259,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — West Nile virus can persist in the kidney: the virus has been detected in urine months after infection and is linked to chronic kidney involvement, so the kidney is both a site of viral persistence and a route of possible shedding.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement is essential to surviving West Nile virus: C3 and the complement cascade are needed to control early viremia and prime antibody and T-cell responses, so complement-deficient hosts suffer far more severe neuroinvasive disease.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells coordinate the defense against West Nile virus: CD4 cells sustain the antibody response and support the cytotoxic T cells that clear virus from neurons, so weak helper immunity (as with age or HIV) predicts severe neuroinvasive disease.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — West Nile is diagnosed by its antibodies: WNV-specific IgM in blood or spinal fluid signals acute infection while IgG marks past exposure, and antibody is the basis of protection—the reason the horse vaccine works though no human one yet exists.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — West Nile breaches the brain with help from TNF: inflammatory cytokines like TNF-alpha loosen the blood-brain barrier, letting the virus invade the CNS—a double-edged response that both fights the virus and causes the encephalitis.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells temper West Nile's brain damage: by restraining the antiviral attack within the CNS, Tregs limit collateral neuron injury, so the balance between clearing the virus and sparing the brain shapes recovery from neuroinvasive disease.
