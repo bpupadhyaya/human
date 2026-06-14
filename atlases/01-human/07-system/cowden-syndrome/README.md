@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Cowden syndrome reaches the nervous system: macrocephaly, autism-spectrum features and the rare cerebellar Lhermitte-Duclos hamartoma reflect PTEN's role in neuronal growth, so neurodevelopmental signs can be the first clue to the PTEN mutation."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "Cowden syndrome unleashes the PI3K pathway: losing PTEN removes the brake on PI3K-AKT-mTOR signaling, so cells over-grow into hamartomas and cancers—making PI3K/mTOR inhibitors a rational targeted therapy for this PTEN-hamartoma syndrome."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Cowden syndrome carpets the colon with polyps: hamartomatous (and other) polyps stud the large intestine and raise colorectal cancer risk, so regular colonoscopy is part of the intensive cancer surveillance these patients need."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cowden syndrome affects the reproductive tract: uterine fibroids are common and endometrial cancer risk is high, so gynecologic surveillance and counseling about hysterectomy are part of managing this PTEN-driven syndrome."
 ---
 
 # Cowden Syndrome
@@ -291,6 +300,9 @@ cross_links:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is central to diagnosing Cowden syndrome: PTEN loss produces near-pathognomonic mucocutaneous hamartomas—facial trichilemmomas, oral papillomas and palmoplantar keratoses—so these benign growths are major criteria flagging the cancer-prone syndrome.
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Cowden syndrome modestly raises melanoma risk: PTEN loss deregulates the PI3K/AKT pathway in melanocytes too, adding skin-cancer surveillance to the breast, thyroid, endometrial and renal screening this multi-cancer syndrome demands.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Cowden syndrome reaches the nervous system: macrocephaly, autism-spectrum features and the rare cerebellar Lhermitte-Duclos hamartoma reflect PTEN's role in neuronal growth, so neurodevelopmental signs can be the first clue to the PTEN mutation.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — Cowden syndrome unleashes the PI3K pathway: losing PTEN removes the brake on PI3K-AKT-mTOR signaling, so cells over-grow into hamartomas and cancers—making PI3K/mTOR inhibitors a rational targeted therapy for this PTEN-hamartoma syndrome.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cowden syndrome carpets the colon with polyps: hamartomatous (and other) polyps stud the large intestine and raise colorectal cancer risk, so regular colonoscopy is part of the intensive cancer surveillance these patients need.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cowden syndrome affects the reproductive tract: uterine fibroids are common and endometrial cancer risk is high, so gynecologic surveillance and counseling about hysterectomy are part of managing this PTEN-driven syndrome.
 
 ---
 

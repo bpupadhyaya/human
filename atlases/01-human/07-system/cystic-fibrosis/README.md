@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Cystic fibrosis weakens bone: malabsorption of vitamin D and calcium, chronic inflammation, steroids and delayed puberty cause CF-related low bone density, so fractures and osteoporosis are an increasingly important problem in the aging CF population."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Cystic fibrosis is named for the scarring it causes: thick secretions and chronic inflammation replace pancreatic and lung tissue with fibrosis and cysts, so progressive fibrotic destruction—not the gene defect alone—drives organ failure."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "CF cripples the lung's macrophages: the CFTR defect impairs how macrophages acidify phagosomes and kill bacteria, so weakened innate immunity lets Pseudomonas and other microbes establish the chronic infection central to CF lung disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "CF lung disease is a self-damaging immune cycle: impaired clearance invites chronic bacterial infection that draws relentless neutrophilic inflammation, whose enzymes destroy airways more than the microbes do—so anti-inflammatory strategies complement antibiotics."
 ---
 
 # Cystic Fibrosis
@@ -239,6 +248,9 @@ AND
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Cystic fibrosis obstructs the small intestine with thick secretions: newborns can present with meconium ileus, and older patients suffer distal intestinal obstruction syndrome, while impaired pancreatic enzyme flow causes the fat malabsorption central to CF.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — CF-related diabetes is a common endocrine complication: thick secretions scar the pancreas and destroy insulin-producing islets, so a distinct form of diabetes emerges with age—now a leading comorbidity as CF patients live longer.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Cystic fibrosis weakens bone: malabsorption of vitamin D and calcium, chronic inflammation, steroids and delayed puberty cause CF-related low bone density, so fractures and osteoporosis are an increasingly important problem in the aging CF population.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Cystic fibrosis is named for the scarring it causes: thick secretions and chronic inflammation replace pancreatic and lung tissue with fibrosis and cysts, so progressive fibrotic destruction—not the gene defect alone—drives organ failure.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CF cripples the lung's macrophages: the CFTR defect impairs how macrophages acidify phagosomes and kill bacteria, so weakened innate immunity lets Pseudomonas and other microbes establish the chronic infection central to CF lung disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — CF lung disease is a self-damaging immune cycle: impaired clearance invites chronic bacterial infection that draws relentless neutrophilic inflammation, whose enzymes destroy airways more than the microbes do—so anti-inflammatory strategies complement antibiotics.
 
 ---
 
