@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells are enlisted to fight mesothelioma: because the tumor is poorly immunogenic, dendritic-cell vaccines and other antigen-presenting strategies aim to prime T-cell attack alongside the checkpoint drugs now used frontline."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Mesothelioma also strikes the belly: peritoneal mesothelioma coats the abdominal organs and bowel, including the large intestine, causing pain, ascites, and obstruction—the second most common form after pleural."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Mesothelioma recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build its blood supply, which is why anti-VEGF therapy is added to chemotherapy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Mesothelioma steals the breath of oxygen: as it encases the lung and fills the chest with malignant effusion, it squeezes the lung shut, so worsening breathlessness and low oxygen dominate the illness."
 ---
 
 # Mesothelioma
@@ -266,6 +275,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Mesothelioma can arise on the heart's lining: though most form on the pleura, the same asbestos-driven malignancy strikes the pericardium, where it encases the heart and impairs its filling—a rare but devastating site.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Mesothelioma hides in a hypoxic, fibrous tumor via HIF-1alpha: its dense desmoplastic stroma outstrips its oxygen supply, and the resulting HIF signaling drives survival and angiogenesis, part of why it resists chemotherapy.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are enlisted to fight mesothelioma: because the tumor is poorly immunogenic, dendritic-cell vaccines and other antigen-presenting strategies aim to prime T-cell attack alongside the checkpoint drugs now used frontline.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Mesothelioma also strikes the belly: peritoneal mesothelioma coats the abdominal organs and bowel, including the large intestine, causing pain, ascites, and obstruction—the second most common form after pleural.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Mesothelioma recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build its blood supply, which is why anti-VEGF therapy is added to chemotherapy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Mesothelioma steals the breath of oxygen: as it encases the lung and fills the chest with malignant effusion, it squeezes the lung shut, so worsening breathlessness and low oxygen dominate the illness.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

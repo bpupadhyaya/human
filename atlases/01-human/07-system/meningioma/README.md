@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Meningiomas largely evade cytotoxic T cells: beyond their dominant macrophages, they keep a T-cell-poor, immunosuppressive microenvironment, which is part of why checkpoint immunotherapy has had limited success in the tumor."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Meningiomas can blind through the eye: those arising on the optic nerve sheath or near the orbit compress the nerve and push the eye forward (proptosis), causing slow, painless vision loss."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Meningiomas calcify with calcium phosphate: their hallmark psammoma bodies are concentric whorls of calcium-phosphate mineral, a histologic signature also visible as flecks of calcification on imaging."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Meningiomas are vascular tumors fed by endothelial cells: they recruit a rich blood supply, giving the bright contrast enhancement and 'dural tail' seen on MRI, and making them prone to bleed during surgery."
 ---
 
 # Meningioma
@@ -264,6 +273,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Meningiomas lay down calcium as psammoma bodies: these concentric calcified whorls are a histologic hallmark and make many meningiomas visibly calcified on imaging, a clue that helps distinguish them from other brain tumors.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Some meningiomas are driven by AKT mutations: recurrent AKT1 changes switch on the PI3K-AKT-mTOR growth pathway in non-NF2 tumors, defining a molecular subgroup that AKT and mTOR inhibitors are being tested against.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Meningiomas largely evade cytotoxic T cells: beyond their dominant macrophages, they keep a T-cell-poor, immunosuppressive microenvironment, which is part of why checkpoint immunotherapy has had limited success in the tumor.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Meningiomas can blind through the eye: those arising on the optic nerve sheath or near the orbit compress the nerve and push the eye forward (proptosis), causing slow, painless vision loss.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Meningiomas calcify with calcium phosphate: their hallmark psammoma bodies are concentric whorls of calcium-phosphate mineral, a histologic signature also visible as flecks of calcification on imaging.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Meningiomas are vascular tumors fed by endothelial cells: they recruit a rich blood supply, giving the bright contrast enhancement and 'dural tail' seen on MRI, and making them prone to bleed during surgery.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
