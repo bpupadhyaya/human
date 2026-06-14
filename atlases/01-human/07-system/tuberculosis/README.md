@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Tuberculosis is a classic cause of adrenal insufficiency: hematogenous spread can destroy both adrenal glands, producing Addison's disease—historically the leading cause—so adrenal calcification or new Addison's should prompt a search for TB."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic CD8 T cells help contain tuberculosis: alongside CD4 help, they kill infected macrophages that fail to clear the bacillus and secrete IFN-γ, so they are central to granuloma immunity and a key target for next-generation TB vaccines."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Tuberculosis often localizes to the lymphatic system: cervical node TB (scrofula) is the classic extrapulmonary form, and lymphatic and bloodstream spread of the bacillus seeds miliary disease throughout the body when immunity fails."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Tuberculosis can invade the brain: hematogenous seeding causes TB meningitis and tuberculomas, among the deadliest forms—so suspected CNS TB demands urgent treatment with steroids, since inflammation, not just infection, drives the damage."
 ---
 
 # Tuberculosis
@@ -233,6 +242,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is harmful in tuberculosis, unlike in viral infection: a type I IFN signature marks active, severe TB because it suppresses the protective IFN-gamma/macrophage response—so the same cytokine family that fights viruses helps Mtb evade killing.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils are a double-edged sword in tuberculosis: they swarm to infected lung but, when overwhelmed, drive the tissue necrosis and cavitation that spreads Mtb—so a neutrophil-dominated response marks severe, transmissible disease rather than control.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Tuberculosis is a classic cause of adrenal insufficiency: hematogenous spread can destroy both adrenal glands, producing Addison's disease—historically the leading cause—so adrenal calcification or new Addison's should prompt a search for TB.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic CD8 T cells help contain tuberculosis: alongside CD4 help, they kill infected macrophages that fail to clear the bacillus and secrete IFN-γ, so they are central to granuloma immunity and a key target for next-generation TB vaccines.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Tuberculosis often localizes to the lymphatic system: cervical node TB (scrofula) is the classic extrapulmonary form, and lymphatic and bloodstream spread of the bacillus seeds miliary disease throughout the body when immunity fails.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Tuberculosis can invade the brain: hematogenous seeding causes TB meningitis and tuberculomas, among the deadliest forms—so suspected CNS TB demands urgent treatment with steroids, since inflammation, not just infection, drives the damage.
 
 ## See Also
 

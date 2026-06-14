@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Cardiac rhabdomyomas are often the first sign of TSC: these benign mTOR-driven muscle tumors appear on prenatal or infant echocardiography and usually regress, so a fetal cardiac tumor prompts evaluation for tuberous sclerosis."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "TSC causes lymphangioleiomyomatosis (LAM) in the lung: mTOR-driven smooth-muscle-like cells riddle the lungs with cysts, mainly in women, causing breathlessness and pneumothorax—and like other TSC tumors it responds to mTOR inhibitors (sirolimus)."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "TSC marks the eye with retinal hamartomas: benign astrocytic tumors of the retina are a diagnostic feature, usually harmless to vision but, like the brain tubers, evidence of the same mTOR-driven overgrowth across tissues."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "TSC's brain involvement extends to neuropsychiatric disorders (TAND): beyond epilepsy and autism, ADHD and learning and behavior problems are common and often under-treated, so TSC care now screens for attention and behavioral difficulties routinely."
 ---
 
 # Tuberous Sclerosis Complex
@@ -239,6 +248,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — TSC scrambles brain development at the level of neurons: mTOR overactivity from TSC1/TSC2 loss produces cortical tubers and giant cells with disorganized neurons, driving the epilepsy, autism and developmental delay that dominate the syndrome.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a major TSC target: mTOR-driven angiomyolipomas (fat-and-vessel hamartomas) grow and can hemorrhage, and TSC also raises renal cell carcinoma risk—so renal imaging surveillance and mTOR inhibitors (sirolimus) are central to TSC care.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cardiac rhabdomyomas are often the first sign of TSC: these benign mTOR-driven muscle tumors appear on prenatal or infant echocardiography and usually regress, so a fetal cardiac tumor prompts evaluation for tuberous sclerosis.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — TSC causes lymphangioleiomyomatosis (LAM) in the lung: mTOR-driven smooth-muscle-like cells riddle the lungs with cysts, mainly in women, causing breathlessness and pneumothorax—and like other TSC tumors it responds to mTOR inhibitors (sirolimus).
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — TSC marks the eye with retinal hamartomas: benign astrocytic tumors of the retina are a diagnostic feature, usually harmless to vision but, like the brain tubers, evidence of the same mTOR-driven overgrowth across tissues.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — TSC's brain involvement extends to neuropsychiatric disorders (TAND): beyond epilepsy and autism, ADHD and learning and behavior problems are common and often under-treated, so TSC care now screens for attention and behavioral difficulties routinely.
 
 ---
 
