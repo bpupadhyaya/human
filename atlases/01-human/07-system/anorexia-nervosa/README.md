@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Anorexia nervosa endangers the kidney: dehydration causes prerenal azotemia, and chronic vomiting or laxative abuse drives hypokalemia that can scar the kidney (hypokalemic nephropathy), so renal function and electrolytes need close watch in severe cases."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Phosphorus is the danger in refeeding anorexia: as starved cells suddenly take up glucose, they pull phosphate from blood, and the resulting hypophosphatemia can cause fatal heart failure and arrhythmia—so refeeding is done slowly with phosphate repletion."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Anorexia throws the thyroid into starvation mode: the body converts less T4 to active T3 (low-T3 'sick euthyroid' state) to conserve energy, slowing metabolism, heart rate, and temperature—an adaptive shutdown that reverses with weight restoration, not thyroid drugs."
+  - target: 01-human/07-system/autism-spectrum-disorder
+    relation: connects-to
+    note: "Anorexia and autism overlap more than once thought: many with AN have autistic traits—rigidity, sensory sensitivity, narrow focus—that shape eating rules and worsen prognosis, so screening for autism is changing how restrictive eating disorders are treated."
 ---
 
 # Anorexia Nervosa
@@ -260,6 +269,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Anorexia nervosa scrambles ghrelin signaling: the hunger hormone rises sharply with starvation yet fails to restore eating, suggesting acquired ghrelin resistance in the brain's appetite circuits—evidence the disorder overrides normal homeostatic hunger drives.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Anorexia nervosa shuts down the endocrine system to conserve energy: starvation suppresses the reproductive axis (amenorrhea), lowers thyroid hormone (sick-euthyroid) and raises cortisol, so its hormonal picture is a coordinated adaptation to famine.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Anorexia nervosa endangers the kidney: dehydration causes prerenal azotemia, and chronic vomiting or laxative abuse drives hypokalemia that can scar the kidney (hypokalemic nephropathy), so renal function and electrolytes need close watch in severe cases.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Phosphorus is the danger in refeeding anorexia: as starved cells suddenly take up glucose, they pull phosphate from blood, and the resulting hypophosphatemia can cause fatal heart failure and arrhythmia—so refeeding is done slowly with phosphate repletion.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Anorexia throws the thyroid into starvation mode: the body converts less T4 to active T3 (low-T3 'sick euthyroid' state) to conserve energy, slowing metabolism, heart rate, and temperature—an adaptive shutdown that reverses with weight restoration, not thyroid drugs.
+- `connects-to` → **[Autism Spectrum Disorder](../autism-spectrum-disorder/README.md)** — Anorexia and autism overlap more than once thought: many with AN have autistic traits—rigidity, sensory sensitivity, narrow focus—that shape eating rules and worsen prognosis, so screening for autism is changing how restrictive eating disorders are treated.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

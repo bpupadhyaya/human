@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Antiphospholipid syndrome is a leading treatable cause of recurrent pregnancy loss: antibodies injure the placenta through thrombosis and complement, so obstetric APS—miscarriage, stillbirth, preeclampsia—is managed with aspirin and heparin to protect the pregnancy."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin flags antiphospholipid syndrome: livedo reticularis—a netlike purple mottling—is a classic sign, and skin ulcers or digital gangrene can appear when small-vessel clots block flow, so dermatologic clues often precede a major thrombotic event."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "APS attacks the kidney as APS nephropathy: clots in glomerular capillaries and small renal arteries cause a thrombotic microangiopathy with hypertension and declining function, a renal manifestation distinct from the immune-complex nephritis of lupus."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils help APS clot through NETosis: antiphospholipid antibodies prime neutrophils to cast DNA extracellular traps that scaffold thrombi and activate platelets and complement, so this neutrophil pathway links autoimmunity to the syndrome's clotting."
 ---
 
 # Antiphospholipid Syndrome
@@ -253,6 +262,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — Antiphospholipid syndrome tips coagulation toward thrombin: antiphospholipid antibodies activate endothelium, platelets and complement and impair natural anticoagulants, so thrombin generation runs unchecked—driving the venous and arterial clots that define the disease.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Antiphospholipid syndrome is driven by autoreactive B cells: they produce the antiphospholipid antibodies (against beta-2-glycoprotein I and cardiolipin) that cause clotting and pregnancy loss, so B-cell-directed therapy like rituximab is explored for refractory cases.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Antiphospholipid syndrome is a leading treatable cause of recurrent pregnancy loss: antibodies injure the placenta through thrombosis and complement, so obstetric APS—miscarriage, stillbirth, preeclampsia—is managed with aspirin and heparin to protect the pregnancy.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin flags antiphospholipid syndrome: livedo reticularis—a netlike purple mottling—is a classic sign, and skin ulcers or digital gangrene can appear when small-vessel clots block flow, so dermatologic clues often precede a major thrombotic event.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — APS attacks the kidney as APS nephropathy: clots in glomerular capillaries and small renal arteries cause a thrombotic microangiopathy with hypertension and declining function, a renal manifestation distinct from the immune-complex nephritis of lupus.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help APS clot through NETosis: antiphospholipid antibodies prime neutrophils to cast DNA extracellular traps that scaffold thrombi and activate platelets and complement, so this neutrophil pathway links autoimmunity to the syndrome's clotting.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
