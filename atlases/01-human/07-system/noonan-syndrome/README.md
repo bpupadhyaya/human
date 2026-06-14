@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Noonan syndrome can weaken bone: reduced bone mineral density and increased fracture risk accompany the syndrome, reflecting RAS-pathway effects on bone metabolism—so skeletal health joins cardiac and growth issues in long-term Noonan care."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Noonan syndrome affects the developing nervous system: many children have developmental delay and learning differences, and RASopathy signaling shapes brain development, so neurodevelopmental support is part of managing this multisystem condition."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Noonan syndrome reshapes the skeleton and stature: short stature, a broad webbed neck, chest deformity (pectus) and scoliosis are characteristic, so the musculoskeletal features are central to recognizing this RAS-pathway syndrome."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Noonan syndrome affects the reproductive system in males: undescended testes (cryptorchidism) are common and can impair fertility, reflecting how RASopathy signaling disturbs gonadal development alongside the heart and growth abnormalities."
 ---
 
 # Noonan Syndrome
@@ -237,6 +246,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Congenital heart disease is central to Noonan syndrome: RAS/MAPK overactivity disrupts cardiac development, classically causing pulmonary valve stenosis and hypertrophic cardiomyopathy, so the cardiovascular system bears the syndrome's most serious manifestations.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Short stature in Noonan reflects disrupted growth signaling: RAS-pathway overactivity blunts the growth-hormone/IGF-1 axis, so children are short and growth-hormone therapy is used—though efficacy varies and RAS activation raises theoretical tumor concerns.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Noonan syndrome can weaken bone: reduced bone mineral density and increased fracture risk accompany the syndrome, reflecting RAS-pathway effects on bone metabolism—so skeletal health joins cardiac and growth issues in long-term Noonan care.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Noonan syndrome affects the developing nervous system: many children have developmental delay and learning differences, and RASopathy signaling shapes brain development, so neurodevelopmental support is part of managing this multisystem condition.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Noonan syndrome reshapes the skeleton and stature: short stature, a broad webbed neck, chest deformity (pectus) and scoliosis are characteristic, so the musculoskeletal features are central to recognizing this RAS-pathway syndrome.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Noonan syndrome affects the reproductive system in males: undescended testes (cryptorchidism) are common and can impair fertility, reflecting how RASopathy signaling disturbs gonadal development alongside the heart and growth abnormalities.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

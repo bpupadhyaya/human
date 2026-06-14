@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Merlin loss in NF2 deranges growth signaling including mTOR: NF2's merlin normally restrains the Hippo pathway and mTOR-linked proliferation, so its loss drives schwannoma growth—making mTOR and VEGF (bevacizumab) inhibition rational targeted approaches."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "NF2 is defined by tumors throughout the nervous system: bilateral vestibular schwannomas on the hearing/balance nerves cause progressive deafness, alongside meningiomas and ependymomas—so merlin loss makes the nervous system the syndrome's near-exclusive target."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "NF2 has subtler skin findings than NF1: instead of café-au-lait spots and plentiful neurofibromas, patients develop a smaller number of cutaneous schwannomas and plaques, so the skin gives quieter but real clues to the diagnosis."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Radiation, including proton and stereotactic radiosurgery, treats NF2 schwannomas: focused radiation can control vestibular schwannomas near the brainstem without open surgery, though in NF2's multiple, recurring tumors it is weighed against the risk of further tumors."
 ---
 
 # Neurofibromatosis Type 2
@@ -219,6 +228,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — NF2 is defined by tumors on the hearing nerve: bilateral vestibular schwannomas grow on cranial nerve VIII, compressing the neurons that carry sound and balance, so progressive deafness and imbalance in a young person are the hallmark of neurofibromatosis type 2.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiation is used cautiously in NF2: stereotactic radiosurgery can control vestibular schwannomas, but in NF2's tumor-prone, merlin-deficient tissue it risks inducing new tumors or malignant transformation—so timing and dose are weighed carefully against surgery.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Merlin loss in NF2 deranges growth signaling including mTOR: NF2's merlin normally restrains the Hippo pathway and mTOR-linked proliferation, so its loss drives schwannoma growth—making mTOR and VEGF (bevacizumab) inhibition rational targeted approaches.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — NF2 is defined by tumors throughout the nervous system: bilateral vestibular schwannomas on the hearing/balance nerves cause progressive deafness, alongside meningiomas and ependymomas—so merlin loss makes the nervous system the syndrome's near-exclusive target.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — NF2 has subtler skin findings than NF1: instead of café-au-lait spots and plentiful neurofibromas, patients develop a smaller number of cutaneous schwannomas and plaques, so the skin gives quieter but real clues to the diagnosis.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radiation, including proton and stereotactic radiosurgery, treats NF2 schwannomas: focused radiation can control vestibular schwannomas near the brainstem without open surgery, though in NF2's multiple, recurring tumors it is weighed against the risk of further tumors.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
