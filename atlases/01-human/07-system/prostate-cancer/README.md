@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Prostate cancer floods the bone marrow: it spreads preferentially to the axial-skeleton marrow, where deposits cause pain, fractures and marrow failure with anemia, so bone is the dominant metastatic site that drives the morbidity of advanced disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Liver metastasis marks aggressive prostate cancer: though bone is the usual target, spread to the liver (and other viscera) signals a more lethal, often treatment-resistant or neuroendocrine phenotype—so visceral metastases carry worse prognosis than bone-only disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Prostate cancer can also seed the lung: less common than bone metastasis, pulmonary spread reflects hematogenous dissemination of advanced disease, so chest imaging in progressive castration-resistant cancer can reveal visceral metastases that change treatment."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Prostate cancer is an immunologically 'cold' tumor: it has few mutations and poor T-cell infiltration, so checkpoint inhibitors largely fail, and sipuleucel-T—a vaccine priming cytotoxic T cells against prostate antigen—remains one of the few working immunotherapies."
 ---
 
 # Prostate Cancer
@@ -238,6 +247,9 @@ cross_links:
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — MYC amplification is an early prostate cancer driver: MYC gains, often with PTEN loss and ERG fusions, push the malignant transformation and predict aggressive disease—so the same proliferation oncogene seen across cancers helps grade prostate tumor biology.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Prostate cancer's bone metastases hijack osteoclasts: though the lesions look bone-forming (osteoblastic), tumor RANKL still activates osteoclasts, fueling a vicious cycle of bone turnover—so denosumab and bisphosphonates that block osteoclasts reduce skeletal events.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Prostate cancer floods the bone marrow: it spreads preferentially to the axial-skeleton marrow, where deposits cause pain, fractures and marrow failure with anemia, so bone is the dominant metastatic site that drives the morbidity of advanced disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver metastasis marks aggressive prostate cancer: though bone is the usual target, spread to the liver (and other viscera) signals a more lethal, often treatment-resistant or neuroendocrine phenotype—so visceral metastases carry worse prognosis than bone-only disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Prostate cancer can also seed the lung: less common than bone metastasis, pulmonary spread reflects hematogenous dissemination of advanced disease, so chest imaging in progressive castration-resistant cancer can reveal visceral metastases that change treatment.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Prostate cancer is an immunologically 'cold' tumor: it has few mutations and poor T-cell infiltration, so checkpoint inhibitors largely fail, and sipuleucel-T—a vaccine priming cytotoxic T cells against prostate antigen—remains one of the few working immunotherapies.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

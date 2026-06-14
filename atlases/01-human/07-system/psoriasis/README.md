@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/il-12
     relation: connects-to
     note: "IL-12/IL-23 sit at the heart of psoriasis: their shared p40 subunit drives the Th1/Th17 response that fuels keratinocyte hyperproliferation, which is why ustekinumab (anti-p40) and IL-23-specific biologics clear psoriasis plaques so effectively."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils mark the psoriatic plaque: they swarm into the epidermis to form Munro microabscesses, and in pustular psoriasis they fill visible pustules—so although T cells drive the disease, neutrophils are its histologic signature and dominate its pustular forms."
+  - target: 02-pathogen/02-bacteria/streptococcus-pyogenes
+    relation: connects-to
+    note: "Strep throat can ignite psoriasis: streptococcal infection classically triggers guttate psoriasis, especially in children, as bacterial superantigens activate T cells that cross-react with skin—one of the clearest infection-to-autoimmunity links in dermatology."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Psoriasis carries a heavy mental-health toll: visible plaques, stigma, and chronic inflammation roughly double the risk of depression and suicidal thoughts, so screening for depression is part of good psoriasis care—and clearing skin often lifts mood."
 ---
 
 # Psoriasis
@@ -226,6 +235,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Psoriasis is an independent cardiovascular risk factor: systemic IL-17/TNF inflammation accelerates atherosclerosis, so severe psoriasis raises heart-attack and stroke risk beyond its shared metabolic-syndrome links—reframing it as more than a skin disease.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells ignite psoriasis: they sense self-DNA and release type I interferon that, with myeloid dendritic cells, launches the IL-23/Th17 cascade—so dendritic cells sit at the very start of the inflammatory loop that thickens the skin.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12/IL-23 sit at the heart of psoriasis: their shared p40 subunit drives the Th1/Th17 response that fuels keratinocyte hyperproliferation, which is why ustekinumab (anti-p40) and IL-23-specific biologics clear psoriasis plaques so effectively.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark the psoriatic plaque: they swarm into the epidermis to form Munro microabscesses, and in pustular psoriasis they fill visible pustules—so although T cells drive the disease, neutrophils are its histologic signature and dominate its pustular forms.
+- `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Strep throat can ignite psoriasis: streptococcal infection classically triggers guttate psoriasis, especially in children, as bacterial superantigens activate T cells that cross-react with skin—one of the clearest infection-to-autoimmunity links in dermatology.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Psoriasis carries a heavy mental-health toll: visible plaques, stigma, and chronic inflammation roughly double the risk of depression and suicidal thoughts, so screening for depression is part of good psoriasis care—and clearing skin often lifts mood.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
