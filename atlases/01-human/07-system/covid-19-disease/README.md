@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils worsen severe COVID-19: they flood inflamed lungs and release neutrophil extracellular traps (NETs) that drive immunothrombosis, clogging pulmonary microvessels and linking the hyperinflammatory and clotting features of the disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "COVID-19 reaches beyond the lungs to the brain: loss of smell and taste, strokes, and the lingering brain fog of long COVID reflect both direct effects and inflammation, so neurological symptoms are now recognized as core features, not rare complications."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "COVID-19 injures the heart: the infection and its inflammation cause myocarditis, arrhythmias, and raised troponin, and survivors carry elevated cardiovascular risk for months—so cardiac monitoring matters even after the respiratory illness resolves."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells are central to COVID immunity: they generate the neutralizing antibodies that vaccines and prior infection rely on, but spike mutations in new variants erode that antibody protection—driving the need for updated boosters and explaining reinfections."
 ---
 
 # COVID-19 Disease
@@ -176,6 +185,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `targets` → **[Alveolus](../../05-tissue/alveolus/README.md)** — COVID-19 pneumonia injures the alveolus directly: SARS-CoV-2 infects ACE2-bearing type II pneumocytes lining the air sacs, triggering diffuse alveolar damage, hyaline membranes and flooding that impair gas exchange and underlie hypoxemic respiratory failure.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is the fault line of severe COVID-19: inborn errors or autoantibodies blunting interferon predispose to critical disease, while SARS-CoV-2 also actively suppresses it—explaining why a weak early interferon response lets the virus run unchecked.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils worsen severe COVID-19: they flood inflamed lungs and release neutrophil extracellular traps (NETs) that drive immunothrombosis, clogging pulmonary microvessels and linking the hyperinflammatory and clotting features of the disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — COVID-19 reaches beyond the lungs to the brain: loss of smell and taste, strokes, and the lingering brain fog of long COVID reflect both direct effects and inflammation, so neurological symptoms are now recognized as core features, not rare complications.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — COVID-19 injures the heart: the infection and its inflammation cause myocarditis, arrhythmias, and raised troponin, and survivors carry elevated cardiovascular risk for months—so cardiac monitoring matters even after the respiratory illness resolves.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are central to COVID immunity: they generate the neutralizing antibodies that vaccines and prior infection rely on, but spike mutations in new variants erode that antibody protection—driving the need for updated boosters and explaining reinfections.
 
 ## Pathology
 
