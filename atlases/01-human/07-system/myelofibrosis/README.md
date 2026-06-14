@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Myelofibrosis is in part an inflammatory disease: the JAK-STAT-driven clone pours out cytokines that cause fevers, weight loss, and night sweats, so JAK inhibitors like ruxolitinib ease symptoms by dampening this inflammatory storm more than by killing the clone."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Myelofibrosis scars the marrow through PDGF: the clonal megakaryocytes pour out PDGF and TGF-beta that drive fibroblasts to lay down the collagen replacing blood-forming marrow—so anti-fibrotic targeting of these cytokines is explored beyond JAK inhibition."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The only cure for myelofibrosis is allogeneic transplant via donor T cells: cytotoxic T cells from the graft mount a graft-versus-leukemia attack on the clone, the lone therapy that can reverse marrow fibrosis—at the cost of transplant risk."
+  - target: 01-human/07-system/anemia-of-chronic-disease
+    relation: connects-to
+    note: "Progressive anemia defines advancing myelofibrosis: marrow fibrosis and ineffective erythropoiesis cause worsening transfusion-dependent anemia, a key prognostic factor and the reason new agents target the anemia, not just the spleen."
 ---
 
 # Myelofibrosis
@@ -243,6 +252,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Myelofibrosis warps platelet production: clonal megakaryocytes first overproduce platelets, but as the marrow scars they fail, so patients swing from thrombosis-prone thrombocytosis to dangerous thrombocytopenia—platelet count tracking the march to marrow failure.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Myelofibrosis is named for the collagen it lays down: cytokines from the malignant clone drive marrow fibroblasts to flood the marrow with reticulin and collagen, crowding out blood production—so the fibrosis, though reactive, is the disease's defining lesion.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Myelofibrosis is in part an inflammatory disease: the JAK-STAT-driven clone pours out cytokines that cause fevers, weight loss, and night sweats, so JAK inhibitors like ruxolitinib ease symptoms by dampening this inflammatory storm more than by killing the clone.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Myelofibrosis scars the marrow through PDGF: the clonal megakaryocytes pour out PDGF and TGF-beta that drive fibroblasts to lay down the collagen replacing blood-forming marrow—so anti-fibrotic targeting of these cytokines is explored beyond JAK inhibition.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The only cure for myelofibrosis is allogeneic transplant via donor T cells: cytotoxic T cells from the graft mount a graft-versus-leukemia attack on the clone, the lone therapy that can reverse marrow fibrosis—at the cost of transplant risk.
+- `connects-to` → **[Anemia of Chronic Disease](../anemia-of-chronic-disease/README.md)** — Progressive anemia defines advancing myelofibrosis: marrow fibrosis and ineffective erythropoiesis cause worsening transfusion-dependent anemia, a key prognostic factor and the reason new agents target the anemia, not just the spleen.
 
 ---
 

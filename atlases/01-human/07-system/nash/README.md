@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Cholesterol is a hidden driver of NASH: free cholesterol accumulating in hepatocytes is toxic, stressing mitochondria and activating inflammation, so lipotoxicity—not just triglyceride fat—pushes bland fatty liver toward the cell injury that defines steatohepatitis."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "SGLT2 inhibitors help fatty liver: diabetes drugs that flush glucose in urine also reduce liver fat and inflammation in MASH, so they join GLP-1 agonists among metabolic therapies repurposed for the liver disease."
+  - target: 01-human/07-system/alcohol-use-disorder
+    relation: connects-to
+    note: "MASH is defined by what it isn't—alcohol: nonalcoholic steatohepatitis looks histologically like alcoholic liver disease, so diagnosis requires excluding heavy drinking, and the newer 'MetALD' category recognizes patients with both metabolic and alcohol drivers."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "MASH progression is driven partly by cytotoxic T cells: auto-aggressive CD8 T cells accumulate in the fatty liver, killing hepatocytes and fueling inflammation and fibrosis—and they also impair the immune surveillance that would catch emerging liver cancer."
 ---
 
 # NASH
@@ -212,6 +221,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — NASH is driven partly from the gut: a dysbiotic, leaky intestine sends bacterial endotoxin and metabolites up the portal vein to inflame the fatty liver, so the gut-liver axis helps turn simple steatosis into progressive steatohepatitis.
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormone signaling is a NASH drug target: the liver-selective THR-β agonist resmetirom boosts hepatic fat metabolism and became the first FDA-approved NASH therapy, so mimicking thyroid hormone in the liver can reverse steatosis and early fibrosis.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol is a hidden driver of NASH: free cholesterol accumulating in hepatocytes is toxic, stressing mitochondria and activating inflammation, so lipotoxicity—not just triglyceride fat—pushes bland fatty liver toward the cell injury that defines steatohepatitis.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — SGLT2 inhibitors help fatty liver: diabetes drugs that flush glucose in urine also reduce liver fat and inflammation in MASH, so they join GLP-1 agonists among metabolic therapies repurposed for the liver disease.
+- `connects-to` → **[Alcohol Use Disorder](../alcohol-use-disorder/README.md)** — MASH is defined by what it isn't—alcohol: nonalcoholic steatohepatitis looks histologically like alcoholic liver disease, so diagnosis requires excluding heavy drinking, and the newer 'MetALD' category recognizes patients with both metabolic and alcohol drivers.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — MASH progression is driven partly by cytotoxic T cells: auto-aggressive CD8 T cells accumulate in the fatty liver, killing hepatocytes and fueling inflammation and fibrosis—and they also impair the immune surveillance that would catch emerging liver cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
