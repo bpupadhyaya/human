@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "B cells are central to COVID immunity: they generate the neutralizing antibodies that vaccines and prior infection rely on, but spike mutations in new variants erode that antibody protection—driving the need for updated boosters and explaining reinfections."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells clear SARS-CoV-2-infected cells: CD8 T-cell responses help end the infection and, as durable memory, underpin protection from severe disease after infection or vaccination even when antibodies wane."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 drives COVID-19's cytokine storm: severe disease floods the blood with IL-6, fueling the hyperinflammation that injures the lungs—so the IL-6-blocker tocilizumab improves survival in critically ill patients alongside steroids."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "COVID-19 frequently injures the kidney: acute kidney injury is common in severe disease from direct infection, cytokines and microthrombi, and needing dialysis sharply worsens outcomes—evidence the virus is multisystem, not just respiratory."
 ---
 
 # COVID-19 Disease
@@ -188,6 +197,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — COVID-19 reaches beyond the lungs to the brain: loss of smell and taste, strokes, and the lingering brain fog of long COVID reflect both direct effects and inflammation, so neurological symptoms are now recognized as core features, not rare complications.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — COVID-19 injures the heart: the infection and its inflammation cause myocarditis, arrhythmias, and raised troponin, and survivors carry elevated cardiovascular risk for months—so cardiac monitoring matters even after the respiratory illness resolves.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are central to COVID immunity: they generate the neutralizing antibodies that vaccines and prior infection rely on, but spike mutations in new variants erode that antibody protection—driving the need for updated boosters and explaining reinfections.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells clear SARS-CoV-2-infected cells: CD8 T-cell responses help end the infection and, as durable memory, underpin protection from severe disease after infection or vaccination even when antibodies wane.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 drives COVID-19's cytokine storm: severe disease floods the blood with IL-6, fueling the hyperinflammation that injures the lungs—so the IL-6-blocker tocilizumab improves survival in critically ill patients alongside steroids.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — COVID-19 frequently injures the kidney: acute kidney injury is common in severe disease from direct infection, cytokines and microthrombi, and needing dialysis sharply worsens outcomes—evidence the virus is multisystem, not just respiratory.
 
 ## Pathology
 

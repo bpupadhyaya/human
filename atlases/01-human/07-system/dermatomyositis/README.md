@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Plasmacytoid dendritic cells help drive dermatomyositis: they are a major source of the type-I interferon that floods affected skin and muscle, so this innate-immune cell sits upstream of the interferon signature that defines the disease and guides JAK-inhibitor therapy."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcinosis is a hallmark of dermatomyositis, especially juvenile: calcium deposits build up in skin and muscle, forming hard, sometimes ulcerating nodules that are painful and hard to treat—a chronic complication distinct from the acute inflammation."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Dermatomyositis can inflame the heart muscle: myocarditis and conduction disease from the same autoimmune process that attacks skeletal muscle add cardiac risk, so cardiomyocyte involvement is screened for even when symptoms are subtle."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Dermatomyositis differs from polymyositis in its immune attack: DM is largely humoral and complement-mediated against muscle capillaries, whereas polymyositis features cytotoxic T cells directly invading muscle fibers—distinguishing the two myopathies."
 ---
 
 # Dermatomyositis
@@ -256,6 +265,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Dermatomyositis can weaken the swallowing muscles: pharyngeal and upper-esophageal involvement causes dysphagia, raising the risk of aspiration pneumonia—so difficulty swallowing is a red flag for severe disease needing prompt, aggressive treatment.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Dermatomyositis is strongly paraneoplastic: adult onset prompts a cancer hunt, and beyond ovarian and lung tumors, colorectal and other cancers are over-represented—so a new diagnosis triggers age-appropriate malignancy screening, sometimes revealing an occult tumor.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells help drive dermatomyositis: they are a major source of the type-I interferon that floods affected skin and muscle, so this innate-immune cell sits upstream of the interferon signature that defines the disease and guides JAK-inhibitor therapy.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcinosis is a hallmark of dermatomyositis, especially juvenile: calcium deposits build up in skin and muscle, forming hard, sometimes ulcerating nodules that are painful and hard to treat—a chronic complication distinct from the acute inflammation.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Dermatomyositis can inflame the heart muscle: myocarditis and conduction disease from the same autoimmune process that attacks skeletal muscle add cardiac risk, so cardiomyocyte involvement is screened for even when symptoms are subtle.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Dermatomyositis differs from polymyositis in its immune attack: DM is largely humoral and complement-mediated against muscle capillaries, whereas polymyositis features cytotoxic T cells directly invading muscle fibers—distinguishing the two myopathies.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
