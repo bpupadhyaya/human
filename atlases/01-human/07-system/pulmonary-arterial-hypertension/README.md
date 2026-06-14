@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Pulmonary arterial hypertension is a disease of the lesser circulation within the cardiovascular system: it raises pressure in the pulmonary arteries, not the systemic circuit, so its targeted vasodilators relax the lung's vessels rather than lowering body-wide pressure."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Liver disease can cause pulmonary hypertension: portal hypertension from cirrhosis leads to portopulmonary hypertension, where vasoactive substances bypassing the liver remodel the pulmonary arteries—an important PAH subtype affecting transplant eligibility."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Heritable PAH is a TGF-beta/BMP imbalance: loss of BMPR2 signaling tips the balance toward TGF-beta-driven proliferation of pulmonary vascular cells, the core lesion behind the disease and the target of activin-pathway drugs like sotatercept."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Adventitial fibroblasts complete PAH's vascular remodeling: alongside thickening endothelium and smooth muscle, activated fibroblasts in the outer arterial wall proliferate and stiffen the vessel, narrowing the lumen that raises pulmonary pressure."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -242,6 +251,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF marks the disordered vessels of pulmonary arterial hypertension: the plexiform lesions that obstruct small pulmonary arteries are foci of dysregulated VEGF-driven endothelial proliferation, reflecting how PAH is a vascular-remodeling, not just vasoconstrictive, disease.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Pulmonary arterial hypertension is the vascular disease of the respiratory system: remodeling of the lung's small arteries raises pulmonary pressure, so breathlessness and hypoxemia arise even though the airways and alveoli themselves may be normal.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Pulmonary arterial hypertension is a disease of the lesser circulation within the cardiovascular system: it raises pressure in the pulmonary arteries, not the systemic circuit, so its targeted vasodilators relax the lung's vessels rather than lowering body-wide pressure.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver disease can cause pulmonary hypertension: portal hypertension from cirrhosis leads to portopulmonary hypertension, where vasoactive substances bypassing the liver remodel the pulmonary arteries—an important PAH subtype affecting transplant eligibility.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Heritable PAH is a TGF-beta/BMP imbalance: loss of BMPR2 signaling tips the balance toward TGF-beta-driven proliferation of pulmonary vascular cells, the core lesion behind the disease and the target of activin-pathway drugs like sotatercept.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Adventitial fibroblasts complete PAH's vascular remodeling: alongside thickening endothelium and smooth muscle, activated fibroblasts in the outer arterial wall proliferate and stiffen the vessel, narrowing the lumen that raises pulmonary pressure.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

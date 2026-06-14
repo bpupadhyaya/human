@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "PTCL both arises from and dysregulates the immune system: angioimmunoblastic T-cell lymphoma in particular causes autoimmune features and immunodeficiency as the malignant helper T cells distort immune regulation—so infection and autoimmunity complicate the disease."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "T-cell lymphomas trace back to the thymus-educated T lineage: PTCLs are malignancies of mature post-thymic T cells, so unlike T-ALL they arise after thymic development—their subtype reflecting which mature T-cell type (helper, cytotoxic, NK-like) transformed."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Angioimmunoblastic PTCL springs from germinal-center helper cells: it arises from T-follicular-helper cells that normally aid B cells in germinal centers, which is why this subtype shows expanded follicular dendritic networks and reactive B-cell proliferation."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Angioimmunoblastic T-cell lymphoma expands follicular dendritic cells: a hallmark is a proliferating meshwork of follicular dendritic cells and high endothelial venules around the tumor T cells, giving the node its distinctive polymorphous, vascular appearance."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -256,6 +265,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — PTCL spans many T-cell subsets, including cytotoxic-T-cell-derived types: extranodal NK/T-cell and hepatosplenic lymphomas arise from cytotoxic lineage cells, so unlike B-cell lymphomas, PTCL's diversity reflects the many normal T-cell populations it can mimic.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Some PTCLs home to the spleen and liver: hepatosplenic T-cell lymphoma infiltrates these organs (often in immunosuppressed patients) causing cytopenias without nodal masses, so an aggressive T-cell lymphoma can present as hepatosplenomegaly rather than lymphadenopathy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — PTCL both arises from and dysregulates the immune system: angioimmunoblastic T-cell lymphoma in particular causes autoimmune features and immunodeficiency as the malignant helper T cells distort immune regulation—so infection and autoimmunity complicate the disease.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — T-cell lymphomas trace back to the thymus-educated T lineage: PTCLs are malignancies of mature post-thymic T cells, so unlike T-ALL they arise after thymic development—their subtype reflecting which mature T-cell type (helper, cytotoxic, NK-like) transformed.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Angioimmunoblastic PTCL springs from germinal-center helper cells: it arises from T-follicular-helper cells that normally aid B cells in germinal centers, which is why this subtype shows expanded follicular dendritic networks and reactive B-cell proliferation.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Angioimmunoblastic T-cell lymphoma expands follicular dendritic cells: a hallmark is a proliferating meshwork of follicular dendritic cells and high endothelial venules around the tumor T cells, giving the node its distinctive polymorphous, vascular appearance.
 
 ---
 
