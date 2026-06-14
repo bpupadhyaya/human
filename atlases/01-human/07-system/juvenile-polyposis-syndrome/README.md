@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "The juvenile polyp's bulk is connective tissue: an expanded collagen-rich stroma, not glandular crowding, gives these hamartomas their rounded, smooth shape—distinguishing them from the adenomas of FAP where the epithelium itself is neoplastic."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "SMAD4 juvenile polyposis overlaps with a blood-vessel disease: SMAD4 carriers can also have hereditary hemorrhagic telangiectasia, where faulty endothelial BMP/TGF-β signaling builds fragile telangiectasias and arteriovenous malformations that bleed."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "JPS-HHT's vascular lesions run on VEGF: dysregulated angiogenesis from disrupted BMP signaling spawns telangiectasias and AVMs, so anti-VEGF drugs like bevacizumab are used to control the severe bleeding in SMAD4 carriers."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Juvenile polyps teem with macrophages: these hamartomas carry a heavy inflammatory infiltrate in their stroma, and the immune cells plus dilated mucus-filled glands make the polyps fragile and prone to the bleeding that causes anemia."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -253,6 +262,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Juvenile polyps are hamartomas defined by their stroma: an abundant, fibroblast-rich, inflamed and edematous lamina propria surrounds cystically dilated glands—so the diagnosis rests on this stromal overgrowth, reflecting how SMAD4/BMPR1A loss deranges mesenchyme.
 - `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — STK11 distinguishes the hamartomatous polyposis syndromes: JPS comes from BMPR1A or SMAD4, whereas STK11 (LKB1) loss causes Peutz-Jeghers—different genes producing different polyp histology and cancer risks, so gene testing sorts which syndrome a patient has.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The juvenile polyp's bulk is connective tissue: an expanded collagen-rich stroma, not glandular crowding, gives these hamartomas their rounded, smooth shape—distinguishing them from the adenomas of FAP where the epithelium itself is neoplastic.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — SMAD4 juvenile polyposis overlaps with a blood-vessel disease: SMAD4 carriers can also have hereditary hemorrhagic telangiectasia, where faulty endothelial BMP/TGF-β signaling builds fragile telangiectasias and arteriovenous malformations that bleed.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — JPS-HHT's vascular lesions run on VEGF: dysregulated angiogenesis from disrupted BMP signaling spawns telangiectasias and AVMs, so anti-VEGF drugs like bevacizumab are used to control the severe bleeding in SMAD4 carriers.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Juvenile polyps teem with macrophages: these hamartomas carry a heavy inflammatory infiltrate in their stroma, and the immune cells plus dilated mucus-filled glands make the polyps fragile and prone to the bleeding that causes anemia.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "IBD's most important liver tie is primary sclerosing cholangitis: this progressive bile-duct scarring occurs mostly with ulcerative colitis, raises the risk of cholangiocarcinoma and colorectal cancer, and runs an independent course unaffected by bowel treatment."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "IBD, especially Crohn's, traces to faulty autophagy: risk genes like ATG16L1 cripple the cellular self-cleaning that clears gut bacteria and keeps Paneth cells working, so impaired autophagy lets the microbiome provoke chronic intestinal inflammation."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells set the thermostat of IBD: by sampling gut microbes and deciding whether to trigger tolerance or attack, these cells tip the Th17-versus-regulatory-T-cell balance that determines whether the intestine stays calm or inflames."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B-cell antibodies help classify IBD: serologic markers—ASCA antibodies leaning toward Crohn's and pANCA toward ulcerative colitis—reflect the B-cell response to gut antigens and help distinguish the two forms when biopsies are ambiguous."
 ---
 
 # Inflammatory Bowel Disease
@@ -259,6 +268,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils drive tissue damage in active IBD: recruited into the mucosa, they form the crypt abscesses that histologically define a flare and release proteases and oxidants that ulcerate the gut wall—so blunting neutrophil influx is part of controlling disease.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and IBD interact both ways: deficiency is common with intestinal inflammation and malabsorption, and low vitamin D—an immune modulator supporting gut-barrier and regulatory T-cell function—is linked to more active disease, so levels are checked and repleted.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — IBD's most important liver tie is primary sclerosing cholangitis: this progressive bile-duct scarring occurs mostly with ulcerative colitis, raises the risk of cholangiocarcinoma and colorectal cancer, and runs an independent course unaffected by bowel treatment.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — IBD, especially Crohn's, traces to faulty autophagy: risk genes like ATG16L1 cripple the cellular self-cleaning that clears gut bacteria and keeps Paneth cells working, so impaired autophagy lets the microbiome provoke chronic intestinal inflammation.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells set the thermostat of IBD: by sampling gut microbes and deciding whether to trigger tolerance or attack, these cells tip the Th17-versus-regulatory-T-cell balance that determines whether the intestine stays calm or inflames.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B-cell antibodies help classify IBD: serologic markers—ASCA antibodies leaning toward Crohn's and pANCA toward ulcerative colitis—reflect the B-cell response to gut antigens and help distinguish the two forms when biopsies are ambiguous.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
