@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Obesity compounds inherited thrombophilia: excess adipose tissue raises clotting factors and inflammation and impairs fibrinolysis, so it multiplies the venous-thrombosis risk of a Factor V Leiden or prothrombin variant—gene meets environment."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "High von Willebrand factor is itself a thrombophilia: elevated vWF—from genes, inflammation, or aging—makes platelets stickier and raises clot risk, adding to the inherited deficiencies of natural anticoagulants behind familial thrombosis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Thrombophilia is amplified by neutrophil NETs: neutrophils cast out DNA webs (NETs) that scaffold platelets and clotting factors into clots, so this immunothrombosis turns inflammation into the venous thrombi that thrombophilia predisposes to."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Low oxygen and stasis tip thrombophilia into clots: immobility and hypoxia (long flights, illness) slow venous flow and switch on procoagulant signals, providing the trigger that turns an inherited clotting tendency into an actual thrombosis."
 ---
 
 # Inherited Thrombophilia
@@ -294,6 +303,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is coagulation Factor IV, central to the clotting that thrombophilia tips toward excess: it bridges clotting-factor complexes to membranes, so it underlies the cascade—and citrate that chelates it keeps lab tubes and stored blood from clotting.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver's hepatocytes make both sides of the clotting balance: they synthesize procoagulant factors and the natural anticoagulants protein C, protein S and antithrombin—so inherited deficiencies of these hepatocyte products cause thrombophilia.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity compounds inherited thrombophilia: excess adipose tissue raises clotting factors and inflammation and impairs fibrinolysis, so it multiplies the venous-thrombosis risk of a Factor V Leiden or prothrombin variant—gene meets environment.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — High von Willebrand factor is itself a thrombophilia: elevated vWF—from genes, inflammation, or aging—makes platelets stickier and raises clot risk, adding to the inherited deficiencies of natural anticoagulants behind familial thrombosis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Thrombophilia is amplified by neutrophil NETs: neutrophils cast out DNA webs (NETs) that scaffold platelets and clotting factors into clots, so this immunothrombosis turns inflammation into the venous thrombi that thrombophilia predisposes to.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Low oxygen and stasis tip thrombophilia into clots: immobility and hypoxia (long flights, illness) slow venous flow and switch on procoagulant signals, providing the trigger that turns an inherited clotting tendency into an actual thrombosis.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

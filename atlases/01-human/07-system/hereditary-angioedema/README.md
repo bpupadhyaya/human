@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Angioedema overwhelms lymphatic fluid clearance: bradykinin makes deep dermal and submucosal vessels leak faster than the lymphatic system can drain, producing the firm, non-pitting swelling of HAE—unlike the histamine-driven hives of allergy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Hereditary angioedema's swelling is a permeability problem like VEGF's: bradykinin (and VEGF) pry apart endothelial junctions to let plasma flood into tissue, so the attacks are leaky-vessel edema, not the mast-cell hives of allergy."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Hereditary angioedema runs through the calcium-dependent contact system: factor XII and kallikrein activation that generates bradykinin needs calcium, the same cofactor of the clotting cascade—linking the kinin and coagulation pathways."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Hereditary angioedema ignores cortisol—unlike allergic swelling: because the attacks are bradykinin-driven, not histamine-driven, steroids and antihistamines don't work, so the key is recognizing it and using C1-inhibitor or bradykinin blockers instead."
 ---
 
 # Hereditary Angioedema
@@ -270,6 +279,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgens are a classic hereditary angioedema prophylaxis: attenuated androgens like danazol raise C1-inhibitor levels to prevent attacks—a striking contrast with estrogen, which worsens HAE—so sex hormones swing the disease in opposite directions.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Acquired angioedema mimics HAE but comes from plasma cells: monoclonal gammopathy and lymphoproliferative disorders consume or autoantibody-target C1-inhibitor, so late-onset angioedema without family history prompts a search for a plasma-cell clone.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Angioedema overwhelms lymphatic fluid clearance: bradykinin makes deep dermal and submucosal vessels leak faster than the lymphatic system can drain, producing the firm, non-pitting swelling of HAE—unlike the histamine-driven hives of allergy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Hereditary angioedema's swelling is a permeability problem like VEGF's: bradykinin (and VEGF) pry apart endothelial junctions to let plasma flood into tissue, so the attacks are leaky-vessel edema, not the mast-cell hives of allergy.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Hereditary angioedema runs through the calcium-dependent contact system: factor XII and kallikrein activation that generates bradykinin needs calcium, the same cofactor of the clotting cascade—linking the kinin and coagulation pathways.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Hereditary angioedema ignores cortisol—unlike allergic swelling: because the attacks are bradykinin-driven, not histamine-driven, steroids and antihistamines don't work, so the key is recognizing it and using C1-inhibitor or bradykinin blockers instead.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
