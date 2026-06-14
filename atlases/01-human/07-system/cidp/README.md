@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "CIDP is a chronic disorder of the peripheral nervous system: demyelination of nerve roots and trunks impairs the signals between cord and limbs, producing symmetric weakness and sensory loss that can be reversed if immunotherapy starts before axons are lost."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement helps strip myelin in CIDP: antibodies against nerve antigens fix complement (C3 and beyond), and macrophages then peel myelin off axons, so complement activation is part of the demyelinating attack that IVIg and plasma exchange interrupt."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "A CIDP-like neuropathy can signal a paraprotein: anti-MAG IgM from Waldenström macroglobulinemia or MGUS attacks myelin, producing a demyelinating neuropathy that mimics CIDP—so an unexplained case warrants checking for a monoclonal protein."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CIDP is driven partly by T cells: cytotoxic and helper T cells breach the blood-nerve barrier and, with macrophages, attack peripheral myelin, so the disease reflects a cellular as well as antibody-mediated assault on nerves."
 ---
 
 # CIDP
@@ -264,6 +273,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — CIDP attacks the insulation of peripheral neurons: immune-mediated stripping of myelin from motor and sensory nerve fibers slows or blocks conduction, causing the progressive weakness and numbness that, unlike Guillain-Barré, persist or relapse over months.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — CIDP is an autoimmune disease of peripheral nerves: antibodies, complement and T cells attack myelin, so it responds to immunotherapy (IVIG, steroids, plasma exchange)—the treatable, chronic counterpart of Guillain-Barré syndrome.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — CIDP is a chronic disorder of the peripheral nervous system: demyelination of nerve roots and trunks impairs the signals between cord and limbs, producing symmetric weakness and sensory loss that can be reversed if immunotherapy starts before axons are lost.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement helps strip myelin in CIDP: antibodies against nerve antigens fix complement (C3 and beyond), and macrophages then peel myelin off axons, so complement activation is part of the demyelinating attack that IVIg and plasma exchange interrupt.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — A CIDP-like neuropathy can signal a paraprotein: anti-MAG IgM from Waldenström macroglobulinemia or MGUS attacks myelin, producing a demyelinating neuropathy that mimics CIDP—so an unexplained case warrants checking for a monoclonal protein.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CIDP is driven partly by T cells: cytotoxic and helper T cells breach the blood-nerve barrier and, with macrophages, attack peripheral myelin, so the disease reflects a cellular as well as antibody-mediated assault on nerves.
 
 ---
 

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Carbon-ion radiotherapy is an alternative for chordoma: heavy carbon ions deliver dense, highly damaging dose to these notoriously radioresistant tumors, useful when surgery is incomplete or the tumor abuts neural structures—an option in specialized particle centers."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Chordoma spreads most often to the lung: though it grows slowly and locally along the spine and skull base, late metastasis favors the lungs, so chest imaging is part of follow-up for this notochord-derived bone tumor."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Chordoma is a target for vaccine immunotherapy: nearly all chordomas express brachyury (TBXT), and a brachyury-directed cancer vaccine trains the immune system against this otherwise hard-to-drug developmental transcription factor."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Chordoma's radioresistance is partly an oxygen problem: poorly oxygenated tumor regions resist conventional X-rays, so high-dose proton and carbon-ion radiotherapy—less dependent on oxygen and more precise near the spinal cord—are used instead."
 ---
 
 # Chordoma
@@ -246,6 +255,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is the radiation mainstay for chordoma: these radioresistant skull-base and sacral tumors sit against the brainstem and spinal cord, so protons' sharp dose falloff delivers high tumor dose while sparing critical neural structures.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Chordoma threatens the nervous system by location: arising along the spine and skull base from notochord remnants, it compresses the brainstem, cranial nerves and spinal cord, so its slow growth still causes severe neurological deficits and demands aggressive local control.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an alternative for chordoma: heavy carbon ions deliver dense, highly damaging dose to these notoriously radioresistant tumors, useful when surgery is incomplete or the tumor abuts neural structures—an option in specialized particle centers.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Chordoma spreads most often to the lung: though it grows slowly and locally along the spine and skull base, late metastasis favors the lungs, so chest imaging is part of follow-up for this notochord-derived bone tumor.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Chordoma is a target for vaccine immunotherapy: nearly all chordomas express brachyury (TBXT), and a brachyury-directed cancer vaccine trains the immune system against this otherwise hard-to-drug developmental transcription factor.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Chordoma's radioresistance is partly an oxygen problem: poorly oxygenated tumor regions resist conventional X-rays, so high-dose proton and carbon-ion radiotherapy—less dependent on oxygen and more precise near the spinal cord—are used instead.
 
 ---
 
