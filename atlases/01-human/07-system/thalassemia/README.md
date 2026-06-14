@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Iron overload disturbs calcium in thalassemia: iron-damaged parathyroids cause hypoparathyroidism and low calcium, while ineffective erythropoiesis and endocrinopathy weaken bone—so calcium and bone health are watched closely."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Iron poisons the heart muscle in thalassemia: repeated transfusions deposit iron in cardiomyocytes, where it drives oxidative damage and arrhythmia, and this iron-overload cardiomyopathy is the leading cause of death—why iron chelation is lifesaving."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Transfusional iron scars the thyroid: deposits in the gland cause hypothyroidism, one of the endocrine failures of chronic thalassemia, so thyroid function is monitored alongside the heart and pancreas in iron-overloaded patients."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Iron damage to the pituitary stunts growth in thalassemia: overload harms the gland that makes growth hormone, so children can fail to grow and enter puberty late—endocrine complications that shape lifelong care beyond the anemia itself."
 ---
 
 # Thalassemia
@@ -282,6 +291,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Iron overload in thalassemia poisons the pancreas: transfused and over-absorbed iron deposits in pancreatic islets, causing diabetes—one of the endocrine failures (with thyroid and gonads) that iron chelation aims to prevent.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Thalassemia can be cured by replacing the marrow: an allogeneic stem-cell transplant—relying on donor cytotoxic T cells to engraft—or gene therapy gives patients a source of normal red cells, ending lifelong transfusions.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Iron overload disturbs calcium in thalassemia: iron-damaged parathyroids cause hypoparathyroidism and low calcium, while ineffective erythropoiesis and endocrinopathy weaken bone—so calcium and bone health are watched closely.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Iron poisons the heart muscle in thalassemia: repeated transfusions deposit iron in cardiomyocytes, where it drives oxidative damage and arrhythmia, and this iron-overload cardiomyopathy is the leading cause of death—why iron chelation is lifesaving.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Transfusional iron scars the thyroid: deposits in the gland cause hypothyroidism, one of the endocrine failures of chronic thalassemia, so thyroid function is monitored alongside the heart and pancreas in iron-overloaded patients.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Iron damage to the pituitary stunts growth in thalassemia: overload harms the gland that makes growth hormone, so children can fail to grow and enter puberty late—endocrine complications that shape lifelong care beyond the anemia itself.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

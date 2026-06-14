@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Venous clots are red because they trap erythrocytes: unlike platelet-rich arterial clots, the slow-flow 'red thrombi' of veins are packed with red cells and fibrin—why stasis (immobility, long flights) is a key part of venous thromboembolism."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "A venous clot becomes deadly when it starves the lungs of oxygen: a leg clot can break off and lodge in the pulmonary arteries, blocking blood flow so the lungs cannot oxygenate—the hypoxemia of pulmonary embolism."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Veins can clot in the brain too: cerebral venous sinus thrombosis is an unusual form of venous thromboembolism, striking young women on estrogen or in pregnancy and causing headache, seizures and stroke-like deficits."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Venous clots also strike the abdomen's great veins: thrombosis of the portal or hepatic veins (Budd-Chiari) links venous thromboembolism to myeloproliferative disorders and PNH, so unusual-site clots prompt a search for hidden causes."
 ---
 
 # Venous Thromboembolism
@@ -258,6 +267,9 @@ cross_links:
 - `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Unresolved clots can scar into pulmonary hypertension: when pulmonary emboli fail to dissolve, organized thrombus narrows lung arteries causing chronic thromboembolic pulmonary hypertension (CTEPH)—a potentially curable cause treated by surgically removing the old clot.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium is clotting Factor IV, central to forming venous thrombi: the cascade that builds a clot requires calcium at multiple steps, which is why citrate that binds calcium is used to keep donated and lab blood from clotting.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Venous clots are red because they trap erythrocytes: unlike platelet-rich arterial clots, the slow-flow 'red thrombi' of veins are packed with red cells and fibrin—why stasis (immobility, long flights) is a key part of venous thromboembolism.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A venous clot becomes deadly when it starves the lungs of oxygen: a leg clot can break off and lodge in the pulmonary arteries, blocking blood flow so the lungs cannot oxygenate—the hypoxemia of pulmonary embolism.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Veins can clot in the brain too: cerebral venous sinus thrombosis is an unusual form of venous thromboembolism, striking young women on estrogen or in pregnancy and causing headache, seizures and stroke-like deficits.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Venous clots also strike the abdomen's great veins: thrombosis of the portal or hepatic veins (Budd-Chiari) links venous thromboembolism to myeloproliferative disorders and PNH, so unusual-site clots prompt a search for hidden causes.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
