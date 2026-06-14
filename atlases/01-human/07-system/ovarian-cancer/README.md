@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Ovarian cancer spreads across the peritoneum to the liver surface: it sheds cells that seed the omentum and coat the liver capsule rather than invading the parenchyma early, so debulking these surface deposits is central to surgery, and ascites is common."
+  - target: 01-human/03-molecular/rad51
+    relation: connects-to
+    note: "Ovarian cancer's BRCA/RAD51 defect is its therapeutic Achilles' heel: ~half of high-grade serous tumors have homologous-recombination deficiency (BRCA, RAD51 pathway), so PARP inhibitors kill them by synthetic lethality—a major advance in maintenance therapy."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Ovarian cancer spreads through the abdomen onto the digestive tract: it sheds cells that coat the peritoneum, omentum and bowel surface, so it presents late with bloating and ascites and often causes bowel obstruction—dictating debulking surgery."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Ovarian cancer is strongly prothrombotic: tumor tissue factor and the bulky pelvic mass make venous thromboembolism common (a Trousseau-type hypercoagulability), so clots can be the presenting sign and prophylaxis is routine around surgery and chemo."
 ---
 
 # Ovarian Cancer
@@ -215,6 +224,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen exposure shapes ovarian cancer risk: more lifetime ovulatory cycles and unopposed estrogen raise risk, while pregnancy, breastfeeding and contraceptives that suppress ovulation lower it—so reproductive and hormonal history strongly modulates this cancer.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Tumor-infiltrating cytotoxic T cells predict ovarian cancer outcome: high CD8 T-cell infiltration of high-grade serous tumors correlates with markedly better survival, evidence the immune system restrains the cancer—a rationale for immunotherapy in ovarian cancer.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Ovarian cancer spreads across the peritoneum to the liver surface: it sheds cells that seed the omentum and coat the liver capsule rather than invading the parenchyma early, so debulking these surface deposits is central to surgery, and ascites is common.
+- `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Ovarian cancer's BRCA/RAD51 defect is its therapeutic Achilles' heel: ~half of high-grade serous tumors have homologous-recombination deficiency (BRCA, RAD51 pathway), so PARP inhibitors kill them by synthetic lethality—a major advance in maintenance therapy.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Ovarian cancer spreads through the abdomen onto the digestive tract: it sheds cells that coat the peritoneum, omentum and bowel surface, so it presents late with bloating and ascites and often causes bowel obstruction—dictating debulking surgery.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Ovarian cancer is strongly prothrombotic: tumor tissue factor and the bulky pelvic mass make venous thromboembolism common (a Trousseau-type hypercoagulability), so clots can be the presenting sign and prophylaxis is routine around surgery and chemo.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

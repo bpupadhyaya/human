@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/vhl-disease
     relation: connects-to
     note: "OCCC shares clear-cell morphology and biology with renal clear cell carcinoma: glycogen-rich clear cytoplasm and HIF/VEGF-driven angiogenesis link it to VHL-associated kidney cancer, so anti-angiogenic agents are explored across these histologically similar tumors."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma is characteristically p53-wildtype: unlike high-grade serous ovarian cancer, which is defined by TP53 mutation, OCCC is driven instead by ARID1A and PIK3CA—so p53 status helps distinguish these biologically distinct ovarian cancers."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Ovarian clear cell carcinoma resists platinum chemo but its ARID1A loss links to immunotherapy: ARID1A-mutant or mismatch-repair-deficient tumors can respond to checkpoint blockade, offering an option in this otherwise chemoresistant subtype."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "OCCC's clear cytoplasm reflects HIF-driven metabolism: a stabilized hypoxia program reprograms cells toward glycolysis and glycogen storage (the 'clear' look), and this metabolic state contributes to the platinum chemoresistance that makes OCCC hard to treat."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -241,6 +250,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[PTEN](../../03-molecular/pten/README.md)** — OCCC is driven by PI3K-pathway and chromatin gene mutations: ARID1A loss with PIK3CA or PTEN alterations activates PI3K/AKT/mTOR growth signaling, distinguishing clear cell carcinoma's biology—and rationale for mTOR/PI3K-targeted trials—from high-grade serous cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — OCCC tends to be immunologically distinct and PD-L1-expressing: among ovarian cancers, clear cell carcinoma more often shows mismatch-repair/ARID1A features and immune infiltration, so NK and T-cell-engaging immunotherapy is of interest in this platinum-resistant subtype.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — OCCC shares clear-cell morphology and biology with renal clear cell carcinoma: glycogen-rich clear cytoplasm and HIF/VEGF-driven angiogenesis link it to VHL-associated kidney cancer, so anti-angiogenic agents are explored across these histologically similar tumors.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Ovarian clear cell carcinoma is characteristically p53-wildtype: unlike high-grade serous ovarian cancer, which is defined by TP53 mutation, OCCC is driven instead by ARID1A and PIK3CA—so p53 status helps distinguish these biologically distinct ovarian cancers.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Ovarian clear cell carcinoma resists platinum chemo but its ARID1A loss links to immunotherapy: ARID1A-mutant or mismatch-repair-deficient tumors can respond to checkpoint blockade, offering an option in this otherwise chemoresistant subtype.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — OCCC's clear cytoplasm reflects HIF-driven metabolism: a stabilized hypoxia program reprograms cells toward glycolysis and glycogen storage (the 'clear' look), and this metabolic state contributes to the platinum chemoresistance that makes OCCC hard to treat.
 
 ---
 
