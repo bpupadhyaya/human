@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium tunes the glutamate signaling disturbed in autism: it blocks the NMDA receptor at rest, so altered magnesium handling can shift the excitation-inhibition balance that many ASD genes already push toward over-excitation."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Autism converges on calcium signaling: several of the strongest risk genes encode calcium channels (like CACNA1C) or calcium-handling proteins, so altered calcium flow into neurons is a recurring thread through the disorder's genetics."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Autism reaches into the gut: GI symptoms are far more common in ASD, and through the gut-brain axis the large intestine's microbes and signals can influence behavior, tying digestive health to the condition."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Autism often runs short on ATP: a subset of children show mitochondrial dysfunction that limits the cell's energy currency, and the brain's high energy demand may make developing neurons especially sensitive to this shortfall."
 ---
 
 # Autism Spectrum Disorder
@@ -292,6 +301,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Autism reshapes the brain's wiring insulation: studies find altered myelin and oligodendrocyte differences underlying the atypical long- and short-range connectivity, so white-matter changes accompany the synaptic biology of ASD.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Maternal IL-6 links infection to autism risk: when the mother's immune system activates in pregnancy, IL-6 crossing to the fetal brain perturbs development in animal models, a leading mechanism behind the maternal-immune-activation hypothesis of ASD.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium tunes the glutamate signaling disturbed in autism: it blocks the NMDA receptor at rest, so altered magnesium handling can shift the excitation-inhibition balance that many ASD genes already push toward over-excitation.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Autism converges on calcium signaling: several of the strongest risk genes encode calcium channels (like CACNA1C) or calcium-handling proteins, so altered calcium flow into neurons is a recurring thread through the disorder's genetics.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Autism reaches into the gut: GI symptoms are far more common in ASD, and through the gut-brain axis the large intestine's microbes and signals can influence behavior, tying digestive health to the condition.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Autism often runs short on ATP: a subset of children show mitochondrial dysfunction that limits the cell's energy currency, and the brain's high energy demand may make developing neurons especially sensitive to this shortfall.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

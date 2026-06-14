@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "APS endangers the lungs with clots: antiphospholipid antibodies drive pulmonary emboli and, in catastrophic APS, widespread small-vessel thrombosis that can flood the lungs and cause respiratory failure."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "APS can clot the adrenal glands: thrombosis of their veins triggers hemorrhagic infarction, and bilateral adrenal failure—presenting as an Addisonian crisis—is a recognized, life-threatening way the syndrome announces itself."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "APS clots starve tissues of oxygen: by blocking arteries and veins—and, in catastrophic APS, the small vessels of many organs at once—the antibodies cause the ischemic infarcts that damage brain, kidney, and limbs."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "APS is sustained by plasma cells: these antibody factories pour out the anti-β2-glycoprotein-I antibodies that drive the clotting, so therapies aimed at B cells and plasma cells seek to shut the autoantibody supply off."
 ---
 
 # Antiphospholipid Syndrome
@@ -289,6 +298,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Clotting needs calcium, the cofactor APS exploits: the coagulation cascade APS tips toward thrombosis depends on calcium to anchor clotting factors to phospholipid membranes, the very surfaces the antiphospholipid antibodies target.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — APS strikes the brain through clots: antiphospholipid antibodies promote arterial thrombosis that causes stroke in the young, plus migraine, seizures and cognitive decline, making the brain one of the syndrome's most consequential targets.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — APS endangers the lungs with clots: antiphospholipid antibodies drive pulmonary emboli and, in catastrophic APS, widespread small-vessel thrombosis that can flood the lungs and cause respiratory failure.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — APS can clot the adrenal glands: thrombosis of their veins triggers hemorrhagic infarction, and bilateral adrenal failure—presenting as an Addisonian crisis—is a recognized, life-threatening way the syndrome announces itself.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — APS clots starve tissues of oxygen: by blocking arteries and veins—and, in catastrophic APS, the small vessels of many organs at once—the antibodies cause the ischemic infarcts that damage brain, kidney, and limbs.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — APS is sustained by plasma cells: these antibody factories pour out the anti-β2-glycoprotein-I antibodies that drive the clotting, so therapies aimed at B cells and plasma cells seek to shut the autoantibody supply off.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
