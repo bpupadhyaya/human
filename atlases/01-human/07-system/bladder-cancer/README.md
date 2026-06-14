@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Bladder tumors recruit regulatory T cells to evade attack: Tregs accumulate in the bladder wall and suppress cytotoxic immunity, blunting both BCG and PD-1 checkpoint therapy and marking a target to make immunotherapy work better."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Bladder cancer's classic carcinogens are nitrogen-bearing aromatic amines: dyes, rubber and industrial chemicals excreted in urine bathe the bladder lining, which is why occupational aromatic-amine exposure is a textbook cause of the disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "BCG immunotherapy for bladder cancer works through NF-kB: the bacterial vaccine instilled in the bladder ignites NF-kB-driven inflammation that recruits immune cells to kill tumor cells, the oldest and still-used cancer immunotherapy."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils flood the bladder during BCG therapy: the instilled vaccine triggers an acute neutrophil-rich inflammation that helps clear superficial tumor cells, an innate-immune burst central to how this old immunotherapy works."
 ---
 
 # Bladder Cancer
@@ -264,6 +273,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Bladder cancer often overexpresses EGFR-family receptors: urothelial tumors signal through EGFR and HER2 to grow, making the ErbB pathway a studied target alongside the FGFR inhibitors already used in this cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — BCG immunotherapy for bladder cancer mobilizes NK cells: instilling live bacteria into the bladder triggers an innate immune assault in which natural killer cells help destroy superficial tumor cells, a decades-old immunotherapy that predates checkpoint drugs.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Bladder tumors recruit regulatory T cells to evade attack: Tregs accumulate in the bladder wall and suppress cytotoxic immunity, blunting both BCG and PD-1 checkpoint therapy and marking a target to make immunotherapy work better.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Bladder cancer's classic carcinogens are nitrogen-bearing aromatic amines: dyes, rubber and industrial chemicals excreted in urine bathe the bladder lining, which is why occupational aromatic-amine exposure is a textbook cause of the disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — BCG immunotherapy for bladder cancer works through NF-kB: the bacterial vaccine instilled in the bladder ignites NF-kB-driven inflammation that recruits immune cells to kill tumor cells, the oldest and still-used cancer immunotherapy.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils flood the bladder during BCG therapy: the instilled vaccine triggers an acute neutrophil-rich inflammation that helps clear superficial tumor cells, an innate-immune burst central to how this old immunotherapy works.
 
 ---
 

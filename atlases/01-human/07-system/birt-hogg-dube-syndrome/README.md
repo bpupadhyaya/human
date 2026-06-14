@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "FLCN normally restrains the AKT-mTOR growth axis: losing it in BHD lets AKT and mTORC1 run high, driving the kidney tumors and skin and lung lesions—why this pathway is the target of rapamycin-class drugs studied in the syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "BHD tumors are pseudo-hypoxic like VHL kidney cancers: losing FLCN deranges mTOR and stabilizes HIF, so the renal tumors behave as if starved of oxygen even when they are not, driving growth and a metabolic shift toward glycolysis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages populate BHD's lung cysts and tumors: in the thin-walled cysts that rupture into pneumothorax and in the kidney tumor stroma, they shape inflammation and tissue remodeling around the FLCN-deficient cells."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "BHD has been linked to colon polyps in some families: beyond the classic skin, lung and kidney triad, reports of colonic polyps and possible colorectal risk mean the large intestine is sometimes watched, though the association remains debated."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -276,6 +285,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — BHD's lung cysts threaten oxygen delivery: FLCN loss creates thin-walled basal lung cysts that rupture as spontaneous pneumothorax, collapsing the lung and cutting off the air exchange that loads oxygen into blood—the syndrome's most dangerous everyday risk.
 - `connects-to` → **[MET](../../03-molecular/met/README.md)** — BHD sits among MET-driven hereditary kidney cancers as a contrast: hereditary papillary RCC is caused by MET activation, while BHD's FLCN loss yields chromophobe and oncocytic tumors, so the gene pinpoints which inherited renal cancer syndrome a patient has.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — FLCN normally restrains the AKT-mTOR growth axis: losing it in BHD lets AKT and mTORC1 run high, driving the kidney tumors and skin and lung lesions—why this pathway is the target of rapamycin-class drugs studied in the syndrome.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — BHD tumors are pseudo-hypoxic like VHL kidney cancers: losing FLCN deranges mTOR and stabilizes HIF, so the renal tumors behave as if starved of oxygen even when they are not, driving growth and a metabolic shift toward glycolysis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages populate BHD's lung cysts and tumors: in the thin-walled cysts that rupture into pneumothorax and in the kidney tumor stroma, they shape inflammation and tissue remodeling around the FLCN-deficient cells.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — BHD has been linked to colon polyps in some families: beyond the classic skin, lung and kidney triad, reports of colonic polyps and possible colorectal risk mean the large intestine is sometimes watched, though the association remains debated.
 
 ---
 
