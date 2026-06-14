@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "PTCL's systemic symptoms run on IL-6: tumor and bystander cells pour out IL-6 and other cytokines that cause the fevers, weight loss, rash, and high antibody levels typical of angioimmunoblastic lymphoma."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Some T-cell lymphomas raise blood calcium dangerously: adult T-cell leukemia/lymphoma from HTLV-1 secretes factors like PTHrP that pull calcium from bone, so hypercalcemia is a hallmark emergency of this PTCL subtype."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "T-cell lymphoma can arise in the gut itself: enteropathy-associated T-cell lymphoma grows in the intestine, often on a background of celiac disease, so unexplained bowel symptoms or perforation in celiac patients raise the alarm."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "PTCL survives on constitutive NF-kB signaling: the malignant T cells keep this survival switch active downstream of T-cell-receptor and cytokine inputs, sustaining proliferation and making the pathway a target in these aggressive lymphomas."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -280,6 +289,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Angioimmunoblastic PTCL builds a forest of new vessels via VEGF: this T-cell lymphoma drives prominent arborizing blood vessels that are a diagnostic hallmark, fed by VEGF from the tumor and its inflammatory backdrop.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — PTCL hides malignant T cells in a crowd of macrophages: especially in AITL, a polymorphous infiltrate of macrophages, eosinophils, and plasma cells can outnumber the cancer cells, making the diagnosis easy to miss.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — PTCL's systemic symptoms run on IL-6: tumor and bystander cells pour out IL-6 and other cytokines that cause the fevers, weight loss, rash, and high antibody levels typical of angioimmunoblastic lymphoma.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Some T-cell lymphomas raise blood calcium dangerously: adult T-cell leukemia/lymphoma from HTLV-1 secretes factors like PTHrP that pull calcium from bone, so hypercalcemia is a hallmark emergency of this PTCL subtype.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — T-cell lymphoma can arise in the gut itself: enteropathy-associated T-cell lymphoma grows in the intestine, often on a background of celiac disease, so unexplained bowel symptoms or perforation in celiac patients raise the alarm.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — PTCL survives on constitutive NF-kB signaling: the malignant T cells keep this survival switch active downstream of T-cell-receptor and cytokine inputs, sustaining proliferation and making the pathway a target in these aggressive lymphomas.
 
 ---
 

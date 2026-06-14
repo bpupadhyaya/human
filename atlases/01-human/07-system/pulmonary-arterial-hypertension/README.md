@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Low oxygen drives pulmonary hypertension through HIF: hypoxia stabilizes HIF-1alpha, which reprograms pulmonary artery cells toward proliferation and constriction—why lung disease and high altitude raise pulmonary pressure."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF drives the artery-thickening of pulmonary hypertension: it pushes pulmonary smooth muscle cells to proliferate and migrate, narrowing the vessels, which is why PDGF-blocking kinase inhibitors like imatinib were tested for the disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Perivascular macrophages inflame the pulmonary hypertension vessel: they cuff the remodeling arteries and pour out cytokines and growth factors that drive the proliferation, adding inflammation to the vasoconstriction and remodeling."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Pulmonary hypertension drags down the kidneys: as the failing right heart backs blood up into the veins, congestion and low forward flow injure the kidneys (cardiorenal syndrome), and worsening renal function marks a poor prognosis."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -266,6 +275,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Pulmonary arterial hypertension can begin with a potassium channel: KCNK3 mutations cause heritable PAH, and closing potassium channels constricts pulmonary artery smooth muscle—the same switch that drives hypoxic pulmonary vasoconstriction.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Pulmonary arterial hypertension involves in-situ platelet thrombosis: platelets clump in the narrowed small pulmonary arteries and release serotonin and thromboxane that further constrict and remodel them, adding clotting to the vascular disease.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Low oxygen drives pulmonary hypertension through HIF: hypoxia stabilizes HIF-1alpha, which reprograms pulmonary artery cells toward proliferation and constriction—why lung disease and high altitude raise pulmonary pressure.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives the artery-thickening of pulmonary hypertension: it pushes pulmonary smooth muscle cells to proliferate and migrate, narrowing the vessels, which is why PDGF-blocking kinase inhibitors like imatinib were tested for the disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Perivascular macrophages inflame the pulmonary hypertension vessel: they cuff the remodeling arteries and pour out cytokines and growth factors that drive the proliferation, adding inflammation to the vasoconstriction and remodeling.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Pulmonary hypertension drags down the kidneys: as the failing right heart backs blood up into the veins, congestion and low forward flow injure the kidneys (cardiorenal syndrome), and worsening renal function marks a poor prognosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
