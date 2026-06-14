@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Panic attacks masquerade as cardiac emergencies: the surge of palpitations, chest pain and breathlessness mimics a heart attack and floods emergency rooms, so panic disorder is a major reason chest pain is evaluated—after truly excluding cardiovascular causes."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "A panic attack is in part an adrenaline storm: surging epinephrine drives the pounding heart, sweating, tremor and chest tightness, which is why panic can mimic a heart attack—and why a catecholamine-secreting pheochromocytoma is on the differential."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Panic disorder is tied to carbon dioxide sensing: inhaling CO2 reliably provokes attacks in patients, supporting a 'suffocation false-alarm' theory in which an oversensitive brainstem misreads rising CO2 as suffocation and fires panic."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Panic's respiratory subtype centers on the lungs: hyperventilation blows off CO2 causing the tingling, lightheadedness and air hunger of an attack, and breathing retraining is a core treatment—linking a psychiatric disorder to respiratory physiology."
 ---
 
 # Panic Disorder
@@ -264,6 +273,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin links arousal to panic: the orexin (hypocretin) system drives wakefulness and the stress response, and heightened orexin signaling is implicated in panic attacks—suggesting the same neurons that stabilize wakefulness also tune the brain's alarm circuitry.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Panic disorder is a misfiring of the nervous system's fear circuitry: a hypersensitive amygdala-brainstem alarm triggers a full fight-or-flight surge without real danger, so the body's threat response—racing heart, breathlessness, terror—erupts as a panic attack.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Panic attacks masquerade as cardiac emergencies: the surge of palpitations, chest pain and breathlessness mimics a heart attack and floods emergency rooms, so panic disorder is a major reason chest pain is evaluated—after truly excluding cardiovascular causes.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — A panic attack is in part an adrenaline storm: surging epinephrine drives the pounding heart, sweating, tremor and chest tightness, which is why panic can mimic a heart attack—and why a catecholamine-secreting pheochromocytoma is on the differential.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Panic disorder is tied to carbon dioxide sensing: inhaling CO2 reliably provokes attacks in patients, supporting a 'suffocation false-alarm' theory in which an oversensitive brainstem misreads rising CO2 as suffocation and fires panic.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Panic's respiratory subtype centers on the lungs: hyperventilation blows off CO2 causing the tingling, lightheadedness and air hunger of an attack, and breathing retraining is a core treatment—linking a psychiatric disorder to respiratory physiology.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

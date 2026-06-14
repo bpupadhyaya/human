@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "PCNSL is a striking exception within the lymphatic system: though a B-cell lymphoma, it arises and stays in the immune-privileged CNS rather than lymph nodes, so staging is typically negative outside the brain and eye—unlike systemic DLBCL."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "PCNSL survives on chronic NF-kB signaling: MYD88 and CD79B mutations lock this pathway on, driving the lymphoma's growth—the rationale for BTK inhibitors like ibrutinib that choke off the B-cell-receptor input to NF-kB."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CAR-T cells are reaching into the brain for PCNSL: CD19-directed cytotoxic T cells engineered to kill B-cell lymphoma are being trialed in relapsed central-nervous-system lymphoma, with responses showing the cells can work inside the CNS."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "PCNSL and Waldenstrom share the MYD88 L265P mutation: both are MYD88-driven B-cell malignancies that respond to BTK inhibition, so a brain lymphoma's mutation links it mechanistically to this marrow-based lymphoplasmacytic cancer."
 ---
 
 # Primary CNS Lymphoma
@@ -225,6 +234,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — PCNSL is a CD20-positive B-cell lymphoma treated through that target: high-dose methotrexate crosses the blood-brain barrier and is combined with the anti-CD20 antibody rituximab, exploiting the same B-cell marker used against systemic lymphomas.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Primary CNS lymphoma is a lymphoma confined to the nervous system: it grows in the brain, spinal cord, eyes and meninges without nodal disease, so it presents with focal deficits and cognitive change—and its CNS sanctuary demands brain-penetrant therapy.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — PCNSL is a striking exception within the lymphatic system: though a B-cell lymphoma, it arises and stays in the immune-privileged CNS rather than lymph nodes, so staging is typically negative outside the brain and eye—unlike systemic DLBCL.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — PCNSL survives on chronic NF-kB signaling: MYD88 and CD79B mutations lock this pathway on, driving the lymphoma's growth—the rationale for BTK inhibitors like ibrutinib that choke off the B-cell-receptor input to NF-kB.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CAR-T cells are reaching into the brain for PCNSL: CD19-directed cytotoxic T cells engineered to kill B-cell lymphoma are being trialed in relapsed central-nervous-system lymphoma, with responses showing the cells can work inside the CNS.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — PCNSL and Waldenstrom share the MYD88 L265P mutation: both are MYD88-driven B-cell malignancies that respond to BTK inhibition, so a brain lymphoma's mutation links it mechanistically to this marrow-based lymphoplasmacytic cancer.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
