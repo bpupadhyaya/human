@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "West Nile virus is defined by its assault on the nervous system: in a minority it crosses into the CNS to cause encephalitis, meningitis and a polio-like acute flaccid paralysis from anterior-horn motor neuron loss, leaving lasting neurological deficits."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells and their antibodies decide West Nile outcomes: a brisk IgM response curbs viremia before the virus invades the brain, and detecting WNV IgM in serum or spinal fluid is the main way it is diagnosed—so weak antibody responses predict severe neuroinvasive disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Immune status governs who gets neuroinvasive West Nile: most infections are mild, but the elderly and immunosuppressed—whose defenses let the virus cross into the brain—account for the rare meningitis, encephalitis, and paralysis that make WNV feared."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "West Nile first multiplies in lymphoid tissue like the spleen: after a mosquito bite the virus replicates in skin and is carried to spleen and lymph nodes, seeding the blood—so this peripheral phase precedes and sets up any later invasion of the nervous system."
 ---
 
 # West Nile Virus
@@ -226,3 +235,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — Type I interferon is the front-line defense against West Nile virus: RIG-I/MAVS sensing of viral RNA triggers interferon that restrains spread, and animals or people with weak interferon responses suffer far more severe neuroinvasive disease.
 - `connects-to` → **[Dengue virus](../../../02-pathogen/01-viruses/dengue-virus/README.md)** — West Nile and dengue are related flaviviruses spread by mosquitoes: they share genome structure and immune-evasion tricks, but West Nile is neuroinvasive (encephalitis) while dengue is hemorrhagic—and cross-reacting antibodies complicate flavivirus serology.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — West Nile virus is defined by its assault on the nervous system: in a minority it crosses into the CNS to cause encephalitis, meningitis and a polio-like acute flaccid paralysis from anterior-horn motor neuron loss, leaving lasting neurological deficits.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells and their antibodies decide West Nile outcomes: a brisk IgM response curbs viremia before the virus invades the brain, and detecting WNV IgM in serum or spinal fluid is the main way it is diagnosed—so weak antibody responses predict severe neuroinvasive disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Immune status governs who gets neuroinvasive West Nile: most infections are mild, but the elderly and immunosuppressed—whose defenses let the virus cross into the brain—account for the rare meningitis, encephalitis, and paralysis that make WNV feared.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — West Nile first multiplies in lymphoid tissue like the spleen: after a mosquito bite the virus replicates in skin and is carried to spleen and lymph nodes, seeding the blood—so this peripheral phase precedes and sets up any later invasion of the nervous system.
