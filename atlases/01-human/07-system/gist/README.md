@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "GIST is rich in tumor-associated macrophages: they populate the tumor and shift toward an anti-tumor state under imatinib, so the drug's benefit comes partly from reprogramming these innate immune cells, not just from blocking KIT signaling."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SDH-deficient GIST behaves as if starved of oxygen: losing the SDH enzyme makes succinate pile up and mimic hypoxia, stabilizing HIF and driving these KIT-wild-type tumors common in young patients—a pseudohypoxia like the one in paragangliomas."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "GIST can arise the length of the gut, including the large intestine: though most start in stomach or small bowel, rectal and colonic GISTs occur, so a submucosal mass anywhere along the digestive tract raises the possibility."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Imatinib's benefit in GIST runs partly through dendritic cells: beyond blocking KIT, the drug reshapes the immune microenvironment so dendritic cells better prime T-cell attack, adding an immune dimension to a targeted therapy."
 ---
 
 # GIST
@@ -266,6 +275,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — A subset of GIST is SDH-deficient rather than KIT-driven: wild-type tumors lacking KIT/PDGFRA mutations often lose SDH function (as in Carney triad), striking young patients and resisting imatinib, so they need different management.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Imatinib fights GIST partly by unleashing NK cells: beyond blocking KIT, the drug boosts natural killer cell activity and IFN-γ release against the tumor, and strong NK responses predict better outcomes—an unexpected immune dimension to a targeted drug.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — GIST is rich in tumor-associated macrophages: they populate the tumor and shift toward an anti-tumor state under imatinib, so the drug's benefit comes partly from reprogramming these innate immune cells, not just from blocking KIT signaling.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SDH-deficient GIST behaves as if starved of oxygen: losing the SDH enzyme makes succinate pile up and mimic hypoxia, stabilizing HIF and driving these KIT-wild-type tumors common in young patients—a pseudohypoxia like the one in paragangliomas.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — GIST can arise the length of the gut, including the large intestine: though most start in stomach or small bowel, rectal and colonic GISTs occur, so a submucosal mass anywhere along the digestive tract raises the possibility.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Imatinib's benefit in GIST runs partly through dendritic cells: beyond blocking KIT, the drug reshapes the immune microenvironment so dendritic cells better prime T-cell attack, adding an immune dimension to a targeted therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

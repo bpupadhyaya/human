@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Giant cell arteritis builds granulomas with TNF: this cytokine helps fuse macrophages into the multinucleated giant cells that define the lesion, part of the Th1/Th17 inflammatory storm attacking the artery wall."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Giant cell arteritis blinds by cutting off oxygen: inflammation narrows the arteries feeding the optic nerve, and the resulting ischemia (arteritic AION) can cause sudden, permanent vision loss—why suspected GCA is a steroid emergency."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Giant cell arteritis can starve the brain: when the inflamed large arteries supplying the head narrow or clot, patients suffer TIAs and strokes, so cranial and vertebral artery involvement makes prompt treatment urgent."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "PDGF drives the artery-closing overgrowth in giant cell arteritis: it pushes smooth muscle cells to migrate and proliferate into the intima, thickening the wall until the lumen narrows—the structural step from inflammation to ischemia."
 ---
 
 # Giant Cell Arteritis
@@ -250,6 +259,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Giant cell arteritis announces itself through red cells: the inflammation drives a sky-high erythrocyte sedimentation rate (ESR) and an anemia of chronic disease, so a markedly elevated ESR in an older patient with headache is a classic trigger to start steroids urgently.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Giant cell arteritis blocks arteries by laying down collagen: after inflammation chews up the elastic lamina, the wall heals with collagen-rich intimal thickening that narrows the lumen, causing the jaw claudication and sudden vision loss that make it an emergency.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Giant cell arteritis builds granulomas with TNF: this cytokine helps fuse macrophages into the multinucleated giant cells that define the lesion, part of the Th1/Th17 inflammatory storm attacking the artery wall.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Giant cell arteritis blinds by cutting off oxygen: inflammation narrows the arteries feeding the optic nerve, and the resulting ischemia (arteritic AION) can cause sudden, permanent vision loss—why suspected GCA is a steroid emergency.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Giant cell arteritis can starve the brain: when the inflamed large arteries supplying the head narrow or clot, patients suffer TIAs and strokes, so cranial and vertebral artery involvement makes prompt treatment urgent.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — PDGF drives the artery-closing overgrowth in giant cell arteritis: it pushes smooth muscle cells to migrate and proliferate into the intima, thickening the wall until the lumen narrows—the structural step from inflammation to ischemia.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
