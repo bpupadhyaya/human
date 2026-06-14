@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Follicular lymphoma is usually widespread at diagnosis, infiltrating the liver: indolent but disseminated, it commonly involves liver, spleen, and marrow by the time it is found—so it is staged as advanced yet often watched rather than treated."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Follicular lymphoma can be hit through the PI3K-mTOR pathway: this survival signaling is active in the lymphoma, so PI3K inhibitors (idelalisib, copanlisib) that feed into mTOR are approved options for relapsed disease."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Follicular lymphoma lives or dies by its microenvironment, especially regulatory T cells: the mix of Tregs and other immune cells around the tumor follicles predicts how indolent or aggressive the lymphoma will be, more than the tumor cells alone."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Rituximab clears follicular lymphoma largely through NK cells: the anti-CD20 antibody coats the B cells and natural killer cells destroy them by antibody-dependent killing, so NK function shapes how well this mainstay therapy works."
 ---
 
 # Follicular Lymphoma
@@ -249,6 +258,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Follicular lymphoma is built on follicular dendritic cells: these stromal cells form the germinal-center meshwork the malignant B cells depend on for survival signals, so the tumor recreates a follicle—its microenvironment shaping when indolent disease turns aggressive.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Follicular lymphoma now yields to T-cell therapies: CD19 CAR-T cells and CD20×CD3 bispecifics (mosunetuzumab) redirect cytotoxic T cells against the B-cell clone, giving durable remissions in this otherwise relapsing, incurable indolent lymphoma.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Follicular lymphoma is usually widespread at diagnosis, infiltrating the liver: indolent but disseminated, it commonly involves liver, spleen, and marrow by the time it is found—so it is staged as advanced yet often watched rather than treated.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Follicular lymphoma can be hit through the PI3K-mTOR pathway: this survival signaling is active in the lymphoma, so PI3K inhibitors (idelalisib, copanlisib) that feed into mTOR are approved options for relapsed disease.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Follicular lymphoma lives or dies by its microenvironment, especially regulatory T cells: the mix of Tregs and other immune cells around the tumor follicles predicts how indolent or aggressive the lymphoma will be, more than the tumor cells alone.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rituximab clears follicular lymphoma largely through NK cells: the anti-CD20 antibody coats the B cells and natural killer cells destroy them by antibody-dependent killing, so NK function shapes how well this mainstay therapy works.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/ovarian-cancer
     relation: connects-to
     note: "Gastric cancer can masquerade as ovarian cancer: signet-ring cells spread to the ovaries as Krukenberg tumors, so bilateral ovarian masses in a woman may actually be metastatic stomach cancer—a crucial diagnostic catch."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Dietary salt is a major driver of gastric cancer: high sodium intake damages the stomach lining and promotes H. pylori colonization and carcinogenesis, which is why salt-heavy diets track with the world's highest stomach cancer rates."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Diffuse gastric cancer is often driven by FGFR2: amplification of this receptor fuels the aggressive signet-ring type, making FGFR inhibitors a targeted option beyond the HER2-directed drugs used in intestinal-type tumors."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Diffuse gastric cancer turns the stomach to leather through fibroblasts: cancer-associated fibroblasts lay down dense stroma in linitis plastica, stiffening the whole stomach wall and helping the scattered signet-ring cells resist therapy."
 ---
 
 # Gastric Cancer
@@ -270,6 +279,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Gastric cancer subsets respond to T-cell immunotherapy: EBV-positive and MSI-high tumors are richly infiltrated by cytotoxic T cells and respond to checkpoint inhibitors, so molecular subtyping now guides who gets immunotherapy.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is gastric cancer's main metastatic target: tumor cells drain via the portal vein to seed the liver, so hepatic metastases mark incurable disease and shift treatment from surgery to systemic chemo-immunotherapy.
 - `connects-to` → **[Ovarian Cancer](../ovarian-cancer/README.md)** — Gastric cancer can masquerade as ovarian cancer: signet-ring cells spread to the ovaries as Krukenberg tumors, so bilateral ovarian masses in a woman may actually be metastatic stomach cancer—a crucial diagnostic catch.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Dietary salt is a major driver of gastric cancer: high sodium intake damages the stomach lining and promotes H. pylori colonization and carcinogenesis, which is why salt-heavy diets track with the world's highest stomach cancer rates.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Diffuse gastric cancer is often driven by FGFR2: amplification of this receptor fuels the aggressive signet-ring type, making FGFR inhibitors a targeted option beyond the HER2-directed drugs used in intestinal-type tumors.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Diffuse gastric cancer turns the stomach to leather through fibroblasts: cancer-associated fibroblasts lay down dense stroma in linitis plastica, stiffening the whole stomach wall and helping the scattered signet-ring cells resist therapy.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
