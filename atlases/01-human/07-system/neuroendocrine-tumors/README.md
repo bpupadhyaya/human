@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Neuroendocrine tumors hide in a cold immune niche shaped by regulatory T cells: low mutation burden and Treg-rich stroma make most NETs poorly responsive to checkpoint immunotherapy, steering treatment toward somatostatin analogs and PRRT instead."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Neuroendocrine tumors secrete hormones the way nerves fire—via calcium: like the normal neuroendocrine cells they arise from, they release hormones by calcium-triggered exocytosis, so this secretory machinery underlies the flushing and diarrhea of functional NETs."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Neuroendocrine tumors are richly vascular and oxygen-sensing: many, especially VHL-related ones, behave as pseudohypoxic and drive dense blood vessels, which is why their vascularity stands out on imaging and antiangiogenic drugs have a role."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages crowd the neuroendocrine tumor stroma: tumor-associated macrophages support its growth and blood supply within the immunosuppressive, Treg-rich niche, part of why these tumors resist checkpoint immunotherapy."
 ---
 
 # Neuroendocrine Tumors
@@ -240,6 +249,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Neuroendocrine tumors spin off fibrosis: serotonin from midgut carcinoids drives dense scarring—right-sided carcinoid heart-valve disease and mesenteric fibrosis that kinks the bowel—a distinctive complication of these slow but secretory tumors.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Carcinoid flushing is driven by mediators like bradykinin: NETs release vasoactive kinins and serotonin that dilate vessels, producing the episodic flushing, wheezing, and diarrhea of carcinoid syndrome when the liver can't clear them.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Neuroendocrine tumors hide in a cold immune niche shaped by regulatory T cells: low mutation burden and Treg-rich stroma make most NETs poorly responsive to checkpoint immunotherapy, steering treatment toward somatostatin analogs and PRRT instead.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Neuroendocrine tumors secrete hormones the way nerves fire—via calcium: like the normal neuroendocrine cells they arise from, they release hormones by calcium-triggered exocytosis, so this secretory machinery underlies the flushing and diarrhea of functional NETs.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Neuroendocrine tumors are richly vascular and oxygen-sensing: many, especially VHL-related ones, behave as pseudohypoxic and drive dense blood vessels, which is why their vascularity stands out on imaging and antiangiogenic drugs have a role.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages crowd the neuroendocrine tumor stroma: tumor-associated macrophages support its growth and blood supply within the immunosuppressive, Treg-rich niche, part of why these tumors resist checkpoint immunotherapy.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "NF1's optic pathway gliomas can disturb growth hormone: tumors near the hypothalamus and pituitary derail the growth axis, causing precocious puberty or growth-hormone problems—why NF1 children need growth and endocrine monitoring."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Neurofibromas are built with macrophages: alongside the mast cells that drive their itch, macrophages make up much of the tumor and secrete factors that help the Schwann-cell tumors grow—a stromal target in this nerve disease."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "NF1 loss unleashes growth through AKT: without neurofibromin's brake on Ras, signaling pours into the PI3K-AKT-mTOR pathway as well as ERK, so AKT-mTOR inhibitors join MEK inhibitors as strategies against the tumors."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "NF1 predisposes to adrenal pheochromocytoma: loss of neurofibromin in adrenal medullary cells drives catecholamine-secreting tumors, so unexplained hypertension in NF1 prompts a hunt for a pheochromocytoma."
 ---
 
 # Neurofibromatosis Type 1
@@ -248,6 +257,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — NF1 loss feeds the mTOR growth engine: without neurofibromin's brake on RAS, the PI3K-AKT-mTOR arm runs high alongside the MAPK pathway, so mTOR inhibitors like sirolimus are tested to shrink plexiform neurofibromas.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — NF1 weakens bone through its osteoblasts: neurofibromin loss disrupts these bone-building cells, causing scoliosis, sphenoid-wing dysplasia, and the hard-to-heal tibial pseudarthrosis that are skeletal hallmarks of the syndrome.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — NF1's optic pathway gliomas can disturb growth hormone: tumors near the hypothalamus and pituitary derail the growth axis, causing precocious puberty or growth-hormone problems—why NF1 children need growth and endocrine monitoring.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Neurofibromas are built with macrophages: alongside the mast cells that drive their itch, macrophages make up much of the tumor and secrete factors that help the Schwann-cell tumors grow—a stromal target in this nerve disease.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — NF1 loss unleashes growth through AKT: without neurofibromin's brake on Ras, signaling pours into the PI3K-AKT-mTOR pathway as well as ERK, so AKT-mTOR inhibitors join MEK inhibitors as strategies against the tumors.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — NF1 predisposes to adrenal pheochromocytoma: loss of neurofibromin in adrenal medullary cells drives catecholamine-secreting tumors, so unexplained hypertension in NF1 prompts a hunt for a pheochromocytoma.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
