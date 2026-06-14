@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells inflame the IBD gut: their numbers rise in the diseased mucosa, where their histamine and mediators drive the pain, diarrhea and barrier breakdown, linking the gut's immune-nerve crosstalk to symptoms."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "IBD inflames the eyes: uveitis and episcleritis are extraintestinal manifestations that can flare with bowel activity, so red, painful eyes in an IBD patient signal active systemic disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Crohn's disease scars the bowel into strictures: chronic transmural inflammation drives fibrosis of the gut wall, narrowing it until food can't pass—the fibrostenotic complication that often needs surgery."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Severe colitis bleeds away potassium: heavy diarrhea flushes potassium from the body, and the resulting hypokalemia can worsen gut paralysis and precipitate toxic megacolon in acute attacks."
 ---
 
 # Inflammatory Bowel Disease
@@ -283,6 +292,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IBD is a leading cause of iron-deficiency anemia: chronic gut bleeding and inflammation that blocks iron absorption leave many patients anemic, so iron status is monitored and often repleted intravenously when the gut can't take it up.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — IBD spills out onto the skin: erythema nodosum and pyoderma gangrenosum are extraintestinal manifestations that can flare with bowel activity, so skin lesions are a window onto the systemic reach of the gut disease.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the IBD gut: their numbers rise in the diseased mucosa, where their histamine and mediators drive the pain, diarrhea and barrier breakdown, linking the gut's immune-nerve crosstalk to symptoms.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — IBD inflames the eyes: uveitis and episcleritis are extraintestinal manifestations that can flare with bowel activity, so red, painful eyes in an IBD patient signal active systemic disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Crohn's disease scars the bowel into strictures: chronic transmural inflammation drives fibrosis of the gut wall, narrowing it until food can't pass—the fibrostenotic complication that often needs surgery.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Severe colitis bleeds away potassium: heavy diarrhea flushes potassium from the body, and the resulting hypokalemia can worsen gut paralysis and precipitate toxic megacolon in acute attacks.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
