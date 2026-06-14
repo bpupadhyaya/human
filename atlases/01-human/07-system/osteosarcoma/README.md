@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Osteosarcoma grows from the marrow-filled metaphysis outward: it can seed 'skip metastases' elsewhere in the same bone's marrow cavity, a pattern whole-bone MRI looks for because it changes the surgical margin needed for cure."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Osteosarcoma builds disorganized mineralized bone from calcium and phosphorus: the malignant osteoblasts lay down osteoid that calcifies into the 'sunburst' matrix seen on X-ray, and the high bone turnover spills alkaline phosphatase into the blood."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Osteosarcoma is a target for NK-based immunotherapy: because chemotherapy plateaued decades ago, harnessing natural killer cells—and the macrophage-activating drug mifamurtide—is explored to attack the tumor and its lung metastases."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Osteosarcoma leans on the epigenetic enzyme EZH2: this chromatin modifier is overexpressed and silences genes that would restrain growth and promote differentiation, so EZH2 inhibitors are studied against this genomically chaotic cancer."
 ---
 
 # Osteosarcoma
@@ -254,6 +263,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — Osteosarcoma can express HER2: a fraction of tumors show HER2 on their surface, which correlates with worse outcome and has prompted trials of HER2-directed therapy and CAR-T cells in this hard-to-treat bone cancer.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Osteosarcoma immunotherapy works through macrophages: mifamurtide, added to chemotherapy, activates macrophages to attack residual tumor and improves survival, while tumor-associated macrophages in the lung niche influence whether metastases take hold.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Osteosarcoma grows from the marrow-filled metaphysis outward: it can seed 'skip metastases' elsewhere in the same bone's marrow cavity, a pattern whole-bone MRI looks for because it changes the surgical margin needed for cure.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Osteosarcoma builds disorganized mineralized bone from calcium and phosphorus: the malignant osteoblasts lay down osteoid that calcifies into the 'sunburst' matrix seen on X-ray, and the high bone turnover spills alkaline phosphatase into the blood.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Osteosarcoma is a target for NK-based immunotherapy: because chemotherapy plateaued decades ago, harnessing natural killer cells—and the macrophage-activating drug mifamurtide—is explored to attack the tumor and its lung metastases.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Osteosarcoma leans on the epigenetic enzyme EZH2: this chromatin modifier is overexpressed and silences genes that would restrain growth and promote differentiation, so EZH2 inhibitors are studied against this genomically chaotic cancer.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

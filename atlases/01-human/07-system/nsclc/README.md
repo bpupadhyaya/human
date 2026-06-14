@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/03-molecular/ret
     relation: connects-to
     note: "A subset of NSCLC is driven by RET fusions: these rearrangements switch on RET kinase, and selective inhibitors like selpercatinib produce strong responses, so guidelines include RET in the molecular panel run on every lung adenocarcinoma."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "Squamous lung cancers often hijack NRF2: KEAP1/NRF2 mutations switch on a permanent antioxidant program that shields the tumor from oxidative stress and chemo/radiation, marking an aggressive, treatment-resistant subset of NSCLC."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "NSCLC evades immunity with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, blunting the PD-1 checkpoint therapy that has transformed lung cancer treatment—so depleting them is a goal."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "NSCLC is shaped by cancer-associated fibroblasts: they build a stiff, desmoplastic stroma that secretes growth factors, promotes invasion, and shields tumor cells from drugs, making the fibroblast-rich niche a driver of resistance."
 ---
 
 # NSCLC
@@ -232,6 +241,9 @@ cross_links:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver metastases worsen lung-cancer outlook: NSCLC commonly spreads to the liver, which carries a poorer prognosis and historically blunts the benefit of immunotherapy, so liver involvement shapes both staging and treatment expectations.
 - `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — NSCLC immunotherapy can pair two checkpoints: adding anti-CTLA-4 (ipilimumab) to anti-PD-1 therapy gives durable responses in some patients, an option especially when chemotherapy is undesirable—broadening immunotherapy beyond PD-1 blockade alone.
 - `connects-to` → **[RET](../../03-molecular/ret/README.md)** — A subset of NSCLC is driven by RET fusions: these rearrangements switch on RET kinase, and selective inhibitors like selpercatinib produce strong responses, so guidelines include RET in the molecular panel run on every lung adenocarcinoma.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — Squamous lung cancers often hijack NRF2: KEAP1/NRF2 mutations switch on a permanent antioxidant program that shields the tumor from oxidative stress and chemo/radiation, marking an aggressive, treatment-resistant subset of NSCLC.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — NSCLC evades immunity with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, blunting the PD-1 checkpoint therapy that has transformed lung cancer treatment—so depleting them is a goal.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — NSCLC is shaped by cancer-associated fibroblasts: they build a stiff, desmoplastic stroma that secretes growth factors, promotes invasion, and shields tumor cells from drugs, making the fibroblast-rich niche a driver of resistance.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
