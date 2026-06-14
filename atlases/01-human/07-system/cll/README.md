@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-thrombocytopenia
     relation: connects-to
     note: "CLL frequently causes immune thrombocytopenia: the disordered clone produces antiplatelet autoantibodies that destroy platelets, so unexplained low platelets in CLL may be autoimmune rather than marrow failure—a distinction that changes treatment."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "CLL's targeted drugs strain the heart: BTK inhibitors like ibrutinib commonly cause atrial fibrillation and hypertension, so cardiac monitoring shapes drug choice—a reminder that even well-tolerated targeted therapy carries organ-specific risk."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "CLL is as much an immune-failure disease as a cancer: the malignant B cells expand regulatory T cells and disarm normal immunity, so infections—not the leukemia itself—are a leading cause of death, and vaccines respond poorly."
+  - target: 01-human/07-system/hodgkin-lymphoma
+    relation: connects-to
+    note: "CLL can transform into aggressive lymphoma (Richter), sometimes of Hodgkin type: a sudden change with rapid nodal growth and B-symptoms signals transformation to Hodgkin or diffuse large B-cell lymphoma, a feared and hard-to-treat turn."
 ---
 
 # CLL
@@ -224,6 +233,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CLL commonly turns the immune system against red cells: autoimmune hemolytic anemia, driven by the dysregulated CLL clone, destroys erythrocytes—so a positive Coombs test and brisk hemolysis are characteristic autoimmune complications of the leukemia.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 blockade is studied in CLL, especially Richter transformation: the leukemic microenvironment exhausts T cells via PD-1, so checkpoint inhibition aims to restore anti-tumor immunity where CLL becomes an aggressive large-cell lymphoma.
 - `connects-to` → **[Immune Thrombocytopenia](../immune-thrombocytopenia/README.md)** — CLL frequently causes immune thrombocytopenia: the disordered clone produces antiplatelet autoantibodies that destroy platelets, so unexplained low platelets in CLL may be autoimmune rather than marrow failure—a distinction that changes treatment.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — CLL's targeted drugs strain the heart: BTK inhibitors like ibrutinib commonly cause atrial fibrillation and hypertension, so cardiac monitoring shapes drug choice—a reminder that even well-tolerated targeted therapy carries organ-specific risk.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — CLL is as much an immune-failure disease as a cancer: the malignant B cells expand regulatory T cells and disarm normal immunity, so infections—not the leukemia itself—are a leading cause of death, and vaccines respond poorly.
+- `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — CLL can transform into aggressive lymphoma (Richter), sometimes of Hodgkin type: a sudden change with rapid nodal growth and B-symptoms signals transformation to Hodgkin or diffuse large B-cell lymphoma, a feared and hard-to-treat turn.
 
 ---
 

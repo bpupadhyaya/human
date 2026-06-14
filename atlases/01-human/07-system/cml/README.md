@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/essential-thrombocythemia
     relation: connects-to
     note: "CML and essential thrombocythemia are both myeloproliferative neoplasms but driven by different lesions: CML by BCR-ABL, ET usually by JAK2/CALR/MPL, so the Philadelphia chromosome distinguishes CML from the BCR-ABL-negative MPNs in the differential."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "CML pioneered treatment-free remission through the immune system: after deep response to TKIs, some patients stop the drug and stay in remission, because immune surveillance appears to hold residual leukemic stem cells in check."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T and NK cells help control CML: immune effectors recognize leukemia-associated antigens, contributing to deep responses and the durability of treatment-free remission—so immunity complements the TKIs that block BCR-ABL."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ionizing radiation can cause CML: survivors of the atomic bombs had sharply higher CML rates, evidence that X-ray and gamma photons damaging blood stem cells can create the BCR-ABL translocation that drives the disease."
 ---
 
 # Chronic Myeloid Leukemia
@@ -224,6 +233,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CML disturbs red-cell production amid the myeloid overgrowth: marrow packed with granulocyte precursors crowds erythropoiesis, so anemia is common at diagnosis even as white cells soar—part of the imbalance the BCR-ABL clone imposes on blood formation.
 - `connects-to` → **[Gout](../gout/README.md)** — CML can trigger gout through high cell turnover: the massive proliferation and breakdown of leukemic cells floods the blood with uric acid, which crystallizes in joints, so hyperuricemia and gout—or urate kidney stones—accompany the disease and its treatment.
 - `connects-to` → **[Essential Thrombocythemia](../essential-thrombocythemia/README.md)** — CML and essential thrombocythemia are both myeloproliferative neoplasms but driven by different lesions: CML by BCR-ABL, ET usually by JAK2/CALR/MPL, so the Philadelphia chromosome distinguishes CML from the BCR-ABL-negative MPNs in the differential.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — CML pioneered treatment-free remission through the immune system: after deep response to TKIs, some patients stop the drug and stay in remission, because immune surveillance appears to hold residual leukemic stem cells in check.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T and NK cells help control CML: immune effectors recognize leukemia-associated antigens, contributing to deep responses and the durability of treatment-free remission—so immunity complements the TKIs that block BCR-ABL.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation can cause CML: survivors of the atomic bombs had sharply higher CML rates, evidence that X-ray and gamma photons damaging blood stem cells can create the BCR-ABL translocation that drives the disease.
 
 ---
 
