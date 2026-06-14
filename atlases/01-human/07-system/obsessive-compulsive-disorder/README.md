@@ -98,6 +98,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "OCD shows altered cortico-striatal-limbic circuitry including the hippocampus: imaging reveals overactive orbitofrontal-striatal loops with hippocampal and memory-circuit changes, so OCD maps to specific brain-circuit dysfunction that medication and CBT recalibrate."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF links OCD to faulty brain wiring: this neuroplasticity factor shapes the cortico-striatal circuits that misfire in OCD, and BDNF gene variants are among its genetic risk factors—helping explain why SSRIs, which raise BDNF, slowly remodel the disorder."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "OCD and ADHD frequently co-occur yet pull in opposite directions: both involve frontostriatal dysfunction, but OCD is over-controlled and ADHD impulsive, so stimulants for ADHD can sometimes worsen obsessions—complicating treatment when the two coexist."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "Huntington's disease shows OCD's basal-ganglia roots: striatal degeneration produces perseverative, obsessive, and compulsive behaviors, echoing the cortico-striatal-thalamic loop that misfires in OCD—evidence this circuit can generate repetitive thought and action."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -249,6 +258,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — OCD involves a dysregulated stress axis: HPA-axis and cortisol abnormalities accompany the disorder, and stress worsens obsessions and compulsions—so the stress system interacts with the cortico-striatal circuits that drive the repetitive, intrusive symptoms.
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — OCD sits within the anxiety-related spectrum alongside social anxiety: both involve excessive fear-driven avoidance and respond to SSRIs and exposure therapy, though OCD's hallmark is intrusive obsessions and ritualized compulsions rather than social fear.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — OCD shows altered cortico-striatal-limbic circuitry including the hippocampus: imaging reveals overactive orbitofrontal-striatal loops with hippocampal and memory-circuit changes, so OCD maps to specific brain-circuit dysfunction that medication and CBT recalibrate.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF links OCD to faulty brain wiring: this neuroplasticity factor shapes the cortico-striatal circuits that misfire in OCD, and BDNF gene variants are among its genetic risk factors—helping explain why SSRIs, which raise BDNF, slowly remodel the disorder.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — OCD and ADHD frequently co-occur yet pull in opposite directions: both involve frontostriatal dysfunction, but OCD is over-controlled and ADHD impulsive, so stimulants for ADHD can sometimes worsen obsessions—complicating treatment when the two coexist.
+- `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — Huntington's disease shows OCD's basal-ganglia roots: striatal degeneration produces perseverative, obsessive, and compulsive behaviors, echoing the cortico-striatal-thalamic loop that misfires in OCD—evidence this circuit can generate repetitive thought and action.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
