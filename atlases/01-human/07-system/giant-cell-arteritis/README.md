@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "Giant cell arteritis is an autoimmune large-vessel vasculitis: dendritic cells and IL-6-driven Th17/Th1 responses inflame the artery wall with granulomas and giant cells, so it overlaps with other autoimmunity and responds to IL-6 blockade and steroids."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Giant cell arteritis overlaps polymyalgia rheumatica: up to half of GCA patients have the proximal shoulder- and hip-girdle aching of PMR, and jaw claudication reflects muscle ischemia—so a musculoskeletal syndrome and a blinding vasculitis are two faces of one disease."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts cause the vessel-narrowing of giant cell arteritis: activated by inflammation, intimal myofibroblasts proliferate and thicken the artery wall, so the lumen occludes and downstream tissue (optic nerve, brain) is starved of blood—GCA's ischemic basis."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Giant cell arteritis reflects failed immune regulation: deficient regulatory T cells let Th1 and Th17 cells attack the arterial wall, so the imbalance between effector and regulatory T cells underlies the granulomatous inflammation that defines the disease."
 ---
 
 # Giant Cell Arteritis
@@ -226,6 +235,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Giant cell arteritis is a glucocorticoid emergency: high-dose cortisol-mimicking steroids must start immediately on suspicion to prevent irreversible blindness from ischemic optic neuropathy—treatment precedes biopsy because delay risks sudden, permanent vision loss.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Giant cell arteritis threatens the nervous system through vascular ischemia: inflamed cranial arteries cause severe headache, jaw claudication and, most feared, sudden blindness from anterior ischemic optic neuropathy, plus a raised risk of stroke.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Giant cell arteritis is an autoimmune large-vessel vasculitis: dendritic cells and IL-6-driven Th17/Th1 responses inflame the artery wall with granulomas and giant cells, so it overlaps with other autoimmunity and responds to IL-6 blockade and steroids.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Giant cell arteritis overlaps polymyalgia rheumatica: up to half of GCA patients have the proximal shoulder- and hip-girdle aching of PMR, and jaw claudication reflects muscle ischemia—so a musculoskeletal syndrome and a blinding vasculitis are two faces of one disease.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts cause the vessel-narrowing of giant cell arteritis: activated by inflammation, intimal myofibroblasts proliferate and thicken the artery wall, so the lumen occludes and downstream tissue (optic nerve, brain) is starved of blood—GCA's ischemic basis.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Giant cell arteritis reflects failed immune regulation: deficient regulatory T cells let Th1 and Th17 cells attack the arterial wall, so the imbalance between effector and regulatory T cells underlies the granulomatous inflammation that defines the disease.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "GIST often bleeds into the gut: these submucosal tumors ulcerate and ooze, so chronic blood loss depletes red cells and iron, making anemia and GI bleeding—rather than the mass itself—a common way GIST first comes to attention."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "GIST and mast cells share a KIT addiction: both depend on the KIT receptor tyrosine kinase, so the same imatinib that blocks KIT in GIST also treats KIT-driven systemic mastocytosis—a striking molecular cousinship across two diseases."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "GIST's response to imatinib is partly immune: beyond blocking KIT, the drug unleashes cytotoxic T and NK cells against the tumor, so combining KIT inhibition with immunotherapy is an active strategy in this kinase-driven sarcoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "GIST largely resists radiation: unlike many sarcomas it responds poorly to photon radiotherapy, so radiation is reserved for rare palliation while surgery and KIT-targeted drugs carry treatment—a tumor defined by drugs, not the beam."
 ---
 
 # GIST
@@ -242,6 +251,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Carney Complex](../carney-complex/README.md)** — GIST is part of the Carney triad: a subset of GISTs are SDH-deficient (succinate dehydrogenase loss) and occur with paraganglioma and pulmonary chondroma in young patients, a wild-type GIST distinct from the common KIT/PDGFRA-mutant tumors.
 - `connects-to` → **[Rhabdomyosarcoma](../rhabdomyosarcoma/README.md)** — GIST sits in the soft-tissue sarcoma differential with tumors like rhabdomyosarcoma: GIST arises from interstitial cells of Cajal and is defined by KIT/PDGFRA mutation, so immunostaining and molecular testing separate it from other mesenchymal malignancies.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — GIST often bleeds into the gut: these submucosal tumors ulcerate and ooze, so chronic blood loss depletes red cells and iron, making anemia and GI bleeding—rather than the mass itself—a common way GIST first comes to attention.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — GIST and mast cells share a KIT addiction: both depend on the KIT receptor tyrosine kinase, so the same imatinib that blocks KIT in GIST also treats KIT-driven systemic mastocytosis—a striking molecular cousinship across two diseases.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — GIST's response to imatinib is partly immune: beyond blocking KIT, the drug unleashes cytotoxic T and NK cells against the tumor, so combining KIT inhibition with immunotherapy is an active strategy in this kinase-driven sarcoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — GIST largely resists radiation: unlike many sarcomas it responds poorly to photon radiotherapy, so radiation is reserved for rare palliation while surgery and KIT-targeted drugs carry treatment—a tumor defined by drugs, not the beam.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
