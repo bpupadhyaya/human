@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Giant cell arteritis reflects failed immune regulation: deficient regulatory T cells let Th1 and Th17 cells attack the arterial wall, so the imbalance between effector and regulatory T cells underlies the granulomatous inflammation that defines the disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Giant cell arteritis announces itself through red cells: the inflammation drives a sky-high erythrocyte sedimentation rate (ESR) and an anemia of chronic disease, so a markedly elevated ESR in an older patient with headache is a classic trigger to start steroids urgently."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Giant cell arteritis blocks arteries by laying down collagen: after inflammation chews up the elastic lamina, the wall heals with collagen-rich intimal thickening that narrows the lumen, causing the jaw claudication and sudden vision loss that make it an emergency."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Giant cell arteritis builds granulomas with TNF: this cytokine helps fuse macrophages into the multinucleated giant cells that define the lesion, part of the Th1/Th17 inflammatory storm attacking the artery wall."
 ---
 
 # Giant Cell Arteritis
@@ -238,6 +247,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Giant cell arteritis overlaps polymyalgia rheumatica: up to half of GCA patients have the proximal shoulder- and hip-girdle aching of PMR, and jaw claudication reflects muscle ischemia—so a musculoskeletal syndrome and a blinding vasculitis are two faces of one disease.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts cause the vessel-narrowing of giant cell arteritis: activated by inflammation, intimal myofibroblasts proliferate and thicken the artery wall, so the lumen occludes and downstream tissue (optic nerve, brain) is starved of blood—GCA's ischemic basis.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Giant cell arteritis reflects failed immune regulation: deficient regulatory T cells let Th1 and Th17 cells attack the arterial wall, so the imbalance between effector and regulatory T cells underlies the granulomatous inflammation that defines the disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Giant cell arteritis announces itself through red cells: the inflammation drives a sky-high erythrocyte sedimentation rate (ESR) and an anemia of chronic disease, so a markedly elevated ESR in an older patient with headache is a classic trigger to start steroids urgently.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Giant cell arteritis blocks arteries by laying down collagen: after inflammation chews up the elastic lamina, the wall heals with collagen-rich intimal thickening that narrows the lumen, causing the jaw claudication and sudden vision loss that make it an emergency.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Giant cell arteritis builds granulomas with TNF: this cytokine helps fuse macrophages into the multinucleated giant cells that define the lesion, part of the Th1/Th17 inflammatory storm attacking the artery wall.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

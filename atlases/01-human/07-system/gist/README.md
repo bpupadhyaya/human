@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "GIST largely resists radiation: unlike many sarcomas it responds poorly to photon radiotherapy, so radiation is reserved for rare palliation while surgery and KIT-targeted drugs carry treatment—a tumor defined by drugs, not the beam."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "A subset of GIST is SDH-deficient rather than KIT-driven: wild-type tumors lacking KIT/PDGFRA mutations often lose SDH function (as in Carney triad), striking young patients and resisting imatinib, so they need different management."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Imatinib fights GIST partly by unleashing NK cells: beyond blocking KIT, the drug boosts natural killer cell activity and IFN-γ release against the tumor, and strong NK responses predict better outcomes—an unexpected immune dimension to a targeted drug."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "GIST is rich in tumor-associated macrophages: they populate the tumor and shift toward an anti-tumor state under imatinib, so the drug's benefit comes partly from reprogramming these innate immune cells, not just from blocking KIT signaling."
 ---
 
 # GIST
@@ -254,6 +263,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — GIST and mast cells share a KIT addiction: both depend on the KIT receptor tyrosine kinase, so the same imatinib that blocks KIT in GIST also treats KIT-driven systemic mastocytosis—a striking molecular cousinship across two diseases.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — GIST's response to imatinib is partly immune: beyond blocking KIT, the drug unleashes cytotoxic T and NK cells against the tumor, so combining KIT inhibition with immunotherapy is an active strategy in this kinase-driven sarcoma.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — GIST largely resists radiation: unlike many sarcomas it responds poorly to photon radiotherapy, so radiation is reserved for rare palliation while surgery and KIT-targeted drugs carry treatment—a tumor defined by drugs, not the beam.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — A subset of GIST is SDH-deficient rather than KIT-driven: wild-type tumors lacking KIT/PDGFRA mutations often lose SDH function (as in Carney triad), striking young patients and resisting imatinib, so they need different management.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Imatinib fights GIST partly by unleashing NK cells: beyond blocking KIT, the drug boosts natural killer cell activity and IFN-γ release against the tumor, and strong NK responses predict better outcomes—an unexpected immune dimension to a targeted drug.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — GIST is rich in tumor-associated macrophages: they populate the tumor and shift toward an anti-tumor state under imatinib, so the drug's benefit comes partly from reprogramming these innate immune cells, not just from blocking KIT signaling.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
