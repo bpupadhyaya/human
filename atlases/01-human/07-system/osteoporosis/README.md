@@ -109,6 +109,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Failing kidneys weaken bone—renal osteodystrophy: CKD disturbs phosphate, vitamin D and PTH, deranging bone turnover into a complex osteoporosis-plus-osteomalacia that standard bone drugs can worsen, so diagnosis must come first."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Bone formation runs on Wnt signaling, the lever osteoporosis drugs pull: Wnt/beta-catenin tells osteoblasts to build bone, and because sclerostin blocks it, antibodies against sclerostin (romosozumab) unleash Wnt to grow new bone."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine supplies the calcium that bone needs: it absorbs dietary calcium under vitamin D's control, so malabsorption from celiac disease or bypass surgery starves bone of calcium and accelerates osteoporosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Gut-made serotonin puts a brake on bone building: serotonin from the intestine circulates and tells osteoblasts to slow down, an unexpected gut-bone axis that helps explain why some serotonin-active drugs affect bone density."
 ---
 
 # Osteoporosis
@@ -247,6 +256,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Bone loss in aging tips marrow toward fat: the mesenchymal stem cells that should become bone-building osteoblasts instead become adipocytes, so marrow fills with fat as bone thins—linking the adipocyte-osteoblast balance to osteoporosis.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Multiple myeloma masquerades as severe osteoporosis: malignant plasma cells activate osteoclasts (via RANKL) to carve lytic lesions and cause fractures, so unexplained bone loss with anemia or high calcium prompts a myeloma workup.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Failing kidneys weaken bone—renal osteodystrophy: CKD disturbs phosphate, vitamin D and PTH, deranging bone turnover into a complex osteoporosis-plus-osteomalacia that standard bone drugs can worsen, so diagnosis must come first.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Bone formation runs on Wnt signaling, the lever osteoporosis drugs pull: Wnt/beta-catenin tells osteoblasts to build bone, and because sclerostin blocks it, antibodies against sclerostin (romosozumab) unleash Wnt to grow new bone.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine supplies the calcium that bone needs: it absorbs dietary calcium under vitamin D's control, so malabsorption from celiac disease or bypass surgery starves bone of calcium and accelerates osteoporosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut-made serotonin puts a brake on bone building: serotonin from the intestine circulates and tells osteoblasts to slow down, an unexpected gut-bone axis that helps explain why some serotonin-active drugs affect bone density.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

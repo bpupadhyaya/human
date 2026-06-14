@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/07-system/type-2-diabetes
     relation: connects-to
     note: "Chronic itch drives prurigo nodularis, and diabetes is a common systemic trigger: diabetic neuropathy and metabolic skin changes cause itch that, when scratched, builds nodules—so screening for diabetes joins thyroid, kidney and liver in the PN workup."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Prurigo nodularis is not purely a Th2 disease: alongside the itch cytokines, a Th17 component with IL-17 adds to the skin inflammation, broadening the immune picture and the rationale for targeting multiple cytokine pathways."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Weak regulatory T-cell control lets prurigo nodularis smolder: reduced Treg restraint allows the itch-driving inflammation to persist, so the failure to switch off the immune and scratch response helps the nodules entrench."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Prurigo nodularis nodules are built of collagen: relentless scratching drives fibroblasts to pile up collagen, thickening the dermis into the firm, raised lumps that define the disease and outlast the original itch trigger."
 ---
 
 # Prurigo Nodularis
@@ -214,6 +223,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Prurigo nodularis itch runs through the opioid system: an imbalance of mu (itch-promoting) versus kappa opioid signaling drives chronic itch, so the kappa-agonist difelikefalin and opioid-modulating drugs are used to break the itch-scratch cycle.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Chronic itch like prurigo nodularis can signal the thyroid: thyroid dysfunction causes generalized pruritus, so evaluating PN includes checking the thyroid (and kidney, liver) for a systemic cause behind the relentless itching.
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic itch drives prurigo nodularis, and diabetes is a common systemic trigger: diabetic neuropathy and metabolic skin changes cause itch that, when scratched, builds nodules—so screening for diabetes joins thyroid, kidney and liver in the PN workup.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Prurigo nodularis is not purely a Th2 disease: alongside the itch cytokines, a Th17 component with IL-17 adds to the skin inflammation, broadening the immune picture and the rationale for targeting multiple cytokine pathways.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Weak regulatory T-cell control lets prurigo nodularis smolder: reduced Treg restraint allows the itch-driving inflammation to persist, so the failure to switch off the immune and scratch response helps the nodules entrench.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Prurigo nodularis nodules are built of collagen: relentless scratching drives fibroblasts to pile up collagen, thickening the dermis into the firm, raised lumps that define the disease and outlast the original itch trigger.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
