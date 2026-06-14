@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Medullary thyroid carcinoma is a calcitonin-secreting neuroendocrine tumor: arising from thyroid C cells, it pours out calcitonin that serves as a sensitive tumor marker for diagnosis and monitoring—linking the NET family to a thyroid cancer."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Neuroendocrine tumors spin off fibrosis: serotonin from midgut carcinoids drives dense scarring—right-sided carcinoid heart-valve disease and mesenteric fibrosis that kinks the bowel—a distinctive complication of these slow but secretory tumors."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Carcinoid flushing is driven by mediators like bradykinin: NETs release vasoactive kinins and serotonin that dilate vessels, producing the episodic flushing, wheezing, and diarrhea of carcinoid syndrome when the liver can't clear them."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Neuroendocrine tumors hide in a cold immune niche shaped by regulatory T cells: low mutation burden and Treg-rich stroma make most NETs poorly responsive to checkpoint immunotherapy, steering treatment toward somatostatin analogs and PRRT instead."
 ---
 
 # Neuroendocrine Tumors
@@ -228,6 +237,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — Pancreatic neuroendocrine tumors are shaped by ATRX: loss of ATRX (or DAXX) switches on alternative lengthening of telomeres, marking tumors with distinct biology and a worse prognosis—part of why molecular profiling now guides NET management.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — The thymus is an aggressive site for neuroendocrine tumors: thymic carcinoids, often linked to MEN1 and seen in men who smoke, behave more aggressively than other carcinoids, so chest imaging is part of evaluating NET-prone patients.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Medullary thyroid carcinoma is a calcitonin-secreting neuroendocrine tumor: arising from thyroid C cells, it pours out calcitonin that serves as a sensitive tumor marker for diagnosis and monitoring—linking the NET family to a thyroid cancer.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Neuroendocrine tumors spin off fibrosis: serotonin from midgut carcinoids drives dense scarring—right-sided carcinoid heart-valve disease and mesenteric fibrosis that kinks the bowel—a distinctive complication of these slow but secretory tumors.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Carcinoid flushing is driven by mediators like bradykinin: NETs release vasoactive kinins and serotonin that dilate vessels, producing the episodic flushing, wheezing, and diarrhea of carcinoid syndrome when the liver can't clear them.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Neuroendocrine tumors hide in a cold immune niche shaped by regulatory T cells: low mutation burden and Treg-rich stroma make most NETs poorly responsive to checkpoint immunotherapy, steering treatment toward somatostatin analogs and PRRT instead.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
