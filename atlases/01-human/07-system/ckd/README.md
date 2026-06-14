@@ -117,6 +117,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "CKD unleashes bone-dissolving osteoclasts: phosphate retention and secondary hyperparathyroidism overstimulate osteoclasts, the high-turnover renal osteodystrophy that weakens bone and spills calcium and phosphate into vessels."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "CKD turns the blood acidic: failing kidneys cannot excrete the body's daily acid load or regenerate bicarbonate, so hydrogen ions build up into a metabolic acidosis that wastes muscle and bone and is treated with bicarbonate."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "CKD poisons the brain: retained uremic toxins cause the confusion, fatigue, and—in advanced failure—the asterixis and seizures of uremic encephalopathy, symptoms that dialysis is meant to clear."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "CKD wrecks the endothelium: uremic toxins and mineral imbalance injure the vessel-lining cells and calcify artery walls, driving the accelerated atherosclerosis that makes heart disease, not kidney failure, the usual cause of death."
 ---
 
 # Chronic Kidney Disease
@@ -226,6 +235,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — CKD and the heart fail together in cardiorenal syndrome: fluid overload, hypertension, anemia and mineral disturbance strain the heart, while heart failure starves the kidneys of flow, so most CKD patients die of cardiovascular causes.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Aldosterone drives the scarring that worsens CKD: beyond raising blood pressure, it promotes fibrosis and inflammation in the kidney, which is why mineralocorticoid blockers like finerenone slow progression on top of ACE inhibitors.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — CKD unleashes bone-dissolving osteoclasts: phosphate retention and secondary hyperparathyroidism overstimulate osteoclasts, the high-turnover renal osteodystrophy that weakens bone and spills calcium and phosphate into vessels.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CKD turns the blood acidic: failing kidneys cannot excrete the body's daily acid load or regenerate bicarbonate, so hydrogen ions build up into a metabolic acidosis that wastes muscle and bone and is treated with bicarbonate.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — CKD poisons the brain: retained uremic toxins cause the confusion, fatigue, and—in advanced failure—the asterixis and seizures of uremic encephalopathy, symptoms that dialysis is meant to clear.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — CKD wrecks the endothelium: uremic toxins and mineral imbalance injure the vessel-lining cells and calcify artery walls, driving the accelerated atherosclerosis that makes heart disease, not kidney failure, the usual cause of death.
 
 ## Pathology
 

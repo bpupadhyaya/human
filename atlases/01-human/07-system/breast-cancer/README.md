@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoclast
     relation: connects-to
     note: "Breast cancer hijacks bone's demolition crew: metastatic cells release RANKL and factors that activate osteoclasts to dissolve bone, releasing growth factors that feed the tumor in a vicious cycle behind painful osteolytic lesions."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Breast cancer in bone can flood the blood with calcium: osteolytic metastases dissolve bone faster than the body can clear the released calcium, causing the hypercalcemia of malignancy—confusion, thirst, and kidney injury needing urgent care."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Breast cancer can hide in the bone marrow: single tumor cells lodge there and lie dormant for years, a reservoir of disseminated disease that can reawaken to cause the late relapses unique to this cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help hold breast cancer in check: these innate lymphocytes can detect and destroy tumor cells without prior sensitization, and strong NK activity is linked to fewer metastases and better outcomes."
 ---
 
 # Breast Cancer
@@ -257,6 +266,9 @@ cross_links:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a frequent home for breast-cancer spread: tumor cells seeded through the blood lodge in its fine capillaries and grow, so lung metastases—as nodules or a diffuse lymphatic pattern—are a common cause of breast-cancer morbidity.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Breast fat fuels the tumor it surrounds: adipocytes in the breast make aromatase that converts androgens to estrogen, feeding hormone-driven cancer, which is part of why obesity raises postmenopausal breast-cancer risk.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Breast cancer hijacks bone's demolition crew: metastatic cells release RANKL and factors that activate osteoclasts to dissolve bone, releasing growth factors that feed the tumor in a vicious cycle behind painful osteolytic lesions.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Breast cancer in bone can flood the blood with calcium: osteolytic metastases dissolve bone faster than the body can clear the released calcium, causing the hypercalcemia of malignancy—confusion, thirst, and kidney injury needing urgent care.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Breast cancer can hide in the bone marrow: single tumor cells lodge there and lie dormant for years, a reservoir of disseminated disease that can reawaken to cause the late relapses unique to this cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help hold breast cancer in check: these innate lymphocytes can detect and destroy tumor cells without prior sensitization, and strong NK activity is linked to fewer metastases and better outcomes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
