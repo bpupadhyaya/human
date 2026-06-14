@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "The endocannabinoid system dampens neuropathic pain: cannabinoid receptors on neurons and microglia suppress pain transmission and neuroinflammation, which is why cannabinoids are tried for nerve pain—though benefit is modest and tempered by side effects."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CGRP is a key pain neuropeptide alongside substance P: released from sensory nerves, it sensitizes pain pathways and dilates vessels, and blocking it controls migraine—illustrating how neuropeptides amplify the signaling that becomes chronic neuropathic pain."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium dampens neuropathic pain at the NMDA receptor: it normally plugs the channel that drives central sensitization, so low magnesium unmasks pain amplification and magnesium infusion is used to blunt it—linking a simple ion to chronic pain."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Small-fiber neuropathic pain is diagnosed in the skin: a skin biopsy measuring intraepidermal nerve-fiber density reveals the loss of tiny pain fibers, and capsaicin patches treat the skin's overactive nociceptors—making skin both a diagnostic and therapeutic site."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -261,6 +270,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Voltage-gated sodium channels generate neuropathic pain: after nerve injury, damaged neurons over-express Nav1.7 and Nav1.8 and fire spontaneously, so sodium-channel blockers—local anesthetics, mexiletine, and the new Nav1.8 inhibitor suzetrigine—are core analgesics.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium channels are the brakes on pain firing: by setting resting voltage and repolarizing neurons, Kv/KCNQ channels limit excitability, so their loss after nerve injury leaves neurons hyperexcitable—making potassium-channel openers a target for nerve pain.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system dampens neuropathic pain: cannabinoid receptors on neurons and microglia suppress pain transmission and neuroinflammation, which is why cannabinoids are tried for nerve pain—though benefit is modest and tempered by side effects.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CGRP is a key pain neuropeptide alongside substance P: released from sensory nerves, it sensitizes pain pathways and dilates vessels, and blocking it controls migraine—illustrating how neuropeptides amplify the signaling that becomes chronic neuropathic pain.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium dampens neuropathic pain at the NMDA receptor: it normally plugs the channel that drives central sensitization, so low magnesium unmasks pain amplification and magnesium infusion is used to blunt it—linking a simple ion to chronic pain.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Small-fiber neuropathic pain is diagnosed in the skin: a skin biopsy measuring intraepidermal nerve-fiber density reveals the loss of tiny pain fibers, and capsaicin patches treat the skin's overactive nociceptors—making skin both a diagnostic and therapeutic site.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

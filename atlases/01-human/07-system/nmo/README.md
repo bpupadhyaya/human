@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells help execute NMO's astrocyte damage: once anti-AQP4 antibodies coat astrocytes, NK cells (and complement) destroy them by antibody-dependent cytotoxicity, so innate effectors translate the autoantibody into the actual tissue injury."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils mark NMO lesions, unlike MS: the antibody-and-complement attack on astrocytes draws in neutrophils and eosinophils, so the inflammatory infiltrate and CSF granulocytes help distinguish neuromyelitis optica from multiple sclerosis."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "NMO unleashes glutamate excitotoxicity: anti-AQP4 antibodies kill astrocytes whose glutamate transporters normally clear the synapse, so glutamate floods and poisons oligodendrocytes and neurons—why astrocyte loss cascades into demyelination."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "NMO is treated by blocking IL-6 signaling through JAK: satralizumab targets the IL-6 receptor whose JAK-STAT signal drives the AQP4-antibody-producing plasmablasts, one of several approved therapies that have transformed NMO prognosis."
 ---
 
 # NMOSD
@@ -277,6 +286,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — NMO is not just an eye-and-cord disease—it strikes the brain: lesions in the area postrema cause intractable hiccups, nausea, and vomiting, and diencephalic or brainstem attacks add narcolepsy or other signs, so AQP4-rich brain regions are characteristic NMO targets.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — NMO reflects a breakdown of immune tolerance: regulatory T cells that should restrain self-reactivity are deficient or dysfunctional, allowing AQP4-specific T and B cells to mature—so failed Treg control underlies the autoimmunity against astrocyte water channels.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help execute NMO's astrocyte damage: once anti-AQP4 antibodies coat astrocytes, NK cells (and complement) destroy them by antibody-dependent cytotoxicity, so innate effectors translate the autoantibody into the actual tissue injury.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark NMO lesions, unlike MS: the antibody-and-complement attack on astrocytes draws in neutrophils and eosinophils, so the inflammatory infiltrate and CSF granulocytes help distinguish neuromyelitis optica from multiple sclerosis.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — NMO unleashes glutamate excitotoxicity: anti-AQP4 antibodies kill astrocytes whose glutamate transporters normally clear the synapse, so glutamate floods and poisons oligodendrocytes and neurons—why astrocyte loss cascades into demyelination.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — NMO is treated by blocking IL-6 signaling through JAK: satralizumab targets the IL-6 receptor whose JAK-STAT signal drives the AQP4-antibody-producing plasmablasts, one of several approved therapies that have transformed NMO prognosis.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
