@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Huntington's disrupts the brain's own cholesterol: mutant huntingtin suppresses cholesterol synthesis that neurons need for synapses and myelin, so falling brain cholesterol contributes to the synaptic failure underlying symptoms."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron piles up in the Huntington's brain: the degenerating basal ganglia accumulate iron that catalyzes oxidative stress, adding a metal-driven injury to the toxic effects of the mutant huntingtin protein."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Huntington's wastes the body despite eating: gut dysmotility and a hypermetabolic state cause relentless weight loss, so the large intestine and digestion are part of the systemic toll beyond the movement and mood symptoms."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Microglia inflame the Huntington's brain through NF-kB: mutant huntingtin activates this inflammatory switch in the brain's immune cells, and the resulting cytokine release adds neuroinflammation to the neuronal degeneration."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -169,3 +178,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Huntington's starves neurons of ATP: mutant huntingtin cripples mitochondria, so striatal neurons can't generate enough energy and the whole body burns through calories—explaining both neurodegeneration and the relentless weight loss of the disease.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Huntington's damages oligodendrocytes and white matter: mutant huntingtin disrupts the genes these cells use to myelinate axons, so white-matter loss appears even before obvious neuron death—an early structural marker of the disease.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Huntington's disrupts the brain's own cholesterol: mutant huntingtin suppresses cholesterol synthesis that neurons need for synapses and myelin, so falling brain cholesterol contributes to the synaptic failure underlying symptoms.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron piles up in the Huntington's brain: the degenerating basal ganglia accumulate iron that catalyzes oxidative stress, adding a metal-driven injury to the toxic effects of the mutant huntingtin protein.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Huntington's wastes the body despite eating: gut dysmotility and a hypermetabolic state cause relentless weight loss, so the large intestine and digestion are part of the systemic toll beyond the movement and mood symptoms.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Microglia inflame the Huntington's brain through NF-kB: mutant huntingtin activates this inflammatory switch in the brain's immune cells, and the resulting cytokine release adds neuroinflammation to the neuronal degeneration.

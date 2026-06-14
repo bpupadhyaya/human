@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "Reed-Sternberg cells grow on their own IL-13: they secrete this Th2 cytokine as an autocrine growth signal and to recruit the eosinophil-rich infiltrate, shaping the inflammatory backdrop that defines Hodgkin lymphoma."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Hodgkin lymphoma centers on the chest and threatens the lungs: it classically forms a mediastinal mass and can invade lung tissue, while bleomycin in its chemotherapy risks pulmonary fibrosis—so the lungs matter both to the disease and its cure."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-beta lays down the bands of nodular sclerosis Hodgkin: the commonest subtype is defined by collagen bands that TGF-beta drives fibroblasts to deposit, walling the Reed-Sternberg cells into fibrous nodules."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells fill Hodgkin's reactive infiltrate: the tumor is mostly normal immune cells around scarce Reed-Sternberg cells, and dysfunctional antigen presentation by dendritic cells helps the malignant cells evade the surrounding immunity."
 ---
 
 # Hodgkin Lymphoma
@@ -257,6 +266,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Hodgkin lymphoma is mostly a crowd of protective cells: the rare malignant Reed-Sternberg cells survive by surrounding themselves with regulatory T cells and other immune cells that shield them, so the tumor is <1% cancer cells and 99% recruited defenders.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Nodular sclerosis Hodgkin lymphoma is defined by fibrosis: broad bands of collagen divide the lymph node into nodules, the histologic signature of the commonest subtype, typically affecting the chest of young adults.
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — Reed-Sternberg cells grow on their own IL-13: they secrete this Th2 cytokine as an autocrine growth signal and to recruit the eosinophil-rich infiltrate, shaping the inflammatory backdrop that defines Hodgkin lymphoma.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Hodgkin lymphoma centers on the chest and threatens the lungs: it classically forms a mediastinal mass and can invade lung tissue, while bleomycin in its chemotherapy risks pulmonary fibrosis—so the lungs matter both to the disease and its cure.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta lays down the bands of nodular sclerosis Hodgkin: the commonest subtype is defined by collagen bands that TGF-beta drives fibroblasts to deposit, walling the Reed-Sternberg cells into fibrous nodules.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells fill Hodgkin's reactive infiltrate: the tumor is mostly normal immune cells around scarce Reed-Sternberg cells, and dysfunctional antigen presentation by dendritic cells helps the malignant cells evade the surrounding immunity.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
