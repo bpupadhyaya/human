@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Regulatory T cells temper the immune response to MAP's mutated tumors: though the oxidative-damage cancers carry many neoantigens, Tregs in the infiltrate restrain the attack, a brake that checkpoint therapy could lift in heavily mutated cases."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "MUTYH-associated polyposis bleeds iron from the colon: its adenomas ooze blood, so iron-deficiency anemia can be the quiet first clue that prompts the colonoscopy revealing the polyps."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "MAP's hypermutated tumors draw macrophages: oxidative-damage mutations spawn neoantigens that pull a dense immune infiltrate including macrophages into the colorectal cancers."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "MAP's colorectal cancers grow in fibrosis: as the adenomas turn malignant they provoke a desmoplastic fibrous stroma that supports invasion, the scar-like tissue typical of colon cancer."
 ---
 
 # MUTYH-Associated Polyposis
@@ -264,6 +273,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — MAP's colorectal cancers spread to the liver: like other bowel cancers, the tumors that arise from MUTYH-driven polyps metastasize first to the liver through the portal vein, making liver imaging key to staging and follow-up.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Chronic inflammation via NF-kB helps MAP polyps progress: in the colon, this inflammatory switch supports survival and proliferation of the mutation-laden cells, adding an inflammatory push to the oxidative DNA damage that defines the syndrome.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells temper the immune response to MAP's mutated tumors: though the oxidative-damage cancers carry many neoantigens, Tregs in the infiltrate restrain the attack, a brake that checkpoint therapy could lift in heavily mutated cases.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MUTYH-associated polyposis bleeds iron from the colon: its adenomas ooze blood, so iron-deficiency anemia can be the quiet first clue that prompts the colonoscopy revealing the polyps.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — MAP's hypermutated tumors draw macrophages: oxidative-damage mutations spawn neoantigens that pull a dense immune infiltrate including macrophages into the colorectal cancers.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — MAP's colorectal cancers grow in fibrosis: as the adenomas turn malignant they provoke a desmoplastic fibrous stroma that supports invasion, the scar-like tissue typical of colon cancer.
 
 ---
 

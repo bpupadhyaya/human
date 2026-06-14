@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Inflammation via NF-kB fuels the myeloproliferative clone: alongside JAK-STAT, the mutated stem cells drive NF-kB signaling that pours out cytokines, feeding the symptoms, marrow fibrosis and clonal expansion of these neoplasms."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "MPNs itch through the skin: aquagenic pruritus—intense itching minutes after a warm shower—is a classic symptom, especially of polycythemia vera, sometimes appearing before the diagnosis."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "MPN itching is driven by mast cells: the expanded clone's basophils and mast cells release histamine, which fires skin itch nerves to cause the aquagenic pruritus that torments these patients."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Polycythemia overrides the body's oxygen control: normally low oxygen raises erythropoietin to make red cells, but the JAK2 clone churns them out regardless, thickening the blood independent of oxygen need."
 ---
 
 # Myeloproliferative Neoplasms
@@ -291,6 +300,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — High blood counts in MPN can fake high potassium: the huge numbers of platelets and white cells leak potassium after the sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — MPNs threaten the brain with clots: thickened, sticky blood from too many cells raises the risk of stroke and cerebral vein thrombosis, so controlling counts and using aspirin aim to protect against these neurologic catastrophes.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Inflammation via NF-kB fuels the myeloproliferative clone: alongside JAK-STAT, the mutated stem cells drive NF-kB signaling that pours out cytokines, feeding the symptoms, marrow fibrosis and clonal expansion of these neoplasms.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MPNs itch through the skin: aquagenic pruritus—intense itching minutes after a warm shower—is a classic symptom, especially of polycythemia vera, sometimes appearing before the diagnosis.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — MPN itching is driven by mast cells: the expanded clone's basophils and mast cells release histamine, which fires skin itch nerves to cause the aquagenic pruritus that torments these patients.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Polycythemia overrides the body's oxygen control: normally low oxygen raises erythropoietin to make red cells, but the JAK2 clone churns them out regardless, thickening the blood independent of oxygen need.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
