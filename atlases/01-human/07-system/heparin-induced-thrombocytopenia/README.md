@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Pulmonary embolism is a major HIT complication: the paradoxical clotting strikes veins, throwing clots to the lung, so a heparin-treated patient with a falling platelet count and new dyspnea needs heparin stopped and a non-heparin anticoagulant urgently."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "HIT is driven by B-cell antibodies: B cells rapidly make IgG against platelet-factor-4/heparin complexes, and these antibodies cross-link platelet Fc receptors to trigger the paradoxical clotting—so the culprit is a transient, T-independent antibody response."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen helps cause HIT's low platelet count: its macrophages clear antibody-coated platelets from the circulation, so even as clots form, platelet numbers fall—the 'thrombocytopenia with thrombosis' paradox that defines the syndrome."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils amplify the thrombosis of HIT: activated by anti-PF4 immune complexes, they release neutrophil extracellular traps (NETs) that provide a scaffold for clot formation—linking HIT to the same NET-driven immunothrombosis seen in VITT and severe COVID."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -255,6 +264,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages execute the paradox of HIT: Fc receptors on macrophages and platelets bind PF4-heparin-IgG immune complexes, clearing platelets (thrombocytopenia) while activating them to clot—so the same antibody both lowers the count and causes thrombosis.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement amplifies the thrombosis of HIT and its cousin VITT: PF4-antibody complexes activate complement on platelets and endothelium, boosting clot formation—so complement and the anti-PF4 antibody together explain why HIT clots despite a falling platelet count.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary embolism is a major HIT complication: the paradoxical clotting strikes veins, throwing clots to the lung, so a heparin-treated patient with a falling platelet count and new dyspnea needs heparin stopped and a non-heparin anticoagulant urgently.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — HIT is driven by B-cell antibodies: B cells rapidly make IgG against platelet-factor-4/heparin complexes, and these antibodies cross-link platelet Fc receptors to trigger the paradoxical clotting—so the culprit is a transient, T-independent antibody response.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen helps cause HIT's low platelet count: its macrophages clear antibody-coated platelets from the circulation, so even as clots form, platelet numbers fall—the 'thrombocytopenia with thrombosis' paradox that defines the syndrome.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils amplify the thrombosis of HIT: activated by anti-PF4 immune complexes, they release neutrophil extracellular traps (NETs) that provide a scaffold for clot formation—linking HIT to the same NET-driven immunothrombosis seen in VITT and severe COVID.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

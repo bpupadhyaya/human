@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-c
     relation: connects-to
     note: "Hemophilia A is historically tied to hepatitis C and HIV: before viral screening, pooled factor concentrates infected most treated patients with HCV and HIV—a tragedy that drove recombinant factor development, so older hemophiliacs carry a heavy chronic-viral burden."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hemophilia A is X-linked: the factor VIII gene sits on the X chromosome, so it overwhelmingly affects males while carrier mothers pass it on—making family history, carrier testing, and genetic counseling central to the reproductive side of the disease."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune system is hemophilia A's biggest treatment hurdle: some patients form neutralizing antibodies (inhibitors) against infused factor VIII, making replacement fail—so immune tolerance regimens and inhibitor-bypassing agents like emicizumab are needed."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Bleeding in hemophilia A drains red cells: recurrent joint and muscle bleeds, plus dangerous internal hemorrhage, cause iron-deficiency or acute anemia, so falling hemoglobin and the need for transfusion track the severity of uncontrolled bleeding."
 ---
 
 # Hemophilia A
@@ -232,6 +241,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Hemophilia A spares fibrinogen but fails to reach it: factor VIII deficiency cripples the intrinsic pathway's thrombin burst, so although fibrinogen is normal, too little thrombin forms to convert it to a stable fibrin clot—hence delayed, recurrent bleeding.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Intracranial hemorrhage is the most feared hemophilia A complication: minor head trauma can cause life-threatening brain bleeding because clot formation is delayed, so prophylactic factor replacement and urgent dosing after head injury are central to care.
 - `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Hemophilia A is historically tied to hepatitis C and HIV: before viral screening, pooled factor concentrates infected most treated patients with HCV and HIV—a tragedy that drove recombinant factor development, so older hemophiliacs carry a heavy chronic-viral burden.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hemophilia A is X-linked: the factor VIII gene sits on the X chromosome, so it overwhelmingly affects males while carrier mothers pass it on—making family history, carrier testing, and genetic counseling central to the reproductive side of the disease.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system is hemophilia A's biggest treatment hurdle: some patients form neutralizing antibodies (inhibitors) against infused factor VIII, making replacement fail—so immune tolerance regimens and inhibitor-bypassing agents like emicizumab are needed.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bleeding in hemophilia A drains red cells: recurrent joint and muscle bleeds, plus dangerous internal hemorrhage, cause iron-deficiency or acute anemia, so falling hemoglobin and the need for transfusion track the severity of uncontrolled bleeding.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
