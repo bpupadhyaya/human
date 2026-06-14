@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells are key to attacking HLRCC: because FH-deficient tumors are immune-active and antigen-rich, antigen-presenting dendritic cells help prime the T-cell response that checkpoint and vaccine strategies aim to unleash."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "FH mutations can sprout adrenal tumors: beyond skin and uterine leiomyomas and aggressive kidney cancer, the same fumarate-hydratase defect predisposes to pheochromocytomas and paragangliomas, including in the adrenal glands."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "HLRCC's kidney cancer bleeds iron away: the aggressive renal tumor causes blood in the urine, so hematuria and the iron-deficiency anemia it brings can be the warning that prompts imaging."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "HLRCC tumors are intensely vascular: losing FH stabilizes HIF, which drives VEGF and pushes endothelial cells to build a rich blood supply, the angiogenesis that anti-VEGF therapy targets."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -279,6 +288,9 @@ Cutaneous:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — HLRCC kidney cancer leans on the AKT-mTOR growth axis: FH loss and its metabolic stress activate AKT and mTOR signaling, so this pathway joins the pseudohypoxic HIF program in driving the tumor, and is probed as a drug target.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages crowd HLRCC's tumor microenvironment: tumor-associated macrophages promote angiogenesis and immune suppression around the FH-deficient kidney cancer, shaping a stroma that the immunotherapy combinations try to flip.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are key to attacking HLRCC: because FH-deficient tumors are immune-active and antigen-rich, antigen-presenting dendritic cells help prime the T-cell response that checkpoint and vaccine strategies aim to unleash.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — FH mutations can sprout adrenal tumors: beyond skin and uterine leiomyomas and aggressive kidney cancer, the same fumarate-hydratase defect predisposes to pheochromocytomas and paragangliomas, including in the adrenal glands.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HLRCC's kidney cancer bleeds iron away: the aggressive renal tumor causes blood in the urine, so hematuria and the iron-deficiency anemia it brings can be the warning that prompts imaging.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — HLRCC tumors are intensely vascular: losing FH stabilizes HIF, which drives VEGF and pushes endothelial cells to build a rich blood supply, the angiogenesis that anti-VEGF therapy targets.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
