@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Type 2 diabetes roughly doubles stroke risk: chronic hyperglycemia accelerates atherosclerosis and small-vessel disease while high glucose worsens stroke outcome, so glycemic and vascular risk-factor control is central to preventing the cerebrovascular toll of diabetes."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Type 2 diabetes is a leading cause of blindness via retinopathy: chronic hyperglycemia damages retinal microvessels, causing leakage, ischemia, and neovascularization—so annual retinal screening and tight glucose and blood-pressure control protect vision."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Diabetic peripheral neuropathy is among type 2 diabetes' most common complications: hyperglycemia and microvascular injury damage long nerves, causing stocking-glove numbness and pain that underlie foot ulcers and amputations—so foot care is central to management."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Type 2 diabetes and the liver are tightly linked through fatty liver disease: insulin resistance drives hepatic fat accumulation (MASLD/MASH), which worsens glucose control and can progress to cirrhosis—so the diabetic liver is both cause and casualty of the disease."
 ---
 
 # Type 2 Diabetes
@@ -210,6 +219,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Type 2 diabetes is a bihormonal disease, not just insulin failure: alpha cells oversecrete glucagon while beta cells under-secrete insulin, so unchecked glucagon drives hepatic glucose output—why GLP-1 and amylin-based drugs that suppress glucagon help control it.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Type 2 diabetes ends in pancreatic beta-cell failure: insulin resistance first forces beta cells to overwork, but they progressively exhaust and die, so the pancreas's declining insulin output—not just resistance—drives the need for insulin therapy over time.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Type 2 diabetes roughly doubles stroke risk: chronic hyperglycemia accelerates atherosclerosis and small-vessel disease while high glucose worsens stroke outcome, so glycemic and vascular risk-factor control is central to preventing the cerebrovascular toll of diabetes.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Type 2 diabetes is a leading cause of blindness via retinopathy: chronic hyperglycemia damages retinal microvessels, causing leakage, ischemia, and neovascularization—so annual retinal screening and tight glucose and blood-pressure control protect vision.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Diabetic peripheral neuropathy is among type 2 diabetes' most common complications: hyperglycemia and microvascular injury damage long nerves, causing stocking-glove numbness and pain that underlie foot ulcers and amputations—so foot care is central to management.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Type 2 diabetes and the liver are tightly linked through fatty liver disease: insulin resistance drives hepatic fat accumulation (MASLD/MASH), which worsens glucose control and can progress to cirrhosis—so the diabetic liver is both cause and casualty of the disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells shape uveal melanoma's spread to the liver: circulating tumor cells that downregulate MHC become NK targets, so the balance of NK surveillance versus escape influences whether liver micrometastases grow—central to this cancer's lethal course."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Uveal melanoma is notorious for vasculogenic mimicry: aggressive tumor cells form PAS-positive vascular loops that mimic endothelial channels, supplying blood without true vessels—a pattern that marks poor prognosis and blunts conventional anti-angiogenic therapy."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Uveal melanoma's lethal liver tropism depends on stroma: hepatic stellate cells and fibroblasts build the fibrotic niche that dormant tumor cells colonize, so the liver microenvironment, not just tumor genetics, governs when micrometastases awaken and grow."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The eye's immune privilege shields uveal melanoma: a TGF-β-rich anterior chamber suppresses helper T-cell responses (ACAID), so tumors grow unchecked locally—part of why this cancer is immunologically cold and slow to trigger systemic immunity."
 ---
 
 # Uveal Melanoma
@@ -236,6 +245,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis and a leaky vasculature mark uveal melanoma: the tumor secretes VEGF to vascularize the eye and prepare its spread, high levels predict metastasis, and anti-VEGF agents are explored alongside the liver-directed therapy this cancer needs.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Uveal melanoma is immunologically cold yet newly targetable: it carries few mutations and sits in the immune-privileged eye, so checkpoint inhibitors disappoint—but tebentafusp, a gp100-directed bispecific that redirects T cells, is the first agent to improve survival.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells shape uveal melanoma's spread to the liver: circulating tumor cells that downregulate MHC become NK targets, so the balance of NK surveillance versus escape influences whether liver micrometastases grow—central to this cancer's lethal course.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Uveal melanoma is notorious for vasculogenic mimicry: aggressive tumor cells form PAS-positive vascular loops that mimic endothelial channels, supplying blood without true vessels—a pattern that marks poor prognosis and blunts conventional anti-angiogenic therapy.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Uveal melanoma's lethal liver tropism depends on stroma: hepatic stellate cells and fibroblasts build the fibrotic niche that dormant tumor cells colonize, so the liver microenvironment, not just tumor genetics, governs when micrometastases awaken and grow.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The eye's immune privilege shields uveal melanoma: a TGF-β-rich anterior chamber suppresses helper T-cell responses (ACAID), so tumors grow unchecked locally—part of why this cancer is immunologically cold and slow to trigger systemic immunity.
 
 ---
 
