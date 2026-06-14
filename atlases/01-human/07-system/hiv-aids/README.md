@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "AIDS turns the brain into a battleground: falling immunity invites toxoplasmosis, cryptococcal meningitis, PCNSL, and PML, while HIV itself causes dementia—so new neurological signs in advanced HIV demand urgent imaging and workup."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "AIDS unleashes Epstein-Barr-driven lymphomas: with CD4 cells gone, EBV escapes immune control to cause primary CNS lymphoma, Burkitt, Hodgkin and DLBCL—the EBV-linked cancers that define advanced HIV."
+  - target: 02-pathogen/01-viruses/hpv-16
+    relation: connects-to
+    note: "HIV lets oncogenic HPV run wild: immunosuppression reactivates HPV-16, driving the cervical and anal cancers that are AIDS-defining—so HPV vaccination and cancer screening are essential in HIV care."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "HIV exploits dendritic cells to spread: these antigen-presenting cells capture the virus at mucosal surfaces and ferry it to lymph nodes, handing it to the CD4 T cells it destroys—turning a sentinel of immunity into a vehicle for infection."
 ---
 
 # HIV/AIDS
@@ -234,6 +243,12 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Cryptococcus neoformans](../../../02-pathogen/03-fungi/cryptococcus-neoformans/README.md)** — Cryptococcus is a leading AIDS killer: when CD4 counts fall, this environmental yeast causes cryptococcal meningitis, a major cause of death in advanced HIV worldwide—so a positive serum cryptococcal antigen prompts urgent antifungal treatment.
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — Toxoplasma reactivates in AIDS as brain abscesses: latent cysts flare when CD4 counts drop, producing ring-enhancing lesions and toxoplasmic encephalitis—so seropositive patients take prophylaxis, the same drugs treating Pneumocystis.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AIDS turns the brain into a battleground: falling immunity invites toxoplasmosis, cryptococcal meningitis, PCNSL, and PML, while HIV itself causes dementia—so new neurological signs in advanced HIV demand urgent imaging and workup.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — AIDS unleashes Epstein-Barr-driven lymphomas: with CD4 cells gone, EBV escapes immune control to cause primary CNS lymphoma, Burkitt, Hodgkin and DLBCL—the EBV-linked cancers that define advanced HIV.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HIV lets oncogenic HPV run wild: immunosuppression reactivates HPV-16, driving the cervical and anal cancers that are AIDS-defining—so HPV vaccination and cancer screening are essential in HIV care.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIV exploits dendritic cells to spread: these antigen-presenting cells capture the virus at mucosal surfaces and ferry it to lymph nodes, handing it to the CD4 T cells it destroys—turning a sentinel of immunity into a vehicle for infection.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — AIDS unleashes Epstein-Barr-driven lymphomas: with CD4 cells gone, EBV escapes immune control to cause primary CNS lymphoma, Burkitt, Hodgkin and DLBCL—the EBV-linked cancers that define advanced HIV.
+- `connects-to` → **[HPV-16](../../../02-pathogen/01-viruses/hpv-16/README.md)** — HIV lets oncogenic HPV run wild: immunosuppression reactivates HPV-16, driving the cervical and anal cancers that are AIDS-defining—so HPV vaccination and cancer screening are essential in HIV care.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — HIV exploits dendritic cells to spread: these antigen-presenting cells capture the virus at mucosal surfaces and ferry it to lymph nodes, handing it to the CD4 T cells it destroys—turning a sentinel of immunity into a vehicle for infection.
 
 ## See Also
 

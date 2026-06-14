@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Influenza occasionally strikes the brain: it can cause encephalitis and acute necrotizing encephalopathy, especially in children, and aspirin use during flu risks Reye's syndrome—so neurological symptoms in influenza are a red flag."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy makes influenza dangerous, and the placenta is why protection matters: immune and physiological changes raise the risk of severe flu, so maternal vaccination is recommended—antibodies cross the placenta to shield the newborn too."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Influenza immunity rests on anti-HA antibodies: IgG against hemagglutinin blocks the virus from entering cells, and the flu vaccine works by inducing it—so antigenic drift that changes HA is what forces yearly reformulation."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T-helper cells orchestrate influenza defense and vaccine response: CD4 cells drive the antibody and cytotoxic responses that clear the virus and build memory, so their decline with age partly explains why flu is deadlier and vaccines weaker in the elderly."
 ---
 
 # Influenza
@@ -255,3 +264,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells are the basis of flu vaccination: antibodies against hemagglutinin block infection, but the virus's constant antigenic drift forces yearly reformulated vaccines, and rare antigenic shift—a new HA—can outrun B-cell memory to spark a pandemic.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Influenza opens the door to Staphylococcus aureus: viral damage to the airway lining lets S. aureus (including MRSA) cause severe, sometimes necrotizing secondary pneumonia—one of the deadliest complications, alongside pneumococcal superinfection.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Influenza occasionally strikes the brain: it can cause encephalitis and acute necrotizing encephalopathy, especially in children, and aspirin use during flu risks Reye's syndrome—so neurological symptoms in influenza are a red flag.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy makes influenza dangerous, and the placenta is why protection matters: immune and physiological changes raise the risk of severe flu, so maternal vaccination is recommended—antibodies cross the placenta to shield the newborn too.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Influenza immunity rests on anti-HA antibodies: IgG against hemagglutinin blocks the virus from entering cells, and the flu vaccine works by inducing it—so antigenic drift that changes HA is what forces yearly reformulation.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells orchestrate influenza defense and vaccine response: CD4 cells drive the antibody and cytotoxic responses that clear the virus and build memory, so their decline with age partly explains why flu is deadlier and vaccines weaker in the elderly.
