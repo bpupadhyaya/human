@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium helps calm the socially anxious brain: it supports GABA inhibition and restrains excitatory NMDA signaling, so low magnesium can lower the threshold for the over-arousal that fuels anxiety in feared situations."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Social anxiety is written on the skin as blushing: a sympathetic surge floods facial blood vessels, and the visible flush—being seen to react—becomes a feared symptom that feeds the anxiety in a self-reinforcing loop."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Social anxiety's fear memories rely on calcium: calcium entering threat-circuit neurons strengthens the synapses that tag social cues as dangerous, the molecular step that cements conditioned social fear."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes help tune the socially anxious brain: by clearing and recycling glutamate in the amygdala and prefrontal circuits, they shape the excitation-inhibition balance whose tilt toward arousal underlies the disorder."
 ---
 
 # Social Anxiety Disorder
@@ -281,6 +290,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Social anxiety's physical dread comes from the adrenal glands: anticipating scrutiny triggers an adrenaline and cortisol surge that causes the blushing, sweating, trembling and pounding heart, the body's alarm misfiring in ordinary social moments.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Social anxiety is learned and stored in synapses: fear conditioning strengthens connections in the brain's threat circuits, so social cues come to trigger alarm—plasticity that therapy and SSRIs gradually help reshape.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium helps calm the socially anxious brain: it supports GABA inhibition and restrains excitatory NMDA signaling, so low magnesium can lower the threshold for the over-arousal that fuels anxiety in feared situations.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Social anxiety is written on the skin as blushing: a sympathetic surge floods facial blood vessels, and the visible flush—being seen to react—becomes a feared symptom that feeds the anxiety in a self-reinforcing loop.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Social anxiety's fear memories rely on calcium: calcium entering threat-circuit neurons strengthens the synapses that tag social cues as dangerous, the molecular step that cements conditioned social fear.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help tune the socially anxious brain: by clearing and recycling glutamate in the amygdala and prefrontal circuits, they shape the excitation-inhibition balance whose tilt toward arousal underlies the disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
