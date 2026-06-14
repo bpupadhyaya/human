@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Anti-GD2 immunotherapy enlists macrophages: the antibody dinutuximab coats neuroblastoma's GD2 antigen so macrophages and complement (with NK cells) destroy it, a now-standard treatment that improved survival in high-risk disease."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Neuroblastoma betrays its neural-crest origin by making dopamine: arising from sympathetic precursors, it synthesizes catecholamines whose breakdown products (HVA from dopamine, VMA from noradrenaline) spill into urine as diagnostic tumor markers."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Neuroblastoma defends itself with regulatory T cells: a suppressive microenvironment rich in Tregs blunts the immune attack, a barrier that anti-GD2 antibody immunotherapy (dinutuximab) must overcome to clear high-risk disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "High-risk neuroblastoma is intensely angiogenic via VEGF: the tumor drives new blood vessels to fuel rapid growth and spread, and high vascularity marks aggressive disease—making anti-angiogenic strategies a research target."
 ---
 
 # Neuroblastoma
@@ -260,6 +269,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Neuroblastoma is targeted with radioactive iodine via MIBG: the tumor takes up metaiodobenzylguanidine like norepinephrine, so I-123 MIBG scans light up disease and I-131 MIBG delivers radiation directly to neuroblastoma cells in high-risk patients.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — High-risk neuroblastoma keeps its telomeres long: TERT activation (or ATRX-driven alternative lengthening) lets cells divide endlessly, and this telomere-maintenance switch—alongside MYCN—marks the aggressive tumors that need intensive therapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Anti-GD2 immunotherapy enlists macrophages: the antibody dinutuximab coats neuroblastoma's GD2 antigen so macrophages and complement (with NK cells) destroy it, a now-standard treatment that improved survival in high-risk disease.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Neuroblastoma betrays its neural-crest origin by making dopamine: arising from sympathetic precursors, it synthesizes catecholamines whose breakdown products (HVA from dopamine, VMA from noradrenaline) spill into urine as diagnostic tumor markers.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Neuroblastoma defends itself with regulatory T cells: a suppressive microenvironment rich in Tregs blunts the immune attack, a barrier that anti-GD2 antibody immunotherapy (dinutuximab) must overcome to clear high-risk disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — High-risk neuroblastoma is intensely angiogenic via VEGF: the tumor drives new blood vessels to fuel rapid growth and spread, and high vascularity marks aggressive disease—making anti-angiogenic strategies a research target.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

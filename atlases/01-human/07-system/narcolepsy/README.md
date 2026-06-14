@@ -84,6 +84,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Orexin normally props up norepinephrine-driven wakefulness: losing orexin neurons leaves the noradrenergic system unstable, so wake states collapse into sleep and—during cataplexy—the locus coeruleus falls silent, releasing muscle tone."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Narcolepsy's cataplexy is tamed through GABA: sodium oxybate, a GABA-B agonist taken at night, consolidates fragmented sleep and sharply reduces cataplexy—the most effective drug for the disorder, working on the brain's main inhibitory system."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Narcolepsy collides with the brain's sleep-pressure signal, adenosine: this molecule accumulates to drive sleepiness, and caffeine—an adenosine blocker—is the everyday self-treatment patients reach for against overwhelming daytime sleep."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Narcolepsy may begin when dendritic cells present a flu look-alike: after H1N1 infection or vaccination, these antigen-presenters can display peptides mimicking orexin, priming T cells that then destroy the orexin neurons—a molecular-mimicry origin."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -246,6 +255,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Narcolepsy type 1 is almost always HLA-DQB1*06:02 positive: this MHC class II variant presents orexin-related peptides to T cells, the strongest genetic clue that the disease is an autoimmune attack destroying the brain's orexin neurons.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Autoreactive T-helper cells appear central to narcolepsy: CD4 T cells recognizing orexin (with cytotoxic T cells) are thought to drive destruction of the hypothalamic orexin neurons, explaining why the disease follows certain infections and vaccinations.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Orexin normally props up norepinephrine-driven wakefulness: losing orexin neurons leaves the noradrenergic system unstable, so wake states collapse into sleep and—during cataplexy—the locus coeruleus falls silent, releasing muscle tone.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Narcolepsy's cataplexy is tamed through GABA: sodium oxybate, a GABA-B agonist taken at night, consolidates fragmented sleep and sharply reduces cataplexy—the most effective drug for the disorder, working on the brain's main inhibitory system.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Narcolepsy collides with the brain's sleep-pressure signal, adenosine: this molecule accumulates to drive sleepiness, and caffeine—an adenosine blocker—is the everyday self-treatment patients reach for against overwhelming daytime sleep.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Narcolepsy may begin when dendritic cells present a flu look-alike: after H1N1 infection or vaccination, these antigen-presenters can display peptides mimicking orexin, priming T cells that then destroy the orexin neurons—a molecular-mimicry origin.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
