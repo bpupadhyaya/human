@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Aplastic anemia can follow hepatitis: a seronegative viral hepatitis sometimes precedes severe marrow failure (hepatitis-associated aplastic anemia), an immune-mediated link in which liver inflammation heralds the destruction of blood stem cells."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Transfusion-dependent aplastic anemia accumulates iron: regular red-cell transfusions for the pancytopenia deposit iron in the heart and liver, so iron chelation is needed in patients who depend on transfusions long-term."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "Aplastic anemia is treated by calming T cells via calcineurin: cyclosporine, a calcineurin inhibitor, with anti-thymocyte globulin suppresses the T-cell attack on marrow stem cells—the immunosuppressive therapy that restores blood counts when transplant isn't an option."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Aplastic anemia typically spares the spleen: unlike many causes of low blood counts, it produces pancytopenia without splenomegaly, so an enlarged spleen argues against aplastic anemia and points to infiltration or hypersplenism instead."
 ---
 
 # Aplastic Anemia
@@ -236,6 +245,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Some aplastic anemia is a telomere disease: germline TERT and telomerase mutations (telomeropathies like dyskeratosis congenita) prematurely exhaust blood stem cells, so unexplained marrow failure with short telomeres warrants genetic testing before transplant.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ionizing radiation is a classic cause of aplastic anemia: X-ray and gamma photons damage dividing marrow stem cells, so high-dose exposure wipes out blood production—the same mechanism deliberately used in total-body irradiation before stem-cell transplant.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Aplastic anemia can follow hepatitis: a seronegative viral hepatitis sometimes precedes severe marrow failure (hepatitis-associated aplastic anemia), an immune-mediated link in which liver inflammation heralds the destruction of blood stem cells.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Transfusion-dependent aplastic anemia accumulates iron: regular red-cell transfusions for the pancytopenia deposit iron in the heart and liver, so iron chelation is needed in patients who depend on transfusions long-term.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Aplastic anemia is treated by calming T cells via calcineurin: cyclosporine, a calcineurin inhibitor, with anti-thymocyte globulin suppresses the T-cell attack on marrow stem cells—the immunosuppressive therapy that restores blood counts when transplant isn't an option.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Aplastic anemia typically spares the spleen: unlike many causes of low blood counts, it produces pancytopenia without splenomegaly, so an enlarged spleen argues against aplastic anemia and points to infiltration or hypersplenism instead.
 
 ---
 

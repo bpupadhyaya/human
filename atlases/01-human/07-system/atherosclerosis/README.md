@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils inflame the atherosclerotic plaque: they release NETs and enzymes that recruit more inflammation and destabilize the fibrous cap, so beyond macrophages, neutrophil-driven inflammation helps turn a stable plaque into a rupture-prone one."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "An atherosclerotic plaque lives or dies by its collagen cap: smooth muscle lays down a collagen-rich fibrous cap that, when thick, keeps the plaque stable, but when thinned by inflammation it ruptures—triggering the clot of a heart attack or stroke."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Atherosclerosis is an immune disease involving cytotoxic T cells: CD8 T cells infiltrate plaques and can kill the cells that stabilize them, adding adaptive immunity to the macrophage-driven inflammation behind plaque progression."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Intraplaque hemorrhage accelerates atherosclerosis: leaky new vessels bleed red cells into the plaque, dumping cholesterol-rich membranes and iron that enlarge the lipid core and destabilize it—turning a quiet plaque into a dangerous one."
 ---
 
 # Atherosclerosis
@@ -245,6 +254,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[APOE](../../03-molecular/apoe/README.md)** — APOE shapes atherosclerosis risk: this lipid-carrier protein clears cholesterol-rich particles, and the common APOE4 variant raises LDL and cardiovascular (and Alzheimer's) risk, so APOE genotype is a built-in modifier of how fast plaque builds.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome fuels atherosclerosis: gut bacteria convert dietary choline and carnitine into TMAO, a metabolite that promotes plaque and clotting, so what microbes make from red meat and eggs feeds the arterial disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils inflame the atherosclerotic plaque: they release NETs and enzymes that recruit more inflammation and destabilize the fibrous cap, so beyond macrophages, neutrophil-driven inflammation helps turn a stable plaque into a rupture-prone one.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — An atherosclerotic plaque lives or dies by its collagen cap: smooth muscle lays down a collagen-rich fibrous cap that, when thick, keeps the plaque stable, but when thinned by inflammation it ruptures—triggering the clot of a heart attack or stroke.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Atherosclerosis is an immune disease involving cytotoxic T cells: CD8 T cells infiltrate plaques and can kill the cells that stabilize them, adding adaptive immunity to the macrophage-driven inflammation behind plaque progression.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Intraplaque hemorrhage accelerates atherosclerosis: leaky new vessels bleed red cells into the plaque, dumping cholesterol-rich membranes and iron that enlarge the lipid core and destabilize it—turning a quiet plaque into a dangerous one.
 
 ---
 
