@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "DIC threatens the brain at both extremes: microthrombi cause small strokes while consumed clotting factors invite intracranial hemorrhage, so altered mental status in a critically ill patient can signal cerebral involvement of this clotting-bleeding paradox."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Clotting in DIC runs on calcium—factor IV: calcium ions are an essential cofactor at multiple steps of the cascade, and the massive transfusions used to treat severe DIC can bind calcium and drop its level, worsening bleeding."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "DIC can destroy the adrenal glands (Waterhouse-Friderichsen): in meningococcal sepsis, widespread clotting causes bilateral adrenal hemorrhage, triggering sudden adrenal failure and shock on top of the coagulopathy."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "DIC shreds red cells and spills hemoglobin: fibrin strands strung across small vessels slice passing red cells (microangiopathic hemolysis), producing schistocytes and free hemoglobin that can itself injure the kidneys."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -262,6 +271,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement and coagulation amplify each other in DIC: activated complement (C3 and beyond) promotes tissue factor and platelet activation while clotting enzymes cleave complement, so this crosstalk intensifies the runaway clotting of severe sepsis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help ignite DIC: in sepsis and cancer, monocytes and macrophages express tissue factor that triggers systemic coagulation, so these immune cells link inflammation to the widespread microthrombi that consume clotting factors.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — DIC threatens the brain at both extremes: microthrombi cause small strokes while consumed clotting factors invite intracranial hemorrhage, so altered mental status in a critically ill patient can signal cerebral involvement of this clotting-bleeding paradox.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Clotting in DIC runs on calcium—factor IV: calcium ions are an essential cofactor at multiple steps of the cascade, and the massive transfusions used to treat severe DIC can bind calcium and drop its level, worsening bleeding.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — DIC can destroy the adrenal glands (Waterhouse-Friderichsen): in meningococcal sepsis, widespread clotting causes bilateral adrenal hemorrhage, triggering sudden adrenal failure and shock on top of the coagulopathy.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — DIC shreds red cells and spills hemoglobin: fibrin strands strung across small vessels slice passing red cells (microangiopathic hemolysis), producing schistocytes and free hemoglobin that can itself injure the kidneys.
 
 ---
 

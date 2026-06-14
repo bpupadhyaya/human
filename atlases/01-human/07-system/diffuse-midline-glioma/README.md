@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Glutamate drives diffuse midline glioma growth: neuron-released glutamate acting on tumor AMPA receptors stimulates proliferation, so the same excitatory signaling that runs the brain fuels the cancer—making glutamate pathways a therapeutic target."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Diffuse midline glioma's most promising drug works on dopamine signaling: ONC201 (dordaviprone) antagonizes the dopamine D2 receptor (and mitochondrial ClpP) and has produced rare responses in H3K27M tumors, a surprising therapeutic angle in an otherwise fatal cancer."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "A thalamic subset of diffuse midline glioma is driven by EGFR: bithalamic H3-wildtype midline gliomas carry EGFR mutations rather than H3K27M, so molecular testing splits these tumors into biologically distinct, differently-targetable groups."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Diffuse midline glioma is a target for NK and cell therapies: because it is so hard to resect or irradiate, engineered NK cells and GD2 CAR-T are being tested to attack the tumor immunologically where surgery and drugs fail."
 ---
 
 # Diffuse Midline Glioma
@@ -262,6 +271,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Diffuse midline glioma hijacks the synapse: tumor cells form real synapses with neurons and grow in response to neuronal activity, so brain electrical signaling literally feeds the cancer—a discovery opening neuroscience-based therapies for this lethal childhood tumor.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Diffuse midline glioma is a frontier for T-cell therapy: GD2-directed CAR-T cells have shrunk these previously untreatable pontine tumors in early trials, so engineered cytotoxic T cells offer the first real hope against a near-uniformly fatal cancer.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate drives diffuse midline glioma growth: neuron-released glutamate acting on tumor AMPA receptors stimulates proliferation, so the same excitatory signaling that runs the brain fuels the cancer—making glutamate pathways a therapeutic target.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Diffuse midline glioma's most promising drug works on dopamine signaling: ONC201 (dordaviprone) antagonizes the dopamine D2 receptor (and mitochondrial ClpP) and has produced rare responses in H3K27M tumors, a surprising therapeutic angle in an otherwise fatal cancer.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — A thalamic subset of diffuse midline glioma is driven by EGFR: bithalamic H3-wildtype midline gliomas carry EGFR mutations rather than H3K27M, so molecular testing splits these tumors into biologically distinct, differently-targetable groups.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Diffuse midline glioma is a target for NK and cell therapies: because it is so hard to resect or irradiate, engineered NK cells and GD2 CAR-T are being tested to attack the tumor immunologically where surgery and drugs fail.
 
 ---
 
