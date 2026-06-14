@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Norepinephrine and sympathetic drive raise blood pressure: catecholamines constrict vessels and speed the heart, so overactive sympathetic tone elevates pressure—the rationale for beta-blockers and alpha-blockers and the cause of surges in pheochromocytoma."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal gland causes curable secondary hypertension: primary aldosteronism (Conn's), cortisol excess (Cushing's), and pheochromocytoma each drive high blood pressure, so resistant or young-onset hypertension prompts a hunt for an adrenal cause."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Hypertension in pregnancy centers on the placenta: poor placental perfusion releases factors that injure maternal blood vessels, causing pre-eclampsia—high blood pressure with organ damage that endangers mother and baby and resolves only with delivery."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut microbiome helps set blood pressure: microbes ferment fiber into short-chain fatty acids that relax vessels and modulate salt handling, so dysbiosis is emerging as a factor in hypertension beyond diet and genetics."
 ---
 
 # Hypertension
@@ -202,6 +211,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Hypertension is driven by vascular smooth muscle: arteriolar smooth-muscle tone sets peripheral resistance, and chronic high pressure thickens these cells, stiffening vessels—so smooth-muscle relaxation is the target of calcium-channel blockers and vasodilators.
 - `connects-to` → **[Renal System](../renal-system/README.md)** — The renal system is both cause and victim of hypertension: the kidney sets long-term blood pressure through salt and renin handling, so renal disease raises pressure while sustained hypertension damages the kidney—a self-amplifying vicious loop.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Norepinephrine and sympathetic drive raise blood pressure: catecholamines constrict vessels and speed the heart, so overactive sympathetic tone elevates pressure—the rationale for beta-blockers and alpha-blockers and the cause of surges in pheochromocytoma.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland causes curable secondary hypertension: primary aldosteronism (Conn's), cortisol excess (Cushing's), and pheochromocytoma each drive high blood pressure, so resistant or young-onset hypertension prompts a hunt for an adrenal cause.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Hypertension in pregnancy centers on the placenta: poor placental perfusion releases factors that injure maternal blood vessels, causing pre-eclampsia—high blood pressure with organ damage that endangers mother and baby and resolves only with delivery.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome helps set blood pressure: microbes ferment fiber into short-chain fatty acids that relax vessels and modulate salt handling, so dysbiosis is emerging as a factor in hypertension beyond diet and genetics.
 
 ## Pathology
 

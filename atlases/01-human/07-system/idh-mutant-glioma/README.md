@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "IDH-mutant gliomas are the more indolent diffuse tumors of the nervous system: they infiltrate the brain like glioblastoma but, being IDH-mutant, grow slower and respond better to treatment—so molecular status, not just appearance, predicts the course."
+  - target: 01-human/07-system/hlrcc
+    relation: connects-to
+    note: "IDH-mutant glioma and HLRCC are sibling oncometabolite cancers: IDH mutation makes 2-hydroxyglutarate while FH loss makes fumarate, and both metabolites block the same dioxygenases to rewire epigenetics—so distinct enzymes converge on one cancer mechanism."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "IDH-mutant glioma is a vaccine target for T cells: the shared IDH1-R132H mutation creates a public neoantigen, and a peptide vaccine has induced cytotoxic T-cell responses against it—an early step toward immunotherapy for these gliomas."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "IDH-mutant gliomas drive seizures through glutamate: the 2-HG oncometabolite resembles glutamate and the tumor disturbs glutamate balance, so epilepsy is an early, common presenting symptom—seizure control is part of routine care."
 ---
 
 # IDH-Mutant Glioma
@@ -243,6 +252,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy suits IDH-mutant glioma's long survivors: because these lower-grade gliomas strike younger patients who live many years, protons' reduced dose to surrounding brain helps limit late cognitive and endocrine toxicity from radiation.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IDH-mutant glioma is built on a carbon-metabolism quirk: the mutant enzyme converts a Krebs-cycle intermediate into the carbon oncometabolite 2-hydroxyglutarate, which reprograms DNA and histone methylation to drive these gliomas—and is now a drug target.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — IDH-mutant gliomas are the more indolent diffuse tumors of the nervous system: they infiltrate the brain like glioblastoma but, being IDH-mutant, grow slower and respond better to treatment—so molecular status, not just appearance, predicts the course.
+- `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — IDH-mutant glioma and HLRCC are sibling oncometabolite cancers: IDH mutation makes 2-hydroxyglutarate while FH loss makes fumarate, and both metabolites block the same dioxygenases to rewire epigenetics—so distinct enzymes converge on one cancer mechanism.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — IDH-mutant glioma is a vaccine target for T cells: the shared IDH1-R132H mutation creates a public neoantigen, and a peptide vaccine has induced cytotoxic T-cell responses against it—an early step toward immunotherapy for these gliomas.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — IDH-mutant gliomas drive seizures through glutamate: the 2-HG oncometabolite resembles glutamate and the tumor disturbs glutamate balance, so epilepsy is an early, common presenting symptom—seizure control is part of routine care.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
