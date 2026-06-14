@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Ankylosing spondylitis restricts and scars the lungs: fusion of the rib-spine joints stiffens the chest wall limiting expansion, and apical pulmonary fibrosis develops in advanced disease—so breathing is impaired both mechanically and by lung scarring."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Ankylosing spondylitis is tied to the gut: most patients have subclinical bowel inflammation, and a dysbiotic microbiome in HLA-B27 carriers is thought to drive the IL-23/IL-17 axis—linking gut bacteria to spinal disease along the gut-joint axis."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "AS damages and remakes collagen-rich tissue: chronic enthesitis erodes the collagen anchors where ligaments meet bone, then heals by ossification, so syndesmophytes bridge vertebrae—turning the spine's flexible collagen attachments into rigid bone."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "AS creates a calcium paradox in the skeleton: ligaments ossify and deposit calcium into rigid syndesmophytes while the vertebral bodies inside lose mineral and become osteoporotic—so the stiff bamboo spine is brittle and prone to fracture."
 ---
 
 # Ankylosing Spondylitis
@@ -220,6 +229,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Enthesis fibroblasts build the bony fusion of ankylosing spondylitis: at sites where tendon meets bone, inflammation drives fibroblasts and osteoblasts to lay down new bone (syndesmophytes), so the spine gradually ossifies into the rigid bamboo spine.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Ankylosing spondylitis reaches the heart: chronic inflammation can cause aortitis with aortic-root dilation and regurgitation plus conduction block, so cardiac evaluation is part of long-standing AS—an extra-articular manifestation beyond the spine.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Ankylosing spondylitis restricts and scars the lungs: fusion of the rib-spine joints stiffens the chest wall limiting expansion, and apical pulmonary fibrosis develops in advanced disease—so breathing is impaired both mechanically and by lung scarring.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Ankylosing spondylitis is tied to the gut: most patients have subclinical bowel inflammation, and a dysbiotic microbiome in HLA-B27 carriers is thought to drive the IL-23/IL-17 axis—linking gut bacteria to spinal disease along the gut-joint axis.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — AS damages and remakes collagen-rich tissue: chronic enthesitis erodes the collagen anchors where ligaments meet bone, then heals by ossification, so syndesmophytes bridge vertebrae—turning the spine's flexible collagen attachments into rigid bone.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AS creates a calcium paradox in the skeleton: ligaments ossify and deposit calcium into rigid syndesmophytes while the vertebral bodies inside lose mineral and become osteoporotic—so the stiff bamboo spine is brittle and prone to fracture.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

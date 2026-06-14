@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/disseminated-intravascular-coagulation
     relation: connects-to
     note: "Acute promyelocytic leukemia, an AML subtype, classically triggers DIC: the malignant promyelocytes release procoagulants that consume clotting factors, causing life-threatening bleeding—so APL is a medical emergency treated urgently with ATRA to halt the coagulopathy."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "AML crowds out platelet production: leukemic blasts overrun the marrow, so falling platelets cause bruising, bleeding, and—when promyelocytic AML triggers DIC—life-threatening hemorrhage, making platelet transfusion a mainstay of supportive care."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "AML is curable by harnessing the immune system: allogeneic stem-cell transplant works largely through a graft-versus-leukemia effect, where donor T cells recognize and kill residual blasts—the most powerful anti-leukemic immunotherapy available."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "AML can infiltrate the skin as leukemia cutis: monocytic subtypes especially seed violaceous nodules, and myeloid sarcoma (chloroma) forms solid deposits—skin or soft-tissue lesions that can herald or signal relapse of the marrow disease."
 ---
 
 # AML
@@ -222,6 +231,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[NPM1](../../03-molecular/npm1/README.md)** — NPM1 is the most common AML mutation: this nucleophosmin defect mislocalizes the protein and defines a large, often favorable-prognosis AML subtype (when FLT3-ITD is absent), so NPM1 status guides risk-stratification and the choice between chemotherapy and transplant.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — AML causes anemia by crowding out red-cell production: leukemic blasts fill the marrow and suppress erythropoiesis, so fatigue and pallor from anemia—alongside bleeding and infection from low platelets and neutrophils—are how marrow takeover presents.
 - `connects-to` → **[Disseminated Intravascular Coagulation](../disseminated-intravascular-coagulation/README.md)** — Acute promyelocytic leukemia, an AML subtype, classically triggers DIC: the malignant promyelocytes release procoagulants that consume clotting factors, causing life-threatening bleeding—so APL is a medical emergency treated urgently with ATRA to halt the coagulopathy.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — AML crowds out platelet production: leukemic blasts overrun the marrow, so falling platelets cause bruising, bleeding, and—when promyelocytic AML triggers DIC—life-threatening hemorrhage, making platelet transfusion a mainstay of supportive care.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — AML is curable by harnessing the immune system: allogeneic stem-cell transplant works largely through a graft-versus-leukemia effect, where donor T cells recognize and kill residual blasts—the most powerful anti-leukemic immunotherapy available.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — AML can infiltrate the skin as leukemia cutis: monocytic subtypes especially seed violaceous nodules, and myeloid sarcoma (chloroma) forms solid deposits—skin or soft-tissue lesions that can herald or signal relapse of the marrow disease.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
