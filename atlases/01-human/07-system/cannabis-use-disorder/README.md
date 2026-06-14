@@ -69,6 +69,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Cannabis perturbs glutamate signaling in ways tied to psychosis: THC's action on CB1 receptors modulates glutamate release in cortical and limbic circuits, and this disruption helps explain why heavy adolescent use raises schizophrenia risk."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Cannabis cuts both ways in the gut: it is used medically to curb nausea and stimulate appetite, yet chronic heavy use can cause cannabinoid hyperemesis syndrome—cyclic severe vomiting oddly relieved by hot showers and resolved only by stopping the drug."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cannabis disturbs the reproductive system: regular use lowers testosterone and sperm counts in men and disrupts ovulation in women, and prenatal exposure is linked to lower birth weight—so heavy use can impair fertility and fetal development."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "Cannabis use disorder and ADHD often coincide: people with ADHD use cannabis at high rates, sometimes to self-soothe restlessness, but it further degrades the attention and working memory already impaired in ADHD—worsening rather than treating the core deficit."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -241,6 +250,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Cannabis stresses the heart and vessels: THC raises heart rate and blood pressure acutely and is linked to myocardial infarction, arrhythmia and cannabis arteritis, so heavy use carries real cardiovascular risk despite cannabis's benign reputation.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Cannabis and sleep have a two-edged relationship: it may shorten sleep latency acutely but suppresses REM and, on withdrawal, causes rebound insomnia and vivid dreams—so dependence and disturbed sleep reinforce each other in cannabis use disorder.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Cannabis perturbs glutamate signaling in ways tied to psychosis: THC's action on CB1 receptors modulates glutamate release in cortical and limbic circuits, and this disruption helps explain why heavy adolescent use raises schizophrenia risk.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cannabis cuts both ways in the gut: it is used medically to curb nausea and stimulate appetite, yet chronic heavy use can cause cannabinoid hyperemesis syndrome—cyclic severe vomiting oddly relieved by hot showers and resolved only by stopping the drug.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cannabis disturbs the reproductive system: regular use lowers testosterone and sperm counts in men and disrupts ovulation in women, and prenatal exposure is linked to lower birth weight—so heavy use can impair fertility and fetal development.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Cannabis use disorder and ADHD often coincide: people with ADHD use cannabis at high rates, sometimes to self-soothe restlessness, but it further degrades the attention and working memory already impaired in ADHD—worsening rather than treating the core deficit.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

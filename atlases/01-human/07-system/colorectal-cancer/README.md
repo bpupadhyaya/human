@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-1 is the checkpoint that MSI-high colorectal tumors exploit to evade attack: blocking it produced the first tissue-agnostic FDA approval (pembrolizumab for any MSI-high cancer), so dMMR/MSI status is now tested at diagnosis to guide immunotherapy."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Type 2 diabetes raises colorectal cancer risk: high insulin and IGF-1 from insulin resistance promote colonocyte proliferation, and shared risks like obesity and inactivity compound it—so metabolic health is part of colorectal cancer prevention."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "After the liver, the lung is colorectal cancer's next metastatic stop: tumor cells reach it via the systemic circulation, and isolated lung metastases are sometimes surgically resected for cure—so chest imaging is routine in staging and follow-up."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "A subset of colorectal cancers are HER2-amplified: like in breast and gastric cancer, this drives growth and predicts resistance to anti-EGFR drugs, but responds to HER2-targeted combinations—so HER2 testing now guides therapy in metastatic disease."
 ---
 
 # Colorectal Cancer
@@ -227,6 +236,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — APC loss is the gatekeeper mutation that starts colorectal cancer: inactivating APC unleashes Wnt/beta-catenin to form the first adenoma, so it initiates the adenoma-carcinoma sequence—mutated in FAP and in most sporadic colorectal cancers.
 - `targets` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Colorectal cancer arises stepwise from the intestinal epithelium: normal crypt cells acquire APC, then KRAS, then p53 hits, progressing through adenoma to carcinoma—the textbook adenoma-carcinoma sequence that makes screening colonoscopy preventive.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 is the checkpoint that MSI-high colorectal tumors exploit to evade attack: blocking it produced the first tissue-agnostic FDA approval (pembrolizumab for any MSI-high cancer), so dMMR/MSI status is now tested at diagnosis to guide immunotherapy.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes raises colorectal cancer risk: high insulin and IGF-1 from insulin resistance promote colonocyte proliferation, and shared risks like obesity and inactivity compound it—so metabolic health is part of colorectal cancer prevention.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — After the liver, the lung is colorectal cancer's next metastatic stop: tumor cells reach it via the systemic circulation, and isolated lung metastases are sometimes surgically resected for cure—so chest imaging is routine in staging and follow-up.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — A subset of colorectal cancers are HER2-amplified: like in breast and gastric cancer, this drives growth and predicts resistance to anti-EGFR drugs, but responds to HER2-targeted combinations—so HER2 testing now guides therapy in metastatic disease.
 
 ---
 
