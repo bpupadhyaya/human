@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "Alcohol is an under-recognized breast cancer cause: even moderate drinking raises risk by increasing estrogen and generating DNA-damaging acetaldehyde, so alcohol is now counted among the modifiable risk factors for hormone-driven breast cancer."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Heavy drinking and thiamine loss devastate the hippocampus: Wernicke-Korsakoff syndrome and alcohol-related brain damage impair this memory hub, causing the dense amnesia and confabulation of Korsakoff's—why thiamine is given urgently in alcohol withdrawal."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Alcohol is a proven cause of colorectal cancer: its metabolite acetaldehyde damages DNA and it depletes folate, so even moderate drinking raises colorectal risk—one of several cancers (with breast and liver) alcohol drives."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Alcohol leaves a fingerprint in red cells: it is directly toxic to marrow and, with folate/B12 deficiency, enlarges red cells, so macrocytosis (high MCV) is a classic clue to chronic heavy drinking."
 ---
 
 # Alcohol Use Disorder
@@ -315,6 +324,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Alcohol is a leading cause of pancreatitis: it triggers premature enzyme activation that digests the pancreas, causing acute attacks and, with chronic use, permanent damage with diabetes and malabsorption—so the pancreas is among alcohol's prime organ targets.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Alcohol crosses the placenta freely: with no safe level in pregnancy, it disrupts fetal brain development, causing fetal alcohol spectrum disorders with lifelong cognitive and facial features—so alcohol use disorder in pregnancy carries permanent fetal harm.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Alcohol is an under-recognized breast cancer cause: even moderate drinking raises risk by increasing estrogen and generating DNA-damaging acetaldehyde, so alcohol is now counted among the modifiable risk factors for hormone-driven breast cancer.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Heavy drinking and thiamine loss devastate the hippocampus: Wernicke-Korsakoff syndrome and alcohol-related brain damage impair this memory hub, causing the dense amnesia and confabulation of Korsakoff's—why thiamine is given urgently in alcohol withdrawal.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Alcohol is a proven cause of colorectal cancer: its metabolite acetaldehyde damages DNA and it depletes folate, so even moderate drinking raises colorectal risk—one of several cancers (with breast and liver) alcohol drives.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Alcohol leaves a fingerprint in red cells: it is directly toxic to marrow and, with folate/B12 deficiency, enlarges red cells, so macrocytosis (high MCV) is a classic clue to chronic heavy drinking.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
