@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "Adrenaline is the backup against hypoglycemia in type 1 diabetes: when insulin overshoots, epinephrine should raise glucose and trigger warning symptoms, but in long-standing T1D this response blunts—causing dangerous hypoglycemia unawareness."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Type 1 diabetes travels with thyroid autoimmunity: it clusters in autoimmune polyglandular syndromes with Hashimoto's and Graves' disease, so patients are screened for thyroid antibodies and TSH—one autoimmune endocrine failure predicts another."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Diabetic ketoacidosis is a potassium trap: acidosis masks a severe total-body potassium deficit by shifting K+ out of cells, so giving insulin drives potassium back in and can cause dangerous hypokalemia—why DKA care obsessively tracks potassium."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol is type 1 diabetes's counter-hormone and a fellow autoimmune target: it raises glucose opposing insulin (driving hypoglycemia-rebound), and autoimmune adrenal failure (Addison's) can join T1D in polyglandular syndrome."
 ---
 
 # Type 1 Diabetes
@@ -219,6 +228,9 @@ cross_links:
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome may shape type 1 diabetes risk: early-life dysbiosis and a leaky gut can skew immune development and are linked to islet autoimmunity, so microbial exposures help explain why T1D incidence is rising faster than genetics alone can.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D is tied to type 1 diabetes risk: it modulates the immune system and regulatory T cells, and low early-life vitamin D status is associated with more islet autoimmunity—so deficiency is a candidate environmental trigger of this autoimmune disease.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenaline is the backup against hypoglycemia in type 1 diabetes: when insulin overshoots, epinephrine should raise glucose and trigger warning symptoms, but in long-standing T1D this response blunts—causing dangerous hypoglycemia unawareness.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Type 1 diabetes travels with thyroid autoimmunity: it clusters in autoimmune polyglandular syndromes with Hashimoto's and Graves' disease, so patients are screened for thyroid antibodies and TSH—one autoimmune endocrine failure predicts another.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Diabetic ketoacidosis is a potassium trap: acidosis masks a severe total-body potassium deficit by shifting K+ out of cells, so giving insulin drives potassium back in and can cause dangerous hypokalemia—why DKA care obsessively tracks potassium.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol is type 1 diabetes's counter-hormone and a fellow autoimmune target: it raises glucose opposing insulin (driving hypoglycemia-rebound), and autoimmune adrenal failure (Addison's) can join T1D in polyglandular syndrome.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
