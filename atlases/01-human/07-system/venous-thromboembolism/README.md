@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Venous clots also strike the abdomen's great veins: thrombosis of the portal or hepatic veins (Budd-Chiari) links venous thromboembolism to myeloproliferative disorders and PNH, so unusual-site clots prompt a search for hidden causes."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Veins can clot at the kidney: renal vein thrombosis is a venous thromboembolic event classically tied to nephrotic syndrome, whose urinary loss of anticoagulant proteins tips blood toward clotting."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages clean up venous clots: they invade the thrombus to break it down and remodel the vein, so when this resolution fails the clot organizes and scars, causing the post-thrombotic syndrome."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Unresolved clots turn to fibrosis in the lungs: emboli that fail to clear organize into fibrous webs that narrow pulmonary arteries, causing chronic thromboembolic pulmonary hypertension, a late and treatable consequence."
 ---
 
 # Venous Thromboembolism
@@ -270,6 +279,9 @@ cross_links:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A venous clot becomes deadly when it starves the lungs of oxygen: a leg clot can break off and lodge in the pulmonary arteries, blocking blood flow so the lungs cannot oxygenate—the hypoxemia of pulmonary embolism.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Veins can clot in the brain too: cerebral venous sinus thrombosis is an unusual form of venous thromboembolism, striking young women on estrogen or in pregnancy and causing headache, seizures and stroke-like deficits.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Venous clots also strike the abdomen's great veins: thrombosis of the portal or hepatic veins (Budd-Chiari) links venous thromboembolism to myeloproliferative disorders and PNH, so unusual-site clots prompt a search for hidden causes.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Veins can clot at the kidney: renal vein thrombosis is a venous thromboembolic event classically tied to nephrotic syndrome, whose urinary loss of anticoagulant proteins tips blood toward clotting.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages clean up venous clots: they invade the thrombus to break it down and remodel the vein, so when this resolution fails the clot organizes and scars, causing the post-thrombotic syndrome.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Unresolved clots turn to fibrosis in the lungs: emboli that fail to clear organize into fibrous webs that narrow pulmonary arteries, causing chronic thromboembolic pulmonary hypertension, a late and treatable consequence.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

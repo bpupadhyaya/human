@@ -117,6 +117,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Iron damage to the pituitary stunts growth in thalassemia: overload harms the gland that makes growth hormone, so children can fail to grow and enter puberty late—endocrine complications that shape lifelong care beyond the anemia itself."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Thalassemia treatment can strip away zinc: iron chelators that remove the excess iron also bind zinc, so deficiency is common and contributes to the poor growth and weakened immunity of chronically treated patients."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Thalassemia weakens bone through osteoclasts: marrow expansion and hormone deficiencies tip the balance toward these bone-resorbing cells, driving the osteoporosis and fractures that complicate even well-transfused patients."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Thalassemia shows in the skin: iron overload bronzes and greys the skin, while chronic anemia and poor circulation cause stubborn leg ulcers, outward marks of the disease's iron and oxygen problems."
 ---
 
 # Thalassemia
@@ -294,6 +303,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Iron poisons the heart muscle in thalassemia: repeated transfusions deposit iron in cardiomyocytes, where it drives oxidative damage and arrhythmia, and this iron-overload cardiomyopathy is the leading cause of death—why iron chelation is lifesaving.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Transfusional iron scars the thyroid: deposits in the gland cause hypothyroidism, one of the endocrine failures of chronic thalassemia, so thyroid function is monitored alongside the heart and pancreas in iron-overloaded patients.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Iron damage to the pituitary stunts growth in thalassemia: overload harms the gland that makes growth hormone, so children can fail to grow and enter puberty late—endocrine complications that shape lifelong care beyond the anemia itself.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Thalassemia treatment can strip away zinc: iron chelators that remove the excess iron also bind zinc, so deficiency is common and contributes to the poor growth and weakened immunity of chronically treated patients.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Thalassemia weakens bone through osteoclasts: marrow expansion and hormone deficiencies tip the balance toward these bone-resorbing cells, driving the osteoporosis and fractures that complicate even well-transfused patients.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Thalassemia shows in the skin: iron overload bronzes and greys the skin, while chronic anemia and poor circulation cause stubborn leg ulcers, outward marks of the disease's iron and oxygen problems.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
