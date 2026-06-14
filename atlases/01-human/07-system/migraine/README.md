@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Migraine is a primary disorder of the nervous system, not just a vascular headache: it is a brain-network disease of sensory processing in which the trigeminovascular system, brainstem and cortex misfire—reframing it from blood vessels to neural circuits."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Migraine often centers on the eye: visual aura (shimmering zigzags) signals the cortical spreading depression that precedes the headache, and severe photophobia and rare retinal migraine make the visual system both an early warning and a target of attacks."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Migraine is deeply tied to the gut: nausea and vomiting are core symptoms, gastric emptying slows during attacks (impairing oral drugs), and childhood cyclic vomiting and abdominal migraine are gut-centered variants of the same disorder."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Migraine reflects an excitable, under-inhibited brain: weak GABA-mediated inhibition lowers the threshold for cortical spreading depression, which is why GABA-enhancing drugs like topiramate and valproate are effective migraine preventives."
 ---
 
 # Migraine
@@ -256,6 +265,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine shapes migraine's premonitory and nausea symptoms: dopaminergic activation underlies the yawning, mood change and nausea that precede the headache, and dopamine antagonists (e.g. metoclopramide, prochlorperazine) are effective acute migraine treatments.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium channels link genetics to migraine: mutations in the CACNA1A calcium-channel gene cause familial hemiplegic migraine, and altered neuronal calcium handling helps drive the cortical spreading depression that underlies aura.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Migraine is a primary disorder of the nervous system, not just a vascular headache: it is a brain-network disease of sensory processing in which the trigeminovascular system, brainstem and cortex misfire—reframing it from blood vessels to neural circuits.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Migraine often centers on the eye: visual aura (shimmering zigzags) signals the cortical spreading depression that precedes the headache, and severe photophobia and rare retinal migraine make the visual system both an early warning and a target of attacks.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Migraine is deeply tied to the gut: nausea and vomiting are core symptoms, gastric emptying slows during attacks (impairing oral drugs), and childhood cyclic vomiting and abdominal migraine are gut-centered variants of the same disorder.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Migraine reflects an excitable, under-inhibited brain: weak GABA-mediated inhibition lowers the threshold for cortical spreading depression, which is why GABA-enhancing drugs like topiramate and valproate are effective migraine preventives.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

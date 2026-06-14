@@ -92,6 +92,15 @@ cross_links:
   - target: 01-human/03-molecular/immunoglobulin-g
     relation: connects-to
     note: "Measles infection leaves lifelong IgG immunity but also 'immune amnesia': it depletes memory B and T cells, erasing antibodies to other pathogens for years, so it raises susceptibility to unrelated infections—while the vaccine protects without this harm."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "Measles is lymphotropic: it enters via the SLAM (CD150) receptor on immune cells and replicates in lymph nodes, spleen, and tonsils, causing generalized lymphadenopathy and the giant cells seen in lymphoid tissue—lymphoid organs are its main amplification site."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Measles can blind through the eye: the virus causes keratoconjunctivitis, and in vitamin-A-deficient children corneal ulceration and scarring lead to blindness—so measles remains a leading cause of childhood blindness in poor settings, treated with vitamin A."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Measles depletes T cells acutely: by infecting activated lymphocytes it causes sharp lymphopenia and suppressed cell-mediated immunity during infection, which is why bacterial pneumonia—not the virus itself—causes most measles deaths."
 ---
 
 # Measles
@@ -261,6 +270,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The measles rash is its most recognizable sign: T-cell attack on virus-infected skin capillaries produces the spreading maculopapular eruption, preceded by Koplik spots on oral mucosa—the rash marks immune engagement, not direct skin destruction.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Measles can devastate the nervous system: acute postinfectious encephalitis strikes ~1 in 1,000 cases, and years later the relentless subacute sclerosing panencephalitis (SSPE) can emerge from persistent virus—rare but fatal reasons measles is far from benign.
 - `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Measles infection leaves lifelong IgG immunity but also 'immune amnesia': it depletes memory B and T cells, erasing antibodies to other pathogens for years, so it raises susceptibility to unrelated infections—while the vaccine protects without this harm.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Measles is lymphotropic: it enters via the SLAM (CD150) receptor on immune cells and replicates in lymph nodes, spleen, and tonsils, causing generalized lymphadenopathy and the giant cells seen in lymphoid tissue—lymphoid organs are its main amplification site.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Measles can blind through the eye: the virus causes keratoconjunctivitis, and in vitamin-A-deficient children corneal ulceration and scarring lead to blindness—so measles remains a leading cause of childhood blindness in poor settings, treated with vitamin A.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Measles depletes T cells acutely: by infecting activated lymphocytes it causes sharp lymphopenia and suppressed cell-mediated immunity during infection, which is why bacterial pneumonia—not the virus itself—causes most measles deaths.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
