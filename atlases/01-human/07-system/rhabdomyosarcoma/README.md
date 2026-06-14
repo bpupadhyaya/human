@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Rhabdomyosarcoma largely evades cytotoxic T cells: with few mutations and an immunosuppressive microenvironment it resists checkpoint drugs, so engineered T-cell therapies are explored to direct killing at this childhood sarcoma."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Rhabdomyosarcoma often strikes the orbit: it is the commonest soft-tissue sarcoma of the eye socket in children, causing rapidly progressive proptosis that demands urgent diagnosis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Rhabdomyosarcoma is muscle gone wrong, down to its calcium: the rhabdomyoblasts switch on skeletal-muscle genes and the calcium-driven contraction machinery, expressing markers like desmin and myogenin that confirm the diagnosis."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Rhabdomyosarcoma builds its blood supply through endothelial cells: VEGF from the tumor recruits new vessels to feed its rapid growth, a feature studied for anti-angiogenic therapy."
 ---
 
 # Rhabdomyosarcoma
@@ -275,6 +284,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia makes rhabdomyosarcoma more aggressive: the fast-growing muscle sarcoma outpaces its blood supply, and low oxygen drives invasion, metastasis and resistance, contributing to its tendency to spread to the lungs.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Parameningeal rhabdomyosarcoma threatens the brain: tumors near the skull base and meninges can invade the central nervous system directly, a high-risk location that demands intensive radiation and CNS-directed treatment.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Rhabdomyosarcoma largely evades cytotoxic T cells: with few mutations and an immunosuppressive microenvironment it resists checkpoint drugs, so engineered T-cell therapies are explored to direct killing at this childhood sarcoma.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Rhabdomyosarcoma often strikes the orbit: it is the commonest soft-tissue sarcoma of the eye socket in children, causing rapidly progressive proptosis that demands urgent diagnosis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rhabdomyosarcoma is muscle gone wrong, down to its calcium: the rhabdomyoblasts switch on skeletal-muscle genes and the calcium-driven contraction machinery, expressing markers like desmin and myogenin that confirm the diagnosis.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Rhabdomyosarcoma builds its blood supply through endothelial cells: VEGF from the tumor recruits new vessels to feed its rapid growth, a feature studied for anti-angiogenic therapy.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

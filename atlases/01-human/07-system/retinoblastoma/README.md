@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Retinoblastoma can spread through the blood to the liver: beyond optic-nerve and CNS extension, hematogenous metastasis seeds organs including the liver, a sign of advanced disease that shifts treatment to intensive systemic therapy."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Retinoblastoma gives itself away by calcium phosphate: the tumor classically calcifies, and these calcium-phosphate flecks on ultrasound or CT are a key clue distinguishing it from other causes of a white pupil."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Retinoblastoma recruits endothelial cells to grow: VEGF from the tumor drives the new vessels that feed it within the eye, a target explored alongside the chemotherapy delivered into the eye's artery."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Hereditary retinoblastoma raises lifelong skin-cancer risk: survivors with a germline RB1 mutation face an elevated chance of melanoma and other second cancers, so skin surveillance joins their long-term care."
 ---
 
 # Retinoblastoma
@@ -260,6 +269,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium gives retinoblastoma away on imaging: the tumor characteristically calcifies, so flecks of calcium within an eye mass on ultrasound or CT are a key diagnostic clue in a child with leukocoria (white pupil).
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Retinoblastoma is being opened to cytotoxic T cells: long treated by local and chemo approaches, it is now studied for immunotherapy, with engineered T cells explored to attack the eye tumor and spare vision where possible.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Retinoblastoma can spread through the blood to the liver: beyond optic-nerve and CNS extension, hematogenous metastasis seeds organs including the liver, a sign of advanced disease that shifts treatment to intensive systemic therapy.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Retinoblastoma gives itself away by calcium phosphate: the tumor classically calcifies, and these calcium-phosphate flecks on ultrasound or CT are a key clue distinguishing it from other causes of a white pupil.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Retinoblastoma recruits endothelial cells to grow: VEGF from the tumor drives the new vessels that feed it within the eye, a target explored alongside the chemotherapy delivered into the eye's artery.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hereditary retinoblastoma raises lifelong skin-cancer risk: survivors with a germline RB1 mutation face an elevated chance of melanoma and other second cancers, so skin surveillance joins their long-term care.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
