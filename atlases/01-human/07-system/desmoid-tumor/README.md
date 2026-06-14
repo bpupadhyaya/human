@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages help build the desmoid's stroma: tumor-associated macrophages infiltrate the fibrous mass and secrete growth factors that drive the relentless local proliferation of myofibroblasts characteristic of these tumors."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Desmoids also lean on PI3K-AKT growth signaling: alongside the driving Wnt/beta-catenin lesion, AKT-mTOR activity sustains the myofibroblast proliferation, which is why mTOR-pathway drugs have been tried in these locally aggressive fibrous tumors."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Desmoids are immune-cold tumors with few cytotoxic T cells: their dense collagen stroma keeps killer T cells sparse, helping explain why checkpoint immunotherapy has little effect and why treatment instead targets Wnt and growth signals."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "The desmoid's dense fibrous core runs low on oxygen: as the mass outgrows its blood supply it turns hypoxic, stabilizing HIF and driving the VEGF-fueled angiogenesis that lets the relentless fibromatosis keep expanding."
 ---
 
 # Desmoid Tumor
@@ -269,6 +278,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Desmoid tumors can be reined in through mTOR: the same β-catenin and growth signaling that drives them feeds into the PI3K-AKT-mTOR axis, so mTOR inhibitors like sirolimus are used to shrink these locally aggressive fibromatoses that won't metastasize.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Desmoid tumors are seeded with mast cells: these immune cells populate the fibromatosis stroma and release mediators that may spur fibroblast growth, part of the inflammatory microenvironment shaping how aggressively a desmoid behaves.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help build the desmoid's stroma: tumor-associated macrophages infiltrate the fibrous mass and secrete growth factors that drive the relentless local proliferation of myofibroblasts characteristic of these tumors.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Desmoids also lean on PI3K-AKT growth signaling: alongside the driving Wnt/beta-catenin lesion, AKT-mTOR activity sustains the myofibroblast proliferation, which is why mTOR-pathway drugs have been tried in these locally aggressive fibrous tumors.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Desmoids are immune-cold tumors with few cytotoxic T cells: their dense collagen stroma keeps killer T cells sparse, helping explain why checkpoint immunotherapy has little effect and why treatment instead targets Wnt and growth signals.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — The desmoid's dense fibrous core runs low on oxygen: as the mass outgrows its blood supply it turns hypoxic, stabilizing HIF and driving the VEGF-fueled angiogenesis that lets the relentless fibromatosis keep expanding.
 
 ---
 

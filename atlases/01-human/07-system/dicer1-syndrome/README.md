@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "DICER1 governs how neurons mature through microRNA: the gene's miRNA-processing job lets neural progenitors differentiate, so when it fails immature neuron-like cells can persist and seed the rare embryonal brain tumors of the syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "DICER1 tumors lean on mTOR growth signaling: the embryonal and sarcomatous tumors of the syndrome activate this pathway to fuel proliferation, making mTOR inhibition a strategy explored across its diverse childhood cancers."
+  - target: 01-human/03-molecular/wt1
+    relation: connects-to
+    note: "DICER1 syndrome raises the risk of Wilms tumor, the cancer of the WT1 gene: though it strikes the kidney by a different route—failed microRNA processing rather than WT1 loss—it adds nephroblastoma to the syndrome's tumor spectrum."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages populate DICER1's tumors: in the pleuropulmonary blastomas and sarcomas of the syndrome they infiltrate the stroma and secrete growth and angiogenic factors, shaping the microenvironment of these embryonal cancers."
 ---
 
 # DICER1 Syndrome
@@ -250,6 +259,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — DICER1 syndrome can flood a young woman with testosterone: its Sertoli-Leydig cell ovarian tumors secrete androgens, causing virilization—deepening voice, hair growth, and missed periods—a striking clue that points toward testing for the syndrome.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DICER1's most common sign is in the iodine-trapping thyroid: it drives multinodular goiter and raises thyroid cancer risk, so the gland that concentrates iodine to make hormone overgrows into nodules that warrant lifelong ultrasound screening.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — DICER1 governs how neurons mature through microRNA: the gene's miRNA-processing job lets neural progenitors differentiate, so when it fails immature neuron-like cells can persist and seed the rare embryonal brain tumors of the syndrome.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — DICER1 tumors lean on mTOR growth signaling: the embryonal and sarcomatous tumors of the syndrome activate this pathway to fuel proliferation, making mTOR inhibition a strategy explored across its diverse childhood cancers.
+- `connects-to` → **[WT1](../../03-molecular/wt1/README.md)** — DICER1 syndrome raises the risk of Wilms tumor, the cancer of the WT1 gene: though it strikes the kidney by a different route—failed microRNA processing rather than WT1 loss—it adds nephroblastoma to the syndrome's tumor spectrum.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages populate DICER1's tumors: in the pleuropulmonary blastomas and sarcomas of the syndrome they infiltrate the stroma and secrete growth and angiogenic factors, shaping the microenvironment of these embryonal cancers.
 
 ---
 
