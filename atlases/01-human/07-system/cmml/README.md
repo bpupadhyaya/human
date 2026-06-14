@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "RAS-pathway mutations push CMML growth through mTOR: KRAS and related lesions activate downstream mTOR signaling that drives the monocyte proliferation, making this growth axis a target studied alongside hypomethylating drugs."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "CMML's anemia leads to iron overload: many patients become transfusion-dependent, and each unit delivers iron the body cannot excrete, building toxic deposits over the disease's course."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "CMML burdens the heart: chronic anemia forces high-output work, transfusional iron can deposit in the muscle, and the disease's inflammation can inflame the pericardium, together straining cardiac function."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "CMML comes with immune dysregulation via regulatory T cells: skewed Treg balance underlies the autoimmune and inflammatory complications—vasculitis and serositis—that often accompany the leukemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -273,6 +282,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — CMML's failing marrow starves tissues of oxygen: as the malignant clone crowds out normal blood production, anemia develops and the blood carries less oxygen, driving the fatigue and breathlessness common in the disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — CMML can infiltrate and inflame the lungs: its excess monocytes seed pulmonary tissue and, with weakened immunity, leave patients prone to pneumonia, so respiratory infiltrates and infection are recurring complications.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — RAS-pathway mutations push CMML growth through mTOR: KRAS and related lesions activate downstream mTOR signaling that drives the monocyte proliferation, making this growth axis a target studied alongside hypomethylating drugs.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — CMML's anemia leads to iron overload: many patients become transfusion-dependent, and each unit delivers iron the body cannot excrete, building toxic deposits over the disease's course.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — CMML burdens the heart: chronic anemia forces high-output work, transfusional iron can deposit in the muscle, and the disease's inflammation can inflame the pericardium, together straining cardiac function.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — CMML comes with immune dysregulation via regulatory T cells: skewed Treg balance underlies the autoimmune and inflammatory complications—vasculitis and serositis—that often accompany the leukemia.
 
 ---
 

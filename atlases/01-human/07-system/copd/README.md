@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic T cells help destroy the COPD lung: CD8 T cells accumulate in the airways and alveoli, and their killing of lung cells correlates with the emphysema and airflow limitation, adding adaptive immunity to the neutrophil-macrophage attack."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Severe COPD can cloud the brain: as failing lungs retain carbon dioxide and drop oxygen, the rising CO2 causes confusion and drowsiness (CO2 narcosis), a danger during exacerbations and with over-oxygenation."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "COPD scars its small airways through fibroblasts: TGF-β activates these cells to lay down collagen around the bronchioles, narrowing and stiffening them in the airway remodeling that fixes the airflow limitation."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "COPD is a body-wide inflammatory state driven by TNF-α: spilling from the inflamed lungs, this cytokine drives the muscle wasting and weight loss (cachexia) that worsen prognosis beyond the airways."
 ---
 
 # COPD
@@ -298,6 +307,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — COPD throws off acid-base balance by trapping CO2: failing lungs cannot exhale carbon dioxide, which becomes carbonic acid and raises blood hydrogen ions, producing the respiratory acidosis that marks advanced disease and flares.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — COPD remodels the small airways with collagen: TGF-beta-driven fibroblasts lay down collagen around the bronchioles, narrowing and stiffening them, so airway fibrosis—not just alveolar loss—drives the irreversible airflow limitation.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells help destroy the COPD lung: CD8 T cells accumulate in the airways and alveoli, and their killing of lung cells correlates with the emphysema and airflow limitation, adding adaptive immunity to the neutrophil-macrophage attack.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Severe COPD can cloud the brain: as failing lungs retain carbon dioxide and drop oxygen, the rising CO2 causes confusion and drowsiness (CO2 narcosis), a danger during exacerbations and with over-oxygenation.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — COPD scars its small airways through fibroblasts: TGF-β activates these cells to lay down collagen around the bronchioles, narrowing and stiffening them in the airway remodeling that fixes the airflow limitation.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — COPD is a body-wide inflammatory state driven by TNF-α: spilling from the inflamed lungs, this cytokine drives the muscle wasting and weight loss (cachexia) that worsen prognosis beyond the airways.
 
 ---
 
