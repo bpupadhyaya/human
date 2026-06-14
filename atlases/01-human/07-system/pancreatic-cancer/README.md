@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver is pancreatic cancer's main metastatic site and a route to jaundice: a head tumor obstructs the bile duct causing painless jaundice, while spread seeds the liver—so liver involvement and biliary obstruction dominate the clinical picture."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Pancreatic cancer frustrates anti-VEGF therapy: despite secreting VEGF, the tumor builds a dense, poorly vascular desmoplastic stroma that walls off blood flow and drug delivery, so antiangiogenic agents have largely failed—part of why PDAC is so chemoresistant."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Pancreatic cancer is among the deadliest cancers of the digestive system: arising silently in the pancreas, it obstructs the bile duct (painless jaundice) and invades nerves and vessels, so most present unresectable—making it a leading cause of cancer death."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Pancreatic cancer is an immune-cold tumor: a dense immunosuppressive, fibroblast-rich stroma excludes T cells, so checkpoint immunotherapy that works elsewhere largely fails here—except in the rare mismatch-repair-deficient subset that responds to PD-1 blockade."
 ---
 
 # Pancreatic Cancer
@@ -227,6 +236,9 @@ cross_links:
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 makes pancreatic cancer hereditary and treatable: germline BRCA2 (and PALB2) loss raises risk and creates homologous-recombination deficiency, so these tumors respond to platinum chemotherapy and PARP inhibitors—a rare targeted opening in a grim cancer.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — New-onset diabetes can be the first sign of pancreatic cancer: the tumor impairs insulin secretion and induces insulin resistance, so unexplained diabetes after age 50—especially with weight loss—warrants considering an occult pancreatic cancer.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is pancreatic cancer's main metastatic site and a route to jaundice: a head tumor obstructs the bile duct causing painless jaundice, while spread seeds the liver—so liver involvement and biliary obstruction dominate the clinical picture.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Pancreatic cancer frustrates anti-VEGF therapy: despite secreting VEGF, the tumor builds a dense, poorly vascular desmoplastic stroma that walls off blood flow and drug delivery, so antiangiogenic agents have largely failed—part of why PDAC is so chemoresistant.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pancreatic cancer is among the deadliest cancers of the digestive system: arising silently in the pancreas, it obstructs the bile duct (painless jaundice) and invades nerves and vessels, so most present unresectable—making it a leading cause of cancer death.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Pancreatic cancer is an immune-cold tumor: a dense immunosuppressive, fibroblast-rich stroma excludes T cells, so checkpoint immunotherapy that works elsewhere largely fails here—except in the rare mismatch-repair-deficient subset that responds to PD-1 blockade.
 
 ---
 

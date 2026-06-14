@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/respiratory-system
     relation: connects-to
     note: "Panic disorder may stem from a faulty suffocation alarm: patients are hypersensitive to rising CO2, so air hunger and hyperventilation trigger attacks (and CO2 inhalation can provoke them in the lab)—linking the respiratory system's chemosensing to panic."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Orexin links arousal to panic: the orexin (hypocretin) system drives wakefulness and the stress response, and heightened orexin signaling is implicated in panic attacks—suggesting the same neurons that stabilize wakefulness also tune the brain's alarm circuitry."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Panic disorder is a misfiring of the nervous system's fear circuitry: a hypersensitive amygdala-brainstem alarm triggers a full fight-or-flight surge without real danger, so the body's threat response—racing heart, breathlessness, terror—erupts as a panic attack."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Panic attacks masquerade as cardiac emergencies: the surge of palpitations, chest pain and breathlessness mimics a heart attack and floods emergency rooms, so panic disorder is a major reason chest pain is evaluated—after truly excluding cardiovascular causes."
 ---
 
 # Panic Disorder
@@ -252,6 +261,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine links caffeine to panic attacks: blocking adenosine receptors (as caffeine does) can provoke panic in susceptible people, evidence that the adenosine system modulates anxiety—so caffeine avoidance is part of managing panic disorder.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Panic disorder masquerades as heart disease: surging adrenaline causes palpitations, chest pain and tachycardia that mimic a heart attack, so panic is a leading reason for emergency cardiac workups—and real cardiac disease must be excluded before diagnosing it.
 - `connects-to` → **[Respiratory system](../respiratory-system/README.md)** — Panic disorder may stem from a faulty suffocation alarm: patients are hypersensitive to rising CO2, so air hunger and hyperventilation trigger attacks (and CO2 inhalation can provoke them in the lab)—linking the respiratory system's chemosensing to panic.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin links arousal to panic: the orexin (hypocretin) system drives wakefulness and the stress response, and heightened orexin signaling is implicated in panic attacks—suggesting the same neurons that stabilize wakefulness also tune the brain's alarm circuitry.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Panic disorder is a misfiring of the nervous system's fear circuitry: a hypersensitive amygdala-brainstem alarm triggers a full fight-or-flight surge without real danger, so the body's threat response—racing heart, breathlessness, terror—erupts as a panic attack.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Panic attacks masquerade as cardiac emergencies: the surge of palpitations, chest pain and breathlessness mimics a heart attack and floods emergency rooms, so panic disorder is a major reason chest pain is evaluated—after truly excluding cardiovascular causes.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
