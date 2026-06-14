@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "FH-deficient HLRCC kidney cancer engages the immune system: these aggressive tumors are often treated with combinations of immune checkpoint inhibitors and anti-angiogenic agents, reflecting how the metabolic defect reshapes the tumor's vasculature and immune milieu."
+  - target: 01-human/07-system/idh-mutant-glioma
+    relation: connects-to
+    note: "HLRCC is an oncometabolite cancer like IDH-mutant glioma: loss of fumarate hydratase floods cells with fumarate which—like glioma's 2-hydroxyglutarate—inhibits dioxygenases, stabilizes HIF, and rewires epigenetics, so two enzymes converge on metabolite-driven cancer."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "HLRCC kidney cancer spreads early to the lung: its type 2 papillary renal cell carcinoma is unusually aggressive and metastasizes while small, often to the lungs—so HLRCC carriers need vigilant renal surveillance and prompt surgery."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "HLRCC's cutaneous leiomyomas are firm, collagen-rich nodules: smooth-muscle tumors set in dense dermal collagen form papules that hurt with cold or touch, so these tender skin lumps are often the first sign pointing to an FH mutation."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -243,6 +252,9 @@ Cutaneous:
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Skin tumors are usually the first sign of HLRCC: FH loss causes multiple cutaneous piloleiomyomas—firm, sometimes painful smooth-muscle nodules—so a dermatologist often flags the syndrome before its aggressive kidney cancer appears.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HLRCC is a disease of carbon metabolism gone wrong: losing fumarate hydratase stalls the Krebs cycle so the carbon metabolite fumarate piles up as an oncometabolite, stabilizing HIF and modifying proteins to drive cancer—linking a metabolic enzyme to malignancy.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — FH-deficient HLRCC kidney cancer engages the immune system: these aggressive tumors are often treated with combinations of immune checkpoint inhibitors and anti-angiogenic agents, reflecting how the metabolic defect reshapes the tumor's vasculature and immune milieu.
+- `connects-to` → **[IDH-Mutant Glioma](../idh-mutant-glioma/README.md)** — HLRCC is an oncometabolite cancer like IDH-mutant glioma: loss of fumarate hydratase floods cells with fumarate which—like glioma's 2-hydroxyglutarate—inhibits dioxygenases, stabilizes HIF, and rewires epigenetics, so two enzymes converge on metabolite-driven cancer.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — HLRCC kidney cancer spreads early to the lung: its type 2 papillary renal cell carcinoma is unusually aggressive and metastasizes while small, often to the lungs—so HLRCC carriers need vigilant renal surveillance and prompt surgery.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — HLRCC's cutaneous leiomyomas are firm, collagen-rich nodules: smooth-muscle tumors set in dense dermal collagen form papules that hurt with cold or touch, so these tender skin lumps are often the first sign pointing to an FH mutation.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

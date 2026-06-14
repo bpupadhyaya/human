@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "HNSCC is a checkpoint-immunotherapy-responsive cancer: carcinogen- and HPV-driven tumors carry neoantigens and immune infiltrate, so anti-PD-1 therapy (pembrolizumab, nivolumab) now treats recurrent and metastatic disease, sometimes as first-line care."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Proton therapy refines head and neck radiation: its sharp dose stop spares salivary glands, swallowing muscles, and the spinal cord beside the tumor, so protons can cut the dry mouth and swallowing damage of conventional photon treatment."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "B cells now prevent many head and neck cancers: the HPV vaccine elicits antibodies that block the oral HPV infection driving rising oropharyngeal SCC, so a B-cell-based vaccine is set to lower this cancer's incidence."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Head and neck cancer shares field cancerization with the lung: the same tobacco and alcohol carcinogens that mutate the airway lining cause both, so HNSCC patients face high rates of second primary lung cancers, prompting chest surveillance."
 ---
 
 # HNSCC
@@ -226,6 +235,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations help immortalize head and neck cancer: reactivating telomerase lets HPV-negative, smoking-related HNSCC cells bypass the telomere limit on division, complementing TP53 loss—one of the genetic steps from chronic carcinogen exposure to cancer.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Head and neck cancer spreads first to cervical lymph nodes: the rich lymphatic drainage of the upper aerodigestive tract carries tumor to neck nodes early, so nodal status dominates staging and dictates whether the neck is treated surgically or with radiation.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — HNSCC is a checkpoint-immunotherapy-responsive cancer: carcinogen- and HPV-driven tumors carry neoantigens and immune infiltrate, so anti-PD-1 therapy (pembrolizumab, nivolumab) now treats recurrent and metastatic disease, sometimes as first-line care.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy refines head and neck radiation: its sharp dose stop spares salivary glands, swallowing muscles, and the spinal cord beside the tumor, so protons can cut the dry mouth and swallowing damage of conventional photon treatment.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — B cells now prevent many head and neck cancers: the HPV vaccine elicits antibodies that block the oral HPV infection driving rising oropharyngeal SCC, so a B-cell-based vaccine is set to lower this cancer's incidence.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Head and neck cancer shares field cancerization with the lung: the same tobacco and alcohol carcinogens that mutate the airway lining cause both, so HNSCC patients face high rates of second primary lung cancers, prompting chest surveillance.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
