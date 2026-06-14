@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "RSV makes airway smooth muscle the villain of wheeze: infection and inflammation make bronchiolar smooth muscle constrict and the airways narrow, causing the wheezing of bronchiolitis—and repeated early RSV is linked to later asthma and airway reactivity."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Cytotoxic T cells both clear and harm in RSV: CD8 T cells eliminate infected airway cells to end infection, but their response also drives lung immunopathology—a balance central to why severe bronchiolitis injures infant airways."
+  - target: 01-human/03-molecular/surfactant
+    relation: connects-to
+    note: "RSV cripples the airway's surfactant defense: it infects and sloughs the epithelial and type-II cells that make pulmonary surfactant, so airways collapse and plug with debris—the bronchiolitis that obstructs an infant's tiny airways."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "RSV bronchiolitis drives Th2 IL-13 and later wheeze: the infection skews immunity toward IL-13, boosting mucus and airway reactivity, which is part of why severe infant RSV is linked to later asthma."
 ---
 
 # RSV
@@ -262,3 +271,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — RSV prevention now rests on antibodies, not active immunity: the monoclonal nirsevimab and the maternal RSVpreF vaccine both supply or elicit B-cell antibodies against the F protein, protecting infants through passive immunity during their first vulnerable season.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta is key to protecting newborns from RSV: vaccinating mothers in late pregnancy lets anti-RSV antibodies cross the placenta, so the baby is born already armed against severe bronchiolitis in its first months—passive immunity by maternal transfer.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — RSV makes airway smooth muscle the villain of wheeze: infection and inflammation make bronchiolar smooth muscle constrict and the airways narrow, causing the wheezing of bronchiolitis—and repeated early RSV is linked to later asthma and airway reactivity.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells both clear and harm in RSV: CD8 T cells eliminate infected airway cells to end infection, but their response also drives lung immunopathology—a balance central to why severe bronchiolitis injures infant airways.
+- `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — RSV cripples the airway's surfactant defense: it infects and sloughs the epithelial and type-II cells that make pulmonary surfactant, so airways collapse and plug with debris—the bronchiolitis that obstructs an infant's tiny airways.
+- `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — RSV bronchiolitis drives Th2 IL-13 and later wheeze: the infection skews immunity toward IL-13, boosting mucus and airway reactivity, which is part of why severe infant RSV is linked to later asthma.

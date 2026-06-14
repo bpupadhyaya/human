@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils help start lupus through NETosis: dying neutrophils cast DNA-studded extracellular traps that expose self-antigens and trigger type-I interferon, so this form of neutrophil death feeds the anti-DNA autoimmunity at the disease's core."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Lupus nephritis attacks the glomerulus: immune complexes of anti-dsDNA deposit there, igniting complement-driven inflammation that scars the filter—the organ-threatening manifestation that drives much of SLE's morbidity and mandates biopsy-guided therapy."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "SLE complicates pregnancy through the placenta: anti-Ro antibodies cross it to cause neonatal lupus and congenital heart block, and antiphospholipid antibodies clot the placenta causing loss—so lupus pregnancies are high-risk and closely monitored."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "SLE is a breakdown of self-tolerance that regulatory T cells normally enforce: reduced or dysfunctional Tregs fail to restrain autoreactive B and T cells, unleashing the antinuclear-antibody response that attacks the body's own tissues."
 ---
 
 # Systemic Lupus Erythematosus
@@ -247,6 +256,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is lupus's signature canvas: the butterfly malar rash, discoid scarring plaques, and photosensitive eruptions are cardinal features, so much so that skin-limited (cutaneous) lupus is its own spectrum—often the first visible clue to systemic disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Lupus attacks the brain as neuropsychiatric SLE: autoantibodies, clots, and inflammation cause seizures, psychosis, strokes, and cognitive fog, so CNS involvement is among the disease's most serious and hardest-to-treat manifestations.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help start lupus through NETosis: dying neutrophils cast DNA-studded extracellular traps that expose self-antigens and trigger type-I interferon, so this form of neutrophil death feeds the anti-DNA autoimmunity at the disease's core.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Lupus nephritis attacks the glomerulus: immune complexes of anti-dsDNA deposit there, igniting complement-driven inflammation that scars the filter—the organ-threatening manifestation that drives much of SLE's morbidity and mandates biopsy-guided therapy.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — SLE complicates pregnancy through the placenta: anti-Ro antibodies cross it to cause neonatal lupus and congenital heart block, and antiphospholipid antibodies clot the placenta causing loss—so lupus pregnancies are high-risk and closely monitored.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — SLE is a breakdown of self-tolerance that regulatory T cells normally enforce: reduced or dysfunctional Tregs fail to restrain autoreactive B and T cells, unleashing the antinuclear-antibody response that attacks the body's own tissues.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
