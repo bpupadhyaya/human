@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages worsen Ewing sarcoma: infiltrating the bone tumor, they promote angiogenesis and immune suppression, and a macrophage-rich tumor tends to carry a poorer prognosis in this childhood cancer."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Ewing sarcoma carries a neural streak: it belongs to the primitive neuroectodermal tumor family, and its cells can show neuron-like differentiation, a clue to the embryonic precursor from which this bone-and-soft-tissue cancer springs."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Ewing sarcoma can spread to the liver: though it favors the lungs and other bones, widespread disease seeds visceral organs including the liver, marking the metastatic stage that sharply worsens survival."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Treating Ewing sarcoma can unleash potassium: chemotherapy bursting a large tumor causes tumor lysis, spilling potassium from dying cells and risking the hyperkalemia that can stop the heart."
 ---
 
 # Ewing Sarcoma
@@ -270,6 +279,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia makes Ewing sarcoma more dangerous: low oxygen in the tumor amplifies the EWS-FLI1 program and pushes cells toward invasion and metastasis, so the oxygen-starved microenvironment helps explain its aggressive spread.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Ewing sarcoma resists cytotoxic T cells: with few mutations and little antigen display it is an immune-cold tumor, so engineered T-cell and CAR approaches are needed to direct killing where checkpoint drugs alone fall short.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages worsen Ewing sarcoma: infiltrating the bone tumor, they promote angiogenesis and immune suppression, and a macrophage-rich tumor tends to carry a poorer prognosis in this childhood cancer.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Ewing sarcoma carries a neural streak: it belongs to the primitive neuroectodermal tumor family, and its cells can show neuron-like differentiation, a clue to the embryonic precursor from which this bone-and-soft-tissue cancer springs.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Ewing sarcoma can spread to the liver: though it favors the lungs and other bones, widespread disease seeds visceral organs including the liver, marking the metastatic stage that sharply worsens survival.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Treating Ewing sarcoma can unleash potassium: chemotherapy bursting a large tumor causes tumor lysis, spilling potassium from dying cells and risking the hyperkalemia that can stop the heart.
 
 ---
 
