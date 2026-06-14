@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Cultured skin fibroblasts revealed FH's cause: studying patients' fibroblasts, Brown and Goldstein discovered the LDL receptor and how its loss blocks cholesterol uptake—the Nobel work that explained FH and led to statins and PCSK9 inhibitors."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "FH shows that LDL isn't the whole story—inflammation matters too: IL-6-driven inflammation in the artery wall adds 'residual risk' on top of high cholesterol, so anti-inflammatory therapy (colchicine, IL-targeted drugs) complements LDL-lowering in atherosclerosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Atherosclerosis in FH is partly an immune disease: T-helper cells infiltrate the cholesterol-laden plaque and stoke inflammation that destabilizes it, so the early plaques of FH reflect adaptive immunity, not just passive lipid buildup."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Whether FH's plaques kill depends on collagen: a thick collagen fibrous cap (laid down by smooth muscle) keeps a plaque stable, while a thin one ruptures to cause heart attacks—so plaque collagen, not just cholesterol level, decides the danger."
 ---
 
 # Familial Hypercholesterolemia
@@ -235,6 +244,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Familial hypercholesterolemia writes itself on the skin: lifelong high LDL deposits cholesterol as tendon xanthomas (Achilles, knuckles) and eyelid xanthelasma, so these fatty bumps are physical clues that prompt lipid testing and family screening.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye flags familial hypercholesterolemia: a corneal arcus—a white lipid ring around the iris—appearing before age 45 strongly suggests it, so this ocular sign, like xanthomas, helps catch the inherited high cholesterol early enough to prevent heart attacks.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cultured skin fibroblasts revealed FH's cause: studying patients' fibroblasts, Brown and Goldstein discovered the LDL receptor and how its loss blocks cholesterol uptake—the Nobel work that explained FH and led to statins and PCSK9 inhibitors.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — FH shows that LDL isn't the whole story—inflammation matters too: IL-6-driven inflammation in the artery wall adds 'residual risk' on top of high cholesterol, so anti-inflammatory therapy (colchicine, IL-targeted drugs) complements LDL-lowering in atherosclerosis.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Atherosclerosis in FH is partly an immune disease: T-helper cells infiltrate the cholesterol-laden plaque and stoke inflammation that destabilizes it, so the early plaques of FH reflect adaptive immunity, not just passive lipid buildup.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Whether FH's plaques kill depends on collagen: a thick collagen fibrous cap (laid down by smooth muscle) keeps a plaque stable, while a thin one ruptures to cause heart attacks—so plaque collagen, not just cholesterol level, decides the danger.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
