@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Gut-made serotonin puts a brake on bone building: serotonin from the intestine circulates and tells osteoblasts to slow down, an unexpected gut-bone axis that helps explain why some serotonin-active drugs affect bone density."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Bone health is read and built with photons: a DXA scan uses low-dose X-ray photons to measure bone density and diagnose osteoporosis, while sunlight's photons make the vitamin D that lets bone absorb calcium."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The stomach quietly guards bone: its acid frees calcium from food for absorption, so long-term acid-suppressing drugs (PPIs) can reduce calcium uptake and are linked to a higher fracture risk."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Too much salt thins the bones: high dietary sodium makes the kidneys excrete more calcium in urine, and that ongoing calcium drain pulls mineral from bone, quietly worsening osteoporosis."
 ---
 
 # Osteoporosis
@@ -259,6 +268,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Bone formation runs on Wnt signaling, the lever osteoporosis drugs pull: Wnt/beta-catenin tells osteoblasts to build bone, and because sclerostin blocks it, antibodies against sclerostin (romosozumab) unleash Wnt to grow new bone.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine supplies the calcium that bone needs: it absorbs dietary calcium under vitamin D's control, so malabsorption from celiac disease or bypass surgery starves bone of calcium and accelerates osteoporosis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut-made serotonin puts a brake on bone building: serotonin from the intestine circulates and tells osteoblasts to slow down, an unexpected gut-bone axis that helps explain why some serotonin-active drugs affect bone density.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Bone health is read and built with photons: a DXA scan uses low-dose X-ray photons to measure bone density and diagnose osteoporosis, while sunlight's photons make the vitamin D that lets bone absorb calcium.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach quietly guards bone: its acid frees calcium from food for absorption, so long-term acid-suppressing drugs (PPIs) can reduce calcium uptake and are linked to a higher fracture risk.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Too much salt thins the bones: high dietary sodium makes the kidneys excrete more calcium in urine, and that ongoing calcium drain pulls mineral from bone, quietly worsening osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

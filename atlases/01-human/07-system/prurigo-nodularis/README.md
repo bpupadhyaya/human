@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Prurigo nodularis nodules are built of collagen: relentless scratching drives fibroblasts to pile up collagen, thickening the dermis into the firm, raised lumps that define the disease and outlast the original itch trigger."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light can calm prurigo nodularis: narrowband UVB phototherapy uses controlled photons to dampen the skin's inflammation and itch nerves, shrinking nodules in stubborn cases."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Prurigo nodularis nodules are scratch-driven fibrosis: relentless scratching pushes fibroblasts to lay down dense collagen, scarring the dermis into the firm lumps that persist long after the original itch."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Failing kidneys can ignite prurigo nodularis: uremic pruritus from chronic kidney disease is a major itch trigger, and the relentless scratching it provokes builds the nodules."
 ---
 
 # Prurigo Nodularis
@@ -226,6 +235,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Prurigo nodularis is not purely a Th2 disease: alongside the itch cytokines, a Th17 component with IL-17 adds to the skin inflammation, broadening the immune picture and the rationale for targeting multiple cytokine pathways.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Weak regulatory T-cell control lets prurigo nodularis smolder: reduced Treg restraint allows the itch-driving inflammation to persist, so the failure to switch off the immune and scratch response helps the nodules entrench.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Prurigo nodularis nodules are built of collagen: relentless scratching drives fibroblasts to pile up collagen, thickening the dermis into the firm, raised lumps that define the disease and outlast the original itch trigger.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light can calm prurigo nodularis: narrowband UVB phototherapy uses controlled photons to dampen the skin's inflammation and itch nerves, shrinking nodules in stubborn cases.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Prurigo nodularis nodules are scratch-driven fibrosis: relentless scratching pushes fibroblasts to lay down dense collagen, scarring the dermis into the firm lumps that persist long after the original itch.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Failing kidneys can ignite prurigo nodularis: uremic pruritus from chronic kidney disease is a major itch trigger, and the relentless scratching it provokes builds the nodules.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
