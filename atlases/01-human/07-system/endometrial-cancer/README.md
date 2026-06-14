@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Endometrial cancer can spread to the lung: high-grade and serous subtypes disseminate hematogenously, making the lung a common distant metastatic site, so chest imaging is part of staging advanced or recurrent disease."
+  - target: 01-human/03-molecular/mlh1
+    relation: connects-to
+    note: "Endometrial cancer's molecular classes hinge on MMR genes like MLH1: silencing of MLH1 by promoter methylation creates the common microsatellite-instability subtype, which is hypermutated and responds well to checkpoint immunotherapy—so MMR testing guides treatment."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Depth of myometrial invasion stages endometrial cancer, and fibroblasts pave the way: cancer-associated fibroblasts remodel the stroma to let tumor burrow into the muscle wall, and how deep it goes is a key prognostic factor guiding surgery."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Advanced endometrial cancer is treated by hitting VEGF: lenvatinib (a VEGFR inhibitor) plus pembrolizumab became a standard for recurrent disease, choking the tumor's blood supply while unleashing the immune system."
 ---
 
 # Endometrial Cancer
@@ -244,6 +253,9 @@ cross_links:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Endometrial cancer is staged through the lymphatic system: spread to pelvic and para-aortic nodes drives staging and prognosis, so sentinel-lymph-node mapping now guides how aggressively surgery and adjuvant therapy are pursued.
 - `connects-to` → **[CTNNB1](../../03-molecular/ctnnb1/README.md)** — CTNNB1 mutations define a deceptive endometrial subgroup: activating this Wnt/beta-catenin gene marks low-grade endometrioid tumors that look indolent but carry a surprisingly high recurrence risk—part of the molecular classification reshaping endometrial cancer care.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Endometrial cancer can spread to the lung: high-grade and serous subtypes disseminate hematogenously, making the lung a common distant metastatic site, so chest imaging is part of staging advanced or recurrent disease.
+- `connects-to` → **[MLH1](../../03-molecular/mlh1/README.md)** — Endometrial cancer's molecular classes hinge on MMR genes like MLH1: silencing of MLH1 by promoter methylation creates the common microsatellite-instability subtype, which is hypermutated and responds well to checkpoint immunotherapy—so MMR testing guides treatment.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Depth of myometrial invasion stages endometrial cancer, and fibroblasts pave the way: cancer-associated fibroblasts remodel the stroma to let tumor burrow into the muscle wall, and how deep it goes is a key prognostic factor guiding surgery.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Advanced endometrial cancer is treated by hitting VEGF: lenvatinib (a VEGFR inhibitor) plus pembrolizumab became a standard for recurrent disease, choking the tumor's blood supply while unleashing the immune system.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
