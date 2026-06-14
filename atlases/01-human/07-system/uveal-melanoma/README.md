@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "The eye's immune privilege shields uveal melanoma: a TGF-β-rich anterior chamber suppresses helper T-cell responses (ACAID), so tumors grow unchecked locally—part of why this cancer is immunologically cold and slow to trigger systemic immunity."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Uveal melanoma is driven through ERK by Gq signaling: activating GNAQ/GNA11 mutations fire PLC-PKC to switch on the MAPK/ERK cascade—unlike cutaneous melanoma's BRAF route—so MEK/ERK-pathway inhibition has been the focus of targeted trials."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages mark high-risk uveal melanoma: paradoxically, a dense macrophage infiltrate (with monosomy 3 and BAP1 loss) signals worse prognosis and higher metastatic risk rather than protective immunity."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "Uveal melanoma differs from skin melanoma at the telomere: it lacks the UV-signature TERT promoter mutations that drive cutaneous melanoma, reflecting its distinct, non-sun-related mutational origin (GNAQ/GNA11, BAP1) and biology."
 ---
 
 # Uveal Melanoma
@@ -248,6 +257,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Uveal melanoma is notorious for vasculogenic mimicry: aggressive tumor cells form PAS-positive vascular loops that mimic endothelial channels, supplying blood without true vessels—a pattern that marks poor prognosis and blunts conventional anti-angiogenic therapy.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Uveal melanoma's lethal liver tropism depends on stroma: hepatic stellate cells and fibroblasts build the fibrotic niche that dormant tumor cells colonize, so the liver microenvironment, not just tumor genetics, governs when micrometastases awaken and grow.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The eye's immune privilege shields uveal melanoma: a TGF-β-rich anterior chamber suppresses helper T-cell responses (ACAID), so tumors grow unchecked locally—part of why this cancer is immunologically cold and slow to trigger systemic immunity.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Uveal melanoma is driven through ERK by Gq signaling: activating GNAQ/GNA11 mutations fire PLC-PKC to switch on the MAPK/ERK cascade—unlike cutaneous melanoma's BRAF route—so MEK/ERK-pathway inhibition has been the focus of targeted trials.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages mark high-risk uveal melanoma: paradoxically, a dense macrophage infiltrate (with monosomy 3 and BAP1 loss) signals worse prognosis and higher metastatic risk rather than protective immunity.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — Uveal melanoma differs from skin melanoma at the telomere: it lacks the UV-signature TERT promoter mutations that drive cutaneous melanoma, reflecting its distinct, non-sun-related mutational origin (GNAQ/GNA11, BAP1) and biology.
 
 ---
 

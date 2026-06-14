@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Type 2 diabetes and the liver are tightly linked through fatty liver disease: insulin resistance drives hepatic fat accumulation (MASLD/MASH), which worsens glucose control and can progress to cirrhosis—so the diabetic liver is both cause and casualty of the disease."
+  - target: 01-human/07-system/diabetic-retinopathy
+    relation: connects-to
+    note: "Type 2 diabetes is the leading cause of diabetic retinopathy: chronic hyperglycemia damages retinal microvessels, causing the leading preventable blindness in working-age adults—so glucose and blood-pressure control plus eye screening protect vision."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Type 2 diabetes drives heart failure independently: hyperglycemia and insulin resistance stiffen and weaken the myocardium (diabetic cardiomyopathy), and SGLT2 inhibitors—first diabetes drugs—now treat heart failure even in non-diabetics."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Type 2 diabetes is fueled by adipose inflammation via TNF-alpha: enlarged fat tissue releases TNF-alpha and other cytokines that impair insulin signaling, linking obesity's chronic low-grade inflammation directly to insulin resistance."
 ---
 
 # Type 2 Diabetes
@@ -222,6 +231,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Type 2 diabetes is a leading cause of blindness via retinopathy: chronic hyperglycemia damages retinal microvessels, causing leakage, ischemia, and neovascularization—so annual retinal screening and tight glucose and blood-pressure control protect vision.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Diabetic peripheral neuropathy is among type 2 diabetes' most common complications: hyperglycemia and microvascular injury damage long nerves, causing stocking-glove numbness and pain that underlie foot ulcers and amputations—so foot care is central to management.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Type 2 diabetes and the liver are tightly linked through fatty liver disease: insulin resistance drives hepatic fat accumulation (MASLD/MASH), which worsens glucose control and can progress to cirrhosis—so the diabetic liver is both cause and casualty of the disease.
+- `connects-to` → **[Diabetic Retinopathy](../diabetic-retinopathy/README.md)** — Type 2 diabetes is the leading cause of diabetic retinopathy: chronic hyperglycemia damages retinal microvessels, causing the leading preventable blindness in working-age adults—so glucose and blood-pressure control plus eye screening protect vision.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Type 2 diabetes drives heart failure independently: hyperglycemia and insulin resistance stiffen and weaken the myocardium (diabetic cardiomyopathy), and SGLT2 inhibitors—first diabetes drugs—now treat heart failure even in non-diabetics.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Type 2 diabetes is fueled by adipose inflammation via TNF-alpha: enlarged fat tissue releases TNF-alpha and other cytokines that impair insulin signaling, linking obesity's chronic low-grade inflammation directly to insulin resistance.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
