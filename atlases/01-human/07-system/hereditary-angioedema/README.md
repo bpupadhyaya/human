@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Hereditary angioedema ignores cortisol—unlike allergic swelling: because the attacks are bradykinin-driven, not histamine-driven, steroids and antihistamines don't work, so the key is recognizing it and using C1-inhibitor or bradykinin blockers instead."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "A laryngeal hereditary angioedema attack can choke off oxygen: swelling of the throat and voice box obstructs the airway, the disease's most feared event, causing asphyxia that demands emergency airway management."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Hereditary angioedema swells the bowel wall: attacks edema the gut, including the large intestine, causing severe colicky pain, vomiting, and wall thickening that can mimic a surgical abdomen and trigger needless operations."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Hereditary angioedema hinges on bradykinin clearance in tissues like the kidney: enzymes (ACE, neprilysin) that degrade bradykinin act here, which is why ACE-inhibitor blood-pressure drugs can unmask or worsen bradykinin angioedema."
 ---
 
 # Hereditary Angioedema
@@ -282,6 +291,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Hereditary angioedema's swelling is a permeability problem like VEGF's: bradykinin (and VEGF) pry apart endothelial junctions to let plasma flood into tissue, so the attacks are leaky-vessel edema, not the mast-cell hives of allergy.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Hereditary angioedema runs through the calcium-dependent contact system: factor XII and kallikrein activation that generates bradykinin needs calcium, the same cofactor of the clotting cascade—linking the kinin and coagulation pathways.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Hereditary angioedema ignores cortisol—unlike allergic swelling: because the attacks are bradykinin-driven, not histamine-driven, steroids and antihistamines don't work, so the key is recognizing it and using C1-inhibitor or bradykinin blockers instead.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A laryngeal hereditary angioedema attack can choke off oxygen: swelling of the throat and voice box obstructs the airway, the disease's most feared event, causing asphyxia that demands emergency airway management.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hereditary angioedema swells the bowel wall: attacks edema the gut, including the large intestine, causing severe colicky pain, vomiting, and wall thickening that can mimic a surgical abdomen and trigger needless operations.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hereditary angioedema hinges on bradykinin clearance in tissues like the kidney: enzymes (ACE, neprilysin) that degrade bradykinin act here, which is why ACE-inhibitor blood-pressure drugs can unmask or worsen bradykinin angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

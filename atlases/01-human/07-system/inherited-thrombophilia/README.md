@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Low oxygen and stasis tip thrombophilia into clots: immobility and hypoxia (long flights, illness) slow venous flow and switch on procoagulant signals, providing the trigger that turns an inherited clotting tendency into an actual thrombosis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Thrombophilia can clot the kidney's veins: renal vein thrombosis is a classic unusual-site clot, abruptly causing flank pain, blood in the urine, and swelling as the kidney's venous drainage is blocked."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Thrombophilia drives clots in the splanchnic veins: thrombosis of the splenic and portal veins draining the spleen and gut is a hallmark unusual-site event, causing splenomegaly and portal hypertension."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Thrombophilia can infarct the adrenal glands: thrombosis of their veins triggers hemorrhagic adrenal infarction, which can precipitate life-threatening adrenal failure—a rare but lethal unusual-site complication."
 ---
 
 # Inherited Thrombophilia
@@ -306,6 +315,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — High von Willebrand factor is itself a thrombophilia: elevated vWF—from genes, inflammation, or aging—makes platelets stickier and raises clot risk, adding to the inherited deficiencies of natural anticoagulants behind familial thrombosis.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Thrombophilia is amplified by neutrophil NETs: neutrophils cast out DNA webs (NETs) that scaffold platelets and clotting factors into clots, so this immunothrombosis turns inflammation into the venous thrombi that thrombophilia predisposes to.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Low oxygen and stasis tip thrombophilia into clots: immobility and hypoxia (long flights, illness) slow venous flow and switch on procoagulant signals, providing the trigger that turns an inherited clotting tendency into an actual thrombosis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Thrombophilia can clot the kidney's veins: renal vein thrombosis is a classic unusual-site clot, abruptly causing flank pain, blood in the urine, and swelling as the kidney's venous drainage is blocked.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Thrombophilia drives clots in the splanchnic veins: thrombosis of the splenic and portal veins draining the spleen and gut is a hallmark unusual-site event, causing splenomegaly and portal hypertension.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Thrombophilia can infarct the adrenal glands: thrombosis of their veins triggers hemorrhagic adrenal infarction, which can precipitate life-threatening adrenal failure—a rare but lethal unusual-site complication.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
