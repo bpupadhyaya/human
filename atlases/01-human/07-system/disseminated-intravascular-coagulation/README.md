@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "DIC starves organs of oxygen with countless tiny clots: fibrin microthrombi plug small vessels, cutting oxygen delivery to kidney, lung and brain, so tissue hypoxia and organ failure—not just bleeding—drive its high mortality."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "DIC drives the blood acidic: as microthrombi choke off perfusion and shock sets in, starved tissues pour out lactic acid, so a falling pH marks the metabolic acidosis of advancing multi-organ failure."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "DIC ravages the skin: widespread microthrombi and consumed clotting factors cause purpura fulminans—dark patches of hemorrhagic skin necrosis—alongside bruising, a dramatic visible sign of the coagulation chaos."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "DIC is a consumptive state the marrow races to refill: as clotting devours platelets and cells, the bone marrow ramps up production, but it cannot keep pace, leaving the low counts that fuel bleeding."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -286,6 +295,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha lights the fuse of sepsis-driven DIC: it induces tissue factor on monocytes and endothelium, igniting the clotting cascade throughout the circulation, the inflammation-to-coagulation link that turns infection into widespread microthrombosis.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — DIC can choke the heart's small vessels: microthrombi scattered through the coronary microcirculation, plus the bleeding and shock of the syndrome, strain the heart and add cardiac injury to its multi-organ damage.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — DIC starves organs of oxygen with countless tiny clots: fibrin microthrombi plug small vessels, cutting oxygen delivery to kidney, lung and brain, so tissue hypoxia and organ failure—not just bleeding—drive its high mortality.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DIC drives the blood acidic: as microthrombi choke off perfusion and shock sets in, starved tissues pour out lactic acid, so a falling pH marks the metabolic acidosis of advancing multi-organ failure.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — DIC ravages the skin: widespread microthrombi and consumed clotting factors cause purpura fulminans—dark patches of hemorrhagic skin necrosis—alongside bruising, a dramatic visible sign of the coagulation chaos.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — DIC is a consumptive state the marrow races to refill: as clotting devours platelets and cells, the bone marrow ramps up production, but it cannot keep pace, leaving the low counts that fuel bleeding.
 
 ---
 

@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "Tumor-associated microglia feed diffuse midline glioma through NF-kB: this inflammatory switch in the brain's immune cells drives cytokines that support the glioma's growth, part of the supportive niche around this lethal pediatric tumor."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Diffuse midline glioma announces itself in the eyes: a pontine tumor first palsies the cranial nerves that move the eyes and face, so double vision, a crossed eye, and facial droop are classic early signs of DIPG."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Diffuse midline glioma ultimately stops the breath: as it destroys the brainstem's control of breathing and swallowing, patients lose airway protection and respiratory drive, the failure that ends this lethal disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Diffuse midline glioma works on endothelial cells: VEGF from the tumor loosens the blood-brain barrier these cells form and recruits new vessels, both feeding growth and complicating drug delivery to the brainstem."
 ---
 
 # Diffuse Midline Glioma
@@ -286,6 +295,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Diffuse midline glioma grows on calcium from neuron-glioma synapses: real synapses form between neurons and tumor cells, and the glutamate-driven calcium influx through them spurs the cancer to proliferate—a striking link between brain activity and tumor growth.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Diffuse midline glioma recruits blood supply via VEGF: though infiltrative, the tumor releases VEGF to coax new vessels and loosen the blood-brain barrier, a process studied as a target in a cancer that resists almost all therapy.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Tumor-associated microglia feed diffuse midline glioma through NF-kB: this inflammatory switch in the brain's immune cells drives cytokines that support the glioma's growth, part of the supportive niche around this lethal pediatric tumor.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Diffuse midline glioma announces itself in the eyes: a pontine tumor first palsies the cranial nerves that move the eyes and face, so double vision, a crossed eye, and facial droop are classic early signs of DIPG.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Diffuse midline glioma ultimately stops the breath: as it destroys the brainstem's control of breathing and swallowing, patients lose airway protection and respiratory drive, the failure that ends this lethal disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Diffuse midline glioma works on endothelial cells: VEGF from the tumor loosens the blood-brain barrier these cells form and recruits new vessels, both feeding growth and complicating drug delivery to the brainstem.
 
 ---
 
