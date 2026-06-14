@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "A gut-joint axis feeds psoriatic arthritis: subclinical bowel inflammation and a disturbed microbiome prime the IL-23/IL-17 response that strikes the joints, linking the large intestine to the arthritis and to its overlap with inflammatory bowel disease."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Salt may inflame psoriatic arthritis: high sodium pushes naive T cells toward the IL-17-producing Th17 lineage that drives both the skin and joint disease, a dietary link to its core immune axis."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Psoriatic arthritis smolders in the bone marrow: subchondral bone-marrow edema (osteitis) on MRI is a hallmark of the disease, marking the inflammation at entheses and joints before erosions appear."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils tie psoriatic skin to joint: they form the micro-abscesses of psoriatic plaques and pour into inflamed entheses and joints, linking the IL-17-driven skin and arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -305,6 +314,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells drive psoriatic arthritis at the joint: CD8 T cells, many making IL-17, accumulate in the inflamed synovium and entheses, so the disease is fueled by killer T cells as much as by the T-helper response.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Psoriatic arthritis both erodes and builds bone with calcium: unlike pure erosive arthritis, it lays down new calcified bone at entheses and joints (enthesophytes, ankylosis), so disordered calcium-bone turnover gives it its distinctive radiographic look.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A gut-joint axis feeds psoriatic arthritis: subclinical bowel inflammation and a disturbed microbiome prime the IL-23/IL-17 response that strikes the joints, linking the large intestine to the arthritis and to its overlap with inflammatory bowel disease.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Salt may inflame psoriatic arthritis: high sodium pushes naive T cells toward the IL-17-producing Th17 lineage that drives both the skin and joint disease, a dietary link to its core immune axis.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Psoriatic arthritis smolders in the bone marrow: subchondral bone-marrow edema (osteitis) on MRI is a hallmark of the disease, marking the inflammation at entheses and joints before erosions appear.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils tie psoriatic skin to joint: they form the micro-abscesses of psoriatic plaques and pour into inflamed entheses and joints, linking the IL-17-driven skin and arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

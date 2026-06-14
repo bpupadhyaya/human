@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "PV's high cell counts can fake high potassium: the swollen mass of cells leaks potassium after the blood sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Polycythemia vera overworks and clots the heart: blood thickened with excess red cells raises the risk of heart attacks and strains cardiac pumping, a major driver of its mortality."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "PV shows in the eyes: hyperviscous blood engorges and slows the retinal veins, causing blurred vision and visual disturbances that can signal dangerously thick blood."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "PV primes the vessel lining to clot: sluggish hyperviscous blood and JAK2-mutant cells activate endothelial cells, tipping the balance toward the arterial and venous thromboses that define the disease."
 ---
 
 # Polycythemia Vera
@@ -269,6 +278,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Polycythemia vera endangers the brain with sludgy blood: too many red cells thicken the blood, slowing flow and raising the risk of stroke and cerebral vein clots, so lowering the red-cell count protects against these neurologic catastrophes.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Polycythemia vera causes a maddening water-triggered itch: contact with warm water releases mediators from the expanded mast-cell population, producing aquagenic pruritus—an unusual but characteristic clue to the disease.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PV's high cell counts can fake high potassium: the swollen mass of cells leaks potassium after the blood sample clots, producing pseudohyperkalemia—a lab artifact to recognize before treating a number that isn't real in the body.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Polycythemia vera overworks and clots the heart: blood thickened with excess red cells raises the risk of heart attacks and strains cardiac pumping, a major driver of its mortality.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — PV shows in the eyes: hyperviscous blood engorges and slows the retinal veins, causing blurred vision and visual disturbances that can signal dangerously thick blood.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PV primes the vessel lining to clot: sluggish hyperviscous blood and JAK2-mutant cells activate endothelial cells, tipping the balance toward the arterial and venous thromboses that define the disease.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
