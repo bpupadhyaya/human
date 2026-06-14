@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "The hippocampus is altered in autism: differences in its size and connectivity accompany the memory and spatial-learning quirks seen in the condition, and as a region of lifelong neurogenesis it links autism to how experience reshapes the developing brain."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Prenatal testosterone may bias autism risk: elevated fetal androgen exposure is one proposed factor behind the ~4:1 male predominance and the 'extreme male brain' theory, linking sex hormones in the womb to later neurodevelopment."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "The placenta is a route to autism risk: maternal immune activation, infection and exposures (like valproate) acting through the placenta during pregnancy raise ASD likelihood, pointing to a prenatal origin for much of the condition."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc helps build the synapses disrupted in autism: SHANK scaffold proteins—mutated in some autism—are zinc-dependent, and zinc concentrates at synapses, so disturbed zinc signaling is one link between trace-metal biology and synaptic ASD genes."
 ---
 
 # Autism Spectrum Disorder
@@ -268,6 +277,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system is woven into autism's origins: maternal infection and immune activation in pregnancy raise risk, and many autistic children show ongoing neuroinflammation with activated microglia—so immune signaling shapes the developing social brain.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF ties autism to synaptic wiring: this neurotrophin guides how synapses form and prune, and altered BDNF levels are reported in autism, fitting a model where mis-tuned synaptic growth—too many or too few connections—underlies the atypical brain development.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus is altered in autism: differences in its size and connectivity accompany the memory and spatial-learning quirks seen in the condition, and as a region of lifelong neurogenesis it links autism to how experience reshapes the developing brain.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Prenatal testosterone may bias autism risk: elevated fetal androgen exposure is one proposed factor behind the ~4:1 male predominance and the 'extreme male brain' theory, linking sex hormones in the womb to later neurodevelopment.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The placenta is a route to autism risk: maternal immune activation, infection and exposures (like valproate) acting through the placenta during pregnancy raise ASD likelihood, pointing to a prenatal origin for much of the condition.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps build the synapses disrupted in autism: SHANK scaffold proteins—mutated in some autism—are zinc-dependent, and zinc concentrates at synapses, so disturbed zinc signaling is one link between trace-metal biology and synaptic ASD genes.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils help APS clot through NETosis: antiphospholipid antibodies prime neutrophils to cast DNA extracellular traps that scaffold thrombi and activate platelets and complement, so this neutrophil pathway links autoimmunity to the syndrome's clotting."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Antiphospholipid syndrome scars the glomerulus: a thrombotic microangiopathy clots the kidney's tiny vessels (APS nephropathy), causing hypertension and kidney impairment distinct from the immune-complex lupus nephritis it can accompany."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement turns antiphospholipid antibodies into thrombosis and miscarriage: the antibodies activate complement (C3 and beyond) on cells and placenta, so complement drives both the clotting and the pregnancy loss—and blocking it helps catastrophic APS."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Antiphospholipid syndrome is sustained by T-helper cells: they license B cells to produce the anti-beta2-glycoprotein-I antibodies that define the disease, so the autoimmune help behind the autoantibodies is a target for deeper therapy."
 ---
 
 # Antiphospholipid Syndrome
@@ -265,6 +274,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin flags antiphospholipid syndrome: livedo reticularis—a netlike purple mottling—is a classic sign, and skin ulcers or digital gangrene can appear when small-vessel clots block flow, so dermatologic clues often precede a major thrombotic event.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — APS attacks the kidney as APS nephropathy: clots in glomerular capillaries and small renal arteries cause a thrombotic microangiopathy with hypertension and declining function, a renal manifestation distinct from the immune-complex nephritis of lupus.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help APS clot through NETosis: antiphospholipid antibodies prime neutrophils to cast DNA extracellular traps that scaffold thrombi and activate platelets and complement, so this neutrophil pathway links autoimmunity to the syndrome's clotting.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Antiphospholipid syndrome scars the glomerulus: a thrombotic microangiopathy clots the kidney's tiny vessels (APS nephropathy), causing hypertension and kidney impairment distinct from the immune-complex lupus nephritis it can accompany.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement turns antiphospholipid antibodies into thrombosis and miscarriage: the antibodies activate complement (C3 and beyond) on cells and placenta, so complement drives both the clotting and the pregnancy loss—and blocking it helps catastrophic APS.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Antiphospholipid syndrome is sustained by T-helper cells: they license B cells to produce the anti-beta2-glycoprotein-I antibodies that define the disease, so the autoimmune help behind the autoantibodies is a target for deeper therapy.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
