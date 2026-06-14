@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/07-system/cardiovascular-system
     relation: connects-to
     note: "Narcolepsy carries cardiovascular risk: disrupted sleep and loss of normal nocturnal blood-pressure dipping raise the risk of hypertension and heart disease, and stimulant treatments add cardiac considerations—so the sleep disorder has whole-body consequences."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Narcolepsy type 1 is almost always HLA-DQB1*06:02 positive: this MHC class II variant presents orexin-related peptides to T cells, the strongest genetic clue that the disease is an autoimmune attack destroying the brain's orexin neurons."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Autoreactive T-helper cells appear central to narcolepsy: CD4 T cells recognizing orexin (with cytotoxic T cells) are thought to drive destruction of the hypothalamic orexin neurons, explaining why the disease follows certain infections and vaccinations."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Orexin normally props up norepinephrine-driven wakefulness: losing orexin neurons leaves the noradrenergic system unstable, so wake states collapse into sleep and—during cataplexy—the locus coeruleus falls silent, releasing muscle tone."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -234,6 +243,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Narcolepsy is a focal nervous-system disorder of sleep-wake control: selective loss of ~70,000 orexin (hypocretin) neurons in the hypothalamus destabilizes the boundaries between wake, REM and sleep, so REM intrudes into wakefulness as cataplexy and sleep attacks.
 - `connects-to` → **[Streptococcus pyogenes](../../../02-pathogen/02-bacteria/streptococcus-pyogenes/README.md)** — Streptococcal infection is a recognized trigger of type 1 narcolepsy: along with H1N1 influenza and its vaccine, strep can precipitate the autoimmune attack on orexin neurons in genetically susceptible (HLA-DQB1*06:02) people—molecular mimicry turned against sleep.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Narcolepsy carries cardiovascular risk: disrupted sleep and loss of normal nocturnal blood-pressure dipping raise the risk of hypertension and heart disease, and stimulant treatments add cardiac considerations—so the sleep disorder has whole-body consequences.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Narcolepsy type 1 is almost always HLA-DQB1*06:02 positive: this MHC class II variant presents orexin-related peptides to T cells, the strongest genetic clue that the disease is an autoimmune attack destroying the brain's orexin neurons.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Autoreactive T-helper cells appear central to narcolepsy: CD4 T cells recognizing orexin (with cytotoxic T cells) are thought to drive destruction of the hypothalamic orexin neurons, explaining why the disease follows certain infections and vaccinations.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Orexin normally props up norepinephrine-driven wakefulness: losing orexin neurons leaves the noradrenergic system unstable, so wake states collapse into sleep and—during cataplexy—the locus coeruleus falls silent, releasing muscle tone.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

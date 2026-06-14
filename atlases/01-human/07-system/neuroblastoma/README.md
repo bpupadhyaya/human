@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "GD2-directed cell therapy targets neuroblastoma via cytotoxic T cells: CAR-T cells engineered against the GD2 antigen are in trials to kill neuroblasts, extending the anti-GD2 strategy from antibodies to engineered T-cell immunity."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Neuroblastoma is targeted with radioactive iodine via MIBG: the tumor takes up metaiodobenzylguanidine like norepinephrine, so I-123 MIBG scans light up disease and I-131 MIBG delivers radiation directly to neuroblastoma cells in high-risk patients."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "High-risk neuroblastoma keeps its telomeres long: TERT activation (or ATRX-driven alternative lengthening) lets cells divide endlessly, and this telomere-maintenance switch—alongside MYCN—marks the aggressive tumors that need intensive therapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Anti-GD2 immunotherapy enlists macrophages: the antibody dinutuximab coats neuroblastoma's GD2 antigen so macrophages and complement (with NK cells) destroy it, a now-standard treatment that improved survival in high-risk disease."
 ---
 
 # Neuroblastoma
@@ -248,6 +257,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Neuroblastoma is treated by harnessing the immune system: anti-GD2 antibodies (dinutuximab) target a glycolipid richly expressed on neuroblasts, and adding immunotherapy to high-risk regimens markedly improved survival—a landmark for solid-tumor immunotherapy in children.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy is favored for neuroblastoma in young children: the tumor often sits near the spine, kidneys and liver, so protons' lack of exit dose limits damage to developing organs and lowers the risk of radiation-induced second cancers.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — GD2-directed cell therapy targets neuroblastoma via cytotoxic T cells: CAR-T cells engineered against the GD2 antigen are in trials to kill neuroblasts, extending the anti-GD2 strategy from antibodies to engineered T-cell immunity.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Neuroblastoma is targeted with radioactive iodine via MIBG: the tumor takes up metaiodobenzylguanidine like norepinephrine, so I-123 MIBG scans light up disease and I-131 MIBG delivers radiation directly to neuroblastoma cells in high-risk patients.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — High-risk neuroblastoma keeps its telomeres long: TERT activation (or ATRX-driven alternative lengthening) lets cells divide endlessly, and this telomere-maintenance switch—alongside MYCN—marks the aggressive tumors that need intensive therapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Anti-GD2 immunotherapy enlists macrophages: the antibody dinutuximab coats neuroblastoma's GD2 antigen so macrophages and complement (with NK cells) destroy it, a now-standard treatment that improved survival in high-risk disease.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
