@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Sepsis consumes platelets: widespread endothelial activation and DIC trap and destroy platelets, so a falling platelet count is an early warning of severe sepsis—and the bleeding-clotting imbalance it signals drives organ damage."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lungs are sepsis's most vulnerable organ: systemic inflammation injures the alveolar-capillary barrier, flooding air sacs to cause ARDS—the acute respiratory failure that often dominates and drives the need for ventilation in severe sepsis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Septic shock involves a vasopressin deficit: the inflammatory vasodilation that drops blood pressure outstrips the body's vasopressin, so vasopressin is added to norepinephrine as a vasopressor to restore perfusion in refractory shock."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Sepsis ends in immune paralysis as T cells die off: after the early cytokine storm, massive lymphocyte apoptosis and T-cell exhaustion leave survivors immunosuppressed and prone to secondary infections—a target for immune-restoring therapies."
 ---
 
 # Sepsis
@@ -233,6 +242,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Staphylococcus aureus is a leading cause of sepsis: from skin, lines, and wounds it invades the bloodstream, and MRSA bacteremia and toxins can rapidly tip into septic shock—so prompt source control and the right antibiotics are decisive.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is both defender and casualty in sepsis: it clears gut-derived endotoxin and mounts the acute-phase response, but septic shock starves it of blood, causing 'shock liver' and cholestasis that worsen coagulopathy and multi-organ failure.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Sepsis consumes platelets: widespread endothelial activation and DIC trap and destroy platelets, so a falling platelet count is an early warning of severe sepsis—and the bleeding-clotting imbalance it signals drives organ damage.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs are sepsis's most vulnerable organ: systemic inflammation injures the alveolar-capillary barrier, flooding air sacs to cause ARDS—the acute respiratory failure that often dominates and drives the need for ventilation in severe sepsis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Septic shock involves a vasopressin deficit: the inflammatory vasodilation that drops blood pressure outstrips the body's vasopressin, so vasopressin is added to norepinephrine as a vasopressor to restore perfusion in refractory shock.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Sepsis ends in immune paralysis as T cells die off: after the early cytokine storm, massive lymphocyte apoptosis and T-cell exhaustion leave survivors immunosuppressed and prone to secondary infections—a target for immune-restoring therapies.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

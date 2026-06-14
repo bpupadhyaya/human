@@ -99,6 +99,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Alveolar macrophages guard the respiratory system: stationed in the air sacs, they engulf inhaled microbes and debris as the lung's first cellular defense, so their function (and dysfunction in smoking or COPD) shapes vulnerability to pneumonia."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Red cells complete the respiratory system's job: the lungs load oxygen onto erythrocyte hemoglobin and unload carbon dioxide, so breathing and the blood's red cells are one continuous gas-exchange system—lung disease and anemia both starve tissues of oxygen."
+  - target: 01-human/07-system/cystic-fibrosis
+    relation: connects-to
+    note: "Cystic fibrosis is the respiratory system's archetypal genetic disease: a chloride-channel defect thickens airway mucus, trapping bacteria and causing the chronic infection and bronchiectasis that destroy the lungs—now transformed by CFTR-modulator drugs."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide fine-tunes the lungs' blood flow: it dilates pulmonary vessels to match perfusion with ventilation, and inhaled NO is used to open lung vessels in pulmonary hypertension and newborn respiratory failure."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -211,6 +220,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Nervous System](../nervous-system/README.md): Breathing is run by the nervous system: brainstem respiratory centers set the rhythm and chemoreceptors sensing CO2 and oxygen adjust it breath by breath, so the respiratory system is only as reliable as the neural drive—lost in opioid overdose or brainstem stroke.
 - **Connects-to** → [Carbon](../../02-atomic/carbon/README.md): Respiration exists to trade carbon dioxide for oxygen: cells make CO2, blood carries it as bicarbonate, and the lungs exhale it, so the respiratory system is the body's main route to dump carbon—and CO2 levels set blood pH and the urge to breathe.
 - **Connects-to** → [Macrophage](../../04-cellular/macrophage/README.md): Alveolar macrophages guard the respiratory system: stationed in the air sacs, they engulf inhaled microbes and debris as the lung's first cellular defense, so their function (and dysfunction in smoking or COPD) shapes vulnerability to pneumonia.
+- **Connects-to** → [Erythrocyte](../../04-cellular/erythrocyte/README.md): Red cells complete the respiratory system's job: the lungs load oxygen onto erythrocyte hemoglobin and unload carbon dioxide, so breathing and the blood's red cells are one continuous gas-exchange system—lung disease and anemia both starve tissues of oxygen.
+- **Connects-to** → [Cystic Fibrosis](../cystic-fibrosis/README.md): Cystic fibrosis is the respiratory system's archetypal genetic disease: a chloride-channel defect thickens airway mucus, trapping bacteria and causing the chronic infection and bronchiectasis that destroy the lungs—now transformed by CFTR-modulator drugs.
+- **Connects-to** → [Nitric Oxide](../../03-molecular/nitric-oxide/README.md): Nitric oxide fine-tunes the lungs' blood flow: it dilates pulmonary vessels to match perfusion with ventilation, and inhaled NO is used to open lung vessels in pulmonary hypertension and newborn respiratory failure.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
