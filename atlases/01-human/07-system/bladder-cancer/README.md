@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils flood the bladder during BCG therapy: the instilled vaccine triggers an acute neutrophil-rich inflammation that helps clear superficial tumor cells, an innate-immune burst central to how this old immunotherapy works."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Bladder cancer spends the body's iron: painless blood in the urine is its cardinal sign, and the ongoing loss drains iron into a deficiency anemia that often prompts the workup that finds the tumor."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Bladder cancer favors the lungs when it spreads: the lung is among its commonest metastatic sites, so chest imaging is part of staging, and lung lesions often mark advanced, incurable disease."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Bladder cancer enlists fibroblasts to invade: cancer-associated fibroblasts in the tumor stroma secrete signals that drive the tumor through the bladder wall, the muscle invasion that separates lethal from curable disease."
 ---
 
 # Bladder Cancer
@@ -276,6 +285,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Bladder cancer's classic carcinogens are nitrogen-bearing aromatic amines: dyes, rubber and industrial chemicals excreted in urine bathe the bladder lining, which is why occupational aromatic-amine exposure is a textbook cause of the disease.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — BCG immunotherapy for bladder cancer works through NF-kB: the bacterial vaccine instilled in the bladder ignites NF-kB-driven inflammation that recruits immune cells to kill tumor cells, the oldest and still-used cancer immunotherapy.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils flood the bladder during BCG therapy: the instilled vaccine triggers an acute neutrophil-rich inflammation that helps clear superficial tumor cells, an innate-immune burst central to how this old immunotherapy works.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Bladder cancer spends the body's iron: painless blood in the urine is its cardinal sign, and the ongoing loss drains iron into a deficiency anemia that often prompts the workup that finds the tumor.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Bladder cancer favors the lungs when it spreads: the lung is among its commonest metastatic sites, so chest imaging is part of staging, and lung lesions often mark advanced, incurable disease.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Bladder cancer enlists fibroblasts to invade: cancer-associated fibroblasts in the tumor stroma secrete signals that drive the tumor through the bladder wall, the muscle invasion that separates lethal from curable disease.
 
 ---
 

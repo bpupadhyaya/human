@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "BHD has been linked to colon polyps in some families: beyond the classic skin, lung and kidney triad, reports of colonic polyps and possible colorectal risk mean the large intestine is sometimes watched, though the association remains debated."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "BHD lets air into the chest: its thin-walled lung cysts rupture and spill air—mostly nitrogen—into the pleural space, collapsing the lung in the recurrent spontaneous pneumothoraxes that often first reveal the syndrome."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "BHD's hallmark skin bumps are fibrous: fibrofolliculomas are benign hamartomas of fibrous tissue around hair follicles, the small white papules on the face that signal the FLCN mutation underneath."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "BHD's renal tumors lean on VEGF: losing FLCN stabilizes HIF, which drives VEGF and angiogenesis, helping feed the kidney cancers that are the syndrome's most dangerous feature."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -288,6 +297,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — BHD tumors are pseudo-hypoxic like VHL kidney cancers: losing FLCN deranges mTOR and stabilizes HIF, so the renal tumors behave as if starved of oxygen even when they are not, driving growth and a metabolic shift toward glycolysis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages populate BHD's lung cysts and tumors: in the thin-walled cysts that rupture into pneumothorax and in the kidney tumor stroma, they shape inflammation and tissue remodeling around the FLCN-deficient cells.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — BHD has been linked to colon polyps in some families: beyond the classic skin, lung and kidney triad, reports of colonic polyps and possible colorectal risk mean the large intestine is sometimes watched, though the association remains debated.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BHD lets air into the chest: its thin-walled lung cysts rupture and spill air—mostly nitrogen—into the pleural space, collapsing the lung in the recurrent spontaneous pneumothoraxes that often first reveal the syndrome.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — BHD's hallmark skin bumps are fibrous: fibrofolliculomas are benign hamartomas of fibrous tissue around hair follicles, the small white papules on the face that signal the FLCN mutation underneath.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — BHD's renal tumors lean on VEGF: losing FLCN stabilizes HIF, which drives VEGF and angiogenesis, helping feed the kidney cancers that are the syndrome's most dangerous feature.
 
 ---
 
