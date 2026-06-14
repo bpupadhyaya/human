@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Bipolar disorder is a brain-wide disturbance of mood regulation: it reflects dysfunction across prefrontal-limbic networks of the nervous system rather than one region, producing the swings between mania and depression that define this highly heritable illness."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid and bipolar disorder are intertwined: hypothyroidism can mimic or trigger depression and rapid cycling, and lithium—a mainstay treatment—commonly causes hypothyroidism, so thyroid function is checked before and during mood-stabilizer therapy."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Lithium's benefit comes at a renal cost: long-term use can cause nephrogenic diabetes insipidus and slowly progressive chronic kidney disease, so kidney function and lithium levels are monitored for life—balancing the most effective mood stabilizer against renal harm."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium signaling sits at bipolar disorder's genetic core: CACNA1C, encoding a calcium channel, is among the strongest risk genes, implicating disturbed neuronal calcium handling in how mood episodes arise and why lithium acts on this system."
 ---
 
 # Bipolar Disorder
@@ -249,6 +258,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Bipolar disorder involves glutamatergic dysfunction: abnormal excitatory signaling contributes to mood episodes, and rapid-acting ketamine (an NMDA-glutamate antagonist) can lift bipolar depression—evidence that glutamate, not just monoamines, shapes the illness.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Bipolar disorder is deeply tied to the body clock and melatonin: circadian disruption and altered melatonin rhythms can trigger mood episodes, sleep loss often precedes mania, and stabilizing sleep-wake and light exposure is a core part of management.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Bipolar disorder is a brain-wide disturbance of mood regulation: it reflects dysfunction across prefrontal-limbic networks of the nervous system rather than one region, producing the swings between mania and depression that define this highly heritable illness.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid and bipolar disorder are intertwined: hypothyroidism can mimic or trigger depression and rapid cycling, and lithium—a mainstay treatment—commonly causes hypothyroidism, so thyroid function is checked before and during mood-stabilizer therapy.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Lithium's benefit comes at a renal cost: long-term use can cause nephrogenic diabetes insipidus and slowly progressive chronic kidney disease, so kidney function and lithium levels are monitored for life—balancing the most effective mood stabilizer against renal harm.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signaling sits at bipolar disorder's genetic core: CACNA1C, encoding a calcium channel, is among the strongest risk genes, implicating disturbed neuronal calcium handling in how mood episodes arise and why lithium acts on this system.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

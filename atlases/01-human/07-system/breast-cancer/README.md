@@ -91,6 +91,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "Breast cancer spreads first through the lymphatic system: tumor cells drain to axillary nodes, so sentinel-node biopsy stages the disease and nodal involvement is among the strongest prognostic factors—guiding decisions on radiation and systemic therapy."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Breast cancer is a leading source of brain metastases: HER2-positive and triple-negative subtypes especially seed the brain, where the blood-brain barrier shields tumor cells from many drugs—so brain-penetrant agents like tucatinib are changing outcomes."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts shape breast tumors: they build the stiff, desmoplastic stroma that aids invasion, fuels growth signals, and blocks drug delivery and immune access—so the fibroblast-rich microenvironment, not just tumor cells, drives progression."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Obesity worsens breast cancer at both ends: after menopause, fat tissue's aromatase raises estrogen that drives hormone-receptor-positive tumors, and obesity-linked inflammation and insulin resistance worsen prognosis—so weight is a modifiable risk and outcome factor."
 ---
 
 # Breast Cancer
@@ -221,6 +230,9 @@ cross_links:
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — BRCA2 mutation strongly predisposes to breast cancer: this DNA-repair gene, when lost, leaves cells unable to fix double-strand breaks, so hereditary BRCA2 tumors arise young and are exquisitely sensitive to PARP inhibitors that exploit the repair defect.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 blockade has entered breast cancer through its most aggressive subtype: triple-negative tumors carry more mutations and immune infiltrate, so adding anti-PD-1 (pembrolizumab) to chemotherapy improves outcomes where hormonal and HER2 therapies do not apply.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Breast cancer spreads first through the lymphatic system: tumor cells drain to axillary nodes, so sentinel-node biopsy stages the disease and nodal involvement is among the strongest prognostic factors—guiding decisions on radiation and systemic therapy.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Breast cancer is a leading source of brain metastases: HER2-positive and triple-negative subtypes especially seed the brain, where the blood-brain barrier shields tumor cells from many drugs—so brain-penetrant agents like tucatinib are changing outcomes.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts shape breast tumors: they build the stiff, desmoplastic stroma that aids invasion, fuels growth signals, and blocks drug delivery and immune access—so the fibroblast-rich microenvironment, not just tumor cells, drives progression.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Obesity worsens breast cancer at both ends: after menopause, fat tissue's aromatase raises estrogen that drives hormone-receptor-positive tumors, and obesity-linked inflammation and insulin resistance worsen prognosis—so weight is a modifiable risk and outcome factor.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
