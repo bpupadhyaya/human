@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells patrol the cancer-prone pancreas in hereditary pancreatitis: as antigen-presenters they shape immune surveillance of the chronically inflamed gland, a focus of efforts to catch or prevent the cancer it predisposes to."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Chronic hereditary pancreatitis can clot the splenic vein: inflammation beside the pancreas thromboses the vein, backing blood into gastric varices and enlarging the spleen, a bleeding risk of long-standing disease."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Pancreatitis digests the body's fat cells: leaked enzymes break down adipocytes around the pancreas, and the freed fatty acids bind calcium into chalky deposits (saponification), a hallmark of severe attacks."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Severe pancreatitis reaches the lungs: inflammatory mediators and enzymes spilling into the blood cause pleural effusions and can trigger ARDS, the respiratory failure that drives early deaths in acute attacks."
 ---
 
 # Hereditary Pancreatitis
@@ -291,6 +300,9 @@ cross_links:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Hereditary pancreatitis smolders through NF-kB: premature trypsin activation injures acinar cells and switches on NF-kB, sustaining the chronic inflammation that scars the gland and, over decades, raises pancreatic cancer risk.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 carries hereditary pancreatitis toward cancer: the repeated inflammation pours out IL-6, which via STAT3 drives fibrosis and pushes injured pancreatic cells toward malignant change, linking the inherited inflammation to tumor risk.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells patrol the cancer-prone pancreas in hereditary pancreatitis: as antigen-presenters they shape immune surveillance of the chronically inflamed gland, a focus of efforts to catch or prevent the cancer it predisposes to.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Chronic hereditary pancreatitis can clot the splenic vein: inflammation beside the pancreas thromboses the vein, backing blood into gastric varices and enlarging the spleen, a bleeding risk of long-standing disease.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Pancreatitis digests the body's fat cells: leaked enzymes break down adipocytes around the pancreas, and the freed fatty acids bind calcium into chalky deposits (saponification), a hallmark of severe attacks.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Severe pancreatitis reaches the lungs: inflammatory mediators and enzymes spilling into the blood cause pleural effusions and can trigger ARDS, the respiratory failure that drives early deaths in acute attacks.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

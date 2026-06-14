@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-beta builds the fibrous, infiltrative stroma of HDGC: it drives the desmoplasia and EMT-like behavior that help the discohesive signet-ring cells spread, stiffening the stomach wall as in linitis plastica."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Hereditary diffuse gastric cancer spreads silently to the liver: its scattered signet-ring cells seed the peritoneum and liver early, so metastasis is often present by the time the infiltrative tumor is found."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Hereditary diffuse gastric cancer recruits endothelial cells: as the discohesive tumor infiltrates, it drives angiogenesis through these vessel-lining cells to supply blood for its spread through the stomach wall."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Diffuse gastric cancer hides in a low-oxygen stroma: its dense desmoplastic tissue chokes off oxygen, and the hypoxia drives survival signaling and blunts drug delivery, helping the scattered cells resist therapy."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -255,6 +264,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HDGC's whole problem is calcium-dependent glue gone missing: E-cadherin (CDH1) needs calcium to bind cells together, so losing it dissolves cell-cell adhesion and lets the signet-ring cells scatter and infiltrate diffusely rather than form a lump.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages fill HDGC's dense stroma: tumor-associated macrophages in the desmoplastic, scattered-cell tumor promote invasion and suppress immunity, part of why diffuse gastric cancer is so hard to treat once it spreads through the wall.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta builds the fibrous, infiltrative stroma of HDGC: it drives the desmoplasia and EMT-like behavior that help the discohesive signet-ring cells spread, stiffening the stomach wall as in linitis plastica.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hereditary diffuse gastric cancer spreads silently to the liver: its scattered signet-ring cells seed the peritoneum and liver early, so metastasis is often present by the time the infiltrative tumor is found.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Hereditary diffuse gastric cancer recruits endothelial cells: as the discohesive tumor infiltrates, it drives angiogenesis through these vessel-lining cells to supply blood for its spread through the stomach wall.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Diffuse gastric cancer hides in a low-oxygen stroma: its dense desmoplastic tissue chokes off oxygen, and the hypoxia drives survival signaling and blunts drug delivery, helping the scattered cells resist therapy.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
