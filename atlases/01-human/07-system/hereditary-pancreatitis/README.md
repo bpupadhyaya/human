@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Hereditary pancreatitis is dominated by chronic, disabling pain: recurrent inflammation sensitizes pancreatic and central nerves, so neuropathic-type pain persists between attacks and becomes the hardest feature to treat—driving opioid use and reduced quality of life."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Hereditary pancreatitis causes fat-soluble vitamin deficiency: years of exocrine damage block fat digestion, so vitamins A, D, E, and K fall—low vitamin D and the bone disease it brings make enzyme replacement and supplementation essential."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Chronic pancreatitis depletes magnesium and other minerals: fat malabsorption and poor intake lower magnesium, calcium, and zinc, so electrolyte deficiencies accompany the malnutrition of long-standing hereditary pancreatitis."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Hereditary pancreatitis eventually wrecks the endocrine pancreas: progressive scarring destroys islet cells, causing type 3c (pancreatogenic) diabetes that is brittle—lacking both insulin and glucagon—so it differs from ordinary diabetes in management."
 ---
 
 # Hereditary Pancreatitis
@@ -255,6 +264,9 @@ cross_links:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Hereditary pancreatitis scars the pancreas into chronic fibrosis: repeated trypsin-driven autodigestion from PRSS1 mutation triggers recurring inflammation that replaces glandular tissue with fibrosis, destroying both digestive and hormone function over years.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Acute attacks of hereditary pancreatitis are neutrophil-driven: prematurely activated trypsin injures acinar cells, recruiting neutrophils that amplify the inflammation (via the NLRP3 inflammasome) into the recurrent painful flares that define the disease.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Hereditary pancreatitis is dominated by chronic, disabling pain: recurrent inflammation sensitizes pancreatic and central nerves, so neuropathic-type pain persists between attacks and becomes the hardest feature to treat—driving opioid use and reduced quality of life.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Hereditary pancreatitis causes fat-soluble vitamin deficiency: years of exocrine damage block fat digestion, so vitamins A, D, E, and K fall—low vitamin D and the bone disease it brings make enzyme replacement and supplementation essential.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic pancreatitis depletes magnesium and other minerals: fat malabsorption and poor intake lower magnesium, calcium, and zinc, so electrolyte deficiencies accompany the malnutrition of long-standing hereditary pancreatitis.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Hereditary pancreatitis eventually wrecks the endocrine pancreas: progressive scarring destroys islet cells, causing type 3c (pancreatogenic) diabetes that is brittle—lacking both insulin and glucagon—so it differs from ordinary diabetes in management.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
