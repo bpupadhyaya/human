@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "HPV and cervical tumors hide behind regulatory T cells: Tregs infiltrate the lesion and suppress the cytotoxic response that should clear infected cells, part of the immune evasion that lets persistent HPV progress to cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Cervical tumors are notoriously oxygen-starved, and that resists radiation: hypoxic regions survive radiotherapy because oxygen is needed to fix radiation-induced DNA damage, so tumor hypoxia predicts worse outcomes and drives research into overcoming it."
+  - target: 01-human/03-molecular/type-i-interferon
+    relation: connects-to
+    note: "HPV silences the interferon alarm in cervical cancer: the viral E6 and E7 proteins suppress type I interferon signaling, blunting the antiviral response so infected cells evade clearance—an immune escape that lets persistent infection progress."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Advanced cervical cancer spreads to the lungs: tumor cells travel through blood and lymph to seed pulmonary metastases, a common site of distant disease that shapes staging and the shift from curative to systemic treatment."
 ---
 
 # Cervical Cancer
@@ -258,6 +267,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cervical cancer is flagged by p16, the CDKN2A protein: HPV's E7 disables Rb, which paradoxically drives p16 sky-high, so strong p16 staining is the pathologist's surrogate marker that a lesion is HPV-driven and truly precancerous.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Cervical squamous tumors lean on EGFR: the receptor is frequently overexpressed and drives growth, making the ErbB pathway a studied target in advanced cervical cancer alongside anti-angiogenic and checkpoint therapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HPV and cervical tumors hide behind regulatory T cells: Tregs infiltrate the lesion and suppress the cytotoxic response that should clear infected cells, part of the immune evasion that lets persistent HPV progress to cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cervical tumors are notoriously oxygen-starved, and that resists radiation: hypoxic regions survive radiotherapy because oxygen is needed to fix radiation-induced DNA damage, so tumor hypoxia predicts worse outcomes and drives research into overcoming it.
+- `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — HPV silences the interferon alarm in cervical cancer: the viral E6 and E7 proteins suppress type I interferon signaling, blunting the antiviral response so infected cells evade clearance—an immune escape that lets persistent infection progress.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Advanced cervical cancer spreads to the lungs: tumor cells travel through blood and lymph to seed pulmonary metastases, a common site of distant disease that shapes staging and the shift from curative to systemic treatment.
 
 ---
 

@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Cholangiocarcinoma builds an immunosuppressive niche with regulatory T cells: Tregs accumulate in its dense desmoplastic stroma and blunt anti-tumor immunity, helping explain why checkpoint therapy alone often disappoints in this cancer."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Cholangiocarcinoma sits on the bile highway to the small intestine: bile normally drains into the duodenum, so the tumor blocks that flow, causing jaundice and fat malabsorption, and distal duct cancers arise where the duct meets the gut."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 stokes the inflammation that breeds cholangiocarcinoma: chronically inflamed bile ducts pour out IL-6, which via STAT3 pushes cholangiocytes to proliferate and resist death, linking conditions like PSC and fluke infection to the cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Cholangiocarcinoma hides in a hypoxic, dense stroma: its thick desmoplastic tissue chokes off oxygen, and the resulting hypoxia drives survival signaling and blunts drug delivery, part of why this cancer resists chemotherapy."
 ---
 
 # Cholangiocarcinoma
@@ -232,6 +241,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cholangiocarcinoma arises amid copper-retaining cholestasis: the liver normally excretes copper into bile, so blocked or inflamed ducts trap copper in the liver—a marker of the chronic cholestasis (as in PSC) that breeds this bile-duct cancer.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Cholangiocarcinoma reactivates Notch signaling: the pathway that tells liver progenitors to become bile-duct cells is hijacked to drive tumor formation, so aberrant Notch can even push hepatocytes toward a malignant biliary fate.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Cholangiocarcinoma builds an immunosuppressive niche with regulatory T cells: Tregs accumulate in its dense desmoplastic stroma and blunt anti-tumor immunity, helping explain why checkpoint therapy alone often disappoints in this cancer.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Cholangiocarcinoma sits on the bile highway to the small intestine: bile normally drains into the duodenum, so the tumor blocks that flow, causing jaundice and fat malabsorption, and distal duct cancers arise where the duct meets the gut.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 stokes the inflammation that breeds cholangiocarcinoma: chronically inflamed bile ducts pour out IL-6, which via STAT3 pushes cholangiocytes to proliferate and resist death, linking conditions like PSC and fluke infection to the cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Cholangiocarcinoma hides in a hypoxic, dense stroma: its thick desmoplastic tissue chokes off oxygen, and the resulting hypoxia drives survival signaling and blunts drug delivery, part of why this cancer resists chemotherapy.
 
 ---
 
