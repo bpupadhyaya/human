@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/microglia
     relation: connects-to
     note: "Microglia may stoke the panic-prone brain: chronic stress activates these immune cells to release cytokines that shift the excitatory-inhibitory balance in fear circuits, linking neuroinflammation to vulnerability to panic."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "An overactive thyroid mimics panic: excess thyroid hormone causes palpitations, sweating, and dread that look just like panic attacks, so thyroid function is checked before settling on the diagnosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Panic grips the gut: through the gut-brain axis attacks bring nausea, cramping, and urgent bowel movements, and panic disorder overlaps heavily with irritable bowel syndrome."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Panic floods heart-muscle cells with adrenaline: the surge drives cardiomyocytes into pounding palpitations and chest pain, and rarely into a transient stress cardiomyopathy, the 'heart attack' feeling of an attack."
 ---
 
 # Panic Disorder
@@ -300,6 +309,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Panic may be a misfiring suffocation alarm read in acid: rising CO2 turns to carbonic acid, and acid-sensing channels in the amygdala detect the falling pH, triggering the sudden terror and air hunger of an attack—why breathing CO2 can provoke one.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Panic disorder is wired into fear-circuit synapses: repeated attacks strengthen connections in the amygdala and its pathways, so neutral cues come to trigger alarm—plasticity that exposure therapy and SSRIs work to reshape.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia may stoke the panic-prone brain: chronic stress activates these immune cells to release cytokines that shift the excitatory-inhibitory balance in fear circuits, linking neuroinflammation to vulnerability to panic.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — An overactive thyroid mimics panic: excess thyroid hormone causes palpitations, sweating, and dread that look just like panic attacks, so thyroid function is checked before settling on the diagnosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Panic grips the gut: through the gut-brain axis attacks bring nausea, cramping, and urgent bowel movements, and panic disorder overlaps heavily with irritable bowel syndrome.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Panic floods heart-muscle cells with adrenaline: the surge drives cardiomyocytes into pounding palpitations and chest pain, and rarely into a transient stress cardiomyopathy, the 'heart attack' feeling of an attack.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

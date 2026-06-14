@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Pancreatic cancer announces itself by blocking the gut's bile and food path: tumors in the head compress the bile duct and duodenum, causing painless jaundice and obstruction, often the first sign of a cancer already hard to cure."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Tobacco's carbon carcinogens drive pancreatic cancer: smoking is the leading modifiable cause, its combustion products reaching the pancreas to mutate its cells, roughly doubling the risk."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Pancreatic body and tail tumors clot the splenic vein: lying against the spleen's vein, they thrombose it, causing gastric varices and an enlarged spleen (left-sided portal hypertension)."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Pancreatic cancer turns platelets into clots: it is the classic cause of Trousseau syndrome, activating platelets to produce migratory thrombophlebitis and venous clots that can precede the diagnosis."
 ---
 
 # Pancreatic Cancer
@@ -275,6 +284,9 @@ cross_links:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Pancreatic cancer hides in a near-airless tumor: its dense stroma squeezes the blood vessels, leaving the tumor profoundly hypoxic, which drives aggressive behavior and blocks delivery of chemotherapy—a core reason PDAC is so lethal.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Pancreatic cancer is mostly scar: cancer-associated fibroblasts pack the tumor with a dense desmoplastic fibrosis that walls off immune cells and drugs, so this stromal armor is as much a treatment obstacle as the cancer cells themselves.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Pancreatic cancer announces itself by blocking the gut's bile and food path: tumors in the head compress the bile duct and duodenum, causing painless jaundice and obstruction, often the first sign of a cancer already hard to cure.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Tobacco's carbon carcinogens drive pancreatic cancer: smoking is the leading modifiable cause, its combustion products reaching the pancreas to mutate its cells, roughly doubling the risk.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Pancreatic body and tail tumors clot the splenic vein: lying against the spleen's vein, they thrombose it, causing gastric varices and an enlarged spleen (left-sided portal hypertension).
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Pancreatic cancer turns platelets into clots: it is the classic cause of Trousseau syndrome, activating platelets to produce migratory thrombophlebitis and venous clots that can precede the diagnosis.
 
 ---
 
