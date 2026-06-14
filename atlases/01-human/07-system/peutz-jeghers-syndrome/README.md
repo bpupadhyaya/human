@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "PJS shows a non-Wnt route to GI tumors: unlike FAP's APC/Wnt adenomas, Peutz-Jeghers polyps arise from STK11/LKB1-AMPK-mTOR dysregulation, so its hamartomas form by a different pathway—though malignant transformation can still recruit Wnt-driven changes."
+  - target: 01-human/07-system/digestive-system
+    relation: connects-to
+    note: "Peutz-Jeghers fills the digestive tract with hamartomatous polyps: STK11/LKB1 loss seeds large hamartomas, especially in the small bowel, that bleed and cause intussusception in childhood—so GI polyps and obstruction often bring the diagnosis."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Pigmented spots make Peutz-Jeghers visible on the skin: mucocutaneous melanin macules on the lips, mouth and fingers appear in childhood, so these freckle-like spots are often the first clue to this STK11 polyposis-and-cancer syndrome."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Peutz-Jeghers affects the reproductive system with distinctive tumors: women develop sex-cord tumors with annular tubules (SCTAT) and raised cervical/ovarian cancer risk, and men can get calcifying Sertoli cell testicular tumors—warranting gonadal surveillance."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -223,6 +232,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Peutz-Jeghers polyps stud the large intestine and beyond: STK11 loss produces hamartomatous polyps throughout the GI tract—small bowel most, but also colon—that bleed, cause intussusception, and modestly raise colorectal cancer risk.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — PJS hamartomas arise in disordered intestinal epithelium: loss of the STK11/LKB1 kinase deranges epithelial polarity and growth, so the crypts overgrow into the branching, smooth-muscle-cored hamartomatous polyps that distinguish PJS from adenomatous polyposis.
 - `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PJS shows a non-Wnt route to GI tumors: unlike FAP's APC/Wnt adenomas, Peutz-Jeghers polyps arise from STK11/LKB1-AMPK-mTOR dysregulation, so its hamartomas form by a different pathway—though malignant transformation can still recruit Wnt-driven changes.
+- `connects-to` → **[Digestive System](../digestive-system/README.md)** — Peutz-Jeghers fills the digestive tract with hamartomatous polyps: STK11/LKB1 loss seeds large hamartomas, especially in the small bowel, that bleed and cause intussusception in childhood—so GI polyps and obstruction often bring the diagnosis.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Pigmented spots make Peutz-Jeghers visible on the skin: mucocutaneous melanin macules on the lips, mouth and fingers appear in childhood, so these freckle-like spots are often the first clue to this STK11 polyposis-and-cancer syndrome.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Peutz-Jeghers affects the reproductive system with distinctive tumors: women develop sex-cord tumors with annular tubules (SCTAT) and raised cervical/ovarian cancer risk, and men can get calcifying Sertoli cell testicular tumors—warranting gonadal surveillance.
 
 ---
 

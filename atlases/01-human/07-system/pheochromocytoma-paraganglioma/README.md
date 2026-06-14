@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/07-system/men1-syndrome
     relation: connects-to
     note: "Pheochromocytoma belongs to MEN2, not MEN1: it arises with medullary thyroid cancer in RET-driven MEN2, whereas MEN1 (menin) causes parathyroid, pituitary and pancreatic tumors—so the two MEN syndromes are distinguished partly by whether pheochromocytoma occurs."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Pheochromocytoma is a cardiovascular emergency in waiting: surges of catecholamines cause paroxysmal hypertension, palpitations and arrhythmia, and can trigger catecholamine cardiomyopathy or crisis—so alpha-blockade before surgery is essential to prevent fatal swings."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "Paragangliomas arise along the autonomic nervous system: these tumors grow in sympathetic and parasympathetic paraganglia (from adrenal medulla to carotid body), so they are neural-crest tumors of the nervous system that happen to flood the body with catecholamines."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Pheochromocytoma is a hormone-secreting tumor of the endocrine adrenal medulla: it autonomously pours catecholamines into blood, so it belongs among the functional endocrine tumors and clusters in syndromes (MEN2, VHL, NF1) with other endocrine neoplasia."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -241,6 +250,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[NF1](../../03-molecular/nf1/README.md)** — NF1 is one of several genes causing hereditary pheochromocytoma: neurofibromin loss (like RET, VHL and SDH mutations) predisposes to catecholamine-secreting tumors, so a pheochromocytoma should prompt genetic testing—up to a third are hereditary.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Pheochromocytoma can devastate the heart: catecholamine surges cause hypertensive crises, arrhythmias and a stress (Takotsubo) cardiomyopathy, so the tumor's adrenaline output threatens the heart—and alpha-blockade before surgery prevents catastrophic crises.
 - `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Pheochromocytoma belongs to MEN2, not MEN1: it arises with medullary thyroid cancer in RET-driven MEN2, whereas MEN1 (menin) causes parathyroid, pituitary and pancreatic tumors—so the two MEN syndromes are distinguished partly by whether pheochromocytoma occurs.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Pheochromocytoma is a cardiovascular emergency in waiting: surges of catecholamines cause paroxysmal hypertension, palpitations and arrhythmia, and can trigger catecholamine cardiomyopathy or crisis—so alpha-blockade before surgery is essential to prevent fatal swings.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — Paragangliomas arise along the autonomic nervous system: these tumors grow in sympathetic and parasympathetic paraganglia (from adrenal medulla to carotid body), so they are neural-crest tumors of the nervous system that happen to flood the body with catecholamines.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Pheochromocytoma is a hormone-secreting tumor of the endocrine adrenal medulla: it autonomously pours catecholamines into blood, so it belongs among the functional endocrine tumors and clusters in syndromes (MEN2, VHL, NF1) with other endocrine neoplasia.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
