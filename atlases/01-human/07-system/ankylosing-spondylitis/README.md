@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "AS creates a calcium paradox in the skeleton: ligaments ossify and deposit calcium into rigid syndesmophytes while the vertebral bodies inside lose mineral and become osteoporotic—so the stiff bamboo spine is brittle and prone to fracture."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Ankylosing spondylitis fuses the spine via Wnt-driven bone formation: inflammation shifts the Wnt/sclerostin balance to activate osteoblasts, building the syndesmophytes that bridge vertebrae into a 'bamboo spine'—why anti-inflammatories don't fully stop fusion."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "HLA-B27 ties ankylosing spondylitis to cytotoxic T cells: the class I molecule presents peptides to CD8 T cells, and the leading 'arthritogenic peptide' hypothesis holds that this drives the autoimmune attack on the spine and joints."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "JAK inhibitors are a newer ankylosing spondylitis therapy: oral drugs like upadacitinib block JAK signaling downstream of inflammatory cytokines, controlling axial disease in patients who fail or can't take TNF and IL-17 biologics."
 ---
 
 # Ankylosing Spondylitis
@@ -232,6 +241,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Ankylosing spondylitis is tied to the gut: most patients have subclinical bowel inflammation, and a dysbiotic microbiome in HLA-B27 carriers is thought to drive the IL-23/IL-17 axis—linking gut bacteria to spinal disease along the gut-joint axis.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — AS damages and remakes collagen-rich tissue: chronic enthesitis erodes the collagen anchors where ligaments meet bone, then heals by ossification, so syndesmophytes bridge vertebrae—turning the spine's flexible collagen attachments into rigid bone.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AS creates a calcium paradox in the skeleton: ligaments ossify and deposit calcium into rigid syndesmophytes while the vertebral bodies inside lose mineral and become osteoporotic—so the stiff bamboo spine is brittle and prone to fracture.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Ankylosing spondylitis fuses the spine via Wnt-driven bone formation: inflammation shifts the Wnt/sclerostin balance to activate osteoblasts, building the syndesmophytes that bridge vertebrae into a 'bamboo spine'—why anti-inflammatories don't fully stop fusion.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — HLA-B27 ties ankylosing spondylitis to cytotoxic T cells: the class I molecule presents peptides to CD8 T cells, and the leading 'arthritogenic peptide' hypothesis holds that this drives the autoimmune attack on the spine and joints.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — JAK inhibitors are a newer ankylosing spondylitis therapy: oral drugs like upadacitinib block JAK signaling downstream of inflammatory cytokines, controlling axial disease in patients who fail or can't take TNF and IL-17 biologics.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

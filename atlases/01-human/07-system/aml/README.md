@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "AML can infiltrate the skin as leukemia cutis: monocytic subtypes especially seed violaceous nodules, and myeloid sarcoma (chloroma) forms solid deposits—skin or soft-tissue lesions that can herald or signal relapse of the marrow disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Allogeneic transplant cures AML through cytotoxic T cells: donor T cells mount a graft-versus-leukemia attack on residual blasts—the curative immune mechanism that makes transplant, not just chemo, definitive for high-risk disease."
+  - target: 01-human/03-molecular/idh2
+    relation: connects-to
+    note: "IDH2 mutations define a targetable AML subset: like IDH1, mutant IDH2 makes the oncometabolite 2-hydroxyglutarate that blocks blood-cell differentiation, and the inhibitor enasidenib releases that block to mature the leukemic cells."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "AML often begins with DNMT3A clonal hematopoiesis: this epigenetic mutation arises in aging blood stem cells (CHIP) years before leukemia, seeding a pre-malignant clone—part of why DNA-methylation drugs like azacitidine treat AML."
 ---
 
 # AML
@@ -234,6 +243,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — AML crowds out platelet production: leukemic blasts overrun the marrow, so falling platelets cause bruising, bleeding, and—when promyelocytic AML triggers DIC—life-threatening hemorrhage, making platelet transfusion a mainstay of supportive care.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — AML is curable by harnessing the immune system: allogeneic stem-cell transplant works largely through a graft-versus-leukemia effect, where donor T cells recognize and kill residual blasts—the most powerful anti-leukemic immunotherapy available.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — AML can infiltrate the skin as leukemia cutis: monocytic subtypes especially seed violaceous nodules, and myeloid sarcoma (chloroma) forms solid deposits—skin or soft-tissue lesions that can herald or signal relapse of the marrow disease.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Allogeneic transplant cures AML through cytotoxic T cells: donor T cells mount a graft-versus-leukemia attack on residual blasts—the curative immune mechanism that makes transplant, not just chemo, definitive for high-risk disease.
+- `connects-to` → **[IDH2](../../03-molecular/idh2/README.md)** — IDH2 mutations define a targetable AML subset: like IDH1, mutant IDH2 makes the oncometabolite 2-hydroxyglutarate that blocks blood-cell differentiation, and the inhibitor enasidenib releases that block to mature the leukemic cells.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — AML often begins with DNMT3A clonal hematopoiesis: this epigenetic mutation arises in aging blood stem cells (CHIP) years before leukemia, seeding a pre-malignant clone—part of why DNA-methylation drugs like azacitidine treat AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
