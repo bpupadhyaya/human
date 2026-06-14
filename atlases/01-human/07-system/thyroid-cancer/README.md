@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Follicular thyroid cancer spreads hematogenously to the lung and bone: unlike papillary's nodal route, it invades blood vessels to seed distant organs—so the lung is a classic metastatic site, treatable with radioactive iodine if the deposits still take up iodine."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The immune system frames several thyroid cancers: chronic Hashimoto's autoimmune thyroiditis predisposes to papillary cancer and primary thyroid lymphoma, while checkpoint inhibitors are tried in aggressive anaplastic disease that resists radioiodine."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Bone metastases make thyroid cancer a musculoskeletal disease too: spinal and pelvic deposits cause pathological fractures, cord compression, and pain, so management adds bisphosphonates, surgery, and targeted radiotherapy beyond radioiodine to protect the skeleton."
+  - target: 01-human/07-system/men1-syndrome
+    relation: connects-to
+    note: "Thyroid tumors sit within inherited endocrine neoplasia: medullary thyroid cancer defines MEN2 via RET, and although MEN1 centers on parathyroid, pituitary, and pancreas, both syndromes prompt the familial work-up any endocrine tumor demands."
 ---
 
 # Thyroid Cancer
@@ -243,6 +252,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Differentiated thyroid cancer keeps the gland's hormone machinery, enabling unique therapy: it still takes up iodine and responds to TSH, so radioactive iodine ablates residual tumor and thyroid-hormone (TSH suppression) therapy starves it—treatment exploiting normal physiology.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Papillary thyroid cancer spreads through the lymphatic system: it characteristically metastasizes to cervical lymph nodes (often the presenting sign) yet remains highly curable, so nodal spread shapes surgery but, unusually for cancer, rarely dooms the patient.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Follicular thyroid cancer spreads hematogenously to the lung and bone: unlike papillary's nodal route, it invades blood vessels to seed distant organs—so the lung is a classic metastatic site, treatable with radioactive iodine if the deposits still take up iodine.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — The immune system frames several thyroid cancers: chronic Hashimoto's autoimmune thyroiditis predisposes to papillary cancer and primary thyroid lymphoma, while checkpoint inhibitors are tried in aggressive anaplastic disease that resists radioiodine.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Bone metastases make thyroid cancer a musculoskeletal disease too: spinal and pelvic deposits cause pathological fractures, cord compression, and pain, so management adds bisphosphonates, surgery, and targeted radiotherapy beyond radioiodine to protect the skeleton.
+- `connects-to` → **[MEN1 Syndrome](../men1-syndrome/README.md)** — Thyroid tumors sit within inherited endocrine neoplasia: medullary thyroid cancer defines MEN2 via RET, and although MEN1 centers on parathyroid, pituitary, and pancreas, both syndromes prompt the familial work-up any endocrine tumor demands.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

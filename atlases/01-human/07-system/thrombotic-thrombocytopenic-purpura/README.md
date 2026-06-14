@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/03-molecular/thrombin
     relation: connects-to
     note: "TTP clots without activating thrombin: unlike DIC, the microthrombi are platelet-VWF aggregates formed without triggering the coagulation cascade, so thrombin generation and clotting times stay normal—distinguishing it from consumptive coagulopathy."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Acquired TTP is autoantibody-driven, so B cells are a treatment target: rituximab (anti-CD20) depletes the B cells making anti-ADAMTS13 antibodies, raising enzyme levels, preventing relapse, and increasingly used upfront alongside plasma exchange."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Most TTP is autoimmune: the immune system generates IgG autoantibodies against ADAMTS13, crippling the enzyme that cleaves von Willebrand factor—so unchecked VWF multimers trigger platelet microthrombi, distinguishing acquired TTP from the hereditary enzyme deficiency."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen links to TTP through antibody handling: its reticuloendothelial cells clear autoantibody-coated platelets and produce immunoglobulin, and historically splenectomy was used for refractory or relapsing immune TTP before rituximab became standard."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -262,6 +271,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the anti-ADAMTS13 antibody behind acquired TTP: long-lived autoantibody-secreting cells block the enzyme that cleaves von Willebrand factor, so giant VWF multimers clump platelets—why plasma exchange (removing antibody) and rituximab treat TTP.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a major, underrecognized TTP target: microthrombi in coronary microvasculature cause troponin rise, arrhythmia and sudden death, so cardiac involvement is a leading cause of TTP mortality—reason to start plasma exchange urgently on suspicion.
 - `connects-to` → **[Thrombin](../../03-molecular/thrombin/README.md)** — TTP clots without activating thrombin: unlike DIC, the microthrombi are platelet-VWF aggregates formed without triggering the coagulation cascade, so thrombin generation and clotting times stay normal—distinguishing it from consumptive coagulopathy.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Acquired TTP is autoantibody-driven, so B cells are a treatment target: rituximab (anti-CD20) depletes the B cells making anti-ADAMTS13 antibodies, raising enzyme levels, preventing relapse, and increasingly used upfront alongside plasma exchange.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Most TTP is autoimmune: the immune system generates IgG autoantibodies against ADAMTS13, crippling the enzyme that cleaves von Willebrand factor—so unchecked VWF multimers trigger platelet microthrombi, distinguishing acquired TTP from the hereditary enzyme deficiency.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen links to TTP through antibody handling: its reticuloendothelial cells clear autoantibody-coated platelets and produce immunoglobulin, and historically splenectomy was used for refractory or relapsing immune TTP before rituximab became standard.
 
 ---
 
