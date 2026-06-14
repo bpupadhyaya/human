@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The gut-brain axis is implicated in schizophrenia: altered gut microbiota and intestinal inflammation can influence neurotransmitters and immune signaling reaching the brain, an emerging factor beyond the classic dopamine and glutamate models."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Schizophrenia's strongest genetic hits include a calcium channel: CACNA1C and other voltage-gated calcium channel genes top the risk lists, so disturbed calcium signaling in neurons—shared with bipolar disorder—is a core piece of its biology."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Maternal IL-6 links infection to schizophrenia: prenatal immune activation, signaled through IL-6, perturbs fetal brain development and raises later risk—evidence that inflammation in pregnancy is one road into the disorder."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Stress and cortisol shape schizophrenia's onset: an overactive HPA axis and high cortisol mark the prodrome and can precipitate first psychosis in vulnerable people, the hormonal arm of the stress-diathesis model."
 ---
 
 # Schizophrenia
@@ -299,6 +308,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Schizophrenia may involve excessive synaptic pruning via complement: the strongest common-variant risk lies in complement C4, which tags synapses through C3 for microglial removal, so over-pruning in adolescence could thin the cortical connections seen in the disease.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Prenatal and placental factors raise schizophrenia risk: maternal infection, malnutrition and obstetric complications acting through the placenta interact with genetic risk, supporting a neurodevelopmental origin set in motion before birth.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut-brain axis is implicated in schizophrenia: altered gut microbiota and intestinal inflammation can influence neurotransmitters and immune signaling reaching the brain, an emerging factor beyond the classic dopamine and glutamate models.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Schizophrenia's strongest genetic hits include a calcium channel: CACNA1C and other voltage-gated calcium channel genes top the risk lists, so disturbed calcium signaling in neurons—shared with bipolar disorder—is a core piece of its biology.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Maternal IL-6 links infection to schizophrenia: prenatal immune activation, signaled through IL-6, perturbs fetal brain development and raises later risk—evidence that inflammation in pregnancy is one road into the disorder.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Stress and cortisol shape schizophrenia's onset: an overactive HPA axis and high cortisol mark the prodrome and can precipitate first psychosis in vulnerable people, the hormonal arm of the stress-diathesis model.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)

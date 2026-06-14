@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Schwannoma growth engages PI3K-mTOR signaling: alongside RAS-ERK, loss of the tumor-suppressor inputs activates mTOR to drive proliferation, making the pathway a candidate target in a syndrome whose tumors are otherwise managed surgically."
+  - target: 01-human/03-molecular/kras
+    relation: connects-to
+    note: "Schwannomatosis can trace to runaway RAS: LZTR1 normally tags RAS for destruction, so losing it lets RAS-MAPK signaling build up and drive schwannomas—linking the syndrome to the RASopathies like Noonan."
+  - target: 01-human/03-molecular/yap1
+    relation: connects-to
+    note: "Schwannomatosis tumors grow through the Hippo effector YAP1: like NF2 schwannomas, loss of merlin and SWI/SNF function releases YAP1 to switch on growth genes, the shared pathway behind these nerve-sheath tumors."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Schwannomatosis pain is fueled by macrophages: its schwannomas are infiltrated by macrophages that release inflammatory mediators sensitizing nerves, helping explain why chronic pain—not hearing loss—is this syndrome's hallmark."
 ---
 
 # Schwannomatosis
@@ -225,6 +234,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Schwannomatosis links to RAS-ERK through LZTR1: the LZTR1 gene normally degrades RAS, so its loss lets RAS-ERK signaling drive Schwann-cell tumor growth—one of the two molecular routes (with SMARCB1) to this multiple-schwannoma syndrome.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Schwannomatosis tumors arise from Schwann cells, the peripheral counterpart of oligodendrocytes: both make myelin, but Schwann cells wrap peripheral nerves—so these tumors form along peripheral nerves rather than in the brain's oligodendrocyte territory.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Schwannoma growth engages PI3K-mTOR signaling: alongside RAS-ERK, loss of the tumor-suppressor inputs activates mTOR to drive proliferation, making the pathway a candidate target in a syndrome whose tumors are otherwise managed surgically.
+- `connects-to` → **[KRAS](../../03-molecular/kras/README.md)** — Schwannomatosis can trace to runaway RAS: LZTR1 normally tags RAS for destruction, so losing it lets RAS-MAPK signaling build up and drive schwannomas—linking the syndrome to the RASopathies like Noonan.
+- `connects-to` → **[YAP1](../../03-molecular/yap1/README.md)** — Schwannomatosis tumors grow through the Hippo effector YAP1: like NF2 schwannomas, loss of merlin and SWI/SNF function releases YAP1 to switch on growth genes, the shared pathway behind these nerve-sheath tumors.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Schwannomatosis pain is fueled by macrophages: its schwannomas are infiltrated by macrophages that release inflammatory mediators sensitizing nerves, helping explain why chronic pain—not hearing loss—is this syndrome's hallmark.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
