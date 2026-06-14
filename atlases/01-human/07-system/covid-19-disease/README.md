@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "NK cells are the early antiviral defense against COVID: they kill infected cells before adaptive immunity kicks in, and their exhaustion in severe disease is linked to failure to control the virus and worse outcomes."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "COVID-19's defining danger is silent hypoxia: the virus damages the gas-exchange surface so oxygen falls, sometimes profoundly, before patients feel breathless—why pulse-oximeter monitoring became central to spotting deteriorating disease."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "COVID is not only a lung disease—it hits the gut: ACE2 is abundant on intestinal cells, so the virus infects the bowel, causing diarrhea and prolonged fecal shedding that underpins wastewater surveillance."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "COVID makes blood clot through activated platelets: the infection primes platelets and the endothelium toward thrombosis, driving the strokes, pulmonary emboli and microclots that mark severe disease—why anticoagulation is used."
 ---
 
 # COVID-19 Disease
@@ -212,6 +221,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — COVID injures organs by unbalancing angiotensin II: the virus's spike commandeers and downregulates ACE2, the enzyme that normally degrades angiotensin II, so unopposed angiotensin II fuels the vasoconstriction, inflammation, and lung damage of severe disease.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Severe COVID is a clotting disease marked by fibrinogen: the inflamed endothelium and high fibrinogen drive immunothrombosis—microclots in the lungs and elsewhere—so anticoagulation became part of treating hospitalized patients.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells are the early antiviral defense against COVID: they kill infected cells before adaptive immunity kicks in, and their exhaustion in severe disease is linked to failure to control the virus and worse outcomes.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — COVID-19's defining danger is silent hypoxia: the virus damages the gas-exchange surface so oxygen falls, sometimes profoundly, before patients feel breathless—why pulse-oximeter monitoring became central to spotting deteriorating disease.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — COVID is not only a lung disease—it hits the gut: ACE2 is abundant on intestinal cells, so the virus infects the bowel, causing diarrhea and prolonged fecal shedding that underpins wastewater surveillance.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — COVID makes blood clot through activated platelets: the infection primes platelets and the endothelium toward thrombosis, driving the strokes, pulmonary emboli and microclots that mark severe disease—why anticoagulation is used.
 
 ## Pathology
 

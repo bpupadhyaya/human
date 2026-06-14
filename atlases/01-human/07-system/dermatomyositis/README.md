@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Dermatomyositis can scar the lungs, especially the anti-MDA5 type: a rapidly progressive interstitial lung fibrosis is its most dangerous complication, turning a skin-and-muscle disease into a life-threatening respiratory emergency."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Dermatomyositis can starve the blood of oxygen through lung scarring: its rapidly progressive interstitial lung disease, especially the anti-MDA5 type, wrecks gas exchange, making hypoxemia the disease's most lethal turn."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Dermatomyositis can attack the gut's vessels: especially in juvenile disease, a vasculopathy injures the intestinal lining, causing dysphagia, pain and even bowel perforation beyond the classic skin and muscle features."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-kB amplifies the inflammation of dermatomyositis: alongside the dominant type-I interferon signature, this switch drives the cytokines and adhesion molecules that bring immune cells into the inflamed muscle and skin."
 ---
 
 # Dermatomyositis
@@ -280,6 +289,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Dermatomyositis is a complement-driven microangiopathy: the membrane attack complex deposits on muscle and skin capillaries, starving the outer muscle fibers of blood—the perifascicular atrophy that is the disease's pathologic signature.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Dermatomyositis is first treated with cortisol's kin: high-dose corticosteroids suppress the interferon-driven inflammation attacking muscle and skin, the mainstay before steroid-sparing immunosuppressants and JAK inhibitors are added.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Dermatomyositis can scar the lungs, especially the anti-MDA5 type: a rapidly progressive interstitial lung fibrosis is its most dangerous complication, turning a skin-and-muscle disease into a life-threatening respiratory emergency.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Dermatomyositis can starve the blood of oxygen through lung scarring: its rapidly progressive interstitial lung disease, especially the anti-MDA5 type, wrecks gas exchange, making hypoxemia the disease's most lethal turn.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Dermatomyositis can attack the gut's vessels: especially in juvenile disease, a vasculopathy injures the intestinal lining, causing dysphagia, pain and even bowel perforation beyond the classic skin and muscle features.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-kB amplifies the inflammation of dermatomyositis: alongside the dominant type-I interferon signature, this switch drives the cytokines and adhesion molecules that bring immune cells into the inflamed muscle and skin.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
