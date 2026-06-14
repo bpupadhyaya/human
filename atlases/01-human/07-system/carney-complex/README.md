@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Carney complex strikes the nervous system through a rare nerve-sheath tumor: psammomatous melanotic schwannoma is a near-specific feature, so pigmented nerve tumors plus skin spots and myxomas point to the PRKAR1A mutation behind the syndrome."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Carney complex marks the breast with myxoid tumors: PRKAR1A loss causes breast myxomatosis and myxoid fibroadenomas, part of the syndrome's signature myxomas that also stud the heart and skin—benign but a diagnostic clue."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Carney complex grows pituitary tumors: PRKAR1A loss drives GH- and prolactin-secreting adenomas at the brain's base, causing acromegaly or gigantism—so the syndrome's endocrine excess often traces to a tumor sitting beneath the brain."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Carney complex can flood the body with estrogen: its large-cell calcifying Sertoli cell tumors of the testis over-express aromatase, so boys may develop gynecomastia and accelerated growth—an unusual hormonal route to feminizing signs."
 ---
 
 # Carney Complex
@@ -233,6 +242,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin is a key clue to Carney complex: spotty brown lentigines (notably on lips and eyelids), blue nevi and cutaneous myxomas are often the first visible signs of this PRKAR1A-driven multiple-neoplasia syndrome, prompting cardiac and endocrine screening.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Cardiac myxomas are the lethal hallmark of Carney complex: these benign heart tumors—unlike sporadic myxomas—are multiple, recur, and arise in any chamber, so they can obstruct flow or embolize to cause stroke, making cardiac surveillance lifesaving.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Carney complex strikes the nervous system through a rare nerve-sheath tumor: psammomatous melanotic schwannoma is a near-specific feature, so pigmented nerve tumors plus skin spots and myxomas point to the PRKAR1A mutation behind the syndrome.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Carney complex marks the breast with myxoid tumors: PRKAR1A loss causes breast myxomatosis and myxoid fibroadenomas, part of the syndrome's signature myxomas that also stud the heart and skin—benign but a diagnostic clue.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Carney complex grows pituitary tumors: PRKAR1A loss drives GH- and prolactin-secreting adenomas at the brain's base, causing acromegaly or gigantism—so the syndrome's endocrine excess often traces to a tumor sitting beneath the brain.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Carney complex can flood the body with estrogen: its large-cell calcifying Sertoli cell tumors of the testis over-express aromatase, so boys may develop gynecomastia and accelerated growth—an unusual hormonal route to feminizing signs.
 
 ---
 

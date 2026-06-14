@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Burkitt lymphoma is the textbook cause of tumor lysis syndrome threatening the kidney: its explosive growth and rapid chemo-induced cell death dump uric acid, potassium and phosphate that can crystallize and cause acute kidney injury without aggressive prophylaxis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Sporadic Burkitt lymphoma favors the abdomen: it typically presents as a fast-growing ileocecal or bowel mass causing obstruction or intussusception, so a rapidly enlarging abdominal tumor in a child is a classic Burkitt presentation."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Burkitt lymphoma is held in check by cytotoxic T cells: EBV-specific T-cell surveillance normally controls infected B cells, so when HIV or immunosuppression weakens it, EBV-driven Burkitt emerges—underpinning T-cell-based immunotherapies."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Burkitt lymphoma's abdominal disease often centers on the spleen and viscera: this fast-growing lymphoma seeds the spleen, liver, and mesentery, so bulky intra-abdominal and splenic involvement is typical of the sporadic form."
 ---
 
 # Burkitt Lymphoma
@@ -246,6 +255,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — Burkitt lymphoma is an aggressive cancer of the lymphatic system: the endemic form classically erupts as a jaw or facial mass while sporadic disease hits abdominal lymph nodes and bowel, reflecting its origin in germinal-center B cells of lymphoid tissue.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Burkitt lymphoma can flood the bone marrow and blood: with the fastest doubling time of any human tumor, it readily spills into marrow as a leukemic phase, so it overlaps clinically with acute leukemia and demands immediate intensive chemotherapy.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Burkitt lymphoma is the textbook cause of tumor lysis syndrome threatening the kidney: its explosive growth and rapid chemo-induced cell death dump uric acid, potassium and phosphate that can crystallize and cause acute kidney injury without aggressive prophylaxis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Sporadic Burkitt lymphoma favors the abdomen: it typically presents as a fast-growing ileocecal or bowel mass causing obstruction or intussusception, so a rapidly enlarging abdominal tumor in a child is a classic Burkitt presentation.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Burkitt lymphoma is held in check by cytotoxic T cells: EBV-specific T-cell surveillance normally controls infected B cells, so when HIV or immunosuppression weakens it, EBV-driven Burkitt emerges—underpinning T-cell-based immunotherapies.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Burkitt lymphoma's abdominal disease often centers on the spleen and viscera: this fast-growing lymphoma seeds the spleen, liver, and mesentery, so bulky intra-abdominal and splenic involvement is typical of the sporadic form.
 
 ---
 
