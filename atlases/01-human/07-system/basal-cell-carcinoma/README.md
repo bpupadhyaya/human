@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells crowd around basal cell carcinoma: they accumulate at the tumor edge and release mediators that remodel stroma and drive angiogenesis, so these innate cells help build the supportive microenvironment BCC needs to invade."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "BCC leans on TGF-beta in its stroma: the tumor and its fibroblasts secrete TGF-beta, which suppresses anti-tumor immunity and drives the fibrous stroma around nests of basal cells, complementing the Hedgehog signaling that fuels growth."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "BCC shelters behind regulatory T cells: Tregs accumulate in the tumor and dampen the cytotoxic response, part of the immune evasion that PD-1 blockade (cemiplimab) tries to reverse in advanced basal cell carcinoma."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Tumor-associated macrophages support BCC: recruited into the stroma, they adopt a pro-tumor phenotype that promotes angiogenesis and immune suppression around the slow-growing but locally invasive basal cell tumor."
 ---
 
 # Basal Cell Carcinoma
@@ -245,6 +254,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eyelid is a top site for basal cell carcinoma: chronic sun exposure makes BCC the most common eyelid and periocular cancer, where slow local invasion can threaten the eye itself—so a non-healing eyelid lesion warrants biopsy.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — UV light disarms the skin's dendritic cells to let BCC grow: sunlight depletes and impairs epidermal Langerhans cells, weakening immune surveillance, so UV both mutates keratinocytes and removes the immune watch that would clear early tumors.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells crowd around basal cell carcinoma: they accumulate at the tumor edge and release mediators that remodel stroma and drive angiogenesis, so these innate cells help build the supportive microenvironment BCC needs to invade.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — BCC leans on TGF-beta in its stroma: the tumor and its fibroblasts secrete TGF-beta, which suppresses anti-tumor immunity and drives the fibrous stroma around nests of basal cells, complementing the Hedgehog signaling that fuels growth.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — BCC shelters behind regulatory T cells: Tregs accumulate in the tumor and dampen the cytotoxic response, part of the immune evasion that PD-1 blockade (cemiplimab) tries to reverse in advanced basal cell carcinoma.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages support BCC: recruited into the stroma, they adopt a pro-tumor phenotype that promotes angiogenesis and immune suppression around the slow-growing but locally invasive basal cell tumor.
 
 ---
 

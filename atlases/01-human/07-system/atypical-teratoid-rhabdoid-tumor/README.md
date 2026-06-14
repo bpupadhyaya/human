@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "ATRT cells may depend on autophagy to survive: SWI/SNF loss and metabolic stress make these tumors lean on autophagic recycling, so blocking autophagy is studied as a vulnerability in a cancer that resists standard treatment."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ATRT is a SWI/SNF disease beyond SMARCB1: ARID1A is another subunit of the same chromatin-remodeling complex, so the rhabdoid tumor's defining loss of SMARCB1 sits in a pathway where ARID1A mutations cause related epigenetically-driven cancers."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "ATRT recruits the brain's own microglia: these resident immune cells infiltrate the tumor and are often co-opted into a tumor-supporting state, shaping the immune microenvironment of this aggressive infant brain cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "SMARCB1 loss makes ATRT a target for NK cells: rhabdoid tumors lacking SMARCB1 can downregulate MHC and upregulate stress ligands, and NK-cell-based immunotherapy is explored against these poorly immunogenic tumors."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -242,6 +251,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ATRT shows actionable pathway activation including mTOR: loss of SMARCB1 deregulates signaling that converges on mTOR and aurora kinase, so targeted inhibitors are being tested to add precision options to this aggressive infant brain tumor's harsh chemoradiation.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy is being explored in ATRT via cytotoxic T cells: despite few mutations, some ATRTs carry immune infiltrate, so checkpoint blockade and T-cell approaches are studied for a tumor where conventional treatment often fails in the very young.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — ATRT cells may depend on autophagy to survive: SWI/SNF loss and metabolic stress make these tumors lean on autophagic recycling, so blocking autophagy is studied as a vulnerability in a cancer that resists standard treatment.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ATRT is a SWI/SNF disease beyond SMARCB1: ARID1A is another subunit of the same chromatin-remodeling complex, so the rhabdoid tumor's defining loss of SMARCB1 sits in a pathway where ARID1A mutations cause related epigenetically-driven cancers.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — ATRT recruits the brain's own microglia: these resident immune cells infiltrate the tumor and are often co-opted into a tumor-supporting state, shaping the immune microenvironment of this aggressive infant brain cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — SMARCB1 loss makes ATRT a target for NK cells: rhabdoid tumors lacking SMARCB1 can downregulate MHC and upregulate stress ligands, and NK-cell-based immunotherapy is explored against these poorly immunogenic tumors.
 
 ---
 
