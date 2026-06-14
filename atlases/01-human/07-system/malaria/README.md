@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron and malaria are dangerously intertwined: the parasite needs iron to grow, so iron supplementation can worsen malaria in endemic areas—while repeated infection also causes anemia, complicating how iron deficiency is treated where malaria is common."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Severe malaria spills potassium from burst red cells: massive hemolysis and kidney injury raise blood potassium, and the released hemoglobin can darken the urine (blackwater fever)—dangerous electrolyte shifts in the sickest patients."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The spleen's macrophages fight and are fooled by malaria: they engulf parasitized red cells and the dark hemozoin pigment, enlarging the spleen, yet the parasite's surface tricks sustain infection—and a ruptured malarial spleen is a feared emergency."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Severe malaria activates complement: C3 and the cascade fire on parasite and immune complexes, fueling the inflammation and red-cell destruction behind severe anemia and organ damage—part of the immune over-response that turns malaria lethal."
 ---
 
 # Malaria
@@ -292,6 +301,9 @@ cross_links:
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Malaria's silent first stage is in hepatocytes: injected sporozoites invade liver cells and multiply before the blood stage, and in P. vivax and ovale dormant hypnozoites hide there for months—causing relapses that need a separate drug (primaquine) to clear.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide is double-edged in malaria: it helps kill parasites, but in cerebral malaria dysregulated NO and endothelial activation contribute to the coma and brain injury that make it the deadliest complication.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron and malaria are dangerously intertwined: the parasite needs iron to grow, so iron supplementation can worsen malaria in endemic areas—while repeated infection also causes anemia, complicating how iron deficiency is treated where malaria is common.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Severe malaria spills potassium from burst red cells: massive hemolysis and kidney injury raise blood potassium, and the released hemoglobin can darken the urine (blackwater fever)—dangerous electrolyte shifts in the sickest patients.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The spleen's macrophages fight and are fooled by malaria: they engulf parasitized red cells and the dark hemozoin pigment, enlarging the spleen, yet the parasite's surface tricks sustain infection—and a ruptured malarial spleen is a feared emergency.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Severe malaria activates complement: C3 and the cascade fire on parasite and immune complexes, fueling the inflammation and red-cell destruction behind severe anemia and organ damage—part of the immune over-response that turns malaria lethal.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

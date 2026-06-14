@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Leishmania fights macrophages over iron: the parasite scavenges host iron to grow inside macrophages, while the host tries to withhold it—so iron handling is a battleground that shapes infection and contributes to the anemia of visceral disease."
+  - target: 01-human/03-molecular/immunoglobulin-g
+    relation: connects-to
+    note: "Visceral leishmaniasis floods the blood with IgG: chronic infection drives massive polyclonal hypergammaglobulinemia—largely non-protective antibody—so a high globulin level is a classic clue to kala-azar even as cellular immunity fails."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Leishmaniasis is decided by the Th1-Th2 balance, and IL-4 picks the losing side: an IL-4-driven Th2 response lets the parasite survive inside macrophages, whereas the IL-12/IFN-γ Th1 response clears it—the textbook model of this split."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Visceral leishmaniasis swells the liver: the parasite infects macrophages throughout the liver and spleen, enlarging both organs (hepatosplenomegaly) and crowding the hepatocytes—the massive spleen and liver being hallmarks of kala-azar."
 ---
 
 # Leishmaniasis
@@ -229,3 +238,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — Leishmaniasis turns on whether immunity goes Th1 or Th2: IL-10 (with IL-4) suppresses the protective IFN-gamma/IL-12 response, letting parasites survive inside macrophages—so high IL-10 marks progressive visceral disease and is a target for immunotherapy.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Visceral leishmaniasis crashes the blood counts: parasite infiltration of marrow plus an enlarged spleen destroying cells causes anemia and pancytopenia, with low red cells (and platelets and white cells) a hallmark of kala-azar.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Leishmania fights macrophages over iron: the parasite scavenges host iron to grow inside macrophages, while the host tries to withhold it—so iron handling is a battleground that shapes infection and contributes to the anemia of visceral disease.
+- `connects-to` → **[Immunoglobulin G](../../03-molecular/immunoglobulin-g/README.md)** — Visceral leishmaniasis floods the blood with IgG: chronic infection drives massive polyclonal hypergammaglobulinemia—largely non-protective antibody—so a high globulin level is a classic clue to kala-azar even as cellular immunity fails.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Leishmaniasis is decided by the Th1-Th2 balance, and IL-4 picks the losing side: an IL-4-driven Th2 response lets the parasite survive inside macrophages, whereas the IL-12/IFN-γ Th1 response clears it—the textbook model of this split.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Visceral leishmaniasis swells the liver: the parasite infects macrophages throughout the liver and spleen, enlarging both organs (hepatosplenomegaly) and crowding the hepatocytes—the massive spleen and liver being hallmarks of kala-azar.
