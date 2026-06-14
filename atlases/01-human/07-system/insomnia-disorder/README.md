@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "Sleep is when synapses are rebalanced: the night's slow-wave sleep prunes and renormalizes synaptic strength built up while awake, so insomnia's lost deep sleep leaves this synaptic housekeeping undone, blunting next-day learning."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light sets the clock that insomnia fights: photons striking the retina entrain the brain's master circadian pacemaker, so evening screen and blue light suppress melatonin and push sleep later, a leading driver of modern insomnia."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Insomnia wears on the heart: short, broken sleep keeps the sympathetic nervous system and blood pressure elevated overnight, so chronic insomnia raises the long-term risk of hypertension and heart disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Sleep and waking are flipped by competing neurons: wake-promoting orexin neurons and sleep-promoting neurons toggle a switch, and insomnia reflects this circuit stuck toward arousal, unable to flip cleanly into sleep."
 ---
 
 # Insomnia Disorder
@@ -292,6 +301,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help build the pressure to sleep: they release adenosine during waking and drive the glymphatic flushing of brain waste during sleep, so when this glial housekeeping falters, restorative sleep suffers in insomnia.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium supports the brain's calming systems for sleep: it backs GABA signaling and restrains excitatory NMDA activity, so low magnesium can leave the mind too aroused to settle, which is why it is a common sleep supplement.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Sleep is when synapses are rebalanced: the night's slow-wave sleep prunes and renormalizes synaptic strength built up while awake, so insomnia's lost deep sleep leaves this synaptic housekeeping undone, blunting next-day learning.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light sets the clock that insomnia fights: photons striking the retina entrain the brain's master circadian pacemaker, so evening screen and blue light suppress melatonin and push sleep later, a leading driver of modern insomnia.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Insomnia wears on the heart: short, broken sleep keeps the sympathetic nervous system and blood pressure elevated overnight, so chronic insomnia raises the long-term risk of hypertension and heart disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Sleep and waking are flipped by competing neurons: wake-promoting orexin neurons and sleep-promoting neurons toggle a switch, and insomnia reflects this circuit stuck toward arousal, unable to flip cleanly into sleep.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

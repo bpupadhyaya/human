@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "HIF senses the iron-oxygen shortfall and ramps up absorption: in the oxygen-starved gut lining, HIF-2alpha switches on the duodenal iron-uptake machinery, so this sensor links low iron and low oxygen to the body's effort to claw iron back."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Severe iron-deficiency anemia overworks the heart: with too little hemoglobin to carry oxygen, the heart races and pumps harder, so prolonged anemia can enlarge it and tip toward high-output heart failure."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Iron deficiency shows on the surface: pallor, brittle spoon-shaped nails (koilonychia), cracked mouth corners, and a smooth sore tongue are classic outward signs that point to the diagnosis."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Iron deficiency weakens the immune T cells: iron is needed for lymphocytes to proliferate and function, so deficiency blunts cell-mediated immunity and can leave a person more prone to infection."
 ---
 
 # Iron Deficiency Anemia
@@ -262,6 +271,9 @@ Iron is essential for:
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine is where iron deficiency is won or lost: the duodenum absorbs dietary iron, so celiac disease, bypass surgery or fast transit there cuts uptake and is a leading cause of iron-deficiency anemia.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Iron deficiency ultimately means too little oxygen delivered: without iron, hemoglobin falls and blood carries less oxygen, producing the fatigue, breathlessness and even the odd cravings (pica) that drive patients to seek care.
 - `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF senses the iron-oxygen shortfall and ramps up absorption: in the oxygen-starved gut lining, HIF-2alpha switches on the duodenal iron-uptake machinery, so this sensor links low iron and low oxygen to the body's effort to claw iron back.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe iron-deficiency anemia overworks the heart: with too little hemoglobin to carry oxygen, the heart races and pumps harder, so prolonged anemia can enlarge it and tip toward high-output heart failure.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Iron deficiency shows on the surface: pallor, brittle spoon-shaped nails (koilonychia), cracked mouth corners, and a smooth sore tongue are classic outward signs that point to the diagnosis.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Iron deficiency weakens the immune T cells: iron is needed for lymphocytes to proliferate and function, so deficiency blunts cell-mediated immunity and can leave a person more prone to infection.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
