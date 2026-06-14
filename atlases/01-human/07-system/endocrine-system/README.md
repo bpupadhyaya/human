@@ -86,6 +86,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Osteoporosis is largely an endocrine disease of bone: estrogen, testosterone, thyroid, parathyroid and cortisol all govern bone turnover, so hormonal shifts—menopause, hyperthyroidism, steroid excess—are leading causes, tying the skeleton to the endocrine system."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "The pineal gland completes the endocrine system with melatonin: this hormone translates darkness into a sleep-timing signal, so the endocrine system governs not just metabolism and growth but the body's daily clock."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is a hidden endocrine organ: it secretes erythropoietin to drive red-cell production, renin to control blood pressure, and activates vitamin D, so kidney failure causes anemia, hypertension, and bone disease through lost hormones."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Fat is an endocrine organ, and obesity disrupts it: adipose tissue secretes leptin, adiponectin, and estrogen, so excess fat rewires hormonal signaling—driving insulin resistance, reproductive disturbance, and hormone-sensitive cancers."
 ---
 
 # Endocrine System
@@ -269,6 +278,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone is a central output of the endocrine system: the testes make it under pituitary LH control, and it drives male sexual development, muscle and bone—so it exemplifies the hypothalamic-pituitary-gonadal axis that the endocrine system coordinates.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Aldosterone shows the endocrine system regulating salt and blood pressure: the adrenal cortex secretes it under the renin-angiotensin system to retain sodium, so its excess (Conn syndrome) or deficiency (Addison's) are classic endocrine electrolyte and pressure disorders.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Osteoporosis is largely an endocrine disease of bone: estrogen, testosterone, thyroid, parathyroid and cortisol all govern bone turnover, so hormonal shifts—menopause, hyperthyroidism, steroid excess—are leading causes, tying the skeleton to the endocrine system.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The pineal gland completes the endocrine system with melatonin: this hormone translates darkness into a sleep-timing signal, so the endocrine system governs not just metabolism and growth but the body's daily clock.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a hidden endocrine organ: it secretes erythropoietin to drive red-cell production, renin to control blood pressure, and activates vitamin D, so kidney failure causes anemia, hypertension, and bone disease through lost hormones.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Fat is an endocrine organ, and obesity disrupts it: adipose tissue secretes leptin, adiponectin, and estrogen, so excess fat rewires hormonal signaling—driving insulin resistance, reproductive disturbance, and hormone-sensitive cancers.
 
 ## Pathology
 

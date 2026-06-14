@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Radiotherapy complements chemo in localized DLBCL: photon-beam radiation to involved sites consolidates limited-stage disease after abbreviated R-CHOP and treats bulky masses, so it remains part of curative therapy alongside immunochemotherapy and CAR-T for relapse."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "DLBCL is a triumph of T-cell therapy: CD19-directed CAR-T cells re-engineer the patient's cytotoxic T cells to kill the lymphoma, curing many with relapsed disease—so T cells are now a frontline weapon against this most common aggressive lymphoma."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "DLBCL is the commonest extranodal lymphoma of the stomach: it can arise there directly or transform from indolent gastric MALT lymphoma, so a stomach mass or ulcer that is lymphoma, not carcinoma, changes treatment entirely toward chemo-immunotherapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages shape DLBCL's fate: tumor-associated macrophages and the CD47 'don't-eat-me' signal let lymphoma cells evade clearance, so blocking CD47 to unleash macrophage phagocytosis is an emerging therapeutic strategy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -233,6 +242,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — DLBCL is the most common aggressive lymphoma of the lymphatic system: it usually presents as rapidly enlarging lymph nodes or an extranodal mass, and because it is fast-growing it is paradoxically curable in many with R-CHOP immunochemotherapy.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — DLBCL can involve the bone marrow, worsening prognosis: marrow infiltration upstages the disease and may cause cytopenias, so staging includes marrow assessment—and concordant large-cell marrow involvement portends a worse outcome than discordant low-grade disease.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Radiotherapy complements chemo in localized DLBCL: photon-beam radiation to involved sites consolidates limited-stage disease after abbreviated R-CHOP and treats bulky masses, so it remains part of curative therapy alongside immunochemotherapy and CAR-T for relapse.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — DLBCL is a triumph of T-cell therapy: CD19-directed CAR-T cells re-engineer the patient's cytotoxic T cells to kill the lymphoma, curing many with relapsed disease—so T cells are now a frontline weapon against this most common aggressive lymphoma.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — DLBCL is the commonest extranodal lymphoma of the stomach: it can arise there directly or transform from indolent gastric MALT lymphoma, so a stomach mass or ulcer that is lymphoma, not carcinoma, changes treatment entirely toward chemo-immunotherapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages shape DLBCL's fate: tumor-associated macrophages and the CD47 'don't-eat-me' signal let lymphoma cells evade clearance, so blocking CD47 to unleash macrophage phagocytosis is an emerging therapeutic strategy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
