@@ -99,6 +99,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "Gambling rewires reward synapses like a drug does: repeated wins and near-misses strengthen synaptic connections in the dopamine reward pathway, the plasticity that entrenches compulsive betting much as substances entrench addiction."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Gambling's grip leans on calcium: calcium surging into reward neurons after each win triggers the molecular cascade that cements cue-craving links, and calcium-channel genes also shape the impulsivity underlying the disorder."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Compulsive gambling may inflame the reward circuit via microglia: repeated dopamine surges can activate these brain immune cells, and the resulting neuroinflammation is implicated in remodeling the motivation pathways that sustain the habit."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Gambling rides the body's stress axis through the adrenal glands: bets and losses spike cortisol from the adrenals, and this stress arousal sharpens the thrill and later fuels the craving and relapse that mark the disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -272,6 +281,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Gambling disorder reflects weakened inhibitory braking: GABA is the brain's main 'stop' signal, and reduced GABAergic control over reward and impulse circuits helps explain the difficulty resisting the urge to bet despite mounting losses.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system shapes gambling's pull: it modulates reward and the salience of cues, so signals like a casino's lights and sounds gain outsized motivational force, helping drive the craving and relapse seen in the disorder.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Gambling rewires reward synapses like a drug does: repeated wins and near-misses strengthen synaptic connections in the dopamine reward pathway, the plasticity that entrenches compulsive betting much as substances entrench addiction.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gambling's grip leans on calcium: calcium surging into reward neurons after each win triggers the molecular cascade that cements cue-craving links, and calcium-channel genes also shape the impulsivity underlying the disorder.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Compulsive gambling may inflame the reward circuit via microglia: repeated dopamine surges can activate these brain immune cells, and the resulting neuroinflammation is implicated in remodeling the motivation pathways that sustain the habit.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Gambling rides the body's stress axis through the adrenal glands: bets and losses spike cortisol from the adrenals, and this stress arousal sharpens the thrill and later fuels the craving and relapse that mark the disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

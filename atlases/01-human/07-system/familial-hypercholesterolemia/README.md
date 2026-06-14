@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "FH's growing plaques sprout fragile vessels via VEGF: as plaques thicken they outgrow their oxygen supply and release VEGF to recruit leaky new microvessels, which bleed into the plaque and destabilize it, raising rupture risk."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "FH's atherosclerosis reaches the kidneys: cholesterol-laden plaque narrows the renal arteries, which can drive resistant high blood pressure and slowly starve the kidneys, adding renovascular disease to FH's vascular toll."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "FH plaques are fed from the bone marrow: it supplies the monocytes that become plaque foam cells, and age-related clonal mutations in marrow cells (clonal hematopoiesis) further inflame and accelerate the atherosclerosis."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils inflame FH's arteries: drawn into cholesterol-rich plaque, they release enzymes and DNA nets (NETs) that amplify inflammation and erode the fibrous cap, helping tip a stable plaque toward the clot that causes a heart attack."
 ---
 
 # Familial Hypercholesterolemia
@@ -259,6 +268,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — FH's danger is realized when platelets meet a ruptured plaque: the lifelong high LDL builds plaques whose cap can tear, exposing tissue that triggers platelets to clot and block the artery, the final step from cholesterol to heart attack or stroke.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — FH ultimately starves the heart of oxygen: narrowing coronary arteries cut blood flow, so demand outstrips supply and the muscle becomes ischemic, causing the angina and infarction that make untreated FH so deadly so young.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — FH's growing plaques sprout fragile vessels via VEGF: as plaques thicken they outgrow their oxygen supply and release VEGF to recruit leaky new microvessels, which bleed into the plaque and destabilize it, raising rupture risk.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — FH's atherosclerosis reaches the kidneys: cholesterol-laden plaque narrows the renal arteries, which can drive resistant high blood pressure and slowly starve the kidneys, adding renovascular disease to FH's vascular toll.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — FH plaques are fed from the bone marrow: it supplies the monocytes that become plaque foam cells, and age-related clonal mutations in marrow cells (clonal hematopoiesis) further inflame and accelerate the atherosclerosis.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils inflame FH's arteries: drawn into cholesterol-rich plaque, they release enzymes and DNA nets (NETs) that amplify inflammation and erode the fibrous cap, helping tip a stable plaque toward the clot that causes a heart attack.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
