@@ -78,6 +78,15 @@ cross_links:
   - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
     relation: connects-to
     note: "Cannabis use disorder and ADHD often coincide: people with ADHD use cannabis at high rates, sometimes to self-soothe restlessness, but it further degrades the attention and working memory already impaired in ADHD—worsening rather than treating the core deficit."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Cannabis blunts memory through the hippocampus: dense CB1 receptors there mean THC disrupts the encoding of new memories, and heavy adolescent use is linked to lasting deficits in this learning-and-memory hub of the brain."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver shapes cannabis's effects: it metabolizes THC into 11-hydroxy-THC, an active metabolite that makes edibles hit harder and later than smoking, and cannabinoid metabolism through liver enzymes underlies drug interactions."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Cannabis disturbs acetylcholine-based cognition: CB1 receptors modulate acetylcholine release in memory and attention circuits, contributing to the cognitive dulling and attention problems seen with heavy, especially adolescent, use."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -253,6 +262,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Cannabis cuts both ways in the gut: it is used medically to curb nausea and stimulate appetite, yet chronic heavy use can cause cannabinoid hyperemesis syndrome—cyclic severe vomiting oddly relieved by hot showers and resolved only by stopping the drug.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cannabis disturbs the reproductive system: regular use lowers testosterone and sperm counts in men and disrupts ovulation in women, and prenatal exposure is linked to lower birth weight—so heavy use can impair fertility and fetal development.
 - `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Cannabis use disorder and ADHD often coincide: people with ADHD use cannabis at high rates, sometimes to self-soothe restlessness, but it further degrades the attention and working memory already impaired in ADHD—worsening rather than treating the core deficit.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Cannabis blunts memory through the hippocampus: dense CB1 receptors there mean THC disrupts the encoding of new memories, and heavy adolescent use is linked to lasting deficits in this learning-and-memory hub of the brain.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver shapes cannabis's effects: it metabolizes THC into 11-hydroxy-THC, an active metabolite that makes edibles hit harder and later than smoking, and cannabinoid metabolism through liver enzymes underlies drug interactions.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cannabis disturbs acetylcholine-based cognition: CB1 receptors modulate acetylcholine release in memory and attention circuits, contributing to the cognitive dulling and attention problems seen with heavy, especially adolescent, use.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

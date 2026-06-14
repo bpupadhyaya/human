@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/her2
     relation: connects-to
     note: "A subset of colorectal cancers are HER2-amplified: like in breast and gastric cancer, this drives growth and predicts resistance to anti-EGFR drugs, but responds to HER2-targeted combinations—so HER2 testing now guides therapy in metastatic disease."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "Right-sided colorectal cancer often presents as iron-deficiency anemia: a slow-bleeding tumor depletes iron long before obstruction, so unexplained iron-deficiency anemia in an adult mandates colonoscopy to exclude colon cancer."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D and calcium intake are linked to colorectal risk: higher levels associate with lower incidence, and vitamin D's effects on colonocyte growth make it a studied (if unproven) chemopreventive alongside fiber and aspirin."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts drive colorectal progression: they remodel the tumor stroma, supply growth and survival signals, and promote chemoresistance and metastasis—a major reason the desmoplastic, fibroblast-rich CMS4 subtype carries a worse prognosis."
 ---
 
 # Colorectal Cancer
@@ -239,6 +248,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Type 2 diabetes raises colorectal cancer risk: high insulin and IGF-1 from insulin resistance promote colonocyte proliferation, and shared risks like obesity and inactivity compound it—so metabolic health is part of colorectal cancer prevention.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — After the liver, the lung is colorectal cancer's next metastatic stop: tumor cells reach it via the systemic circulation, and isolated lung metastases are sometimes surgically resected for cure—so chest imaging is routine in staging and follow-up.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — A subset of colorectal cancers are HER2-amplified: like in breast and gastric cancer, this drives growth and predicts resistance to anti-EGFR drugs, but responds to HER2-targeted combinations—so HER2 testing now guides therapy in metastatic disease.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — Right-sided colorectal cancer often presents as iron-deficiency anemia: a slow-bleeding tumor depletes iron long before obstruction, so unexplained iron-deficiency anemia in an adult mandates colonoscopy to exclude colon cancer.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and calcium intake are linked to colorectal risk: higher levels associate with lower incidence, and vitamin D's effects on colonocyte growth make it a studied (if unproven) chemopreventive alongside fiber and aspirin.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts drive colorectal progression: they remodel the tumor stroma, supply growth and survival signals, and promote chemoresistance and metastasis—a major reason the desmoplastic, fibroblast-rich CMS4 subtype carries a worse prognosis.
 
 ---
 
