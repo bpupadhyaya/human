@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "BRCA-mutant cancers are more immunogenic but shielded by regulatory T cells: their crippled DNA repair generates many neoantigens, yet Tregs blunt the response—so combining PARP inhibitors with immunotherapy aims to tip the balance."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "HBOC reaches beyond breast and ovary to the pancreas: BRCA2 (and BRCA1) carriers face higher pancreatic cancer risk, and these tumors' DNA-repair defect makes them responsive to platinum chemotherapy and PARP inhibitors."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "BRCA-related ovarian cancers lean on VEGF for blood supply: the angiogenesis driver fuels their growth and ascites, so anti-VEGF bevacizumab is combined with chemotherapy and PARP inhibitors in these tumors."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells aid the attack on BRCA-mutant tumors: their DNA-repair defect spawns neoantigens and stress signals that NK cells sense, and antibody therapies like trastuzumab recruit NK killing against HER2-positive BRCA breast cancers."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -271,6 +280,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — BRCA1 breast cancer is fueled by progesterone signaling: the hormone drives RANKL and proliferation in mammary stem cells primed by BRCA1 loss, which is why anti-progesterone strategies are studied to prevent cancer in carriers.
 - `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — BRCA1 tumors are usually triple-negative, lacking HER2: unlike many breast cancers they express neither HER2 nor hormone receptors, so they miss those targeted drugs and instead rely on chemotherapy and PARP inhibitors against their DNA-repair defect.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — BRCA-mutant cancers are more immunogenic but shielded by regulatory T cells: their crippled DNA repair generates many neoantigens, yet Tregs blunt the response—so combining PARP inhibitors with immunotherapy aims to tip the balance.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — HBOC reaches beyond breast and ovary to the pancreas: BRCA2 (and BRCA1) carriers face higher pancreatic cancer risk, and these tumors' DNA-repair defect makes them responsive to platinum chemotherapy and PARP inhibitors.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — BRCA-related ovarian cancers lean on VEGF for blood supply: the angiogenesis driver fuels their growth and ascites, so anti-VEGF bevacizumab is combined with chemotherapy and PARP inhibitors in these tumors.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells aid the attack on BRCA-mutant tumors: their DNA-repair defect spawns neoantigens and stress signals that NK cells sense, and antibody therapies like trastuzumab recruit NK killing against HER2-positive BRCA breast cancers.
 
 ---
 

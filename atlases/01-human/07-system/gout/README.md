@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Gout traces back to purine metabolism through adenosine: breaking down adenosine and other purines yields uric acid, so a high turnover of these nucleotides—from diet or cell breakdown—feeds the hyperuricemia that precipitates urate crystals."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut shares the job of clearing urate with the kidney: about a third of uric acid is excreted into the intestine, so gut transporters and microbes that break down urate influence blood levels—and impaired gut excretion can worsen gout."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 helps inflame the gouty joint: alongside IL-1beta, urate crystals trigger IL-6 release that amplifies the fever, pain and swelling of an acute attack, part of the cytokine cascade targeted to calm flares."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells help ignite the gout flare: they take up monosodium urate crystals and, with macrophages, activate the inflammasome and prime the inflammatory response that turns crystal deposition into a sudden painful attack."
 ---
 
 # Gout
@@ -236,6 +245,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Gout flares can be quelled with cortisol: when NSAIDs and colchicine are unsafe—as in kidney disease—corticosteroids (oral or injected into the joint) calm the crystal-driven inflammation, a key fallback for treating an acute attack.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Chronic tophaceous gout erodes bone via osteoclasts: long-standing urate deposits activate bone-resorbing osteoclasts, carving the 'punched-out' periarticular erosions seen on X-ray that distinguish advanced gout from other arthritis.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Gout traces back to purine metabolism through adenosine: breaking down adenosine and other purines yields uric acid, so a high turnover of these nucleotides—from diet or cell breakdown—feeds the hyperuricemia that precipitates urate crystals.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut shares the job of clearing urate with the kidney: about a third of uric acid is excreted into the intestine, so gut transporters and microbes that break down urate influence blood levels—and impaired gut excretion can worsen gout.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps inflame the gouty joint: alongside IL-1beta, urate crystals trigger IL-6 release that amplifies the fever, pain and swelling of an acute attack, part of the cytokine cascade targeted to calm flares.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help ignite the gout flare: they take up monosodium urate crystals and, with macrophages, activate the inflammasome and prime the inflammatory response that turns crystal deposition into a sudden painful attack.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
