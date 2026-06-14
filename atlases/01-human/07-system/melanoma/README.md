@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Tumor-associated macrophages help melanoma spread: M2-polarized macrophages secrete factors that suppress immunity and promote invasion and angiogenesis, making them both a marker of poor prognosis and a therapeutic target."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Melanoma is born from oxygen's reaction to UV: sunlight drives reactive oxygen species and DNA-damaging photochemistry in pigment cells, so ultraviolet oxidative injury, with direct mutation, is the root cause of most melanomas."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Melanoma spreads readily to the lungs: among the most metastatic of cancers, it seeds pulmonary nodules through the blood, a common site of distant disease that shapes staging and the move to systemic therapy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Melanoma recruits blood vessels with VEGF: the tumor releases this angiogenesis driver to feed its growth and spread, and VEGF signaling also helps it suppress local immunity, adding to its notoriously invasive behavior."
 ---
 
 # Melanoma
@@ -233,6 +242,9 @@ cross_links:
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Melanoma's BRAF mutation drives the cell through ERK: BRAF feeds the MEK-ERK cascade that powers proliferation, so MEK inhibitors are paired with BRAF inhibitors—and ERK reactivation is a common route to drug resistance.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Melanoma shields itself with regulatory T cells: Tregs accumulate in the tumor and suppress the cytotoxic response, which is why CTLA-4 blockade (ipilimumab) that depletes or disables them helps unleash anti-melanoma immunity.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages help melanoma spread: M2-polarized macrophages secrete factors that suppress immunity and promote invasion and angiogenesis, making them both a marker of poor prognosis and a therapeutic target.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Melanoma is born from oxygen's reaction to UV: sunlight drives reactive oxygen species and DNA-damaging photochemistry in pigment cells, so ultraviolet oxidative injury, with direct mutation, is the root cause of most melanomas.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Melanoma spreads readily to the lungs: among the most metastatic of cancers, it seeds pulmonary nodules through the blood, a common site of distant disease that shapes staging and the move to systemic therapy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Melanoma recruits blood vessels with VEGF: the tumor releases this angiogenesis driver to feed its growth and spread, and VEGF signaling also helps it suppress local immunity, adding to its notoriously invasive behavior.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

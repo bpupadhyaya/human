@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Curing medulloblastoma can injure oligodendrocytes: the craniospinal radiation that controls it damages these myelinating cells, causing white-matter loss and the neurocognitive decline that shadows childhood survivors."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Medulloblastoma springs from the cerebellum's wiring: it arises from neural precursors that should build cerebellar circuits, and like other brain tumors it can integrate with neurons at synapses, tying the cerebellum's developmental program to the cancer."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Medulloblastoma is largely cold to cytotoxic T cells: with few mutations and a protected brain site, it resists immune attack, so engineered T-cell and other immunotherapies are being developed to reach a tumor that checkpoint drugs miss."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Group 3 medulloblastoma leans on the cell-cycle kinase CDK4/6: MYC-driven proliferation depends on it, so CDK4/6 inhibitors are studied to slow the most aggressive subtype where current therapy often fails."
 ---
 
 # Medulloblastoma
@@ -265,6 +274,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Medulloblastoma's WNT subgroup has a leaky, VEGF-rich vasculature: its abnormal fenestrated blood vessels let chemotherapy reach the tumor better, helping explain why WNT medulloblastoma has the best prognosis of the four subgroups.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Medulloblastoma resists immunotherapy partly through regulatory T cells: the tumor's immunosuppressive microenvironment and the brain's immune privilege blunt T-cell attack, so Tregs are among the barriers checkpoint therapy must overcome here.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Curing medulloblastoma can injure oligodendrocytes: the craniospinal radiation that controls it damages these myelinating cells, causing white-matter loss and the neurocognitive decline that shadows childhood survivors.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Medulloblastoma springs from the cerebellum's wiring: it arises from neural precursors that should build cerebellar circuits, and like other brain tumors it can integrate with neurons at synapses, tying the cerebellum's developmental program to the cancer.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Medulloblastoma is largely cold to cytotoxic T cells: with few mutations and a protected brain site, it resists immune attack, so engineered T-cell and other immunotherapies are being developed to reach a tumor that checkpoint drugs miss.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Group 3 medulloblastoma leans on the cell-cycle kinase CDK4/6: MYC-driven proliferation depends on it, so CDK4/6 inhibitors are studied to slow the most aggressive subtype where current therapy often fails.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
