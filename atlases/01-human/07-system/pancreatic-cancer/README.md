@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Pancreatic cancer is the coldest of tumors, walled off by regulatory T cells: Tregs and a dense stroma exclude and suppress cytotoxic T cells, which is why immunotherapy that works elsewhere repeatedly fails against PDAC."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Pancreatic cancer hides in a near-airless tumor: its dense stroma squeezes the blood vessels, leaving the tumor profoundly hypoxic, which drives aggressive behavior and blocks delivery of chemotherapy—a core reason PDAC is so lethal."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Pancreatic cancer is mostly scar: cancer-associated fibroblasts pack the tumor with a dense desmoplastic fibrosis that walls off immune cells and drugs, so this stromal armor is as much a treatment obstacle as the cancer cells themselves."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Pancreatic cancer announces itself by blocking the gut's bile and food path: tumors in the head compress the bile duct and duodenum, causing painless jaundice and obstruction, often the first sign of a cancer already hard to cure."
 ---
 
 # Pancreatic Cancer
@@ -263,6 +272,9 @@ cross_links:
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Pancreatic cancer is addicted to autophagy: its KRAS-driven cells recycle their own contents to fuel growth in a nutrient-poor stroma, so blocking autophagy (with hydroxychloroquine plus MEK/ERK inhibitors) is a leading strategy against this lethal cancer.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Pancreatic cancer fills its stroma with suppressive macrophages: tumor-associated macrophages dominate the dense desmoplasia, blocking T cells and feeding growth—a pillar of the immunosuppression that makes PDAC resist checkpoint therapy.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Pancreatic cancer is the coldest of tumors, walled off by regulatory T cells: Tregs and a dense stroma exclude and suppress cytotoxic T cells, which is why immunotherapy that works elsewhere repeatedly fails against PDAC.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Pancreatic cancer hides in a near-airless tumor: its dense stroma squeezes the blood vessels, leaving the tumor profoundly hypoxic, which drives aggressive behavior and blocks delivery of chemotherapy—a core reason PDAC is so lethal.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Pancreatic cancer is mostly scar: cancer-associated fibroblasts pack the tumor with a dense desmoplastic fibrosis that walls off immune cells and drugs, so this stromal armor is as much a treatment obstacle as the cancer cells themselves.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Pancreatic cancer announces itself by blocking the gut's bile and food path: tumors in the head compress the bile duct and duodenum, causing painless jaundice and obstruction, often the first sign of a cancer already hard to cure.
 
 ---
 

@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes help tune the panic circuit: by clearing and recycling glutamate and GABA around the amygdala and brainstem, these glial cells shape the excitatory-inhibitory balance whose disturbance can tip neurons into a panic response."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Panic may be a misfiring suffocation alarm read in acid: rising CO2 turns to carbonic acid, and acid-sensing channels in the amygdala detect the falling pH, triggering the sudden terror and air hunger of an attack—why breathing CO2 can provoke one."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Panic disorder is wired into fear-circuit synapses: repeated attacks strengthen connections in the amygdala and its pathways, so neutral cues come to trigger alarm—plasticity that exposure therapy and SSRIs work to reshape."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Microglia may stoke the panic-prone brain: chronic stress activates these immune cells to release cytokines that shift the excitatory-inhibitory balance in fear circuits, linking neuroinflammation to vulnerability to panic."
 ---
 
 # Panic Disorder
@@ -288,6 +297,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Panic attacks tingle because of calcium: hyperventilation blows off CO2 and raises blood pH, which lowers ionized calcium—producing the perioral numbness, hand tingling, and carpopedal spasm that frighten patients mid-attack.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Panic disorder engages the hippocampus's fear memory: by encoding the context of past attacks, the hippocampus drives anticipatory anxiety and agoraphobic avoidance of places where panic struck, extending the disorder beyond the attacks themselves.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help tune the panic circuit: by clearing and recycling glutamate and GABA around the amygdala and brainstem, these glial cells shape the excitatory-inhibitory balance whose disturbance can tip neurons into a panic response.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Panic may be a misfiring suffocation alarm read in acid: rising CO2 turns to carbonic acid, and acid-sensing channels in the amygdala detect the falling pH, triggering the sudden terror and air hunger of an attack—why breathing CO2 can provoke one.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Panic disorder is wired into fear-circuit synapses: repeated attacks strengthen connections in the amygdala and its pathways, so neutral cues come to trigger alarm—plasticity that exposure therapy and SSRIs work to reshape.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Microglia may stoke the panic-prone brain: chronic stress activates these immune cells to release cytokines that shift the excitatory-inhibitory balance in fear circuits, linking neuroinflammation to vulnerability to panic.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
