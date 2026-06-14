@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Radiation, including proton and stereotactic radiosurgery, treats NF2 schwannomas: focused radiation can control vestibular schwannomas near the brainstem without open surgery, though in NF2's multiple, recurring tumors it is weighed against the risk of further tumors."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "NF2 tumors grow when merlin stops restraining ERK: loss of the NF2 protein merlin unleashes Ras-ERK signaling that drives schwannoma and meningioma proliferation, motivating trials of MEK-pathway inhibitors in these tumors."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Merlin loss in NF2 drives cyclin D1: with the Hippo brake gone, cyclin D1 pushes cells through the cell cycle, explaining the relentless growth of the multiple schwannomas and meningiomas that define the syndrome."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "NF2 schwannomas depend on their blood supply: the tumors are richly vascular, and anti-VEGF bevacizumab—acting on endothelial cells—can shrink vestibular schwannomas and even recover some hearing, a rare medical therapy for these tumors."
 ---
 
 # Neurofibromatosis Type 2
@@ -231,6 +240,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — NF2 is defined by tumors throughout the nervous system: bilateral vestibular schwannomas on the hearing/balance nerves cause progressive deafness, alongside meningiomas and ependymomas—so merlin loss makes the nervous system the syndrome's near-exclusive target.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — NF2 has subtler skin findings than NF1: instead of café-au-lait spots and plentiful neurofibromas, patients develop a smaller number of cutaneous schwannomas and plaques, so the skin gives quieter but real clues to the diagnosis.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Radiation, including proton and stereotactic radiosurgery, treats NF2 schwannomas: focused radiation can control vestibular schwannomas near the brainstem without open surgery, though in NF2's multiple, recurring tumors it is weighed against the risk of further tumors.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — NF2 tumors grow when merlin stops restraining ERK: loss of the NF2 protein merlin unleashes Ras-ERK signaling that drives schwannoma and meningioma proliferation, motivating trials of MEK-pathway inhibitors in these tumors.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Merlin loss in NF2 drives cyclin D1: with the Hippo brake gone, cyclin D1 pushes cells through the cell cycle, explaining the relentless growth of the multiple schwannomas and meningiomas that define the syndrome.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — NF2 schwannomas depend on their blood supply: the tumors are richly vascular, and anti-VEGF bevacizumab—acting on endothelial cells—can shrink vestibular schwannomas and even recover some hearing, a rare medical therapy for these tumors.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

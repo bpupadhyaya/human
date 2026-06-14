@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Pemphigus vulgaris often starts in the digestive tract's lining: painful, non-healing oral and esophageal erosions usually precede skin blisters, so mouth ulcers that won't heal can be the first sign—mucosal involvement distinguishing it from pemphigus foliaceus."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Pemphigus vulgaris is strongly HLA-linked: MHC class II alleles such as HLA-DRB1*04:02 present desmoglein peptides to helper T cells, the genetic basis for why certain populations develop the anti-desmoglein autoantibodies that blister skin and mucosa."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Pemphigus is largely complement-independent, unlike pemphigoid: although complement including C5 can be deposited, the IgG autoantibodies blister skin mainly by direct steric and signaling disruption of desmoglein adhesion—a key mechanistic contrast."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 tracks pemphigus activity: this inflammatory cytokine rises in active disease and correlates with severity, part of the cytokine milieu that accompanies autoantibody-driven blistering and a candidate biomarker for monitoring flares."
 ---
 
 # Pemphigus Vulgaris
@@ -263,6 +272,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Pemphigus vulgaris is an antibody-mediated autoimmune disease: IgG autoantibodies against desmoglein break the bonds between keratinocytes, so it responds to immunosuppression and B-cell depletion (rituximab)—immunity turned against the body's own cell adhesion.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Pemphigus vulgaris is a blistering disease of the integumentary system: loss of keratinocyte adhesion causes flaccid blisters and painful erosions that shear with pressure (Nikolsky sign), so the skin barrier fails—once fatal before immunosuppressive therapy.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Pemphigus vulgaris often starts in the digestive tract's lining: painful, non-healing oral and esophageal erosions usually precede skin blisters, so mouth ulcers that won't heal can be the first sign—mucosal involvement distinguishing it from pemphigus foliaceus.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Pemphigus vulgaris is strongly HLA-linked: MHC class II alleles such as HLA-DRB1*04:02 present desmoglein peptides to helper T cells, the genetic basis for why certain populations develop the anti-desmoglein autoantibodies that blister skin and mucosa.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Pemphigus is largely complement-independent, unlike pemphigoid: although complement including C5 can be deposited, the IgG autoantibodies blister skin mainly by direct steric and signaling disruption of desmoglein adhesion—a key mechanistic contrast.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 tracks pemphigus activity: this inflammatory cytokine rises in active disease and correlates with severity, part of the cytokine milieu that accompanies autoantibody-driven blistering and a candidate biomarker for monitoring flares.
 
 ---
 
