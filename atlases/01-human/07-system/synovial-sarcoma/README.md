@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Synovial sarcoma is a rare primary cardiac sarcoma: though usually arising in limb soft tissue, it can originate in the heart or pericardium, presenting with obstruction or effusion and a grim prognosis given difficult surgical clearance."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Synovial sarcoma is a flagship for engineered T cells: it expresses NY-ESO-1, and afamitresgene autoleucel—TCR-engineered cytotoxic T cells targeting that antigen—won FDA approval in 2024 for this sarcoma, a first for solid-tumor TCR therapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Synovial sarcoma is an immunologically 'cold' tumor rich in macrophages: tumor-associated macrophages dominate its sparse immune infiltrate and suppress T-cell responses, helping explain why checkpoint inhibitors disappoint while TCR-engineered T cells work."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Synovial sarcoma runs an IGF-1 autocrine loop: the tumor overexpresses IGF1R and its ligands to drive growth and survival, so IGF1R inhibition has been explored as targeted therapy in this fusion-driven sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -237,6 +246,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Immune System](../immune-system/README.md)** — Synovial sarcoma is a leading target for engineered T-cell therapy: it expresses cancer-testis antigens (NY-ESO-1, MAGE-A4), so afami-cel/tecelra—TCR T cells the immune system is reprogrammed to deploy—became the first such therapy approved for a solid tumor.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Synovial sarcoma's cancer-testis antigens depend on antigen presentation: dendritic cells process NY-ESO-1 and MAGE-A4 onto HLA, the step that primes the T cells engineered immunotherapies exploit—and the tumor evades this by downregulating MHC.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Synovial sarcoma is a rare primary cardiac sarcoma: though usually arising in limb soft tissue, it can originate in the heart or pericardium, presenting with obstruction or effusion and a grim prognosis given difficult surgical clearance.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Synovial sarcoma is a flagship for engineered T cells: it expresses NY-ESO-1, and afamitresgene autoleucel—TCR-engineered cytotoxic T cells targeting that antigen—won FDA approval in 2024 for this sarcoma, a first for solid-tumor TCR therapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Synovial sarcoma is an immunologically 'cold' tumor rich in macrophages: tumor-associated macrophages dominate its sparse immune infiltrate and suppress T-cell responses, helping explain why checkpoint inhibitors disappoint while TCR-engineered T cells work.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Synovial sarcoma runs an IGF-1 autocrine loop: the tumor overexpresses IGF1R and its ligands to drive growth and survival, so IGF1R inhibition has been explored as targeted therapy in this fusion-driven sarcoma.
 
 ---
 
