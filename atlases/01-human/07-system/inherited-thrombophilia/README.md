@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Inherited thrombophilia causes clots in unusual sites like the cerebral veins: prothrombotic mutations, especially with estrogen, predispose to cerebral venous sinus thrombosis—so an unexplained young stroke or sinus thrombosis warrants a thrombophilia workup."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Inherited thrombophilia threatens the placenta: clots in the placental circulation are linked to recurrent miscarriage, pre-eclampsia, growth restriction, and stillbirth—so obstetric complications are a major reason thrombophilia is tested for in women."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Fibrinogen ties to thrombophilia at both ends: rare inherited dysfibrinogenemia can make a clot-prone fibrin, and high fibrinogen levels are themselves prothrombotic—so the very protein that forms clots can be a hereditary or acquired thrombosis risk."
+  - target: 01-human/07-system/sickle-cell-disease
+    relation: connects-to
+    note: "Sickle cell disease is a hypercoagulable state in its own right: chronic hemolysis, activated platelets, and endothelial damage tip blood toward clotting, so it compounds inherited thrombophilia and raises venous thromboembolism risk beyond its vaso-occlusive crises."
 ---
 
 # Inherited Thrombophilia
@@ -270,6 +279,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen multiplies the clot risk of inherited thrombophilia: oral contraceptives, hormone therapy and pregnancy raise clotting factors, so a factor V Leiden carrier faces sharply higher venous thrombosis risk on estrogen—central to contraceptive counseling.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary embolism is the feared endpoint of inherited thrombophilia: deep vein clots break off and lodge in the lungs, so a young or recurrent unprovoked PE prompts thrombophilia testing—and the risk guides how long anticoagulation continues.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Inherited thrombophilia causes clots in unusual sites like the cerebral veins: prothrombotic mutations, especially with estrogen, predispose to cerebral venous sinus thrombosis—so an unexplained young stroke or sinus thrombosis warrants a thrombophilia workup.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Inherited thrombophilia threatens the placenta: clots in the placental circulation are linked to recurrent miscarriage, pre-eclampsia, growth restriction, and stillbirth—so obstetric complications are a major reason thrombophilia is tested for in women.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen ties to thrombophilia at both ends: rare inherited dysfibrinogenemia can make a clot-prone fibrin, and high fibrinogen levels are themselves prothrombotic—so the very protein that forms clots can be a hereditary or acquired thrombosis risk.
+- `connects-to` → **[Sickle Cell Disease](../sickle-cell-disease/README.md)** — Sickle cell disease is a hypercoagulable state in its own right: chronic hemolysis, activated platelets, and endothelial damage tip blood toward clotting, so it compounds inherited thrombophilia and raises venous thromboembolism risk beyond its vaso-occlusive crises.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

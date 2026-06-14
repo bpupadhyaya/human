@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/systemic-lupus-erythematosus
     relation: connects-to
     note: "Acquired C1-inhibitor deficiency mimics hereditary angioedema in autoimmune or lymphoproliferative disease: SLE and lymphomas can consume or block C1-INH, causing bradykinin angioedema later in life—so adult-onset angioedema without family history needs a workup."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Hereditary angioedema is bradykinin-, not histamine-driven—and that distinction is everything: unlike allergic angioedema and hives, HAE swelling does not respond to antihistamines, steroids, or epinephrine, so recognizing the non-histaminergic mechanism saves airways."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hereditary angioedema is shaped by the reproductive system: estrogen worsens attacks, so puberty, pregnancy, and the contraceptive Pill can trigger flares—and an estrogen-dependent FXII-linked form affects mainly women, making hormone choices central to care."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "HAE attacks hinge on smooth muscle: bradykinin relaxes vascular smooth muscle and opens endothelial junctions, flooding tissue with fluid—and in the gut, submucosal edema with smooth-muscle spasm causes severe abdominal pain that mimics a surgical abdomen."
 ---
 
 # Hereditary Angioedema
@@ -246,6 +255,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Hereditary angioedema attacks the gut wall: bradykinin-driven edema of the small intestine causes severe colicky pain, vomiting and even obstruction, so HAE can mimic a surgical abdomen—and unexplained recurrent abdominal attacks should prompt C1-inhibitor testing.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Bradykinin drives HAE swelling through nitric oxide and vascular leak: it binds endothelial B2 receptors to release NO and open intercellular junctions, flooding tissue with fluid—the same vasodilator pathway behind blood-pressure control produces the edema.
 - `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — Acquired C1-inhibitor deficiency mimics hereditary angioedema in autoimmune or lymphoproliferative disease: SLE and lymphomas can consume or block C1-INH, causing bradykinin angioedema later in life—so adult-onset angioedema without family history needs a workup.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Hereditary angioedema is bradykinin-, not histamine-driven—and that distinction is everything: unlike allergic angioedema and hives, HAE swelling does not respond to antihistamines, steroids, or epinephrine, so recognizing the non-histaminergic mechanism saves airways.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hereditary angioedema is shaped by the reproductive system: estrogen worsens attacks, so puberty, pregnancy, and the contraceptive Pill can trigger flares—and an estrogen-dependent FXII-linked form affects mainly women, making hormone choices central to care.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — HAE attacks hinge on smooth muscle: bradykinin relaxes vascular smooth muscle and opens endothelial junctions, flooding tissue with fluid—and in the gut, submucosal edema with smooth-muscle spasm causes severe abdominal pain that mimics a surgical abdomen.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
