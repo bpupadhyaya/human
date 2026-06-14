@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Gut dysbiosis ties psoriatic arthritis to the spondyloarthritis family: an altered microbiome and subclinical gut inflammation can drive the IL-23/IL-17 response, part of why psoriatic and inflammatory-bowel disease overlap."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Psoriatic arthritis attacks where collagen anchors tendon to bone: enthesitis—inflammation at these collagen-rich insertion sites—is its defining lesion, and the same process lays down pathologic new bone alongside the erosions."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Psoriatic arthritis is inflamed by synovial macrophages: these cells flood the joint lining and pour out TNF, a central driver that anti-TNF biologics blunt, making macrophage-derived cytokines a therapeutic linchpin."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Psoriatic arthritis is kindled by dendritic cells: they sense triggers and secrete IL-23 that ignites the IL-17 pathway in skin and joint, sitting at the top of the cytokine cascade that newer IL-23 blockers aim to shut off."
 ---
 
 # Psoriatic Arthritis
@@ -281,6 +290,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Psoriatic arthritis both destroys and builds bone: alongside osteoclast erosions it activates osteoblasts to lay down new bone—periostitis, enthesophytes and the 'pencil-in-cup' deformity—a bone-proliferation pattern that sets it apart from rheumatoid arthritis.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — IL-12 shares the p40 subunit with IL-23 in psoriatic arthritis: the antibody ustekinumab blocks both by targeting p40, easing skin and joint disease, though IL-23-specific blockade has shown the IL-23/IL-17 axis matters more for the arthritis.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Gut dysbiosis ties psoriatic arthritis to the spondyloarthritis family: an altered microbiome and subclinical gut inflammation can drive the IL-23/IL-17 response, part of why psoriatic and inflammatory-bowel disease overlap.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Psoriatic arthritis attacks where collagen anchors tendon to bone: enthesitis—inflammation at these collagen-rich insertion sites—is its defining lesion, and the same process lays down pathologic new bone alongside the erosions.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Psoriatic arthritis is inflamed by synovial macrophages: these cells flood the joint lining and pour out TNF, a central driver that anti-TNF biologics blunt, making macrophage-derived cytokines a therapeutic linchpin.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Psoriatic arthritis is kindled by dendritic cells: they sense triggers and secrete IL-23 that ignites the IL-17 pathway in skin and joint, sitting at the top of the cytokine cascade that newer IL-23 blockers aim to shut off.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

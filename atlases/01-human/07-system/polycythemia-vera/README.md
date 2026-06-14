@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "JAK2 drives polycythemia vera by switching on STAT signaling: the V617F mutation makes JAK2 constitutively active, firing STAT3/STAT5 to push red-cell production without erythropoietin—the rationale for JAK inhibitors like ruxolitinib."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Polycythemia vera is too much hemoglobin: the JAK2-mutant marrow overproduces red cells, thickening the blood with hemoglobin until it sludges and clots, so treatment phlebotomizes patients to a target hematocrit to cut stroke and thrombosis risk."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Polycythemia vera itches through histamine: the disease expands mast cells and basophils whose histamine release causes the maddening itch after a warm shower (aquagenic pruritus), a hallmark symptom that antihistamines and JAK inhibitors target."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Polycythemia vera raises neutrophils too, not just red cells: as a panmyelosis it often drives leukocytosis, and a high neutrophil count is itself a predictor of the clots that are the disease's main danger."
 ---
 
 # Polycythemia Vera
@@ -245,6 +254,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Polycythemia vera classically clots the hepatic veins: the thick, hyperviscous, prothrombotic blood causes Budd-Chiari syndrome and other splanchnic-vein thromboses, so unexplained liver-vein clots should prompt JAK2 testing for an occult PV.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — PV causes aquagenic pruritus through mast cells: the clonal disease primes basophils and mast cells to release histamine, triggering the intense itching after warm water that is a classic and miserable symptom of polycythemia vera.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — JAK2 drives polycythemia vera by switching on STAT signaling: the V617F mutation makes JAK2 constitutively active, firing STAT3/STAT5 to push red-cell production without erythropoietin—the rationale for JAK inhibitors like ruxolitinib.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Polycythemia vera is too much hemoglobin: the JAK2-mutant marrow overproduces red cells, thickening the blood with hemoglobin until it sludges and clots, so treatment phlebotomizes patients to a target hematocrit to cut stroke and thrombosis risk.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Polycythemia vera itches through histamine: the disease expands mast cells and basophils whose histamine release causes the maddening itch after a warm shower (aquagenic pruritus), a hallmark symptom that antihistamines and JAK inhibitors target.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Polycythemia vera raises neutrophils too, not just red cells: as a panmyelosis it often drives leukocytosis, and a high neutrophil count is itself a predictor of the clots that are the disease's main danger.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
