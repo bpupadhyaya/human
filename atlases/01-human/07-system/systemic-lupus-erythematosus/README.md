@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "SLE is a breakdown of self-tolerance that regulatory T cells normally enforce: reduced or dysfunctional Tregs fail to restrain autoreactive B and T cells, unleashing the antinuclear-antibody response that attacks the body's own tissues."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Sunlight flares lupus through its photons: UV light damages skin cells and exposes nuclear antigens that the lupus immune system attacks, triggering rashes and even systemic flares—so rigorous sun protection is core to managing SLE."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Lupus begins with macrophages that fail to take out the trash: poor clearance of dying cells leaves nuclear debris to become autoantigens, so this 'waste-disposal' defect helps explain the anti-DNA antibodies that define the disease."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Lupus is overwhelmingly a disease of women, and estrogen helps explain it: the hormone tilts the immune system toward antibody production and B-cell survival, contributing to the ~9-to-1 female predominance and flares around hormonal shifts."
 ---
 
 # Systemic Lupus Erythematosus
@@ -259,6 +268,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Lupus nephritis attacks the glomerulus: immune complexes of anti-dsDNA deposit there, igniting complement-driven inflammation that scars the filter—the organ-threatening manifestation that drives much of SLE's morbidity and mandates biopsy-guided therapy.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — SLE complicates pregnancy through the placenta: anti-Ro antibodies cross it to cause neonatal lupus and congenital heart block, and antiphospholipid antibodies clot the placenta causing loss—so lupus pregnancies are high-risk and closely monitored.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — SLE is a breakdown of self-tolerance that regulatory T cells normally enforce: reduced or dysfunctional Tregs fail to restrain autoreactive B and T cells, unleashing the antinuclear-antibody response that attacks the body's own tissues.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Sunlight flares lupus through its photons: UV light damages skin cells and exposes nuclear antigens that the lupus immune system attacks, triggering rashes and even systemic flares—so rigorous sun protection is core to managing SLE.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Lupus begins with macrophages that fail to take out the trash: poor clearance of dying cells leaves nuclear debris to become autoantigens, so this 'waste-disposal' defect helps explain the anti-DNA antibodies that define the disease.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Lupus is overwhelmingly a disease of women, and estrogen helps explain it: the hormone tilts the immune system toward antibody production and B-cell survival, contributing to the ~9-to-1 female predominance and flares around hormonal shifts.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

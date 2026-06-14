@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/03-molecular/il-13
     relation: connects-to
     note: "RSV bronchiolitis drives Th2 IL-13 and later wheeze: the infection skews immunity toward IL-13, boosting mucus and airway reactivity, which is part of why severe infant RSV is linked to later asthma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "RSV bronchiolitis is dangerous because it starves infants of oxygen: inflamed, mucus-plugged small airways trap air and drop blood oxygen, so supplemental oxygen and breathing support—not antivirals—are the mainstay of treating a severe case."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells are an early shield against RSV: they kill infected airway cells before antibodies form, and weak NK responses in young infants and the elderly help explain why those age groups suffer the worst disease."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "RSV outwits dendritic cells: the virus blunts these antigen-presenters' ability to prime strong, lasting T-cell immunity, which helps explain why RSV reinfects people throughout life and why a durable vaccine took decades to achieve."
 ---
 
 # RSV
@@ -274,3 +283,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells both clear and harm in RSV: CD8 T cells eliminate infected airway cells to end infection, but their response also drives lung immunopathology—a balance central to why severe bronchiolitis injures infant airways.
 - `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — RSV cripples the airway's surfactant defense: it infects and sloughs the epithelial and type-II cells that make pulmonary surfactant, so airways collapse and plug with debris—the bronchiolitis that obstructs an infant's tiny airways.
 - `connects-to` → **[Interleukin-13](../../03-molecular/il-13/README.md)** — RSV bronchiolitis drives Th2 IL-13 and later wheeze: the infection skews immunity toward IL-13, boosting mucus and airway reactivity, which is part of why severe infant RSV is linked to later asthma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — RSV bronchiolitis is dangerous because it starves infants of oxygen: inflamed, mucus-plugged small airways trap air and drop blood oxygen, so supplemental oxygen and breathing support—not antivirals—are the mainstay of treating a severe case.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells are an early shield against RSV: they kill infected airway cells before antibodies form, and weak NK responses in young infants and the elderly help explain why those age groups suffer the worst disease.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — RSV outwits dendritic cells: the virus blunts these antigen-presenters' ability to prime strong, lasting T-cell immunity, which helps explain why RSV reinfects people throughout life and why a durable vaccine took decades to achieve.
