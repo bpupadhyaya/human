@@ -96,6 +96,15 @@ cross_links:
   - target: 01-human/03-molecular/growth-hormone
     relation: connects-to
     note: "Fibromyalgia disrupts growth hormone via broken sleep: the lack of deep slow-wave sleep blunts nighttime GH secretion and lowers IGF-1, contributing to the poor tissue repair, fatigue, and muscle pain of the syndrome."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Fibromyalgia is a disease of amplified pain synapses: central sensitization strengthens transmission in the spinal cord and brain so ordinary signals are felt as pain, shifting the disorder from the muscles to the synapses that process pain."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Fibromyalgia travels with the gut: irritable bowel syndrome overlaps heavily, and a disturbed microbiome and gut-brain signaling may feed the pain and fatigue, linking the large intestine to this whole-body pain disorder."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells are an emerging suspect in fibromyalgia: increased in the skin of patients, they release mediators that sensitize nerve endings, offering one explanation for the widespread tenderness and the overlap with sensitivity syndromes."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -282,6 +291,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Fibromyalgia is linked to low magnesium: the mineral gates the NMDA receptor and fuels muscle energy, so deficiency may heighten the central pain sensitization and fatigue, and supplementation is studied as an adjunct.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Fibromyalgia's central sensitization runs through astrocytes: together with microglia, these glial cells amplify pain signaling in the spinal cord and brain, turning up the volume on normal sensations into the widespread pain that defines it.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Fibromyalgia disrupts growth hormone via broken sleep: the lack of deep slow-wave sleep blunts nighttime GH secretion and lowers IGF-1, contributing to the poor tissue repair, fatigue, and muscle pain of the syndrome.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Fibromyalgia is a disease of amplified pain synapses: central sensitization strengthens transmission in the spinal cord and brain so ordinary signals are felt as pain, shifting the disorder from the muscles to the synapses that process pain.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Fibromyalgia travels with the gut: irritable bowel syndrome overlaps heavily, and a disturbed microbiome and gut-brain signaling may feed the pain and fatigue, linking the large intestine to this whole-body pain disorder.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells are an emerging suspect in fibromyalgia: increased in the skin of patients, they release mediators that sensitize nerve endings, offering one explanation for the widespread tenderness and the overlap with sensitivity syndromes.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

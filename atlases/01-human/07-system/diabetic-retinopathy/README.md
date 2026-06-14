@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Diabetic retinopathy reflects lost nitric oxide: damaged retinal endothelium makes too little NO to dilate vessels and autoregulate flow, so the retina swings between poor perfusion and leak—worsening the ischemia that drives VEGF."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "High glucose inflames the retina through NF-kB: hyperglycemia and AGE-RAGE signaling switch it on in retinal cells, driving the cytokines and adhesion molecules that damage capillaries—an inflammatory layer atop the vascular disease."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Diabetic retinopathy traces back to the pancreas: the failing insulin supply that defines diabetes drives the chronic high glucose that injures retinal vessels, so retinopathy is the eye's record of the pancreas's long shortfall."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells join the inflamed diabetic retina: they degranulate near retinal vessels, releasing mediators that increase leakiness and inflammation, an emerging contributor to the macular edema that threatens vision."
 ---
 
 # Diabetic Retinopathy
@@ -257,6 +266,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Diabetic retinopathy starts by thickening collagen: high glucose stiffens the retinal capillary basement membrane (collagen IV), an early change that weakens vessels into microaneurysms, and later fibrovascular collagen sheets can wrinkle and detach the retina.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Diabetic retinopathy is inflamed by macrophages: recruited myeloid cells and activated retinal microglia pour out cytokines that damage the blood-retinal barrier, adding low-grade inflammation to the classic microvascular picture.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Diabetic retinopathy reflects lost nitric oxide: damaged retinal endothelium makes too little NO to dilate vessels and autoregulate flow, so the retina swings between poor perfusion and leak—worsening the ischemia that drives VEGF.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — High glucose inflames the retina through NF-kB: hyperglycemia and AGE-RAGE signaling switch it on in retinal cells, driving the cytokines and adhesion molecules that damage capillaries—an inflammatory layer atop the vascular disease.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Diabetic retinopathy traces back to the pancreas: the failing insulin supply that defines diabetes drives the chronic high glucose that injures retinal vessels, so retinopathy is the eye's record of the pancreas's long shortfall.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells join the inflamed diabetic retina: they degranulate near retinal vessels, releasing mediators that increase leakiness and inflammation, an emerging contributor to the macular edema that threatens vision.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
