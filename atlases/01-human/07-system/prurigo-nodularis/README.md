@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "The nodule in prurigo nodularis is built by fibroblasts: relentless scratching drives dermal fibroblast proliferation and collagen deposition, thickening the skin into the hard, dome-shaped nodules—so chronic mechanical trauma, not just inflammation, sculpts the lesion."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Prurigo nodularis itch runs through the opioid system: an imbalance of mu (itch-promoting) versus kappa opioid signaling drives chronic itch, so the kappa-agonist difelikefalin and opioid-modulating drugs are used to break the itch-scratch cycle."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Chronic itch like prurigo nodularis can signal the thyroid: thyroid dysfunction causes generalized pruritus, so evaluating PN includes checking the thyroid (and kidney, liver) for a systemic cause behind the relentless itching."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Chronic itch drives prurigo nodularis, and diabetes is a common systemic trigger: diabetic neuropathy and metabolic skin changes cause itch that, when scratched, builds nodules—so screening for diabetes joins thyroid, kidney and liver in the PN workup."
 ---
 
 # Prurigo Nodularis
@@ -202,6 +211,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Liver disease can drive prurigo nodularis: cholestasis (as in primary biliary cholangitis) causes intense, intractable itch, and the repeated scratching of that itch builds the hard nodules—so unexplained prurigo prompts a check of liver and bile function.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — Relentless itch can herald lymphoma: Hodgkin lymphoma classically causes paraneoplastic pruritus, and prurigo nodularis appearing without clear cause warrants screening for underlying malignancy—so the skin sometimes signals a hidden cancer.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The nodule in prurigo nodularis is built by fibroblasts: relentless scratching drives dermal fibroblast proliferation and collagen deposition, thickening the skin into the hard, dome-shaped nodules—so chronic mechanical trauma, not just inflammation, sculpts the lesion.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Prurigo nodularis itch runs through the opioid system: an imbalance of mu (itch-promoting) versus kappa opioid signaling drives chronic itch, so the kappa-agonist difelikefalin and opioid-modulating drugs are used to break the itch-scratch cycle.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Chronic itch like prurigo nodularis can signal the thyroid: thyroid dysfunction causes generalized pruritus, so evaluating PN includes checking the thyroid (and kidney, liver) for a systemic cause behind the relentless itching.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Chronic itch drives prurigo nodularis, and diabetes is a common systemic trigger: diabetic neuropathy and metabolic skin changes cause itch that, when scratched, builds nodules—so screening for diabetes joins thyroid, kidney and liver in the PN workup.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

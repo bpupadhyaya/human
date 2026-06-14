@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/digestive-system
     relation: connects-to
     note: "Healthy bone depends on the gut: the intestine absorbs the calcium and vitamin D bone needs, so malabsorption from celiac disease, inflammatory bowel disease, or bariatric surgery is an under-recognized cause of osteoporosis."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Bone loss in aging tips marrow toward fat: the mesenchymal stem cells that should become bone-building osteoblasts instead become adipocytes, so marrow fills with fat as bone thins—linking the adipocyte-osteoblast balance to osteoporosis."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Multiple myeloma masquerades as severe osteoporosis: malignant plasma cells activate osteoclasts (via RANKL) to carve lytic lesions and cause fractures, so unexplained bone loss with anemia or high calcium prompts a myeloma workup."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Failing kidneys weaken bone—renal osteodystrophy: CKD disturbs phosphate, vitamin D and PTH, deranging bone turnover into a complex osteoporosis-plus-osteomalacia that standard bone drugs can worsen, so diagnosis must come first."
 ---
 
 # Osteoporosis
@@ -235,6 +244,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Bone is calcium-phosphate crystal, so phosphorus is as structural as calcium: hydroxyapatite needs balanced phosphate, and disordered phosphate handling—too little (osteomalacia) or the excess of kidney disease—weakens or distorts bone alongside calcium loss.
 - `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Rheumatoid arthritis is a double hit to bone: chronic inflammation (and RANKL) accelerates bone loss, and the glucocorticoids used to treat it cause steroid-induced osteoporosis—so inflammatory arthritis is a leading secondary cause of fragile bones.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Healthy bone depends on the gut: the intestine absorbs the calcium and vitamin D bone needs, so malabsorption from celiac disease, inflammatory bowel disease, or bariatric surgery is an under-recognized cause of osteoporosis.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Bone loss in aging tips marrow toward fat: the mesenchymal stem cells that should become bone-building osteoblasts instead become adipocytes, so marrow fills with fat as bone thins—linking the adipocyte-osteoblast balance to osteoporosis.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Multiple myeloma masquerades as severe osteoporosis: malignant plasma cells activate osteoclasts (via RANKL) to carve lytic lesions and cause fractures, so unexplained bone loss with anemia or high calcium prompts a myeloma workup.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Failing kidneys weaken bone—renal osteodystrophy: CKD disturbs phosphate, vitamin D and PTH, deranging bone turnover into a complex osteoporosis-plus-osteomalacia that standard bone drugs can worsen, so diagnosis must come first.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
