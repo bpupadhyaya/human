@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/03-molecular/endocannabinoid
     relation: connects-to
     note: "The endocannabinoid system helps set the brain's anxiety thermostat: it dampens stress circuits and fear responses, so when this tone falls anxiety rises, making the system a target behind why cannabis can both calm and worsen worry."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Anxiety is tuned at the synapse: the balance of excitatory glutamate and inhibitory GABA across amygdala and prefrontal synapses sets how strongly threat signals fire, and shifting that synaptic balance toward excitation drives chronic worry."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Anxiety speaks through the gut: the gut-brain axis ties worry to the large intestine, so anxiety triggers cramping and changed bowel habits, and a troubled gut signals back to heighten anxiety—the loop behind anxiety's overlap with IBS."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Generalized anxiety reflects over-firing neurons: hyperexcitable cells in the amygdala and worry circuits respond too readily to threat while calming inputs lag, the cellular imbalance that medications and therapy work to settle."
 ---
 
 # Generalized Anxiety Disorder
@@ -293,6 +302,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Generalized anxiety keeps the adrenal glands switched on: chronic worry drives the HPA axis to make the adrenals pour out cortisol, and this sustained stress-hormone output underlies the fatigue, tension and health toll of long-term anxiety.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Low magnesium can heighten anxiety: the mineral normally restrains the NMDA receptor and supports GABA, so deficiency tips the brain toward excitation, which is why magnesium status is studied in relation to anxiety symptoms.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system helps set the brain's anxiety thermostat: it dampens stress circuits and fear responses, so when this tone falls anxiety rises, making the system a target behind why cannabis can both calm and worsen worry.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Anxiety is tuned at the synapse: the balance of excitatory glutamate and inhibitory GABA across amygdala and prefrontal synapses sets how strongly threat signals fire, and shifting that synaptic balance toward excitation drives chronic worry.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Anxiety speaks through the gut: the gut-brain axis ties worry to the large intestine, so anxiety triggers cramping and changed bowel habits, and a troubled gut signals back to heighten anxiety—the loop behind anxiety's overlap with IBS.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Generalized anxiety reflects over-firing neurons: hyperexcitable cells in the amygdala and worry circuits respond too readily to threat while calming inputs lag, the cellular imbalance that medications and therapy work to settle.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

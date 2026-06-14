@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "GVHD often begins with radiation's photons: total-body irradiation in transplant conditioning damages host tissues, releasing danger signals that activate donor T cells, so the conditioning that enables the graft also primes the graft-versus-host attack."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Gut GVHD can drain the body's potassium: severe inflammation of the bowel lining causes torrential, watery diarrhea—liters a day—that washes out potassium and fluid, a dangerous electrolyte loss needing close replacement."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Chronic GVHD ends in fibrosis: the persistent immune attack lays down scar tissue, hardening the skin like scleroderma and choking the airways with bronchiolitis obliterans, the disabling late face of the disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages drive GVHD's tissue destruction: recruited by donor T cells, they flood target organs and pour out inflammatory mediators that amplify the damage, making them an effector behind the skin, gut, and liver injury."
 ---
 
 # Graft-Versus-Host Disease
@@ -289,6 +298,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Chronic GVHD turns on fibroblasts to scar tissue: persistent donor-immune attack and TGF-beta drive fibroblasts to lay down collagen, producing the skin tightening, joint stiffness and lung scarring that define the chronic, scleroderma-like disease.
 - `connects-to` → **[Perforin](../../03-molecular/perforin/README.md)** — Donor killer cells use perforin to attack the host: cytotoxic T and NK cells punch holes in host-cell membranes with perforin to deliver lethal granzymes, a core mechanism of the tissue destruction in acute GVHD.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — GVHD often begins with radiation's photons: total-body irradiation in transplant conditioning damages host tissues, releasing danger signals that activate donor T cells, so the conditioning that enables the graft also primes the graft-versus-host attack.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Gut GVHD can drain the body's potassium: severe inflammation of the bowel lining causes torrential, watery diarrhea—liters a day—that washes out potassium and fluid, a dangerous electrolyte loss needing close replacement.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic GVHD ends in fibrosis: the persistent immune attack lays down scar tissue, hardening the skin like scleroderma and choking the airways with bronchiolitis obliterans, the disabling late face of the disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive GVHD's tissue destruction: recruited by donor T cells, they flood target organs and pour out inflammatory mediators that amplify the damage, making them an effector behind the skin, gut, and liver injury.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
