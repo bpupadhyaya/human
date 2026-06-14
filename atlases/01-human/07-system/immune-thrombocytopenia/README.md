@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "ITP crosses the placenta: maternal anti-platelet IgG passes to the fetus and can lower the newborn's platelets, so pregnant patients need monitoring—distinct from neonatal alloimmune thrombocytopenia, where the mother targets paternal platelet antigens."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Immune thrombocytopenia is first treated with cortisol's kin: corticosteroids dampen the antibody response and the macrophage clearance of platelets, raising counts as the standard first-line therapy for symptomatic ITP."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "ITP stems from failed tolerance by regulatory T cells: deficient or dysfunctional Tregs let the immune system make antibodies against the body's own platelets, so restoring regulatory T-cell control is an emerging therapeutic goal."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver quietly governs platelet counts in ITP: it makes most of the body's thrombopoietin and helps clear antibody-coated platelets, so liver function shapes both platelet production and destruction in the disease."
 ---
 
 # Immune Thrombocytopenia
@@ -269,6 +278,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — ITP is not only antibody-driven: cytotoxic CD8 T cells can directly lyse platelets and attack marrow megakaryocytes, explaining cases with low platelet antibodies and the variable response to therapies aimed only at antibody production.
 - `connects-to` → **[Measles](../measles/README.md)** — Childhood ITP often follows infection or vaccination: measles and other viruses (and the MMR vaccine) can trigger transient antiplatelet antibodies, causing self-limited thrombocytopenia weeks later—usually resolving without treatment, unlike chronic adult ITP.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — ITP crosses the placenta: maternal anti-platelet IgG passes to the fetus and can lower the newborn's platelets, so pregnant patients need monitoring—distinct from neonatal alloimmune thrombocytopenia, where the mother targets paternal platelet antigens.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Immune thrombocytopenia is first treated with cortisol's kin: corticosteroids dampen the antibody response and the macrophage clearance of platelets, raising counts as the standard first-line therapy for symptomatic ITP.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — ITP stems from failed tolerance by regulatory T cells: deficient or dysfunctional Tregs let the immune system make antibodies against the body's own platelets, so restoring regulatory T-cell control is an emerging therapeutic goal.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver quietly governs platelet counts in ITP: it makes most of the body's thrombopoietin and helps clear antibody-coated platelets, so liver function shapes both platelet production and destruction in the disease.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Glomerular endothelium marks active IgA nephropathy: endocapillary hypercellularity (the 'E' score) reflects inflammation of capillary endothelial cells and signals a lesion that may respond to immunosuppression—shaping who gets steroids."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "IgA nephropathy is first treated by blocking angiotensin II: ACE inhibitors and ARBs lower the glomerular pressure that angiotensin II drives, cutting the proteinuria that predicts kidney decline—the cornerstone of slowing this disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "IgA nephropathy classically leaks red cells: immune-complex injury to the glomerulus lets erythrocytes spill into the urine, often as visible hematuria a day or two after a sore throat (synpharyngitic), a hallmark that points to the diagnosis."
+  - target: 01-human/03-molecular/sglt2
+    relation: connects-to
+    note: "SGLT2 inhibitors now help protect kidneys in IgA nephropathy: blocking this glucose transporter lowers glomerular pressure and proteinuria independent of blood sugar, adding to RAAS blockade as a pillar of slowing progression to kidney failure."
 ---
 
 # IgA Nephropathy
@@ -207,6 +216,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — IgA nephropathy begins with dysregulated T-helper cells at mucosal sites: Th2 and Th17 skewing drives B cells to overproduce galactose-deficient IgA1, the autoantigen whose immune complexes deposit in the glomerulus—linking mucosal T-cell help to kidney injury.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Outcome in IgA nephropathy is written in fibrosis: tubulointerstitial fibrosis and tubular atrophy (the 'T' of the MEST-C score) predict progression to kidney failure better than the glomerular lesions, so preserving nephrons is the long-term goal.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Glomerular endothelium marks active IgA nephropathy: endocapillary hypercellularity (the 'E' score) reflects inflammation of capillary endothelial cells and signals a lesion that may respond to immunosuppression—shaping who gets steroids.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — IgA nephropathy is first treated by blocking angiotensin II: ACE inhibitors and ARBs lower the glomerular pressure that angiotensin II drives, cutting the proteinuria that predicts kidney decline—the cornerstone of slowing this disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — IgA nephropathy classically leaks red cells: immune-complex injury to the glomerulus lets erythrocytes spill into the urine, often as visible hematuria a day or two after a sore throat (synpharyngitic), a hallmark that points to the diagnosis.
+- `connects-to` → **[SGLT2](../../03-molecular/sglt2/README.md)** — SGLT2 inhibitors now help protect kidneys in IgA nephropathy: blocking this glucose transporter lowers glomerular pressure and proteinuria independent of blood sugar, adding to RAAS blockade as a pillar of slowing progression to kidney failure.
 
 ---
 
