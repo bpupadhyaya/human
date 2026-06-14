@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Cholangiocarcinoma grows out of chronic biliary inflammation: neutrophils and other immune cells in inflamed, infected, or stone-laden bile ducts release IL-6 and reactive species that drive the DNA damage transforming cholangiocytes—inflammation as carcinogen."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Cholangiocarcinoma arises amid copper-retaining cholestasis: the liver normally excretes copper into bile, so blocked or inflamed ducts trap copper in the liver—a marker of the chronic cholestasis (as in PSC) that breeds this bile-duct cancer."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Cholangiocarcinoma reactivates Notch signaling: the pathway that tells liver progenitors to become bile-duct cells is hijacked to drive tumor formation, so aberrant Notch can even push hepatocytes toward a malignant biliary fate."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Cholangiocarcinoma builds an immunosuppressive niche with regulatory T cells: Tregs accumulate in its dense desmoplastic stroma and blunt anti-tumor immunity, helping explain why checkpoint therapy alone often disappoints in this cancer."
 ---
 
 # Cholangiocarcinoma
@@ -220,6 +229,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Hepatitis B raises cholangiocarcinoma risk: chronic HBV inflames the liver and bile ducts, and like its link to hepatocellular cancer, the virus is an established risk factor for intrahepatic bile-duct cancer—so viral hepatitis spans both primary liver cancers.
 - `connects-to` → **[NASH](../nash/README.md)** — Fatty liver disease is a rising cause of cholangiocarcinoma: NASH-driven inflammation and fibrosis increasingly underlie intrahepatic bile-duct cancer, so the metabolic epidemic is expanding a tumor once tied mainly to flukes and bile-duct disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Cholangiocarcinoma grows out of chronic biliary inflammation: neutrophils and other immune cells in inflamed, infected, or stone-laden bile ducts release IL-6 and reactive species that drive the DNA damage transforming cholangiocytes—inflammation as carcinogen.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cholangiocarcinoma arises amid copper-retaining cholestasis: the liver normally excretes copper into bile, so blocked or inflamed ducts trap copper in the liver—a marker of the chronic cholestasis (as in PSC) that breeds this bile-duct cancer.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Cholangiocarcinoma reactivates Notch signaling: the pathway that tells liver progenitors to become bile-duct cells is hijacked to drive tumor formation, so aberrant Notch can even push hepatocytes toward a malignant biliary fate.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Cholangiocarcinoma builds an immunosuppressive niche with regulatory T cells: Tregs accumulate in its dense desmoplastic stroma and blunt anti-tumor immunity, helping explain why checkpoint therapy alone often disappoints in this cancer.
 
 ---
 

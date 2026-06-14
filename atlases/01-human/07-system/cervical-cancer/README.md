@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "Cervical cancer intersects with pregnancy at the cervix: screening often first detects disease in young, pregnant women, and cancer found in pregnancy forces hard timing decisions around delivery—so obstetric care and cancer care must be coordinated."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Cervical cancer is flagged by p16, the CDKN2A protein: HPV's E7 disables Rb, which paradoxically drives p16 sky-high, so strong p16 staining is the pathologist's surrogate marker that a lesion is HPV-driven and truly precancerous."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Cervical squamous tumors lean on EGFR: the receptor is frequently overexpressed and drives growth, making the ErbB pathway a studied target in advanced cervical cancer alongside anti-angiogenic and checkpoint therapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "HPV and cervical tumors hide behind regulatory T cells: Tregs infiltrate the lesion and suppress the cytotoxic response that should clear infected cells, part of the immune evasion that lets persistent HPV progress to cancer."
 ---
 
 # Cervical Cancer
@@ -246,6 +255,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Cervical cancer is now vaccine-preventable through B cells: the HPV vaccine elicits B-cell antibodies against the L1 capsid that block infection before it can transform cervical cells, so a humoral immune response is dramatically cutting cervical cancer rates.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Advanced cervical cancer kills through the kidneys: tumor spreading sideways in the pelvis encases the ureters, causing obstruction and hydronephrosis, so post-renal kidney failure—not the primary tumor—is a classic cause of death.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Cervical cancer intersects with pregnancy at the cervix: screening often first detects disease in young, pregnant women, and cancer found in pregnancy forces hard timing decisions around delivery—so obstetric care and cancer care must be coordinated.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Cervical cancer is flagged by p16, the CDKN2A protein: HPV's E7 disables Rb, which paradoxically drives p16 sky-high, so strong p16 staining is the pathologist's surrogate marker that a lesion is HPV-driven and truly precancerous.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Cervical squamous tumors lean on EGFR: the receptor is frequently overexpressed and drives growth, making the ErbB pathway a studied target in advanced cervical cancer alongside anti-angiogenic and checkpoint therapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HPV and cervical tumors hide behind regulatory T cells: Tregs infiltrate the lesion and suppress the cytotoxic response that should clear infected cells, part of the immune evasion that lets persistent HPV progress to cancer.
 
 ---
 
