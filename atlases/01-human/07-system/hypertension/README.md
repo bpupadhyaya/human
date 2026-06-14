@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The gut microbiome helps set blood pressure: microbes ferment fiber into short-chain fatty acids that relax vessels and modulate salt handling, so dysbiosis is emerging as a factor in hypertension beyond diet and genetics."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "The heart fights hypertension by releasing BNP: when high pressure stretches the heart, it secretes natriuretic peptide to make the kidneys dump sodium and relax vessels—a built-in counterweight to high blood pressure that doctors also measure to gauge cardiac strain."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium helps set blood pressure: the mineral relaxes vascular smooth muscle and counters calcium-driven constriction, so magnesium deficiency tightens vessels while supplementing it modestly lowers blood pressure."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Insulin resistance drives hypertension: high insulin levels make the kidney retain sodium and rev up the sympathetic nervous system, which is why high blood pressure clusters with obesity and diabetes in the metabolic syndrome."
 ---
 
 # Hypertension
@@ -214,6 +223,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland causes curable secondary hypertension: primary aldosteronism (Conn's), cortisol excess (Cushing's), and pheochromocytoma each drive high blood pressure, so resistant or young-onset hypertension prompts a hunt for an adrenal cause.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Hypertension in pregnancy centers on the placenta: poor placental perfusion releases factors that injure maternal blood vessels, causing pre-eclampsia—high blood pressure with organ damage that endangers mother and baby and resolves only with delivery.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut microbiome helps set blood pressure: microbes ferment fiber into short-chain fatty acids that relax vessels and modulate salt handling, so dysbiosis is emerging as a factor in hypertension beyond diet and genetics.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — The heart fights hypertension by releasing BNP: when high pressure stretches the heart, it secretes natriuretic peptide to make the kidneys dump sodium and relax vessels—a built-in counterweight to high blood pressure that doctors also measure to gauge cardiac strain.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium helps set blood pressure: the mineral relaxes vascular smooth muscle and counters calcium-driven constriction, so magnesium deficiency tightens vessels while supplementing it modestly lowers blood pressure.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Insulin resistance drives hypertension: high insulin levels make the kidney retain sodium and rev up the sympathetic nervous system, which is why high blood pressure clusters with obesity and diabetes in the metabolic syndrome.
 
 ## Pathology
 

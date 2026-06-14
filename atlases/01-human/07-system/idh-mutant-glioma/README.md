@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "IDH-mutant gliomas drive seizures through glutamate: the 2-HG oncometabolite resembles glutamate and the tumor disturbs glutamate balance, so epilepsy is an early, common presenting symptom—seizure control is part of routine care."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "IDH-mutant gliomas build a quiet immune microenvironment: the oncometabolite 2-HG dampens microglia and other immune cells, so these tumors are less inflamed than IDH-wildtype glioblastoma—part of why they grow slowly but resist immunotherapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The 2-HG made by IDH-mutant gliomas suppresses T cells: the oncometabolite impairs effector T-cell function and favors a tolerant, regulatory-T-cell-leaning state, blunting the antitumor immune response within the tumor."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "IDH-mutant gliomas still lean on mTOR growth signaling: the PI3K-AKT-mTOR pathway drives their proliferation alongside the defining IDH mutation, making mTOR a potential target to pair with IDH inhibitors like vorasidenib."
 ---
 
 # IDH-Mutant Glioma
@@ -255,6 +264,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Hereditary Leiomyomatosis and Renal Cell Carcinoma](../hlrcc/README.md)** — IDH-mutant glioma and HLRCC are sibling oncometabolite cancers: IDH mutation makes 2-hydroxyglutarate while FH loss makes fumarate, and both metabolites block the same dioxygenases to rewire epigenetics—so distinct enzymes converge on one cancer mechanism.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — IDH-mutant glioma is a vaccine target for T cells: the shared IDH1-R132H mutation creates a public neoantigen, and a peptide vaccine has induced cytotoxic T-cell responses against it—an early step toward immunotherapy for these gliomas.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — IDH-mutant gliomas drive seizures through glutamate: the 2-HG oncometabolite resembles glutamate and the tumor disturbs glutamate balance, so epilepsy is an early, common presenting symptom—seizure control is part of routine care.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — IDH-mutant gliomas build a quiet immune microenvironment: the oncometabolite 2-HG dampens microglia and other immune cells, so these tumors are less inflamed than IDH-wildtype glioblastoma—part of why they grow slowly but resist immunotherapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The 2-HG made by IDH-mutant gliomas suppresses T cells: the oncometabolite impairs effector T-cell function and favors a tolerant, regulatory-T-cell-leaning state, blunting the antitumor immune response within the tumor.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — IDH-mutant gliomas still lean on mTOR growth signaling: the PI3K-AKT-mTOR pathway drives their proliferation alongside the defining IDH mutation, making mTOR a potential target to pair with IDH inhibitors like vorasidenib.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
