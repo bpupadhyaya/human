@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells anchor vaccine strategies against IDH-mutant glioma: the shared IDH1-R132H mutation makes a clean target, and presenting this neoantigen via dendritic cells aims to rally a T-cell attack on the tumor."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "IDH-mutant glioma sabotages iron-dependent enzymes: its oncometabolite 2-hydroxyglutarate blocks iron-and-oxoglutarate dioxygenases—including the DNA demethylases—rewiring the epigenome into the methylator phenotype."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "IDH-mutant glioma sits in a macrophage-rich niche: tumor-associated macrophages and microglia populate the microenvironment, though the mutant metabolite makes it less inflamed than aggressive glioblastoma."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "IDH-mutant glioma turns to VEGF as it progresses: initially less vascular than glioblastoma, it ramps up VEGF-driven angiogenesis when it transforms to higher grade, marking the dangerous turn."
 ---
 
 # IDH-Mutant Glioma
@@ -279,6 +288,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — IDH-mutant gliomas wire into the brain at synapses: like other gliomas they form connections with neurons, and this synaptic integration with glutamate signaling both spurs tumor growth and helps generate the seizures these tumors cause.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signaling links IDH-mutant glioma to its seizures: glutamate from the tumor and its circuits drives calcium influx that overexcites neighboring neurons, helping explain why epilepsy is so often the first sign of these slow gliomas.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells anchor vaccine strategies against IDH-mutant glioma: the shared IDH1-R132H mutation makes a clean target, and presenting this neoantigen via dendritic cells aims to rally a T-cell attack on the tumor.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IDH-mutant glioma sabotages iron-dependent enzymes: its oncometabolite 2-hydroxyglutarate blocks iron-and-oxoglutarate dioxygenases—including the DNA demethylases—rewiring the epigenome into the methylator phenotype.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — IDH-mutant glioma sits in a macrophage-rich niche: tumor-associated macrophages and microglia populate the microenvironment, though the mutant metabolite makes it less inflamed than aggressive glioblastoma.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — IDH-mutant glioma turns to VEGF as it progresses: initially less vascular than glioblastoma, it ramps up VEGF-driven angiogenesis when it transforms to higher grade, marking the dangerous turn.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

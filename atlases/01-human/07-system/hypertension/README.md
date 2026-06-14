@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T-helper cells are an emerging player in hypertension: activated T cells infiltrate the vessel wall and kidney, releasing cytokines that stiffen arteries and impair sodium handling, recasting high blood pressure partly as an inflammatory disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Hypertension is read in the eye: high pressure narrows and damages retinal vessels (hypertensive retinopathy), a visible window onto the systemic vascular harm the disease does everywhere."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Hypertension stiffens organs with fibrosis: sustained pressure drives the heart and arteries to lay down collagen, thickening and scarring the walls, a remodeling that worsens the disease and damages the kidney too."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Hypertension forces cardiomyocytes to grow: pumping against high pressure makes heart-muscle cells enlarge, thickening the left ventricle into hypertensive heart disease that eventually stiffens and fails."
 ---
 
 # Hypertension
@@ -238,6 +247,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain both controls and suffers from blood pressure: brainstem centers set the sympathetic tone that drives it, while severe hypertension damages cerebral vessels to cause stroke and hypertensive encephalopathy—a two-way street.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol raises blood pressure: it sensitizes vessels to constrictors and makes the kidney hold sodium, so excess—from Cushing's or chronic stress—causes hypertension, one reason endocrine causes are sought in resistant cases.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T-helper cells are an emerging player in hypertension: activated T cells infiltrate the vessel wall and kidney, releasing cytokines that stiffen arteries and impair sodium handling, recasting high blood pressure partly as an inflammatory disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Hypertension is read in the eye: high pressure narrows and damages retinal vessels (hypertensive retinopathy), a visible window onto the systemic vascular harm the disease does everywhere.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Hypertension stiffens organs with fibrosis: sustained pressure drives the heart and arteries to lay down collagen, thickening and scarring the walls, a remodeling that worsens the disease and damages the kidney too.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Hypertension forces cardiomyocytes to grow: pumping against high pressure makes heart-muscle cells enlarge, thickening the left ventricle into hypertensive heart disease that eventually stiffens and fails.
 
 ## Pathology
 
