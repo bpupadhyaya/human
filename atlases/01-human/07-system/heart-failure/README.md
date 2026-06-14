@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Heart failure activates the sympathetic nervous system: norepinephrine initially props up output but chronically harms the failing heart, driving remodeling and arrhythmia—which is why beta-blockers that blunt it are a cornerstone of treatment."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Heart failure is a calcium-cycling failure: the sick cardiomyocyte can't pump calcium in and out fast enough (downregulated SERCA), so each beat is weaker and relaxation incomplete—the molecular basis of the failing squeeze."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "The failing heart is starved of ATP: damaged mitochondria can't supply enough energy for the constant work of pumping, so the heart runs like an engine low on fuel—an energy deficit that worsens the contractile failure."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Heart failure is driven by cardiac macrophages: after injury they shift from repair to chronic inflammation, fueling the fibrosis and adverse remodeling that stiffen and enlarge the failing heart."
 ---
 
 # Heart Failure
@@ -200,6 +209,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency is common and treatable in heart failure: even without anemia, low iron impairs cardiac and muscle energetics and worsens symptoms, so intravenous iron is now recommended to improve quality of life and cut hospitalizations.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Obesity is a major driver of heart failure, especially HFpEF: excess weight raises filling pressures, inflames and stiffens the heart, and the obese-HFpEF phenotype is now a target for GLP-1 and SGLT2 therapies that aid both weight and the heart.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Heart failure activates the sympathetic nervous system: norepinephrine initially props up output but chronically harms the failing heart, driving remodeling and arrhythmia—which is why beta-blockers that blunt it are a cornerstone of treatment.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Heart failure is a calcium-cycling failure: the sick cardiomyocyte can't pump calcium in and out fast enough (downregulated SERCA), so each beat is weaker and relaxation incomplete—the molecular basis of the failing squeeze.
+- `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — The failing heart is starved of ATP: damaged mitochondria can't supply enough energy for the constant work of pumping, so the heart runs like an engine low on fuel—an energy deficit that worsens the contractile failure.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Heart failure is driven by cardiac macrophages: after injury they shift from repair to chronic inflammation, fueling the fibrosis and adverse remodeling that stiffen and enlarge the failing heart.
 
 ## Pathology
 

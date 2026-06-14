@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "The gut-brain axis links the microbiome to depression: microbial metabolites and immune signals reaching the brain influence mood, and people with depression show altered gut flora—fueling interest in diet and probiotics as adjuncts."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Gut bacteria make GABA and talk to the brain: certain species synthesize this calming neurotransmitter (and others), part of the gut-brain axis through which the microbiome influences mood, anxiety, and stress alongside serotonin and dopamine."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The gut microbiome promotes atherosclerosis through TMAO: bacteria convert dietary choline and carnitine into TMAO, a metabolite that accelerates plaque and clotting—so what microbes make from red meat and eggs reaches the arteries."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells read the gut microbiome to set immunity: they sample bacteria across the gut lining and decide between tolerance and attack, so the microbes present shape whether the immune system stays calm or inflames."
 ---
 
 # Gut Microbiome
@@ -205,6 +214,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The gut microbiome teaches the immune system tolerance via regulatory T cells: bacterial short-chain fatty acids induce colonic Tregs that restrain inflammation, so a healthy microbiome supports immune balance and dysbiosis tips toward autoimmunity and allergy.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Gut microbes influence dopamine and the gut-brain axis: bacteria produce dopamine and its precursors and shape its metabolism, contributing to mood and movement signaling—part of why the microbiome is implicated in Parkinson's and psychiatric disease.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The gut-brain axis links the microbiome to depression: microbial metabolites and immune signals reaching the brain influence mood, and people with depression show altered gut flora—fueling interest in diet and probiotics as adjuncts.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Gut bacteria make GABA and talk to the brain: certain species synthesize this calming neurotransmitter (and others), part of the gut-brain axis through which the microbiome influences mood, anxiety, and stress alongside serotonin and dopamine.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The gut microbiome promotes atherosclerosis through TMAO: bacteria convert dietary choline and carnitine into TMAO, a metabolite that accelerates plaque and clotting—so what microbes make from red meat and eggs reaches the arteries.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells read the gut microbiome to set immunity: they sample bacteria across the gut lining and decide between tolerance and attack, so the microbes present shape whether the immune system stays calm or inflames.
 
 ## Pathology
 
