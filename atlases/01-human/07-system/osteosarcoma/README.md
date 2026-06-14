@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Osteosarcoma is defined by malignant osteoid: its hallmark is tumor cells laying down disorganized bone matrix (collagen-rich osteoid), so producing osteoid distinguishes it histologically from other bone tumors like Ewing sarcoma."
+  - target: 01-human/03-molecular/her2
+    relation: connects-to
+    note: "Osteosarcoma can express HER2: a fraction of tumors show HER2 on their surface, which correlates with worse outcome and has prompted trials of HER2-directed therapy and CAR-T cells in this hard-to-treat bone cancer."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Osteosarcoma immunotherapy works through macrophages: mifamurtide, added to chemotherapy, activates macrophages to attack residual tumor and improves survival, while tumor-associated macrophages in the lung niche influence whether metastases take hold."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Osteosarcoma grows from the marrow-filled metaphysis outward: it can seed 'skip metastases' elsewhere in the same bone's marrow cavity, a pattern whole-bone MRI looks for because it changes the surgical margin needed for cure."
 ---
 
 # Osteosarcoma
@@ -242,6 +251,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy treats osteosarcomas at hard-to-reach sites: axial and skull-base tumors that resist surgery and need high radiation doses benefit from protons' sharp dose falloff, sparing the spinal cord and nearby organs in this radioresistant bone cancer.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an option for unresectable osteosarcoma: heavy ions deliver dense, highly damaging dose to this radioresistant tumor, useful for pelvic or spinal lesions that cannot be removed surgically—available at specialized particle centers.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Osteosarcoma is defined by malignant osteoid: its hallmark is tumor cells laying down disorganized bone matrix (collagen-rich osteoid), so producing osteoid distinguishes it histologically from other bone tumors like Ewing sarcoma.
+- `connects-to` → **[HER2](../../03-molecular/her2/README.md)** — Osteosarcoma can express HER2: a fraction of tumors show HER2 on their surface, which correlates with worse outcome and has prompted trials of HER2-directed therapy and CAR-T cells in this hard-to-treat bone cancer.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Osteosarcoma immunotherapy works through macrophages: mifamurtide, added to chemotherapy, activates macrophages to attack residual tumor and improves survival, while tumor-associated macrophages in the lung niche influence whether metastases take hold.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Osteosarcoma grows from the marrow-filled metaphysis outward: it can seed 'skip metastases' elsewhere in the same bone's marrow cavity, a pattern whole-bone MRI looks for because it changes the surgical margin needed for cure.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Ovarian cancer is strongly prothrombotic: tumor tissue factor and the bulky pelvic mass make venous thromboembolism common (a Trousseau-type hypercoagulability), so clots can be the presenting sign and prophylaxis is routine around surgery and chemo."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ARID1A loss defines the endometriosis-linked ovarian cancers: this chromatin-remodeling gene is frequently mutated in clear-cell and endometrioid tumors that arise from endometriosis, giving them biology distinct from the BRCA-driven high-grade serous type."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "ATM extends ovarian cancer's homologous-repair story beyond BRCA: germline or tumor ATM loss impairs DNA repair, marking some non-BRCA tumors as homologous-recombination deficient and potentially sensitive to platinum and PARP inhibitors."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts build ovarian cancer's metastatic niche: in the omentum they remodel the stroma, supply growth factors and promote chemoresistance, making this stromal cell a driver of the peritoneal spread that defines advanced disease."
 ---
 
 # Ovarian Cancer
@@ -227,6 +236,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Ovarian cancer's BRCA/RAD51 defect is its therapeutic Achilles' heel: ~half of high-grade serous tumors have homologous-recombination deficiency (BRCA, RAD51 pathway), so PARP inhibitors kill them by synthetic lethality—a major advance in maintenance therapy.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Ovarian cancer spreads through the abdomen onto the digestive tract: it sheds cells that coat the peritoneum, omentum and bowel surface, so it presents late with bloating and ascites and often causes bowel obstruction—dictating debulking surgery.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Ovarian cancer is strongly prothrombotic: tumor tissue factor and the bulky pelvic mass make venous thromboembolism common (a Trousseau-type hypercoagulability), so clots can be the presenting sign and prophylaxis is routine around surgery and chemo.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ARID1A loss defines the endometriosis-linked ovarian cancers: this chromatin-remodeling gene is frequently mutated in clear-cell and endometrioid tumors that arise from endometriosis, giving them biology distinct from the BRCA-driven high-grade serous type.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — ATM extends ovarian cancer's homologous-repair story beyond BRCA: germline or tumor ATM loss impairs DNA repair, marking some non-BRCA tumors as homologous-recombination deficient and potentially sensitive to platinum and PARP inhibitors.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts build ovarian cancer's metastatic niche: in the omentum they remodel the stroma, supply growth factors and promote chemoresistance, making this stromal cell a driver of the peritoneal spread that defines advanced disease.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
