@@ -99,6 +99,15 @@ cross_links:
   - target: 01-human/07-system/borderline-personality-disorder
     relation: connects-to
     note: "PTSD and borderline personality disorder share a traumatic root: childhood trauma drives both, and complex PTSD overlaps BPD's emotional dysregulation and unstable relationships—so the two frequently co-occur and can be hard to disentangle clinically."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "PTSD dysregulates the adrenal stress axis: chronic trauma alters HPA-axis output so the adrenal gland's cortisol response is blunted and abnormal, leaving the noradrenergic alarm system unrestrained—part of the biology behind hypervigilance and flashbacks."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Trauma leaves an inflammatory mark via microglia: PTSD is linked to activated brain microglia and neuroinflammation that may damage the hippocampus and prefrontal cortex, connecting psychological trauma to measurable brain changes."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine ties PTSD to reward and to its therapies: trauma blunts reward-related dopamine signaling (contributing to numbing and anhedonia), and dopamine is part of why MDMA-assisted therapy is being studied to help process traumatic memories."
 ---
 
 # PTSD
@@ -261,6 +270,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system governs fear extinction central to PTSD: cannabinoid signaling helps the brain unlearn trauma cues, and deficits may lock in fear—so this pathway underlies why cannabis is sought for PTSD nightmares and why it is a drug-development target.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Adrenaline burns trauma into memory: the epinephrine surge during a terrifying event strengthens memory consolidation, helping explain PTSD's intrusive recollections—and why beta-blockers like propranolol have been tested to blunt or weaken fear memories.
 - `connects-to` → **[Borderline Personality Disorder](../borderline-personality-disorder/README.md)** — PTSD and borderline personality disorder share a traumatic root: childhood trauma drives both, and complex PTSD overlaps BPD's emotional dysregulation and unstable relationships—so the two frequently co-occur and can be hard to disentangle clinically.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — PTSD dysregulates the adrenal stress axis: chronic trauma alters HPA-axis output so the adrenal gland's cortisol response is blunted and abnormal, leaving the noradrenergic alarm system unrestrained—part of the biology behind hypervigilance and flashbacks.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Trauma leaves an inflammatory mark via microglia: PTSD is linked to activated brain microglia and neuroinflammation that may damage the hippocampus and prefrontal cortex, connecting psychological trauma to measurable brain changes.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine ties PTSD to reward and to its therapies: trauma blunts reward-related dopamine signaling (contributing to numbing and anhedonia), and dopamine is part of why MDMA-assisted therapy is being studied to help process traumatic memories.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

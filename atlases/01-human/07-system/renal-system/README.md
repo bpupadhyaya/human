@@ -100,6 +100,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "Kidney and blood pressure are locked in a two-way grip: the kidney sets long-term pressure through salt and the renin system, yet high pressure also damages its vessels—so hypertension is both a leading cause and a consequence of kidney disease."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "The kidney is where vitamin D becomes active: it performs the final 1-alpha-hydroxylation to calcitriol, so kidney failure causes vitamin D deficiency and the bone disease of CKD—one of the organ's vital endocrine, non-excretory jobs."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "The renal system is the body's phosphate gatekeeper: kidneys excrete phosphate under FGF23 and PTH control, so failing kidneys retain it, driving the calcium-phosphate imbalance and vascular calcification of CKD-mineral bone disorder."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "The kidney and PTH run the calcium-phosphate axis together: failing kidneys retain phosphate and underproduce active vitamin D, driving secondary hyperparathyroidism in which PTH soars to defend calcium—at the cost of the bones."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -222,6 +231,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Aldosterone](../../03-molecular/aldosterone/README.md) — Aldosterone is the kidney's salt-retaining hormone: released via the renin axis, it makes the distal nephron reabsorb sodium and excrete potassium, so it sets blood volume and pressure—and blocking it (spironolactone) treats resistant hypertension and heart failure.
 - **Connects to:** [Calcium](../../02-atomic/calcium/README.md) — The kidney is central to calcium balance: it activates vitamin D to absorb calcium, fine-tunes calcium excretion under PTH, and when it fails, disturbed calcium-phosphate handling drives the bone disease and stones of kidney disease.
 - **Connects to:** [Hypertension](../hypertension/README.md) — Kidney and blood pressure are locked in a two-way grip: the kidney sets long-term pressure through salt and the renin system, yet high pressure also damages its vessels—so hypertension is both a leading cause and a consequence of kidney disease.
+- **Connects to:** [Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md) — The kidney is where vitamin D becomes active: it performs the final 1-alpha-hydroxylation to calcitriol, so kidney failure causes vitamin D deficiency and the bone disease of CKD—one of the organ's vital endocrine, non-excretory jobs.
+- **Connects to:** [Phosphorus](../../02-atomic/phosphorus/README.md) — The renal system is the body's phosphate gatekeeper: kidneys excrete phosphate under FGF23 and PTH control, so failing kidneys retain it, driving the calcium-phosphate imbalance and vascular calcification of CKD-mineral bone disorder.
+- **Connects to:** [PTH](../../03-molecular/pth/README.md) — The kidney and PTH run the calcium-phosphate axis together: failing kidneys retain phosphate and underproduce active vitamin D, driving secondary hyperparathyroidism in which PTH soars to defend calcium—at the cost of the bones.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
