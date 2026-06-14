@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/malaria
     relation: connects-to
     note: "Severe falciparum malaria is a classic infectious trigger of DIC: parasitized red cells and inflammation activate coagulation and damage endothelium, so the bleeding and microthrombi of DIC complicate the deadliest form of malaria."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement and coagulation amplify each other in DIC: activated complement (C3 and beyond) promotes tissue factor and platelet activation while clotting enzymes cleave complement, so this crosstalk intensifies the runaway clotting of severe sepsis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages help ignite DIC: in sepsis and cancer, monocytes and macrophages express tissue factor that triggers systemic coagulation, so these immune cells link inflammation to the widespread microthrombi that consume clotting factors."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "DIC threatens the brain at both extremes: microthrombi cause small strokes while consumed clotting factors invite intracranial hemorrhage, so altered mental status in a critically ill patient can signal cerebral involvement of this clotting-bleeding paradox."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -250,6 +259,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help ignite DIC through immunothrombosis: in sepsis they release neutrophil extracellular traps that activate clotting on the vessel wall, fusing the inflammatory and coagulation cascades that drive disseminated microthrombi and consumption of clotting factors.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is a frequent casualty of DIC: widespread microthrombi clog the pulmonary microvasculature while consumed clotting factors cause alveolar hemorrhage, so DIC contributes to the ARDS and respiratory failure of severe sepsis.
 - `connects-to` → **[Malaria](../malaria/README.md)** — Severe falciparum malaria is a classic infectious trigger of DIC: parasitized red cells and inflammation activate coagulation and damage endothelium, so the bleeding and microthrombi of DIC complicate the deadliest form of malaria.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement and coagulation amplify each other in DIC: activated complement (C3 and beyond) promotes tissue factor and platelet activation while clotting enzymes cleave complement, so this crosstalk intensifies the runaway clotting of severe sepsis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help ignite DIC: in sepsis and cancer, monocytes and macrophages express tissue factor that triggers systemic coagulation, so these immune cells link inflammation to the widespread microthrombi that consume clotting factors.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — DIC threatens the brain at both extremes: microthrombi cause small strokes while consumed clotting factors invite intracranial hemorrhage, so altered mental status in a critically ill patient can signal cerebral involvement of this clotting-bleeding paradox.
 
 ---
 

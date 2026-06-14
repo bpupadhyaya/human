@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/01-subatomic/proton
     relation: connects-to
     note: "Proton therapy has been tried in diffuse midline glioma to spare the developing brain: its sharp dose falloff limits collateral damage near the brainstem, but because the tumor infiltrates diffusely and resists treatment, it has not improved the grim prognosis."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Diffuse midline glioma hijacks the synapse: tumor cells form real synapses with neurons and grow in response to neuronal activity, so brain electrical signaling literally feeds the cancer—a discovery opening neuroscience-based therapies for this lethal childhood tumor."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Diffuse midline glioma is a frontier for T-cell therapy: GD2-directed CAR-T cells have shrunk these previously untreatable pontine tumors in early trials, so engineered cytotoxic T cells offer the first real hope against a near-uniformly fatal cancer."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Glutamate drives diffuse midline glioma growth: neuron-released glutamate acting on tumor AMPA receptors stimulates proliferation, so the same excitatory signaling that runs the brain fuels the cancer—making glutamate pathways a therapeutic target."
 ---
 
 # Diffuse Midline Glioma
@@ -250,6 +259,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Diffuse midline glioma is the deadliest pediatric tumor of the nervous system: it infiltrates the brainstem (as DIPG), thalamus or spinal cord diffusely, so it cannot be resected and disrupts the very structures that control breathing, movement and consciousness.
 - `connects-to` → **[Li-Fraumeni Syndrome](../li-fraumeni-syndrome/README.md)** — Germline TP53 loss in Li-Fraumeni syndrome predisposes to midline gliomas: while most diffuse midline gliomas are sporadic H3K27M-driven, the syndrome shows how inherited tumor-suppressor loss can also seed these lethal childhood brain cancers.
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton therapy has been tried in diffuse midline glioma to spare the developing brain: its sharp dose falloff limits collateral damage near the brainstem, but because the tumor infiltrates diffusely and resists treatment, it has not improved the grim prognosis.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Diffuse midline glioma hijacks the synapse: tumor cells form real synapses with neurons and grow in response to neuronal activity, so brain electrical signaling literally feeds the cancer—a discovery opening neuroscience-based therapies for this lethal childhood tumor.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Diffuse midline glioma is a frontier for T-cell therapy: GD2-directed CAR-T cells have shrunk these previously untreatable pontine tumors in early trials, so engineered cytotoxic T cells offer the first real hope against a near-uniformly fatal cancer.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate drives diffuse midline glioma growth: neuron-released glutamate acting on tumor AMPA receptors stimulates proliferation, so the same excitatory signaling that runs the brain fuels the cancer—making glutamate pathways a therapeutic target.
 
 ---
 
