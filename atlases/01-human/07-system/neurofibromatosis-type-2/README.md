@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "NF2 tumors are studied as targets for NK and immune therapy: because repeated surgery and radiation risk nerve damage and hearing loss, immune approaches engaging natural killer cells are explored to control the schwannomas non-destructively."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "NF2's merlin loss unleashes growth via AKT-mTOR: without merlin's restraint, signaling flows into the PI3K-AKT-mTOR pathway alongside Hippo-YAP, driving the schwannomas and meningiomas—so mTOR-pathway drugs are studied to slow them."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "NF2 schwannomas grow on PDGF among other factors: autocrine growth-factor loops including PDGF feed the tumors, so PDGF-receptor and other kinase inhibitors are explored alongside the anti-VEGF drugs that can shrink vestibular schwannomas."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "NF2 tumors are studied as targets for cytotoxic T cells: because surgery and radiation risk hearing and nerve damage, engineered T-cell and other immunotherapies aim to control the schwannomas without destroying the nerves they sit on."
 ---
 
 # Neurofibromatosis Type 2
@@ -255,6 +264,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — NF2 tumors turn dangerous when they also lose CDKN2A: while merlin loss alone makes benign schwannomas and meningiomas, added CDKN2A deletion drives the leap to malignant, fast-growing tumors—a key prognostic event.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — NF2 schwannomas are packed with macrophages: tumor-associated macrophages dominate these nerve-sheath tumors and correlate with their growth and the hearing loss they cause, making the immune niche a target to slow vestibular schwannomas.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NF2 tumors are studied as targets for NK and immune therapy: because repeated surgery and radiation risk nerve damage and hearing loss, immune approaches engaging natural killer cells are explored to control the schwannomas non-destructively.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — NF2's merlin loss unleashes growth via AKT-mTOR: without merlin's restraint, signaling flows into the PI3K-AKT-mTOR pathway alongside Hippo-YAP, driving the schwannomas and meningiomas—so mTOR-pathway drugs are studied to slow them.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — NF2 schwannomas grow on PDGF among other factors: autocrine growth-factor loops including PDGF feed the tumors, so PDGF-receptor and other kinase inhibitors are explored alongside the anti-VEGF drugs that can shrink vestibular schwannomas.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — NF2 tumors are studied as targets for cytotoxic T cells: because surgery and radiation risk hearing and nerve damage, engineered T-cell and other immunotherapies aim to control the schwannomas without destroying the nerves they sit on.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

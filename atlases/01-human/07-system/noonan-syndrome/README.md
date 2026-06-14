@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "Noonan's hypertrophic cardiomyopathy runs partly through mTOR: overactive RAS feeds PI3K-AKT-mTOR signaling that thickens heart muscle, so mTOR inhibitors are being tested to reverse the cardiomyopathy that threatens these patients."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Noonan syndrome overdrives the AKT-mTOR growth axis: the RAS-pathway mutations that define it push signaling into PI3K-AKT-mTOR as well as ERK, helping explain the heart-muscle thickening and growth problems—and the rationale for mTOR inhibitors."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Faulty lymphatic endothelium underlies Noonan's swelling: abnormal development of lymphatic vessels causes the lymphedema and fetal cystic hygroma typical of the syndrome, and can lead to chylothorax—the lymphatic side of a RASopathy."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Noonan syndrome reaches the brain: Chiari I malformation, hydrocephalus and learning differences are recognized features, so neurodevelopmental and structural brain issues join the heart and growth problems in the syndrome's care."
 ---
 
 # Noonan Syndrome
@@ -273,6 +282,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — Noonan syndrome sits on a RASopathy spectrum that includes BRAF: while most cases stem from PTPN11, BRAF mutations cause the overlapping cardiofaciocutaneous syndrome, all sharing the overactive RAS-MAPK signaling behind the heart and growth defects.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Noonan syndrome disturbs the bone marrow: PTPN11 mutations can spark a juvenile myelomonocytic leukemia-like myeloproliferation in infancy—often self-limited but sometimes progressing—so blood counts are watched in affected children.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Noonan's hypertrophic cardiomyopathy runs partly through mTOR: overactive RAS feeds PI3K-AKT-mTOR signaling that thickens heart muscle, so mTOR inhibitors are being tested to reverse the cardiomyopathy that threatens these patients.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Noonan syndrome overdrives the AKT-mTOR growth axis: the RAS-pathway mutations that define it push signaling into PI3K-AKT-mTOR as well as ERK, helping explain the heart-muscle thickening and growth problems—and the rationale for mTOR inhibitors.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Faulty lymphatic endothelium underlies Noonan's swelling: abnormal development of lymphatic vessels causes the lymphedema and fetal cystic hygroma typical of the syndrome, and can lead to chylothorax—the lymphatic side of a RASopathy.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Noonan syndrome reaches the brain: Chiari I malformation, hydrocephalus and learning differences are recognized features, so neurodevelopmental and structural brain issues join the heart and growth problems in the syndrome's care.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
