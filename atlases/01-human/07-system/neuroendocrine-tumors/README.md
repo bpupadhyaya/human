@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/endocrine-system
     relation: connects-to
     note: "Neuroendocrine tumors straddle the nervous and endocrine systems: they arise from cells that, like the endocrine system, secrete hormones into blood, so functional NETs cause hormone syndromes (flushing, hypoglycemia, ulcers) treated by dampening that secretion."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "Pancreatic neuroendocrine tumors are shaped by ATRX: loss of ATRX (or DAXX) switches on alternative lengthening of telomeres, marking tumors with distinct biology and a worse prognosis—part of why molecular profiling now guides NET management."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "The thymus is an aggressive site for neuroendocrine tumors: thymic carcinoids, often linked to MEN1 and seen in men who smoke, behave more aggressively than other carcinoids, so chest imaging is part of evaluating NET-prone patients."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Medullary thyroid carcinoma is a calcitonin-secreting neuroendocrine tumor: arising from thyroid C cells, it pours out calcitonin that serves as a sensitive tumor marker for diagnosis and monitoring—linking the NET family to a thyroid cancer."
 ---
 
 # Neuroendocrine Tumors
@@ -216,6 +225,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Most neuroendocrine tumors arise in the digestive system: gastroenteropancreatic NETs (carcinoids, gastrinomas, insulinomas) form from the gut's diffuse hormone-secreting cells, so the GI tract and pancreas are the commonest primary sites and the cause of carcinoid syndrome.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — NETs are uniquely treated with targeted radiation: peptide receptor radionuclide therapy attaches a radioisotope to a somatostatin analog so SSTR2-rich tumors irradiate themselves, and Ga-68 PET images them the same way—radiation guided by the tumor's own receptor.
 - `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Neuroendocrine tumors straddle the nervous and endocrine systems: they arise from cells that, like the endocrine system, secrete hormones into blood, so functional NETs cause hormone syndromes (flushing, hypoglycemia, ulcers) treated by dampening that secretion.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — Pancreatic neuroendocrine tumors are shaped by ATRX: loss of ATRX (or DAXX) switches on alternative lengthening of telomeres, marking tumors with distinct biology and a worse prognosis—part of why molecular profiling now guides NET management.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — The thymus is an aggressive site for neuroendocrine tumors: thymic carcinoids, often linked to MEN1 and seen in men who smoke, behave more aggressively than other carcinoids, so chest imaging is part of evaluating NET-prone patients.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Medullary thyroid carcinoma is a calcitonin-secreting neuroendocrine tumor: arising from thyroid C cells, it pours out calcitonin that serves as a sensitive tumor marker for diagnosis and monitoring—linking the NET family to a thyroid cancer.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

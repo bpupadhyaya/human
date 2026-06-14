@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "NF1 also affects the skeleton: scoliosis, sphenoid-wing dysplasia and tibial pseudarthrosis (a non-healing congenital fracture) are recognized bony features, so the musculoskeletal system is part of this multisystem RAS-pathway disorder."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "NF1 is a treatable cause of secondary hypertension in the young: renal-artery stenosis from arterial dysplasia and catecholamine-secreting pheochromocytomas both raise blood pressure, so hypertension in an NF1 patient triggers a search for these causes."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "NF1's signature brain tumor is an astrocyte glioma: optic pathway and other low-grade pilocytic astrocytomas arise when neurofibromin loss unleashes RAS in glial cells, so children with NF1 are screened for vision-threatening optic gliomas."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "NF1 is a RASopathy driven through ERK: neurofibromin normally switches off RAS, so its loss leaves RAS-RAF-MEK-ERK signaling stuck on—the rationale for MEK inhibitors like selumetinib that shrink inoperable plexiform neurofibromas."
 ---
 
 # Neurofibromatosis Type 1
@@ -224,6 +233,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — NF1 is fundamentally a tumor-prone disorder of the nervous system: loss of neurofibromin unleashes RAS in nerve-sheath cells, producing neurofibromas, optic gliomas and learning difficulties—so the nervous system bears both the benign tumors and the cognitive features.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The skin announces NF1: café-au-lait macules, axillary freckling and cutaneous neurofibromas are diagnostic criteria usually present from childhood, so the integumentary system gives the earliest and most accessible signs of the syndrome.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — NF1 also affects the skeleton: scoliosis, sphenoid-wing dysplasia and tibial pseudarthrosis (a non-healing congenital fracture) are recognized bony features, so the musculoskeletal system is part of this multisystem RAS-pathway disorder.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — NF1 is a treatable cause of secondary hypertension in the young: renal-artery stenosis from arterial dysplasia and catecholamine-secreting pheochromocytomas both raise blood pressure, so hypertension in an NF1 patient triggers a search for these causes.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — NF1's signature brain tumor is an astrocyte glioma: optic pathway and other low-grade pilocytic astrocytomas arise when neurofibromin loss unleashes RAS in glial cells, so children with NF1 are screened for vision-threatening optic gliomas.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — NF1 is a RASopathy driven through ERK: neurofibromin normally switches off RAS, so its loss leaves RAS-RAF-MEK-ERK signaling stuck on—the rationale for MEK inhibitors like selumetinib that shrink inoperable plexiform neurofibromas.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
