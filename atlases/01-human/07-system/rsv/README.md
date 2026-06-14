@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "RSV outwits dendritic cells: the virus blunts these antigen-presenters' ability to prime strong, lasting T-cell immunity, which helps explain why RSV reinfects people throughout life and why a durable vaccine took decades to achieve."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "RSV can hit the infant brain: in the youngest babies it triggers sudden apnea—pauses in breathing that may be the first sign—and rare cases cause seizures or encephalopathy, so very young infants are watched closely."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Severe RSV throws off sodium: bronchiolitis is a classic trigger of SIADH, in which the body retains water and dilutes blood sodium, so hyponatremia can develop and provoke seizures if IV fluids are not chosen carefully."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "RSV stirs the airway's mast cells: their release of mediators adds to the wheeze of bronchiolitis, and severe early RSV is linked to later asthma, hinting these cells help bridge infection to allergic airway disease."
 ---
 
 # RSV
@@ -286,3 +295,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — RSV bronchiolitis is dangerous because it starves infants of oxygen: inflamed, mucus-plugged small airways trap air and drop blood oxygen, so supplemental oxygen and breathing support—not antivirals—are the mainstay of treating a severe case.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells are an early shield against RSV: they kill infected airway cells before antibodies form, and weak NK responses in young infants and the elderly help explain why those age groups suffer the worst disease.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — RSV outwits dendritic cells: the virus blunts these antigen-presenters' ability to prime strong, lasting T-cell immunity, which helps explain why RSV reinfects people throughout life and why a durable vaccine took decades to achieve.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — RSV can hit the infant brain: in the youngest babies it triggers sudden apnea—pauses in breathing that may be the first sign—and rare cases cause seizures or encephalopathy, so very young infants are watched closely.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Severe RSV throws off sodium: bronchiolitis is a classic trigger of SIADH, in which the body retains water and dilutes blood sodium, so hyponatremia can develop and provoke seizures if IV fluids are not chosen carefully.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — RSV stirs the airway's mast cells: their release of mediators adds to the wheeze of bronchiolitis, and severe early RSV is linked to later asthma, hinting these cells help bridge infection to allergic airway disease.
