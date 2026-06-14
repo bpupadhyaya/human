@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells shape the immune fight against ovarian cancer: as antigen-presenters they prime the T-cell response, and their dysfunction in the tumor and ascites helps it evade immunity—so dendritic-cell vaccines are explored to rebuild it."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "A rare ovarian cancer spikes blood calcium: the small-cell carcinoma of hypercalcemic type (SCCOHT) drives a paraneoplastic hypercalcemia, so high calcium in a young woman with an ovarian mass is a warning."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Ovarian cancer can back up the kidneys: a bulky pelvic mass or nodal spread compresses the ureters, causing hydronephrosis and post-renal kidney injury in advanced disease."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Ovarian cancer feeds on the omentum's fat cells: it spreads to the fatty omentum, where adipocytes supply fatty acids that fuel tumor growth—the 'omental caking' typical of advanced disease."
 ---
 
 # Ovarian Cancer
@@ -263,6 +272,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Ovarian cancer spreads across the gut: it sheds cells that seed the omentum and bowel surface as peritoneal carcinomatosis, so abdominal bloating and bowel obstruction—not pelvic symptoms—are often what finally brings the late-stage disease to light.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Ovarian cancer reaches the chest as malignant effusions: tumor spread to the pleura fills the space around the lungs with fluid, causing breathlessness, a common sign of advanced disease that upstages it and guides drainage and systemic therapy.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape the immune fight against ovarian cancer: as antigen-presenters they prime the T-cell response, and their dysfunction in the tumor and ascites helps it evade immunity—so dendritic-cell vaccines are explored to rebuild it.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A rare ovarian cancer spikes blood calcium: the small-cell carcinoma of hypercalcemic type (SCCOHT) drives a paraneoplastic hypercalcemia, so high calcium in a young woman with an ovarian mass is a warning.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Ovarian cancer can back up the kidneys: a bulky pelvic mass or nodal spread compresses the ureters, causing hydronephrosis and post-renal kidney injury in advanced disease.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Ovarian cancer feeds on the omentum's fat cells: it spreads to the fatty omentum, where adipocytes supply fatty acids that fuel tumor growth—the 'omental caking' typical of advanced disease.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

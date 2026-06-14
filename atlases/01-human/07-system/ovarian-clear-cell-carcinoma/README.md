@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells matter most in the immunogenic subset of clear cell ovarian carcinoma: some tumors carry mismatch-repair defects and neoantigens, and antigen-presenting dendritic cells help mount the response that checkpoint therapy can amplify."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Clear cell ovarian carcinoma mirrors kidney cancer: it shares the HIF-driven clear-cell biology of renal clear cell carcinoma, and as a pelvic mass it can obstruct the ureters and kidneys."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Clear cell ovarian carcinoma is hypervascular: HIF and VEGF drive endothelial cells to build a rich blood supply, like its renal counterpart, a feature anti-angiogenic therapy targets."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Clear cell ovarian carcinoma is born in endometriosis: it arises within fibrotic, blood-stained endometriotic cysts, whose chronic inflammation and scarring set the stage for malignant transformation."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -289,6 +298,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Clear cell ovarian carcinoma behaves as if starved of oxygen: its glycogen-packed clear cells run a HIF-driven pseudohypoxic program even when oxygen is present, fueling growth and the chemoresistance that makes this subtype so hard to treat.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Clear cell ovarian carcinoma spreads across the peritoneum: like other ovarian cancers it studs the omentum and bowel surface, so abdominal disease and bowel involvement shape its presentation and the surgery aimed at removing all visible tumor.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells matter most in the immunogenic subset of clear cell ovarian carcinoma: some tumors carry mismatch-repair defects and neoantigens, and antigen-presenting dendritic cells help mount the response that checkpoint therapy can amplify.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Clear cell ovarian carcinoma mirrors kidney cancer: it shares the HIF-driven clear-cell biology of renal clear cell carcinoma, and as a pelvic mass it can obstruct the ureters and kidneys.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Clear cell ovarian carcinoma is hypervascular: HIF and VEGF drive endothelial cells to build a rich blood supply, like its renal counterpart, a feature anti-angiogenic therapy targets.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Clear cell ovarian carcinoma is born in endometriosis: it arises within fibrotic, blood-stained endometriotic cysts, whose chronic inflammation and scarring set the stage for malignant transformation.
 
 ---
 
