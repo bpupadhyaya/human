@@ -113,6 +113,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Skin lymphatics help regulate the body's sodium: salt stored in the skin is sensed by macrophages that trigger lymphatic growth to clear it, an unexpected role linking the lymphatic system to sodium balance and blood pressure."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lungs sit at the lymphatic system's outflow: the thoracic duct empties lymph near the heart, and injury to it leaks milky lymph into the chest as a chylothorax, a distinctive lymphatic emergency."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Lymph nodes do their work in germinal centers: within them B cells multiply, mutate, and are selected to make ever-better antibodies, the engine of the adaptive response the lymphatic system carries."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut holds the body's largest lymphatic tissue: the bowel wall, including the large intestine, is packed with lymphoid follicles (GALT) that sample microbes and mount the mucosal immunity the lymphatics coordinate."
 ---
 
 # Lymphatic System
@@ -254,6 +263,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — The lymphatic system is the body's fat-transport highway: intestinal lacteals absorb dietary fats packaged as chylomicrons—rich in cholesterol and triglyceride—into lymph rather than blood, delivering them to the circulation downstream.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin depends on its lymphatics for drainage and defense: a fine network clears fluid and ferries antigen-loaded dendritic cells to nodes, so when it fails, fluid pools as lymphedema and immune surveillance of the skin suffers.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Skin lymphatics help regulate the body's sodium: salt stored in the skin is sensed by macrophages that trigger lymphatic growth to clear it, an unexpected role linking the lymphatic system to sodium balance and blood pressure.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs sit at the lymphatic system's outflow: the thoracic duct empties lymph near the heart, and injury to it leaks milky lymph into the chest as a chylothorax, a distinctive lymphatic emergency.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymph nodes do their work in germinal centers: within them B cells multiply, mutate, and are selected to make ever-better antibodies, the engine of the adaptive response the lymphatic system carries.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut holds the body's largest lymphatic tissue: the bowel wall, including the large intestine, is packed with lymphoid follicles (GALT) that sample microbes and mount the mucosal immunity the lymphatics coordinate.
 
 ## Pathology
 
