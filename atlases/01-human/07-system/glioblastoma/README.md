@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Glutamate links glioblastoma to seizures and growth: the tumor releases excess glutamate that excites and kills surrounding neurons (causing seizures and making room to invade) while stimulating its own proliferation—so glutamate is both weapon and growth signal."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Glioblastoma builds a profoundly cold immune microenvironment: regulatory T cells and suppressive myeloid cells crowd out cytotoxic lymphocytes, which is why checkpoint immunotherapy that works in other cancers has so far largely failed against GBM."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "One molecular subtype of glioblastoma is driven by PDGF: proneural GBMs amplify PDGFRA, so platelet-derived growth factor signaling defines a distinct class of the tumor alongside the classical EGFR-driven and mesenchymal NF1-driven types."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Glioblastoma disables the cell-cycle brake through CDK4/6: amplification of these kinases (with CDKN2A loss) drives uncontrolled division by inactivating Rb, making CDK4/6 inhibitors a rational—if still experimental—targeted strategy."
 ---
 
 # Glioblastoma
@@ -253,6 +262,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Glioblastoma wires itself into neural circuits: like other gliomas it forms synapses with neurons and grows in response to their electrical activity, so peritumoral synaptic signaling fuels invasion—reframing GBM as partly a disease of brain connectivity.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages dominate the glioblastoma microenvironment: tumor-associated macrophages and microglia can make up half the tumor mass and are co-opted to suppress immunity and promote growth, so they are a prime target for breaking GBM's treatment resistance.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Glutamate links glioblastoma to seizures and growth: the tumor releases excess glutamate that excites and kills surrounding neurons (causing seizures and making room to invade) while stimulating its own proliferation—so glutamate is both weapon and growth signal.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Glioblastoma builds a profoundly cold immune microenvironment: regulatory T cells and suppressive myeloid cells crowd out cytotoxic lymphocytes, which is why checkpoint immunotherapy that works in other cancers has so far largely failed against GBM.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — One molecular subtype of glioblastoma is driven by PDGF: proneural GBMs amplify PDGFRA, so platelet-derived growth factor signaling defines a distinct class of the tumor alongside the classical EGFR-driven and mesenchymal NF1-driven types.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Glioblastoma disables the cell-cycle brake through CDK4/6: amplification of these kinases (with CDKN2A loss) drives uncontrolled division by inactivating Rb, making CDK4/6 inhibitors a rational—if still experimental—targeted strategy.
 
 ---
 

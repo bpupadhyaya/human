@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Gorlin syndrome shapes the brain structurally: macrocephaly with frontal bossing, a bridged sella turcica, and developmental anomalies accompany the tumor risk, so congenital brain malformations are part of the syndrome alongside its cancers."
+  - target: 01-human/03-molecular/mycn
+    relation: connects-to
+    note: "Gorlin's tumors grow because Hedgehog switches on MYCN: unchecked PTCH1/SMO signaling activates GLI, which drives MYCN to fuel the SHH-subtype medulloblastomas and basal cell carcinomas that define the syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Gorlin's basal cell carcinomas escape Hedgehog blockers via mTOR: when vismodegib shuts down smoothened, tumors can reactivate growth through mTOR and other bypass pathways, a key reason these cancers eventually resist targeted therapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Gorlin's many basal cell carcinomas exploit regulatory T cells: Tregs help the tumors evade immune clearance, which is why PD-1 checkpoint therapy (cemiplimab) is used for advanced BCCs that progress despite Hedgehog inhibitors."
 ---
 
 # Gorlin Syndrome
@@ -234,6 +243,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium deposits are a Gorlin diagnostic clue: lamellar calcification of the falx cerebri and other ectopic calcifications are among its major criteria, reflecting how disrupted hedgehog signaling alters bone and soft-tissue mineralization.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gorlin syndrome reaches the reproductive system: bilateral ovarian fibromas—often calcified—are characteristic, so a young woman with ovarian masses plus skin and jaw findings may carry the PTCH1 mutation behind the syndrome.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Gorlin syndrome shapes the brain structurally: macrocephaly with frontal bossing, a bridged sella turcica, and developmental anomalies accompany the tumor risk, so congenital brain malformations are part of the syndrome alongside its cancers.
+- `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — Gorlin's tumors grow because Hedgehog switches on MYCN: unchecked PTCH1/SMO signaling activates GLI, which drives MYCN to fuel the SHH-subtype medulloblastomas and basal cell carcinomas that define the syndrome.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Gorlin's basal cell carcinomas escape Hedgehog blockers via mTOR: when vismodegib shuts down smoothened, tumors can reactivate growth through mTOR and other bypass pathways, a key reason these cancers eventually resist targeted therapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Gorlin's many basal cell carcinomas exploit regulatory T cells: Tregs help the tumors evade immune clearance, which is why PD-1 checkpoint therapy (cemiplimab) is used for advanced BCCs that progress despite Hedgehog inhibitors.
 
 ---
 
