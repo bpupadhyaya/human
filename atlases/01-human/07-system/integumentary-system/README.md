@@ -80,6 +80,15 @@ cross_links:
   - target: 01-human/07-system/systemic-sclerosis
     relation: connects-to
     note: "Systemic sclerosis turns the integument rigid: autoimmune fibroblast activation deposits excess collagen in the dermis, hardening and tethering the skin—the visible hallmark of a disease that shows how the skin's connective tissue can drive systemic illness."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "The skin is the body's main interface with photons: UV light damages DNA, driving skin cancers and photoaging, yet also powers vitamin D synthesis—so sunlight is both essential to and the chief carcinogen of the integument."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "The skin's deepest layer is built of adipocytes: the subcutaneous hypodermis stores fat for insulation, cushioning, and energy, anchors skin to muscle, and secretes hormones like leptin—so body-fat changes visibly reshape the skin's contour and thickness."
+  - target: 01-human/07-system/pemphigus-vulgaris
+    relation: connects-to
+    note: "Pemphigus vulgaris shows how autoimmunity can unglue the skin: antibodies against desmoglein dissolve the desmosomes binding keratinocytes, so the epidermis blisters and sloughs—revealing how much the integument depends on cell-to-cell adhesion to stay intact."
 ---
 
 # Integumentary System
@@ -206,6 +215,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Atopic Dermatitis](../atopic-dermatitis/README.md)** — Atopic dermatitis is the integumentary system's barrier disease: filaggrin-deficient skin loses water and lets allergens in, triggering itch-scratch inflammation—showing how the epidermal barrier, immune cells and nerves of the skin act as one integrated organ system.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The integumentary and lymphatic systems are intertwined in the skin: dermal lymphatics drain interstitial fluid and ferry antigen-laden dendritic cells to nodes, so when they fail, lymphedema swells the limb and thickens the overlying skin.
 - `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Systemic sclerosis turns the integument rigid: autoimmune fibroblast activation deposits excess collagen in the dermis, hardening and tethering the skin—the visible hallmark of a disease that shows how the skin's connective tissue can drive systemic illness.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The skin is the body's main interface with photons: UV light damages DNA, driving skin cancers and photoaging, yet also powers vitamin D synthesis—so sunlight is both essential to and the chief carcinogen of the integument.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The skin's deepest layer is built of adipocytes: the subcutaneous hypodermis stores fat for insulation, cushioning, and energy, anchors skin to muscle, and secretes hormones like leptin—so body-fat changes visibly reshape the skin's contour and thickness.
+- `connects-to` → **[Pemphigus Vulgaris](../pemphigus-vulgaris/README.md)** — Pemphigus vulgaris shows how autoimmunity can unglue the skin: antibodies against desmoglein dissolve the desmosomes binding keratinocytes, so the epidermis blisters and sloughs—revealing how much the integument depends on cell-to-cell adhesion to stay intact.
 
 ## Pathology
 
