@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/collagen
     relation: connects-to
     note: "Werner syndrome stiffens the skin's collagen: a scleroderma-like tightening with loss of subcutaneous fat and intractable ankle ulcers reflects disordered collagen and fibroblast aging, a hallmark physical sign of the disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Werner syndrome ages the heart early: premature, severe atherosclerosis leads to heart attacks in the patients' forties—one of the two leading causes of death, alongside cancer, in this accelerated-aging disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Werner syndrome calcifies soft tissues and vessels: disordered repair and aging promote arterial and soft-tissue calcification, contributing to the early atherosclerosis and the stiff, aged appearance of affected tissues."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Werner syndrome thins bone through failing osteoblasts: accelerated cellular aging impairs the bone-building cells, producing the early, severe osteoporosis—especially of the limbs—that is a hallmark of the disease."
 ---
 
 # Werner Syndrome
@@ -298,6 +307,9 @@ cross_links:
 - `connects-to` → **[RAD51](../../03-molecular/rad51/README.md)** — Werner syndrome is a replication-repair disease tied to RAD51: the WRN helicase resolves stalled forks and aids RAD51-driven homologous recombination, so its loss leaves the genomic instability behind the premature aging and cancers.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Werner cells age fast under oxygen's damage: without WRN, accumulating oxidative DNA damage and reactive oxygen species speed cellular senescence, contributing to the accelerated aging that defines this adult progeria.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Werner syndrome stiffens the skin's collagen: a scleroderma-like tightening with loss of subcutaneous fat and intractable ankle ulcers reflects disordered collagen and fibroblast aging, a hallmark physical sign of the disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Werner syndrome ages the heart early: premature, severe atherosclerosis leads to heart attacks in the patients' forties—one of the two leading causes of death, alongside cancer, in this accelerated-aging disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Werner syndrome calcifies soft tissues and vessels: disordered repair and aging promote arterial and soft-tissue calcification, contributing to the early atherosclerosis and the stiff, aged appearance of affected tissues.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Werner syndrome thins bone through failing osteoblasts: accelerated cellular aging impairs the bone-building cells, producing the early, severe osteoporosis—especially of the limbs—that is a hallmark of the disease.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
