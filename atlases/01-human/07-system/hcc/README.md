@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "HCC is now treated by unleashing the immune system: arising in a chronically inflamed liver, it responds to checkpoint inhibitors, and atezolizumab plus bevacizumab became first-line therapy for advanced disease—immunotherapy paired with anti-angiogenesis."
+  - target: 01-human/03-molecular/ctla-4
+    relation: connects-to
+    note: "HCC immunotherapy combines checkpoint blockers: the STRIDE regimen pairs anti-CTLA-4 (tremelimumab) with anti-PD-L1 (durvalumab), and atezolizumab+bevacizumab is another standard—so dual immune and anti-VEGF therapy now front-lines advanced liver cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "The liver is NK-cell territory that HCC must evade: natural killer cells normally patrol the liver and kill transformed hepatocytes, so HCC's suppression of NK function is part of how it escapes immune control—and a target for therapy."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Carbon-ion radiotherapy is an option for liver cancer: heavy-ion beams deposit dose precisely in the tumor while sparing surrounding cirrhotic liver, offering a focal treatment for HCC unsuitable for surgery or ablation."
 ---
 
 # Hepatocellular Carcinoma
@@ -257,6 +266,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung is HCC's commonest distant spread: liver tumor cells invade veins and seed the lungs, so pulmonary metastases mark advanced disease and prompt systemic therapy rather than local liver-directed treatment.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — HCC is intensely vascular, built around endothelial cells: it recruits abnormal new vessels (driven by VEGF), which is why anti-angiogenic drugs and trans-arterial embolization that targets its blood supply are mainstays of treatment.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — HCC is now treated by unleashing the immune system: arising in a chronically inflamed liver, it responds to checkpoint inhibitors, and atezolizumab plus bevacizumab became first-line therapy for advanced disease—immunotherapy paired with anti-angiogenesis.
+- `connects-to` → **[CTLA-4](../../03-molecular/ctla-4/README.md)** — HCC immunotherapy combines checkpoint blockers: the STRIDE regimen pairs anti-CTLA-4 (tremelimumab) with anti-PD-L1 (durvalumab), and atezolizumab+bevacizumab is another standard—so dual immune and anti-VEGF therapy now front-lines advanced liver cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — The liver is NK-cell territory that HCC must evade: natural killer cells normally patrol the liver and kill transformed hepatocytes, so HCC's suppression of NK function is part of how it escapes immune control—and a target for therapy.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-ion radiotherapy is an option for liver cancer: heavy-ion beams deposit dose precisely in the tumor while sparing surrounding cirrhotic liver, offering a focal treatment for HCC unsuitable for surgery or ablation.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

@@ -103,6 +103,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells are frontline against HIV: they kill infected cells and shape early control, and certain NK-receptor (KIR) and HLA combinations track with slower progression—so innate immunity helps explain why a few 'elite controllers' suppress HIV without drugs."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "HIV crosses the placenta without prevention: mother-to-child transmission in pregnancy, birth or breastfeeding once infected many infants, but maternal antiretroviral therapy now makes transmission rare—one of HIV medicine's great successes."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "HIV hides in the brain's microglia: these long-lived cells form a viral reservoir behind the blood-brain barrier, driving HIV-associated neurocognitive disorder and frustrating cure efforts even when blood virus is suppressed."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Treated HIV smolders with IL-6-driven inflammation: even with virus suppressed, chronic immune activation raises IL-6 and inflammatory markers, accelerating heart disease, frailty and other non-AIDS conditions—the 'inflammaging' of long-term HIV."
 ---
 
 # HIV
@@ -266,6 +275,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — HIV both cripples and is chased by B cells: chronic infection causes B-cell exhaustion and poor vaccine responses, yet rare broadly neutralizing antibodies from some patients now guide vaccine and long-acting prevention research—central to the search for a cure.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — HIV is largely a sexually transmitted infection of the reproductive tract: it spreads through genital and rectal mucosa, crosses to infants in pregnancy and breast-feeding, and is blocked by PrEP and 'undetectable = untransmittable' viral suppression.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are frontline against HIV: they kill infected cells and shape early control, and certain NK-receptor (KIR) and HLA combinations track with slower progression—so innate immunity helps explain why a few 'elite controllers' suppress HIV without drugs.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — HIV crosses the placenta without prevention: mother-to-child transmission in pregnancy, birth or breastfeeding once infected many infants, but maternal antiretroviral therapy now makes transmission rare—one of HIV medicine's great successes.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — HIV hides in the brain's microglia: these long-lived cells form a viral reservoir behind the blood-brain barrier, driving HIV-associated neurocognitive disorder and frustrating cure efforts even when blood virus is suppressed.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Treated HIV smolders with IL-6-driven inflammation: even with virus suppressed, chronic immune activation raises IL-6 and inflammatory markers, accelerating heart disease, frailty and other non-AIDS conditions—the 'inflammaging' of long-term HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
