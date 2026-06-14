@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Bloom syndrome impairs the reproductive system: men are typically infertile and women have reduced, early-ending fertility, reflecting how the genome instability and repair defect that drive its cancers also disrupt the meiotic recombination needed to make gametes."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Bloom syndrome's most visible feature is profound short stature: BLM helicase loss stunts growth from before birth, producing proportionate dwarfism despite normal growth-hormone levels—so it is a growth disorder of the cell's replication machinery, not the hormone."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Bloom syndrome brings recurrent lung infection: an associated immunodeficiency (low immunoglobulins) leaves patients prone to pneumonia and chronic lung disease, so respiratory infections are a major cause of illness alongside the cancer risk."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "Bloom syndrome carries an extreme, broad cancer risk including breast: genomic instability from BLM loss drives tumors at unusually young ages across many sites, so carriers need early, intensive surveillance for breast and other cancers."
 ---
 
 # Bloom Syndrome
@@ -249,6 +258,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — Bloom syndrome and BRCA2 cancers share a homologous-recombination theme: BLM helicase works alongside BRCA2 and RAD51 to repair DNA by recombination, so its loss—like BRCA2 loss—causes genomic instability and a broad lifelong cancer predisposition.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Bloom syndrome includes immunodeficiency: defective DNA repair impairs B-cell antibody class-switching, lowering immunoglobulins and causing recurrent infections, while the same instability fuels the lymphomas and leukemias that often arise from these cells.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Bloom syndrome impairs the reproductive system: men are typically infertile and women have reduced, early-ending fertility, reflecting how the genome instability and repair defect that drive its cancers also disrupt the meiotic recombination needed to make gametes.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Bloom syndrome's most visible feature is profound short stature: BLM helicase loss stunts growth from before birth, producing proportionate dwarfism despite normal growth-hormone levels—so it is a growth disorder of the cell's replication machinery, not the hormone.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Bloom syndrome brings recurrent lung infection: an associated immunodeficiency (low immunoglobulins) leaves patients prone to pneumonia and chronic lung disease, so respiratory infections are a major cause of illness alongside the cancer risk.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Bloom syndrome carries an extreme, broad cancer risk including breast: genomic instability from BLM loss drives tumors at unusually young ages across many sites, so carriers need early, intensive surveillance for breast and other cancers.
 
 ---
 

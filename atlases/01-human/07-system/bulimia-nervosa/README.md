@@ -90,6 +90,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "Bulimia nervosa is a nervous-system disorder of impaired impulse control and reward: dysregulated serotonin and dopamine in fronto-striatal circuits drive the binge-purge cycle, so it is treated as a brain disorder with SSRIs and cognitive behavioral therapy."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Purging in bulimia injures the kidney: repeated vomiting and laxative abuse cause dehydration and potassium loss, triggering a pseudo-Bartter state and, over time, hypokalemic nephropathy—so renal function and electrolytes are closely watched."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF ties bulimia to appetite and reward wiring: this neurotrophin shapes the hypothalamic and reward circuits controlling eating, and BDNF gene variants are associated with eating disorders—linking binge-purge behavior to brain plasticity."
+  - target: 01-human/07-system/ptsd
+    relation: connects-to
+    note: "Trauma underlies much bulimia: childhood adversity and PTSD are common, and binge-purge cycles can serve to numb or discharge distress—so effective treatment often must address the trauma driving the eating behavior, not just the eating."
 ---
 
 # Bulimia Nervosa
@@ -243,6 +252,9 @@ All of the following must be met:
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Bulimia nervosa disrupts the gut-brain axis: binge-purge cycles and altered gut microbiota perturb appetite and satiety signaling, and emerging evidence links dysbiosis to the mood and eating dysregulation, hinting at the microbiome as a treatment frontier.
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Bulimia nervosa injures the digestive system from end to end: self-induced vomiting erodes the esophagus (reflux, Mallory-Weiss tears), swells the salivary glands and erodes tooth enamel, while laxative abuse damages the colon—visible bodily signatures of purging.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — Bulimia nervosa is a nervous-system disorder of impaired impulse control and reward: dysregulated serotonin and dopamine in fronto-striatal circuits drive the binge-purge cycle, so it is treated as a brain disorder with SSRIs and cognitive behavioral therapy.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Purging in bulimia injures the kidney: repeated vomiting and laxative abuse cause dehydration and potassium loss, triggering a pseudo-Bartter state and, over time, hypokalemic nephropathy—so renal function and electrolytes are closely watched.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF ties bulimia to appetite and reward wiring: this neurotrophin shapes the hypothalamic and reward circuits controlling eating, and BDNF gene variants are associated with eating disorders—linking binge-purge behavior to brain plasticity.
+- `connects-to` → **[PTSD](../ptsd/README.md)** — Trauma underlies much bulimia: childhood adversity and PTSD are common, and binge-purge cycles can serve to numb or discharge distress—so effective treatment often must address the trauma driving the eating behavior, not just the eating.
 
 ## Treatment
 
