@@ -94,6 +94,15 @@ cross_links:
   - target: 01-human/07-system/nervous-system
     relation: connects-to
     note: "HIV invades the nervous system early: it infects brain macrophages and microglia, and even on treatment can cause HIV-associated neurocognitive disorder, so the CNS is both a target organ and a viral reservoir that complicates cure."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "HIV both cripples and is chased by B cells: chronic infection causes B-cell exhaustion and poor vaccine responses, yet rare broadly neutralizing antibodies from some patients now guide vaccine and long-acting prevention research—central to the search for a cure."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "HIV is largely a sexually transmitted infection of the reproductive tract: it spreads through genital and rectal mucosa, crosses to infants in pregnancy and breast-feeding, and is blocked by PrEP and 'undetectable = untransmittable' viral suppression."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells are frontline against HIV: they kill infected cells and shape early control, and certain NK-receptor (KIR) and HLA combinations track with slower progression—so innate immunity helps explain why a few 'elite controllers' suppress HIV without drugs."
 ---
 
 # HIV
@@ -254,6 +263,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — CCR5 is HIV's main entry coreceptor: the virus uses it with CD4 to infect T cells, the blocker maraviroc exploits this, and people with the CCR5-delta32 deletion are naturally resistant—the basis of the only cures achieved via stem-cell transplant.
 - `connects-to` → **[Immune System](../immune-system/README.md)** — HIV is fundamentally a disease of the immune system: by destroying CD4 T cells it collapses coordinated immunity, so opportunistic infections and cancers define AIDS—and antiretroviral therapy works by preserving this immune architecture before it fails.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — HIV invades the nervous system early: it infects brain macrophages and microglia, and even on treatment can cause HIV-associated neurocognitive disorder, so the CNS is both a target organ and a viral reservoir that complicates cure.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — HIV both cripples and is chased by B cells: chronic infection causes B-cell exhaustion and poor vaccine responses, yet rare broadly neutralizing antibodies from some patients now guide vaccine and long-acting prevention research—central to the search for a cure.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — HIV is largely a sexually transmitted infection of the reproductive tract: it spreads through genital and rectal mucosa, crosses to infants in pregnancy and breast-feeding, and is blocked by PrEP and 'undetectable = untransmittable' viral suppression.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells are frontline against HIV: they kill infected cells and shape early control, and certain NK-receptor (KIR) and HLA combinations track with slower progression—so innate immunity helps explain why a few 'elite controllers' suppress HIV without drugs.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

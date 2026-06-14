@@ -85,6 +85,15 @@ cross_links:
   - target: 01-human/07-system/lymphatic-system
     relation: connects-to
     note: "HIV/AIDS plays out largely in the lymphatic system: lymphoid tissue is where the virus replicates and where CD4 T cells are depleted, generalized lymphadenopathy is an early sign, and the resulting immune collapse drives the lymphomas that complicate AIDS."
+  - target: 02-pathogen/03-fungi/cryptococcus-neoformans
+    relation: connects-to
+    note: "Cryptococcus is a leading AIDS killer: when CD4 counts fall, this environmental yeast causes cryptococcal meningitis, a major cause of death in advanced HIV worldwide—so a positive serum cryptococcal antigen prompts urgent antifungal treatment."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "Toxoplasma reactivates in AIDS as brain abscesses: latent cysts flare when CD4 counts drop, producing ring-enhancing lesions and toxoplasmic encephalitis—so seropositive patients take prophylaxis, the same drugs treating Pneumocystis."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "AIDS turns the brain into a battleground: falling immunity invites toxoplasmosis, cryptococcal meningitis, PCNSL, and PML, while HIV itself causes dementia—so new neurological signs in advanced HIV demand urgent imaging and workup."
 ---
 
 # HIV/AIDS
@@ -222,6 +231,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Oral and esophageal candidiasis is a hallmark of advancing HIV/AIDS: as CD4 counts fall, Candida albicans overgrows mucosa it normally cannot, so thrush and esophagitis are clinical clues to immunosuppression and an AIDS-defining illness when esophageal.
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — HIV/AIDS frequently strikes the nervous system: beyond direct HIV brain infection causing dementia, falling CD4 counts open the door to CNS opportunists—toxoplasmosis, cryptococcal meningitis and CNS lymphoma—making neurologic disease a major source of AIDS morbidity.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — HIV/AIDS plays out largely in the lymphatic system: lymphoid tissue is where the virus replicates and where CD4 T cells are depleted, generalized lymphadenopathy is an early sign, and the resulting immune collapse drives the lymphomas that complicate AIDS.
+- `connects-to` → **[Cryptococcus neoformans](../../../02-pathogen/03-fungi/cryptococcus-neoformans/README.md)** — Cryptococcus is a leading AIDS killer: when CD4 counts fall, this environmental yeast causes cryptococcal meningitis, a major cause of death in advanced HIV worldwide—so a positive serum cryptococcal antigen prompts urgent antifungal treatment.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — Toxoplasma reactivates in AIDS as brain abscesses: latent cysts flare when CD4 counts drop, producing ring-enhancing lesions and toxoplasmic encephalitis—so seropositive patients take prophylaxis, the same drugs treating Pneumocystis.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AIDS turns the brain into a battleground: falling immunity invites toxoplasmosis, cryptococcal meningitis, PCNSL, and PML, while HIV itself causes dementia—so new neurological signs in advanced HIV demand urgent imaging and workup.
 
 ## See Also
 
