@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Werner syndrome drives premature fibrosis and connective-tissue aging: defective DNA repair pushes fibroblasts into senescence, and the resulting tissue stiffening underlies its scleroderma-like skin and atherosclerosis—aging at the connective-tissue level."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Werner's WRN helicase is now a cancer drug target: MSI-high tumors—many colorectal—depend on WRN to survive their unstable DNA, so WRN inhibitors are synthetically lethal in them, turning a premature-aging gene into precision oncology."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Werner syndrome distorts fat tissue: patients lose subcutaneous fat yet accumulate visceral fat, with insulin-resistant adipocytes driving severe type 2 diabetes and lipid abnormalities—part of the metabolic face of accelerated aging."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Werner syndrome prematurely ages the musculoskeletal system: muscle wasting, tight scleroderma-like skin over joints, soft-tissue calcification, and osteoporosis cause early frailty—mirroring the sarcopenia and bone loss of normal aging decades early."
 ---
 
 # Werner Syndrome
@@ -262,6 +271,9 @@ cross_links:
 - `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Werner syndrome is accelerated aging from genome instability overwhelming p53: WRN helicase loss lets DNA damage and telomere attrition accumulate, triggering premature senescence and cancer—so the p53 checkpoint fires early, aging the body decades ahead of time.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Werner syndrome's skin mimics scleroderma and aging: WRN loss produces tight, atrophic, scleroderma-like skin with ulcers over pressure points and graying hair in early adulthood—often the first visible sign of this segmental progeroid syndrome.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Werner syndrome drives premature fibrosis and connective-tissue aging: defective DNA repair pushes fibroblasts into senescence, and the resulting tissue stiffening underlies its scleroderma-like skin and atherosclerosis—aging at the connective-tissue level.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Werner's WRN helicase is now a cancer drug target: MSI-high tumors—many colorectal—depend on WRN to survive their unstable DNA, so WRN inhibitors are synthetically lethal in them, turning a premature-aging gene into precision oncology.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Werner syndrome distorts fat tissue: patients lose subcutaneous fat yet accumulate visceral fat, with insulin-resistant adipocytes driving severe type 2 diabetes and lipid abnormalities—part of the metabolic face of accelerated aging.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Werner syndrome prematurely ages the musculoskeletal system: muscle wasting, tight scleroderma-like skin over joints, soft-tissue calcification, and osteoporosis cause early frailty—mirroring the sarcopenia and bone loss of normal aging decades early.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

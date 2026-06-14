@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "VHL sits at the heart of cellular oxygen sensing: the VHL protein normally tags HIF for destruction when oxygen is plentiful, so its loss makes cells behave as if hypoxic—pseudohypoxia driving erythropoietin, angiogenesis and tumor growth even in normal oxygen."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal gland is a key VHL target: pheochromocytomas of the adrenal medulla, often bilateral and noradrenaline-secreting, arise in VHL and demand lifelong surveillance—a different organ lesion from the renal and CNS tumors that dominate the syndrome."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "VHL leaves a quiet mark on the reproductive system: epididymal cystadenomas in men and broad-ligament cystadenomas in women are characteristic benign tumors—rarely symptomatic but, when bilateral, near-diagnostic clues to the syndrome."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "VHL's broken oxygen sensing inflates red cells: failure to degrade HIF raises erythropoietin, driving excess erythrocyte production—the basis of Chuvash polycythemia, a milder VHL variant where the bone marrow overmakes red cells without a tumor."
 ---
 
 # VHL Disease
@@ -221,6 +230,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is VHL disease's most lethal target: VHL loss stabilizes HIF, so carriers develop multiple, recurrent clear cell renal cell carcinomas—the leading cause of death—prompting lifelong renal imaging and nephron-sparing surgery to preserve kidney function.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VHL disease is the prototype of VEGF-driven tumors: losing VHL stabilizes HIF, which floods tissue with VEGF to build the vessel-rich hemangioblastomas and renal cancers—so HIF-2a (belzutifan) and anti-VEGF drugs directly target the syndrome's core defect.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — VHL sits at the heart of cellular oxygen sensing: the VHL protein normally tags HIF for destruction when oxygen is plentiful, so its loss makes cells behave as if hypoxic—pseudohypoxia driving erythropoietin, angiogenesis and tumor growth even in normal oxygen.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a key VHL target: pheochromocytomas of the adrenal medulla, often bilateral and noradrenaline-secreting, arise in VHL and demand lifelong surveillance—a different organ lesion from the renal and CNS tumors that dominate the syndrome.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — VHL leaves a quiet mark on the reproductive system: epididymal cystadenomas in men and broad-ligament cystadenomas in women are characteristic benign tumors—rarely symptomatic but, when bilateral, near-diagnostic clues to the syndrome.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — VHL's broken oxygen sensing inflates red cells: failure to degrade HIF raises erythropoietin, driving excess erythrocyte production—the basis of Chuvash polycythemia, a milder VHL variant where the bone marrow overmakes red cells without a tumor.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
