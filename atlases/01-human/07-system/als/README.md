@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "ALS motor neurons fire too easily through persistent sodium currents: this hyperexcitability stresses the cells and contributes to their loss, and it is partly why riluzole—which curbs sodium currents and glutamate—modestly slows the disease."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "ALS overwhelms the synapse with glutamate: failure to clear this excitatory transmitter floods motor-neuron synapses, and the resulting excitotoxicity helps kill the cells—the process the drug riluzole partly blunts."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages join the attack in ALS: they infiltrate the degenerating peripheral nerves and muscle, and their inflammatory signaling adds to the microglial neuroinflammation that speeds motor-neuron loss."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-α inflames the dying motor regions in ALS: activated microglia and macrophages release this cytokine, and the chronic neuroinflammation it drives is thought to accelerate the loss of motor neurons."
 ---
 
 # ALS
@@ -299,6 +308,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Motor neurons in ALS run out of ATP: failing mitochondria cannot meet the huge energy demand of cells with metre-long axons, so the energy shortfall cripples transport and ion pumping and helps drive the neurons' death.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells infiltrate the dying motor regions in ALS: adaptive immunity adds to microglial inflammation, and the balance between these CD8 cells and protective regulatory T cells helps set how fast the disease advances.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ALS motor neurons fire too easily through persistent sodium currents: this hyperexcitability stresses the cells and contributes to their loss, and it is partly why riluzole—which curbs sodium currents and glutamate—modestly slows the disease.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — ALS overwhelms the synapse with glutamate: failure to clear this excitatory transmitter floods motor-neuron synapses, and the resulting excitotoxicity helps kill the cells—the process the drug riluzole partly blunts.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages join the attack in ALS: they infiltrate the degenerating peripheral nerves and muscle, and their inflammatory signaling adds to the microglial neuroinflammation that speeds motor-neuron loss.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α inflames the dying motor regions in ALS: activated microglia and macrophages release this cytokine, and the chronic neuroinflammation it drives is thought to accelerate the loss of motor neurons.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

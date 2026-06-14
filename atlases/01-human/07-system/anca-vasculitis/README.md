@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells help break tolerance in ANCA vasculitis: by presenting MPO and PR3 fragments to T cells, they license the autoimmune response that drives B cells to make the ANCA antibodies, a step upstream of current B-cell therapy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ANCA vasculitis can starve the lungs of oxygen: inflamed alveolar capillaries bleed into the air sacs (diffuse alveolar hemorrhage), so gas exchange fails—a pulmonary-renal emergency that can need a ventilator."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "ANCA vasculitis can strangle the gut: inflammation of the bowel's small vessels causes mesenteric ischemia, abdominal pain, and GI bleeding, a serious extrarenal manifestation of severe disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "ANCA vasculitis can reach the brain: inflammation of cerebral vessels and the dura causes strokes, seizures, and pachymeningitis, extending the small-vessel attack into the central nervous system."
 ---
 
 # ANCA Vasculitis
@@ -295,6 +304,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — ANCA vasculitis can strike the heart, especially in EGPA: eosinophilic myocarditis and coronary inflammation damage the muscle, making cardiac involvement the leading cause of death in the eosinophilic form of the disease.
 - `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Primed neutrophils drive ANCA vasculitis partly via the NLRP3 inflammasome: it amplifies inflammatory signaling and NET release when ANCA antibodies activate the cells, fueling the vessel-wall damage at the disease's core.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help break tolerance in ANCA vasculitis: by presenting MPO and PR3 fragments to T cells, they license the autoimmune response that drives B cells to make the ANCA antibodies, a step upstream of current B-cell therapy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ANCA vasculitis can starve the lungs of oxygen: inflamed alveolar capillaries bleed into the air sacs (diffuse alveolar hemorrhage), so gas exchange fails—a pulmonary-renal emergency that can need a ventilator.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — ANCA vasculitis can strangle the gut: inflammation of the bowel's small vessels causes mesenteric ischemia, abdominal pain, and GI bleeding, a serious extrarenal manifestation of severe disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — ANCA vasculitis can reach the brain: inflammation of cerebral vessels and the dura causes strokes, seizures, and pachymeningitis, extending the small-vessel attack into the central nervous system.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
