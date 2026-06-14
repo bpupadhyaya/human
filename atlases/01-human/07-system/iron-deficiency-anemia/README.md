@@ -102,6 +102,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The stomach gatekeeps iron absorption: acid frees dietary iron for uptake downstream, so atrophic gastritis, H. pylori, acid-blocking drugs or gastric surgery cause iron-deficiency anemia by impairing this first step."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine is where iron deficiency is won or lost: the duodenum absorbs dietary iron, so celiac disease, bypass surgery or fast transit there cuts uptake and is a leading cause of iron-deficiency anemia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Iron deficiency ultimately means too little oxygen delivered: without iron, hemoglobin falls and blood carries less oxygen, producing the fatigue, breathlessness and even the odd cravings (pica) that drive patients to seek care."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "HIF senses the iron-oxygen shortfall and ramps up absorption: in the oxygen-starved gut lining, HIF-2alpha switches on the duodenal iron-uptake machinery, so this sensor links low iron and low oxygen to the body's effort to claw iron back."
 ---
 
 # Iron Deficiency Anemia
@@ -250,6 +259,9 @@ Iron is essential for:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Most of the body's iron comes from macrophages recycling old red cells: they engulf senescent erythrocytes and return the iron via ferroportin, so this recycling—not diet—supplies most daily iron, and its disruption shapes both iron-deficiency and overload.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Iron needs copper to move: copper-dependent enzymes (ceruloplasmin, hephaestin) oxidize iron so transferrin can carry it, so copper deficiency causes an anemia that looks like iron deficiency but won't respond to iron alone.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach gatekeeps iron absorption: acid frees dietary iron for uptake downstream, so atrophic gastritis, H. pylori, acid-blocking drugs or gastric surgery cause iron-deficiency anemia by impairing this first step.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine is where iron deficiency is won or lost: the duodenum absorbs dietary iron, so celiac disease, bypass surgery or fast transit there cuts uptake and is a leading cause of iron-deficiency anemia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Iron deficiency ultimately means too little oxygen delivered: without iron, hemoglobin falls and blood carries less oxygen, producing the fatigue, breathlessness and even the odd cravings (pica) that drive patients to seek care.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — HIF senses the iron-oxygen shortfall and ramps up absorption: in the oxygen-starved gut lining, HIF-2alpha switches on the duodenal iron-uptake machinery, so this sensor links low iron and low oxygen to the body's effort to claw iron back.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

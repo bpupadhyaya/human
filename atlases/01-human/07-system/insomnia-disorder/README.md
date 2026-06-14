@@ -112,6 +112,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "Sleep and the hippocampus need each other: deep sleep consolidates hippocampal memories, so insomnia's lost sleep impairs learning and memory—and over time poor sleep is linked to hippocampal shrinkage and dementia risk."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes help build the pressure to sleep: they release adenosine during waking and drive the glymphatic flushing of brain waste during sleep, so when this glial housekeeping falters, restorative sleep suffers in insomnia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium supports the brain's calming systems for sleep: it backs GABA signaling and restrains excitatory NMDA activity, so low magnesium can leave the mind too aroused to settle, which is why it is a common sleep supplement."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Sleep is when synapses are rebalanced: the night's slow-wave sleep prunes and renormalizes synaptic strength built up while awake, so insomnia's lost deep sleep leaves this synaptic housekeeping undone, blunting next-day learning."
 ---
 
 # Insomnia Disorder
@@ -280,6 +289,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — An overactive thyroid is a hidden cause of insomnia: excess thyroid hormone speeds metabolism and arousal, causing difficulty falling and staying asleep, so checking thyroid function is part of evaluating new, unexplained chronic insomnia.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Insomnia is a disorder of hyperarousal driven by norepinephrine: an overactive noradrenergic stress system keeps the brain and body too 'switched on' to sleep, which is why insomnia overlaps anxiety and why calming arousal—not just sedation—is the goal.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Sleep and the hippocampus need each other: deep sleep consolidates hippocampal memories, so insomnia's lost sleep impairs learning and memory—and over time poor sleep is linked to hippocampal shrinkage and dementia risk.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help build the pressure to sleep: they release adenosine during waking and drive the glymphatic flushing of brain waste during sleep, so when this glial housekeeping falters, restorative sleep suffers in insomnia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium supports the brain's calming systems for sleep: it backs GABA signaling and restrains excitatory NMDA activity, so low magnesium can leave the mind too aroused to settle, which is why it is a common sleep supplement.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Sleep is when synapses are rebalanced: the night's slow-wave sleep prunes and renormalizes synaptic strength built up while awake, so insomnia's lost deep sleep leaves this synaptic housekeeping undone, blunting next-day learning.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
