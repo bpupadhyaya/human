@@ -88,6 +88,15 @@ cross_links:
   - target: 01-human/07-system/integumentary-system
     relation: connects-to
     note: "The Muir-Torre variant of Lynch syndrome shows in the skin: mismatch-repair loss produces sebaceous adenomas, sebaceous carcinomas and keratoacanthomas, so these uncommon skin tumors can be the first clue prompting Lynch genetic testing."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Lynch syndrome reaches the urinary tract above the bladder: MMR deficiency raises the risk of urothelial cancer in the renal pelvis and ureter, so surveillance and any blood in the urine prompt imaging of the upper tracts, not just cystoscopy."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Prostate cancer is a lower-penetrance Lynch tumor: MMR-gene carriers face a modestly increased, sometimes more aggressive prostate cancer, so family history of Lynch is weighed alongside PSA in deciding screening for these men."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Lynch tumors are immunotherapy-responsive because they are hypermutated: MMR loss spawns countless neoantigens that dendritic cells present to prime T cells, explaining why checkpoint blockade works so well in mismatch-repair-deficient cancers."
 ---
 
 # Lynch Syndrome
@@ -251,6 +260,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Digestive System](../digestive-system/README.md)** — Lynch syndrome predisposes across the digestive system: mismatch-repair loss most often causes colorectal cancer but also stomach, small-bowel, pancreatic and biliary tumors, so broad GI surveillance anchors management of the commonest hereditary cancer syndrome.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Lynch syndrome heavily affects the female reproductive system: endometrial cancer rivals colorectal as the most common Lynch tumor and is often the sentinel cancer, and ovarian cancer risk is raised too—so gynecologic surveillance and risk-reducing surgery matter.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — The Muir-Torre variant of Lynch syndrome shows in the skin: mismatch-repair loss produces sebaceous adenomas, sebaceous carcinomas and keratoacanthomas, so these uncommon skin tumors can be the first clue prompting Lynch genetic testing.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Lynch syndrome reaches the urinary tract above the bladder: MMR deficiency raises the risk of urothelial cancer in the renal pelvis and ureter, so surveillance and any blood in the urine prompt imaging of the upper tracts, not just cystoscopy.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Prostate cancer is a lower-penetrance Lynch tumor: MMR-gene carriers face a modestly increased, sometimes more aggressive prostate cancer, so family history of Lynch is weighed alongside PSA in deciding screening for these men.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Lynch tumors are immunotherapy-responsive because they are hypermutated: MMR loss spawns countless neoantigens that dendritic cells present to prime T cells, explaining why checkpoint blockade works so well in mismatch-repair-deficient cancers.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

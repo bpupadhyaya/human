@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/07-system/insomnia-disorder
     relation: connects-to
     note: "Depression and insomnia are tightly bidirectional: sleep disturbance is a core symptom and often the first sign, and persistent insomnia independently predicts and worsens depression—so treating sleep is integral to treating the mood disorder."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Depression has a neuroinflammatory arm in microglia: activated brain microglia release cytokines that lower serotonin precursors and impair neuroplasticity, linking the immune system to mood and helping explain why inflammation predicts poorer antidepressant response."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Distinguishing depression from bipolar disorder is critical: a depressive episode may be the first sign of bipolar illness, and giving an antidepressant alone can trigger mania—so screening for past hypomania guides whether mood stabilizers are needed."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Anhedonia in depression points to dopamine: beyond serotonin, blunted dopamine reward signaling underlies the loss of pleasure and motivation, which is why some antidepressants and adjuncts target dopamine to relieve symptoms that SSRIs miss."
 ---
 
 # Major Depressive Disorder
@@ -280,6 +289,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Depression is increasingly seen as a glutamatergic disorder: stress alters glutamate signaling and synaptic plasticity, and the rapid antidepressant ketamine acts on NMDA glutamate receptors—evidence that the monoamine model alone is incomplete.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Depression is linked to the gut-brain axis: the microbiome shapes neurotransmitter and inflammatory signaling reaching the brain via the vagus nerve, and dysbiosis is associated with depression—so the gut is an emerging target beyond the brain itself.
 - `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Depression and insomnia are tightly bidirectional: sleep disturbance is a core symptom and often the first sign, and persistent insomnia independently predicts and worsens depression—so treating sleep is integral to treating the mood disorder.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Depression has a neuroinflammatory arm in microglia: activated brain microglia release cytokines that lower serotonin precursors and impair neuroplasticity, linking the immune system to mood and helping explain why inflammation predicts poorer antidepressant response.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Distinguishing depression from bipolar disorder is critical: a depressive episode may be the first sign of bipolar illness, and giving an antidepressant alone can trigger mania—so screening for past hypomania guides whether mood stabilizers are needed.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Anhedonia in depression points to dopamine: beyond serotonin, blunted dopamine reward signaling underlies the loss of pleasure and motivation, which is why some antidepressants and adjuncts target dopamine to relieve symptoms that SSRIs miss.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
