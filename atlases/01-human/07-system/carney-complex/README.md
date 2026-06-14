@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Carney complex can flood the body with estrogen: its large-cell calcifying Sertoli cell tumors of the testis over-express aromatase, so boys may develop gynecomastia and accelerated growth—an unusual hormonal route to feminizing signs."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Carney complex causes ACTH-independent Cushing's: pigmented nodular adrenal disease (PPNAD) pumps out cortisol on its own, so unlike pituitary Cushing the ACTH level is suppressed—a key clue that the adrenal glands, not the pituitary, are the source."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Carney complex's cardiac myxomas are myxoid connective-tissue tumors: a loose gelatinous matrix fills these heart tumors that can embolize or obstruct blood flow, the most life-threatening feature of the syndrome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Carney complex tumors tend to calcify: its cardiac myxomas and rare bone tumors (osteochondromyxomas) lay down calcium, so unexplained calcified masses on imaging—especially in the heart—can be an early radiologic hint of the syndrome."
 ---
 
 # Carney Complex
@@ -245,6 +254,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — Carney complex marks the breast with myxoid tumors: PRKAR1A loss causes breast myxomatosis and myxoid fibroadenomas, part of the syndrome's signature myxomas that also stud the heart and skin—benign but a diagnostic clue.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Carney complex grows pituitary tumors: PRKAR1A loss drives GH- and prolactin-secreting adenomas at the brain's base, causing acromegaly or gigantism—so the syndrome's endocrine excess often traces to a tumor sitting beneath the brain.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Carney complex can flood the body with estrogen: its large-cell calcifying Sertoli cell tumors of the testis over-express aromatase, so boys may develop gynecomastia and accelerated growth—an unusual hormonal route to feminizing signs.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Carney complex causes ACTH-independent Cushing's: pigmented nodular adrenal disease (PPNAD) pumps out cortisol on its own, so unlike pituitary Cushing the ACTH level is suppressed—a key clue that the adrenal glands, not the pituitary, are the source.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Carney complex's cardiac myxomas are myxoid connective-tissue tumors: a loose gelatinous matrix fills these heart tumors that can embolize or obstruct blood flow, the most life-threatening feature of the syndrome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Carney complex tumors tend to calcify: its cardiac myxomas and rare bone tumors (osteochondromyxomas) lay down calcium, so unexplained calcified masses on imaging—especially in the heart—can be an early radiologic hint of the syndrome.
 
 ---
 

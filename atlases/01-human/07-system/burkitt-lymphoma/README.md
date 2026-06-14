@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Burkitt lymphoma's abdominal disease often centers on the spleen and viscera: this fast-growing lymphoma seeds the spleen, liver, and mesentery, so bulky intra-abdominal and splenic involvement is typical of the sporadic form."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Burkitt lymphoma is the textbook cause of tumor lysis syndrome: its explosively dividing cells burst and dump phosphate into the blood, and the resulting hyperphosphatemia binds calcium and crashes the kidneys—why hydration and rasburicase precede therapy."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "NK cells help police the EBV behind Burkitt lymphoma: natural killer cells kill virus-infected B cells before they transform, so when immune surveillance fails—in HIV or malaria-driven immune exhaustion—EBV-driven Burkitt is far more likely."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Malaria-driven Treg expansion fuels endemic Burkitt: chronic falciparum infection ramps up regulatory T cells that suppress immunity, loosening control of EBV-infected B cells and helping the MYC-translocated tumor emerge in African children."
 ---
 
 # Burkitt Lymphoma
@@ -258,6 +267,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Sporadic Burkitt lymphoma favors the abdomen: it typically presents as a fast-growing ileocecal or bowel mass causing obstruction or intussusception, so a rapidly enlarging abdominal tumor in a child is a classic Burkitt presentation.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Burkitt lymphoma is held in check by cytotoxic T cells: EBV-specific T-cell surveillance normally controls infected B cells, so when HIV or immunosuppression weakens it, EBV-driven Burkitt emerges—underpinning T-cell-based immunotherapies.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Burkitt lymphoma's abdominal disease often centers on the spleen and viscera: this fast-growing lymphoma seeds the spleen, liver, and mesentery, so bulky intra-abdominal and splenic involvement is typical of the sporadic form.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Burkitt lymphoma is the textbook cause of tumor lysis syndrome: its explosively dividing cells burst and dump phosphate into the blood, and the resulting hyperphosphatemia binds calcium and crashes the kidneys—why hydration and rasburicase precede therapy.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — NK cells help police the EBV behind Burkitt lymphoma: natural killer cells kill virus-infected B cells before they transform, so when immune surveillance fails—in HIV or malaria-driven immune exhaustion—EBV-driven Burkitt is far more likely.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Malaria-driven Treg expansion fuels endemic Burkitt: chronic falciparum infection ramps up regulatory T cells that suppress immunity, loosening control of EBV-infected B cells and helping the MYC-translocated tumor emerge in African children.
 
 ---
 
