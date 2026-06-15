@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Neuroendocrine tumors are richly vascular: they recruit endothelial cells to build a dense blood supply, giving the bright tumor 'blush' on imaging that helps find these often-small lesions."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy defines what 'neuroendocrine' means: these tumor cells are stuffed with dense-core secretory granules — membrane-bound packets of hormone — the ultrastructural signature that marks a tumor as neuroendocrine when its tissue origin is unclear."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets hoard the serotonin these tumors spill: carcinoids release serotonin that circulating platelets soak up and store, so platelet-poor measurements and urinary 5-HIAA breakdown products are used to gauge the secreting tumor's activity."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Radioiodine hunts the catecholamine-avid ones: MIBG, a noradrenaline mimic tagged with iodine-123 or iodine-131, is taken up by these tumors to image them and, in higher doses, to deliver targeted radiation therapy."
 ---
 
 # Neuroendocrine Tumors
@@ -264,6 +273,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — A VIPoma drains the body's potassium: this pancreatic neuroendocrine tumor floods the gut with VIP, causing torrential watery diarrhea that wastes potassium (the WDHA syndrome), risking dangerous hypokalemia.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Neuroendocrine tumors flush the skin: carcinoid syndrome's serotonin and vasoactive peptides cause episodic flushing, and serotonin's drain on tryptophan can starve the skin of niacin, causing pellagra.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Neuroendocrine tumors are richly vascular: they recruit endothelial cells to build a dense blood supply, giving the bright tumor 'blush' on imaging that helps find these often-small lesions.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy defines what 'neuroendocrine' means: these tumor cells are stuffed with dense-core secretory granules — membrane-bound packets of hormone — the ultrastructural signature that marks a tumor as neuroendocrine when its tissue origin is unclear.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets hoard the serotonin these tumors spill: carcinoids release serotonin that circulating platelets soak up and store, so platelet-poor measurements and urinary 5-HIAA breakdown products are used to gauge the secreting tumor's activity.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Radioiodine hunts the catecholamine-avid ones: MIBG, a noradrenaline mimic tagged with iodine-123 or iodine-131, is taken up by these tumors to image them and, in higher doses, to deliver targeted radiation therapy.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

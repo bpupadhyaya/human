@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Neuroblastoma recruits endothelial cells to grow: VEGF from the tumor drives them to build a dense blood supply, and the degree of this angiogenesis tracks with the aggressive, high-risk forms."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy proves a tumor is neuroblastic: the beam reveals dense-core neurosecretory granules and slender neuritic processes packed with microtubules — ultrastructure that confirms neural origin when an undifferentiated small-round-blue-cell tumor defies routine stains."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Neuroblastoma is the great mimic of a kidney tumor: arising in the adrenal gland atop the kidney, it pushes the organ down and outward rather than springing from it — the displacement that distinguishes it on imaging from Wilms tumor."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Many neuroblastomas grow beside the lung: the posterior mediastinum, along the paraspinal sympathetic chain, is the second commonest primary site, where a chest mass can press on the airway or erode through the spinal foramina."
 ---
 
 # Neuroblastoma
@@ -296,6 +305,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Neuroblastoma announces itself in the eyes: spread to the bones around the orbit causes the 'raccoon eye' bruising, and the paraneoplastic opsoclonus-myoclonus brings the 'dancing eyes' that can be the first clue.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Neuroblastoma eats away calcium-rich bone: it metastasizes widely to the cortical skeleton, eroding the bone and causing the pain and fractures that mark high-risk, disseminated disease.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Neuroblastoma recruits endothelial cells to grow: VEGF from the tumor drives them to build a dense blood supply, and the degree of this angiogenesis tracks with the aggressive, high-risk forms.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy proves a tumor is neuroblastic: the beam reveals dense-core neurosecretory granules and slender neuritic processes packed with microtubules — ultrastructure that confirms neural origin when an undifferentiated small-round-blue-cell tumor defies routine stains.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Neuroblastoma is the great mimic of a kidney tumor: arising in the adrenal gland atop the kidney, it pushes the organ down and outward rather than springing from it — the displacement that distinguishes it on imaging from Wilms tumor.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Many neuroblastomas grow beside the lung: the posterior mediastinum, along the paraspinal sympathetic chain, is the second commonest primary site, where a chest mass can press on the airway or erode through the spinal foramina.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
