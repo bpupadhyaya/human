@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Gut macrophages keep an uneasy peace with the microbiome: lining the bowel wall, they tolerate friendly bacteria while staying ready to attack invaders, so this restraint is central to keeping the trillions of microbes from triggering inflammation."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small intestine normally holds few microbes; when they overgrow—SIBO—the result is bloating, gas and malabsorption, a disorder of the microbiome appearing in the wrong place."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The microbiome trains the immune system: some bacteria drive Th17 helper cells while others expand regulatory T cells, so the microbes tune the balance between defense and tolerance."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Sulfate-reducing gut bacteria make hydrogen sulfide: this pungent gas, at high levels, is toxic to the colon lining and has been implicated in ulcerative colitis, a darker side of microbial metabolism."
 ---
 
 # Gut Microbiome
@@ -229,6 +238,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The gut microbiome talks to the brain: its bacteria make neurotransmitters and metabolites and signal along the vagus nerve, a gut-brain axis now linked to mood, behavior and neurodegeneration like Parkinson's.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — The gut microbiome runs on fermentation that makes gas: bacteria breaking down fiber release hydrogen and methane, the gases measured in breath tests to detect malabsorption and small-intestinal bacterial overgrowth.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Gut macrophages keep an uneasy peace with the microbiome: lining the bowel wall, they tolerate friendly bacteria while staying ready to attack invaders, so this restraint is central to keeping the trillions of microbes from triggering inflammation.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small intestine normally holds few microbes; when they overgrow—SIBO—the result is bloating, gas and malabsorption, a disorder of the microbiome appearing in the wrong place.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The microbiome trains the immune system: some bacteria drive Th17 helper cells while others expand regulatory T cells, so the microbes tune the balance between defense and tolerance.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sulfate-reducing gut bacteria make hydrogen sulfide: this pungent gas, at high levels, is toxic to the colon lining and has been implicated in ulcerative colitis, a darker side of microbial metabolism.
 
 ## Pathology
 

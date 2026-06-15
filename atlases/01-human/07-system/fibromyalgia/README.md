@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells are an emerging suspect in fibromyalgia: increased in the skin of patients, they release mediators that sensitize nerve endings, offering one explanation for the widespread tenderness and the overlap with sensitivity syndromes."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging shows fibromyalgia is real: fMRI photons reveal amplified activity in pain-processing networks to stimuli that wouldn't hurt others, objective evidence of the central sensitization behind the disorder."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "A skin biopsy can reveal fibromyalgia's nerves: many patients show small-fiber neuropathy, a reduced density of fine nerve endings in the skin that helps explain the burning, tingling quality of the pain."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BDNF helps wire fibromyalgia's amplified pain: this growth factor, raised in patients, promotes the synaptic plasticity that strengthens pain transmission, a molecular contributor to central sensitization."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -294,6 +303,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Fibromyalgia is a disease of amplified pain synapses: central sensitization strengthens transmission in the spinal cord and brain so ordinary signals are felt as pain, shifting the disorder from the muscles to the synapses that process pain.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Fibromyalgia travels with the gut: irritable bowel syndrome overlaps heavily, and a disturbed microbiome and gut-brain signaling may feed the pain and fatigue, linking the large intestine to this whole-body pain disorder.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells are an emerging suspect in fibromyalgia: increased in the skin of patients, they release mediators that sensitize nerve endings, offering one explanation for the widespread tenderness and the overlap with sensitivity syndromes.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging shows fibromyalgia is real: fMRI photons reveal amplified activity in pain-processing networks to stimuli that wouldn't hurt others, objective evidence of the central sensitization behind the disorder.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A skin biopsy can reveal fibromyalgia's nerves: many patients show small-fiber neuropathy, a reduced density of fine nerve endings in the skin that helps explain the burning, tingling quality of the pain.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BDNF helps wire fibromyalgia's amplified pain: this growth factor, raised in patients, promotes the synaptic plasticity that strengthens pain transmission, a molecular contributor to central sensitization.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
