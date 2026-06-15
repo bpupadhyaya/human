@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "CMML comes with immune dysregulation via regulatory T cells: skewed Treg balance underlies the autoimmune and inflammatory complications—vasculitis and serositis—that often accompany the leukemia."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "CMML is diagnosed down the microscope: the blood smear and marrow show the persistent monocytosis that defines it, and imaging gauges the splenomegaly and any organ infiltration."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "CMML's monocytes spill lysozyme that injures the kidney tubules, wasting potassium, so an unexplained low potassium can be a curious clue to this monocytic leukemia."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "CMML can fibrose the marrow: reticulin fibrosis worsens the cytopenias and marks a more aggressive, MPN-leaning course of this MDS/MPN overlap disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -285,6 +294,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — CMML's anemia leads to iron overload: many patients become transfusion-dependent, and each unit delivers iron the body cannot excrete, building toxic deposits over the disease's course.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — CMML burdens the heart: chronic anemia forces high-output work, transfusional iron can deposit in the muscle, and the disease's inflammation can inflame the pericardium, together straining cardiac function.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — CMML comes with immune dysregulation via regulatory T cells: skewed Treg balance underlies the autoimmune and inflammatory complications—vasculitis and serositis—that often accompany the leukemia.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — CMML is diagnosed down the microscope: the blood smear and marrow show the persistent monocytosis that defines it, and imaging gauges the splenomegaly and any organ infiltration.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CMML's monocytes spill lysozyme that injures the kidney tubules, wasting potassium, so an unexplained low potassium can be a curious clue to this monocytic leukemia.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — CMML can fibrose the marrow: reticulin fibrosis worsens the cytopenias and marks a more aggressive, MPN-leaning course of this MDS/MPN overlap disease.
 
 ---
 

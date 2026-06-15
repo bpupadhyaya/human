@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "CML's clone reaches into the macrophage lineage: because BCR-ABL arises in a myeloid stem cell, the expanded output includes monocytes and macrophages, part of the broad granulocytic overgrowth that defines the disease."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "CML's high cell turnover spills purines and phosphate: hyperuricemia causes the gout it is known for, and tumor lysis at blast crisis or on treatment releases phosphate and potassium."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "CML's huge white-cell mass clogs the eye's vessels: leukostasis causes retinal hemorrhages and engorged veins, visible on fundoscopy as a warning sign of dangerous hyperleukocytosis."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "CML can scar its marrow: reticulin and collagen fibrosis increase as the disease progresses and predict a worse response, blurring the line toward myelofibrosis."
 ---
 
 # Chronic Myeloid Leukemia
@@ -272,6 +281,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Extreme CML counts can starve tissues of oxygen: when white cells soar, the sludgy blood (leukostasis) clogs small vessels, so organs are starved of oxygen—an emergency needing urgent cytoreduction.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — CML leukostasis can strike the brain: a sky-high white-cell mass sludges cerebral vessels, causing headaches, confusion, strokes, and visual loss, the neurologic face of hyperleukocytosis.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — CML's clone reaches into the macrophage lineage: because BCR-ABL arises in a myeloid stem cell, the expanded output includes monocytes and macrophages, part of the broad granulocytic overgrowth that defines the disease.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CML's high cell turnover spills purines and phosphate: hyperuricemia causes the gout it is known for, and tumor lysis at blast crisis or on treatment releases phosphate and potassium.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — CML's huge white-cell mass clogs the eye's vessels: leukostasis causes retinal hemorrhages and engorged veins, visible on fundoscopy as a warning sign of dangerous hyperleukocytosis.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — CML can scar its marrow: reticulin and collagen fibrosis increase as the disease progresses and predict a worse response, blurring the line toward myelofibrosis.
 
 ---
 
