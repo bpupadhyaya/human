@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Sickle cell deranges vascular smooth muscle: free hemoglobin scavenges nitric oxide, the relaxant these cells depend on, so vessels constrict—causing the priapism and pulmonary hypertension that mark its vasculopathy."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging guards against sickle cell's silent damage: MRI catches the brain's silent infarcts, and X-rays reveal the bone infarcts and acute chest syndrome that mark vaso-occlusive crises."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Sickle cell ulcerates the skin: chronic leg ulcers around the ankles, from poor blood flow and sickling in small vessels, are a painful, slow-healing hallmark in adults."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Repeated sickling scars the organs: chronic microvascular ischemia drives fibrosis in the spleen (autosplenectomy), kidney and liver, the cumulative end-organ damage of the disease."
 ---
 
 # Sickle Cell Disease
@@ -322,6 +331,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Acid speeds the sickling in sickle cell: a drop in blood pH (from exercise, infection, or dehydration) lowers hemoglobin's oxygen affinity and pushes HbS to polymerize, so acidosis helps tip a vaso-occlusive crisis.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Sickle cell strains the heart two ways: lifelong anemia forces high-output work that enlarges it, and the iron from repeated transfusions deposits in the muscle, together driving heart failure over time.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Sickle cell deranges vascular smooth muscle: free hemoglobin scavenges nitric oxide, the relaxant these cells depend on, so vessels constrict—causing the priapism and pulmonary hypertension that mark its vasculopathy.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging guards against sickle cell's silent damage: MRI catches the brain's silent infarcts, and X-rays reveal the bone infarcts and acute chest syndrome that mark vaso-occlusive crises.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Sickle cell ulcerates the skin: chronic leg ulcers around the ankles, from poor blood flow and sickling in small vessels, are a painful, slow-healing hallmark in adults.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Repeated sickling scars the organs: chronic microvascular ischemia drives fibrosis in the spleen (autosplenectomy), kidney and liver, the cumulative end-organ damage of the disease.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

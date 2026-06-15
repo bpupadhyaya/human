@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Sepsis later cripples its own helper T cells: widespread apoptosis wipes out CD4 T-helper cells, leaving an immunoparalysis that makes survivors prey to secondary infections in the days and weeks after."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Finding sepsis's source needs imaging: CT and X-ray photons hunt the abscess, pneumonia or perforation driving the infection, since draining the source is as vital as the antibiotics."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Sepsis drives the bone marrow hard: it ramps up neutrophil production—the 'left shift' of immature bands in the blood—and, in severe disease, becomes suppressed, deepening the cytopenias of overwhelming infection."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Sepsis can wreck the adrenal glands: fulminant meningococcal sepsis bleeds into them (Waterhouse-Friderichsen) to cause acute adrenal failure, and critical-illness adrenal insufficiency complicates shock."
 ---
 
 # Sepsis
@@ -269,6 +278,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Sepsis clouds the brain early: inflammation, poor perfusion, and toxins cause sepsis-associated encephalopathy, so confusion and delirium are often the first and most sensitive sign that an infection has turned to sepsis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Septic shock turns the blood acidic: starved cells switch to anaerobic metabolism and pour out lactic acid, so rising hydrogen ions (and lactate) mark the metabolic acidosis that signals worsening shock.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Sepsis later cripples its own helper T cells: widespread apoptosis wipes out CD4 T-helper cells, leaving an immunoparalysis that makes survivors prey to secondary infections in the days and weeks after.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Finding sepsis's source needs imaging: CT and X-ray photons hunt the abscess, pneumonia or perforation driving the infection, since draining the source is as vital as the antibiotics.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Sepsis drives the bone marrow hard: it ramps up neutrophil production—the 'left shift' of immature bands in the blood—and, in severe disease, becomes suppressed, deepening the cytopenias of overwhelming infection.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Sepsis can wreck the adrenal glands: fulminant meningococcal sepsis bleeds into them (Waterhouse-Friderichsen) to cause acute adrenal failure, and critical-illness adrenal insufficiency complicates shock.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
