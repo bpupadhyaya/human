@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Failing lungs strain the kidney: chronic low oxygen and high carbon dioxide, plus the back-pressure of cor pulmonale, impair renal blood flow, so fluid retention and kidney dysfunction track with advanced COPD."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Chronic low oxygen thickens the blood: COPD's persistent hypoxia drives erythropoietin and a secondary polycythemia, raising the red-cell mass and viscosity — though systemic inflammation can also leave some patients anemic instead."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "COPD wastes the muscles it depends on: systemic inflammation, inactivity, and steroids drive a peripheral muscle dysfunction and cachexia that limit exercise and predict mortality, which pulmonary rehabilitation works to reverse."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "One inherited defect links lung and liver: alpha-1 antitrypsin deficiency leaves the lung's elastin unprotected (early emphysema) while the misfolded protein jams up hepatocytes, causing cirrhosis — COPD and liver disease from a single gene."
 ---
 
 # COPD
@@ -334,6 +343,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows emphysema's ruin up close: the delicate alveolar walls dissolve as enzymes outpace their inhibitors, merging the fine air sacs into floppy enlarged spaces that collapse on exhaling and trap stale air.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — COPD shows on the surface: deoxygenated blood turns the lips and nails blue with cyanosis, fingertips club from chronic hypoxia, and the ruddy plethora of secondary polycythemia colors the 'blue bloater' face.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Failing lungs strain the kidney: chronic low oxygen and high carbon dioxide, plus the back-pressure of cor pulmonale, impair renal blood flow, so fluid retention and kidney dysfunction track with advanced COPD.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Chronic low oxygen thickens the blood: COPD's persistent hypoxia drives erythropoietin and a secondary polycythemia, raising the red-cell mass and viscosity — though systemic inflammation can also leave some patients anemic instead.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — COPD wastes the muscles it depends on: systemic inflammation, inactivity, and steroids drive a peripheral muscle dysfunction and cachexia that limit exercise and predict mortality, which pulmonary rehabilitation works to reverse.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — One inherited defect links lung and liver: alpha-1 antitrypsin deficiency leaves the lung's elastin unprotected (early emphysema) while the misfolded protein jams up hepatocytes, causing cirrhosis — COPD and liver disease from a single gene.
 
 ---
 

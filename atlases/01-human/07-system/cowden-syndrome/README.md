@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Cowden's facial papules ring the eyes: the wart-like trichilemmomas cluster around the eyelids and mouth, a characteristic mucocutaneous sign that prompts genetic testing for the underlying PTEN mutation."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "PTEN overgrowth shows in the frame: macrocephaly is a near-constant feature, and the syndrome spawns lipomas and, in its Bannayan-Riley-Ruvalcaba overlap, skeletal and soft-tissue overgrowth from the unleashed mTOR pathway."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Hamartomatous polyps stud the whole gut: beyond the colon and stomach, Cowden seeds the small intestine with polyps of mixed type, part of the diffuse PTEN-driven overgrowth lining the digestive tract."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Cowden leans toward thyroid autoimmunity: alongside its thyroid cancers and goiter, it carries an excess of Hashimoto thyroiditis, so anti-thyroid antibodies often accompany the structural thyroid disease."
 ---
 
 # Cowden Syndrome
@@ -363,6 +372,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals Cowden's hamartomas: the trichilemmomas studding the face arise from hair-follicle outer-root-sheath cells, while in the brain dysplastic ganglion cells swell the cerebellum into Lhermitte-Duclos disease.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Cowden polyps fill the upper gut too: hamartomatous and hyperplastic polyps line the stomach as well as the colon, part of the diffuse gastrointestinal polyposis that defines the PTEN syndrome.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Cowden's facial papules ring the eyes: the wart-like trichilemmomas cluster around the eyelids and mouth, a characteristic mucocutaneous sign that prompts genetic testing for the underlying PTEN mutation.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — PTEN overgrowth shows in the frame: macrocephaly is a near-constant feature, and the syndrome spawns lipomas and, in its Bannayan-Riley-Ruvalcaba overlap, skeletal and soft-tissue overgrowth from the unleashed mTOR pathway.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Hamartomatous polyps stud the whole gut: beyond the colon and stomach, Cowden seeds the small intestine with polyps of mixed type, part of the diffuse PTEN-driven overgrowth lining the digestive tract.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Cowden leans toward thyroid autoimmunity: alongside its thyroid cancers and goiter, it carries an excess of Hashimoto thyroiditis, so anti-thyroid antibodies often accompany the structural thyroid disease.
 
 ---
 
