@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "The oncocytoma spectrum can include the adrenal: BHD's FLCN loss predisposes to oncocytic tumors not just in the kidney but occasionally in the adrenal gland, extending its endocrine reach."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "BHD's lung cysts form where the wall gives way: FLCN loss weakens cell-cell adhesion in the alveolar and small-airway walls, so under the mechanical stretch of breathing the tissue tears into basal, subpleural cysts that rupture as pneumothorax."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "FLCN keeps cells stuck together: the protein helps maintain the adherens junctions linking epithelial and endothelial cells, and its loss loosens these contacts — a shared thread behind the syndrome's lung cysts and hypervascular kidney tumors."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The polyps are not confined to the colon: beyond its debated colorectal risk, BHD can stud the stomach and upper GI tract with polyps, part of the FLCN-driven overgrowth that surfaces across many epithelia."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -324,6 +333,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy explains BHD's oncocytic tumors: losing FLCN unleashes mitochondrial biogenesis, so the kidney and other tumors fill with cells crammed with abnormal mitochondria — the granular oncocytes that define the syndrome's pathology.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — BHD's skin papules climb to the eyelids: the fibrofolliculomas that dot the face and neck extend onto and around the eyelids, small flesh-colored bumps that are a visible clue to the underlying FLCN mutation.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The oncocytoma spectrum can include the adrenal: BHD's FLCN loss predisposes to oncocytic tumors not just in the kidney but occasionally in the adrenal gland, extending its endocrine reach.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — BHD's lung cysts form where the wall gives way: FLCN loss weakens cell-cell adhesion in the alveolar and small-airway walls, so under the mechanical stretch of breathing the tissue tears into basal, subpleural cysts that rupture as pneumothorax.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — FLCN keeps cells stuck together: the protein helps maintain the adherens junctions linking epithelial and endothelial cells, and its loss loosens these contacts — a shared thread behind the syndrome's lung cysts and hypervascular kidney tumors.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The polyps are not confined to the colon: beyond its debated colorectal risk, BHD can stud the stomach and upper GI tract with polyps, part of the FLCN-driven overgrowth that surfaces across many epithelia.
 
 ---
 

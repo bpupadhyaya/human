@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Neglected basal cell carcinoma gnaws into bone: the 'rodent ulcer' is locally destructive, eroding through cartilage and into the underlying bone of the face and skull if left untreated for years."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Aggressive basal cell carcinoma creeps along nerves: perineural invasion lets it track centrally beyond the visible tumor, causing numbness or tingling and a higher risk of recurrence that pushes toward wider excision or radiation."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The hedgehog-blocking drugs ache in the muscles: vismodegib and sonidegib, used for advanced BCC, commonly cause muscle spasms and cramps along with hair loss and taste change — side effects that limit how long patients tolerate them."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Immunotherapy now reaches advanced BCC: the anti-PD-1 antibody cemiplimab can shrink locally advanced or metastatic tumors that have progressed on or cannot tolerate hedgehog inhibitors, a second line for the rare aggressive cases."
 ---
 
 # Basal Cell Carcinoma
@@ -305,6 +314,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy fingerprints basal cell carcinoma: nests of basaloid cells line up in a palisade at their edge, joined by desmosomes and filled with tonofilaments, the ultrastructure of a tumor that mimics the skin's basal layer.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — On the rare occasion basal cell carcinoma metastasizes, it heads for the lung: although it almost always stays local, the exceptional spreading case seeds the lungs and bones, a vanishingly rare but documented event.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Neglected basal cell carcinoma gnaws into bone: the 'rodent ulcer' is locally destructive, eroding through cartilage and into the underlying bone of the face and skull if left untreated for years.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Aggressive basal cell carcinoma creeps along nerves: perineural invasion lets it track centrally beyond the visible tumor, causing numbness or tingling and a higher risk of recurrence that pushes toward wider excision or radiation.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The hedgehog-blocking drugs ache in the muscles: vismodegib and sonidegib, used for advanced BCC, commonly cause muscle spasms and cramps along with hair loss and taste change — side effects that limit how long patients tolerate them.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy now reaches advanced BCC: the anti-PD-1 antibody cemiplimab can shrink locally advanced or metastatic tumors that have progressed on or cannot tolerate hedgehog inhibitors, a second line for the rare aggressive cases.
 
 ---
 
