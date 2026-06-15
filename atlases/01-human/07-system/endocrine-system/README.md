@@ -140,6 +140,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Hormones tune phosphate as well as calcium: parathyroid hormone, vitamin D, and bone-derived FGF23 form a feedback loop that balances phosphorus, the endocrine control of the mineral that builds bone and powers ATP."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The endocrine glands are favorite autoimmune targets: antibodies against the thyroid (Hashimoto, Graves), pancreatic islets (type 1 diabetes), and adrenal cortex (Addison) cause much endocrine disease, sometimes clustering as autoimmune polyglandular syndromes."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is an endocrine organ in its own right: it makes IGF-1 under growth hormone's command, angiotensinogen, hepcidin, and thrombopoietin, and it clears and activates hormones — a hub of the body's chemical signaling."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Endocrine disease declares itself in the eye: Graves disease pushes the eyes forward into orbitopathy, and a pituitary tumor pressing the optic chiasm carves out the classic bitemporal loss of peripheral vision."
 ---
 
 # Endocrine System

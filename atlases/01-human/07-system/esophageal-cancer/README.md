@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The colon can rebuild a lost esophagus: when surgery removes the cancerous esophagus, a segment of large intestine is sometimes transposed into the chest as a conduit to restore the path from mouth to stomach."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The cancer and its cure both strike nerves: a tumor near the upper esophagus invades the recurrent laryngeal nerve into hoarseness, while the cisplatin of chemoradiation injures peripheral sensory neurons."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies now target esophageal cancer: trastuzumab against HER2 in adenocarcinomas, and the checkpoint antibodies pembrolizumab and nivolumab, add immunotherapy to the chemoradiation backbone."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Esophageal cancer bleeds and starves: chronic oozing from the tumor and the dysphagia that blocks eating leave patients iron-deficient and anemic, the low red cells compounding the weight loss it causes."
 ---
 
 # Esophageal Cancer
@@ -321,6 +330,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy separates the two esophageal cancers: squamous cell carcinoma keeps desmosomes and keratin bundles, while adenocarcinoma arising from Barrett's metaplasia forms mucin-filled glands with microvilli.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Esophageal cancer reaches the skeleton late: after seeding the liver and lungs, advanced disease metastasizes to the marrow-bearing bones, painful deposits that mark its widespread, incurable stage.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The colon can rebuild a lost esophagus: when surgery removes the cancerous esophagus, a segment of large intestine is sometimes transposed into the chest as a conduit to restore the path from mouth to stomach.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The cancer and its cure both strike nerves: a tumor near the upper esophagus invades the recurrent laryngeal nerve into hoarseness, while the cisplatin of chemoradiation injures peripheral sensory neurons.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies now target esophageal cancer: trastuzumab against HER2 in adenocarcinomas, and the checkpoint antibodies pembrolizumab and nivolumab, add immunotherapy to the chemoradiation backbone.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Esophageal cancer bleeds and starves: chronic oozing from the tumor and the dysphagia that blocks eating leave patients iron-deficient and anemic, the low red cells compounding the weight loss it causes.
 
 ---
 
