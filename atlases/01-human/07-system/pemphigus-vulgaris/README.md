@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The real danger in pemphigus is infection: deep immunosuppression with steroids and rituximab opens the door to pneumonia and opportunistic lung infections, which — not the blisters themselves — are the leading cause of death."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Pemphigus is a pure autoantibody disease: IgG against desmoglein-3 unglues keratinocytes directly, direct immunofluorescence shows the 'chicken-wire' intercellular IgG, and the antibody titer tracks activity — which is why removing the B cells that make it cures it."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Denuded skin is an open wound: the raw erosions of pemphigus are readily colonized and invaded by Staphylococcus aureus, the impetiginization and skin sepsis adding to the fluid loss that, before steroids, made the disease so often fatal."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pemphigus is a mucosal disease, and mucosa includes the genitals: painful vulvar, vaginal, and penile erosions cause dyspareunia and scarring, the genital involvement that is easily missed unless the skin disease prompts a careful look."
 ---
 
 # Pemphigus Vulgaris
@@ -335,6 +344,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The blister's depth tells the disease apart: pemphigus splits keratinocytes from each other high in the epidermis (acantholysis), sparing the collagen-anchored basement membrane that bullous pemphigoid attacks below — a level that decides the diagnosis.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Controlling pemphigus weakens the bones: the long courses of high-dose corticosteroids that suppress the autoantibodies drive glucocorticoid-induced osteoporosis, so patients need bone protection alongside their immunosuppression.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The real danger in pemphigus is infection: deep immunosuppression with steroids and rituximab opens the door to pneumonia and opportunistic lung infections, which — not the blisters themselves — are the leading cause of death.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Pemphigus is a pure autoantibody disease: IgG against desmoglein-3 unglues keratinocytes directly, direct immunofluorescence shows the 'chicken-wire' intercellular IgG, and the antibody titer tracks activity — which is why removing the B cells that make it cures it.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Denuded skin is an open wound: the raw erosions of pemphigus are readily colonized and invaded by Staphylococcus aureus, the impetiginization and skin sepsis adding to the fluid loss that, before steroids, made the disease so often fatal.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pemphigus is a mucosal disease, and mucosa includes the genitals: painful vulvar, vaginal, and penile erosions cause dyspareunia and scarring, the genital involvement that is easily missed unless the skin disease prompts a careful look.
 
 ---
 

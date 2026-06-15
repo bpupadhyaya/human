@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/07-system/endometrial-cancer
     relation: connects-to
     note: "Peutz-Jeghers reaches into the gynecologic tract: beyond its signature cervical and ovarian sex-cord tumors, the syndrome raises the lifetime risk of endometrial cancer, adding the uterus to its wide field of cancer surveillance."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains confirm the hallmark polyp: desmin and smooth-muscle-actin staining reveal the arborizing tree of smooth muscle that defines a Peutz-Jeghers hamartoma, separating it from the adenomas of other polyposis syndromes."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid joins the long cancer list: differentiated (papillary) thyroid carcinoma appears within the Peutz-Jeghers tumor spectrum, one more organ folded into the lifelong, head-to-pelvis surveillance the syndrome demands."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Chronic ooze from the polyps shows in the blood: the slow intestinal bleeding that drains iron also drives a reactive thrombocytosis, the platelet count climbing as the marrow responds to ongoing loss."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -307,6 +316,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Peutz-Jeghers often shows up as anemia: the hamartomatous polyps bleed slowly into the gut, draining red cells and iron until a child turns up pale and microcytic — sometimes the first clue that leads to the diagnosis.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The telltale freckling is melanin under the microscope: the dark macules on lips and buccal mucosa come from melanin packed into basal keratinocytes, pigment granules that electron microscopy resolves within the epidermis.
 - `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Peutz-Jeghers reaches into the gynecologic tract: beyond its signature cervical and ovarian sex-cord tumors, the syndrome raises the lifetime risk of endometrial cancer, adding the uterus to its wide field of cancer surveillance.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains confirm the hallmark polyp: desmin and smooth-muscle-actin staining reveal the arborizing tree of smooth muscle that defines a Peutz-Jeghers hamartoma, separating it from the adenomas of other polyposis syndromes.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid joins the long cancer list: differentiated (papillary) thyroid carcinoma appears within the Peutz-Jeghers tumor spectrum, one more organ folded into the lifelong, head-to-pelvis surveillance the syndrome demands.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Chronic ooze from the polyps shows in the blood: the slow intestinal bleeding that drains iron also drives a reactive thrombocytosis, the platelet count climbing as the marrow responds to ongoing loss.
 
 ---
 
