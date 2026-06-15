@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Advanced disease shows in the red cells: extensive hepatic metastatic burden and its treatment depress erythrocyte production into an anemia, while rising liver enzymes and falling counts together signal progression."
+  - target: 01-human/01-subatomic/proton
+    relation: connects-to
+    note: "Protons spare the eye: proton-beam radiotherapy and plaque brachytherapy deliver a sharp, contained dose to the ocular tumor while sparing the optic nerve and retina, letting many patients keep the eye instead of losing it to enucleation."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Uveal melanoma can run in families: germline BAP1 mutations transmit a tumor-predisposition syndrome — uveal melanoma with mesothelioma, kidney and skin cancers — so a diagnosis can prompt genetic testing and counseling of relatives."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "Hypoxia shapes its spread to the liver: HIF signaling and the angiogenesis it drives help uveal melanoma colonize the liver, its near-exclusive metastatic site, a hypoxic-niche dependence studied as a therapeutic angle."
 ---
 
 # Uveal Melanoma
@@ -332,6 +341,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody-like therapy finally moved the needle: tebentafusp, a bispecific gp100-CD3 engager, is the first agent to extend survival in metastatic uveal melanoma, while HMB-45 and Melan-A stains and loss of BAP1 confirm the tumor and predict spread.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Uveal melanoma is uniquely liver-hungry: over 90% of metastases home to the liver, the tumor cells seeding among the hepatocytes, which is why surveillance and liver-directed therapy dominate management of advanced disease.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Advanced disease shows in the red cells: extensive hepatic metastatic burden and its treatment depress erythrocyte production into an anemia, while rising liver enzymes and falling counts together signal progression.
+- `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Protons spare the eye: proton-beam radiotherapy and plaque brachytherapy deliver a sharp, contained dose to the ocular tumor while sparing the optic nerve and retina, letting many patients keep the eye instead of losing it to enucleation.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Uveal melanoma can run in families: germline BAP1 mutations transmit a tumor-predisposition syndrome — uveal melanoma with mesothelioma, kidney and skin cancers — so a diagnosis can prompt genetic testing and counseling of relatives.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — Hypoxia shapes its spread to the liver: HIF signaling and the angiogenesis it drives help uveal melanoma colonize the liver, its near-exclusive metastatic site, a hypoxic-niche dependence studied as a therapeutic angle.
 
 ---
 

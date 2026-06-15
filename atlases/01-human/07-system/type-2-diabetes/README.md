@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/wound-healing
     relation: connects-to
     note: "Diabetes cripples repair: poor circulation, neuropathy, and high glucose stalling immune cells turn minor foot injuries into chronic non-healing ulcers, the leading path to the amputations that shadow the disease."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Diabetes and fatty liver feed each other: insulin resistance drives fat into the liver, and the resulting NASH worsens glucose control while progressing toward cirrhosis — a metabolic pairing that GLP-1 and related drugs now target together."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "High sugar shears the kidney's filter cells: chronic hyperglycemia and glomerular hyperfiltration injure the podocytes, and as these hard-to-replace cells detach, albumin leaks into the urine — the first sign of diabetic kidney disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Diabetes reaches reproductive health: vascular and nerve damage cause erectile dysfunction in men, insulin resistance underlies the PCOS often preceding it in women, and poorly controlled glucose in pregnancy harms the fetus."
 ---
 
 # Type 2 Diabetes
@@ -306,6 +315,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Sugar slowly poisons the nerves: chronic hyperglycemia injures the longest neurons first, dying back from the toes in the stocking-glove numbness, burning pain, and lost sensation of diabetic peripheral neuropathy.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — What's absent helps define it: type 2 diabetes is not autoimmune, so the islet autoantibodies of type 1 are missing, and finding GAD antibodies in an adult labeled type 2 instead reveals latent autoimmune diabetes (LADA).
 - `connects-to` → **[Wound Healing](../wound-healing/README.md)** — Diabetes cripples repair: poor circulation, neuropathy, and high glucose stalling immune cells turn minor foot injuries into chronic non-healing ulcers, the leading path to the amputations that shadow the disease.
+- `connects-to` → **[NASH](../nash/README.md)** — Diabetes and fatty liver feed each other: insulin resistance drives fat into the liver, and the resulting NASH worsens glucose control while progressing toward cirrhosis — a metabolic pairing that GLP-1 and related drugs now target together.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — High sugar shears the kidney's filter cells: chronic hyperglycemia and glomerular hyperfiltration injure the podocytes, and as these hard-to-replace cells detach, albumin leaks into the urine — the first sign of diabetic kidney disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Diabetes reaches reproductive health: vascular and nerve damage cause erectile dysfunction in men, insulin resistance underlies the PCOS often preceding it in women, and poorly controlled glucose in pregnancy harms the fetus.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
