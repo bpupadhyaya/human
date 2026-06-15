@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Tainted cocaine can wipe out the neutrophils: levamisole, a common adulterant, causes a severe agranulocytosis and a retiform purpura vasculitis, so an unexplained crashing neutrophil count points to contaminated supply."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Stimulants clamp the arteries shut: by flooding vascular smooth muscle with catecholamines they cause intense vasospasm, the mechanism behind cocaine's heart attacks, strokes, gut ischemia, and the necrosis of the nasal septum."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "They counterfeit the body's own alarm: cocaine and amphetamines flood synapses and the circulation with catecholamines, producing the racing heart, hypertension, dilated pupils, and hyperthermia of the sympathomimetic toxidrome."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Even the pancreas can infarct: stimulant-driven vasoconstriction can cut its blood supply into ischemic pancreatitis, one of the less-known visceral injuries of the vasospasm these drugs unleash."
 ---
 
 # Stimulant Use Disorder
@@ -317,6 +326,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Stimulants shut down appetite and starve the gut: they suppress hunger into marked weight loss, while cocaine's vasoconstriction can choke the mesenteric and gastric vessels into ischemia and ulceration.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Stimulants drive risky sexuality: by spiking dopamine they fuel hypersexual, impulsive behavior that raises HIV and STI risk, while in pregnancy they constrict the placental vessels and harm the fetus.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Tainted cocaine can wipe out the neutrophils: levamisole, a common adulterant, causes a severe agranulocytosis and a retiform purpura vasculitis, so an unexplained crashing neutrophil count points to contaminated supply.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Stimulants clamp the arteries shut: by flooding vascular smooth muscle with catecholamines they cause intense vasospasm, the mechanism behind cocaine's heart attacks, strokes, gut ischemia, and the necrosis of the nasal septum.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — They counterfeit the body's own alarm: cocaine and amphetamines flood synapses and the circulation with catecholamines, producing the racing heart, hypertension, dilated pupils, and hyperthermia of the sympathomimetic toxidrome.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Even the pancreas can infarct: stimulant-driven vasoconstriction can cut its blood supply into ischemic pancreatitis, one of the less-known visceral injuries of the vasospasm these drugs unleash.
 
 ## Treatment
 

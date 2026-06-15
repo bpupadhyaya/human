@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Treatment and hormones touch intimacy: the SSRIs that treat social anxiety often dull libido and delay orgasm, while the disorder itself can make dating and sexual relationships fraught with avoidance."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system tunes social fear: it governs fear extinction and social reward, and cannabidiol (CBD), which raises endocannabinoid tone, has shown promise at easing the anxiety of public speaking."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Sociability has a microbial dimension: germ-free animals are socially abnormal and gut flora shape the circuits of social behavior and anxiety, so the microbiome-gut-brain axis is studied as a lever on social anxiety."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Anxiety and the bowel feed back: social anxiety overlaps heavily with irritable bowel syndrome, and the fear of urgent, embarrassing GI symptoms in public can itself deepen the avoidance at the disorder's core."
 ---
 
 # Social Anxiety Disorder
@@ -329,6 +338,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — The dreaded blush and sweat are cholinergic: eccrine sweat glands are driven by acetylcholine, so the visible sweating of social anxiety is a sympathetic-cholinergic response — and the fear of showing it feeds the cycle.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anticipatory dread steals sleep: social anxiety commonly brings insomnia and a disturbed circadian rhythm with altered melatonin, the lost rest sharpening the next day's self-consciousness.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment and hormones touch intimacy: the SSRIs that treat social anxiety often dull libido and delay orgasm, while the disorder itself can make dating and sexual relationships fraught with avoidance.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system tunes social fear: it governs fear extinction and social reward, and cannabidiol (CBD), which raises endocannabinoid tone, has shown promise at easing the anxiety of public speaking.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Sociability has a microbial dimension: germ-free animals are socially abnormal and gut flora shape the circuits of social behavior and anxiety, so the microbiome-gut-brain axis is studied as a lever on social anxiety.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Anxiety and the bowel feed back: social anxiety overlaps heavily with irritable bowel syndrome, and the fear of urgent, embarrassing GI symptoms in public can itself deepen the avoidance at the disorder's core.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
