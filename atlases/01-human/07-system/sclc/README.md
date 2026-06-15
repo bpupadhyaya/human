@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Small cell lung cancer floods the bone marrow: this aggressive tumor frequently metastasizes to the marrow, crowding out blood production and marking the widespread disease typical at diagnosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals SCLC's neuroendocrine soul: scattered dense-core neurosecretory granules — tiny membrane-bound packets of hormone — mark these small dark cells as neuroendocrine, the trait behind their paraneoplastic syndromes."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "SCLC can flood the body with cortisol: its ectopic ACTH drives the adrenals to overproduce cortisol, causing a rapidly evolving Cushing syndrome of weakness, swelling, and low potassium rather than the classic slow body changes."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "SCLC turns the immune system against the nerves: anti-Hu and related antibodies meant for the tumor also strike peripheral neurons, producing a paraneoplastic sensory neuronopathy that can appear before the cancer is found."
 ---
 
 # Small Cell Lung Cancer
@@ -269,6 +278,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Small cell lung cancer can drop potassium: by secreting ectopic ACTH it drives a paraneoplastic Cushing's whose cortisol excess makes the kidneys waste potassium into hypokalemia.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Small cell lung cancer can blind through the eye: cancer-associated retinopathy, a paraneoplastic autoimmune attack on the retina, causes progressive vision loss that can precede the tumor's discovery.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Small cell lung cancer floods the bone marrow: this aggressive tumor frequently metastasizes to the marrow, crowding out blood production and marking the widespread disease typical at diagnosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals SCLC's neuroendocrine soul: scattered dense-core neurosecretory granules — tiny membrane-bound packets of hormone — mark these small dark cells as neuroendocrine, the trait behind their paraneoplastic syndromes.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — SCLC can flood the body with cortisol: its ectopic ACTH drives the adrenals to overproduce cortisol, causing a rapidly evolving Cushing syndrome of weakness, swelling, and low potassium rather than the classic slow body changes.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — SCLC turns the immune system against the nerves: anti-Hu and related antibodies meant for the tumor also strike peripheral neurons, producing a paraneoplastic sensory neuronopathy that can appear before the cancer is found.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)

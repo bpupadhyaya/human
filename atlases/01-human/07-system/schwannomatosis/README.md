@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "Schwannomatosis pain becomes wired into synapses: relentless nerve-tumor input sensitizes spinal dorsal-horn synapses, so central sensitization sustains the pain even beyond what the tumors alone explain."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy confirms the tumors are schwannomas: their cells wrap in continuous basal lamina and stack long-spacing collagen as Luse bodies, the same ultrastructure of nerve-sheath origin found across the schwannoma family."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Substance P carries schwannomatosis's defining misery: the tumors irritate sensory nerves into releasing this pain neuropeptide, driving the chronic, often disabling pain that — more than tumor growth — dominates the disorder."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium currents amplify the pain: tumor-irritated sensory neurons open voltage-gated calcium channels to fire and release their neuropeptides, so calcium-channel blockers are among the drugs tried against schwannomatosis pain."
 ---
 
 # Schwannomatosis
@@ -261,6 +270,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Schwannomatosis pain is electrical, carried by sodium: schwannoma-damaged nerves cluster sodium channels that fire spontaneously, generating the relentless, hard-to-treat pain that defines the syndrome.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Schwannomas are built on thick-walled vessels: their endothelial cells form the hyalinized, dilated blood vessels that, with Antoni A and B areas, are a histologic hallmark of the tumors.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Schwannomatosis pain becomes wired into synapses: relentless nerve-tumor input sensitizes spinal dorsal-horn synapses, so central sensitization sustains the pain even beyond what the tumors alone explain.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms the tumors are schwannomas: their cells wrap in continuous basal lamina and stack long-spacing collagen as Luse bodies, the same ultrastructure of nerve-sheath origin found across the schwannoma family.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P carries schwannomatosis's defining misery: the tumors irritate sensory nerves into releasing this pain neuropeptide, driving the chronic, often disabling pain that — more than tumor growth — dominates the disorder.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium currents amplify the pain: tumor-irritated sensory neurons open voltage-gated calcium channels to fire and release their neuropeptides, so calcium-channel blockers are among the drugs tried against schwannomatosis pain.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)
