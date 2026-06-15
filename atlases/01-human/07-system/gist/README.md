@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Pulmonary spread is the exception in GIST: unlike most sarcomas it spares the lungs early, favoring liver and peritoneum, so lung metastases appear only in late, widely disseminated disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody stain clinches GIST: nearly all express KIT (CD117) and the more specific DOG1, immunostains that distinguish the tumor from the leiomyomas and schwannomas it can resemble in the gut wall."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The later-line drugs strain the heart: when imatinib fails, sunitinib and regorafenib drive hypertension and can impair cardiac function, a vascular toll monitored through the years of targeted therapy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Indefinite TKI therapy collides with fertility: imatinib is teratogenic and taken for years, so contraception and pregnancy planning are necessary parts of managing GIST in younger patients."
 ---
 
 # GIST
@@ -314,6 +323,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy ties GIST to the gut's pacemaker: its spindle cells resemble the interstitial cells of Cajal, with bundled cytoplasmic filaments and, in some, tangled skeinoid fibers of extracellular collagen.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — GIST rarely reaches bone: it almost always spreads to the liver and across the peritoneum, but in advanced, drug-resistant disease it can seed skeletal and marrow metastases, an unusual late event.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary spread is the exception in GIST: unlike most sarcomas it spares the lungs early, favoring liver and peritoneum, so lung metastases appear only in late, widely disseminated disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody stain clinches GIST: nearly all express KIT (CD117) and the more specific DOG1, immunostains that distinguish the tumor from the leiomyomas and schwannomas it can resemble in the gut wall.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The later-line drugs strain the heart: when imatinib fails, sunitinib and regorafenib drive hypertension and can impair cardiac function, a vascular toll monitored through the years of targeted therapy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Indefinite TKI therapy collides with fertility: imatinib is teratogenic and taken for years, so contraception and pregnancy planning are necessary parts of managing GIST in younger patients.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

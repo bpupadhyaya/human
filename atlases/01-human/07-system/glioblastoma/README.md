@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Glioblastoma steals vision as it grows: invading the optic pathways and raising pressure in the skull, it cuts out fields of sight and swells the optic disc, neurological signs that often bring the patient in."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An anti-angiogenic antibody fights its blood supply: bevacizumab, targeting VEGF, is used in recurrent glioblastoma to starve the tumor's vessels and shrink the edema, easing symptoms though not curing the disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Temozolomide quietly empties the marrow: the alkylating chemotherapy paired with radiation suppresses neutrophils and lymphocytes, so blood counts are monitored and PJP prophylaxis given against the resulting infection risk."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "High-dose steroids tame the brain swelling at a cost: dexamethasone shrinks glioblastoma's peritumoral edema but suppresses the adrenal glands and raises blood sugar, so it is tapered as carefully as it is started."
 ---
 
 # Glioblastoma
@@ -313,6 +322,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows glioblastoma's defining features: tumor cells crowding in palisades around ribbons of necrosis, and the bizarre glomeruloid tufts of microvascular proliferation, hallmarks that separate it from lower-grade gliomas.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Glioblastoma almost never leaves the brain, but rarely it does: extracranial metastases to the lung, bone, and lymph nodes — sometimes seeded by surgery or a shunt — are a rare curiosity of an otherwise CNS-confined cancer.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Glioblastoma steals vision as it grows: invading the optic pathways and raising pressure in the skull, it cuts out fields of sight and swells the optic disc, neurological signs that often bring the patient in.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An anti-angiogenic antibody fights its blood supply: bevacizumab, targeting VEGF, is used in recurrent glioblastoma to starve the tumor's vessels and shrink the edema, easing symptoms though not curing the disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Temozolomide quietly empties the marrow: the alkylating chemotherapy paired with radiation suppresses neutrophils and lymphocytes, so blood counts are monitored and PJP prophylaxis given against the resulting infection risk.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — High-dose steroids tame the brain swelling at a cost: dexamethasone shrinks glioblastoma's peritumoral edema but suppresses the adrenal glands and raises blood sugar, so it is tapered as carefully as it is started.
 
 ---
 
