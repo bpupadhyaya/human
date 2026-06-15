@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The gut and kidney trade toxins: microbes turn dietary compounds into indoxyl sulfate, p-cresyl sulfate, and TMAO that the kidney must clear, so in kidney failure these gut-derived toxins build up and worsen cardiovascular damage."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The microbiome talks to the brain: along the gut-brain axis it signals through the vagus nerve, microbial metabolites, and immune messengers, shaping mood, stress responses, and behavior — the basis of its links to depression and Parkinson's."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Fiber is the microbiome's fuel: colonic bacteria ferment indigestible dietary fiber into short-chain fatty acids like butyrate that feed the gut lining, calm inflammation, and reward a fiber-rich diet with a healthier microbial community."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D and the gut flora shape each other: vitamin D and its receptor in the gut tune the microbial community and barrier, while the microbiome in turn influences vitamin D metabolism — a two-way tie linking sunlight, diet, and gut health."
 ---
 
 # Gut Microbiome
@@ -253,6 +262,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Oxygen's near-absence defines the gut's microbial world: the colon is anaerobic, and cells lining it burn oxygen to keep it that way, favoring the beneficial anaerobes — when oxygen leaks in, harmful facultative bacteria bloom in dysbiosis.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the microbial city up close: it shows bacterial flagella and pili, the dense biofilms clinging to the gut wall, and the protective mucus layer separating the microbes from the cells beneath.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The gut and kidney trade toxins: microbes turn dietary compounds into indoxyl sulfate, p-cresyl sulfate, and TMAO that the kidney must clear, so in kidney failure these gut-derived toxins build up and worsen cardiovascular damage.
+- `connects-to` → **[Nervous System](../nervous-system/README.md)** — The microbiome talks to the brain: along the gut-brain axis it signals through the vagus nerve, microbial metabolites, and immune messengers, shaping mood, stress responses, and behavior — the basis of its links to depression and Parkinson's.
+- `connects-to` → **[Dietary Fiber and Butyrate](../../../03-medicine/03-food/dietary-fiber/README.md)** — Fiber is the microbiome's fuel: colonic bacteria ferment indigestible dietary fiber into short-chain fatty acids like butyrate that feed the gut lining, calm inflammation, and reward a fiber-rich diet with a healthier microbial community.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and the gut flora shape each other: vitamin D and its receptor in the gut tune the microbial community and barrier, while the microbiome in turn influences vitamin D metabolism — a two-way tie linking sunlight, diet, and gut health.
 
 ## Pathology
 
