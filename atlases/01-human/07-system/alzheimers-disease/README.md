@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "The thyroid hides a reversible mimic: hypothyroidism causes a slowed, forgetful state that imitates dementia, so thyroid function is checked in every cognitive workup to catch a treatable cause before settling on Alzheimer's."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Sleep is when the brain washes out amyloid: deep sleep drives the glymphatic clearance of amyloid-beta, so chronic insomnia lets it accumulate — and the disease in turn wrecks sleep, a vicious loop that may start years before memory fails."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "A gut-brain axis feeds the plaques: dysbiosis and bacterial products (LPS, microbial amyloids) can prime systemic and brain inflammation, and altered microbiomes are now linked to amyloid burden and cognitive decline in Alzheimer's."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation accelerates the decline: IL-6 from activated microglia and the body's chronic low-grade inflammation correlates with faster cognitive loss, part of the neuroinflammatory arm now seen as a driver, not just a bystander, in Alzheimer's."
 ---
 
 # Alzheimer's Disease
@@ -310,6 +319,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — The brain has lymphatics, and they fail in Alzheimer's: meningeal lymphatics and the glymphatic flow drain amyloid from the brain, and their decline with age and disease lets the plaque-forming peptide build up unchecked.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Cholesterol handling shapes the risk: the APOE4 lipid-transport variant is the strongest common genetic risk factor, and disturbed brain cholesterol metabolism influences how amyloid is made and cleared.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid hides a reversible mimic: hypothyroidism causes a slowed, forgetful state that imitates dementia, so thyroid function is checked in every cognitive workup to catch a treatable cause before settling on Alzheimer's.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Sleep is when the brain washes out amyloid: deep sleep drives the glymphatic clearance of amyloid-beta, so chronic insomnia lets it accumulate — and the disease in turn wrecks sleep, a vicious loop that may start years before memory fails.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — A gut-brain axis feeds the plaques: dysbiosis and bacterial products (LPS, microbial amyloids) can prime systemic and brain inflammation, and altered microbiomes are now linked to amyloid burden and cognitive decline in Alzheimer's.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation accelerates the decline: IL-6 from activated microglia and the body's chronic low-grade inflammation correlates with faster cognitive loss, part of the neuroinflammatory arm now seen as a driver, not just a bystander, in Alzheimer's.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
