@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Losing the stomach can later harm the nerves: without it, B12 absorption fails, so unless replaced, the deficiency can damage peripheral and spinal cord neurons into a subacute combined degeneration."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "After the stomach is removed, the gut is rebuilt: prophylactic total gastrectomy, done young in CDH1 carriers, joins the esophagus to a loop of jejunum, so the small intestine becomes the new reservoir and the site of the lifelong malabsorption that follows."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Life without a stomach burns off fat: total gastrectomy leaves carriers eating small, frequent meals with poor fat absorption, so significant weight loss and depleted adipocyte stores are an expected, lifelong consequence needing dietitian support."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Diffuse gastric cancer drives clotting: like other gastric adenocarcinomas its discohesive, mucin-producing cells trigger paraneoplastic thrombocytosis and a high risk of venous thromboembolism once the disease becomes invasive."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -303,6 +312,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody stain reveals the defect: loss of E-cadherin (CDH1) on immunohistochemistry betrays the scattered signet-ring cells of HDGC, the molecular hallmark that distinguishes this stealthy, non-mass-forming cancer.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Both the cancer and its prevention drain the red cells: the diffuse tumor bleeds slowly into iron-deficiency anemia, and the prophylactic total gastrectomy that cures the risk leaves patients short of B12 and iron for life.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Losing the stomach can later harm the nerves: without it, B12 absorption fails, so unless replaced, the deficiency can damage peripheral and spinal cord neurons into a subacute combined degeneration.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — After the stomach is removed, the gut is rebuilt: prophylactic total gastrectomy, done young in CDH1 carriers, joins the esophagus to a loop of jejunum, so the small intestine becomes the new reservoir and the site of the lifelong malabsorption that follows.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Life without a stomach burns off fat: total gastrectomy leaves carriers eating small, frequent meals with poor fat absorption, so significant weight loss and depleted adipocyte stores are an expected, lifelong consequence needing dietitian support.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Diffuse gastric cancer drives clotting: like other gastric adenocarcinomas its discohesive, mucin-producing cells trigger paraneoplastic thrombocytosis and a high risk of venous thromboembolism once the disease becomes invasive.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

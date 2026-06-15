@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Malabsorption quietly drains the blood: poor uptake of iron, B12, and folate from the failing exocrine pancreas can leave patients anemic, the red cells falling along with their other nutrients."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Chronic pancreatitis weakens the skeleton: years of fat malabsorption starve the body of vitamin D and calcium, so metabolic bone disease and osteoporosis are common and underdiagnosed, warranting bone-density screening and supplementation."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "The road to pancreatic cancer runs through p53: decades of inflammation in PRSS1 disease layer TP53 loss on top of the early KRAS mutation, the stepwise hits that give hereditary pancreatitis its steeply elevated lifetime cancer risk."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Inflammation by the pancreas clots the splenic vein: chronic pancreatitis can thrombose the adjacent splenic vein, producing gastric varices and a hypersplenism that drops the platelet count, a recognized vascular complication of the disease."
 ---
 
 # Hereditary Pancreatitis
@@ -339,6 +348,9 @@ cross_links:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Relentless pain defines the disease: inflammation and fibrosis sensitize the pancreatic sensory neurons and the celiac plexus into a severe, chronic visceral pain that dominates life and drives nerve blocks and opioid use.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The damaged gland stops digesting fat: exocrine insufficiency lets undigested fat reach the bowel, causing the bulky, greasy, foul steatorrhea and malabsorption that pancreatic enzyme replacement aims to fix.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Malabsorption quietly drains the blood: poor uptake of iron, B12, and folate from the failing exocrine pancreas can leave patients anemic, the red cells falling along with their other nutrients.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Chronic pancreatitis weakens the skeleton: years of fat malabsorption starve the body of vitamin D and calcium, so metabolic bone disease and osteoporosis are common and underdiagnosed, warranting bone-density screening and supplementation.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — The road to pancreatic cancer runs through p53: decades of inflammation in PRSS1 disease layer TP53 loss on top of the early KRAS mutation, the stepwise hits that give hereditary pancreatitis its steeply elevated lifetime cancer risk.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Inflammation by the pancreas clots the splenic vein: chronic pancreatitis can thrombose the adjacent splenic vein, producing gastric varices and a hypersplenism that drops the platelet count, a recognized vascular complication of the disease.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
