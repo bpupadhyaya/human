@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "HIV thins the platelets: an immune thrombocytopenia is common and can be an early sign, as antibodies and direct marrow infection drop the platelet count, sometimes improving once antiretroviral therapy begins."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "The nerves ache in advanced HIV: a distal sensory polyneuropathy from the virus itself and from older antiretrovirals brings burning, numb feet, one of the most common and disabling neurological complications."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The epidemic turns on reproduction and prevention: HIV spreads sexually and from mother to child, but treatment-as-prevention (undetectable = untransmittable) and PrEP now block both routes, reshaping its spread."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Adrenal failure stalks advanced disease: CMV adrenalitis and other opportunistic invaders, plus the virus itself, impair cortisol production, making adrenal insufficiency a treatable cause of the wasting and collapse of late AIDS."
 ---
 
 # HIV/AIDS
@@ -306,6 +315,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — AIDS is diagnosed by antibody yet defined by immune failure: the anti-HIV antibody test identifies infection, but as CD4 cells vanish the body's whole antibody response falters, leaving even vaccines and routine defenses ineffective.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — AIDS reaches deep into the brain: the virus and its opportunistic invaders — toxoplasma, JC virus's PML, CMV — injure neurons into HIV-associated dementia, the cognitive decline that marks advanced disease.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — HIV thins the platelets: an immune thrombocytopenia is common and can be an early sign, as antibodies and direct marrow infection drop the platelet count, sometimes improving once antiretroviral therapy begins.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The nerves ache in advanced HIV: a distal sensory polyneuropathy from the virus itself and from older antiretrovirals brings burning, numb feet, one of the most common and disabling neurological complications.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The epidemic turns on reproduction and prevention: HIV spreads sexually and from mother to child, but treatment-as-prevention (undetectable = untransmittable) and PrEP now block both routes, reshaping its spread.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Adrenal failure stalks advanced disease: CMV adrenalitis and other opportunistic invaders, plus the virus itself, impair cortisol production, making adrenal insufficiency a treatable cause of the wasting and collapse of late AIDS.
 
 ## See Also
 

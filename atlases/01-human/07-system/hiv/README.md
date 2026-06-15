@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "HIV and the liver are entangled: hepatitis B and C coinfection is common through shared transmission, and the lifelong antiretrovirals add their own risk of drug-induced liver injury that must be monitored."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "HIV breaches the gut to fuel itself: it destroys the intestinal CD4 cells early, and the leaky, dysbiotic gut lets microbial products translocate into the blood, driving the chronic immune activation that persists even on treatment."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The white cells run low too: HIV and several of its drugs suppress the marrow into neutropenia, compounding the immune deficit and raising bacterial-infection risk beyond the loss of CD4 T cells."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal is the gland HIV most often hits: CMV adrenalitis and the infection itself can blunt cortisol output, making adrenal insufficiency the commonest endocrine complication of advanced HIV."
 ---
 
 # HIV
@@ -338,6 +347,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both diagnose and may one day defeat HIV: the standard test detects anti-HIV antibody (with p24 antigen), yet the virus mutates past most antibodies — driving the search for the broadly neutralizing antibodies that a vaccine would need to elicit.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The treatment reshapes the body's fat: older antiretrovirals, the protease inhibitors and stavudine especially, cause lipodystrophy — fat lost from limbs and face while it piles on the trunk — alongside insulin resistance and high lipids.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — HIV and the liver are entangled: hepatitis B and C coinfection is common through shared transmission, and the lifelong antiretrovirals add their own risk of drug-induced liver injury that must be monitored.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — HIV breaches the gut to fuel itself: it destroys the intestinal CD4 cells early, and the leaky, dysbiotic gut lets microbial products translocate into the blood, driving the chronic immune activation that persists even on treatment.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The white cells run low too: HIV and several of its drugs suppress the marrow into neutropenia, compounding the immune deficit and raising bacterial-infection risk beyond the loss of CD4 T cells.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal is the gland HIV most often hits: CMV adrenalitis and the infection itself can blunt cortisol output, making adrenal insufficiency the commonest endocrine complication of advanced HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
