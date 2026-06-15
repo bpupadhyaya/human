@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells help fire the first hours of a gout attack: urate crystals trigger them to release histamine and mediators that dilate vessels and recruit neutrophils, kicking off the sudden inflammation."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Gout is confirmed by light: polarized-light microscopy of joint fluid reveals the negatively birefringent urate needles, and dual-energy CT photons map urate deposits without a tap."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Gout can spring from the marrow: myeloproliferative diseases and their rapid cell turnover flood the blood with purines that become uric acid, a secondary cause of the disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Gout can deposit in the eye: urate tophi form on the eyelids and conjunctiva and rarely inflame the sclera, an unusual but recognized site of crystal deposition."
 ---
 
 # Gout
@@ -260,6 +269,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Acid urine turns gout into kidney stones: uric acid dissolves poorly when urine is acidic, so a low urinary pH lets it crystallize into stones, which is why alkalinizing the urine helps prevent them.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic gout lays down fibrosis: long-standing tophi become fibrous nodules that erode joints, and persistent urate in the kidney drives interstitial scarring, the lasting damage beyond the acute flare.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help fire the first hours of a gout attack: urate crystals trigger them to release histamine and mediators that dilate vessels and recruit neutrophils, kicking off the sudden inflammation.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Gout is confirmed by light: polarized-light microscopy of joint fluid reveals the negatively birefringent urate needles, and dual-energy CT photons map urate deposits without a tap.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Gout can spring from the marrow: myeloproliferative diseases and their rapid cell turnover flood the blood with purines that become uric acid, a secondary cause of the disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Gout can deposit in the eye: urate tophi form on the eyelids and conjunctiva and rarely inflame the sclera, an unusual but recognized site of crystal deposition.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Gorlin syndrome calcifies with calcium phosphate: a calcified falx cerebri, along with skeletal anomalies like bifid ribs, are diagnostic clues, the mineral laid down where it should not be."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Gorlin's brain tumor is medulloblastoma: it arises from cerebellar granule-neuron precursors that depend on the very Hedgehog signal the syndrome unleashes, so children are screened with brain MRI."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Unleashed Hedgehog drives Gorlin's tumors through cyclin D1: the pathway switches on this cell-cycle gene, pushing basal cells and granule precursors to proliferate into BCCs and medulloblastomas."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Gorlin sprouts cysts beyond the jaw: mesenteric and other abdominal cysts occur alongside its odontogenic keratocysts, part of the syndrome's broad tendency to form benign cavities."
 ---
 
 # Gorlin Syndrome
@@ -270,6 +279,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Gorlin syndrome can grow tumors in the heart: cardiac fibromas, benign fibrous masses, are a recognized feature, sometimes found in childhood and occasionally disturbing the heart's rhythm or flow.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Gorlin's benign tumors are made of fibrous tissue: cardiac and ovarian fibromas are overgrowths of fibroblasts and collagen, part of the syndrome's broad tendency to form hamartomatous fibrous masses.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Gorlin syndrome calcifies with calcium phosphate: a calcified falx cerebri, along with skeletal anomalies like bifid ribs, are diagnostic clues, the mineral laid down where it should not be.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Gorlin's brain tumor is medulloblastoma: it arises from cerebellar granule-neuron precursors that depend on the very Hedgehog signal the syndrome unleashes, so children are screened with brain MRI.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Unleashed Hedgehog drives Gorlin's tumors through cyclin D1: the pathway switches on this cell-cycle gene, pushing basal cells and granule precursors to proliferate into BCCs and medulloblastomas.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Gorlin sprouts cysts beyond the jaw: mesenteric and other abdominal cysts occur alongside its odontogenic keratocysts, part of the syndrome's broad tendency to form benign cavities.
 
 ---
 
