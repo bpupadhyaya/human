@@ -162,6 +162,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Uremia dampens reproduction: it disrupts the hypothalamic-pituitary-gonadal axis into low libido, erectile dysfunction, and infertility, and pregnancy in advanced CKD carries high risk to mother and fetus."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "The failing kidney misreads its own pressure: falling perfusion drives renin and the RAAS into overdrive, raising blood pressure that further scars the kidney — a vicious loop that RAAS blockers are given to interrupt."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages turn injury into scar: they infiltrate the damaged kidney and pour out fibrogenic signals that activate fibroblasts, driving the tubulointerstitial fibrosis that paces the march to kidney failure."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Kidney and urate trap each other: failing kidneys clear less uric acid, raising it into gout, while urate crystals and the drugs for gout can in turn injure the kidney — a two-way burden in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -286,6 +295,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The kidney loses its grip on salt and water: as CKD advances it cannot excrete a sodium load, so fluid builds up into edema and hypertension, making dietary salt restriction a cornerstone of slowing the disease.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies cause and define much CKD: anti-GBM, ANCA, and lupus autoantibodies attack the glomerulus, and their blood assays pinpoint the immune glomerulonephritides that, untreated, scar the kidney into failure.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Uremia dampens reproduction: it disrupts the hypothalamic-pituitary-gonadal axis into low libido, erectile dysfunction, and infertility, and pregnancy in advanced CKD carries high risk to mother and fetus.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — The failing kidney misreads its own pressure: falling perfusion drives renin and the RAAS into overdrive, raising blood pressure that further scars the kidney — a vicious loop that RAAS blockers are given to interrupt.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages turn injury into scar: they infiltrate the damaged kidney and pour out fibrogenic signals that activate fibroblasts, driving the tubulointerstitial fibrosis that paces the march to kidney failure.
+- `connects-to` → **[Gout](../gout/README.md)** — Kidney and urate trap each other: failing kidneys clear less uric acid, raising it into gout, while urate crystals and the drugs for gout can in turn injure the kidney — a two-way burden in CKD.
 
 ## Pathology
 

@@ -157,6 +157,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "Diet and weight are the dominant levers: obesity-driven excess estrogen is the leading modifiable cause, so weight loss and a high-fiber, plant-rich diet that lowers circulating estrogen reduce endometrial cancer risk."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "The obesity-diabetes link runs through IGF-1: hyperinsulinemia raises bioactive IGF-1, a potent mitogen that, with excess estrogen, fuels endometrial proliferation — a molecular reason metabolic disease drives this cancer."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells help the tumor hide: they accumulate in the endometrial tumor microenvironment and damp the antitumor response, a dynamic that matters most in the mismatch-repair-deficient tumors targeted by immunotherapy."
+  - target: 01-human/07-system/peutz-jeghers-syndrome
+    relation: connects-to
+    note: "An STK11 syndrome raises the risk: Peutz-Jeghers syndrome predisposes to endometrial cancer and the rare cervical adenoma malignum, one of the inherited routes to gynecologic cancer beyond Lynch and Cowden."
 ---
 
 # Endometrial Cancer
@@ -328,6 +337,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies now classify and treat it: mismatch-repair and p53 immunostains sort endometrial cancers into molecular groups, and the MMR-deficient tumors respond to checkpoint antibodies like dostarlimab and pembrolizumab.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The carboplatin-paclitaxel backbone empties the marrow: both drugs are myelosuppressive, dropping neutrophil counts between cycles so that growth-factor support and febrile-neutropenia watch run through advanced-disease treatment.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet and weight are the dominant levers: obesity-driven excess estrogen is the leading modifiable cause, so weight loss and a high-fiber, plant-rich diet that lowers circulating estrogen reduce endometrial cancer risk.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — The obesity-diabetes link runs through IGF-1: hyperinsulinemia raises bioactive IGF-1, a potent mitogen that, with excess estrogen, fuels endometrial proliferation — a molecular reason metabolic disease drives this cancer.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells help the tumor hide: they accumulate in the endometrial tumor microenvironment and damp the antitumor response, a dynamic that matters most in the mismatch-repair-deficient tumors targeted by immunotherapy.
+- `connects-to` → **[Peutz-Jeghers Syndrome](../peutz-jeghers-syndrome/README.md)** — An STK11 syndrome raises the risk: Peutz-Jeghers syndrome predisposes to endometrial cancer and the rare cervical adenoma malignum, one of the inherited routes to gynecologic cancer beyond Lynch and Cowden.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
