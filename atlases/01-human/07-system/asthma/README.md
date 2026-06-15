@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Long-standing asthma scars the airway: chronic inflammation lays down subepithelial fibrosis and thickens the wall, part of the remodeling that turns reversible wheeze into fixed, hard-to-treat airflow limitation."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons help corner asthma: the chest X-ray shows hyperinflation and excludes mimics, CT reveals mucus plugging and wall thickening, and measuring the light-based marker of exhaled nitric oxide gauges the eosinophilic inflammation guiding treatment."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "Eicosanoids drive the asthmatic airway: leukotrienes and prostaglandins released by mast cells clamp the bronchi shut and recruit inflammation, so leukotriene-blocking drugs ease asthma — and aspirin, by skewing this pathway, can trigger a severe attack."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Severe chronic asthma can strain the heart: sustained airway obstruction and low oxygen raise pressure in the lung's vessels, forcing the right ventricle to labor toward cor pulmonale, while high-dose beta-agonists quicken the pulse."
 ---
 
 # Asthma
@@ -280,6 +289,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Treating an asthma attack can drop potassium: high-dose beta-agonists drive potassium into cells, so the salbutamol that opens airways may cause hypokalemia that needs watching in severe attacks.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Asthma is one step of the atopic march, often heralded by eczema: the same Th2/IgE allergy that inflames the skin in atopic dermatitis later inflames the airways, linking skin and lung in one allergic diathesis.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Long-standing asthma scars the airway: chronic inflammation lays down subepithelial fibrosis and thickens the wall, part of the remodeling that turns reversible wheeze into fixed, hard-to-treat airflow limitation.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons help corner asthma: the chest X-ray shows hyperinflation and excludes mimics, CT reveals mucus plugging and wall thickening, and measuring the light-based marker of exhaled nitric oxide gauges the eosinophilic inflammation guiding treatment.
+- `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Eicosanoids drive the asthmatic airway: leukotrienes and prostaglandins released by mast cells clamp the bronchi shut and recruit inflammation, so leukotriene-blocking drugs ease asthma — and aspirin, by skewing this pathway, can trigger a severe attack.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe chronic asthma can strain the heart: sustained airway obstruction and low oxygen raise pressure in the lung's vessels, forcing the right ventricle to labor toward cor pulmonale, while high-dose beta-agonists quicken the pulse.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
