@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Mesothelioma drives up platelets: IL-6 from the tumor provokes a paraneoplastic thrombocytosis, and a high platelet count both flags advanced disease and raises the clotting risk that complicates these patients' care."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Peritoneal mesothelioma encases the abdominal organs: arising on the lining of the belly, it spreads over the surface of the liver and gut, coating them in tumor rather than invading deep, the abdominal counterpart of its pleural form."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Late mesothelioma can reach bone: though it spreads mainly by creeping along the chest and abdominal linings, advanced disease occasionally seeds distant skeletal and marrow metastases."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "A well-differentiated papillary mesothelioma leaves calcium clues: it forms psammoma bodies, concentric calcium deposits, the laminated mineral specks that help the pathologist recognize this indolent variant."
 ---
 
 # Mesothelioma
@@ -290,6 +299,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy was the historic gold standard for mesothelioma: its cells bristle with long, slender, bushy microvilli, whose high length-to-width ratio separates them from the short, stubby microvilli of metastatic adenocarcinoma.
 - `connects-to` → **[WT1](../../03-molecular/wt1/README.md)** — WT1 is a defining mesothelioma marker: strong nuclear WT1 staining is expected in mesothelial tumors and absent in lung adenocarcinoma, making it a pillar of the immunostain panel that resolves a pleural biopsy.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Mesothelioma drives up platelets: IL-6 from the tumor provokes a paraneoplastic thrombocytosis, and a high platelet count both flags advanced disease and raises the clotting risk that complicates these patients' care.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Peritoneal mesothelioma encases the abdominal organs: arising on the lining of the belly, it spreads over the surface of the liver and gut, coating them in tumor rather than invading deep, the abdominal counterpart of its pleural form.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Late mesothelioma can reach bone: though it spreads mainly by creeping along the chest and abdominal linings, advanced disease occasionally seeds distant skeletal and marrow metastases.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A well-differentiated papillary mesothelioma leaves calcium clues: it forms psammoma bodies, concentric calcium deposits, the laminated mineral specks that help the pathologist recognize this indolent variant.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

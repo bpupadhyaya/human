@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "When a meningioma defies expectation and metastasizes, the lung is its commonest destination: though nearly all are benign and stay local, malignant variants spread hematogenously, with pulmonary deposits the classic distant site."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Meningiomas can thicken the skull they sit against: en plaque tumors provoke reactive hyperostosis of the overlying bone, and some arise within the marrow-bearing skull itself as intraosseous meningiomas."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Rarely a meningioma breaks through to the scalp: extracranial extension or a primary cutaneous meningioma forms a firm scalp nodule, the tumor reaching the skin from the meninges beneath the skull."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "If a malignant meningioma spreads, the liver is among its targets: after the lungs, hematogenous metastases can lodge in the liver and bone, the unusual distant spread of an aggressive grade."
 ---
 
 # Meningioma
@@ -288,6 +297,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy fingerprints meningiomas: their meningothelial cells interlock through elaborate interdigitating processes joined by desmosomes — an ultrastructural signature that confirms the diagnosis when light microscopy is ambiguous.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Meningiomas run on a PDGF autocrine loop: the tumor cells make platelet-derived growth factor and carry its receptor, driving their own proliferation — a pathway studied as a target for the aggressive grades that resist surgery and radiation.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — When a meningioma defies expectation and metastasizes, the lung is its commonest destination: though nearly all are benign and stay local, malignant variants spread hematogenously, with pulmonary deposits the classic distant site.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Meningiomas can thicken the skull they sit against: en plaque tumors provoke reactive hyperostosis of the overlying bone, and some arise within the marrow-bearing skull itself as intraosseous meningiomas.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Rarely a meningioma breaks through to the scalp: extracranial extension or a primary cutaneous meningioma forms a firm scalp nodule, the tumor reaching the skin from the meninges beneath the skull.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — If a malignant meningioma spreads, the liver is among its targets: after the lungs, hematogenous metastases can lodge in the liver and bone, the unusual distant spread of an aggressive grade.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
