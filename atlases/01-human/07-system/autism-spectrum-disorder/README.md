@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Autism and the heart often travel together: children with congenital heart disease have elevated rates of autism, the shared early developmental disruption and surgical-stress exposure linking the two conditions."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Sleep is a near-universal struggle in autism: disrupted melatonin rhythms leave many autistic children unable to fall or stay asleep, and melatonin is the first-line treatment, easing both the insomnia and the daytime behavior it worsens."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The gut is a frequent trouble spot: autistic children have high rates of reflux, constipation, and selective eating, the GI symptoms feeding into the gut-brain axis already implicated in the condition."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The mother's thyroid shapes the risk: adequate maternal thyroid hormone is critical for fetal brain development, and maternal hypothyroxinemia in pregnancy is a recognized risk factor for autism in the child."
 ---
 
 # Autism Spectrum Disorder
@@ -328,6 +337,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy hints at autism's altered wiring: studies find changes in dendritic spine density and synapse structure, the fine connections between neurons that mTOR and other autism genes help build and prune.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D in pregnancy may shape the risk: low maternal vitamin D during fetal brain development is associated with a higher chance of autism, fitting the vitamin's role in neurodevelopment and immune regulation.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Autism and the heart often travel together: children with congenital heart disease have elevated rates of autism, the shared early developmental disruption and surgical-stress exposure linking the two conditions.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep is a near-universal struggle in autism: disrupted melatonin rhythms leave many autistic children unable to fall or stay asleep, and melatonin is the first-line treatment, easing both the insomnia and the daytime behavior it worsens.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut is a frequent trouble spot: autistic children have high rates of reflux, constipation, and selective eating, the GI symptoms feeding into the gut-brain axis already implicated in the condition.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The mother's thyroid shapes the risk: adequate maternal thyroid hormone is critical for fetal brain development, and maternal hypothyroxinemia in pregnancy is a recognized risk factor for autism in the child.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

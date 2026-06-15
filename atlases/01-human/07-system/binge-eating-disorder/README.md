@@ -126,6 +126,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D tends to run low here: deficiency tracks with the obesity that accompanies binge eating, and the vitamin's role in mood and reward signaling has drawn interest as a contributor to the disorder."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Binge eating often runs against the clock: it overlaps with night-eating syndrome and a delayed circadian rhythm, where blunted evening melatonin and disrupted sleep shift the urge to eat into the night."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "The binges leave a metabolic mark: independent of obesity, binge eating raises triglycerides and cholesterol and tips toward metabolic syndrome, part of the cardiovascular risk that shadows the disorder."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid sits in the differential: because thyroid dysfunction alters appetite and weight, it is checked when binge eating and weight change present, separating a metabolic cause from the behavioral disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -323,6 +332,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Binge eating wears on the heart: the obesity and metabolic syndrome it drives raise blood pressure, cholesterol, and the risk of coronary disease, making cardiovascular illness a major long-term consequence of the disorder.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Binge eating runs low on magnesium: the resulting obesity and insulin resistance deplete it, and since magnesium tempers the stress and reward pathways, its shortage may feed back into the cycle of compulsive eating.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D tends to run low here: deficiency tracks with the obesity that accompanies binge eating, and the vitamin's role in mood and reward signaling has drawn interest as a contributor to the disorder.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Binge eating often runs against the clock: it overlaps with night-eating syndrome and a delayed circadian rhythm, where blunted evening melatonin and disrupted sleep shift the urge to eat into the night.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — The binges leave a metabolic mark: independent of obesity, binge eating raises triglycerides and cholesterol and tips toward metabolic syndrome, part of the cardiovascular risk that shadows the disorder.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid sits in the differential: because thyroid dysfunction alters appetite and weight, it is checked when binge eating and weight change present, separating a metabolic cause from the behavioral disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
