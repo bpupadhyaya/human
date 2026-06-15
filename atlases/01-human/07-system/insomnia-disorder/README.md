@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Hormonal tides disturb women's sleep: insomnia spikes around menstruation, in pregnancy, and especially at menopause, when falling estrogen and night-time hot flashes repeatedly break the night."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Sleep loss weakens the immune memory: poor sleep around vaccination blunts the antibody response, and chronic insomnia's immune dysregulation leaves the body less protected — one reason rest is urged around an immunization."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Broken sleep wears on the heart: chronic insomnia raises blood pressure and sympathetic tone, and is linked to a higher risk of hypertension, heart attack, and stroke over the years."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut and sleep talk both ways: the microbiome shapes serotonin and melatonin and the circadian rhythm, while sleep loss in turn shifts the flora — a gut-brain loop increasingly tied to insomnia."
 ---
 
 # Insomnia Disorder
@@ -340,6 +349,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Reflux and insomnia feed each other: lying down lets stomach acid rise into the esophagus, and the resulting nocturnal heartburn fragments sleep — while poor sleep in turn heightens the gut's sensitivity to it.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Lost sleep unbalances blood sugar: even short-term sleep restriction worsens insulin sensitivity, straining the pancreas and helping explain why chronic insomnia tracks with a higher risk of type 2 diabetes.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormonal tides disturb women's sleep: insomnia spikes around menstruation, in pregnancy, and especially at menopause, when falling estrogen and night-time hot flashes repeatedly break the night.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Sleep loss weakens the immune memory: poor sleep around vaccination blunts the antibody response, and chronic insomnia's immune dysregulation leaves the body less protected — one reason rest is urged around an immunization.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Broken sleep wears on the heart: chronic insomnia raises blood pressure and sympathetic tone, and is linked to a higher risk of hypertension, heart attack, and stroke over the years.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut and sleep talk both ways: the microbiome shapes serotonin and melatonin and the circadian rhythm, while sleep loss in turn shifts the flora — a gut-brain loop increasingly tied to insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

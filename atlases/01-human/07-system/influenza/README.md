@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Influenza's spike clumps red cells: hemagglutinin binds the sialic acid on erythrocytes, agglutinating them — the reaction behind the classic hemagglutination and hemagglutination-inhibition assays used to type the virus and gauge immunity."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy makes flu more dangerous: the immune and lung changes of pregnancy raise the risk of severe influenza and preterm birth, so vaccination in pregnancy protects both mother and, through transferred antibody, the newborn."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Flu can reach the brain: influenza-associated encephalopathy and encephalitis injure neurons, mostly in children, and aspirin given during infection risks the brain-and-liver damage of Reye syndrome."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "In children flu often hits the gut: influenza B especially brings nausea, vomiting, and diarrhea alongside the respiratory illness — true gastrointestinal flu, distinct from the unrelated 'stomach flu' of norovirus."
 ---
 
 # Influenza
@@ -327,3 +336,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The flu vaccine is a bet on antibody: it teaches the body to make anti-hemagglutinin antibodies, but the virus's antigenic drift keeps changing that target, which is why the shot must be reformulated and given every year.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The aching muscles are flu's signature: cytokines and direct infection produce the deep myalgia of the illness, and in children influenza can cause a benign acute myositis or, rarely, muscle-breaking rhabdomyolysis.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Influenza's spike clumps red cells: hemagglutinin binds the sialic acid on erythrocytes, agglutinating them — the reaction behind the classic hemagglutination and hemagglutination-inhibition assays used to type the virus and gauge immunity.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy makes flu more dangerous: the immune and lung changes of pregnancy raise the risk of severe influenza and preterm birth, so vaccination in pregnancy protects both mother and, through transferred antibody, the newborn.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Flu can reach the brain: influenza-associated encephalopathy and encephalitis injure neurons, mostly in children, and aspirin given during infection risks the brain-and-liver damage of Reye syndrome.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — In children flu often hits the gut: influenza B especially brings nausea, vomiting, and diarrhea alongside the respiratory illness — true gastrointestinal flu, distinct from the unrelated 'stomach flu' of norovirus.
