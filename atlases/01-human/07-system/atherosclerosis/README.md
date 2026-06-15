@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Narrowed leg arteries cramp the muscles: peripheral artery disease starves the calf and thigh muscles of blood, causing the claudication pain that comes on with walking and, when severe, threatens the limb."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Atherosclerosis is now treated as inflammation: the anti-IL-1β antibody canakinumab cut cardiovascular events in the CANTOS trial, proving the plaque's inflammatory drive, while oxidized-LDL autoantibodies mark the immune response within it."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Visceral fat fuels the plaque: enlarged adipocytes pour out inflammatory adipokines and free fatty acids that worsen dyslipidemia and insulin resistance, tying central obesity directly to accelerated atherosclerosis."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet is frontline prevention: soluble fiber lowers LDL by binding bile acids, and a high-fiber, Mediterranean pattern that cuts saturated fat measurably slows atherosclerosis alongside statins."
 ---
 
 # Atherosclerosis
@@ -317,6 +326,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Atherosclerosis of the neck and brain arteries threatens neurons: carotid plaque throws emboli that cause stroke and TIA, while diffuse small-vessel disease starves neurons into vascular cognitive impairment.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Erectile dysfunction is atherosclerosis's early warning: the small penile arteries clog before the larger coronaries, so new ED in a man is often the first sign of systemic disease and prompts cardiac assessment.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Narrowed leg arteries cramp the muscles: peripheral artery disease starves the calf and thigh muscles of blood, causing the claudication pain that comes on with walking and, when severe, threatens the limb.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Atherosclerosis is now treated as inflammation: the anti-IL-1β antibody canakinumab cut cardiovascular events in the CANTOS trial, proving the plaque's inflammatory drive, while oxidized-LDL autoantibodies mark the immune response within it.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Visceral fat fuels the plaque: enlarged adipocytes pour out inflammatory adipokines and free fatty acids that worsen dyslipidemia and insulin resistance, tying central obesity directly to accelerated atherosclerosis.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet is frontline prevention: soluble fiber lowers LDL by binding bile acids, and a high-fiber, Mediterranean pattern that cuts saturated fat measurably slows atherosclerosis alongside statins.
 
 ---
 

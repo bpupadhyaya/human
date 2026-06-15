@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "The gravest risk is bleeding into the brain: with platelets crashed, a spontaneous intracranial hemorrhage is a feared and often fatal complication, which is why platelet transfusions are given to hold the count above danger."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Hepatitis can be followed by marrow collapse: a severe hepatitis-associated aplastic anemia strikes weeks to months after acute hepatitis, usually in young men, an immune-mediated wipeout of the marrow triggered by the liver infection."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Inherited marrow failure shows in the skeleton: Fanconi anemia, a constitutional cause, comes with radial-ray and thumb anomalies and short stature, the bony clues that point to a genetic syndrome behind a child's aplasia."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The immunosuppression taxes the kidney: ciclosporin, a mainstay of treatment, is nephrotoxic and raises blood pressure, so renal function and drug levels are watched throughout the long course of therapy."
 ---
 
 # Aplastic Anemia
@@ -308,6 +317,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody preparation is a cornerstone cure: antithymocyte globulin — antibodies raised against human T cells — wipes out the autoreactive T cells attacking the marrow, the immunosuppression that revives blood production in those who cannot transplant.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Androgens can coax the failing marrow: synthetic male hormones like danazol and oxymetholone stimulate blood-cell production and are still used, especially in inherited telomere-related aplastic anemia.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The gravest risk is bleeding into the brain: with platelets crashed, a spontaneous intracranial hemorrhage is a feared and often fatal complication, which is why platelet transfusions are given to hold the count above danger.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Hepatitis can be followed by marrow collapse: a severe hepatitis-associated aplastic anemia strikes weeks to months after acute hepatitis, usually in young men, an immune-mediated wipeout of the marrow triggered by the liver infection.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Inherited marrow failure shows in the skeleton: Fanconi anemia, a constitutional cause, comes with radial-ray and thumb anomalies and short stature, the bony clues that point to a genetic syndrome behind a child's aplasia.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The immunosuppression taxes the kidney: ciclosporin, a mainstay of treatment, is nephrotoxic and raises blood pressure, so renal function and drug levels are watched throughout the long course of therapy.
 
 ---
 
