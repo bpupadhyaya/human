@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Platinum therapy wastes magnesium: carboplatin injures the kidney tubule that reclaims it, so blood magnesium and potassium fall and must be replaced through the cycles, even as OCCC responds less well to that platinum than other ovarian cancers."
+  - target: 01-human/03-molecular/nfe2l2
+    relation: connects-to
+    note: "OCCC turns up its antioxidant defenses: chronically bathed in oxidative stress, the tumor activates the NRF2 pathway to neutralize reactive oxygen, an adaptation that also helps explain its notorious resistance to platinum chemotherapy."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "PI3K-AKT is OCCC's growth engine: frequent PIK3CA mutations and PTEN loss funnel through AKT to mTOR, a dominant signaling axis in clear cell ovarian cancer and a target for PI3K-pathway inhibitors in this hard-to-treat subtype."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "ARID1A loss makes OCCC visible to the immune system: the resulting mutational and microsatellite instability draws in T cells, so clear cell ovarian cancer responds to checkpoint immunotherapy more often than the commoner serous type."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -337,6 +346,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains pin down the subtype: HNF1B and Napsin A staining with loss of ARID1A confirm clear-cell histology and its endometriosis origin, separating OCCC from the high-grade serous tumors that demand different treatment.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — This subtype resists platinum, so the marrow still pays: the carboplatin-paclitaxel given despite OCCC's chemoresistance is myelosuppressive, dropping neutrophils between cycles, while a high neutrophil-to-lymphocyte ratio flags its poorer prognosis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum therapy wastes magnesium: carboplatin injures the kidney tubule that reclaims it, so blood magnesium and potassium fall and must be replaced through the cycles, even as OCCC responds less well to that platinum than other ovarian cancers.
+- `connects-to` → **[NRF2](../../03-molecular/nfe2l2/README.md)** — OCCC turns up its antioxidant defenses: chronically bathed in oxidative stress, the tumor activates the NRF2 pathway to neutralize reactive oxygen, an adaptation that also helps explain its notorious resistance to platinum chemotherapy.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — PI3K-AKT is OCCC's growth engine: frequent PIK3CA mutations and PTEN loss funnel through AKT to mTOR, a dominant signaling axis in clear cell ovarian cancer and a target for PI3K-pathway inhibitors in this hard-to-treat subtype.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — ARID1A loss makes OCCC visible to the immune system: the resulting mutational and microsatellite instability draws in T cells, so clear cell ovarian cancer responds to checkpoint immunotherapy more often than the commoner serous type.
 
 ---
 

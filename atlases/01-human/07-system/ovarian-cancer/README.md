@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Anemia shadows the long course: chronic disease, repeated chemotherapy, and the slow ooze of peritoneal disease deplete red cells, the fatigue of low erythrocytes often needing transfusion across months of treatment."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Even the gentler anthracycline touches the heart: pegylated liposomal doxorubicin, a mainstay for recurrent ovarian cancer, still injures cardiomyocytes in a cumulative dose-dependent way, so cardiac function is tracked across repeated lines of therapy."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The malignant ascites runs on IL-6-STAT3: cytokines in the peritoneal fluid activate STAT3 in tumor and stromal cells, fueling growth, immune evasion and the relentless fluid build-up that distends the abdomen of advanced disease."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The immune infiltrate predicts survival: ovarian tumors rich in tumor-infiltrating T cells, including CD4 helpers that marshal the response, carry a markedly better prognosis — the biology behind efforts to make this cancer respond to immunotherapy."
 ---
 
 # Ovarian Cancer
@@ -311,6 +320,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies track and treat the disease: the CA-125 tumor marker is measured by an antibody immunoassay to follow response and relapse, while anti-VEGF bevacizumab is added to chemotherapy to starve the tumor's blood supply.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The carboplatin-paclitaxel backbone hammers the marrow: both drugs are myelosuppressive, so the neutrophil count falls between cycles and febrile neutropenia is one of the recurring hazards of ovarian-cancer chemotherapy.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia shadows the long course: chronic disease, repeated chemotherapy, and the slow ooze of peritoneal disease deplete red cells, the fatigue of low erythrocytes often needing transfusion across months of treatment.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Even the gentler anthracycline touches the heart: pegylated liposomal doxorubicin, a mainstay for recurrent ovarian cancer, still injures cardiomyocytes in a cumulative dose-dependent way, so cardiac function is tracked across repeated lines of therapy.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The malignant ascites runs on IL-6-STAT3: cytokines in the peritoneal fluid activate STAT3 in tumor and stromal cells, fueling growth, immune evasion and the relentless fluid build-up that distends the abdomen of advanced disease.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The immune infiltrate predicts survival: ovarian tumors rich in tumor-infiltrating T cells, including CD4 helpers that marshal the response, carry a markedly better prognosis — the biology behind efforts to make this cancer respond to immunotherapy.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
