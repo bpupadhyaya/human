@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Glia join the picture in borderline personality: alongside neurons, astrocytes and their support of synapses are implicated in the stress- and trauma-linked changes thought to underlie the emotional-circuit dysfunction."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "The wiring's insulation looks frayed in borderline personality: diffusion imaging finds reduced white-matter integrity in the tracts linking emotion centers to the prefrontal cortex, pointing to oligodendrocytes and faulty myelination behind the impulsive instability."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Borderline personality shortens life partly through the heart: chronic stress reactivity, poor sleep, smoking, and metabolic side effects of medication converge to raise cardiovascular disease, a major driver of the disorder's excess mortality."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium quietly steadies the stress system disturbed here: it dampens the HPA axis and the NMDA receptors that drive neuronal excitability, so its depletion can sharpen the irritability and affective swings central to the disorder."
 ---
 
 # Borderline Personality Disorder
@@ -311,6 +320,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Self-harm marks the skin in borderline personality: recurrent cutting and other self-injury, used to discharge unbearable emotion, are a defining behavior that distinguishes it from other mood disorders.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging exposes the disorder's circuitry: the photons of fMRI and PET reveal an overactive amygdala and weak prefrontal control, the neural signature of borderline emotional dysregulation.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glia join the picture in borderline personality: alongside neurons, astrocytes and their support of synapses are implicated in the stress- and trauma-linked changes thought to underlie the emotional-circuit dysfunction.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — The wiring's insulation looks frayed in borderline personality: diffusion imaging finds reduced white-matter integrity in the tracts linking emotion centers to the prefrontal cortex, pointing to oligodendrocytes and faulty myelination behind the impulsive instability.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Borderline personality shortens life partly through the heart: chronic stress reactivity, poor sleep, smoking, and metabolic side effects of medication converge to raise cardiovascular disease, a major driver of the disorder's excess mortality.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium quietly steadies the stress system disturbed here: it dampens the HPA axis and the NMDA receptors that drive neuronal excitability, so its depletion can sharpen the irritability and affective swings central to the disorder.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
