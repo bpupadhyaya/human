@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/01-subatomic/electron
     relation: connects-to
     note: "TB's stain hangs on a waxy wall: Mycobacterium tuberculosis sheathes itself in mycolic-acid lipids that electron microscopy resolves as a thick envelope — the layer that traps the Ziehl-Neelsen dye and makes the bacillus acid-fast."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "TB is fought by cells, not antibodies: the response is T-cell and macrophage driven, so antibody serology is too unreliable for diagnosis that the WHO recommends against it, and detection rests instead on IGRA, smear, culture, and molecular tests."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "TB can eat into the skeleton: spread to the spine causes Pott's disease, collapsing vertebrae into a gibbus deformity, while tuberculous arthritis and dactylitis mark its reach into bone and joint beyond the lung."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The cure is hard on the liver: isoniazid, rifampin, and pyrazinamide are all hepatotoxic, injuring hepatocytes into a drug-induced hepatitis that is the chief reason TB therapy must be monitored and sometimes interrupted."
 ---
 
 # Tuberculosis
@@ -317,6 +326,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Curing TB endangers the liver: the core drugs — isoniazid, rifampin, and pyrazinamide — are all hepatotoxic, so transaminases are watched and the regimen held if they climb, balancing the risk against leaving the infection untreated.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — TB walls itself in with collagen: the granuloma rings its caseous core with epithelioid cells and a fibrous, collagen-rich cuff, and healing leaves the scarred, calcified lesions and lung cavities that mark old or arrested disease.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — TB's stain hangs on a waxy wall: Mycobacterium tuberculosis sheathes itself in mycolic-acid lipids that electron microscopy resolves as a thick envelope — the layer that traps the Ziehl-Neelsen dye and makes the bacillus acid-fast.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — TB is fought by cells, not antibodies: the response is T-cell and macrophage driven, so antibody serology is too unreliable for diagnosis that the WHO recommends against it, and detection rests instead on IGRA, smear, culture, and molecular tests.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — TB can eat into the skeleton: spread to the spine causes Pott's disease, collapsing vertebrae into a gibbus deformity, while tuberculous arthritis and dactylitis mark its reach into bone and joint beyond the lung.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The cure is hard on the liver: isoniazid, rifampin, and pyrazinamide are all hepatotoxic, injuring hepatocytes into a drug-induced hepatitis that is the chief reason TB therapy must be monitored and sometimes interrupted.
 
 ## See Also
 

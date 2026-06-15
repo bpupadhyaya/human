@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/07-system/osteoporosis
     relation: connects-to
     note: "Keeping the cancer quiet thins the bones: the long-term high-dose thyroid hormone given to suppress TSH after thyroidectomy pushes the body toward a subclinical hyperthyroidism that accelerates bone loss and osteoporosis, especially in older women."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both monitor and identify the tumor: serum thyroglobulin, measured by immunoassay, is the surveillance marker for recurrence (confounded by anti-thyroglobulin antibodies), while TTF-1, thyroglobulin, and calcitonin stains type a tumor on biopsy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Thyroid cancer strikes women in their fertile years: it is far more common in young women, and radioactive-iodine therapy temporarily impairs fertility and demands contraception, so reproductive planning is woven into treatment."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Advanced therapy taxes the marrow: the multikinase inhibitors for radioiodine-refractory disease and the chemotherapy for anaplastic thyroid cancer suppress the blood counts, dropping neutrophils and raising the risk of infection."
 ---
 
 # Thyroid Cancer
@@ -327,6 +336,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The voice hangs on a nerve beside the gland: the recurrent laryngeal nerve runs along the thyroid, so tumor invasion or surgical injury paralyzes a vocal cord, leaving the hoarseness that can be the first sign of an aggressive thyroid cancer.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Treatment puts the heart under strain: the multikinase inhibitors (lenvatinib, sorafenib) used for radioiodine-refractory disease drive hypertension and cardiac dysfunction, while the deliberate TSH-suppressing thyroid hormone dose risks atrial fibrillation.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Keeping the cancer quiet thins the bones: the long-term high-dose thyroid hormone given to suppress TSH after thyroidectomy pushes the body toward a subclinical hyperthyroidism that accelerates bone loss and osteoporosis, especially in older women.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both monitor and identify the tumor: serum thyroglobulin, measured by immunoassay, is the surveillance marker for recurrence (confounded by anti-thyroglobulin antibodies), while TTF-1, thyroglobulin, and calcitonin stains type a tumor on biopsy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Thyroid cancer strikes women in their fertile years: it is far more common in young women, and radioactive-iodine therapy temporarily impairs fertility and demands contraception, so reproductive planning is woven into treatment.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Advanced therapy taxes the marrow: the multikinase inhibitors for radioiodine-refractory disease and the chemotherapy for anaplastic thyroid cancer suppress the blood counts, dropping neutrophils and raising the risk of infection.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
