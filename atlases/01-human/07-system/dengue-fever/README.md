@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells meet dengue early: they mount a rapid antiviral attack in the first days of infection, and the strength of this innate response helps shape whether the illness stays mild or turns severe."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Ultrasound and X-ray photons catch dengue's plasma leak: pleural effusions, ascites and a thickened gallbladder wall reveal the capillary leakage that marks the dangerous critical phase."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Dengue's capillary leak floods the chest: plasma seeps into the pleural space, causing effusions and, in severe cases, respiratory distress, part of the third-spacing of dengue shock."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Dengue disturbs potassium: hypokalemia is common in the acute phase, while kidney injury in severe disease can drive it up, so electrolytes are watched closely during the critical leak phase."
 ---
 
 # Dengue Fever
@@ -271,3 +280,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Severe dengue acidifies the blood: massive plasma leakage drops blood pressure into dengue shock, and the underperfused tissues generate lactic acid, so metabolic acidosis is a marker of the dangerous phase.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Dengue can invade the brain: beyond the classic fever, severe disease causes encephalitis and encephalopathy with seizures and altered consciousness, part of the expanded dengue syndrome.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells meet dengue early: they mount a rapid antiviral attack in the first days of infection, and the strength of this innate response helps shape whether the illness stays mild or turns severe.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ultrasound and X-ray photons catch dengue's plasma leak: pleural effusions, ascites and a thickened gallbladder wall reveal the capillary leakage that marks the dangerous critical phase.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Dengue's capillary leak floods the chest: plasma seeps into the pleural space, causing effusions and, in severe cases, respiratory distress, part of the third-spacing of dengue shock.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Dengue disturbs potassium: hypokalemia is common in the acute phase, while kidney injury in severe disease can drive it up, so electrolytes are watched closely during the critical leak phase.

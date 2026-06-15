@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Desmoids weave a dense matrix of fibronectin: their myofibroblasts pour out fibronectin and collagen to build the tough fibrous stroma that gives the tumor its hardness and infiltrative grip on surrounding tissue."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Desmoids recruit new vessels: VEGF draws endothelial cells to feed the slowly expanding fibrous mass, and anti-angiogenic agents are among the systemic options tried for unresectable tumors."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Desmoids ensnare nerves: the infiltrative fibrous mass wraps and compresses adjacent peripheral nerves, causing the pain and neurological deficits that often drive treatment of an otherwise benign tumor."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Abdominal-wall desmoids surface beneath the skin: they present as a deep, firm mass, classically in women after childbirth or along old surgical scars, the commonest sporadic site."
 ---
 
 # Desmoid Tumor
@@ -293,6 +302,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Mesenteric desmoids strangle the bowel: especially in FAP, these fibrous tumors grow through the mesentery and encase the intestine, obstructing the gut and threatening the vessels and ureters around it.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Abdominal desmoids can choke the kidneys: a growing mesenteric mass compresses the ureters, backing urine up into the kidneys (hydronephrosis) and threatening renal function, a feared complication of FAP-associated desmoids.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Desmoids weave a dense matrix of fibronectin: their myofibroblasts pour out fibronectin and collagen to build the tough fibrous stroma that gives the tumor its hardness and infiltrative grip on surrounding tissue.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Desmoids recruit new vessels: VEGF draws endothelial cells to feed the slowly expanding fibrous mass, and anti-angiogenic agents are among the systemic options tried for unresectable tumors.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Desmoids ensnare nerves: the infiltrative fibrous mass wraps and compresses adjacent peripheral nerves, causing the pain and neurological deficits that often drive treatment of an otherwise benign tumor.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Abdominal-wall desmoids surface beneath the skin: they present as a deep, firm mass, classically in women after childbirth or along old surgical scars, the commonest sporadic site.
 
 ---
 
