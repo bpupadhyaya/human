@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "ITP's autoantibodies are made in germinal centers: spleen B cells there produce the anti-platelet antibodies, which is why splenectomy and B-cell-depleting rituximab can control it."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows ITP's two-front problem: spleen macrophages devour antibody-coated platelets, while the marrow's megakaryocytes — normal or increased in number — are themselves hampered from releasing new ones."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Very low platelets can bleed into the eye: retinal and conjunctival hemorrhages appear in severe ITP, a visible warning of the bleeding risk that, at its worst, threatens intracranial hemorrhage."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "ITP can show up as blood in the urine: profound thrombocytopenia causes mucosal and urinary-tract bleeding, hematuria being one of the wet-purpura signs that signals a dangerously low count."
 ---
 
 # Immune Thrombocytopenia
@@ -317,6 +326,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — When ITP is unclear the marrow is checked under the microscope: it shows plentiful megakaryocytes, confirming platelets are being destroyed in the periphery rather than underproduced.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — ITP can bleed into the gut: severe thrombocytopenia causes gastrointestinal hemorrhage, one of the dangerous internal bleeds beyond the visible skin purpura.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — ITP's autoantibodies are made in germinal centers: spleen B cells there produce the anti-platelet antibodies, which is why splenectomy and B-cell-depleting rituximab can control it.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows ITP's two-front problem: spleen macrophages devour antibody-coated platelets, while the marrow's megakaryocytes — normal or increased in number — are themselves hampered from releasing new ones.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Very low platelets can bleed into the eye: retinal and conjunctival hemorrhages appear in severe ITP, a visible warning of the bleeding risk that, at its worst, threatens intracranial hemorrhage.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — ITP can show up as blood in the urine: profound thrombocytopenia causes mucosal and urinary-tract bleeding, hematuria being one of the wet-purpura signs that signals a dangerously low count.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

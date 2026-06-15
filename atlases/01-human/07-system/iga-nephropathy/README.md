@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "IgA nephropathy may start in the gut: mucosal immunity in the intestinal epithelium produces the galactose-deficient IgA1 that ends up clogging the kidney, the gut-kidney axis behind the disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy clinches IgA nephropathy on biopsy: electron-dense immune-complex deposits sit in the mesangium of the glomerulus, the IgA-laden clumps that incite the inflammation scarring the kidney."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Its vasculitic cousin attacks the gut: IgA vasculitis (Henoch-Schönlein), driven by the same IgA, inflames the bowel's small vessels to cause abdominal pain, bleeding, and even intussusception in children."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Rarely the IgA disease bleeds into the lungs: diffuse alveolar hemorrhage is an uncommon but life-threatening extension of IgA vasculitis, the immune complexes inflaming pulmonary as well as renal capillaries."
 ---
 
 # IgA Nephropathy
@@ -255,6 +264,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — IgA nephropathy is diagnosed on the biopsy: immunofluorescence under the microscope lights up the IgA deposits in the glomerular mesangium, the finding that defines the disease.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Treating IgA nephropathy risks high potassium: the ACE inhibitors and ARBs that protect the kidney by blocking angiotensin also raise potassium, which must be monitored.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — IgA nephropathy may start in the gut: mucosal immunity in the intestinal epithelium produces the galactose-deficient IgA1 that ends up clogging the kidney, the gut-kidney axis behind the disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy clinches IgA nephropathy on biopsy: electron-dense immune-complex deposits sit in the mesangium of the glomerulus, the IgA-laden clumps that incite the inflammation scarring the kidney.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Its vasculitic cousin attacks the gut: IgA vasculitis (Henoch-Schönlein), driven by the same IgA, inflames the bowel's small vessels to cause abdominal pain, bleeding, and even intussusception in children.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Rarely the IgA disease bleeds into the lungs: diffuse alveolar hemorrhage is an uncommon but life-threatening extension of IgA vasculitis, the immune complexes inflaming pulmonary as well as renal capillaries.
 
 ---
 
