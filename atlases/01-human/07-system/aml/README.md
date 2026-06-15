@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "The cure threatens future fertility: intensive chemotherapy and any conditioning radiation for transplant can sterilize, so fertility preservation is discussed urgently before induction, especially in the young adults AML often strikes."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Induction leans on a cardiotoxic drug: the anthracycline in the '7+3' regimen (daunorubicin or idarubicin) injures cardiomyocytes in a cumulative way, so cardiac function is checked before and during the intensive chemotherapy AML demands."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Transplant trades one disease for another's risk: allogeneic stem-cell transplant cures high-risk AML partly through a graft-versus-leukemia effect, but the same donor cells can turn on the host as graft-versus-host disease."
+  - target: 01-human/03-molecular/kit
+    relation: connects-to
+    note: "KIT mutation reshapes the good-risk leukemias: in core-binding-factor AML — the t(8;21) and inv(16) subtypes — an activating KIT mutation worsens the otherwise favorable prognosis and offers a target for KIT-directed therapy."
 ---
 
 # AML
@@ -318,6 +327,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies sort and target the blasts: flow-cytometry panels for CD33, CD34, CD13, and MPO classify the leukemia, and the anti-CD33 antibody-drug conjugate gemtuzumab ozogamicin delivers a toxin straight to the AML cells carrying that marker.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Starting treatment can crash the kidney: as a huge blast burden is lysed, tumor lysis syndrome floods the blood with potassium, phosphate, and urate that crystallize in and obstruct the kidney, demanding hydration and rasburicase.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The cure threatens future fertility: intensive chemotherapy and any conditioning radiation for transplant can sterilize, so fertility preservation is discussed urgently before induction, especially in the young adults AML often strikes.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Induction leans on a cardiotoxic drug: the anthracycline in the '7+3' regimen (daunorubicin or idarubicin) injures cardiomyocytes in a cumulative way, so cardiac function is checked before and during the intensive chemotherapy AML demands.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant trades one disease for another's risk: allogeneic stem-cell transplant cures high-risk AML partly through a graft-versus-leukemia effect, but the same donor cells can turn on the host as graft-versus-host disease.
+- `connects-to` → **[KIT](../../03-molecular/kit/README.md)** — KIT mutation reshapes the good-risk leukemias: in core-binding-factor AML — the t(8;21) and inv(16) subtypes — an activating KIT mutation worsens the otherwise favorable prognosis and offers a target for KIT-directed therapy.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

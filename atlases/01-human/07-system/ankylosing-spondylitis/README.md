@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Disease and drugs touch reproduction: AS strikes men in their reproductive prime, and family planning weighs the safety of NSAIDs and biologics in pregnancy, while severe spinal fusion can complicate the mechanics of conception and delivery."
+  - target: 01-human/03-molecular/prostaglandins
+    relation: connects-to
+    note: "NSAIDs are AS's first-line drug: by blocking COX and the prostaglandins that mediate the inflammatory pain, they relieve symptoms and, taken continuously, may even slow the spinal new-bone formation that fuses the spine."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells inflame the enthesis: resident at the tendon-and-ligament insertions where AS begins, they are a major innate source of IL-17, helping ignite the enthesitis that is the disease's defining lesion."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Chronic inflammation hardens the arteries: AS raises cardiovascular risk through accelerated atherosclerosis, so heart attack and stroke become important causes of death and disease control doubles as cardiovascular protection."
 ---
 
 # Ankylosing Spondylitis
@@ -316,6 +325,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — AS is seronegative yet treated with antibodies: rheumatoid factor and anti-CCP are absent, marking it apart from RA, while monoclonal antibodies against TNF and IL-17 are the mainstay that calms the spine when NSAIDs fall short.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The inflammation creeps toward the heart's core: AS causes aortic-root inflammation with regurgitation and conduction disease, fibrosis invading the valve and the AV node so the cardiomyocytes' wiring blocks and the rhythm slows.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Disease and drugs touch reproduction: AS strikes men in their reproductive prime, and family planning weighs the safety of NSAIDs and biologics in pregnancy, while severe spinal fusion can complicate the mechanics of conception and delivery.
+- `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — NSAIDs are AS's first-line drug: by blocking COX and the prostaglandins that mediate the inflammatory pain, they relieve symptoms and, taken continuously, may even slow the spinal new-bone formation that fuses the spine.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the enthesis: resident at the tendon-and-ligament insertions where AS begins, they are a major innate source of IL-17, helping ignite the enthesitis that is the disease's defining lesion.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Chronic inflammation hardens the arteries: AS raises cardiovascular risk through accelerated atherosclerosis, so heart attack and stroke become important causes of death and disease control doubles as cardiovascular protection.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
