@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney bears the brunt of tumor lysis: as venetoclax bursts the leukemic mass, surging uric acid and phosphate crystallize in the renal tubules, threatening acute kidney injury that hydration and rasburicase guard against."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "CLL leaves patients open to pneumococcus: the leukemic B cells crowd out normal antibody production, and the hypogammaglobulinemia invites recurrent pneumonia and sepsis from encapsulated bacteria — why pneumococcal vaccination and immunoglobulin replacement are used."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH1 is a recurrent driver in CLL: activating NOTCH1 mutations in roughly a tenth of cases sustain the leukemic cells and mark adverse prognosis and resistance to CD20 antibodies, helping risk-stratify whom to treat more aggressively."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "CLL's broken immunity lets other cancers through: with weakened tumor surveillance, patients face a markedly higher risk of second malignancies including melanoma, which tends to behave more aggressively, so regular skin checks are advised."
 ---
 
 # CLL
@@ -308,6 +317,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — CLL warps antibody both ways: the failing immune system makes too little normal immunoglobulin, leaving patients prone to infection, while anti-CD20 antibodies like obinutuzumab are a core treatment and autoantibodies can attack the blood cells.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — CLL drops the platelets by two routes: marrow crowding by leukemic cells and an autoimmune destruction (ITP) both lower the count, and a falling platelet level marks advancing disease that prompts treatment.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney bears the brunt of tumor lysis: as venetoclax bursts the leukemic mass, surging uric acid and phosphate crystallize in the renal tubules, threatening acute kidney injury that hydration and rasburicase guard against.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — CLL leaves patients open to pneumococcus: the leukemic B cells crowd out normal antibody production, and the hypogammaglobulinemia invites recurrent pneumonia and sepsis from encapsulated bacteria — why pneumococcal vaccination and immunoglobulin replacement are used.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH1 is a recurrent driver in CLL: activating NOTCH1 mutations in roughly a tenth of cases sustain the leukemic cells and mark adverse prognosis and resistance to CD20 antibodies, helping risk-stratify whom to treat more aggressively.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — CLL's broken immunity lets other cancers through: with weakened tumor surveillance, patients face a markedly higher risk of second malignancies including melanoma, which tends to behave more aggressively, so regular skin checks are advised.
 
 ---
 

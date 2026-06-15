@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The pills upset the gut: diarrhea is among the commonest TKI side effects — pronounced with bosutinib — and managing it is part of keeping patients on the daily therapy that controls the leukemia."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Some TKIs injure the vessel lining: nilotinib and ponatinib damage endothelial cells and accelerate atherosclerosis, raising the risk of arterial occlusion, peripheral artery disease and heart attack — the vascular toxicity that shapes which drug a CML patient receives."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-beta hides CML from cure: it keeps the leukemic stem cells quiescent through FOXO signaling, and these dormant cells survive even deep BCR-ABL inhibition — why most patients must keep taking TKIs and why stem-cell-targeting strategies are sought."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Long-term imatinib reshapes bone mineral handling: by blocking PDGFR and KIT on bone cells it lowers bone turnover and can disturb calcium and phosphate balance, an under-recognized metabolic effect of years on TKI therapy."
 ---
 
 # Chronic Myeloid Leukemia
@@ -308,6 +317,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The targeted drugs that tamed CML can wound the vessels: the newer TKIs — nilotinib and especially ponatinib — drive arterial thrombosis, hypertension, and cardiac events, a vascular toll weighed against their potency.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Lifelong TKI therapy collides with childbearing: imatinib and its successors are teratogenic, so conception must be planned around treatment interruptions, a central concern now that CML is a chronic, survivable disease.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The pills upset the gut: diarrhea is among the commonest TKI side effects — pronounced with bosutinib — and managing it is part of keeping patients on the daily therapy that controls the leukemia.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Some TKIs injure the vessel lining: nilotinib and ponatinib damage endothelial cells and accelerate atherosclerosis, raising the risk of arterial occlusion, peripheral artery disease and heart attack — the vascular toxicity that shapes which drug a CML patient receives.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-beta hides CML from cure: it keeps the leukemic stem cells quiescent through FOXO signaling, and these dormant cells survive even deep BCR-ABL inhibition — why most patients must keep taking TKIs and why stem-cell-targeting strategies are sought.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Long-term imatinib reshapes bone mineral handling: by blocking PDGFR and KIT on bone cells it lowers bone turnover and can disturb calcium and phosphate balance, an under-recognized metabolic effect of years on TKI therapy.
 
 ---
 
