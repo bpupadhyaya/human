@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Lobular breast cancer has a strange destination: the diffuse, single-file invasive lobular type characteristically metastasizes to the stomach and GI tract, sometimes mimicking a primary gastric cancer years after the breast tumor."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Losing p53 marks the hardest breast cancers: TP53 mutation is the rule in triple-negative and Li-Fraumeni-driven disease, unleashing genomic instability and an aggressive course that resists hormone and HER2 therapies."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "The cure can wound the heart: anthracyclines and HER2-targeted trastuzumab are cardiotoxic, so cancer-therapy-related heart failure is a key survivorship concern that ties breast oncology to cardiology surveillance."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Tumors recruit Tregs to hide from immunity: regulatory T cells infiltrate the breast tumor microenvironment and suppress the cytotoxic response, a marker of worse prognosis and a barrier to immunotherapy."
 ---
 
 # Breast Cancer
@@ -317,6 +326,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies define and treat the disease: ER, PR, and HER2 immunostains classify every tumor and pick the therapy, and the targeted drugs are antibodies themselves — trastuzumab and pertuzumab against HER2, plus the newer antibody-drug conjugates.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Chemotherapy hammers the marrow: the anthracycline and taxane regimens are myelosuppressive, dropping neutrophil counts so that growth-factor support and febrile-neutropenia vigilance run through treatment.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Lobular breast cancer has a strange destination: the diffuse, single-file invasive lobular type characteristically metastasizes to the stomach and GI tract, sometimes mimicking a primary gastric cancer years after the breast tumor.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Losing p53 marks the hardest breast cancers: TP53 mutation is the rule in triple-negative and Li-Fraumeni-driven disease, unleashing genomic instability and an aggressive course that resists hormone and HER2 therapies.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — The cure can wound the heart: anthracyclines and HER2-targeted trastuzumab are cardiotoxic, so cancer-therapy-related heart failure is a key survivorship concern that ties breast oncology to cardiology surveillance.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Tumors recruit Tregs to hide from immunity: regulatory T cells infiltrate the breast tumor microenvironment and suppress the cytotoxic response, a marker of worse prognosis and a barrier to immunotherapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

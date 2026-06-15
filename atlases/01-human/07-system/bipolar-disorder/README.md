@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Lithium and the gut-brain axis meet in the bowel: lithium commonly causes diarrhea that limits its dose, and the microbiome-gut-brain signaling implicated in mood adds another layer linking the gut to bipolar disorder."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Bipolar disorder and obesity feed each other: lithium, valproate, and antipsychotics drive weight gain while shared inflammation and inactivity push toward metabolic syndrome, making obesity one of its most common comorbidities and complicating drug choice."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The stress axis runs hot in mood episodes: bipolar disorder is marked by HPA-axis dysregulation, the adrenal glands oversecreting cortisol in both depression and mania, a disturbance that tracks with relapse and cognitive impairment."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Mania carries an inflammatory flush: TNF-α and other cytokines rise during acute episodes and settle with remission, part of the neuroinflammatory signature increasingly tied to bipolar disorder's course."
 ---
 
 # Bipolar Disorder
@@ -345,6 +354,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Mood episodes carry an inflammatory signature: IL-6 and other cytokines rise during mania and depression, supporting a neuroinflammation model in which immune activation feeds the brain changes of bipolar disorder.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The heart is the leading killer in bipolar disorder: chronic stress, inactivity, and the weight and metabolic effects of mood stabilizers and antipsychotics drive cardiovascular disease that shortens lifespan by over a decade.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Lithium and the gut-brain axis meet in the bowel: lithium commonly causes diarrhea that limits its dose, and the microbiome-gut-brain signaling implicated in mood adds another layer linking the gut to bipolar disorder.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Bipolar disorder and obesity feed each other: lithium, valproate, and antipsychotics drive weight gain while shared inflammation and inactivity push toward metabolic syndrome, making obesity one of its most common comorbidities and complicating drug choice.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The stress axis runs hot in mood episodes: bipolar disorder is marked by HPA-axis dysregulation, the adrenal glands oversecreting cortisol in both depression and mania, a disturbance that tracks with relapse and cognitive impairment.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Mania carries an inflammatory flush: TNF-α and other cytokines rise during acute episodes and settle with remission, part of the neuroinflammatory signature increasingly tied to bipolar disorder's course.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
