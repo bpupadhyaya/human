@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "The blood's inflammatory balance forecasts the course: a high neutrophil-to-lymphocyte ratio tracks with worse survival in uveal melanoma, and tumor-associated neutrophils help build the niche its liver metastases settle into."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody-like therapy finally moved the needle: tebentafusp, a bispecific gp100-CD3 engager, is the first agent to extend survival in metastatic uveal melanoma, while HMB-45 and Melan-A stains and loss of BAP1 confirm the tumor and predict spread."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Uveal melanoma is uniquely liver-hungry: over 90% of metastases home to the liver, the tumor cells seeding among the hepatocytes, which is why surveillance and liver-directed therapy dominate management of advanced disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Advanced disease shows in the red cells: extensive hepatic metastatic burden and its treatment depress erythrocyte production into an anemia, while rising liver enzymes and falling counts together signal progression."
 ---
 
 # Uveal Melanoma
@@ -320,6 +329,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The growing tumor blinds by lifting the retina: a choroidal melanoma bulges beneath and detaches the retina, starving its photoreceptor neurons and causing the flashes, floaters, and field loss that often bring the patient in.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Uveal melanoma builds its own false vessels: aggressive tumors weave PAS-positive collagen loops and networks (vasculogenic mimicry), and these closed loops are a histologic marker of the worst-prognosis tumors.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood's inflammatory balance forecasts the course: a high neutrophil-to-lymphocyte ratio tracks with worse survival in uveal melanoma, and tumor-associated neutrophils help build the niche its liver metastases settle into.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody-like therapy finally moved the needle: tebentafusp, a bispecific gp100-CD3 engager, is the first agent to extend survival in metastatic uveal melanoma, while HMB-45 and Melan-A stains and loss of BAP1 confirm the tumor and predict spread.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Uveal melanoma is uniquely liver-hungry: over 90% of metastases home to the liver, the tumor cells seeding among the hepatocytes, which is why surveillance and liver-directed therapy dominate management of advanced disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Advanced disease shows in the red cells: extensive hepatic metastatic burden and its treatment depress erythrocyte production into an anemia, while rising liver enzymes and falling counts together signal progression.
 
 ---
 

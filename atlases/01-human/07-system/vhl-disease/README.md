@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "VHL studs the pancreas with islet-cell tumors: its pancreatic neuroendocrine tumors are usually silent, but as tumors of the islets they can rarely oversecrete hormones such as glucagon, adding an endocrine twist to the syndrome."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains read VHL's tumors: inhibin-α and NSE confirm a cerebellar or retinal hemangioblastoma, while loss of carbonic anhydrase IX or characteristic markers helps tell its clear-cell kidney cancer from look-alikes on biopsy."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "VHL can drive the pressure up: its pheochromocytomas pour out catecholamines for episodic, dangerous hypertension, and the kidney tumors and their surgery add their own pressure effects — a reason these patients are screened for catecholamine excess."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Targeted therapy taxes the marrow: the VEGF tyrosine-kinase inhibitors long used for VHL kidney cancer suppress blood counts, dropping neutrophils, while the newer HIF-2α inhibitor belzutifan instead causes the anemia of switched-off erythropoietin."
 ---
 
 # VHL Disease
@@ -305,6 +314,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — VHL spills the body's red-cell signal: with the HIF brake gone, kidney and tumor pour out erythropoietin, raising the hemoglobin and hematocrit into polycythemia — while the HIF-2α drug belzutifan reverses it, often into anemia.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The hemangioblastoma's signature cell is fat-laden: between its dense capillaries sit vacuolated 'stromal cells' stuffed with lipid, the neoplastic VHL-mutant cells that electron microscopy resolves and that define the tumor.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — VHL studs the pancreas with islet-cell tumors: its pancreatic neuroendocrine tumors are usually silent, but as tumors of the islets they can rarely oversecrete hormones such as glucagon, adding an endocrine twist to the syndrome.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read VHL's tumors: inhibin-α and NSE confirm a cerebellar or retinal hemangioblastoma, while loss of carbonic anhydrase IX or characteristic markers helps tell its clear-cell kidney cancer from look-alikes on biopsy.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — VHL can drive the pressure up: its pheochromocytomas pour out catecholamines for episodic, dangerous hypertension, and the kidney tumors and their surgery add their own pressure effects — a reason these patients are screened for catecholamine excess.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Targeted therapy taxes the marrow: the VEGF tyrosine-kinase inhibitors long used for VHL kidney cancer suppress blood counts, dropping neutrophils, while the newer HIF-2α inhibitor belzutifan instead causes the anemia of switched-off erythropoietin.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
