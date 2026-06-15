@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/myc
     relation: connects-to
     note: "A MYC translocation defines the most aggressive B-ALL: mature B-cell (Burkitt-type) leukemia is driven by MYC switched on next to an antibody gene, demanding intensive, lymphoma-style treatment."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy distinguishes ALL's blast: a lymphoblast with a high nucleus-to-cytoplasm ratio, condensed chromatin, and scant organelles — and, crucially, none of the Auer rods that mark the myeloid leukemias."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Leukemia can settle in the skin: ALL blasts infiltrate it as leukemia cutis, firm violet nodules or plaques, an uncommon but telling sign that the disease has spilled beyond the blood and marrow."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Treating ALL convulses the body's chemistry: as chemotherapy bursts the huge mass of blasts in tumor lysis syndrome, magnesium and other electrolytes swing wildly, demanding close monitoring and correction to protect the heart and kidneys."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -311,6 +320,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ALL's tumor lysis spills phosphate too: dying blasts release phosphorus that binds calcium and crashes it, while precipitating in the kidneys, part of the metabolic emergency of starting chemotherapy.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ALL hides in the eye: like the brain, the eye is a sanctuary the bloodstream's chemotherapy reaches poorly, so leukemic infiltration there can seed relapse and is checked in high-risk disease.
 - `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — A MYC translocation defines the most aggressive B-ALL: mature B-cell (Burkitt-type) leukemia is driven by MYC switched on next to an antibody gene, demanding intensive, lymphoma-style treatment.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy distinguishes ALL's blast: a lymphoblast with a high nucleus-to-cytoplasm ratio, condensed chromatin, and scant organelles — and, crucially, none of the Auer rods that mark the myeloid leukemias.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Leukemia can settle in the skin: ALL blasts infiltrate it as leukemia cutis, firm violet nodules or plaques, an uncommon but telling sign that the disease has spilled beyond the blood and marrow.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Treating ALL convulses the body's chemistry: as chemotherapy bursts the huge mass of blasts in tumor lysis syndrome, magnesium and other electrolytes swing wildly, demanding close monitoring and correction to protect the heart and kidneys.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

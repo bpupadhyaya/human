@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Chronic drinking depletes zinc: poor intake and gut losses lower it, contributing to the skin problems, poor wound healing and weakened immunity seen in alcohol use disorder."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows alcohol's mark on the liver cell: fat droplets swell the hepatocyte, the cytoskeleton tangles into Mallory-Denk bodies, and giant megamitochondria appear, the ultrastructure of alcoholic liver injury."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The failing liver writes on the skin: spider angiomata, palmar erythema, jaundice, and the dilated caput medusae veins are visible stigmata that betray the chronic liver damage of heavy drinking."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Drinkers run dangerously low on phosphorus: poor intake and the shifts of refeeding can crash blood phosphate, sapping the energy molecule ATP and causing the muscle weakness and rhabdomyolysis seen in alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -363,6 +372,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging reveals alcohol's toll: brain MRI shows the shrinkage and the mammillary-body changes of Wernicke's, and fMRI photons map the reward-circuit response that drives craving.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Alcohol poisons the peripheral nerves: direct toxicity and thiamine deficiency cause a painful, numbing length-dependent neuropathy, one of its most common neurological harms.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Chronic drinking depletes zinc: poor intake and gut losses lower it, contributing to the skin problems, poor wound healing and weakened immunity seen in alcohol use disorder.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows alcohol's mark on the liver cell: fat droplets swell the hepatocyte, the cytoskeleton tangles into Mallory-Denk bodies, and giant megamitochondria appear, the ultrastructure of alcoholic liver injury.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The failing liver writes on the skin: spider angiomata, palmar erythema, jaundice, and the dilated caput medusae veins are visible stigmata that betray the chronic liver damage of heavy drinking.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Drinkers run dangerously low on phosphorus: poor intake and the shifts of refeeding can crash blood phosphate, sapping the energy molecule ATP and causing the muscle weakness and rhabdomyolysis seen in alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
