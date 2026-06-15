@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Relapse regimens leak magnesium: the ifosfamide and carboplatin used for high-risk or recurrent Wilms injure the kidney tubule, wasting magnesium and potassium that must be replaced — a special concern when one kidney has already been removed."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Wilms tumor can hijack blood-pressure control: some secrete renin or compress the renal vasculature, driving a paraneoplastic hypertension that often resolves once the tumor is removed."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Its chemotherapy can scar the heart: doxorubicin, used for higher-risk Wilms tumor, is cumulatively cardiotoxic to cardiomyocytes, so survivors are followed for a late cardiomyopathy across decades."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The multi-drug chemotherapy lowers the platelets: the vincristine-actinomycin-doxorubicin regimens suppress platelet production into thrombocytopenia, raising bleeding risk through the months of treatment."
 ---
 
 # Wilms Tumor
@@ -324,6 +333,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody confirms the blastema: nuclear WT1 staining on biopsy marks the embryonic kidney cells of a Wilms tumor, helping separate this triphasic nephroblastoma from the other small round blue cell tumors of childhood.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The chemotherapy empties the marrow: adding doxorubicin and, for higher-risk disease, agents like cyclophosphamide and etoposide is myelosuppressive, dropping neutrophil counts so that febrile neutropenia is watched through treatment.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Relapse regimens leak magnesium: the ifosfamide and carboplatin used for high-risk or recurrent Wilms injure the kidney tubule, wasting magnesium and potassium that must be replaced — a special concern when one kidney has already been removed.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Wilms tumor can hijack blood-pressure control: some secrete renin or compress the renal vasculature, driving a paraneoplastic hypertension that often resolves once the tumor is removed.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Its chemotherapy can scar the heart: doxorubicin, used for higher-risk Wilms tumor, is cumulatively cardiotoxic to cardiomyocytes, so survivors are followed for a late cardiomyopathy across decades.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The multi-drug chemotherapy lowers the platelets: the vincristine-actinomycin-doxorubicin regimens suppress platelet production into thrombocytopenia, raising bleeding risk through the months of treatment.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

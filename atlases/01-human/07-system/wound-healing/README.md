@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/sepsis
     relation: connects-to
     note: "A wound is a doorway to the bloodstream: when local infection breaches the granulation barrier, bacteria and their toxins spill into the circulation, and wound sepsis turns a local repair problem into a life-threatening systemic one."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen speeds repair: it boosts collagen deposition and dampens the excessive inflammation that stalls healing, which is why wounds close more slowly after menopause and topical estrogen has been tried to accelerate them."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Fat cells join the repair crew: dermal adipocytes and adipose-derived stem cells help recruit fibroblasts and rebuild the wound bed, while the dysfunctional adipose of obesity instead impairs healing."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys slow every wound: the uremia, anemia, and poor perfusion of chronic kidney disease blunt the inflammatory and proliferative phases, making non-healing wounds and ulcers a common, stubborn problem in these patients."
 ---
 
 # Wound Healing
@@ -322,6 +331,9 @@ cross_links:
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — New vessels must be built and then stabilized: in the proliferative phase angiopoietins work with VEGF to sprout and mature the capillaries that feed granulation tissue, the blood supply without which a wound cannot fill in.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Infection is the great stall: Staphylococcus aureus colonizes wounds and builds biofilms that lock healing in a chronic inflammatory phase, the prime reason surgical and chronic wounds fail to close.
 - `connects-to` → **[Sepsis](../sepsis/README.md)** — A wound is a doorway to the bloodstream: when local infection breaches the granulation barrier, bacteria and their toxins spill into the circulation, and wound sepsis turns a local repair problem into a life-threatening systemic one.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen speeds repair: it boosts collagen deposition and dampens the excessive inflammation that stalls healing, which is why wounds close more slowly after menopause and topical estrogen has been tried to accelerate them.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat cells join the repair crew: dermal adipocytes and adipose-derived stem cells help recruit fibroblasts and rebuild the wound bed, while the dysfunctional adipose of obesity instead impairs healing.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys slow every wound: the uremia, anemia, and poor perfusion of chronic kidney disease blunt the inflammatory and proliferative phases, making non-healing wounds and ulcers a common, stubborn problem in these patients.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
