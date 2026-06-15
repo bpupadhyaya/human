@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Late colorectal cancer can reach the bone: after seeding the liver and lungs, advanced disease occasionally spreads to the marrow-filled skeleton, an uncommon but ominous site marking widespread metastasis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "FOLFOX chemotherapy bites the nerves: oxaliplatin, a backbone of colorectal cancer treatment, injures peripheral sensory neurons, causing a distinctive cold-triggered tingling and numbness that can force dose reductions and outlast therapy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Targeted therapy wastes magnesium: the anti-EGFR antibodies cetuximab and panitumumab, used in RAS-wild-type colorectal cancer, block EGFR in the kidney tubule, so magnesium leaks into the urine and must be monitored and replaced."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin reports on EGFR-blocking drugs: cetuximab and panitumumab provoke an acneiform facial rash, and its severity actually tracks with how well the colorectal tumor is responding, making the rash a visible biomarker."
 ---
 
 # Colorectal Cancer
@@ -299,6 +308,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads colorectal cancer's grade in its glands: well-differentiated tumor cells keep orderly microvilli and tight junctions making lumina, while poorly differentiated ones lose this architecture — ultrastructure that tracks how aggressive the cancer is.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Colorectal cancer pushes platelets up: a paraneoplastic thrombocytosis appears in many patients and signals worse prognosis, while the platelets themselves help circulating tumor cells survive and seed the liver.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Late colorectal cancer can reach the bone: after seeding the liver and lungs, advanced disease occasionally spreads to the marrow-filled skeleton, an uncommon but ominous site marking widespread metastasis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — FOLFOX chemotherapy bites the nerves: oxaliplatin, a backbone of colorectal cancer treatment, injures peripheral sensory neurons, causing a distinctive cold-triggered tingling and numbness that can force dose reductions and outlast therapy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Targeted therapy wastes magnesium: the anti-EGFR antibodies cetuximab and panitumumab, used in RAS-wild-type colorectal cancer, block EGFR in the kidney tubule, so magnesium leaks into the urine and must be monitored and replaced.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin reports on EGFR-blocking drugs: cetuximab and panitumumab provoke an acneiform facial rash, and its severity actually tracks with how well the colorectal tumor is responding, making the rash a visible biomarker.
 
 ---
 

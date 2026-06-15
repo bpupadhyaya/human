@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Cannabis in the teenage years disturbs the brain's wiring insulation: THC during the years when oligodendrocytes are still myelinating tracts impairs white-matter development, linked to lasting deficits in attention and memory."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Heavy chronic use can paradoxically wreck the gut: cannabinoid hyperemesis syndrome brings cyclic bouts of severe vomiting and abdominal pain, oddly relieved by hot showers and cured only by stopping the cannabis."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "THC opens the appetite: by activating CB1 receptors in the hypothalamus and tilting the ghrelin-driven hunger signal, cannabis produces the ravenous 'munchies' exploited medically to fight cancer and AIDS wasting."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Quitting unsettles the mood chemistry: cannabis withdrawal brings irritability, anxiety, and low mood tied in part to disturbed serotonin signaling, and 5-HT3 serotonin blockers are among the antiemetics tried for the hyperemesis."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -313,6 +322,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons trace cannabis's mark on the brain: functional MRI and PET show a blunted reward circuit and altered dopamine signaling in heavy users, the imaging evidence of how chronic exposure reshapes motivation and craving.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Cannabinoid hyperemesis can injure the kidneys: the relentless vomiting and the compulsive hot showers used to relieve it drive dehydration severe enough to cause acute kidney injury during an episode.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Cannabis in the teenage years disturbs the brain's wiring insulation: THC during the years when oligodendrocytes are still myelinating tracts impairs white-matter development, linked to lasting deficits in attention and memory.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Heavy chronic use can paradoxically wreck the gut: cannabinoid hyperemesis syndrome brings cyclic bouts of severe vomiting and abdominal pain, oddly relieved by hot showers and cured only by stopping the cannabis.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — THC opens the appetite: by activating CB1 receptors in the hypothalamus and tilting the ghrelin-driven hunger signal, cannabis produces the ravenous 'munchies' exploited medically to fight cancer and AIDS wasting.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Quitting unsettles the mood chemistry: cannabis withdrawal brings irritability, anxiety, and low mood tied in part to disturbed serotonin signaling, and 5-HT3 serotonin blockers are among the antiemetics tried for the hyperemesis.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
