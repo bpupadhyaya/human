@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "OCCC can reach the chest: advanced disease produces malignant pleural effusions and lung metastases, the thoracic spread that defines stage IV and signals the hard-to-treat end of this subtype."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains pin down the subtype: HNF1B and Napsin A staining with loss of ARID1A confirm clear-cell histology and its endometriosis origin, separating OCCC from the high-grade serous tumors that demand different treatment."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "This subtype resists platinum, so the marrow still pays: the carboplatin-paclitaxel given despite OCCC's chemoresistance is myelosuppressive, dropping neutrophils between cycles, while a high neutrophil-to-lymphocyte ratio flags its poorer prognosis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Platinum therapy wastes magnesium: carboplatin injures the kidney tubule that reclaims it, so blood magnesium and potassium fall and must be replaced through the cycles, even as OCCC responds less well to that platinum than other ovarian cancers."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -325,6 +334,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Even a platinum-resistant tumor exacts a neural toll: OCCC is treated up front with carboplatin and paclitaxel, and the taxane in particular injures peripheral sensory neurons, leaving lasting numbness despite the subtype's poor chemo response.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — OCCC announces itself with fluid: like other ovarian cancers it seeds the peritoneum and produces malignant ascites, while tumor burden and poor nutrition drive down blood albumin, a marker that tracks with worse outcomes.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — OCCC can reach the chest: advanced disease produces malignant pleural effusions and lung metastases, the thoracic spread that defines stage IV and signals the hard-to-treat end of this subtype.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains pin down the subtype: HNF1B and Napsin A staining with loss of ARID1A confirm clear-cell histology and its endometriosis origin, separating OCCC from the high-grade serous tumors that demand different treatment.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — This subtype resists platinum, so the marrow still pays: the carboplatin-paclitaxel given despite OCCC's chemoresistance is myelosuppressive, dropping neutrophils between cycles, while a high neutrophil-to-lymphocyte ratio flags its poorer prognosis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum therapy wastes magnesium: carboplatin injures the kidney tubule that reclaims it, so blood magnesium and potassium fall and must be replaced through the cycles, even as OCCC responds less well to that platinum than other ovarian cancers.
 
 ---
 

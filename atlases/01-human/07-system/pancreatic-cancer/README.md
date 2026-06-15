@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Treatment leaks magnesium away: platinum chemotherapy and EGFR-blocking erlotinib both injure the kidney's handling of magnesium, so levels are tracked and replaced through the course of pancreatic cancer care."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "CA19-9 is read by an antibody: the marker is measured by an immunoassay to follow response and relapse, though it misses Lewis-negative patients, and antibody stains for CK7 and SMAD4 loss help confirm pancreatic origin on a tiny biopsy."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Losing the pancreas makes diabetes treacherous: as the tumor and surgery destroy the alpha cells that make glucagon along with the insulin-making beta cells, the body loses its defense against lows, leaving a brittle diabetes prone to dangerous hypoglycemia."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "FOLFIRINOX and gemcitabine batter the marrow: the chemotherapy backbones of pancreatic cancer are strongly myelosuppressive, dropping neutrophil counts so that growth-factor support and infection vigilance run through every cycle."
 ---
 
 # Pancreatic Cancer
@@ -311,6 +320,9 @@ cross_links:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — FOLFIRINOX's price is the nerves: oxaliplatin, a pillar of pancreatic cancer chemotherapy, injures peripheral sensory neurons, causing a cold-triggered tingling and numbness that can force dose cuts and linger after treatment ends.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Pancreatic cancer starves the body of protein: profound cachexia and poor intake drop blood albumin, and a low albumin marks the wasting and inflammation that predict shorter survival and poorer tolerance of treatment.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Treatment leaks magnesium away: platinum chemotherapy and EGFR-blocking erlotinib both injure the kidney's handling of magnesium, so levels are tracked and replaced through the course of pancreatic cancer care.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — CA19-9 is read by an antibody: the marker is measured by an immunoassay to follow response and relapse, though it misses Lewis-negative patients, and antibody stains for CK7 and SMAD4 loss help confirm pancreatic origin on a tiny biopsy.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Losing the pancreas makes diabetes treacherous: as the tumor and surgery destroy the alpha cells that make glucagon along with the insulin-making beta cells, the body loses its defense against lows, leaving a brittle diabetes prone to dangerous hypoglycemia.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — FOLFIRINOX and gemcitabine batter the marrow: the chemotherapy backbones of pancreatic cancer are strongly myelosuppressive, dropping neutrophil counts so that growth-factor support and infection vigilance run through every cycle.
 
 ---
 
