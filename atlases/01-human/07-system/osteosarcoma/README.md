@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Osteosarcoma's chemotherapy frays the nerves: cisplatin, the 'P' of the MAP regimen, damages peripheral sensory neurons and the cochlear nerve, leaving lasting numbness and hearing loss as a price of the cure."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains read the bone tumor: SATB2 and osteocalcin staining confirm the malignant cells are making bone (osteoid), distinguishing osteosarcoma from other small-cell and spindle-cell sarcomas on a difficult biopsy."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The MAP regimen empties the marrow: high-dose methotrexate, doxorubicin, and cisplatin are heavily myelosuppressive, so neutrophil counts crater between cycles and febrile neutropenia is a recurring danger of curative treatment."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cisplatin in the regimen wastes magnesium: the platinum drug injures the kidney tubule that reclaims it, dropping blood magnesium and potassium so they must be replaced alongside the careful hydration the chemotherapy demands."
 ---
 
 # Osteosarcoma
@@ -314,6 +323,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Curing osteosarcoma can cost the heart: doxorubicin, a backbone of the MAP chemotherapy regimen, is cardiotoxic in a cumulative dose-dependent way, risking a late dilated cardiomyopathy that survivors must be monitored for for decades.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Osteosarcoma rides the growth spurt: its incidence peaks in adolescence at the fastest-growing metaphyses — the distal femur and proximal tibia — and taller children carry higher risk, tying the tumor to the growth-hormone-driven surge in bone turnover.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Osteosarcoma's chemotherapy frays the nerves: cisplatin, the 'P' of the MAP regimen, damages peripheral sensory neurons and the cochlear nerve, leaving lasting numbness and hearing loss as a price of the cure.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read the bone tumor: SATB2 and osteocalcin staining confirm the malignant cells are making bone (osteoid), distinguishing osteosarcoma from other small-cell and spindle-cell sarcomas on a difficult biopsy.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The MAP regimen empties the marrow: high-dose methotrexate, doxorubicin, and cisplatin are heavily myelosuppressive, so neutrophil counts crater between cycles and febrile neutropenia is a recurring danger of curative treatment.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin in the regimen wastes magnesium: the platinum drug injures the kidney tubule that reclaims it, dropping blood magnesium and potassium so they must be replaced alongside the careful hydration the chemotherapy demands.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Platinum chemotherapy drains magnesium: carboplatin injures the kidney's tubules, which then waste magnesium, so blood levels are watched and replaced through the months of ovarian cancer treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies track and treat the disease: the CA-125 tumor marker is measured by an antibody immunoassay to follow response and relapse, while anti-VEGF bevacizumab is added to chemotherapy to starve the tumor's blood supply."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The carboplatin-paclitaxel backbone hammers the marrow: both drugs are myelosuppressive, so the neutrophil count falls between cycles and febrile neutropenia is one of the recurring hazards of ovarian-cancer chemotherapy."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Anemia shadows the long course: chronic disease, repeated chemotherapy, and the slow ooze of peritoneal disease deplete red cells, the fatigue of low erythrocytes often needing transfusion across months of treatment."
 ---
 
 # Ovarian Cancer
@@ -299,6 +308,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — First-line chemotherapy stings the nerves: paclitaxel, the taxane paired with carboplatin against ovarian cancer, damages peripheral sensory neurons, leaving a stocking-glove numbness and tingling that can outlast the treatment.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy traces ovarian cancer to its source: most high-grade serous tumors begin not in the ovary but in the fallopian tube's secretory cells, distinguished by EM from their ciliated neighbors at the fimbrial end.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy drains magnesium: carboplatin injures the kidney's tubules, which then waste magnesium, so blood levels are watched and replaced through the months of ovarian cancer treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies track and treat the disease: the CA-125 tumor marker is measured by an antibody immunoassay to follow response and relapse, while anti-VEGF bevacizumab is added to chemotherapy to starve the tumor's blood supply.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The carboplatin-paclitaxel backbone hammers the marrow: both drugs are myelosuppressive, so the neutrophil count falls between cycles and febrile neutropenia is one of the recurring hazards of ovarian-cancer chemotherapy.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia shadows the long course: chronic disease, repeated chemotherapy, and the slow ooze of peritoneal disease deplete red cells, the fatigue of low erythrocytes often needing transfusion across months of treatment.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
