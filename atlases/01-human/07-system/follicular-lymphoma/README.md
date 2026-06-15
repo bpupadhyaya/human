@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Follicular lymphoma depends on endothelial cells: VEGF from the tumor and its niche recruits these vessel-lining cells to build the vasculature that sustains the slow-growing clone in the lymph node."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "When follicular lymphoma transforms to aggressive DLBCL and is treated, rapid cell death can trigger tumor lysis, spilling phosphate and potassium into the blood as a metabolic emergency."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Follicular lymphoma has a skin form: primary cutaneous follicle-center lymphoma appears as slow-growing nodules on the head and trunk, an indolent cousin of the nodal disease."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "Follicular lymphoma leans on its niche: T-follicular-helper cells feed the malignant B cells signals like IL-4 and CD40L, so the tumor depends on a supportive microenvironment, not its mutations alone."
 ---
 
 # Follicular Lymphoma
@@ -285,6 +294,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Follicular lymphoma quietly drains iron: marrow infiltration and chronic disease suppress red-cell production and sequester iron, so anemia often accompanies this slow-growing lymphoma.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Follicular lymphoma has a gut form: duodenal-type follicular lymphoma arises in the small intestine as an indolent, often localized disease found incidentally on endoscopy.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Follicular lymphoma depends on endothelial cells: VEGF from the tumor and its niche recruits these vessel-lining cells to build the vasculature that sustains the slow-growing clone in the lymph node.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — When follicular lymphoma transforms to aggressive DLBCL and is treated, rapid cell death can trigger tumor lysis, spilling phosphate and potassium into the blood as a metabolic emergency.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Follicular lymphoma has a skin form: primary cutaneous follicle-center lymphoma appears as slow-growing nodules on the head and trunk, an indolent cousin of the nodal disease.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Follicular lymphoma leans on its niche: T-follicular-helper cells feed the malignant B cells signals like IL-4 and CD40L, so the tumor depends on a supportive microenvironment, not its mutations alone.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

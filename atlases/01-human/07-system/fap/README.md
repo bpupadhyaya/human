@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "FAP's adenomas summon endothelial cells: VEGF from the growing polyps drives these vessel-lining cells to build blood supply, which is why COX-2 inhibitors that curb this angiogenesis shrink polyp burden."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "FAP is policed by light: lifelong colonoscopy hunts the polyps, and a dilated eye exam spots CHRPE—the dark retinal patches that mark the syndrome—both relying on visible-light viewing."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "FAP's desmoid tumors are fibrosis run amok: APC loss lets fibroblasts build invasive fibrous masses, the desmoids that become a leading cause of death once the colon is removed."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "FAP raises thyroid cancer risk: a distinctive cribriform-morular papillary thyroid carcinoma occurs especially in young women with the syndrome, so thyroid screening is advised."
 ---
 
 # Familial Adenomatous Polyposis
@@ -299,6 +308,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — FAP's polyps bleed away iron: hundreds of colonic adenomas ooze blood, so chronic loss drains the body's iron into a deficiency anemia that can be an early clue before cancer develops.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — FAP extends cancer risk to the pancreas: beyond the colon, the APC defect raises the chance of duodenal, periampullary, and pancreatic tumors, so surveillance reaches the upper GI tract too.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — FAP's adenomas summon endothelial cells: VEGF from the growing polyps drives these vessel-lining cells to build blood supply, which is why COX-2 inhibitors that curb this angiogenesis shrink polyp burden.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — FAP is policed by light: lifelong colonoscopy hunts the polyps, and a dilated eye exam spots CHRPE—the dark retinal patches that mark the syndrome—both relying on visible-light viewing.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — FAP's desmoid tumors are fibrosis run amok: APC loss lets fibroblasts build invasive fibrous masses, the desmoids that become a leading cause of death once the colon is removed.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — FAP raises thyroid cancer risk: a distinctive cribriform-morular papillary thyroid carcinoma occurs especially in young women with the syndrome, so thyroid screening is advised.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
