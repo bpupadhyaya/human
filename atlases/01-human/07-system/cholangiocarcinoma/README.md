@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "TGF-β drives cholangiocarcinoma's dense scar: it activates fibroblasts to build the desmoplastic stroma that armors the tumor against drugs and immune cells, a hallmark of bile-duct cancer."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads cholangiocarcinoma as a gland-maker: its cells form duct-like lumina with microvilli and secrete mucin, the adenocarcinoma ultrastructure embedded in the dense fibrous stroma that defines bile-duct cancer."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Cholangiocarcinoma spreads outward to the lung: beyond invading the liver it is around, the tumor metastasizes hematogenously to the lungs and bones, marking the advanced disease that surgery can no longer cure."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The bile-duct cancer can seed the skeleton: bone metastases, reaching the marrow-filled vertebrae and pelvis, are a painful late manifestation of its hematogenous spread."
 ---
 
 # Cholangiocarcinoma
@@ -268,6 +277,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cholangiocarcinoma is tied to the bowel: primary sclerosing cholangitis with inflammatory bowel disease is a major risk factor, linking colonic inflammation to cancer of the bile ducts.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells patrol the liver against cholangiocarcinoma: abundant in hepatic tissue, they can kill tumor cells, and boosting their dampened activity is an immunotherapy strategy against this resistant cancer.
 - `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives cholangiocarcinoma's dense scar: it activates fibroblasts to build the desmoplastic stroma that armors the tumor against drugs and immune cells, a hallmark of bile-duct cancer.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads cholangiocarcinoma as a gland-maker: its cells form duct-like lumina with microvilli and secrete mucin, the adenocarcinoma ultrastructure embedded in the dense fibrous stroma that defines bile-duct cancer.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Cholangiocarcinoma spreads outward to the lung: beyond invading the liver it is around, the tumor metastasizes hematogenously to the lungs and bones, marking the advanced disease that surgery can no longer cure.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The bile-duct cancer can seed the skeleton: bone metastases, reaching the marrow-filled vertebrae and pelvis, are a painful late manifestation of its hematogenous spread.
 
 ---
 

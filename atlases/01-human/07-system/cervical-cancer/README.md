@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Pelvic chemoradiation for cervical cancer hits the bone marrow: much of the body's active marrow sits in the pelvis, so treatment causes cytopenias that limit how much chemotherapy can be given."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals HPV's fingerprint on the cervix: infected cells become koilocytes with a clear perinuclear halo and shrunken raisin-like nucleus, and viral particles assemble in the upper layers — the cytologic clue a Pap smear hunts for."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Cervical cancer rarely reaches the brain, but when it does it marks the end stage: late hematogenous spread seeds cerebral metastases, an uncommon site beyond its usual march to lung, liver, and bone."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D may help the body clear HPV: deficiency is associated with persistent infection and cervical dysplasia, fitting the vitamin's role in the immune defense that decides whether an HPV infection resolves or progresses."
 ---
 
 # Cervical Cancer
@@ -294,6 +303,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Cervical cancer is fed by new vessels: VEGF drives endothelial cells to vascularize the tumor, and bevacizumab that blocks them improves survival in advanced disease.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cervical cancer ultimately spreads to the liver: hematogenous metastasis to liver, lung and bone marks advanced disease beyond its local pelvic invasion.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Pelvic chemoradiation for cervical cancer hits the bone marrow: much of the body's active marrow sits in the pelvis, so treatment causes cytopenias that limit how much chemotherapy can be given.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals HPV's fingerprint on the cervix: infected cells become koilocytes with a clear perinuclear halo and shrunken raisin-like nucleus, and viral particles assemble in the upper layers — the cytologic clue a Pap smear hunts for.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cervical cancer rarely reaches the brain, but when it does it marks the end stage: late hematogenous spread seeds cerebral metastases, an uncommon site beyond its usual march to lung, liver, and bone.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D may help the body clear HPV: deficiency is associated with persistent infection and cervical dysplasia, fitting the vitamin's role in the immune defense that decides whether an HPV infection resolves or progresses.
 
 ---
 
