@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/il-1b
     relation: connects-to
     note: "IL-1beta shapes the TB granuloma's balance: the inflammasome cytokine helps control the bacteria but, in excess, drives the tissue destruction and cavitation that spread infection, so it sits at the knife-edge of protection and damage."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Tuberculosis is a fight over iron: the bacterium needs iron to grow and scavenges it from the host, while the body locks iron away to starve it—a tug-of-war in which iron overload tilts toward the microbe."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Tuberculosis can wrap the heart: TB pericarditis fills the sac with fluid and later scars it into a constricting shell, a dangerous extrapulmonary form especially common with HIV."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Miliary tuberculosis seeds the bone marrow: bloodborne spread studs the marrow with granulomas, suppressing blood production and causing the pancytopenia of disseminated disease."
 ---
 
 # Tuberculosis
@@ -281,6 +290,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Healed TB leaves a calcium signature: the Ghon focus and lymph node it drains often calcify into the Ranke complex, so flecks of calcium on a chest X-ray mark old, walled-off infection that can later reactivate.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — TB can settle in the gut: swallowed bacteria or bloodborne spread seed intestinal tuberculosis, especially the ileocecal region, mimicking Crohn's disease with pain, obstruction and weight loss.
 - `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1beta shapes the TB granuloma's balance: the inflammasome cytokine helps control the bacteria but, in excess, drives the tissue destruction and cavitation that spread infection, so it sits at the knife-edge of protection and damage.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Tuberculosis is a fight over iron: the bacterium needs iron to grow and scavenges it from the host, while the body locks iron away to starve it—a tug-of-war in which iron overload tilts toward the microbe.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Tuberculosis can wrap the heart: TB pericarditis fills the sac with fluid and later scars it into a constricting shell, a dangerous extrapulmonary form especially common with HIV.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Miliary tuberculosis seeds the bone marrow: bloodborne spread studs the marrow with granulomas, suppressing blood production and causing the pancytopenia of disseminated disease.
 
 ## See Also
 

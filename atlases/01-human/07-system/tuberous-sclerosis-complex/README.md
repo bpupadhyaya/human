@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Tuberous sclerosis sits on the AKT-mTOR growth axis: losing TSC1/2 removes the brake just upstream of mTOR, so AKT-driven signaling runs unchecked to grow hamartomas everywhere—why mTOR inhibitors like everolimus shrink them."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Tuberous sclerosis calcifies the brain with calcium phosphate: its subependymal nodules harden into calcium-phosphate deposits visible on imaging, a diagnostic hallmark of the disease."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Tuberous sclerosis grows fat-laden tumors: its angiomyolipomas blend adipocytes with vessels and smooth muscle, the fatty component giving these kidney and liver growths their characteristic look."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Tuberous sclerosis reaches the liver: angiomyolipomas, the fatty vascular tumors typical of the kidney, also arise in the liver, extending the hamartoma burden of unchecked mTOR beyond it."
 ---
 
 # Tuberous Sclerosis Complex
@@ -287,6 +296,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Tuberous sclerosis leaves calcium marks in the brain: subependymal nodules along the ventricles calcify and show up on imaging, a hallmark that, with cortical tubers, helps diagnose the mTOR-driven syndrome.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Runaway mTOR in tuberous sclerosis disrupts synapses: excess signaling derails the synaptic protein-making and pruning that circuits need, producing the epilepsy and autism that dominate the disease—targets for mTOR-inhibitor therapy.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Tuberous sclerosis sits on the AKT-mTOR growth axis: losing TSC1/2 removes the brake just upstream of mTOR, so AKT-driven signaling runs unchecked to grow hamartomas everywhere—why mTOR inhibitors like everolimus shrink them.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Tuberous sclerosis calcifies the brain with calcium phosphate: its subependymal nodules harden into calcium-phosphate deposits visible on imaging, a diagnostic hallmark of the disease.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Tuberous sclerosis grows fat-laden tumors: its angiomyolipomas blend adipocytes with vessels and smooth muscle, the fatty component giving these kidney and liver growths their characteristic look.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Tuberous sclerosis reaches the liver: angiomyolipomas, the fatty vascular tumors typical of the kidney, also arise in the liver, extending the hamartoma burden of unchecked mTOR beyond it.
 
 ---
 
