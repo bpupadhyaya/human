@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "The cure is hard on the liver: isoniazid, rifampin, and pyrazinamide are all hepatotoxic, injuring hepatocytes into a drug-induced hepatitis that is the chief reason TB therapy must be monitored and sometimes interrupted."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "TB quietly causes infertility: genitourinary tuberculosis scars the fallopian tubes and epididymis, an important and treatable cause of infertility in high-burden regions, while active TB in pregnancy threatens mother and fetus."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "The bacillus turns the body's brakes against it: M. tuberculosis induces IL-10, the anti-inflammatory cytokine that dampens the protective Th1 response and helps the organism survive inside macrophages as latent infection."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "TB can settle in the eye: hematogenous spread seeds choroidal tubercles in miliary disease and drives a chronic uveitis, an ocular tuberculosis that can threaten sight and signals disseminated infection."
 ---
 
 # Tuberculosis
@@ -329,6 +338,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — TB is fought by cells, not antibodies: the response is T-cell and macrophage driven, so antibody serology is too unreliable for diagnosis that the WHO recommends against it, and detection rests instead on IGRA, smear, culture, and molecular tests.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — TB can eat into the skeleton: spread to the spine causes Pott's disease, collapsing vertebrae into a gibbus deformity, while tuberculous arthritis and dactylitis mark its reach into bone and joint beyond the lung.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The cure is hard on the liver: isoniazid, rifampin, and pyrazinamide are all hepatotoxic, injuring hepatocytes into a drug-induced hepatitis that is the chief reason TB therapy must be monitored and sometimes interrupted.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — TB quietly causes infertility: genitourinary tuberculosis scars the fallopian tubes and epididymis, an important and treatable cause of infertility in high-burden regions, while active TB in pregnancy threatens mother and fetus.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The bacillus turns the body's brakes against it: M. tuberculosis induces IL-10, the anti-inflammatory cytokine that dampens the protective Th1 response and helps the organism survive inside macrophages as latent infection.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — TB can settle in the eye: hematogenous spread seeds choroidal tubercles in miliary disease and drives a chronic uveitis, an ocular tuberculosis that can threaten sight and signals disseminated infection.
 
 ## See Also
 

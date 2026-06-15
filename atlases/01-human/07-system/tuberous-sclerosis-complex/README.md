@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "The mTOR-inhibitor therapy taxes the marrow and mucosa: everolimus and sirolimus, used to shrink SEGAs and angiomyolipomas, can drop neutrophil counts and cause mouth ulcers, raising the infection risk that comes with long-term mTOR blockade."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "TSC seizures yield to a GABA drug: vigabatrin, which raises brain GABA by blocking its breakdown, is uniquely effective first-line for the infantile spasms of TSC, reflecting the GABAergic imbalance the tubers create in the developing cortex."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Overactive mTOR inflames the brain's resident immune cells: microglia around the cortical tubers turn reactive and help drive the epileptogenic, inflamed circuitry, a process that mTOR inhibitors may calm alongside their effect on the neurons."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "The heaviest TSC burden is often behavioral: TSC-associated neuropsychiatric disorders (TAND) include high rates of anxiety and depression beyond the autism and ADHD, a frequently under-recognized and under-treated dimension of the syndrome."
 ---
 
 # Tuberous Sclerosis Complex
@@ -335,6 +344,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody marks TSC's odd cells: the perivascular epithelioid cells of renal angiomyolipoma and pulmonary LAM stain for HMB-45, a melanocytic marker that confirms these mTOR-driven tumors, while the mTOR-inhibitor drugs that treat them are themselves immunosuppressive.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — TSC's lung disease is a women's disease: lymphangioleiomyomatosis is estrogen-sensitive and strikes women of reproductive age, and pregnancy can swell both LAM and the kidney angiomyolipomas, making reproductive planning part of care.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The mTOR-inhibitor therapy taxes the marrow and mucosa: everolimus and sirolimus, used to shrink SEGAs and angiomyolipomas, can drop neutrophil counts and cause mouth ulcers, raising the infection risk that comes with long-term mTOR blockade.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — TSC seizures yield to a GABA drug: vigabatrin, which raises brain GABA by blocking its breakdown, is uniquely effective first-line for the infantile spasms of TSC, reflecting the GABAergic imbalance the tubers create in the developing cortex.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Overactive mTOR inflames the brain's resident immune cells: microglia around the cortical tubers turn reactive and help drive the epileptogenic, inflamed circuitry, a process that mTOR inhibitors may calm alongside their effect on the neurons.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The heaviest TSC burden is often behavioral: TSC-associated neuropsychiatric disorders (TAND) include high rates of anxiety and depression beyond the autism and ADHD, a frequently under-recognized and under-treated dimension of the syndrome.
 
 ---
 
