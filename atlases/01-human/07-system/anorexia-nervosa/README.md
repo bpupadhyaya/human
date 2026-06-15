@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Anorexia leaches calcium from the bones: estrogen collapse and poor intake during the years bone should be built leave the skeleton thin and brittle, an often irreversible osteoporosis even in the young."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Starvation slows the stomach: chronic undereating causes gastroparesis with early fullness and bloating, and during refeeding the weak, dilated stomach risks a dangerous acute gastric dilatation."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Anorexia rewires the growth axis into resistance: growth hormone runs high but the starved liver makes little IGF-1, so the anabolic signal fails — sapping bone and, in adolescents, stalling growth."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The starved marrow turns to jelly: in severe anorexia the bone marrow undergoes gelatinous (serous) transformation, dropping red cells into anemia along with the other blood lines."
 ---
 
 # Anorexia Nervosa
@@ -332,6 +341,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows starvation remaking the marrow: as fat stores vanish, the bone marrow undergoes gelatinous transformation, its cells replaced by a pink mucoid substance, the reason severe anorexia can drop every blood count.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Starvation writes itself on the skin: fine downy lanugo hair sprouts to conserve heat, the skin dries and yellows with carotene, and slow healing and pressure sores follow as the body sacrifices its surface to survive.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Anorexia leaches calcium from the bones: estrogen collapse and poor intake during the years bone should be built leave the skeleton thin and brittle, an often irreversible osteoporosis even in the young.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Starvation slows the stomach: chronic undereating causes gastroparesis with early fullness and bloating, and during refeeding the weak, dilated stomach risks a dangerous acute gastric dilatation.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Anorexia rewires the growth axis into resistance: growth hormone runs high but the starved liver makes little IGF-1, so the anabolic signal fails — sapping bone and, in adolescents, stalling growth.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The starved marrow turns to jelly: in severe anorexia the bone marrow undergoes gelatinous (serous) transformation, dropping red cells into anemia along with the other blood lines.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

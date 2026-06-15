@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen takes its share of APS clots: splenic infarction from thrombosed vessels causes left-upper-abdomen pain and is one of the abdominal-organ infarcts that mark widespread, sometimes catastrophic, disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "APS is defined by three antibodies: lupus anticoagulant, anticardiolipin, and anti-β2-glycoprotein-I, which paradoxically prolong clotting tests in the lab while driving thrombosis in the body — the serology that, with a clot or loss, makes the diagnosis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "APS clots strike the brain young: it is a major cause of stroke and cerebral venous thrombosis in the under-50s, and beyond frank infarcts the antibodies are tied to cognitive impairment, seizures, and chorea."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The antibodies can turn on the red cells: APS, especially with lupus, causes Coombs-positive autoimmune hemolytic anemia, and in its catastrophic form a microangiopathy shreds erythrocytes as clots fill the small vessels."
 ---
 
 # Antiphospholipid Syndrome
@@ -325,6 +334,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows APS clots are bland: the vessels fill with platelet-fibrin thrombi without the inflammatory cell infiltrate of a vasculitis, the hallmark of an antibody-driven clotting disease rather than a vessel-wall inflammation.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — APS can suddenly blind: retinal artery and vein occlusions and ischemic optic neuropathy from the clotting tendency can steal vision, sometimes as the first sign of the syndrome.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen takes its share of APS clots: splenic infarction from thrombosed vessels causes left-upper-abdomen pain and is one of the abdominal-organ infarcts that mark widespread, sometimes catastrophic, disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — APS is defined by three antibodies: lupus anticoagulant, anticardiolipin, and anti-β2-glycoprotein-I, which paradoxically prolong clotting tests in the lab while driving thrombosis in the body — the serology that, with a clot or loss, makes the diagnosis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — APS clots strike the brain young: it is a major cause of stroke and cerebral venous thrombosis in the under-50s, and beyond frank infarcts the antibodies are tied to cognitive impairment, seizures, and chorea.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The antibodies can turn on the red cells: APS, especially with lupus, causes Coombs-positive autoimmune hemolytic anemia, and in its catastrophic form a microangiopathy shreds erythrocytes as clots fill the small vessels.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
