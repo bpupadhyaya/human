@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Nitric oxide orchestrates the repair: released by endothelium and macrophages, it dilates vessels to feed the wound, spurs angiogenesis and collagen deposition, and kills microbes — and its deficiency is one reason diabetic wounds heal so poorly."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "New vessels must be built and then stabilized: in the proliferative phase angiopoietins work with VEGF to sprout and mature the capillaries that feed granulation tissue, the blood supply without which a wound cannot fill in."
+  - target: 02-pathogen/02-bacteria/staphylococcus-aureus
+    relation: connects-to
+    note: "Infection is the great stall: Staphylococcus aureus colonizes wounds and builds biofilms that lock healing in a chronic inflammatory phase, the prime reason surgical and chronic wounds fail to close."
+  - target: 01-human/07-system/sepsis
+    relation: connects-to
+    note: "A wound is a doorway to the bloodstream: when local infection breaches the granulation barrier, bacteria and their toxins spill into the circulation, and wound sepsis turns a local repair problem into a life-threatening systemic one."
 ---
 
 # Wound Healing
@@ -310,6 +319,9 @@ cross_links:
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Healing runs on protein: building new collagen and tissue demands amino acids, so the low albumin of malnutrition signals a body that cannot keep up — slowing repair and, through low oncotic pressure, swelling the wound with edema.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Repair is hungry for oxygen the red cells carry: collagen cross-linking and the respiratory burst that kills bacteria both need it, so anemia or poor perfusion starves the wound bed and stalls healing.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide orchestrates the repair: released by endothelium and macrophages, it dilates vessels to feed the wound, spurs angiogenesis and collagen deposition, and kills microbes — and its deficiency is one reason diabetic wounds heal so poorly.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — New vessels must be built and then stabilized: in the proliferative phase angiopoietins work with VEGF to sprout and mature the capillaries that feed granulation tissue, the blood supply without which a wound cannot fill in.
+- `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Infection is the great stall: Staphylococcus aureus colonizes wounds and builds biofilms that lock healing in a chronic inflammatory phase, the prime reason surgical and chronic wounds fail to close.
+- `connects-to` → **[Sepsis](../sepsis/README.md)** — A wound is a doorway to the bloodstream: when local infection breaches the granulation barrier, bacteria and their toxins spill into the circulation, and wound sepsis turns a local repair problem into a life-threatening systemic one.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
