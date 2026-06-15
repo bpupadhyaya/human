@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "A puzzle of where the channel lives: aquaporin-4 is abundant in the kidney's collecting ducts and the stomach too, yet NMO spares them and strikes the CNS — a selectivity set by how the blood-brain barrier and complement expose the target."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Cord lesions sever the bowel's controls: NMO's transverse myelitis disrupts the spinal pathways to the rectum and bladder, leaving neurogenic bowel and bladder dysfunction — constipation, incontinence, and retention — among its lasting disabilities."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy can stir NMO, unlike MS: relapse risk rises in the months after delivery, and active disease threatens the pregnancy, so timing conception and choosing pregnancy-safe immunotherapy are central to managing affected women."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "NMO can reach the memory circuits: aquaporin-4 is dense in the hippocampus, and some patients develop cognitive impairment and limbic lesions, widening the disease beyond the optic nerve and spinal cord it is named for."
 ---
 
 # NMOSD
@@ -349,6 +358,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — NMO turns on a single self-protein: the AQP4-IgG autoantibody is both its cause and its diagnostic hallmark, distinguishing it from MS, and the related MOG antibody defines a separate but overlapping demyelinating disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — A high cord attack can stop the breath: NMO's longitudinally extensive myelitis or brainstem lesions can knock out the nerves driving the diaphragm, causing neurogenic respiratory failure that is a leading cause of death.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A puzzle of where the channel lives: aquaporin-4 is abundant in the kidney's collecting ducts and the stomach too, yet NMO spares them and strikes the CNS — a selectivity set by how the blood-brain barrier and complement expose the target.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cord lesions sever the bowel's controls: NMO's transverse myelitis disrupts the spinal pathways to the rectum and bladder, leaving neurogenic bowel and bladder dysfunction — constipation, incontinence, and retention — among its lasting disabilities.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can stir NMO, unlike MS: relapse risk rises in the months after delivery, and active disease threatens the pregnancy, so timing conception and choosing pregnancy-safe immunotherapy are central to managing affected women.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — NMO can reach the memory circuits: aquaporin-4 is dense in the hippocampus, and some patients develop cognitive impairment and limbic lesions, widening the disease beyond the optic nerve and spinal cord it is named for.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
