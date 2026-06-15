@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Even the pancreas can infarct: stimulant-driven vasoconstriction can cut its blood supply into ischemic pancreatitis, one of the less-known visceral injuries of the vasospasm these drugs unleash."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "Stimulants drive the spread of HIV: injection and the hypersexual, disinhibited behavior of methamphetamine and cocaine raise transmission risk, so stimulant use disorder is a major engine of new HIV infection."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Stimulants age the arteries fast: repeated catecholamine surges, hypertension, and vascular inflammation accelerate atherosclerosis, so chronic cocaine and amphetamine use brings premature coronary disease and stroke."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Addictions cluster around the reward circuit: stimulant use disorder frequently co-occurs with gambling and other behavioral addictions, sharing the dopamine-driven impulsivity that the drugs directly amplify."
 ---
 
 # Stimulant Use Disorder
@@ -329,6 +338,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Stimulants clamp the arteries shut: by flooding vascular smooth muscle with catecholamines they cause intense vasospasm, the mechanism behind cocaine's heart attacks, strokes, gut ischemia, and the necrosis of the nasal septum.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — They counterfeit the body's own alarm: cocaine and amphetamines flood synapses and the circulation with catecholamines, producing the racing heart, hypertension, dilated pupils, and hyperthermia of the sympathomimetic toxidrome.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Even the pancreas can infarct: stimulant-driven vasoconstriction can cut its blood supply into ischemic pancreatitis, one of the less-known visceral injuries of the vasospasm these drugs unleash.
+- `connects-to` → **[HIV](../hiv/README.md)** — Stimulants drive the spread of HIV: injection and the hypersexual, disinhibited behavior of methamphetamine and cocaine raise transmission risk, so stimulant use disorder is a major engine of new HIV infection.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Stimulants age the arteries fast: repeated catecholamine surges, hypertension, and vascular inflammation accelerate atherosclerosis, so chronic cocaine and amphetamine use brings premature coronary disease and stroke.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Addictions cluster around the reward circuit: stimulant use disorder frequently co-occurs with gambling and other behavioral addictions, sharing the dopamine-driven impulsivity that the drugs directly amplify.
 
 ## Treatment
 

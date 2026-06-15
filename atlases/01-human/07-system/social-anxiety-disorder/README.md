@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Anxiety and the bowel feed back: social anxiety overlaps heavily with irritable bowel syndrome, and the fear of urgent, embarrassing GI symptoms in public can itself deepen the avoidance at the disorder's core."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "The stress axis fires at the thought of judgment: CRH launches the HPA cascade, and an over-reactive CRH-cortisol response underlies the racing heart and dread that social situations trigger in the disorder."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "An overactive thyroid can masquerade as social anxiety: hyperthyroidism brings tremor, palpitations, sweating, and nervousness that mimic and worsen it, so thyroid function is checked when anxiety appears or flares."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Anxiety shadows mood disorder: social anxiety co-occurs with bipolar disorder far more than chance, often preceding it, and the comorbidity worsens the course and complicates treatment of both."
 ---
 
 # Social Anxiety Disorder
@@ -341,6 +350,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system tunes social fear: it governs fear extinction and social reward, and cannabidiol (CBD), which raises endocannabinoid tone, has shown promise at easing the anxiety of public speaking.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Sociability has a microbial dimension: germ-free animals are socially abnormal and gut flora shape the circuits of social behavior and anxiety, so the microbiome-gut-brain axis is studied as a lever on social anxiety.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Anxiety and the bowel feed back: social anxiety overlaps heavily with irritable bowel syndrome, and the fear of urgent, embarrassing GI symptoms in public can itself deepen the avoidance at the disorder's core.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — The stress axis fires at the thought of judgment: CRH launches the HPA cascade, and an over-reactive CRH-cortisol response underlies the racing heart and dread that social situations trigger in the disorder.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — An overactive thyroid can masquerade as social anxiety: hyperthyroidism brings tremor, palpitations, sweating, and nervousness that mimic and worsen it, so thyroid function is checked when anxiety appears or flares.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Anxiety shadows mood disorder: social anxiety co-occurs with bipolar disorder far more than chance, often preceding it, and the comorbidity worsens the course and complicates treatment of both.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
