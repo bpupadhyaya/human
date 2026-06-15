@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Copper handling falters in the Parkinson's brain: the metal normally helps antioxidant defenses, and its disturbed balance in the substantia nigra adds to the oxidative stress, alongside iron, that kills the dopamine neurons."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Parkinson's slows the stomach: gastroparesis delays emptying so erratically that levodopa absorption becomes unpredictable, causing the on-off motor swings, while the delayed transit is part of the gut dysfunction that may even precede the tremor."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Sleep breaks down early in Parkinson's: REM sleep behavior disorder — acting out dreams — is a striking prodrome that can precede the disease by years, and disrupted melatonin and circadian rhythm worsen the fragmented nights."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Autonomic failure reaches the body's smooth muscle: the disease's loss of autonomic control slows gut and bladder smooth muscle into constipation and urinary trouble, and weakens vascular tone into the orthostatic hypotension that causes falls."
 ---
 
 # Parkinson's Disease
@@ -322,6 +331,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals Parkinson's defining lesion: the Lewy body, a dense core of tangled alpha-synuclein filaments inside the dying dopamine neuron, surrounded by the swollen, failing mitochondria that mark its energy crisis.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Parkinson's shows in the eyes: blinking slows to a stare, eye movements grow jerky, and dopamine loss thins the retina — a change now studied as an early imaging biomarker of the disease in the brain.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper handling falters in the Parkinson's brain: the metal normally helps antioxidant defenses, and its disturbed balance in the substantia nigra adds to the oxidative stress, alongside iron, that kills the dopamine neurons.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Parkinson's slows the stomach: gastroparesis delays emptying so erratically that levodopa absorption becomes unpredictable, causing the on-off motor swings, while the delayed transit is part of the gut dysfunction that may even precede the tremor.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep breaks down early in Parkinson's: REM sleep behavior disorder — acting out dreams — is a striking prodrome that can precede the disease by years, and disrupted melatonin and circadian rhythm worsen the fragmented nights.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Autonomic failure reaches the body's smooth muscle: the disease's loss of autonomic control slows gut and bladder smooth muscle into constipation and urinary trouble, and weakens vascular tone into the orthostatic hypotension that causes falls.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
