@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/il-5
     relation: connects-to
     note: "Hodgkin draws eosinophils with IL-5: the Reed-Sternberg cells secrete it to recruit the eosinophils that fill the reactive infiltrate, part of the inflamed microenvironment that hides the rare malignant cells."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy hunts Hodgkin's rare giant cell: the binucleate Reed-Sternberg cell with its two huge 'owl-eye' nucleoli sits sparse amid a sea of reactive immune cells, the diagnostic needle in the haystack."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Advanced Hodgkin lymphoma involves the liver: stage IV disease seeds hepatic deposits, and bulky disease can crowd the organ, a marker of widespread spread beyond the lymph nodes and spleen."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Hodgkin rarely strays into the gut: primary or secondary gastrointestinal involvement of the bowel is uncommon for a disease that spreads node to node, but it occurs in advanced or immunosuppressed cases."
 ---
 
 # Hodgkin Lymphoma
@@ -293,6 +302,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Hodgkin can raise blood calcium: its activated macrophages convert vitamin D to its active form, driving the hypercalcemia it shares with granulomatous diseases.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hodgkin's classic kidney lesion is minimal-change nephrotic syndrome: the lymphoma's cytokines make the glomeruli leak protein, a paraneoplastic effect that resolves when the cancer is treated.
 - `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — Hodgkin draws eosinophils with IL-5: the Reed-Sternberg cells secrete it to recruit the eosinophils that fill the reactive infiltrate, part of the inflamed microenvironment that hides the rare malignant cells.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy hunts Hodgkin's rare giant cell: the binucleate Reed-Sternberg cell with its two huge 'owl-eye' nucleoli sits sparse amid a sea of reactive immune cells, the diagnostic needle in the haystack.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Advanced Hodgkin lymphoma involves the liver: stage IV disease seeds hepatic deposits, and bulky disease can crowd the organ, a marker of widespread spread beyond the lymph nodes and spleen.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hodgkin rarely strays into the gut: primary or secondary gastrointestinal involvement of the bowel is uncommon for a disease that spreads node to node, but it occurs in advanced or immunosuppressed cases.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

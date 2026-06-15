@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Huntington's disrupts the immune system too: mutant huntingtin in immune cells makes monocytes and T cells hyperreactive, adding peripheral inflammation to the neurodegeneration."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals Huntington's protein clumps: the expanded-glutamine huntingtin aggregates into dense intranuclear inclusions inside striatal neurons, the misfolded-protein lesion that marks the disease's relentless cell death."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eyes betray Huntington's early: slowed and broken saccadic eye movements appear before the chorea is obvious, an early, measurable sign clinicians use to track the disease's onset and progression."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Huntington's most often ends through the lungs: as the disease destroys the control of swallowing, aspiration pneumonia becomes the leading cause of death, the same final pathway as other late neurodegenerations."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -205,3 +214,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Huntington's shows on MRI: the photons reveal the shrunken caudate and putamen that flatten the ventricle's edge, a structural marker that tracks the disease as it advances.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Huntington's reaches beyond the striatum into the hippocampus: its degeneration contributes to the memory and learning deficits that accompany the movement disorder.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Huntington's disrupts the immune system too: mutant huntingtin in immune cells makes monocytes and T cells hyperreactive, adding peripheral inflammation to the neurodegeneration.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals Huntington's protein clumps: the expanded-glutamine huntingtin aggregates into dense intranuclear inclusions inside striatal neurons, the misfolded-protein lesion that marks the disease's relentless cell death.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eyes betray Huntington's early: slowed and broken saccadic eye movements appear before the chorea is obvious, an early, measurable sign clinicians use to track the disease's onset and progression.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Huntington's most often ends through the lungs: as the disease destroys the control of swallowing, aspiration pneumonia becomes the leading cause of death, the same final pathway as other late neurodegenerations.
