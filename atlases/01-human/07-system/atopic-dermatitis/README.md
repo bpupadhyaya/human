@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Chronic scratching remodels the skin: years of rubbing thicken it into leathery, lichenified plaques as fibroblasts lay down dermal collagen, the fibrotic end-stage of long-standing atopic dermatitis."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "The type-2 storm recruits eosinophils: IL-5 from Th2 cells draws eosinophils into the inflamed skin and raises the blood eosinophil count, part of the allergic cytokine signature that ties eczema to asthma and allergy."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "The broken barrier invites fungi: the impaired skin defense of atopic dermatitis lets Candida and Malassezia colonize and flare the rash, one of the microbial overgrowths that complicate eczema alongside Staph."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "The itch wears on the mind: relentless pruritus, broken sleep, and visible skin disease drive anxiety and depression, so atopic dermatitis carries a heavy psychiatric comorbidity that worsens its course."
 ---
 
 # Atopic Dermatitis
@@ -330,6 +339,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Visible, sleepless itch wears down the mind: atopic dermatitis carries high rates of depression and anxiety from chronic itch, broken sleep, and the social toll of inflamed skin, so mental health is part of its care.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy unsettles the eczema: atopic dermatitis commonly flares in pregnancy (atopic eruption of pregnancy), and the safety of systemic drugs and dupilumab must be weighed when treating an expecting patient.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic scratching remodels the skin: years of rubbing thicken it into leathery, lichenified plaques as fibroblasts lay down dermal collagen, the fibrotic end-stage of long-standing atopic dermatitis.
+- `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — The type-2 storm recruits eosinophils: IL-5 from Th2 cells draws eosinophils into the inflamed skin and raises the blood eosinophil count, part of the allergic cytokine signature that ties eczema to asthma and allergy.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The broken barrier invites fungi: the impaired skin defense of atopic dermatitis lets Candida and Malassezia colonize and flare the rash, one of the microbial overgrowths that complicate eczema alongside Staph.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — The itch wears on the mind: relentless pruritus, broken sleep, and visible skin disease drive anxiety and depression, so atopic dermatitis carries a heavy psychiatric comorbidity that worsens its course.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -166,6 +166,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "Diet is frontline prevention: soluble fiber lowers LDL by binding bile acids, and a high-fiber, Mediterranean pattern that cuts saturated fat measurably slows atherosclerosis alongside statins."
+  - target: 01-human/03-molecular/fibrinogen
+    relation: connects-to
+    note: "Fibrinogen is the clot that finishes the plaque: this acute-phase protein is both a marker of vascular inflammation and the substrate that, on a ruptured plaque, forms the occlusive thrombus of heart attack and stroke."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells are the plaque's brake: they dampen the inflammatory attack on the artery wall, so when their atheroprotective control fails, the lesion grows more inflamed and unstable."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "Chronic inflammation anywhere ages the arteries: rheumatoid arthritis accelerates atherosclerosis through its systemic inflammatory load, giving patients excess heart attacks and the cardiovascular death that shortens their lives."
 ---
 
 # Atherosclerosis
@@ -329,6 +338,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Atherosclerosis is now treated as inflammation: the anti-IL-1β antibody canakinumab cut cardiovascular events in the CANTOS trial, proving the plaque's inflammatory drive, while oxidized-LDL autoantibodies mark the immune response within it.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Visceral fat fuels the plaque: enlarged adipocytes pour out inflammatory adipokines and free fatty acids that worsen dyslipidemia and insulin resistance, tying central obesity directly to accelerated atherosclerosis.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet is frontline prevention: soluble fiber lowers LDL by binding bile acids, and a high-fiber, Mediterranean pattern that cuts saturated fat measurably slows atherosclerosis alongside statins.
+- `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Fibrinogen is the clot that finishes the plaque: this acute-phase protein is both a marker of vascular inflammation and the substrate that, on a ruptured plaque, forms the occlusive thrombus of heart attack and stroke.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells are the plaque's brake: they dampen the inflammatory attack on the artery wall, so when their atheroprotective control fails, the lesion grows more inflamed and unstable.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — Chronic inflammation anywhere ages the arteries: rheumatoid arthritis accelerates atherosclerosis through its systemic inflammatory load, giving patients excess heart attacks and the cardiovascular death that shortens their lives.
 
 ---
 
