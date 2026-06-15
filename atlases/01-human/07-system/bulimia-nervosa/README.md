@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Bulimia leaves a sign on the skin: Russell's sign, calloused, scarred knuckles from the teeth during self-induced vomiting, is a telltale physical clue to the hidden disorder."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Forceful vomiting bursts vessels in the eye: the pressure of repeated purging ruptures tiny conjunctival capillaries, leaving the red subconjunctival hemorrhages and facial petechiae that can betray hidden bulimia."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Purging risks the lungs: stomach contents inhaled during self-induced vomiting can cause aspiration pneumonia, a dangerous complication of the repeated reflux that defines the disorder."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Bulimia can quietly starve the body of vitamin D: the chaotic intake and laxative-driven malabsorption lower it along with other nutrients, contributing to the bone loss that shadows long-standing disordered eating."
 ---
 
 # Bulimia Nervosa
@@ -303,6 +312,9 @@ All of the following must be met:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons reveal bulimia's brain: altered reward and self-regulation circuits respond abnormally to food cues, the neural basis of the binge-purge loss of control.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape the reward and self-control circuits, helping set the synaptic plasticity that underlies the compulsive binge-purge cycle of bulimia.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Bulimia leaves a sign on the skin: Russell's sign, calloused, scarred knuckles from the teeth during self-induced vomiting, is a telltale physical clue to the hidden disorder.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Forceful vomiting bursts vessels in the eye: the pressure of repeated purging ruptures tiny conjunctival capillaries, leaving the red subconjunctival hemorrhages and facial petechiae that can betray hidden bulimia.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Purging risks the lungs: stomach contents inhaled during self-induced vomiting can cause aspiration pneumonia, a dangerous complication of the repeated reflux that defines the disorder.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Bulimia can quietly starve the body of vitamin D: the chaotic intake and laxative-driven malabsorption lower it along with other nutrients, contributing to the bone loss that shadows long-standing disordered eating.
 
 ## Treatment
 

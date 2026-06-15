@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Bloom syndrome's universal cancer risk includes the liver: its profound genomic instability predisposes to tumors across the body, hepatocellular carcinoma among the many sites."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Bloom syndrome cannot mend its own DNA: the broken BLM helicase lets chromosomes swap arms in a flurry of sister-chromatid exchanges — the diagnostic hallmark — and leaves cells hypersensitive to radiation and oxidative damage."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Sunlight inflames the Bloom syndrome face and eyes: the photosensitive butterfly rash of dilated telangiectatic vessels spreads across the cheeks and onto the conjunctiva, a visible sign of the disorder's UV sensitivity."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Bloom syndrome's cancer spectrum reaches the kidney: among the many tumors its genomic instability invites, Wilms tumor and renal carcinoma occur, so the kidney joins the broad lifelong cancer surveillance."
 ---
 
 # Bloom Syndrome
@@ -309,6 +318,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Bloom syndrome's butterfly facial rash is vascular: sun exposure dilates dermal endothelial-lined vessels into the telangiectatic erythema across the cheeks that marks the disease.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Bloom syndrome's commonest cancers strike the gut lining: the unstable DNA of the intestinal epithelium spawns early colorectal and other GI cancers, demanding cancer surveillance from a young age.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Bloom syndrome's universal cancer risk includes the liver: its profound genomic instability predisposes to tumors across the body, hepatocellular carcinoma among the many sites.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Bloom syndrome cannot mend its own DNA: the broken BLM helicase lets chromosomes swap arms in a flurry of sister-chromatid exchanges — the diagnostic hallmark — and leaves cells hypersensitive to radiation and oxidative damage.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sunlight inflames the Bloom syndrome face and eyes: the photosensitive butterfly rash of dilated telangiectatic vessels spreads across the cheeks and onto the conjunctiva, a visible sign of the disorder's UV sensitivity.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bloom syndrome's cancer spectrum reaches the kidney: among the many tumors its genomic instability invites, Wilms tumor and renal carcinoma occur, so the kidney joins the broad lifelong cancer surveillance.
 
 ---
 
