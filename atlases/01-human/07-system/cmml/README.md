@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "CMML can fibrose the marrow: reticulin fibrosis worsens the cytopenias and marks a more aggressive, MPN-leaning course of this MDS/MPN overlap disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows CMML's defining excess: a flood of abnormal monocytes pours from the marrow into the blood, their folded nuclei and granular cytoplasm the hallmark of this MDS/MPN overlap disease."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "The rogue monocytes can raise blood calcium: like activated macrophages they can make extra calcitriol, the active vitamin D, driving a paraneoplastic hypercalcemia occasionally seen in CMML."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Leukemic monocytes infiltrate the gut: CMML can seed the bowel wall and serous cavities with monocytic deposits, causing effusions and gastrointestinal involvement in advanced disease."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -297,6 +306,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — CMML is diagnosed down the microscope: the blood smear and marrow show the persistent monocytosis that defines it, and imaging gauges the splenomegaly and any organ infiltration.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CMML's monocytes spill lysozyme that injures the kidney tubules, wasting potassium, so an unexplained low potassium can be a curious clue to this monocytic leukemia.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — CMML can fibrose the marrow: reticulin fibrosis worsens the cytopenias and marks a more aggressive, MPN-leaning course of this MDS/MPN overlap disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CMML's defining excess: a flood of abnormal monocytes pours from the marrow into the blood, their folded nuclei and granular cytoplasm the hallmark of this MDS/MPN overlap disease.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The rogue monocytes can raise blood calcium: like activated macrophages they can make extra calcitriol, the active vitamin D, driving a paraneoplastic hypercalcemia occasionally seen in CMML.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Leukemic monocytes infiltrate the gut: CMML can seed the bowel wall and serous cavities with monocytic deposits, causing effusions and gastrointestinal involvement in advanced disease.
 
 ---
 

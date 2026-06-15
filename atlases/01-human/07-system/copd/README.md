@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Chronic low oxygen in COPD drives the marrow: rising erythropoietin spurs it to overproduce red cells, the secondary polycythemia that thickens the blood of long-standing hypoxic patients."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows emphysema's ruin up close: the delicate alveolar walls dissolve as enzymes outpace their inhibitors, merging the fine air sacs into floppy enlarged spaces that collapse on exhaling and trap stale air."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "COPD shows on the surface: deoxygenated blood turns the lips and nails blue with cyanosis, fingertips club from chronic hypoxia, and the ruddy plethora of secondary polycythemia colors the 'blue bloater' face."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Failing lungs strain the kidney: chronic low oxygen and high carbon dioxide, plus the back-pressure of cor pulmonale, impair renal blood flow, so fluid retention and kidney dysfunction track with advanced COPD."
 ---
 
 # COPD
@@ -322,6 +331,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — COPD is imaged in X-ray photons: chest films show hyperinflated lungs and flattened diaphragms, and CT quantifies the emphysema, mapping where lung tissue has been destroyed.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — COPD damages the lung's vessels: hypoxia and inflammation injure endothelial cells, remodeling the pulmonary arteries into the pulmonary hypertension and cor pulmonale of advanced disease.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Chronic low oxygen in COPD drives the marrow: rising erythropoietin spurs it to overproduce red cells, the secondary polycythemia that thickens the blood of long-standing hypoxic patients.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows emphysema's ruin up close: the delicate alveolar walls dissolve as enzymes outpace their inhibitors, merging the fine air sacs into floppy enlarged spaces that collapse on exhaling and trap stale air.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — COPD shows on the surface: deoxygenated blood turns the lips and nails blue with cyanosis, fingertips club from chronic hypoxia, and the ruddy plethora of secondary polycythemia colors the 'blue bloater' face.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Failing lungs strain the kidney: chronic low oxygen and high carbon dioxide, plus the back-pressure of cor pulmonale, impair renal blood flow, so fluid retention and kidney dysfunction track with advanced COPD.
 
 ---
 
