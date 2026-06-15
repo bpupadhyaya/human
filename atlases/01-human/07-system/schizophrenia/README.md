@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "A gut-brain axis is emerging in schizophrenia: an altered intestinal microbiome and gut inflammation may influence neurotransmitters and immune signals reaching the brain, linking the large intestine to psychotic illness."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Schizophrenia disturbs synaptic zinc: this trace metal tunes the NMDA glutamate receptors at the core of the disease's signaling, so zinc dysregulation is studied in its synaptic and cognitive deficits."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Schizophrenia's deadliest complication is the heart: antipsychotics prolong the QT and drive metabolic syndrome, and patients die of cardiovascular disease years early—the leading cause of their shortened lifespan."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Antipsychotics fatten the adipocytes: the drugs that quiet psychosis also drive weight gain and fat accumulation, fueling the metabolic syndrome and diabetes that burden treated schizophrenia."
 ---
 
 # Schizophrenia
@@ -323,6 +332,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium touches schizophrenia's glutamate problem: it gates the NMDA receptor, central to the glutamate-hypofunction theory of the illness, so disturbed magnesium handling can shift the excitation-inhibition balance behind psychosis.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Stress and the adrenal glands shape schizophrenia: an overactive HPA axis drives the adrenals to pour out cortisol, and this stress-hormone surge marks the prodrome and can tip vulnerable people into first psychosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A gut-brain axis is emerging in schizophrenia: an altered intestinal microbiome and gut inflammation may influence neurotransmitters and immune signals reaching the brain, linking the large intestine to psychotic illness.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Schizophrenia disturbs synaptic zinc: this trace metal tunes the NMDA glutamate receptors at the core of the disease's signaling, so zinc dysregulation is studied in its synaptic and cognitive deficits.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Schizophrenia's deadliest complication is the heart: antipsychotics prolong the QT and drive metabolic syndrome, and patients die of cardiovascular disease years early—the leading cause of their shortened lifespan.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Antipsychotics fatten the adipocytes: the drugs that quiet psychosis also drive weight gain and fat accumulation, fueling the metabolic syndrome and diabetes that burden treated schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
