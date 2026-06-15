@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The eye is an early casualty: years of high glucose damage the retina's microvessels into diabetic retinopathy, the leading cause of blindness in working-age adults, so regular retinal screening is built into care."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Autoimmunity rarely travels alone: type 1 diabetes clusters with other autoimmune endocrine disease, and Addison's disease — autoimmune destruction of the adrenal gland — joins it in the polyglandular syndromes that demand vigilance."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy demands near-perfect control: high glucose around conception raises congenital malformation and miscarriage risk and later causes macrosomia, so type 1 diabetics tighten their insulin and monitoring before and through pregnancy."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Glucose injures the vessel lining throughout: damaged endothelial cells underlie both the microvascular complications in eye, kidney, and nerve and the accelerated atherosclerosis that makes heart disease the long-term killer in type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -291,6 +300,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Type 1 diabetes leaves an autoantibody trail: antibodies against GAD65, IA-2, ZnT8, and insulin appear before symptoms, marking the autoimmune attack on the islets and letting at-risk children be identified years ahead.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Control is read off the hemoglobin: glucose glycates the red-cell protein into HbA1c, whose level averages months of blood sugar and guides how tightly the insulin regimen is run to stave off complications.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye is an early casualty: years of high glucose damage the retina's microvessels into diabetic retinopathy, the leading cause of blindness in working-age adults, so regular retinal screening is built into care.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Autoimmunity rarely travels alone: type 1 diabetes clusters with other autoimmune endocrine disease, and Addison's disease — autoimmune destruction of the adrenal gland — joins it in the polyglandular syndromes that demand vigilance.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy demands near-perfect control: high glucose around conception raises congenital malformation and miscarriage risk and later causes macrosomia, so type 1 diabetics tighten their insulin and monitoring before and through pregnancy.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Glucose injures the vessel lining throughout: damaged endothelial cells underlie both the microvascular complications in eye, kidney, and nerve and the accelerated atherosclerosis that makes heart disease the long-term killer in type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
