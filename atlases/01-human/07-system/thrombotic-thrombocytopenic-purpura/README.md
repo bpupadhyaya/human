@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "TTP can strike the gut with microvascular clots: ischemia of the bowel causes abdominal pain, nausea and even pancreatitis, so gastrointestinal symptoms are common and sometimes the presenting feature of the disease."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "TTP can spill potassium into the blood: brisk microangiopathic hemolysis releases potassium from shattered red cells, and the acute kidney injury compounds it, risking dangerous hyperkalemia."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "TTP can injure the pancreas: microthrombi in its small vessels cause ischemic damage that disturbs blood sugar and raises pancreatic enzymes, another organ the microangiopathy quietly strikes."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The marrow races to refill what TTP destroys: as microangiopathy shears red cells and consumes platelets, the bone marrow ramps up production, though it cannot keep pace with the relentless destruction."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -310,6 +319,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TTP starves organs of oxygen with platelet microthrombi: clumps of platelets plug small vessels throughout the body, cutting oxygen to brain, heart and kidney, so the ischemic organ damage—not bleeding—drives its danger.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help start acquired TTP: by presenting ADAMTS13 fragments to T cells they break tolerance, licensing the autoantibodies that disable the enzyme—the autoimmune trigger upstream of the microthrombi.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — TTP can strike the gut with microvascular clots: ischemia of the bowel causes abdominal pain, nausea and even pancreatitis, so gastrointestinal symptoms are common and sometimes the presenting feature of the disease.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — TTP can spill potassium into the blood: brisk microangiopathic hemolysis releases potassium from shattered red cells, and the acute kidney injury compounds it, risking dangerous hyperkalemia.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — TTP can injure the pancreas: microthrombi in its small vessels cause ischemic damage that disturbs blood sugar and raises pancreatic enzymes, another organ the microangiopathy quietly strikes.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The marrow races to refill what TTP destroys: as microangiopathy shears red cells and consumes platelets, the bone marrow ramps up production, though it cannot keep pace with the relentless destruction.
 
 ---
 

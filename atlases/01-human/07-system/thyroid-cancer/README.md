@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Thyroid cancer can spread to the brain: though usually indolent, advanced or anaplastic disease seeds brain metastases through the blood, a sign of aggressive spread that shifts care toward systemic and targeted therapy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Thyroid cancer can spread to the liver: medullary and advanced or anaplastic disease seed hepatic metastases, extending beyond the usual neck nodes, lung, and bone."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Papillary thyroid cancer recruits fibroblasts: cancer-associated fibroblasts build a desmoplastic stroma around the tumor, the firm scarring that helps it invade and trap calcifications."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Papillary thyroid cancer leaves calcium-phosphate fingerprints: its psammoma bodies are concentric calcium-phosphate calcifications, a histologic clue that also shows as microcalcifications on ultrasound."
 ---
 
 # Thyroid Cancer
@@ -291,6 +300,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Medullary thyroid cancer is a tumor of the calcium thermostat: it arises from the C cells that make calcitonin, so the hormone serves as its tumor marker, and its calcium-regulating lineage defines this distinct, often inherited subtype.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells shape immunotherapy for aggressive thyroid cancer: as antigen-presenters they prime the T-cell response that checkpoint drugs amplify in anaplastic disease, and their dysfunction helps the tumor evade immunity.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Thyroid cancer can spread to the brain: though usually indolent, advanced or anaplastic disease seeds brain metastases through the blood, a sign of aggressive spread that shifts care toward systemic and targeted therapy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Thyroid cancer can spread to the liver: medullary and advanced or anaplastic disease seed hepatic metastases, extending beyond the usual neck nodes, lung, and bone.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Papillary thyroid cancer recruits fibroblasts: cancer-associated fibroblasts build a desmoplastic stroma around the tumor, the firm scarring that helps it invade and trap calcifications.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Papillary thyroid cancer leaves calcium-phosphate fingerprints: its psammoma bodies are concentric calcium-phosphate calcifications, a histologic clue that also shows as microcalcifications on ultrasound.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
