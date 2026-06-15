@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Abdominal Burkitt seeds the retroperitoneum: its explosive growth fills the abdomen and can involve the adrenals, kidneys, and ovaries, masses that swell almost visibly day by day."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody is part of the cure: rituximab against CD20 added to intensive chemotherapy markedly improves outcomes in Burkitt lymphoma, harnessing the immune system against the malignant B cells."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Burkitt readily invades the nervous system: its high rate of CNS spread demands intrathecal chemotherapy as prophylaxis, while the vincristine in its regimens poisons peripheral neurons into a dose-limiting neuropathy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Burkitt carries the highest risk of tumor lysis syndrome: as its fast-dividing cells burst under chemotherapy, potassium, phosphate, and uric acid surge while calcium and magnesium swing — a metabolic storm that can stop the heart and shut the kidneys."
 ---
 
 # Burkitt Lymphoma
@@ -318,6 +327,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows Burkitt's 'starry sky': sheets of blasts with lipid-vacuoled cytoplasm are dotted with tingible-body macrophages clearing the debris of cells dying as fast as the tumor divides.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Sporadic Burkitt erupts in the abdomen: it forms bulky masses in the stomach, ileocecum, and surrounding organs, the GI presentation that distinguishes it from the jaw tumors of the endemic African form.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Abdominal Burkitt seeds the retroperitoneum: its explosive growth fills the abdomen and can involve the adrenals, kidneys, and ovaries, masses that swell almost visibly day by day.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody is part of the cure: rituximab against CD20 added to intensive chemotherapy markedly improves outcomes in Burkitt lymphoma, harnessing the immune system against the malignant B cells.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Burkitt readily invades the nervous system: its high rate of CNS spread demands intrathecal chemotherapy as prophylaxis, while the vincristine in its regimens poisons peripheral neurons into a dose-limiting neuropathy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Burkitt carries the highest risk of tumor lysis syndrome: as its fast-dividing cells burst under chemotherapy, potassium, phosphate, and uric acid surge while calcium and magnesium swing — a metabolic storm that can stop the heart and shut the kidneys.
 
 ---
 

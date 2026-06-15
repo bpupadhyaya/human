@@ -144,6 +144,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Bulimia can quietly starve the body of vitamin D: the chaotic intake and laxative-driven malabsorption lower it along with other nutrients, contributing to the bone loss that shadows long-standing disordered eating."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Purging tricks the body into hoarding salt: chronic fluid loss activates the renin-aldosterone axis, so when laxatives or vomiting stop, the retained sodium and water cause a distressing rebound edema (pseudo-Bartter syndrome)."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Bulimia disturbs the menstrual cycle: the stress, weight swings, and disordered eating disrupt the hypothalamic-pituitary-gonadal axis, bringing irregular periods or amenorrhea even when body weight looks normal."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Bulimia can thin the blood: poor nutrition and iron loss — including bleeding from vomiting-induced esophageal tears — leave some patients anemic, the red cells falling with the rest of the body's reserves."
 ---
 
 # Bulimia Nervosa
@@ -315,6 +324,9 @@ All of the following must be met:
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Forceful vomiting bursts vessels in the eye: the pressure of repeated purging ruptures tiny conjunctival capillaries, leaving the red subconjunctival hemorrhages and facial petechiae that can betray hidden bulimia.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Purging risks the lungs: stomach contents inhaled during self-induced vomiting can cause aspiration pneumonia, a dangerous complication of the repeated reflux that defines the disorder.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Bulimia can quietly starve the body of vitamin D: the chaotic intake and laxative-driven malabsorption lower it along with other nutrients, contributing to the bone loss that shadows long-standing disordered eating.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Purging tricks the body into hoarding salt: chronic fluid loss activates the renin-aldosterone axis, so when laxatives or vomiting stop, the retained sodium and water cause a distressing rebound edema (pseudo-Bartter syndrome).
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Bulimia disturbs the menstrual cycle: the stress, weight swings, and disordered eating disrupt the hypothalamic-pituitary-gonadal axis, bringing irregular periods or amenorrhea even when body weight looks normal.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bulimia can thin the blood: poor nutrition and iron loss — including bleeding from vomiting-induced esophageal tears — leave some patients anemic, the red cells falling with the rest of the body's reserves.
 
 ## Treatment
 
