@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Chronic bleeding taxes the marrow: ongoing blood and iron loss in hemophilia push the bone marrow to ramp up red-cell production to keep pace, and anemia results when the losses outstrip it."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "Hemophilia carries a tragic medical legacy: before viral screening and recombinant factor, the pooled plasma concentrates that treated it infected a large share of patients with HIV and hepatitis C, a catastrophe that reshaped blood-product safety."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows why hemophilia's clots fail: lacking factor VIII to drive thrombin, the fibrin mesh forms with fewer, thinner, loosely woven fibers, a fragile structure that cannot hold against ongoing bleeding."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Bleeding into the eye threatens sight in hemophilia: spontaneous or traumatic intraocular and retinal hemorrhages, like bleeds into other closed spaces, can raise pressure and damage vision if not promptly treated with factor replacement."
 ---
 
 # Hemophilia A
@@ -292,6 +301,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging tracks hemophilia's joint damage: X-ray and MRI photons reveal the arthropathy from repeated bleeds, and radiosynovectomy uses radiation to quiet a chronically bleeding joint.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hemophilia shows on the skin: easy bruising and large, deep hematomas are often the first sign in a toddler learning to walk, hinting at the clotting defect beneath the surface.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Chronic bleeding taxes the marrow: ongoing blood and iron loss in hemophilia push the bone marrow to ramp up red-cell production to keep pace, and anemia results when the losses outstrip it.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Hemophilia carries a tragic medical legacy: before viral screening and recombinant factor, the pooled plasma concentrates that treated it infected a large share of patients with HIV and hepatitis C, a catastrophe that reshaped blood-product safety.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows why hemophilia's clots fail: lacking factor VIII to drive thrombin, the fibrin mesh forms with fewer, thinner, loosely woven fibers, a fragile structure that cannot hold against ongoing bleeding.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Bleeding into the eye threatens sight in hemophilia: spontaneous or traumatic intraocular and retinal hemorrhages, like bleeds into other closed spaces, can raise pressure and damage vision if not promptly treated with factor replacement.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

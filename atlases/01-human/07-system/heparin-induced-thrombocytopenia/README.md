@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "HIT inflames the vessel wall: the immune complexes activate endothelium to release von Willebrand factor, which grabs platelets and amplifies the prothrombotic storm beyond the platelets' own activation."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "HIT's low platelets do not come from a failing marrow: the megakaryocytes keep producing normally, but the antibody-coated platelets are consumed in clots and cleared by the spleen, a destruction rather than a production problem."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "HIT's clotting can strike the kidney: thrombosis of the renal veins or microvasculature, part of the body-wide prothrombotic storm, can cause acute kidney injury even as the platelet count falls."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals HIT's trigger: heparin and platelet factor 4 assemble into large ultralarge complexes that the antibodies cross-link on the platelet surface, the molecular scaffolding that ignites the whole prothrombotic cascade."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -315,6 +324,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Once HIT is suspected, imaging hunts the clots: CT and lung scans read in X-ray photons find the pulmonary emboli and limb thromboses that make the syndrome dangerous despite the low platelets.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — HIT clots arteries as well as veins: coronary thrombosis can cause a heart attack, part of the arterial thrombosis that distinguishes this paradoxical, clot-prone low-platelet state.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — HIT inflames the vessel wall: the immune complexes activate endothelium to release von Willebrand factor, which grabs platelets and amplifies the prothrombotic storm beyond the platelets' own activation.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — HIT's low platelets do not come from a failing marrow: the megakaryocytes keep producing normally, but the antibody-coated platelets are consumed in clots and cleared by the spleen, a destruction rather than a production problem.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — HIT's clotting can strike the kidney: thrombosis of the renal veins or microvasculature, part of the body-wide prothrombotic storm, can cause acute kidney injury even as the platelet count falls.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals HIT's trigger: heparin and platelet factor 4 assemble into large ultralarge complexes that the antibodies cross-link on the platelet surface, the molecular scaffolding that ignites the whole prothrombotic cascade.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
