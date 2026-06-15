@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Sepsis drops the calcium: inflammation and impaired parathyroid and vitamin D handling leave many septic patients hypocalcemic, a disturbance that can weaken the already failing heart and must be watched in the ICU."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin shows shock at the bedside: mottled, cold, slow-to-refill skin signals the collapsing perfusion of septic shock, and in fulminant disease purpura fulminans marks the disseminated clotting beneath."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Survivors are left weak for months: ICU-acquired weakness — a critical-illness myopathy and polyneuropathy driven by sepsis inflammation and immobility — wastes muscle and slows recovery long after the infection clears."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Sepsis thins and shears the red cells: inflammation suppresses their production and repeated blood draws deplete them, while disseminated clotting fragments them into the schistocytes of microangiopathy."
 ---
 
 # Sepsis
@@ -293,6 +302,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows sepsis starving cells of energy: mitochondria swell and fail in a 'cytopathic hypoxia' where oxygen is present but unusable, while the endothelial glycocalyx sheds away, opening vessels to leak and clot.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut is called the motor of sepsis: shock starves the intestinal lining until its barrier fails, letting bacteria and their toxins translocate into the blood and stoke the inflammation that perpetuates multi-organ failure.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Sepsis drops the calcium: inflammation and impaired parathyroid and vitamin D handling leave many septic patients hypocalcemic, a disturbance that can weaken the already failing heart and must be watched in the ICU.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin shows shock at the bedside: mottled, cold, slow-to-refill skin signals the collapsing perfusion of septic shock, and in fulminant disease purpura fulminans marks the disseminated clotting beneath.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Survivors are left weak for months: ICU-acquired weakness — a critical-illness myopathy and polyneuropathy driven by sepsis inflammation and immobility — wastes muscle and slows recovery long after the infection clears.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Sepsis thins and shears the red cells: inflammation suppresses their production and repeated blood draws deplete them, while disseminated clotting fragments them into the schistocytes of microangiopathy.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
