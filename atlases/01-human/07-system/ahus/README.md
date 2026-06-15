@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/stroke
     relation: connects-to
     note: "Microthrombi reach the brain: aHUS is not confined to the kidney — clots in the cerebral microvessels cause seizures, encephalopathy, and stroke, the CNS face of its systemic thrombotic microangiopathy."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Pneumococcus can ignite its own HUS: the bacterium's neuraminidase strips sialic acid to expose the hidden T antigen on red cells and endothelium, triggering a thrombotic microangiopathy distinct from the usual E. coli kind."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Glomerular vessels live on VEGF: podocyte VEGF keeps the filtration endothelium healthy, so cancer drugs that block it can unleash a complement-amplified thrombotic microangiopathy that mirrors aHUS."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "Scleroderma renal crisis is a TMA twin: it injures the same small renal vessels with malignant hypertension and microangiopathic hemolysis, a key differential to separate from complement-driven aHUS at the bedside."
 ---
 
 # Atypical HUS
@@ -373,6 +382,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is a classic trigger: complement-mediated aHUS often erupts in the peripartum period, especially postpartum, and must be told apart from HELLP and preeclampsia, which it can closely mimic in a sick mother.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The damage remodels the small arteries: aHUS injures arterioles into the concentric 'onion-skin' thickening of smooth-muscle and matrix layers, the chronic vascular lesion of thrombotic microangiopathy seen on biopsy.
 - `connects-to` → **[Stroke](../stroke/README.md)** — Microthrombi reach the brain: aHUS is not confined to the kidney — clots in the cerebral microvessels cause seizures, encephalopathy, and stroke, the CNS face of its systemic thrombotic microangiopathy.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Pneumococcus can ignite its own HUS: the bacterium's neuraminidase strips sialic acid to expose the hidden T antigen on red cells and endothelium, triggering a thrombotic microangiopathy distinct from the usual E. coli kind.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Glomerular vessels live on VEGF: podocyte VEGF keeps the filtration endothelium healthy, so cancer drugs that block it can unleash a complement-amplified thrombotic microangiopathy that mirrors aHUS.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — Scleroderma renal crisis is a TMA twin: it injures the same small renal vessels with malignant hypertension and microangiopathic hemolysis, a key differential to separate from complement-driven aHUS at the bedside.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

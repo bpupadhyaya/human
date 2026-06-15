@@ -159,6 +159,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "Autoimmune thyroid disease keeps company: the sustained interferon signature of AGS predisposes to autoimmune hypothyroidism, one of the endocrine autoimmunities that can accumulate in these interferonopathy patients."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Interferon-stoked macrophages help wreck the brain: activated alongside microglia, they pour out inflammatory mediators that injure white matter and feed the calcification of the basal ganglia seen in AGS."
+  - target: 01-human/07-system/systemic-sclerosis
+    relation: connects-to
+    note: "AGS shares its interferon fingerprint with scleroderma: both carry a strong type-I-interferon signature and the chilblains and Raynaud-like vascular skin changes, placing them on the broad interferonopathy spectrum."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Beyond interferon, IL-6 stokes the neuroinflammation: it rises in the spinal fluid of AGS alongside the interferon signature, adding to the chronic brain inflammation that damages the developing nervous system."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -300,6 +309,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The motor toll is severe: AGS leaves children with profound spasticity, dystonia, and contractures from the damaged motor pathways, a fixed motor disability that dominates the chronic phase after the early encephalopathy.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — The interferon storm drives autoimmunity: chronic type-I-interferon overactivation pushes B cells to make autoantibodies, so AGS overlaps with lupus and can show the antinuclear antibodies and chilblains of an interferon-driven autoimmune disease.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Autoimmune thyroid disease keeps company: the sustained interferon signature of AGS predisposes to autoimmune hypothyroidism, one of the endocrine autoimmunities that can accumulate in these interferonopathy patients.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Interferon-stoked macrophages help wreck the brain: activated alongside microglia, they pour out inflammatory mediators that injure white matter and feed the calcification of the basal ganglia seen in AGS.
+- `connects-to` → **[Systemic Sclerosis](../systemic-sclerosis/README.md)** — AGS shares its interferon fingerprint with scleroderma: both carry a strong type-I-interferon signature and the chilblains and Raynaud-like vascular skin changes, placing them on the broad interferonopathy spectrum.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Beyond interferon, IL-6 stokes the neuroinflammation: it rises in the spinal fluid of AGS alongside the interferon signature, adding to the chronic brain inflammation that damages the developing nervous system.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
