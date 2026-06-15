@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Helper T cells light the fuse: their interferon-gamma and the cytokines they orchestrate drive the hepcidin surge and blunt the marrow's response, the adaptive-immune arm of the anemia's inflammatory cause."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Blocking the cytokine can lift the anemia: antibodies against IL-6 (tocilizumab) cut the hepcidin surge and correct the anemia of inflammatory disease, and anti-hepcidin agents are in development to free the trapped iron."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Even fat can cause it: obesity is a chronic low-grade inflammatory state whose raised IL-6 and hepcidin lock iron away, giving many obese people a mild functional iron deficiency and blunted anemia of inflammation."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "It shows, faintly, on the skin: the chronic, usually mild anemia produces the pallor of conjunctivae, palms, and nail beds that, with fatigue, is often the only outward clue to the iron locked away inside."
 ---
 
 # Anemia of Chronic Disease
@@ -323,6 +332,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The same inflammation that drops the red cells lifts the platelets: IL-6 drives both hepcidin and thrombopoiesis, so a reactive thrombocytosis often travels alongside the anemia of chronic disease.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Anemia keeps company with a falling albumin: both are negative acute-phase reactants, suppressed as the liver reprioritizes its output during chronic inflammation, so the two markers sink together as a measure of disease burden.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Helper T cells light the fuse: their interferon-gamma and the cytokines they orchestrate drive the hepcidin surge and blunt the marrow's response, the adaptive-immune arm of the anemia's inflammatory cause.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Blocking the cytokine can lift the anemia: antibodies against IL-6 (tocilizumab) cut the hepcidin surge and correct the anemia of inflammatory disease, and anti-hepcidin agents are in development to free the trapped iron.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Even fat can cause it: obesity is a chronic low-grade inflammatory state whose raised IL-6 and hepcidin lock iron away, giving many obese people a mild functional iron deficiency and blunted anemia of inflammation.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — It shows, faintly, on the skin: the chronic, usually mild anemia produces the pallor of conjunctivae, palms, and nail beds that, with fatigue, is often the only outward clue to the iron locked away inside.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
