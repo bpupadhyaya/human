@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Juvenile polyps are stroma-rich hamartomas: an expanded, edematous fibrous stroma with inflamed glands makes them friable and prone to bleed, the histology that names and defines the syndrome."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "JPS is watched by light and imaging: endoscopy removes the polyps, and in SMAD4 carriers CT and MRI photons screen for the lung and brain AVMs of the overlapping HHT."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "SMAD4-JPS overlaps HHT in the liver too: hepatic arteriovenous malformations can shunt blood and strain the heart, part of the telangiectasia syndrome's vascular reach."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "JPS bleeds chronically: friable polyps and HHT telangiectasias drain blood, pushing the bone marrow to ramp up red-cell output against recurrent iron-deficiency anemia."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -289,6 +298,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SMAD4-related JPS can starve the blood of oxygen: in its HHT overlap, lung arteriovenous malformations shunt blood past the air sacs, so unfiltered blue blood lowers oxygen and bypasses the lungs' clot filter.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — SMAD4-JPS extends vascular risk to the brain: the HHT overlap brings cerebral arteriovenous malformations that can bleed or cause strokes, so brain screening joins the syndrome's care.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Juvenile polyps are stroma-rich hamartomas: an expanded, edematous fibrous stroma with inflamed glands makes them friable and prone to bleed, the histology that names and defines the syndrome.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — JPS is watched by light and imaging: endoscopy removes the polyps, and in SMAD4 carriers CT and MRI photons screen for the lung and brain AVMs of the overlapping HHT.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — SMAD4-JPS overlaps HHT in the liver too: hepatic arteriovenous malformations can shunt blood and strain the heart, part of the telangiectasia syndrome's vascular reach.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — JPS bleeds chronically: friable polyps and HHT telangiectasias drain blood, pushing the bone marrow to ramp up red-cell output against recurrent iron-deficiency anemia.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

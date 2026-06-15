@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Radiation and oxygen damage make Li-Fraumeni dangerous: ionizing radiation and reactive oxygen species break DNA that p53 normally repairs or culls, so LFS cells turn cancerous from exposures others survive—why radiotherapy is avoided."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Li-Fraumeni's sarcomas include leiomyosarcoma: tumors of smooth-muscle cells are among the soft-tissue cancers that strike young carriers, part of its broad sarcoma predisposition."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Li-Fraumeni reaches the liver: childhood hepatoblastoma and adult liver cancers fall within its spectrum, adding the liver to the many organs left unguarded by lost p53."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Li-Fraumeni's sarcomas can arise in nerve sheaths: malignant peripheral nerve sheath tumors are among the diverse sarcomas its p53 defect permits, especially after radiation."
 ---
 
 # Li-Fraumeni Syndrome
@@ -310,6 +319,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Li-Fraumeni reaches into the bone marrow: TP53 loss predisposes to leukemias that arise there, especially after the chemotherapy and radiation used to treat the syndrome's other cancers.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Li-Fraumeni turns osteoblasts cancerous: osteosarcoma, a tumor of the bone-building osteoblasts, is one of its hallmark childhood and young-adult cancers, driven by the loss of p53's guard.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Radiation and oxygen damage make Li-Fraumeni dangerous: ionizing radiation and reactive oxygen species break DNA that p53 normally repairs or culls, so LFS cells turn cancerous from exposures others survive—why radiotherapy is avoided.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Li-Fraumeni's sarcomas include leiomyosarcoma: tumors of smooth-muscle cells are among the soft-tissue cancers that strike young carriers, part of its broad sarcoma predisposition.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Li-Fraumeni reaches the liver: childhood hepatoblastoma and adult liver cancers fall within its spectrum, adding the liver to the many organs left unguarded by lost p53.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Li-Fraumeni's sarcomas can arise in nerve sheaths: malignant peripheral nerve sheath tumors are among the diverse sarcomas its p53 defect permits, especially after radiation.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
