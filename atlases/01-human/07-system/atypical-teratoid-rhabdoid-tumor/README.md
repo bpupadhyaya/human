@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "ATRT can reach the eye: leptomeningeal spread along the optic pathway and orbital involvement threaten vision, part of why this tumor's reach is mapped across the whole neuraxis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody clinches the diagnosis: ATRT is defined by loss of the SMARCB1/INI1 protein, and an immunohistochemical stain — an antibody against INI1 — shows the missing nuclear signal that separates it from other embryonal brain tumors."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "The platinum chemotherapy wastes magnesium: cisplatin and carboplatin, central to the intensive multi-agent regimens against ATRT, injure the kidney's tubules so magnesium leaks out and must be replaced."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Curing ATRT empties the marrow: its dose-intense, often high-dose chemotherapy crashes the neutrophil count, leaving these infants in long stretches of febrile neutropenia that demand vigilant infection control."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -302,6 +311,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the rhabdoid cell: a whorled ball of intermediate filaments shoves the nucleus to one side, the cytoplasmic inclusion that names these tumors and betrays their loss of the SMARCB1 brake.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — When rhabdoid tumors spread, the lung is a target: this aggressive cancer disseminates beyond the nervous system, seeding pulmonary metastases that mark widespread, often fatal disease.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ATRT can reach the eye: leptomeningeal spread along the optic pathway and orbital involvement threaten vision, part of why this tumor's reach is mapped across the whole neuraxis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody clinches the diagnosis: ATRT is defined by loss of the SMARCB1/INI1 protein, and an immunohistochemical stain — an antibody against INI1 — shows the missing nuclear signal that separates it from other embryonal brain tumors.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — The platinum chemotherapy wastes magnesium: cisplatin and carboplatin, central to the intensive multi-agent regimens against ATRT, injure the kidney's tubules so magnesium leaks out and must be replaced.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Curing ATRT empties the marrow: its dose-intense, often high-dose chemotherapy crashes the neutrophil count, leaving these infants in long stretches of febrile neutropenia that demand vigilant infection control.
 
 ---
 

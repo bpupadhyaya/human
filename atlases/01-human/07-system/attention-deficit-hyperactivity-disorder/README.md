@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "ADHD and the itchy skin travel together: it is notably comorbid with atopic dermatitis, the sleep-wrecking itch and shared inflammatory and neurodevelopmental threads linking the gut, skin, and attention."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The stimulant treatments curb the appetite: methylphenidate and amphetamines blunt hunger and can cause nausea and stomach upset, so children's intake and weight are watched closely during therapy."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Stimulants can nudge growth off course: by suppressing appetite they may modestly slow height and weight gain in children, prompting drug holidays and growth monitoring during long-term treatment."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Estrogen tunes the ADHD brain: because the hormone modulates dopamine, many women find symptoms swing across the menstrual cycle and worsen as estrogen falls in the perimenopause, shaping how treatment is timed."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -341,6 +350,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium runs low in many with ADHD: the mineral supports the neurotransmitter balance behind focus and calm, and deficiency is associated with worse symptoms, making it a studied nutritional adjunct.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D in early life may shape ADHD risk: low maternal and childhood levels are linked to higher rates of the disorder, fitting the vitamin's role in the developing brain.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — ADHD and the itchy skin travel together: it is notably comorbid with atopic dermatitis, the sleep-wrecking itch and shared inflammatory and neurodevelopmental threads linking the gut, skin, and attention.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stimulant treatments curb the appetite: methylphenidate and amphetamines blunt hunger and can cause nausea and stomach upset, so children's intake and weight are watched closely during therapy.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Stimulants can nudge growth off course: by suppressing appetite they may modestly slow height and weight gain in children, prompting drug holidays and growth monitoring during long-term treatment.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Estrogen tunes the ADHD brain: because the hormone modulates dopamine, many women find symptoms swing across the menstrual cycle and worsen as estrogen falls in the perimenopause, shaping how treatment is timed.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
