@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Pulmonary hypertension scars its arteries: the remodeling thickens and fibroses the pulmonary arterial walls, narrowing them in the obliterative arteriopathy that raises the pressure relentlessly."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons measure and classify the pressure: echocardiography estimates it noninvasively, right heart catheterization under fluoroscopy confirms it, and a V/Q scan distinguishes clot-driven chronic thromboembolic disease from true arterial hypertension."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen drives pulmonary hypertension's female bias: the disease strikes women far more often, and the 'estrogen paradox' — the hormone and its metabolites both protecting the heart yet promoting the arterial remodeling — is central to its puzzling sex difference."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Losing the spleen can set the stage: splenectomy is a recognized risk factor for pulmonary hypertension, as the platelets and abnormal red cells no longer filtered by the spleen promote the in-situ thrombosis that remodels the lung arteries."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -290,6 +299,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pulmonary vessels constrict through calcium: calcium entry contracts the arterial smooth muscle, and calcium-channel blockers can help the vasoreactive minority of PAH patients who respond to them.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pulmonary hypertension can black out the brain: a failing right heart cannot raise output on exertion, so the brain is briefly starved of blood, causing the exertional dizziness and syncope of advanced disease.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Pulmonary hypertension scars its arteries: the remodeling thickens and fibroses the pulmonary arterial walls, narrowing them in the obliterative arteriopathy that raises the pressure relentlessly.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons measure and classify the pressure: echocardiography estimates it noninvasively, right heart catheterization under fluoroscopy confirms it, and a V/Q scan distinguishes clot-driven chronic thromboembolic disease from true arterial hypertension.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen drives pulmonary hypertension's female bias: the disease strikes women far more often, and the 'estrogen paradox' — the hormone and its metabolites both protecting the heart yet promoting the arterial remodeling — is central to its puzzling sex difference.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Losing the spleen can set the stage: splenectomy is a recognized risk factor for pulmonary hypertension, as the platelets and abnormal red cells no longer filtered by the spleen promote the in-situ thrombosis that remodels the lung arteries.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
