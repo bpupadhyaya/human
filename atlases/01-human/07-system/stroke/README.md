@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Stroke endangers the lungs through swallowing: damage to swallowing control lets food and saliva slip into the airway, so aspiration pneumonia is a leading cause of death in the weeks after a stroke."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Stroke care races on imaging: CT photons instantly separate a bleed from a clot, and MRI and perfusion scans map salvageable brain, deciding who gets clot-busting drugs or thrombectomy."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye warns of stroke: amaurosis fugax, a fleeting curtain of vision loss from a retinal-artery clot, is a TIA of the eye that flags carotid disease and impending stroke."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Recovery after stroke leans on BDNF: this growth factor drives the neuroplasticity that lets surviving brain rewire around the dead tissue, the molecular basis of rehabilitation gains."
 ---
 
 # Stroke
@@ -267,6 +276,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Stroke collapses the brain's potassium gradient: when energy fails, neurons leak potassium and depolarize in spreading waves that march across the tissue, recruiting the penumbra and enlarging the infarct.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Stroke turns synapses toxic: starved neurons dump glutamate that overexcites neighboring synapses, and this excitotoxic flood—through calcium overload—kills the cells the clot did not directly reach.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Stroke endangers the lungs through swallowing: damage to swallowing control lets food and saliva slip into the airway, so aspiration pneumonia is a leading cause of death in the weeks after a stroke.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Stroke care races on imaging: CT photons instantly separate a bleed from a clot, and MRI and perfusion scans map salvageable brain, deciding who gets clot-busting drugs or thrombectomy.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye warns of stroke: amaurosis fugax, a fleeting curtain of vision loss from a retinal-artery clot, is a TIA of the eye that flags carotid disease and impending stroke.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Recovery after stroke leans on BDNF: this growth factor drives the neuroplasticity that lets surviving brain rewire around the dead tissue, the molecular basis of rehabilitation gains.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

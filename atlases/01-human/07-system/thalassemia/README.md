@@ -126,6 +126,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Thalassemia shows in the skin: iron overload bronzes and greys the skin, while chronic anemia and poor circulation cause stubborn leg ulcers, outward marks of the disease's iron and oxygen problems."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "MRI now measures the iron itself: cardiac and liver T2* imaging in radiofrequency photons quantifies the overload that drives thalassemia's organ damage, guiding how hard to chelate."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Thalassemia is prothrombotic: damaged red-cell membranes injure the endothelium and promote clotting, so venous thromboembolism is a real risk, especially after the spleen is removed."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Iron overload scars the organs: deposited iron drives fibrosis in the liver toward cirrhosis and stiffens the heart, the cumulative damage that iron chelation aims to prevent."
 ---
 
 # Thalassemia
@@ -306,6 +315,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Thalassemia treatment can strip away zinc: iron chelators that remove the excess iron also bind zinc, so deficiency is common and contributes to the poor growth and weakened immunity of chronically treated patients.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Thalassemia weakens bone through osteoclasts: marrow expansion and hormone deficiencies tip the balance toward these bone-resorbing cells, driving the osteoporosis and fractures that complicate even well-transfused patients.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Thalassemia shows in the skin: iron overload bronzes and greys the skin, while chronic anemia and poor circulation cause stubborn leg ulcers, outward marks of the disease's iron and oxygen problems.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MRI now measures the iron itself: cardiac and liver T2* imaging in radiofrequency photons quantifies the overload that drives thalassemia's organ damage, guiding how hard to chelate.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Thalassemia is prothrombotic: damaged red-cell membranes injure the endothelium and promote clotting, so venous thromboembolism is a real risk, especially after the spleen is removed.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Iron overload scars the organs: deposited iron drives fibrosis in the liver toward cirrhosis and stiffens the heart, the cumulative damage that iron chelation aims to prevent.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
