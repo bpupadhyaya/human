@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "The rhabdoid family reaches the soft tissues: the same SMARCB1 loss spawns malignant rhabdoid tumors of the kidney and paraspinal soft tissue and muscle, ATRT's extracranial cousins under one genetic umbrella."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Growth signaling drives the rhabdoid cell: the IGF-1/IGF1R pathway is active in ATRT and other rhabdoid tumors, fueling proliferation and offering a targeted vulnerability under study."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor builds an immune-cold microenvironment: regulatory T cells and few effector lymphocytes blunt the antitumor response in ATRT, a barrier that checkpoint and other immunotherapies are being tested against."
+  - target: 01-human/07-system/chordoma
+    relation: connects-to
+    note: "SMARCB1 loss links them across the midline: poorly-differentiated chordoma deletes the same SMARCB1 gene as ATRT, so the two share a defining epigenetic lesion despite arising from utterly different tissues."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -326,6 +335,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — ATRT can run in families: many cases stem from germline SMARCB1 loss (rhabdoid tumor predisposition syndrome), so finding it prompts genetic counseling and testing of parents and future siblings.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The marrow's red line falls too: the intensive chemotherapy and any craniospinal radiation suppress erythrocyte production into an anemia that, with the low platelets and neutrophils, leaves these infants transfusion-dependent through treatment.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The rhabdoid family reaches the soft tissues: the same SMARCB1 loss spawns malignant rhabdoid tumors of the kidney and paraspinal soft tissue and muscle, ATRT's extracranial cousins under one genetic umbrella.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Growth signaling drives the rhabdoid cell: the IGF-1/IGF1R pathway is active in ATRT and other rhabdoid tumors, fueling proliferation and offering a targeted vulnerability under study.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor builds an immune-cold microenvironment: regulatory T cells and few effector lymphocytes blunt the antitumor response in ATRT, a barrier that checkpoint and other immunotherapies are being tested against.
+- `connects-to` → **[Chordoma](../chordoma/README.md)** — SMARCB1 loss links them across the midline: poorly-differentiated chordoma deletes the same SMARCB1 gene as ATRT, so the two share a defining epigenetic lesion despite arising from utterly different tissues.
 
 ---
 

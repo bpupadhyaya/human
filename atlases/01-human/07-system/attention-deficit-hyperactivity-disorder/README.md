@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Low iron shows in the red cells and the focus: iron-deficiency, with its small, pale erythrocytes and low ferritin, is more common in ADHD and worsens symptoms, so iron status is checked and repleted as an adjunct."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Attention needs the brain's brakes too: reduced GABAergic inhibition tips the excitation-inhibition balance in ADHD, contributing to the impulsivity and distractibility that stimulant and other therapies try to rein in."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut may shape attention: altered microbiome composition is reported in ADHD, and through the microbiome-gut-brain axis it can influence the dopamine and stress signaling tied to the disorder."
+  - target: 01-human/07-system/narcolepsy
+    relation: connects-to
+    note: "Sleepiness and inattention overlap: ADHD and narcolepsy frequently co-occur and share a hypoarousal that both respond to stimulants, so daytime sleepiness in ADHD prompts a look for an underlying sleep disorder."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -365,6 +374,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The stimulant medicines lean on the heart: methylphenidate and amphetamines modestly raise heart rate and blood pressure, so cardiovascular history is screened before starting and the vitals are monitored during treatment.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system touches attention and reward: it modulates the dopamine circuits implicated in ADHD, part of why cannabis is commonly used — and misused — by those with the disorder seeking relief.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Low iron shows in the red cells and the focus: iron-deficiency, with its small, pale erythrocytes and low ferritin, is more common in ADHD and worsens symptoms, so iron status is checked and repleted as an adjunct.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Attention needs the brain's brakes too: reduced GABAergic inhibition tips the excitation-inhibition balance in ADHD, contributing to the impulsivity and distractibility that stimulant and other therapies try to rein in.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut may shape attention: altered microbiome composition is reported in ADHD, and through the microbiome-gut-brain axis it can influence the dopamine and stress signaling tied to the disorder.
+- `connects-to` → **[Narcolepsy](../narcolepsy/README.md)** — Sleepiness and inattention overlap: ADHD and narcolepsy frequently co-occur and share a hypoarousal that both respond to stimulants, so daytime sleepiness in ADHD prompts a look for an underlying sleep disorder.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
