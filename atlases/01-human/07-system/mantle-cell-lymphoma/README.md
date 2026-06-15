@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Aggressive MCL risks tumor lysis: the bulky, fast-dividing blastoid variant, burst by chemotherapy, spills potassium and phosphate into the blood, an electrolyte emergency that can stop the heart."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both name and treat MCL: nuclear cyclin D1 shown by immunohistochemistry clinches the diagnosis, while the CD20 on the cell surface is the bullseye for rituximab and other anti-CD20 antibody drugs that anchor every regimen."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Marrow and spleen takeover shows in the red cells: as MCL packs the bone marrow and swells the spleen, it crowds out and pools erythrocytes into the anemia that, with the leukemic blood spread common in MCL, marks advanced disease."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The same takeover drops the platelets: marrow infiltration and splenic sequestration cause thrombocytopenia, and the BTK-inhibitor drugs central to MCL therapy add their own bleeding risk by blunting platelet function."
 ---
 
 # Mantle Cell Lymphoma
@@ -305,6 +314,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows MCL's irregular cell: a small-to-medium lymphocyte with a deeply notched, cleaved nucleus, its overexpressed cyclin D1 — from the t(11;14) translocation — driving relentless division.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — MCL can settle around the eye: ocular adnexal and orbital involvement form a painless mass in the conjunctiva or orbit, one of the extranodal sites this widely-spreading lymphoma reaches.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Aggressive MCL risks tumor lysis: the bulky, fast-dividing blastoid variant, burst by chemotherapy, spills potassium and phosphate into the blood, an electrolyte emergency that can stop the heart.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both name and treat MCL: nuclear cyclin D1 shown by immunohistochemistry clinches the diagnosis, while the CD20 on the cell surface is the bullseye for rituximab and other anti-CD20 antibody drugs that anchor every regimen.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Marrow and spleen takeover shows in the red cells: as MCL packs the bone marrow and swells the spleen, it crowds out and pools erythrocytes into the anemia that, with the leukemic blood spread common in MCL, marks advanced disease.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The same takeover drops the platelets: marrow infiltration and splenic sequestration cause thrombocytopenia, and the BTK-inhibitor drugs central to MCL therapy add their own bleeding risk by blunting platelet function.
 
 ---
 

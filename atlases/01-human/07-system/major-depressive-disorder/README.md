@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Depression unsettles the stomach: appetite swings up or down, nausea and 'butterflies' are common somatic complaints, and the gut-brain serotonin axis ties mood tightly to digestion."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid impersonates depression: hypothyroidism produces low mood, fatigue, and slowed thinking that lift with hormone replacement, so thyroid function is checked in every depression workup and added as augmentation when standard antidepressants fall short."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Depression has an inflammatory face: raised TNF-α and related cytokines appear in depressed patients, can themselves induce low mood as sickness behavior, and mark the subgroup whose illness may respond to anti-inflammatory strategies."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Depression and obesity feed each other: each roughly doubles the risk of the other through shared inflammation, cortisol, and inactivity, and several antidepressants add weight — a metabolic-mood loop that complicates treating either alone."
 ---
 
 # Major Depressive Disorder
@@ -352,6 +361,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Depression may thin the brain's connections: studies find reduced dendritic spines and synapses in mood-regulating regions, and the rapid antidepressant effect of ketamine is thought to work by regrowing them.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the depressed mind: deficiency is consistently associated with depression, and the vitamin's receptors throughout the brain's mood circuits suggest a role in the seasonal and chronic forms of the illness.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Depression unsettles the stomach: appetite swings up or down, nausea and 'butterflies' are common somatic complaints, and the gut-brain serotonin axis ties mood tightly to digestion.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid impersonates depression: hypothyroidism produces low mood, fatigue, and slowed thinking that lift with hormone replacement, so thyroid function is checked in every depression workup and added as augmentation when standard antidepressants fall short.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Depression has an inflammatory face: raised TNF-α and related cytokines appear in depressed patients, can themselves induce low mood as sickness behavior, and mark the subgroup whose illness may respond to anti-inflammatory strategies.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Depression and obesity feed each other: each roughly doubles the risk of the other through shared inflammation, cortisol, and inactivity, and several antidepressants add weight — a metabolic-mood loop that complicates treating either alone.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
