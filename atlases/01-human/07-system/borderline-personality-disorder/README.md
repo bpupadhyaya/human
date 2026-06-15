@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The distressed gut keeps company with the distressed mind: functional GI complaints and irritable bowel syndrome are common in BPD, the brain-gut axis translating chronic emotional dysregulation into cramping, bloating, and altered bowel habit."
+  - target: 01-human/03-molecular/crh
+    relation: connects-to
+    note: "Early trauma rewires the stress axis: childhood adversity, near-universal in BPD, leaves the CRH-driven HPA system dysregulated, so the cortisol response to emotional stress is abnormal — a biological echo of the disorder's developmental roots."
+  - target: 01-human/07-system/binge-eating-disorder
+    relation: connects-to
+    note: "Disordered eating travels with BPD: impulsivity and emotional dysregulation make binge eating and bulimia common comorbidities, food becoming one of the ways acute distress is blunted, much like self-harm or substance use."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "BPD carries a low-grade inflammatory signature: raised IL-6 and other cytokines from activated T cells and monocytes accompany the disorder, part of the stress-immune link tying chronic emotional dysregulation to inflammation."
 ---
 
 # Borderline Personality Disorder
@@ -347,6 +356,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Symptoms ride the hormonal tide: BPD's emotional intensity and impulsivity often worsen in the late-luteal, premenstrual phase as estrogen and progesterone fall, a cyclical pattern that complicates diagnosis and timing of support.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Chronic stress leaves an inflammatory trace: BPD is associated with raised inflammatory markers such as IL-6, fitting a model in which early trauma and a dysregulated stress axis prime a low-grade inflammation that acts on the brain.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The distressed gut keeps company with the distressed mind: functional GI complaints and irritable bowel syndrome are common in BPD, the brain-gut axis translating chronic emotional dysregulation into cramping, bloating, and altered bowel habit.
+- `connects-to` → **[CRH](../../03-molecular/crh/README.md)** — Early trauma rewires the stress axis: childhood adversity, near-universal in BPD, leaves the CRH-driven HPA system dysregulated, so the cortisol response to emotional stress is abnormal — a biological echo of the disorder's developmental roots.
+- `connects-to` → **[Binge Eating Disorder](../binge-eating-disorder/README.md)** — Disordered eating travels with BPD: impulsivity and emotional dysregulation make binge eating and bulimia common comorbidities, food becoming one of the ways acute distress is blunted, much like self-harm or substance use.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — BPD carries a low-grade inflammatory signature: raised IL-6 and other cytokines from activated T cells and monocytes accompany the disorder, part of the stress-immune link tying chronic emotional dysregulation to inflammation.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

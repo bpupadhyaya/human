@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Early-life microbes set the allergic thermostat: a less diverse infant gut microbiome, shaped by birth mode, antibiotics, and environment, tilts the immune system toward the type-2 responses of asthma — the core of the hygiene hypothesis."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "A mould can hijack the asthmatic airway: sensitization to Aspergillus drives allergic bronchopulmonary aspergillosis, where the fungus colonizing the bronchi triggers fierce eosinophilic inflammation, mucus plugging and bronchiectasis atop the asthma."
+  - target: 01-human/07-system/anca-vasculitis
+    relation: connects-to
+    note: "Severe eosinophilic asthma can herald a vasculitis: eosinophilic granulomatosis with polyangiitis (Churg-Strauss) begins with adult-onset asthma and blood eosinophilia before progressing to an ANCA-associated small-vessel vasculitis."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Not all asthma is type-2: a neutrophilic, often steroid-resistant phenotype is driven by Th17 cells and IL-17A rather than eosinophils, explaining why some severe asthmatics respond poorly to the usual eosinophil-targeting biologics."
 ---
 
 # Asthma
@@ -316,6 +325,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies now treat severe asthma at its source: omalizumab mops up IgE, mepolizumab blocks IL-5 to starve eosinophils, and dupilumab blocks IL-4/13 signaling — monoclonal antibodies that quiet the type-2 inflammation when inhalers cannot.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones modulate the airways: asthma often shifts with the menstrual cycle (perimenstrual asthma) and changes in pregnancy — worsening in about a third of women — so control is actively managed through gestation to protect mother and fetus.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Early-life microbes set the allergic thermostat: a less diverse infant gut microbiome, shaped by birth mode, antibiotics, and environment, tilts the immune system toward the type-2 responses of asthma — the core of the hygiene hypothesis.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — A mould can hijack the asthmatic airway: sensitization to Aspergillus drives allergic bronchopulmonary aspergillosis, where the fungus colonizing the bronchi triggers fierce eosinophilic inflammation, mucus plugging and bronchiectasis atop the asthma.
+- `connects-to` → **[ANCA Vasculitis](../anca-vasculitis/README.md)** — Severe eosinophilic asthma can herald a vasculitis: eosinophilic granulomatosis with polyangiitis (Churg-Strauss) begins with adult-onset asthma and blood eosinophilia before progressing to an ANCA-associated small-vessel vasculitis.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Not all asthma is type-2: a neutrophilic, often steroid-resistant phenotype is driven by Th17 cells and IL-17A rather than eosinophils, explaining why some severe asthmatics respond poorly to the usual eosinophil-targeting biologics.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
