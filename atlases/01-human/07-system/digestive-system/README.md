@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "The hepatocyte is the digestive system's chemical plant: it makes the bile that emulsifies fat and receives the nutrient-rich portal blood from the gut, processing and storing what the intestine absorbs."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The gut runs its own brain: the enteric nervous system, ~500 million neurons in the bowel wall, drives peristalsis and secretion largely autonomously, while the vagus-linked gut-brain axis ties digestion to mood and appetite."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Most of the body's immune cells guard the gut: gut-associated lymphoid tissue (Peyer's patches, lamina propria) polices the vast luminal antigen load, tolerating food and flora while repelling pathogens across a single-cell barrier."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The digestive tract houses an organ of microbes: trillions of gut bacteria ferment fiber into short-chain fatty acids, synthesize vitamins, train immunity, and shape motility — a metabolic partner the system feeds and depends on."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -288,6 +297,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Electron](../../01-subatomic/electron/README.md) — electron microscopy reveals how the gut absorbs so much: each enterocyte is crowned with a brush border of densely packed microvilli that multiplies the absorptive surface, the ultrastructure behind nutrient uptake.
 - **Connects to:** [Sodium](../../02-atomic/sodium/README.md) — sodium powers digestion's uptake: the sodium gradient set by membrane pumps drives the cotransporters that haul glucose, amino acids, and water across the gut lining — the principle behind oral rehydration therapy.
 - **Connects to:** [Hepatocyte](../../04-cellular/hepatocyte/README.md) — the hepatocyte is the digestive system's chemical plant: it makes the bile that emulsifies fat and receives the nutrient-rich portal blood from the gut, processing and storing what the intestine absorbs.
+- **Connects to:** [Nervous System](../nervous-system/README.md) — the gut runs its own brain: the enteric nervous system, ~500 million neurons in the bowel wall, drives peristalsis and secretion largely autonomously, while the vagus-linked gut-brain axis ties digestion to mood and appetite.
+- **Connects to:** [Immune System](../immune-system/README.md) — most of the body's immune cells guard the gut: gut-associated lymphoid tissue (Peyer's patches, lamina propria) polices the vast luminal antigen load, tolerating food and flora while repelling pathogens across a single-cell barrier.
+- **Connects to:** [Gut Microbiome](../gut-microbiome/README.md) — the digestive tract houses an organ of microbes: trillions of gut bacteria ferment fiber into short-chain fatty acids, synthesize vitamins, train immunity, and shape motility — a metabolic partner the system feeds and depends on.
 
 ## Pathology
 
