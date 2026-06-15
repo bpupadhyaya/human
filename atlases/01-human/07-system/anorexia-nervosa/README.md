@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Anorexia distorts sodium: water-loading to fake weight and the kidney's struggle to concentrate urine cause hyponatremia, while refeeding can shift fluids and electrolytes dangerously."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows starvation remaking the marrow: as fat stores vanish, the bone marrow undergoes gelatinous transformation, its cells replaced by a pink mucoid substance, the reason severe anorexia can drop every blood count."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Starvation writes itself on the skin: fine downy lanugo hair sprouts to conserve heat, the skin dries and yellows with carotene, and slow healing and pressure sores follow as the body sacrifices its surface to survive."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Anorexia leaches calcium from the bones: estrogen collapse and poor intake during the years bone should be built leave the skeleton thin and brittle, an often irreversible osteoporosis even in the young."
 ---
 
 # Anorexia Nervosa
@@ -320,6 +329,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Anorexia's toll on bone is measured with radiation: DXA scans use photons to track the bone-density loss that threatens young patients with early osteoporosis and fractures.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Starvation shrinks the brain in anorexia: gray-matter loss and altered reward-circuit neurons accompany the illness, changes that are largely reversible once weight is restored.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Anorexia distorts sodium: water-loading to fake weight and the kidney's struggle to concentrate urine cause hyponatremia, while refeeding can shift fluids and electrolytes dangerously.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows starvation remaking the marrow: as fat stores vanish, the bone marrow undergoes gelatinous transformation, its cells replaced by a pink mucoid substance, the reason severe anorexia can drop every blood count.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Starvation writes itself on the skin: fine downy lanugo hair sprouts to conserve heat, the skin dries and yellows with carotene, and slow healing and pressure sores follow as the body sacrifices its surface to survive.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Anorexia leaches calcium from the bones: estrogen collapse and poor intake during the years bone should be built leave the skeleton thin and brittle, an often irreversible osteoporosis even in the young.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

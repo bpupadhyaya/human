@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "STAT3 is the switch that locks iron away: IL-6 signals through it to switch on hepcidin in the liver, the molecular relay that turns inflammation into the iron-restricted anemia of chronic disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows where the iron is hidden: macrophages of the spleen and marrow swell with ferritin and hemosiderin granules, hoarding the iron that hepcidin won't let them release to the hungry red-cell precursors."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D can ease the iron block: it suppresses hepcidin, so deficiency — common in the chronic inflammatory diseases that cause this anemia — tightens the iron restriction, and repletion modestly loosens it."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Inflammatory bowel disease is a classic cause: chronic gut inflammation drives the IL-6 and hepcidin that lock away iron, so the large intestine's disease shows up as the anemia in the blood."
 ---
 
 # Anemia of Chronic Disease
@@ -299,6 +308,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The marrow tells the story under the microscope: a Prussian-blue stain shows iron trapped in macrophages but missing from developing red cells, the light-microscopy signature that separates anemia of inflammation from true iron deficiency.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper is needed to move iron: ceruloplasmin, a copper enzyme, oxidizes iron for loading onto transferrin, so copper deficiency causes an anemia that can be mistaken for the anemia of chronic disease.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 is the switch that locks iron away: IL-6 signals through it to switch on hepcidin in the liver, the molecular relay that turns inflammation into the iron-restricted anemia of chronic disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows where the iron is hidden: macrophages of the spleen and marrow swell with ferritin and hemosiderin granules, hoarding the iron that hepcidin won't let them release to the hungry red-cell precursors.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D can ease the iron block: it suppresses hepcidin, so deficiency — common in the chronic inflammatory diseases that cause this anemia — tightens the iron restriction, and repletion modestly loosens it.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Inflammatory bowel disease is a classic cause: chronic gut inflammation drives the IL-6 and hepcidin that lock away iron, so the large intestine's disease shows up as the anemia in the blood.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
