@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "HCC can spike the blood calcium: a paraneoplastic hypercalcemia from tumor-secreted PTHrP appears in some patients, causing confusion, constipation, and thirst independent of any bone metastasis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies screen and treat HCC: the AFP blood marker is read by immunoassay to flag and follow tumors, and atezolizumab with the anti-VEGF antibody bevacizumab is now first-line immunotherapy for advanced disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The blood count forecasts the course: a high neutrophil-to-lymphocyte ratio predicts poorer survival in HCC, reflecting the tumor-promoting inflammation of the chronically injured, cirrhotic liver it grows in."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "HCC is a man's cancer, and androgens are why: it strikes men two-to-four times more often, testosterone signaling promotes its growth, and anabolic-steroid abuse can itself spawn hepatic tumors."
 ---
 
 # Hepatocellular Carcinoma
@@ -329,6 +338,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — HCC arises on a failing liver that poisons the brain: as cirrhosis and tumor crowd out function, ammonia builds up to cloud neurons into hepatic encephalopathy — confusion, asterixis, and at worst coma.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — HCC can thicken the blood paradoxically: despite arising in a failing liver, it sometimes secretes erythropoietin ectopically, driving a paraneoplastic erythrocytosis of excess red cells.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HCC can spike the blood calcium: a paraneoplastic hypercalcemia from tumor-secreted PTHrP appears in some patients, causing confusion, constipation, and thirst independent of any bone metastasis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies screen and treat HCC: the AFP blood marker is read by immunoassay to flag and follow tumors, and atezolizumab with the anti-VEGF antibody bevacizumab is now first-line immunotherapy for advanced disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count forecasts the course: a high neutrophil-to-lymphocyte ratio predicts poorer survival in HCC, reflecting the tumor-promoting inflammation of the chronically injured, cirrhotic liver it grows in.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — HCC is a man's cancer, and androgens are why: it strikes men two-to-four times more often, testosterone signaling promotes its growth, and anabolic-steroid abuse can itself spawn hepatic tumors.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

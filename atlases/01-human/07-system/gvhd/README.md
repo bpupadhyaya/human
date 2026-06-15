@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Chronic GVHD scars the genital tract: vaginal and penile mucosal inflammation, dryness, and stenosis are underrecognized but common, the same lichenoid and sclerotic attack that hits skin and mouth."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Corticosteroids are the first line and a double edge: high-dose glucocorticoids suppress the donor T cells driving GVHD, but their infections, bone loss, and metabolic harm make steroid-sparing agents a constant goal."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "Hepatic GVHD strikes the liver cells and ducts: donor T cells attack the bile-duct epithelium and injure hepatocytes, producing a cholestatic hepatitis with rising bilirubin that is one of acute GVHD's three classic targets."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The transplanted immunity can turn on the thyroid: chronic GVHD and post-transplant immune dysregulation raise the rate of autoimmune thyroid disease, one of the late endocrine complications survivors are monitored for."
 ---
 
 # Graft-Versus-Host Disease
@@ -337,6 +346,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Chronic GVHD recruits the donor's B cells: alloantibodies and autoantibodies contribute to its sclerosis, which is why the B-cell-depleting antibody rituximab — and antithymocyte globulin in prophylaxis — are part of its management.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Chronic GVHD stiffens the body's framework: a scleroderma-like fasciitis and joint contractures bind down the limbs, limiting movement as the donor immune cells lay down fibrosis in fascia and muscle.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Chronic GVHD scars the genital tract: vaginal and penile mucosal inflammation, dryness, and stenosis are underrecognized but common, the same lichenoid and sclerotic attack that hits skin and mouth.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Corticosteroids are the first line and a double edge: high-dose glucocorticoids suppress the donor T cells driving GVHD, but their infections, bone loss, and metabolic harm make steroid-sparing agents a constant goal.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatic GVHD strikes the liver cells and ducts: donor T cells attack the bile-duct epithelium and injure hepatocytes, producing a cholestatic hepatitis with rising bilirubin that is one of acute GVHD's three classic targets.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The transplanted immunity can turn on the thyroid: chronic GVHD and post-transplant immune dysregulation raise the rate of autoimmune thyroid disease, one of the late endocrine complications survivors are monitored for.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
