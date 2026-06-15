@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Relentless scratching breaches the barrier: the excoriated nodules become impetiginized, drawing neutrophils as secondary bacterial infection sets in — a complication that itself worsens the itch."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system can dial down itch: cannabinoid receptors on skin nerves and immune cells modulate the itch signal, so topical and systemic cannabinoids are studied as antipruritics for the relentless scratching of prurigo."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "A gut-skin axis may feed the itch: dysbiosis and altered microbial metabolites shape the systemic inflammation behind chronic pruritic skin disease, tying the gut to the neuroimmune itch of prurigo nodularis."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Relentless itch can signal the blood: polycythemia vera and iron deficiency are recognized systemic causes of chronic pruritus, so a blood disorder is sought when scratching builds prurigo nodules without an obvious skin cause."
 ---
 
 # Prurigo Nodularis
@@ -274,6 +283,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Prurigo's breakthrough treatments are antibodies: dupilumab blocks IL-4/IL-13 signaling and nemolizumab the itch cytokine IL-31's receptor, monoclonal antibodies that finally break the itch-scratch cycle that topical steroids could not.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The biologics bring an ocular catch: dupilumab, used for prurigo and atopic disease, commonly causes conjunctivitis, so a red, irritated eye is a side effect watched for during treatment.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Relentless scratching breaches the barrier: the excoriated nodules become impetiginized, drawing neutrophils as secondary bacterial infection sets in — a complication that itself worsens the itch.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system can dial down itch: cannabinoid receptors on skin nerves and immune cells modulate the itch signal, so topical and systemic cannabinoids are studied as antipruritics for the relentless scratching of prurigo.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — A gut-skin axis may feed the itch: dysbiosis and altered microbial metabolites shape the systemic inflammation behind chronic pruritic skin disease, tying the gut to the neuroimmune itch of prurigo nodularis.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Relentless itch can signal the blood: polycythemia vera and iron deficiency are recognized systemic causes of chronic pruritus, so a blood disorder is sought when scratching builds prurigo nodules without an obvious skin cause.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

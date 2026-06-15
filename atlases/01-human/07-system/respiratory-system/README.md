@@ -153,6 +153,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "One faulty channel ties lung to pancreas: in cystic fibrosis a defective CFTR thickens secretions in both, clogging the airways with mucus while blocking the pancreatic ducts that should deliver digestive enzymes."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The airway mucosa is an antibody barrier: secretory IgA coats it to trap inhaled pathogens, while monoclonal antibodies against IgE and IL-5 now treat severe asthma — and misdirected antibody drives autoimmune lung disease like Goodpasture."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "A gut-lung axis links the two surfaces: the airway has its own microbiome, and gut flora shape lung immunity and allergic-asthma risk through circulating microbial metabolites — distant microbes tuning the respiratory tract."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Breathing bends to pregnancy and begins before birth: progesterone drives the increased ventilation and breathlessness of pregnancy, while fetal lung maturation and surfactant production set the timing of safe delivery."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
