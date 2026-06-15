@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Atherosclerosis can starve the gut: when it narrows the mesenteric arteries, eating brings on the cramping 'intestinal angina,' and a sudden clot there can cause catastrophic bowel infarction."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Atherosclerosis of the neck and brain arteries threatens neurons: carotid plaque throws emboli that cause stroke and TIA, while diffuse small-vessel disease starves neurons into vascular cognitive impairment."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Erectile dysfunction is atherosclerosis's early warning: the small penile arteries clog before the larger coronaries, so new ED in a man is often the first sign of systemic disease and prompts cardiac assessment."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Narrowed leg arteries cramp the muscles: peripheral artery disease starves the calf and thigh muscles of blood, causing the claudication pain that comes on with walking and, when severe, threatens the limb."
 ---
 
 # Atherosclerosis
@@ -305,6 +314,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the plaque's anatomy: lipid-stuffed foam cells, needle-like cholesterol clefts, and a soft necrotic core capped by fibrous tissue — the unstable structure whose rupture triggers heart attacks and strokes.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper helps turn cholesterol toxic: as a redox-active metal it catalyzes the oxidation of LDL, and it is oxidized LDL that macrophages gorge on to become the foam cells at the heart of the plaque.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Atherosclerosis can starve the gut: when it narrows the mesenteric arteries, eating brings on the cramping 'intestinal angina,' and a sudden clot there can cause catastrophic bowel infarction.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Atherosclerosis of the neck and brain arteries threatens neurons: carotid plaque throws emboli that cause stroke and TIA, while diffuse small-vessel disease starves neurons into vascular cognitive impairment.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Erectile dysfunction is atherosclerosis's early warning: the small penile arteries clog before the larger coronaries, so new ED in a man is often the first sign of systemic disease and prompts cardiac assessment.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Narrowed leg arteries cramp the muscles: peripheral artery disease starves the calf and thigh muscles of blood, causing the claudication pain that comes on with walking and, when severe, threatens the limb.
 
 ---
 

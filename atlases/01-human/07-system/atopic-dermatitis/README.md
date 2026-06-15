@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Severe eczema may tax the heart: like other chronic inflammatory skin diseases, long-standing atopic dermatitis is linked to a modestly raised cardiovascular risk from its systemic inflammation."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Biologic antibodies rewrote eczema care: dupilumab blocks the shared IL-4/IL-13 receptor and tralokinumab targets IL-13, monoclonal antibodies that calm the type-2 inflammation — while sky-high IgE marks the atopic state behind it."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "The itch is worst at night: eczema flares as cortisol falls and skin loses water in the evening, and the disrupted melatonin and broken sleep that follow blunt mood, growth, and the next day's coping."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Scratched eczema invites infection: the broken barrier is readily colonized by Staphylococcus aureus, and frank impetiginization draws neutrophils as the oozing, crusted flare of secondary bacterial infection sets in."
 ---
 
 # Atopic Dermatitis
@@ -306,6 +315,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the leaky barrier of eczema: filaggrin-deficient skin makes too few of the lamellar lipid layers that seal the stratum corneum, and inflamed cells pull apart in spongiosis, letting water out and allergens in.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Eczema reaches the mind: the relentless itch wrecks sleep and the disorder is strongly comorbid with anxiety, depression, and ADHD, so the skin disease casts a heavy neuropsychiatric shadow.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe eczema may tax the heart: like other chronic inflammatory skin diseases, long-standing atopic dermatitis is linked to a modestly raised cardiovascular risk from its systemic inflammation.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Biologic antibodies rewrote eczema care: dupilumab blocks the shared IL-4/IL-13 receptor and tralokinumab targets IL-13, monoclonal antibodies that calm the type-2 inflammation — while sky-high IgE marks the atopic state behind it.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The itch is worst at night: eczema flares as cortisol falls and skin loses water in the evening, and the disrupted melatonin and broken sleep that follow blunt mood, growth, and the next day's coping.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Scratched eczema invites infection: the broken barrier is readily colonized by Staphylococcus aureus, and frank impetiginization draws neutrophils as the oozing, crusted flare of secondary bacterial infection sets in.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
