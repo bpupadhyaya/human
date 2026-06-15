@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "The bile-duct cancer can seed the skeleton: bone metastases, reaching the marrow-filled vertebrae and pelvis, are a painful late manifestation of its hematogenous spread."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Immunotherapy and antibodies entered biliary cancer: adding the anti-PD-L1 antibody durvalumab to gemcitabine-cisplatin is now standard for advanced disease, and IHC antibody stains (CK7/CK19) help distinguish it from liver-cell cancer."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The chemotherapy bites the nerves: the gemcitabine-cisplatin and oxaliplatin regimens used against cholangiocarcinoma injure peripheral sensory neurons, causing the tingling, numbness, and cold sensitivity of a platinum neuropathy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Platinum chemotherapy drains magnesium: cisplatin injures the kidney's tubules so they waste the mineral, making magnesium monitoring and replacement part of biliary cancer treatment."
 ---
 
 # Cholangiocarcinoma
@@ -280,6 +289,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads cholangiocarcinoma as a gland-maker: its cells form duct-like lumina with microvilli and secrete mucin, the adenocarcinoma ultrastructure embedded in the dense fibrous stroma that defines bile-duct cancer.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Cholangiocarcinoma spreads outward to the lung: beyond invading the liver it is around, the tumor metastasizes hematogenously to the lungs and bones, marking the advanced disease that surgery can no longer cure.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The bile-duct cancer can seed the skeleton: bone metastases, reaching the marrow-filled vertebrae and pelvis, are a painful late manifestation of its hematogenous spread.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy and antibodies entered biliary cancer: adding the anti-PD-L1 antibody durvalumab to gemcitabine-cisplatin is now standard for advanced disease, and IHC antibody stains (CK7/CK19) help distinguish it from liver-cell cancer.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The chemotherapy bites the nerves: the gemcitabine-cisplatin and oxaliplatin regimens used against cholangiocarcinoma injure peripheral sensory neurons, causing the tingling, numbness, and cold sensitivity of a platinum neuropathy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy drains magnesium: cisplatin injures the kidney's tubules so they waste the mineral, making magnesium monitoring and replacement part of biliary cancer treatment.
 
 ---
 

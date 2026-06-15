@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "A skull-base chordoma blurs and crosses the vision: growing at the clivus it compresses the cranial nerves that move the eyes, causing double vision and gaze palsies that often first bring the patient in."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody marks and may treat the notochordal tumor: the brachyury (TBXT) protein, detected by immunostaining, is the diagnostic hallmark of chordoma, and a brachyury cancer vaccine is in trials to rouse immunity against it."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "A sacral chordoma strikes at the body's lower controls: growing in the sacrum it compresses the nerve roots governing erection, ejaculation, and continence, so sexual and pelvic dysfunction can be early or surgical consequences."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The sacral tumor disconnects the pelvic smooth muscle: damage to the sacral roots from the chordoma or its removal leaves the bladder and bowel smooth muscle without control, causing retention, incontinence, and constipation."
 ---
 
 # Chordoma
@@ -318,6 +327,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy names the chordoma cell: the physaliphorous ('bubble-bearing') cell, its cytoplasm ballooning with glycogen and mucin-filled vacuoles, betrays the tumor's origin in leftover notochord tissue.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Chordoma is born in bone: it grows from notochord remnants in the marrow-bearing vertebrae of the sacrum and skull base, destroying the bone it arises in and occasionally seeding distant skeletal metastases.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — A skull-base chordoma blurs and crosses the vision: growing at the clivus it compresses the cranial nerves that move the eyes, causing double vision and gaze palsies that often first bring the patient in.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody marks and may treat the notochordal tumor: the brachyury (TBXT) protein, detected by immunostaining, is the diagnostic hallmark of chordoma, and a brachyury cancer vaccine is in trials to rouse immunity against it.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A sacral chordoma strikes at the body's lower controls: growing in the sacrum it compresses the nerve roots governing erection, ejaculation, and continence, so sexual and pelvic dysfunction can be early or surgical consequences.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The sacral tumor disconnects the pelvic smooth muscle: damage to the sacral roots from the chordoma or its removal leaves the bladder and bowel smooth muscle without control, causing retention, incontinence, and constipation.
 
 ---
 
