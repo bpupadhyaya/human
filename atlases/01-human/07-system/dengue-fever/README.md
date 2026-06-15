@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Dengue disturbs potassium: hypokalemia is common in the acute phase, while kidney injury in severe disease can drive it up, so electrolytes are watched closely during the critical leak phase."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows dengue's two threats: the small icosahedral flavivirus replicating in scaffolds of host membrane, and the widened junctions between endothelial cells through which plasma leaks in severe disease."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Dengue paints the skin: a flushed rash gives way to the petechiae of falling platelets and the classic 'islands of white in a sea of red,' and a tourniquet test bringing out spots warns of bleeding risk."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Dengue can blur vision weeks in: dengue maculopathy with retinal hemorrhage, edema, and foveolitis appears around the time platelets bottom out, sometimes leaving lasting blind spots."
 ---
 
 # Dengue Fever
@@ -283,3 +292,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Ultrasound and X-ray photons catch dengue's plasma leak: pleural effusions, ascites and a thickened gallbladder wall reveal the capillary leakage that marks the dangerous critical phase.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Dengue's capillary leak floods the chest: plasma seeps into the pleural space, causing effusions and, in severe cases, respiratory distress, part of the third-spacing of dengue shock.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Dengue disturbs potassium: hypokalemia is common in the acute phase, while kidney injury in severe disease can drive it up, so electrolytes are watched closely during the critical leak phase.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows dengue's two threats: the small icosahedral flavivirus replicating in scaffolds of host membrane, and the widened junctions between endothelial cells through which plasma leaks in severe disease.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Dengue paints the skin: a flushed rash gives way to the petechiae of falling platelets and the classic 'islands of white in a sea of red,' and a tourniquet test bringing out spots warns of bleeding risk.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Dengue can blur vision weeks in: dengue maculopathy with retinal hemorrhage, edema, and foveolitis appears around the time platelets bottom out, sometimes leaving lasting blind spots.

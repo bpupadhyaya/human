@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Cytokine storm clouds the brain: the flood of inflammatory mediators and fever cause encephalopathy, seizures and coma, the neurologic toll of HLH and severe systemic inflammation."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy catches the storm consuming the blood: in hemophagocytic syndromes, macrophages are seen engulfing whole red cells, platelets, and white cells, the cannibalism that empties the blood counts in HLH."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The runaway inflammation can wreck the gut: shock and capillary leak starve the bowel lining, breaking the barrier so bacteria translocate and feed the storm in a vicious cycle of multi-organ failure."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Cytokine storm drops the calcium: the systemic inflammation and disturbed hormone handling leave critically ill patients hypocalcemic, a derangement that further weakens the failing heart and vasculature."
 ---
 
 # Cytokine Storm
@@ -262,6 +271,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging shows the cytokine storm's wreckage: chest CT photons reveal the diffuse lung infiltrates of ARDS, the most visible organ failure of the runaway inflammation.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferritin soars in cytokine storm: the macrophage activation pours out this iron-storage protein, so an extremely high ferritin is a hallmark and diagnostic clue to HLH and severe inflammation.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cytokine storm clouds the brain: the flood of inflammatory mediators and fever cause encephalopathy, seizures and coma, the neurologic toll of HLH and severe systemic inflammation.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy catches the storm consuming the blood: in hemophagocytic syndromes, macrophages are seen engulfing whole red cells, platelets, and white cells, the cannibalism that empties the blood counts in HLH.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The runaway inflammation can wreck the gut: shock and capillary leak starve the bowel lining, breaking the barrier so bacteria translocate and feed the storm in a vicious cycle of multi-organ failure.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Cytokine storm drops the calcium: the systemic inflammation and disturbed hormone handling leave critically ill patients hypocalcemic, a derangement that further weakens the failing heart and vasculature.
 
 ## Pathology
 
