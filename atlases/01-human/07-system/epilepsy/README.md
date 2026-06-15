@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "GABA calms the brain by moving chloride: opening chloride channels normally quiets neurons, but when the chloride gradient is immature or disrupted GABA can instead excite them, a switch that underlies hard-to-treat neonatal seizures."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium calms overexcited neurons: intravenous magnesium is the treatment for eclamptic seizures, and a low magnesium level can itself lower the seizure threshold, tying the mineral to seizure control."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Diet and the gut shape epilepsy: the ketogenic diet controls many drug-resistant seizures, and the gut microbiome it reshapes appears to mediate part of that protection through the gut-brain axis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "When drugs fail, epilepsy is treated through a nerve: vagus nerve stimulation sends regular pulses along this peripheral nerve to the brain, reducing seizure frequency in refractory cases."
 ---
 
 # Epilepsy
@@ -319,6 +328,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light itself can trigger seizures: in photosensitive epilepsy, flashing lights and certain patterns drive abnormal synchronous firing through the visual system, so the photons hitting the retina set off a seizure—why strobe effects carry warnings.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Epilepsy treatment runs through the liver: most antiseizure drugs are metabolized there, inducing or inhibiting enzymes that cause drug interactions, and some (like valproate) can injure the liver, so liver function shapes the choice of medication.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GABA calms the brain by moving chloride: opening chloride channels normally quiets neurons, but when the chloride gradient is immature or disrupted GABA can instead excite them, a switch that underlies hard-to-treat neonatal seizures.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium calms overexcited neurons: intravenous magnesium is the treatment for eclamptic seizures, and a low magnesium level can itself lower the seizure threshold, tying the mineral to seizure control.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Diet and the gut shape epilepsy: the ketogenic diet controls many drug-resistant seizures, and the gut microbiome it reshapes appears to mediate part of that protection through the gut-brain axis.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — When drugs fail, epilepsy is treated through a nerve: vagus nerve stimulation sends regular pulses along this peripheral nerve to the brain, reducing seizure frequency in refractory cases.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
