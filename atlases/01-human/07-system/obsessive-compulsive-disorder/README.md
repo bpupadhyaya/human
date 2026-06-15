@@ -143,6 +143,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The gut may sway OCD: emerging work ties the intestinal microbiome to anxiety and compulsive behavior through the gut-brain axis, hinting the bowel's microbes influence the disorder's severity."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "OCD's cousins attack the skin: body-focused repetitive behaviors — compulsive skin-picking and hair-pulling — sit in the OCD spectrum, driving sufferers to wound their own skin in irresistible, shame-laden rituals."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc may matter to the obsessive brain: low zinc is reported in OCD and the mineral modulates the glutamate signaling implicated in the disorder, so zinc supplementation has been trialed as an adjunct to standard treatment."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "OCD weighs on the heart over time: the chronic anxiety and stress raise cardiovascular risk, and the SSRIs that treat it can prolong the QT interval, so the heart is watched in long-term, high-dose therapy."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -309,6 +318,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging reveals OCD's overactive circuit: PET and fMRI photons show a hyperactive loop linking the orbitofrontal cortex, striatum and thalamus, the target even of radiosurgical capsulotomy in refractory cases.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — OCD shows altered white matter: the oligodendrocytes that myelinate the cortico-striatal tracts shape how fast the circuit signals, and changes in these connections appear in diffusion imaging studies.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut may sway OCD: emerging work ties the intestinal microbiome to anxiety and compulsive behavior through the gut-brain axis, hinting the bowel's microbes influence the disorder's severity.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — OCD's cousins attack the skin: body-focused repetitive behaviors — compulsive skin-picking and hair-pulling — sit in the OCD spectrum, driving sufferers to wound their own skin in irresistible, shame-laden rituals.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc may matter to the obsessive brain: low zinc is reported in OCD and the mineral modulates the glutamate signaling implicated in the disorder, so zinc supplementation has been trialed as an adjunct to standard treatment.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — OCD weighs on the heart over time: the chronic anxiety and stress raise cardiovascular risk, and the SSRIs that treat it can prolong the QT interval, so the heart is watched in long-term, high-dose therapy.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

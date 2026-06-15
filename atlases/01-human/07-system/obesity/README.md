@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Obesity rewires appetite neurons: the hypothalamic neurons that sense leptin grow resistant and inflamed, so the brain misreads a fat-replete body as starving and keeps driving hunger."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows obese fat tissue under siege: adipocytes balloon with lipid until they die, and macrophages wall off the debris in 'crown-like structures,' the microscopic source of the chronic inflammation behind insulin resistance."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Excess weight crushes the breath: fat around the neck and chest collapses the airway in obstructive sleep apnea and stiffens the chest wall, blunting ventilation into the daytime drowsiness of obesity hypoventilation syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Obesity runs low on magnesium: the mineral is often depleted in metabolic syndrome, and since magnesium aids insulin signaling, its shortage feeds back to worsen the insulin resistance at the disease's core."
 ---
 
 # Obesity
@@ -315,6 +324,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Body composition is read with radiation: DXA and CT photons separate dangerous visceral fat from harmless subcutaneous fat far better than the crude weight-and-height of BMI.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Overwhelmed fat turns to scar: chronically inflamed adipose tissue becomes fibrotic and stiff, losing its capacity to safely store lipid, which then spills into the liver and muscle to drive metabolic disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Obesity rewires appetite neurons: the hypothalamic neurons that sense leptin grow resistant and inflamed, so the brain misreads a fat-replete body as starving and keeps driving hunger.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows obese fat tissue under siege: adipocytes balloon with lipid until they die, and macrophages wall off the debris in 'crown-like structures,' the microscopic source of the chronic inflammation behind insulin resistance.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Excess weight crushes the breath: fat around the neck and chest collapses the airway in obstructive sleep apnea and stiffens the chest wall, blunting ventilation into the daytime drowsiness of obesity hypoventilation syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Obesity runs low on magnesium: the mineral is often depleted in metabolic syndrome, and since magnesium aids insulin signaling, its shortage feeds back to worsen the insulin resistance at the disease's core.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
