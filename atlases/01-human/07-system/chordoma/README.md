@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Sacral chordoma presses on the bowel: the most common chordoma site sits against the rectum and pelvic nerves, so large tumors cause constipation, bowel and bladder dysfunction, and low back pain."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Chordoma grows against the nerves: skull-base and sacral tumors compress cranial nerves and the cauda equina, causing the neuropathic pain, weakness and bowel-bladder dysfunction that often first signal it."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Chordoma metastasizes late: though slow-growing and locally destructive, it can seed the lungs, liver and bone over years, especially after repeated local recurrences."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Chordoma builds its own vasculature: VEGF recruits endothelial cells to feed the tumor, and anti-angiogenic drugs are among the systemic options for this radiation- and surgery-dependent cancer."
 ---
 
 # Chordoma
@@ -294,6 +303,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Chordoma eats away calcium-rich bone: arising in the skull base and sacrum, it destroys the bony matrix as it grows, dissolving the calcium scaffold and threatening the spine and cranial nerves it surrounds.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Chordoma shelters in a macrophage-rich stroma: tumor-associated macrophages populate its microenvironment and dampen immunity, part of why this slow but stubborn tumor resists treatment and recurs.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Sacral chordoma presses on the bowel: the most common chordoma site sits against the rectum and pelvic nerves, so large tumors cause constipation, bowel and bladder dysfunction, and low back pain.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Chordoma grows against the nerves: skull-base and sacral tumors compress cranial nerves and the cauda equina, causing the neuropathic pain, weakness and bowel-bladder dysfunction that often first signal it.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Chordoma metastasizes late: though slow-growing and locally destructive, it can seed the lungs, liver and bone over years, especially after repeated local recurrences.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Chordoma builds its own vasculature: VEGF recruits endothelial cells to feed the tumor, and anti-angiogenic drugs are among the systemic options for this radiation- and surgery-dependent cancer.
 
 ---
 

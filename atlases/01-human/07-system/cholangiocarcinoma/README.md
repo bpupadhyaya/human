@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium-laden bile stones breed cholangiocarcinoma: intrahepatic stones (hepatolithiasis), rich in calcium and pigment, chronically inflame and obstruct the ducts, a recognized precursor to bile-duct cancer."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Cholangiocarcinoma is tied to the bowel: primary sclerosing cholangitis with inflammatory bowel disease is a major risk factor, linking colonic inflammation to cancer of the bile ducts."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells patrol the liver against cholangiocarcinoma: abundant in hepatic tissue, they can kill tumor cells, and boosting their dampened activity is an immunotherapy strategy against this resistant cancer."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β drives cholangiocarcinoma's dense scar: it activates fibroblasts to build the desmoplastic stroma that armors the tumor against drugs and immune cells, a hallmark of bile-duct cancer."
 ---
 
 # Cholangiocarcinoma
@@ -256,6 +265,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Cholangiocarcinoma near the duct's end involves the pancreas: distal tumors sit where the bile duct passes through the pancreatic head, so removing them requires a Whipple operation that takes part of the pancreas too.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Cholangiocarcinoma builds its blood supply through endothelial cells: VEGF from the tumor drives these vessel-lining cells to form new vasculature feeding the cancer, a target of anti-angiogenic therapy.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium-laden bile stones breed cholangiocarcinoma: intrahepatic stones (hepatolithiasis), rich in calcium and pigment, chronically inflame and obstruct the ducts, a recognized precursor to bile-duct cancer.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cholangiocarcinoma is tied to the bowel: primary sclerosing cholangitis with inflammatory bowel disease is a major risk factor, linking colonic inflammation to cancer of the bile ducts.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells patrol the liver against cholangiocarcinoma: abundant in hepatic tissue, they can kill tumor cells, and boosting their dampened activity is an immunotherapy strategy against this resistant cancer.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β drives cholangiocarcinoma's dense scar: it activates fibroblasts to build the desmoplastic stroma that armors the tumor against drugs and immune cells, a hallmark of bile-duct cancer.
 
 ---
 
