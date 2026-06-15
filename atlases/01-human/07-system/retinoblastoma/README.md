@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "When retinoblastoma escapes the eye it can reach the lung: though it usually spreads up the optic nerve to the brain or into the marrow, rare hematogenous metastases seed the lungs in advanced, treatment-resistant disease."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "A collagen sieve marks the point of no return: the lamina cribrosa, the collagen plate where the optic nerve leaves the eye, is the barrier retinoblastoma must breach, and tumor invasion beyond it sharply raises the risk of spread and worsens prognosis."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Curing retinoblastoma drains the red cells: the carboplatin-vincristine-etoposide chemotherapy suppresses the marrow, dropping the erythrocyte count into an anemia that may need transfusion support through treatment."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Platinum chemotherapy wastes magnesium: carboplatin injures the kidney's tubular handling of the mineral, so magnesium is monitored and replaced during the months of retinoblastoma treatment."
 ---
 
 # Retinoblastoma
@@ -284,6 +293,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals retinoblastoma's photoreceptor roots: well-differentiated tumors form Flexner-Wintersteiner rosettes ringing a central lumen and sprout primitive light-sensing cilia, ultrastructure betraying their origin in the developing retina.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Retinoblastoma enlists the retina's own immune cells: tumor-associated microglia infiltrate the growing mass and, rather than fighting it, secrete factors that support its proliferation, with their density tracking more aggressive disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — When retinoblastoma escapes the eye it can reach the lung: though it usually spreads up the optic nerve to the brain or into the marrow, rare hematogenous metastases seed the lungs in advanced, treatment-resistant disease.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — A collagen sieve marks the point of no return: the lamina cribrosa, the collagen plate where the optic nerve leaves the eye, is the barrier retinoblastoma must breach, and tumor invasion beyond it sharply raises the risk of spread and worsens prognosis.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Curing retinoblastoma drains the red cells: the carboplatin-vincristine-etoposide chemotherapy suppresses the marrow, dropping the erythrocyte count into an anemia that may need transfusion support through treatment.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy wastes magnesium: carboplatin injures the kidney's tubular handling of the mineral, so magnesium is monitored and replaced during the months of retinoblastoma treatment.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

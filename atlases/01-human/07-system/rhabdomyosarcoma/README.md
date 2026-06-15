@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Rhabdomyosarcoma can spread to the liver: alongside its favored routes to lung, bone, and marrow, the bloodborne tumor seeds hepatic metastases in widespread disease, a marker of the high-risk, hardest-to-cure cases."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The VAC backbone frays the nerves: vincristine, the 'V' of the standard rhabdomyosarcoma regimen, jams the microtubule transport of peripheral neurons, causing a dose-limiting neuropathy with foot drop, constipation, and tingling."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Intensified chemotherapy can scar the heart: when doxorubicin is added for higher-risk rhabdomyosarcoma, its cumulative cardiotoxicity threatens a late cardiomyopathy that survivors are monitored for long after cure."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "The bladder is a common cradle for childhood RMS: embryonal (botryoid) rhabdomyosarcoma often springs from the bladder and prostate, a sarcoma of muscle quite unlike the urothelial bladder cancer that strikes adults."
 ---
 
 # Rhabdomyosarcoma
@@ -299,6 +308,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy proves a tumor is rhabdomyosarcoma: the malignant cells assemble crude sarcomeres — thick and thin filaments aligned into Z-bands — the ultrastructural sign of skeletal-muscle differentiation that named the cancer.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Pelvic rhabdomyosarcoma threatens the kidney from afar: bladder, prostate, and vaginal tumors fill the pelvis and compress the ureters, backing urine up into the kidneys as obstructive hydronephrosis that can damage them if not relieved.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Rhabdomyosarcoma can spread to the liver: alongside its favored routes to lung, bone, and marrow, the bloodborne tumor seeds hepatic metastases in widespread disease, a marker of the high-risk, hardest-to-cure cases.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The VAC backbone frays the nerves: vincristine, the 'V' of the standard rhabdomyosarcoma regimen, jams the microtubule transport of peripheral neurons, causing a dose-limiting neuropathy with foot drop, constipation, and tingling.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Intensified chemotherapy can scar the heart: when doxorubicin is added for higher-risk rhabdomyosarcoma, its cumulative cardiotoxicity threatens a late cardiomyopathy that survivors are monitored for long after cure.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The bladder is a common cradle for childhood RMS: embryonal (botryoid) rhabdomyosarcoma often springs from the bladder and prostate, a sarcoma of muscle quite unlike the urothelial bladder cancer that strikes adults.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
