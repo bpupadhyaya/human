@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Generalized anxiety reflects over-firing neurons: hyperexcitable cells in the amygdala and worry circuits respond too readily to threat while calming inputs lag, the cellular imbalance that medications and therapy work to settle."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Anxiety shows on fMRI: photons map an overactive amygdala and weak prefrontal control, the brain pattern of an exaggerated threat response that underlies generalized anxiety."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes tune the anxiety circuit's glutamate, and their dysfunction is implicated in the over-excitable fear networks of generalized anxiety, extending the disorder beyond neurons alone."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Anxiety quickens the breath: hyperventilation and air hunger are core physical symptoms, and the low CO2 that results causes the tingling and lightheadedness of an anxiety attack."
 ---
 
 # Generalized Anxiety Disorder
@@ -305,6 +314,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Anxiety is tuned at the synapse: the balance of excitatory glutamate and inhibitory GABA across amygdala and prefrontal synapses sets how strongly threat signals fire, and shifting that synaptic balance toward excitation drives chronic worry.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Anxiety speaks through the gut: the gut-brain axis ties worry to the large intestine, so anxiety triggers cramping and changed bowel habits, and a troubled gut signals back to heighten anxiety—the loop behind anxiety's overlap with IBS.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Generalized anxiety reflects over-firing neurons: hyperexcitable cells in the amygdala and worry circuits respond too readily to threat while calming inputs lag, the cellular imbalance that medications and therapy work to settle.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Anxiety shows on fMRI: photons map an overactive amygdala and weak prefrontal control, the brain pattern of an exaggerated threat response that underlies generalized anxiety.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes tune the anxiety circuit's glutamate, and their dysfunction is implicated in the over-excitable fear networks of generalized anxiety, extending the disorder beyond neurons alone.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Anxiety quickens the breath: hyperventilation and air hunger are core physical symptoms, and the low CO2 that results causes the tingling and lightheadedness of an anxiety attack.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

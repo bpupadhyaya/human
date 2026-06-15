@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Gambling rides the body's stress axis through the adrenal glands: bets and losses spike cortisol from the adrenals, and this stress arousal sharpens the thrill and later fuels the craving and relapse that mark the disorder."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "fMRI photons expose gambling's hijacked reward circuit: the ventral striatum over-responds to wins and near-misses, the same dopamine pathway lit up in drug addiction."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes help shape the reward circuit by regulating glutamate at synapses, contributing to the plasticity that hardens repeated betting into a compulsion."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Gambling thrills the heart: the arousal of betting spikes heart rate and blood pressure, an autonomic surge that makes the risk feel rewarding and strains the cardiovascular system in chronic players."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -284,6 +293,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gambling's grip leans on calcium: calcium surging into reward neurons after each win triggers the molecular cascade that cements cue-craving links, and calcium-channel genes also shape the impulsivity underlying the disorder.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Compulsive gambling may inflame the reward circuit via microglia: repeated dopamine surges can activate these brain immune cells, and the resulting neuroinflammation is implicated in remodeling the motivation pathways that sustain the habit.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Gambling rides the body's stress axis through the adrenal glands: bets and losses spike cortisol from the adrenals, and this stress arousal sharpens the thrill and later fuels the craving and relapse that mark the disorder.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons expose gambling's hijacked reward circuit: the ventral striatum over-responds to wins and near-misses, the same dopamine pathway lit up in drug addiction.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help shape the reward circuit by regulating glutamate at synapses, contributing to the plasticity that hardens repeated betting into a compulsion.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Gambling thrills the heart: the arousal of betting spikes heart rate and blood pressure, an autonomic surge that makes the risk feel rewarding and strains the cardiovascular system in chronic players.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
