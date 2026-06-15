@@ -147,6 +147,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "The virus can cross to the fetus: rare intrauterine West Nile transmission through the placenta, and passage through breast milk, are documented, extending its reach from the mosquito bite to mother and child."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Its worst form mimics polio: West Nile attacks the spinal cord's anterior horn motor neurons, causing an acute flaccid paralysis with muscle wasting, while even mild infection brings the prominent myalgia of West Nile fever."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Severe infection drops the platelets: West Nile can cause thrombocytopenia through marrow suppression and consumption, a falling count among the markers of the more dangerous, neuroinvasive course."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Rarely the virus inflames the liver: fulminant West Nile hepatitis is an uncommon but described severe presentation, the flavivirus injuring hepatocytes far from its usual target in the nervous system."
 ---
 
 # West Nile Virus
@@ -310,3 +319,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — West Nile is diagnosed by its antibody: detecting IgM in serum or — pointing to neuroinvasion — in the cerebrospinal fluid is the mainstay test, since the virus itself is fleeting in the blood by the time symptoms appear.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — West Nile rides the blood supply: it is transmissible through transfusion and organ transplant, so blood banks screen donations for it — a hidden route beyond the mosquito that prompted nationwide testing.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The virus can cross to the fetus: rare intrauterine West Nile transmission through the placenta, and passage through breast milk, are documented, extending its reach from the mosquito bite to mother and child.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its worst form mimics polio: West Nile attacks the spinal cord's anterior horn motor neurons, causing an acute flaccid paralysis with muscle wasting, while even mild infection brings the prominent myalgia of West Nile fever.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Severe infection drops the platelets: West Nile can cause thrombocytopenia through marrow suppression and consumption, a falling count among the markers of the more dangerous, neuroinvasive course.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Rarely the virus inflames the liver: fulminant West Nile hepatitis is an uncommon but described severe presentation, the flavivirus injuring hepatocytes far from its usual target in the nervous system.

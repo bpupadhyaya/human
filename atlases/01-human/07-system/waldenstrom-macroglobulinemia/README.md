@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Thickened blood overworks the heart: the high IgM raises plasma viscosity and volume, and with the accompanying anemia the heart must pump harder, tipping toward high-output strain in hyperviscosity syndrome."
+  - target: 01-human/07-system/lymphatic-system
+    relation: connects-to
+    note: "It is a lymphoma at heart: the lymphoplasmacytic clone of Waldenström infiltrates lymph nodes and spleen, so lymphadenopathy and splenomegaly accompany the marrow disease, marking its place among the indolent B-cell lymphomas."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The clone can seed the gut: infiltration of the bowel wall by lymphoplasmacytic cells, and IgM deposition, cause malabsorption, diarrhea, and bleeding — an uncommon but recognized extramedullary face of the disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Marrow and treatment both lower the counts: the lymphoplasmacytic infiltrate crowds out normal blood production, and the chemo and BTK-inhibitor therapy add their own myelosuppression, dropping neutrophils and raising infection risk."
 ---
 
 # Waldenström Macroglobulinemia
@@ -305,6 +314,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Waldenström is a disease of one antibody overmade: its clone pumps out monoclonal IgM that thickens the blood, and when that IgM happens to target myelin (anti-MAG), clump in the cold (cryoglobulin, cold agglutinin), it drives the syndrome's protean complications.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The rogue IgM frays the nerves: anti-MAG antibodies strip myelin from peripheral neurons into a slowly progressive demyelinating neuropathy, and rarely the lymphoma itself invades the brain as Bing-Neel syndrome.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Thickened blood overworks the heart: the high IgM raises plasma viscosity and volume, and with the accompanying anemia the heart must pump harder, tipping toward high-output strain in hyperviscosity syndrome.
+- `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is a lymphoma at heart: the lymphoplasmacytic clone of Waldenström infiltrates lymph nodes and spleen, so lymphadenopathy and splenomegaly accompany the marrow disease, marking its place among the indolent B-cell lymphomas.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The clone can seed the gut: infiltration of the bowel wall by lymphoplasmacytic cells, and IgM deposition, cause malabsorption, diarrhea, and bleeding — an uncommon but recognized extramedullary face of the disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Marrow and treatment both lower the counts: the lymphoplasmacytic infiltrate crowds out normal blood production, and the chemo and BTK-inhibitor therapy add their own myelosuppression, dropping neutrophils and raising infection risk.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
