@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Antipsychotics fatten the adipocytes: the drugs that quiet psychosis also drive weight gain and fat accumulation, fueling the metabolic syndrome and diabetes that burden treated schizophrenia."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons reveal the schizophrenic brain's structure and chemistry: MRI shows enlarged ventricles and thinned gray matter, while PET tracers map the striatal dopamine excess that antipsychotics aim to dampen."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye carries a schizophrenia signature: smooth-pursuit eye movements are jerky and broken in patients and their unaffected relatives, a heritable endophenotype that points to the brain-wiring deficits behind the illness."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D in the womb shapes later risk: low maternal vitamin D during fetal brain development is an established schizophrenia risk factor, helping explain the disease's links to winter births and higher latitudes."
 ---
 
 # Schizophrenia
@@ -335,6 +344,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Schizophrenia disturbs synaptic zinc: this trace metal tunes the NMDA glutamate receptors at the core of the disease's signaling, so zinc dysregulation is studied in its synaptic and cognitive deficits.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Schizophrenia's deadliest complication is the heart: antipsychotics prolong the QT and drive metabolic syndrome, and patients die of cardiovascular disease years early—the leading cause of their shortened lifespan.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Antipsychotics fatten the adipocytes: the drugs that quiet psychosis also drive weight gain and fat accumulation, fueling the metabolic syndrome and diabetes that burden treated schizophrenia.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons reveal the schizophrenic brain's structure and chemistry: MRI shows enlarged ventricles and thinned gray matter, while PET tracers map the striatal dopamine excess that antipsychotics aim to dampen.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye carries a schizophrenia signature: smooth-pursuit eye movements are jerky and broken in patients and their unaffected relatives, a heritable endophenotype that points to the brain-wiring deficits behind the illness.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D in the womb shapes later risk: low maternal vitamin D during fetal brain development is an established schizophrenia risk factor, helping explain the disease's links to winter births and higher latitudes.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
