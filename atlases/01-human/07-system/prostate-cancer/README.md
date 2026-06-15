@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Prostate cancer rarely reaches the brain, but when it does it signals trouble: the aggressive neuroendocrine and late castration-resistant forms can seed cerebral and dural metastases, a grave sign in end-stage disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Shutting off testosterone lowers the red cells: androgen deprivation therapy removes a hormone that drives erythropoiesis, so a mild anemia is a common, expected side effect of treating prostate cancer."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Androgen deprivation reshapes the body's fat: it drives weight gain, insulin resistance, and a sarcopenic obesity, the metabolic syndrome that raises cardiovascular and diabetic risk during long-term hormone therapy."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The rectum sits right behind the prostate: locally advanced tumors can invade it, and the radiotherapy aimed at the gland often inflames it into a radiation proctitis with bleeding and urgency."
 ---
 
 # Prostate Cancer
@@ -310,6 +319,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy unmasks prostate cancer's most lethal turn: when it transforms into a neuroendocrine cancer to escape hormone therapy, the cells fill with dense-core secretory granules — the ultrastructure that flags this treatment-resistant variant.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The treatment can wound the heart: androgen-deprivation therapy, the backbone of advanced prostate cancer care, raises the risk of metabolic syndrome, coronary disease, and cardiac events by stripping away protective testosterone.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Prostate cancer rarely reaches the brain, but when it does it signals trouble: the aggressive neuroendocrine and late castration-resistant forms can seed cerebral and dural metastases, a grave sign in end-stage disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Shutting off testosterone lowers the red cells: androgen deprivation therapy removes a hormone that drives erythropoiesis, so a mild anemia is a common, expected side effect of treating prostate cancer.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Androgen deprivation reshapes the body's fat: it drives weight gain, insulin resistance, and a sarcopenic obesity, the metabolic syndrome that raises cardiovascular and diabetic risk during long-term hormone therapy.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The rectum sits right behind the prostate: locally advanced tumors can invade it, and the radiotherapy aimed at the gland often inflames it into a radiation proctitis with bleeding and urgency.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

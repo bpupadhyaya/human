@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Scavenged nitric oxide strains the circulation: with free hemoglobin mopping up the gas that relaxes vessels, pulmonary pressures climb and the heart labors, adding cardiovascular risk to PNH's thrombotic burden."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "PNH clots in dangerous places: it is a leading cause of cerebral venous sinus thrombosis, where backed-up pressure and infarction injure neurons, making an unexplained CVST a reason to test for the disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Free hemoglobin steals the molecule of erection: by scavenging nitric oxide, PNH's intravascular hemolysis robs the penile vasculature of the relaxant it needs, so erectile dysfunction is a common and telling symptom."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The same nitric-oxide depletion cramps the gut: smooth-muscle dystonia of the esophagus and stomach causes the painful swallowing, abdominal pain, and spasm that flare with each bout of hemolysis."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -267,6 +276,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — PNH's flaw is at the membrane's molecular anchor: a faulty PIG-A gene leaves blood cells unable to build the GPI tail that pins CD55 and CD59 to their surface, so without those complement brakes the red cells are torn apart.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — PNH cramps the gut from two directions: free hemoglobin soaks up nitric oxide, throwing intestinal smooth muscle into painful spasm, while clots in the mesenteric and portal veins can starve the bowel of blood.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Scavenged nitric oxide strains the circulation: with free hemoglobin mopping up the gas that relaxes vessels, pulmonary pressures climb and the heart labors, adding cardiovascular risk to PNH's thrombotic burden.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PNH clots in dangerous places: it is a leading cause of cerebral venous sinus thrombosis, where backed-up pressure and infarction injure neurons, making an unexplained CVST a reason to test for the disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Free hemoglobin steals the molecule of erection: by scavenging nitric oxide, PNH's intravascular hemolysis robs the penile vasculature of the relaxant it needs, so erectile dysfunction is a common and telling symptom.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The same nitric-oxide depletion cramps the gut: smooth-muscle dystonia of the esophagus and stomach causes the painful swallowing, abdominal pain, and spasm that flare with each bout of hemolysis.
 
 ---
 
