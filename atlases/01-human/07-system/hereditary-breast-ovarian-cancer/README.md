@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver is a frequent destination as BRCA cancers spread: hematogenous metastases from the breast, ovarian, and pancreatic tumors of the syndrome lodge there, marking advanced disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The targeted drugs thin the blood: PARP inhibitors like olaparib — which exploit the BRCA repair defect — commonly cause anemia by suppressing the marrow, and carry a small long-term risk of MDS and leukemia."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "BRCA tumors are platinum- and taxane-sensitive, at a neural cost: the carboplatin and paclitaxel used against them injure peripheral sensory neurons into a numbing, tingling neuropathy."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Immunotherapy suits the BRCA1 breast cancers: many are triple-negative and respond to checkpoint antibodies like pembrolizumab, harnessing the antibody-driven immune system against tumors hard to target otherwise."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -319,6 +328,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — BRCA loss leaves cells unable to mend broken DNA: without homologous recombination, the double-strand breaks that radiation and chemotherapy inflict go unrepaired — a weakness PARP inhibitors exploit to kill the cancer by synthetic lethality.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — BRCA-driven cancers reach for the brain: BRCA-mutant breast and ovarian tumors, often triple-negative, carry a notable tendency to seed central-nervous-system metastases, prompting vigilance for brain spread.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a frequent destination as BRCA cancers spread: hematogenous metastases from the breast, ovarian, and pancreatic tumors of the syndrome lodge there, marking advanced disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The targeted drugs thin the blood: PARP inhibitors like olaparib — which exploit the BRCA repair defect — commonly cause anemia by suppressing the marrow, and carry a small long-term risk of MDS and leukemia.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — BRCA tumors are platinum- and taxane-sensitive, at a neural cost: the carboplatin and paclitaxel used against them injure peripheral sensory neurons into a numbing, tingling neuropathy.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy suits the BRCA1 breast cancers: many are triple-negative and respond to checkpoint antibodies like pembrolizumab, harnessing the antibody-driven immune system against tumors hard to target otherwise.
 
 ---
 

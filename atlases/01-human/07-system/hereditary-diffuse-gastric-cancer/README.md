@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "HDGC spreads to the lung: beyond the peritoneum and liver, its scattered cells seed pulmonary and lymphangitic metastases, marking the widespread disease that prophylactic gastrectomy aims to prevent."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody stain reveals the defect: loss of E-cadherin (CDH1) on immunohistochemistry betrays the scattered signet-ring cells of HDGC, the molecular hallmark that distinguishes this stealthy, non-mass-forming cancer."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Both the cancer and its prevention drain the red cells: the diffuse tumor bleeds slowly into iron-deficiency anemia, and the prophylactic total gastrectomy that cures the risk leaves patients short of B12 and iron for life."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Losing the stomach can later harm the nerves: without it, B12 absorption fails, so unless replaced, the deficiency can damage peripheral and spinal cord neurons into a subacute combined degeneration."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -291,6 +300,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows why HDGC spreads diffusely: losing E-cadherin, the cells let go of one another and scatter as lone signet-ring cells, each with a mucin vacuole shoving its nucleus to the rim, never forming glands.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Signet-ring gastric cancer can seep into the marrow: HDGC's diffuse cells infiltrate the bone marrow, triggering a microangiopathic anemia and a leukoerythroblastic blood picture in advanced disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — HDGC spreads to the lung: beyond the peritoneum and liver, its scattered cells seed pulmonary and lymphangitic metastases, marking the widespread disease that prophylactic gastrectomy aims to prevent.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody stain reveals the defect: loss of E-cadherin (CDH1) on immunohistochemistry betrays the scattered signet-ring cells of HDGC, the molecular hallmark that distinguishes this stealthy, non-mass-forming cancer.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Both the cancer and its prevention drain the red cells: the diffuse tumor bleeds slowly into iron-deficiency anemia, and the prophylactic total gastrectomy that cures the risk leaves patients short of B12 and iron for life.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Losing the stomach can later harm the nerves: without it, B12 absorption fails, so unless replaced, the deficiency can damage peripheral and spinal cord neurons into a subacute combined degeneration.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
