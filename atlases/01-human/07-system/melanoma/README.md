@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "Melanoma is the cancer that most loves the small bowel: it is the tumor most likely to metastasize to the small intestine, where deposits bleed or obstruct, sometimes years after the original lesion."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "TERT promoter mutations are the single most common genetic change in cutaneous melanoma: UV-induced point mutations switch telomerase back on, granting the cells the unlimited replication that drives progression and marking a worse prognosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy clinches amelanotic melanoma: when a pigmentless tumor defies routine stains, the beam reveals melanosomes and striated premelanosomes — membrane-bound organelles found only in melanocytic cells — settling the diagnosis."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The adrenal gland is a favored melanoma metastatic site: these tumors seed the adrenals so reliably that a new adrenal mass in a melanoma patient is treated as a metastasis until proven otherwise, and resection of isolated deposits can prolong survival."
 ---
 
 # Melanoma
@@ -257,6 +266,9 @@ cross_links:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Melanoma's pigment is forged with copper: tyrosinase, the copper-dependent enzyme, builds the melanin that colors melanocytes and the tumors they spawn, so copper sits at the heart of the cell's identity.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Desmoplastic melanoma masquerades as fibrosis: this variant forms a firm, scar-like fibrous tumor that is easily mistaken for benign and tends to track along nerves, making it treacherous to diagnose.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Melanoma is the cancer that most loves the small bowel: it is the tumor most likely to metastasize to the small intestine, where deposits bleed or obstruct, sometimes years after the original lesion.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations are the single most common genetic change in cutaneous melanoma: UV-induced point mutations switch telomerase back on, granting the cells the unlimited replication that drives progression and marking a worse prognosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy clinches amelanotic melanoma: when a pigmentless tumor defies routine stains, the beam reveals melanosomes and striated premelanosomes — membrane-bound organelles found only in melanocytic cells — settling the diagnosis.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a favored melanoma metastatic site: these tumors seed the adrenals so reliably that a new adrenal mass in a melanoma patient is treated as a metastasis until proven otherwise, and resection of isolated deposits can prolong survival.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

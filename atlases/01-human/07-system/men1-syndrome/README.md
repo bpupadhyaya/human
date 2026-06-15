@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "MEN1's neuroendocrine tumors are vessel-dense: built around proliferating endothelial cells, they light up as hypervascular 'blushes' on contrast imaging, a feature used to find the small pancreatic and duodenal tumors."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Finding MEN1's many small tumors depends on photons: sestamibi scintigraphy hunts parathyroids, Ga-68 DOTATATE PET lights up neuroendocrine tumors via their somatostatin receptors, and pituitary MRI completes the surveillance triad."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MEN1 pituitary somatotroph adenomas cause acromegaly, and IGF-1 is the test that catches it: liver-made in proportion to growth hormone, its steady blood level screens for and tracks GH excess better than the pulsatile hormone itself."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver decides MEN1's prognosis: pancreatic and duodenal neuroendocrine tumors metastasize there, and the bulk of liver disease — not the primary tumor — is the leading cause of death in these patients."
 ---
 
 # MEN1 Syndrome
@@ -279,6 +288,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MEN1 floods the stomach with acid: its gastrinomas pour out gastrin that drives parietal cells to secrete hydrogen ions, causing the severe, multiple ulcers of Zollinger-Ellison syndrome.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — MEN1's gastrinomas often hide in the small intestine: the duodenum is a common site for these neuroendocrine tumors, so the upper small bowel is searched carefully in Zollinger-Ellison workups.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — MEN1's neuroendocrine tumors are vessel-dense: built around proliferating endothelial cells, they light up as hypervascular 'blushes' on contrast imaging, a feature used to find the small pancreatic and duodenal tumors.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Finding MEN1's many small tumors depends on photons: sestamibi scintigraphy hunts parathyroids, Ga-68 DOTATATE PET lights up neuroendocrine tumors via their somatostatin receptors, and pituitary MRI completes the surveillance triad.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MEN1 pituitary somatotroph adenomas cause acromegaly, and IGF-1 is the test that catches it: liver-made in proportion to growth hormone, its steady blood level screens for and tracks GH excess better than the pulsatile hormone itself.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver decides MEN1's prognosis: pancreatic and duodenal neuroendocrine tumors metastasize there, and the bulk of liver disease — not the primary tumor — is the leading cause of death in these patients.
 
 ---
 
