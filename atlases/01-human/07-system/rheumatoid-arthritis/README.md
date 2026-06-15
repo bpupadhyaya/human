@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Chronic inflammation starves the red cells: RA's high IL-6 drives hepcidin, locking iron away from the marrow to cause the anemia of chronic disease — the commonest extra-articular finding, tracking with how active the arthritis is."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Two antibodies define and forecast RA: rheumatoid factor and anti-CCP (ACPA) mark seropositive disease, predict a more erosive course, and can appear in the blood years before the first joint ever swells."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "RA pinches and inflames the nerves: synovial swelling at the wrist compresses the median nerve into carpal tunnel syndrome, while rheumatoid vasculitis can starve nerves into a mononeuritis multiplex of sudden focal weakness."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is hit from several sides: decades of inflammation can deposit AA amyloid, the NSAIDs and disease-modifying drugs carry their own nephrotoxicity, and rarely a rheumatoid vasculitis inflames the glomeruli."
 ---
 
 # Rheumatoid Arthritis
@@ -333,6 +342,9 @@ RA patients have:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Treating RA keeps watch on the liver: methotrexate and leflunomide, mainstays of disease-modifying therapy, can raise transaminases and rarely scar the liver, so enzymes are checked regularly and alcohol limited.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells are RA's antibody foundries: differentiated from the autoreactive B cells, they secrete the rheumatoid factor and anti-CCP antibodies that drive the disease — the upstream B-lineage that rituximab depletes to quiet it.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Chronic inflammation starves the red cells: RA's high IL-6 drives hepcidin, locking iron away from the marrow to cause the anemia of chronic disease — the commonest extra-articular finding, tracking with how active the arthritis is.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Two antibodies define and forecast RA: rheumatoid factor and anti-CCP (ACPA) mark seropositive disease, predict a more erosive course, and can appear in the blood years before the first joint ever swells.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — RA pinches and inflames the nerves: synovial swelling at the wrist compresses the median nerve into carpal tunnel syndrome, while rheumatoid vasculitis can starve nerves into a mononeuritis multiplex of sudden focal weakness.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is hit from several sides: decades of inflammation can deposit AA amyloid, the NSAIDs and disease-modifying drugs carry their own nephrotoxicity, and rarely a rheumatoid vasculitis inflames the glomeruli.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

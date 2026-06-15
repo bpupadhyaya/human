@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "The bladder is a common cradle for childhood RMS: embryonal (botryoid) rhabdomyosarcoma often springs from the bladder and prostate, a sarcoma of muscle quite unlike the urothelial bladder cancer that strikes adults."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains prove the muscle lineage: nuclear myogenin and MyoD1 with cytoplasmic desmin confirm a tumor is rhabdomyosarcoma, and diffuse myogenin especially flags the aggressive alveolar, PAX-FOXO1-fusion subtype on biopsy."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The VAC regimen empties the marrow: vincristine, actinomycin-D, and cyclophosphamide are heavily myelosuppressive, dropping neutrophil counts so that febrile neutropenia is a recurring danger through a child's rhabdomyosarcoma treatment."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "RMS favors the genitourinary tract: paratesticular, vaginal (botryoid), and uterine tumors are classic embryonal sites, so the reproductive organs are both where many of these sarcomas start and what surgery and radiation must try to spare."
 ---
 
 # Rhabdomyosarcoma
@@ -311,6 +320,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The VAC backbone frays the nerves: vincristine, the 'V' of the standard rhabdomyosarcoma regimen, jams the microtubule transport of peripheral neurons, causing a dose-limiting neuropathy with foot drop, constipation, and tingling.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Intensified chemotherapy can scar the heart: when doxorubicin is added for higher-risk rhabdomyosarcoma, its cumulative cardiotoxicity threatens a late cardiomyopathy that survivors are monitored for long after cure.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The bladder is a common cradle for childhood RMS: embryonal (botryoid) rhabdomyosarcoma often springs from the bladder and prostate, a sarcoma of muscle quite unlike the urothelial bladder cancer that strikes adults.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains prove the muscle lineage: nuclear myogenin and MyoD1 with cytoplasmic desmin confirm a tumor is rhabdomyosarcoma, and diffuse myogenin especially flags the aggressive alveolar, PAX-FOXO1-fusion subtype on biopsy.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The VAC regimen empties the marrow: vincristine, actinomycin-D, and cyclophosphamide are heavily myelosuppressive, dropping neutrophil counts so that febrile neutropenia is a recurring danger through a child's rhabdomyosarcoma treatment.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — RMS favors the genitourinary tract: paratesticular, vaginal (botryoid), and uterine tumors are classic embryonal sites, so the reproductive organs are both where many of these sarcomas start and what surgery and radiation must try to spare.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
