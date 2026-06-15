@@ -159,6 +159,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Body and mood suffer together: depression is markedly more common in PsA, driven by chronic pain, visible skin disease, and the same inflammatory cytokines that act on the brain, so screening for low mood is part of comprehensive care."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "Psoriatic disease and fatty liver travel together: shared metabolic syndrome and systemic inflammation make NAFLD and NASH common in PsA, a risk compounded by methotrexate's own liver toxicity that must be monitored during treatment."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The IL-23/Th17 axis signals through STAT3: this transcription factor relays the cytokine drive that expands the pathogenic Th17 cells of PsA, the node downstream of the IL-23 that biologics and JAK inhibitors aim to silence."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells inflame the enthesis: resident at the tendon-bone insertions that PsA targets, they are a major innate source of IL-17, helping ignite the enthesitis and dactylitis that distinguish psoriatic from other arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -353,6 +362,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — PsA is 'seronegative' yet treated with antibodies: rheumatoid factor and anti-CCP are characteristically absent, separating it from RA, while monoclonal antibodies against TNF, IL-17, and IL-23 are the mainstay that controls both skin and joints.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Chronic inflammation scars the arteries: PsA carries excess cardiovascular risk as circulating cytokines injure the endothelial lining and accelerate atherosclerosis, so heart-attack and stroke prevention is woven into managing the joints.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Body and mood suffer together: depression is markedly more common in PsA, driven by chronic pain, visible skin disease, and the same inflammatory cytokines that act on the brain, so screening for low mood is part of comprehensive care.
+- `connects-to` → **[NASH](../nash/README.md)** — Psoriatic disease and fatty liver travel together: shared metabolic syndrome and systemic inflammation make NAFLD and NASH common in PsA, a risk compounded by methotrexate's own liver toxicity that must be monitored during treatment.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The IL-23/Th17 axis signals through STAT3: this transcription factor relays the cytokine drive that expands the pathogenic Th17 cells of PsA, the node downstream of the IL-23 that biologics and JAK inhibitors aim to silence.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells inflame the enthesis: resident at the tendon-bone insertions that PsA targets, they are a major innate source of IL-17, helping ignite the enthesitis and dactylitis that distinguish psoriatic from other arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

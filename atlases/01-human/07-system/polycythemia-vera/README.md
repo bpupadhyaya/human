@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy magnifies PV's clotting danger: the thickened blood plus pregnancy's hypercoagulability raise the risk of miscarriage, placental thrombosis, and venous clots, managed with low-dose aspirin and careful control of the hematocrit."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "PV's clots strike the arteries too: the thickened blood and hyperactive platelets drive arterial thrombosis on top of atherosclerotic plaque, so heart attack and stroke — not just venous clots — are leading causes of death and the reason for aspirin and hematocrit control."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "When PV burns out it can turn marrow to bone: progression to post-polycythemic myelofibrosis brings osteosclerosis, where osteoblasts lay down excess bone that crowds out the very blood production the disease once drove into overdrive."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "JAK2 fans out beyond STAT: the V617F mutation fires not only JAK-STAT but the PI3K-AKT pathway, an extra survival and proliferation signal that helps the erythroid clone expand and a node targeted to complement JAK inhibition."
 ---
 
 # Polycythemia Vera
@@ -317,6 +326,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Furious cell turnover spills minerals: the relentless birth and death of blood cells in PV, and their lysis under cytoreductive therapy, release phosphate and urate, the metabolic overflow that fuels the gout and hyperuricemia these patients suffer.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — PV is the great cause of Budd-Chiari: clots in the hepatic veins back blood up into the liver, congesting and killing hepatocytes, so an unexplained hepatic-vein thrombosis should always prompt a hunt for the JAK2 mutation.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy magnifies PV's clotting danger: the thickened blood plus pregnancy's hypercoagulability raise the risk of miscarriage, placental thrombosis, and venous clots, managed with low-dose aspirin and careful control of the hematocrit.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — PV's clots strike the arteries too: the thickened blood and hyperactive platelets drive arterial thrombosis on top of atherosclerotic plaque, so heart attack and stroke — not just venous clots — are leading causes of death and the reason for aspirin and hematocrit control.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — When PV burns out it can turn marrow to bone: progression to post-polycythemic myelofibrosis brings osteosclerosis, where osteoblasts lay down excess bone that crowds out the very blood production the disease once drove into overdrive.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — JAK2 fans out beyond STAT: the V617F mutation fires not only JAK-STAT but the PI3K-AKT pathway, an extra survival and proliferation signal that helps the erythroid clone expand and a node targeted to complement JAK inhibition.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
