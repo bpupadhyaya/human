@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The gut can sprout DICER1 growths too: juvenile-type intestinal polyps are part of the syndrome's varied tumor predisposition, adding the bowel to its head-to-pelvis surveillance."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "DICER1 can wreck an infant's hormones: its pituitary blastoma oversecretes ACTH, driving the adrenal glands into a florid Cushing syndrome in babies — a rare but striking endocrine face of the cancer predisposition."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "DICER1 seeds the female genital tract with sarcoma: embryonal rhabdomyosarcoma (botryoides) sprouts in the cervix and uterus, growing within the muscular wall as a grape-like mass that bleeds."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Treating its childhood cancers empties the marrow: the multi-agent chemotherapy for pleuropulmonary blastoma and the other DICER1 tumors drops neutrophils into febrile neutropenia, a constant hazard of the regimens."
 ---
 
 # DICER1 Syndrome
@@ -298,6 +307,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals DICER1's signature tumor: pleuropulmonary blastoma forms cysts lined by primitive blastemal cells with scattered rhabdomyoblasts, the embryonal ultrastructure of a cancer of early childhood.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — DICER1's reach includes the liver: hepatoblastoma and other hepatic tumors fall within its broad spectrum, so the liver joins the long list of organs watched in children carrying the mutation.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut can sprout DICER1 growths too: juvenile-type intestinal polyps are part of the syndrome's varied tumor predisposition, adding the bowel to its head-to-pelvis surveillance.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — DICER1 can wreck an infant's hormones: its pituitary blastoma oversecretes ACTH, driving the adrenal glands into a florid Cushing syndrome in babies — a rare but striking endocrine face of the cancer predisposition.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — DICER1 seeds the female genital tract with sarcoma: embryonal rhabdomyosarcoma (botryoides) sprouts in the cervix and uterus, growing within the muscular wall as a grape-like mass that bleeds.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Treating its childhood cancers empties the marrow: the multi-agent chemotherapy for pleuropulmonary blastoma and the other DICER1 tumors drops neutrophils into febrile neutropenia, a constant hazard of the regimens.
 
 ---
 

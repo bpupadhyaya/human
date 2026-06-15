@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Glutamate from the neuron-glioma synapse pours sodium into the tumor: AMPA-receptor currents flood the glioma cell with sodium and calcium, the depolarizing signal by which neural activity literally powers the cancer's spread."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Engineered antibody-based cells offer new hope: GD2-directed CAR-T cells have shrunk H3K27M-mutant diffuse midline gliomas in early trials, the first therapy to dent a tumor that radiation only briefly holds."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Its pontine home wrecks swallowing: the tumor infiltrates the brainstem's bulbar centers, so dysphagia and impaired airway protection bring aspiration and the need for feeding tubes as the disease advances."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Radiation and chemotherapy thin the blood: the craniospinal radiation and any added chemotherapy suppress the marrow, dropping neutrophils and raising the infection risk during the months of treatment."
 ---
 
 # Diffuse Midline Glioma
@@ -322,6 +331,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy made a startling discovery: real synapses form between healthy neurons and glioma cells, the neuron's terminal wiring directly onto the tumor — an electrical hijacking that drives the cancer's growth.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — The tumor plugs into the brain's electricity: glioma cells carry potassium and other ion channels that let them depolarize in response to neuronal firing, the electrical excitability that the neuron-glioma synapse feeds and that spurs invasion.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Glutamate from the neuron-glioma synapse pours sodium into the tumor: AMPA-receptor currents flood the glioma cell with sodium and calcium, the depolarizing signal by which neural activity literally powers the cancer's spread.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Engineered antibody-based cells offer new hope: GD2-directed CAR-T cells have shrunk H3K27M-mutant diffuse midline gliomas in early trials, the first therapy to dent a tumor that radiation only briefly holds.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Its pontine home wrecks swallowing: the tumor infiltrates the brainstem's bulbar centers, so dysphagia and impaired airway protection bring aspiration and the need for feeding tubes as the disease advances.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Radiation and chemotherapy thin the blood: the craniospinal radiation and any added chemotherapy suppress the marrow, dropping neutrophils and raising the infection risk during the months of treatment.
 
 ---
 
