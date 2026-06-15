@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Some thrombophilias are born in the bone marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells that clot readily, so marrow output itself becomes a cause of thrombosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the clot that won't quit: in factor V Leiden, the mutated factor resists shutdown by activated protein C, so thrombin keeps firing and weaves an extra-dense, stable fibrin mesh that resists dissolving."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Thrombophilia can reach arteries through a back door: a venous clot can cross a patent foramen ovale in the heart and shoot to the brain as a paradoxical embolism, an unexpected cause of stroke in the young."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Old clots leave lasting scar: when a deep vein thrombosis only partly clears, the vein wall fibroses into post-thrombotic syndrome, and unresolved lung clots organize into the fibrotic obstruction of chronic thromboembolic pulmonary hypertension."
 ---
 
 # Inherited Thrombophilia
@@ -330,6 +339,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Confirming thrombophilia's clots relies on imaging: CT angiography and lung scans read in X-ray photons locate the deep-vein thromboses and pulmonary emboli that prompt a hypercoagulable workup.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Red cells thicken thrombophilic blood: in polycythemia and sickle cell disease, excess or misshapen erythrocytes raise viscosity and slow flow, promoting the clotting these prothrombotic states are known for.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some thrombophilias are born in the bone marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells that clot readily, so marrow output itself becomes a cause of thrombosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the clot that won't quit: in factor V Leiden, the mutated factor resists shutdown by activated protein C, so thrombin keeps firing and weaves an extra-dense, stable fibrin mesh that resists dissolving.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Thrombophilia can reach arteries through a back door: a venous clot can cross a patent foramen ovale in the heart and shoot to the brain as a paradoxical embolism, an unexpected cause of stroke in the young.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Old clots leave lasting scar: when a deep vein thrombosis only partly clears, the vein wall fibroses into post-thrombotic syndrome, and unresolved lung clots organize into the fibrotic obstruction of chronic thromboembolic pulmonary hypertension.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

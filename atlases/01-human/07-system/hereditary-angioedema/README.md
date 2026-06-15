@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "During a gut attack, CT and ultrasound photons reveal the telltale bowel-wall edema and free fluid, helping distinguish hereditary angioedema from a true surgical abdomen and avert needless operations."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows how the swelling forms: bradykinin pries open the junctions between endothelial cells, widening the gaps so plasma floods out into the tissue — the leak that makes the deep, non-itchy edema of an attack."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Attacks often disfigure the face and eyes: bradykinin-driven swelling balloons the lips and eyelids, sometimes closing the eyes entirely, a dramatic but self-limited facial angioedema that warns a laryngeal attack may follow."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Rarely the swelling reaches the brain: case reports describe cerebral edema during severe attacks, with headaches, transient deficits, or seizures from bradykinin acting on the brain's blood vessels."
 ---
 
 # Hereditary Angioedema
@@ -306,6 +315,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The deadliest hereditary angioedema attacks swell the larynx and airway, threatening asphyxiation, which is why patients carry on-demand bradykinin-blocking rescue therapy for laryngeal attacks.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — C1-esterase inhibitor is made by hepatocytes, so the liver is the source of the very protein whose deficiency causes hereditary angioedema—and the target of newer liver-directed gene therapies.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — During a gut attack, CT and ultrasound photons reveal the telltale bowel-wall edema and free fluid, helping distinguish hereditary angioedema from a true surgical abdomen and avert needless operations.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how the swelling forms: bradykinin pries open the junctions between endothelial cells, widening the gaps so plasma floods out into the tissue — the leak that makes the deep, non-itchy edema of an attack.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Attacks often disfigure the face and eyes: bradykinin-driven swelling balloons the lips and eyelids, sometimes closing the eyes entirely, a dramatic but self-limited facial angioedema that warns a laryngeal attack may follow.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Rarely the swelling reaches the brain: case reports describe cerebral edema during severe attacks, with headaches, transient deficits, or seizures from bradykinin acting on the brain's blood vessels.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
