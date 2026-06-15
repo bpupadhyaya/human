@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/breast-cancer
     relation: connects-to
     note: "MEN1 quietly raises breast risk: women carrying a menin mutation develop breast cancer earlier and more often than the general population, an association now folding earlier mammographic screening into their surveillance."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Primary hyperparathyroidism is MEN1's earliest and commonest sign: overactive parathyroid glands push PTH and calcium up while disturbing vitamin D handling, the mineral derangement that drives the kidney stones and bone loss surveillance aims to catch."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "MEN1 passes down half the family and unsettles the reproductive axis: it is autosomal dominant so each child has a 50% risk, prompting cascade testing, while a prolactin-secreting pituitary tumor can disrupt periods and fertility."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Menin is a transcriptional scaffold that touches Wnt: beyond its MLL-histone-methylation role, menin modulates beta-catenin signaling in endocrine cells, so losing it helps unleash the proliferation behind MEN1's parathyroid and islet tumors."
 ---
 
 # MEN1 Syndrome
@@ -315,6 +324,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies prove the tumors are neuroendocrine: chromogranin A and synaptophysin stains confirm MEN1's pancreatic and pituitary NETs on biopsy, and Ki-67 antibody staining grades how fast they divide and how aggressively to treat.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The foregut NETs reach the chest: bronchial carcinoids are part of the MEN1 spectrum, slow-growing lung neuroendocrine tumors that join the thymic and gastric carcinoids these patients are screened for over a lifetime.
 - `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — MEN1 quietly raises breast risk: women carrying a menin mutation develop breast cancer earlier and more often than the general population, an association now folding earlier mammographic screening into their surveillance.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Primary hyperparathyroidism is MEN1's earliest and commonest sign: overactive parathyroid glands push PTH and calcium up while disturbing vitamin D handling, the mineral derangement that drives the kidney stones and bone loss surveillance aims to catch.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MEN1 passes down half the family and unsettles the reproductive axis: it is autosomal dominant so each child has a 50% risk, prompting cascade testing, while a prolactin-secreting pituitary tumor can disrupt periods and fertility.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Menin is a transcriptional scaffold that touches Wnt: beyond its MLL-histone-methylation role, menin modulates beta-catenin signaling in endocrine cells, so losing it helps unleash the proliferation behind MEN1's parathyroid and islet tumors.
 
 ---
 

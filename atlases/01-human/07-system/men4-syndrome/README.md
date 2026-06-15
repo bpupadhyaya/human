@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "High calcium dulls the nerves: MEN4's near-universal hyperparathyroidism floods the blood with calcium, and excess calcium slows neurons into the fatigue, confusion, and depressive 'moans' that are often the first clue to the parathyroid tumors."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Hyperparathyroidism puts vitamin D to work: MEN4's overactive parathyroids raise PTH, which spurs the kidney to activate vitamin D and pull up calcium, the mineral axis whose derangement causes the stones and bone disease that flag the syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Its pancreatic neuroendocrine tumors answer to mTOR: with p27's brake gone, growth signaling runs through the PI3K-mTOR axis, which is why the mTOR inhibitor everolimus is a mainstay for the advanced NETs that arise in MEN4 as in MEN1."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "The faulty gene matters beyond the glands: loss of p27 (CDKN1B), the cell-cycle brake mutated in MEN4, is also a recognized adverse feature in breast cancer, underscoring how this checkpoint protein restrains growth across many tissues."
 ---
 
 # MEN4 Syndrome
@@ -307,6 +316,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies pin down the diagnosis: chromogranin A and synaptophysin stains confirm MEN4's neuroendocrine tumors, while loss of the p27 protein (the CDKN1B product) on immunohistochemistry hints at the defect that DNA sequencing then confirms.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The duodenum joins the tumor map: MEN4, like MEN1, sprouts gastrinomas and other neuroendocrine tumors in the duodenum and small bowel, gut foregut lesions whose acid-driving hormones cause ulcers and diarrhea.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — High calcium dulls the nerves: MEN4's near-universal hyperparathyroidism floods the blood with calcium, and excess calcium slows neurons into the fatigue, confusion, and depressive 'moans' that are often the first clue to the parathyroid tumors.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Hyperparathyroidism puts vitamin D to work: MEN4's overactive parathyroids raise PTH, which spurs the kidney to activate vitamin D and pull up calcium, the mineral axis whose derangement causes the stones and bone disease that flag the syndrome.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Its pancreatic neuroendocrine tumors answer to mTOR: with p27's brake gone, growth signaling runs through the PI3K-mTOR axis, which is why the mTOR inhibitor everolimus is a mainstay for the advanced NETs that arise in MEN4 as in MEN1.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — The faulty gene matters beyond the glands: loss of p27 (CDKN1B), the cell-cycle brake mutated in MEN4, is also a recognized adverse feature in breast cancer, underscoring how this checkpoint protein restrains growth across many tissues.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
