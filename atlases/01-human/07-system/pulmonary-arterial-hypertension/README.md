@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "When PAH springs from a heart defect, the blood thickens: the chronic hypoxia of Eisenmenger physiology spurs the marrow to overproduce red cells, and the resulting secondary erythrocytosis adds viscosity and clot risk to the strained circulation."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Autoantibodies point to a cause: much PAH is connective-tissue-disease-associated, so an ANA panel with anti-centromere and anti-Scl-70 antibodies is checked to uncover the scleroderma or lupus driving the pulmonary vessels' disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy is perilous in PAH: the volume and output demands overwhelm the fixed, narrowed pulmonary circuit, carrying a maternal mortality so high that pregnancy is strongly discouraged and reliable contraception is part of management."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Fainting marks a failing circuit: when the right heart can no longer push enough blood through the stiffened lungs, exertion starves the brain's neurons of flow, and the exertional syncope that results is an ominous, late-stage warning sign."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -314,6 +323,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency haunts PAH even without anemia: it is common in these patients and independently predicts worse exercise capacity and survival, making iron status a routine thing to measure and correct.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Remodeling stiffens the lung's arteries with matrix: the diseased vessels lay down excess collagen and elastin in their walls, a fibrotic thickening that narrows the lumen and hardens the pulmonary circuit the right heart must push against.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — When PAH springs from a heart defect, the blood thickens: the chronic hypoxia of Eisenmenger physiology spurs the marrow to overproduce red cells, and the resulting secondary erythrocytosis adds viscosity and clot risk to the strained circulation.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Autoantibodies point to a cause: much PAH is connective-tissue-disease-associated, so an ANA panel with anti-centromere and anti-Scl-70 antibodies is checked to uncover the scleroderma or lupus driving the pulmonary vessels' disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is perilous in PAH: the volume and output demands overwhelm the fixed, narrowed pulmonary circuit, carrying a maternal mortality so high that pregnancy is strongly discouraged and reliable contraception is part of management.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Fainting marks a failing circuit: when the right heart can no longer push enough blood through the stiffened lungs, exertion starves the brain's neurons of flow, and the exertional syncope that results is an ominous, late-stage warning sign.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

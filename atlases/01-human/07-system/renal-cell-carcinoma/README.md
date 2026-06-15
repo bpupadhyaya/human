@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "RCC can wash out the blood's sodium: paraneoplastic hyponatremia, from tumor-driven ADH or cytokines, is common in advanced disease and flags a poorer prognosis, sometimes correcting after the tumor is treated."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both label and treat RCC: PAX8, CD10, and CA-IX stains confirm renal origin on biopsy, and the disease is now driven by antibody therapy — anti-PD-1 checkpoint blockade and anti-VEGF agents that exploit its rich, VHL-driven vasculature."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The blood count carries the prognosis: RCC drives a paraneoplastic leukocytosis and a high neutrophil-to-lymphocyte ratio that predicts worse survival, a marker built into the risk models that guide its targeted and immune therapies."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "RCC and its treatment both raise the pressure: the tumor can secrete renin to drive paraneoplastic hypertension, and the anti-VEGF tyrosine-kinase inhibitors used against it cause hypertension so reliably it serves as a marker that the drug is working."
 ---
 
 # Renal Cell Carcinoma
@@ -302,6 +311,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The 'clear' in clear-cell RCC is an artifact of its lipids: the cytoplasm is stuffed with glycogen and fat that dissolve away in processing, leaving the empty-looking cells that electron microscopy and histology use to recognize the commonest RCC.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — RCC can derange the liver without touching it: Stauffer syndrome is a paraneoplastic hepatic dysfunction — raised enzymes and cholestasis with no metastases — driven by tumor cytokines and reversing once the kidney cancer is removed.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RCC can wash out the blood's sodium: paraneoplastic hyponatremia, from tumor-driven ADH or cytokines, is common in advanced disease and flags a poorer prognosis, sometimes correcting after the tumor is treated.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both label and treat RCC: PAX8, CD10, and CA-IX stains confirm renal origin on biopsy, and the disease is now driven by antibody therapy — anti-PD-1 checkpoint blockade and anti-VEGF agents that exploit its rich, VHL-driven vasculature.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count carries the prognosis: RCC drives a paraneoplastic leukocytosis and a high neutrophil-to-lymphocyte ratio that predicts worse survival, a marker built into the risk models that guide its targeted and immune therapies.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — RCC and its treatment both raise the pressure: the tumor can secrete renin to drive paraneoplastic hypertension, and the anti-VEGF tyrosine-kinase inhibitors used against it cause hypertension so reliably it serves as a marker that the drug is working.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
