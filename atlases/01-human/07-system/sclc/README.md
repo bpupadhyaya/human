@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Immunotherapy now joins the attack on SCLC: adding a PD-L1 checkpoint inhibitor to first-line chemotherapy releases the brakes on T cells, letting helper and cytotoxic T cells mount a response that modestly extends survival in extensive-stage disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies pervade SCLC: synaptophysin, chromogranin, and TTF-1 stains with a high Ki-67 confirm the neuroendocrine tumor, anti-Hu and anti-VGCC autoantibodies drive its paraneoplastic syndromes, and an anti-PD-L1 antibody is now added to chemotherapy."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The aggressive tumor and its chemotherapy thin the red cells: marrow infiltration plus the cisplatin-etoposide regimen depress erythrocyte production into an anemia that, with the disease's rapid course, often needs transfusion support."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "A central SCLC can throttle the great vein: a bulky mediastinal tumor compresses the superior vena cava, swelling the face and neck with engorged skin veins, while paraneoplastic dermatomyositis can rash the skin as a clue to the hidden cancer."
 ---
 
 # Small Cell Lung Cancer
@@ -293,6 +302,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — SCLC's intense chemotherapy empties the marrow: the platinum-etoposide that this fast-growing cancer demands drops neutrophils into a neutropenia, so febrile neutropenia and growth-factor support are constant concerns of treatment.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — The platinum backbone leaks magnesium away: cisplatin injures the kidney's tubules, which then waste magnesium, so levels are checked and repleted through the rounds of SCLC chemotherapy.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Immunotherapy now joins the attack on SCLC: adding a PD-L1 checkpoint inhibitor to first-line chemotherapy releases the brakes on T cells, letting helper and cytotoxic T cells mount a response that modestly extends survival in extensive-stage disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies pervade SCLC: synaptophysin, chromogranin, and TTF-1 stains with a high Ki-67 confirm the neuroendocrine tumor, anti-Hu and anti-VGCC autoantibodies drive its paraneoplastic syndromes, and an anti-PD-L1 antibody is now added to chemotherapy.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The aggressive tumor and its chemotherapy thin the red cells: marrow infiltration plus the cisplatin-etoposide regimen depress erythrocyte production into an anemia that, with the disease's rapid course, often needs transfusion support.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A central SCLC can throttle the great vein: a bulky mediastinal tumor compresses the superior vena cava, swelling the face and neck with engorged skin veins, while paraneoplastic dermatomyositis can rash the skin as a clue to the hidden cancer.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
