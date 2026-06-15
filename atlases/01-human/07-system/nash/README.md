@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "The real killer in NASH is the artery: the same metabolic inflammation injures the endothelial lining and accelerates atherosclerosis, so cardiovascular disease — not the liver — is the leading cause of death in these patients."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Inflammation tips fatty liver into steatohepatitis: Kupffer cells and inflamed fat pour out TNF-α, which worsens hepatocyte insulin resistance, fuels cell death, and recruits the immune attack that turns bland steatosis into NASH."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "The liver's own B cells join the assault: in NASH intrahepatic B cells expand and secrete antibody and cytokines that activate macrophages and stellate cells, pushing inflammation toward fibrosis."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Fatty liver shadows the kidney: NASH independently raises the risk of chronic kidney disease through shared insulin resistance, hypertension, and inflammation, so the two metabolic-organ injuries tend to advance together."
 ---
 
 # NASH
@@ -296,6 +305,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — NASH and PCOS are two faces of insulin resistance: polycystic ovary syndrome sharply raises the risk of fatty liver and steatohepatitis in young women, so the liver and the ovary are screened together when one is found.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet is the cornerstone of treatment: cutting fructose and processed food while eating a high-fiber, Mediterranean pattern, with weight loss, can reverse the fat and inflammation of NASH before fibrosis sets in.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The real killer in NASH is the artery: the same metabolic inflammation injures the endothelial lining and accelerates atherosclerosis, so cardiovascular disease — not the liver — is the leading cause of death in these patients.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Inflammation tips fatty liver into steatohepatitis: Kupffer cells and inflamed fat pour out TNF-α, which worsens hepatocyte insulin resistance, fuels cell death, and recruits the immune attack that turns bland steatosis into NASH.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — The liver's own B cells join the assault: in NASH intrahepatic B cells expand and secrete antibody and cytokines that activate macrophages and stellate cells, pushing inflammation toward fibrosis.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Fatty liver shadows the kidney: NASH independently raises the risk of chronic kidney disease through shared insulin resistance, hypertension, and inflammation, so the two metabolic-organ injuries tend to advance together.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

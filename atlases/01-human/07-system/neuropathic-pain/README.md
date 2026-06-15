@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney both causes and constrains: uremic neuropathy makes the nerves ache in kidney failure, and because gabapentin and pregabalin are cleared renally, their doses must be cut to avoid toxic accumulation in these patients."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Cytokines sensitize the injured nerve: IL-6 released after nerve damage lowers the firing threshold of pain neurons and recruits immune cells, helping turn a transient injury into the persistent firing of neuropathic pain."
+  - target: 01-human/07-system/sjogrens-syndrome
+    relation: connects-to
+    note: "Autoimmune dryness can attack the nerves: Sjögren's syndrome causes a sensory neuronopathy and small-fiber neuropathy, the immune assault on dorsal root ganglia producing burning, painful numbness even with little joint disease."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV is a global cause of painful neuropathy: the virus and some antiretroviral drugs both damage long sensory axons, producing a distal symmetric polyneuropathy with burning feet that is among the infection's most common neurologic complications."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -345,6 +354,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both cause and treat nerve pain: autoantibodies against gangliosides and MAG drive the painful neuropathies of GBS and CIDP, while anti-NGF monoclonal antibodies like tanezumab were developed to silence pain at its growth-factor source.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Pain and mood share circuits and drugs: chronic neuropathic pain breeds depression, the two amplifying each other through overlapping serotonin-noradrenaline pathways, which is why SNRIs and tricyclics treat both at once.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney both causes and constrains: uremic neuropathy makes the nerves ache in kidney failure, and because gabapentin and pregabalin are cleared renally, their doses must be cut to avoid toxic accumulation in these patients.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Cytokines sensitize the injured nerve: IL-6 released after nerve damage lowers the firing threshold of pain neurons and recruits immune cells, helping turn a transient injury into the persistent firing of neuropathic pain.
+- `connects-to` → **[Sjögren's Syndrome](../sjogrens-syndrome/README.md)** — Autoimmune dryness can attack the nerves: Sjögren's syndrome causes a sensory neuronopathy and small-fiber neuropathy, the immune assault on dorsal root ganglia producing burning, painful numbness even with little joint disease.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV is a global cause of painful neuropathy: the virus and some antiretroviral drugs both damage long sensory axons, producing a distal symmetric polyneuropathy with burning feet that is among the infection's most common neurologic complications.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
