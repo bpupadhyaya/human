@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Sepsis thins and shears the red cells: inflammation suppresses their production and repeated blood draws deplete them, while disseminated clotting fragments them into the schistocytes of microangiopathy."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 is a central alarm of sepsis: it pours from activated immune cells to drive fever and the acute-phase response, serving as a severity marker, and blocking it (tocilizumab) tempers the cytokine storm of severe infection."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement runs wild in sepsis: explosive C5a generation recruits and over-activates neutrophils and injures the endothelium, amplifying the inflammation and clotting, which is why C5-blockade is studied to calm the storm."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Maternal sepsis is a leading cause of death in childbirth: postpartum uterine infection and chorioamnionitis can spill into the bloodstream, and the physiologic changes of pregnancy can mask the early warning signs."
 ---
 
 # Sepsis
@@ -305,6 +314,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin shows shock at the bedside: mottled, cold, slow-to-refill skin signals the collapsing perfusion of septic shock, and in fulminant disease purpura fulminans marks the disseminated clotting beneath.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Survivors are left weak for months: ICU-acquired weakness — a critical-illness myopathy and polyneuropathy driven by sepsis inflammation and immobility — wastes muscle and slows recovery long after the infection clears.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Sepsis thins and shears the red cells: inflammation suppresses their production and repeated blood draws deplete them, while disseminated clotting fragments them into the schistocytes of microangiopathy.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is a central alarm of sepsis: it pours from activated immune cells to drive fever and the acute-phase response, serving as a severity marker, and blocking it (tocilizumab) tempers the cytokine storm of severe infection.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement runs wild in sepsis: explosive C5a generation recruits and over-activates neutrophils and injures the endothelium, amplifying the inflammation and clotting, which is why C5-blockade is studied to calm the storm.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Maternal sepsis is a leading cause of death in childbirth: postpartum uterine infection and chorioamnionitis can spill into the bloodstream, and the physiologic changes of pregnancy can mask the early warning signs.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

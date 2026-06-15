@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Sickling starves the bones: vaso-occlusion infarcts the marrow and kills the femoral head in avascular necrosis, while in children it swells the hands and feet as the dactylitis that is often the first sign."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Lose the spleen, lose the defense: repeated infarction autosplenectomizes sickle-cell patients, leaving them prey to encapsulated bacteria like Streptococcus pneumoniae and overwhelming sepsis — countered by penicillin prophylaxis and vaccination."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "The infarcted skeleton remodels and weakens: chronic marrow expansion and bone infarction rev up osteoclast resorption into low bone density, and the dead, infarcted bone is uniquely prone to Salmonella osteomyelitis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium guards the red cell's water: sickle erythrocytes leak magnesium and potassium and dehydrate, which concentrates hemoglobin S and speeds sickling, so magnesium repletion is studied to keep the cells hydrated."
 ---
 
 # Sickle Cell Disease
@@ -358,6 +367,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sickling strikes the reproductive organs: priapism — a painful, prolonged erection from vaso-occlusion in the penis — is a urologic emergency, and the disease complicates fertility and raises the risks of pregnancy.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Transfusions stir up antibodies: repeatedly transfused patients form alloantibodies against donor red-cell antigens, making future cross-matching hard — while the newer drug crizanlizumab is itself an anti-P-selectin antibody that blocks vaso-occlusion.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Sickling starves the bones: vaso-occlusion infarcts the marrow and kills the femoral head in avascular necrosis, while in children it swells the hands and feet as the dactylitis that is often the first sign.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Lose the spleen, lose the defense: repeated infarction autosplenectomizes sickle-cell patients, leaving them prey to encapsulated bacteria like Streptococcus pneumoniae and overwhelming sepsis — countered by penicillin prophylaxis and vaccination.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — The infarcted skeleton remodels and weakens: chronic marrow expansion and bone infarction rev up osteoclast resorption into low bone density, and the dead, infarcted bone is uniquely prone to Salmonella osteomyelitis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium guards the red cell's water: sickle erythrocytes leak magnesium and potassium and dehydrate, which concentrates hemoglobin S and speeds sickling, so magnesium repletion is studied to keep the cells hydrated.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
