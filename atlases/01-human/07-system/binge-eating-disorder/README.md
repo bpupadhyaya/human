@@ -144,6 +144,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Insulin resistance shows on the skin: the velvety dark patches of acanthosis nigricans and skin tags mark the hyperinsulinemia that binge eating fosters, a visible flag of the metabolic disturbance underneath."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Orexin drives the urge to seek food: this hypothalamic wake-and-reward peptide ramps up motivated eating, and overactive orexin signaling is implicated in the compulsive food-seeking of binge episodes."
+  - target: 01-human/07-system/gambling-disorder
+    relation: connects-to
+    note: "Binge eating sits on the addiction spectrum: like gambling disorder it is a behavioral addiction of impulsivity and reward, sharing dopamine circuitry and the loss-of-control that frames some binge eating as a 'food addiction.'"
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Stress hormones trigger the binge: HPA-axis activation pours adrenal cortisol that heightens cravings for calorie-dense food, so stress reactivity is a major driver of binge episodes."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -347,6 +356,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Binge eating intertwines with reproduction: it is more common in women with PCOS, drives the insulin resistance behind it, and disturbs menstrual regularity and fertility through the weight and metabolic upheaval it brings.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The metabolic fallout scars the vessels: the insulin resistance and dyslipidemia of binge eating injure the endothelial lining and accelerate atherosclerosis, a cardiovascular toll that runs beyond the weight gained.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Insulin resistance shows on the skin: the velvety dark patches of acanthosis nigricans and skin tags mark the hyperinsulinemia that binge eating fosters, a visible flag of the metabolic disturbance underneath.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin drives the urge to seek food: this hypothalamic wake-and-reward peptide ramps up motivated eating, and overactive orexin signaling is implicated in the compulsive food-seeking of binge episodes.
+- `connects-to` → **[Gambling Disorder](../gambling-disorder/README.md)** — Binge eating sits on the addiction spectrum: like gambling disorder it is a behavioral addiction of impulsivity and reward, sharing dopamine circuitry and the loss-of-control that frames some binge eating as a 'food addiction.'
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Stress hormones trigger the binge: HPA-axis activation pours adrenal cortisol that heightens cravings for calorie-dense food, so stress reactivity is a major driver of binge episodes.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
