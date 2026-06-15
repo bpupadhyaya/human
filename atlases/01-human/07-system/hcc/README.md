@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "HCC commonly spreads to the adrenal glands: after the lungs, the adrenals are among its favored metastatic sites, so imaging of these glands is part of staging advanced liver cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HCC arises in a cirrhotic liver that retains sodium as ascites, and worsening ascites or a falling blood sodium can signal tumor progression or portal-vein invasion."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "HCC can grow up the bloodstream: tumor thrombus extends through the hepatic veins into the inferior vena cava and even the right atrium of the heart, a finding that reshapes treatment."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "HCC can stir the bone marrow: it sometimes secretes erythropoietin as a paraneoplastic syndrome, driving polycythemia, and in advanced disease it metastasizes to bone."
 ---
 
 # Hepatocellular Carcinoma
@@ -292,6 +301,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 helps explain why HCC favors men: Kupffer-cell IL-6 fuels tumor growth via STAT3, and because estrogen suppresses IL-6, women are partly protected, a link that also ties obesity and fatty-liver inflammation to liver cancer.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HCC grows in a low-oxygen tumor: outpacing its blood supply, the cancer turns hypoxic, which switches on HIF and VEGF to sprout new vessels and makes it resistant to therapy—why anti-angiogenic drugs are central to treatment.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — HCC shelters behind regulatory T cells: the liver tumor accumulates Tregs that suppress the antitumor attack, a key reason it resists immunity and why checkpoint drugs aim to lift this brake on the immune system.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HCC arises in a cirrhotic liver that retains sodium as ascites, and worsening ascites or a falling blood sodium can signal tumor progression or portal-vein invasion.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — HCC can grow up the bloodstream: tumor thrombus extends through the hepatic veins into the inferior vena cava and even the right atrium of the heart, a finding that reshapes treatment.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — HCC can stir the bone marrow: it sometimes secretes erythropoietin as a paraneoplastic syndrome, driving polycythemia, and in advanced disease it metastasizes to bone.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — HCC commonly spreads to the adrenal glands: after the lungs, the adrenals are among its favored metastatic sites, so imaging of these glands is part of staging advanced liver cancer.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)

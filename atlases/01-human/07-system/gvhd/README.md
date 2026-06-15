@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages drive GVHD's tissue destruction: recruited by donor T cells, they flood target organs and pour out inflammatory mediators that amplify the damage, making them an effector behind the skin, gut, and liver injury."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "GVHD prophylaxis wastes magnesium: the calcineurin inhibitors cyclosporine and tacrolimus make the kidney spill it, so hypomagnesemia—and the seizures it can provoke—is a common side effect of preventing the disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IL-2 sits at the center of GVHD control: calcineurin inhibitors block its production to stop donor T cells, while low-dose IL-2 is given to expand regulatory T cells and calm chronic disease."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Chronic GVHD can attack the nerves and muscle: polyneuropathy, myositis and a myasthenia-like syndrome are recognized neuromuscular complications of the prolonged autoimmune assault."
 ---
 
 # Graft-Versus-Host Disease
@@ -301,6 +310,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Gut GVHD can drain the body's potassium: severe inflammation of the bowel lining causes torrential, watery diarrhea—liters a day—that washes out potassium and fluid, a dangerous electrolyte loss needing close replacement.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic GVHD ends in fibrosis: the persistent immune attack lays down scar tissue, hardening the skin like scleroderma and choking the airways with bronchiolitis obliterans, the disabling late face of the disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages drive GVHD's tissue destruction: recruited by donor T cells, they flood target organs and pour out inflammatory mediators that amplify the damage, making them an effector behind the skin, gut, and liver injury.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GVHD prophylaxis wastes magnesium: the calcineurin inhibitors cyclosporine and tacrolimus make the kidney spill it, so hypomagnesemia—and the seizures it can provoke—is a common side effect of preventing the disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 sits at the center of GVHD control: calcineurin inhibitors block its production to stop donor T cells, while low-dose IL-2 is given to expand regulatory T cells and calm chronic disease.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Chronic GVHD can attack the nerves and muscle: polyneuropathy, myositis and a myasthenia-like syndrome are recognized neuromuscular complications of the prolonged autoimmune assault.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
