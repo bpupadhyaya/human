@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/07-system/venous-thromboembolism
     relation: connects-to
     note: "Even as it scars the marrow, myelofibrosis stays prothrombotic: like its sister myeloproliferative neoplasms it raises the risk of venous and arterial clots, especially with a JAK2 mutation and a high blood count earlier in the disease."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "The churning marrow spills minerals: high cell turnover, and its lysis under treatment, release phosphate and urate into the blood, fueling the gout and hyperuricemia that often accompany myelofibrosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Blood-making strays into the gut, and the swollen spleen backs up its veins: extramedullary hematopoiesis can stud the bowel, while massive splenomegaly raises portal pressure into varices that bleed into the GI tract."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Blood-forming masses can squeeze the cord: paraspinal extramedullary hematopoiesis is a rare but urgent complication of myelofibrosis, the tissue pressing on the spinal cord and its neurons to cause weakness and sensory loss."
 ---
 
 # Myelofibrosis
@@ -315,6 +324,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Myelofibrosis builds a dense new vasculature in the marrow: the malignant clone drives VEGF, and the resulting marrow neoangiogenesis — a rise in microvessel density — is part of the pathology pathologists grade alongside the scarring.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — The disease wastes the body: drenching night sweats, fevers, and weight loss are hallmark constitutional symptoms, and the cachexia they cause lowers albumin — a marker of the burden that figures into prognosis.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Even as it scars the marrow, myelofibrosis stays prothrombotic: like its sister myeloproliferative neoplasms it raises the risk of venous and arterial clots, especially with a JAK2 mutation and a high blood count earlier in the disease.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — The churning marrow spills minerals: high cell turnover, and its lysis under treatment, release phosphate and urate into the blood, fueling the gout and hyperuricemia that often accompany myelofibrosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Blood-making strays into the gut, and the swollen spleen backs up its veins: extramedullary hematopoiesis can stud the bowel, while massive splenomegaly raises portal pressure into varices that bleed into the GI tract.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Blood-forming masses can squeeze the cord: paraspinal extramedullary hematopoiesis is a rare but urgent complication of myelofibrosis, the tissue pressing on the spinal cord and its neurons to cause weakness and sensory loss.
 
 ---
 

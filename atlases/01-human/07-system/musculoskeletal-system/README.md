@@ -143,6 +143,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "Cortisol is the catabolic counterweight: chronic excess — from disease or steroid drugs — breaks down muscle protein into a proximal myopathy and strips bone into osteoporosis, the opposite of the anabolic hormones' effects."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies can turn on muscle and joint: anti-acetylcholine-receptor antibodies weaken the neuromuscular junction in myasthenia gravis, and myositis-specific autoantibodies attack muscle directly, the immune system mistaking the motor system for the enemy."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Muscle is the body's main glucose sink: insulin drives sugar uptake into muscle and stimulates its protein synthesis, so insulin resistance both raises blood glucose and accelerates the muscle loss of aging and metabolic disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Working muscle is hungry for oxygen the red cells carry: exercise raises oxygen demand and stimulates erythropoietin, while the marrow that makes erythrocytes sits inside the very bones the system is built from."
 ---
 
 # Musculoskeletal System
@@ -321,6 +330,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth hormone builds the system in childhood and maintains it after: it lengthens bone at the growth plates, spurs muscle protein synthesis through IGF-1, and its lifelong decline contributes to the muscle and bone loss of aging.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone is the body's chief anabolic signal for muscle and bone: it enlarges muscle fibers and raises bone density, so its fall with age or hypogonadism drives the sarcopenia and osteoporosis of the aging skeleton.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol is the catabolic counterweight: chronic excess — from disease or steroid drugs — breaks down muscle protein into a proximal myopathy and strips bone into osteoporosis, the opposite of the anabolic hormones' effects.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies can turn on muscle and joint: anti-acetylcholine-receptor antibodies weaken the neuromuscular junction in myasthenia gravis, and myositis-specific autoantibodies attack muscle directly, the immune system mistaking the motor system for the enemy.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Muscle is the body's main glucose sink: insulin drives sugar uptake into muscle and stimulates its protein synthesis, so insulin resistance both raises blood glucose and accelerates the muscle loss of aging and metabolic disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Working muscle is hungry for oxygen the red cells carry: exercise raises oxygen demand and stimulates erythropoietin, while the marrow that makes erythrocytes sits inside the very bones the system is built from.
 
 ## Pathology
 
