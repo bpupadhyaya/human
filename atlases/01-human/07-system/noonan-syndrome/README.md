@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "When Noonan's blood disorder flares, the liver swells: the juvenile myelomonocytic proliferation enlarges the liver and spleen, hepatosplenomegaly that, with the protein-losing gut, adds to the failure to thrive of a difficult infancy."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "The RASopathy reaches the developing brain: most children with Noonan have learning difficulties and attention problems, as the same overactive RAS-MAPK signaling that shapes the face and heart disturbs the circuits underlying learning and focus."
+  - target: 01-human/07-system/cmml
+    relation: connects-to
+    note: "Noonan's signaling defect predisposes to monocytic leukemia: germline PTPN11 mutations drive juvenile myelomonocytic leukemia, the childhood RAS-pathway counterpart of the adult chronic myelomonocytic leukemia, both fueled by hyperactive SHP2."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Noonan unsettles bone remodeling: RAS-MAPK dysregulation skews the osteoclast-osteoblast balance toward resorption, contributing to the reduced bone density and skeletal anomalies like pectus deformity seen across the syndrome."
 ---
 
 # Noonan Syndrome
@@ -333,6 +342,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — A RASopathy with an autoimmune streak: Noonan patients show antithyroid and antinuclear antibodies and develop autoimmune thyroiditis and lupus more often than expected, immune dysregulation riding alongside the syndrome's overactive RAS-MAPK signaling.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The same RAS defect can derange the marrow: infants with Noonan may develop a juvenile myelomonocytic leukemia or a transient myeloproliferative disorder that crowds out red cells, the anemia and low counts revealing the blood's involvement.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — When Noonan's blood disorder flares, the liver swells: the juvenile myelomonocytic proliferation enlarges the liver and spleen, hepatosplenomegaly that, with the protein-losing gut, adds to the failure to thrive of a difficult infancy.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — The RASopathy reaches the developing brain: most children with Noonan have learning difficulties and attention problems, as the same overactive RAS-MAPK signaling that shapes the face and heart disturbs the circuits underlying learning and focus.
+- `connects-to` → **[Chronic Myelomonocytic Leukemia](../cmml/README.md)** — Noonan's signaling defect predisposes to monocytic leukemia: germline PTPN11 mutations drive juvenile myelomonocytic leukemia, the childhood RAS-pathway counterpart of the adult chronic myelomonocytic leukemia, both fueled by hyperactive SHP2.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Noonan unsettles bone remodeling: RAS-MAPK dysregulation skews the osteoclast-osteoblast balance toward resorption, contributing to the reduced bone density and skeletal anomalies like pectus deformity seen across the syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

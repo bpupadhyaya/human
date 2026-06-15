@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy and inheritance both bear on NF2: vestibular schwannomas can accelerate during pregnancy, and as a dominant disorder each child of an affected parent faces a 50% risk, making genetic counseling central to family planning."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Bevacizumab is the main systemic NF2 drug: this anti-VEGF antibody can shrink vestibular schwannomas and preserve hearing, but by impairing the vessel lining it raises bleeding, clotting and platelet-related complications that must be watched."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "NF2's tumors are immunologically quiet: schwannomas and meningiomas recruit regulatory T cells and few effectors, a cold microenvironment that has limited immunotherapy and is studied to make these slow tumors more visible to attack."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Its anti-VEGF therapy carries a vascular price: prolonged bevacizumab raises the risk of hypertension and arterial thromboembolic events including stroke, a trade-off weighed against the hearing it can save in NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -315,6 +324,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody can save hearing in NF2: bevacizumab, a monoclonal against VEGF, shrinks vestibular schwannomas and recovers some hearing, while diffuse S100 and SOX10 stains confirm a schwannoma's Schwann-cell origin on biopsy.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — NF2 marks the skin in its own way: rather than NF1's café-au-lait neurofibromas, most patients carry cutaneous and subcutaneous schwannomas — raised plaques and nodules whose discovery in a young person can be the first prompt to look for the brain tumors.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy and inheritance both bear on NF2: vestibular schwannomas can accelerate during pregnancy, and as a dominant disorder each child of an affected parent faces a 50% risk, making genetic counseling central to family planning.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Bevacizumab is the main systemic NF2 drug: this anti-VEGF antibody can shrink vestibular schwannomas and preserve hearing, but by impairing the vessel lining it raises bleeding, clotting and platelet-related complications that must be watched.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — NF2's tumors are immunologically quiet: schwannomas and meningiomas recruit regulatory T cells and few effectors, a cold microenvironment that has limited immunotherapy and is studied to make these slow tumors more visible to attack.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Its anti-VEGF therapy carries a vascular price: prolonged bevacizumab raises the risk of hypertension and arterial thromboembolic events including stroke, a trade-off weighed against the hearing it can save in NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
