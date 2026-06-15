@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Bloom syndrome's cancer spectrum reaches the kidney: among the many tumors its genomic instability invites, Wilms tumor and renal carcinoma occur, so the kidney joins the broad lifelong cancer surveillance."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Bloom syndrome leaves the body short of antibody: a common variable immunodeficiency-like drop in immunoglobulins accompanies it, so recurrent ear, sinus, and lung infections trouble these patients from childhood."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The diagnosis is read in the blood cells: Bloom's faulty BLM helicase produces a striking excess of sister-chromatid exchanges in cultured lymphocytes — the classic confirmatory test — while marrow failure can also drop the red cells into anemia."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The gut troubles span a lifetime: severe reflux and feeding difficulty stunt growth in Bloom infants, and the genomic instability later raises the risk of gastric and other gastrointestinal cancers."
 ---
 
 # Bloom Syndrome
@@ -321,6 +330,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Bloom syndrome cannot mend its own DNA: the broken BLM helicase lets chromosomes swap arms in a flurry of sister-chromatid exchanges — the diagnostic hallmark — and leaves cells hypersensitive to radiation and oxidative damage.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sunlight inflames the Bloom syndrome face and eyes: the photosensitive butterfly rash of dilated telangiectatic vessels spreads across the cheeks and onto the conjunctiva, a visible sign of the disorder's UV sensitivity.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bloom syndrome's cancer spectrum reaches the kidney: among the many tumors its genomic instability invites, Wilms tumor and renal carcinoma occur, so the kidney joins the broad lifelong cancer surveillance.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Bloom syndrome leaves the body short of antibody: a common variable immunodeficiency-like drop in immunoglobulins accompanies it, so recurrent ear, sinus, and lung infections trouble these patients from childhood.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The diagnosis is read in the blood cells: Bloom's faulty BLM helicase produces a striking excess of sister-chromatid exchanges in cultured lymphocytes — the classic confirmatory test — while marrow failure can also drop the red cells into anemia.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut troubles span a lifetime: severe reflux and feeding difficulty stunt growth in Bloom infants, and the genomic instability later raises the risk of gastric and other gastrointestinal cancers.
 
 ---
 

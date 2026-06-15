@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "An advanced bladder tumor can breach the bowel: invasion through the bladder wall into the adjacent rectum or sigmoid colon can open a vesicocolic fistula, leaking gas and stool into the urine."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Blood in the urine is the warning sign: painless hematuria — red cells shed into the urine by the friable tumor — is the cardinal presentation of bladder cancer, and chronic loss can leave the patient iron-deficient and anemic."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Engineered antibodies now treat bladder cancer: checkpoint inhibitors like pembrolizumab release the immune brakes, and the antibody-drug conjugate enfortumab vedotin delivers a toxin to nectin-4 on the tumor cells."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The platinum chemotherapy frays the nerves: cisplatin, the backbone of bladder cancer regimens, injures peripheral sensory neurons and the cochlear nerve, leaving numbness and hearing loss that can outlast treatment."
 ---
 
 # Bladder Cancer
@@ -312,6 +321,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads bladder cancer's lineage: urothelial carcinoma keeps the surface umbrella cells' specialized membrane plaques and tight junctions, while the squamous type from schistosomiasis shows desmosomes and keratin instead.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bladder cancer favors the skeleton when it spreads: bone is a leading metastatic site after lung and liver, and deposits in the marrow-filled vertebrae and pelvis cause the pain of advanced disease.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — An advanced bladder tumor can breach the bowel: invasion through the bladder wall into the adjacent rectum or sigmoid colon can open a vesicocolic fistula, leaking gas and stool into the urine.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Blood in the urine is the warning sign: painless hematuria — red cells shed into the urine by the friable tumor — is the cardinal presentation of bladder cancer, and chronic loss can leave the patient iron-deficient and anemic.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Engineered antibodies now treat bladder cancer: checkpoint inhibitors like pembrolizumab release the immune brakes, and the antibody-drug conjugate enfortumab vedotin delivers a toxin to nectin-4 on the tumor cells.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The platinum chemotherapy frays the nerves: cisplatin, the backbone of bladder cancer regimens, injures peripheral sensory neurons and the cochlear nerve, leaving numbness and hearing loss that can outlast treatment.
 
 ---
 
