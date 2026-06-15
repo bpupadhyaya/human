@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "NF1 can be born into the heart: like the related RASopathies, it raises the risk of congenital heart disease — pulmonary valve stenosis most of all — so children are screened for structural defects alongside their tumors."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy dissects the neurofibroma: it is a mix of Schwann cells, perineurial cells, fibroblasts, and mast cells loosely wrapped in collagen, the heterogeneous tangle that distinguishes it from a pure schwannoma."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "NF1 distorts the growing skeleton: sphenoid-wing dysplasia, scoliosis, and the non-healing tibial pseudarthrosis reflect a bone-forming defect, warping the marrow-bearing bones from birth."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "NF1 can scar the lungs: a diffuse interstitial lung disease with basal fibrosis and upper-lobe bullae develops in some adults, adding pulmonary disease to the syndrome's tumors and skeletal changes."
 ---
 
 # Neurofibromatosis Type 1
@@ -284,6 +293,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons watch NF1 unfold: MRI tracks optic-pathway gliomas and plexiform neurofibromas, whole-body MRI gauges tumor burden, and slit-lamp light spots the Lisch nodules on the iris that help clinch the diagnosis.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Neurofibromas are mixed tumors, and fibroblasts are part of the mix: alongside Schwann cells, perineurial cells, and mast cells, fibroblasts lay down the loose collagenous matrix that gives these soft, fleshy nodules their texture.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — NF1 can be born into the heart: like the related RASopathies, it raises the risk of congenital heart disease — pulmonary valve stenosis most of all — so children are screened for structural defects alongside their tumors.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy dissects the neurofibroma: it is a mix of Schwann cells, perineurial cells, fibroblasts, and mast cells loosely wrapped in collagen, the heterogeneous tangle that distinguishes it from a pure schwannoma.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — NF1 distorts the growing skeleton: sphenoid-wing dysplasia, scoliosis, and the non-healing tibial pseudarthrosis reflect a bone-forming defect, warping the marrow-bearing bones from birth.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — NF1 can scar the lungs: a diffuse interstitial lung disease with basal fibrosis and upper-lobe bullae develops in some adults, adding pulmonary disease to the syndrome's tumors and skeletal changes.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Radioiodine hunts the catecholamine-avid ones: MIBG, a noradrenaline mimic tagged with iodine-123 or iodine-131, is taken up by these tumors to image them and, in higher doses, to deliver targeted radiation therapy."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Neuroendocrine tumors of the gut announce themselves with diarrhea: midgut carcinoids spill serotonin that speeds the bowel, and once they reach the liver the unfiltered hormones cause the flushing-and-diarrhea of carcinoid syndrome."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Neuroendocrine tumors favor bone when they spread: skeletal metastases to the marrow-bearing spine and pelvis are common in advanced disease, lighting up on the somatostatin-receptor scans used to stage them."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Carcinoid diarrhea drains the body's minerals: the relentless secretory diarrhea of a hormone-secreting neuroendocrine tumor flushes out magnesium and potassium, electrolytes that must be replaced alongside treating the tumor."
 ---
 
 # Neuroendocrine Tumors
@@ -276,6 +285,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy defines what 'neuroendocrine' means: these tumor cells are stuffed with dense-core secretory granules — membrane-bound packets of hormone — the ultrastructural signature that marks a tumor as neuroendocrine when its tissue origin is unclear.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets hoard the serotonin these tumors spill: carcinoids release serotonin that circulating platelets soak up and store, so platelet-poor measurements and urinary 5-HIAA breakdown products are used to gauge the secreting tumor's activity.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Radioiodine hunts the catecholamine-avid ones: MIBG, a noradrenaline mimic tagged with iodine-123 or iodine-131, is taken up by these tumors to image them and, in higher doses, to deliver targeted radiation therapy.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Neuroendocrine tumors of the gut announce themselves with diarrhea: midgut carcinoids spill serotonin that speeds the bowel, and once they reach the liver the unfiltered hormones cause the flushing-and-diarrhea of carcinoid syndrome.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Neuroendocrine tumors favor bone when they spread: skeletal metastases to the marrow-bearing spine and pelvis are common in advanced disease, lighting up on the somatostatin-receptor scans used to stage them.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Carcinoid diarrhea drains the body's minerals: the relentless secretory diarrhea of a hormone-secreting neuroendocrine tumor flushes out magnesium and potassium, electrolytes that must be replaced alongside treating the tumor.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
