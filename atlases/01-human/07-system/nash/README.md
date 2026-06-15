@@ -142,6 +142,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Low vitamin D shadows fatty liver: deficiency is common in NASH and correlates with more inflammation and fibrosis, reflecting the vitamin's role in insulin sensitivity and restraining the immune injury."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "NASH is staged by its collagen: activated hepatic stellate cells pour collagen into the liver, and how much they have laid down — fibrosis stage F0 to F4 — is the single strongest predictor of whether the disease progresses to cirrhosis."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Once NASH scars into cirrhosis the brain suffers: the failing liver can no longer clear ammonia, which builds up to cause hepatic encephalopathy — confusion, asterixis, and at worst coma."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils mark the 'H' in NASH: their infiltration around ballooned, fat-laden hepatocytes — forming satellitosis and Mallory-Denk bodies — is the lobular inflammation that separates simple fatty liver from true steatohepatitis."
 ---
 
 # NASH
@@ -272,6 +281,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the injured liver cell of NASH: large fat droplets swell the hepatocyte, the cytoskeleton clumps into Mallory-Denk bodies, and giant megamitochondria mark the metabolic stress that distinguishes it from simple fatty liver.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Fatty liver disease quietly strains the kidney: NASH is independently linked to chronic kidney disease, the shared insulin resistance and inflammation damaging both organs in parallel beyond the usual diabetes and hypertension.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Low vitamin D shadows fatty liver: deficiency is common in NASH and correlates with more inflammation and fibrosis, reflecting the vitamin's role in insulin sensitivity and restraining the immune injury.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — NASH is staged by its collagen: activated hepatic stellate cells pour collagen into the liver, and how much they have laid down — fibrosis stage F0 to F4 — is the single strongest predictor of whether the disease progresses to cirrhosis.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Once NASH scars into cirrhosis the brain suffers: the failing liver can no longer clear ammonia, which builds up to cause hepatic encephalopathy — confusion, asterixis, and at worst coma.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark the 'H' in NASH: their infiltration around ballooned, fat-laden hepatocytes — forming satellitosis and Mallory-Denk bodies — is the lobular inflammation that separates simple fatty liver from true steatohepatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
