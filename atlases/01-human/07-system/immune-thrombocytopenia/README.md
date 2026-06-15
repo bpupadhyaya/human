@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "ITP destroys platelets partly through complement: antibody-coated platelets can fix complement C3, marking them for a second route of clearance beyond the spleen's macrophages."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "When ITP is unclear the marrow is checked under the microscope: it shows plentiful megakaryocytes, confirming platelets are being destroyed in the periphery rather than underproduced."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "ITP can bleed into the gut: severe thrombocytopenia causes gastrointestinal hemorrhage, one of the dangerous internal bleeds beyond the visible skin purpura."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "ITP's autoantibodies are made in germinal centers: spleen B cells there produce the anti-platelet antibodies, which is why splenectomy and B-cell-depleting rituximab can control it."
 ---
 
 # Immune Thrombocytopenia
@@ -305,6 +314,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chronic ITP can drain iron: ongoing mucosal and menstrual bleeding from the very low platelet count slowly depletes the body's iron, adding deficiency anemia to the thrombocytopenia.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — ITP shows first on the skin: pinpoint petechiae and bruising purpura, the bleeding into skin from too few platelets, are the cardinal visible sign that brings patients in.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — ITP destroys platelets partly through complement: antibody-coated platelets can fix complement C3, marking them for a second route of clearance beyond the spleen's macrophages.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — When ITP is unclear the marrow is checked under the microscope: it shows plentiful megakaryocytes, confirming platelets are being destroyed in the periphery rather than underproduced.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — ITP can bleed into the gut: severe thrombocytopenia causes gastrointestinal hemorrhage, one of the dangerous internal bleeds beyond the visible skin purpura.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — ITP's autoantibodies are made in germinal centers: spleen B cells there produce the anti-platelet antibodies, which is why splenectomy and B-cell-depleting rituximab can control it.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

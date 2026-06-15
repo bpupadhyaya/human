@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Severe colitis bleeds away potassium: heavy diarrhea flushes potassium from the body, and the resulting hypokalemia can worsen gut paralysis and precipitate toxic megacolon in acute attacks."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "IBD is mapped by light and imaging: colonoscopy inspects the mucosa directly, while CT and MR enterography photons reveal small-bowel inflammation, strictures and abscesses beyond the scope's reach."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "IBD depletes zinc: chronic diarrhea and malabsorption lower it, contributing to the poor healing, skin rashes and impaired immunity that complicate the disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "IBD and its drugs strain the marrow: chronic inflammation and the thiopurines used to treat it can suppress blood-cell production, so counts are watched throughout therapy."
 ---
 
 # Inflammatory Bowel Disease
@@ -295,6 +304,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — IBD inflames the eyes: uveitis and episcleritis are extraintestinal manifestations that can flare with bowel activity, so red, painful eyes in an IBD patient signal active systemic disease.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Crohn's disease scars the bowel into strictures: chronic transmural inflammation drives fibrosis of the gut wall, narrowing it until food can't pass—the fibrostenotic complication that often needs surgery.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Severe colitis bleeds away potassium: heavy diarrhea flushes potassium from the body, and the resulting hypokalemia can worsen gut paralysis and precipitate toxic megacolon in acute attacks.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — IBD is mapped by light and imaging: colonoscopy inspects the mucosa directly, while CT and MR enterography photons reveal small-bowel inflammation, strictures and abscesses beyond the scope's reach.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — IBD depletes zinc: chronic diarrhea and malabsorption lower it, contributing to the poor healing, skin rashes and impaired immunity that complicate the disease.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — IBD and its drugs strain the marrow: chronic inflammation and the thiopurines used to treat it can suppress blood-cell production, so counts are watched throughout therapy.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
