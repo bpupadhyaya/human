@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "ALS burns through the body's fat: a hypermetabolic state wastes adipose and muscle, and because faster weight loss predicts worse survival, high-calorie feeding has become part of care."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "The endocannabinoid system is a symptom target: cannabinoids ease the spasticity, cramps, and excess saliva of ALS and are studied for neuroprotection, since the system also modulates the excitotoxicity that kills motor neurons."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "The mind carries a heavy load and a strange symptom: depression is common facing a terminal diagnosis, and pseudobulbar affect — uncontrollable laughing or crying out of proportion to feeling — arises from the degenerating motor pathways."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Even the heart's autonomic control frays: ALS disturbs the autonomic neurons that regulate the cardiomyocytes, reducing heart-rate variability and adding a dysautonomia to a disease usually thought of as purely motor."
 ---
 
 # ALS
@@ -347,6 +356,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — ALS strikes only the voluntary muscles: it kills the motor neurons driving striated skeletal muscle, sparing the smooth muscle of gut, bladder, and vessels — which is why continence and circulation hold even as limbs fail.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — A treatable mimic must be excluded: multifocal motor neuropathy, driven by anti-GM1 antibodies and responsive to IVIG, can imitate ALS, so antibody testing helps separate the curable impostor from the relentless disease.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — ALS burns through the body's fat: a hypermetabolic state wastes adipose and muscle, and because faster weight loss predicts worse survival, high-calorie feeding has become part of care.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system is a symptom target: cannabinoids ease the spasticity, cramps, and excess saliva of ALS and are studied for neuroprotection, since the system also modulates the excitotoxicity that kills motor neurons.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The mind carries a heavy load and a strange symptom: depression is common facing a terminal diagnosis, and pseudobulbar affect — uncontrollable laughing or crying out of proportion to feeling — arises from the degenerating motor pathways.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Even the heart's autonomic control frays: ALS disturbs the autonomic neurons that regulate the cardiomyocytes, reducing heart-rate variability and adding a dysautonomia to a disease usually thought of as purely motor.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/bladder-cancer
     relation: connects-to
     note: "The old workhorse drug scars the bladder: cyclophosphamide, long used to induce remission, releases acrolein that inflames the bladder into hemorrhagic cystitis and, over years, raises the risk of bladder cancer — so mesna and dose limits guard against it."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Glucocorticoids anchor induction: high-dose steroids rapidly quench the vasculitis alongside rituximab or cyclophosphamide, but their infection, bone, and metabolic toll drives the modern push to taper them fast."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Active vasculitis is sharply prothrombotic: ANCA disease carries a markedly raised risk of deep-vein thrombosis and pulmonary embolism during flares, the inflamed endothelium tipping the blood toward clotting."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The inflammation eats the vessel wall: neutrophil-driven necrotizing inflammation destroys the smooth-muscle media of small arteries, weakening them into the microaneurysms and ruptures that bleed into lung and kidney."
 ---
 
 # ANCA Vasculitis
@@ -343,6 +352,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The disease is named for its antibody: ANCA against proteinase-3 (c-ANCA) or myeloperoxidase (p-ANCA) both diagnose it and activate neutrophils to attack vessels, and the anti-CD20 antibody rituximab is a frontline treatment.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Inflamed vessels starve the nerves: occlusion of the small arteries feeding peripheral nerves produces mononeuritis multiplex — patchy, painful weakness and numbness that is a classic presenting feature, especially in EGPA.
 - `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The old workhorse drug scars the bladder: cyclophosphamide, long used to induce remission, releases acrolein that inflames the bladder into hemorrhagic cystitis and, over years, raises the risk of bladder cancer — so mesna and dose limits guard against it.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Glucocorticoids anchor induction: high-dose steroids rapidly quench the vasculitis alongside rituximab or cyclophosphamide, but their infection, bone, and metabolic toll drives the modern push to taper them fast.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Active vasculitis is sharply prothrombotic: ANCA disease carries a markedly raised risk of deep-vein thrombosis and pulmonary embolism during flares, the inflamed endothelium tipping the blood toward clotting.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The inflammation eats the vessel wall: neutrophil-driven necrotizing inflammation destroys the smooth-muscle media of small arteries, weakening them into the microaneurysms and ruptures that bleed into lung and kidney.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
