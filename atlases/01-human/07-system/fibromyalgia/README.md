@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "The small bowel may feed the pain: small intestinal bacterial overgrowth (SIBO) is found more often in fibromyalgia, and the bloating and altered gut signaling it brings feed back through the gut-brain axis onto central sensitization."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "A hormonal tilt may explain the female predominance: fibromyalgia overwhelmingly affects women and often flares perimenstrually and around menopause, hinting that falling estrogen — which modulates pain and serotonin pathways — lowers the pain threshold."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "A faint immune signal underlies the pain: fibromyalgia shows low-grade neuroinflammation with raised cytokines from activated T cells and glia, evidence the disorder is more than purely psychological even without overt tissue damage."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Weight and pain worsen each other: obesity is common in fibromyalgia and amplifies pain and fatigue through inflammation, poor sleep and deconditioning, so weight management and exercise are core to treatment."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -342,6 +351,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — A 'clinical endocannabinoid deficiency' is one leading idea: low endocannabinoid tone may underlie fibromyalgia, migraine, and IBS together, the rationale behind trying cannabinoids to lift pain thresholds and ease the sleep disturbance.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Fibromyalgia is overwhelmingly a women's diagnosis: symptoms often worsen premenstrually and around menopause as sex hormones shift, and it overlaps with painful menstrual and pelvic conditions, hinting hormones modulate central pain.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small bowel may feed the pain: small intestinal bacterial overgrowth (SIBO) is found more often in fibromyalgia, and the bloating and altered gut signaling it brings feed back through the gut-brain axis onto central sensitization.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — A hormonal tilt may explain the female predominance: fibromyalgia overwhelmingly affects women and often flares perimenstrually and around menopause, hinting that falling estrogen — which modulates pain and serotonin pathways — lowers the pain threshold.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — A faint immune signal underlies the pain: fibromyalgia shows low-grade neuroinflammation with raised cytokines from activated T cells and glia, evidence the disorder is more than purely psychological even without overt tissue damage.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Weight and pain worsen each other: obesity is common in fibromyalgia and amplifies pain and fatigue through inflammation, poor sleep and deconditioning, so weight management and exercise are core to treatment.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

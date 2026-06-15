@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "A gut-skin axis links the two surfaces: dysbiosis and a leaky gut feed inflammatory skin disease — acne, eczema, psoriasis, and rosacea — through immune and metabolite signals, which is why diet and probiotics are studied for the skin."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Gut bacteria recycle the body's estrogen: the estrobolome — microbial enzymes that deconjugate estrogens excreted in bile so they re-enter circulation — sets how much estrogen the body keeps, linking dysbiosis to breast cancer and menopausal health."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Microbes talk to the nervous system: bacterial metabolites and vagal signaling from the gut reach enteric and brain neurons, shaping mood, appetite and pain in the gut-brain axis that underlies the microbiome's effects on behavior."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "A leaky gut inflames the liver: dysbiosis lets bacterial endotoxin reach the liver through the portal vein, fueling the inflammation that turns fatty liver into NASH — the gut-liver axis behind much metabolic liver disease."
 ---
 
 # Gut Microbiome
@@ -277,6 +286,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The flora tune antibodies beyond the gut: germ-free animals make poor antibody and respond weakly to vaccines, showing the microbiome calibrates the whole systemic humoral response, not just the secretory IgA bathing the mucosa.
 - `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Some microbes turn carcinogenic: a dysbiotic flora enriched in Fusobacterium nucleatum and toxin-making bacteria fosters colorectal cancer, inflaming the mucosa and damaging DNA, while a fiber-fed, butyrate-rich community protects against it.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A gut-skin axis links the two surfaces: dysbiosis and a leaky gut feed inflammatory skin disease — acne, eczema, psoriasis, and rosacea — through immune and metabolite signals, which is why diet and probiotics are studied for the skin.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Gut bacteria recycle the body's estrogen: the estrobolome — microbial enzymes that deconjugate estrogens excreted in bile so they re-enter circulation — sets how much estrogen the body keeps, linking dysbiosis to breast cancer and menopausal health.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Microbes talk to the nervous system: bacterial metabolites and vagal signaling from the gut reach enteric and brain neurons, shaping mood, appetite and pain in the gut-brain axis that underlies the microbiome's effects on behavior.
+- `connects-to` → **[NASH](../nash/README.md)** — A leaky gut inflames the liver: dysbiosis lets bacterial endotoxin reach the liver through the portal vein, fueling the inflammation that turns fatty liver into NASH — the gut-liver axis behind much metabolic liver disease.
 
 ## Pathology
 
