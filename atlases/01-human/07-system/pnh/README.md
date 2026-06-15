@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "PNH clots by inflaming the endothelium: uncontrolled complement and free hemoglobin activate the vessel-lining cells and platelets, driving the unusual-site thromboses—like hepatic-vein Budd-Chiari—that are the disease's chief killer."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "PNH is diagnosed by flow cytometry: laser light excites fluorescent tags on blood cells, exposing the clone that has lost its CD55 and CD59 surface shields, the test that confirms the disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "PNH clots in dangerous places, including the brain: cerebral venous sinus thrombosis is a feared event of its complement-driven hypercoagulability, sometimes the first sign of the disease."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "Free hemoglobin in PNH drives clotting through von Willebrand factor: complement-injured endothelium releases ultralarge multimers that snag platelets, compounding the thrombosis that menaces these patients."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -243,6 +252,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — PNH also destroys blood in the spleen: once C5 blockers stop the intravascular lysis, red cells coated with complement C3 are instead cleared by spleen and liver macrophages, leaving a residual extravascular anemia.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PNH's name points to hydrogen ions: the classic dawn hemoglobinuria was long blamed on the mild acidosis of sleep, the drop in blood pH thought to tip complement into attacking the unprotected red cells overnight.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PNH clots by inflaming the endothelium: uncontrolled complement and free hemoglobin activate the vessel-lining cells and platelets, driving the unusual-site thromboses—like hepatic-vein Budd-Chiari—that are the disease's chief killer.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — PNH is diagnosed by flow cytometry: laser light excites fluorescent tags on blood cells, exposing the clone that has lost its CD55 and CD59 surface shields, the test that confirms the disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — PNH clots in dangerous places, including the brain: cerebral venous sinus thrombosis is a feared event of its complement-driven hypercoagulability, sometimes the first sign of the disease.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Free hemoglobin in PNH drives clotting through von Willebrand factor: complement-injured endothelium releases ultralarge multimers that snag platelets, compounding the thrombosis that menaces these patients.
 
 ---
 

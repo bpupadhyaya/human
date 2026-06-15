@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Prostate cancer recruits fibroblasts as accomplices: cancer-associated fibroblasts form the reactive stroma around tumor glands, secreting growth and remodeling signals that spur invasion—and the amount of reactive stroma predicts outcome."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Prostate cancer's bone metastases are unusually bone-forming: osteoblastic lesions lay down calcium-phosphate, so the invaded skeleton turns denser, not eaten away—the opposite of most cancers' bone disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Prostate cancer loves nerves: perineural invasion, tracking along nerve sheaths, is a hallmark route of spread out of the gland and a marker of aggressiveness read on the biopsy."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Even after castration the adrenal glands feed prostate cancer: they keep making androgens that fuel castration-resistant disease, which is why abiraterone blocks adrenal steroid synthesis."
 ---
 
 # Prostate Cancer
@@ -286,6 +295,9 @@ cross_links:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — The prostate is the body's zinc capital, and cancer abandons it: healthy prostate cells hoard zinc to block citrate breakdown, but malignant cells lose this zinc accumulation to fuel their metabolism—a metabolic switch unique to prostate cancer.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Advanced prostate cancer can shut down the kidneys: the enlarging tumor or its pelvic lymph nodes compress the ureters and bladder outlet, backing urine up into the kidneys (hydronephrosis) and causing post-renal failure.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Prostate cancer recruits fibroblasts as accomplices: cancer-associated fibroblasts form the reactive stroma around tumor glands, secreting growth and remodeling signals that spur invasion—and the amount of reactive stroma predicts outcome.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Prostate cancer's bone metastases are unusually bone-forming: osteoblastic lesions lay down calcium-phosphate, so the invaded skeleton turns denser, not eaten away—the opposite of most cancers' bone disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Prostate cancer loves nerves: perineural invasion, tracking along nerve sheaths, is a hallmark route of spread out of the gland and a marker of aggressiveness read on the biopsy.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Even after castration the adrenal glands feed prostate cancer: they keep making androgens that fuel castration-resistant disease, which is why abiraterone blocks adrenal steroid synthesis.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
