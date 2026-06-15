@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Cowden syndrome sprouts fatty tumors: patients commonly grow multiple lipomas, benign overgrowths of adipocytes, part of the hamartomatous excess that PTEN loss unleashes across tissues."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Cowden demands lifelong imaging surveillance: breast MRI and mammography, thyroid ultrasound and brain MRI screen the many organs its PTEN mutation threatens with tumors."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "PTEN hamartoma syndrome grows vascular lesions: arteriovenous and venous malformations of endothelial cells are part of Cowden's spectrum, alongside its other hamartomas."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Cowden carpets the gut with polyps: hamartomatous and other polyps stud the intestinal epithelium throughout the GI tract, raising colorectal cancer risk and prompting scope surveillance."
 ---
 
 # Cowden Syndrome
@@ -339,6 +348,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Cowden syndrome targets the iodine-trapping thyroid: nearly all patients develop goiters and benign nodules, and their lifetime thyroid cancer risk is high, so the gland that concentrates iodine is watched closely from childhood.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Cowden builds excess fibrous tissue: beyond the classic skin papules, the syndrome causes fibrocystic breast disease and fibromas, a tendency to lay down fibrous overgrowth wherever PTEN's brake is lost.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Cowden syndrome sprouts fatty tumors: patients commonly grow multiple lipomas, benign overgrowths of adipocytes, part of the hamartomatous excess that PTEN loss unleashes across tissues.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Cowden demands lifelong imaging surveillance: breast MRI and mammography, thyroid ultrasound and brain MRI screen the many organs its PTEN mutation threatens with tumors.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PTEN hamartoma syndrome grows vascular lesions: arteriovenous and venous malformations of endothelial cells are part of Cowden's spectrum, alongside its other hamartomas.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Cowden carpets the gut with polyps: hamartomatous and other polyps stud the intestinal epithelium throughout the GI tract, raising colorectal cancer risk and prompting scope surveillance.
 
 ---
 

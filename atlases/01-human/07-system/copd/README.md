@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "COPD is a body-wide inflammatory state driven by TNF-α: spilling from the inflamed lungs, this cytokine drives the muscle wasting and weight loss (cachexia) that worsen prognosis beyond the airways."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "COPD is imaged in X-ray photons: chest films show hyperinflated lungs and flattened diaphragms, and CT quantifies the emphysema, mapping where lung tissue has been destroyed."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "COPD damages the lung's vessels: hypoxia and inflammation injure endothelial cells, remodeling the pulmonary arteries into the pulmonary hypertension and cor pulmonale of advanced disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Chronic low oxygen in COPD drives the marrow: rising erythropoietin spurs it to overproduce red cells, the secondary polycythemia that thickens the blood of long-standing hypoxic patients."
 ---
 
 # COPD
@@ -310,6 +319,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Severe COPD can cloud the brain: as failing lungs retain carbon dioxide and drop oxygen, the rising CO2 causes confusion and drowsiness (CO2 narcosis), a danger during exacerbations and with over-oxygenation.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — COPD scars its small airways through fibroblasts: TGF-β activates these cells to lay down collagen around the bronchioles, narrowing and stiffening them in the airway remodeling that fixes the airflow limitation.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — COPD is a body-wide inflammatory state driven by TNF-α: spilling from the inflamed lungs, this cytokine drives the muscle wasting and weight loss (cachexia) that worsen prognosis beyond the airways.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — COPD is imaged in X-ray photons: chest films show hyperinflated lungs and flattened diaphragms, and CT quantifies the emphysema, mapping where lung tissue has been destroyed.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — COPD damages the lung's vessels: hypoxia and inflammation injure endothelial cells, remodeling the pulmonary arteries into the pulmonary hypertension and cor pulmonale of advanced disease.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Chronic low oxygen in COPD drives the marrow: rising erythropoietin spurs it to overproduce red cells, the secondary polycythemia that thickens the blood of long-standing hypoxic patients.
 
 ---
 
