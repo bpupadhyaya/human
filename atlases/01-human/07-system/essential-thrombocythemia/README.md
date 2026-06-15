@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "ET can scar into myelofibrosis: over years, reticulin and collagen fibrosis gradually replace the marrow, the feared post-ET transformation that brings cytopenias and splenomegaly."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows ET's overgrown platelet factory: the marrow swells with large, mature megakaryocytes with deeply lobulated nuclei, churning out the giant, abnormal platelets that flood the blood."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "ET can briefly blind: clumps of excess platelets sludge through the retinal microvessels, causing fleeting visual disturbances and amaurosis that warn of the disease's thrombotic risk."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney feels ET's high cell turnover: a surplus of uric acid from rapid platelet production crystallizes in the tubules toward gout and urate nephropathy, while microthrombi can impair renal blood flow."
 ---
 
 # Essential Thrombocythemia
@@ -289,6 +298,9 @@ Management:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — ET is confirmed under the microscope: the marrow biopsy shows clusters of enlarged, staghorn megakaryocytes, the clue that with JAK2 and CALR testing distinguishes it from reactive thrombocytosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — ET clots the gut's veins: splanchnic and mesenteric vein thrombosis can be the first sign, so an unprovoked abdominal-vein clot prompts testing for the JAK2 mutation behind the disease.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — ET can scar into myelofibrosis: over years, reticulin and collagen fibrosis gradually replace the marrow, the feared post-ET transformation that brings cytopenias and splenomegaly.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows ET's overgrown platelet factory: the marrow swells with large, mature megakaryocytes with deeply lobulated nuclei, churning out the giant, abnormal platelets that flood the blood.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ET can briefly blind: clumps of excess platelets sludge through the retinal microvessels, causing fleeting visual disturbances and amaurosis that warn of the disease's thrombotic risk.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney feels ET's high cell turnover: a surplus of uric acid from rapid platelet production crystallizes in the tubules toward gout and urate nephropathy, while microthrombi can impair renal blood flow.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

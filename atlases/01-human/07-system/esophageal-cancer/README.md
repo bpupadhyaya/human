@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells help police esophageal cancer: their innate killing of tumor cells shapes outcome, and reviving their dampened activity is part of the immunotherapy that now extends survival."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy separates the two esophageal cancers: squamous cell carcinoma keeps desmosomes and keratin bundles, while adenocarcinoma arising from Barrett's metaplasia forms mucin-filled glands with microvilli."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Esophageal cancer reaches the skeleton late: after seeding the liver and lungs, advanced disease metastasizes to the marrow-bearing bones, painful deposits that mark its widespread, incurable stage."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The colon can rebuild a lost esophagus: when surgery removes the cancerous esophagus, a segment of large intestine is sometimes transposed into the chest as a conduit to restore the path from mouth to stomach."
 ---
 
 # Esophageal Cancer
@@ -309,6 +318,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc deficiency is linked to esophageal squamous cancer: common in the high-incidence 'esophageal cancer belt,' low zinc impairs the lining's defense and repair, raising the risk of malignancy.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Esophageal adenocarcinoma grows from gut-type lining: chronic acid reflux turns the esophageal squamous epithelium into intestinal-type epithelium (Barrett's), the metaplastic step that precedes the cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help police esophageal cancer: their innate killing of tumor cells shapes outcome, and reviving their dampened activity is part of the immunotherapy that now extends survival.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy separates the two esophageal cancers: squamous cell carcinoma keeps desmosomes and keratin bundles, while adenocarcinoma arising from Barrett's metaplasia forms mucin-filled glands with microvilli.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Esophageal cancer reaches the skeleton late: after seeding the liver and lungs, advanced disease metastasizes to the marrow-bearing bones, painful deposits that mark its widespread, incurable stage.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The colon can rebuild a lost esophagus: when surgery removes the cancerous esophagus, a segment of large intestine is sometimes transposed into the chest as a conduit to restore the path from mouth to stomach.
 
 ---
 
