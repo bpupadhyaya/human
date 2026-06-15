@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells lurk in psoriatic skin: degranulating near nerves and vessels, they release mediators that amplify the early inflammation and itch, linking neurogenic triggers to the plaque."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the psoriatic plaque's hyperdrive: keratinocytes pile up far too fast with retained nuclei in the surface scale, and neutrophils collect into Munro microabscesses, the ultrastructure of runaway epidermal turnover."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Psoriasis can inflame the eye: it is associated with uveitis, conjunctivitis, and dry, scaly blepharitis of the lids, ocular involvement that parallels the immune attack on the skin and joints."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc matters to the psoriatic skin: levels often run low in the rapidly shedding epidermis, and because the mineral fuels skin repair and tempers inflammation, its deficiency can aggravate the plaques."
 ---
 
 # Psoriasis
@@ -286,6 +295,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Psoriasis itches and reacts through nerves: sensory peripheral-nerve fibers, fired by IL-31 and inflammation, carry the itch, and nerve injury can clear plaques in a denervated patch—evidence the skin's nerves help sustain the disease.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Psoriasis is more than skin-deep: its systemic inflammation accelerates atherosclerosis, so severe disease raises the risk of heart attack independently of the usual cardiovascular risk factors.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells lurk in psoriatic skin: degranulating near nerves and vessels, they release mediators that amplify the early inflammation and itch, linking neurogenic triggers to the plaque.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the psoriatic plaque's hyperdrive: keratinocytes pile up far too fast with retained nuclei in the surface scale, and neutrophils collect into Munro microabscesses, the ultrastructure of runaway epidermal turnover.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Psoriasis can inflame the eye: it is associated with uveitis, conjunctivitis, and dry, scaly blepharitis of the lids, ocular involvement that parallels the immune attack on the skin and joints.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc matters to the psoriatic skin: levels often run low in the rapidly shedding epidermis, and because the mineral fuels skin repair and tempers inflammation, its deficiency can aggravate the plaques.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

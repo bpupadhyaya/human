@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Even after castration the adrenal glands feed prostate cancer: they keep making androgens that fuel castration-resistant disease, which is why abiraterone blocks adrenal steroid synthesis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy unmasks prostate cancer's most lethal turn: when it transforms into a neuroendocrine cancer to escape hormone therapy, the cells fill with dense-core secretory granules — the ultrastructure that flags this treatment-resistant variant."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The treatment can wound the heart: androgen-deprivation therapy, the backbone of advanced prostate cancer care, raises the risk of metabolic syndrome, coronary disease, and cardiac events by stripping away protective testosterone."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Prostate cancer rarely reaches the brain, but when it does it signals trouble: the aggressive neuroendocrine and late castration-resistant forms can seed cerebral and dural metastases, a grave sign in end-stage disease."
 ---
 
 # Prostate Cancer
@@ -298,6 +307,9 @@ cross_links:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Prostate cancer's bone metastases are unusually bone-forming: osteoblastic lesions lay down calcium-phosphate, so the invaded skeleton turns denser, not eaten away—the opposite of most cancers' bone disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Prostate cancer loves nerves: perineural invasion, tracking along nerve sheaths, is a hallmark route of spread out of the gland and a marker of aggressiveness read on the biopsy.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Even after castration the adrenal glands feed prostate cancer: they keep making androgens that fuel castration-resistant disease, which is why abiraterone blocks adrenal steroid synthesis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy unmasks prostate cancer's most lethal turn: when it transforms into a neuroendocrine cancer to escape hormone therapy, the cells fill with dense-core secretory granules — the ultrastructure that flags this treatment-resistant variant.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The treatment can wound the heart: androgen-deprivation therapy, the backbone of advanced prostate cancer care, raises the risk of metabolic syndrome, coronary disease, and cardiac events by stripping away protective testosterone.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Prostate cancer rarely reaches the brain, but when it does it signals trouble: the aggressive neuroendocrine and late castration-resistant forms can seed cerebral and dural metastases, a grave sign in end-stage disease.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
