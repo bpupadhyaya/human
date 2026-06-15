@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Narcolepsy tends to add fat: orexin normally curbs appetite and lifts metabolism, so its loss shifts adipocytes toward storage, and weight gain and obesity are common in the disorder."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Narcolepsy lets REM sleep invade the eye while waking: dream imagery as hypnagogic hallucinations, paralysis on waking, and the rapid REM-onset eye movements timed in the multiple sleep latency test that confirms the diagnosis."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Losing orexin scrambles leptin's satiety signal: narcolepsy patients show blunted leptin signaling and gain weight despite eating less, a metabolic paradox tying the wake-promoting peptide to the body's fat-sensing hormone."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "Orexin neurons speak in glutamate: they co-release this excitatory transmitter to drive the arousal circuits, so when the orexin cells die the loss of their glutamatergic push helps collapse the boundary between waking and sleep."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -282,6 +291,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Narcolepsy is hard on the heart: fragmented sleep and blunted nighttime blood-pressure dipping, with the autonomic swings of REM intrusion, raise long-term cardiovascular risk in these patients.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light still helps steady narcolepsy's broken sleep-wake switch: photons reaching the retina reinforce the circadian arousal signal, so bright light and good light hygiene support wakefulness alongside medication.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Narcolepsy tends to add fat: orexin normally curbs appetite and lifts metabolism, so its loss shifts adipocytes toward storage, and weight gain and obesity are common in the disorder.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Narcolepsy lets REM sleep invade the eye while waking: dream imagery as hypnagogic hallucinations, paralysis on waking, and the rapid REM-onset eye movements timed in the multiple sleep latency test that confirms the diagnosis.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Losing orexin scrambles leptin's satiety signal: narcolepsy patients show blunted leptin signaling and gain weight despite eating less, a metabolic paradox tying the wake-promoting peptide to the body's fat-sensing hormone.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Orexin neurons speak in glutamate: they co-release this excitatory transmitter to drive the arousal circuits, so when the orexin cells die the loss of their glutamatergic push helps collapse the boundary between waking and sleep.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

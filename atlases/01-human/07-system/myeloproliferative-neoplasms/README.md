@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Polycythemia overrides the body's oxygen control: normally low oxygen raises erythropoietin to make red cells, but the JAK2 clone churns them out regardless, thickening the blood independent of oxygen need."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Radioactive phosphorus once tamed these clones with electrons: P-32 concentrates in marrow and emits beta particles — fast electrons — that suppress the overactive blood-cell factory, a historic polycythemia treatment now reserved for select older patients."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Myeloproliferative disease can choke the lungs: extramedullary hematopoiesis and microvascular thrombosis raise pulmonary pressures, so pulmonary hypertension and clots are recognized complications, especially in myelofibrosis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney bears the brunt of high cell turnover: the massive production and breakdown of blood cells floods the blood with uric acid, which crystallizes in the tubules and can drive urate nephropathy and stones."
 ---
 
 # Myeloproliferative Neoplasms
@@ -303,6 +312,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MPNs itch through the skin: aquagenic pruritus—intense itching minutes after a warm shower—is a classic symptom, especially of polycythemia vera, sometimes appearing before the diagnosis.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — MPN itching is driven by mast cells: the expanded clone's basophils and mast cells release histamine, which fires skin itch nerves to cause the aquagenic pruritus that torments these patients.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Polycythemia overrides the body's oxygen control: normally low oxygen raises erythropoietin to make red cells, but the JAK2 clone churns them out regardless, thickening the blood independent of oxygen need.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Radioactive phosphorus once tamed these clones with electrons: P-32 concentrates in marrow and emits beta particles — fast electrons — that suppress the overactive blood-cell factory, a historic polycythemia treatment now reserved for select older patients.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myeloproliferative disease can choke the lungs: extramedullary hematopoiesis and microvascular thrombosis raise pulmonary pressures, so pulmonary hypertension and clots are recognized complications, especially in myelofibrosis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney bears the brunt of high cell turnover: the massive production and breakdown of blood cells floods the blood with uric acid, which crystallizes in the tubules and can drive urate nephropathy and stones.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
