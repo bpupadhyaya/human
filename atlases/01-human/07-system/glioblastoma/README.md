@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Glioblastoma's chemotherapy hits the marrow: temozolomide's main toxicity is myelosuppression, dropping platelets and blood counts, the limit on how much of the drug can be given."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows glioblastoma's defining features: tumor cells crowding in palisades around ribbons of necrosis, and the bizarre glomeruloid tufts of microvascular proliferation, hallmarks that separate it from lower-grade gliomas."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Glioblastoma almost never leaves the brain, but rarely it does: extracranial metastases to the lung, bone, and lymph nodes — sometimes seeded by surgery or a shunt — are a rare curiosity of an otherwise CNS-confined cancer."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Glioblastoma steals vision as it grows: invading the optic pathways and raising pressure in the skull, it cuts out fields of sight and swells the optic disc, neurological signs that often bring the patient in."
 ---
 
 # Glioblastoma
@@ -301,6 +310,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Glioblastoma hoards iron to grow and may die by ferroptosis: its high iron demand fuels proliferation, so triggering iron-dependent cell death is an emerging strategy against this lethal tumor.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The mesenchymal subtype of glioblastoma turns fibroblast-like: it takes on an invasive, scar-cell character, and perivascular fibroblasts help build the treatment-resistant niche that shields it.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Glioblastoma's chemotherapy hits the marrow: temozolomide's main toxicity is myelosuppression, dropping platelets and blood counts, the limit on how much of the drug can be given.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows glioblastoma's defining features: tumor cells crowding in palisades around ribbons of necrosis, and the bizarre glomeruloid tufts of microvascular proliferation, hallmarks that separate it from lower-grade gliomas.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Glioblastoma almost never leaves the brain, but rarely it does: extracranial metastases to the lung, bone, and lymph nodes — sometimes seeded by surgery or a shunt — are a rare curiosity of an otherwise CNS-confined cancer.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Glioblastoma steals vision as it grows: invading the optic pathways and raising pressure in the skull, it cuts out fields of sight and swells the optic disc, neurological signs that often bring the patient in.
 
 ---
 

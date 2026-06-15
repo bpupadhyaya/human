@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Gorlin sprouts cysts beyond the jaw: mesenteric and other abdominal cysts occur alongside its odontogenic keratocysts, part of the syndrome's broad tendency to form benign cavities."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads Gorlin's lesions: the palisaded basaloid cells of its many basal cell carcinomas and the thin, corrugated lining of its odontogenic keratocysts both reflect the runaway Hedgehog signaling that PTCH1 loss unleashes."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Gorlin warps the bones: odontogenic keratocysts hollow out the jaw, and bifid ribs, vertebral anomalies, and a calcified falx betray the syndrome on a skeletal survey of the marrow-bearing bones."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Gorlin's skeletal defects reach the chest: bifid, splayed, or fused ribs deform the thoracic cage around the lungs, one of the bony anomalies that, with jaw cysts and skin signs, point to the diagnosis."
 ---
 
 # Gorlin Syndrome
@@ -282,6 +291,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Gorlin's brain tumor is medulloblastoma: it arises from cerebellar granule-neuron precursors that depend on the very Hedgehog signal the syndrome unleashes, so children are screened with brain MRI.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Unleashed Hedgehog drives Gorlin's tumors through cyclin D1: the pathway switches on this cell-cycle gene, pushing basal cells and granule precursors to proliferate into BCCs and medulloblastomas.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Gorlin sprouts cysts beyond the jaw: mesenteric and other abdominal cysts occur alongside its odontogenic keratocysts, part of the syndrome's broad tendency to form benign cavities.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads Gorlin's lesions: the palisaded basaloid cells of its many basal cell carcinomas and the thin, corrugated lining of its odontogenic keratocysts both reflect the runaway Hedgehog signaling that PTCH1 loss unleashes.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Gorlin warps the bones: odontogenic keratocysts hollow out the jaw, and bifid ribs, vertebral anomalies, and a calcified falx betray the syndrome on a skeletal survey of the marrow-bearing bones.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Gorlin's skeletal defects reach the chest: bifid, splayed, or fused ribs deform the thoracic cage around the lungs, one of the bony anomalies that, with jaw cysts and skin signs, point to the diagnosis.
 
 ---
 
