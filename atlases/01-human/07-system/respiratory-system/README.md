@@ -126,6 +126,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "The lungs and right heart are one circuit: the right ventricle pumps all the blood through the lungs for gas exchange, so chronic lung disease that stiffens this circuit overloads and fails the right heart (cor pulmonale)."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "The lungs are read in X-ray photons: chest radiographs and CT reveal pneumonia, tumors, fibrosis and collapse, the first window into respiratory disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Scarring stiffens the lungs: pulmonary fibrosis thickens the alveolar walls so oxygen can't cross and the lungs lose their stretch, the end-stage of many chronic lung diseases."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Lungs and kidneys jointly guard blood pH: the lungs blow off acid as CO2 while the kidneys excrete it, so each compensates when the other fails, the core of acid-base balance."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -247,6 +256,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Nitrogen](../../02-atomic/nitrogen/README.md): Air is mostly nitrogen, and the lungs must reckon with it: this inert gas makes up most of each breath without being used, but under pressure it dissolves into blood and, on fast ascent from diving, bubbles out to cause decompression sickness.
 - **Connects-to** → [Neutrophil](../../04-cellular/neutrophil/README.md): Neutrophils both defend and damage the airways: they swarm into infected or inflamed lungs to kill microbes, but in COPD, cystic fibrosis, and ARDS their flood of enzymes also digests lung tissue, driving chronic damage.
 - **Connects-to** → [Heart](../../06-organ/heart/README.md): The lungs and right heart are one circuit: the right ventricle pumps all the blood through the lungs for gas exchange, so chronic lung disease that stiffens this circuit overloads and fails the right heart (cor pulmonale).
+- **Connects-to** → [Photon](../../01-subatomic/photon/README.md): The lungs are read in X-ray photons: chest radiographs and CT reveal pneumonia, tumors, fibrosis and collapse, the first window into respiratory disease.
+- **Connects-to** → [Fibrosis](../../05-tissue/fibrosis/README.md): Scarring stiffens the lungs: pulmonary fibrosis thickens the alveolar walls so oxygen can't cross and the lungs lose their stretch, the end-stage of many chronic lung diseases.
+- **Connects-to** → [Kidney](../../06-organ/kidney/README.md): Lungs and kidneys jointly guard blood pH: the lungs blow off acid as CO2 while the kidneys excrete it, so each compensates when the other fails, the core of acid-base balance.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
