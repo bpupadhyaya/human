@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "CML can scar its marrow: reticulin and collagen fibrosis increase as the disease progresses and predict a worse response, blurring the line toward myelofibrosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows CML's overflowing granulocyte line: the marrow and blood teem with neutrophils at every stage of maturation plus a telltale rise in basophils, the expanded myeloid spectrum that the BCR-ABL kinase drives."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "A sky-high white count can clog the lungs: in CML's accelerated phase, leukostasis from the sheer mass of circulating cells sludges the pulmonary vessels, causing breathlessness and respiratory distress."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "CML can surface on the skin: leukemia cutis deposits tumor cells in the skin, and the neutrophilic Sweet syndrome can erupt with fever and tender plaques, sometimes heralding transformation to blast crisis."
 ---
 
 # Chronic Myeloid Leukemia
@@ -284,6 +293,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CML's high cell turnover spills purines and phosphate: hyperuricemia causes the gout it is known for, and tumor lysis at blast crisis or on treatment releases phosphate and potassium.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — CML's huge white-cell mass clogs the eye's vessels: leukostasis causes retinal hemorrhages and engorged veins, visible on fundoscopy as a warning sign of dangerous hyperleukocytosis.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — CML can scar its marrow: reticulin and collagen fibrosis increase as the disease progresses and predict a worse response, blurring the line toward myelofibrosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CML's overflowing granulocyte line: the marrow and blood teem with neutrophils at every stage of maturation plus a telltale rise in basophils, the expanded myeloid spectrum that the BCR-ABL kinase drives.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — A sky-high white count can clog the lungs: in CML's accelerated phase, leukostasis from the sheer mass of circulating cells sludges the pulmonary vessels, causing breathlessness and respiratory distress.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CML can surface on the skin: leukemia cutis deposits tumor cells in the skin, and the neutrophilic Sweet syndrome can erupt with fever and tender plaques, sometimes heralding transformation to blast crisis.
 
 ---
 

@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "CLL proliferates in lymph-node centers: the tumor cells gather in 'proliferation centers' within nodes, fed by helper T-cell signals, the engine that resists therapies aimed only at circulating cells."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows CLL's fragile cells: small mature lymphocytes with clumped chromatin so delicate they rupture on the slide into the 'smudge cells' that are a clue to the diagnosis on a blood smear."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "CLL leaves the lungs defenseless: by crippling normal antibody production it brings recurrent pneumonias, and leukemic cells can themselves infiltrate the lung, infection being a leading cause of death."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Potent new CLL drugs can trigger tumor lysis: venetoclax kills the cells so fast that phosphorus and other contents spill into the blood, so the drug is started in careful dose steps to avoid the metabolic crisis."
 ---
 
 # CLL
@@ -284,6 +293,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging stages and watches CLL: CT photons measure the enlarged lymph nodes and spleen, and a PET scan flags Richter's transformation into aggressive lymphoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CLL's venetoclax can trigger tumor lysis: the BCL-2 drug kills cells so fast that potassium and phosphate flood the blood, so the dose is ramped up slowly to avoid the metabolic crisis.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — CLL proliferates in lymph-node centers: the tumor cells gather in 'proliferation centers' within nodes, fed by helper T-cell signals, the engine that resists therapies aimed only at circulating cells.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CLL's fragile cells: small mature lymphocytes with clumped chromatin so delicate they rupture on the slide into the 'smudge cells' that are a clue to the diagnosis on a blood smear.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — CLL leaves the lungs defenseless: by crippling normal antibody production it brings recurrent pneumonias, and leukemic cells can themselves infiltrate the lung, infection being a leading cause of death.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Potent new CLL drugs can trigger tumor lysis: venetoclax kills the cells so fast that phosphorus and other contents spill into the blood, so the drug is started in careful dose steps to avoid the metabolic crisis.
 
 ---
 
