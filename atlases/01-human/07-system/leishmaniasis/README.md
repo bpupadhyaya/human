@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/small-intestine
     relation: connects-to
     note: "In the immunocompromised the gut joins in: HIV-associated visceral leishmaniasis can colonize the small-bowel mucosa, the amastigote-laden macrophages causing diarrhea and malabsorption as the parasite spreads beyond its usual organs."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "CD8 T cells cut both ways in leishmaniasis: their IFN-γ helps macrophages kill the parasite, but in chronic and post-kala-azar dermal disease their cytotoxic attack drives tissue damage, so they protect and injure depending on the setting."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Visceral leishmaniasis runs hot with IL-6: the cytokine surge fuels the polyclonal B-cell activation and hypergammaglobulinemia of kala-azar, and high IL-6 marks the systemic inflammation and poor outcome of severe disease."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "Kala-azar mimics marrow failure: fever with pancytopenia and a big spleen makes visceral leishmaniasis a key tropical differential of aplastic anemia, but here the marrow teems with parasitized macrophages rather than standing empty."
 ---
 
 # Leishmaniasis
@@ -301,3 +310,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The parasite turns complement into a Trojan horse: C3b coats the promastigote and, instead of killing it, ushers it through complement receptors into the macrophage where it safely multiplies — an elegant subversion of innate immunity.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Healing and destruction both scar: cutaneous lesions resolve through fibroblast-laid collagen into disfiguring marks, while mucocutaneous disease erodes the soft tissue and cartilage of the nose and mouth into devastating deformity.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — In the immunocompromised the gut joins in: HIV-associated visceral leishmaniasis can colonize the small-bowel mucosa, the amastigote-laden macrophages causing diarrhea and malabsorption as the parasite spreads beyond its usual organs.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — CD8 T cells cut both ways in leishmaniasis: their IFN-γ helps macrophages kill the parasite, but in chronic and post-kala-azar dermal disease their cytotoxic attack drives tissue damage, so they protect and injure depending on the setting.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Visceral leishmaniasis runs hot with IL-6: the cytokine surge fuels the polyclonal B-cell activation and hypergammaglobulinemia of kala-azar, and high IL-6 marks the systemic inflammation and poor outcome of severe disease.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — Kala-azar mimics marrow failure: fever with pancytopenia and a big spleen makes visceral leishmaniasis a key tropical differential of aplastic anemia, but here the marrow teems with parasitized macrophages rather than standing empty.

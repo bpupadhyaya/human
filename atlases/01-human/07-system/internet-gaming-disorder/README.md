@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Compulsive play crowds out intimacy: heavy gaming is linked to lower libido, neglected relationships, and, in adolescents, disrupted psychosocial and sexual development as virtual rewards displace real-world connection."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Gaming raids the brain's wakefulness switch: orexin neurons that drive arousal and reward salience keep players locked in late-night sessions, and the lost sleep that follows blunts orexin signaling into daytime fatigue and worse impulse control."
+  - target: 01-human/07-system/opioid-use-disorder
+    relation: connects-to
+    note: "It sits on the same addiction spectrum: compulsive gaming engages the endogenous opioid reward circuitry that opioids hijack chemically, and the two often co-occur, sharing craving, tolerance, and loss of control as a behavioral-versus-substance pair."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Hours of sedentary play feed metabolic disease: prolonged sitting, snacking, and disrupted sleep promote weight gain and insulin resistance, so heavy gaming is increasingly tied to the rising risk of type 2 diabetes in young people."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -356,6 +365,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A marathon session can endanger the kidney: case reports describe rhabdomyolysis and dehydration from days of nonstop play flooding the blood with myoglobin and triggering acute kidney injury, the rare extreme of the disorder's immobility.
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — Gaming hijacks the brain's reward chemistry: alongside dopamine, the endocannabinoid system tunes the craving and reinforcement circuits, the same machinery of motivation and pleasure that substance addictions exploit.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Compulsive play crowds out intimacy: heavy gaming is linked to lower libido, neglected relationships, and, in adolescents, disrupted psychosocial and sexual development as virtual rewards displace real-world connection.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Gaming raids the brain's wakefulness switch: orexin neurons that drive arousal and reward salience keep players locked in late-night sessions, and the lost sleep that follows blunts orexin signaling into daytime fatigue and worse impulse control.
+- `connects-to` → **[Opioid Use Disorder](../opioid-use-disorder/README.md)** — It sits on the same addiction spectrum: compulsive gaming engages the endogenous opioid reward circuitry that opioids hijack chemically, and the two often co-occur, sharing craving, tolerance, and loss of control as a behavioral-versus-substance pair.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Hours of sedentary play feed metabolic disease: prolonged sitting, snacking, and disrupted sleep promote weight gain and insulin resistance, so heavy gaming is increasingly tied to the rising risk of type 2 diabetes in young people.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
