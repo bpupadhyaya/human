@@ -122,6 +122,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The stomach is a hormone gland too: it secretes ghrelin, the hunger hormone that signals the brain to eat, making the gut a full member of the endocrine system beyond the classic glands."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus reins in the hormonal stress axis: dense in cortisol receptors, it provides the negative feedback that switches off the HPA axis, so chronic stress that damages it lets cortisol run high."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The endocrine system begins in neurons: hypothalamic neurosecretory cells release hormones that command the pituitary, and the adrenal medulla is itself made of modified neurons, blurring nerve and gland."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "The endocrine system guards sodium: aldosterone from the adrenal cortex tells the kidney to retain salt and water, the hormonal control of blood volume and pressure."
 ---
 
 # Endocrine System
@@ -317,6 +326,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — The endocrine system runs partly on zinc: pancreatic beta cells store insulin in zinc-containing crystals, and the metal is needed to make and stabilize the hormone, tying a trace element to blood-sugar control.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light tunes the endocrine clock through photons: light striking the eye signals the pineal gland to halt melatonin by day and release it by night, so the sun sets the hormonal rhythm of the whole body.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach is a hormone gland too: it secretes ghrelin, the hunger hormone that signals the brain to eat, making the gut a full member of the endocrine system beyond the classic glands.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus reins in the hormonal stress axis: dense in cortisol receptors, it provides the negative feedback that switches off the HPA axis, so chronic stress that damages it lets cortisol run high.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The endocrine system begins in neurons: hypothalamic neurosecretory cells release hormones that command the pituitary, and the adrenal medulla is itself made of modified neurons, blurring nerve and gland.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The endocrine system guards sodium: aldosterone from the adrenal cortex tells the kidney to retain salt and water, the hormonal control of blood volume and pressure.
 
 ## Pathology
 

@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Esophageal cancer recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build new blood supply, fueling invasion and spread of an already aggressive cancer."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc deficiency is linked to esophageal squamous cancer: common in the high-incidence 'esophageal cancer belt,' low zinc impairs the lining's defense and repair, raising the risk of malignancy."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Esophageal adenocarcinoma grows from gut-type lining: chronic acid reflux turns the esophageal squamous epithelium into intestinal-type epithelium (Barrett's), the metaplastic step that precedes the cancer."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help police esophageal cancer: their innate killing of tumor cells shapes outcome, and reviving their dampened activity is part of the immunotherapy that now extends survival."
 ---
 
 # Esophageal Cancer
@@ -297,6 +306,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency can seed esophageal cancer: chronic lack of iron causes Plummer-Vinson webs in the upper esophagus, a recognized precursor to squamous cell carcinoma, so the metal's absence raises cancer risk.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Esophageal cancer chokes the gullet with fibrosis: the tumor's dense desmoplastic stroma and the scarring from radiation stiffen and narrow the esophagus, worsening the dysphagia that defines the disease.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Esophageal cancer recruits endothelial cells to grow: VEGF from the tumor drives these vessel-lining cells to build new blood supply, fueling invasion and spread of an already aggressive cancer.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc deficiency is linked to esophageal squamous cancer: common in the high-incidence 'esophageal cancer belt,' low zinc impairs the lining's defense and repair, raising the risk of malignancy.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Esophageal adenocarcinoma grows from gut-type lining: chronic acid reflux turns the esophageal squamous epithelium into intestinal-type epithelium (Barrett's), the metaplastic step that precedes the cancer.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help police esophageal cancer: their innate killing of tumor cells shapes outcome, and reviving their dampened activity is part of the immunotherapy that now extends survival.
 
 ---
 
