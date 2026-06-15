@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Atherosclerotic plaques summon VEGF to grow vessels: as a plaque thickens it turns hypoxic and releases VEGF, sprouting fragile microvessels that bleed into the plaque and destabilize it, raising rupture risk."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Atherosclerosis is scored by imaging: a CT coronary calcium scan in X-ray photons quantifies plaque burden to predict risk, and angiography maps the narrowings that threaten flow."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The plaque's foam cells come from the marrow: it supplies the monocytes that invade the artery wall, and age-related clonal mutations in marrow cells (clonal hematopoiesis) independently accelerate atherosclerosis."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver sets the stage for atherosclerosis: it makes and clears LDL cholesterol, so it is where statins act to lower the lipid that builds the plaque."
 ---
 
 # Atherosclerosis
@@ -281,6 +290,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Atherosclerosis lives or dies by its fibrous cap: smooth-muscle cells lay down collagen to wall off the fatty core, and when this fibrous scar thins and ruptures, the exposed core triggers the clot behind heart attacks.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Atherosclerosis chokes the brain's arteries: plaque in the carotid and cerebral vessels throws clots or narrows flow, causing ischemic strokes and contributing to vascular cognitive decline.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Atherosclerotic plaques summon VEGF to grow vessels: as a plaque thickens it turns hypoxic and releases VEGF, sprouting fragile microvessels that bleed into the plaque and destabilize it, raising rupture risk.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Atherosclerosis is scored by imaging: a CT coronary calcium scan in X-ray photons quantifies plaque burden to predict risk, and angiography maps the narrowings that threaten flow.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The plaque's foam cells come from the marrow: it supplies the monocytes that invade the artery wall, and age-related clonal mutations in marrow cells (clonal hematopoiesis) independently accelerate atherosclerosis.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver sets the stage for atherosclerosis: it makes and clears LDL cholesterol, so it is where statins act to lower the lipid that builds the plaque.
 
 ---
 

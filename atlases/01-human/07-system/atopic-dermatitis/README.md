@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Eczema is tied to the gut: through the gut-skin axis, dysbiosis and food sensitization in the large intestine shape the atopic march, linking infant eczema to later food allergy and asthma."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Atopic dermatitis itches through nerves: sensitized peripheral nerve fibers, fired by IL-31 and inflammation, drive the relentless itch-scratch cycle that defines the disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Atopic dermatitis often begins the atopic march: the same Th2 allergy that breaks the skin barrier later inflames the lungs, so infant eczema predicts childhood asthma."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts thicken chronic eczema: in lichenified skin they lay down extra collagen in response to persistent scratching and inflammation, producing the leathery, deeply lined plaques."
 ---
 
 # Atopic Dermatitis
@@ -282,6 +291,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light can heal eczema: narrowband UVB phototherapy delivers controlled photons that calm the overactive skin immune cells and itch, a mainstay for widespread atopic dermatitis, while sunlight also makes vitamin D.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Atopic dermatitis often inflames the eyes: eyelid eczema and atopic keratoconjunctivitis are common, and the biologic dupilumab can itself cause conjunctivitis, so eye care is part of managing severe disease.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Eczema is tied to the gut: through the gut-skin axis, dysbiosis and food sensitization in the large intestine shape the atopic march, linking infant eczema to later food allergy and asthma.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Atopic dermatitis itches through nerves: sensitized peripheral nerve fibers, fired by IL-31 and inflammation, drive the relentless itch-scratch cycle that defines the disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Atopic dermatitis often begins the atopic march: the same Th2 allergy that breaks the skin barrier later inflames the lungs, so infant eczema predicts childhood asthma.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts thicken chronic eczema: in lichenified skin they lay down extra collagen in response to persistent scratching and inflammation, producing the leathery, deeply lined plaques.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
