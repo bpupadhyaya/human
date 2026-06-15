@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/05-tissue/hippocampus
     relation: connects-to
     note: "NMO can reach the memory circuits: aquaporin-4 is dense in the hippocampus, and some patients develop cognitive impairment and limbic lesions, widening the disease beyond the optic nerve and spinal cord it is named for."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "When astrocytes die, microglia take over the damage: AQP4-antibody attack strips away astrocytes, and the reactive microglia that move in pour out inflammatory mediators that injure neurons and oligodendrocytes in the secondary wave of an NMO lesion."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "NMO is a B-cell disease fed by BAFF: this survival cytokine keeps alive the plasmablasts that pump out aquaporin-4 antibody, so high BAFF marks active disease and B-cell-targeted therapy is a mainstay."
+  - target: 01-human/07-system/rheumatoid-arthritis
+    relation: connects-to
+    note: "NMO travels with systemic autoimmunity: patients carry higher rates of coexisting diseases like rheumatoid arthritis, reflecting a shared autoimmune diathesis and overlapping B-cell- and IL-6-targeted treatments."
 ---
 
 # NMOSD
@@ -361,6 +370,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cord lesions sever the bowel's controls: NMO's transverse myelitis disrupts the spinal pathways to the rectum and bladder, leaving neurogenic bowel and bladder dysfunction — constipation, incontinence, and retention — among its lasting disabilities.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can stir NMO, unlike MS: relapse risk rises in the months after delivery, and active disease threatens the pregnancy, so timing conception and choosing pregnancy-safe immunotherapy are central to managing affected women.
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — NMO can reach the memory circuits: aquaporin-4 is dense in the hippocampus, and some patients develop cognitive impairment and limbic lesions, widening the disease beyond the optic nerve and spinal cord it is named for.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — When astrocytes die, microglia take over the damage: AQP4-antibody attack strips away astrocytes, and the reactive microglia that move in pour out inflammatory mediators that injure neurons and oligodendrocytes in the secondary wave of an NMO lesion.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — NMO is a B-cell disease fed by BAFF: this survival cytokine keeps alive the plasmablasts that pump out aquaporin-4 antibody, so high BAFF marks active disease and B-cell-targeted therapy is a mainstay.
+- `connects-to` → **[Rheumatoid Arthritis](../rheumatoid-arthritis/README.md)** — NMO travels with systemic autoimmunity: patients carry higher rates of coexisting diseases like rheumatoid arthritis, reflecting a shared autoimmune diathesis and overlapping B-cell- and IL-6-targeted treatments.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

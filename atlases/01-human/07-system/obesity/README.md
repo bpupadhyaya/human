@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/major-depressive-disorder
     relation: connects-to
     note: "Weight and mood feed each other: obesity and depression each raise the risk of the other through shared inflammation, cortisol, and inactivity, and several psychiatric drugs add weight — a loop that makes treating either alone harder."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Fat is an inflammatory organ: enlarged adipocytes and their macrophages secrete IL-6 into the blood, driving the liver's C-reactive protein and the insulin resistance that links obesity to diabetes and heart disease."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Inflammation in fat starts with T cells: CD8 cytotoxic T cells infiltrate expanding adipose tissue early and recruit the macrophages that sustain the chronic low-grade inflammation of obesity."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "Excess weight crystallizes in the joints: obesity raises uric acid through insulin resistance and higher turnover, so it is a leading and reversible risk factor for gout and its painful attacks."
 ---
 
 # Obesity
@@ -351,6 +360,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is checked in every weight workup: hypothyroidism slows metabolism and adds weight, so it is screened before blaming lifestyle, and obesity in turn nudges thyroid hormone levels — a two-way tie worth untangling.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Fiber is a quiet ally against weight: it slows gastric emptying and feeds satiety-signaling gut bacteria, so a high-fiber diet curbs intake and is a cornerstone of the dietary pattern that, with activity, treats obesity.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Weight and mood feed each other: obesity and depression each raise the risk of the other through shared inflammation, cortisol, and inactivity, and several psychiatric drugs add weight — a loop that makes treating either alone harder.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Fat is an inflammatory organ: enlarged adipocytes and their macrophages secrete IL-6 into the blood, driving the liver's C-reactive protein and the insulin resistance that links obesity to diabetes and heart disease.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Inflammation in fat starts with T cells: CD8 cytotoxic T cells infiltrate expanding adipose tissue early and recruit the macrophages that sustain the chronic low-grade inflammation of obesity.
+- `connects-to` → **[Gout](../gout/README.md)** — Excess weight crystallizes in the joints: obesity raises uric acid through insulin resistance and higher turnover, so it is a leading and reversible risk factor for gout and its painful attacks.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
