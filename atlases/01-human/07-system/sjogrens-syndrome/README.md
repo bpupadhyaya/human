@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/germinal-center
     relation: connects-to
     note: "Sjogren's builds germinal centers where they don't belong: its inflamed salivary glands grow ectopic germinal centers, chronic B-cell factories that explain the syndrome's notable risk of MALT lymphoma."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons gauge Sjogren's dryness at its source: salivary gland ultrasound shows the patchy, pitted glands, and scintigraphy times how sluggishly they take up and release tracer — imaging that documents the failing secretory tissue behind the dry mouth."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Sjogren's is a disease of all exocrine glands, the pancreas included: the same lymphocytic attack that dries the mouth and eyes can scar the pancreas, causing exocrine insufficiency and overlapping with autoimmune pancreatitis."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D runs low in Sjogren's and seems to matter: deficiency is common and tracks with the peripheral neuropathy and the lymphoma risk that mark more severe disease, hinting at the vitamin's role in restraining the autoimmunity."
 ---
 
 # Sjögren's Syndrome
@@ -297,6 +306,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Sjogren's acidifies the blood through the kidney: its attack on the renal tubules causes distal renal tubular acidosis—a failure to excrete hydrogen ions—so acid builds up despite normal lungs.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Sjogren's dries and inflames the skin: beyond dry eyes and mouth, it parches the skin and can cause a cutaneous small-vessel vasculitis with palpable purpura, part of its systemic reach.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Sjogren's builds germinal centers where they don't belong: its inflamed salivary glands grow ectopic germinal centers, chronic B-cell factories that explain the syndrome's notable risk of MALT lymphoma.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons gauge Sjogren's dryness at its source: salivary gland ultrasound shows the patchy, pitted glands, and scintigraphy times how sluggishly they take up and release tracer — imaging that documents the failing secretory tissue behind the dry mouth.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Sjogren's is a disease of all exocrine glands, the pancreas included: the same lymphocytic attack that dries the mouth and eyes can scar the pancreas, causing exocrine insufficiency and overlapping with autoimmune pancreatitis.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D runs low in Sjogren's and seems to matter: deficiency is common and tracks with the peripheral neuropathy and the lymphoma risk that mark more severe disease, hinting at the vitamin's role in restraining the autoimmunity.
 
 ---
 

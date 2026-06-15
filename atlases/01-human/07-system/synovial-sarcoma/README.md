@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Synovial sarcoma weaves a fibrous stroma: its spindle-cell component lays down dense collagen in the biphasic tumor, the firm fibrous tissue that, with epithelial nests, defines its histology."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy exposes synovial sarcoma's split personality: alongside the spindle cells sit true epithelial cells joined by desmosomes, sprouting microvilli into gland-like lumina over a basal lamina — the ultrastructure of its biphasic histology."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Synovial sarcoma can invade the skeleton: though it favors the lungs, late disease seeds bone and the marrow within, and tumors abutting a joint erode the neighboring bone as they grow."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Rarely synovial sarcoma is born in the kidney itself: primary renal synovial sarcoma, carrying the same SS18 fusion, is a recognized aggressive entity that masquerades as a more common kidney tumor until molecular testing reveals it."
 ---
 
 # Synovial Sarcoma
@@ -285,6 +294,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Synovial sarcoma sometimes calcifies: foci of calcium deposit within the tumor, and heavily calcified synovial sarcomas tend to carry a notably better prognosis than non-calcified ones.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Synovial sarcoma can spread to the liver: though it favors the lungs, hematogenous metastasis seeds the liver and other organs in advanced disease, marking the shift to systemic treatment.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Synovial sarcoma weaves a fibrous stroma: its spindle-cell component lays down dense collagen in the biphasic tumor, the firm fibrous tissue that, with epithelial nests, defines its histology.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy exposes synovial sarcoma's split personality: alongside the spindle cells sit true epithelial cells joined by desmosomes, sprouting microvilli into gland-like lumina over a basal lamina — the ultrastructure of its biphasic histology.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Synovial sarcoma can invade the skeleton: though it favors the lungs, late disease seeds bone and the marrow within, and tumors abutting a joint erode the neighboring bone as they grow.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Rarely synovial sarcoma is born in the kidney itself: primary renal synovial sarcoma, carrying the same SS18 fusion, is a recognized aggressive entity that masquerades as a more common kidney tumor until molecular testing reveals it.
 
 ---
 
