@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Thrombophilia can infarct the adrenal glands: thrombosis of their veins triggers hemorrhagic adrenal infarction, which can precipitate life-threatening adrenal failure—a rare but lethal unusual-site complication."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Confirming thrombophilia's clots relies on imaging: CT angiography and lung scans read in X-ray photons locate the deep-vein thromboses and pulmonary emboli that prompt a hypercoagulable workup."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Red cells thicken thrombophilic blood: in polycythemia and sickle cell disease, excess or misshapen erythrocytes raise viscosity and slow flow, promoting the clotting these prothrombotic states are known for."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Some thrombophilias are born in the bone marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells that clot readily, so marrow output itself becomes a cause of thrombosis."
 ---
 
 # Inherited Thrombophilia
@@ -318,6 +327,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Thrombophilia can clot the kidney's veins: renal vein thrombosis is a classic unusual-site clot, abruptly causing flank pain, blood in the urine, and swelling as the kidney's venous drainage is blocked.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Thrombophilia drives clots in the splanchnic veins: thrombosis of the splenic and portal veins draining the spleen and gut is a hallmark unusual-site event, causing splenomegaly and portal hypertension.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Thrombophilia can infarct the adrenal glands: thrombosis of their veins triggers hemorrhagic adrenal infarction, which can precipitate life-threatening adrenal failure—a rare but lethal unusual-site complication.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Confirming thrombophilia's clots relies on imaging: CT angiography and lung scans read in X-ray photons locate the deep-vein thromboses and pulmonary emboli that prompt a hypercoagulable workup.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Red cells thicken thrombophilic blood: in polycythemia and sickle cell disease, excess or misshapen erythrocytes raise viscosity and slow flow, promoting the clotting these prothrombotic states are known for.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some thrombophilias are born in the bone marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells that clot readily, so marrow output itself becomes a cause of thrombosis.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

@@ -116,6 +116,15 @@ cross_links:
   - target: 01-human/03-molecular/nitric-oxide
     relation: connects-to
     note: "Skin tunes body temperature with nitric oxide: it relaxes dermal blood vessels to flush heat to the surface, the vasodilation behind blushing and warmth—and faulty control underlies flushing disorders and cold, poorly perfused skin."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "The skin is the body's largest sensory organ: packed with peripheral nerve endings for touch, temperature, and pain, it is how we feel the world—and where neuropathy first robs sensation."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc keeps skin intact: deficiency causes the rash of acrodermatitis enteropathica and stalls wound healing, because the mineral fuels the rapid epidermal turnover and repair the skin depends on."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The skin's dense dermal vasculature, lined by endothelial cells, both feeds it and serves thermoregulation, dilating to dump body heat or constricting to conserve it as the surface flushes or pales."
 ---
 
 # Integumentary System
@@ -254,6 +263,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Skin's outer layer matures along a calcium gradient: rising calcium up through the epidermis drives keratinocytes to differentiate and build the barrier, so disrupting that gradient unravels how the skin renews and seals itself.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The skin is patrolled by cytotoxic T cells: these killers reside in the epidermis as immune memory, destroying virus-infected and malignant cells but, when misdirected, driving the blistering rashes of severe drug reactions.
 - `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Skin tunes body temperature with nitric oxide: it relaxes dermal blood vessels to flush heat to the surface, the vasodilation behind blushing and warmth—and faulty control underlies flushing disorders and cold, poorly perfused skin.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The skin is the body's largest sensory organ: packed with peripheral nerve endings for touch, temperature, and pain, it is how we feel the world—and where neuropathy first robs sensation.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc keeps skin intact: deficiency causes the rash of acrodermatitis enteropathica and stalls wound healing, because the mineral fuels the rapid epidermal turnover and repair the skin depends on.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The skin's dense dermal vasculature, lined by endothelial cells, both feeds it and serves thermoregulation, dilating to dump body heat or constricting to conserve it as the surface flushes or pales.
 
 ## Pathology
 
