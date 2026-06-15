@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The retina betrays cerebral malaria: malarial retinopathy—patchy whitening, vessel discoloration and hemorrhages—is a specific bedside sign that a comatose child's illness is truly malaria and not another cause."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals how malaria sticks and hides: the infected red cell sprouts surface knobs that anchor adhesion proteins to vessel walls, while inside, the parasite crystallizes toxic heme into inert hemozoin pigment within its digestive vacuole."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium signals the parasite's every move: rising calcium triggers the merozoites to burst from and reinvade red cells, making the ion a drug target — while severe malaria itself drives the blood calcium dangerously low."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Severe malaria can paralyze the gut: parasitized red cells sequester in the intestinal microvasculature, causing the abdominal pain, diarrhea, and bowel ischemia of 'algid malaria' that can mimic a surgical abdomen."
 ---
 
 # Malaria
@@ -328,6 +337,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Malaria is still diagnosed by light: Giemsa-stained thick and thin blood films under the microscope reveal the parasites inside red cells, letting the species be identified and the parasite load counted.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Severe malaria suffocates tissues: sequestered red cells block capillaries while profound anemia cuts oxygen delivery, driving the lactic acidosis and organ failure that mark the deadliest disease.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The retina betrays cerebral malaria: malarial retinopathy—patchy whitening, vessel discoloration and hemorrhages—is a specific bedside sign that a comatose child's illness is truly malaria and not another cause.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals how malaria sticks and hides: the infected red cell sprouts surface knobs that anchor adhesion proteins to vessel walls, while inside, the parasite crystallizes toxic heme into inert hemozoin pigment within its digestive vacuole.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signals the parasite's every move: rising calcium triggers the merozoites to burst from and reinvade red cells, making the ion a drug target — while severe malaria itself drives the blood calcium dangerously low.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Severe malaria can paralyze the gut: parasitized red cells sequester in the intestinal microvasculature, causing the abdominal pain, diarrhea, and bowel ischemia of 'algid malaria' that can mimic a surgical abdomen.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

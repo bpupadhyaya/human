@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Visceral leishmaniasis floods the blood with antibody: plasma cells pour out immunoglobulin in a massive polyclonal response, the hypergammaglobulinemia behind its classic non-specific protein tests."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the parasite hiding inside our cells: Leishmania amastigotes pack the cytoplasm of macrophages as Donovan bodies, each with a nucleus and a bar-shaped kinetoplast — the rod of mitochondrial DNA that fingerprints the genus."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Visceral leishmaniasis quietly drops the sodium: an SIADH-like state of inappropriate water retention causes hyponatremia, a common laboratory clue in the chronic wasting illness of kala-azar."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lungs can be drawn in too: visceral leishmaniasis may cause an interstitial pneumonitis, and in HIV co-infection the parasite spreads to unusual sites including the airways, broadening its reach beyond spleen and marrow."
 ---
 
 # Leishmaniasis
@@ -265,3 +274,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Leishmaniasis is found under the light microscope: Giemsa-stained smears reveal amastigotes packed inside macrophages, and small cutaneous lesions can be treated locally with heat or laser light.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic visceral leishmaniasis scars the organs it invades: long-standing infection of the liver and spleen drives fibrosis, contributing to the portal hypertension and organ enlargement of advanced kala-azar.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Visceral leishmaniasis floods the blood with antibody: plasma cells pour out immunoglobulin in a massive polyclonal response, the hypergammaglobulinemia behind its classic non-specific protein tests.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the parasite hiding inside our cells: Leishmania amastigotes pack the cytoplasm of macrophages as Donovan bodies, each with a nucleus and a bar-shaped kinetoplast — the rod of mitochondrial DNA that fingerprints the genus.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Visceral leishmaniasis quietly drops the sodium: an SIADH-like state of inappropriate water retention causes hyponatremia, a common laboratory clue in the chronic wasting illness of kala-azar.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs can be drawn in too: visceral leishmaniasis may cause an interstitial pneumonitis, and in HIV co-infection the parasite spreads to unusual sites including the airways, broadening its reach beyond spleen and marrow.
