@@ -138,6 +138,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "West Nile can inflame the heart: myocarditis and arrhythmias are recognized though underappreciated complications, the virus reaching beyond the nervous system to strain the circulation in severe infection."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "West Nile is diagnosed by its antibody: detecting IgM in serum or — pointing to neuroinvasion — in the cerebrospinal fluid is the mainstay test, since the virus itself is fleeting in the blood by the time symptoms appear."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "West Nile rides the blood supply: it is transmissible through transfusion and organ transplant, so blood banks screen donations for it — a hidden route beyond the mosquito that prompted nationwide testing."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "The virus can cross to the fetus: rare intrauterine West Nile transmission through the placenta, and passage through breast milk, are documented, extending its reach from the mosquito bite to mother and child."
 ---
 
 # West Nile Virus
@@ -298,3 +307,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows West Nile as a classic flavivirus: a small icosahedral core wrapped in a lipid envelope, assembling and budding through the membranes of the endoplasmic reticulum inside infected cells.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — West Nile encephalitis often drops the sodium: inflammation of the brain triggers SIADH, the inappropriate water retention that dilutes blood sodium and can worsen the confusion and seizures of severe neuroinvasive disease.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — West Nile can inflame the heart: myocarditis and arrhythmias are recognized though underappreciated complications, the virus reaching beyond the nervous system to strain the circulation in severe infection.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — West Nile is diagnosed by its antibody: detecting IgM in serum or — pointing to neuroinvasion — in the cerebrospinal fluid is the mainstay test, since the virus itself is fleeting in the blood by the time symptoms appear.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — West Nile rides the blood supply: it is transmissible through transfusion and organ transplant, so blood banks screen donations for it — a hidden route beyond the mosquito that prompted nationwide testing.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — The virus can cross to the fetus: rare intrauterine West Nile transmission through the placenta, and passage through breast milk, are documented, extending its reach from the mosquito bite to mother and child.
