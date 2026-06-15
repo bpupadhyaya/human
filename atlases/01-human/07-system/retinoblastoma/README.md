@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Hereditary retinoblastoma raises lifelong skin-cancer risk: survivors with a germline RB1 mutation face an elevated chance of melanoma and other second cancers, so skin surveillance joins their long-term care."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals retinoblastoma's photoreceptor roots: well-differentiated tumors form Flexner-Wintersteiner rosettes ringing a central lumen and sprout primitive light-sensing cilia, ultrastructure betraying their origin in the developing retina."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Retinoblastoma enlists the retina's own immune cells: tumor-associated microglia infiltrate the growing mass and, rather than fighting it, secrete factors that support its proliferation, with their density tracking more aggressive disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "When retinoblastoma escapes the eye it can reach the lung: though it usually spreads up the optic nerve to the brain or into the marrow, rare hematogenous metastases seed the lungs in advanced, treatment-resistant disease."
 ---
 
 # Retinoblastoma
@@ -272,6 +281,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Retinoblastoma gives itself away by calcium phosphate: the tumor classically calcifies, and these calcium-phosphate flecks on ultrasound or CT are a key clue distinguishing it from other causes of a white pupil.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Retinoblastoma recruits endothelial cells to grow: VEGF from the tumor drives the new vessels that feed it within the eye, a target explored alongside the chemotherapy delivered into the eye's artery.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hereditary retinoblastoma raises lifelong skin-cancer risk: survivors with a germline RB1 mutation face an elevated chance of melanoma and other second cancers, so skin surveillance joins their long-term care.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals retinoblastoma's photoreceptor roots: well-differentiated tumors form Flexner-Wintersteiner rosettes ringing a central lumen and sprout primitive light-sensing cilia, ultrastructure betraying their origin in the developing retina.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Retinoblastoma enlists the retina's own immune cells: tumor-associated microglia infiltrate the growing mass and, rather than fighting it, secrete factors that support its proliferation, with their density tracking more aggressive disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — When retinoblastoma escapes the eye it can reach the lung: though it usually spreads up the optic nerve to the brain or into the marrow, rare hematogenous metastases seed the lungs in advanced, treatment-resistant disease.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

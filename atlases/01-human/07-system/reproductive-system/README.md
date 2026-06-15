@@ -122,6 +122,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Reproduction rebuilds blood vessels each cycle: the endometrium and placenta drive intense VEGF-fueled angiogenesis through endothelial cells to thicken the lining and nourish a pregnancy."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons watch over reproduction: pelvic and obstetric ultrasound image the ovaries, uterus, and growing fetus, follicle scans guide IVF, and mammography screens the breast — sound and light made the unseen interior of reproductive medicine visible."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The reproductive and urinary tracts grow from one ridge: sharing the embryonic urogenital fold, they develop side by side, so a malformed uterus or absent vas often comes paired with a missing or misplaced kidney."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine holds the brake on fertility's milk hormone: it continuously suppresses prolactin, so a dopamine drop lets prolactin rise to enable lactation — and a prolactin-secreting tumor, treated with dopamine agonists, silences periods until corrected."
 ---
 
 # Reproductive System
@@ -272,6 +281,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Reproduction is costly in iron: each menstrual period drains iron, and pregnancy's demand for the growing fetus and placenta often outpaces supply, making iron-deficiency anemia common in women of reproductive age.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Sex hormones are written on the skin: testosterone and estrogen shape body and facial hair, oil glands and acne, and the pigment and stretch changes of puberty and pregnancy, so the skin mirrors reproductive state.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Reproduction rebuilds blood vessels each cycle: the endometrium and placenta drive intense VEGF-fueled angiogenesis through endothelial cells to thicken the lining and nourish a pregnancy.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons watch over reproduction: pelvic and obstetric ultrasound image the ovaries, uterus, and growing fetus, follicle scans guide IVF, and mammography screens the breast — sound and light made the unseen interior of reproductive medicine visible.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The reproductive and urinary tracts grow from one ridge: sharing the embryonic urogenital fold, they develop side by side, so a malformed uterus or absent vas often comes paired with a missing or misplaced kidney.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine holds the brake on fertility's milk hormone: it continuously suppresses prolactin, so a dopamine drop lets prolactin rise to enable lactation — and a prolactin-secreting tumor, treated with dopamine agonists, silences periods until corrected.
 
 ## Pathology
 
