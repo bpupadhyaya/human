@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "AS sits in a family of skin-linked diseases: it overlaps the spondyloarthritis spectrum with psoriasis, so the same HLA-B27-associated, IL-17-driven inflammation that fuses the spine often shows as scaly plaques on the skin."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "A fused spine is a brittle one: the rigid bamboo spine of AS fractures from minor trauma, and these unstable breaks can crush the spinal cord, while chronic arachnoid scarring rarely produces a cauda equina syndrome of leg weakness and bladder loss."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Chronic inflammation thins the blood: like other rheumatic diseases, active AS drives the anemia of chronic disease, with inflammatory hepcidin locking iron away from the red cells and leaving patients tired beyond their joint pain."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Treating AS means watching the liver: before starting the TNF-blocking biologics that calm the spine, patients are screened for hepatitis B to avoid reactivating it, and long-term NSAID use adds its own hepatic and GI risks."
 ---
 
 # Ankylosing Spondylitis
@@ -292,6 +301,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Decades of inflammation can poison the kidney: AS is a classic cause of secondary AA amyloidosis, where serum amyloid protein deposits in the kidney and triggers a slow slide into renal failure, alongside its links to IgA nephropathy.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — AS quietly scars the top of the lungs: a hallmark extra-articular finding is fibrobullous disease of the upper lobes, where progressive apical fibrosis stiffens the chest already restricted by the fused, rigid rib cage.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — AS sits in a family of skin-linked diseases: it overlaps the spondyloarthritis spectrum with psoriasis, so the same HLA-B27-associated, IL-17-driven inflammation that fuses the spine often shows as scaly plaques on the skin.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A fused spine is a brittle one: the rigid bamboo spine of AS fractures from minor trauma, and these unstable breaks can crush the spinal cord, while chronic arachnoid scarring rarely produces a cauda equina syndrome of leg weakness and bladder loss.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Chronic inflammation thins the blood: like other rheumatic diseases, active AS drives the anemia of chronic disease, with inflammatory hepcidin locking iron away from the red cells and leaving patients tired beyond their joint pain.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Treating AS means watching the liver: before starting the TNF-blocking biologics that calm the spine, patients are screened for hepatitis B to avoid reactivating it, and long-term NSAID use adds its own hepatic and GI risks.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

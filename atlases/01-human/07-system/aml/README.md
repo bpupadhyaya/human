@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Leukemic cells infiltrate the liver: AML blasts seep into hepatic tissue alongside the spleen, swelling it into the hepatomegaly that, with low blood counts, marks the disease's spread beyond the marrow."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "AML threatens neurons from two directions: blasts can seed the CNS, while the high-dose cytarabine used to cure it crosses into the brain and poisons cerebellar neurons, causing a dose-limiting ataxia and slurred speech."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "A flood of blasts can choke the lungs: in hyperleukocytosis the rigid leukemic cells plug pulmonary capillaries (leukostasis), causing breathlessness and hypoxia that is a medical emergency demanding urgent cytoreduction."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Curing AML can wound the heart: the anthracyclines (daunorubicin, idarubicin) at the core of induction are cumulatively cardiotoxic, risking a later cardiomyopathy that survivors are monitored for for years."
 ---
 
 # AML
@@ -294,6 +303,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy finds AML's signature crystal: Auer rods, needle-like aggregates of fused azurophilic granules packed inside the myeloblasts, are diagnostic of myeloid leukemia and never seen in lymphoid disease.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AML can flood the blood with potassium as it dies: the huge mass of leukemic cells, bursting under chemotherapy in tumor lysis syndrome, spills potassium that can stop the heart unless aggressively managed.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Leukemic cells infiltrate the liver: AML blasts seep into hepatic tissue alongside the spleen, swelling it into the hepatomegaly that, with low blood counts, marks the disease's spread beyond the marrow.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — AML threatens neurons from two directions: blasts can seed the CNS, while the high-dose cytarabine used to cure it crosses into the brain and poisons cerebellar neurons, causing a dose-limiting ataxia and slurred speech.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — A flood of blasts can choke the lungs: in hyperleukocytosis the rigid leukemic cells plug pulmonary capillaries (leukostasis), causing breathlessness and hypoxia that is a medical emergency demanding urgent cytoreduction.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Curing AML can wound the heart: the anthracyclines (daunorubicin, idarubicin) at the core of induction are cumulatively cardiotoxic, risking a later cardiomyopathy that survivors are monitored for for years.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
