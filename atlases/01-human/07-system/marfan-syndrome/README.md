@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Marfan can stretch the nerves through dural ectasia: the weakened dura around the spinal cord balloons, compressing nerve roots to cause low back pain, headaches, and leg symptoms, a diagnostic Marfan feature."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Marfan is monitored by imaging: echocardiography and CT/MR angiography photons track the aortic root's slow dilation, the measurement that decides when to operate before it dissects."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Marfan's floppy mitral valve calcifies early: mitral annular calcification is part of the Ghent diagnostic score, adding to the valve prolapse and aortic disease of the connective-tissue disorder."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Growth-factor signaling beyond TGF-β weakens the Marfan aorta: PDGF among others drives the smooth-muscle changes in the dilating wall, part of the biology that aneurysm treatments target."
 ---
 
 # Marfan Syndrome
@@ -298,6 +307,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Marfan lungs can burst air into the chest: weak connective tissue forms apical blebs that rupture, spilling air—mostly nitrogen—into the pleural space as a spontaneous pneumothorax, a recurrent Marfan event.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Marfan weakens the alveoli: faulty fibrillin leaves the lung's elastic walls fragile, so emphysematous change and apical blebs form in the air sacs, setting up the collapse-prone lung.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Marfan can stretch the nerves through dural ectasia: the weakened dura around the spinal cord balloons, compressing nerve roots to cause low back pain, headaches, and leg symptoms, a diagnostic Marfan feature.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Marfan is monitored by imaging: echocardiography and CT/MR angiography photons track the aortic root's slow dilation, the measurement that decides when to operate before it dissects.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Marfan's floppy mitral valve calcifies early: mitral annular calcification is part of the Ghent diagnostic score, adding to the valve prolapse and aortic disease of the connective-tissue disorder.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor signaling beyond TGF-β weakens the Marfan aorta: PDGF among others drives the smooth-muscle changes in the dilating wall, part of the biology that aneurysm treatments target.
 
 ---
 
