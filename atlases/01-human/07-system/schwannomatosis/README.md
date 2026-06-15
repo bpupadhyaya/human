@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium currents amplify the pain: tumor-irritated sensory neurons open voltage-gated calcium channels to fire and release their neuropeptides, so calcium-channel blockers are among the drugs tried against schwannomatosis pain."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Schwannomas betray themselves by their weave: the compact Antoni A zones palisade into collagen-walled Verocay bodies while loose, collagen-rich Antoni B areas fill the rest — the matrix architecture pathologists read to call a schwannoma."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Losing the brake on growth wakes a survival pathway: when the tumor-suppressor merlin or its partners fail, PI3K-AKT-mTOR signaling runs unchecked, helping the Schwann cells proliferate into the multiple schwannomas that define the syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium channels are the nerve's brake on firing: by setting the resting potential and cutting short each spike, channels like Kv7 quiet overactive pain neurons, making potassium-channel openers a target for the relentless pain of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -273,6 +282,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms the tumors are schwannomas: their cells wrap in continuous basal lamina and stack long-spacing collagen as Luse bodies, the same ultrastructure of nerve-sheath origin found across the schwannoma family.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P carries schwannomatosis's defining misery: the tumors irritate sensory nerves into releasing this pain neuropeptide, driving the chronic, often disabling pain that — more than tumor growth — dominates the disorder.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium currents amplify the pain: tumor-irritated sensory neurons open voltage-gated calcium channels to fire and release their neuropeptides, so calcium-channel blockers are among the drugs tried against schwannomatosis pain.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Schwannomas betray themselves by their weave: the compact Antoni A zones palisade into collagen-walled Verocay bodies while loose, collagen-rich Antoni B areas fill the rest — the matrix architecture pathologists read to call a schwannoma.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Losing the brake on growth wakes a survival pathway: when the tumor-suppressor merlin or its partners fail, PI3K-AKT-mTOR signaling runs unchecked, helping the Schwann cells proliferate into the multiple schwannomas that define the syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium channels are the nerve's brake on firing: by setting the resting potential and cutting short each spike, channels like Kv7 quiet overactive pain neurons, making potassium-channel openers a target for the relentless pain of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

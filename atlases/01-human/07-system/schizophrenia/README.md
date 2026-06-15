@@ -142,6 +142,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D in the womb shapes later risk: low maternal vitamin D during fetal brain development is an established schizophrenia risk factor, helping explain the disease's links to winter births and higher latitudes."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The most effective drug demands blood counts: clozapine, reserved for treatment-resistant schizophrenia, can wipe out neutrophils into a life-threatening agranulocytosis, so patients undergo mandatory regular neutrophil monitoring to use it safely."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Antipsychotics tax the metabolic organs: second-generation agents like olanzapine and clozapine drive weight gain and insulin resistance, straining the pancreas toward the diabetes and metabolic syndrome that shorten lives in schizophrenia."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Many antipsychotics tug at the heart's potassium gate: by blocking the hERG potassium channel they prolong the QT interval, a delayed repolarization that in susceptible patients can tip into the dangerous arrhythmia torsades de pointes."
 ---
 
 # Schizophrenia
@@ -347,6 +356,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons reveal the schizophrenic brain's structure and chemistry: MRI shows enlarged ventricles and thinned gray matter, while PET tracers map the striatal dopamine excess that antipsychotics aim to dampen.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye carries a schizophrenia signature: smooth-pursuit eye movements are jerky and broken in patients and their unaffected relatives, a heritable endophenotype that points to the brain-wiring deficits behind the illness.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D in the womb shapes later risk: low maternal vitamin D during fetal brain development is an established schizophrenia risk factor, helping explain the disease's links to winter births and higher latitudes.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The most effective drug demands blood counts: clozapine, reserved for treatment-resistant schizophrenia, can wipe out neutrophils into a life-threatening agranulocytosis, so patients undergo mandatory regular neutrophil monitoring to use it safely.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Antipsychotics tax the metabolic organs: second-generation agents like olanzapine and clozapine drive weight gain and insulin resistance, straining the pancreas toward the diabetes and metabolic syndrome that shorten lives in schizophrenia.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Many antipsychotics tug at the heart's potassium gate: by blocking the hERG potassium channel they prolong the QT interval, a delayed repolarization that in susceptible patients can tip into the dangerous arrhythmia torsades de pointes.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
