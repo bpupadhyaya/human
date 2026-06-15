@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Losing NF1 unleashes AKT in MPNST: with neurofibromin gone, RAS activates the PI3K-AKT survival axis alongside MEK, so AKT signaling helps the tumor evade death — part of why dual-pathway blockade is being explored."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "MPNST favors the skeleton when it spreads: after the lungs, bone is a common metastatic site, with deposits in the marrow-bearing vertebrae and long bones marking the aggressive, hard-to-cure disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "MPNST can reach the brain: hematogenous metastases to the central nervous system, though less common than lung spread, are a grim development in this fast-growing nerve-sheath sarcoma."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "In NF1, MPNST often arises deep in the body: retroperitoneal and pelvic tumors grow against the bowel, the large intestine displaced or invaded by a sarcoma transforming from a plexiform neurofibroma."
 ---
 
 # MPNST
@@ -303,6 +312,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals MPNST's nerve-sheath roots: scattered cells show schwannian differentiation — interdigitating processes wrapped in basal lamina — the ultrastructural clue to origin in a tumor that often loses its diagnostic S100 staining.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MPNST exploits an IGF-1 loop: the tumor overexpresses the IGF-1 receptor, and autocrine insulin-like growth factor signaling fuels proliferation and survival — a pathway probed for therapy in a cancer that resists conventional treatment.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Losing NF1 unleashes AKT in MPNST: with neurofibromin gone, RAS activates the PI3K-AKT survival axis alongside MEK, so AKT signaling helps the tumor evade death — part of why dual-pathway blockade is being explored.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MPNST favors the skeleton when it spreads: after the lungs, bone is a common metastatic site, with deposits in the marrow-bearing vertebrae and long bones marking the aggressive, hard-to-cure disease.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — MPNST can reach the brain: hematogenous metastases to the central nervous system, though less common than lung spread, are a grim development in this fast-growing nerve-sheath sarcoma.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — In NF1, MPNST often arises deep in the body: retroperitoneal and pelvic tumors grow against the bowel, the large intestine displaced or invaded by a sarcoma transforming from a plexiform neurofibroma.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

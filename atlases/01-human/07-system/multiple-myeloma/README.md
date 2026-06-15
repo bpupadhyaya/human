@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Myeloma occasionally escapes the marrow into the spleen: extramedullary plasmacytomas and AL amyloid can lodge there, a sign of aggressive, treatment-resistant disease that has broken out of its usual bone-marrow home."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Myeloma leaves the lungs defenseless and can invade them: suppressed normal antibodies bring recurrent pneumonias, while plasmacytomas and AL amyloid occasionally deposit in the lung itself."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Myeloma's thick blood and rare CNS spread threaten the brain: heavy paraprotein can sludge the circulation into hyperviscosity with confusion and stroke, and dural or leptomeningeal plasmacytomas occasionally invade the nervous system."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Myeloma's kidney damage unsettles potassium: cast nephropathy and renal failure disturb its balance, and rapid tumor breakdown under treatment can spill potassium into the blood, threatening the heart."
 ---
 
 # Multiple Myeloma
@@ -308,6 +317,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy captures the myeloma plasma cell at work: its cytoplasm swells with rough endoplasmic reticulum churning out antibody, often packed into Russell bodies, while misfolded light chains form the fibrils of AL amyloid seen as a tangled mesh.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Myeloma can fake low sodium: the flood of monoclonal protein displaces water in the blood sample, so older analyzers report a spuriously low sodium — pseudohyponatremia — a lab artifact that signals the heavy paraprotein burden.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Myeloma occasionally escapes the marrow into the spleen: extramedullary plasmacytomas and AL amyloid can lodge there, a sign of aggressive, treatment-resistant disease that has broken out of its usual bone-marrow home.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myeloma leaves the lungs defenseless and can invade them: suppressed normal antibodies bring recurrent pneumonias, while plasmacytomas and AL amyloid occasionally deposit in the lung itself.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Myeloma's thick blood and rare CNS spread threaten the brain: heavy paraprotein can sludge the circulation into hyperviscosity with confusion and stroke, and dural or leptomeningeal plasmacytomas occasionally invade the nervous system.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Myeloma's kidney damage unsettles potassium: cast nephropathy and renal failure disturb its balance, and rapid tumor breakdown under treatment can spill potassium into the blood, threatening the heart.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
