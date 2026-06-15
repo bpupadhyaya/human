@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The catecholamine spells reach the skin: surges of adrenaline and noradrenaline drive the classic triad of pounding headache, palpitations, and drenching sweat, while clamped-down vessels leave the patient pale and clammy during an attack."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains confirm the chromaffin tumor: chromogranin A and synaptophysin mark its neuroendocrine nature on biopsy, and loss of SDHB staining flags the hereditary, more aggressive paragangliomas worth genetic testing."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "A catecholamine storm can strike the brain: a hypertensive crisis from the tumor spikes blood pressure into hemorrhagic stroke or the posterior reversible encephalopathy syndrome, an emergency that sometimes unmasks the hidden pheochromocytoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium tames the surgical surge: intravenous magnesium sulfate blunts catecholamine release and the arrhythmias it provokes, making it a key adjunct during the perilous handling of the tumor at operation."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -325,6 +334,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The pseudohypoxic tumors can thicken the blood: pheochromocytomas and paragangliomas driven by HIF stabilization — and the EPAS1-mutant Pacak-Zhuang form especially — overproduce erythropoietin, pushing the marrow to make excess red cells and cause polycythemia.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Besides bone, the liver takes the spread: malignant paragangliomas, again most often SDHB-mutant, seed hepatic metastases, a site that — like the skeleton — marks the tumor as having crossed from benign to malignant.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The catecholamine spells reach the skin: surges of adrenaline and noradrenaline drive the classic triad of pounding headache, palpitations, and drenching sweat, while clamped-down vessels leave the patient pale and clammy during an attack.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains confirm the chromaffin tumor: chromogranin A and synaptophysin mark its neuroendocrine nature on biopsy, and loss of SDHB staining flags the hereditary, more aggressive paragangliomas worth genetic testing.
+- `connects-to` → **[Stroke](../stroke/README.md)** — A catecholamine storm can strike the brain: a hypertensive crisis from the tumor spikes blood pressure into hemorrhagic stroke or the posterior reversible encephalopathy syndrome, an emergency that sometimes unmasks the hidden pheochromocytoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium tames the surgical surge: intravenous magnesium sulfate blunts catecholamine release and the arrhythmias it provokes, making it a key adjunct during the perilous handling of the tumor at operation.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

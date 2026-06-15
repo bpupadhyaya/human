@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/07-system/vhl-disease
     relation: connects-to
     note: "Other paths can also overfill the blood: where PV makes red cells with the EPO switch off, germline VHL defects (Chuvash polycythemia) stabilize HIF and drive EPO up — high versus low erythropoietin separating these causes of erythrocytosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Furious cell turnover spills minerals: the relentless birth and death of blood cells in PV, and their lysis under cytoreductive therapy, release phosphate and urate, the metabolic overflow that fuels the gout and hyperuricemia these patients suffer."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "PV is the great cause of Budd-Chiari: clots in the hepatic veins back blood up into the liver, congesting and killing hepatocytes, so an unexplained hepatic-vein thrombosis should always prompt a hunt for the JAK2 mutation."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy magnifies PV's clotting danger: the thickened blood plus pregnancy's hypercoagulability raise the risk of miscarriage, placental thrombosis, and venous clots, managed with low-dose aspirin and careful control of the hematocrit."
 ---
 
 # Polycythemia Vera
@@ -305,6 +314,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Sluggish, crowded blood torments the nerves: PV causes headache, dizziness, and visual blurring from hyperviscosity, plus the burning red hands and feet of erythromelalgia, where platelet plugs in small vessels inflame sensory neurons.
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The driver mutation is also the drug target: ruxolitinib, a JAK1/2 inhibitor, calms the overactive JAK-STAT signaling of PV, shrinking the spleen and easing symptoms in patients who can't tolerate or fail hydroxyurea.
 - `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Other paths can also overfill the blood: where PV makes red cells with the EPO switch off, germline VHL defects (Chuvash polycythemia) stabilize HIF and drive EPO up — high versus low erythropoietin separating these causes of erythrocytosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Furious cell turnover spills minerals: the relentless birth and death of blood cells in PV, and their lysis under cytoreductive therapy, release phosphate and urate, the metabolic overflow that fuels the gout and hyperuricemia these patients suffer.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — PV is the great cause of Budd-Chiari: clots in the hepatic veins back blood up into the liver, congesting and killing hepatocytes, so an unexplained hepatic-vein thrombosis should always prompt a hunt for the JAK2 mutation.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy magnifies PV's clotting danger: the thickened blood plus pregnancy's hypercoagulability raise the risk of miscarriage, placental thrombosis, and venous clots, managed with low-dose aspirin and careful control of the hematocrit.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
