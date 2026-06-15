@@ -126,6 +126,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Bulimia poisons heart-muscle cells: swings in potassium and magnesium destabilize cardiomyocytes into arrhythmias, and ipecac syrup once used to induce vomiting is directly toxic to the heart muscle."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "fMRI photons reveal bulimia's brain: altered reward and self-regulation circuits respond abnormally to food cues, the neural basis of the binge-purge loss of control."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes shape the reward and self-control circuits, helping set the synaptic plasticity that underlies the compulsive binge-purge cycle of bulimia."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Bulimia leaves a sign on the skin: Russell's sign, calloused, scarred knuckles from the teeth during self-induced vomiting, is a telltale physical clue to the hidden disorder."
 ---
 
 # Bulimia Nervosa
@@ -291,6 +300,9 @@ All of the following must be met:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Vomiting in bulimia drains chloride: each purge loses gastric hydrochloric acid, and the chloride depletion sustains a hypochloremic metabolic alkalosis that the kidneys struggle to correct.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Bulimia can inflame the pancreas: large binges and the abrupt swings of refeeding can trigger acute pancreatitis, a painful and sometimes serious complication of the binge-purge cycle.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Bulimia poisons heart-muscle cells: swings in potassium and magnesium destabilize cardiomyocytes into arrhythmias, and ipecac syrup once used to induce vomiting is directly toxic to the heart muscle.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons reveal bulimia's brain: altered reward and self-regulation circuits respond abnormally to food cues, the neural basis of the binge-purge loss of control.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes shape the reward and self-control circuits, helping set the synaptic plasticity that underlies the compulsive binge-purge cycle of bulimia.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Bulimia leaves a sign on the skin: Russell's sign, calloused, scarred knuckles from the teeth during self-induced vomiting, is a telltale physical clue to the hidden disorder.
 
 ## Treatment
 

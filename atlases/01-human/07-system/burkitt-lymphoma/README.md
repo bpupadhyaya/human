@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Burkitt lymphoma blazes on a PET scan: its near-100% proliferation rate makes it intensely avid for the radiotracer's photons, so PET imaging vividly stages this fastest-growing human tumor."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Burkitt's massive tumor lysis crashes calcium: the flood of phosphate from dying cells binds calcium and drops it, risking tetany and arrhythmia alongside the high potassium of the emergency."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Endemic Burkitt classically swells the jaw and orbit: rapidly growing facial and eye-socket masses are the hallmark presentation in the African malaria belt where the EBV-driven form arises."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "MYC floors the cell cycle in Burkitt: it drives cyclin D and CDK4/6 to push cells relentlessly from rest into division, powering the roughly one-day doubling time of this fastest-growing tumor."
 ---
 
 # Burkitt Lymphoma
@@ -294,6 +303,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Burkitt's furious metabolism can acidify the blood: its MYC-driven glycolysis pours out lactic acid, so a rare type B lactic acidosis can appear from the tumor burden alone, even before chemotherapy begins.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Sporadic Burkitt lymphoma fills the abdomen: it forms bulky masses that involve the bowel, liver, and ovaries, so abdominal pain and a rapidly growing belly mass are common presentations in children.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Burkitt lymphoma blazes on a PET scan: its near-100% proliferation rate makes it intensely avid for the radiotracer's photons, so PET imaging vividly stages this fastest-growing human tumor.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Burkitt's massive tumor lysis crashes calcium: the flood of phosphate from dying cells binds calcium and drops it, risking tetany and arrhythmia alongside the high potassium of the emergency.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Endemic Burkitt classically swells the jaw and orbit: rapidly growing facial and eye-socket masses are the hallmark presentation in the African malaria belt where the EBV-driven form arises.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — MYC floors the cell cycle in Burkitt: it drives cyclin D and CDK4/6 to push cells relentlessly from rest into division, powering the roughly one-day doubling time of this fastest-growing tumor.
 
 ---
 
