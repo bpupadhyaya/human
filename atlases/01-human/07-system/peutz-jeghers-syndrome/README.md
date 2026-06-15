@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Chronic ooze from the polyps shows in the blood: the slow intestinal bleeding that drains iron also drives a reactive thrombocytosis, the platelet count climbing as the marrow responds to ongoing loss."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "STK11 is the master switch above AMPK: losing it deranges the LKB1-AMPK energy sensor that ties metabolism to growth, which is why metformin — an AMPK activator that improves insulin signaling — is studied as chemoprevention in Peutz-Jeghers."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Losing LKB1 turns tumors cold: STK11/LKB1 loss reshapes the microenvironment to exclude and disarm cytotoxic T cells, a recognized driver of resistance to checkpoint immunotherapy in the lung and other cancers it predisposes to."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "The faulty gene sits at the body's energy controls: LKB1-AMPK signaling governs how adipocytes and other tissues sense and store energy, so the syndrome's defect reaches a metabolic network far beyond the gut polyps it is known for."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -319,6 +328,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains confirm the hallmark polyp: desmin and smooth-muscle-actin staining reveal the arborizing tree of smooth muscle that defines a Peutz-Jeghers hamartoma, separating it from the adenomas of other polyposis syndromes.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid joins the long cancer list: differentiated (papillary) thyroid carcinoma appears within the Peutz-Jeghers tumor spectrum, one more organ folded into the lifelong, head-to-pelvis surveillance the syndrome demands.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Chronic ooze from the polyps shows in the blood: the slow intestinal bleeding that drains iron also drives a reactive thrombocytosis, the platelet count climbing as the marrow responds to ongoing loss.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — STK11 is the master switch above AMPK: losing it deranges the LKB1-AMPK energy sensor that ties metabolism to growth, which is why metformin — an AMPK activator that improves insulin signaling — is studied as chemoprevention in Peutz-Jeghers.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Losing LKB1 turns tumors cold: STK11/LKB1 loss reshapes the microenvironment to exclude and disarm cytotoxic T cells, a recognized driver of resistance to checkpoint immunotherapy in the lung and other cancers it predisposes to.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The faulty gene sits at the body's energy controls: LKB1-AMPK signaling governs how adipocytes and other tissues sense and store energy, so the syndrome's defect reaches a metabolic network far beyond the gut polyps it is known for.
 
 ---
 
