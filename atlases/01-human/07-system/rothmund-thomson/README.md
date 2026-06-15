@@ -151,6 +151,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Sun avoidance collides with bone fragility: RTS demands strict photoprotection, yet the skeletal dysplasia and low bone density of the syndrome need vitamin D, so supplementation replaces the sunlight these children must shun."
+  - target: 01-human/07-system/aplastic-anemia
+    relation: connects-to
+    note: "A faulty replication helicase can starve the marrow: RECQL4 loss impairs DNA replication in blood stem cells, so some children with RTS develop cytopenias and aplastic anemia alongside their later risk of myelodysplasia and leukemia."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "RTS belongs to the genome-instability family: its RECQL4 helicase, like the telomere-maintaining TERT, guards genome integrity, and its loss leaves cells with replication stress and the chromosomal chaos that fuels osteosarcoma."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Immune defenses can run low in RTS: some patients show immunodeficiency with poor antibody and T-cell responses, leaving them prone to recurrent infections — a reminder the RECQL4 defect reaches beyond skin, bone and cancer risk."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -332,6 +341,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Melanoma](../melanoma/README.md)** — Sun-sensitive, repair-poor skin courts skin cancer: beyond the basal and squamous tumors of its poikiloderma, RECQL4 deficiency raises melanoma risk, so lifelong sun protection and skin surveillance are core to RTS care.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The failing marrow also thins the red cells: the same RECQL4-driven dysfunction that courts MDS can crowd and stall erythrocyte production, leaving an anemia that, with the low platelets, marks the syndrome's bone-marrow involvement.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Sun avoidance collides with bone fragility: RTS demands strict photoprotection, yet the skeletal dysplasia and low bone density of the syndrome need vitamin D, so supplementation replaces the sunlight these children must shun.
+- `connects-to` → **[Aplastic Anemia](../aplastic-anemia/README.md)** — A faulty replication helicase can starve the marrow: RECQL4 loss impairs DNA replication in blood stem cells, so some children with RTS develop cytopenias and aplastic anemia alongside their later risk of myelodysplasia and leukemia.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — RTS belongs to the genome-instability family: its RECQL4 helicase, like the telomere-maintaining TERT, guards genome integrity, and its loss leaves cells with replication stress and the chromosomal chaos that fuels osteosarcoma.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Immune defenses can run low in RTS: some patients show immunodeficiency with poor antibody and T-cell responses, leaving them prone to recurrent infections — a reminder the RECQL4 defect reaches beyond skin, bone and cancer risk.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

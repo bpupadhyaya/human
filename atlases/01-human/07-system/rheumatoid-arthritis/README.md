@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney is hit from several sides: decades of inflammation can deposit AA amyloid, the NSAIDs and disease-modifying drugs carry their own nephrotoxicity, and rarely a rheumatoid vasculitis inflames the glomeruli."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Inflammation hardens the arteries: chronic RA accelerates atherosclerosis, so heart attack and stroke — not the joints — are the leading cause of death, and controlling disease activity is itself cardiovascular prevention."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells crowd the inflamed joint: abundant in rheumatoid synovium, they release TNF, histamine and proteases that amplify inflammation and angiogenesis, an innate-immune contributor to the pannus that erodes cartilage and bone."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "IL-1 beta helps drive the joint destruction: secreted by synovial macrophages, it spurs cartilage breakdown and osteoclast bone erosion, the rationale for the IL-1 blocker anakinra in disease resistant to other biologics."
 ---
 
 # Rheumatoid Arthritis
@@ -345,6 +354,9 @@ RA patients have:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Two antibodies define and forecast RA: rheumatoid factor and anti-CCP (ACPA) mark seropositive disease, predict a more erosive course, and can appear in the blood years before the first joint ever swells.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — RA pinches and inflames the nerves: synovial swelling at the wrist compresses the median nerve into carpal tunnel syndrome, while rheumatoid vasculitis can starve nerves into a mononeuritis multiplex of sudden focal weakness.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is hit from several sides: decades of inflammation can deposit AA amyloid, the NSAIDs and disease-modifying drugs carry their own nephrotoxicity, and rarely a rheumatoid vasculitis inflames the glomeruli.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Inflammation hardens the arteries: chronic RA accelerates atherosclerosis, so heart attack and stroke — not the joints — are the leading cause of death, and controlling disease activity is itself cardiovascular prevention.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells crowd the inflamed joint: abundant in rheumatoid synovium, they release TNF, histamine and proteases that amplify inflammation and angiogenesis, an innate-immune contributor to the pannus that erodes cartilage and bone.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — IL-1 beta helps drive the joint destruction: secreted by synovial macrophages, it spurs cartilage breakdown and osteoclast bone erosion, the rationale for the IL-1 blocker anakinra in disease resistant to other biologics.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
