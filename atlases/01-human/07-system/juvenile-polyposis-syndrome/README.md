@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "The same SMAD4 loss that drives the polyps also imperils the pancreas: SMAD4 (DPC4) is a key pancreatic tumor suppressor, so JPS adds pancreatic and upper-GI cancer to the lifetime risk that surveillance must cover."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "SMAD4 patients can stroke through their lungs: those with the combined JPS-hereditary hemorrhagic telangiectasia syndrome harbor pulmonary AVMs that let clots and bacteria bypass the lung filter, causing paradoxical stroke and brain abscess."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SMAD4 is the meeting point for a family of signals: it carries the message not just of TGF-beta and BMP but of activin too, so its loss in JPS derails activin signaling along with the others that normally restrain gut epithelial growth."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The vascular malformations can overload the heart: in JPS-HHT, large hepatic and pulmonary arteriovenous shunts force the heart to pump extra volume, leading toward high-output cardiac failure on top of the pulmonary hypertension SMAD4 can cause."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -325,6 +334,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bleeding polyps drain the red cells: friable juvenile polyps ooze chronically and can hemorrhage acutely, leaving children pale and sometimes transfusion-dependent until the polyps are cleared by colonoscopy or surgery.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Loss of SMAD4 can be seen on the slide: immunohistochemistry with an anti-SMAD4 antibody shows absent nuclear staining in polyps from SMAD4-mutant patients, a stain that helps separate this syndrome from sporadic juvenile polyps.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The same SMAD4 loss that drives the polyps also imperils the pancreas: SMAD4 (DPC4) is a key pancreatic tumor suppressor, so JPS adds pancreatic and upper-GI cancer to the lifetime risk that surveillance must cover.
+- `connects-to` → **[Stroke](../stroke/README.md)** — SMAD4 patients can stroke through their lungs: those with the combined JPS-hereditary hemorrhagic telangiectasia syndrome harbor pulmonary AVMs that let clots and bacteria bypass the lung filter, causing paradoxical stroke and brain abscess.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — SMAD4 is the meeting point for a family of signals: it carries the message not just of TGF-beta and BMP but of activin too, so its loss in JPS derails activin signaling along with the others that normally restrain gut epithelial growth.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The vascular malformations can overload the heart: in JPS-HHT, large hepatic and pulmonary arteriovenous shunts force the heart to pump extra volume, leading toward high-output cardiac failure on top of the pulmonary hypertension SMAD4 can cause.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

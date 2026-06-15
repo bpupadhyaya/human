@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "The pancreas is caught both ways: IBD itself raises the risk of acute and autoimmune pancreatitis, and the thiopurine drugs used to treat it are a classic cause of drug-induced pancreatitis that forces a change of therapy."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Active IBD thickens the blood: the systemic inflammation of a flare drives a hypercoagulable state, so deep-vein thrombosis and pulmonary embolism are markedly more common — which is why hospitalized patients get clot prophylaxis even amid bloody diarrhea."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "IBD erodes the skeleton: chronic inflammation, malabsorption of calcium and vitamin D, and repeated steroid courses thin the bones, making osteoporosis and fragility fractures a common long-term complication needing bone monitoring."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "In Crohn's the wall scars shut: chronic transmural inflammation activates fibroblasts to lay down collagen, and the resulting fibrosis stiffens the bowel into the strictures and obstruction that often demand surgery."
 ---
 
 # Inflammatory Bowel Disease
@@ -331,6 +340,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — The colon's fuel comes from fermented fiber: gut bacteria turn dietary fiber into butyrate that nourishes colonocytes and calms inflammation, so a depleted fiber-butyrate axis is implicated in IBD and exclusive enteral nutrition can induce remission.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia is IBD's most common complication: chronic gut bleeding plus inflammation that blocks iron use leaves erythrocytes small and scarce, a mixed iron-deficiency and anemia-of-chronic-disease that drives much of the fatigue patients feel.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is caught both ways: IBD itself raises the risk of acute and autoimmune pancreatitis, and the thiopurine drugs used to treat it are a classic cause of drug-induced pancreatitis that forces a change of therapy.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Active IBD thickens the blood: the systemic inflammation of a flare drives a hypercoagulable state, so deep-vein thrombosis and pulmonary embolism are markedly more common — which is why hospitalized patients get clot prophylaxis even amid bloody diarrhea.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — IBD erodes the skeleton: chronic inflammation, malabsorption of calcium and vitamin D, and repeated steroid courses thin the bones, making osteoporosis and fragility fractures a common long-term complication needing bone monitoring.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — In Crohn's the wall scars shut: chronic transmural inflammation activates fibroblasts to lay down collagen, and the resulting fibrosis stiffens the bowel into the strictures and obstruction that often demand surgery.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
