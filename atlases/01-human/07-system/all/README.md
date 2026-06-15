@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Treating ALL convulses the body's chemistry: as chemotherapy bursts the huge mass of blasts in tumor lysis syndrome, magnesium and other electrolytes swing wildly, demanding close monitoring and correction to protect the heart and kidneys."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "ALL hides in and harms the nervous system: leukemic cells seed the CNS as a sanctuary, demanding intrathecal chemotherapy, while vincristine in the regimen poisons peripheral neurons into a dose-limiting neuropathy."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Engineered antibodies transformed ALL: blinatumomab, a bispecific that yokes T cells to CD19, and the CD22 drug-conjugate inotuzumab now clear relapsed disease that chemotherapy alone could not."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "A signature ALL drug inflames the pancreas: asparaginase, key to pediatric regimens, can trigger acute pancreatitis and disturb blood sugar, a toxicity watched for throughout treatment."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -323,6 +332,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy distinguishes ALL's blast: a lymphoblast with a high nucleus-to-cytoplasm ratio, condensed chromatin, and scant organelles — and, crucially, none of the Auer rods that mark the myeloid leukemias.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Leukemia can settle in the skin: ALL blasts infiltrate it as leukemia cutis, firm violet nodules or plaques, an uncommon but telling sign that the disease has spilled beyond the blood and marrow.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Treating ALL convulses the body's chemistry: as chemotherapy bursts the huge mass of blasts in tumor lysis syndrome, magnesium and other electrolytes swing wildly, demanding close monitoring and correction to protect the heart and kidneys.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — ALL hides in and harms the nervous system: leukemic cells seed the CNS as a sanctuary, demanding intrathecal chemotherapy, while vincristine in the regimen poisons peripheral neurons into a dose-limiting neuropathy.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Engineered antibodies transformed ALL: blinatumomab, a bispecific that yokes T cells to CD19, and the CD22 drug-conjugate inotuzumab now clear relapsed disease that chemotherapy alone could not.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — A signature ALL drug inflames the pancreas: asparaginase, key to pediatric regimens, can trigger acute pancreatitis and disturb blood sugar, a toxicity watched for throughout treatment.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
