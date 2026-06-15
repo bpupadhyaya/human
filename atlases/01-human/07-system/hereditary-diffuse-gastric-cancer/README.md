@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "HDGC scleroses the stomach: signet-ring cells provoke a dense desmoplastic fibrosis (linitis plastica) that stiffens the wall and hides the cancer from endoscopy until it is advanced."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows why HDGC spreads diffusely: losing E-cadherin, the cells let go of one another and scatter as lone signet-ring cells, each with a mucin vacuole shoving its nucleus to the rim, never forming glands."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Signet-ring gastric cancer can seep into the marrow: HDGC's diffuse cells infiltrate the bone marrow, triggering a microangiopathic anemia and a leukoerythroblastic blood picture in advanced disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "HDGC spreads to the lung: beyond the peritoneum and liver, its scattered cells seed pulmonary and lymphangitic metastases, marking the widespread disease that prophylactic gastrectomy aims to prevent."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -279,6 +288,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — The prophylactic gastrectomy that prevents HDGC leaves lasting deficiencies: without stomach acid and intrinsic factor, iron and B12 malabsorb, so lifelong supplementation is needed.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — HDGC's signet-ring cells spread across the peritoneum and can encase the bowel, the transcoelomic spread that makes diffuse gastric cancer so lethal once it escapes the stomach.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HDGC scleroses the stomach: signet-ring cells provoke a dense desmoplastic fibrosis (linitis plastica) that stiffens the wall and hides the cancer from endoscopy until it is advanced.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows why HDGC spreads diffusely: losing E-cadherin, the cells let go of one another and scatter as lone signet-ring cells, each with a mucin vacuole shoving its nucleus to the rim, never forming glands.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Signet-ring gastric cancer can seep into the marrow: HDGC's diffuse cells infiltrate the bone marrow, triggering a microangiopathic anemia and a leukoerythroblastic blood picture in advanced disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — HDGC spreads to the lung: beyond the peritoneum and liver, its scattered cells seed pulmonary and lymphangitic metastases, marking the widespread disease that prophylactic gastrectomy aims to prevent.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

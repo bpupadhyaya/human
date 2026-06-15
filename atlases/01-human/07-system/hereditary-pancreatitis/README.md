@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Chronic pancreatitis starves the gut lining of enzymes: without pancreatic lipase the intestinal epithelium can't absorb fat, causing the greasy steatorrhea and malnutrition of exocrine failure."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Hereditary pancreatitis is the gland digesting itself: the PRSS1 mutation lets trypsin activate prematurely inside the acinar cells, and electron microscopy shows the autodigested tissue replaced over time by fibrosis and calcified plugs."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Pancreatic inflammation can clot the splenic vein behind the stomach: the resulting back-pressure swells gastric varices that can bleed massively, a dangerous vascular complication of chronic pancreatitis."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Losing fat absorption thins the bones: chronic pancreatitis blocks uptake of vitamin D and calcium, so osteoporosis and fractures of the marrow-bearing skeleton are a common, under-recognized toll."
 ---
 
 # Hereditary Pancreatitis
@@ -315,6 +324,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Hereditary pancreatitis is mapped by imaging: CT and MRCP photons reveal the ductal stones, calcifications and atrophy of chronic disease, and screen the pancreas for the cancer it predisposes to.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe pancreatitis injures the kidneys: hypovolemia and inflammatory mediators cause acute kidney injury, a marker of severity that worsens the prognosis of an attack.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Chronic pancreatitis starves the gut lining of enzymes: without pancreatic lipase the intestinal epithelium can't absorb fat, causing the greasy steatorrhea and malnutrition of exocrine failure.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Hereditary pancreatitis is the gland digesting itself: the PRSS1 mutation lets trypsin activate prematurely inside the acinar cells, and electron microscopy shows the autodigested tissue replaced over time by fibrosis and calcified plugs.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Pancreatic inflammation can clot the splenic vein behind the stomach: the resulting back-pressure swells gastric varices that can bleed massively, a dangerous vascular complication of chronic pancreatitis.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Losing fat absorption thins the bones: chronic pancreatitis blocks uptake of vitamin D and calcium, so osteoporosis and fractures of the marrow-bearing skeleton are a common, under-recognized toll.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
