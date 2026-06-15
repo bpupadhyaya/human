@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Head and neck cancer spreads to distant organs late: beyond the lungs it can seed the liver and bone, marking the metastatic disease that shifts care toward systemic treatment."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy confirms head and neck cancer's squamous nature: the cells lock together with desmosomes, fill with keratin tonofilaments, and whorl into keratin pearls — the differentiation that grades the tumor."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Head and neck cancer eats into bone: oral and pharyngeal tumors invade the marrow-bearing mandible and maxilla, and advanced disease can seed distant skeletal metastases, the bony reach that complicates surgery."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Sinonasal and nasopharyngeal head-and-neck cancers threaten the eye: spreading through the thin orbital walls they cause proptosis, double vision, and vision loss as they invade the orbit."
 ---
 
 # HNSCC
@@ -286,6 +295,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc touches both cause and toxicity in head and neck cancer: deficiency contributes to risk, and radiotherapy's loss of taste is a zinc-related effect, so the trace metal matters across the disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Head and neck cancer creeps along nerves: perineural invasion lets it spread beyond the visible tumor, a poor prognostic feature that widens the surgical margins and radiation fields needed.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Head and neck cancer spreads to distant organs late: beyond the lungs it can seed the liver and bone, marking the metastatic disease that shifts care toward systemic treatment.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms head and neck cancer's squamous nature: the cells lock together with desmosomes, fill with keratin tonofilaments, and whorl into keratin pearls — the differentiation that grades the tumor.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Head and neck cancer eats into bone: oral and pharyngeal tumors invade the marrow-bearing mandible and maxilla, and advanced disease can seed distant skeletal metastases, the bony reach that complicates surgery.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sinonasal and nasopharyngeal head-and-neck cancers threaten the eye: spreading through the thin orbital walls they cause proptosis, double vision, and vision loss as they invade the orbit.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

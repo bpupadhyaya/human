@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "HLRCC's kidney cancer spreads far and fast: its early, aggressive metastasis can reach the brain along with bone and lung, a grim contrast to the indolent renal tumors of related syndromes."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "HLRCC poisons the cell with an oncometabolite: losing fumarate hydratase backs up fumarate, which jams the enzymes that sense oxygen and edit DNA — the metabolic short-circuit driving its leiomyomas and aggressive kidney cancer."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "HLRCC's renal cancer races to the skeleton: unlike the indolent tumors of related syndromes, its type-2 papillary RCC metastasizes early to bone and the marrow within, alongside lung and brain."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The aggressive kidney cancer also seeds the liver: HLRCC's renal tumors spread hematogenously to multiple organs, the liver among the sites that mark its grim, fast-moving metastatic course."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -303,6 +312,9 @@ Cutaneous:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — HLRCC demands aggressive imaging surveillance: because its kidney cancer spreads early, MRI and CT photons screen carriers from young adulthood to catch the tumor before it metastasizes.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HLRCC's renal tumor builds a desmoplastic stroma: its aggressive type-2 papillary cancer grows amid dense fibrous tissue, alongside the firm collagen-rich leiomyomas of skin and uterus.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — HLRCC's kidney cancer spreads far and fast: its early, aggressive metastasis can reach the brain along with bone and lung, a grim contrast to the indolent renal tumors of related syndromes.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — HLRCC poisons the cell with an oncometabolite: losing fumarate hydratase backs up fumarate, which jams the enzymes that sense oxygen and edit DNA — the metabolic short-circuit driving its leiomyomas and aggressive kidney cancer.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — HLRCC's renal cancer races to the skeleton: unlike the indolent tumors of related syndromes, its type-2 papillary RCC metastasizes early to bone and the marrow within, alongside lung and brain.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The aggressive kidney cancer also seeds the liver: HLRCC's renal tumors spread hematogenously to multiple organs, the liver among the sites that mark its grim, fast-moving metastatic course.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
