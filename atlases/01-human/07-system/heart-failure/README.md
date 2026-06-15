@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Anemia haunts heart failure: low red-cell counts, driven by kidney dysfunction and iron deficiency, force the failing heart to work harder for less oxygen delivery, worsening symptoms and prognosis in the cardiorenal-anemia syndrome."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid sets the heart's tempo: hyperthyroidism drives high-output failure and atrial fibrillation while hypothyroidism weakens contraction and slows the rate, so thyroid function is checked in new or worsening heart failure — and amiodarone can derange it."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Advanced heart failure wastes the body: cardiac cachexia and a congested, protein-losing gut drop albumin, and the low level both worsens the edema through reduced oncotic pressure and marks a grim prognosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Heart failure floods the body with water-holding hormone: the failing circulation triggers vasopressin release, which retains free water and dilutes the blood's sodium into the hyponatremia that flags severe disease and is targeted by vaptan drugs."
 ---
 
 # Heart Failure
@@ -248,6 +257,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads the failing heart muscle: it shows swollen, dysfunctional mitochondria and disarrayed sarcomeres, and reveals the tangled amyloid fibrils of cardiac amyloidosis, an increasingly recognized cause of stiff-heart failure.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium quietly slips away in heart failure: loop and thiazide diuretics flush it out, and the resulting deficiency primes the heart for arrhythmias and amplifies digoxin toxicity, so it is watched alongside potassium.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia haunts heart failure: low red-cell counts, driven by kidney dysfunction and iron deficiency, force the failing heart to work harder for less oxygen delivery, worsening symptoms and prognosis in the cardiorenal-anemia syndrome.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid sets the heart's tempo: hyperthyroidism drives high-output failure and atrial fibrillation while hypothyroidism weakens contraction and slows the rate, so thyroid function is checked in new or worsening heart failure — and amiodarone can derange it.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Advanced heart failure wastes the body: cardiac cachexia and a congested, protein-losing gut drop albumin, and the low level both worsens the edema through reduced oncotic pressure and marks a grim prognosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Heart failure floods the body with water-holding hormone: the failing circulation triggers vasopressin release, which retains free water and dilutes the blood's sodium into the hyponatremia that flags severe disease and is targeted by vaptan drugs.
 
 ## Pathology
 

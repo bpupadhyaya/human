@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Bleeding into the eye threatens sight in hemophilia: spontaneous or traumatic intraocular and retinal hemorrhages, like bleeds into other closed spaces, can raise pressure and damage vision if not promptly treated with factor replacement."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Hemophilia's bleeds can crush nerves: a deep muscle bleed — the classic iliopsoas hematoma — compresses the femoral nerve into palsy, while an intracranial hemorrhage destroys neurons directly, the most feared complication."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Hemophilia quietly weakens the skeleton: recurrent joint bleeds destroy cartilage and bone, and reduced activity plus chronic inflammation tip the osteoblast-osteoclast balance toward the low bone density common in these patients."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Why hemophilia bleeds late, not instantly: the first response to injury — reflex constriction of the vessel's smooth muscle and the platelet plug — is intact, so small cuts seal, but the missing factor VIII fails the later step, letting deep bleeds well up hours afterward."
 ---
 
 # Hemophilia A
@@ -304,6 +313,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — Hemophilia carries a tragic medical legacy: before viral screening and recombinant factor, the pooled plasma concentrates that treated it infected a large share of patients with HIV and hepatitis C, a catastrophe that reshaped blood-product safety.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows why hemophilia's clots fail: lacking factor VIII to drive thrombin, the fibrin mesh forms with fewer, thinner, loosely woven fibers, a fragile structure that cannot hold against ongoing bleeding.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Bleeding into the eye threatens sight in hemophilia: spontaneous or traumatic intraocular and retinal hemorrhages, like bleeds into other closed spaces, can raise pressure and damage vision if not promptly treated with factor replacement.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Hemophilia's bleeds can crush nerves: a deep muscle bleed — the classic iliopsoas hematoma — compresses the femoral nerve into palsy, while an intracranial hemorrhage destroys neurons directly, the most feared complication.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Hemophilia quietly weakens the skeleton: recurrent joint bleeds destroy cartilage and bone, and reduced activity plus chronic inflammation tip the osteoblast-osteoclast balance toward the low bone density common in these patients.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Why hemophilia bleeds late, not instantly: the first response to injury — reflex constriction of the vessel's smooth muscle and the platelet plug — is intact, so small cuts seal, but the missing factor VIII fails the later step, letting deep bleeds well up hours afterward.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
