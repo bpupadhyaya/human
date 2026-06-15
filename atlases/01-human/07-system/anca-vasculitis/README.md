@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Alveolar hemorrhage in ANCA vasculitis leaves an iron trail: blood in the air sacs is engulfed by iron-laden macrophages, and the falling hemoglobin marks the severity of the lung bleeding."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows what ANCA vasculitis lacks: its inflamed vessels are 'pauci-immune,' nearly free of the immune-complex deposits that fill other vasculitides, because ANCA-activated neutrophils attack the wall directly with their toxic granules and NETs."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The vasculitis can ulcerate the gut: inflammation of the mesenteric and gastric vessels causes abdominal pain, bleeding, and even bowel perforation, a dangerous abdominal manifestation of systemic disease."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "ANCA vasculitis can infarct the spleen: inflamed, clotting small arteries cut off blood to wedges of splenic tissue, one of the silent organ infarctions that mark widespread vascular involvement."
 ---
 
 # ANCA Vasculitis
@@ -319,6 +328,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging maps ANCA vasculitis: chest CT photons reveal the lung nodules, cavities and alveolar hemorrhage of granulomatosis, and sinus scans show the destructive upper-airway disease.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — ANCA vasculitis can flood the alveoli: capillaritis in the lung's gas-exchange units causes diffuse alveolar hemorrhage, a life-threatening bleed that fills the air sacs and drops the blood count.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Alveolar hemorrhage in ANCA vasculitis leaves an iron trail: blood in the air sacs is engulfed by iron-laden macrophages, and the falling hemoglobin marks the severity of the lung bleeding.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows what ANCA vasculitis lacks: its inflamed vessels are 'pauci-immune,' nearly free of the immune-complex deposits that fill other vasculitides, because ANCA-activated neutrophils attack the wall directly with their toxic granules and NETs.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The vasculitis can ulcerate the gut: inflammation of the mesenteric and gastric vessels causes abdominal pain, bleeding, and even bowel perforation, a dangerous abdominal manifestation of systemic disease.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — ANCA vasculitis can infarct the spleen: inflamed, clotting small arteries cut off blood to wedges of splenic tissue, one of the silent organ infarctions that mark widespread vascular involvement.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

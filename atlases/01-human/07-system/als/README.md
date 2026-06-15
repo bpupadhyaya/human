@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "ALS eventually defeats swallowing: as bulbar muscles fail, food and saliva are aspirated and nutrition suffers, so a feeding tube into the stomach (PEG) becomes a key supportive step."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals ALS inside the dying motor neuron: cytoplasmic aggregates of TDP-43 protein and rod-like Bunina bodies clog the cell as its axon withers, the pathological signature of the disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eyes are ALS's last refuge: the muscles moving them are spared until the very end, so eye-tracking devices let even locked-in patients keep communicating long after the rest of the body is paralyzed."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Immobility jams the bowel in ALS: weak abdominal and pelvic muscles plus reduced movement bring stubborn constipation, a common and distressing problem as the disease robs the body of motion."
 ---
 
 # ALS
@@ -323,6 +332,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging supports the ALS diagnosis: MRI photons rule out cord compression and other mimics, and can show corticospinal-tract changes, though the diagnosis rests on clinical and electrical findings.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron builds up in the ALS motor cortex: it deposits in the dying motor strip, visible as a dark 'motor band' on MRI, a marker that helps confirm the upper-motor-neuron degeneration.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — ALS eventually defeats swallowing: as bulbar muscles fail, food and saliva are aspirated and nutrition suffers, so a feeding tube into the stomach (PEG) becomes a key supportive step.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals ALS inside the dying motor neuron: cytoplasmic aggregates of TDP-43 protein and rod-like Bunina bodies clog the cell as its axon withers, the pathological signature of the disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eyes are ALS's last refuge: the muscles moving them are spared until the very end, so eye-tracking devices let even locked-in patients keep communicating long after the rest of the body is paralyzed.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Immobility jams the bowel in ALS: weak abdominal and pelvic muscles plus reduced movement bring stubborn constipation, a common and distressing problem as the disease robs the body of motion.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
