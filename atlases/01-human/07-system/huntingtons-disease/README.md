@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Huntington's most often ends through the lungs: as the disease destroys the control of swallowing, aspiration pneumonia becomes the leading cause of death, the same final pathway as other late neurodegenerations."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Huntington's starves the body despite eating: a hypermetabolic state plus the difficulty getting food down causes relentless weight loss, so high-calorie feeding and eventually a gastrostomy become part of care."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "The disease scrambles the body clock: degeneration of the brain's circadian centers blunts melatonin and fragments sleep, with insomnia and reversed day-night rhythms appearing even before the chorea."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Huntington's writes itself on movement: the writhing chorea gives way over years to rigidity and dystonia, and the constant motion plus poor intake wastes muscle, driving the falls and disability that define its course."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -217,3 +226,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals Huntington's protein clumps: the expanded-glutamine huntingtin aggregates into dense intranuclear inclusions inside striatal neurons, the misfolded-protein lesion that marks the disease's relentless cell death.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eyes betray Huntington's early: slowed and broken saccadic eye movements appear before the chorea is obvious, an early, measurable sign clinicians use to track the disease's onset and progression.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Huntington's most often ends through the lungs: as the disease destroys the control of swallowing, aspiration pneumonia becomes the leading cause of death, the same final pathway as other late neurodegenerations.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Huntington's starves the body despite eating: a hypermetabolic state plus the difficulty getting food down causes relentless weight loss, so high-calorie feeding and eventually a gastrostomy become part of care.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The disease scrambles the body clock: degeneration of the brain's circadian centers blunts melatonin and fragments sleep, with insomnia and reversed day-night rhythms appearing even before the chorea.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Huntington's writes itself on movement: the writhing chorea gives way over years to rigidity and dystonia, and the constant motion plus poor intake wastes muscle, driving the falls and disability that define its course.

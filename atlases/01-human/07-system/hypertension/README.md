@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Untreated hypertension floods the lungs: as the pressure-strained left ventricle stiffens and fails, blood backs up into the pulmonary vessels, causing the breathlessness and flash pulmonary edema of hypertensive heart disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Blood pressure touches reproduction at both ends: it underlies preeclampsia and pregnancy hypertension that endanger mother and fetus, and chronic hypertension and its drugs are common causes of erectile dysfunction."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "A pressure spike can overwhelm the brain: in a hypertensive emergency, autoregulation fails and fluid leaks around neurons into hypertensive encephalopathy and the posterior reversible encephalopathy syndrome (PRES), with headache, confusion, and seizures."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid is a fixable cause: hyperthyroidism raises systolic pressure and the pulse, while hypothyroidism stiffens vessels into a diastolic hypertension, so thyroid function is checked when secondary hypertension is sought."
 ---
 
 # Hypertension
@@ -274,6 +283,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how pressure remodels the arteries: chronic hypertension thickens small-vessel walls with glassy hyaline deposits and muscle overgrowth, and in malignant disease the wall undergoes fibrinoid necrosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hypertension's vascular damage can starve the bowel: hardened, narrowed mesenteric arteries make the gut prone to ischemic colitis, especially when blood pressure suddenly drops in an already-diseased circulation.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Untreated hypertension floods the lungs: as the pressure-strained left ventricle stiffens and fails, blood backs up into the pulmonary vessels, causing the breathlessness and flash pulmonary edema of hypertensive heart disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Blood pressure touches reproduction at both ends: it underlies preeclampsia and pregnancy hypertension that endanger mother and fetus, and chronic hypertension and its drugs are common causes of erectile dysfunction.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A pressure spike can overwhelm the brain: in a hypertensive emergency, autoregulation fails and fluid leaks around neurons into hypertensive encephalopathy and the posterior reversible encephalopathy syndrome (PRES), with headache, confusion, and seizures.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is a fixable cause: hyperthyroidism raises systolic pressure and the pulse, while hypothyroidism stiffens vessels into a diastolic hypertension, so thyroid function is checked when secondary hypertension is sought.
 
 ## Pathology
 
