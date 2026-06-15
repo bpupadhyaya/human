@@ -143,6 +143,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Skin and kidney share the vitamin D relay: the skin makes vitamin D₃ from sunlight, the kidney performs its final activation, and failing kidneys repay the skin with the relentless itch of uremic pruritus."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol thins and weakens the skin: chronic steroid excess, from Cushing's or long treatment, atrophies the dermis into purple striae, easy bruising, and poor wound healing, making the skin a visible readout of glucocorticoid load."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron status writes itself on skin, hair, and nails: deficiency brings pallor, hair loss, and spoon-shaped koilonychia, while iron overload in hemochromatosis bronzes the skin — the integument reporting the body's iron stores."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Dermal macrophages are the skin's clean-up and defense corps: they engulf invaders and debris breaching the barrier, orchestrate wound repair, and even carry the tattoo pigment that stays locked in the dermis for life."
 ---
 
 # Integumentary System
@@ -290,6 +299,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormone tunes the skin: too little leaves it dry, cool, and puffy with myxedema and brittle hair, while too much makes it warm, moist, and flushed — so the skin and its appendages often read out thyroid status at a glance.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — The skin is a window onto the blood: its color reflects hemoglobin — pallor in anemia, bluish cyanosis when deoxygenated hemoglobin rises, and the yellow of jaundice when its breakdown pigment bilirubin builds up.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Skin and kidney share the vitamin D relay: the skin makes vitamin D₃ from sunlight, the kidney performs its final activation, and failing kidneys repay the skin with the relentless itch of uremic pruritus.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol thins and weakens the skin: chronic steroid excess, from Cushing's or long treatment, atrophies the dermis into purple striae, easy bruising, and poor wound healing, making the skin a visible readout of glucocorticoid load.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron status writes itself on skin, hair, and nails: deficiency brings pallor, hair loss, and spoon-shaped koilonychia, while iron overload in hemochromatosis bronzes the skin — the integument reporting the body's iron stores.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermal macrophages are the skin's clean-up and defense corps: they engulf invaders and debris breaching the barrier, orchestrate wound repair, and even carry the tattoo pigment that stays locked in the dermis for life.
 
 ## Pathology
 

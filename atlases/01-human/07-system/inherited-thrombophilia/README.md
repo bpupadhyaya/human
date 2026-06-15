@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Clots in the brain's drainage threaten neurons: inherited thrombophilia is a leading cause of cerebral venous sinus thrombosis, where backed-up pressure and infarction injure neurons, causing headache, seizures, and focal deficits."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The workup must separate genes from antibodies: inherited thrombophilia is gene-driven, so its diagnosis hinges on ruling out the acquired antiphospholipid antibody syndrome, whose autoantibodies cause an indistinguishable clotting tendency by a different mechanism."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It surfaces most often in women's reproductive lives: thrombophilia drives recurrent miscarriage and placental clots, and the estrogen of the pill or pregnancy multiplies the clot risk, making it a key consideration in contraception and obstetric care."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "It can clot the gut's circulation: inherited hypercoagulability is a leading cause of mesenteric vein thrombosis, choking the bowel's drainage into ischemia with severe abdominal pain out of proportion to the exam."
 ---
 
 # Inherited Thrombophilia
@@ -354,6 +363,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Protein C deficiency writes itself on the skin: starting warfarin can trigger paradoxical skin necrosis as protein C falls fastest, and homozygous deficiency causes neonatal purpura fulminans, dark patches of skin infarction in the newborn.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Thrombophilia can clot the eye's veins: retinal vein occlusion, especially in the young, prompts a search for an inherited hypercoagulable state, the clot in the retina blurring or dimming vision suddenly.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Clots in the brain's drainage threaten neurons: inherited thrombophilia is a leading cause of cerebral venous sinus thrombosis, where backed-up pressure and infarction injure neurons, causing headache, seizures, and focal deficits.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The workup must separate genes from antibodies: inherited thrombophilia is gene-driven, so its diagnosis hinges on ruling out the acquired antiphospholipid antibody syndrome, whose autoantibodies cause an indistinguishable clotting tendency by a different mechanism.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It surfaces most often in women's reproductive lives: thrombophilia drives recurrent miscarriage and placental clots, and the estrogen of the pill or pregnancy multiplies the clot risk, making it a key consideration in contraception and obstetric care.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — It can clot the gut's circulation: inherited hypercoagulability is a leading cause of mesenteric vein thrombosis, choking the bowel's drainage into ischemia with severe abdominal pain out of proportion to the exam.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
