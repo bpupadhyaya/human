@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney feels the disease's overflow: extramedullary blood formation can settle there, and the rapid cell turnover floods the blood with uric acid that crystallizes in the tubules, threatening urate nephropathy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Myelofibrosis builds a dense new vasculature in the marrow: the malignant clone drives VEGF, and the resulting marrow neoangiogenesis — a rise in microvessel density — is part of the pathology pathologists grade alongside the scarring."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "The disease wastes the body: drenching night sweats, fevers, and weight loss are hallmark constitutional symptoms, and the cachexia they cause lowers albumin — a marker of the burden that figures into prognosis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Even as it scars the marrow, myelofibrosis stays prothrombotic: like its sister myeloproliferative neoplasms it raises the risk of venous and arterial clots, especially with a JAK2 mutation and a high blood count earlier in the disease."
 ---
 
 # Myelofibrosis
@@ -303,6 +312,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy catches the cell driving the scarring: dysplastic megakaryocytes spill their granule contents — TGF-β and PDGF — that goad marrow fibroblasts into laying down the collagen and reticulin choking out blood production.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Myelofibrosis can turn marrow to stone: as fibrosis advances it often brings osteosclerosis, a thickening of the bone with extra calcium-phosphate mineral that shows as dense, sclerotic bones on X-ray.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney feels the disease's overflow: extramedullary blood formation can settle there, and the rapid cell turnover floods the blood with uric acid that crystallizes in the tubules, threatening urate nephropathy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Myelofibrosis builds a dense new vasculature in the marrow: the malignant clone drives VEGF, and the resulting marrow neoangiogenesis — a rise in microvessel density — is part of the pathology pathologists grade alongside the scarring.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — The disease wastes the body: drenching night sweats, fevers, and weight loss are hallmark constitutional symptoms, and the cachexia they cause lowers albumin — a marker of the burden that figures into prognosis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Even as it scars the marrow, myelofibrosis stays prothrombotic: like its sister myeloproliferative neoplasms it raises the risk of venous and arterial clots, especially with a JAK2 mutation and a high blood count earlier in the disease.
 
 ---
 

@@ -134,6 +134,15 @@ cross_links:
   - target: 01-human/03-molecular/troponin-complex
     relation: connects-to
     note: "Troponin is the switch that lets muscle pull: when calcium binds it, the complex shifts tropomyosin off the actin filament, baring the sites where myosin grabs on — the molecular trigger that turns a calcium signal into force."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Growth hormone builds the system in childhood and maintains it after: it lengthens bone at the growth plates, spurs muscle protein synthesis through IGF-1, and its lifelong decline contributes to the muscle and bone loss of aging."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Testosterone is the body's chief anabolic signal for muscle and bone: it enlarges muscle fibers and raises bone density, so its fall with age or hypogonadism drives the sarcopenia and osteoporosis of the aging skeleton."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Cortisol is the catabolic counterweight: chronic excess — from disease or steroid drugs — breaks down muscle protein into a proximal myopathy and strips bone into osteoporosis, the opposite of the anabolic hormones' effects."
 ---
 
 # Musculoskeletal System
@@ -309,6 +318,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals how the body moves and stands: muscle's interdigitating actin and myosin filaments sliding past their Z-discs, and bone's collagen fibrils studded with hydroxyapatite crystals around osteocytes in their lacunae.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium fires the command to move: a nerve impulse floods sodium into the muscle membrane, and the spreading depolarization sweeps down the T-tubules to release the calcium that triggers each contraction.
 - `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Troponin is the switch that lets muscle pull: when calcium binds it, the complex shifts tropomyosin off the actin filament, baring the sites where myosin grabs on — the molecular trigger that turns a calcium signal into force.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth hormone builds the system in childhood and maintains it after: it lengthens bone at the growth plates, spurs muscle protein synthesis through IGF-1, and its lifelong decline contributes to the muscle and bone loss of aging.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Testosterone is the body's chief anabolic signal for muscle and bone: it enlarges muscle fibers and raises bone density, so its fall with age or hypogonadism drives the sarcopenia and osteoporosis of the aging skeleton.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol is the catabolic counterweight: chronic excess — from disease or steroid drugs — breaks down muscle protein into a proximal myopathy and strips bone into osteoporosis, the opposite of the anabolic hormones' effects.
 
 ## Pathology
 
