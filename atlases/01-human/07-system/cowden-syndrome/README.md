@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "Cowden carpets the gut with polyps: hamartomatous and other polyps stud the intestinal epithelium throughout the GI tract, raising colorectal cancer risk and prompting scope surveillance."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals Cowden's hamartomas: the trichilemmomas studding the face arise from hair-follicle outer-root-sheath cells, while in the brain dysplastic ganglion cells swell the cerebellum into Lhermitte-Duclos disease."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Cowden polyps fill the upper gut too: hamartomatous and hyperplastic polyps line the stomach as well as the colon, part of the diffuse gastrointestinal polyposis that defines the PTEN syndrome."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Cowden's facial papules ring the eyes: the wart-like trichilemmomas cluster around the eyelids and mouth, a characteristic mucocutaneous sign that prompts genetic testing for the underlying PTEN mutation."
 ---
 
 # Cowden Syndrome
@@ -351,6 +360,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Cowden demands lifelong imaging surveillance: breast MRI and mammography, thyroid ultrasound and brain MRI screen the many organs its PTEN mutation threatens with tumors.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PTEN hamartoma syndrome grows vascular lesions: arteriovenous and venous malformations of endothelial cells are part of Cowden's spectrum, alongside its other hamartomas.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Cowden carpets the gut with polyps: hamartomatous and other polyps stud the intestinal epithelium throughout the GI tract, raising colorectal cancer risk and prompting scope surveillance.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals Cowden's hamartomas: the trichilemmomas studding the face arise from hair-follicle outer-root-sheath cells, while in the brain dysplastic ganglion cells swell the cerebellum into Lhermitte-Duclos disease.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Cowden polyps fill the upper gut too: hamartomatous and hyperplastic polyps line the stomach as well as the colon, part of the diffuse gastrointestinal polyposis that defines the PTEN syndrome.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Cowden's facial papules ring the eyes: the wart-like trichilemmomas cluster around the eyelids and mouth, a characteristic mucocutaneous sign that prompts genetic testing for the underlying PTEN mutation.
 
 ---
 

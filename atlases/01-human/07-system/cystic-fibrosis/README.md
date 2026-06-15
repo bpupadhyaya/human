@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/intestinal-epithelium
     relation: connects-to
     note: "CFTR lines the gut: without it the intestinal epithelium can't hydrate its secretions, so thick mucus causes meconium ileus, malabsorption and obstruction throughout the bowel."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the failed mucociliary escalator: with CFTR's chloride channel broken, the airway surface dehydrates, the protective fluid layer collapses, and the cilia flatten under thick, immovable mucus."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Decades of lung disease overload the right heart: chronic low oxygen raises pulmonary pressures until the right ventricle fails into cor pulmonale, a common terminal pathway in advanced cystic fibrosis."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney bears the cost of treatment: lifelong courses of aminoglycoside antibiotics for lung infections are nephrotoxic, and dehydration and stones add to the renal risk these patients carry."
 ---
 
 # Cystic Fibrosis
@@ -299,6 +308,9 @@ AND
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — CF lungs are tracked by imaging: chest CT photons reveal the bronchiectasis—dilated, mucus-filled airways—and plugging that map the progressive lung destruction long before lung function fails.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CF is diagnosed through the skin: defective CFTR can't reabsorb chloride in sweat glands, so the sweat is salty—the basis of the sweat-chloride test and the 'salty kiss' parents notice.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — CFTR lines the gut: without it the intestinal epithelium can't hydrate its secretions, so thick mucus causes meconium ileus, malabsorption and obstruction throughout the bowel.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the failed mucociliary escalator: with CFTR's chloride channel broken, the airway surface dehydrates, the protective fluid layer collapses, and the cilia flatten under thick, immovable mucus.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Decades of lung disease overload the right heart: chronic low oxygen raises pulmonary pressures until the right ventricle fails into cor pulmonale, a common terminal pathway in advanced cystic fibrosis.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney bears the cost of treatment: lifelong courses of aminoglycoside antibiotics for lung infections are nephrotoxic, and dehydration and stones add to the renal risk these patients carry.
 
 ---
 
