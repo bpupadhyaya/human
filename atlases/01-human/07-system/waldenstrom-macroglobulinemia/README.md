@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Marrow and treatment both lower the counts: the lymphoplasmacytic infiltrate crowds out normal blood production, and the chemo and BTK-inhibitor therapy add their own myelosuppression, dropping neutrophils and raising infection risk."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "The IgM can attack the nerves: in many patients it binds myelin-associated glycoprotein, stripping the peripheral nerves into a slow demyelinating neuropathy with numb, tingling, unsteady feet — sometimes the first sign of the disease."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 fuels the IgM factory: the cytokine pushes the malignant B cells toward plasma-cell differentiation and antibody output, helping sustain the monoclonal IgM that defines and harms in Waldenström's."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Rituximab leans on natural killer cells: the anti-CD20 antibody tags the tumor B cells for NK-mediated killing (ADCC), so the strength of the NK response shapes how well this mainstay therapy works."
 ---
 
 # Waldenström Macroglobulinemia
@@ -317,6 +326,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It is a lymphoma at heart: the lymphoplasmacytic clone of Waldenström infiltrates lymph nodes and spleen, so lymphadenopathy and splenomegaly accompany the marrow disease, marking its place among the indolent B-cell lymphomas.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The clone can seed the gut: infiltration of the bowel wall by lymphoplasmacytic cells, and IgM deposition, cause malabsorption, diarrhea, and bleeding — an uncommon but recognized extramedullary face of the disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Marrow and treatment both lower the counts: the lymphoplasmacytic infiltrate crowds out normal blood production, and the chemo and BTK-inhibitor therapy add their own myelosuppression, dropping neutrophils and raising infection risk.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — The IgM can attack the nerves: in many patients it binds myelin-associated glycoprotein, stripping the peripheral nerves into a slow demyelinating neuropathy with numb, tingling, unsteady feet — sometimes the first sign of the disease.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 fuels the IgM factory: the cytokine pushes the malignant B cells toward plasma-cell differentiation and antibody output, helping sustain the monoclonal IgM that defines and harms in Waldenström's.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Rituximab leans on natural killer cells: the anti-CD20 antibody tags the tumor B cells for NK-mediated killing (ADCC), so the strength of the NK response shapes how well this mainstay therapy works.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

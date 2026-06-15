@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Rarely the virus inflames the liver: fulminant West Nile hepatitis is an uncommon but described severe presentation, the flavivirus injuring hepatocytes far from its usual target in the nervous system."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The virus breaches the blood-brain barrier through the vessel wall: it infects brain microvascular endothelial cells and, with TNF-driven leakiness, loosens the barrier so the virus and immune cells flood into the brain."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Neuroinvasive disease runs hot with IL-6: the cytokine pours into the inflamed brain and spinal fluid, and high CSF IL-6 tracks with the severity of West Nile encephalitis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Antibody is the key to survival: plasma cells must quickly pour out neutralizing IgM and IgG to clear the virus from the blood before it reaches the brain, which is why antibody-deficient people fare so badly."
 ---
 
 # West Nile Virus
@@ -322,3 +331,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Its worst form mimics polio: West Nile attacks the spinal cord's anterior horn motor neurons, causing an acute flaccid paralysis with muscle wasting, while even mild infection brings the prominent myalgia of West Nile fever.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Severe infection drops the platelets: West Nile can cause thrombocytopenia through marrow suppression and consumption, a falling count among the markers of the more dangerous, neuroinvasive course.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Rarely the virus inflames the liver: fulminant West Nile hepatitis is an uncommon but described severe presentation, the flavivirus injuring hepatocytes far from its usual target in the nervous system.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The virus breaches the blood-brain barrier through the vessel wall: it infects brain microvascular endothelial cells and, with TNF-driven leakiness, loosens the barrier so the virus and immune cells flood into the brain.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Neuroinvasive disease runs hot with IL-6: the cytokine pours into the inflamed brain and spinal fluid, and high CSF IL-6 tracks with the severity of West Nile encephalitis.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Antibody is the key to survival: plasma cells must quickly pour out neutralizing IgM and IgG to clear the virus from the blood before it reaches the brain, which is why antibody-deficient people fare so badly.
