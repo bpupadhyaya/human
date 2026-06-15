@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Injection drug use scars and infects the skin: track marks, abscesses and cellulitis from non-sterile injection are common, sometimes the first visible clue to hidden opioid use."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "An overdose can wreck the kidneys: lying unconscious and immobile crushes muscle into rhabdomyolysis, and the released myoglobin floods the renal tubules, a common cause of acute kidney injury after a heroin overdose."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Overdose stupor can crush the nerves: hours spent motionless and unrousable compress peripheral nerves against bone, leaving the wrist-drop or foot-drop palsies that linger after the opioid wears off."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Injection seeds clots on the heart's valves: bacteria delivered straight into the blood build platelet-fibrin vegetations of infective endocarditis, which break off as septic emboli to the lungs, brain, and beyond."
 ---
 
 # Opioid Use Disorder
@@ -334,6 +343,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging reveals opioids' grip: fMRI photons show the reward circuit firing to drug cues, and MRI can expose the anoxic brain injury left by a survived overdose.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Injection opioid use infects the endothelium: shared needles seed bacteria onto heart-valve and vessel-lining endothelial cells, causing the infective endocarditis that is a major killer in the epidemic.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Injection drug use scars and infects the skin: track marks, abscesses and cellulitis from non-sterile injection are common, sometimes the first visible clue to hidden opioid use.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — An overdose can wreck the kidneys: lying unconscious and immobile crushes muscle into rhabdomyolysis, and the released myoglobin floods the renal tubules, a common cause of acute kidney injury after a heroin overdose.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Overdose stupor can crush the nerves: hours spent motionless and unrousable compress peripheral nerves against bone, leaving the wrist-drop or foot-drop palsies that linger after the opioid wears off.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Injection seeds clots on the heart's valves: bacteria delivered straight into the blood build platelet-fibrin vegetations of infective endocarditis, which break off as septic emboli to the lungs, brain, and beyond.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
