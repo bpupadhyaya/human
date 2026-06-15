@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The polyps are not confined to the colon: beyond its debated colorectal risk, BHD can stud the stomach and upper GI tract with polyps, part of the FLCN-driven overgrowth that surfaces across many epithelia."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "BHD is autosomal dominant: a single germline FLCN mutation passes to half of a carrier's children, so diagnosis triggers cascade genetic testing of relatives and the option of preimplantation or prenatal testing to keep the kidney and lung risk from reaching the next generation."
+  - target: 01-human/07-system/basal-cell-carcinoma
+    relation: connects-to
+    note: "BHD's facial papules mimic skin cancer: its fibrofolliculomas are benign hair-follicle hamartomas that can be mistaken clinically for basal cell carcinoma, so a biopsy distinguishing the two is what often first points to the underlying FLCN syndrome."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "BHD's kidney surgery costs red cells: repeated nephron-sparing resections of its recurrent renal tumors, and the loss of functioning kidney tissue that makes erythropoietin, can leave carriers anemic over a lifetime of tumor surveillance and surgery."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -336,6 +345,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — BHD's lung cysts form where the wall gives way: FLCN loss weakens cell-cell adhesion in the alveolar and small-airway walls, so under the mechanical stretch of breathing the tissue tears into basal, subpleural cysts that rupture as pneumothorax.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — FLCN keeps cells stuck together: the protein helps maintain the adherens junctions linking epithelial and endothelial cells, and its loss loosens these contacts — a shared thread behind the syndrome's lung cysts and hypervascular kidney tumors.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The polyps are not confined to the colon: beyond its debated colorectal risk, BHD can stud the stomach and upper GI tract with polyps, part of the FLCN-driven overgrowth that surfaces across many epithelia.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — BHD is autosomal dominant: a single germline FLCN mutation passes to half of a carrier's children, so diagnosis triggers cascade genetic testing of relatives and the option of preimplantation or prenatal testing to keep the kidney and lung risk from reaching the next generation.
+- `connects-to` → **[Basal Cell Carcinoma](../basal-cell-carcinoma/README.md)** — BHD's facial papules mimic skin cancer: its fibrofolliculomas are benign hair-follicle hamartomas that can be mistaken clinically for basal cell carcinoma, so a biopsy distinguishing the two is what often first points to the underlying FLCN syndrome.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — BHD's kidney surgery costs red cells: repeated nephron-sparing resections of its recurrent renal tumors, and the loss of functioning kidney tissue that makes erythropoietin, can leave carriers anemic over a lifetime of tumor surveillance and surgery.
 
 ---
 

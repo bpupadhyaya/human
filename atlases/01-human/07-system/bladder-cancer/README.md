@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "The platinum chemotherapy frays the nerves: cisplatin, the backbone of bladder cancer regimens, injures peripheral sensory neurons and the cochlear nerve, leaving numbness and hearing loss that can outlast treatment."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Bladder cancer is treated with a live mycobacterium: intravesical BCG — the attenuated M. bovis strain kin to the TB bacillus — is the standard adjuvant for high-risk non-muscle-invasive disease, igniting a Th1 response that clears tumor cells and can resemble disseminated TB."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Radical cystectomy reaches the reproductive organs: removing the bladder for muscle-invasive cancer usually takes the prostate and seminal vesicles in men, or the uterus and ovaries in women, costing fertility and sexual function alongside urinary diversion."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Bladder cancer drives a clotting state: paraneoplastic thrombocytosis is common and marks worse prognosis, and the tumor's pro-coagulant milieu raises the risk of venous thromboembolism that complicates surgery and chemotherapy."
 ---
 
 # Bladder Cancer
@@ -324,6 +333,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Blood in the urine is the warning sign: painless hematuria — red cells shed into the urine by the friable tumor — is the cardinal presentation of bladder cancer, and chronic loss can leave the patient iron-deficient and anemic.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Engineered antibodies now treat bladder cancer: checkpoint inhibitors like pembrolizumab release the immune brakes, and the antibody-drug conjugate enfortumab vedotin delivers a toxin to nectin-4 on the tumor cells.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The platinum chemotherapy frays the nerves: cisplatin, the backbone of bladder cancer regimens, injures peripheral sensory neurons and the cochlear nerve, leaving numbness and hearing loss that can outlast treatment.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Bladder cancer is treated with a live mycobacterium: intravesical BCG — the attenuated M. bovis strain kin to the TB bacillus — is the standard adjuvant for high-risk non-muscle-invasive disease, igniting a Th1 response that clears tumor cells and can resemble disseminated TB.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Radical cystectomy reaches the reproductive organs: removing the bladder for muscle-invasive cancer usually takes the prostate and seminal vesicles in men, or the uterus and ovaries in women, costing fertility and sexual function alongside urinary diversion.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Bladder cancer drives a clotting state: paraneoplastic thrombocytosis is common and marks worse prognosis, and the tumor's pro-coagulant milieu raises the risk of venous thromboembolism that complicates surgery and chemotherapy.
 
 ---
 
