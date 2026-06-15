@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Giant cell arteritis heals into fibrosis: the inflamed artery wall thickens its inner layer with fibrous tissue, narrowing the lumen, so scarring—not just acute swelling—drives the lasting blockage and ischemia."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "GCA is found by imaging and biopsy: ultrasound shows the artery-wall 'halo,' PET lights up large-vessel inflammation, and the temporal-artery biopsy reveals giant cells under the microscope."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "GCA can starve the nerves: ischemia from vasculitis of the vasa nervorum causes peripheral neuropathy and mononeuritis, beyond the optic-nerve infarction that threatens sight."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "GCA's treatment threatens bone: the prolonged high-dose steroids needed to prevent blindness leach calcium and cause osteoporosis, a major long-term harm of controlling the disease."
 ---
 
 # Giant Cell Arteritis
@@ -274,6 +283,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Giant cell arteritis drives down iron use: its intense systemic inflammation suppresses red-cell production and locks iron away, causing the anemia of chronic disease that, with a sky-high ESR, supports the diagnosis.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Giant cell arteritis can show on the scalp: the inflamed scalp arteries make it tender and, when severely blocked, can cause scalp or tongue necrosis—dramatic signs of the vasculitis starving surface tissues.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Giant cell arteritis heals into fibrosis: the inflamed artery wall thickens its inner layer with fibrous tissue, narrowing the lumen, so scarring—not just acute swelling—drives the lasting blockage and ischemia.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — GCA is found by imaging and biopsy: ultrasound shows the artery-wall 'halo,' PET lights up large-vessel inflammation, and the temporal-artery biopsy reveals giant cells under the microscope.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — GCA can starve the nerves: ischemia from vasculitis of the vasa nervorum causes peripheral neuropathy and mononeuritis, beyond the optic-nerve infarction that threatens sight.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GCA's treatment threatens bone: the prolonged high-dose steroids needed to prevent blindness leach calcium and cause osteoporosis, a major long-term harm of controlling the disease.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
