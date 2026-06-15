@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α destabilizes FH's plaques: plaque macrophages pour out this cytokine, whose inflammation thins the fibrous cap and helps tip a quiet lesion toward the rupture that triggers a heart attack."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals where the excess cholesterol piles up: macrophages gorge on LDL until they become lipid-stuffed foam cells, and needle-shaped cholesterol clefts stud the xanthomas and plaques that scar FH's arteries and tendons."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Premature atherosclerosis can starve the gut: FH's early, severe plaque burden narrows the mesenteric arteries too, so chronic intestinal angina — abdominal pain after eating — can join its better-known heart and brain disease."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "FH's cholesterol-laden aorta can shower emboli: fragments of plaque break off as cholesterol crystals that lodge in small vessels of the spleen, kidneys, and skin, a multi-organ embolic syndrome of advanced disease."
 ---
 
 # Familial Hypercholesterolemia
@@ -283,6 +292,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — FH's lifelong high LDL threatens the brain too: it accelerates carotid and cerebral atherosclerosis, raising the risk of ischemic stroke and vascular cognitive decline, not just heart attacks.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — FH deposits cholesterol in connective tissue: Achilles and knuckle tendon xanthomas are a hallmark, fibrous tissue infiltrated by lipid-laden cells, mirroring the fibrous cap that walls off an artery plaque.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α destabilizes FH's plaques: plaque macrophages pour out this cytokine, whose inflammation thins the fibrous cap and helps tip a quiet lesion toward the rupture that triggers a heart attack.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals where the excess cholesterol piles up: macrophages gorge on LDL until they become lipid-stuffed foam cells, and needle-shaped cholesterol clefts stud the xanthomas and plaques that scar FH's arteries and tendons.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Premature atherosclerosis can starve the gut: FH's early, severe plaque burden narrows the mesenteric arteries too, so chronic intestinal angina — abdominal pain after eating — can join its better-known heart and brain disease.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — FH's cholesterol-laden aorta can shower emboli: fragments of plaque break off as cholesterol crystals that lodge in small vessels of the spleen, kidneys, and skin, a multi-organ embolic syndrome of advanced disease.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

@@ -117,6 +117,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Gambling thrills the heart: the arousal of betting spikes heart rate and blood pressure, an autonomic surge that makes the risk feel rewarding and strains the cardiovascular system in chronic players."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Chronic gambling stress drains magnesium: the sustained arousal and HPA activation deplete the mineral that normally tempers the dopamine reward and stress pathways, a deficiency that may sharpen craving and anxiety."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Gambling rarely travels alone: it is tightly comorbid with alcohol use disorder, so the liver disease of heavy drinking often shadows the gambling, the two addictions sharing the same reward circuitry."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut feels the gambler's stress: chronic anxiety and arousal disturb the gut-brain axis, bringing the cramping and altered bowel habits of stress-related gastrointestinal upset alongside the compulsion."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -296,6 +305,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons expose gambling's hijacked reward circuit: the ventral striatum over-responds to wins and near-misses, the same dopamine pathway lit up in drug addiction.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help shape the reward circuit by regulating glutamate at synapses, contributing to the plasticity that hardens repeated betting into a compulsion.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Gambling thrills the heart: the arousal of betting spikes heart rate and blood pressure, an autonomic surge that makes the risk feel rewarding and strains the cardiovascular system in chronic players.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic gambling stress drains magnesium: the sustained arousal and HPA activation deplete the mineral that normally tempers the dopamine reward and stress pathways, a deficiency that may sharpen craving and anxiety.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Gambling rarely travels alone: it is tightly comorbid with alcohol use disorder, so the liver disease of heavy drinking often shadows the gambling, the two addictions sharing the same reward circuitry.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut feels the gambler's stress: chronic anxiety and arousal disturb the gut-brain axis, bringing the cramping and altered bowel habits of stress-related gastrointestinal upset alongside the compulsion.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
