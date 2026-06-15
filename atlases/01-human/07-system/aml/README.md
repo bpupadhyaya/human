@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells are central to anti-leukemia immunity in AML: presenting blast antigens, they prime the T-cell and graft-versus-leukemia response, and dendritic-cell vaccines are explored to prevent relapse after treatment."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "AML's many transfusions load the body with iron: repeated red-cell support and a hungry marrow drive iron overload, and the leukemic cells' own iron handling is studied as a metabolic vulnerability."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "AML can spill out of the marrow into the spleen: leukemic infiltration and extramedullary hematopoiesis enlarge the organ, one of the soft-tissue sites where myeloid blasts gather beyond the bloodstream."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "RUNX1 mutation defines a tough AML subtype: this master transcription factor of blood-cell development, when lost, yields a leukemia with poorer response, recognized as its own high-risk disease entity."
 ---
 
 # AML
@@ -270,6 +279,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AML suffocates the body by crowding out red cells: leukemic blasts pack the marrow and choke normal blood production, so anemia and low oxygen delivery—fatigue and breathlessness—are common presenting signs of the disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — AML can invade the brain and meninges: myeloid sarcoma and leptomeningeal spread, more common in monocytic subtypes, seed the CNS, so neurologic symptoms prompt spinal fluid testing and CNS-directed treatment.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are central to anti-leukemia immunity in AML: presenting blast antigens, they prime the T-cell and graft-versus-leukemia response, and dendritic-cell vaccines are explored to prevent relapse after treatment.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — AML's many transfusions load the body with iron: repeated red-cell support and a hungry marrow drive iron overload, and the leukemic cells' own iron handling is studied as a metabolic vulnerability.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — AML can spill out of the marrow into the spleen: leukemic infiltration and extramedullary hematopoiesis enlarge the organ, one of the soft-tissue sites where myeloid blasts gather beyond the bloodstream.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 mutation defines a tough AML subtype: this master transcription factor of blood-cell development, when lost, yields a leukemia with poorer response, recognized as its own high-risk disease entity.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

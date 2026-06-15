@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages bridge gut and spine in ankylosing spondylitis: activated in the inflamed bowel and at the entheses, they pour out TNF and other cytokines that drive the inflammation, making them a hub of the IL-23/IL-17-fed disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The earliest AS lesion lives in bone: marrow edema (osteitis) in the sacroiliac joints is the MRI hallmark that lets doctors catch axial disease years before X-rays show fusion."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "AS is defined by what X-ray photons reveal: radiographic sacroiliitis and the fused bamboo spine confirm the disease, while MRI catches the earlier inflammation that plain films miss."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "The syndesmophytes that weld the AS spine are built of bone mineral: new bone formation lays down calcium-phosphate hydroxyapatite, so phosphate as well as calcium feeds the pathological fusion."
 ---
 
 # Ankylosing Spondylitis
@@ -268,6 +277,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A gut-joint axis drives ankylosing spondylitis: subclinical bowel inflammation and a disturbed microbiome prime the IL-23/IL-17 response that attacks the spine, linking the large intestine to the disease and its overlap with IBD.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Ankylosing spondylitis both erodes and fuses bone: osteoclasts carve early erosions at inflamed entheses even as new bone later bridges the joints, so the same disease that destroys bone ends by welding the spine rigid.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages bridge gut and spine in ankylosing spondylitis: activated in the inflamed bowel and at the entheses, they pour out TNF and other cytokines that drive the inflammation, making them a hub of the IL-23/IL-17-fed disease.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The earliest AS lesion lives in bone: marrow edema (osteitis) in the sacroiliac joints is the MRI hallmark that lets doctors catch axial disease years before X-rays show fusion.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — AS is defined by what X-ray photons reveal: radiographic sacroiliitis and the fused bamboo spine confirm the disease, while MRI catches the earlier inflammation that plain films miss.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — The syndesmophytes that weld the AS spine are built of bone mineral: new bone formation lays down calcium-phosphate hydroxyapatite, so phosphate as well as calcium feeds the pathological fusion.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
