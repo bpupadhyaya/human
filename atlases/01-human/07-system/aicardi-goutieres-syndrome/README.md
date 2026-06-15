@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "AGS may injure the brain at its synapses: chronic interferon activates microglia that prune synapses during development, so the antiviral response misfiring on the body's own nucleic acids disturbs how the young brain wires itself."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "AGS is recognized on brain imaging: CT photons reveal its hallmark basal-ganglia calcifications, while MRI shows the white-matter disease and brain atrophy that mimic a congenital infection."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Neonatal AGS can suppress the bone marrow: thrombocytopenia and anemia accompany the interferon surge, part of the picture that makes the newborn form look like a congenital TORCH infection."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "AGS can reach the eyes: congenital glaucoma and other ocular problems are recognized, adding to the brain, skin and systemic features of this interferon-driven disorder."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -252,6 +261,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Some AGS damages the blood-vessel endothelium: SAMHD1-type disease causes a cerebral vasculopathy with stenoses and aneurysms, so the interferon attack on endothelial cells can bring strokes on top of the encephalopathy.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Newborn AGS can swell the liver and spleen: alongside the interferon surge, hepatosplenomegaly, thrombocytopenia, and rash make the neonatal form mimic a congenital TORCH infection, sending the search for a microbe that is not there.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — AGS may injure the brain at its synapses: chronic interferon activates microglia that prune synapses during development, so the antiviral response misfiring on the body's own nucleic acids disturbs how the young brain wires itself.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — AGS is recognized on brain imaging: CT photons reveal its hallmark basal-ganglia calcifications, while MRI shows the white-matter disease and brain atrophy that mimic a congenital infection.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Neonatal AGS can suppress the bone marrow: thrombocytopenia and anemia accompany the interferon surge, part of the picture that makes the newborn form look like a congenital TORCH infection.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — AGS can reach the eyes: congenital glaucoma and other ocular problems are recognized, adding to the brain, skin and systemic features of this interferon-driven disorder.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
