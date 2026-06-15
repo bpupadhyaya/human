@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/obesity
     relation: connects-to
     note: "Depression and obesity feed each other: each roughly doubles the risk of the other through shared inflammation, cortisol, and inactivity, and several antidepressants add weight — a metabolic-mood loop that complicates treating either alone."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Depression tracks the reproductive hormones: it surges around the premenstrual phase, after childbirth, and through the menopause transition, the timing that ties mood to estrogen and progesterone shifts and shapes perinatal screening and treatment."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "Inflammation may help drive depression: stress activates the NLRP3 inflammasome in microglia to release IL-1β and IL-6, and this neuroinflammation is one explanation for the depressive symptoms seen in inflammatory illness and a target for novel therapies."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Depression makes platelets sticky: their serotonin handling overlaps the brain's, and in depression platelets become hyperreactive — a link to the raised heart-attack and stroke risk, partly offset by SSRIs that blunt platelet aggregation."
 ---
 
 # Major Depressive Disorder
@@ -364,6 +373,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid impersonates depression: hypothyroidism produces low mood, fatigue, and slowed thinking that lift with hormone replacement, so thyroid function is checked in every depression workup and added as augmentation when standard antidepressants fall short.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Depression has an inflammatory face: raised TNF-α and related cytokines appear in depressed patients, can themselves induce low mood as sickness behavior, and mark the subgroup whose illness may respond to anti-inflammatory strategies.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Depression and obesity feed each other: each roughly doubles the risk of the other through shared inflammation, cortisol, and inactivity, and several antidepressants add weight — a metabolic-mood loop that complicates treating either alone.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Depression tracks the reproductive hormones: it surges around the premenstrual phase, after childbirth, and through the menopause transition, the timing that ties mood to estrogen and progesterone shifts and shapes perinatal screening and treatment.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — Inflammation may help drive depression: stress activates the NLRP3 inflammasome in microglia to release IL-1β and IL-6, and this neuroinflammation is one explanation for the depressive symptoms seen in inflammatory illness and a target for novel therapies.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Depression makes platelets sticky: their serotonin handling overlaps the brain's, and in depression platelets become hyperreactive — a link to the raised heart-attack and stroke risk, partly offset by SSRIs that blunt platelet aggregation.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
