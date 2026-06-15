@@ -108,6 +108,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Binge-eating disorder burdens the liver: recurrent calorie excess and the obesity it drives deposit fat in the liver, making non-alcoholic fatty liver disease a common metabolic consequence of the condition."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "fMRI photons expose binge-eating disorder's reward circuitry: the brain over-responds to food cues yet under-registers fullness, the neural imbalance behind loss of control over eating."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "The hippocampus links memory and appetite: it normally uses the memory of recent meals to curb further eating, and disrupted hippocampal signaling is implicated in eating past fullness."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut shapes binge eating: through the gut-brain axis the large intestine's microbes and signals influence appetite and reward, tying digestive health to the loss of control over food."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -299,6 +308,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Binge-eating disorder is reinforced at reward synapses: each binge's dopamine surge strengthens the synapses linking food cues to craving, so the brain learns the binge the way it learns an addiction, making the urge harder to resist.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Overeating in binge-eating disorder inflames the brain's microglia: energy-dense binges activate these immune cells in the hypothalamus, and the resulting inflammation blunts satiety signals, helping eating run past fullness.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Binge-eating disorder burdens the liver: recurrent calorie excess and the obesity it drives deposit fat in the liver, making non-alcoholic fatty liver disease a common metabolic consequence of the condition.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons expose binge-eating disorder's reward circuitry: the brain over-responds to food cues yet under-registers fullness, the neural imbalance behind loss of control over eating.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus links memory and appetite: it normally uses the memory of recent meals to curb further eating, and disrupted hippocampal signaling is implicated in eating past fullness.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut shapes binge eating: through the gut-brain axis the large intestine's microbes and signals influence appetite and reward, tying digestive health to the loss of control over food.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

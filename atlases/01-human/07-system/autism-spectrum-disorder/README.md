@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "Autism often runs short on ATP: a subset of children show mitochondrial dysfunction that limits the cell's energy currency, and the brain's high energy demand may make developing neurons especially sensitive to this shortfall."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging probes autism: MRI shows early brain overgrowth and altered connectivity, and fMRI photons map how differently social and sensory networks light up, sought as objective markers."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency is common in autism: restrictive eating lowers stores, and because iron is needed to make dopamine, low iron may worsen attention, sleep and restless behaviors."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Autism shows in the eyes: reduced eye contact and atypical gaze are early signs, and eye-tracking is studied as an objective measure of the social differences that define the condition."
 ---
 
 # Autism Spectrum Disorder
@@ -304,6 +313,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Autism converges on calcium signaling: several of the strongest risk genes encode calcium channels (like CACNA1C) or calcium-handling proteins, so altered calcium flow into neurons is a recurring thread through the disorder's genetics.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Autism reaches into the gut: GI symptoms are far more common in ASD, and through the gut-brain axis the large intestine's microbes and signals can influence behavior, tying digestive health to the condition.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Autism often runs short on ATP: a subset of children show mitochondrial dysfunction that limits the cell's energy currency, and the brain's high energy demand may make developing neurons especially sensitive to this shortfall.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging probes autism: MRI shows early brain overgrowth and altered connectivity, and fMRI photons map how differently social and sensory networks light up, sought as objective markers.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency is common in autism: restrictive eating lowers stores, and because iron is needed to make dopamine, low iron may worsen attention, sleep and restless behaviors.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Autism shows in the eyes: reduced eye contact and atypical gaze are early signs, and eye-tracking is studied as an objective measure of the social differences that define the condition.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
