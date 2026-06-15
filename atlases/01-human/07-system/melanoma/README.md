@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "The adrenal gland is a favored melanoma metastatic site: these tumors seed the adrenals so reliably that a new adrenal mass in a melanoma patient is treated as a metastasis until proven otherwise, and resection of isolated deposits can prolong survival."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Melanoma loves the heart more than any other cancer: it has the highest rate of cardiac metastasis, seeding the myocardium and pericardium with deposits that can disturb rhythm or fill the pericardial sac."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Melanoma reaches the skeleton: bone metastases riddle the marrow-bearing spine and pelvis in advanced disease, painful and prone to fracture, part of its notoriously wide metastatic spread."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The gut is classic melanoma territory: it is among the cancers most likely to metastasize to the stomach and bowel, where pigmented deposits bleed or obstruct, sometimes appearing years after the skin lesion."
 ---
 
 # Melanoma
@@ -269,6 +278,9 @@ cross_links:
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations are the single most common genetic change in cutaneous melanoma: UV-induced point mutations switch telomerase back on, granting the cells the unlimited replication that drives progression and marking a worse prognosis.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy clinches amelanotic melanoma: when a pigmentless tumor defies routine stains, the beam reveals melanosomes and striated premelanosomes — membrane-bound organelles found only in melanocytic cells — settling the diagnosis.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal gland is a favored melanoma metastatic site: these tumors seed the adrenals so reliably that a new adrenal mass in a melanoma patient is treated as a metastasis until proven otherwise, and resection of isolated deposits can prolong survival.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Melanoma loves the heart more than any other cancer: it has the highest rate of cardiac metastasis, seeding the myocardium and pericardium with deposits that can disturb rhythm or fill the pericardial sac.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Melanoma reaches the skeleton: bone metastases riddle the marrow-bearing spine and pelvis in advanced disease, painful and prone to fracture, part of its notoriously wide metastatic spread.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut is classic melanoma territory: it is among the cancers most likely to metastasize to the stomach and bowel, where pigmented deposits bleed or obstruct, sometimes appearing years after the skin lesion.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
