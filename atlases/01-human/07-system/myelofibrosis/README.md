@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Myelofibrosis spills immature cells into the blood: a scarred marrow forces a leukoerythroblastic picture, releasing early neutrophil precursors alongside teardrop red cells—a blood smear that flags hematopoiesis under siege."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Myelofibrosis shows up in imaging: X-ray photons can reveal osteosclerosis from the fibrotic marrow, and low-dose splenic irradiation is one way to shrink a massively enlarged, painful spleen."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Myelofibrosis can harden bone as well as marrow: activated osteoblasts lay down osteosclerosis that thickens the cavity walls, a bony counterpart to the reticulin and collagen scarring inside."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Myelofibrosis can colonize the chest: extramedullary hematopoiesis and the disease's clotting tendency drive pulmonary hypertension, adding breathlessness to its anemia and splenomegaly."
 ---
 
 # Myelofibrosis
@@ -279,6 +288,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Myelofibrosis distorts the body's iron: transfusion-dependent anemia delivers iron the body cannot shed, building toxic overload, while inflammation also locks iron away from red-cell making—worsening the very anemia driving the transfusions.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe myelofibrosis anemia overworks the heart: to ship enough oxygen with too few red cells, the heart pumps harder in a high-output state, and transfusional iron can deposit in the muscle, together straining it toward failure.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Myelofibrosis spills immature cells into the blood: a scarred marrow forces a leukoerythroblastic picture, releasing early neutrophil precursors alongside teardrop red cells—a blood smear that flags hematopoiesis under siege.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Myelofibrosis shows up in imaging: X-ray photons can reveal osteosclerosis from the fibrotic marrow, and low-dose splenic irradiation is one way to shrink a massively enlarged, painful spleen.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Myelofibrosis can harden bone as well as marrow: activated osteoblasts lay down osteosclerosis that thickens the cavity walls, a bony counterpart to the reticulin and collagen scarring inside.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myelofibrosis can colonize the chest: extramedullary hematopoiesis and the disease's clotting tendency drive pulmonary hypertension, adding breathlessness to its anemia and splenomegaly.
 
 ---
 

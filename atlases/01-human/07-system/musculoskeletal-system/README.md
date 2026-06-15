@@ -116,6 +116,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "Estrogen guards the skeleton: it restrains the osteoclasts that resorb bone, so the sharp loss of estrogen at menopause speeds bone breakdown and is the leading driver of osteoporosis in women."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Muscle obeys peripheral nerves: motor fibers carry the command to contract while sensory fibers report position, so nerve injury denervates muscle and wastes it, severing the skeleton from its control."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver fuels muscle and bone growth: under growth-hormone control it makes IGF-1, the systemic signal that drives the building of skeletal muscle and the lengthening of bone."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Muscle stores its own oxygen on iron: myoglobin, an iron-containing protein, holds oxygen inside muscle fibers for the bursts of work that movement demands, tinting muscle red."
 ---
 
 # Musculoskeletal System
@@ -285,6 +294,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bone depends on the kidney: it activates vitamin D and balances calcium and phosphate, so kidney failure starves bone of minerals and unleashes parathyroid hormone, crumbling the skeleton in renal osteodystrophy.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The skeleton is built with help from photons: ultraviolet light striking the skin makes vitamin D, the hormone that lets the gut absorb the calcium needed to mineralize bone, linking sunlight to skeletal strength.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen guards the skeleton: it restrains the osteoclasts that resorb bone, so the sharp loss of estrogen at menopause speeds bone breakdown and is the leading driver of osteoporosis in women.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Muscle obeys peripheral nerves: motor fibers carry the command to contract while sensory fibers report position, so nerve injury denervates muscle and wastes it, severing the skeleton from its control.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver fuels muscle and bone growth: under growth-hormone control it makes IGF-1, the systemic signal that drives the building of skeletal muscle and the lengthening of bone.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Muscle stores its own oxygen on iron: myoglobin, an iron-containing protein, holds oxygen inside muscle fibers for the bursts of work that movement demands, tinting muscle red.
 
 ## Pathology
 
