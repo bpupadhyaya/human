@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "The floppy Marfan mitral valve flutters the rhythm: mitral valve prolapse is associated with magnesium deficiency, and magnesium repletion can ease the palpitations and arrhythmias these prolapsing valves so often provoke."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The long Marfan bones are also thin: despite their height, patients often have reduced bone mineral density and osteopenia, likely tied to the disturbed fibrillin-TGF-beta signaling that governs bone as well as connective tissue."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Marfan bodies carry little fat: the classic tall, slender build comes with scant subcutaneous adipose and low muscle mass, the lean habitus that — with long limbs and arachnodactyly — helps flag the syndrome on sight."
+  - target: 01-human/07-system/generalized-anxiety-disorder
+    relation: connects-to
+    note: "Living with a fragile aorta weighs on the mind: rates of anxiety and depression run high in Marfan, driven by the constant threat of dissection, lifelong activity limits and body-image concerns, so psychological support is part of comprehensive care."
 ---
 
 # Marfan Syndrome
@@ -334,6 +343,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Marfan bones grow long but thin: excess TGF-β signaling tilts remodeling toward osteoclast resorption, so despite the overgrowth of the long limbs many patients carry reduced bone density and an osteopenia that belies their tall frame.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy is the Marfan aorta's danger window: the volume load and hormone-softened vessels needed to perfuse the placenta peak the risk of aortic dissection around delivery, demanding echo monitoring and sometimes pre-pregnancy aortic repair.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — The floppy Marfan mitral valve flutters the rhythm: mitral valve prolapse is associated with magnesium deficiency, and magnesium repletion can ease the palpitations and arrhythmias these prolapsing valves so often provoke.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The long Marfan bones are also thin: despite their height, patients often have reduced bone mineral density and osteopenia, likely tied to the disturbed fibrillin-TGF-beta signaling that governs bone as well as connective tissue.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Marfan bodies carry little fat: the classic tall, slender build comes with scant subcutaneous adipose and low muscle mass, the lean habitus that — with long limbs and arachnodactyly — helps flag the syndrome on sight.
+- `connects-to` → **[Generalized Anxiety Disorder](../generalized-anxiety-disorder/README.md)** — Living with a fragile aorta weighs on the mind: rates of anxiety and depression run high in Marfan, driven by the constant threat of dissection, lifelong activity limits and body-image concerns, so psychological support is part of comprehensive care.
 
 ---
 

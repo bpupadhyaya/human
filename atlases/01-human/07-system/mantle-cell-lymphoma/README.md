@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The same takeover drops the platelets: marrow infiltration and splenic sequestration cause thrombocytopenia, and the BTK-inhibitor drugs central to MCL therapy add their own bleeding risk by blunting platelet function."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Anti-CD20 therapy can reactivate hepatitis B: rituximab strips out the B cells that help hold the virus in check, so MCL patients are screened and given antiviral prophylaxis before treatment to prevent a dangerous viral flare."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Its intensive regimens strain the heart: the anthracycline in R-CHOP and the high-dose cytarabine of induction carry cardiotoxic risk, so cardiac function is checked before the aggressive chemotherapy MCL often demands."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "MCL leans on PI3K-AKT beyond BTK: chronic B-cell-receptor signaling feeds the AKT-mTOR axis, a survival route that drives resistance to BTK inhibitors and is targeted by PI3K and mTOR inhibitors in relapsed disease."
 ---
 
 # Mantle Cell Lymphoma
@@ -317,6 +326,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both name and treat MCL: nuclear cyclin D1 shown by immunohistochemistry clinches the diagnosis, while the CD20 on the cell surface is the bullseye for rituximab and other anti-CD20 antibody drugs that anchor every regimen.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Marrow and spleen takeover shows in the red cells: as MCL packs the bone marrow and swells the spleen, it crowds out and pools erythrocytes into the anemia that, with the leukemic blood spread common in MCL, marks advanced disease.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The same takeover drops the platelets: marrow infiltration and splenic sequestration cause thrombocytopenia, and the BTK-inhibitor drugs central to MCL therapy add their own bleeding risk by blunting platelet function.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Anti-CD20 therapy can reactivate hepatitis B: rituximab strips out the B cells that help hold the virus in check, so MCL patients are screened and given antiviral prophylaxis before treatment to prevent a dangerous viral flare.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Its intensive regimens strain the heart: the anthracycline in R-CHOP and the high-dose cytarabine of induction carry cardiotoxic risk, so cardiac function is checked before the aggressive chemotherapy MCL often demands.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — MCL leans on PI3K-AKT beyond BTK: chronic B-cell-receptor signaling feeds the AKT-mTOR axis, a survival route that drives resistance to BTK inhibitors and is targeted by PI3K and mTOR inhibitors in relapsed disease.
 
 ---
 
