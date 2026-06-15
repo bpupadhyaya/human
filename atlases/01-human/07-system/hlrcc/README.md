@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Its targeted therapy reaches the gut: the erlotinib paired with bevacizumab for HLRCC kidney cancer causes diarrhea and an acneiform rash, while bevacizumab itself carries a risk of bowel perforation."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "The pseudo-hypoxia can overfill the blood: FH loss stabilizes HIF, which switches on erythropoietin, so HLRCC kidney tumors can drive a paraneoplastic erythrocytosis — too many red cells from a falsely sensed lack of oxygen."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "HLRCC sits opposite the other inherited papillary kidney cancer: its FH-driven type 2 papillary RCC contrasts with MET-activated hereditary papillary RCC type 1, so the gene at fault tells which papillary syndrome — and which course — a patient has."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunotherapy joins the HLRCC toolkit: its aggressive FH-deficient kidney cancers can respond to checkpoint inhibitors that unleash cytotoxic T cells, used alongside the bevacizumab-erlotinib backbone against this hard-to-treat tumor."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -327,6 +336,9 @@ Cutaneous:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody both diagnoses and treats HLRCC: the 2SC immunostain marks the fumarate-modified proteins that betray FH loss, while the anti-VEGF antibody bevacizumab — with erlotinib — is a mainstay against its kidney cancer.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — HLRCC's skin tumors hurt through nerves: the cutaneous leiomyomas are richly innervated piloleiomyomas that fire painfully with cold and touch, a distinctive symptom that flags the syndrome.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Its targeted therapy reaches the gut: the erlotinib paired with bevacizumab for HLRCC kidney cancer causes diarrhea and an acneiform rash, while bevacizumab itself carries a risk of bowel perforation.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — The pseudo-hypoxia can overfill the blood: FH loss stabilizes HIF, which switches on erythropoietin, so HLRCC kidney tumors can drive a paraneoplastic erythrocytosis — too many red cells from a falsely sensed lack of oxygen.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — HLRCC sits opposite the other inherited papillary kidney cancer: its FH-driven type 2 papillary RCC contrasts with MET-activated hereditary papillary RCC type 1, so the gene at fault tells which papillary syndrome — and which course — a patient has.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy joins the HLRCC toolkit: its aggressive FH-deficient kidney cancers can respond to checkpoint inhibitors that unleash cytotoxic T cells, used alongside the bevacizumab-erlotinib backbone against this hard-to-treat tumor.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

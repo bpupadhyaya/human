@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Treatment forces a feeding tube: tumor and the brutal mucositis of chemoradiation make swallowing impossible for a time, so a gastrostomy into the stomach is often placed to maintain nutrition through therapy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "A rising share is sexually transmitted: HPV-driven oropharyngeal cancer of the tonsil and base of tongue is spreading the virus's reach from the genital tract to the throat, giving these tumors a younger, better-prognosis profile distinct from smoking-related disease."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The radiation field catches the thyroid: neck irradiation for head and neck cancer commonly damages the thyroid into hypothyroidism months to years later, and carries a small long-term risk of radiation-induced thyroid cancer."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "These tumors run a clotting risk: paraneoplastic thrombocytosis is common and marks worse prognosis, while the cisplatin chemoradiation that treats them can conversely drop platelet counts during therapy."
 ---
 
 # HNSCC
@@ -310,6 +319,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies attack head-and-neck cancer two ways: cetuximab blocks EGFR, and the checkpoint antibodies pembrolizumab and nivolumab release the immune brakes in recurrent or metastatic disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Its drugs strip magnesium twice over: cetuximab blocks the EGFR-dependent magnesium channel in the kidney, and the cisplatin given with radiation wastes it through tubular injury, so magnesium is closely monitored.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Treatment forces a feeding tube: tumor and the brutal mucositis of chemoradiation make swallowing impossible for a time, so a gastrostomy into the stomach is often placed to maintain nutrition through therapy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A rising share is sexually transmitted: HPV-driven oropharyngeal cancer of the tonsil and base of tongue is spreading the virus's reach from the genital tract to the throat, giving these tumors a younger, better-prognosis profile distinct from smoking-related disease.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The radiation field catches the thyroid: neck irradiation for head and neck cancer commonly damages the thyroid into hypothyroidism months to years later, and carries a small long-term risk of radiation-induced thyroid cancer.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — These tumors run a clotting risk: paraneoplastic thrombocytosis is common and marks worse prognosis, while the cisplatin chemoradiation that treats them can conversely drop platelet counts during therapy.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
