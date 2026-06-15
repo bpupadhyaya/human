@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The gut is classic melanoma territory: it is among the cancers most likely to metastasize to the stomach and bowel, where pigmented deposits bleed or obstruct, sometimes appearing years after the skin lesion."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both name and fight melanoma: SOX10, S100, HMB-45, and Melan-A stains identify amelanotic tumors on biopsy, while the monoclonal antibodies against PD-1 and CTLA-4 unleash the immune attack that has transformed advanced-melanoma survival."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Melanoma sits at the sun's double edge: the same UV that makes vitamin D in the skin also drives the cancer, yet low vitamin D levels track with thicker tumors and worse outcomes, so repletion is studied even as sun avoidance is urged."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The blood count carries a prognosis: a high neutrophil-to-lymphocyte ratio marks an inflammatory, immunosuppressive state that predicts poorer response to checkpoint immunotherapy in melanoma, a cheap clue read straight off a routine blood test."
 ---
 
 # Melanoma
@@ -281,6 +290,9 @@ cross_links:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Melanoma loves the heart more than any other cancer: it has the highest rate of cardiac metastasis, seeding the myocardium and pericardium with deposits that can disturb rhythm or fill the pericardial sac.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Melanoma reaches the skeleton: bone metastases riddle the marrow-bearing spine and pelvis in advanced disease, painful and prone to fracture, part of its notoriously wide metastatic spread.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut is classic melanoma territory: it is among the cancers most likely to metastasize to the stomach and bowel, where pigmented deposits bleed or obstruct, sometimes appearing years after the skin lesion.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both name and fight melanoma: SOX10, S100, HMB-45, and Melan-A stains identify amelanotic tumors on biopsy, while the monoclonal antibodies against PD-1 and CTLA-4 unleash the immune attack that has transformed advanced-melanoma survival.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Melanoma sits at the sun's double edge: the same UV that makes vitamin D in the skin also drives the cancer, yet low vitamin D levels track with thicker tumors and worse outcomes, so repletion is studied even as sun avoidance is urged.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count carries a prognosis: a high neutrophil-to-lymphocyte ratio marks an inflammatory, immunosuppressive state that predicts poorer response to checkpoint immunotherapy in melanoma, a cheap clue read straight off a routine blood test.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

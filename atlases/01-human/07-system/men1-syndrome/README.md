@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Overactive parathyroids erode the bone: MEN1's near-universal hyperparathyroidism drives osteoclasts to resorb bone into osteitis fibrosa with brown tumors, hollowing the marrow-bearing skeleton."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies prove the tumors are neuroendocrine: chromogranin A and synaptophysin stains confirm MEN1's pancreatic and pituitary NETs on biopsy, and Ki-67 antibody staining grades how fast they divide and how aggressively to treat."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The foregut NETs reach the chest: bronchial carcinoids are part of the MEN1 spectrum, slow-growing lung neuroendocrine tumors that join the thymic and gastric carcinoids these patients are screened for over a lifetime."
+  - target: 01-human/07-system/breast-cancer
+    relation: connects-to
+    note: "MEN1 quietly raises breast risk: women carrying a menin mutation develop breast cancer earlier and more often than the general population, an association now folding earlier mammographic screening into their surveillance."
 ---
 
 # MEN1 Syndrome
@@ -303,6 +312,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy marks MEN1's tumors as neuroendocrine: the pancreatic and pituitary growths fill with dense-core secretory granules, packets of hormone whose ultrastructure identifies cells built to signal through the blood.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MEN1 leaves clues on the skin: multiple facial angiofibromas, trunk collagenomas, and lipomas dot these patients, cutaneous markers that can prompt the genetic testing uncovering the syndrome.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Overactive parathyroids erode the bone: MEN1's near-universal hyperparathyroidism drives osteoclasts to resorb bone into osteitis fibrosa with brown tumors, hollowing the marrow-bearing skeleton.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies prove the tumors are neuroendocrine: chromogranin A and synaptophysin stains confirm MEN1's pancreatic and pituitary NETs on biopsy, and Ki-67 antibody staining grades how fast they divide and how aggressively to treat.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The foregut NETs reach the chest: bronchial carcinoids are part of the MEN1 spectrum, slow-growing lung neuroendocrine tumors that join the thymic and gastric carcinoids these patients are screened for over a lifetime.
+- `connects-to` → **[Breast Cancer](../breast-cancer/README.md)** — MEN1 quietly raises breast risk: women carrying a menin mutation develop breast cancer earlier and more often than the general population, an association now folding earlier mammographic screening into their surveillance.
 
 ---
 
