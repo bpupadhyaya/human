@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "NSCLC can grow out of lung fibrosis: adenocarcinomas may arise in scarred lung ('scar carcinoma'), and the tumor's own desmoplastic stroma stiffens the surrounding tissue."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy separates NSCLC's faces: adenocarcinoma shows microvilli and lamellar bodies betraying pneumocyte origin, while squamous cell carcinoma reveals desmosomes and bundled tonofilaments of keratin — ultrastructure that resolved subtype before immunostains."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "NSCLC favors the skeleton when it spreads: bone is among its commonest metastatic sites, and deposits reaching the marrow can crowd out blood production, causing the anemia and low counts that signal advanced disease."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "NSCLC pushes platelets up and clots out: paraneoplastic thrombocytosis is common, tumor-driven hypercoagulability makes lung cancer a leading cause of cancer-associated thrombosis, and a high platelet count tracks with worse outcomes."
 ---
 
 # NSCLC
@@ -268,6 +277,9 @@ cross_links:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Squamous lung cancer can spike blood calcium: it secretes PTHrP that mimics parathyroid hormone, pulling calcium from bone into the blood—a paraneoplastic hypercalcemia causing confusion, thirst, and kidney injury.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — NSCLC can invade the heart's lining: a nearby tumor may breach the pericardium, filling it with malignant fluid that compresses the heart (tamponade), a dangerous complication of advanced lung cancer.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — NSCLC can grow out of lung fibrosis: adenocarcinomas may arise in scarred lung ('scar carcinoma'), and the tumor's own desmoplastic stroma stiffens the surrounding tissue.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy separates NSCLC's faces: adenocarcinoma shows microvilli and lamellar bodies betraying pneumocyte origin, while squamous cell carcinoma reveals desmosomes and bundled tonofilaments of keratin — ultrastructure that resolved subtype before immunostains.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — NSCLC favors the skeleton when it spreads: bone is among its commonest metastatic sites, and deposits reaching the marrow can crowd out blood production, causing the anemia and low counts that signal advanced disease.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — NSCLC pushes platelets up and clots out: paraneoplastic thrombocytosis is common, tumor-driven hypercoagulability makes lung cancer a leading cause of cancer-associated thrombosis, and a high platelet count tracks with worse outcomes.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

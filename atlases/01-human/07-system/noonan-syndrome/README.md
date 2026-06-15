@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Noonan's RAS activation can expand the macrophage lineage: in young children it predisposes to a JMML-like myelomonocytic proliferation, overgrowing the monocyte-macrophage cells of the blood."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons reveal Noonan before and after birth: prenatal ultrasound flags the thick nuchal fold and cystic hygroma of lymphatic excess, while echocardiography after birth maps the pulmonary valve stenosis and hypertrophic cardiomyopathy that define the heart disease."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Noonan writes itself on the skin: curly or sparse hair, widespread keratosis pilaris, lymphedema, and — in the lentigines variant — a freckling of dark spots, cutaneous clues that steer the clinical diagnosis."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen often enlarges in Noonan: hepatosplenomegaly is common, especially when the syndrome's RAS overactivity tips into the JMML-like myeloproliferation that swells the blood-forming organs in early childhood."
 ---
 
 # Noonan Syndrome
@@ -297,6 +306,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Noonan syndrome can malform the kidneys: renal and urinary-tract anomalies, such as a dilated collecting system, are recognized features that round out the syndrome's developmental defects.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Noonan's thickened heart leans on calcium: its hypertrophic cardiomyopathy disturbs the cardiomyocyte calcium handling that drives contraction, contributing to the stiff, poorly relaxing ventricle.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Noonan's RAS activation can expand the macrophage lineage: in young children it predisposes to a JMML-like myelomonocytic proliferation, overgrowing the monocyte-macrophage cells of the blood.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons reveal Noonan before and after birth: prenatal ultrasound flags the thick nuchal fold and cystic hygroma of lymphatic excess, while echocardiography after birth maps the pulmonary valve stenosis and hypertrophic cardiomyopathy that define the heart disease.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Noonan writes itself on the skin: curly or sparse hair, widespread keratosis pilaris, lymphedema, and — in the lentigines variant — a freckling of dark spots, cutaneous clues that steer the clinical diagnosis.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen often enlarges in Noonan: hepatosplenomegaly is common, especially when the syndrome's RAS overactivity tips into the JMML-like myeloproliferation that swells the blood-forming organs in early childhood.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
