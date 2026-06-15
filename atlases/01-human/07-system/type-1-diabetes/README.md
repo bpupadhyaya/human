@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Insulin loss in type 1 diabetes sets fat cells loose: unrestrained lipolysis pours free fatty acids out of adipocytes, supplying the liver with the raw material it turns into the ketones that cause ketoacidosis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Years of high glucose in type 1 diabetes damage peripheral nerves, causing the numb, painful 'stocking-glove' neuropathy that threatens the feet with unnoticed injury and ulcers."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Type 1 diabetes demands regular eye screening: retinal photographs in visible-light photons catch the diabetic retinopathy that years of glucose swings inflict on the retina, before vision is lost."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Type 1 diabetes is a leading cause of kidney failure: decades of high glucose scar the glomeruli into diabetic nephropathy, which urine-protein screening catches early enough to slow."
 ---
 
 # Type 1 Diabetes
@@ -255,6 +264,9 @@ cross_links:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Type 1 diabetes can flood the blood with hydrogen ions: without insulin the body burns fat into acidic ketones, and the resulting diabetic ketoacidosis drops blood pH into a dangerous acidosis—the classic emergency that often reveals the disease.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Type 1 diabetes unleashes the liver: lacking insulin's brake, it overproduces glucose and converts incoming fatty acids into the ketone bodies of ketoacidosis, so the liver drives both the high blood sugar and the acid crisis.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Insulin loss in type 1 diabetes sets fat cells loose: unrestrained lipolysis pours free fatty acids out of adipocytes, supplying the liver with the raw material it turns into the ketones that cause ketoacidosis.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Years of high glucose in type 1 diabetes damage peripheral nerves, causing the numb, painful 'stocking-glove' neuropathy that threatens the feet with unnoticed injury and ulcers.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Type 1 diabetes demands regular eye screening: retinal photographs in visible-light photons catch the diabetic retinopathy that years of glucose swings inflict on the retina, before vision is lost.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Type 1 diabetes is a leading cause of kidney failure: decades of high glucose scar the glomeruli into diabetic nephropathy, which urine-protein screening catches early enough to slow.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

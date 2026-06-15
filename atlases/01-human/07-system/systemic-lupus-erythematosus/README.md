@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Lupus can turn on its own red cells: autoantibodies coat erythrocytes for destruction, causing the autoimmune hemolytic anemia that is one of the disease's defining blood abnormalities."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Lupus attacks the lungs and their lining: pleuritis brings painful effusions, and rarer pneumonitis or 'shrinking lung' syndrome can impair breathing, part of its reach across the serous membranes."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Lupus can scar the kidney's tubules into renal tubular acidosis, deranging potassium and blood pH separately from its classic glomerulonephritis, so electrolytes need watching beyond protein in the urine."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Lupus can inflame the nerves: peripheral neuropathy and mononeuritis multiplex from vasculitis of the nerves' blood supply are part of its neuropsychiatric spectrum, beyond the better-known brain effects."
 ---
 
 # Systemic Lupus Erythematosus
@@ -283,6 +292,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Lupus inflames the heart at every layer: it causes pericarditis, the sterile valve growths of Libman-Sacks endocarditis, and accelerated coronary atherosclerosis, so heart disease is a leading cause of death in long-standing SLE.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Lupus T cells misfire through calcium: antigen signaling floods them with calcium that activates calcineurin and NFAT, the very pathway calcineurin inhibitors like voclosporin block to treat lupus nephritis.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Lupus can turn on its own red cells: autoantibodies coat erythrocytes for destruction, causing the autoimmune hemolytic anemia that is one of the disease's defining blood abnormalities.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Lupus attacks the lungs and their lining: pleuritis brings painful effusions, and rarer pneumonitis or 'shrinking lung' syndrome can impair breathing, part of its reach across the serous membranes.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Lupus can scar the kidney's tubules into renal tubular acidosis, deranging potassium and blood pH separately from its classic glomerulonephritis, so electrolytes need watching beyond protein in the urine.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Lupus can inflame the nerves: peripheral neuropathy and mononeuritis multiplex from vasculitis of the nerves' blood supply are part of its neuropsychiatric spectrum, beyond the better-known brain effects.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
