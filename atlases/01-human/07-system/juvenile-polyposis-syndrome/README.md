@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The HHT overlap can dot the eye: conjunctival telangiectasias join those on the skin and gut, fragile little vessel tufts that mark the vascular side of the SMAD4 syndrome."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Bleeding polyps drain the red cells: friable juvenile polyps ooze chronically and can hemorrhage acutely, leaving children pale and sometimes transfusion-dependent until the polyps are cleared by colonoscopy or surgery."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Loss of SMAD4 can be seen on the slide: immunohistochemistry with an anti-SMAD4 antibody shows absent nuclear staining in polyps from SMAD4-mutant patients, a stain that helps separate this syndrome from sporadic juvenile polyps."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The same SMAD4 loss that drives the polyps also imperils the pancreas: SMAD4 (DPC4) is a key pancreatic tumor suppressor, so JPS adds pancreatic and upper-GI cancer to the lifetime risk that surveillance must cover."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -313,6 +322,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows JPS polyps are hamartomas, not adenomas: cystically dilated mucus-filled glands sit in an expanded, inflamed lamina propria, the disorganized overgrowth that names the juvenile polyp.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — SMAD4-driven JPS overlaps with HHT: these patients sprout mucocutaneous telangiectasias on the lips, tongue, and fingertips, tiny dilated vessels that bleed and flag the combined polyposis-vascular syndrome.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The HHT overlap can dot the eye: conjunctival telangiectasias join those on the skin and gut, fragile little vessel tufts that mark the vascular side of the SMAD4 syndrome.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bleeding polyps drain the red cells: friable juvenile polyps ooze chronically and can hemorrhage acutely, leaving children pale and sometimes transfusion-dependent until the polyps are cleared by colonoscopy or surgery.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Loss of SMAD4 can be seen on the slide: immunohistochemistry with an anti-SMAD4 antibody shows absent nuclear staining in polyps from SMAD4-mutant patients, a stain that helps separate this syndrome from sporadic juvenile polyps.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The same SMAD4 loss that drives the polyps also imperils the pancreas: SMAD4 (DPC4) is a key pancreatic tumor suppressor, so JPS adds pancreatic and upper-GI cancer to the lifetime risk that surveillance must cover.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

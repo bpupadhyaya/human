@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The skin is not spared by lost p53: melanoma and other skin cancers fall within the Li-Fraumeni spectrum, and the syndrome's radiosensitivity makes radiation-induced skin tumors a particular concern."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Mutant p53 betrays itself on the slide: missense TP53 mutants resist degradation and pile up, so an anti-p53 antibody stains the nuclei strongly by immunohistochemistry — a clue that, with germline testing, points toward the Li-Fraumeni defect."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Treatment carries a second-cancer tax: chemotherapy drops the neutrophil count during care, and because lost p53 cannot guard the marrow, Li-Fraumeni patients face a heightened risk of treatment-related leukemia and MDS afterward."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid joins the lengthening list: thyroid cancer appears within the Li-Fraumeni spectrum, and because the gland is so radiosensitive, it is a tissue where the syndrome's rule of avoiding radiation when possible especially applies."
 ---
 
 # Li-Fraumeni Syndrome
@@ -334,6 +343,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Li-Fraumeni cells cannot survive radiation safely: without p53 to halt the cycle or trigger death, the DNA breaks that radiation inflicts go unchecked, so even diagnostic X-rays risk seeding new cancers — a reason these patients avoid them.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Lung cancer joins Li-Fraumeni's broad spectrum: early-onset lung tumors arise on their own, and radiation given to treat one cancer can later spark a second in the chest, a hazard of the syndrome's radiosensitivity.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin is not spared by lost p53: melanoma and other skin cancers fall within the Li-Fraumeni spectrum, and the syndrome's radiosensitivity makes radiation-induced skin tumors a particular concern.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Mutant p53 betrays itself on the slide: missense TP53 mutants resist degradation and pile up, so an anti-p53 antibody stains the nuclei strongly by immunohistochemistry — a clue that, with germline testing, points toward the Li-Fraumeni defect.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Treatment carries a second-cancer tax: chemotherapy drops the neutrophil count during care, and because lost p53 cannot guard the marrow, Li-Fraumeni patients face a heightened risk of treatment-related leukemia and MDS afterward.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid joins the lengthening list: thyroid cancer appears within the Li-Fraumeni spectrum, and because the gland is so radiosensitive, it is a tissue where the syndrome's rule of avoiding radiation when possible especially applies.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
