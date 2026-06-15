@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Follicular thyroid cancer travels in the blood to bone: unlike the papillary type that creeps through lymph nodes, it spreads hematogenously, seeding lytic deposits in the marrow-filled bones of the spine, pelvis, and skull."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The voice hangs on a nerve beside the gland: the recurrent laryngeal nerve runs along the thyroid, so tumor invasion or surgical injury paralyzes a vocal cord, leaving the hoarseness that can be the first sign of an aggressive thyroid cancer."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Treatment puts the heart under strain: the multikinase inhibitors (lenvatinib, sorafenib) used for radioiodine-refractory disease drive hypertension and cardiac dysfunction, while the deliberate TSH-suppressing thyroid hormone dose risks atrial fibrillation."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Keeping the cancer quiet thins the bones: the long-term high-dose thyroid hormone given to suppress TSH after thyroidectomy pushes the body toward a subclinical hyperthyroidism that accelerates bone loss and osteoporosis, especially in older women."
 ---
 
 # Thyroid Cancer
@@ -315,6 +324,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy sharpens the diagnosis: it confirms papillary cancer's irregular nuclei with cytoplasm-filled pseudoinclusions and grooves, and reveals the dense-core neurosecretory granules that mark the medullary type as neuroendocrine.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The sodium-iodide symporter is thyroid cancer's Achilles' heel: well-differentiated tumors keep this pump that hauls iodine into the cell on a sodium gradient, so radioactive iodine slips in to image and irradiate the cancer wherever it has spread.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Follicular thyroid cancer travels in the blood to bone: unlike the papillary type that creeps through lymph nodes, it spreads hematogenously, seeding lytic deposits in the marrow-filled bones of the spine, pelvis, and skull.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The voice hangs on a nerve beside the gland: the recurrent laryngeal nerve runs along the thyroid, so tumor invasion or surgical injury paralyzes a vocal cord, leaving the hoarseness that can be the first sign of an aggressive thyroid cancer.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Treatment puts the heart under strain: the multikinase inhibitors (lenvatinib, sorafenib) used for radioiodine-refractory disease drive hypertension and cardiac dysfunction, while the deliberate TSH-suppressing thyroid hormone dose risks atrial fibrillation.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Keeping the cancer quiet thins the bones: the long-term high-dose thyroid hormone given to suppress TSH after thyroidectomy pushes the body toward a subclinical hyperthyroidism that accelerates bone loss and osteoporosis, especially in older women.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

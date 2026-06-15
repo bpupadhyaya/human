@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver registers TTP's hemolysis: red cells shredded across the body spill lactate dehydrogenase and bilirubin that the liver processes, while microthrombi in its small vessels can derange liver enzymes during a crisis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "TTP starves the brain's neurons in flickers: platelet microthrombi plug the cerebral microvessels, producing the fluctuating confusion, headache, seizures, and focal deficits that are the hallmark neurologic feature of a crisis."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The heart muscle is a hidden victim: microthrombi clog the coronary microcirculation, injuring cardiomyocytes with troponin rise, arrhythmia, and sudden death — a leading cause of acute mortality in TTP that can be silent until severe."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The 'purpura' shows on the skin: the profound thrombocytopenia of TTP lets blood leak into the skin as petechiae and bruises, often the first visible sign that sends a patient for the blood count that reveals the crisis."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -334,6 +343,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light through a blood smear clinches TTP: the microscope reveals schistocytes — red cells sheared into helmet shapes by the microthrombi — the single most important clue, while brain MRI shows the strokes and reversible edema behind the neurologic signs.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows what clogs the vessels: hyaline microthrombi of platelets glued by ultralong von Willebrand multimers pack the arterioles and capillaries — the pathologic lesion TTP's missing ADAMTS13 enzyme fails to prevent.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver registers TTP's hemolysis: red cells shredded across the body spill lactate dehydrogenase and bilirubin that the liver processes, while microthrombi in its small vessels can derange liver enzymes during a crisis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — TTP starves the brain's neurons in flickers: platelet microthrombi plug the cerebral microvessels, producing the fluctuating confusion, headache, seizures, and focal deficits that are the hallmark neurologic feature of a crisis.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart muscle is a hidden victim: microthrombi clog the coronary microcirculation, injuring cardiomyocytes with troponin rise, arrhythmia, and sudden death — a leading cause of acute mortality in TTP that can be silent until severe.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The 'purpura' shows on the skin: the profound thrombocytopenia of TTP lets blood leak into the skin as petechiae and bruises, often the first visible sign that sends a patient for the blood count that reveals the crisis.
 
 ---
 
