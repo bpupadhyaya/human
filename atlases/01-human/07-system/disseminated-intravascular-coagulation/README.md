@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The eye bleeds and clots in miniature: DIC produces retinal and subconjunctival hemorrhages and microvascular occlusions, a window onto the simultaneous bleeding and thrombosis playing out body-wide."
+  - target: 01-human/07-system/prostate-cancer
+    relation: connects-to
+    note: "Metastatic prostate cancer drives a bleeding-type DIC: the tumor releases plasminogen activators that ignite excess fibrinolysis, so unlike most clot-heavy DIC it presents with oozing and bruising — a hyperfibrinolytic state needing its own tailored treatment."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Severe acute pancreatitis can set off DIC: leaking pancreatic enzymes and the systemic inflammation they unleash activate the clotting cascade body-wide, one of the noninfectious triggers of the consumptive coagulopathy."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "DIC strikes the brain both ways: showers of microthrombi cause scattered ischemic strokes while the consumed clotting factors invite intracerebral hemorrhage, the combination behind the confusion and focal deficits of severe cases."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -334,6 +343,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — DIC strikes the brain both ways: microthrombi infarct it while the consumed clotting factors let it bleed, so altered consciousness, focal deficits, and intracranial hemorrhage all complicate the coagulopathy.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Obstetric catastrophes are classic triggers: placental abruption, amniotic fluid embolism, retained dead fetus, and HELLP all flood the blood with tissue factor, igniting DIC in pregnancy and childbirth.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye bleeds and clots in miniature: DIC produces retinal and subconjunctival hemorrhages and microvascular occlusions, a window onto the simultaneous bleeding and thrombosis playing out body-wide.
+- `connects-to` → **[Prostate Cancer](../prostate-cancer/README.md)** — Metastatic prostate cancer drives a bleeding-type DIC: the tumor releases plasminogen activators that ignite excess fibrinolysis, so unlike most clot-heavy DIC it presents with oozing and bruising — a hyperfibrinolytic state needing its own tailored treatment.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Severe acute pancreatitis can set off DIC: leaking pancreatic enzymes and the systemic inflammation they unleash activate the clotting cascade body-wide, one of the noninfectious triggers of the consumptive coagulopathy.
+- `connects-to` → **[Stroke](../stroke/README.md)** — DIC strikes the brain both ways: showers of microthrombi cause scattered ischemic strokes while the consumed clotting factors invite intracerebral hemorrhage, the combination behind the confusion and focal deficits of severe cases.
 
 ---
 

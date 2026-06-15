@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Radiation and chemotherapy thin the blood: the craniospinal radiation and any added chemotherapy suppress the marrow, dropping neutrophils and raising the infection risk during the months of treatment."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "A midline tumor sits beside the master glands: thalamic and pontine gliomas and the radiation aimed at them border the hypothalamus and pituitary, so survivors face deficits of growth, thyroid and sex hormones that need lifelong endocrine follow-up."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "A subset of these gliomas amplify MYC: alongside the defining H3K27M mutation, MYC or PVT1 amplification drives some diffuse midline gliomas, adding a proliferative push that marks particularly aggressive, fast-growing tumors."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor is immunologically cold: it carries few mutations to flag and recruits regulatory T cells that suppress attack, an immune-evasive microenvironment that has frustrated immunotherapy and shapes the GD2 CAR-T trials now under way."
 ---
 
 # Diffuse Midline Glioma
@@ -334,6 +343,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Engineered antibody-based cells offer new hope: GD2-directed CAR-T cells have shrunk H3K27M-mutant diffuse midline gliomas in early trials, the first therapy to dent a tumor that radiation only briefly holds.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Its pontine home wrecks swallowing: the tumor infiltrates the brainstem's bulbar centers, so dysphagia and impaired airway protection bring aspiration and the need for feeding tubes as the disease advances.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Radiation and chemotherapy thin the blood: the craniospinal radiation and any added chemotherapy suppress the marrow, dropping neutrophils and raising the infection risk during the months of treatment.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — A midline tumor sits beside the master glands: thalamic and pontine gliomas and the radiation aimed at them border the hypothalamus and pituitary, so survivors face deficits of growth, thyroid and sex hormones that need lifelong endocrine follow-up.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — A subset of these gliomas amplify MYC: alongside the defining H3K27M mutation, MYC or PVT1 amplification drives some diffuse midline gliomas, adding a proliferative push that marks particularly aggressive, fast-growing tumors.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor is immunologically cold: it carries few mutations to flag and recruits regulatory T cells that suppress attack, an immune-evasive microenvironment that has frustrated immunotherapy and shapes the GD2 CAR-T trials now under way.
 
 ---
 
