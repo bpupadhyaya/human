@@ -157,6 +157,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D runs low in scleroderma: gut malabsorption, sun avoidance over fragile skin, and the disease itself leave most patients deficient, a shortfall linked to worse skin and lung fibrosis and to the bone loss they accrue."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Wnt keeps the fibroblasts switched on: persistent Wnt/beta-catenin signaling drives the fibroblast-to-myofibroblast transition that lays down relentless collagen, a pathway that helps explain why scleroderma's fibrosis self-perpetuates."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Broken immune restraint feeds the fibrosis: a shortfall and dysfunction of regulatory T cells lets profibrotic Th2 and Th17 responses run unchecked, tying the autoimmunity of scleroderma to its scarring."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Scleroderma keeps autoimmune company: autoimmune thyroid disease, both Hashimoto's hypothyroidism and Graves', is over-represented in systemic sclerosis, so thyroid function is part of the routine workup."
 ---
 
 # Systemic Sclerosis
@@ -317,6 +326,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Scleroderma scars the sexual organs too: erectile dysfunction from vascular and fibrotic damage is common and often early in men, while women face vaginal dryness and tightening, and pregnancy carries added risk of renal crisis.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The fibrosis can pinch and starve nerves: scleroderma causes trigeminal sensory neuropathy and entrapment syndromes like carpal tunnel, as thickened tissue and a damaged microvasculature injure the peripheral nerves.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D runs low in scleroderma: gut malabsorption, sun avoidance over fragile skin, and the disease itself leave most patients deficient, a shortfall linked to worse skin and lung fibrosis and to the bone loss they accrue.
+- `connects-to` → **[Wnt/beta-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Wnt keeps the fibroblasts switched on: persistent Wnt/beta-catenin signaling drives the fibroblast-to-myofibroblast transition that lays down relentless collagen, a pathway that helps explain why scleroderma's fibrosis self-perpetuates.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Broken immune restraint feeds the fibrosis: a shortfall and dysfunction of regulatory T cells lets profibrotic Th2 and Th17 responses run unchecked, tying the autoimmunity of scleroderma to its scarring.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Scleroderma keeps autoimmune company: autoimmune thyroid disease, both Hashimoto's hypothyroidism and Graves', is over-represented in systemic sclerosis, so thyroid function is part of the routine workup.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

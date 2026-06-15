@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Treatment and tumor both thin the red cells: the anthracycline-and-alkylator chemotherapy suppresses marrow erythrocyte production, leaving an anemia and fatigue that may need transfusion across the long course of care."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The doxorubicin-ifosfamide chemotherapy strains the heart: the anthracycline backbone for synovial sarcoma is cumulatively cardiotoxic to cardiomyocytes, so cardiac function is checked across treatment in these often-young patients."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cure can cost fertility: synovial sarcoma strikes adolescents and young adults, and its alkylating ifosfamide and any pelvic radiation damage the gonads, so fertility preservation is discussed before treatment begins."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "It is a hypoxic, vessel-hungry tumor: synovial sarcoma stabilizes HIF and pours out VEGF to feed its growth, the angiogenic drive behind the activity of anti-VEGF tyrosine-kinase inhibitors like pazopanib against it."
 ---
 
 # Synovial Sarcoma
@@ -321,6 +330,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody now clinches the diagnosis: a stain against the SS18-SSX fusion protein is highly specific for synovial sarcoma, and with TLE1 it confirms the t(X;18)-driven tumor that can otherwise mimic many spindle-cell cancers.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The doxorubicin-ifosfamide regimen empties the marrow: both drugs are heavily myelosuppressive, dropping neutrophil counts so that febrile neutropenia is a recurring hazard through synovial sarcoma chemotherapy.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Treatment and tumor both thin the red cells: the anthracycline-and-alkylator chemotherapy suppresses marrow erythrocyte production, leaving an anemia and fatigue that may need transfusion across the long course of care.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The doxorubicin-ifosfamide chemotherapy strains the heart: the anthracycline backbone for synovial sarcoma is cumulatively cardiotoxic to cardiomyocytes, so cardiac function is checked across treatment in these often-young patients.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure can cost fertility: synovial sarcoma strikes adolescents and young adults, and its alkylating ifosfamide and any pelvic radiation damage the gonads, so fertility preservation is discussed before treatment begins.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — It is a hypoxic, vessel-hungry tumor: synovial sarcoma stabilizes HIF and pours out VEGF to feed its growth, the angiogenic drive behind the activity of anti-VEGF tyrosine-kinase inhibitors like pazopanib against it.
 
 ---
 
