@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Carney complex grows a rare bone tumor: osteochondromyxoma, a benign mass of bone and cartilage usually of the nose or limbs, is one of the syndrome's defining lesions, arising from the skeleton's marrow-bearing bones."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Carney complex spawns a pigmented nerve tumor: the psammomatous melanotic schwannoma is one of its hallmark lesions, growing on spinal and peripheral nerves, while a cardiac myxoma can shower emboli into the brain to cause stroke."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The heart tumor can sicken the whole body: cardiac myxomas pour out IL-6, driving fever, weight loss, and an anemia of chronic disease that drops the red cells — constitutional clues that may surface before the mass is found."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The myxoma is a friable source of emboli: platelet-fibrin thrombi form on its gelatinous surface and break off to lodge in the brain and limbs, the embolic danger that makes prompt surgical removal essential."
 ---
 
 # Carney Complex
@@ -305,6 +314,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads Carney complex's signature tumors: the cardiac myxoma's stellate cells floating in myxoid matrix, and the melanin-laden cells of its blue nevi and spotty lentigines, ties the syndrome's varied growths together.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The heart tumors throw deadly debris: Carney complex's cardiac myxomas shed fragments and clots that embolize, lodging in the lungs as well as the brain, a danger that drives close cardiac surveillance.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Carney complex grows a rare bone tumor: osteochondromyxoma, a benign mass of bone and cartilage usually of the nose or limbs, is one of the syndrome's defining lesions, arising from the skeleton's marrow-bearing bones.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Carney complex spawns a pigmented nerve tumor: the psammomatous melanotic schwannoma is one of its hallmark lesions, growing on spinal and peripheral nerves, while a cardiac myxoma can shower emboli into the brain to cause stroke.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The heart tumor can sicken the whole body: cardiac myxomas pour out IL-6, driving fever, weight loss, and an anemia of chronic disease that drops the red cells — constitutional clues that may surface before the mass is found.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The myxoma is a friable source of emboli: platelet-fibrin thrombi form on its gelatinous surface and break off to lodge in the brain and limbs, the embolic danger that makes prompt surgical removal essential.
 
 ---
 

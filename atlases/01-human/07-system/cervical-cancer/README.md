@@ -142,6 +142,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D may help the body clear HPV: deficiency is associated with persistent infection and cervical dysplasia, fitting the vitamin's role in the immune defense that decides whether an HPV infection resolves or progresses."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The vaccine works by raising antibody: HPV vaccines teach the immune system to make neutralizing antibodies against the virus's capsid, blocking the infection that causes nearly all cervical cancer — a vaccine that prevents a cancer."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Cervical cancer announces itself in blood and worsens with anemia: abnormal vaginal bleeding is the cardinal symptom, and the resulting low red-cell count both weakens the patient and blunts the tumor's response to radiotherapy."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Advanced disease reaches the nerves: pelvic sidewall spread compresses the lumbosacral plexus into leg pain and weakness, while the cisplatin given with radiation injures peripheral sensory neurons."
 ---
 
 # Cervical Cancer
@@ -306,6 +315,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals HPV's fingerprint on the cervix: infected cells become koilocytes with a clear perinuclear halo and shrunken raisin-like nucleus, and viral particles assemble in the upper layers — the cytologic clue a Pap smear hunts for.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cervical cancer rarely reaches the brain, but when it does it marks the end stage: late hematogenous spread seeds cerebral metastases, an uncommon site beyond its usual march to lung, liver, and bone.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D may help the body clear HPV: deficiency is associated with persistent infection and cervical dysplasia, fitting the vitamin's role in the immune defense that decides whether an HPV infection resolves or progresses.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The vaccine works by raising antibody: HPV vaccines teach the immune system to make neutralizing antibodies against the virus's capsid, blocking the infection that causes nearly all cervical cancer — a vaccine that prevents a cancer.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Cervical cancer announces itself in blood and worsens with anemia: abnormal vaginal bleeding is the cardinal symptom, and the resulting low red-cell count both weakens the patient and blunts the tumor's response to radiotherapy.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Advanced disease reaches the nerves: pelvic sidewall spread compresses the lumbosacral plexus into leg pain and weakness, while the cisplatin given with radiation injures peripheral sensory neurons.
 
 ---
 
