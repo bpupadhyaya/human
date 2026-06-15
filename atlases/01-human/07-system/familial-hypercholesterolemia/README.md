@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "FH's cholesterol-laden aorta can shower emboli: fragments of plaque break off as cholesterol crystals that lodge in small vessels of the spleen, kidneys, and skin, a multi-organ embolic syndrome of advanced disease."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "FH leaves cholesterol in the tendons: firm Achilles and knuckle tendon xanthomas are a near-pathognomonic sign, and the statins that treat it can in turn cause muscle aches and, rarely, breakdown — both tying the disease to the musculoskeletal system."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Lifelong statin therapy nudges the pancreas: the drugs slightly raise the risk of new-onset diabetes, and in forms with high triglycerides too, the excess fat can inflame the pancreas into pancreatitis."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy forces a treatment pause: statins are avoided in pregnancy for fear of harming the fetus, so women with FH must stop them while trying to conceive and during gestation, leaving their high LDL untreated for months."
 ---
 
 # Familial Hypercholesterolemia
@@ -295,6 +304,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals where the excess cholesterol piles up: macrophages gorge on LDL until they become lipid-stuffed foam cells, and needle-shaped cholesterol clefts stud the xanthomas and plaques that scar FH's arteries and tendons.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Premature atherosclerosis can starve the gut: FH's early, severe plaque burden narrows the mesenteric arteries too, so chronic intestinal angina — abdominal pain after eating — can join its better-known heart and brain disease.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — FH's cholesterol-laden aorta can shower emboli: fragments of plaque break off as cholesterol crystals that lodge in small vessels of the spleen, kidneys, and skin, a multi-organ embolic syndrome of advanced disease.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — FH leaves cholesterol in the tendons: firm Achilles and knuckle tendon xanthomas are a near-pathognomonic sign, and the statins that treat it can in turn cause muscle aches and, rarely, breakdown — both tying the disease to the musculoskeletal system.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Lifelong statin therapy nudges the pancreas: the drugs slightly raise the risk of new-onset diabetes, and in forms with high triglycerides too, the excess fat can inflame the pancreas into pancreatitis.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy forces a treatment pause: statins are avoided in pregnancy for fear of harming the fetus, so women with FH must stop them while trying to conceive and during gestation, leaving their high LDL untreated for months.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

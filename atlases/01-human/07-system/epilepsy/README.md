@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "A prolonged seizure can poison the kidney: violent muscle activity in status epilepticus breaks down muscle, and the released myoglobin clogs the renal tubules, threatening acute kidney injury."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Anti-seizure drugs can erupt on the skin: carbamazepine, lamotrigine, and phenytoin can trigger Stevens-Johnson syndrome and toxic epidermal necrolysis, a risk so tied to the HLA-B*1502 allele that some patients are genotyped first."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Epilepsy and its drugs reach into reproduction: valproate is strongly teratogenic, enzyme-inducing drugs undercut hormonal contraception, and many women have catamenial seizures that cluster with the menstrual cycle's hormone swings."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Some anti-seizure drugs strike the marrow: carbamazepine can cause agranulocytosis and aplastic anemia, while phenytoin interferes with folate to produce a megaloblastic anemia — so blood counts are monitored."
 ---
 
 # Epilepsy
@@ -343,6 +352,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the scarred epileptic focus: in mesial temporal sclerosis the hippocampus loses neurons and gliosis takes over, while surviving granule cells sprout aberrant mossy fibers that wire the runaway circuits of seizures.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Long-term seizure drugs quietly weaken bone: enzyme-inducing antiepileptics speed the liver's breakdown of vitamin D, so deficiency, osteomalacia, and fractures are a recognized hazard of years on treatment.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A prolonged seizure can poison the kidney: violent muscle activity in status epilepticus breaks down muscle, and the released myoglobin clogs the renal tubules, threatening acute kidney injury.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Anti-seizure drugs can erupt on the skin: carbamazepine, lamotrigine, and phenytoin can trigger Stevens-Johnson syndrome and toxic epidermal necrolysis, a risk so tied to the HLA-B*1502 allele that some patients are genotyped first.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Epilepsy and its drugs reach into reproduction: valproate is strongly teratogenic, enzyme-inducing drugs undercut hormonal contraception, and many women have catamenial seizures that cluster with the menstrual cycle's hormone swings.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some anti-seizure drugs strike the marrow: carbamazepine can cause agranulocytosis and aplastic anemia, while phenytoin interferes with folate to produce a megaloblastic anemia — so blood counts are monitored.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
