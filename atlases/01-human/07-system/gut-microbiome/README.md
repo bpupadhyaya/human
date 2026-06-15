@@ -145,6 +145,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D and the gut flora shape each other: vitamin D and its receptor in the gut tune the microbial community and barrier, while the microbiome in turn influences vitamin D metabolism — a two-way tie linking sunlight, diet, and gut health."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The flora tune antibodies beyond the gut: germ-free animals make poor antibody and respond weakly to vaccines, showing the microbiome calibrates the whole systemic humoral response, not just the secretory IgA bathing the mucosa."
+  - target: 01-human/07-system/colorectal-cancer
+    relation: connects-to
+    note: "Some microbes turn carcinogenic: a dysbiotic flora enriched in Fusobacterium nucleatum and toxin-making bacteria fosters colorectal cancer, inflaming the mucosa and damaging DNA, while a fiber-fed, butyrate-rich community protects against it."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "A gut-skin axis links the two surfaces: dysbiosis and a leaky gut feed inflammatory skin disease — acne, eczema, psoriasis, and rosacea — through immune and metabolite signals, which is why diet and probiotics are studied for the skin."
 ---
 
 # Gut Microbiome
@@ -265,6 +274,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Nervous System](../nervous-system/README.md)** — The microbiome talks to the brain: along the gut-brain axis it signals through the vagus nerve, microbial metabolites, and immune messengers, shaping mood, stress responses, and behavior — the basis of its links to depression and Parkinson's.
 - `connects-to` → **[Dietary Fiber and Butyrate](../../../03-medicine/03-food/dietary-fiber/README.md)** — Fiber is the microbiome's fuel: colonic bacteria ferment indigestible dietary fiber into short-chain fatty acids like butyrate that feed the gut lining, calm inflammation, and reward a fiber-rich diet with a healthier microbial community.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D and the gut flora shape each other: vitamin D and its receptor in the gut tune the microbial community and barrier, while the microbiome in turn influences vitamin D metabolism — a two-way tie linking sunlight, diet, and gut health.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The flora tune antibodies beyond the gut: germ-free animals make poor antibody and respond weakly to vaccines, showing the microbiome calibrates the whole systemic humoral response, not just the secretory IgA bathing the mucosa.
+- `connects-to` → **[Colorectal Cancer](../colorectal-cancer/README.md)** — Some microbes turn carcinogenic: a dysbiotic flora enriched in Fusobacterium nucleatum and toxin-making bacteria fosters colorectal cancer, inflaming the mucosa and damaging DNA, while a fiber-fed, butyrate-rich community protects against it.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A gut-skin axis links the two surfaces: dysbiosis and a leaky gut feed inflammatory skin disease — acne, eczema, psoriasis, and rosacea — through immune and metabolite signals, which is why diet and probiotics are studied for the skin.
 
 ## Pathology
 

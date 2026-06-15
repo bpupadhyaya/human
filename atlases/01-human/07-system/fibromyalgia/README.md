@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Adenosine sits at the crossroads of its fatigue and pain: the molecule builds sleep pressure and dampens pain signaling, and disturbed adenosine handling may help explain the exhaustion and the poor pain control in fibromyalgia."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "A 'clinical endocannabinoid deficiency' is one leading idea: low endocannabinoid tone may underlie fibromyalgia, migraine, and IBS together, the rationale behind trying cannabinoids to lift pain thresholds and ease the sleep disturbance."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Fibromyalgia is overwhelmingly a women's diagnosis: symptoms often worsen premenstrually and around menopause as sex hormones shift, and it overlaps with painful menstrual and pelvic conditions, hinting hormones modulate central pain."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small bowel may feed the pain: small intestinal bacterial overgrowth (SIBO) is found more often in fibromyalgia, and the bloating and altered gut signaling it brings feed back through the gut-brain axis onto central sensitization."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -330,6 +339,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Fibromyalgia's unrefreshing sleep has a chemical signature: disrupted circadian rhythm and altered melatonin leave patients waking tired, and the resulting sleep deprivation itself lowers the pain threshold, locking in a vicious cycle.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut keeps fibromyalgia company: irritable bowel and functional dyspepsia overlap heavily with it through a shared gut-brain hypersensitivity, so bloating, pain, and altered bowel habit travel with the widespread body pain.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine sits at the crossroads of its fatigue and pain: the molecule builds sleep pressure and dampens pain signaling, and disturbed adenosine handling may help explain the exhaustion and the poor pain control in fibromyalgia.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — A 'clinical endocannabinoid deficiency' is one leading idea: low endocannabinoid tone may underlie fibromyalgia, migraine, and IBS together, the rationale behind trying cannabinoids to lift pain thresholds and ease the sleep disturbance.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Fibromyalgia is overwhelmingly a women's diagnosis: symptoms often worsen premenstrually and around menopause as sex hormones shift, and it overlaps with painful menstrual and pelvic conditions, hinting hormones modulate central pain.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small bowel may feed the pain: small intestinal bacterial overgrowth (SIBO) is found more often in fibromyalgia, and the bloating and altered gut signaling it brings feed back through the gut-brain axis onto central sensitization.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
