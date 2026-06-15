@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Potent new CLL drugs can trigger tumor lysis: venetoclax kills the cells so fast that phosphorus and other contents spill into the blood, so the drug is started in careful dose steps to avoid the metabolic crisis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "CLL warps antibody both ways: the failing immune system makes too little normal immunoglobulin, leaving patients prone to infection, while anti-CD20 antibodies like obinutuzumab are a core treatment and autoantibodies can attack the blood cells."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "CLL drops the platelets by two routes: marrow crowding by leukemic cells and an autoimmune destruction (ITP) both lower the count, and a falling platelet level marks advancing disease that prompts treatment."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney bears the brunt of tumor lysis: as venetoclax bursts the leukemic mass, surging uric acid and phosphate crystallize in the renal tubules, threatening acute kidney injury that hydration and rasburicase guard against."
 ---
 
 # CLL
@@ -296,6 +305,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CLL's fragile cells: small mature lymphocytes with clumped chromatin so delicate they rupture on the slide into the 'smudge cells' that are a clue to the diagnosis on a blood smear.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — CLL leaves the lungs defenseless: by crippling normal antibody production it brings recurrent pneumonias, and leukemic cells can themselves infiltrate the lung, infection being a leading cause of death.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Potent new CLL drugs can trigger tumor lysis: venetoclax kills the cells so fast that phosphorus and other contents spill into the blood, so the drug is started in careful dose steps to avoid the metabolic crisis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — CLL warps antibody both ways: the failing immune system makes too little normal immunoglobulin, leaving patients prone to infection, while anti-CD20 antibodies like obinutuzumab are a core treatment and autoantibodies can attack the blood cells.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — CLL drops the platelets by two routes: marrow crowding by leukemic cells and an autoimmune destruction (ITP) both lower the count, and a falling platelet level marks advancing disease that prompts treatment.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney bears the brunt of tumor lysis: as venetoclax bursts the leukemic mass, surging uric acid and phosphate crystallize in the renal tubules, threatening acute kidney injury that hydration and rasburicase guard against.
 
 ---
 

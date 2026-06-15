@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Some CIDP variants strike the cranial nerves: involvement of the nerves controlling eye movement causes double vision and drooping, broadening the disease beyond the limbs in its atypical forms."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both treat and define CIDP: intravenous immunoglobulin is a first-line therapy, and a subset is driven by autoantibodies against the nerve's nodes (anti-NF155, anti-contactin-1) that mark a distinct, treatment-resistant form."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "CIDP demyelinates the peripheral, not central, nerves: it strips the Schwann-cell myelin of peripheral nerves while sparing the oligodendrocyte myelin of the brain and cord — the opposite territory to multiple sclerosis."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The disability is muscular: as demyelination slows nerve conduction, CIDP brings progressive limb weakness, areflexia, and eventual muscle wasting, the motor loss that physiotherapy and immunotherapy aim to reverse."
 ---
 
 # CIDP
@@ -336,6 +345,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CIDP's repeated injury: round after round of demyelination and repair leaves Schwann cells wrapped in concentric 'onion-bulb' whorls around the axon, the hallmark of a chronic, relapsing nerve attack.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Severe CIDP can reach the breathing muscles: when the demyelination involves the nerves driving the diaphragm, respiratory weakness develops, the rare but dangerous extension that can require ventilatory support.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Some CIDP variants strike the cranial nerves: involvement of the nerves controlling eye movement causes double vision and drooping, broadening the disease beyond the limbs in its atypical forms.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both treat and define CIDP: intravenous immunoglobulin is a first-line therapy, and a subset is driven by autoantibodies against the nerve's nodes (anti-NF155, anti-contactin-1) that mark a distinct, treatment-resistant form.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — CIDP demyelinates the peripheral, not central, nerves: it strips the Schwann-cell myelin of peripheral nerves while sparing the oligodendrocyte myelin of the brain and cord — the opposite territory to multiple sclerosis.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The disability is muscular: as demyelination slows nerve conduction, CIDP brings progressive limb weakness, areflexia, and eventual muscle wasting, the motor loss that physiotherapy and immunotherapy aim to reverse.
 
 ---
 
