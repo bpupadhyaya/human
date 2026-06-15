@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "PCNSL leans toward the plasma cell end of the B-lineage: its hallmark MYD88 mutation is shared with plasmacytic lymphomas, and the tumor cells often show plasmablastic features driving the same NF-κB survival signaling."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "PCNSL menaces the neuron from two sides: the infiltrating lymphoma crowds and destroys brain tissue to cause focal deficits, and the curative high-dose methotrexate with whole-brain radiation can later leave a disabling cognitive decline."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Treating PCNSL can strip the brain's myelin: high-dose methotrexate and whole-brain radiation injure oligodendrocytes, producing the delayed white-matter leukoencephalopathy that dims memory and slows thinking in survivors."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "PCNSL is defined by what it spares: by definition the lymphoma is confined to the CNS, so staging scans the liver and marrow precisely to exclude systemic DLBCL, whose visceral spread would change the disease and its treatment."
 ---
 
 # Primary CNS Lymphoma
@@ -285,6 +294,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The bone marrow defines what PCNSL is not: by definition the lymphoma stays in the brain, eye, and CSF, so a marrow biopsy is part of staging to rule out a systemic lymphoma that has merely spread to the nervous system.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — PCNSL is confirmed by an absent spleen lesion: full-body staging checks the spleen and other nodal sites because finding systemic disease would reclassify it as ordinary lymphoma, while late relapses can occasionally break out to these organs.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — PCNSL leans toward the plasma cell end of the B-lineage: its hallmark MYD88 mutation is shared with plasmacytic lymphomas, and the tumor cells often show plasmablastic features driving the same NF-κB survival signaling.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PCNSL menaces the neuron from two sides: the infiltrating lymphoma crowds and destroys brain tissue to cause focal deficits, and the curative high-dose methotrexate with whole-brain radiation can later leave a disabling cognitive decline.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Treating PCNSL can strip the brain's myelin: high-dose methotrexate and whole-brain radiation injure oligodendrocytes, producing the delayed white-matter leukoencephalopathy that dims memory and slows thinking in survivors.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — PCNSL is defined by what it spares: by definition the lymphoma is confined to the CNS, so staging scans the liver and marrow precisely to exclude systemic DLBCL, whose visceral spread would change the disease and its treatment.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

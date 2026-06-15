@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Pemphigus may attack more than desmogleins: autoantibodies also target keratinocyte acetylcholine receptors, and since cholinergic signaling helps keep these cells stuck together, blocking it is thought to add to the acantholysis."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "The blister's depth tells the disease apart: pemphigus splits keratinocytes from each other high in the epidermis (acantholysis), sparing the collagen-anchored basement membrane that bullous pemphigoid attacks below — a level that decides the diagnosis."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Controlling pemphigus weakens the bones: the long courses of high-dose corticosteroids that suppress the autoantibodies drive glucocorticoid-induced osteoporosis, so patients need bone protection alongside their immunosuppression."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The real danger in pemphigus is infection: deep immunosuppression with steroids and rituximab opens the door to pneumonia and opportunistic lung infections, which — not the blisters themselves — are the leading cause of death."
 ---
 
 # Pemphigus Vulgaris
@@ -323,6 +332,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows pemphigus tearing the skin apart cell by cell: the desmosomes that rivet keratinocytes together dissolve, intercellular gaps widen, and the cells round up and float free — the ultrastructure of acantholysis.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Fluorescent light clinches the diagnosis: direct immunofluorescence on a skin biopsy lights up IgG deposited between epidermal cells in a 'fishnet' or chicken-wire pattern, the test that separates pemphigus from other blistering diseases.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Pemphigus may attack more than desmogleins: autoantibodies also target keratinocyte acetylcholine receptors, and since cholinergic signaling helps keep these cells stuck together, blocking it is thought to add to the acantholysis.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — The blister's depth tells the disease apart: pemphigus splits keratinocytes from each other high in the epidermis (acantholysis), sparing the collagen-anchored basement membrane that bullous pemphigoid attacks below — a level that decides the diagnosis.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Controlling pemphigus weakens the bones: the long courses of high-dose corticosteroids that suppress the autoantibodies drive glucocorticoid-induced osteoporosis, so patients need bone protection alongside their immunosuppression.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The real danger in pemphigus is infection: deep immunosuppression with steroids and rituximab opens the door to pneumonia and opportunistic lung infections, which — not the blisters themselves — are the leading cause of death.
 
 ---
 
