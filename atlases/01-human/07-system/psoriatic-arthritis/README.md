@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils tie psoriatic skin to joint: they form the micro-abscesses of psoriatic plaques and pour into inflamed entheses and joints, linking the IL-17-driven skin and arthritis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons capture psoriatic arthritis's signature damage: X-rays show the 'pencil-in-cup' deformity of eroded finger joints, while MRI and ultrasound catch the enthesitis and dactylitis early, before the bone destruction becomes irreversible."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Psoriatic arthritis is hard on the heart: the same chronic IL-17 and TNF inflammation that swells joints accelerates atherosclerosis, raising the risk of heart attack independent of the usual cardiac risk factors."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D sits on both sides of psoriatic disease: deficiency is common and may worsen the Th17/IL-17 inflammation behind it, and vitamin D analogs applied to the skin are a mainstay for the psoriasis that accompanies the arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -317,6 +326,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Salt may inflame psoriatic arthritis: high sodium pushes naive T cells toward the IL-17-producing Th17 lineage that drives both the skin and joint disease, a dietary link to its core immune axis.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Psoriatic arthritis smolders in the bone marrow: subchondral bone-marrow edema (osteitis) on MRI is a hallmark of the disease, marking the inflammation at entheses and joints before erosions appear.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils tie psoriatic skin to joint: they form the micro-abscesses of psoriatic plaques and pour into inflamed entheses and joints, linking the IL-17-driven skin and arthritis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons capture psoriatic arthritis's signature damage: X-rays show the 'pencil-in-cup' deformity of eroded finger joints, while MRI and ultrasound catch the enthesitis and dactylitis early, before the bone destruction becomes irreversible.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Psoriatic arthritis is hard on the heart: the same chronic IL-17 and TNF inflammation that swells joints accelerates atherosclerosis, raising the risk of heart attack independent of the usual cardiac risk factors.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D sits on both sides of psoriatic disease: deficiency is common and may worsen the Th17/IL-17 inflammation behind it, and vitamin D analogs applied to the skin are a mainstay for the psoriasis that accompanies the arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

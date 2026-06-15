@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Angioimmunoblastic PTCL sprouts blood vessels: it is marked by a striking proliferation of arborizing high-endothelial venules, so its endothelial cells multiply alongside the malignant T cells."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons stage and track PTCL: these lymphomas are avid for FDG, so PET-CT lights up nodal and extranodal disease for staging and gauges whether the aggressive tumor is melting away under chemotherapy."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "One PTCL is born in the gut: enteropathy-associated T-cell lymphoma arises from the intraepithelial T cells of the small intestine in long-standing celiac disease, presenting with bowel perforation or obstruction in a malnourished patient."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Angioimmunoblastic PTCL turns the immune system on its own red cells: the dysregulated helper-T-cell tumor drives autoantibodies that coat erythrocytes, producing a Coombs-positive hemolytic anemia alongside the lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -304,6 +313,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Peripheral T-cell lymphoma drains iron and blood: marrow involvement and chronic inflammation suppress red-cell production and lock iron away, so anemia commonly accompanies these aggressive lymphomas.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Some T-cell lymphomas home to the liver: hepatosplenic T-cell lymphoma infiltrates the liver and spleen rather than forming nodal masses, enlarging both organs in this rare, aggressive subtype.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Angioimmunoblastic PTCL sprouts blood vessels: it is marked by a striking proliferation of arborizing high-endothelial venules, so its endothelial cells multiply alongside the malignant T cells.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons stage and track PTCL: these lymphomas are avid for FDG, so PET-CT lights up nodal and extranodal disease for staging and gauges whether the aggressive tumor is melting away under chemotherapy.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — One PTCL is born in the gut: enteropathy-associated T-cell lymphoma arises from the intraepithelial T cells of the small intestine in long-standing celiac disease, presenting with bowel perforation or obstruction in a malnourished patient.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Angioimmunoblastic PTCL turns the immune system on its own red cells: the dysregulated helper-T-cell tumor drives autoantibodies that coat erythrocytes, producing a Coombs-positive hemolytic anemia alongside the lymphoma.
 
 ---
 
