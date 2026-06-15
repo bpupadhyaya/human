@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "GIST springs from the gut's pacemaker network: interstitial cells of Cajal interface with the enteric neurons that coordinate motility, tying this mesenchymal tumor to the bowel's nervous system."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy ties GIST to the gut's pacemaker: its spindle cells resemble the interstitial cells of Cajal, with bundled cytoplasmic filaments and, in some, tangled skeinoid fibers of extracellular collagen."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "GIST rarely reaches bone: it almost always spreads to the liver and across the peritoneum, but in advanced, drug-resistant disease it can seed skeletal and marrow metastases, an unusual late event."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Pulmonary spread is the exception in GIST: unlike most sarcomas it spares the lungs early, favoring liver and peritoneum, so lung metastases appear only in late, widely disseminated disease."
 ---
 
 # GIST
@@ -302,6 +311,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — GISTs bleed by breaching the gut lining: as the submucosal tumor grows it ulcerates the overlying intestinal epithelium, causing the GI hemorrhage and anemia that often first reveal it.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GIST's parent cells are pacemakers: the interstitial cells of Cajal generate the gut's electrical slow waves using calcium oscillations, the rhythm of peristalsis from which GIST arises.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — GIST springs from the gut's pacemaker network: interstitial cells of Cajal interface with the enteric neurons that coordinate motility, tying this mesenchymal tumor to the bowel's nervous system.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy ties GIST to the gut's pacemaker: its spindle cells resemble the interstitial cells of Cajal, with bundled cytoplasmic filaments and, in some, tangled skeinoid fibers of extracellular collagen.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — GIST rarely reaches bone: it almost always spreads to the liver and across the peritoneum, but in advanced, drug-resistant disease it can seed skeletal and marrow metastases, an unusual late event.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Pulmonary spread is the exception in GIST: unlike most sarcomas it spares the lungs early, favoring liver and peritoneum, so lung metastases appear only in late, widely disseminated disease.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

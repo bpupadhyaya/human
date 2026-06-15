@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "GCA's treatment threatens bone: the prolonged high-dose steroids needed to prevent blindness leach calcium and cause osteoporosis, a major long-term harm of controlling the disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows GCA chewing through the artery wall: multinucleated giant cells gather along the fragmented internal elastic lamina they are destroying, the granulomatous lesion that names the disease."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "GCA can starve the gut: when the large-vessel inflammation reaches the mesenteric arteries, it threatens bowel ischemia, a rare but grave extension of a disease usually thought of as confined to the head."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "GCA occasionally speaks through the lungs: a dry cough or other respiratory symptoms can be the unexpected presenting complaint, the vasculitis reaching the airways and pulmonary vessels."
 ---
 
 # Giant Cell Arteritis
@@ -286,6 +295,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — GCA is found by imaging and biopsy: ultrasound shows the artery-wall 'halo,' PET lights up large-vessel inflammation, and the temporal-artery biopsy reveals giant cells under the microscope.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — GCA can starve the nerves: ischemia from vasculitis of the vasa nervorum causes peripheral neuropathy and mononeuritis, beyond the optic-nerve infarction that threatens sight.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GCA's treatment threatens bone: the prolonged high-dose steroids needed to prevent blindness leach calcium and cause osteoporosis, a major long-term harm of controlling the disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows GCA chewing through the artery wall: multinucleated giant cells gather along the fragmented internal elastic lamina they are destroying, the granulomatous lesion that names the disease.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — GCA can starve the gut: when the large-vessel inflammation reaches the mesenteric arteries, it threatens bowel ischemia, a rare but grave extension of a disease usually thought of as confined to the head.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — GCA occasionally speaks through the lungs: a dry cough or other respiratory symptoms can be the unexpected presenting complaint, the vasculitis reaching the airways and pulmonary vessels.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
