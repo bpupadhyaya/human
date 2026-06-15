@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "Basal cell carcinoma dodges death through BCL-2: it strongly expresses this anti-apoptotic protein, which both helps the tumor survive and serves as a marker on biopsy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy fingerprints basal cell carcinoma: nests of basaloid cells line up in a palisade at their edge, joined by desmosomes and filled with tonofilaments, the ultrastructure of a tumor that mimics the skin's basal layer."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "On the rare occasion basal cell carcinoma metastasizes, it heads for the lung: although it almost always stays local, the exceptional spreading case seeds the lungs and bones, a vanishingly rare but documented event."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Neglected basal cell carcinoma gnaws into bone: the 'rodent ulcer' is locally destructive, eroding through cartilage and into the underlying bone of the face and skull if left untreated for years."
 ---
 
 # Basal Cell Carcinoma
@@ -293,6 +302,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Neglected facial basal cell carcinoma can reach the brain: by creeping along cranial nerves, advanced tumors invade the skull base and intracranial space, a rare but grave outcome of a usually local cancer.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The Gorlin syndrome behind multiple basal cell carcinomas calcifies the brain: calcification of the falx cerebri, the dural sheet between the hemispheres, is a diagnostic clue to the inherited disease.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Basal cell carcinoma dodges death through BCL-2: it strongly expresses this anti-apoptotic protein, which both helps the tumor survive and serves as a marker on biopsy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy fingerprints basal cell carcinoma: nests of basaloid cells line up in a palisade at their edge, joined by desmosomes and filled with tonofilaments, the ultrastructure of a tumor that mimics the skin's basal layer.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — On the rare occasion basal cell carcinoma metastasizes, it heads for the lung: although it almost always stays local, the exceptional spreading case seeds the lungs and bones, a vanishingly rare but documented event.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Neglected basal cell carcinoma gnaws into bone: the 'rodent ulcer' is locally destructive, eroding through cartilage and into the underlying bone of the face and skull if left untreated for years.
 
 ---
 

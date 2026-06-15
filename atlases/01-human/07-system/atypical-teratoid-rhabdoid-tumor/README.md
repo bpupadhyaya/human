@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "ATRT and rhabdoid tumors can seed the marrow: bone and bone-marrow metastases occur in disseminated disease, so staging looks beyond the brain in this highly malignant cancer."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the rhabdoid cell: a whorled ball of intermediate filaments shoves the nucleus to one side, the cytoplasmic inclusion that names these tumors and betrays their loss of the SMARCB1 brake."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "When rhabdoid tumors spread, the lung is a target: this aggressive cancer disseminates beyond the nervous system, seeding pulmonary metastases that mark widespread, often fatal disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "ATRT can reach the eye: leptomeningeal spread along the optic pathway and orbital involvement threaten vision, part of why this tumor's reach is mapped across the whole neuraxis."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -290,6 +299,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ATRT often calcifies: flecks of calcium within the tumor are a clue on the CT scan, appearing alongside the hemorrhage and cysts that mark these aggressive infant brain tumors.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — ATRT can spread beyond the nervous system: its extracranial rhabdoid counterparts and metastases reach the liver, lungs and bone, especially in the very young children it strikes.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — ATRT and rhabdoid tumors can seed the marrow: bone and bone-marrow metastases occur in disseminated disease, so staging looks beyond the brain in this highly malignant cancer.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the rhabdoid cell: a whorled ball of intermediate filaments shoves the nucleus to one side, the cytoplasmic inclusion that names these tumors and betrays their loss of the SMARCB1 brake.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — When rhabdoid tumors spread, the lung is a target: this aggressive cancer disseminates beyond the nervous system, seeding pulmonary metastases that mark widespread, often fatal disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ATRT can reach the eye: leptomeningeal spread along the optic pathway and orbital involvement threaten vision, part of why this tumor's reach is mapped across the whole neuraxis.
 
 ---
 
