@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/03-molecular/albumin
     relation: connects-to
     note: "Albumin helps stage the disease: low serum albumin together with high beta-2-microglobulin defines the higher tiers of the International Staging System, the simple blood pair that grades a new myeloma's prognosis."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Its mainstay drugs are powerfully prothrombotic: the immunomodulators lenalidomide and thalidomide sharply raise the risk of deep-vein thrombosis and pulmonary embolism, so every patient on them needs aspirin or anticoagulant prophylaxis."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "A defining translocation switches on cyclin D1: t(11;14) juxtaposes CCND1 to the immunoglobulin enhancer in a major myeloma subtype, and these cyclin-D1-driven, BCL-2-dependent tumors are the ones that respond to venetoclax."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The same plasma-cell clone can poison the heart: misfolded light chains deposit as AL amyloid between cardiomyocytes, stiffening the wall into a restrictive cardiomyopathy that is a leading cause of death in myeloma-associated amyloidosis."
 ---
 
 # Multiple Myeloma
@@ -332,6 +341,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Myeloma is a rogue antibody factory: a single plasma-cell clone floods the blood with one monoclonal protein (the M-spike) seen on electrophoresis while the other antibodies fall silent, and the CD38 on its surface is the bullseye for daratumumab therapy.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Infection is the great killer in myeloma: the crowded marrow and the silenced normal antibodies (immunoparesis) leave neutrophils few and ineffective, a vulnerability that proteasome-inhibitor and chemotherapy regimens only deepen.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Albumin helps stage the disease: low serum albumin together with high beta-2-microglobulin defines the higher tiers of the International Staging System, the simple blood pair that grades a new myeloma's prognosis.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Its mainstay drugs are powerfully prothrombotic: the immunomodulators lenalidomide and thalidomide sharply raise the risk of deep-vein thrombosis and pulmonary embolism, so every patient on them needs aspirin or anticoagulant prophylaxis.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — A defining translocation switches on cyclin D1: t(11;14) juxtaposes CCND1 to the immunoglobulin enhancer in a major myeloma subtype, and these cyclin-D1-driven, BCL-2-dependent tumors are the ones that respond to venetoclax.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The same plasma-cell clone can poison the heart: misfolded light chains deposit as AL amyloid between cardiomyocytes, stiffening the wall into a restrictive cardiomyopathy that is a leading cause of death in myeloma-associated amyloidosis.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

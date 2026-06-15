@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "A changing lump under the skin is the warning: in NF1 an MPNST usually arises from a plexiform neurofibroma, so a deep mass that suddenly enlarges, hardens, or turns painful beneath the café-au-lait-marked skin demands urgent imaging and biopsy."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The sarcoma chemotherapy strains the heart: when MPNST is treated, the doxorubicin-ifosfamide backbone carries anthracycline cardiotoxicity, injuring cardiomyocytes and demanding cardiac monitoring through the limited chemo that this resistant tumor allows."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Most MPNSTs arise in NF1, which is inherited: the syndrome passes to half of a carrier's children, so a diagnosis prompts family genetic counseling, while the cytotoxic chemotherapy adds its own threat to fertility in these often-young patients."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Like other aggressive sarcomas it drives clotting: MPNST raises the risk of venous thromboembolism through paraneoplastic thrombocytosis and tumor procoagulants, complicating the major surgery its treatment requires."
 ---
 
 # MPNST
@@ -327,6 +336,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains catch the transformation: loss of H3K27me3 by immunohistochemistry is an MPNST hallmark, and the patchy or absent S100 and SOX10 that once marked the Schwann cell fade as a benign neurofibroma turns malignant.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The chemotherapy taxes the marrow: the doxorubicin-and-ifosfamide regimens thrown at this aggressive sarcoma are strongly myelosuppressive, dropping neutrophil counts and making febrile neutropenia a recurring hazard of treatment.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A changing lump under the skin is the warning: in NF1 an MPNST usually arises from a plexiform neurofibroma, so a deep mass that suddenly enlarges, hardens, or turns painful beneath the café-au-lait-marked skin demands urgent imaging and biopsy.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The sarcoma chemotherapy strains the heart: when MPNST is treated, the doxorubicin-ifosfamide backbone carries anthracycline cardiotoxicity, injuring cardiomyocytes and demanding cardiac monitoring through the limited chemo that this resistant tumor allows.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Most MPNSTs arise in NF1, which is inherited: the syndrome passes to half of a carrier's children, so a diagnosis prompts family genetic counseling, while the cytotoxic chemotherapy adds its own threat to fertility in these often-young patients.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Like other aggressive sarcomas it drives clotting: MPNST raises the risk of venous thromboembolism through paraneoplastic thrombocytosis and tumor procoagulants, complicating the major surgery its treatment requires.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
