@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Indefinite TKI therapy collides with fertility: imatinib is teratogenic and taken for years, so contraception and pregnancy planning are necessary parts of managing GIST in younger patients."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "SDH-deficient GISTs run pseudo-hypoxic: when succinate dehydrogenase fails, succinate piles up and stabilizes HIF, so these KIT/PDGFRA-wild-type tumors behave as if starved of oxygen — the same pathway that drives their paraganglioma partners in Carney triad."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The kinase inhibitors can strain the heart: sunitinib, used when imatinib fails, injures cardiomyocytes and can cause left-ventricular dysfunction and heart failure, so cardiac function is monitored during the long course of therapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Imatinib does more than block KIT: in GIST it also reshapes immunity, lowering regulatory T cells and unleashing natural killer and T-cell attack on the tumor — an off-target immune boost that adds to its direct effect."
 ---
 
 # GIST
@@ -326,6 +335,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody stain clinches GIST: nearly all express KIT (CD117) and the more specific DOG1, immunostains that distinguish the tumor from the leiomyomas and schwannomas it can resemble in the gut wall.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The later-line drugs strain the heart: when imatinib fails, sunitinib and regorafenib drive hypertension and can impair cardiac function, a vascular toll monitored through the years of targeted therapy.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Indefinite TKI therapy collides with fertility: imatinib is teratogenic and taken for years, so contraception and pregnancy planning are necessary parts of managing GIST in younger patients.
+- `connects-to` → **[HIF-1alpha](../../03-molecular/hif-1alpha/README.md)** — SDH-deficient GISTs run pseudo-hypoxic: when succinate dehydrogenase fails, succinate piles up and stabilizes HIF, so these KIT/PDGFRA-wild-type tumors behave as if starved of oxygen — the same pathway that drives their paraganglioma partners in Carney triad.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The kinase inhibitors can strain the heart: sunitinib, used when imatinib fails, injures cardiomyocytes and can cause left-ventricular dysfunction and heart failure, so cardiac function is monitored during the long course of therapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Imatinib does more than block KIT: in GIST it also reshapes immunity, lowering regulatory T cells and unleashing natural killer and T-cell attack on the tumor — an off-target immune boost that adds to its direct effect.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

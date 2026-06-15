@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Months of high-dose steroids suppress the adrenals: the prolonged prednisone needed to control GCA shuts down the body's own cortisol production, so the dose must be tapered slowly to avoid an adrenal crisis."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets both flag and threaten in GCA: a raised platelet count is a useful diagnostic clue alongside the inflammatory markers, and because the inflamed artery clots, low-dose aspirin is often added to guard against the dreaded vision loss and stroke."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The treatment thins the bones: the months to years of high-dose glucocorticoids that control GCA are a leading cause of steroid-induced osteoporosis, so calcium, vitamin D and a bone-protecting drug are started alongside the prednisone."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "A viral trigger has been proposed: varicella-zoster virus antigen was reported in some inflamed temporal arteries, raising the idea that the reactivated virus helps ignite GCA — a link that remains debated and unproven."
 ---
 
 # Giant Cell Arteritis
@@ -310,6 +319,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody spares the steroids: tocilizumab, a monoclonal antibody against the IL-6 receptor, is the key steroid-sparing treatment for GCA, calming the IL-6-driven inflammation that powers the arteritis.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — GCA's most feared blow is sudden blindness: inflammation of the arteries feeding the optic nerve causes anterior ischemic optic neuropathy, an emergency that demands immediate steroids to save the second eye.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Months of high-dose steroids suppress the adrenals: the prolonged prednisone needed to control GCA shuts down the body's own cortisol production, so the dose must be tapered slowly to avoid an adrenal crisis.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets both flag and threaten in GCA: a raised platelet count is a useful diagnostic clue alongside the inflammatory markers, and because the inflamed artery clots, low-dose aspirin is often added to guard against the dreaded vision loss and stroke.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The treatment thins the bones: the months to years of high-dose glucocorticoids that control GCA are a leading cause of steroid-induced osteoporosis, so calcium, vitamin D and a bone-protecting drug are started alongside the prednisone.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — A viral trigger has been proposed: varicella-zoster virus antigen was reported in some inflamed temporal arteries, raising the idea that the reactivated virus helps ignite GCA — a link that remains debated and unproven.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
