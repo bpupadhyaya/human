@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver sets the stage for atherosclerosis: it makes and clears LDL cholesterol, so it is where statins act to lower the lipid that builds the plaque."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the plaque's anatomy: lipid-stuffed foam cells, needle-like cholesterol clefts, and a soft necrotic core capped by fibrous tissue — the unstable structure whose rupture triggers heart attacks and strokes."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper helps turn cholesterol toxic: as a redox-active metal it catalyzes the oxidation of LDL, and it is oxidized LDL that macrophages gorge on to become the foam cells at the heart of the plaque."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Atherosclerosis can starve the gut: when it narrows the mesenteric arteries, eating brings on the cramping 'intestinal angina,' and a sudden clot there can cause catastrophic bowel infarction."
 ---
 
 # Atherosclerosis
@@ -293,6 +302,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Atherosclerosis is scored by imaging: a CT coronary calcium scan in X-ray photons quantifies plaque burden to predict risk, and angiography maps the narrowings that threaten flow.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The plaque's foam cells come from the marrow: it supplies the monocytes that invade the artery wall, and age-related clonal mutations in marrow cells (clonal hematopoiesis) independently accelerate atherosclerosis.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver sets the stage for atherosclerosis: it makes and clears LDL cholesterol, so it is where statins act to lower the lipid that builds the plaque.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the plaque's anatomy: lipid-stuffed foam cells, needle-like cholesterol clefts, and a soft necrotic core capped by fibrous tissue — the unstable structure whose rupture triggers heart attacks and strokes.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper helps turn cholesterol toxic: as a redox-active metal it catalyzes the oxidation of LDL, and it is oxidized LDL that macrophages gorge on to become the foam cells at the heart of the plaque.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Atherosclerosis can starve the gut: when it narrows the mesenteric arteries, eating brings on the cramping 'intestinal angina,' and a sudden clot there can cause catastrophic bowel infarction.
 
 ---
 

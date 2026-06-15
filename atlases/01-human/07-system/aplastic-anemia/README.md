@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/cxcl12
     relation: connects-to
     note: "CXCL12 anchors stem cells in the marrow niche: this chemokine retains and supports blood-forming stem cells, so a disrupted CXCL12 niche contributes to their loss in aplastic anemia."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the emptied marrow: where blood-forming cells should crowd, aplastic anemia leaves a near-deserted space filled with fat, the hypocellular wasteland that starves the blood of every cell line."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Losing neutrophils endangers the gut: with no white cells to defend it, the bowel wall can be invaded in neutropenic enterocolitis (typhlitis), while low platelets make gastrointestinal bleeding a constant threat."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The defenseless lung is a frequent battleground: profound neutropenia opens the airways to bacterial and fungal pneumonia, the kind of infection that is a leading cause of death in severe aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -284,6 +293,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Aplastic anemia shows on the skin: the plummeting platelets cause petechiae and easy bruising, often the first visible sign that the marrow has stopped making blood cells.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — The marrow niche fails too in aplastic anemia: osteoblasts help build the stem-cell niche, so damage to this supportive scaffold compounds the loss of blood-forming stem cells.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 anchors stem cells in the marrow niche: this chemokine retains and supports blood-forming stem cells, so a disrupted CXCL12 niche contributes to their loss in aplastic anemia.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the emptied marrow: where blood-forming cells should crowd, aplastic anemia leaves a near-deserted space filled with fat, the hypocellular wasteland that starves the blood of every cell line.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Losing neutrophils endangers the gut: with no white cells to defend it, the bowel wall can be invaded in neutropenic enterocolitis (typhlitis), while low platelets make gastrointestinal bleeding a constant threat.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The defenseless lung is a frequent battleground: profound neutropenia opens the airways to bacterial and fungal pneumonia, the kind of infection that is a leading cause of death in severe aplastic anemia.
 
 ---
 
