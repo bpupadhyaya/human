@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Destroying aquaporin-4 unsettles potassium balance: the water channel sits beside the astrocyte channels that mop up potassium released by firing neurons, so the NMO attack disrupts the ion buffering that keeps the cord's neurons stable."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "NMO turns on a single self-protein: the AQP4-IgG autoantibody is both its cause and its diagnostic hallmark, distinguishing it from MS, and the related MOG antibody defines a separate but overlapping demyelinating disease."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "A high cord attack can stop the breath: NMO's longitudinally extensive myelitis or brainstem lesions can knock out the nerves driving the diaphragm, causing neurogenic respiratory failure that is a leading cause of death."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "A puzzle of where the channel lives: aquaporin-4 is abundant in the kidney's collecting ducts and the stomach too, yet NMO spares them and strikes the CNS — a selectivity set by how the blood-brain barrier and complement expose the target."
 ---
 
 # NMOSD
@@ -337,6 +346,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy distinguishes NMO from MS at the lesion: it is the astrocyte that dies first — its foot processes stripped of aquaporin-4 and coated with complement — rather than the myelin, a primary astrocytopathy unlike MS demyelination.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — NMO can present from the stomach's control center: lesions in the area postrema of the brainstem trigger intractable hiccups, nausea, and vomiting — a characteristic syndrome that often heralds the disease before the cord or optic nerve is hit.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Destroying aquaporin-4 unsettles potassium balance: the water channel sits beside the astrocyte channels that mop up potassium released by firing neurons, so the NMO attack disrupts the ion buffering that keeps the cord's neurons stable.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — NMO turns on a single self-protein: the AQP4-IgG autoantibody is both its cause and its diagnostic hallmark, distinguishing it from MS, and the related MOG antibody defines a separate but overlapping demyelinating disease.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — A high cord attack can stop the breath: NMO's longitudinally extensive myelitis or brainstem lesions can knock out the nerves driving the diaphragm, causing neurogenic respiratory failure that is a leading cause of death.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A puzzle of where the channel lives: aquaporin-4 is abundant in the kidney's collecting ducts and the stomach too, yet NMO spares them and strikes the CNS — a selectivity set by how the blood-brain barrier and complement expose the target.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
