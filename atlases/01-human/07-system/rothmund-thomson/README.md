@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The marrow trouble reaches the platelets: the bone-marrow dysfunction of the RECQL4 disorders can drop platelet counts into a thrombocytopenia, adding a bleeding tendency to the syndrome's skin, bone, and cancer problems."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Sun-sensitive, repair-poor skin courts skin cancer: beyond the basal and squamous tumors of its poikiloderma, RECQL4 deficiency raises melanoma risk, so lifelong sun protection and skin surveillance are core to RTS care."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The failing marrow also thins the red cells: the same RECQL4-driven dysfunction that courts MDS can crowd and stall erythrocyte production, leaving an anemia that, with the low platelets, marks the syndrome's bone-marrow involvement."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Sun avoidance collides with bone fragility: RTS demands strict photoprotection, yet the skeletal dysplasia and low bone density of the syndrome need vitamin D, so supplementation replaces the sunlight these children must shun."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -320,6 +329,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Rothmund-Thomson children stay small: short stature is a core feature, driven by intrinsic growth failure and skeletal dysplasia, and a subset have true growth-hormone deficiency that can be treated to improve final height.
 - `connects-to` → **[AML](../aml/README.md)** — The faulty helicase courts leukemia too: beyond its signature osteosarcoma, RECQL4 loss leaves DNA poorly repaired in blood-forming cells, raising the risk of myelodysplasia that can progress to acute myeloid leukemia.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The marrow trouble reaches the platelets: the bone-marrow dysfunction of the RECQL4 disorders can drop platelet counts into a thrombocytopenia, adding a bleeding tendency to the syndrome's skin, bone, and cancer problems.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Sun-sensitive, repair-poor skin courts skin cancer: beyond the basal and squamous tumors of its poikiloderma, RECQL4 deficiency raises melanoma risk, so lifelong sun protection and skin surveillance are core to RTS care.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The failing marrow also thins the red cells: the same RECQL4-driven dysfunction that courts MDS can crowd and stall erythrocyte production, leaving an anemia that, with the low platelets, marks the syndrome's bone-marrow involvement.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Sun avoidance collides with bone fragility: RTS demands strict photoprotection, yet the skeletal dysplasia and low bone density of the syndrome need vitamin D, so supplementation replaces the sunlight these children must shun.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

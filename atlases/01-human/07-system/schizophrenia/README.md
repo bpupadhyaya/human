@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Many antipsychotics tug at the heart's potassium gate: by blocking the hERG potassium channel they prolong the QT interval, a delayed repolarization that in susceptible patients can tip into the dangerous arrhythmia torsades de pointes."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "A treatable mimic hides among the cases: anti-NMDA-receptor encephalitis produces psychosis indistinguishable from schizophrenia, its autoantibodies against the NMDA receptor a reason to test, since immunotherapy can reverse what looks like a primary psychotic break."
+  - target: 02-pathogen/04-parasites/toxoplasma-gondii
+    relation: connects-to
+    note: "A brain parasite shadows the risk: chronic Toxoplasma gondii infection, which encysts in the brain and nudges dopamine, is consistently associated with a modestly higher rate of schizophrenia, one strand of the disease's infection-and-immune hypothesis."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The drugs reach into reproduction: by blocking dopamine, many antipsychotics lift prolactin into galactorrhea, amenorrhea, and sexual dysfunction, side effects that erode adherence and reproductive health in schizophrenia."
 ---
 
 # Schizophrenia
@@ -359,6 +368,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The most effective drug demands blood counts: clozapine, reserved for treatment-resistant schizophrenia, can wipe out neutrophils into a life-threatening agranulocytosis, so patients undergo mandatory regular neutrophil monitoring to use it safely.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Antipsychotics tax the metabolic organs: second-generation agents like olanzapine and clozapine drive weight gain and insulin resistance, straining the pancreas toward the diabetes and metabolic syndrome that shorten lives in schizophrenia.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Many antipsychotics tug at the heart's potassium gate: by blocking the hERG potassium channel they prolong the QT interval, a delayed repolarization that in susceptible patients can tip into the dangerous arrhythmia torsades de pointes.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — A treatable mimic hides among the cases: anti-NMDA-receptor encephalitis produces psychosis indistinguishable from schizophrenia, its autoantibodies against the NMDA receptor a reason to test, since immunotherapy can reverse what looks like a primary psychotic break.
+- `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A brain parasite shadows the risk: chronic Toxoplasma gondii infection, which encysts in the brain and nudges dopamine, is consistently associated with a modestly higher rate of schizophrenia, one strand of the disease's infection-and-immune hypothesis.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The drugs reach into reproduction: by blocking dopamine, many antipsychotics lift prolactin into galactorrhea, amenorrhea, and sexual dysfunction, side effects that erode adherence and reproductive health in schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
