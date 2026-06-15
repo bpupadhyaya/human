@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Cystic fibrosis scars its organs through fibroblasts: chronic inflammation activates them to lay down the fibrosis that destroys the pancreas (giving the disease its name) and stiffens the lungs."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "CF lungs are tracked by imaging: chest CT photons reveal the bronchiectasis—dilated, mucus-filled airways—and plugging that map the progressive lung destruction long before lung function fails."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "CF is diagnosed through the skin: defective CFTR can't reabsorb chloride in sweat glands, so the sweat is salty—the basis of the sweat-chloride test and the 'salty kiss' parents notice."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "CFTR lines the gut: without it the intestinal epithelium can't hydrate its secretions, so thick mucus causes meconium ileus, malabsorption and obstruction throughout the bowel."
 ---
 
 # Cystic Fibrosis
@@ -287,6 +296,9 @@ AND
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Cystic fibrosis is also a bicarbonate problem: the CFTR channel normally exports bicarbonate, so its loss leaves secretions acidic, thickening mucus and crippling pancreatic enzymes—an acid-base angle beyond the chloride defect.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cystic fibrosis can block the bowel: thick secretions cause meconium ileus in newborns and distal intestinal obstruction syndrome later, plugging the large intestine in ways that mimic appendicitis or obstruction.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cystic fibrosis scars its organs through fibroblasts: chronic inflammation activates them to lay down the fibrosis that destroys the pancreas (giving the disease its name) and stiffens the lungs.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — CF lungs are tracked by imaging: chest CT photons reveal the bronchiectasis—dilated, mucus-filled airways—and plugging that map the progressive lung destruction long before lung function fails.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CF is diagnosed through the skin: defective CFTR can't reabsorb chloride in sweat glands, so the sweat is salty—the basis of the sweat-chloride test and the 'salty kiss' parents notice.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — CFTR lines the gut: without it the intestinal epithelium can't hydrate its secretions, so thick mucus causes meconium ileus, malabsorption and obstruction throughout the bowel.
 
 ---
 

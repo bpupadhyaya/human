@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Cytokine storm consumes platelets: runaway clotting and inflammation use them up, so the falling platelet count, with rising DIC, is an early warning that the storm is damaging the blood and vessels."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging shows the cytokine storm's wreckage: chest CT photons reveal the diffuse lung infiltrates of ARDS, the most visible organ failure of the runaway inflammation."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Ferritin soars in cytokine storm: the macrophage activation pours out this iron-storage protein, so an extremely high ferritin is a hallmark and diagnostic clue to HLH and severe inflammation."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Cytokine storm clouds the brain: the flood of inflammatory mediators and fever cause encephalopathy, seizures and coma, the neurologic toll of HLH and severe systemic inflammation."
 ---
 
 # Cytokine Storm
@@ -250,6 +259,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — A cytokine storm acidifies the blood: the shock and tissue hypoperfusion it causes starve cells of oxygen, so they pour out lactic acid and blood pH falls—a metabolic acidosis marking the slide into multi-organ failure.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Cytokine storm can turn the marrow on itself: in HLH and macrophage activation syndrome, overactivated macrophages devour blood cells in the bone marrow (hemophagocytosis), the defining lesion of this extreme inflammatory state.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Cytokine storm consumes platelets: runaway clotting and inflammation use them up, so the falling platelet count, with rising DIC, is an early warning that the storm is damaging the blood and vessels.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging shows the cytokine storm's wreckage: chest CT photons reveal the diffuse lung infiltrates of ARDS, the most visible organ failure of the runaway inflammation.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Ferritin soars in cytokine storm: the macrophage activation pours out this iron-storage protein, so an extremely high ferritin is a hallmark and diagnostic clue to HLH and severe inflammation.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Cytokine storm clouds the brain: the flood of inflammatory mediators and fever cause encephalopathy, seizures and coma, the neurologic toll of HLH and severe systemic inflammation.
 
 ## Pathology
 
