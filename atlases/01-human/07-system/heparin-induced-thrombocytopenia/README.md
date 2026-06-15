@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/01-subatomic/electron
     relation: connects-to
     note: "Electron microscopy reveals HIT's trigger: heparin and platelet factor 4 assemble into large ultralarge complexes that the antibodies cross-link on the platelet surface, the molecular scaffolding that ignites the whole prothrombotic cascade."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "HIT is an antibody disease in disguise: IgG against the PF4-heparin complex clusters FcγRIIa on platelets to activate them en masse, the paradoxical immune mechanism that drops the count while driving clots."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "HIT's clots reach the gut's circulation: the prothrombotic storm can seed portal, hepatic, and mesenteric vein thrombosis, threatening the liver and bowel alongside the more familiar limb and lung clots."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The brain is not spared: HIT can throw clots into cerebral arteries or the venous sinuses, causing strokes and cerebral venous thrombosis that injure neurons — part of why it is so dangerous despite the low platelet count."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -327,6 +336,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — HIT's low platelets do not come from a failing marrow: the megakaryocytes keep producing normally, but the antibody-coated platelets are consumed in clots and cleared by the spleen, a destruction rather than a production problem.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — HIT's clotting can strike the kidney: thrombosis of the renal veins or microvasculature, part of the body-wide prothrombotic storm, can cause acute kidney injury even as the platelet count falls.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals HIT's trigger: heparin and platelet factor 4 assemble into large ultralarge complexes that the antibodies cross-link on the platelet surface, the molecular scaffolding that ignites the whole prothrombotic cascade.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — HIT is an antibody disease in disguise: IgG against the PF4-heparin complex clusters FcγRIIa on platelets to activate them en masse, the paradoxical immune mechanism that drops the count while driving clots.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — HIT's clots reach the gut's circulation: the prothrombotic storm can seed portal, hepatic, and mesenteric vein thrombosis, threatening the liver and bowel alongside the more familiar limb and lung clots.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The brain is not spared: HIT can throw clots into cerebral arteries or the venous sinuses, causing strokes and cerebral venous thrombosis that injure neurons — part of why it is so dangerous despite the low platelet count.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

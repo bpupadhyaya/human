@@ -138,6 +138,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D status shadows chronic hepatitis B: deficiency is common as the liver falters and is linked to higher viral loads and faster fibrosis, reflecting the vitamin's role in the antiviral immune response."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Hepatitis B is read through its antibodies: anti-HBs signals immunity from vaccine or recovery, anti-HBc marks past or present infection, and the HBsAg/anti-HBe pattern stages the disease — the serology that tells infection apart from protection."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Hepatitis B can strike beyond the liver: by triggering polyarteritis nodosa it inflames the small arteries feeding peripheral nerves, producing a mononeuritis multiplex of patchy weakness and numbness."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin can flag acute hepatitis B: a serum-sickness-like prodrome brings urticaria and joint pain before jaundice, and in children the papular Gianotti-Crosti rash can be the visible herald of infection."
 ---
 
 # Hepatitis B
@@ -313,3 +322,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy showed what hepatitis B looks like: the complete infectious Dane particle floats among a huge excess of empty spherical and filamentous surface-antigen shells, the decoys the virus pumps out to distract the immune system.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hepatitis B can attack the kidney's filters: circulating viral antigen-antibody complexes lodge in the glomerulus, causing a membranous nephropathy that brings on nephrotic syndrome, especially in infected children.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status shadows chronic hepatitis B: deficiency is common as the liver falters and is linked to higher viral loads and faster fibrosis, reflecting the vitamin's role in the antiviral immune response.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Hepatitis B is read through its antibodies: anti-HBs signals immunity from vaccine or recovery, anti-HBc marks past or present infection, and the HBsAg/anti-HBe pattern stages the disease — the serology that tells infection apart from protection.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Hepatitis B can strike beyond the liver: by triggering polyarteritis nodosa it inflames the small arteries feeding peripheral nerves, producing a mononeuritis multiplex of patchy weakness and numbness.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin can flag acute hepatitis B: a serum-sickness-like prodrome brings urticaria and joint pain before jaundice, and in children the papular Gianotti-Crosti rash can be the visible herald of infection.
