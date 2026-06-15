@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Waldenström's high IgM fools the lab: the excess protein displaces water in the blood sample, producing a spurious low sodium—pseudohyponatremia—that must not be wrongly corrected."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy captures Waldenström's hybrid cell: a lymphoplasmacytic cell caught between lymphocyte and plasma cell, its cytoplasm swollen with rough endoplasmic reticulum churning out IgM, sometimes with antibody packed into Dutcher bodies."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The flood of IgM can injure the kidney: the antibody and its light chains deposit as casts, amyloid, or in the glomerulus, while hyperviscosity slows renal blood flow — routes by which Waldenström threatens kidney function."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Waldenström can surface on the skin: IgM deposits raise flesh-colored papules of macroglobulinemia cutis, and cryoglobulins precipitating in the cold inflame small vessels into the purpura of cryoglobulinemic vasculitis."
 ---
 
 # Waldenström Macroglobulinemia
@@ -281,6 +290,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Waldenström's hyperviscosity shows in the eye: fundoscopy in visible light reveals dilated, sausage-segmented retinal veins, while CT photons map the lymph-node and spleen enlargement of the clone.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Waldenström spreads through the lymphatic organs: hepatomegaly and lymphadenopathy join the splenomegaly as the lymphoplasmacytic clone seeds beyond the bone marrow.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Waldenström's high IgM fools the lab: the excess protein displaces water in the blood sample, producing a spurious low sodium—pseudohyponatremia—that must not be wrongly corrected.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy captures Waldenström's hybrid cell: a lymphoplasmacytic cell caught between lymphocyte and plasma cell, its cytoplasm swollen with rough endoplasmic reticulum churning out IgM, sometimes with antibody packed into Dutcher bodies.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The flood of IgM can injure the kidney: the antibody and its light chains deposit as casts, amyloid, or in the glomerulus, while hyperviscosity slows renal blood flow — routes by which Waldenström threatens kidney function.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Waldenström can surface on the skin: IgM deposits raise flesh-colored papules of macroglobulinemia cutis, and cryoglobulins precipitating in the cold inflame small vessels into the purpura of cryoglobulinemic vasculitis.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

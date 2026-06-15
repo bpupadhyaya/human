@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Type 1 diabetes is a leading cause of kidney failure: decades of high glucose scar the glomeruli into diabetic nephropathy, which urine-protein screening catches early enough to slow."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the islet under attack: beta cells packed with insulin secretory granules sit besieged by infiltrating T cells in insulitis, the autoimmune assault that wipes out the body's only source of insulin."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The red cell keeps the diabetic's long-term score: glucose binds irreversibly to hemoglobin over the erythrocyte's lifespan, so the HbA1c reflects months of average sugar and guides how tightly the insulin is dosed."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Diabetic ketoacidosis is also a sodium crisis: sky-high glucose pulls water into the blood and lowers the measured sodium, while the osmotic diuresis drains salt and water — making careful sodium and fluid replacement central to treatment."
 ---
 
 # Type 1 Diabetes
@@ -267,6 +276,9 @@ cross_links:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Years of high glucose in type 1 diabetes damage peripheral nerves, causing the numb, painful 'stocking-glove' neuropathy that threatens the feet with unnoticed injury and ulcers.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Type 1 diabetes demands regular eye screening: retinal photographs in visible-light photons catch the diabetic retinopathy that years of glucose swings inflict on the retina, before vision is lost.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Type 1 diabetes is a leading cause of kidney failure: decades of high glucose scar the glomeruli into diabetic nephropathy, which urine-protein screening catches early enough to slow.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the islet under attack: beta cells packed with insulin secretory granules sit besieged by infiltrating T cells in insulitis, the autoimmune assault that wipes out the body's only source of insulin.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The red cell keeps the diabetic's long-term score: glucose binds irreversibly to hemoglobin over the erythrocyte's lifespan, so the HbA1c reflects months of average sugar and guides how tightly the insulin is dosed.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Diabetic ketoacidosis is also a sodium crisis: sky-high glucose pulls water into the blood and lowers the measured sodium, while the osmotic diuresis drains salt and water — making careful sodium and fluid replacement central to treatment.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
