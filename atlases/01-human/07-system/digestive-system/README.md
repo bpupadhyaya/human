@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "The digestive tract is explored with light and radiation: endoscopy shines visible-light photons into the gut lumen, while X-ray photons in barium studies and CT trace its structure and motility."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals how the gut absorbs so much: each enterocyte is crowned with a brush border of densely packed microvilli that multiplies the absorptive surface many times over, the ultrastructure behind nutrient uptake."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium powers digestion's uptake: the sodium gradient set by membrane pumps drives the cotransporters that haul glucose, amino acids, and water across the gut lining — the principle that makes salt-and-sugar oral rehydration save lives."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The hepatocyte is the digestive system's chemical plant: it makes the bile that emulsifies fat and receives the nutrient-rich portal blood from the gut, processing and storing what the intestine absorbs."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -276,6 +285,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md) — peristalsis: waves of smooth-muscle contraction from esophagus to colon, coordinated by the enteric nervous system; motility disorders when it fails.
 - **Connects to:** [Iron](../../02-atomic/iron/README.md) — the duodenum is the body's gateway for dietary iron; malabsorption or chronic GI bleeding here drives iron-deficiency anemia.
 - **Connects to:** [Photon](../../01-subatomic/photon/README.md) — explored with light and radiation: endoscopy shines visible light into the lumen, while X-ray photons in barium studies and CT trace structure.
+- **Connects to:** [Electron](../../01-subatomic/electron/README.md) — electron microscopy reveals how the gut absorbs so much: each enterocyte is crowned with a brush border of densely packed microvilli that multiplies the absorptive surface, the ultrastructure behind nutrient uptake.
+- **Connects to:** [Sodium](../../02-atomic/sodium/README.md) — sodium powers digestion's uptake: the sodium gradient set by membrane pumps drives the cotransporters that haul glucose, amino acids, and water across the gut lining — the principle behind oral rehydration therapy.
+- **Connects to:** [Hepatocyte](../../04-cellular/hepatocyte/README.md) — the hepatocyte is the digestive system's chemical plant: it makes the bile that emulsifies fat and receives the nutrient-rich portal blood from the gut, processing and storing what the intestine absorbs.
 
 ## Pathology
 
