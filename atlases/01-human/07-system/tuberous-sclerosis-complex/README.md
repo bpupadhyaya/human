@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/01-subatomic/electron
     relation: connects-to
     note: "TSC's signature cells look bizarre under the microscope: the giant balloon cells of cortical tubers and SEGAs, and the cardiac rhabdomyoma's 'spider cells', show the swollen, disorganized ultrastructure that electron microscopy reveals."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody marks TSC's odd cells: the perivascular epithelioid cells of renal angiomyolipoma and pulmonary LAM stain for HMB-45, a melanocytic marker that confirms these mTOR-driven tumors, while the mTOR-inhibitor drugs that treat them are themselves immunosuppressive."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "TSC's lung disease is a women's disease: lymphangioleiomyomatosis is estrogen-sensitive and strikes women of reproductive age, and pregnancy can swell both LAM and the kidney angiomyolipomas, making reproductive planning part of care."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The mTOR-inhibitor therapy taxes the marrow and mucosa: everolimus and sirolimus, used to shrink SEGAs and angiomyolipomas, can drop neutrophil counts and cause mouth ulcers, raising the infection risk that comes with long-term mTOR blockade."
 ---
 
 # Tuberous Sclerosis Complex
@@ -323,6 +332,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — TSC's kidney tumors are knots of bad blood vessels: angiomyolipomas mix fat and smooth muscle with malformed, aneurysm-prone vessels lined by abnormal endothelium, and these can rupture into a life-threatening retroperitoneal bleed.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Even the bowel sprouts TSC hamartomas: harmless hamartomatous rectal and colonic polyps are a recognized feature, the same unchecked-mTOR overgrowth that studs the brain, skin, and kidneys appearing along the gut.
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — TSC's signature cells look bizarre under the microscope: the giant balloon cells of cortical tubers and SEGAs, and the cardiac rhabdomyoma's 'spider cells', show the swollen, disorganized ultrastructure that electron microscopy reveals.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody marks TSC's odd cells: the perivascular epithelioid cells of renal angiomyolipoma and pulmonary LAM stain for HMB-45, a melanocytic marker that confirms these mTOR-driven tumors, while the mTOR-inhibitor drugs that treat them are themselves immunosuppressive.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — TSC's lung disease is a women's disease: lymphangioleiomyomatosis is estrogen-sensitive and strikes women of reproductive age, and pregnancy can swell both LAM and the kidney angiomyolipomas, making reproductive planning part of care.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The mTOR-inhibitor therapy taxes the marrow and mucosa: everolimus and sirolimus, used to shrink SEGAs and angiomyolipomas, can drop neutrophil counts and cause mouth ulcers, raising the infection risk that comes with long-term mTOR blockade.
 
 ---
 
