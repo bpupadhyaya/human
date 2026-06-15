@@ -148,6 +148,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D shadows the anxious mind: deficiency is associated with higher anxiety, and the vitamin's receptors throughout mood-regulating brain regions suggest it helps tune the circuits that worry overactivates."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Worry steals sleep through the clock: GAD's racing mind delays sleep onset and blunts melatonin, and the resulting insomnia loops back to sharpen the next day's anxiety — a cycle melatonin and sleep hygiene aim to break."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Anxiety shows on the skin: the autonomic surge brings sweating, flushing, and goosebumps, and chronic stress flares skin conditions like eczema and hives through the brain-skin axis."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Sex hormones color the worry: GAD is about twice as common in women, and anxiety often intensifies premenstrually, in the postpartum, and around menopause as estrogen and progesterone swing."
 ---
 
 # Generalized Anxiety Disorder
@@ -329,6 +338,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps keep anxiety in check: it modulates the GABA and glutamate balance of the calming circuits, and low zinc is reported in anxiety disorders, with supplementation studied as an adjunct to standard treatment.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Anxiety churns the stomach: the gut-brain axis turns worry into nausea, 'butterflies,' and functional dyspepsia, so abdominal distress is one of the most common bodily complaints of generalized anxiety.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the anxious mind: deficiency is associated with higher anxiety, and the vitamin's receptors throughout mood-regulating brain regions suggest it helps tune the circuits that worry overactivates.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Worry steals sleep through the clock: GAD's racing mind delays sleep onset and blunts melatonin, and the resulting insomnia loops back to sharpen the next day's anxiety — a cycle melatonin and sleep hygiene aim to break.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Anxiety shows on the skin: the autonomic surge brings sweating, flushing, and goosebumps, and chronic stress flares skin conditions like eczema and hives through the brain-skin axis.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sex hormones color the worry: GAD is about twice as common in women, and anxiety often intensifies premenstrually, in the postpartum, and around menopause as estrogen and progesterone swing.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
