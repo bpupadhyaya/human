@@ -139,6 +139,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D ties into endometrial cancer through fat: deficiency travels with the obesity that is its biggest risk factor, and the vitamin's influence on cell growth and estrogen metabolism has made it a focus of prevention research."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The cancer announces itself in blood: postmenopausal bleeding is the cardinal early sign, and chronic abnormal uterine bleeding can drain enough red cells and iron to leave a woman anemic before the diagnosis is made."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Advanced disease draws on nerve-toxic chemotherapy: the carboplatin-paclitaxel regimen used for high-risk endometrial cancer injures peripheral sensory neurons, leaving the numbness and tingling of a taxane neuropathy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Platinum chemotherapy wastes magnesium: the carboplatin paired with paclitaxel injures the kidney's tubular handling of the mineral, so magnesium is checked and replaced through endometrial cancer treatment."
 ---
 
 # Endometrial Cancer
@@ -304,6 +313,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy separates endometrial cancer's two faces: the common endometrioid type keeps orderly glandular cells with microvilli, while the aggressive serous type shows papillary tufts and chaotic nuclei, an ultrastructural divide that tracks prognosis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Serous endometrial cancer leaves calcium fingerprints: like its ovarian counterpart it forms psammoma bodies, concentric calcium deposits whose presence on histology flags the high-grade serous subtype.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D ties into endometrial cancer through fat: deficiency travels with the obesity that is its biggest risk factor, and the vitamin's influence on cell growth and estrogen metabolism has made it a focus of prevention research.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The cancer announces itself in blood: postmenopausal bleeding is the cardinal early sign, and chronic abnormal uterine bleeding can drain enough red cells and iron to leave a woman anemic before the diagnosis is made.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Advanced disease draws on nerve-toxic chemotherapy: the carboplatin-paclitaxel regimen used for high-risk endometrial cancer injures peripheral sensory neurons, leaving the numbness and tingling of a taxane neuropathy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy wastes magnesium: the carboplatin paired with paclitaxel injures the kidney's tubular handling of the mineral, so magnesium is checked and replaced through endometrial cancer treatment.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

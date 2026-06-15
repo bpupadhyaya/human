@@ -144,6 +144,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "CKD upends magnesium balance: as the kidney loses its power to excrete the mineral, magnesium can build to dangerous levels — especially with magnesium-containing laxatives or antacids — risking weakness and heart-rhythm disturbance."
+  - target: 01-human/03-molecular/pth
+    relation: connects-to
+    note: "CKD drives the parathyroids into overdrive: falling vitamin D and rising phosphate push PTH ever higher (secondary hyperparathyroidism), and the relentless hormone leaches bone into renal osteodystrophy — the core of CKD-mineral-bone disorder."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "The failing kidney lets the blood thin: it makes too little erythropoietin, so hemoglobin falls into the anemia of CKD, treated by replacing the missing hormone with erythropoiesis-stimulating agents."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Uremia makes the platelets sluggish: retained toxins impair platelet function, so even with a normal count CKD patients bruise and bleed more easily, a defect that dialysis and desmopressin can partly correct."
 ---
 
 # Chronic Kidney Disease
@@ -262,6 +271,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the failing filter: as CKD advances, the glomerular basement membrane thickens and wrinkles while podocyte foot processes flatten and fuse, the ultrastructural decay that lets protein leak and filtration fall.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Failing kidneys leave the blood thin: the diseased kidney makes too little erythropoietin to tell the marrow to build red cells, so anemia is a near-universal companion of CKD, treated with EPO and iron.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CKD upends magnesium balance: as the kidney loses its power to excrete the mineral, magnesium can build to dangerous levels — especially with magnesium-containing laxatives or antacids — risking weakness and heart-rhythm disturbance.
+- `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — CKD drives the parathyroids into overdrive: falling vitamin D and rising phosphate push PTH ever higher (secondary hyperparathyroidism), and the relentless hormone leaches bone into renal osteodystrophy — the core of CKD-mineral-bone disorder.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — The failing kidney lets the blood thin: it makes too little erythropoietin, so hemoglobin falls into the anemia of CKD, treated by replacing the missing hormone with erythropoiesis-stimulating agents.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Uremia makes the platelets sluggish: retained toxins impair platelet function, so even with a normal count CKD patients bruise and bleed more easily, a defect that dialysis and desmopressin can partly correct.
 
 ## Pathology
 
