@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "AGS can reach the eyes: congenital glaucoma and other ocular problems are recognized, adding to the brain, skin and systemic features of this interferon-driven disorder."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "AGS is a failure to clear the cell's own genetic debris: the mutated nucleases let stray DNA and RNA pile up in the cytoplasm, where sensors mistake them for a virus and switch on a relentless type-I-interferon alarm."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Some AGS genotypes scar the heart and great vessels: SAMHD1 mutations in particular bring a cerebral and cardiac vasculopathy of aneurysms and stenoses, extending the inflammatory damage to the circulation."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "AGS shades into lupus, kidney and all: its overlap with systemic lupus means some patients develop a lupus-like glomerulonephritis, the shared interferon excess attacking the kidney's filters."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -264,6 +273,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — AGS is recognized on brain imaging: CT photons reveal its hallmark basal-ganglia calcifications, while MRI shows the white-matter disease and brain atrophy that mimic a congenital infection.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Neonatal AGS can suppress the bone marrow: thrombocytopenia and anemia accompany the interferon surge, part of the picture that makes the newborn form look like a congenital TORCH infection.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — AGS can reach the eyes: congenital glaucoma and other ocular problems are recognized, adding to the brain, skin and systemic features of this interferon-driven disorder.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — AGS is a failure to clear the cell's own genetic debris: the mutated nucleases let stray DNA and RNA pile up in the cytoplasm, where sensors mistake them for a virus and switch on a relentless type-I-interferon alarm.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Some AGS genotypes scar the heart and great vessels: SAMHD1 mutations in particular bring a cerebral and cardiac vasculopathy of aneurysms and stenoses, extending the inflammatory damage to the circulation.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — AGS shades into lupus, kidney and all: its overlap with systemic lupus means some patients develop a lupus-like glomerulonephritis, the shared interferon excess attacking the kidney's filters.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

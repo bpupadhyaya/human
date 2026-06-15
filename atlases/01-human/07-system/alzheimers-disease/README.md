@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Metals gather in Alzheimer's plaques: copper, with zinc and iron, binds amyloid-beta and can drive the oxidative damage of the disease, which is why metal-chelation has been explored as therapy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows Alzheimer's two lesions: extracellular plaques of beta-pleated amyloid fibrils and intracellular tangles of paired helical tau filaments, choking neurons as their synapses melt away."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut may whisper to the Alzheimer's brain: a dysbiotic microbiome and the inflammatory and amyloid-like products it makes are increasingly tied, through the gut-brain axis, to the neuroinflammation that fuels the disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium thins in the aging brain: low levels weaken the synaptic plasticity and NMDA regulation that memory depends on, and raising brain magnesium is studied as a way to slow cognitive decline."
 ---
 
 # Alzheimer's Disease
@@ -274,6 +283,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Alzheimer's is now imaged in life: amyloid and tau PET scans use radioactive photons to reveal the plaques and tangles directly, while MRI tracks the shrinking hippocampus over time.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — What's good for the heart is good for the brain: midlife hypertension, atherosclerosis and heart disease raise Alzheimer's risk, tying cardiovascular health to the odds of dementia.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Metals gather in Alzheimer's plaques: copper, with zinc and iron, binds amyloid-beta and can drive the oxidative damage of the disease, which is why metal-chelation has been explored as therapy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows Alzheimer's two lesions: extracellular plaques of beta-pleated amyloid fibrils and intracellular tangles of paired helical tau filaments, choking neurons as their synapses melt away.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut may whisper to the Alzheimer's brain: a dysbiotic microbiome and the inflammatory and amyloid-like products it makes are increasingly tied, through the gut-brain axis, to the neuroinflammation that fuels the disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium thins in the aging brain: low levels weaken the synaptic plasticity and NMDA regulation that memory depends on, and raising brain magnesium is studied as a way to slow cognitive decline.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
