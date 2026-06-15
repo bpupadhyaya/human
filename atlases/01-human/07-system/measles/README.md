@@ -164,6 +164,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "In malnourished children the gut tips the balance: measles brings vomiting and profuse diarrhea, and the resulting dehydration and worsened malnutrition are a major contributor to its mortality in low-resource settings."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Years later the virus can smolder in the brain: in subacute sclerosing panencephalitis a persistent measles strain drives chronic microglial activation and demyelination, a fatal late neurodegeneration after early-childhood infection."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "Measles erases immune memory and opens the door: by depleting memory B and T cells it leaves children prey to secondary pneumococcal pneumonia and otitis, the bacterial superinfections behind much of its death toll."
+  - target: 01-human/07-system/epilepsy
+    relation: connects-to
+    note: "The brain complications bring seizures: acute measles encephalitis and the late SSPE both injure the cortex, causing seizures — in SSPE the characteristic periodic myoclonic jerks that mark its relentless course."
 ---
 
 # Measles
@@ -357,6 +366,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Measles erases immune memory: by infecting and killing memory lymphocytes and depleting the lymphoid tissue, it causes 'immune amnesia,' wiping out years of acquired protection against other pathogens long after recovery.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Measles is dangerous in pregnancy: it raises the risk of miscarriage, preterm birth, and severe maternal disease, and because the vaccine is live it cannot be given during pregnancy, leaving immunization to be timed beforehand.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — In malnourished children the gut tips the balance: measles brings vomiting and profuse diarrhea, and the resulting dehydration and worsened malnutrition are a major contributor to its mortality in low-resource settings.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Years later the virus can smolder in the brain: in subacute sclerosing panencephalitis a persistent measles strain drives chronic microglial activation and demyelination, a fatal late neurodegeneration after early-childhood infection.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — Measles erases immune memory and opens the door: by depleting memory B and T cells it leaves children prey to secondary pneumococcal pneumonia and otitis, the bacterial superinfections behind much of its death toll.
+- `connects-to` → **[Epilepsy](../epilepsy/README.md)** — The brain complications bring seizures: acute measles encephalitis and the late SSPE both injure the cortex, causing seizures — in SSPE the characteristic periodic myoclonic jerks that mark its relentless course.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

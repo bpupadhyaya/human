@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "Stress and its let-down trigger attacks: surges and withdrawals of adrenergic tone help precipitate migraines, and the autonomic features — pallor, nausea, and a racing or sluggish pulse — color the attack."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Substance P inflames the meninges: released with CGRP from trigeminal nerve endings, it drives the neurogenic inflammation — vasodilation, plasma leak, and mast-cell activation — that sensitizes the pain fibers in a migraine."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The cranial vessels' muscle joins the attack: vascular smooth muscle in the meningeal and cerebral arteries dilates under CGRP and nitric oxide, the throbbing component of migraine and a target of the older vasoconstrictor triptans."
+  - target: 01-human/07-system/bipolar-disorder
+    relation: connects-to
+    note: "Migraine and bipolar disorder run together: they share a strong comorbidity and overlapping ion-channel and serotonin biology, and several mood stabilizers (valproate, topiramate) treat both conditions."
 ---
 
 # Migraine
@@ -352,6 +361,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Migraine, especially with aura, is a vascular risk: it modestly raises the odds of stroke and heart attack, and the vasoconstricting triptans are avoided in established coronary or cerebrovascular disease.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets carry a migraine clue: they store and release serotonin, and platelet activation and aggregation are heightened in migraine, one strand of the serotonin theory that links the disorder to its vascular changes.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Stress and its let-down trigger attacks: surges and withdrawals of adrenergic tone help precipitate migraines, and the autonomic features — pallor, nausea, and a racing or sluggish pulse — color the attack.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Substance P inflames the meninges: released with CGRP from trigeminal nerve endings, it drives the neurogenic inflammation — vasodilation, plasma leak, and mast-cell activation — that sensitizes the pain fibers in a migraine.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The cranial vessels' muscle joins the attack: vascular smooth muscle in the meningeal and cerebral arteries dilates under CGRP and nitric oxide, the throbbing component of migraine and a target of the older vasoconstrictor triptans.
+- `connects-to` → **[Bipolar Disorder](../bipolar-disorder/README.md)** — Migraine and bipolar disorder run together: they share a strong comorbidity and overlapping ion-channel and serotonin biology, and several mood stabilizers (valproate, topiramate) treat both conditions.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
