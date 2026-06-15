@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Salt may inflame psoriasis: high sodium accumulates in skin and pushes naive T cells toward the IL-17-producing Th17 lineage that drives psoriatic plaques, a dietary link between salt and the disease's core immune axis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Psoriasis itches and reacts through nerves: sensory peripheral-nerve fibers, fired by IL-31 and inflammation, carry the itch, and nerve injury can clear plaques in a denervated patch—evidence the skin's nerves help sustain the disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Psoriasis is more than skin-deep: its systemic inflammation accelerates atherosclerosis, so severe disease raises the risk of heart attack independently of the usual cardiovascular risk factors."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells lurk in psoriatic skin: degranulating near nerves and vessels, they release mediators that amplify the early inflammation and itch, linking neurogenic triggers to the plaque."
 ---
 
 # Psoriasis
@@ -274,6 +283,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Psoriasis travels with fatty liver: its systemic inflammation and shared metabolic syndrome make non-alcoholic fatty liver disease common, and the methotrexate used to treat psoriasis can itself scar the liver, so liver health must be watched.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Psoriatic plaques are richly vascular: VEGF drives dermal endothelial cells to build dilated, leaky capillaries near the surface, which is why scraping a plaque produces pinpoint bleeding (the Auspitz sign).
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Salt may inflame psoriasis: high sodium accumulates in skin and pushes naive T cells toward the IL-17-producing Th17 lineage that drives psoriatic plaques, a dietary link between salt and the disease's core immune axis.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Psoriasis itches and reacts through nerves: sensory peripheral-nerve fibers, fired by IL-31 and inflammation, carry the itch, and nerve injury can clear plaques in a denervated patch—evidence the skin's nerves help sustain the disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Psoriasis is more than skin-deep: its systemic inflammation accelerates atherosclerosis, so severe disease raises the risk of heart attack independently of the usual cardiovascular risk factors.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells lurk in psoriatic skin: degranulating near nerves and vessels, they release mediators that amplify the early inflammation and itch, linking neurogenic triggers to the plaque.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

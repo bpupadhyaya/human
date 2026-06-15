@@ -126,6 +126,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "PTSD lives in overstrengthened synapses: trauma potentiates the amygdala's fear synapses while weakening the prefrontal control over them, and therapy works by reconsolidating or extinguishing these synaptic memories."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging maps PTSD: fMRI photons reveal an overactive amygdala and underactive prefrontal cortex, alongside a smaller hippocampus, the neural signature of trauma's lasting grip."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "PTSD is written in neurons: amygdala fear neurons overfire while the hippocampal and prefrontal neurons that should place the fear in context and dampen it are impaired, so danger feels ever-present."
+  - target: 01-human/03-molecular/glucocorticoid-receptor
+    relation: connects-to
+    note: "PTSD's stress axis is paradoxically hypersensitive: more sensitive glucocorticoid receptors enhance cortisol's negative feedback, so cortisol runs low even as the system overreacts to reminders of trauma."
 ---
 
 # PTSD
@@ -297,6 +306,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — PTSD is hard on the heart: chronic hyperarousal keeps stress hormones and blood pressure high and stokes inflammation, and survivors carry a markedly raised risk of heart attack and cardiovascular disease, making PTSD a cardiac risk factor.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Traumatic memories are cemented by calcium: fear learning in the amygdala relies on calcium flooding through NMDA receptors to strengthen synapses, the molecular step that locks a terrifying event into a lasting, intrusive memory.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — PTSD lives in overstrengthened synapses: trauma potentiates the amygdala's fear synapses while weakening the prefrontal control over them, and therapy works by reconsolidating or extinguishing these synaptic memories.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging maps PTSD: fMRI photons reveal an overactive amygdala and underactive prefrontal cortex, alongside a smaller hippocampus, the neural signature of trauma's lasting grip.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PTSD is written in neurons: amygdala fear neurons overfire while the hippocampal and prefrontal neurons that should place the fear in context and dampen it are impaired, so danger feels ever-present.
+- `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — PTSD's stress axis is paradoxically hypersensitive: more sensitive glucocorticoid receptors enhance cortisol's negative feedback, so cortisol runs low even as the system overreacts to reminders of trauma.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
