@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Clots can surface in the skin: PNH's thrombophilia reaches unusual sites including the dermal and cerebral veins, and painful skin lesions or necrosis from cutaneous vein thrombosis can be an early, visible warning of the disease."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Chronic hemolysis wears down the kidneys: years of hemoglobin spilling into the urine deposit iron in the tubules and microthrombi in the vessels, so PNH slowly scars the kidney into chronic kidney disease."
+  - target: 01-human/07-system/iron-deficiency-anemia
+    relation: connects-to
+    note: "PNH bleeds iron into the urine: unlike most hemolysis, which recycles iron, the intravascular destruction sends free hemoglobin out through the kidney, and the steady urinary iron loss can leave the patient paradoxically iron-deficient."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "The marrow's drive to replace lost cells: brisk hemolysis and any underlying marrow failure raise erythropoietin demand, and supplementing it can support red-cell production while complement blockade curbs the destruction."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -291,6 +300,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody transformed PNH: eculizumab and ravulizumab, monoclonal antibodies against complement C5, halt the intravascular hemolysis and thrombosis, while flow cytometry using antibodies to the missing GPI-anchored proteins (CD55, CD59) makes the diagnosis.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — PNH is a top cause of Budd-Chiari: its prothrombotic blood clots the hepatic veins, backing blood up into the liver and congesting and killing hepatocytes, so an unexplained hepatic-vein thrombosis should prompt a PNH test.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Clots can surface in the skin: PNH's thrombophilia reaches unusual sites including the dermal and cerebral veins, and painful skin lesions or necrosis from cutaneous vein thrombosis can be an early, visible warning of the disease.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Chronic hemolysis wears down the kidneys: years of hemoglobin spilling into the urine deposit iron in the tubules and microthrombi in the vessels, so PNH slowly scars the kidney into chronic kidney disease.
+- `connects-to` → **[Iron Deficiency Anemia](../iron-deficiency-anemia/README.md)** — PNH bleeds iron into the urine: unlike most hemolysis, which recycles iron, the intravascular destruction sends free hemoglobin out through the kidney, and the steady urinary iron loss can leave the patient paradoxically iron-deficient.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — The marrow's drive to replace lost cells: brisk hemolysis and any underlying marrow failure raise erythropoietin demand, and supplementing it can support red-cell production while complement blockade curbs the destruction.
 
 ---
 

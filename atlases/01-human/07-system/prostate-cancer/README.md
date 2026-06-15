@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Chemotherapy for advanced disease taxes the marrow: the docetaxel and cabazitaxel given in castration-resistant prostate cancer are myelosuppressive, dropping neutrophil counts and raising the risk of febrile neutropenia."
+  - target: 01-human/03-molecular/p53
+    relation: connects-to
+    note: "Losing p53 turns prostate cancer lethal: TP53 mutation, often with RB loss, drives the shift to aggressive castration-resistant and neuroendocrine disease that escapes hormone therapy and carries a grim prognosis."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "The hormone therapy that controls it thins the bones: androgen-deprivation therapy strips the testosterone that maintains the male skeleton, accelerating bone loss and fractures, so patients need bone-density monitoring with calcium, vitamin D, and antiresorptive drugs."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenium promised prostate protection but failed: the large SELECT trial found selenium supplements did not prevent prostate cancer (and vitamin E may have slightly raised risk), tempering the antioxidant chemoprevention hopes."
 ---
 
 # Prostate Cancer
@@ -334,6 +343,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies screen, image, and treat it: the PSA blood test is an antibody immunoassay, PSMA-targeted antibodies guide PET imaging and radioligand therapy, and sipuleucel-T harnesses the immune system against the tumor.
 - `connects-to` → **[Lymphatic System](../lymphatic-system/README.md)** — It spreads first to the pelvic nodes: prostate cancer drains to the obturator and iliac lymph nodes, so nodal staging by imaging or dissection shapes treatment before the more distant bone metastases appear.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Chemotherapy for advanced disease taxes the marrow: the docetaxel and cabazitaxel given in castration-resistant prostate cancer are myelosuppressive, dropping neutrophil counts and raising the risk of febrile neutropenia.
+- `connects-to` → **[p53](../../03-molecular/p53/README.md)** — Losing p53 turns prostate cancer lethal: TP53 mutation, often with RB loss, drives the shift to aggressive castration-resistant and neuroendocrine disease that escapes hormone therapy and carries a grim prognosis.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — The hormone therapy that controls it thins the bones: androgen-deprivation therapy strips the testosterone that maintains the male skeleton, accelerating bone loss and fractures, so patients need bone-density monitoring with calcium, vitamin D, and antiresorptive drugs.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium promised prostate protection but failed: the large SELECT trial found selenium supplements did not prevent prostate cancer (and vitamin E may have slightly raised risk), tempering the antioxidant chemoprevention hopes.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
