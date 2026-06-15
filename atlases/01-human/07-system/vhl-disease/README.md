@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "VHL studs the abdominal organs with cysts and tumors, including the liver: alongside the classic kidney, pancreas and adrenal lesions, hepatic cysts and hemangiomas occur, reflecting the syndrome's vascular, cyst-forming tendency."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "VHL drives the bone marrow to overproduce red cells: unchecked HIF raises erythropoietin, so the marrow churns out erythrocytes, causing the polycythemia that can accompany the syndrome and its EPO-secreting tumors."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "VHL's hemangioblastomas grow within the nervous system: these vascular tumors of the cerebellum, brainstem and spinal cord compress neurons, producing the headaches, ataxia and neurological deficits that often first signal the disease."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "Losing VHL switches on PDGF among its HIF-driven growth factors: this angiogenic signal helps build the tumors' rich vasculature, and is one of the targets of the kinase inhibitors used against VHL-related kidney cancer."
 ---
 
 # VHL Disease
@@ -269,6 +278,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — VHL tumors lean on the mTOR-AKT growth axis alongside their HIF defect: pseudohypoxic signaling pairs with PI3K-AKT-mTOR activity to fuel the kidney cancers and hemangioblastomas, so mTOR-pathway drugs join the HIF inhibitor belzutifan.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are enlisted against VHL's tumors: as belzutifan and immunotherapy enter VHL care, antigen-presenting dendritic cells help prime the T-cell response to the HIF-driven kidney and brain tumors.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — VHL studs the abdominal organs with cysts and tumors, including the liver: alongside the classic kidney, pancreas and adrenal lesions, hepatic cysts and hemangiomas occur, reflecting the syndrome's vascular, cyst-forming tendency.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — VHL drives the bone marrow to overproduce red cells: unchecked HIF raises erythropoietin, so the marrow churns out erythrocytes, causing the polycythemia that can accompany the syndrome and its EPO-secreting tumors.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — VHL's hemangioblastomas grow within the nervous system: these vascular tumors of the cerebellum, brainstem and spinal cord compress neurons, producing the headaches, ataxia and neurological deficits that often first signal the disease.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Losing VHL switches on PDGF among its HIF-driven growth factors: this angiogenic signal helps build the tumors' rich vasculature, and is one of the targets of the kinase inhibitors used against VHL-related kidney cancer.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

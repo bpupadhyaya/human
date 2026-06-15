@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Werner syndrome thins bone through failing osteoblasts: accelerated cellular aging impairs the bone-building cells, producing the early, severe osteoporosis—especially of the limbs—that is a hallmark of the disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Werner syndrome ages the vessel lining: senescent, repair-deficient endothelial cells lose their protective function, driving the premature atherosclerosis and arteriosclerosis that make heart attack a leading cause of death."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Diabetes is a hallmark of Werner syndrome: tied to its lipodystrophy and accelerated aging, the pancreas faces severe insulin resistance, so glucose intolerance and diabetes mellitus appear early in affected patients."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Werner's genomic instability reaches the blood-forming marrow: failing DNA repair raises the risk of myelodysplastic syndrome and myeloid leukemias, part of the syndrome's broad, early predisposition to cancer."
 ---
 
 # Werner Syndrome
@@ -310,6 +319,9 @@ cross_links:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Werner syndrome ages the heart early: premature, severe atherosclerosis leads to heart attacks in the patients' forties—one of the two leading causes of death, alongside cancer, in this accelerated-aging disease.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Werner syndrome calcifies soft tissues and vessels: disordered repair and aging promote arterial and soft-tissue calcification, contributing to the early atherosclerosis and the stiff, aged appearance of affected tissues.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Werner syndrome thins bone through failing osteoblasts: accelerated cellular aging impairs the bone-building cells, producing the early, severe osteoporosis—especially of the limbs—that is a hallmark of the disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Werner syndrome ages the vessel lining: senescent, repair-deficient endothelial cells lose their protective function, driving the premature atherosclerosis and arteriosclerosis that make heart attack a leading cause of death.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Diabetes is a hallmark of Werner syndrome: tied to its lipodystrophy and accelerated aging, the pancreas faces severe insulin resistance, so glucose intolerance and diabetes mellitus appear early in affected patients.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Werner's genomic instability reaches the blood-forming marrow: failing DNA repair raises the risk of myelodysplastic syndrome and myeloid leukemias, part of the syndrome's broad, early predisposition to cancer.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
