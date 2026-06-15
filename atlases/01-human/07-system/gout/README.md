@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Gout can deposit in the eye: urate tophi form on the eyelids and conjunctiva and rarely inflame the sclera, an unusual but recognized site of crystal deposition."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron and polarized-light microscopy clinch the gout diagnosis: aspirated joint fluid shows needle-shaped monosodium urate crystals, negatively birefringent and packed into the tophi that the inflammasome attacks."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver makes the uric acid that crystallizes in gout: it is the main site where xanthine oxidase breaks purines down to urate, so the liver's metabolism — fueled by fructose and alcohol — sets the blood level."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Low magnesium tracks with gout: deficiency is common in the metabolic syndrome that accompanies it and is linked to higher uric acid, so magnesium status is part of the metabolic picture behind the crystals."
 ---
 
 # Gout
@@ -272,6 +281,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Gout is confirmed by light: polarized-light microscopy of joint fluid reveals the negatively birefringent urate needles, and dual-energy CT photons map urate deposits without a tap.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Gout can spring from the marrow: myeloproliferative diseases and their rapid cell turnover flood the blood with purines that become uric acid, a secondary cause of the disease.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Gout can deposit in the eye: urate tophi form on the eyelids and conjunctiva and rarely inflame the sclera, an unusual but recognized site of crystal deposition.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron and polarized-light microscopy clinch the gout diagnosis: aspirated joint fluid shows needle-shaped monosodium urate crystals, negatively birefringent and packed into the tophi that the inflammasome attacks.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver makes the uric acid that crystallizes in gout: it is the main site where xanthine oxidase breaks purines down to urate, so the liver's metabolism — fueled by fructose and alcohol — sets the blood level.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Low magnesium tracks with gout: deficiency is common in the metabolic syndrome that accompanies it and is linked to higher uric acid, so magnesium status is part of the metabolic picture behind the crystals.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Breast cancers often announce themselves as microcalcifications: clusters of calcium specks on a mammogram are an early sign that prompts biopsy, central to screening BRCA carriers."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "BRCA loss leaves cells unable to mend broken DNA: without homologous recombination, the double-strand breaks that radiation and chemotherapy inflict go unrepaired — a weakness PARP inhibitors exploit to kill the cancer by synthetic lethality."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "BRCA-driven cancers reach for the brain: BRCA-mutant breast and ovarian tumors, often triple-negative, carry a notable tendency to seed central-nervous-system metastases, prompting vigilance for brain spread."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is a frequent destination as BRCA cancers spread: hematogenous metastases from the breast, ovarian, and pancreatic tumors of the syndrome lodge there, marking advanced disease."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -307,6 +316,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts shape HBOC tumors: they build the stroma of BRCA breast and ovarian cancers, influencing how the tumor grows and how well drugs reach it.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HBOC tumors and their treatment leave fibrosis: a desmoplastic stroma surrounds the cancers, and radiation and surgery scar the breast and pelvis, lasting effects survivors carry.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Breast cancers often announce themselves as microcalcifications: clusters of calcium specks on a mammogram are an early sign that prompts biopsy, central to screening BRCA carriers.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — BRCA loss leaves cells unable to mend broken DNA: without homologous recombination, the double-strand breaks that radiation and chemotherapy inflict go unrepaired — a weakness PARP inhibitors exploit to kill the cancer by synthetic lethality.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — BRCA-driven cancers reach for the brain: BRCA-mutant breast and ovarian tumors, often triple-negative, carry a notable tendency to seed central-nervous-system metastases, prompting vigilance for brain spread.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is a frequent destination as BRCA cancers spread: hematogenous metastases from the breast, ovarian, and pancreatic tumors of the syndrome lodge there, marking advanced disease.
 
 ---
 
