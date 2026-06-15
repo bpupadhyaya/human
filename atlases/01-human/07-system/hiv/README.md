@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "HIV is worsened by low zinc: deficiency is common in infection and impairs the immune cells already under attack, so poor zinc status is linked to faster progression and worse outcomes."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging guides HIV care indirectly: CT and PET photons stage the lymphomas and opportunistic infections that strike as immunity falls, and brain MRI maps HIV's central-nervous-system disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "HIV harms neurons without infecting them: infected microglia release toxins that injure neurons, causing the HIV-associated neurocognitive disorder that can persist even on suppressive treatment."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "HIV suppresses the bone marrow: direct infection and chronic inflammation blunt blood-cell production, causing the anemia, low platelets and leukopenia common in untreated infection."
 ---
 
 # HIV
@@ -302,6 +311,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — HIV can attack the kidneys: HIV-associated nephropathy, a collapsing form of glomerular scarring, spills heavy protein and can rapidly fail the kidneys, especially before treatment and in those of African ancestry.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — HIV guts the immune system at the bowel lining: within weeks it wipes out the dense CD4 T cells of the gut's GALT and breaches the epithelium, letting microbes leak through to drive the chronic immune activation that fuels disease.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HIV is worsened by low zinc: deficiency is common in infection and impairs the immune cells already under attack, so poor zinc status is linked to faster progression and worse outcomes.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging guides HIV care indirectly: CT and PET photons stage the lymphomas and opportunistic infections that strike as immunity falls, and brain MRI maps HIV's central-nervous-system disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — HIV harms neurons without infecting them: infected microglia release toxins that injure neurons, causing the HIV-associated neurocognitive disorder that can persist even on suppressive treatment.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — HIV suppresses the bone marrow: direct infection and chronic inflammation blunt blood-cell production, causing the anemia, low platelets and leukopenia common in untreated infection.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

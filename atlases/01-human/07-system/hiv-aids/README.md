@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "AIDS turns endothelial cells cancerous: the herpesvirus KSHV infects these vessel-lining cells and, with immunity gone, transforms them into Kaposi sarcoma, the purple vascular tumor that became the face of the epidemic."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging is central to AIDS care: chest X-ray photons reveal the diffuse infiltrates of PCP pneumonia, and brain CT or MRI distinguishes the ring-enhancing lesions of toxoplasmosis from CNS lymphoma."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "In AIDS the bone marrow becomes a battleground: disseminated infections like MAC and histoplasmosis invade it while HIV and drugs suppress it, deepening the cytopenias of advanced disease."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "AIDS often shows first on the skin: severe shingles, stubborn fungal and seborrheic rashes, and oral thrush are common early warnings that immunity is failing."
 ---
 
 # HIV/AIDS
@@ -270,6 +279,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AIDS suffocates through Pneumocystis: as immunity collapses, this fungal pneumonia (PCP) fills the lungs and starves the blood of oxygen, the AIDS-defining infection whose silent, worsening hypoxia is a classic warning sign.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — AIDS can blind through the eye: when CD4 counts crash, cytomegalovirus attacks the retina (CMV retinitis), an AIDS-defining infection that destroys sight unless immunity is restored.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — AIDS turns endothelial cells cancerous: the herpesvirus KSHV infects these vessel-lining cells and, with immunity gone, transforms them into Kaposi sarcoma, the purple vascular tumor that became the face of the epidemic.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging is central to AIDS care: chest X-ray photons reveal the diffuse infiltrates of PCP pneumonia, and brain CT or MRI distinguishes the ring-enhancing lesions of toxoplasmosis from CNS lymphoma.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — In AIDS the bone marrow becomes a battleground: disseminated infections like MAC and histoplasmosis invade it while HIV and drugs suppress it, deepening the cytopenias of advanced disease.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — AIDS often shows first on the skin: severe shingles, stubborn fungal and seborrheic rashes, and oral thrush are common early warnings that immunity is failing.
 
 ## See Also
 
