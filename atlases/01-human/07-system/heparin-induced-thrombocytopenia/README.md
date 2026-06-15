@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "HIT chokes tissues of oxygen through thrombosis: clots in arteries and veins block blood flow, causing limb ischemia that can require amputation, so the hypoxic damage—not bleeding—is HIT's central threat."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Once HIT is suspected, imaging hunts the clots: CT and lung scans read in X-ray photons find the pulmonary emboli and limb thromboses that make the syndrome dangerous despite the low platelets."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "HIT clots arteries as well as veins: coronary thrombosis can cause a heart attack, part of the arterial thrombosis that distinguishes this paradoxical, clot-prone low-platelet state."
+  - target: 01-human/03-molecular/von-willebrand-factor
+    relation: connects-to
+    note: "HIT inflames the vessel wall: the immune complexes activate endothelium to release von Willebrand factor, which grabs platelets and amplifies the prothrombotic storm beyond the platelets' own activation."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -303,6 +312,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — HIT clots can strike the brain: despite the falling platelet count it is a prothrombotic state, causing arterial strokes and cerebral vein thrombosis, so HIT is treated with non-heparin anticoagulants rather than transfusion.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — HIT can destroy the adrenal glands: bilateral adrenal vein thrombosis leads to hemorrhagic infarction and acute adrenal insufficiency, a rare but catastrophic complication of the syndrome's paradoxical clotting.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HIT chokes tissues of oxygen through thrombosis: clots in arteries and veins block blood flow, causing limb ischemia that can require amputation, so the hypoxic damage—not bleeding—is HIT's central threat.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Once HIT is suspected, imaging hunts the clots: CT and lung scans read in X-ray photons find the pulmonary emboli and limb thromboses that make the syndrome dangerous despite the low platelets.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — HIT clots arteries as well as veins: coronary thrombosis can cause a heart attack, part of the arterial thrombosis that distinguishes this paradoxical, clot-prone low-platelet state.
+- `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — HIT inflames the vessel wall: the immune complexes activate endothelium to release von Willebrand factor, which grabs platelets and amplifies the prothrombotic storm beyond the platelets' own activation.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

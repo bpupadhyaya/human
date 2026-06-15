@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Chronic hepatitis B can overload the liver with iron: ongoing inflammation deranges iron handling, and the excess metal fuels oxidative injury that accelerates fibrosis and raises cancer risk."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Chronic hepatitis B demands lifelong imaging surveillance: ultrasound and CT/MRI photons screen the at-risk liver for the hepatocellular carcinoma it predisposes to, catching tumors while still curable."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Decompensated hepatitis B cirrhosis retains sodium and water as ascites, and the dilutional low blood sodium that follows is an ominous marker of advanced liver disease and poor prognosis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Fibroblasts are the engine of hepatitis B fibrosis: chronic inflammation activates liver fibroblasts and myofibroblasts to lay down collagen scar, the cellular step that drives progression to cirrhosis."
 ---
 
 # Hepatitis B
@@ -289,3 +298,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Hepatitis B cirrhosis enlarges the spleen: portal hypertension backs blood up into it, so it swells and traps platelets and white cells (hypersplenism), and a falling platelet count is often the first hint of advancing liver scarring.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — A failing hepatitis B liver poisons the brain: cirrhosis can no longer clear ammonia and gut toxins, which cross into the brain and cause hepatic encephalopathy—confusion, tremor, and coma that track liver decompensation.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Chronic hepatitis B can overload the liver with iron: ongoing inflammation deranges iron handling, and the excess metal fuels oxidative injury that accelerates fibrosis and raises cancer risk.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Chronic hepatitis B demands lifelong imaging surveillance: ultrasound and CT/MRI photons screen the at-risk liver for the hepatocellular carcinoma it predisposes to, catching tumors while still curable.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Decompensated hepatitis B cirrhosis retains sodium and water as ascites, and the dilutional low blood sodium that follows is an ominous marker of advanced liver disease and poor prognosis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts are the engine of hepatitis B fibrosis: chronic inflammation activates liver fibroblasts and myofibroblasts to lay down collagen scar, the cellular step that drives progression to cirrhosis.
