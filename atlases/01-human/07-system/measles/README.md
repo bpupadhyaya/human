@@ -128,6 +128,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Measles can crash the platelets: the infection sometimes triggers immune thrombocytopenia, causing the bruising and bleeding of 'black measles,' a rare but dangerous hemorrhagic complication."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Measles pneumonia and its rare brain disease show on imaging: chest X-ray photons reveal the giant-cell pneumonia, and MRI maps the white-matter damage of subacute sclerosing panencephalitis."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Measles damages the alveoli: the virus forms giant cells in the air sacs (Hecht's giant-cell pneumonia), the lung injury that is a leading cause of measles death in young children."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Measles can inflame the heart: myocarditis and pericarditis are uncommon complications, adding cardiac strain to the systemic toll of a severe infection."
 ---
 
 # Measles
@@ -309,6 +318,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Measles kills mostly by stealing oxygen: its pneumonia—whether from the virus or a bacterial superinfection—is the leading cause of measles death, flooding the lungs and dropping blood oxygen.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Measles infects the gut lining: spreading to the intestinal epithelium, it causes the diarrhea that dehydrates young children, a major contributor to measles deaths in the malnourished.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Measles can crash the platelets: the infection sometimes triggers immune thrombocytopenia, causing the bruising and bleeding of 'black measles,' a rare but dangerous hemorrhagic complication.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Measles pneumonia and its rare brain disease show on imaging: chest X-ray photons reveal the giant-cell pneumonia, and MRI maps the white-matter damage of subacute sclerosing panencephalitis.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Measles damages the alveoli: the virus forms giant cells in the air sacs (Hecht's giant-cell pneumonia), the lung injury that is a leading cause of measles death in young children.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Measles can inflame the heart: myocarditis and pericarditis are uncommon complications, adding cardiac strain to the systemic toll of a severe infection.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

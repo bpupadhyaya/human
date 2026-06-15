@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "Migraine aura is a wave across synapses: cortical spreading depression, a slow tide of neuronal and synaptic depolarization sweeping the cortex, produces the shimmering visual aura and primes the pain that follows."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Migraine rides on sodium channels: the SCN1A sodium channel mutated in hemiplegic migraine, and the action of sodium valproate, tie the ion's flux to the cortical hyperexcitability that triggers attacks."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Migraine pain travels the trigeminal nerve: this peripheral sensory nerve carries the throb from inflamed meningeal vessels, and nerve blocks and CGRP drugs that target it relieve attacks."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Migraine travels with the gut: it overlaps heavily with irritable bowel syndrome, and shared serotonin signaling along the gut-brain axis links bowel symptoms to the headache disorder."
 ---
 
 # Migraine
@@ -304,6 +313,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light is both trigger and torment in migraine: photons reaching the retina feed a pathway to the thalamus that intensifies headache, so photophobia is a core symptom and bright or flickering light can set an attack off.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Migraine paralyzes the stomach: attacks bring nausea and vomiting and slow gastric emptying (gastroparesis), which delays oral painkiller absorption—why early or non-oral treatment works better in a severe attack.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Migraine aura is a wave across synapses: cortical spreading depression, a slow tide of neuronal and synaptic depolarization sweeping the cortex, produces the shimmering visual aura and primes the pain that follows.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Migraine rides on sodium channels: the SCN1A sodium channel mutated in hemiplegic migraine, and the action of sodium valproate, tie the ion's flux to the cortical hyperexcitability that triggers attacks.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Migraine pain travels the trigeminal nerve: this peripheral sensory nerve carries the throb from inflamed meningeal vessels, and nerve blocks and CGRP drugs that target it relieve attacks.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Migraine travels with the gut: it overlaps heavily with irritable bowel syndrome, and shared serotonin signaling along the gut-brain axis links bowel symptoms to the headache disorder.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
