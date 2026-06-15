@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Migraine travels with the gut: it overlaps heavily with irritable bowel syndrome, and shared serotonin signaling along the gut-brain axis links bowel symptoms to the headache disorder."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Migraine may be an energy disorder at the cell's core: evidence of mitochondrial dysfunction in migraine neurons underlies the use of riboflavin and coenzyme Q10 — boosters of the electron transport chain — as preventives."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D shadows the migraine brain: deficiency is associated with more frequent attacks, and supplementation has shown modest benefit, fitting the vitamin's role in calming neuronal excitability and inflammation."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Migraine can make the skin hurt: cutaneous allodynia, where a light touch to the scalp or face becomes painful during an attack, signals central sensitization and predicts a poorer response to late treatment."
 ---
 
 # Migraine
@@ -316,6 +325,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Migraine rides on sodium channels: the SCN1A sodium channel mutated in hemiplegic migraine, and the action of sodium valproate, tie the ion's flux to the cortical hyperexcitability that triggers attacks.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Migraine pain travels the trigeminal nerve: this peripheral sensory nerve carries the throb from inflamed meningeal vessels, and nerve blocks and CGRP drugs that target it relieve attacks.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Migraine travels with the gut: it overlaps heavily with irritable bowel syndrome, and shared serotonin signaling along the gut-brain axis links bowel symptoms to the headache disorder.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Migraine may be an energy disorder at the cell's core: evidence of mitochondrial dysfunction in migraine neurons underlies the use of riboflavin and coenzyme Q10 — boosters of the electron transport chain — as preventives.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the migraine brain: deficiency is associated with more frequent attacks, and supplementation has shown modest benefit, fitting the vitamin's role in calming neuronal excitability and inflammation.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Migraine can make the skin hurt: cutaneous allodynia, where a light touch to the scalp or face becomes painful during an attack, signals central sensitization and predicts a poorer response to late treatment.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

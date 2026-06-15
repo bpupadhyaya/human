@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Aggressive MS can be reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes out and rebuilds the immune system, halting relapses in selected severe cases."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows MS stripping the nerves bare: in the plaque, immune cells peel the myelin sheath off axons, leaving naked fibers that conduct poorly — and patchy, often incomplete, remyelination by surviving oligodendrocytes."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "MS disconnects the bowel: lesions in the spinal cord disrupt the nerves controlling defecation, so neurogenic constipation and incontinence are common, disabling, and often under-discussed symptoms."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "MS endangers the kidney through the bladder: cord lesions cause a neurogenic bladder that retains urine, breeding recurrent infections and back-pressure that, untreated, can damage the kidneys over time."
 ---
 
 # Multiple Sclerosis
@@ -285,6 +294,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MS is diagnosed and tracked by MRI: its photons reveal the white-matter plaques scattered in space and time, and gadolinium enhancement flags the active, inflamed lesions.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MS exposes axonal potassium channels: demyelination uncovers them and leaks current, so the drug dalfampridine blocks potassium channels to restore conduction and improve walking.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Aggressive MS can be reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes out and rebuilds the immune system, halting relapses in selected severe cases.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows MS stripping the nerves bare: in the plaque, immune cells peel the myelin sheath off axons, leaving naked fibers that conduct poorly — and patchy, often incomplete, remyelination by surviving oligodendrocytes.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — MS disconnects the bowel: lesions in the spinal cord disrupt the nerves controlling defecation, so neurogenic constipation and incontinence are common, disabling, and often under-discussed symptoms.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — MS endangers the kidney through the bladder: cord lesions cause a neurogenic bladder that retains urine, breeding recurrent infections and back-pressure that, untreated, can damage the kidneys over time.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
