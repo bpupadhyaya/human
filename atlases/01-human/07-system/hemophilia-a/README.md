@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/hepatitis-b
     relation: connects-to
     note: "The old treatment carried hidden viruses: before viral inactivation, plasma-derived factor VIII concentrates transmitted hepatitis B and C and HIV to a generation of patients, a tragedy that drove the shift to recombinant factor and vaccination."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Bleeding into joints destroys them: recurrent hemarthrosis dumps iron and inflammation into the joint, driving osteoclasts to erode bone and cartilage into the crippling hemophilic arthropathy that defines untreated disease."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Hemophilia thins the skeleton: the pain and arthropathy that limit weight-bearing exercise, plus the disease itself, leave people with hemophilia with reduced bone density and a higher fracture risk than the general population."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "The immune system can reject the treatment: in some patients dendritic cells present infused factor VIII as foreign, priming the neutralizing antibodies (inhibitors) that are the most challenging complication of replacement therapy."
 ---
 
 # Hemophilia A
@@ -328,6 +337,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies are hemophilia's nemesis and its newest cure: inhibitor alloantibodies against infused factor VIII are the dreaded complication that neutralizes treatment, while emicizumab, a bispecific antibody bridging factors IXa and X, now prevents bleeds without it.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — A deep bleed can crush a nerve: a tense hematoma in the iliopsoas or forearm compresses the peripheral nerve running through it, causing a compartment syndrome with numbness, weakness, and palsy that needs urgent factor replacement.
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — The old treatment carried hidden viruses: before viral inactivation, plasma-derived factor VIII concentrates transmitted hepatitis B and C and HIV to a generation of patients, a tragedy that drove the shift to recombinant factor and vaccination.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bleeding into joints destroys them: recurrent hemarthrosis dumps iron and inflammation into the joint, driving osteoclasts to erode bone and cartilage into the crippling hemophilic arthropathy that defines untreated disease.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Hemophilia thins the skeleton: the pain and arthropathy that limit weight-bearing exercise, plus the disease itself, leave people with hemophilia with reduced bone density and a higher fracture risk than the general population.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — The immune system can reject the treatment: in some patients dendritic cells present infused factor VIII as foreign, priming the neutralizing antibodies (inhibitors) that are the most challenging complication of replacement therapy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

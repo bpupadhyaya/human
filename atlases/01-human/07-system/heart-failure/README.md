@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Heart failure reaches the bedroom and the delivery room: erectile dysfunction is common from the disease and its drugs, while pregnancy's volume load is hazardous in cardiomyopathy and can itself trigger peripartum heart failure."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "The failing heart triggers a damaging feedback loop: falling output makes the kidney release renin, firing up the renin-angiotensin-aldosterone system that retains salt and water and remodels the heart — the very axis ACE inhibitors and ARBs block."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Heart and kidney fail together: in cardiorenal syndrome poor cardiac output and venous congestion injure the kidneys while fluid overload worsens the heart, a vicious cycle that complicates diuretic dosing in advanced disease."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "A weak heart throws clots to the brain: low ejection fraction and the atrial fibrillation that often accompanies heart failure let thrombi form in the stagnant chambers and embolize, raising stroke risk and prompting anticoagulation."
 ---
 
 # Heart Failure
@@ -272,6 +281,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both diagnose and cause heart failure: BNP and NT-proBNP are read by immunoassay to confirm and grade it, while autoantibody-driven myocarditis — including the immune-checkpoint kind — is a reversible cause worth catching early.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The failing heart over-revs its nerves: baroreceptor signaling drives a maladaptive sympathetic surge from autonomic neurons that strains the myocardium further — the vicious cycle beta-blockers interrupt to improve survival.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Heart failure reaches the bedroom and the delivery room: erectile dysfunction is common from the disease and its drugs, while pregnancy's volume load is hazardous in cardiomyopathy and can itself trigger peripartum heart failure.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — The failing heart triggers a damaging feedback loop: falling output makes the kidney release renin, firing up the renin-angiotensin-aldosterone system that retains salt and water and remodels the heart — the very axis ACE inhibitors and ARBs block.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Heart and kidney fail together: in cardiorenal syndrome poor cardiac output and venous congestion injure the kidneys while fluid overload worsens the heart, a vicious cycle that complicates diuretic dosing in advanced disease.
+- `connects-to` → **[Stroke](../stroke/README.md)** — A weak heart throws clots to the brain: low ejection fraction and the atrial fibrillation that often accompanies heart failure let thrombi form in the stagnant chambers and embolize, raising stroke risk and prompting anticoagulation.
 
 ## Pathology
 
