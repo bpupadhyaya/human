@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils foretell the course in NSCLC: a high neutrophil-to-lymphocyte ratio is a robust poor-prognosis marker, and tumor-associated neutrophils help build the immunosuppressive niche that lets the cancer grow."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies steer modern NSCLC care: TTF-1 and p40 stains separate adeno from squamous, PD-L1 staining selects who gets checkpoint therapy, and the drugs themselves — anti-PD-1 pembrolizumab and anti-VEGF bevacizumab — are monoclonal antibodies."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney sets limits on treatment: the cisplatin backbone of NSCLC chemotherapy is nephrotoxic, demanding hydration and dose adjustment, and the tumor can drive a paraneoplastic SIADH that drops sodium dangerously low."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cisplatin wastes the body's magnesium: by injuring the kidney tubule that reclaims it, the platinum chemotherapy for NSCLC drops magnesium and potassium, electrolytes that must be replaced through every cycle of treatment."
 ---
 
 # NSCLC
@@ -292,6 +301,9 @@ cross_links:
 - `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — STK11/LKB1 loss makes a cold tumor: this tumor suppressor is among the most frequently inactivated genes in lung adenocarcinoma, and its loss — especially alongside KRAS — predicts an immune-excluded tumor that resists checkpoint inhibitors.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — NSCLC eats into bone: skeletal metastases are common and osteolytic, with tumor-driven RANKL revving up osteoclasts to dissolve bone — causing pain, fractures, and hypercalcemia, and making osteoclast-blocking denosumab part of supportive care.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils foretell the course in NSCLC: a high neutrophil-to-lymphocyte ratio is a robust poor-prognosis marker, and tumor-associated neutrophils help build the immunosuppressive niche that lets the cancer grow.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies steer modern NSCLC care: TTF-1 and p40 stains separate adeno from squamous, PD-L1 staining selects who gets checkpoint therapy, and the drugs themselves — anti-PD-1 pembrolizumab and anti-VEGF bevacizumab — are monoclonal antibodies.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney sets limits on treatment: the cisplatin backbone of NSCLC chemotherapy is nephrotoxic, demanding hydration and dose adjustment, and the tumor can drive a paraneoplastic SIADH that drops sodium dangerously low.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin wastes the body's magnesium: by injuring the kidney tubule that reclaims it, the platinum chemotherapy for NSCLC drops magnesium and potassium, electrolytes that must be replaced through every cycle of treatment.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
