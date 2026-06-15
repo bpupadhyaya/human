@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "DICER1 syndrome reaches the pancreas: rare pancreatoblastoma, a childhood pancreatic cancer, is part of its broad tumor spectrum, extending the syndrome's microRNA-driven risk to yet another organ."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "DICER1's signature tumor grows in the lung's air spaces: pleuropulmonary blastoma starts as benign-looking cysts in the alveolar regions of young children that can degenerate into aggressive sarcoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Losing DICER1 unleashes growth signals: without mature let-7 microRNAs to restrain them, IGF and other growth factors run high, helping drive the overgrowth and tumors of the syndrome."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "DICER1's ovarian Sertoli-Leydig tumors are hormonally active: they secrete sex steroids, so virilization or disrupted estrogen balance is often the first clue in a young woman."
 ---
 
 # DICER1 Syndrome
@@ -274,6 +283,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DICER1's cystic lung tumors can burst into the chest: type I pleuropulmonary blastoma forms air-filled cysts that rupture, spilling air—mostly nitrogen—into the pleural space and collapsing the lung (pneumothorax).
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — DICER1's embryonal tumors build new vessels: endothelial cells form the dense vasculature that supplies the fast-growing pleuropulmonary blastomas and sarcomas, a feature anti-angiogenic drugs aim to cut off.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — DICER1 syndrome reaches the pancreas: rare pancreatoblastoma, a childhood pancreatic cancer, is part of its broad tumor spectrum, extending the syndrome's microRNA-driven risk to yet another organ.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — DICER1's signature tumor grows in the lung's air spaces: pleuropulmonary blastoma starts as benign-looking cysts in the alveolar regions of young children that can degenerate into aggressive sarcoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Losing DICER1 unleashes growth signals: without mature let-7 microRNAs to restrain them, IGF and other growth factors run high, helping drive the overgrowth and tumors of the syndrome.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — DICER1's ovarian Sertoli-Leydig tumors are hormonally active: they secrete sex steroids, so virilization or disrupted estrogen balance is often the first clue in a young woman.
 
 ---
 

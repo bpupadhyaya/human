@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Diffuse midline glioma works on endothelial cells: VEGF from the tumor loosens the blood-brain barrier these cells form and recruits new vessels, both feeding growth and complicating drug delivery to the brainstem."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Diffuse midline glioma destabilizes the brainstem's autonomic control: infiltrating the pons it disrupts the centers governing heart rate and blood pressure, causing dangerous swings late in the disease."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Diffuse midline glioma picks off the cranial nerves: invading the pons it palsies the nerves controlling eye movement, the face and swallowing, the cranial-nerve deficits that often herald it."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Some diffuse midline gliomas are driven by activin signaling: ACVR1 mutations switch on the activin-A/BMP pathway, a recurrent driver in the pontine tumors of young children and a drug target."
 ---
 
 # Diffuse Midline Glioma
@@ -298,6 +307,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Diffuse midline glioma announces itself in the eyes: a pontine tumor first palsies the cranial nerves that move the eyes and face, so double vision, a crossed eye, and facial droop are classic early signs of DIPG.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Diffuse midline glioma ultimately stops the breath: as it destroys the brainstem's control of breathing and swallowing, patients lose airway protection and respiratory drive, the failure that ends this lethal disease.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Diffuse midline glioma works on endothelial cells: VEGF from the tumor loosens the blood-brain barrier these cells form and recruits new vessels, both feeding growth and complicating drug delivery to the brainstem.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Diffuse midline glioma destabilizes the brainstem's autonomic control: infiltrating the pons it disrupts the centers governing heart rate and blood pressure, causing dangerous swings late in the disease.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Diffuse midline glioma picks off the cranial nerves: invading the pons it palsies the nerves controlling eye movement, the face and swallowing, the cranial-nerve deficits that often herald it.
+- `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Some diffuse midline gliomas are driven by activin signaling: ACVR1 mutations switch on the activin-A/BMP pathway, a recurrent driver in the pontine tumors of young children and a drug target.
 
 ---
 
