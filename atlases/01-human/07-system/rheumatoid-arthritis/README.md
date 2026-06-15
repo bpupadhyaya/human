@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils flood the rheumatoid joint and arm the autoimmunity: they pack the synovial fluid and release enzymes and NETs that citrullinate proteins, feeding the anti-CCP response and the cartilage destruction of the disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Rheumatoid arthritis inflames the eyes: it causes scleritis, episcleritis, and dry-eye keratoconjunctivitis, so red or gritty painful eyes in RA signal the autoimmunity reaching beyond the joints."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Rheumatoid arthritis scars the lungs: chronic inflammation drives interstitial lung fibrosis and forms fibrous rheumatoid nodules, a serious extra-articular complication that shortens life."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Rheumatoid arthritis drains calcium from bone: inflammation and steroids tip remodeling toward loss, eroding bone at joints and thinning the whole skeleton into osteoporosis."
 ---
 
 # Rheumatoid Arthritis
@@ -297,6 +306,9 @@ RA patients have:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Rheumatoid arthritis commonly causes anemia: chronic inflammation raises hepcidin that locks away iron, so the anemia of chronic disease tracks with disease activity and improves when the inflammation is controlled.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Rheumatoid arthritis's biggest killer is the heart: chronic systemic inflammation accelerates atherosclerosis, so cardiovascular disease—not joint damage—is the leading cause of death, and controlling RA lowers that risk.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils flood the rheumatoid joint and arm the autoimmunity: they pack the synovial fluid and release enzymes and NETs that citrullinate proteins, feeding the anti-CCP response and the cartilage destruction of the disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Rheumatoid arthritis inflames the eyes: it causes scleritis, episcleritis, and dry-eye keratoconjunctivitis, so red or gritty painful eyes in RA signal the autoimmunity reaching beyond the joints.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Rheumatoid arthritis scars the lungs: chronic inflammation drives interstitial lung fibrosis and forms fibrous rheumatoid nodules, a serious extra-articular complication that shortens life.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rheumatoid arthritis drains calcium from bone: inflammation and steroids tip remodeling toward loss, eroding bone at joints and thinning the whole skeleton into osteoporosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

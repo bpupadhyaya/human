@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "The osteosarcomas of Rothmund-Thomson recruit blood via VEGF: the genomically chaotic bone tumors drive angiogenesis to grow and spread, so VEGF-targeted strategies are considered in this cancer-prone syndrome."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Rothmund-Thomson disturbs the bone's mineral: its skeletal dysplasias and high osteosarcoma risk involve the calcium-phosphate matrix, so the phosphorus-rich bone bears much of the syndrome's burden."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Rothmund-Thomson dilates the skin's vessels: poikiloderma's web of telangiectasias is endothelial cells forming widened surface capillaries, part of the mottled rash that defines the disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Rothmund-Thomson's chronic skin atrophies and scars: long-standing poikiloderma thins and fibroses the dermis alongside its pigment and vascular changes, the lasting cutaneous mark of the helicase defect."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -284,6 +293,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rothmund-Thomson disturbs the calcium-built skeleton: RECQL4 loss causes bone defects and a high osteosarcoma risk, so disordered bone—where calcium is laid down—is a defining feature beyond the poikiloderma skin changes.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells join NK cells in policing Rothmund-Thomson: as the helicase defect spawns mutated, stressed cells, T-cell surveillance helps cull them, and its strength may shape the timing of the cancers these patients face.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The osteosarcomas of Rothmund-Thomson recruit blood via VEGF: the genomically chaotic bone tumors drive angiogenesis to grow and spread, so VEGF-targeted strategies are considered in this cancer-prone syndrome.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Rothmund-Thomson disturbs the bone's mineral: its skeletal dysplasias and high osteosarcoma risk involve the calcium-phosphate matrix, so the phosphorus-rich bone bears much of the syndrome's burden.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Rothmund-Thomson dilates the skin's vessels: poikiloderma's web of telangiectasias is endothelial cells forming widened surface capillaries, part of the mottled rash that defines the disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Rothmund-Thomson's chronic skin atrophies and scars: long-standing poikiloderma thins and fibroses the dermis alongside its pigment and vascular changes, the lasting cutaneous mark of the helicase defect.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
