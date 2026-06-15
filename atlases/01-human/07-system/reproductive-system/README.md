@@ -140,6 +140,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium guards the pregnant reproductive tract: intravenous magnesium sulfate is the first-line treatment for eclamptic seizures and gives fetal neuroprotection in preterm birth, while also relaxing uterine smooth muscle as a tocolytic."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both threaten and tolerate reproduction: antisperm antibodies cause immune infertility and anti-D antibodies drive hemolytic disease of the newborn, yet pregnancy itself is a feat of immune tolerance that keeps the half-foreign fetus from being rejected."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Body fat sets the reproductive thermostat: adipose tissue makes estrogen and leptin, so obesity drives the anovulation and PCOS of women and the low testosterone of men, while too little fat halts menstruation altogether."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid paces fertility: hypo- and hyperthyroidism disorder the menstrual cycle, impair ovulation and sperm, and raise miscarriage risk, so thyroid function is a routine check in infertility and early-pregnancy care."
 ---
 
 # Reproductive System
@@ -296,6 +305,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The sperm is a structure only electron microscopy fully reveals: a 9+2 axoneme drives the flagellum, a midpiece sheath of mitochondria powers it, and an acrosome caps the head — and EM diagnoses the motility defects (e.g. primary ciliary dyskinesia) behind some male infertility.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D reaches into reproduction: VDRs sit in ovary, testis, endometrium, and placenta, and deficiency tracks with PCOS, lower fertility, and adverse pregnancy outcomes — one reason status is checked in preconception and pregnancy care.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium guards the pregnant reproductive tract: intravenous magnesium sulfate is the first-line treatment for eclamptic seizures and gives fetal neuroprotection in preterm birth, while also relaxing uterine smooth muscle as a tocolytic.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both threaten and tolerate reproduction: antisperm antibodies cause immune infertility and anti-D antibodies drive hemolytic disease of the newborn, yet pregnancy itself is a feat of immune tolerance that keeps the half-foreign fetus from being rejected.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Body fat sets the reproductive thermostat: adipose tissue makes estrogen and leptin, so obesity drives the anovulation and PCOS of women and the low testosterone of men, while too little fat halts menstruation altogether.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid paces fertility: hypo- and hyperthyroidism disorder the menstrual cycle, impair ovulation and sperm, and raise miscarriage risk, so thyroid function is a routine check in infertility and early-pregnancy care.
 
 ## Pathology
 

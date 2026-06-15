@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Platinum chemotherapy wastes magnesium: carboplatin injures the kidney's tubular handling of the mineral, so magnesium is monitored and replaced during the months of retinoblastoma treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains read the retinal tumor: because biopsy is avoided to prevent seeding, the diagnosis rests on imaging, but an enucleated eye stains with CRX and synaptophysin antibodies that confirm its photoreceptor-precursor, neuroendocrine origin."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The chemotherapy opens the door to infection: carboplatin, vincristine, and etoposide suppress the marrow, dropping neutrophil counts so that febrile neutropenia is a constant watch during a small child's retinoblastoma treatment."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Heritable retinoblastoma echoes into the next generation: a survivor of the germline form carries the RB1 mutation in every cell and passes it to about half their children, making genetic counseling and family screening central to care."
 ---
 
 # Retinoblastoma
@@ -296,6 +305,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — A collagen sieve marks the point of no return: the lamina cribrosa, the collagen plate where the optic nerve leaves the eye, is the barrier retinoblastoma must breach, and tumor invasion beyond it sharply raises the risk of spread and worsens prognosis.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Curing retinoblastoma drains the red cells: the carboplatin-vincristine-etoposide chemotherapy suppresses the marrow, dropping the erythrocyte count into an anemia that may need transfusion support through treatment.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy wastes magnesium: carboplatin injures the kidney's tubular handling of the mineral, so magnesium is monitored and replaced during the months of retinoblastoma treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read the retinal tumor: because biopsy is avoided to prevent seeding, the diagnosis rests on imaging, but an enucleated eye stains with CRX and synaptophysin antibodies that confirm its photoreceptor-precursor, neuroendocrine origin.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The chemotherapy opens the door to infection: carboplatin, vincristine, and etoposide suppress the marrow, dropping neutrophil counts so that febrile neutropenia is a constant watch during a small child's retinoblastoma treatment.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Heritable retinoblastoma echoes into the next generation: a survivor of the germline form carries the RB1 mutation in every cell and passes it to about half their children, making genetic counseling and family screening central to care.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
