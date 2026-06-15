@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "A vast, restrained macrophage army lines the gut: the largest pool of macrophages in the body clears the trickle of bacteria crossing the barrier yet stays tolerant, and when that balance breaks, inflammatory bowel disease follows."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The gut runs its own nervous system: the enteric nervous system, a mesh of millions of neurons in the bowel wall, coordinates peristalsis and secretion largely on its own, earning the gut its name as the body's second brain."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "The gut is an endocrine organ: L-cells release GLP-1 after a meal to spur insulin, slow gastric emptying and curb appetite, the incretin axis now harnessed by the blockbuster GLP-1 weight and diabetes drugs."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Gut microbes help set circulating estrogen: the estrobolome — bacterial enzymes that deconjugate estrogens for reabsorption — links the digestive tract to reproductive and hormonal health across the body."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -312,6 +321,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Antibody](../../03-molecular/antibody/README.md) — the gut is the body's largest antibody factory: plasma cells in the lamina propria pump out secretory IgA that bathes the mucosa, neutralizing pathogens and shaping the flora while teaching tolerance to food and friendly microbes.
 - **Connects to:** [Endocrine System](../endocrine-system/README.md) — the gut is also the largest endocrine organ: scattered enteroendocrine cells release ghrelin, CCK, secretin, gastrin, and GLP-1 that pace digestion and signal hunger and fullness to the brain, the gut-hormone arm of metabolism.
 - **Connects to:** [Macrophage](../../04-cellular/macrophage/README.md) — a vast, restrained macrophage army lines the gut: the largest pool of macrophages in the body clears the trickle of bacteria crossing the barrier yet stays tolerant, and when that balance breaks, inflammatory bowel disease follows.
+- **Connects to:** [Neuron](../../04-cellular/neuron/README.md) — the gut runs its own nervous system: the enteric nervous system, a mesh of millions of neurons in the bowel wall, coordinates peristalsis and secretion largely on its own, earning the gut its name as the body's second brain.
+- **Connects to:** [GLP-1](../../03-molecular/glp-1/README.md) — the gut is an endocrine organ: L-cells release GLP-1 after a meal to spur insulin, slow gastric emptying and curb appetite, the incretin axis now harnessed by the blockbuster GLP-1 weight and diabetes drugs.
+- **Connects to:** [Reproductive System](../reproductive-system/README.md) — gut microbes help set circulating estrogen: the estrobolome — bacterial enzymes that deconjugate estrogens for reabsorption — links the digestive tract to reproductive and hormonal health across the body.
 
 ## Pathology
 

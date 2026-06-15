@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy speeds the damage: diabetic retinopathy can progress rapidly during pregnancy, so diabetic women are screened more often through gestation and treated promptly to protect sight against the accelerated course."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "The retina is a window on the whole vasculature: diabetic retinopathy marks systemic microvascular damage and independently predicts stroke and cardiovascular events, so finding it should prompt aggressive control of blood pressure and glucose."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation, not just sugar, harms the retina: IL-6 and other cytokines rise in the diabetic eye, driving the vascular leak behind macular edema — why intravitreal steroids help when anti-VEGF alone does not."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Low-grade immune activation joins the damage: T cells and leukostasis contribute to the chronic inflammation that injures the retinal capillaries, an immune dimension layered on the metabolic insult of hyperglycemia."
 ---
 
 # Diabetic Retinopathy
@@ -317,6 +326,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody injections are the modern cure: intravitreal anti-VEGF agents (ranibizumab, aflibercept, bevacizumab) neutralize the VEGF driving leaky new vessels, reversing macular edema and proliferative retinopathy that laser once only slowed.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Late retinopathy pulls the retina loose: the fibrovascular membranes of proliferative disease contract as fibroblasts and myofibroblasts lay down scar, tugging the retina into a tractional detachment that threatens sudden vision loss.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy speeds the damage: diabetic retinopathy can progress rapidly during pregnancy, so diabetic women are screened more often through gestation and treated promptly to protect sight against the accelerated course.
+- `connects-to` → **[Stroke](../stroke/README.md)** — The retina is a window on the whole vasculature: diabetic retinopathy marks systemic microvascular damage and independently predicts stroke and cardiovascular events, so finding it should prompt aggressive control of blood pressure and glucose.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation, not just sugar, harms the retina: IL-6 and other cytokines rise in the diabetic eye, driving the vascular leak behind macular edema — why intravitreal steroids help when anti-VEGF alone does not.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Low-grade immune activation joins the damage: T cells and leukostasis contribute to the chronic inflammation that injures the retinal capillaries, an immune dimension layered on the metabolic insult of hyperglycemia.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
