@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy forces a treatment pause: statins are avoided in pregnancy for fear of harming the fetus, so women with FH must stop them while trying to conceive and during gestation, leaving their high LDL untreated for months."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody now slashes the LDL: PCSK9-inhibitor monoclonal antibodies (evolocumab, alirocumab) free up the liver's LDL receptors, dramatically lowering cholesterol in FH patients who can't reach target on statins alone."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid must be cleared first: hypothyroidism is a common secondary cause of high cholesterol that both mimics and worsens FH, so thyroid function is checked before and during treatment of the inherited disorder."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet still pulls its weight: soluble fiber binds bile acids to lower LDL, so a high-fiber, low-saturated-fat pattern is the dietary foundation on which the statins and antibodies of FH treatment build."
 ---
 
 # Familial Hypercholesterolemia
@@ -307,6 +316,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — FH leaves cholesterol in the tendons: firm Achilles and knuckle tendon xanthomas are a near-pathognomonic sign, and the statins that treat it can in turn cause muscle aches and, rarely, breakdown — both tying the disease to the musculoskeletal system.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Lifelong statin therapy nudges the pancreas: the drugs slightly raise the risk of new-onset diabetes, and in forms with high triglycerides too, the excess fat can inflame the pancreas into pancreatitis.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy forces a treatment pause: statins are avoided in pregnancy for fear of harming the fetus, so women with FH must stop them while trying to conceive and during gestation, leaving their high LDL untreated for months.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody now slashes the LDL: PCSK9-inhibitor monoclonal antibodies (evolocumab, alirocumab) free up the liver's LDL receptors, dramatically lowering cholesterol in FH patients who can't reach target on statins alone.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid must be cleared first: hypothyroidism is a common secondary cause of high cholesterol that both mimics and worsens FH, so thyroid function is checked before and during treatment of the inherited disorder.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet still pulls its weight: soluble fiber binds bile acids to lower LDL, so a high-fiber, low-saturated-fat pattern is the dietary foundation on which the statins and antibodies of FH treatment build.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

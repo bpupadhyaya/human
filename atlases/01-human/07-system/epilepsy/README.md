@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Some anti-seizure drugs strike the marrow: carbamazepine can cause agranulocytosis and aplastic anemia, while phenytoin interferes with folate to produce a megaloblastic anemia — so blood counts are monitored."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Some seizures are autoimmune: antibodies against NMDA-receptor or LGI1 cause an encephalitis whose seizures resist standard drugs but respond to immunotherapy, a treatable cause now sought in new-onset, unexplained epilepsy."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Long-term seizure drugs thin the bones: enzyme-inducing anti-seizure medicines speed vitamin D breakdown, lowering calcium and driving the osteomalacia and osteoporosis that leave epilepsy patients prone to fractures."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Valproate quietly drops the platelets: the widely used anti-seizure drug causes a dose-related thrombocytopenia and platelet dysfunction, watched especially before surgery or when bleeding appears."
 ---
 
 # Epilepsy
@@ -355,6 +364,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Anti-seizure drugs can erupt on the skin: carbamazepine, lamotrigine, and phenytoin can trigger Stevens-Johnson syndrome and toxic epidermal necrolysis, a risk so tied to the HLA-B*1502 allele that some patients are genotyped first.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Epilepsy and its drugs reach into reproduction: valproate is strongly teratogenic, enzyme-inducing drugs undercut hormonal contraception, and many women have catamenial seizures that cluster with the menstrual cycle's hormone swings.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some anti-seizure drugs strike the marrow: carbamazepine can cause agranulocytosis and aplastic anemia, while phenytoin interferes with folate to produce a megaloblastic anemia — so blood counts are monitored.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Some seizures are autoimmune: antibodies against NMDA-receptor or LGI1 cause an encephalitis whose seizures resist standard drugs but respond to immunotherapy, a treatable cause now sought in new-onset, unexplained epilepsy.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long-term seizure drugs thin the bones: enzyme-inducing anti-seizure medicines speed vitamin D breakdown, lowering calcium and driving the osteomalacia and osteoporosis that leave epilepsy patients prone to fractures.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Valproate quietly drops the platelets: the widely used anti-seizure drug causes a dose-related thrombocytopenia and platelet dysfunction, watched especially before surgery or when bleeding appears.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
