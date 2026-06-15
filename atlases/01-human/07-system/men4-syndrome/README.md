@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "MEN4's neuroendocrine tumors are richly vascular: their endothelial cells form the dense capillary networks that make these tumors stand out on contrast scans, aiding detection of small lesions."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Surveillance in MEN4 leans on photons: like MEN1, it uses sestamibi scintigraphy for parathyroids, Ga-68 DOTATATE PET for somatostatin-receptor-rich neuroendocrine tumors, and pituitary MRI to track adenomas across a lifetime of screening."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MEN4 can include GH-secreting pituitary tumors, and IGF-1 is how they are caught: produced by the liver in step with growth hormone, its stable level reveals acromegaly that the pulsatile hormone would hide."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "As in MEN1, the liver shapes MEN4's outcome: its pancreatic and duodenal neuroendocrine tumors metastasize there, and progressive liver disease becomes the dominant threat once tumors have spread."
 ---
 
 # MEN4 Syndrome
@@ -271,6 +280,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MEN4's overactive parathyroids unbalance phosphorus: excess PTH makes the kidneys dump phosphate while pulling calcium from bone, the mineral derangement of its hyperparathyroidism.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — MEN4 grows tumors at the base of the brain: pituitary adenomas are part of its spectrum, and as they enlarge they can press on the optic chiasm and brain, alongside its parathyroid and pancreatic tumors.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — MEN4's neuroendocrine tumors are richly vascular: their endothelial cells form the dense capillary networks that make these tumors stand out on contrast scans, aiding detection of small lesions.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Surveillance in MEN4 leans on photons: like MEN1, it uses sestamibi scintigraphy for parathyroids, Ga-68 DOTATATE PET for somatostatin-receptor-rich neuroendocrine tumors, and pituitary MRI to track adenomas across a lifetime of screening.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MEN4 can include GH-secreting pituitary tumors, and IGF-1 is how they are caught: produced by the liver in step with growth hormone, its stable level reveals acromegaly that the pulsatile hormone would hide.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — As in MEN1, the liver shapes MEN4's outcome: its pancreatic and duodenal neuroendocrine tumors metastasize there, and progressive liver disease becomes the dominant threat once tumors have spread.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
