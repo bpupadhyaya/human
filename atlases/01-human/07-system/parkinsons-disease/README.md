@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Where alpha-synuclein lodges decides the disease: when it accumulates in oligodendrocytes rather than neurons, the result is multiple system atrophy, a faster Parkinson-plus disorder."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals Parkinson's defining lesion: the Lewy body, a dense core of tangled alpha-synuclein filaments inside the dying dopamine neuron, surrounded by the swollen, failing mitochondria that mark its energy crisis."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Parkinson's shows in the eyes: blinking slows to a stare, eye movements grow jerky, and dopamine loss thins the retina — a change now studied as an early imaging biomarker of the disease in the brain."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper handling falters in the Parkinson's brain: the metal normally helps antioxidant defenses, and its disturbed balance in the substantia nigra adds to the oxidative stress, alongside iron, that kills the dopamine neurons."
 ---
 
 # Parkinson's Disease
@@ -310,6 +319,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Parkinson's can be imaged: a DaTscan uses radioactive photons to show the depleted dopamine terminals in the striatum, separating true Parkinson's from tremor that merely mimics it.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Parkinson's leaves traces in the skin: alpha-synuclein deposits can be found in skin nerve biopsies as an emerging diagnostic test, and seborrheic dermatitis is a common early sign.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Where alpha-synuclein lodges decides the disease: when it accumulates in oligodendrocytes rather than neurons, the result is multiple system atrophy, a faster Parkinson-plus disorder.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals Parkinson's defining lesion: the Lewy body, a dense core of tangled alpha-synuclein filaments inside the dying dopamine neuron, surrounded by the swollen, failing mitochondria that mark its energy crisis.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Parkinson's shows in the eyes: blinking slows to a stare, eye movements grow jerky, and dopamine loss thins the retina — a change now studied as an early imaging biomarker of the disease in the brain.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper handling falters in the Parkinson's brain: the metal normally helps antioxidant defenses, and its disturbed balance in the substantia nigra adds to the oxidative stress, alongside iron, that kills the dopamine neurons.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

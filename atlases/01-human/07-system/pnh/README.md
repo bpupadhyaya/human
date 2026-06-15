@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/03-molecular/von-willebrand-factor
     relation: connects-to
     note: "Free hemoglobin in PNH drives clotting through von Willebrand factor: complement-injured endothelium releases ultralarge multimers that snag platelets, compounding the thrombosis that menaces these patients."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "PNH's flaw is at the membrane's molecular anchor: a faulty PIG-A gene leaves blood cells unable to build the GPI tail that pins CD55 and CD59 to their surface, so without those complement brakes the red cells are torn apart."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "PNH cramps the gut from two directions: free hemoglobin soaks up nitric oxide, throwing intestinal smooth muscle into painful spasm, while clots in the mesenteric and portal veins can starve the bowel of blood."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Scavenged nitric oxide strains the circulation: with free hemoglobin mopping up the gas that relaxes vessels, pulmonary pressures climb and the heart labors, adding cardiovascular risk to PNH's thrombotic burden."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -255,6 +264,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — PNH is diagnosed by flow cytometry: laser light excites fluorescent tags on blood cells, exposing the clone that has lost its CD55 and CD59 surface shields, the test that confirms the disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — PNH clots in dangerous places, including the brain: cerebral venous sinus thrombosis is a feared event of its complement-driven hypercoagulability, sometimes the first sign of the disease.
 - `connects-to` → **[Von Willebrand Factor](../../03-molecular/von-willebrand-factor/README.md)** — Free hemoglobin in PNH drives clotting through von Willebrand factor: complement-injured endothelium releases ultralarge multimers that snag platelets, compounding the thrombosis that menaces these patients.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — PNH's flaw is at the membrane's molecular anchor: a faulty PIG-A gene leaves blood cells unable to build the GPI tail that pins CD55 and CD59 to their surface, so without those complement brakes the red cells are torn apart.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — PNH cramps the gut from two directions: free hemoglobin soaks up nitric oxide, throwing intestinal smooth muscle into painful spasm, while clots in the mesenteric and portal veins can starve the bowel of blood.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Scavenged nitric oxide strains the circulation: with free hemoglobin mopping up the gas that relaxes vessels, pulmonary pressures climb and the heart labors, adding cardiovascular risk to PNH's thrombotic burden.
 
 ---
 
