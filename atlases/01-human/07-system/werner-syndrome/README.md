@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Premature marrow failure reaches the white cells: the myelodysplasia and leukemias that Werner syndrome predisposes to drop neutrophil counts, adding infection risk to the syndrome's long catalogue of accelerated aging."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Aging arrives early at the gonads: Werner syndrome brings hypogonadism and reduced fertility, the reproductive system winding down prematurely alongside the graying hair, cataracts and skin changes that mark the accelerated aging."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The vessel walls age fast: WRN loss drives premature senescence of vascular smooth-muscle cells, accelerating the atherosclerosis and medial calcification that make heart attacks a leading cause of early death in Werner syndrome."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Werner has a striking thyroid-cancer profile: the syndrome markedly raises thyroid cancer risk — especially follicular subtypes, and notably in reported Japanese cohorts — so the gland is watched as part of its broad cancer predisposition."
 ---
 
 # Werner Syndrome
@@ -358,6 +367,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The genomic chaos is visible by antibody: WRN-deficient cells accumulate DNA double-strand breaks, and γH2AX antibody staining lights up the foci of damage and senescence that underlie Werner's premature aging and cancer-proneness.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The marrow ages and falters too: Werner syndrome carries a raised risk of myelodysplastic syndrome, whose ineffective hematopoiesis stalls erythrocyte production into the anemia that can mark the marrow's premature decline.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Premature marrow failure reaches the white cells: the myelodysplasia and leukemias that Werner syndrome predisposes to drop neutrophil counts, adding infection risk to the syndrome's long catalogue of accelerated aging.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Aging arrives early at the gonads: Werner syndrome brings hypogonadism and reduced fertility, the reproductive system winding down prematurely alongside the graying hair, cataracts and skin changes that mark the accelerated aging.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The vessel walls age fast: WRN loss drives premature senescence of vascular smooth-muscle cells, accelerating the atherosclerosis and medial calcification that make heart attacks a leading cause of early death in Werner syndrome.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Werner has a striking thyroid-cancer profile: the syndrome markedly raises thyroid cancer risk — especially follicular subtypes, and notably in reported Japanese cohorts — so the gland is watched as part of its broad cancer predisposition.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

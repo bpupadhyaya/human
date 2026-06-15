@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Targeted therapy taxes the marrow: the VEGF tyrosine-kinase inhibitors long used for VHL kidney cancer suppress blood counts, dropping neutrophils, while the newer HIF-2α inhibitor belzutifan instead causes the anemia of switched-off erythropoietin."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "HIF turns on a growth gene in VHL tumors: with pVHL gone, stabilized HIF-2alpha drives cyclin D1, pushing the renal cells through the cell cycle — one way the loss of a single brake gene seeds the syndrome's kidney cancers."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "VHL's clear cell kidney cancers respond to immunotherapy: their HIF-driven biology and immune microenvironment make checkpoint inhibitors that unleash cytotoxic T cells a mainstay for advanced VHL-related renal cell carcinoma."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Two VHL features threaten the brain's circulation: EPO-driven polycythemia thickens the blood toward thrombosis, and CNS hemangioblastomas can bleed, both routes by which the syndrome can cause a stroke."
 ---
 
 # VHL Disease
@@ -317,6 +326,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read VHL's tumors: inhibin-α and NSE confirm a cerebellar or retinal hemangioblastoma, while loss of carbonic anhydrase IX or characteristic markers helps tell its clear-cell kidney cancer from look-alikes on biopsy.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — VHL can drive the pressure up: its pheochromocytomas pour out catecholamines for episodic, dangerous hypertension, and the kidney tumors and their surgery add their own pressure effects — a reason these patients are screened for catecholamine excess.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Targeted therapy taxes the marrow: the VEGF tyrosine-kinase inhibitors long used for VHL kidney cancer suppress blood counts, dropping neutrophils, while the newer HIF-2α inhibitor belzutifan instead causes the anemia of switched-off erythropoietin.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — HIF turns on a growth gene in VHL tumors: with pVHL gone, stabilized HIF-2alpha drives cyclin D1, pushing the renal cells through the cell cycle — one way the loss of a single brake gene seeds the syndrome's kidney cancers.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — VHL's clear cell kidney cancers respond to immunotherapy: their HIF-driven biology and immune microenvironment make checkpoint inhibitors that unleash cytotoxic T cells a mainstay for advanced VHL-related renal cell carcinoma.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Two VHL features threaten the brain's circulation: EPO-driven polycythemia thickens the blood toward thrombosis, and CNS hemangioblastomas can bleed, both routes by which the syndrome can cause a stroke.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
