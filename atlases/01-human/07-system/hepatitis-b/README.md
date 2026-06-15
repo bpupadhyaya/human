@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Rarely the infection silences the marrow: hepatitis-associated aplastic anemia, a feared post-hepatitis complication thought to be immune-mediated, empties the bone marrow weeks to months after the acute illness."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "Interferon fights the virus through STAT1: the type-I interferon response signals via JAK-STAT1 to switch on antiviral genes in infected hepatocytes, the pathway harnessed by pegylated interferon, one of the two main HBV treatments."
+  - target: 01-human/07-system/dlbcl
+    relation: connects-to
+    note: "Treating a lymphoma can reawaken HBV: rituximab and chemotherapy for diffuse large B-cell lymphoma strip the immune control of the virus, causing a dangerous reactivation, so HBV screening and antiviral prophylaxis precede such treatment."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Chronic HBV erodes the platelet count: as it scars the liver into cirrhosis, portal hypertension enlarges the spleen and sequesters platelets, while the disease can also trigger an immune thrombocytopenia."
 ---
 
 # Hepatitis B
@@ -337,3 +346,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Mother-to-child spread sustains the epidemic: perinatal transmission is the dominant global route and creates lifelong carriers, so birth-dose vaccine plus hepatitis-B immunoglobulin and maternal antivirals are given to break the chain; it also spreads sexually.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Its vasculitis can starve the bowel: hepatitis-B-driven polyarteritis nodosa inflames the mesenteric arteries, causing abdominal angina, GI bleeding, and at worst bowel infarction far from the infected liver.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Rarely the infection silences the marrow: hepatitis-associated aplastic anemia, a feared post-hepatitis complication thought to be immune-mediated, empties the bone marrow weeks to months after the acute illness.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Interferon fights the virus through STAT1: the type-I interferon response signals via JAK-STAT1 to switch on antiviral genes in infected hepatocytes, the pathway harnessed by pegylated interferon, one of the two main HBV treatments.
+- `connects-to` → **[Diffuse Large B-Cell Lymphoma](../dlbcl/README.md)** — Treating a lymphoma can reawaken HBV: rituximab and chemotherapy for diffuse large B-cell lymphoma strip the immune control of the virus, causing a dangerous reactivation, so HBV screening and antiviral prophylaxis precede such treatment.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Chronic HBV erodes the platelet count: as it scars the liver into cirrhosis, portal hypertension enlarges the spleen and sequesters platelets, while the disease can also trigger an immune thrombocytopenia.

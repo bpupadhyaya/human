@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pregnancy complicates the choice of blood thinner: heparins are first-line for pregnancy clots because they don't cross the placenta, so HIT forces a switch to alternatives like fondaparinux, balancing maternal thrombosis against fetal safety."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "HIT clots the arteries too: paradoxically, the activated platelets drive arterial as well as venous thrombosis, so myocardial infarction from coronary occlusion is among its feared events, injuring cardiomyocytes in a patient who is also bleeding-prone."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Dialysis is a setup for HIT: hemodialysis patients are repeatedly exposed to heparin in the circuit, so they are among those who develop the PF4 antibodies, forcing a switch to alternative anticoagulants for their dialysis."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "The clots favor diseased arteries: HIT's arterial thromboses — the so-called white clots — tend to form on atherosclerotic plaque, turning a stable vessel into an acute occlusion of a limb, brain or heart."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -351,6 +360,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — HIT clots the muscular arteries too: 'white clot syndrome' lodges platelet-rich thrombi in the limb arteries lined by smooth muscle, causing acute ischemia and the venous limb gangrene that can cost a leg despite full anticoagulation.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Even the retina's vessels can clot: HIT's prothrombotic state has caused retinal artery and vein occlusions with sudden visual loss, one more unexpected site of the paradoxical thrombosis that defines the syndrome.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy complicates the choice of blood thinner: heparins are first-line for pregnancy clots because they don't cross the placenta, so HIT forces a switch to alternatives like fondaparinux, balancing maternal thrombosis against fetal safety.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — HIT clots the arteries too: paradoxically, the activated platelets drive arterial as well as venous thrombosis, so myocardial infarction from coronary occlusion is among its feared events, injuring cardiomyocytes in a patient who is also bleeding-prone.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Dialysis is a setup for HIT: hemodialysis patients are repeatedly exposed to heparin in the circuit, so they are among those who develop the PF4 antibodies, forcing a switch to alternative anticoagulants for their dialysis.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — The clots favor diseased arteries: HIT's arterial thromboses — the so-called white clots — tend to form on atherosclerotic plaque, turning a stable vessel into an acute occlusion of a limb, brain or heart.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
