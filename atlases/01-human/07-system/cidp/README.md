@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/03-molecular/il-6
     relation: connects-to
     note: "Inflammatory cytokines sustain CIDP: IL-6 and its kin help drive the autoimmune attack on myelin, keeping the demyelination smoldering and offering a target for newer immunomodulatory therapies."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows CIDP's repeated injury: round after round of demyelination and repair leaves Schwann cells wrapped in concentric 'onion-bulb' whorls around the axon, the hallmark of a chronic, relapsing nerve attack."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Severe CIDP can reach the breathing muscles: when the demyelination involves the nerves driving the diaphragm, respiratory weakness develops, the rare but dangerous extension that can require ventilatory support."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Some CIDP variants strike the cranial nerves: involvement of the nerves controlling eye movement causes double vision and drooping, broadening the disease beyond the limbs in its atypical forms."
 ---
 
 # CIDP
@@ -324,6 +333,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging supports the CIDP diagnosis: MRI photons reveal the thickened, enhancing nerve roots and plexuses, and nerve ultrasound shows the enlarged nerves of this demyelinating disease.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some CIDP is driven from the marrow: a monoclonal plasma-cell clone (an IgM MGUS, often anti-MAG) makes antibodies that attack peripheral myelin, a paraproteinemic neuropathy needing marrow-directed treatment.
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammatory cytokines sustain CIDP: IL-6 and its kin help drive the autoimmune attack on myelin, keeping the demyelination smoldering and offering a target for newer immunomodulatory therapies.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CIDP's repeated injury: round after round of demyelination and repair leaves Schwann cells wrapped in concentric 'onion-bulb' whorls around the axon, the hallmark of a chronic, relapsing nerve attack.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Severe CIDP can reach the breathing muscles: when the demyelination involves the nerves driving the diaphragm, respiratory weakness develops, the rare but dangerous extension that can require ventilatory support.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Some CIDP variants strike the cranial nerves: involvement of the nerves controlling eye movement causes double vision and drooping, broadening the disease beyond the limbs in its atypical forms.
 
 ---
 

@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Chordoma builds its own vasculature: VEGF recruits endothelial cells to feed the tumor, and anti-angiogenic drugs are among the systemic options for this radiation- and surgery-dependent cancer."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy names the chordoma cell: the physaliphorous ('bubble-bearing') cell, its cytoplasm ballooning with glycogen and mucin-filled vacuoles, betrays the tumor's origin in leftover notochord tissue."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Chordoma is born in bone: it grows from notochord remnants in the marrow-bearing vertebrae of the sacrum and skull base, destroying the bone it arises in and occasionally seeding distant skeletal metastases."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "A skull-base chordoma blurs and crosses the vision: growing at the clivus it compresses the cranial nerves that move the eyes, causing double vision and gaze palsies that often first bring the patient in."
 ---
 
 # Chordoma
@@ -306,6 +315,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Chordoma grows against the nerves: skull-base and sacral tumors compress cranial nerves and the cauda equina, causing the neuropathic pain, weakness and bowel-bladder dysfunction that often first signal it.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Chordoma metastasizes late: though slow-growing and locally destructive, it can seed the lungs, liver and bone over years, especially after repeated local recurrences.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Chordoma builds its own vasculature: VEGF recruits endothelial cells to feed the tumor, and anti-angiogenic drugs are among the systemic options for this radiation- and surgery-dependent cancer.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy names the chordoma cell: the physaliphorous ('bubble-bearing') cell, its cytoplasm ballooning with glycogen and mucin-filled vacuoles, betrays the tumor's origin in leftover notochord tissue.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Chordoma is born in bone: it grows from notochord remnants in the marrow-bearing vertebrae of the sacrum and skull base, destroying the bone it arises in and occasionally seeding distant skeletal metastases.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — A skull-base chordoma blurs and crosses the vision: growing at the clivus it compresses the cranial nerves that move the eyes, causing double vision and gaze palsies that often first bring the patient in.
 
 ---
 
