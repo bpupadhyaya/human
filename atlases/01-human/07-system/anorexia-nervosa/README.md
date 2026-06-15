@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "The starved marrow turns to jelly: in severe anorexia the bone marrow undergoes gelatinous (serous) transformation, dropping red cells into anemia along with the other blood lines."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The same marrow failure thins the defenses: gelatinous transformation drops neutrophils into a leukopenia, leaving severely malnourished patients prone to infection — a quiet danger amid the cardiac and electrolyte risks."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "Starvation writes itself on the skin: fine downy lanugo hair grows to conserve heat, while dry skin, hair loss, brittle nails, and an orange carotenoderma of the palms are the visible marks of the deprivation."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Refeeding can inflame the pancreas: reintroducing food to a starved body occasionally triggers acute pancreatitis, one of the hazards of the carefully paced refeeding that also risks the electrolyte crash of refeeding syndrome."
 ---
 
 # Anorexia Nervosa
@@ -344,6 +353,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Starvation slows the stomach: chronic undereating causes gastroparesis with early fullness and bloating, and during refeeding the weak, dilated stomach risks a dangerous acute gastric dilatation.
 - `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Anorexia rewires the growth axis into resistance: growth hormone runs high but the starved liver makes little IGF-1, so the anabolic signal fails — sapping bone and, in adolescents, stalling growth.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The starved marrow turns to jelly: in severe anorexia the bone marrow undergoes gelatinous (serous) transformation, dropping red cells into anemia along with the other blood lines.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The same marrow failure thins the defenses: gelatinous transformation drops neutrophils into a leukopenia, leaving severely malnourished patients prone to infection — a quiet danger amid the cardiac and electrolyte risks.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Starvation writes itself on the skin: fine downy lanugo hair grows to conserve heat, while dry skin, hair loss, brittle nails, and an orange carotenoderma of the palms are the visible marks of the deprivation.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Refeeding can inflame the pancreas: reintroducing food to a starved body occasionally triggers acute pancreatitis, one of the hazards of the carefully paced refeeding that also risks the electrolyte crash of refeeding syndrome.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
