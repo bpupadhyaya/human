@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "HCC plays both ways with platelets: it can drive a paraneoplastic thrombocytosis via thrombopoietin, yet the underlying cirrhosis often leaves platelets low — and tumor invasion of the portal vein seeds dangerous clots."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "HCC arises on a failing liver that poisons the brain: as cirrhosis and tumor crowd out function, ammonia builds up to cloud neurons into hepatic encephalopathy — confusion, asterixis, and at worst coma."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "HCC can thicken the blood paradoxically: despite arising in a failing liver, it sometimes secretes erythropoietin ectopically, driving a paraneoplastic erythrocytosis of excess red cells."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HCC can spike the blood calcium: a paraneoplastic hypercalcemia from tumor-secreted PTHrP appears in some patients, causing confusion, constipation, and thirst independent of any bone metastasis."
 ---
 
 # Hepatocellular Carcinoma
@@ -317,6 +326,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper overload can end in liver cancer: untreated Wilson disease loads the liver with copper until it cirrhoses, and the chronic injury and scarring raise the long-term risk of hepatocellular carcinoma.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — HCC plays both ways with platelets: it can drive a paraneoplastic thrombocytosis via thrombopoietin, yet the underlying cirrhosis often leaves platelets low — and tumor invasion of the portal vein seeds dangerous clots.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — HCC commonly spreads to the adrenal glands: after the lungs, the adrenals are among its favored metastatic sites, so imaging of these glands is part of staging advanced liver cancer.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — HCC arises on a failing liver that poisons the brain: as cirrhosis and tumor crowd out function, ammonia builds up to cloud neurons into hepatic encephalopathy — confusion, asterixis, and at worst coma.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — HCC can thicken the blood paradoxically: despite arising in a failing liver, it sometimes secretes erythropoietin ectopically, driving a paraneoplastic erythrocytosis of excess red cells.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HCC can spike the blood calcium: a paraneoplastic hypercalcemia from tumor-secreted PTHrP appears in some patients, causing confusion, constipation, and thirst independent of any bone metastasis.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

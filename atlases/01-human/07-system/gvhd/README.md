@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Chronic GVHD can reach the kidney: it is an unusual cause of membranous nephropathy and nephrotic syndrome, the misdirected immune attack depositing in the glomerulus long after the transplant."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Chronic GVHD recruits the donor's B cells: alloantibodies and autoantibodies contribute to its sclerosis, which is why the B-cell-depleting antibody rituximab — and antithymocyte globulin in prophylaxis — are part of its management."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Chronic GVHD stiffens the body's framework: a scleroderma-like fasciitis and joint contractures bind down the limbs, limiting movement as the donor immune cells lay down fibrosis in fascia and muscle."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Chronic GVHD scars the genital tract: vaginal and penile mucosal inflammation, dryness, and stenosis are underrecognized but common, the same lichenoid and sclerotic attack that hits skin and mouth."
 ---
 
 # Graft-Versus-Host Disease
@@ -325,6 +334,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows GVHD killing cell by cell: donor T cells trigger apoptosis of individual keratinocytes in the skin and crypt cells in the gut, the scattered single-cell death — satellite cell necrosis — that is the disease's histologic signature.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — GVHD strikes the upper gut too: beyond the diarrhea of intestinal involvement, gastric GVHD brings nausea, vomiting, early satiety, and anorexia, diagnosed by biopsy of the stomach lining.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Chronic GVHD can reach the kidney: it is an unusual cause of membranous nephropathy and nephrotic syndrome, the misdirected immune attack depositing in the glomerulus long after the transplant.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Chronic GVHD recruits the donor's B cells: alloantibodies and autoantibodies contribute to its sclerosis, which is why the B-cell-depleting antibody rituximab — and antithymocyte globulin in prophylaxis — are part of its management.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Chronic GVHD stiffens the body's framework: a scleroderma-like fasciitis and joint contractures bind down the limbs, limiting movement as the donor immune cells lay down fibrosis in fascia and muscle.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Chronic GVHD scars the genital tract: vaginal and penile mucosal inflammation, dryness, and stenosis are underrecognized but common, the same lichenoid and sclerotic attack that hits skin and mouth.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
