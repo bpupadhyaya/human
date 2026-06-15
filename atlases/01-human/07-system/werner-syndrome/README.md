@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Werner's genomic instability reaches the blood-forming marrow: failing DNA repair raises the risk of myelodysplastic syndrome and myeloid leukemias, part of the syndrome's broad, early predisposition to cancer."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons reveal Werner's premature aging: slit-lamp light catches the early bilateral cataracts, and imaging shows the soft-tissue and vascular calcifications — including the classic Achilles tendon deposits — that mark this adult progeria."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Werner shifts the cancer spectrum toward the gut and beyond: alongside its trademark rare mesenchymal tumors, it raises colorectal cancer risk, so the large intestine joins the broad early-onset malignancy that shadows the syndrome."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Werner's metabolic derangement burdens the liver: the severe insulin resistance and diabetes that come with its accelerated aging drive fatty liver disease, part of the early metabolic syndrome that defines the disorder."
 ---
 
 # Werner Syndrome
@@ -322,6 +331,9 @@ cross_links:
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Werner syndrome ages the vessel lining: senescent, repair-deficient endothelial cells lose their protective function, driving the premature atherosclerosis and arteriosclerosis that make heart attack a leading cause of death.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Diabetes is a hallmark of Werner syndrome: tied to its lipodystrophy and accelerated aging, the pancreas faces severe insulin resistance, so glucose intolerance and diabetes mellitus appear early in affected patients.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Werner's genomic instability reaches the blood-forming marrow: failing DNA repair raises the risk of myelodysplastic syndrome and myeloid leukemias, part of the syndrome's broad, early predisposition to cancer.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons reveal Werner's premature aging: slit-lamp light catches the early bilateral cataracts, and imaging shows the soft-tissue and vascular calcifications — including the classic Achilles tendon deposits — that mark this adult progeria.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Werner shifts the cancer spectrum toward the gut and beyond: alongside its trademark rare mesenchymal tumors, it raises colorectal cancer risk, so the large intestine joins the broad early-onset malignancy that shadows the syndrome.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Werner's metabolic derangement burdens the liver: the severe insulin resistance and diabetes that come with its accelerated aging drive fatty liver disease, part of the early metabolic syndrome that defines the disorder.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

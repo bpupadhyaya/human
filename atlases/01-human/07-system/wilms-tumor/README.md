@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/mycn
     relation: connects-to
     note: "MYCN gain marks the dangerous end of Wilms tumor: amplification or extra copies of this oncogene cluster with anaplastic histology and worse outcomes, helping flag the high-risk tumors that need intensified treatment."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows Wilms tumor rebuilding a kidney gone wrong: its triphasic mix of primitive blastema, gland-like epithelial tubules, and stromal cells recapitulates fetal nephron development frozen in malignant form."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "A Wilms mimic heads for the bone: clear cell sarcoma of the kidney, long called the 'bone-metastasizing renal tumor of childhood,' seeds the skeleton and its marrow — spread that classic Wilms tumor, favoring lung and liver, rarely shows."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Some childhood kidney tumors reach the brain: the rhabdoid and clear cell sarcoma variants in the Wilms differential can metastasize to the central nervous system, a site that demands brain imaging when these aggressive types are found."
 ---
 
 # Wilms Tumor
@@ -288,6 +297,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Wilms tumor can grow inside the bloodstream: it famously sends a tumor thrombus up the renal vein and inferior vena cava, sometimes reaching the right atrium of the heart, a finding that reshapes the surgical plan.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The fast-growing Wilms tumor must build its own blood supply: VEGF recruits endothelial cells to sprout new vessels, feeding the embryonal mass and opening the route for its spread to the lungs.
 - `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYCN gain marks the dangerous end of Wilms tumor: amplification or extra copies of this oncogene cluster with anaplastic histology and worse outcomes, helping flag the high-risk tumors that need intensified treatment.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows Wilms tumor rebuilding a kidney gone wrong: its triphasic mix of primitive blastema, gland-like epithelial tubules, and stromal cells recapitulates fetal nephron development frozen in malignant form.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — A Wilms mimic heads for the bone: clear cell sarcoma of the kidney, long called the 'bone-metastasizing renal tumor of childhood,' seeds the skeleton and its marrow — spread that classic Wilms tumor, favoring lung and liver, rarely shows.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Some childhood kidney tumors reach the brain: the rhabdoid and clear cell sarcoma variants in the Wilms differential can metastasize to the central nervous system, a site that demands brain imaging when these aggressive types are found.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
