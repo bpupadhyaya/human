@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/03-molecular/antibody
     relation: connects-to
     note: "Visceral leishmaniasis floods the blood with antibody: relentless B-cell stimulation produces a striking polyclonal hypergammaglobulinemia, and the anti-rK39 antibody test has become a rapid bedside diagnosis for kala-azar."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "The parasite turns complement into a Trojan horse: C3b coats the promastigote and, instead of killing it, ushers it through complement receptors into the macrophage where it safely multiplies — an elegant subversion of innate immunity."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Healing and destruction both scar: cutaneous lesions resolve through fibroblast-laid collagen into disfiguring marks, while mucocutaneous disease erodes the soft tissue and cartilage of the nose and mouth into devastating deformity."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "In the immunocompromised the gut joins in: HIV-associated visceral leishmaniasis can colonize the small-bowel mucosa, the amastigote-laden macrophages causing diarrhea and malabsorption as the parasite spreads beyond its usual organs."
 ---
 
 # Leishmaniasis
@@ -289,3 +298,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The cure can stress the heart: the pentavalent antimonials long used against leishmaniasis prolong the QT interval and risk arrhythmia, so ECGs are watched during treatment of this otherwise-fatal infection.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Antileishmanial drugs can inflame the pancreas: antimonials and pentamidine both cause chemical pancreatitis, and pentamidine can damage the islet cells enough to trigger hypoglycemia then diabetes.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Visceral leishmaniasis floods the blood with antibody: relentless B-cell stimulation produces a striking polyclonal hypergammaglobulinemia, and the anti-rK39 antibody test has become a rapid bedside diagnosis for kala-azar.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The parasite turns complement into a Trojan horse: C3b coats the promastigote and, instead of killing it, ushers it through complement receptors into the macrophage where it safely multiplies — an elegant subversion of innate immunity.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Healing and destruction both scar: cutaneous lesions resolve through fibroblast-laid collagen into disfiguring marks, while mucocutaneous disease erodes the soft tissue and cartilage of the nose and mouth into devastating deformity.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — In the immunocompromised the gut joins in: HIV-associated visceral leishmaniasis can colonize the small-bowel mucosa, the amastigote-laden macrophages causing diarrhea and malabsorption as the parasite spreads beyond its usual organs.

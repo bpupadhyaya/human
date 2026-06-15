@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "A gaming-centered diet can thin the blood: chronically skipped meals and poor nutrition leave too little iron and vitamins for the marrow, tipping heavy players toward a nutritional anemia of low red cells and fatigue."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "A marathon session can endanger the kidney: case reports describe rhabdomyolysis and dehydration from days of nonstop play flooding the blood with myoglobin and triggering acute kidney injury, the rare extreme of the disorder's immobility."
+  - target: 01-human/03-molecular/endocannabinoid
+    relation: connects-to
+    note: "Gaming hijacks the brain's reward chemistry: alongside dopamine, the endocannabinoid system tunes the craving and reinforcement circuits, the same machinery of motivation and pleasure that substance addictions exploit."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Compulsive play crowds out intimacy: heavy gaming is linked to lower libido, neglected relationships, and, in adolescents, disrupted psychosocial and sexual development as virtual rewards displace real-world connection."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -344,6 +353,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Repetitive play wears the hands and spine: hours of controller and keyboard use cause overuse injuries — 'gamer's thumb' tendinopathy, carpal tunnel, and the neck and back strain of a hunched, immobile posture.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Gaming reshapes how and what one eats: meals are skipped or replaced by snacks and caffeinated energy drinks, so dyspepsia, gastritis, and irregular eating travel with the disorder and feed its links to obesity.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — A gaming-centered diet can thin the blood: chronically skipped meals and poor nutrition leave too little iron and vitamins for the marrow, tipping heavy players toward a nutritional anemia of low red cells and fatigue.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A marathon session can endanger the kidney: case reports describe rhabdomyolysis and dehydration from days of nonstop play flooding the blood with myoglobin and triggering acute kidney injury, the rare extreme of the disorder's immobility.
+- `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — Gaming hijacks the brain's reward chemistry: alongside dopamine, the endocannabinoid system tunes the craving and reinforcement circuits, the same machinery of motivation and pleasure that substance addictions exploit.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Compulsive play crowds out intimacy: heavy gaming is linked to lower libido, neglected relationships, and, in adolescents, disrupted psychosocial and sexual development as virtual rewards displace real-world connection.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
