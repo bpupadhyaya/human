@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The skin mirrors the thinning bone: both are built on type I collagen, so its age- and steroid-driven loss shows as fragile, thin skin that tracks with low bone density — the skin a visible clue to the silent skeleton."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies are now bone drugs: denosumab is a monoclonal antibody against RANKL that halts osteoclasts, and romosozumab blocks sclerostin to build bone — biologics that join the bisphosphonates against fracture."
+  - target: 01-human/07-system/anorexia-nervosa
+    relation: connects-to
+    note: "Starvation devastates the young skeleton: anorexia nervosa's low weight, amenorrhea-driven estrogen loss, high cortisol, and low IGF-1 cause severe early osteoporosis that often does not fully recover even after weight is regained."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Excess cortisol crumbles bone: Cushing's syndrome and the adrenal-mimicking steroid drugs suppress osteoblasts and calcium absorption, making glucocorticoid-induced osteoporosis one of the commonest secondary causes."
 ---
 
 # Osteoporosis
@@ -307,6 +316,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Osteoporosis is silent until the bone breaks: vertebral compression fractures crush forward into kyphosis and height loss, and can pinch the spinal nerves, while a hip fracture's pain and immobility cascade into decline.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Bone and artery trade calcium in a paradox: as the skeleton demineralizes, the same calcium hardens blood-vessel walls, and shared regulators like RANKL/OPG tie low bone density to a higher burden of vascular calcification.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin mirrors the thinning bone: both are built on type I collagen, so its age- and steroid-driven loss shows as fragile, thin skin that tracks with low bone density — the skin a visible clue to the silent skeleton.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies are now bone drugs: denosumab is a monoclonal antibody against RANKL that halts osteoclasts, and romosozumab blocks sclerostin to build bone — biologics that join the bisphosphonates against fracture.
+- `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Starvation devastates the young skeleton: anorexia nervosa's low weight, amenorrhea-driven estrogen loss, high cortisol, and low IGF-1 cause severe early osteoporosis that often does not fully recover even after weight is regained.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Excess cortisol crumbles bone: Cushing's syndrome and the adrenal-mimicking steroid drugs suppress osteoblasts and calcium absorption, making glucocorticoid-induced osteoporosis one of the commonest secondary causes.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

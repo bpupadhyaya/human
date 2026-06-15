@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Opioids stall the gut from the top: they trigger nausea and vomiting through the brainstem and slow gastric emptying, the upper-GI counterpart to the relentless constipation they cause lower down."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Dependence reaches the next generation: opioid use in pregnancy causes neonatal abstinence syndrome — a withdrawing newborn — and chronic use disrupts menstruation and fertility, making reproductive care part of treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "A vaccine is being built against the high: anti-opioid vaccines raise antibodies that bind fentanyl or heroin in the blood before they reach the brain, an experimental approach to blunt overdose and relapse."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Opioids reshape the gut's flora: by slowing transit and acting on gut opioid receptors they foster dysbiosis and a leaky barrier, and the altered microbiome may in turn influence tolerance and withdrawal."
 ---
 
 # Opioid Use Disorder
@@ -358,6 +367,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The pupils give opioids away: by acting on the brainstem, they constrict the pupils to pinpoint miosis — a hallmark sign of intoxication and overdose that reverses dramatically when naloxone is given.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Chronic opioids switch off the sex hormones: they suppress the hypothalamic-pituitary-gonadal axis, dropping testosterone into an opioid-induced hypogonadism with low libido, fatigue, infertility, and bone loss.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Opioids stall the gut from the top: they trigger nausea and vomiting through the brainstem and slow gastric emptying, the upper-GI counterpart to the relentless constipation they cause lower down.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Dependence reaches the next generation: opioid use in pregnancy causes neonatal abstinence syndrome — a withdrawing newborn — and chronic use disrupts menstruation and fertility, making reproductive care part of treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — A vaccine is being built against the high: anti-opioid vaccines raise antibodies that bind fentanyl or heroin in the blood before they reach the brain, an experimental approach to blunt overdose and relapse.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Opioids reshape the gut's flora: by slowing transit and acting on gut opioid receptors they foster dysbiosis and a leaky barrier, and the altered microbiome may in turn influence tolerance and withdrawal.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
