@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/03-molecular/antibody
     relation: connects-to
     note: "Treatment may one day come as antibody, and mimics must be excluded: anti-α-synuclein antibodies are being trialed to clear the aggregates, while autoimmune (antibody-mediated) encephalitis is a treatable mimic ruled out in rapidly progressive cases."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The heart helps make the diagnosis: Lewy body disease degenerates the cardiac sympathetic nerves supplying the cardiomyocytes, so reduced MIBG uptake on a cardiac scan is a distinctive marker separating it from Alzheimer's."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The gut shows it early: Lewy pathology in the enteric nerves slows the stomach into gastroparesis and early satiety years before dementia, and α-synuclein found on gut biopsy may become an early clue."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The disease may begin in the gut: under the gut-first hypothesis, misfolded α-synuclein arises in the enteric nervous system and climbs the vagus to the brain, with gut dysbiosis a suspected early player."
 ---
 
 # Lewy Body Dementia
@@ -329,6 +338,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Lewy body disease unsettles sleep and wakefulness: synuclein damage to orexin-related arousal systems brings excessive daytime sleepiness and the dream-enacting REM sleep behavior disorder that often heralds it years early.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Autonomic failure stalls the body's smooth muscle: beyond fainting blood pressure, Lewy body disease slows gut and bladder smooth muscle into constipation and urinary trouble — non-motor features that often precede the dementia.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Treatment may one day come as antibody, and mimics must be excluded: anti-α-synuclein antibodies are being trialed to clear the aggregates, while autoimmune (antibody-mediated) encephalitis is a treatable mimic ruled out in rapidly progressive cases.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart helps make the diagnosis: Lewy body disease degenerates the cardiac sympathetic nerves supplying the cardiomyocytes, so reduced MIBG uptake on a cardiac scan is a distinctive marker separating it from Alzheimer's.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut shows it early: Lewy pathology in the enteric nerves slows the stomach into gastroparesis and early satiety years before dementia, and α-synuclein found on gut biopsy may become an early clue.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The disease may begin in the gut: under the gut-first hypothesis, misfolded α-synuclein arises in the enteric nervous system and climbs the vagus to the brain, with gut dysbiosis a suspected early player.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
