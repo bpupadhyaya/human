@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Aspiration pneumonia is the common end of Lewy body dementia: as swallowing fails late in the disease, inhaled food infects the lungs, the frequent immediate cause of death."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the disease's namesake: Lewy bodies, dense spherical cores of aggregated alpha-synuclein filaments, fill neurons across the cortex — the same protein clumps as Parkinson's, but spread widely enough to steal cognition."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium handling fails in the dying neurons: misfolded alpha-synuclein disrupts the cell's calcium balance and the mitochondria that buffer it, an energy-and-calcium crisis that helps drive the widespread neuronal death."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Lewy body disease wrecks the autonomic system: synuclein deposits damage the sympathetic nerves that command the adrenal-driven blood-pressure response, so fainting orthostatic hypotension is a prominent, early feature."
 ---
 
 # Lewy Body Dementia
@@ -305,6 +314,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging helps pin down Lewy body dementia: a DaTscan's photons show the dopamine loss, and cardiac MIBG scintigraphy reveals the sympathetic denervation that helps separate it from Alzheimer's.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Lewy body dementia attacks the autonomic nerves: synuclein in the peripheral autonomic system causes orthostatic hypotension, constipation and bladder trouble, often years before the dementia appears.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Aspiration pneumonia is the common end of Lewy body dementia: as swallowing fails late in the disease, inhaled food infects the lungs, the frequent immediate cause of death.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the disease's namesake: Lewy bodies, dense spherical cores of aggregated alpha-synuclein filaments, fill neurons across the cortex — the same protein clumps as Parkinson's, but spread widely enough to steal cognition.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium handling fails in the dying neurons: misfolded alpha-synuclein disrupts the cell's calcium balance and the mitochondria that buffer it, an energy-and-calcium crisis that helps drive the widespread neuronal death.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Lewy body disease wrecks the autonomic system: synuclein deposits damage the sympathetic nerves that command the adrenal-driven blood-pressure response, so fainting orthostatic hypotension is a prominent, early feature.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

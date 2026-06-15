@@ -137,6 +137,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Measles can inflame the heart: myocarditis and pericarditis are uncommon complications, adding cardiac strain to the systemic toll of a severe infection."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows measles fusing cells: the paramyxovirus drives infected cells to merge into Warthin-Finkeldey giant cells stuffed with nucleocapsids, the multinucleated hallmark seen in infected lymphoid tissue."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Diarrhea is measles' great killer: the virus strips the gut lining, and the resulting severe diarrhea and dehydration — worsened by malnutrition — are a leading cause of measles death in young children."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Measles erases immune memory: it infects and depletes the memory lymphocytes built up over a lifetime, an 'immune amnesia' that leaves children vulnerable to other infections they were once protected against for years afterward."
 ---
 
 # Measles
@@ -321,6 +330,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Measles pneumonia and its rare brain disease show on imaging: chest X-ray photons reveal the giant-cell pneumonia, and MRI maps the white-matter damage of subacute sclerosing panencephalitis.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Measles damages the alveoli: the virus forms giant cells in the air sacs (Hecht's giant-cell pneumonia), the lung injury that is a leading cause of measles death in young children.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Measles can inflame the heart: myocarditis and pericarditis are uncommon complications, adding cardiac strain to the systemic toll of a severe infection.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows measles fusing cells: the paramyxovirus drives infected cells to merge into Warthin-Finkeldey giant cells stuffed with nucleocapsids, the multinucleated hallmark seen in infected lymphoid tissue.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Diarrhea is measles' great killer: the virus strips the gut lining, and the resulting severe diarrhea and dehydration — worsened by malnutrition — are a leading cause of measles death in young children.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Measles erases immune memory: it infects and depletes the memory lymphocytes built up over a lifetime, an 'immune amnesia' that leaves children vulnerable to other infections they were once protected against for years afterward.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
