@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Carney complex tumors disrupt sex hormones: large-cell calcifying Sertoli cell tumors of the testis aromatize androgens to estrogen, causing gynecomastia and precocious puberty in affected boys."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads Carney complex's signature tumors: the cardiac myxoma's stellate cells floating in myxoid matrix, and the melanin-laden cells of its blue nevi and spotty lentigines, ties the syndrome's varied growths together."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The heart tumors throw deadly debris: Carney complex's cardiac myxomas shed fragments and clots that embolize, lodging in the lungs as well as the brain, a danger that drives close cardiac surveillance."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Carney complex grows a rare bone tumor: osteochondromyxoma, a benign mass of bone and cartilage usually of the nose or limbs, is one of the syndrome's defining lesions, arising from the skeleton's marrow-bearing bones."
 ---
 
 # Carney Complex
@@ -293,6 +302,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Carney complex is watched by imaging: echocardiography and cardiac MRI track the recurrent heart myxomas that are its deadliest feature, while CT and MRI screen the endocrine glands for tumors.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Carney complex includes a rare bone tumor: osteochondromyxoma, arising from bone-building osteoblasts in young children, adds the skeleton to its catalog of myxomas and endocrine growths.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Carney complex tumors disrupt sex hormones: large-cell calcifying Sertoli cell tumors of the testis aromatize androgens to estrogen, causing gynecomastia and precocious puberty in affected boys.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads Carney complex's signature tumors: the cardiac myxoma's stellate cells floating in myxoid matrix, and the melanin-laden cells of its blue nevi and spotty lentigines, ties the syndrome's varied growths together.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The heart tumors throw deadly debris: Carney complex's cardiac myxomas shed fragments and clots that embolize, lodging in the lungs as well as the brain, a danger that drives close cardiac surveillance.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Carney complex grows a rare bone tumor: osteochondromyxoma, a benign mass of bone and cartilage usually of the nose or limbs, is one of the syndrome's defining lesions, arising from the skeleton's marrow-bearing bones.
 
 ---
 

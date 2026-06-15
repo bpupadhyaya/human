@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "MYC floors the cell cycle in Burkitt: it drives cyclin D and CDK4/6 to push cells relentlessly from rest into division, powering the roughly one-day doubling time of this fastest-growing tumor."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows Burkitt's 'starry sky': sheets of blasts with lipid-vacuoled cytoplasm are dotted with tingible-body macrophages clearing the debris of cells dying as fast as the tumor divides."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Sporadic Burkitt erupts in the abdomen: it forms bulky masses in the stomach, ileocecum, and surrounding organs, the GI presentation that distinguishes it from the jaw tumors of the endemic African form."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Abdominal Burkitt seeds the retroperitoneum: its explosive growth fills the abdomen and can involve the adrenals, kidneys, and ovaries, masses that swell almost visibly day by day."
 ---
 
 # Burkitt Lymphoma
@@ -306,6 +315,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Burkitt's massive tumor lysis crashes calcium: the flood of phosphate from dying cells binds calcium and drops it, risking tetany and arrhythmia alongside the high potassium of the emergency.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Endemic Burkitt classically swells the jaw and orbit: rapidly growing facial and eye-socket masses are the hallmark presentation in the African malaria belt where the EBV-driven form arises.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — MYC floors the cell cycle in Burkitt: it drives cyclin D and CDK4/6 to push cells relentlessly from rest into division, powering the roughly one-day doubling time of this fastest-growing tumor.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows Burkitt's 'starry sky': sheets of blasts with lipid-vacuoled cytoplasm are dotted with tingible-body macrophages clearing the debris of cells dying as fast as the tumor divides.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Sporadic Burkitt erupts in the abdomen: it forms bulky masses in the stomach, ileocecum, and surrounding organs, the GI presentation that distinguishes it from the jaw tumors of the endemic African form.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Abdominal Burkitt seeds the retroperitoneum: its explosive growth fills the abdomen and can involve the adrenals, kidneys, and ovaries, masses that swell almost visibly day by day.
 
 ---
 
