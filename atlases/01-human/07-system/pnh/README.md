@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The same nitric-oxide depletion cramps the gut: smooth-muscle dystonia of the esophagus and stomach causes the painful swallowing, abdominal pain, and spasm that flare with each bout of hemolysis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody transformed PNH: eculizumab and ravulizumab, monoclonal antibodies against complement C5, halt the intravascular hemolysis and thrombosis, while flow cytometry using antibodies to the missing GPI-anchored proteins (CD55, CD59) makes the diagnosis."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "PNH is a top cause of Budd-Chiari: its prothrombotic blood clots the hepatic veins, backing blood up into the liver and congesting and killing hepatocytes, so an unexplained hepatic-vein thrombosis should prompt a PNH test."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Clots can surface in the skin: PNH's thrombophilia reaches unusual sites including the dermal and cerebral veins, and painful skin lesions or necrosis from cutaneous vein thrombosis can be an early, visible warning of the disease."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -279,6 +288,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PNH clots in dangerous places: it is a leading cause of cerebral venous sinus thrombosis, where backed-up pressure and infarction injure neurons, making an unexplained CVST a reason to test for the disease.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Free hemoglobin steals the molecule of erection: by scavenging nitric oxide, PNH's intravascular hemolysis robs the penile vasculature of the relaxant it needs, so erectile dysfunction is a common and telling symptom.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The same nitric-oxide depletion cramps the gut: smooth-muscle dystonia of the esophagus and stomach causes the painful swallowing, abdominal pain, and spasm that flare with each bout of hemolysis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody transformed PNH: eculizumab and ravulizumab, monoclonal antibodies against complement C5, halt the intravascular hemolysis and thrombosis, while flow cytometry using antibodies to the missing GPI-anchored proteins (CD55, CD59) makes the diagnosis.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — PNH is a top cause of Budd-Chiari: its prothrombotic blood clots the hepatic veins, backing blood up into the liver and congesting and killing hepatocytes, so an unexplained hepatic-vein thrombosis should prompt a PNH test.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Clots can surface in the skin: PNH's thrombophilia reaches unusual sites including the dermal and cerebral veins, and painful skin lesions or necrosis from cutaneous vein thrombosis can be an early, visible warning of the disease.
 
 ---
 
