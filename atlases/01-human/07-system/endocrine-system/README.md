@@ -131,6 +131,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "The endocrine system guards sodium: aldosterone from the adrenal cortex tells the kidney to retain salt and water, the hormonal control of blood volume and pressure."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals what makes a cell endocrine: its cytoplasm is packed with dense-core secretory granules, membrane-bound stores of hormone poised for release — the universal signature of the glands that signal through the blood."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The heart is a gland in its own right: stretched by a full circulation, it secretes natriuretic peptides that order the kidney to dump salt and water, making the heart an endocrine organ that regulates blood volume."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Hormones tune phosphate as well as calcium: parathyroid hormone, vitamin D, and bone-derived FGF23 form a feedback loop that balances phosphorus, the endocrine control of the mineral that builds bone and powers ATP."
 ---
 
 # Endocrine System
@@ -329,6 +338,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — The hippocampus reins in the hormonal stress axis: dense in cortisol receptors, it provides the negative feedback that switches off the HPA axis, so chronic stress that damages it lets cortisol run high.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The endocrine system begins in neurons: hypothalamic neurosecretory cells release hormones that command the pituitary, and the adrenal medulla is itself made of modified neurons, blurring nerve and gland.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The endocrine system guards sodium: aldosterone from the adrenal cortex tells the kidney to retain salt and water, the hormonal control of blood volume and pressure.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals what makes a cell endocrine: its cytoplasm is packed with dense-core secretory granules, membrane-bound stores of hormone poised for release — the universal signature of the glands that signal through the blood.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a gland in its own right: stretched by a full circulation, it secretes natriuretic peptides that order the kidney to dump salt and water, making the heart an endocrine organ that regulates blood volume.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Hormones tune phosphate as well as calcium: parathyroid hormone, vitamin D, and bone-derived FGF23 form a feedback loop that balances phosphorus, the endocrine control of the mineral that builds bone and powers ATP.
 
 ## Pathology
 

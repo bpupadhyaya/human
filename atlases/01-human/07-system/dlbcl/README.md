@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "DLBCL can invade the nerves: neurolymphomatosis, infiltration of peripheral nerves and roots, causes painful neuropathy, a rare and aggressive pattern of spread."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows DLBCL's namesake cell: a large lymphoid blast with abundant cytoplasm, dispersed chromatin, and prominent nucleoli — the big, fast-dividing B cell that gives diffuse large B-cell lymphoma its name."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "DLBCL can both infiltrate and overwhelm the kidney: lymphoma deposits enlarge it directly, and as chemotherapy bursts the bulky tumor in tumor lysis syndrome, urate and phosphate crystals clog the tubules into acute failure."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Treating DLBCL swings the calcium: tumor lysis releases a flood of phosphate that binds calcium, dropping it sharply, a metabolic emergency watched for as the rapidly dividing lymphoma dies under therapy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -293,6 +302,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — DLBCL's bulky tumor lyses fast on treatment: dying cells spill phosphate and potassium in tumor lysis syndrome, a metabolic emergency at the start of chemotherapy that needs prevention.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — DLBCL has a skin form: primary cutaneous DLBCL, leg type, appears as firm red-brown nodules, and systemic lymphoma can also infiltrate the skin.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — DLBCL can invade the nerves: neurolymphomatosis, infiltration of peripheral nerves and roots, causes painful neuropathy, a rare and aggressive pattern of spread.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows DLBCL's namesake cell: a large lymphoid blast with abundant cytoplasm, dispersed chromatin, and prominent nucleoli — the big, fast-dividing B cell that gives diffuse large B-cell lymphoma its name.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — DLBCL can both infiltrate and overwhelm the kidney: lymphoma deposits enlarge it directly, and as chemotherapy bursts the bulky tumor in tumor lysis syndrome, urate and phosphate crystals clog the tubules into acute failure.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Treating DLBCL swings the calcium: tumor lysis releases a flood of phosphate that binds calcium, dropping it sharply, a metabolic emergency watched for as the rapidly dividing lymphoma dies under therapy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
