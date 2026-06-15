@@ -152,6 +152,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Dermal macrophages are the skin's clean-up and defense corps: they engulf invaders and debris breaching the barrier, orchestrate wound repair, and even carry the tattoo pigment that stays locked in the dermis for life."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The skin is the body's largest sensory sheet: specialized nerve endings and Merkel-cell complexes wire it for touch, pressure, temperature, and pain, so neurons turn the integument into a vast field of receptors reporting the outside world."
+  - target: 01-human/07-system/systemic-lupus-erythematosus
+    relation: connects-to
+    note: "The skin is a frontline organ in lupus: photosensitive malar and discoid rashes mark cutaneous SLE, where UV light and autoantibodies drive immune attack at the dermal-epidermal junction, often the disease's first visible sign."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "The skin barrier holds back fungal overgrowth: when warmth, moisture, or immune suppression breach it, Candida colonizes skin folds, nails, and mucocutaneous surfaces, turning a commensal into intertrigo, paronychia, and thrush."
 ---
 
 # Integumentary System
@@ -302,6 +311,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Cortisol thins and weakens the skin: chronic steroid excess, from Cushing's or long treatment, atrophies the dermis into purple striae, easy bruising, and poor wound healing, making the skin a visible readout of glucocorticoid load.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron status writes itself on skin, hair, and nails: deficiency brings pallor, hair loss, and spoon-shaped koilonychia, while iron overload in hemochromatosis bronzes the skin — the integument reporting the body's iron stores.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Dermal macrophages are the skin's clean-up and defense corps: they engulf invaders and debris breaching the barrier, orchestrate wound repair, and even carry the tattoo pigment that stays locked in the dermis for life.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The skin is the body's largest sensory sheet: specialized nerve endings and Merkel-cell complexes wire it for touch, pressure, temperature, and pain, so neurons turn the integument into a vast field of receptors reporting the outside world.
+- `connects-to` → **[Systemic Lupus Erythematosus](../systemic-lupus-erythematosus/README.md)** — The skin is a frontline organ in lupus: photosensitive malar and discoid rashes mark cutaneous SLE, where UV light and autoantibodies drive immune attack at the dermal-epidermal junction, often the disease's first visible sign.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — The skin barrier holds back fungal overgrowth: when warmth, moisture, or immune suppression breach it, Candida colonizes skin folds, nails, and mucocutaneous surfaces, turning a commensal into intertrigo, paronychia, and thrush.
 
 ## Pathology
 
