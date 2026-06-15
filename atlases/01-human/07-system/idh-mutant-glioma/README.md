@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Treatment turns on the marrow: temozolomide chemoradiation suppresses neutrophil counts, and a rising neutrophil-to-lymphocyte ratio in the blood tracks the inflammatory, immune-suppressive state that marks more aggressive glioma behavior."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "These gliomas hit young adults in their reproductive years: the alkylating PCV and temozolomide chemotherapy used against them is gonadotoxic, so fertility preservation is discussed before treating a disease whose long survival makes it matter."
+  - target: 01-human/03-molecular/dnmt3a
+    relation: connects-to
+    note: "The mutation rewrites the cell's methylation: 2-hydroxyglutarate from mutant IDH blocks the TET demethylases, tipping the balance toward DNMT-driven DNA methylation and the glioma CpG-island methylator phenotype that defines these tumors."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "The oncometabolite muffles the immune attack: 2-hydroxyglutarate leaks from the tumor and suppresses helper T-cell activation and infiltration, helping IDH-mutant gliomas stay immunologically cold and dampening responses to immunotherapy."
 ---
 
 # IDH-Mutant Glioma
@@ -327,6 +336,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The mutant enzyme is itself a target: IDH1 R132H is so uniform that a specific antibody stains it on biopsy, instantly confirming the diagnosis, and the neoantigen it creates is being chased by IDH-vaccine trials to provoke an antibody and T-cell response.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Long-term seizure control leans on magnesium and other ions: anticonvulsants and the tumor's own ion fluxes disturb electrolyte balance, and magnesium is watched in these patients as both an anti-seizure adjunct and a casualty of supportive care.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Treatment turns on the marrow: temozolomide chemoradiation suppresses neutrophil counts, and a rising neutrophil-to-lymphocyte ratio in the blood tracks the inflammatory, immune-suppressive state that marks more aggressive glioma behavior.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — These gliomas hit young adults in their reproductive years: the alkylating PCV and temozolomide chemotherapy used against them is gonadotoxic, so fertility preservation is discussed before treating a disease whose long survival makes it matter.
+- `connects-to` → **[DNMT3A](../../03-molecular/dnmt3a/README.md)** — The mutation rewrites the cell's methylation: 2-hydroxyglutarate from mutant IDH blocks the TET demethylases, tipping the balance toward DNMT-driven DNA methylation and the glioma CpG-island methylator phenotype that defines these tumors.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — The oncometabolite muffles the immune attack: 2-hydroxyglutarate leaks from the tumor and suppresses helper T-cell activation and infiltration, helping IDH-mutant gliomas stay immunologically cold and dampening responses to immunotherapy.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

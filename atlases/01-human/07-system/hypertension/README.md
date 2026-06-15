@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "The thyroid is a fixable cause: hyperthyroidism raises systolic pressure and the pulse, while hypothyroidism stiffens vessels into a diastolic hypertension, so thyroid function is checked when secondary hypertension is sought."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "High pressure shears the kidney's filter cells: chronic hypertension batters the glomerular podocytes, and as these hard-to-replace cells detach, protein leaks into the urine and nephrosclerosis sets in — a main route by which hypertension drives chronic kidney disease."
+  - target: 01-human/07-system/alzheimers-disease
+    relation: connects-to
+    note: "Midlife hypertension is a leading modifiable risk for dementia: years of high pressure damage small cerebral vessels, starving the brain and adding vascular injury that hastens cognitive decline and Alzheimer's, so blood-pressure control helps protect the aging brain."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Vasopressin nudges pressure up two ways: the pituitary hormone constricts vessels through V1 receptors and makes the kidney retain water through V2, expanding volume — a lesser arm of blood-pressure control beyond the renin-angiotensin system."
 ---
 
 # Hypertension
@@ -286,6 +295,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Blood pressure touches reproduction at both ends: it underlies preeclampsia and pregnancy hypertension that endanger mother and fetus, and chronic hypertension and its drugs are common causes of erectile dysfunction.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A pressure spike can overwhelm the brain: in a hypertensive emergency, autoregulation fails and fluid leaks around neurons into hypertensive encephalopathy and the posterior reversible encephalopathy syndrome (PRES), with headache, confusion, and seizures.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid is a fixable cause: hyperthyroidism raises systolic pressure and the pulse, while hypothyroidism stiffens vessels into a diastolic hypertension, so thyroid function is checked when secondary hypertension is sought.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — High pressure shears the kidney's filter cells: chronic hypertension batters the glomerular podocytes, and as these hard-to-replace cells detach, protein leaks into the urine and nephrosclerosis sets in — a main route by which hypertension drives chronic kidney disease.
+- `connects-to` → **[Alzheimer's Disease](../alzheimers-disease/README.md)** — Midlife hypertension is a leading modifiable risk for dementia: years of high pressure damage small cerebral vessels, starving the brain and adding vascular injury that hastens cognitive decline and Alzheimer's, so blood-pressure control helps protect the aging brain.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin nudges pressure up two ways: the pituitary hormone constricts vessels through V1 receptors and makes the kidney retain water through V2, expanding volume — a lesser arm of blood-pressure control beyond the renin-angiotensin system.
 
 ## Pathology
 
