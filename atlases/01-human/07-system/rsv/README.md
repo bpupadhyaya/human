@@ -138,6 +138,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Severe bronchiolitis unsettles the kidney's salt balance: sick RSV infants often develop SIADH with hyponatremia, while poor feeding and fever bring dehydration that can stress the kidneys."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "RSV is fought largely with antibody: the monoclonals palivizumab and the longer-acting nirsevimab passively protect high-risk infants, and a maternal vaccine now passes protective antibody across the placenta to the newborn."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "In the youngest infants RSV can stop the breath: it triggers central apnea — pauses in breathing driven by immature brainstem respiratory neurons — sometimes the first sign of infection before the wheeze appears."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Bronchiolitis makes feeding a struggle: a baby working hard to breathe cannot coordinate sucking and swallowing, so poor intake and vomiting bring dehydration and the need for nasogastric or IV fluids."
 ---
 
 # RSV
@@ -322,3 +331,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how RSV earns its name: the enveloped, filamentous virions fuse infected airway cells into multinucleated giant cells — the syncytia — that slough off and plug the tiny airways in bronchiolitis.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — RSV can strain the heart at the extremes of life: in fragile infants and older adults it precipitates heart failure and, rarely, myocarditis, the cardiorespiratory stress of severe infection tipping a marginal heart over the edge.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe bronchiolitis unsettles the kidney's salt balance: sick RSV infants often develop SIADH with hyponatremia, while poor feeding and fever bring dehydration that can stress the kidneys.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — RSV is fought largely with antibody: the monoclonals palivizumab and the longer-acting nirsevimab passively protect high-risk infants, and a maternal vaccine now passes protective antibody across the placenta to the newborn.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — In the youngest infants RSV can stop the breath: it triggers central apnea — pauses in breathing driven by immature brainstem respiratory neurons — sometimes the first sign of infection before the wheeze appears.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Bronchiolitis makes feeding a struggle: a baby working hard to breathe cannot coordinate sucking and swallowing, so poor intake and vomiting bring dehydration and the need for nasogastric or IV fluids.

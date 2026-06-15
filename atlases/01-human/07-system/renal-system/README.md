@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Kidney and lung jointly hold the body's pH steady: the lungs blow off carbon dioxide while the kidney adjusts bicarbonate and acid, and when the kidney fails to clear fluid, the backed-up water floods the lungs as pulmonary edema."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Liver and kidney share the work of detox: the liver turns ammonia into urea that the kidney then excretes, the two clear many drugs in tandem, and a failing liver can drag the kidney down with it in the hepatorenal syndrome."
+  - target: 01-human/07-system/nervous-system
+    relation: connects-to
+    note: "The nervous system tunes the kidney minute to minute: sympathetic nerves and baroreceptors adjust renal blood flow and renin release to defend blood pressure, while the buildup of wastes in kidney failure clouds the brain into uremic encephalopathy."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The kidney is a frequent immune battleground: circulating immune complexes and complement lodge in the glomerulus to cause the many glomerulonephritides, making renal biopsy a window onto systemic autoimmune disease like lupus."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -282,6 +291,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Electron](../../01-subatomic/electron/README.md) — electron microscopy reveals the kidney's exquisite filter: podocyte foot processes interdigitate over the slit diaphragm above a basement membrane and fenestrated endothelium — the three-layer barrier holding back protein while passing water and salts.
 - **Connects to:** [Magnesium](../../02-atomic/magnesium/README.md) — the kidney is the body's magnesium thermostat: it finely tunes how much is reabsorbed or spilled into urine, so renal and tubular disorders are a leading cause of both magnesium deficiency and excess.
 - **Connects to:** [Lung](../../06-organ/lung/README.md) — kidney and lung jointly hold the body's pH steady: the lungs blow off carbon dioxide while the kidney adjusts bicarbonate and acid, and when the kidney fails to clear fluid, the backed-up water floods the lungs as pulmonary edema.
+- **Connects to:** [Liver](../../06-organ/liver/README.md) — liver and kidney share the work of detox: the liver turns ammonia into urea that the kidney then excretes, the two clear many drugs in tandem, and a failing liver can drag the kidney down with it in the hepatorenal syndrome.
+- **Connects to:** [Nervous System](../nervous-system/README.md) — the nervous system tunes the kidney minute to minute: sympathetic nerves and baroreceptors adjust renal blood flow and renin release to defend blood pressure, while the buildup of wastes in kidney failure clouds the brain into uremic encephalopathy.
+- **Connects to:** [Immune System](../immune-system/README.md) — the kidney is a frequent immune battleground: circulating immune complexes and complement lodge in the glomerulus to cause the many glomerulonephritides, making renal biopsy a window onto systemic autoimmune disease like lupus.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
