@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "The fibroblastic osteosarcoma weaves fibrous tissue: this subtype's spindle cells lay down collagen alongside malignant osteoid, blending bone-forming and scar-like tissue within the tumor."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy catches osteosarcoma making bone: the malignant cells swell with dilated rough endoplasmic reticulum spilling disordered osteoid — ultrastructure that betrays their osteoblastic nature when the tumor is too primitive to recognize."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc sits at the heart of osteosarcoma's blood marker: alkaline phosphatase, the enzyme whose serum rise signals tumor bulk and relapse, is a zinc metalloenzyme made by the malignant osteoblasts as they mineralize bone."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Osteosarcoma can drive platelets up: paraneoplastic thrombocytosis appears in a share of patients, and a high platelet count at diagnosis tracks with larger tumors, metastasis, and a poorer prognosis."
 ---
 
 # Osteosarcoma
@@ -290,6 +299,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Osteosarcoma is a vascular tumor fed by endothelial cells: VEGF drives them to build the dense, chaotic blood supply that nourishes its rapid growth and helps it seed the lungs.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Osteosarcoma chemotherapy threatens the kidneys: the high-dose methotrexate and cisplatin central to its treatment are nephrotoxic, so kidney function is watched closely and guides dosing.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The fibroblastic osteosarcoma weaves fibrous tissue: this subtype's spindle cells lay down collagen alongside malignant osteoid, blending bone-forming and scar-like tissue within the tumor.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy catches osteosarcoma making bone: the malignant cells swell with dilated rough endoplasmic reticulum spilling disordered osteoid — ultrastructure that betrays their osteoblastic nature when the tumor is too primitive to recognize.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc sits at the heart of osteosarcoma's blood marker: alkaline phosphatase, the enzyme whose serum rise signals tumor bulk and relapse, is a zinc metalloenzyme made by the malignant osteoblasts as they mineralize bone.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Osteosarcoma can drive platelets up: paraneoplastic thrombocytosis appears in a share of patients, and a high platelet count at diagnosis tracks with larger tumors, metastasis, and a poorer prognosis.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

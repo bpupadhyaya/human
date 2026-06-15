@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Ovarian cancer feeds on the omentum's fat cells: it spreads to the fatty omentum, where adipocytes supply fatty acids that fuel tumor growth—the 'omental caking' typical of advanced disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons hunt this silent cancer: transvaginal ultrasound probes a suspicious mass, CT maps the peritoneal spread and ascites that mark advanced disease, and PET tracks recurrence — imaging that, with CA-125, guides every step of management."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Ovarian cancer studs the spleen's surface: spreading through the peritoneal fluid, it seeds the splenic capsule and nearby diaphragm, so splenectomy is sometimes part of the aggressive debulking surgery that aims to leave no visible tumor."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Ovarian cancer commandeers platelets: tumor-driven IL-6 and thrombopoietin spark a paraneoplastic thrombocytosis, and these elevated platelets in turn shield circulating tumor cells and fuel growth, marking more aggressive, advanced disease."
 ---
 
 # Ovarian Cancer
@@ -275,6 +284,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A rare ovarian cancer spikes blood calcium: the small-cell carcinoma of hypercalcemic type (SCCOHT) drives a paraneoplastic hypercalcemia, so high calcium in a young woman with an ovarian mass is a warning.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Ovarian cancer can back up the kidneys: a bulky pelvic mass or nodal spread compresses the ureters, causing hydronephrosis and post-renal kidney injury in advanced disease.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Ovarian cancer feeds on the omentum's fat cells: it spreads to the fatty omentum, where adipocytes supply fatty acids that fuel tumor growth—the 'omental caking' typical of advanced disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons hunt this silent cancer: transvaginal ultrasound probes a suspicious mass, CT maps the peritoneal spread and ascites that mark advanced disease, and PET tracks recurrence — imaging that, with CA-125, guides every step of management.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Ovarian cancer studs the spleen's surface: spreading through the peritoneal fluid, it seeds the splenic capsule and nearby diaphragm, so splenectomy is sometimes part of the aggressive debulking surgery that aims to leave no visible tumor.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Ovarian cancer commandeers platelets: tumor-driven IL-6 and thrombopoietin spark a paraneoplastic thrombocytosis, and these elevated platelets in turn shield circulating tumor cells and fuel growth, marking more aggressive, advanced disease.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
