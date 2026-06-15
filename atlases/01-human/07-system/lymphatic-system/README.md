@@ -140,6 +140,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney has its own lymphatic drainage: renal lymphatics clear interstitial fluid and immune cells from the kidney, and their dysfunction contributes to the swelling and inflammation of kidney disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Lymph is the antibody's highway: afferent lymph carries antigen to the nodes where plasma cells make antibody, then efferent lymph and the thoracic duct pour that immunoglobulin into the bloodstream, so lymphatic blockage blunts the spread of the response."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Infection can race up the lymphatics: bacteria draining from a wound inflame the vessels into lymphangitis, the tender red streak tracking toward a swollen node as neutrophils pour in to fight the spreading microbes."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets keep blood and lymph apart: in development their CLEC-2 receptor binds podoplanin on budding lymphatic endothelium and plugs the junction so the new vessels stay blood-free — a separation whose failure leaves lymphatics blood-filled."
 ---
 
 # Lymphatic System
@@ -290,6 +299,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the lymphatic capillary's clever valve: its endothelial cells overlap as loose flaps tethered by anchoring filaments, opening one way to admit fluid and large molecules and closing to keep them from leaking back.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain was long thought to have no lymphatics — then they were found: meningeal lymphatic vessels and the glymphatic flow along blood vessels drain the brain's waste, a discovery reshaping how we think about Alzheimer's and brain fluid.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney has its own lymphatic drainage: renal lymphatics clear interstitial fluid and immune cells from the kidney, and their dysfunction contributes to the swelling and inflammation of kidney disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Lymph is the antibody's highway: afferent lymph carries antigen to the nodes where plasma cells make antibody, then efferent lymph and the thoracic duct pour that immunoglobulin into the bloodstream, so lymphatic blockage blunts the spread of the response.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Infection can race up the lymphatics: bacteria draining from a wound inflame the vessels into lymphangitis, the tender red streak tracking toward a swollen node as neutrophils pour in to fight the spreading microbes.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets keep blood and lymph apart: in development their CLEC-2 receptor binds podoplanin on budding lymphatic endothelium and plugs the junction so the new vessels stay blood-free — a separation whose failure leaves lymphatics blood-filled.
 
 ## Pathology
 

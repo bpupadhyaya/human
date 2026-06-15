@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Inheriting two faulty copies is far worse: constitutional mismatch-repair deficiency, the biallelic form, causes childhood leukemias and lymphomas, the marrow joining the syndrome's cancer spectrum in its most severe variant."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Mismatch-repair loss is read off the slide: an antibody panel staining for MLH1, MSH2, MSH6, and PMS2 by immunohistochemistry shows which protein has gone missing in the tumor, the first-line screen that flags Lynch before confirmatory germline sequencing."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Slow tumor bleeding shows up in the red cells: a Lynch colorectal or gastric cancer often declares itself first as unexplained microcytic anemia, the pale, undersized erythrocytes of chronic occult blood loss that should prompt early colonoscopy."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The pancreas falls within the spectrum: Lynch raises the lifetime risk of pancreatic cancer several-fold, and because such tumors are mismatch-repair-deficient and MSI-high, they are among the rare pancreatic cancers that can respond to checkpoint immunotherapy."
 ---
 
 # Lynch Syndrome
@@ -323,6 +332,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Lynch syndrome cannot proofread its DNA: losing a mismatch-repair gene lets tiny errors accumulate at repetitive sequences — microsatellite instability — so its tumors carry a huge mutation load that makes them strikingly responsive to immunotherapy.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Lynch reaches the liver and bile ducts: it raises the risk of cholangiocarcinoma, and its colorectal cancers spread there, so the liver is both a primary site and the commonest destination of its tumors.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Inheriting two faulty copies is far worse: constitutional mismatch-repair deficiency, the biallelic form, causes childhood leukemias and lymphomas, the marrow joining the syndrome's cancer spectrum in its most severe variant.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Mismatch-repair loss is read off the slide: an antibody panel staining for MLH1, MSH2, MSH6, and PMS2 by immunohistochemistry shows which protein has gone missing in the tumor, the first-line screen that flags Lynch before confirmatory germline sequencing.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Slow tumor bleeding shows up in the red cells: a Lynch colorectal or gastric cancer often declares itself first as unexplained microcytic anemia, the pale, undersized erythrocytes of chronic occult blood loss that should prompt early colonoscopy.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas falls within the spectrum: Lynch raises the lifetime risk of pancreatic cancer several-fold, and because such tumors are mismatch-repair-deficient and MSI-high, they are among the rare pancreatic cancers that can respond to checkpoint immunotherapy.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
