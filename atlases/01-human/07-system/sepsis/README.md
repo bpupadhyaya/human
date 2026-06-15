@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Sepsis can wreck the adrenal glands: fulminant meningococcal sepsis bleeds into them (Waterhouse-Friderichsen) to cause acute adrenal failure, and critical-illness adrenal insufficiency complicates shock."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows sepsis starving cells of energy: mitochondria swell and fail in a 'cytopathic hypoxia' where oxygen is present but unusable, while the endothelial glycocalyx sheds away, opening vessels to leak and clot."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut is called the motor of sepsis: shock starves the intestinal lining until its barrier fails, letting bacteria and their toxins translocate into the blood and stoke the inflammation that perpetuates multi-organ failure."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Sepsis drops the calcium: inflammation and impaired parathyroid and vitamin D handling leave many septic patients hypocalcemic, a disturbance that can weaken the already failing heart and must be watched in the ICU."
 ---
 
 # Sepsis
@@ -281,6 +290,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Finding sepsis's source needs imaging: CT and X-ray photons hunt the abscess, pneumonia or perforation driving the infection, since draining the source is as vital as the antibiotics.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Sepsis drives the bone marrow hard: it ramps up neutrophil production—the 'left shift' of immature bands in the blood—and, in severe disease, becomes suppressed, deepening the cytopenias of overwhelming infection.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Sepsis can wreck the adrenal glands: fulminant meningococcal sepsis bleeds into them (Waterhouse-Friderichsen) to cause acute adrenal failure, and critical-illness adrenal insufficiency complicates shock.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows sepsis starving cells of energy: mitochondria swell and fail in a 'cytopathic hypoxia' where oxygen is present but unusable, while the endothelial glycocalyx sheds away, opening vessels to leak and clot.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut is called the motor of sepsis: shock starves the intestinal lining until its barrier fails, letting bacteria and their toxins translocate into the blood and stoke the inflammation that perpetuates multi-organ failure.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Sepsis drops the calcium: inflammation and impaired parathyroid and vitamin D handling leave many septic patients hypocalcemic, a disturbance that can weaken the already failing heart and must be watched in the ICU.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

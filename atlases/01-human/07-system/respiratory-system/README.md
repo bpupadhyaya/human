@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Lungs and kidneys jointly guard blood pH: the lungs blow off acid as CO2 while the kidneys excrete it, so each compensates when the other fails, the core of acid-base balance."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the gossamer blood-air barrier: alveolar epithelium and capillary endothelium fuse into a membrane thin enough for oxygen to cross, while type II cells store surfactant in lamellar bodies and airway cells wave their cilia."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin betrays failing lungs: when oxygen runs short, deoxygenated hemoglobin turns the lips and fingertips blue in cyanosis, making the skin a visible readout of how well the respiratory system is working."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut and lungs share an immune conversation: through the gut-lung axis, the intestinal microbiome shapes airway immunity, so gut health influences susceptibility to asthma and respiratory infection."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -259,6 +268,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Photon](../../01-subatomic/photon/README.md): The lungs are read in X-ray photons: chest radiographs and CT reveal pneumonia, tumors, fibrosis and collapse, the first window into respiratory disease.
 - **Connects-to** → [Fibrosis](../../05-tissue/fibrosis/README.md): Scarring stiffens the lungs: pulmonary fibrosis thickens the alveolar walls so oxygen can't cross and the lungs lose their stretch, the end-stage of many chronic lung diseases.
 - **Connects-to** → [Kidney](../../06-organ/kidney/README.md): Lungs and kidneys jointly guard blood pH: the lungs blow off acid as CO2 while the kidneys excrete it, so each compensates when the other fails, the core of acid-base balance.
+- **Connects-to** → [Electron](../../01-subatomic/electron/README.md): Electron microscopy reveals the gossamer blood-air barrier: alveolar epithelium and capillary endothelium fuse into a membrane thin enough for oxygen to cross, while type II cells store surfactant in lamellar bodies and airway cells wave their cilia.
+- **Connects-to** → [Skin](../../06-organ/skin/README.md): The skin betrays failing lungs: when oxygen runs short, deoxygenated hemoglobin turns the lips and fingertips blue in cyanosis, making the skin a visible readout of how well the respiratory system is working.
+- **Connects-to** → [Large Intestine](../../06-organ/large-intestine/README.md): The gut and lungs share an immune conversation: through the gut-lung axis, the intestinal microbiome shapes airway immunity, so gut health influences susceptibility to asthma and respiratory infection.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
