@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells populate the Hodgkin microenvironment: drawn around the Reed-Sternberg cells, they engage CD30 ligand to support the malignant cells, and their numbers can track with prognosis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Hodgkin can raise blood calcium: its activated macrophages convert vitamin D to its active form, driving the hypercalcemia it shares with granulomatous diseases."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Hodgkin's classic kidney lesion is minimal-change nephrotic syndrome: the lymphoma's cytokines make the glomeruli leak protein, a paraneoplastic effect that resolves when the cancer is treated."
+  - target: 01-human/03-molecular/il-5
+    relation: connects-to
+    note: "Hodgkin draws eosinophils with IL-5: the Reed-Sternberg cells secrete it to recruit the eosinophils that fill the reactive infiltrate, part of the inflamed microenvironment that hides the rare malignant cells."
 ---
 
 # Hodgkin Lymphoma
@@ -281,6 +290,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hodgkin lymphoma drains the body's iron: its systemic inflammation and any marrow involvement suppress red-cell production and lock iron away, so anemia of chronic disease is a common feature.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hodgkin lymphoma can itch through the skin: severe generalized pruritus, sometimes with the lymph-node pain that alcohol triggers, is a classic paraneoplastic symptom that may precede the diagnosis.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells populate the Hodgkin microenvironment: drawn around the Reed-Sternberg cells, they engage CD30 ligand to support the malignant cells, and their numbers can track with prognosis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Hodgkin can raise blood calcium: its activated macrophages convert vitamin D to its active form, driving the hypercalcemia it shares with granulomatous diseases.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hodgkin's classic kidney lesion is minimal-change nephrotic syndrome: the lymphoma's cytokines make the glomeruli leak protein, a paraneoplastic effect that resolves when the cancer is treated.
+- `connects-to` → **[Interleukin-5](../../03-molecular/il-5/README.md)** — Hodgkin draws eosinophils with IL-5: the Reed-Sternberg cells secrete it to recruit the eosinophils that fill the reactive infiltrate, part of the inflamed microenvironment that hides the rare malignant cells.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
