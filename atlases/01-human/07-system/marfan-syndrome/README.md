@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney's moorings loosen in Marfan: with its supporting connective tissue lax, the kidney can drop out of position (nephroptosis), one of the quieter manifestations of the body-wide tissue weakness."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Marfan bones grow long but thin: excess TGF-β signaling tilts remodeling toward osteoclast resorption, so despite the overgrowth of the long limbs many patients carry reduced bone density and an osteopenia that belies their tall frame."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy is the Marfan aorta's danger window: the volume load and hormone-softened vessels needed to perfuse the placenta peak the risk of aortic dissection around delivery, demanding echo monitoring and sometimes pre-pregnancy aortic repair."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "The floppy Marfan mitral valve flutters the rhythm: mitral valve prolapse is associated with magnesium deficiency, and magnesium repletion can ease the palpitations and arrhythmias these prolapsing valves so often provoke."
 ---
 
 # Marfan Syndrome
@@ -322,6 +331,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy exposes the failing Marfan aorta: defective fibrillin leaves the elastic fibers of the arterial wall fragmented and frayed — cystic medial degeneration — the structural rot that lets the aorta balloon and tear.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Weak connective tissue gives way throughout the body: Marfan brings hernias, diverticula, and rectal prolapse, the lax collagen and elastin of the gut wall and abdominal wall failing under everyday pressure.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney's moorings loosen in Marfan: with its supporting connective tissue lax, the kidney can drop out of position (nephroptosis), one of the quieter manifestations of the body-wide tissue weakness.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Marfan bones grow long but thin: excess TGF-β signaling tilts remodeling toward osteoclast resorption, so despite the overgrowth of the long limbs many patients carry reduced bone density and an osteopenia that belies their tall frame.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy is the Marfan aorta's danger window: the volume load and hormone-softened vessels needed to perfuse the placenta peak the risk of aortic dissection around delivery, demanding echo monitoring and sometimes pre-pregnancy aortic repair.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — The floppy Marfan mitral valve flutters the rhythm: mitral valve prolapse is associated with magnesium deficiency, and magnesium repletion can ease the palpitations and arrhythmias these prolapsing valves so often provoke.
 
 ---
 

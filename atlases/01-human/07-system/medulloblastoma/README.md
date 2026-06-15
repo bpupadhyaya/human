@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Shunt-borne medulloblastoma can reach the abdomen: cells draining through a ventriculoperitoneal shunt seed the peritoneum and abdominal organs, an unusual route by which this brain tumor spreads beyond the skull."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains sort the subgroups: immunohistochemistry for nuclear beta-catenin marks the WNT tumors and GAB1/YAP1 the SHH ones, dividing medulloblastoma into the molecular groups that now drive prognosis and how intensely each child is treated."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The cure costs the marrow: craniospinal radiation irradiates a vast volume of blood-forming bone and the accompanying chemotherapy is myelosuppressive, so neutrophil counts fall and febrile neutropenia is a constant hazard during treatment."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cisplatin in the regimen wastes magnesium: the platinum chemotherapy used against medulloblastoma injures the kidney tubule that reclaims magnesium, so blood levels drop and need replacing alongside watching for the drug's hearing loss."
 ---
 
 # Medulloblastoma
@@ -313,6 +322,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals medulloblastoma's neuroblastic roots: its small round blue cells ring up into Homer Wright rosettes around tangles of neuritic processes, the ultrastructure of a primitive tumor trying to form neurons.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — When medulloblastoma leaves the brain, the lung is a target: among its rare extraneural metastases — to bone, marrow, and liver — the lungs can be seeded, sometimes via a ventriculoperitoneal shunt.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Shunt-borne medulloblastoma can reach the abdomen: cells draining through a ventriculoperitoneal shunt seed the peritoneum and abdominal organs, an unusual route by which this brain tumor spreads beyond the skull.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains sort the subgroups: immunohistochemistry for nuclear beta-catenin marks the WNT tumors and GAB1/YAP1 the SHH ones, dividing medulloblastoma into the molecular groups that now drive prognosis and how intensely each child is treated.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The cure costs the marrow: craniospinal radiation irradiates a vast volume of blood-forming bone and the accompanying chemotherapy is myelosuppressive, so neutrophil counts fall and febrile neutropenia is a constant hazard during treatment.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin in the regimen wastes magnesium: the platinum chemotherapy used against medulloblastoma injures the kidney tubule that reclaims magnesium, so blood levels drop and need replacing alongside watching for the drug's hearing loss.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
