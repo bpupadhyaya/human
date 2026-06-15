@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen takes its share of DIC's clots: microinfarcts pepper it as the widespread microthrombosis lodges in its small vessels, one of the many organs silently injured during the consumptive coagulopathy."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "DIC strikes the brain both ways: microthrombi infarct it while the consumed clotting factors let it bleed, so altered consciousness, focal deficits, and intracranial hemorrhage all complicate the coagulopathy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Obstetric catastrophes are classic triggers: placental abruption, amniotic fluid embolism, retained dead fetus, and HELLP all flood the blood with tissue factor, igniting DIC in pregnancy and childbirth."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye bleeds and clots in miniature: DIC produces retinal and subconjunctival hemorrhages and microvascular occlusions, a window onto the simultaneous bleeding and thrombosis playing out body-wide."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -322,6 +331,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows DIC shredding the blood: fibrin strands strung across small vessels slice passing red cells into the helmet-shaped schistocytes of microangiopathic hemolysis, while platelet-fibrin microthrombi plug the capillaries.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — DIC's microthrombi can starve the gut: clots seeded throughout the mesenteric microvasculature cut off the bowel's blood supply, causing ischemia and bleeding amid the body-wide clotting-and-hemorrhage paradox.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen takes its share of DIC's clots: microinfarcts pepper it as the widespread microthrombosis lodges in its small vessels, one of the many organs silently injured during the consumptive coagulopathy.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — DIC strikes the brain both ways: microthrombi infarct it while the consumed clotting factors let it bleed, so altered consciousness, focal deficits, and intracranial hemorrhage all complicate the coagulopathy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Obstetric catastrophes are classic triggers: placental abruption, amniotic fluid embolism, retained dead fetus, and HELLP all flood the blood with tissue factor, igniting DIC in pregnancy and childbirth.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye bleeds and clots in miniature: DIC produces retinal and subconjunctival hemorrhages and microvascular occlusions, a window onto the simultaneous bleeding and thrombosis playing out body-wide.
 
 ---
 

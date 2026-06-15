@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Treating DLBCL swings the calcium: tumor lysis releases a flood of phosphate that binds calcium, dropping it sharply, a metabolic emergency watched for as the rapidly dividing lymphoma dies under therapy."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "DLBCL was the proving ground for antibody therapy: adding rituximab (anti-CD20) to CHOP transformed survival, and bispecific antibodies and CAR-T now rescue relapsed disease — making it a showcase of immunotherapy."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "DLBCL threatens the nervous system twice: high-risk disease seeds the CNS, prompting intrathecal prophylaxis, while the vincristine in R-CHOP poisons peripheral neurons into a dose-limiting neuropathy."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The cure can weaken the heart: doxorubicin — the 'H' (hydroxydaunorubicin) of R-CHOP — is cumulatively cardiotoxic, so cardiac function is checked before treatment and watched for a later cardiomyopathy."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -305,6 +314,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows DLBCL's namesake cell: a large lymphoid blast with abundant cytoplasm, dispersed chromatin, and prominent nucleoli — the big, fast-dividing B cell that gives diffuse large B-cell lymphoma its name.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — DLBCL can both infiltrate and overwhelm the kidney: lymphoma deposits enlarge it directly, and as chemotherapy bursts the bulky tumor in tumor lysis syndrome, urate and phosphate crystals clog the tubules into acute failure.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Treating DLBCL swings the calcium: tumor lysis releases a flood of phosphate that binds calcium, dropping it sharply, a metabolic emergency watched for as the rapidly dividing lymphoma dies under therapy.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — DLBCL was the proving ground for antibody therapy: adding rituximab (anti-CD20) to CHOP transformed survival, and bispecific antibodies and CAR-T now rescue relapsed disease — making it a showcase of immunotherapy.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — DLBCL threatens the nervous system twice: high-risk disease seeds the CNS, prompting intrathecal prophylaxis, while the vincristine in R-CHOP poisons peripheral neurons into a dose-limiting neuropathy.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The cure can weaken the heart: doxorubicin — the 'H' (hydroxydaunorubicin) of R-CHOP — is cumulatively cardiotoxic, so cardiac function is checked before treatment and watched for a later cardiomyopathy.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
