@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The gut and sleep talk both ways: the microbiome shapes serotonin and melatonin and the circadian rhythm, while sleep loss in turn shifts the flora — a gut-brain loop increasingly tied to insomnia."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Lost sleep inflames the body: insomnia and short sleep raise IL-6 and other inflammatory markers, a low-grade activation that helps explain the cardiovascular and metabolic toll of chronic poor sleep."
+  - target: 01-human/07-system/parkinsons-disease
+    relation: connects-to
+    note: "Sleep falls apart early in Parkinson's: insomnia and REM-sleep behavior disorder often precede the motor disease by years, and the degeneration of sleep-regulating brainstem nuclei makes broken sleep a core feature."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "Pain and sleeplessness feed each other: chronic neuropathic pain fragments sleep while poor sleep lowers the pain threshold, a reciprocal loop that makes treating one essential to relieving the other."
 ---
 
 # Insomnia Disorder
@@ -352,6 +361,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Sleep loss weakens the immune memory: poor sleep around vaccination blunts the antibody response, and chronic insomnia's immune dysregulation leaves the body less protected — one reason rest is urged around an immunization.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Broken sleep wears on the heart: chronic insomnia raises blood pressure and sympathetic tone, and is linked to a higher risk of hypertension, heart attack, and stroke over the years.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut and sleep talk both ways: the microbiome shapes serotonin and melatonin and the circadian rhythm, while sleep loss in turn shifts the flora — a gut-brain loop increasingly tied to insomnia.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Lost sleep inflames the body: insomnia and short sleep raise IL-6 and other inflammatory markers, a low-grade activation that helps explain the cardiovascular and metabolic toll of chronic poor sleep.
+- `connects-to` → **[Parkinson's Disease](../parkinsons-disease/README.md)** — Sleep falls apart early in Parkinson's: insomnia and REM-sleep behavior disorder often precede the motor disease by years, and the degeneration of sleep-regulating brainstem nuclei makes broken sleep a core feature.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — Pain and sleeplessness feed each other: chronic neuropathic pain fragments sleep while poor sleep lowers the pain threshold, a reciprocal loop that makes treating one essential to relieving the other.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
