@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver becomes a target as Peutz-Jeghers cancers spread: the syndrome's many adenocarcinomas — pancreatic, gastrointestinal, breast — metastasize there, so liver imaging joins the broad cancer surveillance these patients need."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Peutz-Jeghers often shows up as anemia: the hamartomatous polyps bleed slowly into the gut, draining red cells and iron until a child turns up pale and microcytic — sometimes the first clue that leads to the diagnosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "The telltale freckling is melanin under the microscope: the dark macules on lips and buccal mucosa come from melanin packed into basal keratinocytes, pigment granules that electron microscopy resolves within the epidermis."
+  - target: 01-human/07-system/endometrial-cancer
+    relation: connects-to
+    note: "Peutz-Jeghers reaches into the gynecologic tract: beyond its signature cervical and ovarian sex-cord tumors, the syndrome raises the lifetime risk of endometrial cancer, adding the uterus to its wide field of cancer surveillance."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -295,6 +304,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons keep watch over the small bowel: video capsule endoscopy and MR enterography survey the long stretches of intestine that ordinary scopes miss, finding the hamartomatous polyps before they grow big enough to bleed or obstruct.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Losing STK11 raises the lung's cancer risk: Peutz-Jeghers carries one of the highest lifetime risks of lung cancer among inherited syndromes, so the same gene that studs the gut with polyps also primes the airway lining for malignancy.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver becomes a target as Peutz-Jeghers cancers spread: the syndrome's many adenocarcinomas — pancreatic, gastrointestinal, breast — metastasize there, so liver imaging joins the broad cancer surveillance these patients need.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Peutz-Jeghers often shows up as anemia: the hamartomatous polyps bleed slowly into the gut, draining red cells and iron until a child turns up pale and microcytic — sometimes the first clue that leads to the diagnosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The telltale freckling is melanin under the microscope: the dark macules on lips and buccal mucosa come from melanin packed into basal keratinocytes, pigment granules that electron microscopy resolves within the epidermis.
+- `connects-to` → **[Endometrial Cancer](../endometrial-cancer/README.md)** — Peutz-Jeghers reaches into the gynecologic tract: beyond its signature cervical and ovarian sex-cord tumors, the syndrome raises the lifetime risk of endometrial cancer, adding the uterus to its wide field of cancer surveillance.
 
 ---
 
