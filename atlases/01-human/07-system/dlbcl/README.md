@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "DLBCL shields itself with regulatory T cells: the lymphoma microenvironment recruits Tregs that suppress the antitumor immune response, a factor in prognosis and a barrier for immunotherapy."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "DLBCL's bulky tumor lyses fast on treatment: dying cells spill phosphate and potassium in tumor lysis syndrome, a metabolic emergency at the start of chemotherapy that needs prevention."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "DLBCL has a skin form: primary cutaneous DLBCL, leg type, appears as firm red-brown nodules, and systemic lymphoma can also infiltrate the skin."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "DLBCL can invade the nerves: neurolymphomatosis, infiltration of peripheral nerves and roots, causes painful neuropathy, a rare and aggressive pattern of spread."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -281,6 +290,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — DLBCL drains the body's iron and blood: marrow involvement and chronic inflammation suppress red-cell production and lock iron away, so anemia commonly accompanies this aggressive lymphoma.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — DLBCL spreads beyond nodes into the liver: as an aggressive lymphoma it seeds extranodal organs, infiltrating the liver to cause hepatomegaly and abnormal liver tests in advanced disease.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — DLBCL shields itself with regulatory T cells: the lymphoma microenvironment recruits Tregs that suppress the antitumor immune response, a factor in prognosis and a barrier for immunotherapy.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — DLBCL's bulky tumor lyses fast on treatment: dying cells spill phosphate and potassium in tumor lysis syndrome, a metabolic emergency at the start of chemotherapy that needs prevention.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — DLBCL has a skin form: primary cutaneous DLBCL, leg type, appears as firm red-brown nodules, and systemic lymphoma can also infiltrate the skin.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — DLBCL can invade the nerves: neurolymphomatosis, infiltration of peripheral nerves and roots, causes painful neuropathy, a rare and aggressive pattern of spread.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

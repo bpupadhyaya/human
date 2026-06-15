@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "DIC is a consumptive state the marrow races to refill: as clotting devours platelets and cells, the bone marrow ramps up production, but it cannot keep pace, leaving the low counts that fuel bleeding."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "DIC is a lab diagnosis, but imaging finds its cause and toll: CT photons reveal the sepsis source, cancer or placental catastrophe driving it, and the organ infarcts from its microthrombi."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "DIC clogs the kidney's filters: microthrombi lodge in the glomeruli while consumption and schistocytes mount, causing the acute kidney injury that often accompanies the coagulation chaos."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement fuels DIC's storm: C5a from the activated cascade inflames the endothelium and drives tissue factor, the crosstalk between complement and coagulation that worsens the clotting."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -298,6 +307,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DIC drives the blood acidic: as microthrombi choke off perfusion and shock sets in, starved tissues pour out lactic acid, so a falling pH marks the metabolic acidosis of advancing multi-organ failure.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — DIC ravages the skin: widespread microthrombi and consumed clotting factors cause purpura fulminans—dark patches of hemorrhagic skin necrosis—alongside bruising, a dramatic visible sign of the coagulation chaos.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — DIC is a consumptive state the marrow races to refill: as clotting devours platelets and cells, the bone marrow ramps up production, but it cannot keep pace, leaving the low counts that fuel bleeding.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — DIC is a lab diagnosis, but imaging finds its cause and toll: CT photons reveal the sepsis source, cancer or placental catastrophe driving it, and the organ infarcts from its microthrombi.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — DIC clogs the kidney's filters: microthrombi lodge in the glomeruli while consumption and schistocytes mount, causing the acute kidney injury that often accompanies the coagulation chaos.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement fuels DIC's storm: C5a from the activated cascade inflames the endothelium and drives tissue factor, the crosstalk between complement and coagulation that worsens the clotting.
 
 ---
 
