@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Fat fuels psoriatic disease: enlarged adipocytes pour out inflammatory adipokines, and the obesity common in PsA both raises the risk of developing it and blunts the response to treatment, tying metabolism to the joints."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "PsA is 'seronegative' yet treated with antibodies: rheumatoid factor and anti-CCP are characteristically absent, separating it from RA, while monoclonal antibodies against TNF, IL-17, and IL-23 are the mainstay that controls both skin and joints."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Chronic inflammation scars the arteries: PsA carries excess cardiovascular risk as circulating cytokines injure the endothelial lining and accelerate atherosclerosis, so heart-attack and stroke prevention is woven into managing the joints."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Body and mood suffer together: depression is markedly more common in PsA, driven by chronic pain, visible skin disease, and the same inflammatory cytokines that act on the brain, so screening for low mood is part of comprehensive care."
 ---
 
 # Psoriatic Arthritis
@@ -341,6 +350,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Treating PsA keeps an eye on the liver: methotrexate, a first-line DMARD, can scar it over time, and the fatty liver that rides along with the metabolic syndrome common in PsA compounds the risk, so liver enzymes are watched.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — PsA therapy opens the lungs to harm: methotrexate can rarely trigger a hypersensitivity pneumonitis, and the TNF and IL-17 biologics that quiet the disease raise the risk of pneumonia and reactivated tuberculosis.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat fuels psoriatic disease: enlarged adipocytes pour out inflammatory adipokines, and the obesity common in PsA both raises the risk of developing it and blunts the response to treatment, tying metabolism to the joints.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — PsA is 'seronegative' yet treated with antibodies: rheumatoid factor and anti-CCP are characteristically absent, separating it from RA, while monoclonal antibodies against TNF, IL-17, and IL-23 are the mainstay that controls both skin and joints.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Chronic inflammation scars the arteries: PsA carries excess cardiovascular risk as circulating cytokines injure the endothelial lining and accelerate atherosclerosis, so heart-attack and stroke prevention is woven into managing the joints.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Body and mood suffer together: depression is markedly more common in PsA, driven by chronic pain, visible skin disease, and the same inflammatory cytokines that act on the brain, so screening for low mood is part of comprehensive care.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "The CHOP backbone bites the nerves: vincristine, part of the standard PTCL chemotherapy, poisons the microtubule transport of peripheral neurons, leaving a dose-limiting numbness, tingling, and weakness."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies name and target PTCL: a CD3, CD30, and ALK stain panel sorts the subtypes on biopsy, and the CD30-positive ones — anaplastic large-cell lymphoma especially — are hit by the anti-CD30 antibody-drug conjugate brentuximab vedotin."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The CHOEP regimen empties the marrow: the cyclophosphamide, etoposide, and anthracycline given for PTCL are heavily myelosuppressive, so neutrophil counts crater between cycles and growth-factor support and infection vigilance are routine."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Bulky, fast PTCL threatens the kidney: starting chemotherapy can burst the tumor into tumor lysis syndrome, flooding the blood with potassium, phosphate, and urate that crystallize in and injure the kidney unless hydration and rasburicase pre-empt it."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -328,6 +337,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — AITL floods the blood with antibody: its malignant follicular-helper T cells whip up a polyclonal plasma-cell response, producing the hypergammaglobulinemia and autoantibodies that give angioimmunoblastic lymphoma its autoimmune-like face.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — A T-cell cancer that breeds rogue B cells: the helper-T tumor of AITL fosters EBV-driven B-cell blasts in its inflamed milieu, expansions that can themselves transform into a secondary diffuse large B-cell lymphoma.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The CHOP backbone bites the nerves: vincristine, part of the standard PTCL chemotherapy, poisons the microtubule transport of peripheral neurons, leaving a dose-limiting numbness, tingling, and weakness.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies name and target PTCL: a CD3, CD30, and ALK stain panel sorts the subtypes on biopsy, and the CD30-positive ones — anaplastic large-cell lymphoma especially — are hit by the anti-CD30 antibody-drug conjugate brentuximab vedotin.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The CHOEP regimen empties the marrow: the cyclophosphamide, etoposide, and anthracycline given for PTCL are heavily myelosuppressive, so neutrophil counts crater between cycles and growth-factor support and infection vigilance are routine.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bulky, fast PTCL threatens the kidney: starting chemotherapy can burst the tumor into tumor lysis syndrome, flooding the blood with potassium, phosphate, and urate that crystallize in and injure the kidney unless hydration and rasburicase pre-empt it.
 
 ---
 
