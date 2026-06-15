@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Failing kidneys show on the skin: uremia brings relentless itch and a sallow hue, disturbed calcium-phosphate balance calcifies skin vessels into deadly calciphylaxis, and the skin's vitamin D awaits the kidney's final activating step."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "The kidney and adrenal run the salt axis together: the kidney's renin triggers the adrenal cortex to release aldosterone, which acts back on the nephron to retain sodium and excrete potassium, closing the loop that sets blood volume and pressure."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Diabetes is the leading destroyer of the renal system: chronic high glucose thickens and scars the glomerulus into diabetic nephropathy, the single biggest cause of kidney failure and dialysis worldwide."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Bone signals the kidney about phosphate: FGF23 from bone tells the nephron to dump phosphate and curb active vitamin D, and as kidneys fail FGF23 climbs early, an opening move in the mineral-bone disorder of CKD."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -306,6 +315,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Antibody](../../03-molecular/antibody/README.md) — specific autoantibodies name the kidney's diseases: anti-GBM antibodies attack the glomerular basement membrane in Goodpasture, ANCA drives the small-vessel vasculitides, and these blood tests pinpoint which glomerulonephritis is at work.
 - **Connects to:** [Gout](../gout/README.md) — the kidney sets the body's urate: it excretes most uric acid, so impaired renal handling raises blood urate into gout and urate stones, while gout's crystals and its drugs in turn injure the kidney — a two-way burden.
 - **Connects to:** [Skin](../../06-organ/skin/README.md) — failing kidneys show on the skin: uremia brings relentless itch and a sallow hue, disturbed calcium-phosphate balance calcifies skin vessels into deadly calciphylaxis, and the skin's vitamin D awaits the kidney's final activating step.
+- **Connects to:** [Adrenal Gland](../../06-organ/adrenal-gland/README.md) — the kidney and adrenal run the salt axis together: the kidney's renin triggers the adrenal cortex to release aldosterone, which acts back on the nephron to retain sodium and excrete potassium, closing the loop that sets blood volume and pressure.
+- **Connects to:** [Type 2 Diabetes](../type-2-diabetes/README.md) — diabetes is the leading destroyer of the renal system: chronic high glucose thickens and scars the glomerulus into diabetic nephropathy, the single biggest cause of kidney failure and dialysis worldwide.
+- **Connects to:** [FGF23](../../03-molecular/fgf23/README.md) — bone signals the kidney about phosphate: FGF23 from bone tells the nephron to dump phosphate and curb active vitamin D, and as kidneys fail FGF23 climbs early, an opening move in the mineral-bone disorder of CKD.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

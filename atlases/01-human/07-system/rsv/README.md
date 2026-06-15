@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/03-molecular/cortisol
     relation: connects-to
     note: "A key lesson is what cortisol cannot do: unlike asthma, RSV bronchiolitis does not respond to corticosteroids, because its airway plugging is driven by sloughed cells and mucus rather than the steroid-sensitive inflammation of allergic disease."
+  - target: 02-pathogen/02-bacteria/streptococcus-pneumoniae
+    relation: connects-to
+    note: "RSV opens the door to bacteria: by stripping the airway lining and blunting defenses it primes the lung for secondary pneumococcal pneumonia, a viral-bacterial synergy that drives much of the severe illness and death in infants and the elderly."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Regulatory T cells decide how much the infection hurts: they rein in the antiviral response so it clears RSV without shredding the airway, and too few of them tip the balance toward immunopathology and a Th2-skewed, wheezy course."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "RSV lights up IL-6 in the airway: infected epithelium and macrophages pour out this cytokine, and high IL-6 in nasal secretions tracks with the inflammation and severity of infant bronchiolitis."
 ---
 
 # RSV
@@ -346,3 +355,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Protection now starts before birth: a maternal RSV vaccine given in pregnancy passes antibody across the placenta to shield the newborn through its risky first months, complementing the nirsevimab antibody given to infants directly.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D may temper the infection: low vitamin D in infancy is associated with more severe RSV bronchiolitis, the vitamin's role in airway immunity and barrier function making its status a studied modifier of risk.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — A key lesson is what cortisol cannot do: unlike asthma, RSV bronchiolitis does not respond to corticosteroids, because its airway plugging is driven by sloughed cells and mucus rather than the steroid-sensitive inflammation of allergic disease.
+- `connects-to` → **[Streptococcus pneumoniae](../../../02-pathogen/02-bacteria/streptococcus-pneumoniae/README.md)** — RSV opens the door to bacteria: by stripping the airway lining and blunting defenses it primes the lung for secondary pneumococcal pneumonia, a viral-bacterial synergy that drives much of the severe illness and death in infants and the elderly.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Regulatory T cells decide how much the infection hurts: they rein in the antiviral response so it clears RSV without shredding the airway, and too few of them tip the balance toward immunopathology and a Th2-skewed, wheezy course.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — RSV lights up IL-6 in the airway: infected epithelium and macrophages pour out this cytokine, and high IL-6 in nasal secretions tracks with the inflammation and severity of infant bronchiolitis.
