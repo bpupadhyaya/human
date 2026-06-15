@@ -142,6 +142,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D drew intense scrutiny in COVID: deficiency was repeatedly tied to more severe disease, plausible given the vitamin's role in tempering the immune response, though supplementation trials gave mixed results."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "COVID reaches the nervous system: the sudden loss of smell points to damage around olfactory neurons, while brain fog, lingering cognitive complaints, and rare Guillain-Barré mark its broader, sometimes lasting, neural toll."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver often registers the infection: mildly raised transaminases are common in COVID, from direct injury, the cytokine storm, and the drugs used to treat it, usually settling as the patient recovers."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "COVID can disturb blood sugar: SARS-CoV-2 infects the ACE2-bearing islet cells, and new-onset hyperglycemia and diabetes appearing during or after infection suggest the virus can injure the insulin-making pancreas."
 ---
 
 # COVID-19 Disease
@@ -248,6 +257,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy gave COVID its face: the beam revealed SARS-CoV-2 as a sphere ringed by club-shaped spikes — the 'corona' that names the family — and showed the virions budding inside infected airway cells.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — COVID writes itself on the skin: chilblain-like 'COVID toes,' along with hive-like and measles-like rashes, reflect the small-vessel inflammation and clotting the infection provokes far from the lungs.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D drew intense scrutiny in COVID: deficiency was repeatedly tied to more severe disease, plausible given the vitamin's role in tempering the immune response, though supplementation trials gave mixed results.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — COVID reaches the nervous system: the sudden loss of smell points to damage around olfactory neurons, while brain fog, lingering cognitive complaints, and rare Guillain-Barré mark its broader, sometimes lasting, neural toll.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver often registers the infection: mildly raised transaminases are common in COVID, from direct injury, the cytokine storm, and the drugs used to treat it, usually settling as the patient recovers.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — COVID can disturb blood sugar: SARS-CoV-2 infects the ACE2-bearing islet cells, and new-onset hyperglycemia and diabetes appearing during or after infection suggest the virus can injure the insulin-making pancreas.
 
 ## Pathology
 

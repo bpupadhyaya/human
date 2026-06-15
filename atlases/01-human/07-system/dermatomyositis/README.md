@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Dermatomyositis announces itself around the eyes: the heliotrope rash is a violaceous discoloration of the upper eyelids, often with swelling, one of the most specific skin signs that points straight to the diagnosis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Myositis-specific autoantibodies map the disease: anti-Jo-1 ties it to lung fibrosis, anti-MDA5 to a rapidly progressive ILD and skin ulcers, and anti-TIF1γ flags a high risk of underlying cancer — the serology guiding workup and prognosis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Dermatomyositis is at heart a disease of the capillaries: complement attack drops out the small vessels feeding muscle, and the VEGF-driven response and resulting ischemia produce the perifascicular atrophy that defines its muscle biopsy."
+  - target: 01-human/07-system/pancreatic-cancer
+    relation: connects-to
+    note: "Adult dermatomyositis can be a cancer's herald: it is strongly paraneoplastic, and beyond the ovarian, gastric, and lung tumors it accompanies, pancreatic cancer is among the malignancies a new diagnosis prompts a search for."
 ---
 
 # Dermatomyositis
@@ -316,6 +325,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals dermatomyositis's interferon signature: tubuloreticular inclusions — undulating tubule arrays — appear inside the capillary endothelial cells of muscle and skin, a hallmark of the type-I-interferon-driven vascular injury.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe muscle breakdown can flood the kidney: when dermatomyositis inflames muscle badly enough to cause rhabdomyolysis, released myoglobin clogs the renal tubules and can precipitate acute kidney injury.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Dermatomyositis announces itself around the eyes: the heliotrope rash is a violaceous discoloration of the upper eyelids, often with swelling, one of the most specific skin signs that points straight to the diagnosis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Myositis-specific autoantibodies map the disease: anti-Jo-1 ties it to lung fibrosis, anti-MDA5 to a rapidly progressive ILD and skin ulcers, and anti-TIF1γ flags a high risk of underlying cancer — the serology guiding workup and prognosis.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermatomyositis is at heart a disease of the capillaries: complement attack drops out the small vessels feeding muscle, and the VEGF-driven response and resulting ischemia produce the perifascicular atrophy that defines its muscle biopsy.
+- `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Adult dermatomyositis can be a cancer's herald: it is strongly paraneoplastic, and beyond the ovarian, gastric, and lung tumors it accompanies, pancreatic cancer is among the malignancies a new diagnosis prompts a search for.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
