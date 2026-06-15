@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "The heart and kidney rise or fall together: in cardiorenal syndrome a failing heart starves and congests the kidney while fluid overload and neurohormones strain the heart, a vicious loop central to managing heart failure."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "The kidney is read by imaging: ultrasound and CT photons reveal stones, obstruction and cysts, while nuclear renography traces how well each kidney filters and drains."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "The kidney commands the bone marrow: its erythropoietin tells the marrow how many red cells to make, so kidney failure starves the marrow of that signal and causes the anemia of chronic kidney disease."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Kidney and brain share fate: uremic toxins cloud the mind, the kidney's blood-pressure control guards against stroke, and rapid dialysis can swell the brain in disequilibrium syndrome."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -258,6 +267,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Endothelial Cell](../../04-cellular/endothelial-cell/README.md) — the filtration barrier is built on endothelial cells: the glomerulus's fenestrated endothelium, with podocytes and the basement membrane, sieves the blood, so endothelial injury (as in preeclampsia or microangiopathy) leaks protein and crashes filtration.
 - **Connects to:** [Oxygen](../../02-atomic/oxygen/README.md) — the kidney is the body's oxygen gauge: cells sensing low oxygen release erythropoietin to make red cells, while the medulla works on the edge of hypoxia, which is why poor perfusion so readily causes acute tubular injury.
 - **Connects to:** [Heart](../../06-organ/heart/README.md) — the heart and kidney rise or fall together: in cardiorenal syndrome a failing heart starves and congests the kidney while fluid overload and neurohormones strain the heart, a vicious loop central to managing heart failure.
+- **Connects to:** [Photon](../../01-subatomic/photon/README.md) — the kidney is read by imaging: ultrasound and CT photons reveal stones, obstruction and cysts, while nuclear renography traces how well each kidney filters and drains.
+- **Connects to:** [Bone Marrow](../../05-tissue/bone-marrow/README.md) — the kidney commands the bone marrow: its erythropoietin tells the marrow how many red cells to make, so kidney failure causes the anemia of chronic kidney disease.
+- **Connects to:** [Brain](../../06-organ/brain/README.md) — kidney and brain share fate: uremic toxins cloud the mind, the kidney's blood-pressure control guards against stroke, and rapid dialysis can swell the brain in disequilibrium syndrome.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

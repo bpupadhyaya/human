@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "RSV stirs the airway's mast cells: their release of mediators adds to the wheeze of bronchiolitis, and severe early RSV is linked to later asthma, hinting these cells help bridge infection to allergic airway disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "RSV bronchiolitis shows on chest X-ray as hyperinflation and patchy atelectasis in X-ray photons, used when a baby's breathing worsens—though imaging is not needed for the routine diagnosis."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Severe RSV reaches the alveoli: beyond plugging the small bronchioles, it inflames the alveolar units into pneumonia, flooding gas exchange and causing the worst of the hypoxia."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "A tiring RSV baby retains carbon dioxide: rising CO2 and the falling pH of respiratory acidosis signal that breathing is failing and that ventilatory support may be needed."
 ---
 
 # RSV
@@ -298,3 +307,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — RSV can hit the infant brain: in the youngest babies it triggers sudden apnea—pauses in breathing that may be the first sign—and rare cases cause seizures or encephalopathy, so very young infants are watched closely.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Severe RSV throws off sodium: bronchiolitis is a classic trigger of SIADH, in which the body retains water and dilutes blood sodium, so hyponatremia can develop and provoke seizures if IV fluids are not chosen carefully.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — RSV stirs the airway's mast cells: their release of mediators adds to the wheeze of bronchiolitis, and severe early RSV is linked to later asthma, hinting these cells help bridge infection to allergic airway disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — RSV bronchiolitis shows on chest X-ray as hyperinflation and patchy atelectasis in X-ray photons, used when a baby's breathing worsens—though imaging is not needed for the routine diagnosis.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Severe RSV reaches the alveoli: beyond plugging the small bronchioles, it inflames the alveolar units into pneumonia, flooding gas exchange and causing the worst of the hypoxia.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — A tiring RSV baby retains carbon dioxide: rising CO2 and the falling pH of respiratory acidosis signal that breathing is failing and that ventilatory support may be needed.
