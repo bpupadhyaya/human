@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The gut hosts a distinct follicular lymphoma: the duodenal-type and other GI involvement stud the bowel, an indolent presentation often found incidentally on endoscopy of the small and large intestine."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Follicular lymphoma is exquisitely antibody-sensitive: anti-CD20 antibodies (rituximab, obinutuzumab) anchor its treatment, and bispecific antibodies like mosunetuzumab now bring durable responses to relapsed disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Treatment, more than the tumor, reaches the nerves: the vincristine in regimens like R-CVP and R-CHOP injures peripheral neurons into a dose-limiting neuropathy, the indolent lymphoma itself rarely touching the nervous system."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "When follicular lymphoma transforms, the cure can wound the heart: aggressive transformation to diffuse large B-cell lymphoma calls for anthracycline-based R-CHOP, whose doxorubicin carries cumulative cardiotoxicity."
 ---
 
 # Follicular Lymphoma
@@ -309,6 +318,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows follicular lymphoma's small cleaved cell: the centrocyte, with its notched, angular nucleus, recapitulates the germinal-center cell it came from, packed into nodular follicles by the BCL2 that blocks its death.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Follicular lymphoma can settle in the eye's surroundings: ocular adnexal lymphoma in the orbit, conjunctiva, and lacrimal gland is an indolent extranodal site, presenting as a painless salmon-pink mass.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut hosts a distinct follicular lymphoma: the duodenal-type and other GI involvement stud the bowel, an indolent presentation often found incidentally on endoscopy of the small and large intestine.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Follicular lymphoma is exquisitely antibody-sensitive: anti-CD20 antibodies (rituximab, obinutuzumab) anchor its treatment, and bispecific antibodies like mosunetuzumab now bring durable responses to relapsed disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Treatment, more than the tumor, reaches the nerves: the vincristine in regimens like R-CVP and R-CHOP injures peripheral neurons into a dose-limiting neuropathy, the indolent lymphoma itself rarely touching the nervous system.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — When follicular lymphoma transforms, the cure can wound the heart: aggressive transformation to diffuse large B-cell lymphoma calls for anthracycline-based R-CHOP, whose doxorubicin carries cumulative cardiotoxicity.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

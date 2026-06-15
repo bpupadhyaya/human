@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "FAP's osteomas are built of calcium: the Gardner-syndrome bony tumors lay down dense calcium-phosphate mineral, hard masses on the skull and jaw visible as bright opacities on imaging."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Gardner syndrome marks the skeleton and teeth: FAP's variant grows osteomas on the jaw and skull and brings dental anomalies — supernumerary teeth and odontomas — extracolonic clues that can predate the bowel polyps."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The Turcot variant ties FAP to the brain: alongside its colonic polyps it predisposes to CNS tumors, classically medulloblastoma, so neurological symptoms can be part of the syndrome's reach."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "FAP quietly enlarges the adrenals: benign adrenal adenomas are more common than in the general population, usually silent incidentalomas found on the imaging done to track the syndrome's other tumors."
 ---
 
 # Familial Adenomatous Polyposis
@@ -323,6 +332,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads FAP's two telltale lesions: the dysplastic glands of its countless colonic adenomas, and the pigment-stuffed cells of CHRPE, the dark retinal patches that flag the syndrome at an eye exam.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — In the Gardner variant, FAP grows bone: benign osteomas sprout from the jaw and skull, bony overgrowths of the marrow-bearing facial bones that, with skin cysts, can betray the syndrome before the gut polyps do.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — FAP's osteomas are built of calcium: the Gardner-syndrome bony tumors lay down dense calcium-phosphate mineral, hard masses on the skull and jaw visible as bright opacities on imaging.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Gardner syndrome marks the skeleton and teeth: FAP's variant grows osteomas on the jaw and skull and brings dental anomalies — supernumerary teeth and odontomas — extracolonic clues that can predate the bowel polyps.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The Turcot variant ties FAP to the brain: alongside its colonic polyps it predisposes to CNS tumors, classically medulloblastoma, so neurological symptoms can be part of the syndrome's reach.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — FAP quietly enlarges the adrenals: benign adrenal adenomas are more common than in the general population, usually silent incidentalomas found on the imaging done to track the syndrome's other tumors.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
