@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "The cure can weaken the heart: doxorubicin — the 'H' (hydroxydaunorubicin) of R-CHOP — is cumulatively cardiotoxic, so cardiac function is checked before treatment and watched for a later cardiomyopathy."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Anthracyclines kill heart muscle cells directly: doxorubicin poisons topoisomerase-2-beta and floods cardiomyocytes with reactive oxygen, causing irreversible cell loss — the cellular basis of the dose-limiting cardiotoxicity, blunted by dexrazoxane."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Rituximab can wake a sleeping virus: by stripping out B cells it lifts the immune control of hepatitis B, so patients are screened and given antiviral prophylaxis before R-CHOP to prevent a dangerous viral reactivation."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "The aggressive ABC subtype runs on chronic signaling: alongside constitutive NF-kB, JAK-STAT3 activation drives survival in activated B-cell DLBCL, marking worse-prognosis tumors and a pathway probed by JAK and STAT inhibitors."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -317,6 +326,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — DLBCL was the proving ground for antibody therapy: adding rituximab (anti-CD20) to CHOP transformed survival, and bispecific antibodies and CAR-T now rescue relapsed disease — making it a showcase of immunotherapy.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — DLBCL threatens the nervous system twice: high-risk disease seeds the CNS, prompting intrathecal prophylaxis, while the vincristine in R-CHOP poisons peripheral neurons into a dose-limiting neuropathy.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The cure can weaken the heart: doxorubicin — the 'H' (hydroxydaunorubicin) of R-CHOP — is cumulatively cardiotoxic, so cardiac function is checked before treatment and watched for a later cardiomyopathy.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Anthracyclines kill heart muscle cells directly: doxorubicin poisons topoisomerase-2-beta and floods cardiomyocytes with reactive oxygen, causing irreversible cell loss — the cellular basis of the dose-limiting cardiotoxicity, blunted by dexrazoxane.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Rituximab can wake a sleeping virus: by stripping out B cells it lifts the immune control of hepatitis B, so patients are screened and given antiviral prophylaxis before R-CHOP to prevent a dangerous viral reactivation.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — The aggressive ABC subtype runs on chronic signaling: alongside constitutive NF-kB, JAK-STAT3 activation drives survival in activated B-cell DLBCL, marking worse-prognosis tumors and a pathway probed by JAK and STAT inhibitors.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -149,6 +149,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Endocrine disease declares itself in the eye: Graves disease pushes the eyes forward into orbitopathy, and a pituitary tumor pressing the optic chiasm carves out the classic bitemporal loss of peripheral vision."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Fat itself is an endocrine organ: adipocytes secrete leptin in proportion to fat stores, and the hormone signals the hypothalamus to curb appetite — the discovery that recast adipose tissue as part of the endocrine system rather than inert storage."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D is really a hormone: the skin and kidney convert it to calcitriol, a steroid hormone that acts through nuclear receptors to raise calcium absorption, placing this 'vitamin' squarely within the endocrine system's calcium control."
+  - target: 01-human/07-system/pheochromocytoma-paraganglioma
+    relation: connects-to
+    note: "A tumor can hijack the stress hormones: pheochromocytoma of the adrenal medulla floods the body with catecholamines, causing pounding spells of hypertension, palpitations and sweating — endocrine signaling turned into a dangerous excess."
 ---
 
 # Endocrine System
@@ -350,6 +359,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals what makes a cell endocrine: its cytoplasm is packed with dense-core secretory granules, membrane-bound stores of hormone poised for release — the universal signature of the glands that signal through the blood.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The heart is a gland in its own right: stretched by a full circulation, it secretes natriuretic peptides that order the kidney to dump salt and water, making the heart an endocrine organ that regulates blood volume.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Hormones tune phosphate as well as calcium: parathyroid hormone, vitamin D, and bone-derived FGF23 form a feedback loop that balances phosphorus, the endocrine control of the mineral that builds bone and powers ATP.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Fat itself is an endocrine organ: adipocytes secrete leptin in proportion to fat stores, and the hormone signals the hypothalamus to curb appetite — the discovery that recast adipose tissue as part of the endocrine system rather than inert storage.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D is really a hormone: the skin and kidney convert it to calcitriol, a steroid hormone that acts through nuclear receptors to raise calcium absorption, placing this 'vitamin' squarely within the endocrine system's calcium control.
+- `connects-to` → **[Pheochromocytoma/Paraganglioma](../pheochromocytoma-paraganglioma/README.md)** — A tumor can hijack the stress hormones: pheochromocytoma of the adrenal medulla floods the body with catecholamines, causing pounding spells of hypertension, palpitations and sweating — endocrine signaling turned into a dangerous excess.
 
 ## Pathology
 
