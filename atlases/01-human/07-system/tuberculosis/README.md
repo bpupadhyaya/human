@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Miliary tuberculosis seeds the bone marrow: bloodborne spread studs the marrow with granulomas, suppressing blood production and causing the pancytopenia of disseminated disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons hunt tuberculosis throughout its course: the chest X-ray shows the upper-lobe cavities and the fine 'millet seed' miliary spread, CT maps the damage, and old calcified Ghon foci mark where a long-healed infection once smoldered."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Miliary tuberculosis peppers the spleen: bloodborne bacilli seed it with countless tiny granulomas, swelling the organ — splenomegaly studded with white tubercles is a classic finding of disseminated disease at autopsy."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Spinal tuberculosis threatens the nerves it surrounds: Pott's disease erodes the vertebrae and forms a cold abscess that compresses the spinal cord and its roots, causing the paraplegia that is TB's most feared skeletal complication."
 ---
 
 # Tuberculosis
@@ -293,6 +302,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Tuberculosis is a fight over iron: the bacterium needs iron to grow and scavenges it from the host, while the body locks iron away to starve it—a tug-of-war in which iron overload tilts toward the microbe.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Tuberculosis can wrap the heart: TB pericarditis fills the sac with fluid and later scars it into a constricting shell, a dangerous extrapulmonary form especially common with HIV.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Miliary tuberculosis seeds the bone marrow: bloodborne spread studs the marrow with granulomas, suppressing blood production and causing the pancytopenia of disseminated disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons hunt tuberculosis throughout its course: the chest X-ray shows the upper-lobe cavities and the fine 'millet seed' miliary spread, CT maps the damage, and old calcified Ghon foci mark where a long-healed infection once smoldered.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Miliary tuberculosis peppers the spleen: bloodborne bacilli seed it with countless tiny granulomas, swelling the organ — splenomegaly studded with white tubercles is a classic finding of disseminated disease at autopsy.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Spinal tuberculosis threatens the nerves it surrounds: Pott's disease erodes the vertebrae and forms a cold abscess that compresses the spinal cord and its roots, causing the paraplegia that is TB's most feared skeletal complication.
 
 ## See Also
 

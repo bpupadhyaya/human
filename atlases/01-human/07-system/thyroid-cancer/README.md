@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Papillary thyroid cancer leaves calcium-phosphate fingerprints: its psammoma bodies are concentric calcium-phosphate calcifications, a histologic clue that also shows as microcalcifications on ultrasound."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy sharpens the diagnosis: it confirms papillary cancer's irregular nuclei with cytoplasm-filled pseudoinclusions and grooves, and reveals the dense-core neurosecretory granules that mark the medullary type as neuroendocrine."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "The sodium-iodide symporter is thyroid cancer's Achilles' heel: well-differentiated tumors keep this pump that hauls iodine into the cell on a sodium gradient, so radioactive iodine slips in to image and irradiate the cancer wherever it has spread."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Follicular thyroid cancer travels in the blood to bone: unlike the papillary type that creeps through lymph nodes, it spreads hematogenously, seeding lytic deposits in the marrow-filled bones of the spine, pelvis, and skull."
 ---
 
 # Thyroid Cancer
@@ -303,6 +312,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Thyroid cancer can spread to the liver: medullary and advanced or anaplastic disease seed hepatic metastases, extending beyond the usual neck nodes, lung, and bone.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Papillary thyroid cancer recruits fibroblasts: cancer-associated fibroblasts build a desmoplastic stroma around the tumor, the firm scarring that helps it invade and trap calcifications.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Papillary thyroid cancer leaves calcium-phosphate fingerprints: its psammoma bodies are concentric calcium-phosphate calcifications, a histologic clue that also shows as microcalcifications on ultrasound.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy sharpens the diagnosis: it confirms papillary cancer's irregular nuclei with cytoplasm-filled pseudoinclusions and grooves, and reveals the dense-core neurosecretory granules that mark the medullary type as neuroendocrine.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The sodium-iodide symporter is thyroid cancer's Achilles' heel: well-differentiated tumors keep this pump that hauls iodine into the cell on a sodium gradient, so radioactive iodine slips in to image and irradiate the cancer wherever it has spread.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Follicular thyroid cancer travels in the blood to bone: unlike the papillary type that creeps through lymph nodes, it spreads hematogenously, seeding lytic deposits in the marrow-filled bones of the spine, pelvis, and skull.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
