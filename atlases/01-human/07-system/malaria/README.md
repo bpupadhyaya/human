@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Thrombocytopenia is the rule in malaria: platelets are consumed and trapped in the spleen as the infection activates clotting, so a low platelet count is one of the most reliable clues that a fever is malaria."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Malaria is still diagnosed by light: Giemsa-stained thick and thin blood films under the microscope reveal the parasites inside red cells, letting the species be identified and the parasite load counted."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Severe malaria suffocates tissues: sequestered red cells block capillaries while profound anemia cuts oxygen delivery, driving the lactic acidosis and organ failure that mark the deadliest disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The retina betrays cerebral malaria: malarial retinopathy—patchy whitening, vessel discoloration and hemorrhages—is a specific bedside sign that a comatose child's illness is truly malaria and not another cause."
 ---
 
 # Malaria
@@ -316,6 +325,9 @@ cross_links:
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Malaria cripples the bone marrow: the parasite and its hemozoin pigment suppress red-cell production (dyserythropoiesis), so blunted marrow output compounds the destruction of infected cells to deepen malarial anemia.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Severe malaria floods the blood with hydrogen ions: parasite and tissue starvation generate lactic acid, and the resulting metabolic acidosis (acidemia) is one of the strongest predictors of death in severe disease.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Thrombocytopenia is the rule in malaria: platelets are consumed and trapped in the spleen as the infection activates clotting, so a low platelet count is one of the most reliable clues that a fever is malaria.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Malaria is still diagnosed by light: Giemsa-stained thick and thin blood films under the microscope reveal the parasites inside red cells, letting the species be identified and the parasite load counted.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Severe malaria suffocates tissues: sequestered red cells block capillaries while profound anemia cuts oxygen delivery, driving the lactic acidosis and organ failure that mark the deadliest disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The retina betrays cerebral malaria: malarial retinopathy—patchy whitening, vessel discoloration and hemorrhages—is a specific bedside sign that a comatose child's illness is truly malaria and not another cause.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

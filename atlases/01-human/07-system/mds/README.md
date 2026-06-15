@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "MDS warps the marrow's immune balance: in early disease autoimmune T cells attack progenitors (why immunosuppression can help), while advancing disease expands regulatory T cells that shield the malignant clone from immune attack."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper deficiency mimics MDS: too little copper—often from excess zinc or gut surgery—causes a reversible myelodysplasia with anemia, neutropenia and ringed sideroblasts, an imitator to exclude before diagnosis."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "MDS can announce itself on the skin: neutrophilic dermatoses like Sweet syndrome may herald or accompany it, a paraneoplastic clue that prompts a look at the marrow."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Some MDS scars the marrow: reticulin fibrosis worsens the cytopenias and carries a poorer prognosis, blurring the boundary with primary myelofibrosis."
 ---
 
 # Myelodysplastic Syndromes
@@ -262,6 +271,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Years of MDS transfusions can poison the heart: each unit of red cells delivers iron the body cannot excrete, and the overload deposits in heart muscle, causing an iron cardiomyopathy and arrhythmias that drive the need for chelation.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MDS starves tissues of oxygen: failed marrow makes too few red cells, so chronic anemia leaves the body short of oxygen, producing the fatigue and breathlessness that dominate the disease and force transfusion dependence.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — MDS warps the marrow's immune balance: in early disease autoimmune T cells attack progenitors (why immunosuppression can help), while advancing disease expands regulatory T cells that shield the malignant clone from immune attack.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper deficiency mimics MDS: too little copper—often from excess zinc or gut surgery—causes a reversible myelodysplasia with anemia, neutropenia and ringed sideroblasts, an imitator to exclude before diagnosis.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MDS can announce itself on the skin: neutrophilic dermatoses like Sweet syndrome may herald or accompany it, a paraneoplastic clue that prompts a look at the marrow.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Some MDS scars the marrow: reticulin fibrosis worsens the cytopenias and carries a poorer prognosis, blurring the boundary with primary myelofibrosis.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
