@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Alcohol drops the platelet count: it suppresses their production in the marrow and shortens their life, so heavy drinkers bruise and bleed easily, a count that often rebounds within days of stopping."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging reveals alcohol's toll: brain MRI shows the shrinkage and the mammillary-body changes of Wernicke's, and fMRI photons map the reward-circuit response that drives craving."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Alcohol poisons the peripheral nerves: direct toxicity and thiamine deficiency cause a painful, numbing length-dependent neuropathy, one of its most common neurological harms."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Chronic drinking depletes zinc: poor intake and gut losses lower it, contributing to the skin problems, poor wound healing and weakened immunity seen in alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -351,6 +360,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Heavy drinking can acidify the blood: starved and metabolizing alcohol, the body makes ketones and lactate, so alcoholic ketoacidosis drops blood pH—a dangerous acidosis that can appear even with near-normal sugar.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Alcohol weakens and destabilizes the heart: years of drinking dilate and weaken the muscle into alcoholic cardiomyopathy, while even a binge can trigger atrial fibrillation—the so-called holiday heart.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Alcohol drops the platelet count: it suppresses their production in the marrow and shortens their life, so heavy drinkers bruise and bleed easily, a count that often rebounds within days of stopping.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging reveals alcohol's toll: brain MRI shows the shrinkage and the mammillary-body changes of Wernicke's, and fMRI photons map the reward-circuit response that drives craving.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Alcohol poisons the peripheral nerves: direct toxicity and thiamine deficiency cause a painful, numbing length-dependent neuropathy, one of its most common neurological harms.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Chronic drinking depletes zinc: poor intake and gut losses lower it, contributing to the skin problems, poor wound healing and weakened immunity seen in alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

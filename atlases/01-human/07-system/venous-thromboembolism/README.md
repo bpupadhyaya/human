@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Unresolved clots turn to fibrosis in the lungs: emboli that fail to clear organize into fibrous webs that narrow pulmonary arteries, causing chronic thromboembolic pulmonary hypertension, a late and treatable consequence."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "VTE is confirmed by imaging: CT pulmonary angiography in X-ray photons finds the lung clot, and nuclear V/Q scans map blocked blood flow when contrast can't be used."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Clots can strike the gut's veins: mesenteric and portal vein thrombosis chokes the bowel's drainage, causing severe abdominal pain and, if unrelieved, bowel infarction."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Some clots are born in the marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells and are a major cause of unprovoked and unusual-site venous thrombosis."
 ---
 
 # Venous Thromboembolism
@@ -282,6 +291,9 @@ cross_links:
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Veins can clot at the kidney: renal vein thrombosis is a venous thromboembolic event classically tied to nephrotic syndrome, whose urinary loss of anticoagulant proteins tips blood toward clotting.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages clean up venous clots: they invade the thrombus to break it down and remodel the vein, so when this resolution fails the clot organizes and scars, causing the post-thrombotic syndrome.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Unresolved clots turn to fibrosis in the lungs: emboli that fail to clear organize into fibrous webs that narrow pulmonary arteries, causing chronic thromboembolic pulmonary hypertension, a late and treatable consequence.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — VTE is confirmed by imaging: CT pulmonary angiography in X-ray photons finds the lung clot, and nuclear V/Q scans map blocked blood flow when contrast can't be used.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Clots can strike the gut's veins: mesenteric and portal vein thrombosis chokes the bowel's drainage, causing severe abdominal pain and, if unrelieved, bowel infarction.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some clots are born in the marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells and are a major cause of unprovoked and unusual-site venous thrombosis.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
