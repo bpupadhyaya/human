@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Lewy body disease wrecks the autonomic system: synuclein deposits damage the sympathetic nerves that command the adrenal-driven blood-pressure response, so fainting orthostatic hypotension is a prominent, early feature."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Lewy body disease unsettles sleep and wakefulness: synuclein damage to orexin-related arousal systems brings excessive daytime sleepiness and the dream-enacting REM sleep behavior disorder that often heralds it years early."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Autonomic failure stalls the body's smooth muscle: beyond fainting blood pressure, Lewy body disease slows gut and bladder smooth muscle into constipation and urinary trouble — non-motor features that often precede the dementia."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Treatment may one day come as antibody, and mimics must be excluded: anti-α-synuclein antibodies are being trialed to clear the aggregates, while autoimmune (antibody-mediated) encephalitis is a treatable mimic ruled out in rapidly progressive cases."
 ---
 
 # Lewy Body Dementia
@@ -317,6 +326,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the disease's namesake: Lewy bodies, dense spherical cores of aggregated alpha-synuclein filaments, fill neurons across the cortex — the same protein clumps as Parkinson's, but spread widely enough to steal cognition.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium handling fails in the dying neurons: misfolded alpha-synuclein disrupts the cell's calcium balance and the mitochondria that buffer it, an energy-and-calcium crisis that helps drive the widespread neuronal death.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Lewy body disease wrecks the autonomic system: synuclein deposits damage the sympathetic nerves that command the adrenal-driven blood-pressure response, so fainting orthostatic hypotension is a prominent, early feature.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Lewy body disease unsettles sleep and wakefulness: synuclein damage to orexin-related arousal systems brings excessive daytime sleepiness and the dream-enacting REM sleep behavior disorder that often heralds it years early.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Autonomic failure stalls the body's smooth muscle: beyond fainting blood pressure, Lewy body disease slows gut and bladder smooth muscle into constipation and urinary trouble — non-motor features that often precede the dementia.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Treatment may one day come as antibody, and mimics must be excluded: anti-α-synuclein antibodies are being trialed to clear the aggregates, while autoimmune (antibody-mediated) encephalitis is a treatable mimic ruled out in rapidly progressive cases.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

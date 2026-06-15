@@ -138,6 +138,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Iron is fuel for the brain: its lack dulls attention and, in children, impairs lasting cognitive development, while in adults it stirs the irresistible urge of restless legs and the strange cravings of pica."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Fiber-bound phytates blunt iron uptake: the phytic acid in whole grains, legumes, and nuts chelates non-heme iron in the gut, which is why heavily plant-based diets can struggle to maintain iron despite ample intake."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium competes with iron at the gut wall: taken together, calcium-rich dairy and supplements inhibit iron absorption, so iron tablets are best spaced away from milk and calcium pills."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Iron deficiency saps the muscles: beyond the oxygen-carrying hemoglobin, low iron starves the muscle's own myoglobin and aerobic enzymes, causing the exercise intolerance, weakness, and fatigue that mark the anemia."
 ---
 
 # Iron Deficiency Anemia
@@ -298,6 +307,9 @@ Iron is essential for:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows iron starvation in the red cell: the erythrocytes come out small and pale with a widened central hollow, microcytic and hypochromic because too little iron is left to fill them with hemoglobin.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye reveals the anemia at a glance: pulling down the lower lid shows pale conjunctiva instead of healthy pink, a classic bedside sign, and severe deficiency can scatter retinal hemorrhages across the back of the eye.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Iron is fuel for the brain: its lack dulls attention and, in children, impairs lasting cognitive development, while in adults it stirs the irresistible urge of restless legs and the strange cravings of pica.
+- `connects-to` → **[Dietary Fiber and Butyrate](../../../03-medicine/03-food/dietary-fiber/README.md)** — Fiber-bound phytates blunt iron uptake: the phytic acid in whole grains, legumes, and nuts chelates non-heme iron in the gut, which is why heavily plant-based diets can struggle to maintain iron despite ample intake.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium competes with iron at the gut wall: taken together, calcium-rich dairy and supplements inhibit iron absorption, so iron tablets are best spaced away from milk and calcium pills.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Iron deficiency saps the muscles: beyond the oxygen-carrying hemoglobin, low iron starves the muscle's own myoglobin and aerobic enzymes, causing the exercise intolerance, weakness, and fatigue that mark the anemia.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
