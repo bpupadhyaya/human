@@ -147,6 +147,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The skin can flag acute hepatitis B: a serum-sickness-like prodrome brings urticaria and joint pain before jaundice, and in children the papular Gianotti-Crosti rash can be the visible herald of infection."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Mother-to-child spread sustains the epidemic: perinatal transmission is the dominant global route and creates lifelong carriers, so birth-dose vaccine plus hepatitis-B immunoglobulin and maternal antivirals are given to break the chain; it also spreads sexually."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Its vasculitis can starve the bowel: hepatitis-B-driven polyarteritis nodosa inflames the mesenteric arteries, causing abdominal angina, GI bleeding, and at worst bowel infarction far from the infected liver."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Rarely the infection silences the marrow: hepatitis-associated aplastic anemia, a feared post-hepatitis complication thought to be immune-mediated, empties the bone marrow weeks to months after the acute illness."
 ---
 
 # Hepatitis B
@@ -325,3 +334,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Hepatitis B is read through its antibodies: anti-HBs signals immunity from vaccine or recovery, anti-HBc marks past or present infection, and the HBsAg/anti-HBe pattern stages the disease — the serology that tells infection apart from protection.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Hepatitis B can strike beyond the liver: by triggering polyarteritis nodosa it inflames the small arteries feeding peripheral nerves, producing a mononeuritis multiplex of patchy weakness and numbness.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin can flag acute hepatitis B: a serum-sickness-like prodrome brings urticaria and joint pain before jaundice, and in children the papular Gianotti-Crosti rash can be the visible herald of infection.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Mother-to-child spread sustains the epidemic: perinatal transmission is the dominant global route and creates lifelong carriers, so birth-dose vaccine plus hepatitis-B immunoglobulin and maternal antivirals are given to break the chain; it also spreads sexually.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Its vasculitis can starve the bowel: hepatitis-B-driven polyarteritis nodosa inflames the mesenteric arteries, causing abdominal angina, GI bleeding, and at worst bowel infarction far from the infected liver.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Rarely the infection silences the marrow: hepatitis-associated aplastic anemia, a feared post-hepatitis complication thought to be immune-mediated, empties the bone marrow weeks to months after the acute illness.

@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "The brain is not spared: HIT can throw clots into cerebral arteries or the venous sinuses, causing strokes and cerebral venous thrombosis that injure neurons — part of why it is so dangerous despite the low platelet count."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "HIT clots the muscular arteries too: 'white clot syndrome' lodges platelet-rich thrombi in the limb arteries lined by smooth muscle, causing acute ischemia and the venous limb gangrene that can cost a leg despite full anticoagulation."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Even the retina's vessels can clot: HIT's prothrombotic state has caused retinal artery and vein occlusions with sudden visual loss, one more unexpected site of the paradoxical thrombosis that defines the syndrome."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy complicates the choice of blood thinner: heparins are first-line for pregnancy clots because they don't cross the placenta, so HIT forces a switch to alternatives like fondaparinux, balancing maternal thrombosis against fetal safety."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -339,6 +348,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — HIT is an antibody disease in disguise: IgG against the PF4-heparin complex clusters FcγRIIa on platelets to activate them en masse, the paradoxical immune mechanism that drops the count while driving clots.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — HIT's clots reach the gut's circulation: the prothrombotic storm can seed portal, hepatic, and mesenteric vein thrombosis, threatening the liver and bowel alongside the more familiar limb and lung clots.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The brain is not spared: HIT can throw clots into cerebral arteries or the venous sinuses, causing strokes and cerebral venous thrombosis that injure neurons — part of why it is so dangerous despite the low platelet count.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — HIT clots the muscular arteries too: 'white clot syndrome' lodges platelet-rich thrombi in the limb arteries lined by smooth muscle, causing acute ischemia and the venous limb gangrene that can cost a leg despite full anticoagulation.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Even the retina's vessels can clot: HIT's prothrombotic state has caused retinal artery and vein occlusions with sudden visual loss, one more unexpected site of the paradoxical thrombosis that defines the syndrome.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy complicates the choice of blood thinner: heparins are first-line for pregnancy clots because they don't cross the placenta, so HIT forces a switch to alternatives like fondaparinux, balancing maternal thrombosis against fetal safety.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
