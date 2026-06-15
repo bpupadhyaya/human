@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "BHD's renal tumors lean on VEGF: losing FLCN stabilizes HIF, which drives VEGF and angiogenesis, helping feed the kidney cancers that are the syndrome's most dangerous feature."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "BHD is mapped by imaging: chest CT photons reveal the basal lung cysts that cause its recurrent collapsed lungs, and renal MRI screens for the kidney tumors it predisposes to."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "BHD's lung cysts arise in the alveolar tissue: thin-walled cysts form at the lung bases, weakening the air sacs so they rupture into the spontaneous pneumothorax that often first reveals the syndrome."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "BHD reaches the thyroid: the FLCN syndrome's tumor predisposition extends beyond the kidney to thyroid nodules and possible cancer, which is monitored alongside the lungs and kidneys."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -300,6 +309,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BHD lets air into the chest: its thin-walled lung cysts rupture and spill air—mostly nitrogen—into the pleural space, collapsing the lung in the recurrent spontaneous pneumothoraxes that often first reveal the syndrome.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — BHD's hallmark skin bumps are fibrous: fibrofolliculomas are benign hamartomas of fibrous tissue around hair follicles, the small white papules on the face that signal the FLCN mutation underneath.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — BHD's renal tumors lean on VEGF: losing FLCN stabilizes HIF, which drives VEGF and angiogenesis, helping feed the kidney cancers that are the syndrome's most dangerous feature.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — BHD is mapped by imaging: chest CT photons reveal the basal lung cysts that cause its recurrent collapsed lungs, and renal MRI screens for the kidney tumors it predisposes to.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — BHD's lung cysts arise in the alveolar tissue: thin-walled cysts form at the lung bases, weakening the air sacs so they rupture into the spontaneous pneumothorax that often first reveals the syndrome.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — BHD reaches the thyroid: the FLCN syndrome's tumor predisposition extends beyond the kidney to thyroid nodules and possible cancer, which is monitored alongside the lungs and kidneys.
 
 ---
 

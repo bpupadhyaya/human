@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Basal cell carcinoma is recognized by its vessels: endothelial cells form the fine, branching surface telangiectasias over a pearly nodule—a hallmark seen on dermoscopy—and feed the tumor's growth."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Neglected facial basal cell carcinoma can reach the brain: by creeping along cranial nerves, advanced tumors invade the skull base and intracranial space, a rare but grave outcome of a usually local cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "The Gorlin syndrome behind multiple basal cell carcinomas calcifies the brain: calcification of the falx cerebri, the dural sheet between the hemispheres, is a diagnostic clue to the inherited disease."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Basal cell carcinoma dodges death through BCL-2: it strongly expresses this anti-apoptotic protein, which both helps the tumor survive and serves as a marker on biopsy."
 ---
 
 # Basal Cell Carcinoma
@@ -281,6 +290,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The morpheaform basal cell carcinoma hides in fibrosis: this sclerosing subtype provokes a dense fibrous stroma, so the tumor infiltrates like scar tissue with ill-defined edges that make it hard to fully excise.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Aggressive basal cell carcinoma can track along nerves: perineural invasion lets the tumor creep down peripheral nerves beyond its visible border, causing pain or numbness and demanding wider treatment.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Basal cell carcinoma is recognized by its vessels: endothelial cells form the fine, branching surface telangiectasias over a pearly nodule—a hallmark seen on dermoscopy—and feed the tumor's growth.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Neglected facial basal cell carcinoma can reach the brain: by creeping along cranial nerves, advanced tumors invade the skull base and intracranial space, a rare but grave outcome of a usually local cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The Gorlin syndrome behind multiple basal cell carcinomas calcifies the brain: calcification of the falx cerebri, the dural sheet between the hemispheres, is a diagnostic clue to the inherited disease.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Basal cell carcinoma dodges death through BCL-2: it strongly expresses this anti-apoptotic protein, which both helps the tumor survive and serves as a marker on biopsy.
 
 ---
 
