@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/03-molecular/acetylcholine
     relation: connects-to
     note: "Cholinergic signaling soothes the pain pathway: spinal muscarinic and nicotinic receptors blunt pain transmission, so boosting acetylcholine is one mechanism behind certain analgesics and a target explored for neuropathic pain."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both cause and treat nerve pain: autoantibodies against gangliosides and MAG drive the painful neuropathies of GBS and CIDP, while anti-NGF monoclonal antibodies like tanezumab were developed to silence pain at its growth-factor source."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Pain and mood share circuits and drugs: chronic neuropathic pain breeds depression, the two amplifying each other through overlapping serotonin-noradrenaline pathways, which is why SNRIs and tricyclics treat both at once."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney both causes and constrains: uremic neuropathy makes the nerves ache in kidney failure, and because gabapentin and pregabalin are cleared renally, their doses must be cut to avoid toxic accumulation in these patients."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -333,6 +342,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Adenosine quiets pain at the spinal cord: acting on A1 receptors it hyperpolarizes pain neurons and dampens transmission, a built-in analgesic brake that drugs and even acupuncture are thought to recruit against neuropathic pain.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Neuropathic pain is partly an immune disease: T cells infiltrate injured nerves and dorsal root ganglia, releasing cytokines that sensitize pain neurons — which is why the pain outlasts the injury and resists ordinary painkillers.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Cholinergic signaling soothes the pain pathway: spinal muscarinic and nicotinic receptors blunt pain transmission, so boosting acetylcholine is one mechanism behind certain analgesics and a target explored for neuropathic pain.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both cause and treat nerve pain: autoantibodies against gangliosides and MAG drive the painful neuropathies of GBS and CIDP, while anti-NGF monoclonal antibodies like tanezumab were developed to silence pain at its growth-factor source.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Pain and mood share circuits and drugs: chronic neuropathic pain breeds depression, the two amplifying each other through overlapping serotonin-noradrenaline pathways, which is why SNRIs and tricyclics treat both at once.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney both causes and constrains: uremic neuropathy makes the nerves ache in kidney failure, and because gabapentin and pregabalin are cleared renally, their doses must be cut to avoid toxic accumulation in these patients.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

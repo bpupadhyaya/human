@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils mark the 'H' in NASH: their infiltration around ballooned, fat-laden hepatocytes — forming satellitosis and Mallory-Denk bodies — is the lobular inflammation that separates simple fatty liver from true steatohepatitis."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "NASH and PCOS are two faces of insulin resistance: polycystic ovary syndrome sharply raises the risk of fatty liver and steatohepatitis in young women, so the liver and the ovary are screened together when one is found."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet is the cornerstone of treatment: cutting fructose and processed food while eating a high-fiber, Mediterranean pattern, with weight loss, can reverse the fat and inflammation of NASH before fibrosis sets in."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The real killer in NASH is the artery: the same metabolic inflammation injures the endothelial lining and accelerates atherosclerosis, so cardiovascular disease — not the liver — is the leading cause of death in these patients."
 ---
 
 # NASH
@@ -284,6 +293,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — NASH is staged by its collagen: activated hepatic stellate cells pour collagen into the liver, and how much they have laid down — fibrosis stage F0 to F4 — is the single strongest predictor of whether the disease progresses to cirrhosis.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Once NASH scars into cirrhosis the brain suffers: the failing liver can no longer clear ammonia, which builds up to cause hepatic encephalopathy — confusion, asterixis, and at worst coma.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark the 'H' in NASH: their infiltration around ballooned, fat-laden hepatocytes — forming satellitosis and Mallory-Denk bodies — is the lobular inflammation that separates simple fatty liver from true steatohepatitis.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — NASH and PCOS are two faces of insulin resistance: polycystic ovary syndrome sharply raises the risk of fatty liver and steatohepatitis in young women, so the liver and the ovary are screened together when one is found.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet is the cornerstone of treatment: cutting fructose and processed food while eating a high-fiber, Mediterranean pattern, with weight loss, can reverse the fat and inflammation of NASH before fibrosis sets in.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The real killer in NASH is the artery: the same metabolic inflammation injures the endothelial lining and accelerates atherosclerosis, so cardiovascular disease — not the liver — is the leading cause of death in these patients.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
