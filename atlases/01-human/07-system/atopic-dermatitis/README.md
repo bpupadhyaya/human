@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Scratched eczema invites infection: the broken barrier is readily colonized by Staphylococcus aureus, and frank impetiginization draws neutrophils as the oozing, crusted flare of secondary bacterial infection sets in."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Visible, sleepless itch wears down the mind: atopic dermatitis carries high rates of depression and anxiety from chronic itch, broken sleep, and the social toll of inflamed skin, so mental health is part of its care."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy unsettles the eczema: atopic dermatitis commonly flares in pregnancy (atopic eruption of pregnancy), and the safety of systemic drugs and dupilumab must be weighed when treating an expecting patient."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Chronic scratching remodels the skin: years of rubbing thicken it into leathery, lichenified plaques as fibroblasts lay down dermal collagen, the fibrotic end-stage of long-standing atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -318,6 +327,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Biologic antibodies rewrote eczema care: dupilumab blocks the shared IL-4/IL-13 receptor and tralokinumab targets IL-13, monoclonal antibodies that calm the type-2 inflammation — while sky-high IgE marks the atopic state behind it.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The itch is worst at night: eczema flares as cortisol falls and skin loses water in the evening, and the disrupted melatonin and broken sleep that follow blunt mood, growth, and the next day's coping.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Scratched eczema invites infection: the broken barrier is readily colonized by Staphylococcus aureus, and frank impetiginization draws neutrophils as the oozing, crusted flare of secondary bacterial infection sets in.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Visible, sleepless itch wears down the mind: atopic dermatitis carries high rates of depression and anxiety from chronic itch, broken sleep, and the social toll of inflamed skin, so mental health is part of its care.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy unsettles the eczema: atopic dermatitis commonly flares in pregnancy (atopic eruption of pregnancy), and the safety of systemic drugs and dupilumab must be weighed when treating an expecting patient.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic scratching remodels the skin: years of rubbing thicken it into leathery, lichenified plaques as fibroblasts lay down dermal collagen, the fibrotic end-stage of long-standing atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
