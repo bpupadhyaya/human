@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Kidney and brain share fate: uremic toxins cloud the mind, the kidney's blood-pressure control guards against stroke, and rapid dialysis can swell the brain in disequilibrium syndrome."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the kidney's exquisite filter: podocyte foot processes interdigitate over the slit diaphragm above a basement membrane and fenestrated endothelium — the three-layer barrier that holds back protein while letting water and salts pass."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "The kidney is the body's magnesium thermostat: it finely tunes how much of the mineral is reabsorbed or spilled into urine, so renal and tubular disorders are a leading cause of both magnesium deficiency and excess."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Kidney and lung jointly hold the body's pH steady: the lungs blow off carbon dioxide while the kidney adjusts bicarbonate and acid, and when the kidney fails to clear fluid, the backed-up water floods the lungs as pulmonary edema."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -270,6 +279,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Photon](../../01-subatomic/photon/README.md) — the kidney is read by imaging: ultrasound and CT photons reveal stones, obstruction and cysts, while nuclear renography traces how well each kidney filters and drains.
 - **Connects to:** [Bone Marrow](../../05-tissue/bone-marrow/README.md) — the kidney commands the bone marrow: its erythropoietin tells the marrow how many red cells to make, so kidney failure causes the anemia of chronic kidney disease.
 - **Connects to:** [Brain](../../06-organ/brain/README.md) — kidney and brain share fate: uremic toxins cloud the mind, the kidney's blood-pressure control guards against stroke, and rapid dialysis can swell the brain in disequilibrium syndrome.
+- **Connects to:** [Electron](../../01-subatomic/electron/README.md) — electron microscopy reveals the kidney's exquisite filter: podocyte foot processes interdigitate over the slit diaphragm above a basement membrane and fenestrated endothelium — the three-layer barrier holding back protein while passing water and salts.
+- **Connects to:** [Magnesium](../../02-atomic/magnesium/README.md) — the kidney is the body's magnesium thermostat: it finely tunes how much is reabsorbed or spilled into urine, so renal and tubular disorders are a leading cause of both magnesium deficiency and excess.
+- **Connects to:** [Lung](../../06-organ/lung/README.md) — kidney and lung jointly hold the body's pH steady: the lungs blow off carbon dioxide while the kidney adjusts bicarbonate and acid, and when the kidney fails to clear fluid, the backed-up water floods the lungs as pulmonary edema.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

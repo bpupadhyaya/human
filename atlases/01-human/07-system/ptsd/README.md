@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/03-molecular/glucocorticoid-receptor
     relation: connects-to
     note: "PTSD's stress axis is paradoxically hypersensitive: more sensitive glucocorticoid receptors enhance cortisol's negative feedback, so cortisol runs low even as the system overreacts to reminders of trauma."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Trauma may reshape the brain's wiring insulation: chronic stress alters oligodendrocytes and myelination in the fear-circuit tracts, and the resulting white-matter changes are seen on imaging in PTSD."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "PTSD speaks to the gut: it is tightly comorbid with irritable bowel syndrome, the trauma-primed stress axis and altered gut-brain signaling disturbing motility and sensation in the bowel."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Chronic stress burns through magnesium: the sustained HPA activation of PTSD depletes the mineral, and because magnesium restrains both the stress axis and the NMDA receptors of fear, its loss can deepen the hyperarousal."
 ---
 
 # PTSD
@@ -309,6 +318,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging maps PTSD: fMRI photons reveal an overactive amygdala and underactive prefrontal cortex, alongside a smaller hippocampus, the neural signature of trauma's lasting grip.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — PTSD is written in neurons: amygdala fear neurons overfire while the hippocampal and prefrontal neurons that should place the fear in context and dampen it are impaired, so danger feels ever-present.
 - `connects-to` → **[Glucocorticoid Receptor](../../03-molecular/glucocorticoid-receptor/README.md)** — PTSD's stress axis is paradoxically hypersensitive: more sensitive glucocorticoid receptors enhance cortisol's negative feedback, so cortisol runs low even as the system overreacts to reminders of trauma.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Trauma may reshape the brain's wiring insulation: chronic stress alters oligodendrocytes and myelination in the fear-circuit tracts, and the resulting white-matter changes are seen on imaging in PTSD.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — PTSD speaks to the gut: it is tightly comorbid with irritable bowel syndrome, the trauma-primed stress axis and altered gut-brain signaling disturbing motility and sensation in the bowel.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic stress burns through magnesium: the sustained HPA activation of PTSD depletes the mineral, and because magnesium restrains both the stress axis and the NMDA receptors of fear, its loss can deepen the hyperarousal.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
