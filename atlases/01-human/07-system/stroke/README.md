@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/03-molecular/cholesterol
     relation: connects-to
     note: "Lowering LDL guards against the next one: high cholesterol builds the carotid and cerebral plaques that throw clots, so statins and other LDL-lowering drugs are a cornerstone of preventing ischemic stroke."
+  - target: 01-human/07-system/inherited-thrombophilia
+    relation: connects-to
+    note: "Clotting genes cause stroke in the young: inherited thrombophilias raise the risk of cerebral venous thrombosis and, via a patent foramen, paradoxical arterial stroke, so an unexplained young stroke prompts a hypercoagulability workup."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The artery wall's muscle shapes the stroke: vascular smooth muscle builds the cerebral plaques and, in small-vessel disease and vasospasm after hemorrhage, its dysfunction narrows the arteries that feed the brain."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "A stroke can leave the brain in pain: damage to the thalamus or sensory pathways causes central post-stroke pain, a relentless neuropathic burning on the paralyzed side that is hard to treat."
 ---
 
 # Stroke
@@ -315,6 +324,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Recovery is fought in the muscles: a stroke leaves hemiparesis, then spasticity and contractures, and disuse wastes the affected limbs — making physical rehabilitation the long, central work of regaining function.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Heart and brain trade blows: a clot from a fibrillating or infarcted heart causes cardioembolic stroke, while the stroke itself can stun the cardiomyocytes — neurogenic Takotsubo and arrhythmia from the catecholamine surge.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lowering LDL guards against the next one: high cholesterol builds the carotid and cerebral plaques that throw clots, so statins and other LDL-lowering drugs are a cornerstone of preventing ischemic stroke.
+- `connects-to` → **[Inherited Thrombophilia](../inherited-thrombophilia/README.md)** — Clotting genes cause stroke in the young: inherited thrombophilias raise the risk of cerebral venous thrombosis and, via a patent foramen, paradoxical arterial stroke, so an unexplained young stroke prompts a hypercoagulability workup.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The artery wall's muscle shapes the stroke: vascular smooth muscle builds the cerebral plaques and, in small-vessel disease and vasospasm after hemorrhage, its dysfunction narrows the arteries that feed the brain.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — A stroke can leave the brain in pain: damage to the thalamus or sensory pathways causes central post-stroke pain, a relentless neuropathic burning on the paralyzed side that is hard to treat.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

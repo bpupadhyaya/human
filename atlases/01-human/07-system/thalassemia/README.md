@@ -162,6 +162,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Thalassemic bone is fragile and vitamin-D-poor: marrow expansion, iron's endocrine damage, and frequent vitamin D deficiency combine into the osteoporosis these patients carry, so vitamin D and calcium are part of bone care."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Thalassemia tips the blood toward clotting: abnormal red-cell membranes and the loss of the spleen's filtering leave a hypercoagulable state, so non-transfusion-dependent and splenectomized patients carry a raised risk of venous thrombosis."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Thalassemic bone disease starts in the builder cell: iron and marrow expansion suppress osteoblasts while osteoclasts run on, tipping the balance to the early, severe osteoporosis characteristic of the disease."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The gut over-absorbs iron in thalassemia: the expanded, ineffective erythropoiesis suppresses hepcidin, so the small intestine keeps drinking in dietary iron and drives overload even in patients who are never transfused."
 ---
 
 # Thalassemia
@@ -354,6 +363,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Iron overload poisons the endocrine glands: transfusional iron deposits in the adrenal as well as the pituitary, gonads, and pancreas, so adrenal insufficiency joins the diabetes and hypogonadism of poorly chelated thalassemia.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Splenectomy strips a layer of defense: without the spleen's filtering, thalassemia patients face overwhelming infection by encapsulated bacteria despite their neutrophils, requiring vaccination and prompt antibiotics for fevers.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Thalassemic bone is fragile and vitamin-D-poor: marrow expansion, iron's endocrine damage, and frequent vitamin D deficiency combine into the osteoporosis these patients carry, so vitamin D and calcium are part of bone care.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Thalassemia tips the blood toward clotting: abnormal red-cell membranes and the loss of the spleen's filtering leave a hypercoagulable state, so non-transfusion-dependent and splenectomized patients carry a raised risk of venous thrombosis.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Thalassemic bone disease starts in the builder cell: iron and marrow expansion suppress osteoblasts while osteoclasts run on, tipping the balance to the early, severe osteoporosis characteristic of the disease.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut over-absorbs iron in thalassemia: the expanded, ineffective erythropoiesis suppresses hepcidin, so the small intestine keeps drinking in dietary iron and drives overload even in patients who are never transfused.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
