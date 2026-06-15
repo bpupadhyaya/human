@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Huntington's brain smolders with TNF-α: activated microglia release this cytokine, and the chronic neuroinflammation it drives compounds the degeneration of the vulnerable striatal neurons."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Huntington's shows on MRI: the photons reveal the shrunken caudate and putamen that flatten the ventricle's edge, a structural marker that tracks the disease as it advances."
+  - target: 01-human/05-tissue/hippocampus
+    relation: connects-to
+    note: "Huntington's reaches beyond the striatum into the hippocampus: its degeneration contributes to the memory and learning deficits that accompany the movement disorder."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Huntington's disrupts the immune system too: mutant huntingtin in immune cells makes monocytes and T cells hyperreactive, adding peripheral inflammation to the neurodegeneration."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -193,3 +202,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Huntington's reaches the pancreas: the disease is linked to diabetes and impaired insulin output, as mutant huntingtin disturbs pancreatic islet cells alongside its toll on the brain.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Huntington's burns through fat: a hypermetabolic state and altered adipocytes drive the relentless weight loss that marks the disease, so patients need far more calories than expected.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Huntington's brain smolders with TNF-α: activated microglia release this cytokine, and the chronic neuroinflammation it drives compounds the degeneration of the vulnerable striatal neurons.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Huntington's shows on MRI: the photons reveal the shrunken caudate and putamen that flatten the ventricle's edge, a structural marker that tracks the disease as it advances.
+- `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — Huntington's reaches beyond the striatum into the hippocampus: its degeneration contributes to the memory and learning deficits that accompany the movement disorder.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Huntington's disrupts the immune system too: mutant huntingtin in immune cells makes monocytes and T cells hyperreactive, adding peripheral inflammation to the neurodegeneration.

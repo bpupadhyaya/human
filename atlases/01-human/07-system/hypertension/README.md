@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Hypertension forces cardiomyocytes to grow: pumping against high pressure makes heart-muscle cells enlarge, thickening the left ventricle into hypertensive heart disease that eventually stiffens and fails."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging hunts secondary and end-organ hypertension: CT and MR angiography photons find renal-artery stenosis and adrenal tumors, while echocardiography measures the thickened, straining heart."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Hypertension has an immune side: macrophages infiltrate the kidney and vessel walls, and the salt they help handle and the inflammation they drive contribute to the rise in blood pressure."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Hypertension is partly a nerve disease: overactive sympathetic peripheral nerves drive up the pressure, which is why renal denervation—burning the kidney's nerves—is a treatment for resistant cases."
 ---
 
 # Hypertension
@@ -250,6 +259,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Hypertension is read in the eye: high pressure narrows and damages retinal vessels (hypertensive retinopathy), a visible window onto the systemic vascular harm the disease does everywhere.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Hypertension stiffens organs with fibrosis: sustained pressure drives the heart and arteries to lay down collagen, thickening and scarring the walls, a remodeling that worsens the disease and damages the kidney too.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Hypertension forces cardiomyocytes to grow: pumping against high pressure makes heart-muscle cells enlarge, thickening the left ventricle into hypertensive heart disease that eventually stiffens and fails.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging hunts secondary and end-organ hypertension: CT and MR angiography photons find renal-artery stenosis and adrenal tumors, while echocardiography measures the thickened, straining heart.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hypertension has an immune side: macrophages infiltrate the kidney and vessel walls, and the salt they help handle and the inflammation they drive contribute to the rise in blood pressure.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Hypertension is partly a nerve disease: overactive sympathetic peripheral nerves drive up the pressure, which is why renal denervation—burning the kidney's nerves—is a treatment for resistant cases.
 
 ## Pathology
 
