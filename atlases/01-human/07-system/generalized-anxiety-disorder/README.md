@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Anxiety quickens the breath: hyperventilation and air hunger are core physical symptoms, and the low CO2 that results causes the tingling and lightheadedness of an anxiety attack."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc helps keep anxiety in check: it modulates the GABA and glutamate balance of the calming circuits, and low zinc is reported in anxiety disorders, with supplementation studied as an adjunct to standard treatment."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Anxiety churns the stomach: the gut-brain axis turns worry into nausea, 'butterflies,' and functional dyspepsia, so abdominal distress is one of the most common bodily complaints of generalized anxiety."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D shadows the anxious mind: deficiency is associated with higher anxiety, and the vitamin's receptors throughout mood-regulating brain regions suggest it helps tune the circuits that worry overactivates."
 ---
 
 # Generalized Anxiety Disorder
@@ -317,6 +326,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Anxiety shows on fMRI: photons map an overactive amygdala and weak prefrontal control, the brain pattern of an exaggerated threat response that underlies generalized anxiety.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes tune the anxiety circuit's glutamate, and their dysfunction is implicated in the over-excitable fear networks of generalized anxiety, extending the disorder beyond neurons alone.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Anxiety quickens the breath: hyperventilation and air hunger are core physical symptoms, and the low CO2 that results causes the tingling and lightheadedness of an anxiety attack.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps keep anxiety in check: it modulates the GABA and glutamate balance of the calming circuits, and low zinc is reported in anxiety disorders, with supplementation studied as an adjunct to standard treatment.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Anxiety churns the stomach: the gut-brain axis turns worry into nausea, 'butterflies,' and functional dyspepsia, so abdominal distress is one of the most common bodily complaints of generalized anxiety.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the anxious mind: deficiency is associated with higher anxiety, and the vitamin's receptors throughout mood-regulating brain regions suggest it helps tune the circuits that worry overactivates.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

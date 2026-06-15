@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Chronic GVHD can attack the nerves and muscle: polyneuropathy, myositis and a myasthenia-like syndrome are recognized neuromuscular complications of the prolonged autoimmune assault."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows GVHD killing cell by cell: donor T cells trigger apoptosis of individual keratinocytes in the skin and crypt cells in the gut, the scattered single-cell death — satellite cell necrosis — that is the disease's histologic signature."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "GVHD strikes the upper gut too: beyond the diarrhea of intestinal involvement, gastric GVHD brings nausea, vomiting, early satiety, and anorexia, diagnosed by biopsy of the stomach lining."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Chronic GVHD can reach the kidney: it is an unusual cause of membranous nephropathy and nephrotic syndrome, the misdirected immune attack depositing in the glomerulus long after the transplant."
 ---
 
 # Graft-Versus-Host Disease
@@ -313,6 +322,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GVHD prophylaxis wastes magnesium: the calcineurin inhibitors cyclosporine and tacrolimus make the kidney spill it, so hypomagnesemia—and the seizures it can provoke—is a common side effect of preventing the disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 sits at the center of GVHD control: calcineurin inhibitors block its production to stop donor T cells, while low-dose IL-2 is given to expand regulatory T cells and calm chronic disease.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Chronic GVHD can attack the nerves and muscle: polyneuropathy, myositis and a myasthenia-like syndrome are recognized neuromuscular complications of the prolonged autoimmune assault.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows GVHD killing cell by cell: donor T cells trigger apoptosis of individual keratinocytes in the skin and crypt cells in the gut, the scattered single-cell death — satellite cell necrosis — that is the disease's histologic signature.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — GVHD strikes the upper gut too: beyond the diarrhea of intestinal involvement, gastric GVHD brings nausea, vomiting, early satiety, and anorexia, diagnosed by biopsy of the stomach lining.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Chronic GVHD can reach the kidney: it is an unusual cause of membranous nephropathy and nephrotic syndrome, the misdirected immune attack depositing in the glomerulus long after the transplant.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
