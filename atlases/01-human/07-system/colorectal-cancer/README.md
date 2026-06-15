@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Colorectal cancer can reach the brain late: though it spreads first to liver and lung, advanced disease occasionally seeds brain metastases, a sign of widespread disease that shifts care toward palliative and systemic treatment."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency is often the first clue to colorectal cancer: right-sided tumors bleed slowly into the stool, so unexplained iron-deficiency anemia in an older adult is a red flag that should prompt a colonoscopy."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Colorectal tumors build their own blood supply: VEGF recruits endothelial cells to sprout new vessels, and blocking this with bevacizumab is a mainstay of treating metastatic disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "A dense fibrotic stroma walls off colorectal cancer: the tumor provokes desmoplastic scar tissue that shields it from immune cells and drugs, part of why microsatellite-stable disease resists immunotherapy."
 ---
 
 # Colorectal Cancer
@@ -275,6 +284,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Dietary calcium helps guard against colorectal cancer: it binds bile acids and fatty acids in the gut and signals colon cells to differentiate, so adequate calcium is one of the better-supported dietary protections against the disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Tumor-associated macrophages shape colorectal cancer: depending on their polarization they can promote or restrain the tumor, and a macrophage-rich, suppressive stroma helps the common microsatellite-stable cancers evade immunity.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Colorectal cancer can reach the brain late: though it spreads first to liver and lung, advanced disease occasionally seeds brain metastases, a sign of widespread disease that shifts care toward palliative and systemic treatment.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency is often the first clue to colorectal cancer: right-sided tumors bleed slowly into the stool, so unexplained iron-deficiency anemia in an older adult is a red flag that should prompt a colonoscopy.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Colorectal tumors build their own blood supply: VEGF recruits endothelial cells to sprout new vessels, and blocking this with bevacizumab is a mainstay of treating metastatic disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — A dense fibrotic stroma walls off colorectal cancer: the tumor provokes desmoplastic scar tissue that shields it from immune cells and drugs, part of why microsatellite-stable disease resists immunotherapy.
 
 ---
 

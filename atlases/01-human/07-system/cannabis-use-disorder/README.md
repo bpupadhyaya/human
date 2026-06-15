@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes carry part of cannabis's brain effect: they bear CB1 receptors and, when THC engages them, alter glutamate handling at synapses, contributing to the memory impairment seen with heavy use."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "THC hides in body fat: being highly fat-soluble, it accumulates in adipocytes and releases slowly back into the blood, which is why cannabis lingers for weeks and urine tests stay positive long after use."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Cannabis leaves its mark on the eyes: it dilates conjunctival vessels to redden them and transiently lowers intraocular pressure, a long-studied but impractical effect once eyed for glaucoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Cannabinoid hyperemesis can throw off electrolytes: the syndrome's relentless cyclic vomiting depletes potassium and fluids, occasionally to dangerous levels needing replacement."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -289,6 +298,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Cannabis works by hijacking synapses: THC mimics the endocannabinoids that neurons release backward across the synapse to dial down transmission, so chronic use blunts and remodels this feedback, contributing to tolerance and cognitive effects.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Heavy cannabis use can paradoxically wreck the gut: cannabinoid hyperemesis syndrome causes cyclic vomiting relieved oddly by hot showers, reflecting the dense endocannabinoid signaling in the intestine that chronic use derails.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes carry part of cannabis's brain effect: they bear CB1 receptors and, when THC engages them, alter glutamate handling at synapses, contributing to the memory impairment seen with heavy use.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — THC hides in body fat: being highly fat-soluble, it accumulates in adipocytes and releases slowly back into the blood, which is why cannabis lingers for weeks and urine tests stay positive long after use.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Cannabis leaves its mark on the eyes: it dilates conjunctival vessels to redden them and transiently lowers intraocular pressure, a long-studied but impractical effect once eyed for glaucoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Cannabinoid hyperemesis can throw off electrolytes: the syndrome's relentless cyclic vomiting depletes potassium and fluids, occasionally to dangerous levels needing replacement.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
