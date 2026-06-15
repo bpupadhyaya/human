@@ -131,6 +131,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "The lymphatic system returns its fluid to the blood at the heart: the thoracic duct empties into the great veins near it, closing the loop between lymph and circulation."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the lymphatic capillary's clever valve: its endothelial cells overlap as loose flaps tethered by anchoring filaments, opening one way to admit fluid and large molecules and closing to keep them from leaking back."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The brain was long thought to have no lymphatics — then they were found: meningeal lymphatic vessels and the glymphatic flow along blood vessels drain the brain's waste, a discovery reshaping how we think about Alzheimer's and brain fluid."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney has its own lymphatic drainage: renal lymphatics clear interstitial fluid and immune cells from the kidney, and their dysfunction contributes to the swelling and inflammation of kidney disease."
 ---
 
 # Lymphatic System
@@ -278,6 +287,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The lymphatic system is mapped with radiotracers: lymphoscintigraphy follows injected photons to find the sentinel node in cancer staging and to chart blocked drainage in lymphedema.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Lymph is pumped, not just drained: smooth-muscle cells in the walls of collecting lymphatics contract rhythmically to push lymph against gravity toward the chest.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The lymphatic system returns its fluid to the blood at the heart: the thoracic duct empties into the great veins near it, closing the loop between lymph and circulation.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the lymphatic capillary's clever valve: its endothelial cells overlap as loose flaps tethered by anchoring filaments, opening one way to admit fluid and large molecules and closing to keep them from leaking back.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The brain was long thought to have no lymphatics — then they were found: meningeal lymphatic vessels and the glymphatic flow along blood vessels drain the brain's waste, a discovery reshaping how we think about Alzheimer's and brain fluid.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney has its own lymphatic drainage: renal lymphatics clear interstitial fluid and immune cells from the kidney, and their dysfunction contributes to the swelling and inflammation of kidney disease.
 
 ## Pathology
 
