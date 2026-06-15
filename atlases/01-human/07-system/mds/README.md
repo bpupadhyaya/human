@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "Years of transfusions overload the liver: as MDS patients receive red cells for their anemia, iron with nowhere to go accumulates in hepatocytes, driving the fibrosis that makes iron chelation part of long-term care."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Transfusional iron poisons the pancreas: deposited in the islet cells over years of red-cell support, the excess iron can damage insulin production into a secondary diabetes — one of the endocrine costs of treating MDS anemia."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "MDS keeps strange autoimmune company: it associates with vasculitis, Sweet's syndrome, and the VEXAS syndrome, and some patients' cytopenias are immune-driven and respond to immunosuppression — autoimmunity riding alongside the clonal marrow."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lungs are a frequent battleground: deep neutropenia leaves MDS patients prone to pneumonia and fungal infection, and the hypomethylating drug azacitidine can itself rarely inflame the lungs into a pneumonitis."
 ---
 
 # Myelodysplastic Syndromes
@@ -286,6 +295,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals MDS's iron-clogged cells: ringed sideroblasts pack iron into mitochondria circling the red-cell nucleus, while dysplastic granulocytes and giant platelets betray a marrow producing defective blood.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Too much zinc can fake MDS: excess zinc drives out copper, and the resulting copper deficiency causes a reversible dysplasia and cytopenias that mimic the marrow disease — a mimic worth excluding before the real diagnosis.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Years of transfusions overload the liver: as MDS patients receive red cells for their anemia, iron with nowhere to go accumulates in hepatocytes, driving the fibrosis that makes iron chelation part of long-term care.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Transfusional iron poisons the pancreas: deposited in the islet cells over years of red-cell support, the excess iron can damage insulin production into a secondary diabetes — one of the endocrine costs of treating MDS anemia.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — MDS keeps strange autoimmune company: it associates with vasculitis, Sweet's syndrome, and the VEXAS syndrome, and some patients' cytopenias are immune-driven and respond to immunosuppression — autoimmunity riding alongside the clonal marrow.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs are a frequent battleground: deep neutropenia leaves MDS patients prone to pneumonia and fungal infection, and the hypomethylating drug azacitidine can itself rarely inflame the lungs into a pneumonitis.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

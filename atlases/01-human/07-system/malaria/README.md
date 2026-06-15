@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Severe malaria can paralyze the gut: parasitized red cells sequester in the intestinal microvasculature, causing the abdominal pain, diarrhea, and bowel ischemia of 'algid malaria' that can mimic a surgical abdomen."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Cerebral malaria is the deadliest face of the disease: parasitized red cells jam the brain's microvessels, and the resulting ischemia and inflammation injure neurons into coma and seizures, leaving lasting cognitive deficits in surviving children."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Malaria can crash the blood sugar: the parasite's heavy glucose consumption plus quinine-driven insulin release from the pancreas cause a dangerous hypoglycemia, especially in pregnant women and severe disease."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Severe malaria dilutes the blood's sodium: an SIADH-like release of vasopressin and fluid shifts commonly drop sodium into hyponatremia, which can worsen the confusion and seizures of the acute illness."
 ---
 
 # Malaria
@@ -340,6 +349,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals how malaria sticks and hides: the infected red cell sprouts surface knobs that anchor adhesion proteins to vessel walls, while inside, the parasite crystallizes toxic heme into inert hemozoin pigment within its digestive vacuole.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signals the parasite's every move: rising calcium triggers the merozoites to burst from and reinvade red cells, making the ion a drug target — while severe malaria itself drives the blood calcium dangerously low.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Severe malaria can paralyze the gut: parasitized red cells sequester in the intestinal microvasculature, causing the abdominal pain, diarrhea, and bowel ischemia of 'algid malaria' that can mimic a surgical abdomen.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Cerebral malaria is the deadliest face of the disease: parasitized red cells jam the brain's microvessels, and the resulting ischemia and inflammation injure neurons into coma and seizures, leaving lasting cognitive deficits in surviving children.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Malaria can crash the blood sugar: the parasite's heavy glucose consumption plus quinine-driven insulin release from the pancreas cause a dangerous hypoglycemia, especially in pregnant women and severe disease.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Severe malaria dilutes the blood's sodium: an SIADH-like release of vasopressin and fluid shifts commonly drop sodium into hyponatremia, which can worsen the confusion and seizures of the acute illness.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
