@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The gut may sway ADHD: emerging work ties the intestinal microbiome to attention and behavior through the gut-brain axis, hinting the bowel's microbes influence symptoms."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium runs low in many with ADHD: the mineral supports the neurotransmitter balance behind focus and calm, and deficiency is associated with worse symptoms, making it a studied nutritional adjunct."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D in early life may shape ADHD risk: low maternal and childhood levels are linked to higher rates of the disorder, fitting the vitamin's role in the developing brain."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "ADHD and the itchy skin travel together: it is notably comorbid with atopic dermatitis, the sleep-wrecking itch and shared inflammatory and neurodevelopmental threads linking the gut, skin, and attention."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -329,6 +338,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging shows ADHD's delayed wiring: MRI photons reveal slower cortical maturation and altered connectivity, and fMRI maps underactivity in the attention and reward networks.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — ADHD involves delayed white matter: the oligodendrocytes that myelinate the connections between attention regions mature slowly, slowing the brain's information highways.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut may sway ADHD: emerging work ties the intestinal microbiome to attention and behavior through the gut-brain axis, hinting the bowel's microbes influence symptoms.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium runs low in many with ADHD: the mineral supports the neurotransmitter balance behind focus and calm, and deficiency is associated with worse symptoms, making it a studied nutritional adjunct.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D in early life may shape ADHD risk: low maternal and childhood levels are linked to higher rates of the disorder, fitting the vitamin's role in the developing brain.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — ADHD and the itchy skin travel together: it is notably comorbid with atopic dermatitis, the sleep-wrecking itch and shared inflammatory and neurodevelopmental threads linking the gut, skin, and attention.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

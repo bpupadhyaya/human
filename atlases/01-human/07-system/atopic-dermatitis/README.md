@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibroblasts thicken chronic eczema: in lichenified skin they lay down extra collagen in response to persistent scratching and inflammation, producing the leathery, deeply lined plaques."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the leaky barrier of eczema: filaggrin-deficient skin makes too few of the lamellar lipid layers that seal the stratum corneum, and inflamed cells pull apart in spongiosis, letting water out and allergens in."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Eczema reaches the mind: the relentless itch wrecks sleep and the disorder is strongly comorbid with anxiety, depression, and ADHD, so the skin disease casts a heavy neuropsychiatric shadow."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Severe eczema may tax the heart: like other chronic inflammatory skin diseases, long-standing atopic dermatitis is linked to a modestly raised cardiovascular risk from its systemic inflammation."
 ---
 
 # Atopic Dermatitis
@@ -294,6 +303,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Atopic dermatitis itches through nerves: sensitized peripheral nerve fibers, fired by IL-31 and inflammation, drive the relentless itch-scratch cycle that defines the disease.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Atopic dermatitis often begins the atopic march: the same Th2 allergy that breaks the skin barrier later inflames the lungs, so infant eczema predicts childhood asthma.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts thicken chronic eczema: in lichenified skin they lay down extra collagen in response to persistent scratching and inflammation, producing the leathery, deeply lined plaques.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the leaky barrier of eczema: filaggrin-deficient skin makes too few of the lamellar lipid layers that seal the stratum corneum, and inflamed cells pull apart in spongiosis, letting water out and allergens in.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Eczema reaches the mind: the relentless itch wrecks sleep and the disorder is strongly comorbid with anxiety, depression, and ADHD, so the skin disease casts a heavy neuropsychiatric shadow.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe eczema may tax the heart: like other chronic inflammatory skin diseases, long-standing atopic dermatitis is linked to a modestly raised cardiovascular risk from its systemic inflammation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
