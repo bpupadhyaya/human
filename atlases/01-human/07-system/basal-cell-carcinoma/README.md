@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/03-molecular/antibody
     relation: connects-to
     note: "Immunotherapy now reaches advanced BCC: the anti-PD-1 antibody cemiplimab can shrink locally advanced or metastatic tumors that have progressed on or cannot tolerate hedgehog inhibitors, a second line for the rare aggressive cases."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hedgehog drugs are fiercely teratogenic: because Sonic hedgehog patterns the embryo, vismodegib and sonidegib can cause severe birth defects, demanding strict contraception and a ban on blood donation during and after treatment."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Failing immune surveillance unleashes BCC: organ-transplant recipients and CLL patients, their neutrophils and lymphocytes suppressed, develop numerous and more aggressive basal cell carcinomas as the skin's immune guard falls."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Old radiation seeds later skin cancer: childhood radiotherapy to fields like the head and neck — the same exposure that risks thyroid cancer — raises the chance of basal cell carcinoma arising in the irradiated skin decades on."
 ---
 
 # Basal Cell Carcinoma
@@ -317,6 +326,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Aggressive basal cell carcinoma creeps along nerves: perineural invasion lets it track centrally beyond the visible tumor, causing numbness or tingling and a higher risk of recurrence that pushes toward wider excision or radiation.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The hedgehog-blocking drugs ache in the muscles: vismodegib and sonidegib, used for advanced BCC, commonly cause muscle spasms and cramps along with hair loss and taste change — side effects that limit how long patients tolerate them.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy now reaches advanced BCC: the anti-PD-1 antibody cemiplimab can shrink locally advanced or metastatic tumors that have progressed on or cannot tolerate hedgehog inhibitors, a second line for the rare aggressive cases.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hedgehog drugs are fiercely teratogenic: because Sonic hedgehog patterns the embryo, vismodegib and sonidegib can cause severe birth defects, demanding strict contraception and a ban on blood donation during and after treatment.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Failing immune surveillance unleashes BCC: organ-transplant recipients and CLL patients, their neutrophils and lymphocytes suppressed, develop numerous and more aggressive basal cell carcinomas as the skin's immune guard falls.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Old radiation seeds later skin cancer: childhood radiotherapy to fields like the head and neck — the same exposure that risks thyroid cancer — raises the chance of basal cell carcinoma arising in the irradiated skin decades on.
 
 ---
 

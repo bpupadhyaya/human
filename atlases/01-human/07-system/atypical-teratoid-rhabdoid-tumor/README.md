@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Curing ATRT empties the marrow: its dose-intense, often high-dose chemotherapy crashes the neutrophil count, leaving these infants in long stretches of febrile neutropenia that demand vigilant infection control."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "ATRT can run in families: many cases stem from germline SMARCB1 loss (rhabdoid tumor predisposition syndrome), so finding it prompts genetic counseling and testing of parents and future siblings."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The marrow's red line falls too: the intensive chemotherapy and any craniospinal radiation suppress erythrocyte production into an anemia that, with the low platelets and neutrophils, leaves these infants transfusion-dependent through treatment."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The rhabdoid family reaches the soft tissues: the same SMARCB1 loss spawns malignant rhabdoid tumors of the kidney and paraspinal soft tissue and muscle, ATRT's extracranial cousins under one genetic umbrella."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -314,6 +323,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody clinches the diagnosis: ATRT is defined by loss of the SMARCB1/INI1 protein, and an immunohistochemical stain — an antibody against INI1 — shows the missing nuclear signal that separates it from other embryonal brain tumors.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — The platinum chemotherapy wastes magnesium: cisplatin and carboplatin, central to the intensive multi-agent regimens against ATRT, injure the kidney's tubules so magnesium leaks out and must be replaced.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Curing ATRT empties the marrow: its dose-intense, often high-dose chemotherapy crashes the neutrophil count, leaving these infants in long stretches of febrile neutropenia that demand vigilant infection control.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — ATRT can run in families: many cases stem from germline SMARCB1 loss (rhabdoid tumor predisposition syndrome), so finding it prompts genetic counseling and testing of parents and future siblings.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The marrow's red line falls too: the intensive chemotherapy and any craniospinal radiation suppress erythrocyte production into an anemia that, with the low platelets and neutrophils, leaves these infants transfusion-dependent through treatment.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The rhabdoid family reaches the soft tissues: the same SMARCB1 loss spawns malignant rhabdoid tumors of the kidney and paraspinal soft tissue and muscle, ATRT's extracranial cousins under one genetic umbrella.
 
 ---
 
