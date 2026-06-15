@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells anchor immunotherapy efforts in Wilms tumor: as antigen-presenters they help prime the T-cell and NK response, and dendritic-cell and WT1-vaccine strategies are explored for relapsed embryonal kidney cancer."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Wilms tumor can grow inside the bloodstream: it famously sends a tumor thrombus up the renal vein and inferior vena cava, sometimes reaching the right atrium of the heart, a finding that reshapes the surgical plan."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The fast-growing Wilms tumor must build its own blood supply: VEGF recruits endothelial cells to sprout new vessels, feeding the embryonal mass and opening the route for its spread to the lungs."
+  - target: 01-human/03-molecular/mycn
+    relation: connects-to
+    note: "MYCN gain marks the dangerous end of Wilms tumor: amplification or extra copies of this oncogene cluster with anaplastic histology and worse outcomes, helping flag the high-risk tumors that need intensified treatment."
 ---
 
 # Wilms Tumor
@@ -276,6 +285,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Wilms tumor grows on the IGF-PI3K-AKT axis: high IGF signaling (often from 11p15 imprinting defects) feeds AKT and mTOR to drive the embryonal kidney cancer, so this growth pathway is a target alongside its Wnt and WT1 lesions.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia shapes Wilms tumor's behavior: the fast-growing embryonal tumor outpaces its blood supply, and low oxygen drives HIF and angiogenesis that fuel growth and the lung spread that is its main metastatic threat.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells anchor immunotherapy efforts in Wilms tumor: as antigen-presenters they help prime the T-cell and NK response, and dendritic-cell and WT1-vaccine strategies are explored for relapsed embryonal kidney cancer.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Wilms tumor can grow inside the bloodstream: it famously sends a tumor thrombus up the renal vein and inferior vena cava, sometimes reaching the right atrium of the heart, a finding that reshapes the surgical plan.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The fast-growing Wilms tumor must build its own blood supply: VEGF recruits endothelial cells to sprout new vessels, feeding the embryonal mass and opening the route for its spread to the lungs.
+- `connects-to` → **[MYCN](../../03-molecular/mycn/README.md)** — MYCN gain marks the dangerous end of Wilms tumor: amplification or extra copies of this oncogene cluster with anaplastic histology and worse outcomes, helping flag the high-risk tumors that need intensified treatment.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
