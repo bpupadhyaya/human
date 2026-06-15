@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney bears the brunt of high cell turnover: the massive production and breakdown of blood cells floods the blood with uric acid, which crystallizes in the tubules and can drive urate nephropathy and stones."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Myeloproliferative disease clots the arteries too: the thick, sticky blood and activated platelets drive arterial thrombosis, so heart attacks join the strokes and venous clots that menace these patients."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "MPN is a leading cause of unusual-site clots: thrombosis of the splanchnic veins draining the gut — portal, mesenteric, and the hepatic veins of Budd-Chiari — can be the first sign, sometimes before the blood counts even rise."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "The frenzied cell turnover spills phosphorus: the constant birth and death of blood cells, and their lysis under treatment, release phosphate and urate, the metabolic overflow that strains the kidneys and provokes gout."
 ---
 
 # Myeloproliferative Neoplasms
@@ -315,6 +324,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Radioactive phosphorus once tamed these clones with electrons: P-32 concentrates in marrow and emits beta particles — fast electrons — that suppress the overactive blood-cell factory, a historic polycythemia treatment now reserved for select older patients.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myeloproliferative disease can choke the lungs: extramedullary hematopoiesis and microvascular thrombosis raise pulmonary pressures, so pulmonary hypertension and clots are recognized complications, especially in myelofibrosis.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney bears the brunt of high cell turnover: the massive production and breakdown of blood cells floods the blood with uric acid, which crystallizes in the tubules and can drive urate nephropathy and stones.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Myeloproliferative disease clots the arteries too: the thick, sticky blood and activated platelets drive arterial thrombosis, so heart attacks join the strokes and venous clots that menace these patients.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — MPN is a leading cause of unusual-site clots: thrombosis of the splanchnic veins draining the gut — portal, mesenteric, and the hepatic veins of Budd-Chiari — can be the first sign, sometimes before the blood counts even rise.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — The frenzied cell turnover spills phosphorus: the constant birth and death of blood cells, and their lysis under treatment, release phosphate and urate, the metabolic overflow that strains the kidneys and provokes gout.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

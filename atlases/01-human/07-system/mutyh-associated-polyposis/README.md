@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "MAP can announce itself on the skin: like other polyposis syndromes it is associated with sebaceous tumors and epidermoid cysts, cutaneous clues that can prompt the genetic testing which uncovers the underlying colon-cancer risk."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "MAP fails to scrub oxidative DNA damage: the MUTYH enzyme normally repairs 8-oxoguanine, the lesion that reactive oxygen leaves in DNA, so without it those errors lock in as the G-to-T mutations that seed the polyps."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "MAP shares some bony features with FAP: osteomas of the jaw and skull and dental anomalies can occur, bony overgrowths of the marrow-bearing facial bones in this milder polyposis cousin."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Pigmented retinal patches occasionally mark MAP: CHRPE, the dark spots on the retina classic for FAP, can appear here too, a clue an ophthalmologist may spot in this related polyposis syndrome."
 ---
 
 # MUTYH-Associated Polyposis
@@ -288,6 +297,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons keep MAP patients alive: lifelong colonoscopy is the surveillance backbone, finding and clearing polyps before they turn cancerous, while upper endoscopy and imaging watch the duodenum where MAP's extracolonic tumors also arise.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — MAP reaches beyond the colon to the thyroid: like FAP, it carries an increased risk of papillary thyroid cancer, so thyroid examination and ultrasound are folded into the surveillance these patients receive for life.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MAP can announce itself on the skin: like other polyposis syndromes it is associated with sebaceous tumors and epidermoid cysts, cutaneous clues that can prompt the genetic testing which uncovers the underlying colon-cancer risk.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — MAP fails to scrub oxidative DNA damage: the MUTYH enzyme normally repairs 8-oxoguanine, the lesion that reactive oxygen leaves in DNA, so without it those errors lock in as the G-to-T mutations that seed the polyps.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MAP shares some bony features with FAP: osteomas of the jaw and skull and dental anomalies can occur, bony overgrowths of the marrow-bearing facial bones in this milder polyposis cousin.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Pigmented retinal patches occasionally mark MAP: CHRPE, the dark spots on the retina classic for FAP, can appear here too, a clue an ophthalmologist may spot in this related polyposis syndrome.
 
 ---
 
