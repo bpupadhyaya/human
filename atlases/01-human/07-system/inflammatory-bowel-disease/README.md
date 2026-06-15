@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Chronic diarrhea flushes out magnesium: ongoing intestinal losses in active IBD deplete the mineral along with potassium and zinc, a deficiency that adds to the fatigue and cramping of a flare."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "The colon's fuel comes from fermented fiber: gut bacteria turn dietary fiber into butyrate that nourishes colonocytes and calms inflammation, so a depleted fiber-butyrate axis is implicated in IBD and exclusive enteral nutrition can induce remission."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Anemia is IBD's most common complication: chronic gut bleeding plus inflammation that blocks iron use leaves erythrocytes small and scarce, a mixed iron-deficiency and anemia-of-chronic-disease that drives much of the fatigue patients feel."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "The pancreas is caught both ways: IBD itself raises the risk of acute and autoimmune pancreatitis, and the thiopurine drugs used to treat it are a classic cause of drug-induced pancreatitis that forces a change of therapy."
 ---
 
 # Inflammatory Bowel Disease
@@ -319,6 +328,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy distinguishes IBD's two forms: Crohn's burrows transmurally with granulomas and fissures, while ulcerative colitis stays mucosal with crypt abscesses — and both show the disturbed Paneth cells and autophagy behind the barrier failure.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — IBD reaches the kidney by several routes: fat malabsorption drives calcium-oxalate stones, chronic inflammation can deposit AA amyloid, and the drugs used to treat it add their own nephrotoxic risk.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic diarrhea flushes out magnesium: ongoing intestinal losses in active IBD deplete the mineral along with potassium and zinc, a deficiency that adds to the fatigue and cramping of a flare.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — The colon's fuel comes from fermented fiber: gut bacteria turn dietary fiber into butyrate that nourishes colonocytes and calms inflammation, so a depleted fiber-butyrate axis is implicated in IBD and exclusive enteral nutrition can induce remission.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Anemia is IBD's most common complication: chronic gut bleeding plus inflammation that blocks iron use leaves erythrocytes small and scarce, a mixed iron-deficiency and anemia-of-chronic-disease that drives much of the fatigue patients feel.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — The pancreas is caught both ways: IBD itself raises the risk of acute and autoimmune pancreatitis, and the thiopurine drugs used to treat it are a classic cause of drug-induced pancreatitis that forces a change of therapy.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

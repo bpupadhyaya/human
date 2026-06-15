@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "ITP can show up as blood in the urine: profound thrombocytopenia causes mucosal and urinary-tract bleeding, hematuria being one of the wet-purpura signs that signals a dangerously low count."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "ITP is an autoantibody disease: IgG antibodies against platelet glycoproteins GPIIb/IIIa and GPIb tag platelets for splenic destruction and also stunt megakaryocytes, which is why anti-CD20 and IVIG therapies work by removing or blockading that antibody."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "When the same autoimmunity also targets red cells, ITP becomes Evans syndrome: simultaneous immune destruction of platelets and erythrocytes (autoimmune hemolytic anemia), a more refractory combined cytopenia hinting at an underlying lymphoma or lupus."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Low vitamin D tracks with autoimmunity: deficiency is common in chronic ITP and, by tilting regulatory-T-cell balance, is studied as a modifier of the immune dysregulation that lets antibodies turn against the body's own platelets."
 ---
 
 # Immune Thrombocytopenia
@@ -329,6 +338,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows ITP's two-front problem: spleen macrophages devour antibody-coated platelets, while the marrow's megakaryocytes — normal or increased in number — are themselves hampered from releasing new ones.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Very low platelets can bleed into the eye: retinal and conjunctival hemorrhages appear in severe ITP, a visible warning of the bleeding risk that, at its worst, threatens intracranial hemorrhage.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — ITP can show up as blood in the urine: profound thrombocytopenia causes mucosal and urinary-tract bleeding, hematuria being one of the wet-purpura signs that signals a dangerously low count.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — ITP is an autoantibody disease: IgG antibodies against platelet glycoproteins GPIIb/IIIa and GPIb tag platelets for splenic destruction and also stunt megakaryocytes, which is why anti-CD20 and IVIG therapies work by removing or blockading that antibody.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — When the same autoimmunity also targets red cells, ITP becomes Evans syndrome: simultaneous immune destruction of platelets and erythrocytes (autoimmune hemolytic anemia), a more refractory combined cytopenia hinting at an underlying lymphoma or lupus.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Low vitamin D tracks with autoimmunity: deficiency is common in chronic ITP and, by tilting regulatory-T-cell balance, is studied as a modifier of the immune dysregulation that lets antibodies turn against the body's own platelets.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
