@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Severe flu ends in acidosis: as gas exchange fails, carbon dioxide and acid build up, and the falling pH of respiratory failure is an ominous sign in flu-related ARDS."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the flu's machinery: spherical virions bristle with two spikes — hemagglutinin to latch onto cells and neuraminidase to escape them — the H and N proteins that name strains like H1N1 and that the vaccines target."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Severe influenza can drop the sodium: the inflammatory stress triggers SIADH, retaining water and diluting blood sodium, a hyponatremia that worsens the confusion and weakness of serious infection."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Flu can hit the gut too: especially in children and with influenza B, the infection brings nausea, vomiting, and diarrhea, the 'stomach flu' symptoms that accompany the classic respiratory illness."
 ---
 
 # Influenza
@@ -303,3 +312,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Severe flu shows on chest X-ray: photons reveal the bilateral infiltrates of viral pneumonia or the lobar consolidation of the bacterial pneumonia that often follows the infection.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Influenza pneumonia floods the alveoli: viral and immune damage to these air sacs fills them with fluid and debris—the diffuse alveolar damage of ARDS that starves the blood of oxygen.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Severe flu ends in acidosis: as gas exchange fails, carbon dioxide and acid build up, and the falling pH of respiratory failure is an ominous sign in flu-related ARDS.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the flu's machinery: spherical virions bristle with two spikes — hemagglutinin to latch onto cells and neuraminidase to escape them — the H and N proteins that name strains like H1N1 and that the vaccines target.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Severe influenza can drop the sodium: the inflammatory stress triggers SIADH, retaining water and diluting blood sodium, a hyponatremia that worsens the confusion and weakness of serious infection.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Flu can hit the gut too: especially in children and with influenza B, the infection brings nausea, vomiting, and diarrhea, the 'stomach flu' symptoms that accompany the classic respiratory illness.

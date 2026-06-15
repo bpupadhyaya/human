@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "AIDS often shows first on the skin: severe shingles, stubborn fungal and seborrheic rashes, and oral thrush are common early warnings that immunity is failing."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy names AIDS's opportunists: the foamy cysts of Pneumocystis, the owl-eye inclusions of CMV, and viral particles in tumors come into focus, letting the diagnostic beam catch the infections that exploit a collapsed immune system."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "AIDS scars the kidney directly: HIV-associated nephropathy, a collapsing form of focal glomerulosclerosis, drives heavy protein loss and rapid renal failure, especially before antiretroviral therapy takes hold."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Advanced AIDS weakens the heart: chronic infection and direct viral injury can dilate it into an HIV cardiomyopathy, and pericardial effusions from opportunistic infections add to the cardiac toll."
 ---
 
 # HIV/AIDS
@@ -282,6 +291,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging is central to AIDS care: chest X-ray photons reveal the diffuse infiltrates of PCP pneumonia, and brain CT or MRI distinguishes the ring-enhancing lesions of toxoplasmosis from CNS lymphoma.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — In AIDS the bone marrow becomes a battleground: disseminated infections like MAC and histoplasmosis invade it while HIV and drugs suppress it, deepening the cytopenias of advanced disease.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — AIDS often shows first on the skin: severe shingles, stubborn fungal and seborrheic rashes, and oral thrush are common early warnings that immunity is failing.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy names AIDS's opportunists: the foamy cysts of Pneumocystis, the owl-eye inclusions of CMV, and viral particles in tumors come into focus, letting the diagnostic beam catch the infections that exploit a collapsed immune system.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — AIDS scars the kidney directly: HIV-associated nephropathy, a collapsing form of focal glomerulosclerosis, drives heavy protein loss and rapid renal failure, especially before antiretroviral therapy takes hold.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Advanced AIDS weakens the heart: chronic infection and direct viral injury can dilate it into an HIV cardiomyopathy, and pericardial effusions from opportunistic infections add to the cardiac toll.
 
 ## See Also
 
