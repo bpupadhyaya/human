@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "After the liver, the lung is pancreatic cancer's next stop: hematogenous metastases seed the lungs, and a pattern of lung-only spread carries a somewhat better outlook than the more usual liver and peritoneal disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "FOLFIRINOX's price is the nerves: oxaliplatin, a pillar of pancreatic cancer chemotherapy, injures peripheral sensory neurons, causing a cold-triggered tingling and numbness that can force dose cuts and linger after treatment ends."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Pancreatic cancer starves the body of protein: profound cachexia and poor intake drop blood albumin, and a low albumin marks the wasting and inflammation that predict shorter survival and poorer tolerance of treatment."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Treatment leaks magnesium away: platinum chemotherapy and EGFR-blocking erlotinib both injure the kidney's handling of magnesium, so levels are tracked and replaced through the course of pancreatic cancer care."
 ---
 
 # Pancreatic Cancer
@@ -299,6 +308,9 @@ cross_links:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Pancreatic cancer crawls along nerves: perineural invasion is a hallmark, the tumor tracking down the nerve sheaths around the gland to cause the relentless boring back pain — and to recur after surgery by routes the scalpel can't reach.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — A pancreatic tumor can throttle the stomach: cancers of the head and body grow into the adjacent duodenum and gastric outlet, blocking the passage of food so that vomiting and gastric obstruction become a late, distressing complication.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — After the liver, the lung is pancreatic cancer's next stop: hematogenous metastases seed the lungs, and a pattern of lung-only spread carries a somewhat better outlook than the more usual liver and peritoneal disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — FOLFIRINOX's price is the nerves: oxaliplatin, a pillar of pancreatic cancer chemotherapy, injures peripheral sensory neurons, causing a cold-triggered tingling and numbness that can force dose cuts and linger after treatment ends.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Pancreatic cancer starves the body of protein: profound cachexia and poor intake drop blood albumin, and a low albumin marks the wasting and inflammation that predict shorter survival and poorer tolerance of treatment.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Treatment leaks magnesium away: platinum chemotherapy and EGFR-blocking erlotinib both injure the kidney's handling of magnesium, so levels are tracked and replaced through the course of pancreatic cancer care.
 
 ---
 

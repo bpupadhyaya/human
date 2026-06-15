@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopamine wires panic into avoidance: the reward-and-threat transmitter helps stamp in the fear conditioning that turns a single attack into agoraphobia, as the brain learns to dread and flee the places where panic struck."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Panic floods to the skin: the sympathetic surge of an attack drives drenching sweat, flushing, and chills, the visible autonomic storm that accompanies the racing heart and breathlessness."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium tempers excitability, and its lack feeds anxiety: low magnesium heightens neuronal firing and the stress response, and deficiency is associated with anxiety and panic, making repletion a simple thing to check."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Panic turns the stomach: the brain-gut axis routes the attack into nausea, churning, and the 'butterflies' of acute fear, and recurrent panic often overlaps with functional gut complaints."
 ---
 
 # Panic Disorder
@@ -324,6 +333,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons expose the panicking brain: functional MRI and PET reveal an overactive amygdala and fear circuit with weak prefrontal restraint, the imaging signature researchers use to map why an attack erupts without real danger.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium lactate is the classic panic trigger: infusing it into the vein reliably provokes a full attack in patients but not in healthy people, a reproducible challenge test that helped prove panic disorder has a distinct biology.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine wires panic into avoidance: the reward-and-threat transmitter helps stamp in the fear conditioning that turns a single attack into agoraphobia, as the brain learns to dread and flee the places where panic struck.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Panic floods to the skin: the sympathetic surge of an attack drives drenching sweat, flushing, and chills, the visible autonomic storm that accompanies the racing heart and breathlessness.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium tempers excitability, and its lack feeds anxiety: low magnesium heightens neuronal firing and the stress response, and deficiency is associated with anxiety and panic, making repletion a simple thing to check.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Panic turns the stomach: the brain-gut axis routes the attack into nausea, churning, and the 'butterflies' of acute fear, and recurrent panic often overlaps with functional gut complaints.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
