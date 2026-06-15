@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Schwannomas can stud the gut: the syndrome's nerve-sheath tumors arise along abdominal and pelvic nerves and within the bowel wall, where they can bleed or, growing large, press on and obstruct the intestine."
+  - target: 01-human/03-molecular/ezh2
+    relation: connects-to
+    note: "Losing SMARCB1 hands control to EZH2: the SWI/SNF subunit normally opposes the EZH2-PRC2 complex, so its loss in schwannomatosis tumors leaves them dependent on EZH2 — the vulnerability that EZH2 inhibitors like tazemetostat exploit in SMARCB1-deficient cancers."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Inheritance in schwannomatosis is tricky: SMARCB1 and LZTR1 pass dominantly but with incomplete penetrance and frequent mosaicism, so genetic counseling must explain why a parent may be mildly affected yet a child severely so."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "The tumor's immune surroundings draw interest: schwannomas recruit regulatory T cells and macrophages into their microenvironment, and SMARCB1-deficient tumors more broadly are studied for how this immune setting might be turned against them."
 ---
 
 # Schwannomatosis
@@ -297,6 +306,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read these tumors: a schwannoma stains strongly and diffusely for S100 and SOX10, and the mosaic, patchy loss of SMARCB1 (INI1) staining points to schwannomatosis and away from the NF2-type tumors it mimics.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — The defining feature is pain, and serotonin helps tame it: SNRI antidepressants like duloxetine boost serotonin and noradrenaline in the spinal cord's descending pain pathways, a mainstay against the chronic neuropathic pain that dominates schwannomatosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Schwannomas can stud the gut: the syndrome's nerve-sheath tumors arise along abdominal and pelvic nerves and within the bowel wall, where they can bleed or, growing large, press on and obstruct the intestine.
+- `connects-to` → **[EZH2](../../03-molecular/ezh2/README.md)** — Losing SMARCB1 hands control to EZH2: the SWI/SNF subunit normally opposes the EZH2-PRC2 complex, so its loss in schwannomatosis tumors leaves them dependent on EZH2 — the vulnerability that EZH2 inhibitors like tazemetostat exploit in SMARCB1-deficient cancers.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Inheritance in schwannomatosis is tricky: SMARCB1 and LZTR1 pass dominantly but with incomplete penetrance and frequent mosaicism, so genetic counseling must explain why a parent may be mildly affected yet a child severely so.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — The tumor's immune surroundings draw interest: schwannomas recruit regulatory T cells and macrophages into their microenvironment, and SMARCB1-deficient tumors more broadly are studied for how this immune setting might be turned against them.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

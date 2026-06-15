@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "The drugs reach into reproduction: by blocking dopamine, many antipsychotics lift prolactin into galactorrhea, amenorrhea, and sexual dysfunction, side effects that erode adherence and reproductive health in schizophrenia."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Schizophrenia and insulin resistance are entangled: antipsychotics blunt insulin sensitivity and drive weight gain, and even drug-naive patients show glucose dysregulation, so the metabolic syndrome that shortens lives in schizophrenia is partly built into the illness."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "One antipsychotic can inflame the heart muscle: clozapine, the most effective drug for resistant schizophrenia, can cause myocarditis and cardiomyopathy by injuring cardiomyocytes, so cardiac monitoring is mandatory when it is started."
+  - target: 01-human/07-system/obesity
+    relation: connects-to
+    note: "Treatment commonly brings weight gain: many antipsychotics, especially olanzapine and clozapine, drive substantial obesity through appetite and metabolic effects, a major reason for the metabolic syndrome and shortened life expectancy in schizophrenia."
 ---
 
 # Schizophrenia
@@ -371,6 +380,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — A treatable mimic hides among the cases: anti-NMDA-receptor encephalitis produces psychosis indistinguishable from schizophrenia, its autoantibodies against the NMDA receptor a reason to test, since immunotherapy can reverse what looks like a primary psychotic break.
 - `connects-to` → **[Toxoplasma gondii](../../../02-pathogen/04-parasites/toxoplasma-gondii/README.md)** — A brain parasite shadows the risk: chronic Toxoplasma gondii infection, which encysts in the brain and nudges dopamine, is consistently associated with a modestly higher rate of schizophrenia, one strand of the disease's infection-and-immune hypothesis.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The drugs reach into reproduction: by blocking dopamine, many antipsychotics lift prolactin into galactorrhea, amenorrhea, and sexual dysfunction, side effects that erode adherence and reproductive health in schizophrenia.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Schizophrenia and insulin resistance are entangled: antipsychotics blunt insulin sensitivity and drive weight gain, and even drug-naive patients show glucose dysregulation, so the metabolic syndrome that shortens lives in schizophrenia is partly built into the illness.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — One antipsychotic can inflame the heart muscle: clozapine, the most effective drug for resistant schizophrenia, can cause myocarditis and cardiomyopathy by injuring cardiomyocytes, so cardiac monitoring is mandatory when it is started.
+- `connects-to` → **[Obesity](../obesity/README.md)** — Treatment commonly brings weight gain: many antipsychotics, especially olanzapine and clozapine, drive substantial obesity through appetite and metabolic effects, a major reason for the metabolic syndrome and shortened life expectancy in schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
