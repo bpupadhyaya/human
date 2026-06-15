@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Endometrial cancer can invade the bowel: locally advanced disease spreads to the rectum and sigmoid colon and seeds the peritoneum, complicating surgery and signaling advanced spread."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy separates endometrial cancer's two faces: the common endometrioid type keeps orderly glandular cells with microvilli, while the aggressive serous type shows papillary tufts and chaotic nuclei, an ultrastructural divide that tracks prognosis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Serous endometrial cancer leaves calcium fingerprints: like its ovarian counterpart it forms psammoma bodies, concentric calcium deposits whose presence on histology flags the high-grade serous subtype."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D ties into endometrial cancer through fat: deficiency travels with the obesity that is its biggest risk factor, and the vitamin's influence on cell growth and estrogen metabolism has made it a focus of prevention research."
 ---
 
 # Endometrial Cancer
@@ -292,6 +301,9 @@ cross_links:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Endometrial cancer and its treatment leave fibrosis: a reactive desmoplastic stroma surrounds the tumor, and pelvic radiation scars nearby tissues, a late cause of bowel and bladder problems in survivors.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endometrial cancer drives angiogenesis: VEGF recruits endothelial cells to vascularize the tumor, and the fragile new vessels contribute to the abnormal bleeding that usually reveals it early.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Endometrial cancer can invade the bowel: locally advanced disease spreads to the rectum and sigmoid colon and seeds the peritoneum, complicating surgery and signaling advanced spread.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy separates endometrial cancer's two faces: the common endometrioid type keeps orderly glandular cells with microvilli, while the aggressive serous type shows papillary tufts and chaotic nuclei, an ultrastructural divide that tracks prognosis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Serous endometrial cancer leaves calcium fingerprints: like its ovarian counterpart it forms psammoma bodies, concentric calcium deposits whose presence on histology flags the high-grade serous subtype.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D ties into endometrial cancer through fat: deficiency travels with the obesity that is its biggest risk factor, and the vitamin's influence on cell growth and estrogen metabolism has made it a focus of prevention research.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

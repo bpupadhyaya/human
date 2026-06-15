@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "When drugs fail, epilepsy is treated through a nerve: vagus nerve stimulation sends regular pulses along this peripheral nerve to the brain, reducing seizure frequency in refractory cases."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the scarred epileptic focus: in mesial temporal sclerosis the hippocampus loses neurons and gliosis takes over, while surviving granule cells sprout aberrant mossy fibers that wire the runaway circuits of seizures."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Long-term seizure drugs quietly weaken bone: enzyme-inducing antiepileptics speed the liver's breakdown of vitamin D, so deficiency, osteomalacia, and fractures are a recognized hazard of years on treatment."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "A prolonged seizure can poison the kidney: violent muscle activity in status epilepticus breaks down muscle, and the released myoglobin clogs the renal tubules, threatening acute kidney injury."
 ---
 
 # Epilepsy
@@ -331,6 +340,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium calms overexcited neurons: intravenous magnesium is the treatment for eclamptic seizures, and a low magnesium level can itself lower the seizure threshold, tying the mineral to seizure control.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Diet and the gut shape epilepsy: the ketogenic diet controls many drug-resistant seizures, and the gut microbiome it reshapes appears to mediate part of that protection through the gut-brain axis.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — When drugs fail, epilepsy is treated through a nerve: vagus nerve stimulation sends regular pulses along this peripheral nerve to the brain, reducing seizure frequency in refractory cases.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the scarred epileptic focus: in mesial temporal sclerosis the hippocampus loses neurons and gliosis takes over, while surviving granule cells sprout aberrant mossy fibers that wire the runaway circuits of seizures.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Long-term seizure drugs quietly weaken bone: enzyme-inducing antiepileptics speed the liver's breakdown of vitamin D, so deficiency, osteomalacia, and fractures are a recognized hazard of years on treatment.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A prolonged seizure can poison the kidney: violent muscle activity in status epilepticus breaks down muscle, and the released myoglobin clogs the renal tubules, threatening acute kidney injury.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
