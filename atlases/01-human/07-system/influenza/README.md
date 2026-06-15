@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/03-molecular/surfactant
     relation: connects-to
     note: "Influenza strips the lungs of surfactant: the virus kills the type II pneumocytes that make this alveolar soap, so without it the air sacs collapse and stiffen, deepening the lung injury of severe flu pneumonia."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Severe flu shows on chest X-ray: photons reveal the bilateral infiltrates of viral pneumonia or the lobar consolidation of the bacterial pneumonia that often follows the infection."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "Influenza pneumonia floods the alveoli: viral and immune damage to these air sacs fills them with fluid and debris—the diffuse alveolar damage of ARDS that starves the blood of oxygen."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Severe flu ends in acidosis: as gas exchange fails, carbon dioxide and acid build up, and the falling pH of respiratory failure is an ominous sign in flu-related ARDS."
 ---
 
 # Influenza
@@ -291,3 +300,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Severe influenza starves the blood of oxygen: viral pneumonia and the ARDS it can trigger flood the alveoli, so gas exchange fails and hypoxemic respiratory failure becomes the main threat to life in serious flu.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Influenza and aspirin can wreck a child's liver: giving aspirin during flu can trigger Reye syndrome, a sudden failure of the liver with brain swelling, which is why aspirin is avoided in children with viral illness.
 - `connects-to` → **[Pulmonary Surfactant](../../03-molecular/surfactant/README.md)** — Influenza strips the lungs of surfactant: the virus kills the type II pneumocytes that make this alveolar soap, so without it the air sacs collapse and stiffen, deepening the lung injury of severe flu pneumonia.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Severe flu shows on chest X-ray: photons reveal the bilateral infiltrates of viral pneumonia or the lobar consolidation of the bacterial pneumonia that often follows the infection.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Influenza pneumonia floods the alveoli: viral and immune damage to these air sacs fills them with fluid and debris—the diffuse alveolar damage of ARDS that starves the blood of oxygen.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Severe flu ends in acidosis: as gas exchange fails, carbon dioxide and acid build up, and the falling pH of respiratory failure is an ominous sign in flu-related ARDS.

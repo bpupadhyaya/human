@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Sleep and waking are flipped by competing neurons: wake-promoting orexin neurons and sleep-promoting neurons toggle a switch, and insomnia reflects this circuit stuck toward arousal, unable to flip cleanly into sleep."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency steals sleep: low iron causes restless legs syndrome, whose nighttime urge to move the legs is a common, treatable cause of chronic insomnia."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Lost sleep inflames the brain: chronic insomnia activates microglia, and the impaired overnight clearance of waste that poor sleep brings is linked to a higher risk of neurodegeneration."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Insomnia keeps the stress axis switched on: the adrenal glands pour out cortisol when sleep runs short, and this hyperarousal both drives and follows the inability to sleep."
 ---
 
 # Insomnia Disorder
@@ -304,6 +313,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light sets the clock that insomnia fights: photons striking the retina entrain the brain's master circadian pacemaker, so evening screen and blue light suppress melatonin and push sleep later, a leading driver of modern insomnia.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Insomnia wears on the heart: short, broken sleep keeps the sympathetic nervous system and blood pressure elevated overnight, so chronic insomnia raises the long-term risk of hypertension and heart disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Sleep and waking are flipped by competing neurons: wake-promoting orexin neurons and sleep-promoting neurons toggle a switch, and insomnia reflects this circuit stuck toward arousal, unable to flip cleanly into sleep.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency steals sleep: low iron causes restless legs syndrome, whose nighttime urge to move the legs is a common, treatable cause of chronic insomnia.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Lost sleep inflames the brain: chronic insomnia activates microglia, and the impaired overnight clearance of waste that poor sleep brings is linked to a higher risk of neurodegeneration.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Insomnia keeps the stress axis switched on: the adrenal glands pour out cortisol when sleep runs short, and this hyperarousal both drives and follows the inability to sleep.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
