@@ -162,6 +162,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "PTSD and reproduction intertwine: sexual trauma is a major cause, the disorder disrupts sexual function and intimacy, and it strikes women about twice as often, with symptoms shifting across the menstrual cycle and the perinatal period."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Trauma leaves an inflammatory signature: PTSD runs with elevated IL-6 and other inflammatory markers, a low-grade immune activation thought to link the disorder to its heart and metabolic complications and even to influence fear circuitry."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The traumatized brain talks to the gut and back: PTSD is marked by an altered microbiome, and through the microbiome-gut-brain axis these shifts may shape stress reactivity, inflammation, and the disorder's resilience or severity."
+  - target: 01-human/07-system/neuropathic-pain
+    relation: connects-to
+    note: "PTSD and chronic pain feed each other: they co-occur strikingly often, sharing central sensitization and stress circuitry, so trauma amplifies neuropathic pain while persistent pain keeps the traumatic memory alive."
 ---
 
 # PTSD
@@ -345,6 +354,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Trauma leaves an inflammatory, autoimmune mark: PTSD raises circulating inflammatory markers and autoantibodies and is linked to a higher risk of autoimmune diseases, a body-wide signature of chronically dysregulated stress and immunity.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — PTSD is hard on the heart and vessels: years of sympathetic and cortisol overdrive raise blood pressure and accelerate atherosclerosis, giving these patients a substantially higher rate of heart attack and cardiovascular death.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — PTSD and reproduction intertwine: sexual trauma is a major cause, the disorder disrupts sexual function and intimacy, and it strikes women about twice as often, with symptoms shifting across the menstrual cycle and the perinatal period.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Trauma leaves an inflammatory signature: PTSD runs with elevated IL-6 and other inflammatory markers, a low-grade immune activation thought to link the disorder to its heart and metabolic complications and even to influence fear circuitry.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The traumatized brain talks to the gut and back: PTSD is marked by an altered microbiome, and through the microbiome-gut-brain axis these shifts may shape stress reactivity, inflammation, and the disorder's resilience or severity.
+- `connects-to` → **[Neuropathic Pain](../neuropathic-pain/README.md)** — PTSD and chronic pain feed each other: they co-occur strikingly often, sharing central sensitization and stress circuitry, so trauma amplifies neuropathic pain while persistent pain keeps the traumatic memory alive.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

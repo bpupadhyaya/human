@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "A gut-skin axis links plaque to flora: psoriasis patients show gut dysbiosis and a high overlap with inflammatory bowel disease, the shared mucosal-barrier and IL-23 immunology tying the bowel's microbes to the skin's inflammation."
+  - target: 01-human/03-molecular/il-36
+    relation: connects-to
+    note: "A different cytokine drives the pustular form: in generalized pustular psoriasis, loss of the IL-36 receptor antagonist unleashes IL-36, flooding the skin with neutrophils into sterile pustules — now treatable by the IL-36 blocker spesolimab."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Plaques keep their own inflammatory engine: dermal macrophages pour out TNF and recruit more immune cells, sustaining the lesion and feeding the systemic inflammation that links psoriasis to heart and metabolic disease."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV paradoxically ignites psoriasis: as immunity collapses the disease often appears or turns severe and treatment-resistant, a striking exception to its T-cell-driven model that improves with antiretroviral therapy."
 ---
 
 # Psoriasis
@@ -322,6 +331,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies revolutionized psoriasis care: monoclonal antibodies against TNF, IL-17, and IL-23 (secukinumab, guselkumab, ustekinumab) clear the plaques by neutralizing the exact cytokines driving them, often where older drugs failed.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Skin disease reaches intimate places: genital psoriasis and the visible plaques impair sexual health and self-image, while pregnancy often calms psoriasis through its immune shift, only for it to flare again after delivery.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — A gut-skin axis links plaque to flora: psoriasis patients show gut dysbiosis and a high overlap with inflammatory bowel disease, the shared mucosal-barrier and IL-23 immunology tying the bowel's microbes to the skin's inflammation.
+- `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — A different cytokine drives the pustular form: in generalized pustular psoriasis, loss of the IL-36 receptor antagonist unleashes IL-36, flooding the skin with neutrophils into sterile pustules — now treatable by the IL-36 blocker spesolimab.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Plaques keep their own inflammatory engine: dermal macrophages pour out TNF and recruit more immune cells, sustaining the lesion and feeding the systemic inflammation that links psoriasis to heart and metabolic disease.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV paradoxically ignites psoriasis: as immunity collapses the disease often appears or turns severe and treatment-resistant, a striking exception to its T-cell-driven model that improves with antiretroviral therapy.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
