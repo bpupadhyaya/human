@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "PV primes the vessel lining to clot: sluggish hyperviscous blood and JAK2-mutant cells activate endothelial cells, tipping the balance toward the arterial and venous thromboses that define the disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Radioactive phosphorus tames PV with electrons: P-32 lodges in the marrow and showers it with beta particles — fast electrons — to throttle the runaway red-cell production, a once-standard therapy now kept for older patients who can't manage other drugs."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney both mimics and suffers PV: a tumor or cyst making excess erythropoietin must be excluded as a cause of high red cells, while PV's own urate overload from rapid cell turnover scars the kidney with gout-related nephropathy."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "PV's thick blood threatens the lungs: the hyperviscous, clot-prone circulation throws pulmonary emboli and raises pulmonary pressures, so breathlessness and chronic thromboembolic pulmonary hypertension can complicate the disease."
 ---
 
 # Polycythemia Vera
@@ -281,6 +290,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Polycythemia vera overworks and clots the heart: blood thickened with excess red cells raises the risk of heart attacks and strains cardiac pumping, a major driver of its mortality.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — PV shows in the eyes: hyperviscous blood engorges and slows the retinal veins, causing blurred vision and visual disturbances that can signal dangerously thick blood.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — PV primes the vessel lining to clot: sluggish hyperviscous blood and JAK2-mutant cells activate endothelial cells, tipping the balance toward the arterial and venous thromboses that define the disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Radioactive phosphorus tames PV with electrons: P-32 lodges in the marrow and showers it with beta particles — fast electrons — to throttle the runaway red-cell production, a once-standard therapy now kept for older patients who can't manage other drugs.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney both mimics and suffers PV: a tumor or cyst making excess erythropoietin must be excluded as a cause of high red cells, while PV's own urate overload from rapid cell turnover scars the kidney with gout-related nephropathy.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — PV's thick blood threatens the lungs: the hyperviscous, clot-prone circulation throws pulmonary emboli and raises pulmonary pressures, so breathlessness and chronic thromboembolic pulmonary hypertension can complicate the disease.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

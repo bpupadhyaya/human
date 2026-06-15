@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Adrenaline from a pheochromocytoma shifts potassium: catecholamine surges drive potassium into cells, dropping blood levels and, with the BP spikes, fueling the dangerous arrhythmias of a crisis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons localize the catecholamine factory: CT and the bright T2 'light-bulb' on MRI find the mass, while Ga-68 DOTATATE PET and MIBG scintigraphy light up its receptors to map multifocal and metastatic disease before surgery."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals where the adrenaline is kept: the tumor cells are crammed with dense-core neurosecretory granules — membrane-bound packets of catecholamine — the ultrastructure that confirms a chromaffin-cell origin."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bone is where malignant paraganglioma goes: especially with SDHB mutations, these tumors metastasize to the skeleton, seeding the marrow-filled bones of the spine and pelvis as the commonest site of spread."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -301,6 +310,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Pheochromocytoma can stroke the brain: its surges of adrenaline spike blood pressure into hypertensive encephalopathy and hemorrhage, and skull-base paragangliomas can press directly on the brain.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Pheochromocytoma poisons heart-muscle cells: the flood of catecholamines overdrives cardiomyocytes into a stress (catecholamine) cardiomyopathy, sometimes the presenting crisis of the tumor.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Adrenaline from a pheochromocytoma shifts potassium: catecholamine surges drive potassium into cells, dropping blood levels and, with the BP spikes, fueling the dangerous arrhythmias of a crisis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons localize the catecholamine factory: CT and the bright T2 'light-bulb' on MRI find the mass, while Ga-68 DOTATATE PET and MIBG scintigraphy light up its receptors to map multifocal and metastatic disease before surgery.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals where the adrenaline is kept: the tumor cells are crammed with dense-core neurosecretory granules — membrane-bound packets of catecholamine — the ultrastructure that confirms a chromaffin-cell origin.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bone is where malignant paraganglioma goes: especially with SDHB mutations, these tumors metastasize to the skeleton, seeding the marrow-filled bones of the spine and pelvis as the commonest site of spread.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
