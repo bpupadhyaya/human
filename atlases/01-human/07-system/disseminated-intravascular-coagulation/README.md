@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Complement fuels DIC's storm: C5a from the activated cascade inflames the endothelium and drives tissue factor, the crosstalk between complement and coagulation that worsens the clotting."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows DIC shredding the blood: fibrin strands strung across small vessels slice passing red cells into the helmet-shaped schistocytes of microangiopathic hemolysis, while platelet-fibrin microthrombi plug the capillaries."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "DIC's microthrombi can starve the gut: clots seeded throughout the mesenteric microvasculature cut off the bowel's blood supply, causing ischemia and bleeding amid the body-wide clotting-and-hemorrhage paradox."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen takes its share of DIC's clots: microinfarcts pepper it as the widespread microthrombosis lodges in its small vessels, one of the many organs silently injured during the consumptive coagulopathy."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -310,6 +319,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — DIC is a lab diagnosis, but imaging finds its cause and toll: CT photons reveal the sepsis source, cancer or placental catastrophe driving it, and the organ infarcts from its microthrombi.
 - `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — DIC clogs the kidney's filters: microthrombi lodge in the glomeruli while consumption and schistocytes mount, causing the acute kidney injury that often accompanies the coagulation chaos.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement fuels DIC's storm: C5a from the activated cascade inflames the endothelium and drives tissue factor, the crosstalk between complement and coagulation that worsens the clotting.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows DIC shredding the blood: fibrin strands strung across small vessels slice passing red cells into the helmet-shaped schistocytes of microangiopathic hemolysis, while platelet-fibrin microthrombi plug the capillaries.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — DIC's microthrombi can starve the gut: clots seeded throughout the mesenteric microvasculature cut off the bowel's blood supply, causing ischemia and bleeding amid the body-wide clotting-and-hemorrhage paradox.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen takes its share of DIC's clots: microinfarcts pepper it as the widespread microthrombosis lodges in its small vessels, one of the many organs silently injured during the consumptive coagulopathy.
 
 ---
 

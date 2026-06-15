@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Some diffuse midline gliomas are driven by activin signaling: ACVR1 mutations switch on the activin-A/BMP pathway, a recurrent driver in the pontine tumors of young children and a drug target."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy made a startling discovery: real synapses form between healthy neurons and glioma cells, the neuron's terminal wiring directly onto the tumor — an electrical hijacking that drives the cancer's growth."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "The tumor plugs into the brain's electricity: glioma cells carry potassium and other ion channels that let them depolarize in response to neuronal firing, the electrical excitability that the neuron-glioma synapse feeds and that spurs invasion."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Glutamate from the neuron-glioma synapse pours sodium into the tumor: AMPA-receptor currents flood the glioma cell with sodium and calcium, the depolarizing signal by which neural activity literally powers the cancer's spread."
 ---
 
 # Diffuse Midline Glioma
@@ -310,6 +319,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Diffuse midline glioma destabilizes the brainstem's autonomic control: infiltrating the pons it disrupts the centers governing heart rate and blood pressure, causing dangerous swings late in the disease.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Diffuse midline glioma picks off the cranial nerves: invading the pons it palsies the nerves controlling eye movement, the face and swallowing, the cranial-nerve deficits that often herald it.
 - `connects-to` → **[Activin A](../../03-molecular/activin-a/README.md)** — Some diffuse midline gliomas are driven by activin signaling: ACVR1 mutations switch on the activin-A/BMP pathway, a recurrent driver in the pontine tumors of young children and a drug target.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy made a startling discovery: real synapses form between healthy neurons and glioma cells, the neuron's terminal wiring directly onto the tumor — an electrical hijacking that drives the cancer's growth.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — The tumor plugs into the brain's electricity: glioma cells carry potassium and other ion channels that let them depolarize in response to neuronal firing, the electrical excitability that the neuron-glioma synapse feeds and that spurs invasion.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Glutamate from the neuron-glioma synapse pours sodium into the tumor: AMPA-receptor currents flood the glioma cell with sodium and calcium, the depolarizing signal by which neural activity literally powers the cancer's spread.
 
 ---
 
