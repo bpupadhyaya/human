@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/il-4
     relation: connects-to
     note: "Follicular lymphoma leans on its niche: T-follicular-helper cells feed the malignant B cells signals like IL-4 and CD40L, so the tumor depends on a supportive microenvironment, not its mutations alone."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows follicular lymphoma's small cleaved cell: the centrocyte, with its notched, angular nucleus, recapitulates the germinal-center cell it came from, packed into nodular follicles by the BCL2 that blocks its death."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Follicular lymphoma can settle in the eye's surroundings: ocular adnexal lymphoma in the orbit, conjunctiva, and lacrimal gland is an indolent extranodal site, presenting as a painless salmon-pink mass."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut hosts a distinct follicular lymphoma: the duodenal-type and other GI involvement stud the bowel, an indolent presentation often found incidentally on endoscopy of the small and large intestine."
 ---
 
 # Follicular Lymphoma
@@ -297,6 +306,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — When follicular lymphoma transforms to aggressive DLBCL and is treated, rapid cell death can trigger tumor lysis, spilling phosphate and potassium into the blood as a metabolic emergency.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Follicular lymphoma has a skin form: primary cutaneous follicle-center lymphoma appears as slow-growing nodules on the head and trunk, an indolent cousin of the nodal disease.
 - `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — Follicular lymphoma leans on its niche: T-follicular-helper cells feed the malignant B cells signals like IL-4 and CD40L, so the tumor depends on a supportive microenvironment, not its mutations alone.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows follicular lymphoma's small cleaved cell: the centrocyte, with its notched, angular nucleus, recapitulates the germinal-center cell it came from, packed into nodular follicles by the BCL2 that blocks its death.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Follicular lymphoma can settle in the eye's surroundings: ocular adnexal lymphoma in the orbit, conjunctiva, and lacrimal gland is an indolent extranodal site, presenting as a painless salmon-pink mass.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut hosts a distinct follicular lymphoma: the duodenal-type and other GI involvement stud the bowel, an indolent presentation often found incidentally on endoscopy of the small and large intestine.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

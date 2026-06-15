@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Gastric cancer can invade the marrow: diffuse signet-ring disease is a classic cause of cancer-associated microangiopathy and a leukoerythroblastic blood picture from marrow infiltration."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals gastric cancer's signet-ring cell: a mucin vacuole so large it shoves the nucleus to a crescent at the cell's rim, the hallmark of the diffuse type that stiffens the stomach into linitis plastica."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Gastric cancer signals through the skin: the velvety dark patches of paraneoplastic acanthosis nigricans and a hard umbilical 'Sister Mary Joseph' nodule from peritoneal spread can be the first outward signs of the hidden tumor."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Gastric cancer spreads to the lung: beyond the liver and peritoneum, hematogenous metastases and lymphangitic spread reach the lungs, a marker of the advanced disease that surgery can no longer cure."
 ---
 
 # Gastric Cancer
@@ -318,6 +327,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Gastric cancer is fed by new vessels: VEGF recruits endothelial cells, and ramucirumab, an anti-VEGFR2 antibody, is a mainstay of advanced disease that starves the tumor of its blood supply.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Gastric cancer seeds the abdomen: signet-ring cells spread across the peritoneum and can encase the bowel, and ovarian Krukenberg deposits mark this transcoelomic spread.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Gastric cancer can invade the marrow: diffuse signet-ring disease is a classic cause of cancer-associated microangiopathy and a leukoerythroblastic blood picture from marrow infiltration.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals gastric cancer's signet-ring cell: a mucin vacuole so large it shoves the nucleus to a crescent at the cell's rim, the hallmark of the diffuse type that stiffens the stomach into linitis plastica.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Gastric cancer signals through the skin: the velvety dark patches of paraneoplastic acanthosis nigricans and a hard umbilical 'Sister Mary Joseph' nodule from peritoneal spread can be the first outward signs of the hidden tumor.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Gastric cancer spreads to the lung: beyond the liver and peritoneum, hematogenous metastases and lymphangitic spread reach the lungs, a marker of the advanced disease that surgery can no longer cure.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
