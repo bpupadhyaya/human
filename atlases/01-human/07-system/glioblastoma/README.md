@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "High-dose steroids tame the brain swelling at a cost: dexamethasone shrinks glioblastoma's peritumoral edema but suppresses the adrenal glands and raises blood sugar, so it is tapered as carefully as it is started."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Glioblastoma is one of the most clot-prone cancers: the tumor pours out tissue factor while paresis and surgery add stasis, so deep-vein thrombosis and pulmonary embolism strike a large share of patients and complicate their care."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "STAT3 fuels the tumor's worst traits: it drives the aggressive mesenchymal subtype and reprograms infiltrating microglia and macrophages into an immunosuppressive state, helping glioblastoma evade attack and resist therapy."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Dendritic cells are being enlisted against it: vaccines that load a patient's own dendritic cells with tumor antigen (DCVax-L) aim to prime an immune attack on glioblastoma, one of the immunotherapy strategies tested against this cold tumor."
 ---
 
 # Glioblastoma
@@ -325,6 +334,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An anti-angiogenic antibody fights its blood supply: bevacizumab, targeting VEGF, is used in recurrent glioblastoma to starve the tumor's vessels and shrink the edema, easing symptoms though not curing the disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Temozolomide quietly empties the marrow: the alkylating chemotherapy paired with radiation suppresses neutrophils and lymphocytes, so blood counts are monitored and PJP prophylaxis given against the resulting infection risk.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — High-dose steroids tame the brain swelling at a cost: dexamethasone shrinks glioblastoma's peritumoral edema but suppresses the adrenal glands and raises blood sugar, so it is tapered as carefully as it is started.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Glioblastoma is one of the most clot-prone cancers: the tumor pours out tissue factor while paresis and surgery add stasis, so deep-vein thrombosis and pulmonary embolism strike a large share of patients and complicate their care.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — STAT3 fuels the tumor's worst traits: it drives the aggressive mesenchymal subtype and reprograms infiltrating microglia and macrophages into an immunosuppressive state, helping glioblastoma evade attack and resist therapy.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells are being enlisted against it: vaccines that load a patient's own dendritic cells with tumor antigen (DCVax-L) aim to prime an immune attack on glioblastoma, one of the immunotherapy strategies tested against this cold tumor.
 
 ---
 

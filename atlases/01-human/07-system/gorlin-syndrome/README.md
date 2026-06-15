@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The hedgehog-blocking drugs upset the gut: vismodegib and sonidegib commonly cause nausea, loss of appetite, and taste change, side effects that — with muscle cramps and hair loss — limit how long patients can take them."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Tumors escape hedgehog blockade through other pathways: PI3K-AKT signaling crosstalks with the hedgehog axis and helps Gorlin's basal cell carcinomas grow resistant to SMO inhibitors like vismodegib, a route to relapse being targeted with combination therapy."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "The jaw cysts eat into bone: Gorlin's odontogenic keratocysts expand through the mandible and maxilla by recruiting osteoclasts to resorb bone, the painless swellings that often bring a young patient to diagnosis."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immunotherapy is a fallback for the rare aggressive case: when a basal cell carcinoma turns advanced or metastatic and outruns hedgehog inhibitors, anti-PD-1 drugs like cemiplimab unleash cytotoxic T cells against it."
 ---
 
 # Gorlin Syndrome
@@ -306,6 +315,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy helps the heaviest BCC burden: when Gorlin patients sprout too many basal cell carcinomas for surgery, the anti-PD-1 antibody cemiplimab can be used alongside the hedgehog-pathway inhibitors that target the underlying defect.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Gorlin grows collagen-rich fibrous tumors: the cardiac fibroma and ovarian fibroma characteristic of the syndrome are dense whorls of fibroblasts and collagen, benign masses found on the imaging screening it requires.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The hedgehog-blocking drugs upset the gut: vismodegib and sonidegib commonly cause nausea, loss of appetite, and taste change, side effects that — with muscle cramps and hair loss — limit how long patients can take them.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Tumors escape hedgehog blockade through other pathways: PI3K-AKT signaling crosstalks with the hedgehog axis and helps Gorlin's basal cell carcinomas grow resistant to SMO inhibitors like vismodegib, a route to relapse being targeted with combination therapy.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — The jaw cysts eat into bone: Gorlin's odontogenic keratocysts expand through the mandible and maxilla by recruiting osteoclasts to resorb bone, the painless swellings that often bring a young patient to diagnosis.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immunotherapy is a fallback for the rare aggressive case: when a basal cell carcinoma turns advanced or metastatic and outruns hedgehog inhibitors, anti-PD-1 drugs like cemiplimab unleash cytotoxic T cells against it.
 
 ---
 
