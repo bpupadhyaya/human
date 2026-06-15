@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The digestive tract houses an organ of microbes: trillions of gut bacteria ferment fiber into short-chain fatty acids, synthesize vitamins, train immunity, and shape motility — a metabolic partner the system feeds and depends on."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The gut is the body's largest antibody factory: plasma cells in the lamina propria pump out secretory IgA that bathes the mucosa, neutralizing pathogens and shaping the flora while teaching tolerance to food and friendly microbes."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "The gut is also the largest endocrine organ: scattered enteroendocrine cells release ghrelin, CCK, secretin, gastrin, and GLP-1 that pace digestion and signal hunger and fullness to the brain, the gut-hormone arm of metabolism."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "A vast, restrained macrophage army lines the gut: the largest pool of macrophages in the body clears the trickle of bacteria crossing the barrier yet stays tolerant, and when that balance breaks, inflammatory bowel disease follows."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -300,6 +309,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Nervous System](../nervous-system/README.md) — the gut runs its own brain: the enteric nervous system, ~500 million neurons in the bowel wall, drives peristalsis and secretion largely autonomously, while the vagus-linked gut-brain axis ties digestion to mood and appetite.
 - **Connects to:** [Immune System](../immune-system/README.md) — most of the body's immune cells guard the gut: gut-associated lymphoid tissue (Peyer's patches, lamina propria) polices the vast luminal antigen load, tolerating food and flora while repelling pathogens across a single-cell barrier.
 - **Connects to:** [Gut Microbiome](../gut-microbiome/README.md) — the digestive tract houses an organ of microbes: trillions of gut bacteria ferment fiber into short-chain fatty acids, synthesize vitamins, train immunity, and shape motility — a metabolic partner the system feeds and depends on.
+- **Connects to:** [Antibody](../../03-molecular/antibody/README.md) — the gut is the body's largest antibody factory: plasma cells in the lamina propria pump out secretory IgA that bathes the mucosa, neutralizing pathogens and shaping the flora while teaching tolerance to food and friendly microbes.
+- **Connects to:** [Endocrine System](../endocrine-system/README.md) — the gut is also the largest endocrine organ: scattered enteroendocrine cells release ghrelin, CCK, secretin, gastrin, and GLP-1 that pace digestion and signal hunger and fullness to the brain, the gut-hormone arm of metabolism.
+- **Connects to:** [Macrophage](../../04-cellular/macrophage/README.md) — a vast, restrained macrophage army lines the gut: the largest pool of macrophages in the body clears the trickle of bacteria crossing the barrier yet stays tolerant, and when that balance breaks, inflammatory bowel disease follows.
 
 ## Pathology
 
