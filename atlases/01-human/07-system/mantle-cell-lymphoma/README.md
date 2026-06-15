@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "MCL studs the whole gut: 'multiple lymphomatous polyposis' carpets the stomach and intestines with polyps, a classic presentation found on endoscopy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows MCL's irregular cell: a small-to-medium lymphocyte with a deeply notched, cleaved nucleus, its overexpressed cyclin D1 — from the t(11;14) translocation — driving relentless division."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "MCL can settle around the eye: ocular adnexal and orbital involvement form a painless mass in the conjunctiva or orbit, one of the extranodal sites this widely-spreading lymphoma reaches."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Aggressive MCL risks tumor lysis: the bulky, fast-dividing blastoid variant, burst by chemotherapy, spills potassium and phosphate into the blood, an electrolyte emergency that can stop the heart."
 ---
 
 # Mantle Cell Lymphoma
@@ -293,6 +302,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MCL is staged by imaging and scope: PET/CT photons map the widespread nodal and splenic disease, and endoscopy finds the 'lymphomatous polyposis' studding the bowel.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Aggressive MCL can lyse fast on treatment: dying cells spill phosphate and potassium in tumor lysis, a risk with bulky or blastoid disease starting chemotherapy.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MCL studs the whole gut: 'multiple lymphomatous polyposis' carpets the stomach and intestines with polyps, a classic presentation found on endoscopy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows MCL's irregular cell: a small-to-medium lymphocyte with a deeply notched, cleaved nucleus, its overexpressed cyclin D1 — from the t(11;14) translocation — driving relentless division.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — MCL can settle around the eye: ocular adnexal and orbital involvement form a painless mass in the conjunctiva or orbit, one of the extranodal sites this widely-spreading lymphoma reaches.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Aggressive MCL risks tumor lysis: the bulky, fast-dividing blastoid variant, burst by chemotherapy, spills potassium and phosphate into the blood, an electrolyte emergency that can stop the heart.
 
 ---
 

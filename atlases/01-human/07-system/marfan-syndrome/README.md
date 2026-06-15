@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Growth-factor signaling beyond TGF-β weakens the Marfan aorta: PDGF among others drives the smooth-muscle changes in the dilating wall, part of the biology that aneurysm treatments target."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy exposes the failing Marfan aorta: defective fibrillin leaves the elastic fibers of the arterial wall fragmented and frayed — cystic medial degeneration — the structural rot that lets the aorta balloon and tear."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Weak connective tissue gives way throughout the body: Marfan brings hernias, diverticula, and rectal prolapse, the lax collagen and elastin of the gut wall and abdominal wall failing under everyday pressure."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney's moorings loosen in Marfan: with its supporting connective tissue lax, the kidney can drop out of position (nephroptosis), one of the quieter manifestations of the body-wide tissue weakness."
 ---
 
 # Marfan Syndrome
@@ -310,6 +319,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Marfan is monitored by imaging: echocardiography and CT/MR angiography photons track the aortic root's slow dilation, the measurement that decides when to operate before it dissects.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Marfan's floppy mitral valve calcifies early: mitral annular calcification is part of the Ghent diagnostic score, adding to the valve prolapse and aortic disease of the connective-tissue disorder.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Growth-factor signaling beyond TGF-β weakens the Marfan aorta: PDGF among others drives the smooth-muscle changes in the dilating wall, part of the biology that aneurysm treatments target.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy exposes the failing Marfan aorta: defective fibrillin leaves the elastic fibers of the arterial wall fragmented and frayed — cystic medial degeneration — the structural rot that lets the aorta balloon and tear.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Weak connective tissue gives way throughout the body: Marfan brings hernias, diverticula, and rectal prolapse, the lax collagen and elastin of the gut wall and abdominal wall failing under everyday pressure.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney's moorings loosen in Marfan: with its supporting connective tissue lax, the kidney can drop out of position (nephroptosis), one of the quieter manifestations of the body-wide tissue weakness.
 
 ---
 
