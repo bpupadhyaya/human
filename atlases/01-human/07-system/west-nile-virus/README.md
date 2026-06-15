@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "West Nile strikes the nervous system broadly: beyond the brain it injures peripheral nerves and the anterior-horn motor neurons, causing a polio-like acute flaccid paralysis that can be permanent."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows West Nile as a classic flavivirus: a small icosahedral core wrapped in a lipid envelope, assembling and budding through the membranes of the endoplasmic reticulum inside infected cells."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "West Nile encephalitis often drops the sodium: inflammation of the brain triggers SIADH, the inappropriate water retention that dilutes blood sodium and can worsen the confusion and seizures of severe neuroinvasive disease."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "West Nile can inflame the heart: myocarditis and arrhythmias are recognized though underappreciated complications, the virus reaching beyond the nervous system to strain the circulation in severe infection."
 ---
 
 # West Nile Virus
@@ -286,3 +295,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Neuroinvasive West Nile is mapped by MRI: its photons reveal inflammation in the thalamus, basal ganglia and brainstem, and the spinal-cord signal behind its polio-like paralysis.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Most West Nile infections show on the skin: West Nile fever brings a blotchy maculopapular rash over the trunk and limbs, the visible face of the far commoner non-neuroinvasive disease.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — West Nile strikes the nervous system broadly: beyond the brain it injures peripheral nerves and the anterior-horn motor neurons, causing a polio-like acute flaccid paralysis that can be permanent.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows West Nile as a classic flavivirus: a small icosahedral core wrapped in a lipid envelope, assembling and budding through the membranes of the endoplasmic reticulum inside infected cells.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — West Nile encephalitis often drops the sodium: inflammation of the brain triggers SIADH, the inappropriate water retention that dilutes blood sodium and can worsen the confusion and seizures of severe neuroinvasive disease.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — West Nile can inflame the heart: myocarditis and arrhythmias are recognized though underappreciated complications, the virus reaching beyond the nervous system to strain the circulation in severe infection.
