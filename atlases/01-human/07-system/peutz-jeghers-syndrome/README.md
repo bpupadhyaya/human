@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Peutz-Jeghers polyps are fragile and vascular: their endothelial-lined vessels tear easily as the bulky polyps tumble and intussuscept, causing the recurrent bleeding that drains the body's iron."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons keep watch over the small bowel: video capsule endoscopy and MR enterography survey the long stretches of intestine that ordinary scopes miss, finding the hamartomatous polyps before they grow big enough to bleed or obstruct."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Losing STK11 raises the lung's cancer risk: Peutz-Jeghers carries one of the highest lifetime risks of lung cancer among inherited syndromes, so the same gene that studs the gut with polyps also primes the airway lining for malignancy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver becomes a target as Peutz-Jeghers cancers spread: the syndrome's many adenocarcinomas — pancreatic, gastrointestinal, breast — metastasize there, so liver imaging joins the broad cancer surveillance these patients need."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -283,6 +292,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Peutz-Jeghers' freckles are made with copper: the dark spots on the lips and mouth are melanin, built by the copper-dependent enzyme tyrosinase, the mucocutaneous sign that flags the syndrome.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Peutz-Jeghers carries a steep pancreatic cancer risk: STK11 loss makes the pancreas one of the syndrome's most dangerous cancer sites, so it joins the gut and breast in lifelong surveillance.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Peutz-Jeghers polyps are fragile and vascular: their endothelial-lined vessels tear easily as the bulky polyps tumble and intussuscept, causing the recurrent bleeding that drains the body's iron.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons keep watch over the small bowel: video capsule endoscopy and MR enterography survey the long stretches of intestine that ordinary scopes miss, finding the hamartomatous polyps before they grow big enough to bleed or obstruct.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Losing STK11 raises the lung's cancer risk: Peutz-Jeghers carries one of the highest lifetime risks of lung cancer among inherited syndromes, so the same gene that studs the gut with polyps also primes the airway lining for malignancy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver becomes a target as Peutz-Jeghers cancers spread: the syndrome's many adenocarcinomas — pancreatic, gastrointestinal, breast — metastasize there, so liver imaging joins the broad cancer surveillance these patients need.
 
 ---
 

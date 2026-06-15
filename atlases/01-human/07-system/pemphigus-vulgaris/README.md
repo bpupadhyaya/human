@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Neutrophils mark the IgA pemphigus variant: while classic pemphigus is antibody-and-T-cell driven, the IgA form fills the epidermis with neutrophils, a distinct cellular pattern of pustular blistering."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows pemphigus tearing the skin apart cell by cell: the desmosomes that rivet keratinocytes together dissolve, intercellular gaps widen, and the cells round up and float free — the ultrastructure of acantholysis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Fluorescent light clinches the diagnosis: direct immunofluorescence on a skin biopsy lights up IgG deposited between epidermal cells in a 'fishnet' or chicken-wire pattern, the test that separates pemphigus from other blistering diseases."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Pemphigus may attack more than desmogleins: autoantibodies also target keratinocyte acetylcholine receptors, and since cholinergic signaling helps keep these cells stuck together, blocking it is thought to add to the acantholysis."
 ---
 
 # Pemphigus Vulgaris
@@ -311,6 +320,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Widespread pemphigus blisters leak sodium and fluid: losing the skin barrier over large areas lets fluid, sodium, and protein escape, as in a burn, risking dehydration and electrolyte imbalance.
 - `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Pemphigus can be paraneoplastic, tied to the thymus: paraneoplastic pemphigus arises with tumors including thymoma—the same gland linked to myasthenia gravis—so an underlying neoplasm is sought in atypical cases.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils mark the IgA pemphigus variant: while classic pemphigus is antibody-and-T-cell driven, the IgA form fills the epidermis with neutrophils, a distinct cellular pattern of pustular blistering.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows pemphigus tearing the skin apart cell by cell: the desmosomes that rivet keratinocytes together dissolve, intercellular gaps widen, and the cells round up and float free — the ultrastructure of acantholysis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Fluorescent light clinches the diagnosis: direct immunofluorescence on a skin biopsy lights up IgG deposited between epidermal cells in a 'fishnet' or chicken-wire pattern, the test that separates pemphigus from other blistering diseases.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Pemphigus may attack more than desmogleins: autoantibodies also target keratinocyte acetylcholine receptors, and since cholinergic signaling helps keep these cells stuck together, blocking it is thought to add to the acantholysis.
 
 ---
 
