@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "MS endangers the kidney through the bladder: cord lesions cause a neurogenic bladder that retains urine, breeding recurrent infections and back-pressure that, untreated, can damage the kidneys over time."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both reveal and treat MS: oligoclonal IgG bands in the spinal fluid support the diagnosis, and B-cell-depleting monoclonal antibodies (ocrelizumab, rituximab) are among its most effective disease-modifying therapies."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "MS bends to reproductive hormones: it strikes women far more often, relapses quiet during pregnancy then rebound after delivery, and family planning shapes the choice and timing of disease-modifying drugs."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Demyelination disconnects the body's smooth muscle: cord lesions disrupt the autonomic control of the bowel into constipation and of the bladder's detrusor, the dysmotility behind much of the disability between relapses."
 ---
 
 # Multiple Sclerosis
@@ -297,6 +306,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows MS stripping the nerves bare: in the plaque, immune cells peel the myelin sheath off axons, leaving naked fibers that conduct poorly — and patchy, often incomplete, remyelination by surviving oligodendrocytes.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — MS disconnects the bowel: lesions in the spinal cord disrupt the nerves controlling defecation, so neurogenic constipation and incontinence are common, disabling, and often under-discussed symptoms.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — MS endangers the kidney through the bladder: cord lesions cause a neurogenic bladder that retains urine, breeding recurrent infections and back-pressure that, untreated, can damage the kidneys over time.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both reveal and treat MS: oligoclonal IgG bands in the spinal fluid support the diagnosis, and B-cell-depleting monoclonal antibodies (ocrelizumab, rituximab) are among its most effective disease-modifying therapies.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MS bends to reproductive hormones: it strikes women far more often, relapses quiet during pregnancy then rebound after delivery, and family planning shapes the choice and timing of disease-modifying drugs.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Demyelination disconnects the body's smooth muscle: cord lesions disrupt the autonomic control of the bowel into constipation and of the bladder's detrusor, the dysmotility behind much of the disability between relapses.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)

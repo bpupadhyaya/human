@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Treatment leans on the adrenal hormone: long-term corticosteroids are a mainstay that suppress the autoimmune attack but also suppress the body's own adrenal output, so steroids must be tapered carefully to avoid a crisis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Myasthenia is named by its antibodies: most patients carry anti-acetylcholine-receptor antibodies, a minority anti-MuSK or anti-LRP4, and these autoantibodies both confirm the diagnosis and are the very cause of the weakness."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "The antibodies destroy the junction through complement: anti-AChR IgG fixes complement to riddle the postsynaptic membrane with membrane-attack complex, which is why complement-blocking drugs like eculizumab help refractory disease."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Myasthenia spares the involuntary muscles: it attacks only the nicotinic junctions of voluntary striated muscle, leaving the smooth muscle of gut and vessels — which runs on different receptors — untouched, so the weakness never reaches them."
 ---
 
 # Myasthenia Gravis
@@ -298,6 +307,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the damaged endplate: where antibodies have attacked, the postsynaptic membrane's deep folds flatten and simplify and the synaptic cleft widens, so the acetylcholine that does arrive finds far fewer receptors to act on.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium swings unmask the weakness: because neuromuscular transmission is already marginal, disturbances in potassium and certain drugs that affect it can abruptly worsen myasthenic weakness, a hazard during illness and surgery.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Treatment leans on the adrenal hormone: long-term corticosteroids are a mainstay that suppress the autoimmune attack but also suppress the body's own adrenal output, so steroids must be tapered carefully to avoid a crisis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Myasthenia is named by its antibodies: most patients carry anti-acetylcholine-receptor antibodies, a minority anti-MuSK or anti-LRP4, and these autoantibodies both confirm the diagnosis and are the very cause of the weakness.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — The antibodies destroy the junction through complement: anti-AChR IgG fixes complement to riddle the postsynaptic membrane with membrane-attack complex, which is why complement-blocking drugs like eculizumab help refractory disease.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Myasthenia spares the involuntary muscles: it attacks only the nicotinic junctions of voluntary striated muscle, leaving the smooth muscle of gut and vessels — which runs on different receptors — untouched, so the weakness never reaches them.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
