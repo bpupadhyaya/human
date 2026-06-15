@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/hypertension
     relation: connects-to
     note: "RCC and its treatment both raise the pressure: the tumor can secrete renin to drive paraneoplastic hypertension, and the anti-VEGF tyrosine-kinase inhibitors used against it cause hypertension so reliably it serves as a marker that the drug is working."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "A sudden left varicocele can betray a kidney tumor: a left RCC invading the renal vein blocks the gonadal vein that drains into it, so a new, non-decompressing left varicocele in a man warrants imaging of the kidney."
+  - target: 01-human/03-molecular/sdhb
+    relation: connects-to
+    note: "RCC has a rare metabolic-gene form: germline SDHB and related succinate-dehydrogenase mutations cause a hereditary renal cell carcinoma alongside paraganglioma, the same pseudohypoxic pathway that drives the FH-deficient and VHL kidney cancers."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "RCC can climb into the heart: its tumor thrombus grows up the renal vein and inferior vena cava, sometimes reaching the right atrium against the cardiomyocytes — while the TKIs treating it add their own cardiotoxic strain."
 ---
 
 # Renal Cell Carcinoma
@@ -314,6 +323,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both label and treat RCC: PAX8, CD10, and CA-IX stains confirm renal origin on biopsy, and the disease is now driven by antibody therapy — anti-PD-1 checkpoint blockade and anti-VEGF agents that exploit its rich, VHL-driven vasculature.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count carries the prognosis: RCC drives a paraneoplastic leukocytosis and a high neutrophil-to-lymphocyte ratio that predicts worse survival, a marker built into the risk models that guide its targeted and immune therapies.
 - `connects-to` → **[Hypertension](../hypertension/README.md)** — RCC and its treatment both raise the pressure: the tumor can secrete renin to drive paraneoplastic hypertension, and the anti-VEGF tyrosine-kinase inhibitors used against it cause hypertension so reliably it serves as a marker that the drug is working.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A sudden left varicocele can betray a kidney tumor: a left RCC invading the renal vein blocks the gonadal vein that drains into it, so a new, non-decompressing left varicocele in a man warrants imaging of the kidney.
+- `connects-to` → **[SDHB](../../03-molecular/sdhb/README.md)** — RCC has a rare metabolic-gene form: germline SDHB and related succinate-dehydrogenase mutations cause a hereditary renal cell carcinoma alongside paraganglioma, the same pseudohypoxic pathway that drives the FH-deficient and VHL kidney cancers.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — RCC can climb into the heart: its tumor thrombus grows up the renal vein and inferior vena cava, sometimes reaching the right atrium against the cardiomyocytes — while the TKIs treating it add their own cardiotoxic strain.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

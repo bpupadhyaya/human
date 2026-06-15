@@ -149,6 +149,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "The thyroid paces fertility: hypo- and hyperthyroidism disorder the menstrual cycle, impair ovulation and sperm, and raise miscarriage risk, so thyroid function is a routine check in infertility and early-pregnancy care."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Nerves run the reproductive acts: autonomic neurons drive erection (parasympathetic) and ejaculation (sympathetic), and neural reflexes govern labor and orgasm, so nerve injury from surgery, diabetes or spinal damage commonly causes sexual dysfunction."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "The reproductive tract is HIV's main gateway: the virus spreads through sexual contact across genital and rectal mucosa and passes from mother to child in pregnancy, birth and breastfeeding, making reproductive health central to its prevention."
+  - target: 01-human/07-system/hereditary-breast-ovarian-cancer
+    relation: connects-to
+    note: "Germline BRCA strikes the reproductive organs: it sharply raises ovarian, breast and prostate cancer risk, so carriers face decisions about risk-reducing removal of the ovaries and tubes that bring early surgical menopause."
 ---
 
 # Reproductive System
@@ -308,6 +317,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both threaten and tolerate reproduction: antisperm antibodies cause immune infertility and anti-D antibodies drive hemolytic disease of the newborn, yet pregnancy itself is a feat of immune tolerance that keeps the half-foreign fetus from being rejected.
 - `connects-to` → **[Obesity](../obesity/README.md)** — Body fat sets the reproductive thermostat: adipose tissue makes estrogen and leptin, so obesity drives the anovulation and PCOS of women and the low testosterone of men, while too little fat halts menstruation altogether.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid paces fertility: hypo- and hyperthyroidism disorder the menstrual cycle, impair ovulation and sperm, and raise miscarriage risk, so thyroid function is a routine check in infertility and early-pregnancy care.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Nerves run the reproductive acts: autonomic neurons drive erection (parasympathetic) and ejaculation (sympathetic), and neural reflexes govern labor and orgasm, so nerve injury from surgery, diabetes or spinal damage commonly causes sexual dysfunction.
+- `connects-to` → **[HIV](../hiv/README.md)** — The reproductive tract is HIV's main gateway: the virus spreads through sexual contact across genital and rectal mucosa and passes from mother to child in pregnancy, birth and breastfeeding, making reproductive health central to its prevention.
+- `connects-to` → **[Hereditary Breast and Ovarian Cancer](../hereditary-breast-ovarian-cancer/README.md)** — Germline BRCA strikes the reproductive organs: it sharply raises ovarian, breast and prostate cancer risk, so carriers face decisions about risk-reducing removal of the ovaries and tubes that bring early surgical menopause.
 
 ## Pathology
 
