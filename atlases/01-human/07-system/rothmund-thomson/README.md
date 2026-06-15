@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "The RECQL4 spectrum can starve the blood of iron's payload: related helicase disorders feature bone-marrow failure and anemia, so the same defect that scars skin and bone can leave the marrow unable to keep red cells filled."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Rothmund-Thomson children stay small: short stature is a core feature, driven by intrinsic growth failure and skeletal dysplasia, and a subset have true growth-hormone deficiency that can be treated to improve final height."
+  - target: 01-human/07-system/aml
+    relation: connects-to
+    note: "The faulty helicase courts leukemia too: beyond its signature osteosarcoma, RECQL4 loss leaves DNA poorly repaired in blood-forming cells, raising the risk of myelodysplasia that can progress to acute myeloid leukemia."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The marrow trouble reaches the platelets: the bone-marrow dysfunction of the RECQL4 disorders can drop platelet counts into a thrombocytopenia, adding a bleeding tendency to the syndrome's skin, bone, and cancer problems."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -308,6 +317,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The broken RECQL4 helicase leaves cells unable to mend radiation damage: ionizing rays knock electrons loose to shatter DNA, and without the repair enzyme the breaks persist — so these patients tolerate radiotherapy poorly and accumulate the mutations that drive their cancers.
 - `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Rothmund-Thomson unsettles bone remodeling: radial-ray defects, low bone density, and a high osteosarcoma risk reflect a skeleton out of balance, where osteoclasts resorbing bone are no longer matched by healthy bone-building.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — The RECQL4 spectrum can starve the blood of iron's payload: related helicase disorders feature bone-marrow failure and anemia, so the same defect that scars skin and bone can leave the marrow unable to keep red cells filled.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Rothmund-Thomson children stay small: short stature is a core feature, driven by intrinsic growth failure and skeletal dysplasia, and a subset have true growth-hormone deficiency that can be treated to improve final height.
+- `connects-to` → **[AML](../aml/README.md)** — The faulty helicase courts leukemia too: beyond its signature osteosarcoma, RECQL4 loss leaves DNA poorly repaired in blood-forming cells, raising the risk of myelodysplasia that can progress to acute myeloid leukemia.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The marrow trouble reaches the platelets: the bone-marrow dysfunction of the RECQL4 disorders can drop platelet counts into a thrombocytopenia, adding a bleeding tendency to the syndrome's skin, bone, and cancer problems.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

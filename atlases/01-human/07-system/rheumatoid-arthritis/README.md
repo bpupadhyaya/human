@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c3
     relation: connects-to
     note: "Rheumatoid immune complexes burn through complement: rheumatoid factor and anti-CCP antibodies bind into clusters that fix and consume complement, so low C3 in joint fluid and blood marks the active, sometimes vasculitic, disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Treating RA keeps watch on the liver: methotrexate and leflunomide, mainstays of disease-modifying therapy, can raise transaminases and rarely scar the liver, so enzymes are checked regularly and alcohol limited."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells are RA's antibody foundries: differentiated from the autoreactive B cells, they secrete the rheumatoid factor and anti-CCP antibodies that drive the disease — the upstream B-lineage that rituximab depletes to quiet it."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Chronic inflammation starves the red cells: RA's high IL-6 drives hepcidin, locking iron away from the marrow to cause the anemia of chronic disease — the commonest extra-articular finding, tracking with how active the arthritis is."
 ---
 
 # Rheumatoid Arthritis
@@ -321,6 +330,9 @@ RA patients have:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons chart rheumatoid joint destruction: X-rays catch the juxta-articular erosions and narrowed joint spaces that grade damage, while MRI and ultrasound reveal the active synovitis and early erosions before plain films can, guiding treatment.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — An enlarged spleen names a rare rheumatoid variant: Felty syndrome is the triad of longstanding RA, splenomegaly, and neutropenia, where the swollen spleen consumes white cells and leaves the patient prone to serious infection.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Rheumatoid immune complexes burn through complement: rheumatoid factor and anti-CCP antibodies bind into clusters that fix and consume complement, so low C3 in joint fluid and blood marks the active, sometimes vasculitic, disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Treating RA keeps watch on the liver: methotrexate and leflunomide, mainstays of disease-modifying therapy, can raise transaminases and rarely scar the liver, so enzymes are checked regularly and alcohol limited.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells are RA's antibody foundries: differentiated from the autoreactive B cells, they secrete the rheumatoid factor and anti-CCP antibodies that drive the disease — the upstream B-lineage that rituximab depletes to quiet it.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Chronic inflammation starves the red cells: RA's high IL-6 drives hepcidin, locking iron away from the marrow to cause the anemia of chronic disease — the commonest extra-articular finding, tracking with how active the arthritis is.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
