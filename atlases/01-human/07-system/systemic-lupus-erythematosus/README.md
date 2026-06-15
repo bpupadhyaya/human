@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Lupus can inflame the gut's vessels: mesenteric vasculitis (lupus enteritis) starves the bowel wall, causing crampy abdominal pain and, at worst, ischemia and perforation that can be missed amid the disease's other faces."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "B cells are kept alive by BAFF in lupus: the cytokine rescues autoreactive B cells from deletion, so they mature into the autoantibody factories of the disease — making BAFF the target of belimumab, the first new lupus drug in decades."
+  - target: 02-pathogen/01-viruses/epstein-barr-virus
+    relation: connects-to
+    note: "Epstein-Barr virus is lupus's strongest infectious trigger: nearly every patient carries it, and through molecular mimicry and chronic B-cell activation the latent virus is thought to help break self-tolerance in the genetically susceptible."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "Lupus nephritis falls hardest on the podocyte: immune-complex deposition and interferon injure these glomerular gatekeeper cells, erasing their foot processes so protein floods the urine — the proteinuria that grades the kidney disease."
 ---
 
 # Systemic Lupus Erythematosus
@@ -331,6 +340,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Lupus is overwhelmingly a woman's disease of the childbearing years: estrogen shapes its risk, it can flare in pregnancy, and anti-Ro antibodies crossing the placenta cause neonatal lupus and congenital heart block.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Lupus ages the arteries early: chronic inflammation and immune complexes injure the endothelial lining, so accelerated atherosclerosis and premature heart attacks are now a leading cause of death, rivaling the disease's own flares.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Lupus can inflame the gut's vessels: mesenteric vasculitis (lupus enteritis) starves the bowel wall, causing crampy abdominal pain and, at worst, ischemia and perforation that can be missed amid the disease's other faces.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — B cells are kept alive by BAFF in lupus: the cytokine rescues autoreactive B cells from deletion, so they mature into the autoantibody factories of the disease — making BAFF the target of belimumab, the first new lupus drug in decades.
+- `connects-to` → **[Epstein-Barr Virus](../../../02-pathogen/01-viruses/epstein-barr-virus/README.md)** — Epstein-Barr virus is lupus's strongest infectious trigger: nearly every patient carries it, and through molecular mimicry and chronic B-cell activation the latent virus is thought to help break self-tolerance in the genetically susceptible.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — Lupus nephritis falls hardest on the podocyte: immune-complex deposition and interferon injure these glomerular gatekeeper cells, erasing their foot processes so protein floods the urine — the proteinuria that grades the kidney disease.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

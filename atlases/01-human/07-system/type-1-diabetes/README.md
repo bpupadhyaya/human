@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Glucose injures the vessel lining throughout: damaged endothelial cells underlie both the microvascular complications in eye, kidney, and nerve and the accelerated atherosclerosis that makes heart disease the long-term killer in type 1 diabetes."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Type 1 diabetes is partly an IL-2 problem: weak IL-2 signaling starves the regulatory T cells that should restrain islet autoimmunity, so low-dose IL-2 to expand Tregs is a leading strategy to halt beta-cell destruction."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells join the islet assault: they infiltrate the inflamed pancreatic islets and help kill insulin-making beta cells, adding an innate arm to the T-cell-driven autoimmunity of type 1 diabetes."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The gut helps set off islet autoimmunity: a leaky small-bowel barrier and dietary antigens prime the immune system, and the strong overlap with celiac disease ties intestinal immunity to the onset of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -303,6 +312,9 @@ cross_links:
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Autoimmunity rarely travels alone: type 1 diabetes clusters with other autoimmune endocrine disease, and Addison's disease — autoimmune destruction of the adrenal gland — joins it in the polyglandular syndromes that demand vigilance.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy demands near-perfect control: high glucose around conception raises congenital malformation and miscarriage risk and later causes macrosomia, so type 1 diabetics tighten their insulin and monitoring before and through pregnancy.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Glucose injures the vessel lining throughout: damaged endothelial cells underlie both the microvascular complications in eye, kidney, and nerve and the accelerated atherosclerosis that makes heart disease the long-term killer in type 1 diabetes.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Type 1 diabetes is partly an IL-2 problem: weak IL-2 signaling starves the regulatory T cells that should restrain islet autoimmunity, so low-dose IL-2 to expand Tregs is a leading strategy to halt beta-cell destruction.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells join the islet assault: they infiltrate the inflamed pancreatic islets and help kill insulin-making beta cells, adding an innate arm to the T-cell-driven autoimmunity of type 1 diabetes.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The gut helps set off islet autoimmunity: a leaky small-bowel barrier and dietary antigens prime the immune system, and the strong overlap with celiac disease ties intestinal immunity to the onset of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
