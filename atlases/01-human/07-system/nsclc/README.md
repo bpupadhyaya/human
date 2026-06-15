@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "NSCLC pushes platelets up and clots out: paraneoplastic thrombocytosis is common, tumor-driven hypercoagulability makes lung cancer a leading cause of cancer-associated thrombosis, and a high platelet count tracks with worse outcomes."
+  - target: 01-human/03-molecular/stk11
+    relation: connects-to
+    note: "STK11/LKB1 loss makes a cold tumor: this tumor suppressor is among the most frequently inactivated genes in lung adenocarcinoma, and its loss — especially alongside KRAS — predicts an immune-excluded tumor that resists checkpoint inhibitors."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "NSCLC eats into bone: skeletal metastases are common and osteolytic, with tumor-driven RANKL revving up osteoclasts to dissolve bone — causing pain, fractures, and hypercalcemia, and making osteoclast-blocking denosumab part of supportive care."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils foretell the course in NSCLC: a high neutrophil-to-lymphocyte ratio is a robust poor-prognosis marker, and tumor-associated neutrophils help build the immunosuppressive niche that lets the cancer grow."
 ---
 
 # NSCLC
@@ -280,6 +289,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy separates NSCLC's faces: adenocarcinoma shows microvilli and lamellar bodies betraying pneumocyte origin, while squamous cell carcinoma reveals desmosomes and bundled tonofilaments of keratin — ultrastructure that resolved subtype before immunostains.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — NSCLC favors the skeleton when it spreads: bone is among its commonest metastatic sites, and deposits reaching the marrow can crowd out blood production, causing the anemia and low counts that signal advanced disease.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — NSCLC pushes platelets up and clots out: paraneoplastic thrombocytosis is common, tumor-driven hypercoagulability makes lung cancer a leading cause of cancer-associated thrombosis, and a high platelet count tracks with worse outcomes.
+- `connects-to` → **[STK11](../../03-molecular/stk11/README.md)** — STK11/LKB1 loss makes a cold tumor: this tumor suppressor is among the most frequently inactivated genes in lung adenocarcinoma, and its loss — especially alongside KRAS — predicts an immune-excluded tumor that resists checkpoint inhibitors.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — NSCLC eats into bone: skeletal metastases are common and osteolytic, with tumor-driven RANKL revving up osteoclasts to dissolve bone — causing pain, fractures, and hypercalcemia, and making osteoclast-blocking denosumab part of supportive care.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils foretell the course in NSCLC: a high neutrophil-to-lymphocyte ratio is a robust poor-prognosis marker, and tumor-associated neutrophils help build the immunosuppressive niche that lets the cancer grow.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
