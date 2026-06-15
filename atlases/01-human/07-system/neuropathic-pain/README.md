@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "ATP is a pain signal outside the cell: released from damaged tissue and nerves, it fires purinergic receptors on sensory neurons and microglia, a key trigger that switches on the spinal microglia driving neuropathic pain."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Small-fiber neuropathy is confirmed under the microscope: a skin punch biopsy, immunostained and read in light, counts the thinned nerve endings behind unexplained burning pain that routine tests miss."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Neuropathic pain resists opioids: nerve injury strips mu-opioid receptors from damaged neurons and stirs glia, so morphine-type drugs work poorly here, pushing treatment toward gabapentinoids and antidepressants."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Lost myelin makes nerves misfire: when oligodendrocytes and their peripheral counterparts fail, demyelinated axons fire ectopically and cross-talk, generating the shooting, electric pains of conditions like MS."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -297,6 +306,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Nerve injury summons macrophages that sustain pain: they swarm the damaged nerve and dorsal-root ganglion, releasing cytokines that sensitize sensory neurons, so this neuroimmune attack helps turn a transient injury into chronic neuropathic pain.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Neuropathic pain is burned in at the synapse: relentless input strengthens spinal dorsal-horn synapses (central sensitization), so the cord amplifies signals and even gentle touch is read as pain long after the injury heals.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — ATP is a pain signal outside the cell: released from damaged tissue and nerves, it fires purinergic receptors on sensory neurons and microglia, a key trigger that switches on the spinal microglia driving neuropathic pain.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Small-fiber neuropathy is confirmed under the microscope: a skin punch biopsy, immunostained and read in light, counts the thinned nerve endings behind unexplained burning pain that routine tests miss.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Neuropathic pain resists opioids: nerve injury strips mu-opioid receptors from damaged neurons and stirs glia, so morphine-type drugs work poorly here, pushing treatment toward gabapentinoids and antidepressants.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Lost myelin makes nerves misfire: when oligodendrocytes and their peripheral counterparts fail, demyelinated axons fire ectopically and cross-talk, generating the shooting, electric pains of conditions like MS.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

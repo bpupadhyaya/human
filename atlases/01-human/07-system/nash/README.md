@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Low oxygen aggravates NASH: pericentral liver cells sit in the most oxygen-poor zone and are first to be injured, and the intermittent hypoxia of sleep apnea—common in these patients—drives faster progression."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "NASH is increasingly staged without a biopsy: ultrasound and MRI photons measure how much fat the liver holds, while elastography reads its stiffness to gauge the fibrosis that matters most."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Most people with NASH die of the heart, not the liver: it travels with the metabolic syndrome, accelerating atherosclerosis so that cardiovascular disease, not cirrhosis, is the leading cause of death."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "When NASH decompensates into cirrhosis, the body retains sodium and water as ascites, and the dilutional low blood sodium that follows marks advanced, failing liver disease."
 ---
 
 # NASH
@@ -248,6 +257,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — NASH begins in the fat: overloaded, inflamed adipocytes spill free fatty acids and inflammatory adipokines into the blood, flooding the liver with the lipid and signals that ignite the steatohepatitis.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Advanced NASH enlarges the spleen: as fatty liver scars into cirrhosis, portal hypertension backs blood up into the spleen, which swells and traps platelets (hypersplenism), a sign the liver disease has decompensated.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Low oxygen aggravates NASH: pericentral liver cells sit in the most oxygen-poor zone and are first to be injured, and the intermittent hypoxia of sleep apnea—common in these patients—drives faster progression.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — NASH is increasingly staged without a biopsy: ultrasound and MRI photons measure how much fat the liver holds, while elastography reads its stiffness to gauge the fibrosis that matters most.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Most people with NASH die of the heart, not the liver: it travels with the metabolic syndrome, accelerating atherosclerosis so that cardiovascular disease, not cirrhosis, is the leading cause of death.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — When NASH decompensates into cirrhosis, the body retains sodium and water as ascites, and the dilutional low blood sodium that follows marks advanced, failing liver disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
