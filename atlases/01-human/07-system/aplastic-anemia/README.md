@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The immunosuppression taxes the kidney: ciclosporin, a mainstay of treatment, is nephrotoxic and raises blood pressure, so renal function and drug levels are watched throughout the long course of therapy."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Devouring macrophages can mimic marrow failure: in hemophagocytic syndromes overactive macrophages engulf blood cells, causing a pancytopenia that must be told apart from true aplastic anemia on the marrow biopsy."
+  - target: 01-human/07-system/leishmaniasis
+    relation: connects-to
+    note: "A tropical infection can empty the blood counts: visceral leishmaniasis fills the marrow with parasitized macrophages and enlarges the spleen, producing a pancytopenia that mimics aplastic anemia in endemic regions."
+  - target: 01-human/07-system/myelofibrosis
+    relation: connects-to
+    note: "Both can give a 'dry tap,' but for opposite reasons: aplastic anemia empties the marrow while myelofibrosis scars it solid, so the marrow biopsy — hypocellular versus fibrotic — separates these two causes of marrow failure."
 ---
 
 # Aplastic Anemia
@@ -320,6 +329,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Hepatitis can be followed by marrow collapse: a severe hepatitis-associated aplastic anemia strikes weeks to months after acute hepatitis, usually in young men, an immune-mediated wipeout of the marrow triggered by the liver infection.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Inherited marrow failure shows in the skeleton: Fanconi anemia, a constitutional cause, comes with radial-ray and thumb anomalies and short stature, the bony clues that point to a genetic syndrome behind a child's aplasia.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The immunosuppression taxes the kidney: ciclosporin, a mainstay of treatment, is nephrotoxic and raises blood pressure, so renal function and drug levels are watched throughout the long course of therapy.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Devouring macrophages can mimic marrow failure: in hemophagocytic syndromes overactive macrophages engulf blood cells, causing a pancytopenia that must be told apart from true aplastic anemia on the marrow biopsy.
+- `connects-to` → **[Leishmaniasis](../leishmaniasis/README.md)** — A tropical infection can empty the blood counts: visceral leishmaniasis fills the marrow with parasitized macrophages and enlarges the spleen, producing a pancytopenia that mimics aplastic anemia in endemic regions.
+- `connects-to` → **[Myelofibrosis](../myelofibrosis/README.md)** — Both can give a 'dry tap,' but for opposite reasons: aplastic anemia empties the marrow while myelofibrosis scars it solid, so the marrow biopsy — hypocellular versus fibrotic — separates these two causes of marrow failure.
 
 ---
 

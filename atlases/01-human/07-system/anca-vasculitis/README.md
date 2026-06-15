@@ -172,6 +172,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "The inflammation eats the vessel wall: neutrophil-driven necrotizing inflammation destroys the smooth-muscle media of small arteries, weakening them into the microaneurysms and ruptures that bleed into lung and kidney."
+  - target: 01-human/04-cellular/podocyte
+    relation: connects-to
+    note: "The kidney's filter is wrecked from above: pauci-immune necrotizing glomerulonephritis ruptures the capillary tuft and forms crescents that crush the podocytes, producing the hematuria and rapidly rising creatinine that make renal ANCA disease an emergency."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "BAFF keeps the ANCA factories alive: the cytokine sustains the autoreactive B cells that make anti-MPO and anti-PR3 antibodies, the rationale behind rituximab and the B-cell-targeted control of the disease."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "ANCA blurs into bowel disease: an atypical perinuclear ANCA is a hallmark antibody of ulcerative colitis, one of the overlaps where the same autoantibody family marks both vasculitis and inflammatory bowel disease."
 ---
 
 # ANCA Vasculitis
@@ -355,6 +364,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Glucocorticoids anchor induction: high-dose steroids rapidly quench the vasculitis alongside rituximab or cyclophosphamide, but their infection, bone, and metabolic toll drives the modern push to taper them fast.
 - `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Active vasculitis is sharply prothrombotic: ANCA disease carries a markedly raised risk of deep-vein thrombosis and pulmonary embolism during flares, the inflamed endothelium tipping the blood toward clotting.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The inflammation eats the vessel wall: neutrophil-driven necrotizing inflammation destroys the smooth-muscle media of small arteries, weakening them into the microaneurysms and ruptures that bleed into lung and kidney.
+- `connects-to` → **[Podocyte](../../04-cellular/podocyte/README.md)** — The kidney's filter is wrecked from above: pauci-immune necrotizing glomerulonephritis ruptures the capillary tuft and forms crescents that crush the podocytes, producing the hematuria and rapidly rising creatinine that make renal ANCA disease an emergency.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — BAFF keeps the ANCA factories alive: the cytokine sustains the autoreactive B cells that make anti-MPO and anti-PR3 antibodies, the rationale behind rituximab and the B-cell-targeted control of the disease.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — ANCA blurs into bowel disease: an atypical perinuclear ANCA is a hallmark antibody of ulcerative colitis, one of the overlaps where the same autoantibody family marks both vasculitis and inflammatory bowel disease.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
