@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Tuberous sclerosis reaches the liver: angiomyolipomas, the fatty vascular tumors typical of the kidney, also arise in the liver, extending the hamartoma burden of unchecked mTOR beyond it."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons map tuberous sclerosis everywhere: brain MRI finds the cortical tubers and growing SEGAs, a Wood's lamp's ultraviolet light makes the pale ash-leaf skin spots glow, and echocardiography catches the cardiac rhabdomyomas in infancy."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Unchecked mTOR can grow tumors in the pancreas too: tuberous sclerosis predisposes to pancreatic neuroendocrine tumors, including insulinomas, adding the gland to the long list of organs studded with its hamartomas and growths."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Losing TSC control disturbs the brain's wiring insulation: mTOR overactivity impairs oligodendrocytes and myelination, so white-matter migration lines and hypomyelination accompany the tubers, contributing to the epilepsy and autism."
 ---
 
 # Tuberous Sclerosis Complex
@@ -299,6 +308,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Tuberous sclerosis calcifies the brain with calcium phosphate: its subependymal nodules harden into calcium-phosphate deposits visible on imaging, a diagnostic hallmark of the disease.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Tuberous sclerosis grows fat-laden tumors: its angiomyolipomas blend adipocytes with vessels and smooth muscle, the fatty component giving these kidney and liver growths their characteristic look.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Tuberous sclerosis reaches the liver: angiomyolipomas, the fatty vascular tumors typical of the kidney, also arise in the liver, extending the hamartoma burden of unchecked mTOR beyond it.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons map tuberous sclerosis everywhere: brain MRI finds the cortical tubers and growing SEGAs, a Wood's lamp's ultraviolet light makes the pale ash-leaf skin spots glow, and echocardiography catches the cardiac rhabdomyomas in infancy.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Unchecked mTOR can grow tumors in the pancreas too: tuberous sclerosis predisposes to pancreatic neuroendocrine tumors, including insulinomas, adding the gland to the long list of organs studded with its hamartomas and growths.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Losing TSC control disturbs the brain's wiring insulation: mTOR overactivity impairs oligodendrocytes and myelination, so white-matter migration lines and hypomyelination accompany the tubers, contributing to the epilepsy and autism.
 
 ---
 

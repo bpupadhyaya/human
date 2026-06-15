@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Insulin drives potassium into cells, so diabetes is also a potassium story: emergencies like ketoacidosis hide a whole-body deficit, and giving insulin can crash serum potassium dangerously low unless it is replaced."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The red cell keeps diabetes's three-month diary: glucose sticks irreversibly to hemoglobin over the erythrocyte's lifespan, so the HbA1c reflects average blood sugar and has become the central test for diagnosing and tracking the disease."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Diabetes is written on the skin: the velvety darkening of acanthosis nigricans flags the insulin resistance, while poor circulation and nerve loss turn minor foot wounds into the slow-healing ulcers that threaten amputation."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons screen for diabetes's silent damage: retinal photography and OCT catch the eye disease before vision is lost, the workhorse imaging of the annual checks that protect organs the high sugar attacks unnoticed."
 ---
 
 # Type 2 Diabetes
@@ -270,6 +279,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Type 2 diabetes is at its core a cardiovascular disease: it doubles the risk of heart attack and heart failure, which remain the leading cause of death, so modern care prizes drugs that protect the heart, not just lower glucose.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — High glucose injures the endothelial cells lining blood vessels: this endothelial dysfunction is the shared root of diabetes's micro- and macrovascular complications, from retinopathy and nephropathy to accelerated atherosclerosis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Insulin drives potassium into cells, so diabetes is also a potassium story: emergencies like ketoacidosis hide a whole-body deficit, and giving insulin can crash serum potassium dangerously low unless it is replaced.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The red cell keeps diabetes's three-month diary: glucose sticks irreversibly to hemoglobin over the erythrocyte's lifespan, so the HbA1c reflects average blood sugar and has become the central test for diagnosing and tracking the disease.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Diabetes is written on the skin: the velvety darkening of acanthosis nigricans flags the insulin resistance, while poor circulation and nerve loss turn minor foot wounds into the slow-healing ulcers that threaten amputation.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons screen for diabetes's silent damage: retinal photography and OCT catch the eye disease before vision is lost, the workhorse imaging of the annual checks that protect organs the high sugar attacks unnoticed.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
