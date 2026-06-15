@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic T cells stoke severe and viral asthma: CD8 T cells, especially during respiratory-virus exacerbations, add to the Th2 inflammation and tissue damage, broadening the immune picture beyond the classic allergic pathway."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Treating an asthma attack can drop potassium: high-dose beta-agonists drive potassium into cells, so the salbutamol that opens airways may cause hypokalemia that needs watching in severe attacks."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Asthma is one step of the atopic march, often heralded by eczema: the same Th2/IgE allergy that inflames the skin in atopic dermatitis later inflames the airways, linking skin and lung in one allergic diathesis."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Long-standing asthma scars the airway: chronic inflammation lays down subepithelial fibrosis and thickens the wall, part of the remodeling that turns reversible wheeze into fixed, hard-to-treat airflow limitation."
 ---
 
 # Asthma
@@ -268,6 +277,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium relaxes the asthmatic airway: intravenous magnesium sulfate is given in severe attacks because it blocks calcium-driven smooth-muscle contraction and bronchodilates when standard inhalers fall short.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A severe asthma attack ultimately starves the blood of oxygen: as airways narrow and air-trapping worsens, gas exchange fails and oxygen falls—rising CO2 in a tiring patient is an ominous sign of impending respiratory arrest.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells stoke severe and viral asthma: CD8 T cells, especially during respiratory-virus exacerbations, add to the Th2 inflammation and tissue damage, broadening the immune picture beyond the classic allergic pathway.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Treating an asthma attack can drop potassium: high-dose beta-agonists drive potassium into cells, so the salbutamol that opens airways may cause hypokalemia that needs watching in severe attacks.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Asthma is one step of the atopic march, often heralded by eczema: the same Th2/IgE allergy that inflames the skin in atopic dermatitis later inflames the airways, linking skin and lung in one allergic diathesis.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Long-standing asthma scars the airway: chronic inflammation lays down subepithelial fibrosis and thickens the wall, part of the remodeling that turns reversible wheeze into fixed, hard-to-treat airflow limitation.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

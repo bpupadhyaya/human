@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Borderline personality keeps the adrenal stress axis dysregulated: a disturbed HPA response drives abnormal cortisol patterns tied to the trauma history, linking the adrenal glands to the emotional instability of the disorder."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Self-harm marks the skin in borderline personality: recurrent cutting and other self-injury, used to discharge unbearable emotion, are a defining behavior that distinguishes it from other mood disorders."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging exposes the disorder's circuitry: the photons of fMRI and PET reveal an overactive amygdala and weak prefrontal control, the neural signature of borderline emotional dysregulation."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Glia join the picture in borderline personality: alongside neurons, astrocytes and their support of synapses are implicated in the stress- and trauma-linked changes thought to underlie the emotional-circuit dysfunction."
 ---
 
 # Borderline Personality Disorder
@@ -299,6 +308,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Self-injury in borderline personality may engage the opioid system: nonsuicidal self-harm can release endogenous opioids that briefly relieve emotional pain, an addictive loop that opioid-blocking drugs are studied to interrupt.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Borderline personality reflects altered emotional-circuit synapses: early trauma and stress reshape connections between the amygdala and prefrontal cortex, the plasticity behind the impulsivity and emotional swings that therapy targets.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Borderline personality keeps the adrenal stress axis dysregulated: a disturbed HPA response drives abnormal cortisol patterns tied to the trauma history, linking the adrenal glands to the emotional instability of the disorder.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Self-harm marks the skin in borderline personality: recurrent cutting and other self-injury, used to discharge unbearable emotion, are a defining behavior that distinguishes it from other mood disorders.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging exposes the disorder's circuitry: the photons of fMRI and PET reveal an overactive amygdala and weak prefrontal control, the neural signature of borderline emotional dysregulation.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Glia join the picture in borderline personality: alongside neurons, astrocytes and their support of synapses are implicated in the stress- and trauma-linked changes thought to underlie the emotional-circuit dysfunction.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
