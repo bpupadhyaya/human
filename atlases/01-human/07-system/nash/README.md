@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "When NASH decompensates into cirrhosis, the body retains sodium and water as ascites, and the dilutional low blood sodium that follows marks advanced, failing liver disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the injured liver cell of NASH: large fat droplets swell the hepatocyte, the cytoskeleton clumps into Mallory-Denk bodies, and giant megamitochondria mark the metabolic stress that distinguishes it from simple fatty liver."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Fatty liver disease quietly strains the kidney: NASH is independently linked to chronic kidney disease, the shared insulin resistance and inflammation damaging both organs in parallel beyond the usual diabetes and hypertension."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Low vitamin D shadows fatty liver: deficiency is common in NASH and correlates with more inflammation and fibrosis, reflecting the vitamin's role in insulin sensitivity and restraining the immune injury."
 ---
 
 # NASH
@@ -260,6 +269,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — NASH is increasingly staged without a biopsy: ultrasound and MRI photons measure how much fat the liver holds, while elastography reads its stiffness to gauge the fibrosis that matters most.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Most people with NASH die of the heart, not the liver: it travels with the metabolic syndrome, accelerating atherosclerosis so that cardiovascular disease, not cirrhosis, is the leading cause of death.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — When NASH decompensates into cirrhosis, the body retains sodium and water as ascites, and the dilutional low blood sodium that follows marks advanced, failing liver disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the injured liver cell of NASH: large fat droplets swell the hepatocyte, the cytoskeleton clumps into Mallory-Denk bodies, and giant megamitochondria mark the metabolic stress that distinguishes it from simple fatty liver.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Fatty liver disease quietly strains the kidney: NASH is independently linked to chronic kidney disease, the shared insulin resistance and inflammation damaging both organs in parallel beyond the usual diabetes and hypertension.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Low vitamin D shadows fatty liver: deficiency is common in NASH and correlates with more inflammation and fibrosis, reflecting the vitamin's role in insulin sensitivity and restraining the immune injury.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

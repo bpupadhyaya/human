@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Myelofibrosis can colonize the chest: extramedullary hematopoiesis and the disease's clotting tendency drive pulmonary hypertension, adding breathlessness to its anemia and splenomegaly."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy catches the cell driving the scarring: dysplastic megakaryocytes spill their granule contents — TGF-β and PDGF — that goad marrow fibroblasts into laying down the collagen and reticulin choking out blood production."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Myelofibrosis can turn marrow to stone: as fibrosis advances it often brings osteosclerosis, a thickening of the bone with extra calcium-phosphate mineral that shows as dense, sclerotic bones on X-ray."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney feels the disease's overflow: extramedullary blood formation can settle there, and the rapid cell turnover floods the blood with uric acid that crystallizes in the tubules, threatening urate nephropathy."
 ---
 
 # Myelofibrosis
@@ -291,6 +300,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Myelofibrosis shows up in imaging: X-ray photons can reveal osteosclerosis from the fibrotic marrow, and low-dose splenic irradiation is one way to shrink a massively enlarged, painful spleen.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Myelofibrosis can harden bone as well as marrow: activated osteoblasts lay down osteosclerosis that thickens the cavity walls, a bony counterpart to the reticulin and collagen scarring inside.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myelofibrosis can colonize the chest: extramedullary hematopoiesis and the disease's clotting tendency drive pulmonary hypertension, adding breathlessness to its anemia and splenomegaly.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy catches the cell driving the scarring: dysplastic megakaryocytes spill their granule contents — TGF-β and PDGF — that goad marrow fibroblasts into laying down the collagen and reticulin choking out blood production.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Myelofibrosis can turn marrow to stone: as fibrosis advances it often brings osteosclerosis, a thickening of the bone with extra calcium-phosphate mineral that shows as dense, sclerotic bones on X-ray.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney feels the disease's overflow: extramedullary blood formation can settle there, and the rapid cell turnover floods the blood with uric acid that crystallizes in the tubules, threatening urate nephropathy.
 
 ---
 
