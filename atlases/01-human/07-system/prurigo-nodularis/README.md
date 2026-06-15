@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc shortage can drive itchy skin: deficiency produces a scaly, itch-prone dermatitis and impairs barrier repair, so correcting low zinc is part of addressing the relentless scratching behind prurigo."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Prurigo's breakthrough treatments are antibodies: dupilumab blocks IL-4/IL-13 signaling and nemolizumab the itch cytokine IL-31's receptor, monoclonal antibodies that finally break the itch-scratch cycle that topical steroids could not."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The biologics bring an ocular catch: dupilumab, used for prurigo and atopic disease, commonly causes conjunctivitis, so a red, irritated eye is a side effect watched for during treatment."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Relentless scratching breaches the barrier: the excoriated nodules become impetiginized, drawing neutrophils as secondary bacterial infection sets in — a complication that itself worsens the itch."
 ---
 
 # Prurigo Nodularis
@@ -262,6 +271,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the nodule's nerve overgrowth: the thickened skin teems with proliferated dermal nerve endings and degranulating mast cells alongside it, the cellular machinery that turns a scratch into a self-sustaining itch.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency stokes the itch: low levels are common in chronic pruritus and prurigo, and the vitamin's role in skin-barrier repair and immune regulation has made supplementation a studied adjunct.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc shortage can drive itchy skin: deficiency produces a scaly, itch-prone dermatitis and impairs barrier repair, so correcting low zinc is part of addressing the relentless scratching behind prurigo.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Prurigo's breakthrough treatments are antibodies: dupilumab blocks IL-4/IL-13 signaling and nemolizumab the itch cytokine IL-31's receptor, monoclonal antibodies that finally break the itch-scratch cycle that topical steroids could not.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The biologics bring an ocular catch: dupilumab, used for prurigo and atopic disease, commonly causes conjunctivitis, so a red, irritated eye is a side effect watched for during treatment.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Relentless scratching breaches the barrier: the excoriated nodules become impetiginized, drawing neutrophils as secondary bacterial infection sets in — a complication that itself worsens the itch.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

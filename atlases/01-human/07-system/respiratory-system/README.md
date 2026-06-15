@@ -144,6 +144,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The gut and lungs share an immune conversation: through the gut-lung axis, the intestinal microbiome shapes airway immunity, so gut health influences susceptibility to asthma and respiratory infection."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "The airway is a frontline of immunity: with every breath the lungs meet airborne microbes, so mucociliary clearance, alveolar macrophages, and bronchus-associated lymphoid tissue form a vast immune barrier between the outside air and the blood."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "The vagus nerve tunes the airways with acetylcholine: parasympathetic cholinergic tone constricts bronchial smooth muscle and drives mucus, which is why anticholinergics (ipratropium, tiotropium) open the airways in asthma and COPD."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "One faulty channel ties lung to pancreas: in cystic fibrosis a defective CFTR thickens secretions in both, clogging the airways with mucus while blocking the pancreatic ducts that should deliver digestive enzymes."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
