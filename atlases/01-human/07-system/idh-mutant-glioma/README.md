@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "IDH glioma almost never leaves the brain, but rarely it can: like other gliomas, extracranial spread to the lung and bone is an exceptional late event, usually after surgery has breached the natural barriers."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The mutant enzyme is itself a target: IDH1 R132H is so uniform that a specific antibody stains it on biopsy, instantly confirming the diagnosis, and the neoantigen it creates is being chased by IDH-vaccine trials to provoke an antibody and T-cell response."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Long-term seizure control leans on magnesium and other ions: anticonvulsants and the tumor's own ion fluxes disturb electrolyte balance, and magnesium is watched in these patients as both an anti-seizure adjunct and a casualty of supportive care."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Treatment turns on the marrow: temozolomide chemoradiation suppresses neutrophil counts, and a rising neutrophil-to-lymphocyte ratio in the blood tracks the inflammatory, immune-suppressive state that marks more aggressive glioma behavior."
 ---
 
 # IDH-Mutant Glioma
@@ -315,6 +324,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows IDH glioma's quiet infiltration: well-differentiated tumor cells slip diffusely between intact neurons and vessels, lacking the necrosis and bizarre vasculature of glioblastoma — the ultrastructure of a lower-grade, slower cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Even a low-grade glioma plugs into the brain's electricity: its cells carry the potassium and other ion channels that let them depolarize with neuronal activity, an excitability that promotes migration and sparks the seizures these tumors so often cause.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — IDH glioma almost never leaves the brain, but rarely it can: like other gliomas, extracranial spread to the lung and bone is an exceptional late event, usually after surgery has breached the natural barriers.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The mutant enzyme is itself a target: IDH1 R132H is so uniform that a specific antibody stains it on biopsy, instantly confirming the diagnosis, and the neoantigen it creates is being chased by IDH-vaccine trials to provoke an antibody and T-cell response.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Long-term seizure control leans on magnesium and other ions: anticonvulsants and the tumor's own ion fluxes disturb electrolyte balance, and magnesium is watched in these patients as both an anti-seizure adjunct and a casualty of supportive care.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Treatment turns on the marrow: temozolomide chemoradiation suppresses neutrophil counts, and a rising neutrophil-to-lymphocyte ratio in the blood tracks the inflammatory, immune-suppressive state that marks more aggressive glioma behavior.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
