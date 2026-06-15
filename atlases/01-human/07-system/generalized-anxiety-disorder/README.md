@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Sex hormones color the worry: GAD is about twice as common in women, and anxiety often intensifies premenstrually, in the postpartum, and around menopause as estrogen and progesterone swing."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Chronic worry leaves an inflammatory trace: GAD is associated with raised IL-6 and other inflammatory markers, fitting a model in which sustained stress-axis activation primes low-grade inflammation that acts back on the anxious brain."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The body's smooth muscle carries the tension: chronic anxiety clenches gut and airway smooth muscle into the cramping, bloating, and chest tightness of GAD's somatic symptoms, the physical face of relentless worry."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Sustained anxiety hardens the arteries: the chronic sympathetic and cortisol drive of GAD raises blood pressure and inflammation that accelerate atherosclerosis, contributing to its long-term cardiovascular risk."
 ---
 
 # Generalized Anxiety Disorder
@@ -341,6 +350,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Worry steals sleep through the clock: GAD's racing mind delays sleep onset and blunts melatonin, and the resulting insomnia loops back to sharpen the next day's anxiety — a cycle melatonin and sleep hygiene aim to break.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Anxiety shows on the skin: the autonomic surge brings sweating, flushing, and goosebumps, and chronic stress flares skin conditions like eczema and hives through the brain-skin axis.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sex hormones color the worry: GAD is about twice as common in women, and anxiety often intensifies premenstrually, in the postpartum, and around menopause as estrogen and progesterone swing.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Chronic worry leaves an inflammatory trace: GAD is associated with raised IL-6 and other inflammatory markers, fitting a model in which sustained stress-axis activation primes low-grade inflammation that acts back on the anxious brain.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The body's smooth muscle carries the tension: chronic anxiety clenches gut and airway smooth muscle into the cramping, bloating, and chest tightness of GAD's somatic symptoms, the physical face of relentless worry.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Sustained anxiety hardens the arteries: the chronic sympathetic and cortisol drive of GAD raises blood pressure and inflammation that accelerate atherosclerosis, contributing to its long-term cardiovascular risk.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

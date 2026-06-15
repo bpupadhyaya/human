@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Gambling sits on a spectrum of impulse-control disorders: it often co-occurs with compulsive sexual behavior, and both can erupt together when Parkinson's dopamine-agonist drugs unleash the brain's reward circuits."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "The bet delivers an adrenaline rush: the anticipation and near-misses of gambling trigger a sympathetic epinephrine surge with racing heart and heightened arousal, a physiological reward that, with dopamine, reinforces the habit."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Chronic gambling stress wears on the heart: the repeated arousal and the anxiety of mounting debt raise blood pressure and cardiac risk, and acute losses have triggered stress cardiomyopathy and cardiac events in vulnerable players."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Addiction's gut-brain axis extends to behavior: as in substance addictions, the microbiome-gut-brain signaling that shapes reward, stress, and impulse control is increasingly studied in behavioral addictions like gambling."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -320,6 +329,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stress climbs higher in the gut too: the chronic arousal of gambling drives the dyspepsia, nausea, and stress ulcers of the upper GI tract — the literal 'knot in the stomach' of mounting losses.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Gambling runs late into the night: marathon sessions in windowless casinos and online play disrupt the circadian rhythm and blunt melatonin, feeding the insomnia that worsens impulse control by day.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gambling sits on a spectrum of impulse-control disorders: it often co-occurs with compulsive sexual behavior, and both can erupt together when Parkinson's dopamine-agonist drugs unleash the brain's reward circuits.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — The bet delivers an adrenaline rush: the anticipation and near-misses of gambling trigger a sympathetic epinephrine surge with racing heart and heightened arousal, a physiological reward that, with dopamine, reinforces the habit.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Chronic gambling stress wears on the heart: the repeated arousal and the anxiety of mounting debt raise blood pressure and cardiac risk, and acute losses have triggered stress cardiomyopathy and cardiac events in vulnerable players.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Addiction's gut-brain axis extends to behavior: as in substance addictions, the microbiome-gut-brain signaling that shapes reward, stress, and impulse control is increasingly studied in behavioral addictions like gambling.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
