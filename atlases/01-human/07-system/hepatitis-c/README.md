@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Transmission and pregnancy intersect: hepatitis C spreads mainly through blood but can pass mother-to-child and, less often, sexually, so screening in pregnancy and treating before conception help prevent the next infection."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Chronic HCV can drive a B-cell cancer: relentless antigen stimulation of B cells underlies its mixed cryoglobulinemia and a raised risk of B-cell lymphomas including marginal-zone and lymphoplasmacytic Waldenström-type disease, some of which regress when the virus is cured."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "HCV cirrhosis backs up into the spleen: portal hypertension enlarges it and traps platelets and white cells through hypersplenism, the low counts often the first laboratory hint of advanced liver scarring."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The liver's stellate cells lay down the scar: chronic HCV inflammation activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of the fibrosis that progresses to cirrhosis over decades."
 ---
 
 # Hepatitis C
@@ -328,3 +337,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a classic extrahepatic target: hepatitis C drives membranoproliferative glomerulonephritis through cryoglobulin immune complexes, spilling protein and blood into the urine and sometimes progressing to renal failure.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The old cure crushed the marrow: interferon-and-ribavirin therapy was strongly myelosuppressive, dropping neutrophils and forcing dose cuts — a toxicity swept away by the modern direct-acting antivirals that cure HCV in weeks.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Transmission and pregnancy intersect: hepatitis C spreads mainly through blood but can pass mother-to-child and, less often, sexually, so screening in pregnancy and treating before conception help prevent the next infection.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Chronic HCV can drive a B-cell cancer: relentless antigen stimulation of B cells underlies its mixed cryoglobulinemia and a raised risk of B-cell lymphomas including marginal-zone and lymphoplasmacytic Waldenström-type disease, some of which regress when the virus is cured.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — HCV cirrhosis backs up into the spleen: portal hypertension enlarges it and traps platelets and white cells through hypersplenism, the low counts often the first laboratory hint of advanced liver scarring.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The liver's stellate cells lay down the scar: chronic HCV inflammation activates hepatic stellate cells into collagen-secreting myofibroblasts, the engine of the fibrosis that progresses to cirrhosis over decades.
