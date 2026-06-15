@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/04-cellular/hepatocyte
     relation: connects-to
     note: "The liver joins the pseudo-infection picture: AGS infants often show hepatomegaly and raised transaminases from hepatocyte involvement, part of the systemic interferon storm that imitates congenital cytomegalovirus."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The motor toll is severe: AGS leaves children with profound spasticity, dystonia, and contractures from the damaged motor pathways, a fixed motor disability that dominates the chronic phase after the early encephalopathy."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "The interferon storm drives autoimmunity: chronic type-I-interferon overactivation pushes B cells to make autoantibodies, so AGS overlaps with lupus and can show the antinuclear antibodies and chilblains of an interferon-driven autoimmune disease."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Autoimmune thyroid disease keeps company: the sustained interferon signature of AGS predisposes to autoimmune hypothyroidism, one of the endocrine autoimmunities that can accumulate in these interferonopathy patients."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -288,6 +297,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — AGS blurs into autoimmunity: its chronic type-I-interferon excess — the same signature as lupus — drives autoantibodies including ANA, so many patients carry a lupus-like serology alongside the neurologic disease.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — AGS masquerades as a congenital infection: newborns can present with thrombocytopenia and anemia alongside the brain calcification, a TORCH-mimic picture of cytopenias that misleads toward an infection that is not there.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver joins the pseudo-infection picture: AGS infants often show hepatomegaly and raised transaminases from hepatocyte involvement, part of the systemic interferon storm that imitates congenital cytomegalovirus.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The motor toll is severe: AGS leaves children with profound spasticity, dystonia, and contractures from the damaged motor pathways, a fixed motor disability that dominates the chronic phase after the early encephalopathy.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — The interferon storm drives autoimmunity: chronic type-I-interferon overactivation pushes B cells to make autoantibodies, so AGS overlaps with lupus and can show the antinuclear antibodies and chilblains of an interferon-driven autoimmune disease.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Autoimmune thyroid disease keeps company: the sustained interferon signature of AGS predisposes to autoimmune hypothyroidism, one of the endocrine autoimmunities that can accumulate in these interferonopathy patients.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

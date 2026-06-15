@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The microangiopathy can scar more than the kidney: aHUS is a systemic TMA, and clots in the hepatic and mesenteric microvessels can derange the liver and bowel as part of its multi-organ reach."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy is a classic trigger: complement-mediated aHUS often erupts in the peripartum period, especially postpartum, and must be told apart from HELLP and preeclampsia, which it can closely mimic in a sick mother."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The damage remodels the small arteries: aHUS injures arterioles into the concentric 'onion-skin' thickening of smooth-muscle and matrix layers, the chronic vascular lesion of thrombotic microangiopathy seen on biopsy."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "Microthrombi reach the brain: aHUS is not confined to the kidney — clots in the cerebral microvessels cause seizures, encephalopathy, and stroke, the CNS face of its systemic thrombotic microangiopathy."
 ---
 
 # Atypical HUS
@@ -361,6 +370,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — aHUS reaches the brain through its tiniest vessels: microthrombi in the cerebral microcirculation injure neurons, causing the seizures, confusion, and stroke that complicate severe disease in up to half of patients.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Some aHUS is antibody-made: a subset is driven by autoantibodies against complement factor H (often with CFHR deletions), and the disease's mainstay treatment, eculizumab, is itself a monoclonal antibody that blocks C5.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The microangiopathy can scar more than the kidney: aHUS is a systemic TMA, and clots in the hepatic and mesenteric microvessels can derange the liver and bowel as part of its multi-organ reach.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is a classic trigger: complement-mediated aHUS often erupts in the peripartum period, especially postpartum, and must be told apart from HELLP and preeclampsia, which it can closely mimic in a sick mother.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The damage remodels the small arteries: aHUS injures arterioles into the concentric 'onion-skin' thickening of smooth-muscle and matrix layers, the chronic vascular lesion of thrombotic microangiopathy seen on biopsy.
+- `connects-to` → **[Stroke](../stroke/README.md)** — Microthrombi reach the brain: aHUS is not confined to the kidney — clots in the cerebral microvessels cause seizures, encephalopathy, and stroke, the CNS face of its systemic thrombotic microangiopathy.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
