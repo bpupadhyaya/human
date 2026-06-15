@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Maternal sepsis is a leading cause of death in childbirth: postpartum uterine infection and chorioamnionitis can spill into the bloodstream, and the physiologic changes of pregnancy can mask the early warning signs."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Sepsis unleashes the kinin cascade: contact activation generates bradykinin, a potent vasodilator that drops blood pressure and leaks the capillaries, contributing to the shock and edema of severe infection."
+  - target: 02-pathogen/03-fungi/candida-albicans
+    relation: connects-to
+    note: "Not all sepsis is bacterial: Candida bloodstream infection is a leading cause of fungal sepsis in the ICU, hard to clear, slow to diagnose, and carrying a high mortality in the immunocompromised."
+  - target: 01-human/04-cellular/dendritic-cell
+    relation: connects-to
+    note: "Sepsis turns immune-suppressive after the storm: it depletes dendritic cells and cripples their antigen presentation, a key part of the immunoparalysis that leaves survivors prey to secondary infection."
 ---
 
 # Sepsis
@@ -317,6 +326,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 is a central alarm of sepsis: it pours from activated immune cells to drive fever and the acute-phase response, serving as a severity marker, and blocking it (tocilizumab) tempers the cytokine storm of severe infection.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement runs wild in sepsis: explosive C5a generation recruits and over-activates neutrophils and injures the endothelium, amplifying the inflammation and clotting, which is why C5-blockade is studied to calm the storm.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Maternal sepsis is a leading cause of death in childbirth: postpartum uterine infection and chorioamnionitis can spill into the bloodstream, and the physiologic changes of pregnancy can mask the early warning signs.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Sepsis unleashes the kinin cascade: contact activation generates bradykinin, a potent vasodilator that drops blood pressure and leaks the capillaries, contributing to the shock and edema of severe infection.
+- `connects-to` → **[Candida albicans](../../../02-pathogen/03-fungi/candida-albicans/README.md)** — Not all sepsis is bacterial: Candida bloodstream infection is a leading cause of fungal sepsis in the ICU, hard to clear, slow to diagnose, and carrying a high mortality in the immunocompromised.
+- `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Sepsis turns immune-suppressive after the storm: it depletes dendritic cells and cripples their antigen presentation, a key part of the immunoparalysis that leaves survivors prey to secondary infection.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
