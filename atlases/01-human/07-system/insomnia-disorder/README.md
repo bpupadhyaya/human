@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Insomnia keeps the stress axis switched on: the adrenal glands pour out cortisol when sleep runs short, and this hyperarousal both drives and follows the inability to sleep."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D status tracks with sleep: deficiency is linked to shorter, poorer sleep, and vitamin D receptors in the brain's sleep-regulating regions suggest the vitamin helps set the timing and depth of rest."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut and sleep talk both ways: through the gut-brain axis the intestinal microbiome shapes the serotonin and melatonin precursors that govern sleep, while poor sleep in turn disturbs the gut, a two-way loop."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium helps the brain make its sleep hormone: it is a cofactor in the pineal gland's conversion of serotonin to melatonin, so calcium availability influences the nightly melatonin surge that triggers sleep."
 ---
 
 # Insomnia Disorder
@@ -316,6 +325,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency steals sleep: low iron causes restless legs syndrome, whose nighttime urge to move the legs is a common, treatable cause of chronic insomnia.
 - `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Lost sleep inflames the brain: chronic insomnia activates microglia, and the impaired overnight clearance of waste that poor sleep brings is linked to a higher risk of neurodegeneration.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Insomnia keeps the stress axis switched on: the adrenal glands pour out cortisol when sleep runs short, and this hyperarousal both drives and follows the inability to sleep.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status tracks with sleep: deficiency is linked to shorter, poorer sleep, and vitamin D receptors in the brain's sleep-regulating regions suggest the vitamin helps set the timing and depth of rest.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut and sleep talk both ways: through the gut-brain axis the intestinal microbiome shapes the serotonin and melatonin precursors that govern sleep, while poor sleep in turn disturbs the gut, a two-way loop.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium helps the brain make its sleep hormone: it is a cofactor in the pineal gland's conversion of serotonin to melatonin, so calcium availability influences the nightly melatonin surge that triggers sleep.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
