@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "Orexin neurons speak in glutamate: they co-release this excitatory transmitter to drive the arousal circuits, so when the orexin cells die the loss of their glutamatergic push helps collapse the boundary between waking and sleep."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Narcolepsy is the loss of a tiny cell population: electron and immuno-microscopy reveal the near-total disappearance of the hypothalamus's few thousand orexin neurons, destroyed in what looks like a targeted autoimmune attack."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Cataplexy hijacks the body's muscle-tone circuit: the REM atonia that should only paralyze us in dreams intrudes into waking, switching off the motor pathways to peripheral nerves so the knees buckle at a burst of emotion."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Orexin loss ripples into the gut: narcolepsy patients report more constipation and irritable-bowel symptoms, the wake-and-feeding peptide's absence disturbing the autonomic and gut-brain signaling that paces digestion."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -294,6 +303,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Narcolepsy lets REM sleep invade the eye while waking: dream imagery as hypnagogic hallucinations, paralysis on waking, and the rapid REM-onset eye movements timed in the multiple sleep latency test that confirms the diagnosis.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Losing orexin scrambles leptin's satiety signal: narcolepsy patients show blunted leptin signaling and gain weight despite eating less, a metabolic paradox tying the wake-promoting peptide to the body's fat-sensing hormone.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — Orexin neurons speak in glutamate: they co-release this excitatory transmitter to drive the arousal circuits, so when the orexin cells die the loss of their glutamatergic push helps collapse the boundary between waking and sleep.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Narcolepsy is the loss of a tiny cell population: electron and immuno-microscopy reveal the near-total disappearance of the hypothalamus's few thousand orexin neurons, destroyed in what looks like a targeted autoimmune attack.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Cataplexy hijacks the body's muscle-tone circuit: the REM atonia that should only paralyze us in dreams intrudes into waking, switching off the motor pathways to peripheral nerves so the knees buckle at a burst of emotion.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Orexin loss ripples into the gut: narcolepsy patients report more constipation and irritable-bowel symptoms, the wake-and-feeding peptide's absence disturbing the autonomic and gut-brain signaling that paces digestion.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
