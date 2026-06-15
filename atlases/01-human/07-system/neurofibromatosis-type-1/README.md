@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "NF1 can scar the lungs: a diffuse interstitial lung disease with basal fibrosis and upper-lobe bullae develops in some adults, adding pulmonary disease to the syndrome's tumors and skeletal changes."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Biopsy reads the tumors by antibody: S100 and SOX10 stains confirm a neurofibroma's Schwann-cell origin, and as a benign lesion transforms toward MPNST the loss of H3K27me3 staining flags the dangerous change."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "NF1 reaches the bowel several ways: intestinal neurofibromas and ganglioneuromatosis stud the gut wall, and the syndrome's GISTs and periampullary neuroendocrine tumors can bleed or obstruct, making GI symptoms a reason to look harder."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "NF1 quietly weakens bone: patients run low on vitamin D with reduced bone mineral density and more fractures, an osteopenia that compounds the syndrome's scoliosis and dysplasia and is watched and supplemented in their care."
 ---
 
 # Neurofibromatosis Type 1
@@ -296,6 +305,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy dissects the neurofibroma: it is a mix of Schwann cells, perineurial cells, fibroblasts, and mast cells loosely wrapped in collagen, the heterogeneous tangle that distinguishes it from a pure schwannoma.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — NF1 distorts the growing skeleton: sphenoid-wing dysplasia, scoliosis, and the non-healing tibial pseudarthrosis reflect a bone-forming defect, warping the marrow-bearing bones from birth.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — NF1 can scar the lungs: a diffuse interstitial lung disease with basal fibrosis and upper-lobe bullae develops in some adults, adding pulmonary disease to the syndrome's tumors and skeletal changes.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Biopsy reads the tumors by antibody: S100 and SOX10 stains confirm a neurofibroma's Schwann-cell origin, and as a benign lesion transforms toward MPNST the loss of H3K27me3 staining flags the dangerous change.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — NF1 reaches the bowel several ways: intestinal neurofibromas and ganglioneuromatosis stud the gut wall, and the syndrome's GISTs and periampullary neuroendocrine tumors can bleed or obstruct, making GI symptoms a reason to look harder.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — NF1 quietly weakens bone: patients run low on vitamin D with reduced bone mineral density and more fractures, an osteopenia that compounds the syndrome's scoliosis and dysplasia and is watched and supplemented in their care.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The NF2 gene is a frequent casualty in the chest: it is among the most commonly inactivated genes in pleural mesothelioma, the cancer of the membrane wrapping the lung, linking this tumor-suppressor to malignancy far beyond the nervous system."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody can save hearing in NF2: bevacizumab, a monoclonal against VEGF, shrinks vestibular schwannomas and recovers some hearing, while diffuse S100 and SOX10 stains confirm a schwannoma's Schwann-cell origin on biopsy."
+  - target: 01-human/07-system/integumentary-system
+    relation: connects-to
+    note: "NF2 marks the skin in its own way: rather than NF1's café-au-lait neurofibromas, most patients carry cutaneous and subcutaneous schwannomas — raised plaques and nodules whose discovery in a young person can be the first prompt to look for the brain tumors."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy and inheritance both bear on NF2: vestibular schwannomas can accelerate during pregnancy, and as a dominant disorder each child of an affected parent faces a 50% risk, making genetic counseling central to family planning."
 ---
 
 # Neurofibromatosis Type 2
@@ -303,6 +312,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — NF2's schwannomas come from the nerve's myelinators: the Schwann cell is the peripheral counterpart of the CNS oligodendrocyte, and loss of merlin lets these insulating cells pile up around the vestibular nerve into the hallmark bilateral tumors.
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Schwannomas weave a telltale stroma: their loose Antoni B regions are rich in collagen and microcysts, while the compact Antoni A zones form palisading Verocay bodies — the matrix architecture pathologists read to call the tumor.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The NF2 gene is a frequent casualty in the chest: it is among the most commonly inactivated genes in pleural mesothelioma, the cancer of the membrane wrapping the lung, linking this tumor-suppressor to malignancy far beyond the nervous system.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody can save hearing in NF2: bevacizumab, a monoclonal against VEGF, shrinks vestibular schwannomas and recovers some hearing, while diffuse S100 and SOX10 stains confirm a schwannoma's Schwann-cell origin on biopsy.
+- `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — NF2 marks the skin in its own way: rather than NF1's café-au-lait neurofibromas, most patients carry cutaneous and subcutaneous schwannomas — raised plaques and nodules whose discovery in a young person can be the first prompt to look for the brain tumors.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy and inheritance both bear on NF2: vestibular schwannomas can accelerate during pregnancy, and as a dominant disorder each child of an affected parent faces a 50% risk, making genetic counseling central to family planning.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
