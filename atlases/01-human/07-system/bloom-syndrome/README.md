@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "The gut troubles span a lifetime: severe reflux and feeding difficulty stunt growth in Bloom infants, and the genomic instability later raises the risk of gastric and other gastrointestinal cancers."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Bloom syndrome comes with immune deficiency: poor antibody responses and reduced thymus-derived T-cell function leave children prone to recurrent ear, sinus and lung infections, part of why infections rival cancer as a cause of early death."
+  - target: 01-human/03-molecular/insulin
+    relation: connects-to
+    note: "Bloom bodies resist insulin: many patients develop insulin resistance and early type 2 diabetes despite their small, lean frames, a metabolic derangement tied to the syndrome that adds to its lifelong health burden."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Bloom's failing immunity meets its cancer risk: weakened cytotoxic T-cell surveillance lets genomically unstable, mutation-riddled cells slip past immune killing, compounding the extraordinary lifetime cancer predisposition that defines the syndrome."
 ---
 
 # Bloom Syndrome
@@ -333,6 +342,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Bloom syndrome leaves the body short of antibody: a common variable immunodeficiency-like drop in immunoglobulins accompanies it, so recurrent ear, sinus, and lung infections trouble these patients from childhood.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The diagnosis is read in the blood cells: Bloom's faulty BLM helicase produces a striking excess of sister-chromatid exchanges in cultured lymphocytes — the classic confirmatory test — while marrow failure can also drop the red cells into anemia.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut troubles span a lifetime: severe reflux and feeding difficulty stunt growth in Bloom infants, and the genomic instability later raises the risk of gastric and other gastrointestinal cancers.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Bloom syndrome comes with immune deficiency: poor antibody responses and reduced thymus-derived T-cell function leave children prone to recurrent ear, sinus and lung infections, part of why infections rival cancer as a cause of early death.
+- `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Bloom bodies resist insulin: many patients develop insulin resistance and early type 2 diabetes despite their small, lean frames, a metabolic derangement tied to the syndrome that adds to its lifelong health burden.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Bloom's failing immunity meets its cancer risk: weakened cytotoxic T-cell surveillance lets genomically unstable, mutation-riddled cells slip past immune killing, compounding the extraordinary lifetime cancer predisposition that defines the syndrome.
 
 ---
 

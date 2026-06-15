@@ -153,6 +153,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Bulimia can thin the blood: poor nutrition and iron loss — including bleeding from vomiting-induced esophageal tears — leave some patients anemic, the red cells falling with the rest of the body's reserves."
+  - target: 01-human/07-system/endocrine-system
+    relation: connects-to
+    note: "Bulimia scrambles the body's hormonal signaling: chronic stress drives the HPA axis and cortisol, while erratic eating dysregulates the leptin, ghrelin and thyroid hormones that govern hunger and metabolism, locking in the binge-purge cycle."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Bulimia can starve bone of estrogen: even at near-normal weight, purging and nutritional stress lower estrogen, and the resulting hypoestrogenemia plus poor calcium intake erode bone density toward early osteopenia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Purging drains calcium: vomiting and laxative abuse waste calcium and other minerals, and low ionized calcium can trigger muscle cramps and tetany, while chronic loss adds to the bone thinning of long-standing disease."
 ---
 
 # Bulimia Nervosa
@@ -327,6 +336,9 @@ All of the following must be met:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Purging tricks the body into hoarding salt: chronic fluid loss activates the renin-aldosterone axis, so when laxatives or vomiting stop, the retained sodium and water cause a distressing rebound edema (pseudo-Bartter syndrome).
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Bulimia disturbs the menstrual cycle: the stress, weight swings, and disordered eating disrupt the hypothalamic-pituitary-gonadal axis, bringing irregular periods or amenorrhea even when body weight looks normal.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bulimia can thin the blood: poor nutrition and iron loss — including bleeding from vomiting-induced esophageal tears — leave some patients anemic, the red cells falling with the rest of the body's reserves.
+- `connects-to` → **[Endocrine System](../endocrine-system/README.md)** — Bulimia scrambles the body's hormonal signaling: chronic stress drives the HPA axis and cortisol, while erratic eating dysregulates the leptin, ghrelin and thyroid hormones that govern hunger and metabolism, locking in the binge-purge cycle.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Bulimia can starve bone of estrogen: even at near-normal weight, purging and nutritional stress lower estrogen, and the resulting hypoestrogenemia plus poor calcium intake erode bone density toward early osteopenia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Purging drains calcium: vomiting and laxative abuse waste calcium and other minerals, and low ionized calcium can trigger muscle cramps and tetany, while chronic loss adds to the bone thinning of long-standing disease.
 
 ## Treatment
 
