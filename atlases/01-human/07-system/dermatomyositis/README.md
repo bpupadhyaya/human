@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/pancreatic-cancer
     relation: connects-to
     note: "Adult dermatomyositis can be a cancer's herald: it is strongly paraneoplastic, and beyond the ovarian, gastric, and lung tumors it accompanies, pancreatic cancer is among the malignancies a new diagnosis prompts a search for."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Diagnosis triggers a pelvic search, and pregnancy a careful watch: anti-TIF1γ dermatomyositis demands gynecologic cancer screening, while a flare during pregnancy threatens both mother and fetus and constrains which immunosuppressants are safe."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The gut muscle weakens too: dermatomyositis can slow the stomach and upper digestive tract, and in the juvenile form a vasculopathy can ulcerate or even perforate the bowel, a feared complication of the disease's small-vessel damage."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Sun and steroids both demand vitamin D: the photosensitive rash forces sun avoidance, and the long corticosteroid courses that control the disease drive bone loss, so vitamin D and calcium are given to protect the skeleton."
 ---
 
 # Dermatomyositis
@@ -328,6 +337,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Myositis-specific autoantibodies map the disease: anti-Jo-1 ties it to lung fibrosis, anti-MDA5 to a rapidly progressive ILD and skin ulcers, and anti-TIF1γ flags a high risk of underlying cancer — the serology guiding workup and prognosis.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Dermatomyositis is at heart a disease of the capillaries: complement attack drops out the small vessels feeding muscle, and the VEGF-driven response and resulting ischemia produce the perifascicular atrophy that defines its muscle biopsy.
 - `connects-to` → **[Pancreatic Cancer](../pancreatic-cancer/README.md)** — Adult dermatomyositis can be a cancer's herald: it is strongly paraneoplastic, and beyond the ovarian, gastric, and lung tumors it accompanies, pancreatic cancer is among the malignancies a new diagnosis prompts a search for.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Diagnosis triggers a pelvic search, and pregnancy a careful watch: anti-TIF1γ dermatomyositis demands gynecologic cancer screening, while a flare during pregnancy threatens both mother and fetus and constrains which immunosuppressants are safe.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut muscle weakens too: dermatomyositis can slow the stomach and upper digestive tract, and in the juvenile form a vasculopathy can ulcerate or even perforate the bowel, a feared complication of the disease's small-vessel damage.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Sun and steroids both demand vitamin D: the photosensitive rash forces sun avoidance, and the long corticosteroid courses that control the disease drive bone loss, so vitamin D and calcium are given to protect the skeleton.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

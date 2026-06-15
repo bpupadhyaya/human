@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "COVID can disturb blood sugar: SARS-CoV-2 infects the ACE2-bearing islet cells, and new-onset hyperglycemia and diabetes appearing during or after infection suggest the virus can injure the insulin-making pancreas."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies are the immune memory of COVID: neutralizing antibodies against the spike, raised by infection or vaccine, block ACE2 binding, while serology dates past exposure and the monoclonal antibodies that once treated it were outrun by escape variants."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy raises the stakes: COVID is more severe in pregnant women and increases preterm birth and stillbirth, while the virus also transiently lowers sperm quality through ACE2-bearing testicular cells — reasons vaccination is urged."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "T cells both fight and falter in COVID: severe disease brings a striking lymphopenia as T helper cells are depleted and exhausted, even as the T-cell response is central to clearing the virus and to lasting vaccine immunity."
 ---
 
 # COVID-19 Disease
@@ -260,6 +269,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — COVID reaches the nervous system: the sudden loss of smell points to damage around olfactory neurons, while brain fog, lingering cognitive complaints, and rare Guillain-Barré mark its broader, sometimes lasting, neural toll.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver often registers the infection: mildly raised transaminases are common in COVID, from direct injury, the cytokine storm, and the drugs used to treat it, usually settling as the patient recovers.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — COVID can disturb blood sugar: SARS-CoV-2 infects the ACE2-bearing islet cells, and new-onset hyperglycemia and diabetes appearing during or after infection suggest the virus can injure the insulin-making pancreas.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies are the immune memory of COVID: neutralizing antibodies against the spike, raised by infection or vaccine, block ACE2 binding, while serology dates past exposure and the monoclonal antibodies that once treated it were outrun by escape variants.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy raises the stakes: COVID is more severe in pregnant women and increases preterm birth and stillbirth, while the virus also transiently lowers sperm quality through ACE2-bearing testicular cells — reasons vaccination is urged.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T cells both fight and falter in COVID: severe disease brings a striking lymphopenia as T helper cells are depleted and exhausted, even as the T-cell response is central to clearing the virus and to lasting vaccine immunity.
 
 ## Pathology
 
