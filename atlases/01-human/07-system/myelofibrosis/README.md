@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Blood-forming masses can squeeze the cord: paraspinal extramedullary hematopoiesis is a rare but urgent complication of myelofibrosis, the tissue pressing on the spinal cord and its neurons to cause weakness and sensory loss."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Myelofibrosis spills blood-making into the vessels: the malignant clone also marks endothelial cells, which help home extramedullary hematopoiesis to spleen and liver and contribute to the thrombosis that complicates the disease."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Myelofibrosis smolders with inflammation: the mutant clone switches on NF-κB, driving the inflammatory cytokine flood behind its fevers and weight loss and the fibrosis-promoting signals that scar the marrow."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Blood-making can settle in the lungs: extramedullary hematopoiesis and clot showers from myelofibrosis can raise pulmonary artery pressure, a recognized complication that strains the right heart."
 ---
 
 # Myelofibrosis
@@ -327,6 +336,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — The churning marrow spills minerals: high cell turnover, and its lysis under treatment, release phosphate and urate into the blood, fueling the gout and hyperuricemia that often accompany myelofibrosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Blood-making strays into the gut, and the swollen spleen backs up its veins: extramedullary hematopoiesis can stud the bowel, while massive splenomegaly raises portal pressure into varices that bleed into the GI tract.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Blood-forming masses can squeeze the cord: paraspinal extramedullary hematopoiesis is a rare but urgent complication of myelofibrosis, the tissue pressing on the spinal cord and its neurons to cause weakness and sensory loss.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Myelofibrosis spills blood-making into the vessels: the malignant clone also marks endothelial cells, which help home extramedullary hematopoiesis to spleen and liver and contribute to the thrombosis that complicates the disease.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Myelofibrosis smolders with inflammation: the mutant clone switches on NF-κB, driving the inflammatory cytokine flood behind its fevers and weight loss and the fibrosis-promoting signals that scar the marrow.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Blood-making can settle in the lungs: extramedullary hematopoiesis and clot showers from myelofibrosis can raise pulmonary artery pressure, a recognized complication that strains the right heart.
 
 ---
 

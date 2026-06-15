@@ -152,6 +152,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Working muscle is hungry for oxygen the red cells carry: exercise raises oxygen demand and stimulates erythropoietin, while the marrow that makes erythrocytes sits inside the very bones the system is built from."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Bone is rebuilt by a molecular tug-of-war: osteoblasts release RANKL to wake the osteoclasts that resorb bone, and decoy osteoprotegerin restrains them, so this RANKL/OPG balance sets whether the skeleton thickens or thins."
+  - target: 01-human/07-system/myasthenia-gravis
+    relation: connects-to
+    note: "Muscle is only as strong as its nerve signal: in myasthenia gravis antibodies block the acetylcholine receptors at the neuromuscular junction, so intact muscle fatigues and fails despite its machinery, the system crippled at its electrical switch."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The skeleton is mineralized from the gut: the small intestine absorbs dietary calcium and phosphate under vitamin D's control, so malabsorption starves bone of its raw material and drives osteomalacia and fracture."
 ---
 
 # Musculoskeletal System
@@ -333,6 +342,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies can turn on muscle and joint: anti-acetylcholine-receptor antibodies weaken the neuromuscular junction in myasthenia gravis, and myositis-specific autoantibodies attack muscle directly, the immune system mistaking the motor system for the enemy.
 - `connects-to` → **[Insulin](../../03-molecular/insulin/README.md)** — Muscle is the body's main glucose sink: insulin drives sugar uptake into muscle and stimulates its protein synthesis, so insulin resistance both raises blood glucose and accelerates the muscle loss of aging and metabolic disease.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Working muscle is hungry for oxygen the red cells carry: exercise raises oxygen demand and stimulates erythropoietin, while the marrow that makes erythrocytes sits inside the very bones the system is built from.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bone is rebuilt by a molecular tug-of-war: osteoblasts release RANKL to wake the osteoclasts that resorb bone, and decoy osteoprotegerin restrains them, so this RANKL/OPG balance sets whether the skeleton thickens or thins.
+- `connects-to` → **[Myasthenia Gravis](../myasthenia-gravis/README.md)** — Muscle is only as strong as its nerve signal: in myasthenia gravis antibodies block the acetylcholine receptors at the neuromuscular junction, so intact muscle fatigues and fails despite its machinery, the system crippled at its electrical switch.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The skeleton is mineralized from the gut: the small intestine absorbs dietary calcium and phosphate under vitamin D's control, so malabsorption starves bone of its raw material and drives osteomalacia and fracture.
 
 ## Pathology
 
