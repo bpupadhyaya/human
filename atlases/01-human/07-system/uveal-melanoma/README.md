@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Uveal melanoma rarely reaches the brain: while the liver dominates its metastatic pattern, late hematogenous spread can seed the central nervous system, a hard-to-treat site that worsens prognosis in advanced disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy proves the eye tumor is melanocytic: even when pigment is scant, the beam reveals melanosomes and striated premelanosomes — the same pigment-making organelles found in skin melanoma — settling the cell of origin."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Uveal melanoma can only spread through blood: the eye has no lymphatics, so tumor cells must enter the bloodstream, where they cloak themselves in platelets to survive the journey and lodge in the liver."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Beyond the liver, uveal melanoma can seed the skeleton: widespread hematogenous disease reaches bone and its marrow, a late metastatic site that adds to the burden once the cancer has escaped the eye."
 ---
 
 # Uveal Melanoma
@@ -296,6 +305,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Uveal melanoma's defining pigment is melanin, built by the copper-dependent enzyme tyrosinase: this trace-metal chemistry marks the tumor's melanocytic origin and supplies the melanoma antigens that tebentafusp exploits.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Though it arises in the eye and is biologically distinct from skin melanoma, uveal melanoma can metastasize to skin and subcutaneous tissue: an unusual cutaneous site of spread beyond its dominant route to the liver.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Uveal melanoma rarely reaches the brain: while the liver dominates its metastatic pattern, late hematogenous spread can seed the central nervous system, a hard-to-treat site that worsens prognosis in advanced disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy proves the eye tumor is melanocytic: even when pigment is scant, the beam reveals melanosomes and striated premelanosomes — the same pigment-making organelles found in skin melanoma — settling the cell of origin.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Uveal melanoma can only spread through blood: the eye has no lymphatics, so tumor cells must enter the bloodstream, where they cloak themselves in platelets to survive the journey and lodge in the liver.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Beyond the liver, uveal melanoma can seed the skeleton: widespread hematogenous disease reaches bone and its marrow, a late metastatic site that adds to the burden once the cancer has escaped the eye.
 
 ---
 

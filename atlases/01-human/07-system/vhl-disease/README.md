@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Losing VHL switches on PDGF among its HIF-driven growth factors: this angiogenic signal helps build the tumors' rich vasculature, and is one of the targets of the kinase inhibitors used against VHL-related kidney cancer."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "VHL is managed through a lifetime of photons: MRI tracks the hemangioblastomas studding the brain and spinal cord, ophthalmoscopy spots retinal angiomas, and CT watches the kidneys and pancreas — a relentless imaging surveillance that catches tumors early."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "VHL's kidney cancer heads for the lung when it spreads: the clear cell renal carcinomas these patients grow metastasize hematogenously, with the lungs a favored landing site for the disease that most threatens their survival."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "VHL's hemangioblastomas grow in a bed of glia: arising in the cerebellum, spinal cord, and retina, these vascular tumors are surrounded by reactive astrocytes, the brain's scar-forming cells responding to the slow-growing mass."
 ---
 
 # VHL Disease
@@ -281,6 +290,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — VHL drives the bone marrow to overproduce red cells: unchecked HIF raises erythropoietin, so the marrow churns out erythrocytes, causing the polycythemia that can accompany the syndrome and its EPO-secreting tumors.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — VHL's hemangioblastomas grow within the nervous system: these vascular tumors of the cerebellum, brainstem and spinal cord compress neurons, producing the headaches, ataxia and neurological deficits that often first signal the disease.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Losing VHL switches on PDGF among its HIF-driven growth factors: this angiogenic signal helps build the tumors' rich vasculature, and is one of the targets of the kinase inhibitors used against VHL-related kidney cancer.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — VHL is managed through a lifetime of photons: MRI tracks the hemangioblastomas studding the brain and spinal cord, ophthalmoscopy spots retinal angiomas, and CT watches the kidneys and pancreas — a relentless imaging surveillance that catches tumors early.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — VHL's kidney cancer heads for the lung when it spreads: the clear cell renal carcinomas these patients grow metastasize hematogenously, with the lungs a favored landing site for the disease that most threatens their survival.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — VHL's hemangioblastomas grow in a bed of glia: arising in the cerebellum, spinal cord, and retina, these vascular tumors are surrounded by reactive astrocytes, the brain's scar-forming cells responding to the slow-growing mass.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
