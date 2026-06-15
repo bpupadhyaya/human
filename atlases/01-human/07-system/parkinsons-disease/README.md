@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Autonomic failure reaches the body's smooth muscle: the disease's loss of autonomic control slows gut and bladder smooth muscle into constipation and urinary trouble, and weakens vascular tone into the orthostatic hypotension that causes falls."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Clearing the rogue protein is the new hope: monoclonal antibodies against aggregated alpha-synuclein are in trials to slow Parkinson's, aiming to mop up the misfolded protein before it spreads neuron to neuron."
+  - target: 01-human/03-molecular/gaba
+    relation: connects-to
+    note: "Parkinson's is a disease of basal-ganglia GABA circuits: losing dopamine unbalances the GABAergic direct and indirect pathways, over-inhibiting movement — and that same GABA output is what deep-brain stimulation and pallidotomy retune."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Dopamine treatment can unleash compulsions: dopamine-agonist drugs trigger impulse-control disorders including hypersexuality, while autonomic disease causes erectile and sexual dysfunction — and estrogen's neuroprotection may explain why men are affected more."
 ---
 
 # Parkinson's Disease
@@ -334,6 +343,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Parkinson's slows the stomach: gastroparesis delays emptying so erratically that levodopa absorption becomes unpredictable, causing the on-off motor swings, while the delayed transit is part of the gut dysfunction that may even precede the tremor.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep breaks down early in Parkinson's: REM sleep behavior disorder — acting out dreams — is a striking prodrome that can precede the disease by years, and disrupted melatonin and circadian rhythm worsen the fragmented nights.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Autonomic failure reaches the body's smooth muscle: the disease's loss of autonomic control slows gut and bladder smooth muscle into constipation and urinary trouble, and weakens vascular tone into the orthostatic hypotension that causes falls.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Clearing the rogue protein is the new hope: monoclonal antibodies against aggregated alpha-synuclein are in trials to slow Parkinson's, aiming to mop up the misfolded protein before it spreads neuron to neuron.
+- `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Parkinson's is a disease of basal-ganglia GABA circuits: losing dopamine unbalances the GABAergic direct and indirect pathways, over-inhibiting movement — and that same GABA output is what deep-brain stimulation and pallidotomy retune.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Dopamine treatment can unleash compulsions: dopamine-agonist drugs trigger impulse-control disorders including hypersexuality, while autonomic disease causes erectile and sexual dysfunction — and estrogen's neuroprotection may explain why men are affected more.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

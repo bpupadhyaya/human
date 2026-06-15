@@ -161,6 +161,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "OCD is increasingly seen as a glutamatergic disorder, and magnesium sits in that pathway: as a natural NMDA-receptor blocker it dampens the over-excitation of the cortico-striatal circuits, making it a studied adjunct alongside glutamate-modulating drugs."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Some childhood OCD is an autoimmune storm: in PANDAS/PANS, antibodies raised against streptococcus cross-react with basal-ganglia neurons, triggering abrupt-onset obsessions and tics that may respond to immune therapy rather than SSRIs alone."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormonal transitions can unmask OCD: it often first appears or sharply worsens in pregnancy and the postpartum period, the perinatal form fixating on the baby's safety, while symptoms can also flare premenstrually."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut may whisper into the obsessive brain: altered microbiome composition is reported in OCD, and through the microbiome-gut-brain axis it can shape the serotonin and stress signaling implicated in the disorder."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -333,6 +342,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — OCD's most potent drug works partly on noradrenaline: clomipramine, the tricyclic that set the benchmark for treating it, blocks both serotonin and norepinephrine reuptake, a dual action that helps in cases SSRIs alone do not.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — OCD disturbs the night: insomnia and a delayed circadian rhythm with blunted melatonin are common, and the lost sleep worsens the intrusive thoughts and compulsions that already crowd the evening hours.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — OCD is increasingly seen as a glutamatergic disorder, and magnesium sits in that pathway: as a natural NMDA-receptor blocker it dampens the over-excitation of the cortico-striatal circuits, making it a studied adjunct alongside glutamate-modulating drugs.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Some childhood OCD is an autoimmune storm: in PANDAS/PANS, antibodies raised against streptococcus cross-react with basal-ganglia neurons, triggering abrupt-onset obsessions and tics that may respond to immune therapy rather than SSRIs alone.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormonal transitions can unmask OCD: it often first appears or sharply worsens in pregnancy and the postpartum period, the perinatal form fixating on the baby's safety, while symptoms can also flare premenstrually.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut may whisper into the obsessive brain: altered microbiome composition is reported in OCD, and through the microbiome-gut-brain axis it can shape the serotonin and stress signaling implicated in the disorder.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
