@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Gout rides with insulin resistance: the hyperinsulinemia of metabolic syndrome makes the kidney retain urate, tying the pancreatic insulin axis to the crystals — and gout flags a higher risk of type 2 diabetes."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Estrogen shields women from gout: the hormone is uricosuric, helping the kidney dump urate, so gout is uncommon before menopause and its incidence in women climbs once that protection is lost."
+  - target: 01-human/07-system/psoriasis
+    relation: connects-to
+    note: "Rapid skin turnover feeds the urate pool: psoriasis's accelerated proliferation breaks down purines into extra uric acid, so gout is more common in psoriasis — and the two arthritides can be hard to tell apart in an inflamed joint."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Crystals also rouse the complement system: monosodium urate activates complement on its surface, generating C5a that pulls neutrophils into the joint — an arm of the acute flare working alongside the NLRP3-IL-1 pathway."
 ---
 
 # Gout
@@ -296,6 +305,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Treating the flare punishes the gut: colchicine causes diarrhea and the NSAIDs used for acute gout inflame the stomach into gastritis and ulcers, so the drugs that quell the joint must be balanced against the bowel.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Body fat fuels hyperuricemia: adipose tissue's inflammation and the insulin resistance of obesity cut the kidney's excretion of urate, which is why weight gain raises uric acid and weight loss helps lower it.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Gout rides with insulin resistance: the hyperinsulinemia of metabolic syndrome makes the kidney retain urate, tying the pancreatic insulin axis to the crystals — and gout flags a higher risk of type 2 diabetes.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Estrogen shields women from gout: the hormone is uricosuric, helping the kidney dump urate, so gout is uncommon before menopause and its incidence in women climbs once that protection is lost.
+- `connects-to` → **[Psoriasis](../psoriasis/README.md)** — Rapid skin turnover feeds the urate pool: psoriasis's accelerated proliferation breaks down purines into extra uric acid, so gout is more common in psoriasis — and the two arthritides can be hard to tell apart in an inflamed joint.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Crystals also rouse the complement system: monosodium urate activates complement on its surface, generating C5a that pulls neutrophils into the joint — an arm of the acute flare working alongside the NLRP3-IL-1 pathway.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

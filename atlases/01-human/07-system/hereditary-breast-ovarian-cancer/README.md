@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/03-molecular/antibody
     relation: connects-to
     note: "Immunotherapy suits the BRCA1 breast cancers: many are triple-negative and respond to checkpoint antibodies like pembrolizumab, harnessing the antibody-driven immune system against tumors hard to target otherwise."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The targeted drugs squeeze the marrow: PARP inhibitors like olaparib and niraparib commonly drop platelet and red-cell counts, so blood counts are watched closely and doses adjusted through the long maintenance courses these carriers take."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The treatments can seed a second cancer: years of platinum chemotherapy and PARP-inhibitor maintenance carry a small but real risk of therapy-related myelodysplastic syndrome and leukemia, a sobering late cost of controlling the solid tumors."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Risk-reducing surgery brings early menopause: removing the ovaries and tubes in a young BRCA carrier abruptly cuts off estrogen, accelerating bone loss toward osteoporosis unless hormone or bone-protective therapy is considered."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -331,6 +340,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The targeted drugs thin the blood: PARP inhibitors like olaparib — which exploit the BRCA repair defect — commonly cause anemia by suppressing the marrow, and carry a small long-term risk of MDS and leukemia.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — BRCA tumors are platinum- and taxane-sensitive, at a neural cost: the carboplatin and paclitaxel used against them injure peripheral sensory neurons into a numbing, tingling neuropathy.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy suits the BRCA1 breast cancers: many are triple-negative and respond to checkpoint antibodies like pembrolizumab, harnessing the antibody-driven immune system against tumors hard to target otherwise.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The targeted drugs squeeze the marrow: PARP inhibitors like olaparib and niraparib commonly drop platelet and red-cell counts, so blood counts are watched closely and doses adjusted through the long maintenance courses these carriers take.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The treatments can seed a second cancer: years of platinum chemotherapy and PARP-inhibitor maintenance carry a small but real risk of therapy-related myelodysplastic syndrome and leukemia, a sobering late cost of controlling the solid tumors.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Risk-reducing surgery brings early menopause: removing the ovaries and tubes in a young BRCA carrier abruptly cuts off estrogen, accelerating bone loss toward osteoporosis unless hormone or bone-protective therapy is considered.
 
 ---
 
