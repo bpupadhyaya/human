@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "Lewy body dementia starves neurons of ATP: like Parkinson's, it carries mitochondrial dysfunction that limits cellular energy, and the brain's demanding neurons falter as their power supply fails."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging helps pin down Lewy body dementia: a DaTscan's photons show the dopamine loss, and cardiac MIBG scintigraphy reveals the sympathetic denervation that helps separate it from Alzheimer's."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Lewy body dementia attacks the autonomic nerves: synuclein in the peripheral autonomic system causes orthostatic hypotension, constipation and bladder trouble, often years before the dementia appears."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Aspiration pneumonia is the common end of Lewy body dementia: as swallowing fails late in the disease, inhaled food infects the lungs, the frequent immediate cause of death."
 ---
 
 # Lewy Body Dementia
@@ -293,6 +302,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Lewy body dementia is a disease of failing synapses: alpha-synuclein normally works at the presynaptic terminal, and its misfolding cripples neurotransmitter release before cells die, so synaptic breakdown underlies the fluctuating cognition.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Lewy body dementia can be found in the skin: misfolded alpha-synuclein deposits in the tiny nerves of the skin, so a simple skin biopsy can now help confirm the synuclein disease behind the dementia.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Lewy body dementia starves neurons of ATP: like Parkinson's, it carries mitochondrial dysfunction that limits cellular energy, and the brain's demanding neurons falter as their power supply fails.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging helps pin down Lewy body dementia: a DaTscan's photons show the dopamine loss, and cardiac MIBG scintigraphy reveals the sympathetic denervation that helps separate it from Alzheimer's.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Lewy body dementia attacks the autonomic nerves: synuclein in the peripheral autonomic system causes orthostatic hypotension, constipation and bladder trouble, often years before the dementia appears.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Aspiration pneumonia is the common end of Lewy body dementia: as swallowing fails late in the disease, inhaled food infects the lungs, the frequent immediate cause of death.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

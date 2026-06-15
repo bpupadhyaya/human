@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "Iron deficiency weakens the immune T cells: iron is needed for lymphocytes to proliferate and function, so deficiency blunts cell-mediated immunity and can leave a person more prone to infection."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Unexplained iron deficiency sends doctors looking with light: endoscopy and colonoscopy hunt the gut for a bleeding source, and a marrow iron stain under the microscope confirms depleted stores."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc and iron compete for absorption: high doses of one interfere with the other in the gut, so supplements must be balanced lest correcting one mineral deepen deficiency of the other."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Iron enters through the gut lining: the duodenal epithelium absorbs dietary iron, so celiac disease or any damage to this lining causes iron deficiency that no amount of dietary iron can fix."
 ---
 
 # Iron Deficiency Anemia
@@ -274,6 +283,9 @@ Iron is essential for:
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe iron-deficiency anemia overworks the heart: with too little hemoglobin to carry oxygen, the heart races and pumps harder, so prolonged anemia can enlarge it and tip toward high-output heart failure.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Iron deficiency shows on the surface: pallor, brittle spoon-shaped nails (koilonychia), cracked mouth corners, and a smooth sore tongue are classic outward signs that point to the diagnosis.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Iron deficiency weakens the immune T cells: iron is needed for lymphocytes to proliferate and function, so deficiency blunts cell-mediated immunity and can leave a person more prone to infection.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Unexplained iron deficiency sends doctors looking with light: endoscopy and colonoscopy hunt the gut for a bleeding source, and a marrow iron stain under the microscope confirms depleted stores.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc and iron compete for absorption: high doses of one interfere with the other in the gut, so supplements must be balanced lest correcting one mineral deepen deficiency of the other.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Iron enters through the gut lining: the duodenal epithelium absorbs dietary iron, so celiac disease or any damage to this lining causes iron deficiency that no amount of dietary iron can fix.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
