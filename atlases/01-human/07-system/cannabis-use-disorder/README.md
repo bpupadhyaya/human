@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Quitting unsettles the mood chemistry: cannabis withdrawal brings irritability, anxiety, and low mood tied in part to disturbed serotonin signaling, and 5-HT3 serotonin blockers are among the antiemetics tried for the hyperemesis."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "Cannabinoids talk to immunity through CB2: the receptor sits mainly on immune cells, so THC broadly dampens inflammatory responses, a double edge that may soothe autoimmune flares yet blunt the body's defense against infection in heavy users."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The macrophage is cannabis's immune listening post: it carries dense CB2 receptors, and THC quiets its cytokine output and migration, the cellular root of the drug's anti-inflammatory and immunosuppressive effects."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Cannabis reshapes sleep and its clock: it suppresses REM and shifts melatonin-paced circadian timing, so habitual users sleep deeply but on withdrawal face vivid dreams and stubborn insomnia that drive relapse."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -325,6 +334,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Heavy chronic use can paradoxically wreck the gut: cannabinoid hyperemesis syndrome brings cyclic bouts of severe vomiting and abdominal pain, oddly relieved by hot showers and cured only by stopping the cannabis.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — THC opens the appetite: by activating CB1 receptors in the hypothalamus and tilting the ghrelin-driven hunger signal, cannabis produces the ravenous 'munchies' exploited medically to fight cancer and AIDS wasting.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Quitting unsettles the mood chemistry: cannabis withdrawal brings irritability, anxiety, and low mood tied in part to disturbed serotonin signaling, and 5-HT3 serotonin blockers are among the antiemetics tried for the hyperemesis.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — Cannabinoids talk to immunity through CB2: the receptor sits mainly on immune cells, so THC broadly dampens inflammatory responses, a double edge that may soothe autoimmune flares yet blunt the body's defense against infection in heavy users.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The macrophage is cannabis's immune listening post: it carries dense CB2 receptors, and THC quiets its cytokine output and migration, the cellular root of the drug's anti-inflammatory and immunosuppressive effects.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Cannabis reshapes sleep and its clock: it suppresses REM and shifts melatonin-paced circadian timing, so habitual users sleep deeply but on withdrawal face vivid dreams and stubborn insomnia that drive relapse.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

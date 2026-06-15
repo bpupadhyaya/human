@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The skin reports on EGFR-blocking drugs: cetuximab and panitumumab provoke an acneiform facial rash, and its severity actually tracks with how well the colorectal tumor is responding, making the rash a visible biomarker."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies monitor and steer colorectal cancer: the CEA blood marker, read by immunoassay, tracks recurrence, while mismatch-repair (MMR) stains flag the MSI-high tumors that respond to checkpoint immunotherapy and prompt Lynch testing."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The FOLFOX backbone empties the marrow: the oxaliplatin-and-fluorouracil chemotherapy is myelosuppressive, dropping neutrophil counts between cycles so that febrile neutropenia is a recurring hazard of colorectal-cancer treatment."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Fiber guards the colon: gut bacteria ferment dietary fiber into butyrate that nourishes colonocytes and curbs malignant change, so a fiber-rich diet lowers colorectal-cancer risk while red and processed meat raise it."
 ---
 
 # Colorectal Cancer
@@ -311,6 +320,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — FOLFOX chemotherapy bites the nerves: oxaliplatin, a backbone of colorectal cancer treatment, injures peripheral sensory neurons, causing a distinctive cold-triggered tingling and numbness that can force dose reductions and outlast therapy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Targeted therapy wastes magnesium: the anti-EGFR antibodies cetuximab and panitumumab, used in RAS-wild-type colorectal cancer, block EGFR in the kidney tubule, so magnesium leaks into the urine and must be monitored and replaced.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin reports on EGFR-blocking drugs: cetuximab and panitumumab provoke an acneiform facial rash, and its severity actually tracks with how well the colorectal tumor is responding, making the rash a visible biomarker.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies monitor and steer colorectal cancer: the CEA blood marker, read by immunoassay, tracks recurrence, while mismatch-repair (MMR) stains flag the MSI-high tumors that respond to checkpoint immunotherapy and prompt Lynch testing.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The FOLFOX backbone empties the marrow: the oxaliplatin-and-fluorouracil chemotherapy is myelosuppressive, dropping neutrophil counts between cycles so that febrile neutropenia is a recurring hazard of colorectal-cancer treatment.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Fiber guards the colon: gut bacteria ferment dietary fiber into butyrate that nourishes colonocytes and curbs malignant change, so a fiber-rich diet lowers colorectal-cancer risk while red and processed meat raise it.
 
 ---
 
