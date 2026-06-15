@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Hemophilia can bleed dangerously into the gut: gastrointestinal hemorrhage, sometimes massive, is a serious complication, so dark or bloody stools in a hemophiliac demand urgent factor replacement and evaluation."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging tracks hemophilia's joint damage: X-ray and MRI photons reveal the arthropathy from repeated bleeds, and radiosynovectomy uses radiation to quiet a chronically bleeding joint."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Hemophilia shows on the skin: easy bruising and large, deep hematomas are often the first sign in a toddler learning to walk, hinting at the clotting defect beneath the surface."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Chronic bleeding taxes the marrow: ongoing blood and iron loss in hemophilia push the bone marrow to ramp up red-cell production to keep pace, and anemia results when the losses outstrip it."
 ---
 
 # Hemophilia A
@@ -280,6 +289,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hemophilia's joint bleeds leave iron behind: blood pooling in a joint deposits iron as hemosiderin that inflames the synovium and erodes cartilage, driving the crippling hemophilic arthropathy—and repeated bleeds also cause iron-loss anemia.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hemophilia often bleeds into the urinary tract: painless hematuria is common, and clots can obstruct the ureter, so kidney and bladder bleeding is a recognized, usually self-limited feature managed cautiously to avoid clot retention.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hemophilia can bleed dangerously into the gut: gastrointestinal hemorrhage, sometimes massive, is a serious complication, so dark or bloody stools in a hemophiliac demand urgent factor replacement and evaluation.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging tracks hemophilia's joint damage: X-ray and MRI photons reveal the arthropathy from repeated bleeds, and radiosynovectomy uses radiation to quiet a chronically bleeding joint.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Hemophilia shows on the skin: easy bruising and large, deep hematomas are often the first sign in a toddler learning to walk, hinting at the clotting defect beneath the surface.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Chronic bleeding taxes the marrow: ongoing blood and iron loss in hemophilia push the bone marrow to ramp up red-cell production to keep pace, and anemia results when the losses outstrip it.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

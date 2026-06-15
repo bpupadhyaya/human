@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibroblasts stiffen the failing heart: after injury and under neurohormonal stress they lay down collagen scar between muscle cells, the fibrosis that hardens the ventricle and disrupts its electrical and mechanical function."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging stages heart failure: chest X-ray photons show an enlarged heart and congested lungs, while cardiac MRI and nuclear scans gauge function and viability to guide treatment."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Failing small vessels drive HFpEF: coronary microvascular endothelial dysfunction is now seen as central to heart failure with preserved ejection fraction, inflaming and stiffening the heart from its tiniest vessels."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium is a constant worry in heart failure: the disease and its drugs swing it in both directions, and either too-high or too-low potassium triggers the arrhythmias behind sudden cardiac death."
 ---
 
 # Heart Failure
@@ -224,6 +233,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Heart failure is a disease of sodium and water overload: the failing heart triggers hormones that make the kidney retain salt, causing the congestion and edema—while dilutional hyponatremia, paradoxically, marks the most severe disease.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Heart failure backs up into the liver: a congested, failing right heart raises venous pressure that engorges the liver and, over time, scars it into cardiac cirrhosis, so abnormal liver tests can flag worsening heart failure.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts stiffen the failing heart: after injury and under neurohormonal stress they lay down collagen scar between muscle cells, the fibrosis that hardens the ventricle and disrupts its electrical and mechanical function.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging stages heart failure: chest X-ray photons show an enlarged heart and congested lungs, while cardiac MRI and nuclear scans gauge function and viability to guide treatment.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Failing small vessels drive HFpEF: coronary microvascular endothelial dysfunction is now seen as central to heart failure with preserved ejection fraction, inflaming and stiffening the heart from its tiniest vessels.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Potassium is a constant worry in heart failure: the disease and its drugs swing it in both directions, and either too-high or too-low potassium triggers the arrhythmias behind sudden cardiac death.
 
 ## Pathology
 
