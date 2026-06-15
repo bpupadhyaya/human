@@ -149,6 +149,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Platelets keep blood and lymph apart: in development their CLEC-2 receptor binds podoplanin on budding lymphatic endothelium and plugs the junction so the new vessels stay blood-free — a separation whose failure leaves lymphatics blood-filled."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis loves the lymph nodes: when M. tuberculosis seeds the cervical nodes it produces scrofula, a chronic swelling and breakdown of the lymphatic tissue that is one of TB's commonest sites outside the lung."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "The lymphatics carry the fat from a meal: gut lacteals absorb dietary lipids as chylomicrons and ferry them through lymph into the blood, and leaky or damaged lymphatics promote local fat deposition — linking the system to adipose tissue."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Scarring chokes the lymph vessels: TGF-beta drives the fibrosis that stiffens lymphatic channels in chronic lymphedema, while also restraining the lymphangiogenesis needed to repair them — a target for keeping lymph flowing."
 ---
 
 # Lymphatic System
@@ -302,6 +311,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Lymph is the antibody's highway: afferent lymph carries antigen to the nodes where plasma cells make antibody, then efferent lymph and the thoracic duct pour that immunoglobulin into the bloodstream, so lymphatic blockage blunts the spread of the response.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Infection can race up the lymphatics: bacteria draining from a wound inflame the vessels into lymphangitis, the tender red streak tracking toward a swollen node as neutrophils pour in to fight the spreading microbes.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets keep blood and lymph apart: in development their CLEC-2 receptor binds podoplanin on budding lymphatic endothelium and plugs the junction so the new vessels stay blood-free — a separation whose failure leaves lymphatics blood-filled.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis loves the lymph nodes: when M. tuberculosis seeds the cervical nodes it produces scrofula, a chronic swelling and breakdown of the lymphatic tissue that is one of TB's commonest sites outside the lung.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The lymphatics carry the fat from a meal: gut lacteals absorb dietary lipids as chylomicrons and ferry them through lymph into the blood, and leaky or damaged lymphatics promote local fat deposition — linking the system to adipose tissue.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — Scarring chokes the lymph vessels: TGF-beta drives the fibrosis that stiffens lymphatic channels in chronic lymphedema, while also restraining the lymphangiogenesis needed to repair them — a target for keeping lymph flowing.
 
 ## Pathology
 
