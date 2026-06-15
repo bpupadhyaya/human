@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Platelets offer a peripheral window on the disorder: they take up and store serotonin much as neurons do, so altered platelet serotonin transport and receptor binding have served as accessible research markers of the serotonergic disturbance in panic."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Hormone shifts sway the panic threshold: attacks often cluster premenstrually, postpartum, and around menopause, as falling estrogen modulates the serotonin and fear circuits — part of why panic disorder is roughly twice as common in women."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells can mimic a panic attack: in mast cell activation syndrome, surges of histamine and mediators cause flushing, palpitations and a sense of doom indistinguishable from panic, a medical mimic worth excluding in atypical cases."
+  - target: 01-human/07-system/insomnia-disorder
+    relation: connects-to
+    note: "Panic invades sleep: nocturnal panic attacks jolt patients awake in terror, and the resulting fear of sleep feeds an insomnia that worsens daytime anxiety in a self-reinforcing loop."
 ---
 
 # Panic Disorder
@@ -348,6 +357,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Panic tracks the hormonal tide: its metabolite allopregnanolone tunes the calming GABA receptor, so the premenstrual and postpartum drops in progesterone, like a withdrawal, can unmask or worsen panic attacks in vulnerable women.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut's microbes whisper to the anxious brain: through the microbiome-gut-brain axis they shape GABA, serotonin, and vagal signaling, and the dysbiosis common in panic and its frequent IBS overlap is studied as both consequence and contributor.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets offer a peripheral window on the disorder: they take up and store serotonin much as neurons do, so altered platelet serotonin transport and receptor binding have served as accessible research markers of the serotonergic disturbance in panic.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Hormone shifts sway the panic threshold: attacks often cluster premenstrually, postpartum, and around menopause, as falling estrogen modulates the serotonin and fear circuits — part of why panic disorder is roughly twice as common in women.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells can mimic a panic attack: in mast cell activation syndrome, surges of histamine and mediators cause flushing, palpitations and a sense of doom indistinguishable from panic, a medical mimic worth excluding in atypical cases.
+- `connects-to` → **[Insomnia Disorder](../insomnia-disorder/README.md)** — Panic invades sleep: nocturnal panic attacks jolt patients awake in terror, and the resulting fear of sleep feeds an insomnia that worsens daytime anxiety in a self-reinforcing loop.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

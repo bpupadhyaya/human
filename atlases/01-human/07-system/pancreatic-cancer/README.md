@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "FOLFIRINOX and gemcitabine batter the marrow: the chemotherapy backbones of pancreatic cancer are strongly myelosuppressive, dropping neutrophil counts so that growth-factor support and infection vigilance run through every cycle."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Pancreatic cancer melts the body away: it drives a profound cachexia that burns through adipocyte fat stores and muscle, and its disruption of insulin and digestion brings new-onset diabetes and weight loss that are often the first clues to the tumor."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Depression can precede the diagnosis: pancreatic cancer is classically linked to depression that appears before any pain or jaundice, a paraneoplastic mood change thought to be biologically driven rather than merely a reaction to illness."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "One gene ties pancreas to skin: germline CDKN2A mutations cause the FAMMM syndrome, raising the risk of both pancreatic cancer and melanoma, so families with clustered melanomas warrant pancreatic surveillance."
 ---
 
 # Pancreatic Cancer
@@ -323,6 +332,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — CA19-9 is read by an antibody: the marker is measured by an immunoassay to follow response and relapse, though it misses Lewis-negative patients, and antibody stains for CK7 and SMAD4 loss help confirm pancreatic origin on a tiny biopsy.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Losing the pancreas makes diabetes treacherous: as the tumor and surgery destroy the alpha cells that make glucagon along with the insulin-making beta cells, the body loses its defense against lows, leaving a brittle diabetes prone to dangerous hypoglycemia.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — FOLFIRINOX and gemcitabine batter the marrow: the chemotherapy backbones of pancreatic cancer are strongly myelosuppressive, dropping neutrophil counts so that growth-factor support and infection vigilance run through every cycle.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Pancreatic cancer melts the body away: it drives a profound cachexia that burns through adipocyte fat stores and muscle, and its disruption of insulin and digestion brings new-onset diabetes and weight loss that are often the first clues to the tumor.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Depression can precede the diagnosis: pancreatic cancer is classically linked to depression that appears before any pain or jaundice, a paraneoplastic mood change thought to be biologically driven rather than merely a reaction to illness.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — One gene ties pancreas to skin: germline CDKN2A mutations cause the FAMMM syndrome, raising the risk of both pancreatic cancer and melanoma, so families with clustered melanomas warrant pancreatic surveillance.
 
 ---
 
