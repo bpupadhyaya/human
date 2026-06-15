@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Obesity sickens the endothelium: inflammatory fat signals and insulin resistance impair the vessel-lining cells that control blood flow, the early endothelial dysfunction that seeds hypertension and atherosclerosis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Body composition is read with radiation: DXA and CT photons separate dangerous visceral fat from harmless subcutaneous fat far better than the crude weight-and-height of BMI."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Overwhelmed fat turns to scar: chronically inflamed adipose tissue becomes fibrotic and stiff, losing its capacity to safely store lipid, which then spills into the liver and muscle to drive metabolic disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Obesity rewires appetite neurons: the hypothalamic neurons that sense leptin grow resistant and inflamed, so the brain misreads a fat-replete body as starving and keeps driving hunger."
 ---
 
 # Obesity
@@ -303,6 +312,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Obesity robs sleep of oxygen: excess neck and abdominal fat collapses the airway and loads the chest, causing obstructive sleep apnea and obesity hypoventilation, so the body repeatedly drops its oxygen overnight, straining heart and metabolism.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Obesity slowly wears out the kidneys: the metabolic load forces them to hyperfilter, and obesity-related glomerulopathy spills protein and scars the filters, a major and rising driver of chronic kidney disease.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Obesity sickens the endothelium: inflammatory fat signals and insulin resistance impair the vessel-lining cells that control blood flow, the early endothelial dysfunction that seeds hypertension and atherosclerosis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Body composition is read with radiation: DXA and CT photons separate dangerous visceral fat from harmless subcutaneous fat far better than the crude weight-and-height of BMI.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Overwhelmed fat turns to scar: chronically inflamed adipose tissue becomes fibrotic and stiff, losing its capacity to safely store lipid, which then spills into the liver and muscle to drive metabolic disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Obesity rewires appetite neurons: the hypothalamic neurons that sense leptin grow resistant and inflamed, so the brain misreads a fat-replete body as starving and keeps driving hunger.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

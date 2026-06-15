@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "NMO poisons the synapse by silencing astrocytes: these cells normally clear glutamate from synapses through transporters tied to aquaporin-4, so destroying them lets glutamate linger and excitotoxically damage the surrounding tissue."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "NMO is mapped by MRI: its hallmark is a long spinal-cord lesion spanning three or more segments, plus optic-nerve enhancement, all read in the photons of magnetic-resonance imaging."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "NMO lesions in the brain's area postrema and hypothalamus can derange sodium balance, causing SIADH and low blood sodium alongside the intractable vomiting and hiccups that flag the disease."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "NMO breaches the blood-brain barrier where astrocyte foot processes meet endothelial cells: the antibody and complement attack on this interface opens the door for the wider immune assault on the cord."
 ---
 
 # NMOSD
@@ -313,6 +322,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NMO kills cells through calcium: when astrocytes die and can no longer clear glutamate, the flood overexcites neurons and oligodendrocytes, opening channels that let lethal calcium pour in—the excitotoxicity behind the tissue destruction.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — NMO ultimately destroys neurons: though astrocytes are the first target, the complement-driven inflammatory attack severs axons and kills neurons in the cord and optic nerve, causing the lasting paralysis and blindness of relapses.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — NMO poisons the synapse by silencing astrocytes: these cells normally clear glutamate from synapses through transporters tied to aquaporin-4, so destroying them lets glutamate linger and excitotoxically damage the surrounding tissue.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — NMO is mapped by MRI: its hallmark is a long spinal-cord lesion spanning three or more segments, plus optic-nerve enhancement, all read in the photons of magnetic-resonance imaging.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NMO lesions in the brain's area postrema and hypothalamus can derange sodium balance, causing SIADH and low blood sodium alongside the intractable vomiting and hiccups that flag the disease.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — NMO breaches the blood-brain barrier where astrocyte foot processes meet endothelial cells: the antibody and complement attack on this interface opens the door for the wider immune assault on the cord.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
