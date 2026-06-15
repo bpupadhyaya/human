@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "Refeeding can inflame the pancreas: reintroducing food to a starved body occasionally triggers acute pancreatitis, one of the hazards of the carefully paced refeeding that also risks the electrolyte crash of refeeding syndrome."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Starvation keeps the stress axis switched on: anorexia drives chronic HPA-axis overactivity, so the adrenal glands pour out cortisol that worsens bone loss and the metabolic shutdown of the illness."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Starvation reshapes the gut's flora: severe restriction shifts the microbiome toward calorie-scavenging and inflammatory species, and these changes may feed back on appetite and mood, complicating both the illness and refeeding."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Anorexia carries a quiet inflammatory edge: despite the loss of fat, IL-6 and other cytokines can run high, contributing to the bone loss and the appetite-suppressing, sickness-like state of the disorder."
 ---
 
 # Anorexia Nervosa
@@ -356,6 +365,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The same marrow failure thins the defenses: gelatinous transformation drops neutrophils into a leukopenia, leaving severely malnourished patients prone to infection — a quiet danger amid the cardiac and electrolyte risks.
 - `connects-to` → **[Integumentary System](../integumentary-system/README.md)** — Starvation writes itself on the skin: fine downy lanugo hair grows to conserve heat, while dry skin, hair loss, brittle nails, and an orange carotenoderma of the palms are the visible marks of the deprivation.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Refeeding can inflame the pancreas: reintroducing food to a starved body occasionally triggers acute pancreatitis, one of the hazards of the carefully paced refeeding that also risks the electrolyte crash of refeeding syndrome.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Starvation keeps the stress axis switched on: anorexia drives chronic HPA-axis overactivity, so the adrenal glands pour out cortisol that worsens bone loss and the metabolic shutdown of the illness.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Starvation reshapes the gut's flora: severe restriction shifts the microbiome toward calorie-scavenging and inflammatory species, and these changes may feed back on appetite and mood, complicating both the illness and refeeding.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Anorexia carries a quiet inflammatory edge: despite the loss of fat, IL-6 and other cytokines can run high, contributing to the bone loss and the appetite-suppressing, sickness-like state of the disorder.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

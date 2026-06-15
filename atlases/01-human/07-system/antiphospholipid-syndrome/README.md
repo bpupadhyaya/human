@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Catastrophic APS can infarct the gut: when clots storm the small vessels of many organs at once, mesenteric thrombosis starves the bowel into ischemia and infarction, part of the multi-organ failure that makes the catastrophic form so lethal."
+  - target: 01-human/03-molecular/protein-c
+    relation: connects-to
+    note: "The antibodies sabotage a key brake on clotting: they interfere with the activated protein C pathway, creating an acquired APC resistance that, alongside their many other hits, tips the blood toward thrombosis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The antibodies switch on the clot-starters: binding β2-glycoprotein I on monocytes and macrophages, they drive these cells to express tissue factor, a central way antiphospholipid antibodies ignite thrombosis."
+  - target: 01-human/07-system/pulmonary-arterial-hypertension
+    relation: connects-to
+    note: "Old clots can choke the lung's circulation: recurrent pulmonary emboli in APS may organize into chronic thromboembolic pulmonary hypertension, the scarred, narrowed arteries straining the right heart."
 ---
 
 # Antiphospholipid Syndrome
@@ -349,6 +358,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Clots can starve the bone: APS causes avascular necrosis, classically of the femoral head, when microthrombi cut off the blood supply to bone, collapsing the joint and adding orthopedic ruin to its vascular toll.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — It scars the heart's valves and muscle: APS drives Libman-Sacks endocarditis, sterile thrombotic vegetations on the valves, and coronary microthrombi that injure cardiomyocytes, a cardiac face beyond the large-vessel clots.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Catastrophic APS can infarct the gut: when clots storm the small vessels of many organs at once, mesenteric thrombosis starves the bowel into ischemia and infarction, part of the multi-organ failure that makes the catastrophic form so lethal.
+- `connects-to` → **[Protein C](../../03-molecular/protein-c/README.md)** — The antibodies sabotage a key brake on clotting: they interfere with the activated protein C pathway, creating an acquired APC resistance that, alongside their many other hits, tips the blood toward thrombosis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The antibodies switch on the clot-starters: binding β2-glycoprotein I on monocytes and macrophages, they drive these cells to express tissue factor, a central way antiphospholipid antibodies ignite thrombosis.
+- `connects-to` → **[Pulmonary Arterial Hypertension](../pulmonary-arterial-hypertension/README.md)** — Old clots can choke the lung's circulation: recurrent pulmonary emboli in APS may organize into chronic thromboembolic pulmonary hypertension, the scarred, narrowed arteries straining the right heart.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)
