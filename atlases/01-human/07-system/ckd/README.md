@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "CKD progresses through fibroblasts: injured kidneys activate myofibroblasts that lay down interstitial scar, the common final pathway by which any kidney disease marches toward failure."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the failing filter: as CKD advances, the glomerular basement membrane thickens and wrinkles while podocyte foot processes flatten and fuse, the ultrastructural decay that lets protein leak and filtration fall."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Failing kidneys leave the blood thin: the diseased kidney makes too little erythropoietin to tell the marrow to build red cells, so anemia is a near-universal companion of CKD, treated with EPO and iron."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "CKD upends magnesium balance: as the kidney loses its power to excrete the mineral, magnesium can build to dangerous levels — especially with magnesium-containing laxatives or antacids — risking weakness and heart-rhythm disturbance."
 ---
 
 # Chronic Kidney Disease
@@ -250,6 +259,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging stages CKD's structure: ultrasound and CT photons show shrunken, scarred kidneys or obstruction, while nuclear scans measure the failing filtration that blood tests only estimate.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CKD itches relentlessly: retained toxins and mineral imbalance cause uremic pruritus, which patients scratch into prurigo nodularis, one of the most distressing symptoms of advanced kidney failure.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — CKD progresses through fibroblasts: injured kidneys activate myofibroblasts that lay down interstitial scar, the common final pathway by which any kidney disease marches toward failure.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the failing filter: as CKD advances, the glomerular basement membrane thickens and wrinkles while podocyte foot processes flatten and fuse, the ultrastructural decay that lets protein leak and filtration fall.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Failing kidneys leave the blood thin: the diseased kidney makes too little erythropoietin to tell the marrow to build red cells, so anemia is a near-universal companion of CKD, treated with EPO and iron.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CKD upends magnesium balance: as the kidney loses its power to excrete the mineral, magnesium can build to dangerous levels — especially with magnesium-containing laxatives or antacids — risking weakness and heart-rhythm disturbance.
 
 ## Pathology
 

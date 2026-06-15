@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Breast tumors build a fibrotic stroma: a dense, desmoplastic scar stiffens the tumor, shows as the spiculated mass on a mammogram, and helps shield the cancer from drugs."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads breast cancer's glandular roots: ductal carcinoma cells retain microvilli-lined intracytoplasmic lumina and secretory features, ultrastructure that confirms epithelial origin when a poorly differentiated tumor is hard to classify."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Breast cancer is the eye's commonest invader: it is the leading source of choroidal metastasis, the tumor seeding the back of the eye to blur vision, sometimes the first hint that the cancer has spread."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Breast cancer recruits platelets to spread: circulating tumor cells cloak themselves in platelets to hide from immune attack and lodge in distant organs, while the tumor also drives the clotting risk that haunts cancer patients."
 ---
 
 # Breast Cancer
@@ -281,6 +290,9 @@ cross_links:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper fuels breast cancer's spread: tumors need it for new blood vessels and for enzymes that prime metastasis, so copper-lowering drugs have been trialed to keep dormant disease asleep.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Breast cancer can invade the skin: inflammatory breast cancer reddens and dimples it into peau d'orange, and chest-wall skin recurrences signal aggressive local disease.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Breast tumors build a fibrotic stroma: a dense, desmoplastic scar stiffens the tumor, shows as the spiculated mass on a mammogram, and helps shield the cancer from drugs.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads breast cancer's glandular roots: ductal carcinoma cells retain microvilli-lined intracytoplasmic lumina and secretory features, ultrastructure that confirms epithelial origin when a poorly differentiated tumor is hard to classify.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Breast cancer is the eye's commonest invader: it is the leading source of choroidal metastasis, the tumor seeding the back of the eye to blur vision, sometimes the first hint that the cancer has spread.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Breast cancer recruits platelets to spread: circulating tumor cells cloak themselves in platelets to hide from immune attack and lodge in distant organs, while the tumor also drives the clotting risk that haunts cancer patients.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
