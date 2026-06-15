@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "CML can surface on the skin: leukemia cutis deposits tumor cells in the skin, and the neutrophilic Sweet syndrome can erupt with fever and tender plaques, sometimes heralding transformation to blast crisis."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The targeted drugs that tamed CML can wound the vessels: the newer TKIs — nilotinib and especially ponatinib — drive arterial thrombosis, hypertension, and cardiac events, a vascular toll weighed against their potency."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Lifelong TKI therapy collides with childbearing: imatinib and its successors are teratogenic, so conception must be planned around treatment interruptions, a central concern now that CML is a chronic, survivable disease."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The pills upset the gut: diarrhea is among the commonest TKI side effects — pronounced with bosutinib — and managing it is part of keeping patients on the daily therapy that controls the leukemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -296,6 +305,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CML's overflowing granulocyte line: the marrow and blood teem with neutrophils at every stage of maturation plus a telltale rise in basophils, the expanded myeloid spectrum that the BCR-ABL kinase drives.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — A sky-high white count can clog the lungs: in CML's accelerated phase, leukostasis from the sheer mass of circulating cells sludges the pulmonary vessels, causing breathlessness and respiratory distress.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CML can surface on the skin: leukemia cutis deposits tumor cells in the skin, and the neutrophilic Sweet syndrome can erupt with fever and tender plaques, sometimes heralding transformation to blast crisis.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The targeted drugs that tamed CML can wound the vessels: the newer TKIs — nilotinib and especially ponatinib — drive arterial thrombosis, hypertension, and cardiac events, a vascular toll weighed against their potency.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Lifelong TKI therapy collides with childbearing: imatinib and its successors are teratogenic, so conception must be planned around treatment interruptions, a central concern now that CML is a chronic, survivable disease.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The pills upset the gut: diarrhea is among the commonest TKI side effects — pronounced with bosutinib — and managing it is part of keeping patients on the daily therapy that controls the leukemia.
 
 ---
 

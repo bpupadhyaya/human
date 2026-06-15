@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Leukemic monocytes infiltrate the gut: CMML can seed the bowel wall and serous cavities with monocytic deposits, causing effusions and gastrointestinal involvement in advanced disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "CMML keeps strange autoimmune company: it associates with vasculitis, neutrophilic dermatoses, and the autoantibody-rich VEXAS syndrome, so systemic inflammation and autoimmunity often shadow the clonal monocytosis."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Years of transfusion overload the endocrine organs: as transfusion-dependent CMML accumulates iron, deposits in the pancreatic islets can damage insulin output toward a secondary diabetes."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Inflammation can reach the eye: the autoimmune and VEXAS-spectrum disease that overlaps CMML brings episcleritis and orbital inflammation, and leukemic infiltration can rarely involve the eye directly."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -309,6 +318,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows CMML's defining excess: a flood of abnormal monocytes pours from the marrow into the blood, their folded nuclei and granular cytoplasm the hallmark of this MDS/MPN overlap disease.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — The rogue monocytes can raise blood calcium: like activated macrophages they can make extra calcitriol, the active vitamin D, driving a paraneoplastic hypercalcemia occasionally seen in CMML.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Leukemic monocytes infiltrate the gut: CMML can seed the bowel wall and serous cavities with monocytic deposits, causing effusions and gastrointestinal involvement in advanced disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — CMML keeps strange autoimmune company: it associates with vasculitis, neutrophilic dermatoses, and the autoantibody-rich VEXAS syndrome, so systemic inflammation and autoimmunity often shadow the clonal monocytosis.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Years of transfusion overload the endocrine organs: as transfusion-dependent CMML accumulates iron, deposits in the pancreatic islets can damage insulin output toward a secondary diabetes.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Inflammation can reach the eye: the autoimmune and VEXAS-spectrum disease that overlaps CMML brings episcleritis and orbital inflammation, and leukemic infiltration can rarely involve the eye directly.
 
 ---
 
