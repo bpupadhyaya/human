@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Hypertension is partly a nerve disease: overactive sympathetic peripheral nerves drive up the pressure, which is why renal denervation—burning the kidney's nerves—is a treatment for resistant cases."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows how pressure remodels the arteries: chronic hypertension thickens small-vessel walls with glassy hyaline deposits and muscle overgrowth, and in malignant disease the wall undergoes fibrinoid necrosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Hypertension's vascular damage can starve the bowel: hardened, narrowed mesenteric arteries make the gut prone to ischemic colitis, especially when blood pressure suddenly drops in an already-diseased circulation."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Untreated hypertension floods the lungs: as the pressure-strained left ventricle stiffens and fails, blood backs up into the pulmonary vessels, causing the breathlessness and flash pulmonary edema of hypertensive heart disease."
 ---
 
 # Hypertension
@@ -262,6 +271,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging hunts secondary and end-organ hypertension: CT and MR angiography photons find renal-artery stenosis and adrenal tumors, while echocardiography measures the thickened, straining heart.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Hypertension has an immune side: macrophages infiltrate the kidney and vessel walls, and the salt they help handle and the inflammation they drive contribute to the rise in blood pressure.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Hypertension is partly a nerve disease: overactive sympathetic peripheral nerves drive up the pressure, which is why renal denervation—burning the kidney's nerves—is a treatment for resistant cases.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how pressure remodels the arteries: chronic hypertension thickens small-vessel walls with glassy hyaline deposits and muscle overgrowth, and in malignant disease the wall undergoes fibrinoid necrosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hypertension's vascular damage can starve the bowel: hardened, narrowed mesenteric arteries make the gut prone to ischemic colitis, especially when blood pressure suddenly drops in an already-diseased circulation.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Untreated hypertension floods the lungs: as the pressure-strained left ventricle stiffens and fails, blood backs up into the pulmonary vessels, causing the breathlessness and flash pulmonary edema of hypertensive heart disease.
 
 ## Pathology
 

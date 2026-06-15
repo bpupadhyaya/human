@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "IDH-mutant glioma keeps a tighter blood-brain barrier: its endothelial cells stay relatively intact, so the low-grade tumor often shows little contrast enhancement on MRI and resists drug delivery."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows IDH glioma's quiet infiltration: well-differentiated tumor cells slip diffusely between intact neurons and vessels, lacking the necrosis and bizarre vasculature of glioblastoma — the ultrastructure of a lower-grade, slower cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Even a low-grade glioma plugs into the brain's electricity: its cells carry the potassium and other ion channels that let them depolarize with neuronal activity, an excitability that promotes migration and sparks the seizures these tumors so often cause."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "IDH glioma almost never leaves the brain, but rarely it can: like other gliomas, extracranial spread to the lung and bone is an exceptional late event, usually after surgery has breached the natural barriers."
 ---
 
 # IDH-Mutant Glioma
@@ -303,6 +312,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Hippocampus](../../05-tissue/hippocampus/README.md)** — IDH-mutant gliomas favor the frontal and temporal lobes: temporal tumors invade the hippocampus, causing memory loss and the seizures that are often the first symptom of these slow-growing cancers.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — IDH-mutant glioma can steal vision: tumors near the optic pathways cause visual-field defects, and their location often shapes the first symptoms as much as the seizures do.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — IDH-mutant glioma keeps a tighter blood-brain barrier: its endothelial cells stay relatively intact, so the low-grade tumor often shows little contrast enhancement on MRI and resists drug delivery.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows IDH glioma's quiet infiltration: well-differentiated tumor cells slip diffusely between intact neurons and vessels, lacking the necrosis and bizarre vasculature of glioblastoma — the ultrastructure of a lower-grade, slower cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Even a low-grade glioma plugs into the brain's electricity: its cells carry the potassium and other ion channels that let them depolarize with neuronal activity, an excitability that promotes migration and sparks the seizures these tumors so often cause.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — IDH glioma almost never leaves the brain, but rarely it can: like other gliomas, extracranial spread to the lung and bone is an exceptional late event, usually after surgery has breached the natural barriers.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
