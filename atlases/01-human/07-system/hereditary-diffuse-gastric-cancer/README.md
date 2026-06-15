@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Diffuse gastric cancer hides in a low-oxygen stroma: its dense desmoplastic tissue chokes off oxygen, and the hypoxia drives survival signaling and blunts drug delivery, helping the scattered cells resist therapy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "The prophylactic gastrectomy that prevents HDGC leaves lasting deficiencies: without stomach acid and intrinsic factor, iron and B12 malabsorb, so lifelong supplementation is needed."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "HDGC's signet-ring cells spread across the peritoneum and can encase the bowel, the transcoelomic spread that makes diffuse gastric cancer so lethal once it escapes the stomach."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "HDGC scleroses the stomach: signet-ring cells provoke a dense desmoplastic fibrosis (linitis plastica) that stiffens the wall and hides the cancer from endoscopy until it is advanced."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -267,6 +276,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Hereditary diffuse gastric cancer spreads silently to the liver: its scattered signet-ring cells seed the peritoneum and liver early, so metastasis is often present by the time the infiltrative tumor is found.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Hereditary diffuse gastric cancer recruits endothelial cells: as the discohesive tumor infiltrates, it drives angiogenesis through these vessel-lining cells to supply blood for its spread through the stomach wall.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Diffuse gastric cancer hides in a low-oxygen stroma: its dense desmoplastic tissue chokes off oxygen, and the hypoxia drives survival signaling and blunts drug delivery, helping the scattered cells resist therapy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — The prophylactic gastrectomy that prevents HDGC leaves lasting deficiencies: without stomach acid and intrinsic factor, iron and B12 malabsorb, so lifelong supplementation is needed.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — HDGC's signet-ring cells spread across the peritoneum and can encase the bowel, the transcoelomic spread that makes diffuse gastric cancer so lethal once it escapes the stomach.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HDGC scleroses the stomach: signet-ring cells provoke a dense desmoplastic fibrosis (linitis plastica) that stiffens the wall and hides the cancer from endoscopy until it is advanced.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

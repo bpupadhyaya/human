@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "HBOC reaches the skin through melanoma risk: BRCA2 carriers face a raised chance of melanoma alongside breast, ovarian, and pancreatic cancer, so skin surveillance joins their screening."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Cancer-associated fibroblasts shape HBOC tumors: they build the stroma of BRCA breast and ovarian cancers, influencing how the tumor grows and how well drugs reach it."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "HBOC tumors and their treatment leave fibrosis: a desmoplastic stroma surrounds the cancers, and radiation and surgery scar the breast and pelvis, lasting effects survivors carry."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Breast cancers often announce themselves as microcalcifications: clusters of calcium specks on a mammogram are an early sign that prompts biopsy, central to screening BRCA carriers."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -295,6 +304,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — BRCA-related ovarian cancers recruit endothelial cells: VEGF drives these vessel-lining cells to build the vasculature feeding the tumor and its ascites, the target of the bevacizumab added to therapy.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Treating HBOC cancers can strain the bone marrow: the PARP inhibitors exploiting BRCA's repair defect suppress marrow blood production and, rarely, trigger secondary MDS or leukemia, so counts are watched.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HBOC reaches the skin through melanoma risk: BRCA2 carriers face a raised chance of melanoma alongside breast, ovarian, and pancreatic cancer, so skin surveillance joins their screening.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Cancer-associated fibroblasts shape HBOC tumors: they build the stroma of BRCA breast and ovarian cancers, influencing how the tumor grows and how well drugs reach it.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — HBOC tumors and their treatment leave fibrosis: a desmoplastic stroma surrounds the cancers, and radiation and surgery scar the breast and pelvis, lasting effects survivors carry.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Breast cancers often announce themselves as microcalcifications: clusters of calcium specks on a mammogram are an early sign that prompts biopsy, central to screening BRCA carriers.
 
 ---
 
