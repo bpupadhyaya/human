@@ -159,6 +159,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Low vitamin D tracks with autoimmunity: deficiency is common in chronic ITP and, by tilting regulatory-T-cell balance, is studied as a modifier of the immune dysregulation that lets antibodies turn against the body's own platelets."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "ITP complicates pregnancy two ways: it must be told apart from benign gestational thrombocytopenia, and the platelet-targeting IgG crosses the placenta to lower the baby's count, so mother and newborn are both watched around delivery."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "Blocking BTK hits ITP from both sides: the kinase drives B-cell antibody production and the macrophage Fc-receptor signaling that destroys platelets, so BTK inhibitors like rilzabrutinib are an emerging targeted treatment."
+  - target: 02-pathogen/01-viruses/varicella-zoster-virus
+    relation: connects-to
+    note: "Childhood ITP often follows a virus: acute self-limited ITP classically appears a week or two after infections such as varicella, when antibodies raised against the virus cross-react with platelets before fading as the child recovers."
 ---
 
 # Immune Thrombocytopenia
@@ -341,6 +350,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — ITP is an autoantibody disease: IgG antibodies against platelet glycoproteins GPIIb/IIIa and GPIb tag platelets for splenic destruction and also stunt megakaryocytes, which is why anti-CD20 and IVIG therapies work by removing or blockading that antibody.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — When the same autoimmunity also targets red cells, ITP becomes Evans syndrome: simultaneous immune destruction of platelets and erythrocytes (autoimmune hemolytic anemia), a more refractory combined cytopenia hinting at an underlying lymphoma or lupus.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Low vitamin D tracks with autoimmunity: deficiency is common in chronic ITP and, by tilting regulatory-T-cell balance, is studied as a modifier of the immune dysregulation that lets antibodies turn against the body's own platelets.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — ITP complicates pregnancy two ways: it must be told apart from benign gestational thrombocytopenia, and the platelet-targeting IgG crosses the placenta to lower the baby's count, so mother and newborn are both watched around delivery.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — Blocking BTK hits ITP from both sides: the kinase drives B-cell antibody production and the macrophage Fc-receptor signaling that destroys platelets, so BTK inhibitors like rilzabrutinib are an emerging targeted treatment.
+- `connects-to` → **[Varicella-Zoster Virus](../../../02-pathogen/01-viruses/varicella-zoster-virus/README.md)** — Childhood ITP often follows a virus: acute self-limited ITP classically appears a week or two after infections such as varicella, when antibodies raised against the virus cross-react with platelets before fading as the child recovers.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

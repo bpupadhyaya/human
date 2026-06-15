@@ -151,6 +151,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Failing kidneys cannot finish vitamin D: as IgA nephropathy advances to chronic kidney disease, the kidney's activation of vitamin D falters, driving the low calcium and secondary hyperparathyroidism of renal bone disease."
+  - target: 01-human/07-system/nash
+    relation: connects-to
+    note: "A scarred liver can flood the kidney with IgA: cirrhosis — including from NASH — clears IgA poorly, so immune complexes build up and deposit in the mesangium, producing a secondary IgA nephropathy distinct from the primary mucosal-driven disease."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "IL-6 inflames the glomerulus: the cytokine drives mesangial cells to proliferate and helps B cells churn out the galactose-deficient IgA1 that starts the disease, making the IL-6 axis both a marker and a target in IgA nephropathy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "A failure of immune restraint underlies it: a shortfall of regulatory T cells lets the Th17 and mucosal B-cell responses run unchecked, tipping the balance toward overproduction of the abnormal IgA that drives the nephropathy."
 ---
 
 # IgA Nephropathy
@@ -279,6 +288,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The disease is autoantibody-driven: glycan-specific IgG and IgA antibodies recognize the galactose-deficient IgA1 hinge, and the resulting antibody–antigen immune complexes lodge in the mesangium — a mechanism that B-cell-depleting and complement antibodies now aim to interrupt.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Damaged glomeruli leak protein: heavier IgA nephropathy spills albumin into the urine, and the degree of proteinuria — alongside falling serum albumin in nephrotic-range cases — is the single strongest predictor of progression to kidney failure.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Failing kidneys cannot finish vitamin D: as IgA nephropathy advances to chronic kidney disease, the kidney's activation of vitamin D falters, driving the low calcium and secondary hyperparathyroidism of renal bone disease.
+- `connects-to` → **[NASH](../nash/README.md)** — A scarred liver can flood the kidney with IgA: cirrhosis — including from NASH — clears IgA poorly, so immune complexes build up and deposit in the mesangium, producing a secondary IgA nephropathy distinct from the primary mucosal-driven disease.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — IL-6 inflames the glomerulus: the cytokine drives mesangial cells to proliferate and helps B cells churn out the galactose-deficient IgA1 that starts the disease, making the IL-6 axis both a marker and a target in IgA nephropathy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — A failure of immune restraint underlies it: a shortfall of regulatory T cells lets the Th17 and mucosal B-cell responses run unchecked, tipping the balance toward overproduction of the abnormal IgA that drives the nephropathy.
 
 ---
 
