@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Microthrombi reach the eye: occlusion of retinal vessels causes hemorrhages, exudates, and serous detachments with sudden visual blurring, a window onto the same microangiopathy strangling the brain and kidney."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Neutrophils help weave the clots: NETs — webs of DNA and enzymes the neutrophils cast out — provide a scaffold for the von Willebrand factor strings and platelets that occlude the microvessels in TTP, amplifying the thrombotic storm."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "A transplant can trigger a TTP-like illness: transplant-associated thrombotic microangiopathy, driven by endothelial injury from conditioning, calcineurin inhibitors and graft-versus-host disease, mimics TTP but stems from complement rather than ADAMTS13 loss."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Complement tells the microangiopathies apart: TTP comes from ADAMTS13 deficiency, while its look-alike aHUS is driven by uncontrolled complement at C5 — the distinction that decides between plasma exchange and the C5 blocker eculizumab."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -358,6 +367,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Acquired TTP is an autoantibody disease: an inhibitor antibody against ADAMTS13 lets giant vWF multimers run wild, so rituximab clears the B cells making it and the anti-vWF nanobody caplacizumab blocks the platelet clumping while plasma exchange replaces the enzyme.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can ignite TTP: the physiologic fall in ADAMTS13 and rise in vWF make gestation a classic trigger, and the picture must be told apart from HELLP and preeclampsia, which it can dangerously mimic.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Microthrombi reach the eye: occlusion of retinal vessels causes hemorrhages, exudates, and serous detachments with sudden visual blurring, a window onto the same microangiopathy strangling the brain and kidney.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Neutrophils help weave the clots: NETs — webs of DNA and enzymes the neutrophils cast out — provide a scaffold for the von Willebrand factor strings and platelets that occlude the microvessels in TTP, amplifying the thrombotic storm.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — A transplant can trigger a TTP-like illness: transplant-associated thrombotic microangiopathy, driven by endothelial injury from conditioning, calcineurin inhibitors and graft-versus-host disease, mimics TTP but stems from complement rather than ADAMTS13 loss.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Complement tells the microangiopathies apart: TTP comes from ADAMTS13 deficiency, while its look-alike aHUS is driven by uncontrolled complement at C5 — the distinction that decides between plasma exchange and the C5 blocker eculizumab.
 
 ---
 

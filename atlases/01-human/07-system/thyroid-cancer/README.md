@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Advanced therapy taxes the marrow: the multikinase inhibitors for radioiodine-refractory disease and the chemotherapy for anaplastic thyroid cancer suppress the blood counts, dropping neutrophils and raising the risk of infection."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Follicular thyroid cancer leans on PI3K-AKT: PIK3CA mutation or PTEN loss — the latter underlying Cowden-related thyroid tumors — drives this axis, distinct from the BRAF/RAS-MAPK route of papillary cancer and a target in dedifferentiated disease."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Differentiated thyroid cancer favors bone: follicular and papillary tumors seed osteolytic metastases that recruit osteoclasts to resorb bone, and the lifelong TSH-suppressing thyroxine adds its own push toward bone loss."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Its drugs and isotopes pass through the kidney: radioactive iodine is cleared renally, and the multikinase inhibitors for advanced disease cause hypertension and proteinuria, so kidney function shapes both treatments."
 ---
 
 # Thyroid Cancer
@@ -339,6 +348,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both monitor and identify the tumor: serum thyroglobulin, measured by immunoassay, is the surveillance marker for recurrence (confounded by anti-thyroglobulin antibodies), while TTF-1, thyroglobulin, and calcitonin stains type a tumor on biopsy.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Thyroid cancer strikes women in their fertile years: it is far more common in young women, and radioactive-iodine therapy temporarily impairs fertility and demands contraception, so reproductive planning is woven into treatment.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Advanced therapy taxes the marrow: the multikinase inhibitors for radioiodine-refractory disease and the chemotherapy for anaplastic thyroid cancer suppress the blood counts, dropping neutrophils and raising the risk of infection.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Follicular thyroid cancer leans on PI3K-AKT: PIK3CA mutation or PTEN loss — the latter underlying Cowden-related thyroid tumors — drives this axis, distinct from the BRAF/RAS-MAPK route of papillary cancer and a target in dedifferentiated disease.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Differentiated thyroid cancer favors bone: follicular and papillary tumors seed osteolytic metastases that recruit osteoclasts to resorb bone, and the lifelong TSH-suppressing thyroxine adds its own push toward bone loss.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Its drugs and isotopes pass through the kidney: radioactive iodine is cleared renally, and the multikinase inhibitors for advanced disease cause hypertension and proteinuria, so kidney function shapes both treatments.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
