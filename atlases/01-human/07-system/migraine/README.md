@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Hormones rule many migraines: estrogen withdrawal before menstruation triggers attacks, migraine often eases in pregnancy and after menopause, and migraine with aura plus estrogen contraception raises stroke risk enough to change prescribing."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "Migraine, especially with aura, is a vascular risk: it modestly raises the odds of stroke and heart attack, and the vasoconstricting triptans are avoided in established coronary or cerebrovascular disease."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets carry a migraine clue: they store and release serotonin, and platelet activation and aggregation are heightened in migraine, one strand of the serotonin theory that links the disorder to its vascular changes."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Stress and its let-down trigger attacks: surges and withdrawals of adrenergic tone help precipitate migraines, and the autonomic features — pallor, nausea, and a racing or sluggish pulse — color the attack."
 ---
 
 # Migraine
@@ -340,6 +349,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Migraine prevention turned to antibodies: monoclonal antibodies against CGRP or its receptor (erenumab, fremanezumab, galcanezumab) are the first drugs designed specifically to prevent migraine, blocking the peptide that drives the attack.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Migraine keeps time with sleep: too little or too much sleep is a classic trigger, the hypothalamus links it to the circadian clock, and melatonin has shown promise as a simple preventive.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones rule many migraines: estrogen withdrawal before menstruation triggers attacks, migraine often eases in pregnancy and after menopause, and migraine with aura plus estrogen contraception raises stroke risk enough to change prescribing.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Migraine, especially with aura, is a vascular risk: it modestly raises the odds of stroke and heart attack, and the vasoconstricting triptans are avoided in established coronary or cerebrovascular disease.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets carry a migraine clue: they store and release serotonin, and platelet activation and aggregation are heightened in migraine, one strand of the serotonin theory that links the disorder to its vascular changes.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Stress and its let-down trigger attacks: surges and withdrawals of adrenergic tone help precipitate migraines, and the autonomic features — pallor, nausea, and a racing or sluggish pulse — color the attack.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

@@ -155,6 +155,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "The danger of measles is what comes after: its deep, weeks-long immunosuppression opens the door to secondary bacterial pneumonia, otitis, and other infections — the complications, not the rash, that cause most measles deaths."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Measles erases immune memory: by infecting and killing memory lymphocytes and depleting the lymphoid tissue, it causes 'immune amnesia,' wiping out years of acquired protection against other pathogens long after recovery."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Measles is dangerous in pregnancy: it raises the risk of miscarriage, preterm birth, and severe maternal disease, and because the vaccine is live it cannot be given during pregnancy, leaving immunization to be timed beforehand."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "In malnourished children the gut tips the balance: measles brings vomiting and profuse diarrhea, and the resulting dehydration and worsened malnutrition are a major contributor to its mortality in low-resource settings."
 ---
 
 # Measles
@@ -345,6 +354,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Measles lives and dies by antibody: the MMR vaccine and natural infection both raise protective anti-measles antibody, IgM confirms acute infection — yet the virus's immune amnesia destroys the antibody memory against other germs.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Measles can inflame the liver: a transient hepatitis with raised transaminases is common, especially in adults, one of the systemic features that make measles in grown-ups more severe than in children.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The danger of measles is what comes after: its deep, weeks-long immunosuppression opens the door to secondary bacterial pneumonia, otitis, and other infections — the complications, not the rash, that cause most measles deaths.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Measles erases immune memory: by infecting and killing memory lymphocytes and depleting the lymphoid tissue, it causes 'immune amnesia,' wiping out years of acquired protection against other pathogens long after recovery.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Measles is dangerous in pregnancy: it raises the risk of miscarriage, preterm birth, and severe maternal disease, and because the vaccine is live it cannot be given during pregnancy, leaving immunization to be timed beforehand.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — In malnourished children the gut tips the balance: measles brings vomiting and profuse diarrhea, and the resulting dehydration and worsened malnutrition are a major contributor to its mortality in low-resource settings.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
