@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Carney's cardiac myxomas endanger the vessels: the heart tumor can shed fragments that lodge in arteries and injure their endothelial lining, causing strokes and embolic damage—a leading cause of death in the syndrome."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Carney complex is watched by imaging: echocardiography and cardiac MRI track the recurrent heart myxomas that are its deadliest feature, while CT and MRI screen the endocrine glands for tumors."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Carney complex includes a rare bone tumor: osteochondromyxoma, arising from bone-building osteoblasts in young children, adds the skeleton to its catalog of myxomas and endocrine growths."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Carney complex tumors disrupt sex hormones: large-cell calcifying Sertoli cell tumors of the testis aromatize androgens to estrogen, causing gynecomastia and precocious puberty in affected boys."
 ---
 
 # Carney Complex
@@ -281,6 +290,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Carney complex marks the eyes: pigmented spots (lentigines) dot the eyelids and conjunctiva, and myxomas can arise around the eye, visible clues to the underlying PRKAR1A syndrome.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Carney's adrenal disease can drop potassium: PPNAD drives a cortisol excess whose mineralocorticoid effect makes the kidneys waste potassium, so hypokalemia can accompany the Cushing's syndrome.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Carney's cardiac myxomas endanger the vessels: the heart tumor can shed fragments that lodge in arteries and injure their endothelial lining, causing strokes and embolic damage—a leading cause of death in the syndrome.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Carney complex is watched by imaging: echocardiography and cardiac MRI track the recurrent heart myxomas that are its deadliest feature, while CT and MRI screen the endocrine glands for tumors.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Carney complex includes a rare bone tumor: osteochondromyxoma, arising from bone-building osteoblasts in young children, adds the skeleton to its catalog of myxomas and endocrine growths.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Carney complex tumors disrupt sex hormones: large-cell calcifying Sertoli cell tumors of the testis aromatize androgens to estrogen, causing gynecomastia and precocious puberty in affected boys.
 
 ---
 

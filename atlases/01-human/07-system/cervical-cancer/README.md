@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Curing cervical cancer can leave fibrosis behind: the pelvic radiotherapy central to treatment scars surrounding tissues, stiffening the vagina, bladder, and bowel and causing lasting side effects in survivors."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Cervical cancer is fed by new vessels: VEGF drives endothelial cells to vascularize the tumor, and bevacizumab that blocks them improves survival in advanced disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Cervical cancer ultimately spreads to the liver: hematogenous metastasis to liver, lung and bone marks advanced disease beyond its local pelvic invasion."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Pelvic chemoradiation for cervical cancer hits the bone marrow: much of the body's active marrow sits in the pelvis, so treatment causes cytopenias that limit how much chemotherapy can be given."
 ---
 
 # Cervical Cancer
@@ -282,6 +291,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Cervical cancer bleeds away iron: irregular and postcoital vaginal bleeding is an early sign, and the steady blood loss drains iron into a deficiency anemia that often brings women in for the diagnosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Advanced cervical cancer invades the rectum: spreading through the pelvis, it can breach the large intestine and bladder, forming fistulas that leak stool or urine—devastating complications of locally advanced disease.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Curing cervical cancer can leave fibrosis behind: the pelvic radiotherapy central to treatment scars surrounding tissues, stiffening the vagina, bladder, and bowel and causing lasting side effects in survivors.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Cervical cancer is fed by new vessels: VEGF drives endothelial cells to vascularize the tumor, and bevacizumab that blocks them improves survival in advanced disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cervical cancer ultimately spreads to the liver: hematogenous metastasis to liver, lung and bone marks advanced disease beyond its local pelvic invasion.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Pelvic chemoradiation for cervical cancer hits the bone marrow: much of the body's active marrow sits in the pelvis, so treatment causes cytopenias that limit how much chemotherapy can be given.
 
 ---
 
