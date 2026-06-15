@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Beyond the liver, uveal melanoma can seed the skeleton: widespread hematogenous disease reaches bone and its marrow, a late metastatic site that adds to the burden once the cancer has escaped the eye."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The growing tumor blinds by lifting the retina: a choroidal melanoma bulges beneath and detaches the retina, starving its photoreceptor neurons and causing the flashes, floaters, and field loss that often bring the patient in."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Uveal melanoma builds its own false vessels: aggressive tumors weave PAS-positive collagen loops and networks (vasculogenic mimicry), and these closed loops are a histologic marker of the worst-prognosis tumors."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The blood's inflammatory balance forecasts the course: a high neutrophil-to-lymphocyte ratio tracks with worse survival in uveal melanoma, and tumor-associated neutrophils help build the niche its liver metastases settle into."
 ---
 
 # Uveal Melanoma
@@ -308,6 +317,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy proves the eye tumor is melanocytic: even when pigment is scant, the beam reveals melanosomes and striated premelanosomes — the same pigment-making organelles found in skin melanoma — settling the cell of origin.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Uveal melanoma can only spread through blood: the eye has no lymphatics, so tumor cells must enter the bloodstream, where they cloak themselves in platelets to survive the journey and lodge in the liver.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Beyond the liver, uveal melanoma can seed the skeleton: widespread hematogenous disease reaches bone and its marrow, a late metastatic site that adds to the burden once the cancer has escaped the eye.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The growing tumor blinds by lifting the retina: a choroidal melanoma bulges beneath and detaches the retina, starving its photoreceptor neurons and causing the flashes, floaters, and field loss that often bring the patient in.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Uveal melanoma builds its own false vessels: aggressive tumors weave PAS-positive collagen loops and networks (vasculogenic mimicry), and these closed loops are a histologic marker of the worst-prognosis tumors.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood's inflammatory balance forecasts the course: a high neutrophil-to-lymphocyte ratio tracks with worse survival in uveal melanoma, and tumor-associated neutrophils help build the niche its liver metastases settle into.
 
 ---
 

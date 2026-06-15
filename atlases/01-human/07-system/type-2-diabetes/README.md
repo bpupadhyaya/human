@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/01-subatomic/photon
     relation: connects-to
     note: "Photons screen for diabetes's silent damage: retinal photography and OCT catch the eye disease before vision is lost, the workhorse imaging of the annual checks that protect organs the high sugar attacks unnoticed."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Diabetes leaves its mark on hemoglobin: glucose sticks irreversibly to the protein, and the fraction so glycated — HbA1c — averages three months of blood sugar, becoming the single number that diagnoses diabetes and steers its treatment."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "The microvascular damage shows under the electron microscope: chronic high sugar thickens the capillary basement membranes throughout the body, the ultrastructural change underlying the kidney, eye, and nerve damage of diabetes."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Diabetes unsettles the bowel: autonomic neuropathy and altered gut microbiome disturb colonic motility, producing the alternating constipation and diabetic diarrhea that trouble many with long-standing disease."
 ---
 
 # Type 2 Diabetes
@@ -282,6 +291,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The red cell keeps diabetes's three-month diary: glucose sticks irreversibly to hemoglobin over the erythrocyte's lifespan, so the HbA1c reflects average blood sugar and has become the central test for diagnosing and tracking the disease.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Diabetes is written on the skin: the velvety darkening of acanthosis nigricans flags the insulin resistance, while poor circulation and nerve loss turn minor foot wounds into the slow-healing ulcers that threaten amputation.
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons screen for diabetes's silent damage: retinal photography and OCT catch the eye disease before vision is lost, the workhorse imaging of the annual checks that protect organs the high sugar attacks unnoticed.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Diabetes leaves its mark on hemoglobin: glucose sticks irreversibly to the protein, and the fraction so glycated — HbA1c — averages three months of blood sugar, becoming the single number that diagnoses diabetes and steers its treatment.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The microvascular damage shows under the electron microscope: chronic high sugar thickens the capillary basement membranes throughout the body, the ultrastructural change underlying the kidney, eye, and nerve damage of diabetes.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Diabetes unsettles the bowel: autonomic neuropathy and altered gut microbiome disturb colonic motility, producing the alternating constipation and diabetic diarrhea that trouble many with long-standing disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
