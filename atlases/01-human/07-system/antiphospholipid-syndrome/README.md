@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "APS is sustained by plasma cells: these antibody factories pour out the anti-β2-glycoprotein-I antibodies that drive the clotting, so therapies aimed at B cells and plasma cells seek to shut the autoantibody supply off."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "APS is mapped by imaging: CT and MRI photons find its strokes, pulmonary emboli and deep-vein clots, and brain MRI reveals the silent infarcts behind its cognitive and neurological toll."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "APS clots the liver's veins: hepatic vein thrombosis (Budd-Chiari) and portal vein clots are among its unusual-site events, congesting and scarring the organ."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "APS damages vessels through mTOR: the antibodies activate this growth pathway in the vessel lining, driving the proliferative vasculopathy of APS nephropathy that mTOR inhibitors like sirolimus may slow."
 ---
 
 # Antiphospholipid Syndrome
@@ -301,6 +310,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — APS can clot the adrenal glands: thrombosis of their veins triggers hemorrhagic infarction, and bilateral adrenal failure—presenting as an Addisonian crisis—is a recognized, life-threatening way the syndrome announces itself.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — APS clots starve tissues of oxygen: by blocking arteries and veins—and, in catastrophic APS, the small vessels of many organs at once—the antibodies cause the ischemic infarcts that damage brain, kidney, and limbs.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — APS is sustained by plasma cells: these antibody factories pour out the anti-β2-glycoprotein-I antibodies that drive the clotting, so therapies aimed at B cells and plasma cells seek to shut the autoantibody supply off.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — APS is mapped by imaging: CT and MRI photons find its strokes, pulmonary emboli and deep-vein clots, and brain MRI reveals the silent infarcts behind its cognitive and neurological toll.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — APS clots the liver's veins: hepatic vein thrombosis (Budd-Chiari) and portal vein clots are among its unusual-site events, congesting and scarring the organ.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — APS damages vessels through mTOR: the antibodies activate this growth pathway in the vessel lining, driving the proliferative vasculopathy of APS nephropathy that mTOR inhibitors like sirolimus may slow.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

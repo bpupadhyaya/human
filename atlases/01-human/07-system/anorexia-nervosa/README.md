@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/osteoblast
     relation: connects-to
     note: "Anorexia silences the bone-building osteoblasts: low estrogen, low IGF-1, and high cortisol suppress these cells while resorption continues, so bone is lost fast—causing the early osteoporosis and fractures that can be permanent."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Anorexia's toll on bone is measured with radiation: DXA scans use photons to track the bone-density loss that threatens young patients with early osteoporosis and fractures."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Starvation shrinks the brain in anorexia: gray-matter loss and altered reward-circuit neurons accompany the illness, changes that are largely reversible once weight is restored."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Anorexia distorts sodium: water-loading to fake weight and the kidney's struggle to concentrate urine cause hyponatremia, while refeeding can shift fluids and electrolytes dangerously."
 ---
 
 # Anorexia Nervosa
@@ -308,6 +317,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Refeeding anorexia can crash magnesium: as starved cells restart metabolism they pull magnesium from the blood alongside phosphate and potassium, so low magnesium adds to the arrhythmias and seizures of refeeding syndrome.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Starvation stalls the gut in anorexia: the small intestine empties slowly, causing painful bloating, and severe weight loss can pinch the duodenum in superior mesenteric artery syndrome, making eating even harder.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Anorexia silences the bone-building osteoblasts: low estrogen, low IGF-1, and high cortisol suppress these cells while resorption continues, so bone is lost fast—causing the early osteoporosis and fractures that can be permanent.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Anorexia's toll on bone is measured with radiation: DXA scans use photons to track the bone-density loss that threatens young patients with early osteoporosis and fractures.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Starvation shrinks the brain in anorexia: gray-matter loss and altered reward-circuit neurons accompany the illness, changes that are largely reversible once weight is restored.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Anorexia distorts sodium: water-loading to fake weight and the kidney's struggle to concentrate urine cause hyponatremia, while refeeding can shift fluids and electrolytes dangerously.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
