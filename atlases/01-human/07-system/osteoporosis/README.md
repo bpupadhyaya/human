@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc helps build bone: it is a cofactor for the enzymes that lay down collagen matrix and for osteoblast activity, so zinc deficiency contributes to low bone mass."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows osteoporosis as a hollowing-out: the bone's trabecular lattice thins, and its struts perforate and disconnect, so the same amount of mineral is spread over a flimsier scaffold that cracks under everyday loads."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Spinal fractures steal the breath: as osteoporotic vertebrae crush and the spine curves into a stooped kyphosis, the chest cavity shrinks, restricting the lungs and leaving severe sufferers short of breath."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Gut disease quietly thins bone: celiac disease and inflammatory bowel disease impair calcium and vitamin D absorption from the intestine, a common hidden cause of secondary osteoporosis."
 ---
 
 # Osteoporosis
@@ -283,6 +292,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Bone-eating osteoclasts arise from macrophages: the monocyte-macrophage lineage fuses into the osteoclasts that resorb bone, so inflammation that recruits macrophages accelerates bone loss.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver takes the first step in activating vitamin D: it hydroxylates it to 25-OH-D, the stored form measured in blood, before the kidney finishes the job, so liver disease can starve bone of usable vitamin D.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps build bone: it is a cofactor for the enzymes that lay down collagen matrix and for osteoblast activity, so zinc deficiency contributes to low bone mass.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows osteoporosis as a hollowing-out: the bone's trabecular lattice thins, and its struts perforate and disconnect, so the same amount of mineral is spread over a flimsier scaffold that cracks under everyday loads.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Spinal fractures steal the breath: as osteoporotic vertebrae crush and the spine curves into a stooped kyphosis, the chest cavity shrinks, restricting the lungs and leaving severe sufferers short of breath.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Gut disease quietly thins bone: celiac disease and inflammatory bowel disease impair calcium and vitamin D absorption from the intestine, a common hidden cause of secondary osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

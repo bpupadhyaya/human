@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Prurigo nodules sprout extra nerve fibers: the dermal peripheral nerves proliferate and sensitize, so the lumps themselves become itch generators that lock in the scratch-itch cycle."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the nodule's nerve overgrowth: the thickened skin teems with proliferated dermal nerve endings and degranulating mast cells alongside it, the cellular machinery that turns a scratch into a self-sustaining itch."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D deficiency stokes the itch: low levels are common in chronic pruritus and prurigo, and the vitamin's role in skin-barrier repair and immune regulation has made supplementation a studied adjunct."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc shortage can drive itchy skin: deficiency produces a scaly, itch-prone dermatitis and impairs barrier repair, so correcting low zinc is part of addressing the relentless scratching behind prurigo."
 ---
 
 # Prurigo Nodularis
@@ -250,6 +259,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency can itch: low iron is a recognized cause of generalized pruritus that, when scratched, seeds prurigo nodules, so checking iron is part of the workup for unexplained itch.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Chronic itch becomes wired in the brain: central sensitization of itch-processing pathways keeps prurigo nodularis itching even after skin triggers fade, and its heavy depression burden reflects this brain involvement.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Prurigo nodules sprout extra nerve fibers: the dermal peripheral nerves proliferate and sensitize, so the lumps themselves become itch generators that lock in the scratch-itch cycle.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the nodule's nerve overgrowth: the thickened skin teems with proliferated dermal nerve endings and degranulating mast cells alongside it, the cellular machinery that turns a scratch into a self-sustaining itch.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency stokes the itch: low levels are common in chronic pruritus and prurigo, and the vitamin's role in skin-barrier repair and immune regulation has made supplementation a studied adjunct.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc shortage can drive itchy skin: deficiency produces a scaly, itch-prone dermatitis and impairs barrier repair, so correcting low zinc is part of addressing the relentless scratching behind prurigo.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
