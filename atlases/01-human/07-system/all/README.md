@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "ALL's tumor lysis floods the blood with potassium: when chemotherapy bursts masses of blasts, potassium pours out of the dying cells, and the resulting hyperkalemia can stop the heart if not urgently managed."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "ALL's tumor lysis spills phosphate too: dying blasts release phosphorus that binds calcium and crashes it, while precipitating in the kidneys, part of the metabolic emergency of starting chemotherapy."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "ALL hides in the eye: like the brain, the eye is a sanctuary the bloodstream's chemotherapy reaches poorly, so leukemic infiltration there can seed relapse and is checked in high-risk disease."
+  - target: 01-human/03-molecular/myc
+    relation: connects-to
+    note: "A MYC translocation defines the most aggressive B-ALL: mature B-cell (Burkitt-type) leukemia is driven by MYC switched on next to an antibody gene, demanding intensive, lymphoma-style treatment."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -299,6 +308,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — ALL treatment can scar the heart: the anthracycline chemotherapy central to cure is cardiotoxic, weakening the heart muscle, so cardiac function is watched for years—an important late effect in children cured of leukemia.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — ALL hides behind regulatory T cells: the leukemia expands these immune suppressors that blunt the antileukemic response, a barrier that immunotherapies like CAR-T and bispecific antibodies must overcome.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ALL's tumor lysis floods the blood with potassium: when chemotherapy bursts masses of blasts, potassium pours out of the dying cells, and the resulting hyperkalemia can stop the heart if not urgently managed.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ALL's tumor lysis spills phosphate too: dying blasts release phosphorus that binds calcium and crashes it, while precipitating in the kidneys, part of the metabolic emergency of starting chemotherapy.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ALL hides in the eye: like the brain, the eye is a sanctuary the bloodstream's chemotherapy reaches poorly, so leukemic infiltration there can seed relapse and is checked in high-risk disease.
+- `connects-to` → **[MYC](../../03-molecular/myc/README.md)** — A MYC translocation defines the most aggressive B-ALL: mature B-cell (Burkitt-type) leukemia is driven by MYC switched on next to an antibody gene, demanding intensive, lymphoma-style treatment.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

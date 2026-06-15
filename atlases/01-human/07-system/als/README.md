@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α inflames the dying motor regions in ALS: activated microglia and macrophages release this cytokine, and the chronic neuroinflammation it drives is thought to accelerate the loss of motor neurons."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging supports the ALS diagnosis: MRI photons rule out cord compression and other mimics, and can show corticospinal-tract changes, though the diagnosis rests on clinical and electrical findings."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron builds up in the ALS motor cortex: it deposits in the dying motor strip, visible as a dark 'motor band' on MRI, a marker that helps confirm the upper-motor-neuron degeneration."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "ALS eventually defeats swallowing: as bulbar muscles fail, food and saliva are aspirated and nutrition suffers, so a feeding tube into the stomach (PEG) becomes a key supportive step."
 ---
 
 # ALS
@@ -311,6 +320,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — ALS overwhelms the synapse with glutamate: failure to clear this excitatory transmitter floods motor-neuron synapses, and the resulting excitotoxicity helps kill the cells—the process the drug riluzole partly blunts.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages join the attack in ALS: they infiltrate the degenerating peripheral nerves and muscle, and their inflammatory signaling adds to the microglial neuroinflammation that speeds motor-neuron loss.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-α inflames the dying motor regions in ALS: activated microglia and macrophages release this cytokine, and the chronic neuroinflammation it drives is thought to accelerate the loss of motor neurons.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging supports the ALS diagnosis: MRI photons rule out cord compression and other mimics, and can show corticospinal-tract changes, though the diagnosis rests on clinical and electrical findings.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron builds up in the ALS motor cortex: it deposits in the dying motor strip, visible as a dark 'motor band' on MRI, a marker that helps confirm the upper-motor-neuron degeneration.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — ALS eventually defeats swallowing: as bulbar muscles fail, food and saliva are aspirated and nutrition suffers, so a feeding tube into the stomach (PEG) becomes a key supportive step.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
