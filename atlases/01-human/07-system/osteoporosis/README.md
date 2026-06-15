@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Excess cortisol crumbles bone: Cushing's syndrome and the adrenal-mimicking steroid drugs suppress osteoblasts and calcium absorption, making glucocorticoid-induced osteoporosis one of the commonest secondary causes."
+  - target: 01-human/07-system/ckd
+    relation: connects-to
+    note: "Failing kidneys derange the bone: CKD's retained phosphate, low active vitamin D, and high PTH and FGF23 produce renal osteodystrophy, a complex mineral-bone disease that weakens the skeleton beyond ordinary osteoporosis."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Growth hormone keeps building bone through life: GH and the IGF-1 it drives stimulate osteoblasts and bone turnover, so the decline of the GH axis with age and adult GH deficiency contributes to thinning bone."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Immune cells join the bone-loss circuit: in osteoimmunology, activated T cells secrete RANKL and inflammatory cytokines that spur osteoclasts, part of why chronic inflammation and estrogen loss accelerate bone resorption."
 ---
 
 # Osteoporosis
@@ -319,6 +328,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies are now bone drugs: denosumab is a monoclonal antibody against RANKL that halts osteoclasts, and romosozumab blocks sclerostin to build bone — biologics that join the bisphosphonates against fracture.
 - `connects-to` → **[Anorexia Nervosa](../anorexia-nervosa/README.md)** — Starvation devastates the young skeleton: anorexia nervosa's low weight, amenorrhea-driven estrogen loss, high cortisol, and low IGF-1 cause severe early osteoporosis that often does not fully recover even after weight is regained.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Excess cortisol crumbles bone: Cushing's syndrome and the adrenal-mimicking steroid drugs suppress osteoblasts and calcium absorption, making glucocorticoid-induced osteoporosis one of the commonest secondary causes.
+- `connects-to` → **[Chronic Kidney Disease](../ckd/README.md)** — Failing kidneys derange the bone: CKD's retained phosphate, low active vitamin D, and high PTH and FGF23 produce renal osteodystrophy, a complex mineral-bone disease that weakens the skeleton beyond ordinary osteoporosis.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Growth hormone keeps building bone through life: GH and the IGF-1 it drives stimulate osteoblasts and bone turnover, so the decline of the GH axis with age and adult GH deficiency contributes to thinning bone.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Immune cells join the bone-loss circuit: in osteoimmunology, activated T cells secrete RANKL and inflammatory cytokines that spur osteoclasts, part of why chronic inflammation and estrogen loss accelerate bone resorption.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
