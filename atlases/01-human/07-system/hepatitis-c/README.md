@@ -147,6 +147,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Hepatitis C lowers the platelet count two ways: an immune ITP-like destruction and, once cirrhosis sets in, splenic sequestration and reduced thrombopoietin combine to leave the blood short of platelets."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney is a classic extrahepatic target: hepatitis C drives membranoproliferative glomerulonephritis through cryoglobulin immune complexes, spilling protein and blood into the urine and sometimes progressing to renal failure."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The old cure crushed the marrow: interferon-and-ribavirin therapy was strongly myelosuppressive, dropping neutrophils and forcing dose cuts — a toxicity swept away by the modern direct-acting antivirals that cure HCV in weeks."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Transmission and pregnancy intersect: hepatitis C spreads mainly through blood but can pass mother-to-child and, less often, sexually, so screening in pregnancy and treating before conception help prevent the next infection."
 ---
 
 # Hepatitis C
@@ -316,3 +325,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Hepatitis C drives a misfiring antibody response: the anti-HCV antibody screens for exposure but does not clear the virus, and chronic B-cell stimulation churns out the cold-precipitating cryoglobulins behind much of its extrahepatic disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Hepatitis C can inflame the nerves: its mixed cryoglobulinemia deposits immune complexes in the small vessels feeding peripheral nerves, producing a painful sensory neuropathy or mononeuritis multiplex.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Hepatitis C lowers the platelet count two ways: an immune ITP-like destruction and, once cirrhosis sets in, splenic sequestration and reduced thrombopoietin combine to leave the blood short of platelets.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney is a classic extrahepatic target: hepatitis C drives membranoproliferative glomerulonephritis through cryoglobulin immune complexes, spilling protein and blood into the urine and sometimes progressing to renal failure.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The old cure crushed the marrow: interferon-and-ribavirin therapy was strongly myelosuppressive, dropping neutrophils and forcing dose cuts — a toxicity swept away by the modern direct-acting antivirals that cure HCV in weeks.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Transmission and pregnancy intersect: hepatitis C spreads mainly through blood but can pass mother-to-child and, less often, sexually, so screening in pregnancy and treating before conception help prevent the next infection.

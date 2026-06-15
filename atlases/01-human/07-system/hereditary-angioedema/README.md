@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/03-molecular/albumin
     relation: connects-to
     note: "An attack is plasma escaping the vessels: bradykinin opens the endothelial junctions so intravascular fluid floods the tissues, and severe abdominal attacks shift enough volume to cause hemoconcentration and a drop in blood pressure."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "An abdominal attack mimics a surgical emergency: bradykinin swells the bowel wall into cramping pain, vomiting, and ascites that look like acute pancreatitis or appendicitis, leading to needless operations before HAE is recognized."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Bradykinin is also a pain signal: the same kinin that swells the tissues excites sensory neurons, contributing to the tingling, prickling prodrome that warns of an attack and the visceral pain of abdominal episodes."
+  - target: 01-human/07-system/major-depressive-disorder
+    relation: connects-to
+    note: "Living under threat exacts a mental toll: the unpredictable, potentially fatal laryngeal attacks breed chronic anxiety and depression, and the resulting hypervigilance and impaired quality of life are now recognized as part of the disease burden."
 ---
 
 # Hereditary Angioedema
@@ -330,6 +339,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Gut attacks masquerade as a surgical emergency: angioedema of the bowel wall brings severe cramping abdominal pain, vomiting, and even shock, mimicking an acute abdomen and leading to needless operations before the diagnosis is known.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies enter on both sides of angioedema: the acquired form can be driven by autoantibodies against C1-inhibitor, while modern prophylaxis uses lanadelumab, a monoclonal antibody that blocks the kallikrein generating bradykinin.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — An attack is plasma escaping the vessels: bradykinin opens the endothelial junctions so intravascular fluid floods the tissues, and severe abdominal attacks shift enough volume to cause hemoconcentration and a drop in blood pressure.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — An abdominal attack mimics a surgical emergency: bradykinin swells the bowel wall into cramping pain, vomiting, and ascites that look like acute pancreatitis or appendicitis, leading to needless operations before HAE is recognized.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Bradykinin is also a pain signal: the same kinin that swells the tissues excites sensory neurons, contributing to the tingling, prickling prodrome that warns of an attack and the visceral pain of abdominal episodes.
+- `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — Living under threat exacts a mental toll: the unpredictable, potentially fatal laryngeal attacks breed chronic anxiety and depression, and the resulting hypervigilance and impaired quality of life are now recognized as part of the disease burden.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
