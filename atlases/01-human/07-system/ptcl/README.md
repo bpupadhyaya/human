@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Bulky, fast PTCL threatens the kidney: starting chemotherapy can burst the tumor into tumor lysis syndrome, flooding the blood with potassium, phosphate, and urate that crystallize in and injure the kidney unless hydration and rasburicase pre-empt it."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The CHOP backbone strains the heart: the doxorubicin in standard PTCL chemotherapy is cumulatively cardiotoxic to cardiomyocytes, so cardiac function is checked before and during the anthracycline-based regimens these aggressive lymphomas require."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "Many PTCLs run on JAK-STAT: recurrent activation of the JAK2-STAT3 pathway drives several subtypes, especially the NK/T-cell and ALK-negative anaplastic forms, making JAK inhibition an actively studied targeted approach."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cure can cost fertility: the multi-agent and high-dose chemotherapy, sometimes with transplant, used against these aggressive lymphomas damages the gonads, so fertility preservation is discussed before treating younger patients."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -340,6 +349,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies name and target PTCL: a CD3, CD30, and ALK stain panel sorts the subtypes on biopsy, and the CD30-positive ones — anaplastic large-cell lymphoma especially — are hit by the anti-CD30 antibody-drug conjugate brentuximab vedotin.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The CHOEP regimen empties the marrow: the cyclophosphamide, etoposide, and anthracycline given for PTCL are heavily myelosuppressive, so neutrophil counts crater between cycles and growth-factor support and infection vigilance are routine.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Bulky, fast PTCL threatens the kidney: starting chemotherapy can burst the tumor into tumor lysis syndrome, flooding the blood with potassium, phosphate, and urate that crystallize in and injure the kidney unless hydration and rasburicase pre-empt it.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The CHOP backbone strains the heart: the doxorubicin in standard PTCL chemotherapy is cumulatively cardiotoxic to cardiomyocytes, so cardiac function is checked before and during the anthracycline-based regimens these aggressive lymphomas require.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — Many PTCLs run on JAK-STAT: recurrent activation of the JAK2-STAT3 pathway drives several subtypes, especially the NK/T-cell and ALK-negative anaplastic forms, making JAK inhibition an actively studied targeted approach.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure can cost fertility: the multi-agent and high-dose chemotherapy, sometimes with transplant, used against these aggressive lymphomas damages the gonads, so fertility preservation is discussed before treating younger patients.
 
 ---
 

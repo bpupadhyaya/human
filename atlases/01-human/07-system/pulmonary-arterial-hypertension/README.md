@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Fainting marks a failing circuit: when the right heart can no longer push enough blood through the stiffened lungs, exertion starves the brain's neurons of flow, and the exertional syncope that results is an ominous, late-stage warning sign."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation remodels the lung vessels: IL-6 is elevated in pulmonary arterial hypertension and drives the smooth-muscle and endothelial proliferation that narrows the arteries, an inflammatory arm of the disease that tracks with severity and is a therapeutic target."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Thyroid disease keeps company with PAH: both autoimmune hypo- and hyperthyroidism are over-represented in pulmonary arterial hypertension, so thyroid function is checked, since correcting it can ease the cardiovascular strain."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Mast cells gather in the diseased arteries: they accumulate around the remodeled pulmonary vessels and plexiform lesions of PAH, releasing mediators that fuel the proliferation and fibrosis narrowing the lumen."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -326,6 +335,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Autoantibodies point to a cause: much PAH is connective-tissue-disease-associated, so an ANA panel with anti-centromere and anti-Scl-70 antibodies is checked to uncover the scleroderma or lupus driving the pulmonary vessels' disease.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is perilous in PAH: the volume and output demands overwhelm the fixed, narrowed pulmonary circuit, carrying a maternal mortality so high that pregnancy is strongly discouraged and reliable contraception is part of management.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Fainting marks a failing circuit: when the right heart can no longer push enough blood through the stiffened lungs, exertion starves the brain's neurons of flow, and the exertional syncope that results is an ominous, late-stage warning sign.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation remodels the lung vessels: IL-6 is elevated in pulmonary arterial hypertension and drives the smooth-muscle and endothelial proliferation that narrows the arteries, an inflammatory arm of the disease that tracks with severity and is a therapeutic target.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Thyroid disease keeps company with PAH: both autoimmune hypo- and hyperthyroidism are over-represented in pulmonary arterial hypertension, so thyroid function is checked, since correcting it can ease the cardiovascular strain.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells gather in the diseased arteries: they accumulate around the remodeled pulmonary vessels and plexiform lesions of PAH, releasing mediators that fuel the proliferation and fibrosis narrowing the lumen.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
