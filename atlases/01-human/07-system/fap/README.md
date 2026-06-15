@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "FAP raises thyroid cancer risk: a distinctive cribriform-morular papillary thyroid carcinoma occurs especially in young women with the syndrome, so thyroid screening is advised."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads FAP's two telltale lesions: the dysplastic glands of its countless colonic adenomas, and the pigment-stuffed cells of CHRPE, the dark retinal patches that flag the syndrome at an eye exam."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "In the Gardner variant, FAP grows bone: benign osteomas sprout from the jaw and skull, bony overgrowths of the marrow-bearing facial bones that, with skin cysts, can betray the syndrome before the gut polyps do."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "FAP's osteomas are built of calcium: the Gardner-syndrome bony tumors lay down dense calcium-phosphate mineral, hard masses on the skull and jaw visible as bright opacities on imaging."
 ---
 
 # Familial Adenomatous Polyposis
@@ -311,6 +320,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — FAP is policed by light: lifelong colonoscopy hunts the polyps, and a dilated eye exam spots CHRPE—the dark retinal patches that mark the syndrome—both relying on visible-light viewing.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — FAP's desmoid tumors are fibrosis run amok: APC loss lets fibroblasts build invasive fibrous masses, the desmoids that become a leading cause of death once the colon is removed.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — FAP raises thyroid cancer risk: a distinctive cribriform-morular papillary thyroid carcinoma occurs especially in young women with the syndrome, so thyroid screening is advised.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads FAP's two telltale lesions: the dysplastic glands of its countless colonic adenomas, and the pigment-stuffed cells of CHRPE, the dark retinal patches that flag the syndrome at an eye exam.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — In the Gardner variant, FAP grows bone: benign osteomas sprout from the jaw and skull, bony overgrowths of the marrow-bearing facial bones that, with skin cysts, can betray the syndrome before the gut polyps do.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — FAP's osteomas are built of calcium: the Gardner-syndrome bony tumors lay down dense calcium-phosphate mineral, hard masses on the skull and jaw visible as bright opacities on imaging.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

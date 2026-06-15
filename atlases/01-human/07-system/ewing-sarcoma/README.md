@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Ewing sarcoma has a skin-deep variant: rare superficial (cutaneous and subcutaneous) Ewing tumors form a nodule under the skin and carry a notably better prognosis than the deep bone disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy helps identify Ewing's small round blue cell: sparse organelles but abundant glycogen pools fill the cytoplasm, and rosette formation hints at the neural differentiation of this EWSR1-driven tumor."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "A retroperitoneal Ewing can press on the kidney, and chemotherapy threatens it: bursting the tumor in tumor lysis syndrome floods the blood with urate and phosphate that crystallize in the renal tubules."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Pelvic Ewing sarcoma crowds the bowel: tumors of the pelvis and sacrum grow against the rectum and colon, and the bulky mass can obstruct or displace the large intestine."
 ---
 
 # Ewing Sarcoma
@@ -294,6 +303,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Ewing sarcoma trades in phosphate: chemotherapy lysing the tumor spills phosphorus along with potassium, and the bone it eats away releases its calcium-phosphate mineral into the blood.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Ewing, a neural-flavored small-round-cell tumor, grows where it harms nerves: paraspinal and pelvic tumors compress nerve roots, causing the pain and weakness that often bring it to attention.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Ewing sarcoma has a skin-deep variant: rare superficial (cutaneous and subcutaneous) Ewing tumors form a nodule under the skin and carry a notably better prognosis than the deep bone disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy helps identify Ewing's small round blue cell: sparse organelles but abundant glycogen pools fill the cytoplasm, and rosette formation hints at the neural differentiation of this EWSR1-driven tumor.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A retroperitoneal Ewing can press on the kidney, and chemotherapy threatens it: bursting the tumor in tumor lysis syndrome floods the blood with urate and phosphate that crystallize in the renal tubules.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Pelvic Ewing sarcoma crowds the bowel: tumors of the pelvis and sacrum grow against the rectum and colon, and the bulky mass can obstruct or displace the large intestine.
 
 ---
 
