@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Most VTE begins in the legs: a deep vein thrombosis forms in the calf and thigh veins, often after immobility or surgery, and leaves the post-thrombotic limb swollen and aching long after the clot."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The vein wall is part of the problem: stasis and damage to the smooth-muscle-lined vein and its valves let clot form, and after a DVT the scarred, incompetent valves drive the chronic swelling of post-thrombotic syndrome."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "A leg clot can reach the brain: through a patent foramen ovale a venous thrombus crosses to the arterial side as a paradoxical embolism, a recognized cause of cryptogenic stroke in younger patients."
+  - target: 01-human/07-system/multiple-myeloma
+    relation: connects-to
+    note: "Cancer and its drugs ignite clotting: malignancy is a major VTE risk, and multiple myeloma is especially thrombogenic — its immunomodulatory drugs (thalidomide, lenalidomide) demand routine anticoagulant prophylaxis."
 ---
 
 # Venous Thromboembolism
@@ -318,6 +327,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies can tip the blood toward clotting: antiphospholipid antibodies are a leading acquired cause of VTE, and the HIT antibody against PF4-heparin paradoxically clots while dropping the platelet count.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A clot can form in the brain's own veins: cerebral venous sinus thrombosis is a VTE of the cranial drainage, backing up pressure and infarcting neurons to cause headache, seizures, and focal deficits.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Most VTE begins in the legs: a deep vein thrombosis forms in the calf and thigh veins, often after immobility or surgery, and leaves the post-thrombotic limb swollen and aching long after the clot.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The vein wall is part of the problem: stasis and damage to the smooth-muscle-lined vein and its valves let clot form, and after a DVT the scarred, incompetent valves drive the chronic swelling of post-thrombotic syndrome.
+- `connects-to` → **[Stroke](../stroke/README.md)** — A leg clot can reach the brain: through a patent foramen ovale a venous thrombus crosses to the arterial side as a paradoxical embolism, a recognized cause of cryptogenic stroke in younger patients.
+- `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Cancer and its drugs ignite clotting: malignancy is a major VTE risk, and multiple myeloma is especially thrombogenic — its immunomodulatory drugs (thalidomide, lenalidomide) demand routine anticoagulant prophylaxis.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
