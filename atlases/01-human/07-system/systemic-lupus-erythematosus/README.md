@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Lupus can inflame the nerves: peripheral neuropathy and mononeuritis multiplex from vasculitis of the nerves' blood supply are part of its neuropsychiatric spectrum, beyond the better-known brain effects."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy grades lupus nephritis: immune complexes pile up as 'wire-loop' deposits beneath the glomerular endothelium, and tubuloreticular inclusions inside it betray the type-I-interferon storm driving the disease."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Lupus and its treatment both threaten the eye: retinal vasculitis and dry-eye disease come from the illness, while the hydroxychloroquine that controls it can slowly damage the retina, demanding lifelong eye screening."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D runs low in lupus by necessity: patients must avoid the sun that triggers flares, so deficiency is near-universal — and low levels themselves are linked to more disease activity, making supplementation routine."
 ---
 
 # Systemic Lupus Erythematosus
@@ -295,6 +304,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Lupus attacks the lungs and their lining: pleuritis brings painful effusions, and rarer pneumonitis or 'shrinking lung' syndrome can impair breathing, part of its reach across the serous membranes.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Lupus can scar the kidney's tubules into renal tubular acidosis, deranging potassium and blood pH separately from its classic glomerulonephritis, so electrolytes need watching beyond protein in the urine.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Lupus can inflame the nerves: peripheral neuropathy and mononeuritis multiplex from vasculitis of the nerves' blood supply are part of its neuropsychiatric spectrum, beyond the better-known brain effects.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy grades lupus nephritis: immune complexes pile up as 'wire-loop' deposits beneath the glomerular endothelium, and tubuloreticular inclusions inside it betray the type-I-interferon storm driving the disease.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Lupus and its treatment both threaten the eye: retinal vasculitis and dry-eye disease come from the illness, while the hydroxychloroquine that controls it can slowly damage the retina, demanding lifelong eye screening.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D runs low in lupus by necessity: patients must avoid the sun that triggers flares, so deficiency is near-universal — and low levels themselves are linked to more disease activity, making supplementation routine.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

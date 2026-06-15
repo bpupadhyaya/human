@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "A tiring RSV baby retains carbon dioxide: rising CO2 and the falling pH of respiratory acidosis signal that breathing is failing and that ventilatory support may be needed."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows how RSV earns its name: the enveloped, filamentous virions fuse infected airway cells into multinucleated giant cells — the syncytia — that slough off and plug the tiny airways in bronchiolitis."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "RSV can strain the heart at the extremes of life: in fragile infants and older adults it precipitates heart failure and, rarely, myocarditis, the cardiorespiratory stress of severe infection tipping a marginal heart over the edge."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Severe bronchiolitis unsettles the kidney's salt balance: sick RSV infants often develop SIADH with hyponatremia, while poor feeding and fever bring dehydration that can stress the kidneys."
 ---
 
 # RSV
@@ -310,3 +319,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — RSV bronchiolitis shows on chest X-ray as hyperinflation and patchy atelectasis in X-ray photons, used when a baby's breathing worsens—though imaging is not needed for the routine diagnosis.
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — Severe RSV reaches the alveoli: beyond plugging the small bronchioles, it inflames the alveolar units into pneumonia, flooding gas exchange and causing the worst of the hypoxia.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — A tiring RSV baby retains carbon dioxide: rising CO2 and the falling pH of respiratory acidosis signal that breathing is failing and that ventilatory support may be needed.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how RSV earns its name: the enveloped, filamentous virions fuse infected airway cells into multinucleated giant cells — the syncytia — that slough off and plug the tiny airways in bronchiolitis.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — RSV can strain the heart at the extremes of life: in fragile infants and older adults it precipitates heart failure and, rarely, myocarditis, the cardiorespiratory stress of severe infection tipping a marginal heart over the edge.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe bronchiolitis unsettles the kidney's salt balance: sick RSV infants often develop SIADH with hyponatremia, while poor feeding and fever bring dehydration that can stress the kidneys.
