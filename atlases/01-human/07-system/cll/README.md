@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/il-10
     relation: connects-to
     note: "CLL cells secrete immunosuppressive IL-10: this cytokine damps the surrounding immune response, helping the leukemia evade attack while deepening the broader immune failure that leaves patients vulnerable to infection."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging stages and watches CLL: CT photons measure the enlarged lymph nodes and spleen, and a PET scan flags Richter's transformation into aggressive lymphoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "CLL's venetoclax can trigger tumor lysis: the BCL-2 drug kills cells so fast that potassium and phosphate flood the blood, so the dose is ramped up slowly to avoid the metabolic crisis."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "CLL proliferates in lymph-node centers: the tumor cells gather in 'proliferation centers' within nodes, fed by helper T-cell signals, the engine that resists therapies aimed only at circulating cells."
 ---
 
 # CLL
@@ -272,6 +281,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CLL turns the skin cancer-prone: its deep immune suppression sharply raises the risk of aggressive skin cancers, and the leukemia itself can infiltrate the skin (leukemia cutis), so dermatologic surveillance matters.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — CLL leaves patients short of neutrophils: marrow crowding and treatment cause neutropenia, and with few of these first-responder cells the infections that dominate CLL's course take hold.
 - `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — CLL cells secrete immunosuppressive IL-10: this cytokine damps the surrounding immune response, helping the leukemia evade attack while deepening the broader immune failure that leaves patients vulnerable to infection.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging stages and watches CLL: CT photons measure the enlarged lymph nodes and spleen, and a PET scan flags Richter's transformation into aggressive lymphoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CLL's venetoclax can trigger tumor lysis: the BCL-2 drug kills cells so fast that potassium and phosphate flood the blood, so the dose is ramped up slowly to avoid the metabolic crisis.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — CLL proliferates in lymph-node centers: the tumor cells gather in 'proliferation centers' within nodes, fed by helper T-cell signals, the engine that resists therapies aimed only at circulating cells.
 
 ---
 

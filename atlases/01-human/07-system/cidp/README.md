@@ -132,6 +132,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Chronic CIDP damage is sealed by calcium: when long demyelination finally lets axons degenerate, calcium pours into the bare fibers and executes their death, the irreversible loss behind lasting disability."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging supports the CIDP diagnosis: MRI photons reveal the thickened, enhancing nerve roots and plexuses, and nerve ultrasound shows the enlarged nerves of this demyelinating disease."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Some CIDP is driven from the marrow: a monoclonal plasma-cell clone (an IgM MGUS, often anti-MAG) makes antibodies that attack peripheral myelin, a paraproteinemic neuropathy needing marrow-directed treatment."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammatory cytokines sustain CIDP: IL-6 and its kin help drive the autoimmune attack on myelin, keeping the demyelination smoldering and offering a target for newer immunomodulatory therapies."
 ---
 
 # CIDP
@@ -312,6 +321,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — CIDP can travel with kidney disease: it sometimes co-occurs with membranous nephropathy, the two sharing autoantibodies against nodal proteins like neurofascin and contactin, linking the leaky kidney filter to the demyelinated nerve.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — In POEMS syndrome, VEGF drives a CIDP-like neuropathy: this rare plasma-cell disorder floods the blood with VEGF, producing a demyelinating polyneuropathy that mimics CIDP but needs entirely different, anti-plasma-cell treatment.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Chronic CIDP damage is sealed by calcium: when long demyelination finally lets axons degenerate, calcium pours into the bare fibers and executes their death, the irreversible loss behind lasting disability.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging supports the CIDP diagnosis: MRI photons reveal the thickened, enhancing nerve roots and plexuses, and nerve ultrasound shows the enlarged nerves of this demyelinating disease.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some CIDP is driven from the marrow: a monoclonal plasma-cell clone (an IgM MGUS, often anti-MAG) makes antibodies that attack peripheral myelin, a paraproteinemic neuropathy needing marrow-directed treatment.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammatory cytokines sustain CIDP: IL-6 and its kin help drive the autoimmune attack on myelin, keeping the demyelination smoldering and offering a target for newer immunomodulatory therapies.
 
 ---
 
