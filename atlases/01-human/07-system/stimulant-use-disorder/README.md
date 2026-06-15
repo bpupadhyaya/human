@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Stimulants flood the sympathetic nerves: as sympathomimetics they drive the racing heart, dilated pupils and sweating, the autonomic storm of intoxication carried along peripheral nerves."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows stimulant-damaged heart muscle: the catecholamine surge from cocaine or methamphetamine forces the fibers into the wavy, hypercontracted bands of contraction-band necrosis, the microscopic mark of a drug-stressed heart."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Stimulants can scorch the liver: cocaine and MDMA cause hepatotoxicity, and the extreme hyperthermia of overdose can cook the liver into fulminant failure, a sometimes fatal complication of intoxication."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Stimulant binges deplete magnesium: poor intake and the drug's metabolic stress drain it, and the resulting low magnesium worsens the arrhythmias and vasospasm — so magnesium is given to settle a stimulant-stressed heart."
 ---
 
 # Stimulant Use Disorder
@@ -293,6 +302,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging reveals stimulants' harm: fMRI photons show the hyperactivated reward circuit, and CT of the head catches the strokes and brain hemorrhages that cocaine and amphetamines can trigger.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MDMA can fatally drop sodium: the drug spurs excess water-drinking and ADH release, so dilutional hyponatremia causes the cerebral edema and seizures behind some ecstasy deaths.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Stimulants flood the sympathetic nerves: as sympathomimetics they drive the racing heart, dilated pupils and sweating, the autonomic storm of intoxication carried along peripheral nerves.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows stimulant-damaged heart muscle: the catecholamine surge from cocaine or methamphetamine forces the fibers into the wavy, hypercontracted bands of contraction-band necrosis, the microscopic mark of a drug-stressed heart.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Stimulants can scorch the liver: cocaine and MDMA cause hepatotoxicity, and the extreme hyperthermia of overdose can cook the liver into fulminant failure, a sometimes fatal complication of intoxication.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Stimulant binges deplete magnesium: poor intake and the drug's metabolic stress drain it, and the resulting low magnesium worsens the arrhythmias and vasospasm — so magnesium is given to settle a stimulant-stressed heart.
 
 ## Treatment
 

@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Recovery after stroke leans on BDNF: this growth factor drives the neuroplasticity that lets surviving brain rewire around the dead tissue, the molecular basis of rehabilitation gains."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy captures the dying neuron: starved of oxygen, it swells with cytotoxic edema as failing pumps let water and calcium flood in, and its mitochondria balloon — the ultrastructure of the excitotoxic cascade that kills brain tissue."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "The brain heals a stroke with a glial scar: astrocytes wall off the dead infarct in a dense gliosis, the central-nervous-system version of fibrosis that contains the damage but blocks the regrowth of axons through it."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "A stroke can bleed the stomach: the surge of stress drives acid-related Cushing ulcers, while damage to the swallowing centers brings the dysphagia that risks aspiration and demands careful feeding."
 ---
 
 # Stroke
@@ -279,6 +288,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Stroke care races on imaging: CT photons instantly separate a bleed from a clot, and MRI and perfusion scans map salvageable brain, deciding who gets clot-busting drugs or thrombectomy.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye warns of stroke: amaurosis fugax, a fleeting curtain of vision loss from a retinal-artery clot, is a TIA of the eye that flags carotid disease and impending stroke.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Recovery after stroke leans on BDNF: this growth factor drives the neuroplasticity that lets surviving brain rewire around the dead tissue, the molecular basis of rehabilitation gains.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy captures the dying neuron: starved of oxygen, it swells with cytotoxic edema as failing pumps let water and calcium flood in, and its mitochondria balloon — the ultrastructure of the excitotoxic cascade that kills brain tissue.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The brain heals a stroke with a glial scar: astrocytes wall off the dead infarct in a dense gliosis, the central-nervous-system version of fibrosis that contains the damage but blocks the regrowth of axons through it.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — A stroke can bleed the stomach: the surge of stress drives acid-related Cushing ulcers, while damage to the swallowing centers brings the dysphagia that risks aspiration and demands careful feeding.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
