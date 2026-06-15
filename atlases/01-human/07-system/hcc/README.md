@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "HCC can stir the bone marrow: it sometimes secretes erythropoietin as a paraneoplastic syndrome, driving polycythemia, and in advanced disease it metastasizes to bone."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy confirms a tumor is liver-born: HCC cells still make bile, retain canaliculi between them, and trap Mallory-Denk bodies and fat — ultrastructure that betrays hepatocyte origin when a metastasis must be ruled out."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper overload can end in liver cancer: untreated Wilson disease loads the liver with copper until it cirrhoses, and the chronic injury and scarring raise the long-term risk of hepatocellular carcinoma."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "HCC plays both ways with platelets: it can drive a paraneoplastic thrombocytosis via thrombopoietin, yet the underlying cirrhosis often leaves platelets low — and tumor invasion of the portal vein seeds dangerous clots."
 ---
 
 # Hepatocellular Carcinoma
@@ -304,6 +313,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HCC arises in a cirrhotic liver that retains sodium as ascites, and worsening ascites or a falling blood sodium can signal tumor progression or portal-vein invasion.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — HCC can grow up the bloodstream: tumor thrombus extends through the hepatic veins into the inferior vena cava and even the right atrium of the heart, a finding that reshapes treatment.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — HCC can stir the bone marrow: it sometimes secretes erythropoietin as a paraneoplastic syndrome, driving polycythemia, and in advanced disease it metastasizes to bone.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms a tumor is liver-born: HCC cells still make bile, retain canaliculi between them, and trap Mallory-Denk bodies and fat — ultrastructure that betrays hepatocyte origin when a metastasis must be ruled out.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper overload can end in liver cancer: untreated Wilson disease loads the liver with copper until it cirrhoses, and the chronic injury and scarring raise the long-term risk of hepatocellular carcinoma.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — HCC plays both ways with platelets: it can drive a paraneoplastic thrombocytosis via thrombopoietin, yet the underlying cirrhosis often leaves platelets low — and tumor invasion of the portal vein seeds dangerous clots.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — HCC commonly spreads to the adrenal glands: after the lungs, the adrenals are among its favored metastatic sites, so imaging of these glands is part of staging advanced liver cancer.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
