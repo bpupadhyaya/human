@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Panic turns the stomach: the brain-gut axis routes the attack into nausea, churning, and the 'butterflies' of acute fear, and recurrent panic often overlaps with functional gut complaints."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Panic tracks the hormonal tide: its metabolite allopregnanolone tunes the calming GABA receptor, so the premenstrual and postpartum drops in progesterone, like a withdrawal, can unmask or worsen panic attacks in vulnerable women."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The gut's microbes whisper to the anxious brain: through the microbiome-gut-brain axis they shape GABA, serotonin, and vagal signaling, and the dysbiosis common in panic and its frequent IBS overlap is studied as both consequence and contributor."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets offer a peripheral window on the disorder: they take up and store serotonin much as neurons do, so altered platelet serotonin transport and receptor binding have served as accessible research markers of the serotonergic disturbance in panic."
 ---
 
 # Panic Disorder
@@ -336,6 +345,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Panic floods to the skin: the sympathetic surge of an attack drives drenching sweat, flushing, and chills, the visible autonomic storm that accompanies the racing heart and breathlessness.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium tempers excitability, and its lack feeds anxiety: low magnesium heightens neuronal firing and the stress response, and deficiency is associated with anxiety and panic, making repletion a simple thing to check.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Panic turns the stomach: the brain-gut axis routes the attack into nausea, churning, and the 'butterflies' of acute fear, and recurrent panic often overlaps with functional gut complaints.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Panic tracks the hormonal tide: its metabolite allopregnanolone tunes the calming GABA receptor, so the premenstrual and postpartum drops in progesterone, like a withdrawal, can unmask or worsen panic attacks in vulnerable women.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut's microbes whisper to the anxious brain: through the microbiome-gut-brain axis they shape GABA, serotonin, and vagal signaling, and the dysbiosis common in panic and its frequent IBS overlap is studied as both consequence and contributor.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets offer a peripheral window on the disorder: they take up and store serotonin much as neurons do, so altered platelet serotonin transport and receptor binding have served as accessible research markers of the serotonergic disturbance in panic.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
