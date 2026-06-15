@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Neuroblastoma packs the marrow at diagnosis: as the small round blue cells flood the bone marrow they crowd out red-cell production, and the resulting anemia, pale erythrocytes, and fatigue are often what bring a child to care."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The same marrow takeover starves the platelets: tumor flooding the bone marrow suppresses platelet production into thrombocytopenia, so bruising and bleeding join the anemia among the presenting signs of widespread neuroblastoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cisplatin in high-risk regimens wastes magnesium: the platinum chemotherapy injures the kidney tubule that reclaims the mineral, so blood magnesium falls and needs replacing, alongside watching for the drug's hearing loss and kidney damage."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Cure can cost future fertility: the intensive chemotherapy, total-body irradiation, and stem-cell transplant used for high-risk neuroblastoma damage the gonads, so the late effects on growth and fertility are part of survivor care for these children."
 ---
 
 # Neuroblastoma
@@ -332,6 +341,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody is now front-line therapy: dinutuximab targets the GD2 disialoganglioside coating neuroblastoma cells, marking them for immune killing, and the tumor can also trigger the autoantibodies of opsoclonus-myoclonus, the paraneoplastic 'dancing eyes' syndrome.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Cure means battering the marrow: high-dose chemotherapy and stem-cell transplant drop the neutrophil count to near zero, and the anti-GD2 antibody is paired with GM-CSF to coax neutrophils into helping kill the tumor.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Neuroblastoma packs the marrow at diagnosis: as the small round blue cells flood the bone marrow they crowd out red-cell production, and the resulting anemia, pale erythrocytes, and fatigue are often what bring a child to care.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The same marrow takeover starves the platelets: tumor flooding the bone marrow suppresses platelet production into thrombocytopenia, so bruising and bleeding join the anemia among the presenting signs of widespread neuroblastoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cisplatin in high-risk regimens wastes magnesium: the platinum chemotherapy injures the kidney tubule that reclaims the mineral, so blood magnesium falls and needs replacing, alongside watching for the drug's hearing loss and kidney damage.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Cure can cost future fertility: the intensive chemotherapy, total-body irradiation, and stem-cell transplant used for high-risk neuroblastoma damage the gonads, so the late effects on growth and fertility are part of survivor care for these children.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

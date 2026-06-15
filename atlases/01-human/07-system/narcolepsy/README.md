@@ -138,6 +138,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "In children, orexin loss can hurry puberty: pediatric narcolepsy is associated with precocious puberty and weight gain, the hypothalamic damage that abolishes wakefulness also disturbing the nearby circuits that time sexual maturation."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "Narcolepsy type 1 is an autoimmune disease at heart: orexin neurons are destroyed by a T-cell attack, and the thymus that should delete such self-reactive T cells fails to, a breakdown of central tolerance acting on an HLA-DQB1*06:02 background."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "Sleepiness can masquerade as inattention: narcolepsy and ADHD overlap heavily, with daytime drowsiness mimicking and worsening attention problems, and both responding to the same wakefulness-promoting stimulants — a link that complicates telling them apart."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "Antibodies join the attack on orexin: B cells in narcolepsy produce autoantibodies such as anti-TRIB2, and the post-H1N1-vaccine surge in cases points to a humoral, molecular-mimicry arm alongside the cytotoxic T cells."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -318,6 +327,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Narcolepsy type 1 looks autoimmune: tied to HLA-DQB1*06:02 and a T-cell attack, it follows H1N1 flu and the Pandemrix vaccine, and antibodies cross-reacting between influenza or streptococcal antigens and orexin neurons are a leading suspect in the molecular mimicry.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid sits in the differential and the company it keeps: hypothyroidism causes its own daytime sleepiness and is checked before narcolepsy is diagnosed, while autoimmune thyroid disease appears more often in these patients, fitting the autoimmune picture.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — In children, orexin loss can hurry puberty: pediatric narcolepsy is associated with precocious puberty and weight gain, the hypothalamic damage that abolishes wakefulness also disturbing the nearby circuits that time sexual maturation.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — Narcolepsy type 1 is an autoimmune disease at heart: orexin neurons are destroyed by a T-cell attack, and the thymus that should delete such self-reactive T cells fails to, a breakdown of central tolerance acting on an HLA-DQB1*06:02 background.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — Sleepiness can masquerade as inattention: narcolepsy and ADHD overlap heavily, with daytime drowsiness mimicking and worsening attention problems, and both responding to the same wakefulness-promoting stimulants — a link that complicates telling them apart.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — Antibodies join the attack on orexin: B cells in narcolepsy produce autoantibodies such as anti-TRIB2, and the post-H1N1-vaccine surge in cases points to a humoral, molecular-mimicry arm alongside the cytotoxic T cells.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
