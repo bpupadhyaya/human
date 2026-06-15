@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Orexin loss ripples into the gut: narcolepsy patients report more constipation and irritable-bowel symptoms, the wake-and-feeding peptide's absence disturbing the autonomic and gut-brain signaling that paces digestion."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Narcolepsy type 1 looks autoimmune: tied to HLA-DQB1*06:02 and a T-cell attack, it follows H1N1 flu and the Pandemrix vaccine, and antibodies cross-reacting between influenza or streptococcal antigens and orexin neurons are a leading suspect in the molecular mimicry."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "The thyroid sits in the differential and the company it keeps: hypothyroidism causes its own daytime sleepiness and is checked before narcolepsy is diagnosed, while autoimmune thyroid disease appears more often in these patients, fitting the autoimmune picture."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "In children, orexin loss can hurry puberty: pediatric narcolepsy is associated with precocious puberty and weight gain, the hypothalamic damage that abolishes wakefulness also disturbing the nearby circuits that time sexual maturation."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -306,6 +315,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Narcolepsy is the loss of a tiny cell population: electron and immuno-microscopy reveal the near-total disappearance of the hypothalamus's few thousand orexin neurons, destroyed in what looks like a targeted autoimmune attack.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Cataplexy hijacks the body's muscle-tone circuit: the REM atonia that should only paralyze us in dreams intrudes into waking, switching off the motor pathways to peripheral nerves so the knees buckle at a burst of emotion.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Orexin loss ripples into the gut: narcolepsy patients report more constipation and irritable-bowel symptoms, the wake-and-feeding peptide's absence disturbing the autonomic and gut-brain signaling that paces digestion.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Narcolepsy type 1 looks autoimmune: tied to HLA-DQB1*06:02 and a T-cell attack, it follows H1N1 flu and the Pandemrix vaccine, and antibodies cross-reacting between influenza or streptococcal antigens and orexin neurons are a leading suspect in the molecular mimicry.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid sits in the differential and the company it keeps: hypothyroidism causes its own daytime sleepiness and is checked before narcolepsy is diagnosed, while autoimmune thyroid disease appears more often in these patients, fitting the autoimmune picture.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — In children, orexin loss can hurry puberty: pediatric narcolepsy is associated with precocious puberty and weight gain, the hypothalamic damage that abolishes wakefulness also disturbing the nearby circuits that time sexual maturation.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

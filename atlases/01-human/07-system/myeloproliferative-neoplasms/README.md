@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "The frenzied cell turnover spills phosphorus: the constant birth and death of blood cells, and their lysis under treatment, release phosphate and urate, the metabolic overflow that strains the kidneys and provokes gout."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Thrombosis is the central danger of MPN: the JAK2-mutant, thickened blood plus an activated, sticky endothelial-cell lining drives clots in both arteries and veins, the strokes and heart attacks that are the leading cause of death in these disorders."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "A maddening itch after a warm bath marks polycythemia vera: basophils and mast cells expanded by the MPN clone dump histamine, the aquagenic pruritus that water triggers being one of the disease's most distinctive complaints."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Sludgy blood blurs the vision: the hyperviscosity of a high red-cell or platelet count slows retinal flow, causing visual disturbances and engorged retinal veins, while erythromelalgia's burning can be matched by ocular symptoms in advanced disease."
 ---
 
 # Myeloproliferative Neoplasms
@@ -327,6 +336,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Myeloproliferative disease clots the arteries too: the thick, sticky blood and activated platelets drive arterial thrombosis, so heart attacks join the strokes and venous clots that menace these patients.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — MPN is a leading cause of unusual-site clots: thrombosis of the splanchnic veins draining the gut — portal, mesenteric, and the hepatic veins of Budd-Chiari — can be the first sign, sometimes before the blood counts even rise.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — The frenzied cell turnover spills phosphorus: the constant birth and death of blood cells, and their lysis under treatment, release phosphate and urate, the metabolic overflow that strains the kidneys and provokes gout.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Thrombosis is the central danger of MPN: the JAK2-mutant, thickened blood plus an activated, sticky endothelial-cell lining drives clots in both arteries and veins, the strokes and heart attacks that are the leading cause of death in these disorders.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — A maddening itch after a warm bath marks polycythemia vera: basophils and mast cells expanded by the MPN clone dump histamine, the aquagenic pruritus that water triggers being one of the disease's most distinctive complaints.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sludgy blood blurs the vision: the hyperviscosity of a high red-cell or platelet count slows retinal flow, causing visual disturbances and engorged retinal veins, while erythromelalgia's burning can be matched by ocular symptoms in advanced disease.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
