@@ -114,6 +114,15 @@ cross_links:
   - target: 01-human/03-molecular/mu-opioid-receptor
     relation: connects-to
     note: "Behavioral reward has an opioid side: while dopamine drives the 'wanting' of compulsive gaming, the mu-opioid system underlies the 'liking,' the pleasure that reinforces returning to play."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Marathon gaming strains the nerves of the hand: hours of repetitive controller and keyboard use compress the median and ulnar nerves, causing the carpal tunnel and 'gamer's thumb' repetitive-strain injuries that plague heavy players."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Sedentary play fattens the body: the long immobile hours, snacking, and disrupted sleep of compulsive gaming tip energy balance toward fat storage, driving the weight gain and obesity often seen alongside the disorder."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Sitting motionless for days can be deadly: case reports describe young gamers developing deep vein clots during marathon sessions that broke off into fatal pulmonary embolism, the 'e-thrombosis' of extreme immobility."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -320,6 +329,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Gaming addiction reshapes reward synapses: repeated dopamine surges strengthen these connections through long-term potentiation, the synaptic learning that turns play into a hard-to-break compulsion.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help tune the reward circuit: by regulating glutamate at synapses, these glial cells shape the plasticity implicated in addictive behaviors, extending gaming compulsion beyond neurons alone.
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Behavioral reward has an opioid side: while dopamine drives the 'wanting' of compulsive gaming, the mu-opioid system underlies the 'liking,' the pleasure that reinforces returning to play.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Marathon gaming strains the nerves of the hand: hours of repetitive controller and keyboard use compress the median and ulnar nerves, causing the carpal tunnel and 'gamer's thumb' repetitive-strain injuries that plague heavy players.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Sedentary play fattens the body: the long immobile hours, snacking, and disrupted sleep of compulsive gaming tip energy balance toward fat storage, driving the weight gain and obesity often seen alongside the disorder.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Sitting motionless for days can be deadly: case reports describe young gamers developing deep vein clots during marathon sessions that broke off into fatal pulmonary embolism, the 'e-thrombosis' of extreme immobility.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

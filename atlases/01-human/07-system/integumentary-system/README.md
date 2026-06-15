@@ -125,6 +125,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "The skin's dense dermal vasculature, lined by endothelial cells, both feeds it and serves thermoregulation, dilating to dump body heat or constricting to conserve it as the surface flushes or pales."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows how skin holds together and waterproofs: keratinocytes are riveted by desmosomes and anchored to the basement membrane by hemidesmosomes, their cytoplasm filled with keratin bundles and melanosomes handed over from melanocytes."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper colors and strengthens the skin: it is the catalytic metal in tyrosinase, the enzyme that makes melanin pigment, and in lysyl oxidase, which cross-links the collagen and elastin that give the dermis its resilience."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Sulfur is what makes hair and nails tough: keratin is rich in the amino acid cysteine, whose sulfur atoms form disulfide bridges that lock the protein into hard, springy fibers — the bonds a perm breaks and reforms."
 ---
 
 # Integumentary System
@@ -266,6 +275,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The skin is the body's largest sensory organ: packed with peripheral nerve endings for touch, temperature, and pain, it is how we feel the world—and where neuropathy first robs sensation.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc keeps skin intact: deficiency causes the rash of acrodermatitis enteropathica and stalls wound healing, because the mineral fuels the rapid epidermal turnover and repair the skin depends on.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The skin's dense dermal vasculature, lined by endothelial cells, both feeds it and serves thermoregulation, dilating to dump body heat or constricting to conserve it as the surface flushes or pales.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how skin holds together and waterproofs: keratinocytes are riveted by desmosomes and anchored to the basement membrane by hemidesmosomes, their cytoplasm filled with keratin bundles and melanosomes handed over from melanocytes.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper colors and strengthens the skin: it is the catalytic metal in tyrosinase, the enzyme that makes melanin pigment, and in lysyl oxidase, which cross-links the collagen and elastin that give the dermis its resilience.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sulfur is what makes hair and nails tough: keratin is rich in the amino acid cysteine, whose sulfur atoms form disulfide bridges that lock the protein into hard, springy fibers — the bonds a perm breaks and reforms.
 
 ## Pathology
 
