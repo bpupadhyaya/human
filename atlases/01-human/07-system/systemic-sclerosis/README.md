@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Systemic sclerosis chokes the fingers of oxygen: Raynaud's and a damaged microvasculature cut blood flow, so digital ischemia and ulcers—and tissue hypoxia that feeds more fibrosis—are hallmarks of the vascular side of the disease."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Scleroderma drowns the esophagus in acid: it weakens the esophageal muscle so reflux floods up, and the hydrogen-ion exposure scars the lining into strictures and Barrett's change."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Scleroderma marks the stomach with 'watermelon' stripes: it causes gastric antral vascular ectasia (GAVE), rows of dilated vessels that ooze and cause chronic iron-deficiency anemia."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Severe scleroderma is reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes and rebuilds the immune system, halting the relentless fibrosis in carefully selected patients."
 ---
 
 # Systemic Sclerosis
@@ -269,6 +278,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Systemic sclerosis most often strikes inside at the gut: fibrosis and nerve damage slow the intestine, causing reflux, bloating, bacterial overgrowth and malabsorption—the commonest internal-organ involvement of the disease.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Plasmacytoid dendritic cells pour out the interferon that drives systemic sclerosis: their type-I interferon signature activates fibroblasts and inflames vessels, sitting near the top of the cascade that scleroderma therapies target.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Systemic sclerosis chokes the fingers of oxygen: Raynaud's and a damaged microvasculature cut blood flow, so digital ischemia and ulcers—and tissue hypoxia that feeds more fibrosis—are hallmarks of the vascular side of the disease.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Scleroderma drowns the esophagus in acid: it weakens the esophageal muscle so reflux floods up, and the hydrogen-ion exposure scars the lining into strictures and Barrett's change.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Scleroderma marks the stomach with 'watermelon' stripes: it causes gastric antral vascular ectasia (GAVE), rows of dilated vessels that ooze and cause chronic iron-deficiency anemia.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Severe scleroderma is reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes and rebuilds the immune system, halting the relentless fibrosis in carefully selected patients.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

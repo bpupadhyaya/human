@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "Synovial sarcoma leans on AKT downstream of IGF: autocrine IGF-1 activates the PI3K-AKT-mTOR axis to drive proliferation and survival, so AKT-mTOR inhibitors are studied alongside the IGF and immune approaches in this sarcoma."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Synovial sarcoma sometimes calcifies: foci of calcium deposit within the tumor, and heavily calcified synovial sarcomas tend to carry a notably better prognosis than non-calcified ones."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Synovial sarcoma can spread to the liver: though it favors the lungs, hematogenous metastasis seeds the liver and other organs in advanced disease, marking the shift to systemic treatment."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Synovial sarcoma weaves a fibrous stroma: its spindle-cell component lays down dense collagen in the biphasic tumor, the firm fibrous tissue that, with epithelial nests, defines its histology."
 ---
 
 # Synovial Sarcoma
@@ -273,6 +282,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia stokes synovial sarcoma's aggressiveness: as the tumor outgrows its blood supply, low oxygen drives invasion and metastasis, contributing to the lung spread that threatens patients with this translocation-driven sarcoma.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Synovial sarcoma can spread to the brain: though lung is the dominant metastatic site, hematogenous spread occasionally seeds brain metastases in advanced disease, prompting imaging when neurologic symptoms appear.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Synovial sarcoma leans on AKT downstream of IGF: autocrine IGF-1 activates the PI3K-AKT-mTOR axis to drive proliferation and survival, so AKT-mTOR inhibitors are studied alongside the IGF and immune approaches in this sarcoma.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Synovial sarcoma sometimes calcifies: foci of calcium deposit within the tumor, and heavily calcified synovial sarcomas tend to carry a notably better prognosis than non-calcified ones.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Synovial sarcoma can spread to the liver: though it favors the lungs, hematogenous metastasis seeds the liver and other organs in advanced disease, marking the shift to systemic treatment.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Synovial sarcoma weaves a fibrous stroma: its spindle-cell component lays down dense collagen in the biphasic tumor, the firm fibrous tissue that, with epithelial nests, defines its histology.
 
 ---
 
