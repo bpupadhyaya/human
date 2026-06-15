@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Losing TSC control disturbs the brain's wiring insulation: mTOR overactivity impairs oligodendrocytes and myelination, so white-matter migration lines and hypomyelination accompany the tubers, contributing to the epilepsy and autism."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "TSC's kidney tumors are knots of bad blood vessels: angiomyolipomas mix fat and smooth muscle with malformed, aneurysm-prone vessels lined by abnormal endothelium, and these can rupture into a life-threatening retroperitoneal bleed."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Even the bowel sprouts TSC hamartomas: harmless hamartomatous rectal and colonic polyps are a recognized feature, the same unchecked-mTOR overgrowth that studs the brain, skin, and kidneys appearing along the gut."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "TSC's signature cells look bizarre under the microscope: the giant balloon cells of cortical tubers and SEGAs, and the cardiac rhabdomyoma's 'spider cells', show the swollen, disorganized ultrastructure that electron microscopy reveals."
 ---
 
 # Tuberous Sclerosis Complex
@@ -311,6 +320,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons map tuberous sclerosis everywhere: brain MRI finds the cortical tubers and growing SEGAs, a Wood's lamp's ultraviolet light makes the pale ash-leaf skin spots glow, and echocardiography catches the cardiac rhabdomyomas in infancy.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Unchecked mTOR can grow tumors in the pancreas too: tuberous sclerosis predisposes to pancreatic neuroendocrine tumors, including insulinomas, adding the gland to the long list of organs studded with its hamartomas and growths.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Losing TSC control disturbs the brain's wiring insulation: mTOR overactivity impairs oligodendrocytes and myelination, so white-matter migration lines and hypomyelination accompany the tubers, contributing to the epilepsy and autism.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — TSC's kidney tumors are knots of bad blood vessels: angiomyolipomas mix fat and smooth muscle with malformed, aneurysm-prone vessels lined by abnormal endothelium, and these can rupture into a life-threatening retroperitoneal bleed.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Even the bowel sprouts TSC hamartomas: harmless hamartomatous rectal and colonic polyps are a recognized feature, the same unchecked-mTOR overgrowth that studs the brain, skin, and kidneys appearing along the gut.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — TSC's signature cells look bizarre under the microscope: the giant balloon cells of cortical tubers and SEGAs, and the cardiac rhabdomyoma's 'spider cells', show the swollen, disorganized ultrastructure that electron microscopy reveals.
 
 ---
 

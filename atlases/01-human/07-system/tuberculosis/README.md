@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Spinal tuberculosis threatens the nerves it surrounds: Pott's disease erodes the vertebrae and forms a cold abscess that compresses the spinal cord and its roots, causing the paraplegia that is TB's most feared skeletal complication."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Curing TB endangers the liver: the core drugs — isoniazid, rifampin, and pyrazinamide — are all hepatotoxic, so transaminases are watched and the regimen held if they climb, balancing the risk against leaving the infection untreated."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "TB walls itself in with collagen: the granuloma rings its caseous core with epithelioid cells and a fibrous, collagen-rich cuff, and healing leaves the scarred, calcified lesions and lung cavities that mark old or arrested disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "TB's stain hangs on a waxy wall: Mycobacterium tuberculosis sheathes itself in mycolic-acid lipids that electron microscopy resolves as a thick envelope — the layer that traps the Ziehl-Neelsen dye and makes the bacillus acid-fast."
 ---
 
 # Tuberculosis
@@ -305,6 +314,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons hunt tuberculosis throughout its course: the chest X-ray shows the upper-lobe cavities and the fine 'millet seed' miliary spread, CT maps the damage, and old calcified Ghon foci mark where a long-healed infection once smoldered.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Miliary tuberculosis peppers the spleen: bloodborne bacilli seed it with countless tiny granulomas, swelling the organ — splenomegaly studded with white tubercles is a classic finding of disseminated disease at autopsy.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Spinal tuberculosis threatens the nerves it surrounds: Pott's disease erodes the vertebrae and forms a cold abscess that compresses the spinal cord and its roots, causing the paraplegia that is TB's most feared skeletal complication.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Curing TB endangers the liver: the core drugs — isoniazid, rifampin, and pyrazinamide — are all hepatotoxic, so transaminases are watched and the regimen held if they climb, balancing the risk against leaving the infection untreated.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — TB walls itself in with collagen: the granuloma rings its caseous core with epithelioid cells and a fibrous, collagen-rich cuff, and healing leaves the scarred, calcified lesions and lung cavities that mark old or arrested disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — TB's stain hangs on a waxy wall: Mycobacterium tuberculosis sheathes itself in mycolic-acid lipids that electron microscopy resolves as a thick envelope — the layer that traps the Ziehl-Neelsen dye and makes the bacillus acid-fast.
 
 ## See Also
 
