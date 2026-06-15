@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "A transplant means weighing fertility: the conditioning chemotherapy and radiation before an allogeneic stem-cell transplant can sterilize, so fertility preservation is discussed with younger MDS patients before the curative attempt."
+  - target: 01-human/03-molecular/runx1
+    relation: connects-to
+    note: "RUNX1 sits at the heart of MDS biology: somatic mutations of this master hematopoietic transcription factor drive dysplasia and progression to AML, and inherited RUNX1 defects (familial platelet disorder) predispose to MDS decades early."
+  - target: 01-human/07-system/pnh
+    relation: connects-to
+    note: "MDS and PNH are overlapping marrow-failure clones: small PNH clones often lurk in hypoplastic MDS, and the shared immune-mediated attack on the marrow blurs the line between clonal escape and aplasia."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Immune surveillance falters in MDS: natural killer cells that should cull the dysplastic clone are reduced and functionally impaired, helping the abnormal stem cells expand and dimming the marrow's own defense."
 ---
 
 # Myelodysplastic Syndromes
@@ -310,6 +319,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Metabolic mutations open a targeted door: IDH1 and IDH2 mutations in a subset of MDS make the oncometabolite 2-hydroxyglutarate, and IDH inhibitors that switch them off can restore healthy blood-cell maturation.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Transfusional iron overload silts up the endocrine glands: the relentless transfusions MDS often needs deposit iron in the thyroid and other glands, causing hypothyroidism and the endocrinopathies that iron chelation aims to prevent.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A transplant means weighing fertility: the conditioning chemotherapy and radiation before an allogeneic stem-cell transplant can sterilize, so fertility preservation is discussed with younger MDS patients before the curative attempt.
+- `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 sits at the heart of MDS biology: somatic mutations of this master hematopoietic transcription factor drive dysplasia and progression to AML, and inherited RUNX1 defects (familial platelet disorder) predispose to MDS decades early.
+- `connects-to` → **[Paroxysmal Nocturnal Hemoglobinuria](../pnh/README.md)** — MDS and PNH are overlapping marrow-failure clones: small PNH clones often lurk in hypoplastic MDS, and the shared immune-mediated attack on the marrow blurs the line between clonal escape and aplasia.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Immune surveillance falters in MDS: natural killer cells that should cull the dysplastic clone are reduced and functionally impaired, helping the abnormal stem cells expand and dimming the marrow's own defense.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

@@ -159,6 +159,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Malaria leaves the host open to bacteria: it impairs neutrophil function and the gut barrier, so severe disease — especially in children — carries a high risk of invasive nontyphoidal Salmonella and other bacterial co-infections."
+  - target: 01-human/04-cellular/microglia
+    relation: connects-to
+    note: "Cerebral malaria is a brain-wide inflammation: parasitized red cells jam the brain's capillaries while activated microglia pour out cytokines, the combined sequestration and neuroinflammation driving the seizures and coma that can kill."
+  - target: 01-human/03-molecular/hepcidin
+    relation: connects-to
+    note: "Malaria reshapes the body's iron traffic: inflammation drives hepcidin up, locking iron away in macrophages — starving the marrow into anemia while also denying the parasite the iron it needs, a double-edged host defense."
+  - target: 01-human/07-system/hiv-aids
+    relation: connects-to
+    note: "HIV and malaria worsen each other: HIV's weakened immunity makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently spikes HIV viral load — a vicious interaction across co-endemic regions."
 ---
 
 # Malaria
@@ -364,6 +373,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both detect and defend against malaria: rapid tests catch the parasite's HRP-2 antigen with antibodies, partial immunity in endemic areas is antibody-mediated, and the RTS,S and R21 vaccines work by raising anti-circumsporozoite antibody.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is a malaria magnet: parasites sequester in the placenta, causing maternal anemia, low birth weight, and fetal loss, which is why intermittent preventive treatment is given through pregnancy in endemic regions.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Malaria leaves the host open to bacteria: it impairs neutrophil function and the gut barrier, so severe disease — especially in children — carries a high risk of invasive nontyphoidal Salmonella and other bacterial co-infections.
+- `connects-to` → **[Microglia](../../04-cellular/microglia/README.md)** — Cerebral malaria is a brain-wide inflammation: parasitized red cells jam the brain's capillaries while activated microglia pour out cytokines, the combined sequestration and neuroinflammation driving the seizures and coma that can kill.
+- `connects-to` → **[Hepcidin](../../03-molecular/hepcidin/README.md)** — Malaria reshapes the body's iron traffic: inflammation drives hepcidin up, locking iron away in macrophages — starving the marrow into anemia while also denying the parasite the iron it needs, a double-edged host defense.
+- `connects-to` → **[HIV/AIDS](../hiv-aids/README.md)** — HIV and malaria worsen each other: HIV's weakened immunity makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently spikes HIV viral load — a vicious interaction across co-endemic regions.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
