@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Desmoids arise amid the body's fat and fascia: springing from the fibrous tissue of the abdominal wall and the fat-rich mesentery, they must be told apart from the benign lipoma and malignant liposarcoma that share that home."
+  - target: 01-human/03-molecular/progesterone
+    relation: connects-to
+    note: "Pregnancy can stir desmoids: many appear or grow during gestation and abdominal-wall desmoids especially, then often stabilize or regress after delivery, a hormone sensitivity to estrogen and progesterone that underlies the anti-hormonal therapies sometimes tried."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "Pressing on bone, the desmoid remodels it: extra-abdominal tumors abutting the chest wall or limb girdle scallop the cortex and provoke periosteal new bone from osteoblasts, the bony reaction that imaging picks up at the tumor's edge."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Mesenteric desmoids crowd the upper abdomen: in FAP they grow at the root of the mesentery and can encase the duodenum and pancreas, complicating surgery and sometimes obstructing the bowel or bile drainage."
 ---
 
 # Desmoid Tumor
@@ -329,6 +338,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Desmoids entrap the nerves they grow around: their infiltrative edge encases peripheral nerves, causing pain, numbness, and weakness, and making surgery risky for the nerve as much as for the recurrence-prone tumor.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — An intra-abdominal desmoid can throttle the gut: mesenteric tumors — common in familial adenomatous polyposis — compress the stomach and bowel into obstruction, and can encase the mesenteric vessels feeding them.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Desmoids arise amid the body's fat and fascia: springing from the fibrous tissue of the abdominal wall and the fat-rich mesentery, they must be told apart from the benign lipoma and malignant liposarcoma that share that home.
+- `connects-to` → **[Progesterone](../../03-molecular/progesterone/README.md)** — Pregnancy can stir desmoids: many appear or grow during gestation and abdominal-wall desmoids especially, then often stabilize or regress after delivery, a hormone sensitivity to estrogen and progesterone that underlies the anti-hormonal therapies sometimes tried.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Pressing on bone, the desmoid remodels it: extra-abdominal tumors abutting the chest wall or limb girdle scallop the cortex and provoke periosteal new bone from osteoblasts, the bony reaction that imaging picks up at the tumor's edge.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Mesenteric desmoids crowd the upper abdomen: in FAP they grow at the root of the mesentery and can encase the duodenum and pancreas, complicating surgery and sometimes obstructing the bowel or bile drainage.
 
 ---
 
