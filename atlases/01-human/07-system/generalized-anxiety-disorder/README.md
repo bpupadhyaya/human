@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/atherosclerosis
     relation: connects-to
     note: "Sustained anxiety hardens the arteries: the chronic sympathetic and cortisol drive of GAD raises blood pressure and inflammation that accelerate atherosclerosis, contributing to its long-term cardiovascular risk."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Chronic worry erodes neuroplasticity: GAD is marked by lower BDNF, weakening the synaptic remodeling that lets the brain adapt, and treatments that raise BDNF parallel recovery from anxiety."
+  - target: 01-human/04-cellular/mast-cell
+    relation: connects-to
+    note: "Stress reaches the mast cell: brain and gut mast cells carry receptors for the stress peptide CRH, releasing mediators that may link anxiety to its headaches, flushing, and the visceral hypersensitivity of an anxious gut."
+  - target: 01-human/07-system/type-2-diabetes
+    relation: connects-to
+    note: "Worry leaves a metabolic mark: the chronic cortisol of GAD promotes insulin resistance and central fat, and anxiety and type 2 diabetes each raise the risk of the other in a two-way link."
 ---
 
 # Generalized Anxiety Disorder
@@ -353,6 +362,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Chronic worry leaves an inflammatory trace: GAD is associated with raised IL-6 and other inflammatory markers, fitting a model in which sustained stress-axis activation primes low-grade inflammation that acts back on the anxious brain.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The body's smooth muscle carries the tension: chronic anxiety clenches gut and airway smooth muscle into the cramping, bloating, and chest tightness of GAD's somatic symptoms, the physical face of relentless worry.
 - `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Sustained anxiety hardens the arteries: the chronic sympathetic and cortisol drive of GAD raises blood pressure and inflammation that accelerate atherosclerosis, contributing to its long-term cardiovascular risk.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Chronic worry erodes neuroplasticity: GAD is marked by lower BDNF, weakening the synaptic remodeling that lets the brain adapt, and treatments that raise BDNF parallel recovery from anxiety.
+- `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Stress reaches the mast cell: brain and gut mast cells carry receptors for the stress peptide CRH, releasing mediators that may link anxiety to its headaches, flushing, and the visceral hypersensitivity of an anxious gut.
+- `connects-to` → **[Type 2 Diabetes](../type-2-diabetes/README.md)** — Worry leaves a metabolic mark: the chronic cortisol of GAD promotes insulin resistance and central fat, and anxiety and type 2 diabetes each raise the risk of the other in a two-way link.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

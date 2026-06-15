@@ -144,6 +144,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Addiction's gut-brain axis extends to behavior: as in substance addictions, the microbiome-gut-brain signaling that shapes reward, stress, and impulse control is increasingly studied in behavioral addictions like gambling."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Orexin drives the chase: this arousal-and-reward peptide heightens motivation and stress-induced relapse, and overactive orexin signaling is implicated in the craving that pulls gamblers back to the bet."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Repeated wins and near-misses reshape the reward circuit: BDNF-driven synaptic plasticity entrenches the gambling habit in the same way it does substance addiction, helping turn a behavior into a compulsion."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "Anxiety often rides alongside: gambling disorder frequently coexists with social and other anxiety disorders, the betting at times a way to escape distress that then deepens the underlying anxiety."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -332,6 +341,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — The bet delivers an adrenaline rush: the anticipation and near-misses of gambling trigger a sympathetic epinephrine surge with racing heart and heightened arousal, a physiological reward that, with dopamine, reinforces the habit.
 - `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — Chronic gambling stress wears on the heart: the repeated arousal and the anxiety of mounting debt raise blood pressure and cardiac risk, and acute losses have triggered stress cardiomyopathy and cardiac events in vulnerable players.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Addiction's gut-brain axis extends to behavior: as in substance addictions, the microbiome-gut-brain signaling that shapes reward, stress, and impulse control is increasingly studied in behavioral addictions like gambling.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Orexin drives the chase: this arousal-and-reward peptide heightens motivation and stress-induced relapse, and overactive orexin signaling is implicated in the craving that pulls gamblers back to the bet.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Repeated wins and near-misses reshape the reward circuit: BDNF-driven synaptic plasticity entrenches the gambling habit in the same way it does substance addiction, helping turn a behavior into a compulsion.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — Anxiety often rides alongside: gambling disorder frequently coexists with social and other anxiety disorders, the betting at times a way to escape distress that then deepens the underlying anxiety.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
