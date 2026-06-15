@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Opioid addiction enlists astrocytes: these glial cells help control glutamate in the reward circuit, and their changes contribute to the synaptic plasticity and craving that sustain dependence and relapse."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging reveals opioids' grip: fMRI photons show the reward circuit firing to drug cues, and MRI can expose the anoxic brain injury left by a survived overdose."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Injection opioid use infects the endothelium: shared needles seed bacteria onto heart-valve and vessel-lining endothelial cells, causing the infective endocarditis that is a major killer in the epidemic."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Injection drug use scars and infects the skin: track marks, abscesses and cellulitis from non-sterile injection are common, sometimes the first visible clue to hidden opioid use."
 ---
 
 # Opioid Use Disorder
@@ -322,6 +331,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Opioids seize up the large intestine: mu-receptors in the gut wall halt its muscular waves, causing the severe constipation that nearly every opioid user gets and that special gut-targeted drugs are made to relieve.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — An opioid overdose floods the blood with hydrogen ions: suppressed breathing lets carbon dioxide build up into a respiratory acidosis, the falling pH that compounds the hypoxia of overdose.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Opioid addiction enlists astrocytes: these glial cells help control glutamate in the reward circuit, and their changes contribute to the synaptic plasticity and craving that sustain dependence and relapse.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging reveals opioids' grip: fMRI photons show the reward circuit firing to drug cues, and MRI can expose the anoxic brain injury left by a survived overdose.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Injection opioid use infects the endothelium: shared needles seed bacteria onto heart-valve and vessel-lining endothelial cells, causing the infective endocarditis that is a major killer in the epidemic.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Injection drug use scars and infects the skin: track marks, abscesses and cellulitis from non-sterile injection are common, sometimes the first visible clue to hidden opioid use.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

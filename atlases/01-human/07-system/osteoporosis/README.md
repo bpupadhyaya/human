@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Too much salt thins the bones: high dietary sodium makes the kidneys excrete more calcium in urine, and that ongoing calcium drain pulls mineral from bone, quietly worsening osteoporosis."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Bone-eating osteoclasts arise from macrophages: the monocyte-macrophage lineage fuses into the osteoclasts that resorb bone, so inflammation that recruits macrophages accelerates bone loss."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver takes the first step in activating vitamin D: it hydroxylates it to 25-OH-D, the stored form measured in blood, before the kidney finishes the job, so liver disease can starve bone of usable vitamin D."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc helps build bone: it is a cofactor for the enzymes that lay down collagen matrix and for osteoblast activity, so zinc deficiency contributes to low bone mass."
 ---
 
 # Osteoporosis
@@ -271,6 +280,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Bone health is read and built with photons: a DXA scan uses low-dose X-ray photons to measure bone density and diagnose osteoporosis, while sunlight's photons make the vitamin D that lets bone absorb calcium.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The stomach quietly guards bone: its acid frees calcium from food for absorption, so long-term acid-suppressing drugs (PPIs) can reduce calcium uptake and are linked to a higher fracture risk.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Too much salt thins the bones: high dietary sodium makes the kidneys excrete more calcium in urine, and that ongoing calcium drain pulls mineral from bone, quietly worsening osteoporosis.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Bone-eating osteoclasts arise from macrophages: the monocyte-macrophage lineage fuses into the osteoclasts that resorb bone, so inflammation that recruits macrophages accelerates bone loss.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver takes the first step in activating vitamin D: it hydroxylates it to 25-OH-D, the stored form measured in blood, before the kidney finishes the job, so liver disease can starve bone of usable vitamin D.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps build bone: it is a cofactor for the enzymes that lay down collagen matrix and for osteoblast activity, so zinc deficiency contributes to low bone mass.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
