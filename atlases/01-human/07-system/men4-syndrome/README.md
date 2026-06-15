@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "As in MEN1, the liver shapes MEN4's outcome: its pancreatic and duodenal neuroendocrine tumors metastasize there, and progressive liver disease becomes the dominant threat once tumors have spread."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy confirms MEN4's tumors are neuroendocrine: like MEN1's, its pancreatic and pituitary growths brim with dense-core secretory granules, the hormone-packed ultrastructure of cells that signal through the bloodstream."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "MEN4's hyperparathyroidism wears down bone: excess parathyroid hormone spurs osteoclasts to resorb the skeleton into osteitis fibrosa, thinning the marrow-bearing bones much as in its MEN1 cousin."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "MEN4 can grow carcinoids in the chest: like MEN1 it predisposes to bronchial and thymic neuroendocrine tumors, foregut carcinoids that demand surveillance of the lungs alongside the pancreas and pituitary."
 ---
 
 # MEN4 Syndrome
@@ -283,6 +292,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Surveillance in MEN4 leans on photons: like MEN1, it uses sestamibi scintigraphy for parathyroids, Ga-68 DOTATATE PET for somatostatin-receptor-rich neuroendocrine tumors, and pituitary MRI to track adenomas across a lifetime of screening.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MEN4 can include GH-secreting pituitary tumors, and IGF-1 is how they are caught: produced by the liver in step with growth hormone, its stable level reveals acromegaly that the pulsatile hormone would hide.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — As in MEN1, the liver shapes MEN4's outcome: its pancreatic and duodenal neuroendocrine tumors metastasize there, and progressive liver disease becomes the dominant threat once tumors have spread.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms MEN4's tumors are neuroendocrine: like MEN1's, its pancreatic and pituitary growths brim with dense-core secretory granules, the hormone-packed ultrastructure of cells that signal through the bloodstream.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MEN4's hyperparathyroidism wears down bone: excess parathyroid hormone spurs osteoclasts to resorb the skeleton into osteitis fibrosa, thinning the marrow-bearing bones much as in its MEN1 cousin.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — MEN4 can grow carcinoids in the chest: like MEN1 it predisposes to bronchial and thymic neuroendocrine tumors, foregut carcinoids that demand surveillance of the lungs alongside the pancreas and pituitary.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

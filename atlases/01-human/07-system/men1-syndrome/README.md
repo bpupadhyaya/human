@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver decides MEN1's prognosis: pancreatic and duodenal neuroendocrine tumors metastasize there, and the bulk of liver disease — not the primary tumor — is the leading cause of death in these patients."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy marks MEN1's tumors as neuroendocrine: the pancreatic and pituitary growths fill with dense-core secretory granules, packets of hormone whose ultrastructure identifies cells built to signal through the blood."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "MEN1 leaves clues on the skin: multiple facial angiofibromas, trunk collagenomas, and lipomas dot these patients, cutaneous markers that can prompt the genetic testing uncovering the syndrome."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Overactive parathyroids erode the bone: MEN1's near-universal hyperparathyroidism drives osteoclasts to resorb bone into osteitis fibrosa with brown tumors, hollowing the marrow-bearing skeleton."
 ---
 
 # MEN1 Syndrome
@@ -291,6 +300,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Finding MEN1's many small tumors depends on photons: sestamibi scintigraphy hunts parathyroids, Ga-68 DOTATATE PET lights up neuroendocrine tumors via their somatostatin receptors, and pituitary MRI completes the surveillance triad.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MEN1 pituitary somatotroph adenomas cause acromegaly, and IGF-1 is the test that catches it: liver-made in proportion to growth hormone, its steady blood level screens for and tracks GH excess better than the pulsatile hormone itself.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver decides MEN1's prognosis: pancreatic and duodenal neuroendocrine tumors metastasize there, and the bulk of liver disease — not the primary tumor — is the leading cause of death in these patients.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy marks MEN1's tumors as neuroendocrine: the pancreatic and pituitary growths fill with dense-core secretory granules, packets of hormone whose ultrastructure identifies cells built to signal through the blood.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MEN1 leaves clues on the skin: multiple facial angiofibromas, trunk collagenomas, and lipomas dot these patients, cutaneous markers that can prompt the genetic testing uncovering the syndrome.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Overactive parathyroids erode the bone: MEN1's near-universal hyperparathyroidism drives osteoclasts to resorb bone into osteitis fibrosa with brown tumors, hollowing the marrow-bearing skeleton.
 
 ---
 
