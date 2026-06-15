@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "The marrow races to refill what TTP destroys: as microangiopathy shears red cells and consumes platelets, the bone marrow ramps up production, though it cannot keep pace with the relentless destruction."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Light through a blood smear clinches TTP: the microscope reveals schistocytes — red cells sheared into helmet shapes by the microthrombi — the single most important clue, while brain MRI shows the strokes and reversible edema behind the neurologic signs."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows what clogs the vessels: hyaline microthrombi of platelets glued by ultralong von Willebrand multimers pack the arterioles and capillaries — the pathologic lesion TTP's missing ADAMTS13 enzyme fails to prevent."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver registers TTP's hemolysis: red cells shredded across the body spill lactate dehydrogenase and bilirubin that the liver processes, while microthrombi in its small vessels can derange liver enzymes during a crisis."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -322,6 +331,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — TTP can spill potassium into the blood: brisk microangiopathic hemolysis releases potassium from shattered red cells, and the acute kidney injury compounds it, risking dangerous hyperkalemia.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — TTP can injure the pancreas: microthrombi in its small vessels cause ischemic damage that disturbs blood sugar and raises pancreatic enzymes, another organ the microangiopathy quietly strikes.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — The marrow races to refill what TTP destroys: as microangiopathy shears red cells and consumes platelets, the bone marrow ramps up production, though it cannot keep pace with the relentless destruction.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light through a blood smear clinches TTP: the microscope reveals schistocytes — red cells sheared into helmet shapes by the microthrombi — the single most important clue, while brain MRI shows the strokes and reversible edema behind the neurologic signs.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows what clogs the vessels: hyaline microthrombi of platelets glued by ultralong von Willebrand multimers pack the arterioles and capillaries — the pathologic lesion TTP's missing ADAMTS13 enzyme fails to prevent.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver registers TTP's hemolysis: red cells shredded across the body spill lactate dehydrogenase and bilirubin that the liver processes, while microthrombi in its small vessels can derange liver enzymes during a crisis.
 
 ---
 

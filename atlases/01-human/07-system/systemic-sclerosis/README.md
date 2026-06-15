@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Severe scleroderma is reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes and rebuilds the immune system, halting the relentless fibrosis in carefully selected patients."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "A beam of light reads scleroderma at the fingertip: nailfold capillaroscopy magnifies the nailbed to reveal the dilated, dropout-riddled capillaries that flag the vasculopathy early, while HRCT photons map the lung fibrosis it causes."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The limited form often drags in the liver: CREST-pattern scleroderma overlaps strongly with primary biliary cholangitis, so anti-mitochondrial antibodies and a slow autoimmune attack on the bile ducts frequently accompany it."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets stoke scleroderma's vascular fire: activated on the damaged vessel lining, they pour out PDGF and serotonin that drive the smooth-muscle growth and fibrosis narrowing the arteries, feeding the Raynaud's and pulmonary hypertension."
 ---
 
 # Systemic Sclerosis
@@ -281,6 +290,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Scleroderma drowns the esophagus in acid: it weakens the esophageal muscle so reflux floods up, and the hydrogen-ion exposure scars the lining into strictures and Barrett's change.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Scleroderma marks the stomach with 'watermelon' stripes: it causes gastric antral vascular ectasia (GAVE), rows of dilated vessels that ooze and cause chronic iron-deficiency anemia.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Severe scleroderma is reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes and rebuilds the immune system, halting the relentless fibrosis in carefully selected patients.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — A beam of light reads scleroderma at the fingertip: nailfold capillaroscopy magnifies the nailbed to reveal the dilated, dropout-riddled capillaries that flag the vasculopathy early, while HRCT photons map the lung fibrosis it causes.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The limited form often drags in the liver: CREST-pattern scleroderma overlaps strongly with primary biliary cholangitis, so anti-mitochondrial antibodies and a slow autoimmune attack on the bile ducts frequently accompany it.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets stoke scleroderma's vascular fire: activated on the damaged vessel lining, they pour out PDGF and serotonin that drive the smooth-muscle growth and fibrosis narrowing the arteries, feeding the Raynaud's and pulmonary hypertension.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
