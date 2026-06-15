@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "The thyroid sits in the differential: because thyroid dysfunction alters appetite and weight, it is checked when binge eating and weight change present, separating a metabolic cause from the behavioral disorder."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Binge eating intertwines with reproduction: it is more common in women with PCOS, drives the insulin resistance behind it, and disturbs menstrual regularity and fertility through the weight and metabolic upheaval it brings."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "The metabolic fallout scars the vessels: the insulin resistance and dyslipidemia of binge eating injure the endothelial lining and accelerate atherosclerosis, a cardiovascular toll that runs beyond the weight gained."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Insulin resistance shows on the skin: the velvety dark patches of acanthosis nigricans and skin tags mark the hyperinsulinemia that binge eating fosters, a visible flag of the metabolic disturbance underneath."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -335,6 +344,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Binge eating often runs against the clock: it overlaps with night-eating syndrome and a delayed circadian rhythm, where blunted evening melatonin and disrupted sleep shift the urge to eat into the night.
 - `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — The binges leave a metabolic mark: independent of obesity, binge eating raises triglycerides and cholesterol and tips toward metabolic syndrome, part of the cardiovascular risk that shadows the disorder.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid sits in the differential: because thyroid dysfunction alters appetite and weight, it is checked when binge eating and weight change present, separating a metabolic cause from the behavioral disorder.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Binge eating intertwines with reproduction: it is more common in women with PCOS, drives the insulin resistance behind it, and disturbs menstrual regularity and fertility through the weight and metabolic upheaval it brings.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — The metabolic fallout scars the vessels: the insulin resistance and dyslipidemia of binge eating injure the endothelial lining and accelerate atherosclerosis, a cardiovascular toll that runs beyond the weight gained.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Insulin resistance shows on the skin: the velvety dark patches of acanthosis nigricans and skin tags mark the hyperinsulinemia that binge eating fosters, a visible flag of the metabolic disturbance underneath.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

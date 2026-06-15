@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "The mother's thyroid shapes the risk: adequate maternal thyroid hormone is critical for fetal brain development, and maternal hypothyroxinemia in pregnancy is a recognized risk factor for autism in the child."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "A mother's antibodies can target the fetal brain: in maternal-autoantibody-related autism, IgG against fetal brain proteins crosses the placenta and disturbs neurodevelopment, one immune route into the condition's many causes."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "Immune genes sit among the risk loci: MHC/HLA variants and maternal immune activation in pregnancy are tied to autism, linking the brain's wiring to the same antigen-presenting machinery that runs immunity."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Much of the risk is set before birth: advanced parental age, prenatal valproate, and maternal immune activation shape autism risk, and the striking male predominance points to sex-hormone influences on the developing brain."
 ---
 
 # Autism Spectrum Disorder
@@ -340,6 +349,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep is a near-universal struggle in autism: disrupted melatonin rhythms leave many autistic children unable to fall or stay asleep, and melatonin is the first-line treatment, easing both the insomnia and the daytime behavior it worsens.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut is a frequent trouble spot: autistic children have high rates of reflux, constipation, and selective eating, the GI symptoms feeding into the gut-brain axis already implicated in the condition.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The mother's thyroid shapes the risk: adequate maternal thyroid hormone is critical for fetal brain development, and maternal hypothyroxinemia in pregnancy is a recognized risk factor for autism in the child.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — A mother's antibodies can target the fetal brain: in maternal-autoantibody-related autism, IgG against fetal brain proteins crosses the placenta and disturbs neurodevelopment, one immune route into the condition's many causes.
+- `connects-to` → **[MHC Class II](../../03-molecular/mhc-class-ii/README.md)** — Immune genes sit among the risk loci: MHC/HLA variants and maternal immune activation in pregnancy are tied to autism, linking the brain's wiring to the same antigen-presenting machinery that runs immunity.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Much of the risk is set before birth: advanced parental age, prenatal valproate, and maternal immune activation shape autism risk, and the striking male predominance points to sex-hormone influences on the developing brain.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
