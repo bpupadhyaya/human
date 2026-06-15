@@ -146,6 +146,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Measles erases immune memory: it infects and depletes the memory lymphocytes built up over a lifetime, an 'immune amnesia' that leaves children vulnerable to other infections they were once protected against for years afterward."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Measles lives and dies by antibody: the MMR vaccine and natural infection both raise protective anti-measles antibody, IgM confirms acute infection — yet the virus's immune amnesia destroys the antibody memory against other germs."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Measles can inflame the liver: a transient hepatitis with raised transaminases is common, especially in adults, one of the systemic features that make measles in grown-ups more severe than in children."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The danger of measles is what comes after: its deep, weeks-long immunosuppression opens the door to secondary bacterial pneumonia, otitis, and other infections — the complications, not the rash, that cause most measles deaths."
 ---
 
 # Measles
@@ -333,6 +342,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows measles fusing cells: the paramyxovirus drives infected cells to merge into Warthin-Finkeldey giant cells stuffed with nucleocapsids, the multinucleated hallmark seen in infected lymphoid tissue.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Diarrhea is measles' great killer: the virus strips the gut lining, and the resulting severe diarrhea and dehydration — worsened by malnutrition — are a leading cause of measles death in young children.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Measles erases immune memory: it infects and depletes the memory lymphocytes built up over a lifetime, an 'immune amnesia' that leaves children vulnerable to other infections they were once protected against for years afterward.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Measles lives and dies by antibody: the MMR vaccine and natural infection both raise protective anti-measles antibody, IgM confirms acute infection — yet the virus's immune amnesia destroys the antibody memory against other germs.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Measles can inflame the liver: a transient hepatitis with raised transaminases is common, especially in adults, one of the systemic features that make measles in grown-ups more severe than in children.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The danger of measles is what comes after: its deep, weeks-long immunosuppression opens the door to secondary bacterial pneumonia, otitis, and other infections — the complications, not the rash, that cause most measles deaths.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

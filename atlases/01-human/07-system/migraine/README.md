@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Migraine can make the skin hurt: cutaneous allodynia, where a light touch to the scalp or face becomes painful during an attack, signals central sensitization and predicts a poorer response to late treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Migraine prevention turned to antibodies: monoclonal antibodies against CGRP or its receptor (erenumab, fremanezumab, galcanezumab) are the first drugs designed specifically to prevent migraine, blocking the peptide that drives the attack."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Migraine keeps time with sleep: too little or too much sleep is a classic trigger, the hypothalamus links it to the circadian clock, and melatonin has shown promise as a simple preventive."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormones rule many migraines: estrogen withdrawal before menstruation triggers attacks, migraine often eases in pregnancy and after menopause, and migraine with aura plus estrogen contraception raises stroke risk enough to change prescribing."
 ---
 
 # Migraine
@@ -328,6 +337,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Migraine may be an energy disorder at the cell's core: evidence of mitochondrial dysfunction in migraine neurons underlies the use of riboflavin and coenzyme Q10 — boosters of the electron transport chain — as preventives.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the migraine brain: deficiency is associated with more frequent attacks, and supplementation has shown modest benefit, fitting the vitamin's role in calming neuronal excitability and inflammation.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Migraine can make the skin hurt: cutaneous allodynia, where a light touch to the scalp or face becomes painful during an attack, signals central sensitization and predicts a poorer response to late treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Migraine prevention turned to antibodies: monoclonal antibodies against CGRP or its receptor (erenumab, fremanezumab, galcanezumab) are the first drugs designed specifically to prevent migraine, blocking the peptide that drives the attack.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Migraine keeps time with sleep: too little or too much sleep is a classic trigger, the hypothalamus links it to the circadian clock, and melatonin has shown promise as a simple preventive.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones rule many migraines: estrogen withdrawal before menstruation triggers attacks, migraine often eases in pregnancy and after menopause, and migraine with aura plus estrogen contraception raises stroke risk enough to change prescribing.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
