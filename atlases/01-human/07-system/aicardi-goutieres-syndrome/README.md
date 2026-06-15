@@ -141,6 +141,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "AGS shades into lupus, kidney and all: its overlap with systemic lupus means some patients develop a lupus-like glomerulonephritis, the shared interferon excess attacking the kidney's filters."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "AGS blurs into autoimmunity: its chronic type-I-interferon excess — the same signature as lupus — drives autoantibodies including ANA, so many patients carry a lupus-like serology alongside the neurologic disease."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "AGS masquerades as a congenital infection: newborns can present with thrombocytopenia and anemia alongside the brain calcification, a TORCH-mimic picture of cytopenias that misleads toward an infection that is not there."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The liver joins the pseudo-infection picture: AGS infants often show hepatomegaly and raised transaminases from hepatocyte involvement, part of the systemic interferon storm that imitates congenital cytomegalovirus."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -276,6 +285,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — AGS is a failure to clear the cell's own genetic debris: the mutated nucleases let stray DNA and RNA pile up in the cytoplasm, where sensors mistake them for a virus and switch on a relentless type-I-interferon alarm.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Some AGS genotypes scar the heart and great vessels: SAMHD1 mutations in particular bring a cerebral and cardiac vasculopathy of aneurysms and stenoses, extending the inflammatory damage to the circulation.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — AGS shades into lupus, kidney and all: its overlap with systemic lupus means some patients develop a lupus-like glomerulonephritis, the shared interferon excess attacking the kidney's filters.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — AGS blurs into autoimmunity: its chronic type-I-interferon excess — the same signature as lupus — drives autoantibodies including ANA, so many patients carry a lupus-like serology alongside the neurologic disease.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — AGS masquerades as a congenital infection: newborns can present with thrombocytopenia and anemia alongside the brain calcification, a TORCH-mimic picture of cytopenias that misleads toward an infection that is not there.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The liver joins the pseudo-infection picture: AGS infants often show hepatomegaly and raised transaminases from hepatocyte involvement, part of the systemic interferon storm that imitates congenital cytomegalovirus.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

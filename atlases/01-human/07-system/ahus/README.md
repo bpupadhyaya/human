@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "aHUS can blur the eye: microthrombi and the malignant hypertension it provokes injure the retinal vessels, producing a Purtscher-like retinopathy of cotton-wool spots and hemorrhages that can threaten vision."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "aHUS reaches the brain through its tiniest vessels: microthrombi in the cerebral microcirculation injure neurons, causing the seizures, confusion, and stroke that complicate severe disease in up to half of patients."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Some aHUS is antibody-made: a subset is driven by autoantibodies against complement factor H (often with CFHR deletions), and the disease's mainstay treatment, eculizumab, is itself a monoclonal antibody that blocks C5."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The microangiopathy can scar more than the kidney: aHUS is a systemic TMA, and clots in the hepatic and mesenteric microvessels can derange the liver and bowel as part of its multi-organ reach."
 ---
 
 # Atypical HUS
@@ -349,6 +358,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals aHUS's lesion in the kidney's filters: the glomerular endothelium swells and lifts off, widening the subendothelial space and trapping platelet-fibrin microthrombi — the thrombotic microangiopathy unchecked complement drives.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The complement storm can reach the lungs: aHUS occasionally causes pulmonary thrombotic microangiopathy with hemorrhage and respiratory failure, evidence its endothelial injury is systemic, not confined to the kidney.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — aHUS can blur the eye: microthrombi and the malignant hypertension it provokes injure the retinal vessels, producing a Purtscher-like retinopathy of cotton-wool spots and hemorrhages that can threaten vision.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — aHUS reaches the brain through its tiniest vessels: microthrombi in the cerebral microcirculation injure neurons, causing the seizures, confusion, and stroke that complicate severe disease in up to half of patients.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Some aHUS is antibody-made: a subset is driven by autoantibodies against complement factor H (often with CFHR deletions), and the disease's mainstay treatment, eculizumab, is itself a monoclonal antibody that blocks C5.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The microangiopathy can scar more than the kidney: aHUS is a systemic TMA, and clots in the hepatic and mesenteric microvessels can derange the liver and bowel as part of its multi-organ reach.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
