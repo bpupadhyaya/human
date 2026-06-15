@@ -156,6 +156,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "Iron and the gut flora shape each other: the microbiome aids iron handling, and unabsorbed oral iron feeds pathogenic gut bacteria and disturbs the flora, a reason supplementation can upset the gut and is being rethought."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver is the body's iron bank and gatekeeper: it stores iron as ferritin and makes the hepcidin and transferrin that govern its traffic, so falling liver iron stores are the first stage of deficiency, well before the anemia shows."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "The spleen recycles the body's iron: its macrophages dismantle worn-out red cells and return their iron to the marrow, so this salvage loop normally dwarfs dietary intake and its failure or loss strains the iron balance."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The lung can hide the bleeding: pulmonary hemosiderosis and Goodpasture trap iron in alveolar bleeds rather than recycling it, an occult internal loss that causes iron-deficiency anemia without any visible blood."
 ---
 
 # Iron Deficiency Anemia
@@ -322,6 +331,9 @@ Iron is essential for:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Autoimmunity is a hidden cause: antibodies in autoimmune atrophic gastritis and the anti-transglutaminase antibodies of celiac disease block iron absorption, so these antibody tests are part of working up unexplained iron deficiency.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid tangles with iron: hypothyroidism both causes its own anemia and drives the heavy menstrual bleeding that depletes iron, while iron deficiency in turn impairs thyroid hormone synthesis — a two-way tie checked together.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Iron and the gut flora shape each other: the microbiome aids iron handling, and unabsorbed oral iron feeds pathogenic gut bacteria and disturbs the flora, a reason supplementation can upset the gut and is being rethought.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver is the body's iron bank and gatekeeper: it stores iron as ferritin and makes the hepcidin and transferrin that govern its traffic, so falling liver iron stores are the first stage of deficiency, well before the anemia shows.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen recycles the body's iron: its macrophages dismantle worn-out red cells and return their iron to the marrow, so this salvage loop normally dwarfs dietary intake and its failure or loss strains the iron balance.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lung can hide the bleeding: pulmonary hemosiderosis and Goodpasture trap iron in alveolar bleeds rather than recycling it, an occult internal loss that causes iron-deficiency anemia without any visible blood.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

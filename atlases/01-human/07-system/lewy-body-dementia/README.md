@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The disease may begin in the gut: under the gut-first hypothesis, misfolded α-synuclein arises in the enteric nervous system and climbs the vagus to the brain, with gut dysbiosis a suspected early player."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The immune system reads α-synuclein as foreign: cytotoxic T cells recognizing synuclein peptides are found in synucleinopathies and may help kill the neurons, adding an autoimmune arm to Lewy body disease."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Lewy pathology dims more than dopamine: degeneration of the serotonergic raphe lowers serotonin, contributing to the depression, anxiety, and REM-sleep disturbance that often shadow the cognitive decline."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Synucleinopathies and melanoma travel together: as in Parkinson's, Lewy body disease carries a higher melanoma risk, a bidirectional link rooted in shared pigment and α-synuclein biology."
 ---
 
 # Lewy Body Dementia
@@ -341,6 +350,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart helps make the diagnosis: Lewy body disease degenerates the cardiac sympathetic nerves supplying the cardiomyocytes, so reduced MIBG uptake on a cardiac scan is a distinctive marker separating it from Alzheimer's.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut shows it early: Lewy pathology in the enteric nerves slows the stomach into gastroparesis and early satiety years before dementia, and α-synuclein found on gut biopsy may become an early clue.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The disease may begin in the gut: under the gut-first hypothesis, misfolded α-synuclein arises in the enteric nervous system and climbs the vagus to the brain, with gut dysbiosis a suspected early player.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The immune system reads α-synuclein as foreign: cytotoxic T cells recognizing synuclein peptides are found in synucleinopathies and may help kill the neurons, adding an autoimmune arm to Lewy body disease.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Lewy pathology dims more than dopamine: degeneration of the serotonergic raphe lowers serotonin, contributing to the depression, anxiety, and REM-sleep disturbance that often shadow the cognitive decline.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Synucleinopathies and melanoma travel together: as in Parkinson's, Lewy body disease carries a higher melanoma risk, a bidirectional link rooted in shared pigment and α-synuclein biology.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
