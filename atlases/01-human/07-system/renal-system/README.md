@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/immune-system
     relation: connects-to
     note: "The kidney is a frequent immune battleground: circulating immune complexes and complement lodge in the glomerulus to cause the many glomerulonephritides, making renal biopsy a window onto systemic autoimmune disease like lupus."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Specific autoantibodies name the kidney's diseases: anti-GBM antibodies attack the glomerular basement membrane in Goodpasture, ANCA drives the small-vessel vasculitides, and these blood tests pinpoint which glomerulonephritis is at work."
+  - target: 01-human/07-system/gout
+    relation: connects-to
+    note: "The kidney sets the body's urate: it excretes most uric acid, so impaired renal handling raises blood urate into gout and urate stones, while gout's crystals and its drugs in turn injure the kidney — a two-way burden."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Failing kidneys show on the skin: uremia brings relentless itch and a sallow hue, disturbed calcium-phosphate balance calcifies skin vessels into deadly calciphylaxis, and the skin's vitamin D awaits the kidney's final activating step."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -294,6 +303,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Liver](../../06-organ/liver/README.md) — liver and kidney share the work of detox: the liver turns ammonia into urea that the kidney then excretes, the two clear many drugs in tandem, and a failing liver can drag the kidney down with it in the hepatorenal syndrome.
 - **Connects to:** [Nervous System](../nervous-system/README.md) — the nervous system tunes the kidney minute to minute: sympathetic nerves and baroreceptors adjust renal blood flow and renin release to defend blood pressure, while the buildup of wastes in kidney failure clouds the brain into uremic encephalopathy.
 - **Connects to:** [Immune System](../immune-system/README.md) — the kidney is a frequent immune battleground: circulating immune complexes and complement lodge in the glomerulus to cause the many glomerulonephritides, making renal biopsy a window onto systemic autoimmune disease like lupus.
+- **Connects to:** [Antibody](../../03-molecular/antibody/README.md) — specific autoantibodies name the kidney's diseases: anti-GBM antibodies attack the glomerular basement membrane in Goodpasture, ANCA drives the small-vessel vasculitides, and these blood tests pinpoint which glomerulonephritis is at work.
+- **Connects to:** [Gout](../gout/README.md) — the kidney sets the body's urate: it excretes most uric acid, so impaired renal handling raises blood urate into gout and urate stones, while gout's crystals and its drugs in turn injure the kidney — a two-way burden.
+- **Connects to:** [Skin](../../06-organ/skin/README.md) — failing kidneys show on the skin: uremia brings relentless itch and a sallow hue, disturbed calcium-phosphate balance calcifies skin vessels into deadly calciphylaxis, and the skin's vitamin D awaits the kidney's final activating step.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

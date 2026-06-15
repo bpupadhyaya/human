@@ -147,6 +147,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "Bronchiolitis makes feeding a struggle: a baby working hard to breathe cannot coordinate sucking and swallowing, so poor intake and vomiting bring dehydration and the need for nasogastric or IV fluids."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Protection now starts before birth: a maternal RSV vaccine given in pregnancy passes antibody across the placenta to shield the newborn through its risky first months, complementing the nirsevimab antibody given to infants directly."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D may temper the infection: low vitamin D in infancy is associated with more severe RSV bronchiolitis, the vitamin's role in airway immunity and barrier function making its status a studied modifier of risk."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "A key lesson is what cortisol cannot do: unlike asthma, RSV bronchiolitis does not respond to corticosteroids, because its airway plugging is driven by sloughed cells and mucus rather than the steroid-sensitive inflammation of allergic disease."
 ---
 
 # RSV
@@ -334,3 +343,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — RSV is fought largely with antibody: the monoclonals palivizumab and the longer-acting nirsevimab passively protect high-risk infants, and a maternal vaccine now passes protective antibody across the placenta to the newborn.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — In the youngest infants RSV can stop the breath: it triggers central apnea — pauses in breathing driven by immature brainstem respiratory neurons — sometimes the first sign of infection before the wheeze appears.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Bronchiolitis makes feeding a struggle: a baby working hard to breathe cannot coordinate sucking and swallowing, so poor intake and vomiting bring dehydration and the need for nasogastric or IV fluids.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Protection now starts before birth: a maternal RSV vaccine given in pregnancy passes antibody across the placenta to shield the newborn through its risky first months, complementing the nirsevimab antibody given to infants directly.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D may temper the infection: low vitamin D in infancy is associated with more severe RSV bronchiolitis, the vitamin's role in airway immunity and barrier function making its status a studied modifier of risk.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — A key lesson is what cortisol cannot do: unlike asthma, RSV bronchiolitis does not respond to corticosteroids, because its airway plugging is driven by sloughed cells and mucus rather than the steroid-sensitive inflammation of allergic disease.
