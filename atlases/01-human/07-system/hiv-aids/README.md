@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Advanced AIDS weakens the heart: chronic infection and direct viral injury can dilate it into an HIV cardiomyopathy, and pericardial effusions from opportunistic infections add to the cardiac toll."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "AIDS is diagnosed by antibody yet defined by immune failure: the anti-HIV antibody test identifies infection, but as CD4 cells vanish the body's whole antibody response falters, leaving even vaccines and routine defenses ineffective."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "AIDS reaches deep into the brain: the virus and its opportunistic invaders — toxoplasma, JC virus's PML, CMV — injure neurons into HIV-associated dementia, the cognitive decline that marks advanced disease."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "HIV thins the platelets: an immune thrombocytopenia is common and can be an early sign, as antibodies and direct marrow infection drop the platelet count, sometimes improving once antiretroviral therapy begins."
 ---
 
 # HIV/AIDS
@@ -294,6 +303,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy names AIDS's opportunists: the foamy cysts of Pneumocystis, the owl-eye inclusions of CMV, and viral particles in tumors come into focus, letting the diagnostic beam catch the infections that exploit a collapsed immune system.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — AIDS scars the kidney directly: HIV-associated nephropathy, a collapsing form of focal glomerulosclerosis, drives heavy protein loss and rapid renal failure, especially before antiretroviral therapy takes hold.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Advanced AIDS weakens the heart: chronic infection and direct viral injury can dilate it into an HIV cardiomyopathy, and pericardial effusions from opportunistic infections add to the cardiac toll.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — AIDS is diagnosed by antibody yet defined by immune failure: the anti-HIV antibody test identifies infection, but as CD4 cells vanish the body's whole antibody response falters, leaving even vaccines and routine defenses ineffective.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — AIDS reaches deep into the brain: the virus and its opportunistic invaders — toxoplasma, JC virus's PML, CMV — injure neurons into HIV-associated dementia, the cognitive decline that marks advanced disease.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — HIV thins the platelets: an immune thrombocytopenia is common and can be an early sign, as antibodies and direct marrow infection drop the platelet count, sometimes improving once antiretroviral therapy begins.
 
 ## See Also
 

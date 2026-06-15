@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Selenium drains away as HIV advances: deficiency of this antioxidant trace element is common and independently linked to faster progression and higher mortality, making it a marker of the disease's toll on nutrition and immunity."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both diagnose and may one day defeat HIV: the standard test detects anti-HIV antibody (with p24 antigen), yet the virus mutates past most antibodies — driving the search for the broadly neutralizing antibodies that a vaccine would need to elicit."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "The treatment reshapes the body's fat: older antiretrovirals, the protease inhibitors and stavudine especially, cause lipodystrophy — fat lost from limbs and face while it piles on the trunk — alongside insulin resistance and high lipids."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "HIV and the liver are entangled: hepatitis B and C coinfection is common through shared transmission, and the lifelong antiretrovirals add their own risk of drug-induced liver injury that must be monitored."
 ---
 
 # HIV
@@ -326,6 +335,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy first revealed HIV's shape: spherical virions studded with envelope spikes bud from the infected cell, each carrying the cone-shaped capsid core that protects the viral RNA — the structure antiviral drugs target.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — HIV is written across the skin: from the violet plaques of Kaposi sarcoma to severe seborrheic dermatitis, shingles, and stubborn fungal rashes, cutaneous signs often herald the immune collapse beneath.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenium drains away as HIV advances: deficiency of this antioxidant trace element is common and independently linked to faster progression and higher mortality, making it a marker of the disease's toll on nutrition and immunity.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both diagnose and may one day defeat HIV: the standard test detects anti-HIV antibody (with p24 antigen), yet the virus mutates past most antibodies — driving the search for the broadly neutralizing antibodies that a vaccine would need to elicit.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — The treatment reshapes the body's fat: older antiretrovirals, the protease inhibitors and stavudine especially, cause lipodystrophy — fat lost from limbs and face while it piles on the trunk — alongside insulin resistance and high lipids.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — HIV and the liver are entangled: hepatitis B and C coinfection is common through shared transmission, and the lifelong antiretrovirals add their own risk of drug-induced liver injury that must be monitored.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
