@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Steroids are core to the cure and suppress the adrenal: the prolonged high-dose glucocorticoids central to ALL regimens shut down the adrenal axis, so withdrawal must be gradual and stress dosing considered during illness."
+  - target: 01-human/07-system/gvhd
+    relation: connects-to
+    note: "Transplant trades one risk for another: high-risk ALL is cured by allogeneic stem-cell transplant, whose graft-versus-leukemia effect helps clear the disease but brings graft-versus-host disease as its dangerous price."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "Growth signaling fuels the leukemic cell: the PI3K-AKT-mTOR pathway is often hyperactive in ALL, driving proliferation and survival, so mTOR inhibitors are studied to resensitize resistant disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "The marrow's macrophages shelter the leukemia: tumor-associated macrophages in the niche support blast survival and resistance, and they also mediate the cytokine release that complicates CAR-T and blinatumomab therapy."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -347,6 +356,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — ALL often announces itself in the bones: marrow packed with blasts causes the bone and joint pain that can mimic arthritis in a child, while the high-dose steroids of treatment later bring avascular necrosis and myopathy.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The long chemotherapy is hard on the liver: methotrexate, 6-mercaptopurine, and asparaginase all injure hepatocytes, so transaminases and bilirubin are tracked across the months-to-years of ALL maintenance therapy.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Steroids are core to the cure and suppress the adrenal: the prolonged high-dose glucocorticoids central to ALL regimens shut down the adrenal axis, so withdrawal must be gradual and stress dosing considered during illness.
+- `connects-to` → **[Graft-Versus-Host Disease](../gvhd/README.md)** — Transplant trades one risk for another: high-risk ALL is cured by allogeneic stem-cell transplant, whose graft-versus-leukemia effect helps clear the disease but brings graft-versus-host disease as its dangerous price.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Growth signaling fuels the leukemic cell: the PI3K-AKT-mTOR pathway is often hyperactive in ALL, driving proliferation and survival, so mTOR inhibitors are studied to resensitize resistant disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — The marrow's macrophages shelter the leukemia: tumor-associated macrophages in the niche support blast survival and resistance, and they also mediate the cytokine release that complicates CAR-T and blinatumomab therapy.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

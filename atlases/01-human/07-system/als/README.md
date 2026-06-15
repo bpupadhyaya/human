@@ -169,6 +169,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Even the heart's autonomic control frays: ALS disturbs the autonomic neurons that regulate the cardiomyocytes, reducing heart-rate variability and adding a dysautonomia to a disease usually thought of as purely motor."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "A growth factor for blood doubles as a nerve protector: VEGF keeps motor neurons alive, and animals engineered with low VEGF develop an ALS-like disease, implicating its deficiency in human motor-neuron degeneration."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The blood's inflammation tracks the decline: a rising neutrophil-to-lymphocyte ratio marks the systemic inflammation of ALS and predicts faster progression, a peripheral readout of a central disease."
+  - target: 01-human/07-system/huntingtons-disease
+    relation: connects-to
+    note: "ALS sits in a family of protein-aggregation neurodegenerations: like Huntington's it stems from a toxic misfolded protein and a repeat-expansion gene (C9orf72), the two sharing mechanisms of aggregation and neuronal death."
 ---
 
 # ALS
@@ -359,6 +368,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system is a symptom target: cannabinoids ease the spasticity, cramps, and excess saliva of ALS and are studied for neuroprotection, since the system also modulates the excitotoxicity that kills motor neurons.
 - `connects-to` → **[Major Depressive Disorder](../major-depressive-disorder/README.md)** — The mind carries a heavy load and a strange symptom: depression is common facing a terminal diagnosis, and pseudobulbar affect — uncontrollable laughing or crying out of proportion to feeling — arises from the degenerating motor pathways.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Even the heart's autonomic control frays: ALS disturbs the autonomic neurons that regulate the cardiomyocytes, reducing heart-rate variability and adding a dysautonomia to a disease usually thought of as purely motor.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — A growth factor for blood doubles as a nerve protector: VEGF keeps motor neurons alive, and animals engineered with low VEGF develop an ALS-like disease, implicating its deficiency in human motor-neuron degeneration.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood's inflammation tracks the decline: a rising neutrophil-to-lymphocyte ratio marks the systemic inflammation of ALS and predicts faster progression, a peripheral readout of a central disease.
+- `connects-to` → **[Huntington Disease](../huntingtons-disease/README.md)** — ALS sits in a family of protein-aggregation neurodegenerations: like Huntington's it stems from a toxic misfolded protein and a repeat-expansion gene (C9orf72), the two sharing mechanisms of aggregation and neuronal death.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
