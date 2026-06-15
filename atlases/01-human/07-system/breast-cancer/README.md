@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Treatment reshapes reproductive life: chemotherapy can force premature menopause and infertility, while tamoxifen — protective in the breast — stimulates the uterine lining and raises endometrial cancer risk."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies define and treat the disease: ER, PR, and HER2 immunostains classify every tumor and pick the therapy, and the targeted drugs are antibodies themselves — trastuzumab and pertuzumab against HER2, plus the newer antibody-drug conjugates."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Chemotherapy hammers the marrow: the anthracycline and taxane regimens are myelosuppressive, dropping neutrophil counts so that growth-factor support and febrile-neutropenia vigilance run through treatment."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Lobular breast cancer has a strange destination: the diffuse, single-file invasive lobular type characteristically metastasizes to the stomach and GI tract, sometimes mimicking a primary gastric cancer years after the breast tumor."
 ---
 
 # Breast Cancer
@@ -305,6 +314,9 @@ cross_links:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The chemotherapy bites the nerves: taxanes like paclitaxel, central to breast cancer treatment, injure peripheral sensory neurons into a stocking-glove neuropathy that can force dose cuts and outlast the therapy.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Two breast cancer drugs strain the heart: the HER2 antibody trastuzumab and the anthracyclines can each weaken the myocardium, so cardiac function is monitored before and during treatment to catch a falling ejection fraction.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment reshapes reproductive life: chemotherapy can force premature menopause and infertility, while tamoxifen — protective in the breast — stimulates the uterine lining and raises endometrial cancer risk.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies define and treat the disease: ER, PR, and HER2 immunostains classify every tumor and pick the therapy, and the targeted drugs are antibodies themselves — trastuzumab and pertuzumab against HER2, plus the newer antibody-drug conjugates.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Chemotherapy hammers the marrow: the anthracycline and taxane regimens are myelosuppressive, dropping neutrophil counts so that growth-factor support and febrile-neutropenia vigilance run through treatment.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Lobular breast cancer has a strange destination: the diffuse, single-file invasive lobular type characteristically metastasizes to the stomach and GI tract, sometimes mimicking a primary gastric cancer years after the breast tumor.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

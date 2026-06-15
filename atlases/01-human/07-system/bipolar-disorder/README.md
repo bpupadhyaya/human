@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Bipolar drugs reach the reproductive tract: valproate causes polycystic ovary syndrome and, like lithium, is teratogenic — valproate with neural tube defects, lithium with the heart's Ebstein anomaly — complicating treatment in pregnancy."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Mood episodes carry an inflammatory signature: IL-6 and other cytokines rise during mania and depression, supporting a neuroinflammation model in which immune activation feeds the brain changes of bipolar disorder."
+  - target: 01-human/07-system/cardiovascular-system
+    relation: connects-to
+    note: "The heart is the leading killer in bipolar disorder: chronic stress, inactivity, and the weight and metabolic effects of mood stabilizers and antipsychotics drive cardiovascular disease that shortens lifespan by over a decade."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Lithium and the gut-brain axis meet in the bowel: lithium commonly causes diarrhea that limits its dose, and the microbiome-gut-brain signaling implicated in mood adds another layer linking the gut to bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -333,6 +342,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A mood stabilizer can blister the skin: lamotrigine carries a risk of Stevens-Johnson syndrome and toxic epidermal necrolysis, which is why it must be titrated up slowly and stopped at the first rash.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Treatment can inflame and unbalance the pancreas: valproate is a recognized cause of acute pancreatitis, while the antipsychotics often added drive weight gain and insulin resistance toward diabetes.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Bipolar drugs reach the reproductive tract: valproate causes polycystic ovary syndrome and, like lithium, is teratogenic — valproate with neural tube defects, lithium with the heart's Ebstein anomaly — complicating treatment in pregnancy.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Mood episodes carry an inflammatory signature: IL-6 and other cytokines rise during mania and depression, supporting a neuroinflammation model in which immune activation feeds the brain changes of bipolar disorder.
+- `connects-to` → **[Cardiovascular system](../cardiovascular-system/README.md)** — The heart is the leading killer in bipolar disorder: chronic stress, inactivity, and the weight and metabolic effects of mood stabilizers and antipsychotics drive cardiovascular disease that shortens lifespan by over a decade.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Lithium and the gut-brain axis meet in the bowel: lithium commonly causes diarrhea that limits its dose, and the microbiome-gut-brain signaling implicated in mood adds another layer linking the gut to bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
