@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "Treatment can turn the immunity on the thyroid: the MS drug alemtuzumab notoriously triggers autoimmune thyroid disease, often Graves', months to years later — one of several autoimmunities that follow immune reconstitution."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Natural killer cells help police MS: their regulatory subsets restrain autoreactive T cells, and expanding them is how the antibody daclizumab worked — a reminder that innate lymphocytes, not just T and B cells, shape the disease."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Complement scars the progressive brain: C3 and the membrane-attack complex deposit in MS lesions, especially in the slow-burning cortical and progressive disease, marking a tissue-damage arm beyond the T-cell attack."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "MS spares the peripheral nerves, which sharpens the diagnosis: it demyelinates only the central oligodendrocyte myelin, so peripheral conduction stays normal — the line that separates it from CIDP and Guillain-Barré, though rare combined forms exist."
 ---
 
 # Multiple Sclerosis
@@ -321,6 +330,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — MS plays out in the muscles it can no longer command: demyelinated motor pathways cause spasticity, weakness, and a faltering gait, and the disuse and immobility that follow waste muscle and stiffen joints.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The disease-modifying drugs reshape the blood counts: agents like cladribine and fingolimod cause lymphopenia and can drop neutrophils, so counts are monitored and infection risk weighed against relapse control.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Treatment can turn the immunity on the thyroid: the MS drug alemtuzumab notoriously triggers autoimmune thyroid disease, often Graves', months to years later — one of several autoimmunities that follow immune reconstitution.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help police MS: their regulatory subsets restrain autoreactive T cells, and expanding them is how the antibody daclizumab worked — a reminder that innate lymphocytes, not just T and B cells, shape the disease.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Complement scars the progressive brain: C3 and the membrane-attack complex deposit in MS lesions, especially in the slow-burning cortical and progressive disease, marking a tissue-damage arm beyond the T-cell attack.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — MS spares the peripheral nerves, which sharpens the diagnosis: it demyelinates only the central oligodendrocyte myelin, so peripheral conduction stays normal — the line that separates it from CIDP and Guillain-Barré, though rare combined forms exist.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
