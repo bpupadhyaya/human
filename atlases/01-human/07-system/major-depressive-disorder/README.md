@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Depression talks with the gut: through the gut-brain axis, the large intestine's microbes and the serotonin made there influence mood, a two-way link tying digestive health to depression."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Low iron can mimic and worsen depression: iron deficiency causes the fatigue, poor concentration and low mood that overlap with MDD, so iron is checked in the workup of new depression."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Depression alters white matter: oligodendrocyte and myelin abnormalities appear in the mood-circuit tracts, part of the connectivity changes seen on imaging in chronic MDD."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Depression and heart disease feed each other: MDD raises the risk of heart attacks and worsens survival after one, through stress hormones, inflammation and the behaviors it shapes."
 ---
 
 # Major Depressive Disorder
@@ -328,6 +337,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light is medicine for some depression: bright-light therapy delivers photons that reset the body clock and lift seasonal affective disorder, which short, dim winter days can trigger.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Depression is linked to low zinc: the mineral supports BDNF and tempers NMDA signaling, so deficiency is associated with depressive symptoms and zinc is studied as an add-on to antidepressants.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Depression talks with the gut: through the gut-brain axis, the large intestine's microbes and the serotonin made there influence mood, a two-way link tying digestive health to depression.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Low iron can mimic and worsen depression: iron deficiency causes the fatigue, poor concentration and low mood that overlap with MDD, so iron is checked in the workup of new depression.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Depression alters white matter: oligodendrocyte and myelin abnormalities appear in the mood-circuit tracts, part of the connectivity changes seen on imaging in chronic MDD.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Depression and heart disease feed each other: MDD raises the risk of heart attacks and worsens survival after one, through stress hormones, inflammation and the behaviors it shapes.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

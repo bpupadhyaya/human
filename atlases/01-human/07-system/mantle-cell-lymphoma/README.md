@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/regulatory-t-cell
     relation: connects-to
     note: "Mantle cell lymphoma leans on regulatory T cells: Tregs in the node and marrow microenvironment dampen the antitumor response, helping the malignant B cells persist and resist immune clearance."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "MCL is staged by imaging and scope: PET/CT photons map the widespread nodal and splenic disease, and endoscopy finds the 'lymphomatous polyposis' studding the bowel."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Aggressive MCL can lyse fast on treatment: dying cells spill phosphate and potassium in tumor lysis, a risk with bulky or blastoid disease starting chemotherapy."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "MCL studs the whole gut: 'multiple lymphomatous polyposis' carpets the stomach and intestines with polyps, a classic presentation found on endoscopy."
 ---
 
 # Mantle Cell Lymphoma
@@ -281,6 +290,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Mantle cell lymphoma bleeds iron from the gut: its lymphomatous polyposis studs the bowel with tumor nodules that ooze blood, so iron-deficiency anemia is a common sign of GI involvement.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Mantle cell lymphoma infiltrates the liver: as the widespread disease advances, it seeds the liver and spleen, enlarging them as part of the bulky, disseminated stage at diagnosis.
 - `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Mantle cell lymphoma leans on regulatory T cells: Tregs in the node and marrow microenvironment dampen the antitumor response, helping the malignant B cells persist and resist immune clearance.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MCL is staged by imaging and scope: PET/CT photons map the widespread nodal and splenic disease, and endoscopy finds the 'lymphomatous polyposis' studding the bowel.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Aggressive MCL can lyse fast on treatment: dying cells spill phosphate and potassium in tumor lysis, a risk with bulky or blastoid disease starting chemotherapy.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — MCL studs the whole gut: 'multiple lymphomatous polyposis' carpets the stomach and intestines with polyps, a classic presentation found on endoscopy.
 
 ---
 
