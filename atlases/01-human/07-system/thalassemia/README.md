@@ -135,6 +135,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Iron overload scars the organs: deposited iron drives fibrosis in the liver toward cirrhosis and stiffens the heart, the cumulative damage that iron chelation aims to prevent."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows thalassemia's broken red cells: thin, pale target cells and precipitated unpaired globin chains clumped into inclusion bodies, the wreckage of ineffective erythropoiesis that destroys cells before they leave the marrow."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Both the disease and its cure stress the kidney: chronic iron overload and the very chelators used to remove it can injure the renal tubules, so kidney function is watched closely during lifelong treatment."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The chelation drugs can dim the eye: deferoxamine and related iron chelators are toxic to the retina and optic nerve, so regular eye exams guard the vision of patients on long-term treatment."
 ---
 
 # Thalassemia
@@ -318,6 +327,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MRI now measures the iron itself: cardiac and liver T2* imaging in radiofrequency photons quantifies the overload that drives thalassemia's organ damage, guiding how hard to chelate.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Thalassemia is prothrombotic: damaged red-cell membranes injure the endothelium and promote clotting, so venous thromboembolism is a real risk, especially after the spleen is removed.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Iron overload scars the organs: deposited iron drives fibrosis in the liver toward cirrhosis and stiffens the heart, the cumulative damage that iron chelation aims to prevent.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows thalassemia's broken red cells: thin, pale target cells and precipitated unpaired globin chains clumped into inclusion bodies, the wreckage of ineffective erythropoiesis that destroys cells before they leave the marrow.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Both the disease and its cure stress the kidney: chronic iron overload and the very chelators used to remove it can injure the renal tubules, so kidney function is watched closely during lifelong treatment.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The chelation drugs can dim the eye: deferoxamine and related iron chelators are toxic to the retina and optic nerve, so regular eye exams guard the vision of patients on long-term treatment.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

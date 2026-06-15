@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Some clots are born in the marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells and are a major cause of unprovoked and unusual-site venous thrombosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals the venous clot's layered build: alternating bands of pale platelet-fibrin and red-cell-rich layers — the lines of Zahn — mark a thrombus that formed in flowing blood before death, distinguishing it from a postmortem clot."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "A deep vein clot announces itself through the skin: the leg swells, warms, and reddens, and in the dreaded phlegmasia cerulea dolens it turns tense and blue as the blocked outflow threatens the limb."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Clots can strike unusual veins: splanchnic thrombosis of the splenic, portal, or mesenteric veins is a recognized form of VTE, often the first clue to a hidden clotting disorder or abdominal cancer."
 ---
 
 # Venous Thromboembolism
@@ -294,6 +303,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — VTE is confirmed by imaging: CT pulmonary angiography in X-ray photons finds the lung clot, and nuclear V/Q scans map blocked blood flow when contrast can't be used.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Clots can strike the gut's veins: mesenteric and portal vein thrombosis chokes the bowel's drainage, causing severe abdominal pain and, if unrelieved, bowel infarction.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Some clots are born in the marrow: JAK2-driven myeloproliferative neoplasms overproduce blood cells and are a major cause of unprovoked and unusual-site venous thrombosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the venous clot's layered build: alternating bands of pale platelet-fibrin and red-cell-rich layers — the lines of Zahn — mark a thrombus that formed in flowing blood before death, distinguishing it from a postmortem clot.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A deep vein clot announces itself through the skin: the leg swells, warms, and reddens, and in the dreaded phlegmasia cerulea dolens it turns tense and blue as the blocked outflow threatens the limb.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Clots can strike unusual veins: splanchnic thrombosis of the splenic, portal, or mesenteric veins is a recognized form of VTE, often the first clue to a hidden clotting disorder or abdominal cancer.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
