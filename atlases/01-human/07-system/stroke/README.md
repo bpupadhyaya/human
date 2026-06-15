@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/stomach
     relation: connects-to
     note: "A stroke can bleed the stomach: the surge of stress drives acid-related Cushing ulcers, while damage to the swallowing centers brings the dysphagia that risks aspiration and demands careful feeding."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Reproductive hormones shape stroke risk: estrogen-containing contraception and pregnancy raise the clotting risk — sharply so with migraine aura — while eclampsia and postpartum cerebral angiopathy are direct obstetric causes of stroke."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies can clot the brain young: antiphospholipid antibodies are a major cause of stroke in the under-50s, driving the hypercoagulability that lodges clots in cerebral vessels even without atherosclerosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "A stroke can sever the brain's control of the bowel: damage to the pathways governing continence brings fecal incontinence or, with immobility and reduced intake, stubborn constipation during recovery."
 ---
 
 # Stroke
@@ -291,6 +300,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy captures the dying neuron: starved of oxygen, it swells with cytotoxic edema as failing pumps let water and calcium flood in, and its mitochondria balloon — the ultrastructure of the excitotoxic cascade that kills brain tissue.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — The brain heals a stroke with a glial scar: astrocytes wall off the dead infarct in a dense gliosis, the central-nervous-system version of fibrosis that contains the damage but blocks the regrowth of axons through it.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — A stroke can bleed the stomach: the surge of stress drives acid-related Cushing ulcers, while damage to the swallowing centers brings the dysphagia that risks aspiration and demands careful feeding.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Reproductive hormones shape stroke risk: estrogen-containing contraception and pregnancy raise the clotting risk — sharply so with migraine aura — while eclampsia and postpartum cerebral angiopathy are direct obstetric causes of stroke.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies can clot the brain young: antiphospholipid antibodies are a major cause of stroke in the under-50s, driving the hypercoagulability that lodges clots in cerebral vessels even without atherosclerosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A stroke can sever the brain's control of the bowel: damage to the pathways governing continence brings fecal incontinence or, with immobility and reduced intake, stubborn constipation during recovery.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

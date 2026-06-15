@@ -144,6 +144,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "The chelation drugs can dim the eye: deferoxamine and related iron chelators are toxic to the retina and optic nerve, so regular eye exams guard the vision of patients on long-term treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Lifelong transfusions stir up antibodies: chronically transfused thalassemia patients form alloantibodies against donor red-cell antigens, making each future cross-match harder and the anemia more dangerous to treat."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Blood-making spills outside the marrow and presses on nerves: extramedullary hematopoiesis forms paraspinal masses that can compress the spinal cord, a rare but reversible cause of weakness if caught early."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Removing the spleen tips the blood toward clotting: splenectomized thalassemia patients develop a reactive thrombocytosis and a hypercoagulable state, raising the risk of thrombosis and pulmonary hypertension."
 ---
 
 # Thalassemia
@@ -330,6 +339,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows thalassemia's broken red cells: thin, pale target cells and precipitated unpaired globin chains clumped into inclusion bodies, the wreckage of ineffective erythropoiesis that destroys cells before they leave the marrow.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Both the disease and its cure stress the kidney: chronic iron overload and the very chelators used to remove it can injure the renal tubules, so kidney function is watched closely during lifelong treatment.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The chelation drugs can dim the eye: deferoxamine and related iron chelators are toxic to the retina and optic nerve, so regular eye exams guard the vision of patients on long-term treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Lifelong transfusions stir up antibodies: chronically transfused thalassemia patients form alloantibodies against donor red-cell antigens, making each future cross-match harder and the anemia more dangerous to treat.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Blood-making spills outside the marrow and presses on nerves: extramedullary hematopoiesis forms paraspinal masses that can compress the spinal cord, a rare but reversible cause of weakness if caught early.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Removing the spleen tips the blood toward clotting: splenectomized thalassemia patients develop a reactive thrombocytosis and a hypercoagulable state, raising the risk of thrombosis and pulmonary hypertension.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
