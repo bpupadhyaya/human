@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lungs can be drawn in too: visceral leishmaniasis may cause an interstitial pneumonitis, and in HIV co-infection the parasite spreads to unusual sites including the airways, broadening its reach beyond spleen and marrow."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The cure can stress the heart: the pentavalent antimonials long used against leishmaniasis prolong the QT interval and risk arrhythmia, so ECGs are watched during treatment of this otherwise-fatal infection."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Antileishmanial drugs can inflame the pancreas: antimonials and pentamidine both cause chemical pancreatitis, and pentamidine can damage the islet cells enough to trigger hypoglycemia then diabetes."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Visceral leishmaniasis floods the blood with antibody: relentless B-cell stimulation produces a striking polyclonal hypergammaglobulinemia, and the anti-rK39 antibody test has become a rapid bedside diagnosis for kala-azar."
 ---
 
 # Leishmaniasis
@@ -277,3 +286,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals the parasite hiding inside our cells: Leishmania amastigotes pack the cytoplasm of macrophages as Donovan bodies, each with a nucleus and a bar-shaped kinetoplast — the rod of mitochondrial DNA that fingerprints the genus.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Visceral leishmaniasis quietly drops the sodium: an SIADH-like state of inappropriate water retention causes hyponatremia, a common laboratory clue in the chronic wasting illness of kala-azar.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs can be drawn in too: visceral leishmaniasis may cause an interstitial pneumonitis, and in HIV co-infection the parasite spreads to unusual sites including the airways, broadening its reach beyond spleen and marrow.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The cure can stress the heart: the pentavalent antimonials long used against leishmaniasis prolong the QT interval and risk arrhythmia, so ECGs are watched during treatment of this otherwise-fatal infection.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Antileishmanial drugs can inflame the pancreas: antimonials and pentamidine both cause chemical pancreatitis, and pentamidine can damage the islet cells enough to trigger hypoglycemia then diabetes.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Visceral leishmaniasis floods the blood with antibody: relentless B-cell stimulation produces a striking polyclonal hypergammaglobulinemia, and the anti-rK39 antibody test has become a rapid bedside diagnosis for kala-azar.

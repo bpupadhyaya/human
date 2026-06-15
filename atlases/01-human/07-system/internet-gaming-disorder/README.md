@@ -123,6 +123,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Sitting motionless for days can be deadly: case reports describe young gamers developing deep vein clots during marathon sessions that broke off into fatal pulmonary embolism, the 'e-thrombosis' of extreme immobility."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Repetitive play wears the hands and spine: hours of controller and keyboard use cause overuse injuries — 'gamer's thumb' tendinopathy, carpal tunnel, and the neck and back strain of a hunched, immobile posture."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Gaming reshapes how and what one eats: meals are skipped or replaced by snacks and caffeinated energy drinks, so dyspepsia, gastritis, and irregular eating travel with the disorder and feed its links to obesity."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "A gaming-centered diet can thin the blood: chronically skipped meals and poor nutrition leave too little iron and vitamins for the marrow, tipping heavy players toward a nutritional anemia of low red cells and fatigue."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -332,6 +341,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Marathon gaming strains the nerves of the hand: hours of repetitive controller and keyboard use compress the median and ulnar nerves, causing the carpal tunnel and 'gamer's thumb' repetitive-strain injuries that plague heavy players.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Sedentary play fattens the body: the long immobile hours, snacking, and disrupted sleep of compulsive gaming tip energy balance toward fat storage, driving the weight gain and obesity often seen alongside the disorder.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Sitting motionless for days can be deadly: case reports describe young gamers developing deep vein clots during marathon sessions that broke off into fatal pulmonary embolism, the 'e-thrombosis' of extreme immobility.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Repetitive play wears the hands and spine: hours of controller and keyboard use cause overuse injuries — 'gamer's thumb' tendinopathy, carpal tunnel, and the neck and back strain of a hunched, immobile posture.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Gaming reshapes how and what one eats: meals are skipped or replaced by snacks and caffeinated energy drinks, so dyspepsia, gastritis, and irregular eating travel with the disorder and feed its links to obesity.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — A gaming-centered diet can thin the blood: chronically skipped meals and poor nutrition leave too little iron and vitamins for the marrow, tipping heavy players toward a nutritional anemia of low red cells and fatigue.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
