@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney feels ET's high cell turnover: a surplus of uric acid from rapid platelet production crystallizes in the tubules toward gout and urate nephropathy, while microthrombi can impair renal blood flow."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "ET pesters the nervous system in miniature: platelet plugs in small vessels cause headache, visual blurring, transient ischemic attacks, and the burning red hands and feet of erythromelalgia — symptoms that often ease with aspirin."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "High platelets complicate pregnancy: ET raises the risk of miscarriage and placental thrombosis, so affected women are managed with aspirin and sometimes heparin to protect the pregnancy."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "At extreme counts ET paradoxically bleeds: very high platelets soak up von Willebrand factor into an acquired deficiency, so gastrointestinal bleeding can occur even as the disease otherwise drives clotting."
 ---
 
 # Essential Thrombocythemia
@@ -301,6 +310,9 @@ Management:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows ET's overgrown platelet factory: the marrow swells with large, mature megakaryocytes with deeply lobulated nuclei, churning out the giant, abnormal platelets that flood the blood.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — ET can briefly blind: clumps of excess platelets sludge through the retinal microvessels, causing fleeting visual disturbances and amaurosis that warn of the disease's thrombotic risk.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney feels ET's high cell turnover: a surplus of uric acid from rapid platelet production crystallizes in the tubules toward gout and urate nephropathy, while microthrombi can impair renal blood flow.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — ET pesters the nervous system in miniature: platelet plugs in small vessels cause headache, visual blurring, transient ischemic attacks, and the burning red hands and feet of erythromelalgia — symptoms that often ease with aspirin.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — High platelets complicate pregnancy: ET raises the risk of miscarriage and placental thrombosis, so affected women are managed with aspirin and sometimes heparin to protect the pregnancy.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — At extreme counts ET paradoxically bleeds: very high platelets soak up von Willebrand factor into an acquired deficiency, so gastrointestinal bleeding can occur even as the disease otherwise drives clotting.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

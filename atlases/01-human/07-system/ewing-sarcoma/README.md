@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Pelvic Ewing sarcoma crowds the bowel: tumors of the pelvis and sacrum grow against the rectum and colon, and the bulky mass can obstruct or displace the large intestine."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody pins down the diagnosis: Ewing sarcoma's cells stain strongly for CD99 (MIC2), and that membrane immunostain — confirmed by the EWSR1 fusion — distinguishes it from the other small round blue cell tumors."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Its chemotherapy wastes magnesium: ifosfamide, central to the Ewing regimen, injures the kidney's tubules into a Fanconi-like syndrome that spills magnesium and phosphate, demanding monitoring and replacement."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Curing a young patient threatens fertility: the alkylating chemotherapy and any pelvic radiation can wipe out the gonads, so sperm banking and ovarian preservation are discussed before treating these children and young adults."
 ---
 
 # Ewing Sarcoma
@@ -306,6 +315,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy helps identify Ewing's small round blue cell: sparse organelles but abundant glycogen pools fill the cytoplasm, and rosette formation hints at the neural differentiation of this EWSR1-driven tumor.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — A retroperitoneal Ewing can press on the kidney, and chemotherapy threatens it: bursting the tumor in tumor lysis syndrome floods the blood with urate and phosphate that crystallize in the renal tubules.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Pelvic Ewing sarcoma crowds the bowel: tumors of the pelvis and sacrum grow against the rectum and colon, and the bulky mass can obstruct or displace the large intestine.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody pins down the diagnosis: Ewing sarcoma's cells stain strongly for CD99 (MIC2), and that membrane immunostain — confirmed by the EWSR1 fusion — distinguishes it from the other small round blue cell tumors.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Its chemotherapy wastes magnesium: ifosfamide, central to the Ewing regimen, injures the kidney's tubules into a Fanconi-like syndrome that spills magnesium and phosphate, demanding monitoring and replacement.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Curing a young patient threatens fertility: the alkylating chemotherapy and any pelvic radiation can wipe out the gonads, so sperm banking and ovarian preservation are discussed before treating these children and young adults.
 
 ---
 
