@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Pigmented retinal patches occasionally mark MAP: CHRPE, the dark spots on the retina classic for FAP, can appear here too, a clue an ophthalmologist may spot in this related polyposis syndrome."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "MAP looks normal to the Lynch test: its tumors keep their mismatch-repair proteins, so the MLH1/MSH2/MSH6/PMS2 antibody panel stays intact and the cancers are microsatellite-stable — the flaw lies instead in base-excision repair, found only by gene sequencing."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Bleeding polyps drain the red cells: the slow ooze from MAP's colonic adenomas often surfaces first as unexplained microcytic anemia, the pale, undersized erythrocytes of chronic blood loss that should trigger colonoscopy."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Oxidative damage is the heart of MAP: with MUTYH unable to repair the 8-oxoguanine lesions that reactive oxygen leaves in DNA, an antioxidant-rich, high-fiber diet whose butyrate nourishes colonocytes is part of the prevention advice alongside surveillance."
 ---
 
 # MUTYH-Associated Polyposis
@@ -300,6 +309,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — MAP fails to scrub oxidative DNA damage: the MUTYH enzyme normally repairs 8-oxoguanine, the lesion that reactive oxygen leaves in DNA, so without it those errors lock in as the G-to-T mutations that seed the polyps.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MAP shares some bony features with FAP: osteomas of the jaw and skull and dental anomalies can occur, bony overgrowths of the marrow-bearing facial bones in this milder polyposis cousin.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Pigmented retinal patches occasionally mark MAP: CHRPE, the dark spots on the retina classic for FAP, can appear here too, a clue an ophthalmologist may spot in this related polyposis syndrome.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — MAP looks normal to the Lynch test: its tumors keep their mismatch-repair proteins, so the MLH1/MSH2/MSH6/PMS2 antibody panel stays intact and the cancers are microsatellite-stable — the flaw lies instead in base-excision repair, found only by gene sequencing.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Bleeding polyps drain the red cells: the slow ooze from MAP's colonic adenomas often surfaces first as unexplained microcytic anemia, the pale, undersized erythrocytes of chronic blood loss that should trigger colonoscopy.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Oxidative damage is the heart of MAP: with MUTYH unable to repair the 8-oxoguanine lesions that reactive oxygen leaves in DNA, an antioxidant-rich, high-fiber diet whose butyrate nourishes colonocytes is part of the prevention advice alongside surveillance.
 
 ---
 

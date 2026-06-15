@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Myeloma's kidney damage unsettles potassium: cast nephropathy and renal failure disturb its balance, and rapid tumor breakdown under treatment can spill potassium into the blood, threatening the heart."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Myeloma is a rogue antibody factory: a single plasma-cell clone floods the blood with one monoclonal protein (the M-spike) seen on electrophoresis while the other antibodies fall silent, and the CD38 on its surface is the bullseye for daratumumab therapy."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Infection is the great killer in myeloma: the crowded marrow and the silenced normal antibodies (immunoparesis) leave neutrophils few and ineffective, a vulnerability that proteasome-inhibitor and chemotherapy regimens only deepen."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Albumin helps stage the disease: low serum albumin together with high beta-2-microglobulin defines the higher tiers of the International Staging System, the simple blood pair that grades a new myeloma's prognosis."
 ---
 
 # Multiple Myeloma
@@ -320,6 +329,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Myeloma leaves the lungs defenseless and can invade them: suppressed normal antibodies bring recurrent pneumonias, while plasmacytomas and AL amyloid occasionally deposit in the lung itself.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Myeloma's thick blood and rare CNS spread threaten the brain: heavy paraprotein can sludge the circulation into hyperviscosity with confusion and stroke, and dural or leptomeningeal plasmacytomas occasionally invade the nervous system.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Myeloma's kidney damage unsettles potassium: cast nephropathy and renal failure disturb its balance, and rapid tumor breakdown under treatment can spill potassium into the blood, threatening the heart.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Myeloma is a rogue antibody factory: a single plasma-cell clone floods the blood with one monoclonal protein (the M-spike) seen on electrophoresis while the other antibodies fall silent, and the CD38 on its surface is the bullseye for daratumumab therapy.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Infection is the great killer in myeloma: the crowded marrow and the silenced normal antibodies (immunoparesis) leave neutrophils few and ineffective, a vulnerability that proteasome-inhibitor and chemotherapy regimens only deepen.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Albumin helps stage the disease: low serum albumin together with high beta-2-microglobulin defines the higher tiers of the International Staging System, the simple blood pair that grades a new myeloma's prognosis.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
