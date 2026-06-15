@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/t-helper-cell
     relation: connects-to
     note: "T cells both fight and falter in COVID: severe disease brings a striking lymphopenia as T helper cells are depleted and exhausted, even as the T-cell response is central to clearing the virus and to lasting vaccine immunity."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "COVID reaches the heart muscle: the virus and the inflammation it ignites injure cardiomyocytes, causing a troponin rise, myocarditis and arrhythmias in acute illness and lingering palpitations and chest pain in long COVID."
+  - target: 01-human/03-molecular/nlrp3-inflammasome
+    relation: connects-to
+    note: "The virus trips an inflammatory alarm: SARS-CoV-2 activates the NLRP3 inflammasome in macrophages to release IL-1β, a key spark of the cytokine storm that drives severe COVID and a target of anti-inflammatory therapy."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "COVID can inflame the thyroid: subacute (de Quervain) thyroiditis is a recognized sequela, transiently disturbing thyroid function weeks after the infection through immune-mediated gland injury."
 ---
 
 # COVID-19 Disease
@@ -272,6 +281,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies are the immune memory of COVID: neutralizing antibodies against the spike, raised by infection or vaccine, block ACE2 binding, while serology dates past exposure and the monoclonal antibodies that once treated it were outrun by escape variants.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy raises the stakes: COVID is more severe in pregnant women and increases preterm birth and stillbirth, while the virus also transiently lowers sperm quality through ACE2-bearing testicular cells — reasons vaccination is urged.
 - `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — T cells both fight and falter in COVID: severe disease brings a striking lymphopenia as T helper cells are depleted and exhausted, even as the T-cell response is central to clearing the virus and to lasting vaccine immunity.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — COVID reaches the heart muscle: the virus and the inflammation it ignites injure cardiomyocytes, causing a troponin rise, myocarditis and arrhythmias in acute illness and lingering palpitations and chest pain in long COVID.
+- `connects-to` → **[NLRP3 Inflammasome](../../03-molecular/nlrp3-inflammasome/README.md)** — The virus trips an inflammatory alarm: SARS-CoV-2 activates the NLRP3 inflammasome in macrophages to release IL-1β, a key spark of the cytokine storm that drives severe COVID and a target of anti-inflammatory therapy.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — COVID can inflame the thyroid: subacute (de Quervain) thyroiditis is a recognized sequela, transiently disturbing thyroid function weeks after the infection through immune-mediated gland injury.
 
 ## Pathology
 

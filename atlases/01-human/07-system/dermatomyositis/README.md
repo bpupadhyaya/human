@@ -166,6 +166,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Sun and steroids both demand vitamin D: the photosensitive rash forces sun avoidance, and the long corticosteroid courses that control the disease drive bone loss, so vitamin D and calcium are given to protect the skeleton."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "An interferon signature defines dermatomyositis: type-I interferon signals through JAK-STAT1 to drive the gene program seen in affected muscle and skin (perifascicular MxA), the rationale for the JAK inhibitors now used, especially in anti-MDA5 disease."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Active myositis thickens the blood: the systemic inflammation, immobility from muscle weakness, and any underlying malignancy raise the risk of deep-vein thrombosis and pulmonary embolism in dermatomyositis."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Plasma cells make the diagnostic antibodies: the myositis-specific autoantibodies — anti-Mi-2, anti-MDA5, anti-TIF1-gamma — are secreted by plasma cells and define clinical subsets, including which patients need urgent cancer screening."
 ---
 
 # Dermatomyositis
@@ -340,6 +349,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Diagnosis triggers a pelvic search, and pregnancy a careful watch: anti-TIF1γ dermatomyositis demands gynecologic cancer screening, while a flare during pregnancy threatens both mother and fetus and constrains which immunosuppressants are safe.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The gut muscle weakens too: dermatomyositis can slow the stomach and upper digestive tract, and in the juvenile form a vasculopathy can ulcerate or even perforate the bowel, a feared complication of the disease's small-vessel damage.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Sun and steroids both demand vitamin D: the photosensitive rash forces sun avoidance, and the long corticosteroid courses that control the disease drive bone loss, so vitamin D and calcium are given to protect the skeleton.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — An interferon signature defines dermatomyositis: type-I interferon signals through JAK-STAT1 to drive the gene program seen in affected muscle and skin (perifascicular MxA), the rationale for the JAK inhibitors now used, especially in anti-MDA5 disease.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Active myositis thickens the blood: the systemic inflammation, immobility from muscle weakness, and any underlying malignancy raise the risk of deep-vein thrombosis and pulmonary embolism in dermatomyositis.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Plasma cells make the diagnostic antibodies: the myositis-specific autoantibodies — anti-Mi-2, anti-MDA5, anti-TIF1-gamma — are secreted by plasma cells and define clinical subsets, including which patients need urgent cancer screening.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
