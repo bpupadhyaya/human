@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Stimulant binges deplete magnesium: poor intake and the drug's metabolic stress drain it, and the resulting low magnesium worsens the arrhythmias and vasospasm — so magnesium is given to settle a stimulant-stressed heart."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Stimulants shut down appetite and starve the gut: they suppress hunger into marked weight loss, while cocaine's vasoconstriction can choke the mesenteric and gastric vessels into ischemia and ulceration."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Stimulants drive risky sexuality: by spiking dopamine they fuel hypersexual, impulsive behavior that raises HIV and STI risk, while in pregnancy they constrict the placental vessels and harm the fetus."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Tainted cocaine can wipe out the neutrophils: levamisole, a common adulterant, causes a severe agranulocytosis and a retiform purpura vasculitis, so an unexplained crashing neutrophil count points to contaminated supply."
 ---
 
 # Stimulant Use Disorder
@@ -305,6 +314,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows stimulant-damaged heart muscle: the catecholamine surge from cocaine or methamphetamine forces the fibers into the wavy, hypercontracted bands of contraction-band necrosis, the microscopic mark of a drug-stressed heart.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Stimulants can scorch the liver: cocaine and MDMA cause hepatotoxicity, and the extreme hyperthermia of overdose can cook the liver into fulminant failure, a sometimes fatal complication of intoxication.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Stimulant binges deplete magnesium: poor intake and the drug's metabolic stress drain it, and the resulting low magnesium worsens the arrhythmias and vasospasm — so magnesium is given to settle a stimulant-stressed heart.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Stimulants shut down appetite and starve the gut: they suppress hunger into marked weight loss, while cocaine's vasoconstriction can choke the mesenteric and gastric vessels into ischemia and ulceration.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Stimulants drive risky sexuality: by spiking dopamine they fuel hypersexual, impulsive behavior that raises HIV and STI risk, while in pregnancy they constrict the placental vessels and harm the fetus.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Tainted cocaine can wipe out the neutrophils: levamisole, a common adulterant, causes a severe agranulocytosis and a retiform purpura vasculitis, so an unexplained crashing neutrophil count points to contaminated supply.
 
 ## Treatment
 

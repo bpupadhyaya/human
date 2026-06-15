@@ -145,6 +145,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D shadows the socially anxious: deficiency is associated with greater anxiety, and the vitamin's receptors in mood-regulating brain regions suggest it helps set the threshold for the fear that social situations trigger."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "The dreaded blush and sweat are cholinergic: eccrine sweat glands are driven by acetylcholine, so the visible sweating of social anxiety is a sympathetic-cholinergic response — and the fear of showing it feeds the cycle."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Anticipatory dread steals sleep: social anxiety commonly brings insomnia and a disturbed circadian rhythm with altered melatonin, the lost rest sharpening the next day's self-consciousness."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Treatment and hormones touch intimacy: the SSRIs that treat social anxiety often dull libido and delay orgasm, while the disorder itself can make dating and sexual relationships fraught with avoidance."
 ---
 
 # Social Anxiety Disorder
@@ -317,6 +326,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps temper anxious circuits: it modulates the GABA and glutamate balance that calms the brain, and low zinc is reported in anxiety, making it a studied nutritional adjunct to therapy.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Dread settles in the stomach: anticipating a social ordeal floods the gut with stress signals, producing the nausea and 'butterflies' that are among social anxiety's most dreaded physical symptoms.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the socially anxious: deficiency is associated with greater anxiety, and the vitamin's receptors in mood-regulating brain regions suggest it helps set the threshold for the fear that social situations trigger.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — The dreaded blush and sweat are cholinergic: eccrine sweat glands are driven by acetylcholine, so the visible sweating of social anxiety is a sympathetic-cholinergic response — and the fear of showing it feeds the cycle.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anticipatory dread steals sleep: social anxiety commonly brings insomnia and a disturbed circadian rhythm with altered melatonin, the lost rest sharpening the next day's self-consciousness.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Treatment and hormones touch intimacy: the SSRIs that treat social anxiety often dull libido and delay orgasm, while the disorder itself can make dating and sexual relationships fraught with avoidance.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
