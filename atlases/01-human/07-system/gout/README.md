@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Low magnesium tracks with gout: deficiency is common in the metabolic syndrome that accompanies it and is linked to higher uric acid, so magnesium status is part of the metabolic picture behind the crystals."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Treating the flare punishes the gut: colchicine causes diarrhea and the NSAIDs used for acute gout inflame the stomach into gastritis and ulcers, so the drugs that quell the joint must be balanced against the bowel."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Body fat fuels hyperuricemia: adipose tissue's inflammation and the insulin resistance of obesity cut the kidney's excretion of urate, which is why weight gain raises uric acid and weight loss helps lower it."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Gout rides with insulin resistance: the hyperinsulinemia of metabolic syndrome makes the kidney retain urate, tying the pancreatic insulin axis to the crystals — and gout flags a higher risk of type 2 diabetes."
 ---
 
 # Gout
@@ -284,6 +293,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron and polarized-light microscopy clinch the gout diagnosis: aspirated joint fluid shows needle-shaped monosodium urate crystals, negatively birefringent and packed into the tophi that the inflammasome attacks.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver makes the uric acid that crystallizes in gout: it is the main site where xanthine oxidase breaks purines down to urate, so the liver's metabolism — fueled by fructose and alcohol — sets the blood level.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Low magnesium tracks with gout: deficiency is common in the metabolic syndrome that accompanies it and is linked to higher uric acid, so magnesium status is part of the metabolic picture behind the crystals.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Treating the flare punishes the gut: colchicine causes diarrhea and the NSAIDs used for acute gout inflame the stomach into gastritis and ulcers, so the drugs that quell the joint must be balanced against the bowel.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Body fat fuels hyperuricemia: adipose tissue's inflammation and the insulin resistance of obesity cut the kidney's excretion of urate, which is why weight gain raises uric acid and weight loss helps lower it.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Gout rides with insulin resistance: the hyperinsulinemia of metabolic syndrome makes the kidney retain urate, tying the pancreatic insulin axis to the crystals — and gout flags a higher risk of type 2 diabetes.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

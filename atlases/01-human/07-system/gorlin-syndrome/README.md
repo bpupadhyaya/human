@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "Gorlin's skeletal defects reach the chest: bifid, splayed, or fused ribs deform the thoracic cage around the lungs, one of the bony anomalies that, with jaw cysts and skin signs, point to the diagnosis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Immunotherapy helps the heaviest BCC burden: when Gorlin patients sprout too many basal cell carcinomas for surgery, the anti-PD-1 antibody cemiplimab can be used alongside the hedgehog-pathway inhibitors that target the underlying defect."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Gorlin grows collagen-rich fibrous tumors: the cardiac fibroma and ovarian fibroma characteristic of the syndrome are dense whorls of fibroblasts and collagen, benign masses found on the imaging screening it requires."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "The hedgehog-blocking drugs upset the gut: vismodegib and sonidegib commonly cause nausea, loss of appetite, and taste change, side effects that — with muscle cramps and hair loss — limit how long patients can take them."
 ---
 
 # Gorlin Syndrome
@@ -294,6 +303,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads Gorlin's lesions: the palisaded basaloid cells of its many basal cell carcinomas and the thin, corrugated lining of its odontogenic keratocysts both reflect the runaway Hedgehog signaling that PTCH1 loss unleashes.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Gorlin warps the bones: odontogenic keratocysts hollow out the jaw, and bifid ribs, vertebral anomalies, and a calcified falx betray the syndrome on a skeletal survey of the marrow-bearing bones.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Gorlin's skeletal defects reach the chest: bifid, splayed, or fused ribs deform the thoracic cage around the lungs, one of the bony anomalies that, with jaw cysts and skin signs, point to the diagnosis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy helps the heaviest BCC burden: when Gorlin patients sprout too many basal cell carcinomas for surgery, the anti-PD-1 antibody cemiplimab can be used alongside the hedgehog-pathway inhibitors that target the underlying defect.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Gorlin grows collagen-rich fibrous tumors: the cardiac fibroma and ovarian fibroma characteristic of the syndrome are dense whorls of fibroblasts and collagen, benign masses found on the imaging screening it requires.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The hedgehog-blocking drugs upset the gut: vismodegib and sonidegib commonly cause nausea, loss of appetite, and taste change, side effects that — with muscle cramps and hair loss — limit how long patients can take them.
 
 ---
 
