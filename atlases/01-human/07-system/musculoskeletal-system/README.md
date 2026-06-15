@@ -125,6 +125,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Muscle stores its own oxygen on iron: myoglobin, an iron-containing protein, holds oxygen inside muscle fibers for the bursts of work that movement demands, tinting muscle red."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals how the body moves and stands: muscle's interdigitating actin and myosin filaments sliding past their Z-discs, and bone's collagen fibrils studded with hydroxyapatite crystals around osteocytes in their lacunae."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium fires the command to move: a nerve impulse floods sodium into the muscle membrane, and the spreading depolarization sweeps down the T-tubules to release the calcium that triggers each contraction."
+  - target: 01-human/03-molecular/troponin-complex
+    relation: connects-to
+    note: "Troponin is the switch that lets muscle pull: when calcium binds it, the complex shifts tropomyosin off the actin filament, baring the sites where myosin grabs on — the molecular trigger that turns a calcium signal into force."
 ---
 
 # Musculoskeletal System
@@ -297,6 +306,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Muscle obeys peripheral nerves: motor fibers carry the command to contract while sensory fibers report position, so nerve injury denervates muscle and wastes it, severing the skeleton from its control.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver fuels muscle and bone growth: under growth-hormone control it makes IGF-1, the systemic signal that drives the building of skeletal muscle and the lengthening of bone.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Muscle stores its own oxygen on iron: myoglobin, an iron-containing protein, holds oxygen inside muscle fibers for the bursts of work that movement demands, tinting muscle red.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals how the body moves and stands: muscle's interdigitating actin and myosin filaments sliding past their Z-discs, and bone's collagen fibrils studded with hydroxyapatite crystals around osteocytes in their lacunae.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium fires the command to move: a nerve impulse floods sodium into the muscle membrane, and the spreading depolarization sweeps down the T-tubules to release the calcium that triggers each contraction.
+- `connects-to` → **[Troponin complex](../../03-molecular/troponin-complex/README.md)** — Troponin is the switch that lets muscle pull: when calcium binds it, the complex shifts tropomyosin off the actin filament, baring the sites where myosin grabs on — the molecular trigger that turns a calcium signal into force.
 
 ## Pathology
 
