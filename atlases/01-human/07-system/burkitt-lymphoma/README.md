@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Burkitt carries the highest risk of tumor lysis syndrome: as its fast-dividing cells burst under chemotherapy, potassium, phosphate, and uric acid surge while calcium and magnesium swing — a metabolic storm that can stop the heart and shut the kidneys."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "MYC needs a partner in Burkitt: recurrent TCF3 and ID3 mutations switch on tonic B-cell-receptor signaling through PI3K-AKT, which cooperates with the translocated MYC to drive the tumor — a survival pathway being targeted by PI3K inhibitors."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Sporadic Burkitt favors the abdomen and gonads: bulky ileocecal masses and ovarian or testicular deposits are common presentations, and the intensive multi-agent chemotherapy that cures it can leave survivors infertile."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Marrow takeover drops the red cells: when Burkitt floods the bone marrow it crowds out normal blood production, and the resulting anemia — deepened by chemotherapy — leaves patients pale and fatigued during treatment."
 ---
 
 # Burkitt Lymphoma
@@ -330,6 +339,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody is part of the cure: rituximab against CD20 added to intensive chemotherapy markedly improves outcomes in Burkitt lymphoma, harnessing the immune system against the malignant B cells.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Burkitt readily invades the nervous system: its high rate of CNS spread demands intrathecal chemotherapy as prophylaxis, while the vincristine in its regimens poisons peripheral neurons into a dose-limiting neuropathy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Burkitt carries the highest risk of tumor lysis syndrome: as its fast-dividing cells burst under chemotherapy, potassium, phosphate, and uric acid surge while calcium and magnesium swing — a metabolic storm that can stop the heart and shut the kidneys.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — MYC needs a partner in Burkitt: recurrent TCF3 and ID3 mutations switch on tonic B-cell-receptor signaling through PI3K-AKT, which cooperates with the translocated MYC to drive the tumor — a survival pathway being targeted by PI3K inhibitors.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Sporadic Burkitt favors the abdomen and gonads: bulky ileocecal masses and ovarian or testicular deposits are common presentations, and the intensive multi-agent chemotherapy that cures it can leave survivors infertile.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Marrow takeover drops the red cells: when Burkitt floods the bone marrow it crowds out normal blood production, and the resulting anemia — deepened by chemotherapy — leaves patients pale and fatigued during treatment.
 
 ---
 

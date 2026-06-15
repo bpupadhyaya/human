@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "The myxoma is a friable source of emboli: platelet-fibrin thrombi form on its gelatinous surface and break off to lodge in the brain and limbs, the embolic danger that makes prompt surgical removal essential."
+  - target: 01-human/07-system/stroke
+    relation: connects-to
+    note: "A cardiac myxoma can announce Carney complex as a stroke: in a young person with no vascular risk factors, sudden embolic stroke is a classic presentation that prompts the echocardiogram revealing the atrial tumor and the syndrome behind it."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Carney has its own bone tumor: osteochondromyxoma, a rare myxoid bone lesion of infancy, remodels bone through coupled osteoclast resorption and new formation — a component tumor that helped define the syndrome's reach beyond heart and skin."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Losing PRKAR1A unleashes signaling that feeds growth: the inhibitory PKA subunit normally restrains cAMP-PKA output, and its loss lets PKA crosstalk amplify AKT-mTOR proliferative signals across the endocrine and mesenchymal tissues that form Carney's tumors."
 ---
 
 # Carney Complex
@@ -317,6 +326,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Carney complex spawns a pigmented nerve tumor: the psammomatous melanotic schwannoma is one of its hallmark lesions, growing on spinal and peripheral nerves, while a cardiac myxoma can shower emboli into the brain to cause stroke.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The heart tumor can sicken the whole body: cardiac myxomas pour out IL-6, driving fever, weight loss, and an anemia of chronic disease that drops the red cells — constitutional clues that may surface before the mass is found.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The myxoma is a friable source of emboli: platelet-fibrin thrombi form on its gelatinous surface and break off to lodge in the brain and limbs, the embolic danger that makes prompt surgical removal essential.
+- `connects-to` → **[Stroke](../stroke/README.md)** — A cardiac myxoma can announce Carney complex as a stroke: in a young person with no vascular risk factors, sudden embolic stroke is a classic presentation that prompts the echocardiogram revealing the atrial tumor and the syndrome behind it.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Carney has its own bone tumor: osteochondromyxoma, a rare myxoid bone lesion of infancy, remodels bone through coupled osteoclast resorption and new formation — a component tumor that helped define the syndrome's reach beyond heart and skin.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Losing PRKAR1A unleashes signaling that feeds growth: the inhibitory PKA subunit normally restrains cAMP-PKA output, and its loss lets PKA crosstalk amplify AKT-mTOR proliferative signals across the endocrine and mesenchymal tissues that form Carney's tumors.
 
 ---
 
