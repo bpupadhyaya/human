@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Werner's metabolic derangement burdens the liver: the severe insulin resistance and diabetes that come with its accelerated aging drive fatty liver disease, part of the early metabolic syndrome that defines the disorder."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Werner patients never get their growth spurt: short stature is an early sign, the missing adolescent surge of growth-hormone-driven bone growth leaving adults strikingly small — one of the first clues that aging has gone awry."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "The gonads age early too: Werner syndrome brings hypogonadism with testicular or ovarian atrophy and reduced fertility, dropping sex-hormone output as part of the body-wide premature aging."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Werner's cells age fast in the dish: fibroblasts from patients hit replicative senescence early, and electron microscopy shows the enlarged, granular, senescent morphology that made the syndrome a model for studying human aging."
 ---
 
 # Werner Syndrome
@@ -334,6 +343,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons reveal Werner's premature aging: slit-lamp light catches the early bilateral cataracts, and imaging shows the soft-tissue and vascular calcifications — including the classic Achilles tendon deposits — that mark this adult progeria.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Werner shifts the cancer spectrum toward the gut and beyond: alongside its trademark rare mesenchymal tumors, it raises colorectal cancer risk, so the large intestine joins the broad early-onset malignancy that shadows the syndrome.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Werner's metabolic derangement burdens the liver: the severe insulin resistance and diabetes that come with its accelerated aging drive fatty liver disease, part of the early metabolic syndrome that defines the disorder.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Werner patients never get their growth spurt: short stature is an early sign, the missing adolescent surge of growth-hormone-driven bone growth leaving adults strikingly small — one of the first clues that aging has gone awry.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — The gonads age early too: Werner syndrome brings hypogonadism with testicular or ovarian atrophy and reduced fertility, dropping sex-hormone output as part of the body-wide premature aging.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Werner's cells age fast in the dish: fibroblasts from patients hit replicative senescence early, and electron microscopy shows the enlarged, granular, senescent morphology that made the syndrome a model for studying human aging.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

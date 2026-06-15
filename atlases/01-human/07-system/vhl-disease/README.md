@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "VHL's hemangioblastomas grow in a bed of glia: arising in the cerebellum, spinal cord, and retina, these vascular tumors are surrounded by reactive astrocytes, the brain's scar-forming cells responding to the slow-growing mass."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "VHL spills the body's red-cell signal: with the HIF brake gone, kidney and tumor pour out erythropoietin, raising the hemoglobin and hematocrit into polycythemia — while the HIF-2α drug belzutifan reverses it, often into anemia."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "The hemangioblastoma's signature cell is fat-laden: between its dense capillaries sit vacuolated 'stromal cells' stuffed with lipid, the neoplastic VHL-mutant cells that electron microscopy resolves and that define the tumor."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "VHL studs the pancreas with islet-cell tumors: its pancreatic neuroendocrine tumors are usually silent, but as tumors of the islets they can rarely oversecrete hormones such as glucagon, adding an endocrine twist to the syndrome."
 ---
 
 # VHL Disease
@@ -293,6 +302,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — VHL is managed through a lifetime of photons: MRI tracks the hemangioblastomas studding the brain and spinal cord, ophthalmoscopy spots retinal angiomas, and CT watches the kidneys and pancreas — a relentless imaging surveillance that catches tumors early.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — VHL's kidney cancer heads for the lung when it spreads: the clear cell renal carcinomas these patients grow metastasize hematogenously, with the lungs a favored landing site for the disease that most threatens their survival.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — VHL's hemangioblastomas grow in a bed of glia: arising in the cerebellum, spinal cord, and retina, these vascular tumors are surrounded by reactive astrocytes, the brain's scar-forming cells responding to the slow-growing mass.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — VHL spills the body's red-cell signal: with the HIF brake gone, kidney and tumor pour out erythropoietin, raising the hemoglobin and hematocrit into polycythemia — while the HIF-2α drug belzutifan reverses it, often into anemia.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The hemangioblastoma's signature cell is fat-laden: between its dense capillaries sit vacuolated 'stromal cells' stuffed with lipid, the neoplastic VHL-mutant cells that electron microscopy resolves and that define the tumor.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — VHL studs the pancreas with islet-cell tumors: its pancreatic neuroendocrine tumors are usually silent, but as tumors of the islets they can rarely oversecrete hormones such as glucagon, adding an endocrine twist to the syndrome.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
