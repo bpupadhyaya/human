@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "DICER1's ovarian Sertoli-Leydig tumors are hormonally active: they secrete sex steroids, so virilization or disrupted estrogen balance is often the first clue in a young woman."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals DICER1's signature tumor: pleuropulmonary blastoma forms cysts lined by primitive blastemal cells with scattered rhabdomyoblasts, the embryonal ultrastructure of a cancer of early childhood."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "DICER1's reach includes the liver: hepatoblastoma and other hepatic tumors fall within its broad spectrum, so the liver joins the long list of organs watched in children carrying the mutation."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut can sprout DICER1 growths too: juvenile-type intestinal polyps are part of the syndrome's varied tumor predisposition, adding the bowel to its head-to-pelvis surveillance."
 ---
 
 # DICER1 Syndrome
@@ -286,6 +295,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — DICER1's signature tumor grows in the lung's air spaces: pleuropulmonary blastoma starts as benign-looking cysts in the alveolar regions of young children that can degenerate into aggressive sarcoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Losing DICER1 unleashes growth signals: without mature let-7 microRNAs to restrain them, IGF and other growth factors run high, helping drive the overgrowth and tumors of the syndrome.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — DICER1's ovarian Sertoli-Leydig tumors are hormonally active: they secrete sex steroids, so virilization or disrupted estrogen balance is often the first clue in a young woman.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals DICER1's signature tumor: pleuropulmonary blastoma forms cysts lined by primitive blastemal cells with scattered rhabdomyoblasts, the embryonal ultrastructure of a cancer of early childhood.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — DICER1's reach includes the liver: hepatoblastoma and other hepatic tumors fall within its broad spectrum, so the liver joins the long list of organs watched in children carrying the mutation.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut can sprout DICER1 growths too: juvenile-type intestinal polyps are part of the syndrome's varied tumor predisposition, adding the bowel to its head-to-pelvis surveillance.
 
 ---
 

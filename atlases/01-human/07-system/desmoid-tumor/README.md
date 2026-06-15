@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Abdominal-wall desmoids surface beneath the skin: they present as a deep, firm mass, classically in women after childbirth or along old surgical scars, the commonest sporadic site."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the desmoid's working cell: the myofibroblast, a fibroblast-smooth-muscle hybrid bristling with rough endoplasmic reticulum and actin bundles, churning out the dense collagen that makes these tumors so firm and infiltrative."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Chest-wall desmoids invade toward the lung: arising in the thoracic wall they grow inward against the pleura and mediastinum, and although they never metastasize, their relentless local spread can compress the chest's contents."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Desmoids gnaw the bone they abut: though purely soft-tissue tumors, their infiltrative growth can erode the cortex of adjacent bone, a sign of how aggressively they invade despite never spreading distantly."
 ---
 
 # Desmoid Tumor
@@ -305,6 +314,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Desmoids recruit new vessels: VEGF draws endothelial cells to feed the slowly expanding fibrous mass, and anti-angiogenic agents are among the systemic options tried for unresectable tumors.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Desmoids ensnare nerves: the infiltrative fibrous mass wraps and compresses adjacent peripheral nerves, causing the pain and neurological deficits that often drive treatment of an otherwise benign tumor.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Abdominal-wall desmoids surface beneath the skin: they present as a deep, firm mass, classically in women after childbirth or along old surgical scars, the commonest sporadic site.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the desmoid's working cell: the myofibroblast, a fibroblast-smooth-muscle hybrid bristling with rough endoplasmic reticulum and actin bundles, churning out the dense collagen that makes these tumors so firm and infiltrative.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Chest-wall desmoids invade toward the lung: arising in the thoracic wall they grow inward against the pleura and mediastinum, and although they never metastasize, their relentless local spread can compress the chest's contents.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Desmoids gnaw the bone they abut: though purely soft-tissue tumors, their infiltrative growth can erode the cortex of adjacent bone, a sign of how aggressively they invade despite never spreading distantly.
 
 ---
 
