@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Exocrine failure dries more than eyes and mouth: vaginal dryness and dyspareunia are common in Sjogren's, and the anti-Ro/La antibodies can cross the placenta to cause neonatal lupus and congenital heart block."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "An interferon signature defines Sjogren's: type-I interferon signals through JAK-STAT1 to switch on the gene program seen in the salivary glands and blood, a central driver of the autoimmunity and a target of JAK inhibitors under study."
+  - target: 01-human/07-system/waldenstrom-macroglobulinemia
+    relation: connects-to
+    note: "Sustained B-cell drive courts lymphoma: Sjogren's carries one of the highest lymphoma risks of any autoimmune disease, the chronic B-cell stimulation favoring MALT and other low-grade lymphomas including lymphoplasmacytic Waldenström-type disease."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Dry mouth and eyes come down to ion transport: saliva and tears form when acinar cells pump chloride to draw water across the gland, and the autoimmune attack that wrecks these cells shuts down that secretion."
 ---
 
 # Sjögren's Syndrome
@@ -333,6 +342,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The same immune dysregulation can drop the neutrophils: a mild autoimmune neutropenia is common in Sjogren's, part of the cytopenia picture alongside the anemia and low platelets that reflect the disease's reach into the blood.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Dryness and autoimmunity reach the gut: lost saliva makes swallowing hard and unprotected, while Sjogren's overlaps with autoimmune atrophic gastritis, thinning the stomach lining and impairing acid and intrinsic-factor secretion.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Exocrine failure dries more than eyes and mouth: vaginal dryness and dyspareunia are common in Sjogren's, and the anti-Ro/La antibodies can cross the placenta to cause neonatal lupus and congenital heart block.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — An interferon signature defines Sjogren's: type-I interferon signals through JAK-STAT1 to switch on the gene program seen in the salivary glands and blood, a central driver of the autoimmunity and a target of JAK inhibitors under study.
+- `connects-to` → **[Waldenström Macroglobulinemia](../waldenstrom-macroglobulinemia/README.md)** — Sustained B-cell drive courts lymphoma: Sjogren's carries one of the highest lymphoma risks of any autoimmune disease, the chronic B-cell stimulation favoring MALT and other low-grade lymphomas including lymphoplasmacytic Waldenström-type disease.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Dry mouth and eyes come down to ion transport: saliva and tears form when acinar cells pump chloride to draw water across the gland, and the autoimmune attack that wrecks these cells shuts down that secretion.
 
 ---
 
