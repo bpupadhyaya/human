@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "Social anxiety's visible signs travel autonomic nerves: sympathetic peripheral nerves drive the sweating, trembling and blushing that betray the fear and feed the cycle of self-consciousness."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc helps temper anxious circuits: it modulates the GABA and glutamate balance that calms the brain, and low zinc is reported in anxiety, making it a studied nutritional adjunct to therapy."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Dread settles in the stomach: anticipating a social ordeal floods the gut with stress signals, producing the nausea and 'butterflies' that are among social anxiety's most dreaded physical symptoms."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D shadows the socially anxious: deficiency is associated with greater anxiety, and the vitamin's receptors in mood-regulating brain regions suggest it helps set the threshold for the fear that social situations trigger."
 ---
 
 # Social Anxiety Disorder
@@ -305,6 +314,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons capture social anxiety's brain: the amygdala overreacts to faces and signs of judgment while prefrontal regulation lags, the neural basis of the fear of scrutiny.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Social anxiety hits the breath: in feared situations hyperventilation and a tight chest are common physical symptoms, the body's alarm response misfiring in front of others.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Social anxiety's visible signs travel autonomic nerves: sympathetic peripheral nerves drive the sweating, trembling and blushing that betray the fear and feed the cycle of self-consciousness.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc helps temper anxious circuits: it modulates the GABA and glutamate balance that calms the brain, and low zinc is reported in anxiety, making it a studied nutritional adjunct to therapy.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Dread settles in the stomach: anticipating a social ordeal floods the gut with stress signals, producing the nausea and 'butterflies' that are among social anxiety's most dreaded physical symptoms.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the socially anxious: deficiency is associated with greater anxiety, and the vitamin's receptors in mood-regulating brain regions suggest it helps set the threshold for the fear that social situations trigger.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Repeated sickling scars the organs: chronic microvascular ischemia drives fibrosis in the spleen (autosplenectomy), kidney and liver, the cumulative end-organ damage of the disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows why the cell sickles: when oxygen drops, hemoglobin S polymerizes into long stiff fibers that warp the red cell into a rigid crescent, the molecular event that jams the microvasculature."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Sickle cell disease runs short on zinc: chronic hemolysis and high turnover deplete it, and because zinc supports growth and immunity, supplementation can reduce infections and pain crises in deficient patients."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Sickling can choke the gut: vaso-occlusion in the mesenteric vessels causes the abdominal 'girdle syndrome' of pain and ileus, while chronic hemolysis breeds the pigment gallstones that trouble many patients."
 ---
 
 # Sickle Cell Disease
@@ -334,6 +343,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging guards against sickle cell's silent damage: MRI catches the brain's silent infarcts, and X-rays reveal the bone infarcts and acute chest syndrome that mark vaso-occlusive crises.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Sickle cell ulcerates the skin: chronic leg ulcers around the ankles, from poor blood flow and sickling in small vessels, are a painful, slow-healing hallmark in adults.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Repeated sickling scars the organs: chronic microvascular ischemia drives fibrosis in the spleen (autosplenectomy), kidney and liver, the cumulative end-organ damage of the disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows why the cell sickles: when oxygen drops, hemoglobin S polymerizes into long stiff fibers that warp the red cell into a rigid crescent, the molecular event that jams the microvasculature.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Sickle cell disease runs short on zinc: chronic hemolysis and high turnover deplete it, and because zinc supports growth and immunity, supplementation can reduce infections and pain crises in deficient patients.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Sickling can choke the gut: vaso-occlusion in the mesenteric vessels causes the abdominal 'girdle syndrome' of pain and ileus, while chronic hemolysis breeds the pigment gallstones that trouble many patients.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
