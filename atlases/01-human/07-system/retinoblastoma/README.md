@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Heritable retinoblastoma echoes into the next generation: a survivor of the germline form carries the RB1 mutation in every cell and passes it to about half their children, making genetic counseling and family screening central to care."
+  - target: 01-human/07-system/thyroid-cancer
+    relation: connects-to
+    note: "Radiation comes back to haunt survivors: heritable retinoblastoma carries a high lifetime risk of second cancers, and external-beam radiation to the head adds radiation-induced thyroid cancer to the osteosarcoma and melanoma these patients already face."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Systemic chemotherapy lowers the platelets: the carboplatin-etoposide-vincristine regimens used to shrink the tumor suppress platelet production into thrombocytopenia, so blood counts are watched and dosing adjusted through treatment."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The platinum chemotherapy taxes the kidneys: carboplatin used against retinoblastoma is cleared renally and can injure the tubules, wasting magnesium and other electrolytes that must be monitored in these small children."
 ---
 
 # Retinoblastoma
@@ -308,6 +317,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains read the retinal tumor: because biopsy is avoided to prevent seeding, the diagnosis rests on imaging, but an enucleated eye stains with CRX and synaptophysin antibodies that confirm its photoreceptor-precursor, neuroendocrine origin.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The chemotherapy opens the door to infection: carboplatin, vincristine, and etoposide suppress the marrow, dropping neutrophil counts so that febrile neutropenia is a constant watch during a small child's retinoblastoma treatment.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Heritable retinoblastoma echoes into the next generation: a survivor of the germline form carries the RB1 mutation in every cell and passes it to about half their children, making genetic counseling and family screening central to care.
+- `connects-to` → **[Thyroid Cancer](../thyroid-cancer/README.md)** — Radiation comes back to haunt survivors: heritable retinoblastoma carries a high lifetime risk of second cancers, and external-beam radiation to the head adds radiation-induced thyroid cancer to the osteosarcoma and melanoma these patients already face.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Systemic chemotherapy lowers the platelets: the carboplatin-etoposide-vincristine regimens used to shrink the tumor suppress platelet production into thrombocytopenia, so blood counts are watched and dosing adjusted through treatment.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The platinum chemotherapy taxes the kidneys: carboplatin used against retinoblastoma is cleared renally and can injure the tubules, wasting magnesium and other electrolytes that must be monitored in these small children.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
