@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Advanced endometrial cancer can threaten the kidneys: a bulky uterine tumor or its pelvic spread compresses the ureters, backing urine up into the kidneys (hydronephrosis) and causing post-renal kidney injury."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Endometrial cancer and its treatment leave fibrosis: a reactive desmoplastic stroma surrounds the tumor, and pelvic radiation scars nearby tissues, a late cause of bowel and bladder problems in survivors."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Endometrial cancer drives angiogenesis: VEGF recruits endothelial cells to vascularize the tumor, and the fragile new vessels contribute to the abnormal bleeding that usually reveals it early."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "Endometrial cancer can invade the bowel: locally advanced disease spreads to the rectum and sigmoid colon and seeds the peritoneum, complicating surgery and signaling advanced spread."
 ---
 
 # Endometrial Cancer
@@ -280,6 +289,9 @@ cross_links:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Endometrial cancer announces itself by spending iron: abnormal uterine bleeding—especially after menopause—is the cardinal warning sign, and the chronic blood loss drains the body's iron into a deficiency anemia that often prompts the diagnosis.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells matter most in mismatch-repair-deficient endometrial cancer: these immunogenic tumors draw NK and T-cell attack, part of why such cancers respond well to immunotherapy that unleashes the immune assault.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Advanced endometrial cancer can threaten the kidneys: a bulky uterine tumor or its pelvic spread compresses the ureters, backing urine up into the kidneys (hydronephrosis) and causing post-renal kidney injury.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Endometrial cancer and its treatment leave fibrosis: a reactive desmoplastic stroma surrounds the tumor, and pelvic radiation scars nearby tissues, a late cause of bowel and bladder problems in survivors.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Endometrial cancer drives angiogenesis: VEGF recruits endothelial cells to vascularize the tumor, and the fragile new vessels contribute to the abnormal bleeding that usually reveals it early.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Endometrial cancer can invade the bowel: locally advanced disease spreads to the rectum and sigmoid colon and seeds the peritoneum, complicating surgery and signaling advanced spread.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

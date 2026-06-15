@@ -126,6 +126,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "CKD wrecks the endothelium: uremic toxins and mineral imbalance injure the vessel-lining cells and calcify artery walls, driving the accelerated atherosclerosis that makes heart disease, not kidney failure, the usual cause of death."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging stages CKD's structure: ultrasound and CT photons show shrunken, scarred kidneys or obstruction, while nuclear scans measure the failing filtration that blood tests only estimate."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "CKD itches relentlessly: retained toxins and mineral imbalance cause uremic pruritus, which patients scratch into prurigo nodularis, one of the most distressing symptoms of advanced kidney failure."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "CKD progresses through fibroblasts: injured kidneys activate myofibroblasts that lay down interstitial scar, the common final pathway by which any kidney disease marches toward failure."
 ---
 
 # Chronic Kidney Disease
@@ -238,6 +247,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CKD turns the blood acidic: failing kidneys cannot excrete the body's daily acid load or regenerate bicarbonate, so hydrogen ions build up into a metabolic acidosis that wastes muscle and bone and is treated with bicarbonate.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — CKD poisons the brain: retained uremic toxins cause the confusion, fatigue, and—in advanced failure—the asterixis and seizures of uremic encephalopathy, symptoms that dialysis is meant to clear.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — CKD wrecks the endothelium: uremic toxins and mineral imbalance injure the vessel-lining cells and calcify artery walls, driving the accelerated atherosclerosis that makes heart disease, not kidney failure, the usual cause of death.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging stages CKD's structure: ultrasound and CT photons show shrunken, scarred kidneys or obstruction, while nuclear scans measure the failing filtration that blood tests only estimate.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — CKD itches relentlessly: retained toxins and mineral imbalance cause uremic pruritus, which patients scratch into prurigo nodularis, one of the most distressing symptoms of advanced kidney failure.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — CKD progresses through fibroblasts: injured kidneys activate myofibroblasts that lay down interstitial scar, the common final pathway by which any kidney disease marches toward failure.
 
 ## Pathology
 
