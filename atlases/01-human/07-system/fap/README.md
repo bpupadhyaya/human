@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "FAP quietly enlarges the adrenals: benign adrenal adenomas are more common than in the general population, usually silent incidentalomas found on the imaging done to track the syndrome's other tumors."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Losing APC unleashes the growth genes: stabilized beta-catenin switches on cyclin D1 and MYC, pushing the colonic cells through the cell cycle — the molecular engine that turns the thousands of FAP polyps into ever-larger adenomas."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "FAP children risk a liver tumor: hepatoblastoma, arising from immature hepatocyte precursors, is hundreds of times more common in FAP infants, so screening with alpha-fetoprotein and ultrasound is offered in the early years."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Aspirin's polyp-shrinking effect runs partly through platelets: blocking platelet COX-1 — alongside COX-2 in the polyps — underlies why aspirin and other NSAIDs reduce colorectal adenoma burden, a chemoprevention strategy studied in FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -335,6 +344,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Gardner syndrome marks the skeleton and teeth: FAP's variant grows osteomas on the jaw and skull and brings dental anomalies — supernumerary teeth and odontomas — extracolonic clues that can predate the bowel polyps.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The Turcot variant ties FAP to the brain: alongside its colonic polyps it predisposes to CNS tumors, classically medulloblastoma, so neurological symptoms can be part of the syndrome's reach.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — FAP quietly enlarges the adrenals: benign adrenal adenomas are more common than in the general population, usually silent incidentalomas found on the imaging done to track the syndrome's other tumors.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Losing APC unleashes the growth genes: stabilized beta-catenin switches on cyclin D1 and MYC, pushing the colonic cells through the cell cycle — the molecular engine that turns the thousands of FAP polyps into ever-larger adenomas.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — FAP children risk a liver tumor: hepatoblastoma, arising from immature hepatocyte precursors, is hundreds of times more common in FAP infants, so screening with alpha-fetoprotein and ultrasound is offered in the early years.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Aspirin's polyp-shrinking effect runs partly through platelets: blocking platelet COX-1 — alongside COX-2 in the polyps — underlies why aspirin and other NSAIDs reduce colorectal adenoma burden, a chemoprevention strategy studied in FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

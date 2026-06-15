@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Curing a young patient threatens fertility: the alkylating chemotherapy and any pelvic radiation can wipe out the gonads, so sperm banking and ovarian preservation are discussed before treating these children and young adults."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The doxorubicin that cures it scars the heart: a backbone of Ewing chemotherapy, this anthracycline kills cardiomyocytes through oxidative and topoisomerase damage, so survivors carry a lifelong risk of cardiomyopathy from the cumulative dose."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "The fusion switches telomerase back on: EWS-FLI1 drives TERT expression, letting Ewing cells rebuild their telomeres and divide without limit — one of the ways the single fusion oncoprotein makes the tumor immortal."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "Its alkylating drugs scar the bladder and seed later cancer: cyclophosphamide and ifosfamide release acrolein that causes hemorrhagic cystitis (blunted by mesna) and, over decades, raise the risk of secondary bladder cancer in survivors."
 ---
 
 # Ewing Sarcoma
@@ -318,6 +327,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody pins down the diagnosis: Ewing sarcoma's cells stain strongly for CD99 (MIC2), and that membrane immunostain — confirmed by the EWSR1 fusion — distinguishes it from the other small round blue cell tumors.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Its chemotherapy wastes magnesium: ifosfamide, central to the Ewing regimen, injures the kidney's tubules into a Fanconi-like syndrome that spills magnesium and phosphate, demanding monitoring and replacement.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Curing a young patient threatens fertility: the alkylating chemotherapy and any pelvic radiation can wipe out the gonads, so sperm banking and ovarian preservation are discussed before treating these children and young adults.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The doxorubicin that cures it scars the heart: a backbone of Ewing chemotherapy, this anthracycline kills cardiomyocytes through oxidative and topoisomerase damage, so survivors carry a lifelong risk of cardiomyopathy from the cumulative dose.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — The fusion switches telomerase back on: EWS-FLI1 drives TERT expression, letting Ewing cells rebuild their telomeres and divide without limit — one of the ways the single fusion oncoprotein makes the tumor immortal.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — Its alkylating drugs scar the bladder and seed later cancer: cyclophosphamide and ifosfamide release acrolein that causes hemorrhagic cystitis (blunted by mesna) and, over decades, raise the risk of secondary bladder cancer in survivors.
 
 ---
 
