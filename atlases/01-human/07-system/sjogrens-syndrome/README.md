@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/t-cytotoxic-cell
     relation: connects-to
     note: "Cytotoxic T cells help destroy the Sjogren's glands: alongside the B cells that drive the autoantibodies, CD8 T cells infiltrate and kill the salivary and lacrimal gland cells, contributing to the dryness that defines the disease."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Sjogren's acidifies the blood through the kidney: its attack on the renal tubules causes distal renal tubular acidosis—a failure to excrete hydrogen ions—so acid builds up despite normal lungs."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Sjogren's dries and inflames the skin: beyond dry eyes and mouth, it parches the skin and can cause a cutaneous small-vessel vasculitis with palpable purpura, part of its systemic reach."
+  - target: 01-human/05-tissue/germinal-center
+    relation: connects-to
+    note: "Sjogren's builds germinal centers where they don't belong: its inflamed salivary glands grow ectopic germinal centers, chronic B-cell factories that explain the syndrome's notable risk of MALT lymphoma."
 ---
 
 # Sjögren's Syndrome
@@ -285,6 +294,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Sjogren's can drain potassium through the kidney: immune attack on the renal tubules causes distal renal tubular acidosis, which wastes potassium and can cause hypokalemic muscle paralysis—a striking renal manifestation of the disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Sjogren's reaches the nervous system, including the brain: it can cause CNS lesions, cognitive change and cranial neuropathies beyond the peripheral nerve damage, so neurologic symptoms are part of its systemic reach.
 - `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Cytotoxic T cells help destroy the Sjogren's glands: alongside the B cells that drive the autoantibodies, CD8 T cells infiltrate and kill the salivary and lacrimal gland cells, contributing to the dryness that defines the disease.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Sjogren's acidifies the blood through the kidney: its attack on the renal tubules causes distal renal tubular acidosis—a failure to excrete hydrogen ions—so acid builds up despite normal lungs.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Sjogren's dries and inflames the skin: beyond dry eyes and mouth, it parches the skin and can cause a cutaneous small-vessel vasculitis with palpable purpura, part of its systemic reach.
+- `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Sjogren's builds germinal centers where they don't belong: its inflamed salivary glands grow ectopic germinal centers, chronic B-cell factories that explain the syndrome's notable risk of MALT lymphoma.
 
 ---
 
