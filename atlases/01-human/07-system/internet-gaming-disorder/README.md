@@ -105,6 +105,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Marathon gaming sessions can strain the heart: prolonged immobile sitting raises clot and venous-thrombosis risk, and rare cases of fatal arrhythmia during all-night play show how the sedentary extreme reaches the cardiovascular system."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Gaming addiction reshapes reward synapses: repeated dopamine surges strengthen these connections through long-term potentiation, the synaptic learning that turns play into a hard-to-break compulsion."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Astrocytes help tune the reward circuit: by regulating glutamate at synapses, these glial cells shape the plasticity implicated in addictive behaviors, extending gaming compulsion beyond neurons alone."
+  - target: 01-human/03-molecular/mu-opioid-receptor
+    relation: connects-to
+    note: "Behavioral reward has an opioid side: while dopamine drives the 'wanting' of compulsive gaming, the mu-opioid system underlies the 'liking,' the pleasure that reinforces returning to play."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -308,6 +317,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Late-night gaming floods the eyes with screen photons: blue light suppresses melatonin and shifts the body clock, a direct route by which compulsive play wrecks sleep and feeds the insomnia and daytime fatigue around it.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Gaming's habits are wired by synaptic calcium: each dopamine-driven reward triggers calcium influx that strengthens reward-circuit synapses (long-term potentiation), the cellular learning that hardens play into compulsion.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Marathon gaming sessions can strain the heart: prolonged immobile sitting raises clot and venous-thrombosis risk, and rare cases of fatal arrhythmia during all-night play show how the sedentary extreme reaches the cardiovascular system.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Gaming addiction reshapes reward synapses: repeated dopamine surges strengthen these connections through long-term potentiation, the synaptic learning that turns play into a hard-to-break compulsion.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help tune the reward circuit: by regulating glutamate at synapses, these glial cells shape the plasticity implicated in addictive behaviors, extending gaming compulsion beyond neurons alone.
+- `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Behavioral reward has an opioid side: while dopamine drives the 'wanting' of compulsive gaming, the mu-opioid system underlies the 'liking,' the pleasure that reinforces returning to play.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

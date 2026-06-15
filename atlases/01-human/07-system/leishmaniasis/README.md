@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "TNF-α arms macrophages against Leishmania but also wastes the body: it helps drive parasite killing, yet in chronic visceral disease its excess fuels the fever, wasting, and cachexia that make kala-azar so debilitating."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Leishmaniasis is found under the light microscope: Giemsa-stained smears reveal amastigotes packed inside macrophages, and small cutaneous lesions can be treated locally with heat or laser light."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Chronic visceral leishmaniasis scars the organs it invades: long-standing infection of the liver and spleen drives fibrosis, contributing to the portal hypertension and organ enlargement of advanced kala-azar."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Visceral leishmaniasis floods the blood with antibody: plasma cells pour out immunoglobulin in a massive polyclonal response, the hypergammaglobulinemia behind its classic non-specific protein tests."
 ---
 
 # Leishmaniasis
@@ -253,3 +262,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Visceral leishmaniasis can attack the kidneys: chronic infection deposits immune complexes in the glomeruli, causing protein-losing nephritis and acute kidney injury that worsen the outlook in severe kala-azar.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Macrophages try to kill Leishmania with oxygen: the respiratory burst forges reactive oxygen species to destroy the engulfed parasite, but the organism dampens this oxidative killing to survive inside the very cell meant to clear it.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α arms macrophages against Leishmania but also wastes the body: it helps drive parasite killing, yet in chronic visceral disease its excess fuels the fever, wasting, and cachexia that make kala-azar so debilitating.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Leishmaniasis is found under the light microscope: Giemsa-stained smears reveal amastigotes packed inside macrophages, and small cutaneous lesions can be treated locally with heat or laser light.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Chronic visceral leishmaniasis scars the organs it invades: long-standing infection of the liver and spleen drives fibrosis, contributing to the portal hypertension and organ enlargement of advanced kala-azar.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Visceral leishmaniasis floods the blood with antibody: plasma cells pour out immunoglobulin in a massive polyclonal response, the hypergammaglobulinemia behind its classic non-specific protein tests.
