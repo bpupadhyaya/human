@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Desmoids gnaw the bone they abut: though purely soft-tissue tumors, their infiltrative growth can erode the cortex of adjacent bone, a sign of how aggressively they invade despite never spreading distantly."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Desmoids entrap the nerves they grow around: their infiltrative edge encases peripheral nerves, causing pain, numbness, and weakness, and making surgery risky for the nerve as much as for the recurrence-prone tumor."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "An intra-abdominal desmoid can throttle the gut: mesenteric tumors — common in familial adenomatous polyposis — compress the stomach and bowel into obstruction, and can encase the mesenteric vessels feeding them."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Desmoids arise amid the body's fat and fascia: springing from the fibrous tissue of the abdominal wall and the fat-rich mesentery, they must be told apart from the benign lipoma and malignant liposarcoma that share that home."
 ---
 
 # Desmoid Tumor
@@ -317,6 +326,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the desmoid's working cell: the myofibroblast, a fibroblast-smooth-muscle hybrid bristling with rough endoplasmic reticulum and actin bundles, churning out the dense collagen that makes these tumors so firm and infiltrative.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Chest-wall desmoids invade toward the lung: arising in the thoracic wall they grow inward against the pleura and mediastinum, and although they never metastasize, their relentless local spread can compress the chest's contents.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Desmoids gnaw the bone they abut: though purely soft-tissue tumors, their infiltrative growth can erode the cortex of adjacent bone, a sign of how aggressively they invade despite never spreading distantly.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Desmoids entrap the nerves they grow around: their infiltrative edge encases peripheral nerves, causing pain, numbness, and weakness, and making surgery risky for the nerve as much as for the recurrence-prone tumor.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — An intra-abdominal desmoid can throttle the gut: mesenteric tumors — common in familial adenomatous polyposis — compress the stomach and bowel into obstruction, and can encase the mesenteric vessels feeding them.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Desmoids arise amid the body's fat and fascia: springing from the fibrous tissue of the abdominal wall and the fat-rich mesentery, they must be told apart from the benign lipoma and malignant liposarcoma that share that home.
 
 ---
 

@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Dengue can blur vision weeks in: dengue maculopathy with retinal hemorrhage, edema, and foveolitis appears around the time platelets bottom out, sometimes leaving lasting blind spots."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody is dengue's double-edged sword: it diagnoses infection (IgM, NS1) and confers serotype immunity, but partial antibody from a prior serotype enhances a second infection (ADE), making the repeat illness far more dangerous."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "A rising hematocrit signals the danger: as plasma leaks from the vessels in severe dengue, the red cells concentrate, so a climbing hematocrit (hemoconcentration) is a key warning sign that shock may be near."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Dengue drops the white count: a marked leukopenia, with falling neutrophils, is an early and characteristic feature that — alongside the plunging platelets — helps point to the diagnosis."
 ---
 
 # Dengue Fever
@@ -295,3 +304,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows dengue's two threats: the small icosahedral flavivirus replicating in scaffolds of host membrane, and the widened junctions between endothelial cells through which plasma leaks in severe disease.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Dengue paints the skin: a flushed rash gives way to the petechiae of falling platelets and the classic 'islands of white in a sea of red,' and a tourniquet test bringing out spots warns of bleeding risk.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Dengue can blur vision weeks in: dengue maculopathy with retinal hemorrhage, edema, and foveolitis appears around the time platelets bottom out, sometimes leaving lasting blind spots.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody is dengue's double-edged sword: it diagnoses infection (IgM, NS1) and confers serotype immunity, but partial antibody from a prior serotype enhances a second infection (ADE), making the repeat illness far more dangerous.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — A rising hematocrit signals the danger: as plasma leaks from the vessels in severe dengue, the red cells concentrate, so a climbing hematocrit (hemoconcentration) is a key warning sign that shock may be near.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Dengue drops the white count: a marked leukopenia, with falling neutrophils, is an early and characteristic feature that — alongside the plunging platelets — helps point to the diagnosis.
