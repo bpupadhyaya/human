@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "COVID derails iron handling: ferritin soars as a marker of the hyperinflammatory state, while iron gets locked away from the blood, contributing to the anemia of inflammation in prolonged illness."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy gave COVID its face: the beam revealed SARS-CoV-2 as a sphere ringed by club-shaped spikes — the 'corona' that names the family — and showed the virions budding inside infected airway cells."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "COVID writes itself on the skin: chilblain-like 'COVID toes,' along with hive-like and measles-like rashes, reflect the small-vessel inflammation and clotting the infection provokes far from the lungs."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D drew intense scrutiny in COVID: deficiency was repeatedly tied to more severe disease, plausible given the vitamin's role in tempering the immune response, though supplementation trials gave mixed results."
 ---
 
 # COVID-19 Disease
@@ -236,6 +245,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Chest imaging gauges COVID pneumonia: CT scans read in X-ray photons reveal the hallmark peripheral ground-glass opacities, helping judge how far the lung injury has spread when oxygen levels fall.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Severe COVID can scar the lungs: the diffuse alveolar damage may heal with pulmonary fibrosis, leaving survivors with lasting breathlessness and reduced lung function long after the infection clears.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — COVID derails iron handling: ferritin soars as a marker of the hyperinflammatory state, while iron gets locked away from the blood, contributing to the anemia of inflammation in prolonged illness.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy gave COVID its face: the beam revealed SARS-CoV-2 as a sphere ringed by club-shaped spikes — the 'corona' that names the family — and showed the virions budding inside infected airway cells.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — COVID writes itself on the skin: chilblain-like 'COVID toes,' along with hive-like and measles-like rashes, reflect the small-vessel inflammation and clotting the infection provokes far from the lungs.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D drew intense scrutiny in COVID: deficiency was repeatedly tied to more severe disease, plausible given the vitamin's role in tempering the immune response, though supplementation trials gave mixed results.
 
 ## Pathology
 

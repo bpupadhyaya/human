@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "A dense fibrotic stroma walls off colorectal cancer: the tumor provokes desmoplastic scar tissue that shields it from immune cells and drugs, part of why microsatellite-stable disease resists immunotherapy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads colorectal cancer's grade in its glands: well-differentiated tumor cells keep orderly microvilli and tight junctions making lumina, while poorly differentiated ones lose this architecture — ultrastructure that tracks how aggressive the cancer is."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Colorectal cancer pushes platelets up: a paraneoplastic thrombocytosis appears in many patients and signals worse prognosis, while the platelets themselves help circulating tumor cells survive and seed the liver."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Late colorectal cancer can reach the bone: after seeding the liver and lungs, advanced disease occasionally spreads to the marrow-filled skeleton, an uncommon but ominous site marking widespread metastasis."
 ---
 
 # Colorectal Cancer
@@ -287,6 +296,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency is often the first clue to colorectal cancer: right-sided tumors bleed slowly into the stool, so unexplained iron-deficiency anemia in an older adult is a red flag that should prompt a colonoscopy.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Colorectal tumors build their own blood supply: VEGF recruits endothelial cells to sprout new vessels, and blocking this with bevacizumab is a mainstay of treating metastatic disease.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — A dense fibrotic stroma walls off colorectal cancer: the tumor provokes desmoplastic scar tissue that shields it from immune cells and drugs, part of why microsatellite-stable disease resists immunotherapy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads colorectal cancer's grade in its glands: well-differentiated tumor cells keep orderly microvilli and tight junctions making lumina, while poorly differentiated ones lose this architecture — ultrastructure that tracks how aggressive the cancer is.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Colorectal cancer pushes platelets up: a paraneoplastic thrombocytosis appears in many patients and signals worse prognosis, while the platelets themselves help circulating tumor cells survive and seed the liver.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Late colorectal cancer can reach the bone: after seeding the liver and lungs, advanced disease occasionally spreads to the marrow-filled skeleton, an uncommon but ominous site marking widespread metastasis.
 
 ---
 
