@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Fat shapes a distinct asthma: in obese-asthma the adipocyte's inflammatory adipokines drive a non-eosinophilic, often steroid-resistant disease, one reason weight loss can improve control where inhalers fall short."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies now treat severe asthma at its source: omalizumab mops up IgE, mepolizumab blocks IL-5 to starve eosinophils, and dupilumab blocks IL-4/13 signaling — monoclonal antibodies that quiet the type-2 inflammation when inhalers cannot."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormones modulate the airways: asthma often shifts with the menstrual cycle (perimenstrual asthma) and changes in pregnancy — worsening in about a third of women — so control is actively managed through gestation to protect mother and fetus."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "Early-life microbes set the allergic thermostat: a less diverse infant gut microbiome, shaped by birth mode, antibiotics, and environment, tilts the immune system toward the type-2 responses of asthma — the core of the hygiene hypothesis."
 ---
 
 # Asthma
@@ -304,6 +313,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Long-standing asthma reshapes the airway wall: repeated inflammation lays down extra collagen beneath the epithelium, thickening the basement membrane in the remodeling that can fix some obstruction beyond what inhalers reverse.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Vagal acetylcholine tightens the airways: released onto muscarinic receptors it constricts bronchial smooth muscle and drives mucus, which is why anticholinergics like ipratropium and tiotropium relax the airways as add-on therapy.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat shapes a distinct asthma: in obese-asthma the adipocyte's inflammatory adipokines drive a non-eosinophilic, often steroid-resistant disease, one reason weight loss can improve control where inhalers fall short.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies now treat severe asthma at its source: omalizumab mops up IgE, mepolizumab blocks IL-5 to starve eosinophils, and dupilumab blocks IL-4/13 signaling — monoclonal antibodies that quiet the type-2 inflammation when inhalers cannot.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones modulate the airways: asthma often shifts with the menstrual cycle (perimenstrual asthma) and changes in pregnancy — worsening in about a third of women — so control is actively managed through gestation to protect mother and fetus.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — Early-life microbes set the allergic thermostat: a less diverse infant gut microbiome, shaped by birth mode, antibiotics, and environment, tilts the immune system toward the type-2 responses of asthma — the core of the hygiene hypothesis.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

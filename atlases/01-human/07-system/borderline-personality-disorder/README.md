@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "The liver bears the brunt of crisis: with high rates of self-harm and impulsive overdose, paracetamol toxicity is a real danger in BPD, threatening acute liver failure — one reason safer prescribing and crisis planning matter so much."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Symptoms ride the hormonal tide: BPD's emotional intensity and impulsivity often worsen in the late-luteal, premenstrual phase as estrogen and progesterone fall, a cyclical pattern that complicates diagnosis and timing of support."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Chronic stress leaves an inflammatory trace: BPD is associated with raised inflammatory markers such as IL-6, fitting a model in which early trauma and a dysregulated stress axis prime a low-grade inflammation that acts on the brain."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The distressed gut keeps company with the distressed mind: functional GI complaints and irritable bowel syndrome are common in BPD, the brain-gut axis translating chronic emotional dysregulation into cramping, bloating, and altered bowel habit."
 ---
 
 # Borderline Personality Disorder
@@ -335,6 +344,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — BPD rarely travels alone: anxiety disorders including social anxiety frequently coexist, the fear of rejection and hypersensitivity to judgment overlapping with the unstable relationships and abandonment terror at the heart of the disorder.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep and its clock run awry: disrupted circadian rhythm and blunted melatonin are common in BPD, feeding the insomnia and night-time distress that worsen the emotional dysregulation and impulsivity of the day.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver bears the brunt of crisis: with high rates of self-harm and impulsive overdose, paracetamol toxicity is a real danger in BPD, threatening acute liver failure — one reason safer prescribing and crisis planning matter so much.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Symptoms ride the hormonal tide: BPD's emotional intensity and impulsivity often worsen in the late-luteal, premenstrual phase as estrogen and progesterone fall, a cyclical pattern that complicates diagnosis and timing of support.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Chronic stress leaves an inflammatory trace: BPD is associated with raised inflammatory markers such as IL-6, fitting a model in which early trauma and a dysregulated stress axis prime a low-grade inflammation that acts on the brain.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The distressed gut keeps company with the distressed mind: functional GI complaints and irritable bowel syndrome are common in BPD, the brain-gut axis translating chronic emotional dysregulation into cramping, bloating, and altered bowel habit.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
