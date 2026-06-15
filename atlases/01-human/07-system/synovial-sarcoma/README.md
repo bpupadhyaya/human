@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Ifosfamide also injures the kidney's tubules: the resulting Fanconi-like syndrome wastes magnesium, phosphate, and bicarbonate into the urine, so electrolytes are monitored and replaced through synovial sarcoma treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody now clinches the diagnosis: a stain against the SS18-SSX fusion protein is highly specific for synovial sarcoma, and with TLE1 it confirms the t(X;18)-driven tumor that can otherwise mimic many spindle-cell cancers."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The doxorubicin-ifosfamide regimen empties the marrow: both drugs are heavily myelosuppressive, dropping neutrophil counts so that febrile neutropenia is a recurring hazard through synovial sarcoma chemotherapy."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Treatment and tumor both thin the red cells: the anthracycline-and-alkylator chemotherapy suppresses marrow erythrocyte production, leaving an anemia and fatigue that may need transfusion across the long course of care."
 ---
 
 # Synovial Sarcoma
@@ -309,6 +318,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Despite its name, synovial sarcoma weaves a fibrous tumor: its spindle cells sit in a collagen-rich stroma, often with stippled calcification, and the biphasic form adds glandular epithelium — a texture that, with the SS18 fusion, makes the diagnosis.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The ifosfamide in its chemotherapy can fog the brain: a metabolite of this alkylator crosses into the CNS and poisons neurons, causing a reversible encephalopathy with confusion and seizures that methylene blue is used to treat.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Ifosfamide also injures the kidney's tubules: the resulting Fanconi-like syndrome wastes magnesium, phosphate, and bicarbonate into the urine, so electrolytes are monitored and replaced through synovial sarcoma treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody now clinches the diagnosis: a stain against the SS18-SSX fusion protein is highly specific for synovial sarcoma, and with TLE1 it confirms the t(X;18)-driven tumor that can otherwise mimic many spindle-cell cancers.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The doxorubicin-ifosfamide regimen empties the marrow: both drugs are heavily myelosuppressive, dropping neutrophil counts so that febrile neutropenia is a recurring hazard through synovial sarcoma chemotherapy.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Treatment and tumor both thin the red cells: the anthracycline-and-alkylator chemotherapy suppresses marrow erythrocyte production, leaving an anemia and fatigue that may need transfusion across the long course of care.
 
 ---
 

@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "The autoimmunity spills into the blood counts: Sjogren's commonly brings anemia and other cytopenias, from the anemia of chronic inflammation to occasional autoimmune hemolysis that strips red cells from the circulation."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The same immune dysregulation can drop the neutrophils: a mild autoimmune neutropenia is common in Sjogren's, part of the cytopenia picture alongside the anemia and low platelets that reflect the disease's reach into the blood."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Dryness and autoimmunity reach the gut: lost saliva makes swallowing hard and unprotected, while Sjogren's overlaps with autoimmune atrophic gastritis, thinning the stomach lining and impairing acid and intrinsic-factor secretion."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Exocrine failure dries more than eyes and mouth: vaginal dryness and dyspareunia are common in Sjogren's, and the anti-Ro/La antibodies can cross the placenta to cause neonatal lupus and congenital heart block."
 ---
 
 # Sjögren's Syndrome
@@ -321,6 +330,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Sjogren's is written in its autoantibodies: anti-Ro/SSA and anti-La/SSB are the serologic hallmarks used to diagnose it, and anti-Ro crossing the placenta can give the fetus congenital heart block — making the antibody a clinical signature in its own right.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Sjogren's keeps autoimmune company in the liver: it overlaps notably with primary biliary cholangitis and autoimmune hepatitis, so dry eyes and mouth may arrive alongside the anti-mitochondrial antibodies and cholestasis of liver autoimmunity.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The autoimmunity spills into the blood counts: Sjogren's commonly brings anemia and other cytopenias, from the anemia of chronic inflammation to occasional autoimmune hemolysis that strips red cells from the circulation.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The same immune dysregulation can drop the neutrophils: a mild autoimmune neutropenia is common in Sjogren's, part of the cytopenia picture alongside the anemia and low platelets that reflect the disease's reach into the blood.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Dryness and autoimmunity reach the gut: lost saliva makes swallowing hard and unprotected, while Sjogren's overlaps with autoimmune atrophic gastritis, thinning the stomach lining and impairing acid and intrinsic-factor secretion.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Exocrine failure dries more than eyes and mouth: vaginal dryness and dyspareunia are common in Sjogren's, and the anti-Ro/La antibodies can cross the placenta to cause neonatal lupus and congenital heart block.
 
 ---
 
