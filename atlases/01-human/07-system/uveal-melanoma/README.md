@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/04-cellular/dendritic-cell
     relation: connects-to
     note: "Dendritic cells underpin the new immunotherapy for uveal melanoma: this normally immune-cold tumor is now attacked with tebentafusp, which redirects T cells to a melanocyte antigen—an approach that leans on antigen presentation."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Uveal melanoma's defining pigment is melanin, built by the copper-dependent enzyme tyrosinase: this trace-metal chemistry marks the tumor's melanocytic origin and supplies the melanoma antigens that tebentafusp exploits."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Though it arises in the eye and is biologically distinct from skin melanoma, uveal melanoma can metastasize to skin and subcutaneous tissue: an unusual cutaneous site of spread beyond its dominant route to the liver."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "Uveal melanoma rarely reaches the brain: while the liver dominates its metastatic pattern, late hematogenous spread can seed the central nervous system, a hard-to-treat site that worsens prognosis in advanced disease."
 ---
 
 # Uveal Melanoma
@@ -284,6 +293,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypoxia drives uveal melanoma's aggressiveness: low oxygen in the eye tumor stabilizes HIF and pushes invasion and the metabolic shift that helps it seed the liver, the near-universal site of its lethal spread.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Beyond its near-exclusive liver spread, uveal melanoma can reach the lungs: hematogenous metastasis occasionally seeds pulmonary and other sites, so surveillance looks past the liver in advanced disease.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells underpin the new immunotherapy for uveal melanoma: this normally immune-cold tumor is now attacked with tebentafusp, which redirects T cells to a melanocyte antigen—an approach that leans on antigen presentation.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Uveal melanoma's defining pigment is melanin, built by the copper-dependent enzyme tyrosinase: this trace-metal chemistry marks the tumor's melanocytic origin and supplies the melanoma antigens that tebentafusp exploits.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Though it arises in the eye and is biologically distinct from skin melanoma, uveal melanoma can metastasize to skin and subcutaneous tissue: an unusual cutaneous site of spread beyond its dominant route to the liver.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Uveal melanoma rarely reaches the brain: while the liver dominates its metastatic pattern, late hematogenous spread can seed the central nervous system, a hard-to-treat site that worsens prognosis in advanced disease.
 
 ---
 

@@ -121,6 +121,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Macrophages link fat to insulin resistance in type 2 diabetes: inflamed adipose tissue recruits macrophages whose cytokines blunt insulin signaling, so this immune-metabolic crosstalk helps turn obesity into diabetes."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Type 2 diabetes is at its core a cardiovascular disease: it doubles the risk of heart attack and heart failure, which remain the leading cause of death, so modern care prizes drugs that protect the heart, not just lower glucose."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "High glucose injures the endothelial cells lining blood vessels: this endothelial dysfunction is the shared root of diabetes's micro- and macrovascular complications, from retinopathy and nephropathy to accelerated atherosclerosis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Insulin drives potassium into cells, so diabetes is also a potassium story: emergencies like ketoacidosis hide a whole-body deficit, and giving insulin can crash serum potassium dangerously low unless it is replaced."
 ---
 
 # Type 2 Diabetes
@@ -258,6 +267,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Insulin is packaged with zinc: beta cells store the hormone as zinc-coordinated crystals, and the zinc transporter ZnT8 is both a diabetes-risk gene and an autoantibody target, tying trace-metal handling to the disease.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Type 2 diabetes is the leading cause of kidney failure: years of high glucose scar the glomeruli (diabetic nephropathy), so protecting the kidney with SGLT2 inhibitors and blood-pressure control is central to long-term care.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages link fat to insulin resistance in type 2 diabetes: inflamed adipose tissue recruits macrophages whose cytokines blunt insulin signaling, so this immune-metabolic crosstalk helps turn obesity into diabetes.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Type 2 diabetes is at its core a cardiovascular disease: it doubles the risk of heart attack and heart failure, which remain the leading cause of death, so modern care prizes drugs that protect the heart, not just lower glucose.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — High glucose injures the endothelial cells lining blood vessels: this endothelial dysfunction is the shared root of diabetes's micro- and macrovascular complications, from retinopathy and nephropathy to accelerated atherosclerosis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Insulin drives potassium into cells, so diabetes is also a potassium story: emergencies like ketoacidosis hide a whole-body deficit, and giving insulin can crash serum potassium dangerously low unless it is replaced.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
