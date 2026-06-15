@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "Losing the spleen can set the stage: splenectomy is a recognized risk factor for pulmonary hypertension, as the platelets and abnormal red cells no longer filtered by the spleen promote the in-situ thrombosis that remodels the lung arteries."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron deficiency haunts PAH even without anemia: it is common in these patients and independently predicts worse exercise capacity and survival, making iron status a routine thing to measure and correct."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Remodeling stiffens the lung's arteries with matrix: the diseased vessels lay down excess collagen and elastin in their walls, a fibrotic thickening that narrows the lumen and hardens the pulmonary circuit the right heart must push against."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "When PAH springs from a heart defect, the blood thickens: the chronic hypoxia of Eisenmenger physiology spurs the marrow to overproduce red cells, and the resulting secondary erythrocytosis adds viscosity and clot risk to the strained circulation."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -302,6 +311,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons measure and classify the pressure: echocardiography estimates it noninvasively, right heart catheterization under fluoroscopy confirms it, and a V/Q scan distinguishes clot-driven chronic thromboembolic disease from true arterial hypertension.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen drives pulmonary hypertension's female bias: the disease strikes women far more often, and the 'estrogen paradox' — the hormone and its metabolites both protecting the heart yet promoting the arterial remodeling — is central to its puzzling sex difference.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Losing the spleen can set the stage: splenectomy is a recognized risk factor for pulmonary hypertension, as the platelets and abnormal red cells no longer filtered by the spleen promote the in-situ thrombosis that remodels the lung arteries.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency haunts PAH even without anemia: it is common in these patients and independently predicts worse exercise capacity and survival, making iron status a routine thing to measure and correct.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Remodeling stiffens the lung's arteries with matrix: the diseased vessels lay down excess collagen and elastin in their walls, a fibrotic thickening that narrows the lumen and hardens the pulmonary circuit the right heart must push against.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — When PAH springs from a heart defect, the blood thickens: the chronic hypoxia of Eisenmenger physiology spurs the marrow to overproduce red cells, and the resulting secondary erythrocytosis adds viscosity and clot risk to the strained circulation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

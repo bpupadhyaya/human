@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Angioimmunoblastic PTCL turns the immune system on its own red cells: the dysregulated helper-T-cell tumor drives autoantibodies that coat erythrocytes, producing a Coombs-positive hemolytic anemia alongside the lymphoma."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "AITL floods the blood with antibody: its malignant follicular-helper T cells whip up a polyclonal plasma-cell response, producing the hypergammaglobulinemia and autoantibodies that give angioimmunoblastic lymphoma its autoimmune-like face."
+  - target: 01-human/04-cellular/b-cell
+    relation: connects-to
+    note: "A T-cell cancer that breeds rogue B cells: the helper-T tumor of AITL fosters EBV-driven B-cell blasts in its inflamed milieu, expansions that can themselves transform into a secondary diffuse large B-cell lymphoma."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The CHOP backbone bites the nerves: vincristine, part of the standard PTCL chemotherapy, poisons the microtubule transport of peripheral neurons, leaving a dose-limiting numbness, tingling, and weakness."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -316,6 +325,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons stage and track PTCL: these lymphomas are avid for FDG, so PET-CT lights up nodal and extranodal disease for staging and gauges whether the aggressive tumor is melting away under chemotherapy.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — One PTCL is born in the gut: enteropathy-associated T-cell lymphoma arises from the intraepithelial T cells of the small intestine in long-standing celiac disease, presenting with bowel perforation or obstruction in a malnourished patient.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Angioimmunoblastic PTCL turns the immune system on its own red cells: the dysregulated helper-T-cell tumor drives autoantibodies that coat erythrocytes, producing a Coombs-positive hemolytic anemia alongside the lymphoma.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — AITL floods the blood with antibody: its malignant follicular-helper T cells whip up a polyclonal plasma-cell response, producing the hypergammaglobulinemia and autoantibodies that give angioimmunoblastic lymphoma its autoimmune-like face.
+- `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — A T-cell cancer that breeds rogue B cells: the helper-T tumor of AITL fosters EBV-driven B-cell blasts in its inflamed milieu, expansions that can themselves transform into a secondary diffuse large B-cell lymphoma.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The CHOP backbone bites the nerves: vincristine, part of the standard PTCL chemotherapy, poisons the microtubule transport of peripheral neurons, leaving a dose-limiting numbness, tingling, and weakness.
 
 ---
 
