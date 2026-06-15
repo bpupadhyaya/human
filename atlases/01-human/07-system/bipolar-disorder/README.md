@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "Bipolar disorder may be an energy disorder: studies find mitochondrial dysfunction and low brain ATP, so faltering cellular energy is a leading hypothesis for why mood and activity destabilize and why metabolism is altered."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging shows bipolar's signature: MRI reveals white-matter abnormalities and fMRI altered amygdala-prefrontal activity, and lithium treatment even slightly increases gray-matter volume on scans."
+  - target: 01-human/05-tissue/synapse
+    relation: connects-to
+    note: "Bipolar disorder dysregulates synaptic plasticity: lithium and mood stabilizers act on cascades like GSK-3β that remodel synapses, stabilizing the circuits that swing between mania and depression."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Bipolar drugs tax the liver: valproate and carbamazepine are metabolized there and can be hepatotoxic, so liver-function monitoring is part of long-term mood-stabilizer treatment."
 ---
 
 # Bipolar Disorder
@@ -297,6 +306,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Bipolar disorder is entangled with the thyroid: an underactive thyroid can mimic or trigger depression and rapid cycling, and lithium itself often causes hypothyroidism, so thyroid function is checked and corrected throughout treatment.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Bipolar disorder involves more than neurons—astrocytes too: these glial cells recycle glutamate and support brain metabolism, and their dysfunction may unbalance the excitatory signaling that swings between mania and depression.
 - `connects-to` → **[ATP (Adenosine Triphosphate)](../../03-molecular/atp/README.md)** — Bipolar disorder may be an energy disorder: studies find mitochondrial dysfunction and low brain ATP, so faltering cellular energy is a leading hypothesis for why mood and activity destabilize and why metabolism is altered.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging shows bipolar's signature: MRI reveals white-matter abnormalities and fMRI altered amygdala-prefrontal activity, and lithium treatment even slightly increases gray-matter volume on scans.
+- `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Bipolar disorder dysregulates synaptic plasticity: lithium and mood stabilizers act on cascades like GSK-3β that remodel synapses, stabilizing the circuits that swing between mania and depression.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Bipolar drugs tax the liver: valproate and carbamazepine are metabolized there and can be hepatotoxic, so liver-function monitoring is part of long-term mood-stabilizer treatment.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

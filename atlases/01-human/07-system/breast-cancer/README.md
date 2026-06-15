@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Natural killer cells help hold breast cancer in check: these innate lymphocytes can detect and destroy tumor cells without prior sensitization, and strong NK activity is linked to fewer metastases and better outcomes."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper fuels breast cancer's spread: tumors need it for new blood vessels and for enzymes that prime metastasis, so copper-lowering drugs have been trialed to keep dormant disease asleep."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Breast cancer can invade the skin: inflammatory breast cancer reddens and dimples it into peau d'orange, and chest-wall skin recurrences signal aggressive local disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Breast tumors build a fibrotic stroma: a dense, desmoplastic scar stiffens the tumor, shows as the spiculated mass on a mammogram, and helps shield the cancer from drugs."
 ---
 
 # Breast Cancer
@@ -269,6 +278,9 @@ cross_links:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Breast cancer in bone can flood the blood with calcium: osteolytic metastases dissolve bone faster than the body can clear the released calcium, causing the hypercalcemia of malignancy—confusion, thirst, and kidney injury needing urgent care.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Breast cancer can hide in the bone marrow: single tumor cells lodge there and lie dormant for years, a reservoir of disseminated disease that can reawaken to cause the late relapses unique to this cancer.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Natural killer cells help hold breast cancer in check: these innate lymphocytes can detect and destroy tumor cells without prior sensitization, and strong NK activity is linked to fewer metastases and better outcomes.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper fuels breast cancer's spread: tumors need it for new blood vessels and for enzymes that prime metastasis, so copper-lowering drugs have been trialed to keep dormant disease asleep.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Breast cancer can invade the skin: inflammatory breast cancer reddens and dimples it into peau d'orange, and chest-wall skin recurrences signal aggressive local disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Breast tumors build a fibrotic stroma: a dense, desmoplastic scar stiffens the tumor, shows as the spiculated mass on a mammogram, and helps shield the cancer from drugs.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
