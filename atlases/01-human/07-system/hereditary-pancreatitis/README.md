@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "Losing fat absorption thins the bones: chronic pancreatitis blocks uptake of vitamin D and calcium, so osteoporosis and fractures of the marrow-bearing skeleton are a common, under-recognized toll."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Relentless pain defines the disease: inflammation and fibrosis sensitize the pancreatic sensory neurons and the celiac plexus into a severe, chronic visceral pain that dominates life and drives nerve blocks and opioid use."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The damaged gland stops digesting fat: exocrine insufficiency lets undigested fat reach the bowel, causing the bulky, greasy, foul steatorrhea and malabsorption that pancreatic enzyme replacement aims to fix."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Malabsorption quietly drains the blood: poor uptake of iron, B12, and folate from the failing exocrine pancreas can leave patients anemic, the red cells falling along with their other nutrients."
 ---
 
 # Hereditary Pancreatitis
@@ -327,6 +336,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Hereditary pancreatitis is the gland digesting itself: the PRSS1 mutation lets trypsin activate prematurely inside the acinar cells, and electron microscopy shows the autodigested tissue replaced over time by fibrosis and calcified plugs.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Pancreatic inflammation can clot the splenic vein behind the stomach: the resulting back-pressure swells gastric varices that can bleed massively, a dangerous vascular complication of chronic pancreatitis.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Losing fat absorption thins the bones: chronic pancreatitis blocks uptake of vitamin D and calcium, so osteoporosis and fractures of the marrow-bearing skeleton are a common, under-recognized toll.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Relentless pain defines the disease: inflammation and fibrosis sensitize the pancreatic sensory neurons and the celiac plexus into a severe, chronic visceral pain that dominates life and drives nerve blocks and opioid use.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The damaged gland stops digesting fat: exocrine insufficiency lets undigested fat reach the bowel, causing the bulky, greasy, foul steatorrhea and malabsorption that pancreatic enzyme replacement aims to fix.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Malabsorption quietly drains the blood: poor uptake of iron, B12, and folate from the failing exocrine pancreas can leave patients anemic, the red cells falling along with their other nutrients.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
