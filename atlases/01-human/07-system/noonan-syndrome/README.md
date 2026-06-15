@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "The spleen often enlarges in Noonan: hepatosplenomegaly is common, especially when the syndrome's RAS overactivity tips into the JMML-like myeloproliferation that swells the blood-forming organs in early childhood."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Noonan's signature heart defect guards the lungs' gateway: pulmonary valve stenosis — often with a dysplastic, thickened valve — narrows the path from the right heart into the lungs, the most common cardiac lesion driving the diagnosis."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Noonan can leak the gut's lymph: intestinal lymphangiectasia and protein-losing enteropathy, tied to the syndrome's faulty lymphatic plumbing, drain protein from the small bowel and compound the feeding difficulties and failure to thrive of infancy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads Noonan's heart muscle: when the syndrome causes hypertrophic cardiomyopathy, the myocardium shows the chaotic myofibrillar disarray that distinguishes it from a normally thickened, athletic heart."
 ---
 
 # Noonan Syndrome
@@ -309,6 +318,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons reveal Noonan before and after birth: prenatal ultrasound flags the thick nuchal fold and cystic hygroma of lymphatic excess, while echocardiography after birth maps the pulmonary valve stenosis and hypertrophic cardiomyopathy that define the heart disease.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Noonan writes itself on the skin: curly or sparse hair, widespread keratosis pilaris, lymphedema, and — in the lentigines variant — a freckling of dark spots, cutaneous clues that steer the clinical diagnosis.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — The spleen often enlarges in Noonan: hepatosplenomegaly is common, especially when the syndrome's RAS overactivity tips into the JMML-like myeloproliferation that swells the blood-forming organs in early childhood.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Noonan's signature heart defect guards the lungs' gateway: pulmonary valve stenosis — often with a dysplastic, thickened valve — narrows the path from the right heart into the lungs, the most common cardiac lesion driving the diagnosis.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Noonan can leak the gut's lymph: intestinal lymphangiectasia and protein-losing enteropathy, tied to the syndrome's faulty lymphatic plumbing, drain protein from the small bowel and compound the feeding difficulties and failure to thrive of infancy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads Noonan's heart muscle: when the syndrome causes hypertrophic cardiomyopathy, the myocardium shows the chaotic myofibrillar disarray that distinguishes it from a normally thickened, athletic heart.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

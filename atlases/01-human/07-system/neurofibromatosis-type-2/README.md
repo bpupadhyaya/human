@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/tert
     relation: connects-to
     note: "TERT promoter mutations mark the dangerous ones: when an NF2-associated meningioma reactivates telomerase, it signals a more aggressive, recurrence-prone tumor — a molecular flag that pushes toward closer surveillance and earlier treatment."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "NF2's schwannomas come from the nerve's myelinators: the Schwann cell is the peripheral counterpart of the CNS oligodendrocyte, and loss of merlin lets these insulating cells pile up around the vestibular nerve into the hallmark bilateral tumors."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Schwannomas weave a telltale stroma: their loose Antoni B regions are rich in collagen and microcysts, while the compact Antoni A zones form palisading Verocay bodies — the matrix architecture pathologists read to call the tumor."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The NF2 gene is a frequent casualty in the chest: it is among the most commonly inactivated genes in pleural mesothelioma, the cancer of the membrane wrapping the lung, linking this tumor-suppressor to malignancy far beyond the nervous system."
 ---
 
 # Neurofibromatosis Type 2
@@ -291,6 +300,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy fingerprints NF2's schwannomas: their cells wrap in continuous basal lamina and pile up long-spacing collagen as Luse bodies — ultrastructure that distinguishes a nerve-sheath tumor when histology alone is uncertain.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium betrays NF2's meningiomas: these slow-growing tumors deposit calcium in laminated psammoma bodies, giving the gritty calcification seen on CT that, scattered through the skull and spine, hints at multiple meningiomas.
 - `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations mark the dangerous ones: when an NF2-associated meningioma reactivates telomerase, it signals a more aggressive, recurrence-prone tumor — a molecular flag that pushes toward closer surveillance and earlier treatment.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — NF2's schwannomas come from the nerve's myelinators: the Schwann cell is the peripheral counterpart of the CNS oligodendrocyte, and loss of merlin lets these insulating cells pile up around the vestibular nerve into the hallmark bilateral tumors.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Schwannomas weave a telltale stroma: their loose Antoni B regions are rich in collagen and microcysts, while the compact Antoni A zones form palisading Verocay bodies — the matrix architecture pathologists read to call the tumor.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The NF2 gene is a frequent casualty in the chest: it is among the most commonly inactivated genes in pleural mesothelioma, the cancer of the membrane wrapping the lung, linking this tumor-suppressor to malignancy far beyond the nervous system.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
