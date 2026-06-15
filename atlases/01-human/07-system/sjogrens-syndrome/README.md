@@ -139,6 +139,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D runs low in Sjogren's and seems to matter: deficiency is common and tracks with the peripheral neuropathy and the lymphoma risk that mark more severe disease, hinting at the vitamin's role in restraining the autoimmunity."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Sjogren's is written in its autoantibodies: anti-Ro/SSA and anti-La/SSB are the serologic hallmarks used to diagnose it, and anti-Ro crossing the placenta can give the fetus congenital heart block — making the antibody a clinical signature in its own right."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Sjogren's keeps autoimmune company in the liver: it overlaps notably with primary biliary cholangitis and autoimmune hepatitis, so dry eyes and mouth may arrive alongside the anti-mitochondrial antibodies and cholestasis of liver autoimmunity."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "The autoimmunity spills into the blood counts: Sjogren's commonly brings anemia and other cytopenias, from the anemia of chronic inflammation to occasional autoimmune hemolysis that strips red cells from the circulation."
 ---
 
 # Sjögren's Syndrome
@@ -309,6 +318,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons gauge Sjogren's dryness at its source: salivary gland ultrasound shows the patchy, pitted glands, and scintigraphy times how sluggishly they take up and release tracer — imaging that documents the failing secretory tissue behind the dry mouth.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Sjogren's is a disease of all exocrine glands, the pancreas included: the same lymphocytic attack that dries the mouth and eyes can scar the pancreas, causing exocrine insufficiency and overlapping with autoimmune pancreatitis.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D runs low in Sjogren's and seems to matter: deficiency is common and tracks with the peripheral neuropathy and the lymphoma risk that mark more severe disease, hinting at the vitamin's role in restraining the autoimmunity.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Sjogren's is written in its autoantibodies: anti-Ro/SSA and anti-La/SSB are the serologic hallmarks used to diagnose it, and anti-Ro crossing the placenta can give the fetus congenital heart block — making the antibody a clinical signature in its own right.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Sjogren's keeps autoimmune company in the liver: it overlaps notably with primary biliary cholangitis and autoimmune hepatitis, so dry eyes and mouth may arrive alongside the anti-mitochondrial antibodies and cholestasis of liver autoimmunity.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The autoimmunity spills into the blood counts: Sjogren's commonly brings anemia and other cytopenias, from the anemia of chronic inflammation to occasional autoimmune hemolysis that strips red cells from the circulation.
 
 ---
 

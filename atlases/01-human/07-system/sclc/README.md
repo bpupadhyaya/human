@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/peripheral-nerve
     relation: connects-to
     note: "SCLC turns the immune system against the nerves: anti-Hu and related antibodies meant for the tumor also strike peripheral neurons, producing a paraneoplastic sensory neuronopathy that can appear before the cancer is found."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "SCLC's intense chemotherapy empties the marrow: the platinum-etoposide that this fast-growing cancer demands drops neutrophils into a neutropenia, so febrile neutropenia and growth-factor support are constant concerns of treatment."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "The platinum backbone leaks magnesium away: cisplatin injures the kidney's tubules, which then waste magnesium, so levels are checked and repleted through the rounds of SCLC chemotherapy."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Immunotherapy now joins the attack on SCLC: adding a PD-L1 checkpoint inhibitor to first-line chemotherapy releases the brakes on T cells, letting helper and cytotoxic T cells mount a response that modestly extends survival in extensive-stage disease."
 ---
 
 # Small Cell Lung Cancer
@@ -281,6 +290,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals SCLC's neuroendocrine soul: scattered dense-core neurosecretory granules — tiny membrane-bound packets of hormone — mark these small dark cells as neuroendocrine, the trait behind their paraneoplastic syndromes.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — SCLC can flood the body with cortisol: its ectopic ACTH drives the adrenals to overproduce cortisol, causing a rapidly evolving Cushing syndrome of weakness, swelling, and low potassium rather than the classic slow body changes.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — SCLC turns the immune system against the nerves: anti-Hu and related antibodies meant for the tumor also strike peripheral neurons, producing a paraneoplastic sensory neuronopathy that can appear before the cancer is found.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — SCLC's intense chemotherapy empties the marrow: the platinum-etoposide that this fast-growing cancer demands drops neutrophils into a neutropenia, so febrile neutropenia and growth-factor support are constant concerns of treatment.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — The platinum backbone leaks magnesium away: cisplatin injures the kidney's tubules, which then waste magnesium, so levels are checked and repleted through the rounds of SCLC chemotherapy.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Immunotherapy now joins the attack on SCLC: adding a PD-L1 checkpoint inhibitor to first-line chemotherapy releases the brakes on T cells, letting helper and cytotoxic T cells mount a response that modestly extends survival in extensive-stage disease.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
