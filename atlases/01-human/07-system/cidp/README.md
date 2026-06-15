@@ -159,6 +159,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "The disability is muscular: as demyelination slows nerve conduction, CIDP brings progressive limb weakness, areflexia, and eventual muscle wasting, the motor loss that physiotherapy and immunotherapy aim to reverse."
+  - target: 01-human/07-system/hiv
+    relation: connects-to
+    note: "HIV can trigger CIDP: a demyelinating polyneuropathy indistinguishable from idiopathic CIDP appears in HIV infection, often around seroconversion, so a new diagnosis warrants HIV testing because the underlying infection changes management."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "CIDP breaches the blood-nerve barrier: the tight endothelial cells lining endoneurial vessels normally wall the nerve off from the immune system, and their breakdown is what lets autoantibodies and T cells reach and strip the myelin."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "CIDP traces back to broken tolerance: the thymus that should delete self-reactive T cells fails to fully restrain those targeting peripheral myelin, the lapse in central tolerance underlying this T-cell-dependent autoimmune neuropathy."
 ---
 
 # CIDP
@@ -348,6 +357,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both treat and define CIDP: intravenous immunoglobulin is a first-line therapy, and a subset is driven by autoantibodies against the nerve's nodes (anti-NF155, anti-contactin-1) that mark a distinct, treatment-resistant form.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — CIDP demyelinates the peripheral, not central, nerves: it strips the Schwann-cell myelin of peripheral nerves while sparing the oligodendrocyte myelin of the brain and cord — the opposite territory to multiple sclerosis.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The disability is muscular: as demyelination slows nerve conduction, CIDP brings progressive limb weakness, areflexia, and eventual muscle wasting, the motor loss that physiotherapy and immunotherapy aim to reverse.
+- `connects-to` → **[HIV](../hiv/README.md)** — HIV can trigger CIDP: a demyelinating polyneuropathy indistinguishable from idiopathic CIDP appears in HIV infection, often around seroconversion, so a new diagnosis warrants HIV testing because the underlying infection changes management.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — CIDP breaches the blood-nerve barrier: the tight endothelial cells lining endoneurial vessels normally wall the nerve off from the immune system, and their breakdown is what lets autoantibodies and T cells reach and strip the myelin.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — CIDP traces back to broken tolerance: the thymus that should delete self-reactive T cells fails to fully restrain those targeting peripheral myelin, the lapse in central tolerance underlying this T-cell-dependent autoimmune neuropathy.
 
 ---
 

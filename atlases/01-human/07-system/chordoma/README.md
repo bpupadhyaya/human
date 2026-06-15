@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "The sacral tumor disconnects the pelvic smooth muscle: damage to the sacral roots from the chordoma or its removal leaves the bladder and bowel smooth muscle without control, causing retention, incontinence, and constipation."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Chordoma turns up in tuberous sclerosis: pediatric chordomas are reported in TSC patients, a link that fits chordoma's reliance on PI3K-AKT-mTOR signaling — the same pathway that TSC1/TSC2 loss unleashes — and points to mTOR inhibitors as therapy."
+  - target: 01-human/04-cellular/regulatory-t-cell
+    relation: connects-to
+    note: "Chordoma is an immunologically cold tumor: it expresses PD-L1 and recruits regulatory T cells that suppress local immunity, a microenvironment that helps it evade attack and is the rationale for testing checkpoint blockade in this radioresistant cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Chordoma is treated with hydrogen nuclei: proton-beam radiation — accelerated bare hydrogen nuclei — deposits its dose at a sharp Bragg peak, letting high doses hit clival and sacral tumors while sparing the brainstem and spinal cord just millimeters away."
 ---
 
 # Chordoma
@@ -330,6 +339,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody marks and may treat the notochordal tumor: the brachyury (TBXT) protein, detected by immunostaining, is the diagnostic hallmark of chordoma, and a brachyury cancer vaccine is in trials to rouse immunity against it.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A sacral chordoma strikes at the body's lower controls: growing in the sacrum it compresses the nerve roots governing erection, ejaculation, and continence, so sexual and pelvic dysfunction can be early or surgical consequences.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The sacral tumor disconnects the pelvic smooth muscle: damage to the sacral roots from the chordoma or its removal leaves the bladder and bowel smooth muscle without control, causing retention, incontinence, and constipation.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Chordoma turns up in tuberous sclerosis: pediatric chordomas are reported in TSC patients, a link that fits chordoma's reliance on PI3K-AKT-mTOR signaling — the same pathway that TSC1/TSC2 loss unleashes — and points to mTOR inhibitors as therapy.
+- `connects-to` → **[Regulatory T Cell](../../04-cellular/regulatory-t-cell/README.md)** — Chordoma is an immunologically cold tumor: it expresses PD-L1 and recruits regulatory T cells that suppress local immunity, a microenvironment that helps it evade attack and is the rationale for testing checkpoint blockade in this radioresistant cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Chordoma is treated with hydrogen nuclei: proton-beam radiation — accelerated bare hydrogen nuclei — deposits its dose at a sharp Bragg peak, letting high doses hit clival and sacral tumors while sparing the brainstem and spinal cord just millimeters away.
 
 ---
 
