@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "ATRT drives angiogenesis through VEGF: to feed its rapid growth the tumor releases VEGF, building the leaky vessels that supply it—a target for anti-angiogenic strategies in this hard-to-treat cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "ATRT often calcifies: flecks of calcium within the tumor are a clue on the CT scan, appearing alongside the hemorrhage and cysts that mark these aggressive infant brain tumors."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "ATRT can spread beyond the nervous system: its extracranial rhabdoid counterparts and metastases reach the liver, lungs and bone, especially in the very young children it strikes."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "ATRT and rhabdoid tumors can seed the marrow: bone and bone-marrow metastases occur in disseminated disease, so staging looks beyond the brain in this highly malignant cancer."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -278,6 +287,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ATRT outgrows its oxygen: this fast, aggressive infant tumor turns hypoxic at its core, switching on the HIF/VEGF program that sprouts new vessels and helps it expand and resist therapy.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — ATRT hides in a macrophage-rich niche: tumor-associated macrophages dominate its immunosuppressive microenvironment, helping this poorly immunogenic rhabdoid tumor evade T cells and resist checkpoint therapy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — ATRT drives angiogenesis through VEGF: to feed its rapid growth the tumor releases VEGF, building the leaky vessels that supply it—a target for anti-angiogenic strategies in this hard-to-treat cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ATRT often calcifies: flecks of calcium within the tumor are a clue on the CT scan, appearing alongside the hemorrhage and cysts that mark these aggressive infant brain tumors.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — ATRT can spread beyond the nervous system: its extracranial rhabdoid counterparts and metastases reach the liver, lungs and bone, especially in the very young children it strikes.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — ATRT and rhabdoid tumors can seed the marrow: bone and bone-marrow metastases occur in disseminated disease, so staging looks beyond the brain in this highly malignant cancer.
 
 ---
 

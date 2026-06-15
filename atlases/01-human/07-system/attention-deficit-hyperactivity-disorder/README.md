@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "ADHD treatment must watch the heart: the stimulant medicines that sharpen focus also raise heart rate and blood pressure, so cardiac history and monitoring guide their safe use."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging shows ADHD's delayed wiring: MRI photons reveal slower cortical maturation and altered connectivity, and fMRI maps underactivity in the attention and reward networks."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "ADHD involves delayed white matter: the oligodendrocytes that myelinate the connections between attention regions mature slowly, slowing the brain's information highways."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut may sway ADHD: emerging work ties the intestinal microbiome to attention and behavior through the gut-brain axis, hinting the bowel's microbes influence symptoms."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -317,6 +326,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ADHD is linked to low zinc: the mineral helps regulate dopamine signaling, so deficiency is associated with more severe symptoms, and zinc status is studied as a modifier of the disorder and its treatment.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid shapes attention: its hormones guide brain development and arousal, so thyroid dysfunction can produce inattention and hyperactivity that mimic ADHD, which is why thyroid problems are screened for.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — ADHD treatment must watch the heart: the stimulant medicines that sharpen focus also raise heart rate and blood pressure, so cardiac history and monitoring guide their safe use.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging shows ADHD's delayed wiring: MRI photons reveal slower cortical maturation and altered connectivity, and fMRI maps underactivity in the attention and reward networks.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — ADHD involves delayed white matter: the oligodendrocytes that myelinate the connections between attention regions mature slowly, slowing the brain's information highways.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut may sway ADHD: emerging work ties the intestinal microbiome to attention and behavior through the gut-brain axis, hinting the bowel's microbes influence symptoms.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
