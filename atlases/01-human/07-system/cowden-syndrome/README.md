@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/03-molecular/antibody
     relation: connects-to
     note: "Cowden leans toward thyroid autoimmunity: alongside its thyroid cancers and goiter, it carries an excess of Hashimoto thyroiditis, so anti-thyroid antibodies often accompany the structural thyroid disease."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Cowden's hamartomas reach the liver: as a PTEN hamartoma tumor syndrome it can stud the liver with benign hamartomas and hemangiomas, part of the diffuse overgrowth that PTEN loss drives across many organs beyond the classic skin, breast and thyroid sites."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "Losing PTEN can dim antitumor immunity: PTEN loss raises PD-L1 and weakens cytotoxic T-cell killing of the tumor, a mechanism studied in PTEN-driven cancers that may shape how Cowden's malignancies respond to checkpoint immunotherapy."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Cowden joins the hereditary kidney-cancer differential: like von Hippel-Lindau and Birt-Hogg-Dubé it predisposes to renal cell carcinoma, so the pattern of other tumors and skin findings is what tells these germline syndromes apart."
 ---
 
 # Cowden Syndrome
@@ -375,6 +384,9 @@ cross_links:
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — PTEN overgrowth shows in the frame: macrocephaly is a near-constant feature, and the syndrome spawns lipomas and, in its Bannayan-Riley-Ruvalcaba overlap, skeletal and soft-tissue overgrowth from the unleashed mTOR pathway.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Hamartomatous polyps stud the whole gut: beyond the colon and stomach, Cowden seeds the small intestine with polyps of mixed type, part of the diffuse PTEN-driven overgrowth lining the digestive tract.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Cowden leans toward thyroid autoimmunity: alongside its thyroid cancers and goiter, it carries an excess of Hashimoto thyroiditis, so anti-thyroid antibodies often accompany the structural thyroid disease.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Cowden's hamartomas reach the liver: as a PTEN hamartoma tumor syndrome it can stud the liver with benign hamartomas and hemangiomas, part of the diffuse overgrowth that PTEN loss drives across many organs beyond the classic skin, breast and thyroid sites.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — Losing PTEN can dim antitumor immunity: PTEN loss raises PD-L1 and weakens cytotoxic T-cell killing of the tumor, a mechanism studied in PTEN-driven cancers that may shape how Cowden's malignancies respond to checkpoint immunotherapy.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Cowden joins the hereditary kidney-cancer differential: like von Hippel-Lindau and Birt-Hogg-Dubé it predisposes to renal cell carcinoma, so the pattern of other tumors and skin findings is what tells these germline syndromes apart.
 
 ---
 

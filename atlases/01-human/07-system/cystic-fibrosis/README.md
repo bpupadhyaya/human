@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "CF quietly lowers the red cells: chronic infection's anemia of inflammation, malabsorption of iron and vitamins, and GI blood loss combine to leave many patients anemic despite their other reserves."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "CF liver disease can enlarge the spleen: thick bile scars the liver into focal biliary cirrhosis, and the resulting portal hypertension swells the spleen and drops platelet and white-cell counts through hypersplenism, a serious extrapulmonary complication."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "CF thins bone from the cellular level up: chronic inflammation, vitamin D and K malabsorption, and steroid use tip the balance toward osteoclast bone resorption, producing the early osteopenia and fracture risk of CF bone disease."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron fuels the airway invaders: the CF lung's mucus is iron-rich, and Pseudomonas exploits that iron to build the biofilms that entrench chronic infection, making iron acquisition both a bacterial strategy and a potential treatment target."
 ---
 
 # Cystic Fibrosis
@@ -323,6 +332,9 @@ AND
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — CF unsettles the upper gut: reflux is near-universal as cough and physiotherapy push acid up, and thickened secretions slow the stomach, while lower down the same mucus jams the bowel into distal intestinal obstruction syndrome.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An allergic antibody storm complicates CF lungs: allergic bronchopulmonary aspergillosis, an IgE- and IgG-driven hypersensitivity to the Aspergillus colonizing the airways, worsens wheeze and lung damage and is treated with steroids and antifungals.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CF quietly lowers the red cells: chronic infection's anemia of inflammation, malabsorption of iron and vitamins, and GI blood loss combine to leave many patients anemic despite their other reserves.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — CF liver disease can enlarge the spleen: thick bile scars the liver into focal biliary cirrhosis, and the resulting portal hypertension swells the spleen and drops platelet and white-cell counts through hypersplenism, a serious extrapulmonary complication.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — CF thins bone from the cellular level up: chronic inflammation, vitamin D and K malabsorption, and steroid use tip the balance toward osteoclast bone resorption, producing the early osteopenia and fracture risk of CF bone disease.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron fuels the airway invaders: the CF lung's mucus is iron-rich, and Pseudomonas exploits that iron to build the biofilms that entrench chronic infection, making iron acquisition both a bacterial strategy and a potential treatment target.
 
 ---
 
