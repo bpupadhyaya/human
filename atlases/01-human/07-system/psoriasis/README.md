@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/adipocyte
     relation: connects-to
     note: "Psoriasis and fat inflame each other: enlarged adipocytes pour out the same cytokines that drive the plaques, so obesity worsens psoriasis and blunts treatment — a metabolic link in the 'psoriatic march' toward heart disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies revolutionized psoriasis care: monoclonal antibodies against TNF, IL-17, and IL-23 (secukinumab, guselkumab, ustekinumab) clear the plaques by neutralizing the exact cytokines driving them, often where older drugs failed."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Skin disease reaches intimate places: genital psoriasis and the visible plaques impair sexual health and self-image, while pregnancy often calms psoriasis through its immune shift, only for it to flare again after delivery."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "A gut-skin axis links plaque to flora: psoriasis patients show gut dysbiosis and a high overlap with inflammatory bowel disease, the shared mucosal-barrier and IL-23 immunology tying the bowel's microbes to the skin's inflammation."
 ---
 
 # Psoriasis
@@ -310,6 +319,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Psoriasis itches and flares through the nerves: sensory neurons in the plaque release substance P and CGRP that fuel neurogenic inflammation, the same wiring behind the stress-triggered flares and the maddening itch.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Treating psoriasis keeps an eye on the lungs: methotrexate can rarely cause a hypersensitivity pneumonitis, and the TNF and IL-17 biologics that clear the plaques raise the risk of pneumonia and reactivated tuberculosis.
 - `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Psoriasis and fat inflame each other: enlarged adipocytes pour out the same cytokines that drive the plaques, so obesity worsens psoriasis and blunts treatment — a metabolic link in the 'psoriatic march' toward heart disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies revolutionized psoriasis care: monoclonal antibodies against TNF, IL-17, and IL-23 (secukinumab, guselkumab, ustekinumab) clear the plaques by neutralizing the exact cytokines driving them, often where older drugs failed.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Skin disease reaches intimate places: genital psoriasis and the visible plaques impair sexual health and self-image, while pregnancy often calms psoriasis through its immune shift, only for it to flare again after delivery.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — A gut-skin axis links plaque to flora: psoriasis patients show gut dysbiosis and a high overlap with inflammatory bowel disease, the shared mucosal-barrier and IL-23 immunology tying the bowel's microbes to the skin's inflammation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
