@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Hodgkin rarely strays into the gut: primary or secondary gastrointestinal involvement of the bowel is uncommon for a disease that spreads node to node, but it occurs in advanced or immunosuppressed cases."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Hodgkin is exquisitely vulnerable to antibody drugs: brentuximab vedotin, an anti-CD30 antibody-drug conjugate, and the checkpoint antibodies nivolumab and pembrolizumab have transformed treatment of relapsed disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Curing Hodgkin frays the nerves: both the vincristine of ABVD and brentuximab vedotin injure peripheral neurons into a dose-limiting neuropathy that often dictates how much treatment a patient can take."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "It strikes the young, so fertility matters: the alkylating chemotherapy of escalated regimens and any pelvic radiation can cause infertility, so sperm banking and ovarian preservation are offered before treatment."
 ---
 
 # Hodgkin Lymphoma
@@ -305,6 +314,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy hunts Hodgkin's rare giant cell: the binucleate Reed-Sternberg cell with its two huge 'owl-eye' nucleoli sits sparse amid a sea of reactive immune cells, the diagnostic needle in the haystack.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Advanced Hodgkin lymphoma involves the liver: stage IV disease seeds hepatic deposits, and bulky disease can crowd the organ, a marker of widespread spread beyond the lymph nodes and spleen.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hodgkin rarely strays into the gut: primary or secondary gastrointestinal involvement of the bowel is uncommon for a disease that spreads node to node, but it occurs in advanced or immunosuppressed cases.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Hodgkin is exquisitely vulnerable to antibody drugs: brentuximab vedotin, an anti-CD30 antibody-drug conjugate, and the checkpoint antibodies nivolumab and pembrolizumab have transformed treatment of relapsed disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Curing Hodgkin frays the nerves: both the vincristine of ABVD and brentuximab vedotin injure peripheral neurons into a dose-limiting neuropathy that often dictates how much treatment a patient can take.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It strikes the young, so fertility matters: the alkylating chemotherapy of escalated regimens and any pelvic radiation can cause infertility, so sperm banking and ovarian preservation are offered before treatment.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

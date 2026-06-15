@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Sinonasal and nasopharyngeal head-and-neck cancers threaten the eye: spreading through the thin orbital walls they cause proptosis, double vision, and vision loss as they invade the orbit."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies attack head-and-neck cancer two ways: cetuximab blocks EGFR, and the checkpoint antibodies pembrolizumab and nivolumab release the immune brakes in recurrent or metastatic disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Its drugs strip magnesium twice over: cetuximab blocks the EGFR-dependent magnesium channel in the kidney, and the cisplatin given with radiation wastes it through tubular injury, so magnesium is closely monitored."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Treatment forces a feeding tube: tumor and the brutal mucositis of chemoradiation make swallowing impossible for a time, so a gastrostomy into the stomach is often placed to maintain nutrition through therapy."
 ---
 
 # HNSCC
@@ -298,6 +307,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms head and neck cancer's squamous nature: the cells lock together with desmosomes, fill with keratin tonofilaments, and whorl into keratin pearls — the differentiation that grades the tumor.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Head and neck cancer eats into bone: oral and pharyngeal tumors invade the marrow-bearing mandible and maxilla, and advanced disease can seed distant skeletal metastases, the bony reach that complicates surgery.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sinonasal and nasopharyngeal head-and-neck cancers threaten the eye: spreading through the thin orbital walls they cause proptosis, double vision, and vision loss as they invade the orbit.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies attack head-and-neck cancer two ways: cetuximab blocks EGFR, and the checkpoint antibodies pembrolizumab and nivolumab release the immune brakes in recurrent or metastatic disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Its drugs strip magnesium twice over: cetuximab blocks the EGFR-dependent magnesium channel in the kidney, and the cisplatin given with radiation wastes it through tubular injury, so magnesium is closely monitored.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Treatment forces a feeding tube: tumor and the brutal mucositis of chemoradiation make swallowing impossible for a time, so a gastrostomy into the stomach is often placed to maintain nutrition through therapy.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
