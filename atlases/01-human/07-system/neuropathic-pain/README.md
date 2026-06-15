@@ -114,6 +114,15 @@ cross_links:
   - target: 01-human/04-cellular/oligodendrocyte
     relation: connects-to
     note: "Lost myelin makes nerves misfire: when oligodendrocytes and their peripheral counterparts fail, demyelinated axons fire ectopically and cross-talk, generating the shooting, electric pains of conditions like MS."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows the damaged nerve behind the pain: demyelinated and degenerating axons, and the dropout of fine unmyelinated fibers in small-fiber neuropathy, leave bared, hyperexcitable membranes that fire on their own."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Nerve damage can silence the heart's warnings: diabetic cardiac autonomic neuropathy blunts the pain of a heart attack into a 'silent' one and destabilizes heart rate and blood pressure, a dangerous extension of peripheral nerve disease."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D deficiency frays the nerves: low levels are tied to more severe diabetic and other peripheral neuropathies, and the vitamin's role in nerve growth factor and repair makes supplementation a studied adjunct for the pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -309,6 +318,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Small-fiber neuropathy is confirmed under the microscope: a skin punch biopsy, immunostained and read in light, counts the thinned nerve endings behind unexplained burning pain that routine tests miss.
 - `connects-to` → **[Mu-Opioid Receptor](../../03-molecular/mu-opioid-receptor/README.md)** — Neuropathic pain resists opioids: nerve injury strips mu-opioid receptors from damaged neurons and stirs glia, so morphine-type drugs work poorly here, pushing treatment toward gabapentinoids and antidepressants.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Lost myelin makes nerves misfire: when oligodendrocytes and their peripheral counterparts fail, demyelinated axons fire ectopically and cross-talk, generating the shooting, electric pains of conditions like MS.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the damaged nerve behind the pain: demyelinated and degenerating axons, and the dropout of fine unmyelinated fibers in small-fiber neuropathy, leave bared, hyperexcitable membranes that fire on their own.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Nerve damage can silence the heart's warnings: diabetic cardiac autonomic neuropathy blunts the pain of a heart attack into a 'silent' one and destabilizes heart rate and blood pressure, a dangerous extension of peripheral nerve disease.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D deficiency frays the nerves: low levels are tied to more severe diabetic and other peripheral neuropathies, and the vitamin's role in nerve growth factor and repair makes supplementation a studied adjunct for the pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

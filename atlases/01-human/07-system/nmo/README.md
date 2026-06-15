@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "NMO breaches the blood-brain barrier where astrocyte foot processes meet endothelial cells: the antibody and complement attack on this interface opens the door for the wider immune assault on the cord."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy distinguishes NMO from MS at the lesion: it is the astrocyte that dies first — its foot processes stripped of aquaporin-4 and coated with complement — rather than the myelin, a primary astrocytopathy unlike MS demyelination."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "NMO can present from the stomach's control center: lesions in the area postrema of the brainstem trigger intractable hiccups, nausea, and vomiting — a characteristic syndrome that often heralds the disease before the cord or optic nerve is hit."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Destroying aquaporin-4 unsettles potassium balance: the water channel sits beside the astrocyte channels that mop up potassium released by firing neurons, so the NMO attack disrupts the ion buffering that keeps the cord's neurons stable."
 ---
 
 # NMOSD
@@ -325,6 +334,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — NMO is mapped by MRI: its hallmark is a long spinal-cord lesion spanning three or more segments, plus optic-nerve enhancement, all read in the photons of magnetic-resonance imaging.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NMO lesions in the brain's area postrema and hypothalamus can derange sodium balance, causing SIADH and low blood sodium alongside the intractable vomiting and hiccups that flag the disease.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — NMO breaches the blood-brain barrier where astrocyte foot processes meet endothelial cells: the antibody and complement attack on this interface opens the door for the wider immune assault on the cord.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy distinguishes NMO from MS at the lesion: it is the astrocyte that dies first — its foot processes stripped of aquaporin-4 and coated with complement — rather than the myelin, a primary astrocytopathy unlike MS demyelination.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — NMO can present from the stomach's control center: lesions in the area postrema of the brainstem trigger intractable hiccups, nausea, and vomiting — a characteristic syndrome that often heralds the disease before the cord or optic nerve is hit.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Destroying aquaporin-4 unsettles potassium balance: the water channel sits beside the astrocyte channels that mop up potassium released by firing neurons, so the NMO attack disrupts the ion buffering that keeps the cord's neurons stable.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
