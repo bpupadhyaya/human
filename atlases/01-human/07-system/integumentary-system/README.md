@@ -134,6 +134,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Sulfur is what makes hair and nails tough: keratin is rich in the amino acid cysteine, whose sulfur atoms form disulfide bridges that lock the protein into hard, springy fibers — the bonds a perm breaks and reforms."
+  - target: 01-human/03-molecular/thyroid-hormones
+    relation: connects-to
+    note: "Thyroid hormone tunes the skin: too little leaves it dry, cool, and puffy with myxedema and brittle hair, while too much makes it warm, moist, and flushed — so the skin and its appendages often read out thyroid status at a glance."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "The skin is a window onto the blood: its color reflects hemoglobin — pallor in anemia, bluish cyanosis when deoxygenated hemoglobin rises, and the yellow of jaundice when its breakdown pigment bilirubin builds up."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Skin and kidney share the vitamin D relay: the skin makes vitamin D₃ from sunlight, the kidney performs its final activation, and failing kidneys repay the skin with the relentless itch of uremic pruritus."
 ---
 
 # Integumentary System
@@ -278,6 +287,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how skin holds together and waterproofs: keratinocytes are riveted by desmosomes and anchored to the basement membrane by hemidesmosomes, their cytoplasm filled with keratin bundles and melanosomes handed over from melanocytes.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Copper colors and strengthens the skin: it is the catalytic metal in tyrosinase, the enzyme that makes melanin pigment, and in lysyl oxidase, which cross-links the collagen and elastin that give the dermis its resilience.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sulfur is what makes hair and nails tough: keratin is rich in the amino acid cysteine, whose sulfur atoms form disulfide bridges that lock the protein into hard, springy fibers — the bonds a perm breaks and reforms.
+- `connects-to` → **[Thyroid Hormones (T3/T4)](../../03-molecular/thyroid-hormones/README.md)** — Thyroid hormone tunes the skin: too little leaves it dry, cool, and puffy with myxedema and brittle hair, while too much makes it warm, moist, and flushed — so the skin and its appendages often read out thyroid status at a glance.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — The skin is a window onto the blood: its color reflects hemoglobin — pallor in anemia, bluish cyanosis when deoxygenated hemoglobin rises, and the yellow of jaundice when its breakdown pigment bilirubin builds up.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Skin and kidney share the vitamin D relay: the skin makes vitamin D₃ from sunlight, the kidney performs its final activation, and failing kidneys repay the skin with the relentless itch of uremic pruritus.
 
 ## Pathology
 
