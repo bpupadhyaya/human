@@ -150,6 +150,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Severe malaria dilutes the blood's sodium: an SIADH-like release of vasopressin and fluid shifts commonly drop sodium into hyponatremia, which can worsen the confusion and seizures of the acute illness."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both detect and defend against malaria: rapid tests catch the parasite's HRP-2 antigen with antibodies, partial immunity in endemic areas is antibody-mediated, and the RTS,S and R21 vaccines work by raising anti-circumsporozoite antibody."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy is a malaria magnet: parasites sequester in the placenta, causing maternal anemia, low birth weight, and fetal loss, which is why intermittent preventive treatment is given through pregnancy in endemic regions."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Malaria leaves the host open to bacteria: it impairs neutrophil function and the gut barrier, so severe disease — especially in children — carries a high risk of invasive nontyphoidal Salmonella and other bacterial co-infections."
 ---
 
 # Malaria
@@ -352,6 +361,9 @@ cross_links:
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Cerebral malaria is the deadliest face of the disease: parasitized red cells jam the brain's microvessels, and the resulting ischemia and inflammation injure neurons into coma and seizures, leaving lasting cognitive deficits in surviving children.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Malaria can crash the blood sugar: the parasite's heavy glucose consumption plus quinine-driven insulin release from the pancreas cause a dangerous hypoglycemia, especially in pregnant women and severe disease.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Severe malaria dilutes the blood's sodium: an SIADH-like release of vasopressin and fluid shifts commonly drop sodium into hyponatremia, which can worsen the confusion and seizures of the acute illness.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both detect and defend against malaria: rapid tests catch the parasite's HRP-2 antigen with antibodies, partial immunity in endemic areas is antibody-mediated, and the RTS,S and R21 vaccines work by raising anti-circumsporozoite antibody.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy is a malaria magnet: parasites sequester in the placenta, causing maternal anemia, low birth weight, and fetal loss, which is why intermittent preventive treatment is given through pregnancy in endemic regions.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Malaria leaves the host open to bacteria: it impairs neutrophil function and the gut barrier, so severe disease — especially in children — carries a high risk of invasive nontyphoidal Salmonella and other bacterial co-infections.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

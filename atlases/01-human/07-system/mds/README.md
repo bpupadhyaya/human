@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The lungs are a frequent battleground: deep neutropenia leaves MDS patients prone to pneumonia and fungal infection, and the hypomethylating drug azacitidine can itself rarely inflame the lungs into a pneumonitis."
+  - target: 01-human/03-molecular/idh1
+    relation: connects-to
+    note: "Metabolic mutations open a targeted door: IDH1 and IDH2 mutations in a subset of MDS make the oncometabolite 2-hydroxyglutarate, and IDH inhibitors that switch them off can restore healthy blood-cell maturation."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Transfusional iron overload silts up the endocrine glands: the relentless transfusions MDS often needs deposit iron in the thyroid and other glands, causing hypothyroidism and the endocrinopathies that iron chelation aims to prevent."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "A transplant means weighing fertility: the conditioning chemotherapy and radiation before an allogeneic stem-cell transplant can sterilize, so fertility preservation is discussed with younger MDS patients before the curative attempt."
 ---
 
 # Myelodysplastic Syndromes
@@ -298,6 +307,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Transfusional iron poisons the pancreas: deposited in the islet cells over years of red-cell support, the excess iron can damage insulin production into a secondary diabetes — one of the endocrine costs of treating MDS anemia.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — MDS keeps strange autoimmune company: it associates with vasculitis, Sweet's syndrome, and the VEXAS syndrome, and some patients' cytopenias are immune-driven and respond to immunosuppression — autoimmunity riding alongside the clonal marrow.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs are a frequent battleground: deep neutropenia leaves MDS patients prone to pneumonia and fungal infection, and the hypomethylating drug azacitidine can itself rarely inflame the lungs into a pneumonitis.
+- `connects-to` → **[IDH1](../../03-molecular/idh1/README.md)** — Metabolic mutations open a targeted door: IDH1 and IDH2 mutations in a subset of MDS make the oncometabolite 2-hydroxyglutarate, and IDH inhibitors that switch them off can restore healthy blood-cell maturation.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Transfusional iron overload silts up the endocrine glands: the relentless transfusions MDS often needs deposit iron in the thyroid and other glands, causing hypothyroidism and the endocrinopathies that iron chelation aims to prevent.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — A transplant means weighing fertility: the conditioning chemotherapy and radiation before an allogeneic stem-cell transplant can sterilize, so fertility preservation is discussed with younger MDS patients before the curative attempt.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
