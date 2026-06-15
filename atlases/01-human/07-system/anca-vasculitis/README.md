@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "ANCA vasculitis can reach the brain: inflammation of cerebral vessels and the dura causes strokes, seizures, and pachymeningitis, extending the small-vessel attack into the central nervous system."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging maps ANCA vasculitis: chest CT photons reveal the lung nodules, cavities and alveolar hemorrhage of granulomatosis, and sinus scans show the destructive upper-airway disease."
+  - target: 01-human/05-tissue/alveolus
+    relation: connects-to
+    note: "ANCA vasculitis can flood the alveoli: capillaritis in the lung's gas-exchange units causes diffuse alveolar hemorrhage, a life-threatening bleed that fills the air sacs and drops the blood count."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Alveolar hemorrhage in ANCA vasculitis leaves an iron trail: blood in the air sacs is engulfed by iron-laden macrophages, and the falling hemoglobin marks the severity of the lung bleeding."
 ---
 
 # ANCA Vasculitis
@@ -307,6 +316,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ANCA vasculitis can starve the lungs of oxygen: inflamed alveolar capillaries bleed into the air sacs (diffuse alveolar hemorrhage), so gas exchange fails—a pulmonary-renal emergency that can need a ventilator.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — ANCA vasculitis can strangle the gut: inflammation of the bowel's small vessels causes mesenteric ischemia, abdominal pain, and GI bleeding, a serious extrarenal manifestation of severe disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — ANCA vasculitis can reach the brain: inflammation of cerebral vessels and the dura causes strokes, seizures, and pachymeningitis, extending the small-vessel attack into the central nervous system.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging maps ANCA vasculitis: chest CT photons reveal the lung nodules, cavities and alveolar hemorrhage of granulomatosis, and sinus scans show the destructive upper-airway disease.
+- `connects-to` → **[Alveolus](../../05-tissue/alveolus/README.md)** — ANCA vasculitis can flood the alveoli: capillaritis in the lung's gas-exchange units causes diffuse alveolar hemorrhage, a life-threatening bleed that fills the air sacs and drops the blood count.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Alveolar hemorrhage in ANCA vasculitis leaves an iron trail: blood in the air sacs is engulfed by iron-laden macrophages, and the falling hemoglobin marks the severity of the lung bleeding.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

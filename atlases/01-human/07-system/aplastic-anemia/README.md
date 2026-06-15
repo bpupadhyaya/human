@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Carbon-based solvents can wipe out the marrow: benzene exposure is a classic environmental cause of aplastic anemia, its toxic metabolites poisoning the blood-forming stem cells into failure."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Aplastic anemia shows on the skin: the plummeting platelets cause petechiae and easy bruising, often the first visible sign that the marrow has stopped making blood cells."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "The marrow niche fails too in aplastic anemia: osteoblasts help build the stem-cell niche, so damage to this supportive scaffold compounds the loss of blood-forming stem cells."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "CXCL12 anchors stem cells in the marrow niche: this chemokine retains and supports blood-forming stem cells, so a disrupted CXCL12 niche contributes to their loss in aplastic anemia."
 ---
 
 # Aplastic Anemia
@@ -272,6 +281,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Aplastic anemia overworks and overloads the heart: chronic anemia forces high-output pumping, and the iron from repeated transfusions deposits in the muscle, together threatening heart failure over years of treatment.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Dendritic cells help ignite aplastic anemia: by presenting stem-cell antigens to T cells, they prime the autoimmune attack that cytotoxic T cells then carry out against the marrow—why immunosuppression can restore blood counts.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Carbon-based solvents can wipe out the marrow: benzene exposure is a classic environmental cause of aplastic anemia, its toxic metabolites poisoning the blood-forming stem cells into failure.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Aplastic anemia shows on the skin: the plummeting platelets cause petechiae and easy bruising, often the first visible sign that the marrow has stopped making blood cells.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — The marrow niche fails too in aplastic anemia: osteoblasts help build the stem-cell niche, so damage to this supportive scaffold compounds the loss of blood-forming stem cells.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — CXCL12 anchors stem cells in the marrow niche: this chemokine retains and supports blood-forming stem cells, so a disrupted CXCL12 niche contributes to their loss in aplastic anemia.
 
 ---
 
