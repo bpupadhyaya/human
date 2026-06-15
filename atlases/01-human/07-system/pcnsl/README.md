@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "The methotrexate cure batters the marrow: the high-dose methotrexate regimens central to PCNSL are myelosuppressive, dropping neutrophil counts so that leucovorin rescue and infection vigilance run through every cycle."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "PCNSL survives on chronic signaling: alongside MYD88 and NF-kB activation, JAK-STAT3 signaling drives the lymphoma's growth and helps it evade immunity within the brain's sheltered environment, a pathway probed for targeted therapy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "The testis is a sanctuary that talks to the brain: testicular lymphoma notoriously relapses in the CNS, both being immune-privileged sites, so testicular DLBCL gets CNS prophylaxis — and PCNSL's intensive chemo threatens fertility in younger patients."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The treatment also drops the platelets: high-dose methotrexate and the cytarabine often added suppress platelet production into thrombocytopenia, raising bleeding risk and limiting dose intensity through the months of therapy."
 ---
 
 # Primary CNS Lymphoma
@@ -309,6 +318,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both name and treat PCNSL: CD20 and MUM1 stains confirm its diffuse large B-cell nature on a stereotactic biopsy, and the anti-CD20 antibody rituximab is added to high-dose methotrexate to attack those same B cells.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Steroids make PCNSL a 'ghost tumor': corticosteroids are so lymphotoxic that the mass can melt away within days, erasing the target before biopsy — so steroids are held until tissue is obtained, even when the swelling tempts early use.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The methotrexate cure batters the marrow: the high-dose methotrexate regimens central to PCNSL are myelosuppressive, dropping neutrophil counts so that leucovorin rescue and infection vigilance run through every cycle.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — PCNSL survives on chronic signaling: alongside MYD88 and NF-kB activation, JAK-STAT3 signaling drives the lymphoma's growth and helps it evade immunity within the brain's sheltered environment, a pathway probed for targeted therapy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The testis is a sanctuary that talks to the brain: testicular lymphoma notoriously relapses in the CNS, both being immune-privileged sites, so testicular DLBCL gets CNS prophylaxis — and PCNSL's intensive chemo threatens fertility in younger patients.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The treatment also drops the platelets: high-dose methotrexate and the cytarabine often added suppress platelet production into thrombocytopenia, raising bleeding risk and limiting dose intensity through the months of therapy.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

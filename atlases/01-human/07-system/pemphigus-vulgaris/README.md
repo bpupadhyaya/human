@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Pemphigus is a mucosal disease, and mucosa includes the genitals: painful vulvar, vaginal, and penile erosions cause dyspareunia and scarring, the genital involvement that is easily missed unless the skin disease prompts a careful look."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Autoreactive B cells live on BAFF: the survival factor keeps alive the clones making anti-desmoglein antibodies, so depleting B cells with rituximab — and targeting the BAFF axis — has become a mainstay that drives lasting remission."
+  - target: 01-human/07-system/cll
+    relation: connects-to
+    note: "A lymphoma can hide behind the blisters: paraneoplastic pemphigus, a severe variant, is driven by underlying B-cell cancers like CLL and lymphoma, so resistant or atypical disease warrants a search for an occult lymphoproliferative tumor."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Long steroid courses demand bone protection: the high-dose corticosteroids that control pemphigus drive bone loss, so vitamin D and calcium are given alongside to guard against the steroid-induced osteoporosis that shadows treatment."
 ---
 
 # Pemphigus Vulgaris
@@ -347,6 +356,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Pemphigus is a pure autoantibody disease: IgG against desmoglein-3 unglues keratinocytes directly, direct immunofluorescence shows the 'chicken-wire' intercellular IgG, and the antibody titer tracks activity — which is why removing the B cells that make it cures it.
 - `connects-to` → **[Staphylococcus aureus](../../../02-pathogen/02-bacteria/staphylococcus-aureus/README.md)** — Denuded skin is an open wound: the raw erosions of pemphigus are readily colonized and invaded by Staphylococcus aureus, the impetiginization and skin sepsis adding to the fluid loss that, before steroids, made the disease so often fatal.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pemphigus is a mucosal disease, and mucosa includes the genitals: painful vulvar, vaginal, and penile erosions cause dyspareunia and scarring, the genital involvement that is easily missed unless the skin disease prompts a careful look.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Autoreactive B cells live on BAFF: the survival factor keeps alive the clones making anti-desmoglein antibodies, so depleting B cells with rituximab — and targeting the BAFF axis — has become a mainstay that drives lasting remission.
+- `connects-to` → **[CLL](../cll/README.md)** — A lymphoma can hide behind the blisters: paraneoplastic pemphigus, a severe variant, is driven by underlying B-cell cancers like CLL and lymphoma, so resistant or atypical disease warrants a search for an occult lymphoproliferative tumor.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Long steroid courses demand bone protection: the high-dose corticosteroids that control pemphigus drive bone loss, so vitamin D and calcium are given alongside to guard against the steroid-induced osteoporosis that shadows treatment.
 
 ---
 
