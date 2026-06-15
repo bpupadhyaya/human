@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "In its HLH/MAS form the storm devours blood cells: hyperactivated macrophages engulf erythrocytes and other lineages (hemophagocytosis), crashing the counts while ferritin soars — a hallmark of the most severe cytokine storms."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "The brake fails as the storm rages: IL-10, the body's main anti-inflammatory cytokine, surges in a compensatory bid to quell the storm, and its high levels track with severity — a sign the counter-regulation is overwhelmed rather than winning."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The storm stuns the heart muscle: IL-6 and TNF directly depress cardiomyocyte contractility, producing the reversible cytokine-mediated cardiomyopathy and falling cardiac output seen in sepsis, severe COVID and CAR-T toxicity."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "Severe malaria is a parasitic cytokine storm: falciparum infection drives a TNF- and IFN-gamma-rich surge that fuels cerebral malaria, lactic acidosis and shock, the same dysregulated inflammation seen in its viral and bacterial triggers."
 ---
 
 # Cytokine Storm
@@ -286,6 +295,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody therapy both triggers and tames the storm: CAR-T and bispecific antibodies can unleash a cytokine release syndrome, while the anti-IL-6-receptor antibody tocilizumab is the specific drug used to quell it.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The storm clouds the brain: immune effector cell-associated neurotoxicity (ICANS) after CAR-T — and the encephalopathy of severe systemic inflammation — injures and disrupts neurons into confusion, aphasia, and seizures.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — In its HLH/MAS form the storm devours blood cells: hyperactivated macrophages engulf erythrocytes and other lineages (hemophagocytosis), crashing the counts while ferritin soars — a hallmark of the most severe cytokine storms.
+- `connects-to` → **[Interleukin-10](../../03-molecular/il-10/README.md)** — The brake fails as the storm rages: IL-10, the body's main anti-inflammatory cytokine, surges in a compensatory bid to quell the storm, and its high levels track with severity — a sign the counter-regulation is overwhelmed rather than winning.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The storm stuns the heart muscle: IL-6 and TNF directly depress cardiomyocyte contractility, producing the reversible cytokine-mediated cardiomyopathy and falling cardiac output seen in sepsis, severe COVID and CAR-T toxicity.
+- `connects-to` → **[Malaria](../malaria/README.md)** — Severe malaria is a parasitic cytokine storm: falciparum infection drives a TNF- and IFN-gamma-rich surge that fuels cerebral malaria, lactic acidosis and shock, the same dysregulated inflammation seen in its viral and bacterial triggers.
 
 ## Pathology
 

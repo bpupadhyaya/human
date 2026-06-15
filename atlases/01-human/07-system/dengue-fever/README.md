@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Dengue drops the white count: a marked leukopenia, with falling neutrophils, is an early and characteristic feature that — alongside the plunging platelets — helps point to the diagnosis."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-alpha opens the vessels in severe dengue: the cytokine storm's TNF loosens endothelial junctions, and this surge in vascular permeability is what drives the plasma leak, hemoconcentration and shock that define dengue hemorrhagic fever."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Old immunity makes the second infection worse: cross-reactive memory helper T cells from a prior dengue serotype respond to the new one with a distorted, overexuberant cytokine burst — 'original antigenic sin' that helps tip a repeat infection into severe disease."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Dengue can inflame the pancreas: the virus is a recognized cause of acute pancreatitis, with abdominal pain and raised enzymes appearing in severe cases, one of the visceral complications that can accompany the plasma-leak phase."
 ---
 
 # Dengue Fever
@@ -307,3 +316,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody is dengue's double-edged sword: it diagnoses infection (IgM, NS1) and confers serotype immunity, but partial antibody from a prior serotype enhances a second infection (ADE), making the repeat illness far more dangerous.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — A rising hematocrit signals the danger: as plasma leaks from the vessels in severe dengue, the red cells concentrate, so a climbing hematocrit (hemoconcentration) is a key warning sign that shock may be near.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Dengue drops the white count: a marked leukopenia, with falling neutrophils, is an early and characteristic feature that — alongside the plunging platelets — helps point to the diagnosis.
+- `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — TNF-alpha opens the vessels in severe dengue: the cytokine storm's TNF loosens endothelial junctions, and this surge in vascular permeability is what drives the plasma leak, hemoconcentration and shock that define dengue hemorrhagic fever.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Old immunity makes the second infection worse: cross-reactive memory helper T cells from a prior dengue serotype respond to the new one with a distorted, overexuberant cytokine burst — 'original antigenic sin' that helps tip a repeat infection into severe disease.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Dengue can inflame the pancreas: the virus is a recognized cause of acute pancreatitis, with abdominal pain and raised enzymes appearing in severe cases, one of the visceral complications that can accompany the plasma-leak phase.
