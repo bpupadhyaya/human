@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "When follicular lymphoma transforms, the cure can wound the heart: aggressive transformation to diffuse large B-cell lymphoma calls for anthracycline-based R-CHOP, whose doxorubicin carries cumulative cardiotoxicity."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "Anti-CD20 therapy can reawaken hepatitis B: rituximab and obinutuzumab deplete the B cells that help hold the virus in check, so patients are screened and given antiviral prophylaxis before treatment to prevent a dangerous reactivation."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Relapsed follicular lymphoma leans on PI3K-AKT: chronic B-cell-receptor signaling through this pathway sustains the indolent tumor, the target of the PI3K-delta inhibitors (idelalisib, copanlisib) developed for repeatedly relapsing disease."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Its therapies leave patients open to infection: rituximab can cause a late-onset neutropenia and bendamustine deeply suppresses immunity, so falling neutrophil counts and opportunistic infections are watched for through the long course of treatment."
 ---
 
 # Follicular Lymphoma
@@ -321,6 +330,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Follicular lymphoma is exquisitely antibody-sensitive: anti-CD20 antibodies (rituximab, obinutuzumab) anchor its treatment, and bispecific antibodies like mosunetuzumab now bring durable responses to relapsed disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Treatment, more than the tumor, reaches the nerves: the vincristine in regimens like R-CVP and R-CHOP injures peripheral neurons into a dose-limiting neuropathy, the indolent lymphoma itself rarely touching the nervous system.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — When follicular lymphoma transforms, the cure can wound the heart: aggressive transformation to diffuse large B-cell lymphoma calls for anthracycline-based R-CHOP, whose doxorubicin carries cumulative cardiotoxicity.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — Anti-CD20 therapy can reawaken hepatitis B: rituximab and obinutuzumab deplete the B cells that help hold the virus in check, so patients are screened and given antiviral prophylaxis before treatment to prevent a dangerous reactivation.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Relapsed follicular lymphoma leans on PI3K-AKT: chronic B-cell-receptor signaling through this pathway sustains the indolent tumor, the target of the PI3K-delta inhibitors (idelalisib, copanlisib) developed for repeatedly relapsing disease.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Its therapies leave patients open to infection: rituximab can cause a late-onset neutropenia and bendamustine deeply suppresses immunity, so falling neutrophil counts and opportunistic infections are watched for through the long course of treatment.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

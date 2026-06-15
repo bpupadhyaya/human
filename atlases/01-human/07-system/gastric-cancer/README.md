@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "The chemotherapy frays the nerves: the cisplatin and oxaliplatin backbones of gastric cancer regimens injure peripheral sensory neurons into a cold-triggered, dose-limiting neuropathy."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Gastric cancer can drop seeds in the ovary: signet-ring cells spreading through the peritoneum implant on the ovaries as Krukenberg tumors, sometimes the presenting finding in a young woman whose stomach primary is still silent."
+  - target: 01-human/03-molecular/met
+    relation: connects-to
+    note: "A minority of gastric cancers are MET-driven: amplification or overexpression of the MET receptor marks aggressive, fast-spreading tumors and a poor prognosis, an actionable target probed by MET-directed therapies."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Gastric adenocarcinoma is a classic clot-maker: its mucin-secreting cells trigger paraneoplastic thrombocytosis and the migratory thrombophlebitis of Trousseau syndrome, driving a high rate of venous thromboembolism."
 ---
 
 # Gastric Cancer
@@ -342,6 +351,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies target gastric cancer's surface markers: trastuzumab against HER2, the checkpoint antibodies pembrolizumab and nivolumab, and zolbetuximab against claudin-18.2 now extend survival in selected advanced tumors.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Gastric cancer bleeds and starves the red cells: chronic oozing causes iron-deficiency anemia that is often the first clue, and autoimmune atrophic gastritis can add a B12-deficient pernicious anemia.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The chemotherapy frays the nerves: the cisplatin and oxaliplatin backbones of gastric cancer regimens injure peripheral sensory neurons into a cold-triggered, dose-limiting neuropathy.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Gastric cancer can drop seeds in the ovary: signet-ring cells spreading through the peritoneum implant on the ovaries as Krukenberg tumors, sometimes the presenting finding in a young woman whose stomach primary is still silent.
+- `connects-to` → **[MET](../../03-molecular/met/README.md)** — A minority of gastric cancers are MET-driven: amplification or overexpression of the MET receptor marks aggressive, fast-spreading tumors and a poor prognosis, an actionable target probed by MET-directed therapies.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Gastric adenocarcinoma is a classic clot-maker: its mucin-secreting cells trigger paraneoplastic thrombocytosis and the migratory thrombophlebitis of Trousseau syndrome, driving a high rate of venous thromboembolism.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
