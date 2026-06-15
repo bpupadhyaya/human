@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Advanced disease reaches the nerves: pelvic sidewall spread compresses the lumbosacral plexus into leg pain and weakness, while the cisplatin given with radiation injures peripheral sensory neurons."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Clearing HPV is a CD4 job: a strong Th1 helper-T response normally eliminates the virus, so when helper-T immunity falters — in HIV or other immunosuppression — the infection persists and progresses toward cancer, why screening is intensified in these patients."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Estrogen is a cofactor in cervical carcinogenesis: in HPV-infected tissue estrogen signaling cooperates with the E6/E7 oncoproteins to drive progression, consistent with the modest extra risk seen with very long-term combined oral contraceptive use."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "HPV's oncoproteins are built around zinc: both E6 and E7 fold into zinc-binding domains that they need to grip and degrade p53 and Rb, so the metal ion is structurally essential to the very proteins that transform the cell."
 ---
 
 # Cervical Cancer
@@ -318,6 +327,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The vaccine works by raising antibody: HPV vaccines teach the immune system to make neutralizing antibodies against the virus's capsid, blocking the infection that causes nearly all cervical cancer — a vaccine that prevents a cancer.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Cervical cancer announces itself in blood and worsens with anemia: abnormal vaginal bleeding is the cardinal symptom, and the resulting low red-cell count both weakens the patient and blunts the tumor's response to radiotherapy.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Advanced disease reaches the nerves: pelvic sidewall spread compresses the lumbosacral plexus into leg pain and weakness, while the cisplatin given with radiation injures peripheral sensory neurons.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Clearing HPV is a CD4 job: a strong Th1 helper-T response normally eliminates the virus, so when helper-T immunity falters — in HIV or other immunosuppression — the infection persists and progresses toward cancer, why screening is intensified in these patients.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Estrogen is a cofactor in cervical carcinogenesis: in HPV-infected tissue estrogen signaling cooperates with the E6/E7 oncoproteins to drive progression, consistent with the modest extra risk seen with very long-term combined oral contraceptive use.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HPV's oncoproteins are built around zinc: both E6 and E7 fold into zinc-binding domains that they need to grip and degrade p53 and Rb, so the metal ion is structurally essential to the very proteins that transform the cell.
 
 ---
 

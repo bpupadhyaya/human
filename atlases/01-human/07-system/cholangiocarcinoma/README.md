@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Platinum chemotherapy drains magnesium: cisplatin injures the kidney's tubules so they waste the mineral, making magnesium monitoring and replacement part of biliary cancer treatment."
+  - target: 01-human/07-system/gut-microbiome
+    relation: connects-to
+    note: "The bile carries a microbial signal: gut and biliary bacteria reshape the bile-acid pool and fuel the chronic inflammation that promotes cholangiocarcinoma, a microbiome-bile-acid axis now studied as a driver and possible target in biliary cancer."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Perihilar tumors can dam the portal vein: invasion or compression at the liver hilum raises portal pressure, enlarging the spleen and dropping platelet and white-cell counts through hypersplenism on top of the obstructive jaundice."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Biliary cancer is intensely pro-thrombotic: like other pancreatobiliary tumors it carries a high risk of venous thromboembolism, and paraneoplastic thrombocytosis often accompanies it and marks a worse outlook."
 ---
 
 # Cholangiocarcinoma
@@ -292,6 +301,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Immunotherapy and antibodies entered biliary cancer: adding the anti-PD-L1 antibody durvalumab to gemcitabine-cisplatin is now standard for advanced disease, and IHC antibody stains (CK7/CK19) help distinguish it from liver-cell cancer.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The chemotherapy bites the nerves: the gemcitabine-cisplatin and oxaliplatin regimens used against cholangiocarcinoma injure peripheral sensory neurons, causing the tingling, numbness, and cold sensitivity of a platinum neuropathy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy drains magnesium: cisplatin injures the kidney's tubules so they waste the mineral, making magnesium monitoring and replacement part of biliary cancer treatment.
+- `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The bile carries a microbial signal: gut and biliary bacteria reshape the bile-acid pool and fuel the chronic inflammation that promotes cholangiocarcinoma, a microbiome-bile-acid axis now studied as a driver and possible target in biliary cancer.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Perihilar tumors can dam the portal vein: invasion or compression at the liver hilum raises portal pressure, enlarging the spleen and dropping platelet and white-cell counts through hypersplenism on top of the obstructive jaundice.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Biliary cancer is intensely pro-thrombotic: like other pancreatobiliary tumors it carries a high risk of venous thromboembolism, and paraneoplastic thrombocytosis often accompanies it and marks a worse outlook.
 
 ---
 
