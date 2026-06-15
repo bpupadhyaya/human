@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "The adrenal is the gland HIV most often hits: CMV adrenalitis and the infection itself can blunt cortisol output, making adrenal insufficiency the commonest endocrine complication of advanced HIV."
+  - target: 01-human/06-organ/thymus
+    relation: connects-to
+    note: "HIV cripples the organ that makes T cells: it depletes the thymus and its output of naive CD4 cells, so the gland's failing reserve limits immune reconstitution even once antiretrovirals suppress the virus."
+  - target: 01-human/07-system/atherosclerosis
+    relation: connects-to
+    note: "Treated HIV ages the arteries early: chronic immune activation plus the dyslipidemia of some antiretrovirals accelerate atherosclerosis, so heart attack and stroke have become leading causes of death in the ART era."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "B-cell help fails even as antibody floods in: HIV drives a chaotic polyclonal plasma-cell activation and hypergammaglobulinemia, yet the specific, protective antibody response decays — dysregulation, not just deficiency."
 ---
 
 # HIV
@@ -350,6 +359,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — HIV breaches the gut to fuel itself: it destroys the intestinal CD4 cells early, and the leaky, dysbiotic gut lets microbial products translocate into the blood, driving the chronic immune activation that persists even on treatment.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The white cells run low too: HIV and several of its drugs suppress the marrow into neutropenia, compounding the immune deficit and raising bacterial-infection risk beyond the loss of CD4 T cells.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — The adrenal is the gland HIV most often hits: CMV adrenalitis and the infection itself can blunt cortisol output, making adrenal insufficiency the commonest endocrine complication of advanced HIV.
+- `connects-to` → **[Thymus](../../06-organ/thymus/README.md)** — HIV cripples the organ that makes T cells: it depletes the thymus and its output of naive CD4 cells, so the gland's failing reserve limits immune reconstitution even once antiretrovirals suppress the virus.
+- `connects-to` → **[Atherosclerosis](../atherosclerosis/README.md)** — Treated HIV ages the arteries early: chronic immune activation plus the dyslipidemia of some antiretrovirals accelerate atherosclerosis, so heart attack and stroke have become leading causes of death in the ART era.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — B-cell help fails even as antibody floods in: HIV drives a chaotic polyclonal plasma-cell activation and hypergammaglobulinemia, yet the specific, protective antibody response decays — dysregulation, not just deficiency.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

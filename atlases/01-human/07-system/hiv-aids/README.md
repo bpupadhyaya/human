@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "Adrenal failure stalks advanced disease: CMV adrenalitis and other opportunistic invaders, plus the virus itself, impair cortisol production, making adrenal insufficiency a treatable cause of the wasting and collapse of late AIDS."
+  - target: 02-pathogen/02-bacteria/mycobacterium-tuberculosis
+    relation: connects-to
+    note: "Tuberculosis is the great killer of AIDS: the failing CD4 defense lets Mycobacterium tuberculosis reactivate and spread, making TB the leading cause of death in people with HIV worldwide."
+  - target: 01-human/07-system/malaria
+    relation: connects-to
+    note: "HIV and malaria amplify each other: the immune deficit makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently raises HIV viral load across their co-endemic regions."
+  - target: 01-human/04-cellular/natural-killer-cell
+    relation: connects-to
+    note: "Innate defense falters too: natural killer cells fall in number and function in advanced HIV, weakening the early control of viruses and tumors that lets opportunistic infections and AIDS cancers take hold."
 ---
 
 # HIV/AIDS
@@ -318,6 +327,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The nerves ache in advanced HIV: a distal sensory polyneuropathy from the virus itself and from older antiretrovirals brings burning, numb feet, one of the most common and disabling neurological complications.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — The epidemic turns on reproduction and prevention: HIV spreads sexually and from mother to child, but treatment-as-prevention (undetectable = untransmittable) and PrEP now block both routes, reshaping its spread.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Adrenal failure stalks advanced disease: CMV adrenalitis and other opportunistic invaders, plus the virus itself, impair cortisol production, making adrenal insufficiency a treatable cause of the wasting and collapse of late AIDS.
+- `connects-to` → **[Mycobacterium tuberculosis](../../../02-pathogen/02-bacteria/mycobacterium-tuberculosis/README.md)** — Tuberculosis is the great killer of AIDS: the failing CD4 defense lets Mycobacterium tuberculosis reactivate and spread, making TB the leading cause of death in people with HIV worldwide.
+- `connects-to` → **[Malaria](../malaria/README.md)** — HIV and malaria amplify each other: the immune deficit makes malaria more frequent and severe, especially in pregnancy, while acute malaria transiently raises HIV viral load across their co-endemic regions.
+- `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Innate defense falters too: natural killer cells fall in number and function in advanced HIV, weakening the early control of viruses and tumors that lets opportunistic infections and AIDS cancers take hold.
 
 ## See Also
 
