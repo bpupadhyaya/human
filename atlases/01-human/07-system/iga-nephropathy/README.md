@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Severe IgA nephropathy recruits neutrophils: in crescentic, rapidly progressive disease they flood the inflamed glomerulus, helping build the cellular crescents that signal aggressive kidney injury."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "IgA nephropathy is diagnosed on the biopsy: immunofluorescence under the microscope lights up the IgA deposits in the glomerular mesangium, the finding that defines the disease."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Treating IgA nephropathy risks high potassium: the ACE inhibitors and ARBs that protect the kidney by blocking angiotensin also raise potassium, which must be monitored."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "IgA nephropathy may start in the gut: mucosal immunity in the intestinal epithelium produces the galactose-deficient IgA1 that ends up clogging the kidney, the gut-kidney axis behind the disease."
 ---
 
 # IgA Nephropathy
@@ -243,6 +252,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — IgA nephropathy has a skin-and-systemic cousin: IgA vasculitis (Henoch-Schönlein purpura) deposits the same IgA complexes in the skin's small vessels, causing the palpable purpura that often accompanies the kidney disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IgA nephropathy bleeds into the urine: episodes of visible hematuria, classically after a sore throat, plus the anemia of progressing kidney disease, can drain the body's iron over time.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Severe IgA nephropathy recruits neutrophils: in crescentic, rapidly progressive disease they flood the inflamed glomerulus, helping build the cellular crescents that signal aggressive kidney injury.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — IgA nephropathy is diagnosed on the biopsy: immunofluorescence under the microscope lights up the IgA deposits in the glomerular mesangium, the finding that defines the disease.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Treating IgA nephropathy risks high potassium: the ACE inhibitors and ARBs that protect the kidney by blocking angiotensin also raise potassium, which must be monitored.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — IgA nephropathy may start in the gut: mucosal immunity in the intestinal epithelium produces the galactose-deficient IgA1 that ends up clogging the kidney, the gut-kidney axis behind the disease.
 
 ---
 
