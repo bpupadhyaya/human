@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Calcium helps the brain make its sleep hormone: it is a cofactor in the pineal gland's conversion of serotonin to melatonin, so calcium availability influences the nightly melatonin surge that triggers sleep."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Reflux and insomnia feed each other: lying down lets stomach acid rise into the esophagus, and the resulting nocturnal heartburn fragments sleep — while poor sleep in turn heightens the gut's sensitivity to it."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Lost sleep unbalances blood sugar: even short-term sleep restriction worsens insulin sensitivity, straining the pancreas and helping explain why chronic insomnia tracks with a higher risk of type 2 diabetes."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormonal tides disturb women's sleep: insomnia spikes around menstruation, in pregnancy, and especially at menopause, when falling estrogen and night-time hot flashes repeatedly break the night."
 ---
 
 # Insomnia Disorder
@@ -328,6 +337,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status tracks with sleep: deficiency is linked to shorter, poorer sleep, and vitamin D receptors in the brain's sleep-regulating regions suggest the vitamin helps set the timing and depth of rest.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut and sleep talk both ways: through the gut-brain axis the intestinal microbiome shapes the serotonin and melatonin precursors that govern sleep, while poor sleep in turn disturbs the gut, a two-way loop.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium helps the brain make its sleep hormone: it is a cofactor in the pineal gland's conversion of serotonin to melatonin, so calcium availability influences the nightly melatonin surge that triggers sleep.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Reflux and insomnia feed each other: lying down lets stomach acid rise into the esophagus, and the resulting nocturnal heartburn fragments sleep — while poor sleep in turn heightens the gut's sensitivity to it.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Lost sleep unbalances blood sugar: even short-term sleep restriction worsens insulin sensitivity, straining the pancreas and helping explain why chronic insomnia tracks with a higher risk of type 2 diabetes.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormonal tides disturb women's sleep: insomnia spikes around menstruation, in pregnancy, and especially at menopause, when falling estrogen and night-time hot flashes repeatedly break the night.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Flu can hit the gut too: especially in children and with influenza B, the infection brings nausea, vomiting, and diarrhea, the 'stomach flu' symptoms that accompany the classic respiratory illness."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The flu vaccine is a bet on antibody: it teaches the body to make anti-hemagglutinin antibodies, but the virus's antigenic drift keeps changing that target, which is why the shot must be reformulated and given every year."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "The aching muscles are flu's signature: cytokines and direct infection produce the deep myalgia of the illness, and in children influenza can cause a benign acute myositis or, rarely, muscle-breaking rhabdomyolysis."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Influenza's spike clumps red cells: hemagglutinin binds the sialic acid on erythrocytes, agglutinating them — the reaction behind the classic hemagglutination and hemagglutination-inhibition assays used to type the virus and gauge immunity."
 ---
 
 # Influenza
@@ -315,3 +324,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the flu's machinery: spherical virions bristle with two spikes — hemagglutinin to latch onto cells and neuraminidase to escape them — the H and N proteins that name strains like H1N1 and that the vaccines target.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Severe influenza can drop the sodium: the inflammatory stress triggers SIADH, retaining water and diluting blood sodium, a hyponatremia that worsens the confusion and weakness of serious infection.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Flu can hit the gut too: especially in children and with influenza B, the infection brings nausea, vomiting, and diarrhea, the 'stomach flu' symptoms that accompany the classic respiratory illness.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The flu vaccine is a bet on antibody: it teaches the body to make anti-hemagglutinin antibodies, but the virus's antigenic drift keeps changing that target, which is why the shot must be reformulated and given every year.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — The aching muscles are flu's signature: cytokines and direct infection produce the deep myalgia of the illness, and in children influenza can cause a benign acute myositis or, rarely, muscle-breaking rhabdomyolysis.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Influenza's spike clumps red cells: hemagglutinin binds the sialic acid on erythrocytes, agglutinating them — the reaction behind the classic hemagglutination and hemagglutination-inhibition assays used to type the virus and gauge immunity.
