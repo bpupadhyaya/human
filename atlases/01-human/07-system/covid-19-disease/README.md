@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "COVID makes blood clot through activated platelets: the infection primes platelets and the endothelium toward thrombosis, driving the strokes, pulmonary emboli and microclots that mark severe disease—why anticoagulation is used."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Chest imaging gauges COVID pneumonia: CT scans read in X-ray photons reveal the hallmark peripheral ground-glass opacities, helping judge how far the lung injury has spread when oxygen levels fall."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Severe COVID can scar the lungs: the diffuse alveolar damage may heal with pulmonary fibrosis, leaving survivors with lasting breathlessness and reduced lung function long after the infection clears."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "COVID derails iron handling: ferritin soars as a marker of the hyperinflammatory state, while iron gets locked away from the blood, contributing to the anemia of inflammation in prolonged illness."
 ---
 
 # COVID-19 Disease
@@ -224,6 +233,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — COVID-19's defining danger is silent hypoxia: the virus damages the gas-exchange surface so oxygen falls, sometimes profoundly, before patients feel breathless—why pulse-oximeter monitoring became central to spotting deteriorating disease.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — COVID is not only a lung disease—it hits the gut: ACE2 is abundant on intestinal cells, so the virus infects the bowel, causing diarrhea and prolonged fecal shedding that underpins wastewater surveillance.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — COVID makes blood clot through activated platelets: the infection primes platelets and the endothelium toward thrombosis, driving the strokes, pulmonary emboli and microclots that mark severe disease—why anticoagulation is used.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Chest imaging gauges COVID pneumonia: CT scans read in X-ray photons reveal the hallmark peripheral ground-glass opacities, helping judge how far the lung injury has spread when oxygen levels fall.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Severe COVID can scar the lungs: the diffuse alveolar damage may heal with pulmonary fibrosis, leaving survivors with lasting breathlessness and reduced lung function long after the infection clears.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — COVID derails iron handling: ferritin soars as a marker of the hyperinflammatory state, while iron gets locked away from the blood, contributing to the anemia of inflammation in prolonged illness.
 
 ## Pathology
 

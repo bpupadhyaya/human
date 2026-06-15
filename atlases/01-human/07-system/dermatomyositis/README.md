@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/03-molecular/nf-kb
     relation: connects-to
     note: "NF-kB amplifies the inflammation of dermatomyositis: alongside the dominant type-I interferon signature, this switch drives the cytokines and adhesion molecules that bring immune cells into the inflamed muscle and skin."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Dermatomyositis is a photosensitive disease: its rashes flare in sun-exposed skin—the shawl and V-signs—so UV photons worsen the disease, while MRI imaging helps map inflamed muscle for biopsy."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Calcinosis hardens the tissues in dermatomyositis, especially the juvenile form: calcium-phosphate crystals deposit in skin and muscle, so phosphate as well as calcium drives this disfiguring, hard-to-treat complication."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Dermatomyositis can inflame the heart: myocarditis and conduction disturbances are underrecognized, and cardiac involvement is an important, sometimes silent contributor to the disease's mortality."
 ---
 
 # Dermatomyositis
@@ -292,6 +301,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Dermatomyositis can starve the blood of oxygen through lung scarring: its rapidly progressive interstitial lung disease, especially the anti-MDA5 type, wrecks gas exchange, making hypoxemia the disease's most lethal turn.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Dermatomyositis can attack the gut's vessels: especially in juvenile disease, a vasculopathy injures the intestinal lining, causing dysphagia, pain and even bowel perforation beyond the classic skin and muscle features.
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-kB amplifies the inflammation of dermatomyositis: alongside the dominant type-I interferon signature, this switch drives the cytokines and adhesion molecules that bring immune cells into the inflamed muscle and skin.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Dermatomyositis is a photosensitive disease: its rashes flare in sun-exposed skin—the shawl and V-signs—so UV photons worsen the disease, while MRI imaging helps map inflamed muscle for biopsy.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Calcinosis hardens the tissues in dermatomyositis, especially the juvenile form: calcium-phosphate crystals deposit in skin and muscle, so phosphate as well as calcium drives this disfiguring, hard-to-treat complication.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Dermatomyositis can inflame the heart: myocarditis and conduction disturbances are underrecognized, and cardiac involvement is an important, sometimes silent contributor to the disease's mortality.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
