@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Severe chronic asthma can strain the heart: sustained airway obstruction and low oxygen raise pressure in the lung's vessels, forcing the right ventricle to labor toward cor pulmonale, while high-dose beta-agonists quicken the pulse."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Long-standing asthma reshapes the airway wall: repeated inflammation lays down extra collagen beneath the epithelium, thickening the basement membrane in the remodeling that can fix some obstruction beyond what inhalers reverse."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Vagal acetylcholine tightens the airways: released onto muscarinic receptors it constricts bronchial smooth muscle and drives mucus, which is why anticholinergics like ipratropium and tiotropium relax the airways as add-on therapy."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Fat shapes a distinct asthma: in obese-asthma the adipocyte's inflammatory adipokines drive a non-eosinophilic, often steroid-resistant disease, one reason weight loss can improve control where inhalers fall short."
 ---
 
 # Asthma
@@ -292,6 +301,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons help corner asthma: the chest X-ray shows hyperinflation and excludes mimics, CT reveals mucus plugging and wall thickening, and measuring the light-based marker of exhaled nitric oxide gauges the eosinophilic inflammation guiding treatment.
 - `connects-to` → **[Prostaglandins (Eicosanoids)](../../03-molecular/prostaglandins/README.md)** — Eicosanoids drive the asthmatic airway: leukotrienes and prostaglandins released by mast cells clamp the bronchi shut and recruit inflammation, so leukotriene-blocking drugs ease asthma — and aspirin, by skewing this pathway, can trigger a severe attack.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Severe chronic asthma can strain the heart: sustained airway obstruction and low oxygen raise pressure in the lung's vessels, forcing the right ventricle to labor toward cor pulmonale, while high-dose beta-agonists quicken the pulse.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Long-standing asthma reshapes the airway wall: repeated inflammation lays down extra collagen beneath the epithelium, thickening the basement membrane in the remodeling that can fix some obstruction beyond what inhalers reverse.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Vagal acetylcholine tightens the airways: released onto muscarinic receptors it constricts bronchial smooth muscle and drives mucus, which is why anticholinergics like ipratropium and tiotropium relax the airways as add-on therapy.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Fat shapes a distinct asthma: in obese-asthma the adipocyte's inflammatory adipokines drive a non-eosinophilic, often steroid-resistant disease, one reason weight loss can improve control where inhalers fall short.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

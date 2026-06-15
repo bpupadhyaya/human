@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium quietly steadies the stress system disturbed here: it dampens the HPA axis and the NMDA receptors that drive neuronal excitability, so its depletion can sharpen the irritability and affective swings central to the disorder."
+  - target: 01-human/07-system/social-anxiety-disorder
+    relation: connects-to
+    note: "BPD rarely travels alone: anxiety disorders including social anxiety frequently coexist, the fear of rejection and hypersensitivity to judgment overlapping with the unstable relationships and abandonment terror at the heart of the disorder."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Sleep and its clock run awry: disrupted circadian rhythm and blunted melatonin are common in BPD, feeding the insomnia and night-time distress that worsen the emotional dysregulation and impulsivity of the day."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "The liver bears the brunt of crisis: with high rates of self-harm and impulsive overdose, paracetamol toxicity is a real danger in BPD, threatening acute liver failure — one reason safer prescribing and crisis planning matter so much."
 ---
 
 # Borderline Personality Disorder
@@ -323,6 +332,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — The wiring's insulation looks frayed in borderline personality: diffusion imaging finds reduced white-matter integrity in the tracts linking emotion centers to the prefrontal cortex, pointing to oligodendrocytes and faulty myelination behind the impulsive instability.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Borderline personality shortens life partly through the heart: chronic stress reactivity, poor sleep, smoking, and metabolic side effects of medication converge to raise cardiovascular disease, a major driver of the disorder's excess mortality.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium quietly steadies the stress system disturbed here: it dampens the HPA axis and the NMDA receptors that drive neuronal excitability, so its depletion can sharpen the irritability and affective swings central to the disorder.
+- `connects-to` → **[Social Anxiety Disorder](../social-anxiety-disorder/README.md)** — BPD rarely travels alone: anxiety disorders including social anxiety frequently coexist, the fear of rejection and hypersensitivity to judgment overlapping with the unstable relationships and abandonment terror at the heart of the disorder.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Sleep and its clock run awry: disrupted circadian rhythm and blunted melatonin are common in BPD, feeding the insomnia and night-time distress that worsen the emotional dysregulation and impulsivity of the day.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver bears the brunt of crisis: with high rates of self-harm and impulsive overdose, paracetamol toxicity is a real danger in BPD, threatening acute liver failure — one reason safer prescribing and crisis planning matter so much.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
