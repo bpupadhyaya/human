@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "If a malignant meningioma spreads, the liver is among its targets: after the lungs, hematogenous metastases can lodge in the liver and bone, the unusual distant spread of an aggressive grade."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies grade and target the tumor: EMA, SSTR2, and progesterone-receptor stains confirm a meningioma and a high Ki-67 antibody index flags the aggressive grades, while the SSTR2 it displays makes it visible on DOTATATE imaging and a peptide-therapy target."
+  - target: 01-human/04-cellular/astrocyte
+    relation: connects-to
+    note: "Though it grows outside the brain, a meningioma still irritates it: the slow dural mass compresses cortex and provokes peritumoral edema and reactive astrocyte gliosis in the underlying brain, the swelling that causes seizures and focal deficits."
+  - target: 01-human/06-organ/placenta
+    relation: connects-to
+    note: "Pregnancy can wake a meningioma: many carry progesterone receptors and visibly enlarge under the hormone surge that the placenta drives, sometimes turning symptomatic in the third trimester and shrinking again after delivery."
 ---
 
 # Meningioma
@@ -300,6 +309,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Meningiomas can thicken the skull they sit against: en plaque tumors provoke reactive hyperostosis of the overlying bone, and some arise within the marrow-bearing skull itself as intraosseous meningiomas.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Rarely a meningioma breaks through to the scalp: extracranial extension or a primary cutaneous meningioma forms a firm scalp nodule, the tumor reaching the skin from the meninges beneath the skull.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — If a malignant meningioma spreads, the liver is among its targets: after the lungs, hematogenous metastases can lodge in the liver and bone, the unusual distant spread of an aggressive grade.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies grade and target the tumor: EMA, SSTR2, and progesterone-receptor stains confirm a meningioma and a high Ki-67 antibody index flags the aggressive grades, while the SSTR2 it displays makes it visible on DOTATATE imaging and a peptide-therapy target.
+- `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Though it grows outside the brain, a meningioma still irritates it: the slow dural mass compresses cortex and provokes peritumoral edema and reactive astrocyte gliosis in the underlying brain, the swelling that causes seizures and focal deficits.
+- `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy can wake a meningioma: many carry progesterone receptors and visibly enlarge under the hormone surge that the placenta drives, sometimes turning symptomatic in the third trimester and shrinking again after delivery.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

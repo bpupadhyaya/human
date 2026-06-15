@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "MEN4 can grow carcinoids in the chest: like MEN1 it predisposes to bronchial and thymic neuroendocrine tumors, foregut carcinoids that demand surveillance of the lungs alongside the pancreas and pituitary."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies pin down the diagnosis: chromogranin A and synaptophysin stains confirm MEN4's neuroendocrine tumors, while loss of the p27 protein (the CDKN1B product) on immunohistochemistry hints at the defect that DNA sequencing then confirms."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The duodenum joins the tumor map: MEN4, like MEN1, sprouts gastrinomas and other neuroendocrine tumors in the duodenum and small bowel, gut foregut lesions whose acid-driving hormones cause ulcers and diarrhea."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "High calcium dulls the nerves: MEN4's near-universal hyperparathyroidism floods the blood with calcium, and excess calcium slows neurons into the fatigue, confusion, and depressive 'moans' that are often the first clue to the parathyroid tumors."
 ---
 
 # MEN4 Syndrome
@@ -295,6 +304,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy confirms MEN4's tumors are neuroendocrine: like MEN1's, its pancreatic and pituitary growths brim with dense-core secretory granules, the hormone-packed ultrastructure of cells that signal through the bloodstream.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MEN4's hyperparathyroidism wears down bone: excess parathyroid hormone spurs osteoclasts to resorb the skeleton into osteitis fibrosa, thinning the marrow-bearing bones much as in its MEN1 cousin.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — MEN4 can grow carcinoids in the chest: like MEN1 it predisposes to bronchial and thymic neuroendocrine tumors, foregut carcinoids that demand surveillance of the lungs alongside the pancreas and pituitary.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies pin down the diagnosis: chromogranin A and synaptophysin stains confirm MEN4's neuroendocrine tumors, while loss of the p27 protein (the CDKN1B product) on immunohistochemistry hints at the defect that DNA sequencing then confirms.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The duodenum joins the tumor map: MEN4, like MEN1, sprouts gastrinomas and other neuroendocrine tumors in the duodenum and small bowel, gut foregut lesions whose acid-driving hormones cause ulcers and diarrhea.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — High calcium dulls the nerves: MEN4's near-universal hyperparathyroidism floods the blood with calcium, and excess calcium slows neurons into the fatigue, confusion, and depressive 'moans' that are often the first clue to the parathyroid tumors.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
