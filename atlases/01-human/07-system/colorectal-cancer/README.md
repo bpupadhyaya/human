@@ -160,6 +160,15 @@ cross_links:
   - target: 03-medicine/03-food/dietary-fiber
     relation: connects-to
     note: "Fiber guards the colon: gut bacteria ferment dietary fiber into butyrate that nourishes colonocytes and curbs malignant change, so a fiber-rich diet lowers colorectal-cancer risk while red and processed meat raise it."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Colorectal cancer thickens the blood: tumor procoagulants, surgery, and chemotherapy combine to make deep-vein thrombosis and pulmonary embolism common, so clot prophylaxis is routine around treatment of this cancer."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The 5-FU backbone can stun the heart: fluoropyrimidine chemotherapy (5-FU, capecitabine) provokes coronary vasospasm and direct cardiomyocyte injury, causing chest pain and even infarction that interrupts colorectal cancer treatment."
+  - target: 01-human/03-molecular/pik3ca
+    relation: connects-to
+    note: "PIK3CA links the tumor to aspirin: mutations in this gene activate PI3K signaling in a subset of colorectal cancers, and the chemopreventive benefit of aspirin appears concentrated in these PIK3CA-mutant tumors."
 ---
 
 # Colorectal Cancer
@@ -323,6 +332,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies monitor and steer colorectal cancer: the CEA blood marker, read by immunoassay, tracks recurrence, while mismatch-repair (MMR) stains flag the MSI-high tumors that respond to checkpoint immunotherapy and prompt Lynch testing.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The FOLFOX backbone empties the marrow: the oxaliplatin-and-fluorouracil chemotherapy is myelosuppressive, dropping neutrophil counts between cycles so that febrile neutropenia is a recurring hazard of colorectal-cancer treatment.
 - `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Fiber guards the colon: gut bacteria ferment dietary fiber into butyrate that nourishes colonocytes and curbs malignant change, so a fiber-rich diet lowers colorectal-cancer risk while red and processed meat raise it.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Colorectal cancer thickens the blood: tumor procoagulants, surgery, and chemotherapy combine to make deep-vein thrombosis and pulmonary embolism common, so clot prophylaxis is routine around treatment of this cancer.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The 5-FU backbone can stun the heart: fluoropyrimidine chemotherapy (5-FU, capecitabine) provokes coronary vasospasm and direct cardiomyocyte injury, causing chest pain and even infarction that interrupts colorectal cancer treatment.
+- `connects-to` → **[PIK3CA](../../03-molecular/pik3ca/README.md)** — PIK3CA links the tumor to aspirin: mutations in this gene activate PI3K signaling in a subset of colorectal cancers, and the chemopreventive benefit of aspirin appears concentrated in these PIK3CA-mutant tumors.
 
 ---
 
