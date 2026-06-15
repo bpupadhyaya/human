@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/natural-killer-cell
     relation: connects-to
     note: "Bloom syndrome dims immune surveillance: a mild immunodeficiency weakens natural killer and antibody responses, leaving patients prone to infections and less able to cull the cancerous cells their unstable DNA spawns."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Bloom syndrome's butterfly facial rash is vascular: sun exposure dilates dermal endothelial-lined vessels into the telangiectatic erythema across the cheeks that marks the disease."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "Bloom syndrome's commonest cancers strike the gut lining: the unstable DNA of the intestinal epithelium spawns early colorectal and other GI cancers, demanding cancer surveillance from a young age."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Bloom syndrome's universal cancer risk includes the liver: its profound genomic instability predisposes to tumors across the body, hepatocellular carcinoma among the many sites."
 ---
 
 # Bloom Syndrome
@@ -297,6 +306,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bloom syndrome makes the marrow turn leukemic: its runaway genomic instability seeds mutations in blood-forming cells, so leukemias and lymphomas arise from the bone marrow at strikingly young ages.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Bloom syndrome burdens the pancreas: patients commonly develop diabetes as the gland's insulin output falters, and their broad cancer predisposition includes pancreatic tumors among many sites.
 - `connects-to` → **[Natural Killer Cell](../../04-cellular/natural-killer-cell/README.md)** — Bloom syndrome dims immune surveillance: a mild immunodeficiency weakens natural killer and antibody responses, leaving patients prone to infections and less able to cull the cancerous cells their unstable DNA spawns.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Bloom syndrome's butterfly facial rash is vascular: sun exposure dilates dermal endothelial-lined vessels into the telangiectatic erythema across the cheeks that marks the disease.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Bloom syndrome's commonest cancers strike the gut lining: the unstable DNA of the intestinal epithelium spawns early colorectal and other GI cancers, demanding cancer surveillance from a young age.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Bloom syndrome's universal cancer risk includes the liver: its profound genomic instability predisposes to tumors across the body, hepatocellular carcinoma among the many sites.
 
 ---
 

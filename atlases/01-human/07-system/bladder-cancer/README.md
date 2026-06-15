@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Bladder cancer enlists fibroblasts to invade: cancer-associated fibroblasts in the tumor stroma secrete signals that drive the tumor through the bladder wall, the muscle invasion that separates lethal from curable disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "Bladder cancer and its treatment scar the bladder: a desmoplastic tumor stroma and radiation-induced fibrosis stiffen the wall, shrinking capacity and complicating function after therapy."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Bladder cancer is vascular: VEGF recruits endothelial cells to feed the tumor, and the painless visible hematuria that first reveals it comes partly from these fragile new vessels bleeding into the urine."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Bladder cancer spreads to the liver: along with lung and bone, the liver is a common metastatic site, so its imaging is part of staging advanced, incurable disease."
 ---
 
 # Bladder Cancer
@@ -288,6 +297,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Bladder cancer spends the body's iron: painless blood in the urine is its cardinal sign, and the ongoing loss drains iron into a deficiency anemia that often prompts the workup that finds the tumor.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Bladder cancer favors the lungs when it spreads: the lung is among its commonest metastatic sites, so chest imaging is part of staging, and lung lesions often mark advanced, incurable disease.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Bladder cancer enlists fibroblasts to invade: cancer-associated fibroblasts in the tumor stroma secrete signals that drive the tumor through the bladder wall, the muscle invasion that separates lethal from curable disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Bladder cancer and its treatment scar the bladder: a desmoplastic tumor stroma and radiation-induced fibrosis stiffen the wall, shrinking capacity and complicating function after therapy.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Bladder cancer is vascular: VEGF recruits endothelial cells to feed the tumor, and the painless visible hematuria that first reveals it comes partly from these fragile new vessels bleeding into the urine.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Bladder cancer spreads to the liver: along with lung and bone, the liver is a common metastatic site, so its imaging is part of staging advanced, incurable disease.
 
 ---
 
