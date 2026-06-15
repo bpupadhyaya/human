@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietin is a hidden driver of proliferative retinopathy: the ischemic retina pours EPO into the vitreous where, alongside VEGF, it independently spurs the fragile new vessels that bleed and scar."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows where diabetic retinopathy begins: retinal capillaries thicken their basement membrane and lose the supporting mural cells, leaving the weakened, leaky walls that bulge into the first microaneurysms."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The loss of the capillaries' mural cells starts the damage: pericytes — the contractile, smooth-muscle-like cells wrapping retinal vessels — die off early in diabetes, leaving outpouchings and leaky, unstable capillaries behind."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Low magnesium tracks with worsening eyes: magnesium deficiency is common in diabetes and is linked to faster progression of retinopathy, likely through its effects on insulin sensitivity and the vascular endothelium."
 ---
 
 # Diabetic Retinopathy
@@ -281,6 +290,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The retina is a window on the brain's vessels: diabetic retinopathy signals similar cerebral small-vessel damage, so its severity predicts stroke and cognitive decline elsewhere in the body.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Diabetes stiffens red blood cells and makes them clump: less deformable erythrocytes struggle through the retina's tiny capillaries, slowing flow and feeding the ischemia that drives new-vessel growth.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin is a hidden driver of proliferative retinopathy: the ischemic retina pours EPO into the vitreous where, alongside VEGF, it independently spurs the fragile new vessels that bleed and scar.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows where diabetic retinopathy begins: retinal capillaries thicken their basement membrane and lose the supporting mural cells, leaving the weakened, leaky walls that bulge into the first microaneurysms.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The loss of the capillaries' mural cells starts the damage: pericytes — the contractile, smooth-muscle-like cells wrapping retinal vessels — die off early in diabetes, leaving outpouchings and leaky, unstable capillaries behind.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Low magnesium tracks with worsening eyes: magnesium deficiency is common in diabetes and is linked to faster progression of retinopathy, likely through its effects on insulin sensitivity and the vascular endothelium.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

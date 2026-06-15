@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Dermatomyositis can inflame the heart: myocarditis and conduction disturbances are underrecognized, and cardiac involvement is an important, sometimes silent contributor to the disease's mortality."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reveals dermatomyositis's interferon signature: tubuloreticular inclusions — undulating tubule arrays — appear inside the capillary endothelial cells of muscle and skin, a hallmark of the type-I-interferon-driven vascular injury."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Severe muscle breakdown can flood the kidney: when dermatomyositis inflames muscle badly enough to cause rhabdomyolysis, released myoglobin clogs the renal tubules and can precipitate acute kidney injury."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Dermatomyositis announces itself around the eyes: the heliotrope rash is a violaceous discoloration of the upper eyelids, often with swelling, one of the most specific skin signs that points straight to the diagnosis."
 ---
 
 # Dermatomyositis
@@ -304,6 +313,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Dermatomyositis is a photosensitive disease: its rashes flare in sun-exposed skin—the shawl and V-signs—so UV photons worsen the disease, while MRI imaging helps map inflamed muscle for biopsy.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Calcinosis hardens the tissues in dermatomyositis, especially the juvenile form: calcium-phosphate crystals deposit in skin and muscle, so phosphate as well as calcium drives this disfiguring, hard-to-treat complication.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Dermatomyositis can inflame the heart: myocarditis and conduction disturbances are underrecognized, and cardiac involvement is an important, sometimes silent contributor to the disease's mortality.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reveals dermatomyositis's interferon signature: tubuloreticular inclusions — undulating tubule arrays — appear inside the capillary endothelial cells of muscle and skin, a hallmark of the type-I-interferon-driven vascular injury.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Severe muscle breakdown can flood the kidney: when dermatomyositis inflames muscle badly enough to cause rhabdomyolysis, released myoglobin clogs the renal tubules and can precipitate acute kidney injury.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Dermatomyositis announces itself around the eyes: the heliotrope rash is a violaceous discoloration of the upper eyelids, often with swelling, one of the most specific skin signs that points straight to the diagnosis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
