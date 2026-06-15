@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "The blood count carries a prognosis: a high neutrophil-to-lymphocyte ratio marks an inflammatory, immunosuppressive state that predicts poorer response to checkpoint immunotherapy in melanoma, a cheap clue read straight off a routine blood test."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Immunotherapy can turn on the thyroid: the checkpoint inhibitors that transformed melanoma treatment commonly trigger autoimmune thyroiditis, causing transient hyperthyroidism then lasting hypothyroidism — one of the most frequent immune-related side effects."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Melanoma is the tumor most apt to cross the placenta: in pregnancy it can spread to the placenta and rarely the fetus, and because it is hormonally responsive, its behavior and management in pregnant patients need special care."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets help melanoma spread: circulating tumor cells cloak themselves in platelets to hide from natural killer cells and to lodge in distant vessels, a partnership that aids metastasis and makes platelets a studied antimetastatic target."
 ---
 
 # Melanoma
@@ -293,6 +302,9 @@ cross_links:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both name and fight melanoma: SOX10, S100, HMB-45, and Melan-A stains identify amelanotic tumors on biopsy, while the monoclonal antibodies against PD-1 and CTLA-4 unleash the immune attack that has transformed advanced-melanoma survival.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Melanoma sits at the sun's double edge: the same UV that makes vitamin D in the skin also drives the cancer, yet low vitamin D levels track with thicker tumors and worse outcomes, so repletion is studied even as sun avoidance is urged.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count carries a prognosis: a high neutrophil-to-lymphocyte ratio marks an inflammatory, immunosuppressive state that predicts poorer response to checkpoint immunotherapy in melanoma, a cheap clue read straight off a routine blood test.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Immunotherapy can turn on the thyroid: the checkpoint inhibitors that transformed melanoma treatment commonly trigger autoimmune thyroiditis, causing transient hyperthyroidism then lasting hypothyroidism — one of the most frequent immune-related side effects.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Melanoma is the tumor most apt to cross the placenta: in pregnancy it can spread to the placenta and rarely the fetus, and because it is hormonally responsive, its behavior and management in pregnant patients need special care.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets help melanoma spread: circulating tumor cells cloak themselves in platelets to hide from natural killer cells and to lodge in distant vessels, a partnership that aids metastasis and makes platelets a studied antimetastatic target.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
