@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Pancreatic cancer turns platelets into clots: it is the classic cause of Trousseau syndrome, activating platelets to produce migratory thrombophlebitis and venous clots that can precede the diagnosis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Pancreatic cancer crawls along nerves: perineural invasion is a hallmark, the tumor tracking down the nerve sheaths around the gland to cause the relentless boring back pain — and to recur after surgery by routes the scalpel can't reach."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "A pancreatic tumor can throttle the stomach: cancers of the head and body grow into the adjacent duodenum and gastric outlet, blocking the passage of food so that vomiting and gastric obstruction become a late, distressing complication."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "After the liver, the lung is pancreatic cancer's next stop: hematogenous metastases seed the lungs, and a pattern of lung-only spread carries a somewhat better outlook than the more usual liver and peritoneal disease."
 ---
 
 # Pancreatic Cancer
@@ -287,6 +296,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Tobacco's carbon carcinogens drive pancreatic cancer: smoking is the leading modifiable cause, its combustion products reaching the pancreas to mutate its cells, roughly doubling the risk.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Pancreatic body and tail tumors clot the splenic vein: lying against the spleen's vein, they thrombose it, causing gastric varices and an enlarged spleen (left-sided portal hypertension).
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Pancreatic cancer turns platelets into clots: it is the classic cause of Trousseau syndrome, activating platelets to produce migratory thrombophlebitis and venous clots that can precede the diagnosis.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Pancreatic cancer crawls along nerves: perineural invasion is a hallmark, the tumor tracking down the nerve sheaths around the gland to cause the relentless boring back pain — and to recur after surgery by routes the scalpel can't reach.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — A pancreatic tumor can throttle the stomach: cancers of the head and body grow into the adjacent duodenum and gastric outlet, blocking the passage of food so that vomiting and gastric obstruction become a late, distressing complication.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — After the liver, the lung is pancreatic cancer's next stop: hematogenous metastases seed the lungs, and a pattern of lung-only spread carries a somewhat better outlook than the more usual liver and peritoneal disease.
 
 ---
 

@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "Clear cell ovarian carcinoma is born in endometriosis: it arises within fibrotic, blood-stained endometriotic cysts, whose chronic inflammation and scarring set the stage for malignant transformation."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy explains the 'clear' in clear cell: the cytoplasm is packed with glycogen that dissolves away in processing, leaving the empty, water-clear cells and bulging hobnail nuclei that name the tumor."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Clear cell carcinoma is the great clotter of ovarian cancers: it carries the highest rate of venous thromboembolism, activating platelets and the clotting cascade so strongly that a deep vein thrombosis can be the first sign of the tumor."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "When clear cell carcinoma spreads beyond the pelvis, the liver is a frequent target: hematogenous metastases lodge there, and liver involvement marks the advanced, chemoresistant disease that makes this subtype so hard to treat."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -301,6 +310,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Clear cell ovarian carcinoma mirrors kidney cancer: it shares the HIF-driven clear-cell biology of renal clear cell carcinoma, and as a pelvic mass it can obstruct the ureters and kidneys.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Clear cell ovarian carcinoma is hypervascular: HIF and VEGF drive endothelial cells to build a rich blood supply, like its renal counterpart, a feature anti-angiogenic therapy targets.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Clear cell ovarian carcinoma is born in endometriosis: it arises within fibrotic, blood-stained endometriotic cysts, whose chronic inflammation and scarring set the stage for malignant transformation.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy explains the 'clear' in clear cell: the cytoplasm is packed with glycogen that dissolves away in processing, leaving the empty, water-clear cells and bulging hobnail nuclei that name the tumor.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Clear cell carcinoma is the great clotter of ovarian cancers: it carries the highest rate of venous thromboembolism, activating platelets and the clotting cascade so strongly that a deep vein thrombosis can be the first sign of the tumor.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — When clear cell carcinoma spreads beyond the pelvis, the liver is a frequent target: hematogenous metastases lodge there, and liver involvement marks the advanced, chemoresistant disease that makes this subtype so hard to treat.
 
 ---
 
