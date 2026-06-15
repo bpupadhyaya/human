@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Heart failure floods the body with water-holding hormone: the failing circulation triggers vasopressin release, which retains free water and dilutes the blood's sodium into the hyponatremia that flags severe disease and is targeted by vaptan drugs."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies both diagnose and cause heart failure: BNP and NT-proBNP are read by immunoassay to confirm and grade it, while autoantibody-driven myocarditis — including the immune-checkpoint kind — is a reversible cause worth catching early."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The failing heart over-revs its nerves: baroreceptor signaling drives a maladaptive sympathetic surge from autonomic neurons that strains the myocardium further — the vicious cycle beta-blockers interrupt to improve survival."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Heart failure reaches the bedroom and the delivery room: erectile dysfunction is common from the disease and its drugs, while pregnancy's volume load is hazardous in cardiomyopathy and can itself trigger peripartum heart failure."
 ---
 
 # Heart Failure
@@ -260,6 +269,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The thyroid sets the heart's tempo: hyperthyroidism drives high-output failure and atrial fibrillation while hypothyroidism weakens contraction and slows the rate, so thyroid function is checked in new or worsening heart failure — and amiodarone can derange it.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Advanced heart failure wastes the body: cardiac cachexia and a congested, protein-losing gut drop albumin, and the low level both worsens the edema through reduced oncotic pressure and marks a grim prognosis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Heart failure floods the body with water-holding hormone: the failing circulation triggers vasopressin release, which retains free water and dilutes the blood's sodium into the hyponatremia that flags severe disease and is targeted by vaptan drugs.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both diagnose and cause heart failure: BNP and NT-proBNP are read by immunoassay to confirm and grade it, while autoantibody-driven myocarditis — including the immune-checkpoint kind — is a reversible cause worth catching early.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The failing heart over-revs its nerves: baroreceptor signaling drives a maladaptive sympathetic surge from autonomic neurons that strains the myocardium further — the vicious cycle beta-blockers interrupt to improve survival.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Heart failure reaches the bedroom and the delivery room: erectile dysfunction is common from the disease and its drugs, while pregnancy's volume load is hazardous in cardiomyopathy and can itself trigger peripartum heart failure.
 
 ## Pathology
 

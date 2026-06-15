@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Why hemophilia bleeds late, not instantly: the first response to injury — reflex constriction of the vessel's smooth muscle and the platelet plug — is intact, so small cuts seal, but the missing factor VIII fails the later step, letting deep bleeds well up hours afterward."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies are hemophilia's nemesis and its newest cure: inhibitor alloantibodies against infused factor VIII are the dreaded complication that neutralizes treatment, while emicizumab, a bispecific antibody bridging factors IXa and X, now prevents bleeds without it."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "A deep bleed can crush a nerve: a tense hematoma in the iliopsoas or forearm compresses the peripheral nerve running through it, causing a compartment syndrome with numbness, weakness, and palsy that needs urgent factor replacement."
+  - target: 01-human/07-system/hepatitis-b
+    relation: connects-to
+    note: "The old treatment carried hidden viruses: before viral inactivation, plasma-derived factor VIII concentrates transmitted hepatitis B and C and HIV to a generation of patients, a tragedy that drove the shift to recombinant factor and vaccination."
 ---
 
 # Hemophilia A
@@ -316,6 +325,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Hemophilia's bleeds can crush nerves: a deep muscle bleed — the classic iliopsoas hematoma — compresses the femoral nerve into palsy, while an intracranial hemorrhage destroys neurons directly, the most feared complication.
 - `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — Hemophilia quietly weakens the skeleton: recurrent joint bleeds destroy cartilage and bone, and reduced activity plus chronic inflammation tip the osteoblast-osteoclast balance toward the low bone density common in these patients.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Why hemophilia bleeds late, not instantly: the first response to injury — reflex constriction of the vessel's smooth muscle and the platelet plug — is intact, so small cuts seal, but the missing factor VIII fails the later step, letting deep bleeds well up hours afterward.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies are hemophilia's nemesis and its newest cure: inhibitor alloantibodies against infused factor VIII are the dreaded complication that neutralizes treatment, while emicizumab, a bispecific antibody bridging factors IXa and X, now prevents bleeds without it.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — A deep bleed can crush a nerve: a tense hematoma in the iliopsoas or forearm compresses the peripheral nerve running through it, causing a compartment syndrome with numbness, weakness, and palsy that needs urgent factor replacement.
+- `connects-to` → **[Hepatitis B](../hepatitis-b/README.md)** — The old treatment carried hidden viruses: before viral inactivation, plasma-derived factor VIII concentrates transmitted hepatitis B and C and HIV to a generation of patients, a tragedy that drove the shift to recombinant factor and vaccination.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
