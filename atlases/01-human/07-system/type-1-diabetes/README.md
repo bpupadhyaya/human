@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Diabetic ketoacidosis is also a sodium crisis: sky-high glucose pulls water into the blood and lowers the measured sodium, while the osmotic diuresis drains salt and water — making careful sodium and fluid replacement central to treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Type 1 diabetes leaves an autoantibody trail: antibodies against GAD65, IA-2, ZnT8, and insulin appear before symptoms, marking the autoimmune attack on the islets and letting at-risk children be identified years ahead."
+  - target: 01-human/03-molecular/hemoglobin
+    relation: connects-to
+    note: "Control is read off the hemoglobin: glucose glycates the red-cell protein into HbA1c, whose level averages months of blood sugar and guides how tightly the insulin regimen is run to stave off complications."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The eye is an early casualty: years of high glucose damage the retina's microvessels into diabetic retinopathy, the leading cause of blindness in working-age adults, so regular retinal screening is built into care."
 ---
 
 # Type 1 Diabetes
@@ -279,6 +288,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the islet under attack: beta cells packed with insulin secretory granules sit besieged by infiltrating T cells in insulitis, the autoimmune assault that wipes out the body's only source of insulin.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The red cell keeps the diabetic's long-term score: glucose binds irreversibly to hemoglobin over the erythrocyte's lifespan, so the HbA1c reflects months of average sugar and guides how tightly the insulin is dosed.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Diabetic ketoacidosis is also a sodium crisis: sky-high glucose pulls water into the blood and lowers the measured sodium, while the osmotic diuresis drains salt and water — making careful sodium and fluid replacement central to treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Type 1 diabetes leaves an autoantibody trail: antibodies against GAD65, IA-2, ZnT8, and insulin appear before symptoms, marking the autoimmune attack on the islets and letting at-risk children be identified years ahead.
+- `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — Control is read off the hemoglobin: glucose glycates the red-cell protein into HbA1c, whose level averages months of blood sugar and guides how tightly the insulin regimen is run to stave off complications.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The eye is an early casualty: years of high glucose damage the retina's microvessels into diabetic retinopathy, the leading cause of blindness in working-age adults, so regular retinal screening is built into care.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

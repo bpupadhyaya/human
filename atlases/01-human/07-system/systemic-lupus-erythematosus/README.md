@@ -142,6 +142,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D runs low in lupus by necessity: patients must avoid the sun that triggers flares, so deficiency is near-universal — and low levels themselves are linked to more disease activity, making supplementation routine."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Lupus is defined by its autoantibodies: ANA screens for it, anti-dsDNA and anti-Sm are specific and anti-dsDNA tracks flares, and these antibodies form the immune complexes that deposit and inflame organ after organ."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Lupus can attack the brain: neuropsychiatric lupus brings seizures, psychosis, and cognitive fog from autoantibodies, vasculitis, and clots injuring neurons — one of its most varied and hardest-to-diagnose faces."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Lupus turns on the platelets: immune destruction causes a thrombocytopenia that can be the presenting sign, and when antiphospholipid antibodies join in, the same blood paradoxically clots instead of bleeds."
 ---
 
 # Systemic Lupus Erythematosus
@@ -307,6 +316,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy grades lupus nephritis: immune complexes pile up as 'wire-loop' deposits beneath the glomerular endothelium, and tubuloreticular inclusions inside it betray the type-I-interferon storm driving the disease.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Lupus and its treatment both threaten the eye: retinal vasculitis and dry-eye disease come from the illness, while the hydroxychloroquine that controls it can slowly damage the retina, demanding lifelong eye screening.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D runs low in lupus by necessity: patients must avoid the sun that triggers flares, so deficiency is near-universal — and low levels themselves are linked to more disease activity, making supplementation routine.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Lupus is defined by its autoantibodies: ANA screens for it, anti-dsDNA and anti-Sm are specific and anti-dsDNA tracks flares, and these antibodies form the immune complexes that deposit and inflame organ after organ.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Lupus can attack the brain: neuropsychiatric lupus brings seizures, psychosis, and cognitive fog from autoantibodies, vasculitis, and clots injuring neurons — one of its most varied and hardest-to-diagnose faces.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Lupus turns on the platelets: immune destruction causes a thrombocytopenia that can be the presenting sign, and when antiphospholipid antibodies join in, the same blood paradoxically clots instead of bleeds.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
