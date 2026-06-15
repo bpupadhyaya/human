@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "Parkinson's smolders with TNF-α: activated microglia pour out this cytokine in the affected brain, and the chronic neuroinflammation it drives is thought to accelerate the loss of dopamine neurons."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Parkinson's can be imaged: a DaTscan uses radioactive photons to show the depleted dopamine terminals in the striatum, separating true Parkinson's from tremor that merely mimics it."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Parkinson's leaves traces in the skin: alpha-synuclein deposits can be found in skin nerve biopsies as an emerging diagnostic test, and seborrheic dermatitis is a common early sign."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "Where alpha-synuclein lodges decides the disease: when it accumulates in oligodendrocytes rather than neurons, the result is multiple system atrophy, a faster Parkinson-plus disorder."
 ---
 
 # Parkinson's Disease
@@ -298,6 +307,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Parkinson's may begin at the synapse: alpha-synuclein normally works at presynaptic terminals, and its misfolding cripples dopamine release and synaptic function long before neurons die—so the disease is in part a failure of synapses, not just cells.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Parkinson's may start in the gut: alpha-synuclein clumps appear in the large intestine's nerves years early, constipation is among the first symptoms, and the pathology may climb the vagus nerve from bowel to brain.
 - `connects-to` → **[TNF-α (Tumor Necrosis Factor-alpha)](../../03-molecular/tnf-alpha/README.md)** — Parkinson's smolders with TNF-α: activated microglia pour out this cytokine in the affected brain, and the chronic neuroinflammation it drives is thought to accelerate the loss of dopamine neurons.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Parkinson's can be imaged: a DaTscan uses radioactive photons to show the depleted dopamine terminals in the striatum, separating true Parkinson's from tremor that merely mimics it.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Parkinson's leaves traces in the skin: alpha-synuclein deposits can be found in skin nerve biopsies as an emerging diagnostic test, and seborrheic dermatitis is a common early sign.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Where alpha-synuclein lodges decides the disease: when it accumulates in oligodendrocytes rather than neurons, the result is multiple system atrophy, a faster Parkinson-plus disorder.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

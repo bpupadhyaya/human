@@ -134,6 +134,15 @@ cross_links:
   - target: 01-human/04-cellular/b-cell
     relation: connects-to
     note: "In PANDAS, B cells turn OCD on suddenly: a strep infection makes the immune system produce cross-reactive antibodies that attack the basal ganglia, triggering abrupt-onset OCD and tics in susceptible children."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Brain imaging reveals OCD's overactive circuit: PET and fMRI photons show a hyperactive loop linking the orbitofrontal cortex, striatum and thalamus, the target even of radiosurgical capsulotomy in refractory cases."
+  - target: 01-human/04-cellular/oligodendrocyte
+    relation: connects-to
+    note: "OCD shows altered white matter: the oligodendrocytes that myelinate the cortico-striatal tracts shape how fast the circuit signals, and changes in these connections appear in diffusion imaging studies."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "The gut may sway OCD: emerging work ties the intestinal microbiome to anxiety and compulsive behavior through the gut-brain axis, hinting the bowel's microbes influence the disorder's severity."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -297,6 +306,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — OCD is increasingly seen as a synapse disorder: genes for the glutamatergic synapse (like SAPAP3) disturb signaling in the cortico-striatal loop, so faulty synaptic wiring underlies the circuit that locks into obsessions and compulsions.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — OCD's signaling leans on calcium: voltage-gated calcium-channel genes implicated across psychiatric disorders shape the synaptic plasticity of the OCD circuit, tying ion flux to how compulsive habits are learned and held.
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — In PANDAS, B cells turn OCD on suddenly: a strep infection makes the immune system produce cross-reactive antibodies that attack the basal ganglia, triggering abrupt-onset OCD and tics in susceptible children.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging reveals OCD's overactive circuit: PET and fMRI photons show a hyperactive loop linking the orbitofrontal cortex, striatum and thalamus, the target even of radiosurgical capsulotomy in refractory cases.
+- `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — OCD shows altered white matter: the oligodendrocytes that myelinate the cortico-striatal tracts shape how fast the circuit signals, and changes in these connections appear in diffusion imaging studies.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut may sway OCD: emerging work ties the intestinal microbiome to anxiety and compulsive behavior through the gut-brain axis, hinting the bowel's microbes influence the disorder's severity.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
