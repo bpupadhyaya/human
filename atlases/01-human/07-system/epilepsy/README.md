@@ -166,6 +166,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Valproate quietly drops the platelets: the widely used anti-seizure drug causes a dose-related thrombocytopenia and platelet dysfunction, watched especially before surgery or when bleeding appears."
+  - target: 01-human/07-system/meningioma
+    relation: connects-to
+    note: "A slow-growing tumor can announce itself as a seizure: a meningioma pressing on the cortex irritates the neurons beneath it, so a new seizure in an adult prompts brain imaging to find such a structural cause."
+  - target: 01-human/07-system/west-nile-virus
+    relation: connects-to
+    note: "Brain infection sparks seizures: West Nile and other encephalitides inflame the cortex into acute seizures, and the scar they leave can become a focus for later epilepsy."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation lowers the seizure threshold: seizures trigger a surge of IL-6 and other cytokines, and this neuroinflammation in turn makes neurons more excitable, a feed-forward loop now seen as part of epileptogenesis."
 ---
 
 # Epilepsy
@@ -367,6 +376,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Some seizures are autoimmune: antibodies against NMDA-receptor or LGI1 cause an encephalitis whose seizures resist standard drugs but respond to immunotherapy, a treatable cause now sought in new-onset, unexplained epilepsy.
 - `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Long-term seizure drugs thin the bones: enzyme-inducing anti-seizure medicines speed vitamin D breakdown, lowering calcium and driving the osteomalacia and osteoporosis that leave epilepsy patients prone to fractures.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Valproate quietly drops the platelets: the widely used anti-seizure drug causes a dose-related thrombocytopenia and platelet dysfunction, watched especially before surgery or when bleeding appears.
+- `connects-to` → **[Meningioma](../meningioma/README.md)** — A slow-growing tumor can announce itself as a seizure: a meningioma pressing on the cortex irritates the neurons beneath it, so a new seizure in an adult prompts brain imaging to find such a structural cause.
+- `connects-to` → **[West Nile Virus](../west-nile-virus/README.md)** — Brain infection sparks seizures: West Nile and other encephalitides inflame the cortex into acute seizures, and the scar they leave can become a focus for later epilepsy.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation lowers the seizure threshold: seizures trigger a surge of IL-6 and other cytokines, and this neuroinflammation in turn makes neurons more excitable, a feed-forward loop now seen as part of epileptogenesis.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
