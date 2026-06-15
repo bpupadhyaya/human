@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Platinum chemotherapy wastes magnesium: the carboplatin paired with paclitaxel injures the kidney's tubular handling of the mineral, so magnesium is checked and replaced through endometrial cancer treatment."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies now classify and treat it: mismatch-repair and p53 immunostains sort endometrial cancers into molecular groups, and the MMR-deficient tumors respond to checkpoint antibodies like dostarlimab and pembrolizumab."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The carboplatin-paclitaxel backbone empties the marrow: both drugs are myelosuppressive, dropping neutrophil counts between cycles so that growth-factor support and febrile-neutropenia watch run through advanced-disease treatment."
+  - target: 03-medicine/03-food/dietary-fiber
+    relation: connects-to
+    note: "Diet and weight are the dominant levers: obesity-driven excess estrogen is the leading modifiable cause, so weight loss and a high-fiber, plant-rich diet that lowers circulating estrogen reduce endometrial cancer risk."
 ---
 
 # Endometrial Cancer
@@ -316,6 +325,9 @@ cross_links:
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — The cancer announces itself in blood: postmenopausal bleeding is the cardinal early sign, and chronic abnormal uterine bleeding can drain enough red cells and iron to leave a woman anemic before the diagnosis is made.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Advanced disease draws on nerve-toxic chemotherapy: the carboplatin-paclitaxel regimen used for high-risk endometrial cancer injures peripheral sensory neurons, leaving the numbness and tingling of a taxane neuropathy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy wastes magnesium: the carboplatin paired with paclitaxel injures the kidney's tubular handling of the mineral, so magnesium is checked and replaced through endometrial cancer treatment.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies now classify and treat it: mismatch-repair and p53 immunostains sort endometrial cancers into molecular groups, and the MMR-deficient tumors respond to checkpoint antibodies like dostarlimab and pembrolizumab.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The carboplatin-paclitaxel backbone empties the marrow: both drugs are myelosuppressive, dropping neutrophil counts between cycles so that growth-factor support and febrile-neutropenia watch run through advanced-disease treatment.
+- `connects-to` → **[Dietary Fiber](../../../03-medicine/03-food/dietary-fiber/README.md)** — Diet and weight are the dominant levers: obesity-driven excess estrogen is the leading modifiable cause, so weight loss and a high-fiber, plant-rich diet that lowers circulating estrogen reduce endometrial cancer risk.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -153,6 +153,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Uremia makes the platelets sluggish: retained toxins impair platelet function, so even with a normal count CKD patients bruise and bleed more easily, a defect that dialysis and desmopressin can partly correct."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "The kidney loses its grip on salt and water: as CKD advances it cannot excrete a sodium load, so fluid builds up into edema and hypertension, making dietary salt restriction a cornerstone of slowing the disease."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies cause and define much CKD: anti-GBM, ANCA, and lupus autoantibodies attack the glomerulus, and their blood assays pinpoint the immune glomerulonephritides that, untreated, scar the kidney into failure."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Uremia dampens reproduction: it disrupts the hypothalamic-pituitary-gonadal axis into low libido, erectile dysfunction, and infertility, and pregnancy in advanced CKD carries high risk to mother and fetus."
 ---
 
 # Chronic Kidney Disease
@@ -274,6 +283,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[PTH](../../03-molecular/pth/README.md)** — CKD drives the parathyroids into overdrive: falling vitamin D and rising phosphate push PTH ever higher (secondary hyperparathyroidism), and the relentless hormone leaches bone into renal osteodystrophy — the core of CKD-mineral-bone disorder.
 - `connects-to` → **[Hemoglobin](../../03-molecular/hemoglobin/README.md)** — The failing kidney lets the blood thin: it makes too little erythropoietin, so hemoglobin falls into the anemia of CKD, treated by replacing the missing hormone with erythropoiesis-stimulating agents.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Uremia makes the platelets sluggish: retained toxins impair platelet function, so even with a normal count CKD patients bruise and bleed more easily, a defect that dialysis and desmopressin can partly correct.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — The kidney loses its grip on salt and water: as CKD advances it cannot excrete a sodium load, so fluid builds up into edema and hypertension, making dietary salt restriction a cornerstone of slowing the disease.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies cause and define much CKD: anti-GBM, ANCA, and lupus autoantibodies attack the glomerulus, and their blood assays pinpoint the immune glomerulonephritides that, untreated, scar the kidney into failure.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Uremia dampens reproduction: it disrupts the hypothalamic-pituitary-gonadal axis into low libido, erectile dysfunction, and infertility, and pregnancy in advanced CKD carries high risk to mother and fetus.
 
 ## Pathology
 
