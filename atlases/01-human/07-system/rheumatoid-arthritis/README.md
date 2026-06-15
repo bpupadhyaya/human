@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Rheumatoid arthritis drains calcium from bone: inflammation and steroids tip remodeling toward loss, eroding bone at joints and thinning the whole skeleton into osteoporosis."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons chart rheumatoid joint destruction: X-rays catch the juxta-articular erosions and narrowed joint spaces that grade damage, while MRI and ultrasound reveal the active synovitis and early erosions before plain films can, guiding treatment."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "An enlarged spleen names a rare rheumatoid variant: Felty syndrome is the triad of longstanding RA, splenomegaly, and neutropenia, where the swollen spleen consumes white cells and leaves the patient prone to serious infection."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Rheumatoid immune complexes burn through complement: rheumatoid factor and anti-CCP antibodies bind into clusters that fix and consume complement, so low C3 in joint fluid and blood marks the active, sometimes vasculitic, disease."
 ---
 
 # Rheumatoid Arthritis
@@ -309,6 +318,9 @@ RA patients have:
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Rheumatoid arthritis inflames the eyes: it causes scleritis, episcleritis, and dry-eye keratoconjunctivitis, so red or gritty painful eyes in RA signal the autoimmunity reaching beyond the joints.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Rheumatoid arthritis scars the lungs: chronic inflammation drives interstitial lung fibrosis and forms fibrous rheumatoid nodules, a serious extra-articular complication that shortens life.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rheumatoid arthritis drains calcium from bone: inflammation and steroids tip remodeling toward loss, eroding bone at joints and thinning the whole skeleton into osteoporosis.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons chart rheumatoid joint destruction: X-rays catch the juxta-articular erosions and narrowed joint spaces that grade damage, while MRI and ultrasound reveal the active synovitis and early erosions before plain films can, guiding treatment.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — An enlarged spleen names a rare rheumatoid variant: Felty syndrome is the triad of longstanding RA, splenomegaly, and neutropenia, where the swollen spleen consumes white cells and leaves the patient prone to serious infection.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Rheumatoid immune complexes burn through complement: rheumatoid factor and anti-CCP antibodies bind into clusters that fix and consume complement, so low C3 in joint fluid and blood marks the active, sometimes vasculitic, disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

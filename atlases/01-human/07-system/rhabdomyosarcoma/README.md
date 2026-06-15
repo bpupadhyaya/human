@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Rhabdomyosarcoma builds its blood supply through endothelial cells: VEGF from the tumor recruits new vessels to feed its rapid growth, a feature studied for anti-angiogenic therapy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy proves a tumor is rhabdomyosarcoma: the malignant cells assemble crude sarcomeres — thick and thin filaments aligned into Z-bands — the ultrastructural sign of skeletal-muscle differentiation that named the cancer."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "Pelvic rhabdomyosarcoma threatens the kidney from afar: bladder, prostate, and vaginal tumors fill the pelvis and compress the ureters, backing urine up into the kidneys as obstructive hydronephrosis that can damage them if not relieved."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Rhabdomyosarcoma can spread to the liver: alongside its favored routes to lung, bone, and marrow, the bloodborne tumor seeds hepatic metastases in widespread disease, a marker of the high-risk, hardest-to-cure cases."
 ---
 
 # Rhabdomyosarcoma
@@ -287,6 +296,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Rhabdomyosarcoma often strikes the orbit: it is the commonest soft-tissue sarcoma of the eye socket in children, causing rapidly progressive proptosis that demands urgent diagnosis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Rhabdomyosarcoma is muscle gone wrong, down to its calcium: the rhabdomyoblasts switch on skeletal-muscle genes and the calcium-driven contraction machinery, expressing markers like desmin and myogenin that confirm the diagnosis.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Rhabdomyosarcoma builds its blood supply through endothelial cells: VEGF from the tumor recruits new vessels to feed its rapid growth, a feature studied for anti-angiogenic therapy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy proves a tumor is rhabdomyosarcoma: the malignant cells assemble crude sarcomeres — thick and thin filaments aligned into Z-bands — the ultrastructural sign of skeletal-muscle differentiation that named the cancer.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Pelvic rhabdomyosarcoma threatens the kidney from afar: bladder, prostate, and vaginal tumors fill the pelvis and compress the ureters, backing urine up into the kidneys as obstructive hydronephrosis that can damage them if not relieved.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Rhabdomyosarcoma can spread to the liver: alongside its favored routes to lung, bone, and marrow, the bloodborne tumor seeds hepatic metastases in widespread disease, a marker of the high-risk, hardest-to-cure cases.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
