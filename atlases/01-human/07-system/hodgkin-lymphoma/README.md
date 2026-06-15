@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "It strikes the young, so fertility matters: the alkylating chemotherapy of escalated regimens and any pelvic radiation can cause infertility, so sperm banking and ovarian preservation are offered before treatment."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Neck radiation lands on the thyroid: the mantle or involved-field irradiation that helps cure Hodgkin commonly leaves survivors hypothyroid years later, and carries a long-term risk of radiation-induced thyroid cancer."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "The cure can seed a second blood cancer: the alkylating agents and radiation used against Hodgkin carry a delayed risk of therapy-related myelodysplastic syndrome and acute leukemia, among the most feared late effects of treatment."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Hodgkin can turn the immune system on the platelets: it is a recognized cause of secondary immune thrombocytopenia, and the chemotherapy that treats it suppresses platelet production too, so bleeding and low counts are watched for."
 ---
 
 # Hodgkin Lymphoma
@@ -317,6 +326,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Hodgkin is exquisitely vulnerable to antibody drugs: brentuximab vedotin, an anti-CD30 antibody-drug conjugate, and the checkpoint antibodies nivolumab and pembrolizumab have transformed treatment of relapsed disease.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Curing Hodgkin frays the nerves: both the vincristine of ABVD and brentuximab vedotin injure peripheral neurons into a dose-limiting neuropathy that often dictates how much treatment a patient can take.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — It strikes the young, so fertility matters: the alkylating chemotherapy of escalated regimens and any pelvic radiation can cause infertility, so sperm banking and ovarian preservation are offered before treatment.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Neck radiation lands on the thyroid: the mantle or involved-field irradiation that helps cure Hodgkin commonly leaves survivors hypothyroid years later, and carries a long-term risk of radiation-induced thyroid cancer.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — The cure can seed a second blood cancer: the alkylating agents and radiation used against Hodgkin carry a delayed risk of therapy-related myelodysplastic syndrome and acute leukemia, among the most feared late effects of treatment.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Hodgkin can turn the immune system on the platelets: it is a recognized cause of secondary immune thrombocytopenia, and the chemotherapy that treats it suppresses platelet production too, so bleeding and low counts are watched for.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)

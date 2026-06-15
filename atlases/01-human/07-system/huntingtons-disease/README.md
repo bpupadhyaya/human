@@ -138,6 +138,15 @@ cross_links:
   - target: 01-human/07-system/musculoskeletal-system
     relation: connects-to
     note: "Huntington's writes itself on movement: the writhing chorea gives way over years to rigidity and dystonia, and the constant motion plus poor intake wastes muscle, driving the falls and disability that define its course."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Metals pile up in the dying striatum: Huntington's brains accumulate copper and iron in the degenerating basal ganglia, where the redox-active metal binds mutant huntingtin and fuels the oxidative stress that helps kill the neurons."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Huntington's disturbs the gonadal axis: mutant huntingtin damages the hypothalamus and testes, lowering testosterone and shrinking the gonads — one of the peripheral endocrine signs that the disease reaches well beyond the brain."
+  - target: 01-human/07-system/obsessive-compulsive-disorder
+    relation: connects-to
+    note: "The psychiatric face can come first: years before the chorea, Huntington's brings obsessive, perseverative and compulsive behaviors along with irritability and apathy, reflecting the early breakdown of the striatal-frontal circuits that govern flexible behavior."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -229,3 +238,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Huntington's starves the body despite eating: a hypermetabolic state plus the difficulty getting food down causes relentless weight loss, so high-calorie feeding and eventually a gastrostomy become part of care.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — The disease scrambles the body clock: degeneration of the brain's circadian centers blunts melatonin and fragments sleep, with insomnia and reversed day-night rhythms appearing even before the chorea.
 - `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Huntington's writes itself on movement: the writhing chorea gives way over years to rigidity and dystonia, and the constant motion plus poor intake wastes muscle, driving the falls and disability that define its course.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Metals pile up in the dying striatum: Huntington's brains accumulate copper and iron in the degenerating basal ganglia, where the redox-active metal binds mutant huntingtin and fuels the oxidative stress that helps kill the neurons.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Huntington's disturbs the gonadal axis: mutant huntingtin damages the hypothalamus and testes, lowering testosterone and shrinking the gonads — one of the peripheral endocrine signs that the disease reaches well beyond the brain.
+- `connects-to` → **[Obsessive-Compulsive Disorder](../obsessive-compulsive-disorder/README.md)** — The psychiatric face can come first: years before the chorea, Huntington's brings obsessive, perseverative and compulsive behaviors along with irritability and apathy, reflecting the early breakdown of the striatal-frontal circuits that govern flexible behavior.
