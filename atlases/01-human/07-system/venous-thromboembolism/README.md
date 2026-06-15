@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/07-system/multiple-myeloma
     relation: connects-to
     note: "Cancer and its drugs ignite clotting: malignancy is a major VTE risk, and multiple myeloma is especially thrombogenic — its immunomodulatory drugs (thalidomide, lenalidomide) demand routine anticoagulant prophylaxis."
+  - target: 01-human/07-system/heart-failure
+    relation: connects-to
+    note: "Stasis and strain tie the clot to the failing heart: the sluggish circulation of heart failure breeds venous clots, while a large pulmonary embolism can acutely overwhelm the right heart into failure — a two-way danger."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "The healthy vessel resists clotting with nitric oxide: endothelial NO keeps platelets quiet and vessels open, so when endothelial dysfunction cuts NO, the balance tips toward the thrombosis of VTE."
+  - target: 01-human/07-system/inflammatory-bowel-disease
+    relation: connects-to
+    note: "Gut inflammation clots the veins: active inflammatory bowel disease is a strong acquired risk for VTE, the systemic inflammation raising clotting factors and platelets, so hospitalized flares get thromboprophylaxis."
 ---
 
 # Venous Thromboembolism
@@ -330,6 +339,9 @@ cross_links:
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — The vein wall is part of the problem: stasis and damage to the smooth-muscle-lined vein and its valves let clot form, and after a DVT the scarred, incompetent valves drive the chronic swelling of post-thrombotic syndrome.
 - `connects-to` → **[Stroke](../stroke/README.md)** — A leg clot can reach the brain: through a patent foramen ovale a venous thrombus crosses to the arterial side as a paradoxical embolism, a recognized cause of cryptogenic stroke in younger patients.
 - `connects-to` → **[Multiple Myeloma](../multiple-myeloma/README.md)** — Cancer and its drugs ignite clotting: malignancy is a major VTE risk, and multiple myeloma is especially thrombogenic — its immunomodulatory drugs (thalidomide, lenalidomide) demand routine anticoagulant prophylaxis.
+- `connects-to` → **[Heart Failure](../heart-failure/README.md)** — Stasis and strain tie the clot to the failing heart: the sluggish circulation of heart failure breeds venous clots, while a large pulmonary embolism can acutely overwhelm the right heart into failure — a two-way danger.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — The healthy vessel resists clotting with nitric oxide: endothelial NO keeps platelets quiet and vessels open, so when endothelial dysfunction cuts NO, the balance tips toward the thrombosis of VTE.
+- `connects-to` → **[Inflammatory Bowel Disease](../inflammatory-bowel-disease/README.md)** — Gut inflammation clots the veins: active inflammatory bowel disease is a strong acquired risk for VTE, the systemic inflammation raising clotting factors and platelets, so hospitalized flares get thromboprophylaxis.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
