@@ -153,6 +153,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Removing the spleen tips the blood toward clotting: splenectomized thalassemia patients develop a reactive thrombocytosis and a hypercoagulable state, raising the risk of thrombosis and pulmonary hypertension."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Iron overload poisons the endocrine glands: transfusional iron deposits in the adrenal as well as the pituitary, gonads, and pancreas, so adrenal insufficiency joins the diabetes and hypogonadism of poorly chelated thalassemia."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "Splenectomy strips a layer of defense: without the spleen's filtering, thalassemia patients face overwhelming infection by encapsulated bacteria despite their neutrophils, requiring vaccination and prompt antibiotics for fevers."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Thalassemic bone is fragile and vitamin-D-poor: marrow expansion, iron's endocrine damage, and frequent vitamin D deficiency combine into the osteoporosis these patients carry, so vitamin D and calcium are part of bone care."
 ---
 
 # Thalassemia
@@ -342,6 +351,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Lifelong transfusions stir up antibodies: chronically transfused thalassemia patients form alloantibodies against donor red-cell antigens, making each future cross-match harder and the anemia more dangerous to treat.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Blood-making spills outside the marrow and presses on nerves: extramedullary hematopoiesis forms paraspinal masses that can compress the spinal cord, a rare but reversible cause of weakness if caught early.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Removing the spleen tips the blood toward clotting: splenectomized thalassemia patients develop a reactive thrombocytosis and a hypercoagulable state, raising the risk of thrombosis and pulmonary hypertension.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Iron overload poisons the endocrine glands: transfusional iron deposits in the adrenal as well as the pituitary, gonads, and pancreas, so adrenal insufficiency joins the diabetes and hypogonadism of poorly chelated thalassemia.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Splenectomy strips a layer of defense: without the spleen's filtering, thalassemia patients face overwhelming infection by encapsulated bacteria despite their neutrophils, requiring vaccination and prompt antibiotics for fevers.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Thalassemic bone is fragile and vitamin-D-poor: marrow expansion, iron's endocrine damage, and frequent vitamin D deficiency combine into the osteoporosis these patients carry, so vitamin D and calcium are part of bone care.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

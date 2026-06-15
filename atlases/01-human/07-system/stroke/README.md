@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "A stroke can sever the brain's control of the bowel: damage to the pathways governing continence brings fecal incontinence or, with immobility and reduced intake, stubborn constipation during recovery."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "Recovery is fought in the muscles: a stroke leaves hemiparesis, then spasticity and contractures, and disuse wastes the affected limbs — making physical rehabilitation the long, central work of regaining function."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "Heart and brain trade blows: a clot from a fibrillating or infarcted heart causes cardioembolic stroke, while the stroke itself can stun the cardiomyocytes — neurogenic Takotsubo and arrhythmia from the catecholamine surge."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "Lowering LDL guards against the next one: high cholesterol builds the carotid and cerebral plaques that throw clots, so statins and other LDL-lowering drugs are a cornerstone of preventing ischemic stroke."
 ---
 
 # Stroke
@@ -303,6 +312,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Reproductive hormones shape stroke risk: estrogen-containing contraception and pregnancy raise the clotting risk — sharply so with migraine aura — while eclampsia and postpartum cerebral angiopathy are direct obstetric causes of stroke.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies can clot the brain young: antiphospholipid antibodies are a major cause of stroke in the under-50s, driving the hypercoagulability that lodges clots in cerebral vessels even without atherosclerosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — A stroke can sever the brain's control of the bowel: damage to the pathways governing continence brings fecal incontinence or, with immobility and reduced intake, stubborn constipation during recovery.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — Recovery is fought in the muscles: a stroke leaves hemiparesis, then spasticity and contractures, and disuse wastes the affected limbs — making physical rehabilitation the long, central work of regaining function.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Heart and brain trade blows: a clot from a fibrillating or infarcted heart causes cardioembolic stroke, while the stroke itself can stun the cardiomyocytes — neurogenic Takotsubo and arrhythmia from the catecholamine surge.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — Lowering LDL guards against the next one: high cholesterol builds the carotid and cerebral plaques that throw clots, so statins and other LDL-lowering drugs are a cornerstone of preventing ischemic stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
