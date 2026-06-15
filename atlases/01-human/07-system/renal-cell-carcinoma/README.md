@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "RCC can push platelets up: a paraneoplastic thrombocytosis driven by tumor IL-6 appears in a share of patients, and a high platelet count at diagnosis is a marker of more aggressive disease and worse survival."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "The 'clear' in clear-cell RCC is an artifact of its lipids: the cytoplasm is stuffed with glycogen and fat that dissolve away in processing, leaving the empty-looking cells that electron microscopy and histology use to recognize the commonest RCC."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "RCC can derange the liver without touching it: Stauffer syndrome is a paraneoplastic hepatic dysfunction — raised enzymes and cholestasis with no metastases — driven by tumor cytokines and reversing once the kidney cancer is removed."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "RCC can wash out the blood's sodium: paraneoplastic hyponatremia, from tumor-driven ADH or cytokines, is common in advanced disease and flags a poorer prognosis, sometimes correcting after the tumor is treated."
 ---
 
 # Renal Cell Carcinoma
@@ -290,6 +299,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons diagnose RCC without a needle: contrast-enhanced CT and MRI characterize the mass so reliably that surgery often proceeds on imaging alone, while bone and brain scans hunt the lytic metastases this cancer scatters.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — RCC reaches straight for the adrenal gland sitting atop the kidney: it invades or metastasizes to the ipsilateral adrenal so readily that the gland was once removed routinely with the kidney during radical nephrectomy.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — RCC can push platelets up: a paraneoplastic thrombocytosis driven by tumor IL-6 appears in a share of patients, and a high platelet count at diagnosis is a marker of more aggressive disease and worse survival.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The 'clear' in clear-cell RCC is an artifact of its lipids: the cytoplasm is stuffed with glycogen and fat that dissolve away in processing, leaving the empty-looking cells that electron microscopy and histology use to recognize the commonest RCC.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — RCC can derange the liver without touching it: Stauffer syndrome is a paraneoplastic hepatic dysfunction — raised enzymes and cholestasis with no metastases — driven by tumor cytokines and reversing once the kidney cancer is removed.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RCC can wash out the blood's sodium: paraneoplastic hyponatremia, from tumor-driven ADH or cytokines, is common in advanced disease and flags a poorer prognosis, sometimes correcting after the tumor is treated.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

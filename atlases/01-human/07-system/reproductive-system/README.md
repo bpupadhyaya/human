@@ -131,6 +131,15 @@ cross_links:
   - target: 01-human/03-molecular/dopamine
     relation: connects-to
     note: "Dopamine holds the brake on fertility's milk hormone: it continuously suppresses prolactin, so a dopamine drop lets prolactin rise to enable lactation — and a prolactin-secreting tumor, treated with dopamine agonists, silences periods until corrected."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "The sperm is a structure only electron microscopy fully reveals: a 9+2 axoneme drives the flagellum, a midpiece sheath of mitochondria powers it, and an acrosome caps the head — and EM diagnoses the motility defects (e.g. primary ciliary dyskinesia) behind some male infertility."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D reaches into reproduction: VDRs sit in ovary, testis, endometrium, and placenta, and deficiency tracks with PCOS, lower fertility, and adverse pregnancy outcomes — one reason status is checked in preconception and pregnancy care."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium guards the pregnant reproductive tract: intravenous magnesium sulfate is the first-line treatment for eclamptic seizures and gives fetal neuroprotection in preterm birth, while also relaxing uterine smooth muscle as a tocolytic."
 ---
 
 # Reproductive System
@@ -284,6 +293,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons watch over reproduction: pelvic and obstetric ultrasound image the ovaries, uterus, and growing fetus, follicle scans guide IVF, and mammography screens the breast — sound and light made the unseen interior of reproductive medicine visible.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The reproductive and urinary tracts grow from one ridge: sharing the embryonic urogenital fold, they develop side by side, so a malformed uterus or absent vas often comes paired with a missing or misplaced kidney.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine holds the brake on fertility's milk hormone: it continuously suppresses prolactin, so a dopamine drop lets prolactin rise to enable lactation — and a prolactin-secreting tumor, treated with dopamine agonists, silences periods until corrected.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — The sperm is a structure only electron microscopy fully reveals: a 9+2 axoneme drives the flagellum, a midpiece sheath of mitochondria powers it, and an acrosome caps the head — and EM diagnoses the motility defects (e.g. primary ciliary dyskinesia) behind some male infertility.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D reaches into reproduction: VDRs sit in ovary, testis, endometrium, and placenta, and deficiency tracks with PCOS, lower fertility, and adverse pregnancy outcomes — one reason status is checked in preconception and pregnancy care.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium guards the pregnant reproductive tract: intravenous magnesium sulfate is the first-line treatment for eclamptic seizures and gives fetal neuroprotection in preterm birth, while also relaxing uterine smooth muscle as a tocolytic.
 
 ## Pathology
 
