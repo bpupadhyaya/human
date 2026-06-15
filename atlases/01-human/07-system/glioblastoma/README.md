@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Glioblastoma disturbs the brain's potassium: astrocyte potassium buffering fails around the tumor, and the resulting ionic imbalance fuels the peritumoral excitability and seizures that often herald the cancer."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Glioblastoma hoards iron to grow and may die by ferroptosis: its high iron demand fuels proliferation, so triggering iron-dependent cell death is an emerging strategy against this lethal tumor."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The mesenchymal subtype of glioblastoma turns fibroblast-like: it takes on an invasive, scar-cell character, and perivascular fibroblasts help build the treatment-resistant niche that shields it."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Glioblastoma's chemotherapy hits the marrow: temozolomide's main toxicity is myelosuppression, dropping platelets and blood counts, the limit on how much of the drug can be given."
 ---
 
 # Glioblastoma
@@ -289,6 +298,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Proton](../../01-subatomic/proton/README.md)** — Proton beams help spare the brain in glioma radiotherapy: by depositing their energy at a precise depth, protons hit the tumor while sparing surrounding healthy brain, an option weighed for selected gliomas.
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Glioblastoma swells the brain through aquaporin-4: the water channel on astrocytes governs the vasogenic edema that surrounds the tumor, raising intracranial pressure—the swelling steroids are given to control.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Glioblastoma disturbs the brain's potassium: astrocyte potassium buffering fails around the tumor, and the resulting ionic imbalance fuels the peritumoral excitability and seizures that often herald the cancer.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Glioblastoma hoards iron to grow and may die by ferroptosis: its high iron demand fuels proliferation, so triggering iron-dependent cell death is an emerging strategy against this lethal tumor.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The mesenchymal subtype of glioblastoma turns fibroblast-like: it takes on an invasive, scar-cell character, and perivascular fibroblasts help build the treatment-resistant niche that shields it.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Glioblastoma's chemotherapy hits the marrow: temozolomide's main toxicity is myelosuppression, dropping platelets and blood counts, the limit on how much of the drug can be given.
 
 ---
 

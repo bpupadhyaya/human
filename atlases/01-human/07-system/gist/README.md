@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/adrenal-gland
     relation: connects-to
     note: "SDH-deficient GIST travels with adrenal tumors: in the Carney triad and Carney-Stratakis dyad, this GIST subtype co-occurs with paragangliomas, including adrenal pheochromocytomas, sharing an SDH defect."
+  - target: 01-human/05-tissue/intestinal-epithelium
+    relation: connects-to
+    note: "GISTs bleed by breaching the gut lining: as the submucosal tumor grows it ulcerates the overlying intestinal epithelium, causing the GI hemorrhage and anemia that often first reveal it."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "GIST's parent cells are pacemakers: the interstitial cells of Cajal generate the gut's electrical slow waves using calcium oscillations, the rhythm of peristalsis from which GIST arises."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "GIST springs from the gut's pacemaker network: interstitial cells of Cajal interface with the enteric neurons that coordinate motility, tying this mesenchymal tumor to the bowel's nervous system."
 ---
 
 # GIST
@@ -290,6 +299,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — GIST often announces itself by bleeding iron away: the submucosal tumor erodes and oozes into the gut, so a slow iron-deficiency anemia is a common first sign before the mass is found.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — GISTs are richly vascular tumors: KIT and VEGF signaling recruit endothelial cells to build a dense blood supply, which is why anti-angiogenic drugs like sunitinib work when imatinib fails.
 - `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — SDH-deficient GIST travels with adrenal tumors: in the Carney triad and Carney-Stratakis dyad, this GIST subtype co-occurs with paragangliomas, including adrenal pheochromocytomas, sharing an SDH defect.
+- `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — GISTs bleed by breaching the gut lining: as the submucosal tumor grows it ulcerates the overlying intestinal epithelium, causing the GI hemorrhage and anemia that often first reveal it.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GIST's parent cells are pacemakers: the interstitial cells of Cajal generate the gut's electrical slow waves using calcium oscillations, the rhythm of peristalsis from which GIST arises.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — GIST springs from the gut's pacemaker network: interstitial cells of Cajal interface with the enteric neurons that coordinate motility, tying this mesenchymal tumor to the bowel's nervous system.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
