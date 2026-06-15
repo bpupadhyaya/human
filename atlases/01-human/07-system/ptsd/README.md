@@ -144,6 +144,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Chronic stress burns through magnesium: the sustained HPA activation of PTSD depletes the mineral, and because magnesium restrains both the stress axis and the NMDA receptors of fear, its loss can deepen the hyperarousal."
+  - target: 01-human/07-system/immune-system
+    relation: connects-to
+    note: "PTSD smolders with inflammation: chronic stress raises CRP and inflammatory cytokines and dysregulates immune cells, helping explain the higher rates of autoimmune and cardiovascular disease and a kind of accelerated aging in sufferers."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Trauma settles in the gut: through the brain-gut axis PTSD drives functional dyspepsia, nausea, and irritable bowel, and the stomach's churning becomes a somatic echo of the hypervigilant nervous system."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Chronic stress turns down the sex hormones: sustained cortisol from PTSD suppresses the HPG axis, lowering testosterone and contributing to the reduced libido, fatigue, and low mood that often accompany the disorder."
 ---
 
 # PTSD
@@ -321,6 +330,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Trauma may reshape the brain's wiring insulation: chronic stress alters oligodendrocytes and myelination in the fear-circuit tracts, and the resulting white-matter changes are seen on imaging in PTSD.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — PTSD speaks to the gut: it is tightly comorbid with irritable bowel syndrome, the trauma-primed stress axis and altered gut-brain signaling disturbing motility and sensation in the bowel.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic stress burns through magnesium: the sustained HPA activation of PTSD depletes the mineral, and because magnesium restrains both the stress axis and the NMDA receptors of fear, its loss can deepen the hyperarousal.
+- `connects-to` → **[Immune System](../immune-system/README.md)** — PTSD smolders with inflammation: chronic stress raises CRP and inflammatory cytokines and dysregulates immune cells, helping explain the higher rates of autoimmune and cardiovascular disease and a kind of accelerated aging in sufferers.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Trauma settles in the gut: through the brain-gut axis PTSD drives functional dyspepsia, nausea, and irritable bowel, and the stomach's churning becomes a somatic echo of the hypervigilant nervous system.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Chronic stress turns down the sex hormones: sustained cortisol from PTSD suppresses the HPG axis, lowering testosterone and contributing to the reduced libido, fatigue, and low mood that often accompany the disorder.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

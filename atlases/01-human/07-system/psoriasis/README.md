@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Zinc matters to the psoriatic skin: levels often run low in the rapidly shedding epidermis, and because the mineral fuels skin repair and tempers inflammation, its deficiency can aggravate the plaques."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Psoriasis itches and flares through the nerves: sensory neurons in the plaque release substance P and CGRP that fuel neurogenic inflammation, the same wiring behind the stress-triggered flares and the maddening itch."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Treating psoriasis keeps an eye on the lungs: methotrexate can rarely cause a hypersensitivity pneumonitis, and the TNF and IL-17 biologics that clear the plaques raise the risk of pneumonia and reactivated tuberculosis."
+  - target: 01-human/04-cellular/adipocyte
+    relation: connects-to
+    note: "Psoriasis and fat inflame each other: enlarged adipocytes pour out the same cytokines that drive the plaques, so obesity worsens psoriasis and blunts treatment — a metabolic link in the 'psoriatic march' toward heart disease."
 ---
 
 # Psoriasis
@@ -298,6 +307,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the psoriatic plaque's hyperdrive: keratinocytes pile up far too fast with retained nuclei in the surface scale, and neutrophils collect into Munro microabscesses, the ultrastructure of runaway epidermal turnover.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Psoriasis can inflame the eye: it is associated with uveitis, conjunctivitis, and dry, scaly blepharitis of the lids, ocular involvement that parallels the immune attack on the skin and joints.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc matters to the psoriatic skin: levels often run low in the rapidly shedding epidermis, and because the mineral fuels skin repair and tempers inflammation, its deficiency can aggravate the plaques.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Psoriasis itches and flares through the nerves: sensory neurons in the plaque release substance P and CGRP that fuel neurogenic inflammation, the same wiring behind the stress-triggered flares and the maddening itch.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Treating psoriasis keeps an eye on the lungs: methotrexate can rarely cause a hypersensitivity pneumonitis, and the TNF and IL-17 biologics that clear the plaques raise the risk of pneumonia and reactivated tuberculosis.
+- `connects-to` → **[Adipocyte](../../04-cellular/adipocyte/README.md)** — Psoriasis and fat inflame each other: enlarged adipocytes pour out the same cytokines that drive the plaques, so obesity worsens psoriasis and blunts treatment — a metabolic link in the 'psoriatic march' toward heart disease.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
