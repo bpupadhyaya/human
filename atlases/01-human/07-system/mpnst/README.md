@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "In NF1, MPNST often arises deep in the body: retroperitoneal and pelvic tumors grow against the bowel, the large intestine displaced or invaded by a sarcoma transforming from a plexiform neurofibroma."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains catch the transformation: loss of H3K27me3 by immunohistochemistry is an MPNST hallmark, and the patchy or absent S100 and SOX10 that once marked the Schwann cell fade as a benign neurofibroma turns malignant."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The chemotherapy taxes the marrow: the doxorubicin-and-ifosfamide regimens thrown at this aggressive sarcoma are strongly myelosuppressive, dropping neutrophil counts and making febrile neutropenia a recurring hazard of treatment."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "A changing lump under the skin is the warning: in NF1 an MPNST usually arises from a plexiform neurofibroma, so a deep mass that suddenly enlarges, hardens, or turns painful beneath the café-au-lait-marked skin demands urgent imaging and biopsy."
 ---
 
 # MPNST
@@ -315,6 +324,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — MPNST favors the skeleton when it spreads: after the lungs, bone is a common metastatic site, with deposits in the marrow-bearing vertebrae and long bones marking the aggressive, hard-to-cure disease.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — MPNST can reach the brain: hematogenous metastases to the central nervous system, though less common than lung spread, are a grim development in this fast-growing nerve-sheath sarcoma.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — In NF1, MPNST often arises deep in the body: retroperitoneal and pelvic tumors grow against the bowel, the large intestine displaced or invaded by a sarcoma transforming from a plexiform neurofibroma.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains catch the transformation: loss of H3K27me3 by immunohistochemistry is an MPNST hallmark, and the patchy or absent S100 and SOX10 that once marked the Schwann cell fade as a benign neurofibroma turns malignant.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The chemotherapy taxes the marrow: the doxorubicin-and-ifosfamide regimens thrown at this aggressive sarcoma are strongly myelosuppressive, dropping neutrophil counts and making febrile neutropenia a recurring hazard of treatment.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A changing lump under the skin is the warning: in NF1 an MPNST usually arises from a plexiform neurofibroma, so a deep mass that suddenly enlarges, hardens, or turns painful beneath the café-au-lait-marked skin demands urgent imaging and biopsy.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

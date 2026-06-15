@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "A well-differentiated papillary mesothelioma leaves calcium clues: it forms psammoma bodies, concentric calcium deposits, the laminated mineral specks that help the pathologist recognize this indolent variant."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Mesothelioma is diagnosed by antibody panels: calretinin, WT1, and D2-40 stain positive while CEA, MOC-31, and claudin-4 stay negative, separating it from adenocarcinoma, and loss of BAP1 staining confirms the malignant clone."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The blood count both warns and weakens: a high neutrophil-to-lymphocyte ratio predicts poorer survival in mesothelioma, while the pemetrexed-cisplatin chemotherapy used against it is myelosuppressive, dropping neutrophils and risking infection."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Chronic disease and chemotherapy thin the red cells: the smoldering inflammation of mesothelioma plus antifolate pemetrexed depress erythrocyte production into the anemia and fatigue that shadow the long course of treatment."
 ---
 
 # Mesothelioma
@@ -302,6 +311,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Peritoneal mesothelioma encases the abdominal organs: arising on the lining of the belly, it spreads over the surface of the liver and gut, coating them in tumor rather than invading deep, the abdominal counterpart of its pleural form.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Late mesothelioma can reach bone: though it spreads mainly by creeping along the chest and abdominal linings, advanced disease occasionally seeds distant skeletal and marrow metastases.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — A well-differentiated papillary mesothelioma leaves calcium clues: it forms psammoma bodies, concentric calcium deposits, the laminated mineral specks that help the pathologist recognize this indolent variant.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Mesothelioma is diagnosed by antibody panels: calretinin, WT1, and D2-40 stain positive while CEA, MOC-31, and claudin-4 stay negative, separating it from adenocarcinoma, and loss of BAP1 staining confirms the malignant clone.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count both warns and weakens: a high neutrophil-to-lymphocyte ratio predicts poorer survival in mesothelioma, while the pemetrexed-cisplatin chemotherapy used against it is myelosuppressive, dropping neutrophils and risking infection.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Chronic disease and chemotherapy thin the red cells: the smoldering inflammation of mesothelioma plus antifolate pemetrexed depress erythrocyte production into the anemia and fatigue that shadow the long course of treatment.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
