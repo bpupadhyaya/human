@@ -151,6 +151,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "NF1 quietly weakens bone: patients run low on vitamin D with reduced bone mineral density and more fractures, an osteopenia that compounds the syndrome's scoliosis and dysplasia and is watched and supplemented in their care."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "NF1 is autosomal dominant with a striking twist: each child of a carrier has a 50% risk, yet about half of all cases are new de novo mutations, so genetic counseling and preimplantation options matter even in families with no prior history."
+  - target: 01-human/07-system/attention-deficit-hyperactivity-disorder
+    relation: connects-to
+    note: "The commonest NF1 complication is in the mind, not the nerves: learning disabilities and ADHD affect most children with the syndrome, as loss of neurofibromin's RAS control disturbs the signaling that underpins attention and learning."
+  - target: 01-human/04-cellular/osteoclast
+    relation: connects-to
+    note: "Bone fails to knit in NF1: losing neurofibromin tips bone remodeling toward overactive osteoclast resorption, which underlies the non-healing pseudarthrosis of the tibia and the dysplasia and scoliosis that mark the skeleton."
 ---
 
 # Neurofibromatosis Type 1
@@ -308,6 +317,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Biopsy reads the tumors by antibody: S100 and SOX10 stains confirm a neurofibroma's Schwann-cell origin, and as a benign lesion transforms toward MPNST the loss of H3K27me3 staining flags the dangerous change.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — NF1 reaches the bowel several ways: intestinal neurofibromas and ganglioneuromatosis stud the gut wall, and the syndrome's GISTs and periampullary neuroendocrine tumors can bleed or obstruct, making GI symptoms a reason to look harder.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — NF1 quietly weakens bone: patients run low on vitamin D with reduced bone mineral density and more fractures, an osteopenia that compounds the syndrome's scoliosis and dysplasia and is watched and supplemented in their care.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — NF1 is autosomal dominant with a striking twist: each child of a carrier has a 50% risk, yet about half of all cases are new de novo mutations, so genetic counseling and preimplantation options matter even in families with no prior history.
+- `connects-to` → **[Attention-Deficit/Hyperactivity Disorder](../attention-deficit-hyperactivity-disorder/README.md)** — The commonest NF1 complication is in the mind, not the nerves: learning disabilities and ADHD affect most children with the syndrome, as loss of neurofibromin's RAS control disturbs the signaling that underpins attention and learning.
+- `connects-to` → **[Osteoclast](../../04-cellular/osteoclast/README.md)** — Bone fails to knit in NF1: losing neurofibromin tips bone remodeling toward overactive osteoclast resorption, which underlies the non-healing pseudarthrosis of the tibia and the dysplasia and scoliosis that mark the skeleton.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Carcinoid hormones clench smooth muscle: serotonin and bradykinin from the tumor contract airway and gut smooth-muscle cells, causing the wheeze and cramping diarrhea of carcinoid syndrome that octreotide is given to quiet."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Serotonin scars the heart valves: in carcinoid heart disease the tumor's serotonin drives valvular fibroblasts to lay down fibrous plaques on the right-sided valves, stiffening them into the tricuspid and pulmonary lesions that cause right heart failure."
+  - target: 01-human/07-system/tuberous-sclerosis-complex
+    relation: connects-to
+    note: "Tuberous sclerosis seeds neuroendocrine tumors: TSC1/TSC2 loss unleashes mTOR, predisposing to pancreatic neuroendocrine tumors — the same pathway that makes the mTOR inhibitor everolimus an effective therapy for advanced NETs."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "NETs grow along the PI3K-AKT-mTOR axis: signaling through AKT to mTOR sustains these tumors, the rationale behind everolimus and a resistance route when that drug is used, tying their biology to the broader growth-signaling network."
 ---
 
 # Neuroendocrine Tumors
@@ -300,6 +309,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains define the tumor: chromogranin A and synaptophysin by immunohistochemistry confirm a lesion is neuroendocrine, and the Ki-67 antibody index grades how fast it divides — the single number that separates indolent NETs from aggressive carcinomas.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney limits the radioactive cure: peptide receptor radionuclide therapy with Lu-177 DOTATATE homes to SSTR2 but is filtered through and can injure the kidney, so amino-acid infusions are co-given to shield the tubules from the radiation dose.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Carcinoid hormones clench smooth muscle: serotonin and bradykinin from the tumor contract airway and gut smooth-muscle cells, causing the wheeze and cramping diarrhea of carcinoid syndrome that octreotide is given to quiet.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Serotonin scars the heart valves: in carcinoid heart disease the tumor's serotonin drives valvular fibroblasts to lay down fibrous plaques on the right-sided valves, stiffening them into the tricuspid and pulmonary lesions that cause right heart failure.
+- `connects-to` → **[Tuberous Sclerosis Complex](../tuberous-sclerosis-complex/README.md)** — Tuberous sclerosis seeds neuroendocrine tumors: TSC1/TSC2 loss unleashes mTOR, predisposing to pancreatic neuroendocrine tumors — the same pathway that makes the mTOR inhibitor everolimus an effective therapy for advanced NETs.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — NETs grow along the PI3K-AKT-mTOR axis: signaling through AKT to mTOR sustains these tumors, the rationale behind everolimus and a resistance route when that drug is used, tying their biology to the broader growth-signaling network.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
