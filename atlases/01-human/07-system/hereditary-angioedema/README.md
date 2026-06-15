@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Hereditary angioedema hinges on bradykinin clearance in tissues like the kidney: enzymes (ACE, neprilysin) that degrade bradykinin act here, which is why ACE-inhibitor blood-pressure drugs can unmask or worsen bradykinin angioedema."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "The deadliest hereditary angioedema attacks swell the larynx and airway, threatening asphyxiation, which is why patients carry on-demand bradykinin-blocking rescue therapy for laryngeal attacks."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "C1-esterase inhibitor is made by hepatocytes, so the liver is the source of the very protein whose deficiency causes hereditary angioedema—and the target of newer liver-directed gene therapies."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "During a gut attack, CT and ultrasound photons reveal the telltale bowel-wall edema and free fluid, helping distinguish hereditary angioedema from a true surgical abdomen and avert needless operations."
 ---
 
 # Hereditary Angioedema
@@ -294,6 +303,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A laryngeal hereditary angioedema attack can choke off oxygen: swelling of the throat and voice box obstructs the airway, the disease's most feared event, causing asphyxia that demands emergency airway management.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hereditary angioedema swells the bowel wall: attacks edema the gut, including the large intestine, causing severe colicky pain, vomiting, and wall thickening that can mimic a surgical abdomen and trigger needless operations.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Hereditary angioedema hinges on bradykinin clearance in tissues like the kidney: enzymes (ACE, neprilysin) that degrade bradykinin act here, which is why ACE-inhibitor blood-pressure drugs can unmask or worsen bradykinin angioedema.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The deadliest hereditary angioedema attacks swell the larynx and airway, threatening asphyxiation, which is why patients carry on-demand bradykinin-blocking rescue therapy for laryngeal attacks.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — C1-esterase inhibitor is made by hepatocytes, so the liver is the source of the very protein whose deficiency causes hereditary angioedema—and the target of newer liver-directed gene therapies.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — During a gut attack, CT and ultrasound photons reveal the telltale bowel-wall edema and free fluid, helping distinguish hereditary angioedema from a true surgical abdomen and avert needless operations.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

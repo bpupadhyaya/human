@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Hepatitis C cirrhosis bleeds through the gut: portal hypertension swells fragile veins in the esophagus and bowel (varices) that can rupture into massive gastrointestinal bleeding, a lethal complication of advanced scarring."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Hepatitis C needs imaging surveillance even after cure: ultrasound and CT/MRI photons watch the scarred liver for hepatocellular carcinoma, whose risk persists once cirrhosis is established."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Advanced hepatitis C cirrhosis retains sodium and water as ascites, and the dilutional low blood sodium that follows marks decompensation and predicts worse survival."
+  - target: 01-human/04-cellular/plasma-cell
+    relation: connects-to
+    note: "Hepatitis C drives B-cell and plasma-cell clones that make cryoglobulins: these cold-precipitating immune complexes inflame small vessels, causing the rash, neuropathy and kidney disease of mixed cryoglobulinemia."
 ---
 
 # Hepatitis C
@@ -280,3 +289,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Advanced hepatitis C starves the blood of oxygen: cirrhosis opens abnormal lung vessels (hepatopulmonary syndrome) that shunt blood past gas exchange, causing hypoxemia and breathlessness that worsens on standing.
 - `connects-to` → **[Dendritic Cell](../../04-cellular/dendritic-cell/README.md)** — Hepatitis C disarms dendritic cells: the virus blunts these antigen-presenting sentinels so they prime only weak T-cell responses, a key reason the infection so often slips into lifelong chronic persistence.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Hepatitis C cirrhosis bleeds through the gut: portal hypertension swells fragile veins in the esophagus and bowel (varices) that can rupture into massive gastrointestinal bleeding, a lethal complication of advanced scarring.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Hepatitis C needs imaging surveillance even after cure: ultrasound and CT/MRI photons watch the scarred liver for hepatocellular carcinoma, whose risk persists once cirrhosis is established.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Advanced hepatitis C cirrhosis retains sodium and water as ascites, and the dilutional low blood sodium that follows marks decompensation and predicts worse survival.
+- `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Hepatitis C drives B-cell and plasma-cell clones that make cryoglobulins: these cold-precipitating immune complexes inflame small vessels, causing the rash, neuropathy and kidney disease of mixed cryoglobulinemia.
