@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Sludgy blood blurs the vision: the hyperviscosity of a high red-cell or platelet count slows retinal flow, causing visual disturbances and engorged retinal veins, while erythromelalgia's burning can be matched by ocular symptoms in advanced disease."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "MPNs complicate pregnancy: the prothrombotic clone, especially JAK2-mutant, raises the risk of miscarriage, placental thrombosis and maternal clots, so affected women are managed with aspirin, low-molecular-weight heparin and pregnancy-safe interferon."
+  - target: 01-human/04-cellular/osteoblast
+    relation: connects-to
+    note: "The marrow can turn to bone: in the myelofibrosis subtype the fibrotic drive spills into osteosclerosis, where osteoblasts lay down excess bone that further crowds out blood production and shows as dense marrow on imaging."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "The overgrown marrow grows its own vessels: MPNs, especially myelofibrosis, raise VEGF and marrow microvessel density, an angiogenic drive that supports the expanding malignant clone and tracks with disease burden."
 ---
 
 # Myeloproliferative Neoplasms
@@ -339,6 +348,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Thrombosis is the central danger of MPN: the JAK2-mutant, thickened blood plus an activated, sticky endothelial-cell lining drives clots in both arteries and veins, the strokes and heart attacks that are the leading cause of death in these disorders.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — A maddening itch after a warm bath marks polycythemia vera: basophils and mast cells expanded by the MPN clone dump histamine, the aquagenic pruritus that water triggers being one of the disease's most distinctive complaints.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Sludgy blood blurs the vision: the hyperviscosity of a high red-cell or platelet count slows retinal flow, causing visual disturbances and engorged retinal veins, while erythromelalgia's burning can be matched by ocular symptoms in advanced disease.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MPNs complicate pregnancy: the prothrombotic clone, especially JAK2-mutant, raises the risk of miscarriage, placental thrombosis and maternal clots, so affected women are managed with aspirin, low-molecular-weight heparin and pregnancy-safe interferon.
+- `connects-to` → **[Osteoblast](../../04-cellular/osteoblast/README.md)** — The marrow can turn to bone: in the myelofibrosis subtype the fibrotic drive spills into osteosclerosis, where osteoblasts lay down excess bone that further crowds out blood production and shows as dense marrow on imaging.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — The overgrown marrow grows its own vessels: MPNs, especially myelofibrosis, raise VEGF and marrow microvessel density, an angiogenic drive that supports the expanding malignant clone and tracks with disease burden.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
