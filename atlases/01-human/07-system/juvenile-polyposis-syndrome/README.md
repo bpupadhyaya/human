@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "JPS bleeds chronically: friable polyps and HHT telangiectasias drain blood, pushing the bone marrow to ramp up red-cell output against recurrent iron-deficiency anemia."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy shows JPS polyps are hamartomas, not adenomas: cystically dilated mucus-filled glands sit in an expanded, inflamed lamina propria, the disorganized overgrowth that names the juvenile polyp."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "SMAD4-driven JPS overlaps with HHT: these patients sprout mucocutaneous telangiectasias on the lips, tongue, and fingertips, tiny dilated vessels that bleed and flag the combined polyposis-vascular syndrome."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "The HHT overlap can dot the eye: conjunctival telangiectasias join those on the skin and gut, fragile little vessel tufts that mark the vascular side of the SMAD4 syndrome."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -301,6 +310,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — JPS is watched by light and imaging: endoscopy removes the polyps, and in SMAD4 carriers CT and MRI photons screen for the lung and brain AVMs of the overlapping HHT.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — SMAD4-JPS overlaps HHT in the liver too: hepatic arteriovenous malformations can shunt blood and strain the heart, part of the telangiectasia syndrome's vascular reach.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — JPS bleeds chronically: friable polyps and HHT telangiectasias drain blood, pushing the bone marrow to ramp up red-cell output against recurrent iron-deficiency anemia.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows JPS polyps are hamartomas, not adenomas: cystically dilated mucus-filled glands sit in an expanded, inflamed lamina propria, the disorganized overgrowth that names the juvenile polyp.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — SMAD4-driven JPS overlaps with HHT: these patients sprout mucocutaneous telangiectasias on the lips, tongue, and fingertips, tiny dilated vessels that bleed and flag the combined polyposis-vascular syndrome.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — The HHT overlap can dot the eye: conjunctival telangiectasias join those on the skin and gut, fragile little vessel tufts that mark the vascular side of the SMAD4 syndrome.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

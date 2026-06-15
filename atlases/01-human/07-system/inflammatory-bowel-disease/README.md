@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/05-tissue/bone-marrow
     relation: connects-to
     note: "IBD and its drugs strain the marrow: chronic inflammation and the thiopurines used to treat it can suppress blood-cell production, so counts are watched throughout therapy."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy distinguishes IBD's two forms: Crohn's burrows transmurally with granulomas and fissures, while ulcerative colitis stays mucosal with crypt abscesses — and both show the disturbed Paneth cells and autophagy behind the barrier failure."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "IBD reaches the kidney by several routes: fat malabsorption drives calcium-oxalate stones, chronic inflammation can deposit AA amyloid, and the drugs used to treat it add their own nephrotoxic risk."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Chronic diarrhea flushes out magnesium: ongoing intestinal losses in active IBD deplete the mineral along with potassium and zinc, a deficiency that adds to the fatigue and cramping of a flare."
 ---
 
 # Inflammatory Bowel Disease
@@ -307,6 +316,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — IBD is mapped by light and imaging: colonoscopy inspects the mucosa directly, while CT and MR enterography photons reveal small-bowel inflammation, strictures and abscesses beyond the scope's reach.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — IBD depletes zinc: chronic diarrhea and malabsorption lower it, contributing to the poor healing, skin rashes and impaired immunity that complicate the disease.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — IBD and its drugs strain the marrow: chronic inflammation and the thiopurines used to treat it can suppress blood-cell production, so counts are watched throughout therapy.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy distinguishes IBD's two forms: Crohn's burrows transmurally with granulomas and fissures, while ulcerative colitis stays mucosal with crypt abscesses — and both show the disturbed Paneth cells and autophagy behind the barrier failure.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — IBD reaches the kidney by several routes: fat malabsorption drives calcium-oxalate stones, chronic inflammation can deposit AA amyloid, and the drugs used to treat it add their own nephrotoxic risk.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chronic diarrhea flushes out magnesium: ongoing intestinal losses in active IBD deplete the mineral along with potassium and zinc, a deficiency that adds to the fatigue and cramping of a flare.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
