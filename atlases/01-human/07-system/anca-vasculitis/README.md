@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/06-organ/spleen
     relation: connects-to
     note: "ANCA vasculitis can infarct the spleen: inflamed, clotting small arteries cut off blood to wedges of splenic tissue, one of the silent organ infarctions that mark widespread vascular involvement."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "The disease is named for its antibody: ANCA against proteinase-3 (c-ANCA) or myeloperoxidase (p-ANCA) both diagnose it and activate neutrophils to attack vessels, and the anti-CD20 antibody rituximab is a frontline treatment."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Inflamed vessels starve the nerves: occlusion of the small arteries feeding peripheral nerves produces mononeuritis multiplex — patchy, painful weakness and numbness that is a classic presenting feature, especially in EGPA."
+  - target: 01-human/07-system/bladder-cancer
+    relation: connects-to
+    note: "The old workhorse drug scars the bladder: cyclophosphamide, long used to induce remission, releases acrolein that inflames the bladder into hemorrhagic cystitis and, over years, raises the risk of bladder cancer — so mesna and dose limits guard against it."
 ---
 
 # ANCA Vasculitis
@@ -331,6 +340,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows what ANCA vasculitis lacks: its inflamed vessels are 'pauci-immune,' nearly free of the immune-complex deposits that fill other vasculitides, because ANCA-activated neutrophils attack the wall directly with their toxic granules and NETs.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — The vasculitis can ulcerate the gut: inflammation of the mesenteric and gastric vessels causes abdominal pain, bleeding, and even bowel perforation, a dangerous abdominal manifestation of systemic disease.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — ANCA vasculitis can infarct the spleen: inflamed, clotting small arteries cut off blood to wedges of splenic tissue, one of the silent organ infarctions that mark widespread vascular involvement.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — The disease is named for its antibody: ANCA against proteinase-3 (c-ANCA) or myeloperoxidase (p-ANCA) both diagnose it and activate neutrophils to attack vessels, and the anti-CD20 antibody rituximab is a frontline treatment.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Inflamed vessels starve the nerves: occlusion of the small arteries feeding peripheral nerves produces mononeuritis multiplex — patchy, painful weakness and numbness that is a classic presenting feature, especially in EGPA.
+- `connects-to` → **[Bladder Cancer](../bladder-cancer/README.md)** — The old workhorse drug scars the bladder: cyclophosphamide, long used to induce remission, releases acrolein that inflames the bladder into hemorrhagic cystitis and, over years, raises the risk of bladder cancer — so mesna and dose limits guard against it.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

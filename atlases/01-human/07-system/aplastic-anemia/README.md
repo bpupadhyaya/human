@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "The defenseless lung is a frequent battleground: profound neutropenia opens the airways to bacterial and fungal pneumonia, the kind of infection that is a leading cause of death in severe aplastic anemia."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An antibody preparation is a cornerstone cure: antithymocyte globulin — antibodies raised against human T cells — wipes out the autoreactive T cells attacking the marrow, the immunosuppression that revives blood production in those who cannot transplant."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Androgens can coax the failing marrow: synthetic male hormones like danazol and oxymetholone stimulate blood-cell production and are still used, especially in inherited telomere-related aplastic anemia."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The gravest risk is bleeding into the brain: with platelets crashed, a spontaneous intracranial hemorrhage is a feared and often fatal complication, which is why platelet transfusions are given to hold the count above danger."
 ---
 
 # Aplastic Anemia
@@ -296,6 +305,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the emptied marrow: where blood-forming cells should crowd, aplastic anemia leaves a near-deserted space filled with fat, the hypocellular wasteland that starves the blood of every cell line.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Losing neutrophils endangers the gut: with no white cells to defend it, the bowel wall can be invaded in neutropenic enterocolitis (typhlitis), while low platelets make gastrointestinal bleeding a constant threat.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The defenseless lung is a frequent battleground: profound neutropenia opens the airways to bacterial and fungal pneumonia, the kind of infection that is a leading cause of death in severe aplastic anemia.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An antibody preparation is a cornerstone cure: antithymocyte globulin — antibodies raised against human T cells — wipes out the autoreactive T cells attacking the marrow, the immunosuppression that revives blood production in those who cannot transplant.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Androgens can coax the failing marrow: synthetic male hormones like danazol and oxymetholone stimulate blood-cell production and are still used, especially in inherited telomere-related aplastic anemia.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The gravest risk is bleeding into the brain: with platelets crashed, a spontaneous intracranial hemorrhage is a feared and often fatal complication, which is why platelet transfusions are given to hold the count above danger.
 
 ---
 
