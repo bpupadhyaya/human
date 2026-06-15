@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Ovarian cancer commandeers platelets: tumor-driven IL-6 and thrombopoietin spark a paraneoplastic thrombocytosis, and these elevated platelets in turn shield circulating tumor cells and fuel growth, marking more aggressive, advanced disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "First-line chemotherapy stings the nerves: paclitaxel, the taxane paired with carboplatin against ovarian cancer, damages peripheral sensory neurons, leaving a stocking-glove numbness and tingling that can outlast the treatment."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy traces ovarian cancer to its source: most high-grade serous tumors begin not in the ovary but in the fallopian tube's secretory cells, distinguished by EM from their ciliated neighbors at the fimbrial end."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Platinum chemotherapy drains magnesium: carboplatin injures the kidney's tubules, which then waste magnesium, so blood levels are watched and replaced through the months of ovarian cancer treatment."
 ---
 
 # Ovarian Cancer
@@ -287,6 +296,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons hunt this silent cancer: transvaginal ultrasound probes a suspicious mass, CT maps the peritoneal spread and ascites that mark advanced disease, and PET tracks recurrence — imaging that, with CA-125, guides every step of management.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Ovarian cancer studs the spleen's surface: spreading through the peritoneal fluid, it seeds the splenic capsule and nearby diaphragm, so splenectomy is sometimes part of the aggressive debulking surgery that aims to leave no visible tumor.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Ovarian cancer commandeers platelets: tumor-driven IL-6 and thrombopoietin spark a paraneoplastic thrombocytosis, and these elevated platelets in turn shield circulating tumor cells and fuel growth, marking more aggressive, advanced disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — First-line chemotherapy stings the nerves: paclitaxel, the taxane paired with carboplatin against ovarian cancer, damages peripheral sensory neurons, leaving a stocking-glove numbness and tingling that can outlast the treatment.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy traces ovarian cancer to its source: most high-grade serous tumors begin not in the ovary but in the fallopian tube's secretory cells, distinguished by EM from their ciliated neighbors at the fimbrial end.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Platinum chemotherapy drains magnesium: carboplatin injures the kidney's tubules, which then waste magnesium, so blood levels are watched and replaced through the months of ovarian cancer treatment.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

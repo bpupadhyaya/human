@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "When clear cell carcinoma spreads beyond the pelvis, the liver is a frequent target: hematogenous metastases lodge there, and liver involvement marks the advanced, chemoresistant disease that makes this subtype so hard to treat."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Even a platinum-resistant tumor exacts a neural toll: OCCC is treated up front with carboplatin and paclitaxel, and the taxane in particular injures peripheral sensory neurons, leaving lasting numbness despite the subtype's poor chemo response."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "OCCC announces itself with fluid: like other ovarian cancers it seeds the peritoneum and produces malignant ascites, while tumor burden and poor nutrition drive down blood albumin, a marker that tracks with worse outcomes."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "OCCC can reach the chest: advanced disease produces malignant pleural effusions and lung metastases, the thoracic spread that defines stage IV and signals the hard-to-treat end of this subtype."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -313,6 +322,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy explains the 'clear' in clear cell: the cytoplasm is packed with glycogen that dissolves away in processing, leaving the empty, water-clear cells and bulging hobnail nuclei that name the tumor.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Clear cell carcinoma is the great clotter of ovarian cancers: it carries the highest rate of venous thromboembolism, activating platelets and the clotting cascade so strongly that a deep vein thrombosis can be the first sign of the tumor.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — When clear cell carcinoma spreads beyond the pelvis, the liver is a frequent target: hematogenous metastases lodge there, and liver involvement marks the advanced, chemoresistant disease that makes this subtype so hard to treat.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Even a platinum-resistant tumor exacts a neural toll: OCCC is treated up front with carboplatin and paclitaxel, and the taxane in particular injures peripheral sensory neurons, leaving lasting numbness despite the subtype's poor chemo response.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — OCCC announces itself with fluid: like other ovarian cancers it seeds the peritoneum and produces malignant ascites, while tumor burden and poor nutrition drive down blood albumin, a marker that tracks with worse outcomes.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — OCCC can reach the chest: advanced disease produces malignant pleural effusions and lung metastases, the thoracic spread that defines stage IV and signals the hard-to-treat end of this subtype.
 
 ---
 
