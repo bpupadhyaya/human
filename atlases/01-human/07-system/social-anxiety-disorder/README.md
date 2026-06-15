@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/astrocyte
     relation: connects-to
     note: "Astrocytes help tune the socially anxious brain: by clearing and recycling glutamate in the amygdala and prefrontal circuits, they shape the excitation-inhibition balance whose tilt toward arousal underlies the disorder."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "fMRI photons capture social anxiety's brain: the amygdala overreacts to faces and signs of judgment while prefrontal regulation lags, the neural basis of the fear of scrutiny."
+  - target: 01-human/06-organ/lung
+    relation: connects-to
+    note: "Social anxiety hits the breath: in feared situations hyperventilation and a tight chest are common physical symptoms, the body's alarm response misfiring in front of others."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Social anxiety's visible signs travel autonomic nerves: sympathetic peripheral nerves drive the sweating, trembling and blushing that betray the fear and feed the cycle of self-consciousness."
 ---
 
 # Social Anxiety Disorder
@@ -293,6 +302,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Social anxiety is written on the skin as blushing: a sympathetic surge floods facial blood vessels, and the visible flush—being seen to react—becomes a feared symptom that feeds the anxiety in a self-reinforcing loop.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Social anxiety's fear memories rely on calcium: calcium entering threat-circuit neurons strengthens the synapses that tag social cues as dangerous, the molecular step that cements conditioned social fear.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Astrocytes help tune the socially anxious brain: by clearing and recycling glutamate in the amygdala and prefrontal circuits, they shape the excitation-inhibition balance whose tilt toward arousal underlies the disorder.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — fMRI photons capture social anxiety's brain: the amygdala overreacts to faces and signs of judgment while prefrontal regulation lags, the neural basis of the fear of scrutiny.
+- `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Social anxiety hits the breath: in feared situations hyperventilation and a tight chest are common physical symptoms, the body's alarm response misfiring in front of others.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Social anxiety's visible signs travel autonomic nerves: sympathetic peripheral nerves drive the sweating, trembling and blushing that betray the fear and feed the cycle of self-consciousness.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

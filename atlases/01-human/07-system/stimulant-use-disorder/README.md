@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Stimulants make platelets clot: cocaine and amphetamines activate platelets and promote thrombosis, helping spawn the heart attacks and strokes that strike stimulant users without underlying disease."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Imaging reveals stimulants' harm: fMRI photons show the hyperactivated reward circuit, and CT of the head catches the strokes and brain hemorrhages that cocaine and amphetamines can trigger."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MDMA can fatally drop sodium: the drug spurs excess water-drinking and ADH release, so dilutional hyponatremia causes the cerebral edema and seizures behind some ecstasy deaths."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Stimulants flood the sympathetic nerves: as sympathomimetics they drive the racing heart, dilated pupils and sweating, the autonomic storm of intoxication carried along peripheral nerves."
 ---
 
 # Stimulant Use Disorder
@@ -281,6 +290,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Stimulant overdose can spill potassium: severe hyperthermia and muscle breakdown (rhabdomyolysis) from cocaine or methamphetamine release potassium into the blood, risking dangerous hyperkalemia and fatal arrhythmias.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Cocaine can infarct the bowel: its intense vasoconstriction throttles the gut's blood supply, causing mesenteric ischemia and bowel infarction—a surgical emergency that can follow a binge even in the young.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Stimulants make platelets clot: cocaine and amphetamines activate platelets and promote thrombosis, helping spawn the heart attacks and strokes that strike stimulant users without underlying disease.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Imaging reveals stimulants' harm: fMRI photons show the hyperactivated reward circuit, and CT of the head catches the strokes and brain hemorrhages that cocaine and amphetamines can trigger.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MDMA can fatally drop sodium: the drug spurs excess water-drinking and ADH release, so dilutional hyponatremia causes the cerebral edema and seizures behind some ecstasy deaths.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Stimulants flood the sympathetic nerves: as sympathomimetics they drive the racing heart, dilated pupils and sweating, the autonomic storm of intoxication carried along peripheral nerves.
 
 ## Treatment
 
