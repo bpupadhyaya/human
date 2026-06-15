@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/04-cellular/plasma-cell
     relation: connects-to
     note: "Hepatitis C drives B-cell and plasma-cell clones that make cryoglobulins: these cold-precipitating immune complexes inflame small vessels, causing the rash, neuropathy and kidney disease of mixed cryoglobulinemia."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy caught hepatitis C's disguise: the virus travels as a lipoviral particle, cloaked in host lipoproteins, slipping into liver cells through the LDL receptor it borrows along with cholesterol uptake."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Hepatitis C unsettles the thyroid: it is associated with autoimmune thyroiditis on its own, and the interferon once used to treat it frequently triggered thyroid dysfunction, both over- and underactive."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D mattered in hepatitis C: low levels were tied to advanced fibrosis and, in the interferon era, to a poorer chance of clearing the virus, marking the vitamin's link to antiviral immunity."
 ---
 
 # Hepatitis C
@@ -292,3 +301,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Hepatitis C needs imaging surveillance even after cure: ultrasound and CT/MRI photons watch the scarred liver for hepatocellular carcinoma, whose risk persists once cirrhosis is established.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Advanced hepatitis C cirrhosis retains sodium and water as ascites, and the dilutional low blood sodium that follows marks decompensation and predicts worse survival.
 - `connects-to` → **[Plasma Cell](../../04-cellular/plasma-cell/README.md)** — Hepatitis C drives B-cell and plasma-cell clones that make cryoglobulins: these cold-precipitating immune complexes inflame small vessels, causing the rash, neuropathy and kidney disease of mixed cryoglobulinemia.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy caught hepatitis C's disguise: the virus travels as a lipoviral particle, cloaked in host lipoproteins, slipping into liver cells through the LDL receptor it borrows along with cholesterol uptake.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Hepatitis C unsettles the thyroid: it is associated with autoimmune thyroiditis on its own, and the interferon once used to treat it frequently triggered thyroid dysfunction, both over- and underactive.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D mattered in hepatitis C: low levels were tied to advanced fibrosis and, in the interferon era, to a poorer chance of clearing the virus, marking the vitamin's link to antiviral immunity.

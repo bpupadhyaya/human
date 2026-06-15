@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "Fibroblasts are the engine of hepatitis B fibrosis: chronic inflammation activates liver fibroblasts and myofibroblasts to lay down collagen scar, the cellular step that drives progression to cirrhosis."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy showed what hepatitis B looks like: the complete infectious Dane particle floats among a huge excess of empty spherical and filamentous surface-antigen shells, the decoys the virus pumps out to distract the immune system."
+  - target: 01-human/05-tissue/glomerulus
+    relation: connects-to
+    note: "Hepatitis B can attack the kidney's filters: circulating viral antigen-antibody complexes lodge in the glomerulus, causing a membranous nephropathy that brings on nephrotic syndrome, especially in infected children."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D status shadows chronic hepatitis B: deficiency is common as the liver falters and is linked to higher viral loads and faster fibrosis, reflecting the vitamin's role in the antiviral immune response."
 ---
 
 # Hepatitis B
@@ -301,3 +310,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Chronic hepatitis B demands lifelong imaging surveillance: ultrasound and CT/MRI photons screen the at-risk liver for the hepatocellular carcinoma it predisposes to, catching tumors while still curable.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Decompensated hepatitis B cirrhosis retains sodium and water as ascites, and the dilutional low blood sodium that follows is an ominous marker of advanced liver disease and poor prognosis.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Fibroblasts are the engine of hepatitis B fibrosis: chronic inflammation activates liver fibroblasts and myofibroblasts to lay down collagen scar, the cellular step that drives progression to cirrhosis.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy showed what hepatitis B looks like: the complete infectious Dane particle floats among a huge excess of empty spherical and filamentous surface-antigen shells, the decoys the virus pumps out to distract the immune system.
+- `connects-to` → **[Glomerulus](../../05-tissue/glomerulus/README.md)** — Hepatitis B can attack the kidney's filters: circulating viral antigen-antibody complexes lodge in the glomerulus, causing a membranous nephropathy that brings on nephrotic syndrome, especially in infected children.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D status shadows chronic hepatitis B: deficiency is common as the liver falters and is linked to higher viral loads and faster fibrosis, reflecting the vitamin's role in the antiviral immune response.
