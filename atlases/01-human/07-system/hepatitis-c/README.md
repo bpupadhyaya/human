@@ -138,6 +138,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D mattered in hepatitis C: low levels were tied to advanced fibrosis and, in the interferon era, to a poorer chance of clearing the virus, marking the vitamin's link to antiviral immunity."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Hepatitis C drives a misfiring antibody response: the anti-HCV antibody screens for exposure but does not clear the virus, and chronic B-cell stimulation churns out the cold-precipitating cryoglobulins behind much of its extrahepatic disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Hepatitis C can inflame the nerves: its mixed cryoglobulinemia deposits immune complexes in the small vessels feeding peripheral nerves, producing a painful sensory neuropathy or mononeuritis multiplex."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Hepatitis C lowers the platelet count two ways: an immune ITP-like destruction and, once cirrhosis sets in, splenic sequestration and reduced thrombopoietin combine to leave the blood short of platelets."
 ---
 
 # Hepatitis C
@@ -304,3 +313,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy caught hepatitis C's disguise: the virus travels as a lipoviral particle, cloaked in host lipoproteins, slipping into liver cells through the LDL receptor it borrows along with cholesterol uptake.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Hepatitis C unsettles the thyroid: it is associated with autoimmune thyroiditis on its own, and the interferon once used to treat it frequently triggered thyroid dysfunction, both over- and underactive.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D mattered in hepatitis C: low levels were tied to advanced fibrosis and, in the interferon era, to a poorer chance of clearing the virus, marking the vitamin's link to antiviral immunity.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Hepatitis C drives a misfiring antibody response: the anti-HCV antibody screens for exposure but does not clear the virus, and chronic B-cell stimulation churns out the cold-precipitating cryoglobulins behind much of its extrahepatic disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Hepatitis C can inflame the nerves: its mixed cryoglobulinemia deposits immune complexes in the small vessels feeding peripheral nerves, producing a painful sensory neuropathy or mononeuritis multiplex.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Hepatitis C lowers the platelet count two ways: an immune ITP-like destruction and, once cirrhosis sets in, splenic sequestration and reduced thrombopoietin combine to leave the blood short of platelets.

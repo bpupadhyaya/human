@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Rarely the swelling reaches the brain: case reports describe cerebral edema during severe attacks, with headaches, transient deficits, or seizures from bradykinin acting on the brain's blood vessels."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Gut attacks masquerade as a surgical emergency: angioedema of the bowel wall brings severe cramping abdominal pain, vomiting, and even shock, mimicking an acute abdomen and leading to needless operations before the diagnosis is known."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibodies enter on both sides of angioedema: the acquired form can be driven by autoantibodies against C1-inhibitor, while modern prophylaxis uses lanadelumab, a monoclonal antibody that blocks the kallikrein generating bradykinin."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "An attack is plasma escaping the vessels: bradykinin opens the endothelial junctions so intravascular fluid floods the tissues, and severe abdominal attacks shift enough volume to cause hemoconcentration and a drop in blood pressure."
 ---
 
 # Hereditary Angioedema
@@ -318,6 +327,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows how the swelling forms: bradykinin pries open the junctions between endothelial cells, widening the gaps so plasma floods out into the tissue — the leak that makes the deep, non-itchy edema of an attack.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Attacks often disfigure the face and eyes: bradykinin-driven swelling balloons the lips and eyelids, sometimes closing the eyes entirely, a dramatic but self-limited facial angioedema that warns a laryngeal attack may follow.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Rarely the swelling reaches the brain: case reports describe cerebral edema during severe attacks, with headaches, transient deficits, or seizures from bradykinin acting on the brain's blood vessels.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Gut attacks masquerade as a surgical emergency: angioedema of the bowel wall brings severe cramping abdominal pain, vomiting, and even shock, mimicking an acute abdomen and leading to needless operations before the diagnosis is known.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies enter on both sides of angioedema: the acquired form can be driven by autoantibodies against C1-inhibitor, while modern prophylaxis uses lanadelumab, a monoclonal antibody that blocks the kallikrein generating bradykinin.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — An attack is plasma escaping the vessels: bradykinin opens the endothelial junctions so intravascular fluid floods the tissues, and severe abdominal attacks shift enough volume to cause hemoconcentration and a drop in blood pressure.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
