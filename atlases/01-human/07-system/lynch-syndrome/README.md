@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/macrophage
     relation: connects-to
     note: "Lynch's hypermutated tumors draw macrophages: the neoantigen-rich cancers attract a dense immune infiltrate including macrophages, part of the inflamed microenvironment behind their strong response to immunotherapy."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Lynch is managed by light: frequent colonoscopy from young adulthood catches and removes the fast-arising colorectal cancers, the surveillance that most reduces deaths in carriers."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Lynch raises gastric cancer risk: mismatch-repair-deficient stomach cancers occur, especially in MLH1 and MSH2 carriers, so upper endoscopy joins surveillance in high-incidence regions."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Lynch's Turcot variant strikes the brain: mismatch-repair loss raises the risk of gliomas, extending the syndrome's reach to the neurons of the central nervous system."
 ---
 
 # Lynch Syndrome
@@ -299,6 +308,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Lynch colorectal tumors bleed iron away: the cancer oozes blood into the gut, so an unexplained iron-deficiency anemia can be the first clue that prompts the colonoscopy which finds it.
 - `connects-to` → **[Intestinal Epithelium](../../05-tissue/intestinal-epithelium/README.md)** — Lynch cancers spring from the gut's epithelium: with mismatch repair broken, mutations pile up in the colonic and endometrial lining, so the epithelium turns malignant faster than in sporadic disease.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Lynch's hypermutated tumors draw macrophages: the neoantigen-rich cancers attract a dense immune infiltrate including macrophages, part of the inflamed microenvironment behind their strong response to immunotherapy.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Lynch is managed by light: frequent colonoscopy from young adulthood catches and removes the fast-arising colorectal cancers, the surveillance that most reduces deaths in carriers.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Lynch raises gastric cancer risk: mismatch-repair-deficient stomach cancers occur, especially in MLH1 and MSH2 carriers, so upper endoscopy joins surveillance in high-incidence regions.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Lynch's Turcot variant strikes the brain: mismatch-repair loss raises the risk of gliomas, extending the syndrome's reach to the neurons of the central nervous system.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

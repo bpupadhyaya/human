@@ -122,6 +122,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "The gut holds the body's largest lymphatic tissue: the bowel wall, including the large intestine, is packed with lymphoid follicles (GALT) that sample microbes and mount the mucosal immunity the lymphatics coordinate."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "The lymphatic system is mapped with radiotracers: lymphoscintigraphy follows injected photons to find the sentinel node in cancer staging and to chart blocked drainage in lymphedema."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Lymph is pumped, not just drained: smooth-muscle cells in the walls of collecting lymphatics contract rhythmically to push lymph against gravity toward the chest."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The lymphatic system returns its fluid to the blood at the heart: the thoracic duct empties into the great veins near it, closing the loop between lymph and circulation."
 ---
 
 # Lymphatic System
@@ -266,6 +275,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — The lungs sit at the lymphatic system's outflow: the thoracic duct empties lymph near the heart, and injury to it leaks milky lymph into the chest as a chylothorax, a distinctive lymphatic emergency.
 - `connects-to` → **[Germinal Center](../../05-tissue/germinal-center/README.md)** — Lymph nodes do their work in germinal centers: within them B cells multiply, mutate, and are selected to make ever-better antibodies, the engine of the adaptive response the lymphatic system carries.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut holds the body's largest lymphatic tissue: the bowel wall, including the large intestine, is packed with lymphoid follicles (GALT) that sample microbes and mount the mucosal immunity the lymphatics coordinate.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — The lymphatic system is mapped with radiotracers: lymphoscintigraphy follows injected photons to find the sentinel node in cancer staging and to chart blocked drainage in lymphedema.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Lymph is pumped, not just drained: smooth-muscle cells in the walls of collecting lymphatics contract rhythmically to push lymph against gravity toward the chest.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The lymphatic system returns its fluid to the blood at the heart: the thoracic duct empties into the great veins near it, closing the loop between lymph and circulation.
 
 ## Pathology
 
