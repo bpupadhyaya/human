@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "NF1 weakens the blood-vessel lining: loss of neurofibromin in endothelial and smooth-muscle cells drives a vasculopathy of stenoses and aneurysms, behind the strokes and renovascular disease of the syndrome."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons watch NF1 unfold: MRI tracks optic-pathway gliomas and plexiform neurofibromas, whole-body MRI gauges tumor burden, and slit-lamp light spots the Lisch nodules on the iris that help clinch the diagnosis."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "Neurofibromas are mixed tumors, and fibroblasts are part of the mix: alongside Schwann cells, perineurial cells, and mast cells, fibroblasts lay down the loose collagenous matrix that gives these soft, fleshy nodules their texture."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "NF1 can be born into the heart: like the related RASopathies, it raises the risk of congenital heart disease — pulmonary valve stenosis most of all — so children are screened for structural defects alongside their tumors."
 ---
 
 # Neurofibromatosis Type 1
@@ -272,6 +281,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NF1's café-au-lait spots are painted with copper: the flat brown macules and skinfold freckling come from excess melanin, built by the copper-dependent enzyme tyrosinase in pigment cells.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — NF1 vasculopathy chokes the kidney's arteries: neurofibromin loss in vessel walls narrows the renal arteries, a cause of the hypertension that, with pheochromocytoma, must be sought in NF1.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — NF1 weakens the blood-vessel lining: loss of neurofibromin in endothelial and smooth-muscle cells drives a vasculopathy of stenoses and aneurysms, behind the strokes and renovascular disease of the syndrome.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons watch NF1 unfold: MRI tracks optic-pathway gliomas and plexiform neurofibromas, whole-body MRI gauges tumor burden, and slit-lamp light spots the Lisch nodules on the iris that help clinch the diagnosis.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — Neurofibromas are mixed tumors, and fibroblasts are part of the mix: alongside Schwann cells, perineurial cells, and mast cells, fibroblasts lay down the loose collagenous matrix that gives these soft, fleshy nodules their texture.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — NF1 can be born into the heart: like the related RASopathies, it raises the risk of congenital heart disease — pulmonary valve stenosis most of all — so children are screened for structural defects alongside their tumors.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)

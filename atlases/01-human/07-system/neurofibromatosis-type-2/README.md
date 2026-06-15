@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/fibroblast
     relation: connects-to
     note: "NF2's meningiomas are built with fibroblast-like cells: alongside the schwannomas, patients grow meningiomas whose fibrous, collagen-laying cells form firm masses that compress the brain and cord."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy fingerprints NF2's schwannomas: their cells wrap in continuous basal lamina and pile up long-spacing collagen as Luse bodies — ultrastructure that distinguishes a nerve-sheath tumor when histology alone is uncertain."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium betrays NF2's meningiomas: these slow-growing tumors deposit calcium in laminated psammoma bodies, giving the gritty calcification seen on CT that, scattered through the skull and spine, hints at multiple meningiomas."
+  - target: 01-human/03-molecular/tert
+    relation: connects-to
+    note: "TERT promoter mutations mark the dangerous ones: when an NF2-associated meningioma reactivates telomerase, it signals a more aggressive, recurrence-prone tumor — a molecular flag that pushes toward closer surveillance and earlier treatment."
 ---
 
 # Neurofibromatosis Type 2
@@ -279,6 +288,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — NF2 destroys the ear's potassium-driven hearing: bilateral vestibular schwannomas crush the nerve carrying signals from cochlear hair cells, whose sound transduction runs on a potassium current—so hearing fades on both sides.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — NF2 cuts the synapses that relay sound and balance: as the schwannomas compress the vestibulocochlear nerve, the synaptic transmission from the inner ear to the brain fails, causing the deafness and unsteadiness.
 - `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — NF2's meningiomas are built with fibroblast-like cells: alongside the schwannomas, patients grow meningiomas whose fibrous, collagen-laying cells form firm masses that compress the brain and cord.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy fingerprints NF2's schwannomas: their cells wrap in continuous basal lamina and pile up long-spacing collagen as Luse bodies — ultrastructure that distinguishes a nerve-sheath tumor when histology alone is uncertain.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium betrays NF2's meningiomas: these slow-growing tumors deposit calcium in laminated psammoma bodies, giving the gritty calcification seen on CT that, scattered through the skull and spine, hints at multiple meningiomas.
+- `connects-to` → **[TERT](../../03-molecular/tert/README.md)** — TERT promoter mutations mark the dangerous ones: when an NF2-associated meningioma reactivates telomerase, it signals a more aggressive, recurrence-prone tumor — a molecular flag that pushes toward closer surveillance and earlier treatment.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
