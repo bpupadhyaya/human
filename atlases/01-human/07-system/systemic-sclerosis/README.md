@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Scleroderma bleeds and shears the red cells: the gastric 'watermelon stomach' (GAVE) leaks chronic iron-deficiency anemia, while renal crisis can shred erythrocytes into a microangiopathic hemolytic anemia."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Scleroderma scars the sexual organs too: erectile dysfunction from vascular and fibrotic damage is common and often early in men, while women face vaginal dryness and tightening, and pregnancy carries added risk of renal crisis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "The fibrosis can pinch and starve nerves: scleroderma causes trigeminal sensory neuropathy and entrapment syndromes like carpal tunnel, as thickened tissue and a damaged microvasculature injure the peripheral nerves."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D runs low in scleroderma: gut malabsorption, sun avoidance over fragile skin, and the disease itself leave most patients deficient, a shortfall linked to worse skin and lung fibrosis and to the bone loss they accrue."
 ---
 
 # Systemic Sclerosis
@@ -305,6 +314,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Scleroderma's autoantibodies predict its course: anti-Scl-70 flags diffuse disease with lung fibrosis, anticentromere the limited CREST form with pulmonary hypertension, and anti-RNA-polymerase-III the dreaded scleroderma renal crisis.
 - `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Fibrosis stalls the small bowel: scleroderma replaces gut smooth muscle with scar, so the small intestine loses its propulsion — breeding bacterial overgrowth, malabsorption, and at worst a pseudo-obstruction that mimics a surgical blockage.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Scleroderma bleeds and shears the red cells: the gastric 'watermelon stomach' (GAVE) leaks chronic iron-deficiency anemia, while renal crisis can shred erythrocytes into a microangiopathic hemolytic anemia.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Scleroderma scars the sexual organs too: erectile dysfunction from vascular and fibrotic damage is common and often early in men, while women face vaginal dryness and tightening, and pregnancy carries added risk of renal crisis.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — The fibrosis can pinch and starve nerves: scleroderma causes trigeminal sensory neuropathy and entrapment syndromes like carpal tunnel, as thickened tissue and a damaged microvasculature injure the peripheral nerves.
+- `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D runs low in scleroderma: gut malabsorption, sun avoidance over fragile skin, and the disease itself leave most patients deficient, a shortfall linked to worse skin and lung fibrosis and to the bone loss they accrue.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "The 'purpura' shows on the skin: the profound thrombocytopenia of TTP lets blood leak into the skin as petechiae and bruises, often the first visible sign that sends a patient for the blood count that reveals the crisis."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Acquired TTP is an autoantibody disease: an inhibitor antibody against ADAMTS13 lets giant vWF multimers run wild, so rituximab clears the B cells making it and the anti-vWF nanobody caplacizumab blocks the platelet clumping while plasma exchange replaces the enzyme."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Pregnancy can ignite TTP: the physiologic fall in ADAMTS13 and rise in vWF make gestation a classic trigger, and the picture must be told apart from HELLP and preeclampsia, which it can dangerously mimic."
+  - target: 01-human/06-organ/eye
+    relation: connects-to
+    note: "Microthrombi reach the eye: occlusion of retinal vessels causes hemorrhages, exudates, and serous detachments with sudden visual blurring, a window onto the same microangiopathy strangling the brain and kidney."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -346,6 +355,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — TTP starves the brain's neurons in flickers: platelet microthrombi plug the cerebral microvessels, producing the fluctuating confusion, headache, seizures, and focal deficits that are the hallmark neurologic feature of a crisis.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The heart muscle is a hidden victim: microthrombi clog the coronary microcirculation, injuring cardiomyocytes with troponin rise, arrhythmia, and sudden death — a leading cause of acute mortality in TTP that can be silent until severe.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The 'purpura' shows on the skin: the profound thrombocytopenia of TTP lets blood leak into the skin as petechiae and bruises, often the first visible sign that sends a patient for the blood count that reveals the crisis.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Acquired TTP is an autoantibody disease: an inhibitor antibody against ADAMTS13 lets giant vWF multimers run wild, so rituximab clears the B cells making it and the anti-vWF nanobody caplacizumab blocks the platelet clumping while plasma exchange replaces the enzyme.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Pregnancy can ignite TTP: the physiologic fall in ADAMTS13 and rise in vWF make gestation a classic trigger, and the picture must be told apart from HELLP and preeclampsia, which it can dangerously mimic.
+- `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Microthrombi reach the eye: occlusion of retinal vessels causes hemorrhages, exudates, and serous detachments with sudden visual blurring, a window onto the same microangiopathy strangling the brain and kidney.
 
 ---
 
