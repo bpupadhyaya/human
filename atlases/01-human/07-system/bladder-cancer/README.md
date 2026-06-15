@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Bladder cancer spreads to the liver: along with lung and bone, the liver is a common metastatic site, so its imaging is part of staging advanced, incurable disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy reads bladder cancer's lineage: urothelial carcinoma keeps the surface umbrella cells' specialized membrane plaques and tight junctions, while the squamous type from schistosomiasis shows desmosomes and keratin instead."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Bladder cancer favors the skeleton when it spreads: bone is a leading metastatic site after lung and liver, and deposits in the marrow-filled vertebrae and pelvis cause the pain of advanced disease."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "An advanced bladder tumor can breach the bowel: invasion through the bladder wall into the adjacent rectum or sigmoid colon can open a vesicocolic fistula, leaking gas and stool into the urine."
 ---
 
 # Bladder Cancer
@@ -300,6 +309,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — Bladder cancer and its treatment scar the bladder: a desmoplastic tumor stroma and radiation-induced fibrosis stiffen the wall, shrinking capacity and complicating function after therapy.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Bladder cancer is vascular: VEGF recruits endothelial cells to feed the tumor, and the painless visible hematuria that first reveals it comes partly from these fragile new vessels bleeding into the urine.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Bladder cancer spreads to the liver: along with lung and bone, the liver is a common metastatic site, so its imaging is part of staging advanced, incurable disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy reads bladder cancer's lineage: urothelial carcinoma keeps the surface umbrella cells' specialized membrane plaques and tight junctions, while the squamous type from schistosomiasis shows desmosomes and keratin instead.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Bladder cancer favors the skeleton when it spreads: bone is a leading metastatic site after lung and liver, and deposits in the marrow-filled vertebrae and pelvis cause the pain of advanced disease.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — An advanced bladder tumor can breach the bowel: invasion through the bladder wall into the adjacent rectum or sigmoid colon can open a vesicocolic fistula, leaking gas and stool into the urine.
 
 ---
 
