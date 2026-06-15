@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/04-cellular/neuron
     relation: connects-to
     note: "Lynch's Turcot variant strikes the brain: mismatch-repair loss raises the risk of gliomas, extending the syndrome's reach to the neurons of the central nervous system."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Lynch syndrome cannot proofread its DNA: losing a mismatch-repair gene lets tiny errors accumulate at repetitive sequences — microsatellite instability — so its tumors carry a huge mutation load that makes them strikingly responsive to immunotherapy."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Lynch reaches the liver and bile ducts: it raises the risk of cholangiocarcinoma, and its colorectal cancers spread there, so the liver is both a primary site and the commonest destination of its tumors."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Inheriting two faulty copies is far worse: constitutional mismatch-repair deficiency, the biallelic form, causes childhood leukemias and lymphomas, the marrow joining the syndrome's cancer spectrum in its most severe variant."
 ---
 
 # Lynch Syndrome
@@ -311,6 +320,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Lynch is managed by light: frequent colonoscopy from young adulthood catches and removes the fast-arising colorectal cancers, the surveillance that most reduces deaths in carriers.
 - `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Lynch raises gastric cancer risk: mismatch-repair-deficient stomach cancers occur, especially in MLH1 and MSH2 carriers, so upper endoscopy joins surveillance in high-incidence regions.
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Lynch's Turcot variant strikes the brain: mismatch-repair loss raises the risk of gliomas, extending the syndrome's reach to the neurons of the central nervous system.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Lynch syndrome cannot proofread its DNA: losing a mismatch-repair gene lets tiny errors accumulate at repetitive sequences — microsatellite instability — so its tumors carry a huge mutation load that makes them strikingly responsive to immunotherapy.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Lynch reaches the liver and bile ducts: it raises the risk of cholangiocarcinoma, and its colorectal cancers spread there, so the liver is both a primary site and the commonest destination of its tumors.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Inheriting two faulty copies is far worse: constitutional mismatch-repair deficiency, the biallelic form, causes childhood leukemias and lymphomas, the marrow joining the syndrome's cancer spectrum in its most severe variant.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

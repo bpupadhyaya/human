@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Depression and heart disease feed each other: MDD raises the risk of heart attacks and worsens survival after one, through stress hormones, inflammation and the behaviors it shapes."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Depression may thin the brain's connections: studies find reduced dendritic spines and synapses in mood-regulating regions, and the rapid antidepressant effect of ketamine is thought to work by regrowing them."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D shadows the depressed mind: deficiency is consistently associated with depression, and the vitamin's receptors throughout the brain's mood circuits suggest a role in the seasonal and chronic forms of the illness."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "Depression unsettles the stomach: appetite swings up or down, nausea and 'butterflies' are common somatic complaints, and the gut-brain serotonin axis ties mood tightly to digestion."
 ---
 
 # Major Depressive Disorder
@@ -340,6 +349,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Low iron can mimic and worsen depression: iron deficiency causes the fatigue, poor concentration and low mood that overlap with MDD, so iron is checked in the workup of new depression.
 - `connects-to` → **[Oligodendrocyte](../../04-cellular/oligodendrocyte/README.md)** — Depression alters white matter: oligodendrocyte and myelin abnormalities appear in the mood-circuit tracts, part of the connectivity changes seen on imaging in chronic MDD.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Depression and heart disease feed each other: MDD raises the risk of heart attacks and worsens survival after one, through stress hormones, inflammation and the behaviors it shapes.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Depression may thin the brain's connections: studies find reduced dendritic spines and synapses in mood-regulating regions, and the rapid antidepressant effect of ketamine is thought to work by regrowing them.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D shadows the depressed mind: deficiency is consistently associated with depression, and the vitamin's receptors throughout the brain's mood circuits suggest a role in the seasonal and chronic forms of the illness.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — Depression unsettles the stomach: appetite swings up or down, nausea and 'butterflies' are common somatic complaints, and the gut-brain serotonin axis ties mood tightly to digestion.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
