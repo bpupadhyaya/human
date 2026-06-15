@@ -148,6 +148,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium echoes lithium's calming effect: it modulates the same neuronal signaling and calcium handling, and low levels are tied to mania, so magnesium has been studied as an adjunct mood stabilizer."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "A mood stabilizer can blister the skin: lamotrigine carries a risk of Stevens-Johnson syndrome and toxic epidermal necrolysis, which is why it must be titrated up slowly and stopped at the first rash."
+  - target: 01-human/06-organ/pancreas
+    relation: connects-to
+    note: "Treatment can inflame and unbalance the pancreas: valproate is a recognized cause of acute pancreatitis, while the antipsychotics often added drive weight gain and insulin resistance toward diabetes."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Bipolar drugs reach the reproductive tract: valproate causes polycystic ovary syndrome and, like lithium, is teratogenic — valproate with neural tube defects, lithium with the heart's Ebstein anomaly — complicating treatment in pregnancy."
 ---
 
 # Bipolar Disorder
@@ -321,6 +330,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy points to bipolar's energy crisis: studies find abnormal, dysfunctional mitochondria in the neurons, fueling the leading hypothesis that faulty cellular energy production underlies the swings between mania and depression.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Bipolar disorder shortens life through the heart: cardiovascular disease is its leading cause of early death, driven by chronic stress, metabolic side effects of medication, and the lifestyle toll of the illness.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium echoes lithium's calming effect: it modulates the same neuronal signaling and calcium handling, and low levels are tied to mania, so magnesium has been studied as an adjunct mood stabilizer.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — A mood stabilizer can blister the skin: lamotrigine carries a risk of Stevens-Johnson syndrome and toxic epidermal necrolysis, which is why it must be titrated up slowly and stopped at the first rash.
+- `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Treatment can inflame and unbalance the pancreas: valproate is a recognized cause of acute pancreatitis, while the antipsychotics often added drive weight gain and insulin resistance toward diabetes.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Bipolar drugs reach the reproductive tract: valproate causes polycystic ovary syndrome and, like lithium, is teratogenic — valproate with neural tube defects, lithium with the heart's Ebstein anomaly — complicating treatment in pregnancy.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
