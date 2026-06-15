@@ -170,6 +170,15 @@ cross_links:
   - target: 01-human/07-system/gut-microbiome
     relation: connects-to
     note: "The gut may whisper into the obsessive brain: altered microbiome composition is reported in OCD, and through the microbiome-gut-brain axis it can shape the serotonin and stress signaling implicated in the disorder."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "PANDAS makes OCD an autoimmune disease: after strep infection, molecular mimicry drives T helper cells and antibodies against basal-ganglia neurons, sparking the abrupt onset of obsessions and tics in susceptible children."
+  - target: 01-human/07-system/bulimia-nervosa
+    relation: connects-to
+    note: "OCD and eating disorders share a compulsive core: bulimia nervosa frequently co-occurs with OCD, the binge-purge rituals echoing obsessive thoughts and compulsive acts, and the two run together in families."
+  - target: 01-human/03-molecular/il-6
+    relation: connects-to
+    note: "Inflammation may stoke the obsessive brain: studies find raised IL-6 and other inflammatory cytokines in OCD, hinting that immune activation contributes to the disorder alongside its serotonin and glutamate disturbances."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -345,6 +354,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Some childhood OCD is an autoimmune storm: in PANDAS/PANS, antibodies raised against streptococcus cross-react with basal-ganglia neurons, triggering abrupt-onset obsessions and tics that may respond to immune therapy rather than SSRIs alone.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormonal transitions can unmask OCD: it often first appears or sharply worsens in pregnancy and the postpartum period, the perinatal form fixating on the baby's safety, while symptoms can also flare premenstrually.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — The gut may whisper into the obsessive brain: altered microbiome composition is reported in OCD, and through the microbiome-gut-brain axis it can shape the serotonin and stress signaling implicated in the disorder.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — PANDAS makes OCD an autoimmune disease: after strep infection, molecular mimicry drives T helper cells and antibodies against basal-ganglia neurons, sparking the abrupt onset of obsessions and tics in susceptible children.
+- `connects-to` → **[Bulimia Nervosa](../bulimia-nervosa/README.md)** — OCD and eating disorders share a compulsive core: bulimia nervosa frequently co-occurs with OCD, the binge-purge rituals echoing obsessive thoughts and compulsive acts, and the two run together in families.
+- `connects-to` → **[Interleukin-6](../../03-molecular/il-6/README.md)** — Inflammation may stoke the obsessive brain: studies find raised IL-6 and other inflammatory cytokines in OCD, hinting that immune activation contributes to the disorder alongside its serotonin and glutamate disturbances.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

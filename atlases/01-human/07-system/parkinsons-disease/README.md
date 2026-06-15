@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Dopamine treatment can unleash compulsions: dopamine-agonist drugs trigger impulse-control disorders including hypersexuality, while autonomic disease causes erectile and sexual dysfunction — and estrogen's neuroprotection may explain why men are affected more."
+  - target: 01-human/07-system/melanoma
+    relation: connects-to
+    note: "Parkinson's and melanoma travel together: people with one carry a higher risk of the other, a bidirectional link rooted in shared pigment and α-synuclein biology rather than in levodopa, prompting skin surveillance in patients."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Parkinson's reaches beyond the brain into peripheral nerves: α-synuclein deposits in autonomic fibers of the skin and gut — now sampled by biopsy to diagnose it — and the resulting autonomic neuropathy causes orthostatic drops in blood pressure."
+  - target: 01-human/04-cellular/t-cytotoxic-cell
+    relation: connects-to
+    note: "The immune system joins the attack on dopamine neurons: cytotoxic T cells that recognize α-synuclein fragments infiltrate the substantia nigra, an adaptive autoimmune assault that helps drive the neuronal loss of Parkinson's."
 ---
 
 # Parkinson's Disease
@@ -346,6 +355,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Clearing the rogue protein is the new hope: monoclonal antibodies against aggregated alpha-synuclein are in trials to slow Parkinson's, aiming to mop up the misfolded protein before it spreads neuron to neuron.
 - `connects-to` → **[GABA](../../03-molecular/gaba/README.md)** — Parkinson's is a disease of basal-ganglia GABA circuits: losing dopamine unbalances the GABAergic direct and indirect pathways, over-inhibiting movement — and that same GABA output is what deep-brain stimulation and pallidotomy retune.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Dopamine treatment can unleash compulsions: dopamine-agonist drugs trigger impulse-control disorders including hypersexuality, while autonomic disease causes erectile and sexual dysfunction — and estrogen's neuroprotection may explain why men are affected more.
+- `connects-to` → **[Melanoma](../melanoma/README.md)** — Parkinson's and melanoma travel together: people with one carry a higher risk of the other, a bidirectional link rooted in shared pigment and α-synuclein biology rather than in levodopa, prompting skin surveillance in patients.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Parkinson's reaches beyond the brain into peripheral nerves: α-synuclein deposits in autonomic fibers of the skin and gut — now sampled by biopsy to diagnose it — and the resulting autonomic neuropathy causes orthostatic drops in blood pressure.
+- `connects-to` → **[Cytotoxic T Cell](../../04-cellular/t-cytotoxic-cell/README.md)** — The immune system joins the attack on dopamine neurons: cytotoxic T cells that recognize α-synuclein fragments infiltrate the substantia nigra, an adaptive autoimmune assault that helps drive the neuronal loss of Parkinson's.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
