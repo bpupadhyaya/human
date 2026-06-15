@@ -118,6 +118,15 @@ cross_links:
   - target: 01-human/04-cellular/endothelial-cell
     relation: connects-to
     note: "Waldenström's thick IgM batters the endothelium: the sludgy, hyperviscous blood engorges and damages the vessel-lining cells, swelling retinal veins and causing the headaches, bleeding, and vision loss of hyperviscosity syndrome."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Waldenström's hyperviscosity shows in the eye: fundoscopy in visible light reveals dilated, sausage-segmented retinal veins, while CT photons map the lymph-node and spleen enlargement of the clone."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Waldenström spreads through the lymphatic organs: hepatomegaly and lymphadenopathy join the splenomegaly as the lymphoplasmacytic clone seeds beyond the bone marrow."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Waldenström's high IgM fools the lab: the excess protein displaces water in the blood sample, producing a spurious low sodium—pseudohyponatremia—that must not be wrongly corrected."
 ---
 
 # Waldenström Macroglobulinemia
@@ -269,6 +278,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Waldenström can invade the brain: in rare Bing-Neel syndrome the lymphoplasmacytic cells seed the central nervous system, causing headaches, confusion, and neurological deficits that require treatments able to cross into the brain.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Waldenström blunts the body's iron use: marrow packed with the clone and chronic inflammation choke off red-cell production and lock away iron, so anemia—often the presenting complaint—dominates the disease.
 - `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Waldenström's thick IgM batters the endothelium: the sludgy, hyperviscous blood engorges and damages the vessel-lining cells, swelling retinal veins and causing the headaches, bleeding, and vision loss of hyperviscosity syndrome.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Waldenström's hyperviscosity shows in the eye: fundoscopy in visible light reveals dilated, sausage-segmented retinal veins, while CT photons map the lymph-node and spleen enlargement of the clone.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Waldenström spreads through the lymphatic organs: hepatomegaly and lymphadenopathy join the splenomegaly as the lymphoplasmacytic clone seeds beyond the bone marrow.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Waldenström's high IgM fools the lab: the excess protein displaces water in the blood sample, producing a spurious low sodium—pseudohyponatremia—that must not be wrongly corrected.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

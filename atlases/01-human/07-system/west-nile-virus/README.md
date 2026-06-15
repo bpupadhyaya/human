@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/05-tissue/synapse
     relation: connects-to
     note: "West Nile can erase synapses: even after the virus clears, activated microglia and complement prune synapses in the brain, a loss now linked to the memory and cognitive problems that linger in survivors."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Neuroinvasive West Nile is mapped by MRI: its photons reveal inflammation in the thalamus, basal ganglia and brainstem, and the spinal-cord signal behind its polio-like paralysis."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Most West Nile infections show on the skin: West Nile fever brings a blotchy maculopapular rash over the trunk and limbs, the visible face of the far commoner non-neuroinvasive disease."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "West Nile strikes the nervous system broadly: beyond the brain it injures peripheral nerves and the anterior-horn motor neurons, causing a polio-like acute flaccid paralysis that can be permanent."
 ---
 
 # West Nile Virus
@@ -274,3 +283,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — West Nile leaves a fingerprint in the eye: it commonly causes a distinctive chorioretinitis—clusters of spots in a curved, linear pattern—so an eye exam can help diagnose neuroinvasive infection, and the lesions usually heal as the patient recovers.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — West Nile kills neurons through calcium: in encephalitis, infected and overexcited neurons let calcium flood in, triggering the excitotoxic cell death that destroys brain and spinal motor neurons and leaves lasting deficits.
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — West Nile can erase synapses: even after the virus clears, activated microglia and complement prune synapses in the brain, a loss now linked to the memory and cognitive problems that linger in survivors.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Neuroinvasive West Nile is mapped by MRI: its photons reveal inflammation in the thalamus, basal ganglia and brainstem, and the spinal-cord signal behind its polio-like paralysis.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Most West Nile infections show on the skin: West Nile fever brings a blotchy maculopapular rash over the trunk and limbs, the visible face of the far commoner non-neuroinvasive disease.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — West Nile strikes the nervous system broadly: beyond the brain it injures peripheral nerves and the anterior-horn motor neurons, causing a polio-like acute flaccid paralysis that can be permanent.
