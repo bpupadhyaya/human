@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/lung
     relation: connects-to
     note: "PV's thick blood threatens the lungs: the hyperviscous, clot-prone circulation throws pulmonary emboli and raises pulmonary pressures, so breathlessness and chronic thromboembolic pulmonary hypertension can complicate the disease."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Sluggish, crowded blood torments the nerves: PV causes headache, dizziness, and visual blurring from hyperviscosity, plus the burning red hands and feet of erythromelalgia, where platelet plugs in small vessels inflame sensory neurons."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "The driver mutation is also the drug target: ruxolitinib, a JAK1/2 inhibitor, calms the overactive JAK-STAT signaling of PV, shrinking the spleen and easing symptoms in patients who can't tolerate or fail hydroxyurea."
+  - target: 01-human/07-system/vhl-disease
+    relation: connects-to
+    note: "Other paths can also overfill the blood: where PV makes red cells with the EPO switch off, germline VHL defects (Chuvash polycythemia) stabilize HIF and drive EPO up — high versus low erythropoietin separating these causes of erythrocytosis."
 ---
 
 # Polycythemia Vera
@@ -293,6 +302,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Radioactive phosphorus tames PV with electrons: P-32 lodges in the marrow and showers it with beta particles — fast electrons — to throttle the runaway red-cell production, a once-standard therapy now kept for older patients who can't manage other drugs.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney both mimics and suffers PV: a tumor or cyst making excess erythropoietin must be excluded as a cause of high red cells, while PV's own urate overload from rapid cell turnover scars the kidney with gout-related nephropathy.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — PV's thick blood threatens the lungs: the hyperviscous, clot-prone circulation throws pulmonary emboli and raises pulmonary pressures, so breathlessness and chronic thromboembolic pulmonary hypertension can complicate the disease.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Sluggish, crowded blood torments the nerves: PV causes headache, dizziness, and visual blurring from hyperviscosity, plus the burning red hands and feet of erythromelalgia, where platelet plugs in small vessels inflame sensory neurons.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — The driver mutation is also the drug target: ruxolitinib, a JAK1/2 inhibitor, calms the overactive JAK-STAT signaling of PV, shrinking the spleen and easing symptoms in patients who can't tolerate or fail hydroxyurea.
+- `connects-to` → **[VHL Disease](../vhl-disease/README.md)** — Other paths can also overfill the blood: where PV makes red cells with the EPO switch off, germline VHL defects (Chuvash polycythemia) stabilize HIF and drive EPO up — high versus low erythropoietin separating these causes of erythrocytosis.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
