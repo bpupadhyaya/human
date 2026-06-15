@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Carcinoid diarrhea drains the body's minerals: the relentless secretory diarrhea of a hormone-secreting neuroendocrine tumor flushes out magnesium and potassium, electrolytes that must be replaced alongside treating the tumor."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody stains define the tumor: chromogranin A and synaptophysin by immunohistochemistry confirm a lesion is neuroendocrine, and the Ki-67 antibody index grades how fast it divides — the single number that separates indolent NETs from aggressive carcinomas."
+  - target: 01-human/06-organ/kidney
+    relation: connects-to
+    note: "The kidney limits the radioactive cure: peptide receptor radionuclide therapy with Lu-177 DOTATATE homes to SSTR2 but is filtered through and can injure the kidney, so amino-acid infusions are co-given to shield the tubules from the radiation dose."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "Carcinoid hormones clench smooth muscle: serotonin and bradykinin from the tumor contract airway and gut smooth-muscle cells, causing the wheeze and cramping diarrhea of carcinoid syndrome that octreotide is given to quiet."
 ---
 
 # Neuroendocrine Tumors
@@ -288,6 +297,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Neuroendocrine tumors of the gut announce themselves with diarrhea: midgut carcinoids spill serotonin that speeds the bowel, and once they reach the liver the unfiltered hormones cause the flushing-and-diarrhea of carcinoid syndrome.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Neuroendocrine tumors favor bone when they spread: skeletal metastases to the marrow-bearing spine and pelvis are common in advanced disease, lighting up on the somatostatin-receptor scans used to stage them.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Carcinoid diarrhea drains the body's minerals: the relentless secretory diarrhea of a hormone-secreting neuroendocrine tumor flushes out magnesium and potassium, electrolytes that must be replaced alongside treating the tumor.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody stains define the tumor: chromogranin A and synaptophysin by immunohistochemistry confirm a lesion is neuroendocrine, and the Ki-67 antibody index grades how fast it divides — the single number that separates indolent NETs from aggressive carcinomas.
+- `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney limits the radioactive cure: peptide receptor radionuclide therapy with Lu-177 DOTATATE homes to SSTR2 but is filtered through and can injure the kidney, so amino-acid infusions are co-given to shield the tubules from the radiation dose.
+- `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Carcinoid hormones clench smooth muscle: serotonin and bradykinin from the tumor contract airway and gut smooth-muscle cells, causing the wheeze and cramping diarrhea of carcinoid syndrome that octreotide is given to quiet.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
