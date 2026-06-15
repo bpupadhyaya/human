@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Cytokine storm drops the calcium: the systemic inflammation and disturbed hormone handling leave critically ill patients hypocalcemic, a derangement that further weakens the failing heart and vasculature."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Antibody therapy both triggers and tames the storm: CAR-T and bispecific antibodies can unleash a cytokine release syndrome, while the anti-IL-6-receptor antibody tocilizumab is the specific drug used to quell it."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The storm clouds the brain: immune effector cell-associated neurotoxicity (ICANS) after CAR-T — and the encephalopathy of severe systemic inflammation — injures and disrupts neurons into confusion, aphasia, and seizures."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "In its HLH/MAS form the storm devours blood cells: hyperactivated macrophages engulf erythrocytes and other lineages (hemophagocytosis), crashing the counts while ferritin soars — a hallmark of the most severe cytokine storms."
 ---
 
 # Cytokine Storm
@@ -274,6 +283,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy catches the storm consuming the blood: in hemophagocytic syndromes, macrophages are seen engulfing whole red cells, platelets, and white cells, the cannibalism that empties the blood counts in HLH.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The runaway inflammation can wreck the gut: shock and capillary leak starve the bowel lining, breaking the barrier so bacteria translocate and feed the storm in a vicious cycle of multi-organ failure.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Cytokine storm drops the calcium: the systemic inflammation and disturbed hormone handling leave critically ill patients hypocalcemic, a derangement that further weakens the failing heart and vasculature.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibody therapy both triggers and tames the storm: CAR-T and bispecific antibodies can unleash a cytokine release syndrome, while the anti-IL-6-receptor antibody tocilizumab is the specific drug used to quell it.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The storm clouds the brain: immune effector cell-associated neurotoxicity (ICANS) after CAR-T — and the encephalopathy of severe systemic inflammation — injures and disrupts neurons into confusion, aphasia, and seizures.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — In its HLH/MAS form the storm devours blood cells: hyperactivated macrophages engulf erythrocytes and other lineages (hemophagocytosis), crashing the counts while ferritin soars — a hallmark of the most severe cytokine storms.
 
 ## Pathology
 

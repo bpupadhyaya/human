@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "The kidney bears the cost of treatment: lifelong courses of aminoglycoside antibiotics for lung infections are nephrotoxic, and dehydration and stones add to the renal risk these patients carry."
+  - target: 01-human/06-organ/stomach
+    relation: connects-to
+    note: "CF unsettles the upper gut: reflux is near-universal as cough and physiotherapy push acid up, and thickened secretions slow the stomach, while lower down the same mucus jams the bowel into distal intestinal obstruction syndrome."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "An allergic antibody storm complicates CF lungs: allergic bronchopulmonary aspergillosis, an IgE- and IgG-driven hypersensitivity to the Aspergillus colonizing the airways, worsens wheeze and lung damage and is treated with steroids and antifungals."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "CF quietly lowers the red cells: chronic infection's anemia of inflammation, malabsorption of iron and vitamins, and GI blood loss combine to leave many patients anemic despite their other reserves."
 ---
 
 # Cystic Fibrosis
@@ -311,6 +320,9 @@ AND
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows the failed mucociliary escalator: with CFTR's chloride channel broken, the airway surface dehydrates, the protective fluid layer collapses, and the cilia flatten under thick, immovable mucus.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Decades of lung disease overload the right heart: chronic low oxygen raises pulmonary pressures until the right ventricle fails into cor pulmonale, a common terminal pathway in advanced cystic fibrosis.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — The kidney bears the cost of treatment: lifelong courses of aminoglycoside antibiotics for lung infections are nephrotoxic, and dehydration and stones add to the renal risk these patients carry.
+- `connects-to` → **[Stomach](../../06-organ/stomach/README.md)** — CF unsettles the upper gut: reflux is near-universal as cough and physiotherapy push acid up, and thickened secretions slow the stomach, while lower down the same mucus jams the bowel into distal intestinal obstruction syndrome.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — An allergic antibody storm complicates CF lungs: allergic bronchopulmonary aspergillosis, an IgE- and IgG-driven hypersensitivity to the Aspergillus colonizing the airways, worsens wheeze and lung damage and is treated with steroids and antifungals.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — CF quietly lowers the red cells: chronic infection's anemia of inflammation, malabsorption of iron and vitamins, and GI blood loss combine to leave many patients anemic despite their other reserves.
 
 ---
 
