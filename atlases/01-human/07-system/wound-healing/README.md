@@ -139,6 +139,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Vitamin D arms the healing skin: it spurs keratinocytes to make cathelicidin, the antimicrobial peptide that guards a fresh wound from infection, so deficiency leaves repair slower and more prone to breaking down."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Healing runs on protein: building new collagen and tissue demands amino acids, so the low albumin of malnutrition signals a body that cannot keep up — slowing repair and, through low oncotic pressure, swelling the wound with edema."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Repair is hungry for oxygen the red cells carry: collagen cross-linking and the respiratory burst that kills bacteria both need it, so anemia or poor perfusion starves the wound bed and stalls healing."
+  - target: 01-human/03-molecular/nitric-oxide
+    relation: connects-to
+    note: "Nitric oxide orchestrates the repair: released by endothelium and macrophages, it dilates vessels to feed the wound, spurs angiogenesis and collagen deposition, and kills microbes — and its deficiency is one reason diabetic wounds heal so poorly."
 ---
 
 # Wound Healing
@@ -298,6 +307,9 @@ cross_links:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy watches a wound pull itself shut: fibroblasts transform into myofibroblasts studded with actin stress fibers that contract the edges together, while newly secreted collagen fibrils assemble into the banded scaffold of scar.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signals the wound from the first second: it is the ion that fires the clotting cascade to stop bleeding, then sets up the gradient that drives keratinocytes to migrate and differentiate as they resurface the skin.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D arms the healing skin: it spurs keratinocytes to make cathelicidin, the antimicrobial peptide that guards a fresh wound from infection, so deficiency leaves repair slower and more prone to breaking down.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Healing runs on protein: building new collagen and tissue demands amino acids, so the low albumin of malnutrition signals a body that cannot keep up — slowing repair and, through low oncotic pressure, swelling the wound with edema.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Repair is hungry for oxygen the red cells carry: collagen cross-linking and the respiratory burst that kills bacteria both need it, so anemia or poor perfusion starves the wound bed and stalls healing.
+- `connects-to` → **[Nitric Oxide](../../03-molecular/nitric-oxide/README.md)** — Nitric oxide orchestrates the repair: released by endothelium and macrophages, it dilates vessels to feed the wound, spurs angiogenesis and collagen deposition, and kills microbes — and its deficiency is one reason diabetic wounds heal so poorly.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

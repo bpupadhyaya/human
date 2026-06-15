@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/brain
     relation: connects-to
     note: "Some childhood kidney tumors reach the brain: the rhabdoid and clear cell sarcoma variants in the Wilms differential can metastasize to the central nervous system, a site that demands brain imaging when these aggressive types are found."
+  - target: 01-human/07-system/hypertension
+    relation: connects-to
+    note: "Wilms tumor often raises the blood pressure: the tumor secretes renin or compresses the renal vessels, and the resulting hypertension is a common presenting sign that settles once the kidney and tumor are removed."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Wilms chemotherapy frays the nerves: vincristine, paired with dactinomycin in the standard regimen, poisons the microtubule transport of peripheral neurons, causing the foot drop, constipation, and tingling that limit its dose."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Wilms tumor can swing the red-cell count either way: bleeding into the tumor drops it toward anemia, while a minority secrete erythropoietin to drive a paraneoplastic polycythemia of excess red cells."
 ---
 
 # Wilms Tumor
@@ -300,6 +309,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows Wilms tumor rebuilding a kidney gone wrong: its triphasic mix of primitive blastema, gland-like epithelial tubules, and stromal cells recapitulates fetal nephron development frozen in malignant form.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — A Wilms mimic heads for the bone: clear cell sarcoma of the kidney, long called the 'bone-metastasizing renal tumor of childhood,' seeds the skeleton and its marrow — spread that classic Wilms tumor, favoring lung and liver, rarely shows.
 - `connects-to` → **[Brain](../../06-organ/brain/README.md)** — Some childhood kidney tumors reach the brain: the rhabdoid and clear cell sarcoma variants in the Wilms differential can metastasize to the central nervous system, a site that demands brain imaging when these aggressive types are found.
+- `connects-to` → **[Hypertension](../hypertension/README.md)** — Wilms tumor often raises the blood pressure: the tumor secretes renin or compresses the renal vessels, and the resulting hypertension is a common presenting sign that settles once the kidney and tumor are removed.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Wilms chemotherapy frays the nerves: vincristine, paired with dactinomycin in the standard regimen, poisons the microtubule transport of peripheral neurons, causing the foot drop, constipation, and tingling that limit its dose.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Wilms tumor can swing the red-cell count either way: bleeding into the tumor drops it toward anemia, while a minority secrete erythropoietin to drive a paraneoplastic polycythemia of excess red cells.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
