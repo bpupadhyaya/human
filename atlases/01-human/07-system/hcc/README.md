@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "HCC is a man's cancer, and androgens are why: it strikes men two-to-four times more often, testosterone signaling promotes its growth, and anabolic-steroid abuse can itself spawn hepatic tumors."
+  - target: 01-human/04-cellular/fibroblast
+    relation: connects-to
+    note: "The scar-making cell sets the stage for cancer: activated hepatic stellate cells and cancer-associated fibroblasts lay down the fibrosis that precedes HCC and then build the tumor stroma that shelters and feeds it."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TGF-β plays both fibrosis and tumor: it drives the stellate-cell scarring that breeds HCC, then in the tumor switches to promoting invasion and suppressing the immune attack, a dual role that makes it a therapeutic target."
+  - target: 02-pathogen/03-fungi/aspergillus-fumigatus
+    relation: connects-to
+    note: "A mold's toxin scars its signature into the genome: Aspergillus growing on stored grain makes aflatoxin, which causes the hallmark p53 R249S mutation, a major driver of HCC where contamination and hepatitis B overlap."
 ---
 
 # Hepatocellular Carcinoma
@@ -341,6 +350,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies screen and treat HCC: the AFP blood marker is read by immunoassay to flag and follow tumors, and atezolizumab with the anti-VEGF antibody bevacizumab is now first-line immunotherapy for advanced disease.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The blood count forecasts the course: a high neutrophil-to-lymphocyte ratio predicts poorer survival in HCC, reflecting the tumor-promoting inflammation of the chronically injured, cirrhotic liver it grows in.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — HCC is a man's cancer, and androgens are why: it strikes men two-to-four times more often, testosterone signaling promotes its growth, and anabolic-steroid abuse can itself spawn hepatic tumors.
+- `connects-to` → **[Fibroblast](../../04-cellular/fibroblast/README.md)** — The scar-making cell sets the stage for cancer: activated hepatic stellate cells and cancer-associated fibroblasts lay down the fibrosis that precedes HCC and then build the tumor stroma that shelters and feeds it.
+- `connects-to` → **[Transforming Growth Factor Beta](../../03-molecular/tgf-beta/README.md)** — TGF-β plays both fibrosis and tumor: it drives the stellate-cell scarring that breeds HCC, then in the tumor switches to promoting invasion and suppressing the immune attack, a dual role that makes it a therapeutic target.
+- `connects-to` → **[Aspergillus fumigatus](../../../02-pathogen/03-fungi/aspergillus-fumigatus/README.md)** — A mold's toxin scars its signature into the genome: Aspergillus growing on stored grain makes aflatoxin, which causes the hallmark p53 R249S mutation, a major driver of HCC where contamination and hepatitis B overlap.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

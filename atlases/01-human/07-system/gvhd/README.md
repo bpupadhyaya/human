@@ -163,6 +163,15 @@ cross_links:
   - target: 01-human/06-organ/thyroid
     relation: connects-to
     note: "The transplanted immunity can turn on the thyroid: chronic GVHD and post-transplant immune dysregulation raise the rate of autoimmune thyroid disease, one of the late endocrine complications survivors are monitored for."
+  - target: 01-human/03-molecular/il-17a
+    relation: connects-to
+    note: "Th17 cells drive part of the attack: IL-17A from donor T cells fuels the inflammation of skin, gut, and lung GVHD, making the IL-17 axis one of the pathways targeted to tame the disease."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "The small bowel is a primary GVHD target: donor T cells trigger crypt-cell apoptosis and a secretory diarrhea whose volume grades acute gut GVHD, the leak of the damaged mucosa amplifying the systemic inflammation."
+  - target: 01-human/07-system/mds
+    relation: connects-to
+    note: "GVHD is the price of the cure for MDS: the allogeneic transplant given for myelodysplastic syndromes carries a graft-versus-tumor benefit, but the same donor cells that clear the marrow disease can turn on the host."
 ---
 
 # Graft-Versus-Host Disease
@@ -349,6 +358,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Corticosteroids are the first line and a double edge: high-dose glucocorticoids suppress the donor T cells driving GVHD, but their infections, bone loss, and metabolic harm make steroid-sparing agents a constant goal.
 - `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — Hepatic GVHD strikes the liver cells and ducts: donor T cells attack the bile-duct epithelium and injure hepatocytes, producing a cholestatic hepatitis with rising bilirubin that is one of acute GVHD's three classic targets.
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — The transplanted immunity can turn on the thyroid: chronic GVHD and post-transplant immune dysregulation raise the rate of autoimmune thyroid disease, one of the late endocrine complications survivors are monitored for.
+- `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — Th17 cells drive part of the attack: IL-17A from donor T cells fuels the inflammation of skin, gut, and lung GVHD, making the IL-17 axis one of the pathways targeted to tame the disease.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — The small bowel is a primary GVHD target: donor T cells trigger crypt-cell apoptosis and a secretory diarrhea whose volume grades acute gut GVHD, the leak of the damaged mucosa amplifying the systemic inflammation.
+- `connects-to` → **[Myelodysplastic Syndromes](../mds/README.md)** — GVHD is the price of the cure for MDS: the allogeneic transplant given for myelodysplastic syndromes carries a graft-versus-tumor benefit, but the same donor cells that clear the marrow disease can turn on the host.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
