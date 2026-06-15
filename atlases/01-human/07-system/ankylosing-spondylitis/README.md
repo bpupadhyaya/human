@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/liver
     relation: connects-to
     note: "Treating AS means watching the liver: before starting the TNF-blocking biologics that calm the spine, patients are screened for hepatitis B to avoid reactivating it, and long-term NSAID use adds its own hepatic and GI risks."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "AS is seronegative yet treated with antibodies: rheumatoid factor and anti-CCP are absent, marking it apart from RA, while monoclonal antibodies against TNF and IL-17 are the mainstay that calms the spine when NSAIDs fall short."
+  - target: 01-human/04-cellular/cardiomyocyte
+    relation: connects-to
+    note: "The inflammation creeps toward the heart's core: AS causes aortic-root inflammation with regurgitation and conduction disease, fibrosis invading the valve and the AV node so the cardiomyocytes' wiring blocks and the rhythm slows."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Disease and drugs touch reproduction: AS strikes men in their reproductive prime, and family planning weighs the safety of NSAIDs and biologics in pregnancy, while severe spinal fusion can complicate the mechanics of conception and delivery."
 ---
 
 # Ankylosing Spondylitis
@@ -304,6 +313,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — A fused spine is a brittle one: the rigid bamboo spine of AS fractures from minor trauma, and these unstable breaks can crush the spinal cord, while chronic arachnoid scarring rarely produces a cauda equina syndrome of leg weakness and bladder loss.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Chronic inflammation thins the blood: like other rheumatic diseases, active AS drives the anemia of chronic disease, with inflammatory hepcidin locking iron away from the red cells and leaving patients tired beyond their joint pain.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Treating AS means watching the liver: before starting the TNF-blocking biologics that calm the spine, patients are screened for hepatitis B to avoid reactivating it, and long-term NSAID use adds its own hepatic and GI risks.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — AS is seronegative yet treated with antibodies: rheumatoid factor and anti-CCP are absent, marking it apart from RA, while monoclonal antibodies against TNF and IL-17 are the mainstay that calms the spine when NSAIDs fall short.
+- `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — The inflammation creeps toward the heart's core: AS causes aortic-root inflammation with regurgitation and conduction disease, fibrosis invading the valve and the AV node so the cardiomyocytes' wiring blocks and the rhythm slows.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Disease and drugs touch reproduction: AS strikes men in their reproductive prime, and family planning weighs the safety of NSAIDs and biologics in pregnancy, while severe spinal fusion can complicate the mechanics of conception and delivery.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
