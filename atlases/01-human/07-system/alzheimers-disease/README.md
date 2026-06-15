@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium thins in the aging brain: low levels weaken the synaptic plasticity and NMDA regulation that memory depends on, and raising brain magnesium is studied as a way to slow cognitive decline."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Alzheimer's first disease-modifying drugs are antibodies: lecanemab and donanemab are monoclonal antibodies that clear amyloid plaques, modestly slowing decline at the cost of ARIA — brain swelling and microbleeds seen on MRI."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Amyloid also clogs the brain's vessels: in cerebral amyloid angiopathy it deposits in the walls lined by endothelial cells, weakening them into microbleeds — the same fragile vessels that bleed when anti-amyloid antibodies are given."
+  - target: 01-human/03-molecular/orexin
+    relation: connects-to
+    note: "Sleep and Alzheimer's feed each other through orexin: the wakefulness peptide runs high and fragments sleep, and because amyloid is cleared by the glymphatic system during deep sleep, the lost rest lets more plaque accumulate."
 ---
 
 # Alzheimer's Disease
@@ -286,6 +295,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows Alzheimer's two lesions: extracellular plaques of beta-pleated amyloid fibrils and intracellular tangles of paired helical tau filaments, choking neurons as their synapses melt away.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — The gut may whisper to the Alzheimer's brain: a dysbiotic microbiome and the inflammatory and amyloid-like products it makes are increasingly tied, through the gut-brain axis, to the neuroinflammation that fuels the disease.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium thins in the aging brain: low levels weaken the synaptic plasticity and NMDA regulation that memory depends on, and raising brain magnesium is studied as a way to slow cognitive decline.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Alzheimer's first disease-modifying drugs are antibodies: lecanemab and donanemab are monoclonal antibodies that clear amyloid plaques, modestly slowing decline at the cost of ARIA — brain swelling and microbleeds seen on MRI.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Amyloid also clogs the brain's vessels: in cerebral amyloid angiopathy it deposits in the walls lined by endothelial cells, weakening them into microbleeds — the same fragile vessels that bleed when anti-amyloid antibodies are given.
+- `connects-to` → **[Orexin](../../03-molecular/orexin/README.md)** — Sleep and Alzheimer's feed each other through orexin: the wakefulness peptide runs high and fragments sleep, and because amyloid is cleared by the glymphatic system during deep sleep, the lost rest lets more plaque accumulate.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

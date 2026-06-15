@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Inflammatory bowel disease is a classic cause: chronic gut inflammation drives the IL-6 and hepcidin that lock away iron, so the large intestine's disease shows up as the anemia in the blood."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "The same inflammation that drops the red cells lifts the platelets: IL-6 drives both hepcidin and thrombopoiesis, so a reactive thrombocytosis often travels alongside the anemia of chronic disease."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "Anemia keeps company with a falling albumin: both are negative acute-phase reactants, suppressed as the liver reprioritizes its output during chronic inflammation, so the two markers sink together as a measure of disease burden."
+  - target: 01-human/04-cellular/t-helper-cell
+    relation: connects-to
+    note: "Helper T cells light the fuse: their interferon-gamma and the cytokines they orchestrate drive the hepcidin surge and blunt the marrow's response, the adaptive-immune arm of the anemia's inflammatory cause."
 ---
 
 # Anemia of Chronic Disease
@@ -311,6 +320,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows where the iron is hidden: macrophages of the spleen and marrow swell with ferritin and hemosiderin granules, hoarding the iron that hepcidin won't let them release to the hungry red-cell precursors.
 - `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D can ease the iron block: it suppresses hepcidin, so deficiency — common in the chronic inflammatory diseases that cause this anemia — tightens the iron restriction, and repletion modestly loosens it.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Inflammatory bowel disease is a classic cause: chronic gut inflammation drives the IL-6 and hepcidin that lock away iron, so the large intestine's disease shows up as the anemia in the blood.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — The same inflammation that drops the red cells lifts the platelets: IL-6 drives both hepcidin and thrombopoiesis, so a reactive thrombocytosis often travels alongside the anemia of chronic disease.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Anemia keeps company with a falling albumin: both are negative acute-phase reactants, suppressed as the liver reprioritizes its output during chronic inflammation, so the two markers sink together as a measure of disease burden.
+- `connects-to` → **[T Helper Cell](../../04-cellular/t-helper-cell/README.md)** — Helper T cells light the fuse: their interferon-gamma and the cytokines they orchestrate drive the hepcidin surge and blunt the marrow's response, the adaptive-immune arm of the anemia's inflammatory cause.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
