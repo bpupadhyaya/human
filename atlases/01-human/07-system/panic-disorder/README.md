@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/04-cellular/cardiomyocyte
     relation: connects-to
     note: "Panic floods heart-muscle cells with adrenaline: the surge drives cardiomyocytes into pounding palpitations and chest pain, and rarely into a transient stress cardiomyopathy, the 'heart attack' feeling of an attack."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons expose the panicking brain: functional MRI and PET reveal an overactive amygdala and fear circuit with weak prefrontal restraint, the imaging signature researchers use to map why an attack erupts without real danger."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium lactate is the classic panic trigger: infusing it into the vein reliably provokes a full attack in patients but not in healthy people, a reproducible challenge test that helped prove panic disorder has a distinct biology."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Dopamine wires panic into avoidance: the reward-and-threat transmitter helps stamp in the fear conditioning that turns a single attack into agoraphobia, as the brain learns to dread and flee the places where panic struck."
 ---
 
 # Panic Disorder
@@ -312,6 +321,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — An overactive thyroid mimics panic: excess thyroid hormone causes palpitations, sweating, and dread that look just like panic attacks, so thyroid function is checked before settling on the diagnosis.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Panic grips the gut: through the gut-brain axis attacks bring nausea, cramping, and urgent bowel movements, and panic disorder overlaps heavily with irritable bowel syndrome.
 - `connects-to` → **[Cardiomyocyte](../../04-cellular/cardiomyocyte/README.md)** — Panic floods heart-muscle cells with adrenaline: the surge drives cardiomyocytes into pounding palpitations and chest pain, and rarely into a transient stress cardiomyopathy, the 'heart attack' feeling of an attack.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons expose the panicking brain: functional MRI and PET reveal an overactive amygdala and fear circuit with weak prefrontal restraint, the imaging signature researchers use to map why an attack erupts without real danger.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sodium lactate is the classic panic trigger: infusing it into the vein reliably provokes a full attack in patients but not in healthy people, a reproducible challenge test that helped prove panic disorder has a distinct biology.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Dopamine wires panic into avoidance: the reward-and-threat transmitter helps stamp in the fear conditioning that turns a single attack into agoraphobia, as the brain learns to dread and flee the places where panic struck.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
