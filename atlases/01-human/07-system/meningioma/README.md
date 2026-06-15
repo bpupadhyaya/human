@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/placenta
     relation: connects-to
     note: "Pregnancy can wake a meningioma: many carry progesterone receptors and visibly enlarge under the hormone surge that the placenta drives, sometimes turning symptomatic in the third trimester and shrinking again after delivery."
+  - target: 01-human/07-system/reproductive-system
+    relation: connects-to
+    note: "Hormones explain meningioma's female slant: it is far commoner in women, and long-term high-dose progestins like cyproterone acetate are now a recognized, dose-dependent cause — an iatrogenic link that has reshaped how these drugs are prescribed."
+  - target: 01-human/07-system/venous-thromboembolism
+    relation: connects-to
+    note: "Few cancers clot like a brain tumor patient: meningioma carries a high risk of deep-vein thrombosis and pulmonary embolism from the tumor's procoagulant tissue factor, the immobility around craniotomy, and steroid use, demanding careful prophylaxis."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Platelets feed the meningioma's clotting tendency: the tumor's tissue factor activates them into the hypercoagulable state behind its thrombosis risk, and they also help build the rich vasculature that makes these tumors bleed at surgery."
 ---
 
 # Meningioma
@@ -312,6 +321,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies grade and target the tumor: EMA, SSTR2, and progesterone-receptor stains confirm a meningioma and a high Ki-67 antibody index flags the aggressive grades, while the SSTR2 it displays makes it visible on DOTATATE imaging and a peptide-therapy target.
 - `connects-to` → **[Astrocyte](../../04-cellular/astrocyte/README.md)** — Though it grows outside the brain, a meningioma still irritates it: the slow dural mass compresses cortex and provokes peritumoral edema and reactive astrocyte gliosis in the underlying brain, the swelling that causes seizures and focal deficits.
 - `connects-to` → **[Placenta](../../06-organ/placenta/README.md)** — Pregnancy can wake a meningioma: many carry progesterone receptors and visibly enlarge under the hormone surge that the placenta drives, sometimes turning symptomatic in the third trimester and shrinking again after delivery.
+- `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Hormones explain meningioma's female slant: it is far commoner in women, and long-term high-dose progestins like cyproterone acetate are now a recognized, dose-dependent cause — an iatrogenic link that has reshaped how these drugs are prescribed.
+- `connects-to` → **[Venous Thromboembolism](../venous-thromboembolism/README.md)** — Few cancers clot like a brain tumor patient: meningioma carries a high risk of deep-vein thrombosis and pulmonary embolism from the tumor's procoagulant tissue factor, the immobility around craniotomy, and steroid use, demanding careful prophylaxis.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets feed the meningioma's clotting tendency: the tumor's tissue factor activates them into the hypercoagulable state behind its thrombosis risk, and they also help build the rich vasculature that makes these tumors bleed at surgery.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
