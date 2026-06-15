@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Esophageal cancer bleeds and starves: chronic oozing from the tumor and the dysphagia that blocks eating leave patients iron-deficient and anemic, the low red cells compounding the weight loss it causes."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "The tumor and its treatment sit on the heart: a mid-esophageal cancer lies against the heart and great vessels, so the radiation that treats it irradiates the myocardium and the major esophagectomy that removes it carries real cardiac risk."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NOTCH1 is a frequent casualty in esophageal squamous cancer: inactivating NOTCH1 mutations are among its commonest events, removing a brake on squamous-cell growth — one of the genetic hallmarks separating it from the lower-esophagus adenocarcinoma."
+  - target: 01-human/04-cellular/platelet
+    relation: connects-to
+    note: "Esophageal cancer runs the clotting risk hot: like other gastrointestinal tumors it drives paraneoplastic thrombocytosis and a high rate of venous thromboembolism, complicating the chemotherapy and major surgery its treatment requires."
 ---
 
 # Esophageal Cancer
@@ -333,6 +342,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The cancer and its cure both strike nerves: a tumor near the upper esophagus invades the recurrent laryngeal nerve into hoarseness, while the cisplatin of chemoradiation injures peripheral sensory neurons.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies now target esophageal cancer: trastuzumab against HER2 in adenocarcinomas, and the checkpoint antibodies pembrolizumab and nivolumab, add immunotherapy to the chemoradiation backbone.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Esophageal cancer bleeds and starves: chronic oozing from the tumor and the dysphagia that blocks eating leave patients iron-deficient and anemic, the low red cells compounding the weight loss it causes.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — The tumor and its treatment sit on the heart: a mid-esophageal cancer lies against the heart and great vessels, so the radiation that treats it irradiates the myocardium and the major esophagectomy that removes it carries real cardiac risk.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NOTCH1 is a frequent casualty in esophageal squamous cancer: inactivating NOTCH1 mutations are among its commonest events, removing a brake on squamous-cell growth — one of the genetic hallmarks separating it from the lower-esophagus adenocarcinoma.
+- `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Esophageal cancer runs the clotting risk hot: like other gastrointestinal tumors it drives paraneoplastic thrombocytosis and a high rate of venous thromboembolism, complicating the chemotherapy and major surgery its treatment requires.
 
 ---
 
