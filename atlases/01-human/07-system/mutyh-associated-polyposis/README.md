@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/05-tissue/fibrosis
     relation: connects-to
     note: "MAP's colorectal cancers grow in fibrosis: as the adenomas turn malignant they provoke a desmoplastic fibrous stroma that supports invasion, the scar-like tissue typical of colon cancer."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Photons keep MAP patients alive: lifelong colonoscopy is the surveillance backbone, finding and clearing polyps before they turn cancerous, while upper endoscopy and imaging watch the duodenum where MAP's extracolonic tumors also arise."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "MAP reaches beyond the colon to the thyroid: like FAP, it carries an increased risk of papillary thyroid cancer, so thyroid examination and ultrasound are folded into the surveillance these patients receive for life."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "MAP can announce itself on the skin: like other polyposis syndromes it is associated with sebaceous tumors and epidermoid cysts, cutaneous clues that can prompt the genetic testing which uncovers the underlying colon-cancer risk."
 ---
 
 # MUTYH-Associated Polyposis
@@ -276,6 +285,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MUTYH-associated polyposis bleeds iron from the colon: its adenomas ooze blood, so iron-deficiency anemia can be the quiet first clue that prompts the colonoscopy revealing the polyps.
 - `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — MAP's hypermutated tumors draw macrophages: oxidative-damage mutations spawn neoantigens that pull a dense immune infiltrate including macrophages into the colorectal cancers.
 - `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — MAP's colorectal cancers grow in fibrosis: as the adenomas turn malignant they provoke a desmoplastic fibrous stroma that supports invasion, the scar-like tissue typical of colon cancer.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Photons keep MAP patients alive: lifelong colonoscopy is the surveillance backbone, finding and clearing polyps before they turn cancerous, while upper endoscopy and imaging watch the duodenum where MAP's extracolonic tumors also arise.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — MAP reaches beyond the colon to the thyroid: like FAP, it carries an increased risk of papillary thyroid cancer, so thyroid examination and ultrasound are folded into the surveillance these patients receive for life.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — MAP can announce itself on the skin: like other polyposis syndromes it is associated with sebaceous tumors and epidermoid cysts, cutaneous clues that can prompt the genetic testing which uncovers the underlying colon-cancer risk.
 
 ---
 

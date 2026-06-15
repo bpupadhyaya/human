@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/06-organ/skin
     relation: connects-to
     note: "Myeloma's amyloid shows on the skin: AL amyloid from the plasma cells deposits in skin and soft tissue, causing periorbital purpura ('raccoon eyes') and an enlarged tongue, telltale signs of the disease."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy captures the myeloma plasma cell at work: its cytoplasm swells with rough endoplasmic reticulum churning out antibody, often packed into Russell bodies, while misfolded light chains form the fibrils of AL amyloid seen as a tangled mesh."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Myeloma can fake low sodium: the flood of monoclonal protein displaces water in the blood sample, so older analyzers report a spuriously low sodium — pseudohyponatremia — a lab artifact that signals the heavy paraprotein burden."
+  - target: 01-human/06-organ/spleen
+    relation: connects-to
+    note: "Myeloma occasionally escapes the marrow into the spleen: extramedullary plasmacytomas and AL amyloid can lodge there, a sign of aggressive, treatment-resistant disease that has broken out of its usual bone-marrow home."
 ---
 
 # Multiple Myeloma
@@ -296,6 +305,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Myeloma's anemia is the 'A' of CRAB: marrow crowded with plasma cells and chronic inflammation suppress red-cell production and lock iron away, so fatigue from anemia is a common presenting symptom.
 - `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Myeloma frays the peripheral nerves: amyloid light chains deposit in nerves and the drug bortezomib is neurotoxic, so a painful peripheral neuropathy is both a feature and a treatment limit.
 - `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Myeloma's amyloid shows on the skin: AL amyloid from the plasma cells deposits in skin and soft tissue, causing periorbital purpura ('raccoon eyes') and an enlarged tongue, telltale signs of the disease.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy captures the myeloma plasma cell at work: its cytoplasm swells with rough endoplasmic reticulum churning out antibody, often packed into Russell bodies, while misfolded light chains form the fibrils of AL amyloid seen as a tangled mesh.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Myeloma can fake low sodium: the flood of monoclonal protein displaces water in the blood sample, so older analyzers report a spuriously low sodium — pseudohyponatremia — a lab artifact that signals the heavy paraprotein burden.
+- `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — Myeloma occasionally escapes the marrow into the spleen: extramedullary plasmacytomas and AL amyloid can lodge there, a sign of aggressive, treatment-resistant disease that has broken out of its usual bone-marrow home.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
