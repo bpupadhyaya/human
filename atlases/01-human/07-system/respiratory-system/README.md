@@ -162,6 +162,15 @@ cross_links:
   - target: 01-human/07-system/reproductive-system
     relation: connects-to
     note: "Breathing bends to pregnancy and begins before birth: progesterone drives the increased ventilation and breathlessness of pregnancy, while fetal lung maturation and surfactant production set the timing of safe delivery."
+  - target: 01-human/06-organ/ards
+    relation: connects-to
+    note: "ARDS is the respiratory system's final common failure: diffuse alveolar injury floods the gas-exchange surface with fluid, collapsing oxygenation and forcing the mechanical ventilation that defines critical respiratory illness."
+  - target: 01-human/07-system/tuberculosis
+    relation: connects-to
+    note: "Tuberculosis is the archetypal chronic lung infection: Mycobacterium tuberculosis cavitates the parenchyma over months and remains among the leading infectious killers worldwide, a defining disease of the respiratory tract."
+  - target: 01-human/07-system/rsv
+    relation: connects-to
+    note: "RSV is the leading cause of infant lower-respiratory infection: it inflames and plugs the small bronchioles, the commonest reason babies are hospitalized for trouble breathing."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -291,6 +300,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Large Intestine](../../06-organ/large-intestine/README.md): The gut and lungs share an immune conversation: through the gut-lung axis, the intestinal microbiome shapes airway immunity, so gut health influences susceptibility to asthma and respiratory infection.
 - **Damaged-by** → [Influenza A virus](../../../02-pathogen/01-viruses/influenza-a/README.md): Influenza A is primarily a respiratory pathogen, causing tracheobronchitis, viral pneumonitis, and ARDS; severe disease impairs the system's ventilatory and gas-exchange functions.
 - **Treated-by** → [Oseltamivir](../../../03-medicine/01-modern/05-antiviral/oseltamivir/README.md): Reduces influenza A/B symptom duration by ~17 hours (Dobson, Lancet 2015); reduces hospitalization in high-risk patients; must be started within 48h of symptom onset for maximal benefit.
+- **Damaged-by** → [Acute Respiratory Distress Syndrome](../../06-organ/ards/README.md): ARDS is the respiratory system's final common failure: diffuse alveolar injury floods the gas-exchange surface with fluid, collapsing oxygenation and forcing the mechanical ventilation that defines critical respiratory illness.
+- **Damaged-by** → [Tuberculosis](../tuberculosis/README.md): Tuberculosis is the archetypal chronic lung infection: Mycobacterium tuberculosis cavitates the parenchyma over months and remains among the leading infectious killers worldwide, a defining disease of the respiratory tract.
+- **Damaged-by** → [RSV](../rsv/README.md): RSV is the leading cause of infant lower-respiratory infection: it inflames and plugs the small bronchioles, the commonest reason babies are hospitalized for trouble breathing.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

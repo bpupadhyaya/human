@@ -157,6 +157,15 @@ cross_links:
   - target: 01-human/04-cellular/erythrocyte
     relation: connects-to
     note: "Relentless itch can signal the blood: polycythemia vera and iron deficiency are recognized systemic causes of chronic pruritus, so a blood disorder is sought when scratching builds prurigo nodules without an obvious skin cause."
+  - target: 01-human/07-system/hepatitis-c
+    relation: connects-to
+    note: "Chronic infection can itch the skin into nodules: hepatitis C and the cholestatic liver disease it causes are recognized systemic drivers of pruritus, so an unexplained prurigo nodularis prompts a look at the liver and a viral screen."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Sensory nerves inflame their own territory: CGRP released from the skin's itch fibers drives the neurogenic inflammation and nerve sensitization that, with chronic scratching, build the thickened nodules of the disease."
+  - target: 01-human/04-cellular/macrophage
+    relation: connects-to
+    note: "Macrophages help build the nodule: drawn into the lesion, they sustain the type-2 and neuroimmune inflammation and the fibrosis that hardens prurigo nodularis into its characteristic firm bumps."
 ---
 
 # Prurigo Nodularis
@@ -286,6 +295,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Endocannabinoid System](../../03-molecular/endocannabinoid/README.md)** — The endocannabinoid system can dial down itch: cannabinoid receptors on skin nerves and immune cells modulate the itch signal, so topical and systemic cannabinoids are studied as antipruritics for the relentless scratching of prurigo.
 - `connects-to` → **[Gut Microbiome](../gut-microbiome/README.md)** — A gut-skin axis may feed the itch: dysbiosis and altered microbial metabolites shape the systemic inflammation behind chronic pruritic skin disease, tying the gut to the neuroimmune itch of prurigo nodularis.
 - `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Relentless itch can signal the blood: polycythemia vera and iron deficiency are recognized systemic causes of chronic pruritus, so a blood disorder is sought when scratching builds prurigo nodules without an obvious skin cause.
+- `connects-to` → **[Hepatitis C](../hepatitis-c/README.md)** — Chronic infection can itch the skin into nodules: hepatitis C and the cholestatic liver disease it causes are recognized systemic drivers of pruritus, so an unexplained prurigo nodularis prompts a look at the liver and a viral screen.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sensory nerves inflame their own territory: CGRP released from the skin's itch fibers drives the neurogenic inflammation and nerve sensitization that, with chronic scratching, build the thickened nodules of the disease.
+- `connects-to` → **[Macrophage](../../04-cellular/macrophage/README.md)** — Macrophages help build the nodule: drawn into the lesion, they sustain the type-2 and neuroimmune inflammation and the fibrosis that hardens prurigo nodularis into its characteristic firm bumps.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
