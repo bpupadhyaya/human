@@ -145,6 +145,15 @@ cross_links:
   - target: 01-human/06-organ/large-intestine
     relation: connects-to
     note: "Gut disease quietly thins bone: celiac disease and inflammatory bowel disease impair calcium and vitamin D absorption from the intestine, a common hidden cause of secondary osteoporosis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "Osteoporosis is silent until the bone breaks: vertebral compression fractures crush forward into kyphosis and height loss, and can pinch the spinal nerves, while a hip fracture's pain and immobility cascade into decline."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Bone and artery trade calcium in a paradox: as the skeleton demineralizes, the same calcium hardens blood-vessel walls, and shared regulators like RANKL/OPG tie low bone density to a higher burden of vascular calcification."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "The skin mirrors the thinning bone: both are built on type I collagen, so its age- and steroid-driven loss shows as fragile, thin skin that tracks with low bone density — the skin a visible clue to the silent skeleton."
 ---
 
 # Osteoporosis
@@ -295,6 +304,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy shows osteoporosis as a hollowing-out: the bone's trabecular lattice thins, and its struts perforate and disconnect, so the same amount of mineral is spread over a flimsier scaffold that cracks under everyday loads.
 - `connects-to` → **[Lung](../../06-organ/lung/README.md)** — Spinal fractures steal the breath: as osteoporotic vertebrae crush and the spine curves into a stooped kyphosis, the chest cavity shrinks, restricting the lungs and leaving severe sufferers short of breath.
 - `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — Gut disease quietly thins bone: celiac disease and inflammatory bowel disease impair calcium and vitamin D absorption from the intestine, a common hidden cause of secondary osteoporosis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Osteoporosis is silent until the bone breaks: vertebral compression fractures crush forward into kyphosis and height loss, and can pinch the spinal nerves, while a hip fracture's pain and immobility cascade into decline.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Bone and artery trade calcium in a paradox: as the skeleton demineralizes, the same calcium hardens blood-vessel walls, and shared regulators like RANKL/OPG tie low bone density to a higher burden of vascular calcification.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — The skin mirrors the thinning bone: both are built on type I collagen, so its age- and steroid-driven loss shows as fragile, thin skin that tracks with low bone density — the skin a visible clue to the silent skeleton.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
