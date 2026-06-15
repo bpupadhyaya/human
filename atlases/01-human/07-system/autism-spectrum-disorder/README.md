@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Autism shows in the eyes: reduced eye contact and atypical gaze are early signs, and eye-tracking is studied as an objective measure of the social differences that define the condition."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy hints at autism's altered wiring: studies find changes in dendritic spine density and synapse structure, the fine connections between neurons that mTOR and other autism genes help build and prune."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D in pregnancy may shape the risk: low maternal vitamin D during fetal brain development is associated with a higher chance of autism, fitting the vitamin's role in neurodevelopment and immune regulation."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "Autism and the heart often travel together: children with congenital heart disease have elevated rates of autism, the shared early developmental disruption and surgical-stress exposure linking the two conditions."
 ---
 
 # Autism Spectrum Disorder
@@ -316,6 +325,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Brain imaging probes autism: MRI shows early brain overgrowth and altered connectivity, and fMRI photons map how differently social and sensory networks light up, sought as objective markers.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron deficiency is common in autism: restrictive eating lowers stores, and because iron is needed to make dopamine, low iron may worsen attention, sleep and restless behaviors.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Autism shows in the eyes: reduced eye contact and atypical gaze are early signs, and eye-tracking is studied as an objective measure of the social differences that define the condition.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy hints at autism's altered wiring: studies find changes in dendritic spine density and synapse structure, the fine connections between neurons that mTOR and other autism genes help build and prune.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D in pregnancy may shape the risk: low maternal vitamin D during fetal brain development is associated with a higher chance of autism, fitting the vitamin's role in neurodevelopment and immune regulation.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Autism and the heart often travel together: children with congenital heart disease have elevated rates of autism, the shared early developmental disruption and surgical-stress exposure linking the two conditions.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
