@@ -154,6 +154,15 @@ cross_links:
   - target: 01-human/04-cellular/smooth-muscle-cell
     relation: connects-to
     note: "Demyelination disconnects the body's smooth muscle: cord lesions disrupt the autonomic control of the bowel into constipation and of the bladder's detrusor, the dysmotility behind much of the disability between relapses."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "MS plays out in the muscles it can no longer command: demyelinated motor pathways cause spasticity, weakness, and a faltering gait, and the disuse and immobility that follow waste muscle and stiffen joints."
+  - target: 01-human/04-cellular/neutrophil
+    relation: connects-to
+    note: "The disease-modifying drugs reshape the blood counts: agents like cladribine and fingolimod cause lymphopenia and can drop neutrophils, so counts are monitored and infection risk weighed against relapse control."
+  - target: 01-human/06-organ/thyroid
+    relation: connects-to
+    note: "Treatment can turn the immunity on the thyroid: the MS drug alemtuzumab notoriously triggers autoimmune thyroid disease, often Graves', months to years later — one of several autoimmunities that follow immune reconstitution."
 ---
 
 # Multiple Sclerosis
@@ -309,6 +318,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Antibodies both reveal and treat MS: oligoclonal IgG bands in the spinal fluid support the diagnosis, and B-cell-depleting monoclonal antibodies (ocrelizumab, rituximab) are among its most effective disease-modifying therapies.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — MS bends to reproductive hormones: it strikes women far more often, relapses quiet during pregnancy then rebound after delivery, and family planning shapes the choice and timing of disease-modifying drugs.
 - `connects-to` → **[Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md)** — Demyelination disconnects the body's smooth muscle: cord lesions disrupt the autonomic control of the bowel into constipation and of the bladder's detrusor, the dysmotility behind much of the disability between relapses.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — MS plays out in the muscles it can no longer command: demyelinated motor pathways cause spasticity, weakness, and a faltering gait, and the disuse and immobility that follow waste muscle and stiffen joints.
+- `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — The disease-modifying drugs reshape the blood counts: agents like cladribine and fingolimod cause lymphopenia and can drop neutrophils, so counts are monitored and infection risk weighed against relapse control.
+- `connects-to` → **[Thyroid Gland](../../06-organ/thyroid/README.md)** — Treatment can turn the immunity on the thyroid: the MS drug alemtuzumab notoriously triggers autoimmune thyroid disease, often Graves', months to years later — one of several autoimmunities that follow immune reconstitution.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
