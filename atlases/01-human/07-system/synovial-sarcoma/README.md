@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/06-organ/kidney
     relation: connects-to
     note: "Rarely synovial sarcoma is born in the kidney itself: primary renal synovial sarcoma, carrying the same SS18 fusion, is a recognized aggressive entity that masquerades as a more common kidney tumor until molecular testing reveals it."
+  - target: 01-human/03-molecular/collagen
+    relation: connects-to
+    note: "Despite its name, synovial sarcoma weaves a fibrous tumor: its spindle cells sit in a collagen-rich stroma, often with stippled calcification, and the biphasic form adds glandular epithelium — a texture that, with the SS18 fusion, makes the diagnosis."
+  - target: 01-human/04-cellular/neuron
+    relation: connects-to
+    note: "The ifosfamide in its chemotherapy can fog the brain: a metabolite of this alkylator crosses into the CNS and poisons neurons, causing a reversible encephalopathy with confusion and seizures that methylene blue is used to treat."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Ifosfamide also injures the kidney's tubules: the resulting Fanconi-like syndrome wastes magnesium, phosphate, and bicarbonate into the urine, so electrolytes are monitored and replaced through synovial sarcoma treatment."
 ---
 
 # Synovial Sarcoma
@@ -297,6 +306,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy exposes synovial sarcoma's split personality: alongside the spindle cells sit true epithelial cells joined by desmosomes, sprouting microvilli into gland-like lumina over a basal lamina — the ultrastructure of its biphasic histology.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Synovial sarcoma can invade the skeleton: though it favors the lungs, late disease seeds bone and the marrow within, and tumors abutting a joint erode the neighboring bone as they grow.
 - `connects-to` → **[Kidney](../../06-organ/kidney/README.md)** — Rarely synovial sarcoma is born in the kidney itself: primary renal synovial sarcoma, carrying the same SS18 fusion, is a recognized aggressive entity that masquerades as a more common kidney tumor until molecular testing reveals it.
+- `connects-to` → **[Collagen](../../03-molecular/collagen/README.md)** — Despite its name, synovial sarcoma weaves a fibrous tumor: its spindle cells sit in a collagen-rich stroma, often with stippled calcification, and the biphasic form adds glandular epithelium — a texture that, with the SS18 fusion, makes the diagnosis.
+- `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — The ifosfamide in its chemotherapy can fog the brain: a metabolite of this alkylator crosses into the CNS and poisons neurons, causing a reversible encephalopathy with confusion and seizures that methylene blue is used to treat.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Ifosfamide also injures the kidney's tubules: the resulting Fanconi-like syndrome wastes magnesium, phosphate, and bicarbonate into the urine, so electrolytes are monitored and replaced through synovial sarcoma treatment.
 
 ---
 

@@ -139,6 +139,15 @@ cross_links:
   - target: 01-human/04-cellular/platelet
     relation: connects-to
     note: "Platelets stoke scleroderma's vascular fire: activated on the damaged vessel lining, they pour out PDGF and serotonin that drive the smooth-muscle growth and fibrosis narrowing the arteries, feeding the Raynaud's and pulmonary hypertension."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "Scleroderma's autoantibodies predict its course: anti-Scl-70 flags diffuse disease with lung fibrosis, anticentromere the limited CREST form with pulmonary hypertension, and anti-RNA-polymerase-III the dreaded scleroderma renal crisis."
+  - target: 01-human/06-organ/small-intestine
+    relation: connects-to
+    note: "Fibrosis stalls the small bowel: scleroderma replaces gut smooth muscle with scar, so the small intestine loses its propulsion — breeding bacterial overgrowth, malabsorption, and at worst a pseudo-obstruction that mimics a surgical blockage."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Scleroderma bleeds and shears the red cells: the gastric 'watermelon stomach' (GAVE) leaks chronic iron-deficiency anemia, while renal crisis can shred erythrocytes into a microangiopathic hemolytic anemia."
 ---
 
 # Systemic Sclerosis
@@ -293,6 +302,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — A beam of light reads scleroderma at the fingertip: nailfold capillaroscopy magnifies the nailbed to reveal the dilated, dropout-riddled capillaries that flag the vasculopathy early, while HRCT photons map the lung fibrosis it causes.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The limited form often drags in the liver: CREST-pattern scleroderma overlaps strongly with primary biliary cholangitis, so anti-mitochondrial antibodies and a slow autoimmune attack on the bile ducts frequently accompany it.
 - `connects-to` → **[Platelet](../../04-cellular/platelet/README.md)** — Platelets stoke scleroderma's vascular fire: activated on the damaged vessel lining, they pour out PDGF and serotonin that drive the smooth-muscle growth and fibrosis narrowing the arteries, feeding the Raynaud's and pulmonary hypertension.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Scleroderma's autoantibodies predict its course: anti-Scl-70 flags diffuse disease with lung fibrosis, anticentromere the limited CREST form with pulmonary hypertension, and anti-RNA-polymerase-III the dreaded scleroderma renal crisis.
+- `connects-to` → **[Small Intestine](../../06-organ/small-intestine/README.md)** — Fibrosis stalls the small bowel: scleroderma replaces gut smooth muscle with scar, so the small intestine loses its propulsion — breeding bacterial overgrowth, malabsorption, and at worst a pseudo-obstruction that mimics a surgical blockage.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Scleroderma bleeds and shears the red cells: the gastric 'watermelon stomach' (GAVE) leaks chronic iron-deficiency anemia, while renal crisis can shred erythrocytes into a microangiopathic hemolytic anemia.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
