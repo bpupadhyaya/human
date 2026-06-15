@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/06-organ/eye
     relation: connects-to
     note: "Alzheimer's may be visible in the eye: amyloid deposits and retinal nerve thinning appear in the retina, an outgrowth of the brain, making eye imaging a promising window for early, noninvasive detection."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "Alzheimer's is now imaged in life: amyloid and tau PET scans use radioactive photons to reveal the plaques and tangles directly, while MRI tracks the shrinking hippocampus over time."
+  - target: 01-human/06-organ/heart
+    relation: connects-to
+    note: "What's good for the heart is good for the brain: midlife hypertension, atherosclerosis and heart disease raise Alzheimer's risk, tying cardiovascular health to the odds of dementia."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Metals gather in Alzheimer's plaques: copper, with zinc and iron, binds amyloid-beta and can drive the oxidative damage of the disease, which is why metal-chelation has been explored as therapy."
 ---
 
 # Alzheimer's Disease
@@ -262,6 +271,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — Alzheimer's is, at heart, a loss of synapses: their disappearance tracks cognitive decline more closely than plaques or tangles do, as amyloid and tau poison synaptic function long before neurons die.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Alzheimer's deranges neuronal calcium: amyloid forms calcium-permeable pores and overexcited circuits let calcium flood in, driving the excitotoxic damage that the NMDA blocker memantine is meant to soften.
 - `connects-to` → **[Eye](../../06-organ/eye/README.md)** — Alzheimer's may be visible in the eye: amyloid deposits and retinal nerve thinning appear in the retina, an outgrowth of the brain, making eye imaging a promising window for early, noninvasive detection.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Alzheimer's is now imaged in life: amyloid and tau PET scans use radioactive photons to reveal the plaques and tangles directly, while MRI tracks the shrinking hippocampus over time.
+- `connects-to` → **[Heart](../../06-organ/heart/README.md)** — What's good for the heart is good for the brain: midlife hypertension, atherosclerosis and heart disease raise Alzheimer's risk, tying cardiovascular health to the odds of dementia.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Metals gather in Alzheimer's plaques: copper, with zinc and iron, binds amyloid-beta and can drive the oxidative damage of the disease, which is why metal-chelation has been explored as therapy.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
