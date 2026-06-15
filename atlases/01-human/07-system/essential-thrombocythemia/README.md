@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/fibrinogen
     relation: connects-to
     note: "Essential thrombocythemia turns fibrinogen into clots: the swollen platelet mass, activating with fibrinogen, builds the thromboses—strokes, heart attacks, and vein clots—that are the disease's main danger."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "ET is confirmed under the microscope: the marrow biopsy shows clusters of enlarged, staghorn megakaryocytes, the clue that with JAK2 and CALR testing distinguishes it from reactive thrombocytosis."
+  - target: 01-human/06-organ/large-intestine
+    relation: connects-to
+    note: "ET clots the gut's veins: splanchnic and mesenteric vein thrombosis can be the first sign, so an unprovoked abdominal-vein clot prompts testing for the JAK2 mutation behind the disease."
+  - target: 01-human/05-tissue/fibrosis
+    relation: connects-to
+    note: "ET can scar into myelofibrosis: over years, reticulin and collagen fibrosis gradually replace the marrow, the feared post-ET transformation that brings cytopenias and splenomegaly."
 ---
 
 # Essential Thrombocythemia
@@ -277,6 +286,9 @@ Management:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Essential thrombocythemia starves fingertips of oxygen: clumps of excess platelets plug tiny vessels, causing the burning, red, oxygen-starved hands and feet of erythromelalgia and risking digital ischemia.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Essential thrombocythemia threatens the heart: its thrombotic tendency raises the risk of coronary clots and heart attacks, part of why even symptom-free patients may need aspirin and cytoreduction.
 - `connects-to` → **[Fibrinogen](../../03-molecular/fibrinogen/README.md)** — Essential thrombocythemia turns fibrinogen into clots: the swollen platelet mass, activating with fibrinogen, builds the thromboses—strokes, heart attacks, and vein clots—that are the disease's main danger.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — ET is confirmed under the microscope: the marrow biopsy shows clusters of enlarged, staghorn megakaryocytes, the clue that with JAK2 and CALR testing distinguishes it from reactive thrombocytosis.
+- `connects-to` → **[Large Intestine](../../06-organ/large-intestine/README.md)** — ET clots the gut's veins: splanchnic and mesenteric vein thrombosis can be the first sign, so an unprovoked abdominal-vein clot prompts testing for the JAK2 mutation behind the disease.
+- `connects-to` → **[Fibrosis](../../05-tissue/fibrosis/README.md)** — ET can scar into myelofibrosis: over years, reticulin and collagen fibrosis gradually replace the marrow, the feared post-ET transformation that brings cytopenias and splenomegaly.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

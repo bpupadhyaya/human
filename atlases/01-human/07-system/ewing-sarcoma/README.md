@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Treating Ewing sarcoma can unleash potassium: chemotherapy bursting a large tumor causes tumor lysis, spilling potassium from dying cells and risking the hyperkalemia that can stop the heart."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Ewing sarcoma trades in phosphate: chemotherapy lysing the tumor spills phosphorus along with potassium, and the bone it eats away releases its calcium-phosphate mineral into the blood."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Ewing, a neural-flavored small-round-cell tumor, grows where it harms nerves: paraspinal and pelvic tumors compress nerve roots, causing the pain and weakness that often bring it to attention."
+  - target: 01-human/06-organ/skin
+    relation: connects-to
+    note: "Ewing sarcoma has a skin-deep variant: rare superficial (cutaneous and subcutaneous) Ewing tumors form a nodule under the skin and carry a notably better prognosis than the deep bone disease."
 ---
 
 # Ewing Sarcoma
@@ -282,6 +291,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — Ewing sarcoma carries a neural streak: it belongs to the primitive neuroectodermal tumor family, and its cells can show neuron-like differentiation, a clue to the embryonic precursor from which this bone-and-soft-tissue cancer springs.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Ewing sarcoma can spread to the liver: though it favors the lungs and other bones, widespread disease seeds visceral organs including the liver, marking the metastatic stage that sharply worsens survival.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Treating Ewing sarcoma can unleash potassium: chemotherapy bursting a large tumor causes tumor lysis, spilling potassium from dying cells and risking the hyperkalemia that can stop the heart.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Ewing sarcoma trades in phosphate: chemotherapy lysing the tumor spills phosphorus along with potassium, and the bone it eats away releases its calcium-phosphate mineral into the blood.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Ewing, a neural-flavored small-round-cell tumor, grows where it harms nerves: paraspinal and pelvic tumors compress nerve roots, causing the pain and weakness that often bring it to attention.
+- `connects-to` → **[Skin](../../06-organ/skin/README.md)** — Ewing sarcoma has a skin-deep variant: rare superficial (cutaneous and subcutaneous) Ewing tumors form a nodule under the skin and carry a notably better prognosis than the deep bone disease.
 
 ---
 
