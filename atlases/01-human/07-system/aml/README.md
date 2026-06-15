@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/runx1
     relation: connects-to
     note: "RUNX1 mutation defines a tough AML subtype: this master transcription factor of blood-cell development, when lost, yields a leukemia with poorer response, recognized as its own high-risk disease entity."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy finds AML's signature crystal: Auer rods, needle-like aggregates of fused azurophilic granules packed inside the myeloblasts, are diagnostic of myeloid leukemia and never seen in lymphoid disease."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "AML can flood the blood with potassium as it dies: the huge mass of leukemic cells, bursting under chemotherapy in tumor lysis syndrome, spills potassium that can stop the heart unless aggressively managed."
+  - target: 01-human/06-organ/liver
+    relation: connects-to
+    note: "Leukemic cells infiltrate the liver: AML blasts seep into hepatic tissue alongside the spleen, swelling it into the hepatomegaly that, with low blood counts, marks the disease's spread beyond the marrow."
 ---
 
 # AML
@@ -282,6 +291,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — AML's many transfusions load the body with iron: repeated red-cell support and a hungry marrow drive iron overload, and the leukemic cells' own iron handling is studied as a metabolic vulnerability.
 - `connects-to` → **[Spleen](../../06-organ/spleen/README.md)** — AML can spill out of the marrow into the spleen: leukemic infiltration and extramedullary hematopoiesis enlarge the organ, one of the soft-tissue sites where myeloid blasts gather beyond the bloodstream.
 - `connects-to` → **[RUNX1](../../03-molecular/runx1/README.md)** — RUNX1 mutation defines a tough AML subtype: this master transcription factor of blood-cell development, when lost, yields a leukemia with poorer response, recognized as its own high-risk disease entity.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy finds AML's signature crystal: Auer rods, needle-like aggregates of fused azurophilic granules packed inside the myeloblasts, are diagnostic of myeloid leukemia and never seen in lymphoid disease.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AML can flood the blood with potassium as it dies: the huge mass of leukemic cells, bursting under chemotherapy in tumor lysis syndrome, spills potassium that can stop the heart unless aggressively managed.
+- `connects-to` → **[Liver](../../06-organ/liver/README.md)** — Leukemic cells infiltrate the liver: AML blasts seep into hepatic tissue alongside the spleen, swelling it into the hepatomegaly that, with low blood counts, marks the disease's spread beyond the marrow.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

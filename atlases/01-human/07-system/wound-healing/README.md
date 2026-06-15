@@ -130,6 +130,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Iron is built into the chemistry of repair: it is a cofactor for the prolyl hydroxylases that mature collagen, so iron deficiency and poor oxygen delivery leave a wound unable to lay down strong scar."
+  - target: 01-human/01-subatomic/electron
+    relation: connects-to
+    note: "Electron microscopy watches a wound pull itself shut: fibroblasts transform into myofibroblasts studded with actin stress fibers that contract the edges together, while newly secreted collagen fibrils assemble into the banded scaffold of scar."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Calcium signals the wound from the first second: it is the ion that fires the clotting cascade to stop bleeding, then sets up the gradient that drives keratinocytes to migrate and differentiate as they resurface the skin."
+  - target: 03-medicine/03-food/vitamin-d
+    relation: connects-to
+    note: "Vitamin D arms the healing skin: it spurs keratinocytes to make cathelicidin, the antimicrobial peptide that guards a fresh wound from infection, so deficiency leaves repair slower and more prone to breaking down."
 ---
 
 # Wound Healing
@@ -286,6 +295,9 @@ cross_links:
 - `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — Light is harnessed to heal: photobiomodulation with low-level laser or LED photons, and UV light for infected wounds, are used to coax stubborn chronic wounds toward closure, the optics of skin shaping how deep the photons reach.
 - `connects-to` → **[Liver](../../06-organ/liver/README.md)** — The liver underwrites wound repair from afar: it makes the clotting factors that seal the wound and the proteins healing demands, so liver failure brings coagulopathy and slow, poor healing.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Iron is built into the chemistry of repair: it is a cofactor for the prolyl hydroxylases that mature collagen, so iron deficiency and poor oxygen delivery leave a wound unable to lay down strong scar.
+- `connects-to` → **[Electron](../../01-subatomic/electron/README.md)** — Electron microscopy watches a wound pull itself shut: fibroblasts transform into myofibroblasts studded with actin stress fibers that contract the edges together, while newly secreted collagen fibrils assemble into the banded scaffold of scar.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium signals the wound from the first second: it is the ion that fires the clotting cascade to stop bleeding, then sets up the gradient that drives keratinocytes to migrate and differentiate as they resurface the skin.
+- `connects-to` → **[Vitamin D (Calciferol)](../../../03-medicine/03-food/vitamin-d/README.md)** — Vitamin D arms the healing skin: it spurs keratinocytes to make cathelicidin, the antimicrobial peptide that guards a fresh wound from infection, so deficiency leaves repair slower and more prone to breaking down.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
