@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/06-organ/heart
     relation: connects-to
     note: "Myasthenia, especially with thymoma, can inflame the heart: autoimmune myocarditis and conduction problems occur, so cardiac symptoms in a myasthenic patient prompt a search for heart involvement beyond the muscles."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "MG's hidden thymoma is found by imaging: chest CT photons screen for the thymus tumor that drives many cases, prompting the thymectomy that can improve the disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Magnesium is dangerous in myasthenia: high levels block acetylcholine release at the junction, so intravenous magnesium—as given for eclampsia—can trigger a sudden myasthenic crisis."
+  - target: 01-human/05-tissue/peripheral-nerve
+    relation: connects-to
+    note: "Myasthenia plays out where peripheral nerve meets muscle: the motor nerve terminal releases acetylcholine that antibody-blocked receptors can't fully receive, and in the related LEMS the nerve terminal itself is attacked."
 ---
 
 # Myasthenia Gravis
@@ -274,6 +283,9 @@ cross_links:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — A myasthenic crisis can choke off oxygen: when weakness spreads to the breathing muscles, ventilation fails and blood oxygen falls, the emergency that lands patients on a ventilator and defines the disease's gravest turn.
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Myasthenia from a thymoma can hit the bone marrow: the same tumor that drives the autoimmunity can trigger paraneoplastic pure red cell aplasia, shutting down marrow red-cell production alongside the muscle disease.
 - `connects-to` → **[Heart](../../06-organ/heart/README.md)** — Myasthenia, especially with thymoma, can inflame the heart: autoimmune myocarditis and conduction problems occur, so cardiac symptoms in a myasthenic patient prompt a search for heart involvement beyond the muscles.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MG's hidden thymoma is found by imaging: chest CT photons screen for the thymus tumor that drives many cases, prompting the thymectomy that can improve the disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium is dangerous in myasthenia: high levels block acetylcholine release at the junction, so intravenous magnesium—as given for eclampsia—can trigger a sudden myasthenic crisis.
+- `connects-to` → **[Peripheral Nerve](../../05-tissue/peripheral-nerve/README.md)** — Myasthenia plays out where peripheral nerve meets muscle: the motor nerve terminal releases acetylcholine that antibody-blocked receptors can't fully receive, and in the related LEMS the nerve terminal itself is attacked.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

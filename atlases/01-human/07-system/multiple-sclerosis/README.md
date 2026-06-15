@@ -127,6 +127,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells help open the brain to MS attack: in lesions they release mediators that breach the blood-brain barrier and amplify demyelination, linking an allergic-type immune cell to the autoimmune assault on myelin."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "MS is diagnosed and tracked by MRI: its photons reveal the white-matter plaques scattered in space and time, and gadolinium enhancement flags the active, inflamed lesions."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MS exposes axonal potassium channels: demyelination uncovers them and leaks current, so the drug dalfampridine blocks potassium channels to restore conduction and improve walking."
+  - target: 01-human/05-tissue/bone-marrow
+    relation: connects-to
+    note: "Aggressive MS can be reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes out and rebuilds the immune system, halting relapses in selected severe cases."
 ---
 
 # Multiple Sclerosis
@@ -273,6 +282,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Synapse](../../05-tissue/synapse/README.md)** — MS damage reaches the synapse: beyond stripping myelin, the disease erodes gray-matter synapses, and this synaptic loss tracks the cognitive decline and disability that demyelination alone does not explain.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Calcium executes the axon loss in MS: demyelinated axons overload with sodium, which reverses the sodium-calcium exchanger and floods them with calcium, the influx that degrades the axon and drives permanent disability.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells help open the brain to MS attack: in lesions they release mediators that breach the blood-brain barrier and amplify demyelination, linking an allergic-type immune cell to the autoimmune assault on myelin.
+- `connects-to` → **[Photon](../../01-subatomic/photon/README.md)** — MS is diagnosed and tracked by MRI: its photons reveal the white-matter plaques scattered in space and time, and gadolinium enhancement flags the active, inflamed lesions.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MS exposes axonal potassium channels: demyelination uncovers them and leaks current, so the drug dalfampridine blocks potassium channels to restore conduction and improve walking.
+- `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Aggressive MS can be reset from the bone marrow: autologous hematopoietic stem-cell transplant wipes out and rebuilds the immune system, halting relapses in selected severe cases.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
