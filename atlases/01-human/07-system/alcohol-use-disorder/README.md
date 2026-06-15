@@ -160,6 +160,15 @@ cross_links:
   - target: 01-human/04-cellular/neutrophil
     relation: connects-to
     note: "Drinking disarms the body's defenders: alcohol impairs neutrophil function and numbers, which is why heavy drinkers are prone to pneumonia, tuberculosis, and severe infection."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Alcohol wrecks the body's clock: it suppresses melatonin and fragments sleep, so the sedation of a nightcap gives way to rebound insomnia and vivid dreams — and withdrawal brings severe sleeplessness that drives relapse."
+  - target: 01-human/07-system/osteoporosis
+    relation: connects-to
+    note: "Drinking quietly thins the bones: alcohol directly suppresses osteoblasts and disturbs calcium and vitamin D, so chronic use causes osteoporosis and, with the falls it provokes, a high fracture risk."
+  - target: 01-human/04-cellular/endothelial-cell
+    relation: connects-to
+    note: "Heavy drinking injures the vessel lining: alcohol harms endothelial cells and raises blood pressure, contributing to the cardiomyopathy, arrhythmia, and stroke risk that offset any benefit of light consumption."
 ---
 
 # Alcohol Use Disorder
@@ -387,6 +396,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Bone Marrow](../../05-tissue/bone-marrow/README.md)** — Alcohol is directly toxic to the marrow: it enlarges red cells into macrocytosis, drops platelets, and suppresses all the blood lines, on top of the folate deficiency that compounds the anemia in heavy drinkers.
 - `connects-to` → **[Reproductive System](../reproductive-system/README.md)** — Alcohol unbalances the sex hormones: chronic use causes testicular atrophy, low testosterone, and gynecomastia in men and menstrual disruption in women — and in pregnancy it crosses the placenta to cause fetal alcohol spectrum disorder.
 - `connects-to` → **[Neutrophil](../../04-cellular/neutrophil/README.md)** — Drinking disarms the body's defenders: alcohol impairs neutrophil function and numbers, which is why heavy drinkers are prone to pneumonia, tuberculosis, and severe infection.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Alcohol wrecks the body's clock: it suppresses melatonin and fragments sleep, so the sedation of a nightcap gives way to rebound insomnia and vivid dreams — and withdrawal brings severe sleeplessness that drives relapse.
+- `connects-to` → **[Osteoporosis](../osteoporosis/README.md)** — Drinking quietly thins the bones: alcohol directly suppresses osteoblasts and disturbs calcium and vitamin D, so chronic use causes osteoporosis and, with the falls it provokes, a high fracture risk.
+- `connects-to` → **[Endothelial Cell](../../04-cellular/endothelial-cell/README.md)** — Heavy drinking injures the vessel lining: alcohol harms endothelial cells and raises blood pressure, contributing to the cardiomyopathy, arrhythmia, and stroke risk that offset any benefit of light consumption.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)

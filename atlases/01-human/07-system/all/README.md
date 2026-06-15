@@ -151,6 +151,15 @@ cross_links:
   - target: 01-human/06-organ/pancreas
     relation: connects-to
     note: "A signature ALL drug inflames the pancreas: asparaginase, key to pediatric regimens, can trigger acute pancreatitis and disturb blood sugar, a toxicity watched for throughout treatment."
+  - target: 01-human/07-system/musculoskeletal-system
+    relation: connects-to
+    note: "ALL often announces itself in the bones: marrow packed with blasts causes the bone and joint pain that can mimic arthritis in a child, while the high-dose steroids of treatment later bring avascular necrosis and myopathy."
+  - target: 01-human/04-cellular/hepatocyte
+    relation: connects-to
+    note: "The long chemotherapy is hard on the liver: methotrexate, 6-mercaptopurine, and asparaginase all injure hepatocytes, so transaminases and bilirubin are tracked across the months-to-years of ALL maintenance therapy."
+  - target: 01-human/06-organ/adrenal-gland
+    relation: connects-to
+    note: "Steroids are core to the cure and suppress the adrenal: the prolonged high-dose glucocorticoids central to ALL regimens shut down the adrenal axis, so withdrawal must be gradual and stress dosing considered during illness."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -335,6 +344,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Neuron](../../04-cellular/neuron/README.md)** — ALL hides in and harms the nervous system: leukemic cells seed the CNS as a sanctuary, demanding intrathecal chemotherapy, while vincristine in the regimen poisons peripheral neurons into a dose-limiting neuropathy.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Engineered antibodies transformed ALL: blinatumomab, a bispecific that yokes T cells to CD19, and the CD22 drug-conjugate inotuzumab now clear relapsed disease that chemotherapy alone could not.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — A signature ALL drug inflames the pancreas: asparaginase, key to pediatric regimens, can trigger acute pancreatitis and disturb blood sugar, a toxicity watched for throughout treatment.
+- `connects-to` → **[Musculoskeletal System](../musculoskeletal-system/README.md)** — ALL often announces itself in the bones: marrow packed with blasts causes the bone and joint pain that can mimic arthritis in a child, while the high-dose steroids of treatment later bring avascular necrosis and myopathy.
+- `connects-to` → **[Hepatocyte](../../04-cellular/hepatocyte/README.md)** — The long chemotherapy is hard on the liver: methotrexate, 6-mercaptopurine, and asparaginase all injure hepatocytes, so transaminases and bilirubin are tracked across the months-to-years of ALL maintenance therapy.
+- `connects-to` → **[Adrenal Gland](../../06-organ/adrenal-gland/README.md)** — Steroids are core to the cure and suppress the adrenal: the prolonged high-dose glucocorticoids central to ALL regimens shut down the adrenal axis, so withdrawal must be gradual and stress dosing considered during illness.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
