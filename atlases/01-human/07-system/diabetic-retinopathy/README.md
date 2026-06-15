@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/04-cellular/mast-cell
     relation: connects-to
     note: "Mast cells join the inflamed diabetic retina: they degranulate near retinal vessels, releasing mediators that increase leakiness and inflammation, an emerging contributor to the macular edema that threatens vision."
+  - target: 01-human/06-organ/brain
+    relation: connects-to
+    note: "The retina is a window on the brain's vessels: diabetic retinopathy signals similar cerebral small-vessel damage, so its severity predicts stroke and cognitive decline elsewhere in the body."
+  - target: 01-human/04-cellular/erythrocyte
+    relation: connects-to
+    note: "Diabetes stiffens red blood cells and makes them clump: less deformable erythrocytes struggle through the retina's tiny capillaries, slowing flow and feeding the ischemia that drives new-vessel growth."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Erythropoietin is a hidden driver of proliferative retinopathy: the ischemic retina pours EPO into the vitreous where, alongside VEGF, it independently spurs the fragile new vessels that bleed and scar."
 ---
 
 # Diabetic Retinopathy
@@ -269,6 +278,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — High glucose inflames the retina through NF-kB: hyperglycemia and AGE-RAGE signaling switch it on in retinal cells, driving the cytokines and adhesion molecules that damage capillaries—an inflammatory layer atop the vascular disease.
 - `connects-to` → **[Pancreas](../../06-organ/pancreas/README.md)** — Diabetic retinopathy traces back to the pancreas: the failing insulin supply that defines diabetes drives the chronic high glucose that injures retinal vessels, so retinopathy is the eye's record of the pancreas's long shortfall.
 - `connects-to` → **[Mast Cell](../../04-cellular/mast-cell/README.md)** — Mast cells join the inflamed diabetic retina: they degranulate near retinal vessels, releasing mediators that increase leakiness and inflammation, an emerging contributor to the macular edema that threatens vision.
+- `connects-to` → **[Brain](../../06-organ/brain/README.md)** — The retina is a window on the brain's vessels: diabetic retinopathy signals similar cerebral small-vessel damage, so its severity predicts stroke and cognitive decline elsewhere in the body.
+- `connects-to` → **[Erythrocyte](../../04-cellular/erythrocyte/README.md)** — Diabetes stiffens red blood cells and makes them clump: less deformable erythrocytes struggle through the retina's tiny capillaries, slowing flow and feeding the ischemia that drives new-vessel growth.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietin is a hidden driver of proliferative retinopathy: the ischemic retina pours EPO into the vitreous where, alongside VEGF, it independently spurs the fragile new vessels that bleed and scar.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

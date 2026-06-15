@@ -136,6 +136,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: modulated-by
     note: "Ghrelin from gastric fundus X/A cells rises preprandially → vagal GHSR1a → gastric motility (prokinetic); relamorelin (GHSR1a agonist) showed Phase 2b efficacy for diabetic gastroparesis; ghrelin falls after eating, coordinating hunger and gastric emptying."
+  - target: 01-human/04-cellular/smooth-muscle-cell
+    relation: connects-to
+    note: "The gut moves food by peristalsis: rings of smooth muscle contract in waves from esophagus to colon, coordinated by the enteric nervous system, so motility disorders arise when this muscle or its control fails."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "The gut is the body's gateway for iron: the duodenum absorbs dietary iron, so malabsorption or chronic GI bleeding here is a leading cause of iron-deficiency anemia."
+  - target: 01-human/01-subatomic/photon
+    relation: connects-to
+    note: "The digestive tract is explored with light and radiation: endoscopy shines visible-light photons into the gut lumen, while X-ray photons in barium studies and CT trace its structure and motility."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -264,6 +273,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Renal System](../renal-system/README.md) — fluid and electrolyte balance shared between GI absorption and renal excretion; GI fluid losses cause prerenal AKI.
 - **Damaged by:** SARS-CoV-2 — GI manifestations (diarrhea, nausea, anorexia), liver injury via ACE2 in enterocytes/cholangiocytes.
 - **Damaged by:** Mycobacterium tuberculosis — GI TB (ileocecal most common), peritoneal TB.
+- **Connects to:** [Smooth Muscle Cell](../../04-cellular/smooth-muscle-cell/README.md) — peristalsis: waves of smooth-muscle contraction from esophagus to colon, coordinated by the enteric nervous system; motility disorders when it fails.
+- **Connects to:** [Iron](../../02-atomic/iron/README.md) — the duodenum is the body's gateway for dietary iron; malabsorption or chronic GI bleeding here drives iron-deficiency anemia.
+- **Connects to:** [Photon](../../01-subatomic/photon/README.md) — explored with light and radiation: endoscopy shines visible light into the lumen, while X-ray photons in barium studies and CT trace structure.
 
 ## Pathology
 
